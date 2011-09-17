@@ -497,19 +497,19 @@ I_C_T ~%tutu_var%TRACEA~ 4 X#VicTrac4
 I_C_T ~%tutu_var%TRACEA~ 5 X#VicTrac5
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 END
 
-// I_C_T ~%tutu_var%WENRIC~ 1 X#VicWenric
-// == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @114 
-// == ~%tutu_var%WENRIC~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @115
-// END
+//I_C_T ~%tutu_var%WENRIC~ 1 X#VicWenric
+//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @114 
+//== ~%tutu_var%WENRIC~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @115
+//END
 
 /*  Xan */
 I_C_T ~%tutu_var%ANDRIS~ 1 X#XANANDRIS1
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Global("X#ANDRIS2","GLOBAL",0)~ THEN @116
 END
 
-// I_C_T ~%tutu_var%ANDRIS~ 2 X#X#XANANDRIS1b
-// == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @116
-// END
+//I_C_T ~%tutu_var%ANDRIS~ 2 X#X#XANANDRIS1b
+//== ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @116
+//END
 
 I_C_T ~%tutu_var%ANDRIS~ 3 X#XANANDRIS1
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Global("X#ANDRIS2","GLOBAL",0)~ THEN @116
@@ -580,7 +580,7 @@ END
 /* passback not required - no trans actions */
 I_C_T3 ~%tutu_var%ANDRIS~ 2 X#ANDRIS2
 == ~%ALORA_JOINED%~ IF ~InParty("alora") InMyArea("alora") !StateCheck("alora",CD_STATE_NOTVALID)~ THEN @11
-== ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Global("X#XANANDRIS1","GLOBAL",0) Global("X#XANANDRIS2","GLOBAL",0)~ THEN @116
+== ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Global("X#XANANDRIS1a","GLOBAL",0) Global("X#XANANDRIS1c","GLOBAL",0) Global("X#XANANDRIS1d","GLOBAL",0)~ THEN @116
 END
 
 /* Delainy */
