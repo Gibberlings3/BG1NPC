@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 //  MODDER
 
 /* WeiDU v204 allows tp2 level version listing in the .log, so no more tra changes  */
-VERSION ~v19alphajune152011~
+VERSION ~v19~
 
 /* launch the readme file immediately. If you want to disable the ReadMe, place two slashes before it, like // README  */
 README ~bg1npc/readme-bg1npc.html~
@@ -62,6 +62,44 @@ BEGIN @1005
   /* Defines regexp whitespaces */
   OUTER_SPRINT "whitespace" "[%tab% %lnl%%mnl%%wnl%]+"
 
+  /* Ascension64's Bere"gost" Fix - very cool!  AR3300, FW3300, AR6700 (BG1, BGTutu, BGT) */
+	ACTION_FOR_EACH ~filetofix~ IN ~fw3300.are~ ~ar6700.are~ BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~%filetofix%~ THEN BEGIN
+			COPY_EXISTING ~%filetofix%~ ~override~
+			READ_LONG 0xA4 nDoors
+			READ_LONG 0xA8 offDoors
+			READ_LONG 0x7C offPoints
+			READ_LONG 0x80 nPoints
+			SET i = 0
+			FOR (i = 0; i < nDoors; i += 1) BEGIN
+				READ_ASCII ( %offDoors% + %i% * 0xC8 + 0x20 ) DoorId
+				PATCH_IF ( "%DoorId%" STRING_EQUAL "DOOR3304" ) BEGIN
+				  READ_LONG ( %offDoors% + %i% * 0xC8 + 0x48 ) idxPointsImpededOpen
+				  READ_SHORT ( %offDoors% + %i% * 0xC8 + 0x4C ) nPointsImpededOpen
+				  SET j = 0
+				  FOR (j = %idxPointsImpededOpen%; j < %idxPointsImpededOpen% + %nPointsImpededOpen%; j += 1) BEGIN
+					READ_SHORT ( %offPoints% + %j% * 0x4) x
+					READ_SHORT ( %offPoints% + %j% * 0x4 + 0x2) y
+					PATCH_IF ( x = 243 && y = 326 ) BEGIN
+					  WRITE_SHORT ( %offPoints% + %j% * 0x4) 233
+					  WRITE_SHORT ( %offPoints% + %j% * 0x4 + 0x2) 302
+					END
+					PATCH_IF ( x = 243 && y = 327 ) BEGIN
+					  WRITE_SHORT ( %offPoints% + %j% * 0x4) 233
+					  WRITE_SHORT ( %offPoints% + %j% * 0x4 + 0x2) 304
+					END
+					PATCH_IF ( x = 242 && y = 325 ) BEGIN
+					  WRITE_SHORT ( %offPoints% + %j% * 0x4) 232
+					  WRITE_SHORT ( %offPoints% + %j% * 0x4 + 0x2) 304
+					END
+					PATCH_IF ( x = 233 && y = 303 ) BEGIN
+					END
+				  END
+				END
+			END
+		END
+	END
+  
   /*  Nythrun's Broken CRE Order and Effects Macros are depreciated - her Fix is now part of WeiDU, with troubleshooting/extension by Miloch */
   /* Miloch's and older fixes combined here using PATCH_IF - less touching of the file = good thing */
   /* As far as I can tell the fixes are from Nythrun, Dudleyville, Miloch (especially Gnome fixes), and Tutu v4 conversion hiccups, and BGT vs Tutu script assignments - cmorgan, March 26, 2011 */
@@ -329,7 +367,7 @@ BEGIN @1005
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 12 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%alora6.cre~ = 0) BEGIN                
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%alora6.cre~ = 0) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%ALORA~ #8 //  override script
 					WRITE_ASCIIE 0x2CC ~%tutu_var%ALORA~ #8 //  dialog
 					WRITE_BYTE 0x54 9  // Save vs. Death
@@ -338,7 +376,7 @@ BEGIN @1005
 					WRITE_BYTE 0x57 15 // Save vs. Breath
 					WRITE_BYTE 0x58 10 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%bently.cre~ = 0) BEGIN Bentley Mirrorshade (in FAI L1)
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%bently.cre~ = 0) BEGIN /* Bentley Mirrorshade (in FAI L1) */
 					WRITE_SHORT 0x24 50 // Current HP (was 41)
 					WRITE_SHORT 0x26 50 // Max HP (was 41)
 					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
@@ -1589,11 +1627,8 @@ BEGIN @1005
   APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 
   /* ACTION.IDS and TRIGGER.IDS patching to ToB - thanks, Cam, if you read it */
-  INCLUDE ~BG1NPC/LIB/tob2soa.tph~
-
-  /* GTIMES.IDS, ANIMATE.IDS patching to ToB, courtesy of the BG2 Fix Pack */
-  INCLUDE ~BG1NPC/LIB/ids_entries_gtimes.tph~
-  INCLUDE ~BG1NPC/LIB/ids_entries_animate.tph~
+  /* and GTIMES.IDS, ANIMATE.IDS patching to ToB, courtesy of the BG2 Fix Pack */
+  INCLUDE ~BG1NPC/LIB/ids_entries_cleanup.tph~
 
   ACTION_IF (FILE_EXISTS_IN_GAME ~FW0100.are~) THEN BEGIN
     /* Cleaning J files from junk states */
