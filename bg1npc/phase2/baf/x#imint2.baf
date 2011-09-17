@@ -209,7 +209,7 @@ PlaySound("imoen99")
 StartDialogNoSet(Player1)
 END
 
-/* Jenkal Dead */
+/* Laryssa Dead */
 IF %BGT_VAR%
 AreaCheck("%ArchaeologicalSite%")
 Global("X#ImoenLaryssa2","GLOBAL",0)
@@ -225,7 +225,7 @@ RESPONSE #100
 SetGlobal("X#ImoenLaryssa2","GLOBAL",1)
 END
 
-/* Initiate Jenkal Dead */
+/* Initiate Laryssa Dead */
 IF %BGT_VAR%
 Global("X#ImoenLaryssa2","GLOBAL",1)
 InParty(Myself)

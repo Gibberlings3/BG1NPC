@@ -3791,7 +3791,7 @@ BEGIN @1007
     WRITE_SHORT 0x24 ~25~ // Current HP (usually 18)
     WRITE_SHORT 0x26 ~25~ // Maximum HP (usually 18)
     WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
-    WRITE_ASCII 0x248 ~X#IMPSPL~ #8 //  override script no combat scripting assigned in bcs, so should not respond
+    WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
     WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
 
   COPY_EXISTING ~MEPSMO01.cre~ ~override/x#mepht1.cre~
