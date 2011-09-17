@@ -1,0 +1,6 @@
+IF %BGT_VAR%
+Global("P#Rain","GLOBAL",3)
+THEN
+RESPONSE #100
+Weather(RAIN)
+END

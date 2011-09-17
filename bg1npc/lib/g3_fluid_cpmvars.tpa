@@ -1,0 +1,115 @@
+  //OUTER_SET BGTBEDWINState0, vanilla _BEDWIN = 15 states {0-15} //done
+  OUTER_FOR (cpv = 0; cpv < 16; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTBEDWINState%cpv%~ = cpv + BGTBEDWINState0
+  END
+  //OUTER_SET BGTBJAHEIState0 vanilla _BJAHEI = 9 states {0-8} //done
+  OUTER_FOR (cpv = 0; cpv < 9; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTBJAHEIState%cpv%~ = cpv + BGTBJAHEIState0
+  END
+  //OUTER_SET BGTBMINSCState0 vanilla _BMINSC = 9 states {0-8} //done 
+  OUTER_FOR (cpv = 0; cpv < 9; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTBMINSCState%cpv%~ = cpv + BGTBMINSCState0
+  END
+  //OUTER_SET BGTBVICONState0 vanilla _BVICON = 13 states {0-12} //done
+  OUTER_FOR (cpv = 0; cpv < 13; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTBVICONState%cpv%~ = cpv + BGTBVICONState0
+  END
+  //OUTER_SET BGTEDWINState0 vanilla _EDWIN = 29 states {0-28} //done
+  OUTER_FOR (cpv = 0; cpv < 29; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTEDWINState%cpv%~ = cpv + BGTEDWINState0
+  END
+  //OUTER_SET BGTEDWINJState0 vanilla _EDWINJ = 13 states {0-12} //done
+  OUTER_FOR (cpv = 0; cpv < 14; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTEDWINJState%cpv%~ = cpv + BGTEDWINJState0
+  END
+  //OUTER_SET BGTEDWINPState0 vanilla _EDWINP = 5 states {0-4} //done
+  OUTER_FOR (cpv = 0; cpv < 6; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTEDWINPState%cpv%~ = cpv + BGTEDWINPState0
+  END
+  //OUTER_SET BGTIMOEN2State0 vanilla _IMOEN2 = 5 states {0-4}  After CandleKeep Chap 1 joining
+  OUTER_FOR (cpv = 0; cpv < 6; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTIMOEN2State%cpv%~ = cpv + BGTIMOEN2State0
+  END
+  //OUTER_SET BGTIMOENJState0 BGT added happiness state = 1 states {0}
+  OUTER_FOR (cpv = 0; cpv < 2; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTIMOENJState%cpv%~ = cpv + BGTIMOENJState0
+  END
+  //OUTER_SET BGTIMOENPState0 vanilla _IMOENP = 5 states {0-4}
+  OUTER_FOR (cpv = 0; cpv < 6; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTIMOENPState%cpv%~ = cpv + BGTIMOENPState0
+  END
+  //OUTER_SET BGTJAHEIJState0 vanilla _JAHEIJ = 6 states {0-5} //done
+  OUTER_FOR (cpv = 0; cpv < 7; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTJAHEIJState%cpv%~ = cpv + BGTJAHEIJState0
+  END
+  //OUTER_SET BGTJAHEIPState0 vanilla _JAHEIP = 9 states {0-8} //done
+  OUTER_FOR (cpv = 0; cpv < 10; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTJAHEIPState%cpv%~ = cpv + BGTJAHEIPState0
+  END
+  //OUTER_SET BGTMINSCJState0 vanilla _MINSCJ = 8 states {0-7} //done
+  OUTER_FOR (cpv = 0; cpv < 9; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTMINSCJState%cpv%~ = cpv + BGTMINSCJState0
+  END
+  //OUTER_SET BGTMINSCPState0 vanilla _MINSCP = 9 states {0-8} //done
+  OUTER_FOR (cpv = 0; cpv < 10; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTMINSCPState%cpv%~ = cpv + BGTMINSCPState0
+  END
+  //OUTER_SET BGTVICONJState0 vanilla _VICONJ = 2 states {0-1} //done
+  OUTER_FOR (cpv = 0; cpv < 3; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTVICONJState%cpv%~ = cpv + BGTVICONJState0
+  END
+  //OUTER_SET BGTVICONPState0 vanilla _VICONP = 6 states {0-5} //done
+  OUTER_FOR (cpv = 0; cpv < 7; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTVICONPState%cpv%~ = cpv + BGTVICONPState0
+  END
+  //Never Ending Journey 2 compatibility appending
+  //OUTER_SET BGTXANState0 vanilla _XAN = 11 states {0-10} //done
+  OUTER_FOR (cpv = 0; cpv < 12; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTXANState%cpv%~ = cpv + BGTXANState0
+  END
+  //The Darkest Day compatibility appending
+  //OUTER_SET BGTKAGAIPState0 vanilla _KAGAIP = 6 states {0-5} //done
+  OUTER_FOR (cpv = 0; cpv < 7; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTKAGAIPState%cpv%~ = cpv + BGTKAGAIPState0
+  END
+  //OUTER_SET BGTKIVANPState0 vanilla _KIVANP = 6 states {0-5} //done
+  OUTER_FOR (cpv = 0; cpv < 7; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTKIVANPState%cpv%~ = cpv + BGTKIVANPState0
+  END
+  //OUTER_SET BGTSHARTPState0 vanilla _SHARTP = 5 states {0-4} //done
+  OUTER_FOR (cpv = 0; cpv < 6; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTSHARTPState%cpv%~ = cpv + BGTSHARTPState0
+  END
+  //OUTER_SET BGTXZARPState0 vanilla _XZARP = 10 states {0-9} //done
+  OUTER_FOR (cpv = 0; cpv < 11; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTXZARPState%cpv%~ = cpv + BGTXZARPState0
+  END
+  //OUTER_SET BGTYESLIPState0 vanilla _YESLIP = 6 states {0-5} //done
+  OUTER_FOR (cpv = 0; cpv < 7; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTYESLIPState%cpv%~ = cpv + BGTYESLIPState0
+  END
+  //Tortured Souls compatibility appending
+  //OUTER_SET BGTBCORANState0 vanilla _BCORAN = 9 states {0-8} //done
+  OUTER_FOR (cpv = 0; cpv < 10; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTBCORANState%cpv%~ = cpv + BGTBCORANState0
+  END
+  //OUTER_SET BGTCORANState0 vanilla _CORAN = 17 states {0-16} //done
+  OUTER_FOR (cpv = 0; cpv < 18; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTCORANState%cpv%~ = cpv + BGTCORANState0
+  END
+  //OUTER_SET BGTCORANJState0 vanilla _CORANJ = 9 states {0-8} //done
+  OUTER_FOR (cpv = 0; cpv < 10; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTCORANJState%cpv%~ = cpv + BGTCORANJState0
+  END
+  //OUTER_SET BGTCORANPState0 vanilla _CORANP = 6 states {0-5} //done
+  OUTER_FOR (cpv = 0; cpv < 7; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTCORANPState%cpv%~ = cpv + BGTCORANPState0
+  END
+  //OUTER_SET BGTDYNAHJState0 vanilla _DYNAHJ = 12 states {0-11} //done
+  OUTER_FOR (cpv = 0; cpv < 13; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTDYNAHJState%cpv%~ = cpv + BGTDYNAHJState0
+  END
+  //OUTER_SET BGTDYNAHPState0 vanilla _DYNAHP = 9 states {0-8} //done
+  OUTER_FOR (cpv = 0; cpv < 10; cpv += 1) BEGIN
+    OUTER_SET EVALUATE_BUFFER ~BGTDYNAHPState%cpv%~ = cpv + BGTDYNAHPState0
+  END

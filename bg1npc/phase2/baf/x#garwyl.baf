@@ -1,0 +1,276 @@
+IF
+  ActionListEmpty()
+  !ModalState(BATTLESONG)
+  !StateCheck(Myself,STATE_INVISIBLE)
+THEN
+  RESPONSE #100
+    BattleSong()
+    Wait(2)
+END
+
+IF
+  NumTimesTalkedTo(0)
+  Detect([PC])
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  Detect([GOODCUTOFF])
+  HaveSpell(WIZARD_DETECT_INVISIBILITY)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !See(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(Myself,WIZARD_DETECT_INVISIBILITY)
+END
+
+IF
+  HPPercentLT(Myself,40)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !GlobalTimerNotExpired("X#MSP","LOCALS")
+  !GlobalGT("X#MDS","GLOBAL",1)
+  AttackedBy([0],DEFAULT)
+  Range(LastAttackerOf(),6)
+THEN
+  RESPONSE #100
+    IncrementGlobal("X#MDS","GLOBAL",1)
+    SetGlobalTimer("X#MSP","LOCALS",25)
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(Myself,4522)
+END
+
+IF
+  HPPercentLT(Myself,60)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !GlobalGT("X#MDE","LOCALS",0)
+  See(NearestEnemyOf())
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobal("X#MDE","LOCALS",1)
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),3680)
+END
+
+IF
+  HPPercentLT(Myself,80)
+  HaveSpell(3104)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  See(NearestEnemyOf())
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),3104)
+END
+
+IF
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !StateCheck(Myself,STATE_MIRRORIMAGE)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  HaveSpell(WIZARD_HASTE)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !StateCheck(Myself,STATE_HASTED)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(Myself,WIZARD_HASTE)
+END
+
+IF
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF.0.0.SORCERER])
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  HaveSpell(WIZARD_CONFUSION)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_CONFUSION)
+END
+
+IF
+  HaveSpell(WIZARD_SKULL_TRAP)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_SKULL_TRAP)
+END
+
+IF
+  HaveSpell(WIZARD_SLEEP)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_SLEEP)
+END
+
+IF
+  HaveSpell(WIZARD_HORROR)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_HORROR)
+END
+
+IF
+  HaveSpell(WIZARD_RAY_OF_ENFEEBLEMENT)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_RAY_OF_ENFEEBLEMENT)
+END
+
+IF
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  HaveSpell(WIZARD_SPOOK)
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !Range(LastSeenBy(),15)
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_SPOOK)
+END
+
+IF
+  !GlobalTimerNotExpired("X#MCA","LOCALS")
+  !GlobalTimerNotExpired("X#MSP","LOCALS")
+  !GlobalGT("X#MOS","GLOBAL",1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("X#MOS","GLOBAL",1)
+    SetGlobalTimer("X#MSP","LOCALS",25)
+    SetGlobalTimer("X#MCA","LOCALS",6)
+    Spell(Myself,4521)
+    Attack(NearestEnemyOf())
+END
+
+IF
+  !Range(LastSeenBy(),15)
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  AttackedBy([0],DEFAULT)
+  Range(LastAttackerOf(),6)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Attack(LastAttackerOf())
+END
+
+IF
+  AttackedBy([0],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf())
+END
+
+IF
+  Range(LastSeenBy(),15)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

@@ -1,0 +1,33 @@
+@0    = ~¡Fuera de mi vista, bribón! ¡Idos!~
+@1    = ~Libros, libros, libros. ¡Fuera de mi vista, jóvenes bribones! En mis tiempos la juventud era más respetuosa con sus mayores... Y sabía mucha más literatura. Oh sí. Bah.~
+@2    = ~¿Sí? Bueno, ¡bah para vos también, viejo!~
+@3    = ~Um, lo siento, señor.~
+@4    = ~Parece que Faerûn está plagado de viejos locos. Vamos. Rápido.~
+@5    = ~¡Ja! Como dije. Irrespetuosos. Tal vez podíais haber aprendido algo de mis incontables años de sabiduría, sin mencionar mis libros. Pero parece que sois demasiado bruto como para daros cuenta.~  ~¡Ja! Como dije. Irrespetuosos. Tal vez podíais haber aprendido algo de mis incontables años de sabiduría, sin mencionar mis libros. Pero parece que sois demasiado bruta como para daros cuenta.~ 
+@6    = ~¡Modales, eh! Parece que la vida moderna no ha erosionado los últimos vestigios de decencia en vos. Tal vez pueda ayudaros...~
+@7    = ~¿Ayudarme? ¿Cómo?~
+@8    = ~Dudo que un viejo tenga como para ayudarme. Mejor que me vaya.~
+@9    = ~Bueno, soy un bibliotecario. O solía serlo, aunque ahora estoy vendiendo mi colección para financiar mi retiro.~
+@10   = ~¿Oh sí? ¿Haciendo algo bueno?~
+@11   = ~*sentaros y escuchad*~
+@12   = ~Bla bla bla... Id al grano.~
+@13   = ~Me alegro que me hayáis preguntado, tengo planeado ir más al sur, hacia Amn, tal vez a las Colinas de Umar...~
+@14   = ~No me creo todo esto de la guerra. Por lo que me concierne, es un lugar pacífico y pequeño, donde nunca pasa nada. Nada inesperado, ni aventureros ni nada. Zilch. Tendré una vida tranquila. ¡Y lo mejor de todo, no más libros!~
+@15   = ~Puede que no estéis de acuerdo, pero tengo un gran poder del sentido común para estas cosas. En fin, no viene al caso. Me distraéis.~
+@16   = ~Sí, lo siento. ¿Decíais?~
+@17   = ~Sí, Estoy vendiendo mi colección, aunque ya tengo dinero suficiente para vivir. Tengo pocos libros ya. Tal vez os interese este: El Gran Compendio de Famosos Héroes Desconocidos, de un amigo mío, un tal Saemon Schama.~
+@18   = ~Guau, ¿en serio es El Gran Compendio de Famosos Héroes Desconocidos, por Saemon Schama? Por favor, <CHARNAME>, ¡es un gran libro! ¡Me encantaría tenerlo!~
+@19   = ~Ah, ¿sois un estudioso, hijo?~
+@20   = ~Un bardo, señor... siempre he querido una copia, desde que era pequeñito. Es un clásico, ¡el autor es un genio!~
+@21   = ~Aunque no está a mi nivel, es un tío bastante inteligente, <CHARNAME>. Digo, para ser humano, claro, cualquier cosa que haya escrito merece al menos una miradita rápida.~
+@22   = ~Bueno, si os agrada, os lo daré gratis. Es raro conocer gente tan educada como vosotros. Buenos negocios para vos. Ahora, si me lo permitís, tengo que preparar mi retiro. Un consejo final: las cosas que se leen en libros pueden ser muy útiles. Oh sí.~
+@23   = ~Oh, ¿un bibliotecario senil le da un tomo importante a un bardo aventurero? Por favor, ¿qué es esto? ¿Qué hice para merecer estos compañeros tan idiotas?~
+@24   = ~Sois es un buen señor, no lo olvidaré.~
+@25   = ~¡Hey, <CHARNAME>! Hay un pasaje en el libro acerca del ya sin vida, bardo medio elfo Myr'Cutio, de quien se dice ronda como no-muerto por los valles de un sitio llamado Ulcaster buscando historias de aventuras. Hay unas direcciones, está cerca, ¡al este de Beregost! ¿Tal vez podamos verlo?~
+@26   = ~No veo por qué no. Si es verdad, tal vez aprendamos algo.~
+@27   = ~Pensé que ese bibliotecario loco ya era suficiente, Garrick, pero si no os calláis, os meteré el libro donde no brilla el sol, no sé si me entendéis...~
+@28   = ~¡Guau! Gracias, <CHARNAME>.~
+@29   = ~Bibliotecarios viajeros.
+
+Hoy conocimos a un viejo bibliotecario llamado Archibaldo en el carnaval de Nashkel. Nos dio una copia de El Gran Compendio de Famosos Héroes Desconocidos por Saemon Schama, que tiene una sección muy interesante que habla del semielfo Myr'Cutio, un no-muerto que se encuentra cerca de Ulcaster, una región al este de Beregost. Garrick quiere ir a echar un vistazo.~
+@30   = ~Bien. Seguro que nos arrepentiremos si no vamos...~

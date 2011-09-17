@@ -1,0 +1,129 @@
+IF
+	GGT("Chapter",1)
+	G("FWBanterGooseRun",0)
+THEN
+	RESPONSE #100
+		SetGlobal("FWBanterGooseRun","GLOBAL",1)
+		RealSetGlobalTimer("FWBanterGoose","GLOBAL",2500)
+END
+
+IF
+	RealGlobalTimerExpired("FWBanterGoose","GLOBAL")
+	G("FWRanABanter",1)
+THEN
+	RESPONSE #100
+		SetGlobal("FWRanABanter","GLOBAL",0)
+		RealSetGlobalTimer("FWBanterGoose","GLOBAL",2500)
+END
+
+IF
+	RealGlobalTimerExpired("FWBanterGoose","GLOBAL")
+	G("FWRanABanter",0)
+	CombatCounter(0)
+	InParty(Player1)
+	InParty(Player2)
+	!InParty(Player3)
+	!InParty(Player4)
+	!InParty(Player5)
+	!InParty(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player2,Interact(Player2))
+END
+
+IF
+	RealGlobalTimerExpired("FWBanterGoose","GLOBAL")
+	G("FWRanABanter",0)
+	CombatCounter(0)
+	InParty(Player1)
+	InParty(Player2)
+	InParty(Player3)
+	!InParty(Player4)
+	!InParty(Player5)
+	!InParty(Player6)
+THEN
+	RESPONSE #50
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player2,Interact(Player2))
+	RESPONSE #50
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player3,Interact(Player3))
+END
+
+IF
+	RealGlobalTimerExpired("FWBanterGoose","GLOBAL")
+	G("FWRanABanter",0)
+	CombatCounter(0)
+	InParty(Player1)
+	InParty(Player2)
+	InParty(Player3)
+	InParty(Player4)
+	!InParty(Player5)
+	!InParty(Player6)
+THEN
+	RESPONSE #34
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player2,Interact(Player2))
+	RESPONSE #33
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player3,Interact(Player3))
+	RESPONSE #33
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player4,Interact(Player4))
+END
+
+IF
+	RealGlobalTimerExpired("FWBanterGoose","GLOBAL")
+	G("FWRanABanter",0)
+	CombatCounter(0)
+	InParty(Player1)
+	InParty(Player2)
+	InParty(Player3)
+	InParty(Player4)
+	InParty(Player5)
+	!InParty(Player6)
+THEN
+	RESPONSE #25
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player2,Interact(Player2))
+	RESPONSE #25
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player3,Interact(Player3))
+	RESPONSE #25
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player4,Interact(Player4))
+	RESPONSE #25
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player5,Interact(Player5))
+END
+
+IF
+	RealGlobalTimerExpired("FWBanterGoose","GLOBAL")
+	G("FWRanABanter",0)
+	CombatCounter(0)
+	InParty(Player1)
+	InParty(Player2)
+	InParty(Player3)
+	InParty(Player4)
+	InParty(Player5)
+	InParty(Player6)
+THEN
+	RESPONSE #20
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player2,Interact(Player2))
+	RESPONSE #20
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player3,Interact(Player3))
+	RESPONSE #20
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player4,Interact(Player4))
+	RESPONSE #20
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player5,Interact(Player5))
+	RESPONSE #20
+		SetGlobal("FWRanABanter","GLOBAL",1)
+		ActionOverride(Player6,Interact(Player6))
+END
+
+

@@ -1,0 +1,237 @@
+/* combat scripts */
+IF
+Die()
+THEN
+RESPONSE #100
+IncrementGlobal("KilledDruids","GLOBAL",1)
+END
+
+IF
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+NoAction()
+END
+
+IF
+StateCheck(Myself,STATE_POISONED)
+HaveSpell(CLERIC_SLOW_POISON)
+!GlobalTimerNotExpired("X#BCA","LOCALS")
+!HasItem("%tutu_var%POTN20",Myself)
+!StateCheck(Myself,STATE_SILENCED)
+!CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+RESPONSE #100
+SetGlobalTimer("X#BCA","LOCALS",6)
+Spell(Myself,CLERIC_SLOW_POISON)
+END
+
+IF
+HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+!GlobalTimerNotExpired("X#BCA","LOCALS")
+HPPercentLT(Myself,50)
+!StateCheck(Myself,STATE_SILENCED)
+!CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+RESPONSE #100
+SetGlobalTimer("X#BCA","LOCALS",6)
+Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+ HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ HPPercentLT(Myself,75)
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+ HaveSpell(CLERIC_IRONSKIN)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(Myself,CLERIC_IRONSKIN)
+END
+
+IF
+ HaveSpell(CLERIC_BARKSKIN)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(Myself,CLERIC_BARKSKIN)
+END
+
+IF
+ !GlobalGT("X#BSA","LOCALS",0)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ SetGlobal("X#BSA","LOCALS",1)
+ Spell(Myself,4621)
+END
+
+IF
+ HaveSpell(CLERIC_ARMOR_OF_FAITH)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(Myself,CLERIC_ARMOR_OF_FAITH)
+END
+
+IF
+ !See([GOODCUTOFF.0.0.DRUID_ALL])
+ !See([GOODCUTOFF.0.0.MAGE_ALL])
+ !See([GOODCUTOFF.0.0.CLERIC_ALL])
+ !See([GOODCUTOFF.0.0.BARD_ALL])
+ !See([GOODCUTOFF.0.0.THIEF_ALL])
+ !See([GOODCUTOFF])
+ False()
+THEN
+ RESPONSE #100
+ Continue()
+END
+
+IF
+ HaveSpell(CLERIC_MISCAST_MAGIC)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ CheckStatLT(LastSeenBy(),80,SPELLFAILUREMAGE)
+ CheckStatLT(LastSeenBy(),80,SPELLFAILUREPRIEST)
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+ !HasBounceEffects(LastSeenBy())
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(LastSeenBy(),CLERIC_MISCAST_MAGIC)
+END
+
+IF
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ HasItem("%tutu_var%POTN21",Myself)
+THEN
+ RESPONSE #100
+ UseItem("%tutu_var%POTN21",Myself)
+ SetGlobalTimer("X#BCA","LOCALS",6)
+END
+
+IF
+ HaveSpell(CLERIC_CHARM_PERSON)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(LastSeenBy(),STATE_SLEEPING)
+ !StateCheck(LastSeenBy(),STATE_HELPLESS)
+ !StateCheck(LastSeenBy(),STATE_CHARMED)
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+ !HasBounceEffects(LastSeenBy())
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(LastSeenBy(),CLERIC_CHARM_PERSON)
+END
+
+IF
+ HaveSpell(CLERIC_BLESS)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !StateCheck(Myself,STATE_BLESS)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(Myself,CLERIC_BLESS)
+END
+
+IF
+ HaveSpell(CLERIC_ENTANGLE)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(LastSeenBy(),STATE_SLEEPING)
+ !StateCheck(LastSeenBy(),STATE_HELPLESS)
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+ !HasBounceEffects(LastSeenBy())
+ !Range(LastSeenBy(),15)
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(LastSeenBy(),CLERIC_ENTANGLE)
+END
+
+IF
+ HaveSpell(CLERIC_CALL_LIGHTNING)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+ !HasBounceEffects(LastSeenBy())
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(LastSeenBy(),CLERIC_CALL_LIGHTNING)
+END
+
+IF
+ HaveSpell(CLERIC_POISON)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+ !HasBounceEffects(LastSeenBy())
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(LastSeenBy(),CLERIC_POISON)
+END
+
+IF
+ HaveSpell(CLERIC_SUMMON_INSECTS)
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+ !StateCheck(Myself,STATE_SILENCED)
+ !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+ !HasBounceEffects(LastSeenBy())
+THEN
+ RESPONSE #100
+ SetGlobalTimer("X#BCA","LOCALS",6)
+ Spell(LastSeenBy(),CLERIC_SUMMON_INSECTS)
+END
+
+IF
+ GlobalTimerNotExpired("X#BCA","LOCALS")
+THEN
+ RESPONSE #100
+ AttackOneRound(LastSeenBy())
+END
+
+IF
+ !GlobalTimerNotExpired("X#BCA","LOCALS")
+THEN
+ RESPONSE #100
+ Attack(LastSeenBy())
+END
+
+IF
+ AttackedBy([GOODCUTOFF],DEFAULT)
+ !Allegiance(Myself,ENEMY)
+THEN
+ RESPONSE #100
+ Enemy()
+END
+
+IF
+ AttackedBy([0],DEFAULT)
+THEN
+ RESPONSE #100
+ Attack(LastAttackerOf())
+END

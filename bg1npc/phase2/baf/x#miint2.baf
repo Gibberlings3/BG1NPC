@@ -1,0 +1,436 @@
+/* Minsc, When first entering the Candlekeep catacombs */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Catacombs_L1%")
+Global("X#MWFETCC","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MWFETCC","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MWFETCC","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Myself)
+END
+
+/* Minsc, When Entering The First Level Of The Low Lantern (gambling ship) */
+IF %BGT_VAR%
+AreaCheck("%BaldursGate_DocksLowLantern_D1%")
+Global("X#MWETFLOTLL","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MWETFLOTLL","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MWETFLOTLL","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Myself)
+END
+
+/* Minsc, Upon Entering The Area Where Cloakwood Mines Are Located */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodMines_MineShed%")
+Global("X#MUETAWCMAL","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MUETAWCMAL","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MUETAWCMAL","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Myself)
+END
+
+/* Minsc, Upon entering the Lost City: */
+IF %BGT_VAR%
+AreaCheck("%Undercity%")
+Global("X#MUETLC","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MUETLC","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MUETLC","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Myself)
+END
+
+/* Vitiare */
+IF %BGT_VAR%
+AreaCheck("%NashkelCarnival_VitiaresTent%")
+OR(2)
+Global("X#MinscVitiare","GLOBAL",1)
+Global("X#MinscVitiare","GLOBAL",4)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+IncrementGlobal("X#MinscVitiare","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+OR(2)
+Global("X#MinscVitiare","GLOBAL",2)
+Global("X#MinscVitiare","GLOBAL",5)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* Gnoll's Stronghold, Khalid NIP */
+IF %BGT_VAR%
+AreaCheck("%GnollStronghold%")
+Global("X#MinscStronghold","GLOBAL",0)
+GlobalLT("X#DYQJournalTalk","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!InParty("khalid")
+THEN
+RESPONSE #100
+SetGlobal("X#MinscStronghold","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MinscStronghold","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* BG Sewers */
+IF %BGT_VAR%
+GlobalGT("X#MUETAWCMAL","GLOBAL",1)
+Global("X#MinscSewer","GLOBAL",0)
+OR(4)
+AreaCheck("%BaldursGate_Undercellars%")
+AreaCheck("%WSewers%")
+AreaCheck("%CentralSewers%")
+AreaCheck("%ESewers%")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MinscSewer","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MinscSewer","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* Minsc Edwin Pre-Dynaheir Shutdown */
+IF %BGT_VAR%
+Global("X#MinscProtestsEdwin","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("dynaheir")
+THEN
+RESPONSE #100
+SetGlobal("X#MinscProtestsEdwin","GLOBAL",5)
+END
+
+/* Minsc attacks party if joined Edwin */
+IF %BGT_VAR%
+Global("X#MinscProtestsEdwin","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("edwin")
+!StateCheck("edwin",CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!InParty("dynaheir")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MinscProtestsEdwin","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#MinscProtestsEdwin","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("edwin")
+!StateCheck("edwin",CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!InParty("dynaheir")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* Ankhegs */
+IF %BGT_VAR%
+AreaCheck("%FishingVillage%")
+Global("X#MinscAnkhegs","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MinscAnkhegs","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MinscAnkhegs","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* Lighthouse */
+IF %BGT_VAR%
+AreaCheck("%Lighthouse%")
+Global("X#Minsc3600","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#Minsc3600","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#Minsc3600","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* Cloakwood Nest */
+IF %BGT_VAR%
+Global("X#Minsc2100","GLOBAL",0)
+AreaCheck("%CloakwoodNest%")
+Global("X#Minsc2100","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#Minsc2100","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#Minsc2100","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* CK Catacombs */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Catacombs_L1%")
+Dead("phlydia")
+Global("X#MinscPhlydia","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MinscPhlydia","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#MinscPhlydia","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+Dialog(Player1)
+END
+
+/* Gallor */
+IF %BGT_VAR%
+GlobalGT("X#DynaMinscHelpGallor","GLOBAL",0) //auto-set from Dynaheir interjection
+Global("X#MinscHelpGallor","GLOBAL",0)
+InParty(Myself) //No "CombatCounter(0)" here!
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MinscHelpGallor","GLOBAL",1)
+SetLeavePartyDialogFile()
+ChangeAIScript("",DEFAULT)
+LeaveParty()
+Enemy()
+END
+
+/* REPLACED MISSING DIALOGUE TRIGGER */
+
+/* Minsc and Boo on Traps and Spiders */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Catacombs_L1%")
+Global("X#Minsc2615","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#Minsc2615","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#Minsc2615","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+StartDialogNoSet(Player1)
+END
+
+/* Minsc and the Slimes */
+IF %BGT_VAR%
+Global("X#MinscDTSlimes","GLOBAL",0)
+AreaCheck("%DurlagsTower_EarthChamber%")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MinscDTSlimes","GLOBAL",1)
+END
+
+IF
+Global("X#MinscDTSlimes","GLOBAL",1)
+AreaCheck("%DurlagsTower_EarthChamber%")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+StartDialogNoSet(Player1)
+END

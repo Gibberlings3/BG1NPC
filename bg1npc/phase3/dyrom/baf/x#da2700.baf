@@ -1,0 +1,11 @@
+/* End DyDead Cutscene, End Game */
+IF %BGT_VAR%
+OR(2)
+Global("X#DynaDeath","GLOBAL",6)
+Global("endofbg1","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("endofbg1","GLOBAL",3)
+StartMovie("%tutu_var%NDCRDIT")
+EndCredits()
+END

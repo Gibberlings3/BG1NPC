@@ -1,0 +1,20 @@
+IF %BGT_VAR%
+!Global("X#CoranSuccubus","GLOBAL",5)
+THEN
+RESPONSE #100
+MoveToPoint([1059.1089])
+Wait(4)
+RandomWalk()
+Wait(3)
+RandomWalk()
+Wait(3)
+RandomWalk()
+END
+
+IF %BGT_VAR%
+Global("X#CoranSuccubus","GLOBAL",5)
+See([PC])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

@@ -1,0 +1,16 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId("coran")
+	ClearAllActions()
+	Wait(2)
+	ActionOverride("X#ELHAN",EscapeArea())
+        SmallWait(1)
+	FaceObject("X#ELLES")
+	ActionOverride(Player1,FaceObject("X#ELLES"))
+	Wait(5)
+	ActionOverride("X#ELLES",StartDialogueNoSet(Player1))
+	EndCutSceneMode()
+END
+

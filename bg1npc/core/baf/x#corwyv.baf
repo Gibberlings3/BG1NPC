@@ -1,0 +1,65 @@
+/* Restored Stock Coran Response to Killing Wyvern */
+/* closed by vanilla dialog, setting Global("CoranReward","GLOBAL",1) */
+IF %BGT_VAR%
+Dead("X#CoranWyvern")
+Global("CoranReward","GLOBAL",0)
+Global("wyvernp","GLOBAL",0)
+PartyHasItem("%tutu_var%MISC52")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+Dialogue([PC])
+END
+
+/* Coran Warned Second Time Only If Not Romanced */
+IF %BGT_VAR%
+Global("X#CoranWyvernWarning1","GLOBAL",1)
+!Dead("X#CoranWyvern")
+GlobalTimerExpired("coran","GLOBAL")
+Global("X#CoranWyvernWarning2","GLOBAL",0)
+Global("CoranReward","GLOBAL",0)
+Global("wyvernp","GLOBAL",0)
+OR(2)
+!Global("P#CoranMatch","GLOBAL",1)
+Global("P#CoranRomanceInactive","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#CoranWyvernWarning2","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Coran Warned Only If Not Romanced First Time */
+IF %BGT_VAR%
+!Dead("X#CoranWyvern")
+GlobalTimerExpired("coran","GLOBAL")
+Global("X#CoranWyvernWarning1","GLOBAL",0)
+Global("CoranReward","GLOBAL",0)
+Global("wyvernp","GLOBAL",0)
+OR(2)
+!Global("P#CoranMatch","GLOBAL",1)
+Global("P#CoranRomanceInactive","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#CoranWyvernWarning1","GLOBAL",1)
+SetGlobal("P#CoranWyvern","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+

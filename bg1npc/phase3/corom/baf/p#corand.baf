@@ -1,0 +1,387 @@
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("P#CGLoveTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+OR(2)
+Global("P#CoranRomancePath","GLOBAL",1)
+Global("P#CoranRomancePath","GLOBAL",6)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+ReputationGT(Player1,10)
+OR(3)
+Global("P#CGLoveTalk","GLOBAL",9)
+Global("P#CGLoveTalk","GLOBAL",13)
+Global("P#CGLoveTalk","GLOBAL",25)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("P#CGLoveTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("P#CGLoveTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+OR(2)
+Global("P#CoranRomancePath","GLOBAL",1)
+Global("P#CoranRomancePath","GLOBAL",6)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+ReputationGT(Player1,10)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CGLoveTalk","GLOBAL",15)
+OR(20)
+AreaCheck("%Beregost_FeldepostsInn_L1%")
+AreaCheck("%Beregost_JovialJuggler_L1%")
+AreaCheck("%Beregost_RedSheaf_L1%")
+AreaCheck("%Beregost_BurningWizard_L1%")
+AreaCheck("%Nashkel_Inn%")
+AreaCheck("%EBaldursGate_KeexieTavern_L1%")
+AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+AreaCheck("%EBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Blade&Stars_L1%")
+AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+AreaCheck("%SWBaldursGate_Tavern_L1%")
+AreaCheck("%SWBaldursGate_YeOldeInn_L1%")
+AreaCheck("%NWBaldursGate_Helm&Cloak_L1%")
+AreaCheck("%NWBaldursGate_Tavern_L1%")
+AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
+AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
+AreaCheck("%FriendlyArmInn_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("P#CGLoveTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("P#CGLoveTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+OR(2)
+Global("P#CoranRomancePath","GLOBAL",1)
+Global("P#CoranRomancePath","GLOBAL",6)
+!Global("P#CoranRomancePath","GLOBAL",3)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("P#CGLoveTalk","GLOBAL",27)
+ReputationGT(Player1,10)
+TimeOfDay(NIGHT)
+AreaType(OUTDOOR)
+!AreaType(DUNGEON)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+SetGlobal("P#CoOcean","GLOBAL",1)
+IncrementGlobal("P#CGLoveTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* bored */
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("P#CGLoveTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("P#CoranRomancePath","GLOBAL",2)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(2)
+Global("P#CBoredTalk","GLOBAL",3)
+Global("P#CBoredTalk","GLOBAL",7)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+ReputationGT(Player1,10)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("coranf")
+IncrementGlobal("P#CBoredTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* neutral */
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("P#CNeutralTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("P#CoranRomancePath","GLOBAL",3)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(2)
+Global("P#CNeutralTalk","GLOBAL",3)
+Global("P#CNeutralTalk","GLOBAL",7)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corann")
+IncrementGlobal("P#CNeutralTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* boredneutral */
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("P#CNBoredTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("P#CoranRomancePath","GLOBAL",4)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CNBoredTalk","GLOBAL",3)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("coranf")
+IncrementGlobal("P#CNBoredTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* neutralsexy */
+IF %BGT_VAR%
+Global("P#CoranRomancePath","GLOBAL",5)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("P#CNSexTalk","GLOBAL",0)
+!AreaType(DUNGEON)
+InParty(Myself)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corann")
+IncrementGlobal("P#CNSexTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Comittment */
+IF %BGT_VAR%
+Global("P#CoranRomancePath","GLOBAL",7)
+InParty(Myself)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CorCommitTalk","GLOBAL",0)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("P#CorCommitTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Flirt */
+IF %BGT_VAR%
+Global("P#CFlirtTalk","GLOBAL",1)
+InParty(Myself)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+RealGlobalTimerExpired("P#CFlirtTalkTime","GLOBAL")
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!Global("P#CoranDisableFlirts","GLOBAL",1)
+Global("P#CoNight","GLOBAL",0)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+AreaType(FOREST)
+TimeOfDay(NIGHT)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("P#CoNight","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("P#CFlirtTalk","GLOBAL",1)
+InParty(Myself)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+RealGlobalTimerExpired("P#CFlirtTalkTime","GLOBAL")
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!Global("P#CoranDisableFlirts","GLOBAL",1)
+Global("P#CoInn","GLOBAL",0)
+GlobalGT("P#CoranLover","GLOBAL",0)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+TimeOfDay(NIGHT)
+OR(20)
+AreaCheck("%Beregost_FeldepostsInn_L1%")
+AreaCheck("%Beregost_JovialJuggler_L1%")
+AreaCheck("%Beregost_RedSheaf_L1%")
+AreaCheck("%Beregost_BurningWizard_L1%")
+AreaCheck("%Nashkel_Inn%")
+AreaCheck("%EBaldursGate_KeexieTavern_L1%")
+AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+AreaCheck("%EBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Blade&Stars_L1%")
+AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+AreaCheck("%SWBaldursGate_Tavern_L1%")
+AreaCheck("%SWBaldursGate_YeOldeInn_L1%")
+AreaCheck("%NWBaldursGate_Helm&Cloak_L1%")
+AreaCheck("%NWBaldursGate_Tavern_L1%")
+AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
+AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
+AreaCheck("%FriendlyArmInn_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("P#CoInn","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR% 
+RealGlobalTimerExpired("P#CRoReactionTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+InParty("minsc")
+!Global("P#CoranRomanceInactive", "GLOBAL",1)
+Global("P#CoranLover","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("minsc",CD_STATE_NOTVALID)
+Global("P#CRMI1","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+SetGlobal("P#CRMI1","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#CFlirtTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CFlirtTalk","GLOBAL",1)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!Global("P#CoranDisableFlirts","GLOBAL",1)
+Global("P#CorBhaal","GLOBAL",0)
+GlobalGT("P#CoranLover","GLOBAL",0)
+Global("P#KnowBhaal","GLOBAL",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corann")
+IncrementGlobal("P#CorBhaal","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR% 
+RealGlobalTimerExpired("X#CoHanaliTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#CoranHanaliRuneFirst","GLOBAL",0)
+Global("X#CoranHanaliRune","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("X#CoranHanaliRuneFirst","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR% 
+RealGlobalTimerExpired("X#CoHanaliTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaType(DUNGEON)
+!Global("P#CoranRomanceInactive", "GLOBAL",1)
+GlobalGT("P#CoranLover","GLOBAL",0)
+Global("X#CoranHanali","GLOBAL",1)
+OR(6)
+Global("X#CoranHanaliRune","GLOBAL",4)
+Global("X#CoranHanaliRune","GLOBAL",6)
+Global("X#CoranHanaliRune","GLOBAL",8)
+Global("X#CoranHanaliRune","GLOBAL",12)
+Global("X#CoranHanaliRune","GLOBAL",14)
+Global("X#CoranHanaliRune","GLOBAL",16)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("corang")
+IncrementGlobal("X#CoranHanaliRune","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Commitment Flirt 1 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#CFlirtTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CoranRomancePath","GLOBAL",7)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+!Global("P#CoranDisableFlirts","GLOBAL",1)
+Global("X#CoranMirrorFlirt","GLOBAL",0)
+GlobalGT("P#CoranLover","GLOBAL",0)
+OR(20)
+AreaCheck("%Beregost_FeldepostsInn_L1%")
+AreaCheck("%Beregost_JovialJuggler_L1%")
+AreaCheck("%Beregost_RedSheaf_L1%")
+AreaCheck("%Beregost_BurningWizard_L1%")
+AreaCheck("%Nashkel_Inn%")
+AreaCheck("%EBaldursGate_KeexieTavern_L1%")
+AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+AreaCheck("%EBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Blade&Stars_L1%")
+AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+AreaCheck("%SWBaldursGate_Tavern_L1%")
+AreaCheck("%SWBaldursGate_YeOldeInn_L1%")
+AreaCheck("%NWBaldursGate_Helm&Cloak_L1%")
+AreaCheck("%NWBaldursGate_Tavern_L1%")
+AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
+AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
+AreaCheck("%FriendlyArmInn_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("coranf")
+IncrementGlobal("X#CoranMirrorFlirt","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END

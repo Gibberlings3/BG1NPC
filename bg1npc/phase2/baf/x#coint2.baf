@@ -1,0 +1,236 @@
+/* Coran Interjections*/
+
+/* Coran Durlyle */
+IF %BGT_VAR%
+Global("X#CoranDur","GLOBAL",2)
+!See("durlyle")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranDur","GLOBAL",3)
+END
+
+/* Initiate: Coran Durlyle */
+IF %BGT_VAR%
+Global("X#CoranDur","GLOBAL",3)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Unicorn Run */
+IF %BGT_VAR%
+Global("X#CoranUnicorn","GLOBAL",1)
+PartyHasItem("%tutu_var%BOOK55")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranUnicorn","GLOBAL",2)
+END
+
+/* Initiate: Unicorn Run */
+IF %BGT_VAR%
+Global("X#CoranUnicorn","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Taxek */
+IF
+%BGT_VAR%
+Global("X#CoranTaxek","GLOBAL",1)
+!See("michael")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranTaxek","GLOBAL",2)
+END
+
+/* Initiate: Taxek */
+IF %BGT_VAR%
+Global("X#CoranTaxek","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Natasha Dead */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodMines_L3%")
+Global("X#CoranNatasha","GLOBAL",0)
+Dead("natasha")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranNatasha","GLOBAL",1)
+END
+
+/* Initiate: Natasha Dead */
+IF %BGT_VAR%
+Global("X#CoranNatasha","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* FW4003 halfling brewery */
+IF %BGT_VAR%
+AreaCheck("%Gullykin_Winery_L1%")
+Global("X#CoranHB","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranHB","GLOBAL",1)
+END
+
+/* Initiate: FW4003 halfling brewery */
+IF %BGT_VAR%
+Global("X#CoranHB","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Coran, Sighting The Dragon Skeleton  TOTSC, set from Dragon Trigger (trap) */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower_D3%")
+Global("P5#DragonTrigger","%DurlagsTower_D3%",1)
+Global("P#CSTDS","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#CSTDS","GLOBAL",1)
+END
+
+/* Initiate: Coran, Sighting The Dragon Skeleton  TOTSC, set from Dragon Trigger (trap) */
+IF %BGT_VAR%
+Global("P#CSTDS","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+Dialog(Myself)
+END
+
+/* Coran, Entry to Baldur’s Gate */
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate%")
+Global("P#CEBG","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#CEBG","GLOBAL",1)
+END
+
+/* Initiate: Coran, Entry to Baldur’s Gate */
+IF %BGT_VAR%
+Global("P#CEBG","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+Dialog(Myself)
+END
+
+/* Coran, Entry to Durlag’s Tower */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower_L1%")
+Global("P#CEDT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#CEDT","GLOBAL",1)
+END
+
+/* Initiate: Coran, Entry to Durlag’s Tower */
+IF %BGT_VAR%
+Global("P#CEDT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+Dialog(Myself)
+END

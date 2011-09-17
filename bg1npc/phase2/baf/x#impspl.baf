@@ -1,0 +1,179 @@
+IF
+  True()
+  Global("X#DImpSpell","LOCALS",0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",1)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@0)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",1)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",2)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@1)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",2)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",3)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@2)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",3)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",4)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@3)
+    PlaySound("%tutu_var%EFF_P24")
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",4)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",5)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@4)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",5)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",6)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@5)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",6)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",7)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@6)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",7)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",8)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@7)
+    PlaySound("%tutu_var%EFF_P24")
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",8)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",9)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@8)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",9)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",10)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@9)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",10)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",11)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@10)
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",11)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    StartTimer(0,5)
+    SetGlobal("X#DImpSpell","LOCALS",12)
+    PlaySound("IMPPP04")
+    DisplayStringHead("Ichthraa",@11)
+    CreateCreatureObjectOffset("X#MEPHT2",Player1,[60.60])
+    CreateCreatureObjectOffset("X#MEPHT1",Player1,[70.100])
+    PlaySound("%tutu_var%EFF_P24")
+    Continue()
+END
+
+IF
+  Global("X#DImpSpell","LOCALS",12)
+  TimerExpired(0)
+  !Dead("Ichthraa")  // Ichthraa
+THEN
+  RESPONSE #100
+    SetGlobal("X#DImpSpell","LOCALS",12)
+    PlaySound("%tutu_var%EFF_P18")
+    SetGlobal("X#WinskiTakeDyna","GLOBAL",1)
+    SetGlobal("X#DynaheirRomanceInactive","GLOBAL",1)
+    ActionOverride("dynaheir",LeaveParty())
+    ActionOverride("dynaheir",ChangeAIScript("",DEFAULT))
+    ReallyForceSpell("dynaheir",DRYAD_TELEPORT)
+    ActionOverride("minsc",LeaveParty())
+    ActionOverride("minsc",ChangeAIScript("",DEFAULT))
+    ReallyForceSpell("minsc",DRYAD_TELEPORT)
+    ReallyForceSpell("Ichthraa",DRYAD_TELEPORT)
+END

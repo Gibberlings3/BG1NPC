@@ -1,0 +1,19 @@
+/* Sveetla */
+
+IF
+True()
+THEN RESPONSE #100
+CutSceneId(Player1)
+MoveViewObject(Myself,INSTANT)
+SmallWait(15)
+FadeToColor([20.0],0)
+ActionOverride("X#SVEET",JumpToPoint([2399.1353]))
+ActionOverride(Player1,JumpToPoint([2343.1400]))
+ActionOverride("edwin",JumpToPoint([369.189]))
+SetGlobal("X#EdwinSveetla","GLOBAL",3)
+MoveViewObject(Myself,INSTANT)
+FadeFromColor([20.0],0)
+MoveViewObject(Myself,INSTANT)
+ActionOverride("X#SVEET",Dialogue(Player1))
+EndCutSceneMode()
+END

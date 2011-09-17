@@ -1,0 +1,73 @@
+/* Intro of Cutscene 1 */
+
+/* These are 2 fights Cutscenes */
+
+IF %BGT_VAR%
+Global("X#FightChallenge","GLOBAL",1)
+THEN
+RESPONSE #100
+ClearAllActions()
+SetGlobal("X#FightChallenge","GLOBAL",2)
+StartCutSceneMode()
+StartCutScene("X#CHALL2")
+END
+
+IF %BGT_VAR%
+Global("X#FightChallenge","GLOBAL",4)
+THEN
+RESPONSE #100
+ClearAllActions()
+SetGlobal("X#FightChallenge","GLOBAL",5)
+StartCutSceneMode()
+StartCutScene("X#CHALL4")
+END
+
+/* Intro to Cutscene 2 */
+
+/* These are 'entertainment' Cutscenes */
+
+IF %BGT_VAR%
+Global("X#FightTale","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#FightTale","GLOBAL",2)
+SetGlobal("X#AjantisEntertain","GLOBAL",2)
+ActionOverride("ajantis",StartDialogueNoSet(Player1))
+END
+
+IF %BGT_VAR%
+Global("X#AjantisCoChalEntertain","GLOBAL",3)
+Global("X#FightTale","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("X#FightTale","GLOBAL",3)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#FightTale","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("X#FightTale","GLOBAL",5)
+ActionOverride("coran",StartDialogueNoSet(Player1))
+END
+
+/* Make him Speak */
+
+IF %BGT_VAR%
+See(Player1)
+Global("X#MaleChallengeDone","GLOBAL",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#MaleChallengeDone","GLOBAL",1)
+THEN
+RESPONSE #100
+EscapeArea()
+DestroySelf()
+END
+
+

@@ -1,0 +1,8 @@
+IF %BGT_VAR%
+  InParty(Myself)
+  Global("X#ShKill","LOCALS",0)
+THEN 
+  RESPONSE #100
+    DestroyItem("monhp1")
+    SetGlobal("X#ShKill","LOCALS",1)
+END

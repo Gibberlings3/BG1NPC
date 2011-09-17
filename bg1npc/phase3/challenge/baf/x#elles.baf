@@ -1,0 +1,11 @@
+IF %BGT_VAR%
+Global("X#FightTale","GLOBAL",9)
+Global("X#WalkEllesime","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#WalkEllesime","GLOBAL",1)
+ActionOverride("X#ELLES",JumpToPoint([940.501]))
+ActionOverride(Player1,MoveToPoint([930.500]))
+ActionOverride("coran",MoveToPoint([950.500]))
+StartDialogueNoSet("coran")
+END

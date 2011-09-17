@@ -1,0 +1,346 @@
+/* CONTENTS */
+/* Dream timer */
+/* Start timer */
+/* Friendtalks 1 and 3 */
+/* Friendtalks 2 and 4 */
+/* Friend Talk 5 */
+/* Kivan's Dance */
+/* Kivan Bhaal Talk */
+/* Backup script for closing Bhaal Talk variable */
+/* drink with Xan */
+/* Backup script for closing the "drinking with Xan" variable */
+/* Montaron scandal */
+/* Backup script for closing the "Montaron scandal" variable */
+
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* Start timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#KiPCTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P#KiPCTimerStarted","GLOBAL",1)
+SetGlobal("P#KiFriendTalk","GLOBAL",1)
+RealSetGlobalTimer("P#KiFriendTalkTime","GLOBAL",600)
+END
+
+/* Friendtalks 1 and 3 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#KiFriendTalkTime","GLOBAL")
+Global("P#KiFriendCheck","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+OR(2)
+Global("P#KiFriendTalk","GLOBAL",1)
+Global("P#KiFriendTalk","GLOBAL",5)
+AreaType(FOREST)
+TimeOfDay(DAY)
+THEN
+RESPONSE #100
+IncrementGlobal("P#KiFriendTalk","GLOBAL",1)
+SetGlobal("P#KiFriendCheck","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+Global("P#KiFriendCheck","GLOBAL",1)
+OR(2)
+Global("P#KiFriendTalk","GLOBAL",2)
+Global("P#KiFriendTalk","GLOBAL",6)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END
+
+/* Friendtalks 2 and 4 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#KiFriendTalkTime","GLOBAL")
+Global("P#KiFriendCheck","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+OR(2)
+Global("P#KiFriendTalk","GLOBAL",3)
+Global("P#KiFriendTalk","GLOBAL",7)
+AreaType(OUTDOOR)
+TimeOfDay(NIGHT)
+THEN
+RESPONSE #100
+IncrementGlobal("P#KiFriendTalk","GLOBAL",1)
+SetGlobal("P#KiFriendCheck","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#KiFriendCheck","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+OR(2)
+Global("P#KiFriendTalk","GLOBAL",4)
+Global("P#KiFriendTalk","GLOBAL",8)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END
+
+/* Friend Talk 5 */
+IF %BGT_VAR%
+Global("P#KiFriendTalk","GLOBAL",9)
+Global("P#KiFriendCheck","GLOBAL",0)
+ReputationGT(Player1,12)
+RealGlobalTimerExpired("P#KiFriendTalkTime","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+AreaType(FOREST)
+THEN
+RESPONSE #100
+IncrementGlobal("P#KiFriendTalk","GLOBAL",1)
+SetGlobal("P#KiFriendCheck","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#KiFriendTalk","GLOBAL",10)
+Global("P#KiFriendCheck","GLOBAL",1)
+RealGlobalTimerExpired("P#KiFriendTalkTime","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END
+
+/* Kivan's Dance */
+IF %BGT_VAR%
+Gender(Player1,FEMALE)
+GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!Global("X#AjantisRomanceActive","GLOBAL",1)
+!Global("X#AjantisRomanceActive","GLOBAL",2)
+OR(2)
+Global("X#XANMatch","GLOBAL",0)
+Global("X#XARomanceInactive","GLOBAL",1)
+OR(2)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("P#CoranMatch","GLOBAL",1)
+Global("P#KiDance","GLOBAL",0)
+AreaType(FOREST)
+THEN
+RESPONSE #100
+SetGlobal("P#KiDance","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+Global("P#KiDance","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END
+
+/* Kivan Bhaal Talk */
+IF %BGT_VAR%
+Global("X#HalfBrotherRevealed","GLOBAL",1)
+Global("P#KnowBhaal","GLOBAL",1)
+Global("P#KiBhaal","GLOBAL",0)
+GlobalGT("Chapter","GLOBAL",5)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#KiBhaal","GLOBAL",1)
+END
+
+/* Kivan Bhaal Talk */
+IF %BGT_VAR%
+Global("P#KiBhaal","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END
+
+/* drink with Xan */
+IF %BGT_VAR%
+InParty("xan")
+Global("P#DrunkTimerStarted","GLOBAL",0)
+Global("P#ElvesDrink","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P#DrunkElves","GLOBAL",360)
+SetGlobal("P#DrunkTimerStarted","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#DrunkElves","GLOBAL")
+InParty("xan")
+Global("P#KiDrunk","GLOBAL",0)
+Global("P#KIXA1","LOCALS",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("xan")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#KiDrunk","GLOBAL",1)
+END
+
+/* Backup script for closing the "drinking with Xan" variable */
+IF %BGT_VAR%
+InParty("xan")
+Global("P#KiDrunk","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("xan")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Montaron scandal */
+IF %BGT_VAR%
+PartyRested()
+Global("P#KivMont","GLOBAL",0)
+InParty("montaron")
+InParty("xzar")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("montaron")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See("xzar")
+THEN
+RESPONSE #100
+SetGlobal("P#KivMont","GLOBAL",1)
+END
+
+/* Backup script for closing the "Montaron scandal" variable */
+IF %BGT_VAR%
+Global("P#KivMont","GLOBAL",1)
+InParty("montaron")
+InParty("xzar")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("montaron")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See("xzar")
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+RealGlobalTimerExpired("P#KiMATime","GLOBAL")
+Global("P#KiMA","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("P#KiMA","GLOBAL",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+END
+
+/* Viconia/Kivan Fight to Death, Kivan Wins */
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+Global("P#KiViFi","GLOBAL",1)
+Dead("viconia")
+OR(2)
+Global("P#KivanRejected","GLOBAL",0)
+Global("P#KivanRejected","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#KiViFi","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("P#KiViFi","GLOBAL",2)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+Dead("viconia")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+StartDialogueNoSet(Player1)
+END

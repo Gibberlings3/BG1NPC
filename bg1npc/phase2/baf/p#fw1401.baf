@@ -1,0 +1,7 @@
+IF
+Global("X#MithrilRing","%FishingVillage_AnkhegPit%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#MithrilRing","%FishingVillage_AnkhegPit%",1)
+ActionOverride("Container1",CreateItem("X#XZMIRI",0,0,0))
+END

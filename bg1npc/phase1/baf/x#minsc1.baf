@@ -1,0 +1,194 @@
+/* CONTENTS */
+/* Dream timer */
+/* Minsc and PC about Candlekeep */
+/* Minsc and Ajantis - Baldur's Gate */
+/* Minsc and Khalid - Gnoll Stronghold */
+/* Minsc Jaheira - Boo's medicine bag excursion */
+/* IRON lord */
+/* Edwin's missive to his superior */
+
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* Minsc and PC about Candlekeep */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Library_L1%")
+Global("X#MinscPCCandlekeep","LOCALS",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MinscPCCandlekeep","LOCALS",1)
+END
+
+IF %BGT_VAR%
+Global("X#MinscPCCandlekeep","LOCALS",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("minsc99")
+StartDialogNoSet(Player1)
+END
+
+
+/* Minsc and Ajantis - Baldur's Gate */
+IF %BGT_VAR%
+InParty("ajantis")
+Global("X#MIAJ_BG","LOCALS",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+OR(8)
+AreaCheck("%NWBaldursGate%") //NW BG
+AreaCheck("%NBaldursGate%") //N BG
+AreaCheck("%NEBaldursGate%") //Ne BG
+AreaCheck("%WBaldursGate%") //w BG
+AreaCheck("%CentralBaldursGate%") //c BG
+AreaCheck("%SWBaldursGate%") //sw BG
+AreaCheck("%BaldursGateDocks%") //docks BG
+AreaCheck("%SEBaldursGate%") //se BG
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("ajantis",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MIAJ_BG","LOCALS",1)
+END
+
+IF %BGT_VAR%
+InParty("ajantis")
+Global("X#MIAJ_BG","LOCALS",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("ajantis",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogNoSet("ajantis")
+END
+
+/* Minsc and Khalid - Gnoll Stronghold */
+IF %BGT_VAR%
+AreaCheck("%GnollStronghold%")
+InParty("khalid")
+Global("HelpMinsc","GLOBAL",0)
+Global("X#MIKH_Gnolls","LOCALS",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("khalid",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#MIKH_Gnolls","LOCALS",1)
+END
+
+IF %BGT_VAR%
+InParty("khalid")
+Global("X#MIKH_Gnolls","LOCALS",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("khalid",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogNoSet("khalid")
+END
+
+
+/* Minsc Jaheira - Boo's medicine bag excursion */
+IF %BGT_VAR%
+PartyRested()
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#MIJA1","LOCALS",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("jaheira")
+!StateCheck("jaheira",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+See("jaheira")
+AreaType(FOREST)
+THEN
+RESPONSE #100
+SetGlobal("X#MIJA1","LOCALS",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+END
+
+IF %BGT_VAR%
+InParty("jaheira")
+Global("X#MIJA1","LOCALS",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("jaheira")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("jaheira",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("jaheira")
+END
+
+/* IRON lord */
+IF %BGT_VAR%
+Global("X#MinscIronLord","GLOBAL",1)
+Global("X#IronTimerStarted","GLOBAL",0)
+InParty("edwin")
+InParty(Myself)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#IRONLORD","GLOBAL",1800)
+SetGlobal("X#IronTimerStarted","GLOBAL",1)
+END
+
+/* Edwin's missive to his superior */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#IRONLORD","GLOBAL")
+Global("X#MIED1","LOCALS",1)
+Global("X#Yegoriy","GLOBAL",0)
+InParty("edwin")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("edwin")
+!StateCheck("edwin",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#Yegoriy","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#Yegoriy","GLOBAL",1)
+InParty("edwin")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("edwin")
+!StateCheck("edwin",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet("edwin")
+END

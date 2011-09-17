@@ -1,0 +1,9 @@
+IF %BGT_VAR%
+Global("X#LakePoetsExist","%Peldvale%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#LakePoetsExist","%Peldvale%",1)
+CreateCreature("X#LAKEP1",[2449.2224],3)
+CreateCreature("X#LAKEP2",[2485.2234],3)
+CreateCreature("X#LAKEP3",[2435.2246],3)
+END

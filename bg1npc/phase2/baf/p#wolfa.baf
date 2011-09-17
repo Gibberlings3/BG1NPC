@@ -1,0 +1,46 @@
+IF
+AttackedBy([GOODCUTOFF],DEFAULT) //party attacks
+Allegiance(Myself,NEUTRAL) //hanging around panting
+THEN
+RESPONSE #100
+SetGlobal("P#EMMAWolf","GLOBAL",1) //Help! Help! I'm Being Oppressed!
+ActionOverride("P#WOLF01",MoveToObject("P#IMANEL"))//run to trainer for command to attack
+ActionOverride("P#WOLF02",MoveToObject("P#IMANEL"))
+ActionOverride("P#WOLF03",MoveToObject("P#IMANEL"))
+ActionOverride("P#WOLF04",MoveToObject("P#IMANEL"))
+ActionOverride("P#WOLF05",MoveToObject("P#IMANEL"))
+END
+
+IF
+Heard([ANYONE],111)
+THEN
+RESPONSE #100
+MoveToObject(NearestEnemyOf(Myself))
+Continue()
+END
+
+IF
+See(NearestEnemyOf(Myself))
+!Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipRanged()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipMostDamagingMelee()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+AttackedBy([ANYONE],DEFAULT)
+THEN
+RESPONSE #100
+AttackReevaluate(LastAttackerOf(Myself),30)
+END
+

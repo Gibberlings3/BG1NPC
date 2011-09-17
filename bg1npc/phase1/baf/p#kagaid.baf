@@ -1,0 +1,17 @@
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#KagFald1","LOCALS",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("faldorn")
+!StateCheck("faldorn",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("faldorn")
+AreaType(FOREST)
+THEN
+RESPONSE #100
+SetGlobal("X#KagFald1","LOCALS",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("faldorn")
+END

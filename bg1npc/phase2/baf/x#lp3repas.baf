@@ -1,0 +1,28 @@
+IF
+Global("X#LP3RExists","GLOBAL",0)
+Global("X#LakeP3RepTalk","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("X#LP3REP",[819.378],0) // Lake Poet Willie  Elfsong
+    SetGlobal("X#LP3RExists","GLOBAL",1)
+END
+
+IF
+Global("X#TT3Deactivate","GLOBAL",1)
+THEN
+  RESPONSE #100
+  SetGlobal("X#TT3Deactivate","GLOBAL",2)
+  SetGlobalTimer("X#TroubadorTimer3","GLOBAL",THREE_DAYS)
+  Wait(4)
+  Deactivate("X#LP3REP")
+END
+
+IF
+Global("X#TT3Deactivate","GLOBAL",2)
+GlobalTimerExpired("X#TroubadorTimer3","GLOBAL")
+THEN
+  RESPONSE #100
+  SetGlobal("X#TT3Deactivate","GLOBAL",0)
+  Wait(4)
+  Activate("X#LP3REP")
+END

@@ -1,0 +1,23 @@
+/* X#LP1R.BAF */
+IF
+!AreaCheck("%Peldvale%")
+See([PC])
+Global("X#LP1RExists","GLOBAL",1)
+Global("X#TT1Deactivate","GLOBAL",0)
+THEN
+  RESPONSE #50
+  DisplayStringHead(Myself,@0)
+  Wait(20)
+  RESPONSE #50
+  DisplayStringHead(Myself,@1)
+  Wait(20)
+  RESPONSE #50
+  DisplayStringHead(Myself,@2)
+  Wait(20)
+  RESPONSE #50
+  DisplayStringHead(Myself,@3)
+  Wait(20)
+  RESPONSE #50
+  DisplayStringHead(Myself,@4)
+  Wait(20)
+END

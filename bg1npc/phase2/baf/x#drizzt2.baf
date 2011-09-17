@@ -1,0 +1,7 @@
+IF %BGT_VAR%
+Global("X#PartyAttackedDrizzt","GLOBAL",0)
+AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+RESPONSE #100
+SetGlobal("X#PartyAttackedDrizzt","GLOBAL",1)
+END

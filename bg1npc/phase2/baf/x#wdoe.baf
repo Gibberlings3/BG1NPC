@@ -1,0 +1,9 @@
+IF %BGT_VAR%
+See("xan")
+Global("X#XQWDoeApproaches","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#XQWDoeApproaches","GLOBAL",1)
+MoveToObject("xan")
+ActionOverride("xan",StartDialogueNoSet("xan"))
+END

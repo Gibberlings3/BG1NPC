@@ -1,0 +1,240 @@
+/* CONTENTS */
+/* Dream timer */
+/* PC friend talk timer */
+/* Burying Gorion */
+/* PC Friend talk */
+/* Bhaal talk */
+/* Talks Between Jaheira and a Druid PC: */
+
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* PC friend talk timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#JaPCTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#JaFriendTalkTime","GLOBAL",1800)
+SetGlobal("X#JaPCTimerStarted","GLOBAL",1)
+END
+
+/* Burying Gorion */
+IF %BGT_VAR%
+Global("X#GorionBuried","GLOBAL",0)
+Global("X#JaheiraGorBuryTalk","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+CombatCounter(0)
+THEN
+RESPONSE #100
+SetGlobal("X#JaheiraGorBuryTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#JaheiraGorBuryTalk","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+CombatCounter(0)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* PC Friend talk */
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("X#JaFriendTalkTime","GLOBAL")
+Global("X#JaFriendTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#JaFriendTalk","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#JaFriendTalkTime","GLOBAL")
+Global("X#JaFriendTalk","GLOBAL",2)
+InParty("khalid")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("khalid",CD_STATE_NOTVALID)
+CombatCounter(0)
+THEN
+RESPONSE #100
+IncrementGlobal("X#JaFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#JaFriendTalkTime","GLOBAL")
+Global("X#JaFriendTalk","GLOBAL",3)
+InParty("khalid")
+InMyArea("khalid")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("khalid",CD_STATE_NOTVALID)
+CombatCounter(0)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("X#JaFriendTalkTime","GLOBAL")
+Global("X#JaFriendTalk","GLOBAL",2)
+OR(3)
+!InParty("khalid")
+!InMyArea("khalid")
+StateCheck("khalid",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#JaFriendTalk","GLOBAL",4)
+END
+
+/* Bhaal talk */
+IF %BGT_VAR%
+Global("P#KnowBhaal","GLOBAL",1)
+Global("X#JaFriendTalk","GLOBAL",4)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+THEN
+RESPONSE #100
+IncrementGlobal("X#JaFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#JaFriendTalk","GLOBAL",5)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Talks Between Jaheira and a Druid PC: */
+IF %BGT_VAR%
+InParty(Myself)
+Class(Player1,DRUID_ALL)
+GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+Global("X#SetJahDruid","GLOBAL",0)
+Global("X#JaheiraDruidTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#JADruidTalkTime","GLOBAL",1800)
+SetGlobal("X#SetJahDruid","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#JADruidTalkTime","GLOBAL")
+Class(Player1,DRUID_ALL)
+Global("X#SetJahDruid","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!Global("X#JANoDruidAdvice","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(2)
+Global("X#JaheiraDruidTalk","GLOBAL",0)
+Global("X#JaheiraDruidTalk","GLOBAL",2)
+AreaType(FOREST)
+THEN
+RESPONSE #100
+IncrementGlobal("X#JaheiraDruidTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!Global("X#JANoDruidAdvice","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(2)
+Global("X#JaheiraDruidTalk","GLOBAL",1)
+Global("X#JaheiraDruidTalk","GLOBAL",3)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#JahVisitedCloakwood","GLOBAL",0)
+AreaCheck("%CloakwoodLodge%")
+THEN
+RESPONSE #100
+SetGlobal("X#JahVisitedCloakwood","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#JADruidTalkTime","GLOBAL")
+Class(Player1,DRUID_ALL)
+GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+Global("X#JaheiraDruidTalk","GLOBAL",4)
+Global("X#JahVisitedCloakwood","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!Global("X#JANoDruidAdvice","GLOBAL",1)
+Global("X#SetJahDruid","GLOBAL",1)
+!AreaCheck("%CloakwoodLodge%")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+AreaType(FOREST)
+THEN
+RESPONSE #100
+IncrementGlobal("X#JaheiraDruidTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#JaheiraDruidTalk","GLOBAL",5)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!Global("X#JANoDruidAdvice","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END

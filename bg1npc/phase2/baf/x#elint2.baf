@@ -1,0 +1,142 @@
+IF %BGT_VAR%
+InParty("eldoth")
+RealGlobalTimerExpired("X#EldPoetPri","GLOBAL")
+OR(2)
+Global("X#PRIELD","GLOBAL",1)
+Global("X#PRIELD","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("X#PRIELD","GLOBAL",3)
+END
+
+IF %BGT_VAR%
+Global("X#PRIELD","GLOBAL",3)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("eldot99")
+StartDialogueNoSet(Player1)
+END
+
+/* Activate Eldoth, Upon Entering Thieve's Guild For The First Time */
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate_ThievesGuild%")
+Global("X#EUETGFTFT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#EUETGFTFT","GLOBAL",1)
+END
+
+/* Eldoth, Upon Entering Thieve's Guild For The First Time */
+IF %BGT_VAR%
+Global("X#EUETGFTFT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("eldot99")
+StartDialogueNoSet(Player1)
+END
+
+/* Activate Eldoth, Upon Entering Temple Of Tymora For The First Time */
+IF %BGT_VAR%
+AreaCheck("%WBaldursGate_LadysHouse%")
+Global("X#EUETOTFTFT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#EUETOTFTFT","GLOBAL",1)
+END
+
+/* Initiate Eldoth, Upon Entering Temple Of Tymora For The First Time */
+IF %BGT_VAR%
+Global("X#EUETOTFTFT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("eldot99")
+StartDialogueNoSet(Player1)
+END
+
+
+/* Activate Eldoth, On First Floor Of Candlekeep Library */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Library_L1%")
+Global("X#EOFFOCL","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#EOFFOCL","GLOBAL",1)
+END
+
+/* Initiate Eldoth, On First Floor Of Candlekeep Library */
+IF %BGT_VAR%
+Global("X#EOFFOCL","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("eldot99")
+StartDialogueNoSet(Player1)
+END
+
+/* Activate Eldoth, On Reaching The First Level Of The Low Lantern (gambling ship) */
+IF %BGT_VAR%
+AreaCheck("%BaldursGate_DocksLowLantern_D1%")
+Global("X#EORTFLOTLL","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#EORTFLOTLL","GLOBAL",1)
+END
+
+/* Initiate Eldoth, On Reaching The First Level Of The Low Lantern (gambling ship) */
+IF %BGT_VAR%
+Global("X#EORTFLOTLL","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("eldot99")
+StartDialogueNoSet(Player1)
+END

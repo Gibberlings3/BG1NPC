@@ -1,0 +1,7 @@
+IF %BGT_VAR%
+Global("X#MithrilRing","%Lighthouse_BlackAlaricsCave%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#MithrilRing","%Lighthouse_BlackAlaricsCave%",1)
+ActionOverride("Container1",CreateItem("X#XZMIRI",0,0,0))
+END

@@ -1,0 +1,65 @@
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* MOYE1 */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodMines_L2%")
+InParty("yeslick")
+Global("X#MontyYesliMines","GLOBAL",0)
+!StateCheck("yeslick",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MontyYesliMines","GLOBAL",1)
+END
+
+IF
+%BGT_VAR%
+InParty("yeslick")
+Global("X#MontyYesliMines","GLOBAL",1)
+!StateCheck("yeslick",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogNoSet("yeslick")
+END
+
+/* MOXA1 */
+IF %BGT_VAR%
+Dead("mulahey")
+InParty("xan")
+Global("X#MOXA1","LOCALS",0)
+InParty(Myself)
+!StateCheck("xan",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MOXA1","LOCALS",1)
+
+END
+
+IF %BGT_VAR%
+Global("X#MOXA1","LOCALS",1)
+InParty("xan")
+InParty(Myself)
+!StateCheck("xan",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogNoSet("xan")
+END

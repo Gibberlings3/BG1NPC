@@ -1,0 +1,85 @@
+/* This starts the bickering Talks. */
+/* The continuation of the Challenge is in the script X#CHALL1.BAF which is appended to the dream script for Ajantis */
+
+IF %BGT_VAR%
+Global("X#AJCOConflict","GLOBAL",0)
+Global("P#CoranMatch","GLOBAL",1)
+InParty(Myself)
+InParty("coran")
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("X#AjantisRomanceActive","GLOBAL",1)
+Global("X#StartMaleChallenge","GLOBAL",0)
+OR(2)
+GlobalGT("P#CGLoveTalk","GLOBAL",2)
+GlobalGT("X#AjantisLoveTalk","GLOBAL",2)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#AJCOConflictTime","GLOBAL",300)
+IncrementGlobal("X#StartMaleChallenge","GLOBAL",1)
+SetGlobal("X#AJCOConflict","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#AJCOConflictTime","GLOBAL")
+Global("X#AJCOConflict","GLOBAL",1)
+Global("P#CoranMatch","GLOBAL",1) 
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("X#AjantisRomanceActive","GLOBAL",1)
+InParty(Myself)
+InParty("coran")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("coran",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY]) 
+See("coran")
+THEN
+RESPONSE #100
+SetGlobal("X#AJCOConflict","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#AJCOConflict","GLOBAL",2)
+InParty(Myself)
+InParty("coran")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("coran",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+Interact("coran")
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#AJCOConflictTime","GLOBAL")
+OR(3)
+Global("X#AJCOConflict","GLOBAL",3)
+Global("X#AJCOConflict","GLOBAL",5)
+Global("X#AJCOConflict","GLOBAL",7)
+InParty(Myself)
+InParty("coran")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("coran",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY]) 
+See("coran")
+Global("P#CoranMatch","GLOBAL",1) 
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("X#AjantisRomanceActive","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("X#AJCOConflict","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#AJCOConflictTime","GLOBAL")
+OR(3)
+Global("X#AJCOConflict","GLOBAL",4)
+Global("X#AJCOConflict","GLOBAL",6)
+Global("X#AJCOConflict","GLOBAL",8)
+InParty(Myself)
+InParty("coran")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("coran",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+ActionOverride("coran",Interact(Myself))
+END

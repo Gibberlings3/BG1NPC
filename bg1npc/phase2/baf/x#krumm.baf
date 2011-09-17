@@ -1,0 +1,10 @@
+IF %BGT_VAR%
+Global("X#JaiDryadHostile","GLOBAL",1)
+OR(2)
+Dead("jaheira")
+Dead("faldorn")
+THEN
+RESPONSE #100
+SetGlobal("X#JaiDryadHostile","GLOBAL",2)
+StartDialogueNoSet(Player1)
+END

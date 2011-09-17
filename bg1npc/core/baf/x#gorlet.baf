@@ -1,0 +1,13 @@
+IF
+Global("X#GorionTalkingLetter","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("X#GorionTalkingLetter","GLOBAL",3)
+END
+
+IF
+Global("X#GorionTalkingLetter","GLOBAL",3)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

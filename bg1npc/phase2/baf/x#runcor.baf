@@ -1,0 +1,16 @@
+IF %BGT_VAR%
+HPPercentLT(Myself,20)
+Global("P#CoranHasBaby","GLOBAL",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself,3828)  // ~I can't stay with this group any longer. I have to call it quits.~
+Shout(124)
+TakePartyItem("X#CBABY")
+TakePartyItem("X#CBOOK")
+TakePartyItem("X#CMILK")
+DestroyItem("X#CBABY")
+DestroyItem("X#CBOOK")
+DestroyItem("X#CMILK")
+SetGlobal("X#CoranRun","GLOBAL",1)
+ActionOverride("coran", EscapeArea())
+END

@@ -1,0 +1,41 @@
+IF
+See([PC])
+NumTimesTalkedTo(0)
+InParty("xzar")
+InMyArea("xzar")
+!StateCheck("xzar",CD_STATE_NOTVALID)
+Global("X#TalkedToZizi","GLOBAL",0)
+PartyHasItem("X#XZSLIM")
+THEN
+RESPONSE #100
+SetGlobal("X#TalkedToZizi","GLOBAL",5)
+END
+
+IF
+See([PC])
+InParty("xzar")
+InMyArea("xzar")
+!StateCheck("xzar",CD_STATE_NOTVALID)
+Global("X#TalkedToZizi","GLOBAL",5)
+PartyHasItem("X#XZSLIM")
+THEN
+RESPONSE #100
+StartDialogueNoSet("xzar")
+END
+
+IF
+OR(3)
+Global("X#TalkedToZizi","GLOBAL",2)
+Global("X#TalkedToZizi","GLOBAL",4)
+GlobalGT("X#TalkedToZizi","GLOBAL",6)
+THEN
+RESPONSE #100
+DestroySelf()
+END
+
+IF
+Global("X#SlimeCraze","GLOBAL",1)
+THEN
+RESPONSE #100
+NoAction()
+END

@@ -1,0 +1,560 @@
+/* Jaheira, Upon Entering Basilisk Area East Of The Temple (AR3500) */
+IF %BGT_VAR%
+AreaCheck("%MutaminsGarden%")
+Global("X#JUEBAEOTT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JUEBAEOTT","GLOBAL",1)
+END
+
+/* Initiate Jaheira, Upon Entering Basilisk Area East Of The Temple */
+IF %BGT_VAR%
+Global("X#JUEBAEOTT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/*  Jaheira, Upon Entering Cloakwood, Area Two (AR2100) */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodNest%")
+Global("X#JUECAT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JUECAT","GLOBAL",1)
+END
+
+/* Initiate Jaheira, Upon Entering Cloakwood, Area Two (AR2100) */
+IF %BGT_VAR%
+Global("X#JUECAT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/* Jaheira, Upon Entering Cloakwood, Area Four (AR1700) */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodWyverns%")
+Global("X#JUECAF","GLOBAL",0)
+InParty("coran")
+See("coran")
+!StateCheck("coran",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JUECAF","GLOBAL",1)
+END
+
+/* Initiate Upon Entering Cloakwood, Area Four */
+IF %BGT_VAR%
+Global("X#JUECAF","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/* Jaheira, Upon Entering Ankheg Area North Of Friendly Arm Inn (AR1400) */
+IF %BGT_VAR%
+AreaCheck("%FishingVillage%")
+Global("X#JUEAANOFAI","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JUEAANOFAI","GLOBAL",1)
+END
+
+/* Initiate Upon Entering Ankheg Area North Of Friendly Arm Inn (AR1400) */
+IF %BGT_VAR%
+Global("X#JUEAANOFAI","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/* Jaheira sees Osmadi */
+IF %BGT_VAR%
+AreaCheck("%Larswood%")
+See("osmadi")
+Global("X#JaiOsmadi","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaiOsmadi","GLOBAL",1)
+END
+
+/* Initiate Jaheira sees Osmadi */
+IF %BGT_VAR%
+Global("X#JaiOsmadi","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/* dead osmadi */
+IF %BGT_VAR%
+AreaCheck("%Larswood%")
+Global("X#JaiOsmadi","GLOBAL",2)
+Dead("osmadi")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaiOsmadi","GLOBAL",3)
+END
+
+/* Initiate dead osmadi */
+IF %BGT_VAR%
+Global("X#JaiOsmadi","GLOBAL",3)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/* Jaheira enter ShD territory */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodDruids%")
+Global("X#JaiShadowDruids","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaiShadowDruids","GLOBAL",1)
+END
+
+/* Initiate Jaheira enter ShD territory */
+IF %BGT_VAR%
+Global("X#JaiShadowDruids","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Jaheira Faldorn Interject */
+IF %BGT_VAR%
+AreaCheck("%CloakwoodDruids%")
+Global("X#JaiFaldorn","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaiFaldorn","GLOBAL",2)
+END
+
+/* Initiate Jaheira Faldorn Interject */
+IF %BGT_VAR%
+Global("X#JaiFaldorn","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Jaheira Koveras */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Library_L1%")
+Global("TalkedToKoveras","GLOBAL",1)
+Global("X#JaiKoveras","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaiKoveras","GLOBAL",1)
+END
+
+/* Initiate Jaheira Koveras */
+IF %BGT_VAR%
+Global("X#JaiKoveras","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Jaheira  Sirens */
+IF %BGT_VAR%
+OR(2)
+AreaCheck("%ShipwrecksCoast%")
+AreaCheck("%Lighthouse%")
+Global("X#JaiSirene","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaiSirene","GLOBAL",1)
+END
+
+/* Initiate Jaheira  Sirens */
+IF %BGT_VAR%
+Global("X#JaiSirene","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+/* Jaheira after Durlag tower and demonknights slain */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower%")
+Dead("deathk")
+Global("X#JaheiraDemon","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaheiraDemon","GLOBAL",1)
+END
+
+/* Initiate Jaheira UnderCity */
+IF %BGT_VAR%
+Global("X#JaheiraDemon","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Korax Turns Hostile */
+IF %BGT_VAR%
+Global("X#KoraxCharmedJah","GLOBAL",1)
+Allegiance("korax",ENEMY)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#KoraxCharmedJah","GLOBAL",2)
+END
+
+/* Initiate Korax Turns Hostile */
+IF %BGT_VAR%
+Global("X#KoraxCharmedJah","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Helping Perdue */
+IF %BGT_VAR%
+AreaCheck("%Beregost_RedSheaf_L1%")
+Global("HelpPerdue","GLOBAL",1)
+Global("X#JahOpinionOnHelpPerdue","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JahOpinionOnHelpPerdue","GLOBAL",1)
+END
+
+/* Initiate Helping Perdue */
+IF %BGT_VAR%
+Global("X#JahOpinionOnHelpPerdue","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Killed Aec'Tec */
+IF %BGT_VAR%
+AreaCheck("%UlgothsBeard%")
+Dead("tanar")
+Global("X#JaheiraTanar","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaheiraTanar","GLOBAL",1)
+END
+
+/* Initiate Killed Aec'Tec */
+IF %BGT_VAR%
+Global("X#JaheiraTanar","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Killed Kaisha */
+IF %BGT_VAR%
+AreaCheck("%IsleofBalduranN%")
+Dead("kaish2")
+Global("X#JaheiraKaisha","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaheiraKaisha","GLOBAL",1)
+END
+
+/* Initiate Killed Kaisha */
+IF %BGT_VAR%
+Global("X#JaheiraKaisha","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Killed Mendas */
+IF %BGT_VAR%
+AreaCheck("%UlgothsBeard_MendasHouse%")
+Dead("mendas3")
+Global("X#JaheiraMendas","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JaheiraMendas","GLOBAL",1)
+END
+
+/* Initiate Killed Mendas */
+IF %BGT_VAR%
+Global("X#JaheiraMendas","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Jaheira UnderCity */
+IF %BGT_VAR%
+AreaCheck("%Undercity%")
+Global("X#JahUndercity","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#JahUndercity","GLOBAL",1)
+END
+
+/* Initiate Jaheira UnderCity */
+IF %BGT_VAR%
+Global("X#JahUndercity","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("jahei99")
+StartDialogueNoSet(Player1)
+END
+
+/* Help Caldo */
+IF %BGT_VAR%
+  Global("X#JaheiraHelpCaldo","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#JaheiraHelpCaldo","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END
+
+/* Attack Ramazith */
+IF %BGT_VAR%
+  Global("X#JaheiraRamazith","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#JaheiraRamazith","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Attack("ramazith")
+END
+
+/* Betray Abela */
+IF %BGT_VAR%
+  Global("X#JaheiraBetrayAbela","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#JaheiraBetrayAbela","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END

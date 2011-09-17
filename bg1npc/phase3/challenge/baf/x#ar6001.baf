@@ -1,0 +1,82 @@
+IF %BGT_VAR%
+Global("X#SummonXzvarts","GLOBAL",1)
+Global("X#AjantisXvarts","GLOBAL",0)
+THEN
+RESPONSE #100
+IncrementGlobal("X#AjantisXvarts","GLOBAL",1)
+CreateCreature("X#XVART1",[1096.337],4)
+CreateCreature("X#AJANFI",[1059.451],4)
+SetGlobal("X#SummonXzvarts","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#SummonXzvarts","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("X#SummonXzvarts","GLOBAL",3)
+ActionOverride("X#XVART1",Enemy())
+ActionOverride("X#XVART1",Attack("X#AJANFI"))
+ActionOverride("X#AJANFI",Attack("X#XVART1"))
+DisplayStringHead("X#AJANFI",@0)
+END
+
+IF %BGT_VAR%
+Dead("X#XVART1")
+Global("X#AjantisXzvartDead","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#AjantisXzvartDead","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#AjantisXzvartDead","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#AjantisXzvartDead","GLOBAL",2)
+SetGlobal("X#FightChallenge","GLOBAL",3)
+SetGlobal("X#AjantisXvarts","GLOBAL",2)
+ClearAllActions()
+FadeToColor([30.0],0)
+ActionOverride("X#XVART1",DestroySelf())
+ActionOverride("X#AJANFI",DestroySelf())
+SmallWait(3)
+StartCutScene("X#CHALL3")
+END
+
+IF %BGT_VAR%
+Global("X#SummonCoranXzvarts","GLOBAL",1)
+Global("X#CoranXvarts","GLOBAL",0)
+THEN
+RESPONSE #100
+IncrementGlobal("X#CoranXvarts","GLOBAL",1)
+CreateCreature("X#XVART2",[1096.337],4)
+CreateCreature("X#CORAFI",[849.490],4)
+SetGlobal("X#SummonCoranXzvarts","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#SummonCoranXzvarts","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("X#SummonCoranXzvarts","GLOBAL",3)
+ActionOverride("X#XVART2",Enemy())
+ActionOverride("X#XVART2",Attack("X#CORAFI"))
+ActionOverride("X#CORAFI",Attack("X#XVART2"))
+DisplayStringHead("X#CORAFI",@1)
+END
+
+IF %BGT_VAR%
+Global("X#CoranXvarts","GLOBAL",1)
+Dead("X#XVART2")
+THEN
+RESPONSE #100
+EndCutSceneMode()
+SetGlobal("X#FightChallenge","GLOBAL",6)
+SetGlobal("X#CoranXvarts","GLOBAL",2)
+ClearAllActions()
+FadeToColor([30.0],0)
+ActionOverride("X#XVART2",DestroySelf())
+ActionOverride("X#CORAFI",DestroySelf())
+SmallWait(3)
+StartCutScene("X#CHALL3")
+END

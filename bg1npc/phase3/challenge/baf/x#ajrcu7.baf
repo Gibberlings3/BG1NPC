@@ -1,0 +1,21 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId("ajantis")
+	ClearAllActions()
+	StorePartyLocations()
+	FadeToColor([20.0],0)
+	Wait(1)
+	LeaveAreaLUA("X#AJR1","",[601.648],3)
+	ActionOverride(Player1,LeaveAreaLUA("X#AJR1","",[630.665],9))
+	ActionOverride(Player1,FaceObject("ajantis"))
+	MoveViewPoint([601.648],INSTANT)
+	FaceObject(Player1)
+	Explore()
+	Wait(1)
+	FadeFromColor([20.0],0)
+	Dialog(Myself)
+	EndCutSceneMode()
+END
+

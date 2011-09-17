@@ -1,0 +1,55 @@
+/* Intro of Cutscene 2 */
+
+IF %BGT_VAR%
+Global("X#EdwinMadrina","GLOBAL",1)
+THEN
+RESPONSE #100
+ClearAllActions()
+ActionOverride("X#NELL",EscapeAreaDestroy(20))
+ActionOverride("X#BHET",EscapeAreaDestroy(20))
+ActionOverride("X#SVEET",EscapeAreaDestroy(20))
+SetGlobal("X#EdwinMadrina","GLOBAL",2)
+StartCutSceneMode()
+StartCutScene("X#EDCUT2")
+END
+
+IF %BGT_VAR%
+Global("X#EdwinBhetel","GLOBAL",1)
+THEN
+RESPONSE #100
+ClearAllActions()
+ActionOverride("X#NELL",EscapeAreaDestroy(20))
+ActionOverride("X#MADR",EscapeAreaDestroy(20))
+ActionOverride("X#SVEET",EscapeAreaDestroy(20))
+SetGlobal("X#EdwinBhetel","GLOBAL",2)
+StartCutSceneMode()
+StartCutScene("X#EDCUT3")
+END
+
+IF %BGT_VAR%
+Global("X#EdwinSveetla","GLOBAL",1)
+THEN
+RESPONSE #100
+ClearAllActions()
+ActionOverride("X#NELL",EscapeAreaDestroy(20))
+ActionOverride("X#BHET",EscapeAreaDestroy(20))
+ActionOverride("X#MADR",EscapeAreaDestroy(20))
+SetGlobal("X#EdwinSveetla","GLOBAL",2)
+StartCutSceneMode()
+StartCutScene("X#EDCUT4")
+END
+
+IF %BGT_VAR%
+Global("X#EdwinBlushing","GLOBAL",7)
+THEN
+RESPONSE #100
+ClearAllActions()
+ActionOverride("X#NELL",EscapeAreaDestroy(20))
+ActionOverride("X#BHET",EscapeAreaDestroy(20))
+ActionOverride("X#SVEET",EscapeAreaDestroy(20))
+ActionOverride("X#MADR",EscapeAreaDestroy(20))
+SmallWait(15)
+ActionOverride(Player1,LeaveAreaLUA("%NEBaldursGate_BlushingMermaid_L1%","",[734.619],14))
+ActionOverride("edwin",LeaveAreaLUA("%NEBaldursGate_BlushingMermaid_L1%","",[734.619],14))
+END
+

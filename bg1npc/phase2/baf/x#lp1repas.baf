@@ -1,0 +1,28 @@
+IF
+Global("X#LP1RExists","GLOBAL",0)
+Global("X#LakeP1RepTalk","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("X#LP1REP",[542.592],0) // Lake Poet Sam  Friendly Arm Inn
+    SetGlobal("X#LP1RExists","GLOBAL",1)
+END
+
+IF
+Global("X#TT1Deactivate","GLOBAL",1)
+THEN
+  RESPONSE #100
+  SetGlobal("X#TT1Deactivate","GLOBAL",2)
+  SetGlobalTimer("X#TroubadorTimer1","GLOBAL",THREE_DAYS)
+  Wait(4)
+  Deactivate("X#LP1REP")
+END
+
+IF
+Global("X#TT1Deactivate","GLOBAL",2)
+GlobalTimerExpired("X#TroubadorTimer1","GLOBAL")
+THEN
+  RESPONSE #100
+  SetGlobal("X#TT1Deactivate","GLOBAL",0)
+  Wait(4)
+  Activate("X#LP1REP")
+END

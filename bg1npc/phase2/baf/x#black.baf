@@ -1,0 +1,34 @@
+IF %BGT_VAR%
+Global("X#XzarDruidsExist","GLOBAL",1)
+InParty("xzar")
+!StateCheck("xzar",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+MoveToObject("xzar")
+ActionOverride("storm",MoveToObject("blackberry"))
+ActionOverride("zosya",MoveToObject("blackberry"))
+Dialogue(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#XzarDruidsExist","GLOBAL",2)
+Global("X#BlackShootSpell","LOCALS",0)
+XPGT(Player1,20000)
+THEN
+RESPONSE #100
+SetGlobal("X#BlackShootSpell","LOCALS",1)
+CreateCreature("%tutu_var%BEARCA",[-1.-1],0)
+ActionOverride("bearca",MoveToObject("xzar"))
+ActionOverride("bearca",Enemy())
+Enemy()
+END
+
+IF %BGT_VAR%
+Global("X#XzarDruidsExist","GLOBAL",2)
+Global("X#BlackShootSpell","LOCALS",0)
+!XPGT(Player1,20000)
+THEN
+RESPONSE #100
+SetGlobal("X#BlackShootSpell","LOCALS",1)
+Enemy()
+END

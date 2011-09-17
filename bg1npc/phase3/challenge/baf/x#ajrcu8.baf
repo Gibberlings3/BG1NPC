@@ -1,0 +1,14 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId("ajantis")
+	ClearAllActions()
+	FadeToColor([20.0],0)
+	Wait(1)
+	RestorePartyLocations() 
+	Wait(1)
+	FadeFromColor([20.0],0)
+	EndCutSceneMode()
+END
+

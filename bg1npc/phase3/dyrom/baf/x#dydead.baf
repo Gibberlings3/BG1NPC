@@ -1,0 +1,53 @@
+/* Move to The Area, Summon Irenicus and Allies */
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        ClearAllActions()
+        SmallWait(3)
+        FadeToColor([20.0],0)
+        Wait(1)
+        LeaveAreaLUA("%LionsWay%","",[2882.1506],4)
+        ActionOverride(Player2,LeaveAreaLUA("%LionsWay%","",[2882.1506],4))
+        ActionOverride(Player3,LeaveAreaLUA("%LionsWay%","",[2882.1506],4))
+        ActionOverride(Player4,LeaveAreaLUA("%LionsWay%","",[2882.1506],4))
+        ActionOverride(Player5,LeaveAreaLUA("%LionsWay%","",[2882.1506],4))
+        ActionOverride(Player6,LeaveAreaLUA("%LionsWay%","",[2882.1506],4))
+        SmallWait(15)
+        CreateCreature("X#BODHI",[2882.1510],13) // Arel
+        CreateCreature("X#JONI",[3075.1430],0) // Stranger
+        CreateCreature("X#LASSA",[2862.11353],0) // Lassal
+        CreateCreature("X#TANOV",[2755.1429],0) // Tanova
+        CreateCreature("X#VALEN",[2823.1627],0) // Valen
+        CreateCreature("X#ULVAR",[2982.1687],0) // Ulvar
+        CreateCreature("X#CUTVA1",[3086.1647],0) // Rogue
+        CreateCreature("X#CUTVA2",[3123.1543],0) // Rogue
+        CreateCreature("X#CUTVA3",[3199.1584],0) // Rogue
+        CreateCreature("X#CUTVA4",[3196.1708],0) // Rogue
+        CreateCreature("x#cutspy",[2882.1506],0) // No such index
+        SmallWait(1)
+        ActionOverride("X#BODHI",FaceObject(Player1))
+        ActionOverride("X#JONI",FaceObject(Player1))
+        ActionOverride("X#LASSA",FaceObject(Player1))
+        ActionOverride("X#TANOV",FaceObject(Player1))
+        ActionOverride("X#VALEN",FaceObject(Player1))
+        ActionOverride("X#ULVAR",FaceObject(Player1))
+        ActionOverride("X#CUTVA1",FaceObject(Player1))
+        ActionOverride("X#CUTVA2",FaceObject(Player1))
+        ActionOverride("X#CUTVA3",FaceObject(Player1))
+        ActionOverride("X#CUTVA4",FaceObject(Player1))
+        FaceObject("X#JONI")
+        ActionOverride(Player2,FaceObject("X#JONI"))
+        ActionOverride(Player3,FaceObject("X#JONI"))
+        ActionOverride(Player4,FaceObject("X#JONI"))
+        ActionOverride(Player5,FaceObject("X#JONI"))
+        ActionOverride(Player6,FaceObject("X#JONI"))
+        SetGlobal("X#DynaDeath","GLOBAL",2)
+        SmallWait(15)
+        FadeFromColor([20.0],0)
+        MoveViewObject(Myself,INSTANT)
+        Wait(3)
+        ActionOverride("X#JONI",StartDialogueNoSet(Player1))
+        EndCutSceneMode()
+END

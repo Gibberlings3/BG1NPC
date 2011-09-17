@@ -1,0 +1,8 @@
+IF %BGT_VAR%
+Global("X#FightDragon","GLOBAL",4)
+Global("X#CoranDragonDone","GLOBAL",0)
+THEN RESPONSE #100
+SetGlobal("X#CoranDragonDone","GLOBAL",1)
+ActionOverride("X#CAUTZ",DestroySelf())
+ActionOverride("X#DRAG2",DestroySelf())
+END
