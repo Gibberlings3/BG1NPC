@@ -1,0 +1,967 @@
+/* Friend talk 1 */
+@0     = ~Alors, <CHARNAME>, comment tu te sens ?~
+// Réponses à @0
+@1     = ~Je vais bien, Imoen. Merci d'avoir demandé. Il y a quelque chose qui te tracasse ?~
+@2     = ~J'ai connu mieux. Et toi, quelque chose te tracasse ?~
+@3     = ~Ne me dérange pas maintenant, Imoen. Retourne en formation.~
+@4     = ~Je n'arrive toujours pas à croire que Gorion soit mort.~
+// Après @4
+@5     = ~*d'une voix triste* Moi non plus.~
+@6     = ~Est-ce pour ça que tu ne parles pas beaucoup ces derniers temps ? Silencieux et tout ça...~
+         ~Est-ce pour ça que tu ne parles pas beaucoup ces derniers temps ? Silencieuse et tout ça...~
+// Réponses à @5-@6 voire @10
+@7     = ~Gorion est mort, des mystérieux assassins en ont après moi, et je n'arrive même pas à imaginer comment survivre un jour de plus. Tout est arrivé si subitement !~
+@8     = ~Oui, et j'ai bien d'autres choses à l'esprit.~
+@9     = ~Tu as toujours été la plus loquace. Je suis plutôt du genre silencieux, tu te souviens ? Ne t'en fais pas, je suis toujours le bon vieux <CHARNAME>.~
+         ~Tu as toujours été la plus loquace. Je suis plutôt du genre silencieuse, tu te souviens ? Ne t'en fais pas, je suis toujours la bonne vieille <CHARNAME>.~
+// Après @1 ou @2
+@10    = ~Pas vraiment. J'me demandais comment tu te sentais. Pour voir si tu allais bien et tout. Tu ne parles pas beaucoup ces derniers temps... Silencieux et tout ça...~
+         ~Pas vraiment. J'me demandais comment tu te sentais. Pour voir si tu allais bien et tout. Tu ne parles pas beaucoup ces derniers temps... Silencieuse et tout ça...~
+// Réponse supplémentaire à @10
+@11    = ~J'ai juste beaucoup de choses à l'esprit. Je suis toujours le bon vieux <CHARNAME>. Ne t'inquiète pas.~
+         ~J'ai juste beaucoup de choses à l'esprit. Je suis toujours la bonne vieille <CHARNAME>. Ne t'inquiète pas.~
+// Après @3
+@12    = ~Mff. Je crois que la réponse est 'grognon' !~
+// Après @9 ou @11
+@13    = ~Bien. Je détesterais te voir rongé par tout ça. Nous l'aurons, tu sais. Ce type, quel qu'il soit, qui a tué ton papa. Nous découvrirons de qui il s'agit, et le ferons payer pour de bon !~
+         ~Bien. Je détesterais te voir rongée par tout ça. Nous l'aurons, tu sais. Ce type, quel qu'il soit, qui a tué ton papa. Nous découvrirons de qui il s'agit, et le ferons payer pour de bon !~
+@14    = ~Et ne pense même pas à te débarrasser de moi non plus. Je sais ce que je fais, et je suis autant concernée que toi. J'aimais Gorion, et tu es mon meilleur ami.~
+         ~Et ne pense même pas à te débarrasser de moi non plus. Je sais ce que je fais, et je suis autant concernée que toi. J'aimais Gorion, et tu es ma meilleure amie.~
+@15    = ~Je suis ta meilleure amie aussi, que tu le saches ou non. Tu peux compter sur moi, et tâche de ne pas l'oublier !~
+// Réponses à @13-@14-@15 ou @18-@14-@15
+@16    = ~Je ne peux pas faire la moindre promesse, Imoen. J'ai l'intention de rassembler le groupe le plus efficace possible. Tes talents pourraient se retrouver superflus.~
+@17    = ~Qu'est-ce qui te fait dire ça, Imoen ? Je ne crois pas t'avoir déjà vu agir de la sorte !~
+// Après @7 ou @8, quasi-identique à @13
+@18    = ~Je détesterais te voir rongé par tout ça. Nous l'aurons, tu sais. Ce type, quel qu'il soit, qui a tué ton papa. Nous découvrirons de qui il s'agit, et le ferons payer pour de bon !~
+         ~Je détesterais te voir rongée par tout ça. Nous l'aurons, tu sais. Ce type, quel qu'il soit, qui a tué ton papa. Nous découvrirons de qui il s'agit, et le ferons payer pour de bon !~
+// Après @16
+@19    = ~Superflus ? Je te montrerai qui est superflu ! Tu as besoin de moi, quoi que tu penses. Tu ne pourras pas te débarrasser de moi si facilement ! Eh, laisse tomber !~
+// Après @17 ou @19
+@20    = ~Je suis furieuse, c'est tout... Furieuse, triste et un peu inquiète, je crois. Je vais m'en remettre. Hé. J'essayais de te remonter le moral et maintenant je suis tout énervée.~
+// Après @20
+@21    = ~Viens, allons trouver la tanière d'un méchant dragon ou quelque chose à piller. Hum, après réflexion, une caverne de hobgobelin est plus à ton niveau. Ou peut-être un village xvart ? Humm. Il faut que j'y réfléchisse...~
+/* Friend talk 2 */
+@22    = ~Nous voilà, à voyager sur la grande route. C'est une grande 'aventure' que nous vivons, hein ? Pas exactement ce dont nous rêvions tout éveillés, mais quand même plutôt excitant, je crois. Je préfère être ici, à aller d'un endroit à l'autre en faisant des trucs plutôt qu'être coincée à Château-Suif, à nettoyer des écuries et à ouvrir des lits.~
+         ~Nous voilà, à voyager sur la grande route. C'est une grande 'aventure' que nous vivons, hein ? Pas exactement ce dont nous rêvions tout éveillées, mais quand même plutôt excitant, je crois. Je préfère être ici, à aller d'un endroit à l'autre en faisant des trucs plutôt qu'être coincée à Château-Suif, à nettoyer des écuries et à ouvrir des lits.~
+// Réponses à @22
+@23    = ~C'était intéressant, c'est le moins qu'on puisse dire. Pas vraiment ce que j'avais en tête non plus, mais ce n'est pas comme si j'avais le choix.~
+@24    = ~Je ne sais pas. J'aurais été heureux à Château-Suif, je pense. Je préfèrerais avoir un peu de paix et de sécurité en ce moment, au lieu de toutes ces épreuves.~
+         ~Je ne sais pas. J'aurais été heureuse à Château-Suif, je pense. Je préfèrerais avoir un peu de paix et de sécurité en ce moment, au lieu de toutes ces épreuves.~
+@25    = ~Oui, le monde entier est à portée. Le pouvoir, la richesse, qui n'attendent que moi. J'ai l'intention d'en saisir autant que je pourrai !~
+@26    = ~Tu es encore en train de jacasser, Imoen. Tu sais combien je déteste quand tu fais ça ! Je t'en prie, ferme-la.~
+// Après @23
+@27    = ~C'est 'nous', rappelle-toi ? Et ouais, je suppose que nous n'avons pas vraiment le choix. Quand même, nous pouvons faire beaucoup de bien, je pense.~
+// Après @24
+// fiddle-faddle = balivernes, fadaises, bagatelles !? Traduit en "sot"
+@28    = ~Je m'en doute. Tu t'inquiètes trop, vieux sot. Quant à moi, je projette de m'amuser !~
+         ~Je m'en doute. Tu t'inquiètes trop, vieille sotte. Quant à moi, je projette de m'amuser !~
+// Après @25
+@29    = ~Cela te suffit, je suppose. Quant à moi, je projette de m'amuser !~
+// Après @26, @35
+@30    = ~Eh bien ! Tu es bien grossier aujourd'hui ! Je pense que je vais me tenir tranquille et attendre que tu viennes quémander quelque chose à la bonne vieille petite Imoen.~
+         ~Eh bien ! Tu es bien grossière aujourd'hui ! Je pense que je vais me tenir tranquille et attendre que tu viennes quémander quelque chose à la bonne vieille petite Imoen.~
+// Après @27, @28, @29
+@31    = ~Je me demande s'ils feront un récit de nos aventures. Imagine, un jour des gens seront dans la salle commune d'une auberge, peut-être même à l'auberge de Château-Suif, et demanderont à un barde de leur raconter une histoire sur 'Imoen la Vive et son fidèle acolyte, <CHARNAME>' !~
+         ~Je me demande s'ils feront un récit de nos aventures. Imagine, un jour des gens seront dans la salle commune d'une auberge, peut-être même à l'auberge de Château-Suif, et demanderont à un barde de leur raconter une histoire sur 'Imoen la Vive et sa fidèle acolyte, <CHARNAME>' !~
+// Réponse à @31
+@32    = ~'Acolyte'... !?~
+// Après @32
+@33    = ~Oh, d'accord. Nous serons partenaires, je suppose. Qu'en dis-tu ? 'Imoen la Vive' te semble-t-il bien ? Vive avec l'épée et d'esprit ! Tous les meilleurs héros et héroïnes ont des surnoms. Hummm, peut-être 'Imoen la Terrible' ? Nan, trop sombre. 'Imoen la Hardie' ? 'Imoen la Rusée' ? 'Imoen la Magnifique' ? Eh, ça sonne pas mal du tout !~
+// Réponses à @33
+@34    = ~Hum, que dirais-tu de 'Imoen la...' ?~
+@35    = ~Ah ah. Imoen, le Pinacle de Contrariété, l'Exemple-même de Tracasserie et la Championne du Harcèlement !~
+// Après @34
+@36    = ~Chut ! Je réfléchis ! Où en étais-je ? J'aime encore davantage 'Imoen la Vive'. Je me demande si c'est déjà pris ?~
+/* Beregost talk */
+@37    = ~Eh bien nous y voilà ! Bérégost. Qu'en penses-tu ?~
+// Réponses à @37
+@38    = ~Je n'en ai pas encore vu assez pour me faire une véritable opinion.~
+@39    = ~Trop de monde pour moi. Je n'aime pas trop les villes.~
+@40    = ~Ça me plaît bien. Que penses-tu que nous devrions faire en premier ?~
+@41    = ~La seule chose qui m'intéresse pour l'instant est une chambre chaude avec un lit moelleux et un toit au-dessus de ma tête.~
+@42    = ~Quand tu as vu une ville, tu les as toutes vues.~
+// Après @38
+@43    = ~Nous verrons ce qu'elle nous réserve alors ! Ah... il vaut mieux que tu me laisses parler, <CHARNAME>. Un péquenaud comme toi dans une "grande ville" comme celle-ci, oooh... plutôt effrayant !~
+         ~Nous verrons ce qu'elle nous réserve alors ! Ah... il vaut mieux que tu me laisses parler, <CHARNAME>. Une péquenaude comme toi dans une "grande ville" comme celle-ci, oooh... plutôt effrayant !~
+// Réponses à @43
+@44    = ~Péquenaud ? Quand es-tu devenue aussi raffinée, petite Mademoiselle Jaivulemonde ?~
+         ~Péquenaude ? Quand es-tu devenue aussi raffinée, petite Mademoiselle Jaivulemonde ?~
+@45    = ~Nous éviterons les vauriens seulement pour tomber entre les mains de la justice, telle que je te connais. Il vaut mieux que ce soit moi qui parle.~
+@46    = ~C'est mon plan ! Je me tiendrai juste un peu à l'écart, l'air menaçant.~
+// Après @39
+@47    = ~Alors tu vas juste te montrer sauvage. Nous nous en sortirons mieux si c'est moi qui parle, de toute façon. Tu ferais juste fuir tout le monde.~
+// Réponses à @47
+@48    = ~Mieux vaut ça que les ennuis dans lesquels tu es susceptible de nous mettre. Je pense qu'il vaudrait mieux que je parle.~
+// Si PJ masculin
+@49    = ~Oui, oui ; et si tes mots vifs, ton esprit et ton charme ne suffisent pas, je jetterai juste un regard menaçant.~
+// Si PJ féminin
+@50    = ~Oui, oui ; et si ma beauté et tes mots vifs ne suffisent pas, je jetterai juste un regard menaçant. Vraiment, Imo, ça fait bien longtemps que tu as appris à faire ça.~
+@51    = ~Je ne suis pas sauvage. Je déteste simplement les gens.~
+// Après @40, @54, @55, @56 ou @57
+@52    = ~Trouvons un endroit agréable et prenons quelques chambres. Je n'ai pas pris de bain chaud depuis une éternité ! On dit que Feldpost tient une bonne auberge ; nous devrions essayer là-bas.~
+// Après @41
+@53    = ~Tu prends le lit. J'ai des droits sur le bain ! Je n'ai pas pris de bain chaud depuis une éternité ! On dit que Feldpost tient une bonne auberge ; nous devrions essayer là-bas.~
+// Après @44
+@54    = ~Oh, je suis allée partout avec Winthrop avant que nous venions à Château-Suif. Tu devrais le savoir ! Mais... hé, je pense que tu as raison. J'étais assez petite à cette époque.~
+// Après @45 ou @48
+@55    = ~Comme tu voudras. Je ne faisais que te taquiner, de toute façon.~
+// Après @46, @49, @50 ou @51
+@56    = ~Tu es plus intelligent que tu en as l'air ! Je crois qu'il ne faut pas désespérer de toi après tout, héhé.~
+         ~Tu es plus intelligente que tu en as l'air ! Je crois qu'il ne faut pas désespérer de toi après tout, héhé.~
+// Pas de lien amont !? @51 pourrait correspondre (mais renvoie vers @56 qui n'est pas terrible)
+@57    = ~C'était presque drôle, <CHARNAME>. Je dois déteindre sur toi.~
+// Après @52 ou @53
+@58    = ~Ensuite, j'irai faire des courses. Nous avons besoin de quelques fournitures. Voyons...~
+// Après @58
+@59    = ~Nous avons besoin d'une nouvelle poêle, puisque tu as abîmé celle que nous avons.~
+// Réponses à @59
+@60    = ~J'ai abîmé ? Si mes souvenirs sont bons, c'est toi qui l'a laissée sur le feu toute la nuit...~
+@61    = ~Ben voyons !~
+// Après @60
+@62    = ~Détails, détails. C'était ton idée que je cuisine. Hum... Quoi d'autre ? De nouvelles couvertures, du savon, de l'huile de lanterne, des piquets de tente supplémentaires... euh... Je crois que j'ai égaré ton couteau de chasse alors il nous faudra en obtenir un autre. J'ai besoin de nouveaux vêtements, également. Ma tunique rose a été déchirée lors du dernier combat.~
+// Réponses à @62
+@63    = ~Euh... Imoen ? TOUTES tes tuniques sont roses... et tes capes... tes bottes... tes gants...~
+@64    = ~Moi aussi ! Je me demande s'ils ont de la bijouterie elfe ? Ah, j'ai *toujours* rêvé d'acheter quelque chose venant d'Evereska...~
+// Après @63
+@65    = ~Mais c'était ma préférée ! Dooonc... j'ai besoin d'une nouvelle ! Nous avons besoin de beaucoup de choses. J'espère que nous avons assez d'argent...~
+// Après @64
+@66    = ~Bon, viens, lambin. Je voudrais jeter un coup d'oeil aux alentours.~
+         ~Bon, viens, lambine. Je voudrais jeter un coup d'oeil aux alentours.~
+// Après @42 ou @61
+@67    = ~Comme tu voudras, grognon.~
+         ~Comme tu voudras, grognonne.~
+/* Au Chant de l'elfe */
+@68    = ~Voici un bon endroit pour faire la fête !~
+// Réponses à @68
+@69    = ~Faire la fête ? A quelle occasion ?~
+@70    = ~Qu'est-ce que tu veux dire ? Qu'y a-t-il à célébrer ?~
+@71    = ~Super ! Faisons la fête ! Euh... que célébrons-nous, déjà ?~
+@72    = ~De quoi es-tu en train de jacasser encore, Imoen ?~
+// Après @72
+@73    = ~Ce dont je "jacasse", Ô boute-en-train, c'est de...~
+// Après @69, @70, @71, @73
+@74    = ~Ton anniversaire, bien sûr ! Joyeux anniversaire, <CHARNAME> !~
+// Réponses à @74
+@75    = ~Hé ! Je suppose que ce jour en vaut un autre.~
+@76    = ~Hum... Le <DAYANDMONTH> n'est pas mon anniversaire, Imoen.~
+@77    = ~Je ne suis pas d'humeur à fêter mon "anniversaire" aujourd'hui, ni tout autre jour d'ailleurs.~
+// Après @75
+@78    = ~Et comment !~
+// Après @76
+@79    = ~Il pourrait l'être ! Qu'en sais-tu, hein ? Aujourd'hui vaut bien un autre jour, je dis ! En plus...~
+// Après @77
+@80    = ~Fais comme tu veux, tant pis pour toi. Plus de gâteau pour moi, alors ! Héhé !~
+// Après @78 ou @79
+@81    = ~Le bon côté de ne pas connaître ton jour de naissance est que tu peux le fêter quand tu veux ! Laisse les autres gens avoir leurs ennuyeux anniversaires même-jour-tous-les-ans. Ma façon est plus amusante.~
+// Après @81
+@82    = ~Tiens ! Prends ça. C'est ton cadeau d'anniversaire ! Euh... je sais, nous avons plein d'argent et de trucs, mais je ne voulais pas dépenser *notre* or pour *ton* cadeau. Alooors... je l'ai fait moi-même ! Qu'est-ce que t'en dis ?~
+// Réponses à @83
+@83    = ~C'est magnifique, Imoen ! Qu'est-ce que c'est ?~
+@84    = ~C'est... mm... euh... qu'est-ce que c'est, exactement ?~
+@85    = ~Qu'est-ce que... cette chose ?~
+// Après @83, @84, @85
+@86    = ~C'est un collier, bêta ! Ou une amulette, si tu préfères. Tiens. Je vais te le mettre.~
+         ~C'est un collier, bêtasse ! Ou une amulette, si tu préfères. Tiens. Je vais te le mettre.~
+// Après @86
+@87    = ~Il est parfait pour toi. Il fait vraiment ressortir la couleur de tes yeux. Il va bien avec n'importe quelle tenue, également ! Héhé !~
+// Après @87
+@88    = ~Et cette partie, ici. Ces morceaux. Ils étaient... il appartenait à Gorion. Je l'ai trouvé sur son... cette nuit-là, tu sais ? Je te l'aurais donné plus tôt mais il était tout cassé. Si lugubre, comme ça...~
+// Après @88
+@89    = ~Donc ! J'en ai fait un collier ! Il comporte de jolies pierres, et des perles et une jolie ficelle de soie que j'avais mise de côté... oh, plein de trucs ! J'espère qu'il te plaît. Mets-le, veux-tu ? Il te protègera... l'esprit de Gorion et d'autres choses de ce genre.~
+// Réponses à @89
+@90    = ~Peut-être. Nous devrions y aller !~
+@91    = ~C'est joli. Je le porterai tout le temps, Imoen. Merci beaucoup.~
+@92    = ~Je ne peux pas promettre que je le porterai mais je le garderai en sûreté. Merci, Imoen.~
+@93    = ~Merci, Imoen. Mais tu sais ce que je pense ? Il y a quelqu'un qui a davantage besoin de protection que moi... Je vais le donner à... cette personne. Merci, Imoen.~
+// Après @90
+@94    = ~Pas avant que nous n'ayons fait la fête, j'espère !~
+// Après @91, @92, @93
+@95    = ~D'accord ! C'est rien, vraiment.~
+// Après @94, @95
+@96    = ~Ceci mérite une tournée ! Et un gâteau ! Oooh... et des bougies aussi !~
+/* Script - at waking after Dream 1 */
+@97    = ~Enfin tu te réveilles ! Euh... ça va, <CHARNAME> ? Tu as l'air plutôt pâle, comme si tu avais vu un fantôme. Tu as fait un mauvais rêve ou quoi ? Ça ne m'étonnerait pas.~
+// Réponses à @97
+@98    = ~Rêve n'est pas le mot, Imoen. Cauchemar conviendrait mieux.~
+@99    = ~Un rêve ? Oui. Plus étrange que mauvais, en vérité.~
+@100   = ~Juste un mauvais rêve, Imoen. Probablement à cause de quelque chose que j'ai mangé. Comme ta cuisine !~
+@101   = ~Ce n'est rien dont j'ai envie de parler.~
+// Après @98
+@102   = ~C'est l'impression que ça donnait, en effet !~
+// Après @99
+@103   = ~Hum. Eh bien, il me semblait mauvais, à moi !~
+// Après @100
+@104   = ~Ha ! T'es un marrant, toi. Je t'ai dit que je savais pas cuisiner. C'est bien fait pour toi ! Mais ça ne ressemblait pas à un mauvais rêve d'avant...~
+         ~Ha ! T'es une marrante, toi. Je t'ai dit que je savais pas cuisiner. C'est bien fait pour toi ! Mais ça ne ressemblait pas à un mauvais rêve d'avant...~
+// Après @101
+@105   = ~Bon, d'accord. Mais rappelle-toi, tu peux tout me dire, d'accord ? Comme il te plaira, cependant. Quant à moi, je ferai une sieste à la première occasion. Je n'ai guère dormi la nuit dernière à cause de ton tapage.~
+// Après @102, @103, @104
+@106   = ~Tu t'agitais et te tournais... en marmonnant dans ton sommeil également. Bruyamment ! Ça m'a tenue éveillée la moitié de la nuit, par ta faute. Y a quelque chose dont tu souhaites parler ?~
+// Réponses à @106
+@107   = ~Non. Vraiment pas.~
+@108   = ~Oui. Je me sentirai mieux après, je pense. J'étais de retour à Château-Suif, sauf que... *vous racontez votre rêve*~
+@109   = ~Je ferais aussi bien. J'étais de retour à Château-Suif, sauf que... *vous racontez votre rêve*~
+// Après @108, @109, plutôt bonne réputation
+@110   = ~Ça me semble plutôt inquiétant. Pourtant je suis contente que Gorion semblait heureux dans ton rêve. Je... Je ne sais pas pourquoi, mais je suis également contente que tu aies pris l'autre chemin. De toute façon, il n'y a pas de mal, je suppose ? C'était juste un rêve... pas vrai ?~
+// Réponses à @110
+@111   = ~Oui... juste un rêve.~
+@112   = ~Pas juste un rêve, Imoen. J'ai changé, d'une certaine façon. Je peux soigner les gens. Tout ce que j'ai à faire est de les toucher.~
+// Si PJ prêtre, paladin, druide ou rôdeur
+@113   = ~Un rêve, oui, mais aussi davantage. J'ai acquis un soin au toucher, mais une capacité ne provenant pas de ma divinité. Elle provient de moi-même.~
+// Après @108, @109, plutôt mauvaise réputation
+@114   = ~Ça me donne la chair de poule... vraiment ! Je n'aime pas du tout cette histoire ! Pauvre <CHARNAME>... Mais c'était juste un rêve, pas vrai ? Il n'y a pas de mal ?~
+// Réponses à @114
+@115   = ~Peut-être que non mais j'ai acquis quelque chose, un pouvoir. Je suis capable de puiser de la force vitale de quelque chose, en le blessant tout en me soignant en même temps.~
+@116   = ~Pas le moins du monde. En fait, je me sens revigoré ! J'ai acquis quelque chose également, une sorte de pouvoir. Je peux désormais puiser dans l'essence de vie même d'une créature, en me soignant par la même occasion. Peut-être que l'avenir me réserve de meilleurs dons...~
+         ~Pas le moins du monde. En fait, je me sens revigorée ! J'ai acquis quelque chose également, une sorte de pouvoir. Je peux désormais puiser dans l'essence de vie même d'une créature, en me soignant par la même occasion. Peut-être que l'avenir me réserve de meilleurs dons...~
+// Si PJ mage ou barde
+@117   = ~Du mal ? Pas que je sache, non. J'ai, par contre, acquis une nouvelle... capacité ... je suppose qu'on peut dire ainsi. Pas un sort, mais quelque chose d'inné. Je crois qu'il s'agit de quelque chose de très similaire à la fameuse incantation d'Absorption mineure de l'Archimage Larloch. Elle me permet de blesser à distance une créature, tout en me soignant de dommages et, peut-être, de m'accorder de la vitalité supplémentaire. Curieux...~
+// Après @112, @113, @115, @117
+@118   = ~Eh bien... Je pense que c'est utile au moins. Il paraît très étrange, pourtant, de se réveiller après un rêve et de simplement *savoir* que tu peux faire quelque chose de magique.~
+// Après @118, @111, @116
+@119   = ~Tu te tiens tranquille pendant un moment, d'accord ? Je vais ranger les affaires.~
+/* At waking after dream 2 */
+@120   = ~Bonjour, <CHARNAME>. On n'aurait pas dit que tu dormais bien la nuit dernière. Moi non plus. Un autre rêve, j'imagine ?~
+// Réponses à @120
+@121   = ~Oui, un autre rêve. Souhaites-tu l'écouter ?~
+@122   = ~S'il te faut savoir, oui. Je suppose que tu veux l'écouter, n'est-ce pas ?~
+@123   = ~Nan. Je ne pouvais pas dormir à cause de tes ronflements.~
+@124   = ~Rien dont j'ai envie de parler. Fais ton sac. Nous avons beaucoup à faire aujourd'hui.~
+// Après @121, @122, @134, @135
+@125   = ~Bien sûr. D'autres dagues et voix étranges ?~
+// Réponses à @125
+@126   = ~Oui. J'étais dans le camp des bandits et... *vous répétez votre rêve à Imoen*~
+@127   = ~Après réflexion, je ne souhaite pas en parler. Contentons-nous d'y aller. Nous avons beaucoup à accomplir aujourd'hui.~
+// Après @123
+@128   = ~Pfff. C'étaient plutôt tes propres ronflements sans doute ! Tu attires tous les monstres à des kilomètres à la ronde, dès le moment où ta tête touche l'oreiller. C'est un miracle que nous puissions même nous reposer en dehors d'une auberge. « Gros-plein-de soupe » a un remède infaillible contre les ronflements. Il en donnait à certains de ses clients. Tu en veux ?~
+// Réponses à @128
+@129   = ~Laisse-moi deviner : une coupe de brandy. Pas vrai ?~
+@130   = ~Pas question ! Ne comprends-tu pas que je le fais à dessein ? Allons combattre tous ces monstres que mes ronflements retentissants ont attiré !~
+@131   = ~Imoen ! ... Fous le camp !~
+// Après @124, @127, @131, @136
+@132   = ~Je suppose que t'as raison. Je ne veux pas me mêler de tes affaires. Je suis simplement inquiète à ton sujet, c'est tout.~
+// Après @129
+@133   = ~Ouais. Et si ça ne faisait pas l'affaire, une pinte de bière pour faire tout descendre ! Maintenant que j'y pense... c'est son remède pour tout ! Bon, sérieusement, <CHARNAME>... tu veux en parler ?~
+// Réponses à @133
+@134   = ~Je suppose que je devrais. Veux-tu vraiment l'écouter ?~
+@135   = ~En fait, oui. Es-tu sûre de vouloir l'écouter ?~
+@136   = ~Non. Vraiment pas. Désolé, Imoen. Allons-y plutôt. Nous avons des choses à faire, après tout.~
+         ~Non. Vraiment pas. Désolée, Imoen. Allons-y plutôt. Nous avons des choses à faire, après tout.~
+// Après @126, plutôt mauvaise réputation
+@137   = ~Cette voix est effrayante, <CHARNAME>. Je ne pense pas que tu devrais l'écouter. Je le sais, c'est tout ! Quelque chose en elle est... je ne sais pas... mauvais. Tu dois la combattre. Je t'aiderai de mon mieux.~
+// Après @126, plutôt bonne réputation
+@138   = ~Cette voix m'effraie, <CHARNAME>. On dirait qu'elle t'a fait peur aussi. C'est bien. Je ne lui fais pas confiance. Pas du tout. Non. Vraiment pas. Continue à la combattre, <CHARNAME>. Je t'aiderai, si je peux.~
+// Après @137, @138
+@139   = ~Davantage de pouvoirs aussi, je suppose, hein ?~
+// Après @139
+@140   = ~Je m'en doutais. Bien... tu t'en sers pour faire ce que tu sais être juste. Gorion aurait aimé ça. Moi aussi. Je suppose que leur provenance n'a aucune importance.~
+// Après @140
+@141   = ~Allez ! Je vais te chercher quelque chose à manger pendant que tu... euh... te peignes ou quelque chose comme ça. T'es une épave !~
+/* Tarnesh scroll */
+@142   = ~Ouaouh. Le livre de sorts de Tarnesh est assez soigné ! Je pense que je pourrais apprendre quelques-uns de ces trucs.~
+@143   = ~Regarde ! Voilà quelque chose... Eh ? Tu crois que je peux te transformer en grenouille ?~
+@144   = ~Attends, laisse-moi essayer...~
+@145   = ~Manos ! Potentis ! PAH... !~
+// Réponses à @142-@143-@144-@145
+@146   = ~Holà ! Attends, Imoen ! Tu n'es pas une magicienne. Tu ne devrais pas tripoter ça. Je n'ai pas envie que tu te fasses mal.~
+@147   = ~Ha ha. Très drôle, Imoen. C'est un trésor du groupe. Tu ne devrais pas le tripoter, tu pourrais l'abîmer. Rends-le tout de suite.~
+@148   = ~Ça suffit, Imoen ! Ce serait bien fait pour toi si c'était toi qui te transformais en grenouille. Rends-le, sinon... !~
+// Après @146
+@149   = ~Oh, ne t'en fais pas pour moi. Je ne faisais que plaisanter.~
+// Après @147
+@150   = ~Ouiii ! Quel sens de l'humour tu as !~
+// Après @148
+@151   = ~Eh bien... on dirait que quelqu'un t'a déjà transformé en quelque chose... un ABRUTI ! Merci de ton 'inquiétude', malgré tout. Hum !~
+         ~Eh bien... on dirait que quelqu'un t'a déjà transformée en quelque chose... une ABRUTIE ! Merci de ton 'inquiétude', malgré tout. Hum !~
+// Après @149, @150, @151
+@152   = ~Ces 'sorts' ou quoi que ce soit, les choses à la fin ? On dirait que c'est plutôt important. Je ne vais pas y toucher.~
+// Après @152
+@153   = ~Mais ces drôles de p'tites choses au début... J'te parie que même moi je pourrai en apprendre quelques-unes. Je vais essayer, de toute façon.~
+// Réponses à @153
+@154   = ~Bon, je suppose que tout ira bien. Fais attention quand même, d'accord ?~
+@155   = ~Je ne crois pas que ce soit une bonne idée, Imoen. Il vaudrait mieux laisser quelqu'un qui sait ce qu'il fait s'occuper de ça.~
+@156   = ~Pas question, Imoen. Donne-le. Je ne le répèterai pas.~
+// Après @154
+@157   = ~Eh ! Je te l'ai dit ! Ne t'inquiète pas pour moi. Je ne suis pas imbécile. Je sais ce que je fais.~
+// Après @157
+// Isaya : j'ai trouvé cette autre façon de jouer sur les mots comme dans le cas de 'sling' en anglais
+@158   = ~Je vais 'darder des sorts' en un rien de temps. Haha !~
+// Après @155
+@159   = ~Rabat-joie. Je ne vais pas abîmer ton précieux livre. Le voici...~
+// Après @159
+@160   = ~(J'y jetterai un coup d'oeil quand tu auras le dos tourné. Voilà !)~
+// Réponse à @160
+@161   = ~Pour ton propre bien, je vais le mettre quelque part à l'abri des regards. De TON regard.~
+// Après @156
+// Isaya : "puss" veut dire "gueule" et "sour-faced" se traduit "à la mine revêche", d'où le "grincheux"
+@162   = ~Très bien, vieux grincheux ! Je ne voulais pas de cette chose stupide, de toute façon. Voici ton sale livre puant.~
+         ~Très bien, vieille grincheuse ! Je ne voulais pas de cette chose stupide, de toute façon. Voici ton sale livre puant.~
+// Après @162
+@163   = ~(Nous verrons bien ce qui arrivera. Il te faudra bien dormir parfois, hein)~
+// Réponse à @163
+@164   = ~Je vais le prendre, merci. Bas les pattes, la prochaine fois.~
+/* Firewine Bridge */
+@165   = ~Alors c'est le Pont de Flammevin !? Ouah ! N'est-il pas simplement magnifique !? Je me demande à quoi il ressemblait quand il était vraiment utilisé.~
+// Réponses à @165
+@166   = ~Bah ! Quand on a vu un pont, on les as tous vus !~
+@167   = ~Oui, cela démontre combien les grandes choses peuvent résister à l'épreuve du temps.~
+@168   = ~Oui, mais cela démontre simplement que les humains et les autres races peuvent faire ce qu'ils veulent, mais que rien de ce qu'ils font ne durera éternellement. En fin de compte, tout sera oublié et détruit.~
+@169   = ~N'as-tu rien lu à son sujet à Château-Suif, ou étais-tu endormie ce jour-là ?~
+@170   = ~Je me demande toujours comment ils l'ont construit.~
+// Après @166
+// Isaya : vu que c'était une variation en anglais, j'ai aussi fait une variation en français
+@171   = ~Quelqu'un s'est manifestement levé du mauvais orteil ce matin.~
+         ~Quelqu'une s'est manifestement levée du mauvais orteil ce matin.~
+// Après @167
+@172   = ~Ouais. Hé, je me demande si quelque chose à Château-Suif pourrait durer aussi longtemps.~
+// Réponses à @172
+@173   = ~Non. La plupart des choses n'ont pas été construites pour durer là-bas.~
+@174   = ~Improbable. Même les vieux livres qu'ils ont sont constamment recopiés, de peur qu'ils puissent être détruits prochainement.~
+@175   = ~Qui sait. Je pense que c'est possible.~
+@176   = ~Je suis sûr que s'il reste quelque chose, ce sera la bibliothèque.~
+         ~Je suis sûre que s'il reste quelque chose, ce sera la bibliothèque.~
+// Après @173, @182
+@177   = ~Je crois que tu as raison. Cela donne à réfléchir.~
+// Après @174
+@178   = ~Alors c'est pour ça qu'ils s'assoient et copient le même livre je ne sais combien de fois ! Et moi qui pensais que c'était pour s'assurer d'avoir des copies à disposition au cas où quelqu'un en ait besoin et qu'ils n'arrivent pas à trouver l'original.~
+// Après @175
+@179   = ~Hé ouais, je suis sûre que ce sera ce vieux « Gros-plein-de soupe ». Il refuse de partir de là-bas, quoi qu'il arrive.~
+// Après @176
+@180   = ~Eh bien je pense que c'est probable, puisqu'ils ont autant d'enchantements et ainsi de suite dessus. J'te parie que c'est ce qui l'empêche encore de tomber en ruines.~
+// Réponses à @180
+@181   = ~Elle n'est pas si vieille. Bien entendu elle a été construite avant que ne soit né quiconque nous connaissons, mais ce n'est pas il y a bien longtemps.~
+@182   = ~Ou le travail de la pierre. La magie est puissante, mais elle n'est pas fiable.~
+// Après @181
+@183   = ~Hum... Je parlais de ce pont-ci. Pas de la bibliothèque.~
+// Après @168, suivi de @241 (Xan) et @185
+@184   = ~Hum... Ouais...~
+// Après @184, si Xan n'est pas dans l'équipe
+@185   = ~Je suppose... Bon, de toute façon, c'est toujours un pont magnifique.~
+// Après @169
+@186   = ~Non, si j'ai essayé, je me suis probablement endormie. La plupart de ces livres d'histoire qui essaient de raconter l'histoire exactement comme elle s'est produite sont trop arides.~
+// Après @170, suivi de Yeslick (à partir de @249) ou Kagain (à partir de @242)
+@187   = ~Hum... Ouais...~
+/* Quayle, à Château-Suif */
+// Suite en @530
+@188   = ~Ohé, Quayle ! Viens ici une seconde !~
+/* Imoen's artifact */
+@189   = ~*Vous jetez un coup d'oeil sur Imoen et remarquez qu'elle a pris le livre de sorts de l'assassin Tarnesh et qu'elle le lit.*~
+// Réponses à @189
+@190   = ~Tu fais des progrès là-dedans, Imoen ?~
+@191   = ~J'espère que tu fais attention avec ça, Imoen. Je ne veux pas que tu te blesses, ni n'importe qui d'autre.~
+@192   = ~Imoen, laisse ça tranquille ! Quel genre d'ennuis es-tu en train de t'attirer, à présent ?~
+@193   = ~Imoen ! Laisse la magie à ceux d'entre nous qui ont appris les arts des arcanes. Quand de petits filous commencent à jouer avec la magie, ils finissent par avoir des ennuis !~
+@194   = ~Que lis-tu, Imoen ? Quelque chose d'intéressant ?~
+@195   = ~Imoen. Range ça. J'ai besoin que tu restes concentrée pour le moment.~
+// Après @190
+@196   = ~Hum ? Oh ! Un peu. Je pense.~
+// Après @191, @192
+@197   = ~Cesse de t'inquiéter comme ça ! Je pense que je peux en comprendre une partie.~
+// Après @193 (PJ mage)
+@198   = ~Ô, <CHARNAME> le Grand Archimage, ton... ton... héhé. Cesse de t'inquiéter comme ça ! Je pense que je peux en comprendre une partie.~
+// Après @194
+@199   = ~Hum ? Oh ! Je lis juste le livre de sorts de ce type, Tarnesh. Je pense que je peux en comprendre une partie.~
+// Après @195
+@200   = ~Bon, d'accord ! Mais quelle anxiété pathogène...~
+// Après @196, @197, @198, @199, suivi de Xzar (@224), Edwin (@232) ou Dynahéir (@237)
+@201   = ~Tout de même, ce truc est plutôt compliqué...~
+// Après @201, ou après l'échange avec Xzar, Edwin ou Dynahéir
+@202   = ~Hé ! Je pense que j'ai celui-là de prêt. Ouais. Simple comme bonjour. Attends, <CHARNAME>, ça va être amusant...~
+// Réponses à @202
+@203   = ~Pourquoi ai-je un mauvais pressentiment à ce sujet ?~
+@204   = ~*attendre qu'elle ait achevé le 'sort'*~
+// Après @203, @204
+@205   = ~Regarde ça !~
+// Suivi d'une cinématique où son objet est créé
+@206   = ~Hex-o ! Prest-o !
+Hum... chabadou ?
+Houp-là !~
+/* Yeslick's story */
+@207   = ~Salut, papy !~
+@208   = ~Qoa !?! Hein ? Quoi... quoi ? Imoen ! Pourquoi surgis-tu toujours de derrière moi quand je... quand je réfléchis ?~
+@209   = ~Est-ce que tu réfléchis toujours quand tu dors ?~
+@210   = ~Je... euh... bah... d'accord, d'accord. Je suis éveillé maintenant. *grommelle* Qu'est-ce que tu me voulais alors ?~
+@211   = ~*essaie d'avoir l'air innocente* Oh, hum... rien... Je ne peux pas simplement venir te parler ?~
+@212   = ~Une histoire vraisemblable. Ecoute, si j'ai vent que tu essaies de me voler des affaires, petite, je jure que je mettrai des pièges à rats dans mon couchage...~
+@213   = ~Ouille ! Je ne volais rien ! J'étais juste en train de pratiquer mon approche discrète et j'ai pensé me chauffer avec toi avant d'essayer avec un des autres !~
+@214   = ~J'espère que tu ne sous-entends pas que je suis en quelque sorte le moins vigilant de ce groupe ? Je te ferais savoir que j'ai au moins un oeil sur tout le monde à tout moment ! Et sur mon sac aussi, petite fripouille.~
+@215   = ~Vraiment ? C'est plutôt difficile quand tu n'as que deux yeux. Comment fais-tu pour voir tout le reste ?~
+@216   = ~Ah ah ! Il va te falloir travailler un peu plus tes blagues si tu veux impressionner un nain comme moi avec elles.~
+@217   = ~Peu importe, cela dit. Je vais m'assurer de te surveiller tout particulièrement.~
+@218   = ~Oh, allons, papy ! Je ne te volerais jamais rien !~
+@219   = ~Oui, oui, je sais. Je plaisantais juste avec toi, petite. Va t'en maintenant faire peur à un autre pauvre type, d'accord ?~
+@220   = ~D'accord ! *doucement* Quoique... des pièges à rats... hé, on dirait bien un défi...~
+/* Skie */
+@221   = ~Aah ! Enfin la civilisation ! Maintenant je peux prendre un bon bain et me détendre, pour une fois !~
+@222   = ~Effectivement, mais je croyais que tu aimais l'aventure, Imoen.~
+@223   = ~Bien sûr, mais ça ne signifie pas que je n'aime pas prendre du repos quelques jours ici ou là. De plus, il nous faut bien dépenser cet argent d'une façon ou d'une autre, alors autant que ce soit pour quelque chose que j'apprécie.~
+/* Xzar, à propos du livre de Tarnesh */
+@224   = ~Compliqué ? Sottises, c'est clair comme le flot du plus pur des fluides lymphatiques ; mais pourquoi vous préoccuper de telles questions alors qu'il y a des experts tels que moi pour s'en occuper, chère enfant ?~
+@225   = ~Eh bien, parc'que je m'intéresse un peu à la magie, je suppose.~
+@226   = ~Suppose ?!? Alors il vous faut attendre jusqu'à ce que vous en soyez certaine. L'Art requiert une auto-discipline rigoureuse et incessante.~
+@227   = ~Ouais, bien sûr !~
+@228   = ~Je suis ravi que mon exemple vous ait appris ça, au moins. Voyons, où est Monty ? Oh, bien, je suppose que vous l'avez suffisamment minutieusement tripoté de sorte que vous auriez déjà déclenché toute protection existante.~
+@229   = ~Protection ?~
+@230   = ~Bien sûr. Tous les mages prudents piègent leurs livres de sorts contre l'intrusion... et beaucoup de mages imprudents le font aussi. Oh les belles couleurs scintillantes ! Et les résidus contiennent parfois des objets qui valent la peine de les récupérer dans la matière poisseuse.~
+@231   = ~*gloups* euh... merci ? Je pense...~
+/* Edwin, à propos du livre de Tarnesh */
+@232   = ~Attention avec ça, petite ! De telles pensées sont sans doute au-delà de ta maigre compréhension mais as-tu accordé la moindre considération aux pièges et aux protections qu'un livre de sorts possède probablement ?~
+@233   = ~(Non qu'il y ait quoi que ce soit dedans. J'ai vérifié moi-même et n'ai rien trouvé.)~
+@234   = ~Heureusement pour toi, j'ai désarmé les pièges nombreux et mortels du livre. Ils étaient bien cachés, mais pas suffisamment pour abuser un magicien de Thay.~
+@235   = ~(Oui. Cela devrait les impressionner comme il se doit.)~
+@236   = ~Euh... merci, Edwin. Je suppose.~
+/* Dynahéir, à propos du livre de Tarnesh */
+@237   = ~Tu devrais te méfier de ça, mon enfant. Les livres de sorts sont souvent protégés et piégés contre les yeux et les mains indiscrets. Et ce Tarnesh, c'était un homme mauvais, non ?~
+@238   = ~Oh ! Euh... hum. Je crois que je n'ai jamais pensé à ça. *soupir* Je suppose que je ne devrais pas le tripoter, hein ?~
+@239   = ~Pas du tout. Je Te conseille juste d'être prudente. J'ai remarqué Ton intérêt pour ce livre. Je me suis assurée qu'il ne causera aucun mal, ni à Toi ni au reste d'entre nous.~
+@240   = ~Je suis très curieuse de ce que Tu vas arriver à en tirer.~
+// Après @184, Xan (Flammevin)
+@241   = ~Hélas, <CHARNAME> a raison. A long terme, rien de ce que nous faisons n'a d'importance. C'est entièrement oublié et détruit en fin de compte.~
+// Après @187, alternance Yeslick-Imoen (Flammevin)
+// Isaya : conformément à la traduction de Yeslick, j'ai traduit "lass" par "petite"
+@242   = ~*grognement* C'est pas si grand que ça. Nous les nains avons bâti des ponts plus grands que ça des siècles avant que celui-ci soit supposé avoir été construit. Tiens, je ne serais aucunement surpris de découvrir que beaucoup de maçons nains furent embauchés pour ce travail.~
+@243   = ~Ouah. Alors est-ce que ton clan a jamais construit quelque chose comme ça ?~
+// Isaya : la traduction de "glory below" en "par la gloire d'en bas" est une simple hypothèse, faute de mieux
+@244   = ~Bien sûr qu'ils l'ont fait, petite ! C'est pas parc'que nos fiefs sont souterrains que nous n'avons pas besoin de ponts ! Tiens, quand mon clan s'est installé pour la première fois, nos mineurs découvrirent une caverne ouverte, de mille cinq cents mètres de part en part, facile ! Et c'était en retirant au moins trois cents mètres pour les parties de faible hauteur. Aucun moyen de la traverser, non plus... aucun chemin pour accéder au minerai qui était certainement au-delà ni pour le ramener. Alors nous avons demandé à notre meilleur tailleur de pierre de construire un pont, et par la gloire d'en bas, quel pont c'était !~
+@245   = ~Mille cinq cents mètres ?!? C'est... ouah. Comment s'y est-il pris ?~
+@246   = ~Ce fut une si grande réussite qu'on en écrivit une courte saga qui fait partie des histoires du clan... mais pour la raconter, il vaudrait mieux attendre la nuit, autour du feu de camp, où je pourrai en conter un bout à la fois.~
+@247   = ~Pourquoi ? Combien dure la saga ?~
+@248   = ~Oh, elle n'est pas du tout longue. Si j'omets tous les détails techniques, elle prendra un peu moins d'une semaine...~
+// Après @187, alternance Kagain-Imoen (Flammevin)
+@249   = ~Pour les humains et les elfes peut-être, mais nous les nains faisions ça des siècles auparavant. J'te parierais qu'ils ont embauché beaucoup d'maçons nains pour les aider à l'construire. Ouais, c'aurait été une grande opération. *prend un air mélancolique*~
+@250   = ~Ouaouh, je ne t'avais jamais vu avec cet air. Pourquoi cette tête ?~
+@251   = ~*soupir* Ne vois-tu pas ? Peux-tu imaginer tout cet argent changeant de mains, tous les ouvriers, messagers et personnages importants venant s'assurer que les choses continuaient à avancer ? Et n'oublie pas les gardes pour arrêter ces voleurs et bandits, attention ! Probablement des attaques contre lui aussi. *nouveau soupir* J'aurais pu me faire une fortune quand il était en construction.~
+// Xan, plainte après sa "transformation" (vêtements)
+@252   = ~Alors, qu'est-ce que t'en dis, Xan ?~
+@253   = ~Pourquoi dois-je souffrir doublement de savoir que nous sommes tous condamnés, et d'avoir à porter ces... habits accablants ?~
+@254   = ~Je te l'ai déjà dit. C'est pour ton bien. Une fois que tu seras sorti de ton attitude morne d'auto-apitoiement, je te rendrai tes affaires, si tu les veux toujours.~
+@255   = ~Donc vous admettez que mes effets personnels n'ont pas été "perdus", comme vous le disiez auparavant ? *soupir* Ces humains... S'il vous plaît, rendez-moi mes affaires.~
+@256   = ~Je sais pas... tu sembles encore plutôt abattu. Je veux dire, il y a un instant tu te plaignais encore que nous étions tous condamnés...~
+@257   = ~Nous le sommes, et porter cet accoutrement hétéroclite n'y changera rien. *hausse les épaules* Nos adversaires nous connaissent trop bien pour se laisser abuser maintenant à croire que nous sommes un cirque en voyage. Je vous en prie, ayez l'obligeance de m'autoriser à mourir dans une cape GRISE d'Evereska.~
+// Xan, plainte (suite et fin)
+@258   = ~Alors, tu es prêt à admettre que j'avais raison ?~
+@259   = ~Au point où j'en suis, j'admettrai pratiquement n'importe quoi pour me débarrasser de cette tenue.~
+@260   = ~Non, non ! Ça ne va pas du tout ! Il faut que tu sois guilleret et de bonne humeur !~
+// Si Garrick n'est pas dans le groupe
+@261   = ~Si je peux récupérer mes vêtements, je serai en effet un chouïa plus joyeux que je ne le suis à présent. Pas beaucoup, remarquez, car je me bats toujours pour d'autres causes perdues, mais mon coeur se réjouira de ne plus entendre les autres m'appeler "ce mage condamné en rose".~
+// Si Garrick est dans le groupe (pas trouvé de trace de ça dans son dialogue pourtant)
+@262   = ~Si je peux récupérer mes vêtements, je serai en effet un chouïa plus joyeux que je ne le suis à présent. Pas beaucoup, remarquez, car je me bats toujours pour d'autres causes perdues, mais mon coeur se réjouira de ne plus entendre les autres chanter ce vers horrible que Garrick a composé. *soupir*... le mage condamné en rose, en effet....~
+@263   = ~Bon, puisque ça ne semble pas fonctionner exactement comme je l'avais prévu, je crois que c'est d'accord, en particulier puisque tu dis que tu seras un peu plus joyeux.~
+@264   = ~Quelques petites choses, cependant. Les cheveux et les ongles mettront un peu de temps à revenir à la normale, et il faudra que tu te laves le visage vraiment avec insistance pour retirer tout ce maquillage.~
+@265   = ~Au fait, ne va pas croire que j'en aie fini avec toi. J'ai quelques idées en réserve !~
+@266   = ~*soupir* Corellon, aie pitié de moi... Encore une autre cause perdue à défendre...~
+/* Ajantis */
+@267   = ~Ouah, c'est vraiment bien fait. Je me demande où il l'a eue ?~
+@268   = ~Qu'est-ce que vous regardez là ?~
+@269   = ~Cette statuette m'appartient, m'dame Imoen. Voudriez-vous avoir l'amabilité de me la rendre, s'il vous plaît ?~
+@270   = ~Hmm ? Quand es-tu arrivé ?~
+@271   = ~Ça n'a pas d'importance. Vous avez la statuette que ma mère m'a donnée pour me porter chance quand je suis parti rejoindre l'Ordre. S'il vous plaît, m'dame Imoen, rendez-la moi.~
+@272   = ~Je vois. *un sourire malveillant passe sur le visage d'Imoen* Tu sais, Ajantis, j'ai entendu dire qu'il y avait une tradition avec cette statue.~
+@273   = ~Ah bon ?~
+@274   = ~Bien sûr ! Je pensais que tu savais quand tu me l'as donnée.~
+@275   = ~Avec tout le respect que je vous dois, m'dame, je n'ai rien fait de tel.~
+@276   = ~Ouais, quand un homme donne ceci à une fille, cela témoigne de son amour éternel pour elle. J'ignorais que c'était ce que tu ressentais, jusqu'à cela, Ajantis.~
+@277   = ~M-mais je ne vous l'ai pas donnée, vous l'avez prise !~
+@278   = ~*crie* Ecoutez, tout le monde, Ajantis vient de déclarer son amour éternel pour moi !~
+@279   = ~*devient rouge vif* Je n'ai rien fait de tel !~
+@280   = ~Mais tu m'as donné ce cadeau. Veux-tu dire que tu ne m'aimes pas, alors ?~
+@281   = ~Jamais je n'ai...~
+@282   = ~Comment as-tu osé !? Jouer ainsi avec le coeur d'une femme ! Et alors que tu veux être parfaitement noble ! Eh bien soit, tiens, prends ton stupide objet ! Je n'en ai pas besoin. *Jette la statuette sur Ajantis*~
+@283   = ~Je suis navré, m'dame Imoen, je ne savais pas que vous éprouviez ces sentiments.~
+@284   = ~*s'arrête un moment et commence à se rouler par terre de rire* Tu aurais dû voir ta tête, là ! Tu avais l'air ssiii sérieux.~
+@285   = ~C'est une chose tout à fait ignoble que vous avez faite !~
+@286   = ~Allons, je ne faisais que plaisanter. *va ramasser la statuette et la donne à Ajantis* Ne te tracasse pas à cause de ça. Tu as besoin de te détendre et de t'amuser un peu, une fois de temps en temps.~
+/* Alora */
+// Remarque : Mr Cuddles n'est pas mentionné dans le fichier d'Alora mais il y est question de Hunny Bunny et d'une patte de lapin
+@287   = ~Tu sais, Alora, être petit a vraiment des avantages.~
+@288   = ~Trop vrai ! Ouais, tu aurais fait une petite-personne convenable, Imoen, pas aussi bonne que moi, bien sûr, mais convenable.~
+@289   = ~Mais être grand a des avantages aussi, tu sais.~
+@290   = ~Comme quoi par exemple ?~
+@291   = ~Hein ? Où est allé M. Câlins ?~
+@292   = ~Là-haut ! *laisse pendre une peluche de dragon au-dessus de la tête d'Alora*~
+@293   = ~*saute pour essayer de l'attraper* Eh ! Rends-moi M. Câlins ! Il a peur de l'altitude !~
+@294   = ~Tu vois ? Il y a quelques avantages à être grand ! Aïe ! *lâche M. Câlins tandis qu'elle chancelle et se frictionne le tibia*~
+@295   = ~Regarde ce que tu as fait à ce pauvre M. Câlins ! Le laisser tomber sur le sol sale !~
+/* Branwen 1 */
+@296   = ~Hé, Branwen, si tu adores le 'Seigneur des Batailles', comment se fait-il que ton dieu juge bon de te laisser soigner les gens, au lieu de jeter de belles et croustillantes boules de feu ?~
+@297   = ~Si tu souhaites vraiment savoir pourquoi soigner est un élément vital de la guerre, chère enfant, peut-être voudrais-tu que je me retienne de le faire pour toi pendant un moment, jusqu'à ce que tu arrives à comprendre ?~
+@298   = ~*déglutit nerveusement* Oh, je ne faisais que te taquiner, Brany.~
+/* Branwen 2 */
+@299   = ~Donc, un clerc et un mage entrent dans un bar...~
+@300   = ~Mon enfant, je t'en prie. Plus d'horribles blagues. Mes oreilles sont encore en train de s'habituer à entendre à nouveau après avoir été en pierre pendant si longtemps, sois aimable avec elles.~
+@301   = ~Oh. Rabat-joie.~
+/* Coran 1 */
+@302   = ~Alors Coran, tous les combien dois-tu quitter la ville ?~
+@303   = ~Généralement je ne reste pas au même endroit très longtemps, donc je suis rarement forcé de partir. Je préfère m'éclipser sans que personne ne s'en rende compte.~
+@304   = ~Ouais, mais il doit bien y avoir eu des fois où tu n'as pas pu t'éclipser assez vite !~
+@305   = ~J'ai tendance à oublier ce genre de désagrément dès le jour suivant. La vie est trop courte pour avoir des regrets et des souvenirs déplaisants.~
+@306   = ~Tu t'es déjà soucié de ce qu'il arrivera un jour si tu flirtes avec la mauvaise fille, Coran ?~
+@307   = ~Non, pas vraiment. Je m'en occuperai le moment venu.~
+@308   = ~Il y a bien, cela dit, une chose que je redoute vraiment.~
+@309   = ~Qu'est-ce que c'est ? La taverne était à court de vin ?~
+@310   = ~Oh, attends, je sais ! Tu t'es fait tabasser par un mari en colère ?~
+@311   = ~Non, pas ça. Je peux me sortir assez bien des deux situations.~
+@312   = ~Alors quoi ? Tu ne devrais pas faire attendre une fille.~
+@313   = ~C'est une bonne histoire, mais tu dois promettre que tu ne le diras à personne...~
+@314   = ~Bien sûr, pas d'problème. Je sais garder un secret.~
+@315   = ~Bien. *Coran murmure à Imoen.*~
+@316   = ~*tombe à terre, en riant de façon hystérique* C'est la chose la plus drôle que j'aie entendue depuis longtemps ! Hé, tout le monde, devinez un peu ! Coran flirtait, tout en étant si bourré qu'il n'a remarqué que c'était un autre gars que quand il l'a fait monter dans sa chambre ! Et le gars pensait que Coran était une SERVEUSE !~
+@317   = ~*rit* Ah, oui. Dites à une femme de le garder secret et vous n'avez pas besoin d'embaucher un crieur public pour que toute la Porte de Baldur le sache... ainsi que les régions septentrionales de l'Amn.~
+@318   = ~*toujours dans un fou rire* Désolée, désolée. Mais c'était si drôle que je ne pouvais pas le garder pour moi.~
+@319   = ~Pour éviter de telles mésaventures à l'avenir, j'ai tranché en ne portant que des vêtements très ordinaires. Hélas, la vie est pleine de sacrifices.~
+@320   = ~Hé. Ouais, ça devrait marcher. Probablement trop bien. Je ne pense pas que tu attireras autant de dames non plus.~
+@321   = ~*fait un clin d'oeil* Par chance, les femmes sont trop absorbées par les vêtements des autres dames pour remarquer ce que portent les hommes.~
+/* Coran 2 : Coran (devenu chaotique neutre) a refusé de s'excuser auprès de Brielbara */
+@322   = ~Salut, Coran ! Puis-je te parler, seule à seul s'entend, un moment ? *fait un clin d'oeil suggestif*~
+@323   = ~Qu'y a-t-il, Imoen ?~
+@324   = ~Bon. Il y a quelque chose qui me rend dingue depuis quelque temps, tu sais, à propos de toi, je veux dire. *s'approche davantage de Coran et le prend dans ses bras*~
+@325   = ~*grand sourire* Voilà pourquoi j'aime les jeunes filles humaines... Elles deviennent adultes si... soudainement et regorgent d'une passion si pure...~
+@326   = ~*lui chuchote à l'oreille* Oui ! J'ai réprimé mes sentiments depuis un moment à cause de <CHARNAME> mais, tu sais, ça me minait alors il fallait que je te le fasse savoir.~
+@327   = ~Oh ! Aïe ! Tu... tu m'as frappé ! Tu as des genoux plutôt pointus, gamine. Fais attention en les bougeant la prochaine fois. En visant mieux tu aurais pu me laisser sans descendance.~
+@328   = ~Alors tu as de la chance que je t'ai manqué car c'était ce que j'espérais ! Ça c'était pour avoir ignoré ta fille ! Je déteste les sales types comme toi. J'ai vraiment HORREUR de ce que tu lui as fait ! J'espère que tu mourras et que tu croupiras dans les Neufs Enfers.~
+@329   = ~*a un mouvement de recul* Je vais sans doute, Imoen, car tous les hommes meurent. Mais ce ne sera pas aujourd'hui, heureusement. J'aurais eu horreur de partir avec pour dernier souvenir celui d'une stupide fille humaine, et une laide en plus. Tu as une tête épouvantable quand tu prends un air menaçant, le sais-tu ?~
+/* Dynahéir 1 */
+@330   = ~Salut, Dynahéir, tu as un peu de temps ?~
+@331   = ~Je suis actuellement occupée par un sujet de haute importance, et je T'ai demandé de ne pas me déranger avec ton bavardage inutile trois fois depuis hier soir.~
+@332   = ~Bavardage inutile ? Je ne perdrais jamais le temps de quelqu'un avec du bavardage inutile ! Tout ce que je dis a une GRANDE importance. Bien sûr, une partie est évidemment un peu plus subtile et d'autres choses ont un peu plus de fioritures, mais jamais je ne dirais quelque chose qui ne servirait qu'à perdre du temps juste pour le faire passer.~
+@333   = ~*tousse poliment* Puis-je faire remarquer que Tu viens juste de faire ce que j'ai laissé entendre ? Tu as divagué avec des digressions hors de propos, qui n'avaient aucun intérêt pour la question que Tu avais l'intention de poser.~
+@334   = ~*gonfle ses joues* Pfff ! Je n'ai pas besoin de te parler, de toute façon !~
+/* Dynahéir 2 : même début pour Imoen (@330) */
+@335   = ~Je croyais que Tu n'avais plus besoin de me parler.~
+@336   = ~Hein ? Qu'est-ce qui te fait dire ça ?~
+@337   = ~Aucune importance. Je suppose qu'il vaudrait mieux que j'écoute Ta question ou je ne ferai jamais cesser Ton inquisition curieuse.~
+@338   = ~Ouais ! C'est tout moi ! Imoen la Persévérante ! Donc, je me demandais pourquoi tu avais parcouru tout ce chemin jusqu'à la Côté des Épées. Rien de très intéressant par ici. Bon, il y a Eauprofonde, patrie d'Elminster, mais puisque la plupart des gens n'ont pas l'occasion de le rencontrer, elle n'est pas si spéciale. Je suppose qu'il y a d'autres endroits comme Port-Crâne ou autre... Ils pourraient être intéressants à visiter, bien que ces lieux ne fassent pas véritablement partie de la Côte.~
+@339   = ~*intervient rapidement alors qu'Imoen reprend sa respiration* Tu devrais savoir que n'importe quel endroit ne se limite pas à ce dont il a l'air, mais, en ce qui concerne la raison particulière pour laquelle Minsc et moi avons voyagé jusqu'ici, c'est que j'avais besoin de le faire.~
+@340   = ~Besoin, hein ? C'est plutôt vague. Tu n'es pas en train d'essayer d'éluder ma question, n'est-ce pas ?~
+@341   = ~Pour quelle raison ferais-je une telle chose ? J'ai répondu à Ta question. Fais en ce que Tu veux.~
+@342   = ~Je sais pas... On dirait vraiment que t'essaies d'éluder ma question... Hé ! Tu m'écoutes ! Dynahéir ! Hé, attends-moi ! Ne me laisse pas en arrière !~
+/* Edwin */
+@343   = ~Tu n'as pas chaud à porter sans cesse ces robes ?~
+@344   = ~Je vais parfaitement bien. *Edwin jette un regard mauvais à Imoen tandis qu'une goutte de sueur s'écoule lentement sur son front*~
+@345   = ~Tu vois ? Tu transpires. Tu ne peux pas nier que tu es en train de fondre dans ces robes. *renifle l'air* Ouais. Sans aucun doute, très chaud !~
+@346   = ~Il se peut que je transpire, oui, et tu as un don exceptionnel pour saisir l'évidence ; mais ce n'est pas à cause de la chaleur. C'est de concentration pour me retenir de te transformer en un joli morceau de charbon. (Je le ferais bien, mais il fait déjà trop chaud pour lancer encore une boule de feu.)~
+/* Eldoth, en l'absence de Skie */
+@347   = ~Pourquoi tu n'arrêtes pas de me regarder avec ce drôle d'air ?~
+@348   = ~Hélas, j'ai été découvert. Je suppose que je n'ai pas d'autre choix que d'avouer maintenant.~
+@349   = ~Ouais. Tu ne peux rien cacher à la bonne vieille Imoen, hé !~
+@350   = ~Imoen, je suis tombé amoureux de vous.~
+@351   = ~Quo...~
+@352   = ~Votre beauté ; elle brille comme un phare indiquant un refuge pour mon coeur ! (Il faudra que je me souvienne de cette improvisation doucereuse.)~
+@353   = ~T-tu n'as pas quelqu'un qui t'attend ?~
+@354   = ~Hélas, Skie, pauvre fille riche... Maintenant je vois que je n'avais qu'une fascination d'adolescent pour elle, en comparaison de l'amour accablant que je ressens pour vous.~
+@355   = ~Ne voyez-vous pas que notre rencontre dans ce groupe était écrite, comme un signe pour nous de nous unir. Nous étions destinés l'un à l'autre. Même nos noms se ressemblent : Imoen et Eldoth.~
+@356   = ~Ouh, arrête de me faire flipper ! Jamais je ne voudrais qu'on me voit avec quelqu'un comme toi.~
+@357   = ~Vous pouvez le nier autant que vous voulez, au fond, dans votre coeur, vous avez envie de moi. Je peux vous voir en train de lire ces vieux livres ennuyeux, couverts de poussière, dans la citadelle de Château-Suif et d'imaginer que quelqu'un comme moi vous attend...~
+@358   = ~Beurk ! J'ai envie de vomir à cet instant, et non, il n'est pas nécessaire que nous continuions cette conversation plus tard.~
+@359   = ~Alors vous allez à jamais résister à vos sentiments, et me rejeter ? Malheur à moi ! Mais puis-je au moins avoir un souvenir pour me rappeler cet amour que vous avez dédaigné ? Ce livre que j'ai évoqué ou un autre ferait l'affaire. Je trouverai du réconfort à regarder les pages que vous avez jadis touchées de vos petites mains.~
+@360   = ~Hum, je suis désolée mais tu devras toi-même aller là-bas. Je n'ai aucun livre. Je peux te donner mon vomi une fois que je me serai débarrassée de ces nausées, par contre.~
+@361   = ~Non, non, ce ne sera pas nécessaire. Vous n'avez pas... hum... apporté un vieux parchemin ou deux, non plus ? Non ? Fâcheux...~
+/* Faldorn 1 */
+@362   = ~Hé, Faldorn, pourquoi tes parents t'ont-ils donnée aux druides ? Bon, tu es méchante, et sale, et tout ça, maintenant. Mais tu n'as pas toujours été ainsi, n'est-ce pas ?~
+@363   = ~Les terres de ma tribu furent frappées par la sécheresse et le gel pendant plusieurs années. Les proies devinrent rares et les ruisseaux s'asséchèrent. Tempus, Aurile et les esprits des ancêtres n'écoutaient pas les supplications de mon peuple. Alors les anciens de la tribu décidèrent de donner le prochain nouveau-né aux druides.~
+@364   = ~Ouah ! Est-ce que ça a arrêté la sécheresse ?~
+// Isaya : noms propres repris des fichiers de Faldorn (et l'histoire de la forge du cimeterre)
+@365   = ~Oui, en effet. Silvanus fut satisfait que les Corbeaux Noirs lui aient offert un réceptacle pour l'esprit de son fidèle serviteur, et la forêt devint à nouveau humide et généreuse.~
+@366   = ~Réceptacle ? Hé, avaient-ils aussi donné au bosquet un de ces grands chaudrons qu'utilisent les druides ? Tu sais, ces modèles grands et cuivrés ? Très reluisants ?~
+@367   = ~Non, stupide gamine ! Le jour où l'on m'a donnée au bosquet fut la dernière fois que le Grand Druide, Kador le Brûleur, fut vu vivant. J'ai accueilli son esprit en moi, c'est évident ! Tous les signes l'indiquent. J'ai simplement besoin de trouver son cimeterre, le Rayon d'Émeraude, pour le prouver !~
+/* Faldorn 2 */
+@368   = ~Alors, es-tu toujours à la recherche de cette sorte d'épée ?~
+@369   = ~Le Rayon d'Émeraude est un cimeterre, Imoen. Il a été reforgé par Kador le Brûleur à partir de la faucille qu'il utilisait pour couper le gui et les autres herbes pour ses potions.~
+@370   = ~Ce devait être une sacrée faucille pour fabriquer tout le cimeterre ! Si j'étais Kador, je vérifierais pour m'assurer que le forgeron ne m'a pas escroquée !~
+@371   = ~Kador ne serait jamais allé voir un hérétique qui fond les rochers de la Grande Mère en jouets luisants pour les habitants des villes ! Il fit appel à Silvanus pour refaçonner la faucille !~
+@372   = ~Ahah, c'est Silvanus qui l'a fait. Alors il n'y a pas eu escroquerie, bien entendu. Une faucille en cimeterre. Je me demande en quoi il transformerait le chaudron de Kador.~
+/* Garrick */
+@373   = ~Hé, Garrick, tu connais de bonnes histoires de romance ? Rien d'ennuyeux ni de long, mais pas non plus une de mauvaise qualité qu'on entendrait dans une taverne quelconque.~
+@374   = ~Oh, bien sûr que j'en connais ! Mais je suis, euh, surpris que tu demandes ça... J'aurais pensé que tu voulais entendre des récits d'aventuriers héroïques, de méchants cruels ou de voleurs adroits, plutôt qu'une douce romance.~
+@375   = ~Ouais, bon, c'est tout à fait vrai, mais je suis quand même une fille, tu sais, et ça devient lassant d'écouter encore et encore les mêmes histoires de héros épiques et tout le tralala. De temps en temps, c'est amusant d'écouter une histoire romantique.~
+@376   = ~Je vois. Bon, laisse-moi réfléchir, alors... Ah, je pense que j'ai quelque chose qui correspondra à ta requête dans les moindres détails !~
+@377   = ~*se racle la gorge* Tout commença par une belle soirée dans la ville endormie...~
+/* Jaheira */
+@378   = ~Je ne veux pas être insolente, mais pourquoi hais-tu les villes, petites et grandes, à ce point ? Ouais, je sais que tu es une druide, mais nous les humains et les autres devons bien vivre quelque part, tu sais.~
+@379   = ~Ce n'est pas le fait que les humains bâtissent des villes, mais plutôt la manière dont ils le font. La plupart des humains construisent leurs villages avec peu, sinon aucun, égard pour la destruction de la nature.~
+@380   = ~Ouais, je suppose que tu as raison pour ça, mais que pouvons-nous y faire ?~
+@381   = ~Eh bien, tu peux commencer par...~
+@382   = ~*en agitant la main en signe de congé* Plus tard, quand nous serons dans une auberge. J'ai faim et envie de prendre un bain chaud.~
+/* Khalid 1, intervention de Jaheira à la fin */
+@383   = ~Salut, Khalid, j'avais l'intention de te demander quelque chose.~
+@384   = ~Alors tu peux le demander. M-mais ton numéro "Imoen l'Innocente" a besoin d'être travaillé. Il n'inspire pas encore c-confiance.~
+@385   = ~Eh, ce n'est pas gentil ! Je voulais simplement te demander de parler de toi. Tu sais, ce que t'aimes faire quand tu n'es pas à l'aventure, ta nourriture préférée, ce que tu fais chez les Ménestrels, et quel genre d'animaux tu aimes. Tu vois, ce genre de choses.~
+@386   = ~*soupire* Ai-je v-vraiment l'air si bête ? Très bien. Que veux-tu savoir sur les Ménestrels ?~
+@387   = ~Ahh, rien de spécial, juste curieuse de ce qui s'y passe et ce genre de choses. Rien de bien précis. Je ne veux pas être indiscrète.~
+@388   = ~Je peux te répondre à ça. Je ne sais p-pas. On nous demande habituellement des choses, à Jaheira et moi. On ne nous d-donne pas les raisons de ces questions.~
+@389   = ~Oh, allons, cela restera un secret. Tu peux me faire confiance.~
+// Jaheira
+@390   = ~De quoi s'agit-il ? De quel secret êtes-vous en train de parler ?~
+@391   = ~Oh, hum, rien, vraiment. Je demandais juste à Khalid quel genre de cadeau tu aimais, afin de pouvoir en trouver un pour ton anniversaire.~
+/* Khalid 2 */
+@392   = ~Alors, Khalid, t'es occupé ?~
+@393   = ~Je ne p-pense pas. De quoi veux-tu parler ?~
+@394   = ~Oh, je me demandais simplement comment était Elminster ?~
+@395   = ~Pourquoi me le demandes-tu ?~
+@396   = ~Eh bien tu es un Ménestrel, tu vois, alors je pensais que tu serais capable de me dire comment il était. Tu sais, quelle est son histoire préférée, où il aime passer ses vacances, son plat préféré. Tu vois, des choses comme ça.~
+@397   = ~Je suis allé à la Porte de B-baldur, aussi. En déduis-tu par conséquent que je suis un compagnon de beuverie des G-grands Ducs ?~
+@398   = ~Hum. Tu le connais *à ce point*, alors ?~
+@399   = ~J'en ai peur. C'est *ainsi* que le monde tourne, en fait.~
+@400   = ~Vraiment ? Et moi qui pensais que tu étais l'homme de la Côte des Épées ayant la meilleure expérience du monde. Bon, excepté Elminster. *soupire* Bon tant pis. Je suppose qu'il faudra que tu deviennes toi-même célèbre. Alors je pourrai déclarer que je *te* connais.~
+/* Kivan */
+@401   = ~Tu sais ? Je pense que Déhériana avait vraiment de la chance de connaître quelqu'un comme toi.~
+@402   = ~De la chance ? Je l'ai emmenée loin de la sécurité de Shilmista, Imoen, quel jeune imbécile présomptueux j'étais alors ! Je l'ai conduite, mela en' coiamin... l'amour de ma vie, à sa perte. C'est mon amour qui l'a livrée, consciente, à ses tortionnaires, c'est mon amour qui l'a condamnée...~
+@403   = ~Je pense quand même qu'elle le ressent. Je veux dire que j'aimerais vraiment savoir que quelqu'un à qui je tenais ferait n'importe quoi pour attraper celui ou celle qui m'aurait tuée.~
+@404   = ~Vous ne savez pas de quoi vous parlez, Imoen ! Ne souhaitez pas que quiconque prouve son amour pour vous de cette façon, recherchez juste l'amour en lui-même ; sans obstacle, séparation ni doute.~
+@405   = ~Eh bien, c'est difficile de connaître les sentiments de quelqu'un s'il n'y a pas de preuve, tu sais ? Je veux dire qu'on peut passer sa vie sans jamais s'en rendre compte !~
+@406   = ~N'ayez crainte, vous saurez quand le moment sera venu.~
+// Répliques uniquement si PJ homme
+@407   = ~Peut-être que ma supposition est trop osée, mais je pense que vous connaissez déjà un homme dont le souffle s'arrête quand il voit votre sourire.~
+@408   = ~Hein ? Qui ça ?~
+// Isaya : le terme "enfant" est repris à l'identique du fichier de Kivan
+@409   = ~Je pourrais vous le dire, mais ça gâcherait pour vous la beauté de la découverte. Tâchez d'écouter attentivement, enfant, et vous devriez entendre le coeur qui bat à l'unisson du vôtre.~
+/* Kagain, avec intervention possible d'Edwin et de Dynahéir */
+@410   = ~Pourquoi n'arrêtes-tu pas de compter ton or, chaque fois que nous nous arrêtons pour nous reposer ? Tu penses vraiment que nous allons te le voler ?~
+@411   = ~Ça fait jamais de mal de vérifier son argent. Particulièrement quand il y a une voleuse dans le groupe.~
+@412   = ~Quoi !? Eh, ce n'est pas très gentil. Je ne vole pas de trucs à mes propres camarades !~
+@413   = ~La botte gauche de <CHARNAME> n'avait-elle pas disparu l'autre matin ?~
+// Isaya : utilisation de <CHARNAME> à la place du <PRO_HIMHER> foireux
+@414   = ~Si, mais c'est juste entre <CHARNAME> et moi.~
+@415   = ~Et l'autre jour, quand tu évitais Jaheira après qu'elle ait perdu son collier.~
+@416   = ~Eh bien, hum... tu vois... Jaheira m'avait dit que j'étais trop inexpérimentée, et j'ai...~
+@417   = ~Et la fois où Edwin hurlait à nous casser les oreilles après qu'un de ses parchemins ait disparu.~
+// Edwin
+@418   = ~Alors c'était la petite morveuse finalement.~
+@419   = ~Et que dis-tu de la fois où tu avais piqué cette baguette du sac à dos de la sorcière et que tu essayais de la cacher ?~
+// Dynahéir
+@420   = ~Je savais très bien que c'était l'oeuvre d'Imoen, et nous avons déjà parlé de cette affaire dans les moindres détails.~
+@421   = ~Quoi qu'il en soit, ce genre de chose n'était que des farces. Tu ne penses pas sérieusement que je volerais dans un but malveillant !~
+// Edwin
+@422   = ~Je n'ai toujours pas récupéré mon parchemin, mais maintenant je sais où chercher et qui contrôler en premier la prochaine fois.~
+@423   = ~Farce ou pas, je garde un oeil attentif sur mon or.~
+/* Minsc 1 */
+@424   = ~Eh, Minsc, as-tu déjà pensé à changer la couleur de Bouh ? Bon, un peu comme ils changent les vêtements, les cheveux et tout ça avec toutes sortes de couleur ? Bouh, n'aurais-tu pas l'air mignon avec une fourrure d'un joli rose ?~
+@425   = ~Bouh ne serait pas Bouh, dans ce cas.~
+@426   = ~Il serait la même personne, euh... hamster, Minsc, il aurait juste... hum... changé de look ?~
+@427   = ~Qu'est-ce qu'il y a, Bouh ? Oh, Bouh dit que ça ne lui ressemble pas d'opter pour un changement spectaculaire.~
+@428   = ~Ah, bon. S'il change d'avis, je ferai bientôt des emplettes pour de la teinture à cheveux, alors sifflez-moi ! Je l'aiderai à choisir quelque chose... quelque chose d'héroïque.~
+@429   = ~Euh... Bouh dit : bien entendu nous te sifflerons !~
+/* Minsc 2, alors que Dynahéir n'est pas encore libérée */
+@430   = ~Eh, Minsc, je... hum... voudrais te demander quelque chose si tu n'es pas trop occupé.~
+@431   = ~Minsc, occupé ? Jamais, sauf quand il botte les fesses des méchants ! Et quand il nourrit Bouh.~
+@432   = ~D'accord, peu importe. Donc tu n'es pas si occupé que ça, alors. Bon, j'avais l'intention de t'interroger à propos de cette Dynahéir. Comment est-elle ?~
+@433   = ~Dynahéir est la sorcière de Minsc et Bouh. Nous devons tous les deux la protéger mais, hélas, j'ai échoué. Maintenant, au moins, j'ai une chance de me racheter.~
+@434   = ~Oui, mais ce n'était pas exactement ce que je voulais savoir. Je souhaitais savoir quel genre de personne elle était.~
+@435   = ~Oh, Minsc n'avait pas compris ta question.~
+@436   = ~Dynahéir est une femme très forte. Elle est aussi très intelligente, parfois Bouh pense qu'elle a des idées auxquelles même lui n'a jamais pensé. Dynahéir est aussi une personne très bonne, autrement Minsc ne s'efforcerait pas autant de la protéger, pas vrai, Bouh ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 563, probablement inutile de traduire ici !
+@437   = ~*squiiik*~ [GAM_48]
+@438   = ~Mais, petite, tu devrais attendre de la rencontrer en personne. Je sais qu'elle t'aimera.~
+/* Minsc 3 */
+@439   = ~Eh, Minsc, qu'est-ce que Bouh aime manger, au juste ?~
+@440   = ~Bouh mange surtout des noix, des céréales et des baies. Elles le gardent fort, rapide et malin, mais il adore aussi manger du fromage. Le fromage est son mets préféré.~
+@441   = ~C'est pas vrai ? Bon, je pense avoir un morceau de fromage à lui donner. *Imoen cherche dans son sac, détache un petit morceau de fromage et le tend à Minsc.*~
+@442   = ~Bouh sera tout à fait heureux avec ça ! Je veillerai à ce qu'il sache que tu lui as donné cette gâterie.~
+@443   = ~Qu'est-ce que tu veux dire par "j'y veillerai" ? Où est-il ?~
+@444   = ~Bouh se repose. Il a eu une longue nuit.~
+/* Montaron */
+@445   = ~Comment peux-tu agir aussi cruellement, Montaron ? Les petites-personnes ne sont-elles pas censées être des voleurs et aventuriers qui aiment s'amuser, ou de nature aimable ?~
+@446   = ~Pouah ! J'aime ben m'amuser à mon tour, quand et où ça m'plaît. C'est pas l'cas ici, néanmoins, pas plus qu'vous n'êtes la compagnie qu'je choisirais pour ça. Tiens, toi, fillette. Préfères-tu que nous p'tites-personnes nous inclinions bien bas d'vant toi, afin qu'tu puisses marcher sur nos têtes sans qu't'aies autant d'efforts pour lever tes genoux aussi haut ?~
+@447   = ~Hein ? Qu'est-ce que tu veux dire ?~
+@448   = ~C'est c'que les miens diraient d'*toi*, en admettant qu'tu sois une grande 'typique'.~
+@449   = ~Typique ? Je crois que je n'ai jamais réfléchi à ça.~
+@450   = ~Hah ! J'en étais *sûr*. Reste donc à baigner dans le désert de tes pensées ; laisse-moi sur le côté bas et sale, parc'que t'es trop délicate pour ça. Inutile de s'inquiéter d'la façon dont un *autre* grand ou petit s'en tire ici-bas, pas vrai ?~
+@451   = ~*se frotte la tête* Je pense que nous pouvons en rester là. Je ne suis toujours pas convaincue mais j'attrape un mal de tête à essayer de suivre ton raisonnement.~
+/* Safana */
+@452   = ~Je n'arrive pas à croire que tu aies toujours l'air en forme après toutes ces batailles. Comment fais-tu ?~
+@453   = ~Oh, merci. Ce n'est pas toujours facile mais une femme doit toujours penser au-delà de la fièvre de la bataille en vue d'un gain à long terme.~
+@454   = ~Commences-tu à t'intéresser à ces choses, ma chère ? Cela a dû être ennuyeux et difficile de grandir avec uniquement une bande de vieux hommes studieux, sans l'influence positive d'une femme.~
+@455   = ~Nan, ce n'était pas désagréable. Ils nous laissaient faire tout ce que nous voulions, enfin presque. Et, quand je m'ennuyais vraiment, il y avait quelques choses intéressantes à propos d'aventures dans quelques-uns de ces livres. *soupir* Ils ne me laissaient pas voir ceux avec les bons trucs magiques, quand même.~
+@456   = ~Eh bien, la magie peut être une chose dangereuse, en particulier pour les jeunes. Mais regarde-toi aujourd'hui ! Tu vis ta propre aventure. C'est merveilleux, chérie, que tu vives tes rêves ; j'ai vu bien des femmes qui ne savaient même pas ce que c'était que rêver, sans parler de saisir une chance de les réaliser comme tu l'as fait.~
+/* Shar-Teel, si PJ homme */
+@457   = ~Alors, Shar-Teel, pourquoi restes-tu encore avec nous ? J'aurais pensé que tu aurais profité de la première nuit pour frapper <CHARNAME> pendant qu'il dormait, puisque c'est un homme et tout ça.~
+@458   = ~Qu'est-ce que tu sais, simulacre bouillonnant de femme ? Je lui ai dit que je paierais ma dette puisque j'avais perdu et c'est tout. Point final.~
+@459   = ~Je suppose, mais je pensais que tu ne croyais pas à ces histoires d'honneur, particulièrement avec les mâles.~
+@460   = ~Attends, peut-être y a-t-il en toi un peu de décence ! Ou se pourrait-il que tu aies des sentiments envers <CHARNAME> ?~
+@461   = ~Je te suggère d'arrêter tout de suite ce raisonnement, avant que tu ne te retrouves avec une dague en travers de la gorge. Ou je te couperai la langue, de façon à ce qu'elle soit fourchue comme il sied à un serpent. Certaines femmes... *crache*... ne valent guère mieux que les hommes.~
+/* Skie 1 */
+@462   = ~Ecoute, il faut que je te parle, seule à seule.~
+@463   = ~Oui, bien sûr, de quoi s'agit-il ?~
+@464   = ~Je ne veux pas te blesser, mais Eldoth n'est pas l'homme qu'il te faut.~
+@465   = ~Toi aussi ? Je pensais que toi, au moins, tu serais capable de voir au-delà de ce que voient les autres.~
+@466   = ~Tu plaisantes, n'est-ce pas ? Imoen, ce n'est pas drôle, tu sais.~
+@467   = ~*hoche la tête* Je suis navrée, mais il a dit que son amour pour toi n'était qu'une tocade d'adolescent.~
+@468   = ~Non ! Tu mens ! Il ne dirait jamais une chose pareille !~
+@469   = ~Laisse-moi tranquille ! Laisse-moi seule... sale catin !~
+/* Skie 2 */
+@470   = ~Euh... Skie, au sujet de ce que j'ai dit à propos d'Eldoth l'autre jour...~
+@471   = ~Oh, inutile de t'inquiéter. J'ai interrogé Eldoth à ce sujet et il a dit qu'il n'avait fait que plaisanter avec toi. *rire* Inutile de s'inquiéter.~
+@472   = ~Et tu crois ce qu'il t'a dit ?~
+@473   = ~Bien sûr ! Eldoth ne me mentirait jamais comme ça !~
+@474   = ~T'es sûre ? Et si toute cette histoire avec toi n'était qu'une ruse ?~
+@475   = ~Non, attends ! Je ne dis pas que ça l'est, il se pourrait qu'il t'aime vraiment, mais as-tu pensé à ce qu'il pourrait se passer si tu avais tort ?~
+@476   = ~J-je n'ai pas besoin d'y penser. Je sais qu'Eldoth m'aime !~
+@477   = ~Je t'en prie, Imoen, laisse tomber ça, s'il te plaît. J'aimerais avoir quelqu'un d'autre ici à qui parler, qui ne m'exhorte pas continuellement à rompre avec Eldoth.~
+@478   = ~*soupir* D'accord.~
+@479   = ~*sourit d'un air radieux* Alors, as-tu vu ce qu'a fait <CHARNAME> hier matin ?~
+/* Skie 3 */
+@480   = ~Tiens. Encore une autre de nos rations sans le moindre goût. *tend à Skie des rations de boeuf séché*~
+@481   = ~Beurk ! Encore ? Pourquoi ne pouvons-nous pas emporter avec nous un peu de variété ? Je veux dire, même dans les caravanes de marchands, j'ai entendu dire qu'ils avaient une nourriture meilleure que ça.~
+@482   = ~Ouais, mais ils savent aussi habituellement quand et où ils arriveront le lendemain. Donc, à moins que tu ne veuilles manger du pain moisi ou des tomates pourries, ne te plains pas. En plus, ce n'est pas comme si nous devions manger ça tous les jours. Je veux dire, hier nous avons eu le poisson séché.~
+/* Tiax 1 */
+@483   = ~TIAX ! Derrière toi ! C'est Cyric ! Ton moment de gloire est arrivé !~
+@484   = ~Quoi !?! Où !?!~
+@485   = ~Ha ha ! Tu as regardé !~
+@486   = ~La destinée de Tiax ne sera pas tournée en dérision par cette morveuse ! Un jour sur le chevalet pour toi quand Tiax règnera ! Tiax SAVAIT dès le début que tu mentais, de toute façon. Quand Cyric viendra, Tiax le saura, car Cyric tracera un sillon de sang et de destruction au travers de tous les ennemis de Tiax avant de placer enfin la couronne de l'autorité sur la tête persévérante de Tiax ! Tous trembleront de peur et supplieront d'être...~
+@487   = ~Tiax !!! Regarde là-haut !!! CYRIC EST ARRIVE !!!~
+@488   = ~Quoi !?! Où !?!~
+@489   = ~Ha ha ! Je t'ai encore fait tourner la tête ! Je pourrais continuer toute la journée !~
+/* Tiax 2 */
+@490   = ~TTiiiiiiax!!!!~
+@491   = ~Tu devras t'adresser à Tiax en l'appelant "Le Grand Tiax" dorénavant ! Le puissant Tiax ne dira rien pour cette fois-ci, mais la prochaine fois tu n'auras pas autant de chance !~
+@492   = ~Ouais... alors, "puissant Tiax", quand tu dirigeras le monde, que feras-tu de moi ?~
+@493   = ~Eh ? Toi ? Le grand Tiax doit y réfléchir.~
+@494   = ~... Tiax pense que tu ferais un bon éclaireur pour sa grande armée ! Tu devrais être honorée de pouvoir assister et peut-être même mourir pour Tiax !~
+@495   = ~D'accooord... Nous... en parlerons plus tard, hein ?~
+/* Viconia, avec réplique d'Imoen selon alignement de CHARNAME */
+@496   = ~Je ne veux pas être indiscrète, mais pourquoi n'arrêtes-tu pas de nous regarder, <CHARNAME> et moi, quand nous nous parlons ?~
+@497   = ~Tu l'as remarqué ? Je pensais que je le cachais mieux que ça. Je ne vais pas le nier, puisque tu pourrais être en mesure de me donner une réponse sur un sujet qui me tracasse depuis un moment.~
+@498   = ~Je suppose, bien que je ne voie pas à quel point je peux t'aider.~
+@499   = ~Pourquoi abaisses-tu autant ta garde quand tu es avec <CHARNAME> ?~
+@500   = ~Qu'est-ce que tu veux dire par là ?~
+// Isaya : <PRO_HIMHER> inutilisable, recours à <CHARNAME> à la place, ou emploi du "lui" invariant
+@501   = ~Tu plaisantes avec <CHARNAME>, tu lui confies tes sentiments et tes convictions. Jamais personne que j'ai connu en Ombreterre ne ferait une chose pareille.~
+@502   = ~Vraiment ? Jamais ? Tous ces livres grossiers ne mentionnaient pas grand chose sur les coutumes drows, mais ça me semble plutôt difficile à croire.~
+@503   = ~Pourquoi cela ? Tu fais de toi une proie facile, si <CHARNAME> décide un jour de te trahir.~
+// Isaya : <PRO_HIMHER> inutilisable, recours à <CHARNAME> à la place, utilisation de modèle de vertu (sans genre)
+// PJ loyal bon
+@504   = ~Je connais <CHARNAME> depuis un bon moment. Il se peut qu'<PRO_HESHE> fasse beaucoup de choses que je n'aime pas, en particulier être trop modèle de vertu quand il s'agit de mes activités, mais trahir une amie n'en fait pas partie.~
+// PJ bon ou neutre
+@505   = ~Je connais <CHARNAME> depuis un bon moment. Il se peut qu'<PRO_HESHE> fasse beaucoup de choses que je n'aime pas, mais trahir une amie n'en fait pas partie.~
+// Isaya : formulation pour éviter l'emploi d'adjectif relatif à CHARNAME ; tant pis pour la contraction "s'il", impossible
+// PJ mauvais
+@506   = ~Je connais <CHARNAME> depuis un bon moment. Je doute qu'<PRO_HESHE> irait me trahir, même si <PRO_HESHE> peut parfois agir de façon sournoise. En plus, même si <PRO_HESHE> le faisait, je saurais y faire face.~
+@507   = ~Tu ne peux pas ne pas connaître des personnes après avoir passé des années avec elles. Même si elles sont aussi renfermées que ce que tu dis de vous autres, les Drows. Tu ne peux pas me dire que tu n'as rien appris sur les gens que tu voyais assez souvent.~
+@508   = ~Il y a une part de vérité dans ce que tu dis, mais être aussi décontractée et ouverte !? En Ombreterre, même si je travaillais aux côtés de quelqu'un toute ma vie, je ne ferais jamais une chose pareille ! *se frotte le front* Cela me donne mal à la tête rien que d'essayer de comprendre ton raisonnement.~
+@509   = ~Ne t'inquiète pas, tu t'y feras. En outre, je n'ai pas dit que je laissais <CHARNAME> tout savoir.~
+/* Xzar, après la discussion dans le fichier de Xzar (jelly), et avant la deuxième discussion du fichier de Xzar */
+@510   = ~Hé, Xzar ! Tu veux une pâte de fruit ?~
+@511   = ~Oh, je... pourquoi m'offrez-vous une telle friandise ?~
+@512   = ~Euh... parce que tu en avais demandé ?~
+@513   = ~Hum. Jetons un coup d'oeil... AHA ! Assassin autant que voleuse ! Mais je ne suis pas dupe de votre petit complot fourbe !~
+@514   = ~De quoi parles-tu ? Elles sont bonnes ! Regarde, je vais en manger une en premier.~
+@515   = ~N'importe quel imbécile sait bien qu'une *vraie* pâte de fruit est rouge ! *Vous* avez mangé une rouge, en laissant les vertes et jaunes toxiques pour moi !~
+@516   = ~Chhh. Je vais te dire. Choisis une verte et une jaune et *je* vais les manger, juste pour prouver qu'elles sont bonnes.~
+@517   = ~Vous feriez ça ? Alors ce n'est pas nécessaire. Mais elles devraient être toxiques avec ces couleurs. En plus, elles ont l'air si nues sans leurs coquilles.~
+@518   = ~Ecoute ! Je les ai trouvées pour toi ! Tu peux ne prendre que les rouges si tu veux. Bon. Veux-tu une fichue pâte de fruit, oui ou non ?~
+@519   = ~Non. J'aimerais être capable d'en vouloir une, mais je constate que je ne peux pas. Elles paraissent presque trop vivantes pour être appétissantes.~
+/* Suite de la discussion avec Skie (@223), intervention de CHARNAME */
+@520   = ~Qu'est-ce que t'en dis, <CHARNAME> ?~
+// Réponses à @520
+@521   = ~Ouais, je crois que je vais me joindre à vous, les filles. Nous avons plein d'argent de reste.~
+@522   = ~Désolé, mais nous avons un budget serré, alors nous n'aurons que le minimum.~
+         ~Désolée, mais nous avons un budget serré, alors nous n'aurons que le minimum.~
+@523   = ~Désolé, mais il faut en priorité obtenir de meilleures armes et armures, à moins que vous ne souhaitiez mourir lors de la prochaine bataille.~
+         ~Désolée, mais il faut en priorité obtenir de meilleures armes et armures, à moins que vous ne souhaitiez mourir lors de la prochaine bataille.~
+// Après @521, PJ femme
+@524   = ~Hé. Tu vois, même <CHARNAME> est d'accord avec moi.~
+// Après @521, PJ homme
+@525   = ~Hé. Tu vois, même <CHARNAME> est d'accord avec moi. *se tourne vers <CHARNAME>* Mais tu ne te joins pas à nous, pendant que nous nous baignons.~
+// Après @522
+@526   = ~Radin !~
+         ~Radine !~
+// Après @523
+@527   = ~Ne t'en fais pas. Tant que je suis là, tu n'as pas besoin de compter les pièces de cuivre. Nous pouvons passer une bonne soirée et utiliser le reste pour l'équipement.~
+/* Skie, suite aux réponses de CHARNAME */
+// Après @526
+@528   = ~Vraiment !~
+// Après @527
+@529   = ~Oui, ça c'est une bonne idée ! Je suis sûre qu'il en restera plein...~
+/* Quayle, , après ou à Château-Suif (après @188), intervention possible de Skie, Minsc, Coran, Garrick, Eldoth, Alora, Kagain et CHARNAME */
+@530   = ~Oui, quelle connaissance puis-je t'accorder aujourd'hui ?~
+@531   = ~Ne bouge pas une seconde. *mesure le nez de Quayle avec une règle*~
+@532   = ~Ouaip ! C'est ce que je pensais !~
+@533   = ~Quoi ? Pourquoi as-tu collé cet objet sur mon nez !? N'as-tu aucun respect pour ceux qui ont une intelligence supérieure ?~
+@534   = ~Eh bien, hum, cela n'a rien à voir. J'avais besoin de découvrir quelque chose, et je l'ai fait.~
+@535   = ~De quoi s'agit-il ? Qu'est-ce que quelqu'un de ton niveau pourrait bien vouloir savoir sur mon nez que je n'ai pas déjà expliqué ?~
+@536   = ~Oh, pas grand chose. Simplement que ton nez est d'une taille moyenne pour un gnome.~
+@537   = ~QUOI !? Comment oses-tu faire une telle affirmation ! Eh bien je te signale que j'ai reçu de nombreux compliments à propos de la taille de mon nez. C'est le pinacle de la perfection. Tiens, chez moi on m'a même décerné un prix pour lui, même si je l'ai décliné par modestie. Je ne voulais pas que les autres gnomes se sentent rabaissés, tu comprends.~
+@538   = ~Tu as peut-être raison. Laisse-moi vérifier de nouveau. *mesure de nouveau le nez de Quayle*~
+@539   = ~Ouaip, tu as raison, ton nez n'est pas moyen.~
+@540   = ~Je te l'avais bien dit ! Maintenant j'attends des excuses.~
+@541   = ~Oh non. Il n'est pas moyen, il est au-dessous de la moyenne.~
+@542   = ~QUOI !? Donne-moi ce livre ! Je veux voir quel imbécile hérétique a écrit cet ouvrage atroce ! TOUT gnome de N'IMPORTE QUELLE envergure saurait qu'un nez de la taille du mien est vraiment exceptionnellement grand. *Arrache le livre des mains d'Imoen et commence à le lire.*~
+@543   = ~*sans attendre que Quayle ne le lise* Eh bien, ce livre-là est intitulé "Un précis sommaire de physiologie gnome". Il semble dépeindre en détail les parties du corps des gnomes et d'autres trucs comme l'âge, la naissance et tout ça. Plutôt assommant mais l'auteur, Kenudrum Galador, a l'air d'avoir écrit beaucoup de livres ici. J'ai même vu quelques biographies, alors je pense que c'est quelqu'un d'important.~
+@544   = ~J-je... Ce livre a manifestement été traduit assez mal en langue Commun. Et regarde son âge ! La copie originale est antérieure au Temps des Troubles !~
+@545   = ~Ouais, mais cet exemplaire a été signé par un chef gnome, Peduritan Lumièrematinale.~
+@546   = ~*Imoen tape des mains avec un air feint de surprise et de compréhension sur son visage.* Oh, et j'y pense, si je me souviens bien, les Lumièrematinale règnent sur le Haut Haspur depuis des siècles. (Je suppose que ce fut une bonne idée de faire attention à mes études de temps à autre.) J'ai fait une petite recherche ; il a vécu jusqu'à il y a environ un siècle, et était respecté également, au moins parmi les gnomes, d'après ce que j'ai entendu. Et cette traduction et mise à jour a été signée de sa main. *Imoen fait remarquer qu'elle a été mise à jour.*~
+@547   = ~Je suis sûre que tu ne prétends pas que feu le chef Peduritan Lumièrematinale n'était pas aussi bien versé que toi.~
+@548   = ~Eh bien non, je ne le dis pas. C'est juste qu'il ne l'a probablement pas lu du tout attentivement. Le chef Peduritan était un gnome très occupé, tu sais. Il n'aurait probablement pas eu le temps.~
+@549   = ~Vraiment ? Cet exemplaire fut signé de sa propre main, *tourne jusqu'à la première page* et on pourrait penser que, parmi toutes les choses auxquelles il ferait très attention, l'exactitude de la taille moyenne du nez d'un gnome figurerait en bonne place, non ?~
+@550   = ~Eh bien, oui, peut-être, mais...~
+// Skie - Imoen - Skie
+@551   = ~Je pense quand même que le nez de Quayle est plutôt large. Bien plus grand que tout ce que j'ai vu auparavant.~
+@552   = ~Eh bien, Quayle est un gnome, Skie, pas un humain. Les gnomes ont un nez plus large que les humains.~
+@553   = ~Je suppose que tu as raison. *touche son propre nez* Je... je me demande s'il y a un miroir quelque part.~
+// Minsc - Quayle - Minsc
+@554   = ~Pas de souci ! Bouh t'aime quand même. Il pense que ton nez est mignon, enfin, pour un nez de gnome. Tiens, tu peux caresser Bouh si tu veux. Il te fera te sentir mieux.~
+@555   = ~Mignon !? Mon nez n'est certainement pas 'mignon' !~
+@556   = ~Qu'est-ce qu'il y a ? Oh, ouais, je suppose que tu as raison. Bouh dit qu'il le comparait à celui des autres gnomes qu'il avait rencontrés. Il n'est certainement pas aussi mignon que le nez d'un hamster.~
+// Coran (chaotique-neutre) - Quayle - Coran
+@557   = ~Une simple suggestion, Quayle. Tu ferais mieux de laisser tomber avant qu'elle ne commence à commenter le fait que ta tête est petite.~
+@558   = ~MA TÊTE EST PETITE ? Qu'est-ce que tu veux dire ? Ma tête contient mon énorme cerveau, donc elle est grande !~
+@559   = ~Ben, peut-être en comparaison avec ton nez, mais s'il est au-dessous de la moyenne...~
+// Coran (chaotique bon) - Quayle - Imoen (tous deux @561)
+@560   = ~Oh, Maître Quayle, elle t'aime, sur mon honneur de voleur ! Combien de jeunes filles humaines as-tu vues s'intéresser au nez d'un gnome ? Félicitations ! C'est une sacrée lot, si tu aimes celles qui rient bêtement.~
+@561   = ~*laisse échapper une goutte de sueur*~
+// Garrick - Imoen
+@562   = ~Hum, donc si le nez de Quayle est au-dessous de la moyenne, je me demande ce qui pourrait l'être aussi. Voudrais-tu me prêter ce livre, Imoen ?~
+@563   = ~Oh, je pense que oui, mais je dois le rendre. Je l'ai en quelque sorte emprunté... *sifflote innocemment*~
+// Eldoth
+@564   = ~Hum, je me demande sur quel autre point vous pourriez être au-dessous de la norme, gnome.~
+// Alora (sans lien direct avec ce qu'ont dit les autres)
+@565   = ~Hi hi ! Ne vous en faites pas, Quayle, j'en garderai le secret. *glousse* Peut-être.~
+// Kagain - Quayle - Kagain
+@566   = ~Ne te tracasse pas pour ça. Je peux toujours t'étirer le nez, contre rétribution.~
+@567   = ~*se couvre le nez* Je ne m'abaisserais jamais à faire étirer artificiellement mon nez, particulièrement par un nain.~
+@568   = ~Attention à c'que tu dis... ou je pourrais décider d'étirer d'autres parties de ton corps. Gratuitement...~
+// Imoen
+@569   = ~Hé-hé.~
+// Réponses à @569, suivi des répliques d'Imoen aux réponses de CHARNAME
+@570   = ~Imoen t'a battu, Quayle. Tu ferais mieux d'abandonner, tant qu'il te reste encore un peu de dignité.~
+@571   = ~Il était temps que quelqu'un te remette à ta place, Quayle ! J'ai toujours pensé que ton nez était un peu petit !~
+@572   = ~Montre-moi ce livre, Imoen...~
+@573   = ~Imoen, arrête ça. Je ne permets pas qu'on se moque de mes amis de façon aussi cruelle.~
+@574   = ~Cessez immédiatement ces bêtises, tous autant que vous êtes. Ce n'est pas le meilleur moment pour faire l'imbécile.~
+// Imoen, après Quayle en @591 (fin du dialogue)
+@575   = ~Oh, alors tu veux continuer ? Je suis sûre que je peux trouver d'autres carences... cherchons la taille de la tête des gnomes...~
+// Après @572
+@576   = ~Hein ? Mais de quoi tu parles ? *recule lentement, le livre derrière elle*~
+// Réponses à @576
+@577   = ~Il y a un problème ? Pourquoi t'éloignes-tu comme ça ?~
+@578   = ~Bon tant pis. Ça n'a pas d'importance.~
+@579   = ~Alors ça ne t'ennuie pas de me montrer le livre, n'est-ce pas ?~
+// Après @577
+@580   = ~P-pas de raison particulière... *Imoen laisse tomber le livre dans une flaque d'eau boueuse.* Houp, désolée. *se dépêche de le ramasser* Je... euh... dois le rapporter avant que le livre ne soit trempé... A tout à l'heure !~
+// Après @579 (une chance sur deux)
+@581   = ~Non, bien sûr. *Imoen tend le livre et le laisse tomber dans une flaque d'eau boueuse juste avant que <CHARNAME> ne le saisisse.* Houp, désolé ! *se dépêche de le ramasser* Je... euh... dois le rapporter avant que le livre ne soit trempé... A plus tard !~
+// Après @579 (une chance sur deux)
+@582   = ~Bien. Voilà. *Imoen donne le livre à contrecoeur.*~
+// Réponses à @582
+@583   = ~Hum. Je te suggère de rapporter ce livre au Sage Bunter, avant qu'il ne se mette à courir à travers toute la citadelle.~
+@584   = ~Oh, bien. Maintenant, allons-y.~
+// Après @583
+@585   = ~Ouais, je promets que je le ferai.~
+// Réponse à @585 (autre réponse @584)
+@586   = ~Et les autres parchemins, aussi. Je ne doute pas qu'il serait tout à fait contrarié si ceux-là venaient à disparaître.~
+// Après @586
+@587   = ~Comment as-tu-?~
+// Réponses à @588
+@588   = ~Tu ne changeras jamais.~
+@589   = ~*rouler des yeux* Allons-y, petite voleuse.~
+@590   = ~Parce que tu as l'habitude des plus agaçantes de voler *tout* ce que tu vois.~
+// Quayle, après @570, suite en @575
+@591   = ~Mais, mais...~
+// Quayle, après @571 (quitte le groupe)
+@592   = ~Je ne peux pas le croire ! Je vous fais don de mon intelligence, gens inférieurs, par pure bonté, et voilà les remerciements que j'obtiens ? Je pense qu'il vaudrait mieux que j'aille ailleurs, là où mon intelligence sera mieux appréciée !~
+/* Xan, rhabillé en rose par Imoen, avant le chapitre 5, dialogues de plainte à suivre en @252 et @258 */
+@593   = ~Eh, Xan, t'as une minute ?~
+@594   = ~Je pense. La dame avec qui j'avais un rendez-vous est élégamment en retard. Je me demande ce qui la retient.~
+@595   = ~Euh ? Je la connais ?~
+@596   = ~Nous allons tous lui être présentés d'ici peu. Son nom est Mort.~
+@597   = ~Aucun d'entre nous ne devrait la voir de si tôt, espérons. Ouais, je sais que tu es un gros ronchon et tout ça, mais j'ai le remède parfait pour te guérir de ton humeur continuellement dépressive.~
+@598   = ~*soupire*~
+@599   = ~C'est ce que tu penses. Tu veux quand même entendre mon idée ?~
+@600   = ~J'ai eu à faire à vos semblables par le passé. Si je dis "Non", ce qui est mon envie la plus grande, vous allez demander "Pourquoi", et vous allez continuer à me harceler jusqu'à ma mort. J'aimerais passer mes derniers instants en paix, alors accouchez et rappelez-vous que la concision est...~
+@601   = ~Super ! Alors écoute, parc'que je sais que tu seras content une fois que ça aura marché, et tu pourras dire à tout le monde que c'était Imoen qui t'avait guéri.~
+@602   = ~Voilà : je vais t'habiller intégralement avec des couleurs vives, en particulier beaucoup de rose. Nous pouvons même teindre tes cheveux en rose si ça peut aider, peindre tes ongles en rose, enfin tout pour te faire venir à bout de cet état d'esprit "la vie ne vaut pas la peine d'être vécue" !~
+@603   = ~*regarde l'éclatant sourire joyeux d'Imoen d'un air de doute* Je doute que ça fonctionne. Tout ce que cela fera, c'est dépenser votre temps, votre argent et vos efforts que vous auriez pu mieux consacrer à vous préparer à notre disparition finale.~
+@604   = ~C'est ce que tu crois ! Tu verras bien. Je sais que ça te rendra guilleret et de bonne humeur, exactement comme moi !~
+@605   = ~*en aparté* Guillotiné de bonne heure, plutôt...~
+/* Xan, rhabillé par Imoen, avec les conseils de Quayle et de Yeslick */
+@606   = ~Ouais, je pense que ce sera un bon endroit pour essayer. Eh, Xan, viens ici. J'ai besoin de toi une seconde.~
+@607   = ~Qu'y a-t-il encore ? Ne voyez-vous pas que j'essaie de rester seul ? L'agitation de la ville me fait me sentir insignifiant.~ [%tutu_var%XANNN13]
+@608   = ~Hum, non, celui-là paraît trop terne mais l'autre ne va pas avec ses yeux. Hum, peut-être que si je faisais ça... Non, ça ne va pas. Oh désolée. Tu disais quelque chose ?~
+@609   = ~Quel plan de mauvaise augure avez-vous encore manigancé !?~
+@610   = ~De mauvaise augure !? Pour qui me prends-tu, une méchante sorcière ou quoi ?~
+@611   = ~Rappelle-toi ce que j'ai dit, que je te guérirais de ta dépression ? Eh bien, devine ? Tu vas obtenir une nouvelle tenue ! Oui, cadeau de la maison. Non, ne me remercie pas, c'est mon devoir de te sortir de la misère dans laquelle tu te trouves.~
+@612   = ~Bon, je pense que le tailleur peut tisser un peu de ce violet avec le rose et le contour blanc. *commence à ôter une partie de la tenue de Xan*~
+@613   = ~Nous aurons besoin de teindre tes cheveux en rose avec une raie jaune, peut-être. Bien sûr, tes ongles seront peints en rose aussi, ou alors peut-être en bleu ciel... pour contraster avec tes nouvelles robes, pour aider à les faire ressortir. Nous pouvons essayer les deux !~
+@614   = ~Ce serait bien d'avoir quelques bijoux également. Des boucles d'oreilles iraient bien, mais les hommes n'en portent pas plus de deux d'habitude, donc je demanderai aux marchands elfes lesquelles sont les mieux, en faisant attention qu'elles aient une bonne part en rose et or.~
+@615   = ~Et, bien entendu, nous ne pouvons oublier d'ajouter quelques colliers, anneaux et bracelets. Pas au point de ressembler à quelque minable riche morveux (je ne peux pas les supporter) mais juste assez pour égayer cet air morne que tu as. Il faudra que je fasse des recherches car je ne connais pas beaucoup de pierres roses. Je suis sûre qu'il y en a, mais sinon quelques babioles en verre feront pas trop mal l'affaire.~
+// Quayle
+@616   = ~Il y a beaucoup de pierres roses, Imoen. Tiens, il y a les grenats roses, des lals de la couleur des roses et les pierres vorobev roses, dont je pourrais dire qu'elles ressemblent aux joues de ma dame quand elle rougit... et les topazes roses bien sûr... certains rubis sont roses ainsi que la cornaline claire. Mes semblables de Lantan font parfois commerce de coraux, en plus des objets les plus particuliers.~
+// Yeslick
+@617   = ~Beaucoup de pierres précieuses ont la couleur du rougissement d'une demoiselle, ainsi que l'appellent mon peuple. Prends le quartz par exemple, il peut être rose ou de n'importe quelle teinte d'ailleurs. Même les diamants - ça gâche leur prix. Les tourmalines de l'est existent dans toutes les couleurs dont tu peux rêver et souvent en rose.~
+// Xan
+@618   = ~J'aime ma tenue exactement telle qu'elle est. *tente de reculer lentement, l'air inquiet, mais Imoen l'empoigne* En plus... en plus, une cape rose d'Evereska, ça n'existe pas...~
+// Imoen
+@619   = ~Bien entendu nous aurons besoin de nous occuper de tes chaussures. Celles que tu as vont horriblement jurer avec ta nouvelle tenue. Et ensuite peut-être changer quelques-uns de tes objets personnels. Je veux dire, ton sac à dos est morne... Un peu de couleur par là...~
+
+// Réponses de CHARNAME à @252-257
+@621   = ~Rends-lui ses affaires, Imoen. Il est encore plus agaçant depuis que tu t'es amusée à le déguiser.~
+@622   = ~Imoen ! Ce... Cette moquerie doit cesser sur le champ ! Xan a été assez noble pour se prêter à ton jeu stupide de déguisement, mais c'est terminé maintenant. Efface ce sourire idiot de ton visage et rends-lui ses vêtements. TOUT DE SUITE !~
+@623   = ~Rends-lui ses affaires, Imoen. C'est sa vie : s'il veut vivre déprimé par sa propre mort, c'est son choix.~
+@624   = ~Je suis d'accord avec Imoen. Tu n'as pas l'air d'avoir changé d'attitude, pour l'instant.~
+@625   = ~Imoen n'a pas tort. Et en plus, ce sont juste des vêtements. Rappelle-toi que c'est juste ta manière de considérer la chose qui déterminera la façon dont tu mourras, et non ce que tu portes.~
+@626   = ~De toute évidence, puisque tu les portes encore, tu ne t'en soucies pas au point d'aller acheter un autre ensemble. Tu vois, même tes ongles sont encore peints.~
+@627   = ~Peu m'importe ce qui arrive. Débrouillez-vous pour vous mettre d'accord entre vous.~
+// Après @621, @622, @623, @659 (suivi de @643, fin de la transformation)
+@628   = ~Rabat-joie ! *tire la langue à <CHARNAME>*~
+// Imoen, après @651
+@629   = ~Eh bien, puisque tu n'arrêtes pas d'essayer de les changer, je n'ai pas d'autre choix que de les maintenir. D'ailleurs, tu ne veux pas de robes déchirées, de cheveux emmêlés ou d'ongles cassés, n'est-ce pas ?~
+// Réponse à @629 (une chance sur deux de Xan parte ensuite)
+@630   = ~Puisque tu n'arrêtes pas de te plaindre de la cause perdue que nous poursuivons, la façon dont tu es vêtu importe-t-elle ?~
+// Imoen, après @653
+@631   = ~Hé ! Ce n'est pas la manière dont tu es censé voir les choses ! Maintenant il va falloir que je redouble mes efforts !~
+// Imoen, après @627 (une chance sur deux), suivi de @654
+@632   = ~Bon, je crois que Xan se soucie au moins à propos de *quelque chose*, alors je vais le laisser récupérer son ancienne tenue et ses affaires. Les cheveux et les ongles prendront un peu de temps pour revenir à la normale. Xan, ne va pas croire que j'en aie fini avec toi, cela dit. J'ai quelques idées en réserve !~
+// Imoen, après @627 (une chance sur deux)
+@633   = ~Tu n'es pas encore à la hauteur, pour l'instant ! Mais nous faisons des progrès ! Au moins tu te soucies de ton apparence. Tu vois, je savais que ce plan marcherait !~
+// Imoen, après @655 ou @657
+@634   = ~Bon, en tout cas, tu vois que je ne suis pas la seule, donc tu vas encore devoir les porter puisque tu es toujours un mauvais sujet, autrement tu n'aurais jamais mentionné ça.~
+// Imoen, après @647
+@635   = ~C'est vrai ? Je peux m'occuper de toi la prochaine fois si tu veux. Ce n'est pas un problème pour moi, en fait c'est même amusant, en vérité.~
+// Réponses à @635 ou @642
+@636   = ~Hum, non merci, Imoen. Je ne faisais que plaisanter.~
+@637   = ~Hum, non merci, Imoen. Ce n'est pas pareil, une fois que c'est arrivé à quelqu'un d'autre.~
+@638   = ~Et comment ! J'adorerais le faire !~
+// Imoen, après @637
+@639   = ~Vraiment ? Ça craint. Bon, je suppose que je peux toujours trouver une nouvelle idée. Il faudra un peu de temps, cependant.~
+// Réponse à @639
+@640   = ~Prends ton temps, inutile de se précipiter.~
+// Imoen, après @638
+@641   = ~Génial ! Il faudra que j'y travaille, car tu es manifestement quelqu'un de différent de Xan, alors cela prendra un peu de temps.~
+// Imoen, après @648, @649
+@642   = ~*agite la main pour donner congé* Coucou, je suis là. Je peux te trouver quelque chose si tu veux, comme je l'ai fait pour Xan !~
+// Xan, après @628 (fin de la transformation et du dialogue)
+@643   = ~Merci, <CHARNAME>. Mes vêtements me manquaient... Attendez ! Il me manque *toujours*... quelques... effets plutôt personnels. Imoen ? Revenez par ici !~
+// Xan, après @624, @660 (quitte le groupe)
+@644   = ~Quoi ? Mais Imoen a avoué m'avoir volé... et pourtant tu prends fait et cause pour elle ? Je n'arrive pas à le croire ! *soupir* Bon, je crois que je peux. L'honneur est une denrée rare de nos jours. Si je ne peux pas récupérer mes possessions légitimes, je vais au moins quitter la compagnie des voleurs qui les ont prises.~
+// Xan, après @625
+@645   = ~Quoi que tu en dises... Mais serais-tu prêt à prouver ce que tu avances en portant cet... accoutrement hétéroclite ?~
+         ~Quoi que tu en dises... Mais serais-tu prête à prouver ce que tu avances en portant cet... accoutrement hétéroclite ?~
+// Réponses à @645
+@646   = ~Bien sûr ! Mais je suis une femme, qui se sent belle qu'elle soit vêtue d'un sac, de vêtements hétéroclites, d'une robe de bal ou de sa seule peau. Je crains d'être de mauvais conseil dans ce cas, Xan.~
+// PJ masculin
+@647   = ~Absolument, j'aurais aimé qu'Imoen fasse la même chose pour moi.~
+// PJ voleur ou rôdeur
+@648   = ~Ça ne me dérangerait pas, mais c'est difficile de se faufiler dans l'ombre et de se cacher avec des couleurs aussi vives.~
+@649   = ~Peu m'importe l'aspect de mes vêtements, du moment que leur coupe est pratique.~
+@650   = ~Jamais de la vie on ne me verra avec des couleurs pareilles !~
+// Xan, après @626, suivi de @629
+@651   = ~*soupir* C'est sans espoir. Corellon sait que j'aurai vraiment essayé, en dépit de mon pressentiment que ce serait tout aussi inutile que tout ce que nous faisons. Elle continue à me voler et elle a apparemment découvert quelque étrange enchantement qui rend à mes cheveux et à mes ongles cette couleur criarde pendant que je dors... et ça n'a rien à voir avec des illusions, j'en suis sûr. De la nécromancie, peut-être, ou une forme détournée de conjuration.~
+// Xan, après @630 (une chance sur deux, quitte le groupe)
+@652   = ~En effet, quelle piètre consolation cela m'apporterait. Hélas, je pense qu'il est temps que je quitte ce groupe. Ainsi, au moins, j'aurai une petite chance de mourir avec une parcelle de dignité, ce qu'on me refuse assurément ici.~
+// Xan, après @630 (une chance sur deux, reste), suivi de @631
+@653   = ~Donc tu reconnais que porter mes propres vêtements est une cause perdue également. Au moins notre troupe est cohérente dans le choix de lutter pour des causes perdues.~
+// Xan, après @632
+@654   = ~*soupir* Encore une autre cause perdue à défendre...~
+// Après @646, PJ féminin elfe, suivi de @634 et @656
+@655   = ~Oui, je... je l'ai remarqué. *Il rougit jusqu'à la pointe de ses oreilles.* Vanimle sila tiri... Ta beauté brille avec éclat... quelle que soit la tenue.~
+// Xan, après @634
+@656   = ~*toujours les yeux fixés sur <CHARNAME>* Hum... oui... peu importe... <CHARNAME>... euh... Imoen.~
+// Après @646, PJ féminin pas elfe, suivi de @634
+@657   = ~Oui, effectivement, j'ai remarqué en toi cette sorte d'assurance, <CHARNAME>. Mais, tu vois...~
+// Xan, après @636, @650
+@658   = ~Donc tu ne les porterais pas. Pourquoi serais-je obligé de le faire ? Au moins je peux mourir dans la dignité, quelle piètre consolation que ce soit.~
+// Réponses à @658
+@659   = ~Tu as raison. Imoen, rends-lui ses affaires !~
+@660   = ~A cause de ton attitude. C'est pour ça.~
+// Xan, après @641
+@661   = ~Oh, Corellon, pourquoi suis-je obligé de passer mes derniers jours parmi cette bande de cinglés et de phénomènes de foire ?~

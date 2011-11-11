@@ -1,0 +1,381 @@
+// Les banters... Petite spécificité... Garrick ne sait pas en placer une sans que la moitié de l'équipe n'intervienne dans sa conversation... Donc, banters généralement à plusieurs.
+
+//Conversation amicale avec Charname
+@0 = ~<CHARNAME>, je me demandais ce que vous pensiez de ma musique. Tout le monde semble avoir un avis...~
+@1 = ~Vraiment, tu es un grand barde, Garrick. Tu as une chanson ou une légende pour chaque occasion.~
+@2 = ~Je préférerais que tu la fermes, simplement. Je trouve que tu as peu d'utilité, sinon pour porter les sacs.~
+@3 = ~Merci, ça, euh, signifie beaucoup pour moi d'entendre cela ! Quand j'écrirai à votre sujet, je n'oublierai pas de mentionner votre gentillesse et votre bonne nature.~
+@4 = ~Pas de problème.~
+@5 = ~En fait, je mentais dans l'espoir que tu la fermes plus vite.~
+@6 = ~Et bien, Silke n'était peut-être pas une *si* mauvaise patronne, après tout...~
+
+//L'histoire avant d'aller dormir de Xzar (interventions d'Eldoth, Montaron, Edwin, Quayle et Imoen possibles)
+@7 = ~Quelle belle nuit. Il est presque temps d'aller se coucher... Euh, Xzar, pourquoi me regardez-vous ainsi ?~
+@8 = ~Racontez-moi une histoire avant d'aller dormir, homme à musique ! Moman me racontait toujours une histoire !~
+@9 = ~Sérieusement ? Vous voulez vraiment écouter une de mes histoires ?~
+@10 = ~Je dois dire que ça me surprend aussi.~
+@11 = ~Oui, pour pouvoir dormir. S'il vous plaaaaaaaaaaaaaaît.~
+@12 = ~D'accord, très bien, vous voulez une histoire sur quel thème ?~
+@13 = ~Racontez-moi une histoire avec des ours et de l'or. Non, quelque chose de nouveau. Racontez-moi une histoire de golems.~
+@14 = ~Il était une fois un golem qui s'appelait Xzar.~
+@15 = ~Il avait un petit compagnon golem ?~
+@16 = ~Oui, qui s'appelait Montaron, un petit gars au comportement moins qu'honnête.~
+@17 = ~Ça a un intérêt à être une bonne histoire, ou tu vas le regretter, tu vois ?~
+@18 = ~Je n'aime pas cette histoire !~
+@19 = ~Quoi ? Pourquoi pas ? Quel genre d'histoire voulez-vous que je vous raconte, alors ?~
+@20 = ~Une histoire ? Pourquoi voudrais-je une histoire de vous, petite créature vivante cinglée ?~
+@21 = ~Mais vous venez de dire...~
+@22 = ~Quoi quoi QUOI ? Laissez-moi tranquille, j'ai besoin d'un sommeil réparateur.~
+@23 = ~Euh, vous avez besoin de plus que ça, Xzar.~
+@24 = ~Vous êtes un homme étrange, Xzar. Vous avez besoin d'aide. Je veux dire, d'aide sérieuse.~
+@25 = ~Vous le pensez vraiment ? Etes-vous prêt à m'aider ?~
+@26 = ~Euh, pas moi, en fait... Je ne suis pas qualifié dans ce domaine, vous voyez...~
+@27 = ~Je suis certain que je suis plus que qualifié dans tous les domaines. Mais ne comptes pas sur moi, Xzar. Je pourrais attraper quelque chose et en être réduit à posséder le cerveau d'un nain !~
+@28 = ~Bah ! C'est toujours la même chose. Chaque fois que quelqu'un veut m'aider, ce sont soit des crétins inutiles comme vous... Cela dit, vous feriez un meilleur spécimen que la plupart, si je vous utilisais frais...~
+@29 = ~Beurk, ça n'a pas l'air très prometteur !~
+@30 = ~Ou ils veulent secrètement me *changer* plutôt que m'aider !~
+@31 = ~J'essaie de t'échanger depuis le jour où on s'est rencontrés, mais je suis toujours coincé avec toi !~
+@32 = ~Et bien, aucun d'entre nous n'est suffisamment parfait pour ne pas profiter d'un petit changement.~
+@33 = ~Aïe ! Si vous voulez vraiment m'aider, chantez quelque chose qui attire les moustiques... là bas loin !~
+
+//Banter avec Ajantis (interventions possibles de Jaheira et Khalid)
+@34 = ~Ainsi vous êtes, euh, un paladin, messire ? C'est tellement héroïque ! Je vous admire vraiment.~
+@35 = ~Je sers la cause de la loi et de la vertu, oui. Tel est mon devoir. Au travers de mes actions, je fais du monde un meilleur lieu de vie pour toutes les créatures nobles.~
+@36 = ~Waouh, vous êtes exactement comme un héros sorti d'un livre ! Peut-être qu'un jour je devrais écrire une ballade sur vous.~
+@37 = ~Je ne combats pas le mal pour mon gain personnel, Garrick.~
+@38 = ~Certes, mais parfois ta ferveur t'aveugle sur ce qui devrait être combattu, en vérité.~
+@39 = ~B-bien dit, ma chérie.~
+@40 = ~Cela dit, si tu écrivais sur moi, je serais heureux de l'entendre.~
+
+//Banter avec Alora (intervention possible de Coran)
+@41 = ~Alora, ne penses-tu pas que voler est, euh, mal ?~
+@42 = ~Je ne vole pas, idiot. J'aime juste collectionner les choses. Quelle est l'utilité d'un objet conservé dans un musée poussiéreux ou des bijoux d'un noble qui croupissent dans leur boîte sans jamais être portés ?~
+@43 = ~Eh bien, j'imagine que tu ne fais de mal à personne.~
+@44 = ~Exactement ! Ne préférerais-tu pas que toi et moi partagions le bon gâteau et le vin que j'ai trouvés, plutôt qu'un vieux et gros marchand ?~
+@45 = ~J'imagine...~
+@46 = ~Je suis volontaire aussi.~
+@47 = ~Voilà, tu vois. Maintenant arrête d'être grincheux et souris !~
+
+//Banter avec Branwen (intervention de Xan possible)
+@48 = ~Me permettrez-vous de faire une remarque, ma dame ?~
+@49 = ~Bien sûr, Garrick, vas-y.~
+@50 = ~Eh bien, même si être transformée en pierre, comme vous l'étiez, n'était probablement pas des plus amusants, cela fait vraiment une bonne histoire.~
+@51 = ~Une bonne histoire ? Peut-être devrions-nous demander à un basilic ou un mage de te pétrifier et on verra si tu aimes ça...~
+@52 = ~En vérité, la pierre est plus résistante aux dégâts que ne l'est la frêle chair. Peut-être pourrait-elle servir à prolonger nos vies sinon si courtes, si nous l'utilisions à bon escient.~
+@53 = ~Euh, ce n'est pas vraiment ce que j'imaginais.~
+@54 = ~Bien. J'aimerais autant qu'on se souvienne de moi pour mes nombreux hauts faits en l'honneur de Tempus que pour ma période statuaire.~
+
+//Banter avec Coran (interventions possibles de Kagain et Xan)
+@55 = ~Dites-moi, Coran, vous avez eu une vie plutôt excitante jusqu'ici, non ?~
+@56 = ~Eh bien, cela dépend de ce que tu considères comme "excitant", Garrick. J'ai rencontré des gens qui pensaient qu'un voyage de Nashkel à Bérégost était l'aventure de toute une vie.~
+@57 = ~En causant à Garrick, p'tit gars, t'es clairement face à l'un d'entre eux.~
+@58 = ~Si le mystère, les escapades dangereuses et l'amour de belles femmes t'excitent, alors, on peut le dire, j'ai eu une vie excitante.~
+@59 = ~Je ne veux pas me montrer irrespectueux, messire, mais dans les histoires que j'ai lues, des personnages intrépides tels que vous tendent éventuellement à avoir les yeux plus gros que le ventre.~
+@60 = ~Celui qui ne risque rien ne goûte pas aux vins les plus doux, Garrick. Et je déteste les vins secs et les bières amères.~
+@61 = ~Et bien, j'essaierais de ne pas me mettre dans davantage de pétrin, pour notre bien à tous...~
+@62 = ~Oui, nous nous mettons bien assez en danger comme ça.~
+@63 = ~As-tu peur de vivre à fond ? Je pense que notre groupe est tout à fait capable de relever n'importe quel défi. Comme moi.~
+@64 = ~J'espère. Et, Coran ?~
+@65 = ~Oui ?~
+@66 = ~Peut-être pourriez-vous, euh, me faire part de certaines des phrases que vous utilisez avec les femmes, parfois ? Purement, euh, pour des raisons littéraires, bien sûr...~
+@67 = ~Ah, mais il n'y a pas de truc, Garrick. Chaque femme est une gemme qui brille de mille feux lorsqu'on la tourne d'un angle particulier dans la lumière.~
+@68 = ~Si tu veux savoir comment est une femme, ne l'écoute pas, contente-toi de la regarder et tu ne tomberas jamais à court de choses à dire.~
+@69 = ~Ah, mais Garrick, tu aurais dû me le demander plus tôt ! Désormais, mon esprit ne vise plus qu'à satisfaire une seule dame... La douce Namara.~
+@70 = ~Il y en a beaucoup, Garrick. Mais crois-moi, le seul moyen sûr est celui-ci... *Coran secoue sa bourse.*~
+
+//Banter avec Dynahéir (intervention de Minsc)
+@71 = ~Vous devez être quelqu'un de plutôt important pour avoir un aussi grand garde du corps que Minsc, dame Dynahéir.~
+@72 = ~Il fait ses preuves pendant son dejemma, jeune homme, comme il le doit.~
+@73 = ~En protégeant Dynahéir et frappant le mal où Bouh le flaire !~
+@74 = ~Oui, arpenter les Royaumes à la recherche de savoir. Un objectif de valeur.~
+@75 = ~Je dois avouer que Tu sembles un peu naïf, de temps à autres, Garrick, mais au moins Ton coeur est au bon endroit.~
+@76 = ~Merci, bonne dame. Vous savez que je vous aiderai, si je le peux.~
+@77 = ~Je crains que les Prophéties d'Alaundo ne soient plus cryptiques que Tu le penses, Garrick. Mais j'apprécie le geste. Tu es un brave homme.~
+
+//Banter avec Edwin (intervention possible de Xan)
+@78 = ~Vous êtes un jeteur de sorts impressionnant, si je peux me permettre, messire.~
+@79 = ~(Ce crétin m'adresse à nouveau la parole. Qu'est-ce que c'est, maintenant ? Je vais devoir lancer un sort de silence sur celui-là, tôt ou tard). Oui, oui, je sais. Qu'est-ce que tu veux ?~
+@80 = ~Et bien, je maîtrise quelque peu les arcanes, mais vos compétences sont incroyables ! Je pensais que, peut-être, vous pourriez m'en dire un peu plus sur vos études ? Cela pourrait faire une bonne légende.~
+@81 = ~(Le simien veut que je lui révèle mes secrets ? Me prend-il pour une sorte d'idiot ?) Je suis un Mage Rouge de Thay, petit, un vrai magicien. Nous ne partageons pas nos méthodes avec les étrangers. Tes trucs de prestidigitateur sont à des éons de ma maîtrise des arcanes (Oui, c'était bien, ça. Je dois me souvenir de l'utiliser une autre fois).~
+@82 = ~Ne perdez pas votre temps à me demander mes secrets non plus, Garrick. Il est plus que probable que vous ratiez votre incantation et nous tuiez tous douloureusement.~
+@83 = ~Euh, désolé, messire. C'était juste une question.~
+@84 = ~Eh bien, dans le futur... évite. (Pourquoi ce gosse nous suit, je ne sais pas. Il me serait plus utile comme bouclier humain. Oui, une autre bonne idée).~
+
+//Banter avecc Eldoth (intervention possible de Yeslick)
+@85 = ~Ne voulez-vous jamais faire de musique à propos de choses heureuses, Eldoth ? Je pourrais vous enseigner certaines de mes chansons, si vous voulez. J'ai été formé à Berdusk, vous savez.~
+@86 = ~Ah, l'apprenti barde naïf parle. Tu ne sais rien du monde réel et je trouve ton jeu maladroit et distinctement dépourvu de technique.~
+@87 = ~C'est un peu injuste. J'essayais juste d'être amical. J'avais espéré que nous puissions, et bien, échanger quelques chansons et des récits d'aventure...~
+@88 = ~Ah, je ne pourrais rien apprendre de toi. Quels sont tes récits d'aventure ? Boire une pinte de bière pour la première fois, peut-être ? Tu ne tiendrais pas une minute dans le monde réel si nous n'étions pas là, nous autres adultes, à protéger tes arrières.~
+@89 = ~Pourquoi dites-vous ces choses ? Vous êtes vraiment méchant !~
+@90 = ~Ne l'écoute pas, Garrick. Il est juste jaloux de ton talent.~
+@91 = ~Ne me parle pas, alors, si ton esprit puéril ne supporte pas la vérité.~
+@92 = ~Très bien.~
+
+//Banter avec Eldoth (intervention possible d'Edwin)
+@93 = ~J'ai commencé un récit des aventures que nous avons partagées avec <CHARNAME>. Voulez-vous le passer en revue avec moi ?~
+@94 = ~Je doute vraiment qu'il vaille la peine d'être entendu. Je ne comprends pas pourquoi <CHARNAME> garde un chiot dans ton genre à proximité, alors qu'il y a un *vrai* musicien dans l'équipe.~
+@95 = ~Ah oui ? Peut-être que c'est parce que je suis gentil, je suis amical, et que tous les autres apprécient ma musique.~
+@96 = ~Non, je sais pourquoi. Tu portes l'excédent de bagages, tu ne t'en rends juste pas compte.~
+@97 = ~C'est ce qu'il me semble de vous deux, crétins. Si vous chantiez *mes* louanges plus souvent, d'un autre côté...~
+@98 = ~Ce n'est pas vrai ! Je vais parler aux autres. Ils se soucient de moi, contrairement à ce que vous dites.~
+
+//Banter avec Faldorn (interventions possibles de Jaheira et Xan)
+@99 = ~Faldorn, dans les légendes que j'ai entendues à propos des Druides de l'Ombre, il semble toujours qu'ils sont la, euh, branche, si vous me permettez l'expression, qui pose des problèmes.~
+@100 = ~Même parmi les druides, c'est souvent ce qu'on observe.~
+@101 = ~Grrr ! Ceux qui détruisent la nature posent problème ! Les Druides de l'Ombre font ce qui est nécessaire pour rétablir l'équilibre.~
+@102 = ~Mais il me semble que vous considérez souvent l'humanité comme l'ennemi. Pourquoi cela ?~
+@103 = ~L'homme est un des enfants de la nature, mais il l'oublie souvent. A ce moment-là, la nature agit à travers nous pour le lui rappeler.~
+@104 = ~Euh, je vois...~
+@105 = ~Je ne crois pas. Tu es un citadin, après tout !~
+@106 = ~Et donc, euh, allez-vous vous sentir obligée de nous le "rappeler" ?~
+@107 = ~Au cours de nos voyages, j'ai vu que tu ne gâtais pas la nature, donc tu es à l'abri de sa colère.~
+@108 = ~Eh bien, voilà une chose de moins dont il faut nous inquiéter.~
+@109 = ~Eh bien, merci, j'imagine.~
+@110 = ~Il n'est pas besoin de me remercier. Je vis pour préserver l'équilibre et protéger la nature.~
+@111 = ~D'accord, très bien. Parfois, je ne comprends vraiment pas les druides...~
+
+//Banter avec Faldorn (intervention de Tiax et Jaheira possibles)
+@112 = ~"Les roses sont fleurs de l'amour..." *soupire* Eculé à mourir.~
+@113 = ~Essayons "Les coquelicots poussent là où le sang fut versé..." Une fois encore, on l'a déjà fait un million de fois.~
+@114 = ~Hmmm, "les jonquilles sont égoïstes comme le sont les beautés bénies qui..." Beaucoup trop commun.~
+@115 = ~Faldorn, existe-t-il seulement une douce fleur sur laquelle il n'existe pas encore de chanson ? Une fleur, c'est tout ce que je veux ! Est-ce trop demander ?~
+@116 = ~Les Pantoufles de Sunie.~
+@117 = ~Les Pantoufles de Sunie ? Eh bien, j'imagine que je dois m'estimer heureux qu'il ne s'agit pas de la Serviette de bain de Cyric !~
+@118 = ~Quand Tiax règnera, tout le monde plantera des Serviettes de bain de Cyric dans de larges parterres en forme de lune...~
+@119 = ~Tiax, je viens de l'inventer !~
+@120 = ~Tiax nommera toutes les fleurs en l'honneur de Cyric !~
+@121 = ~J'ai du mal à m'imaginer à un tournoi de bardes, entonnant une chanson sur les Pantoufles de Sunie ! J'aurais dû me méfier avant de vous demander votre avis, Faldorn...~
+@122 = ~Ici, regarde... J'ai dit *regarde*, ôte tes mains ! Ce sont des Pantoufles de Sunie. Elles sont assez communes. Tu vois la forme des pétales, comme s'ils avaient embrassé le pied d'une déesse ?~
+@123 = ~Oh par... Peut-être puis-je en faire quelque chose, finalement... D'accord : "J'ai mis les Pantoufles de Sunie aux pieds de ma Dame. Oh, miracle ! Elles lui vont comme un charme."~
+@124 = ~Une tournure de phrase élégante, barde, je l'admets. Bon choix de fleur, Faldorn.~
+@125 = ~Faldorn, que savez-vous d'autre sur les Pantoufles de Sunie ? J'ai besoin de plus de matière.~
+@126 = ~Et bien, elles ont un effet médicinal bien connu...~
+@127 = ~Oh, s'il vous plaît, dites-moi qu'elles soulagent le mal au coeur ! Ce serait tellement élégant...~
+@128 = ~Non, pas le mal au coeur. La diarrhée.~
+@129 = ~Euh, moins élégant, mais je suis certain que je peux m'en tirer avec ça. Merci, Faldorn.~
+@130 = ~Ne me remercie pas, remercie la Nature.~
+@131 = ~Euh, d'accord. Merci, Nature !~
+
+//Banter avec Imoen (interventions possibles d'Alora et Skie)
+@132 = ~Imoen, tu sais que dans les grandes épopées, l'accent est toujours, euh, mis sur les actions d'une seule personne ?~
+@133 = ~Ouais, j'imagine. Et alors ?~
+@134 = ~Et bien, nous nous déplaçons, en réalisant toutes ces grandes choses et tout ça, mais, quelque part, c'est au nom de <CHARNAME>. Vous vous connaissez depuis toujours, vous deux. Te semble-t-il bizarre que ce soit <CHARNAME> qui soit la lumière ?~
+@135 = ~Ben, pas vraiment. Nous sommes tellement proches, ça n'a pas d'importance. Et des amis tels que toi savent qu'en réalité c'est la superbe et merveilleuse Imoen qui sauve la situation, non ?~
+@136 = ~Ah, tu es merveilleuse, Imoen. Tu parviens toujours à me faire sourire.~
+@137 = ~N'oublie pas, juste, d'inclure les mots "superbe" et "merveilleuse" quand tu m'intègres à la saga de <CHARNAME>.~
+@138 = ~Hé, et moi aussi !~
+@139 = ~Et ne m'oubliez pas !~
+@140 = ~Pas de problème !~
+
+//Banter avec Jaheira (interventions de Khalid et éventuellement de Faldorn)
+@141 = ~J'ai entendu beaucoup de choses sur les Ménestrels, Jaheira. Cela vous gênerait-il de m'en dire un peu sur la manière dont Khalid et vous vous êtes retrouvés à travailler pour eux ?~
+@142 = ~Oui, ça me gêne. Ces choses ne conviennent pas aux oreilles de jeunes esprits comme le tien.~
+@143 = ~N'oublie pas, Garrick, qu'en tant que druide, elle a un devoir envers la Nature, aussi.~
+@144 = ~Et bien, j'avais entendu que de nombreux Ménestrels étaient bardes, comme moi. Ça a l'air tellement romantique, d'être un héros flamboyant, sauvant le monde du mal.~
+@145 = ~Je p-pense qu'il s'agissait là d'un compliment. M-merci !~
+@146 = ~Nombre d'entre eux sont bardes, Garrick, mais pas comme toi.~
+@147 = ~Vous n'êtes pas obligée d'être si insultante, vous savez ?~
+@148 = ~Je suis désolée, je ne voulais pas être insultante. Tu es trop jeune pour comprendre les réalités et les dangers du monde dans lequel nous vivons. Peut-être que lorsque tu en auras vu davantage, tu commenceras à le comprendre.~
+@149 = ~J'ai lu des livres et entendu des histoires !~
+@150 = ~Ce n'est pas la même chose. Quelque part, j'envie ta jeunesse et ton innocence... Mais tu dois prendre garde, certains essayeront d'en tirer profit.~
+@151 = ~Je suppose que vous avez raison, Jaheira. J'apprécie votre honnêteté.~
+@152 = ~Ne t'en fais pas. Je suis certaine qu'en compagnie de <CHARNAME>, Khalid et moi, nous ferons de toi un jeune homme de qualité.~
+@153 = ~Oui, nous tenterons en t-tout cas de faire de notre m-mieux.~
+@154 = ~C'est gentil de votre part. Je pense que je peux apprendre beaucoup de vous tous.~
+@155 = ~Oui, mais cessons de bavarder, à présent. Il est temps d'avancer.~
+
+//Banter avec Kagain (interventions possibles de Montaron et de Yeslick)
+@156 = ~J'avais entendu dire que tous les nains se languissaient de richesses, Kagain, mais je n'avais pas réalisé à quel point c'était vrai jusqu'à ce que je vous rencontre.~
+@157 = ~C'était un compliment, mauviette, ou une insulte ?~
+@158 = ~Euh, eh bien, ni l'un ni l'autre, j'imagine. Juste une observation.~
+@159 = ~Ben tu ferais mieux d'garder tes observations pour toi, dans l'futur, sauf si tu veux qu'ma hache "t'observe".~
+@160 = ~J'ai proféré des menaces similaires par le passé, mais il les oublie quand ça lui chante...~
+@161 = ~Tu es un mauvais spécimen de nain, Kagain, et devrait prendre garde à tes manières.~
+@162 = ~Euh, désolé Kagain, messire.~
+@163 = ~Tais-toi, maintenant, ton bavardage m'intéresse guère. J'dois r'tourner à mes comptes d'or.~
+@164 = ~Ah, il semble que j'avais raison.~
+
+//Banter avec Khalid (interventions possibles de Kivan, Viconia et Jaheira)
+@165 = ~J'ai entendu beaucoup de récits sur les prouesses des guerriers elfes, Khalid.~
+@166 = ~Et c'est bien ainsi.~
+@167 = ~Ah ! Vous, faibles surfacins, ne valez rien comparés à la puissance des drows au combat.~
+@168 = ~O-Oui, nous...~
+@169 = ~Quoi ?~
+@170 = ~J'allais d-dire que...~
+@171 = ~Pardon ?~
+@172 = ~Eh b-bien...~
+@173 = ~Vous disiez quelque chose ?~
+@174 = ~Laisse tomber.~
+@175 = ~Ah, je suis désolé, Khalid... Je ne voulais pas vous ennuyer, c'était juste une petite blague.~
+@176 = ~Eh bien, d'-d'accord, alors, j'imagine.~
+@177 = ~Ni mon mari ni moi n'apprécions vraiment ce genre d'agaceries, Garrick.~
+
+//Banter avec Kivan (intervention possible de Quayle)
+@178 = ~Kivan, un archer qui vise juste, guidé par le désir de venger son amour assassiné.~
+@179 = ~Les humains, et les bardes humains en particulier, ont cette notion étrange qu'ils sont en droit de dire aux autres ce et qui ils sont.~
+@180 = ~Euh, ouais. Je parlais à voix haute ? Je prenais juste des notes pour mes récits...~
+@181 = ~Je n'ai pas le désir de voir mon nom dans vos récits, Garrick. J'espère que vous respecterez mon souhait.~
+@182 = ~Eh bien, c'est un soulagement... Ainsi il y aura plus de place pour les membres valables de ce groupe. Comme moi.~
+@183 = ~Vous ne dites pas grand chose, n'est-ce pas ?~
+@184 = ~Oui.~
+@185 = ~Je suis désolé, Kivan. Je sais que la vie ne vous a pas fait de cadeaux et j'espère que dans le futur, vous serez à nouveau capable de sourire.~
+@186 = ~Notre vie, Garrick, ne se mesure pas au nombre de respirations prises, mais bien au nombre de fois où nous avons eu le souffle coupé. Souvenez-vous de cela.~
+
+//Banter avec Minsc (intervention possible de Xzar)
+@187 = ~Je n'ai jamais rencontré de rôdeur se promenant avec un hamster, Minsc.~
+@188 = ~Oh, mais tu oublies que Bouh n'est pas seulement un hamster. C'est un Hamster Géant de l'Espace Miniature ! Et il me donne des conseils.~
+@189 = ~Ooh, des Hamsters de l'Espace ! Si bons dans la soupe...~
+@190 = ~Alors, il est le cerveau de l'opération ?~
+@191 = ~Eh bien, évidemment, c'est Dynahéir qui commande. Mais Bouh est en deuxième position.~
+@192 = ~De toute évidence...~
+@193 = ~Bouh veut savoir si tu te moques de moi, petit homme !~
+@194 = ~Bien sûr que non, bon sire, je voulais simplement plus en savoir sur vous deux.~
+@195 = ~D'accord, je te crois. Mais Bouh garde un oeil sur toi !~
+
+//Banter avec Montaron (intervention possible d'Eldoth)
+@196 = ~Pourquoi êtes-vous toujours si méchant avec moi ? Je pensais que les petits-hommes était connus pour leur gentillesse.~
+@197 = ~T'es un chiot inutile, plus un poids qu'un atout dans ce groupe. Et m'compare pas à mes congénères, en plus.~
+@198 = ~Vous ne devez pas m'apprécier. Mais je préfèrerais que vous gardiez vos commentaires pour vous-même. On m'a toujours appris que quand on n'a rien de gentil à dire, il vaut mieux ne rien dire.~
+@199 = ~Ton tuteur était un crétin.~
+@200 = ~Je pense que la qualité de sa musique le révèle déjà assez bien...~
+@201 = ~Ce n'est pas très juste. J'essaie de ne pas être insultant avec vous, alors que je pourrais l'être !~
+@202 = ~Surveille ta langue, gamin, où tu pourrais t'réveiller sans. Ou pas du tout. Et où en s'raient tes chansons, alors ?~
+@203 = ~Je ne pense pas que j'ai quoi que ce soit à ajouter.~
+@204 = ~T'as pas intérêt. Maintenant dégage !~
+
+//Banter avec Quayle (intervention possible d'Edwin)
+@205 = ~Vous avez l'air plutôt pensif, Quayle. Quelque chose ne va pas ?~
+@206 = ~Moi ? Non, mon garçon, je suis juste en train de songer à, euh, la Théorie de la Relativité. Oui. C'est très complexe, tu vois...~
+@207 = ~Oh, vraiment ? J'ai saisi pas mal de choses, en mon temps. De quoi ça parle ?~
+@208 = ~Je suis certain que tu ne comprendrais pas.~
+@209 = ~Vous êtes toujours comme ça ! Allez, testez-moi.~
+@210 = ~Et bien, c'est, hum... Voyons. C'est une théorie que l'on ne peut raconter qu'aux gens qu'on connaît relativement bien. Donc, je suis vraiment désolé, mais je ne peux pas te l'expliquer.~
+@211 = ~Je ne peux pas m'empêcher de penser que c'est une sorte d'échappatoire, Quayle.~
+@212 = ~Ah ! Pour une fois, je suis d'accord avec toi, Garrick. Ce simple gnome n'est pas aussi génial qu'il pense l'être, comparé à quelqu'un comme moi.~
+@213 = ~Le malheur est mien, la jeunesse d'aujourd'hui, tellement méfiante. Bien sûr que c'est plus compliqué que ça ! Mais tu as besoin d'années d'intense stimulation intellectuelle pour seulement *commencer* à être capable de la comprendre.~
+@214 = ~C'est ça, bien sûr.~
+
+//Banter avec Safana (intervention possible d'Imoen)
+@215 = ~Pourriez-vous me raconter quelques histoires sur votre vie, Safana ?~
+@216 = ~Hum ? Et bien, volontiers, Garrick. Pourrais-tu juste m'attraper mon outre à vin ?~
+@217 = ~Bien sûr, mademoiselle.~
+@218 = ~Merci, très cher. Oh, dieux. Il semblerait que je n'en ai plus. Pourrais-je t'en emprunter un peu ? J'ai *toujours* tellement soif...~
+@219 = ~Bien sûr, voici.~
+@220 = ~Mmm, merci...~
+@221 = ~Et donc, m'en direz-vous plus à votre sujet ?~
+@222 = ~Une autre fois, Garrick. Je suis fatiguée, là maintenant. Peut-être pourrais-tu porter mon paquetage pour un temps ? Ne t'en fais pas, je ne manquerai pas de t'accorder mon attention toute entière plus tard.~
+@223 = ~Euh, d'accord. (Pourquoi ai-je cette impression qu'on m'utilise ?)~
+@224 = ~Aaah, pauvre Garrick, tellement gentil... Et parfois tellement stupide...~
+
+//Banters avec Shar-Teel (intervention possible de Xan)
+@225 = ~C'est un nom intéressant que vous avez, Shar-Teel. D'où vient-il ?~
+@226 = ~Je n'ai pas la moindre envie de discuter de telles choses avec toi, mâle.~
+@227 = ~Hé, pourquoi êtes-vous toujours aussi hostile envers nous, les hommes ?~
+@228 = ~Je le répète, je n'ai pas la moindre envie de discuter de telles choses avec toi.~
+@229 = ~Et je ne veux pas vraiment le savoir. J'imagine que c'est quelque chose de déprimant.~
+@230 = ~Il y a quelque chose qui vous rend tellement amère. Parlez m'en, je vous en prie, j'aimerais vous aider...~
+@231 = ~Les hommes sont inférieurs. Tu en es un parfait exemple.~
+@232 = ~Et bien, quand on parle de "mauvaise semaine". Mais il semble que chez elle, c'est "mauvaise semaine" tous les jours...~
+
+//Banter avec SharTeel (interventions possibles de Skie et Kagain)
+@233 = ~Et voici un nouveau jour d'aventure qui touche à sa fin. Dites, est-ce que quelqu'un a envie d'entendre ma nouvelle composition ?~
+@234 = ~Non.~
+@235 = ~Ouais, moi non plus.~
+@236 = ~Euh, une décision plutôt abrupte, non, ma dame ? Je travaille dessus depuis plusieurs jours, et c'est l'une de mes meilleures. Si je peux me permettre de le dire.~
+@237 = ~Non. Et appelle-moi encore une fois "dame", et je vais enfoncer cet instrument là où les rayons de Lathandre ne brillent pas. Tout ce que je veux c'est la paix et le silence, mes muscles sont douloureux, ma tête me fait mal, et la dernière chose que je veux entendre sont tes misérables roucoulades.~
+@238 = ~Mais Skie veut certainement entendre ma musique ! N'est-ce pas, Skie ?~
+@239 = ~J'adorerais entendre votre chanson, Garrick.~
+@240 = ~Ah, je savais qu'il y avait un amateur de musique dans ce groupe ! Très bien, dans ce cas, celle-ci vous est dédiée, ma chère Skie...~
+@241 = ~Ah, mais la musique a le pouvoir de détendre même la bête la plus sauvage ! Celle-ci vous est dédiée, ma chère Shar-Teel...~
+@242 = ~Est-ce que je n'ai pas été claire, mâle ?!? Il n'y aura *pas de musique*. Si je dois même entendre une unique note, je ferai des cordes de violon avec tes cordes vocales. Est-ce qu'on se comprend ?~
+@243 = ~*gloups* Euh, oui, ma da... euh, oui. Je vais aller jouer ma composition par là. Dans le coin.~
+
+//Banter avec Skie (intervention possible d'Eldoth)
+@244 = ~Skie, je...~
+@245 = ~Et bien, euh, je voulais juste dire que je...~
+@246 = ~Ah, le chiot n'arrive même pas à sortir un mot.~
+@247 = ~Que vouliez-vous dire ?~
+@248 = ~Je... Je pense que vos cheveux sont très beaux, aujourd'hui. Oui, voilà ce que je voulais dire.~
+@249 = ~Oh, merci, Garrick. Vous êtes un charmant jeune homme.~
+@250 = ~Vous le pensez vraiment ? Merci, Skie, ma journée est réussie.~
+
+//Banter avec Tiax (interventions possibles d'Edwin, Xan et Quayle)
+@251 = ~Ah, quelle belle journée pour partir à l'aventure ! Les oiseaux chantent, l'air est frais et clair, les arbres sont grands et majestueux. Que pouvons-nous demander de plus aux Dieux, nous humbles mortels, que d'être en vie en une telle journée ?~
+@252 = ~Tiax pourrait demander bien plus. Par exemple, Tiax pourrait demander que sa destinée soit réalisée, et qu'il lui soit permis d'enfourcher le monde armé de son son pouvoir et de sa gloire !~
+@253 = ~Oh, pourquoi est ce que cet idiot doit continuer à cheminer avec nous ? Pourquoi suis-je entouré de crétins tels que celui-ci ?!?~
+@254 = ~Tiax pourrait demander à Cyric d'abattre ses ennemis et d'apporter la ruine aux hérétiques, douleur et misère à tous ces imbéciles qui ne plient pas les genoux devant la puissance de Tiax !~
+@255 = ~Rappelez-moi d'émigrer avant que cela ne se produise.~
+@256 = ~Tu sais, Tiax, je pense vraiment que tu devrais aller voir un spécialiste de la santé mentale, ou quelque chose du genre. Tu donnes mauvaise réputation aux gnomes, espèce de bouffon !~
+@257 = ~Tiax pourrait demander à Cyric de retirer ces mouches qui n'arrêtent pas de voler devant le visage de Tiax ! Tiax a de nombreuses exigences, et Tiax attend avec impatience qu'on y réponde...~
+@258 = ~Il n'a même pas fait attention à moi ! Un jour, ils en viendront à apprécier mon génie. Ce n'est pas de ma faute si je suis en avance sur mon temps.~
+@259 = ~Tiax, vous devriez vous détendre et davantage profiter de la vie. Il y a de simples plaisirs qui sont bien plus grands que ce que ne pourrait vous apporter la conquête du monde. Le parfum d'une fleur ou le son délassant d'une harpe.~
+@260 = ~Tiax n'a pas de temps pour de telles frivolités. Il rêve de choses plus grandioses ! Quand Tiax régnera, il se réjouira de chaque minute qu'il passera à mettre à sac et détruire des royaumes désobéissants et à annihiler les hérétiques qui osent provoquer son ire !~
+@261 = ~Je veux dire, je ferais mieux de me parler à moi-même. Je suis le seul capable d'apprécier ma finesse et mon intellect, après tout.~
+@262 = ~Tiax n'a pas besoin de fleurs. La douce odeur des rivières de sang qui couleront lorsqu'il aura tout conquis lui plaira bien davantage ! Tous loueront Tiax, maître de toutes choses !~
+@263 = ~Euh, d'accord.~
+@264 = ~Parfois, je pense que je suis invisible. Hé, je ne suis pas en train d'utiliser mes extraordinaires pouvoirs d'illusionniste, encore, si ? Non ? Ils doivent juste m'ignorer, alors. Quel dommage que je ne puisse pas me mettre à leur niveau.~
+
+//Banter avec Tiax (intervention d'Eldoth et Quayle)
+@265 = ~Euh, Tiax...~
+@266 = ~Est-ce que Tiax t'a permis de t'adresser à lui ?~
+@267 = ~Et bien, non, mais...~
+@268 = ~Alors silence, mortel ! Tiax n'a pas de temps à perdre dans des discussions avec des imbéciles comme toi !~
+@269 = ~Bien que Tiax perde beaucoup de temps à se parler à lui-même. Logique défaillante, ici...~
+@270 = ~Je voulais juste...~
+@271 = ~Et ne commence pas non plus avec tes chansons. Tiax a une migraine à cause de son herbe à pipe et il ne désire pas s'imposer le poids supplémentaire de ton vacarme.~
+@272 = ~Pour une fois, Tiax, nous sommes d'accord. Il s'agit vraiment d'un vacarme des plus grossiers et dépourvu du moindre style.~
+@273 = ~Euh, pardon.~
+@274 = ~Tiax entend tes excuses, mais il s'en moque. Va t'en !~
+
+//Banter avec Viconia (intervention de Kivan et Eldoth)
+@275 = ~Est-ce que les drows font de la musique, Viconia ?~
+@276 = ~Nous n'avons pas besoin de musique dans votre genre, rivvin. Elle est faible et sans intérêt, comme tout le reste de ce qui vous concerne.~
+@277 = ~Ce n'est pas vrai. La musique peut inspirer de grands sentiments, comme l'amour, le bonheur, la paix. Elle est loin d'être sans valeur.~
+@278 = ~Tu chantes seulement des sentiments si pathétiques. Où sont tes chansons de conquête, guerre et destruction ?~
+@279 = ~Cette pourriture drow ne vaut pas la peine qu'on s'en soucie, Garrick. Epargnez votre salive.~
+@280 = ~Nous avons de telles chansons, bien que... je préfère ne pas les chanter.~
+@281 = ~Et pourquoi pas ?~
+@282 = ~Je cherche à faire plaisir avec ma musique, à renforcer le moral des autres.~
+@283 = ~Eh bien, tu ne me fais pas plaisir. Je trouve que ta musique ne vaut même pas ma pitié. Toi et tes chansons ne survivriez pas un jour en Outreterre.~
+@284 = ~Hé, je partage vos sentiments en ce qui concerne sa musique, Viconia. C'est un crétin insupportable.~
+@285 = ~Je considère tes efforts minables avec autant de mépris que les siens, iblith.~
+@286 = ~Je suis désolé que vous pensiez ceci, Viconia. Je pense qu'au fur et à mesure que vous passerez plus de temps à la surface, vous apprendrez à mieux apprécier notre mode de vie. Il y a beaucoup à gagner de la joie, de l'amour et de la confiance.~
+@287 = ~Ne prétends pas me juger, surfacin. Tu es stupide de comparer mon mode de vie au tien.~
+
+//Banter avec Xan (interventions possibles de Minsc, Quayle et Viconia)
+@288 = ~Vraiment, la vie est merveilleuse...~
+@289 = ~Vous faites si souvent cette remarque, et pourtant je ne parviens pas à voir ce qu'elle a de si merveilleuse.~
+@290 = ~Allons, regardez autour de vous ! Les oiseaux chantent, le soleil brille ! Il y a tellement de beauté en ce monde.~
+@291 = ~Oui, ainsi que les loups, les ogres, les hobgobelins, les gobelours et d'innombrables autres monstres qui errent, cherchant à nous tuer.~
+@292 = ~Oui, c'est merveilleux en effet ! Minsc et Bouh vont tous les écraser ! Pas vrai, Bouh ?~
+@293 = ~Oh Xan, vous êtes tellement pessimiste. Regardez autour de vous. N'êtes-vous pas heureux de contempler une si belle journée ?~
+@294 = ~Je n'arrive pas à voir ce qui est si inspirant dans le fait d'être perpétuellement poursuivi, partout sur la Côte des Epées, par des hordes d'ennemis qui cherchent à écourter à nos vies.~
+@295 = ~En fait, mettre fin à des vies est une bonne chose dans certains cas. Vous savez, la survie du plus adapté, tout ça. Pas la mienne évidemment, je suis bien trop important pour le vivier des gènes gnomes.~
+@296 = ~Bien que, oui, quand notre trépas survient, inévitablement, je suppose que c'est mieux de le rencontrer sous le soleil que dans une grotte sombre quelque part.~
+@297 = ~L'étreinte sombre de Shar est bien plus accueillante que cette infernale lumière du soleil.~
+@298 = ~Eh bien, euh, ce n'était pas ce que je voulais dire. Mais j'imagine que c'est un début...~
+
+//Banter avec Xan (intervention d'Ajantis, Montaron & Xzar)
+@299 = ~Comment allez-vous, Xan ?~
+@300 = ~Eh bien, je ne me sentais pas particulièrement mal. Cela dit, maintenant que vous avez commencé à parler, cela signifie probablement que vous allez vous mettre à chanter quelque chose, ce qui veut probablement dire que je vais avoir la migraine. Donc, pas si bien, finalement.~
+@301 = ~Ma musique vous offense tant que ça ?!?~
+@302 = ~Pas la musique, j'imagine. Le bruit en lui-même, qui a l'effet supplémentaire d'avertir n'importe qui de notre présence dans un rayon d'une lieue, lui donnant l'ample opportunité de planifier notre trépas.~
+@303 = ~Et qu'ils viennent ! Avec Heaum pour me guider, nous vaincrons une telle vilenie !~
+@304 = ~Oh.~
+@305 = ~Et quand la musique s'arrête, cela signifie que nous campons pour la nuit, ainsi ils savent qu'il est temps de venir et de nous trancher la gorge dans le noir.~
+@306 = ~Si ça va jusque là, certains d'entre nous pourraient ne pas attendre jusqu'à la nuit, vu ?~
+@307 = ~Xan, vous êtes vraiment plutôt pessimiste, vous savez...~
+@308 = ~Je préfère le terme "réaliste". Pas que cela ait la moindre importance, cela ne change rien quand vous êtes mort.~
+@309 = ~Mort ? Est-ce que quelqu'un parle de la mort ? Montaron, qu'est-ce qu'il se passe ?~
+@310 = ~Parfait, maintenant, il est lancé lui aussi... Je voudrais juste pouvoir m'allonger et mourir.~
+
+//Banter avec Yeslick (intervention d'Ajantis et Sharteel)
+@311 = ~Quelles sont ces chansons que je vous entends chanter, Yeslick ?~
+@312 = ~Ce sont des chants de guerre, des prières à mon dieu, Clangeddin Barbedargent.~
+@313 = ~Pas aussi pieux qu'Heaum le Vigilant, mais un dieu valeureux néanmoins.~
+@314 = ~Pourriez-vous m'en dire plus à son sujet ? Je n'avais jamais entendu parler de Clangeddin avant de vous rencontrer.~
+@315 = ~Le Seigneur des Haches Jumelles est le grand dieu nain des batailles. Il m'octroie mes sortilèges et je chante ses louanges, tandis qu'il m'aide à fendre le crâne des gobelins. Notre race a de nombreuses histoires et ballades sur nos dieux et guerriers.~
+@316 = ~J'aimerais en entendre certaines, un jour, si c'est possible.~
+@317 = ~Et j'aimerais ne PAS les entendre, jamais, si c'est possible.~
+@318 = ~Bien sûr, Garrick mon ami, rien ne rendrait ce vieux nain plus fier que de chanter les louanges de Clangeddin Barbedargent pour un jeune homme impatient comme toi.~
+@319 = ~Hé, avec plaisir, Yeslick.~ 

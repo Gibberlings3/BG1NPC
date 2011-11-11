@@ -1,0 +1,227 @@
+//
+// Branwen
+//
+// les lignes 0 et 1 se déclenchent si la romance charname/branwen est commencée
+@0 = ~Misérable petit reptile ! Vous êtes un serpent de premier ordre ! S'il n'était pas si humiliant et déshonorant de vous tailler en pièces à cause d'un
+homme, vous vous retrouveriez à l'état de lambeaux sanguinolents, broyée et vous tordant de douleur ! Partez, et allez chercher quelqu'un d'autre à séduire.~
+@1 = ~Vous n'êtes pas des nôtres, et vous ne comprenez pas. Mais j'ai laissé votre ami tranquille. Vous devez partir maintenant. Partez.~
+//
+// Alora
+//
+@2 = ~Waou, seulement 500 pour tout ça ! Si tous les commerçants étaient aussi bon marché, les gens comme moi se retrouveraient sans travail !~
+@3 = ~Les gens comme vous ? Je pense vous êtes pas si bien que ça, peut-être.~
+@4 = ~Oh je, euh, je parlais juste des gens qui aiment dépenser beaucoup d'argent pour des trucs...~
+@5 = ~Je vais garder un oeil sur vous, pour sûr ! Que dit votre camarade de ce que je lui fais acheter, hein ?~
+@6 = ~Hé ? *murmure* A peu près n'importe qui à la Porte aurait pu te raconter tout ça, <CHARNAME>...~
+@7 = ~'Bien sûr que oui, idiot ! Enfin je veux dire, comme tout le monde, n'est-ce pas <CHARNAME> ?~
+@8 = ~Hé, j'ai toujours voulu m'introduire dans la Guilde... mais un léger danger, c'est le moins que l'on puisse dire !~
+@9 = ~D'accord, du danger, peut-être. Mais de l'or en échange du danger, c'est bien, hein ?~
+@10 = ~*murmure* Il nous cache quelque chose, ou alors je ne suis plus la fille bénie de Petithomme !~
+@11 = ~Nous... nous sommes piégés ici ? Mais... mais il fait si froid !~
+@12 = ~Hé, tu n'as pas du rencontrer beaucoup de voleurs.~
+@13 = ~Hum, qu'entendez-vous par là, petite femme ?~
+@14 = ~Eh bien, je veux simplement dire que parfois les gens ne trouvent pas ce qu'ils cherchent parce que quelqu'un d'autre l'a déjà trouvé avant eux !~
+@15 = ~C'est une idée intéressante, et qui a plus de rapport avec la situation que vous ne l'imaginez. Cependant, j'aimerais connaître la réponse de votre ami à la question initiale.~
+      ~C'est une idée intéressante, et qui a plus de rapport avec la situation que vous ne l'imaginez. Cependant, j'aimerais connaître la réponse de votre amie à la question initiale.~
+//
+// Ajantis
+//
+@16 = ~<CHARNAME>, vous n'avez pas sérieusement l'intention d'aider cette créature maléfique en condamnant une âme innocente ! Nous devrions la combattre, ainsi nous lui offrirons la seule liberté qui convienne à un monstre infernal dans son genre !~
+@17 = ~<CHARNAME>, je suis soulagé que vous ayez changé d'avis. A présent, cette créature maléfique va recevoir ce qu'elle mérite !~
+@18 = ~Créature maléfique ! A présent, tu récoltes ce que tu mérites !~
+@19 = ~Vous l'avez *fait* ! Vous avez trompé cet homme pour aider cette créature infernale ! Même si c'était une racaille et un voleur, vous n'aviez pas le droit de condamner son âme ! Votre acte était purement maléfique ! Défendez-vous !~
+//
+// Branwen
+//
+@20 = ~Quelle stupidité. Pourquoi ne ramasse-t-elle pas ses propres plantes ?~
+@21 = ~Quelle stupidité. Pourquoi ne ramasse-t-il pas ses propres plantes ?~
+@22 = ~Celui-ci a l'air assoiffé de sang. Ah, cela me rappelle ma terre qui me manque tant.~
+//
+// Coran
+//
+@23 = ~Une jolie fleur sauvage... un peu trop sauvage pour mon goût, mais on dirait que tu te prends d'affection pour elle, <CHARNAME>...~
+@24 = ~Je vous en prie, cher monsieur, attendez au moins pour discuter avec moi que nous soyons hors de portée d'oreille. Cela me met mal à l'aise.~
+@25 = ~Une courtoisie tellement surannée... pour quelqu'un de tellement novice. Cela me rappelle ces marchands sournois qui, quelquefois, mettent de fausses étiquettes sur du vin nouveau pour augmenter son âge. Mais son goût n'en est pas moins acide.~
+@26 = ~Son engeance n'obtient jamais de plaisir avec de simples mots, <CHARNAME>, je te le garantis.~
+@27 = ~Pas de plaisanteries ? Une telle retenue mérite une récompense. Tu veux une cape ? Tu devrais aller la chercher !~
+@28 = ~Tu te plains que les *autres* sont maladivement gentils ? Ça doit valoir le détour, en effet !~
+@29 = ~Non, non ! C'était parfaitement vrai ! Tu *es* l'histoire.~
+@30 = ~Waouh ! Il vient à peine de te rencontrer et il essaie déjà de se servir de toi, ma douce !~
+@31 = ~Tu vas aider ce... ce... valet de ferme impertinent ?!~
+@32 = ~Absolument *baille* pas-sion-nant... Excusez-moi, je vais faire une sieste.~
+@33 = ~A présent que nous avons appris quelle est la généalogie de ce... palefrenier, pouvons-nous enfin partir ?~
+@34 = ~Je suppose que 'disparaître' serait trop demander ?~
+@35 = ~Flatteur ? Inexplicable, dirais-je plutôt !~
+@36 = ~Voilà qui est charmant ! Et il rougit comme une jeune fille, de surcroît !~
+@37 = ~Par chez moi, les hommes ne trouvent pas les fleurs particulièrement attirantes, et ne demandent pas aux belles jeunes filles de leur en rapporter un bouquet. Par chez moi, les hommes couvrent plutôt de fleurs leurs beautés...~
+@38 = ~Est-il aveugle ou simplement bête ? A-t-il raté la prairie que tu portes dans tes mains ?~
+@39 = ~A présent, mon pauvre gars, ne reste pas planté là ! A ce que j'ai compris, il n'y a pas beaucoup de jeunes filles dans cette contrée isolée, mais la façon dont tu fixes <CHARNAME> est scandaleuse ! Ferme au moins la bouche, chiot, avant de te mettre à baver.~
+@40 = ~Chiot ?! *se renfrogne* Je suis assez adulte pour vous disputer la chienne !~
+@41 = ~Tss, tss... Person...~
+@42 = ~*bondit en avant*~
+@43 = ~Adieu à vous, belle dame... Peut-être... une autre fois... non, une autre fois, et les choses seraient semblables. Partez avec mes pensées, et, s'il vous plaît, portez-vous bien.~
+@44 = ~Coran et Durlyle
+
+Durlyle recherchait davantage que mon amitié, à ce qu'il semble. En fait, c'était si évident que Coran est devenu véritablement jaloux. Durlyle a fini par le frapper en plein visage. Je me sens... mal à l'aise.~
+//
+// Dynahéir
+//
+@45 = ~Ainsi, Tu souhaites nous faire payer une dette de sang, Shandalar ? Oui, cela est bien compréhensible... et tout aussi révulsant. Même si ma conscience ne s'en trouvera que plus légère, je me refuse à croire qu'une tâche aussi simple que retrouver une cape suffira à venger la mort de Tes filles. Nous envoies-Tu dans un labyrinthe mortel, sorcier ? Aucune importance, cela étant dit. Tu as nommé le prix de notre dette, et nous nous en acquitterons.~
+//
+// Edwin
+//
+@46 = ~Tenir un journal n'est un passe-temps louable que pour le simple d'esprit. Un mage doté de pouvoir et d'ambition n'aurait mis que quelques années avant de régner sur ces créatures, ne parlons même pas de quelques siècles... (Infestés de puces comme ils sont, ils feraient une armée de conquête décente.)~
+//
+// Faldorn
+//
+@47 = ~Quand les petits meurent avant les loups, alors la meute s'éteint. Je suis avide de drainer le sang frais de cette colonie et ainsi de la voir décliner, mais j'ai pitié des petits promis à la mort dans le dédale des nains. Allons les chercher, mais s'ils n'ont pas développé une haine envers les constructions ainsi que les babioles mécaniques, alors je les laisserai se débrouiller seuls.~
+@48 = ~Alors détestez-vous cet endroit ?~
+@49 = ~Oh oui ! Je... je dois partir !~
+@50 = ~Détestez-vous le moindre de ses pièges, le moindre de ses objets ainsi que chacune de ses pierres ?~
+@51 = ~OUI ! Oui madame, s'il vous plaît, laissez-moi partir !~
+@52 = ~Les cauchemars vous hanteront, à moins que vous ne vous purifiiez de cette souillure que vous avez absorbée en errant ici comme un imbécile.~
+@53 = ~Prenez votre mère, Thérella, venez au bosquet des druides et inclinez-vous devant l'archidruide Aramande. Il vous infligera une pénitence, et vous guérira.~
+@54 = ~Je... Je ferai ce que vous dites. Maintenant je dois absolument m'échapper d'ici... AHHHHHH !~
+@55 = ~C'est le signal ! GRRR ! C'est le signal ! Nous devons les ramener sur le continent et transformer toutes les faibles créatures civilisées en véritables bêtes ! Waouuu ! Ecoute-moi, <CHARNAME> ! Peut-on rêver meilleur destin ?~
+@56 = ~<CHARNAME>, si ces fleurs sont rares, comment oses-tu nous demander de les détruire pour le plaisir de faire la cour ? Grr ! Es-tu une mouche, pour en avoir besoin pour t'accoupler ?~
+@57 = ~Ce... vous êtes rustre, étrangère. Mais ce sont les paroles de <CHARNAME> qui m'importent, pas les vôtres.~
+//
+// Garrick
+//
+@58 = ~Les Douze bredouillants ? Est-ce que vous allez bien, messire ?~
+@59 = ~Wow, *ça* c'était du baratin !~
+@60 = ~Ce n'est pas exactement le plus éloquent des alliés, mais, oulà ! Il a l'air de compenser ça physiquement, c'est sûr.~
+@61 = ~C'est tellement beau ! Et terrible !~
+@62 = ~Je n'approuve pas de telles activités clandestines, mais j'imagine que parfois, on n'a pas le choix.~
+@63 = ~Ces mots seront vos derniers, monstre !~
+@64 = ~Il est complètement fou !~
+@65 = ~Elle a une redoutable réputation...~
+@66 = ~Mais euh, n'ayez pas peur, madame ! La situation n'est pas du tout désespérée !~
+@67 = ~Une bande de zombies ? Il fut un temps où j'aurais eu peur d'un tel défi, mais je m'en sens parfaitement capable, désormais ! Pas vrai, <CHARNAME> ?~
+@68 = ~Qu'tu blablates ou pas, vous les tuez, vous avez l'or.~
+//
+// Jaheira
+//
+@69 = ~Je sais que beaucoup de druides choisissent cette voie pour se rapprocher encore davantage de la Nature, mais je serais bien plus tranquille avec mes pouvoirs de métamorphose habituels ! Par Sylvanus, nous devons mettre fin à cette malédiction, car je suis certaine qu'aucun d'entre nous ne désire passer le restant de ses jours dans la peau d'un loup. Une manière de lever la malédiction serait de... tuer leur chef. Tuons Kaishas ! Vite !~
+@70 = ~Il semble qu'il parle de loups-garous. Soyons prudents, dans ce cas, car ils sont non seulement terribles au combat, mais ils possèdent également une grande subtilité, et ils utiliseront leur ruse contre nous.~
+//
+// Kivan
+//
+@71 = ~Un don ? J'aurais appelé cela un don, si vous aviez demandé avant de nous l'octroyer. Les loups sont des bêtes fortes et fières, et il n'y a pas de honte à avoir du sang de loup. Mais en ne nous laissant pas le choix, vous nous avez maudits, Kaïshas.~
+@72 = ~Pensez-en ce que que vous voulez. Vous faites partie du groupe, maintenant.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 896, probablement inutile de traduire ici !
+@73 = ~<CHARNAME> n'a pas trahi la mémoire de son père. Vous êtes aveuglé par les intrigues de Sarevok, sage.~
+//
+// Montaron
+//
+@74 = ~Viens ici, mon chien-chien, bon chien-chien. Par ici, mon gars.~
+// 
+// Quayle
+//
+@75 = ~Il est certain que sa taille est impressionnante, mais il faut analyser pourquoi et comment quelque chose d'aussi gros a bien pu arriver ici... Et je pense que je me montrerai à la hauteur de n'importe quel test d'intelligence. Dites, qui et qu'êtes vous, en fait ?~
+@76 = ~Qui ou quoi n'a aucune importance ; peut-être ne sais-je pas, ou peut-être ne comprendriez-vous pas les réponses.~
+@77 = ~Très bien. Je ne fais pas d'erreurs. En tout cas, pas souvent.~
+@78 = ~Quel nom, dites-moi ? En fait, vous ne devriez probablement pas répondre à cette question.~
+@79 = ~A vrai dire, je me suis souvent posé la question.~
+@80 = ~Les Douze bredouillants ? Qu'est-ce que ce drôle de nom ?~
+@81 = ~Hé ! Moi aussi.~
+@82 = ~Eh bien il n'a pas l'air très fûté, mais je pense qu'on pourrait dire la même chose pour la plupart des gens qu'il me faut côtoyer au quotidien... Hé les gars, c'est pas pour vous vexer, hein ?~
+@83 = ~Ah, le vieux truc du "ramenez-nous notre camarade disparu". Un bon vieux "ramenez-nous notre camarade disparu", j'adore.~
+//
+// Shar-Teel
+//
+@84 = ~Si tu n'arrêtes pas tout de suite de faire de l'oeil à cette greluche, tu maudiras le jour où ton père a engrossé ta mère ! *Pour illustrer son propos, Shar-Teel vous gifle.*~
+@85 = ~Tu... tu... tu mérites cette petite garce. Fous le camp, <CHARNAME> !~
+//
+// Tiax
+//
+@86 = ~Tiax n'est pas ici pour blesser qui que ce soit. Il indique simplement cet endroit sur sa carte, comme ça, lorsqu'il régnera, ses armées déferleront sur ces îles et les intégreront à son empire !~
+@87 = ~Qui est Tiax, et pourquoi ses armées voudraient-elles déranger ceux qui résident ici ? Nous n'avons pas l'intention de vous combattre, ou ceux qui vous servent, mais nous le ferons si vous nous y poussez.~
+@88 = ~Ne vous inquiétez pas de Tiax. Il ne parle pas pour notre groupe, et nous n'avons pas l'intention de vous faire du mal.~
+@89 = ~Tiax est un peu fumeux, mais j'ai du mal à craindre les menaces d'un village de cul-terreux paumé dans un marigot. Nos affaires ne regardent que nous.~
+@90 = ~Ne craignez pas Tiax. Nous ne nous intéressons en aucune manière à votre village. Nous sommes venus pour d'autres raisons.~
+//
+// Viconia
+//
+@91 = ~Ah ! Ce n'est pas la proposition la plus maladroite que j'ai jamais entendue, bien qu'elle soit aussi vaine que le reste.~
+@92 = ~Ah ! Ce n'est pas la proposition la plus maladroite que j'ai jamais entendue, bien qu'elle soit aussi vaine que le reste.~
+@93 = ~Intéressant, <CHARNAME>. D'un côté, ces surfacins se sont laissés piéger, donc ils doivent être d'une compétence limitée ; de l'autre, leur manque de valeur signifie que, s'ils se retournaient contre nous, nous n'aurions pas de peine à leur régler leur compte...~
+@94 = ~Dans un cas comme dans l'autre, je n'ai jamais été fan de sculptures ni de héros. Libère-les, puis tue-les, quand ils ne seront plus utiles, ensuite laisse-les pourrir, voilà ma suggestion.~
+@95 = ~Et il ne serait pas sage non plus de tenter de nous arrêter.~
+@96 = ~Grr... Je vous conseille de partir, étrangère, et de chercher Kaïshas Gen.~
+@97 = ~Humain stupide, j'aurais pu vous le dire gratuitement.~
+@98 = ~Écouter le discours de celui-là revient à s'arracher les yeux. Pouah.~
+@99 = ~Iblith.~
+@100 = ~Je boirais de l'urine plutôt que cette rinçure que vous autres surfacins appelez bière...~
+@101 = ~Alors c'est comme cela, femme ? Peut-être que d'autres de tes compagnons de voyage ont des goûts plus accomplis.~
+@102 = ~Un elfe surfacin, *et* un Sélunite. Iblith ! Il mérite de rester enfermé ici.~
+@103 = ~Je trouve tes manières au moins aussi barbares que celles des surfacins du continent. Et, comme je viens d'un pays de vraie culture, moi seule suis apte à juger.~
+@104 = ~Les mauvais souvenirs obscurcissent votre jugement. Bonne journée à vous.~
+@105 = ~Voilà qui revient à se débarrasser précocement du faible... Un peuple intéressant que celui de ces insulaires.~
+@106 = ~Silence, minus.~
+@107 = ~Prudence, <CHARNAME>, ce n'est pas une simple femme !~
+@108 = ~Silence, femme, et laisse cet homme s'asseoir et se reposer à mes côtés. Tu peux rester aussi, si tu veux.~
+@109 = ~Regarde, c'est à peine s'il sait parler. Ah !~
+@110 = ~Une suggestion ridicule.~
+@111 = ~J'ai exclu l'amour de mon coeur il y a bien longtemps... Ce spectre ne posera pas plus de difficultés.~
+@112 = ~Une embuscade !~
+@113 = ~Une invocation démoniaque ? <CHARNAME>, nous devrions fuir ! Abandonnons ces misérables à leur destin !~
+@114 = ~Ou peut-être devrais-je simplement recourir aux divins pouvoirs de Shar pour les retourner contre toi et prendre ton or ?~
+@115 = ~S'il vous plaît, m'dame, on est au bout du rouleau ! On n'est que des gens ordinaires ! Le... l'offre reste valable, et je prie pour que vous fassiez ce qui est juste.~
+//
+// Xan
+//
+@116 = ~Nous voilà donc bloqués sur un îlot glacial au beau milieu de l'océan, sans vivres et sans abri. Est-ce que tu trouves amusant, <CHARNAME>, que nous soyons plus en sécurité maintenant qu'auparavant ? Ou es-tu trop occupé à planifier les combats qui nous sortiront de notre refuge pour nous ramener à notre perte ?~
+       ~Nous voilà donc bloqués sur un îlot glacial au beau milieu de l'océan, sans vivres et sans abri. Est-ce que tu trouves amusant, <CHARNAME>, que nous soyons plus en sécurité maintenant qu'auparavant ? Ou es-tu trop occupée à planifier les combats qui nous sortiront de notre refuge pour nous ramener à notre perte ?~
+@117 = ~Les Douze bredouillants, non... mais peut-être les Trois bredouillants...~
+@118 = ~*soupir* J'ai le pressentiment que le bateau précédemment cité est l'unique disponible dans ce port, et que nous allons donc le rater...~
+@119 = ~Qu'est-ce qu'Evereska, si ce n'est qu'une Tour de Durlag plus grande, plus vaste ? Nous nous retirons du monde, disposant pièges et défenses, mais ce ne sont que des illusions, les fantômes de notre fierté et notre manque de perspicacité... C'est sans espoir. Les miens sont condamnés à périr, tout comme le clan de Durlag, et rien ne nous sauvera.~
+@120 = ~Euh, je sais que dans les circonstances actuelles il est vraiment ridicule de jubiler, mais... Je ne peux m'empêcher de te faire remarquer que je t'ai déjà dit à multiples reprises qu'il est de notoriété commune que les mystérieuses ruines souterraines sont souvent emplies de terrifiants monstres... et tu es toujours aussi pressé de t'y fourrer, <CHARNAME>. Maintenant, grâce à ton désir insatiable de voir si la flamme brûle toujours, nous sommes sur le point d'être mis à mort par un chevalier démon ! Quel honneur...~
+       ~Euh, je sais que dans les circonstances actuelles il est vraiment ridicule de jubiler, mais... Je ne peux m'empêcher de te faire remarquer que je t'ai déjà dit à multiples reprises qu'il est de notoriété commune que les mystérieuses ruines souterraines sont souvent emplies de terrifiants monstres... et tu es toujours aussi pressée de t'y fourrer, <CHARNAME>. Maintenant, grâce à ton désir insatiable de voir si la flamme brûle toujours, nous sommes sur le point d'être mis à mort par un chevalier démon ! Quel honneur...~
+@121 = ~Je vous somme de vous taire !~
+@122 = ~Et cela fait si longtemps que je cherchais une façon appropriée de décrire notre malheureux groupe... des domestiques sans cervelle de la Mort. Très éloquent. Quel dommage que je ne survivrai pas suffisamment longtemps pour l'écrire dans ma "Chronique d'un voyage vers le suicide".~
+@123 = ~Et pourquoi, ô vendeur de suicides, devrions-nous employer vos services ? Nous sommes parfaitement équipés pour nous faire tuer tout seuls. A moins, bien sûr, que notre <CHARNAME>, si rapide à se faire tuer, pense que l'addition d'un faux sentiment de sécurité pourrait nous condamner encore plus promptement.~
+@124 = ~C'est exactement le sort dont je rêvais depuis toujours... monter la garde autour d'un cadavre puant pour toute l'éternité. Peut-être qu'un simple "non merci" suffirait ? *soupir* J'avais bien peur que non...~
+@125 = ~*soupir* Merci beaucoup. Les malédictions sont exactement ce qui m'avaient manqué dans cet... endroit maudit.~
+
+
+// Ajantis
+@1001 = ~Pensez à ce que vous pourriez manquer...~
+@1002 = ~Ou vous !~
+@1003 = ~Quoi ?~
+// Branwen
+@1004 = ~Partez d'ici !~
+// Dynahéir
+@1005 = ~J'y compte bien. J'attendrai votre retour.~
+// 
+
+@1006 = ~It is good you welcome it.~
+
+// Garrick
+@1007 = ~Ah ! Viens te battre !~
+// Quayle
+@1008 = ~Ensemble, libres...~
+// Shar-Teel
+@1009 = ~Adieu.~
+// 
+
+@1010 = ~Cette pierre gardienne vous permet de passer.~
+@1011 = ~Sus !~
+
+
+// Xan
+@1012 = ~Tu l'as trouvé.~
+// Quayle
+@2001 = ~Eh bien il n'a pas l'air très fûté, mais je pense qu'on pourrait dire la même chose pour la plupart des gens qu'il me faut côtoyer au quotidien... Hé les gars, c'est pas pour vous vexer, hein ?~
+// Garrick
+@2002 = ~Ce n'est pas exactement le plus éloquent des alliés, mais, oulà ! Il a l'air de compenser ça physiquement, c'est sûr.~
+// Reliquat
+@2003 = ~Réduisez les ennemis en bouillie !~ 
+// Faldorn
+@2004 = ~C'est le signal ! GRRR ! C'est le signal ! Nous devons les ramener sur le continent et transformer toutes les faibles créatures civilisées en véritables bêtes ! Waouuu ! Ecoute-moi, <CHARNAME> ! Peut-on rêver meilleur destin ?~
+// Jaheira
+@2005 = ~Je sais que beaucoup de druides choisissent cette voie pour se rapprocher encore davantage de la Nature, mais je serais bien plus tranquille avec mes pouvoirs de métamorphose habituels ! Par Sylvanus, nous devons mettre fin à cette malédiction, car je suis certaine qu'aucun d'entre nous ne désire passer le restant de ses jours dans la peau d'un loup. Une manière de lever la malédiction serait de... tuer leur chef. Tuons Kaïshas ! Vite !~
+// Kivan
+@2006 = ~Un don ? J'aurais appelé cela un don, si vous aviez demandé avant de nous l'octroyer. Les loups sont des bêtes fortes et fières, et il n'y a pas de honte à avoir du sang de loup. Mais en ne nous laissant pas le choix, vous nous avez maudits, Kaïshas.~
+// Reliquat
+@2007 = ~Pensez-en ce que que vous voulez. Vous faites partie du groupe, maintenant.~

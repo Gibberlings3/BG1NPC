@@ -1,0 +1,343 @@
+//
+// Commun
+//
+// Réplique du PJ commune à tous les personnages
+@1  = ~Nos chemins se séparent, mais ils se croiseront à nouveau un de ces jours. J'aurai peut-être bientôt besoin d'aide une nouvelle fois. Choisissons un lieu de rendez-vous quelque part à la Porte de Baldur.~
+// Réplique du PJ commune à tous les personnages
+@2  = ~Nos chemins se séparent, mais ils se croiseront à nouveau un de ces jours. J'aurai peut-être bientôt besoin d'aide une nouvelle fois. Choisissons un lieu de rendez-vous quelque part sur la Côte des Épées.~
+// Réplique du PJ commune à tous les personnages (réponse PJ à plainte endroit dangereux, départ définitif)
+@10  = ~Alors adieu !~
+// Réplique du PJ commune à tous les personnages (réponse PJ à plainte endroit dangereux)
+@11  = ~Après réflexion, je ne veux pas me séparer d'un membre du groupe maintenant.~
+// Réplique du PJ commune à tous les personnages (réponse PJ à plainte endroit dangereux)
+@12  = ~Oh, j'ai confiance en l'instinct de survie d'un aventurier. Une fois hors d'ici, il faudra rejoindre un lieu sûr bien choisi et m'y attendre.~
+//
+// Jaheira
+//
+@0 = ~Jaheira, je ne veux pas que nous nous séparions définitivement. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@3 = ~Tout bien réfléchi, Jaheira, je veux que tu restes dans le groupe.~
+@4 = ~Il devait en être ainsi. Gorion t'a enseigné tout ce qu'il pouvait, et je vois qu'un peu de ce savoir a fini par te pénétrer.~
+@5 = ~Ainsi soit-il, <CHARNAME>. Je t'attendrai ici.~
+@6 = ~Ainsi soit-il, <CHARNAME>. Nous t'attendrons ici.~
+@7 = ~Peut-être est-ce mieux ainsi. J'aimerais autant être ailleurs, car tu me parais plutôt irrécupérable. Il y a du bon sens de Gorion en toi, mais bien peu de sa sagesse.~
+@8 = ~Peut-être est-ce mieux ainsi. J'aimerais autant être ailleurs, car tu me parais plutôt irrécupérable. Il y a du bon sens de Gorion en toi, mais bien peu de sa sagesse. Viens Khalid, d'autres endroits nous conviendront davantage.~
+@9 = ~Me prends-tu pour une imbécile, <CHARNAME> ? Je n'attendrais pas ici pour tous les trésors de Baldurien !~
+@13 = ~Me prends-tu pour une imbécile, <CHARNAME> ? Nous n'attendrions pas ici pour tous les trésors de Baldurien !~
+@14 = ~Je t'attendrai à l'Auberge de Brasamical. C'est l'endroit idéal pour récupérer des épreuves de la route pendant quelques jours.~
+@15 = ~Quiconque visite la Porte de Baldur devrait s'arrêter à la Taverne du Chant de l'Elfe. Ce n'est pas une règle, juste un fait. <CHARNAME>, j'y serai, si jamais tu as à nouveau besoin de moi.~
+@16 = ~Nous t'attendrons à l'Auberge de Brasamical. C'est l'endroit idéal pour récupérer des épreuves de la route pendant quelques jours.~
+@17 = ~Quiconque visite la Porte de Baldur devrait s'arrêter à la Taverne du Chant de l'Elfe. Ce n'est pas une règle, juste un fait. <CHARNAME>, nous y serons, si jamais tu as à nouveau besoin de nous.~
+//
+// Khalid
+//
+@18 = ~Khalid, je ne veux pas que nos chemins se séparent à jamais. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@19 = ~A la réflexion, Khalid, je veux que tu restes dans le groupe.~
+@20 = ~E... excellent ! Ce sera comme si nous n'avions jamais été séparés.~
+@21 = ~T-t-très bien, <CHARNAME>. Je vous a-attendrai ici.~
+@22 = ~T-t-très bien, <CHARNAME>. N-nous vous a-attendrons ici.~
+@23 = ~J-je ne peux pas dire que j'aie apprécié le t-temps que nous avons passé ensemble, mais par égard pour Gorion, je ne ferai plus de commentaires sur vos actions. S'il y a quelque chose de lui en vous, vous finirez par bien tourner... Même si pour l'heure, ça parait peu probable.~
+@24 = ~J-je ne peux pas dire que j'aie apprécié le t-temps que nous avons passé ensemble, mais par égard pour Gorion, je ne ferai plus de commentaires sur vos actions. S'il y a quelque chose de lui en vous, vous finirez par bien tourner... Même si pour l'heure, cela semble difficile à croire. Viens Jaheira ch-chérie. Laissons cette personne à la voie qu'elle s'est choisie.~
+@25 = ~A-avec tout le r-respect que je vous d-dois, je n'attendrais pas ici pour tous les trésors de B-Baldurien. M-mieux vaut p-prévenir que g-guérir !~
+@26 = ~A-avec tout le r-respect que je vous d-dois, Jaheira et moi n'attendrions pas ici pour tous les trésors de B-Baldurien. M-mieux vaut p-prévenir que g-guérir !~
+@27 = ~Je v-vous attendrai à l'Auberge de Brasamical. C'est l'endroit i-idéal pour récupérer des épreuves de la route pendant quelques jours.~
+@28 = ~Quiconque visite la Porte de B-baldur devrait s'arrêter à la T-taverne du Chant de l'Elfe. Ce n'est pas une règle, juste un f-fait. <CHARNAME>, j'y serai, si jamais vous avez à nouveau besoin de moi.~
+@29 = ~N-nous vous a-attendrons à l'Auberge de Brasamical. C'est l'endroit i-idéal pour récupérer des épreuves de la route pendant quelques jours.~
+@30 = ~Quiconque visite la Porte de B-baldur devrait s'arrêter à la T-taverne du Chant de l'Elfe. Ce n'est pas une règle, juste un f-fait. <CHARNAME>, nous y serons, si jamais vous avez à nouveau besoin de nous.~
+//
+// Dynahéir
+//
+@31 = ~Dynahéir, je ne souhaite pas que nos chemins se séparent pour toujours. Attendez-moi là. Je reviendrai vers vous dès lors que j'aurai à nouveau besoin de vos services.~
+@32 = ~Tout bien réfléchi, Dynahéir, je préfère que vous restiez dans le groupe.~
+@33 = ~C'est une sage et bonne décision pour tous ceux qu'elle concerne.~
+@34 = ~Comme Tu le souhaiteras, <CHARNAME>. Je T'attendrai ici.~
+@35 = ~Comme Tu le souhaiteras, <CHARNAME>. Nous T'attendrons ici.~
+@36 = ~Si ma compagnie T'importune, soit. Je ne m'imposerai point si l'on ne veut pas de moi.~
+@37 = ~Si ma compagnie T'importune, soit. Je ne m'imposerai point si l'on ne veut pas de moi. Viens Minsc, nous poursuivrons seuls.~
+@38 = ~Pourquoi me demandes-Tu cela, <CHARNAME> ? Je m'étonne qu'une personne avisée telle que Toi ne puisse voir que cela m'est impossible.~
+@39 = ~Pourquoi me demandes-Tu cela, <CHARNAME> ? Je m'étonne qu'une personne avisée telle que Toi ne puisse voir que cela nous est impossible.~
+@40 = ~Je T'attendrai à l'Auberge de Brasamical. Cet endroit est suffisamment sûr pour qui souhaite voyager prudemment en ces terres étranges qui T'ont vu naître.~
+      ~Je T'attendrai à l'Auberge de Brasamical. Cet endroit est suffisamment sûr pour qui souhaite voyager prudemment en ces terres étranges qui T'ont vue naître.~
+@41 = ~A la Porte de Baldur, le meilleur endroit où aller est l'auberge du Chant de l'Elfe. J'y serai lorsque Tu auras besoin de moi, <CHARNAME>.~
+@42 = ~Nous T'attendrons à l'Auberge de Brasamical. Cet endroit est suffisamment sûr pour qui souhaite voyager prudemment en ces terres étranges qui t'ont vu naître.~
+      ~Nous T'attendrons à l'Auberge de Brasamical. Cet endroit est suffisamment sûr pour qui souhaite voyager prudemment en ces terres étranges qui t'ont vue naître.~
+@43 = ~A la Porte de Baldur, le meilleur endroit où aller est l'auberge du Chant de l'Elfe. Nous y serons lorsque Tu auras besoin de nous, <CHARNAME>.~
+//
+// Minsc
+//
+@44 = ~Minsc, je ne veux pas que nos chemins se séparent à jamais. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@45 = ~Tout bien réfléchi, Minsc, je veux que tu restes dans le groupe.~
+@46 = ~Que le mal tremble, car il pourrait bien se ramasser un juste coup de pied entre les deux yeux ! En avant !~
+@47 = ~Très bien, <CHARNAME>. Minsc et Bouh t'attendront ici.~
+@48 = ~Très bien, <CHARNAME>, Minsc (et Bouh) et sa sorcière t'attendront ici.~
+@49 = ~Bouh et moi, on allait partir de toute façon ! Jamais de ma vie je n'ai vu pareille conduite ! Voyez donc, et ça prétend être des héros ! Bon débarras !~
+@50 = ~Bouh et moi, on allait partir de toute façon ! Jamais de ma vie je n'ai vu pareille conduite ! Voyez donc, et ça prétend être des héros ! Bon débarras ! Viens, Dynahéir, je craindrai pour ta sécurité tant que nous serons ici.~
+@51 = ~Minsc a peut-être l'air bête, mais il a Bouh. Et Bouh ne le laisserait jamais attendre ici. Non monsieur.~
+@52 = ~Minsc a peut-être l'air bête, mais il a Bouh. Et Bouh ne le laisserait jamais attendre ici. Non monsieur. Minsc doit protéger sa sorcière.~
+@53 = ~Minsc et Bouh t'attendront à l'Auberge de Brasamical. C'est un bon endroit pour se préparer à de sérieux bottages de fesses !~
+@54 = ~Quand ils sont à la Porte de Baldur, Minsc (et Bouh) vont à la taverne du Chant de l'Elfe. Nous y serons quand tu seras prêt à battre les oeufs brouillés du mal avec l'acier de la justice !~
+      ~Quand ils sont à la Porte de Baldur, Minsc (et Bouh) vont à la taverne du Chant de l'Elfe. Nous y serons quand tu seras prête à battre les oeufs brouillés du mal avec l'acier de la justice !~
+@55 = ~Nous t'attendrons tous à l'Auberge de Brasamical. C'est un bon endroit pour se préparer à de sérieux bottages de fesses !~
+@56 = ~Quand ils sont à la Porte de Baldur, Minsc (et Bouh) et leur sorcière vont à la taverne du Chant de l'Elfe. Nous y serons lorsque tu seras prêt à battre les oeufs brouillés du mal avec l'acier de la justice !~
+      ~Quand ils sont à la Porte de Baldur, Minsc (et Bouh) et leur sorcière vont à la taverne du Chant de l'Elfe. Nous y serons lorsque tu seras prête à battre les oeufs brouillés du mal avec l'acier de la justice !~
+//
+// Skie
+//
+@57 = ~Skie, je ne souhaite pas que nos chemins se séparent pour toujours. Attendez-moi là. Je reviendrai vers vous dès lors que j'aurai à nouveau besoin de vos services.~
+@58 = ~Tout bien réfléchi, Skie, je préfère que vous restiez dans le groupe.~
+@59 = ~Merci mille fois ! J'ai eu si peur. Ça n'est pas du tout pareil que la vie en ville.~
+@60 = ~Bon... Il semblerait que je n'ai pas le choix.~
+@61 = ~Bon... Il semblerait que je n'ai pas le choix. Eldoth, je t'en prie, ne me laisse pas seule.~
+@62 = ~Très bien ! D'ailleurs, je m'apprêtais à partir ! Vous n'êtes vraiment pas la compagnie de voyage idéale.~
+@63 = ~Très bien ! D'ailleurs, je m'apprêtais à partir ! Vous n'êtes vraiment pas la compagnie de voyage idéale. Et puis, Eldoth est plus agréable que vous !!!~
+@64 = ~Mais pourquoi me demandez-vous ça, <CHARNAME> ? Je ne peux pas rester seule ici, je vais mourir de trouille !~
+@65 = ~Mais pourquoi me demandez-vous ça, <CHARNAME> ? Je ne peux pas rester seule ici, même avec Eldoth à mes côtés, je vais mourir de trouille !~
+@66 = ~Je... Je suppose que je pourrais vous attendre à l'auberge de Feldpost, à Bérégost. Il me reste suffisamment d'argent, mais, je vous en prie, faites vite... Je... Je ne supporte pas d'être seule !~
+@67 = ~Une fois, Père m'a dit que la taverne du Chant de l'Elfe était un endroit sûr. Je... Je suppose que je pourrais vous y attendre un moment.~
+@68 = ~Je... Je suppose que nous pourrions vous attendre à l'auberge de Feldpost, à Bérégost. Il nous reste suffisamment d'argent, hein, Eldoth ?~
+@69 = ~Une fois, Père m'a dit que la taverne du Chant de l'Elfe était un endroit sûr. Je... Je suppose que nous pourrions vous y attendre un moment. Tu me suis, Eldoth ?~
+//
+// Eldoth
+//
+@70 = ~Eldoth, je ne souhaite pas que nos chemins se séparent pour toujours. Attendez-moi là. Je reviendrai vers vous dès lors que j'aurai à nouveau besoin de vos services.~
+@71 = ~Tout bien réfléchi, Eldoth, je préfère que vous restiez dans le groupe.~
+@72 = ~Moi aussi. Passez devant et réveillez-moi lorsque nous serons arrivés.~
+@73 = ~Bien, <CHARNAME>. Je vous attendrai ici, si toutefois j'estime que cela en vaut la peine.~
+@74 = ~Bien, <CHARNAME>. Nous vous attendrons ici, si toutefois j'estime que cela en vaut la peine. Viens, Skie.~
+@75 = ~Je préférerais voyager seul plutôt que de rester une seconde de plus avec vous, espèces de gros mufles. Au revoir et bon débarras !~
+@76 = ~Je préférerais voyager seul plutôt que de rester une seconde de plus avec vous, espèces de gros mufles. Au revoir et bon débarras ! On y va, Skie.~
+@77 = ~Vous me prenez pour un imbécile, <CHARNAME> ? Je ne resterai pas tout seul ici pour tous les trésors de Baldurien !~
+@78 = ~Vous me prenez pour un imbécile, <CHARNAME> ? Nous ne resterons pas tout seuls ici pour tous les trésors de Baldurien ! Par ailleurs, j'ai un travail à faire.~
+@79 = ~Eh bien, il se trouve que je m'arrête parfois à l'auberge de Feldpost, à Bérégost. Dans cet endroit, l'on peut au moins trouver un semblant de civilisation. Non pas que je vous promette d'y être à votre retour...~
+@80 = ~A la Porte de Baldur, l'endroit à visiter est évidemment la taverne du Chant de l'Elfe. Cet endroit a le mérite d'avoir au moins entendu parler du Vin Rouge chaud d'Arabel.~
+@81 = ~Eh bien, il se trouve que je m'arrête parfois à l'auberge de Feldpost, à Bérégost. Dans cet endroit, l'on peut au moins trouver un semblant de civilisation. Non pas que je vous promette d'y être à votre retour... Ne fais pas de manières, Skie. Je ne souffre point tes minauderies. Il est bien entendu que tu me suis.~
+//
+// Xzar
+//
+@82 = ~Xzar, je ne veux pas que nos chemins se séparent définitivement. Attends-moi plutôt ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@83 = ~Tout bien réfléchi, Xzar, je veux que tu restes dans le groupe.~
+@84 = ~Hourrah ! J'aimerais tous nous voir chanter de joie, mais je suis sûr qu'un tel épanchement serait mauvais pour mon foie. En avant, et tout le bataclan !~
+@85 = ~Très bien, <CHARNAME>. Je me languirai ici-même en attendant votre retour. Ouuuaaaiiis.~
+@86 = ~Très bien, <CHARNAME>. Monty et moi nous languirons ici-même en attendant votre retour. Ouuuaaaiiis.~
+@87 = ~En effet, il est plus que temps de nous séparer. Vous avez fait preuve de malveillance à mon égard, et j'ai hâte de tenir entre les mains un charmant petit cendrier moulé dans votre crâne. Salut.~
+@88 = ~En effet, il est plus que temps de nous séparer. Vous avez fait preuve d'insensibilité à mon égard, et j'ai hâte de tenir entre les mains un charmant petit cendrier fait dans votre crâne. Allez, Montaron. Ce tas de nouilles ne nous séparera pas.~
+@89 = ~Ah non, je suis peut-être fou, mais je ne suis pas stupide. <CHARNAME>, je n'attendrais pas ici pour tous les crânes jacasseurs de la Cité des Portes. (Personne ne sait vraiment si un tel endroit existe, mais tout de même...)~
+@90= ~Ah non, je suis peut-être fou, mais je ne suis pas stupide. <CHARNAME>, Monty et moi n'attendrions pas ici pour tous les crânes jacasseurs de la Cité des Portes. (Personne ne sait vraiment si un tel endroit existe, mais tout de même...)~
+@91 = ~Hi hi hi. Voyez donc si vous pouvez vous frayer un chemin jusqu'à l'antre du dragon avant que je m'ennuie d'attendre. Je ferais mieux de me dépêcher, cela dit, le hérisson attend.~
+@92 = ~On dit que les poissons ne peuvent pas parler, mais je suis sûr que c'est plus distrayant que les cochons volants. Mon temps sera mieux employé à discuter avec les anguilles au fond de la mer.~
+@93 = ~Hi hi hi. Voyez donc si vous pouvez vous frayer un chemin jusqu'à l'antre du dragon avant que je m'ennuie d'attendre. Venez, Monty, le hérisson attend.~
+@94 = ~On dit que les poissons ne peuvent pas parler, mais je suis sûr que c'est plus distrayant que les cochons volants. Venez, Monty, notre temps sera mieux employé à discuter avec les anguilles au fond de la mer.~
+//
+// Montaron
+//
+@95 = ~Montaron, je ne veux pas que nos chemins se séparent à jamais. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@96 = ~Tout bien réfléchi, Montaron, je veux que tu restes dans le groupe.~
+@97 = ~Sage décision, pour sûr. Ça retarde le moment où j'aurai à vous tuer de quelques jours au moins.~
+@98 = ~A ta guise, <CHARNAME>. Je t'attendrai ici.~
+@99 = ~A ta guise, <CHARNAME>. Nous t'attendrons ici. T'tracasse pas pour les lacets d'tes bottes, mage ! Et arrête de *m'baver* d'ssus !~
+@100 = ~Bon débarras, vile racaille ! J'te conseille de dormir que d'un oeil dorénavant.~
+@101 = ~Bon débarras, vile racaille ! J'te conseille de dormir que d'un oeil dorénavant. Allez, magicien ! Je n'vais pas rater ton inévitable trépas en t'laissant derrière !~
+@102 = ~Tu crois que j'suis con, <CHARNAME> ? J'rest'rais pas ici même pour un bain d'vapeur plein de vierges elfes à poil !~
+@103 = ~Tu crois qu'on est cons, <CHARNAME> ? On rest'rait pas ici même pour un bain d'vapeur plein de vierges elfes à poil !~
+@104 = ~Le Dragon qui Rote, à Nashkel, c'est mon genre d'endroit. Vois si tu parviens à tracer ton chemin jusque là, avant qu'j'en aie ma claque d'attendre.~
+@105 = ~Il reste toujours quelques endroits intéressants à la Porte de Baldur. La Lanterne Assourdie est un bordel accueillant déguisé en bateau. Cherche-moi là. Tu l'regretteras pas.~
+@106 = ~Le Dragon qui Rote, à Nashkel, c'est notre genre d'endroit. Vois si tu parviens à tracer ton chemin jusque là, avant qu'on en ait ras-le-bol d'attendre.~
+@107 = ~Il reste toujours quelques endroits intéressants à la Porte de Baldur. La Lanterne Assourdie est un bordel accueillant déguisé en bateau. Cherche-nous là. Tu l'regretteras pas.~
+//
+// Edwin
+//
+@108 = ~Edwin, je ne veux pas que nos chemins se séparent définitivement. Attends-moi ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@109 = ~Tout bien réfléchi, Edwin, je veux que tu restes dans le groupe.~
+@110 = ~Trêve de simagrées ! (Je ne supporterai la présence de ces crétins que parce qu'elle m'est utile.)~
+@111 = ~Bon débarras. (Je ne me fais pas chasser, je... Je ne fais qu'attendre le bon moment, prendre un repos bien mérité loin de ces... de ces agaçants... simiens ! Oui ! C'est le mot juste.)~
+@112 = ~Vous me jetteriez dehors comme un serviteur ? (Je leur ferai tous payer leur insolence !)~
+@113 = ~Me prends-tu pour un idiot fini, sim... euh <CHARNAME> ? (Ces singes ne pourraient jamais apprécier un génie véritable, même s'il leur était servi sur un plateau d'argent avec une cuillère dorée.) Je ne demeurerai pas dans cet immonde cloaque qui ne conviendrait qu'à un troupeau de chimpanzés malades, même pas pour tous les trésors de Thay. (et ça fait un *sacré* gros tas de pièces brillantes et jaunes, tu peux me croire.)~
+@114 = ~Le Dragon qui Rote de Nashkel est une porcherie écoeurante et crasseuse. Mais elle devrait faire l'affaire. Vois si tu peux te frayer un chemin jusque là, avant que je ne me fatigue d'attendre. (Voyons avec quelle rapidité ils vont découvrir que je suis irremplaçable. Je parie qu'ils vont courir tout le long du chemin vers Nashkel.)~
+@115 = ~Il y a malgré tout quelques endroits somptueux dans la sordide collection de taudis qu'on appelle La Porte de Baldur. La Lanterne Assourdie est un splendide bouge déguisé en navire. Cherche-moi là-bas quand tu te seras fatigué de tes activités insignifiantes. (Non que ces simiens puissent apprécier la réelle splendeur si elle venait à eux et les mordait.)~
+       ~Il y a malgré tout quelques endroits somptueux dans la sordide collection de taudis qu'on appelle La Porte de Baldur. La Lanterne Assourdie est un splendide bouge déguisé en navire. Cherche-moi là-bas quand tu te seras fatiguée de tes activités insignifiantes. (Non que ces simiens puissent apprécier la réelle splendeur si elle venait à eux et les mordait.)~
+//
+// Shar-Teel
+//
+@116 = ~Shar-Teel, je ne souhaite pas que nos chemins se séparent pour toujours. Attends-moi là. Je reviendrai vers toi dès lors que j'aurai à nouveau besoin de tes services.~
+@117 = ~Tout bien réfléchi, Shar-Teel, je préfère que tu restes dans le groupe.~
+@118 = ~Pas de méprise... Je te suis uniquement pour tes prouesses au combat. Si tu faiblis, ma loyauté faiblira.~
+@119 = ~Très bien, j'accepte pour le moment. Mais tu as intérêt à ne pas traîner !~
+@120 = ~Ah, me voici enfin libérée de cette épreuve infernale ! Je jure, par tous les dieux d'un million de panthéons, que JAMAIS plus je ne perdrai un duel avec une brute trop masculine.~
+@121 = ~Tu me prends pour une écervelée, <CHARNAME> ? Je ne resterai pas dans le coin pour tous les trésors de Baldurien !~
+@122 = ~Je t'attendrai à l'auberge du Dragon qui Rote, à Nashkel. Mais ne lambine pas, je n'y resterai pas longtemps !~
+@123 = ~Je t'attendrai à la Sirène Rougissante. Cet endroit est répugnant, mais il faudra bien que ça fasse l'affaire.~
+//
+// Tiax
+//
+@124 = ~Tiax, je ne veux pas que nous nous séparions à jamais. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de toi.~
+@125 = ~Tout bien réfléchi, Tiax, je veux que tu restes dans le groupe.~
+@126 = ~Ta sempiternelle mégalomanie finira par servir Tiax. Allez, prends la tête des opérations, tu verras que finalement, c'est Tiax qui commande !~
+@127 = ~Oui, oui, Tiax qui voit tout pense que cet endroit convient parfaitement pour affiner ses idées de domination mondiale.~
+@128 = ~Quoi ?! Espèce de caleçon de galérien lacéré ! Tiax le grand ne tolérera pas d'être écarté ! Il connaîtra son ascension sans ta sournoise vilenie ! Le Grand Tiax, trahi de tous côtés par ceux qui cherchent à saper son règne à venir, rejette les déchets qu'il a autrefois appelés esclaves ! Imbéciles sans cervelle ! Respirez à fond et emplissez vos malheureux poumons de l'air amer de votre triste destinée !~
+@129 = ~Prendrais-tu Tiax pour un imbécile myope, par hasard ? Le Grand Tiax ne peut attendre ici. Cet endroit minable ne convient pas à sa grandeur majestueuse, et aucun tyran qui se respecte n'installerait sa cour ici. Pour autant qu'il sache, ses Ennemis y ont peut-être entreposé leurs Armes de Destinée Mortelle !~
+@130 = ~Que l'on sache que pour les quelques jours à venir, Tiax le Grand recevra les requérants et ceux qui cherchent ses faveurs au Dragon qui Rote de Nashkel.~
+@131 = ~Fidèles serviteurs et esclaves, que cessent ces flatteries inutiles, car le Sombre Seigneur de Toril et des Plans Adjacents, Tiax le Grand, quitte cet endroit minable pour la ville de la Porte de Baldur ! Le Grand Palais de la Sirène Rougissante lui servira de résidence.~
+//
+// Viconia
+//
+@132 = ~Viconia, je ne veux pas que nos chemins se séparent définitivement. Attends-moi plutôt ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@133 = ~Tout bien réfléchi, Viconia, je veux que tu restes dans le groupe.~
+@134 = ~Je ne pourrais pas demander beaucoup plus.~
+@135 = ~Entendu, je me cacherai dans les parages, jusqu'à ton retour.~
+@136 = ~Une libération bienvenue ! Vos manières de gringalet de la surface m'ont laissé un goût amer dans la bouche. Peut-être dois-je retourner me réfugier sous terre. Là, je comprenais mes compagnons.~
+@137 = ~Ne te moque pas de moi, surfacin ! Je ne peux t'attendre ici. Cet endroit me rappelle des souvenirs... de bien pénibles souvenirs.~
+       ~Ne te moque pas de moi, surfacine ! Je ne peux t'attendre ici. Cet endroit me rappelle des souvenirs... de bien pénibles souvenirs.~
+@138 = ~En voyageant le long de la route de Nashkel, j'ai repéré une jolie grotte sèche qui conviendrait comme refuge à court terme. Peut-être pourrais-tu m'y retrouver, quand tu seras prêt à me prendre avec toi ?~
+       ~En voyageant le long de la route de Nashkel, j'ai repéré une jolie grotte sèche qui conviendrait comme refuge à court terme. Peut-être pourrais-tu m'y retrouver, quand tu seras prête à me prendre avec toi ?~
+@139 = ~Je suppose que je pourrais t'attendre à la Sirène Rougissante... Je méprise cet endroit, mais là-bas, même un drow peut se fondre dans la foule... du moins quelque temps.~
+//
+// Kagain
+//
+@140 = ~Kagain, je ne souhaite pas me séparer de toi pour toujours. Contente-toi de m'attendre ici. Je reviendrai te chercher si j'ai à nouveau besoin de ton aide.~
+@141 = ~A bien y réfléchir, Kagain, je veux que tu restes dans le groupe.~
+@142 = ~Droit au but ! Ça me plaît. Allons-y.~
+@143 = ~D'accord, <CHARNAME>. J'serai quelqu'part dans le coin.~
+@144 = ~Oh, de toute façon, ma réputation s'est sans doute tassée à l'heure qu'il est. A toute, tas de nouilles.~
+@145 = ~Tu m'prends pour un abruti, <CHARNAME> ? J'attendrais pas ici pour tout l'or de Baldurien !~
+@146 = ~J'vais retourner à mon échoppe. Viens m'chercher quand t'auras fini de vadrouiller et que tu voudras sérieusement te mettre au travail.~
+@147 = ~J'peux t'attendre à la Sirène Rougissante. Leurs marchandises sont plutôt chères, si tu vois c'que j'veux dire ; mais au moins ils noient pas leur bière avec de la pisse de greffier. Ah ah.~
+//
+// Ajantis
+//
+@148 = ~Ajantis, je ne veux pas que nous nous séparions pour toujours. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@149 = ~Tout bien réfléchi, Ajantis, je veux que tu restes dans le groupe.~
+@150 = ~Bien sûr ! Allons-y !~
+@151 = ~A vos ordres, <CHARNAME>. J'attendrai.~
+@152 = ~<CHARNAME>, un meneur responsable n'écarterait pas une lame valable sur un simple coup de tête. Il est temps que nos chemins se séparent.~
+@153 = ~<CHARNAME>, je ne peux pas gaspiller mon temps ici, à attendre votre retour ! Le Mal rampe dans chaque ombre, suppliant d'être anéanti.~
+@154 = ~Mais... mais... nous formions une équipe, liée par... par l'honneur ! (soupir)... <CHARNAME>, je préférerais rester avec vous, mais si vous insistez... Je vous attendrai à l'Auberge de Brasamical.~
+@155 = ~Mais... mais... nous formions une équipe, liée par... par l'honneur ! (soupir)... Le Prélat Wesselan a autrefois mentionné que la Taverne du Chant de l'Elfe était un bon endroit pour se mettre en quête d'aventure.~
+//
+// Quayle
+//
+@156 = ~Quayle, je ne veux pas que nos routes se séparent définitivement. Attends-moi ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@157 = ~Après réflexion, Quayle, je veux que tu restes dans le groupe.~
+@158 = ~Bien sûr que tu as besoin de moi ! Tu serais l'imbécillité incarnée si tu pensais autrement. Vas-y, je te suis.~
+@159 = ~Hum, il est bien possible que je le fasse, en fait. Oui, c'est cela, j'attendrai.~
+@160 = ~Pfff ! Mon bien-être ne dépend pas de toi, et je dois dire que ça me soulagera de ne plus avoir à supporter tous les matins cette face d'orque et cette haleine de troll ! Bon débarras !~
+@161 = ~Est-ce que tu me prends pour un parfait crétin, <CHARNAME> ? Comment pourrais-je rester seul ici ne serait-ce qu'un moment ? Tu n'entends pas les busards ? J'entends des busards.~
+@162 = ~Dans ce cas, je t'attendrai à l'auberge de Brasimacal. C'est l'endroit idéal, il n'y a ni busard, ni autre menace. Mais elle n'est pas vraiment bon marché, hein, vraiment pas.~
+@163 = ~Hum, je pense que je t'attendrai à la taverne du Chant de l'Elfe. Un endroit sympathique, et grouillant de monde. Mais elle n'est pas vraiment bon marché, hein, vraiment pas.~
+//
+// Garrick
+//
+@164 = ~Garrick, je ne veux pas que nous nous séparions pour toujours. Attends-moi simplement ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@165 = ~Tout bien réfléchi, Garrick, je veux que tu restes dans le groupe.~
+@166 = ~Nous sommes sûrement au début d'un conte épique. Allez-y, je vous suis !~
+@167 = ~Bien sûr, <CHARNAME> ! Je vous attendrai ici.~
+@168 = ~Vous ne valez pas mieux que Mme Silke ! Ça ne vous portera pas chance, croyez-moi !~
+@169 = ~Je... Je suis vraiment désolé de l'admettre, <CHARNAME>... Mais... mais je ne pourrais pas rester ici sans vous ! Pas pour tous les trésors de Baldurien !~
+@170 = ~Je vous attendrai à l'Auberge de Brasamical. C'est l'endroit idéal pour un poète vagabond, musardant entre deux aventures.~
+@171 = ~Je vous attendrai à la taverne du Chant de l'Elfe, à la Porte de Baldur. *rougit* La serveuse y a été très sympathique la dernière fois que j'ai demandé un verre de leur vin le moins cher...~
+//
+// Imoen
+//
+@172 = ~Imoen, je ne veux pas que nous nous séparions à jamais. Attends-moi ici. Je reviendrai te chercher quand j'aurai de nouveau besoin de ton aide.~
+@173 = ~Après réflexion, je voudrais que tu restes dans le groupe, Imoen.~
+@174 = ~Et comment ! On va se piquer une bourse entière pour s'amuser avant la fin de la nuit !~
+@175 = ~Bien sûr, <CHARNAME> ! Tu peux y compter, je t'attendrai. Mais ne sois pas trop long. S'il te plaît... *voix charmeuse*~
+       ~Bien sûr, <CHARNAME> ! Tu peux y compter, je t'attendrai. Mais ne sois pas trop longue. S'il te plaît... *voix charmeuse*~
+@176 = ~Très bien ! Notre amitié n'est plus la même de toute façon. Ce n'était plus du tout aussi amusant à présent. J'aurais dû rester à Château-Suif, au lieu de perdre mon temps avec une sale ordure.~
+@177 = ~Tu ne vas quand même pas m'abandonner ici, n'est-ce pas ? Je ne peux rester à cet endroit, toute seule.~
+@178 = ~D'accord, ce n'est pas un problème. Je t'attendrai à l'auberge de Brasamical. Ne sois pas trop long quand même. (rire) Tu me manqueras et tout et tout...~
+       ~D'accord, ce n'est pas un problème. Je t'attendrai à l'auberge de Brasamical. Ne sois pas trop longue quand même. (rire) Tu me manqueras et tout et tout...~
+@179 = ~D'accord, ce n'est pas un problème. Je t'attendrai à la taverne du Chant de l'Elfe. Ne sois pas trop long quand même. (rire) Tu me manqueras et tout et tout...~
+       ~D'accord, ce n'est pas un problème. Je t'attendrai à la taverne du Chant de l'Elfe. Ne sois pas trop longue quand même. (rire) Tu me manqueras et tout et tout...~
+//
+// Xan
+//
+@180 = ~Xan, je ne souhaite pas que nous nous quittions définitivement. Attends-moi ici, tout simplement. Je reviendrai te chercher lorsque j'aurai à nouveau besoin de ton aide.~
+@181 = ~Tout bien réfléchi, Xan, je voudrais que tu restes dans le groupe.~
+@182 = ~Bon, je ferai de mon mieux pour toi, bien que je sache qu'aucun de nous deux n'est dupe : le pire est inévitable.~
+@183 = ~Je suis certain qu'un terrible désastre m'arrivera dès que je m'éloignerai de toi. Avec un peu de chance, mes ossements seront toujours là pour témoigner de ma disparition.~
+@184 = ~Cette mission a été un épouvantable échec du début à la fin. Considérez ma dette payée, mes amis, tout comme moi.~
+@185 = ~L'épouvantable échec de cette mission est inévitable, que je reste avec toi ou pas. Mais courtiser sa propre mort semble excessif, c'est le moins que l'on puisse dire.~
+@186 = ~Je t'attendrai à l'Auberge de Brasamical, alors. Nul doute qu'elle s'embrasera dès que j'y pénètrerai.~
+@187 = ~Je vais me rendre à la taverne du Chant de l'Elfe, alors. Mais elle sera probablement emportée par une inondation, ou détruite dans un tremblement de terre.~
+//
+// Branwen
+//
+@188 = ~Branwen, je ne veux pas que nos routes se séparent définitivement. Attends-moi ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@189 = ~Après réflexion, Branwen, je veux que tu restes dans le groupe.~
+@190 = ~J'apprécie ta compagnie, comme toujours.~
+@191 = ~Je te dois beaucoup, <CHARNAME>. Bien sûr, je ferai comme tu le souhaites.~
+@192 = ~Tu n'as pas plus d'honneur que le descendant de Loki que j'ai laissé derrière moi.~
+@193 = ~<CHARNAME>, cet endroit est dangereux. Pourquoi compromettre notre amitié en m'infligeant une telle épreuve ?~
+@194 = ~Sans problème. <CHARNAME>, je t'attendrai à l'auberge de Brasamical.~
+@195 = ~Bien sûr. <CHARNAME>, quand tu auras de nouveau besoin de moi, je serai à la taverne du Chant de l'Elfe.~
+//
+// Alora
+//
+@196 = ~Alora, je ne veux pas que nos routes se séparent définitivement. Attends-moi ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@197 = ~Après réflexion, Alora, je veux que tu restes dans le groupe.~
+@198 = ~Oh, chic alors ! Allons-y !~
+@199 = ~Alors je suppose que je n'ai pas d'autre choix que d'attendre. Snif...~
+@200 = ~Si c'est ce que tu veux, très bien, je m'en vais ! (Sniff)...~
+@201 = ~Tu me prends pour une bonne poire ? Je ne t'attendrais pas ici pour tout l'or du monde !~
+@202 = ~Alors j'irai à l'auberge de Brasamical. Snif. Bentley a l'air dur, mais en fait il est gentil comme tout. Les types friqués qui y séjournent sont pour la plupart de parfaits gogos.~
+@203 = ~Dans ce cas je serai au Chant de l'Elfe. On n'y trouve pas beaucoup d'elfes, mais plein de pigeons aux poches bien remplies.~
+//
+// Yeslick
+//
+@204 = ~Yeslick, je ne souhaite pas que nos chemins se séparent pour toujours. Attendez-moi là. Je reviendrai vers vous dès lors que j'aurai à nouveau besoin de vos services.~
+@205 = ~A bien y réfléchir, Yeslick, je souhaite que vous restiez dans le groupe.~
+@206 = ~Sage décision. Ensemble, nous ne pouvons échouer !~
+@207 = ~Qu'il en soit ainsi, <CHARNAME>. J'attendrai.~
+@208 = ~Parfait, alors je ne vais pas rester avec des gens comme vous. Cette bande n'a été qu'une nouvelle prison pour moi.~
+@209 = ~<CHARNAME>, je n'ai pas quitté une prison pour être conduit et abandonné dans un piège à rats. Un vrai ami n'éprouverait pas le courage de ses camarades avec de tels mauvais tours !~
+@210 = ~Alors je vous attendrai à l'auberge de Brasamical. Mon neveu a travaillé pour les Ombremirroir par le passé, ce sont des gens bien.~
+@211 = ~J'imagine que je peux vous attendre à la taverne du Chant de l'Elfe à la Porte de Baldur. Pas le meilleur endroit pour un nain, mais j'ai vu bien pire dans ma jeunesse.~
+//
+// Faldorn
+//
+@212 = ~Faldorn, je ne veux pas que nos routes se séparent définitivement. Attends-moi ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@213 = ~Après réflexion, Faldorn, je veux que tu restes dans le groupe.~
+@214 = ~Ensemble, nous ferons impitoyablement régner les lois de la nature avec la vigueur qu'il se doit.~
+@215 = ~Très bien, j'attendrai ici. Mais prends garde : ma patience ne persistera que tant que tu montreras de l'ardeur à défendre la Grande Mère.~
+@216 = ~C'est peut-être mieux comme ça. Je n'ai pas la patience de supporter tes faiblesses.~
+@217 = ~Comment oses-tu me demander de m'attarder dans cet endroit souillé, à attendre ton retour, alors que ma rage pourrait être utilisée à défendre la cause de la Nature dans ses clairières et forêts maltraitées ?~
+@218 = ~Si un jour tu as de nouveau besoin de mon aide, tu me trouveras dans la forêt sacrée de Bois-Manteau. Mais ne traîne pas, car la Grande Mère pourrait très bientôt avoir besoin de ma force ailleurs.~
+@219 = ~Le bruit et la puanteur des villes me sont insupportables. Si un jour tu as de nouveau besoin de mon aide, tu me trouveras dans la forêt sacrée de Bois-Manteau. Mais ne traîne pas, car la Grande Mère pourrait très bientôt avoir besoin de ma force ailleurs.~
+//
+// Kivan
+//
+@220 = ~Kivan, je ne veux pas que nos chemins se séparent définitivement. Attendez-moi ici. Je reviendrai vous chercher quand j'aurai à nouveau besoin de votre aide.~
+@221 = ~Tout bien réfléchi, Kivan, je veux que vous restiez dans le groupe.~
+@222 = ~Sage décision. Allez-y, je vous suis.~
+@223 = ~C'est entendu, j'attendrai.~
+@224 = ~Certainement. Je suis ravi de me débarrasser d'une compagnie aussi peu digne de confiance.~
+@225 = ~<CHARNAME>, je ne peux vous attendre ici. Ma vie ne vaut que très peu, mais ma vengeance ne peut être ajournée pour satisfaire votre lubie. Tazok est toujours en vie.~
+@226 = ~Je vous attendrai à l'auberge de Brasamical. Mais dépêchez-vous, car ma vengeance ne peut être retardée pour votre seule commodité.~
+@227 = ~Je vous attendrai à la taverne du Chant de l'Elfe, alors. Mais dépêchez-vous, car ma vengeance ne peut être retardée pour votre seule commodité.~
+//
+// Coran
+//
+@228 = ~Coran, je ne veux pas que nos chemins se séparent définitivement. Attends-moi plutôt ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@229 = ~Tout bien réfléchi, Coran, je veux que tu restes dans le groupe.~
+@230 = ~Une sage décision, mon ami !~
+       ~Une sage décision, mon amie !~
+@231 = ~Bien sûr, je peux passer quelques minutes à musarder par ici. Mais dépêche-toi, car la dame de la Chance n'apprécie guère la paresse ni l'ennui.~
+@232 = ~Tu veux qu'on se sépare maintenant, c'est ça ? J'aurais dû savoir qu'il ne fallait pas te rejoindre, la première fois.~
+@233 = ~Me prends-tu pour un idiot, <CHARNAME> ? *sifflote* Je suis tes ordres, mais seulement quand ils sont sensés.~
+@234 = ~Une donzelle amicale sur ma cuisse et un verre de vin décent à la main... *rit* On dirait la meilleure manière de passer un après-midi d'orage ! Le marché me convient, <CHARNAME>. Je t'attendrai au Dragon qui Rote, à Nashkel.~
+@235 = ~Une donzelle amicale sur ma cuisse et un verre de vin décent à la main... *rit* On dirait la meilleure manière de passer une matinée frisquette ! Le marché me convient, <CHARNAME>. Je t'attendrai à la taverne du Chant de l'Elfe.~
+//
+// Safana
+//
+@236 = ~Safana, je ne veux pas que nos routes se séparent définitivement. Attends-moi ici. Je reviendrai te chercher quand j'aurai à nouveau besoin de ton aide.~
+@237 = ~Après réflexion, Safana, je veux que tu restes dans le groupe.~
+@238 = ~Certainement. Passe devant, je te suis.~
+@239 = ~J'attendrai, mais ne traîne pas. Comme je l'ai déjà dit, j'ai ma propre façon de voir les choses.~
+@240 = ~Hum, il semble que les hommes du Nord soient aussi sots qu'impuissants ! Pars si tu le souhaites, j'ai des projets moi aussi.~
+@241 = ~Non <CHARNAME>. Il est hors de question que je t'attende ici. Cet endroit est bien trop dangereux pour que j'y reste seule.~
+@242 = ~D'accord. Tu pourras essayer de me trouver au Dragon qui Rôte à Nashkel. Je ne te garantis pas d'y être, cela dit.~
+@243 = ~D'accord. Tu pourras essayer de me trouver à la taverne du Chant de l'Elfe. Je ne te garantis pas d'y être, cela dit.~
+//
+// Pas dans le fichier D !!!
+//
+@244 = ~Je Te combattrai jusqu'à mon dernier souffle, Vremoni !~
+@245 = ~Bottage de fesses pour le BIEN ! RAAAAARGH !~

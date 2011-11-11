@@ -249,17 +249,15 @@ SAY @71
 ++ @52 + NoCourtship
 END
 
-//Finale
+/* Finale */
 
-IF ~ GlobalGT("X#FightTale","GLOBAL",0)  GlobalGT("X#FightGift","GLOBAL",0) GlobalGT("X#FightChallenge","GLOBAL",0) GlobalGT("X#FightDragon","GLOBAL",0)~ THEN BEGIN ChallengeFinale
-SAY @80
-++ @73 + AjantisPrize1
-++ @74 + CoranPrize1
-+ ~InParty("xan") Global("X#XANMatch","GLOBAL",1)
-!Global("X#XARomanceInactive","GLOBAL",1)~ +  @75 + XanPrize1
-++ @52 + NoCourtship
-+ ~ InParty("xan") Global("X#XANMatch","GLOBAL",1) 
-!Global("X#XARomanceInactive","GLOBAL",1)~ + @76 + NoCourtshipAtAll
+IF ~GlobalGT("X#FightTale","GLOBAL",0) GlobalGT("X#FightGift","GLOBAL",0) GlobalGT("X#FightChallenge","GLOBAL",0) GlobalGT("X#FightDragon","GLOBAL",0)~ THEN BEGIN ChallengeFinale
+	SAY @80
+	++ @73 + AjantisPrize1
+	++ @74 + CoranPrize1
+	+ ~InParty("xan") Global("X#XANMatch","GLOBAL",1) !Global("X#XARomanceInactive","GLOBAL",1)~ +  @75 + XanPrize1
+	++ @52 + NoCourtship
+	+ ~InParty("xan") Global("X#XANMatch","GLOBAL",1) !Global("X#XARomanceInactive","GLOBAL",1)~ + @76 + NoCourtshipAtAll
 END
 
 END
@@ -274,25 +272,25 @@ APPEND ~%CORAN_JOINED%~
 /* Entertainment */
 
 IF WEIGHT #-2 ~Global("X#FightTale","GLOBAL",5)~ THEN BEGIN CoranEntertain1
-SAY @81
-IF ~~ THEN DO ~SetGlobal("X#FightTale","GLOBAL",6) ClearAllActions() StartCutScene("X#CHALL5") StartCutSceneMode()~ EXIT
+	SAY @81
+	IF ~~ THEN DO ~SetGlobal("X#FightTale","GLOBAL",6) ClearAllActions() StartCutScene("X#CHALL5") StartCutSceneMode()~ EXIT
 END
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#FightTale","GLOBAL",6)~ THEN BEGIN CoranEntertain2
-SAY @82
-IF ~~ THEN DO ~ClearAllActions() StartCutScene("X#CHAL11") StartCutSceneMode()~ EXIT
+	SAY @82
+	IF ~~ THEN DO ~ClearAllActions() StartCutScene("X#CHAL11") StartCutSceneMode()~ EXIT
 END
 
 /* Gift */
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#FightGift","GLOBAL",1)~ THEN BEGIN X#CoranChallengeGift
-SAY @83
-=@84
-=@85
-=@86
-=@87
-=@88
-IF ~~ THEN DO ~SetGlobal("X#FightGift","GLOBAL",2) GiveItemCreate("X#MIRC",Player1,1,0,0)~ EXIT
+	SAY @83
+	= @84
+	= @85
+	= @86
+	= @87
+	= @88
+	IF ~~ THEN DO ~SetGlobal("X#FightGift","GLOBAL",2) GiveItemCreate("X#MIRC",Player1,1,0,0)~ EXIT
 END
 
 END
@@ -318,7 +316,7 @@ CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#FightTale","GLOBAL",8)~ THEN ~X#ELLES~ 
 == ~X#ELHAN~ @100
 == ~X#ELLES~ @101
 == ~X#ELHAN~ @102 
-== ~X#ELLES~ @103 //Dramatic Irony.  Lovely. :)
+== ~X#ELLES~ @103 /* Dramatic Irony.  Lovely. :) */
 == ~X#ELHAN~ IF ~Race(Player1,ELF)~ THEN @104
 == ~X#ELHAN~ IF ~!Race(Player1,ELF)~ THEN @105
 == ~X#ELLES~ @106
@@ -332,7 +330,6 @@ CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#FightTale","GLOBAL",9)~ THEN ~X#ELLES~ 
 @110
 == ~%CORAN_JOINED%~ @111
 == ~X#ELLES~ @112
-
 == ~%CORAN_JOINED%~ @113
 == ~X#ELLES~ @114 
 == ~%CORAN_JOINED%~ @115

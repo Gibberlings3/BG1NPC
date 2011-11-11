@@ -1,0 +1,274 @@
+/////QUÊTE n°1 - LE JOURNAL DE DYNAHEIR/////
+
+//Après que Charname l'ait secourue, Dynahéir le/la remercie et demande s'il a vu son journal.
+@0 = ~Je devrais peut-être chercher ailleurs sur la Côte des Epées.~
+@1 = ~Je ne saurais assez Te remercier de m'avoir sauvée. As-Tu aussi retrouvé mon journal ? Les gnolls me l'ont pris.~
+@2 = ~J'ai bien peur que nous n'ayons rien vu de tel.~
+@3 = ~Nous ne perdrons pas notre temps à le chercher. Les gnolls l'ont sans doute déjà utilisé pour leur feu de camp.~
+@4 = ~Nous garderons les yeux ouverts. Après tout, peut-être que quelqu'un l'a déjà trouvé.~
+
+//Lorsque Charname et Dynahéir tombent sur Drizzt et l'aident à combattre les gnolls, ce dernier propose son aide pour retrouver le journal perdu de Dynahéir. Minsc peut intervenir.
+@5 = ~Bonne chasse, l'ami. J'ai trouvé un parchemin étrange sur le corps de l'un des gnolls qui m'a attaqué. On dirait qu'il s'agit d'une page provenant d'un gros livre, mais je ne reconnais pas la langue dans laquelle c'est écrit. Peut-être est-ce un langage secret ? C'est mauvais signe. Peut-être que les gnolls du coin sont au service de quelqu'un de puissant, et que c'est ainsi qu'ils communiquent...~ ~Bonne chasse, l'amie. J'ai trouvé un parchemin étrange sur le corps de l'un des gnolls qui m'a attaqué. On dirait qu'il s'agit d'une page provenant d'un gros livre, mais je ne reconnais pas la langue dans laquelle c'est écrit. Peut-être est-ce un langage secret ? C'est mauvais signe. Peut-être que les gnolls du coin sont au service de quelqu'un de puissant, et que c'est ainsi qu'ils communiquent...~
+@6 = ~Bouh dit que ça ressemble à l'écriture de Dynahéir ! Ma sorcière comprendra ça en très peu de temps !~
+@7 = ~Sorcière ? Et bien, ton enthousiasme m'a convaincu. Vous pouvez garder le parchemin.~
+@8 = ~S'il y a un savant parmi vous, peut-être pourra-t'il y jeter un oeil. Cela pourrait être très important, et nous renseigner sur un complot.~
+@9 = ~Dynahéir ! Regarde ! Nous avons trouvé des écritures !~
+@10 = ~*squiiik*~ [GAM_48]
+@11 = ~Minsc, ce parchemin, il vient de mon journal ! Où l'as-Tu trouvé ?~
+@12 = ~C'est un elfe à la peau sombre qui nous l'a donné ! Bouh dit que c'est un grand guerrier...~
+@13 = ~Ah, je vois que vous êtes accompagnés d'une savante Hathran. Peut-être pourrez-vous m'aider.~
+@14 = ~J'ai la solution à cette énigme, mon bon elfe. Cette page provient de mon journal. Je fus captive des gnolls pendant un temps, et ils me l'ont volé. As-Tu trouvé autre chose, où n'y avait-il qu'une seule page ?~
+@15 = ~Il n'y avait qu'une seule page, madame. Mais le fait que j'ai trouvé cette page dans le coin indique que le reste du journal doit être entre les mains de certains gnolls qui se seraient échappés.~
+@16 = ~Nous devons retrouver ce journal, <CHARNAME>. C'est de la plus haute importance.~
+@17 = ~Nous ne pouvons pas abandonner notre mission au profit d'une fouille en plein milieu de nulle part, Dynahéir. Cela nous ferait perdre un temps précieux...~
+@18 = ~D'accord. Nous allons retrouver ces voleurs !~
+@19 = ~Et qu'est-ce que ça me rapporterait ?~
+@20 = ~Je l'ai déjà dit, je n'ai rien à offrir en-dehors de mes services. Toutefois, sache qu'il y a des parchemins magiques entre les pages de ce journal. Si Tu le retrouves, Tu pourras en faire ce qu'il Te plaira.~
+@21 = ~Ca me semble un marché honnête. Faisons ça.~
+@22 = ~Ca ne m'intéresse pas, Dynahéir. Cela nous prendra trop de temps, notre mission est très urgente.~
+@23 = ~Si nous nous séparons, nous couvrirons plus de terrain. Qu'en dites-vous ?~
+@24 = ~Vous pouvez peut-être partir seul à la recherche du journal ?~
+@25 = ~Ca me semble bien ! On va faire comme ça !~
+@26 = ~Je crois que je ferais mieux d'y aller moi-même, ou sinon une certaine sorcière va m'envoyer une boule de feu dans la figure ! Nous allons faire selon votre volonté, Dynahéir, mais nous partirons seuls à la recherche du journal. Ce n'est pas grand-chose, pas besoin d'impliquer un héros des Royaumes là-dedans.~
+@27 = ~<CHARNAME>, je serais ravi de vous aider en retour de votre assistance de tout à l'heure. J'allais patrouiller dans le coin, de toute façon. Nous irons plus vite si nous nous séparons. Qu'en dites-vous ?~
+@28 = ~Non. Ce n'est pas grand-chose. Mais merci pour la proposition.~
+@29 = ~Je serai ravi de vous aider en retour de votre assistance de tout à l'heure. J'allais patrouiller dans le coin, de toute façon. Si je retrouve le journal, je serai heureux de le rendre à sa propriétaire légitime. On se retrouve ici dans deux jours.~
+@30 = ~Le Journal perdu de Dynahéir
+
+Drizzt le Rôdeur a trouvé une page du journal de Dynahéir. Il pense que le reste pourrait être dans la région, en la possession d'un gnoll égaré. Dynahéir veut son journal. Comme Drizzt patrouillait dans le coin, il a accepté de le rechercher. Si seulement tous mes problèmes pouvaient être réglés aussi facilement ! Hélas, je vais devoir y retourner... Avant que j'oublie ! Drizzt me retrouvera près du lieu où nous l'avons rencontré après deux jours de recherche pour nous dire ce qu'il a trouvé.~
+@31 = ~Bonjour ! Retrouvons-nous ici après une journée de recherche.~
+@32 = ~Le Journal perdu de Dynahéir
+
+Drizzt le Rôdeur a trouvé une page du journal de Dynahéir. Il pense que le reste pourrait être dans la région, en la possession d'un gnoll égaré. Dynahéir veut son journal. Comme Drizzt patrouillait dans le coin, il a accepté de nous aider à le rechercher. Drizzt me retrouvera près du lieu où nous l'avons rencontré après une journée de recherche pour nous dire ce qu'il a trouvé.~
+@33 = ~Oui, bien sûr. Si je retrouve le journal, je serai heureux de le rendre à sa propriétaire légitime. On se retrouve ici dans une journée.~
+@34 = ~Le Journal perdu de Dynahéir
+
+Drizzt le Rôdeur a trouvé une page du journal de Dynahéir. Il pense que le reste pourrait être dans la région, en la possession d'un gnoll égaré. Dynahéir veut son journal. Comme Drizzt patrouillait dans le coin, il a accepté de le rechercher. Drizzt me retrouvera près du lieu où nous l'avons rencontré après une journée de recherche pour nous dire ce qu'il a trouvé.~
+@35 = ~Comme vous voulez. Bonne chasse, l'ami.~ ~Comme vous voulez. Bonne chasse, l'amie.~
+@36 = ~Le Journal perdu de Dynahéir
+
+Drizzt le Rôdeur a trouvé une page du journal de Dynahéir. Il pense que le reste pourrait être dans la région, en la possession d'un gnoll égaré. Dynahéir veut son journal, donc nous allons devoir partir à sa recherche.~
+
+//A la recherche du journal de Dynahéir, le groupe tombe sur un groupe de gnolls amicaux. Minsc peut intervenir.
+@37 = ~Hé, vous ! On ne veut pas se battre. Nous sommes venus pour prévenir la sorcière que l'Ancien la pourchasse. Il a envoyé d'autres, plein d'autres comme nous pour la trouver et la lui ramener.~
+@38 = ~Retiens Ta main, <CHARNAME>. Je ne perçois aucune malice dans les yeux de ces créatures.~
+@39 = ~Des gnolls ! Minsc déteste les gnolls ! Pas vrai, Bouh ? Ce sont eux qui ont pris Dynahéir !~
+@40 = ~Doucement, Minsc. <CHARNAME>, si Tu le veux bien, permets-moi d'avoir une petite discussion avec ces gnolls.~
+@41 = ~Ecoutez-moi attentivement. Vous, les gnolls, je suis un héros, et je vais tous vous tuer !~
+@42 = ~L'Ancien... Ce ne sont pas les magiciens hommes Rashémi que l'on appelle les Anciens ?~
+@43 = ~Très bien, Dynahéir. Mais un seul geste agressif de leur part et je les tranche en deux sur le champ.~
+@44 = ~"Ancien" ? Qui est cet "Ancien" dont vous parlez ?~
+@45 = ~Dynahéir, laissez-moi m'occuper de ça. Ces créatures maléfiques doivent être tuées à vue. Nous pourrons fouiller leurs corps pour retrouver votre journal plus tard.~
+@46 = ~En effet, <CHARNAME>, un magicien Rashémi est appelé Vremyonni, l'Ancien. Mais je ne comprends pas pourquoi quelqu'un de mon pays orchestrerait ma chute. Soit il s'agit d'un renégat, soit son titre est une coïncidence.~
+@47 = ~On dirait. Bon, qu'est-ce qu'il veut, le Vieux ? Il veut vous parler, ou vous tuer ?~
+@48 = ~Je propose que nous tuions ces gnolls et que nous nous occupions des magiciens puissants, Rashémi ou non, lorsque nous les aurons en face de nous.~
+@49 = ~Ou alors, vos Othlors ont décidé que votre association avec un enfant de Bhaal était un crime.~
+@50 = ~Non... Les Othlors sont sages. Elles n'utiliseraient pas les gnolls pour me ramener à elle... ou pour Te ramener à elles. Il se pourrait que le gnoll sache ce qui nous attend. Dis-moi, mon bon gnoll, qui est cet Ancien, et que me veut-il ?~
+@51 = ~L'Ancien est un sorcier de grand pouvoir. Il veut la sorcière. Je n'en sais pas plus.~
+@52 = ~Le livre de la sorcière nous dit que tuer, c'est mal ! L'Ancien ne suit pas les préceptes du livre.~
+@53 = ~Etrange. Dis-moi, mon bon gnoll, comment, Toi et Tes compagnons, en êtes venus à avoir de telles convictions ?~
+@54 = ~L'Ancien nous a dit de retrouver la sorcière. Hound a dit que nous aurons plus vite fait de la retrouver à l'odeur, mais tout ce que nous avons trouvé, c'est le livre de la sorcière. Alors Hound m'a donné l'ordre de le déchirer et d'en donner une partie à chacun d'entre nous... C'est ce que j'ai fait. Puis ma troupe et moi, on a vu la lumière. Alors au lieu de chasser la sorcière, nous sommes venus la prévenir.~
+@55 = ~Je m'en doutais. <CHARNAME>, un prêtre de Mystra a béni mon journal et y a placé un enchantement qui fait que toute créature maléfique qui essaierait de l'ouvrir sans ma permission changerait instantanément de nature pour un temps limité. Détruire mon journal aura sans doute eu pour effet d'augmenter l'efficacité de l'enchantement, car ce n'est pas une mais quatre créatures qui ont été affectées, et il ne s'est toujours pas dissipé.~
+@56 = ~Hum... et bien, je suppose que je dois vous remercier, gnoll. Et sauriez-vous où nous pourrons trouver le journal de Dynahéir ? Est-ce que c'est l'Ancien qui l'a ?~
+@57 = ~Alors, est-ce qu'on peut récupérer le journal de Dynahé... euh, le livre de la sorcière ? Elle en a besoin, vous savez.~
+@58 = ~Rendez-nous le livre de Dynahéir ou je vous le prends de force !~
+@59 = ~Le livre de la sorcière nous a montré que tuer, c'est mal !~
+@60 = ~Hum... et bien, je suppose que je dois vous remercier, gnoll. Et sauriez-vous où nous pourrons trouver le journal de Dynahéir ? Est-ce que c'est l'Ancien qui l'a ?~
+@61 = ~Bon, Dynahéir, c'est vous qui décidez. Qu'est-ce qu'on fait maintenant ?~
+@62 = ~L'Ancien ? C'est étrange, <CHARNAME>. Les magiciens hommes Rashémi sont appelés les Vremyonnis, les Anciens...~
+@63 = ~Ils veulent peut-être me parler, ou Te parler... mais non.~
+@64 = ~Ca ne serait pas la première fois que je verrais des gens se retourner contre moi.~
+@65 = ~Vous ne pensez pas que ces créatures maléfiques vous veulent du mal ?~
+@66 = ~Vous avez peut-être raison, mais jamais je ne ferai confiance à un gnoll, même s'il dit venir en paix.~
+@67 = ~Nous garderons le livre si nous le trouvons. Les autres l'ont. Il nous a montré la lumière, peut-être qu'il montrera aussi la lumière aux autres ? Ou nous protègera de l'Ancien ?~
+@68 = ~Non, certainement pas. Ce ne sont pas de saintes écritures, ce sont juste des notes. Rendez-le à Dynahéir, créature !~
+@69 = ~Si vous avez foi en lui, le livre vous aidera. Allez en paix.~
+@70 = ~Bien. C'est bon. Gardez le journal, bon gnoll, et soyez un bon garçon. Ta-da !~
+@71 = ~Bonne chance, gnoll. Je ne vous souhaite que de bonnes choses, mais nous cherchons le livre pour Dynahéir. Partez maintenant, et ne revenez pas, car nous vous surveillerons...~
+@72 = ~Je sens que tu as commis nombre d'actes maléfiques dans le passé, créature : meurtre, et même pire encore. Mais maintenant, tout ce que je vois, c'est un coeur bon. Je ne te châtierai pas pour tes fautes passées, mais je vais te laisser vivre et racheter le mal que tu as fait. Dévie de ce chemin et ma lame te retrouvera. Va, maintenant. Montre la voie à autant de créatures maléfiques que tu le pourras, et arrête le mal dès que tu le verras. Moi, <CHARNAME> de Château-Suif, je te l'ordonne.~
+@73 = ~Peu importe ton histoire, gnoll, ta tête ne me revient pas. Je vais tous vous tuer !~
+@74 = ~Si vous voulez nous tuer, nous nous défendrons. C'est le seul cas où nous pouvons utiliser nos armes.~
+@75 = ~Je Te remercie de l'avertissement, bon gnoll. Va en paix.~
+@76 = ~Dynahéir, attendez un peu avant de le remercier et de pleurer de gratitude. Vous allez vraiment laisser ces créatures s'en aller, même après qu'elles vous aient réduite en esclavage, et alors qu'elles voulaient vous manger ?~
+@77 = ~Je doute que cet enchantement soit permanent. Je ferais mieux de nous débarrasser de ces gnolls... juste pour être sûrs.~
+@78 = ~Tout à fait. Agir autrement serait injuste.~
+@79 = ~Nous n'avons pas le livre. Nous le cherchons.~
+@80 = ~Et nous le rechercherons aussi. Si Ton chemin croise encore une fois le nôtre, nous en rediscuterons. D'ici là, va en paix.~
+@81 = ~Très bien. Va en paix.~
+@82 = ~Je sens la sorcière ! L'ancien va être content. Tuez-les !~
+
+//Charname retrouve le journal de Dynahéir. Minsc et Edwin peuvent intervenir.
+@83 = ~C'est mon journal ! Je Te remercie, <CHARNAME>. Il y avait un parchemin bien caché entre les pages. Il est à Toi.~
+@84 = ~<CHARNAME>, j'espère que tu te doutes que je ne peux pas laisser me passer sous le nez le journal d'une sorcière Rashémi. La sécurité de Thay pourrait dépendre de ce que je pourrais y trouver. Donne-le moi, macaque, et je te récompenserai.~
+@85 = ~Edwin, je ne trahirai pas la confiance de Dynahéir ! En plus, je lui ai déjà donné le journal.~
+@86 = ~Tu devras la tuer pour obtenir son journal, Thayen. Tout seul.~
+@87 = ~Je veux bien lui demander de te prêter son journal au nom de la paix entre les nations de Thay et de Rashéménie.~
+@88 = ~Enfin, Edwin, il ne doit y avoir que des choses intimes, là-dedans. Tu veux vraiment connaître le nom du premier amour de Dynahéir, ou lire tout ce que les femmes adorent décrire en détails ?~
+@89 = ~Ne fais pas la tête, mon mignon. Crois-moi, il n'y a rien dans ces notes qui pourra servir la gloire de Thay. Ca doit sans doute parler de trucs du genre de l'amour de sa vie ou de la recette du gâteau aux mûres de Vassan en six couches...~
+@90 = ~Jamais tu ne te débarrasseras de cette sorcière, tu n'en as pas le courage. On dirait que j'ai le don pour tomber sur des gens qui sont soit décérébrés, soit idiots de naissance.~
+@91 = ~Et pourquoi je devrais faire *ton* travail ? Faites confiance à des abrutis pour tuer une sorcière...~
+@92 = ~Ca semble tellement loyal-stupide que ça peut marcher, en fait. (Bien entendu, la sorcière doit croire que je n'arriverai pas à le déchiffrer) Vas-y. Demande-lui.~
+@93 = ~Dynahéir, Edwin ici-présent a exprimé des inquiétudes quant aux informations que votre journal pourrait contenir. Il pense qu'elles pourraient être de nature dangereuse. Il aimerait avoir votre permission pour...~
+@94 = ~Dynahéir, donnez votre journal à Edwin !~
+@95 = ~Euh... Dynahéir... oh, laissez tomber.~
+@96 = ~Et tu crois vraiment qu'une personne aussi primitive que Dynahéir aurait fait enchanter ses secrets de jeune fille par un glyphe de protection ?~
+@97 = ~*d'une voix sifflante* La permission ! Je n'ai jamais demandé la...~
+@98 = ~Encore en train de conspirer, Edwin ? *soupir* Selon Ton commandement, <CHARNAME>. Montre-nous que Tu es bien assez intelligent pour en déchiffrer les écritures. Je veux que mon journal me soit retourné demain, <CHARNAME>.~
+@99 = ~Hors de question. Et je Te recommande de T'adresser à moi avec plus de respect.~
+@100 = ~Quoi ? Tu as avalé ta langue, ou tu as oublié à quoi servent les mots ?~
+@101 = ~Edwin, encore en train de conspirer ?~
+@102 = ~Moi, Edwin Odesseiron, t'ordonne de me remettre ce journal, sorcière !~
+@103 = ~Hors de question, Edwin.~
+@104 = ~Je m'inquiète, <CHARNAME>. Le Thayen éprouve Ta patience par ses demandes incessantes... et la mienne.~
+@105 = ~Laissez-moi le démembrer, et Bouh fera un festin de ses globes oculaires !~
+@106 = ~Silence ! Tu es là uniquement parce que je l'ai bien voulu. (Où ai-je mis cette baguette... peut-être que si je me recule tout doucement...)~
+@107 = ~Tous les deux, ça suffit ! Nous avons des problèmes bien plus pressants.~
+@108 = ~Edwin, silence. Tu peux observer Dynahéir, mais je t'interdis de te battre avec elle.~
+@109 = ~Dynahéir, silence. Vous pouvez observer Edwin, mais je vous interdis de vous battre avec lui.~
+@110 = ~J'en ai soupé de ces disputes. Peut-être que vous devriez quitter mon groupe tous les deux. J'y repenserai, et je vous reparlerai en privé si je souhaite que l'un d'entre vous s'en aille.~
+
+//Drizzt a retrouvé le journal de Dynahéir (si le groupe ne l'a pas cherché lui-même). Edwin peut intervenir
+@111 = ~Heureux de vous revoir, camarade. J'ai retrouvé le journal de votre amie.~
+@112 = ~Il était détenu par un groupe de gnolls vicieux. J'ignore si vous comprendrez ceci mieux que moi, mais l'un d'entre eux disait être loyal à quelqu'un qu'il appelait 'l'Ancien'.~
+@113 = ~Voici le journal.~
+@114 = ~Je Te suis reconnaissante, Drizzt Do'Urden. Laisse-moi T'offrir ce parchemin en signe de ma gratitude.~
+@115 = ~Heureux d'avoir pu vous aider. Adieu !~
+@116 = ~<CHARNAME>, je peux te parler, en privé ?~
+@117 = ~Je parle à Drizzt Do'Urden, là, Edwin ! A Drizzt Do'Urden ! Pas à toi.~
+@118 = ~J'en ai pour une minute, Drizzt. *prendre Edwin à part* Qu'y a-t'il, Edwin ?~
+@119 = ~Edwin, je n'ai aucun secret pour mes autres compagnons. Dis ce que tu as à dire devant les autres.~
+@120 = ~Drizzt Do'Urden peut parler ? (On dirait qu'il a trouvé une potion de génie. Il n'y a que comme ça que je le vois construire des phrases cohérentes avec des mots. Et sans l'assistance de Cattie-Brie, en plus. Remarquable.) Et bien va parler à Drizzt, alors.~
+
+//Edwin a essayé de lire le journal de Dynahéir pendant une journée... sans succès.
+@121 = ~Ta journée est passée, Magicien Rouge. J'aimerais récupérer mon journal.~
+@122 = ~Le voilà, sorcière. Je... je l'ai lu. (Que je sois damné si la sorcière apprend que je n'ai rien pu déchiffrer. Ca doit être écrit en langage de grouilleux !)~
+
+//Edwin fait encore des siennes. Montaron, Imoen, Coran, Safana et Skie peuvent intervenir.
+@123 = ~*fort* J'ai remarqué que mon journal n'est plus dans mon sac. J'aimerais annoncer que j'ai renouvelé le glyphe de protection qui le gardait.~
+@124 = ~Sorcier, t'as intérêt à me payer après avoir lu ce foutu...~
+@125 = ~*rires* Je ne veux pas donner de noms, mais tout le monde a compris que c'était Edwin... Si j'étais un Magicien Rouge, je n'y risquerais pas le moindre coup d'oeil !~
+@126 = ~Une femme aussi prévoyante ne se trouvera jamais d'amant...~
+@127 = ~Chééérie, pourquoi perds-tu ton temps à protéger un vieux livre de notes tout poussiéreux ? Tu as réfléchi à un enchantement qui protégerait ta peau de l'humidité et la garderait aussi douce que de la soie ?~
+@128 = ~Et bien, je ne pense pas qu'il soit moralement justifiable de voler des années de notes d'une savante. Mais... hum... parfois, c'est marrant de faire des trucs immoraux.~
+@129 = ~Le voilà, sorcière. Je... je l'ai lu. C'était mon devoir en tant que représentant de Thay. (Que je sois damné si la sorcière apprend que je n'ai rien pu déchiffrer. Ca doit être écrit en langage de grouilleux !)~
+
+
+/////QUÊTE n°2 - WINSKI PERORATE ESSAYE D'ENLEVER DYNAHEIR/////
+/////DISPONIBLE UNIQUEMENT POUR UN PERSONNAGE MASCULIN DURANT LA ROMANCE/////
+
+//Winski rencontre le groupe. Minsc peut intervenir.
+@130 = ~Bonjour, <CHARNAME> de Château-Suif. Je suis Winski Perorate de Rashéménie. Je vous informe que la Wychlaran qui se tient à vos côtés fait l'objet d'une enquête. Les Othlors m'ont ordonné de ramener Dynahéir en Rashéménie.~
+@131 = ~J'aimerais d'abord jeter un oeil au procès verbal des Othlors qui m'obligerait à me soumettre à Toi. Si Tu n'en as point, l'Hathran que je suis fera ce qu'il lui sied ; et il me sied de rester en la compagnie de <CHARNAME>.~
+@132 = ~Si tu opposes la moindre résistance, Wychlaran, je te ramènerai de force.~
+@133 = ~Bien, si c'est ce que Tu veux... me renvoyer... j'obéirai.~
+@134 = ~Minsc et Bouh ne laisseront personne leur enlever Dynahéir encore une fois !~
+@135 = ~Et bien dans ce cas, tu l'accompagneras, berserker.~
+@136 = ~Et juste pour m'assurer que vous n'allez pas nous suivre, je vous présente mes jouets. Bon amusement avec ces créatures. HORS DE MON CHEMIN !~
+@137 = ~Ne me menace pas, magicien. Rien de bon ne pourra en résulter.~
+@138 = ~Oh, non... Encore un autre combat ! Allez avec lui, Dynahéir. Je refuse de me mêler à des affaires Rashémi, quelles qu'elles soient.~
+@139 = ~*Vous vous interposez entre Dynahéir et Winski, l'air sinistre, mais résolu, l'arme au poing.* Est-ce que vous essayez de *me* voler ? Quelle idée ! Et bien, allez-y, l'ami. J'ai toujours aimé empaler des magiciens.~
+@140 = ~*Vous vous interposez entre Dynahéir et Winski, sourire aux lèvres et arme au poing.* Ca, c'est un air que j'aime entendre ! Vous faites encore un pas en sa direction, et je vous combattrai jusqu'à ce que mort s'en suive pour délivrer ma dame de vos griffes.~
+@141 = ~*Vous vous interposez entre Dynahéir et Winski tout en dégainant votre arme d'un air ferme.* La dame a dit qu'elle préférait rester avec moi. Reculez immédiatement, ou sinon je vous organise une rencontre avec mon épée. Et vous n'en reviendrez pas, faites-moi confiance.~
+@142 = ~*Vous vous interposez entre Dynahéir et Winski, vous efforçant d'agir avec le plus de courtoisie possible malgré la colère bouillonnante qui monte en vous.* La requête de ma dame Dynahéir est tout à fait valable, messire. Jusqu'à temps que vous soyez en mesure de lui présenter cet ordre, dame Dynahéir sera sous ma protection, et personne ne la forcera à faire quoi que ce soit. Je la défendrai jusqu'à ma mort s'il le faut.~
+@143 = ~*Vous vous interposez entre Dynahéir et Winski, lançant à ce dernier un regard sombre depuis votre capuche.* Ecoutez, l'ami... pas de papier, pas de demoiselle. Un geste de travers et les hostilités commenceront.~
+@144 = ~*Vous vous interposez entre Dynahéir et Winski, l'air résolu, ouvrant votre âme à votre divinité pour qu'elle accorde plus de poids à vos mots. En effet, votre voix devient forte et impressionnante alors que vous commencez à parler.* Par la grâce divine que l'on m'a accordée, si vous essayez de forcer Dynahéir à vous suivre, je jure de la défendre.~
+@145 = ~*Vous vous interposez entre Dynahéir et Winski, parlant d'une voix calme mais ferme.* Je ne réponds pas aux Othlors, mais à Sylvanus et à Mère Nature, et je me fiche de savoir si vous possédez une autorisation ou non. Si dame Dynahéir refuse de vous suivre, elle ne vous suivra pas.~
+@146 = ~*Vous vous interposez entre Dynahéir et Winski, rapide tel un félin, prêt à fondre sur le magicien. Cependant, votre voix se fait calme et concentrée.* Le fait que vous n'ayez pas un tel document sur vous associé à la menace que vous venez de formuler m'amène à la conclusion que vous nous mentez. Le mensonge n'est pas honorable, étranger. Sachez que si vous deviez vous abaisser à enlever Dynahéir, je n'hésiterais pas à me battre contre vous. Et j'espère que vous sauriez vous battre avec honneur.~
+@147 = ~*Vous vous interposez entre Dynahéir et Winski, prêt à faire appel à la Toile. L'énergie magique commence à prendre forme autour de vous.* Je n'obéis qu'à ma conscience et à mon coeur, Vremyonni. Et tous deux me disent de défendre Dynahéir jusqu'à mon dernier sort, et même jusqu'à ma vie s'il le faut.~
+@148 = ~*Vous vous interposez entre Dynahéir et Winski, prêt à faire appel à la Toile. L'énergie magique coule en vous, émanant de chaleur et de puissance. Elle augmente votre pression sanguine et vous brûle la gorge.* Il paraît que vous êtes un sorcier, Vremyonni. Voyons lequel de nos deux sangs coulera sous l'effet de la magie. Je ne laisserai pas Dynahéir vous suivre contre sa volonté !~
+@149 = ~Enfin, quelqu'un qui pourra me débarrasser de la sorcière !~
+@150 = ~Enfin, quelqu'un qui pourra me débarrasser de la sorcière ! Vous pourriez aussi prendre avec vous le garde du corps attardé et son hamster ?~
+@151 = ~Mille pièces d'or, et elle est à vous !~
+@152 = ~Je pourrai tout à fait trouver une autre magicienne, mais pas une autre Dynahéir. Elle reste !~
+@153 = ~Jurez-moi que Dynahéir reviendra saine et sauve...~
+@154 = ~Les promesses peuvent être brisées, <CHARNAME>. Cet homme a envoyé des gnolls me capturer, et ce n'est que de justesse que j'ai évité la torture et le déshonneur.~
+@155 = ~Ah, <CHARNAME>, vous avez trop d'importance dans la lutte des dieux pour mourir... Je vous ai vu plus d'une fois échapper à la mort, et pour moi, ce n'est pas qu'une simple coïncidence. Je ne vais pas risquer une disgrâce divine en vous massacrant... par accident. Mais il me faut cette femme.~
+@156 = ~*Claque des doigts*~
+@157 = ~Venez, créatures. Amenez cette sombre femme à votre maître. Tuez-les tous, sauf le garçon et elle.~
+@158 = ~Voici votre argent.~
+@159 = ~Imbécile, vous êtes amoureux ? De la sorcière ? Les dieux prennent les abrutis en grâce !~
+@160 = ~Sur la tombe de mes ancêtres, je jure de vous ramener la Wychlaran Dynahéir saine et sauve. Les gnolls sous mes ordres ne lui ont pas touché un seul cheveu.~
+@161 = ~Je refuse de confier une amie à un homme qui complote avec des gnolls ! Dynahéir a raison, votre parole ne vaut rien ! Vous la voulez ? Il va falloir me passer sur le corps ! ~
+@162 = ~Vous venez de l'appeler Wychlaran encore une fois ? Ce ne sont pas là les manières de quelqu'un qui a du respect envers les sorcières Rashémi ! Si vous aviez été un vrai Vremyonni Rashémi, vous l'auriez appelée Hathran ! Vous êtes un imposteur, jamais je ne vous laisserai Dynahéir !~
+
+//Après avoir vaincu les créatures de Winski Perorate. Minsc, Edwin, Imoen et Kivan peuvent intervenir.
+@163 = ~Je ne suis pas sûre de me sentir soulagée que nous ayons repoussé les assauts de ce mage, <CHARNAME>.~
+@164 = ~N'aie crainte, Dynahéir ! Minsc et Bouh ne laisseront personne leur enlever Dynahéir !~
+@165 = ~Nous n'avons pas grand-chose à craindre d'un simple petit prestidigitateur. (Je maudis ce jour, et je maudis ces abrutis ! La sorcière n'est pas morte, et une autre faction entrave les plans de Thay !)~
+@166 = ~T'inquiète pas, <CHARNAME>. On l'a eu, cette fois. On pourra bien le vaincre encore !~
+@167 = ~Il serait avisé de notre part de nous inquiéter de ce Winski Perorate.~
+@168 = ~Je pense que nous aurons encore à croiser le chemin de cet homme de mon pays. Nous devrions continuer avec méfiance.~
+
+//Plus tard, le groupe retrouve Winski Perorate agonisant près d'Ombre-Terre. Minsc, Xan, Montaron, Coran, Safana, Ajantis, Edwin, Jaheira, Khalid, Alora, Yeslick, Imoen et Kivan peuvent intervenir.
+@169 = ~Ainsi, tu es venue pour moi, sorcière. *Le rire amer qu'il laisse échapper laisse place à une toux frénétique.*~
+@170 = ~Je ne Te connais point, magicien. Je suis venue de Rashéménie pour retrouver l'enfant de Bhaal Sarevok, dont j'ai entendu parler jusqu'en Sembie... Et c'est ainsi que je me suis retrouvée à aider <CHARNAME> d'empêcher la guerre de Sarevok Anchev. Qui que Tu sois, Tu n'as jamais eu le moindre droit sur moi.~
+@171 = ~Arrête de mentir ! *replie ses bras sur sa poitrine* Les Othlors... les Hathrans... elles me recherchaient depuis que... depuis que j'ai fui la Rashéménie. Elles t'ont envoyées me tuer pour que je ne révèle pas leurs petits secrets. Elles ne devaient pas me tenir en haute estime pour m'avoir envoyée une simple Wychlaran...~
+@172 = ~Je Te le répète : ce n'est pas pourquoi je suis venue. Serais-Tu un exilé, un de ces Vremyonni qui ont choisi de partir, mais qui portent toujours la responsabilité de l'Art ?~
+@173 = ~Jamais personne durant les quatre-vingts dernières années ne s'est comporté ainsi.~
+@174 = ~C'était plus... que ça pour moi. Je déteste les gens comme toi, et je déteste les Rashémi ! Faut-il être ainsi cruel pour... pour obliger un homme à étudier la Magie sous l'unique prétexte qu'il a un talent ? Est-ce juste qu'il doive devenir un exilé apatride s'il... s'il refuse cette responsabilité ? Tu ne me pourchassais pas, mais après tout... c'est quasiment la même chose.~
+@175 = ~La Rashéménie m'a peut-être conduit aux ténèbres, mais je me suis vengé. J'ai été le mentor de Sarevok. Je lui ai appris les rituels les plus sombres. S'il réussit maintenant, je mourrai sans doute, mais mon nom, lui, vivra grâce à son ascension.~
+@176 = ~Si l'on meurt selon certaines conditions, certaines choses peuvent nous atteindre par-delà la mort. Après tout, pourquoi la postérité ne retiendrait-elle pas le nom de l'architecte qui a dicté ses actions au nouveau Seigneur du Meurtre ? Tu ne peux pas comprendre ; tu es né pour marquer les Royaumes de ton sceau. Le reste d'entre nous tous doit se tailler sa propre place par tous les moyens nécessaires.~
+@177 = ~Je laisserai les Trois Te juger pour le mal, quel qu'il soit, que Tu as causé à la Rashéménie... Ou alors, je laisserai les Othlors le faire. Prête-nous main forte dans notre quête, et elles pourraient éventuellement pardonner Tes crimes. Parle-moi de Ton maître, Sarevok, et nous Te soignerons.~
+@178 = ~Tu panserais mes blessures pour que l'on puisse me ramener en Rashéménie et me poursuivre pour allégeance à Bhaal ? Non...~
+@179 = ~De toute façon, tu ne pourrais me soigner... même si j'acceptais de me confronter... à cette parodie de justice que tu m'offres. J'ai allongé ma durée de vie par des moyens surnaturels, en utilisant la magie des Vremyonni... les soins ne peuvent pas ramener les années perdues... Je me meurs, sorcière. Avec toi pour seul témoin.~
+@180 = ~Ne souhaites-Tu pas partir en paix ? En aidant le Bien que Tu as renié toutes les années où Tu étais au service de Bhaal ?~
+@181 = ~Bhaal m'a abandonné, tout comme les Trois. Personne n'aime les traîtres. Ni toi, sorcière, ni tes compagnons. Je souhaite mourir en paix... en paix, sorcière, et pas en racontant tout ce que je sais de mon maître à ses ennemis. Je peux encore vous envoyer six pieds sous terre...~
+@182 = ~J'en appelle à ton pacte de sang, nabassu, tanar'ri. Par ton vrai nom, débarrasse-nous d'eux, "Aravaata" !~
+@183 = ~Ah, je sens l'appel de l'être de chair stupide... Et très faible, même du point de vue des pitoyables standards de la mortalité ! Ah, une telle bêtise pourrait presque me surprendre.~
+@184 = ~Ki... *Winski porte ses mains à sa gorge, puis est pris de convulsions.*~
+@185 = ~Oser appeler le puissant Aravaata tout en étant au seuil de la mort... Eteindre une flamme aussi faible, c'est vraiment indigne de mes talents.~
+@186 = ~Et pourtant, tel est le prix de cette invocation purement indigne. Je m'occuperai de ces morceaux de viande sur pattes plus tard. Pour l'heure, je vais récolter ton âme. Elle sera mon trophée personnel, pauvre fou !~
+@187 = ~Je n'aurai aucune peine pour le sort qu'il a subi. J'espère que... peut-être, l'un d'entre nous pourra envoyer un message en Rashéménie pour informer de sa déchéance ?~
+@188 = ~On ira tout raconter en Rashéménie ensemble !~
+@189 = ~*regarde rapidement vers vous* Nous irons en Rashéménie pour les en informer si nous le pouvons, mais pour le moment, la mort elle-même menace ce pays.~
+@190 = ~Vous feriez bien d'envoyer un message maintenant. Vous éviteriez ainsi que l'information ne se perde lorsqu'enfin nous serons tous morts et enterrés.~
+@191 = ~Bande d'idiots, Winski est en train d'manger les pissenlits par la racine. Vous feriez mieux d'faire gaffe à Sarevok, et pas à c'te tas d'poussière !~
+@192 = ~N'aie crainte, Dynahéir. Nous ne sommes pas encore morts, et cela n'arrivera pas de sitôt. Nous irons tous visiter la Rashéménie une fois que toute cette histoire sera terminée.~
+@193 = ~Chérie, pourquoi perds-tu ton temps avec des pensées aussi sinistres ? Winski est mort, nous sommes vivants, et il n'y a pas l'ombre d'un épi dans mes cheveux.~
+@194 = ~Dynahéir, votre cause sera ma cause. Par Heaum, je jure de la respecter.~
+@195 = ~Oui, oui, bien sûr que nous... transmettrons ce message. (Crétins... mon travail ici est presque terminé. Bientôt, je pourrai fausser compagnie à ces abrutis.)~
+@196 = ~Nous avons suffisamment d'amis pour envoyer un message, ne t'inquiète pas inutilement.~
+@197 = ~O-o-oui, ma ch-chère dame, ne vous inquiétez pas. Nous sommes en mesure d'envoyer un message très rapidement.~
+@198 = ~Ooohh, on a gagné ! La mort peut bien être à nous trousses, nous avons vaincu toutes les épreuves. Allons en finir !~
+@199 = ~Oui, nous pouvons y arriver. Le fait d'être plusieurs, ça aide à prendre des décisions.~
+@200 = ~<CHARNAME> et moi, on vous laisse ici, et on va remettre ce message en mains propres !~
+@201 = ~La Mort nous a peut-être traqués dernièrement, mais maintenant, c'est nous qui traquons la Mort.~
+@202 = ~*calmement* Je vous remercie tous. Si telle est Ta volonté, alors nous arrêterons la Mort. Ta promesse de me porter secours si je devais tomber est suffisante.~
+@203 = ~Bouh dit qu'on a assez discuté ! En avant ! Il y a un Mal qui attend ses coups de pieds au derrière !~
+@204 = ~Les dieux ne sont peut-être pas d'accord, mais notre foi vaincra Sarevok, Dynahéir.~
+@205 = ~Rien ne peut se dresser contre nous et survivre, Dynahéir.~
+@206 = ~Avec nos deux compétences dans la magie, Sarevok mourra tout comme Winski.~
+@207 = ~Nous irons danser en Rashéménie ensemble, Dynahéir. Mais pour le moment, il est temps d'en finir, ensemble !~
+@208 = ~Nous irons en Rashéménie ensemble, Dynahéir. Glissons-nous discrètement dans le repaire de Sarevok, et mettons fin à tout ceci.~
+@209 = ~Dynahéir, ne vous inquiétez pas. La Mort elle-même n'a aucune prise sur nous.~
+@210 = ~Dynahéir, nous enverrons un message dès que nous le pourrons. Pour le moment, nous devons arriver auprès de Sarevok le plus vite possible.~
+@211 = ~On a gagné, arrêtez d'être défaitiste. Je suis d'avis qu'on aille présenter Sarevok à la Grande Faucheuse.~
+@212 = ~Nous devons continuer notre route vers l'Ombre-Terre pour aller à la rencontre de notre destinée. Peut-être que les objets que le magicien avait sur lui avant de mourir pourront mieux nous servir qu'à lui.~
+@213 = ~A la poursuite de Sarevok
+
+J'ai trouvé Winski Perorate près de l'entrée d'Ombre-Terre. Il a apparemment été le mentor de Sarevok, mais celui-ci a mis fin à ses services parce qu'il avait osé sauver son élève au lieu de tuer les Grands-Ducs comme il devait le faire. Dynahéir n'était pas à la poursuite de ce Vremyonni, mais il a joué un rôle dans nos deux quêtes. La guerre, le massacre et des morts par milliers pour devenir un dieu : tel est le plan de Sarevok auquel je dois mettre un terme avant qu'il ne fuie pour le mettre à exécution ailleurs.~
+
+
+/////QUÊTE n°3 - LE GROUPE RETROUVE DYNAHEIR, MAIS EDWIN OBJECTE/////
+/////DISPONIBLE UNIQUEMENT LORS DU RECRUTEMENT DE DYNAHEIR A LA FORTERESSE GNOLL SI EDWIN EST DANS LE GROUPE/////
+
+@214 = ~Arrêtez de piailler, vous deux ! Je vous veux tous les deux dans mon groupe. Vous n'avez qu'à remettre votre guéguerre privée à plus tard.~
+@215 = ~S'il veut voyager avec vous, alors je devrais peut-être faire de même.~
+@216 = ~Abrutie ! Tu ne sais pas ce que tu es en train de demander ! (Ces macaques sont trop nombreux pour que je les attaque maintenant. Prudence.)~
+@217 = ~Je vous accompagnerai, <CHARNAME>. Je ne laisserai pas votre vie entre les mains d'un Magicien Rouge sans alliés.~
+@218 = ~Vous ne voulez pas tuer la sorcière maintenant, alors soit. Je resterai avec vous pour l'empêcher d'empoisonner votre esprit de ses mensonges maléfiques. (J'aurai des opportunités pour m'occuper d'elle. Ces crétins seront aisément manipulables.)~
+@219 = ~Nous devrions nous en aller d'ici. Vous devez tous les deux vous reposer et régénérer vos sorts dès que possible.~
+@220 = ~Secourir Dynahéir de la Forteresse Gnoll
+
+J'ai porté secours à une magicienne du nom de Dynahéir malgré les objections d'Edwin. Ils représenteront tous deux des avantages considérables dans mon groupe, cela ne fait aucun doute. Ou alors, ils nous détruiront tous en s'entre-tuant. J'ignore lequel des deux est le plus puissant, mais je suppose que nous le saurons bien assez tôt.~
+@221 = ~Et au cas où, c'est moi le chef de cette compagnie. Nous poursuivons un objectif, et je me fiche de votre différend.~
+@222 = ~Bien. Voilà qui est dit.~
+@223 = ~Le Journal perdu de Dynahéir
+
+Dynahéir m'a demandé de lui retrouver un objet personnel qu'elle a perdu. Si nous le retrouvons, elle sera sans doute reconnaissante de le lui avoir rendu.~
+@224 = ~Le Journal perdu de Dynahéir
+
+Nous avons retrouvé le journal perdu de Dynahéir. Dorénavant, elle y fera beaucoup plus attention.~
+@225 = ~A la Rencontre de Drizzt
+
+Drizzt est un vagabond, c'est le moins que l'on puisse dire. Il nous a dit qu'il se pourrait bien que nous le rencontrions à nouveau sur la Côte des Epées. Peut-être nous reverrons-nous.~

@@ -2,7 +2,7 @@
  * "The BG1 NPC Project"
  * Combined Tutu/BGT installer
  * authored and coded by tons of dedicated people from all walks of life
- * Version 19 in progress 
+ * Version 20 in progress 
 */
 
 /* Backup folder */
@@ -15,10 +15,11 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 //  MODDER
 
 /* WeiDU v204 allows tp2 level version listing in the .log, so no more tra changes  */
-VERSION ~v19~
+VERSION ~v20~
 
 /* launch the readme file immediately. If you want to disable the ReadMe, place two slashes before it, like // README  */
-README ~bg1npc/readme-bg1npc.html~
+/* Isaya : display in native selected language if available, otherwise english */
+README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
 
 ALWAYS
   ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
@@ -47,8 +48,9 @@ END
 AUTO_TRA ~bg1npc/tra/%s~
 LANGUAGE ~English~ ~english~ ~bg1npc/tra/english/setup.tra~
 LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ ~bg1npc/tra/spanish/setup.tra~
+LANGUAGE ~Francais (traduit par les d'Oghmatiques)~ ~french~ ~bg1npc/tra/french/setup.tra~
 
-/* BEGIN The BG1 NPC Project: Required Modifications for v15 */
+/* BEGIN The BG1 NPC Project: Required Modifications  */
 BEGIN @1005
   /* Tells other mods BG1NPC Core is installed */
   COPY ~BG1NPC/Core/X#component.xx~ ~override/X#BG1NPCCore.G3~

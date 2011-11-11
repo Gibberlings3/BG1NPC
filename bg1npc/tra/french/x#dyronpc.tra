@@ -1,0 +1,438 @@
+//Yeslick et Dynahéir avant d'aller dormir
+@0 = ~Allons, jeune fille, calmez-vous un moment ! Ca fait au moins la vingtième fois que vous triturez ce parchemin. Vous me donnez mal aux yeux, à force !~
+@1 = ~C'est encore pire que lorsque l'elfe utilise son arc, c'est vous dire !~
+@2 = ~Toutes mes excuses, Maître Nain. *rit* En effet, je ne me sens pas tranquille, en ce moment.~
+@3 = ~Dans ce cas, peut-être accepteriez-vous d'entendre un conte des âges anciens ? Je pensais à l'histoire de Thorm Stoutshield, aussi connu sous le nom de Thorm le Têtu, et du dragon peureux qui ne savait pas voler.~
+@4 = ~Peut-être en une autre occasion, Maître Nain. Pour l'heure, j'aimerais essayer de m'endormir.~
+@5 = ~Bien, jeune fille. Inutile de vous rendre malade. *Il remue les cendres avec un bâton et murmure.* La nuit porte conseil...~
+
+//Yeslick et Dynahéir, le matin suivant
+@6 = ~*ronfl*... Qu'est-ce que c'est ?! Des wivernes ?!~
+@7 = ~Oh, c'est vous, jeune fille. Première levée, hein ? Vous vous sentez mal ?~
+@8 = ~Non, Maître Nain, tout va bien.~
+@9 = ~Laissez-moi vous examiner, alors... Ah, oui, la pâleur que j'ai crue voir hier s'en est allée. Vous semblez aussi fraîche qu'une rose. Mais je devrais quand même vous donner quelque chose contre la fièvre.~
+@10 = ~En fait, le trouble qui me ronge ne cause nul inconfort physique, Maître Nain. Je crois... je crois que je suis amoureuse.~
+@11 = ~Ahh... l'amour fait toujours cet effet aux demoiselles. Ah, les jeunes... Lorsque l'heureux élu et vous aurez besoin d'un prêtre, vous saurez où me trouver.~
+
+//Dynahéir et Xan
+@12 = ~Dyyyyynahéir... N'avons-nous pas déjà assez d'ennemis puissants et dédiés au seul but de surgir de l'ombre pour nous frapper en plein coeur... faut-il également que je m'inquiète de nos alliés qui ne font que nous rapprocher de notre inéluctable perte ?~
+@13 = ~Tu n'as nul besoin de surveiller Tes arrières, Xan, j'en suis convaincue.~
+@14 = ~Et moi je crois que si, du moins tant je souhaite assister à un autre lever de lune. Tenez, par exemple... pourquoi avez-vous changé l'ordre des parchemins ?~
+@15 = ~Je n'ai fait que les trier par ordre alphabétique. Cela comporte des avantages certains par rapport au classement par école, surtout lorsque vient le moment où l'on doit en retrouver un en plein coeur du combat.~
+@16 = ~Corellon me vienne en aide !~
+@17 = ~Un problème ?~
+@18 = ~Mon livre de sorts... il possède une magie qui lui est propre !~
+@19 = ~Allons, Ton grimoire n'a pas pu jeter un sort tout seul, comme par enchantement...~
+@20 = ~*Il montre le grimoire à Dynahéir.* Alors veuillez m'expliquer comment ce gribouillis ressemblant vaguement à <CHARNAME> a-t-il pu se dessiner sur cette page !~
+@21 = ~*rougit* Vaguement ? Je trouve au contraire qu'il s'agit-là de son portrait craché.~
+@22 = ~C'est la parfaite copie de son apparence physique, mais ce dessin ne retranscrit en rien sa nature profonde, ce qui est infiniment plus important !~
+@23 = ~Ton attitude a failli me faire oublier que Tu appartiens au Peuple-Fée. J'avais effectivement entendu dire que la nature était au coeur de votre art. Mais je persiste à penser que j'ai représenté le Moi profond de <CHARNAME> assez justement.~
+@24 = ~Vous ? Par la Seldarine, pour quelle raison avez-vous dessiné dans mon grimoire ?!~
+@25 = ~Sans doute ai-je dû me trouver distraite lorsque j'ai étudié Tes notes sur la magie des illusions. Pardonne-moi, Maître Elfe.~
+@26 = ~*Xan roule des yeux.* L'on dit que lorsqu'un dieu veut punir un mortel, il commence par lui infliger la folie... quelle cruelle divinité choisit plutôt de rendre ses compagnons amoureux ?~
+
+//Dynahéir et Viconia
+@27 = ~J'ai remarqué que tu as augmenté le nombre de tes suivants, jalil. Je trouve que c'est une très bonne idée.~
+@28 = ~Une paire de guerriers ? Une femme plus maligne aurait plutôt ajouté un magicien à un combattant. C'est ce que ferait la plupart des femmes elfes noires.~
+@29 = ~Je désapprouve la présence de mâles dans le clergé, mais je pense que l'on peut dire qu'il forme un bon complément à ton chien de garde attardé.~
+@30 = ~Un magicien en complément de ton guerrier... Tu devras quand même le surveiller dans ce monde insensé où il est permis aux hommes d'être plus puissant que les femmes.~
+@31 = ~Un roublard... Ca ira très bien à côté de ton chien de garde lourdaud et stupide.~
+@32 = ~Personnellement, je n'aurais pas choisi un mâle qui pratique cet art étrange qui consiste à brâmer encore et encore le même hennissement, bien que tu appelles cela de la poésie... Mais tous les hommes ne sont pas aussi bons que ton chien de garde, fort, loyal et stupide, et la jalil de la surface semble attirée par ce genre de choses.~
+@33 = ~Viconia, même Tes compliments ont un arrière-goût outrageant.~
+@34 = ~Qu'est-ce qu'un compliment ?~
+@35 = ~Quelque chose que l'on dit à quelqu'un pour le rendre plus heureux.~
+@36 = ~Ah, la flatterie, donc ? Ne te méprends pas, jalil. Je ne cherche que protection de la part de ce groupe, et je ne veux rien de ce que *tu* as... touché.~
+@37 = ~Je l'aurais pris, si je l'avais voulu.~
+@38 = ~*froidement* Un compliment est sincère, drow.~
+@39 = ~Alors tu crois <CHARNAME> lorsqu'il te dit que tu es la plus belle femme sur Toril ? Les idiots de la surface ! Ils tiennent pour vrais les mensonges les plus éhontés et en retirent même de la fierté.~
+
+//Tiax exige à Charname de coucher avec Dynahéir
+@40 = ~L'empereur Tiax réclame son droit de cuissage sur la jeune femme avec qui son vassal <CHARNAME> passera sa première nuit !~
+@41 = ~Le cuissage ne peut s'exercer que lorsque des serfs se marient, Tiax. Dynahéir et moi ne sommes qu'amants.~
+@42 = ~Euh... vraiment ? Ne le prends pas mal, mais tu ne trouves pas que Dynahéir est un peu hors de ta portée ?~
+@43 = ~Mais n'es-tu pas sensé rester vierge pour garder tes terrifiants et extraordinaires pouvoirs, Tiax ?~
+@44 = ~Même pas en rêve, gnome ! Et l'honneur de ma dame exige que je te crache au visage et que je te rosse comme le porc que tu es !~
+@45 = ~Ma première nuit avec Dynahéir ? J'ai bien peur que tu arrives trop tard, mon illustre régent.~
+@46 = ~Bien sûr, grand Tiax. Elle est toute à vous.~
+@47 = ~L'esclave traître cherche donc à dérober au grand Tiax ce qui lui revient de droit, de ce qui ne devrait être qu'une formalité !~
+@48 = ~Tu oses remettre en question la puissance de Tiax ? Tiax est plus fort qu'un géant et plus agile qu'un renard !~
+@49 = ~Qu'est-ce que c'est que ces bêtises ?~
+@50 = ~Le grand Tiax se rit des rebelles ! Oh, mais il vient juste de recevoir un message urgent de Cyric. Le Père des Mensonges lui a donné l'ordre de rester éloigné des femmes jusqu'à ce que le monde soit entièrement dominé ! Ahem... Allez, mes esclaves, du vent !~
+@51 = ~Et pourquoi Tiax n'en a-t-il pas été informé sur le moment ? Tiax fera châtier tous ceux de ses services de renseignements qui sont responsables de cette impardonnable négligence !~
+@52 = ~Aujourd'hui, tu as satisfait Tiax, esclave.~
+@53 = ~Et moi, je suis sûre que Cyric serait satisfait qu'un tas de cendre plutôt qu'un gnome dirige le monde en son nom.~
+
+//Dynahéir et Skie
+@54 = ~Dites-moi, Dynahéir... vous êtes déjà tombée amoureuse d'un homme avant <CHARNAME> ?~
+@55 = ~*Elle lève un sourcil, surprise.*~
+@56 = ~Eh bien... je... euh... j'ai reconnu les signes. Lorsque vous dites quelque chose, juste après, vous lancez un petit regard à <CHARNAME>. Vous le faites aussi lorsque vous souriez. Et l'autre jour, lorsque <CHARNAME> a été blessé, j'aurais juré vous avoir vue pâlir encore plus que lui ! Eldoth était pareil, lorsque nous nous sommes rencontrés, et il n'était pas certain des sentiments que je pouvais avoir envers lui, l'idiot.~
+@57 = ~Il est dans ma nature de me soucier de l'opinion de mon chef. Et même si mon estomac est suffisamment solide pour supporter les horreurs de la guerre, je confesse que le sang qui gicle, les os brisés et la chair tranchée me rendent très mal à l'aise, parfois.~
+@58 = ~Le sang qui gicle... beurk... Moi aussi, je déteste ça. Je ne m'attendais vraiment pas à ça... Eldoth ne m'avait jamais parlé des... ni de... hum... l'odeur des cadavres qui pourrissent au soleil... Ahem... excusez-moi, Dynahéir, mais je... je crois que j'ai la nausée...~
+
+//Dynahéir et Shar-Teel, après un repos
+@59 = ~Bon sang, Dynahéir, il est encore trop tôt pour vivre ! Qu'est-ce que tu fiches ici à cette heure ?~
+@60 = ~Je voulais assister à l'aube, Shar-Teel.~
+@61 = ~L'aube ?~
+@62 = ~C'est ainsi que les humains appellent le lever du soleil durant la matinée. D'aucuns y voient les miracles de Lathandre. Jadis, c'était le dieu Amaunator qui...~
+@63 = ~*grogne* Arrête de me faire l'article, femme. Si tu as des insomnies, ce n'est pas à cause des dieux. C'est la faute à cet idiot de <CHARNAME>.~
+@64 = ~*grogne* Arrête de me faire l'article, femme. Si tu as des insomnies, ce n'est pas à cause des dieux. C'est la faute à ce pathétique demi-dieu.~
+@65 = ~Je remarque que Tu ne dors pas non plus, Shar-Teel. Quelle est Ta raison ? Je doute que ce soit parce que Tu T'alanguis, Toi aussi.~
+@66 = ~T'as bien raison ! Je voulais me laver pendant que l'eau est encore froide, et ensuite m'entraîner un peu à l'épée.~
+@67 = ~Tu es une personne admirable, Shar-Teel. A Ta manière.~
+@68 = ~Et toi, tu n'as pas renoncé à toute ton intelligence pour un homme. Pas encore.~
+
+//Dynahéir et Safana (2 dialogues)
+@69 = ~Dynahéir, viens un peu par ici, ma chérie. Je pense que c'est le moment de te donner quelques conseils... Premièrement, ta coiffure. *Safana, pensive, se pince les lèvres.* Tu n'as que deux excuses pour un tel carnage : soit ta mère se servait de toi comme balai-brosse, soit tu as un nid de corbeaux dans les cheveux.~
+@70 = ~Mais ne t'inquiète pas. Il n'est rien qu'une bonne cure de shampooing ne peut réparer. A propos... combien de fois par jour te brosses-tu les cheveux ?~
+@71 = ~Je ne comprends pas...~
+@72 = ~C'est bien ce que je pensais. *doucement* Chérie, toutes les femmes du monde devraient avoir le nombre cent inscrit en toutes lettres sur leur poitrine pour tout ce qui concerne les cheveux.~
+@73 = ~Je n'arrive pas à faire le lien entre le nombre cent et les cheveux...~
+@74 = ~Je parle de cent coups de brosse, bien entendu ! Et dire que tu te prends pour une femme éduquée...~
+
+@75 = ~Je pensais à...~
+@76 = ~Safana, je ne T'ai demandé aucun conseil de beauté.~
+@77 = ~Je suis une personne charitable, Dynahéir. Lorsque je vois une femme en difficulté, je me sens obligée de lui venir en aide... d'autant plus si elle estime me devoir une faveur en retour. Tu veux offrir à <CHARNAME> autre chose qu'une 'amitié indéfectible', ainsi que l'assurance qu'il voudra faire de toi la femme de sa vie lorsque l'excitation des premiers mois se sera évaporée ? Alors écoute bien, ma chérie. Tu me remercieras plus tard...~
+@78 = ~Je ne me permettrais nullement de remettre en cause Ton expertise en la matière, Safana, mais je préfère tout de même suivre mon propre jugement.~
+@79 = ~Dans ce cas, ne viens pas pleurer à ma porte lorsque tout sera fini.~
+@80 = ~Je Te le promets.~
+@81 = ~Bon, chérie, puisque tu ne veux pas parler de <CHARNAME>, et si on rediscutait plutôt de cette potion de raffermissement de la peau que tu m'as promise l'autre jour ?~
+
+//Quayle fait son show à Dynahéir
+@82 = ~J'espère que tu t'es rendue à l'évidence, maintenant : je suis beaucoup plus intelligent que toi.~
+@83 = ~Qu'est-ce qui T'a amené à cette conclusion, Quayle ?~
+@84 = ~Tous ceux qui ont ne serait-ce qu'une once, à peine un millième de mon intelligence divine, remarqueraient que tu es amoureuse.~
+@85 = ~Es-Tu de ceux qui pensent que l'amour ralentit l'esprit ?~
+@86 = ~Oh, non, je ne vois pas ça comme un ralentissement.~
+@87 = ~Le problème est résolu, dans ce cas...~
+@88 = ~Attends, je vais encore *plus loin* que de penser qu'il en résulte une simple malfonction temporaire. Mon postulat est que la *capacité* à tomber amoureux est le produit d'un esprit inférieur. Permets-moi d'élaborer ma théorie.~
+@89 = ~Tu vois, l'observation d'un sujet-témoin devrait permettre à tout être vivant doté d'un cerveau au moins aussi gros qu'une bille d'empêcher d'acquérir les changements perturbants de personnalité qui accompagnent l'amour.~
+@90 = ~Le sujet devient un idiot distrait, tendant continuellement à sourire bêtement, à s'engager dans des activités pour lesquelles il n'a aucun talent, telles que la poésie, la cueillette de la flore locale, et...~
+@91 = ~Quayle, je n'ai pas le temps pour tout ceci.~
+@92 = ~Hmmph, je vois. Pour être clair et concis, parce que, soyons réalistes, il faut que je le sois, le sujet fait montre d'un certain nombre de signes de bêtise. Mais ce n'est pas tout... Le sujet rejette hautainement tout conseil avisé qui pourrait lui être donné, exactement comme toi quand j'ai...~
+@93 = ~Dynahéir ? Dynahéir ?~
+
+//Minsc et Charname discutent de la romance (2 dialogues)
+@94 = ~<CHARNAME>, est-ce que tu pourrais parler un peu moins à Dynahéir, pendant la nuit ? Minsc et Bouh doivent garder leur sorcière, et ça leur donne envie de dormir. Bouh explique des choses à Minsc, mais c'est quand même dur de rester éveillé. Et pour botter les fesses du Mal, il faut être cons... Qu'est-ce que tu dis, Bouh ? Consentant ? Non, ce n'est pas ça... con-cen-tré !~
+@95 = ~Je suis désolé, Minsc. J'essaierai d'être plus bref, la prochaine fois. Pour te dire la vérité, je ne comprends pas tout ce que dit Dynahéir non plus, parfois.~
+@96 = ~Minsc, tu pourrais facilement régler ce problème si tu arrêtais d'écouter nos conversations. On n'a qu'à dire que je te relaie lorsque je parle avec Dynahéir.~
+@97 = ~*soupir* Demande à Bouh d'essayer encore. Il pourrait peut-être t'apprendre un point important : lorsqu'un homme et une femme parlent tout bas en se tenant la main, il veulent un peu d'intimité.~
+@98 = ~Merci beaucoup, <CHARNAME>.~
+@99 = ~Non, non. Ce n'est pas bien ! Dynahéir est la sorcière de Minsc. <CHARNAME> ne peut pas être son garde du corps, tout comme Minsc ne peut pas être le fils de Gorion ! Pas vrai, Bouh ?~
+@100 = ~Ah, la prochaine fois que nous irons au marché, Bouh, tu n'oublieras pas de chercher ces petites graines marron qui tiennent Minsc en éveil ! Il va nous en falloir beaucoup.~
+@101 = ~Minsc comprend. Le meilleur ami de Minsc en Rashéménie a rencontré une dame, une fois, et eux aussi voulaient de l'intimité. Sauf que la dame n'était pas sous la responsabilité de Minsc.~
+
+@102 = ~<CHARNAME>, Bouh dit que tu aimes Dynahéir.~
+@103 = ~Et ce... tournant des évènements, est-ce que ça te... dérange, d'une façon ou d'une autre ?~
+@104 = ~Tant que nous y sommes, Minsc, j'aimerais savoir : quels sont exactement tes sentiments pour Dynahéir ?~
+@105 = ~Un jour, je briserai le petit cou de ce fichu rongeur !~
+@106 = ~Minsc et Bouh ne savent pas encore. <CHARNAME> est un peu petit...~
+@107 = ~*squiiik*~ [GAM_48]
+@108 = ~Oui, Bouh, je sais que tu es le plus petit de ce groupe, mais tu es un hamster géant de l'espace miniature... et pas géant pour rien !~
+@109 = ~Mais à part ça, on pense qu'on est d'accord.~
+@110 = ~Dynahéir est la sorcière de Minsc, et il la protège, car il fait son dajemma. Si quelqu'un brise le coeur de Dynahéir, Minsc devra arracher celui de ce quelqu'un pour réparer les dégâts. Et Minsc n'est pas un sorcier, alors ça ne sera pas joli à voir.~
+@111 = ~<CHARNAME> ne devrait pas dire des choses pareilles, même pour rigoler.~
+
+//Dynahéir et Minsc (5 dialogues)
+@112 = ~Hé, Dynahéir.~
+@113 = ~Oui ? Tu sembles inquiet, mon ami.~
+@114 = ~Minsc et Bouh ont bien observé leur sorcière, et ils ont remarqué que Dynahéir ne se sent pas bien.~
+@115 = ~Tu Te fourvoies.~
+@116 = ~Tu vois, Bouh, les femmes sont exactement comme les hamsters : elles cachent leurs blessures.~
+@117 = ~*squiiik*~ [GAM_48]
+@118 = ~Oui, Bouh. La prochaine fois que tu mangeras trop d'yeux de xvarts, tu me le diras.~
+@119 = ~Mais que devrions-nous faire pour Dynahéir ?~
+@120 = ~Oui, Bouh, tu as raison. Nous serons sur nos gardes pour faire face à tous ceux qui ennuient Dynahéir.~
+@121 = ~<CHARNAME> ? Non, Bouh, tu te trompes forcément. <CHARNAME> est un homme courageux, et c'est lui qui a sauvé Dynahéir.~
+@122 = ~Minsc ! *doucement* Tu fais déjà grand honneur à Tes devoirs de gardien. Tu n'as pas à en faire plus.~
+
+@123 = ~Psst, Dynahéir... Bouh dit qu'il faut se méfier du maigrichon Edwin. Il a une odeur maléfique, et ce n'est pas de la bouse de gnoll.~
+@124 = ~Je me dresse en permanence sur mes gardes en présence du Thayen.~
+@125 = ~C'est vrai, mais tu dois redoubler ta vigilance, ma sorcière. Regarde comme le petit pelage de Bouh tremble d'inquiétude !~
+@126 = ~Cela ne doit être que la faute du vent.~
+@127 = ~Euh... maintenant, c'est le vent. Mais tout à l'heure, ce n'était pas le cas ! Bouh me dit que le méchant Magicien Rouge est en train de conspirer à nouveau à cause de Dynahéir et de <CHARNAME>.~
+@128 = ~Je n'en doute aucunement.~
+
+@129 = ~Dynahéir, Minsc est très fort, et Bouh est le hamster géant de l'espace miniature le plus intelligent de tous les hamsters géants de l'espace miniatures. Et les hamsters géants de l'espace miniatures sont très intelligents.~
+@130 = ~*d'un air absent* Oui oui, Minsc.~
+@131 = ~Ca veut dire que la glorieuse Dynahéir ne remplacera pas Minsc et Bouh par <CHARNAME> ?~
+@132 = ~Mais pourquoi ferais-je donc une chose pareille ?~
+@133 = ~Eh bien, Minsc et Bouh se sont battus comme des lions, mais les hommes à tête de chien ont enlevé Dynahéir. Et c'est <CHARNAME> qui l'a sauvée... Mais il ne peut pas être plus fort que Minsc ou plus intelligent que Bouh.~
+@134 = ~En dépit des plus admirables qualités de <CHARNAME>, c'est bel et bien un berserker Rashémi qui doit être mon protecteur, conformément à la tradition. Et je me refuse à me dérober aux us de mon peuple.~
+@135 = ~Tu entends ça, Bouh ? Tu entends ça ? Hourrah pour Dynahéir et Minsc et Bouh !~
+
+@136 = ~Euh... Dynahéir ? Bouh pense encore que Dynahéir préfèrerait voyager avec <CHARNAME> plutôt qu'avec Minsc et Bouh.~
+@137 = ~Tu devrais rassurer Bouh à ce sujet, Minsc.~
+@138 = ~Minsc a essayé ! Minsc a dit : 'Bouh, si notre sorcière a dit non, alors c'est non.'~
+@139 = ~Mais quand Minsc regarde Dynahéir, elle est toujours avec <CHARNAME> ! Elle parle toujours à <CHARNAME>, elle regarde toujours <CHARNAME>, elle marche toujours près de <CHARNAME>.~
+@140 = ~Minsc le voit, lui aussi !~
+@141 = ~Ce n'est pas parce que je me suis fait un nouvel ami que je dois oublier mes anciens camarades.~
+@142 = ~Alors on redeviendra bientôt comme avant ? Juste Minsc et Bouh et Dynahéir qui voyagent ensemble ?~
+@143 = ~*soupir* Nul ne peut connaître l'avenir. Pour l'heure, tout ce qui compte, c'est que nous devons suivre <CHARNAME>.~
+@144 = ~Tu vois, Bouh... Dynahéir nous a dit de ne pas nous inquiéter.~
+@145 = ~Oui, elle aime bien <CHARNAME>, mais pas de la même façon qu'elle aime Minsc et Bouh.~
+@146 = ~Oui, je suis d'accord. Dynahéir aime <CHARNAME>, tout comme les femmes aiment les hommes avec qui elles doivent se marier. Ah, avec tout cet amour, pas étonnant que nous nous soyons trompés !~
+
+@147 = ~Minsc et Bouh pensent que quand ils seront acceptés à la Loge Berserker du Dragon de Glace, il devraient demander à <CHARNAME> de venir, lui aussi.~
+@148 = ~Minsc, Tes intentions sont pures, mais <CHARNAME> n'est point Rashémi. Il n'a aucune chance de pouvoir un jour connaître cet honneur.~
+@149 = ~Pas ici, mais lorsqu'il viendra en Rashéménie...~
+@150 = ~<CHARNAME> ne viendra pas en Rashéménie.~
+@151 = ~Mais bien sûr que si ! Il ne quittera jamais la glorieuse Dynahéir. Et s'il essaye, Minsc le traquera et bottera son derrière maléfique...~
+@152 = ~Je croyais que Tu ne voulais pas que <CHARNAME> voyage avec nous ?~
+@153 = ~C'était avant que Minsc ne comprenne. Personne ne peut protéger Dynahéir mieux que Minsc et Bouh ! Mais Dynahéir a aussi besoin de <CHARNAME>, mais pour d'autres besoins. Donc, nous irons en Rashéménie tous ensemble.~
+@154 = ~Je crois que... nous ne devrions pas nous projeter aussi loin dans l'avenir, Minsc.~
+@155 = ~Minsc essaye de voir plus loin que le bout de son nez depuis que les gnolls lui ont dérobé Dynahéir.~
+
+//Dynahéir et Kivan
+@156 = ~Dis-moi, Kivan, si Déhériana T'avait demandé de ne pas passer autant d'années à venger sa mort, l'aurais-Tu seulement écoutée ?~
+@157 = ~Je ne suis pas homme à faire des suppositions, Dynahéir.~
+@158 = ~Oui, je le sais bien, et néanmoins...~
+@159 = ~Je n'aurai d'autre réponse que celle-ci : je me suis toujours dressé contre ceux qui torturent les innocents. J'ai été élevé ainsi... et Déhériana a fait de moi un homme meilleur.~
+@160 = ~Tant qu'elle vivait encore, certainement... mais sans son trépas, aurais-Tu suivi ce chemin qui ne Te laisse aucun droit au bonheur ?~
+@161 = ~A qui cette question s'adresse-t-elle, Dynahéir... à moi, ou à vous ?~
+@162 = ~A moi-même, je suppose. Pardonne mon incorrection, Kivan.~
+@163 = ~C'est le jeune <CHARNAME> qui vous trouble à ce point, n'est-ce pas ? Vous le regardez, puis vous me regardez, comme si vous craignez qu'il vous arrive quelque chose.~
+@164 = ~Il est vrai.~
+@165 = ~L'on ne peut commander le bonheur, pas plus que l'on ne peut interdire l'amour. Si vous forcez un homme à faire ce qu'il ne peut faire, vous le transformerez en quelque chose de pire que ce que vous percevez en moi. Son serment l'obligerait à succomber au Mal... ou il le briserait sans savoir s'il est un traître, et s'il aurait pu être pardonné. Pensez-y, avant de décider quoi que ce soit.~
+@166 = ~Tes mots sonnent bien tristement à mes oreilles, mais ils n'en sont pas moins vrais. *soupir* Peut-être qu'il n'y a rien d'autre à faire que de rester dans mon trouble et de ne donner aucun crédit à mes inquiétudes... ou peut-être pas.~
+@167 = ~Vous arrangeriez le problème en ne vous faisant pas tuer, Dynahéir.~
+@168 = ~*doucement* Il est bien des choses qui sont en mon pouvoir, Maître Elfe, mais pas ceci.~
+
+//Charname et Khalid
+@169 = ~<CHARNAME>, j'aimerais vous f-féliciter. Dame Dynahéir possède une grande noblesse d'âme et de coeur.~
+@170 = ~En effet, c'est ce qui m'a attiré chez elle. Je n'aime pas plus que toi les poules mouillées.~
+@171 = ~*Hausser les épaules* Je ne pensais pas rencontrer un autre type de femme parmi les aventurières.~
+@172 = ~Ce qui me plaît le plus chez elle, c'est son physique. Je ne pensais pas non plus que tu as choisi Jaheira pour sa personnalité.~
+@173 = ~Oh ? Ce n'est pas seulement cette saveur qui me... Ah, pardonnez-moi. Je suis à vos côtés depuis quelques t-temps maintenant, et j'oublie combien vous êtes jeune.~
+@174 = ~Vous en rencontrerez. En fait, c'est dé-déjà fait. J'espère que vous saurez *repérer* la différence par vous-même... avant qu'un désastre vous force à apprendre la leçon.~
+@175 = ~Qu-quelle immaturité ! Je pense vraiment que... Oh ! Vous essayez de me faire comprendre que je devrais m'occuper de mes propres affaires, n'est-ce pas ? Toutes mes excuses.~
+
+//Dynahéir et Jaheira
+@176 = ~*tousse* Dynahéir, j'aimerais que nous puissions avoir une discussion entre femmes.~
+@177 = ~Cette conversation ne sera agréable pour aucune d'entre nous deux, Jaheira.~
+@178 = ~Je sais, mais Gorion nous a donné pour mission, à Khalid et moi, de protéger <CHARNAME>.~
+@179 = ~Cela excuse donc Tes indiscrétions ?~
+@180 = ~Je ne suis nullement poussée par la curiosité malsaine d'une commère ! Mais je me dois de m'interroger sur les motivations de toute femme pour qui le jeune garçon, <CHARNAME>, a des sentiments, d'autant plus si elle fait partie d'une société secrète motivée par le pouvoir, et qu'elle s'est retrouvée 'comme par hasard' sur la Côte des Epées alors qu'elle vient d'une région lointaine.~
+@181 = ~Je me suis laissée dire que les Hathrans ne voyagent pas pour le plaisir du dépaysement, ni qu'elle ne perdent leurs temps à jouer avec le coeur des hommes.~
+@182 = ~Alors, considères-Tu <CHARNAME> comme un jeune garçon, ou comme un homme ?~
+@183 = ~Je n'ai jamais pensé à lui en ces... termes. Je suis chargée de le protéger, selon la volonté de Gorion, et je ne laisserai personne le blesser ou profiter de lui. Personne.~
+@184 = ~Je ne connaissais pas Gorion. Mais je connais assez <CHARNAME> pour T'assurer qu'il est tout à fait mature, et qu'il n'est pas du genre soumis. Je le connais assez pour T'assurer qu'il n'apprécierait pas que Tu Te mêles de ses affaires de coeur. Et moi non plus.~
+@185 = ~S'il ne s'agit que d'une affaire de coeur, je n'ai aucune raison de t'ennuyer. Mais si je détecte la moindre trace de tromperie, je saurai m'interposer.~
+
+//Imoen veut donner des conseils à Charname sur sa relation avec Dynahéir
+@186 = ~<CHARNAME> ! Regarde ce que j'ai... *rigole* Ahah ! Je t'ai ecore surpris en train de mater Dynahéir !~
+@187 = ~Je sais ce que ça cache !~
+@188 = ~Il faut absolument que nous ayons cette conversation !~
+@189 = ~LA conversation ? Mais ça fait des années que Gorion et moi avons eu CETTE conversation !~
+@190 = ~Bon, très bien, vas-y, puisqu'il le faut.~
+@191 = ~Imoen ! C'est moi le grand frère ! Normalement, c'est mon rôle de t'expliquer des trucs !~
+@192 = ~Et depuis quand tu es experte en relations amoureuses ?~
+@193 = ~Bon, dis-moi juste ce qu'il se passe d'abord, et puis...~
+@194 = ~Mais non, pas *cette* conversation, idiot ! Je voulais parler sentiments, pas biologie !~
+@195 = ~Bon, d'accord.~
+@196 = ~L'Art de la Séduction, par Imoen... Est-ce que ça implique des petits lapins roses ?~
+@197 = ~Imoen, tu te rapproches dangereusement de la limite de notre amitié ! Ne va pas plus loin !~
+@198 = ~Tout d'abord, tu dois être... romantique. Comme ces histoires avec les fleurs, par exemple...~
+@199 = ~Je vois. Les cataplasmes, ça compte ? Après tout, c'est aussi de la flore.~
+@200 = ~*renifle* Tu es peut-être le plus vieux, mais certainement pas le plus sage.~
+@201 = ~Ecoute et apprends !~
+@202 = ~Ooh ! Tu es le dernier à t'en rendre compte, comme d'hab' !~
+@203 = ~*rigole* T'es trop mignon quand tu as ce regard qui dit 'je suis plus intelligent qu'Elminster' ! Tu es amoureux de Dynahéir, voilà ce qu'il se passe.~
+@204 = ~Et c'est une dame. Si tu veux l'impressionner, écoute et apprends !~
+@205 = ~Chut. Sois attentif, un peu !~
+@206 = ~Ouh, le grincheux ! *Elle vous tire la langue.*~
+@207 = ~Ouille... Il était temps que nous ayons cette conversation ! Il faut penser roses, idiot, pas menthe ou fenouil ! Et il faut aussi penser bijoux. On en a plein, dans notre équipement... mouais, en fait, ça va pas le faire.~
+@208 = ~Attends un peu qu'on soit en ville... Je t'achèterai un truc pour ta copine. Et ne t'inquiète surtout pas de ce que ça va coûter, je prendrai tout ça... euh... en main ! *Elle vous donne une tape dans l'épaule.* T'inquète pas, Imoen la Magnifique est sur le coup !~
+/*la ligne suivante appartient à un bloc de dialogue indépendant qui n'apparaîtra jamais dans le dialogue en jeu*/
+@209 = ~Mais oui, je *sais*. La question te concernait ! Un bouquet de myosotis cueillies près de la fosse à purin à côté de la Vieille Tour, ça ne va plus faire l'affaire !~
+
+//Garrick et Charname
+@210 = ~Aucune histoire digne de ce nom ne serait complète sans une... une grande histoire d'amour. Vous n'êtes pas d'accord, <CHARNAME> ?~
+@211 = ~Non, sauf pour les bonnes histoires...~
+@212 = ~Garrick, chaque fois que tu as une chope de bière en trop dans le nez, tu deviens larmoyant !~
+@213 = ~Tout à fait, et c'est là qu'elles devraient rester.~
+@214 = ~Non ! Euh... ce que je veux dire, c'est que, ah... Eh bien, que toutes les histoires dignes de ce nom ont besoin d'une grande histoire d'amour. Il y a quelques semaines à peine, vous n'étiez qu'un fugitif de plus, fraîchement expulsé des murs de Château-Suif... et maintenant, wouah !~
+@215 = ~Je pense qu'il est temps pour toi d'aller au lit, Garrick. Non, vraiment, chaque fois que tu as une chope de bière en trop dans le nez, tu deviens larmoyant !~
+@216 = ~C'est tout à fait vrai ! Maintenant, je suis un prince charmant en plus d'être un aventurier de renom ! Wouahou !~
+@217 = ~Je suis peut-être, en effet, un peu... mais vraiment un peu, hum, pompette... Mais je ne suis pas aveugle. Vous ne pouvez pas dire qu'il n'y a rien entre Dynahéir et vous... Et je trouve que vous faites un joli couple, tous les deux !~
+@218 = ~Hum... Bien sûr, les romances devraient rester dans les chansons, mais avant, euh... qu'elles y aillent, elles doivent d'abord... ah... se produire. Oui.~
+@219 = ~Je vais trinquer à ça ! A <CHARNAME> ! Un homme d'esprit, un homme de rang, un homme à femmes et un homme puissant !~
+
+//Eldoth fait une remarque désagréable à Dynahéir
+@220 = ~Sorcière, d'après ma propre expérience, lorsqu'une femme d'un certain âge attire un homme plus jeune dans sa couche, elle ne le fait que pour trois raisons : soit elle veut choquer son entourage, soit elle est affligée d'un époux encore plus vieux qui la délaisse, soit encore pour des raisons politiques. Vous connaissant...~
+@221 = ~Eldoth Kron, cela ne Te regarde pas !~
+@222 = ~Maintenant, je commence à suspecter la raison politique plutôt que la vanité ou le péché de chair. Cela me surprend de la gent féminine, habituellement si frivole... Oh, regardez cette jeune orpheline qui passe ; je me demande quel est son nom...~
+
+//Dynahéir et Faldorn
+@223 = ~C'est toujours un plaisir de voir la balance à l'oeuvre.~
+@224 = ~*soupir*~
+@225 = ~J'ai entendu dire que, dans les villes, les humains bénissaient des unions basées sur des instincts artificiels : par argent, par obligation politique, par jeu... Grrr !~
+@226 = ~Il est vrai. Pourtant, il arrive que ces unions finissent par fonctionner.~
+@227 = ~Perversion ! Seule la Grande Mère peut rassembler ainsi les gens. Regarde, par exemple, <CHARNAME> et toi... la Grande Mère vous a tous les deux bien à l'oeil.~
+@228 = ~A T'écouter, la Grande Mère tient tout le monde à l'oeil.~
+@229 = ~Certaines personnes ont besoin de son attention plus que d'autres. <CHARNAME> a une odeur bien plus naturelle depuis qu'il tourne en round autour de sa femelle.~
+@230 = ~*obséquieusement* Avait-il, selon Toi, une 'odeur' artificielle ?~
+@231 = ~*acquiesce, confiante* Oh, oui. Grrr... Ca doit sans doute venir de son éducation par ces moines de cette satanée bibliothèque ! J'ai entendu dire qu'il s'agit de l'endroit où les peuplades civilisées gardent trace de tous leurs crimes.~
+@232 = ~Je pense que Ta haine déforme Ta perception des choses. Après tout, personne n'a noté quoi que ce soit de différent, chez <CHARNAME>.~
+@233 = ~*renifle* Ca veut tout juste dire que leur flair s'est éteint. Il a une odeur étrange, plus forte que l'urine d'une louve en chaleur ! Il est bon qu'il cherche une partenaire pour s'accoupler.~
+
+//Dynahéir et Ajantis
+@234 = ~Dame Dynahéir, j'ai une question concernant la culture Rashémi.~ [AJANT99]
+@235 = ~Il est toujours bon de s'ouvrir à la connaissance.~
+@236 = ~Les Wychlarans exercent toute autorité sur la personne de leur garde du corps durant le dajemma. Mais j'en suis venu à me demander... si cette autorité s'étend jusqu'aux, ahem... aspects les plus cavaliers de la vie.~
+@237 = ~Ma foi, c'est par trop exagéré !~
+@238 = ~Il se dit en nos contrées, ma Dame, que les sorcières errantes et leur berserker vivent tels mari et femme, si je puis m'exprimer en ces termes. *Il rit malgré un malaise évident.* Je gage que ce ne sont que d'outrageuses accusations, bien évidemment !~
+@239 = ~Il arrive de temps en temps que deux compagnons qui prennent soin l'un de l'autre développent de tels sentiments, mais cela est fortement déconseillé. L'objectif du dajemma est d'acquérir un savoir différent de ce qu'il nous a été appris.~
+@240 = ~Et que voilà un sage conseil, ma Dame ! Veuillez pardonner mes indiscrétions. Si je n'avais pris pour argent comptant des fables de bonimenteur, jamais il ne me serait venu à l'idée de suspecter qu'une femme aussi respectable que vous puisse se comporter de manière indécente !~
+@241 = ~Quelles fables, au juste ?~
+@242 = ~Rien, ma Dame, rien du tout ! Les attentions que vous avez envers <CHARNAME> sont celles d'un sage mentor et d'une amie, et non les habitudes d'une femme impudique et déshonorable.~
+
+//Dynahéir et Alora
+@243 = ~Whoa ! Mon petit doigt me dit qu'il y a de l'amour dans l'air ! Dis-moi, miss Dynahéir, on n'est jamais trop vieille pour aimer, hein ?~ [ALORA99]
+@244 = ~Certes. Mais certains semblent ne jamais atteindre la maturité nécessaire pour aimer, ou même respecter quelqu'un.~
+@245 = ~Tihi ! Tu prends ça trop au sérieux, pas besoin d'être aussi coincée !~
+@246 = ~J'ai comme l'impression que Tu as encore une fringale, Alora.~
+@247 = ~Oh que oui ! C'est le moment parfait pour un petit casse-croûte. *Elle fait un clin d'oeil et rigole.* Pour ton casse-croûte à toi, tu as déjà l'oreille de <CHARNAME>, et tout le reste...~
+
+//conflit de romance avec Branwen (5 dialogues)
+@248 = ~<CHARNAME> me semble être le type-même du sauveteur de demoiselles en détresse.~
+@249 = ~Vous vous moquez de moi, magicienne ?~
+@250 = ~Bien sûr que non. Il m'a moi-même sauvée d'un trépas certain.~
+@251 = ~Tout comme l'elfe noire.~
+@252 = ~De la même manière, Eldoth a réussi à persuader Skie qu'elle aussi fut délivrée.~
+@253 = ~C'est rare. Cela me rappelle l'un de ces contes de barde, où une fois que le Héros sauve la Princesse, il ne lui reste qu'à l'épouser.~
+@254 = ~Ce vieux profiteur de Zeke, maudit soit-il, disait que j'étais une Princesse du Nord, mais ce n'était que pour attirer les pigeons. Je ne suis pas une Princesse !~
+@255 = ~Dois-je en conclure que Tu n'as aucune prétention amoureuse envers <CHARNAME> ?~
+@256 = ~Et si c'était le cas, Dynahéir, en quoi cela vous concernerait-il ? A moins, bien sûr, que vous n'en ayez aussi...~
+@257 = ~Non, ce n'est guère le cas... Ce n'est qu'en tant qu'historienne que je voulais voir si les chants de barde ont un fond de vérité.~
+
+@258 = ~Maudite soyez-vous, Dynahéir, vous et vos stupides discours sur <CHARNAME> !~
+@259 = ~Je ne comprends point ; que me reproches-Tu ?~
+@260 = ~Bah, autant parler franchement, magicienne. Vous avez déjà entendu la maxime qui dit que la pomme que votre adversaire tente d'attraper est toujours la meilleure de l'arbre ?~
+@261 = ~Essaies-Tu de me dire que nos sentiments respectifs envers <CHARNAME> nous rendent rivales ?~
+@262 = ~Oui, et cette situation ne me convient pas le moins du monde !~
+@263 = ~A moi non plus.~
+@264 = ~On la joue à pile ou face, Dynahéir ?~
+@265 = ~Tu parles sans réfléchir !~
+
+@266 = ~Nos ennemis ont été vaincus,
+Les chiens dévorent leurs entrailles,
+Les corbeaux picorent leurs yeux,
+Et leurs os retourneront poussière !~
+@267 = ~GLOIRE A TEMPUS ! LA VICTOIRE EST NÔTRE !~
+@268 = ~*tousse inconfortablement* Branwen, pourrais-Tu te faire plus discrète ?~
+@269 = ~Discrète ?! Mais une guerrière digne de ce nom se fait une joie de conduire ses ennemis jusqu'à elle avant de les écraser ! Je veux crier au monde entier ma victoire et leur trépas !~
+@270 = ~Tu me rappelle fortement Minsc. Un peu trop, sans doute.~
+@271 = ~*renifle* Et alors ? Je ne vois pas le problème.~
+@272 = ~Ce n'est pas très féminin.~
+@273 = ~Et toutes ces gigues incontrôlées dans lesquelles vous vous lancez lors de vos incantations, vous trouvez ça féminin, peut-être ? Vous attendez peut-être de <CHARNAME> qu'il vous porte secours chaque fois que vous êtes acculée, mais moi, je refuse ! Moi, je me bats, telle est ma fierté !~
+@274 = ~Je Te ferai savoir que... *Elle sursaute soudainement.* Mais depuis quand nous amusons-nous à énumérer les défauts l'une de l'autre ?~
+@275 = ~*d'un air dégoûté* Bah !~
+
+@276 = ~Par les Trois ! Branwen, je viens juste de compter le nombre de fois où <CHARNAME> a souri à chacune d'entre nous deux.~
+@277 = ~Et qui a gagné ?~
+@278 = ~*énervée* Là n'est pas la question.~
+@279 = ~Alors ça veut dire que c'est moi. Mais vous aviez remporté la victoire hier... Voulez-vous qu'on partage ? J'ai entendu dire que cela se faisait, dans certaines tribus.~
+@280 = ~*choquée* Partager ? Sommes-nous des Thayennes pour nous commettre ainsi dans des rôles de concubines ?~
+@281 = ~A pile ou face, alors ?~
+@282 = ~Ma dignité de femme m'interdit de laisser cette décision au hasard !~
+@283 = ~Oh, c'est bon, vous pouvez jouer les mijaurées si vous voulez ! Puisse le choc vous faire tomber à la renverse. Ou avoir une crise cardiaque.~
+
+@284 = ~Dynahéir, je choisis pile.~
+@285 = ~Je prends face, dans ce cas.~
+@286 = ~*Branwen jette la pièce en l'air.*~
+@287 = ~Par les Trois ! Où as-Tu trouvé cette pièce ?~
+@288 = ~Par le souffle glacé d'Aurile ! Dans ma bourse, qu'est-ce que vous croyez ?!~
+@289 = ~Je suppose que nous avons notre réponse.~
+@290 = ~La pièce a atterri sur la tranche ! Quel genre de réponse est-ce là ?~
+@291 = ~Cela nous dit que la providence nous a favorisées toutes les deux de manière égale. *Elle ramasse la pièce et la tend à Branwen.* Tiens, range-la dans Ta bourse. Il n'est plus guère le temps de jouer.~
+@292 = ~Je regrette le rôle que j'ai joué dans cet affrontement. A partir de cet instant, je ne courtiserai plus les faveurs de <CHARNAME>.~
+@293 = ~Mon honneur m'oblige a en faire de même. Il n'y a aucune gloire à retirer d'une victoire par forfait.~
+
+//le conflit entre Dynahéir et Branwen arrive à son paroxysme, Charname doit choisir entre l'une des deux ; s'il ne choisit pas, les deux romances sont à l'eau
+@294 = ~Branwen, réalises-Tu seulement que ton entêtement nous ramène toutes les deux au point de départ ?~
+@295 = ~Ce n'est pas uniquement ma faute si nous en sommes arrivées là. Nous sommes deux à désirer <CHARNAME>.~
+@296 = ~J'en conviens.~
+@297 = ~Vous savez, Dynahéir, j'ai toujours pensé qu'en amour comme à la guerre, il est bien facile de perdre son honneur.~
+@298 = ~Au moins avons-nous su garder le nôtre.~
+@299 = ~*Maintenant que vous avez connaissance de l'affection que Branwen et Dynahéir vous portent, vous décidez qu'il vaut mieux en rester là.*~
+@300 = ~*Maintenant que vous avez connaissance de l'affection que Branwen et Dynahéir vous portent, vous décidez que votre coeur appartiendra désormais à Branwen. A partir de maintenant, vous vous montrez plus expressif concernant votre préférence.*~
+@301 = ~*Maintenant que vous avez connaissance de l'affection que Branwen et Dynahéir vous portent, vous décidez que votre coeur appartiendra désormais à Dynahéir. A partir de maintenant, vous vous montrez plus expressif concernant votre préférence.*~
+
+//Coran et Charname
+@302 = ~Eh bien, eh bien, quel beau-parleur tu fais, avec la sorcière ! On dirait bien que tu as une âme de séducteur, après tout... Qui l'eût cru ! J'attends avec impatience de voir qui sera ta prochaine cible.~
+@303 = ~Mais de quoi tu parles, Coran ?~
+@304 = ~Ouais. Tu veux que je t'apprenne des trucs ?~
+@305 = ~Coran, je ne suis pas comme toi... Dynahéir est la seule et...~
+@306 = ~Mais de la fière magicienne que tu as réussi à séduire, bien entendu ! Ce fut un bel exploit.~
+@307 = ~Oh, *cette* magicienne ? Et tu veux que je t'apprenne des trucs ?~
+@308 = ~Bien sûr, seul un idiot refuserait une bonne histoire. Et j'ai pour habitude d'encourager les jeunes talents.~
+@309 = ~Mon secret, c'est l'amour, Coran. Pas de faux-semblants. Dynahéir est la seule et...~
+@310 = ~Il faut savoir être ingénieux, avoir un certain talent pour cette science qu'est la passion, Coran. La première chose à savoir est qu'il faut surprendre à chaque fois. Puis choisir la stratégie du jour selon l'humeur et la disposition de la femme. Une fois, on peut se montrer moqueur pour braver son innocence, et la fois suivante, l'inquiéter en montrant son désespoir. Après, il faudra user d'une flatterie colorée. Il faut savoir se montrer obéissant, puis fier, attentif à chacun de ses besoins, puis s'en moquer... Le regard doit être sauvage, puis radouci, honteux, puis téméraire, et parfois... parfois, il faut savoir verser quelques larmes. Il faut attendre cette minute où l'on peut sentir son coeur battre plus fort, et le poursuivre sans relâche. Intelligence et passion, Coran. Tout ce qu'il faut pour gagner le coeur de n'importe quelle femme.~
+@311 = ~*clin d'oeil* Bien entendu. On fera en sorte qu'elle soit dans les parages pour entendre ça, la prochaine fois.~
+@312 = ~Oh, ce vieux truc... Content que tu le saches. C'est très bien, pour un débutant.~
+
+//Edwin et Dynahéir
+@313 = ~Tu croyais vraiment que je ne repèrerais pas tes pathétiques petites conspirations, sorcière ? C'est tellement féminin d'user de son corps et non de son intellect pour s'élever de sa condition. (Pourquoi n'ai-je pas rejoint un groupe mené par une femme ?)~ [EDWIN99]
+@314 = ~Edwin, Tu empiètes mon espace vital. Recule.~
+@315 = ~Sinon quoi ? Tu va aller pleurer dans les jupes de <CHARNAME> et lui dire que je t'ai accusée de le manipuler ? (Ce serait sans doute une scène magnifique, ceci dit...)~
+@316 = ~Aucun homme sain d'esprit ne pourrait croire Tes accusations infondées.~
+@317 = ~Celui qui est suffisamment naïf pour se laisser influencer par tes charmes à deux sous ne mérite pas de se faire appeler un homme.~
+
+//Edwin pousse Charname à tromper Dynahéir
+@318 = ~Mon jeune ami... Si tu es capable de retenir un seul de mes conseils ô combien avisés, souviens-toi de celui-là : les sorcières Rashémi ont toujours des intentions dissimulées derrière leurs apparences. Elles te séduisent avec leurs charmes insidieux, et toi, tu tombes dans leur piège tête la première ! (Oui, ça devrait suffire à exciter la curiosité dans l'esprit d'un mouton sourd, aveugle et muet qui a été élevé dans une île coupée du monde dirigée par un groupe de chevaliers particulièrement loyaux et stupides.)~ [EDWIN99]
+@319 = ~Je parie que tu me conseilles par pure générosité d'âme, je me trompe ?~
+@320 = ~J'ai confiance en Dynahéir. Aucun de tes discours ne changera ça.~
+@321 = ~Oh, arrête ton char, Edwin. Dans quel but une Hathran manipulerait un gars comme moi ?~
+@322 = ~Il m'est difficile de croire qu'une Hathran voudrait d'un rejeton de Bhaal de compagnie.~
+@323 = ~Eh bien, Edwin, merci du conseil. Je ferai désormais plus attention à toute malice de sa part.~
+@324 = ~Je ne laisserai aucune femme faire de moi une marionnette ! Merci de m'avoir ouvert les yeux, Edwin. A partir de maintenant, Dynahéir ne signifie plus rien pour moi.~
+@325 = ~Les bons conseils ne viennent jamais de personnes désintéressées, <CHARNAME>. Mon coeur saigne de te voir manipulé ainsi par cette Rashémi, il m'incombe donc de t'informer de la situation...~
+@326 = ~Les intentions des Wychlarans ne sont jamais claires. On a l'illusion de consentir librement à leurs services, mais le prix à payer est toujours plus élevé que ce qu'elles font croire... Alors qu'il est bien moins compliqué d'attirer l'attention de femmes bien plus honnêtes que cette... Dynahéir. Et toi, tu payes plein-pot le prix de tes désirs.~
+@327 = ~Et moi donc, mon ami... (Sa naiveté est confondante : aussi stupide qu'elle soit, la sorcière pourrait bien le persuader que mes conseils avisés ne sont pas bien-fondés. Je devrais peut-être trouver un autre moyen de le soustraire à son influence...)~
+@328 = ~C'est bien, <CHARNAME>, c'est parfait. C'est ta décision.~
+@329 = ~Tu pends la langue comme un petit chien quand tu lorgnes du côté de la sorcière... Je ne sais si je dois en rire ou en pleurer. (Ou en vomir, pour être exact.) Tes démonstrations d'excitation juvénile me laissent à penser que tu n'as jamais touché une seule femme digne de ce nom, ce qui n'est pas étonnant de la part d'un indigène de ces terres barbares. Si jamais nous venons à nous arrêter à la Sirène Rougissante, à la Porte de Baldur, je te ferai connaître les plaisirs de femmes qui ressemblent à des reines Elfes, comparées à cet épouvantail mal fagoté.~
+@330 = ~Chut... Tu me remercieras plus tard.~
+
+//Edwin propose à Charname d'aller voir des prostituées
+@331 = ~Te souviens-tu de mon offre généreuse, <CHARNAME> ? Veux-tu venir avec moi goûter les délices des courtisanes locales ?~
+@332 = ~D'accord. La compagnie de jolies jeunes femmes, voilà qui me changera, pour une fois.~
+@333 = ~Pourquoi pas... mais c'est toi qui paye...~
+@334 = ~Edwin, je suis choqué ! Quelle proposition indigne !~
+@335 = ~Bien sûr, bien sûr. (Que ne ferais-je pas pour la gloire de Thay... Nevron aura intérêt à me rembourser cette dépense.)~
+
+//Edwin et Charname vont voir trois call-girls, Charname en choisit une et se fait surprendre par Dynahéir
+@336 = ~Edwin, trésor, que c'est bon de te revoir ! An'belein t'attend, comme d'habitude.~
+@337 = ~Quant à ton invité... <CHARNAME>, c'est bien ça ? Quel nom puissant... très viril !~
+@338 = ~Voici mes meilleures filles :~
+@339 = ~Madrina, une beauté grande et fière, mais pas aussi froide que Luskan, sa terre natale...~
+@340 = ~Salut, beau mec !~
+@341 = ~Bhetel, qui nous vient directement de la chaleur du soleil Calimshite...~
+@342 = ~Quel homme ! Toi, tu me plais...~
+@343 = ~Et la timide mais néanmoins charmante Sveetla...~
+@344 = ~B-Bonjour... Vous... vous êtes le héros dont tout le monde parle... c'est ça ?~
+@345 = ~Choisissez celle que vous voulez, <CHARNAME>.~
+@346 = ~J'ai changé d'avis. Elles sont toutes très belles, mais je préfèrerais être aux côtés d'une personne chère à mon coeur.~
+@347 = ~Je choisis Madrina !~
+@348 = ~Je choisis Bhetel !~
+@349 = ~Je choisis Sveetla !~
+@350 = ~Décidément, quel homme fort et beau ! Laisse-moi t'enlever ces vêtements. Le lit est de ce côté, petit impatient !~
+@351 = ~Viens voir Bhetel ! Les Abysses ne sont qu'un flocon de neige devant sa passion !~
+@352 = ~L-Les rumeurs, elles exagèrent... votre taille, monsieur. *rougit* Non, pas cette... taille, je veux dire, les gens disent que vous faites au moins deux mètres quarante. Dans tous les cas, je... je vous admire, monsieur. Je vais enlever vos habits. Comme... comme ça. Attendez que les autres filles sachent que j'ai eu le héros de la Côte des Epées... et qu'il m'a préférée à Madrina et Bhetel... et...~
+@353 = ~Chérie, la chambre est occupée.~
+@354 = ~*grommelle* De tous les endroits de débauche où l'on pouvait me donner rendez-vous, celui-ci est définitivement le plus...~
+@355 = ~<CHARNAME> ???!!!~
+@356 = ~Et merde.~
+@357 = ~Je vous en prie, ne me demandez pas ce que je fais. Vous êtes trop intelligente pour vous laisser abuser ainsi.~
+@358 = ~Ce... Ce n'est pas ce que vous croyez ! On m'a... forcé ! Drogué ! Attaché !~
+@359 = ~Ma chérie, c'est encore un plan d'Edwin pour nous séparer. Voulez-vous vraiment le laisser gagner ?~
+@360 = ~Dynahéir... euh... Je vous présente ma tante Gertrude !~
+@361 = ~Oh, je vois que Madame Nell a envoyé une deuxième fille. Tu es nouvelle ? Rejoins-nous, je te montrerai quelques trucs.~
+@362 = ~Dynahéir... euh... Je vous présente ma tante Gisèle !~
+@363 = ~Oh... Je suis désolée, madame, mais... mais...~
+@364 = ~Espèce de gros dégoûtant ! *Dynahéir sort de la chambre en tempête, claquant violemment la porte derrière elle.*~
+@365 = ~Cette nuit, bien des illusions ont été brisées. Non point les Tiennes, mais les miennes.~
+@366 = ~*sèchement* Ne Te ridiculises pas plus avant. Cela ne sied guère à un héros de la Côte des Epées.~
+@367 = ~*sèchement* Oui, si Tu en es le prix.~
+@368 = ~*rit* C'est Madrina, petit pervers incestueux !~
+@369 = ~*rit* C'est Bhetel, petit pervers incestueux !~
+@370 = ~*rit* C'est Sveetla, petit pervers incestueux !~

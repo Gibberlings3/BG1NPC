@@ -1,0 +1,37 @@
+// Second fichier de quête de Garrick.
+@0 = ~Hors de mon chemin, vaurien ! Décampe !~
+@1 = ~Des livres, des livres, des livres. Hors de mon chemin, bande de jeunes vauriens ! De mon temps, les jeunes étaient bien plus respectueux de leurs aînés... Et bien plus calés en grande littérature. Oh oui. Bah.~
+@2 = ~Ah ouais ? Et bien, dégage toi aussi, vieil homme !~
+@3 = ~Hum, désolé, messire.~
+     ~Hum, désolée, messire.~
+@4 = ~Il semble que Féérune soit pleine de vieux hommes fous, ces derniers temps. Filons. Vite.~
+@5 = ~Ah ! Comme je l'ai dit, pas une once de respect. Peut-être auriez-vous pu apprendre quelque chose de mes innombrables années de sagesse, sans parler de mes livres. Mais j'imagine que vous êtes un peu trop effronté pour saisir la perche.~
+     ~Ah ! Comme je l'ai dit, pas une once de respect. Peut-être auriez-vous pu apprendre quelque chose de mes innombrables années de sagesse, sans parler de mes livres. Mais j'imagine que vous êtes un peu trop effrontée pour saisir la perche.~
+@6 = ~Des manières, oh ! Ainsi peut-être que la vie moderne n'a pas complètement érodé les derniers vestiges de décence en vous. Peut-être puis-je vous aider...~
+@7 = ~M'aider ? Comment ?~
+@8 = ~Je doute qu'un vieil homme ait beaucoup à m'offrir. Peut-être vais-je filer, à présent.~
+@9 = ~Eh bien, je suis bibliothécaire. Ou, plutôt, j'étais bibliothécaire, car aujourd'hui, je revends ma collection pour financer une retraite bien méritée.~
+@10 = ~Oh vraiment ? Et vous avez des projets ?~
+@11 = ~*s'asseoir et écouter*~
+@12 = ~Bla bla bla... Accouchez.~
+@13 = ~Je suis heureux que vous m'ayez posé la question, en fait. Je pensais me rendre plus loin dans le sud, en Amn, peut-être aux collines d'Umar ou ailleurs...~
+@14 = ~Je ne crois pas à tous ces discours de guerre imminente. En ce qui me concerne, c'est un bel endroit tranquille, où rien ne se passe. Rien d'imprévu, pas d'aventuriers ou que sais-je. Nada. J'aurai une douce vie tranquille. Et cerise sur le gâteau : plus de bouquins !~
+@15 = ~Bon, vous pourriez ne pas être d'accord, mais j'ai plutôt un bon sens du jugement en la matière. Enfin, ce n'est pas la question. Vous m'avez fait perdre le fil.~
+@16 = ~Oui, pardon. Vous disiez ?~
+@17 = ~Oui, je vends ma collection, même si en réalité, j'ai désormais gagné suffisamment d'argent pour vivre. Il ne me reste que quelques livres. Peut-être seriez-vous intéressé par celui-ci : le Précis Ultime des Héros Célèbres Méconnus, écrit par un de mes vieux amis, Saemon Schama.~
+      ~Oui, je vends ma collection, même si en réalité, j'ai désormais gagné suffisamment d'argent pour vivre. Il ne me reste que quelques livres. Peut-être seriez-vous intéressée par celui-ci : le Précis Ultime des Héros Célèbres Méconnus, écrit par un de mes vieux amis, Saemon Schama.~
+@18 = ~Waouh, serait-ce réellement le Précis Ultime des Héros Célèbres Méconnus, de Saemon Schama ! Je vous en prie, <CHARNAME>, c'est un livre xtraordinaire ! J'adorerais l'avoir !~
+@19 = ~Ah, seriez-vous un érudit, alors, mon garçon ?~
+@20 = ~Un barde, messire... J'ai toujours voulu en posséder une copie, depuis que je suis haut comme le genou d'un gnome. C'est un des classiques... L'auteur est un génie !~
+@21 = ~Bien qu'il ne soit pas vraiment de mon niveau, c'est un personnage relativement intelligent, <CHARNAME>. Je veux dire, pour un humain, bien sûr. Ce qu'il a écrit vaut probablement qu'on y jette un rapide coup d'oeil.~
+@22 = ~Eh bien, si cela vous fait plaisir, je vous le donne gratuitement. C'est rare de rencontrer des gens aussi bien élevés que vous. Bonne continuation à vous? A présent, si vous pouviez m'excuser, je dois me consacrer à ma retraite. Et un dernier petit conseil : les choses que l'on lit dans les livres peuvent parfois s'avérer très utiles. Oh oui.~
+@23 = ~Oh, un bibliothécaire sénile donne un livre important à un jeune barde impatient sur la route de l'aventure ? Pitié, qu'est-ce que c'est que ça ? Qu'ai-je fait pour mériter de tels crétins pour compagnons ?~
+@24 = ~Vous êtes un homme bon, sire. Je ne l'oublierai pas.~
+@25 = ~Hé, <CHARNAME> ! Il y a un passage dans ce livre à propos du barde demi-elfe Myr'Cutio, mort depuis longtemps, que l'on prétend errant, mort-vivant, dans les vallées autour d'un endroit appelé Ulcaster, à la recherche de nouveaux récits aventureux. Et, il y a des indications géographiques basiques, c'est plutôt pas loin, à l'est de Bérégost ! Peut-être pourrions-nous aller y jeter un oeil ?~
+@26 = ~Je n'y vois pas de mal. Qui sait, en vérité nous pourrions apprendre quelque chose.~
+@27 = ~J'ai déjà eu ma dose avec ce vieux bibliothécaire fou, Garrick, mais si tu ne la fermes pas, alors je vais t'enfoncer ce bouquin là où le soleil ne brille jamais, si tu vois ce que je veux dire...~
+@28 = ~Waouh ! Merci, <CHARNAME>.~
+@29 = ~Bibliothécaires errants.
+
+Aujourd'hui, nous avons rencontré un vieux bibliothécaire sénile nommé Archibald, au Carnaval de Nashkel. Il nous a donné une copie du Précis Ultime des Héros Célèbres Méconnus de Saemon Schama, lequel comporte une intéressante section détaillée sur le barde mort-vivant Myr'Cutio que l'on prétend hanter la région d'Ulcaster, à l'est de Bérégost. Garrick aimerait aller y jeter un coup d'oeil.~
+@30 = ~Très bien, mais je parie que nous le regretterons, si nous n'y allons pas...~

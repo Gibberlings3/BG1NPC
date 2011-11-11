@@ -1,0 +1,32 @@
+// Fichier de la mini-quête de Garrick...
+@0 = ~On peut trouver une légende n'importe où, si l'on sait où chercher...~
+@1 = ~Je vous en prie, dites-moi, qui va là ? Etes-vous des aventuriers ?~
+@2 = ~C'est le groupe de <CHARNAME> et le mien, le brave sire Garrick.~
+@3 = ~Et de Tiax, qui règne sur tous !~
+@4 = ~Hé, Garrick, tu as oublié de me mentionner ! Je veux dire, je *suis* sans aucun doute celui que ce groupe devrait présenter comme tête de proue...~
+@5 = ~Je vois, Sire Garrick. Je suis Myr'Cutio. Ou, du moins je l'étais, avant que je ne, et bien, meure... Dites-moi, pourquoi donc êtes-vous venus ici ?~
+@6 = ~Nous sommes à la recherche des récits de votre sagesse et de vos aventures, noble esprit.~
+@7 = ~Uhhhh...~
+@8 = ~Hélas, je n'ai pas vraiment connu d'aventures ces dernières années. Mes compagnons supportent moins bien leur condition de morts-vivants que moi et, sans vouloir vous offenser, sont désormais plutôt ennuyeux.~
+@9 = ~C'est plutôt injuste, ça, mon gars !~
+@10 = ~Guhhhh...~
+@11 = ~Quoi ? Tiax veut vous rejoindre ! Quand il règnera, *tout le monde* aura les capacités conversationnelles d'un zombie !~
+@12 = ~D'accord, en y reréfléchissant, je vous le concède... Ça doit être plutôt ennuyeux pour vous, Myr'Cutio.~
+@13 = ~Hé ! Vous pouvez... eh bien... parler ?!?~
+@14 = ~Mais bien sûr ! Euh, je veux dire, duhhhh...~
+@15 = ~Moman me disait toujours que de vieux os ne constituaient pas les meilleurs interlocuteurs. Pourtant, je trouve toujours plein de choses à leur raconter ! C'est pas vrai, Monty ?~
+@16 = ~Duhhhh...~
+@17 = ~Ferme ton clapet, maudit magicien...~
+@18 = ~Euh, je vois.~
+@19 = ~Pour dire la vérité, moi aussi, je suis fatigué de cette non-vie. Peut-être que pour ma dernière aventure, la brave équipe de compagnons qui se présente à mes yeux pourrait m'offrir le dernier repos.~
+@20 = ~Les morts-vivants sont une abomination ! Par Heaum, il est temps pour vous de rencontrer votre créateur !~
+@21 = ~Une bataille glorieuse pour Tempus !~
+@22 = ~Je ne suis pas sûr que je...~
+@23 = ~Oui. Venez, une fois de plus sur la brèche, chers amis ! Et ainsi finit l'histoire de Myr'Cutio, ou de <CHARNAME>... Nous verrons.~
+@24 = ~Autant pour les grands de la littérature
+
+Nous avons rencontré l'esprit du célèbre Myr'Cutio et l'avons vaincu au combat, mettant ainsi fin à l'histoire épique de sa vie (ou non-mort) et rajoutant un chapitre à la nôtre. Il semblerait qu'on puisse apprendre des choses utiles dans les livres, in fine.~
+@25 = ~Je trouve que les grands artistes devraient atteindre l'immortalité grâce à leurs oeuvres... Mais je pense que ceci prouve que, euh, c'est peut-être mieux de laisser leur corps pourrir lorsque leur temps naturel touche à leur fin. Je ne crois pas que je voudrai jamais devenir un fantôme, comme ça... Cela dit, cette armure *est* très élégante.~
+@26 = ~Bibliothécaires errants
+
+Aujourd'hui, nous avons rencontré un vieux bibliothécaire sénile nommé Archibald, au Carnaval de Nashkel. Il nous a donné une copie du Précis Ultime des Héros Célèbres Méconnus de Saemon Schama, lequel renferme une intéressante section, bien détaillée, sur le barde mort-vivant Myr'Cutio, qu'on dit hanter la région d'Ulcaster, à l'est de Bérégost. Garrick aimerait beaucoup aller y faire un tour.~

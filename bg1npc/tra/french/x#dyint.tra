@@ -1,0 +1,303 @@
+//interjection avec Volo
+@0 = ~Maître Volo ? C'est un honneur doublé d'un plaisir. Le 'Guide de la Côte des Epées' m'a beaucoup servi durant mes voyages.~
+@1 = ~Tout le plaisir est pour moi, ma chère. Je ne m'attendais pas à rencontrer une admiratrice dans ce coin perdu.~
+@2 = ~Tout le plaisir est pour moi, ma chère. Je ne pensais pas rencontrer une admiratrice dans ce coin perdu.~
+
+//interjection avec Berrun Tuemort
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 242, probablement inutile de traduire ici !
+@3 = ~Souviens-Toi bien de <CHARNAME>, maire. Je pressens que Tu entendras encore parler de ses exploits dans le futur.~
+
+//interjection avec Cythandria
+@4 = ~Il semblerait. <CHARNAME>, je n'aime pas du tout ce à quoi j'assiste. Ne laisse pas Bhaal T'envahir comme Ton frère.~
+
+//interjection avec Liia Jannath
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 247, probablement inutile de traduire ici !
+@5 = ~<CHARNAME>, ce Sarevok appartient à la descendance de Bhaal, et il est devenu fou. Nous devons l'arrêter à tout prix !~
+
+//interjections avec Brun
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 251, probablement inutile de traduire ici !
+@6 = ~Oui, nous avons le temps de T'aider, mon bon fermier. N'es-Tu pas d'accord, <CHARNAME> ?~
+@7 = ~As-Tu donc une pierre là où devrait se trouver un coeur, <CHARNAME> ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 673, probablement inutile de traduire ici !
+@8 = ~Tu as bien fait d'accepter, <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 254, probablement inutile de traduire ici !
+@9 = ~Ô <CHARNAME>, Tu es noble de coeur !~
+
+//interjection avec Gallor
+@10 = ~Ta requête des plus malhonnêtes ne consiste qu'en un vol, mais en vérité, accomplir cette tâche nous obligerait à devenir les meurtriers de Charleston et de ses hommes. Je suis certaine que <CHARNAME> saura désapprouver une telle infamie !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 258, probablement inutile de traduire ici !
+@11 = ~Je ne souhaite pas être associée à une telle... entreprise !~
+
+//interjection avec Angelo Dosan
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 262, probablement inutile de traduire ici !
+@12 = ~Je ne serais pas si prompte à accuser des innocents, si j'étais à la place que Tu clames être la Tienne.~
+
+//interjection avec Varci Cornhurlante
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 901, probablement inutile de traduire ici !
+@13 = ~<CHARNAME>... je ne peux que Te conseiller de prêter attention à la détresse de cet enfant. Je ne puis le regarder sans le prendre en pitié.~
+
+//interjection avec Eltan
+@14 = ~Ce Sarevok mène bien maladroitement sa barque, comparé à la politique des Magiciens Rouges, mais il n'en est pas moins un mal redoutable.~
+@15 = ~Madame, je préfèrerais que nous nous concentrions sur ce qu'il se passe à la Porte de Baldur, pour le moment.~
+@16 = ~Nous ferons tout ce qui est en notre pouvoir pour empêcher une telle infamie, Duc Eltan.~
+
+//interjection avec Ardrouine
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 283, probablement inutile de traduire ici !
+@17 = ~Tu as bien fait de venir en aide à cette pauvre femme. Maintenant, revenons-en à nos propres problèmes.~
+
+//interjection avec Ocelli
+@18 = ~Déjà ? J'ai bien peur qu'il ne soit trop tard pour les avertir de la catastrophe à venir.~
+
+//interjection avec Hannah
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 286, probablement inutile de traduire ici !
+@19 = ~Ce Ragevite doit avoir commis un acte bien peu honorable pour provoquer une réaction aussi tranchée de la part d'une personne de noble lignage. D'après mon expérience, ces gens se soucient bien peu du sort d'autrui. Nous devrions nous informer plus avant sur ce Ragevite.~
+
+//interjection avec Neb
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 291, probablement inutile de traduire ici !
+@20 = ~C'est immonde... abominable ! Par le feu et les éclairs ! <CHARNAME>, je T'exhorte à... tuer ce gnome !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 292, probablement inutile de traduire ici !
+@21 = ~Me tuer ? Ah... D'autres on déjà essayé, oui, oui... Et devine où il sont, poupée ! Six pieds sous terre.~
+
+//interjection avec Ragevite
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 296, probablement inutile de traduire ici !
+@22 = ~Voilà qui est inattendu...~
+
+//interjection avec Areana
+@23 = ~Je Te déconseille de Te faire embaucher comme assassin sous contrat par cette femme. Il ne faudrait pas régler des questions comme celle-là par le meurtre.~
+
+//interjection avec un mineur
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 301, probablement inutile de traduire ici !
+@24 = ~Si Tu comptes laisser ces pauvres malheureux mourir, Tu ferais tout aussi bien de les rejoindre. La mort par noyade Te semblerait bien douce à côté de ce que je Te réserverais si tel était le cas !~
+
+//interjection avec Tenya
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 304, probablement inutile de traduire ici !
+@25 = ~Nous avons affaire à une enfant intelligente, certes, mais elle n'est qu'une enfant. Je suis sûre que Tu auras compris qui est dans son tort dans cette histoire.~
+
+//interjection avec Felonius Gist
+@26 = ~Je sens la présence d'un enchantement hautement maléfique. Je suis opposée à ce que nous entrions par la force en des demeures où nous ne sommes pas invités, mais je pense que nous devrions enquêter sur celle-ci.~
+
+//interjection avec Delorna
+@27 = ~Je Te présente toutes mes excuses pour cette intrusion. <CHARNAME>, ce que nous faisons ici ne sert pas un but noble. Nous ferions mieux de laisser ces demoiselles à leurs études et d'oublier la sombre requête d'Alatos.~
+
+//interjection avec Beland
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 313, probabilité 66.0
+@28 = ~J'ai entendu dire que de nombreux objets exposés ici ne furent fabriqués que par des mains habiles et des esprits vifs, sans recourir à la magie. Arrivera-t-il un jour où la magie et la technologie seront en compétition pour satisfaire le besoins qu'ont les créatures pensantes de faire des choses inédites et merveilleuses ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 314, probablement inutile de traduire ici !
+@29 = ~Bien dit, madame, bien dit.~
+
+//interjection avec Narcillius Harwilliger Néen
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 316, probablement inutile de traduire ici !
+@30 = ~A chaque fois que je suis témoin des excentricités d'un magicien qui pratique l'Art dans des pays qui ne régissent pas leurs talents, je me demande si l'oisiveté mène inévitablement les grands esprits à la folie.~
+
+//interjection avec Entillis Fulsom
+@31 = ~Tu ferais bien de Te souvenir de ce conseil. Il ne vient pas seulement d'un homme sage, mais je Te concède qu'il nous faut nous hâter pour trouver une solution pacifique à ce problème des plus graves.~
+@32 = ~Je n'aurais pas pu dire mieux, ma dame.~
+
+//interjection avec Arkushule
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 321, probablement inutile de traduire ici !
+@33 = ~La divination est une magie qui est rarement pratiquée en Rashéménie, hélas. Nous utilisons plus souvent les sorts de combat par besoin. Si Tu laisses à cette dame le soin de dévoiler Ton passé et Ton futur, j'aimerais beaucoup observer sa technique.~
+
+//interjection avec Thalantyr
+@34 = ~Tu es un magicien de grand savoir. Tu devrais Te souvenir que la curiosité et l'ambition sont le propre de la jeunesse. Sans elles, Tu ne serais pas arrivé là où Tu es. De plus, il est de Ta responsabilité que Ton apprenti n'aie pas accès à une magie qu'il ne peut maîtriser. Tu aurais sans doute pu faire mieux qu'un pauvre glyphe de protection tout simple et une serrure !~
+@35 = ~Cela étant, le manque de discernement de Ton maître n'excuse en rien Ta désobéissance, Mélicamp.~
+@36 = ~Allez couper du fromage avec votre langue ! Vous m'ennuyez avec vos stupides conseils !~
+
+//interjection avec un garde
+@37 = ~Votre redoutable seigneur ? Je ne reconnais pas ce titre, mais avec la disparition des dieux du meurtre et du conflit, le Prince des Mensonges aurait très bien pu le réclamer.~
+@38 = ~Répondez-moi !~
+
+//interjection avec une personne du peuple
+@39 = ~Un très bel homme ? Que voilà un jugement bien hâtif. Mais je suppose qu'avec un lignage tel que le sien, il doit posséder un certain... charme des plus sombres.~
+
+//interjection avec Brevlik
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 323, probablement inutile de traduire ici !
+@40 = ~Attention, <CHARNAME>. S'il s'agit bien des Mages Rouges de Thay, ce dont je n'ai aucune raison de douter, alors nous avons affaire à des gens aussi retors que puissants.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 324, probablement inutile de traduire ici !
+@41 = ~Cet accent... il me semble bien familier. Vous devez être cette sorcière Rashémi que nos amis ont aperçu dans la région. Je constate qu'Edwin n'a pas dûment rempli sa mission. Lasala, je pense que nous ne devrions pas lui dire que nous avons fait son travail à sa place. Plus loin il est, moins il pourra nous gêner.~
+
+//interjection avec Denak
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 328, probablement inutile de traduire ici !
+@42 = ~Je peux comprendre que ce gnome veuille des objets magiques, mais je n'admets point la manière dont il veut les obtenir. <CHARNAME>, Tu ne penses pas vraiment participer à ce... cambriolage ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 329, probablement inutile de traduire ici !
+@43 = ~Oh, si, s'il vous plaît !~
+
+//interjection avec Yago
+@44 = ~Un magicien qui use de ses talents pour nuire à une enfant ne peut être que condamnable ! N'as-Tu donc aucune morale pour faire une telle chose ? Ton épouse et son amant T'ont peut-être fait du tort... mais de vous trois, c'est Toi qui a commis le péché le plus impardonnable !~
+@45 = ~Un magicien qui n'use pas de son savoir comme bon lui semble est un idiot. Et figurez-vous que j'ai une idée très claire de comment utiliser le mien dans les prochaines minutes !~
+
+//interjection avec Emerson
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 668, probablement inutile de traduire ici !
+@46 = ~Manquer de respect à ceux qui ne cherchent qu'à T'aider, et plus encore, les menacer, est d'une rare bêtise. A moins que Tu ne souhaites pas que nous débarrassions Ta mine de la vermine qui l'infeste ?~
+@47 = ~En sais-Tu plus, contremaître ?~
+@48 = ~Assez peu, madame. Mais je peux vous dire ceci : il y a tout un tas de créatures à tête de chien qui tuent mes hommes dans cette mine. Vous devez les arrêter !~
+
+//interjection avec Kylee
+@49 = ~Je suis fort aise que nous ayons pu apporter un peu de réconfort à cet infortuné, même si une dague semble être un bien maigre rempart contre les maléfices qui sont à l'oeuvre en ces lieux.~
+
+//interjection avec Hentold
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 331, probablement inutile de traduire ici !
+@50 = ~Cet homme est sans doute en proie à une grande terreur ! Tu dois trouver ce qui ne va pas, <CHARNAME>. Peut-être pourrions-nous être d'un quelconque secours.~
+
+//interjection avec un revenant
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 333, probablement inutile de traduire ici !
+@51 = ~Prend cette créature en miséricorde, <CHARNAME>. Tout ce qu'elle veut, c'est partir en paix. Donne-lui la dague.~
+
+//interjection avec Nalin
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 794, probablement inutile de traduire ici !
+@52 = ~Pardonner plutôt que punir... Tu es un homme de bien, Nalin. Tu es aussi sage que les Othlors que l'on trouve dans mon pays. J'espère que Tu as appris une bonne leçon sur la justice aujourd'hui, <CHARNAME>.~
+
+//interjection avec Galileo
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 343, probablement inutile de traduire ici !
+@53 = ~Et Tu vois tout ceci dans les étoiles, mon brave ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 344, probablement inutile de traduire ici !
+@54 = ~Oui, ma dame.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 345, probablement inutile de traduire ici !
+@55 = ~Alors Tes yeux ont un pouvoir exceptionnel.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 346 (seules les 2 premières phrases dans ict3)
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 347 (moins les 2 premières phrases dans ict3)
+@56 = ~On peut dire cela, madame. Et bien, cela a été un plaisir de parler à quelqu'un qui apprécie mon art, mais il me faut partir étudier mes relevés d'étoiles, et frictionner mon cou endolori avec de la lotion. Bonne chance pour vos voyages, et que les dieux soient avec vous.~
+
+//interjection avec Samantha
+@57 = ~Nous avons interrompu un rendez-vous amoureux, dirait-on, et nous allons devoir tuer cet homme parce que Tu as effrayé cette jeune fille. Voilà qui est cher payé pour avoir voulu faire le joli-coeur, <CHARNAME>.~
+
+//interjection avec Oublek
+@58 = ~C'était très noble de Ta part, <CHARNAME>.~
+@59 = ~Je me demande pourquoi il T'a pris pour quelqu'un qui trempe dans de sales affaires. Quelque chose en Toi a dû instiller la confusion.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 35, probablement inutile de traduire ici !
+@60 = ~<CHARNAME>, la manière dont Tu as géré cette affaire ne me plaît guère. Ce pauvre homme était le jouet d'une malédiction, la douleur qu'il a ressentie après être revenu à la raison était bien réelle. Tu aurais dû le mener à quelqu'un de juste qui aurait fait montre de clémence.~
+@61 = ~Ces émeraudes ne seront jamais à leur place et sembleront toujours ternes. A moins qu'elles ne reviennent là où elle devraient être, dans la statue enchanteresse, l'oeuvre de Prisme.~
+
+//interjection avec Kirian
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 203, probablement inutile de traduire ici !
+@62 = ~Comme on dit en Rashéménie, 'il faut deux imbéciles pour démarrer un combat.'~
+
+//interjection avec Davaeörn
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 208, probablement inutile de traduire ici !
+@63 = ~Ne prend pas ses paroles à la légère, <CHARNAME>. Je sens un homme de grand pouvoir ; nous avons affaire à un magicien puissant.~
+
+//interjection avec Larze
+@64 = ~Ce n'est pas l'ogre que je crains le plus, mais la persistance de ceux qui l'ont envoyé.~
+
+//interjection avec Ivanne
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 716, probablement inutile de traduire ici !
+@65 = ~Pour demander un tel paiement, cette histoire doit en effet être bien sombre. Les contes de maléfices sont nombreux dans la région, et sont contés gratuitement à qui veut bien les entendre.~
+
+//interjection avec Tiber
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 76, probablement inutile de traduire ici !
+@66 = ~J'ai bien peur que Tes craintes ne soient justifiées : les araignées ne font pas de prisonnier, généralement. Et pourtant, je fus moi-même captive de créatures non moins vicieuses, et ai survécu jusqu'à ce que <CHARNAME> vienne me secourir.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 348, probablement inutile de traduire ici !
+@67 = ~C'est une bien triste leçon que tout aventurier doit apprendre un jour ou l'autre. Le courage ne rend pas invincible.~
+
+//interjection avec Laskal
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 42, probablement inutile de traduire ici !
+@68 = ~Alors Tu Te proclames ouvertement ennemi du Trône de Fer, maintenant ? Et bien, on dirait bien qu'on ne peut pas toujours se cacher la tête dans le sable. Je suppose que c'est sans doute mieux comme ça.~
+      ~Alors Tu Te proclames ouvertement ennemie du Trône de Fer, maintenant ? Et bien, on dirait bien qu'on ne peut pas toujours se cacher la tête dans le sable. Je suppose que c'est sans doute mieux comme ça.~
+
+//interjection avec Ajantis
+@69 = ~Insulter le chevalier, voilà qui était proprement stupide, <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 354, probablement inutile de traduire ici !
+@70 = ~Ce jeune écuyer me semble digne de confiance. En vérité, il me rappelle mon loyal Minsc. Il ferait un membre de valeur dans cette compagnie.~
+
+//interjection avec Larry
+@71 = ~Maintenant, je commence à me demander de la santé mentale de *qui* je dois m'inquiéter. *Le regard tourmenté qu'elle vous lance est celui d'une femme qui pense être en bonne condition mentale, mais dont le gardien parle régulièrement à un hamster géant de l'espace miniature, et qui vient de voir son chef demander un autographe à un xvart, un kobold et un tasloi.*~
+
+//interjection avec Hafiz
+@72 = ~Je Te remercie de tout coeur pour ce cadeau ainsi que pour l'information du combat à venir, astrologue.~
+
+//interjection avec Degrodel
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 229, probablement inutile de traduire ici !
+@73 = ~Cette punition est tout simplement injuste. De tels enchantements ne sont pas des jouets que l'on peut lancer à tout va tel un enfant qui fait un caprice. Je ne saurais que trop Te conseiller d'aller délivrer ces roublards, <CHARNAME>.~
+
+//interjection avec Derlik
+@74 = ~<CHARNAME>, Tu devrais prendre conscience qu'agir comme un vulgaire voleur n'est pas une conduite à tenir. Je n'apprécie guère d'user de mes talents pour tuer d'honnêtes gens.~
+
+//interjection avec Petrine
+@75 = ~*soupir* Je n'aime pas vraiment cela, mais, <CHARNAME>, Tu pourrais T'introduire dans la maison et... T'approprier l'anneau...~
+@76 = ~*soupir* Je n'aime pas vraiment cela, mais, <CHARNAME>, nous pourrions nous introduire dans la maison et... nous approprier l'anneau...~
+
+//interjection si le personnage vole un truc
+@77 = ~J'ose espérer que Tu n'as pas pour habitude de voler les innocents, <CHARNAME>.~
+
+//dialogue au pont de Flammevin
+@78 = ~Prends garde, <CHARNAME>, et épargne les petits animaux. Seon la légende locale, le peuple de Flammevin a péri dans l'explosion magique qui a détruit leur cité. On dit que certains d'entre eux ont été transformés en de petits animaux, des limaces ou des lézards, entre autres...~
+@79 = ~Quelle explosion magique ?~
+@80 = ~Et bien, je ne souhaite pas particulièrement la mort du premier elfe transformé en tortue venu... mais je ne suis pas non plus une petite fée qui volète sans poser un pied sur le sol.~
+@81 = ~Et y a-t-il des preuves pour étayer ces fables ?~
+@82 = ~Je suis surprise que Tu ne connaisses point l'histoire de Ton propre pays. Flammevin a été détruite lors d'un duel entre deux magiciens de grande puissance. Leurs sorts étaient destructeurs, et si sauvages qu'ils ont détruit l'infortunée ville et changé le cours du fleuve. Il ne reste que quelques débris pour se souvenir que ceux de ma profession se doivent de ne pas exercer leur talent en enfantillages. Ce qui n'était qu'un jeu stupide s'est transformé en tragédie.~
+@83 = ~Je n'ignore point que Tu n'es guère un représentant de la gent féérique, mais je te conseille néanmoins de prendre garde...~
+@84 = ~Ce n'est que dans Ton propre intérêt.~
+@85 = ~On dit dans la région qu'une jeune fille de Gullykin a libéré un magicien par accident, et a fini par l'épouser.~
+@86 = ~Je suppose que cela aurait pu être pire.~
+
+//interjection si les filles de Shandalar sont mortes
+@87 = ~L'idée-même de T'aider à commettre un tel carnage m'est insupportable ! Même ma dette envers Toi ne me fera pas servir sous les ordres d'un assassin, lui-même sous les ordres d'un voleur.~
+
+//interjection à Château-Suif
+@88 = ~Et voici la forteresse qui échange son droit de visite contre la connaissance, et non l'argent... Je T'envie, <CHARNAME>. J'aurais aimé grandir dans un endroit où le savoir a un tel statut. Que j'aimerais avoir le temps d'étudier tous les livres de cette bibliothèque !~
+
+//interjection au Carnaval : Gazib a fui alors que l'ogre Oopah attaque le groupe
+@89 = ~Ce qu'il vient de se passer devrait servir de leçon à tous les charlatans qui ne traitent pas les Arts magiques avec suffisamment de déférence.~
+
+//dialogue avec Edwin lorsqu'il rencontre Denak le magicien rouge et que Dynahéir est dans le groupe
+@90 = ~Mais que vois-je ? Vous n'êtes pas aussi inutile que ce que je répète sans cesse à Nevron. Non, vous êtes pire ! Qu'est-ce que vous n'avez pas compris lorsque l'on vous a dit de "tuer" la sorcière Rashémi ? Est-ce que c'est de rester chez ces barbares qui vous a rendu à ce point bête ?~
+@91 = ~Au contraire, ô très illustre Denak. (Flatter, ça ne fait jamais de mal...) Ô intelligent, puissant, infiniment sage Denak... J'ai élaboré un plan digne de mon intellect supérieur. Si vous pouviez laisser un moment à l'indigne que je suis, je serai en mesure de vous expliquer...~
+@92 = ~*soupir* Laissez-moi deviner : au lieu de tuer la sorcière, vous l'avez capturée pour la soumettre à la question ?~
+@93 = ~Je savais qu'il ne faudrait qu'un court instant à un homme de votre intelligence pour deviner la ruse machiavélique que j'ai mise au point.~
+@94 = ~Je veux bien faire semblant pendant quelques instants d'être la prisonnière du jeune mage trop ambitieux si cela nous évite un combat. Mais je ne me rendrai *jamais* à ses semblables !~
+@95 = ~Et avez-vous pensé aux difficultés que cela représente, de transporter une prisonnière jusqu'à Thay ?~
+@96 = ~Euh... J'ai pris cela en compte, bien évidemment. J'ai soumis la sorcière à un interrogatoire... très sévère, et j'ai appris tout ce qu'il y avait à savoir d'elle. J'ai amené cette pathétique créature uniquement dans le but de, euh... demander si... si les ordres de Nevron n'avaient pas changé en ce qui la concernait, et pour que mes distingués supérieurs puissent prendre part à l'éxecution de la sorcière et de ses collaborateurs. (Voilà une réponse de génie !)~
+@97 = ~Attends une minute ! Edwin... je ne suis pas...~
+@98 = ~D'accord. Je savais que c'était trop beau pour durer. On dirait bien que nous devrons faire la peau à ces magiciens. Mais la question demeure, Edwin. Es-tu avec nous, ou contre nous ?~
+@99 = ~Il ment comme un arracheur de dents ! J'admets que j'ai refusé de la tuer, comme Edwin l'a suggéré, et que je l'ai secourue et que, maintenant, elle voyage avec moi dans mon groupe. Mais je ne sais rien de l'inimitié qu'il y a entre vous.~
+@100 = ~Tss, tss, Edwin... quel petit farceur ! Tu sais parfaitement que je suis venu jusqu'ici pour m'assurer que la sorcière se fasse tuer de manière à ce que Thay en retire toute la gloire possible. N'est-ce pas ?~
+@101 = ~... prêt à mourir ? Qui te le demande, macaque ?~ ~... prête à mourir ? Qui te le demande, macaque ?~
+@102 = ~Un Magicien Rouge de Thay ne sert que Thay... ou son propre intérêt. Pour quelqu'un qui est né pour rassembler tout Thay sous sa coupe, cela revient exactement au même. Peu importe que tu sois complètement inutile pour accomplir mes volontés, <CHARNAME>, mes soi-disant supérieurs sont plus faibles qu'un singe bavard des terres barbares. Tu auras besoin de mon aide pour les défaire... (Et de mon côté, je serai totalement libre de conspirer sans être constamment surveillé et rabaissé par ces bureaucrates insignifiants.)~
+@103 = ~Ca, macaque, c'est une question qui ne devrait même pas te venir à l'esprit !~
+@104 = ~Je ne devrais même pas avoir à me fatiguer avec les paperasses... Nevron est un crétin, il avalera bien la première histoire venue...~
+@105 = ~Je trouve ça dur à avaler. Edwin, rendez-vous enfin utile, et aidez-moi à m'occuper de ces... bouffons.~
+@106 = ~Voilà qui est très amusant, Edwin. Lorsque j'aurai de nouveaux ordres pour vous, je vous contacterai. Oh... et voici le remboursement de votre dernière dépense, bien que je ne comprenne toujours pas comment acheter les plaisirs d'une esclave drow a pu vous aider dans la capture de la sorcière.~
+@107 = ~Edwin, la personne à vos côtés attend sa réponse. Avez-vous le sens de l'humour le plus minable de ce côté-ci de l'Epine Dorsale du Monde, ou avez-vous su user intelligemment de cette personne ?~
+@108 = ~Mon supérieur incroyablement intelligent pourra sûrement constater que l'on se doit d'élever les esprits de ces sous-barbares. Il ne s'agissait que d'une farce que j'ai voulu faire aux gorilles qui m'accompagnent, et non à vos nobles oreilles. Et pour vous prouver notre loyauté, nous allons massacrer la sorcière de façon exemplaire...~
+@109 = ~Est-ce ainsi que Tu me remercies de ma loyauté, <CHARNAME> ?~
+
+//??? pas de référence dans dyint.d ???
+@110 = ~J'espère que vous avez raison !~
+@111 = ~Merci de venir en aide à une mère.~
+@112 = ~C'est tout ce que j'ai, et j'en suis bien content. Merci.~
+@113 = ~Jamie, ne les laisse pas me faire mal !~
+@114 = ~Hein ? Laissez tomber. Loup-Gris, voici la prime.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 36, probablement inutile de traduire ici !
+@115 = ~Vous avez mis son sort entre les mains de la justice. Il ne représente plus une menace, les gens de cette ville dormiront en paix, maintenant.~
+@116 = ~Il se trouve que Prisme a volé quelque chose qui ne lui appartenait pas. Elles brilleront autant entre ses mains qu'entre celles de leur propriétaire légitime.~
+@117 = ~Et ce seraient toi et lui.~ ~Et ce seraient toi et elle.~
+@118 = ~C'est tout à fait vrai ! Dommage que vous ne vivrez pas assez longtemps pour faire passer le mot.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 353, probablement inutile de traduire ici !
+@119 = ~Pauvre Chelak !~
+@120 = ~Prenez ceci, et prouvez que vos promesses n'étaient pas vaines paroles.~
+@121 = ~Madame regrettera sans doute son association avec des rustres de la sorte.~
+@122 = ~Merci, madame. Je servirai avec vigilance et honneur.~
+@123 = ~Hé, m'dame, avec les robes ! Vous en voulez un ?~
+@124 = ~En vous aidant, je m'aide moi-même. Je ne souhaite pas que ces rêves continuent.~
+@125 = ~Il fallait y penser avant de tout saccager.~
+
+//réponse de Kylee à @49
+@1001 = ~Rien que ça, ça aide !~
+
+//réponse de Samanta à @59
+@1002 = ~A l'aiiiiiiiiiide !~
+
+//réponses d'Oublek à @59 et @61
+@1003 = ~Vous avez parlé ? Laissez tomber... je vous souhaite un agréable séjour.~
+@1004 = ~Hm, peut-être, mais vous avez fait ce qu'il fallait en les rendant à leur propriétaire légitime.~
+
+//réponse d'Ajantis à @69
+@1005 = ~Trop tard. Allez-vous en !~
+
+//réponse de Larry à @71
+@1006 = ~Deux R... et voilà !~
+
+//réponse de Hafiz à @72
+@1007 = ~N'en faites rien. Cela m'est profitable autant qu'à vous.~
+
+//réponse de Derlik à @74
+@1008 = ~Z'auriez dû y penser avant !~

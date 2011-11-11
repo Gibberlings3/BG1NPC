@@ -1,0 +1,220 @@
+// Remarque de Galathée
+//J'espère que c'est juste, le .d était assez chinois !
+//Le passage du "vous" au "tu" pour certains personnages est voulu par la situation.
+
+@0 = ~S'il vous plaît ! Je... je vous en supplie... Ayez pitié et épargnez ma vie... Je vais quitter ces terres et ne jamais revenir. Je suis sans défense.~
+@1 = ~Bah ! Si Amarande a jamais pu accepter de s'allier à l'une des putains de Seniyad, alors il est aussi traître à nos croyances que tu l'es, Faldorn ! Au nom du Seigneur des Bêtes, donnons une leçon douloureuse à ces imbéciles !~
+@2 = ~Tu n'as aucune chance face à un véritable défenseur de Mère Nature, jeune avorton ! Au nom du Seigneur des Bêtes, tuez ces imbéciles !~
+@3 = ~Cours, alors, comme un chacal couard, la queue entre les jambes ! Sache que c'est Seniyad qui nous a envoyés ici, et que ton retour en ces bois signifiera une exécution rapide. Des bâtards répugnants dans ton genre ne méritent déjà pas de miséricorde, alors certainement pas deux fois !~
+@4 = ~Non, ça me démange d'en finir, Jaheira. Lève tes armes, Andarthe !~
+@5 = ~C'était la bonne chose à faire, Jaheira. Tuer un adversaire qui se rend aurait été mal.~
+@6 = ~Pitié ? Tu nous demandes pitié ? Le même genre de pitié que tes laquais ont eue envers Beador en le torturant et le tuant ? Ton prêche s'adresse à la mauvaise foule, espèce de déchet répugnant ! Maintenant, meurs !~
+@7 = ~Tu as bien agi, Jaheira. Quelqu'un qui prend du plaisir à torturer les autres ne mérite que la mort.~
+@8 = ~Jaheira... Comment as-tu pu tuer un homme désarmé te suppliant de l'épargner ? Ce n'est pas juste !~
+@9 = ~J'ai... j'ai entendu les clameurs d'une bataille, au dehors. Et vous n'êtes manifestement pas les Druides de l'Ombre... Puis-je espérer que vous êtes venus à mon secours ?~
+@10 = ~En effet, c'est Seniyad en personne qui nous envoie. Vous êtes libre de partir.~
+@11 = ~Merci, ma soeur. N'avez-vous pas vu mon ami, aux alentours... son nom est Beador... ils l'ont emmené, et je crains pour sa vie.~
+@12 = ~Nous avons réussi à le sauver, bien que malgré mes soins, il soit toujours blessé. Vous le trouverez sur l'île, là où la rivière se divise, à l'est d'ici.~
+@13 = ~Oh, merci à vous ! Je suis tellement soulagée ! Excusez-moi, mais je dois courir le retrouver pour m'en assurer ! Je vous remercie, une fois de plus.~
+@14 = ~En effet, Seniyad en personne nous envoie. Mon nom est Jaheira et voici... Vous êtes libre de partir.~
+@15 = ~Je suis désolée d'être porteuse de mauvaises nouvelles, Maretha... Nous n'avons pas réussi à le sauver. Son corps se trouve sur l'île, là où la rivière se divise, à l'est d'ici.~
+@16 = ~Quoi... NON ! Non... *sanglote* Beador, non... J'imagine que ce n'est pas surprenant que vous l'ayez laissé mourir, vu ce que j'ai entendu à propos de vous et lui... Je... Je dois partir et le voir...~
+@17 = ~Quoi... NON ! Non... *sanglote* Beador, non... J'imagine que ce n'est pas surprenant que vous l'ayez laissé mourir, vu ce que j'ai entendu à propos de vous et lui... Je... Je dois partir et le voir...~
+@18 = ~Qui ose s'introduire sur le territoire des Druides de l'Ombre pendant la période sacrée du Conclave de l'Ombre ? Qui que vous soyez, imbéciles, je sens que je dois vous remercier. Vous m'avez apporté une autre de ces faux druides à torturer et punir selon nos rites sacrés. Elle criera aussi fort et délicieusement que cet idiot de Beador, jusqu'à ce qu'elle reconnaisse la fausseté de ses voies !~
+@19 = ~C-comment osez-vous la m-menacer ! Rendez-nous vos p-prisonniers, et nous s-serons peut-être m-magnanimes...~
+@20 = ~Tout ceci finira dans le sang, j'en ai peur. Mais le sang qui coulera sera le tien, Andarthe, pas le mien, de ça je suis sûre !~
+@21 = ~Attends, Andarthe ! Elle et son groupe sont de notre côté pour l'heure ! Je les emmène détruire les mines, comme Amarande, lui-même, l'a décrété. Une fois qu'elle aura vu les blessures qu'a subies la Grande Mère, sur ce site, elle sera plus réceptive à notre cause.~
+@22 = ~*tousse* Mais, en contrepartie de notre participation, nous exigeons que Maretha soit libérée.~
+@23 = ~Arrête ces mensonges, Faldorn. Nous n'allons pas faire équipe avec ta bande de brutes. Je suis venu ici pour libérer votre prisonnière et détruire votre culte !~
+      ~Arrête ces mensonges, Faldorn. Nous n'allons pas faire équipe avec ta bande de brutes. Je suis venue ici pour libérer votre prisonnière et détruire votre culte !~
+@24 = ~Je suis sacrément fatigué de tout ceci. Je vais juste tuer quiconque se met en travers de mon chemin et laisser Silvanus vous trier.~
+      ~Je suis sacrément fatiguée de tout ceci. Je vais juste tuer quiconque se met en travers de mon chemin et laisser Silvanus vous trier.~
+@25 = ~Tout ceci va se terminer dans le sang, j'en ai peur. Mais le sang qui coulera sera le tien, Andarthe, pas le mien, de ça je suis sûre !~
+@26 = ~Alors vous mourrez tous, que vous soyez un intrus ou notre propre fausse soeur !~
+@27 = ~Ainsi ce nouveau-venu naïf ne se satisfera que de la mort des faux druides ? Nous allons nous débarrasser de vous et de vos nouveaux amis, avorton... et nous occuper ensuite de ces mineurs !~
+@28 = ~Bon retour parmi le clan, Faldorn. A présent, tuons ces intrus !~
+@29 = ~Etrangers... fuyez cet endroit... la maison dans l'arbre. Maretha... sauvez-la... Ne vous occupez pas de moi...~
+@30 = ~S'il vous plait, aidez Maretha ! Elle est en danger...~
+@31 = ~Je suis tellement heureux que Maretha soit en sécurité, à présent. Je suis resté ici dans le but de pouvoir vous dire en personne combien je suis reconnaissant de votre aide.~
+@32 = ~Et bien, peut-être m'as-tu empêchée de commettre une erreur, <CHARNAME>. De toute façon, ça ne vaut plus la peine d'y réfléchir. Libérons Maretha, tant que nous en avons l'opportunité.~
+@33 = ~J'imagine, <CHARNAME>. Mais pour l'heure, cela signifie seulement que nous devrions être prudents sur notre route, à mesure que nous nous enfonçons plus avant dans Bois-Manteau. Et libérons Maretha, tant que nous en avons l'opportunité.~
+@34 = ~Je sais que tu as raison, <CHARNAME>. Cependant, frapper un homme sans défense n'est pas quelque chose que j'aime faire, aussi malfaisant soit-il. A présent, libérons Maretha, tant que nous en avons l'opportunité.~
+@35 = ~Je me demande ce que tu choisirais si cette bête qui a tué ton père te suppliait de l'épargner ! Pèse ta réponse avec prudence, avant de prétendre juger mes actes. A présent, libérons Maretha, tant que nous en avons l'opportunité.~
+@36 = ~Beador, espèce... espèce d'imbécile ! Comment as-tu pu être aussi imprudent ! Allonge-toi et laisse-toi soigner !~
+@37 = ~Ce ne sont pas les souvenirs du passé qui pèsent lourd sur mon coeur. Je pense à Maretha, qui doit le perdre... non ! Non, assez de ces bêtises.~
+@38 = ~Avançons. Nous livrerons la dépouille de Beador à la Grande Mère plus tard. Cependant, je te remercie pour ton soutien, une fois de plus.~
+@39 = ~Quoi ? Oh, bien sûr... après toi, <CHARNAME>. Tu auras à supporter mon humeur sombre pendant un temps, je le crains.~
+@40 = ~<CHARNAME>, je sais que tu es soucieux de te rendre aux mines le plus vite possible, et tel est mon souhait, également. Cependant, peut-être pourrions-nous faire un petit détour pour rapporter ces bonnes nouvelles à Seniyad ?~
+@41 = ~Bien sûr, retournons-y. Un jour par ci par là ne devrait pas avoir d'importance.~
+@42 = ~Non, nous ferons un détour quand nous reviendrons des mines, Jaheira. Qu'il attende quelques jours ou jusqu'à ce que Maretha l'en informe.~
+@43 = ~Merci. Tu sais, je ne ferais pas ce genre de requêtes en temps normal, mais cette affaire est importante pour moi, en tant que druide. Je suis heureuse que tu t'en rendes compte.~
+@44 = ~Très bien, c'est acceptable, ça aussi. Hum, est-ce que j'ai dit que Seniyad pourrait avoir une récompense pour nous ?~
+@45 = ~Ne perds pas ton temps, Jaheira. Ça ne marchera pas.~
+@46 = ~Hum, une récompense, dis-tu ? D'accord, tu m'as convaincu, retournons-y.~
+      ~Hum, une récompense, dis-tu ? D'accord, tu m'as convaincue, retournons-y.~
+@47 = ~Et bien, j'aurai essayé, n'est-ce pas. Allons-y, alors.~
+@48 = ~Je pensais bien que tu verrais la lumière, <CHARNAME>. *sourit* Les jeunes aventuriers enthousiastes, rien ne les excite autant qu'une récompense.~
+@49 = ~Cela ramène de doux souvenirs, n-n'est-ce pas, ch-chérie ?~
+@50 = ~Bien sûr, je n'ai jamais été aussi facile à distraire que notre jeune chef, ici présent. J'ai toujours été solide et fiable, comme tu le sais bien, mon cher Khalid.~
+@51 = ~Oh, b-bien sûr. *ricane* Tu as toujours été un p-parangon de sérieux... à part p-peut-être hier soir...~
+@52 = ~Oh, par les dieux ! Trouvez-vous une chambre !~
+@53 = ~Euh... Allons-y, d'accord ?~
+@54 = ~Non ! Par Silvanus... non ! Nous avons échoué, bon sang ! Beador... Beador, espèce de stupide crétin...~
+@55 = ~Je suis vraiment désolé, ch-chérie... nous avons f-fait de notre mieux, mais ce n'était pas assez. Je suis vraiment désolé pour lui.~
+@56 = ~Je sais que tu as fait tout ce qui était en ton pouvoir, mon amour. C'est juste que...~
+@57 = ~Je sais, ma ch-chérie. Ne d-dis rien... Je comprends. Ton coeur compatissant ne p-peut pas rester de marbre.~
+@58 = ~Aussi triste que cela soit, nous devons toujours sauver Maretha. Beador... il a parlé d'une maison dans un arbre. Nous devrions essayer de la localiser.~
+@59 = ~Je suis désolé que nous ayons été incapables de le sauver, Jaheira. Je réalise que tu as perdu plus qu'un "vieil ami"... mes condoléances.~
+      ~Je suis désolée que nous ayons été incapables de le sauver, Jaheira. Je réalise que tu as perdu plus qu'un "vieil ami"... mes condoléances.~
+@60 = ~Il a parlé d'une maison dans un arbre. Ne devrions-nous pas nous mettre en route, Jaheira ?~
+@61 = ~Jaheira ? *tousse* Jaheira, est-ce toi ? Je pensais ne jamais revoir ton visage, après... après ton départ... *tousse*~
+@62 = ~Je pensais t'avoir dit de rester allongé, homme stupide ! Et garde tes forces, ne parle pas... surtout pas du passé.~
+@63 = ~Tu... tu n'as pas changé malgré toutes ces années, Jaheira. Comment vas-tu, ces temps-ci ?~
+@64 = ~B-Bonjour, Beador. C'est b-bon de te revoir.~
+@65 = ~Ah... et mes salutations à toi aussi, Khalid. *tousse* Il semble que j'ai là la réponse à ma question.~
+@66 = ~Trèves de bavardages, Beador. Seniyad nous a envoyés pour vous rechercher, toi et cette femme, Maretha, et c'est ce que nous allons essayer de faire.~
+@67 = ~Par Silvanus, loués soyez-vous, Seniyad et toi ! S'il te plaît, Jaheira, tu dois la libérer... il y a un pont qui enjambe la rivière proche, traverse-le et retourne vers le sud... trouve la maison dans l'arbre. Elle a été... *tousse*... emmenée là, pour être torturée par Andarthe, l'un des Archidruides de l'Ombre. Je t'en prie, fais vite !~
+@68 = ~Nous ferons de notre mieux, Beador. Reste ici et essaie de ne pas trop te déplacer. Viens, <CHARNAME>, allons donner une bonne leçon à ces hérétiques !~
+@69 = ~Ça va... plutôt bien, merci pour la question.~
+@70 = ~Jaheira ? Quelle est cette humidité dans tes yeux, et ce tremblement dans ta voix ? Et où se cache donc Khal...~
+@71 = ~Assez ! Assez... Je n'en parlerai pas ! Nous avons été envoyés ici par Seniyad, pour vous rechercher, toi et Maretha, et c'est notre seul dessein en ces lieux, Beador.~
+@72 = ~Comme tu voudras, Jaheira. Il y a un pont qui enjambe la rivière, non loin, traverse-le et retourne vers le sud... Trouve l'arbre-maison. Elle a été... *tousse*... emmenée là, pour être torturée par Andarthe, l'un des Archidruides de l'Ombre. Je t'en prie, fais vite !~
+@73 = ~Nous ferons de notre mieux, Beador. Reste ici et essaie de ne pas trop te déplacer. Viens, <CHARNAME>, allons donner une bonne leçon à ces hérétiques !~
+@74 = ~Même à l'agonie, il est toujours ridiculement noble ! En avant, <CHARNAME>, nous ne pouvons pas laisser ces crapules de l'Ombre le tuer !~
+@75 = ~Tu oses interrompre nos rituels sacrés, étranger ? Et tu as amené l'une de ces faux druides avec toi ? Pour cela, tu mourras, intrus !~ 
+      ~Tu oses interrompre nos rituels sacrés, étrangère ? Et tu as amené l'une de ces faux druides avec toi ? Pour cela, tu mourras, intruse !~
+@76 = ~Tu oses interrompre nos rituels sacrés, étranger ? Et tu as amené une de ces faux druides avec toi ?~
+      ~Tu oses interrompre nos rituels sacrés, étrangère ? Et tu as amené une de ces faux druides avec toi ?~
+@77 = ~Nous ne sommes pas tous des avortons traîtres ! <CHARNAME> ! Tu as promis de m'aider, pas de détruire mon clan !~
+@78 = ~Hum... pas évident. Je préférerais éviter le bain de sang, si je le pouvais. Pourrions-nous nous entendre si je promettais de détruire les mines à l'est d'ici en échange du retour de Beador et de Maretha ?~
+@79 = ~Faldorn ! Les véritables ennemis ne sont-ils pas ces avortons pathétiques qui osent se faire appeler druides ? Regarde, ils perdent leur temps à chasser les faibles et les inutiles à la place de se ruer sur les vrais destructeurs, les MINEURS ! Ils ont trahi la Grande Mère ! Tuons-les pour cela !~
+@80 = ~Ton "clan" est trop malfaisant à mon goût. Si tu veux te ranger à leurs côtés, tu mourras de mon épée, toi aussi ! Choisis maintenant !~
+@81 = ~Faldorn, je choisis la vie de deux innocents plutôt que tes stupides idéaux. Attaque-moi pour cela, si tu le veux.~
+@82 = ~Grrr ! Je déteste les marchés ! Mais le besoin de détruire les mines est plus pressant que de tuer quelques imbéciles. Ecoutez, l'offre de cet homme vaut la peine d'être prise en considération.~
+      ~Grrr ! Je déteste les marchés ! Mais le besoin de détruire les mines est plus pressant que de tuer quelques imbéciles. Ecoutez, l'offre de cette femme vaut la peine d'être prise en considération.~
+@83 = ~GRRR ! Tu dis vrai ! Retournez à la Grande Mère, traîtres !~
+@84 = ~Tu essaies de me tromper ! Tu vas mourir pour ça !~
+@85 = ~Alors je vais te combattre, avorton minable ! Pour la Grande Mère !~
+@86 = ~Quelque part, j'ai l'impression que ce n'était pas la bonne décision, <CHARNAME>. Cet homme, même si c'était clairement un crétin prétentieux, ne méritait pas une punition aussi dure pour ses fautes.~
+@87 = ~Bah ! Ne te laisse pas tromper par les mensonges rusés des pires produits de la civilisation, jeune drui... Jaheira ? Est-ce toi, petite ? J'aurais dû te reconnaître immédiatement !~
+@88 = ~C'est moi, en effet, Jaheira. Je suis triste de constater que tu t'attaches toujours à cette approche agressive lorsque tu as affaire à ceux qui sont moins soucieux des trésors de la nature que toi. Aussi détestables soient ces hommes, tu ne sembles pas tenir compte de ce que ton attitude nous coûte, érodant le respect que peuvent avoir les citadins pour notre cause.~
+@89 = ~Il semble que l'exposition constante à la civilisation t'a rendue encore plus tendre qu'avant que tu ne quittes le cercle. Ou peut-être nos problèmes récents m'ont-ils affecté de manière que je ne peux percevoir, et que je suis devenu plus impitoyable que je ne le réalise ? Peut-être... je dois y réfléchir.~
+@90 = ~Des problèmes récents ? Que veux-tu dire par là, Seniyad ?~
+@91 = ~Attends, Seniyad ! Tu ne me reconnais pas ? C'est moi, Jaheira ! Tu ne vas quand même pas attaquer l'un des tiens ?~
+@92 = ~Jaheira ? C'est bien toi, petite ! Notre dernière rencontre remonte à bien longtemps... mais ta volonté de protéger ce chasseur répugnant assombrit ces retrouvailles.~
+@93 = ~Je considère que chasser pour le sport est quelque chose de détestable, mais je ne souscrirai jamais à l'idée qu'il s'agit là d'une offense passible de mort, Seniyad.~
+@94 = ~Ah, oui. La source de notre désaccord permanent, n'est-ce pas ? J'avais espéré qu'une exposition constante à la civilisation te ferait reconsidérer ton point de vue. Hélas, il semble que cela ne se soit pas produit. Cela dit, tu pourrais me persuader de laisser ton ami chasseur en vie... à une condition.~
+@95 = ~Parle, Seniyad, et je... <CHARNAME> et moi écouterons.~
+@96 = ~Une secte de Druides de l'Ombre s'est emparée d'une partie de notre forêt sacrée pour en faire son territoire, et jusqu'ici, nous n'avons pas réussi à l'en déloger. Leur simple présence est un souci pour n'importe quel druide qui révère nos vraies croyances, sans nul doute.~
+@97 = ~Cela m'inquiète grandement, Seniyad. Je serais prête à t'aider... si <CHARNAME> est d'accord de faire une entorse à notre propre quête.~
+@98 = ~Il y a une chose que tu pourrais faire pour nous aider, Jaheira, car nous avons besoin de l'assistance d'une personne qui est moins connue des Druides de l'Ombre que mes loyaux serviteurs. Il y a quelques mois, un Druide de l'Ombre a approché une jeune druidesse de notre cercle nommée Maretha, l'invitant à rejoindre leur cercle. Cela faisait partie de mon plan pour infiltrer leur secte maudite et cela a semblé fonctionner pendant quelques mois... jusqu'à il y a une vingtaine de jours. Maretha ne s'est pas présentée au rendez-vous secret qu'elle avait fixé avec l'un de nos druides. Nous n'avons plus entendu parler d'elle depuis, Jaheira.~
+@99 = ~Et j'imagine que tu veux que nous allions la sauver... si elle est toujours vivante.~
+@100 = ~C'est en effet ce que je veux que toi et ton groupe accomplissiez. Maretha détient des informations importantes sur les plans des Druides de l'Ombre et connaît probablement le nom de ceux qui ont infiltré notre propre ordre. Elle doit être secourue, et vite, car le Conclave de l'Ombre approche.~
+@101 = ~Je vois. Alors nous n'avons pas beaucoup de temps, je suis d'accord. <CHARNAME>, tu nous aideras dans cette tâche, bien sûr ?~
+@102 = ~Qu'est-ce que ce Conclave de l'Ombre, druide ?~
+@103 = ~Je pense, oui, si ça me permet d'échapper à une nouvelle salve de bavardages écolos.~
+@104 = ~Oublie ça, Jaheira. Reprends ta place, nous avons des choses plus importantes à faire.~
+@105 = ~Alors nous devons nous dépêcher d'aller aider cette fille aussi vite que possible. Ces fanatiques la torturent probablement à l'instant même ! Un véritable serviteur de la nature viendra toujours en aide à l'un des siens, c'est l'une des règles que j'ai promis de respecter en devenant druide !~
+@106 = ~Je suis la doctrine des Druides de l'Ombre moi-même. Je ne m'opposerai pas à leurs plans.~
+@107 = ~Le Conclave de l'Ombre est une célébration secrète de la secte des Druides de l'Ombre, durant laquelle de nombreuses cérémonies ont lieu. L'initiation des nouveaux membres est supposée survenir pendant cette période, selon les rumeurs. Mais ce qui nous concerne en particulier, Seniyad et moi, est la torture et l'exécution publiques des traîtres et des ennemis des Druides de l'Ombre. Si nous n'arrivons pas à temps, la pauvre Maretha connaîtra une fin horrible.~
+@108 = ~Ce n'est pas tout, Jaheira. Il y a quelques jours, un de mes druides a choisi de risquer sa vie pour s'introduire dans le territoire des Druides de l'Ombre et secourir la femme dont il est épris. Nous n'avons plus de nouvelles de lui depuis. Tu te souviendras de lui, Jaheira... il s'agit de Beador.~
+@109 = ~Beador... oui... oui, je me souviens de lui. Et je vois qu'il est toujours la forte tête irréfléchie qu'il était autrefois...~
+@110 = ~Qui est ce Beador, Jaheira ?~
+@111 = ~Et bien, voici une autre raison de nous dépêcher ! En avant, Jaheira !~
+@112 = ~Quel dommage. Malheureusement, nous devrons nous abstenir de vous aider, car notre propre quête prime sur le reste.~
+@113 = ~Du bavardage écolo, c'est ça ? Pff ! J'aurais pensé que Gorion t'élèverait avec plus de respect pour le monde qui t'entoure. Hélas, il semble que ce rôle m'est dévolu. Cependant, ta décision de m'aider, aussi réticente soit-elle, est la bienvenue.~
+@114 = ~Je suis heureuse de voir que tu es déterminé à aider un compagnon druide, <CHARNAME>. Tu as en toi les semences d'un valeureux serviteur de la Grande Mère. Par Silvanus, je jure que je t'aiderai à réaliser ton véritable potentiel !~
+       ~Je suis heureuse de voir que tu es déterminée à aider un compagnon druide, <CHARNAME>. Tu as en toi les semences d'une valeureuse servante de la Grande Mère. Par Silvanus, je jure que je t'aiderai à réaliser ton véritable potentiel !~
+@115 = ~C'était... un de mes vieux amis. C'est tout ce que tu as besoin de savoir, <CHARNAME>.~
+@116 = ~Je te conseillerais de ne p-pas chercher à en savoir d-davantage, <CHARNAME>... pour t-ton propre bien.~
+@117 = ~Tu es un homme sage, Khalid, mon amour... et cette sagesse t'a bien servi. A présent, <CHARNAME>, nous devrions nous rendre dans les profondeurs de Bois-Manteau, si nous voulons sauver mes amis.~
+@118 = ~Très bien, Jaheira, aidons tes compagnons druides.~
+@119 = ~Calme-toi, Jaheira. Nous avons mieux à faire que ceci, les mines nous attendent.~
+@120 = ~Merci, <CHARNAME>. Je savais pouvoir compter sur ton aide.~
+@121 = ~Tu as pris une sage décision. Bonne chance à toi !~
+@122 = ~Et toi... hors de ma vue, profanateur de la nature. Sois heureux que la parole de Jaheira ait une telle valeur, sinon je pourrais exiger que tu restes avec moi jusqu'à ce que leur mission soit accomplie.~
+@123 = ~O-Oui, merci de votre aide, étrangers... Si vous venez jamais à la Porte de Baldur, venez à la Ligue des Marchands, et je vous aiderai par tous les moyens possibles. En attendant, recevez ce petit gage de mon appréciation.~
+@124 = ~Ai-je mal entendu ? <CHARNAME>, c'est dans la direction que nous avions l'intention d'emprunter, ce ne serait qu'un petit détour ! Es-tu à ce point égocentrique que tu cracherais sur la main qui te soigne et te nourrit ?~
+@125 = ~Raviveriez-vous mes espoirs d'être secouru, pour ensuite me livrer à ces sauvages grossiers ? Vous êtes incroyablement détestables ! Je vous préviens, trahissez-moi, et je vous assure que vous ne survivrez pas à cette rencontre !~
+@126 = ~Hum... Je ne sais pas ce qui m'a pris. Bien sûr, j'ai fait un lapsus, Jaheira. Allons... aider tes amis à toute vitesse.~
+       ~Hum... Je ne sais pas ce qui m'a prise. Bien sûr, j'ai fait un lapsus, Jaheira. Allons... aider tes amis à toute vitesse.~
+@127 = ~Ah, tais-toi, insupportable mégère de la forêt. Nous ferons comme j'ai dit et à présent, mes ordres sont : retourne à ta place en formation et ferme-la.~
+@128 = ~Jaheira, je comprends tes inquiétudes, mais nous ne pouvons pas nous permettre des détours pour l'instant. Nous pourrions revenir aider tes amis plus tard.~
+@129 = ~Hum. Très bien, <CHARNAME>, allons-y alors. Et arrange-toi pour ne pas faire de lapsus trop souvent, sinon je serai forcée de prendre les rênes de nos conversations futures.~
+@130 = ~Je suis heureux que vous ayez changé d'avis. Bonne chance à vous !~
+@131 = ~C'est exactement ce que je vais faire, espèce de brute mal dégrossie. L'année prochaine, j'irai aux Bois des Dents Acérées, plutôt qu'à Bois-Manteau. Je suis certain que ça ne pourra pas être pire que cette fois-ci !~
+@132 = ~Espèce de bâtard ! J'aurais pu faire sans cette gifle, avec tous mes efforts pour t'aider ! Très bien, j'aime autant découvrir ton véritable visage maintenant que plus tard ! Si c'est que tu désires, mon aide ira vers mes VRAIS amis.~
+       ~Espèce de chienne ! J'aurais pu faire sans cette gifle, avec tous mes efforts pour t'aider ! Très bien, j'aime autant découvrir ton véritable visage maintenant que plus tard ! Si c'est que tu désires, mon aide ira vers mes VRAIS amis.~
+@133 = ~Viens, Khalid ! Nous avons une mission à accomplir, et passer plus de temps en présence de cet ingrat me rend tout simplement malade.~
+       ~Viens, Khalid ! Nous avons une mission à accomplir, et passer plus de temps en présence de cette ingrate me rend tout simplement malade.~
+@134 = ~Oui, partons, ma ch-chérie. Adieu, <CHARNAME> ! J'espère que tu en v-viendras à réaliser la folie de tes actions, même s'il te sera difficile de regagner la confiance de Jaheira, ou la m-mienne, un jour.~
+@135 = ~Je t'ai prévenu, traître ! A présent tu seras puni ! Pour la Porte de Baldur !~
+       ~Je t'ai prévenu, traîtresse ! A présent tu seras punie ! Pour la Porte de Baldur !~
+@136 = ~Donc, non seulement tu t'allierais avec un chasseur répugnant, mais tu trahirais aussi les miens, ainsi que ceux que tu as appelés amis. Tu es une abomination misérable de l'humanité, et ton extermination a priorité sur la punition d'un simple chasseur ! Pour l'équilibre !~
+@137 = ~<CHARNAME>, je DOIS insister. Tu ne sembles pas comprendre la situation. Les Druides de l'Ombre s'opposeront à notre passage sur leurs territoires quand nous nous approcherons de la mine... Nous devrons les affronter que tu acceptes de m'aider ou pas : cela coïncide avec nos plans. Je te préviens : si tu refuses, je vais devoir m'occuper moi-même de la situation et nos chemins se sépareront ici.~
+@138 = ~Alors, j'imagine que je n'ai pas d'autre choix que d'accepter. Très bien, nous aiderons tes amis druides.~
+@139 = ~Alors séparons-nous ! J'en ai tellement marre que tu me forces la main !~
+@140 = ~J'imagine que cela veut dire que nous faisons nos adieux dès lors, car je n'ai pas l'intention de t'aider, toi ou ces druides.~
+@141 = ~Ta réticence est des plus désagréables, <CHARNAME>. Cependant, j'admets être reconnaissante que tu aies changé d'avis. Allons-y, dès lors.~
+@142 = ~Alors je vais prendre congé. Ton absence de souci pour la nature, et ce manque de volonté lorsqu'il s'agit d'aider tes amis rendent ma décision bien plus facile. Au revoir, <CHARNAME>.~
+@143 = ~Viens, Khalid ! Nous avons d'autres choses à faire et d'endroits à arpenter. Nous ne sommes manifestement pas les bienvenus ici.~
+@144 = ~Oui, partons, ma ch-chérie. Adieu, <CHARNAME> ! *soupire* J'aurais v-vraiment voulu que tout ceci t-tourne autrement.~
+@145 = ~Donc, non seulement tu t'allierais avec un chasseur répugnant, mais tu trahirais aussi les miens, ainsi que ceux que tu as appelés amis. Tu es une abomination misérable de l'humanité, et ton extermination a priorité sur la punition d'un simple chasseur ! Pour l'équilibre !~
+@146 = ~Attends ! Ce n'est pas tout, Jaheira. Il y a quelques jours, l'un de mes druides a choisi de risquer sa vie, en s'introduisant sur le territoire des Druides de l'Ombre pour secourir la femme dont il est épris. Nous n'en avons plus entendu parler depuis. Tu te souviendras de lui, Jaheira... c'est Beador.~
+@147 = ~Je pensais qu'on était pressés, Jaheira ? Assez de bavardages, allons-y !~
+@148 = ~Hum. Très bien, <CHARNAME>, allons-y, alors. Sache que je ne suis pas satisfaite de ton attitude, mais j'espère qu'affronter les Druides de l'Ombre te fera réaliser que tu as fait le bon choix.~
+@149 = ~Ou peut-être espériez-vous la libération d'un intrus ? Imbéciles... La Nature est brutale, efficace et sans merci. Vous n'aurez pas d'aide de ma part.~
+@150 = ~Rendez-nous Maretha maintenant, Amarande... ou n'êtes-vous pas réellement l'Archidruide, ici ?~
+@151 = ~Nous avons libéré Maretha, Amarande... Beador et elle sont à l'abri de votre pouvoir.~
+@152 = ~Ecoute-moi, Amarande ! Parle-leur, juste un moment. Je les guiderai pour qu'ils détruisent les mines. Une fois que Jaheira aura vu les blessures qu'a subies la Grande Mère, là-bas, elle sera plus réceptive à notre cause.~
+@153 = ~Stupide louveteau, réveille-toi. Jaheira ne se convertira pas.~
+@154 = ~C'est mon choix, et ma décision.~
+@155 = ~C'est moi l'Archidruide, ici, et c'est moi qui prends les décisions. Andarthe exerce simplement ma volonté avec force. Il est absent, menant les rituels sur l'île pour nettoyer ces bois de la souillure. Il est le seul à pouvoir libérer ceux que je lui ai cédés. Seniyad apprendra que ses jours sont comptés, comme le sont ceux de ses faibles suivants.~
+@156 = ~C'est moi l'Archidruide, ici. Je prends les décisions. Andarthe exerçait simplement ma volonté avec force. Il a peut-être échoué à nettoyer les bois de cette souillure, mais je peux toujours résoudre ceci par moi-même. Seniyad apprendra que ses jours sont comptés, comme le sont ceux de ses faibles suivants !~
+@157 = ~Petit louveteau, va avec eux si c'est ton choix. Il est temps pour toi d'apprendre une leçon importante : il y a ceux qui prétendent servir la nature, mais ne servent en fait qu'eux mêmes. Je suis certain que tu seras capable de discerner les menteurs par toi-même après cette expédition.~
+@158 = ~Jaheira, je suis déçu ! Pour avoir fait équipe avec ces criminels, tu mourras !~
+@159 = ~Des Ombres dans Bois-Manteau
+
+Nous avons rencontré une vieille connaissance de Jaheira, aujourd'hui. Ce vieux fou a décidé de démontrer sa faiblesse face aux besoins de la Nature, nous avons donc été forcés de le tuer, ainsi que son groupe d'adeptes. La Nature reposera plus sereinement ce soir. En prime, nous devrons rendre visite à la Ligue des Marchands quand nous arrivons à la Porte de Baldur, même si je regrette que nous n'ayons pas pensé à suivre le chasseur pour le tuer lui aussi.~
+@160 = ~Vous avez démontré une certaine sagesse en nous aidant à tuer ce chasseur répugnant, mais votre manque d'intérêt pour notre cause et votre réticence à aider vos amis me dégoûte. Quittez ces bois, à présent : j'ai perdu patience en ce qui vous concerne !~
+@161 = ~Des Ombres dans Bois-Manteau
+
+Nous avons rencontré une vieille connaissance de Jaheira, aujourd'hui. Bien que nous ayons tué un chasseur qui menaçait son groupe, le vieux fou n'a pas été très heureux que je décide de continuer ma route sans aider davantage les druides. Certains membres du groupe ont été mécontents, eux aussi, et ont pris la décision de nous quitter, sans remerciements ni félicitations.~
+@162 = ~Je vous enjoins de chercher Beador et Maretha, si vous êtes des amis des druides de Bois-Manteau.~
+@163 = ~Des Ombres dans Bois Manteau.
+
+Nous avons accepté une quête visant à aider les druides de Bois Manteau. Seniyad, une vieille connaissance de Jaheira, nous a envoyés découvrir ce qui est arrivé à Beador et Maretha. Nous pensons que le chef des Druides de l'Ombre de Bois Manteau, Amarande, a un nouveau partenaire, Andarthe. Beador et Maretha sont probablement tombés dans les griffes de l'un de ces Archidruides de l'Ombre. Nous pourrions avoir à contourner leur arbre fortifié pour trouver l'île où ils tiennent leurs réunions secrètes.~
+@164 = ~Ah, vous voilà ! J'ai appris que vous aviez administré une punition appropriée à ces vils corrupteurs de nos vraies croyances. Maretha m'a tout dit et m'a révélé le nom de deux de nos membres de haut rang, liés au Cercle de l'Ombre. Leur châtiment a été rapide et adéquat. Nous avons porté un coup important aux Druides de l'Ombre et récupérer notre forêt sacrée n'est plus qu'une question de temps, désormais.~
+@165 = ~Ce fut un plaisir de vous aider, toi et Jaheira, Seniyad.~
+@166 = ~Oui, oui, c'est vraiment merveilleux. Jaheira a mentionné que vous pourriez avoir une récompense pour nous...~
+@167 = ~Tu as prouvé que tu étais un allié de valeur, <CHARNAME>. Pour cela, nous te récompenserons de l'allégeance des druides de Bois-Manteau et du libre passage au travers de nos bois. Grâce à Jaheira, nous avons apparemment trouvé un nouveau partisan solide de notre cause... Tu ferais bien de continuer à écouter sa sagesse et son expérience, elle peut t'en apprendre beaucoup.~
+@168 = ~Et laisse-moi ajouter quelque chose, encore... ce gourdin enchanté a été trouvé dans les possessions de l'un des traîtres. J'espère que toi ou Jaheira en ferez bon usage.~
+@169 = ~Des Ombres dans Bois Manteau
+
+Nous avons réussi à aider les druides de Bois-Manteau et ils nous ont offert le libre passage, un gourdin enchanté et leur amitié. Trouver de nouveaux alliés est important... avec tout ce qui se passe, j'ai le sentiment que ça ne peut qu'être utile.~
+@170 = ~Suggérerais-tu que l'allégeance des druides de Bois-Manteau, un libre passage à travers nos forêts et l'aide personnelle d'une de nos guerrières les plus dévouées n'est pas récompense suffisante ?~
+@171 = ~Euh... et bien, je...~
+@172 = ~Très bien, c'est la dernière fois que je fais confiance ou que j'aide un druide...~
+@173 = ~Très bien, Seniyad, et à bientôt.~
+@174 = ~Je plaisantais, <CHARNAME>. Bien sûr, nous te récompenserons pour ce service. Grâce à Jaheira, nous avons apparemment trouvé un nouveau partisan solide de notre cause... Tu ferais bien de continuer à écouter sa sagesse et son expérience, elle peut t'en apprendre beaucoup.~
+@175 = ~Ce gourdin enchanté a été trouvé en possession de l'un des traîtres. J'imagine que toi ou Jaheira en ferez bon usage.~
+@176 = ~Tu as le coeur noble, <CHARNAME>. Je reconnais là l'influence de Jaheira. Il semble qu'elle nous ait aidés à trouver un autre allié solide dans notre cause... Tu ferais bien de continuer à écouter sa sagesse et son expérience, elle peut t'en apprendre beaucoup.~
+@177 = ~J'ai quelque chose pour toi, Jaheira. Ce gourdin est une arme puissante, et elle devrait être maniée par une personne plus sage que son précédent propriétaire, l'un des traîtres que nous avons découverts avec votre aide.~
+@178 = ~Tu as prouvé que tu étais un allié de valeur, <CHARNAME>. Pour cela, nous te récompenserons de l'allégeance des druides de Bois-Manteau et du libre passage au travers de nos bois. Et laisse-moi y ajouter quelque chose... ce gourdin enchanté a été trouvé en possession de l'un des traîtres. Ce sera un instrument puissant entre les mains de Jaheira.~
+@179 = ~Vous avez ma promesse qu'il sera mis à contribution pour maintenir l'équilibre et écraser les ennemis de la nature, Seniyad.~
+@180 = ~Oui, tu as une fois de plus prouvé ta dévotion en tant que druide, Jaheira. Il était bon de vous revoir, tous, mais à présent, nous devons nous séparer. Adieu, <CHARNAME>, adieu, Jaheira !~
+@181 = ~Je plaisantais, <CHARNAME>. Bien sûr, nous te récompenserons pour ce service. Ce gourdin enchanté a été trouvé en possession de l'un des traîtres. Il sera un instrument puissant entre les mains de Jaheira.~
+@182 = ~Oui, tu as une fois de plus prouvé ta dévotion en tant que druide, Jaheira. Il était bon de vous revoir, tous, mais à présent, nous devons nous séparer. Adieu, <CHARNAME>, adieu, Jaheira !~
+@183 = ~Vous allez mourir, Andarthe.~
+@184 = ~Aldeth Sashenstar
+
+J'ai accepté d'aider Aldeth Sashenstar, un noble de la Porte de Baldur, à combattre un groupe de sauvages.~
+@185 = ~Aldeth Sashenstar
+
+Je me suis rangé du côté de Seniyad et des druides dans leur conflit avec Aldeth Sashenstar, et ai fini par le tuer.~
+@186 = ~Aldeth Sashenstar
+
+Avec l'aide de Jaheira, j'ai réussi à dissuader les druides qui menaçaient Aldeth Sashenstar. Il était reconnaissant et m'a invité à lui rendre visite à sa demeure marchande à la Porte de Baldur, à l'occasion.~
+@187 = ~Aldeth Sashenstar
+
+Avec l'aide de Jaheira, j'ai réussi à dissuader les druides qui menaçaient Aldeth Sashenstar. Il n'a pas eu l'air très content, cela dit, et est parti rapidement.~

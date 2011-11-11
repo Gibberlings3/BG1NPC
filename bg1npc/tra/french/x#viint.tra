@@ -1,0 +1,216 @@
+@0 = ~Quoi qu'il en soit, comme tu dis, que nous importe ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 453, probablement inutile de traduire ici !
+@1 = ~Un autre idiot libéré. Oh, <CHARNAME>, tu as vraiment l'étoffe des héros.~
+@2 = ~Ah ! La brièveté de l'existence humaine est en soi une maladie ravageuse !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 556, probablement inutile de traduire ici !
+@3 = ~Alors tu n'aurais même pas dû nous laisser rentrer ! Meurs, rivvil !~
+@4 = ~Celui-là ne vaut même pas la peine qu'on prenne le temps de le tuer, <CHARNAME>. Partons.~
+@5 = ~Parce que tu te considères toi-même comme cultivé, iblith ? Ne me fais pas rire.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 507, probabilité 75.5
+@6 = ~Oh, la ferme. J'ai rencontré des kobolds plus 'éclairés' que toi.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 508, probablement inutile de traduire ici !
+@7 = ~Quoi ? Qui ose défier ma loi ! Expliquez-vous !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 455, probablement inutile de traduire ici !
+@8 = ~Et la magie maléfique triomphe de la volonté faible ; chose que les humains possèdent en abondance.~
+@9 = ~Epargne-nous le mélodrame pour aller pleurer dans un petit coin quelque part...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 261, probablement inutile de traduire ici !
+@10 = ~Jubile bien, iblith, mais bientôt je découperai de ton visage ces lèvres souriantes !~
+@11 = ~En Ombreterre, les enfants drows sont plus terrifiants que des ogres mages... Viens, <CHARNAME>, nous n'avons rien à craindre ici.~
+@12 = ~Un typique spécimen de l'intellect surfacin. Comme c'est drôle.~
+@13 = ~Je te le dis gratuitement, hobgobelin. Dans le monde des vrais civilisés, l'espèce humaine est loin d'être au top... De même que la tienne.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 67, probablement inutile de traduire ici !
+@14 = ~<CHARNAME>, si nous faisons les courses de toutes les vieilles dames que nous trouverons sur notre chemin, alors même moi je vais mourir de vieillesse sans avoir rien accompli que des tâches mieux adaptées à des esclaves !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 68, probablement inutile de traduire ici !
+@15 = ~N'as-tu pas de coeur, sorcière sombre ? C'est mon enfant qui est piégé là-bas !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 69, probablement inutile de traduire ici !
+@16 = ~Oh, j'ai un coeur. Mais il ne bat que pour moi, et non pour ceux qui sont trop faibles pour prendre soin d'eux-mêmes. Viens, <CHARNAME>, je ne veux pas parler plus longtemps à cette misérable.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 281, probablement inutile de traduire ici !
+@17 = ~Hmmmph... Au moins la rivvil avait de l'argent, même si ce n'était sûrement pas assez pour compenser le temps perdu.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 87, probablement inutile de traduire ici !
+@18 = ~Ah, regarde. Une ordure surfacine typique de plus, prête à jouer. C'est une épreuve que d'écouter leurs langues assommantes.~
+@19 = ~A vrai dire, il y a peu de choses que tu puisses faire pour nous aider, mais assure-toi que tout ennemi rencontre ces quatre bras forts avant que leurs armes ne m'atteignent.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 368, probablement inutile de traduire ici !
+@20 = ~Une tâche plutôt indigeste.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 369, probabilité 71.8
+@21 = ~J'vous d'mande pardon, dame sombre, si vous trouvez ça moralement répré...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 370, probablement inutile de traduire ici !
+@22 = ~Moralement répréhensible, allais-tu dire ? Par les Neuf Enfers, non. Je méprise simplement davantage la puanteur de vos égoûts que celle de vos cités surfacines.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 320, probablement inutile de traduire ici !
+@23 = ~<CHARNAME>, pourquoi devons-nous nous arrêter pour parler à chaque tas d'ordures que nous croisons dans la rue ?~
+@24 = ~Enfin un surfacin qui partage mon avis.~
+@25 = ~Dépassés en nombre, mais à considérer votre lamentable état, sûrement pas surpassés.~
+@26 = ~Celui-là a l'air encore plus déconnecté du monde que le reste de votre pitoyable espèce.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 585, probablement inutile de traduire ici !
+@27 = ~Je ne crois pas, misérable. Du balai ! A moins que <CHARNAME> n'aie pitié de toi.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 586, probablement inutile de traduire ici !
+@28 = ~Je vous en prie, <PRO_SIRMAAM> <CHARNAME>, ayez pitié...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 311, probablement inutile de traduire ici !
+@29 = ~Bah ! Sans aucun doute, rien ici ne peut soutenir la comparaison avec les merveilles de l'artisanat drow.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 312, probablement inutile de traduire ici !
+@30 = ~Peut-être, madame, mais qui a jamais vu une cité drow et vécu assez longtemps pour le raconter ? Personne que je connaisse, pour sûr ! Et par-dessus le marché il fait chaud à l'intérieur, donc pas besoin de vous envelopper comme ça dans votre cape par crainte du froid.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 598, probabilité 89.2
+@31 = ~Merci du tuyau, minus. Je crois que j'apprécierais beaucoup de rendre visite à ce Phandalyn, <CHARNAME>. Pour lui enseigner la futilité de sa vie, par exemple ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 599, probablement inutile de traduire ici !
+@32 = ~Mince, une drow, j'y crois pas ! Pas étonnant que l'vieux Phandalyn soit en train de s'énerver et de pester d'indignation vertueuse et tout le baratin.~
+@33 = ~Bah... Nous avons le pouvoir de faire tout ce que nous voulons ! Pour quelque raison nous sommes en train d'aider ces rivvil ; et pourtant ils lancent encore des accusations contre nous !~
+@34 = ~Recule-toi et écoute, <CHARNAME>. J'ai l'impression que celui-là va nous fournir une démonstration éclatante de la raison pour laquelle je déteste tant les iblith de la surface.~
+@35 = ~Et telle est la nature de la perte. Ce sont les enseignements de Shar, bien que ce balourd soit probablement trop idiot pour les comprendre.~
+@36 = ~Il y a un grain de vérité dans ces propos, bien que perdu dans un bourbier de stupidité.~
+@37 = ~Devons-nous supporter les divagations de celui-là ? Je dis : tuons-le et finissons-en !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 521, probablement inutile de traduire ici !
+@38 = ~Pff...~
+@39 = ~La somme est bonne, et à en juger par l'état de son esprit, la tâche qu'il demande ne doit sûrement pas être trop éprouvante. Je suggère d'écouter.~
+@40 = ~Oh, c'est éprouvant, très éprouvant, m'dame, pour quelqu'un d'aussi ordinaire que moi. Mais ce n'est sûrement rien pour de grands aventuriers.~
+@41 = ~Exactement le genre de baratin que je m'attendrais à me voir débiter par un ennemi déguisé. Fais attention, <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 145, probablement inutile de traduire ici !
+@42 = ~La vie est cruelle envers les faibles, faut s'y faire.~
+@43 = ~Il me semble qu'ils vont bientôt payer leur propre machination... <CHARNAME> ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 615, probablement inutile de traduire ici !
+@44 = ~Hmmm. La reine Araignée a-t-elle des serviteurs jusque ici ? 'Tention, <CHARNAME>, parce que si c'est le cas, ces araignées peuvent être vraiment mortelles.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 459, probablement inutile de traduire ici !
+@45 = ~Des arbres souterrains ? Ah ! N'importe quel imbécile aurait pu trouver un meilleur mensonge que celui-là, iblith.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 460, probabilité 87.0
+@46 = ~Hum... Non, vraiment, c'est un champ d'étude, euh, peu exploré... Gardé secret, la plupart du temps - secret, à des fins, ah, conservatoires.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 133, probabilité 57.4
+@47 = ~Une grâce qui ne provient que de la magie ; car je ne connais pas de créature dans toute la nature qui soit plus belle qu'un drow. Je n'ai pas de scrupules à vous débarrasser de ces créatures, bien que je ne vois pas pourquoi nous devrions faire cet effort. Cependant je suppose que, comme d'habitude, nos actions ne dépendent pas de ma seule décision...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 215, probablement inutile de traduire ici !
+@48 = ~Pour Shar !~
+@49 = ~Je... Une intéressante réception. Un puissant mage peut donner de puissantes récompenses, <CHARNAME>.~
+@50 = ~Bah ! Bien que je prendrais plaisir à détruire le Poing Enflammé et tout ce qui s'y rapporte, je crains que nous ne devions nous plier aux volontés de ce rivvil.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 322, probablement inutile de traduire ici !
+@51 = ~De pitoyables dandys en robe rouge ne m'effraieront pas !~
+@52 = ~Ah, enfin des sous-sols. Je pense que je vais aimer cet endroit.~
+@53 = ~Fauché ? Impertinence ? Quoi ?!? <CHARNAME>, nous devons donner une leçon à ces imbéciles !~
+@54 = ~Et de telles scènes, <CHARNAME>, expliquent pourquoi je trouve les surfacins faibles.~
+@55 = ~Un autre balourd malotru, qui va rapidement aller à sa perte !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 642, probablement inutile de traduire ici !
+@56 = ~Ne te laisse pas ensorceler par elle, <CHARNAME>. Va t'en, esprit ! Nous n'avons pas de temps à perdre avec toi !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 643, probablement inutile de traduire ici !
+@57 = ~Oh, s'il vous plaît, je suis en péril et j'ai besoin de l'aide de braves aventuriers tels que vous !~
+@58 = ~Ah ! J'aime celui-là.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 670, probabilité 91.0
+@59 = ~Regarde, un autre rustre qui vient mourir par nos mains. Suivre la voie de ton père est d'autant plus facile avec tous ces imbéciles qui viennent se jeter sur nous.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 671, probablement inutile de traduire ici !
+@60 = ~Une drow voyage avec vous ? Vous vous êtes fait des alliés en des endroits plus sombres que je n'imaginais...~
+@61 = ~Au moins, ce surfacin connaît la réalité de ce monde.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 478, probabilité 64.7
+@62 = ~Un étrange choix de livre ; je devine que le vieux fou lui-même ne pouvait pas en digérer la lecture.~
+@63 = ~Sûrement, ce ne serait pas un très gros travail pour nous que de disposer du vieux fou, et si le prix est correct...~
+@64 = ~Cela ressemble pour moi à une bonne raison de torturer. Si vous ne pouvez pas repousser une poignée de kobolds tout seul, pourquoi supposer que nous nous ennuierions à vous aider ?~
+@65 = ~Vous... Félonne au coeur sombre !~
+@66 = ~Je me moque de ce que ressentent vos petits seigneurs surfacins. Je vais où je veux.~
+@67 = ~Rah ! Butors et goujats ! N'avez-vous pas idée du travail que demande l'entretien d'un jardin ?!~
+@68 = ~Et c'est ainsi que le faible finit toujours par tomber.~
+@69 = ~Si tu pars *maintenant*, alors peut-être l'un d'entre vous aura-t-il la chance de rester un homme !~
+@70 = ~Personne ne menace les Démolisseurs de Montprofond !! Emparez-vous d'eux !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 710, probablement inutile de traduire ici !
+@71 = ~S'il peut lier la créature à lui, laisse-le garder l'esclave.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 711, probablement inutile de traduire ici !
+@72 = ~Vous ! Vous pensez comme un de ces hommes !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 734, probablement inutile de traduire ici !
+@73 = ~Fais attention, car Umberlie est une divinité capricieuse et mauvaise - assez semblable à Lloth. Je n'en attendrais pas moins de ses suivants.~
+@74 = ~Deux ans ? Bah, à peine le temps d'un battement de paupières. Et bientôt tes yeux ne cligneront plus.~
+@75 = ~Bien effronté, pour un faible.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 755, probablement inutile de traduire ici !
+@76 = ~Tu nous insultes, morveuse, pourtant tu ne survivrais pas une heure en Ombreterre !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 756, probablement inutile de traduire ici !
+@77 = ~Ah ! Ecoutez, les gars ! La peau-noire croit pour de bon à l'existence de l'Ombreterre !~
+@78 = ~Folie ? Ça pourrait être amusant. Observons ça.~
+@79 = ~Et ainsi, une autre pieuse iblith rencontre son destin !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 848, probablement inutile de traduire ici !
+@80 = ~Des garnements chapardeurs ! Aider les esclaves ne fera que nous ralentir, chose dont je ne crois pas que nous ayons besoin.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 849, probablement inutile de traduire ici !
+@81 = ~S'il vous plaît, <PRO_SIRMAAM>... C'est notre meilleure chance de de recouvrer notre liberté, nous avons vraiment besoin de vous !~
+@82 = ~Cela ressemble à un piège... et nous ne devons rien à cette femme, après tout. Ignore ses suppliques.~
+@83 = ~Un stratagème évident, je suis surprise qu'ils en débattent encore.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 760, probablement inutile de traduire ici !
+@84 = ~Ne t'inquiète pas, <CHARNAME>. Shar me révèlera les secrets qui permettront de surmonter la malédiction.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 761, probabilité 85.8
+@85 = ~Je crains que non, drow. Le poison a été ensorcelé de manière à s'assurer qu'aucune magie ne fonctionnerait contre lui... Le Trône de Fer tient vraiment à vous voir morts.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 408, probablement inutile de traduire ici !
+@86 = ~Un vrai bébé qui sort à peine de ses langes.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 409, probablement inutile de traduire ici !
+@87 = ~En méprisant ainsi mes compétences, tu montres que c'est toi l'ignorante, drow.~
+@88 = ~Quels drôles d'animaux vous avez en surface !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 509, probablement inutile de traduire ici !
+@89 = ~La compassion est une faiblesse. Tue-le, <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 797, probablement inutile de traduire ici !
+@90 = ~Le bruit peut être particulièrement exaspérant en effet.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 798, probabilité 84.5
+@91 = ~Exactement ce que je pense. Je rends service à cette cité, vraiment.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 803, probablement inutile de traduire ici !
+@92 = ~Tu vas mourir, iblith.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 496, probabilité 60.6
+@93 = ~Euh. Encore des corvées de boniche. Ne pourrions-nous pas en laisser juste une inachevée ?~
+@94 = ~J'estime que mon temps vaut plus que ça.~
+@95 = ~Hé bien, je n'ai rien de plus. Au revoir et merci à tous, bien que mes remerciements vous semblent inadaptés à votre précieuse personne.~
+@96 = ~Des potions d'infravision ! Par Shar, comme c'est utile !~
+@97 = ~Epargnez-nous vos sarcasmes, car pour la plupart des gens ça l'est en effet ! C'est un miracle de voir dans le noir. Au revoir et merci à tous, bien que mes remerciements vous semblent inadaptés à votre précieuse personne.~
+@98 = ~Je suis tout à fait d'accord. Un iblith vertueux... Pire qu'un pourceau.~
+@99 = ~Voilà qui ressemble à n'importe quel paysan rustre des alentours.~
+@100 = ~Stupide donzelle. J'vous ai dit, avec une tête de chien.~
+@101 = ~Je crois que nous allons commencer par vous menacer !~
+@102 = ~Bien dit.~
+@103 = ~C'est le portrait d'une darthiir ! Répugnant.~
+@104 = ~Tu es déjà vieux.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 832, probablement inutile de traduire ici !
+@105 = ~Capturer une nymphe ne devrait pas être au-dessus de nos capacités ; surtout s'il y a un objet magique à la clef.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 511, probablement inutile de traduire ici !
+@106 = ~Ça peut sûrement s'arranger.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 862, probablement inutile de traduire ici !
+@107 = ~Je préfèrerais ne pas être aux ordres du Poing Enflammé, <CHARNAME>.~
+@108 = ~D'un simple geste magique je peux écorcher ta peau sur tes os, enfant. Tu te penses assez rapide pour y échapper ?~
+@109 = ~Ooupps.~
+@110 = ~Fermier, je suis sûre que tu partages ton "parfum" avec ton troupeau. Tu me dégoûtes.~
+@111 = ~Bah, vous seriez pas aussi arrogants sans tout cet armement ! Aventuriers infects.~
+@112 = ~Oh, cesse de pleurnicher avant que je ne te coupe la langue.~
+@113 = ~Pas vraiment, non. L'idiot ne savait pas se défendre. Je pense que tu vas nous trouver plus qu'à la hauteur de la tâche, rivvin.~
+@114 = ~Tu as été libérée de la pétrification ; il faut s'attendre à une certaine désorientation.~
+@115 = ~Tu vas peut-être trouver mes paroles atypiques, <CHARNAME>, mais... je détesterais me retrouver pétrifiée. Une statue vivante ! J'ai de la sympathie pour cette femme.~
+@116 = ~Vraiment mystérieuse. Je suppose que nous devons partir trouver Eltan, bien que cela veuille dire se retrouver encore au milieu de cet infernal Poing Enflammé. Bah.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 872, probablement inutile de traduire ici !
+@117 = ~Crise du fer ou pas, ton hideux visage était probablement plus qu'assez pour briser ce miroir.~
+@118 = ~Je suis drow. Est-ce que ça n'en dit pas assez sur ma valeur ?~
+@119 = ~Ah ! Un seul d'entre vous est drow, les autres ont l'air faibles !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 877, probablement inutile de traduire ici !
+@120 = ~Oui, mais toi, saleté, tu n'auras ni l'un ni l'autre.~
+@121 = ~C'est ce qui arrive quand les races inférieures s'essaient à la magie.~
+@122 = ~Pas les races inférieures, mais les intellects inférieurs, sûrement ! On peut néanmoins espérer que celui-là aura retenu la leçon.~
+@123 = ~Château-Suif ? Encore un peu de randonnée sans but à travers la campagne, donc.~
+@124 = ~S'il vous plaît, laissez-moi partir !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 74, probablement inutile de traduire ici !
+@125 = ~Un parfait crétin. La mort du faible doit être encouragée ; c'est cette sélection naturelle qui a rendu mon peuple aussi supérieur.~
+@126 = ~Une erreur stupide.~
+@127 = ~Oui, mais en l'élevant je veillerai à ce qu'il en tire l'enseignement. C'est pourquoi j'ai besoin de votre aide.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 812, probablement inutile de traduire ici !
+@128 = ~Le Poing ! Encore !~
+@129 = ~Ce sera avec plaisir.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 192, probablement inutile de traduire ici !
+@130 = ~Comme c'est touchant.~
+@131 = ~Tu as mal choisi le rejeton de Bhaal auquel t'allier, rivvil.~
+@132 = ~Je préfèrerais que ce soit long et désagréable... pour toi.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 908, probablement inutile de traduire ici !
+@133 = ~Regardez cet elfe de surface dépérir une fois sous terre ! Ah ! Au moins cet iblith réalise l'absurdité de son existence.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 909, probablement inutile de traduire ici !
+@134 = ~Un... une drow ! Je dois être mort.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 914, probablement inutile de traduire ici !
+@135 = ~Peut-être le devrions-nous. Bien qu'une telle pitié me soit... inhabituelle, la pétrification est un terrible sort.~
+@136 = ~On dirait que la mort n'a pas développé les facultés de celui-là.~
+@137 = ~Merci !~
+@138 = ~Toi d’abord !~
+@1001 = ~Aucune utilité.~
+@1002 = ~Vous ne pourrez pas dire qu’on ne vous aura pas prévenu.~
+@1003 = ~Quelles épreuves ne faut-il pas endurer !~
+@1004 = ~Je vais vous tuer aussi !~
+@1005 = ~Noooonn !~
+@1006 = ~Je n’ai pas peur de vous !~
+@1007 = ~Ma foi me protège !~
+@1008 = ~Heaum me protégera de vos semblables !~
+@1009 = ~Allons-y maintenant. On parlera plus tard.~
+
+@143 = ~Elle ne te sera d’aucune utilité maintenant !~
+@144 = ~C’est ce qu’on verra !~
+@145 = ~Je crois que ça va être ta fin !~
+@146 = ~Prends ça, enfant.~
+@150 = ~Qu’Ursa nous protège !~
+@152 = ~Ah !~

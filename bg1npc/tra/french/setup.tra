@@ -1,0 +1,194 @@
+@1000  = ~Tutu detecte : contactez www.gibberlings3.net si besoin d'aide~
+@1001  = ~BGT detecte : contactez www.gibberlings3.net si besoin d'aide, en cas de Mega-Installations consultez d'abord www.spellholdstudios.net~
+@1002  = ~Il faudrait installer ce mod dans votre repertoire BG2, Tutu, EasyTutu ou dans votre repertoire BGT, apres les conversions telles que BGT ou Tutu.~
+@1003  = ~Veuillez commencer une nouvelle partie pour beneficier de ce composant.~
+@1004  = ~Le composant "modifications necessaires" du BG1 NPC Project n'a pas ete installe.~
+@1005  = ~BG1 NPC Project : modifications necessaires~
+@1006  = ~BG1 NPC Project : bavardages, quetes et interjections~
+@1007  = ~BG1 NPC Project : bavardages, quetes et interjections~
+@1008  = ~BG1 NPC Project : modification et ajout de portraits~
+@1009  = ~BG1 NPC Project : ajouter des portraits de PNJs non-recrutables pour les dialogues et les quetes~
+@1010  = ~BG1 NPC Project : romances~
+@1011  = ~BG1 NPC Project : romance de Coran, elements de base (contenu adulte)~
+@1012  = ~BG1 NPC Project : romance de Dynaheir, elements de base (contenu adolescent)~
+@1013  = ~BG1 NPC Project : relation avec Shar-Teel, elements de base (contenu adulte)~
+@1014  = ~BG1 NPC Project : romance de Branwen, elements de base (contenu adolescent)~
+@1015  = ~BG1 NPC Project : romance de Xan, elements de base (contenu adolescent)~
+@1016  = ~BG1 NPC Project : romance d'Ajantis, elements de base (contenu adolescent)~
+@1017  = ~BG1 NPC Project : conflits de romance pour personnage feminin, Ajantis - Xan - Coran~
+@1018  = ~Romance [Coran]~
+@1019  = ~BG1 NPC Project : zones de Bois-Manteau accessibles au chapitre 1~
+@1020  = ~Rendre accessible le Pavillon de Bois-Manteau (premiere zone de Bois-Manteau uniquement)~
+@1021  = ~Rendre accessibles les quatre zones de Bois-Manteau (tout sauf les mines)~
+@1022  = ~BG1 NPC Project : donner a Edwin son portrait de BG2~
+@1023  = ~BG1 NPC Project : donner a Imoen son portrait de BG2~
+@1024  = ~BG1 NPC Project : donner a Jaheira son portrait de BG2~
+@1025  = ~BG1 NPC Project : donner a Minsc son portrait de BG2~
+@1026  = ~BG1 NPC Project : donner a Viconia son portrait de BG2~
+@1027  = ~BG1 NPC Project : donner a Kivan son portait issu du mod "Kivan and Deheriana Companions"~
+@1028  = ~Rythme de romance de Coran (standard : 1 heure)~
+@1029  = ~La romance de Coran n'est pas installee.~
+@1030  = ~Rythme de romance de Coran (45 minutes)~
+@1031  = ~Rythme de romance de Coran (30 minutes)~
+@1032  = ~Rythme de romance de Coran (15 minutes)~
+@1033  = ~Rythme de romance de Coran (lent : 1 heure 30 minutes)~
+@1034  = ~Rythme de romance de Dynaheir (standard : 1 heure)~
+@1035  = ~La romance de Dynaheir n'est pas installee.~
+@1036  = ~Rythme de romance de Dynaheir (45 minutes)~
+@1037  = ~Rythme de romance de Dynaheir (30 minutes)~
+@1038  = ~Rythme de romance de Dynaheir (15 minutes)~
+@1039  = ~Rythme de romance de Dynaheir (lent : 1 heure 30 minutes)~
+@1040  = ~Rythme de romance de Xan (standard : 1 heure)~
+@1041  = ~La romance de Xan n'est pas installee.~
+@1042  = ~Rythme de romance de Xan (45 minutes)~
+@1043  = ~Rythme de romance de Xan (30 minutes)~
+@1044  = ~Rythme de romance de Xan (15 minutes)~
+@1045  = ~Rythme de romance de Xan (lent : 1 heure 30 minutes)~
+@1046  = ~Rythme de romance de Shar-Teel (standard : 1 heure)~
+@1047  = ~La romance de Shar-Teel n'est pas installee.~
+@1048  = ~Rythme de romance de Shar-Teel (45 minutes)~
+@1049  = ~Rythme de romance de Shar-Teel (30 minutes)~
+@1050  = ~Rythme de romance de Shar-Teel (15 minutes)~
+@1051  = ~Rythme de romance de Shar-Teel (lent : 1 heure 30 minutes)~
+@1052  = ~Rythme de romance de Branwen (standard : 1 heure)~
+@1053  = ~La romance de Branwen n'est pas installee.~
+@1054  = ~Rythme de romance de Branwen (45 minutes)~
+@1055  = ~Rythme de romance de Branwen (30 minutes)~
+@1056  = ~Rythme de romance de Branwen (15 minutes)~
+@1057  = ~Rythme de romance de Branwen (lent : 1 heure 30 minutes)~
+@1058  = ~Rythme de romance d'Ajantis (standard : 1 heure)~
+@1059  = ~La romance d'Ajantis n'est pas installee.~
+@1060  = ~Rythme de romance d'Ajantis (45 minutes)~
+@1061  = ~Rythme de romance d'Ajantis (30 minutes)~
+@1062  = ~Rythme de romance d'Ajantis (15 minutes)~
+@1063  = ~Rythme de romance d'Ajantis (lent : 1 heure 30 minutes)~
+@1064  = ~BG1 NPC Project : possibilite d'envoyer les PNJs attendre dans une auberge~
+@1065  = ~BG1 NPC Project : alterations~
+@1066  = ~Sword Coast Stratagems a deja installe ce composant. Pour utiliser la version BG1 NPC Project, veuillez d'abord desinstaller la version SCS.~
+@1067  = ~Alora apparait a la Maison des Merveilles~
+@1068  = ~BG1 NPC Project : emplacement initial d'Alora~
+@1069  = ~Alora apparaitra a la Maison des Merveilles, comme dans le jeu original.~
+@1070  = ~Alora apparait a Gullykin~
+@1071  = ~Veuillez commencer une nouvelle partie pour qu'Alora apparaisse a Gullykin, pres de la porte de la fabrique de vin.~
+@1072  = ~Eldoth apparait a Bois-Manteau~
+@1073  = ~BG1 NPC Project : emplacement initial d'Eldoth~
+@1074  = ~Eldoth apparaitra à Bois-Manteau, comme dans le jeu original.~
+@1075  = ~Eldoth apparait au carrefour de Chateau-Suif, de Brasamical et de Beregost~
+@1076  = ~Veuillez commencer une nouvelle partie pour qu'Eldoth apparaisse au carrefour, pres de l'obelisque.~
+@1077  = ~Quayle apparait au Pont de la Porte de Baldur~
+@1078  = ~BG1 NPC Project : emplacement initial de Quayle~
+@1079  = ~Quayle apparaitra au Pont de la Porte de Baldur, comme dans le jeu original.~
+@1081  = ~Quayle apparait au Festival de Nashkel~
+@1082  = ~Veuillez commencer une nouvelle partie pour que Quayle apparaisse au Festival de Nashkel, pres du spectacle de Gazib le Magnifique.~
+@1083  = ~Tiax apparait a la Porte de Baldur~
+@1084  = ~BG1 NPC Project : emplacement initial de Tiax~
+@1085  = ~Tiax apparaitra a la Porte de Baldur, comme dans le jeu original.~
+@1086  = ~Tiax apparait a Beregost~
+@1087  = ~Veuillez commencer une nouvelle partie pour que Tiax apparaisse a Beregost au premier etage de l'auberge de Feldpost.~
+@1088  = ~Accelerateur de bavardages par Jason Compton~
+@1089  = ~Vous avez deja installe l'accelerateur de bavardages.~
+@1090  = ~BG1 NPC Project : verification de la presence de Walking Speeds de TutuFix~
+@1091  = ~BG1 NPC Project : dialogues inities par le joueur~
+@1092  = ~BG1 NPC Project : empecher Shar-Teel de mourir avant qu'elle rejoigne le groupe~
+@1093  = ~Ce composant n'est utile que pour une installation avec Tutu.~
+@1094  = ~BG1 NPC Project : ajustement de reputation grace a des bardes~
+@1095  = ~Incompatible avec BGT :
+Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
+@1096  = ~Romance [Dynaheir]~
+@1097  = ~Romance [Xan]~
+@1098  = ~Romance [Shar-Teel]~
+@1099  = ~Romance [Branwen]~
+@1100  = ~Romance [Ajantis]~
+@1101  = ~Les fonctionnalites apportees par ce composant sont soit deja incluses, soit remplacees par un de vos mods deja installe.~
+@1102  = ~Choisissez l'une des options suivantes :
+[1] 1 heure de temps reel entre les dialogues de romance (standard)
+[2] 45 minutes de temps reel entre les dialogues de romance
+[3] 30 minutes de temps reel entre les dialogues de romance
+[4] 15 minutes de temps reel entre les dialogues de romance
+[5] 1 heure 30 minutes de temps reel entre les dialogues de romance (version lente)~
+@1103  = ~Selectionnez le rythme de romance de Coran :~
+@1104  = ~Selectionnez le rythme de romance de Dynaheir :~
+@1105  = ~Selectionnez le rythme de romance de Shar-Teel :~
+@1106  = ~Selectionnez le rythme de romance de Branwen :~
+@1107  = ~Selectionnez le rythme de romance de Xan :~
+@1108  = ~Veuillez taper une des options : 1, 2, 3, 4 ou 5 puis appuyer sur Entree.~
+@1109  = ~Rythme : 1 heure de temps reel entre les dialogues de romance (standard)~
+@1110  = ~Rythme : 45 minutes de temps reel entre les dialogues de romance~
+@1111  = ~Rythme : 30 minutes de temps reel entre les dialogues de romance~
+@1112  = ~Rythme : 15 minutes de temps reel entre les dialogues de romance~
+@1113  = ~Rythme : 1 heure 30 minutes de temps reel entre les dialogues de romance (version lente)~
+@1114  = ~Journal de Sarevok enrichi par SixofSpades~
+@1115  = ~BG1 NPC Project : ajustements du journal de Sarevok~
+@1116  = ~Changement des dates dans le journal de Sarevok uniquement.~
+@1117  = ~Selectionnez le rythme de romance d'Ajantis :~
+@1118  = ~Achen Dell~
+@1119  = ~Cailan~
+@1120  = ~Faizah Tin~
+@1121  = ~Rance~
+@1122  = ~Vail~
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+// Termes non standards pour s'adapter au fait que l'instruction AUTHOR renvoie au forum du projet
+@-1004= "S'IL VOUS PLAIT, postez le contenu du fichier"
+@-1005= "dans le forum de"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"

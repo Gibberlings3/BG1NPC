@@ -1,0 +1,391 @@
+// reconnaît Tazok dans le dernier combat
+@0 = ~Tazok !~
+@1 = ~Hé bien... Nous nous rencontrons à nouveau. Pensais-tu que je mourrais aussi facilement que ta donzelle ?~
+@2 = ~Je vous jetterai dans les Enfers même si je dois vous y suivre !~
+@3 = ~Tazok ! Vous n'avez nul endroit où fuir cette fois-ci. Mon serment sera enfin accompli. Déhériana, melamin, cette heure sanglante est nôtre !~
+@4 = ~Hé hé. Ma petite compagnie aura une tête d'elfe avec laquelle jouer ce soir !~
+@5 = ~Je vous jetterai dans ces Abysses auxquels vous appartenez !~
+
+
+
+// Kivan/Beldin
+@6 = ~M-merci, aventuriers. Je... J'ai trouvé cette gemme en creusant... je la gardais pour ma femme, mais... vous m'avez rendu ma vie, et je n'ai rien d'autre pour payer votre courage...~
+@7 = ~Alors elle revient à votre épouse, mon ami. Partez maintenant, avant que ne viennent davantage de 'démons'.~
+@8 = ~Mais votre vie est un présent suffisant pour elle. Merci pour la gemme.~
+@9 = ~Etes-vous encore là, lâche ? Hors de ma vue, avant que je ne vous tue moi-même. Ah ! Effrayé par des kobolds !~
+
+
+@10 = ~Tentez de rester dans les ombres et demandez aux gardes de vous escorter jusqu'à la surface.~
+@11 = ~Je le ferai, Maître Elfe. J'dirai aux gardes et à Maître Emerson lui-même combien vous êtes courageux. J'espère que vous allez tuer vite fait tous les monstres là en bas - y'a un gars qui doit gagner sa vie.~
+
+
+// Dink
+@12 = ~Il le fera sûrement, si les choses vont aussi mal qu'ils le laissent entendre. Nous ferions bien, <CHARNAME>, de trouver le gars aussi vite que possible. Ces gardes n'ont pas l'air du genre à blesser les ouvriers, même en cas de danger grave. Je doute qu'un homme ordinaire puisse défaire les créatures maléfiques que je sens, mais une dague vaut mieux que des mains nues.~
+
+// Joseph
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 742, probablement inutile de traduire ici !
+@13 = ~Mes condoléances, bonne dame. Je... Je sais combien cela fait mal de perdre la personne qu'on aime. Je voudrais pouvoir vous offrir plus que des mots.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 743, probablement inutile de traduire ici !
+@14 = ~*sanglots*~
+
+// Bardolan
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 534, probablement inutile de traduire ici !
+@15 = ~<CHARNAME>, je refuse de croire qu'aucun homme doté de son bon sens pourrait assassiner les siens.~
+
+// Berrun
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 241, probablement inutile de traduire ici !
+@16 = ~Il est agréable de savoir que nos efforts sont bien appréciés, <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 360, probablement inutile de traduire ici !
+@17 = ~Je serai heureux de venir en aide à la population de cette cité, <CHARNAME>.~
+
+// Liia Jannath
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 246, probablement inutile de traduire ici !
+@18 = ~<CHARNAME>, cet homme a tué votre père. Le laisseriez-vous s'échapper ? Bien sûr, ses plans ont été contrés, mais il vit toujours.~
+
+// Fermier Brun
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 255, probablement inutile de traduire ici !
+@19 = ~<CHARNAME>, non seulement vous avez offert une aide bien nécessaire, mais vous l'avez offerte de telle manière que la fierté de cet homme n'a pas été offensée de l'accepter. Voilà une leçon pour nous tous.~
+
+// Gallor
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 259, probablement inutile de traduire ici !
+@20 = ~Je ne vous permettrai pas de faire ce que ce bandit vous propose ! Défendez-vous !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 537, probablement inutile de traduire ici !
+@21 = ~Je suis effrayé à l'idée qu'il puisse réussir à trouver de l'aide. Nous devrions parler à Charleston, pour éviter le bain de sang.~
+
+// Angelo
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 263, probabilité 99.9
+@22 = ~C'est une grave injure que d'être accusé de meurtre, plus grave encore quand cela vient d'un hors-la-loi.~
+@23 = ~Est-ce là ce que vous autres humains appelez justice ? Exécuter des innocents dans la rue sur l'ordre d'un usurpateur ?~
+
+// Varci
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 902, probablement inutile de traduire ici !
+@24 = ~A votre place, je suivrais ce garçon, ne serait-ce que pour dire à celui qui en a la garde qu'il n'est pas convenable de le laisser mendier de l'aide dans les rues.~
+
+// Vail
+@25 = ~Je vous félicite de votre décision, <CHARNAME>.~
+@26 = ~Vail, je vais manquer aux traditions de notre peuple en faisant cela, mais... vous êtes un homme bon. Avant d'assourdir tout à fait votre âme, cessez de déshonorer notre communauté en vivant dans une cité humaine et en payant des femmes dissolues pour ce qu'elles appellent "l'amour". Repartez donc, mon ami, ou vous pourriez un jour ne plus trouver où fuir.~
+@27 = ~Vous ne vous battrez pas seul, frère de sang.~
+@28 = ~Vous vous déshonorerez en défiant ceux qui ne souhaitent pas combattre.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 894, probablement inutile de traduire ici !
+@29 = ~<CHARNAME>, les bibelots magiques ont de la valeur, mais le respect des hommes est bien plus précieux ; on ne peut le gagner en dépouillant ceux que l'on a sauvés de leurs objets de prix. Songez-y.~
+
+// Quinn
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 827, probablement inutile de traduire ici !
+@30 = ~Trop souvent les quêtes comme celle-ci finissent avec la découverte d'un cadavre. Ce sont des temps bien sombres, en vérité.~
+
+// Ardrouine
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 282, probablement inutile de traduire ici !
+@31 = ~Mon ami, ce fut un noble geste. Je souhaiterais que les gens soient plus nombreux à offrir comme vous le faites une main secourable au petit peuple.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 70, probablement inutile de traduire ici !
+@32 = ~Sur mon honneur de rôdeur, je jure que nous ferons de notre mieux pour faire fuir les worgs, bonne dame.~
+
+// Dynahéir
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 39, probablement inutile de traduire ici !
+@33 = ~Je ne resterai pas les bras croisés, et vous aiderai encore moins à achever ce que les gnolls ont commencé en torturant cette femme innocente ! Dame Dynahéir, c'est un plaisir pour moi que de vous offrir mon aide contre ces... bandits.~
+
+// Spengil'meh
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 540, probablement inutile de traduire ici !
+@34 = ~Le pont de Flammevin a été construit par les elfes, <CHARNAME>. C'était autrefois une cité commerçante, jusqu'à sa destruction il y a deux siècles. Deux puissants mages se sont affrontés en duel non loin de là, et ils avaient déchaîné une telle quantité d'énergie magique qu'ils avaient rasé les maisons et détourné pour toujours le cours du fleuve. J'aimerais beaucoup voir ce qu'il en demeure encore.~
+
+
+
+// Mirianne
+@35 = ~Votre sourire est une récompense suffisante. Il est important de savoir que quelque part en ce monde, il y a quelqu'un d'heureux.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 783, probablement inutile de traduire ici !
+@36 = ~Chère dame, nous ferons de notre mieux. Et si je puis... si la parole d'un étranger peut en quoi que ce soit vous réconforter - J'espère que votre mari va bien.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 784, probablement inutile de traduire ici !
+@37 = ~Merci, mon bon elfe.~
+
+// Bjornin
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 605, probablement inutile de traduire ici !
+@38 = ~Inutile d'en dire davantage, Bjornin. C'est comme si ces demi-ogres étaient morts.~
+
+// Neb
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 289, probablement inutile de traduire ici !
+@39 = ~On ne peut pas laisser en liberté cet homme infâme.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 290, probablement inutile de traduire ici !
+@40 = ~*caquète* Stupide elfe.~
+
+// Ramazith
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 840, probablement inutile de traduire ici !
+@41 = ~<CHARNAME> ! Etes-vous sourd ? Le mage va tuer la nymphe ! Resterez-vous tranquille à côté, à ne rien faire ? Essayez au moins de détourner ce misérable d'un acte aussi maléfique - ou nous aurons son sang sur les mains.~
+      ~<CHARNAME> ! Etes-vous sourde ? Le mage va tuer la nymphe ! Resterez-vous tranquille à côté, à ne rien faire ? Essayez au moins de détourner ce misérable d'un acte aussi maléfique - ou nous aurons son sang sur les mains.~
+
+
+// Abela
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 542, probabilité 97.4
+@42 = ~C'est vrai, vous aviez un accord, mais la vie de cette femme vaut davantage que des mots. Seul un homme au coeur bien sombre pourrait vous reprocher de briser cet accord. Mais peut-être Ramazith peut-il se laisser persuader de vous libérer de votre parole.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 543, probablement inutile de traduire ici !
+@43 = ~Tant de cérémonies dans les cités des hommes... Ecoutez votre coeur, elfe ; ne vous dit-il pas de me libérer ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 544, probablement inutile de traduire ici !
+@44 = ~Si fait, mais il y a encore un espoir que <CHARNAME> reprenne ses esprits avant que le sang ne soit versé en votre nom.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 545, probablement inutile de traduire ici !
+@45 = ~Du sang... *elle frissonne* Le sang est affreux...~
+
+// Ragefast
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 297, probablement inutile de traduire ici !
+@46 = ~On n'enferme pas la femme qui est l'amour de sa vie contre sa volonté. Laissez-la partir, mage, ou vous regretterez de l'avoir jamais aimée.~
+
+// Mine, esclave
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 300, probablement inutile de traduire ici !
+@47 = ~Non, nous ne l'avons *pas* fait, mais nous allons le faire immédiatement. C'est ainsi, <CHARNAME>.~
+
+// Rill
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 852, probablement inutile de traduire ici !
+@48 = ~Un plan audacieux, mon ami ! <CHARNAME>, nous *devons* libérer ces gens.~
+
+// Tenya
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 303, probablement inutile de traduire ici !
+@49 = ~C'est méprisable ! Ces pêcheurs nous ont envoyés assassiner une enfant ! <CHARNAME>, je ne me joindrai pas à ça !~
+
+// Thalantyr
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 95, probablement inutile de traduire ici !
+@50 = ~J'espérais que ma compagnie recevrait un meilleur accueil, Thalantyr. Vous m'avez jadis proposé votre toit, ou l'avez-vous oublié ?~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 96, probabilité 98.9
+@51 = ~Elfe ! Vous vous appeliez Kivan, si je ne me trompe. Bah ! C'est un traitement approprié pour vous, si vous restez dans votre coin avec le capuchon rabattu sur le visage. Mais je ne vous ai jamais remercié convenablement... Venez, venez, je vous montrerai ce que j'ai fait de la lance que vous avez brisée sur ces bandits importuns qui tentaient d'entrer de force ici. Je suis assez satisfait de la façon dont l'enchantement a tourné. Je ne fabrique pas d'armes, voyez-vous. Bah ! C'est un cadeau. Prenez, prenez, elfe.~
+
+// Kelddath
+@52 = ~Prêtre, votre temple est imposant et empli d'espoir.~
+@53 = ~Et avez-vous renoncé à l'espoir, mon fils ?~
+@54 = ~J'ai un espoir, mais il repose au-delà de ce plan, Kelddath Ormlyr.~
+@55 = ~Elfe, regardez le soleil à son lever. Il renaît, neuf, tous les matins - ici et partout en ce monde... sur ce plan. Réjouissez-vous d'être béni de ses rayons.~
+
+// Drizzt
+@56 = ~Saesa omentien lle, Drizzt Do'Urden. C'est un plaisir de vous rencontrer... J'ai entendu parler de vous au sein de mon peuple, et je suis heureux de cette rencontre. Je suis Kivan de Shilmista. Jamais je n'aurais espéré trouver une âme noble parmi ceux de votre race. Je sers Shevarash, et pourtant ce ne sera pas blasphémer contre ma foi que de vous serrer la main, Drizzt Do'Urden. Le vrai sang des Illythiry coule en vous avec force, sans avoir été corrompu par la traîtrise de Lolth. Même après 5000 ans, la bonté se niche encore dans les ténèbres.~
+@57 = ~Je ne sais combien de ma race sont nés et demeurés non souillés par les enseignements de Lolth. Mais mon père était ainsi. Peut-être qu'un jour nous pourrons tous nous rassembler et marcher à la surface en amis de toutes les créatures de bonne foi.~
+@58 = ~Alors la tâche de Shevarash sera vraiment accomplie.~
+@59 = ~Shevarash a un point de vue plus sinistre. Les milliers d'années de haine qui séparent nos peuples ne seront pas aisément oubliées. Nous devons espérer, néanmoins. Que Mielikki vous bénisse, Kivan.~
+@60 = ~Aa' menealle nauva calen ar' malta, Mori'quessir. Que votre route soit verte et dorée, Elfe Noir.~
+
+// Samuel
+@61 = ~Une désertion est un acte lâche, mais je ne peux m'empêcher d'avoir pitié de lui. Et sa femme, Lena, a assez de courage pour deux, à traverser ainsi des bois remplis de gobelins, avec un homme blessé à protéger. Dissimulons cet homme, <CHARNAME>, pour sa sécurité à elle, même si lui ne mérite rien de plus que notre mépris.~
+
+// Vai
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 813, probablement inutile de traduire ici !
+@62 = ~Si vous avez toujours besoin d'aide pour détruire les bandits du secteur, Jessa Vai, mon ami a accepté de m'aider à trouver leur repaire.~
+      ~Si vous avez toujours besoin d'aide pour détruire les bandits du secteur, Jessa Vai, mon amie a accepté de m'aider à trouver leur repaire.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 814, probablement inutile de traduire ici !
+@63 = ~Bonne journée à vous aussi, Kivan de Shilmista. Je vais seulement mettre <CHARNAME> au courant de certains... détails. Avec votre permission...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 815, probablement inutile de traduire ici !
+@64 = ~Il est bon de voir que vous avez pris ce rôdeur dans votre groupe. Il a besoin de compagnie pour rester sain d'esprit. Un coeur vrai, une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 816, probablement inutile de traduire ici !
+@65 = ~Je suis heureuse de voir qu'une femme avisée veille à présent sur ce rôdeur elfe. Un coeur vrai,une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ? Et si vous voulez discuter - c'est moi qui offre la bière ce soir.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 817, probablement inutile de traduire ici !
+@66 = ~Maintenant, revenons à nos affaires... Avez-vous des questions, <CHARNAME> ?~
+
+// Gerde
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 223, probablement inutile de traduire ici !
+@67 = ~Je m'assurerai de bien compter les bêtes que nous tuerons, et je veillerai à ce que mes compagnons n'oublient pas la limite.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 224, probablement inutile de traduire ici !
+@68 = ~Que Shaundakul vous guide, mon ami.~
+
+// Brielbara
+@69 = ~Durant mes longues années de solitude j'ai souvent désiré un enfant, Coran. Réfléchissez bien avant de refuser le présent que cette femme vous a offert.~
+@70 = ~Kivan... Je ne suis pas vous, et Briel n'est pas Déhériana.~
+
+// Corsone
+@71 = ~Parfois c'est pitié que de faire présent de la mort, je ne le sais que trop. Mais si cet homme était fou de douleur, il n'était pas impossible de le ramener à la raison. Le sachant pertinemment, Corsone n'a rien fait pour empêcher la mort de celui qu'il appelait son camarade. Au lieu de cela, il nous a aidés à assassiner Osmadi...~
+@72 = ~Je vous conjure de persévérer dans votre interrogatoire, <CHARNAME>. Nous avons ce sang sur les mains, et ne serons jamais en mesure de nous en amender si nous ne découvrons pas toute la vérité sur cette affaire.~
+
+// Nexlit
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 801, probablement inutile de traduire ici !
+@73 = ~Chamane, nous ne faisions que traverser votre village les armes rengainées quand votre peuple nous a attaqués. Mais nous baisserons nos armes, si vous baissez les vôtres.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 802, probablement inutile de traduire ici !
+@74 = ~Il est trop tard. Il y a eu trop de morts. Ursa vous tuera pour ça !~
+
+// Ramazith
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 834, probablement inutile de traduire ici !
+@75 = ~Ce mage n'aspire pas à libérer la nymphe captive, mais à l'emprisonner de nouveau ? <CHARNAME>, nous agirions bien en libérant la créature des bois et en la laissant fuir ces hommes.~
+
+// Lothandre
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 762, probablement inutile de traduire ici !
+@76 = ~Empoisonné ? Notre adversaire devient désespéré, s'il en est à dédaigner l'honnête acier pour les mixtures maudites de Talona.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 763, probablement inutile de traduire ici !
+@77 = ~Oh, peu importe. Continuons à faire ce que nous avons à faire.~
+
+// Minsc
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 526, probabilité 84.6
+@78 = ~<CHARNAME>, un homme peut se faire torturer et tuer, mais son honneur reste sauf. Une femme capturée par des brutes sauvages sera déshonorée... Je vous conjure d'aider à trouver la compagne de cet homme avant qu'il ne soit trop tard.~
+
+// archéologues, quand ils trouvent la statue
+@79 = ~Est-ce ainsi que les humains recherchent la connaissance ? En creusant dans les tertres funéraires de leurs ancêtres ? Je recommande la prudence, <CHARNAME> ; une curiosité d'une telle nature réside souvent dans des âmes maléfiques ou avides.~
+
+// edwin
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 467, probabilité 63.0
+@80 = ~Vous voulez que nous tombions sur une femme comme une troupe de brigands et que nous la tuions ? Vous nous demandez là de commettre un acte maléfique, Edwin Odesseiron, et n'avez aucune preuve de la corruption de cette femme ou de ses offenses envers vous. <CHARNAME>, nous ferions bien de prévenir Dynahéir des complots de cet homme.~
+
+// Mulahey
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 787, probablement inutile de traduire ici !
+@81 = ~Utinu en lokirim ! Fils de serpents !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 788, probablement inutile de traduire ici !
+@82 = ~Il y a trop d'elfes dans cette mine ! Tuez-le !~
+
+// Mutamin
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 492, probabilité 98.2
+@83 = ~J'ai vu un véritable artiste près des mines de Nashkel. Prisme déversait son âme dans une sculpture d'une rare beauté - et il donnait le meilleur de lui-même pour faire prendre vie à la pierre. Vous, au contraire, vous prenez la vie d'autrui, fou, et vous n'avez rien créé de mieux qu'un jardin de terreur... Ce ne sont pas des statues, Mutamin, c'est... de la pierre morte.~
+
+// Teven
+@84 = ~Si cela se passe comme je le désire, vous ne l'ouvrirez plus du tout avant la fin du jour.~
+@85 = ~ Attendez une minute ! Baisse ton capuchon, ordure ! Hé, les gars, c'est le vieil ami de Tazok, celui qu'a buté Gren le Rouge ! On a qu'à apporter sa tête à Tazok et on sera riches !~
+@86 = ~Teven attaque
+
+J'ai rencontré une partie des bandits qui ravagent actuellement la côte. Leur chef, Teven, a reconnu mon compagnon Kivan... et je crains que cela n'ait terminé de façon violente, et que je ne doive trouver un autre moyen de localiser leur base.~
+
+// raiken
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 828, probablement inutile de traduire ici !
+@87 = ~Je ne baisserai pas mon épée, <CHARNAME> ! Je la rengainerais plus volontiers dans le corps de cet homme. Cela dit, si vous voulez pénétrer déguisé à l'intérieur du repaire de ces bandits, je retiendrai ma main. Mais n'attendez pas de moi que je me taise, si nous rencontrons Tazok.~
+      ~Je ne baisserai pas mon épée, <CHARNAME> ! Je la rengainerais plus volontiers dans le corps de cet homme. Cela dit, si vous voulez pénétrer déguisée à l'intérieur du repaire de ces bandits, je retiendrai ma main. Mais n'attendez pas de moi que je me taise, si nous rencontrons Tazok.~
+
+// Credus
+@88 = ~Vous vous trompez. C'est Tazok qui va mourir aujourd'hui !~
+@89 = ~'Core un espion des elfes ! On a eu assez de jérémiades avec cet Ender ! Quoi qu'il en soit, les gars, z'êtes morts !~
+
+// Raemon
+@90 = ~Où est-il ?! Dites-moi où est Tazok, et je vous laisserai partir !~
+
+// Garklax
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 684, probablement inutile de traduire ici !
+@91 = ~Ce ne sont pas des prisonniers, <CHARNAME>. Il est plus probable que ce soient des bandits trop indisciplinés même pour le Frisson !~
+
+// Ender
+@92 = ~Merci, frère de race. Je... Je sais ce que c'est que d'être capturé par Tazok et ses hommes. Avez-vous besoin de soins ?~
+@93 = ~Le pire est passé, mon ami. Tazok m'a oublié depuis quelques jours... à moins qu'il n'ait préparé quelque chose de spécial pour mon exécution et voulu que je sois valide pour cette occasion ? Qui sait, mais dans cette tente j'étais à l'abri de ces brutes... La plupart du temps.~
+@94 = ~Vous avez eu de la chance Ender.~
+@95 = ~Etes-vous... seriez-vous Kivan, par hasard ?~
+@96 = ~Vous me connaissez ?~
+@97 = ~Votre nom a été mentionné. Prenez garde, mon ami, un chien fou en a après vous. Je n'en sais pas plus, mais soyez prudent. Vanya sulie... Que les vents vous soient doux.~
+
+// Permidon
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 503, probablement inutile de traduire ici !
+@98 = ~J'ai déjà rencontré le mage, Thalantyr, par le passé. C'est un homme bon, et je ne mènerai pas un assaut contre lui. Cela peut valoir la peine de lui rendre visite, cela dit, et peut-être de commercer avec lui, <CHARNAME>. Il sera intéressé par des articles magiques, si toutefois nous en avions en surplus.~
+
+// Cattack
+@99 = ~<CHARNAME>, ce sont ces bandits du Frisson que nous avons promis d'arrêter !~
+@100 = ~Oué, z'avez raison, oreille pointue. Je suis Cattack, membre du Frisson. Le Frisson a reçu l'ordre d'attaquer tous ces empotés d'humains qui porteraient du fer. On fait ça, on aime ça parce que c'est marrant de TUER !~
+
+
+// Kirian
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 204, probablement inutile de traduire ici !
+@101 = ~Aviez-vous besoin de provoquer cette femme ? Ces meurtres auraient pu être évités, <CHARNAME>, si nous avions pour chef un homme avisé.~
+       ~Aviez-vous besoin de provoquer cette femme ? Ces meurtres auraient pu être évités, <CHARNAME>, si nous avions pour chef une femme avisée.~
+
+
+
+// Davaeorn
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 214, probablement inutile de traduire ici !
+@102 = ~Vous avez raison sur un point : nous sommes venus mettre fin aux tortures et à l'esclavage que vous imposez à des innocents. Et quant au fait que c'est comme si nous étions morts... nous verrons. Nous ne sommes pas des esclaves affamés et faciles à intimider.~
+
+// Karan
+@103 = ~Votre vieux tuteur n'a pas semblé alarmé de voir notre groupe traverser ce sanctuaire du savoir armé jusqu'aux dents. Et pourtant, il ergote sur un homme qui a récité un vieux parchemin de mémoire. Vraiment, cette bibliothèque est spéciale.~
+
+// Garrick
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 685, probablement inutile de traduire ici !
+@104 = ~<CHARNAME>, le moment est mal choisi pour de prudentes délibérations : une femme est menacée de torture ! Je prie pour qu'il ne soit pas déjà trop tard !~
+
+// Faltis
+@105 = ~Je m'excuse de mes paroles irréfléchies, <CHARNAME>. Je devrais avoir assez de sagesse pour ne pas présupposer qu'une femme ne peut mentir, mais... *il secoue la tête*~
+
+// Montaron joint le groupe
+@106 = ~Vous'aut gentils culs bénis n'êtes pas un groupe pour moi.~
+
+// Beldin
+@107 = ~Des kobolds ! Reculez, vieil homme, reculez derrière nous...~
+
+// Montaron a tué Ender
+@108 = ~Montaron a tué mon frère de race, sans raison ! <CHARNAME>, je voulais seulement redresser les torts... mais je vous ai conduits ici, vous et votre compagnon. Maintenant un innocent gît mort à mes pieds. A compter de maintenant, je chasserai seul.~
+@109 = ~Non, Kivan, ne partez pas ! Je suis consterné de ce que Montaron a fait, pour ma part, et ne le garderai pas dans mon groupe !~
+       ~Non, Kivan, ne partez pas ! Je suis consternée de ce que Montaron a fait, pour ma part, et ne le garderai pas dans mon groupe !~
+@110 = ~Quelle importance, beaucoup d'histoires pour pas grand chose.~
+@111 = ~Je ne peux en toute sincérité vous souhaiter bonne route, <CHARNAME>...~
+
+// Mort de Prisme
+@112 = ~Je m'incline avec respect devant vous, Maître. Vous vous êtes attaché à une femme que vous n'étiez pas destiné à connaître. Votre amour était une lumière éclatante et pure qui rayonnera sur beaucoup de gens. Vous avez donné naissance à une oeuvre de grande beauté, aussi immortelle que le modèle lui-même.~
+
+// Première entrée au camp des bandits
+@113 = ~Il me faut quelques instants pour prier Shevarash. Il semblerait que mon ennemi juré soit enfin à portée de flèche.~
+@114 = ~Faites vite, de crainte que nous ne soyons découverts.~
+@115 = ~Bien sûr, elfe. Je joindrai ma voix à la vôtre pour le succès de notre bataille contre les brigands.~
+@116 = ~Je suis désolé, Kivan, je préfère que nous avancions rapidement. Vous pourrez prier tant que vous voudrez, quand nous en aurons fini.~
+       ~Je suis désolée, Kivan, je préfère que nous avancions rapidement. Vous pourrez prier tant que vous voudrez, quand nous en aurons fini.~
+@117 = ~Mon Seigneur Shevarash, voici, je me tiens sur la terre que le monstre qui a tué ma bien-aimée foule encore. Il n'est pas de plus grand désir en mon coeur que de la détremper de son sang noir. Je demande à ce que la fermeté de mon bras égale celle de mon âme. Je demande l'accomplissement de mon voeu, je demande le coup qui mettra mon ennemi à bas. Je Vous demande de me donner la force de combattre, et la force de protéger ceux qui combattent avec moi.~
+@118 = ~Je comprends votre besoin. Je demeurerai silencieux. Laissons mes flèches chanter ma prière à ma place.~
+
+// Voit Tazok pour la première fois
+@119 = ~Monstre, vous rappelez-vous ma chère Déhériana ?~
+
+// Après la fuite de Tazok
+@120 = ~NON ! Restez et battez-vous, ou je vous traiterai de lâche... Mais qu'avais-je espéré ? Tazok est un lâche, car quiconque est prêt à torturer des êtres innocents et sans défense est un lâche. Cette bataille est finie, mais la guerre ne l'est pas, Tazok ! Je vous retrouverai !~
+
+// Avant la dernière bataille avec Sarevok
+@121 = ~Votre demi-frère et ennemi juré est proche, <CHARNAME>. Puissent les dieux avoir pitié de vous.~
+
+// entrée à la tour de durlag
+@122 = ~C'est un étrange endroit que vous avez choisi de visiter. Votre chasse au trésor est-elle si importante pour vous que vous souhaitiez traverser ces salles emplies de fantômes de nains ? Ils n'aiment pas me voir ici, je peux le sentir.~
+
+// entrée à baldur'sgate
+@123 = ~L'imagination des humains est plutôt limitée... Des maisons en si grand nombre, et toutes ressemblent à des boîtes et sont peintes en gris.~
+
+// village xvart
+@124 = ~Si ce sont des créatures maléfiques, pourquoi mon coeur ne cesse-t-il pas de regretter la destruction de leur habitat, encore et encore ? Ils se battent ici pour leurs demeures, <CHARNAME>, et nous sommes des envahisseurs, pas des défenseurs. Nous ferions bien d'éviter ce passage à l'avenir.~
+
+// bassilus mort
+@125 = ~Sommes-nous si différents l'un de l'autre, cet homme et moi ? Il chérit des zombies comme s'ils étaient sa famille, et je foule le Plan Matériel, les pensées sans cesse tournées vers Arvanaith. Combien de temps se passera-t-il avant que mon désir ne crée un fantôme de Déhériana ?~
+@126 = ~Combien de temps avant que je ne l'accompagne, et ne terrifie les hommes sains d'esprit ? <CHARNAME>, nous devrions nous dépêcher de trouver Tazok. Il ne me reste plus beaucoup de temps à vivre ainsi.~
+
+// Tazok mort au camp des bandits
+@127 = ~Déhériana... tu as été vengée, mela en'coiamin. Shevarash ! Votre volonté a été accomplie !~
+@128 = ~<CHARNAME>... Je vais rester pour vous aider à trouver celui qui a tué votre père. Je prie pour que nous l'affrontions sous peu, car cela consume toutes mes forces que de demeurer sur ce plan...~
+
+// 10 Ankhegs
+@129 = ~C'est assez, <CHARNAME>. Nous mettrions la colonie en danger, si nous continuions la chasse.~
+
+// Tazok
+@130 = ~Tuez-les ! On m'attend aux mines, et je n'ai pas de temps à perdre avec ces conneries !~
+@131 = ~Tazok a reconnu Kivan, et notre projet d'infiltrer le camp des bandits a échoué.~
+@132 = ~La tête de l'elfe sera pour le poteau devant ma tente !~
+@133 = ~Kivan et Tazok
+
+Sans surprise, mon compagnon Kivan a été reconnu par Tazok, mais il n'a pas saisi sa chance d'embrocher le demi-ogre. Le bandit avait apparemment trop à faire pour traiter avec l'elfe rendu fou par sa vengeance. Tazok est en route pour un site minier. Cette mine pourrait être la base de celui, quel qu'il soit, qui contrôle ces bandits.~
+@134 = ~Tazok a reconnu Kivan
+
+Tazok a reconnu Kivan et notre projet d'infiltration du camp des bandits a échoué.~
+@135 = ~Hé là, n'est-ce pas notre mort sur pattes, finalement ? Et avec un groupe de crétins pathétiques dans son genre, rien que ça.~
+@136 = ~Laissez mes amis en dehors de ça, c'est entre vous et moi. C'est aujourd'hui le jour de votre mort, Tazok !~
+@137 = ~Oh, ta voix stridente me fait trembler ! Tu as assez harcelé mes soldats, ordure ! Je vais y mettre fin, et je le ferai comme il faut.~
+@138 = ~Tazok a reconnu Kivan
+
+Tazok a reconnu Kivan. Notre seul espoir d'infiltration du camp des bandits est maintenant de tuer l'ennemi. Kivan apprécierait, je parie.~
+
+// Alarme chez les bandits
+@139 = ~V'nez voir ! Tazok a été trouvé mort. Par Mask, il aurait nos peaux, si la chance lui revenait, et que les maîtres de la Porte donnaient l'ordre de le rafistoler...~
+@140 = ~Mais qui vous z'êtes ? J'mais vu vous avant... Bah, chuis pas d'humeur à poser des questions. Personne ne dépenserait de jolis sous pour me ramener, moi.~
+@141 = ~Alors, désolé, les gars, mais vous v'nez d'être promus au rang de meurtriers. HE HOOO ! J'ai trouvé les meurtriers de Tazok ! HE HOOO !~
+
+
+@1001 = ~Tazok ! Arrêtez ça !~
+
+// Dink
+@1002 = ~Il vous en remerciera, j'en suis certain.~
+
+// Angelo
+@1003 = ~Montrez-moi un homme innocent, et je l'épargnerai. D'ici là, fermez votre grande gueule !~
+
+// Vail
+@1004 = ~Oui, bon, merci, et adieu.~
+@1005 = ~Alors nous serons ensemble !~
+@1006 = ~Vous avez le parchemin ! Si cela ne vous suffit pas, je vous combattrai.~
+
+// Mirianne
+@1007 = ~Je le suis, et merci pour votre aide !~
+
+// Ramazith
+@1008 = ~C'est une trouvaille très rare, elfe !~
+
+// Raemon
+@1009 = ~Quoi ?! Que faites-vous ici ?~
+
+// Karan
+@1010 = ~Soyez prudents. Adieu.~
+
+// Faltis
+@1011 = ~Merci de votre aide, quoi qu'il en soit.~

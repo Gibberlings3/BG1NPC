@@ -122,7 +122,7 @@ END
 //== ~%tutu_var%COKSMTH~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @47
 //END
 
-I_C_T ~%tutu_scripts%LAVLEAD~ 0 X#CoranRill
+I_C_T ~%tutu_scripts%LAVLEAD~ 2 X#CoranRill
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @48
 END
 

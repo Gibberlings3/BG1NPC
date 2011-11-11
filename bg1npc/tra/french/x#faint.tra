@@ -1,0 +1,175 @@
+@0     = ~Écoute, imbécile de citadin ! Les ours n'attaquent que si on croise leur chemin. Avançons avec précaution, et nous n'aurons pas à assassiner ces pauvres bêtes.~
+@1     = ~Oui, m'dame.~
+@2     = ~Je ne faisais que chasser, Faldorn. C'est naturel. Comment les Druides de l'Ombre pourraient-ils y être opposés ?~
+@3     = ~Je n'ai pas le temps de marcher sur la pointe des pieds pour éviter les ours, Faldorn !~
+@4     = ~J'aime bien tuer les ours. Comme ça, je me sens tellement supérieur à ces bêtes stupides.~
+@5     = ~Pourquoi ne montes-tu pas la garde, Faldorn ? Tu pourrais alors nous prévenir à temps, et nous éviterions ainsi de tuer des bêtes innocentes.~
+@6     = ~L'ignorance n'est pas une excuse ! Tu dois manger ce que tu tues, <CHARNAME>. La prochaine fois que tu tueras un ours, je te le ferai avaler en entier !~
+@7     = ~*sourire* Je l'espère bien, druidesse, je l'espère bien.~
+@8     = ~Je t'en prie, sois raisonnable... enfin, aussi raisonnable que possible. Nous progressons à travers la forêt. Nous dérangeons parfois une bête et il nous faut la tuer... Je n'ai pas le temps de marcher sur la pointe des pieds pour éviter les ours, Faldorn !~
+@9     = ~Débrouille-toi pour trouver le temps, <CHARNAME>. C'est d'une vie innocente dont nous parlons !~
+@10    = ~Tu fais juste semblant d'être un ami de la nature ! Je ne te guiderai plus à travers la forêt, j'en aurais trop honte !~
+@11    = ~Bien parlé, <CHARNAME>. *hoche la tête* Qu'il en soit ainsi.~
+@12    = ~Je t'avais prévenu !~
+         ~Je t'avais prévenue !~
+@13    = ~Où vas-tu ? Sa carcasse est ici. Assieds-toi et mange !~
+@14    = ~Hum... Faldorn, je suis vraiment désolé pour l'ours, mais tu n'espères quand même pas que je vais manger celui-là ?~
+         ~Hum... Faldorn, je suis vraiment désolée pour l'ours, mais tu n'espères quand même pas que je vais manger celui-là ?~
+@15    = ~D'accord. Hé tous, montez le bivouac ! Nous allons faire un festin !~
+@16    = ~Uniquement si tu me le fais frire, beauté...~
+@17    = ~Je ne vais certainement pas obéir à une gamine cinglée avec des branchettes d'arbre dans ses cheveux !~
+@18    = ~Tu vas le manger, et tout cru qui plus est !~
+@19    = ~Grr ! Je voulais te donner une leçon, et pas une excuse pour brûler encore des arbres...~
+@20    = ~Mais que pouvais-je espérer d'un citadin ? Grr !~
+@21    = ~Tu as épuisé ma réserve de bonne volonté ! Défends-toi, ennemi de la Nature !~
+@22    = ~Grr !~
+@23    = ~Je présume que tu n'approuves pas ? Hé hé, je vois bien pourquoi. L'air est rempli d'amour à tel point qu'on pourrait en concocter un philtre du même nom !~
+@24    = ~Garde tes 'grrs' pour toi !~
+@25    = ~AH ! Crois-en une druidesse, <CHARNAME>, les philtres d'amour n'existent pas ! Le concept d'*amour* a été inventé par les gens civilisés pour se substituer à leurs penchants naturels, qu'ils pensaient malséants ! Seul un charlatan pourrait prétendre provoquer quelque chose qui *n'existe pas* !~
+@26    = ~Eh bien un de ces jours, tu devrais me montrer comment faire les choses d'une manière VRAIMENT naturelle. *cligne de l'oeil*~
+@27    = ~Faldorn, si l'amour n'existait pas, il faudrait l'inventer. Même si tu ne peux pas le comprendre.~
+@28    = ~Oui, oui, je sais. S'accoupler est ce dont tu rêves durant les nuits étoilées...~
+@29    = ~c'est très clair. Allons-y maintenant.~
+@30    = ~Quand je regarde une certaine dame... je prendrais bien un philtre de désir, Faldorn...~
+@31    = ~Quand je regarde un certain homme... je prendrais bien un philtre de désir, Faldorn...~
+@32    = ~J'appellerai des partenaires quand le moment sera venu, comme n'importe quelle autre femelle. Il faudra alors te battre pour moi. Les mots ne te seront d'aucune utilité.~
+@33    = ~Rêver ? *hurle* Comme une citadine ?~
+@34    = ~Une portion de poudre de cassia, trois feuilles de damiana, une portion de pétales de lotus...~
+@35    = ~Argh, laisse tomber. Si tu devais en avoir besoin d'un, je te le fabriquerais. S'il n'est pas préparé correctement, le thé lunaire peut rendre une personne définitivement insensible...~
+@36    = ~Non, tu ne fais que torturer les bêtes ! La colère des druides de l'Ombre va s'abattre sur toi !~
+@37    = ~Ce serait une belle terre... si seulement elle n'était pas habitée ! Grr ! Ça sent mauvais !~
+@38    = ~Des ruines. *hoche la tête et approuve* C'est dans cet état-là que j'aimerais voir toutes les civilisations. Plus tôt ces terres reviendront à la forêt, mieux ce sera.~
+@39    = ~Grr ! Ne te risque pas à en tuer un de plus ! La dernière avait un bébé, je te jure !~
+@40    = ~Idiot, ne sais-tu pas compter ?! Une autre victime innocente et je te tue pour avoir abusé de la Grande Mère !~
+@41    = ~Tu souilles la nature, citadin. Je ne peux plus le supporter. Je ne peux m'opposer à toi, mais je ne t'aiderai plus tant que tu n'auras pas recouvré la raison. Si tu changes d'attitude, tu pourras me trouver dans mon bosquet.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 427, probablement inutile de traduire ici !
+@42    = ~Grr, j'aurais bien aimé que ton nom t'ait donné une des vertus des arbres - leur sage quiétude.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 428, probablement inutile de traduire ici !
+@43    = ~Un citadin qui parle mal d'un serviteur de la nature ? A mort ! Attends, pourquoi es-tu ici dans cette ville, druidesse ? Serais-tu de ces druides pervertis qui nous enseignent que les villes... Oh, aucune importance pour l'instant. Il faut d'abord tuer ce mage !~
+@44    = ~Imbécile ! Je ne te laisserai pas tuer une druidesse pour défendre un petit mage que tu as l'air de croire sur parole !~
+@45    = ~Nous sommes tes amis, Corsone. Bien joué ! A moins de faire semblant...~
+@46    = ~Là ou marche la bête...~
+@47    = ~... et où dansent les ombres.~
+@48    = ~Heureux de te rencontrer, ma soeur. Je suis resté seul si longtemps au milieu de ces pseudo-druides, qui parlent de compromis alors que les forêts disparaissent.~
+@49    = ~Marche vers l'ouest, mon frère, et tu atteindras mon bosquet. Racontes-y tes exploits, et tu t'y feras des amis.~
+@50    = ~Merci, ma soeur.~
+@51    = ~Ne me regarde pas comme ça, <CHARNAME> ! J'aimerais avoir accompli un tel acte ! Mais ce n'est pas moi qui ai tué ces pseudo-druides ici !~
+@52    = ~*renifle* Ces poisons-là n'ont rien de magique. On prend une feuille de fleur de durman et...~
+@53    = ~Peut-être, druidesse.~
+@54    = ~Grr ! Les mages ! Un druide aurait su distinguer une potion magique d'une mixture naturelle !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 232, probablement inutile de traduire ici !
+@55    = ~Nous devrions libérer cette bête et pas la massacrer ! Elle n'est pas venue dans cet endroit minable de son propre gré !~
+@56    = ~Je te promets que les pauvres petits feront un festin de son cadavre !~
+@57    = ~Des nouveaux-nés plutôt que des petits, mais ça ne fait aucune différence. Vas-y, Faldorn. Tu reviendras m'en parler après.~
+@58    = ~Comment les choses se sont-elles passées ?~
+@59    = ~Cela m'attriste de t'annoncer que cet homme cruel avait perverti l'instinct des wivernes, et elles nous ont attaqué, nous qui venions les délivrer de leur servitude.~
+@60    = ~Les nouveaux-nés sont morts donc ? Quelle tristesse. Mais en ce qui concerne l'humain ?~
+@61    = ~Il a été renvoyé à la Grande Mère, pour qu'elle le réincarne en une créature de la nature.~
+@62    = ~c'est une bonne nouvelle. Tu as bien travaillé, Faldorn.~
+@63    = ~Archidruide Amarande, je les conduirai aux mines.~
+@64    = ~c'est une noble intention, mais tant que je n'aurai pas vu les résultats de ton expédition, je ne serai pas rassuré sur le compte de ces types. Ils puent la civilisation, et leurs armes sont faites de métal travaillé.~
+@65    = ~Reviens me voir une fois que vous aurez détruit les mines, et mon opinion à ton sujet changera peut-être.~
+@66    = ~Faldorn, au rapport !~
+@67    = ~Les mines ont été inondées, Archidruide Amarande.~
+@68    = ~Ainsi cette plaie sur la face de Toril a disparu ? Un travail mineur, mais qui peut servir d'exemple et montrer que nos efforts ne sont pas vains.~
+@69    = ~Si je puis me permettre, Archidruide...~
+@70    = ~Je t'écoute.~
+@71    = ~Les mines ont disparu, mais pour terminer ma quête je dois aller plus loin et pénétrer dans la Porte de Baldur elle-même, et trouver le repaire du Trône de Fer pour accomplir ma vengeance ! Mes compagnons et moi y sommes prêts...~
+@72    = ~Autorisation accordée. Que cette nouvelle alliance soit forgée. En signe de reconnaissance des Druides de l'Ombre, permets-moi de t'offrir ce cadeau.~
+@73    = ~Je déteste avoir à quitter les forêts paisibles et pénétrer dans les cloaques profanés de la Grande Mère. Mais je ferai ce qu'il faut pour éliminer les parasites de ces mines, et je veillerai à ce que le Trône de Fer soit puni de ses exactions !~
+@74    = ~Heureuse que tu m'aies reconnue ! Je ne suis pas encore partie... et tu parles déjà de moi à la troisième personne !~
+@75    = ~Ma fille, que peut bien signifier ton nom dans le grand cycle de la Nature ? Rien du tout. Dépêche-toi maintenant, et n'oublie pas de t'opposer à la civilisation à chaque instant !~
+@76    = ~Tuer le chat ? Tuer le chat ? Tuer ce pauvre chasseur tourmenté, enfermé dans ce piège de pierre qu'est la ville ?! Grr ! N'y songe même pas, <CHARNAME> !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 349, probablement inutile de traduire ici !
+@77    = ~Grr ! Transmets ce message à ta mère : qu'elle protège ses petits des tentations du monde des hommes, ainsi ils seront en sécurité.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 350, probablement inutile de traduire ici !
+@78    = ~Ce sont les araignées qui l'ont tué...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 351, probablement inutile de traduire ici !
+@79    = ~Ton frère préférait faire confiance à un objet fait de la main d'un forgeron plutôt qu'à l'avis de sa famille. Cet idiot arrogant a mérité de mourir.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 352, probablement inutile de traduire ici !
+@80    = ~Peut... peut-être, mais quelle importance maintenant ?!~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 432, probablement inutile de traduire ici !
+@81    = ~<CHARNAME> ! C'est un loup qui poursuit un poulet... Nous n'avons pas à intervenir dans le cycle de la vie... UNE MINUTE ! Il PARLE ! Odieux humains ! Ne pouvaient-ils pas laisser ce pauvre poulet caqueter ! Dis-moi, créature, qui... NON ! Ne me dis rien ! Je ne vais pas t'encourager à agir de manière non naturelle !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 433, probablement inutile de traduire ici !
+@82    = ~Cot-cot-cot-tuez-le-loup ! Cot-cot-idiote !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 438, probablement inutile de traduire ici !
+@83    = ~Souviens-toi toujours qu'un loup est mort à cause de toi.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 439, probablement inutile de traduire ici !
+@84    = ~Et c'est une bonne chose...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 440, probablement inutile de traduire ici !
+@85    = ~Quoi ?! Comment oses-tu ?! cette noble bête en valait dix comme toi ! Peut-être puis-je rétablir l'équilibre en te faisant subir le même sort que le loup !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 441, probablement inutile de traduire ici !
+@86    = ~Euh... bien sûr. Je... je m'excuse, druidesse.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 442, probablement inutile de traduire ici !
+@87    = ~Vous êtes formidablement doué pour mettre les gens en colère, Mélicamp.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 371, probablement inutile de traduire ici !
+@88    = ~Vos activités sont un affront à la nature, nécromancien ! D'un autre côté, la puanteur des égouts est telle qu'il doit forcément y avoir des corps en décomposition là-dedans. Je me fiche que cela empoisonne les réserves d'eau de la ville, mais je m'inquiète de ce que cela puisse polluer la Mer des Épées elle-même.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 372, probablement inutile de traduire ici !
+@89    = ~Grr ! Pour une fois, faisons le travail des bousiers, <CHARNAME> !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 445, probablement inutile de traduire ici !
+@90    = ~<CHARNAME>, voilà encore une conséquence horrible de la civilisation ! Une bête sauvage tue sa proie et la mange ! Mais les êtres "cultivés" satisfont leur faim en massacrant vaches et cochons réduits en esclavage. Leur instinct naturel de tuer pour se nourrir se transforme en désir pervers de tuer et de faire souffrir !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 162, probablement inutile de traduire ici !
+@91    = ~Nous ferions mieux d'éviter la compagnie des hommes à l'esprit citadin pendant quelques temps... Nous n'avons pas tous la chance que tu as, de pouvoir partir immédiatement.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 163, probablement inutile de traduire ici !
+@92    = ~Ne désespère pas ma soeur, tu reviendras bientôt dans les bois sous la lumière des étoiles.~
+@93    = ~Grr ! Le karma ne s'acquiert pas par un parchemin ! C'est un talent naturel, et pas une recette de porridge !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 135, probablement inutile de traduire ici !
+@94    = ~Si tu partageais la plage avec elles comme le ferait n'importe quelle bête normale, et si tu n'essayais pas de prendre plus que ta part des ressources naturelles de la mer avec tes filets pour les vendre dans cette ville pourrie, on ne t'aurait pas poursuivi !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 143, probablement inutile de traduire ici !
+@95    = ~Grr ! La mort se lit dans tes yeux ! Quel regard froid ! Restez en arrière, idiots.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 635, probabilité 84.2
+@96    = ~Grrr ! Les cimeterres de cet elfe noir sont beaux et tranchants, mais c'est le cimeterre "Rayon d'Emeraude" que je veux. Voilà la véritable arme du druide. T'ai-je raconté qu'il avait été forgé à partir de la faucille de Kador le Brûleur ? Kador était un célèbre Druide de l'Ombre... si seulement j'étais en sa possession !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 636, probablement inutile de traduire ici !
+@97    = ~Druidesse, je me battrais à mains nues si c'était pour la bonne cause.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 637, probablement inutile de traduire ici !
+@98    = ~Ou avec des rochers... oui, c'est bien les rochers.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 638, probablement inutile de traduire ici !
+@99    = ~*sourit* Si tu fais partie d'une race de géants.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 644, probablement inutile de traduire ici !
+@100   = ~Grr ! Montre-nous le chemin, dryade, et je te jure que les ennemis de la nature seront détruits !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 645, probablement inutile de traduire ici !
+@101   = ~Merci, Ô servante de Silvanus.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 647, probablement inutile de traduire ici !
+@102   = ~Tu... tu m'as déshonorée ! Je ne suis pas la bienvenue dans ce bois ! Je te DETESTE, <CHARNAME> ! Grrr ! Je vais te montrer comment te comporter !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 648, probablement inutile de traduire ici !
+@103   = ~Druidesse, je vous en prie, aidez-moi !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 448, probablement inutile de traduire ici !
+@104   = ~Tu... tu es un escroc ! Je te DETESTE, <CHARNAME> ! Grrr !~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 225, probabilité 60.0
+@105   = ~GRRR ! Fort heureusement les ankhegs n'ont pas de limite au nombre de chasseurs qu'ils peuvent tuer. Stupide citadin ! Ce ne sont pas les ankhegs qui détruisent la terre, ce sont les fermiers avec leurs cruelles charrues et leurs bêtes gloutonnes !~
+@106   = ~*renifle* Tu pues l'artificiel, pire que les citadins et leur parfum. Reste dans les bois mon garçon, suis mon conseil.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 212, probablement inutile de traduire ici !
+@107   = ~Je vais te tuer en raison de ton affront à la nature, pâle citadin !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 213, probablement inutile de traduire ici !
+@108   = ~Je n'avais encore jamais entendu cela, pour sûr. Mais pas d'importance. Considère-toi morte, druidesse, bien que j'aie entendu dire que la mort a peu de sens pour les gens de ton espèce.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 672, probablement inutile de traduire ici !
+@109   = ~Ne prononce pas le nom de la Grande Mère ! Toi et tes semblables l'aviez corrompue, abusé de sa bonté et perverti son essence même. La Grande Mère, accorder ses faveurs aux fermiers... c'est vraiment ignoble ! Bientôt, très bientôt, les Druides de l'Ombre la soigneront de cette sorcellerie maléfique.~
+@110   = ~Grr ! Et dire que Kethalem enseigne que la folie est propre aux familles consanguines !~
+@150   = ~Ah, encore vous. Avez-vous retrouvé la trace de ce mage, Gervisse ?~
+@151   = ~Non, pas encore. Je pars de suite à sa recherche.~
+@152   = ~Nous avons parlé à Gervisse, et il dit que c'est vous qui effrayez les jumelles et que vous avez l'intention de les enlever. Je crois que je vais me débarrasser de vous de ce pas !~
+@153   = ~C'est particulièrement stupide de votre part. Dans ce cas, goûtez à la furie de Voltine !~
+@154   = ~<CHARNAME>, l'archidruide Amarande a donné des instructions claires. Nous devons nous dépêcher.~
+@155   = ~Si je me souviens bien, tu étais censée nous mener à une mine.~
+@156   = ~Nous dépêcher pour aller où ?~
+@157   = ~C'est moi qui gère mon temps. Tu n'as rien à exiger à ce niveau-là.~
+@158   = ~Mais bien sûr ! Après tout, il faut bien que nous suivions les vagues instructions de tous les lunatiques mal lavés que nous rencontrons !~
+@159   = ~Oui, oui, je vais t'y amener. Les mines sont une blessure béante pour la Grande Mère, mais ce sont aussi la source du déséquilibre qui trouble cette région.~
+@160   = ~Tu veux dire, les mines de Nashkel ?~
+@161   = ~De quoi parles-tu exactement ?~
+@162   = ~Où se trouvent-elles ?~
+@163   = ~Faldorn, c'est moi qui donne les ordres ici, pas l'archidruide.~
+@164   = ~Les mines ! Ce sont des blessures béantes pour la Grande Mère, mais ce sont aussi la source du déséquilibre qui trouble cette région.~
+@165   = ~Imbécile ! Les mines sont une blessure béante pour la Grande Mère, mais ce sont aussi la source du déséquilibre qui trouble cette région.~
+@166   = ~Comment oses-tu te moquer de la sagesse de l'archidruide ?! Les mines sont une blessure béante pour la Grande Mère, mais c'est aussi la source du déséquilibre qui trouble cette région.~
+@167   = ~Ça ne m'intéresse guère.~
+@168   = ~Non, bien qu'il faille d'abord les purifier avant d'éliminer le mal qui menace Bois-Manteau. Une fois que ce sera fait, nous pourrons réunir les informations nécessaires pour poursuivre la quête de l'archidruide Amarande.~
+@169   = ~Non, cet abcès a été crevé. Ce ne sont d'ailleurs pas les seules mines qui déchirent Sa Chair. Il faut aller plus loin, rechercher des informations. Les mines dont l'archidruide a parlé se trouvent ailleurs, et notre quête est de les trouver.~
+@170   = ~L'archidruide Amarande souhaiterait que nous purifiions les mines près de Bois-Manteau. Nous devons d'abord chercher des renseignements pour déterminer leur emplacement. Reprenons notre tâche et réunissons des informations. Cela nous conduira à notre but.~
+@171   = ~Quelque part près de Bois-Manteau, mais nous devons d'abord chercher des renseignements pour déterminer leur emplacement. Reprenons notre tâche et réunissons des informations. Cela nous conduira à notre but.~
+@172   = ~Grrrr ! Tu serviras l'Equilibre, que ça te plaise ou non ! Même en continuant nos autres missions, nous serons conduits à accomplir cette quête.~
+@173   = ~De toute façon, tu serviras quand même l'Equilibre. En continuant nos autres missions, nous serons conduits à accomplir cette quête.~
+@174   = ~Va faire ami-ami avec, si tu veux, mais moi je m'en vais !~
+@175   = ~Courage ! Que la bénédiction de la Nature t'accompagne.~
+@1001  = ~Vous serez récompensée pour votre sacrifice. Adieu.~
+@1002  = ~Écoutez, débarrassez-moi simplement de cette fichue nuisance, d'accord ?~

@@ -1,0 +1,319 @@
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 666, probablement inutile de traduire ici !
+@0 = ~Par Heaum, les mensonges et les carcasses de ces scélérats empestent le Mal. Préparons-nous au combat !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 0, probablement inutile de traduire ici !
+@1 = ~Dame <CHARNAME> dans le plus simple appareil, sur une peau d'ours... en voilà une image charmante...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 1, probablement inutile de traduire ici !
+@2 = ~... image de vous quand vous étiez bébé, bien sûr, ma dame. *rougit*~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 2, probablement inutile de traduire ici !
+@3 = ~Ma Dame, si vous voulez mon opinion, vous êtes toujours mignonne comme un coeur. Et c'est censé être un compliment.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 3, probablement inutile de traduire ici !
+@4 = ~Bien sûr que c'est un bébé...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 604, probablement inutile de traduire ici !
+@5 = ~Nous ferons cela, mon ami. Bientôt, ces demi-ogres ne seront plus une menace.~
+@6 = ~Pas encore, mon ami, mais je suis certain que <CHARNAME> nous y emmènera bientôt.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 785, probablement inutile de traduire ici !
+@7 = ~Nous allons chercher des traces de votre mari, ma dame. J'espère que cela réduira vos angoisses.~
+@8 = ~"En tuant tous les innocents qui croisent son chemin" ?! Quelle sorte de démon est-ce là ? Nous devons l'arrêter !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 375, probablement inutile de traduire ici !
+@9 = ~Cela doit être ce criminel Bassilus qu'ils ont mentionné au temple ! Nous devons mettre fin à ses actes maléfiques !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 376, probablement inutile de traduire ici !
+@10 = ~Quelle sorte de démon est-ce là ? Nous devons l'arrêter !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 34, probablement inutile de traduire ici !
+@11 = ~A présent, justice est faite et pourtant... elle laisse un mauvais goût dans la bouche.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 792, probablement inutile de traduire ici !
+@12 = ~Vos paroles démontrent une grande sagesse, et l'espoir est restauré. Je remercie Heaum que nous ayons décidé d'amener cette pauvre âme jusqu'ici.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 793, probablement inutile de traduire ici !
+@13 = ~*Incline la tête pour signifier son accord avec les mots d'Ajantis*~
+@14 = ~Merci mon ami. Qu'Heaum soit avec vous.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 600, probablement inutile de traduire ici !
+@15 = ~Votre appel à l'aide sera entendu. Nous ferons ce que nous pourrons pour découvrir les raisons derrière les événements maléfiques qui ont lieu dans votre mine !~
+@16 = ~<CHARNAME>, ne laissez pas ces vermines abîmer ce grand arbre vénérable ! C'est le foyer d'une dryade !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 449, probablement inutile de traduire ici !
+@17 = ~<CHARNAME>, je suis déconcerté par votre intention d'aider ces vermines à abattre ce grand arbre vénérable ! C'est le foyer d'une dryade !~
+@18 = ~*chuchote* <CHARNAME>, devons-nous jouer à ce jeu ? Il doit y avoir un moyen honorable de pénétrer dans le camp des bandits !~
+@19 = ~T'as dit quèqu'chose ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 781, probablement inutile de traduire ici !
+@20 = ~Aussi étrange ton attitude paraît-elle, mon ami, j'ai l'impression que tu es un combattant pour le bien de valeur. Allons-y, et libérons ta demoiselle de sa détresse !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 37, probablement inutile de traduire ici !
+@21 = ~Par Heaum ! <CHARNAME>, ne pouvez-vous pas voir qu'il s'agit d'un combat du Bien contre le Mal ? Je ne peux rester à vos côtés, dans ces circonstances ! Mon honneur me dicte de défendre cette femme !~
+@22 = ~<CHARNAME>, j'espère que vous ne songez pas sérieusement à mettre ce faux plan en pratique ?~
+@23 = ~<CHARNAME>, je ne peux pas croire que vous soyez en train d'imaginer participer à cette tromperie !~
+@24 = ~Votre ville est menacée par des kobolds ? Je suis certain que résoudre ceci ne sera pas un problème pour nous... <CHARNAME> ?~
+@25 = ~Je suis heureux que vous ayez choisi cette voie d'action, <CHARNAME>. Gandolar, quand nous fouillerons ces ruines, nous tuerons ces kobolds pour vous.~
+@26 = ~<CHARNAME>, Votre impolitesse envers ce petit-homme me déçoit ! C'est le chef de cette ville, après tout !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 864, probablement inutile de traduire ici !
+@27 = ~Vous êtes soumise à la volonté de celui qui contrôle votre essence ?~
+@28 = ~Oui, nous combattrons cet ogre qui vous soumet, belle créature. Mais nous escomptons que notre compagnon sera ramené à la vie, une fois que nous aurons réussi !~
+@29 = ~Maintenant vous voyez ce qui résulte de mensonges inutiles, <CHARNAME> ! Nous sommes forcés de combattre quelqu'un qui aurait pu être notre ami.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 41, probablement inutile de traduire ici !
+@30 = ~Vous avez démontré un grand sens du courage et de l'honneur, <CHARNAME> ! La tentation de mentir pour recevoir un message adressé à nos ennemis ne vous a pas emporté.~
+      ~Vous avez démontré un grand sens du courage et de l'honneur, <CHARNAME> ! La tentation de mentir pour recevoir un message adressé à nos ennemis ne vous a pas emportée.~
+@31 = ~C'était un honneur de combattre à vos côtés, mon amie. Adieu.~
+@32 = ~<CHARNAME>, cette drow est maléfique, et accusée de meurtre. La protéger signifie s'opposer à la loi !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 602, probablement inutile de traduire ici !
+@33 = ~Ne pas s'allier à cette créature maléfique était le bon choix, <CHARNAME> !~
+@34 = ~*Vous* nous condamnez à mort ? Avez-vous le droit de faire cela ? Parlons, il n'est pas nécessaire de verser le sang.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 903, probablement inutile de traduire ici !
+@35 = ~De belles paroles, drow, mais sois certaine de ne pas les oublier. Je te surveillerai avec attention.~
+@36 = ~Ne craignez rien, mademoiselle. Nous allons l'y emmener aussi vite que possible.~
+@37 = ~Mais je ne puis fermer les oreilles à une telle misère ! Parlez-nous de ce fardeau que vous portez, mon brave.~
+@38 = ~<CHARNAME>, nous devons parler à ce pauvre homme à nouveau et voir si nous pouvons l'aider. Nous ne pouvons pas l'abandonner de la sorte !~
+@39 = ~Nous allons travailler pour la *guilde des voleurs* ? <CHARNAME>, j'ai peine à réconcilier ceci avec mes devoirs de paladin ! Mais je vais en profiter pour observer attentivement ce qui se passe ici. J'espère vraiment que ce qui vous motive à accepter cette coopération n'est pas juste d'augmenter votre richesse par des moyens illégaux.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 105, probablement inutile de traduire ici !
+@40 = ~<CHARNAME>, ce cambriolage n'est rien d'autre qu'un vol ordinaire ! Je ne peux pas croire que vous ayez accepté cette demande !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 106, probablement inutile de traduire ici !
+@41 = ~Un paladin sur l'affaire ? Oh, comme c'est vilain !~
+@42 = ~<CHARNAME>, pourquoi avoir repoussé cet enfant ? Il avait l'air d'avoir un réel besoin d'aide !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 897, probablement inutile de traduire ici !
+@43 = ~<CHARNAME>, je suis heureux que vous ayez changé d'avis et décidé d'aider ce garçon !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 898, probablement inutile de traduire ici !
+@44 = ~Oui, montre-nous le chemin. Nous verrons ce que nous pourrons faire pour t'aider.~
+@45 = ~Se retrouver coincé entre deux églises... Ce pauvre père ! Ce n'était pas une décision facile, <CHARNAME>, mais je pense que nous faisons ce qu'il faut. Trouvons le corps de cet enfant !~
+@46 = ~<CHARNAME>, Umberlie est une déesse cruelle et maléfique, mais ses prêtresses n'harcèleraient pas des pêcheurs sans provocation. J'ai le sentiment qu'il y a plus dans cette histoire que ce qu'on nous a raconté.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 117, probablement inutile de traduire ici !
+@47 = ~Commettre un crime en volant ! Je ne peux pas croire que cette vermine demande à des passants d'accomplir son horrible méfait pour elle !~
+@48 = ~Meurtrier cruel, tu mérites ta sentence ! Hors de ma vue !~
+@49 = ~*ricane* Alors tu veux rester ici ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 287, probablement inutile de traduire ici !
+@50 = ~Sois certain, meurtrier, que s'il arrive jamais que nos chemins se croisent à nouveau, je te demanderai justice pour ces petites âmes que tu as tuées !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 288, probablement inutile de traduire ici !
+@51 = ~Ennuyeux, fastidieux... Je regrette de ne pas t'avoir rencontré quinze ans plus tôt, quand tu étais petit... oh oui. Comme je le regrette.~
+@52 = ~Duc Eltan, soyez assuré que nous ferons tout ce qui est en notre pouvoir pour mettre fin au jeu ignoble de ces hommes maléfiques, et éviter cette guerre inutile et brutale !~
+@53 = ~Heaum serait satisfait de vous voir vous soucier des pauvres et des nécessiteux, <CHARNAME> !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 570, probablement inutile de traduire ici !
+@54 = ~Heaum soit avec nous ! Un sbire de notre pire ennemi, aux commandes du Poing Enflammé ? Il doit y avoir moyen de fragiliser sa position et de révoquer la sentence qu'il a prononcée contre nous !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 571, probablement inutile de traduire ici !
+@55 = ~Dans cette ville, chevalier, c'est ma manière ou le gibet.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 654, probablement inutile de traduire ici !
+@56 = ~<CHARNAME>, vous ne pouvez pas sérieusement songer à tuer une personne que vous n'avez jamais rencontrée, sans même savoir ce dont on l'accuse, si ? Ne levons pas nos armes contre cette Dynahéir avant d'avoir une vision globale de cette affaire !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 72, probablement inutile de traduire ici !
+@57 = ~N'ayez plus peur, bonne dame ! Il sera pour nous chose facile de tuer ces worgs qui menacent votre fils !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 826, probablement inutile de traduire ici !
+@58 = ~Nous rechercherons des signes de votre ami, jeune homme.~
+@59 = ~Ne vous inquiétez pas, chère dame. Nous trouverons ce livre de sorts pour sauver votre fille.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 632, probablement inutile de traduire ici !
+@60 = ~<CHARNAME>, c'est Drizzt Do'Urden, un rôdeur honorable et bien connu ! Ne soyez pas trompé par son apparence. S'il est dans le besoin, nous devrions l'aider à défaire ses agresseurs !~
+      ~<CHARNAME>, c'est Drizzt Do'Urden, un rôdeur honorable et bien connu ! Ne soyez pas trompée par son apparence. S'il est dans le besoin, nous devrions l'aider à défaire ses agresseurs !~
+@61 = ~Par Heaum ! A présent vous révélez vos véritables intentions ! Je ne serai pas à vos côtés dans ce combat ! <CHARNAME>, levez votre arme ! Mon honneur exige que je défende cet elfe !~
+@62 = ~Ma bonne dame, la tristesse irradie de votre visage. Dites-moi, quel fardeau portez-vous sur vos épaules ? Est-ce lié à ce qui se passe dans la mine ?~
+@63 = ~De tels mots de la part d'un étranger ! Peut-être pourriez-vous... c'est seulement que... Mon mari travaille dans les mines, et il n'est pas rentré à la maison depuis des semaines. Chaque jour, des hommes disparaissent là-dessous, et je suis très inquiète...~
+@64 = ~Peut-être pouvons-nous vous aider. Nous allons examiner les mines. Donnez-nous une description de votre mari, peut-être le verrons-nous là-dessous.~
+@65 = ~Triste. Nous devons y aller à présent.~
+@66 = ~Nous garderons les yeux ouverts pour votre mari, ma dame.~
+@67 = ~<CHARNAME>, pourquoi cachez-vous l'anneau que nous avons trouvé ? Cette femme attend désespérément des nouvelles de son mari ! Pourquoi la garder dans l'incertitude ?~
+@68 = ~Ma bonne dame, voici un anneau qui correspond à votre description. Nous l'avons trouvé sur un corps... S'il vous plait, acceptez mes condoléances, ma dame, car de toute évidence, votre mari est mort.~
+@69 = ~<CHARNAME> ! Votre coeur est de pierre ! Cet anneau a bien plus de valeur pour la veuve qu'il ne pourra jamais en avoir pour vous. Il lui appartient, de droit !~
+@70 = ~Non ! Je dois finir mon travail ! Ellesime !~
+@71 = ~Ainsi soit-il. Puissent les esprits de la forêt vous hanter.~
+@72 = ~Cet homme parle de tuer l'archéologue et tous ses aides et de voler un objet magique. Va t'en, vermine !~
+@73 = ~Hé, je LUI parlais, ou bien est-ce toi qui prends les décisions ?~
+@74 = ~<CHARNAME> est notre chef, mais je suis un paladin, au nom de Heaum, et je ne tolérerai pas une telle trahison !~
+@75 = ~Ajantis a parfaitement raison. Nous n'agirons pas comme vous l'entendez !~
+@76 = ~Euh... Ajantis ? Je voudrais écouter ce que cet homme est en train de suggérer.~
+@77 = ~Ajantis, ferme-la ! *Je* prends les décisions, d'accord ? Je pense que cet homme a une proposition très intéressante à nous faire, et je voudrais l'écouter.~
+@78 = ~Ah, non, non, oubliez ça. Je ne pense pas que vous puissiez être d'une réelle aide dans cette affaire. Bon sang ! Bon, je trouverai quelqu'un d'autre qui m'aidera à réussir. Vous avez plutôt intérêt à vous tirer.~
+@79 = ~Espèce de racaille, vous n'aurez pas l'opportunité d'abattre cet arbre magnifique, foyer d'une dryade ! Si le respect pour le peuple féérique ne vous empêche pas de réaliser cet acte maléfique, alors nous devons protéger cet esprit de la forêt ! Défendez-vous !~
+@80 = ~Quel personnage retors ! Je suis très heureux que vous l'ayez renvoyé, <CHARNAME> ! Peut-être devrions-nous prévenir ce Duc de la Porte de Baldur, avant que cette crapule ne trouve d'autres personnes prêtes à l'aider dans son plan malfaisant.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 46, probablement inutile de traduire ici !
+@81 = ~Quel soulagement de savoir que tous ces pauvres hères vont avoir une chance de s'échapper ! Continuons notre route et clarifions ce qui se passe dans cette mine.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 557, probablement inutile de traduire ici !
+@82 = ~A présent ils montrent leur vrai visage ! Je soutiens votre décision de ne pas coopérer avec ces personnes. Affrontons ces criminels, nous faisons une faveur à la ville en nettoyant ce repaire de voleurs !~
+@83 = ~Illégal ! <CHARNAME>, nous sommes ici pour mettre fin aux activités des bandits qui menacent la Côte des Epées. Vous n'allez pas sérieusement écouter ce que cet homme a à proposer comme actions illégales ? La seule réaction appropriée à ses mots serait d'appeler les gardes de la cité !~
+@84 = ~S'il vous plaît, ne faites pas ça...~
+@85 = ~<CHARNAME>, je suis heureux que vous ayez refusé d'aider cet homme. Il avait l'air d'un être mauvais, comme nous en rencontrons trop souvent au cours de nos voyages.~
+@86 = ~Mauvais, moi ? Oh...~
+@87 = ~Au moins, nous avons pu vous apporter la nouvelle de sa mort et son alliance en souvenir, même si cela semble une maigre consolation pour vous, aujourd'hui. Soyez assurée de mes plus profonds sentiments de tristesse et de douleur, ma dame.~
+@88 = ~<CHARNAME>, je suis très heureux que vous ayez pris le temps de rendre son anneau à cette pauvre veuve. Au moins, à présent, elle connaît la triste vérité.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 876, probablement inutile de traduire ici !
+@89 = ~Quelle menace ridicule ! Nous ne sommes pas des marchands sans défense que vous pourriez rencontrer par ici ! En fait, nous sommes assez forts pour mettre fin à votre existence pendable !~
+@90 = ~Bonne décision, <CHARNAME> ! A présent cette racaille va être traitée comme elle le mérite !~
+@91 = ~<CHARNAME>, pourquoi avez-vous plié devant ces bandits ? Nous avons combattu des adversaires bien plus dangereux. Je suis certain que nous aurions pu vaincre ces crapules. A présent, ils sont partis menacer d'autres voyageurs... avec notre trésor !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 863, probablement inutile de traduire ici !
+@92 = ~Cela a l'air sérieux, <CHARNAME> ! Si le second dans la hiérarchie du Poing Enflammé demande de l'aide à des personnes de passage, comme nous en avons l'air, nous devrions écouter !~
+@93 = ~Nous devrions accomplir notre plan et retourner rapidement voir la Balafre, de manière à être conduits devant le Grand Duc Eltan ! Cette rencontre semble également importante pour nos propres recherches !~
+@94 = ~<CHARNAME>, pourquoi avez-vous refusé d'aider cet homme ? Cela semblait être une affaire sérieuse !~
+@95 = ~Nous fouillerons cette immonde forêt à la recherche de signes de votre frère, jeune homme !~
+@96 = ~Par Heaum, <CHARNAME>, si ce Chelak est vraiment le jeune homme inexpérimenté que j'imagine, je ne pense pas qu'il a eu la moindre chance. Pourtant j'espère que mes paroles s'avéreront fausses, alors dépêchons-nous !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 256, probablement inutile de traduire ici !
+@97 = ~C'était un acte honorable, <CHARNAME> ! L'argent aidera le fermier Brun à exploiter sa ferme sans son fils.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 257, probablement inutile de traduire ici !
+@98 = ~Et c'était très intelligent de votre part, aussi ! Prétendre que nous n'avions pas l'intention de lui donner de l'argent était le seul moyen de faire en sorte que cet homme fier accepte notre don !~
+@99 = ~Hm. Que ce vieil homme est fier ! Je suis vraiment impressionné. Mais il ne pourra pas s'en sortir sans aide. Peut-être y a-t-il un meilleur moyen de lui en offrir, <CHARNAME> !~
+@100 = ~<CHARNAME>, vos actions sont vraiment dans l'esprit de l'honneur et de la droiture ! Je suis enchanté d'appartenir à ce groupe et de combattre à vos côtés !~ [%tutu_var%AJANT04]
+@101 = ~Par Heaum ! A présent vous révélez vos véritables intentions ! Je ne suis pas à vos côtés dans ce combat ! <CHARNAME>, levez votre arme ! Mon honneur exige que je défende cet honorable drow !~
+@102 = ~<CHARNAME>, cela doit être l'alliance de Joseph. Pauvre homme, il a dû être victime du Mal qui afflige ces mines. Rapportons cet anneau à sa veuve, quand nous serons rentrés. La moindre des choses que nous puissions faire pour elle est de lui apporter la certitude de son destin.~
+@103 = ~Attendez une seconde ! Bien sûr nous allons vous donner l'argent dont vous avez besoin pour sauver tous ces pauvres hères ! Prenez-le, et quittez cet endroit, avec les autres, aussi vite que possible !~
+@104 = ~Attendez, merveilleux esprit de la forêt, ne partez pas. <CHARNAME>, je ne peux accepter votre décision de faire la sourde oreille à cet appel. Protéger l'arbre de cette dryade ne nous demandera pas de grands efforts, mais sauvera la vie de cette ancienne créature des bois.~
+@105 = ~D'accord, d'accord, maintenant que mes compagnons prennent les décisions à ma place... Je vous aiderai. Montrez-moi le chemin !~
+@106 = ~Ajantis, nous n'avons pas le temps pour ce genre de choses. J'ai dit "non", et cette décision est définitive.~
+@107 = ~Gardez votre argent, cher ami. <CHARNAME> plaisantait, j'imagine. Il n'y a pas d'homme nommé Loup-gris dans notre groupe.~
+@108 = ~Il n'est pas nécessaire de jurer, mon brave. Je suis sûr que <CHARNAME> sera d'accord que nous avons assez de temps pour attendre un petit peu. Si cela signifie tant pour vous, nous vous laisserons terminer votre travail.~
+@109 = ~*soupir* Bon d'accord, alors, allez-y.~
+@110 = ~Non ! J'ai dit que nous l'emmènerions maintenant, et c'est ce que nous allons faire !~
+@111 = ~<CHARNAME>, cette dague a l'air particulière. Peut-être appartenait-elle à ce petit gnome que les ankhegs ont tué.~
+@112 = ~<CHARNAME>, après tout ce qui s'est produit ici, vous emportez l'artefact avec vous ? Kozah était un dieu du chaos et de la destruction très puissant, rien de bon ne sortira de ceci !~
+@113 = ~Trahison ! Nous devons protéger le Duc Ceinture et la Duchesse Liia à tout prix !~
+@114 = ~<CHARNAME>, c'est l'enfant de la jeune Maralée. Je ne peux pas croire que ces créatures ont enlevé un si petit nourrisson ! Il est en bonne santé mais nous devrions le ramener à sa mère aussi vite que possible !~
+@115 = ~Nous voici donc à la guilde des voleurs ! Cet endroit pue la trahison et l'anarchie ! Je vous conseille de faire preuve de vigilance, <CHARNAME>, et j'espère que nous partirons aussi vite que possible.~
+@116 = ~Merci pour l'avertissement, Ajantis. Je ne me sens pas très à l'aise, moi non plus.~
+@117 = ~Je suis venu ici parce que j'ai été... invité. Jetons un coup d'oeil, Ajantis.~
+       ~Je suis venue ici parce que j'ai été... invitée. Jetons un coup d'oeil, Ajantis.~
+@118 = ~Ajantis, tu généralises. Tous les voleurs ne sont pas de mauvaises personnes. Tu devrais juger les gens sur leurs actes, pas sur leur profession de choix. S'il n'y avait pas de voleurs, qui désactiverait les pièges qui pourraient nous blesser ? Qui crochèterait les serrures pour libérer les esclaves que nous trouvons ?~
+@119 = ~Je suis d'accord avec vos paroles, <CHARNAME>, et je respecte une personne qui exerce cette profession et choisit le bon chemin. Mais cette personne est en minorité. Cette guilde est une alliance de voleurs sans coeur, assoiffés de pouvoir et sans morale, qui gagnent leur vie sur la base d'actions illégales.~
+@120 = ~Il semble qu'il s'agit du fils de ce vieux fermier. Pauvre petit ! Les ankhegs doivent l'avoir traîné jusqu'ici.~
+@121 = ~<CHARNAME>, ce Samuel est de plus en plus malade. Je ne sais pas combien de temps il pourra survivre encore. Nous devons l'amener au Temple de la Sagesse à Brasamical maintenant, ou il mourra.~
+@122 = ~On dirait qu'il s'agit d'une lettre du mari de Mirianne ! Nous devrions la lui donner aussi vite que possible !~
+@123 = ~<CHARNAME>, je ne puis accepter la direction dans laquelle vous nous entraînez ! Nous ne suivons pas la voie du bien et de la droiture !~[%tutu_var%AJANT06]
+@124 = ~Ajantis, je n'aime pas ceci moi non plus, mais c'est seulement temporaire. Cela changera bientôt.~
+@125 = ~Ajantis, calme-toi ! Ce n'est pas si dramatique ! Souviens-toi que nous faisons ceci pour atteindre les idéaux élevés que nous nous sommes fixés !~
+@126 = ~Je suis soulagé de l'entendre. Allons-y et faisons en sorte que nos actions correspondent à ces mots.~
+@127 = ~Des idéaux élevés n'excusent pas tout. A présent, faisons en sorte d'avancer sur la bonne voie !~
+@128 = ~Attention, <CHARNAME>, nous sommes désormais dans la région qu'a mentionnée le paladin Bjornin. Nous devrions ouvrir l'oeil et trouver les ogres dont il a parlé !~
+@129 = ~Bien joué, <CHARNAME>, c'était le dernier de ces ogres. Nous devrions retourner à Bérégost et dire à Bjornin que ses blessures ont été vengées.~
+@130 = ~Nous sommes à présent dans la célèbre bibliothèque de Château-Suif ! Ah, toute la sagesse et le savoir réunis dans ces couloirs !~
+@131 = ~Mais nous ne sommes pas ici pour le savoir. Hélas ! C'est la présence de criminels sans gêne qui nous y amène. Trouvons-les et nettoyons ces superbes couloirs de leur présence maléfique !~
+@132 = ~<CHARNAME>, vous... vous êtes un rejeton de *Bhaal*, le Dieu du Meurtre ?!~
+@133 = ~Je ne le savais pas moi-même, Ajantis !~
+@134 = ~Il semblerait, en effet.~
+@135 = ~Vous dites cela comme si cette information ne vous faisait rien ! Le saviez-vous déjà ?~
+@136 = ~Non, je viens de l'apprendre, Ajantis.~
+@137 = ~En quoi cela te concerne-t-il, Ajantis ?~
+@138 = ~Vous ne le saviez pas vous-même... Oui, je vous crois. Quelle découverte étonnante ! Vous portez un tel héritage !~
+@139 = ~Eh bien, j'imagine que je dois vous croire. Quelle découverte étonnante ! Vos portez un tel héritage !~
+@140 = ~Répondez honnêtement à mes questions. Que cela signifie-t-il pour vous ? Comment allez-vous traiter cet héritage ?~
+@141 = ~Je déteste être un rejeton de Bhaal ! Le Mal n'aura pas sa chance avec moi. Je vais faire tout ce qui est en mon pouvoir pour ne pas continuer dans la voie qu'a tracée mon père.~
+@142 = ~Je ne sais pas... Tout arrive si vite. Je ne veux pas être impliqué dans ceci ! Si seulement ce n'était qu'une méprise !~
+       ~Je ne sais pas... Tout arrive si vite. Je ne veux pas être impliquée dans ceci ! Si seulement ce n'était qu'une méprise !~
+@143 = ~Hmm... Je dois y réfléchir. Cela m'apporte en réalité de nouvelles possibilités très intéressantes.~
+@144 = ~Je suis l'enfant d'un dieu, Ajantis. Je peux sentir ce pouvoir en moi ! Je dois l'utiliser. Toute autre décision serait mauvaise !~
+@145 = ~En quoi cela me concerne-t-il ?! Je suis un paladin de Heaum, et vous... un rejeton de Bhaal ! Je dois savoir comment vous allez gérer votre héritage !~
+@146 = ~En quoi cela me concerne-t-il ?! Mon amour, je suis un paladin de Heaum, et vous... un rejeton de Bhall ! Je... *dois* savoir comment vous allez gérer votre héritage !~
+@147 = ~Je suis très soulagé et heureux de l'entendre.~
+@148 = ~De grands mots, mais je doute que vous ayez la force et la volonté de les rendre réels.~
+@149 = ~Cela semble réel, donc vous devez le gérer ! Essayer de vous cacher de votre héritage divin ne fonctionnera pas, cela vous laissera simplement plus vulnérable en cas de besoin !~
+@150 = ~Des possibilités ?! Pensez-vous sérieusement à utiliser les pouvoirs de votre père sanglant à vos propres fins ?!~
+@151 = ~Non, je ne voulais pas dire ça. C'était juste une pensée générale.~
+@152 = ~En effet ! Je suis l'enfant d'un Dieu, Ajantis. Je peux sentir ce pouvoir en moi ! Je dois l'utiliser ! Tout autre chose serait mal !~
+@153 = ~De quoi parlez-vous ?! Bhaal était le dieu du meurtre et de la destruction ! Voulez-vous que ces pouvoirs maléfiques deviennent les *vôtres* ?~
+@154 = ~Bien sûr ! Une série de possibilités imprévues se présentent à moi... Plus j'y pense, plus l'idée me plaît.~
+@155 = ~Ai-je le choix ? Je connais les prophéties d'Alaundo. Je dois être le dernier, sinon je tomberai sous les coups de l'un de mes frères et soeurs.~
+       ~Ai-je le choix ? Je connais les prophéties d'Alaundo. Je dois être la dernière, sinon je tomberai sous les coups de l'un de mes frères et soeurs.~
+@156 = ~Pas les forces maléfiques, Ajantis. Je ne parle que des pouvoirs divins que j'ai en moi. Je les utiliserai à mes propres fins !~
+@157 = ~Vous connaissez les prophéties d'Alaundo. Les descendants de Bhaal se battront pour le trône de leur père, semant chaos et destruction tout autour d'eux. Où serez-vous quand cela se produira, <CHARNAME> ?~
+@158 = ~Tu bases tes paroles sur des traductions mortelles des prophéties. Je suis sûr que certains de ses descendants se battront pour le trône, mais je refuse de suivre une voie maléfique juste parce que ce... dieu a décidé d'imprégner ma mère. Et je serai où je dois être, de manière à le détruire... avant qu'il ne puisse me détruire.~
+       ~Tu bases tes paroles sur des traductions mortelles des prophéties. Je suis sûre que certains de ses descendants se battront pour le trône, mais je refuse de suivre une voie maléfique juste parce que ce... dieu a décidé d'imprégner ma mère. Et je serai où je dois être, de manière à le détruire... avant qu'il ne puisse me détruire.~
+@159 = ~Je ne peux pas accepter cette destinée ! Je ne veux pas me battre pour le trône de Bhaal, je ne veux pas répandre le chaos et la destruction ! Je resterai fidèle à ma voie, tâchant de faire le bien !~
+@160 = ~Eh bien, si c'est la volonté des dieux, j'ai peur que cela se passe de cette manière.~
+@161 = ~Je dois combattre ! C'est la seule manière pour moi d'obtenir l'héritage de mon père, qui m'appartient !~
+@162 = ~Etes-vous à ce point naïf que vous pensez pouvoir tromper la véritable nature de votre père et utiliser ses pouvoirs pour faire le bien ?~
+       ~Etes-vous à ce point naïve que vous pensez pouvoir tromper la véritable nature de votre père et utiliser ses pouvoirs pour faire le bien ?~
+@163 = ~Pourquoi cela serait-il impossible ? Je ne suis pas maléfique, Ajantis. Si mon destin est de prendre la place de mon père, pourquoi ne pas le faire à ma manière ?~
+@164 = ~Qui parle de faire le bien, Ajantis ? Une fois que j'aurai ses pouvoirs, je ferai tout ce que *je* veux !~
+@165 = ~Je ne peux pas croire que vous disiez une chose pareille. Restez loin de moi ! Je demeurerai avec vous, mais seulement pour vous surveiller. Heaum, dans sa puissance sacrée, m'aidera à vous combattre, si cela devenait nécessaire !~
+@166 = ~Que... que dites-vous, mon amour ! S'il vous plaît, dites-moi que vous ne le pensiez pas... pourtant, vous le pensiez sérieusement. Comment ai-je pu me tromper à ce point sur vous...~
+@167 = ~Ne vous approchez pas, ma dame ! J'ai des devoirs chevaleresques à honorer ! Je resterai avec vous, mais seulement pour vous surveiller. Heaum, dans sa puissance sacrée, m'aidera à vous combattre, si cela devenait nécessaire !~
+@168 = ~Alors, vous allez tuer vos frères et soeurs ? Vous allez répandre leur sang et celui des autres, sur la terre de votre pays ?~
+@169 = ~Je n'ai pas dit que c'était ce que je voulais ! Tout ce que je fais est d'accepter ma destinée. Et si c'est que les dieux me réservent, je jouerai leur jeu.~
+@170 = ~En effet ! Je ne vais pas m'asseoir et attendre jusqu'à ce que mes demi-frères et soeurs assoiffés de pouvoir passent me voir et essaient d'approcher le trône de notre père en me tuant !~
+@171 = ~Je vais barboter dans leur sang, et ça me fera sourire, Ajantis !~
+@172 = ~Parce que nous autres, mortels, ne sommes pas nés pour avoir et contrôler de tels pouvoirs, <CHARNAME> ! Bhaal lui-même était mortel, mais il était perverti et assoiffé de pouvoir, comme les pouvoirs divins qu'il a reçus. Ce dont vous parlez est d'utiliser et transformer ces pouvoirs maléfiques pour vous-même, pas pour des fins malveillantes ! Comment savez-vous que vous serez assez fort pour ça ?~
+       ~Parce que nous autres, mortels, ne sommes pas nés pour avoir et contrôler de tels pouvoirs, <CHARNAME> ! Bhaal lui-même était mortel, mais il était perverti et assoiffé de pouvoir, comme les pouvoirs divins qu'il a reçus. Ce dont vous parlez est d'utiliser et transformer ces pouvoirs maléfiques pour vous-même, pas pour des fins malveillantes ! Comment savez-vous que vous serez assez forte pour ça ?~
+@173 = ~Je ne sais pas, Ajantis, mais je ferai tout ce qui est en mon pouvoir pour que cela se réalise.~
+@174 = ~Bien sûr que je serai suffisamment fort ! N'ai-je pas déjà choisi la voie de la vertu, en dépit de mon héritage ?~
+       ~Bien sûr que je serai suffisamment forte ! N'ai-je pas déjà choisi la voie de la vertu, en dépit de mon héritage ?~
+@175 = ~Ah, balivernes ! Le temps nous le dira. Pourquoi s'en inquiéter aujourd'hui ?~
+@176 = ~Je ne peux pas croire que vous traitiez ceci avec autant de légèreté ! Soyez rationnel, <CHARNAME> ! C'est le pouvoir d'une divinité qui vous fait face. Il va vous transformer, pas l'inverse. Vous devez être ferme dans votre foi, solide et sans la moindre hésitation dans la voie de la vertu et de la droiture, et alors, peut-être aurez-vous une chance de réussir !~
+       ~Je ne peux pas croire que vous traitiez ceci avec autant de légèreté ! Soyez rationnelle, <CHARNAME> ! C'est le pouvoir d'une divinité qui vous fait face. Il va vous transformer, pas l'inverse. Vous devez être ferme dans votre foi, solide et sans la moindre hésitation dans la voie de la vertu et de la droiture, et alors, peut-être aurez-vous une chance de réussir !~
+@177 = ~Bien, vous êtes resté sur la bonne voie jusqu'à aujourd'hui... J'entrevois une chance pour vous d'atteindre votre objectif.~
+       ~Bien, vous êtes restée sur la bonne voie jusqu'à aujourd'hui... J'entrevois une chance pour vous d'atteindre votre objectif.~
+@178 = ~Vous allez échouer, <CHARNAME>. Vous avez déjà commis des actes maléfiques au cours de nos voyages. Vous n'êtes pas sur la bonne voie, et votre volonté n'est pas suffisamment forte ! Ces pouvoirs maléfiques vont vous dépasser !~
+@179 = ~Vous êtes réellement sur la voie de la vertu, et j'entrevois une chance pour vous de réussir.~
+@180 = ~Mais comment allez-vous réussir ? Vous connaissez les prophéties d'Alaundo. Les descendants de Bhaal se battront pour le trône de leur père, semant chaos et destruction tout autour d'eux. Où serez-vous quand cela se produira, <CHARNAME> ?~
+@181 = ~Je vais rester avec vous... mais seulement pour vous surveiller ! Heaum, dans sa puissance sacrée, me donnera la force de vous combattre, si cela devenait nécessaire !~
+@182 = ~Pardonnez-moi, mon amour. Je dois mettre fin à notre relation pour pouvoir me concentrer sur mes devoirs de paladin. Je vais rester avec vous... mais seulement pour vous surveiller ! Heaum, dans sa puissance sacrée, me donnera la force de vous combattre, si cela devenait nécessaire !~
+@183 = ~Vos mots font fondre mes doutes. Allons-y, et soyons vigilants. Je combattrai à vos côtés et vous assisterai dans votre noble plan, du mieux que je le pourrai.~
+@184 = ~Vous avez choisi de grands mots, mais ils ne peuvent dissiper mes doutes. Je combattrai à vos côtés et vous assisterai dans votre noble plan, aussi longtemps que vous resterez sur la bonne voie.~
+@185 = ~Vous avez choisi de grands mots, mon amour, mais ils ne correspondent pas à vos actions jusqu'ici. J'espérais pouvoir ne pas en tenir compte mais... la situation a changé...~
+@186 = ~Pardonnez-moi, mon amour. Je dois mettre fin à notre relation pour pouvoir me concentrer sur mes devoirs de paladin. Je resterai avec vous... mais seulement pour vous surveiller ! Je me battrai à vos côtés et vous assisterai dans votre noble plan, aussi longtemps que vous resterez sur la bonne voie.~
+@187 = ~Je vois. Allons-y et restons vigilants. Je me battrai à vos côtés et vous assisterai, aussi longtemps que vous resterez sur la bonne voie.~
+@188 = ~Mon amour, vos mots font disparaître mes doutes. Je suis... très heureux car cela signifie que je peux rester avec vous sans avoir à négliger mes devoirs de paladin...~
+@189 = ~Pourtant je tremble à l'idée de ce qui pourrait vous attendre dans le futur. Allons-y et restons vigilants. Je vous soutiendrai de toutes mes forces !~
+@190 = ~N'acceptez pas le destin comme s'il vous était imposé ! Rien n'est encore fait sur la manière dont les choses vont se produire. Vous pouvez influencer la voie qu'empruntera votre futur avec vos pouvoirs bienfaisants ! En tant que paladin, je dois savoir ce que vous déciderez, quand ce jour viendra.~
+@191 = ~Ajantis, j'essaierai de rester sur le chemin du Bien, quoi que m'apporte le futur. S'il te plaît, crois-moi !~
+@192 = ~Quand ce jour viendra, je ferai ce que le destin a préparé pour moi. Si cela signifie que je dois tuer d'autres enfants de Bhaal, ainsi soit-il.~
+@193 = ~Cela signifie que vous allez activement participer à la réalisation de la prophétie...~
+@194 = ~L'impatience apparente dans vos paroles me fait peur, mon amour. Et pourtant, vous avez le pouvoir de rester sur la bonne voie...~
+@195 = ~Je tremble à la pensée de ce qui pourrait vous attendre dans le futur. Allons-y et restons vigilants. Je vous assisterai, aussi longtemps que vous resterez sur le droit chemin.~
+@196 = ~L'impatience apparente dans vos paroles m'effraie. Et pourtant, vous avez le pouvoir de rester sur la bonne voie...~
+@197 = ~Allons-y et soyons vigilants. Je combattrai à vos côtés et vous aiderai aussi longtemps que vous resterez sur le droit chemin.~
+@198 = ~Mon coeur saigne d'avoir à y penser, mon amour. Vous avez déjà réalisé des actes maléfiques au cours de nos voyages. J'espérais pouvoir ne pas en tenir compte mais la situation a changé...~
+@199 = ~Mon coeur saigne d'avoir à y penser. Vous avez déjà réalisé des actes maléfiques au cours de vos voyages... Je dois me concentrer sur mes devoirs de paladin. Je garderai mes pensées pour moi, désormais.~
+@200 = ~Allons-y et restons vigilants, ma dame. Je combattrai à vos côtés et vous assisterai, aussi longtemps que vous resterez sur le droit chemin.~
+@201 = ~Créature démoniaque ! A présent vous révélez vos véritables intentions ! Levez votre arme, je ne vous laisserai pas aller plus loin !~ [%tutu_var%AJANT31]
+@202 = ~<CHARNAME>, je vais vous suivre en dépit de la réputation qui est la vôtre en ce moment. Le temps nous dira si vos actions s'avèrent meilleures que l'impression que vous donnez pour l'instant. Je compte sur nous pour rester sur la voie de la vertu et de la droiture alors que nous avançons. Allons-y et chassons ces bandits qui envahissent les routes !~
+@203 = ~<CHARNAME>, je vois que nous sommes désormais sur la bonne voie. Ce que vous venez de faire était une réelle bonne action. Allons-y et conservons cet esprit !~ [%tutu_var%AJANT04]
+@204 = ~<CHARNAME>, je suis très heureux de nos actions jusqu'ici, et je pense que vous êtes un excellent meneur. Nos actions reflètent l'esprit de la vertu et de la droiture ! Je remercie Heaum que nous ayons combiné nos forces. Allons-y et continuons, de nombreuses créatures maléfiques nous attendent encore sur notre route.~
+       ~<CHARNAME>, je suis très heureux de nos actions jusqu'ici, et je pense que vous êtes une excellente meneuse. Nos actions reflètent l'esprit de la vertu et de la droiture ! Je remercie Heaum que nous ayons combiné nos forces. Allons-y et continuons, de nombreuses créatures maléfiques nous attendent encore sur notre route.~ [%tutu_var%AJANT04]
+@205 = ~Qu'est-ce ? C'est un avis de recherche vous concernant, <CHARNAME>. Un ennemi maléfique désire votre mort, semble-t-il. Continuons nos recherches et ne nous laissons pas décourager par de tels développements. Nous sommes sur la bonne voie, et cet ennemi sera défait, immanquablement.~
+@206 = ~Et voici Chelak, pauvre homme. Tout ce que nous pouvons faire pour lui et sa famille est de ramener son corps à son frère. Une autre mère éplorée ! J'avais vraiment compté sur un dénouement plus heureux.~
+@207 = ~Par Heaum ! A présent vous révélez vos véritables intentions ! Je ne suis pas à vos côtés dans ce combat ! <CHARNAME>, levez vos armes ! Mon honneur exige que je défende ce vaillant drow !~
+@208 = ~Ainsi, ce sont les caves souterraines de la Porte de Baldur. Ah, cet endroit pue le crime et l'oppression.~
+@209 = ~Ce n'est pas un endroit où un paladin devrait passer du temps. <CHARNAME>, j'espère que nous allons quitter ce lieu immédiatement !~
+@210 = ~Ce n'est pas un endroit où un paladin devrait passer du temps. <CHARNAME>, j'espère que nous allons chercher la personne pour laquelle nous sommes ici et ensuite quitter immédiatement ces lieux !~
+@211 = ~On pourrait espérer que les criminels aient assez de décence pour sortir des canaux et des égouts, et nous affronter face à face sur le champ de bataille ! Mais non, ils préfèrent s'enfouir dans la crasse, et ils cherchent refuge dans des bouges fréquentés par des femmes aux mauvaises moeurs, pas les temples ! Sans doute pensent-ils que celles de disposition plus noble ne voudraient pas ternir leur honneur en s'associant avec eux, et ne les suivraient pas.~
+@212 = ~L'honneur chevaleresque est une chose étrange... Tu te sens déshonoré quand ces femmes industrieuses t'offrent leurs simples charmes en échange d'argent. Et pourtant, tu couvres <CHARNAME> de tes attentions, gratuitement et librement, en t'attendant à ce qu'elle en soit honorée.~
+@213 = ~*rougit* C'est quelque chose de complètement différent, elfe, et je ne sais pas pourquoi tu t'es permis cette remarque. Tu ferais mieux de faire attention, sinon tu perdras ton propre honneur, ou même salira celui de <CHARNAME> !~
+@214 = ~Qu'est-ce qui vous est arrivé, <CHARNAME> ? Votre esprit va être perverti par cet objet maléfique.~
+       ~Qu'est-ce qui vous est arrivée, <CHARNAME> ? Votre esprit va être perverti par cet objet maléfique.~
+@215 = ~Nous verrons si c'est pour le mieux ou pour le pire. Je surveillerai vos pas avec attention, jusqu'à ce que vous retiriez ce casque de votre tête.~
+@216 = ~Que... Que m'est-il arrivé ! Mon esprit... était perverti, mes pensées diaboliques !~
+@217 = ~Tu portais un casque qui t'a rendu maléfique, Ajantis. Nous l'avons enlevé, à présent.~
+@218 = ~Heureusement que tu es débarrassé de cette chose. Je te préfère comme tu es.~
+@219 = ~Quel est le problème ? Nous nous sommes bien amusés, toi et moi, à massacrer des innocents au nom de Heaum.~
+@220 = ~N'essayez pas de me tromper ! Vous m'avez fait trahir mes croyances !~
+@221 = ~Ajantis, je te jure, je ne savais pas quelles seraient les conséquences liées au fait de porter ce casque.~
+@222 = ~Je suis vraiment désolé, Ajantis. Cela n'arrivera plus.~
+       ~Je suis vraiment désolée, Ajantis. Cela n'arrivera plus.~
+@223 = ~Quel est le problème ? Je viens juste de t'aider à te débarrasser de cette chose !~
+@224 = ~Peu importe ! Gardez cet objet maléfique loin de moi. Il ne pliera plus mon esprit !~
+@225 = ~Vous... Vous pensez que je peux mieux servir nos objectifs dans cet état ? J'exige qu'on me retire cette ceinture aussi vite que possible !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 749, probablement inutile de traduire ici !
+@226 = ~Vous devrez d'abord me passer sur le corps !~
+@227 = ~Je n'aime pas votre ton, messire !~
+@228 = ~Excusez-moi, alors. Je cherche quelqu'un.~
+@229 = ~Alors préparez-vous à mourir pour votre cupidité !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 805, probablement inutile de traduire ici !
+@230 = ~Puissent les dieux récompenser ton arrogance par la mort !~
+@231 = ~Vous avez rendu un service de taille à cette ville en menant ce criminel à la justice.~
+@1001 = ~Et aussi avec vous.~
+@1002 = ~En avant, mon ami en armure de plates !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 38, probablement inutile de traduire ici !
+@234 = ~Je Te remercie, champion de la vertu !~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 935, probabilité 66.9  ("my good man!" à la fin supprimé dans ict3)
+@1003 = ~Vois cela comme "secourir" une jeune fille, mon brave !~
+@1004 = ~Il en faut de toutes sortes, j'imagine. Un peu plus d'aide aurait été la bienvenue, mais les choses sont comme elles sont.~
+@1005 = ~Il en sera fait ainsi, si vous tuez l'ogre !~
+@1006 = ~Vous ne pouvez pas mentir à la Nature !~
+@239 = ~Et voici votre récompense.~
+@1007 = ~Qu'Heaum soit avec vous.~
+@1008 = ~J'ai le droit de faire ceci si je dis que j'en ai le droit ! Maintenant, préparez-vous à vous battre !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 904, probablement inutile de traduire ici !
+@1009 = ~A ton aise, jaluk !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 933, probablement inutile de traduire ici !
+@1010 = ~Merci !~
+@1011 = ~Vous avez fait tout ce que j'aurais pu souhaiter, en me ramenant son corps. Vous n'y pouvez rien si je suis un pauvre vieux fermier.~
+@1012 = ~Moi aussi !~
+@1013 = ~Merci. Si vous réussissez, la Porte de Baldur vous en sera redevable.~
+@1014 = ~Qu'est-ce que c'est que ça ? On complote déjà ? Laissez-vous faire et personne ne sera blessé.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 655, probablement inutile de traduire ici !
+@1015 = ~Cette affaire, c'est que c'est une sorcière rashémi ! N'importe quoi de plus troublerait vos minuscules petites cervelles.~
+@1016 = ~Merci, vaillant camarade.~
+@1017 = ~Ah ah ! Battons-nous !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 48, probablement inutile de traduire ici !
+@251 = ~Merci encore ! Et bonne chance !~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 558, probabilité 68.6 ("Draw steel!" à la fin retiré dans ict3)
+@1018 = ~C'est vous qu'on va nettoyer ! Sortez vos lames !~
+@1019 = ~Hé. Tant pis pour vous !~
+@1020 = ~Une décision stupide, si vous voulez mon avis !~
+@1021 = ~Effectivement. Je vais devoir trouver quelqu'un d'autre pour m'aider.~
+@256 = ~Je n'ai pas besoin de votre charité. Vous avez fait tout ce que vous pouviez. Mes problèmes d'argent ne vous concernent pas.~

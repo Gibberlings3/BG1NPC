@@ -1,0 +1,92 @@
+/*interjection avec Theodon*/
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 6, probablement inutile de traduire ici !
+@0 = ~Je dois bien avouer que c'est là le conte le plus passionnant que j'aie jamais entendu sur <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 7, probablement inutile de traduire ici !
+@1 = ~Oh oui, mon enfant...~
+
+/*dialogue avec Priilmu - un prêtre d'Ilmater (voir aussi @21 à @30 et @34 à @42)*/
+@2 = ~Prilly ! Est-ce vraiment vous ?~
+@3 = ~Hein ? Qui c'est ? Oh, Eldoth ! Mon garçon, mon garçon, cela fait si longtemps !~
+@4 = ~Mais... vous... ici ? La dernière fois que je vous ai vu, vous étiez sur le point de conquérir les salons d'Eauprofonde.~
+@5 = ~C'était le cas. Et ça a marché, pendant un moment. Mais le Bâton-Noir est un homme dur et cruel lorsque l'on se joue de lui. C'est pourquoi je suis tout à fait heureux d'être ici.~
+@6 = ~Ah ! J'imagine ! J'ai toujours cru que les prêtres étaient un peu roublards sur les bords. Je suis ravi de constater que c'est le cas pour certains d'entre eux.~
+@7 = ~Oh, mais je ne suis pas un menteur, mon garçon. Mes souffrances sont bien réelles.~
+@8 = ~Oui, si ça n'avait pas été le cas, vous seriez devenu un suivant de la Dame aux Cheveux de Feu. Si mes souvenirs sont exacts, c'est elle qui a toujours joui de votre dévotion la plus profonde.~
+@9 = ~Sunie, hein ? Et bien, je ne peux nier que je suis toujours en contact avec... quelques adeptes des arts de la Dame. Tu vois, il y a cet endroit, les Caves Souterraines, et...~
+@10 = ~Ahem ! Je pense que nous avons passé *suffisamment* de temps à nous remémorer le bon vieux temps. Nous avons une quête sur le feu.~
+@11 = ~Les Caves Souterraines ? C'est là que nous devons aller ! Sur l'heure !~
+@12 = ~Nous y avons été. L'attraction la plus intéressante, là-bas, a été les assassins que nous y avons tués.~
+@13 = ~Oooh, tu es encore jeune et plein d'entrain, hein ? Et bien dans ce cas, je ne te retiens pas plus longtemps. J'espère que tu apprécieras la souffrance pure lorsqu'elle se présentera à toi.~
+@14 = ~N'aie crainte, ô mentor de mes jeunes années. <CHARNAME> connait bien cette chanson. Et... euh... voici un petit quelque chose pour prolonger votre agonie.~
+
+/*dialogue avec Bentley Ombremiroir (voir aussi @31 à @33)*/
+@15 = ~Bien le bonjour, voyageurs. Que puis-je pour... VOUS !!! Gardes ! GARDES !!!~
+@16 = ~Ce n'est pas un 'besoin', non, c'est un plaisir que je me fais !~
+@17 = ~Euh... est-ce que quelqu'un voudrait bien me dire qu'est-ce que tout ça signifie ?~
+@18 = ~Ce... ce vaurien !... m'a offert "un récital pour payer son dîner". Vous voyez, nous essayons de maintenir une certaine ambiance, ici, alors j'ai crû que c'était une bonne occasion. Ah ! Il lui a suffi de deux chants outrageants pour que l'anarchie s'installe dans mon auberge ! Il m'a fallu deux semaines pour réparer tous les dégâts !~
+@19 = ~Sans compter les trois bouteilles que vous vous êtes sifflées, lorsque les problèmes ont commencé.~
+@20 = ~Hmpf !~
+@21 = ~Vous êtes de retour ? Dites ce que vous avez à dire, et vite !~
+
+/*dialogue avec Priilmu, suite (voir aussi @34 à @42)*/
+@22 = ~Ehhh ! Vous ne ressemblez pas à la jeune et fougueuse créature que j'attendais !~
+@23 = ~Non, non. Nos ennemis se sont donnés rendez-vous ici. Et nous devons les attraper !~
+@24 = ~Ah ! Vous préférez la castagne au plaisir, hein ? Vous apprendrez, avec le temps ; si du moins, vous vivez assez longtemps pour l'apprendre. Le jeune Eldoth ici-même ferait un très bon professeur.~
+@25 = ~Bien sûr, bien sûr. L'une des filles est un dragon vert sous forme humaine, c'est ça ? Je parie que c'est cette petite nouvelle, Mistie, sur qui tout le monde... non. Bon, je vais vous mener à une... entrée... privée. Mais essayez de ne pas mettre trop de désordre, d'accord ? En cet endroit, mes souffrances approchent le sublime !~
+@26 = ~Trouve-toi le bon ceinturon, et je *t'apprendrai*, mon garçon. *soupir* Oui, bon, vu mon âge, tu devras faire un peu fonctionner ton imagination...~
+@27 = ~Ah, vous voici de retour. Ca vous dirait, une petite excursion polissonne ?~
+@28 = ~Oui, nous aimerions y aller.~
+@29 = ~Euh... non. Oubliez que j'ai remis les pieds ici, c'était une erreur.~
+@30 = ~Ah, les douces soirées sont la cerise sur le gâteau des journées de chaleur... Par ici.~
+
+/*dialogue avec Bentley Ombremiroir, suite*/
+@31 = ~Allons, allons, messire, il n'est nul besoin de déranger tout le monde pour moi.~
+@32 = ~Vous n'auriez pas dû m'offrir autant de... un aussi bon... vin avec le repas, messire.~
+@33 = ~Mais c'est du passé, aujourd'hui est un autre jour. Je suis... hélas... entièrement sobre, et le resterai aussi longtemps que je serai sous votre toit, osé-je dire. Vous aurez aussi remarqué que je jouis de la compagnie appréciable... et capable de <CHARNAME>. Maintenant, peut-être pourrions-nous voir ce que vous avez à nous offrir, si vous le voulez bien ?~
+
+/*dialogue avec Priilmu, suite et fin*/
+@34 = ~Ô, Prilly, Prilly...~
+@35 = ~Le filigrane de Wenroth, ville d'argent,
+Vois, il est enflammé par le Soleil couchant.
+Allez, viens, mon amour, descendons maintenant,
+Viens voir briller les illustres lueurs du Temps.~
+/*note à la relecture : oui, je sais, cette traduction n'est pas très fidèle au poème original, mais à ma décharge, j'ai essayé de faire des rimes et de respecter un nombre de pieds de 12 (alexandrins) pour chaque vers*/
+@36 = ~Vous récitez cette vieille ânerie ? On dirait que vous cherchez une excuse supplémentaire pour emmener ses copines dehors pour une soirée.~
+@37 = ~Encore ce vieux charlatan ? En parlant de ça, c'est avec *notre* or que vous avez été si généreux avec lui !~
+@38 = ~Pfffft !~
+@39 = ~N'aie crainte, ô mentor de mes jeunes années. Nous serons discrets. Et... euh... voici un petit quelque chose pour prolonger votre agonie.~
+@40 = ~Ah ! Si j'avais appris ne serait-ce que le dixième de ce que vous savez, je serais un maître, ça, c'est sûr ! Oh... et voici un petit quelque chose pour prolonger votre agonie.~
+@41 = ~Oui, c'est certain. Tellement d'approches, et peu, si peu de femmes dignes de leurs utilisations.~
+@42 = ~Je... bon... Bon sang ! C'était un homme de bien... un *grand* poète. L'idée qu'il en soit réduit à faire bouillir son pagne pour faire un potage des puces qui l'infestent m'est insupportable.~
+
+/*interjection en entrant dans la guilde des Voleurs de l'Ombre de la Porte de Baldur*/
+@43 = ~Ah, la douce odeur de l'argent bien mal acquis. Je me demande s'ils en laissent traîner dans les parages ?~
+
+/*dialogue en entrant dans le temple de Tymora*/
+@44 = ~Faisons vite, <CHARNAME>. Je n'aime guère cet endroit.~
+@45 = ~C'est vrai ? J'aurais plutôt cru que vous vous y seriez senti comme chez vous !~
+@46 = ~Alors je suis plus qu'heureux de vous détromper. La Dame ne m'a jamais regardé que d'un oeil distrait. Tout cela à cause de mes tactiques et de mes goûts conservateurs, vous voyez.~
+
+/*dialogue en entrant dans la librairie de Château-Suif*/
+@47 = ~<CHARNAME>, je vous dois des excuses. Ce que j'avais pris pour un caractère des plus ennuyeux n'était que le résidu de ce mausolée poussiéreux.~
+@48 = ~C'est calme, je vous le concède, mais ce n'est pas si mal. Après tout, un endroit où les gens passent leur temps à apprendre et à penser ne peut pas avoir l'ambiance du Carnaval d'Eauprofonde.~
+@49 = ~Je ne le pense pas vraiment... mais apprendre devrait servir un but, et pas n'être qu'une fin en soi. Après une enfance passée ici, où la connaissance se cache et s'éteint, je suis surpris que vous ayez survécu à une vie d'aventurier.~
+      ~Je ne le pense pas vraiment... mais apprendre devrait servir un but, et pas n'être qu'une fin en soi. Après une enfance passée ici, où la connaissance se cache et s'éteint, je suis surpris que vous ayez survécu à une vie d'aventurière.~
+
+/*dialogue en entrant dans l'auberge de la Lanterne Sourde à la Porte de Baldur*/
+@50 = ~Vous savez, <CHARNAME>, j'ai navigué à bord de plus d'un bateau, mais celui-là m'inspire plus que tous les autres. Je me disais qu'une fois que nous aurons fini nos aventures, nous pourrions peut-être affréter ce navire et entamer une croisière de prestige, calme, en l'honneur de notre réussite.~
+@51 = ~Si ça doit être calme, pourquoi partir des quais ? Ce rafiot pourrait bien sombrer sous les assauts d'un poisson volant !~
+@52 = ~Par 'calme', je voulais dire qu'à cinq lieues des côtes, personne ne nous entendrait du continent. Une victoire bien méritée, dont la promotion aurait été habilement faite... tous ces citoyens riches comme Crésus se feraient un point d'honneur de venir avec nous !~
+@53 = ~Oubliez ça ! Je préfère encore creuser un trou, m'enterrer dedans et me tranformer en radis ! Il est hors de question que je cautionne le vol des populations les plus aisées et les plus bruyantes de la Porte de Baldur.~
+@54 = ~Ah ! Ah ! J'espère bien que vous n'en ferez rien, vous êtes bien trop malin pour ça. Escroquer une vingtaine de nobliaux, c'est du gagne-petit... et ça ne rapporterait pas tant que ça. Par contre, je serais prêt à vous reverser un certain pourcentage provenant d'une... entreprise plus durable.~
+      ~Ah ! Ah ! J'espère bien que vous n'en ferez rien, vous êtes bien trop maligne pour ça. Escroquer une vingtaine de nobliaux, c'est du gagne-petit... et ça ne rapporterait pas tant que ça. Par contre, je serais prêt à vous reverser un certain pourcentage provenant d'une... entreprise plus durable.~
+
+// La Voix :pas compris d'où ça vient ; sur le .d, il y a écrit 'rumours file for FAI'
+// Isaya : Bentley Ombremiroir a une dent contre Eldoth. Les rumeurs spécifiques que tu as trouvées dans le fichier vont dans le sens d'autres modifications de l'auberge/magasin de Brasamical.
+// Bentley ouvre un autre "magasin/auberge" pour Eldoth : les boissons et objets en vente sont pourris, et comme les rumeurs sont rattachées au magasin (.STO), il propage de nouvelles "rumeurs" ciblées
+@55 = ~Plus tôt vous dégagerez de ma vue, mieux je m'en porterai.~
+@56 = ~C'est à Luskan que les vagabonds tels que vous ont leur place. Allez là-bas, voulez-vous ?~
+@57 = ~Il paraît que Port-Ponant est superbe en cette saison. Pourquoi n'iriez-vous pas là-bas, ou n'importe où ailleurs, pour constater par vous-même ?~
+@58 = ~Les clients que vous attirez ne valent en rien ceux que vous faites fuir, sans parler des dégâts.~
+@59 = ~Allez-vous en !~
+@60 = ~FOUTEZ-MOI LE CAMP !!!~
