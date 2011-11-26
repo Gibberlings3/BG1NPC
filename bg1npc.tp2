@@ -1263,8 +1263,8 @@ BEGIN @1005
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic.cre~ = 0) BEGIN
-					WRITE_BYTE 0x22 23 // Current Hit Points
-					WRITE_BYTE 0x22 23 // Maximum Hit Points
+					WRITE_BYTE 0x24 23 // Current Hit Points
+					WRITE_BYTE 0x26 23 // Maximum Hit Points
 					WRITE_BYTE 0x54 5  // Save vs. Death
 					WRITE_BYTE 0x55 9  // Save vs. Wand
 					WRITE_BYTE 0x56 13 // Save vs. Polymorph
@@ -1272,8 +1272,8 @@ BEGIN @1005
 					WRITE_BYTE 0x58 10 // Save vs. Spells
 				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic5.cre~ = 0) BEGIN
-					WRITE_BYTE 0x40 42 // Current Hit Points
-					WRITE_BYTE 0x40 42 // Maximum Hit Points
+					WRITE_BYTE 0x24 42 // Current Hit Points
+					WRITE_BYTE 0x26 42 // Maximum Hit Points
 					WRITE_BYTE 0x54 4  // Save vs. Death
 					WRITE_BYTE 0x55 8  // Save vs. Wand
 					WRITE_BYTE 0x56 12 // Save vs. Polymorph
