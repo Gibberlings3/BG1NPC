@@ -152,7 +152,7 @@ END
 /* Dream talks */
 ///* Dream 1 */
 IF %BGT_VAR%
-Global("%bgdreams%","GLOBAL",2)
+Global("%bgdreams%","GLOBAL",%bgdream1%)
 Global("X#ImoenDreamResponse2","GLOBAL",0)
 Global("Chapter","GLOBAL",%tutu_chapter_2%)
 InParty(Myself)
@@ -181,7 +181,7 @@ END
 
 ///* Dream 2 */
 IF %BGT_VAR%
-Global("%bgdreams%","GLOBAL",4)
+Global("%bgdreams%","GLOBAL",%bgdream3%)
 Global("X#ImoenDreamResponse4","GLOBAL",0)
 Global("Chapter","GLOBAL",%tutu_chapter_4%)
 InParty(Myself)

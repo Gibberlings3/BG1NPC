@@ -3,6 +3,12 @@
     /* tp2, d, and baf parsing variables based on conversion */
     OUTER_SPRINT "tutuorbgt" "Tutu"
     OUTER_SPRINT "bgdreams" "DREAM"
+    OUTER_SPRINT "bgdream1" "2"
+    OUTER_SPRINT "bgdream2" "3"
+    OUTER_SPRINT "bgdream3" "4"
+    OUTER_SPRINT "bgdream4" "5"
+    OUTER_SPRINT "bgdream5" "6"
+    OUTER_SPRINT "bgdream6" "7"
     OUTER_SPRINT "tutu_var" "_"
     OUTER_SPRINT "tutu_scripta" "_"
     OUTER_SPRINT "tutu_scriptb" "_"
