@@ -1,101 +1,115 @@
+/* Initiate */
 IF %BGT_VAR%
-InParty("xan")
-RealGlobalTimerExpired("X#XanGoodOutcomeTimer","GLOBAL")
-Global("X#XQXanRewarded","GLOBAL",0)
+	Global("X#XQWhiteDoeAppeared","GLOBAL",2)
+	InParty(Myself)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	InMyArea(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
 THEN
-RESPONSE #100
-SetGlobal("X#XQXanRewarded","GLOBAL",1)
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+	InParty("xan")
+	RealGlobalTimerExpired("X#XanGoodOutcomeTimer","GLOBAL")
+	Global("X#XQXanRewarded","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("X#XQXanRewarded","GLOBAL",1)
 END
 
 /* Initiate */
 IF %BGT_VAR%
-Global("X#XQXanRewarded","GLOBAL",1)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
+	Global("X#XQXanRewarded","GLOBAL",1)
+	InParty(Myself)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	InMyArea(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
 THEN
-RESPONSE #100
-StartDialogueNoSet(Player1)
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
-InParty("xan")
-RealGlobalTimerExpired("X#XanBadOutcomeTimer","GLOBAL")
-Global("X#XQXanPunished","GLOBAL",0)
+	InParty("xan")
+	RealGlobalTimerExpired("X#XanBadOutcomeTimer","GLOBAL")
+	Global("X#XQXanPunished","GLOBAL",0)
 THEN
-RESPONSE #100
-SetGlobal("X#XQXanPunished","GLOBAL",1)
-END
-
-/* Initiate */
-IF %BGT_VAR%
-Global("X#XQXanPunished","GLOBAL",1)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-StartDialogueNoSet(Player1)
-END
-
-IF %BGT_VAR%
-InParty("xan")
-Global("X#XQXanPunished","GLOBAL",2)
-THEN
-RESPONSE #100
-SetGlobal("X#XQXanPunished","GLOBAL",3)
+	RESPONSE #100
+		SetGlobal("X#XQXanPunished","GLOBAL",1)
 END
 
 /* Initiate */
 IF %BGT_VAR%
-Global("X#XQXanPunished","GLOBAL",3)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
+	Global("X#XQXanPunished","GLOBAL",1)
+	InParty(Myself)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	InMyArea(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
 THEN
-RESPONSE #100
-StartDialogueNoSet(Player1)
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
-HPPercentLT("xan",50)
-Global("X#XQXanFightsPC","GLOBAL",1)
+	InParty("xan")
+	Global("X#XQXanPunished","GLOBAL",2)
 THEN
-RESPONSE #100
-SetGlobal("X#XQXanFightsPC","GLOBAL",2)
+	RESPONSE #100
+		SetGlobal("X#XQXanPunished","GLOBAL",3)
 END
 
 /* Initiate */
 IF %BGT_VAR%
-Global("X#XQXanFightsPC","GLOBAL",2)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
+	Global("X#XQXanPunished","GLOBAL",3)
+	InParty(Myself)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	InMyArea(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
 THEN
-RESPONSE #100
-StartDialogueNoSet(Player1)
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
-Global("X#XQFriendlyArmsMoved","GLOBAL",1)
-AreaCheck("%FriendlyArmInn_L2%")
+	HPPercentLT("xan",50)
+	Global("X#XQXanFightsPC","GLOBAL",1)
 THEN
-RESPONSE #100
-CreateCreature("X#SIENE",[690.670],0)
-CreateCreature("X#DIALA",[675.650],0)
-CreateCreature("X#MINUW",[715.650],0)
-SetGlobal("X#XQFriendlyArmsMoved","GLOBAL",2)
-ActionOverride("X#Siene",StartDialogueNoSet(Player1))
+	RESPONSE #100
+		SetGlobal("X#XQXanFightsPC","GLOBAL",2)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+	Global("X#XQXanFightsPC","GLOBAL",2)
+	InParty(Myself)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	InMyArea(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+	Global("X#XQFriendlyArmsMoved","GLOBAL",1)
+	AreaCheck("%FriendlyArmInn_L2%")
+THEN
+	RESPONSE #100
+		CreateCreature("X#SIENE",[690.670],0)
+		CreateCreature("X#DIALA",[675.650],0)
+		CreateCreature("X#MINUW",[715.650],0)
+		SetGlobal("X#XQFriendlyArmsMoved","GLOBAL",2)
+		ActionOverride("X#Siene",StartDialogueNoSet(Player1))
 END
