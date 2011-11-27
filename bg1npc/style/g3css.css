@@ -1,0 +1,511 @@
+@charset "utf-8";
+/* CSS Document for Gibberlings 3 */
+/* Author: Kat Bella aka theacefes */
+/* June, 2011 */
+
+
+@font-face {
+	font-family: TrajanPro;
+	src: url('/includes/trajanpro-regular-webfont.eot');
+    src: url('/includes/trajanpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/includes/trajanpro-regular-webfont.woff') format('woff'),
+         url('/includes/trajanpro-regular-webfont.ttf') format('truetype'),
+         url('/includes/trajanpro-regular-webfont.svg#TrajanProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 1024px;
+	
+}
+
+/*HEADER/NAV DIVS*/
+
+#head
+{
+	background-image:url("/images/sepline.jpg") no-repeat center bottom;
+	min-height: 125px;
+	margin: 0 auto;
+	width: 1024px;
+	font-family: TrajanPro, Georgia, Palatino, Times New Roman, serif;
+	font-size:12px;
+	background-image: url("/images/sepline.jpg");
+	background-position: 50% bottom;
+	background-repeat:no-repeat;
+	
+}
+
+#logo 
+{
+	position:relative;
+	float:left;
+}
+
+
+#main_nav {
+	
+	min-height: 75px;
+    background-image: url("/images/navline.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+}
+
+
+#topline
+{
+	position:relative;
+	left: 60px;
+	top: 10px;
+
+}
+
+#bottomline
+{
+	top: 35px;
+	position:relative;
+
+}
+
+
+img { border: none; !important }   
+
+
+a 
+{
+	padding-right:3px;
+	color:#6c6c70;
+	text-decoration:none;
+}
+
+a:hover 
+{
+	color:#009;
+	text-decoration:underline;
+}
+
+#news_nav {
+    font-family: TrajanPro,Times New Roman,Times,serif;
+    font-size: 13px;
+    margin: 0 auto;
+    padding-top: 3px;
+    position: relative;
+    width: 400px;
+}
+
+#news_nav a 
+{
+	padding-right:3px;
+	color:#6c6c70;
+	text-decoration:none;
+}
+
+#news_nav a:hover 
+{
+	color:#009;
+	text-decoration:underline;
+}
+
+#mod_nav {
+    font-family: TrajanPro,Times New Roman,Times,serif;
+    font-size: 13px;
+    margin: 0 auto;
+    padding-top: 3px;
+    position: relative;
+    width: 415px;
+}
+
+#mod_nav a 
+{
+	padding-right:3px;
+	color:#6c6c70;
+	text-decoration:none;
+}
+
+#mod_nav a:hover 
+{
+	color:#009;
+	text-decoration:underline;
+}
+
+/*CONTENT DIVS*/
+	
+#content
+{
+	position:relative;
+	margin: 0 auto;
+	width:1024px;
+	float:left;
+	top:25px;
+	background: url("/images/shadows.jpg") repeat-y scroll 0 0 transparent;
+	
+}
+
+#left
+{
+	padding-left: 15px;
+	float:left;
+	width:750px;
+	
+}
+
+#right
+{
+	padding-right: 15px;
+	float:right;
+	width: 240px;
+}
+
+#portrait
+{
+	position: relative;
+	float:right;
+	padding-left: 10px;
+	top: 15px;
+}
+
+
+#title
+{
+	padding-bottom:15px;
+}
+
+
+#introtext
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	color:#000;
+	margin-bottom:50px;
+}
+
+#introtext a
+{
+	color:#009;
+	text-decoration:underline;
+}
+
+#introtext a:hover
+{
+	color:#00F;
+	text-decoration:underline;
+}
+	
+
+#description
+{
+	min-height:500px;
+}
+
+h1
+{
+	font-family: TrajanPro, Georgia, Palatino, Times New Roman, serif;
+	font-size:24px;
+	color:#009;
+	font-weight:normal;
+}
+
+h2
+{
+	font-family: TrajanPro, Georgia, Palatino, Times New Roman, serif;
+	font-size:18px;
+	color:#009;
+	font-weight:normal;
+}
+
+h3
+{
+	font-family: TrajanPro, Georgia, Palatino, Times New Roman, serif;
+	font-size:16px;
+	color:#009;
+	font-weight:normal;
+}
+
+#description p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000;
+	margin-bottom: 25px;
+	line-height:1.5;
+	
+}
+
+
+
+#description ul,ol
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000;
+	margin-bottom: 25px;
+	line-height:1.5;
+}
+
+#description a
+{
+	color:#009;
+	text-decoration:underline;
+	padding:0;
+}
+
+#description a:hover
+{
+	color:#00F;
+	text-decoration:underline;
+}
+
+/*INFOBOX DIVS*/
+
+#infobox {
+    float: right;
+    margin: 0 32px 0 0;
+    width: 147px;
+}
+#class {
+    color: #000000;
+    font-family: TrajanPro,Georgia,Palatino,Times New Roman,serif;
+    font-size: 12px;
+    text-align: center;
+}
+#statbox {
+    color: #000000;
+    font-family: TrajanPro,Georgia,Palatino,Times New Roman,serif;
+    font-size: 12px;
+}
+#statleft {
+    float: left;
+}
+#statright {
+    float: right;
+}
+#meta {
+    color: #000000;
+    font-size: 12px;
+}
+#metaleft {
+    float: left;
+    font-family: TrajanPro,Georgia,Palatino,Times New Roman,serif;
+}
+#metaright {
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+	font-size:13px;
+}
+#metaright a {
+    color: #000099;
+    text-decoration: underline;
+}
+#metaright a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+#moreinfo {
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+#moreinfo a {
+	color: #000099;
+	text-decoration:underline;
+}
+
+#moreinfo a:hover {
+	color:#0000FF;
+}
+
+#download_btn {
+	text-align:center;
+}
+
+#download_btn a {
+	width: 150px;
+	height: 45px;
+	color: #fff;
+	text-decoration:none;
+}
+
+#download_btn a:hover {
+	text-decoration:underline;
+}
+
+.long_modder {
+	font-size:11px;
+}
+
+.extra_long_modder {
+	font-size:10px;
+}
+
+
+/*FOOTER DIVS*/
+#footer {
+	padding-top:10px;
+	float:left;
+	color: #000;
+	font-family: TrajanPro,Georgia,Palatino,Times New Roman,serif;
+	font-size: 10px;
+	border-top:  #009 solid 1px;
+	position:relative;
+	width: 997px;
+    left: 12px;
+}
+
+#footernav {
+	min-height:14px;
+	position:relative;
+}
+
+#footernav a {
+	color:#009;
+	text-decoration:underline;
+}
+
+#footernav a:hover {
+	color:#00F;
+	text-decoration:underline;
+}
+
+#subnav
+{
+	position:relative;
+}
+
+/*SUBNAV DIVS*/
+#subnav-npcs
+{
+	position:relative;
+	padding:2px 25px;
+	background:#D3D3D3;
+	width:975px;
+	height:130px;
+	top: -3px; 
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+
+#subnav-quests
+{
+	position:relative;
+	padding:2px 25px; 
+	background:#D3D3D3;
+	width:975px;
+	height:100px;
+	top: -3px; 
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#subnav-tweaks
+{
+	position:relative;
+	padding:2px 25px; 
+	background:#D3D3D3;
+	width:975px;
+	height:100px;
+	top: -3px; 
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#subnav-items
+{
+	position:relative;
+	padding:2px 25px; 
+	background:#D3D3D3;
+	width:975px;
+	height:100px;
+	top: -3px; 
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#subnav-inprogress
+{
+	position:relative;
+	padding:2px 25px; 
+	background:#D3D3D3;
+	width:975px;
+	height:100px;
+	top: -3px; 
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#subnav-tools
+{
+	position:relative;
+	padding:2px 25px; 
+	background:#D3D3D3;
+	width:975px;
+	height:100px;
+	top: -3px; 
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+
+#subnav a
+{
+	font-family:TrajanPro,Georgia,Palatino,Times New Roman,serif;
+	font-size:12px;
+	color:#666;
+	text-decoration:none;
+	
+}
+
+#subnav a:hover
+{
+	color:#009;
+	text-decoration:underline;
+}
+
+#subnav div div {
+    float: left;
+    min-width: 300px;
+    position: relative;
+}
+
+#subnav div div a { }
+
+
+
+/*UTILITIES*/
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; }    

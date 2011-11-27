@@ -409,7 +409,7 @@
       </p>
       <ul>
         <li>
-          <a href="bg1npc_docs/bg1npcvarindex.htm">Index of Variables used in The <acronym title="Baldur's Gate">BG1</acronym><acronym title="Non-Player Character">NPC</acronym>Project code, with file name and line number.</a>
+          <a href="bg1npc_docs/bg1npcvarindex.htm">Index of Variables used in The <acronym title="Baldur's Gate">BG1</acronym><acronym title="Non-Player Character">NPC</acronym>Project code, with file name and line number, sortable by column.</a>
         </li>
         <li>
           Use of <a href="http://forums.gibberlings3.net/">Cross Platform Modding Variables</a> for single install code for multiple platforms
@@ -479,6 +479,9 @@
         </li>
         <li>
           In .DLG: Use of I_C_T with passback or I_C_T3 with passback for maximum compatibility with multiple interjections into the same state.
+        </li>
+        <li>
+		<table><tr><th>TuTu</th><th>Variable</th><th>Associated</th><th>BGT</th></tr><tr><td>dream</td><td>%bgdreams%</td><td>player1d</td><td>BG1Dream</td></tr><tr><td>2</td><td>%bgdream1%</td><td>DRMTXT-2 has played</td><td>1</td></tr><tr><td>3</td><td>%bgdream2%</td><td>DRMTXT-3 has played</td><td>2</td></tr><tr><td>4</td><td>%bgdream3%</td><td>DRMTXT-4 has played</td><td>3</td></tr><tr><td>5</td><td>%bgdream4%</td><td>DRMTXT-5 has played</td><td>4</td></tr><tr><td>6</td><td>%bgdream5%</td><td>DRMTXT-6 has played</td><td>5</td></tr><tr><td>7</td><td>%bgdream6%</td><td>DRMTXT-7 has played</td><td>6</td></tr></table>
         </li>
       </ul>
       <p>
@@ -1240,14 +1243,15 @@
     </h2>
     <div class="section">
       <p>
-        <strong>Version 20 - November 11, 2011</strong>
+        <strong>Version 20 - November 26, 2011</strong>
       </p>
       <ul>
         <li>
           <font color="red">Added </font><strong>Traduction française</strong> : pour tout support, rendez-vous sur <a href="http://www.baldursgateworld.fr/lacouronne/forum.php">La Couronne de Cuivre</a>
         </li>
+		<a href="http://forums.gibberlings3.net/index.php?s=&showtopic=21446&view=findpost&p=182686"> ScuD's Yeslik repairs </a>
         <li> 
-          <font color="green">Repaired </font>From Isaya, reporting translator findings: x#cosqu.tra, <PRO_MANWOAMN> repaired to <PRO_MANWOMAN>
+          <font color="green">Repaired </font> From Isaya, reporting translator findings: x#cosqu.tra, < PRO_MANWOAMN > repaired to < PRO_MANWOMAN >
         </li>
         <li> 
           <font color="green">Repaired </font>From Isaya, reporting translator findings:  x#challenge.tra, string merge; lines across all translations now read:  <br />
@@ -1257,6 +1261,15 @@
         </li>
         <li> 
           <font color="green">Repaired </font>From Isaya, reporting translator findings: I_C_T ~%tutu_scripts%LAVLEAD~ 0 X#CoranRill repaired to correct line; I_C_T ~%tutu_scripts%LAVLEAD~ 2 X#CoranRill
+        </li>
+        <li>
+          <font color="green">Repaired </font> <a href="http://forums.gibberlings3.net/index.php?s=&showtopic=21446&view=findpost&p=182686.php"> ScuD's Yeslik repairs </a>
+        </li>
+        <li>
+          <font color="green">Repaired </font> <a href="https://github.com/cmorganbg/BG1NPC/commit/6bfbbdc8fcd1b62a844543998765f11799da1bc6"> BGT and TutTu Dream assignment repairs </a>
+        </li>
+		<li>
+          <font color="green">Repaired </font> <a href="https://github.com/cmorganbg/BG1NPC/commit/4a884b69b91666112f37e850f46e02dc1cd0a1b3"> Xan Slaver Quest dialog initiation switched to NPC script </a>
         </li>
       </ul>
       <p>
