@@ -859,7 +859,7 @@ BEGIN @1005
 					ADD_MEMORIZED_SPELL ~spwi406~ #3 ~wizard~ // Minor Globe of Invulnerability
 					ADD_MEMORIZED_SPELL ~spwi502~ #4 ~wizard~ (4) // Cloudkill
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%minsc.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%minsc6.cre~ = 0) BEGIN
 					WRITE_LONG 0x18 36293 // Current XP
 				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%montar.cre~ = 0) BEGIN
