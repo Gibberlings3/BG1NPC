@@ -1,0 +1,132 @@
+/* CONTENTS */
+/* Dream timer */
+/* Chats with PC */
+
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* Chats with PC */
+IF %BGT_VAR%
+CombatCounter(0)
+InParty(Myself)
+Global("X#SafArkush5","GLOBAL",1)
+Global("X#SaFriend5Talk","GLOBAL",0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#SaFriend5Talk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+CombatCounter(0)
+InParty(Myself)
+Global("X#SaFriend5Talk","GLOBAL",1)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("safana99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Dead("Arkush")
+InParty(Myself)
+Global("X#SafArkush8","GLOBAL",1)
+Global("X#SaFriendTalk","GLOBAL",0)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#SaFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#SaFriendTalk","GLOBAL",1)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* SACO1 - flirt on wyvern map */
+IF %BGT_VAR%
+InParty("coran")
+AreaCheck("%CloakwoodWyverns%")
+InParty(Myself)
+Global("X#SafanaCoranFlirt","LOCALS",0)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#SafanaCoranFlirt","LOCALS",1)
+END
+
+IF %BGT_VAR%
+Global("X#SafanaCoranFlirt","LOCALS",1)
+InParty("coran")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("coran")
+!StateCheck("coran",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("safana99")
+StartDialogNoSet("coran")
+END
+
+/* SASK1 NW Baldur's Gate by Skies house */
+IF %BGT_VAR%
+InParty("skie")
+PartyGoldGT(500)
+AreaCheck("%NWBaldursGate%")
+Global("X#SafanaSkieShopping","LOCALS",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("skie")
+!StateCheck("skie",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#SafanaSkieShopping","LOCALS",1)
+END
+
+IF %BGT_VAR%
+Global("X#SafanaSkieShopping","LOCALS",1)
+InParty("skie")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See("skie")
+!StateCheck("skie",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("safana99")
+StartDialogNoSet("skie")
+END

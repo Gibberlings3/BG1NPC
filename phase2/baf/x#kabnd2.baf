@@ -1,0 +1,45 @@
+IF %BGT_VAR%
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+Global("X#CaravanBanditEncounter","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#CaravanBanditEncounter","GLOBAL",1)
+END
+
+IF
+Global("X#CaravanBanditEncounter","GLOBAL",1)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+ActionOverride("X#BANDK1",ChangeEnemyAlly("X#BANDK1",ENEMY))
+ActionOverride("X#BANDK2",ChangeEnemyAlly("X#BANDK2",ENEMY))
+ActionOverride("X#BANDK3",ChangeEnemyAlly("X#BANDK3",ENEMY))
+Enemy()
+END
+
+IF
+See(NearestEnemyOf(Myself))
+THEN
+RESPONSE #100
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+AttackedBy([ANYONE],DEFAULT)
+THEN
+RESPONSE #100
+Attack(LastAttackerOf(Myself))
+END

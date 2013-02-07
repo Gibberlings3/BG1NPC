@@ -1,0 +1,15 @@
+IF
+True()
+THEN RESPONSE #100
+CutSceneId("xzar")
+ReallyForceSpellRES("SPWI104","montaron")
+Wait(1)
+DisplayStringHead("xzar",@0)
+Wait(5)
+DisplayStringHead("montaron",@1)
+Wait(1)
+SetGlobal("X#XzarCharmMontaron","GLOBAL",4)
+Dialogue(Myself)
+EndCutSceneMode()
+END
+

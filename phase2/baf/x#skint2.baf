@@ -1,0 +1,130 @@
+/* Skie Sewers */
+IF %BGT_VAR%
+Global("X#SkieSewer","GLOBAL",0)
+OR(4)
+AreaCheck("%BaldursGate_Undercellars%")
+AreaCheck("%WSewers%")
+AreaCheck("%CentralSewers%")
+AreaCheck("%ESewers%")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#SkieSewer","GLOBAL",1)
+END
+
+/* Initiate Skie Sewers */
+IF %BGT_VAR%
+Global("X#SkieSewer","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END
+
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Inn_L1%")
+Global("X#SkieCandlekeep","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#SkieCandlekeep","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#SkieCandlekeep","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("skie99")
+StartDialogueNoSet(Myself)
+END
+
+/* Doraa spawn */
+IF %BGT_VAR%
+Global("Chapter","GLOBAL",%tutu_chapter_7%)
+Global("X#DoraExists","GLOBAL",0)
+AreaCheck("%NWBaldursGate%")
+!Exists("doraa")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DoraExists","GLOBAL",1)
+SetGlobal("X#SummonDora","GLOBAL",1)
+CreateCreatureObjectOffScreen("X#DORA",Myself,0,0,0)
+END
+
+IF %BGT_VAR%
+Global("X#SkieJessup","GLOBAL",3)
+InParty("eldoth")
+!StateCheck("eldoth",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#SkieJessup","GLOBAL",4)
+END
+
+IF %BGT_VAR%
+Global("X#SkieJessup","GLOBAL",4)
+InParty("eldoth")
+!StateCheck("eldoth",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet("eldoth")
+END
+
+IF %BGT_VAR%
+Global("X#SkieLarze2","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#SkieLarze2","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#SkieLarze2","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("skie99")
+StartDialogueNoSet(Player1)
+END

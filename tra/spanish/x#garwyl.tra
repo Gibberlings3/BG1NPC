@@ -1,0 +1,31 @@
+@0    = ~Uno siempre puede encontrar una historia en cualquier parte, si sabe dónde mirar...~
+@1    = ~¿Quién va ahí? ¿Sois aventureros?~
+@2    = ~Es el grupo de <CHARNAME> y yo, el bravo sir Garrick.~
+@3    = ~¡Y Tiax, que lidera sobre todos!~
+@4    = ~Eh, Garrick, ¡habéis olvidado mencionarme! Quiero decir, *yo* soy la persona de este grupo a quien tenéis que presentar como líder...~
+@5    = ~Ya veo, sir Garrick. soy Myr'Cutio. O al menos lo era antes de morir... Decidme ¿por qué venís aquí?~
+@6    = ~Venimos buscando historias de sabiduría y aventuras, noble espíritu.~
+@7    = ~Uhhhh...~
+@8    = ~No he tenido muchas aventuras en estos últimos años. Mis compañeros no llevan la condición de no-muertos tan bien como yo, y, con perdón, son un poco aburridos.~
+@9    = ~¡Eh, eso no es muy justo, viejo!~
+@10   = ~Guhhhh...~
+@11   = ~¿Qué? ¡Tiax quería unirse! ¡Cuando lidere *todo* tendremos las habilidades de conversación de los zombis!~
+@12   = ~Pensándolo bien, os concederé ese punto... debe ser aburrido para vos, Myr'Cutio.~
+@13   = ~¡Ei! ¿¡¿Podéis hablar?!?~
+@14   = ~¡Claro! Uh, digo, duhhhh...~
+@15   = ~Mamá solía decirme que los huesos-secos no eran los mejores conversando. ¡Sin embargo, siempre encuentro tema de conversación con ellos! ¿Verdad, Monty?~
+@16   = ~Duhhhh...~
+@17   = ~Callaos, estúpido mago...~
+@18   = ~Uh, ya veo.~
+@19   = ~La verdad es que a veces me aburro de la no-vida. Tal vez para mi aventura final podría ser liberado por este grupo que tengo  frente a mí.~
+@20   = ~¡Todos los no-muertos son abominaciones! Por Helm, ¡Es tiempo de que conozcáis a vuestro creador!~
+@21   = ~¡Gloriosa batalla por Tempus!~
+@22   = ~No estoy seguro de...~
+@23   = ~¡Sí, venid, uno más a la pelea, mis amigos! Y así termina el cuento de Myr'Cutio, o <CHARNAME>... Ya veremos.~
+@24   = ~Y tanto, por las grandezas literales.
+
+Nos encontramos en el espíritu del afamado Myr'Cutio y le vencimos en batalla, terminando con la épica historia de su vida. Parece que podéis aprender cosas interesantes de los libros, después de todo.~
+@25   = ~Estoy de acuerdo en que los maestros artistas deben acceder a la inmortalidad por sus obras... Aunque creo que esto demuestra que, uh, tal vez sea mejor dejar que los cuerpos se pudran al morir. No creo que quisiera ser un fantasma, como eso... Aun así, esta armadura *sí* que es bonita.~
+@26   = ~Bibliotecarios viajeros.
+
+Hoy nos encontramos con un bibliotecario llamado Archibaldo en el Carnaval de Nashkel. Nos dio una copia del Último Compendio de Famosos Héroes Poco Conocidos, de Saemon Schama, que tiene una sección muy interesante que detalla al bardo no-muerto Myr'Cutio, de quien se dice pulula por la región de Ulcaster al este de Beregost. Garrick quiere echarle un vistazo.~

@@ -1,0 +1,393 @@
+/* Extending Dynaheir's Script */
+
+/* Immediate Journal Talk after joining */
+IF %BGT_VAR%
+Global("X#DYQJournalTalk","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DYQJournalTalk","GLOBAL",1)
+SetGlobalTimer("X#DQStartTimer","GLOBAL",ONE_DAY)
+END
+
+/* Initiate Immediate Journal Talk */
+IF %BGT_VAR%
+Global("X#DYQJournalTalk","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Drizzt finds the party and initiates Dynaheir's Quest */
+IF %BGT_VAR%
+Global("X#DynaJournal","GLOBAL",1)
+Global("X#DQDrizztSpawn","GLOBAL",0)
+!Dead("drizzt")
+!AreaCheck("%FishermansLake%")
+OR(8)
+AreaCheck("%RedCanyons%")
+AreaCheck("%SouthBeregostRoad%")
+AreaCheck("%ArchaeologicalSite%")
+AreaCheck("%NorthNashkelRoad%")
+AreaCheck("%BearRiver%")
+AreaCheck("%XvartVillage%")
+AreaCheck("%DryadFalls%")
+AreaCheck("%FireLeafForest%")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DQDrizztSpawn","GLOBAL",1)
+SetGlobal("X#DynaJournal","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#DQDrizztSpawn","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DQDrizztSpawn","GLOBAL",2)
+SetGlobal("X#DQDrizztStart","GLOBAL",1)
+CreateCreatureObjectOffset("X#DRIZZT",Player1,[100.100])
+END
+
+IF %BGT_VAR%
+Global("X#DQDrizztStart","GLOBAL",1)
+Global("X#DQDrizztApproaches","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DQDrizztApproaches","GLOBAL",1)
+ActionOverride("x#drizzt",Dialogue(Player1))
+END
+
+/* Create Good Gnolls for Dynaheir's Quest */
+IF %BGT_VAR%
+Global("X#DQGoodGnolls","GLOBAL",0)
+Global("X#DynaJournal","GLOBAL",3)
+GlobalTimerExpired("X#DQGGnollTimer","GLOBAL")
+OR(8)
+AreaCheck("%RedCanyons%")
+AreaCheck("%SouthBeregostRoad%")
+AreaCheck("%ArchaeologicalSite%")
+AreaCheck("%NorthNashkelRoad%")
+AreaCheck("%BearRiver%")
+AreaCheck("%XvartVillage%")
+AreaCheck("%DryadFalls%")
+AreaCheck("%FireLeafForest%")
+THEN
+RESPONSE #100
+SetGlobal("X#DynaJournal","GLOBAL",4)
+SetGlobal("X#DQGoodGnollsSpawn","GLOBAL",1)
+END
+
+/* Inintiate Good Gnolls for Dynaheir's Quest */
+IF %BGT_VAR%
+Global("X#DQGoodGnollsSpawn","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DQGoodGnollsSpawn","GLOBAL",2)
+CreateCreatureObjectOffset("X#DGNLG1",Player1,[100.100])
+CreateCreatureObjectOffset("X#DGNLG2",Player1,[75.100])
+CreateCreatureObjectOffset("X#DGNLG3",Player1,[75.75])
+CreateCreatureObjectOffset("X#DGNLG4",Player1,[100.75])
+ActionOverride("X#DGNLG1",FaceObject(Player1))
+ActionOverride("X#DGNLG2",FaceObject(Player1))
+ActionOverride("X#DGNLG3",FaceObject(Player1))
+ActionOverride("X#DGNLG4",FaceObject(Player1))
+SetGlobal("X#DQGoodGnolls","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#DQGoodGnolls","GLOBAL",1)
+Global("X#DQGoodGnollsTalk","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DQGoodGnollsTalk","GLOBAL",1)
+ActionOverride("X#DGNLG1",Dialog(Player1))
+END
+
+/* Dynaheir's Quest if Drizzt is not included */
+IF %BGT_VAR%
+Global("X#DyQuPartyAlone","GLOBAL",1)
+GlobalTimerExpired("X#DQEGnollTimer","GLOBAL")
+Global("X#DynaJournal","GLOBAL",5)
+OR(8)
+AreaCheck("%RedCanyons%")
+AreaCheck("%SouthBeregostRoad%")
+AreaCheck("%ArchaeologicalSite%")
+AreaCheck("%NorthNashkelRoad%")
+AreaCheck("%BearRiver%")
+AreaCheck("%XvartVillage%")
+AreaCheck("%DryadFalls%")
+AreaCheck("%FireLeafForest%")
+THEN
+RESPONSE #100
+SetGlobal("X#DyQuPartyAlone","GLOBAL",2)
+END
+
+/* Inintiate Evil Gnolls for Dynaheir's Quest */
+IF %BGT_VAR%
+Global("X#DyQuPartyAlone","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DyQuPartyAlone","GLOBAL",3)
+CreateCreatureObjectOffset("X#DGNLE1",Player1,[100.100])
+CreateCreatureObjectOffset("X#DGNLE2",Player1,[75.100])
+CreateCreatureObjectOffset("X#DGNLE3",Player1,[75.75])
+CreateCreatureObjectOffset("X#DGNLE4",Player1,[100.75])
+ActionOverride("X#DGNLE1",FaceObject(Player1))
+ActionOverride("X#DGNLE2",FaceObject(Player1))
+ActionOverride("X#DGNLE3",FaceObject(Player1))
+ActionOverride("X#DGNLE4",FaceObject(Player1))
+ActionOverride("X#DGNLE1",StartDialogNoSet(Player1))
+END
+
+/* All Conditions Except Party Alone, Reactivate Drizzt */
+IF %BGT_VAR%
+Global("X#DynaJournal","GLOBAL",5)
+Global("X#DrzztReappears","GLOBAL",0)
+Global("X#DrzztReappearsSpawn","GLOBAL",0)
+Global("X#DyQuPartyAlone","GLOBAL",0)
+GlobalTimerExpired("X#DztSearch","GLOBAL")
+!Dead("drizzt")
+OR(8)
+AreaCheck("%RedCanyons%")
+AreaCheck("%SouthBeregostRoad%")
+AreaCheck("%ArchaeologicalSite%")
+AreaCheck("%NorthNashkelRoad%")
+AreaCheck("%BearRiver%")
+AreaCheck("%XvartVillage%")
+AreaCheck("%DryadFalls%")
+AreaCheck("%FireLeafForest%")
+THEN
+RESPONSE #100
+SetGlobal("X#DrzztReappearsSpawn","GLOBAL",1)
+SetGlobal("X#DrzztReappears","GLOBAL",1)
+CreateCreatureObjectOffset("X#DRIZZT",Player1,[100.100])
+END
+
+IF %BGT_VAR%
+Global("X#DrzztReappears","GLOBAL",1)
+Global("X#DrzztReappearsTalk","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DrzztReappearsTalk","GLOBAL",1)
+ActionOverride("x#drizzt",Dialogue(Player1))
+END
+
+/* If Party Searches Alone, Killed Evil Gnolls */
+IF %BGT_VAR%
+Global("X#DyQuPartyAlone","GLOBAL",4)
+PartyHasItem("X#DYJOR2")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DyQuPartyAlone","GLOBAL",5)
+SetGlobal("X#DYGnollsKilled","GLOBAL",1)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#DYGnollsKilled","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+Dialogue(Myself)
+END
+
+/* Activate Edwin Steals the Journal */
+IF %BGT_VAR%
+Global("X#DynaJournal","GLOBAL",8)
+Global("X#DJTOED1","GLOBAL",0)
+GlobalTimerExpired("X#DJTOED","GLOBAL")
+Global("X#EdwinStealsDyJournal","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("edwin")
+InMyArea("edwin")
+!StateCheck("edwin",CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#EdwinStealsDyJournal","GLOBAL",1)
+END
+
+/* Initiate Edwin Steals the Journal */
+IF %BGT_VAR%
+Global("X#EdwinStealsDyJournal","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet("edwin")
+END
+
+/* Activate Edwin Must Return the Journal */
+IF %BGT_VAR%
+InParty("edwin")
+!StateCheck("edwin",CD_STATE_NOTVALID)
+GlobalTimerExpired("X#DJTOED","GLOBAL")
+Global("X#DynaJournal","GLOBAL",8)
+Global("X#DJTOED1","GLOBAL",1)
+Global("X#EdwinReturnsDyJournal","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#EdwinReturnsDyJournal","GLOBAL",1)
+END
+
+/* Initiate Edwin Must Return the Journal */
+IF %BGT_VAR%
+Global("X#EdwinReturnsDyJournal","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet("edwin")
+END
+
+/* Winski Abduction Attempt (Romance Only) */
+IF %BGT_VAR%
+Global("X#DynaheirRomanceActive","GLOBAL",2)
+Global("X#DynaJournal","GLOBAL",8)
+Global("X#DYQWRA","LOCALS",0)
+GlobalTimerExpired("X#DJRomanceAbduction","GLOBAL")
+AreaType(OUTDOOR)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DYQWRA","LOCALS",1)
+CreateCreatureObjectDoor("X#WINSKI",Player1,0,0,0)
+END
+
+/* Winski Driven Off */
+IF %BGT_VAR%
+Global("X#DyWinWon","GLOBAL",0)
+Global("X#DynaJournal","GLOBAL",8)
+Dead("ichthraa")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DyWinWon","GLOBAL",1)
+END
+
+/* Initiate Winski Driven Off */
+IF %BGT_VAR%
+Global("X#DyWinWon","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+Dialogue(Myself)
+END
+
+
+/* Final Commentary after Tanar'ri Death */
+IF %BGT_VAR%
+Dead("Aravaata")
+Global("X#DynaJournal","GLOBAL",11)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#DynaJournal","GLOBAL",12)
+Dialogue(Myself)
+END
+
+/* Initiate Winski Driven Off */
+IF %BGT_VAR%
+Global("X#DynaJournal","GLOBAL",12)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+Dialogue(Myself)
+END

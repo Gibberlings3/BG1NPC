@@ -1,0 +1,575 @@
+/* CONTENTS */
+/* dream script */
+/* CoranReturnsBabyNotInRomance */
+/* CoranLeavesParty */
+/* AlimonyPayments */
+/* CoranQuestPrompt */
+/* Normal Way */
+/* With Prompt */
+/* CoranRepeat */
+/* CoranComplains */
+/* CoranQuits */
+/* lullibye talk for male */
+/* lullibye talk for female */
+/* chat w safana at waking */
+/* Chat w PC */
+/* Wyvern head */
+/* Coran Friend Talks */
+
+/* dream script */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",18)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* CoranReturnsBabyNotInRomance */
+/* Dialogue in X#BRI.d */
+IF %BGT_VAR%
+Global("P#CoranHasBaby","GLOBAL",1)
+OR(2)
+  Global("P#CoranRomanceMatch","GLOBAL",0)
+  Global("P#CoranRomanceInactive","GLOBAL",1)
+OR(2)
+  GlobalGT("Chapter","GLOBAL",%tutu_chapter_6%)
+  GlobalTimerExpired("P#ReturnNamara","GLOBAL")
+!AreaCheck("%IceIsland%")//checking for island areas and Durlag
+!AreaCheck("%IsleofBalduranS%")
+!AreaCheck("%IsleofBalduranN%")
+!AreaCheck("%Undercity%")
+!AreaCheck("%DurlagsTower_Cellar%")
+!AreaCheck("%DurlagsTower_L1%")
+!AreaCheck("%DurlagsTower_L2%")
+!AreaCheck("%DurlagsTower_L3%")
+!AreaCheck("%DurlagsTower_D1%")
+!AreaCheck("%DurlagsTower_D2%")
+!AreaCheck("%DurlagsTower_D3%")
+!AreaCheck("%DurlagsTower_D4%")
+Global("P#CNRBabeBack","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P#CNRBabeBack","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CNRBabeBack","GLOBAL",1)
+CombatCounter(0)
+InParty(Myself)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* CoranLeavesParty */
+/* From "CoranReturnsBabyNotInRomance" in X#BRI.d */
+/* Goes to script file P#FW0103.baf in Phase2 */
+IF %BGT_VAR%
+Global("P#CoranMoves","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("P#CoranHasBaby","GLOBAL",2)
+SetGlobal("P#CoranMoves","GLOBAL",5)
+TakePartyItem("X#CBABY")
+TakePartyItem("X#CBOOK")
+TakePartyItem("X#CMILK")
+DestroyItem("X#CBABY")
+DestroyItem("X#CBOOK")
+DestroyItem("X#CMILK")
+EscapeAreaMove("%NEBaldursGate_SplurgingSturgeon_L1%",368,402,2)
+END
+
+/* AlimonyPayments */
+IF %BGT_VAR%
+Global("X#CoranPaymentLoop","GLOBAL",0)
+Global("P#CoranHasBaby","GLOBAL",2)
+GlobalTimerExpired("P#Alimony","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("X#CoranPaymentLoop","GLOBAL",1)
+SetGlobalTimer("P#Alimony","GLOBAL",604800)
+DisplayStringHead("coran", @0)
+TakePartyGold(100)
+END
+
+IF %BGT_VAR%
+GlobalTimerExpired("P#Alimony","GLOBAL")
+Global("X#CoranPaymentLoop","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobalTimer("P#Alimony","GLOBAL",1)
+SetGlobal("X#CoranPaymentLoop","GLOBAL",0)
+END
+
+/* CoranQuestPrompt */
+
+/* Normal Way */
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#QuestTimerStarted","GLOBAL",0)
+Global("P#Briel_Stay","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobalTimer("P#CoranAskBaby","GLOBAL",ONE_DAY)
+SetGlobal("P#QuestTimerStarted","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+OR(2)
+  RealGlobalTimerExpired("P#CoranAskBaby","GLOBAL")
+  Global("P#CoranPrompted","GLOBAL",3)
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CoranBaby","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#CoranBaby","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CoranBaby","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* With Prompt */
+IF %BGT_VAR%
+InParty(Myself)
+!AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CoranBaby","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",0)
+Global("P#CoranPrompted","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P#CoranPrompted","GLOBAL",2)
+RealSetGlobalTimer("X#CoranPromptedTimer","GLOBAL",100)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+RealGlobalTimerExpired("X#CoranPromptedTimer","GLOBAL")
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CoranBaby","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",0)
+Global("P#CoranPrompted","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("P#CoranPrompted","GLOBAL",3)
+END
+
+/* CoranRepeat */
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#RepeatTimerStarted","GLOBAL",0)
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CoranRepeat","GLOBAL",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P#CoranBabyAgain","GLOBAL",3600)
+SetGlobal("P#RepeatTimerStarted","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#CoranBabyAgain","GLOBAL")
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CBABY_AGAIN","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",0)
+InMyArea(Player1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!AreaCheck("%IceIsland%")
+!AreaCheck("%IsleofBalduranS%")
+!AreaCheck("%IsleofBalduranN%")
+!AreaCheck("%Undercity%")
+!AreaCheck("%DurlagsTower_Cellar%")
+!AreaCheck("%DurlagsTower_L1%")
+!AreaCheck("%DurlagsTower_L2%")
+!AreaCheck("%DurlagsTower_L3%")
+!AreaCheck("%DurlagsTower_D1%")
+!AreaCheck("%DurlagsTower_D2%")
+!AreaCheck("%DurlagsTower_D3%")
+!AreaCheck("%DurlagsTower_D4%")
+THEN
+RESPONSE #100
+SetGlobal("P#CBABY_AGAIN","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CBABY_AGAIN","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* CoranComplains */
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#ComplainTimerStarted","GLOBAL",0)
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CoranWillComplain","GLOBAL",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P#Coran_Complains","GLOBAL",14400)
+SetGlobal("P#ComplainTimerStarted","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#Coran_Complains","GLOBAL")
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CB_COMPLAINS","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!AreaCheck("%IceIsland%")
+!AreaCheck("%IsleofBalduranS%")
+!AreaCheck("%IsleofBalduranN%")
+!AreaCheck("%Undercity%")
+!AreaCheck("%DurlagsTower_Cellar%")
+!AreaCheck("%DurlagsTower_L1%")
+!AreaCheck("%DurlagsTower_L2%")
+!AreaCheck("%DurlagsTower_L3%")
+!AreaCheck("%DurlagsTower_D1%")
+!AreaCheck("%DurlagsTower_D2%")
+!AreaCheck("%DurlagsTower_D3%")
+!AreaCheck("%DurlagsTower_D4%")
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#CB_COMPLAINS","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CB_COMPLAINS","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* CoranQuits */
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#QuitTimerStarted","GLOBAL",0)
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CoranWillQuit","GLOBAL",1)
+!Global("P#CoranMatch","GLOBAL",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P#CoranBabyQuits","GLOBAL",72000)
+SetGlobal("P#QuitTimerStarted","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#CoranBabyQuits","GLOBAL")
+Global("P#Briel_Stay","GLOBAL",1)
+Global("P#CB_QUITS","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!AreaCheck("%IceIsland%")
+!AreaCheck("%IsleofBalduranS%")
+!AreaCheck("%IsleofBalduranN%")
+!AreaCheck("%Undercity%")
+!AreaCheck("%DurlagsTower_Cellar%")
+!AreaCheck("%DurlagsTower_L1%")
+!AreaCheck("%DurlagsTower_L2%")
+!AreaCheck("%DurlagsTower_L3%")
+!AreaCheck("%DurlagsTower_D1%")
+!AreaCheck("%DurlagsTower_D2%")
+!AreaCheck("%DurlagsTower_D3%")
+!AreaCheck("%DurlagsTower_D4%")
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#CB_QUITS","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CB_QUITS","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P#CQuitTalkTime","GLOBAL",5)
+StartDialogueNoSet(Player1)
+END
+
+/* lullibye talk for male */
+IF %BGT_VAR%
+PartyRested()
+Global("P#Lulm","GLOBAL",0)
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",1)
+Gender(Player1,MALE)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#Lulm","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#Lulm","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* lullibye talk for female */
+IF %BGT_VAR%
+PartyRested()
+Global("P#Lulf","GLOBAL",0)
+!InParty("safana")
+Alignment("coran",CHAOTIC_GOOD)
+Global("P#CoranHasBaby","GLOBAL",1)
+Gender(Player1,FEMALE)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+THEN
+RESPONSE #100
+SetGlobal("P#Lulf","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#Lulf","GLOBAL",1)
+!InParty("safana")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* chat w safana at waking */
+IF %BGT_VAR%
+PartyRested()
+Global("P#CoSA2","LOCALS",1)
+Global("P#CoSA3","LOCALS",0)
+InParty("safana")
+Global("X#SAFGM","GLOBAL",0)
+OR(2)
+!Global("P#CoranMatch","GLOBAL",1)
+!Global("P#CoranRomancePath","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("safana")
+!StateCheck("safana",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#SAFGM","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty("safana")
+Global("X#SAFGM","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("safana")
+!StateCheck("safana",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogNoSet("safana")
+END
+
+/* Chat w PC */
+/* Wyvern head friendtalk */
+IF %BGT_VAR%
+Dead("X#CoranWyvern")
+Global("CoranReward","GLOBAL",1)
+PartyHasItem("%tutu_var%MISC52") //wyvern head
+Global("wyvernp","GLOBAL",0)
+Global("P#CoPC1","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#CoPC1","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CoPC1","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+/* Coran Friend Talks */
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#CoranFriend","GLOBAL",0)
+Global("P#CFriendTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+IncrementGlobal("P#CFriendTalk","GLOBAL",1)
+RealSetGlobalTimer("P#CFriendTalkTime","GLOBAL",1800)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+RealGlobalTimerExpired("P#CFriendTalkTime","GLOBAL")
+OR(2)
+Global("P#CoranFriend","GLOBAL",0)
+Global("P#CoranFriend","GLOBAL",1)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(3)
+Global("P#CFriendTalk","GLOBAL",1)
+Global("P#CFriendTalk","GLOBAL",3)
+Global("P#CFriendTalk","GLOBAL",5)
+THEN
+RESPONSE #100
+IncrementGlobal("P#CFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(3)
+Global("P#CFriendTalk","GLOBAL",2)
+Global("P#CFriendTalk","GLOBAL",4)
+Global("P#CFriendTalk","GLOBAL",6)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+RealGlobalTimerExpired("P#CFriendTalkTime","GLOBAL")
+Gender(Player1,MALE)
+OR(2)
+Global("P#CoranFriend","GLOBAL",0)
+Global("P#CoranFriend","GLOBAL",1)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CFriendTalk","GLOBAL",7)
+THEN
+RESPONSE #100
+IncrementGlobal("P#CFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Gender(Player1,MALE)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#CFriendTalk","GLOBAL",8)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("coran99")
+StartDialogueNoSet(Player1)
+END

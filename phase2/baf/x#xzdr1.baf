@@ -1,0 +1,19 @@
+/* Summon Assistants and Text */
+IF
+True()
+THEN RESPONSE #100
+CutSceneId("xzar")
+MoveToObject("cdryad")
+Wait(1)
+ReallyForceSpellRES("SPPR102","cdryad")
+FadeToColor([20.0],0)
+Wait(5)
+SetGlobal("X#XzarDryad","GLOBAL",5)
+Wait(1)
+FadeFromColor([20.0],0)
+Wait(1)
+GiveItemCreate("X#XZDRIA","xzar",1,0,0)
+ActionOverride("cdryad",Dialogue("xzar"))
+EndCutSceneMode()
+END
+

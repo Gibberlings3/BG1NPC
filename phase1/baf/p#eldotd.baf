@@ -1,0 +1,78 @@
+/* CONTENTS */
+/* Skie: are you after my money */
+/* Attempted seduction of Viconia */
+
+/* Skie: are you after my money */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#EldSkie1","LOCALS",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("skie")
+!StateCheck("skie",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("skie")
+THEN
+RESPONSE #100
+SetGlobal("X#EldSkie1","LOCALS",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("skie")
+END
+
+IF %BGT_VAR%
+Global("X#EldSkie1","LOCALS",1)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty("skie")
+!StateCheck("skie",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("skie")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("skie")
+END
+
+/* Attempted seduction of Viconia */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#EldViconia1","LOCALS",0)
+GlobalLT("SilvershieldEstate","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("viconia")
+!StateCheck("viconia",CD_STATE_NOTVALID)
+!InParty("skie")
+TimeOfDay(NIGHT)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("viconia")
+THEN
+RESPONSE #100
+SetGlobal("X#EldViconia1","LOCALS",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("viconia")
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#EldViconia1","LOCALS",1)
+GlobalLT("SilvershieldEstate","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("viconia")
+!StateCheck("viconia",CD_STATE_NOTVALID)
+!InParty("skie")
+TimeOfDay(NIGHT)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("viconia")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("viconia")
+END

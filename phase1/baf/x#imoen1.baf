@@ -1,0 +1,432 @@
+/* CONTENTS */
+/* Dream Timer */
+/* Start friend talk timer */
+/* Friend talks 1 & 2 */
+/* Beregost talk */
+/* At the Elfsong */
+/* Dream talks */
+///* Dream 1 */
+///* Dream 2 */
+/* Tarnesh's scroll */
+/* Imoen's artifact */
+/* Firewine Bridge */
+/* Quayle */
+/* Skie */
+/* Pink Xan dialogues */
+
+/* Dream Timer */
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* Start friend talk timer */
+IF %BGT_VAR%
+Global("X#ImFriendTalk","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+Global("X#ImPCTimerStarted","GLOBAL",0)
+Global("X#ImFriendTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#ImFriendTalkTime","GLOBAL",300)
+SetGlobal("X#ImFriendTalk","GLOBAL",1)
+SetGlobal("X#ImPCTimerStarted","GLOBAL",1)
+END
+
+/* Friend talks 1 & 2 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#ImFriendTalkTime","GLOBAL")
+Global("X#ImFriendCheck","GLOBAL",0)
+!AreaCheck("%Beregost%")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(2)
+Global("X#ImFriendTalk","GLOBAL",1)
+Global("X#ImFriendTalk","GLOBAL",3)
+See(Player1)
+CombatCounter(0)
+THEN
+RESPONSE #100
+IncrementGlobal("X#ImFriendTalk","GLOBAL",1)
+SetGlobal("X#ImFriendCheck","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#ImFriendCheck","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+OR(2)
+Global("X#ImFriendTalk","GLOBAL",2)
+Global("X#ImFriendTalk","GLOBAL",4)
+See(Player1)
+CombatCounter(0)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* Beregost talk */
+IF %BGT_VAR%
+AreaCheck("%Beregost%")
+GlobalLT("Chapter","GLOBAL",%tutu_chapter_3%)
+Global("X#ImoenBereg","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenBereg","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#ImoenBereg","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* At the Elfsong */
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+Global("X#ImoenGift","GLOBAL",0)
+InParty(Myself)
+See(Player1)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenGift","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#ImoenGift","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenGift","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#ImoenGift","GLOBAL",2)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* Dream talks */
+///* Dream 1 */
+IF %BGT_VAR%
+Global("%bgdreams%","GLOBAL",%bgdream1%)
+Global("X#ImoenDreamResponse2","GLOBAL",0)
+Global("Chapter","GLOBAL",%tutu_chapter_2%)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenDreamResponse2","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#ImoenDreamResponse2","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+///* Dream 2 */
+IF %BGT_VAR%
+Global("%bgdreams%","GLOBAL",%bgdream3%)
+Global("X#ImoenDreamResponse4","GLOBAL",0)
+Global("Chapter","GLOBAL",%tutu_chapter_4%)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenDreamResponse4","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#ImoenDreamResponse4","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* Tarnesh's scroll */
+IF %BGT_VAR%
+PartyHasItem("%tutu_var%SCRLTAR")
+Dead("tarnesh")
+Global("X#IMPC8","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!Class("imoen",MAGE_ALL)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#IMPC8","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#IMPC8","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!Class("imoen",MAGE_ALL)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* Imoen's artifact */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#ImTarneshBook","GLOBAL")
+Global("X#IMGetsSpellbook","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#IMGetsSpellbook","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+Global("X#IMGetsSpellbook","GLOBAL",2)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* Firewine Bridge */
+IF %BGT_VAR%
+See("poe")
+AreaCheck("%FirewineBridge%")
+Global("X#ImoenFIRE","GLOBAL",0)
+InParty(Myself)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenFIRE","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#ImoenFIRE","GLOBAL",1)
+AreaCheck("%FirewineBridge%")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogueNoSet(Player1)
+END
+
+/* Quayle */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Library_L2%")
+InParty("quayle")
+Global("P#QuayleImoenCK","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck("quayle",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#QuayleImoenCK","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty("quayle")
+Global("P#QuayleImoenCK","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck("quayle",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet("quayle")
+END
+
+/* Skie */
+IF %BGT_VAR%
+Global("X#IMSK4","GLOBAL",0)
+InParty("skie")
+!StateCheck("skie",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+AreaType(CITY)
+THEN
+RESPONSE #100
+SetGlobal("X#IMSK4","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+InParty("skie")
+Global("X#IMSK4","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+Interact(Player1)
+END
+
+/* Pink Xan dialogues */
+IF %BGT_VAR%
+Global("X#IMXA2","GLOBAL",0)
+Global("Chapter","GLOBAL",%tutu_chapter_5%)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InParty("xan")
+See("xan")
+!StateCheck("xan",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+OR(9)
+AreaCheck("%EBaldursGate%")
+AreaCheck("%SEBaldursGate%")
+AreaCheck("%BaldursGateDocks%")
+AreaCheck("%SWBaldursGate%")
+AreaCheck("%WBaldursGate%")
+AreaCheck("%CentralBaldursGate%")
+AreaCheck("%NWBaldursGate%")
+AreaCheck("%NBaldursGate%")
+AreaCheck("%NEBaldursGate%")
+THEN
+RESPONSE #100
+SetGlobal("X#IMXA2","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#IMXA2","GLOBAL",1)
+InParty(Myself)
+InParty("xan")
+!StateCheck("xan",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#IMXA2","GLOBAL",2)
+InParty(Myself)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#XanBack","GLOBAL",5)
+SetGlobal("X#IMXA2","GLOBAL",3)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#XanBack","GLOBAL")
+OR(2)
+Global("X#IMXA2","GLOBAL",3)
+Global("X#IMXA2","GLOBAL",6)
+InParty("xan")
+InParty(Myself)
+See("xan")
+CombatCounter(0)
+!See([ENEMY])
+!StateCheck("xan",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#IMXA2","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#XanBack","GLOBAL")
+OR(2)
+Global("X#IMXA2","GLOBAL",4)
+Global("X#IMXA2","GLOBAL",7)
+InParty("xan")
+InParty(Myself)
+!StateCheck("xan",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

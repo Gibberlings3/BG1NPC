@@ -1,0 +1,25 @@
+IF %BGT_VAR%
+GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+Global("X#XanQuest1","GLOBAL",0)
+Global("X#DavidExists","%NorthNashkelRoad%",0)
+Global("X#CruExists","%NorthNashkelRoad%",0)
+Global("X#ChopExists","%NorthNashkelRoad%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#XanQuest1","GLOBAL",1)
+CreateCreature("X#DAVID",[925.3230],1)
+CreateCreature("X#CRU11",[920.3233],1)
+CreateCreature("X#CHOP",[930.3233],1)
+SetGlobal("X#DavidExists","%NorthNashkelRoad%",1)
+SetGlobal("X#CruExists","%NorthNashkelRoad%",1)
+SetGlobal("X#ChopExists","%NorthNashkelRoad%",1)
+END
+
+IF %BGT_VAR%
+Global("X#XanQuest1","GLOBAL",6)
+PartyHasItem("P#BAG01")
+PartyHasItem("P#BAG02")
+THEN
+RESPONSE #100
+SetGlobal("X#XanQuest1","GLOBAL",7)
+END

@@ -1,0 +1,20 @@
+/* Jaheira Heals Beador */
+IF
+True()
+THEN RESPONSE #100
+CutSceneId("jaheira")
+MoveToObject("beador")
+Wait(1)
+ReallyForceSpellRES("SPPR103","beador")
+FadeToColor([40.0],0)
+Wait(5)
+ActionOverride("beador",DestroySelf())
+CreateCreature("X#BEADO1",[550.3614],3)
+Wait(1)
+SetGlobal("X#JaheiraHealsB","GLOBAL",4)
+Wait(1)
+FadeFromColor([20.0],0)
+Wait(1)
+ActionOverride("beado1",StartDialogueNoSet(Player1))
+EndCutSceneMode()
+END

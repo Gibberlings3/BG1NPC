@@ -1,0 +1,351 @@
+//seigneur présage, noble d'Eauprofonde rencontré au nord de Nashkel
+@0 = ~Ah, j'ai failli oublier ! J'ai une babiole pour vous de la part d'un bienfaiteur secret. Vous voici jeune et sur la route, mon ami... Il se pourrait bien que vous tombiez très bientôt amoureux de l'un de vos compagnons. Voici de quoi vous aider à gagner son coeur.~ ~Ah, j'ai failli oublier ! J'ai une babiole pour vous de la part d'un bienfaiteur secret. Vous voici jeune et sur la route, mon amie... Il se pourrait bien que vous tombiez très bientôt amoureuse de l'un de vos compagnons. Voici de quoi vous aider à gagner son coeur.~
+
+//Voltine
+@1 = ~Bonne rencontre, Voltine ! Je suis Coran, et tu peux m'appeler... Coran. Quelle plaisante surprise que de rencontrer une autre elfe ! Et d'une si exquise beauté...~
+
+// Rieltar
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 112, probablement inutile de traduire ici !
+@2 = ~Un voleur n'impose pas ses règles à un autre voleur... qu'il soit ou non gentilhomme. Nous ferons ce qui nous plaira, et si ça ne vous plaît pas - hé bien, c'est le moment ou jamais de vous livrer à une nouvelle tentative de meurtre sur <CHARNAME>. Tous les assaillants qui vous ont précédé sont tombés devant lui.~
+     ~Un voleur n'impose pas ses règles à un autre voleur... qu'il soit ou non gentilhomme. Nous ferons ce qui nous plaira, et si ça ne vous plaît pas - hé bien, c'est le moment ou jamais de vous livrer à une nouvelle tentative de meurtre sur <CHARNAME>. Tous les assaillants qui vous ont précédé sont tombés devant elle.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 113, probablement inutile de traduire ici !
+@3 = ~Ce serait vraiment une triste journée, si je prenais au sérieux les menaces d'un quelconque voleur aux oreilles pointues.~
+
+
+//Nemphré (nécro opposée à Arkion)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 114, probablement inutile de traduire ici !
+@4 = ~Ah, quel dommage... J'espérais voir l'amulette décorer votre beau cou, ma dame...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 115, probablement inutile de traduire ici !
+@5 = ~Allez-vous faire voir !~
+
+//Lariaz (sirène captive de pêcheurs)
+@6 = ~Elle n'a pas l'air trop bien, même si je déteste dire cela d'une dame. En fait, elle a l'air sur le point d'expirer. Peut-être pourrions-nous l'escorter jusqu'au bord de la mer, <CHARNAME> ? Elle est trop belle pour mourir...~
+
+
+//Pheirkas (demande à voler la cape d'algernon)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 118, probablement inutile de traduire ici !
+@7 = ~Que je sois damné si je me mets à faire les petites commissions d'un nain ! Attendez... Vous avez dit qu'il y aurait une jolie récompense ? Pouvez-vous me donner un montant exact ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 119, probablement inutile de traduire ici !
+@8 = ~Si j'apprécie votre boulot, et que vous le faites vite, y'aura 200 pièces d'or pour vous.~
+
+// Laerta (une des jumelles protégées par Voltine et "matée" par Gervisse)
+@9 = ~Jeunes demoiselles, vous avez ma parole que le mécréant sera sévèrement châtié pour avoir osé troubler votre paisible sommeil.~
+
+
+// Bazar de la chance
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 125, probablement inutile de traduire ici !
+@10 = ~Hum... Vous avez vraiment de la chance, si vous êtes encore vivant au milieu des trucs que vous vendez. Regardez-moi cette bouteille ! Elle a consumé l'étagère sur une profondeur d'un pouce tout autour d'elle ! Et ce... euh, quoi que ce soit... Je jure que ça m'a fait un clin d'oeil !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 126, probablement inutile de traduire ici !
+@11 = ~Ça ? Ce sont les yeux de quelque dame liche... ou, du moins, c'est ce que m'a dit le gnome qui m'les a vendus...~
+
+//Lusselyn (à l'esturgeon frétillant, nous envoie sur pari tuer les limons de l'auberge)
+@12 = ~*riant* Tu es un homme heureux, Lusselyn... En te regardant, qui ne voudrait pas passer sa vie à picoler et à discuter avec d'aimables compagnons... Et si nous restions ici un moment, <CHARNAME>, et dépensions ces quelques piécettes pour célébrer la chance d'être en vie et compenser auprès de ce bon aubergiste la dépense d'avoir à racheter une nouvelle gelée ?~
+@13 = ~T'es un bon gars, toi... ~
+
+
+//Areana (dame de la noblesse qui aux Trois vieilles chopes vous recrute pr tuer Cyrdemac au chant de l'elfe)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 129, probablement inutile de traduire ici !
+@14 = ~Qui croirait les rumeurs, après avoir regardé dans vos beaux yeux innocents, m'dame ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 130, probablement inutile de traduire ici !
+@15 = ~C'est... pas matière à plaisanter... J'ai besoin qu'on le fasse taire ! S'il vous plaît...~
+
+//Rinnie (barde, travaille une ballade sur les licornes)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 856, probablement inutile de traduire ici !
+@16 = ~Mmh... Ainsi nous recherchons une histoire de la Chute des licornes ? Avec un titre pareil, ça doit être une lecture piquante.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 857, probablement inutile de traduire ici !
+@17 = ~On m'a raconté une fois une jolie histoire sur la chasse aux licornes. Vous voyez, on prétend que si vous attachez une jeune vierge sur un chêne dans la forêt, une licorne va venir... Alors ce type intelligent a convaincu une vierge de chasser les licornes avec lui... Une bonne histoire, ça.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 858, probablement inutile de traduire ici !
+@18 = ~Je me demande si cet in-folio raconte quelque chose de semblable.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 859, probablement inutile de traduire ici !
+@19 = ~*rougit* Ce n'est *rien* de ce genre, bien sûr !~
+
+//Cordyr (pêcheur de la porte qui veut qu'on le débarrasse de sirènes)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 137, probablement inutile de traduire ici !
+@20 = ~La chasse aux sirènes est une quête cruelle - écouter leur doux chant, et savoir avec certitude qu'elles ne font que séduire les hommes afin de répandre leur sang qui s'est mis à bouillir dès qu'ils les ont vues. *soupir* J'ai toujours peine à croire que c'est leur intention. Peut-être devrais-je un jour cesser de résister, et le découvrir par moi-même.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 138, probablement inutile de traduire ici !
+@21 = ~On m'a dit que ma mère était une sirène...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 139, probablement inutile de traduire ici !
+@22 = ~Te connaissant, je suis porté à croire cette histoire, ô tentatrice. J'aimerais savoir comment ton père... euh... peu importe.~
+
+//Desreta (illuminée de l'entropie à la lanterne assourdie)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 141, probablement inutile de traduire ici !
+@23 = ~*hausse un sourcil* Je n'étais pas conscient que maintenant on appelait cela de l'*entropie*, à la Porte de Baldur... J'ai été absent trop longtemps, peut-être.~
+
+//Faber (fabre : esclave de bois manteau, dénonciateur)
+@24 = ~Un rapporteur ! Il me rappelle ma soeur Améniela... Maman ! Coran s'est échappé par la fenêtre et il a passé toute la nuit à chasser ! Papa ! Coran a embrassé la fille d'Enivien Maervik... Plutôt gênant. Nous allons devoir surveiller nos arrières à présent.~
+@25 = ~Gaaardes !~
+
+
+//Canticle (cantique: esclave de bois manteau, barde qui a perdu sa voix)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 146, probablement inutile de traduire ici !
+@26 = ~Asservir un barde pour le faire creuser ? Ce Davaëorn a un cerveau de la taille d'une noix ! Ne sois pas inquiet, troubadour, nous sommes ici pour vous libérer tous, et pour tuer Davaëorn.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 147, probablement inutile de traduire ici !
+@27 = ~Si vous nous libérez... Je chanterai une chanson pour vous, même si je ne devais plus jamais pouvoir parler après.~
+
+//Taxek (voleur surpris en plein cambriolage)
+@28 = ~Est-ce là *tout * ?~
+@29 = ~Oui, sire. Sans vouloir vous offenser, ou quoi que ce soit, mais votre maison n'a pas grand chose...~
+
+//Forthel (et Viconia sur la fin) (barde bavard près du temple de gond)
+@30 = ~Vous avez besoin de matière pour une ballade ? Vous avez demandé à la bonne personne ! Regardez cet héroïque seigneur à l'allure noble ! Chaque journée avec lui peut être transformée en chanson, et une semaine - en une épopée !~ ~Vous avez besoin de matière pour une ballade ? Vous avez demandé à la bonne personne ! Regardez cette héroïque dame à l'allure noble ! Chaque journée avec elle peut être transformée en chanson, et une semaine - en une épopée !~
+@31 = ~*doucement* Et chaque nuit - en une chanson...~
+@32 = ~Hé bien, donnez-moi au moins un exemple...~
+@33 = ~Avec joie. Il y a quelque jours à peine, nous avons travaillé à stopper la pénurie de fer et avons chassé les bandits des entrailles de Toril... Ou du moins était-ce aussi près de ses entrailles que j'en ai jamais eu l'intention.~
+@34 = ~Êtes-vous en train de me dire que vous avez été en Ombreterre ?~
+@35 = ~Euh... à peu près. Là nous fûmes assaillis par de vicieux...~
+@36 = ~Drows ?! Je savais qu'ils étaient impliqués ! Rien de maléfique... ou plutôt rien tout court... ne se produit à la surface de Toril, sans qu'un ou deux drows ne soient impliqués !~
+@37 = ~Euh... Oui, des drows partout, rôdant dans les ombres, tirant ces dards empoisonnés dont ils ont le secret... et leurs femmes si voluptueuses et maléfiques que vous tombez amoureux d'elles plus vite qu'elles ne vous tuent, et croyez-moi, elles sont plutôt rapides...~
+@38 = ~*calmement* Je serais ravie de te faire la démonstration de notre rapidité à tuer, stupide darthiir...~
+@39 = ~*calmement* Alors laisse tomber ta cagoule et fais-le... Je me demande combien de temps il te restera à vivre quand le Poing Enflammé saura qui nous abritons ?~
+@40 = ~Surfacin minable !~
+@41 = ~Quelle histoire magnifique !~
+
+//Peter du nord- élève des wyvernes à Bois Manteau
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 150, probablement inutile de traduire ici !
+@42 = ~Un camarade chasseur de wyvernes, je suppose ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 151, probablement inutile de traduire ici !
+@43 = ~Un chasseur, oui. Mais je ne suis pas intéressé par ces... wivernes. Je suis ici pour.. euh... les grottes.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 152, probablement inutile de traduire ici !
+@44 = ~Vraiment ? J'aurais pourtant juré que ce léger parfum acide sur votre manteau est le même que celui laissé par leur poison...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 153, probablement inutile de traduire ici !
+@45 = ~Alors vous n'allez pas tuer le couple ? Je ne suis pas surpris. *Personne* dans les environs n'achète de trophées de wyvernes... Je le sais de source sûre !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 154, probablement inutile de traduire ici !
+@46 = ~Euh... Combien de temps allez-vous rester dans cette grotte, cela dit ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 155, probablement inutile de traduire ici !
+@47 = ~Quelques temps. Ma... euh... spéléologie prend du temps...~
+
+//Rill (esclave de bois manteau, vous demande de libérer ses pairs)
+@48 = ~Bien sûr que nous pouvons vous aider à sortir ! Comme on dit - prendre aux riches, donner aux pauvres, et ne pas s'oublier au passage...~
+
+//Sonner (sonnère, pêcheur en conflit avec tenya)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 56, probablement inutile de traduire ici !
+@49 = ~A vous trois, vous ne parvenez pas à gagner les faveurs d'une seule dame ? A moi tout seul je peux gagner trois dames dans le même laps de temps !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 57, probablement inutile de traduire ici !
+@50 = ~Alors essaie donc, camarade. Sauf que c'est pas une dame, c'est une garce, comme sa Reine...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 58, probablement inutile de traduire ici !
+@51 = ~<CHARNAME>, des hommes qui traitent une femme de garce ne méritent pas notre aide...~
+
+//Coran à un PJ mâle
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 159, probablement inutile de traduire ici !
+@52 = ~Tu te souviens de ce que je t'ai dit ? Avec les femmes nobles, c'est le culot qui marche. Souris, coquin !~
+
+//Abela la nymphe
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 160, probablement inutile de traduire ici !
+@53 = ~Tu es libre, beauté sylvestre. Si nous célébrions cette joyeuse circonstance dans une confortable auberge ? Ou dans cette jolie grotte que tu appelles ton foyer... où est-elle, au fait ? Abela ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 161, probablement inutile de traduire ici !
+@54 = ~*Abela jette à Coran un regard spéculatif, mais détourne ensuite les yeux en un sursaut, et soupire.*~
+
+//Poe (barde du pt de flammevin)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 176, probablement inutile de traduire ici !
+@55 = ~Barde, ta ballade m'a rappelé l'histoire du Roi-Elfe Echtellion et de la Chanteuse Inga Ailehaute.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 177, probablement inutile de traduire ici !
+@56 = ~J'apprécierais d'entendre cette histoire, Maître Elfe.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 178, probablement inutile de traduire ici !
+@57 = ~Il y a un petit village, Belgarden, au Cormyr, sur les terres qui aujourd'hui sont revendiquées par les humains, mais qui, autrefois, étaient elfiques. Une cruelle bataille fut livrée là il y a des milliers d'années, peu après les Guerres de la Couronne. Et au cours de celle-ci, l'elfe le plus juste et le plus puissant qui soit, le roi Echtellion, fut assassiné - de quelque noble manière, bien entendu.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 179, probablement inutile de traduire ici !
+@58 = ~Pour honorer sa mémoire, l'artiste Alaundalion sculpta une statue à placer sur sa tombe. On disait qu'il était amoureux de la soeur d'Echtellion, et c'est pourquoi, pour lui complaire, il fit ce qu'elle lui commandait en créant une statue très ressemblante, ce qui va contre la tradition elfique - car nous savons tous que les Elfes ont peu de talent pour reproduire fidèlement les traits, vu qu'ils cherchent toujours à capturer l'esprit.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 180, probablement inutile de traduire ici !
+@59 = ~La soeur du roi, la sage Ogneda, s'était éprise de l'oeuvre d'Alaundalion, et elle venait assez souvent honorer son frère et déposer des fleurs aux pieds de la statue. On croit que par la suite Ogneda devint folle, persuadée que la pierre inerte était son frère. La magie qui coulait en elle était forte, et, aidée par sa démence, elle devint une banshee.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 181, probablement inutile de traduire ici !
+@60 = ~Les siècles passèrent, et même les Elfes, en dépit de leurs longues mémoires, n'ont que peu de souvenir désormais du Roi Echtellion et de ses actes. Pourtant la statue demeura, aussi intacte que le jour où elle fut sculptée. Au fil des ans, beaucoup vinrent voir le monument, et s'en retournèrent, émerveillés.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 182, probablement inutile de traduire ici !
+@61 = ~Inga Ailehaute resta.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 183, probablement inutile de traduire ici !
+@62 = ~L'image du Roi depuis longtemps défunt la fascina tant qu'elle voulut savoir tout ce qu'il y avait à savoir sur lui. Elle cousit ensemble toutes les bribes de tradition qu'elle put trouver, mais ce fut une récolte peu satisfaisante. Dans son amour pour le Roi, Inga écrivit ses propres chansons à son sujet, et elle venait tous les jours, au lever du soleil, chanter devant son image de pierre.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 184, probablement inutile de traduire ici !
+@63 = ~Une nuit, alors qu'elle était au coeur d'une ballade particulièrement émouvante, oh, miracle ! La statue descendit de son piédestal et marcha vers Inga. Echtellion revivait !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 185, probablement inutile de traduire ici !
+@64 = ~La petite foule qui s'était amassée autour devint si calme que la chute d'un flocon aurait brisé le silence. La voix d'Echtellion n'était pas devenue rauque malgré l'absence de pratique, et toute l'assemblée prêta l'oreille aux paroles qu'il adressa à Inga Ailehaute :~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 186, probablement inutile de traduire ici !
+@65 = ~"Seldarine, aie pitié de moi ! Quand tu gémis, c'est pire que ma soeur !"~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 187, probablement inutile de traduire ici !
+@66 = ~Qu... quoi ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 188, probablement inutile de traduire ici !
+@67 = ~Ne perds pas espoir, barde. La mauvaise poésie a le pouvoir de transformer la pierre en chair et de relever les morts...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 189, probablement inutile de traduire ici !
+@68 = ~Alors <CHARNAME>, allais-tu dire quelque chose ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 190, probablement inutile de traduire ici !
+@69 = ~Et vaudrait mieux que ce soit b-bien.~
+
+//cook
+@70 = ~Euh... m'dame, on dirait que vos idéaux romantiques ont été sérieusement affectés par un séjour prolongé parmi les voyous brutaux, les mineurs et les hobgobelins.~
+@71 = ~Ouais, mais baiser c'est toujours baiser. Z'êtes un peu maigre à mon goût, mais si vous voulez un peu de...~
+@72 = ~J'aimerais pouvoir, m'dame. Mais hélas, mon coeur ne m'appartient plus. Et je crains que celle qui le détient ne le saigne à blanc si je...~
+@73 = ~Votre dulcinée vous débiterait en tranches dans la choucroute, si vous restez, vous voulez dire... oh, c'est bon. Peut-être une autre fois. *clin d'oeil*~
+@74 = ~Si j'avais le temps, je vous aurais montré la différence, m'dame... quel est votre nom ?~
+@75 = ~Cooooran ! Dois-je t'arracher de *tous* les jupons à portée ?~
+@76 = ~Mais tu n'as pas le temps. Ce qui fait que le nom du p'tit oiseau est hors de propos. Maintenant, allons-y.~
+@77 = ~Excusez-moi, vraiment, douce dame, mais je dois vous dérober mon camarade...~
+
+//coran/Ajantis - willia et jessup racontent des anecdotes embarrassantes sur le PJ à château suif
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 193, probablement inutile de traduire ici !
+@78 = ~Il n'y a même plus besoin de lui tourner le dos, maintenant, pour que ça arrive.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 194, probablement inutile de traduire ici !
+@79 = ~Coran ?! Que marmonnez-vous ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 195, probablement inutile de traduire ici !
+@80 = ~Oh, rien, mon brave chevalier.~
+
+//Xan (sur Willia) - joueur masculin
+@81 = ~Une rigolade pour rien, mais une cape autour de sa taille...~
+@82 = ~Coran... *soupire* CORAN !~
+@83 = ~Oh... avais-je la tête ailleurs ?~
+
+//Imoen (sur jessup)
+@84 = ~Jolie voleuse un jour, jolie voleuse toujours.~
+@85 = ~Ouéh ! <CHARNAME> n'est pas la seule jolie voleuse du groupe, merci beaucoup !~
+
+//Xan (sur jessup)
+@86 = ~*murmure* <CHARNAME>, en tant que Gris-Manteau d'Evereska... J'ai une cape de secours... si vous voulez me l'emprunter un jour...~
+@87 = ~Xan... J'ai entendu !~
+
+//Xan (sur willia) ... PJ féminin
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 198, probablement inutile de traduire ici !
+@88 = ~<CHARNAME>, tu devrais montrer davantage ce côté insouciant de ta personnalité, tu sais. Cela aiderait certainement à réduire les... tensions.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 199, probablement inutile de traduire ici !
+@89 = ~Notre chance de survie est bien mince, et cela ne ferait qu'empirer les choses si notre chef décidait de laisser tomber ses armes et ses atours au beau milieu de la bataille... De plus, si <CHARNAME> a un charmant visage, je doute sérieusement que se révéler d'une telle manière aurait un effet aveuglant sur nos adversaires, comme le sort qu'une dryade jetterait sur ses ennemis...~
+
+//Tamoko
+@90 = ~*siffle doucement* Quelle femme ! Ton frère doit être quelqu'un qui sort de l'ordinaire pour inspirer des sentiments aussi profonds !~
+
+//Kirian - groupe des aquafondais
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 202, probablement inutile de traduire ici !
+@91 = ~Je déteste tuer de jolies dames, particulièrement quand elles ont une étincelle en elles.~
+
+//Davaeorn
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 210, probablement inutile de traduire ici !
+@92 = ~Quelqu'un a parlé de richesses ? Rien n'est plus doux que le butin honnêtement gagné en tuant des bâtards !~
+
+//Kelddath (récompense pr la wiverne)
+@93 = ~Incroyablement puissante ! Mais pourquoi ça, cette wiverne n'avait aucune chance face à nous ! Si vous avez besoin de faire tuer une wiverne, ou un dragon, ou quelque autre monstre épouvantable, Coran est votre homme pour le boulot, très saint Kelddath Ormlyr.~
+@94 = ~Euh, <CHARNAME>, je t'avais dit que ça en valait la peine : une paire de flèches bien visées, un antidote, et ta-dam ! Deux mille pièces d'or ! Au fait, j'espère une double part des profits pour avoir attiré ton attention sur cette petite quête.~
+
+//Destus (assistant qui au trône de fer prend le groupe pr l'émissaire tar)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 218, probablement inutile de traduire ici !
+@95 = ~Un type agréable, et tellement laconique.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 219, probablement inutile de traduire ici !
+@96 = ~Voici Kivan, le compagnon idéal pour toi. Vous pourrez partager de belles heures de silence cafardeux.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 220, probablement inutile de traduire ici !
+@97 = ~Merci pour la suggestion, mais votre propre prédisposition à la solennité suffit à me maintenir à l'aise.~
+
+//Keeper (le gardien du portail de château suif)
+@98 = ~<CHARNAME>, <CHARNAME> ! Je t'en prie, jette un coup d'oeil à mes oreilles. Est-ce qu'elle se racornissent, flétries comme des fleurs sous les rudes vents de l'hiver ? Pourquoi les idiots les plus pompeux ont-ils toujours les voix les plus fortes et les plus puantes ?~
+
+//Gerde
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 222, probablement inutile de traduire ici !
+@99 = ~Par la Seldarine, mais quand les ankhegs crachent, c'est qu'ils crachent gros, si bien que nous dansons autant que nous chassons ! C'est presque aussi drôle que de chasser des wivernes, hein ?~
+
+//Sewercleaner (nettoyeur des égouts) et Kivan
+@100 = ~En voilà une profession enviable !~
+@101 = ~Qu'en penses-tu, Kivan ?~
+@102 = ~Nettoyer des terriers infestés et fétides, en flottant parmi les déchets de l'humanité ? Je pense que vous êtes né pour ça.~
+@103 = ~Et moi, que tu joues encore les femmelettes. Tu te mets à pâlir à chaque fois que les murs et le plafond sont légèrement trop proches à ton goût. Har-har !~
+@104 = ~Vous faites un nain pathétique, Coran.~
+@105 = ~Un bien meilleur que toi !~
+@106 = ~Je suis ravi de voir que vous êtes fier de cette... performance.~
+@107 = ~Avec ma hache, j' te fendrai la tête comme un melon pourri !~
+@108 = ~Ceci est votre arc, Coran. Sont-ce les vapeurs qui vous montent à la tête ?~
+@109 = ~*secouant la tête* Tu es un cas désespéré, Kivan.~
+
+//Degrodel
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 228, probablement inutile de traduire ici !
+@110 = ~Transformé en pierre pour un peu de cambriolage ? *Il frémit* Où va le monde ?!~
+
+//Nivek (les docks)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 231, probablement inutile de traduire ici !
+@111 = ~Un basilic ? Nous avons un problème, chers compagnons d'aventure ! Peut-être devrais-tu ouvrir la marche, impavide <CHARNAME>. Ton coeur est déjà de pierre, après tout. C'est pourquoi, pour autant que je sache, le regard de la créature ne te blessera pas, comme tous les macchabées ambulants.~
+
+//Shistal (4e étage de la bibliothèque, doppleganger)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 234, probablement inutile de traduire ici !
+@112 = ~Autrefois je jalousais les doppelgangers, durant le carnaval. Les femmes semblaient toujours me reconnaître, en dépit de mes déguisements.~
+
+//entrée à BG
+@113 = ~Ah, j'aime cette cité !~
+
+//brasserie halfeling
+@114 = ~J'ai entendu dire que les bières des halfelings sont vraiment délicieuses. Veux-tu te joindre à moi pour confirmer ou réfuter cette allégation, <CHARNAME> ?~
+@115 = ~Peut-être plus tard, Coran.~
+@116 = ~Non, tu vas devoir boire seul. Bien, qu'avec tes talents, je ne doute pas que tu ne réussisses à te trouver de la compagnie.~
+@117 = ~Nous ne sommes pas venus ici pour l'hydromel et la bière, Coran !~
+@118 = ~Ah, il n'y a rien de mieux qu'une soirée en douce compagnie devant la cheminée, après avoir tué un ou deux fantômes...~
+@119 = ~Mais je voulais boire avec une personne sympathique... En y repensant, cela t'exclut !~
+@120 = ~Non, mais maintenant que nous les avons trouvés... Je dis que ça vaut la peine d'essayer !~
+
+//Natasha (mage ds les mines de bois manteau)
+@121 = ~Ce n'est qu'un nouveau corps refroidi... mais quel corps ! Ça me rend triste de voir une telle magnificence gaspillée. *soupire*~
+@122 = ~Et quelle situation loufoque, aussi... Pourquoi ne pas jeter des éclairs et des boules de feu sur moi une fois que je lui ai parlé et que j'ai pris le chemin de la sortie - comme toutes les autres femmes ? De cette manière, personne n'est blessé... à moins que le mobilier de la pièce n'ait une valeur sentimentale...~
+
+//Taxek (cambrioleur surpris)
+@123 = ~C'est le gain le plus facile que j'aie jamais fait ! Mais je dois avouer que je déteste voler ce qui a déjà été légitimement volé... Si un voleur peut doubler un voleur, dans quel monde vivons-nous ?~
+
+//l'unicorne
+@124 = ~Hélas, cette Histoire de la Licorne est en réalité un ouvrage historique... Et du genre ennuyeux, en plus ! Écoutez ça : ~
+@125 = ~Bardes et sages racontent une histoire selon laquelle les eaux d'amont de la Licorne sont, en vérité, le Bénitier de Vie et le berceau de la fécondité. On prétend que chaque race naturelle est sortie du ventre de Chauntéa sur Toril à la source de cette rivière et a ensuite redescendu la Licorne jusqu'au monde extérieur.~
+@126 = ~Oh, bon, ça aurait pu être pire ! Si je vois encore une nouvelle 'Histoire du Nord', je vais devenir fou, je le jure ! On la trouve dans chaque maison où nous entrons - a-t-elle été distribuée gratuitement par l'auteur dans les environs ? Ou a-t-il promis une récompense à toute personne qui réussirait à le lire de bout en bout ?~
+
+//cook
+@127 = ~Seulement celles qui sont enveloppées sur une paire de jambes aux formes exquises...~
+@128 = ~Oui, oui, je sais qu'avec toi, c'est ce qui est sous les jupes qui compte.~
+@129 = ~Dame, montrez-lui vos jambes, que nous puissions enfin poursuivre notre route.~
+@130 = ~Oh, que la vie d'aventurier est changeante ! Je tue des hobgobelins, et la minute suivante je reçois des leçons de séduction. Et tout ça dans la même mine.~
+@131 = ~Ah, tu es trop terre à Toril, pour quelqu'un d'aussi jeune. Tu devrais encore rêver de chastes baisers et de promenades sous la lune...~
+@132 = ~Tu étais exactement comme ça à mon âge, certainement.~
+@133 = ~N'est-ce pas merveilleux ?~
+
+//Durlyle : île de Baldurien (PJ feminin)
+@134 = ~Personne ne traite de garce la femme que j'aime.~
+@135 = ~Il est parti, idiot.~
+@136 = ~Oh, Coran, Coran... T'a-t-il blessé, mon coeur ?~
+@137 = ~Pauvre de moi, et moi qui te croyais trop avisé pour chercher la bagarre avec des types plus grands que toi...~
+@138 = ~Hé bien... Euh... Lâche !~
+@139 = ~*tâte sa joue* Pas tant que ça, mais tu vas devoir faire attention en m'embrassant. Ce bâtard m'a ouvert la lèvre. Je me demande comment il a réussi à me frapper si vite ?~
+@140 = ~Euh.. il était... impétueux avec ses chansons douces et ses regards faciles. Il te *reluquait* !~
+@141 = ~*commence à rire* Il n'est pas le seul à faire de telles choses, Coran... Je connais un elfe du Téthyr...~
+@142 = ~Oh, vraiment ? C'est affreux !~
+@143 = ~*soupir* Allons-y, Coran.~
+@144 = ~*honteusement* Oh... Je suppose que tu as raison. Mais ça ne te dérange pas... quand ça vient de moi, n'est-ce pas ?~
+@145 = ~En effet ! *tâte sa joue* Je me demande comment il a réussi à me frapper si vite ?~
+
+//entrée à la tour de durlag
+@146 = ~Cet endroit sera l'endroit idéal pour tester mes aptitudes ! Des pièges de nains face à l'agilité de mains elfiques ! Si je perds, je meurs, si je gagne - des trésors m'attendent ! Quelle excitation !~
+
+//en voyant le squelette de dragon (tosc)
+@147 = ~C'est énorme... Regardez ça ! Je n'ai jamais vu de dragon de cette taille. Je parie que c'est un de ces anciens... Je suppose qu'il est mort de vieillesse. Je me demande combien il donneraient pour son scalp à la Maison des Merveilles ?~
+
+//chaîne: coran cook
+@148 = ~Bonjour, ma belle. Nous nous sommes rencontrés et nous nous séparons, comme deux papillons dans une nuit venteuse...~
+@149 = ~*glousse*~
+@150 = ~Semblerait que not' mine attire les nobles, maintenant... Je ferais mieux d'arranger ma coiffure... et d'acheter de nouvelles chaussures.~
+@151 = ~Je ne m'étais pas autant amusée depuis des années ! Venez là !~
+@152 = ~Hum... <CHARNAME>, je vous rejoindrai plus tard... bien plus tard...~
+
+//coran brilla2
+@153 = ~*Doucement* Laisse-moi régler ça, <CHARNAME>...~
+@154 = ~O, Dulcinée, la rumeur selon laquelle Dame Brilla Ecudargent est la plus belle dame de la Porte de Baldur a atteint mes oreilles, et je suis venu...~
+@155 = ~Qu'est-ce qui court partout en ville ? Oh...~
+@156 = ~Les rumeurs mentent, m'dame...~
+@157 = ~Qu-quoi ?!~
+@158 = ~*après une pause dramatique* Vous êtes la plus belle femme du monde... ~
+@159 = ~Merci, vraiment...~
+@160 = ~Puis-je avoir le privilège d'embrasser vos doigts fins et élégants ?~
+@161 = ~Certainement...~
+@162 = ~Attendez ! Je crois que je vous connais ! Je vous ai vu au Domaine de Dame Bérayat, le soir même où son collier de saphir étoilé a disparu...~
+@163 = ~*glousse* ça lui apprendra à se pavaner avec à chaque occasion !~
+@164 = ~Dame Bérayat ? Oh... Des saphirs étoilés ? Une fille à tête de cheval ?~
+@165 = ~Vous étiez terriblement amical avec elle...~
+@166 = ~J'ai dû être aveuglé par votre propre beauté... ~
+@167 = ~*glousse* Mais n'avez-vous pas dit que vous ne m'aviez encore jamais vue, Elfe ?~
+@168 = ~Euh... J'ai menti. Depuis ce fameux soir, je n'ai cessé d'espérer vous revoir... Je, euh... J'ai même appelé mes camarades pour m'aider à vous retrouver...~
+@169 = ~Comme c'est romantique !~
+@170 = ~Je vous donnerai la sérénade ce soir à minuit, m'dame.~
+@171 = ~J'attendrai...~
+
+// Laerta
+@1001 = ~Oooh ! Merci !~
+@1002 = ~Je dois garder cela à l'esprit.~
+@173 = ~Tu l'auras voulu !~
+@174 = ~Ah ! Quelle fanfaronnade ! Quelle bravade !~
+@175 = ~Une récompense bien méritée.~
+@176 = ~Par ici, par ici.~
+@177 = ~Ne parlez pas ! COUREZ !~
+@178 = ~Il est temps de mouriiiir !~
+@1003 = ~Avez-vous un volume ?~

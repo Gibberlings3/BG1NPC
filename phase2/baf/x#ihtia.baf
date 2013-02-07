@@ -1,0 +1,39 @@
+IF %BGT_VAR%
+Global("X#KivanSea","GLOBAL",0)
+OR(2)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+See("kivan")
+!StateCheck("kivan",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#KivanSea","GLOBAL",1)
+Dialogue(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#KivanSea","GLOBAL",1)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+Dialogue(Player1)
+END
+
+IF
+Global("X#KivanSea","GLOBAL",4)
+OR(2)
+See(Player1)
+See("kivan")
+THEN
+RESPONSE #100
+SetGlobal("X#KivanSea","GLOBAL",8)
+END
+
+IF %BGT_VAR%
+Global("X#KivanSea","GLOBAL",8)
+
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+Dialogue(Player1)
+END

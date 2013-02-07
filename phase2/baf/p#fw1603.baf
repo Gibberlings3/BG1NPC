@@ -1,0 +1,7 @@
+IF
+Global("X#MithrilRing","%CloakwoodDruids_PetersCave%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#MithrilRing","%CloakwoodDruids_PetersCave%",1)
+ActionOverride("Container1",CreateItem("X#XZMIRI",0,0,0))
+END
