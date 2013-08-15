@@ -563,8 +563,6 @@ DO ~SetGlobal("X#DYBRConflict","GLOBAL",11) RealSetGlobalTimer("X#DYBRConflictTi
 == ~%DYNAHEIR_BANTER%~ @291
 = @292
 == ~%BRANWEN_BANTER%~ @293
-DO ~SetGlobal("X#DynaheirRomanceInactive","GLOBAL",1)
-SetGlobal("P#BranwenRomanceActive","GLOBAL",3)~
 EXIT
 
 CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#DYBRConflict","GLOBAL",12)~ THEN ~%DYNAHEIR_BANTER%~ DYBRConflict6
