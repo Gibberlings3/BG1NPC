@@ -1,0 +1,57 @@
+/* Sees Kivan in Party */
+IF %BGT_VAR%
+Range(Player1,30)
+InParty("kivan")
+InMyArea("kivan")
+!StateCheck("kivan",CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#EMMAFight","GLOBAL",1)
+END
+
+/* Talks to Party */
+IF %BGT_VAR%
+Global("P#EMMAFight","GLOBAL",1)
+InParty("kivan")
+InMyArea("kivan")
+!StateCheck("kivan",CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+StartDialogueNoSet(Player1)
+END
+
+/* If Party Betrayed Kivan */
+IF %BGT_VAR%
+Dead("kivan")
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+Global("P#EMMAFight","GLOBAL",5)
+THEN
+RESPONSE #100
+ChangeEnemyAlly(Myself,NEUTRAL)
+MoveToObject(Player1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Allegiance(Myself,NEUTRAL) //conditions for fighting it out w/party set her as ENEMY
+OR(2)
+AttackedBy([GOODCUTOFF],DEFAULT) //attacked by party w/o provocation/dialogue
+Global("P#EMMAWolf","GLOBAL",1) //wolves calling that they were attacked by party
+THEN
+RESPONSE #100
+SetGlobal("P#EMMAFight","GLOBAL",7) //skips to unused
+ActionOverride("P#WOLF01",ChangeEnemyAlly("P#WOLF01",ENEMY))
+ActionOverride("P#WOLF02",ChangeEnemyAlly("P#WOLF02",ENEMY))
+ActionOverride("P#WOLF03",ChangeEnemyAlly("P#WOLF03",ENEMY))
+ActionOverride("P#WOLF04",ChangeEnemyAlly("P#WOLF04",ENEMY))
+ActionOverride("P#WOLF05",ChangeEnemyAlly("P#WOLF05",ENEMY))
+DisplayStringHead(Myself,@0)
+Wait(2) //or not... just need to see the string before disappear
+ReallyForceSpell("P#IMANEL",DRYAD_TELEPORT)
+END

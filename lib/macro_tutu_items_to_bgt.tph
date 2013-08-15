@@ -1,0 +1,151 @@
+DEFINE_PATCH_MACRO ~tutu_items_to_bgt~ BEGIN
+  READ_LONG  0x2bc "itm_off" ELSE 0
+  READ_LONG  0x2c0 "itm_num" ELSE 0
+  FOR (index = 0; index < itm_num; index = index + 1) BEGIN
+    READ_ASCII ("%itm_off%" + (0x14 * "%index%")) "item"
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_AROW01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "AROW01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_AROW02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "AROW02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_AROW07" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "AROW01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_BOW01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "BOW03" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_BOW03" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "BOW03" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_BOW08" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "BOW08" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_BLUN02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "BLUN02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_BULL02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "BULL02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_CHAN04" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "CHAN04" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_CHAN05" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "CHAN05" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_DAGG01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "DAGG01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_DAGG03" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "DAGG03" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_DAGG05" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "DAGG05" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_DART01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "DART01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_DART02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "DART02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_HELM09" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "HELM09" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_HELM11" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "HELM11" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_JELLGR1" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "JELLGR1" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_LEAT01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "LEAT01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_LEAT02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "LEAT02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_LEAT04" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "LEAT04" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_MAGE01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MAGE02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_MAGE02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MAGE02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_MAGE05" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MAGE05" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_AGEBRAC" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MAGEBRAC" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_MISC33" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MISC33" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_PLAT01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "PLAT01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_PLAT04" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "PLAT04" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_POTN20" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "POTN20" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_POTN21" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "POTN21" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_POTN36" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "POTN36" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_POTN37" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "POTN37" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_POTN45" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "POTN45" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_RING95" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "RING95" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SCRL96" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SCRL96" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SHLD01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SHLD01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SHLD08" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SHLD08" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SLNG02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SLNG02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SPER01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SPER01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SPER02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SPER02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_STAF01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "STAF01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_STAF02" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "STAF02" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_STAF07" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "STAF07" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SW2H01" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SW2H01" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SW1H04" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SW1H04" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SW1H07" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SW1H07" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SW1H08" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SW1H08" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_SW1H24" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SW1H24" #8
+    END
+  END
+END

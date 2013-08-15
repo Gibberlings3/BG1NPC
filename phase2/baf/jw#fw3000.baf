@@ -1,0 +1,7 @@
+IF
+    GlobalTimerExpired("JW#Edwin","GLOBAL")
+    Global("X#EdwinReturn","GLOBAL",1)
+THEN
+    RESPONSE #100
+        SetGlobal("X#EdwinReturn","GLOBAL",2)
+END

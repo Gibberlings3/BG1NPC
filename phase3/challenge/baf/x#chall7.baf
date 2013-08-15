@@ -1,0 +1,21 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId("coran")
+	ClearAllActions()
+	StorePartyLocations()
+	FadeToColor([20.0],0)
+	Wait(1)
+	LeaveAreaLUA("X#CH12","",[1017.871],0)
+	ActionOverride(Player1,LeaveAreaLUA("X#CH12","",[1033.1123],9))
+	MoveViewPoint([947.831],INSTANT)
+	CreateCreature("x#cutspy",[1231.1120],0)
+	CreateCreature("X#CAUTZ",[1227.1123],5)
+	Explore()
+	SmallWait(3)
+	FadeFromColor([20.0],0)
+	Dialog(Player1)
+	EndCutSceneMode()
+END
+

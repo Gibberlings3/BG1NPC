@@ -1,0 +1,216 @@
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate%")
+Global("X#MontyBaldurGate","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MontyBaldurGate","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+GlobalLT("X#MontyBaldurGate","GLOBAL",1)
+GlobalTimerExpired("X#MontyMineBaldur","GLOBAL")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MontyBaldurGate","GLOBAL",2)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#MontyBaldurGate","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+AreaCheck("%BanditCamp_RaemonsTent%")
+!Dead("Ender")
+Global("X#MontaronKillsEnder","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartCutScene("X#MOMUR1")
+END
+
+IF %BGT_VAR%
+AreaCheck("%BanditCamp_RaemonsTent%")
+Dead("ender")
+Global("X#MontaronKillsEnder","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+AreaCheck("%FirewineBridge%")
+Dead("meilum")
+Global("X#MOMeilum","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MOMeilum","GLOBAL",1)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#MOMeilum","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+AreaCheck("%Beregost_FeldepostsInn_L1%")
+Global("X#MontaronMarl","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MontaronMarl","GLOBAL",2)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#MontaronMarl","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+AreaCheck("%Beregost_FeldepostsInn_L1%")
+Global("X#MontaronMarl","GLOBAL",4)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MontaronMarl","GLOBAL",5)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#MontaronMarl","GLOBAL",5)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+AreaCheck("%Gullykin_Winery_L1%")
+Global("X#MontaronWinery","GLOBAL",0)
+See("alvahe")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#MontaronWinery","GLOBAL",1)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#MontaronWinery","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate_SorcerousSundries_L2%")
+Global("X#XzarBoss","GLOBAL",4)
+Dead("xzar")
+Dead("oulam")
+Dead("wheber")
+Dead("william")
+Dead("niemain")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#XzarBoss","GLOBAL",8)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#XzarBoss","GLOBAL",8)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("monta99")
+StartDialogueNoSet(Player1)
+END

@@ -1,0 +1,98 @@
+IF
+Die()
+THEN
+RESPONSE #100
+Shout(151)
+END
+
+IF
+Allegiance(Myself,EVILBUTBLUE)
+See([NEUTRAL])
+!InParty(LastSeenBy())
+!Race(LastSeenBy(),SLIME)
+!Gender(LastSeenBy(),MALE)
+THEN
+RESPONSE #100
+Attack(LastSeenBy())
+END
+
+IF
+Allegiance(Myself,EVILBUTBLUE)
+InParty(LastSeenBy())
+THEN
+RESPONSE #100
+RandomWalk()
+END
+	
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+OR(3)
+Allegiance(Myself,EVILBUTBLUE)
+Allegiance(Myself,NEUTRAL)
+Allegiance(Myself,0)
+THEN
+RESPONSE #100
+Shout(151)
+Enemy()
+END
+
+IF
+HitBy([GOODCUTOFF],CRUSHING)
+THEN
+RESPONSE #100
+Shout(151)
+Continue()
+END
+
+IF
+See([ANYTHING])
+Allegiance(Myself,ENEMY)
+ActionListEmpty()
+THEN
+RESPONSE #100
+Shout(151)
+Continue()
+END
+
+IF
+Heard([ANYONE],151)
+InMyGroup(LastHeardBy(Myself))
+!Class(Myself,INNOCENT)
+OR(2)
+Allegiance(Myself,EVILBUTBLUE)
+Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+Enemy()
+MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+Heard([ANYONE],151)
+InMyGroup(LastHeardBy(Myself))
+OR(2)
+Allegiance(Myself,EVILBUTBLUE)
+Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+Enemy()
+END
+
+IF
+Heard([ANYONE],151)
+InMyGroup(LastHeardBy(Myself))
+!Class(Myself,INNOCENT)
+!See(NearestEnemyOf(Myself))
+THEN
+RESPONSE #100
+MoveToObject(LastHeardBy(Myself))
+Continue()
+END
+
+IF
+See(NearestEnemyOf(Myself))
+THEN
+RESPONSE #100
+AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

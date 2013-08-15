@@ -1,0 +1,17 @@
+/* Montaron on the art of poison */
+IF %BGT_VAR%
+Global("X#MOPC1","GLOBAL",0)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+AreaType(OUTDOOR)
+THEN
+RESPONSE #100
+SetGlobal("X#MOPC1","GLOBAL",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet(Player1)
+END

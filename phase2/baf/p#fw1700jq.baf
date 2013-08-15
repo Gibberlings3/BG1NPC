@@ -1,0 +1,16 @@
+IF
+InParty("jaheira")
+!StateCheck("jaheira",CD_STATE_NOTVALID)
+Global("X#JaheiraQuest","GLOBAL",2)
+Global("X#JaDruidExist","%CloakwoodWyverns%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#JaDruidExist","%CloakwoodWyverns%",1)
+CreateCreature("X#BEADOR",[550.3614],3)
+CreateCreature("X#SHDR8A",[550.3614],3)
+CreateCreature("X#SHDR8B",[550.3614],3)
+CreateCreature("X#SHDR6",[550.3614],3)
+CreateCreature("X#SHDR6A",[550.3614],3)
+CreateCreature("X#SHDR6B",[550.3614],3)
+ActionOverride("beador",ReallyForceSpellRES("SPPR506","beador"))
+END

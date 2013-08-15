@@ -1,0 +1,38 @@
+IF %BGT_VAR%
+InParty("xan")
+Global("X#XQMerchantsAppeared","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#XQMerchantsAppeared","GLOBAL",1)
+CreateCreature("X#Gael",[120.3120],0)
+CreateCreature("X#Skodd",[150.3150],0)
+CreateCreature("X#Mazuri",[180.3120],0)
+END
+
+IF %BGT_VAR%
+InParty("xan")
+Dead("X#Skodd")
+Dead("X#Gael")
+Dead("X#Mazuri")
+CombatCounter(0)
+!See([ENEMY])
+Global("X#XQAttackedSlaversBefore","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#XQAttackedSlaversBefore","GLOBAL",2)
+CreateCreature("X#Diala",[110.3140],0)
+CreateCreature("X#Siene",[140.3160],0)
+CreateCreature("X#Minuw",[170.3140],0)
+ActionOverride("X#Siene",StartDialogueNoSet(Player1))
+END
+
+IF %BGT_VAR%
+InParty("xan")
+CombatCounter(0)
+!See([ENEMY])
+Global("X#XQWhiteDoeAppeared","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#XQWhiteDoeAppeared","GLOBAL",2)
+CreateCreatureObjectOffset("X#WDOE","xan",[180.180])
+END

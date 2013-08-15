@@ -1,0 +1,22 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId("coran")
+	ClearAllActions()
+	StorePartyLocations()
+	FadeToColor([20.0],0)
+	Wait(1)
+	LeaveAreaLUA("X#CH13","",[882.485],3)
+	ActionOverride(Player1,LeaveAreaLUA("X#CH13","",[944.540],9))
+	ActionOverride(Player1,FaceObject("coran"))
+	MoveViewPoint([869.484],INSTANT)
+	FaceObject(Player1)
+	Explore()
+	Wait(1)
+	FadeFromColor([20.0],0)
+	SetGlobal("X#FightTale","GLOBAL",6)
+	Dialog(Player1)
+	EndCutSceneMode()
+END
+

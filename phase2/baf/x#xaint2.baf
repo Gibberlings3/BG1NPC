@@ -1,0 +1,58 @@
+/* Moonblade in the Inventory */
+IF %BGT_VAR%
+AreaCheck("%NashkelMines_L4%")
+PartyHasItem("%tutu_var%SW1H13")
+Global("X#XanMoonblade","GLOBAL",0)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#XanMoonblade","GLOBAL",1)
+END
+
+/* Initiate  Moonblade in the Inventory */
+IF %BGT_VAR%
+Global("X#XanMoonblade","GLOBAL",1)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("xannn99")
+StartDialogueNoSet(Player1)
+END
+
+/* Entry to Durlag Tower */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower%")
+Global("X#XanDurlagEntry","GLOBAL",0)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#XanDurlagEntry","GLOBAL",1)
+END
+
+/* Initiate Entry to Durlag Tower */
+IF %BGT_VAR%
+Global("X#XanDurlagEntry","GLOBAL",1)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("xannn99")
+StartDialogueNoSet(Player1)
+END
