@@ -19,7 +19,7 @@
 @18 = ~Mais bien sûr, chers amis, j'ai en ma possession les objets les plus rares et les plus merveilleux. Jetez-y un coup d'oeil.~
 @19 = ~Errk ! Ce répugn... euh... c'est admirablement conservé cela dit. Une dryade, non ?~
 @20 = ~Vous voyez !?!? Vous voyez, <CHARNAME>,je vous l'avais dit, je vous l'avais dit ! ... ahem. Maintenant, cher monsieur, vu que ma carrière d'aventurier passe en premier (évidemment), il me manque les ingrédients triviaux nécessaires à une convenable réalisation de cet enchantement. Pouvez-vous m'apprendre quels autres produits pourraient être requis afin de distiller cette magnifique essence en un anneau, un bel anneau, mon précieuuuux ?~
-@21 = ~Hé bien, un anneau de mithril pourrait servir de réceptacle à la magie de votre... euh... échantillon. Malheureusement, je n'ai rien de tel en stock en ce moment, pour ma part. Si vous pouviez fournir un réceptacle aussi parfait, hé bien... voyons... le parchemin, mon temps... pour... neuf cent... disons pour mille pièces d'or, je pourrais fabriquer un anneau magique capable de résister aux enchantements - peut-être même en lancer un mineur - en quatre... mettons cinq jours. Etes-vous intéressés ?~
+@21 = ~Hé bien, un anneau de mithral pourrait servir de réceptacle à la magie de votre... euh... échantillon. Malheureusement, je n'ai rien de tel en stock en ce moment, pour ma part. Si vous pouviez fournir un réceptacle aussi parfait, hé bien... voyons... le parchemin, mon temps... pour... neuf cent... disons pour mille pièces d'or, je pourrais fabriquer un anneau magique capable de résister aux enchantements - peut-être même en lancer un mineur - en quatre... mettons cinq jours. Etes-vous intéressés ?~
 @22 = ~Oooh ! Faisons ça ! Il le faut ! On peut ? On peut, <CHARNAME> ? Sivouplééé ?!?~
 @23 = ~Je ne sais pas. Si nous trouvons un tel... réceptacle, on pourra y réfléchir.~
 @24 = ~On le trouvera ! Même si nous devons dépouiller la Côte des Epées tout entière jusqu'à son fondement de pierre nue, NOUS LE FERONS !!!~
@@ -30,7 +30,7 @@
 @29 = ~Xzar ? Ferme-la !!!~
 @30 = ~Je scellerai mon dépôt avec rigueur.~
 @31 = ~Mais bien sûr, chers amis, j'ai en ma possession les objets les plus rares et les plus merveilleux. Jetez-y un coup d'oeil.~
-@32 = ~Hé bien, un anneau de mithril serait utile. Ça coûte trois... euh... quatre cents pièces d'or de l'enchanter pour contenir l'essence. Avec ça et votre... euh... composant je pourrais créer un anneau qui fera fi des charmes, c'est certain. Peut-être même vous laissera-t-il en renvoyer un, si je ne suis pas dérangé durant les cinq jours nécessaires à l'opération. Voyons... Le parchemin, mon temps, ça coûtera neuf... mille pièces d'or, tout compris. Qu'en dites-vous ?~
+@32 = ~Hé bien, un anneau de mithral serait utile. Ça coûte trois... euh... quatre cents pièces d'or de l'enchanter pour contenir l'essence. Avec ça et votre... euh... composant je pourrais créer un anneau qui fera fi des charmes, c'est certain. Peut-être même vous laissera-t-il en renvoyer un, si je ne suis pas dérangé durant les cinq jours nécessaires à l'opération. Voyons... Le parchemin, mon temps, ça coûtera neuf... mille pièces d'or, tout compris. Qu'en dites-vous ?~
 @33 = ~Ooooohhhh ! On peut faire ça ? On peut, <CHARNAME> ? Sivouplé, sivouplé, sivouplé, sivouplé, de mignons sivouplés avec des moucherons ? PENSEZ seulement combien ça plairait à moman !~
 @34 = ~Oh, vas-y.~
 @35 = ~Euh, nous n'avons pas autant d'argent pour l'instant, Xzar.~
@@ -148,7 +148,7 @@ Mon compagnon Xzar a tiré le sang d'une dryade des Pics Brumeux. Cette stupide v
 @140 = ~Euh... Xzar, que cherchons-nous ici ?~
 @141 = ~Chercher ? Rien... Bon, les os nus et broyés d'un pendu, ce serait pas mal.~
 @142 = ~As-trouvé quelque chose ?~
-@143 = ~Non... mais vous peut-être que oui. Ce truc... Puis-je regarder ? Oui, du mithril, il me semble... J'en ai déjà vu. Particulièrement utile si je... c'est-à-dire, *nous*... voulions enchanter quelque chose.~
+@143 = ~Non... mais vous peut-être que oui. Ce truc... Puis-je regarder ? Oui, du mithral, il me semble... J'en ai déjà vu. Particulièrement utile si je... c'est-à-dire, *nous*... voulions enchanter quelque chose.~
 @144 = ~Est-ce magique ?~
 @145 = ~Non, pas magique... Pourtant... c'est son mérite. Personne ne l'a encore bousillé, voyez-vous.~
 @146 = ~Quoi qu'il en soit, c'est le butin du groupe. Rends-le moi.~

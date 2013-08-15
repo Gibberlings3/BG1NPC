@@ -109,7 +109,7 @@
 @108  = ~How poetic. Your people are more expressive than I gave them credit for.~
 @109  = ~Please, go on.~
 @110  = ~Thank you, Branwen, that was enough.~
-@111  = ~'Tis an old legend, <CHARNAME>. Some say a great battle and bold unravelled on that shore, and the pack of greater seawolves devoured a tribe of sahaugin, fish creatures. The werewolves succeeded in driving off the interlopers, but, in their own turn, were hunted and killed by my people. Others insist that a great warrior of some renown challenged the beasts' leader to a fight, and killed him in a fair battle, making the remaining wolves scatter.~
+@111  = ~'Tis an old legend, <CHARNAME>. Some say a great battle and bold unravelled on that shore, and a pack of greater seawolves devoured a tribe of sahuagin, fish creatures. The werewolves succeeded in driving off the interlopers, but, in their own turn, were hunted and killed by my people. Others insist that a great warrior of some renown challenged the beasts' leader to a fight, and killed him in a fair battle, making the remaining wolves scatter.~
 @112  = ~Would you care to hear more of my home?~
 @113  = ~Yes, please, Branwen.~
 @114  = ~No, Branwen. My own home occupies my thoughts entirely.~
@@ -179,7 +179,7 @@
 @178  = ~Woe is me, for my lady Branwen is becoming a vapid, delicate ghost of a maiden! When should I expect you to swoon and faint, madam?~
 @179  = ~*remain silent*~
 @180  = ~Ha, well said! My fine humor wasn't lost on you!~
-@181  = ~Let us go, then, friend. You've relieved my heart of its deadly weights yet again, and I am most grateful. *winks* Methlinks that hour of inspecting your hammer is not far away.~
+@181  = ~Let us go, then, friend. You've relieved my heart of its deadly weight yet again, and I am most grateful. *winks* Methinks the hour of inspecting your hammer is not far away.~
 @182  = ~Thank you, but I now desire to turn to Tempus for guidance. If I may have a moment undisturbed, I would like to pray.~
 @183  = ~<CHARNAME>! Nothing so dishonorable... um, but were you actually expecting me to swoon? In any case, I was not intending to faint on purpose... Ah, to Hades with you! You were speaking in jest!~
 @184  = ~My heart beats easier now, but do not speak of such to me again. 'Swoon and faint', by Tempus...~
@@ -265,7 +265,7 @@
 @264  = ~Oh, just leave me alone! I am tired of you!~
 @265  = ~I'm sorry to trespass upon your thoughts with my flimsy musings, <CHARNAME>. Mayhap tomorrow be a better day.~
 @266  = ~Have it your way, then.~
-@267  = ~Gods do not rule our lives in every detail, 'tis true. But they have the power to change one's life from within, if one opens up to then. I dedicated myself to Tempus, and thus my soul sparks with his divine grace and greatness. ~
+@267  = ~Gods do not rule our lives in every detail, 'tis true. But they have the power to change one's life from within, if one opens up to them. I dedicated myself to Tempus, and thus my soul sparks with his divine grace and greatness. ~
 @268  = ~I believe that it was Tempus who made me see you... as more than a friend.~
 @269  = ~You have no more doubts, then? I thought you missed your kin too much to pay attention to me.~
 @270  = ~'Tis great news, my lady Branwen. Shall we celebrate this happy occasion?~
@@ -300,12 +300,12 @@
 @299  = ~Now, if you only cut your hair, make some of those little curls, whatever they call them, and put some make up on, then I'll say you've improved your appearance. Letting the wind make a mess of your hair will not do anything for your looks.~
 @300  = ~Sorry, Branwen. The rough lips of this warrior are unaccustomed to saying gallant nonsense.~
 @301  = ~I will not, do not worry. Never again.~
-@302  = ~I am afraid we have different idea on beauty. 'Tis a crucial difference.~
+@302  = ~I am afraid we have different ideas on beauty. 'Tis a crucial difference.~
 @303  = ~I think you have just presented me with a challenge. I should take some time and help you to brush up your skills in gallant talk.~
 @304  = ~You have my permission to tutor me in gallant matters, madam.~
 @305  = ~Branwen, I am eloquent enough with ladies who are of interest to me. You are not one of them.~
-@306  = ~That will be not needed, Branwen. I prefer to admire you with my eyes.~
-@307  = ~I see it as a challenge. I am going to prove you that I have fine knowledge of the science of tender passion, and of its linguistic applications.~
+@306  = ~That will not be needed, Branwen. I prefer to admire you with my eyes.~
+@307  = ~I see it as a challenge. I am going to prove to you that I have fine knowledge of the science of tender passion, and of its linguistic applications.~
 @308  = ~I will take this task very close to my heart, <CHARNAME>.~
 @309  = ~Honesty is one of your finest qualities, <CHARNAME>. Worry not, I shall leave you alone.~
 @310  = ~You are more proficient in the ways of love than I have thought.~
@@ -407,7 +407,7 @@
 @406  = ~Sometimes, when a soul dies, the rain cries and mixes the cold sky with cold dirt and blackened embers that are left after the trees are gone. But it happens also that when a soul dies, sun shines on the red, purple and golden leaves, and the universe is at peace with itself. Some weep when her soul dies, some laugh. I can only be silent. What day will it be when my soul ceases to exist? We have had good weather lately, so most probably it will be warm when I shall hear the last faint beat of my heart. My lips are sealed, my lips are white, so I will neither laugh, nor cry. My heart ever so slowly, ever so painfully turns to stone. The last part of me to become marble. The very last.~
 @407  = ~It's horrible, Branwen. Please, stop.~
 @408  = ~Go on.~
-@409  = ~And that gnome stood by your side and done nothing...~
+@409  = ~And that gnome stood by your side and did nothing...~
 @410  = ~He calls me a Princess of the North. Call me a Queen, a Goddess, a Dragon. Call me anything you want, buffoon. You are running out of time to find a buyer. Very soon, your pathetic scroll will be useless for me. The transformation is almost complete. Will it rain?~
 @411  = ~Why have you told me all this?~
 @412  = ~I am so sorry... I wish I could rescue you earlier.~
@@ -500,7 +500,7 @@
 @499  = ~We've no time for talk now, Branwen. Let us move on.~
 @500  = ~I've told you the other day of the malady that afflicted my thoughts. Have you forgotten already?~
 @501  = ~Should I ask Tempus for aid and advice, then? Very well, so be it.~
-@502  = ~My thoughts turned to our current path, and I found it barren and unsatisfying. Not your path, surely. Your destiny is bright and promising, and foes flee your wrath in most disgraceful and hurried manner. 'Twas my failures I was repulsed with, for I neglected my duties greatly. I no longer revel in righteous battles, and neither do I seek proving myself in Tempus's eyes. I spend hours awake stroking your hair and dreading the moment you stir, because it would mean another march, and another battle. I have come to fear death, while months before, every day was a fine day to die.~
+@502  = ~My thoughts turned to our current path, and I found it barren and unsatisfying. Not your path, surely. Your destiny is bright and promising, and foes flee your wrath in most disgraceful and hurried manner. 'Twas my failures I was repulsed with, for I neglected my duties greatly. I no longer revel in righteous battles, and neither do I seek proving myself in Tempus' eyes. I spend hours awake stroking your hair and dreading the moment you stir, because it would mean another march, and another battle. I have come to fear death, while months before, every day was a fine day to die.~
 @503  = ~I must flee you, <CHARNAME>. You have damned me with weakness, if unwillingly, and I cannot let it spread and consume me..~
 @504  = ~It will only do you good in the long run, Branwen. We shall eventually marry, settle down, have children...~
 @505  = ~Branwen, my love, calm down. You are making an avalanche out of a single snowflake.~

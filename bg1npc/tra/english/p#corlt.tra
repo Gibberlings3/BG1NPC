@@ -50,7 +50,7 @@ Not adventure with we vagabonds.~
 @28   = ~No, but I have heard you saying it to almost every woman of childbearing age we have met. But go ahead, give your song.~
 @29   = ~A guess, nothing more. Everyone sings better after love. *wink* Perhaps one day we can make a fine duet! I will gladly hear your song now... to have a point of comparison.~
 @30   = ~Coran, I do not want to discuss anything with you. I do not want to hear your singing, either.~
-@31   = ~<CHARNAME>, <CHARNAME>, I hope that one of those day you shall abandon your scowl for a smile. It would suit you nicely.~
+@31   = ~<CHARNAME>, <CHARNAME>, I hope that one of these days you shall abandon your scowl for a smile. It would suit you nicely.~
 @32   = ~I know a song which a man can sing to his adventuring companion should she happen to be a fair lady and in need of a smile...~
 @33   = ~My, a song like that is always good to know! Sing on, Coran! Now, uh, where's my notebook...~
 @34   = ~You better sing to her that the scars she got the other day do not show all that much. That will cheer her up.~
@@ -166,7 +166,7 @@ Not adventure with we vagabonds.~
 @144  = ~*chuckle* Here is your kiss. You earned it by your readiness to say that sort of nonsense. *kiss Coran*~
 @145  = ~I think your ways stayed just the same as they always had been. And I will not kiss you even if you spend the whole night trying to talk me into it. So do not waste your time!~
 @146  = ~Am I to believe that Coran of Tethyr has fallen in love for the first time?~
-@147  = ~*smile* If you do feel so strongly, my friend, than a few short days... or weeks... or even years should change nothing.~
+@147  = ~*smile* If you do feel so strongly, my friend, then a few short days... or weeks... or even years should change nothing.~
 @148  = ~*Somehow Coran makes the kiss to last as if some wizard cast a time stopping spell on you. When finally you pull away from one another, Coran's tilted eyes are darker than you remember.*~
 @149  = ~Ouch! You are going to lose a valuable companion this way. I am no mage, but I still need my brains. Unless you intended me to forget the taste of your lips... but I never will.~
 @150  = ~You give and you take at the same time. Bravo, <CHARNAME>. You are skilled in the game, yet appear innocent of the knowledge. *bows* That betrays the true master, my Lady. I am officially giving you my heart to wear in your belt pouch... or behind your corsage, which I would much prefer.~
@@ -208,7 +208,7 @@ Not adventure with we vagabonds.~
 @186  = ~*giggle* I cannot stay angry with you for too long, elf. Perhaps fighting the emptiness under the blankets with you will prove fun. I'll give it a try.~
 @187  = ~My captain, thou shalt find no ally more loyal to thy cause. Light the signal fires on the eve of the battle, and I shall come to your aid.~
 @188  = ~There is something about crossroads that makes every adventurous heart beat faster. Perhaps it's because that's where you can choose a different direction.~
-@189  = ~I prefer to stay off the roads all together. I do not want to walk in the tracks of the others.~
+@189  = ~I prefer to stay off the roads altogether. I do not want to walk in the tracks of others.~
 @190  = ~Follow me from this crossroad onward, stranger, and help me to fight off the emptiness of the night.~
 @191  = ~But after a crossroad, the two ways can also run further and further apart, if you get my meaning.~
 @192  = ~Coran, it's not that I am not enjoying chatting with you, but the gleam in your eye causes me great discomfort. Can we continue this discussion some other time?~
@@ -307,7 +307,7 @@ Not adventure with we vagabonds.~
 @285  = ~Love... *laugh bitterly* It is my shame and my madness that I allow a vagrant and a thief to court me freely.~
 @286  = ~What is it?~
 @287  = ~*look at Coran, smile and wait for him to continue*~
-@288  = ~Were I a slave in Mulhorand, once a day I would catch a glimpse of your sandals while protrating myself on the marble floor at your feet, and I would be the happiest man in Mulhorand.~
+@288  = ~Were I a slave in Mulhorand, once a day I would catch a glimpse of your sandals while prostrating myself on the marble floor at your feet, and I would be the happiest man in Mulhorand.~
 @289  = ~Mulhorand?~
 @290  = ~I really, really doubt it.~
 @291  = ~Are you trying to flatter me?~
@@ -364,17 +364,17 @@ Not adventure with we vagabonds.~
 @342  = ~Coran, I was just waiting for a pause to tell you that it's over.~
 @343  = ~Oh, good. I thought you'd never stop talking. Can we make love now?~
 @344  = ~You have not been hammered on the head, have you? Oh well, good night.~
-@345  = ~*A plump serving wench giggles over something Coran is whispering to her. Her hoop earnings dangle, and she presses her palm to her abundant bosom. "You've always been such a kidder, Master Coran!" she exclaims, but eagerly settles herself on Coran's lap. Coran wraps his arm around her waist, and an easy smile curves his lips. The elf shares a cup of wine with her, and licks a few spilled scarlet droplets from her skin. Suddenly he lifts his head and searches the common room with his gaze, frowning worriedly when he does not see you where he had last left you. Coran suddenly gets up, and with a charming grin and quiet words he slips a few coins down the maid's bodice. Then he leaves, and the woman stares for a few moments after him, with a surprised expression on her face.*~
-@346  = ~You follow Coran to his room. The door is not locked, so you take a look inside.~
-@347  = ~You spend the rest of the night drinking, brooding and giving dark looks to the plump wench.~
-@348  = ~You take your leave of the common room and hit the sack. Love or not, this day was trying, and tomorrow is also likely to test you to your limits.~
+@345  = ~*A plump serving wench giggles over something Coran is whispering to her. Her hoop earrings dangle, and she presses her palm to her abundant bosom. "You've always been such a kidder, Master Coran!" she exclaims, but eagerly settles herself on Coran's lap. Coran wraps his arm around her waist, and an easy smile curves his lips. The elf shares a cup of wine with her, and licks a few spilled scarlet droplets from her skin. Suddenly he lifts his head and searches the common room with his gaze, frowning worriedly when he does not see you where he last left you. Coran suddenly gets up, and with a charming grin and quiet words he slips a few coins down the maid's bodice. Then he leaves, and the woman stares for a few moments after him, with a surprised expression on her face.*~
+@346  = ~*You follow Coran to his room. The door is not locked, so you take a look inside.*~
+@347  = ~*You spend the rest of the night drinking, brooding and giving dark looks to the plump wench.*~
+@348  = ~*You take your leave of the common room and hit the sack. Love or not, this day was trying, and tomorrow is also likely to test you to your limits.*~
 @349  = ~*A candle is burning on the table, and in its dancing light, Coran's elven features appear less sharp and he looks older, if that is at all possible for an ageless elf. Coran's hands lie on the table, palms facing up, and his dark slanted eyes are fixed on the twirling flame.*~
 @350  = ~*Carefully you leave the room and close the door.*~
 @351  = ~So, Coran sleeps alone tonight?~
 @352  = ~*You walk quietly and cover Coran's eyes with your sleeve.* Guess who?~
 @353  = ~*You walk over and blow out the candle.*~
 @354  = ~*You hesitate in the doorway, watching Coran meditate.*~
-@355  = ~Yes. Unless you'd share my cold blankets, <CHARNAME>. *sighs heavily* Do not expect me to apologize. I am not made of mithril! *smirks* Besides, it was you who showed up in my head, uninvited and bare-naked, and destroyed a perfectly nice fling.~
+@355  = ~Yes. Unless you'd share my cold blankets, <CHARNAME>. *sighs heavily* Do not expect me to apologize. I am not made of mithral! *smirks* Besides, it was you who showed up in my head, uninvited and bare-naked, and destroyed a perfectly nice fling.~
 @356  = ~*stare at Coran with your mouth ajar*~
 @357  = ~*start undoing the fasteners of your garment* Bare-naked you say? *sliding out of your clothes* Like this?~
 @358  = ~Your sulking completes the illusion of a boy who missed a hoop with his stick. *snort* Good night.~
@@ -454,7 +454,7 @@ Not adventure with we vagabonds.~
 @432  = ~Yes, Tethyr borders on Amn and Calimshan, to the south of here. But, sweetling, it has not always been so. Only 19 millennia back, the great elven realm of Keltormir spanned over what is now Tethyr, Amn, Erlkazar and Calimshan.~
 @433  = ~Of course. Ask an elf to tell you a bit about himself and he will start with the Crown Wars. I want to hear about you, Coran.~
 @434  = ~*sigh* Keltormir fell some ten millennia ago, Coran, and I have been instructed in its history. I wish to know of someone who did not make it into the Candlekeep scrolls of ages. About you, Coran.~
-@435  = ~That's quite... large. Whatever happened that it became but a patch of greenery betwixt the human Empires build on the sand?~
+@435  = ~That's quite... large. Whatever happened that it became but a patch of greenery betwixt the human Empires built on the sand?~
 @436  = ~Skip right to Tethir the Dragonslayer, Coran. I'd like a tale about the great hero of old!~
 @437  = ~Forget it. I've grown bored with it already.~
 @438  = ~I was born in the Forest of Tethyr, in the midst of the elven lands, in the year eleven hundred and something in Dale reckoning.~
@@ -737,7 +737,7 @@ You'd have a wife by your hearth.'~
 @687  = ~I do not know what madness came over me. I am returning to the camp. Linger here, if you wish.~
 @688  = ~A man... and a woman can wish for many more things than running through the night together. I... I can show you... A'maelamin, the grass is like silk, and the silence will allow us to hear every sigh, every caress and every-~
 @689  = ~Ed' i'ear ar' elenea! Dina ar' tula sinome, Coran. (By the sea and stars! Be silent and come here, Coran.)~
-@690  = ~Does it matter tonight? Let tomorrow find it's own answers. Here and now... the grass is like silk, and the silence will allow us to hear every sigh, every caress and every-~
+@690  = ~Does it matter tonight? Let tomorrow find its own answers. Here and now... the grass is like silk, and the silence will allow us to hear every sigh, every caress and every-~
 @691  = ~I'll need some time to come up with something... oh, wait! Stay where you are... I'll be right back!~
 @692  = ~*Coran rushes away and returns with something which looks like a bucket dripping with water.*~
 @693  = ~Here, look inside - I brought you the moon and three stars, to boot.~
@@ -766,7 +766,7 @@ You'd have a wife by your hearth.'~
 @716  = ~*sighs* Women...~
 @717  = ~Yes I do. The condition of the fighting gear is very important to me. Our lives depend on it.~
 @718  = ~I am sorry... I am embarrassed and speak nonsense. You did bring me the moon from the sky. You do love me, don't you? I... I want us to be lovers tonight... erm... is everyone asleep?~
-@719  = ~Yes, I can see that. Makes me wonder what my is place among your priorities? Tenth? Twentieth? Oh, do not bother to reply.~
+@719  = ~Yes, I can see that. Makes me wonder what my place is among your priorities? Tenth? Twentieth? Oh, do not bother to reply.~
 @720  = ~*You wake up in Coran's embrace. The elf cups your breast with the easy manner of a man who has caressed many women, and says thoughtfully:* I was born far away from the oceans, and yet I love them as much as the mighty forests or great mountains. Perhaps even more so, because of the feeling of freedom... It is a paradox, because, unless you are of the sea-kin, a fish or kelp, you should feel constrained by the deadly vastness of water.~
 @721  = ~Hmm... the last time I looked in the mirror, I did not see a fish, nor a sea-elf, nor seaweed. Perhaps, <RACE>s are also unconstrained by the oceans...~
 @722  = ~Hmm...the last time I looked in the mirror, I did not see a fish, nor a sea-elf, nor seaweed. Perhaps, <RACE>s are also unconstrained by the oceans...~
@@ -873,8 +873,8 @@ You'd have a wife by your hearth.'~
 @823  = ~That you abandon the ways of a vagrant and settle into a peaceful and quiet life.~
 @824  = ~None. I do not want any promises!~
 @825  = ~I leave the choice to you, my sweet lover.~
-@826  = ~<CHARNAME> of Candlekeep, daughter of Gorion, I love you. My love will not fade, and to you alone my heart is given. No matter what should transpire on my lonely walks, they will all end by your campfire. You arms, beloved, are my home, and by your side I will stay. By the stars and the sun and the twelve winds so I, Coran Sullussaer swear.~
-@827  = ~Yes, sit... *kneels by your side* <CHARNAME> of Candlekeep, daughter of Gorion, I love you. My love will not fade, and to you alone my heart is given. No matter what should transpire on my lonely walks, they will all end by your campfire. You arms, beloved, are my home, and by your side I will stay. By the stars and the sun and the twelve winds so I, Coran Sullussaer, swear.~
+@826  = ~<CHARNAME> of Candlekeep, daughter of Gorion, I love you. My love will not fade, and to you alone my heart is given. No matter what should transpire on my lonely walks, they will all end by your campfire. Your arms, beloved, are my home, and by your side I will stay. By the stars and the sun and the twelve winds so I, Coran Sullussaer swear.~
+@827  = ~Yes, sit... *kneels by your side* <CHARNAME> of Candlekeep, daughter of Gorion, I love you. My love will not fade, and to you alone my heart is given. No matter what should transpire on my lonely walks, they will all end by your campfire. Your arms, beloved, are my home, and by your side I will stay. By the stars and the sun and the twelve winds so I, Coran Sullussaer, swear.~
 @828  = ~You are serious, aren't you?~
 @829  = ~<CHARNAME> of Candlekeep, daughter of Gorion, I love you. My love will not fade, and to you alone my heart is given. By the stars and the sun and the twelve winds so I, Coran Sullussaer, swear.~
 @830  = ~<CHARNAME> of Candlekeep, daughter of Gorion, I love you. No matter what should transpire on my lonely walks they will all end by your campfire. By the stars and the sun and the twelve winds so I, Coran Sullussaer, swear.~
@@ -897,7 +897,7 @@ You'd have a wife by your hearth.'~
 @847  = ~Nothing. Nothing is the matter.~
 @848  = ~Coran, you were good for me, and I was good for you. But now, I figure, is a good time to call it quits.~
 @849  = ~Am...Am I pretty?~
-@850  = ~*What's the matter? What's the matter?! I... I am ready to give you everything, and you peer at barmaids!~
+@850  = ~What's the matter? What's the matter?! I... I am ready to give you everything, and you peer at barmaids!~
 @851  = ~Thanks for asking, Master Womanizer.~
 @852  = ~*catches your hand* I said - enough!~
 @853  = ~Hmmm... a rather crude way.~
@@ -1157,7 +1157,7 @@ You'd have a wife by your hearth.'~
 @1107 = ~Oh, cap it. Plenty of base-borns rise high in human society. Why, even in your own Tethyr, there was a half-elven bastard Kymer who succeeded King Alemander II, or some such.~
 @1108 = ~Is that so? I am of the opinion that the humans think all bastards lewd and untrustworthy. But luck is always on the side of a romantic.~
 @1109 = ~Namara was certainly conceived of both lust and treachery.~
-@1110 = ~Oh, cap it. Plenty of are base-borns raised high in human society. Why, even in your own Tethyr, there was a half-elven bastard Kymer who succeeded King Alemander II or some such.~
+@1110 = ~Oh, cap it. Plenty of base-born raise high in human society. Why, even in your own Tethyr, there was a half-elven bastard Kymer who succeeded King Alemander II or some such.~
 @1111 = ~Ah, yes. Poor, poor Coran. Will you take pity on the lad and warm him up, my good woman?~
 @1112 = ~Perhaps, we can start on creating this legend right now, my man-eating Bhaalspawn? Let us spin a tale that will make all good women's hair bristle, their tongues wag in disapproval, and their hearts grow small with envy!~
 @1113 = ~Let me see if I mind kissing you.~
@@ -1168,7 +1168,7 @@ You'd have a wife by your hearth.'~
 @1118 = ~*mocking bow* Fare thee well, little bird.~
 @1119 = ~Ah, yes, revenge... it is sort of odd when a person tries to seek vengeance upon someone for giving her life. Hopefully, Namara won't be that mule-headed... and I will avoid bedding half-elves... that should be punishment enough for an old sinner.~
 @1120 = ~You want me to become a stuffy old wizard? Wow, you have quite a taste... Perhaps, *this* can convince you otherwise.~
-@1121 = ~Hey, what this sigh's for? I think I know what you need, fireheart.~
+@1121 = ~Hey, what this sigh for? I think I know what you need, fireheart.~
 @1122 = ~Yes... some women's tastes are... peculiar. But yours is excellent, my sweet lover.~
 @1123 = ~*looks abashed* Wh-what? Are you... by any chance?~
 @1124 = ~*smile smugly* I am not telling you...~
@@ -1308,7 +1308,7 @@ You'd have a wife by your hearth.'~
 @1258 = ~Sweetling, let me teach you one thing. Never do that which does not please you, or interest you, or is fun for you.~
 @1259 = ~One has no choice in the matter.~
 @1260 = ~But duty and obligations...~
-@1261 = ~You are right. I will start thinking on what I'd want to do, rather than wondering across the land and slaying everything I perceive as an enemy.~
+@1261 = ~You are right. I will start thinking on what I'd want to do, rather than wandering across the land and slaying everything I perceive as an enemy.~
 @1262 = ~And what makes you think that you are in a position to *teach* me?~
 @1263 = ~Do you doubt me?~
 @1264 = ~Never!~
@@ -1332,7 +1332,7 @@ You'd have a wife by your hearth.'~
 @1282 = ~Are you in melancholy, sweetling. That won't do at all. Perhaps you *should* think of doing something different. Or, at least come up with a trick which will make your life more bearable.~
 @1283 = ~*shrugs* There are only two choices, sweetling. To live your life the way you want, or to let everyone and his dog push you into doing what they want. Chose the first one, dear, I beg of you. You are way too beautiful to become one who drifts listlessly to her grave and, with a satisfied smile, finds no difference between life and death.~
 @1284 = ~*laughs*~
-@1285 = ~That's my girl! *Coran kisses you on your cheek first, than on your lips... and again...* Sweetling, do not you think that it's long past time that we... erm... halted for rest?~
+@1285 = ~That's my girl! *Coran kisses you on the cheek first, then on your lips... and again...* Sweetling, do not you think that it's long past time that we... erm... halted for rest?~
 @1286 = ~I may not be the cleverest thief in the Realms, but I can see a trap when it is laid by my feet, <CHARNAME>.~
 @1287 = ~We could. But where is the thrill in that?~
 @1288 = ~Let me remind you, that we snatch time for leisure and gallantry whenever we can; whether the sun shines, the moon glimmers or the stars twinkle in the sky above us.~
@@ -1401,7 +1401,7 @@ You'd have a wife by your hearth.'~
 @1351 = ~And am I... beautiful?~
 @1352 = ~I met with her because of you... It was the greatest surprise in my life. When I saw the child, my heart went cold, for thoughts of what you were going to do.~
 @1353 = ~I was expecting you to berate me for Namara's existence every time you were cross, turning our sweet companionship into the unbearable.~
-@1354 = ~Yet, you insisted that I something... good. I was lucky that it was you by my side that day or, as the Seldarine know, I would have acted like a selfish brat.~
+@1354 = ~Yet, you insisted that I should do something... good. I was lucky that it was you by my side that day or, as the Seldarine know, I would have acted like a selfish brat.~
 @1355 = ~It was... a tempting thing to do. But it was not going to solve anything, and there was a child in need of a father.~
 @1356 = ~I am not of the Seldarine, but I know that you would not have acted as a selfish brat, Coran. There is honor in you. Sooner or later, you would have done the right thing.~
 @1357 = ~That does it! Fatherhood has turned you into a scatterbrain! You are making me sick, speaking like that. Will you refuse to steal next???!!!~
@@ -1471,7 +1471,7 @@ You'd have a wife by your hearth.'~
 @1421 = ~*grins* It is almost scary how well you know me.~
 @1422 = ~Brielbara stood in front of the flower merchant and looked at the blooms for a while. And I looked at her... Then she startled and hurried away. Something in this startle endeared her to me. I did not have the time to light-finger a bud, and only enough money to buy a single red flower. I did so, and ran after her.~
 @1423 = ~When I offered her the flower, there was surprise and gratitude in her eyes, but she shook her head and told me that she was married. 'Well,' I replied, 'so much the better. I am for making you happy, and your husband - to take care of all your other needs.'~
-@1424 = ~The next thing I knew, I was standing in the middle of the busy street in Baldur's Gate, hugging a strange woman who sobbed into my shoulder. In a moment, she wiped her tears away and straightened. You met Yago... he was quite apt at devouring the very last shred of happiness from his wife. Brielbara was determined to snatch out of his jaws whatever she could. Rarely have I met woman who plunged into an affair with such decisiveness and passion.~
+@1424 = ~The next thing I knew, I was standing in the middle of the busy street in Baldur's Gate, hugging a strange woman who sobbed into my shoulder. In a moment, she wiped her tears away and straightened. You met Yago... he was quite apt at devouring the very last shred of happiness from his wife. Brielbara was determined to snatch out of his jaws whatever she could. Rarely have I met a woman who plunged into an affair with such decisiveness and passion.~
 @1425 = ~After a while, being fed up with seeing bruises all over Brielbara's body and listening to what her husband did to her, I suggested that I spirit her away from Yago. At first she was quite fascinated by the prospect, but when she understood that I would neither stay with her long after our escape, nor settle down in a remote corner of the world, she told me that a human's life is too short to make new starts.~
 @1426 = ~A good dose of despair in the gaiety of our meetings finally wore me down, and I left.~
 @1427 = ~So, it was the memory of happiness, which prompted her to keep Namara.~
@@ -1487,7 +1487,7 @@ You'd have a wife by your hearth.'~
 @1437 = ~You would trust a thief with party's gold?~
 @1438 = ~I would trust *you* with party's gold.~
 @1439 = ~You have earned your share of the booty, Coran.~
-@1440 = ~On the second thought... will 1000 gold suffice?~
+@1440 = ~On second thought... will 1000 gold suffice?~
 @1441 = ~I know for myself that there is honor among thieves.~
 @1442 = ~And why is that, Lady Luck?~
 @1443 = ~Because I said so. Namara and you stay with me.~
