@@ -10,7 +10,7 @@ END
 /* Found Gorion's Body too late */
 IF %BGT_VAR%
 Global("X#ImGorBody","%LionsWay%",1)
-RealGlobalTimerExpired("X#ImGorBody","GLOBAL")
+RealGlobalTimerExpired("X#ImGorBodyTimer","GLOBAL")
 THEN
 RESPONSE #100
 SetGlobal("X#ImGorBody","%LionsWay%",2)
