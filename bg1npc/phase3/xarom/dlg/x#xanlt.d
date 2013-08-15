@@ -3369,7 +3369,7 @@ SAY @1046
 = @1048
 = @1049
 = @1050
-IF ~~ THEN DO ~StartMovie("FLYTHR03")~ EXIT
+IF ~~ THEN EXIT
 END
 
 /* Flirt 6 - Aubade */

@@ -5942,11 +5942,6 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
     EVALUATE_BUFFER
   EXTEND_TOP  ~%EDWIN_BCS%.BCS~ ~BG1NPC/Phase3/XAROM/baf/X#XAEDRE.baf~
     EVALUATE_BUFFER
-	
-  /* Add  BG2 movie for Xan Romance Dialog to EasyTutu distributions */
-  ACTION_IF (FILE_EXISTS_IN_GAME ~FW0100.are~} OR (FILE_EXISTS_IN_GAME ~neera.dlg~} THEN BEGIN
-    COPY ~BG1NPC/core/mve/flythr03.mve~ ~override~
-  END
 
   /* dialogue */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/XAROM/dlg/X#XANLT.D~
