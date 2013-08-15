@@ -1,0 +1,9 @@
+OUTER_INNER_PATCH ~12~ BEGIN
+  WRITE_BYTE 1 0x09
+  READ_ASCII 1 tab (1)  // 0x09, tab
+  WRITE_BYTE 1 0x0a
+  READ_ASCII 1 lnl (1)  // 0x0a, Linux
+  WRITE_BYTE 0 0x0d
+  READ_ASCII 0 mnl (1)  // 0x0d, Mac
+  READ_ASCII 0 wnl (2)  // 0x0d0a, Windows
+END

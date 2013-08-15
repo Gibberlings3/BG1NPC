@@ -1,0 +1,9 @@
+IF
+!InParty(Myself)
+HPGT(Myself,0)
+THEN
+RESPONSE #100
+SetLeavePartyDialogueFile()
+StartDialogNoSet(Player1)
+ChangeAIScript("",DEFAULT)
+END

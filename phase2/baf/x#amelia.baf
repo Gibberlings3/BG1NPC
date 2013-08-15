@@ -1,0 +1,10 @@
+IF %BGT_VAR%
+Global("X#CoranSuccubus","GLOBAL",3)
+OR(2)
+See(Player1)
+See("coran")
+InParty("coran")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

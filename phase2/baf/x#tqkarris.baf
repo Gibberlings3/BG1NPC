@@ -1,0 +1,103 @@
+/* Use this script to extend the bottom of X#KARRIS.bcs */
+
+IF %BGT_VAR%
+Global("X#KarrisPlacement","GLOBAL",3)
+THEN
+RESPONSE #100
+ActionOverride("X#TQBH1",EscapeArea())
+ActionOverride("X#TQBH2",EscapeArea())
+ActionOverride("X#TQBH3",EscapeArea())
+ActionOverride("X#TQBH4",EscapeArea())
+ActionOverride("X#KARRIS",EscapeArea())
+SetGlobal("X#KarrisPlacement","GLOBAL",4)
+END
+
+IF %BGT_VAR%
+Global("X#KarrisPlacement","GLOBAL",2)
+THEN
+RESPONSE #100
+ActionOverride("X#TQBH1",EscapeArea())
+ActionOverride("X#TQBH2",EscapeArea())
+ActionOverride("X#TQBH3",EscapeArea())
+ActionOverride("X#TQBH4",EscapeArea())
+ActionOverride("X#KARRIS",EscapeArea())
+SetGlobal("X#KarrisPlacement","GLOBAL",4)
+END
+
+IF %BGT_VAR%
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+OR(2)
+Global("X#TiaxQuest","GLOBAL",3)
+Global("X#TiaxQuest","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("X#TiaxQuest","GLOBAL",5)
+SetGlobal("X#TiaxQuestBattle","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TiaxQuestBattle","GLOBAL",1)
+Global("X#KarrisDefends","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#KarrisDefends","GLOBAL",1)
+Enemy()
+ActionOverride("X#TQBH1",Enemy())
+ActionOverride("X#TQBH2",Enemy())
+ActionOverride("X#TQBH3",Enemy())
+ActionOverride("X#TQBH4",Enemy())
+END
+
+/* TiaxQuest started */
+/* Changed to Dialog() instead of MoveToObject() and SDNS() */
+IF %BGT_VAR%
+Global("X#TiaxQuest","GLOBAL",2)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#TiaxQuest","GLOBAL",3)
+Dialog(Player1)
+END
+
+/* Attacked by player without quest */
+IF %BGT_VAR%
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+!Global("X#TiaxQuest","GLOBAL",3)
+!Global("X#TiaxQuest","GLOBAL",4)
+THEN
+RESPONSE #100
+Enemy()
+ActionOverride("X#TQBH1",Enemy())
+ActionOverride("X#TQBH2",Enemy())
+ActionOverride("X#TQBH3",Enemy())
+ActionOverride("X#TQBH4",Enemy())
+END
+
+IF
+See(NearestEnemyOf(Myself))
+!Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipRanged()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipMostDamagingMelee()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+AttackedBy([ANYONE],DEFAULT)
+THEN
+RESPONSE #100
+AttackReevaluate(LastAttackerOf(Myself),30)
+END

@@ -1,0 +1,226 @@
+IF %BGT_VAR%
+Global("X#XALoveTalk","GLOBAL",9)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",1)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XALoveTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#XALoveTalk","GLOBAL",27)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",1)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XALoveTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#XALoveTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+OR(2)
+Global("X#XALoveTalk","GLOBAL",37)
+Global("X#XALoveTalk","GLOBAL",39)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",2)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XALoveTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Bhaal Talk 2 */
+IF %BGT_VAR%
+Global("X#XAFloatTalk3","GLOBAL",3)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XAFloatTalk3","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Chapter 7 */
+IF %BGT_VAR%
+Global("Chapter","GLOBAL",%tutu_chapter_7%)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#XAFloatTalk4","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("P#KnowBhaal","GLOBAL",1)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",2)
+AreaType(CITY)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XAFloatTalk4","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Flirt 1 and 2 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#XaFlirtsTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+OR(2)
+Global("X#XAFlirtTalk1","GLOBAL",0)
+Global("X#XAFlirtTalk1","GLOBAL",2)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+GlobalGT("X#XALoveTalk","GLOBAL",8)
+GlobalLT("X#XALoveTalk","GLOBAL",28)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#DisableXaFlirts","GLOBAL",0)
+!TimeOfDay(DAY)
+AreaType(FOREST)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XAFlirtTalk1","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Flirt 3 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#XaFlirtsTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#XAFlirtTalk2","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+GlobalGT("X#XALoveTalk","GLOBAL",40)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#DisableXaFlirts","GLOBAL",0)
+OR(20)
+AreaCheck("%Beregost_FeldepostsInn_L1%")
+AreaCheck("%Beregost_JovialJuggler_L1%")
+AreaCheck("%Beregost_RedSheaf_L1%")
+AreaCheck("%Beregost_BurningWizard_L1%")
+AreaCheck("%Nashkel_Inn%")
+AreaCheck("%EBaldursGate_KeexieTavern_L1%")
+AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+AreaCheck("%EBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Inn_L1%")
+AreaCheck("%SEBaldursGate_Blade&Stars_L1%")
+AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+AreaCheck("%SWBaldursGate_Tavern_L1%")
+AreaCheck("%SWBaldursGate_YeOldeInn_L1%")
+AreaCheck("%NWBaldursGate_Helm&Cloak_L1%")
+AreaCheck("%NWBaldursGate_Tavern_L1%")
+AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
+AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
+AreaCheck("%FriendlyArmInn_L1%")
+AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XAFlirtTalk2","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Additional Late in Romance Scene 2 (the dream about Bodhi) */
+IF %BGT_VAR%
+Global("X#XAFlirtTalk5","GLOBAL",0)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+GlobalGT("X#XALoveTalk","GLOBAL",42)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#DisableXaFlirts","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+PlaySong(0)
+PlaySound("xarom")
+IncrementGlobal("X#XAFlirtTalk5","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+/* Romance Breakers */
+IF %BGT_VAR%
+GlobalGT("X#XALoveTalk","GLOBAL",28)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",1)
+OR(3)
+!InParty("ajantis")
+Global("X#AjantisRomanceActive","GLOBAL",3)
+Global("X#AjantisRomanceActive","GLOBAL",0)
+InParty("coran")
+Global("P#CoranMatch","GLOBAL",1)
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("X#XACoranBreak","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+IncrementGlobal("X#XACoranBreak","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+GlobalGT("X#XALoveTalk","GLOBAL",28)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("X#XARomanceInactive","GLOBAL",1)
+Global("X#XARomanceActive","GLOBAL",1)
+OR(3)
+!InParty("coran")
+!Global("P#CoranMatch","GLOBAL",1)
+Global("P#CoranRomanceInactive","GLOBAL",1)
+InParty("ajantis")
+Global("X#AjantisRomanceActive","GLOBAL",1)
+Global("X#XAAjantisBreak","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+IncrementGlobal("X#XAAjantisBreak","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END

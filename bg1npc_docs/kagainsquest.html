@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The BG1 NPC Project Documentation: Kagain's Quest Walkthrough</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../style/g3readme.css" type="text/css" />
+<link href="../style/g3.ico" rel="icon" type="image/bmp" />
+</head>
+
+<body>
+
+<h1>The <acronym title="Baldur's Gate">BG1</acronym> <acronym
+title="Non-Player Character">NPC</acronym> Project Documentation: Kagain's Quest
+Walkthrough</h1>
+<div class="section">
+  <p><strong><a href="http://www.gibberlings3.net/">A Gibberlings Three Mod</a></strong>
+    <br />
+      <strong>Authors: <a href="http://forums.gibberlings3.net/?showtopic=1315">The
+      <acronym title="Baldur's Gate">BG1</acronym> <acronym
+  title="Non-Player Character">NPC</acronym> Project team</a>.</strong></p>
+</div>
+<h2>Overview</h2>
+<div class="section">
+  <p>Kagain's Quest starts from two points, but involves Bandits, Murder, and
+    Mayhem. It is realtively short, but has an added payoff when you get to Baldur's
+    Gate.&nbsp; It can be both initiated and completed with or without Kagain,
+    thoug obviously there is more dialogue and it makes more of a story if Kagain
+  is in the party at least until the basic portion of the quest is completed.</p>
+</div>
+<h2>Walkthrough</h2>
+<div class="section">
+  <p><strong>SPOILER ALERT:</strong> To read sections that contain spoiler information,
+select/highlight the invisible text or hover your mouse over it.</p>
+  <p>
+  The starting point is either at Kagain's shop in area FW3353 (part of&nbsp; <a
+  href="http://www.dudleyville.com/bg1/ar3300.htm">http://www.dudleyville.com/bg1/ar3300.htm</a> )
+  or in the wilderness to the east of the road in the Coast Way&nbsp; <a
+  href="http://www.dudleyville.com/bg1/ar2800.htm">http://www.dudleyville.com/bg1/ar2800.htm</a>&nbsp; . </p>
+    If the Player meets Kagain and Kagain joins the party&nbsp; first, Initial
+  state 0 A_T_A SetGlobal KagainCaravan=10, if he joins the party Set KagainCaravan=10
+  X#KagainCaravan=1,&nbsp; then go find some caravans in trouble to your north.
+      <p>The party with Kagain <a class="spoiler" id="spoiler_1" name="spoiler_1" href="#spoiler_1">enters&nbsp; FW2800, and Kagain chimes
+            in about checking out the East route. You run into bandits that have
+            just killed everyone in Kagain's caravan. He is NOT amused. After
+            appropriate... discussion, Kagain wipes his axe and sees about joining.
+            You find a fibula (fancy word for a broach that identifies household
+            members of nobility), and you can kick Kagain out or party on with
+            him. </a></p>
+      <p>script actions are: <a class="spoiler" id="spoiler_2" name="spoiler_2" href="#spoiler_2"> _KAGAIN.BCS If 1 SDNS, Set X#KagainCaravan,GLOBAL,2
+            dialogue to 3<br />
+    Player1 meets Bandit (static area spawn), X#TalkedEddard=0 (forced fight,
+    pick up Silvershield's pin) regardless of Kagain's status, then X#KagainCaravan=3
+    X#TalkedEddard=1<br />
+    If Kagain is InParty, Eddard Dead, CC(0), !S(E), X#KagainCaravan=3, X#TalkedEddard=1,
+    then Set X#TalkedEddard=2 SDNS<br />
+    If Kagain joins, set X#KagainCaravan=4, area script sets KACASH, final dialogue
+    gives gold based on global and terminates with X#KagainCaravan=5<br />
+    Responding to giving party money, X#KagainCaravan=5<br />
+    If he is turned down, he leaves as originally scripted (EscapeArea())<br />
+    Party exits quest either way with item to return to SS Estate, X#KagainCaravan=5,
+    X#TalkedEddard=2</a></p>
+      <p>
+      If Player1 and the party explore the Coast Way fully before meeting Kagain, <a class="spoiler" id="spoiler_3" name="spoiler_3" href="#spoiler_3">they
+      may run into the bandits first. They are bandits. Kill them.&nbsp; You
+      can skip meeting Kagain completely, and continue on until you are in Baldur's
+      Gate, or you can go pick up Kagain now. In his shop, you have some new
+      responses, talking about the caravan you saw. It is dependent on globals,
+      not the fibula you picked up from Eddard's body, but you want to go back
+      and get that item if you want to trigger the Baldur's Gate interaction
+      -- that one works off of the party having the item.&nbsp; Have Kagain join,
+      or not -- his primary part of the quest was resolved even before he joined
+      up.</a></p>
+      <p>Script actions are: <a class="spoiler" id="spoiler_4" name="spoiler_4" href="#spoiler_4">Player1 meets Bandit (static area spawn), X#TalkedEddard=0
+            (forced fight, pick up Silvershield's pin) regardless of Kagain's
+            status, then X#KagainCaravan=3 X#TalkedEddard=1<br />
+    Player meets Kagain with init condition X#KagainCaravan,GLOBAL,3 X#TalkedEddard,GLOBAL,1<br />
+    /* making sure the quest can't happen if Eddard is already dead */<br />
+    EXTEND_BOTTOM ~_KAGAIN~ 2<br />
+    IF ~Global(&quot;X#KagainCaravan&quot;,&quot;GLOBAL&quot;,3) Global(&quot;X#TalkedEddard&quot;,&quot;GLOBAL&quot;,1)~
+    THEN REPLY ~Well there sure is trouble on the roads. We battled a bandit
+    group that had just killed everyone in a caravan up North. Any chance this
+    pin was from one of yours?~ GOTO X#KagBandResolvAlone<br />
+    END</a></p>
+      <p><a class="spoiler" id="spoiler_5" name="spoiler_5" href="#spoiler_5"> APPEND ~_KAGAIN~</a></p>
+      <p><a class="spoiler" id="spoiler_6" name="spoiler_6" href="#spoiler_6"> IF ~~ THEN BEGIN X#KagBandResolvAlone<br />
+      SAY ~Well, this is Silvershield's son's marker. Dead, y'say? That
+was one of my caravans. Guess I'm in a lot of trouble now. With
+him dead, I'll be a wanted dwarf. Well, since my reputation is
+now mud, how 'bout I help you gain revenge on those scum bags?
+P'rhaps you can put in a word for me with the Silvershields. Whadda
+ya say?~<br />
+      IF ~~ THEN REPLY ~We don't want you around, so hit the road.~ JOURNAL
+      ~Entar Silvershield's son was killed. We might take the pin back to his
+      family, when we get to Baldurs Gate.~ DO ~SetGlobal(&quot;X#KagainCaravan&quot;,&quot;GLOBAL&quot;,4)~
+        GOTO X#KAQUDISMISS<br />
+      IF ~~ THEN REPLY ~Sure, we could use your skills.~ JOURNAL ~Entar Silvershield's
+      son was killed. We might take the pin back to his family, when we get
+      to Baldurs Gate.~ DO ~SetGlobal(&quot;X#KagainCaravan&quot;,&quot;GLOBAL&quot;,4)~
+        GOTO X#KAQUREWARDALONE<br />
+      END</a></p>
+      <p><a class="spoiler" id="spoiler_7" name="spoiler_7" href="#spoiler_7"> IF ~~ THEN BEGIN X#KAQUREWARDALONE<br />
+      SAY ~Now 'bout that hiring thing I promised. Here, have some gold,
+            but I expect my share of the booty from ya. I am poor now.~<br />
+      IF ~~ THEN DO ~GivePartyGold(50) SetGlobal(&quot;X#KagainCaravan&quot;,&quot;GLOBAL&quot;,5)
+          SetGlobal(&quot;X#TalkedEddard&quot;,&quot;GLOBAL&quot;,2)~ EXIT<br />
+      END</a></p>
+      <p><a class="spoiler" id="spoiler_8" name="spoiler_8" href="#spoiler_8"> IF ~~ THEN BEGIN X#KAQUDISMISS<br />
+      SAY ~Stupid chumps, your loss.~<br />
+      IF ~~ THEN DO ~SetGlobal(&quot;X#KagainCaravan&quot;,&quot;GLOBAL&quot;,5)
+            SetGlobal(&quot;X#TalkedEddard&quot;,&quot;GLOBAL&quot;,2) EscapeArea()~
+            EXIT<br />
+      END
+      </a></p>
+      <p>Either way, the Party exits the major portion of the quest&nbsp; <a class="spoiler" id="spoiler_9" name="spoiler_9" href="#spoiler_9">with the fibula to&nbsp; return
+            to the Silvershields Estate in Baldurs Gate; Globals set at&nbsp; X#KagainCaravan=5,
+            X#TalkedEddard=2.</a></p>
+       When you get to the Silvershield's Estate in Baldur's
+        Gate, Kagain really has no business with any of it (he doesn't say a
+        line). <a class="spoiler" id="spoiler_10" name="spoiler_10" href="#spoiler_10">The most dialogue
+        is if you have Skie and Eldoth in the party before talking to Lady Silvershield.
+        It is definitely worth trying out this interaction once. If the party
+        has the fibula, the guard will have a new option to send the party directly
+        to Lady Silvershield upstairs. If you have come to rescue Skie and have
+        Eldoth in the party, get her and then talk to step-mommy-dearest. If
+        you don't have Eldoth and would prefer not to slaughter the Silvershield
+        Household, just go upstairs to Lady Silvershield and talk to her, then
+        leave. </a>
+          <p>That should take care of the quest!</p>
+          <p>The code: <br />
+              <a class="spoiler" id="spoiler_11" name="spoiler_11" href="#spoiler_11">EXTEND_BOTTOM
+              _BRILLA 0<br />
+      + ~PartyHasItem(&quot;X#SILSH&quot;)~ + ~Madam, I bring grave news. In
+      my travels I came across a raided caravan... and a body of a young man,
+      dressed in Silvershield's colors. The bandits who killed him had this clasp.~
+      + BrillaEddardDeath<br />
+      END</a></p>
+          <p><a class="spoiler" id="spoiler_12" name="spoiler_12" href="#spoiler_12"> CHAIN
+                ~_BRILLA~ BrillaEddardDeath<br />
+          ~Then Eddard is dead? That's grievous news. Give me that pin
+          - I shall keep it in memory of my dear, dear step-son... ~<br />
+        == ~_BSKIE~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~No... no... Why have not you told me, &lt;CHARNAME&gt;? M-m-y brother...
+        o, no!~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~Hush, girl.~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~Wha... Skie? What are you doing?~<br />
+        == ~_SKIEJ~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~I.. I'm just er... popping out. Heh...~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~Hmph, dressed like a sewer rat, and with your pack on your shoulders?
+        Hardly, dear - You're running away, aren't you? ~<br />
+        == ~_SKIEJ~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~I... yes. I'm leaving. Er... will you tell my father?~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~Hmmm... tell him? Why, of course not! This is indeed a delightful
+        turn of events...~<br />
+        == ~_SKIEJ~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~Wha..?~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~My dear, you are but a pampered little rich girl. You whine when
+        you break a *nail*. Do you really think you'll be able to survive in the
+        big bad world? A finer example of goblin bait I've never seen.~<br />
+        = ~And when you do eventually fall by the road side, just like your brother,
+        *I* will be the one sitting on top of the Silvershield fortune.~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)
+        InParty(&quot;eldoth&quot;)~ THEN ~Now you run along - though... maybe
+        you could leave your friend, hmm? *smiles at Eldoth* ~<br />
+        == ~_SKIEJ~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)~
+        THEN ~ You... You BITCH!~<br />
+        == ~_SKIEJ~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)
+        InParty(&quot;eldoth&quot;)~ THEN ~Stay away from my Eldoth!~<br />
+        == ~_ELDOTJ~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)
+        InParty(&quot;eldoth&quot;)~ THEN ~Now, now, my dearest. We can hardly
+        hope to keep your... um... departure a secret, can we? Even from someone
+        so self-absorbed as your father? Let us, then, mount upon the wings of
+        Love and fly where they will take us. *Hugs Skie and winks at Brilla over
+        her shoulder.*~<br />
+        == ~_BRILLA~ IF ~InParty(&quot;skie&quot;) !Dead(&quot;skie&quot;) !StateCheck(&quot;skie&quot;,CD_STATE_NOTVALID)
+        InParty(&quot;eldoth&quot;)~ THEN ~Tee-hee! If I ever need a humorist to
+        brighten a dull evening, I know now where to apply. Take good care, sweetie!
+        *Skie snarls and drags Eldoth from the room.*~<br />
+        END<br />
+        IF ~~ THEN DO ~IF ~~ THEN DO ~TakePartyItem(&quot;X#SILSH&quot;)<br />
+        DestroyItem(&quot;X#SILSH&quot;))<br />
+        AddexperienceParty(3000)<br />
+        ActionOverride("brilla",EscapeArea())~<br />
+        EXIT<br />
+          </a> </p>
+       
+        <p><a class="spoiler" id="spoiler_13" name="spoiler_13" href="#spoiler_13">    EXTEND_BOTTOM ~_HOUSG3~ 0<br />
+        IF ~PartyHasItem(&quot;X#SILSH&quot;)~ THEN REPLY ~We bring news
+                for Lord and Lady Silvershield. We believe that we have found
+                news of their son. Any chance this pin is one of yours?~ GOTO
+                X#SilverGuardPass<br />
+      END</a></p>
+        <p><a class="spoiler" id="spoiler_14" name="spoiler_14" href="#spoiler_14"> APPEND
+              ~_HOUSG3~<br />
+        IF ~~ THEN BEGIN X#SilverGuardPass<br />
+        SAY ~I see you have the household Sigil. Please go to meet Lady
+        Silvershield directly. You can find her upstairs.~<br />
+        IF ~~ THEN EXIT<br />
+        END<br />
+        END</a> </p>
+    
+        <p>Exit stage right. The end. </p>
+    </div>
+
+
+
+</body>
+
+</html>

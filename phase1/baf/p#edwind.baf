@@ -1,0 +1,39 @@
+/* CONTENTS */
+/* Tiax fetches Edwin food */
+/* Edwin tries to talk Xan out of eating */
+
+/* Tiax fetches Edwin food */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#EdwinTiaxFood1","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("tiax")
+!StateCheck("tiax",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("tiax")
+THEN
+RESPONSE #100
+SetGlobal("X#EdwinTiaxFood1","GLOBAL",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("tiax")
+END
+
+/* Edwin tries to talk Xan out of eating */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#EdwinXanEating1","GLOBAL",0)
+InParty("xan")
+!StateCheck("xan",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("xan")
+THEN
+RESPONSE #100
+SetGlobal("X#EdwinXanEating1","GLOBAL",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("xan")
+END

@@ -1,0 +1,462 @@
+/* Kivan, Prism Dead (sculptor at Nashkel) */
+IF %BGT_VAR%
+AreaCheck("%NashkelMines%")
+Dead("prism")
+Global("X#KPD","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KPD","GLOBAL",1)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("X#KPD","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Shut Down Find Bandit's Global */
+IF %BGT_VAR%
+InParty(Myself)
+AreaCheck("%BanditCamp%")
+GlobalLT("FindBandits","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("FindBandits","GLOBAL",99)
+END
+
+/* Kivan, First Entry to Bandit Camp */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp%")
+GlobalLT("P#KivanTazok1","GLOBAL",2)
+Global("JoinedBandits","GLOBAL",0)
+Global("X#KFEBC","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KFEBC","GLOBAL",1)
+END
+
+/* Initiate Kivan, First Entry to Bandit Camp */
+IF %BGT_VAR%
+Global("X#KFEBC","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Kivan, See Tazok */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp%")
+See("tazok")
+!Dead("tazok")
+Global("P#KivanTazok1","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#KivanTazok1","GLOBAL",1)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("P#KivanTazok1","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Tazok Dead in Bandit Camp */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp%")
+Dead("tazok")
+Global("P#KivanTazok3","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#TazokDead","GLOBAL",1)
+SetGlobal("P#KivanTazok3","GLOBAL",1)
+SetGlobalTimer("X#TazokDead","GLOBAL",450)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("P#KivanTazok3","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* If Tazok dead */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp%")
+Dead("tazok")
+GlobalTimerExpired("X#TazokDead","GLOBAL")
+Global("X#TazokAlarm","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+CreateCreature("%tutu_var%BANDIT",[-1.-1],0)
+SetGlobal("X#TazokAlarm","GLOBAL",1)
+ActionOverride("bandit",StartDialogueNoSet(Player1))
+END
+
+/* Kivan, Bandit Camp, After Tazok’s escape */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp%")
+Global("X#KBCTE","GLOBAL",1)
+!Dead("tazok")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Kivan, Before the last Battle with Sarevok */
+IF %BGT_VAR%
+AreaCheck("%Undercity%")
+Global("X#KBLBWS","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KBLBWS","GLOBAL",1)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("X#KBLBWS","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Player1)
+END
+
+/* Kivan, Entry to Durlag’s Tower */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower_L1%")
+Global("X#KEDT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KEDT","GLOBAL",1)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#KEDT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Kivan, Entry to Baldur’s Gate */
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate%")
+Global("X#KEBG","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KEBG","GLOBAL",1)
+Dialogue(Myself)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("X#KEBG","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Kivan, Xvart Village You Slaughter Them A Number Of Them (AR4700) */
+IF %BGT_VAR%
+AreaCheck("%XvartVillage%")
+Dead("ursa")
+Global("X#KXVYSANOT","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KXVYSANOT","GLOBAL",1)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("X#KXVYSANOT","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Kivan, killed basilius */
+IF %BGT_VAR%
+AreaCheck("%RedCanyons%")
+GlobalLT("Chapter","GLOBAL",%tutu_chapter_4%)
+Dead("bassilus")
+!Dead("tazok")
+Global("P#KivanBass","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#KivanBass","GLOBAL",1)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("P#KivanBass","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Kivan Ankhegs */
+IF %BGT_VAR%
+AreaCheck("%FishingVillage%")
+Global("AnkhegCount","%FishingVillage%",1)
+Global("P#KivanAnkheg","GLOBAL",0)
+NumDead("ankheg",10)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#KivanAnkheg","GLOBAL",1)
+END
+
+/* Initiate  */
+IF %BGT_VAR%
+Global("P#KivanAnkheg","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Player1)
+END
+
+/* Kivan, Ender killed */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp_RaemonsTent%")
+Dead("Ender")
+Global("X#MontaronKillsEnder","GLOBAL",3)
+Global("P#KivanMontEnder","GLOBAL",0)
+InParty("montaron")
+!StateCheck("montaron",CD_STATE_NOTVALID)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#KivanMontEnder","GLOBAL",1)
+END
+
+/* Initiate  Kivan, Ender killed */
+IF %BGT_VAR%
+Global("P#KivanMontEnder","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Player1)
+END
+
+/* Dynaheir attacked */
+IF %BGT_VAR%
+  Global("X#KivanDynaheir","GLOBAL",1) //auto-set from Kivan interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KivanDynaheir","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END
+
+/* Gallor helped */
+IF %BGT_VAR%
+  Global("X#KivanHelpGallor","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KivanHelpGallor","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END
+
+/* Attack Ramazith */
+IF %BGT_VAR%
+  Global("X#KivanRamazith","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KivanRamazith","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Attack("ramazith")
+END
+
+/* Betray Abela */
+IF %BGT_VAR%
+  Global("X#KivanBetrayAbela","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KivanBetrayAbela","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END

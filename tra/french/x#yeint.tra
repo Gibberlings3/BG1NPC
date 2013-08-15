@@ -1,0 +1,142 @@
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 446, probablement inutile de traduire ici !
+@0     = ~Monstre dérangé... tu as transformé ma maison en chambre de torture ! MEURS, POURRITURE !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 206, probablement inutile de traduire ici !
+@1     = ~Tu connais au moins le nom d'un d'entre nous, mage - Yeslick Orothiar, moi-même, et ça m'rend malade de savoir que tu vas partager la même tombe que les miens. Prépare-toi pour les Enfers, Davaeorn !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 207, probablement inutile de traduire ici !
+@2     = ~Voyons, voyons... le fou s'est évadé, n'est-ce pas ? Voyons voir de qui la tombe va se remplir !~
+
+//Yeslick qui rencontre Rieltar à Chateausuif
+@3     = ~Les bonnes manières, c'est ça ? Comme la politesse de ne pas entrer chez un nain sans y être invité ? Ou la bienséance de ne pas piétiner la tombe d'autrui ? Et la simple politesse de ne pas enfermer quelqu'un pour le torturer pendant des jours alors, Rieltar ? C'est ça les bonnes manières que tu prônes ? C'est ça, mécréant ?~
+@4     = ~Yeslick ?!? Alors Bois-Manteau *a* échoué... Maudis sois-tu, Nain ! Cette bibliothèque vous garantit peut-être la sécurité mais je t'assure qu'une fois dehors, tu ne pourras plus te cacher.~
+@5     = ~C'est pas à ma sécurité que je pense en ce moment, vermine ! Je dis, dégaine ton épée maintenant, et par la volonté de Clangeddin, viens t'faire occire comme le chien que t'es ! A la charge, <CHARNAME> !~
+@6     = ~Non, Yeslick ! Ce n'est pas ainsi que vous vengerez qui que ce soit !~
+@7     = ~Nous sommes avec vous, Yeslick !~
+@8     = ~Oui... non... mais...~
+@9     = ~Je...~
+@10    = ~*soupir* Vous dites vrai, vous avez raison... aussi douloureux que ce soit pour moi de l'admettre. Rieltar... tu m'reverras, et alors ton heure sera venue.~
+@11    = ~Mon heure approche, nain... mais pas de la manière à laquelle tu penses. Et maintenant déguerpis, tant que tu as encore tes jambes !~
+@12    = ~Ah ! Si j'peux pas lui briser le crane, on ferait pt'être mieux de trouver les maîtres de c'lieu et de les faire arrêter ou jeter dehors - ça pourrait nous simplifier un peu la vie.~
+
+//Si Rieltar gagne et survit
+@13    = ~Voilà qui règle l'un de nos problèmes... Quant à vous, cette bibliothèque vous garantit peut-être la sécurité mais je vous assure qu'une fois dehors, vous ne pourrez plus vous cacher !~
+@14    = ~Votre heure approche, Rieltar. Le Trône de Fer ne gagnera pas !~
+@15    = ~Vous... vous avez tué Yeslick ! Préparez-vous à mourir, porc !~
+@16    = ~Alors vous avez quand même un peu de hargne en vous, hein ? Alors venez... vers votre mort !~
+@17    = ~Mon heure approche... mais pas de la manière à laquelle vous pensez. Et maintenant déguerpissez, tant que vous avez encore des jambes !~
+
+//Mort de Davaeorn
+@18    = ~Et le cruel bâtard est mort ! Une des dettes du Trône de Fer est acquittée... mais pas la dernière, loin de là. Allons, fouillons cet endroit. Davaeorn avait des maîtres, et ces maîtres ont rendez-vous avec un marteau de guerre que je détesterais qu'ils ratent.~
+
+//En remontant au premier niveau de la mine après la mort de Davaeorn
+@19    = ~Attendez un instant. Si nous pouvons, j'aimerais que nous libérions les esclaves du Trône avant de submerger à nouveau la mine. Nous devrions retourner à ma cellule... je pense qu'il y a là-bas quelqu'un en mesure de nous aider.~
+@20    = ~Il y a une possibilité de sauver ces pauvres hères ? Alors nous le ferons.~
+@21    = ~J'allais oublier... merci de me le rappeler, Yeslick. Redescendons au niveau inférieur !~
+@22    = ~Quelqu'un dans les cellules ? Bon... si vous en êtes sûr.~
+@23    = ~Cela impliquerait un pot-de-vin, Yeslick, et nous n'en avons pas les moyens. On ne peut pas.~
+@24    = ~On a suggéré un pot-de-vin, je crois... et ne crache pas de l'or pour de telles charités inutiles.~
+@25    = ~On ne peut pas les sauver, Yeslick.~
+@26    = ~Ah, mais c'est facile à résoudre ! Davaeorn devait cacher de l'or dans les parages... je suis sûr que si on peut le trouver, on aura assez pour marchander la liberté de ces pauvres âmes !~
+@27    = ~Quand bien même... je vous dis qu'on ne peut pas les sauver.~
+@28    = ~Oh, très bien ! Nous irons voir ce prisonnier dont vous avez parlé. Montrez le chemin...~
+@29    = ~Je ne vois rien en ces pathétiques esclaves qui vaille l'or que nous coûterait de les sauver.~
+@30    = ~Vous n'êtes pas sérieux... J'entends votre bourse cliqueter d'ici ! Comment pouvez-vous continuer à vous y accrocher plutôt que de sauver la vie de ces pauvres misérables ?~
+@31    = ~Mais... comment pouvons-nous inonder cette mine si nous ne libérons pas tous ces hommes ?~
+@32    = ~C'est la seule mine de fer en activité entre la Porte de Baldur et Nashkel, Yeslick... si nous l'inondons, nous pourrions provoquer une pénurie de fer sur la Côte des Epées, même si le Trône finit par revenir.~
+@33    = ~Tant qu'on s'en sort sans encombre, je ne vois pas le problème...~
+@34    = ~Oh, très bien ! Nous irons voir ce prisonnier dont vous parlez, si ça vous inquiète tant.~
+@35    = ~Ce n'est pas juste d'une mine qu'on parle là, il s'agit de la tombe de mon clan ! J'ai pas combattu et versé mon sang pour qu'elle soit de nouveau exploitée ! Personne ne creusera ici, jamais, plus jamais, peu importe la pénurie de fer, compris ?~
+@36    = ~Veuillez m'excuser pour mon manque de considération, Yeslick. Si vous insistez... ouvrez la voie.~
+@37    = ~Je m'excuse pour la souffrance indéniable de votre clan, Yeslick, mais nous devons nettoyer cet endroit et le rendre à nouveau exploitable !~
+@38    = ~Vous ne céderez pas ? Moi non plus. Mon honneur m'en empêche, quoi qu'il arrive. Je libérerai les esclaves moi-même dans ce cas, et quand le Trône reviendra sur la sépulture de mon clan, je les décimerai eux aussi... Allez, allez, partez, j'ai des crânes à détruire.~
+@39    = ~Je ne le tolèrerai pas ! Pas dans la tombe de mon clan ! Vous m'aiderez à les libérer ou, Clangeddin m'en soit témoin, je...~
+@40    = ~Oh, c'est bon, si ça vous empêche de râler. Allons voir ce prisonnier.~
+@41    = ~Qu'ils se noient tous, peu m'importe.~
+@42    = ~Si vous voulez vous battre, nain, ce sera avec plaisir !~
+@43    = ~Vous êtes aussi pourri qu'le Trône. Je ne le tolèrerai pas ! ... si vous ne les libérez pas, je le ferai moi-même, vous entendez ? Clangeddin ait pitié de vos âmes !~
+         ~Vous êtes aussi pourrie qu'le Trône. Je ne le tolèrerai pas ! ... si vous ne les libérez pas, je le ferai moi-même, vous entendez ? Clangeddin ait pitié de vos âmes !~
+@44    = ~On ne va donc pas libérer les esclaves ? Le Trône à toujours le contrôle de la mine !~
+@45    = ~Si, on y va !~
+@46    = ~Non. Nous y allons pas.~
+@47    = ~*soupir* Vous ne céderez pas ? Moi non plus. Mon honneur m'en empêche, quoi qu'il arrive. Je libérerai les esclaves moi-même dans ce cas, et quand le Trône reviendra sur la sépulture de mon clan, je les décimerai eux aussi... Allez, continuez votre route.~
+@48    = ~Allez au diable ! La tombe du clan résonne de tristesse et vous papillonnez ! Je ne le tolèrerai pas ! Je retourne la défendre, peu importe ce que vous pensez !~
+@49    = ~Vous êtes aussi pourri qu'le Trône. Je ne le tolèrerai pas ! ... Clangeddin ait pitié de vos âmes !~
+         ~Vous êtes aussi pourrie qu'le Trône. Je ne le tolèrerai pas ! ... Clangeddin ait pitié de vos âmes !~
+@50    = ~Attendez ! Il faut faire demi-tour et inonder la mine ! Une fois noyée à nouveau, on pourra dégager les rats du Trône et sceller la tombe de mon clan en plus ! Davaeorn avait la clé... allons, vite !~
+@51    = ~Il y a un moyen de noyer la mine ? Nous vous suivons !~
+@52    = ~J'avais presque oublié... merci de me le rappeler, Yeslick.~
+@53    = ~Vous ne céderez pas ? Moi non plus. Mon honneur m'en empêche, quoi qu'il arrive. Je libérerai les esclaves moi-même dans ce cas, et quand le Trône reviendra sur la sépulture de mon clan, je les décimerai eux aussi... Allez, continuez votre route.~
+@54    = ~Allons-nous inonder la mine, alors ? Le Trône pourrait revenir à tout moment et en reprendre possession !~
+@55    = ~*soupir* Vous ne céderez pas ? Moi non plus. Mon honneur m'en empêche, quoi qu'il arrive. Je libérerai les esclaves moi-même dans ce cas, et quand le Trône reviendra sur la sépulture de mon clan à nouveau, je les décimerai eux aussi... Allez, continuez votre route.~
+@56    = ~ Allez au diable ! La tombe de mon clan est grande ouverte et vous papillonnez ! Je ne le tolèrerai pas ! Je retourne la défendre, peu importe ce que vous pensez !~
+@57    = ~Laissez-moi quelques minutes de silence que je me remémore mon clan. Qu'ils reposent en paix dans leur tombe aquatique, loin des chiens du Trône de Fer.~
+@58    = ~Un travail accompli avec adresse, <CHARNAME>, vraiment.~
+
+//Yeslick découvre la Porte de Baldur
+@59    = ~Ah, la Porte de Baldur. La cité la plus fourmillante qu'on puisse trouver dans la région... et quelque part à l'intérieur, Rieltar attends mon marteau. C'est bon.~
+
+//Face à Rieltar
+@60    = ~Clangeddin exige vengeance, <CHARNAME> ! Pour le Clan Orothiar !~
+@61    = ~Ce n'est pas la manière de faire les choses ! Nous ne frapperons pas ces hommes qui ne se doutent de rien ! Nous ne sommes pas des assassins !~
+@62    = ~Nous sommes dans un monastère, Yeslick ! Répandre le sang est un crime puni de pendaison !~
+@63    = ~Cet endroit fut mon foyer... J'aimerais y voir le moins d'effusion de sang possible.~
+@64    = ~Mais... si nous les laissons partir maintenant, ils vont engager plus d'assassins et de gardes, et notre travail sera plus risqué - et mon clan ne connaît de repos chaque jour dont ce vaurien profite sans être puni !~
+@65    = ~Oui... oui, notre travail va être plus difficile. Et il est certain que Rieltar va engager tous les chasseurs de primes et moins-que-rien des Royaumes pour nous combattre. Car il est mauvais. Mais pas nous. Et nous gagnerons toujours, vous m'entendez ?~
+@66    = ~Votre clan refuserait que vous sacrifiez votre honneur en leur nom, Yeslick. Ils peuvent - tout comme nous- attendre pour la mort de cet homme.~
+@67    = ~Ne laissez pas la colère vous perdre, Yeslick !~
+@68    = ~Si vous le combattez, vous serez seul !~
+@69    = ~Par les dieux, vous avez raison ! Qui a besoin de tout ça ? Prépare-toi à mourir, Rieltar !~
+@70    = ~Je préfère tuer dans le feu de l'action que de sang froid comme *ce* vaurien ! La vengeance est arrivée, Rieltar ! POUR LE CLAN OROTHIAR !~
+@71    = ~Vous... vous n'allez pas m'aider ? Je... j'avais une plus haute estime de vous, <CHARNAME>, mais soit ! La vengeance est arrivée, Rieltar ! POUR LE CLAN OROTHIAR !~
+@72    = ~Ouais ! La vengeance est arrivée, Rieltar ! POUR LE CLAN OROTHIAR !!~
+@73    = ~*crache* Pourris en enfer, ordure de marchand ! Gloire à Clangeddin, mon travail est accompli, mes dettes ont été payées... et pas grâce à vous, <CHARNAME>, ni à aucun d'entre vous !~
+@74    = ~Ce que vous avez commis s'appelle un meurtre, Yeslick, purement et simplement.~
+@75    = ~De quoi vous plaignez-vous ? Vous vous êtes très bien débrouillé tout seul.~
+@76    = ~Ouais, ouais, bien sûr. Allez, retournez dans le groupe, on y va.~
+@77    = ~Peut-être. Mais *je* m'en vais, vous voyez ? J'ai accompli ma vengeance, j'ai plus aucune raison de traîner avec des poltrons et des lâches comme vous !~
+@78    = ~*crache* Pourris en enfer, ordure de marchand ! Gloire à Clangeddin, mon travail est accompli, mes dettes ont été payées... et Rieltar gît avec le crâne ouvert ! Merci, <CHARNAME>, et vous tous, pour ceci...~
+@79    = ~Je suis content que nous ayons rendu justice pour vous, Yeslick. Nous ferions mieux d'y aller, cependant.~
+@80    = ~j'espère que ceci passera pour de la justice là où finirez, Yeslick. Car pour moi, il s'agit d'un meurtre.~
+@81    = ~Espèce de dérangé ! Nous aurons de la chance si nous parvenons à sortir de la bibliothèque maintenant, sans parler des portes !~
+@82    = ~Ouais, ça ne ferait du bien à aucun d'entre nous de finir à nouveau en cellule... venez, allons trouver les maîtres de ces lieux et leur expliquer pourquoi nous avons fait ça.~
+@83    = ~Meurtre ? Nan, c'est de la justice, <CHARNAME>. Ce criminel a torturé, tué et semé la ruine pour rien d'autre que de l'or. Je dormirai sur mes deux oreilles le sachant mort. Vous devriez en faire autant. Maintenant, je pense que nous devrions trouver les responsables du monastère pour leur expliquer pourquoi nous avons fait ça, avant que les moines aient le temps de nous arrêter !~
+@84    = ~Que... que croyiez-vous que j'allais faire, <CHARNAME> ? Lui souhaiter une bonne journée ? Serrer la main de ce monstre ? Vous pensez qu'il ne m'aurait pas reconnu si je l'avais fait ? Ce rat nous aurait tous tués sans hésitation si nous nous étions tenus devant lui. Mieux vaut l'avoir tué maintenant plutôt que de nager dans une marée d'assassins d'ici à la Porte de Baldur ! Venez, nous ferions mieux d'expliquer aux responsables de cet endroit ce que nous avons fait et pourquoi.~
+@85    = ~Vous savez enfin quelle main a mis fin aux jours de Gorion, <CHARNAME>. Hâtons-nous, et retrouvons ce mécréant qui partage votre sang ! Votre Clan demande vengeance !~
+@86    = ~Mais s'il est mon frère... que disent les lois naines sur le fratricide ?~
+@87    = ~Mon 'clan' n'est plus qu'une simple affaire de sang, Yeslick.~
+@88    = ~Vous ne connaissiez pas Gorion. Il n'aurait pas voulu que je tue en son nom.~
+@89    = ~Maudite soit la vengeance. S'il est celui qui veut me faire obstacle, il mourra.~
+@90    = ~Vous avez raison, Yeslick. En avant !~
+@91    = ~Pour répondre à cela, je crois que la loi naine est la suivante : 'Ca fait rien de tuer ton frère si c'est un mauvais bâtard sans honneur qui tue des clans'. Ne vous en faites pas pour ça, <CHARNAME>. On va le tuer, lui et tous ceux qui se tiennent entre lui et nous... et on laissera les dieux se charger d'eux après.~
+@92    = ~c'est ce que nous allons faire dans ce cas !~
+@93    = ~Non... Gorion ne voudrait pas que je tue un homme en son nom, peu importe les circonstances.~
+@94    = ~Nous verrons ce qui se passe.~
+@95    = ~Allez-y, causez, <PRO_GIRLBOY>. Vous avez pt'être le sang d'un dieu dans vos veines, c'est vrai... et pt'être que Gorion était pas votre vrai père, après tout. Le sang reste plus important, mais par tous les dieux, il vous a donné un foyer, une éducation et il s'est battu pour vous. Il a tenu les promesses qu'il vous avait faites, même si vous ne les avez jamais entendues prononcées. C'est l'honneur qui vous lie et qui réclame vengeance, <CHARNAME> !~
+@96    = ~Vous dites la vérité. Qu'il en soit ainsi.~
+@97    = ~Non. Gorion n'aurait pas voulu que je tue en son nom.~
+@98    = ~Nous ferons ce qui s'impose.~
+@99    = ~Si vous le dites... Je me demande ce qu'il dirait s'il pouvait encore parler. Enfin, si ce Sarevok est le monstre que tout le monde craint, qu'il tient la Côte des Epées en son pouvoir, et qu'il est au centre de tout ce mal, <CHARNAME>... alors quoi ? Il ne mérite pas d'mourir ??~
+@100   = ~La seule chose qui compte maintenant, c'est notre héritage. Il veut la couronne du Dieu du Meurtre - il devra me passer sur le corps !~
+@101   = ~Oui... si c'est lui qui a fait tout ça, alors nous le tuerons - et l'enverrons dans les Abysses !~
+@102   = ~Vous ou moi ne pouvons juger de cela, Yeslick. Si je le tue, je le tue car il le faut... pas parce que j'en ai envie.~
+@103   = ~Il ne s'agit pas de le tuer. Il s'agit de sauver la vie des autres, Yeslick.~
+@104   = ~Vous croyez... ? Et bien, mes visions sont les visions de Clangeddin, mais... il me semble que vous avez beaucoup appris au cours de vos voyages, <CHARNAME>. Rappelez-vous de ceci... le vieux Yeslick et là, et il est fier de vous. Je serai à vos côtés quand le coup fatal tombera.~
+@105   = ~Votre voix a changé, <PRO_GIRLBOY>... et je vois une lumière inquiétante dans votre regard quand vous dites de telles choses. Ce pouvoir est-il tout ce qui vous intéresse à présent ? Je m'attendais à mieux. Attention... les mortels n'ont pas été mis sur cette terre pour convoiter de telles choses, et tous ceux qui ont essayé ont rencontré une mauvaise fin... ou ont obtenu ce qu'ils désiraient et en ont souffert.~
+@106   = ~Je... je suis désolé. Je veux juste empêcher Sarevok d'accomplir la prophétie. Mais l'essence est en moi... je ne sais pas ce qui va se produire.~
+         ~Je... je suis désolée. Je veux juste empêcher Sarevok d'accomplir la prophétie. Mais l'essence est en moi... je ne sais pas ce qui va se produire.~
+@107   = ~Je pense que c'est ma destinée, Yeslick, que vous l'aimiez ou non. Et si ça l'est, je ne me défilerai pas.~
+@108   = ~Votre sagesse n'est rien d'autre que de la témérité. Je prendrai ce que je peux - je ne vais pas laisser passer cette chance !~
+@109   = ~*soupir* Qu'il en soit ainsi. Rappelez-vous de ceci alors,<CHARNAME>, quand vous commencerez le combat... le vieux Yeslick sera là, il fera ce qu'il y a de mieux pour vous. Peu importe ce que cela peut être...~
+
+//Dans les niveaux inférieurs de la tour de Durlag
+@110   = ~Par Clangeddin... Je... je n'aurais jamais pensé voir...~
+@111   = ~Ca va aller, Yeslick ?~
+@112   = ~Quoi ? Que voyez-vous, Yeslick ? Un danger ?~
+@113   = ~Certains d'entre nous essaient de se concentrer, Yeslick. Taisez-vous.~
+@114   = ~Ouais, ouais, ça va bien. Mais cet endroit lui, ne va pas. Il empeste la tristesse... elle est partout. C'est comme un charnier à ciel ouvert. Je ne pensais jamais retrouver un endroit qui me rappellerait tant la maison.~
+@115   = ~Un danger ? Nan... je vois bien plus que ça. L'architecture des passages, excellente... les gravures sur les murs, artistiques... les os sur le sol, nains... et la tristesse. C'est partout, ce lieu en empeste. Comme un charnier à ciel ouvert. Cet endroit me rappelle... la maison.~
+@116   = ~Oh, oh, restons calme. Encore les élucubrations du vieux nain, ne vous inquiétez pas. Continuez de marcher.~
+@117   = ~Restez sur le qui-vive, vieux nain ! D'accord ?~
+@118   = ~Je suis désolé, Yeslick. Les endroits comme celui-ci me mettent sur les nerfs.~
+         ~Je suis désolée, Yeslick. Les endroits comme celui-ci me mettent sur les nerfs.~
+@119   = ~Gardez vos yeux sur le chemin d'vant vous, d'accord ? J'm'occupe de moi, merci bien. *grommelle*~
+@120   = ~*soupire* Je peux le comprendre, <CHARNAME>. Cet endroit empeste de tristesse. Comme un charnier à ciel ouvert. Cet endroit... me rappelle la maison.~

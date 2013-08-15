@@ -1,0 +1,55 @@
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+Shout(99)
+Enemy()
+END
+
+IF
+HitBy([GOODCUTOFF],CRUSHING)
+THEN
+RESPONSE #100
+Shout(99)
+Continue()
+END
+
+IF
+Heard([ANYONE],99)
+Allegiance(Myself,NEUTRAL)
+!Class(Myself,INNOCENT)
+THEN
+RESPONSE #100
+Enemy()
+MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+Heard([ANYONE],99)
+Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+Enemy()
+END
+
+IF
+Heard([ANYONE],99)
+!Class(Myself,INNOCENT)
+!See(NearestEnemyOf(Myself))
+THEN
+RESPONSE #100
+MoveToObject(LastHeardBy(Myself))
+Continue()
+END
+
+IF %BGT_VAR%
+InParty("skie")
+Global("X#SkieJessup","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#SkieJessup","GLOBAL",1)
+MoveToObject("skie")
+Dialogue("skie")
+END
+

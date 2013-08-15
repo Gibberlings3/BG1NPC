@@ -1,0 +1,231 @@
+/* CONTENTS */
+/* Dream timer */
+/* Friend talks */
+///* Friend talk timer */
+///* Friend talk */
+///* Bhaal talk */
+///* Low rep */
+///* Medium rep */
+///* High rep */
+/* Ajantis quarrel */
+
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* Friend talks */
+///* Friend talk timer */
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+Global("X#TiLowReputation","GLOBAL",0)
+Global("X#TiMedReputation","GLOBAL",0)
+Global("X#TiHighReputation","GLOBAL",0)
+Global("X#TiBhaal","GLOBAL",0)
+Global("X#TiLeader","GLOBAL",0)
+Global("X#TiFriendTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#TiFriendTalkTime","GLOBAL",1800)
+SetGlobal("X#TiFriendTimerStarted","GLOBAL",1)
+END
+
+///* Friend talk */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#TiFriendTalkTime","GLOBAL")
+Global("X#TiLeader","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#TiLeader","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TiLeader","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("tiax99")
+StartDialogueNoSet(Player1)
+END
+
+///* Bhaal talk */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#TiFriendTalkTime","GLOBAL")
+Global("P#KnowBhaal","GLOBAL",1)
+Global("X#TiBhaal","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#TiBhaal","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TiBhaal","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("tiax99")
+StartDialogueNoSet(Player1)
+END
+
+///* Low rep */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#TiFriendTalkTime","GLOBAL")
+ReputationLT(Player1,6)
+Global("X#TiLowReputation","GLOBAL",0)
+!Global("X#TiMedReputation","GLOBAL",2)
+!Global("X#TiHighReputation","GLOBAL",2)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#TiLowReputation","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TiLowReputation","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("tiax99")
+StartDialogueNoSet(Player1)
+END
+
+///* Medium rep */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#TiFriendTalkTime","GLOBAL")
+!ReputationLT(Player1,6) !ReputationGT(Player1,18)
+!Global("X#TiLowReputation","GLOBAL",2)
+Global("X#TiMedReputation","GLOBAL",0)
+!Global("X#TiHighReputation","GLOBAL",2)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#TiMedReputation","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TiMedReputation","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("tiax99")
+StartDialogueNoSet(Player1)
+END
+
+///* High rep */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#TiFriendTalkTime","GLOBAL")
+ReputationGT(Player1,18)
+!Global("X#TiLowReputation","GLOBAL",2)
+!Global("X#TiMedReputation","GLOBAL",2)
+Global("X#TiHighReputation","GLOBAL",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("X#TiHighReputation","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TiHighReputation","GLOBAL",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("tiax99")
+StartDialogueNoSet(Player1)
+END
+
+/* Ajantis quarrel */
+IF %BGT_VAR%
+PartyRested()
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#TIAJ2","LOCALS",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InParty("ajantis")
+See("ajantis")
+!StateCheck("ajantis",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#TIAJ2","LOCALS",1)
+END
+
+IF %BGT_VAR%
+Global("X#TIAJ2","LOCALS",1)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InParty("ajantis")
+See("ajantis")
+!StateCheck("ajantis",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("tiax99")
+StartDialogueNoSet(Player1)
+END

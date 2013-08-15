@@ -1,0 +1,29 @@
+IF %BGT_VAR%
+RealGlobalTimerExpired("P#CRoReactionTime","GLOBAL")
+Global("P#CoRomReaction","GLOBAL",1)
+!Global("P#CoranRomanceInactive", "GLOBAL",1)
+Global("P#CoranMatch","GLOBAL",1)
+GlobalGT("P#CoranLover","GLOBAL",0)
+Global("P#CRVI2","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+InParty("coran")
+!StateCheck("coran",CD_STATE_NOTVALID)
+See(Player1)
+CombatCounter(0)
+!See([ENEMY]) 
+THEN
+RESPONSE #100
+SetGlobal("P#CRVI2","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("P#CRVI2","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+Interact(Player1)
+END

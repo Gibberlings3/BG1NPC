@@ -1,0 +1,845 @@
+/* Gardien du Portail de Château-Suif, refus de laisser entrer sans livre */
+@0     = ~Mais, Gardien ! Gorion et <CHARNAME> ont été attaqués juste à l'extérieur de la citadelle, près de la Voie Côtière. Gorion... il... il est mort. <CHARNAME> a tout juste réussi à s'enfuir. J'ai tout vu !~
+@1     = ~Vous ne croyez pas que vous pourriez faire une exception ? Vous connaissez <CHARNAME> depuis des années !~
+// Isaya : "très grand Ulraunt" repris de @255 dans le fichier de BG
+@2     = ~Je... Je suis attristé d'apprendre la mort de Gorion, <CHARNAME>. Votre père était un homme bon et mon ami. Je vais informer le très grand Ulraunt et Téthtoril de sa disparition. Ce sont de graves nouvelles en effet. Néanmoins j'espère vraiment que vous comprenez que je ne peux tout simplement pas vous permettre d'entrer, <CHARNAME>. J'ai les mains liées sur ce point.~
+@3     = ~Votre aide me serait précieuse. Je n'ai pas de foyer ni de tuteur, et je dois me rendre à l'auberge de Brasamical.~
+@4     = ~Je n'arrive pas à croire que vous ne me laissiez pas revenir. Au moins, laissez entrer Imoen... Je ne veux pas qu'elle me suive.~
+@5     = ~Vous n'avez pas le droit de me barrer le chemin.~
+@6     = ~Je pense que Gorion aurait souhaité être enterré à Château-Suif. Pourriez-vous vous en occuper ?~
+// Pas de trace de "golden way" dans le jeu, la route vers Château-Suif s'appelle "Lion's way"
+@7     = ~Je vais retourner sur la Voie du Lion pour enterrer moi-même mon mentor. Néanmoins, Imoen veut peut-être rester ici. Le lui permettrez-vous, si elle le souhaite ?~
+@8     = ~Nous enverrons une équipe à la recherche de Gorion et il sera inhumé dignement. J'aurais souhaité pouvoir faire plus pour vous aider...~
+@9     = ~Peut-être puis-je vous aider dans la mesure de mes moyens. Tenez, prenez ça s'il vous plaît. Ce n'est pas grand-chose mais j'espère que ça vous sera utile.~
+@10    = ~Cependant, toi, Imoen, tu es libre d'entrer si tu le souhaites. Winthrop est vraiment inquiet de ta disparition.~
+// D'après mon dico, "old prénom" se traduirait par "Le ou La prénom". J'ai traduit "can" à la façon du nord ;-)
+@11    = ~Oh, non ! <CHARNAME> et moi sommes ensemble dans cette histoire, quoi qu'il advienne ! « Gros-plein-de soupe » a ma lettre. Et il m'a appris un truc ou deux... L'Imoen sait éviter les ennuis.~
+@12    = ~Dites-lui que je l'aime, malgré tout, d'accord ? Et dites-lui de ne pas s'inquiéter à propos de ma p'tite personne.~
+@13    = ~Je le lui dirai, Imoen. Faites attention à vous, tous les deux. Et <CHARNAME> ? Méfiez-vous des étrangers et ne soyez pas trop empressé à révéler votre nom. Juste un petit conseil. Bons voyages, en sécurité.~
+         ~Je le lui dirai, Imoen. Faites attention à vous, toutes les deux. Et <CHARNAME> ? Méfiez-vous des étrangers et ne soyez pas trop empressée à révéler votre nom. Juste un petit conseil. Bons voyages, en sécurité.~
+/* Duchesse Liia, demandant à traquer Sarevok */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 249, probablement inutile de traduire ici !
+@14    = ~Quoi qu'tu décides, chuis avec toi, <CHARNAME> !~
+/* Gallor, lorsqu'on a refusé de tuer Nib et les travailleurs */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 536, probablement inutile de traduire ici !
+@15    = ~Hum, cet homme m'a donné la chair de poule. Je veux dire, vider une poche, c'est une chose, mais tuer une douzaine de travailleurs pour voler quelque stupide artefact, c'est... horrible !~
+/* Angelo, qui s'annonce comme juge, juré et bourreau */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 260, probablement inutile de traduire ici !
+@16    = ~Hé, arrière ! Nous n'avons rien fait de mal !~
+/* Varci, quand on accepte d'aller voir le prêtre pour en savoir davantage */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 899, probablement inutile de traduire ici !
+@17    = ~Je suis contente que tu aies accepté de l'aider, <CHARNAME>. Par Mask, combien de fois ai-je espéré que quelqu'un me tire d'affaire, moi, quand j'avais l'âge de Varci !~
+/* Ardrouine, après qu'elle ait dit que son enfant avait eu aussi peur du groupe que des worgs */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 279, probablement inutile de traduire ici !
+@18    = ~Oh, désolée d'avoir effrayé votre fils et pour tout, madame. J'espère qu'il va bien. Dites-lui que certains aventuriers font de bonnes choses, comme aider d'autres gens dans le besoin.~
+/* Spen Gil'meh, qui met en garde contre le danger mortel de Flammevin pour les inexpérimentés */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 539, probablement inutile de traduire ici !
+@19    = ~Le Pont de Flammevin... ce nom m'est familier... où l'ai-je entendu ? Hum... En tout cas, les ruines sont TOUJOURS pleines de trésors. Et puisque nous sommes des aventuriers expérimentés, nous n'avons rien à craindre. Allons là-bas un de ces jours.~
+/* Perleflamme Cheveux-d'Elfe, qui a reconnu <CHARNAME>, l'enfant de Château-Suif, et lui demande de lui trouver un livre */
+@20    = ~Salut, M. C ! Vous vous souvenez de moi ? Je suis le *second* enfant de Château-Suif. Nous allons vous trouver votre livre, pas de problème...~
+@21    = ~Imoen ! Content de vous voir, jeune fille ! Pardonnez-moi de ne pas vous avoir reconnue immédiatement ; mais qu'est-ce que vous avez changé !~
+@22    = ~Pour sûr, monsieur ! Plus de tablier ni de coiffe pour Imoen la Magnifique. Bon, à moins que quelqu'un ne m'offre la horde de trésor d'un dragon pour que j'en porte.~
+@23    = ~Nous allons vous trouver votre livre, pas de problème, M. C...~
+@24    = ~Ça fait plaisir de voir un visage familier, hein, <CHARNAME> ?~
+/* Raléo Lancebrise */
+@25    = ~Une chose que j'ai apprise, c'est qu'on entend davantage d'histoire intéressantes sur la route qu'en restant dans une auberge. *soupir* Quand je euh... demeurais à l'auberge, dès qu'un voyageur venu de loin commençait une bonne histoire, tous les autres réclamaient de la bière et à manger... et je n'entendais jamais l'histoire dans son intégralité. Il me fallait combler tous les morceaux manquants toute seule.~
+/* Silke, si en raison de la mauvaise réputation du groupe, elle dit du mal de Garrick : Imoen puis réplique de Silke */
+@26    = ~Tout sauf malin ?! Eh ben, il est bon d'aller à l'aventure avec des amis ! En tout cas vous ne me traiteriez pas de 'tout sauf maligne' en vous en tirant comme ça !~
+@27    = ~Gamine, ton bavardage me donne mal à la tête.~
+/* Silke, si elle parle de 'son petit Garrick' */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 868, probablement inutile de traduire ici !
+@28    = ~Garrick n'est pas petit ! C'est une bonne chose que vous soyez une actrice et non une peintre ; ç'aurait été un problème d'être aveugle, hein. Parc'que si ne vous voyez pas par vous-même combien il est grand, vous êtes certainement aveugle !~
+/* Garrick, quand il propose de rejoindre le groupe */
+// Isaya ; j'ai choisi le vouvoiement pour Garrick, tant qu'il n'est pas dans le groupe : il tutoiera Imoen ensuite selon le tableau (c'est une des rares qu'il tutoie)
+@29    = ~Bien sûr !~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 689 (absence de "I mean, " dans ict3)
+@30    = ~Je veux dire, <CHARNAME>, il peut se joindre à nous, pas vrai ? *glousse* Il est mignon, et c'est un vrai barde ! Il faut bien que quelqu'un écrive des ballades sur ma beauté et mon courage, tu sais ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 690, probablement inutile de traduire ici !
+@31    = ~Vous... vous pensez vraiment que je suis... euh... mignon ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 687, probablement inutile de traduire ici !
+@32    = ~Ouais, c'était vraiment un sale tour, ce qu'elle a amené <CHARNAME> à faire !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 688, probablement inutile de traduire ici !
+@33    = ~Tu seras beaucoup mieux avec nous...~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 689, probablement inutile de traduire ici !
+@34    = ~<CHARNAME>, il peut se joindre à nous, pas vrai ? *glousse* Il est mignon, et c'est un vrai barde ! Il faut bien que quelqu'un écrive des ballades sur ma beauté et mon courage, tu sais ?~
+/* Jaheira */
+// Isaya : dans BG, on peut parfaitement déclencher le dialogue de Khalid et Jaheira avec Montaron et obtenir ainsi une intervention masculine pour "je vais me débrouiller seul" avec un PJ féminin. J'évite donc d'utiliser un accord qui risque fort d'être bancal, au détriment d'une traduction fidèle par endroit.
+@35    = ~N'est-ce pas formidable, <CHARNAME> ? Nous avons réussi à traverser la forêt pleine de grouilleux et de loups et maintenant nous rencontrons de *véritables* aventuriers ! Les choses s'améliorent !~
+@36    = ~Hé, Tatie Jaheira, je suis Imoen ! Une amie de <CHARNAME>... En réalité, plutôt un ange gardien qu'une amie, tu vois ? Qui s'occupe de son bien-être, et tout et tout.~
+@37    = ~En général les aventuriers ne s'appellent pas 'tatie' entre eux, Imoen. Mais assez de distractions. Gorion t'a mentionnée dans sa correspondance, louant ton amitié rapide avec son enfant. Tu es la bienvenue pour nous accompagner.~
+/* Garde de Brasamical, interrogeant sur la connaissance des règles de conduite */
+@38    = ~Nan ! Mais d'après votre aspect, elles doivent pencher du côté horriblement ennuyeux !~
+/* Joïa, qui propose de tuer les hobgobelins et de récupérer son anneau */
+@39    = ~Pour sûr que nous allons écraser quelques têtes pour vous ! Si vous voulez, nous pouvons forcer ces hobgobelins à revenir vers vous et à vous dire qu'ils sont navrés d'avoir pris l'anneau de votre père.~
+/* Joïa, qui trouve les manières de CHARNAME trop bonnes peut-être pour cogner, d'où moquerie d'Imoen */
+// Isaya : comme le groupe initie le dialogue, l'accord se fera sur le sexe du personnage qui parle, pas sur CHARNAME. Pour "my good <PRO_LADYLORD>", la traduction de "good" en "aimable" permet d'imposer un "mon" commun aux deux sexes.
+@40    = ~*vous bourre les cottes* Notre finesse n'est pas appréciée à sa juste valeur par ici, mon aimable <PRO_LADYLORD>.~
+/* Chase */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 530, probablement inutile de traduire ici !
+// Isaya : Beaucoup de contournement à cause du PRO_HIMHER inutilisable et de l'impossibilité d'utiliser la déclinaison féminine puisqu'on n'est pas sûr que ce soit le PJ qui engage la conversation
+@41    = ~Hé, vous savez quoi ? On vient juste de chasser <CHARNAME>, là, de sa maison d'enfance, sans un sou, et des monstres ont tué son père. Si quelqu'un ici devait sauter de la falaise, ce serait plutôt <CHARNAME> ! Et est-ce que vous voyez qu'<PRO_HESHE> cherche à le faire ? Alors quel est votre problème ?~
+@42    = ~Eh ben. Quel drôle de type !~
+@43    = ~Je suis contente que tu aies essayé de le dissuader, <CHARNAME>, même s'il cherchait juste à attirer l'attention.~
+@44    = ~Tu aurais au moins pu essayer de le dissuader, <CHARNAME>, même s'il cherchait juste à attirer l'attention.~
+/* Binkos */
+// Isaya : hypothèse : Imoen et CHARNAME (femme) sont encore seules, donc version féminine
+@45    = ~Une autre caravane attaquée ?! Waouh, ce n'est pas bon ! Tu t'souviens de ces Poings Enflammés qui sont passés à Château-Suif la semaine dernière ? Ils ont dit qu'il en manquait au moins deux ! Je pense que nous devrions ouvrir l'oeil, ou nous serons tués pour un rien par des bandits !~
+         ~Une autre caravane attaquée ?! Waouh, ce n'est pas bon ! Tu t'souviens de ces Poings Enflammés qui sont passés à Château-Suif la semaine dernière ? Ils ont dit qu'il en manquait au moins deux ! Je pense que nous devrions ouvrir l'oeil, ou nous serons tuées pour un rien par des bandits !~
+@46    = ~Pourtant, c'est excitant... Des caravanes, des bandits, la route... comme une aventure dans un livre !~
+/* Kolssed */
+// Le script de Kolssed fait qu'il parle à CHARNAME, donc adaptation au sexe du PJ
+@47    = ~Salut, je suis Imoen et voici mon ami <CHARNAME>. Nous venons de quitter Château-Suif et nous nous lançons dans une grande aventure pour venger ce grand mage et tout et tout... hum, <CHARNAME>, pourquoi restes-tu planté là la bouche aussi fermée qu'un coquillage quand la marée est basse ? Tu en sais plus que moi sur le combat, de toute façon. Alors raconte-le ! C'est ce que les aventuriers font ! Les célèbres, en tout cas. Ou sinon comment se retrouveraient-ils dans les chansons de barde ?~
+         ~Salut, je suis Imoen et voici mon amie <CHARNAME>. Nous venons de quitter Château-Suif et nous nous lançons dans une grande aventure pour venger ce grand mage et tout et tout... hum, <CHARNAME>, pourquoi restes-tu plantée là la bouche aussi fermée qu'un coquillage quand la marée est basse ? Tu en sais plus que moi sur le combat, de toute façon. Alors raconte-le ! C'est ce que les aventuriers font ! Les célèbres, en tout cas. Ou sinon comment se retrouveraient-ils dans les chansons de barde ?~
+@48    = ~Tu l'as entendu ? 'des compagnons qui vous ressemblent' ! Il doit s'agir de moi ! Tu te débrouilles bien, bien que tu sois plus bête que les murs de Château-Suif ! Imoen la Magnifique finira bien par faire de toi un aventurier !~
+         ~Tu l'as entendu ? 'des compagnons qui vous ressemblent' ! Il doit s'agir de moi ! Tu te débrouilles bien, bien que tu sois plus bête que les murs de Château-Suif ! Imoen la Magnifique finira bien par faire de toi une aventurière !~
+/* Elminster, juste après le départ de Château-Suif */
+// Le script d'Elminster fait qu'il parle à CHARNAME, donc adaptation au sexe du PJ possible
+// Isaya : l'introduction d'Elminster est bourrée de "thou", "thy" et "thee", non retranscrits. Bref réplique intraduisible telle quelle. J'ai laissé Imoen la Magnifique répondre à celui qui cherchait de la conversation...
+@49    = ~Eh, si c'est de la conversation brillante que vous cherchez, vous ne pouviez pas mieux tomber... Hum... En tout cas, je ne suis ni désespérée ni dérangée. Je suis excitée ! Je vais devenir une aventurière célèbre, comme Elminster !~
+@50    = ~*sourit dans sa barbe* Vous êtes une fille pleine d'entrain, Imoen. Qu'en est-il de votre compagnon ?~
+         ~*sourit dans sa barbe* Vous êtes une fille pleine d'entrain, Imoen. Qu'en est-il de votre compagne ?~
+@51    = ~Attendez, attendez ! Comment connaissez-vous mon nom ?~
+@52    = ~On peut acquérir ce genre de connaissance de bien des façons, mon enfant. Mais laissez parler celui qui est silencieux.~
+         ~On peut acquérir ce genre de connaissance de bien des façons, mon enfant. Mais laissez parler celle qui est silencieuse.~
+/* Xzar */
+// Suite à proposition des potions de guérison
+@53    = ~Psssit, <CHARNAME>, le mage parle d'une voix mielleuse, mais je ne sais pas... je n'aime pas du tout ses yeux !~
+// Après avoir accepté d'aller à Nashkel
+@54    = ~Hum, <CHARNAME>, ne devrions-nous pas aller à l'auberge de Brasamical d'abord ? Nous devrions probablement trouver les amis de Gorion, comme il souhaitait que tu fasses.~
+// Xzar accepte d'aller d'abord retrouver ces amis (les deux phrases à la suite)
+@55    = ~Je n'aime pas l'aspect de ces deux types, <CHARNAME>. Non. Je n'aime pas. Pas du tout.~
+@56    = ~Allons à l'auberge de Brasamical bientôt, hein ? J'aimerais qu'il y ait quelques personnes en qui je peux avoir confiance qui voyagent avec nous.~
+/* Aöln */
+@57    = ~Hé, grognon... nous n'étions pas du tout en train de crier. Nous sommes des aventuriers et nous comprenons ces choses, vous savez. Dis-le lui, <CHARNAME>.~
+/* Winthrop */
+// Isaya : dialogue initié par le groupe, donc sexe indéterminé, pas d'accord au féminin possible pour le PJ
+@58    = ~Par les neuf enfers, que c'est bon de rentrer à la maison ! Winthrop, mon vieux !~
+@59    = ~Et toi, p'tite demoiselle, tu me dois une longue explication, pour tous les soucis que je me suis fait quand tu t'es enfuie !~
+@60    = ~Oui... *ses yeux s'emplissent de larmes* Je sais... Oh, bon sang, je suis si contente de te voir, « Gros plein de soupe » !~
+// Isaya : "ce rasoir", repris de la proposition de Graoumf, pour avoir un terme neutre
+@61    = ~« Gros-plein-de soupe », <PRO_HESHE> n'a pas changé d'un pouce ! Et nous avons fait... tellement de choses... Je promets que je viendrai te dire tout ce que ce rasoir aurait oublié !~
+@62    = ~J'y compte bien, ma chérie, je compte bien que tu le fasses.~
+// <PRO_HIMHER> n'est pas exploitable en français, utilise <CHARNAME> à la place
+@63    = ~*glousse* C'est vraiment drôle de voir <CHARNAME> marcher à une blague innocente... Comme au bon vieux temps...~
+/* Hull */
+@64    = ~Oh, Hull, il s'est passé tant de choses depuis... aussi bien bonnes que mauvaises... mais rien n'a été pire que l'assassinat de ce bon vieux Gorion. <CHARNAME>, je pense que nous devrions trinquer à sa mémoire, tant que nous sommes ici à Château-Suif avec nos amis.~
+/* Fuller */
+// Isaya : traduction adaptée pour reprendre les termes différents employés par Fuller dans le jeu
+@65    = ~Rien à dire ?! Des milliers d'histoires à raconter, plutôt ! Les choses que nous avons vues et faites... pourraient exciter même Nessa !~
+@66    = ~Nous savons très bien ce que nous faisons ! Et crois-moi, Fuller, ces gens du Trône de Fer sont les méchants dans cette histoire !~
+/* Ardrouine */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 65, probablement inutile de traduire ici !
+@67    = ~Pauvre gamin. Je pense que nous devrions aller l'aider. Cela me rappelle quand nous étions enfants à Château-Suif et que tu te sauvais, de peur des chiens, quand ils aboyaient.~
+ /* Arkushule */
+ // Quand elle refuse le paiement, effrayée par ce qu'elle a vu
+@68    = ~Quel genre de malade demanderait de l'or puis s'enfuirait comme une folle quand on lui offre de l'argent ?~
+// Quand on insiste pour qu'elle révèle ce qu'elle a vu mais qu'elle refuse et devient hostile
+@69    = ~Bon sang, quel est son problème ? Je n'arrive pas à croire qu'elle s'énerve autant pour ne pas te parler de ton passé et de tout le reste. Pourquoi finit-elle par nous attaquer, au lieu de simplement s'enfuir ?~
+/* Bentan, quand le prêtre part après qu'on ait prétendu que tout le groupe vénérait Ilmater */
+// Bentan ne s'adresse pas spécifiquement au PJ, donc l'accord ne se fait pas forcément sur le sexe du PJ (choisir une formulation neutre)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 457, probablement inutile de traduire ici !
+@70    = ~Attends un peu, <CHARNAME> ! Depuis quand es-tu adepte du Dieu Pleureur ? Qui plus est, depuis quand tu te permets de dire que nous sommes *tous* adeptes d'Ilmater ? Je ne le suis certainement pas ! Mais... euh... si ça te chante.~
+/* Borda */
+// S'adresse spécifiquement au PJ, donc l'accord se fera bien sur le sexe du PJ
+// Si on a choisi la potion de grand soin (qui rend sâoul) ou des parchemins maudits
+// Isaya : Imoen insiste sur le fait qu'elle pourrait éviter au PJ de se faire arnaquer s'il la consultait
+@71    = ~*frappe <CHARNAME> sur la tête* Idiot ! Pourquoi ne m'as-tu pas consultée d'abord ? Tu n'as pas pensé une seule seconde qu'il pourrait essayer de t'arnaquer ? Qui mieux que moi pourrait le savoir, après tout.~
+         ~*frappe <CHARNAME> sur la tête* Idiote ! Pourquoi ne m'as-tu pas consultée d'abord ? Tu n'as pas pensé une seule seconde qu'il pourrait essayer de t'arnaquer ? Qui mieux que moi pourrait le savoir, après tout.~
+// Idem, mais si CHARNAME est lui-même de classe voleur
+@72    = ~*frappe <CHARNAME> sur la tête* Idiot ! Pourquoi as-tu acheté ça ? Tu es stupide ou quoi ? Tu n'as pas pensé une seule seconde qu'il pourrait essayer de t'arnaquer ? Et ça après avoir fanfaronné quel voleur astucieux tu étais, et tout !~
+         ~*frappe <CHARNAME> sur la tête* Idiote ! Pourquoi as-tu acheté ça ? Tu es stupide ou quoi ? Tu n'as pas pensé une seule seconde qu'il pourrait essayer de t'arnaquer ? Et ça après avoir fanfaronné quelle voleuse astucieuse tu étais, et tout !~
+/* Carsa */
+// Quand elle s'enfuit si on a refusé de l'aider : A REVOIR sens argotique de "creepy"
+@73    = ~J'en ai la chair de poule...~
+// Quand Kark est invoqué et tue Carsa
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 609, probablement inutile de traduire ici !
+@74    = ~Waouh ! Voilà de la magie qui donne vraiment froid dans le dos !~
+/* Charleston Nib */
+// Demande à ce que l'idole soit laissée ou remise dans le sarcophage, après la mort des travailleurs possédés
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 618, probablement inutile de traduire ici !
+@75    = ~Pouah ! J'ai mal à la tête rien qu'en essayant de comprendre ce que vous dites à propos de ce... Kozah. Mais, euh, je suppose que c'était un dieu mauvais et que cet endroit a quelque chose à voir avec lui, comme un temple, n'est-ce pas ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 619, probablement inutile de traduire ici !
+@76    = ~Oui. Dans le fond vous avez raison. Où voulez-vous en venir ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 620, probablement inutile de traduire ici !
+@77    = ~Alors ces travailleurs que nous venons de tuer nous ont attaqués à cause de lui ou de quelque chose d'autre, pas vrai ? Eh bien, comment se fait-il qu'aucun d'entre nous n'ait été affecté, hein ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 621, probablement inutile de traduire ici !
+@78    = ~Je suis incapable de répondre à votre question. Nous savons peu de choses sur cette culture et c'est pour cela que j'effectuais des recherches. Je doute d'avoir un jour une réponse à vous donner, Imoen.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 620, probablement inutile de traduire ici !
+@79    = ~Alors ces travailleurs que nous venons de tuer nous ont attaqués à cause de lui ou de quelque chose d'autre, pas vrai ? Eh bien, comment se fait-il qu'aucun d'entre nous n'ait été affecté, hein ?~
+/* Chloé */
+@80    = ~Waouh, nous sommes célèbres, <CHARNAME> !~
+/* Davaëorn */
+// Après son mépris affiché envers le groupe, si Imoen n'est pas devenue mage
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 209, probablement inutile de traduire ici !
+@81    = ~Par la fortune de Tymora, mais vous êtes un sale type ! Quand je pense que je voulais devenir mage ! Brr...~
+/* Destus Gurn */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 217, probablement inutile de traduire ici !
+@82    = ~*se frotte la tête* J'ai mal à la tête, à écouter ce type. Je croyais que nous avions laissé tous ces discours ennuyeux à Château-Suif.~
+/* Dra'tan : échanges d'Imoen avec le PJ */
+@83    = ~Ça me donne la chair de poule. Je ne veux absolument pas que quiconque me copie ! Je suis la seule autorisée à être Imoen, après tout.~
+// Réponses à @83
+@84    = ~Ouais. Une comme toi est plus que suffisante.~
+@85    = ~Ne t'inquiète pas. Qui voudrait te copier, de toute façon ?~
+@86    = ~Ne t'en fais pas. Je ne laisserai pas cela se produire.~
+// Après @84 ou @85
+@87    = ~Hé ! Qu'est-ce que c'est censé signifier ?~
+// Après @86
+@88    = ~Merci. Tu ferais mieux de ne pas attaquer la mauvaise, quand même. Compris ?~
+// Réponses à @88
+@89    = ~Ne t'inquiète pas. Personne ne pourrait confondre une copie quelconque avec la vraie toi.~
+@90    = ~Ne t'inquiète pas. Je pourrais distinguer la vraie d'une copie de métamorphe sans hésiter.~
+// Après @89
+@91    = ~Je ne sais pas trop pourquoi mais ça ne m'aide pas à me sentir mieux, tu sais.~
+// Après @90
+@92    = ~Merci. Je me sens un petit peu mieux. Je ferai de même pour toi, d'ac ?~
+/* Edwin, après recrutement et acceptation de sa mission (suivi de sa réplique) */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 657, probablement inutile de traduire ici !
+@93    = ~*murmure* Hé, <CHARNAME>. Pourquoi as-tu accepté de travailler avec ce type ? Il a l'air, disons, inquiétant.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 658, probablement inutile de traduire ici !
+@94    = ~J'ai entendu, roublarde. Cela ne te regarde pas, car la question a été réglée entre <CHARNAME> et moi.~
+/* Eldoth, après recrutement et acceptation de sa mission */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 661, probablement inutile de traduire ici !
+@95    = ~Je sais pas quoi penser de ce type. Je veux dire, son plan n'est pas si terriblement méchant dans le fond, mais j'ai le sentiment qu'il ne nous dit pas tout.~
+/* Emerson, qui ne donne qu'un jour à un groupe à mauvaise réputation pour résoudre l'énigme */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 667, probablement inutile de traduire ici !
+@96    = ~Hum, on est bougon aujourd'hui. On doit s'être levé du mauvais pied ou quelque chose comme ça.~
+/* Petit-homme de Gullykin, à propos de la philosophie Petit-homme (rester assis sur sa chaise plutôt que chercher à en acheter une neuve) */
+@97    = ~Pouah ! Je vais laisser celle-là à <CHARNAME>. Je n'ai jamais été bonne à ce genre de devinette.~
+/* Lingot, gnoll renégat qui avoue avoir voulu faire rôtir la prisonnière */
+// Si Minsc n'est pas dans le groupe
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 397, probablement inutile de traduire ici !
+@98    = ~Euh... dégueulasse ! Je me sens mal tout d'un coup.~
+// Si Minsc est dans le groupe, avec sa réplique
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 398, probablement inutile de traduire ici !
+@99    = ~Eh bien, on dirait que les autres gnolls veulent garder Dynahéir vivante un peu plus longtemps au moins, alors... hum, je suppose que c'est une bonne nouvelle, hein, Minsc ?~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 399, probablement inutile de traduire ici !
+@100   = ~Bonne nouvelle ! La sorcière de Minsc est en vie ! Mes bottes me démangent de tuer les méchants gnolls et de libérer la magnifique Dynahéir de leurs mauvaises manières ! Raargh !~
+/* Jaheira : au recrutement si on les accepte (soupir de Jaheira) ou si on les refuse (échange avec le PJ) */
+// Dialogue avec Khalid et Jaheira débuté par le groupe : pas d'accord possible selon le sexe du PJ
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 727, probablement inutile de traduire ici !
+@101   = ~Ouais ! Tonton Khalid et Tatie Jaheira viennent avec nous ! Nous allons vivre une grande aventure, après tout !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 547 (et 728), probablement inutile de traduire ici !
+@102   = ~*soupir*~
+@103   = ~Quoi ?! Attends une minute ! Pourquoi avons-nous parcouru tout ce chemin pour que tu leur tournes le dos maintenant ? Ils sont un peu comme notre famille, tu sais !~
+// Réponses à @103
+@104   = ~J'ai mes raisons.~
+@105   = ~Je ne veux pas les impliquer. Ils ont déjà assez de soucis.~
+/* Jenkal, qui attaque si on l'a traité d'avorton, avec réaction d'Alora à remarque d'Imoen, puis Jenkal en @1008 */
+@106   = ~Je suppose que les petites-personnes sont vraiment susceptibles à propos de leur taille.~
+@107   = ~Quelques-uns d'entre nous le sont, en particulier avec les humains. Ne t'inquiète pas, cependant. Je ne me fâcherai pas si tu m'appelles 'rase-bitume', Imoen, du moment que je peux t'appeler 'Petite Imoen', ou peut-être 'Petite Immy'. Ouais, j'aime mieux le second.~
+/* Jenkal, échange Imoen - Montaron - Alora - Imoen - Alora */
+@108   = ~Alors, hum, pourquoi les petites-personnes haïssent les kobolds à ce point ?~
+@109   = ~Nous faut-il vraiment une raison pour détester quelqu'un ?~
+@110   = ~Eh bien, ce sont des créatures abominables et sales. Elles essaient de nous prendre nos terres et puis elles sont tout simplement malveillantes. Te faut-il vraiment d'autres raisons ?~
+@111   = ~Bon, je pense que non. Mais ça me paraît un peu beaucoup. Je veux dire, les humains détestent les orques et tout ça, mais pas au point où vous semblez haïr les kobolds.~
+@112   = ~Cela remonte à longtemps, Imoen. Je ne pense pas être la petite-personne à qui tu devrais demander ça. Je suis désolée.~
+/* Kirien, si PJ féminin */
+@113   = ~T'es en train de verser de l'huile sur le feu, soeurette. <CHARNAME> a le tempérament d'un chat sauvage !~
+/* Kirien, si PJ masculin */
+@114   = ~T'es en train de verser de l'huile sur le feu, soeurette. <CHARNAME> a le tempérament d'un taureau sauvage.~
+/* Kirien, qui a traité le groupe de péquenauds */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 754, probablement inutile de traduire ici !
+@115   = ~Hé, une minute ! Comme si vous paraissiez bien différents !~
+/* Kissiq, qu'on le croit fou ou non, suite en @1009 */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 757, probablement inutile de traduire ici !
+@116   = ~D'accord. Il faut que je voie ça. Euh, entende.~
+/* Kerrachus, en réaction à l'annonce du monde sphérique et de Maztica (échange à choix multiples avec le PJ) */
+@117   = ~Un nouveau monde !? Waouh ! Ça semble si excitant ! Je voudrais y aller un jour !~
+// Réponses à @117
+@118   = ~Allons, Imoen ! Je te croyais plus intelligente que ça ! Il te fait marcher tout simplement.~
+@119   = ~Je dis quand même que ses informations sont quelque peu embrouillées. Il se peut qu'il y ait un nouveau monde, mais son explication est celle d'un lunatique.~
+@120   = ~Je ne sais pas. Peut-être y a-t-il un nouveau monde de l'autre côté, mais peut-être pas. Je doute que nous le sachions un jour, sans parler d'y mettre les pieds.~
+@121   = ~Bon, si ce qu'il dit est vrai, peut-être y mettrons-nous les pieds un jour. J'aimerais bien, moi-aussi.~
+// Après @118
+@122   = ~Je sais pas. Il semblait plutôt sérieux.~
+// Réponses à @122
+@123   = ~Évidemment ! Sinon comment pourrait-il berner les nigauds ?~
+@124   = ~Ouais, peut-être parce qu'il est fou à lier !~
+@125   = ~Peut-être. Mais j'en doute fort.~
+// Après @119, @124, @125
+@126   = ~Bon... peut-être que tu as raison. Ça semblait plutôt farfelu, ce qu'il a dit.~
+// Après @120
+@127   = ~*soupir* Ouais. Je suppose que t'as raison. C'est vraiment dommage, pourtant. Réellement.~
+// Après @127, @131
+@128   = ~J'aimerais vraiment voir ce qu'on pourrait trouver dans une zone inexplorée de ce monde ! Peut-être qu'ils ont une race d'humains avec les cheveux roses ! Ce serait le plus génial, pas vrai !?~
+// Après @121 (les 3 d'Imoen)
+@129   = ~C'est ça l'esprit ! Aucun lieu n'est trop lointain ! Nul endroit trop inconnu ! Aucun lieu trop dangereux pour nous !~
+@130   = ~Enfin, du moment qu'il y a un endroit où une fille peut faire un brin de toilette de temps en temps au moins.~
+@131   = ~Bref...~
+// Après @123
+@132   = ~Eh bien je sup...~
+@133   = ~*donne un coup de coude à <CHARNAME>* Je ne suis pas une *nigaude* !~
+/* Mineur Kylee, de Nashkel, qui se sent nu sans sa dague */
+@134   = ~*glousse* Nu sans sa dague ? C'est ce que je dirais aussi ! Ces mineurs, ils ne portent pas grand-chose, hein.~
+/* Rill, quand on accepte de donner les 100 po, selon que le groupe est riche ou non */
+// Rill initie le dialogue lui-même, avec le PJ, donc on peut utiliser l'accord au sexe du PJ
+// Si on a accepté de donner l'argent, et que le groupe avait plus de 1000 po
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 47, probablement inutile de traduire ici !
+@135   = ~Waouh, <CHARNAME>, nous libérons les esclaves, tout comme les héros dans les chansons !~
+// Si on a accepté de donner l'argent, et que le groupe avait moins de 1000 po (@136 et @137)
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 910, probablement inutile de traduire ici !
+@136   = ~Attends ! Je pense que nous devrions les aider, mais n'allons-nous pas tuer les gardes du coin de toute façon ? Pourquoi aurions-nous besoin de le payer ? Ils seront libres une fois que tous les gardes seront morts, de toute façon. Je veux dire, ce n'est pas comme si nous avions de l'argent en trop, tu sais.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 911, probablement inutile de traduire ici !
+@137   = ~Mais bon... ils peuvent en avoir besoin, pauvres hommes. *soupir* Tu es un homme bon, c'est pour ça que je t'aime.~
+         ~Mais bon... ils peuvent en avoir besoin, pauvres hommes. *soupir* Tu es une femme bonne, c'est pour ça que je t'aime.~
+// Si on prétend être des Griffes noires
+@138   = ~Pourquoi tu as fait ça ? Nous ne sommes pas des gardes, mais bon, je crois que je n'aime pas vraiment davantage le terme mercenaires.~
+// Si on a refusé de donner de l'argent pour libérer les esclaves, alors qu'on a plus de 5000 po
+@139   = ~Tu n'avais pas besoin d'être si radin. Je veux dire, j'aime conserver l'argent que j'ai, mais c'était seulement cent pièces et c'était pour une bonne cause. Tu es vraiment un grippe-sou si tu refuses de leur venir en aide alors que nous avons tout cet argent !~
+         ~Tu n'avais pas besoin d'être si radine. Je veux dire, j'aime conserver l'argent que j'ai, mais c'était seulement cent pièces et c'était pour une bonne cause. Tu es vraiment une grippe-sou si tu refuses de leur venir en aide alors que nous avons tout cet argent !~
+/* Laryssa */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 489, probablement inutile de traduire ici !
+@140   = ~Allons. Ne vous inquiétez pas, madame. Nous essaierons de sauver Brage, pour vous faire plaisir, d'accord ?~
+// Si elle est morte d'avoir attaqué le groupe après son refus d'épargner Brage
+@141   = ~Pauvre femme. Je suis désolée pour elle, même si elle nous a attaqués. Elle ne faisait qu'essayer de protéger quelqu'un à qui elle tenait, même si c'était malavisé.~
+/* Minsc ; si PJ mâle combattant, réaction du PJ ; sinon réaction de Minsc */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 777, probablement inutile de traduire ici !
+@142   = ~Waouh ! Une damoiselle en détresse et un guerrier courageux pour aller la secourir. J'aimerais que cela m'arrive.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 778, probablement inutile de traduire ici !
+@143   = ~En fait, non, je n'aimerais pas. Je n'ai rien contre le guerrier courageux, du moment qu'il est beau, mais la partie sur le fait d'être en danger, je pourrais m'en passer.~
+// Réaction de Minsc, seulement si PJ femme, ou PJ homme non combattant
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 779, probablement inutile de traduire ici !
+@144   = ~Minsc viendra au secours d'une jolie fille comme toi, n'aie crainte ! Mais pour l'instant c'est la superbe Dynahéir que nous devons secourir ! En avant, mes amis !~
+// Réponses à @143, si PJ mâle combattant
+@145   = ~Peut-être auras-tu cette chance un jour.~
+@146   = ~Hé, et moi alors !~
+// Après @146
+@147   = ~*glousse* Hé hé. Tu es vraiment un plaisantin ! Je parlais de quelqu'un de plus romantique que toi.~
+// Après @145
+@148   = ~*glousse* Je ne viens pas juste de dire que je n'en voulais pas, imbécile ?~
+/* Nalin, quand on lui a ramené Brage vivant, avec échange avec le PJ (Imoen est intervenue avec Laryssa) */
+// Brage initie l'échange avec le PJ (dans BRAGECUT.BCS), donc accord possible suivant le sexe du PJ
+@149   = ~Tu vois. N'es-tu pas content d'avoir écouté mon idée de le ramener ici, au lieu de le livrer pour la prime ? Voilà, nous avons obtenu le double du montant de la prime !~
+         ~Tu vois. N'es-tu pas contente d'avoir écouté mon idée de le ramener ici, au lieu de le livrer pour la prime ? Voilà, nous avons obtenu le double du montant de la prime !~
+// Réponses à @149
+@150   = ~Hé, c'était mon idée !~
+@151   = ~Hé hé. Ouais, tu as raison, Imoen. Content d'avoir suivi *ton* conseil.~
+         ~Hé hé. Ouais, tu as raison, Imoen. Contente d'avoir suivi *ton* conseil.~
+@152   = ~Je pense que tu as pris les choses à l'envers. C'est *toi* qui voulais l'argent de la prime.~
+// Après @150
+@153   = ~Hum. Ouais, je vais te laisser le croire.~
+// Nalin, quelle que soit la conclusion de l'échange Imoen-PJ
+@154   = ~Merci encore de votre aide.~
+// Après @151
+@155   = ~Je crois que je n'aime pas la façon dont tu as dit ça...~
+// Après @152 : les deux répliques à la suite
+@156   = ~Moi ? Ouais, j'aime l'argent et tout ça, mais pas au prix de la vie d'une personne innocente. Même moi, je sais fixer une limite quelque part, tu sais.~
+@157   = ~Je ne sais pas où tu as pêché cette idée folle mais ce n'est pas drôle.~
+/* Narcillicus Harwilliger Néen */
+// Quand il annonce qu'on arrive juste à temps pour l'expérience
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 795, probablement inutile de traduire ici !
+@158   = ~Le bon choix du moment est essentiel dans la profession d'aventurier.~
+// Après l'annonce des détails de l'expérience, si Imoen n'est pas mage
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 317, probablement inutile de traduire ici !
+@159   = ~Euh, ouais... Tous les mages sont-ils comme ça ? Si j'en étais une, je ne travaillerais pas avec des trucs gluants ou de la boue... Brrr... C'est trop, euh... gluant. Je créerais des golems de sucre ou quelque chose comme ça, si je tenais à être bizarre.~
+/* Nikolaï, si on est allé au bout de l'histoire et qu'on en réclame encore, sur un ton bizarre qui effraie Nikolaï */
+@160   = ~Il a raison. Tu commences aussi à m'inquiéter maintenant.~
+/* Noober, avec sa réaction */
+// A la sixième fois
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 60, probablement inutile de traduire ici !
+@161   = ~Argh ! Vas-tu faire taire ce crétin, ça suffit ! Qu'est-ce qu'une fille doit faire pour avoir la paix et la tranquillité par ici ?!~
+// Après plus de 10 fois mais moins de 31 fois
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 808, probablement inutile de traduire ici !
+@162   = ~Ça suffit comme ça !!! Pousse-toi ! Laisse-moi m'en occuper ! Il me rend dingue !!!~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 916, probablement inutile de traduire ici !
+@163   = ~ENFIN ! Je le jure, s'il avait dit encore un truc, j'allais le tuer !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 917, probablement inutile de traduire ici !
+@164   = ~Pourquoi tout le monde s'énerve après moi ? J'essaie seulement d'être aimable !~
+/* Ogre-mage (Bois-Manteau), fier de sa torture */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 444, probablement inutile de traduire ici !
+@165   = ~Ça fait frrooiid dans le dos. J'espère qu'il ne nous arrivera jamais d'être torturés comme ça.~
+/* Osmadi, si on a prétendu avoir tué ses amis druides */
+@166   = ~Hé, attends une minute ! Que diable racontes-tu ? Quelle sorte de réputation tu essaies de me faire, hein ?~
+/* Pallonia */
+// Si elle s'en va après avoir dit qu'il n'était pas si simple de lire dans les étoiles
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 415, probablement inutile de traduire ici !
+@167   = ~Ouais ! C'est ça, allez-vous-en, charlatan !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 416, probablement inutile de traduire ici !
+@168   = ~Je peux dire des choses comme ça, les rattacher à des âneries à propos de l'alignement des étoiles et à d'autres choses encore, vous savez, et les rendre juste assez vagues pour couvrir à peu-près n'importe quelle situation.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 417, probablement inutile de traduire ici ! (et aussi @499)
+@169   = ~Attendez une minute... hum...~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 416, probabilité 99.9
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 498, probabilité 99.9
+@170   = ~Je peux dire des choses comme ça, les rattacher à des âneries à propos de l'alignement des étoiles et à d'autres choses encore, vous savez, et les rendre juste assez vagues pour couvrir à peu-près n'importe quelle situation. ~
+// Si on a dit se concentrer sur les problèmes locaux et pas sur le monde lointain
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 497, probablement inutile de traduire ici !
+@171   = ~Tu n'y crois pas vraiment, pas vrai, <CHARNAME> ?~
+/* Permidion Stark */
+@172   = ~Hein, ce gars pique une crise parc'que quelques mots ont brisé le silence des bois ? Je voudrais le voir dans les cuisines de « Gros-plein-de soupe » la nuit de la fête du coeur de l'été ! Il perdrait probablement ses esprits et se mettrait à hurler, ou autre chose comme ça. Hé, il serait parfaitement dans le ton !~
+/* Prisme */
+// Termes génériques (pas de féminin) : n'importe qui peut engager la conversation avec Prisme, accord non fiable
+@173   = ~La vache, c'est magnifique ! Tu crois que quelqu'un réalisera nos statues un jour, <CHARNAME> ? Vu que nous sommes en voie de devenir de grands héros et tout et tout ?~
+/* Raiken et Teven, si on leur a donné tout notre or */
+// Raiken et Teven s'adressent au PJ, on peut donc accorder
+@174   = ~*vous frappe vraiment fort* Espèce d'idiot ! Pour quelle raison as-tu fait ça ? Nous aurions pu l'avoir facilement. La prochaine fois que nous rencontrerons ce genre de bandits, c'est moi qui négocierai, c'est compris ?~
+         ~*vous frappe vraiment fort* Espèce d'idiote ! Pour quelle raison as-tu fait ça ? Nous aurions pu l'avoir facilement. La prochaine fois que nous rencontrerons ce genre de bandits, c'est moi qui négocierai, c'est compris ?~
+/* Téthtoril, après qu'il est révélé l'anagramme Sarevok - Korevas */
+@175   = ~Tu as entendu ça !? Sarevok ! Ça me semble plutôt louche, tu crois pas ?~
+/* Vitiare, si Minsc n'est pas là */
+// Vitiare s'adresse au PJ, accord possible
+// Si PJ voleur
+@176   = ~Attendez ! Bon sang... Allons, avec tous les voleurs qu'il y a dans ce groupe, on nous vole quand même aussi facilement ? Ce n'est pas ma faute, en tout cas. Il a fallu que quelqu'un soutienne qu'<PRO_HESHE> conserverait l'argent plus en sécurité que moi.~
+// Si PJ non voleur
+@177   = ~Attendez ! Bon sang... J'aurais dû le voir venir. C'était une mauvaise idée de te laisser conserver l'argent tant que nous étions au Festival. Mais non... Il a fallu que quelqu'un soutienne qu'<PRO_HESHE> le conserverait plus en sécurité que moi, la seule qui sait à quoi s'attendre !~
+/* Ulcaster, quand on lui ramène le livre */
+@178   = ~Et dire que tout ce qu'il voulait, c'était un livre pour qu'il puisse enseigner. Cela donne plutôt à réfléchir.~
+@179   = ~Oh ! <CHARNAME>, tu trouveras tout ce que je veux afin que je puisse reposer en paix si je meurs, pas vrai ?~
+/* Ulraunt, une fois arrêtés */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 895, probablement inutile de traduire ici !
+@180   = ~Il faudrait vraiment que quelqu'un le mette sur la piste !~
+/* Zhurlong, qui détourne l'attention en faisant regarder ailleurs */
+// TODO Vérifier si Hades est un nom à traduire (Dieu ou autre)
+@181   = ~Où ça ?!~
+@182   = ~Oh, Hadès, il t'a fait les poches, <CHARNAME>, pendant que tu regardais bouche bée !~
+// Quand on lui rend ses bottes
+@183   = ~Hum, tant de bruit pour de stupides bottes ! Et tu sais quoi, <CHARNAME>, avec ces bottes il va devenir encore meilleur en vol à la tire, alors gardons un oeil sur notre argent tant que nous sommes dans le coin.~
+/* Jaheira, si on l'a rejettée */
+// Dialogue avec Khalid et Jaheira débuté par le groupe : pas d'accord possible selon le sexe du PJ
+// Après @104
+@184   = ~Oh, regarde qui a attrapé la grosse tête, maintenant !~
+// Après @105 : si on a répondu qu'on ne prenait pas Jaheira pour ne pas les impliquer
+@185   = ~Et moi alors ? Hein ?~
+// Réponses à @185
+@186   = ~Je n'aurais pas pu t'empêcher de venir, même si j'avais essayé.~
+@187   = ~Il faut bien que quelqu'un veille sur toi.~
+// Après @187
+@188   = ~*tire la langue* Ah bon ? Nous verrons bien qui devra coucher dehors la prochaine fois, avec une grosse pierre dans le dos !~
+// Après @186
+@189   = ~C'est vrai ! Mais c'est pour ton bien, tu sais.~
+/* Seigneur Présage, qui vient d'évoquer Padhiver ou Athkatla */
+// Il aborde le PJ, donc accord possible selon le sexe du PJ
+@190   = ~On pourra aller là-bas, un de ces jours ? Hein, <CHARNAME> ? Ça a l'air intéressant !~
+// Réponses à @190
+@191   = ~Certainement pas !~
+@192   = ~Peut-être. Nous verrons bien ce que le destin nous réserve.~
+@193   = ~Bien sûr ! Je ne manquerai ça pour rien au monde !~
+// Après @191
+@194   = ~Bouh ! Tu n'es pas drôle ! Je pensais que nous étions censés partir à l'aventure !~
+         ~Bouh ! Tu n'es pas drôle ! Je pensais que nous étions censées partir à l'aventure !~
+// Après @192 ou @193
+@195   = ~Formidable ! Ça veut dire qu'il va me falloir commencer à prévoir tout ça !~
+/* Found diamond (peu après le début) */
+@196   = ~Waouh ! Et Winthrop qui me disait que les diamants ne poussaient pas sur des arbres ! C'est sûr, pas à Château-Suif ! Hé, <CHARNAME>, réjouis-toi ! Nous avons les faveurs de Tymora, j'ai l'impression.~
+/* Found Gorion's Body 1 */
+@197   = ~Est-ce... Gorion ?~
+// Réponses à @197
+@198   = ~Oui. Il est mort pour me sauver d'un... de quelque chose.~
+@199   = ~Oui, *c'était* Gorion. Il est mort alors qu'il me protégeait d'une attaque.~
+@200   = ~*pousse le corps de la pointe du pied* Exactement. Le *grand* mage Gorion ! Il n'a même pas pu tenir bon face à deux ogres et un épouvantail !~
+// Suite à @200
+@201   = ~Hé ! Tu planquais tes fesses dans un buisson tandis qu'il combattait tous ces monstres, n'est-ce pas ?~
+// Suite à @198, @199, @201
+@202   = ~Tu ne sais même pas ce qui vous a attaqués ? Quoi que ce soit, on dirait que c'était brutal.~
+// Réponses à @202
+@203   = ~J'étais mort de trouille ! Qu'est-ce que tu crois ?~
+         ~J'étais morte de trouille ! Qu'est-ce que tu crois ?~
+@204   = ~Il faisait trop sombre pour voir grand-chose, mais c'était humanoïde, même si je n'ai pas pu voir de visage. Ses yeux brillaient, pourtant... comme les feux de l'enfer ! Il serait allé droit sur moi si Gorion, paix à son âme, ne lui avait pas barré le chemin !~
+@205   = ~Je n'arrive pas à me rappeler grand-chose de la nuit dernière... ni à propos de l'agresseur. Mais je me souviens qu'il... que la créature a parlé.~
+@206   = ~Des ogres, une fille avec une masse et un homme immense dans une armure à pointes. Je ne suis pas resté assez longtemps pour observer plus attentivement, tu sais. Avec Gorion qui me criait de courir, cet homme qui réclamait ma tête et tout et tout...~
+         ~Des ogres, une fille avec une masse et un homme immense dans une armure à pointes. Je ne suis pas restée assez longtemps pour observer plus attentivement, tu sais. Avec Gorion qui me criait de courir, cet homme qui réclamait ma tête et tout et tout...~
+// Après @203
+@207   = ~Vraiment ? Je suis contente de ne pas avoir été là. Je t'ai déjà vu te faire surprendre et sursauter, mais jamais avoir peur. J-Je ne veux même pas penser à ce qui pourrait t'effrayer.~
+         ~Vraiment ? Je suis contente de ne pas avoir été là. Je t'ai déjà vue te faire surprendre et sursauter, mais jamais avoir peur. J-Je ne veux même pas penser à ce qui pourrait t'effrayer.~
+// Après @204 et @206
+@208   = ~Je vois. Hum... alors il n'en avait pas après Gorion, mais après toi.~
+// Après @205
+@209   = ~Alors tu te rappelles ce qu'elle a dit ?~
+// Réponses à @209
+@210   = ~Pas vraiment, simplement qu'elle voulait me tuer.~
+@211   = ~Eh bien, elle n'a pas dit grand-chose... à part, évidemment, qu'elle voulait que mon cadavre soit là où celui de Gorion est maintenant, ou du moins à ses côtés ; elle a mentionné qu'elle me cherchait.~
+// Après @208
+@212   = ~Je n'aime pas ça, <CHARNAME>, je n'aime pas du tout ça.~
+// Réponses à @212
+@213   = ~Moi non plus mais il me faut découvrir ce qui se passe et pourquoi on m'a attaqué. Cependant je ne veux pas te mêler à cette histoire, Imoen.~
+         ~Moi non plus mais il me faut découvrir ce qui se passe et pourquoi on m'a attaquée. Cependant je ne veux pas te mêler à cette histoire, Imoen.~
+// A revoir "High Cleric -> Grand Clerc", ainsi qu'en @268
+@214   = ~Moi non plus mais ce qui est fait est fait. L'esprit de Gorion ne reviendra pas désormais. Je doute même qu'un Haut Prêtre de Heaum puisse le ramener à la vie, vu son corps si démembré. Non, nous ferions mieux d'aller de l'avant maintenant, Imoen.~
+@215   = ~Je ne voulais pas que Gorion meure, mais je vais le venger, Imoen. Attends un peu.~
+@216   = ~Hé, les choses commencent juste à devenir intéressantes. Ne te méprends pas, je souhaiterais que Gorion soit là, mais c'est ainsi que débutent les grandes aventures, Imoen !~
+@217   = ~T'ai-je demandé ton avis, gamine ?~
+// Réponse à @217
+@218   = ~Non, parc'que t'es trop stupide !~
+// Après @210
+@219   = ~Cela semblait évident, d'après ce que tu as dit avant.~
+@220   = ~*Hausse les épaules et fait un grand sourire* Bon, il faudra juste qu'on s'occupe d'eux quand ils reviendront mais, cette fois, ce seront leurs corps qui pourriront au soleil.~
+// Après @211
+@221   = ~Eh bien, quelle popularité tu as ?~
+@222   = ~Désolée, j'essayais juste d'égayer les choses. En tout cas, si cette chose te cherchait, elle reviendra à ta poursuite. Mais t'inquiète pas ! Cette fois, avec Imoen la Magnifique à tes côtés, tu ne peux pas perdre !~
+// Réponses à @222
+@223   = ~Hé ! Merci, Imoen.~
+@224   = ~Imoen la *Mag*nifique ?~
+@225   = ~Magnifique ? Tu es pas mal, mais je n'irais pas aussi loin.~
+@226   = ~Et Imoen la Magnifique peut-elle ranimer *cette* chose-là ? *désigne le corps de Gorion*~
+// Après @213
+@227   = ~Te laisser ? Et si je le faisais, qui te divertirait ? Qui te remonterait le moral pendant les heures les plus sombres ? Et qui continuerait à faire des blagues ?~
+@228   = ~Te laisser ! Ha ! Il te faudra me forcer à te quitter alors !~
+// Après @214
+@229   = ~Tu es sûr ? Au moins nous pourrions lui offrir un enterrement convenable, tu sais. Non pas que ça me plaise de le faire, mais je sais que j'aimerais que quelqu'un m'enterre, également.~
+         ~Tu es sûre ? Au moins nous pourrions lui offrir un enterrement convenable, tu sais. Non pas que ça me plaise de le faire, mais je sais que j'aimerais que quelqu'un m'enterre, également.~
+// Réponses à @229, @233, @235
+@230   = ~Je crois que tu as raison.~
+@231   = ~Imoen, c'est juste un cadavre. Laisse-le se décomposer.~
+@232   = ~Non... J'ai trop peur de rester ici plus longtemps. L'homme en noir et ses acolytes pourraient bien revenir à ma recherche. Partons.~
+// Après @226
+@233   = ~Non... non, je ne peux pas. Mais puisqu'on parle de corps... Le moins que nous puissions faire est d'offrir un enterrement convenable à Gorion, tu sais. Non pas que ça me plaise de le faire, mais je sais que j'aimerais que quelqu'un m'enterre, également.~
+// Après @215
+@234   = ~A la bonne heure ! Je serai à tes côtés tout le temps !~
+@235   = ~Mais tu penses que nous devrions d'abord enterrer Gorion ? Je veux dire, ce n'est pas convenable de le laisser là comme ça.~
+// Après @216
+@236   = ~D'accord... Bon, avant de nous lancer dans cette aventure, ne devrais-tu pas enterrer Gorion, du moins ce qu'il reste de lui ?~
+// Réponses à @236
+@237   = ~Je crois que tu as raison. De plus, toutes les grandes aventures commencent après avoir enterré quelqu'un que l'on chérissait.~
+@238   = ~Oui, tu as raison, Imoen. Enterrons Gorion.~
+@239   = ~*Tout d'un coup vous êtes incapable de parler et les larmes vous montent aux yeux. Vous donnez votre accord d'un signe de la tête.*~
+// Après @224
+@240   = ~Sûr ! C'est le nom idéal pour moi, quelqu'un doté de tant de talents !~
+@241   = ~Bon, allons-y maintenant. Il ne serait pas convenable de gâcher inutilement mon magnifique talent, tu sais ?~
+// Après @225, PJ féminin
+@242   = ~D'ACCORD !? Peut-être que tu ne te rappelles pas combien de fois ils t'ont montré les preuves d'une farce que tu n'avais jamais faite ou les fois où tes affaires disparaissaient pour réapparaître quelque part ailleurs dans ta chambre, ou la fois où ta robe est devenue transparente au centre de la grand-place ? Je suis sûre que les gardes de Château-Suif pourraient se souvenir de celle-là. Probablement même certains des vieux érudits bourrus, aussi. Cela avait nécessité beaucoup de préparation, de stratégie et de finesse...~
+@243   = ~*pouffe* Rien que d'y penser...~
+// Réponses à @242-243 et @248-243, servent aussi bien pour PJ masculin que féminin
+@244   = ~*rougit* J-Je ne vois pas de quoi tu veux parler. Il doit s'agir de quelqu'un d'autre...~
+@245   = ~*rouge de colère* C'ÉTAIT TOI !? VIENS ICI, AVANT QUE TU NE LE REGRETTES.~
+@246   = ~Ainsi, tu m'as joué quelques tours quand nous étions jeunes. La belle affaire ! Nous sommes adultes maintenant, Imoen, et il nous faut accomplir de *véritables* actions pour nous traiter de Magnifique.~
+@247   = ~Et que dis-tu de la fois où toutes les fourchettes de l'auberge de M. Winthrop avaient disparu et où tout le monde pensait que c'était de ta faute ? Et ton livre préféré, que tu n'arrivais pas à ouvrir quoi que tu essaies ? Ou le tapis qui s'enroulait de lui-même chaque fois que tu essayais de le frapper avec ta tapette ? Ha ! Je t'ai eue à quelques reprises, moi-aussi !~
+// Après @225, PJ masculin
+// A REVOIR : qualificatifs de filles... younger-than-one-hundred-years-old-last-supper girls
+@248   = ~D'ACCORD !? Peut-être que tu ne te rappelles pas combien de fois ils t'ont montré les preuves d'une farce que tu n'avais jamais faite ou les fois où tes affaires disparaissaient pour réapparaître quelque part ailleurs dans ta chambre, ou la fois où tu as perdu ton pantalon au centre de la grand-place ? Je suis sûre que presque tout le monde s'en souvient. Les gardes ont bien rigolé, de même que beaucoup de ces... euh... filles de moins de cent ans ! Même celle dont tu t'étais un peu amouraché... hum... comment s'appelait-elle ? Ah, peu importe.~
+// Après @225, PJ voleur
+@249   = ~*lance un regard furieux* D'ACCORD !? Ecoute, je sais que tu essayais toujours de me battre, tu sais, mais tu sais pourquoi tu étais toujours celui qu'on blâmait, et jamais moi ? Pourquoi tu étais toujours celui contraint de faire toutes ces corvées supplémentaires et pas moi ? Alors, tu sais ?~
+         ~*lance un regard furieux* D'ACCORD !? Ecoute, je sais que tu essayais toujours de me battre, tu sais, mais tu sais pourquoi tu étais toujours celle qu'on blâmait, et jamais moi ? Pourquoi tu étais toujours celle contrainte de faire toutes ces corvées supplémentaires et pas moi ? Alors, tu sais ?~
+// Réponses à @249
+@250   = ~Je me posais un peu la question.~
+@251   = ~Ça n'a plus aucune importance. En plus nous sommes dans la nature et il n'y a pas personne d'autre vers qui aller...~
+@252   = ~Ce n'est pas tout à fait vrai, Imoen. Que dis-tu de la fois où toutes les fourchettes de l'auberge de M. Winthrop avaient disparu et où tout le monde pensait que c'était de ta faute ? Et ton livre préféré, que tu n'arrivais pas à ouvrir quoi que tu essaies ? Ou le tapis qui s'enroulait de lui-même chaque fois que tu essayais de le frapper avec ta tapette ? Ha ! Je t'ai eue à quelques reprises, moi-aussi ! Mais... Nous ne sommes plus à Château-Suif, Imoen. Il n'y a ici personne d'autre vers qui aller... Alors ne perdons pas notre temps avec des concours idiots.~
+// Après @237
+@253   = ~*roule des yeux* Soit...~
+// Après @239
+@254   = ~Mon... Mon pauvre... Je suis désolée... Mais je pense que nous devrions enterrer Gorion, <CHARNAME>.~
+         ~Ma... Ma pauvre... Je suis désolée... Mais je pense que nous devrions enterrer Gorion, <CHARNAME>.~
+// Après @244 et @246
+@255   = ~Hé ! Bon, tu peux dire ce que tu veux. Je suis Imoen la Magnifique.~
+// Après @245
+@256   = ~*transpire* Hum, bon, il faut que j'aille... quelque part. A bientôt !~
+// Quelque temps après @256 (peut-être une animation de poursuite)
+@257   = ~*d'une voix haletante* D'accord, c'est... toi... qui... gagnes... cette... fois... Mais... regarde... maintenant... tu... es... pas... si... déprimé... Tu... devrais... me... remercier...~
+         ~*d'une voix haletante* D'accord, c'est... toi... qui... gagnes... cette... fois... Mais... regarde... maintenant... tu... es... pas... si... déprimée... Tu... devrais... me... remercier...~
+// Après @250
+@258   = ~Eh bien, tu peux continuer à te poser la question, parce qu'Imoen la Magnifique ne révèle jamais ses secrets, à moins qu'elle n'ait quelque chose à en retirer. Et même alors, elle ne révèle pas TOUS ses secrets.~
+// Après @251 et @252
+@259   = ~*transpire* Tu sais que c'étaient que des trucs de gamin, n'est-ce pas ? Tu ne m'en voudrais pas si longtemps après ?~
+// Réponses à @259
+@260   = ~Non, mais ne pense pas te tirer de ce que tu fais aujourd'hui aussi facilement.~
+@261   = ~Peut-être. Nous verrons. Ça dépendra de si tu t'avères une assistante efficace.~
+// Après @261
+@262   = ~Hum... Je n'aime pas ce terme, 'assistante'...~
+/* Found Scroll, but Gorion's Body Already Buried */
+@263   = ~Est-ce... Est-ce la lettre que portait Gorion ?~
+// Réponses à @263
+// Phrases communes avec @199 et @200
+@264   = ~Oui, elle était sur le corps de Gorion. Il est mort alors qu'il me protégeait d'une attaque.~
+@265   = ~Exactement. Le *grand* mage Gorion ! Il n'a même pas pu tenir bon face à deux ogres et un épouvantail !~
+// Après @198 ou @265
+// Identique à @201
+@266   = ~Hé ! Tu planquais tes fesses dans un buisson tandis qu'il combattait tous ces monstres, n'est-ce pas ?~
+// Après @264 ou @266, les réponses sont les mêmes que pour @202 (réutilise les mêmes échanges à quelques exceptions près)
+// Phrase commune avec @202
+@267   = ~Tu ne sais même pas ce qui vous a attaqués ?~
+// Réponse supplémentaire à @212, à la place de @214, dont c'est une copie quasi intégrale.
+// A revoir "High Cleric -> Grand Clerc", ainsi qu'en @214
+@268   = ~Moi non plus mais ce qui est fait est fait. L'esprit de Gorion ne reviendra pas désormais. Je doute même qu'un Haut Prêtre de Heaum puisse le ramener à la vie. Non, nous ferions mieux d'aller de l'avant maintenant, Imoen.~
+// Après @228, si conversation sur la lettre
+@269   = ~Bien... Bon, j'aurais aimé que nous puissions assister aux funérailles de Gorion, <CHARNAME>.~
+// Réponses à @269
+// Proche de @237
+@270   = ~Moi aussi, Imoen. Mais toutes les grandes aventures commencent après avoir perdu quelqu'un que l'on chérissait.~
+@271   = ~Oui, tu as raison, Imoen. Disons une prière pour Gorion.~
+@272   = ~Imoen, c'est juste un cadavre. La Nature et les Dieux reprennent tout lorsque l'heure est venue. Allons-y.~
+// Phrases reprises en partie de @232
+@273   = ~Je le souhaiterais aussi, mais j'ai trop peur de rester près de Château-Suif plus longtemps. L'homme en noir et ses acolytes pourraient bien revenir à ma recherche. Partons.~
+// Après @240, si conversation sur la lettre
+// Très proche de @241, mais prononcé par le PJ
+@274   = ~Bon, allons-y maintenant. Il ne serait pas convenable de gâcher inutilement ton magnifique talent, pas vrai ?~
+// Après @239, si conversation sur la lettre
+// Très proche de @254
+@275   = ~Mon... Mon pauvre... Je suis désolée, <CHARNAME>.~
+         ~Ma... Ma pauvre... Je suis désolée, <CHARNAME>.~
+// Après @271, @253 ou @275
+@276   = ~Allez, <CHARNAME>, partons d'ici.~
+/* Assassin 2 (Neira) */
+@277   = ~Qu-qui était-ce ?~
+// Réponses à @277
+@278   = ~Un autre assassin. Pas le même que celui qui a tué Gorion, néanmoins. Si c'était le cas, nous ne serions plus là désormais.~
+@279   = ~Un autre assassin. C'est le quatrième. J'en ai rencontré deux avant de quitter Château-Suif. Un autre juste après le départ de Château-Suif. Et maintenant elle...~
+@280   = ~Un autre assassin. C'est le cinquième. J'en ai rencontré deux avant de quitter Château-Suif. Un autre juste après le départ de Château-Suif. Et ce nain à la Gerbe Rouge...~
+@281   = ~Un autre assassin. C'est le cinquième. J'en ai rencontré deux avant de quitter Château-Suif. Un autre juste après le départ de Château-Suif. Et ce mage sur le pas de la porte de l'auberge de Brasamical...~
+@282   = ~Un autre assassin. C'est le sixième. J'en ai rencontré deux avant de quitter Château-Suif. Un autre juste après le départ de Château-Suif. Et ce mage sur le pas de la porte de l'auberge de Brasamical... Et le nain à la 'Gerbe Rouge'.~
+// Après @279, @280, @281 et @282
+@283   = ~Tu veux dire que tu as été attaqué à l'intérieur même des murs de Château-Suif !? Pourquoi ne me l'as-tu pas dit avant que tu partes ?~
+         ~Tu veux dire que tu as été attaquée à l'intérieur même des murs de Château-Suif !? Pourquoi ne me l'as-tu pas dit avant que tu partes ?~
+// Réponses à @283
+@284   = ~Je ne voulais pas t'inquiéter et t'avoir dans les pattes, comme tu le fais en ce moment.~
+@285   = ~J'ai essayé, mais tu as dit que tu étais trop occupée.~
+// Après @385
+@286   = ~Qu'est-ce que tu entends par... inquiétant ?~
+// Réponses à @286
+@287   = ~Inquiétant signifie que ça m'inquiète. Allez, ne restons pas là...~
+@288   = ~Réfléchis une seconde. Qui que ce soit, ils ont su m'attaquer quand nous quittions Château-Suif, comme s'ils s'attendaient à ce que je m'en enfuis. Ensuite, ils ont su que je me dirigeais vers l'auberge de Brasamical et ont monté une embuscade sur le pas de porte de l'auberge. Et maintenant ça. Gorion s'était assuré que personne d'autre ne savait pour l'auberge de Brasamical et aucun d'entre nous n'avait la moindre idée que nous nous rendrions à Nashkel. Pourtant un autre assassin nous attendait ici...~
+// Après @284
+@289   = ~Hé, ouais. Je suis collée à toi comme la brique et le mortier ! Bon, assez de bavardage, allons demander une chambre afin que je puisse prendre un bon bain chaud.~
+// Après @285, PJ féminin
+@290   = ~Pfft ! Et ça suffit pour t'arrêter ! Tu manques vraiment de caractère, ma fille ! Si tu ne peux pas me tenir tête, comment espères-tu faire face à ton mari ?~
+// Réponse à @290
+@291   = ~Peu importe. Allons-y.~
+@292   = ~Un mari ? D'où est-ce que ça sort ?~
+@293   = ~Un mari, hein ? Je pourrais dire la même chose à ton sujet, Imoen.~
+// Après @285, PJ masculin
+@294   = ~Pfft ! Et ça suffit pour t'arrêter ! Il te faudra vraiment faire preuve de plus de caractère si tu espères avoir une femme un jour, en tout cas si tu ne veux pas qu'elle te mène par le bout du nez !~
+// Réponses à @294
+@295   = ~Une femme, hein ? Ne t'en fais pas, j'ai beaucoup de ce caractère-là.~
+@296   = ~Je n'ai pas à me faire de souci pour ça. La personne que je voudrais pour épouse est juste en face de moi.~
+// Après @287
+@297   = ~Mff. Très bien, mais tu ferais bien de me l'expliquer plus tard.~
+// Après @288
+@298   = ~Je vois...~
+// Réponses à @298
+@299   = ~Mais ce n'est pas tout. Pourquoi cet homme en armure ne viendrait-il pas de nouveau en personne ? Pourquoi envoyer de modestes assassins, alors qu'il avait souhaité venir lui-même la première fois ? Qu'est-ce qui a rendu les choses suffisamment différentes pour justifier d'envoyer des imbéciles ?~
+@300   = ~Bon, rester ici ne sert à rien. Allons-y.~
+@301   = ~Ça n'a vraiment aucun sens, à moins que... non... bon sang ! Je n'arrive pas à comprendre !~
+// Après @299
+@302   = ~J-Je ne sais pas... En tous cas, ça me donne mal à la tête d'essayer de comprendre tout ça. Je te laisserai mener toute la réflexion compliquée à cet égard.~
+// Réponses à @302
+// PJ avec au moins 13 en intelligence et en sagesse
+@303   = ~Tu connais la réponse, Imoen. Aussi bien que moi. Les assassins nous attendaient et étaient de faible calibre parce qu'ils sont *partout*. Ils ont préféré la quantité à la qualité, en pariant que quelqu'un, quelque part, finira bien par me surprendre. Alors, où que nous allions...~
+@304   = ~Bien, veinarde !~
+// Après @303
+@305   = ~Arrête ! Tu me fais peur !~
+// Après @292 et @293
+@306   = ~Hé, ne t'en fais pas, je sais déjà m'imposer suffisamment.~
+// Réponses à @306
+@307   = ~Je ne te le fais pas dire.~
+@308   = ~*vous vous éloignez*~
+// Après @295
+@309   = ~Peut-être quand tu repousses des bêtes ou tout ça, mais pas quand il s'agit de femmes.~
+// Après @296
+@310   = ~*jette un coup d'oeil autour, innocemment* Hein ? Je ne vois pas d'autre fille assez près... attends, tu ne parles pas de moi, n'est-ce pas ?!~
+// Réponses à @310
+@311   = ~Héhé, je tirais juste sur ta chaîne !~
+@312   = ~Alors, tu ne vois personne d'autre ? Moi non plus...~
+// Après @307
+@313   = ~Tu as dit quelque chose ?~
+// Réponses à @313
+@314   = ~Euh, oui. Nous devrions y aller.~
+@315   = ~Euh, non, rien du tout.~
+// Après @311
+@316   = ~Tiens, ça t'apprendra à être un abruti ! *donne un coup de pied à <CHARNAME>*~
+// Réponse à @316 et @319
+@317   = ~Ouille ! Mes blessures graves !~
+// Après @317, si on vient de @316
+@318   = ~Alors peut-être que tu ne devrais pas rester là à faire des blagues. Des blagues idiotes !~
+// Après @312
+@319   = ~Oh, je vois une beauté elfe, aux cheveux d'or et aux yeux plus verts que des émeraudes. Le genre devant lequel vous tous les mâles vous extasiez. *donne un coup de pied à <CHARNAME>*~
+// Après @317, si on vient de @319
+@320   = ~Alors peut-être que tu ne devrais pas regarder bouche bée et faire des blagues. Allez, séducteur ! *tire la langue*~
+// Après @314 et @315
+@321   = ~Hmff !~
+/* 3: Return to Candlekeep */
+@322   = ~Château-Suif... Je n'avais jamais imaginé que je reviendrais ici, et en particulier aussi vite. Ça fait remonter toutes sortes de souvenirs, n'est-ce pas ?~
+// Réponses à @322
+@323   = ~Oui, en effet.~
+@324   = ~Oui, comme la fois où tu avais chapardé cette tarte à M. Winthrop et que tu me l'avais donnée à moitié mangée, juste avant qu'il n'arrive et ne se mette à hurler après moi.~
+@325   = ~Ouais, mais je préférerais ne pas en parler.~
+@326   = ~Pas de temps pour évoquer les souvenirs. Nous avons du travail à accomplir.~
+// Après @323
+@327   = ~Ouais. Allons, voilà Hull ! Allons lui dire bonjour !~
+// Après @324
+@328   = ~Hé, je voulais juste partager. Comme pouvais-je savoir que M. Winthrop passait juste à ce moment-là ? Hmm ?~
+// Réponses à @328
+@329   = ~Tu le sais toujours.~
+@330   = ~Ça n'a pas d'importance. Je me suis fait engueuler quand même.~
+@331   = ~Oh, laissons tomber. Je n'ai pas envie de me disputer aujourd'hui.~
+// Après @325
+@332   = ~Tu te rappelles encore cet incident, hein ? Je ne peux pas te le reprocher, cela dit. Je m'en souviendrais aussi.~
+// Réponse à @332
+@333   = ~Même si ce n'était pas à Château-Suif même, c'est le dernier souvenir que j'en avais et il avait eu une conséquence atroce.~
+// Après @326
+// REVOIR "à la maison" (hometown)
+@334   = ~Dieux ! Que tu es silencieux aujourd'hui. Je veux dire, ce n'est pas tous les jours que l'on revient chez soi, tu sais.~
+         ~Dieux ! Que tu es silencieuse aujourd'hui. Je veux dire, ce n'est pas tous les jours que l'on revient chez soi, tu sais.~
+/* #4: Malar : suite à la mort d'Osmadi (c'est lui qui invoque la vengeance de Malar) */
+@335   = ~Qui est ce Malar dont parlait ce mec ?~
+// Réponses à @335
+// Intelligence PJ > 7
+@336   = ~Ça n'a pas vraiment d'importance. Je n'ai pas vraiment envie de te l'expliquer, non plus.~
+// Intelligence PJ < 8
+@337   = ~Je ne sais pas non plus.~
+// Intelligence PJ > 12
+@338   = ~Tu ne sais vraiment rien, Imoen ? Malar est un des dieux de ce monde.~
+// Sans condition
+@339   = ~*vous levez les yeux au ciel et ne répondez pas*~
+// Après @336
+@340   = ~Ouais, c'est ça. Je suis sûre que tu ne sais pas non plus.~
+// Réponses à @340
+// Intelligence PJ > 12
+@341   = ~Si ! Malar est un des dieux.~
+// Intelligence PJ < 13
+@342   = ~Bon, ouais. Je ne sais pas non plus.~
+// Après @337, @339, @342
+@343   = ~Hé ! Bon, au moins tu admets ton incompétence, alors je ne vais pas le retenir contre toi pour cette fois.~
+// Après @338
+@344   = ~Hum... Ouais... Si, je le savais. J'étais, hum, juste en train de te tester. C'est tout.~
+// Réponses à @344
+@345   = ~Puisque tu le dis...~
+@346   = ~D'accord, alors peux-tu au moins me dire sous quel autre nom Malar est connu ? Hein ? Ce n'est certainement pas trop difficile ?~
+@347   = ~Ecoute, Imoen, tu connais peut-être beaucoup de choses pratiques mais je me rappelle que tu n'étudiais pas trop dur à l'époque à Château-Suif. Je t'expliquerai à propos de Malar, si tu veux.~
+// Après @345
+@348   = ~Hé ! Qu'est-ce que tu sous-entends par là ? Oh, laissons tomber !~
+// Après @346
+@349   = ~Hum, eh bien, tu sais, ce euh, un gars...~
+// Réponses à @349
+@350   = ~Ouais. Pourquoi n'admets-tu pas simplement que tu as tort, et je t'expliquerai.~
+@351   = ~J'en étais sûr.~
+         ~J'en étais sûre.~
+// Après @352
+@352   = ~*soupir* Ouais. Tu as raison. Je bluffais. Je n'ai jamais pu garder les yeux ouverts pour lire ces livres ni écouter ces discussions.~
+// Réponse à @352
+@353   = ~Alors veux-tu que je t'explique qui il est ?~
+// Après @353
+@354   = ~Ouais, si ce n'est pas trop long. Je ne veux pas que tu te lances dans une longue histoire, tu sais, comme ces vieux moulins à paroles. T'es mon ami et tout et tout, mais j'ai mes limites.~
+         ~Ouais, si ce n'est pas trop long. Je ne veux pas que tu te lances dans une longue histoire, tu sais, comme ces vieux moulins à paroles. T'es mon amie et tout et tout, mais j'ai mes limites.~
+// Réponses à @354
+@355   = ~D'accord, alors je commence.~
+@356   = ~Alors tant pis. Je ne pense pas pouvoir le faire sans te barber.~
+// Suite à @355, Intelligence PJ < 17
+// Termes repris de #7335 dans Baldur's Gate, qui relate l'Histoire des Trois Morts
+@357   = ~Malar est connu comme le Seigneur des Bêtes, parce que ses pouvoirs couvrent les monstres, les animaux en maraude et d'autres choses apparentées. Il n'a aucun pouvoir important sur les humains mais il tenta d'en acquérir par le passé, quand Baine, Bhaal et Myrkul allèrent prendre le pouvoir de l'ancien Seigneur de la Fin de Toutes Choses, Jergal.~
+@358   = ~Bien entendu, ils ne désiraient pas son intervention, alors ils disputèrent un autre concours pendant que lui partait préparer l'original. On peut dire qu'il ne fut pas particulièrement content de ce résultat.~
+// Après @358
+@359   = ~La vache ! J'en doute pas.~
+@360   = ~Merci. Aucun de ces vieux fossiles bourrus n'étaient capables de l'expliquer aussi simplement que tu l'as fait.~
+// @355, Intelligence PJ > 16
+@361   = ~Malar est connu comme le Seigneur des Bêtes, parce qu'il est le patron des chasseurs, des bêtes en maraude et des lycanthropes malveillants. Par ailleurs, il contrôle la soif de sang et la traque, qui sont toutes apparentées de près d'une certaine façon à un comportement de bête. C'est un dieu mauvais, considéré seulement comme une puissance mineure parmi les divinités de Féérune. A part sur ceux qui l'adorent, il n'a pas une influence importante sur les humains.~
+// Remarque : la traduction originale de "strife" en "anéantissement" n'est pas une réussite !
+// Baine parle d'ailleurs de "querelles" quand il choisit son pouvoir
+// Tout changement est à confirmer avec CorrecFr ("discorde" ?)
+@362   = ~Un des incidents les plus connus dans lequel il fut impliqué est aujourd'hui connu comme « L'Histoire des Trois Morts ». Malar rendait visite à Jergal, le Seigneur de la Fin de Toutes Choses et le premier dieu de la mort, de l'anéantissement et des défunts.~
+// Remarque : traduction originale, "Gaste grise" pour "Grey waste" !?
+@363   = ~Bref, Malar était venu au moment où ceux qui deviendraient connus comme Les Trois Morts, Myrkul, Bhaal et Baine, se disputaient le pouvoir de Jergal, puisqu'il s'était lassé de cette tâche. Ils allaient se partager le pouvoir entre eux. Evidemment, Malar voulait une part du gâteau. Les Trois Morts lancèrent des crânes dans la Gaste Grise et Malar partit chercher un autre crâne pour lui.~
+@364   = ~Manifestement, aucun d'eux ne voulaient partager le pouvoir avec lui. Ainsi, quand il fut parti, ils décidèrent d'un nouveau jeu avec des osselets et, quand Malar revint avec un crâne, leur jeu était terminé. Malar s'en alla furieux de partir sans rien, mais il ne pouvait rien y faire.~
+@365   = ~Enfin, c'est juste un incident parmi tant d'autres, mais c'est assez pour cette fois car je vois que tu t'endors.~
+// Après @365
+@366   = ~*baille* Ouais. C'était plutôt long et ennuyeux. Bon, tu t'es arrêté avant que je m'endorme, au moins, alors t'es pas tout à fait aussi mauvais que ces éducateurs, mais quand même...~
+         ~*baille* Ouais. C'était plutôt long et ennuyeux. Bon, tu t'es arrêtée avant que je m'endorme, au moins, alors t'es pas tout à fait aussi mauvaise que ces éducateurs, mais quand même...~
+/* Enterrement de Gorion (après @230, @253 et @254) */
+// Imoen
+@367   = ~Bon, pourquoi restons-nous là à ne rien faire ? Allons-y... creusons. Un jour, peut-être, nous pourrons revenir ajouter une petite pierre tombale ou autre chose...~
+// Jaheira
+@368   = ~C'était un homme bon. Désormais son esprit peut se reposer et son corps peut retourner à la nature, en paix. Mais je jure que sa mort ne restera pas impunie, par Silvanus !~
+// Khalid
+@369   = ~Je le co-connaissais bien. Il va manquer cruellement.~
+// Garrick
+@370   = ~C'est une triste chose que nous avons faite en ce jour. Peut-être que je euh... pourrais transformer un récit de son mmmh... dernier combat en un poème convenable, un qui euh... dont on se souviendrait, espérons-le, demain et au-delà.~
+// Dynahéir
+@371   = ~Je ne connaissais pas Gorion mais, d'après ce que dit <CHARNAME> de lui, c'était un grand homme.~
+// Minsc
+@372   = ~Bouh dit que Gorion semblait être très intelligent et courageux. Minsc pense que Bouh a raison ! Minsc aurait aimé le connaître.~
+// Xan
+@373   = ~Pas un jour ne passe sans que nous assistions à l'enterrement d'une autre pauvre âme détruite par la vie d'aventurier. *soupir* J'entrevois que l'heure de nos propres funérailles se rapproche.~
+// Yeslick
+@374   = ~Quel dommage. Il aurait fait un excellent ami des nains.~
+// Kagain
+@375   = ~Ce sera tout ce sous quoi tu vas l'enterrer ? Allons ! Ce ne sera pas une sépulture convenable tant qu'il ne sera pas au moins dix pieds sous terre ! Rappelle-moi de ne jamais me faire enterrer par vous autres du monde du dessus.~
+// Xzar
+@376   = ~On dirait que le vieil homme va avoir droit à son dernier repos maintenant. Mais pourquoi n'ont-ils pas voulu me laisser prendre un doigt ou un orteil... en souvenir ?~
+// Montaron
+// A REVOIR : le terme qui accompagne ritual (idiome ?), adopter le parler de Montaron
+@377   = ~J'comprendrai jamais vos rituels folklos. Le mort est parti et y reste rien sur son cadavre digne d'intérêt sinon pour l'usage des magiciens.~
+// Imoen
+@378   = ~Je ne veux jamais plus avoir à enterrer quelqu'un. Ne t'avise pas d'aller te faire tuer à présent, <CHARNAME>. J-Je ne crois pas que je pourrais le supporter si je devais t'enterrer, toi-aussi.~
+// Réponses à @378
+@379   = ~Ne t'en fais pas, Imoen, je ne vais pas mourir. Allons-y maintenant et laissons Gorion reposer en paix.~
+@380   = ~Du moment que tu promets que je n'aurais pas à t'enterrer non plus.~
+/* Assassin 2 (après @278), on n'a pas évoqué les autres */
+// Imoen
+@381   = ~Un autre !? J'ai su qu'elle en avait après toi dès qu'elle a attaqué, mais c'est... c'en est trop pour moi. Je veux dire, je n'aime pas ça, pas du tout. Pour commencer tu te fais attaquer devant Château-Suif par une sorte de violent maniaque en quête de ton sang, et Gorion meurt. Ensuite à nouveau devant l'auberge de Brasamical, avant même que nous rencontrions Jaheira et Khalid ! Et maintenant ici, aussi ! Tu t'es fait attaquer et tu as failli mourir sur le pas de porte d'une nouvelle auberge ! C'en est trop !~
+// Khalid
+@382   = ~S-si nous avions su qu'un assassin vous attendait devant l'auberge, nous les aurions combattus également, p-pas vrai, Jaheira ?~
+// Jaheira
+@383   = ~Bien sûr. Ou nous t'aurions attendu au portail, mais nous ne pouvons pas changer le passé. Au moins nous étions avec toi cette fois-ci.~
+         ~Bien sûr. Ou nous t'aurions attendue au portail, mais nous ne pouvons pas changer le passé. Au moins nous étions avec toi cette fois-ci.~
+// Réponses à @381-@382-@383
+@384   = ~Oui, je sais que c'est difficile, et oui, je vous suis reconnaissant de votre aide. Tant que nous resterons ensemble, aucun assassin ne sera en mesure de nous vaincre...~
+         ~Oui, je sais que c'est difficile, et oui, je vous suis reconnaissante de votre aide. Tant que nous resterons ensemble, aucun assassin ne sera en mesure de nous vaincre...~
+@385   = ~C'est inquiétant. Ils savaient que je viendrais ici... très troublant même.~
+// Après @384
+// Imoen
+@386   = ~Ouais ! C'est vrai ! Nous sommes une équipe imparable !~
+// Imoen, si Khalid et Jaheira présents
+@387   = ~Ouais ! Avec moi en soutien principal ainsi que Tatie Jaheira et Tonton Khalid, les méchants n'ont aucune chance.~
+// Jaheira
+@388   = ~S'il te plaît, Imoen, tu peux m'appeler Jaheira. Pas besoin d'employer 'tatie' devant mon nom.~
+// Imoen, si Khalid et Jaheira présents
+@389   = ~D'acc, Tatie Jaheira.~
+// Imoen
+@390   = ~Allez, ne reste pas là, comme si tu attendais qu'un autre assassin vienne s'en prendre à toi !~
+/* Theodon, PJ femme, après remarque sur nu */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 27, probablement inutile de traduire ici !
+@391   = ~Qui n'a pas vu celle-là arriver de loin ? Maintenant les garçons vont en plaisanter pendant des jours... ouais !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 28, probablement inutile de traduire ici !
+@392   = ~Ah, tu es là, toi-aussi ? Eh bien, tu étais celle des deux qui était calme, toi...~
+/* Non utilisés */
+@393   = ~Ah, j'en ai assez de toi.~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 295, probablement inutile de traduire ici ! (et aussi @900)
+@394   = ~Par ici !~
+@395   = ~Merci ! Je n'y manquerai pas !~
+@396   = ~Euh... au revoir !~
+/* Chase, après @42 ou @43 */
+@1001  = ~Hein ? Aucune importance ! J'dois y aller ! Beaucoup à faire !~
+/* Chase, après @44 */
+@1002  = ~Hein ? Aucune importance ! J'ai un compte à régler avec un monde sans coeur.~
+/* Binkos, après @46 */
+@1003  = ~Pensez à tenir vos têtes baissées et vos armes prêtes.~
+/* Winthrop, après @63 */
+@1004  = ~Héhé. Mais nous sommes tous un petit peu plus vieux.~
+/* Arkushule, après @68 */
+@1005  = ~Je ne veux surtout pas de votre or, vous entendez ?~
+/* Arkushule, après @69 (attaque) ou Carsa, après @73 (fuite) */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 922, probablement inutile de traduire ici !
+@1006  = ~Aïeuh !~
+/* Borda, après @71 et Vitiare, après @176 et @177 */
+@1007  = ~Faut que j'y aille !~
+/* Jenkal, après @107 */
+@1008  = ~La ferme !~
+/* Kissiq, après @116 */
+@1009  = ~Fuyez, je vous le dis !~
+/* Nikolaï, après @160 */
+@1010  = ~Du vent !~
+/* Osmadi, après @166 */
+@1011  = ~Vous allez le payer !~
+/* Pallonia, après @169 */
+@1012  = ~Vous verrez bien. Adieu.~
+/* Raiken, après @174 */
+@1013  = ~Merci de votre donation particulièrement généreuse.~
+/* Teven, après @174 */
+@1014  = ~Merci de tout coeur !~
+/* Ulcaster, après @179 */
+@1015  = ~Adieu...~
+/* Zhurlong, après @182 ou @183 */
+@1016  = ~Qui ? Moi ?~
+/* Non utilisés */
+@402   = ~Oh, silence ! Je peux voir qu'<PRO_HESHE> sait ce qu'<PRO_HESHE> fait.~
+@403   = ~Ohhh...~
+@404   = ~Sentez la puissance !~
+/* Destus */
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 221, probablement inutile de traduire ici !
+@405   = ~Par ici, s'il vous plaît.~
+/* Non utilisés */
+@406   = ~Absurde !~
+@407   = ~Déchirez-les !~
+@408   = ~Fuyez, je vous dis !~
+// BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 933, probablement inutile de traduire ici !
+@409   = ~Merci !~
+@410   = ~Enfoirés.~
+// BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 582, probabilité 53.7
+@413   = ~Vous verrez bien. Adieu !~
+

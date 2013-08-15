@@ -1,0 +1,279 @@
+/* general: TimeOfday, Timers: changed for debug */
+/* reinnehmen: reputation check? */
+
+/* first three flirts: carrying, sunset, bedroll */
+
+IF %BGT_VAR%
+  InParty(Myself)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",6)
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  Global("X#AjantisRomanceMatch","GLOBAL",1)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",0)
+  !Global("X#AjantisCoranChallenge","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("X#AjantisRomanceIniFlirt","GLOBAL",1)
+    RealSetGlobalTimer("X#AjantisRomanceIniFlirtTimer","GLOBAL",AJROM_TIMER)
+END
+
+/* flirt "carrying" */
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("X#AjantisRomanceIniFlirtTimer","GLOBAL")
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  Global("X#AjantisRomanceMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",6)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",1)
+  !InventoryFull("ajantis")
+  THEN
+  RESPONSE #100
+    SetGlobal("X#AjantisRomanceIniFlirt","GLOBAL",2)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",2)
+  THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("ajrom")
+  StartDialogueNoSet(Player1)  
+END
+
+/* flirt "sunset1" Weather change (no weather) */
+IF %BGT_VAR%
+  InParty(Myself)
+  RealGlobalTimerExpired("X#AjantisRomanceIniFlirtTimer","GLOBAL")
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  !Global("X#AjantisCoranChallenge","GLOBAL",1)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  OR(2)
+    TimeOfDay(MORNING)
+    TimeOfDay(DUSK)
+  !AreaType(DUNGEON)
+  OR(3)
+   AreaType(OUTDOOR)   
+   AreaType(WEATHER)
+   AreaType(FOREST)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",6)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",3)
+  Global("X#AjantisRomanceWeatherFlirt1","GLOBAL",0)
+THEN
+ RESPONSE #100
+   SetGlobal("X#AjantisRomanceWeatherFlirt1","GLOBAL",1)
+   Weather(NOWEATHER)
+   SetGlobalTimer("X#AjantisRomanceWeatherFlirtT1","GLOBAL",5)
+   MoveToObject(Player1)
+END
+
+/* flirt "sunset1" Talk triggering */
+IF %BGT_VAR%
+  InParty(Myself)
+  RealGlobalTimerExpired("X#AjantisRomanceIniFlirtTimer","GLOBAL")
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  !Global("X#AjantisCoranChallenge","GLOBAL",1)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  OR(2)
+    TimeOfDay(MORNING)
+    TimeOfDay(DUSK)
+    !AreaType(DUNGEON)
+  OR(3)
+   AreaType(OUTDOOR)
+   AreaType(WEATHER)
+   AreaType(FOREST)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",6)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",3)
+  Global("X#AjantisRomanceWeatherFlirt1","GLOBAL",1)
+  GlobalTimerExpired("X#AjantisRomanceWeatherFlirtT1","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("X#AjantisRomanceWeatherFlirt1","GLOBAL",2)
+    SetGlobal("X#AjantisRomanceIniFlirt","GLOBAL",4)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",4)
+  THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("ajrom")
+  StartDialogueNoSet(Player1)  
+END
+
+/* flirt "bedroll" */
+IF %BGT_VAR%
+  InParty(Myself)      
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  RealGlobalTimerExpired("X#AjantisRomanceIniFlirtTimer","GLOBAL")
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  See(Player1)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",6)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",5)
+THEN
+  RESPONSE #100
+    SetGlobal("X#AjantisRomanceIniFlirt","GLOBAL",6)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#AjantisRomanceIniFlirt","GLOBAL",6)
+  THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("ajrom")
+  StartDialogueNoSet(Player1)  
+END
+
+/*Flirt sunset 2  - weather change  */
+IF %BGT_VAR%
+  InParty(Myself)
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  !Global("X#AjantisCoranChallenge","GLOBAL",1)
+  See(Player1)
+  ReputationGT(Player1,15)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",27)
+  Global("X#AjantisRomanceWeatherChange2","GLOBAL",0)
+  TimeOfDay(DUSK)
+  !AreaType(DUNGEON)
+  OR(3)
+   AreaType(OUTDOOR)
+   AreaType(WEATHER)
+   AreaType(FOREST)
+  Global("X#AjantisRomanceSunsetFlirt","GLOBAL",0)
+THEN
+ RESPONSE #100
+   SetGlobal("X#AjantisRomanceWeatherChange2","GLOBAL",1)
+   Weather(NOWEATHER)
+   SetGlobalTimer("X#AjantisRomanceWeatherTimer2","GLOBAL",5)
+   MoveToObject(Player1)
+END
+
+/* Triggering of LT 28 */
+IF %BGT_VAR%
+  InParty(Myself)
+  !Global("X#AjantisRomanceActive","GLOBAL",3)
+  !Global("X#AjantisCoranChallenge","GLOBAL",1)
+  See(Player1)
+  ReputationGT(Player1,15)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",27)
+  Global("X#AjantisRomanceWeatherChange2","GLOBAL",1)
+  TimeOfDay(DUSK)
+  !AreaType(DUNGEON)
+  OR(3)
+   AreaType(OUTDOOR)
+   AreaType(WEATHER)
+   AreaType(FOREST)
+  GlobalTimerExpired("X#AjantisRomanceWeatherTimer2","GLOBAL")
+  Global("X#AjantisRomanceSunsetFlirt","GLOBAL",0)
+THEN
+RESPONSE #100
+   SetGlobal("X#AjantisRomanceWeatherChange2","GLOBAL",2)
+   SetGlobal("X#AjantisRomanceSunsetFlirt","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#AjantisRomanceSunsetFlirt","GLOBAL",1)
+  THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("ajrom")
+  StartDialogueNoSet(Player1)  
+END
+
+/* RomanceActive = 2 flirts */
+IF %BGT_VAR%
+  InParty(Myself)
+  GlobalGT("X#AjantisLoveTalk","GLOBAL",34) //LT confession
+  Global("X#AjantisRomanceActive","GLOBAL",2)
+  Global("X#AjantisRomanceIniFlirt3","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("X#AjantisRomanceIniFlirt3","GLOBAL",1)
+    RealSetGlobalTimer("X#AjantisRomanceFlirtKissTimer","GLOBAL",3000)
+    RealSetGlobalTimer("X#AjantisRomanceFlirtFavorT","GLOBAL",5000)
+END
+
+/* flirt "kiss" */
+IF %BGT_VAR%
+  InParty(Myself)
+  RealGlobalTimerExpired("X#AjantisRomanceFlirtKissTimer","GLOBAL")
+  Global("X#AjantisRomanceActive","GLOBAL",2)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  Global("X#AjantisRomanceFlirtKiss","GLOBAL",0) 
+THEN
+  RESPONSE #100
+  SetGlobal("X#AjantisRomanceFlirtKiss","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#AjantisRomanceFlirtKiss","GLOBAL",1)
+  THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("ajrom")
+  StartDialogueNoSet(Player1)  
+END
+
+/* flirt "PC_favor" */
+IF %BGT_VAR%
+  InParty(Myself)
+  RealGlobalTimerExpired("X#AjantisRomanceFlirtFavorT","GLOBAL")
+  Global("X#AjantisRomanceActive","GLOBAL",2)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  Global("X#AjantisRomanceFlirtFavor","GLOBAL",0) 
+THEN
+  RESPONSE #100
+    SetGlobal("X#AjantisRomanceFlirtFavor","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#AjantisRomanceFlirtFavor","GLOBAL",1)
+  THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("ajrom")
+  StartDialogueNoSet(Player1)  
+END

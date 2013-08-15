@@ -22,17 +22,178 @@ VERSION ~v20~
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
 
 ALWAYS
+ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+  /*Tell the player it is using BG:EE stuff */
+  PRINT @5000
+  INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
+  OUTER_SPRINT ~bgee~ ~bgee/~
+
+  // BG:EE tra conversion
+  // Isaya: check for existence of BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra as a marker that the mod
+  // has already installed at least one component, so conversion is already done, in order
+  // to avoid repeating for each component (as a backup of all tra files is then done in each
+  // subdirectory of backup)
+  // This is a handy trick with BG1 NPC, since BG1NPC.tra is created when the mod is installed
+  // and removed with the mod. But it cannot be used as a generic trick for other mods.
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bg1npc/tra/%LANGUAGE%/BG1NPC.tra~) AND
+            ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) AND
+            ( ("%LANGUAGE%" STRING_COMPARE_CASE ~french~ = 0) OR ("%LANGUAGE%" STRING_COMPARE_CASE ~spanish~ = 0) ) THEN BEGIN
+    // Only convert for the language selected by passing the directory as parameter
+    AT_NOW ~bg1npc/conv_tra.bat %LANGUAGE%~
+    //AT_NOW ~bg1npc/conv_tra.bat~
+    // Isaya: all tra files have to be renamed from .tra_utf8 to .tra!
+    // Otherwise the tra files for dialogs are still with the Windows 1252 encoding
+    MOVE ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#brlt.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#brlt.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#centeo.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#centeo.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#ciflirt.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#ciflirt.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#corlt.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#corlt.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#crnpc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#crnpc.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#fw2700.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#fw2700.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#imanel.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#imanel.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#imanl2.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#imanl2.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/p#wolf.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#wolf.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/setup.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/setup.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#addial_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#addial_tmp.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantis.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantis.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr_notosc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr_notosc.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisbhaallts.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisbhaallts.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantischallenges_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantischallenges_pr.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisdreamlts.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisdreamlts.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisiniflirts_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisiniflirts_pr.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantislts_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantislts_pr.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisnpc_talks_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisnpc_talks_pr.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajchal.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajchal.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajpcfl_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajpcfl_tmp.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajroadd_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajroadd_pr.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#alint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#alint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#alora.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#alora.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#aloran.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#aloran.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#alorepl.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#alorepl.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ar6001.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ar6001.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#assist.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#assist.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#branw.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#branw.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#bri.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#bri.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#brint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#brint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#challenge.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#challenge.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#chop.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#chop.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#coint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#coint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#coran.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#coran.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#coran1.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#coran1.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#cru11.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#cru11.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#da0125.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#da0125.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dav01.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dav01.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dav02.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dav02.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#davi.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#davi.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dybha.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dybha.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dyint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dyint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dylast.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dylast.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dynah.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dynah.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dyro.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dyro.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#dyronpc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#dyronpc.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#edint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#edint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#edwin.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#edwin.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#eldoth.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#eldoth.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#eldothn.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#eldothn.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#elint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#elint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#faint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#faint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#faldorn.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#faldorn.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#gaint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#gaint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#garar.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#garar.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#garri.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#garri.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#garwyl.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#garwyl.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#gorlet.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#gorlet.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#halbaz.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#halbaz.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#ict3.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ict3.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#imint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#imint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#imoen.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#imoen.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#impspl.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#impspl.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#jaheira.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#jaheira.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#jaint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#jaint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kagain.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kagain.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kaint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kaint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#khalid.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#khalid.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#khint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#khint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kiint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kiint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kiint_new.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kiint_new.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kisequ.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kisequ.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#kivan.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#kivan.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lake.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lake.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lp1r.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lp1r.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lp1rep.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lp1rep.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lp2r.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lp2r.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lp2rep.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lp2rep.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lp3r.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lp3r.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lp3rep.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lp3rep.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#lprcad.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#lprcad.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#miint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#minsc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#minsc.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#mirc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#mirc.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#moint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#montaron.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#montaron.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#newmerch2.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#newmerch2.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#pcbury.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#pcbury.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#pcbury1.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#pcbury1.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#pcinit_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#pcinit_tmp.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#quayl.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#quayl.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#quint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#quint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#rumor.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#rumor.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#safana.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#safana.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#saint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#saint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#sharteel.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#sharteel.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#shint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#shint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#shrom.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#shrom.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#skie.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#skie.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#skint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#skint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#tiax.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#tiax.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#tiaxquest.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#tiaxquest.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#tiint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#tiint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#totsc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#totsc.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#viconia.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#viconia.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#viint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#viint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xaint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xaint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xan.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xan.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xanlt.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xanlt.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xanq.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xanq.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xqxan.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xqxan.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xzar.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xzar.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xzdqu.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xzdqu.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xzdr2.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xzdr2.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xzdr3.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xzdr3.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xzint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xzint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#yeint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#yeint.tra~
+    MOVE ~bg1npc/tra/%LANGUAGE%/x#yeslick.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#yeslick.tra~
+
+//    MOVE ~bg1npc/tra/%LANGUAGE%/setup.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/setup.tra~
+    LOAD_TRA ~bg1npc/tra/%LANGUAGE%/setup.tra~
+    PRINT ~re-loaded %LANGUAGE% TRA files~
+  END
+
+END ELSE BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
-    PRINT @1000  /* Tell the player it is using Tutu stuff */
-    INCLUDE ~BG1NPC\lib\g3_tutu_cpmvars.tpa~
+    /* Tell the player it is using Tutu stuff */
+    PRINT @1000
+    INCLUDE ~bg1npc\lib\g3_tutu_cpmvars.tpa~
+    OUTER_SPRINT ~bgee~ ~~
   END ELSE BEGIN
     ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
-        PRINT @1001 /* Tell the player it is using BGT stuff */
-        INCLUDE ~BG1NPC\lib\g3_bgt_cpmvars.tpa~
-      END ELSE BEGIN 
-	    FAIL @1002 /* Tell the player it is not Tutu or BGT */
-      END
+        /* Tell the player it is using BGT stuff */
+        PRINT @1001
+        INCLUDE ~bg1npc\lib\g3_bgt_cpmvars.tpa~
+        OUTER_SPRINT ~bgee~ ~~
+        /* Tell the player it is not Tutu or BGT */
+    END ELSE BEGIN FAIL ~Please install on BG:EE, Tutu or BGT.~
+    END
   END
+END
 
   /*  alter fluid states */
   INCLUDE ~BG1NPC\lib\g3_fluid_cpmvars.tpa~
@@ -50,8 +211,9 @@ LANGUAGE ~English~ ~english~ ~bg1npc/tra/english/setup.tra~
 LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ ~bg1npc/tra/spanish/setup.tra~
 LANGUAGE ~Francais (traduit par les d'Oghmatiques)~ ~french~ ~bg1npc/tra/french/setup.tra~
 
+
 /* BEGIN The BG1 NPC Project: Required Modifications  */
-BEGIN @1005
+BEGIN @1005 DESIGNATED 0
   /* Tells other mods BG1NPC Core is installed */
   COPY ~BG1NPC/Core/X#component.xx~ ~override/X#BG1NPCCore.G3~
 
@@ -412,14 +574,21 @@ BEGIN @1005
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_branwe5.cre~ = 0) BEGIN
 					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
 					WRITE_BYTE 0x66 5 // Lore
-				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
-				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe5.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
-					WRITE_BYTE 0x66 5 // Lore
-				END	
+				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe5.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
+      					WRITE_BYTE 0x66 5 // Lore
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe5.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
+      					WRITE_BYTE 0x66 5 // Lore
+      				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%coran.cre~ = 0) BEGIN
 					WRITE_BYTE 0x24 24 // Current Hit Points
 					WRITE_BYTE 0x26 24 // Maximum Hit Points
@@ -502,15 +671,21 @@ BEGIN @1005
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_faldor.cre~ = 0) BEGIN
 					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
 				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_faldor5.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
-				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE  ~faldor.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
-				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~faldor5.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
-				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_faldor5.cre~ = 0) BEGIN
+      					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE  ~faldor.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~faldor5.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE  ~faldor.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~faldor5.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
+      				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%galtok.cre~ = 0) BEGIN // Galtok (in Nashkel Mines)
 				  WRITE_LONG 0x14 176 // XP Value (was 151)
 					WRITE_SHORT 0x24 25 // Current HP (was 2)
@@ -581,18 +756,30 @@ BEGIN @1005
 				END	 
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_garric6.cre~ = 0) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
-				END	  
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
-				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
-				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
 				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%gellan.cre~ = 0) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
 					WRITE_SHORT 0x24 65 // Current HP (was 55)
@@ -718,18 +905,30 @@ BEGIN @1005
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_imoen6.cre~ = 0) BEGIN
 					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
-				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
-				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
-				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen61.cre~ = 0) BEGIN
-					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
-				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen61.cre~ = 0)AND (FILE_EXISTS_IN_GAME ~ar7200.are~)  BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen6.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%jaheir.cre~ = 0) BEGIN
 					WRITE_BYTE 0x66 1 // Lore
 				END
@@ -1315,72 +1514,74 @@ BEGIN @1005
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_ALORAJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_ALORAJ\1_ALORAD~
     BUT_ONLY_IF_IT_CHANGES
   END ELSE BEGIN /* BGT Versions */
-  COPY_EXISTING ~pdialog.2da~ ~override~
-    COUNT_2DA_ROWS 8 "cnt_row"
-    FOR ( cnt=0; cnt<"%cnt_row%"; cnt=cnt+1 ) BEGIN
-      READ_2DA_ENTRY "%cnt%" 0 8 "pd_name"
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "MONTARON")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "MONTAD"
+  ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
+    COPY_EXISTING ~pdialog.2da~ ~override~
+      COUNT_2DA_ROWS 8 "cnt_row"
+      FOR ( cnt=0; cnt<"%cnt_row%"; cnt=cnt+1 ) BEGIN
+        READ_2DA_ENTRY "%cnt%" 0 8 "pd_name"
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "MONTARON")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "MONTAD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KAGAIN")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "KAGAID"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KIVAN")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "KIVAND"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SHARTEEL")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "SHARTD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "YESLICK")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "YESLID"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "XZAR")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "XZARD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "ALORA")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "ALORAD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "AJANTIS")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "AJANTD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KHALID")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "KHALID"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "GARRICK")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "GARRID"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SAFANA")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "SAFAND"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "FALDORN")=0) BEGIN
+        SET_2DA_ENTRY "%cnt%" 3 8 "FALDOD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "BRANWEN")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "BRANWD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "QUAYLE")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "QUAYLD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "XAN")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "XAND"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SKIE")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "SKIED"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "ELDOTH")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "ELDOTD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "TIAX")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "TIAXD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "DYNAHEIR")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "DYNAHD"
+        END
+        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "CORAN")=0) BEGIN
+         SET_2DA_ENTRY "%cnt%" 3 8 "CORAND"
+        END
       END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KAGAIN")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "KAGAID"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KIVAN")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "KIVAND"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SHARTEEL")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "SHARTD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "YESLICK")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "YESLID"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "XZAR")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "XZARD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "ALORA")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "ALORAD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "AJANTIS")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "AJANTD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KHALID")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "KHALID"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "GARRICK")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "GARRID"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SAFANA")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "SAFAND"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "FALDORN")=0) BEGIN
-      SET_2DA_ENTRY "%cnt%" 3 8 "FALDOD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "BRANWEN")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "BRANWD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "QUAYLE")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "QUAYLD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "XAN")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "XAND"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SKIE")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "SKIED"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "ELDOTH")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "ELDOTD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "TIAX")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "TIAXD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "DYNAHEIR")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "DYNAHD"
-      END
-      PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "CORAN")=0) BEGIN
-       SET_2DA_ENTRY "%cnt%" 3 8 "CORAND"
-      END
-    END
-  BUT_ONLY_IF_IT_CHANGES
+    BUT_ONLY_IF_IT_CHANGES
+  END
   END
 
   /* .2da patching */
@@ -1408,6 +1609,16 @@ BEGIN @1005
     ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bimoen2.dlg~) AND (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
       COMPILE ~BG1NPC/Core/dlg/X#BIMOEN_BGT.D~
     END
+  END 
+  
+    /* give Imoen a J file in BG:EE */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imoenj.dlg~) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) THEN BEGIN
+    COMPILE ~BG1NPC/Core/dlg/x#imoenj_bgee.d~
+  END
+
+    /* give CHARNAME a dialogue file in BG:EE */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1.dlg~) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) THEN BEGIN
+    COMPILE ~BG1NPC/Core/dlg/x#player1_bgee.d~
   END
 
   /* Cam's 2DA Neutral/Happy interjection restoration */
@@ -1416,148 +1627,151 @@ BEGIN @1005
       SET_2DA_ENTRY "%row%" 2 4 ~80~
     END
   BUT_ONLY_IF_IT_CHANGES
+  
+  ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
 
-  /* CamDawg's Temple Healing Fix */
-  /* give all stores the normal suite of cures available */
-  COPY_EXISTING_REGEXP GLOB ~^.+\.sto$~ ~override~
-    READ_BYTE 0x10 "flags" ELSE 0
-    PATCH_IF (("%flags%" BAND 0b00010000) = 0b00010000) BEGIN //  if sures available; also filters out invalid files
-      READ_LONG 0x2c "buy_off"   ELSE 0
-      READ_LONG 0x34 "sale_off"  ELSE 0
-      READ_LONG 0x4c "drink_off" ELSE 0
-      READ_LONG 0x70 "cure_off"  ELSE 0
-      READ_LONG 0x74 "cure_num"  ELSE 0
-      SET "new_cure" = 0
-      SET "sppr103" = 0 //  cure light wounds
-      SET "sppr212" = 0 //  slow poison
-      SET "sppr303" = 0 //  dispel magic
-      SET "sppr307" = 0 //  remove curse
-      SET "sppr401" = 0 //  cure serious wounds
-      SET "sppr502" = 0 //  cure light wounds
-      SET "sppr504" = 0 //  raise dead
-      SET "sppr607" = 0 //  cure critical wounds
-      SET "sppr712" = 0 //  resurrection
-      SET "sppr713" = 0 //  greater restoration
-      //  check if cures already available
-      FOR (index = 0; index < cure_num; index = index + 1) BEGIN
-        READ_ASCII ("%cure_off%" + ("%index%" * 0x0c)) "resref"
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr103" = 0) BEGIN
-          SET "sppr103" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr212" = 0) BEGIN
-          SET "sppr212" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr303" = 0) BEGIN
-          SET "sppr303" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr307" = 0) BEGIN
-          SET "sppr307" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr401" = 0) BEGIN
-          SET "sppr401" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr502" = 0) BEGIN
-          SET "sppr502" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr504" = 0) BEGIN
-          SET "sppr504" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr607" = 0) BEGIN
-          SET "sppr607" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr712" = 0) BEGIN
-          SET "sppr712" = 1
-        END ELSE
-        PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr713" = 0) BEGIN
-          SET "sppr713" = 1
+    /* CamDawg's Temple Healing Fix */
+    /* give all stores the normal suite of cures available */
+    COPY_EXISTING_REGEXP GLOB ~^.+\.sto$~ ~override~
+      READ_BYTE 0x10 "flags" ELSE 0
+      PATCH_IF (("%flags%" BAND 0b00010000) = 0b00010000) BEGIN //  if sures available; also filters out invalid files
+        READ_LONG 0x2c "buy_off"   ELSE 0
+        READ_LONG 0x34 "sale_off"  ELSE 0
+        READ_LONG 0x4c "drink_off" ELSE 0
+        READ_LONG 0x70 "cure_off"  ELSE 0
+        READ_LONG 0x74 "cure_num"  ELSE 0
+        SET "new_cure" = 0
+        SET "sppr103" = 0 //  cure light wounds
+        SET "sppr212" = 0 //  slow poison
+        SET "sppr303" = 0 //  dispel magic
+        SET "sppr307" = 0 //  remove curse
+        SET "sppr401" = 0 //  cure serious wounds
+        SET "sppr502" = 0 //  cure light wounds
+        SET "sppr504" = 0 //  raise dead
+        SET "sppr607" = 0 //  cure critical wounds
+        SET "sppr712" = 0 //  resurrection
+        SET "sppr713" = 0 //  greater restoration
+        //  check if cures already available
+        FOR (index = 0; index < cure_num; index = index + 1) BEGIN
+          READ_ASCII ("%cure_off%" + ("%index%" * 0x0c)) "resref"
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr103" = 0) BEGIN
+            SET "sppr103" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr212" = 0) BEGIN
+            SET "sppr212" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr303" = 0) BEGIN
+            SET "sppr303" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr307" = 0) BEGIN
+            SET "sppr307" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr401" = 0) BEGIN
+            SET "sppr401" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr502" = 0) BEGIN
+            SET "sppr502" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr504" = 0) BEGIN
+            SET "sppr504" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr607" = 0) BEGIN
+            SET "sppr607" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr712" = 0) BEGIN
+            SET "sppr712" = 1
+          END ELSE
+          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr713" = 0) BEGIN
+            SET "sppr713" = 1
+          END
+        END
+        //  add cures if not already present
+        PATCH_IF ("%sppr103%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr103~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 50        //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr212%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr212~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 150       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr303%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr303~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr307%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr307~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 500       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr401%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr401~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 100       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr502%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr502~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr504%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr504~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr607%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr607~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr712%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr712~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 1000      //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        PATCH_IF ("%sppr713%" = 0) BEGIN //  if cure not already available
+          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr713~ //  resref
+            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
+          SET "cure_num" = "%cure_num%" + 1
+          SET "new_cure" = "%new_cure%" + 1
+        END
+        //  adjust offsets and counts if cures inserted
+        PATCH_IF ("%new_cure%" > 0) BEGIN
+          WRITE_LONG 0x74 "%cure_num%"
+          PATCH_IF ("%buy_off%" > "%cure_off%") BEGIN
+            WRITE_LONG 0x2c ("%buy_off%" + ("%new_cure%" * 0x0c))
+          END
+          PATCH_IF ("%sale_off%" > "%cure_off%") BEGIN
+            WRITE_LONG 0x34 ("%sale_off%" + ("%new_cure%" * 0x0c))
+          END
+          PATCH_IF ("%drink_off%" > "%cure_off%") BEGIN
+            WRITE_LONG 0x4c ("%drink_off%" + ("%new_cure%" * 0x0c))
+          END
         END
       END
-      //  add cures if not already present
-      PATCH_IF ("%sppr103%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr103~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 50        //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr212%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr212~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 150       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr303%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr303~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr307%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr307~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 500       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr401%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr401~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 100       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr502%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr502~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr504%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr504~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr607%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr607~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr712%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr712~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 1000      //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      PATCH_IF ("%sppr713%" = 0) BEGIN //  if cure not already available
-        INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-          WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr713~ //  resref
-          WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
-        SET "cure_num" = "%cure_num%" + 1
-        SET "new_cure" = "%new_cure%" + 1
-      END
-      //  adjust offsets and counts if cures inserted
-      PATCH_IF ("%new_cure%" > 0) BEGIN
-        WRITE_LONG 0x74 "%cure_num%"
-        PATCH_IF ("%buy_off%" > "%cure_off%") BEGIN
-          WRITE_LONG 0x2c ("%buy_off%" + ("%new_cure%" * 0x0c))
-        END
-        PATCH_IF ("%sale_off%" > "%cure_off%") BEGIN
-          WRITE_LONG 0x34 ("%sale_off%" + ("%new_cure%" * 0x0c))
-        END
-        PATCH_IF ("%drink_off%" > "%cure_off%") BEGIN
-          WRITE_LONG 0x4c ("%drink_off%" + ("%new_cure%" * 0x0c))
-        END
-      END
-    END
-    BUT_ONLY_IF_IT_CHANGES
+      BUT_ONLY_IF_IT_CHANGES
+  END
 
   ACTION_IF FILE_EXISTS_IN_GAME ~fw0100.are~ THEN BEGIN
     /* Music File .2da patching, Tutu only */
@@ -1571,8 +1785,10 @@ BEGIN @1005
     /* Stop Bioware dialogues repeating, fixes DLG matching BreakingPoint DPLAYER2.bcs changes */
     COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#BGREPLACE_TUTU.D~
   END ELSE BEGIN  /* BGT Versions */
-    /* Stop Bioware dialogues repeating, fixes DLG */
-    COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#BGREPLACE_BGT.D~
+    ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
+      /* Stop Bioware dialogues repeating, fixes DLG */
+      COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#BGREPLACE_BGT.D~
+    END
   END
 
   /* custom cutspy.cre for BG1NPC code */
@@ -1647,8 +1863,10 @@ BEGIN @1005
 
     EXTEND_TOP ~DPLAYER2.bcs~ ~BG1NPC/Core/baf/X#DPLYR2.BAF~
   END ELSE BEGIN  /* BGT Versions */
-     /* Cleaning J files from junk states */
-    COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#JFIX_BGT.D~
+    ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
+       /* Cleaning J files from junk states */
+      COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#JFIX_BGT.D~
+    END
 
     /* Changing DPLAYER2.bcs to stop BreakingPoint SDNS from hanging */
     /* unnessesary in BGT */
@@ -1758,90 +1976,95 @@ BEGIN @1005
     INCLUDE ~BG1NPC\LIB\tutu_area_script_assign.tph~
   END
 
-  /* Area Type Flagging */
-  /* ToSC only: Tutu and BGT */
-  ACTION_IF (FILE_EXISTS_IN_GAME ~FW1500.are~) OR (FILE_EXISTS_IN_GAME ~ARW500.are~) THEN BEGIN //  if TotSC is installed
-    COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
-                  ~%IsleofBalduranS%.are~ ~override~
-                  ~%DurlagsTower%.are~ ~override~
-                  ~%Farmlands%.are~ ~override~ //  is this correct? area reference is... FW0400
+  ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
+    /* Area Type Flagging */
+    /* ToSC only: Tutu and BGT */
+    ACTION_IF (FILE_EXISTS_IN_GAME ~FW1500.are~) OR (FILE_EXISTS_IN_GAME ~ARW500.are~) THEN BEGIN //  if TotSC is installed
+      COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
+                    ~%IsleofBalduranS%.are~ ~override~
+                    ~%DurlagsTower%.are~ ~override~
+                    ~%Farmlands%.are~ ~override~ //  is this correct? area reference is... FW0400
+        READ_BYTE  "0x48" "flags"
+        WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
+      BUT_ONLY_IF_IT_CHANGES
+    END
+  
+    /* FOREST and OUTDOOR: Tutu and BGT */
+    COPY_EXISTING ~%FishingVillage%.are~ ~override~
+                  ~%Peldvale%.are~ ~override~
+                  ~%LionsWay%.are~ ~override~
+                  ~%CoastWay%.are~ ~override~
+                  ~%Larswood%.are~ ~override~
+                  ~%ShipwrecksCoast%.are~ ~override~
+                  ~%HighHedge%.are~ ~override~
+                  ~%MutaminsGarden%.are~ ~override~
+                  ~%Lighthouse%.are~ ~override~
+                  ~%RedCanyons%.are~ ~override~
+                  ~%SouthBeregostRoad%.are~ ~override~
+                  ~%Ulcaster%.are~ ~override~
+                  ~%ArchaeologicalSite%.are~ ~override~
+                  ~%FishermansLake%.are~ ~override~
+                  ~%NorthNashkelRoad%.are~ ~override~
+                  ~%LonelyPeaks%.are~ ~override~
+                  ~%FirewineBridge%.are~ ~override~
+                  ~%BearRiver%.are~ ~override~
+                  ~%ValleyoftheTombs%.are~ ~override~
+                  ~%DryadFalls%.are~ ~override~
+                  ~%FireLeafForest%.are~ ~override~
+                  ~%GibberlingMountains%.are~ ~override~
       READ_BYTE  "0x48" "flags"
       WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
     BUT_ONLY_IF_IT_CHANGES
-  END
+  
+    /* OUTDOOR ONLY: Tutu and BGT */
+    COPY_EXISTING ~%GnollStronghold%.are~ ~override~
+                  ~%NashkelMines%.are~ ~override~
+                  ~%FriendlyArmInn%.are~ ~override~
+                  ~%Temple%.are~ ~override~
+                  ~%NashkelCarnival%.are~ ~override~
+      READ_BYTE  "0x48" "flags"
+      WRITE_BYTE "0x48" ("%flags%" BOR "0b00000001")
+    BUT_ONLY_IF_IT_CHANGES
+  
+    /* CITY and OUTDOOR */
+    COPY_EXISTING ~%WyrmsCrossing%.are~ ~override~
+                  ~%Candlekeep_Ch6%.are~ ~override~
+                  ~%Gullykin%.are~ ~override~
+      READ_BYTE  "0x48" "flags"
+      WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
+    BUT_ONLY_IF_IT_CHANGES
+  
+    ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+    /* WizWom's Tutu NPC Battle fix: TUTU only, not compatible with BGT scripts */
+      COPY_EXISTING ~%EDWIN_BCS%.bcs~ ~override~
+                    ~%ELDOTH_BCS%.bcs~ ~override~
+                    ~%SHARTEEL_BCS%.bcs~ ~override~
+                    ~%JAHEIRA_BCS%.bcs~ ~override~
+                    ~%KAGAIN_BCS%.bcs~ ~override~
+                    ~%KHALID_BCS%.bcs~ ~override~
+                    ~%KIVAN_BCS%.bcs~ ~override~
+                    ~%MINSC_BCS%.bcs~ ~override~
+                    ~%MONTARON_BCS%.bcs~ ~override~
+                    ~%QUAYLE_BCS%.bcs~ ~override~
+                    ~%TIAX_BCS%.bcs~ ~override~
+                    ~%VICONIA_BCS%.bcs~ ~override~
+                    ~%DYNAHEIR_BCS%.bcs~ ~override~
+        DECOMPILE_BCS_TO_BAF
+          REPLACE_TEXTUALLY CASE_INSENSITIVE ~MakeUnselectable(5000)~ ~MakeUnselectable(6) Continue()~
+        COMPILE_BAF_TO_BCS
+      BUT_ONLY_IF_IT_CHANGES
+    END
 
-  /* FOREST and OUTDOOR: Tutu and BGT */
-  COPY_EXISTING ~%FishingVillage%.are~ ~override~
-                ~%Peldvale%.are~ ~override~
-                ~%LionsWay%.are~ ~override~
-                ~%CoastWay%.are~ ~override~
-                ~%Larswood%.are~ ~override~
-                ~%ShipwrecksCoast%.are~ ~override~
-                ~%HighHedge%.are~ ~override~
-                ~%MutaminsGarden%.are~ ~override~
-                ~%Lighthouse%.are~ ~override~
-                ~%RedCanyons%.are~ ~override~
-                ~%SouthBeregostRoad%.are~ ~override~
-                ~%Ulcaster%.are~ ~override~
-                ~%ArchaeologicalSite%.are~ ~override~
-                ~%FishermansLake%.are~ ~override~
-                ~%NorthNashkelRoad%.are~ ~override~
-                ~%LonelyPeaks%.are~ ~override~
-                ~%FirewineBridge%.are~ ~override~
-                ~%BearRiver%.are~ ~override~
-                ~%ValleyoftheTombs%.are~ ~override~
-                ~%DryadFalls%.are~ ~override~
-                ~%FireLeafForest%.are~ ~override~
-                ~%GibberlingMountains%.are~ ~override~
-    READ_BYTE  "0x48" "flags"
-    WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
-  BUT_ONLY_IF_IT_CHANGES
 
-  /* OUTDOOR ONLY: Tutu and BGT */
-  COPY_EXISTING ~%GnollStronghold%.are~ ~override~
-                ~%NashkelMines%.are~ ~override~
-                ~%FriendlyArmInn%.are~ ~override~
-                ~%Temple%.are~ ~override~
-                ~%NashkelCarnival%.are~ ~override~
-    READ_BYTE  "0x48" "flags"
-    WRITE_BYTE "0x48" ("%flags%" BOR "0b00000001")
-  BUT_ONLY_IF_IT_CHANGES
-
-  /* CITY and OUTDOOR */
-  COPY_EXISTING ~%WyrmsCrossing%.are~ ~override~
-                ~%Candlekeep_Ch6%.are~ ~override~
-                ~%Gullykin%.are~ ~override~
-    READ_BYTE  "0x48" "flags"
-    WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
-  BUT_ONLY_IF_IT_CHANGES
-
-  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
-  /* WizWom's Tutu NPC Battle fix: TUTU only, not compatible with BGT scripts */
-    COPY_EXISTING ~%EDWIN_BCS%.bcs~ ~override~
-                  ~%ELDOTH_BCS%.bcs~ ~override~
-                  ~%SHARTEEL_BCS%.bcs~ ~override~
-                  ~%JAHEIRA_BCS%.bcs~ ~override~
-                  ~%KAGAIN_BCS%.bcs~ ~override~
-                  ~%KHALID_BCS%.bcs~ ~override~
-                  ~%KIVAN_BCS%.bcs~ ~override~
-                  ~%MINSC_BCS%.bcs~ ~override~
-                  ~%MONTARON_BCS%.bcs~ ~override~
-                  ~%QUAYLE_BCS%.bcs~ ~override~
-                  ~%TIAX_BCS%.bcs~ ~override~
-                  ~%VICONIA_BCS%.bcs~ ~override~
-                  ~%DYNAHEIR_BCS%.bcs~ ~override~
+    /* Miloch's bugged spell/script fixes (required for Gnomes) */
+    COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
       DECOMPILE_BCS_TO_BAF
-        REPLACE_TEXTUALLY CASE_INSENSITIVE ~MakeUnselectable(5000)~ ~MakeUnselectable(6) Continue()~
+        REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
       COMPILE_BAF_TO_BCS
     BUT_ONLY_IF_IT_CHANGES
+
   END
 
-  /* Miloch's bugged spell/script fixes (required for Gnomes) */
-  COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
-    DECOMPILE_BCS_TO_BAF
-      REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
-    COMPILE_BAF_TO_BCS
-  BUT_ONLY_IF_IT_CHANGES
 
   ACTION_IF NOT(MOD_IS_INSTALLED setup-scs.tp2 32) THEN BEGIN // Non-SCS Smarter Priests
     EXTEND_TOP ~%tutu_var%priest4.bcs~ ~BG1NPC/phase2/baf/x#pries4.baf~ // Add a few spells
@@ -3817,7 +4040,9 @@ BEGIN @1007
         WRITE_ASCII 0x2cc ~X#DGNLG~ #8// Dialogue file: Good Gnoll #1
         ADD_CRE_ITEM ~X#DYJOR1~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
       END
+      
 
+ACTION_IF FILE_EXISTS_IN_GAME ~imp01.cre~ THEN BEGIN
   COPY_EXISTING ~IMP01.cre~ ~override/x#dyqimp.cre~
     SAY NAME1 @288
     SAY NAME2 @288
@@ -3829,7 +4054,7 @@ BEGIN @1007
     WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
     WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
     WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
-
+    
   COPY_EXISTING ~MEPSMO01.cre~ ~override/x#mepht1.cre~
                 ~MEPSMO01.cre~ ~override/x#mepht2.cre~
                 ~MEPSMO01.cre~ ~override/x#mepht3.cre~
@@ -3844,6 +4069,36 @@ BEGIN @1007
     WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
     WRITE_ASCII 0x280 ~aravaata~ #32 //  death variable
+
+END ELSE BEGIN
+  COPY ~bg1npc/phase2/cre/x#dyqimp.cre~ ~override~
+    SAY NAME1 @288
+    SAY NAME2 @288
+    SAY DAMAGE @289
+    SAY DYING @290
+    WRITE_LONG 0x14 ~2000~ // XP Value
+    WRITE_SHORT 0x24 ~25~ // Current HP (usually 18)
+    WRITE_SHORT 0x26 ~25~ // Maximum HP (usually 18)
+    WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
+    WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
+    WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
+    
+  COPY ~bg1npc/phase2/cre/x#mepht1.cre~ ~override~
+       ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht2.cre~
+       ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht3.cre~
+       ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht4.cre~
+       ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht5.cre~
+
+  COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override~
+    SAY NAME1 @291
+    SAY NAME2 @291
+    WRITE_BYTE 0x5b 50 //  replace # with percentage electrical resistance you want
+    WRITE_ASCII 0x248 ~X#DYTANR~ #8 //  override script
+    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
+    WRITE_ASCII 0x280 ~aravaata~ #32 //  death variable
+END
+
 
   /* Compile .bcs for X#WINSKI and X#TANARI */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#DYQWIN.BAF~
@@ -4199,12 +4454,14 @@ BEGIN @1007
     SAY SELECT_COMMON2 @366
 
   /* Stock Druids */
-  COPY_EXISTING ~gpshout.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-      REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
-      REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("astSeenBy(Myself))")~ ~!StateCheck(LastSeenBy(),4032)~
-    COMPILE_BAF_TO_BCS
-  BUT_ONLY_IF_IT_CHANGES
+  ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
+    COPY_EXISTING ~gpshout.bcs~ ~override~
+      DECOMPILE_BCS_TO_BAF
+        REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
+        REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("astSeenBy(Myself))")~ ~!StateCheck(LastSeenBy(),4032)~
+      COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  END
 
   COPY ~BG1NPC/phase2/cre/x#shdr6.cre~  ~override/x#shdr6.cre~
        ~BG1NPC/phase2/cre/x#shdr6.cre~  ~override/x#shdr6a.cre~
@@ -4285,6 +4542,7 @@ BEGIN @1007
 BEGIN @1022 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  FORBID_FILE ~data/oh1000.bif~ @5001 /* You must have BGT or TuTu installed for this component */  
 ACTION_FOR_EACH edwin IN edwin edwin2 edwin4 edwin6 _edwin _edwin2 _edwin4 _edwin6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
     COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
@@ -4300,6 +4558,7 @@ END
 BEGIN @1023 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  FORBID_FILE ~data/oh1000.bif~ @5001 /* You must have BGT or TuTu installed for this component */
 ACTION_FOR_EACH imoen IN imoen imoen1 imoen2 imoen4 imoen61 _imoen _imoen1 _imoen2 _imoen4 _imoen6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
     COPY_EXISTING "%imoen%.cre" ~override~
@@ -4315,6 +4574,7 @@ END
 BEGIN @1024  /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  FORBID_FILE ~data/oh1000.bif~ @5001 /* You must have BGT or TuTu installed for this component */
 ACTION_FOR_EACH jaheira IN jaheir jaheir2 jaheir4 jaheir6 _jaheir _jaheir2 _jaheir4 _jaheir6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
     COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
@@ -4330,6 +4590,7 @@ END
 BEGIN @1025 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  FORBID_FILE ~data/oh1000.bif~ @5001 /* You must have BGT or TuTu installed for this component */
 ACTION_FOR_EACH minsc IN minsc minsc2 minsc4 minsc6 _minsc _minsc2 _minsc4 _minsc6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
     COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
@@ -4345,6 +4606,7 @@ END
 BEGIN @1026  /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  FORBID_FILE ~data/oh1000.bif~ @5001 /* You must have BGT or TuTu installed for this component */
 ACTION_FOR_EACH viconia IN viconi viconi4 viconi61 _viconi _viconi4 _viconi6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
@@ -4360,9 +4622,9 @@ END
 BEGIN @1027  /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-  COPY ~BG1NPC/Phase2/Portraits/P#KI2L.bmp~ ~override~
-  COPY ~BG1NPC/Phase2/Portraits/P#KI2M.bmp~ ~override~
-  COPY ~BG1NPC/Phase2/Portraits/P#KI2S.bmp~ ~override~
+  COPY ~BG1NPC/Phase2/Portraits/%bgee%P#KI2L.bmp~ ~override~
+  COPY ~BG1NPC/Phase2/Portraits/%bgee%P#KI2M.bmp~ ~override~
+  COPY ~BG1NPC/Phase2/Portraits/%bgee%P#KI2S.bmp~ ~override~
 ACTION_FOR_EACH kivan IN kivan kivan4 kivan6 _kivan _kivan4 _kivan6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
     COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
@@ -4379,7 +4641,13 @@ BEGIN @1009 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~BG1NPC/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
-  COPY ~BG1NPC/Phase2/Portraits~ ~override~
+  
+  ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
+    COPY ~BG1NPC/Phase2/Portraits~ ~override~
+  END ELSE BEGIN
+    COPY ~BG1NPC/Phase2/Portraits/bgee~ ~override~
+  END
+
   /* Standard Non-Joinable Actors */
   COPY_EXISTING ~%tutu_var%alatos.cre~ ~override~
     WRITE_ASCII 0x34 ~alatos~ #8 //  small portrait
@@ -6102,16 +6370,28 @@ ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
     BUT_ONLY_IF_IT_CHANGES
     PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
   END ELSE BEGIN
-  /* Patching Alora's location BGT */
-  COPY_EXISTING ~AR7230.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-      REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
-      REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
-    COMPILE_BAF_TO_BCS
-  BUT_ONLY_IF_IT_CHANGES
-  EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
-    EVALUATE_BUFFER
-  PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
+    ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
+    /* Patching Alora's location BGT */
+    COPY_EXISTING ~AR7230.bcs~ ~override~
+      DECOMPILE_BCS_TO_BAF
+        REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
+        REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
+      COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+    EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
+      EVALUATE_BUFFER
+    PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
+  END ELSE BEGIN
+ /* Patching Alora's location BG:EE */
+    COPY_EXISTING ~AR0130.bcs~ ~override~
+      DECOMPILE_BCS_TO_BAF
+        REPLACE_TEXTUALLY ~!Dead("alora")~ ~!Dead("alora") False()~
+      COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+    EXTEND_BOTTOM ~AR4000.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
+      EVALUATE_BUFFER
+    PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
+  END
   END
 
 /* Eldoth Starts in the Cloakwood Forest */
@@ -6343,7 +6623,7 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     END
     BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\)\.bcs$~ ~override~
+  COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
     DECOMPILE_BCS_TO_BAF
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW2100")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8800")~
@@ -6376,7 +6656,7 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   END
   BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\)\.bcs$~ ~override~
+  COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
     DECOMPILE_BCS_TO_BAF
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW1800")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8600")~
