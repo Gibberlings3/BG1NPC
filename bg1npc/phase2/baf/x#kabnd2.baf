@@ -21,9 +21,10 @@ END
 
 IF
 AttackedBy([GOODCUTOFF],DEFAULT)
-Allegiance(Myself,NEUTRAL)
+Global("X#BanditFightIsOn","GLOBAL",0)
 THEN
 RESPONSE #100
+SetGlobal("X#BanditFightIsOn","GLOBAL",1)
 ActionOverride("X#BANDK1",ChangeEnemyAlly("X#BANDK1",ENEMY))
 ActionOverride("X#BANDK2",ChangeEnemyAlly("X#BANDK2",ENEMY))
 ActionOverride("X#BANDK3",ChangeEnemyAlly("X#BANDK3",ENEMY))
