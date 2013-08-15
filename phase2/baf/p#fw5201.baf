@@ -1,9 +1,0 @@
-IF %BGT_VAR%
-Global("X#NatanExists","GLOBAL",0)
-GlobalGT("X#CoranSuccubus","GLOBAL",0)
-THEN
-RESPONSE #100
-SetGlobal("X#NatanExists","GLOBAL",1)
-CreateCreature("X#NATAN",[1971.1733],3)
-Continue()
-END

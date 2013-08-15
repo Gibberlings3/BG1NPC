@@ -72,7 +72,7 @@
 @1071  = ~Veuillez commencer une nouvelle partie pour qu'Alora apparaisse a Gullykin, pres de la porte de la fabrique de vin.~
 @1072  = ~Eldoth apparait a Bois-Manteau~
 @1073  = ~BG1 NPC Project : emplacement initial d'Eldoth~
-@1074  = ~Eldoth apparaitra à Bois-Manteau, comme dans le jeu original.~
+@1074  = ~Eldoth apparaitra a Bois-Manteau, comme dans le jeu original.~
 @1075  = ~Eldoth apparait au carrefour de Chateau-Suif, de Brasamical et de Beregost~
 @1076  = ~Veuillez commencer une nouvelle partie pour qu'Eldoth apparaisse au carrefour, pres de l'obelisque.~
 @1077  = ~Quayle apparait au Pont de la Porte de Baldur~
@@ -126,6 +126,10 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @1120  = ~Faizah Tin~
 @1121  = ~Rance~
 @1122  = ~Vail~
+@5000  = ~BG:EE detecte~
+@5001 = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
+// Provision for string not traified in the tp2 file : ~Please install on BG:EE, Tutu or BGT.~
+@5002  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

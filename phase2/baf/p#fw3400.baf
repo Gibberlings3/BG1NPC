@@ -1,7 +1,0 @@
-IF %BGT_VAR%
-Global("X#RashelExists","GLOBAL",0)
-THEN
-RESPONSE #100
-SetGlobal("X#RashelExists","GLOBAL",1)
-CreateCreature("X#RASHEL",[1059.1089],3)
-END

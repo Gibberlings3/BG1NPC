@@ -1,8 +1,0 @@
-IF %BGT_VAR%
-Global("X#IRWAS","GLOBAL",1)
-Dead("yeslick")
-THEN
-RESPONSE #100
-SetGlobal("X#IRWAS","GLOBAL",2)
-StartDialogueNoSet(Player1)
-END

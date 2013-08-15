@@ -1,4 +1,4 @@
-@0    = ~Hey, <CHARNAME>, next tavern we go in, let’s have a party!~
+@0    = ~Hey, <CHARNAME>, next tavern we go in, let's have a party!~
 @1    = ~What d'ya say? Pleease...let's have a party!~
 @2    = ~Sure, why not?~
 @3    = ~Heh, why would you want a party? ~
@@ -6,7 +6,7 @@
 @5    = ~Great! We really need to cheer up that ol' misery guts, Kivan.~
 @6    = ~Yeah, I know what you mean.~
 @7    = ~Hey! Give him a break, Alora. He is still in mourning for his wife, you know~
-@8    = ~If you say so. But let’s concentrate on the quest for now, okay?~
+@8    = ~If you say so. But let's concentrate on the quest for now, okay?~
 @9    = ~Great! We really need to cheer up that ol' misery guts, Xan.~
 @10   = ~Hey! Give him a break, Alora. That's just the way he is.~
 @11   = ~Great! We really need to cheer up those two misery guts, Kivan and Xan, you've got following us around!~
@@ -24,7 +24,7 @@
 @23   = ~An excellent idea. Even a paladin needs his ale occasionally.~
 @24   = ~It is about time we raised a tankard to Tempus, in celebration of our glorious deeds.~
 @25   = ~You will be choosing a tavern with plenty of fine maids, I hope?~
-@26   = ~’Twill be nice to relax for awhile.~
+@26   = ~'Twill be nice to relax for awhile.~
 @27   = ~Finally! (It's about time those fools held a celebration in my honor!)~
 @28   = ~Ah, it's about time! I'd almost forgotten the last time I had decent ale inside me.~
 @29   = ~You won't be having too many, I hope?~
@@ -45,7 +45,7 @@
 @44   = ~Aye, a decent ale's almost as good as a decent killin'...~
 @45   = ~The first round is on you, of course.~
 @46   = ~Ooh, sounds wonderful, darling!~
-@47   = ~I hope we will end up in a good bar fight, after we are done drinking. Now that’s what I call fun!~
+@47   = ~I hope we will end up in a good bar fight, after we are done drinking. Now that's what I call fun!~
 @48   = ~I remember sneaking out to the local tavern when I was still living at home. This should be fun!~
 @49   = ~Yes, yes! An orgy of drink and food and other such things shall please Cyric greatly! Tiax will choose the sacrificial victim himself!~
 @50   = ~It will be nice to relax for once... although nothing can compare with the orgies of Menzoberranzan...~
@@ -69,9 +69,9 @@
 @68   = ~No fair, I wasn't looking! What are y... Mr. Hunny Bunny!~
 @69   = ~Heh, I took him from your pack while you were sleeping.~
 @70   = ~Hmph. I guess you must be an okay thief then. I thought I had him pretty well-hidden in there...~
-@71   = ~Ajantis, isn’t it? Wow, I've never met a paladin before!~
+@71   = ~Ajantis, isn't it? Wow, I've never met a paladin before!~
 @72   = ~Indeed?~
-@73   = ~Yep. If you don’t mind me saying, though, you seem a little serious. Anyone who can’t have a bit of fun is pretty boring, in my book! Are other paladins like that?~
+@73   = ~Yep. If you don't mind me saying, though, you seem a little serious. Anyone who can't have a bit of fun is pretty boring, in my book! Are other paladins like that?~
 @74   = ~I am *not* boring!~
 @75   = ~Sure you are. You really need to lighten up a bit!~
 @76   = ~*sigh* I haven't the time for this.~
@@ -85,7 +85,7 @@
 @84   = ~So you're an elf, Coran?~
 @85   = ~I would have thought that would be fairly obvious. The ears, the hair and the fact that I'm not dog ugly...~
 @86   = ~Come on, not all humans are ugly!~
-@87   = ~There are fair humans around, but I wasn't just meaning them. I understand your mistake, though, for unless I was a particularly tall gnome, I could look a human in a halfling’s eyes. But as to my original point, I've yet to meet an especially good-looking dwarf.~
+@87   = ~There are fair humans around, but I wasn't just meaning them. I understand your mistake, though, for unless I was a particularly tall gnome, I could look a human in a halfling's eyes. But as to my original point, I've yet to meet an especially good-looking dwarf.~
 @88   = ~Or a halfling?~
 @89   = ~I have already met one, sweet Alora.~
 @90   = ~*blushing* Umm, err, t-thanks.~
@@ -176,7 +176,7 @@
 @175  = ~Do you really want to kill everyone, Faldorn?~
 @176  = ~No. I wish to give everyone a chance to live, or live again.~
 @177  = ~But I thought that the Shadow Druids wanted to get rid of all the humans, and the dwarves, and the halflings... so that all the animals and plants could live in peace, or something. ~
-@178  = ~The world is never at peace, Alora. The struggle is everlasting, and that’s how the balance is maintained.~
+@178  = ~The world is never at peace, Alora. The struggle is everlasting, and that's how the balance is maintained.~
 @179  = ~There are some that try to deny the rules of the Great Mother and corrupt the natural order of things. They want the world only for themselves, and they invented efficient torture devices for this end. They burn, dig, trash and multiply.~
 @180  = ~The balance demands that they be opposed. This is what Shadow Druids do. We hunt the heretics, and if they do not abandon their vile ways... well, then we give them back to the Great Mother, praying that they come back changed... be it as beasts, birds, or a simple blade of grass.~
 @181  = ~Oh! Okay then. I, um... I guess I'll speak to you later. ~
@@ -262,7 +262,7 @@
 @261  = ~*sings* Ha, ha, you love me!!!~
 @262  = ~I'd slash ye with my axe, but I don't want to get ye started on *that* again...~
 @263  = ~Kagain?~
-@264  = ~Damn it, girl, can’t ye just leave me be?~
+@264  = ~Damn it, girl, can't ye just leave me be?~
 @265  = ~I was just wondering... Kagain, do ye... erm, I mean *you* love me or not?~
 @266  = ~NAY! I don't!~
 @267  = ~Methinks thou doth protest too much... which means that you *do* love me, but that you are not prepared to admit it yet!~
@@ -311,7 +311,7 @@
 @310  = ~Are you still talking? I thought I made myself abundantly clear that I'm not inte... ohhhh hahahahaHAHAHAHAHA STOP THAT, DAMN YOU! Touch me again and I'll... HAHAHAHA... I'LL RIP YOUR HEART FROM YOUR CHEST!~
 @311  = ~Oooohhhh, I *knew* you were ticklish! I made Shar-Teel smile and laugh! Happy day!~
 @312  = ~<CHARNAME>, for now, I shall allow this halfling to live. Should she try and tickle me again though, then consequences be damned! You have been warned, Alora!~
-@313  = ~Look, Tiax, aren’t all the trees and flowers and stuff pretty?~
+@313  = ~Look, Tiax, aren't all the trees and flowers and stuff pretty?~
 @314  = ~When Tiax rules, the woods of this place shall be ripped apart to build a giant temple for Cyric!~
 @315  = ~Holy kittie cacophony! Why would you want to do that?!~
 @316  = ~Cyric is the great god! He sees all, knows all, and punishes fools who believe in other weak-minded gods! Your intelligence is truly low, and when Tiax rules, you'll be locked up for your ignorance in a cell in Tiax's Grand Castle!~

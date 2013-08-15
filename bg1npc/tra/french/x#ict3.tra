@@ -2017,7 +2017,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 103
 @717  = ~Une bonne histoire n'a pas de prix, <CHARNAME>... Et je crains que celle-ci, aussi sombre soit-elle, ne soit importante.~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 104
-@718  = ~Je jure que qu'elle vaudra chaque pièce que vous me donnerez.~
+@718  = ~Je jure qu'elle vaudra chaque pièce que vous me donnerez.~
 /* Dynahéir, remercie et propose ses services, si Minsc est dans le groupe */
 // Minsc - Dynahéir - Minsc - Khalid - Khalid - Dynahéir
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 82

@@ -19,14 +19,14 @@
 @18   = ~Why good sir, I have in my possession the rarest and most wondrous of items. Here, have a look.~
 @19   = ~Ulp! That's disgus... eh... it is finely preserved though. Dryad, isn't it?~
 @20   = ~See!?!? See, <CHARNAME>, I told you, I told you!.. ahem. Now, good sir, as my adventuring career comes first (of course it does), I unfortunately lack mundane necessaries to complete this enchantment suitably myself. Can you inform me what else might be required to distil this magnificent essence into a ring, ring, ring, ring-ring-aroooo?~
-@21   = ~Well, a mithril ring would serve as a container to receive the magic of your... ugh... specimen. Unfortunately, I have no such thing is stock at the moment, myself. If you were to provide such an ideal container, then... let’s see... the scroll, my time... for... nine hundred... call it one thousand gold pieces, I could produce a magical ring to resist enchantments – maybe even cast a minor one – in four... make it five days. Are you interested?~
-@22   = ~Oooh! Let’s do it! We must! Can we? Can we, <CHARNAME>? Puh-leeeze?!? ~
-@23   = ~I don’t know. If we find some such... container, then we can think about it. ~
+@21   = ~Well, a mithril ring would serve as a container to receive the magic of your... ugh... specimen. Unfortunately, I have no such thing is stock at the moment, myself. If you were to provide such an ideal container, then... let's see... the scroll, my time... for... nine hundred... call it one thousand gold pieces, I could produce a magical ring to resist enchantments – maybe even cast a minor one – in four... make it five days. Are you interested?~
+@22   = ~Oooh! Let's do it! We must! Can we? Can we, <CHARNAME>? Puh-leeeze?!? ~
+@23   = ~I don't know. If we find some such... container, then we can think about it. ~
 @24   = ~We will! If we must strip the Sword Coast entire to its fundament of bare stone, WE WILL DO IT!!! ~
 @25   = ~Uh... sure, Xzar. But... uh... that sounds like a pretty big job, so we better get going. Right?~
 @26   = ~Absotively!!!~
 @27   = ~Huh?~
-@28   = ~Oh, sorry. I meant ‘posilutely’... ahhh, let us be at the doing, not this interminable talking about doing! Let us cease to prate and posture...~
+@28   = ~Oh, sorry. I meant ‘posilutely'... ahhh, let us be at the doing, not this interminable talking about doing! Let us cease to prate and posture...~
 @29   = ~Xzar? Shut up!!!~
 @30   = ~My sediment precisely.~
 @31   = ~Why, good sir, I have in my possession the rarest and most wondrous of items. Here, have a look.~
@@ -114,7 +114,7 @@
 @113  = ~Lovely, isn't she? Do you know, <CHARNAME>, I believe I still have - I do! Here it is! - a container that has been specifically enchanted to preserve the blood essence of creatures such as this.~
 @114  = ~It's employment would be most apposite at this juncture, would it not?~
 @115  = ~<CHARNAME>! I cannot let this Zhent murder a creature of the woods! I do not relish breaking my oath to Gorion, so do not agree to this atrocity!~
-@116  = ~I will always stand by Jaheira’s side in this.~
+@116  = ~I will always stand by Jaheira's side in this.~
 @117  = ~Grr! It's long past time that Nature's fury found you, necromancer! Show whose side you are on, <CHARNAME>!~
 @118  = ~I will not stand idly, if you should not restrain this evil man, <CHARNAME>.~
 @119  = ~Aargh! The small stinky man wants to hurt a beautiful dryad! Boo's shaking in outrage!~
@@ -129,12 +129,12 @@
 
 Xzar, my companion, drained blood of a Dryad in the Cloudpeak mountains. She then attacked us, stupid cow.~
 @128  = ~Ah-hah! The tree dies, and the crystal glows like burning maggots... I have done it!~
-@129  = ~Did you hear that? Isn’t that wonderful?~
-@130  = ~What? Wonderful that they’re going to call a pack of wolves, come and chew our legs off?~
-@131  = ~Really, <CHARNAME>! Weren’t you *listening*?~
+@129  = ~Did you hear that? Isn't that wonderful?~
+@130  = ~What? Wonderful that they're going to call a pack of wolves, come and chew our legs off?~
+@131  = ~Really, <CHARNAME>! Weren't you *listening*?~
 @132  = ~Well, they agreed you collected your dryad gunk effectively. But you already knew that.~
 @133  = ~No, no, no! Those were *ghosts*! The first I have ever seen - in an unsummoned, unfettered condition, that is. Their existence here – and their concerns – suggests the whole lyrical cycle of Nature; life to death, death eternally begetting life in an oscillating rhythm of immense beauty and power. ~
-@134  = ~Huh? I’d have never guessed that *you* would be so moved by all this.~
+@134  = ~Huh? I'd have never guessed that *you* would be so moved by all this.~
 @135  = ~Who could not be? Why, do you realize that by a very simple extension of the process with the dryad, I could capture *all* this in... well, I should need a larger container, of course.~
 @136  = ~Ah, that sounds more like yourself, Xzar. But tell me, what would be left of these natural beauties after your ritual?~
 @137  = ~*shrug* The biggest stones, I suppose. Perhaps little blackened, ashen bits of things. What would *I* care if I could master such power?~
@@ -146,7 +146,7 @@ Xzar, my companion, drained blood of a Dryad in the Cloudpeak mountains. She the
 @143  = ~No... but you may have. That gaud... may I see it? Yes, mithril, I judge... I have seen them before. So useful if I... that is, *we*... should want to enchant anything.~
 @144  = ~Is it magical?~
 @145  = ~No, not magical... yet. That is its merit. No one has botched it already, you see.~
-@146  = ~Either way, it’s party treasure. Give it back.~
+@146  = ~Either way, it's party treasure. Give it back.~
 @147  = ~I think not. You might lose it... or sell it for food at a time when I, personally, am not even hungry.~
 @148  = ~ALL treasure is the common property of *all* of us. *No* hoarding.~
 @149  = ~Uh-huh. When – and into what – do *you* propose to enchant it?~
@@ -154,13 +154,13 @@ Xzar, my companion, drained blood of a Dryad in the Cloudpeak mountains. She the
 @151  = ~The 'what' will see to itself. We meet so many delightful creatures such as the one whose sloshy remains even now are staining my footwear.~
 @152  = ~'When' will depend upon a bit more silence from yourself; a cessation of your usual silly questions and pointless nagging. Honestly, <CHARNAME>, most days I should rather talk to my socks. Especially the left one, which is becoming rather damp at the moment.~
 @153  = ~Just move your stupid foot. Okay?~
-@154  = ~I’d rather trust me with it. *You* would drop it in a leprechaun’s ear for safekeeping.~
+@154  = ~I'd rather trust me with it. *You* would drop it in a leprechaun's ear for safekeeping.~
 @155  = ~Have it, then. I am actually curious to see what *you* will make of it.~
-@156  = ~The 'when', dear <CHARNAME>, shall depend upon yourself. Upon your extremely limited ability to keep silence during another’s interval of study and reflection.~
-@157  = ~As to 'what'... *Xzar holds aloft the dryad’s blood.* This Nature essence will blend wonderfully well with the mineral, if I am any prophet.~
+@156  = ~The 'when', dear <CHARNAME>, shall depend upon yourself. Upon your extremely limited ability to keep silence during another's interval of study and reflection.~
+@157  = ~As to 'what'... *Xzar holds aloft the dryad's blood.* This Nature essence will blend wonderfully well with the mineral, if I am any prophet.~
 @158  = ~Uh-huh. *I* prefer profit to prophets, myself.~
-@159  = ~Don’t be silly, <CHARNAME>. Every child knows that there are no such things as leprechauns.~
-@160  = ~Don’t be silly, <CHARNAME>. I would never embark upon so vital a thaumaturgy without... guidance.~
+@159  = ~Don't be silly, <CHARNAME>. Every child knows that there are no such things as leprechauns.~
+@160  = ~Don't be silly, <CHARNAME>. I would never embark upon so vital a thaumaturgy without... guidance.~
 @161  = ~Why, an artifact to make all living Nature shriek with pain and horror in the face of immanent and irreversible death, of course. Why else would I bother? ~
 @162  = ~Alas! Another to mourn. Another to mourn.~
 @163  = ~But we cannot. Our sister's spirit is yet enslaved, even in Death.~
@@ -170,7 +170,7 @@ Xzar, my companion, drained blood of a Dryad in the Cloudpeak mountains. She the
 @167  = ~Dryad of Cloudpeaks
 
 I tried to help a Dryad in the Cloudpeak mountains. Pleasing such nature spirits would normally bring me no end of luck, yet Xzar sort of mucked up the overall impression...~
-@168  = ~Oh, termite fudge! She’s gone now! *sigh* And so another research effort fails for want of proper support!~
+@168  = ~Oh, termite fudge! She's gone now! *sigh* And so another research effort fails for want of proper support!~
 @169  = ~I thank you, though grudgingly.~
 @170  = ~I will not stand idly if you should not restrain this evil man, <CHARNAME>.~
 @171  = ~Not hurting? Well, no; but she's not helping us any, is she? And another research effort fails for want of proper support.~

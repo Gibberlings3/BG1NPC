@@ -1,7 +1,0 @@
-IF %BGT_VAR%
-Global("X#MithrilRing","%ValleyoftheTombs_Tomb%",0)
-THEN
-RESPONSE #100
-SetGlobal("X#MithrilRing","%ValleyoftheTombs_Tomb%",1)
-ActionOverride("Container2",CreateItem("X#XZMIRI",0,0,0))
-END

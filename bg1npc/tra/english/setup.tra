@@ -1,6 +1,6 @@
 @1000  = ~Tutu detected: support at www.gibberlings3.net~
 @1001  = ~BGT detected: support at www.gibberlings3.net, Mega Installs check first at www.spellholdstudios.net~
-@1002  = ~This mod should be installed in your BG2, Tutu, EasyTutu, or BGT folder, after Tutu/BGT conversion.~
+@1002  = ~This mod should be installed in your BG2, BG:EE, Tutu, EasyTutu, or BGT folder, after Tutu/BGT conversion if relevant.~
 @1003  = ~Please remember to start a new game to access the contents of this component.~
 @1004  = ~BG1 NPC Required Changes component is not installed.~
 @1005  = ~The BG1 NPC Project: Required Modifications~
@@ -92,8 +92,7 @@
 @1092  = ~The BG1 NPC Project: Make Shar-Teel Unkillable Until In Party~
 @1093  = ~This component is only useful for Tutu installs.~
 @1094  = ~The BG1 NPC Project: Bardic Reputation Adjustment~
-@1095  = ~Incompatible with BGT: 
-please use the equivalent component in Sword Coast Strategems for BGT.~
+@1095  = ~Incompatible with BGT & BG:EE: please use the equivalent component in Sword Coast Strategems for BGT & BG:EE.~
 @1096  = ~Romance [Dynaheir]~
 @1097  = ~Romance [Xan]~
 @1098  = ~Romance [Shar-Teel]~
@@ -126,3 +125,5 @@ please use the equivalent component in Sword Coast Strategems for BGT.~
 @1120  = ~Faizah Tin~
 @1121  = ~Rance~
 @1122  = ~Vail~
+@5000  = ~BG:EE install detected.~
+@5001  = ~You must have BGT or TuTu installed for this component.~

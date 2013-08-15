@@ -1,1 +1,0 @@
-BEGIN _BIMOEN

@@ -231,7 +231,7 @@
 @99 = ~Se frotter aux morts cause souvent de telles souffrances aux vivants...~
 
 //Il faut sauver la vache d'Hulrik
-@100 = ~Intéressant. Cela sonne que le début d'une grande aventure, non, <CHARNAME> ?~
+@100 = ~Intéressant. Cela sonne comme le début d'une grande aventure, non, <CHARNAME> ?~
 
 //HUNTER ?
 @101 = ~Oh, je pense que je peux sentir mon petit déjeuner qui remonte !~
@@ -244,7 +244,7 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 717, probablement inutile de traduire ici !
 @103 = ~Une bonne histoire n'a pas de prix, <CHARNAME>... Et je crains que celle-ci, aussi sombre soit-elle, ne soit importante.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 718, probablement inutile de traduire ici !
-@104 = ~Je jure que qu'elle vaudra chaque pièce que vous me donnerez.~
+@104 = ~Je jure qu'elle vaudra chaque pièce que vous me donnerez.~
 
 //Jalantha, grande prêtresse d'Umberlie
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 733, probabilité 82.9

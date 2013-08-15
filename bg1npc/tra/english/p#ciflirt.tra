@@ -1,7 +1,7 @@
 @0    = ~*You open your eyes. The dawn is nearing, but the sky above you is still dark, and dotted with a myriad of shining stars. The air is laden with sleepy calm. For a moment you lay, listening to the silence and wondering what had woken you... A strange foreboding... not one of foes coming from the darkness, or the restless dreams of late, but a feeling that something wonderful is afoot, and you would be a fool to sleep though it. On nights like this, the Magical Weave of Toril seems to be as tangible as your own body. Not a sound touches the forest canopy.*~
 @1    = ~*Finally, a peculiar spot of light beyond the hanging branches of the great tree, under which you had settled for the night, attracts your attention. You push the dark foliage aside and see a statue of an elf, where there was none before. It moves... and you suddenly recognize Coran. His smooth skin has taken on a silvery hue in the soft glow of the starlight, the same as the sparkling dew on the dark grass, where his bare feet left no trail.*~
-@2    = ~*As the stars fade, Coran dances alone. It is an ancient dance, both overt and taxing. He arches backward, as nimble and naked as only an elf could be in the night. He touches the grass just barely, with his fingers. His muscles strain and relax as Coran rises - a rippling wave on the river water. In a fluid and rapid motion, his left leg and two arms stretch upward, and join in a tight bud above his head. The elf's knee presses against his face. The bud opens and two slender arms extend toward the sky. The night is the elf’s lover, and he embraces it, before kneeling.*~
-@3    = ~*Slowly Coran lifts himself on tip-toe and stretches upward. His calves bulge from the effort, but the movement is as natural as the swaying of the reeds. Unheard song pushes him along and, as if barely containing himself, Coran dances in small steps, then breaks free and runs. Three times he stops, each time for an ever more passionate and long fuette. He is the wind, the cruel wind, that blows away the mists of the night. Then, he is a bud again. Waving gracefully with his torso as the song’s pre-dawn wind blows, he opens up to the sun. To the real sun... for the first pale-green light invades the sky.*~
+@2    = ~*As the stars fade, Coran dances alone. It is an ancient dance, both overt and taxing. He arches backward, as nimble and naked as only an elf could be in the night. He touches the grass just barely, with his fingers. His muscles strain and relax as Coran rises - a rippling wave on the river water. In a fluid and rapid motion, his left leg and two arms stretch upward, and join in a tight bud above his head. The elf's knee presses against his face. The bud opens and two slender arms extend toward the sky. The night is the elf's lover, and he embraces it, before kneeling.*~
+@3    = ~*Slowly Coran lifts himself on tip-toe and stretches upward. His calves bulge from the effort, but the movement is as natural as the swaying of the reeds. Unheard song pushes him along and, as if barely containing himself, Coran dances in small steps, then breaks free and runs. Three times he stops, each time for an ever more passionate and long fuette. He is the wind, the cruel wind, that blows away the mists of the night. Then, he is a bud again. Waving gracefully with his torso as the song's pre-dawn wind blows, he opens up to the sun. To the real sun... for the first pale-green light invades the sky.*~
 @4    = ~*Coran breathes deeply and throws the dark ringlets of his hair away from his eyes tiredly. But he smiles as a dancer always should... even if none watches him. Suddenly, you realize that he had noticed you long ago, and that this wide, content smile is directed at you. His excitement, perhaps, is only partially due to the passionate dance, and the night might not have been the lover that the elf desired.*~
 @5    = ~*You blush and hide.*~
 @6    = ~*You smile back at Coran and return to your bedroll with your head full of memories.*~
@@ -9,7 +9,7 @@
 @8    = ~*You whisper* It was just a dream... * and, as on a cue, Coran gathers his clothes from the ground and walks away*~
 @9    = ~*You walk boldly toward Coran, and as the sun rises, you two greet it with the most ancient dance of all.*~
 @10   = ~*Your lover's body is sparkling with the morning dew, and his mouth covers yours every time you are about to moan with pleasure. Not a sound touches the forest canopy... until the morning birds wake and fill the air with what now feels to you as an impossible racket. Coran leaves you and lies on the grass repeating your name. You loved each other for mere minutes, and it all could have been a dream, except that your body still trembles with the memory of the urgent passion of the lovemaking.*~
-@11   = ~*The campfire’s flames dwindled until there was naught but black ashes left, with ruby-red splashes here and there. The conversation died down, and, one by one, your companions retired to their bedrolls. Coran was watching you all night from under his long lashes, smiling warmly each time your eyes met.*~
+@11   = ~*The campfire's flames dwindled until there was naught but black ashes left, with ruby-red splashes here and there. The conversation died down, and, one by one, your companions retired to their bedrolls. Coran was watching you all night from under his long lashes, smiling warmly each time your eyes met.*~
 @12   = ~*As you move to rise and follow their suit, Coran quickly gets up to his feet and walks over to you.*~
 @13   = ~*Encouraging you to sit back on the ground, he wraps a blanket around your shoulders and explains:*~
 @14   = ~I have noticed a nightingale in the bushes. Stay with me, sweetling, let us listen for a while.~
@@ -35,7 +35,7 @@
 @34   = ~*The image of your silhouette against the moonlit square of the window causes Coran to swallow hard. His eyes follow the curves, with his gaze lingering where the playful wind pulled the thin fabric of your garment tight against your body.*~
 @35   = ~*Coran reaches for you, caressing your flesh through the wispy fabric, and explains in a low voice...*~
 @36   = ~Too beautiful, too beautiful to simply watch...~
-@37   = ~<CHARNAME>, you step out of a bloodbath on the carpet of rose hips, naked and tender. Your foe’s blood could be flower petals clinging to your body enviously, or a sensual pattern drawn in henna dye by a frivolous hand, or claret spilled in abandon, enticing a thirsty mouth to drink of it...~ [CORANB]
+@37   = ~<CHARNAME>, you step out of a bloodbath on the carpet of rose hips, naked and tender. Your foe's blood could be flower petals clinging to your body enviously, or a sensual pattern drawn in henna dye by a frivolous hand, or claret spilled in abandon, enticing a thirsty mouth to drink of it...~ [CORANB]
 @38   = ~Coran, are you feverish? I've not bathed... yet. Moreover, not in blood.~
 @39   = ~Stop it, you are scaring me!~
 @40   = ~What...what are you talking about?~
@@ -51,7 +51,7 @@
 @50   = ~And what you are makes me fearful, and yet attracts me.~
 @51   = ~Your passionate nature I have enjoyed so is now taking on a new meaning, a dangerous one. Each facet of it alone would plunge me into a liaison, but the two combined... My head spins as if it would take flight, and my heart pounds, nearly breaking within my chest, when I think of you like this...~
 @52   = ~Hanali Celanil teaches us that love is warm and golden. From you, my woman, another passion, dark and red cometh, and dizzies a man.~
-@53   = ~I... I’d rather have it warm and golden.~
+@53   = ~I... I'd rather have it warm and golden.~
 @54   = ~You sound insane, Coran, and that gleam in your eyes puts me ill at ease.~
 @55   = ~What have you done to the lighthearted Coran I cherished, monster?~
 @56   = ~*sigh* Whatever.~
@@ -63,7 +63,7 @@
 @62   = ~I turned you into a monster! No, my accursed sire did! And I thought that being an orphan, I'd have the advantage of relatives not interfering with my love life!~
 @63   = ~I will fight to change you back, Coran. I do not want an obsessive lover. I want a tender beloved who lives through my kisses, not dies drinking them in.~
 @64   = ~I would be damned if I understood a word of what you were saying!~
-@65   = ~I think it’s one of your "moods". I hope that this new emotional toy will be forgotten in a week.~
+@65   = ~I think it's one of your "moods". I hope that this new emotional toy will be forgotten in a week.~
 @66   = ~Soft and sweet love is attractive, especially to ones who have loved little before. If you try to love me like that, I would accept it. But I would be swept away if you stopped controlling your nature.~
 @67   = ~Is that so, sweetling? Your poor head is not catching up to the happenings as fast as your sword hand, then. No matter. Your blood will understand what I was saying in time. ~
 @68   = ~I do not know the future, sweetling. Neither do you. Let us just see it through. ~

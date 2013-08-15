@@ -1,7 +1,0 @@
-IF %BGT_VAR%
-Global("X#FightTale","GLOBAL",9)
-THEN
-RESPONSE #100
-EscapeArea()
-DestroySelf()
-END
