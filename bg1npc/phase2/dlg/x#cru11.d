@@ -23,7 +23,7 @@ END
 
 IF ~~ THEN BEGIN CRUXAN1
 SAY @6
-IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",8) EscapeArea() ActionOverride("X#CHOP", EscapeArea()) ReputationInc(1) AddexperienceParty(200)~
+IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",8) ReputationInc(1) AddexperienceParty(200) ActionOverride("X#CHOP", EscapeArea()) EscapeArea()~
 EXIT
 END
 

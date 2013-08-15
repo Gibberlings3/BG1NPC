@@ -15,7 +15,7 @@ IF ~~ THEN BEGIN DAVI2
 SAY @3
 = @4
 = @5
-IF ~~ THEN DO ~EscapeArea() ReputationInc(1) AddexperienceParty(200)~ EXTERN ~X#CHOP~ CHOP4
+IF ~~ THEN DO ~ReputationInc(1) AddexperienceParty(200) EscapeArea()~ EXTERN ~X#CHOP~ CHOP4
 END
 
 IF ~~ THEN BEGIN DAVI3
@@ -40,7 +40,7 @@ END
 
 IF ~Global("X#XanQuest1","GLOBAL",8) OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID)~ THEN BEGIN DAVINOXAN
 SAY @14
-IF ~~ THEN DO ~EscapeArea() ReputationInc(1) AddexperienceParty(200)~ EXTERN ~X#CHOP~ CHOP4
+IF ~~ THEN DO ~ReputationInc(1) AddexperienceParty(200) EscapeArea()~ EXTERN ~X#CHOP~ CHOP4
 END
 
 IF ~Global("X#XanQuest1","GLOBAL",8) InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN BEGIN DAVIXANTrick

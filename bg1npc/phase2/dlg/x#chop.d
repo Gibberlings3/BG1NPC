@@ -17,31 +17,31 @@ END
 
 IF ~~ THEN BEGIN CHOP2NORC
 SAY @2
-IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) ReputationInc(-4) Attack("X#DAVID") ActionOverride("X#CRU11", Attack("X#DAVID"))~
+IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) ReputationInc(-4) ActionOverride("X#CRU11", Attack("X#DAVID")) Attack("X#DAVID")~
 EXIT
 END
 
 IF ~~ THEN BEGIN CHOP2ORC
 SAY @3
-IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) ReputationInc(-4) Attack("X#DAVID") ActionOverride("X#CRU11", Attack("X#DAVID"))~
+IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) ReputationInc(-4) ActionOverride("X#CRU11", Attack("X#DAVID")) Attack("X#DAVID")~
 EXIT
 END
 
 IF ~Global("X#XanQuest1","GLOBAL",3)~ THEN BEGIN CHOPKILLEDDAVID
 SAY @4
-IF ~~ THEN DO ~EscapeArea() ActionOverride("X#CRU11", EscapeArea())~
+IF ~~ THEN DO ~ActionOverride("X#CRU11", EscapeArea()) EscapeArea()~
 EXIT
 END
 
 IF ~~ THEN BEGIN CHOP3
 SAY @5
-IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) Kill("X#DAVID") ReputationInc(-1) Enemy() ActionOverride("X#CRU11", Enemy())~
+IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) Kill("X#DAVID") ReputationInc(-1) ActionOverride("X#CRU11", Enemy()) Enemy()~
 EXIT
 END
 
 IF ~~ THEN BEGIN CHOP4
 SAY @6
-IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) Enemy() ActionOverride("X#CRU11", Enemy())~
+IF ~~ THEN DO ~SetGlobal("X#XanQuest1","GLOBAL",2) ActionOverride("X#CRU11", Enemy()) Enemy()~
 EXIT
 END
 
