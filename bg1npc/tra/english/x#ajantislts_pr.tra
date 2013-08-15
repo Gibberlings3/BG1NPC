@@ -39,7 +39,7 @@
 @38   = ~Let's continue our search and bring justice to the Sword Coast.~
 @39   = ~Of course, my lady. I am sorry.~
 @40   = ~That is very strange indeed, my lady.~
-@41   = ~My lady, I told you I am a squire paladin of the Most Holy Order of the Radiant Heart. May I tell you more about this force of goodness and righteousness?~
+@41   = ~My lady, I told you I am a squire paladin of the Most Holy Order of the Radiant Heart. May I tell you more about this force of good and righteousness?~
 @42   = ~Yes, please.~
 @43   = ~If you would be so kind, m'lord.~
 @44   = ~I know a bit about it myself, Ajantis.~
@@ -285,7 +285,7 @@
 @284  = ~Now that I know your heart, I will watch your steps carefully. Let us move on.~
 @285  = ~That is only true at first sight, lady <CHARNAME>. It is up to us to make sure that this does not happen!~
 @286  = ~I agree with you on that. But reality depresses me sometimes.~
-@287  = ~It's Okay, Ajantis. I said it's not *my* opinion.~
+@287  = ~It's alright, Ajantis. I said it's not *my* opinion.~
 @288  = ~I don't agree with you at all, Ajantis!~
 @289  = ~Your words ring true and comfort me. I thank you.~
 @290  = ~You are right to choose harsh words. I was lost in my thoughts.~
@@ -430,7 +430,7 @@
 @429  = ~Wake up! Open your eyes and see! A lot of people struggle for their survival - because they *have* to, not because they had some stupid dream while laying in a bed of eiderdown!~
 @430  = ~Yes, yes, now calm down.~
 @431  = ~'Momma's boy', my lady? I am saddened that you should think so of me.~
-@432  = ~I'm sorry, that wasn't a very nice. What I meant was that you are writing them too many letters. Just be careful that it doesn't get in the way of your duty. But do tell about your family, Ajantis.~
+@432  = ~I'm sorry, that wasn't very nice. What I meant was that you are writing them too many letters. Just be careful that it doesn't get in the way of your duty. But do tell about your family, Ajantis.~
 @433  = ~Good gracious, you are overreacting. It was only a joke! Take it easy.~
 @434  = ~Ajantis, the Paladin, takes a break from his monumental struggle against evil to sit down and write a letter to his parents every fortnight. Don't you agree that this somehow doesn't... fit?~
 @435  = ~As you wish, my lady, although I would have liked to tell you about my family very much. Let us move on and concentrate on our quest.~
@@ -524,7 +524,7 @@
 @523  = ~No, you didn't bother me. It's just that its importance to you is rather obvious.~
 @524  = ~That's exactly the case, and I suggest we concentrate on other things instead.~
 @525  = ~Oh, Ajantis, Ajantis. It will be at least ten years until you are old enough to hold an interesting conversation.~
-@526  = ~I am relieved to hear that, my lady. When we converse about things unrelated to our quest,  I wish for them to be pleasant to your ears.~
+@526  = ~I am relieved to hear that, my lady. When we converse about things unrelated to our quest, I wish for them to be pleasant to your ears.~
 @527  = ~On the receipt of my accolade, all those that are held dear to my heart shall be present.~
 @528  = ~Sir Keldorn Firecam, a highly respected knight of the Order, was my mentor and he taught me a lot. I hope he will be there as well as my parents, my sister, and my brother.~
 @529  = ~Oh yes, a mentor... It's always nice to see knowledge transferred trustfully from one generation to another.~
@@ -658,7 +658,7 @@
 @657  = ~That was very interesting. Thank you. Tell me, Ajantis, does the starry sky remind you of how short our lives are? Does it motivate you to use your time well? Tell me, where would you prefer to be right now if you could be anywhere?~
 @658  = ~A nice story, Ajantis, thank you. Now let us move on.~
 @659  = ~Where would I prefer to be right now? Lady <CHARNAME>, I feel it is a great honor to be here with you... ahem... being able to travel with you. You are a very impressive... leader, my lady. Our deeds help me on my path towards knighthood and there is no place more beautiful... no other place that I would prefer to be.~
-@660  = ~That was very nice of you to say, Ajantis. Thank you. *smile*.~
+@660  = ~That was very nice of you to say, Ajantis. Thank you. *smile*~
 @661  = ~Then everything is well. Let us move on.~
 @662  = ~Ajantis, I don't like the suggestive tone of your remark. If you are keen on romantic feelings please look elsewhere.~
 @663  = ~"Suggestive tone"?! My lady, I am surprised by your words. Something I said has obviously upset you. That was not my intention, and I will keep my own counsel in the future so that this will not happen again.~
@@ -726,12 +726,12 @@
 @725  = ~Can't you imagine a woman at your side? One who shares your aspirations and joins you in battle...?~
 @726  = ~Can't you imagine a woman at your side? One who shares your aspirations and joins you in battle?~
 @727  = ~Oh, that is what you meant. Well, that doesn't sound too bad...~
-@728  = ~I can imagine that for a son of a noble family,, it is very important to have a wife who thrives in her role as a mother and the lady of the house. A woman for whom representing her family matters more than having a life of her own.~
+@728  = ~I can imagine that for a son of a noble family, it is very important to have a wife who thrives in her role as a mother and the lady of the house. A woman for whom representing her family matters more than having a life of her own.~
 @729  = ~We will see what fate has waiting for us. Let us move on.~
 @730  = ~That is an interesting question, lady <CHARNAME>. I told you how I had always imagined it would be one day... up until now...~
 @731  = ~But enough of this idle talk. There is much to be done and we should not leave our enemies waiting.~
 @732  = ~Well, I told you how I had always imagined it would be. But enough of this idle talk! Much work is awaiting us, and the earlier we start, the earlier your dream of a peaceful life will come true.~
-@733  = ~I am pleased to hear that you agree, my lady... *ahem* But enough of this idle talk! Much work is awaiting us, and the earlier we start with it, the earlier your dream of a peaceful life will come true.~
+@733  = ~I am pleased to hear that you agree, my lady, ahem... But enough of this idle talk! Much work is awaiting us, and the earlier we start with it, the earlier your dream of a peaceful life will come true.~
 @734  = ~I am pleased to hear that you agree, my lady... But enough of this idle talk! There is much to be done and we should not leave our enemies waiting.~
 @735  = ~'Matters more than having a life of her own'? My lady, you have not understood a word of what I've said!~
 @736  = ~I'm sorry. I don't seem to be able to stop myself from snapping at you now and then... I think I understand what you mean though.~
@@ -786,7 +786,7 @@
 @785  = ~You mean that I don't look like a heroine? Well, you are probably right.~
 @786  = ~That did not sound like a compliment, Ajantis.~
 @787  = ~*hesitant* Ah, I guess I should explain my words... *coughs* Please excuse me, my lady. It is just that you... under all of the dirt and grime of our trials, there is an extremely beautiful young lady.~ [%tutu_var%AJANT35]
-@788  = ~When you smile, your eyes shine brightly. It's a lovely sight, my lady. *ahem* You are... you are like a summer breeze over the gently rippling waves of the ocean near  my hometown, Waterdeep.~
+@788  = ~When you smile, your eyes shine brightly. It's a lovely sight, my lady. Ahem, you are... you are like a summer breeze over the gently rippling waves of the ocean near  my hometown, Waterdeep.~
 @789  = ~Thank you, Ajantis - what a beautiful comparison. *smile*~
 @790  = ~Hmm... Is this the tale about knights and beautiful maidens you were referring to not so long ago?~
 @791  = ~So I am dirty and to be compared with the water in the harbor of some large city? Or am I akin to the draft, in your opinion?~
@@ -819,14 +819,14 @@
 @818  = ~Well... thank you.~
 @819  = ~Ajantis, I'm not in the mood for a lecture about Faerun flora right now.~
 @820  = ~That is the name. You seem to know these red flowers, so I presume you know that they are praised for their sweet fragrance. If I am not mistaken they also use the roots for brewing a healing potion. A helpful little flower... Let me pick one for you, my lady.~
-@821  = ~I am delighted to hear that my lady. I would like to give it to you.~
+@821  = ~I am delighted to hear that, my lady. I would like to give it to you.~
 @822  = ~Oh, how sweet, Ajantis. Do you want to put it in my hair?~
 @823  = ~Thank you, Ajantis! My pack is rather full at the moment. Do you want to tuck it in my belt?~
 @824  = ~Ajantis, I don't want to get romantic flowers from you. We are nothing but fighting comrades.~
 @825  = ~In your hair? What a lovely idea, my lady!~
 @826  = ~Then let me push back this strand... *you feel his touch above the ear* I... am not used to being so close to... *coughs*~
 @827  = ~I hope I didn't just pull at your wonderful, soft hair...~
-@828  = ~*ahem* The flower should stay in place now. My lady, you look beautiful. Ahem... you look beautiful regardless, but with the flower in your hair, you are especially lovely.~
+@828  = ~*clears his throat* The flower should stay in place now. My lady, you look beautiful. Ahem... you look beautiful regardless, but with the flower in your hair, you are especially lovely.~
 @829  = ~*smile* Ajantis, I thank you for the present.~
 @830  = ~*grins* You are lovely sometimes as well, you know that? Thank you for the flower.~
 @831  = ~Well... thank you, Ajantis.~
@@ -1050,7 +1050,7 @@
 @1049 = ~I will await the time of our next union in love with great eagerness.~
 @1050 = ~*You cuddle up to Ajantis* Hmm, how about now?~
 @1051 = ~I start the day with the memory of this magnificent night, my knightly lover.~
-@1052 = ~You are... suddenly so close... ~
+@1052 = ~You are... suddenly so close...~
 @1053 = ~Oh, my love, you are tempting me. Your warm body next to mine... No, do not let us give in to our desire. Let's get up, <CHARNAME>. Duty is calling, and a day is only as long as the gods made it.~
 @1054 = ~*smile* Then let's get up. Duty is calling, beautiful lady.~
 @1055 = ~I am surprised to hear so much anger in your voice, my love. What is wrong?~
@@ -1080,7 +1080,7 @@
 @1079 = ~Does the Order really have so much impact on our private life?~
 @1080 = ~No, that would be too long. Let's plan our wedding to take place as soon as the villains we are pursuing are defeated.~
 @1081 = ~If this is going to be another discussion about your devotion to the Order of the Radiant Heart we can stop this conversation right here.~
-@1082 = ~In your words I can hear your love, and that makes me very happy. Yet I do not think it would be feasible. I can not allow my private feelings to distract me from chasing down evil.~
+@1082 = ~In your words I can hear your love, and that makes me very happy. Yet I do not think it would be feasible. I cannot allow my private feelings to distract me from chasing down evil.~
 @1083 = ~Maybe you are right. Our wedding is too important for just squeezing it in between two battles.~
 @1084 = ~I don't see why our marriage would 'distract' you from our search in any way.~
 @1085 = ~I have to admit I don't want to talk about this further.~

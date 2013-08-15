@@ -47,7 +47,7 @@
 @28 = ~Ma carcasse est douloureuse à cause de toute cette marche, avec cet équipement lourd...~
 @29 = ~Oh, je parle toute seule... <CHARNAME>, Dame Ilvastarr. <CHARNAME>, Dame Ilvastarr... Plutôt impressionnant, tu ne crois pas ?~
 @30 = ~Ajantis, je veux mettre fin à notre relation. C'est définitif.~
-@31 = ~Oui, <CHARNAME> ?~ [X#BLANKD]
+@31 = ~Oui, <CHARNAME> ?~ [X#BLANK]
 @32 = ~Toujours troublé par mon héritage d'enfant de Bhaal, Ajantis ?~
 @33 = ~Ajantis, ta voix est... étrange.~
 @34 = ~*tousse*~

@@ -1,4 +1,4 @@
-@0    = ~*The dark lady of Underdark walks beside you - a mystery made flesh. Perhaps a few well-aimed questions will reveal truth about Viconia... or create even more secrets. Would you chance it?*~ [X#BLANKD]
+@0    = ~*The dark lady of Underdark walks beside you - a mystery made flesh. Perhaps a few well-aimed questions will reveal truth about Viconia... or create even more secrets. Would you chance it?*~ [X#BLANK]
 @1    = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Viconia.*~
 @2    = ~So, Viconia, can you tell me more about yourself?~
 @3    = ~*You ask Viconia lots of personal questions.*~
@@ -86,7 +86,7 @@
 @85   = ~Surfacers are imbeciles. Yapping like that when the enemies are all around!~
 @86   = ~I am Viconia DeVir of House DeVir, the Fourth House of Menzoberranzan.~
 @87   = ~Walking under the cruel sun, sleeping with the wretched starlight, breathing in road dust, socializing with surfacers... Lloth be damned for her betrayal! I deserve better than this.~
-@88   = ~*Skie delicately picks dirt off the edge of her traveling cloak. Then she blushes prettily and looks up. Either she thinks that a dirty cloak is inappropriate in the adventuring company, or she remembered her love of Eldoth. Whatever it is, right now is a quiet moment, and you might have enough time to get through the noble girl's excited chatter about adventures and learn something about her.*~ [X#BLANKD]
+@88   = ~*Skie delicately picks dirt off the edge of her traveling cloak. Then she blushes prettily and looks up. Either she thinks that a dirty cloak is inappropriate in the adventuring company, or she remembered her love of Eldoth. Whatever it is, right now is a quiet moment, and you might have enough time to get through the noble girl's excited chatter about adventures and learn something about her.*~ [X#BLANK]
 @89   = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Skie.*~
 @90   = ~So, Skie, can you tell me more about yourself?~
 @91   = ~*You ask Skie lots of personal questions.*~
@@ -155,7 +155,7 @@
 @154  = ~Eldoth is the most handsome man, is he not?~
 @155  = ~Ai! I think I just broke my nail. Sorry... can we talk later? I am a bit... annoyed.~
 @156  = ~Another day I picked up a daisy, and it turned out that Eldoth loves me not. I know it's just silly game, and it's not true, but it bothers me nontheless.~
-@157  = ~*You look at Shar-Teel, and as sure as the Nine Hells are hot, she scowls at you. You are not sure if you are taken aback or curious. Perhaps if you can make Shar-Teel talk about herself, you would understand this grim warrior better.*~ [X#BLANKD]
+@157  = ~*You look at Shar-Teel, and as sure as the Nine Hells are hot, she scowls at you. You are not sure if you are taken aback or curious. Perhaps if you can make Shar-Teel talk about herself, you would understand this grim warrior better.*~ [X#BLANK]
 @158  = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Shar-Teel.*~
 @159  = ~So, Shar-Teel, can you tell me more about yourself?~
 @160  = ~*You ask Shar-Teel lots of personal questions.*~
@@ -620,7 +620,7 @@ Step right up and fight me bold!~
 @616  = ~Come, she-bear, I want to hear your singing voice. Give it a try.~
 @617  = ~The effect is so comic that you cannot help but laugh.* ~
 @618  = ~*laugh and point at Shar-Teel* What a dolt!~
-@619  = ~*Safana is grooming herself yet again. She seems to be born into the role of a mercenary lady who can twist the greatest hero around her little finger... and make away with the treasure, while he is still fighting the dragon with her favour on his sleeve. Her past fascinates you, so it may well be time for a heart to heart talk with Safana.*~ [X#BLANKD]
+@619  = ~*Safana is grooming herself yet again. She seems to be born into the role of a mercenary lady who can twist the greatest hero around her little finger... and make away with the treasure, while he is still fighting the dragon with her favour on his sleeve. Her past fascinates you, so it may well be time for a heart to heart talk with Safana.*~ [X#BLANK]
 @620  = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Safana.*~
 @621  = ~So, Safana, can you tell me more about yourself?~
 @622  = ~*You ask Safana lots of personal questions.*~
@@ -703,7 +703,7 @@ Step right up and fight me bold!~
 @699  = ~Well, daaarling, have I told you about that time when we boarded a pleasure barge that had once belonged to a Tethyr family? The young prince, whose name I cannot divulge - he is considered dead by his enemies, you understand? - was still on it. In disguise, of course. But he opened himself to me, due to my exquisite manners, no doubt... ~
 @700  = ~I begged the Captain for the young man's life and helped him to escape under the cover of darkness. He kissed me before disappearing forever in the mist so hotly that my lips still burn at the memory. Wild bloods are those Tethyrians. I hope that those awful rebels did not catch and hang him. It would have been a shame to kill someone so beautiful.~
 @701  = ~"Exzesus" once took a beating... I do not remember exactly what it was... a magic fire in the hull, perhaps... but the fact remains that we had to enter an estuary of a nameless river in Amn for repairs. The Amnish fleet sniffed us out, though, and was coming for us. While everyone panicked, I dressed in my best gown and went to find the lieutenant who led the search parties. Ah, he was a beautiful man! Wide shouldered, with a moustache like sable, and those hot black Amnish eyes! While my crew sweated on repairs, I convinced the lieutenant that his troops are far better employed in protecting pasha's caravan and his innocent daughter than searching for a pirate ship. I have never had a merrier time in my whole life! It is amusing, but men are willing to do anything for the maidenhead of pasha's daughter... He was amazed at how much a virgin can know of the ways of love afterwards... Of course, not finding the caravan in the assigned location three days inland might have upset the poor man.~
-@702  = ~*It's always a pleasure to chat with the easy-going halfling. Alora seems to be made of pranks and anecdotes, but sometimes you wish she'd tell you about herself in, at least, slightly more serious manner.*~ [X#BLANKD]
+@702  = ~*It's always a pleasure to chat with the easy-going halfling. Alora seems to be made of pranks and anecdotes, but sometimes you wish she'd tell you about herself in, at least, slightly more serious manner.*~ [X#BLANK]
 @703  = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Alora.*~
 @704  = ~So, Alora, can you tell me more about yourself?~
 @705  = ~*You ask Alora lots of personal questions.*~
@@ -805,7 +805,7 @@ Step right up and fight me bold!~
 @801  = ~I smell berries! Or pastries!~
 @802  = ~Ya know, I think you're starting to smell. Maybe you should consider taking a tour of the baths next time we reach an inn.~
 @803  = ~Uhm, how 'bout we'd hang <PLAYER3>'s boots up the tree, next time we make a camp in a forest? It was hilarious when we'd hidden <CHARNAME>'s... oi!~
-@804  = ~*Branwen smiles at you wistfully.* I am sorry, <CHARNAME>, but 'tis my wish and decision to be alone, and 'twill not be changed.~ [X#BLANKD]
+@804  = ~*Branwen smiles at you wistfully.* I am sorry, <CHARNAME>, but 'tis my wish and decision to be alone, and 'twill not be changed.~ [X#BLANK]
 @805  = ~I see.~
 @806  = ~'Twill be as you wish, but well, there is something wrong with your voice, so....~
 @807  = ~Branwen~
@@ -842,7 +842,7 @@ Step right up and fight me bold!~
 @838  = ~[BRANWEN 32] I do not take such insults lightly.~ [%tutu_var%BRANW32]
 @839  = ~[BRANWEN 34] Do not mock me!~ [%tutu_var%BRANW34]
 @840  = ~When asked about her past, BRANWEN reveals that she left her home of Seawolf in the Norheim isles at an early age. She was apparently reviled by her own people for wanting to become a priest, a station reserved exclusively for the men of the village. She harbors no resentment, realizing that her faith must face such tests or be worthless. She traveled the coast, offering her services to local militias, and eventually came into the employ of an adventuring troupe in the Nashkel area. Branwen had no idea that the group was participating in banditry however, and on their first raid she balked at attacking a caravan of unarmed merchants. She rebelled, and a mage named Tranzig turned her to stone in the ensuing fight. Despite the unfavorable outcome, Branwen feels that Tempus views her actions approvingly. To attack those that are unarmed is the basest of villainy.~ [DUMMYSND]
-@841  = ~*You look at the barbarian woman who fights with such vigor. She is calmer now, and somehow looks a little bit less stern. Perhaps now is a good time to ask about her past... Surely, she had had some adventures... before she was turned into cold marble, that is.*~ [X#BLANKD]
+@841  = ~*You look at the barbarian woman who fights with such vigor. She is calmer now, and somehow looks a little bit less stern. Perhaps now is a good time to ask about her past... Surely, she had had some adventures... before she was turned into cold marble, that is.*~ [X#BLANK]
 @842  = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Branwen.*~
 @843  = ~So, Branwen, can you tell me more about yourself?~
 @844  = ~*You ask Branwen lots of personal questions.*~
@@ -905,7 +905,7 @@ Step right up and fight me bold!~
 @901  = ~The clouds are heavy. 'Twill be wise to find shelter, lest we are drenched to the bone.~
 @902  = ~'Twill make a fine battlefield.~
 @903  = ~'Tis surprising that you admit your mistake so easily. Whether 'tis a sign of great bravery and wisdom, or plain lack of spine, remains to be seen, but I am willing to give you a chance. Do not expect to be so easily forgiven next time, however.~
-@904  = ~*Branwen walks by your side, serenely whistling a marching tune. Noticing your gaze, she winks at you.* 'Tis not an order you wish to place, I see. Speak your mind freely, <CHARNAME>, I am willing to listen.~ [X#BLANKD]
+@904  = ~*Branwen walks by your side, serenely whistling a marching tune. Noticing your gaze, she winks at you.* 'Tis not an order you wish to place, I see. Speak your mind freely, <CHARNAME>, I am willing to listen.~ [X#BLANK]
 @905  = ~*Hold Branwen*~
 @906  = ~Branwen, my kind healer, can you take a look at my shoulder? It hurts badly.~
 @907  = ~*Kiss Branwen's hair, shining like burnished gold.*~
@@ -1093,7 +1093,7 @@ Step right up and fight me bold!~
 @1089 = ~*She gives you a knowing smile.* 'Tis hard to resist sometimes, I know.~
 @1090 = ~*Branwen traces your hand up from the clasp of her cloak, along her jaw line and cheek.* Despite the robustness of the road, your hands are still gentle. I like that.~
 @1091 = ~No, <CHARNAME>. 'Tis a pity, but we should move on.~
-@1092 = ~*You turn your attention to Branwen, and the Norheim priestess smiles at you warmly.* Yes, <CHARNAME>?~ [X#BLANKD]
+@1092 = ~*You turn your attention to Branwen, and the Norheim priestess smiles at you warmly.* Yes, <CHARNAME>?~ [X#BLANK]
 @1093 = ~*Bring Branwen's hand to your heart*~
 @1094 = ~*Kiss Branwen on the cheek*~
 @1095 = ~*Put a hand around Branwen's waist*~
@@ -1975,7 +1975,7 @@ But that which matters most we've lost...~
 @1967 = ~But Faldorn, fire destroys... everything!~
 @1968 = ~Uhm, forget that I asked.~
 @1969 = ~No, I cannot stand it any longer! Your skills are valuable but my sanity is still more precious! Leave.~
-@1970 = ~*Imoen seems a little quiet for her. Funnily enough, you do not know all that much about your oldest friend. Perhaps this is a good time to find out what Imoen is all about.*~ [X#BLANKD]
+@1970 = ~*Imoen seems a little quiet for her. Funnily enough, you do not know all that much about your oldest friend. Perhaps this is a good time to find out what Imoen is all about.*~ [X#BLANK]
 @1971 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Imoen.*~
 @1972 = ~So, Imoen, can you tell me more about yourself?~
 @1973 = ~*You ask Imoen lots of personal questions.*~
@@ -2035,7 +2035,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2026 = ~Wanna know secret 'bout me? Well, I always was in love with Hull!~
 @2027 = ~He-he! Ya should see ya face! Gottcha!~
 @2028 = ~*She shakes her head at you sheepishly and pats your cheek, before turning away and walking back to the trail.*~
-@2029 = ~*Jaheira fell behind the party for a moment, examining a peculiar plant. She ends up putting it back into her medicinal bag, and now she is about to catch up with the rest of the group. Perhaps it would be wise to take advantage of the situation, and trade a couple words in private.*~ [X#BLANKD]
+@2029 = ~*Jaheira fell behind the party for a moment, examining a peculiar plant. She ends up putting it back into her medicinal bag, and now she is about to catch up with the rest of the group. Perhaps it would be wise to take advantage of the situation, and trade a couple words in private.*~ [X#BLANK]
 @2030 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Jaheira.*~
 @2031 = ~So, Jaheira, can you tell me more about yourself?~
 @2032 = ~*You ask Jaheira lots of personal questions.*~
@@ -2285,7 +2285,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2276 = ~RrraaaAAGHGHHH!!! Gnolls had stolen Minsc's witch! Filthy gnolls!~
 @2277 = ~The realms tremble when my hamster roars!~
 @2278 = ~*Minsc claps you on your shoulder good-heartedly.* Boo can hear the epic songs written about Minsc and Boo and <CHARNAME>, already! Such tales that make heroes of old to turn pale with envy!~
-@2279 = ~*Montaron grins at something you cannot quite comprehend, but, at least, his face does not look as predatory as usual. Perhaps, he can be more forthcoming with personal information than usual.*~ [X#BLANKD]
+@2279 = ~*Montaron grins at something you cannot quite comprehend, but, at least, his face does not look as predatory as usual. Perhaps, he can be more forthcoming with personal information than usual.*~ [X#BLANK]
 @2280 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Montaron.*~
 @2281 = ~So, Montaron, can you tell me more about yourself?~
 @2282 = ~*You ask Montaron lots of personal questions.*~
@@ -2434,7 +2434,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2425 = ~But I am glad - I was too talented to remain in the backwater. I have apprenticed under Gifos, and he himself said that I cannot be bothered with learning as all others do, so I am better off on my own acquiring the practical knowledge of magic while adventuring. Yes, he did. So now I do just that - and, to tell you the truth, I think I am now at the level when I myself can teach anyone... bah! I could have taught in the Luskan's Host Tower... as a minimum - years ago, if not for envy and intrigues...~
 @2426 = ~You do not deserve a single whiff of my enormous brain... Wait! Where are you going?~
 @2427 = ~I am the most intelligent being on Toril... Can you feel my amazing brain?~
-@2428 = ~*Tiax is mumbling something to himself, most probably battleplans for the impending creation of Cyric's grand empire. That Tiax wants to dominate the world is obvious, but you are interested in learning more than that about him...*~ [X#BLANKD]
+@2428 = ~*Tiax is mumbling something to himself, most probably battleplans for the impending creation of Cyric's grand empire. That Tiax wants to dominate the world is obvious, but you are interested in learning more than that about him...*~ [X#BLANK]
 @2429 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Tiax.*~
 @2430 = ~So, Tiax, can you tell me more about yourself?~
 @2431 = ~*You ask Tiax lots of personal questions.*~
@@ -2667,8 +2667,8 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2658 = ~Well enough, <CHARNAME>. After Mulahey's treatment, any sort of existence is a benevolent one. I cannot say I enjoy our travels, but your company makes me oblivious to the many hardships we endure.~
 @2659 = ~Me? I am alive, for now, as you can well see. Though I suspect that you have released me from Mulahey's prison only for some other appalling fate.~
 @2660 = ~What do you wish to hear, <CHARNAME>? I have no desire to lull you down the path of false security. It is very probable both of us will die before the day is out. *sigh* Whatever I answer, soon it will become unimportant.~
-@2661 = ~*Xan shakes his head at your approach, looking tired and listless, and you have no choice but to indeed leave him alone.*~ [X#BLANKD]
-@2662 = ~*Xan, your soulmate, lover and comrade in arms, walks at your side. His expression is far from serene, but a change for the better is clearly evident.*~ [X#BLANKD]
+@2661 = ~*Xan shakes his head at your approach, looking tired and listless, and you have no choice but to indeed leave him alone.*~ [X#BLANK]
+@2662 = ~*Xan, your soulmate, lover and comrade in arms, walks at your side. His expression is far from serene, but a change for the better is clearly evident.*~ [X#BLANK]
 @2663 = ~Xan, will you smile for me?~
 @2664 = ~*Embrace Xan*~
 @2665 = ~Is something troubling you?~
@@ -2803,7 +2803,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2794 = ~Estel'amin, when this wretched day is over, and we have found a relatively safe place to rest, I will try. *sigh* But now is not the time and place for frivolities.~
 @2795 = ~*A hesitant smile appears on his face, looking very much out of harmony with his gloomy, forlorn look. But it is a smile, nevertheless.*~
 @2796 = ~*Xan gives you a faint, sad smile you know so well.* For you, Estel'amin... anything.~
-@2797 = ~*Xan surveys the world melancholically and sighs. Perhaps a pleasant conversation will distract him from gloomy thoughts, and maybe you will learn something about him to boot.*~ [X#BLANKD]
+@2797 = ~*Xan surveys the world melancholically and sighs. Perhaps a pleasant conversation will distract him from gloomy thoughts, and maybe you will learn something about him to boot.*~ [X#BLANK]
 @2798 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Xan.*~
 @2799 = ~So, Xan, can you tell me more about yourself?~
 @2800 = ~*You ask Xan lots of personal questions.*~
@@ -2886,7 +2886,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2877 = ~I am doomed, <CHARNAME>... that is all I can tell you about myself.~
 @2878 = ~<CHARNAME>, do not lessen our chances of survival by disturbing my concentration. Seldarine knows, they are measly enough. ~
 @2879 = ~I am glad that you have delivered me from dark warrens of the mine. I welcome the feel of moonlight on my face... and all the good smells of the wood. I am only saddened by the fact that death will irrevocably take it away from me soon enough.~
-@2880 = ~*Xzar's eyes shift wildly, not a single object or person capable of keeping his attention for more than a second. Finally he produces a vial from his pouch and starts shaking it. Murky liquid inside turns emerald-green and bubbles up dangerously. You figure it will be for the best to involve Xzar in an amiable conversation before he unstoppers that cork.*~ [X#BLANKD]
+@2880 = ~*Xzar's eyes shift wildly, not a single object or person capable of keeping his attention for more than a second. Finally he produces a vial from his pouch and starts shaking it. Murky liquid inside turns emerald-green and bubbles up dangerously. You figure it will be for the best to involve Xzar in an amiable conversation before he unstoppers that cork.*~ [X#BLANK]
 @2881 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Xzar.*~
 @2882 = ~*You observe Xzar for a while longer.*~
 @2883 = ~So, Xzar, can you tell me more about yourself?~
@@ -3004,7 +3004,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2995 = ~A rabbit? Do you carry a rabbit? My Mummy was killed by a rabbit with a head like a dragon, yes, she was. Evil bunnies.~
 @2996 = ~I look forward to the eventual death of this world. Providing that I will stand by the graveside together with Phil Athens. A fascinating thought.~
 @2997 = ~Now, my dearest <CHARNAME>, why would you distract me from this stirring mustard jelly and slime cross? It's been dead for a decade, but thanks to the wonders of necromancy it still maintains its freshness. Here! Sniff it! *Xzar unstoppers the cork. You knew it would have been for the best to avoid it, as the noble-born slime oozes over the brim.*~
-@2998 = ~*The sturdy dwarf walks purposely onward, armoured and dignified. You think that it might be a good time to chat with Yeslick for a bit, and maybe learn a bit more of him.*~ [X#BLANKD]
+@2998 = ~*The sturdy dwarf walks purposely onward, armoured and dignified. You think that it might be a good time to chat with Yeslick for a bit, and maybe learn a bit more of him.*~ [X#BLANK]
 @2999 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Yeslick.*~
 @3000 = ~So, Yeslick, can you tell me more about yourself?~
 @3001 = ~*You ask Yeslick lots of personal questions.*~
@@ -3556,7 +3556,7 @@ They are waves and Shuan silk's cascade.~
 @3539 = ~Will you desist this berating for knowledge, simian! You will know what you are allowed to, and no more.~
 @3540 = ~(Will these simians ever quit whining?) There is nothing you need to know about me.~
 @3541 = ~If you cannot gather the information on someone yourself, then you don't deserve to know.~
-@3542 = ~*Eldoth has kept quiet for a while. He must be working on one of his edgy songs. Perhaps now would be a good time to distract the bard to spare someone's feelings. Bards usually like talking about themselves...*~ [X#BLANKD]
+@3542 = ~*Eldoth has kept quiet for a while. He must be working on one of his edgy songs. Perhaps now would be a good time to distract the bard to spare someone's feelings. Bards usually like talking about themselves...*~ [X#BLANK]
 @3543 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Eldoth.*~
 @3544 = ~So, Eldoth, can you tell me more about yourself?~
 @3545 = ~*You ask Eldoth lots of personal questions.*~
@@ -3628,7 +3628,7 @@ They are waves and Shuan silk's cascade.~
 @3611 = ~Why talk, when there are songs to be sung?~
 @3612 = ~It would be my pleasure, but perhaps some other time.~
 @3613 = ~I'd much rather tell you about a young lady named Skie Silvershield... a very rich young lady.~
-@3614 = ~*Garrick has seemed a little distant of late and less chatty. It's surprising. Perhaps now would be a good time to remedy the situation and lift the bard's spirits. And the artists like nothing more than talking about themselves.*~ [X#BLANKD]
+@3614 = ~*Garrick has seemed a little distant of late and less chatty. It's surprising. Perhaps now would be a good time to remedy the situation and lift the bard's spirits. And the artists like nothing more than talking about themselves.*~ [X#BLANK]
 @3615 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Garrick.*~
 @3616 = ~So, Garrick, can you tell me more about yourself?~
 @3617 = ~*You ask Garrick lots of personal questions.*~
@@ -3701,7 +3701,7 @@ They are waves and Shuan silk's cascade.~
 @3684 = ~Why, <SIRMAAM>, I would love to converse, but pressing matters await... ~
 @3685 = ~Not, uh, now... Perhaps later.~
 @3686 = ~How about some music instead, to liven the spirits? ~
-@3687 = ~*You find a moment with Khalid away from everyone else. Perhaps it would be wise to take advantage of the situation and ask a few personal questions. Khalid usually is too shy to talk of himself in public.*~ [X#BLANKD]
+@3687 = ~*You find a moment with Khalid away from everyone else. Perhaps it would be wise to take advantage of the situation and ask a few personal questions. Khalid usually is too shy to talk of himself in public.*~ [X#BLANK]
 @3688 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Khalid.*~
 @3689 = ~So, Khalid, can you tell me more about yourself?~
 @3690 = ~*You ask Khalid lots of personal questions.*~
@@ -3767,7 +3767,7 @@ They are waves and Shuan silk's cascade.~
 @3750 = ~Best not to t-tarry when there may be d-danger about.~
 @3751 = ~I would rather tell you something about G-Gorion, but that may upset you.~
 @3752 = ~I would rather tell you something about G-Gorion, but that may upset you.~
-@3753 = ~*Kaigan seems less aggravated than usual. Now would be a good chance to find something out about him.*~ [X#BLANKD] 
+@3753 = ~*Kaigan seems less aggravated than usual. Now would be a good chance to find something out about him.*~ [X#BLANK] 
 @3754 = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Kagain.*~
 @3755 = ~So, Kagain, can you tell me more about yourself?~
 @3756 = ~*You ask Kagain lots of personal questions.*~
@@ -3836,8 +3836,8 @@ They are waves and Shuan silk's cascade.~
 @3819 = ~These be dangerous time we live in, be best to watch yourself.~
 @3820 = ~I'll not t' tell you twice to mind yer own business.~
 @3821 = ~You better watch it kid, or it'll be more than a brain you'll be missing. I deal with weapons of gold you won't likely forget.~
-@3822 = ~No time for idle conversation. I feel evil next to us!~ [X#BLANKD]
-@3823 = ~*Ajantis seems to accept you as his comrade, and you can see that he would not mind becoming engaged in a conversation between his "important knightly duties". Perhaps it is a good time to ask him a personal question or two.*~ [X#BLANKD]
+@3822 = ~No time for idle conversation. I feel evil next to us!~ [X#BLANK]
+@3823 = ~*Ajantis seems to accept you as his comrade, and you can see that he would not mind becoming engaged in a conversation between his "important knightly duties". Perhaps it is a good time to ask him a personal question or two.*~ [X#BLANK]
 @3824 = ~Ajantis, maybe you had the impression that I valued other men in this group more than you, but that is not true. No matter what I said or did, I realised it's you I am interested in the most.~
 @3825 = ~How are you, Ajantis?~
 @3826 = ~It's good to have another paladin around, Ajantis. Together we will smite evil where we see it!~
@@ -3959,7 +3959,7 @@ They are waves and Shuan silk's cascade.~
 @3942 = ~Perhaps some other time, for now we must keep our eyes and ears open.~
 @3943 = ~It is more important to exercise caution than our jaw.~
 @3944 = ~As I already told you, I am a squire knight. I am on a quest to earn my right to be a full fledged member of the Order of the Most Radiant Heart.~
-@3945 = ~I belong to the noble family of Ilvastarr of Waterdeep. My closest relatives are my parents, Ulguth und Mara, and my brother Gotom and my sister Elina. I am the youngest of four. I had an older brother, Envin, but he died when I was five, due to a disease.~
+@3945 = ~I belong to the noble family of Ilvastarr of Waterdeep. My closest relatives are my parents, Ulguth and Mara, and my brother Gotom and my sister Elina. I am the youngest of four. I had an older brother, Envin, but he died when I was five, due to a disease.~
 @3946 = ~See my coat of arms, the coat of arms of the Ilvastarr family: A dragon with metallic green body and orange eyes, on a golden field.~
 @3947 = ~My parents run a trade business, and my father is a hard working businessman. He specialized in beast-taming and breeding, which is done mostly on a country seat south of the city. Some of the beasts are for slaughtering, and my mother is a very fine cook of exotic meats. She has won a lot of prizes with her recipes.~
 @3948 = ~Keldorn Firecam, a highly respected knight of the Order, was my mentor and he taught me a lot.~

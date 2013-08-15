@@ -20,7 +20,7 @@
 //
 // Viconia
 //
-@0 = ~*La sombre dame de l'Outreterre marche à vos côtés - un mystère incarné. Peut-être que quelques questions bien orientées vous révéleront la vérité sur Viconia... ou créeront davantage de zones d'ombre. Voulez-vous tenter votre chance ?*~ [X#BLANKD]
+@0 = ~*La sombre dame de l'Outreterre marche à vos côtés - un mystère incarné. Peut-être que quelques questions bien orientées vous révéleront la vérité sur Viconia... ou créeront davantage de zones d'ombre. Voulez-vous tenter votre chance ?*~ [X#BLANK]
 @1 = ~*Vous décidez que tant que vous n'apprendrez rien de ce que vous ne voulez pas savoir à propos de Viconia, vous n'aurez pas d'ennuis.*~
 @2 = ~Dis-moi, Viconia, peux-tu m'en dire plus à ton sujet ?~
 @3 = ~*Vous posez à Viconia de nombreuses questions personnelles.*~
@@ -151,7 +151,7 @@
 //
 // Skie
 //
-@88 = ~*Skie nettoie consciencieusement la boue sur sa cape avant de rougir gracieusement et de lever les yeux. Soit elle trouve qu'une cape sale est très inappropriée pour une aventurière, soit elle était en train de repenser à Eldoth et à l'amour qu'elle lui porte. De toute façon, le moment semble suffisamment calme pour apprendre quelque chose d'elle au milieu de ses babillages excités sur l'aventure.*~ [X#BLANKD]
+@88 = ~*Skie nettoie consciencieusement la boue sur sa cape avant de rougir gracieusement et de lever les yeux. Soit elle trouve qu'une cape sale est très inappropriée pour une aventurière, soit elle était en train de repenser à Eldoth et à l'amour qu'elle lui porte. De toute façon, le moment semble suffisamment calme pour apprendre quelque chose d'elle au milieu de ses babillages excités sur l'aventure.*~ [X#BLANK]
 @89 = ~*Vous décidez que vous ne devriez pas l'ennuyer, sous peine d'apprendre des choses sur elle que vous ne voulez pas savoir.*~
 @90 = ~Alors, Skie, et si vous m'en disiez plus sur vous ?~
 @91 = ~*Vous lui posez plein de questions personnelles.*~
@@ -273,7 +273,7 @@
 //
 // Shar-Teel
 //
-@157 = ~*Vous regardez Shar-Teel. Son visage est aussi renfrogné que les Neuf Enfers sont chauds. Vous ne savez pas si cela vous inquiète ou si ça aiguise votre curiosité. Peut-être que si vous pouviez la faire parler un peu d'elle, vous comprendriez mieux cette sinistre guerrière.*~ [X#BLANKD]
+@157 = ~*Vous regardez Shar-Teel. Son visage est aussi renfrogné que les Neuf Enfers sont chauds. Vous ne savez pas si cela vous inquiète ou si ça aiguise votre curiosité. Peut-être que si vous pouviez la faire parler un peu d'elle, vous comprendriez mieux cette sinistre guerrière.*~ [X#BLANK]
 @158 = ~*Vous décidez que vous ne devriez pas l'ennuyer, sous peine d'apprendre des choses sur elle que vous ne voulez pas savoir.*~
 @159 = ~Alors, Shar-Teel, et si tu m'en disais plus sur toi ?~
 @160 = ~*Vous lui posez plein de questions personnelles.*~
@@ -780,7 +780,7 @@ Avance et bats-toi sur l'heure !~
 //
 // Safana
 //
-@619 = ~*Safana est en train de s'apprêter, encore une fois. Elle semble née pour le rôle de la dame mercenaire capable de mener le plus grand des héros par le bout du nez... et de s'éclipser avec le butin alors qu'il est encore en train de combattre le dragon pour gagner les faveurs de cette dame. Son passé vous fascine, il est donc peut-être temps d'avoir une discussion franche avec Safana.*~ [X#BLANKD]
+@619 = ~*Safana est en train de s'apprêter, encore une fois. Elle semble née pour le rôle de la dame mercenaire capable de mener le plus grand des héros par le bout du nez... et de s'éclipser avec le butin alors qu'il est encore en train de combattre le dragon pour gagner les faveurs de cette dame. Son passé vous fascine, il est donc peut-être temps d'avoir une discussion franche avec Safana.*~ [X#BLANK]
 @620 = ~*Vous décidez de ne pas vous en préoccuper, de peur d'apprendre des choses que vous n'auriez pas envie de savoir au sujet de Safana.*~
 @621 = ~Alors Safana, peux-tu m'en apprendre un peu plus à ton sujet ?~
 @622 = ~*Vous posez beaucoup de questions personnelles à Safana.*~
@@ -905,7 +905,7 @@ Avance et bats-toi sur l'heure !~
 //
 // Alora
 //
-@702 = ~*C'est toujours un plaisir de discuter avec cette petite-femme si décontractée. Alora semble n'être que blagues et anecdotes, mais vous aimeriez tout de même qu'elle vous parle d'elle d'une façon un peu plus sérieuse parfois.*~ [X#BLANKD]
+@702 = ~*C'est toujours un plaisir de discuter avec cette petite-femme si décontractée. Alora semble n'être que blagues et anecdotes, mais vous aimeriez tout de même qu'elle vous parle d'elle d'une façon un peu plus sérieuse parfois.*~ [X#BLANK]
 @703 = ~*Vous décidez de ne pas vous en préoccuper, de peur d'apprendre des choses que vous n'auriez pas envie de savoir au sujet d'Alora.*~
 @704 = ~Alors Alora, peux-tu m'en apprendre un peu plus à ton sujet ?~
 @705 = ~*Vous posez beaucoup de questions personnelles à Alora.*~
@@ -1060,7 +1060,7 @@ Avance et bats-toi sur l'heure !~
 //
 // Branwen
 //
-@804 = ~*Branwen vous sourit avec mélancolie.* Désolée <CHARNAME>, mais j'ai choisi de rester seule ; c'est ma volonté, et je ne changerai pas d'avis.~ [X#BLANKD]
+@804 = ~*Branwen vous sourit avec mélancolie.* Désolée <CHARNAME>, mais j'ai choisi de rester seule ; c'est ma volonté, et je ne changerai pas d'avis.~ [X#BLANK]
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 14270
 @805 = ~Je vois.~
 @806 = ~Comme tu voudras mais bon, le ton de ta voix est bizarre, alors....~
@@ -1143,7 +1143,7 @@ Avance et bats-toi sur l'heure !~
 @839 = ~[BRANWEN 34] Ne vous moquez pas de moi !~ [%tutu_var%BRANW34]
 // Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 10203, likeliness 99.3
 @840 = ~Interrogée sur son passé, BRANWEN dit avoir quitté très tôt son foyer, Loup de mer, sur les îles Norheim. Il semble que son peuple lui vouait une haine farouche parce qu'elle souhaitait devenir prêtresse, activité réservée aux seuls hommes de son village. Plutôt que d'en demeurer aigrie, elle considère que cette épreuve avait pour but de tremper sa foi. Elle a suivi la côte, en offrant ses services aux milices locales, avant d'intégrer une compagnie d'aventuriers qui opérait autour de Nashkel. Mais elle ignorait qu'il s'agissait de brigands : dès le premier pillage, elle a refusé d'attaquer un convoi marchand désarmé et s'est rebellée, si bien qu'un mage appelé Tranzig l'a changée en pierre. En dépit de cet incident, Branwen pense que Tempus l'approuve, attaquer un adversaire désarmé étant pour elle le comble de la bassesse.~ [DUMMYSND]
-@841 = ~*Vous regardez cette femme barbare qui se bat avec une telle vigueur. Elle semble plus calme maintenant, et son regard un peu moins sévère. Peut-être est-ce le moment de la questionner au sujet de son passé... Elle a certainement vécu des aventures... avant d'être transformée en marbre froid, bien sûr.*~ [X#BLANKD]
+@841 = ~*Vous regardez cette femme barbare qui se bat avec une telle vigueur. Elle semble plus calme maintenant, et son regard un peu moins sévère. Peut-être est-ce le moment de la questionner au sujet de son passé... Elle a certainement vécu des aventures... avant d'être transformée en marbre froid, bien sûr.*~ [X#BLANK]
 @842 = ~*Vous décidez de ne pas vous en préoccuper, de peur d'apprendre des choses que vous n'auriez pas envie de savoir au sujet de Branwen.*~
 @843 = ~Alors Branwen, peux-tu m'en apprendre un peu plus à ton sujet ?~
 @844 = ~*Vous posez beaucoup de questions personnelles à Branwen.*~
@@ -1206,7 +1206,7 @@ Avance et bats-toi sur l'heure !~
 @901 = ~Le ciel est couvert. Ce serait prudent de trouver un abri, de peur que nous ne soyons trempés jusqu'à l'os.~
 @902 = ~Il fera un bon champ de bataille.~
 @903 = ~C'est surprenant que tu reconnaisses ta faute si facilement. Reste à savoir si c'est le signe d'un grand coeur et d'une grande sagesse ou si c'est juste un manque flagrant de cran, mais je suis prête à te donner une chance. Cela dit, n'imagine pas que je te pardonnerai aussi facilement la prochaine fois.~
-@904 = ~*Branwen marche à vos côtés, en sifflotant tranquillement une chanson de route. Remarquant votre regard, elle vous fait un clin d'oeil.* Je crois que tu n'as pas l'intention de me donner un ordre. Exprime-toi franchement, <CHARNAME>, je suis tout ouïe.~ [X#BLANKD]
+@904 = ~*Branwen marche à vos côtés, en sifflotant tranquillement une chanson de route. Remarquant votre regard, elle vous fait un clin d'oeil.* Je crois que tu n'as pas l'intention de me donner un ordre. Exprime-toi franchement, <CHARNAME>, je suis tout ouïe.~ [X#BLANK]
 @905 = ~*Saisir Branwen*~
 @906 = ~Branwen, ma douce guérisseuse, peux-tu jeter un coup d'oeil à mon épaule ? Elle me fait très mal.~
 @907 = ~*Embrasser les cheveux de Branwen, qui brillent comme de l'or poli.*~
@@ -1416,7 +1416,7 @@ Avance et bats-toi sur l'heure !~
 
 // phrases qui déclenchent les dialogues et des actions de flirts (jusqu'à 1104)
 
-@1092 = ~*Vous prêtez attention à Branwen, et la prêtresse de Norheim vous sourit chaleureusement.* Oui, <CHARNAME> ?~ [X#BLANKD]
+@1092 = ~*Vous prêtez attention à Branwen, et la prêtresse de Norheim vous sourit chaleureusement.* Oui, <CHARNAME> ?~ [X#BLANK]
 @1093 = ~*Vous posez la main de Branwen sur votre coeur*~
 @1094 = ~*Vous embrassez Branwen sur la joue*~
 @1095 = ~*D'un bras, vous prenez Branwen par la taille*~
@@ -2481,7 +2481,7 @@ Mais ce qui compte vraiment est ce que l'on a perdu...~
 //
 // Imoen
 //
-@1970  = ~*Imoen paraît inhabituellement silencieuse. De façon assez amusante, vous ne savez pas grand-chose sur votre plus vieille amie. Peut-être est-ce un bon moment pour découvrir qui est vraiment Imoen.*~ [X#BLANKD]
+@1970  = ~*Imoen paraît inhabituellement silencieuse. De façon assez amusante, vous ne savez pas grand-chose sur votre plus vieille amie. Peut-être est-ce un bon moment pour découvrir qui est vraiment Imoen.*~ [X#BLANK]
 @1971  = ~*Vous décidez que ça ne vous dit rien d'apprendre des choses que vous ne voudriez pas savoir à propos d'Imoen.*~
 @1972  = ~Dis, Imoen, peux-tu m'en dire un peu plus sur toi ?~
 @1973  = ~*Vous posez à Imoen beaucoup de questions personnelles.*~
@@ -2569,7 +2569,7 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 //
 // Jaheira
 //
-@2029 = ~*Jaheira est à la traîne pendant un moment, examinant une plante étrange. Elle finit par la mettre dans sa besace médicinale, et à présent, elle est sur le point de rattraper le reste du groupe. Peut-être serait-il sage de profiter de la situation pour échanger quelques mots en privé.*~[X#BLANKD]
+@2029 = ~*Jaheira est à la traîne pendant un moment, examinant une plante étrange. Elle finit par la mettre dans sa besace médicinale, et à présent, elle est sur le point de rattraper le reste du groupe. Peut-être serait-il sage de profiter de la situation pour échanger quelques mots en privé.*~[X#BLANK]
 @2030 = ~*Vous décidez que ça n'en vaut pas la peine, après tout il est des choses que vous ne voudriez pas savoir sur Jaheira.*~
 @2031 = ~Hum, Jaheira, peux-tu m'en dire plus à ton sujet ?~
 @2032 = ~*Vous posez de nombreuses questions personnelles à Jaheira.*~
@@ -2945,7 +2945,7 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 //
 // Montaron
 //
-@2279 = ~*Montaron ricane pour une raison que vous ne parvenez pas parfaitement à comprendre mais, au moins, son visage semble moins carnassier qu'à l'ordinaire. Peut-être pourrait-il être plus prodigue en informations personnelles que d'habitude.*~ [X#BLANKD]
+@2279 = ~*Montaron ricane pour une raison que vous ne parvenez pas parfaitement à comprendre mais, au moins, son visage semble moins carnassier qu'à l'ordinaire. Peut-être pourrait-il être plus prodigue en informations personnelles que d'habitude.*~ [X#BLANK]
 @2280 = ~*Vous décidez de ne pas vous en soucier. Après tout, vous pourriez apprendre des choses sur Montaron que vous préfériez ne pas savoir.*~
 @2281 = ~Bon, Montaron, peux-tu m'en dire davantage à ton sujet ?~
 @2282 = ~*Vous posez tout un tas de questions personnelles à Montaron.~
@@ -3178,7 +3178,7 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 //
 // Tiax
 //
-@2428 = ~*Tiax est en train de grommeler tout seul, préparant plus que probablement des plans de bataille en vue de la création imminente du grand empire de Cyric. Que Tiax veut dominer le monde est clair, mais vous aimeriez en apprendre davantage sur lui...*~ [X#BLANKD]
+@2428 = ~*Tiax est en train de grommeler tout seul, préparant plus que probablement des plans de bataille en vue de la création imminente du grand empire de Cyric. Que Tiax veut dominer le monde est clair, mais vous aimeriez en apprendre davantage sur lui...*~ [X#BLANK]
 @2429 = ~*Vous décidez que cela n'en vaut pas la peine, vous pourriez après tout apprendre des choses que vous ne voulez pas savoir sur Tiax.*~
 @2430 = ~Tiax, peux-tu m'en dire plus à ton sujet ?~
 @2431 = ~*Vous posez de nombreuses questions personnelles à Tiax.*~
@@ -3492,8 +3492,8 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 @2658  = ~Pas trop mal, <CHARNAME>. Après la façon dont Mulahey m'a traité, n'importe quel type d'existence est une amélioration. Je ne peux pas dire que j'apprécie nos voyages, mais ta compagnie me rend aveugle à toutes les privations que nous endurons.~
 @2659  = ~Moi ? Je suis en vie, pour l'instant, comme tu peux le constater. Mais je te soupçonne de m'avoir libéré des griffes de Mulahey dans l'unique but de me livrer à un autre sort, différent peut-être, mais tout aussi terrible.~
 @2660  = ~Que souhaites-tu entendre, <CHARNAME> ? Je ne souhaite pas te donner une fausse impression de sécurité. Il est très probable que nous allons tous les deux périr avant ce soir. *soupir* Quelle que soit ma réponse, elle sera bientôt sans importance.~
-@2661  = ~*Xan secoue la tête alors que vous vous approchez ; il semble fatigué et apathique, et vous n'avez pas d'autre choix que de le laisser seul.*~ [X#BLANKD]
-@2662  = ~*Xan, votre âme soeur, votre amant, votre compagnon d'armes, marche à vos côtés. Son expression est loin d'être sereine, mais il semble moins morose que d'habitude.*~ [X#BLANKD]
+@2661  = ~*Xan secoue la tête alors que vous vous approchez ; il semble fatigué et apathique, et vous n'avez pas d'autre choix que de le laisser seul.*~ [X#BLANK]
+@2662  = ~*Xan, votre âme soeur, votre amant, votre compagnon d'armes, marche à vos côtés. Son expression est loin d'être sereine, mais il semble moins morose que d'habitude.*~ [X#BLANK]
 @2663  = ~Xan, est-ce que tu veux bien sourire pour moi ?~
 @2664  = ~*Prendre Xan dans vos bras*~
 @2665  = ~Est-ce qu'il y a quelque chose qui te tracasse ?~
@@ -3628,7 +3628,7 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 @2794  = ~Estel'amin, lorsque cette maudite journée sera terminée, et si nous trouvons un endroit sûr pour nous reposer, j'essayerai. *soupir* Maintenant ce n'est pas le moment ou l'endroit pour ces frivolités.~
 @2795  = ~*Un sourire hésitant apparaît sur son visage, complètement discordant avec son air sombre et morose. Mais c'est tout de même un sourire.*~
 @2796  = ~*Xan vous adresse le petit sourire triste que vous connaissez si bien.* Pour toi, Estel'amin... tout ce que tu voudras.~
-@2797  = ~*Xan observe le monde qui l'entoure avec mélancolie et pousse un soupir. Peut-être qu'un peu de conversation le distraira de ses sombres pensées, et peut-être que vous en profiterez pour en savoir un peu plus à son sujet.*~ [X#BLANKD]
+@2797  = ~*Xan observe le monde qui l'entoure avec mélancolie et pousse un soupir. Peut-être qu'un peu de conversation le distraira de ses sombres pensées, et peut-être que vous en profiterez pour en savoir un peu plus à son sujet.*~ [X#BLANK]
 @2798  = ~*Vous décidez de ne pas vous en donner la peine, vous pourriez apprendre des choses sur Xan qu'il vaudrait mieux ignorer.*~
 @2799  = ~Alors, Xan, est-ce que tu peux m'en dire plus sur toi ?~
 @2800  = ~*Vous posez une multitude de questions personnelles à Xan.*~
@@ -3714,7 +3714,7 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 //
 // Xzar
 //
-@2880 = ~*Les yeux de Xzar remuent furieusement, rien ni personne n'étant capable de retenir son attention plus d'une seconde. Finalement, il tire une fiole de sa sacoche et commence à la secouer. Le liquide sombre à l'intérieur tourne au vert émeraude et se met à monter en bouillonnant dangereusement. Vous vous dites que le mieux serait d'impliquer Xzar dans une conversation aimable avant qu'il n'ôte ce bouchon.*~ [X#BLANKD]
+@2880 = ~*Les yeux de Xzar remuent furieusement, rien ni personne n'étant capable de retenir son attention plus d'une seconde. Finalement, il tire une fiole de sa sacoche et commence à la secouer. Le liquide sombre à l'intérieur tourne au vert émeraude et se met à monter en bouillonnant dangereusement. Vous vous dites que le mieux serait d'impliquer Xzar dans une conversation aimable avant qu'il n'ôte ce bouchon.*~ [X#BLANK]
 @2881 = ~*Vous décidez que tant que vous n'apprendrez rien de ce que vous ne voulez pas savoir sur Xzar, vous n'aurez pas d'ennuis. *~
 @2882 = ~*Vous observez Xzar un peu plus longtemps.*~
 @2883 = ~Dis-moi, Xzar, peux-tu m'en dire plus sur toi-même ?~
@@ -3875,7 +3875,7 @@ Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite 
 //
 // Yeslick
 //
-@2998 = ~*Le vaillant nain marche avec détermination, digne dans son armure. Vous pensez que c'est peut-être le bon moment pour bavarder un instant avec Yeslick, et peut-être en apprendre un peu plus sur lui.*~ [X#BLANKD]
+@2998 = ~*Le vaillant nain marche avec détermination, digne dans son armure. Vous pensez que c'est peut-être le bon moment pour bavarder un instant avec Yeslick, et peut-être en apprendre un peu plus sur lui.*~ [X#BLANK]
 @2999 = ~*Vous décidez que cela n'en vaut pas la peine, par peur d'apprendre quelque chose sur Yeslick que vous ne souhaitez pas savoir.*~
 @3000 = ~Alors, Yeslick, pouvez-vous m'en dire plus sur vous ?~
 @3001 = ~*Vous posez à Yeslick beaucoup de questions personnelles.*~
@@ -4555,7 +4555,7 @@ Vagues et cascade de soie de Shuan.~
 //
 // Eldoth
 //
-@3542 = ~*Cela fait un moment qu'Eldoth s'est tenu à l'écart. Il est sans doute en train de travailler sur un autre de ses chants macabres. Peut-être que ce serait le moment idéal pour détourner l'attention du barde de son oeuvre, ce qui épargnerait bien des gens. Les bardes aiment souvent parler de leur propre personne...*~ [X#BLANKD]
+@3542 = ~*Cela fait un moment qu'Eldoth s'est tenu à l'écart. Il est sans doute en train de travailler sur un autre de ses chants macabres. Peut-être que ce serait le moment idéal pour détourner l'attention du barde de son oeuvre, ce qui épargnerait bien des gens. Les bardes aiment souvent parler de leur propre personne...*~ [X#BLANK]
 @3543 = ~*Vous décidez que vous ne devriez pas l'ennuyer, sous peine d'apprendre des choses sur lui que vous ne voulez pas savoir.*~
 @3544 = ~Alors, Eldoth, et si vous m'en disiez plus sur vous ?~
 @3545 = ~*Vous lui posez plein de questions personnelles.*~
@@ -4681,7 +4681,7 @@ Vagues et cascade de soie de Shuan.~
 //
 // Garrick
 //
-@3614 = ~*Garrick semble un peu distant, ces derniers temps, et moins bavard. C'est surprenant. Peut-être serait-ce le bon moment pour remédier à cette situation et remonter le moral du barde. Et les artistes n'aiment rien tant que de parler d'eux-mêmes.*~ [X#BLANKD]
+@3614 = ~*Garrick semble un peu distant, ces derniers temps, et moins bavard. C'est surprenant. Peut-être serait-ce le bon moment pour remédier à cette situation et remonter le moral du barde. Et les artistes n'aiment rien tant que de parler d'eux-mêmes.*~ [X#BLANK]
 @3615 = ~*Vous décidez que cela n'en vaut pas la peine. Après tout, vous pourriez apprendre des choses que vous ne voulez pas savoir sur Garrick.*~
 @3616 = ~Garrick, peux-tu m'en dire plus sur toi ?~
 @3617 = ~*Vous posez de nombreuses questions personnelles à Garrick.*~
@@ -4796,7 +4796,7 @@ Vagues et cascade de soie de Shuan.~
 //
 // Khalid
 //
-@3687 = ~*Vous parvenez à trouver un moment avec Khalid à l'écart des autres. Peut-être serait-il sage d'en profiter et de lui poser quelques questions personnelles. Khalid est généralement trop timide pour parler de lui-même en public.*~ [X#BLANKD]
+@3687 = ~*Vous parvenez à trouver un moment avec Khalid à l'écart des autres. Peut-être serait-il sage d'en profiter et de lui poser quelques questions personnelles. Khalid est généralement trop timide pour parler de lui-même en public.*~ [X#BLANK]
 @3688 = ~*Vous decidez que ça n'en vaut pas la peine, après tout vous pourriez apprendre des choses sur Khalid que vous préférez ignorer.*~
 @3689 = ~Bon, Khalid, peux-tu m'en dire plus à ton propos ?~
 @3690 = ~*Vous posez à Khalid un tas de questions personnelles.*~
@@ -4905,7 +4905,7 @@ Vagues et cascade de soie de Shuan.~
 //
 // Kagain
 //
-@3753 = ~*Kagain semble moins grave que d'habitude. Ce serait peut-être le bon moment pour essayer d'en apprendre plus sur lui.*~ [X#BLANKD]
+@3753 = ~*Kagain semble moins grave que d'habitude. Ce serait peut-être le bon moment pour essayer d'en apprendre plus sur lui.*~ [X#BLANK]
 @3754 = ~*Vous décidez que ça n'en vaut pas la peine, vous pourriez apprendre des choses sur Kagain que vous ne voudriez pas savoir.*~
 @3755 = ~Alors, Kagain, peux-tu m'en dire d'avantage sur toi ?~
 @3756 = ~*Vous posez à Kagain beaucoup de questions personnelles.*~
@@ -5016,8 +5016,8 @@ Vagues et cascade de soie de Shuan.~
 //
 // Ajantis
 //
-@3822 = ~L'instant est mal choisi pour faire conversation. Je sens que le mal n'est pas loin !~ [X#BLANKD]
-@3823 = ~*Ajantis semble vous accepter en tant que camarade, et vous pouvez voir qu'il ne serait pas contre une petite conversation entre deux "devoirs importants de chevalier". Peut-être est-ce le moment de lui poser une question personnelle ou deux.*~ [X#BLANKD]
+@3822 = ~L'instant est mal choisi pour faire conversation. Je sens que le mal n'est pas loin !~ [X#BLANK]
+@3823 = ~*Ajantis semble vous accepter en tant que camarade, et vous pouvez voir qu'il ne serait pas contre une petite conversation entre deux "devoirs importants de chevalier". Peut-être est-ce le moment de lui poser une question personnelle ou deux.*~ [X#BLANK]
 @3824 = ~Ajantis, peut-être as-tu eu l'impression que j'accordais plus de valeur à d'autres hommes dans ce groupe qu'à toi, mais ce n'est pas vrai. Quoi que j'ai pu dire ou faire, j'ai réalisé que c'était à toi que je m'intéressais le plus.~
 @3825 = ~Comment vas-tu, Ajantis ?~
 @3826 = ~Il est bon d'avoir un autre paladin dans les parages, Ajantis. Ensemble, nous frapperons le mal, où que nous le trouvions !~
