@@ -1,0 +1,39 @@
+/* Bounty Hunter Scripts */
+
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+SetGlobal("X#TQBountyAttack","GLOBAL",1) //Help! Help! I'm Being Oppressed!
+ActionOverride("X#KARRIS",Enemy())
+ActionOverride("X#TQBH1",Enemy())
+ActionOverride("X#TQBH2",Enemy())
+ActionOverride("X#TQBH3",Enemy())
+ActionOverride("X#TQBH4",Enemy())
+END
+
+IF
+See(NearestEnemyOf(Myself))
+!Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipRanged()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipMostDamagingMelee()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+AttackedBy([ANYONE],DEFAULT)
+THEN
+RESPONSE #100
+AttackReevaluate(LastAttackerOf(Myself),30)
+END

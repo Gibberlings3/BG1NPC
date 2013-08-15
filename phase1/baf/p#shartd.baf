@@ -1,0 +1,68 @@
+/* Interest Talk */
+IF %BGT_VAR%
+ReputationLT(Player1,13)
+Gender(Player1,MALE)
+Global("X#ShMale","GLOBAL",0)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+AreaType(FOREST)
+THEN
+RESPONSE #100
+SetGlobal("X#ShMale","GLOBAL",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#ShMale","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+AreaType(FOREST)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet(Player1)
+END
+
+/* Xzar's disciple */
+IF %BGT_VAR%
+Global("X#SHXZ2","LOCALS",0)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("xzar")
+!StateCheck("xzar",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("xzar")
+THEN
+RESPONSE #100
+SetGlobal("X#SHXZ2","LOCALS",1)
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("xzar")
+END
+
+IF %BGT_VAR%
+Global("X#SHXZ2","LOCALS",1)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InParty("xzar")
+!StateCheck("xzar",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea("xzar")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+StartDialogueNoSet("xzar")
+END

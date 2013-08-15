@@ -1,0 +1,222 @@
+/* Branwen-Tranzig fight */
+IF %BGT_VAR%
+AreaCheck("%Beregost_FeldepostsInn_L2%")
+Dead("tranzig")
+Global("P#BranTranzig","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#BranTranzig","GLOBAL",1)
+END
+
+/* Initiate:  Branwen-Tranzig fight */
+IF %BGT_VAR%
+Global("P#BranTranzig","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("branw99")
+StartDialogueNoSet(Player1)
+END
+
+/* Branwen Script Modifications */
+/* original coder: Rastor <rastor@rpgdungeonmods.tk> */
+
+/* Activate: In FW3500 */
+IF %BGT_VAR%
+AreaCheck("%MutaminsGarden%")
+Global("P#BranInFW3500","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#BranInFW3500","GLOBAL",1)
+END
+
+/* Initiate: In FW3500 */
+IF %BGT_VAR%
+Global("P#BranInFW3500","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("branw99")
+StartDialogueNoSet(Player1)
+END
+
+/* Activate: Got Scalp? */
+IF %BGT_VAR%
+!AreaCheck("%NashkelCarnival%")
+PartyHasItem("%tutu_var%MISC86")
+Global("P#BranwenScalp","LOCALS",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("P#BranwenScalp","LOCALS",1)
+END
+
+/* Initiate: Got Scalp? */
+IF %BGT_VAR%
+!AreaCheck("%NashkelCarnival%")
+Global("P#BranwenScalp","LOCALS",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("branw99")
+StartDialogueNoSet(Player1)
+END
+
+/* Activate Branwen Idol Talk */
+IF %BGT_VAR%
+AreaCheck("%ArchaeologicalSite%")
+Allegiance("Doomsayer",ENEMY)
+See("Doomsayer")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+Global("P#BranwenIdol","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("P#BranwenIdol","LOCALS",1)
+END
+
+/* Initiate Branwen Idol Talk */
+IF %BGT_VAR%
+Global("P#BranwenIdol","LOCALS",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Cow Summoning */
+IF %BGT_VAR%
+InParty(Myself)
+Global("P#BranNewMatch","GLOBAL",1)
+Global("X#ForCow","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#ForCow","GLOBAL",1)
+ReallyForceSpellRES("SPWI299",Myself)
+END
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#ForCow","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+Dialogue(Player1)
+END
+
+/* Activate Dwarven Riddles */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower_D1%")
+Global("P#BranwenDwarfInterject","GLOBAL",0)
+OR(3)
+Global("Avarice","GLOBAL",1)
+Global("Pride","GLOBAL",1)
+Global("Fear","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#BranwenDwarfInterject","GLOBAL",1)
+END
+
+/* Initiate Dwarven Riddles */
+IF %BGT_VAR%
+Global("P#BranwenDwarfInterject","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+/* Activate Dwarf Tossing */
+IF %BGT_VAR%
+AreaCheck("%DurlagsTower_D1%")
+Global("P#BranDurlag","GLOBAL",1)
+Global("P#BranwenSlayDwarfs","GLOBAL",0)
+OR(4)
+See("pridem")
+See("fearm")
+See("avaricem")
+See("lovem")
+OR(4)
+Allegiance("pridem",ENEMY)
+Allegiance("fearm",ENEMY)
+Allegiance("avaricem",ENEMY)
+Allegiance("lovem",ENEMY)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#BranwenSlayDwarfs","GLOBAL",1)
+END
+
+/* Initiate Dwarf Tossing */
+IF %BGT_VAR%
+Global("P#BranwenSlayDwarfs","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+

@@ -1,0 +1,302 @@
+/* Imoen Interjections */
+
+/* Imoen Reacts to Gorion's Body or Scroll */
+IF %BGT_VAR%
+PartyHasItem("%tutu_var%SCRL3Z")
+AreaCheck("%LionsWay%")
+Global("X#IMGBody","GLOBAL",0)
+Global("X#GorionBuried","GLOBAL",0)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMGBody","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#IMGBody","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+Dialog(Player1)
+END
+
+/* Imoen Reacts to Scroll if Gorion is buried first */
+IF %BGT_VAR%
+AreaCheck("%LionsWay%")
+PartyHasItem("%tutu_var%SCRL3Z")
+Global("X#GorionBuried","GLOBAL",1)
+Global("X#IMGBodyFinal","GLOBAL",0)
+Global("X#IMGBody","GLOBAL",0)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMGBodyFinal","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#IMGBodyFinal","GLOBAL",1)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* Activate Imoen running */
+IF %BGT_VAR%
+AreaCheck("%LionsWay%")
+Global("X#IMORUN","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+THEN
+RESPONSE #100
+SetGlobal("X#IMORUN","GLOBAL",2)
+END
+
+/* Initiate Imoen running */
+IF %BGT_VAR%
+Global("X#IMORUN","GLOBAL",2)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* Assassin 2 */
+IF %BGT_VAR%
+AreaCheck("%Nashkel_Inn%")
+Global("X#IMNeira","GLOBAL",0)
+Dead("neira")
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMNeira","GLOBAL",1)
+END
+
+/* Initiate Assassin 2 */
+IF %BGT_VAR%
+Global("X#IMNeira","GLOBAL",1)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* 3: Return to Candlekeep */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Inn_L1%")
+Global("X#IMinCK","GLOBAL",0)
+See("hull")
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMinCK","GLOBAL",1)
+END
+
+/* Initiate 3: Return to Candlekeep */
+IF %BGT_VAR%
+Global("X#IMinCK","GLOBAL",1)
+See(Player1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* Found diamond */
+IF %BGT_VAR%
+AreaCheck("%LionsWay%")
+Global("X#IMDiamond","GLOBAL",0)
+PartyHasItem("%tutu_var%MISC42")
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMDiamond","GLOBAL",1)
+END
+
+/* Initiate Found diamond */
+IF %BGT_VAR%
+Global("X#IMDiamond","GLOBAL",1)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* Talked to Foreshadow */
+IF %BGT_VAR%
+AreaCheck("%NorthNashkelRoad%")
+Global("X#TalkedToForeshadow","GLOBAL",1)
+Global("X#IMForeshadow","GLOBAL",0)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMForeshadow","GLOBAL",1)
+END
+
+/* Initiate Talked to Foreshadow */
+IF %BGT_VAR%
+Global("X#IMForeshadow","GLOBAL",1)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* Jenkal Dead */
+IF %BGT_VAR%
+AreaCheck("%ArchaeologicalSite%")
+Global("X#ImoenLaryssa2","GLOBAL",0)
+Dead("laryssa")
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenLaryssa2","GLOBAL",1)
+END
+
+/* Initiate Jenkal Dead */
+IF %BGT_VAR%
+Global("X#ImoenLaryssa2","GLOBAL",1)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END
+
+/* Osmadi and Corsone dead */
+IF %BGT_VAR%
+AreaCheck("%Larswood%")
+Global("X#IMMALAR","GLOBAL",0)
+Dead("osmadi")
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#IMMALAR","GLOBAL",1)
+END
+
+/* Initiate Osmadi and Corsone dead */
+IF
+%BGT_VAR%
+Global("X#IMMALAR","GLOBAL",1)
+InParty(Myself)
+See(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+ActionOverride(Player1,SetDialogue("Player1"))
+StartDialogNoSet(Player1)
+END
+
+/* Jenkal Dead */
+IF %BGT_VAR%
+AreaCheck("%Gullykin_JenkalsHouse_Cellar%")
+Global("X#ImoenJenkal2","GLOBAL",0)
+Dead("JENKAL")
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenJenkal2","GLOBAL",1)
+END
+
+/* Initiate Jenkal Dead */
+IF %BGT_VAR%
+Global("X#ImoenJenkal2","GLOBAL",1)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("imoen99")
+StartDialogNoSet(Player1)
+END

@@ -1,0 +1,54 @@
+/* Setup for Gorion's Body */
+IF %BGT_VAR%
+Global("X#ImGorBody","%LionsWay%",0)
+THEN
+RESPONSE #100
+SetGlobal("X#ImGorBody","%LionsWay%",1)
+RealSetGlobalTimer("X#ImGorBodyTimer","GLOBAL",3600)
+END
+
+/* Found Gorion's Body too late */
+IF %BGT_VAR%
+Global("X#ImGorBody","%LionsWay%",1)
+RealGlobalTimerExpired("X#ImGorBody","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("X#ImGorBody","%LionsWay%",2)
+SetGlobal("X#IMGBody","GLOBAL",2)
+SetGlobal("X#KeepBuryGorion","GLOBAL",2)
+SetGlobal("X#PCBuryGorion","GLOBAL",2)
+SetGlobal("X#GorionBuried","GLOBAL",2)
+END
+
+/* Keeper buries Gorion at CandleKeep */
+IF %BGT_VAR%
+Global("X#KeepBuryGorion","GLOBAL",1)
+Global("X#PCBuryGorion","GLOBAL",0)
+Global("X#GorionBuried","GLOBAL",0)
+AreaCheckObject("%LionsWay%",Player1)
+THEN
+RESPONSE #100
+SetGlobal("X#PCBuryGorion","GLOBAL",2)
+SetGlobal("X#KeepBuryGorion","GLOBAL",2)
+SetGlobal("X#GorionBuried","GLOBAL",1)
+DisplayStringNoNameHead(Player1,@0)
+Wait(3)
+DisplayStringNoNameHead(Player1,@1)
+ActionOverride("gorion",DestroySelf())
+END
+
+/* PC Burys Gorion Alone */
+IF %BGT_VAR%
+AreaCheckObject("%LionsWay%",Player1)
+PartyHasItem("%tutu_var%SCRL3Z")
+Global("X#PCBuryGorion","GLOBAL",1)
+Global("X#GorionBuried","GLOBAL",0)
+Global("X#KeepBuryGorion","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#PCBuryGorion","GLOBAL",2)
+SetGlobal("X#KeepBuryGorion","GLOBAL",2)
+SetGlobal("X#GorionBuried","GLOBAL",1)
+DisplayStringNoNameHead(Player1,@2)
+ActionOverride("gorion",DestroySelf())
+END

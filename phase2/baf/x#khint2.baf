@@ -1,0 +1,108 @@
+/* Khalid, With Jaheira In Party, after Albert and Ruffie Disappear */
+IF %BGT_VAR%
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InParty("jaheira")
+See("jaheira")
+Global("X#KWJIPARD","GLOBAL",0)
+Global("Rufie","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("X#KWJIPARD","GLOBAL",1)
+Wait(2)
+END
+
+/* initiate talk */
+IF %BGT_VAR%
+Global("X#KWJIPARD","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("khali99")
+Dialogue(Player1)
+END
+
+
+/* Khalid, Jaheira & Xzar in area FW0704 upstairs at Sorcerous Sundries, Niemain, Oulam, Wheber, William are all dead */
+IF %BGT_VAR%
+AreaCheck("%EBaldursGate_SorcerousSundries_L2%")
+Global("X#KJXUASS","LOCALS",0)
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InParty("jaheira")
+InParty("xzar")
+Dead("niemain")
+Dead("oulam")
+Dead("wheber")
+Dead("william")
+THEN
+RESPONSE #100
+SetGlobal("X#KJXUASS","LOCALS",1)
+END
+
+/* initiate talk */
+IF %BGT_VAR%
+Global("X#KJXUASS","LOCALS",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("khali99")
+Dialogue(Player1)
+END
+
+IF %BGT_VAR%
+  Global("X#KhalidHelpCaldo","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KhalidHelpCaldo","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END
+
+/* Attack Ramazith */
+IF %BGT_VAR%
+  Global("X#KhalidRamazith","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KhalidRamazith","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Attack("ramazith")
+END
+
+/* Betray Abela */
+IF %BGT_VAR%
+  Global("X#KhalidBetrayAbela","GLOBAL",1) //auto-set from interjection
+  InParty(Myself) //No "CombatCounter(0)" here!
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InMyArea(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KhalidBetrayAbela","GLOBAL",2)
+    SetLeavePartyDialogFile() 
+    ChangeAIScript("",DEFAULT) 
+    LeaveParty() 
+    Enemy()
+END

@@ -1,0 +1,35 @@
+IF
+True()
+THEN RESPONSE #100
+CutSceneId("seasnake")
+FadeToColor([40.0],0)
+CreateCreature("X#SAHA01",[827.1469],0)
+CreateCreature("X#SAHA02",[827.1469],0)
+CreateCreature("X#SAHA02",[827.1469],0)
+ChangeEnemyAlly("X#SAHA01",NEUTRAL)
+ChangeEnemyAlly("X#SAHA02",NEUTRAL)
+CreateCreature("X#KETH",[827.1469],0)
+ActionOverride(Player1,JumpToPoint([1010.1638]))
+ActionOverride(Player2,JumpToPoint([1010.1638]))
+ActionOverride(Player4,JumpToPoint([1010.1638]))
+ActionOverride(Player5,JumpToPoint([1010.1638]))
+ActionOverride(Player3,JumpToPoint([1010.1638]))
+ActionOverride(Player6,JumpToPoint([1010.1638]))
+JumpToPoint([1010.1638])
+Wait(1)
+FadeFromColor([40.0],0)
+MoveViewObject(Player1,INSTANT)
+Wait(3)
+ActionOverride("X#SAHA01",StartDialogueNoSet(Player1))
+EndCutSceneMode()
+END
+
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#SeaAttack","GLOBAL")
+AreaCheck("%ShipwrecksCoast%")
+Global("X#SeasnakeAttack","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#SeasnakeAttack","GLOBAL",1)
+ActionOverride("seasnake",StartDialogueNoSet(Player1))
+END

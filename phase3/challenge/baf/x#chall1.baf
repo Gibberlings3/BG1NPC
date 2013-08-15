@@ -1,0 +1,21 @@
+/* Let's summon the master of challenges */
+
+IF %BGT_VAR%
+InParty(Myself)
+InParty("coran")
+Global("P#CoranMatch","GLOBAL",1) 
+!Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("X#AjantisRomanceActive","GLOBAL",1)
+OR(2)
+GlobalGT("X#AjantisLoveTalk","GLOBAL",24)
+GlobalGT("P#CGLoveTalk","GLOBAL",24)
+Global("X#StartMaleChallenge","GLOBAL",1)
+Global("X#AJCOConflict","GLOBAL",9)
+THEN
+RESPONSE #100
+IncrementGlobal("X#StartMaleChallenge","GLOBAL",1)
+CreateCreature("X#MASTE",[-1.-1],0)
+ActionOverride("X#MASTE",MoveToObject(Player1))
+ActionOverride("X#MASTE",FaceObject(Player1))
+ActionOverride("X#MASTE",Dialogue(Player1))
+END

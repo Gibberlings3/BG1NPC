@@ -1,0 +1,22 @@
+IF %BGT_VAR%
+Global("X#TSWIJAWUOS","GLOBAL",0)
+See("solia1")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#TSWIJAWUOS","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#TSWIJAWUOS","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Myself)
+END

@@ -1,0 +1,480 @@
+//////////
+/*Eldoth apprend que Krystin et Slythe ont tué le Grand-Duc Entar Ecudargent ; Skie n'est pas dans le groupe*/
+//////////
+@0 = ~Va crever en Enfer, sale grognasse !~
+@1 = ~*Vous désignez le corps de Krystin* C'est vrai que c'était une vraie garce, mais pourquoi vous vous énervez pour elle ?~
+@2 = ~Pas elle, imbécile ! SKIE !~
+@3 = ~Hein, mais qu'est-ce que...~
+@4 = ~Ces deux-là ont tué le Grand-Duc Ecudargent ; c'était le père de Skie. Si elle n'avait pas été aussi bête, aussi lente, aussi... aussi SKIE, elle aurait touché tout l'héritage ! Elle aurait été riche ! Et *moi*, j'aurais eu la belle vie pour toujours !~
+@5 = ~Vous êtes un grand sentimental, Eldoth ! Je suppose que vous voulez prendre votre revanche sur Sarevok ?~
+@6 = ~Pas moi. J'ai littérallement perdu une occasion en or, mais les pigeons courent les rues dans le coin. Et pour les plumer, il faut être en vie. Adieu, <CHARNAME> !~
+@7 = ~Essayez un peu, pour voir.~
+@8 = ~Hmph ! Je savais que vous étiez un lâche, mais jusqu'à maintenant, je n'aurais jamais cru que vous étiez si stupide.~
+@9 = ~Très bien. Si c'est comme ça que vous le prenez, je ne veux plus de vous à mes côtés. Allez vous-en.~
+@10 = ~Hein ? Que voulez-vous dire ?~
+@11 = ~Ca veut dire que si vous me lâchez maintenant, je vous laisserai faire juste trois pas dehors, et encore, vous n'atteindrez même pas le deuxième.~
+@12 = ~Ahhhh... vous... Je ne dirai pas que vous avez pensé, mais votre instinct n'a pas tort. Et je suis moi-même un gentilhomme pour qui l'honneur est une valeur sacrée. (Et je suis sûr que les Grands-Ducs qui restent feront des cibles juteuses.)~
+@13 = ~Cela vous ferait-il mal d'expliquer quel était le sens de cette remarque plutôt désagréable ?~
+@14 = ~Je veux dire que l'un des Grands-Ducs est mort, mais nous sommes sur le point de sauver les deux autres. Je ne sais pas pour vous, mais *je* compte bien sur leur gratitude !~
+@15 = ~Je... vois. Oui. En d'aussi favorables circonstances, on peut faire pire que subir le jugement de la Porte de Baldur. (Et surtout si ce vieil imbécile d'Ecudargent ne fait *pas* partie du jury.)~
+
+//////////
+/*Eldoth apprend que Krystin et Slythe ont tué le Grand-Duc Entar Ecudargent ; Skie est dans le groupe - voir aussi lignes 52 à 60*/
+//////////
+@16 = ~Skie ! Ma douce ! Mon coeur ! Mon coeur saigne pour toi.~
+@17 = ~J'ai... J'ai donc bien entendu ? Le Grand-Duc... mon père... mort...~
+@18 = ~Tu ne devrais pas être ici, en de tels instants, ma très chère.~
+@19 = ~Allez, viens, allons nous-en.~
+@20 = ~Skie ! Reprenez-vous !~
+@21 = ~Skie, nous n'avons pas le temps de nous lamenter. Nous devons mettre fin à cette histoire d'abord.~
+@22 = ~Skie, je... Je sais ce que vous ressentez. Vous pouvez partir, si vous le souhaitez. Quant à vous, Eldoth...~
+@23 = ~Espèce de gros empoté ! Je vais en entendre parler pendant des jours, maintenant ! Merci bien !~
+      ~Espèce de grosse empotée ! Je vais en entendre parler pendant des jours, maintenant ! Merci bien !~
+@24 = ~Vous croyez être altruiste, <CHARNAME>, mais qu'en est-il de moi ? Je vais devoir supporter ses interminables crises de larmes à cause de votre pitoyable 'altruisme' !~
+@25 = ~Faites vite, <CHARNAME>. Je dois absolument rançonner... euh... réconforter cette pauvre Demoiselle Skie.~
+@26 = ~Oh, foutez-moi le camp, espèce de bâtard sans tripes !~
+@27 = ~Je ne comprends pas pourquoi vous tenez à nous quitter. Les Grands-Ducs survivants se montreront *très* généreux lorsque nous leur sauverons la mise.~
+@28 = ~Etes-vous sûr d'y avoir bien réfléchi, roublard ?~
+@29 = ~Ma chère ! Pense à ce que tu dis ! Les funérailles... l'héritage... euh... les taxes... tant de choses dépendent de toi et de toi seule, mon amour !~
+@30 = ~*soupir* Alors bien sûr, ma place est derrière... avec toi, ma dame.~
+@31 = ~J'espère pour *vous* qu'ils le seront. En ce qui me concerne, j'ai cent fois plus confiance en la générosité de la jeune duchesse. Adieu, <CHARNAME>.~
+@32 = ~Ah ! J'ai déjà bien de la chance d'être le héros d'une jeune et riche héritière. Dites-moi donc, à quoi aurais-je dû réfléchir, selon vous ?~
+@33 = ~Si j'étais vous, j'essayerais de devenir un plus grand 'héros' à ses yeux. Si c'est moi qui venge son père, alors que vous, vous restez assis là à lui faire des ronds de jambe, qui obtiendra son estime en fin de compte, d'après vous ?~
+@34 = ~Nous sommes tous morts en fin de compte. Ce n'est pas ce qu'on dit ? Et à court terme, j'ai toute confiance en sa nature... généreuse... et malléable.~
+@35 = ~Suffisamment malléable, après le choc qu'elle a subi, pour réaliser que vous l'avez escroquée si je lui offre la tête de Sarevok au pied que vous ne serez pas en train de lécher.~
+@36 = ~Et quelle satifaction pourriez-*vous* retirer de la peine que vous ferez à cette pauvre Demoiselle Skie en lui offrant un trophée aussi glauque ?~
+@37 = ~La satisfaction de doubler quelqu'un qui m'abandonne *maintenant* alors que j'ai besoin d'aide !~
+@38 = ~*soupir* Et ainsi le maître-chanteur joue son meilleur atout contre le pauvre, inoffensif et confiant mystificateur. J'aurais *vraiment* dû écouter ce que me disait ma pauvre mère.~
+@39 = ~Que disait-elle ?~
+@40 = ~Hélas, je l'ignore. Je ne l'ai jamais écoutée.~
+
+//////////
+/*dialogue avec Viconia*/
+//////////
+@41 = ~Votre chevelure est magnifique à la lueur de la lune, ma sombre dame !~
+@42 = ~Le barde rôde de mon côté à l'heure du règne du Chanteur de Nuit ? Qu'est-ce qu'il y a, jaluk ?~
+@43 = ~Oh, rien de plus qu'un désir de socialisation. Un échange d'informations, peut-être ?~
+@44 = ~Et qu'aurais-tu qui pourrait m'intéresser ?~
+@45 = ~Vous avez bien sûr remarqué plus d'une fois que les coutumes de votre nouveau monde sont quelque peu différentes de celui où vous viviez. Et notamment, dans les relations entre un homme et une femme, vous n'avez sans doute pas remarqué qu'un coeur, ça se gagne. Il ne s'agit pas ici de donner des ordres, mais d'avoir de l'allure ; et c'est tout un art, si je puis dire, dans lequel je suis loin d'être novice. Votre peuple, quant à lui, est reconnu pour sa maîtise des plaisirs charnels...~
+@46 = ~Bah ! Les rivven ont toujours envie d'avoir un aperçu de ce que les drows peuvent offrir, on dirait ! Je constate que c'est pour ça que tu viens ramper vers moi, comme tous les autres.~
+@47 = ~Il existe des manières tout à fait charmantes de ramper, mais ce n'est pas le débat pour le moment. Pour le coup, après avoir rampé, il doit rester un sentiment... d'inachevé ; un sentiment qui nous dit que d'autres choses peuvent être obtenues.~
+@48 = ~*Tu* veux *me* faire un cours sur un sujet aussi enfantin ?~
+@49 = ~Pas un 'cours'... pas tout à fait, mais, parmi les faibles surfacins dégénérés que nous sommes, les sociétés secrètes et les chevalets de tortures ainsi que les moyens d'y échapper ne sont pas des considérations qui nous viennent immédiatement en tête. Il existe des... alternatives... exotiques que j'aimerais vous montrer.~
+@50 = ~Et bien, Eldoth, puisqu'il semble que tu ne m'aies pas comprise, permets-moi de te le formuler clairement : tu me dégoûtes particulièrement, et même plus que la plupart des jaluken d'rivven. J'aurais prêté attention à tes envies si tu avais eu quelque chose à m'offrir en retour, mais il n'y a rien d'intéressant en toi.~
+@51 = ~Pardonnez-moi, madame. J'ai oublié que vous étiez nouvelle... si nouvelle... dans ce monde. Si vous vivez suffisamment longtemps pour descendre de votre piédestal, vous regretterez cette réponse.~
+
+//////////
+/*dialogue avec Skie*/
+//////////
+@52 = ~Ma chère, viens t'asseoir près de moi. Apporte la lumière aux ombres qui m'entourent.~
+@53 = ~D'accord. Ca tombe bien, nous devons parler de quelque chose.~
+@54 = ~(Bon sang ! Ca ne me dit rien qui vaille !) Avec plaisir, ma douce dame.~
+@55 = ~Savais-tu, très cher, que certains parmi les autres semblent penser que tu te fiches de moi ? Que tu n'en as qu'après mon argent ?~
+@56 = ~Alors dans ce cas, je m'y prends très mal, ma douce. Ta présence est une réjouissance sans fin pour moi, mais le seul lien que peut avoir l'argent avec notre relation est que ton 'cher Papa' a très certainement placé une prime sur ma tête.~
+@57 = ~Oh, mais je le sais, très cher ! J'étais juste en train de dire que c'est marrant de voir comment *certaines* personnes peuvent se montrer mesquines et malveillantes.~
+@58 = ~Et pourtant, il y aura une justice. Je mettrai des royaumes célestes *à tes pieds*, et tu seras la reine de celui de ton choix.~
+@59 = ~Idiot ! Nous avons le monde, du temps devant nous, et nous nous aimons. Que pourrions-nous désirer de plus ?~
+@60 = ~Rien, ma douce. Rien du tout. (TOUSSE !)~
+
+
+//////////
+/*dialogue avec Skie et Charname - suite du dialogue aux lignes 16 à 40*/
+//////////
+@61 = ~Je vais bien, bon sang ! Je veux... juste... rentrer à la maison...~
+@62 = ~Je... sais, mais... qu'est-ce que je peux faire ? Qu'est-ce que je vais faire ?~
+@63 = ~Vous pourriez rester avec nous et empêcher que d'autres gens ne se fassent tuer.~
+@64 = ~Visiblement, vous perdrez tout contact avec la réalité. Allez vous-en, si vous voulez. Je m'en fiche.~
+@65 = ~Skie, j'ignore si les prêtres peuvent... défaire ce qui a été fait, mais... de toute façon... vous ne pouvez pas abandonner la quête maintenant ; vous *vous* devez bien ça.~
+@66 = ~Merci, <CHARNAME>...~
+@67 = ~Vous êtes si... si insensible, <CHARNAME> ! Mais que pouvais-je espérer d'autre de quelqu'un... d'une condition aussi basse que la vôtre ?~
+@68 = ~Je pourrais ? JE POURRAIS ??? Je n'ai même pas pu empêcher que... mon père... PERE !!!~
+@69 = ~Moi ? Que puis-je faire ? Vous... vous nous vengerez, <CHARNAME>... vous le ferez ?~
+@70 = ~Oui. Je vous vengerai. Allez en paix, ma dame.~
+@71 = ~Skie, j'ai besoin de vous avec moi... pour m'assurer de ne pas échouer.~
+@72 = ~Oh...~
+@73 = ~Vous ? Vous... avez besoin de *moi* ? Alors je viendrai avec vous, <CHARNAME>.~
+@74 = ~Je suis la Dame Ecudargent, et telle est ma décision, très cher.~
+
+//////////
+/*dialogue avec Ajantis*/
+//////////
+@75 = ~Je vous le dis, mon ami. Vos faits d'armes inspireront la terreur dans le coeur de vos ennemis pendant des âges.~
+@76 = ~Et c'est toi qui chantera mes louanges. Je ne trouve pas que ce soit un partage équitable de l'effort.~
+@77 = ~Mais c'est une manière intelligente de combiner nos talents respectifs. Je suis sûr que vos supérieurs du très Noble Ordre du Coeur Radieux seront grandement impressionnés.~
+@78 = ~Mes supérieurs ont de très hautes attentes et ne seront nullement impressionnés par de vaines vantardises chantées par les bardes.~
+@79 = ~Mais vous aurez sûrement compris que la Vérité, tout comme les belles femmes, doit être joliment enveloppée pour impressionner l'homme. Si le récit de vos exploits vous précède aux oreilles de vos supérieurs, la modestie de votre rapport améliorera de façon significative le crédit que l'on vous accordera, ainsi que l'importance de vos actes.~
+@80 = ~Cela se pourrait bien, en effet. Mais pourtant, personne n'a jamais chanté un tel conte sur moi.~
+@81 = ~C'est parce que nul ne connaît *mes* chants que nul ne peut chanter vos louanges. Mais cela arrivera ! Si je survis à la longue et sombre route qui s'étale devant nous, vous serez connu de partout !~
+@82 = ~Oui... un récit serait tout à fait... juste... de la part d'un témoin...~
+@83 = ~Ahem ! Dès à présent, conteur, tu es sous ma protection. Laisse-moi me charger du danger, et sers valeureusement la Vérité.~
+@84 = ~Oh, je le ferai, mon ami. Je le ferai.~
+
+//////////
+/*dialogue avec Alora*/
+//////////
+@85 = ~Ah, voilà la charmante petite demoiselle aux doigts fins. Tellement charmante... insouciante... si confiante.~
+@86 = ~Tu dis cela comme si c'était mal. Qu'y a-t-il de mal à faire confiance aux gens ?~
+@87 = ~Peut-être la confiance... excessive... qu'ils regarderont ailleurs lorsqu'arrivera le moment critique.~
+@88 = ~Oh, mon petit ! J'aime juste explorer, rien de plus. Et pour faire confiance aux gens, il suffit juste de les aimer. Tu sais, si tu aimes les autres, ils t'aimeront en retour.~
+@89 = ~Alors votre existence a été bénie par Tymora, et non la mienne. En toute honnêteté, je peux dire que j'ai aimé chaque personne que j'ai rencontrée. Par contre, l'expérience m'a appris qu'il ne fallait pas leur faire confiance, sinon, on est toujours déçu.~
+@90 = ~Alors c'est que tu as une façon très particulière d'aimer les gens. Et pour ta demoiselle Skie ? On dirait qu'elle est terriblement gentille. Tu dois bien l'aimer, *elle*, hein ?~
+@91 = ~J'*adore* Dame Skie.~
+@92 = ~Mais tu n'as pas dit que tu *l'aimais*. Est-ce que ça veut dire que tu ne lui fais pas confiance, à elle aussi ?~
+@93 = ~Ah, traitez-moi d'idiot pour m'en remettre aux caprices d'une femme, mais je lui fais confiance. Aveuglément. Je suis amoureux d'elle.~
+@94 = ~Tihi ! C'est mignon !~
+@95 = ~(C'est bien que tu le penses. Ce sera un parfait petit conte de fées que tu t'empresseras de lui répéter.)~
+
+//////////
+/*dialogue avec Branwen*/
+//////////
+@96 = ~Je n'ai jamais de mes yeux vu une femme qui ressemble tant à un arbre.~
+@97 = ~Je te demande pardon ?~
+@98 = ~Ce n'était que la dernière envolée lyrique qui traversait ma tête. Tel est le génie de ma muse, dirait-on.~
+@99 = ~Oui, bien sûr, mais le sens de tout ceci m'échappe.~
+@100 = ~Prêtresse, j'ignorais que les dieux pouvaient faire des femmes aussi... gaillardes, aussi robustes, aussi... épaisses.~
+@101 = ~Tu te moques de moi ? Est-ce là une de tes farces, barde ?~
+@102 = ~Ceci, très chère, je laisse le soin à votre esprit de l'interpréter.~
+@103 = ~Quoi ? Que veux-tu...~
+@104 = ~Chut. Ne vous épuisez pas maintenant.~
+
+//////////
+/*dialogue avec Coran*/
+//////////
+@105 = ~Coran, vous est-il venu à l'esprit que votre mioche bruyante pourrait bien avoir un avenir doré... si vous exercez votre devoir de père correctement ?~
+@106 = ~Et comment ?~
+@107 = ~Cette femme vous a refilé la petite bâtarde, clamant à qui mieux mieux sans aucune preuve formelle qu'elle était de votre sang. Il est clair que vous devriez être heureux de vous en débarrasser... si cela assure son avenir. Et il se trouve que le Grand-Duc Ecudargent possède un orgueil sans limite qui pourrait bien agir sur des évènements qui dépassent de loin sa compréhension.~
+@108 = ~Je ne vois pas le lien, Eldoth. Et je te demanderai d'éviter à l'avenir de traiter Namara de bâtarde, ou de dire que je serais heureux de me débarrasser d'elle. Cela pourrait donner des fausses impressions sur sa place dans la société et dans mon coeur...~
+@109 = ~Mais c'est bien de sa place dans la société dont je parle. Si le Grand-Duc Ecudargent venait à penser qu'elle était notre enfant, à Skie et à moi, il pourrait bien se montrer très généreux en contrepartie de mon, et de votre, silence, dans l'hypothèse où sa fille devait retourner sous son autorité.~
+@110 = ~Et t'est-il venu à l'esprit que Skie pourrait avoir son mot à dire là-dessus ?~
+@111 = ~*ricane* La... ahem... l'intelligence de Dame Skie est telle qu'elle pourrait même croire à la véracité de cette assertion, si on l'approchait correctement.~
+@112 = ~Et le Grand-Duc ? Il serait plutôt du genre à te faire la peau, ou à engager quelqu'un qui s'en chargerait à sa place. Moi, par exemple, je ne demanderait même pas rétribution pour ce travail. Pffff ! Me demander de risquer la vie de Namara pour de l'argent !~
+@113 = ~Vraiment ? Il y a en vous une sentimentalité presque féminine. Ce qui tombe très bien, car je m'aperçois à l'instant que *renifle* votre 'fille' a besoin d'être changée... encore une fois.~
+
+//////////
+/*dialogues avec Dynahéir (2)*/
+//////////
+@114 = ~Ô honorable sorcière parmi les sorcières ; pourrais-je vous entretenir un moment ?~
+@115 = ~J'ignorais que Tu aimais converser ; j'aurais plutôt eu tendance à croire que Tu étais homme de plus simples passe-temps.~
+@116 = ~Vous vous trompiez alors. Après tout, nous autres, bardes, faisons partie de ceux dont les yeux et le flair sont des plus aiguisés. Et je flaire l'or mieux que quiconque. Et justement, j'ai appris que les secrets en possèdent très souvent la douce fragrance. *renifle l'air autour de Dynahéir*~
+@117 = ~Est-ce là tout ce dont Tu avais à m'entretenir ? Bien, maintenant que ceci a été porté à mon intention, je m'en vais rejoindre les autres.~
+@118 = ~Ceci, Dynahéir, n'était que le vers d'introduction. Et je pense que c'est à vous qu'il convient de chanter la suite de la ballade. Que penseriez-vous d'un conte sur les exploits d'une Rashémi voyageant en direction de la Porte de Baldur ?~
+@119 = ~Je n'ai que par trop usé mes chants en incantations et autres enchantements. Des enchantements assez destructeurs, ajouté-je.~
+@120 = ~Inutile de vous fatiguer excessivement. Je saurai saisir l'air si vous me chantez ne serait-ce qu'un vers ou deux.~
+@121 = ~Je ne dépenserai pas mon énergie inutilement en Te contant le récit de la quête spirituelle qu'est le dajemma.~
+@122 = ~Vraiment ? Dans ce cas, permettez-moi de vous servir en tant que gardien de portes, un humble travailleur qui, en échange de pourboires, ouvre le chemin pour les autres, si ce n'est lui-même.~
+
+@123 = ~Madame, votre compagnon est des plus amicaux, et si enthousiaste à propos de votre dajemma. Minsc et Bouh ont des contes infiniment intéressants sur vos allées et venues dans la région de la Porte de Baldur.~
+@124 = ~Ainsi, Tu as été Toi aussi frappé par la sagesse de Bouh ? Je n'aurais pourtant point pensé que Tu étais de ceux qui croyaient aussi aisément une assertion sortie du museau d'un hamster.~
+@125 = ~Qui pourrait résister à une excentricité aussi charmante ? Mais bien que bavard, Bouh n'a pas autant voyagé que vous. Me conterez-vous la Rashéménie ? Ce doit être un pays brillant pour soutenir ainsi les jeunes gens dans leur apprentissage. C'était pareil, en Ruathym. J'aurais pu étudier à la Nouvelle Olamn, si cela n'induisait pas un sacrifice matériel aussi important pour ma pauvre famille.~
+@126 = ~Il m'a semblé entendre dire que ce n'était pas Ta famille, mais Tes bonnes amies qui soutenaient Ton apprentissage artistique.~
+@127 = ~Hélas, où sont passés mes jours dorés d'innocence ? Mais une telle chance est rare. En-dehors de la Rashéménie, je veux dire. Vous récupérez d'anciens parchemins véhiculant un savoir non moins ancien, ce qui constitue une occupation qui n'est pas si éloignée de la mienne. Et pourtant, en vous regardant, on a l'impression que vous n'êtes pas dans le besoin, contrairement à l'usage qui veut que les savants errants le soient.~
+@128 = ~Mes propres recherches n'ont rien à voir avec les fortunes de ce bas-monde. Je suis seule à soutenir mon apprentissage ; il ne s'agit là que d'un entraînement à la survie. Rien d'autre.~
+@129 = ~Je n'en doute point. Je m'interroge juste sur le fait qu'au cours de vos pérégrinations, vous vous exposez à toutes sortes de dangers sans comprendre quand et comment un usage judicieux de l'or peut améliorer votre savoir. Et vice-versa, bien entendu.~
+@130 = ~Vraiment ?!? Si je T'ai bien compris, Tu me proposes un 'échange' entre la connaissance et la crasse jaune derrière laquelle tout le monde court en Féérune ?~
+@131 = ~Oui. Le métier d'un barde n'est ni plus ni moins que la conversion du premier en le second.~
+@132 = ~Mais pas la conversion de Ton 'second' en le premier. Les Sages ne marchandent pas la connaissance ; et si elle est en vente, alors ce n'est *pas* de la connaissance.~
+@133 = ~Madame, un âne n'est pas plus sage en portant des livres d'instruction qu'en portant des ballots de paille. J'irais même plus loin en avançant que si l'on demandait son avis à la pauvre créature, il préfèrerait porter de la paille ; il la digèrerait mieux. Et, ma Dame, il se trouve que mon destin a été de devenir une sorte d'expert sur les ânes.~
+@134 = ~Il se trouve que je ne suis guère en besoin d'un charretier, barde. Si cela devait changer, je saurais où Te trouver.~
+@135 = ~Selon votre volonté, ma Dame. Je ne peux que prier que vous ne vous trouviez pas dans l'autre monde en ignorant trop zélément ses exigences.~
+
+//////////
+/*dialogue avec Edwin*/
+//////////
+@136 = ~Veuillez m'excuser, mon bon mage, mais vos talents m'impressionnent au plus haut point...~
+@137 = ~Comme tout le monde.~
+@138 = ~Et je me demandais s'ils se dirigeaient vers... ahem... une direction alchimique.~
+@139 = ~Bah ! Les alchimistes ne sont guère plus que des stipendiaires. Des laquais ! Ce sont des sous-artisans de l'Art.~
+@140 = ~Cela est certain. Mais leur savoir pourrait être suffisamment trivial pour que quelqu'un d'aussi cultivé que vous puisse le connaître, du moins l'ai-je présupposé...~
+@141 = ~Et moi *je* présuppose que cette discussion nous mène quelque part. Si c'est le cas, parle-moi franchement, car je n'ai pas de temps à perdre à t'écouter tourner autour du pot.~
+@142 = ~Euh... bon, d'accord. Je me demandais si vous connaissiez le secret pour créer un philtre d'amour vraiment efficace.~
+@143 = ~Et *pourquoi* ? Même les souillons deviennent froides et distantes avec toi ?~
+@144 = ~(Elles le seraient si elles avaient affaire à *toi*.) Non. Il ne s'agit là que de simple contingence. Il est une certaine demoiselle de la Porte de Baldur... dont j'ai peur qu'elle ait besoin d'assistance pour y voir clair dans ses sentiments.~
+@145 = ~Une demoiselle ? Tu conspires contre tes supérieurs ? (Bien que je te le concède, tu aurais du mal à te trouver des inférieurs pour le but que tu poursuis. Ou n'importe quel autre but, d'ailleurs.)~
+@146 = ~Si tel est le cas, je ne suis que le co-conspirateur de l'Amour lui-même...~
+@147 = ~Hors de ma vue ! Je refuse d'être impliqué dans une conspiration aussi indigne ! (Hmm. Je m'interroge quand même : en quoi cet idiot peut penser que sa pouffe vaut autant de problèmes ?)~
+@148 = ~(Pfff ! J'aurais dû me douter que cet esbrouffeur ne saurait rien faire d'un tant soit peu utile.)~
+
+//////////
+/*dialogue avec Faldorn*/
+//////////
+@149 = ~Dame enchanteresse, vous respirez la force de la Terre, notre Mère à tous.~
+@150 = ~Dois-je vraiment accepter toutes ces foutaises venant d'un dégénéré des villes tel que toi ?~
+@151 = ~Ma chère, même un gentilhomme citadin sait reconnaître... et payer tribut... à celle qui retire sa force... de la richesse sans limite de la Nature elle-même !~
+@152 = ~C'est vrai, j'ai trouvé la richesse. Mais aucun corrompu des villes ne peut l'évaluer.~
+@153 = ~Oh ? ...Vos mots me blessent plus dûrement que n'importe quelle lame. A l'avenir, je ne vous réserverai mon adresse qu'en tant que compagnon d'armes.~
+@154 = ~Si c'est pour attendre que tu utilises une arme autre que ta langue, alors je sens que je vais vivre longtemps !~
+
+//////////
+/*dialogue avec Garrick, et Skie si elle est dans le groupe*/
+//////////
+@155 = ~Par le vers argenté du Sans-Nom, Garrick, voudrais-tu cesser ces mugissements irritants ?~
+@156 = ~Je fais la sourde oreille à vos commentaires mesquins, Eldoth.~
+@157 = ~Si seulement tes chants me faisaient le même effet !~
+@158 = ~Je ne m'abaisserai pas à la confrontation aujourd'hui. Pas en un jour aussi beau, où l'air est si pur.~
+@159 = ~Ton optimisme ennuyeux causera ta perte, mon garçon. Non pas que cela me chagrine outre-mesure...~
+@160 = ~Moi, je trouve que les chansons de Garrick sont très belles, cher Eldoth.~
+@161 = ~Merci, mademoiselle.~
+@162 = ~Skie ! N'étais-tu pas en train de faire... ce que tu étais en train de faire ?~
+@163 = ~Si, mais j'ai entendu ce chant, et je me suis approchée. Et tu sais combien j'aime les chants tels que...~
+@164 = ~Oui, bien entendu. Je reconnais qu'une telle friandise est aussi agréable à l'oreille qu'un gâteau l'est à la langue... ahem... mais tu sais que ce n'est pas bon pour toi, ma douce... mon amour, alors éloignons-nous avant de...~
+@165 = ~Oh, ne sois pas idiot, très cher. Si je ne te connaissais pas comme je te connais, je pourrais croire que tu es *jaloux* de Garrick.~
+
+//////////
+/*dialogue avec Imoen*/
+//////////
+@166 = ~Ces boucles d'oreille sont magnifiques, Imoen. Elles vous vont à merveille.~
+@167 = ~Et bien, merci... oh, j'imagine que tu m'as vue les piquer, c'est ça ?~
+@168 = ~Et laisser dix pièces d'or en retour. Elles valaient moins que ça, pourtant.~
+@169 = ~L'étiquette disait qu'elles en valaient vingt-cinq !~
+@170 = ~Mais elles n'en valent pas plus que huit. Cela m'attriste de vous le dire, mais ce ne sont pas de vraies perles.~
+@171 = ~Oh, mais *je* le sais ! Si elles avaient été vraies, le vendeur ne les aurait jamais laissées sur son étal dans la rue. Mais j'ai particulièrement aimé le travail de filigrane.~
+@172 = ~Elles sont effectivement très jolies. Vous avez très bon goût, vous prenez ce que vous voulez, et vous en laissez le prix que ça vaut. Cela me semble être toutes les caractéristiques d'une jeune fille qui n'aura jamais de vraies perles de toute sa vie.~
+@173 = ~Oui-oui. Et tu proposes quoi ? Tu donnes un concert, et moi je fais les poches de la foule ?~
+@174 = ~Il faudra bien que vous abandonniez vos suspicions enfantines un jour ou l'autre. Il ne s'agissait que d'une remarque de ma part, ma très chère jeune demoiselle.~
+
+//////////
+/*dialogue avec Jaheira*/
+//////////
+@175 = ~Puis-je vous conter une légende, madame ?~
+@176 = ~Si c'est encore l'une de tes habituelles inepties désespérantes, je décline ton offre. Pour nous soulager tous les deux d'un ennui profond.~
+@177 = ~Ah, mais il s'agit là d'une légende que, j'en suis sûr, vous trouverez très intrigante, ô dame des Fées.~
+@178 = ~Je n'en doute pas, l'intrigue est ta spécialité. Cela étant, un esprit qui souhaite marier le fruit pourri de la civilisation avec l'harmonie de la Nature n'est pas...~
+@179 = ~Chut, chut. Cette légende nous parle d'une dame courageuse et déterminée qui alla jusqu'à sacrifier l'âme de l'homme qu'elle aimait pour sa vision de la justice.~
+@180 = ~Ah, c'est une fiction ? Dans ce cas, raconte, je suis curieuse d'entendre une histoire si éloignée de mon propre vécu...~
+@181 = ~Vraiment ? Sachez dans ce cas que cette légende commence ainsi...~
+@182 = ~MAIS !!! Garde bien à l'esprit quel a été le destin de Lalgrinor de Miramar. *Il* s'amusait en diffamant ceux qui composait son auditoire. Il composait lui-même ces calomnies pour rendre folle de rage son audience.~
+@183 = ~Ahhh... sauriez-vous par hasard s'ils ont retrouvé suffisamment des morceaux de ce pauvre Lalgrinor pour l'enterrer décemment ?~
+@184 = ~Il lui manquait la langue. Ainsi qu'un autre organe de taille et de fonction similaires, me semble-t-il.~
+@185 = ~Et bien ! Votre... ah... parenthèse m'a poussé à modifier quelque peu ma légende. Il va me falloir... ahem... un petit peu plus de temps pour la composer. Si vous voulez bien m'excuser, madame ?~
+@186 = ~Avec *grand* plaisir.~
+
+//////////
+/*dialogues avec Kagain (2)*/
+//////////
+@187 = ~Mon bon Kagain, je crois que j'entrevois une occasion pour nous deux de joindre nos talents respectifs.~
+@188 = ~Bah ! Comme si j'allais faire confiance à quelqu'un d'ton sang, ou d'ta langue !~
+@189 = ~Mais au contraire, nos origines différentes ne peuvent que nous aider dans l'entreprise que j'ai en tête. Un salon raffiné, un endroit discret, mais qui proposerait des loisirs divers aux riches qui souhaitent un peu d'aventure.~
+@190 = ~Oublie ça. Maison close, casino, ou quoi que ce soit, t'auras toujours trop de 'partenaires' pour faire du profit dans c'genre d'endroit.~
+@191 = ~Et c'est pourquoi j'ai pensé à vous. Votre robustesse pourrait... ahem... décourager tous ces 'investisseurs' malvenus.~
+@192 = ~Ouais, jusqu'à c'que ma robustesse me fasse tuer.~
+@193 = ~Il est évident que vous devrez embaucher des aides de façon intelligente pour éviter que notre petit arrangement se termine aussi prématurément. Je serais prêt à vous reverser... disons... vingt à trente pour cent de votre investissement. Chaque mois.~
+@194 = ~Mon *investissement* ?!? C'est nouveau, ça. T'es en train d'me dire que j'protègerais *et* financerais l'endroit ? Et quelle serait *ta* contribution, si j'puis m'permettre ?~
+@195 = ~Je mettrais en *gage* du raffinement, peut-être même un peu d'élégance. Veuillez excuser ma proposition, j'aurais dû me douter que la création d'un tel endroit est... au-delà de vos capacités, dirons-nous.~
+@196 = ~Ouais. Et tu m'excus'ras d'te dire que ces investisseurs que t'espères, ces cochons qui veulent un peu d'action dans leur vie, se vautreront dans leur bonheur aussi longtemps qu'tu les achèteras pour pas cher.~
+@197 = ~Et il ne fait nul doute qu'une minorité dépravée continuera de se vautrer ainsi. La majorité, tous ceux qui sont prêts à à échanger de l'or contre du prestige et un certain statut, sont une population inexploitée en ce moment.~
+@198 = ~Ouais. Ils échangeront des *promesses* d'or contre de ton prestige, c'est vrai. Mais obtenir leur or, ça, c't'une autre affaire.~
+@199 = ~Ah, voilà les avantages à traîner aux côtés de pessimistes indécrottables. Je vais y réfléchir, et peut-être qu'après, nous reprendrons cette conversation.~
+
+@200 = ~Ah, dites-moi, mon ami mercenaire, y a-t-il quelque chose que vous ne feriez pas même pour de l'or ?~
+@201 = ~Non, mais j'marcherai pas dans une de *tes* combines même si tu m'promets d'l'or.~
+@202 = ~Bien d'accord. Les promesses valent leur pesant d'or, vous ne croyez pas ? Toutefois, j'aurais une proposition à vous faire, si vous voulez l'entendre.~
+@203 = ~J'suis toujours ouvert à tout.~
+@204 = ~J'ai bien observé votre style de combat viril et... ahem... direct. Et il m'est venu à l'esprit qu'avec quelque embellissement, vous pourriez incarner un véritable berserker à s'y méprendre.~
+@205 = ~Un berserker ?!? Certain'ment pas ! Il est hors de question que j'me mette à baver sur ma barbe !~
+@206 = ~J'ai dit *incarner*. Aucune salivation excessive ne serait requise. Il ne suffirait que de quelques hurlements incohérents et de quelques moulinets de hache au hasard une fois le combat terminé. Et vous auriez le choix de vos adversaires : gobelins, petites frappes ou quoi que ce soit d'aussi peu menaçant.~
+@207 = ~Ouais-ouais. Et qu'est-c'qui arriverait *après*, pour voir ?~
+@208 = ~Rien de trop coûteux. J'utiliserai *mes* compétences pour calmer la bête en liberté, vous rendre votre état normal, votre personnalité que nous connaissons et admirons tous.~
+@209 = ~*Si* tu chantes pour moi, j'pourrai l'supporter... pour un moment, du moins. Mais toi, qu'est-c'que t'en r'tires ?~
+@210 = ~*soupir* Cette chère dame Skie a grandi dans une coquille. Et ça l'a rendue assez naïve sur sa propre mortalité. Mon intérêt serait de lui montrer tous les évènements de vie que nous ne soupçonnons pas... ou qu'*elle* ne soupçonne pas, en tout cas. Elle verrait ainsi que son humble serviteur pourrait lui garantir une compagnie sécurisante.~
+@211 = ~Oh. Tu veux jouer les héros pour la dame, hein ? Ca m'paraît simple, mais tout c'que tu dis *paraît* simple. J'vais y réfléchir et j'te tiens au jus.~
+
+//////////
+/*dialogue avec Khalid*/
+//////////
+@212 = ~Très cher ami, j'admire au plus haut point votre technique. M'autoriseriez-vous à vous posez une ou deux questions à ce sujet ?~
+@213 = ~Quelle t-technique ? De quoi parlez-vous ?~
+@214 = ~Et bien, avec votre épouse, bien sûr. Les femmes dominatrices sont les plus difficiles à amadouer, et pourtant ce sont le plus souvent celles qui ont les ressources suffisantes pour récompenser l'effort qu'elles réclament. Mon ami, comment faites-vous pour feindre aussi bien la servilité ? Celle qui lui fera penser que non seulement elle a raison, mais qu'en plus, à vos yeux, son opinion est plus importante que la *vôtre* ?~
+@215 = ~Je n-ne comprends pas. Jaheira ne me dit presque jamais de faire quelque chose que je ne ferais pas. Et quand nous ne sommes pas d'accord, c'est généralement sur un point tellement t-trivial que je suis plus heureux de lui faire plaisir que d'insister.~
+@216 = ~Mais votre amour-propre ne souffre-t-il pas des ordres qu'elle vous donne à longueur de temps ? N'êtes-vous jamais tenté de désobéir ne serait-ce que pour vous affirmer ?~
+@217 = ~Non. Jaheira et moi nous aimons. J'en retire plus d'amour-propre que sans elle.~
+@218 = ~Alors vous avez raté votre vocation, mon ami. Vous auriez dû vous faire prêtre d'une déïté hautement exigeante. Toutefois, j'ai apprécié votre aide. Vous m'avez montré sous un nouveau jour le rôle qu'un jour, en certaines... circonstances... je devrai assumer.~
+@219 = ~Hmmm. Dans ce cas, je ne peux que vous enjoindre à p-prier pour que la 'dame qui vous commandera' sera suffisamment sotte pour ne pas se rendre compte que vous *jouez* un rôle. Dans le cas contraire, je n'aimerai pas être à votre place.~
+
+//////////
+/*dialogue avec Kivan, et Skie si elle est dans le groupe*/
+//////////
+@220 = ~Kivan, j'ai entendu dire un jour que les elfes avaient des talents vocaux particuliers. Me chanterez-vous une chanson ?~
+@221 = ~Il y a bien longtemps, j'ai eu l'occasion de chanter la sérénade à une charmante jeune demoiselle, mais Eldoth, vous n'êtes pas une jeune demoiselle. Et vous n'êtes pas charmante non plus.~
+@222 = ~Mon ami, vous blaguez ? Il vous faut une femme pour inspirer un chant, et non l'inverse ?~
+@223 = ~C'est juste que je ne suis pas particulièrement porté sur la musique. Brisons-là cette conversation inutile.~
+@224 = ~Comme vous voudrez. De mon côté, je vais me mettre en chasse de jeunes demoiselles.~
+@225 = ~Il vous faut une jeune fill... euh, une dame ? De qualité ? Skie, ma chérie, viens un peu par ici.~
+@226 = ~Tu m'as appellée, Eldoth ?~
+@227 = ~Oui. Montre-toi sous ton meilleur charme, mon amour. Cet elfe va chanter pour toi.~
+@228 = ~Kivan va me chanter une sérénade ? *rit bêtement*~
+@229 = ~Eldoth, je ne suis pas...~
+@230 = ~Quoi, ma Dame Skie n'est pas assez charmante pour vous inspirer ?~
+@231 = ~Quoi... qu'est-ce que vous voulez dire ? Vous ne me trouvez pas attirante ?~
+@232 = ~Skie, vous êtes une très jolie jeune dame, n'en doutez jamais. Mais il faut gagner le coeur d'un elfe pour entendre un chant elfique. Et votre coeur est déjà pris. *fait un signe de tête à Eldoth*~
+@233 = ~Et bien ! Je ne trouve *toujours* pas cela très flatteur ! *part dans un mouvement d'indignation*~
+@234 = ~Eldoth, vous feriez mieux de vous éloigner de moi autant que faire se peut.~
+@235 = ~D'accord, si vous faites de même. (Bien ! Maintenant, la petite écervelée ne fera jamais confiance à tout ce que cet indiscret dira contre moi.)~
+
+//////////
+/*dialogues avec Minsc (2), Edwin peut intervenir dans le premier*/
+//////////
+@236 = ~Très cher ami, je ne peux qu'admirer la puissante union entre l'homme et le hamster. Je suis sûr que tous les deux, vous êtes les plus à même de protéger votre sorcière de tout danger.~
+@237 = ~Minsc et Bouh protègeront Dynahéir aussi longtemps qu'il pourront tenir une arme et mordre !~
+@238 = ~Cette attaque de gnolls devait être un assaut monstrueux pour que vous vous soyez trouvés dépassés !~
+@239 = ~Oui. Bouh a combattu avec la rage d'un ours noir, et une douzaine de ces maléfiques gnolls portent l'empreinte de la botte de Minsc sur leur derrière, mais ils arrivaient toujours en plus grand nombre... Minsc ne se souvient pas de la suite. Bouh dit que la furie de Minsc n'a cessé de grandir jusqu'à ce qu'une pierre tombe sur sa tête et qu'il s'écroule.~
+@240 = ~Alors c'était une attaque bien calculée... et contrairement à leurs habitudes, les gnolls ne vous ont pas achevés. Au lieu de cela, ils se sont enfuis avec Dynahéir. A la suite de quoi, ils ont détenu la sorcière en la gardant en vie et sans lui faire le moindre mal... comme s'ils voulaient la vendre... ou qu'ils l'avaient capturée pour quelqu'un d'autre et qu'ils attendaient qu'il arrive.~
+@241 = ~A Bérégost, Bouh a senti qu'Edwin, le maléfique Thayen, cherchait des assassins pour tuer la glorieuse Dynahéir !~
+@242 = ~Ton hamster a un très bon flair. C'est toujours un plaisir de parler avec vous deux. C'est très rafraîchissant.~
+@243 = ~(Non, si cet homme, Edwin, avait engagé des assassins, il ne leur aurait pas demandé de la garder en vie. Ca doit être quelqu'un d'autre, quelqu'un de très puissant, prêt à dépenser un bon paquet d'or pour garder ses secrets. A moins, bien sûr, que cet Edwin soit un amateur de tortures, comme il se murmure que les Thayens sont... hmm...)~
+@244 = ~Dois-je encore une fois être ennuyé par un hamster et un homme qui parle à un hamster ? Allez, du vent... tous les trois !~
+@245 = ~Edwin... bien sûr. Bouh est très intelligent, en effet.~
+@246 = ~(Si ce guignol en robe rouge a assez d'or et d'astuce pour engager un clan de gnolls, je veux bien manger mon chapeau ! Ca doit être quelqu'un d'autre, quelqu'un de très puissant, prêt à dépenser un bon paquet d'or pour garder ses secrets. Hmmm...)~
+
+@247 = ~Dynahéir a tout l'air d'être une femme de confiance et de pouvoir. Je suis sûr qu'elle est un personnage influent en Rashéménie. N'est-ce pas, Minsc ?~
+@248 = ~Oh, Dynahéir est intelligente. Elle aide le Gardien de... la personne... dans les écritures. Qu'est-ce qu'il y a, Bouh ? Oui, c'est ce que j'ai dit. La personne dans les écritures.~
+@249 = ~Minsc, mon ami, dis-moi, avez-vous voyagé... rapidement... sur la Côte des Epées ?~
+@250 = ~Oh, nous ne voyageons jamais à la même vitesse. Parfois, nous louons des chevaux, ou nous prenons un passage sur un bateau... c'est plus rapide que de marcher. Et bien sûr, on est toujours ralentis par le mal à combattre. Comme maintenant, par exemple, nous aidons <CHARNAME>, nous ne voyageons pas très loin... on va ici et là, là et ici.~
+@251 = ~Alors vous vous êtes dépêchés d'arriver à la Porte de Baldur, puis Dynahéir s'est faite enlever, puis tu as rejoint <CHARNAME>, et ça vous ralentit... Intéressant...~
+@252 = ~*murmure à lui-même* Donc ils ralentissent leurs pérégrinations. C'est étonnant de voir que les secrets des plus puissants peuvent être révélés si loin de chez eux... ou de voir jusqu'où les intrigues politiques peuvent se dérouler.~
+@253 = ~Dis-moi, courageux guerrier, t'est-il déjà arrivé d'accompagner Dynahéir dans une riche demeure... ou dans un palais à la Porte au petit matin, ou alors, t'a-t-elle déjà laissé en poste quelque part pour aller rencontrer quelqu'un que tu ne connais pas ? Un noble ? Y avaient-ils des messages pour elle, à la Porte de Baldur ?~
+@254 = ~Minsc et Bouh font tout ce que Dynahéir demande ! Nous allons dans beaucoup d'endroits, et nous rencontrons beaucoup de monde, même s'ils n'ont pas tous la langue aussi bien pendue qu'Eldoth. Mais Minsc ne se souvient pas d'être jamais allé dans un palais... Et Bouh dit que nous ne dirons rien à Eldoth. Il est de mauvaise humeur, en ce moment... Je lui ai donné des noisettes, mais nous n'avons plus de graines de tournesol. *soupir* Et Bouh adore les graines de tournseol.~
+@255 = ~Ca doit sans doute être pour ça. Tu devrais lui trouver du tournesol dès que nous reviendrons en ville. Et je t'accompagnerai... pour te faire visiter.~
+
+//////////
+/*dialogues avec Montaron (2)*/
+//////////
+@256 = ~Puis-je partager une conversation avec vous, mon jeune notaire ?~
+@257 = ~Eh ? Qu'est-c'que t'as à m'appeler 'notaire' ?~
+@258 = ~Et bien, je n'ai tout simplement jamais rencontré quelqu'un ayant un intérêt aussi... développé... ou aussi efficace... dans les héritages et les ayant-droits.~
+@259 = ~Ouais-ouais. Tu vas m'raconter des histoires, hein ? Des histoires qui vont m'laisser tell'ment rêveur qu'ça va m'envoyer à l'aut'bout du monde, hein ?~
+@260 = ~Hé hé hé. Si seulement je détenais un *tel* pouvoir de persuasion, mon clairvoyant ami. Non. Il se trouve juste qu'il se pourrait... il se *pourrait*... qu'en de futures circonstances... je pourrais avoir à bénéficier des talents que vous semblez détenir. Vous voyez, il se trouve que j'aime...~
+@261 = ~Ouais, ouais. Une fille, Dame Skie, la mioche du Grand Duc Entar Ecudargent lui-même.~
+@262 = ~Hmmm. Parlerais-je dans mon sommeil ?~
+@263 = ~Tu parles, pour sûr. Et tu peux pas t'empêcher d'prononcer dix mille mots sans qu'un ou deux aient un semblant d'vérité. J'prends c'que tu dis, et c'que tu dis pas, et j'le r'coupe avec c'que j'sais comme deux et deux font quat'. Alors maint'nant, dépêche-toi.~
+@264 = ~Dans ce cas, vous avez sans doute compris que le père de ma Dame Skie a vécu suffisamment longtemps pour avoir atteint une certaine position et avoir amassé une fortune significative. Que voilà l'achèvement de toute une vie. Et particulièrement pour quelqu'un qui pourrait... et je dis bien *pourrait*... secrètement conclure un certain arrangement.~
+@265 = ~Tu t'arrêtes *maint'nant* ! Depuis qu'on s'connaît, j't'ai vu garder deux pièces d'or et les frotter l'une contre l'autre comme si elles pouvaient faire des p'tits. Toutes tes belles paroles, ça vaut pas une pièce de cuivre, alors n'y pense même pas !~
+@266 = ~Mon très cher ami, pourrais-je vous demander d'accomplir cette entreprise sérieusement sans autre paiement que de simples promesses ?~
+@267 = ~Mais bien sûr !~
+@268 = ~Bien. Je savais que vous n'étiez pas si naïf. Dites-moi quelle somme en or il vous faudrait pour un tel travail.~
+@269 = ~D'abord, j'veux savoir quel est l'nom du bourge qui va déposer un oeuf aussi gros qu'ça dans tes bras.~
+@270 = ~Souvenez-vous que j'ai conclu un arrangement avec sa Seigneurie. J'imagine que cette même somme, sans compter les primes, pourrait vous suffire. Et cela *m'amuserait* de voir sa Seigneurie payer pour sa propre mort.~
+@271 = ~Hmmm. <CHARNAME> est pas fana des indépendants. Pas plus que les... mes potes qui m'ont envoyé ici. Alors écoute, tu tu mets ta partie en route, et j'y jetterai un oeil quand j'pourrai. Mais si ton 'imagination' s'trouve être juste un aut' discours, alors on verra. *J'suppose* qu'on pourra mettre un truc au point.~
+
+@272 = ~Mon bon vieil ami Montaron, je dois bien avouer que j'admire l'économie d'énergie de votre méthode de travail.~
+@273 = ~Oh-oh ! R'voilà la langue de miel de retour, et en plein'forme. Just'le temps d'vérifier qu'mon portefeuille est plein et qu'mon épée est dans l'coin.~
+@274 = ~Hé hé. Nul besoin de vous imposer un tel effort. Non. Je ne faisais qu'admirer naïvement la... ahem... finalité de vos... actes. Tout ceci est tellement différent de mes propres compétences qui, j'en ai peur, sont astreintes à durer indéfiniment.~
+@275 = ~Ouais. J'attrape, et tu mens. Pourquoi t'as pas pris l'aut' talent ? T'aurais été plus à l'aise avec.~
+@276 = ~Hélas ! J'ai passé ma jeunesse en chants, en romances et en poésies, ce qui m'a rendu moins apte à développer de telles capacités pratiques.~
+@277 = ~En fait, t'étais un lâche et un paresseux, hein ?~
+@278 = ~Nullement ! J'étais un idiot ! Je pensais naïvement que le pur, le vrai pouvoir de l'amour d'une femme m'entraînerait dans un voyage sans fin parmi les cîmes célestes, en des jardins de délices sensuels. Lorsque j'ai enfin découvert combien la réalité était loin de mes attentes... hum... toute carrière était désormais hors de propos.~
+@279 = ~J'vois ça d'ici ! T'étais plus l'bienv'nu chez toi, hein ?~
+@280 = ~Certes, mais les seuls à y avoir perdu, c'étaient les autres, car depuis lors, j'ai acquis la capacité de pleinement apprécier les choses les plus fines que la vie peut m'offrir, et ce en toute circonstance. Et il se trouve que vous êtes l'une de ces choses, mon cher ami.~
+@281 = ~Oui-oui. On dirait bien qu'quelqu'un veut m'faire faire un boulot à l'oeil. Va voir <CHARNAME> ; <PRO_HESHE> mène le jeu dans c't'histoire, et j'suis pas du genre à bosser sans prime.~
+@282 = ~Un conseil éminemment judicieux que je m'en vais suivre sans aucun doute. Je vous remercie, mon ami.~
+
+//////////
+/*dialogue avec Quayle*/
+//////////
+@283 = ~Maître Quayle ? Il se trouve que j'ai un problème qui requiert toute votre intelligence supérieure et votre expertise gnome...~
+@284 = ~Ah, tous ceux qui ont soif pourront boire à l'océan de ma connaissance... Même si, bien évidemment, j'aurais dû dire "source" ou "lac", puisque l'eau de l'océan est impropre à la consommation. Pourtant, source et lac ne sont pas des mots qui rendent justice à la grandeur de mon intellect. Quel paradoxe...~
+@285 = ~Vous avez tout à fait raison, maître Quayle. C'est un océan d'eau pure. Mais revenons à mon problème. Imaginez un collier qui a cinq rubis gros comme des oeufs de pigeon et trente plus petits, qui font disons la moitié de la taille des premiers, tous taillés en cabochons...~
+@286 = ~Cela fera trente-cinq pierres en tout, Eldoth. Ne me remercie pas, ce n'était rien pour quelqu'un d'aussi exceptionnellement intelligent que moi.~
+@287 = ~Que c'est impressionnant ! Maître gnome, peut-être pourrez-vous faire encore une fois montre du miracle qu'est votre esprit pour votre humble admirateur, et me dire combien pourrait coûter un tel collier ?~
+@288 = ~Impossible, Eldoth. La valeur des gemmes change selon leur couleur, leur éclat, leur lustre... Il me faut voir ton collier imaginaire pour l'évaluer.~
+@289 = ~Et bien, regardez... Combien ?~
+@290 = ~Ce sont des rubis balais, Eldoth, pas des vrais. Ce sont des pierres moins chères et que l'on trouve plus facilement, mais elles sont assez grosses et bien taillées... bien que l'on ne puisse comparer avec un travail gnome. Hmm... un cadeau de choix pour une dame.~
+@291 = ~Pour une dame aussi riche qu'elle, ce n'est qu'une pécadille, même pas digne de son attention. Mais je suis content que ça ne soit pas du verre. Le verre est une calamité à faire passer pour de la pierre précieuse, peu importe l'expérience du tailleur. Si vous saviez quel genre d'histoire je dois sortir pour distraire les marchands...~
+@292 = ~Oh... Tu veux dire qu'une dame te l'a donné ?~
+@293 = ~En un sens, maître Quayle, en un sens. Les femmes ne supportent pas la solitude. Elles se consolent avec ce genre de babioles. Voyez cela comme un cadeau, ou comme le paiement d'un travail bien accompli, mon ami. Alors, combien m'en donnez-vous ?~
+@294 = ~Ahem... hmmm... Tu sais quoi, si tu en veux un bon prix, demande à un nain de te l'acheter, et triple sa première offre... Et ne le vend pas pour moins. Si, du moins, tu sais multiplier. *soupir* Je dois vraiment apprendre à me mettre au niveau des autres, sinon, je n'aurai aucune idée du potentiel intellectuel d'un cerveau de taille normale.~
+
+//////////
+/*dialogue avec Safana*/
+//////////
+@295 = ~Alors, femme, après tous ces beaux discours sophistiqués sur la manipulation des hommes à vos propres fins... vous vous languissez d'un elfe telle une paysanne de seize ans.~
+@296 = ~Chéri, tu es aussi superficiel que n'importe quel autre homme. Je ne me languis pas, j'observe. Je suis une lionne qui attend patiemment qu'une proie digne de ce nom se montre, qui l'étudie, qui saute...~
+@297 = ~Et qui s'immobilise sur ses pattes arrières pour faire le beau devant cette soi-disant proie. Cela peut en valoir la peine, parfois, mais Coran n'a rien d'un repas, lionne. Ce n'est qu'un môme aux doigts agiles, mais sans le sou, et aux yeux bridés de surcroît.~
+@298 = ~Le garçon peut se montrer utile, il est mignon, et je peux lui faire faire n'importe quoi rien qu'en levant le petit doigt. C'est un bon jouet, oui, un bon jouet.~
+@299 = ~Très chère, les jouets sont pour les enfants. Et ils se brisent si facilement.~
+@300 = ~Bien plus rapidement que les vieilles juments, comme ta dame Ecudargent... Hah, je t'ai entendu l'aider à choisir comment habiller ses poupées... ça, c'est un passe-temps sophistiqué, c'est sûr ! Laisse-moi à *mon* jouet... petit garçon.~
+
+//////////
+/*dialogue avec Shar-Teel*/
+//////////
+@301 = ~Douce Shar-Teel, nous autres, bardes, vivons dans un monde d'émerveillements, et c'est pourquoi nous avons la fâcheuse habitude d'oublier les choses qui ont une importance capitale. C'est ainsi que ces derniers jours, j'ai oublié de me mettre en quête d'un sort de silence. Voudriez-vous me faire le plaisir de me rappeler d'en chercher un exemplaire ?~
+@302 = ~ESPECE DE VER DE TERRE MASCULIN ! Tu oses me traiter comme si j'étais une servante à tes pieds ! Je te trancherai la gorge avant que tu me supplies encore une fois de te faire rappeler tes crétineries ! Je trancherai tes fichues oreilles...~
+@303 = ~Je vous remercie infiniment, dame à la langue de miel. Mon désir et mon besoin d'obtenir ce sort sont maintenant si grands qu'il m'est impossible de ne plus y penser.~
+
+//////////
+/*dialogue avec Skie*/
+//////////
+@304 = ~Ma dame, je ne trouve pas que la vie sur les routes soit une vie faite pour toi.~
+@305 = ~Quoi ? Tu penses que je suis en train de me faner ? Je vieillis avant l'heure ? *glousse* Es-tu en train de me dire que tu ne pourras plus m'aimer lorsque je serai devenue une vieille mamie ?~
+@306 = ~Bien sûr que si, mais... si je puis me permettre, "penser" est une expression relativement récente dans ton répertoire, et cela ne te va pas très bien.~
+@307 = ~Et bien, je pensais que...~
+@308 = ~Ma chère ! Penser est une malédiction, une plaie ! Je n'ai jamais rien fait de tel, et je ne saurais trop te conseiller d'en faire de même.~
+@309 = ~(Pffff !) Et bien il se trouve que *j'ai* quand même pensé. Nous avons sué sang et eau en combats. Il y a cette horrible conspiration, et... l'une... l'une de ces filles qui... qui est morte... me ressemblait beaucoup.~
+@310 = ~Mon amour ! En tant qu'expert de *toi*, laisse-moi te dire que, toutes les deux, vous êtes le jour et la nuit...~
+@311 = ~Oh, zut ! Non, je voulais dire qu'elle faisait ma taille, et qu'elle avait les mêmes cheveux que moi. On avait le même teint, et son visage... disons que la voir mourir, ça m'a fait me poser des questions. Si nous venons à en rencontrer une autre comme ça... on ne pourrait pas lui mettre mes vêtements ? Lui mettre ma chevalière au doigt ? Tu crois que ça aiderait ?~
+@312 = ~Je suis au regret de te dire que mon processus de pensée est tellement en désuétude qu'il me faut te demander : aider à quoi ?~
+@313 = ~Et bien... pour papa, bien sûr. S'il croyait que j'étais morte, tu ne crois pas qu'il n'aurait plus de raison d'envoyer des gardes à ma poursuite ?~
+@314 = ~Euh, non... je veux dire, oui. Mais c'est un être tristement conventionnel. Il pourrait envisager que son devoir serait d'envoyer d'autres gardes encore plus déterminés à ma poursuite pour venger ta mort présumée. Non pas que je sois contre l'idée de mourir pour *toi*, mon amour, mais... saigner comme un porc, ce serait bien peu élégant pour moi, tu ne crois pas ?~
+@315 = ~Et alors ? Si papa envoit des chasseurs de primes, et qu'ils nous retrouvent, alors je leur dirai qui je suis. Ca m'étonnerait qu'ils te condamnent pour ma mort si je me tiens à tes côtés !~
+@316 = ~Pas s'ils sont convaincus que tu *es* toi. Mais il se pourrait, il serait même certain, qu'ils ne sachent pas à quoi tu ressembles. Et sachant qu'ils auraient été informés de ton décès, je *doute* qu'ils te croient sur parole à propos d'un sujet qui affecte aussi directement leur intérêt pécuniaire.~
+@317 = ~Oh. Je n'y avais pas pensé.~
+@318 = ~Alors suis bien mon excellent conseil en la matière. Penser trop souvent ne mène à rien.~
+@319 = ~Oui oui. Tu te souviens de ce type, en haut des escaliers ? Son corps aurait très bien pu passer pour le *tien*... ou du moins pour quelqu'un de ta description.~
+@320 = ~*soupir* Oui, très chère.~
+
+//////////
+/*dialogue avec Tiax*/
+//////////
+@321 = ~*se pince le nez de dégoût* Tiax, tu REALISES bien qu'un maître du monde a le *droit* de prendre un bain de temps en temps, n'est-ce pas ?~
+@322 = ~Tiax n'a pas besoin de prendre un bain ! Son odeur change à chacun de ses souffles, allant de la fragrance de la plus douce des fleurs à la puanteur la plus horrible et horrifiante ! Pas même les sens ne peuvent échapper au verbe tout-puissant de Tiax !~
+@323 = ~Alors ça veut dire que tu ne te laves jamais !?~
+@324 = ~Tiax n'a pas BESOIN de se laver ! N'as-tu pas entendu ? Pas plus qu'il n'a besoin de se peigner les cheveux, de se brosser la barbe, de se couper les ongles des pieds, de s'essuyer les...~
+@325 = ~STOP ! Ca suffit ! Je n'ai pas besoin d'en entendre plus, espèce de petite créature répugnante. Eloigne-toi de moi, et garde ta crasse pour toi ! Et ce soir, tu as intérêt à dormir de l'AUTRE côté du camp ! Par les dieux, parfois, je me demande pourquoi je reste dans un groupe aussi pitoyable...~
+
+//////////
+/*dialogue avec Xan*/
+//////////
+@326 = ~Ah, sorcier, je pense que nous avons pris un mauvais départ, vous et moi. Nous avons tous deux mieux à faire que de nous chamailler sans fin ni but. Je propose que nous partagions cette excellente bouteille de vin au cours d'une discussion entre amis où nous parlerions des voyages que nous avons faits, des ennemis que nous avons vaincus, des femmes que nous avons aimées, des territoires d'où nous venons...~
+@327 = ~Barde, le bon vin n'exige nullement bonne compagnie pour l'apprécier pleinement. Buvez-le seul, ou partagez-le avec cette demoiselle qui ne doit pas savoir ce qu'est la sobriété, car jamais elle ne vous voit sous votre vrai jour.~
+@328 = ~Répondre par une insulte à une proposition amicale désintéressée n'est pas une habitude, parmi les humains, Xan.~
+@329 = ~Et voler des femmes n'est pas une habitude chez les elfes. Si seulement mon peuple n'avait pas à subir les traditions humaines et leurs propositions désintéressées, toutes ces femmes elfes enlevées et vendues à des esclavagistes humains qui se disent marchands...~
+@330 = ~Xan, ne nous engageons pas dans un débat inutile sur... nos différences culturelles. Skie et moi-même sommes tous deux humains, et avec tout cet amour et cette tendresse que nous avons, qui pourrait nous condamner de nous échapper d'un cruel destin qui nous voudrait séparés ? La demoiselle volée trouve elle-même tout ceci romantique.~
+@331 = ~Vous pourrez l'emballer comme vous voudrez, c'était un acte barbare, voilà tout. Et je suis profondément attristé que nous en soyons les instruments. Si nous continuons sur cette voie, nous n'aurons pas volé notre cruel destin.~
+@332 = ~Dans ce cas, d'accord, je suis un barbare... mais un barbare amoureux. Cela ne m'élève-t-il pas au moins un petit peu au-dessus du reste des sauvages ? Mais peut-être que je ne suis pas tout à fait perdu. Peut-être pourriez-vous me montrer la bonne voie à suivre en me parlant d'une communauté aussi riche et cultivée qu'Everaska ?~
+@333 = ~Je vous dirai la seule chose sur Everaska que vous avez besoin de savoir : elle est très bien gardée contre les voleurs de votre espèce.~
+@334 = ~Bah ! Une jeune fille par ici, une babiole par là. C'est sans importance. Je parlais de la connaissance, qui se trouve ne pas se voir diminuer lorsqu'elle est partagée.~
+@335 = ~Non, elle est détruite par une confiance aveugle et assurément stupide. C'est ce qui arrive le plus souvent.~
+@336 = ~Mais puisque, selon votre propre aveu, nous sommes tous perdus, vous pouvez me chanter un chant ou deux, afin que je danse mieux sur le bord du fossé, ça ne changera rien.~
+@337 = ~Je peux prévoir plusieurs fatalités. Je peux aussi éviter de m'en créer. Du vent, fourbe !~
+
+//////////
+/*dialogue avec Xzar*/
+//////////
+@338 = ~Ah, alors, mon bonhomme ! Êtes-vous lucide, aujourd'hui ?~
+@339 = ~Moi ? Quand est-ce que la lucidité m'aurait quitté ?~
+@340 = ~Je me suis mal exprimé, pardonnez-moi. Je voulais vous demander si en ce moment-même, vous étiez capable de percevoir les tristes conditions qui nous affectent, nous autres membres du commun des mortels ?~
+@341 = ~Oh. Une question très pertinente. Voyons voir... le ciel en haut... la route pavée mal entretenue en bas... des habitations très moches... un arbre... là-bas, un petit carré de navets infesté de campagnols et de gnomes... Oui, j'ai bien peur que oui.~
+@342 = ~Excellent... ahem... pour des raisons purement personnelles. Vous voyez, j'ai un problème qui nécessite une assistance que vous seul pouvez me fournir.~
+@343 = ~Vous avez bien vu, c'est inhabituel venant de vous. Je serai enchanté de vous aider.~
+@344 = ~C'est très généreux de votre part. Vous voyez, il y a en cette ville une jeune demoiselle que j'aime et qui m'aime. Malheureusement, il se trouve que son père a une vision très fausse de mes intentions, alors...~
+@345 = ~Attendez une minute ! Vous voulez que je tue quelqu'un *d'autre* ? Pas vous ??? Voilà qui change t... euh... si vous voulez bien m'excuser un moment.~
+@346 = ~Oui... oui... euh, noooon... oui... neuf-et-demie... oui... non... non, bien sûr que non... sans aucun doute. Maintenant, dites-moi, barde, quelle était votre question, déjà ?~
+@347 = ~Encore une fois, je vous demande pardon de m'être mal fait comprendre, mais je n'ai aucune question pour vous. (Celle à laquelle tu n'as pas encore répondu, crétin !)~
+
+//////////
+/*dialogue avec Yeslick*/
+//////////
+@348 = ~Alors, Yeslick, votre clan... il était riche, paraît-il...~
+@349 = ~Les gens ont toujours besoin de fer. C'est c'qui nous a fait vivre.~
+@350 = ~Et, sans doute que comme tous les clans nains, vous aviez aussi votre part d'anciennes reliques et autres héritages, des objets d'or et d'argent d'une considérable valeur... sentimentale ?~
+@351 = ~Hurm... Je n'sais pas où vous autres les humains vous allez pêcher toutes ces histoires, mais chez moi, c'est une mine de *fer*, barde. Tu pourrais tout aussi bien chercher de l'or dans une de vos boulangeries.~
+@352 = ~Et d'après vous, maître nain, d'où est-ce que mes idées de tas de pièces chatoyantes et de bijoux précieux viennent ? Des sagas de votre propre peuple ! J'ai eu la chance par le passé d'écouter un récital des plus grands poèmes épiques nains. Et j'en ai toujours un ou deux en mémoire, et aussi longs qu'ils aient pu être, la profondeur de leurs mots est restée gravée en mon âme.~
+@353 = ~Alors tu pourrais p'têtre en réciter un, au lieu de tes habituelles ballades.~
+@354 = ~Que voilà une excellente idée, Yeslick ! Les sagas du savoir ancien Nain ont cela de particulier qu'elles font revenir en mémoire des hauts faits d'armes, de rappeler toute la splendeur de la race naine, de se demander si elle reviendra un jour... une ère héroïque, un temps où la loyauté et l'honneur signifiaient *vraiment* quelque chose ! Qu'il est triste que les choses aient autant changé...~
+@355 = ~Ouais, c'est bien vrai. De nos jours, les jeunes nains, ils ne reconnaîtraient pas un bon serment s'ils...~
+@356 = ~Mais vous, Yeslick, en vous... Je crois que je peux revoir en vous les temps anciens. Oui... *vous*, parmi nous tous, vous comprenez ce qu'est vraiment l'honneur, n'est-il pas, mon vieux nain ? Vous en savez beaucoup plus long que tous ces jeunes chiots qui voyagent avec nous sur ce qu'est le respect dû aux anciens, de faire honneur aux ancêtres, de 'protéger et défendre la race et le clan', comme je vous ai entendu proclamer des serments d'un ton dur et résolu !~
+@357 = ~Et bien, je... J'fais de mon mieux pour maintenir les anciennes traditions, ouais...~
+@358 = ~Et vous ne me parlerez jamais des trésors enterrés avec votre clan, n'est-ce pas ?~
+@359 = ~Non, je n'te parlerai jamais de ces... euh... mais, c'est que... y'a rien de tel ! J'te préviens, Eldoth, si t'oses essayer de piller les tombes de mon clan, je te tordrai le cou...~
+@360 = ~Oh, ne vous inquiétez pas, nain, ce n'était que de la curiosité ! Comme si quelqu'un comme moi pouvait plonger dans un cimetière englouti et salir ses mains à creuser ! Ce n'est pas mon style... euh, je ne peux pas m'imaginer assez désespéré pour en arriver *là*.~
+@361 = ~Voilà qui est mieux. N'en parle plus jamais, barde, ou sinon, j'me mettrai en colère !~
+@362 = ~*dans sa barbe* Je pensais plutôt employer des gens pour le faire à ma place... ah, honorable, ça oui, mais il n'a pas inventé la poudre. En d'autres termes... parfait.~

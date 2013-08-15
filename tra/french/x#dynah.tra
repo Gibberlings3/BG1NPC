@@ -1,0 +1,414 @@
+//banters avec Charname (4)
+@0 = ~Dis-moi, <CHARNAME>, est-ce que Château-Suif Te manque ? Tu n'es pas aussi loin de chez Toi que moi, mais ne tournes-Tu pas parfois la tête, les yeux emplis de larmes, vers sa direction ?~
+@1 = ~En fait, Dynahéir, tout arrive tellement vite que je n'ai pas le temps de regretter la bibliothèque.~
+@2 = ~Je voyage toujours dans mon pays, Dynahéir. La Rashéménie est beaucoup plus éloignée que ne l'est Château-Suif. Où est-ce, à propos ?~
+@3 = ~Ce n'est pas l'endroit qui me manque, mais tous ceux qui y vivaient. C'était un sacré groupe de gens tous plus bizarres les uns que les autres...~
+@4 = ~Château-Suif me manque profondément, et je compte y retourner dès que j'aurai trouvé un livre très rare ou collecté dix milles pièces d'or !~
+@5 = ~Ca vous intéresse vraiment, de le savoir ?~
+@6 = ~Je comprends. L'enthousiasme que Tu portes à Ta première aventure T'empêche de ressentir de l'inquiétude.~
+@7 = ~Euh... un truc du genre, oui. Continuons, Dynahéir.~
+@8 = ~L'enthousiasme ? Mais bien sûr que je suis enthousiaste ! Dynahéir, je suis sur le point de devenir le plus grand héros que ce pays a connu depuis des siècles ! Je suis le noble vengeur qui pourchasse l'assassin de son père ! Je suis... je suis...~
+     ~L'enthousiasme ? Mais bien sûr que je suis enthousiaste ! Dynahéir, je suis sur le point de devenir la plus grande héroïne que ce pays a connu depuis des siècles ! Je suis la noble vengeresse qui pourchasse l'assassin de son père ! Je suis... je suis...~
+@9 = ~Non. C'est juste que je n'arrive qu'à penser à assurer ma survie, Dynahéir. Je n'ai pas le temps de rêvasser si je ne veux pas me faire tuer, et je fais de terribles cauchemars la nuit, ou bien alors je ne dors que d'un oeil, prêt à me réveiller à la première menace venue... Au contraire, ce sont les inquiétudes qui m'empêchent de ressentir quoi que ce soit d'autre.~
+     ~Non. C'est juste que je n'arrive qu'à penser à assurer ma survie, Dynahéir. Je n'ai pas le temps de rêvasser si je ne veux pas me faire tuer, et je fais de terribles cauchemars la nuit, ou bien alors je ne dors que d'un oeil, prête à me réveiller à la première menace venue... Au contraire, ce sont les inquiétudes qui m'empêchent de ressentir quoi que ce soit d'autre.~
+@10 = ~La Rashéménie se trouve loin à l'est, à peu près à une saison de voyage par la mer ou par la terre. Elle se situe entre Thay et Ashanath. Mon pays est âpre et intense, bien différent de cette région tempérée. Mais je T'ennuie avec mes histoires. Continuons.~
+@11 = ~Les gens font partie intégrante d'une terre, et ils contribuent à nous en faire une opinion. Il nous faut nous demander si c'est la terre qui change les gens, ou si ce sont les gens qui changent la terre.~
+@12 = ~Est-ce vrai ? Cela me semble être un prix exorbitant pour revenir dans la ville qui T'a vu naître.~
+      ~Est-ce vrai ? Cela me semble être un prix exorbitant pour revenir dans la ville qui T'a vue naître.~
+@13 = ~*hausser des épaules* Ils disent que c'est pour garantir la sécurité de la librairie, mais les évènements récents... Bref, peu importe.~
+@14 = ~C'est vrai. Je ne pourrais pas revenir, pas même pour enterrer décemment mon père adoptif !~
+@15 = ~Ce n'est pas moi qui ai fixé cette règle. Il en a toujours été ainsi, Dynahéir.~
+@16 = ~Oui, cela m'intéresse vraiment. Mais je constate que cela ne T'intéresse pas de me le dire.~
+@17 = ~Trois kilomètres à pied, ça use, ça use, trois kilomètres à pied, ça use les souliers.~ [%tutu_var%DYNAH32]
+@18 = ~Tu n'as pas fini Ta phrase. Qu'es-Tu ?~
+@19 = ~Un idiot qui a lu beaucoup trop de contes. Arrêtez de me regarder comme ça, j'en ai terminé. Allons-y.~
+      ~Une idiote qui a lu beaucoup trop de contes. Arrêtez de me regarder comme ça, j'en ai terminé. Allons-y.~
+@20 = ~Je ne le sais pas vraiment, mais je crois que je suis quelque chose... quelqu'un de... particulier.~
+@21 = ~J'espère que 'sombre et mystérieux aventurier canon' me décrit bien, même si ça n'est pas tout à fait la réalité.~
+      ~J'espère que 'sombre et mystérieuse aventurière canon' me décrit bien, même si ça n'est pas tout à fait la réalité.~
+@22 = ~Si seulement je le savais.~
+@23 = ~Tu fais des cauchemars ? Il est dommage qu'une personne si jeune que Toi souffre autant. Il est vrai que peu d'endroits sont en sécurité, en ce moment, mais si nous devions nous arrêter dans l'un d'entre eux, je Te conseillerais de T'y reposer un jour ou deux.~
+@24 = ~Quelque chose s'est produit récemment, et Tu as peur pour la sécurité de Château-Suif, c'est ça ?~
+@25 = ~Ouais... Vous savez, des assassins m'ont attaqué dans Château-Suif. Ils n'avaient pas l'air d'avoir inventé l'eau tiède, et ils ne faisaient pas partie de la population locale. Mais ils ont trouvé un moyen de pénétrer dans Château-Suif à l'insu des gardes.~
+@26 = ~Dynahéir, franchement, de quoi je me mêle ?~
+@27 = ~C'est une honte. On ne devrait jamais interdire une telle chose à qui que ce soit.~
+@28 = ~Ni le temps ni l'habitude ne sauraient transformer la folie en sagesse. Château-Suif est une ville bien plus commerciale qu'il n'y paraît.~
+@29 = ~Il se pourrait bien, en effet, <CHARNAME>.~
+@30 = ~Savez-vous quelque chose en particulier sur moi ?~
+@31 = ~Dynahéir, je suis sûr que si je vous demandais ce que vous vouliez dire par là, vous me donneriez une réponse sibylline. Je me trompe ?~
+      ~Dynahéir, je suis sûre que si je vous demandais ce que vous vouliez dire par là, vous me donneriez une réponse sibylline. Je me trompe ?~
+@32 = ~Les routes vers la grandeur sont nombreuses. Nous devrions nous remettre en route, ou sinon, nous pourrions bien ne pas trouver la nôtre.~
+@33 = ~Canon ? Je dirais plutôt que Tu es magnifique, mais si Tu persistes à user de mots dont je n'ai aucune connaissance, alors soit. Je t'appellerai <CHARNAME> le Canon dans mes notes.~
+@34 = ~Femme, Tu parles comme une jeune écervelée. Respecte-toi, et respecte ton genre.~
+@35 = ~*acquièsce, l'air absent* Oui. C'est ce savoir qui pourait se révéler être du plus grand intérêt.~
+@36 = ~Dynahéir, cela fait maintenant un moment que je souhaite vous le demander : est-ce que vous en savez plus sur moi que ce que vous me laissez penser ?~
+@37 = ~Ou quelqu'un a payé pour les faire entrer. On dirait bien que Tu as des ennemis puissants et opiniâtres, <CHARNAME>. Sois méfiant.~
+      ~Ou quelqu'un a payé pour les faire entrer. On dirait bien que Tu as des ennemis puissants et opiniâtres, <CHARNAME>. Sois méfiante.~
+@38 = ~Je suis méfiant. Par les tous les dieux vivants ou morts, je suis la personne la plus méfiante du monde !~
+      ~Je suis méfiante. Par les tous les dieux vivants ou morts, je suis la personne la plus méfiante du monde !~
+@39 = ~Il doit s'agir d'une erreur... Je... et bien, je ne suis qu'un jeune homme qui essaye de se faire une place dans ce monde. Les gens comme moi, on en trouve à chaque coin de rue !~
+      ~Il doit s'agir d'une erreur... Je... et bien, je ne suis qu'une jeune femme qui essaye de se faire une place dans ce monde. Les gens comme moi, on en trouve à chaque coin de rue !~
+@40 = ~Si vous voulez m'aider, dites-moi ce que vous savez au lieu de me lancer ces regards bizarres !~
+@41 = ~Oui, vous avez raison. Ou peut-être pas...~
+@42 = ~La seule chose que je sais, c'est que je ne sais rien. Il se pourrait que je suspecte quelques choses à Ton propos, mais... il s'agit d'un problème des plus complexes. Si je T'en parlais, cela ne ferait qu'ajouter à Tes inquiétudes.~
+@43 = ~En effet, en effet...~
+@44 = ~C'est bien. Tu es une personne sage malgré Ta jeunesse.~
+
+@45 = ~Que sais-Tu de ce que je suis ? Des Hathrans ?~
+@46 = ~Des sorcières Rashémi ? Je sais que vous en êtes une, et que vous êtes une magicienne puissante. C'est tout ce que je sais des Hathrans, et je n'ai pas besoin d'en savoir plus, Dynahéir.~
+@47 = ~Des Hathrans ? Euuh, vous pouvez me dire comment ça s'écrit ?~
+@48 = ~Je croyais que vous étiez une sorcière... Hé, ne me regardez pas comme ça !~
+@49 = ~Je vous ai pourtant entendue parler de vous en tant que Wychlaran.~
+@50 = ~Le manque de curiosité est un défaut selon mes soeurs. Particulièrement en excès.~
+@51 = ~Avec grand plaisir. Ou se trouve donc mon encrier ? Ah, le voilà : H-A-T-H-R-A-N. En langage commun, bien sûr.~
+@52 = ~Bien. Maintenant que je sais comment ça s'écrit, on peut arrêter les activités éducatives pour aujourd'hui. Remettons-nous à la baston !~
+@53 = ~Et donc, qu'est-ce qu'une Hathran ?~
+@54 = ~Ca et le fait que vous êtes une magicienne bourrine, c'est tout ce dont j'ai besoin de savoir sur les Hathrans.~
+@55 = ~On nous appelle souvent sorcières, mais entre nous, nous nous appellons Hathrans. En deux mots, une Hathran est une femme qui possède un don pour l'Art. Une Non-prouvée n'a pas encore été entraînée à la Magie. Une Ethran a été entraînée, une Hathran est une mage confirmée. Les Othlors sont les plus sages et les plus révérées d'entre nous.~
+@56 = ~Merci, Dynahéir. C'était très intéressant.~
+@57 = ~Peu importe. Si vous voulez bien m'excuser, je dois bouger ou je vais prendre racine.~
+@58 = ~Et la plus puissante d'entre vous toutes s'appelle Amyrlin Seat. C'est ça ?~
+@59 = ~En effet, Wychlaran est un terme couramment utilisé. Il s'agit d'une terme poli pour dire Hathran, mais les deux sont appropriés. En deux mots, une Hathran est une femme qui possède un don pour l'Art. Une Non-prouvée n'a pas encore entraînée à la Magie. Une Ethran a été entraînée, une Hathran est une mage confirmée. Les Othlors sont les plus sages et les plus révérées d'entre nous.~
+@60 = ~Merci, Dynahéir. C'était très intéressant.~
+@61 = ~Tu es fort physiquement. Quel dommage que Tu manques de profondeur intellectuelle.~
+      ~Tu es forte physiquement. Quel dommage que Tu manques de profondeur intellectuelle.~
+@62 = ~Je constate avec plaisir que Tu T'intéresses aux territoires lointains. La plupart des gens auxquels j'ai eu affaire n'étaient intéressés que par leur propre personne et leur pays.~
+@63 = ~Tu dois confondre avec une coutume étrangère à la Rashéménie. Aucune Hathran ne commande les autres.~
+
+@64 = ~Minsc est véritablement le plus loyal des compagnons ! Combien de fois ai-je remercié les dieux de voyager en sa compagnie...~
+@65 = ~Oh... Alors ça va se finir comme dans les contes de fées ? Après avoir voyagé jusqu'au bout du monde, il retournèrent chez eux, se marièrent, vécurent heureux et eurent beaucoup d'enfants ?~
+@66 = ~Je tiens moi-même la compagnie de Minsc en haute estime. Et la vôtre, aussi. Je vous considère tous les deux comme mes amis, maintenant, même si nous ne nous connaissons pas depuis très longtemps.~
+@67 = ~Possible, mais je ferais attention, si j'étais vous. On ne dit pas 'mieux vaut un ennemi qu'un allié imprévisible' pour rien.~
+@68 = ~Tous les amis ne s'épousent pas.~
+@69 = ~Je vous en prie, un homme qui pense avec son hamster ! C'est l'homme idéal de toute femme de Féérune !~
+@70 = ~Allez, un homme qui pense avec son hamster ! C'est l'homme idéal de toute femme de Féérune !~
+@71 = ~J'en déduis que vous n'êtes pas attirée par Minsc. Je me demande si vous pouvez être attirée par qui que ce soit, d'ailleurs...~
+@72 = ~Je ne vous crois pas ! L'autre soir, vous étiez pratiquement collée à lui ! Et puis il a cette manie de devenir fou chaque chaque fois que quelqu'un ose vous regarder ou vous attaquer !~
+@73 = ~Vraiment ? Super ! Euh... Je ne voudrais pas paraître indiscret, mais avez-vous déjà pris un engagement quelconque ? Y a-t-il un autre homme dans votre vie que Minsc et Bouh ?~
+@74 = ~Je ressens la même chose. Sur les chemins de l'aventure, l'on se forge rapidement de nouvelles amitiés grâce aux épreuves que les compagnons d'armes traversent ensemble.~
+@75 = ~Les lacunes intellectuelles de Minsc sont largement compensées par ses autres qualités. Observe-le ; Tu verras, il a bon coeur, et cela lui montre le monde sous un jour que même un homme intelligent ne saurait percevoir.~
+@76 = ~Vous avez raison, Dynahéir. Ce que j'ai dit était blessant, et je m'en excuse.~
+@77 = ~*clin d'oeil* A-t-il bon coeur ou bon hamster, là est la question.~
+@78 = ~Disons-le franchement : je ne suis pas un amateur de hamsters. Sauf que vous ne quitteriez jamais Minsc, et c'est pour ça que je tolère ses excentricités.~
+@79 = ~Tu es très convaincant, il est vrai. Maintenant, je comprends pourquoi une femme sage peut préférer la compagnie d'un hamster à celui d'un homme.~
+@80 = ~Etrange. Jamais je n'avais entendu parler de dames préférant les hamsters aux hommes. Sans doute est-ce un phénomène local.~
+@81 = ~J'en suis capable, comme toute autre femme.~
+@82 = ~Il est vrai que nous nous occupons l'un de l'autre, mais certainement pas tel que Tu sembles me le suggérer. Nous nous sommes promis de nous protéger mutuellement, pas de nous marier.~
+@83 = ~Je suis heureuse de l'entendre.~
+@84 = ~Je ne comprends pas en quoi Tu Te sens concerné par le manque d'intelligence de Tes compagnons. Tu en as Toi-même assez pour partager.~
+      ~Je ne comprends pas en quoi Tu Te sens concernée par le manque d'intelligence de Tes compagnons. Tu en as Toi-même assez pour partager.~
+@85 = ~Tu as raison. Jamais je ne me séparerai de Minsc. Il est mon loyal compagnon et mon ami.~
+@86 = ~Un tel engagement n'est pas conseillé à un voyageur, <CHARNAME>. La tristesse de nos coeurs nous rend aveugle au monde qui nous entoure. En ce moment, je ne suis liée par aucun engagement.~
+
+@87 = ~Mes suspicions étaient donc fondées. Tu es un enfant de Bhaal.~
+@88 = ~Dynahéir, s'il y a bien une chose que je ne supporte pas, ce sont les gens qui ne disent rien de ce qu'ils savent et qui sourient hypocritement en disant 'je l'ai toujours su'...~
+@89 = ~Et vous avez un conseil à me donner, n'est-ce pas ?~
+@90 = ~Et alors ? Il faut bien être l'enfant de quelqu'un.~
+@91 = ~Les Prophéties d'Alaundo sont relativement peu connues, <CHARNAME>. Et le peu que l'on en connaît n'est pas toujours compréhensible. Tu n'étais qu'un orphelin marqué du sceau du destin au moment où nous nous sommes rencontrés. Il y avait du sang sur Ton chemin, mais c'était différent de ce dont parlaient les prophéties.~
+      ~Les Prophéties d'Alaundo sont relativement peu connues, <CHARNAME>. Et le peu que l'on en connaît n'est pas toujours compréhensible. Tu n'étais qu'une orpheline marquée du sceau du destin au moment où nous nous sommes rencontrées. Il y avait du sang sur Ton chemin, mais c'était différent de ce dont parlaient les prophéties.~
+@92 = ~Et que disaient-elles ? Quelle est ma destinée ?~
+@93 = ~En fin de compte, vous aviez raison de ne rien m'avoir dit de vos suspicions passées. Et vous n'avez plus intérêt à m'en reparler !~
+@94 = ~Le même conseil que d'habitude : 'méfie-Toi'. Mais il y aura une variation, cette fois-ci : 'méfie-Toi de Toi comme des autres'. La prophétie qui Te concerne est bien ténébreuse.~
+@95 = ~Que dit-elle ? Quelle est ma destinée ?~
+@96 = ~Il est vrai. Mais méfie-Toi de Toi et de ce que Tu veux, <CHARNAME>. Sois toujours sur Tes gardes. La prophétie qui Te concerne est bien ténébreuse.~
+@97 = ~Une sage décision. Ainsi, ce qui a été annoncé ne guidera pas Tes choix. Mais prends garde quand même.~
+@98 = ~La prophétie est courte, et pourtant effrayante :
+Les armées avancent et les villes brûlent,
+Le sang inonde les rivières et les plaines.
+Les cadavres des non-innocents
+Nourrissent les enfers de leur haine.~
+@99 = ~C'est ça, la prophétie ? Bah, Alaundo aurait mieux fait d'engager un barde pour qu'il rende ça un minimum agréable à l'oreille ! Quel charabia !~
+@100 = ~C'est terrifiant, Dynahéir. Il y en a d'autres ?~
+@101 = ~Ces mots... Mon coeur bondit en les entendant ! Alors mon destin est de commander de gigantesques armées et conquérir le monde ? Oh, Dynahéir, merci !~
+@102 = ~Ce n'en est qu'une infime partie. Les anciennes prophéties n'ont que bien peu de sens, jusqu'à ce qu'elles se réalisent.~
+@103 = ~Je n'en sais pas plus.~
+@104 = ~Je craignais que Tu réagisses ainsi.~
+
+//Banter avec Branwen
+@105 = ~Oui, Branwen ? Tu n'as cessé de me fixer des yeux ces derniers temps. Quelque chose Te trouble ?~
+@106 = ~Ah, oui, enfin, hum, magicienne, c'est-à-dire...~
+@107 = ~Bien que je sois disposée à laisser passer certaines choses que je mettrai sur le compte de Ton malaise évident, il serait plus approprié, si ce n'est moins incorrect, de m'appeller par mon prénom. Tu connais ce dernier ; Tu peux donc en faire usage.~
+@108 = ~Oui, euh, Dynahéir. Avez-vous déjà pensé à améliorer vos, ahem, vos compétences de combat ? En vérité, si votre Minsc n'était pas à vos côtés, vous vous seriez faite découper en rondelles à plusieurs reprises. Et vous n'êtes pas sans vous souvenir de cet incident avec les gnolls...~
+@109 = ~En effet, je n'ai pas oublié ceci. Mais Minsc est avec moi, maintenant. Et je suis sûre que, dans le futur, sa force pourra régler ce que mes boules de feu n'auront pas réussi à vaincre. Par ailleurs, pourquoi devrais-je même penser à 'améliorer mes compétences de combat', prêtresse de Tempus ? Je n'ai aucune inclination au combat, et je préfèrerais encore manier la harpe plutôt que d'en arriver là. Si Bouh savait se tenir un tant soit peu tranquille, je jurerais que Tu irais jusqu'à lui apprendre comment manier un fléau d'armes !~
+@110 = ~Je vous présente mes excuses, magi... hum, Dynahéir, mais je pense qu'il nous serait très profitable si vous passiez au moins un peu de temps à apprendre à tirer à l'arc. Tempus m'a montré que vous ne pouvez pas constamment compter sur votre magie ou sur votre compagnon d'armes, peu importe sa force.~
+@111 = ~Je n'en doute pas une seconde, prêtresse. Maintenant, fais-moi une faveur, et ne me parle plus.~
+@112 = ~Non, Dynahéir, vous ne comprenez pas ! Tempus me l'a *montré*, récemment dans un rêve. Je sais que cela peut vous sembler aussi crédible que les racontards des enfants, mais ce rêve était si réel ! J'ai rêvé de Minsc. Il était entré en rage de berserker, mais il était sans défense. J'ai rêvé de créatures cruelles et arrogantes qui se riaient de votre puissante magie qui glissait sur elles comme la pluie sur une armure.~
+@113 = ~Je sais que vous ne partagez pas ma foi, mais je refuse de croire que Tempus m'a envoyé ce rêve sans qu'il ait une signification. Je vous en conjure, Dynahéir, prenez garde. Je trouve vos méthodes de combat très sujettes à caution, mais je ne vous veux aucun mal.~
+@114 = ~Bien... Je constate que Ton coeur est capable de quelque noblesse après tout, Branwen. Les rêves sont des phénomènes des plus étranges, qui pourtant peuvent être la simple résultante d'un morceau de viande mal cuit ou d'une journée éprouvante. Et il semblerait que chaque jour passé dans ce groupe apporte son lot de fatigue. Néanmoins, si cela peut Te rassurer, je resterai sur mes gardes.~
+
+//Banter avec Ajantis
+@115 = ~En Rashéménie, un Huhrong est ce que nous appelons un Seigneur de Fer. Néanmoins, je n'aurais jamais cru rencontrer un jour un seigneur entièrement habillé de fer. N'es-Tu point accablé de fatigue, Ajantis ?~
+@116 = ~Non, ma Dame. Sentir le poids d'une armure de métal est noble ; nullement un tel port ne fait ployer le dos d'un chevalier, pas plus que ses haillons pèsent sur le dos du paysan.~
+@117 = ~Mais cela ne restreint-il pas ta mobilité ? Bon sang, même Minsc, dont la force dépasse de loin celle d'un homme de carrure commune, n'aime guère porter une armure.~
+@118 = ~Savoir se battre en armure de plates est une question d'entraînement et de discipline, et non de force. Votre compagnon est indéniablement un homme très vigoureux, mais ces deux qualités lui font cruellement défaut.~
+@119 = ~La discipline... ce n'est pas vraiment ce qui est recherché parmi les berserkers Rashémi.~
+
+//Banter avec Alora
+@120 = ~Mon enfant, Tu n'es pas restée en place depuis deux tours de cadran ! Si Tu ne reposes pas un peu Tes jambes, aies au moins pitié de mes yeux. C'est comme d'assister à là foire du Solstice d'été.~
+@121 = ~Dynahéir, est-ce que tu as déjà été amoureuse ?~
+@122 = ~Mon enfant... es-Tu amoureuse ?~
+@123 = ~Mais bien sûr que oui ! Je suis toujours amoureuse ! Comment on peut ne pas être amoureux ?!~
+@124 = ~C'est tout à fait possible, mon enfant. D'après mon expérience, l'on n'est pas amoureux par habitude, mais par exception.~
+@125 = ~Tu es trop collet-monté ! Ou alors ça fait partie de l'entraînement pour devenir Wychlaran ? As-tu seulement le droit de tomber amoureuse d'un homme ? As-tu le droit de te marier ?~
+@126 = ~Je le puis, mais je n'en retire pas d'allégresse particulière.~
+@127 = ~Hé, tu es *vraiment* collet-monté !~
+
+//Banter avec Branwen
+@128 = ~J'admire le courage et la détermination avec laquelle Tu as répondu à Ton appel divin, prêtresse.~
+@129 = ~Je sers Tempus, et aucun autre chemin ne peut emplir mon coeur de joie. Une fois que l'on a choisi son chemin, le reste vient tout seul. Cela n'a pas été votre cas, Dynahéir ?~
+@130 = ~Pas vraiment, Branwen. En Rashéménie, lorsqu'un talent pour les arts magiques est repéré chez une fille, elle est obligée de suivre la voie de l'Hathran. C'est une haute position au sein de mon peuple. Et pourtant, il n'est aucune de mes soeurs qui n'ait fait de sacrifices pour en arriver là.~
+@131 = ~De sacrifices ? Que voulez-vous dire par là ?~
+@132 = ~Une autre enfant a grandi à ma place avec mes parents alors que les Hathrans m'ont élevée.~
+@133 = ~Votre destin a été décidé par d'autres, et vous n'avez pas protesté ?~
+@134 = ~Dans mon cas, il ne s'agissait guère d'une décision malheureuse. Jamais je n'ai vu une Hathran le penser, d'ailleurs. Les Othlors sont sages, et je suis sûre qu'elles choisissent avec discernement celles qu'elles désignent pour un tel destin.~
+
+//Banter avec Coran
+@135 = ~Tes doigts agiles nous sont fort utiles, Coran.~
+@136 = ~Qu'entends-je ? Un compliment venant de celle dont le coeur est aussi froid que sa terre natale ?~
+@137 = ~J'admets l'utilité de Ta compétence avec les serrures, les pièges et les flèches. Mais hélas, je ne peux que déplorer l'inconscience avec laquelle Tu mènes Ta vie privée. Par les Trois, même mon gardien Minsc agit avec plus de discernement que Toi, parfois !~
+@138 = ~Fallait-il que tu le gâches avec une réprimande, Dynahéir ?~
+@139 = ~Préfèrerais-Tu que je m'adresse à Toi sans être sincère ?~
+@140 = ~Non, non. J'aurais tout simplement préféré que tu t'arrêtes un petit peu plus tôt. Tu aurais été tout aussi sincère, et j'aurais été bien content d'avoir entendu tes mots. Complimenter quelqu'un, Dynahéir, est un... ahem... un art dans lequel, j'en ai peur, il te reste bien des choses à apprendre.~
+@141 = ~Effectivement, je suis versée dans des arts bien différents des Tiens, Coran.~
+
+//Banter avec Edwin
+@142 = ~Toujours en train d'essayer de remplir Ta mission, Edwin ? En retires-Tu bien du plaisir ?~
+@143 = ~Même si tes pauvres parodies de sarcasmes étaient un peu meilleures que celles d'un petit-homme sans éducation, elles n'auraient pas détourné mon attention ! Je t'observe avec vigilance, et il m'est très agréable de constater que cela te déplaît. (Oui, un ennemi ennuyé est toujours préférable à un ennemi calme et concentré.)~
+@144 = ~Tu es le premier des Tiens à t'être converti à la foi de Heaum le Vigilant, dirait-on. Je suis certaine que cela va rendre fou de joie le Tarchion du Surthay.~
+@145 = ~Comme d'habitude, tes babillages n'ont aucun sens, sorcière Rashémi. Voilà un bon exemple de ce pourquoi Thay doit continuer à s'intéresser à la Rashéménie. Vous autres, primates, êtes nés sans volonté de pouvoir. Thay doit faire de vous ses esclaves, c'est là votre seule destinée.~
+@146 = ~As-Tu succombé à la folie, ou crois-Tu vraiment que je peux être trompée par de tels mensonges ? Tu viens de prouver que Tu n'es pas un Odesseiron seulement de nom, mais aussi de naissance. J'en conclus que Tu dois être le fils de Homen Odesseiron, le Tarchion du Surthay lui-même. Nie-le si Tu veux, mais je sens que c'est là la vérité.~
+@147 = ~Ces pathétiques insinuations sont sur le point de faire surchauffer ce qui tu as et qui se rapproche le plus d'un intellect. Je te conseille d'arrêter de fantasmer sur moi, et de te concentrer sur les petites victoires que tu pourrais obtenir en lançant ces pitoyables demi-sorts que tu réussis à inscrire sur ton grimoire. (Si Homen voulait garder la mainmise sur le Surthay, il aurait élevé une personne avec des capacités aussi fantastiques que les miennes à la position respectable qui me sied. Et au lieu de ça, me voilà obligé de voyager à pieds dans ce pays de barbares avec une Wychlaran pour compagnie !)~
+@148 = ~Tu en veux à la mauvaise personne, Edwin. Ce n'est pas la faute d'Homen si Tu n'as obtenu aucun avancement, mais la Tienne, et la Tienne seule. J'ai entendu dire que le Tarchion avait un semblant d'honneur, et qu'il donne des promotions à des gens de qualité. Des gens que l'on ne trouve pas communément dans Ton peuple. Des gens dont Tu ignores tout.~
+
+//Banter avec Eldoth
+@149 = ~Je ne Te porte pas dans mon coeur. En fait, l'on pourrait même dire que je ne Te supporte pas du tout.~
+@150 = ~Êtes-vous riche, sorcière ?~
+@151 = ~Une Hathran, comme moi, fait bien peu cas des possessions matérielles.~
+@152 = ~Alors je me fiche de ce que vous pensez de moi.~
+@153 = ~Tu portes tant de désintérêt à la demoiselle que Tu dis être Ton amante, et Tu Te fiches que Tes camarades soient en danger de mort pourvu que Tu sois sauf ! Tu n'es qu'un pauvre type, Eldoth, car Tu n'as aucune idée de la valeur de l'amitié.~
+@154 = ~Êtes-vous en train de me suggérer que je devrais placer les errements du coeur d'une femme et l'opinion du premier imbécile venu au-dessus de mon propre confort, de ma propre survie et de mes propres intérêts ?~
+@155 = ~Les Tiens ont l'habitude de chanter avec admiration des histoires de héros ayant ces qualités, au lieu de les mépriser.~
+@156 = ~Les crétins sans talent peuvent bien éructer ces poèmes, je laisse ces stupidités vertueuses aux gosses de riches qui sont, bien entendu, les gens les plus humbles, les plus agréables et les plus honnêtes du monde ! Je ne peux pas me permettre d'avoir une âme noble. Si je ne prends pas soin de moi, qui le fera ?~
+@157 = ~Si Tu avais un véritable ami, ou si Tu aimais vraiment une femme, Tu connaîtrais la réponse.~
+@158 = ~Oh, ne vous inquiétez pas, mes maîtresses prennent soin de moi, 'vraies' ou non.~
+
+//Banter avec Faldorn
+@159 = ~Druidesse, si Tu persistes dans Ta folie destructrice, j'ai peur que Tu ne meures jeune.~
+@160 = ~Je retournerai à Mère Nature lorsqu'elle me rappellera à elle, Dynahéir. Tôt ou tard, cela m'importe peu.~
+@161 = ~Mourir par folie, c'est mourir inutilement.~
+@162 = ~Folie ? Grrr ! Alors tu considères que se battre pour l'équilibre du monde, c'est de la folie ?~
+@163 = ~Pourquoi penses-Tu que le monde est déséquilibré ?~
+@164 = ~Parce que la civilisation détruit Mère Nature !~
+@165 = ~Je n'affectionne pas la destruction plus que Toi, Faldorn. Mais la civilisation ne détruit pas sans construire. Là où se tenait une forêt, une ville s'élève. Peut-être la civilisation fait-elle partie de l'équilibre du monde, ne crois-Tu pas ?~
+@166 = ~Non, Dynahéir. Tu ne pourras pas concilier Mère Nature avec la civilisation, ni ses véritables serviteurs avec ceux qui la maltraitent !~
+@167 = ~Tu n'entendras point raison, Faldorn.~
+@168 = ~Les Druides de l'Ombre sont les seuls à voir le monde sous son vrai jour ! Pourquoi devrais-je écouter les fables d'une hérétique ?~
+
+//Banter avec Garrick
+@169 = ~Ton caractère enjoué est des plus agréables, Garrick. Il est rare de fréquenter une personne de nature si joyeuse.~
+@170 = ~Ah, Dynahéir, vous avez tort. Il y a tellement de gens heureux ! La vie est extraordinaire, comment en être malheureux ?~
+@171 = ~Cela arrive plus souvent que Tu ne Te l'imagines, Garrick.~
+@172 = ~Ah, présentez-moi un homme malheureux, et je lui rendrai sa bonne humeur avec une chansonnette en quelques minutes !~
+@173 = ~Penses-Tu ?~
+@174 = ~Je ne le pense pas, je le sais ! Vous savez, Dynahéir, dès que mon âme est envahie de mélancolie poétique, il me suffit simplement de fredonner un couplet de 'Troll Farceur, Elfe Farci' et... POUF ! La tristesse s'en va pour de bon !~
+@175 = ~Peut-être pourras-Tu m'apprendre ce chant la prochaine fois que j'aurai le mal du pays. Je suis toujours triste, quand cela m'arrive.~
+@176 = ~Euh... Peut-être pas cette chanson en particulier, m'dame... J'en connais plein d'autres toutes aussi gaies !~
+
+//Banter avec Imoen
+@177 = ~Peux-Tu me parler de Ton enfance, Imoen ?~
+@178 = ~Euh, y'a pas grand-chose à dire, m'dame. J'ai été orpheline assez tôt, et Winthrop, un gars bien, m'a prise sous son aile. Il était sympa, mais on s'ennuyait ferme avec lui. Je serais toujours à travailler dans son auberge, si je n'avais pas fait le mur. Ah, ça, c'était marrant... sauf lorsque Gorion est mort, bien sûr.~
+@179 = ~Etais-Tu une amie de <CHARNAME> ?~
+@180 = ~Ouaip. C'était un drôle d'oiseau, mais je connais <CHARNAME> depuis aussi longtemps que ma mémoire remonte. Et puis en fin de compte, c'est pas une personne si affreuse.~
+@181 = ~Un drôle d'oiseau ? Que veux-Tu dire par "un drôle d'oiseau" ?~
+@182 = ~Oh, je voulais dire que <CHARNAME> a une queue de deux mètres de long.~
+@183 = ~Une queue ? Quel genre de queue ?~
+@184 = ~Une queue bleue avec des rayures violettes. *rires* Oh, allez, Dynahéir, t'as pas compris que je plaisantais ?~
+@185 = ~Tu plaisantais ? Bien, mais j'étais sérieuse lorsque je T'ai demandé en quoi <CHARNAME> était un drôle d'oiseau.~
+@186 = ~Euh... j'sais pas. Je pense que je voulais dire que c'était marrant de l'avoir dans les parages. Hé, mais pourquoi tu me poses toutes ces questions sur moi et sur <CHARNAME> ?~
+@187 = ~Il est toujours bon d'en savoir un peu plus sur ses compagnons de route, Imoen.~
+@188 = ~Aha ! Alors tu vas peut-être pouvoir me parler de toi ! T'as quel âge ? Il veut dire quoi, ton nom ? Et pourquoi est-ce qu'ils te traitent tous de sorcière ? Et qu'est-ce que tu fais là, sur la Côte des Epées ?~
+@189 = ~Il n'est plus guère temps de discuter, Imoen. Je Te parlerai de moi plus tard.~
+
+//Banters avec Jaheira (2)
+@190 = ~Jaheira, peux-Tu me dire à quelle espèce appartient cette herbe ? Elle a une forte odeur, douce et rafraîchissante à la fois.~
+@191 = ~Mhmm, oui. C'est de la marante. Elle sert à la fabrication des encens, et possède des vertus antiseptiques.~
+@192 = ~Un herbe médicinale, dis-Tu ? Nécessite-t-elle une préparation particulière ?~
+@193 = ~Non. Elle peut être utilisée en onguent, mais elle est particulièrement efficace lorsqu'elle est écrasée et appliquée directement sur la plaie.~
+@194 = ~Très intéressant. Je Te remercie de m'avoir fait profiter de Ton savoir. J'ai quelques connaissances des plantes de mon pays, mais la plupart de ce qui pousse dans la région m'est inconnu.~
+@195 = ~La Nature subvient très bien aux besoins de ses enfants, et je suis très heureuse d'assister tout ceux qui en apprécient les cadeaux.~
+
+@196 = ~Je m'intéresse à l'organisation connue sous le nom des Ménestrels.~
+@197 = ~Une étrangère venant d'une région lointaine telle que moi n'a que peu de chances d'apprendre à connaître ce qui se dérobe aux yeux de tous, même de ceux qui vivent en ces régions.~
+@198 = ~Hmmm... tu es une personne de confiance. Si ça n'était pas le cas, je ne te dirais rien. Mais sois prévenue, je ne peux pas révéler grand-chose sans une... autorisation. Pose-moi tes questions, mais ne sois pas étonnée si je ne peux pas te fournir de réponse satisfaisante.~
+@199 = ~En fait, je me demandais ce qui pourrait pousser quelqu'un à rejoindre une telle organisation.~
+@200 = ~Comme je le disais, je ne connais pas grand-chose des Ménestrels, mais tu sembles être intéressée de rejoindre leurs rangs. Ils... ils trouveront un moyen de te contacter si le besoin s'en fait sentir.~
+@201 = ~N'as-Tu pas compris qu'il ne s'agissait que de curiosité féminine, Jaheira ? De la simple curiosité. Je ne saurais me mêler à des causes qui ne concernent directement la Rashéménie ou qui ne défendraient le Bien s'il était menacé.~
+@202 = ~J'espère que ta soif de connaissance a été épanchée.~
+@203 = ~En effet, Jaheira. Je Te remercie pour cette discussion.~
+
+//Banter avec Kagain
+@204 = ~Es-Tu caravanier, Kagain ?~
+@205 = ~Nan, mon rôle, c'est d'm'assurer que les caravanes voyagent en sécurité.~
+@206 = ~As-Tu déjà voyagé avec une caravane ?~
+@207 = ~Ouais, ici et là.~
+@208 = ~J'ai étudié beaucoup de cartes, mais jamais je n'ai eu connaissance d'un pays nommé Ici, pas plus que je n'ai voyagé en terre de Là.~
+@209 = ~Et après ? Allez étudier vos cartes, vous les trouv'rez p'têtre. Par le marteau de Moradin, fillette à la peau lisse, vous savez pas quand il faut laisser un guerrier tranquille ?~
+@210 = ~Quel grossier personnage.~
+@211 = ~Aucun nain digne de c'nom irait répondre aux questions stupides d'un mage. Ca vous va ?~
+@212 = ~D'après ce que je sais, aucun nain digne de ce nom ne voyagerait aussi loin de son clan.~
+@213 = ~Tu parles ! Maintenant, fichez-moi la paix, femme. Ou sinon, ma hache pourrait bien être tentée de goûter à vot'sang !~
+
+//Banter avec Khalid, Jaheira peut réagir en @218
+@214 = ~Khalid, il m'est bien étrange d'observer un combattant aussi compétent et aussi intelligent que Toi manquer aussi cruellement de confiance en lui-même. Quelque chose Te trouble-t-il ?~
+@215 = ~N-non. Enfin... si. Mais je n-ne souhaite pas en parler. Ces s-souvenirs me sont trop douloureux, je préfèrerais les oublier.~
+@216 = ~Je vois. Je Te prie de bien vouloir me pardonner ; je ne voulais point te causer tel inconfort. Mais prends garde à Toi de ne pas laisser ces troubles Te consumer.~
+@217 = ~Je ferai de mon mieux. Je vous remercie de v-vous en inquiéter, Dynahéir.~
+@218 = ~Je te l'assure, cela n'arrivera pas. J'y veillerai.~
+
+//Banter avec Kivan
+@219 = ~Je ne connais pas grand-chose au savoir Elfique. En Rashéménie, ce n'est pas un sujet de première priorité, loin de là. Mais j'aimerais en apprendre plus sur Ton peuple.~
+@220 = ~Aimeriez-vous que je vous conte l'histoire, les coutumes et les légendes des miens lors de notre prochain repas ou de notre prochain repos, Dynahéir ?~
+@221 = ~Je Te promets de faire en sorte de ne pas T'envahir de questions. Mais la route est longue, et nous avons plein de temps devant nous pour discuter.~
+@222 = ~Il est vrai. En outre,une discussion amicale est toujours préférable à une dispute. Que voulez-vous savoir, Dynahéir ?~
+@223 = ~En premier lieu, c'est Ton nom qui attire le plus ma curiosité. Il ne sonne pas pareil que les autres noms elfiques que j'ai pu entendre par le passé. Ils étaient plus mélodieux.~
+@224 = ~Ma mère m'a choisi un nom qui allait avec son humeur et qui était agréable à l'oreille. Cela arrive fréquemment chez les elfes. Hors de la nation de Shilmista, d'où je viens, on l'aurait prononcé différemment : Kethvan. Le 'vent de la forêt'.~
+@225 = ~Très intéressant, en effet.~
+
+//Banter avec Minsc (2)
+@226 = ~Minsc ! Par les Trois, recule, sinon cette bataille pourrait bien être la dernière pour Toi !~
+@227 = ~RAAARGH ! Qu'est-ce que c'était, Bouh ? Notre sorcière nous appelle ?~
+@228 = ~MINSC ! Arrête de parler à ce rongeur et recule, MAINTENANT !~
+@229 = ~C'est le Mal qui devrait reculer, et non Minsc ! Mais je ferai selon la volonté de Dynahéir... Ohh... J'ai besoin d'aide. Le pauvre petit Bouh remue dans tous les sens lorsqu'il voit le sang de Minsc couler.~
+@230 = ~Vite, un guérisseur ! Repose-Toi, Minsc. Tes blessures sont sérieuses.~
+@231 = ~Minsc n'a pas peur d'être blessé si c'est pour défendre sa sorcière. Je ne laisserai jamais plus le Mal toucher encore à un de tes cheveux, Dynahéir. Je préfère mourir sur le champ de bataille que de vivre avec une honte telle que je ne pourrai plus regarder mon hamster dans les yeux.~
+@232 = ~La dévotion dont Tu fais montre est toute à Ton honneur, mais un homme mort ne peut plus rien protéger. Et je ne souhaite nullement regretter celle de mon loyal compagnon. Fais un peu plus attention à Toi, Minsc, et ne laisse pas Ta rage de bataille Te rendre sans défense !~
+
+@233 = ~Minsc, c'est avec un bonheur sans cesse renouvelé que je voyage avec Toi. Il m'est très difficile d'être aussi loin de notre terre, et de nos amis.~
+@234 = ~Tu as deux amis avec toi ! Minsc et Bouh, les deux héros qui ne vivent que pour te défendre. On en fera une légende ! Oh, on racontera de telles histoires à la Loge des Berserkers lorsque nous rentrerons ! Pas vrai, Bouh ?~
+@235 = ~Minsc, il se pourrait que je ne rentre pas en Rashéménie avant longtemps. Si Tu souhaites rentrer plus tôt que prévu, Tu n'as qu'un mot à dire. Tu as rempli Ton dajemma avec brio depuis longtemps.~
+@236 = ~[MINSC 28] Là où Dynahéir s'engage, la lame de Minsc s'engage. A partir du moment où il y a des derrières maléfiques à botter et un peu de fromage pour Bouh, Minsc est heureux !~
+@237 = ~Mon loyal ami, Tes mots me vont droit au coeur. Mais j'ai l'impression d'avoir trouvé ce que je suis venue chercher. Si j'en crois le savoir ancien, des évènements extrêmement dangereux sont sur le point de se produire.~
+@238 = ~Minsc et Bouh n'ont pas peur du danger ! Tu as commencé ton voyage avec Minsc et Bouh, et c'est avec Minsc et Bouh que tu le finiras ! Jamais je ne te laisserai sans protection si loin de chez nous.~
+
+//Banter avec Montaron
+@239 = ~Petit-homme, Tu m'as surprise, hier au soir, lorsque Tu as pris mon tour de cuisine.~
+@240 = ~Bah, c'tait toujours mieux qu'entendre Xzar piailler sur sa boustifaille.~
+@241 = ~Mais c'était quand même un acte généreux de Ta part.~
+@242 = ~Heh, pas tant que ça. J'l'ai fait parce que j'avais faim.~
+@243 = ~Oui, mais je ne pensais pas que Tu m'aurais délivrée de cette corvée. En fait, je me serais plutôt attendue à ce que Tu me menaces pour que j'aille plus vite.~
+@244 = ~M'est d'avis que si on essayait les menaces pour les repas, on crèverait tous la faim. Quand y'a quelque chose à faire, j'le fais moi-même, ça va plus vite.~
+@245 = ~Je suis curieuse. Est-ce que toutes les personnes de Ta profession ont l'esprit aussi pratique ?~
+@246 = ~J'sais pas. En fait, j'en rencontre pas. Dans l'coin, y'a pas vraiment l'choix. En ville ? J'braillerais pour un nouveau cuisinier plus fort qu'eux.~
+@247 = ~Ta volonté de faire au mieux me donne à penser que le Zhentarim n'est pas une organisation aussi brutale et agressive que ce que les contes des bardes nous dépeignent.~
+
+//Banter avec Quayle
+@248 = ~Je n'ai pu m'empêcher de remarquer que Tu ne Te préoccupes que de Ton cerveau, Quayle, et non de Ton apparence. En fait, je dirais que cela ajoute de la profondeur à Ton personnage, si j'ose dire. Assurément, Tu es homme pour qui l'intelligence compte plus que les apparences.~
+@249 = ~Si je n'en parlais pas, pourrais-tu seulement appréhender l'exceptionnel cerveau que je possède ?~
+@250 = ~J'en doute...~
+@251 = ~Aha ! Et tout le monde peut constater clairement que je suis extrêmement attirant. Je ne serais pas *modeste* si je parlais de la longueur de mon nez devant toi, qui ne possède rien d'extraordinaire aussi bien à l'intérieur qu'à l'extérieur.~
+@252 = ~Oui, il est vrai que les gnomes considèrent qu'un grand nez est attirant.~
+@253 = ~Complètement, madame. N'est-ce pas un régal de se délecter de la vision de ce nez ? Ses courbes ! Sa majesté !~
+@254 = ~En effet, Tu a été béni de ce point de vue-là, je ne peux qu'y souscrire. Et cette verrue le rend encore plus imposant.~
+@255 = ~Quoi ? Il n'y a aucune verrue sur mon nez !~
+@256 = ~Il est vrai. Je le vois, maintenant, ce n'est guère une verrue, mais Ta tête.~
+@257 = ~Alors ça, Dynahéir, ce n'était même *pas* drôle !~
+
+//Banter avec Safana
+@258 = ~En Te regardant, je ne peux m'empêcher de me remémorer une ancienne plaisanterie Rashémi.~
+@259 = ~Dynahéir, chérie, en te regardant, la dernière chose dont je peux me douter, c'est qu'une plaisanterie puisse te venir à l'esprit. Mais je t'en prie, raconte-la nous, et rions un bon coup. Mon visage est toujours plus beau avec un sourire.~
+@260 = ~Devine combien il faut de femmes Thayennes pour remplir un verre d'eau.~
+@261 = ~Alors ?~
+@262 = ~Aucune. Une Thayenne le fera faire à un homme.~
+@263 = ~Ce n'est pas une blague, mais un bon conseil. L'inaction est l'arme la plus redoutable d'une femme.~
+@264 = ~Dans ce cas, pourquoi portes-Tu Ton arc, Safana ? Pourquoi ne fais-Tu pas confiance à Tes camarades de la gent masculine pour Te protéger ?~
+@265 = ~Oh, Dynahéir, mais qui peut donc réussir à défendre ma propre vie mieux que moi-même ? Après tout, ce n'est pas aussi simple que de remplir un verre d'eau.~
+
+//Banter avec Shar-Teel
+@266 = ~J'ai constaté que Tu passais beaucoup de temps à T'entraîner pour exceller dans les arts du combat.~
+@267 = ~Et toi, t'es une tête d'ampoule. Laisse-moi tranquille.~
+@268 = ~Pourtant, je parcours les routes, et je ne suis pas désarmée, alors que Toi, Tu as essayé d'essuyer Ton arme avec un parchemin rare.~
+@269 = ~Ce parchemin ? Il était dans les restes de quelqu'un que j'ai vaincu à moi seule ! Alors j'en fais ce que je veux !~
+@270 = ~Tu nous as prouvé à tous que Tu étais une guerrière de talent, Shar-Teel, mais il Te faudra apprendre à respecter Tes compagnons de route, et les utiliser à ton avantage.~
+@271 = ~Compagnons ? Si ce pouilleux ne m'avait pas défaite en combat, je serais toujours en train de mener ma propre barque. Et c'est comme ça que j'aime travailler. Je suis une guerrière solitaire !~
+@272 = ~Tu es bien inconsciente si Tu refuses de comprendre que voyager au sein d'une compagnie est une nécessité en cette dangereuse époque. La force réside dans le nombre.~
+@273 = ~La force réside dans le bras qui manie l'épée, sorcière.~
+
+//Banters avec Skie (2)
+@274 = ~Il semblerait que l'on T'ait appris l'histoire, n'est-il pas ? Nous avons ceci en commun. J'ai étudié tout ce qu'il s'est passé en détails depuis l'ère de Raumathar et de Narfell jusqu'à aujourd'hui.~
+@275 = ~Ah, oui ! Les fameux Anciens Empires ! Mon tuteur était fasciné par les guerres sans fin qu'ils menaient les uns contre les autres. Il m'a fait rédiger des douzaines de rédactions là-dessus. A la fin, je lui ai dit que personne n'a gagné.~
+@276 = ~Et Tu avais raison, Skie.~
+@277 = ~Euh, mon tuteur n'était pas d'accord. Je ne compte plus les heures qu'il a passées à me seriner que le Narfell est toujours une nation autonome, et pourquoi cela doit être considéré comme une victoire.~
+@278 = ~Mais je trouve que le Narfell a tout perdu de sa gloire passée, et son peuple n'est plus ce qu'il était. Selon moi, il est évident que le Narfell a été détruit, tout comme le Raumathar ! Quel genre de victoire est-ce donc ?~
+@279 = ~Tes mots sonnent juste. En effet, en de telles circonstances, la victoire ne peut être attribuée à aucun des deux camps. L'opinion de Ton tuteur est superficielle.~
+@280 = ~Je le savais ! C'était si injuste !~
+@281 = ~Par ailleurs, Tu n'es pas sans savoir que les descendants des Raumatharais, les Raumviras, vivent toujours dans le Lac des Brumes ? Nous autres, les Rashémi, nous considérons aussi comme leurs descendants.~
+
+@282 = ~T'intéresses-Tu à la politique de nos jours, Skie ?~
+@283 = ~Ahem, dernièrement, je n'ai pas vraiment suivi l'actualité... Avec mon père qui m'enfermait, et tout...~
+@284 = ~Je souhaitais débattre avec Toi de la guerre prochaine entre la Porte de Baldur et l'Amn.~
+@285 = ~Prochaine ? Mon père me dit toujours que ce n'est que l'oeuvre de quelques dingues qui lancent des rumeurs disproportionnées. Il n'y aura pas de guerre.~
+@286 = ~Tu sembles très sûre de Toi.~
+@287 = ~Et bien, c'est ce que mon père me dit.~
+@288 = ~Et Tu fais confiance au jugement politique de Ton père ? Mais pourquoi ne fais-Tu pas non plus confiance à ce qu'il veut pour Toi, à savoir, Te protéger d'un amant indélicat ?~
+@289 = ~Dynahéir ! N'allez pas attaquer mon pauvre Eldoth ! Il m'aime ! C'est tout ce qui compte ! Et non sa naissance, ni ses manières !~
+@290 = ~Je ne puis exprimer ô combien je suis déçue de Ta réaction, mais fais comme il Te plaira ; je ne dirai plus rien qui pourrait Te heurter.~
+
+//Banter avec Tiax
+@291 = ~Ecarte-Toi de ma route ! Ton allégeance à Cyric Te rend indigne de confiance à mes yeux, et ce même si Tu n'étais pas aussi clairement dérangé.~
+@292 = ~Cyric est le seul vrai dieu, sorcière ! Quiconque refuse de reconnaître sa gloire est sans doute quelqu'un à qui il manque quelques cases ! Tiax saura châtier les ennemis de Cyric lorsque le jour du jugement viendra, alors tu ferais mieux de reconsidérer tes allégeances divines, avant que Tiax ne règne sur tout !~
+@293 = ~Cyric est un dieu de cruauté et de mal. Ton allégeance à un tel monstre fait de Toi un monstre tel que lui ; je ne débattrai pas avec Toi !~
+@294 = ~Maintenant, comme je le disais, écarte-Toi de ma route, et ne m'ennuie plus avec Tes vices !~
+@295 = ~Tu paves la route de ta propre damnation, pauvre folle ! Tiax règnera sur tout, et lorsqu'il règnera, tu supplieras et pleureras pour que Cyric devienne ton maître, des chants à sa gloire surgiront de tes lèvres, ta robe sera teintée du sang de tous les sacrifices que tu offriras en son nom maudit... Mais il sera trop tard, bien trop tard, car tes discours t'auront déjà condamnée ! Repens-toi maintenant, ou souffre plus tard ! Tel est le commandement de Cyric !~
+
+//Banter avec Viconia
+@296 = ~En apparence, Tu es l'opposée de Shar, Viconia. Tes cheveux sont blancs, ce qui est loin de correspondre au noir corbeau des siens, et Ta peau est noire, et non pâle. Si Tu avais porté ces couleurs de manière inversée, Tu aurais été révérée parmi les suivants de Shar.~
+@297 = ~Shar m'a acceptée sans faire cas de ma couleur de peau. Et elle ne me tuera pas pour ça ; on ne peut pas en dire autant de tous les êtres de la surface.~
+@298 = ~Mais ne penses-Tu pas que la raison de cet état de fait pourrait être autre que Ta couleur ? Il m'a été dit que Tu étais coupable de plusieurs meurtres.~
+@299 = ~Je l'ai déjà dit, ce ne sont que des mensonges ! Oses-tu contester la véracité de mes propos ? Je ne suis pas du genre à prendre ça à la légère !~
+@300 = ~Notre groupe, qui pourtant est connu pour sa puissance, a été attaqué par un mercenaire qui n'en voulait qu'à Toi. Un employé irait-il jusqu'à donner sa vie pour un mensonge ?~
+@301 = ~Bien sûr que oui ! Les mâles ne sont bons qu'à être des serviteurs car ils ne savent faire que ce qu'on leur dit de faire. Leur vie est de moindre importance.~
+@302 = ~Je Te prédis bien des ennuis si Tu continues à penser ainsi.~
+
+//Banters avec Xan (2)
+@303 = ~Xan, bien que je révère Ton talent dans les arcanes, je déplore Tes lamentations. Elles nuisent au moral du groupe entier.~
+@304 = ~Mes 'lamentations' ? Non, je suis simplement réaliste. Préfèreriez-vous que, tel votre gardien Minsc, je caracole avec une hilarité suicidaire tandis que la toile de nos ennemis se resserre autour de nous ?~
+@305 = ~Minsc est... Minsc. Ne l'insulte point. Il est mon loyal compagnon, et il dispose d'une sagesse qui lui est propre.~
+@306 = ~Mes 'lamentations' ? Non, je suis simplement réaliste. Préfèreriez-vous que, tel feu votre gardien Minsc, je caracole avec une hilarité suicidaire tandis que la toile de nos ennemis se resserre autour de nous .~
+@307 = ~Minsc était... Minsc. Ne bafoue point sa mémoire. Il était mon loyal compagnon, et disposait d'une sagesse qui lui était propre. Sa mort sera vengée, je le jure devant les Trois.~
+@308 = ~Mais Tu n'as pas répondu à ma question, Xan. Pourquoi Ton coeur est-il envahi de telles ténèbres même en des journées si magnifiques ?~
+@309 = ~Vous pouvez constater que notre chef semble s'être fait pour mission de répandre le malheur dans les vies de tout un chacun avant notre mort inévitable.~
+@310 = ~Alors attachons-nous à changer <CHARNAME>. Cela sera sans doute plus utile que de se lamenter toute la sainte journée.~
+@311 = ~Vous êtes sans doute admirative devant 'l'héroïsme' désintéressé de notre chef, sorcière, mais ce n'est pas mon cas. A tenter le diable à chaque coin de rue, <CHARNAME> finira par accélérer notre fin.~
+@312 = ~Il est vrai que je tiens <CHARNAME> en haute estime, car certaines des causes pour lesquelles nous nous battons en valent la peine. Et Tu ne peux nier que nous nous en sommes bien sortis jusque là. A force de prudence, certes, mais aussi grâce à ses compétences et son discernement. Sois-en fier, et fais honneur à nos actes au lieu de les mépriser comme tu l'as fait à l'instant.~
+@313 = ~Notre chef est une personne très prometteuse, mais toutes nos actions se révèleront futiles en fin de compte. Nos ennemis sont non seulement très nombreux, mais ils sont puissants, aussi. Il est certain qu'il arrivera un temps où nous ne pourrons plus éviter les assassins qu'ils nous envoient.~
+@314 = ~Chaque ennemi a son point faible, y compris le plus puissant. Nous devrions concentrer nos talents à révéler cette faiblesse. La prudence est certes vitale, mais la peur et l'inaction sont les armes de nos adversaires.~
+
+@315 = ~Nous avons été témoins de choses d'une rare magnificence, au cours de nos aventures.~
+@316 = ~Alors mes expériences aventureuses ont été bien différentes des vôtres, Dynahéir. J'ai trouvé que l'intérieur des mines de Nashkel manquait cruellement du confort le plus élémentaire, alors ne parlons pas de magnificence.~
+@317 = ~Je parlais de Ta Lame de Lune, elfe.~
+@318 = ~Ah, j'aurais dû m'en douter. Pas étonnant qu'elle attire autant l'attention après que nos prédécesseurs, avec toute leur légèreté insensée, aient échoué à en préserver plus de deux ou trois centaines ! Ils croient que ces épées protègeront le peuple des Elfes, et même encore maintenant, alors qu'il est évident que nous les perdrons toutes inévitablement, ils continuent d'ignorer leur funeste destin.~
+@319 = ~Xan, parler avec Toi me fait immédiatement penser à un grand désert où il serait inscrit le mot 'désespoir' sur chaque grain de sable. Et cela me rend assoiffée des eaux vives de l'espoir.~
+
+//Banter avec Xzar
+@320 = ~Fais attention à Toi, Zhent. Je n'apprécie guère la manière dont Tu observes <CHARNAME>.~
+@321 = ~Et pourtant, <CHARNAME> est une personne intéressante, non ?~
+@322 = ~Ah ! C'est un enfant de Bhaal ! Tu le sais parfaitement !~
+@323 = ~Mais... euh... Mais mis à part ça, vous savez... C'est à dire que... Moman ?~
+@324 = ~Il n'y a pas de 'mis à part ça'. Tu étais en train de rêver des maléfiques pouvoirs que Tu pouvais en retirer.~
+@325 = ~Ecoutez ! J'aime beaucoup <CHARNAME>. Nous avons traversé tellement de choses ensemble, et... Il n'y a pas de mal à rêver un peu, ça c'est sûr. Pas d'une pénurie d'enfants de Bhaal, je veux dire. La pluie est humide, en cette saison, vous ne trouvez pas ?~
+@326 = ~Il est bon que Tu ne sois pas météorologue pour parler de manière aussi désorganisée. Je Te le dis, Zhent, Tu irais à l'encontre des prophéties et laisserais Bhaal revenir une fois encore tourmenter les Royaumes.~
+@327 = ~Je ne suis pas particulièrement porté sur la religion, mais Bhaal... pourrait faire pire. C'est ce que Monty me disait tout le temps. Monty ? Et bien, je suis sûr que vous n'avez aucune *idée* de ce que l'on pourrait faire avec le crâne. Un parricide, par exemple.~
+@328 = ~En effet, je n'en ai aucune idée. Et Toi non plus, j'en suis sûre. Alors contente-Toi de Tes rêves, et pense aux désagréments que cela Te causerait si le Zhentarim venait à apprendre que Tu avais trahi sa confiance uniquement pour servir Ta propre ambition.~
+@329 = ~Yissss ! 'A chaque sujet sa propre saison', hein ? A *chaque* sujet. Sorcière !~
+
+//Banter avec Yeslick
+@330 = ~Viens-Tu de Sembie, Yeslick ?~
+@331 = ~Non, madame Dynahéir. Mais j'y ai vécu un moment. En fait, j'y étais forgeron.~
+@332 = ~Minsc et moi-même traversâmes la Sembie, tantôt, mais nous voyageâmes hâtivement ; nous n'avons pas beaucoup vu du pays.~
+@333 = ~Et pourquoi étiez-vous si pressés ?~
+@334 = ~Cela importe peu, Yeslick. Mais je souhaite toujours en apprendre plus. Peut-être me parleras-Tu de la Sembie ?~
+@335 = ~Comme je vous le disais, madame, j'y étais forgeron. Je me mêle pas de politique et de tout le reste, de ce qui vous importe à vous autres, les fouineurs.~
+@336 = ~Mais Tu as assurément remarqué les us et coutumes de ce pays ?~
+@337 = ~La coutume était la suivante : je forgeais, ils me payaient.~
+@338 = ~As-tu seulement levé le nez de Ta forge, nain ?~
+@339 = ~Dynahéir, pour moi, toutes les terres sont les mêmes, sauf la maison de mes ancêtres. Et elle est sous les eaux.~

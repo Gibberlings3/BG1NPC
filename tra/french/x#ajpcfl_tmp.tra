@@ -1,0 +1,410 @@
+// Remarques :
+// La réplique du genre "you sound strange" ou "your voice is strange" ou toute autre réplique relative à la voix est un moyen de forcer le rétablissement du nom, de la biographie et des doublages sonores des personnages en cas de souci de ce côté-là (cas classique : réinstallation complète du jeu et des mods sans utiliser le même ordre d'installation et essai de reprise des sauvegardes antérieures).
+// Comme il est parfois indiqué dans le fichier x#pcinit.d (par exemple pour Alora dans la partie AloraVoice), pour que ça fonctionne, il faut impérativement que les textes soient exactement identiques à ceux du jeu de base. IL NE FAUT SURTOUT PAS CORRIGER LES FAUTES, ou quoi que ce soit d'autre dans les textes. Ils sont généralement repérables sous la forme
+// @nn = ~[NOMDUPERSO mm] ...~ [%tutu_var%NOMDUPERSOxx]
+// A priori, du fait de leur identité stricte avec les textes d'origine, Translation Retriever a dû être en mesure de récupérer ces lignes directement.
+
+//
+// Il y a des doublons avec le fichier x#pcinit_tmp.tra, qui inclut aussi des dialogues initiés par le joueur pour Ajantis, mais qui ne correspondent pas au flirt.
+// Je suggère de commencer par x#ajpcfl_tmp.tra, qui est plus complet, puis de recopier dans x#pcinit_tmp.tra ce qui peut être récupéré, en utilisant les repérages dans ce dernier pour identifier les correspondances
+//
+
+// Commentaires de Galathée
+// 39 de ses lignes sont récupérées par Translation Retriever (cela dit, il y a une faute d'orthographe à la réplique @41)
+// Les phrases sont au féminin, c'est normal !
+
+//
+// Ajantis
+//
+@0 = ~Oui, ma dame ?~ [X#BLANK]
+@1 = ~Je t'apprécie beaucoup, Ajantis... Pas seulement en tant que membre très efficace de ce groupe.~
+@2 = ~Ajantis... Si tu pouvais choisir, qui serait ta Reine d'Amour et de Beauté ?~
+@3 = ~Comment vas-tu, Ajantis ?~
+@4 = ~*Regarder Ajantis de plus près.*~
+@5 = ~*Vous souriez à Ajantis.*~
+@6 = ~Il est bon d'avoir un autre paladin dans les parages, Ajantis. Ensemble, nous frapperons le mal, où que nous le trouvions !~
+@7 = ~Il est bon d'avoir un paladin dans les parages, Ajantis.~
+@8 = ~Ajantis, je me sens plus en sécurité avec toi que jamais auparavant. J'admire tes compétences, tout comme ton jugement.~
+@9 = ~Des suggestions, Ajantis ?~
+@10 = ~Ajantis, attends un instant. Je pense qu'il y a quelque chose dans tes cheveux...~
+@11 = ~Ajantis, est-ce là une tache sur ton armure ?~
+@12 = ~Je ne sais pas... Toute cette marche avec un équipement si lourd, depuis que j'ai quitté Château-Suif... C'est nouveau et inhabituel pour moi... Ma carcasse est toute endolorie.~
+@13 = ~*Vous prenez le bras d'Ajantis, feignant d'être effrayée.* Pour quelqu'un qui a été élevé dans le calme d'une bibliothèque, cet environnement est plutôt... inquiétant.~
+@14 = ~*Vous faites semblant d'arranger vos cheveux, sans réellement modifier quoi que ce soit* Ajantis, j'ai besoin d'un avis. Est-ce que cette coiffure me va mieux que celle d'avant ?~
+@15 = ~*Vous attendez une occasion appropriée et laissez tomber un petit objet sur le sol, là où Ajantis peut le voir, tout en feignant de n'avoir rien remarqué.*~
+@16 = ~Ajantis, je préférerais que tu gardes tes pensées pour toi-même. Je suis bien consciente que cela signifie que nous ne deviendrons pas plus proches.~
+@17 = ~Rien, Ajantis, désolée d'avoir interrompu ta concentration.~
+@18 = ~Oui, mon amour ?~ [X#BLANK]
+@19 = ~Ajantis, je suis tellement heureuse que tu aies décidé de rester avec moi en dépit de mon héritage de Bhaal.~
+@20 = ~Ajantis, ce collier est superbe. Merci beaucoup pour ce présent de valeur.~
+@21 = ~Ajantis, ce collier est utile, mais malheureusement pas vraiment à mon goût.~
+@22 = ~Ajantis, cette bague de fiançailles est magnifique et je suis fière de la porter.~
+@23 = ~Ajantis, merci pour la bague de fiançailles, même si, je dois l'avouer, elle n'est pas vraiment à mon goût...~
+@24 = ~Je voudrais t'embrasser, Ajantis...~
+@25 = ~Je voudrais te serrer dans mes bras, Ajantis...~
+@26 = ~*Prendre sa main dans la vôtre*~
+@27 = ~Je t'aime, Ajantis.~
+@28 = ~Ma carcasse est douloureuse à cause de toute cette marche, avec cet équipement lourd...~
+@29 = ~Oh, je parle toute seule... <CHARNAME>, Dame Ilvastarr. <CHARNAME>, Dame Ilvastarr... Plutôt impressionnant, tu ne crois pas ?~
+@30 = ~Ajantis, je veux mettre fin à notre relation. C'est définitif.~
+@31 = ~Oui, <CHARNAME> ?~ [X#BLANKD]
+@32 = ~Toujours troublé par mon héritage d'enfant de Bhaal, Ajantis ?~
+@33 = ~Ajantis, ta voix est... étrange.~
+@34 = ~*tousse*~
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 6131
+@35 = ~Ajantis~
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3502
+@36 = ~[AJANTIS 1] Halte-là, dans quel camp êtes-vous ?
+~ [%tutu_var%AJANT01]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3503
+@37 = ~[AJANTIS 2] Quelle lâcheté ! Allez rejoindre ceux qui ont besoin de vous.
+~ [%tutu_var%AJANT02]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3505
+@38 = ~[AJANTIS 4] Nous suivons la voie de la vertu, celle de Heaum.
+~ [%tutu_var%AJANT04]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3506
+@39 = ~[AJANTIS 5] Le chemin que nous suivons nous détourne de la moralité.
+~ [%tutu_var%AJANT05]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3507
+@40 = ~[AJANTIS 6] Je refuse d'assister à la dépravation de notre groupe.
+~ [%tutu_var%AJANT06]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3508
+@41 = ~[AJANTIS 7] C'en est fait de tant de vilennie ! Dégainez votre épée et mettons un terme à ce différend une fois pour toutes !
+~ [%tutu_var%AJANT07]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3509
+@42 = ~[AJANTIS 8] La responsabilité que vous me confiez m'honore.
+~ [%tutu_var%AJANT08]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3510
+@43 = ~[AJANTIS 9] Je commence à perdre patience !
+~ [%tutu_var%AJANT09]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 3511, likeliness 99.9
+@44 = ~[AJANTIS 10] Nous avons le devoir de combattre le mal. Ne perdons pas de temps en futilités ! ~ [%tutu_var%AJANT10]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3504
+@45 = ~[AJANTIS 3] Pour la gloire de Heaum !
+~ [%tutu_var%AJANT03]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 5262, likeliness 99.2
+@46 = ~[AJANTIS 38] ~ [%tutu_var%AJANT38]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 5263, likeliness 99.2
+@47 = ~[AJANTIS 39] ~ [%tutu_var%AJANT39]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3512
+@48 = ~[AJANTIS 11] J'ai besoin d'aide.~ [%tutu_var%AJANT11]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3513
+@49 = ~[AJANTIS 12] Cette forêt ne laisse rien présager de très bon.~ [%tutu_var%AJANT12]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3514
+@50 = ~[AJANTIS 13] Cette ville ne laisse rien présager de très bon.~ [%tutu_var%AJANT13]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3515
+@51 = ~[AJANTIS 14] Ce donjon ne laisse rien présager de très bon.~ [%tutu_var%AJANT14]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 5258
+@52 = ~[AJANTIS 15]~ [%tutu_var%AJANT15]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 5260, likeliness 99.2
+@53 = ~[AJANTIS 16] ~ [%tutu_var%AJANT16]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3516
+@54 = ~[AJANTIS 17] Je vis pour l'honneur.~ [%tutu_var%AJANT17]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3517
+@55 = ~[AJANTIS 18] Heaume, donnez-moi la force de poursuivre.~ [%tutu_var%AJANT18]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3518
+@56 = ~[AJANTIS 19] Par Heaume !~ [%tutu_var%AJANT19]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3519
+@57 = ~[AJANTIS 20] Comme vous voudrez.~ [%tutu_var%AJANT20]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3521
+@58 = ~[AJANTIS 21] Avec la bénédiction de Heaume.~ [%tutu_var%AJANT21]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3522
+@59 = ~[AJANTIS 22] Oui.~ [%tutu_var%AJANT22]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 3528, likeliness 99.7
+@60 = ~[AJANTIS 27] Vos actions sont une offense aux préceptes de Heaume. ~ [%tutu_var%AJANT27]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3529
+@61 = ~[AJANTIS 28] On appartient soit aux forces du bien soit à celles du mal, et je vous soupçonne d'appartenir à celles du mal.
+~ [%tutu_var%AJANT28]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3530
+@62 = ~[AJANTIS 29] Le mal doit être éliminé où qu'il soit, même parmi nos amis.~ [%tutu_var%AJANT29]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3531
+@63 = ~[AJANTIS 30] La cruauté qui vous anime est abominable.~ [%tutu_var%AJANT30]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3532
+@64 = ~[AJANTIS 31] Je n'en supporterai pas davantage. Sortez votre arme et défendez-vous !~ [%tutu_var%AJANT31]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3538
+@65 = ~[AJANTIS 37] Il serait sage de changer vos manières tant que vous serez parmi nous.~ [%tutu_var%AJANT37]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 3537, likeliness 99.8
+@66 = ~[AJANTIS 36] Vous êtes un homme d'honneur, et je respecte votre intégrité.
+~ [%tutu_var%AJANT36]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3536
+@67 = ~[AJANTIS 35] Vous êtes d'une grande beauté, ma demoiselle.~ [%tutu_var%AJANT35]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 3539, likeliness 99.9
+@68 = ~[AJANTIS 40] Réjouissons-nous que notre compagnon soit tombé pour une cause juste. ~ [%tutu_var%AJANT40]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3540
+@69 = ~[AJANTIS 41] Il est bien malheureux que notre compagnon soit mort avant d'avoir eu le temps de se racheter.~ [%tutu_var%AJANT41]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3535
+@70 = ~[AJANTIS 34] Merci du compliment~ [%tutu_var%AJANT34]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 3533, likeliness 99.9
+@71 = ~[AJANTIS 32] Peut-être ne suis-je encore qu'un écuyer, mais jamais vous n'égalerez mon intégrité. ~ [%tutu_var%AJANT32]
+// Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3534
+@72 = ~[AJANTIS 33] Attention à ce que vous dites devant la gent féminine !~ [%tutu_var%AJANT33]
+// Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 10197, likeliness 91.0
+@73 = ~Interrogé sur son passé, AJANTIS se proclame paladin-écuyer du Très Noble Ordre du Coeur Radieux, voué à Heaum. Il est de la famille Ilvastarr, des nobles d'Eauprofonde, et il a étudié l'escrime auprès de spécialistes tels que Myrmith Splendon. Son talent et sa dévotion ont attiré l'attention du paladin Keldorn, un des membres les plus en vue de l'ordre en question, qui a décidé de le prendre sous son aile en tant qu'écuyer. Il y a peu, Ajantis a demandé à être admis à part entière dans l'ordre. A cette fin, il a rejoint la Côte des Epées pour aider à mettre un terme à la recrudescence d'activités humanoïdes dans la région. Si sa quête se voit couronnée de succès, l'ordre lui fera l'honneur considérable de l'admettre en son sein. Il paraît tout dévoué à sa mission.~ [X#BLANK]
+@74 = ~J'apprécierais que l'on me soigne, ma dame.~
+@75 = ~J'ai vraiment besoin que l'on me soigne, <CHARNAME>. Dans mon état, je ne serai pas capable de m'opposer au mal dans toute ma puissance.~
+@76 = ~On m'a empoisonné ! Le mal essaie de me nuire en dispersant son venin dans mon sang... Il n'y parviendra jamais !~
+@77 = ~Je suis... blessé et *tousse* empoisonné ! J'ai besoin de soins, <CHARNAME>, vite !~
+@78 = ~Les forces du mal affaiblissent mes capacités ! Je devrai être plus prudent la prochaine fois.~
+@79 = ~Je suis épuisé... Nous devrions prendre un peu de repos pour rassembler nos forces, ma dame.~
+@80 = ~Je suis fatigué. Nous devrions prendre le temps de nous reposer, ou le mal nous trouvera mal préparés, ma dame.~
+@81 = ~Je suis fatigué, ma dame. La journée a été longue et nous sommes épuisés. Reposons-nous et préparons-nous pour demain.~
+@82 = ~Je suis fatigué et la nuit est sombre. Nous devrions prendre le temps de nous reposer ou le mal nous trouvera affaiblis, ma dame.~
+@83 = ~Merci pour cette question, ma dame. Je suis impatient de combattre le mal à venir !~
+@84 = ~Comme toujours, prêt à combattre le mal que nous pourrions rencontrer par hasard, ma dame.~
+@85 = ~Merci pour cette question, ma dame. J'attends avec impatience notre prochain combat contre le mal !~
+@86 = ~Je suis vigilant et impatient de découvrir le scélérat qui se cache derrière tout ceci.~
+@87 = ~Oui, et je serai particulièrement attentif au mal qui circule parmi nous, <CHARNAME>.~
+@88 = ~Je ferai cela, mais vous ne semblez pas vraiment en voir la nécessité, vu qui voyage avec nous.~
+@89 = ~Peut-être devrions-nous commencer ici, <CHARNAME>. Combien de temps aviez-vous l'intention de laisser le mal qui habite ce groupe suppurer en notre présence ?~
+@90 = ~Et nous le ferons. Il n'est plus temps de paresser quand le devoir nous appelle !~
+@91 = ~Je marcherai avec plaisir sur la voie du bien et de la vertu en votre compagnie, <CHARNAME> !~
+@92 = ~Le mal craindra la simple mention de nos noms. Nettoyons le pays de sa présence importune !~
+@93 = ~Je ferai tout ce qui est en mon pouvoir pour remplir mes devoirs, <CHARNAME>.~
+@94 = ~Le devoir m'appelle, et je ne lui faillirai pas.~
+@95 = ~Je marche sur la voie du bien et de la droiture, car c'est la seule véritable voie.~
+@96 = ~Je serai particulièrement attentif au mal qui nous accompagne, <CHARNAME>.~
+@97 = ~J'espère que vous ne regretterez pas ces mots un jour, <CHARNAME>, vu l'engeance qui voyage avec nous.~
+@98 = ~Je serai fidèle à mes devoirs, qu'ils concernent un ami ou un ennemi. Combien de temps aviez-vous l'intention de laisser le mal qui habite ce groupe suppurer en notre présence ?~
+@99 = ~*L'attention d'Ajantis est fixée sur son environnement, vous pouvez donc l'examiner pendant un moment.*~
+@100 = ~*Vous observez plus attentivement son visage.*~
+@101 = ~*Vous observez plus attentivement les bras et les épaules d'Ajantis.*~
+@102 = ~*Vous observez les mains d'Ajantis de plus près.*~
+@103 = ~*Vous étudiez l'apparence d'Ajantis en entier.*~
+@104 = ~*Vous ne regardez pas davantage Ajantis.*~
+@105 = ~*Le visage d'Ajantis arbore une expression sévère de concentration et de vigilance, presque comme s'il fronçait les sourcils. Sa peau est hâlée, un effet de tout le temps qu'il a passé à l'extérieur, et il est parfaitement rasé.*~
+@106 = ~*La ligne de l'armure et des vêtements d'Ajantis suggère des bras et des épaules musclés. Sa silhouette n'est pas du genre baraquée, mais elle est suffisamment large pour trahir la force qu'il a acquise au cours de nombreuses années d'entraînement intensif.*~
+@107 = ~*Les mains d'Ajantis sont grandes, mais pas maladroites. Leur peau est hâlée, ses ongles sont taillés court et propres. Comme toujours, une de ses mains est posée sur la poignée de son arme, prête à la tirer avec fermeté si nécessaire.*~
+@108 = ~*Ajantis se tient droit, son expression irradiant la vigilance et la loyauté, et aussi un peu de nervosité. Son armure et ses vêtements sont en bon état, révélant ses efforts pour les entretenir. Sur son manteau figure le blason de la famille Ilvastarr : un dragon vert métallique aux yeux oranges, sur fond doré.*~
+@109 = ~*Ajantis réalise que vous l'observez et vous jette un rapide regard.* Puis-je vous aider d'une manière ou d'une autre, ma dame ?~
+@110 = ~*Ajantis réalise que vous l'observez et se tourne vers vous.* Quelque chose ne va pas, ma dame ?~
+@111 = ~*Ajantis ne semble pas remarquer que vous l'observez et vous laisse un moment tranquille pour l'examiner.*~
+@112 = ~*Ajantis est près de vous, désormais.*~
+@113 = ~*Vous feignez d'ôter quelque chose de ses cheveux, au-dessus de son front.*~
+@114 = ~*Vous faites semblant d'ôter quelque chose de ses cheveux, à hauteur de sa nuque.*~
+@115 = ~*Vous faites semblant d'ôter quelque chose de ses cheveux au-dessus de son oreille, frôlant sa joue au passage.*~
+@116 = ~Ah, je n'étais pas à mon avantage. Ça ira.~
+@117 = ~Oh, merci, ma dame...~
+@118 = ~*Ajantis reste immobile jusqu'à ce que vous retiriez votre main. Vous avez l'impression qu'il retenait sa respiration, aussi.*~
+@119 = ~*Ajantis attend jusqu'à ce que vous retiriez votre main. La situation semble le mettre un peu mal à l'aise, cependant.*~
+@120 = ~*Ajantis tressaille légèrement lorsque vous le touchez, mais reste immobile jusqu'à ce que vous ayez fini.*~
+@121 = ~*Ajantis fronce les sourcils quand vous le touchez, mais il reste immobile jusqu'à ce que vous ayez fini.*~
+@122 = ~*Ajantis tourne un peu la tête pour que vous puissiez l'atteindre plus facilement, vous regardant.*~
+@123 = ~*Ajantis baisse la tête pour que vous puissiez l'atteindre plus facilement, regardant ailleurs.*~
+@124 = ~*Vous sentez le souffle chaud d'Ajantis sur votre main. Il vous regarde dans les yeux alors que vous le touchez.*~
+@125 = ~Où disiez-vous, ma dame ?~
+@126 = ~*Vous commencez à frotter la soi-disant tache sur son armure, sur le plastron, vous penchant en avant pour ce faire...*~
+@127 = ~*Vous prétendez qu'il y a une peluche à l'arrière de son épaule qui doit être enlevée.*~
+@128 = ~*Vous feignez de frotter son armure, commençant à la hanche, juste au-dessus de la cuisse...*~
+@129 = ~*Vous auriez juré qu'Ajantis jetait un oeil dans votre chemise, mais quand vous le regardez brusquement, ses yeux sont fixés sur vos mains.* Merci ma dame... Mais il est important que nous ne nous laissions pas distraire de nos tâches. Reprenons notre route.~
+@130 = ~*Cette fois, vous l'avez surpris. Dès qu'il réalise que vous avez capté la véritable direction de son regard, Ajantis se détourne rapidement, rougissant jusqu'aux oreilles.*~
+@131 = ~Merci, ma dame... Je regarderai cette tache plus en détails quand je nettoierai mon armure ce soir.~
+@132 = ~Merci, ma dame... J'apprécie que vous vous souciez de mon apparence.~
+@133 = ~*Ajantis reste immobile jusqu'à ce que vous en ayez fini.* Merci, ma dame.~
+@134 = ~*Ajantis bondit comme s'il avait été touché par une flammèche.* Ma dame ! C'est très... très... je nettoierai d'éventuelles taches qui pourraient se trouver là moi-même !~
+@135 = ~*Ajantis écarte votre main, sa poigne un peu plus ferme qu'elle n'a besoin de l'être.* Ma dame ! Merci pour me l'avoir indiqué, mais je nettoierai les taches qui se trouvent là moi-même.~
+@136 = ~*Ajantis écarte rapidement votre main, manifestement choqué.* Mer... Merci, ma dame. Je nettoierai les éventuelles taches qui se trouvent là moi-même !~
+@137 = ~*Ajantis hoche la tête à votre intention. Cela ressemble plus à la réaction d'un homme à l'attention de son leader, qu'à celle d'une jeune femme.*~
+@138 = ~*Ajantis hoche amicalement la tête à votre intention, avant de regarder ailleurs.*~
+@139 = ~*Ajantis vous sourit, avant que ses yeux ne se détournent rapidement.*~
+@140 = ~*Ajantis vous décoche un rapide sourire, sans pour autant relâcher sa vigilance sur votre environnement.*~
+@141 = ~Ma dame, j'avais déjà remarqué votre malaise... Où avez-vous mal ?~
+@142 = ~Eh bien, mes pieds souffrent terriblement de toute cette marche...~
+@143 = ~Eh bien, ma nuque est quelque peu tendue...~
+@144 = ~Mon dos souffre de tout cet équipement pesant...~
+@145 = ~Oh, ne t'en fais pas, ça ira.~
+@146 = ~Oui, je peux imaginer que vos *ahum* doux petits pieds commencent à souffrir de toute la marche que nous avons accumulée récemment. Apparemment, nous avons un moment... Voulez-vous que je les masse ?~
+@147 = ~Oh, ce serait très gentil, Ajantis.~
+@148 = ~Euh, non, je ne pense pas que ce soit nécessaire.~
+@149 = ~Oui, je peux imaginer que vos pieds peu entrainés doivent commencer à vous faire mal, après toute cette marche. Apparemment, nous avons le temps... Voulez-vous que je vous fasse un massage ?~
+@150 = ~Euh, non, je pense que ce n'est pas nécessaire.~
+@151 = ~Eh bien, on ne peut pas toujours l'empêcher... Vous devriez enlever vos bottes pendant le reste de notre pause afin que vos pieds puissent récupérer quelques temps.~
+@152 = ~Je t'en prie, pourrais-tu les masser, Ajantis ?~
+@153 = ~Oui, tu as peut-être raison.~
+@154 = ~*Ajantis retire précautionneusement vos bottes et commence à masser votre pied.* C'est fascinant qu'une personne avec autant de compétences et de vitalité puisse marcher sur de si petits pieds... Euh... *tousse* Je n'avais pas l'intention de dire que vos pieds sont *trop* petits, ma dame, juste très gracieux... Peut-être ferais-je mieux de terminer en silence.~
+@155 = ~*Ajantis retire précautionneusement vos bottes et commence à masser votre pied.* Laissez-moi faire ceci en silence, ma dame. Je vous en prie, essayez de profiter de ce moment pour vous détendre.~
+@156 = ~*Ajantis retire précautionneusement vos bottes et commence à masser votre pied.* Il m'a fallu un peu de temps pour m'habituer à toute cette marche quand j'étais jeune écuyer, ma dame. Après un certain temps, vous vous habituerez aussi, et vous apprendrez les astuces qui permettent de remédier à la douleur.~
+@157 = ~Je peux imaginer que votre nuque gracieuse soit tendue après toute cette marche, chargée d'un équipement aussi lourd... *ahum*. Si vous voulez que je... relâche cette tension, je pourrais vous masser, ma dame.~
+@158 = ~Ce serait merveilleux, Ajantis. Laisse-moi enlever ce sac à dos...~
+@159 = ~Non, ce ne sera pas nécessaire.~
+@160 = ~Si vous le voulez, je peux vous faire un massage pour soulager la douleur, ma dame.~
+@161 = ~Bien, on ne peut pas toujours l'empêcher... Vous devriez essayer de vous détendre et de masser votre nuque au prochain arrêt, ma dame.~
+@162 = ~Serait-ce exagérer que de te demander un massage maintenant, Ajantis ? Laisse-moi enlever ce sac à dos...~
+@163 = ~Bien, j'imagine que tu as raison.~
+@164 = ~*Ajantis masse votre nuque tendue avec des doigts fermes. Il déplace ses mains avec un grand soin et une compétence indéniable, relâchant la tension.* J'espère que vous vous sentez mieux à présent, ma dame. Nous ne devrions pas rester à cet endroit plus longtemps que nécessaire.~
+@165 = ~*Ajantis commence à masser votre nuque avec des mains fermes et solides. Vous avez l'impression que sa vigilance reste fixée sur l'environnement, cependant.*~
+@166 = ~*Ajantis commence à masser votre nuque avec des mains fermes et solides.* C'est quelque chose que l'on apprend en tant qu'écuyer, ma dame. Il est toujours essentiel d'être capable de soulager la douleur de vos camarades ou de votre chef, de façon à ce que chacun puisse donner le meilleur de lui-même au combat.~
+@167 = ~Puis-je vous aider d'une manière ou d'une autre, ma dame ?~
+@168 = ~Serais-tu assez gentil pour prendre une partie de mon équipement, Ajantis ?~
+@169 = ~Ah, déposer mon sac à dos pendant quelques minutes fera l'affaire.~
+@170 = ~Oui, serais-tu assez gentil pour me faire un massage du dos... ici et maintenant ?~
+@171 = ~Ah, non, tout va bien.~
+@172 = ~Je vous l'ai proposé auparavant, ma dame. Ce serait avec plaisir. S'il vous plaît, donnez-moi ce que vous voulez que je porte.~
+@173 = ~Je vous l'ai déjà proposé, ma dame, et ce serait avec plaisir. Malheureusement, mon sac à dos est plein en ce moment... J'ai peur que nous ne devions attendre jusqu'au prochain endroit de repos. Peut-être pourrons-nous alors échanger certaines des choses que nous portons ?~
+@174 = ~Ce serait avec plaisir, ma dame. S'il vous plaît, donnez-moi ce que vous voulez que je porte.~
+@175 = ~Ce serait avec plaisir, ma dame. Malheureusement, mon sac à dos est plein en ce moment... J'ai peur que nous ne devions nous déplacer jusqu'au prochain endroit de repos. Peut-être pourrons-nous alors échanger certaines des choses que nous portons.~
+@176 = ~Je comprends votre désir, mais nous avons des tâches importantes à remplir. Nous ne devrions pas rester à cet endroit trop longtemps.~
+@177 = ~Si c'est suffisant pour soulager votre douleur, nous devrions prendre le temps, ma dame... Bien que je nous suggérerais de ne pas rester à cet endroit trop longtemps.~
+@178 = ~*Ajantis ne fait pas de commentaire sur votre suggestion, mais attend avec une expression rigide jusqu'à ce que vous repreniez votre sac à dos et continuiez votre route.*~
+@179 = ~*Ajantis vous aide à retirer votre sac à dos et commence à masser vos épaules et votre dos avec fermeté.* Je vais essayer de soulager votre douleur, ma dame. Laissez-moi commencer... Où cela fait-il mal, ici ? Vos muscles sont noués, ma dame. Je suis certain que cela ira mieux sous peu.~
+@180 = ~*Ajantis vous aide à retirer votre sac à dos et commence à masser vos épaules et votre dos avec fermeté.* Laissez-moi faire ceci en silence, ma dame, et tâchez de profiter de ce moment pour vous détendre.~
+@181 = ~*Ajantis vous aide à retirer votre sac à dos et commence à masser vos épaules et votre dos avec fermeté.* Cela m'a pris un certain temps pour m'habituer à porter un équipement lourd, ma dame. Vous vous y habituerez aussi, vous verrez.~
+@182 = ~*Ajantis vous aide à retirer votre sac à dos et commence à masser vos épaules et votre dos avec fermeté.* Vos épaules sont très gracieuses comparées à celles de mes compagnons habituels, ma dame... Ce n'est pas une surprise que transporter un équipement aussi lourd vous donne mal au dos.~
+@183 = ~*Ajantis masse fermement mais agréablement la partie douloureuse de votre anatomie. Cela prend seulement quelques minutes, mais il semble savoir ce qu'il fait, et vous sentez effectivement la douleur diminuer.*~
+@184 = ~*Ajantis vous jette un rapide regard* Ne craignez rien, ma dame, car je vous défendrai !~
+@185 = ~Dites-le moi, si vous voulez que je sois plus proche... *tousse* Je veux dire, si vous voulez que je me tienne plus près de vous, ma dame, car je vous défendrai.~
+@186 = ~*Ajantis serre la main que vous avez posée sur son bras de sa main libre, pour vous rassurer.* Si c'est le cas, je serai encore plus vigilant et protecteur à vos côtés, ma dame.~
+@187 = ~Ne craignez rien, ma dame. Vous êtes plus forte que vous ne pourriez le penser... Ou que vous ne vouliez que je le pense ? *sourit*~
+@188 = ~Vraiment ? Alors, en tenant compte de ce que vous avez traversé, je devrais avoir peur, moi aussi, si j'avais votre clairvoyance, ma dame. *sourit*~
+@189 = ~*Ajantis pose la main sur celle que vous avez mise sur son bras, prolongeant en cela votre contact.* Je serai là, ma dame. Même si je sais que vous êtes parfaitement capable de vous défendre.~
+@190 = ~Ma... Reine d'Amour et de Beauté, ma dame ? Ah, je pense que je vois à quoi vous voulez faire référence. Le chevalier qui gagne un tournoi peut parfois choisir une dame pour être Reine d'Amour et de Beauté, cela fait partie des festivités... Souvent une dame noble et... parfois la dame de son coeur également...~
+@191 = ~Jusqu'ici, je n'ai jamais eu l'opportunité d'en choisir une, ma dame, car je ne suis qu'écuyer. Ce serait une dame d'une beauté immense mais aussi pleine de force... <CHARNAME> de Château-Suif serait mon choix, ma dame. Vous seriez la plus radieuse de toutes les Reines. Reine de Beauté et... d'Amour... *ses oreilles sont pivoine* Mais ce sont des pensées futiles, ma dame. Je ne suis pas chevalier... Mettons-nous en route.~
+@192 = ~*Ajantis fixe vos cheveux, manifestement perdu.* Vos cheveux sont... toujours superbes, ma dame.~
+@193 = ~Je ne vois pas... Ah, ma dame, j'aime beaucoup vos deux coiffures.~
+@194 = ~Etes-vous certaine d'avoir fini de les arranger ? Je ne vois pas de différence... euh... Je voulais dire que vos cheveux sont toujours un plaisir pour les yeux, ma dame.~
+@195 = ~Attendez, ma dame, vous avez perdu quelque chose... Voici.~
+@196 = ~Ma dame ! Vous avez encore perdu quelque chose ! Le voici.~
+@197 = ~Oh, ma dame, laissez-moi vous donner ceci... Voici. Vous devriez faire plus attention à votre équipement. J'ai presque marché dessus.~
+@198 = ~Ma dame ! Vous avez perdu quelque chose... une fois de plus !~
+@199 = ~Vous avez perdu un objet, ma dame. Laissez-moi jetez un oeil rapide à votre paquetage. Il semble qu'il a besoin d'être réarrangé.~
+@200 = ~Ce serait gentil, Ajantis.~
+@201 = ~Non, ce n'est pas nécessaire.~
+@202 = ~*Ajantis commence par le côté, décrivant un cercle autour de vous tandis qu'il contrôle votre sac à dos et votre équipement avec un grand souci.* Hmm, je ne vois rien... Eh bien, il ne devrait plus y avoir de problèmes, à présent, ma dame.~
+@203 = ~Si vous le dites. J'espère que vous ne perdrez rien d'important, ma dame.~
+@204 = ~Ce n'est pas... Ma dame, vous avez perdu quelque chose ! Laissez-moi vous le rendre.~
+@205 = ~*soupire* Voici, ma dame. Je commence à songer que je devrais marcher derrière vous, juste au cas où vous perdriez quelque chose d'important.~
+@206 = ~Je ne peux pas croire... Est-ce un jeu ? Le faites-vous exprès, ma dame ?~
+@207 = ~Laissez-moi jeter un oeil à votre équipement. Il me semble qu'il a besoin d'être réarrangé.~
+@208 = ~Oui, merci, Ajantis.~
+@209 = ~Comme vous le souhaitez, ma dame. Je garderai mes pensées pour moi-même, désormais.~
+@210 = ~*Ajantis sourit en retour avant de détourner les yeux.*~
+@211 = ~*Ajantis hoche amicalement la tête à votre intention. Ses yeux s'attardent sur vous un peu plus longtemps que nécessaire dans la situation.*~
+@212 = ~*Ajantis répond d'un hochement de tête amical.*~
+@213 = ~Je... suis très flatté de vous l'entendre dire, ma dame.*~
+@214 = ~C'est très gentil de votre part, ma dame... *rougit légèrement*~
+@215 = ~Je vous remercie, ma dame. Vous n'avez pas idée de ce que ces mots signifient pour moi.~
+@216 = ~J'étais à vous depuis le début, mon amour. Il n'y a pas de mal en vous et nous marcherons sur la voie de la bonté et de la droiture ensemble.~
+@217 = ~Je suis heureux que vous l'aimiez, mon amour. J'espère qu'il vous protégera de tout mal qui pourrait vous poursuivre.~
+@218 = ~Je suis désolé, mon amour. Je cherchais un pendentif approprié pour une aussi belle dame, et j'aimais bien la forme florale. *ahum* Il semble que je dois encore apprendre à connaître vos goûts. Cela dit, j'espère qu'il vos protégera contre tout mal qui pourrait vous assiéger.~
+@219 = ~Et je suis l'homme le plus fier au monde, arpentant ces contrées avec vous, mon amour.~
+@220 = ~Je suis vraiment désolé, mon amour. Je vous promets que nous choisirons les alliances ensemble.~
+@221 = ~J'apprécierais d'être soigné, mon amour.~
+@222 = ~Je suis... blessé et *tousse* empoisonné ! J'ai besoin de soins, vite !~
+@223 = ~Je suis épuisé... Nous devrions prendre un peu de repos pour récupérer nos forces, mon amour.~
+@224 = ~Je suis fatigué. Nous devrions prendre le temps de nous reposer ou le mal nous surprendra mal préparés, mon amour.~
+@225 = ~Je suis fatigué, mon amour. La journée a été longue et nous sommes épuisés. Reposons-nous et préparons-nous pour demain.~
+@226 = ~Je suis fatigué et la nuit est sombre. Nous devrions prendre le temps de nous reposer ou le mal nous trouvera affaiblis, mon amour.~
+@227 = ~Merci pour cette question, mon amour. Je suis impatient de combattre le mal qui viendrait à croiser notre chemin !~
+@228 = ~Comme toujours, prêt à combattre le mal que nous pourrions rencontrer, mon amour.~
+@229 = ~Merci pour cette question, mon amour. Je suis heureux d'être à vos côtés !~
+@230 = ~*Comme toujours, le visage d'Ajantis reflète une expression sévère de concentration, vigilance et loyauté. Il ne fronce plus les sourcils, cela dit.*~
+@231 = ~*La ligne de l'armure et des vêtements d'Ajantis suggère des bras et des épaules musclés. Sa silhouette n'est pas du genre baraquée, mais elle est suffisamment large pour trahir la force qu'il a acquise au cours de nombreuses années de combats et d'entraînement intensifs.*~
+@232 = ~*L'armure et les vêtements d'Ajantis sont en bon état, révélant ses efforts pour les entretenir. Sur son manteau figure le blason de la famille Ilvastarr : un dragon vert métallique aux yeux oranges, sur fond doré. Ajantis se tient droit, son expression irradiant vigilance et loyauté. La pointe de nervosité que vous aviez notée plus tôt semble avoir disparu.*~
+@233 = ~*Ajantis réalise que vous le regardez et vous sourit.* Je ne peux pas m'empêcher d'avoir l'impression qu'on m'observe, mon amour.~
+@234 = ~*Ajantis remarque votre attention et se tourne vers vous.* Quelque chose ne va pas, mon amour ?~
+@235 = ~*Ajantis vous sourit en retour.* Mais d'où vient ce rayon de soleil qui réchauffe mon visage ?~
+@236 = ~*Ajantis vous répond d'un sourire tendre, avant de détourner les yeux.*~
+@237 = ~*Ajantis sourit et vous adresse un hochement de tête encourageant.*~
+@238 = ~*Ajantis sourit en retour mais sa vigilance reste concentrée sur l'environnement.*~
+@239 = ~*Vous vous hissez jusqu'à la joue d'Ajantis et y plantez un doux baiser.*~
+@240 = ~Je serais partante pour un vrai baiser, Ajantis...~
+@241 = ~*Vous prenez la main d'Ajantis et l'embrassez dans le dos.*~
+@242 = ~*Vous changez d'avis et ne faites rien.*~
+@243 = ~*Ajantis se penche pour recueillir votre baiser et s'écarte, souriant.*~
+@244 = ~Ne négligez pas l'autre côté, je vous en prie. Ma barbe pourrait pousser plus vite maintenant qu'elle a été si tendrement frôlée.~
+@245 = ~*Après avoir reçu le baiser, Ajantis sourit doucement sans vous regarder. Vous supposez qu'il a apprécié le geste mais qu'il ne veut pas arracher sa vigilance à l'environnement.*~
+@246 = ~*Ajantis sourcille légèrement et vous donne un court baiser.* Je suis désolé, mon amour. Mais lorsque je suis de garde, guettant le danger, je ne suis pas toujours prêt pour vos doux baisers.~
+@247 = ~Mon amour, bien que ces instants sont des plus appréciés, il serait plus approprié de les partager en... privé.~
+@248 = ~*Cette fois, vous avez trouvé le bon moment. Malgré les dangers qui peuvent vous attendre, Ajantis profite de l'occasion pour un baiser long et intense.* Vos lèvres sont plus douces que le miel, mon amour. Je n'avais jamais vraiment compris cette expression auparavant.~
+@249 = ~Ne pensez pas que je... n'apprécie pas ce genre de caresses, mon amour, mais il y a un temps pour chaque chose.~
+@250 = ~Ici ? Maintenant ? Si... vous voulez, mon amour.~
+@251 = ~*Vous échangez un baiser, mais vous sentez la tension et le malaise d'Ajantis.*~
+@252 = ~*Vous échangez un baiser... qui se révèle plus long que vous ne l'aviez prévu... Après avoir fini, Ajantis vous regarde dans les yeux et vous avez l'impression que ses pupilles sont plus dilatées qu'auparavant.*~
+@253 = ~*Ajantis semble un peu surpris par votre initiave, mais il sourit légèrement, pressant doucement votre main avant de la relâcher.*~
+@254 = ~N'est-ce pas là quelque chose que je devrais faire, douce dame ? *Ajantis porte votre main à ses lèvres et y pose un doux baiser*~
+@255 = ~*sourit* La prochaine fois, j'enlèverai mes gants pour vos lèvres de miel, mon amour.~
+@256 = ~*Vous vous placez aux côtés d'Ajantis et passez votre bras autour de sa taille.*~
+@257 = ~*Vous vous approchez d'Ajantis par devant et l'étreignez de vos bras, visage contre son épaule.*~
+@258 = ~*Vous étreignez Ajantis depuis l'arrière, plaçant vos bras autour de sa taille.*~
+@259 = ~*Vous jetez vos bras autour d'Ajantis en sautant plus ou moins sur lui.*~
+@260 = ~*Ajantis commence à sourire et vous serre rapidement d'un bras sur l'épaule.* Avançons, mon amour.~
+@261 = ~*Ajantis passe son bras autour de votre épaule, vous tenant pendant un moment.*~
+@262 = ~*Ajantis vous entoure de ses bras, vous serrant tendrement.* Si cela vous fait du bien, je suis sûr que nous en avons le temps, mon amour.~
+@263 = ~*Ajantis vous entoure de ses bras, mais il semble ne pas être très à l'aise.* Je suis désolé, mais nous ne devrions pas oublier d'être vigilants, mon amour.~
+@264 = ~*Ajantis reste immobile tandis que vous l'étreignez. Après vous avoir relâchée, il vous sourit, mais vous n'êtes pas tout à fait certaine qu'il a vraiment apprécié la caresse.*~
+@265 = ~*Ajantis place ses mains sur les vôtres devant lui et les tient pendant que vous l'étreignez.*~
+@266 = ~Ne pensez pas que je n'apprécie pas votre caresse, mon amour, mais si nous étions attaqués maintenant, je ne saurais pas comment vous défendre.~
+@267 = ~*Ajantis vous rattrape, souriant.* Vous avez l'air de vous amuser, <CHARNAME>.~
+@268 = ~*Ajantis conserve son équilibre, lâchant un léger grognement.* Ne vous blessez pas sur mes armes, mon amour. Il serait dommage si vous vous faisiez mal à cause d'un acte aussi puéril.~
+@269 = ~*Ajantis conserve son équilibre, lâchant un léger grognement.* Par Heaum, <CHARNAME> ! Voulez-vous me jeter à terre ?~
+@270 = ~*Ajantis vous serre dans ses bras mais vous devinez sa tension et son malaise.* Peut-être n'est-ce pas le moment idéal, <CHARNAME>.~
+@271 = ~*Ajantis serre doucement votre main, puis la relâche.* Je préfère avoir les mains libres pour faire face à tout combat pouvant survenir, mon amour.~
+@272 = ~*Ajantis vous sourit, mais relâche rapidement votre main.* J'aimerais vraiment que nous puissions marcher main dans la main comme le font les amants, mon amour. Hélas, notre mode de vie ne le permet pas vraiment.~
+@273 = ~*Ajantis prend votre main et la tient pendant un temps, mais vous pouvez sentir son malaise dans cette situation.*~
+@274 = ~Mon amour, vous froncez les sourcils, et vous avez effectivement l'air tendue... Qu'est-ce qui, exactement, vous fait mal ?~
+@275 = ~Mes pieds... Ajantis, je serais tellement heureuse si tu pouvais me masser les pieds.~
+@276 = ~Eh bien, ma nuque quelque peu tendue... Pourrais-tu me masser, s'il te plaît ?~
+@277 = ~Mon dos m'élance avec tout cet équipement pesant... Pourrais-tu me faire un massage, s'il te plaît ?~
+@278 = ~J'imagine que nous pouvons prendre un court moment, si nous restons attentifs. *Ajantis retire prudemment vos bottes et vous fait un massage des pieds revigorant.*~
+@279 = ~Comme vous le voulez, mon amour. *Ajantis retire prudemment vos bottes et vous fait un massage des pieds revigorant.*~
+@280 = ~*Ajantis retire prudemment vos bottes et vous fait un massage des pieds revigorant.* J'espère que je peux soulager votre douleur, mon amour.~
+@281 = ~*Ajantis prend vos paroles comme une invitation à palper les muscles de votre nuque.* C'est très tendu, en effet, mon amour. Voulez-vous que je vous fasse un massage ?~
+@282 = ~Ce serait merveilleux.~
+@283 = ~Non, merci, Ajantis.~
+@284 = ~*Ajantis masse votre nuque tendue de ses doigts fermes.* Vous sentez-vous mieux, maintenant, mon amour ? Nous ne devrions pas nous attarder ici plus longtemps que nécessaire.~
+@285 = ~*Ajantis commence à masser votre nuque avec ses mains fermes et solides et finit par vous embrasser dans la nuque, à la racine des cheveux.* Si j'avais su que je mettrais ces compétences à contribution ici et maintenant, j'aurais été plus motivé pendant mon apprentissage.~
+@286 = ~*Ajantis vous aide à retirer votre sac à dos et vous masse les épaules et le dos, fermement.* Comme vous le voudrez, mon amour. Est-ce que ça vous fait mal ici ?~
+@287 = ~*Ajantis vous aide à retirer votre sac à dos et vous masse les épaules et le dos avec fermeté.* Laissez-moi faire ceci en silence, mon amour. Essayez de vous détendre pendant ce bref instant. Je vais rester vigilant.~
+@288 = ~*Ajantis vous aide à enlever votre sac à dos et masse vos épaules et dos avec fermeté.* Votre dos est si souple et gracieux, et pourtant si fort... Je suis certain que vous vous sentirez mieux dans un instant.~
+@289 = ~Et je vous aime, <CHARNAME>.~
+@290 = ~*Le visage sérieux d'Ajantis fait place à une expression plus affectueuse.* Je vous aime aussi. Vos paroles me rendent très heureux, <CHARNAME>.~
+@291 = ~Je vous aime, aussi. Ne cessez jamais de dire cela, <CHARNAME>.~
+@292 = ~J'espère qu'il vous plaît, car c'est le seul nom que je puisse vous offrir, mon amour.~
+@293 = ~Je suis heureux que vous le pensiez, mon amour.~
+@294 = ~Et que dire de la femme qui va porter ce nom !~
+@295 = ~<CHARNAME>, s'il vous plaît, laissez ceci pour le moment où cela se produira réellement... Je suis désolé. Je suis toujours nerveux par rapport à la réaction de ma famille quand elle va apprendre quel est votre héritage. Parlons... d'autre chose.~
+@296 = ~*calmement* <CHARNAME>, je ne peux pas garantir que vous prendrez ce nom lorsque vous serez ma femme. S'il vous plaît, cessez de verser du sel sur mes plaies.~
+@297 = ~En effet, et j'espère que ce sera votre nom un jour.~
+@298 = ~Pensez-vous, mon amour ? Vous ne sembliez pas vraiment apprécier le passé de ma noble famille.~
+@299 = ~*sourit* Ah non, je ne me ferai pas prendre à nouveau. Vous n'avez pas changé de coiffure, mon amour. Je veux dire... vous n'avez pas... si ?~
+@300 = ~Je ne vois pas... Ah, mon amour, j'aime toutes vos coiffures.~
+@301 = ~*Ajantis saisit l'occasion pour passer doucement ses doigts dans vos cheveux.* Vos cheveux sont toujours magnifiques, mon amour.~
+@302 = ~*Le visage d'Ajantis revêt une expression sévère de concentration et de vigilance. Il fronce les sourcils, clairement, et semble penser à quelque chose qui le trouble grandement.*~
+@303 = ~*L'armure et les vêtements d'Ajantis sont en bon état, trahissant ses efforts à les entretenir au mieux. Sur sa cape figure le blason de la famille Ilvastarr : un dragon vert métallique aux yeux oranges sur fond doré. Ajantis se tient droit, mais à côté de la vigilance et la loyauté habituelles, son expression semble aussi refléter une touche de profonde réflexion.*~
+@304 = ~*Ajantis réalise que vous l'observez et vous renvoie un léger sourire, sans rien dire.*~
+@305 = ~*Ajantis réalise que vous l'observez et se tourne vers vous.* Quelque chose ne va pas, <CHARNAME> ?~
+@306 = ~*Ajantis répond d'un signe de tête approbateur. Il vous regarde pensivement dans les yeux avant de se détourner.*~
+@307 = ~J'ai besoin de plus de temps pour réfléchir... Je suis désolé, mon amour.~
+@308 = ~Ne pensez pas que je... n'apprécie pas ce genre de caresses, mon amour, mais pas maintenant, s'il vous plaît... pas maintenant. Je suis désolé.~
+@309 = ~C'est mon devoir de servir et je l'effectue avec joie.~
+@310 = ~Vous ne devez pas poser la question. Je serai toujours là pour vous.~
+@311 = ~*rougit* Je fais ce que je dois, mais merci de l'avoir remarqué.~
+@312 = ~Heaum *est* le dieu de la vigilance.~
+@313 = ~Fouillons les Mines de Nashkel. Il semble que des choses maléfiques se trament à l'intérieur !~
+@314 = ~Nettoyons les Mines de Nashkel du mal qui y réside !~
+@315 = ~Nettoyons les mines de leur mal aussi vite que possible. Contempler toutes ces personnes effrayées me prouve que notre mission est juste.~
+@316 = ~Nous devons trouver ce qui contamine les mines. Il doit y avoir une raison pour qu'elles produisent ce mauvais fer !~
+@317 = ~Eliminons ces bandits. Ces criminels ne seront plus longtemps une menace pour les voyageurs !~
+@318 = ~Nous sommes sur le point de détruire le camp des bandits. Nous devons faire en sorte que leur présence n'infecte plus longtemps ces contrées !~
+@319 = ~Voyons si les bandits sont derrière tous ces événements maléfiques et libérons la Côte des Epées de leur présence malveillante !~
+@320 = ~Trouvons ce Davaeorn dont parlent les notes. Il doit être quelque part !~
+@321 = ~Continuons à fouiller Bois-Manteau pour en débusquer ses habitants maléfiques. Leur quartier général doit se trouver quelque part par ici !~
+@322 = ~A présent nous verrons qui est derrière toutes ces activités de banditisme ! Allons-y et combattons le mal que nous trouvons !~
+@323 = ~Nous n'avons pas le choix sinon de rechercher notre adversaire à la Porte de Baldur. Suivons la piste infime que nous avons.~
+@324 = ~Quelque part à la Porte de Baldur, le mal se cache. Nous devons trouver nos ennemis et les défaire !~
+@325 = ~Continuons à étudier les machinations du Trône de Fer. Cette conspiration maléfique doit être détruite !~
+@326 = ~Notre route nous ramène à votre origine. Le mal semble se cacher dans les grands halls de la bibliothèque de Château-Suif, nous allons donc nous y rendre et le vaincre !~
+@327 = ~C'est scandaleux. Nous sommes traités comme des meurtriers ! Nous devons prouver la droiture de nos actions !~
+@328 = ~Cette conspiration devient de plus en plus obscure. Nous devons trouver qui est derrière tout ceci !~
+@329 = ~Nous n'avons pas d'autre choix que d'aller sur la piste de la créature maléfique qui est responsable de tout ceci. Nous devons la détruire !~
+@330 = ~Nous devons aller à la rencontre de notre pire ennemi et le vaincre. C'est le seul moyen de ramener la paix dans ces contrées ou dans votre vie.~
+@331 = ~N'ayez pas peur de la confrontation finale avec notre ennemi. A présent, au moins, nous allons rencontrer celui qui est responsable de toute cette misère.~
+@332 = ~N'hésitez jamais à remplir votre devoir. Soyez toujours vigilant et préparez-vous à affronter des attaques imprévues.~
+       ~N'hésitez jamais à remplir votre devoir. Soyez toujours vigilante et préparez-vous à affronter des attaques imprévues.~
+@333 = ~Entraînez-vous toujours pour améliorer vos compétences. Vos ennemis vous vaincront facilement si vous n'êtes pas préparé.~
+       ~Entraînez-vous toujours pour améliorer vos compétences. Vos ennemis vous vaincront facilement si vous n'êtes pas préparée.~
+@334 = ~Il fait nuit, trouvons donc un endroit pour nous reposer. Il n'est pas bon que nous soyons exténués.~
+@335 = ~C'est la nuit et nous devrions nous reposer. Nous avons besoin de toute notre force si nous voulons être fin prêts pour des rencontres hostiles !~
+@336 = ~Débarrassez-vous du mal dans ce groupe ! Il contamine notre présence.~
+@337 = ~<CHARNAME>, je ne peux pas accepter la manière dont nous traitons les gens qui nous demandent de l'aide. Je vous vois prendre des mauvaises décisions et repousser des gens dans le besoin. Ce n'est pas la manière dont nous devrions nous comporter dans notre glorieuse quête !~
+@338 = ~J'entends vos paroles... Vous avez l'air très déterminée. J'accepterai votre décision, bien qu'elle me fasse saigner le coeur.~
+@339 = ~Par Heaum ! Dans ce cas, mettons fin à ce profond lien qui nous unit et redevenons juste des camarades de combat. *soupire* Je resterai à vos côtés et vous soutiendrai dans notre combat actuel.~

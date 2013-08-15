@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "TrajanPro";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/includes/trajanpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/includes/trajanpro-regular-webfont.woff") format("woff"), url("/includes/trajanpro-regular-webfont.ttf") format("truetype"), url("/includes/trajanpro-regular-webfont.svg#TrajanProRegular") format("svg");
+}
+body {
+    background-color: #CCCCCC;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 35px 50px;
+    padding: 0;
+    text-align: left;
+}
+img {
+    border: 0 none;
+}
+h1, h2, h3, h4, h5, h6 {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000099;
+    font-family: "TrajanPro",Times New Roman,Times,serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+    z-index: 10;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 15px;
+}
+h4 {
+    font-size: 14px;
+}
+h5 {
+    font-size: 13px;
+}
+h6 {
+    font-size: 12px;
+}
+p, ul, table {
+    clear: left;
+}
+a, a:link, a:visited, a:hover, a:active {
+    border-width: 0;
+    color: #000099;
+    margin: 0;
+    padding: 0;
+}
+a:visited {
+    color: #0000CD;
+}
+table {
+    padding: 20px;
+    width: 100%;
+}
+td, th {
+    border: 1px outset #AAAAAA;
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: baseline;
+}
+th {
+    background-color: #0000CD;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+hr {
+    clear: both;
+    display: block;
+    margin: 0;
+    visibility: hidden;
+}
+.leftalign, table.leftalign tr th, table.leftalign tr td {
+    text-align: left;
+}
+.section {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    margin: -30px 0 30px;
+    padding: 20px 20px 10px;
+    position: relative;
+}
+.kit_description {
+    background-color: #F0F0F0;
+    border-left: 4px solid #CCCCCC;
+    border-top: 1px dotted #CCCCCC;
+    display: block;
+    position: relative;
+}
+.portrait_thumb {
+    float: left;
+    height: 125px;
+    overflow: auto;
+    padding: 5px;
+    text-align: center;
+    width: 125px;
+}
+a.spoiler, a.spoiler:link, a.spoiler:active, a.spoiler:visited, a.spoiler:hover {
+    background-color: #CCCCCC;
+    border: 1px dotted #888888;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+a.spoiler:hover {
+    border: 1px dotted #CCCCCC;
+    color: #000000;
+}
+.code {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #EEEEEE;
+    border-color: #555555;
+    border-style: solid;
+    border-width: 1px 1px 1px 10px;
+    font-family: 'Courier New',Courier,mono;
+    padding: 5px;
+}
+.deprecated {
+    color: #666666;
+}

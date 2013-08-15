@@ -1,0 +1,565 @@
+IF
+NumTimesTalkedTo(0)
+Global("X#TanarriTalks","LOCALS",0)
+THEN RESPONSE #100
+SetGlobal("X#TanarriTalks","LOCALS",1)
+StartDialogueNoSet(Myself)
+END
+
+IF
+Global("X#DynaJournal","GLOBAL",10)
+Global("X#TanarriKillsWinski","LOCALS",0)
+THEN RESPONSE #100
+SetGlobal("X#TanarriKillsWinski","LOCALS",1)
+SetGlobal("X#DynaJournal","GLOBAL",11)
+ReallyForceSpell("winski2",WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE)
+Kill("winski2")
+Enemy()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SixthNearest([PC]),STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+See(SixthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(FifthNearest([PC]),STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+See(FifthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(FourthNearest([PC]),STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+See(FourthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(ThirdNearest([PC]),STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+See(ThirdNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SecondNearest([PC]),STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+See(SecondNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC],STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+See([PC])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+!GlobalGT("Confusion","LOCALS",0)
+THEN
+RESPONSE #50
+SetGlobalTimer("castspell","LOCALS",6)
+ReallyForceSpell(LastSeenBy(Myself),WIZARD_CONFUSION)
+SetGlobal("P#Confusion","LOCALS",1)
+RESPONSE #50
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(ThirdNearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(SecondNearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(NearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(SixthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(FifthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(FourthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(ThirdNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See(SecondNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+See([PC])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!GlobalGT("Lightning","LOCALS",4)
+THEN
+RESPONSE #70
+SetGlobalTimer("castspell","LOCALS",6)
+ReallyForceSpell(LastSeenBy(Myself),WIZARD_LIGHTNING_BOLT)
+IncrementGlobal("Lightning","LOCALS",1)
+RESPONSE #30
+Continue()
+END
+
+IF
+See(Myself)
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC.0.0.BARD],STATE_CONFUSED)
+!StateCheck([PC.0.0.BARD],STATE_HELPLESS)
+!Allegiance([PC.0.0.BARD],ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See([PC.0.0.BARD])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SecondNearest([PC.0.0.DRUID_ALL]),STATE_CONFUSED)
+!StateCheck(SecondNearest([PC.0.0.DRUID_ALL]),STATE_HELPLESS)
+!Allegiance(SecondNearest([PC.0.0.DRUID_ALL]),ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See(SecondNearest([PC.0.0.DRUID_ALL]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC.0.0.DRUID_ALL],STATE_CONFUSED)
+!StateCheck([PC.0.0.DRUID_ALL],STATE_HELPLESS)
+!Allegiance([PC.0.0.DRUID_ALL],ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See([PC.0.0.DRUID_ALL])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SecondNearest([PC.0.0.CLERIC_ALL]),STATE_CONFUSED)
+!StateCheck(SecondNearest([PC.0.0.CLERIC_ALL]),STATE_HELPLESS)
+!Allegiance(SecondNearest([PC.0.0.CLERIC_ALL]),ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See(SecondNearest([PC.0.0.CLERIC_ALL]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC.0.0.CLERIC_ALL],STATE_CONFUSED)
+!StateCheck([PC.0.0.CLERIC_ALL],STATE_HELPLESS)
+!Allegiance([PC.0.0.CLERIC_ALL],ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See([PC.0.0.CLERIC_ALL])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SecondNearest([PC.0.0.MAGE_ALL]),STATE_CONFUSED)
+!StateCheck(SecondNearest([PC.0.0.MAGE_ALL]),STATE_HELPLESS)
+!Allegiance(SecondNearest([PC.0.0.MAGE_ALL]),ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See(SecondNearest([PC.0.0.MAGE_ALL]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC.0.0.MAGE_ALL],STATE_CONFUSED)
+!StateCheck([PC.0.0.MAGE_ALL],STATE_HELPLESS)
+!Allegiance([PC.0.0.MAGE_ALL],ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+See([PC.0.0.MAGE_ALL])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+!Allegiance(LastSeenBy(Myself),ENEMY)
+!GlobalGT("Silence","LOCALS",0)
+THEN
+RESPONSE #70
+SetGlobalTimer("castspell","LOCALS",6)
+ForceSpell(LastSeenBy(Myself),TANARI_SILENCE)
+SetGlobal("Silence","LOCALS",1)
+RESPONSE #30
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SixthNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(SixthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(FifthNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(FifthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(FourthNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(FourthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(ThirdNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(ThirdNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SecondNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(SecondNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC],STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See([PC])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+THEN
+RESPONSE #70
+SetGlobalTimer("castspell","LOCALS",6)
+ForceSpell(LastSeenBy(Myself),TANARI_PARALYZE)
+IncrementGlobal("TanarriMisc","LOCALS",1)
+RESPONSE #30
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SixthNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(SixthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(FifthNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(FifthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(FourthNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(FourthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(ThirdNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(ThirdNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(SecondNearest([PC]),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See(SecondNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck([PC],STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+See([PC])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!GlobalTimerNotExpired("castspell","LOCALS")
+!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+!GlobalGT("TanarriMisc","LOCALS",4)
+THEN
+RESPONSE #70
+SetGlobalTimer("castspell","LOCALS",6)
+ForceSpell(LastSeenBy(Myself),TANARI_VAMPIRIC_TOUCH)
+IncrementGlobal("TanarriMisc","LOCALS",1)
+RESPONSE #30
+Continue()
+END
+
+IF
+!Allegiance(ThirdNearestEnemyOf(Myself),ENEMY)
+See(ThirdNearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(SecondNearestEnemyOf(Myself),ENEMY)
+See(SecondNearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(NearestEnemyOf(Myself),ENEMY)
+See(NearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(SixthNearest([PC]),ENEMY)
+!StateCheck(SixthNearest([PC]),STATE_HELPLESS)
+See(SixthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(FifthNearest([PC]),ENEMY)
+!StateCheck(FifthNearest([PC]),STATE_HELPLESS)
+See(FifthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(FourthNearest([PC]),ENEMY)
+!StateCheck(FourthNearest([PC]),STATE_HELPLESS)
+See(FourthNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(ThirdNearest([PC]),ENEMY)
+!StateCheck(ThirdNearest([PC]),STATE_HELPLESS)
+See(ThirdNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(SecondNearest([PC]),ENEMY)
+!StateCheck(SecondNearest([PC]),STATE_HELPLESS)
+See(SecondNearest([PC]))
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance([PC],ENEMY)
+!StateCheck([PC],STATE_HELPLESS)
+See([PC])
+False()
+THEN
+RESPONSE #100
+Continue()
+END
+
+IF
+!Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+RESPONSE #100
+AttackOneRound(LastSeenBy(Myself))
+END

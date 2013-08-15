@@ -1,0 +1,14 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId("ajantis")
+	ClearAllActions()
+	MoveViewPoint([1070.905],VERY_FAST)
+	CreateCreature("X#AJDRRE",[1496.1324],3)
+	ActionOverride("X#AJDRRE",MoveToPoint([1236.1115]))
+	Wait(2)
+	Dialog(Myself)
+	EndCutSceneMode()
+END
+

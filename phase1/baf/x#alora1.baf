@@ -1,0 +1,95 @@
+/* CONTENTS */
+/* Dream timer */
+/* PC talks */
+///* Setting the timer */
+///* PC talk 1 */
+///* stealing from Imoen */
+
+/* Dream timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#DreamTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+SetGlobal("X#DreamTimerStarted","GLOBAL",1)
+END
+
+/* PC talks */
+///* Setting the timer */
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#AlPCTimerStarted","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#AlFriendTalkTime","GLOBAL",1800)
+SetGlobal("X#AlPCTimerStarted","GLOBAL",1)
+END
+
+///* PC talk 1 */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#AlFriendTalkTime","GLOBAL")
+Global("X#AlFriendTalk","GLOBAL",0)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+AreaType(CITY)
+THEN
+RESPONSE #100
+IncrementGlobal("X#AlFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#AlFriendTalk","GLOBAL",1)
+InParty(Myself)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("alora99")
+StartDialogueNoSet(Player1)
+END
+
+///* stealing from Imoen */
+IF %BGT_VAR%
+RealGlobalTimerExpired("X#AlFriendTalkTime","GLOBAL")
+Global("X#AlFriendTalk","GLOBAL",2)
+InParty("%IMOEN_DV%")
+InParty(Myself)
+CombatCounter(0)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)
+!See([ENEMY])
+InMyArea(Player1)
+InMyArea("%IMOEN_DV%")
+AreaType(CITY)
+THEN
+RESPONSE #100
+IncrementGlobal("X#AlFriendTalk","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+Global("X#AlFriendTalk","GLOBAL",3)
+InParty("%IMOEN_DV%")
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+InMyArea(Player1)
+InMyArea("%IMOEN_DV%")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("alora99")
+StartDialogueNoSet(Player1)
+END
