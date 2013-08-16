@@ -86,7 +86,7 @@
 @85   = ~Surfacers are imbeciles. Yapping like that when the enemies are all around!~
 @86   = ~I am Viconia DeVir of House DeVir, the Fourth House of Menzoberranzan.~
 @87   = ~Walking under the cruel sun, sleeping with the wretched starlight, breathing in road dust, socializing with surfacers... Lloth be damned for her betrayal! I deserve better than this.~
-@88   = ~*Skie delicately picks dirt off the edge of her traveling cloak. Then she blushes prettily and looks up. Either she thinks that a dirty cloak is inappropriate in the adventuring company, or she remembered her love of Eldoth. Whatever it is, right now is a quiet moment, and you might have enough time to get through the noble girl's excited chatter about adventures and learn something about her.*~ [X#BLANK]
+@88   = ~*Skie delicately picks dirt off the edge of her travelling cloak. Then she blushes prettily and looks up. Either she thinks that a dirty cloak is inappropriate in the adventuring company, or she remembered her love of Eldoth. Whatever it is, right now is a quiet moment, and you might have enough time to get through the noble girl's excited chatter about adventures and learn something about her.*~ [X#BLANK]
 @89   = ~*You decide that you cannot be bothered, lest you learn things you do not want to know about Skie.*~
 @90   = ~So, Skie, can you tell me more about yourself?~
 @91   = ~*You ask Skie lots of personal questions.*~
@@ -1074,7 +1074,7 @@ Step right up and fight me bold!~
 @1070 = ~*Her hair is so pale that it seems to emanate a light of its own. You kiss her cascading tresses, and feel Branwen reclining against your chest.*~
 @1071 = ~'Tis the best compliment to my hair, <CHARNAME>.~
 @1072 = ~*For some odd reasons, her hair smells of milk and honey, making you breathe more deeply and fully, reveling in its scent.* ~
-@1073 = ~*Branwen quickly inspects your shoulder and the straps of your traveling gear and pack. She notices that a strap is loose on your arm, and tightens it for you.* You must remember to keep your traveling equipment in proper order, though I do not mind lending a hand every now and then.~
+@1073 = ~*Branwen quickly inspects your shoulder and the straps of your travelling gear and pack. She notices that a strap is loose on your arm, and tightens it for you.* You must remember to keep your travelling equipment in proper order, though I do not mind lending a hand every now and then.~
 @1074 = ~*Branwen's concern turns to smile after she inspects your shoulder.* Liar, my sweet liar.~
 @1075 = ~*She runs her hand down the length of your arm in a gentle caress.* That should do it. ~
 @1076 = ~You should have told me earlier! *You take pleasure in both pain receding and Branwen's closeness, as she heals your wound*~
@@ -2158,7 +2158,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2149 = ~[KIVAN 34] Your candor is appreciated.~ [%tutu_var%KIVAN34]
 @2150 = ~[KIVAN 32] Watch what you say.~ [%tutu_var%KIVAN32]
 @2151 = ~[KIVAN 33] Shut your mouth!~ [%tutu_var%KIVAN33]
-@2152 = ~When asked about his past KIVAN reveals that he hails from the forest of Shilmista, though he has not visited his homeland for quite some time. He has instead been traveling the world driven by the darkest of obsessions: revenge. Kivan and his mate Deheriana were apparently on a romantic sojourn years ago when they were waylaid by a group of Brigands. They were captured and tortured for the amusement of Tazok, the half-ogre that led the attack. Kivan eventually escaped, but Deheriana did not survive the encounter. Kivan is a man of few words, and obviously does not make friends easily. Likely he will not take much pleasure from life until he has revenged the death of his love.~ [DUMMYSND]
+@2152 = ~When asked about his past KIVAN reveals that he hails from the forest of Shilmista, though he has not visited his homeland for quite some time. He has instead been travelling the world driven by the darkest of obsessions: revenge. Kivan and his mate Deheriana were apparently on a romantic sojourn years ago when they were waylaid by a group of Brigands. They were captured and tortured for the amusement of Tazok, the half-ogre that led the attack. Kivan eventually escaped, but Deheriana did not survive the encounter. Kivan is a man of few words, and obviously does not make friends easily. Likely he will not take much pleasure from life until he has revenged the death of his love.~ [DUMMYSND]
 @2153 = ~I would continue to search the Sword Coast far and wide, until we have found those who shall fall to our swords and help those who turn to us the best we can.~
 @2154 = ~We have to search for the bandits' trail, <CHARNAME>. It seems that it should advance you toward finding your father's murderer and me to uncovering Tazok's location.~
 @2155 = ~Our best course is to fight those who threaten innocent people. Bandits.~
@@ -3845,9 +3845,9 @@ They are waves and Shuan silk's cascade.~
 @3828 = ~Ajantis, I am safer with you than I have ever been. I admire your skill as well as your judgement.~
 @3829 = ~Any suggestions, Ajantis?~
 @3830 = ~*You ask Ajantis lots of personal questions.*~
-@3831 = ~*You proceed with asking inquisitive questions about Ajantis's past.*~
+@3831 = ~*You proceed with asking inquisitive questions about Ajantis' past.*~
 @3832 = ~*You talk about Ajantis' problems and hopes, in a friendly and kind manner, in hopes of making Ajantis confide in you.*~
-@3833 = ~*You talk about Ajantis's problems and hopes, in a friendly and kind manner, in hopes of making Ajantis confide in you.*~
+@3833 = ~*You talk about Ajantis' problems and hopes, in a friendly and kind manner, in hopes of making Ajantis confide in you.*~
 @3834 = ~*You are used to hearing things from the bottom of people's hearts... so you try to charm Ajantis into telling you more about himself.*~
 @3835 = ~So, Ajantis, can you tell me more about yourself?~
 @3836 = ~Tell me something about Helm, Ajantis.~
@@ -3900,9 +3900,9 @@ They are waves and Shuan silk's cascade.~
 @3883 = ~I am poisoned! The evil is trying to harm me by intoxinating my blood... It shall never succeed!~
 @3884 = ~I am... wounded and *cough* poisoned! I need healing, <CHARNAME>, quick!~
 @3885 = ~Evil forces are weakening my prowess! I have to be more careful next time.~
-@3886 = ~I am exausted... We should take a small rest to gather our strength, <CHARNAME>.~
+@3886 = ~I am exhausted... We should take a small rest to gather our strength, <CHARNAME>.~
 @3887 = ~I am tired. We should take the time to rest, or evil will find us unprepared, <CHARNAME>.~
-@3888 = ~I am tired, <CHARNAME>. It has been a long day, and we are exausted. Let us take a rest, and prepare for the next day.~
+@3888 = ~I am tired, <CHARNAME>. It has been a long day, and we are exhausted. Let us take a rest, and prepare for the next day.~
 @3889 = ~I am tired, and it is dark night. We should take the time to rest or evil will find us weak, <CHARNAME>.~
 @3890 = ~Thank you for asking, <CHARNAME>. I cannot wait to fight any evil that is coming our way!~
 @3891 = ~As ever ready to fight any evil that we might pass by, <CHARNAME>.~
@@ -3958,7 +3958,7 @@ They are waves and Shuan silk's cascade.~
 @3941 = ~Shhh, listen. There is a rumble in the bushes, there is danger afoot. Let us not be distracted by meaningless banter.~
 @3942 = ~Perhaps some other time, for now we must keep our eyes and ears open.~
 @3943 = ~It is more important to exercise caution than our jaw.~
-@3944 = ~As I already told you, I am a squire knight. I am on a quest to earn my right to be a full fledged member of the Order of the Most Radiant Heart.~
+@3944 = ~As I already told you, I am a squire knight. I am on a quest to earn my right to be a full fledged member of the Order of the  Radiant Heart.~
 @3945 = ~I belong to the noble family of Ilvastarr of Waterdeep. My closest relatives are my parents, Ulguth and Mara, and my brother Gotom and my sister Elina. I am the youngest of four. I had an older brother, Envin, but he died when I was five, due to a disease.~
 @3946 = ~See my coat of arms, the coat of arms of the Ilvastarr family: A dragon with metallic green body and orange eyes, on a golden field.~
 @3947 = ~My parents run a trade business, and my father is a hard working businessman. He specialized in beast-taming and breeding, which is done mostly on a country seat south of the city. Some of the beasts are for slaughtering, and my mother is a very fine cook of exotic meats. She has won a lot of prizes with her recipes.~
@@ -3982,7 +3982,7 @@ They are waves and Shuan silk's cascade.~
 @3965 = ~Every quarter of the Order consists of twenty-five members, chosen from the bravest and wisest paladins, with three prelates at the head. They are assisted by younger knights and squires, who have not yet gained the age or the experience to become full-fledged members. These knights and squires are also the ones who execute the more fighting-based missions of the Order.~
 @3966 = ~The biggest chapter of the Order is located in the capital city of Amn, Athkatla. That is where my mentor resides, the highly respected paladin, Keldorn.~
 @3967 = ~Every paladin and lawful-good fighter can become a knight of the Order, despite his or her origin.~
-@3968 = ~I am trying to gain enough glory and honor to get knighted by the Order of the Most Radiant Heart. This is my goal, and I am eagerly awaiting the day of its completion.~
+@3968 = ~I am trying to gain enough glory and honor to get knighted by the Order of the  Radiant Heart. This is my goal, and I am eagerly awaiting the day of its completion.~
 @3969 = ~I am here to fulfill my paladin duties and destroy evil wherever I see it!~
 @3970 = ~I want to cleanse the Sword Coast from the criminals that are threatening people and bring light into the mystery behind the iron crisis!~
 @3971 = ~I joined forces with you, for we both wish to see the end of this bandit threat.~

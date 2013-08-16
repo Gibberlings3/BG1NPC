@@ -36,7 +36,7 @@
 @35   = ~I'd just prefer to live another day, is all. I'm only young, and I'm a lover, not a fighter... Plus I can't very well pen tales when I'm dead, can I? Hmm, unless I was, uh, undead... Creepy.~
 @36   = ~Thanks, <CHARNAME>, I'm glad you understand. I guess we'll, uh, just have to get through this together! Well, on to our next adventure, and with luck, not our last!~
 @37   = ~Good <PRO_SIRMAAM>, might I ask what made you decide to tread this righteous path?~
-@38   = ~It's a topic I do not care to explore. Lets drop the topic until another time, Ajantis.~
+@38   = ~It's a topic I do not care to explore. Let's drop the topic until another time, Ajantis.~
 @39   = ~Well, I had no particular reason, but one of the fringe benefits is that it's a great way to meet chicks!~
 @40   = ~Well, I had no particular reason, but one of the fringe benefits is that it's a great way to meet boys!~
 @41   = ~It revolves around a story that I heard as a youngster, about the source of the undead being attributed towards the actions of 13 paladins and how, after a long and tragic battle, 12 of them turned on their colleague, killed him and drank his blood, their reasons being unclear. Then, being ashamed of their actions, they turned and fled, being unable to look upon each other in the full glare of daylight. They lived in an unlife, a decrepit existence, doomed to live off the blood of others.~
@@ -59,7 +59,7 @@
 @58   = ~Our quest focuses on discovering the scourge of the Sword Coast, and you're harping on about er... tiling patterns? What's next? Rugs? Are you aware of the urgency of our task?~
 @59   = ~You surprise me, <CHARNAME>, in that you show signs of being interested in cultures beyond your own experience, yet when the moment presents itself, you reject it utterly. Have you ever considered that part of being a leader is being able to distinguish between the most appropriate times to lead and to listen?~
 @60   = ~And where have you learned about leadership, Ajantis? From the hallowed halls of The Order? From an ancient prelate or some other decayed entity that no longer has any relevance to current affairs? Adventuring isn't as pretty as you may have read. We have to be a strong, fast, effective unit in order to survive. If that calls for the culling of intra-party niceties... Well, you get my point.~
-@61   = ~You... may have a point there, Ajantis. Perhaps I should apologize for my attitude. I've not long been out of Candlekeep, and I am still adjusting to the loss of Gorion. Anyway, what you were you saying about siege warfare?~
+@61   = ~You... may have a point there, Ajantis. Perhaps I should apologize for my attitude. I've not long been out of Candlekeep, and I am still adjusting to the loss of Gorion. Anyway, what were you saying about siege warfare?~
 @62   = ~Well, there are several things that give it away. First of all, there are the gradient textures in some of these buildings here. As you can tell the age of trees by their internal rings, you can ascertain the age of the building from its masonry. You see, natural resources, such as granite and other hard rock, are eventually used up, meaning that natural sandpits are turned to as a filler material. When this is applied, you see eventual shifts in the color of external masonry.~
 @63   = ~That's all well and great, but all that tells us is that there has been some building degradation. It doesn't tell us that siege engines actually caused the damage. Can you offer anything else to support this claim?~
 @64   = ~Your attitude isn't what I would have come to expect from a leader, <CHARNAME>. The urgency of the tasks we have to achieve isn't lost upon us, but I would have expected some integration amongst your fellows. Perhaps next time I shall try military history with you.~
@@ -69,14 +69,14 @@
 @68   = ~A family crest suggests family longevity and pride, Ajantis. It also hints at tradition. You should respect this: not everyone has a lineage in which they can show pride and honor. I should know, as I'm one of them.~
 @69   = ~Having seen how timid and fragile you are, Ajantis, a rabbit would've been more befitting.~
 @70   = ~Mmgh... Sturdy shield. Colorful blazon. Very nice. Let's get moving now.~
-@71   = ~There is, but it's not a very glamorous one. Rather then being inspired by a heroic battle or a tragic love story, it is simply an emblem, based on a mosaic by my great-grandfather. He refused to tread the warrior's path, choosing instead to be an artist. His legacy was the wish for his family not to become conceited and arrogant of their own achievements.~
+@71   = ~There is, but it's not a very glamorous one. Rather than being inspired by a heroic battle or a tragic love story, it is simply an emblem, based on a mosaic by my great-grandfather. He refused to tread the warrior's path, choosing instead to be an artist. His legacy was the wish for his family not to become conceited and arrogant of their own achievements.~
 @72   = ~The green dragon represents the arrogance of men, the streak of jealousy that can run through us all, if you will. The golden background represents the riches of the spirit that are open to us all, the opportunities to achieve more without becoming more conceited. This is what all members of the family wear, in honor of both the man and his vision.~
 @73   = ~Whilst that isn't as glamorous as you may wish it to be, it is much more insightful of the pitfalls that one such as yourself will have to face, Ajantis. I have every confidence that not only will you be a great paladin, you'll be a humble one.~
 @74   = ~Ideologically, that is sound, but realistically it's pathetic. How can you achieve your goals with a family background that chooses paintbrushes over weapons, or humility over glory? Where is the passion to move beyond what your family has imposed on you?~
 @75   = ~Yes, the family pride emanates from all of us, although perhaps not as strongly in me, due to my choice in serving Helm. My path is that of order and humility. This crest helps me to remember that. However, I thought you were raised in Candlekeep? Surely, someone from such a prestigious background is part of a long family chain of learned scholars?~
-@76   = ~No, I'm not so fortunate as to know the origins of my family. I was raised by Gorion of Candlekeep, but I am not his natural child. My past is as unclear as my future. Still, there is no need for us to sit here and reiterate my own tragic tale, especially when it is so recent. Come, lets move along.~
+@76   = ~No, I'm not so fortunate as to know the origins of my family. I was raised by Gorion of Candlekeep, but I am not his natural child. My past is as unclear as my future. Still, there is no need for us to sit here and reiterate my own tragic tale, especially when it is so recent. Come, let's move along.~
 @77   = ~Aye, you are right, but our sires birth children. It's up to us to grow into men and women.~
-@78   = ~Besides, the story of Ilvastarr's crest is not a very glamorous one. Rather then being inspired by a heroic battle or tragic love story, it is simply an emblem, based on a mosaic by my great-grandfather. He refused to tread the warrior's path, choosing instead to be an artist. His legacy was the wish for his family not to become conceited and arrogant of their own achievements.~
+@78   = ~Besides, the story of the Ilvastarr crest is not a very glamorous one. Rather than being inspired by a heroic battle or tragic love story, it is simply an emblem, based on a mosaic by my great-grandfather. He refused to tread the warrior's path, choosing instead to be an artist. His legacy was the wish for his family not to become conceited and arrogant about their own achievements.~
 @79   = ~Ideologically, that is sound, but realistically it's pathetic. How can you achieve your goals with a family background that chooses paintbrushes over weapons or humility over glory? Where is the passion to move beyond what your family has imposed on you?~
 @80   = ~Scoff at my demeanor if you wish, but this emblem serves to remind me of the arrogance of my peers, arrogance similar to yours, in fact. Have you any symbolic possession that does the same for you?~
 @81   = ~No, I don't, and they aren't needed. The remains of the only family I ever knew are now lying in an open field, and my bestest friend is straggling along with us now. Why would I need a man-made symbol to remind me of anything? I have all the reminders I need - weakness will get you killed.~
@@ -124,7 +124,7 @@
 @123  = ~I have heard myself compared to a fox before... when they thought I was out of the earshot...~
 @124  = ~That must *surely* be a sign of a *true* druid, to see a beastly feat in everyone. 'Tis a pity you were not blessed with such a talent.~
 @125  = ~Grrreat! Of course! <PRO_RACE>s are beasts like any other! Grrreat answer!~
-@126  = ~What! You think of beasts as lesser? Fool <PRO_RACE>! Oh! I HAVE it! You are simply a <PRO_RACE>! <PRO_RACE>s are beasts like any other, so there is no point to look for another beast similar to you in <PRO_HIMHER> mannerism. ~
+@126  = ~What! You think of beasts as lesser? Fool <PRO_RACE>! Oh! I HAVE it! You are simply a <PRO_RACE>! <PRO_RACE>s are beasts like any other, so there is no point to look for another beast similar to you in <PRO_HISHER> mannerism.~
 @127  = ~Yes, yes, that's true. *Faldorn's face darkens.* Unless, of course, farrrrrmers come with their plows and gluttonous herds, or evil woodcutters mark you as their victim. ~
 @128  = ~All things must die. Is it really much better dying from a disease, or hit by an arrow, than in a cow's mouth, or in the fires of a furnace?~
 @129  = ~Then I am glad that I am a <PRO_RACE>, and can defend myself!~
@@ -152,7 +152,7 @@
 @151  = ~Gorion was the *best* parent a child could wish for. And he never lied to me... unless you count not telling the truth as lying... ~
 @152  = ~Of course. But now I can think for myself, finally!~
 @153  = ~BAH! I am bloody *happy* that I am not some barbarian, given away as an offering! ~
-@154  = ~Nobody is an orphan! The Great Mother cares for all of her children. As for woman who birthed me, I do not know. The tribe offered me to the druids, when I was a newborn. ~
+@154  = ~Nobody is an orphan! The Great Mother cares for all of her children. As for the woman who birthed me, I do not know. The tribe offered me to the druids, when I was a newborn. ~
 @155  = ~But why?~
 @156  = ~How touching. Now let us go, Faldorn.~
 @157  = ~You should tell this story more often. Maybe it will compel people to take better care of their kids, once they know how you came to grow into such a... druid.~
@@ -177,7 +177,7 @@
 @176  = ~So, what's so special about the Red Wizards, Edwin? It is a sore thing not to know just how lucky I am. ~
 @177  = ~*snicker* That explains why a Red Wizard would dress up like a desperate picador, but what about you, Edwin?~
 @178  = ~In our uncivilized lands, *we* barbarians would rather laugh than bow to such as you.~
-@179  = ~The Red Wizards of Thay hold the darkest secrets of the strongest magic! The weakest of our Zulkir could grind that pathetic Elminster of yours to dust with a flick of her finger. (I hold more power in my pinky then <PRO_HESHE> does in <PRO_HISHER> dry little brain, I am sure.)~
+@179  = ~The Red Wizards of Thay hold the darkest secrets of the strongest magic! The weakest of our Zulkir could grind that pathetic Elminster of yours to dust with a flick of her finger. (I hold more power in my pinky than <PRO_HESHE> does in <PRO_HISHER> dry little brain, I am sure.)~
 @180  = ~And Zulkir would be a honey and nut pastry?~
 @181  = ~Oh, bite it, Edwin. Red Wizards think themselves so important, but in truth, they are no better than other mages. In fact, they are worse, because they spend too much time on political scheming, and too little on researching magic.~
 @182  = ~You have convinced me of the Red Wizards' superiority, Edwin. If you shall offer me a practical demonstration of your skill in the next battle, I'll kneel before you and forever worship your prowess. I'm sure you wish to hurry that joyous occurrence along, so let's just move. *Now*!~
@@ -191,7 +191,7 @@
 @190  = ~No kidding?!~
 @191  = ~Calm down, Edwin. A practical demonstration of your outstanding skill in the next battle is in order. And we won't get there unless we move. *Now*!~
 @192  = ~The Zulkir, my painfully ignorant travel companion, are the most powerful mages among the Red Wizards. They have complete dominion over the wizards in their respective schools of magic. (Shall I have to clarify *that*, I wonder?)~
-@193  = ~Magocracy does not sound like a very good way of governing to me... True mages should be removed from the affairs of the world to practices true arcane art.~
+@193  = ~Magocracy does not sound like a very good way of governing to me... True mages should be removed from the affairs of the world to practice true arcane art.~
 @194  = ~Oh, bite it, Edwin. Red Wizards think themselves so important, but in truth, they are no better than other mages. In fact, they are worse, because they spend too much time on political scheming, and too little on researching magic. ~
 @195  = ~You have convinced me of the Red Wizards' superiority, Edwin. If you shall offer me a practical demonstration of your skill in the next battle, I'll kneel before you and forever worship your prowess. I'm sure you wish to hurry that joyous occurrence along, so let's just move. *Now*!~
 @196  = ~Yes, yes, the challenges posed by the unilateral mind. Those who are accepted into the ranks of the Red Wizards are talented beyond what barbarians here can imagine. Thusly, they excel in both magic and politics.~
@@ -247,7 +247,7 @@
 @246  = ~Yes, I'm a funny one. Let's kill her, then.~
 @247  = ~Truly, Edwin, to me, murder lacks that subtle je ne sais quoi. It hardly seems like a feat to do away with the witch, before you know what she's after. Besides, she seems well guarded, and I fear for your safety.~
 @248  = ~Truly, Edwin, to me, murder lacks that subtle je ne sais quoi. It hardly seems like a feat to do away with the witch, before you know what she's after. Besides, she seems skilled in her craft, and I fear for your safety.~
-@249  = ~You could do this without constantly pestering me about it, you know. It's not like you lack the opportunity, seeing as you're traveling by her side.~
+@249  = ~You could do this without constantly pestering me about it, you know. It's not like you lack the opportunity, seeing as you're travelling by her side.~
 @250  = ~It is a matter of basic courtesy, given that you have convinced yourself and these other simpletons that you are the leader of this group. I shall not waste time on consulting you on this issue. (Good. It is good.)~
 @251  = ~I was under the impression that we had an understanding, regarding the witch. I hope that you haven't lost your stomach for a little conspiracy – it is, after all, the spice of life, and you do seem like one who appreciates a touch of perversion.~
 @252  = ~Truly, Edwin, it hardly seems like a feat to do away with the witch, before you know what she's after. Besides, she seems well guarded, and I fear for your safety.~
@@ -330,7 +330,7 @@ Our love shall live, and later life renew.~
 @324  = ~Couldn't we wait for something more... interesting? ~
 @325  = ~This is more disgusting than I thought - never mind! ~
 @326  = ~First, I cut open its chest - like so. There! Can you see the heart? ~
-@327  = ~Yes, its there, right? ~
+@327  = ~Yes, it's there, right? ~
 @328  = ~No, I can't. Sorry. ~
 @329  = ~I... I think I'm going to be sick. ~
 @330  = ~Nonsense! Its bestial ferocity is the perfect essence for a beginner's first distillation. Now.~
@@ -343,7 +343,7 @@ Our love shall live, and later life renew.~
 @337  = ~See? Here is the heart. Lovely, isn't it? Now hold this vial, whilst I fill it. ~
 @338  = ~Hee-hee! Suppression of the gag reflex is part of the learning process, <CHARNAME>. But not on the specimen, you fool! Over there! ~
 @339  = ~Bluh-WOOAHLP! ~
-@340  = ~*You keep your rebelious dinner down. There is a reason to why the songs call you the Hero of the Sword Coast!*~
+@340  = ~*You keep your rebellious dinner down. There is a reason why the songs call you the Hero of the Sword Coast!*~
 @341  = ~Yes, it does. You get the most blood when you cut it along this curve. Hmm. Could really have used a larger bottle. No matter. Your sleeves are washable, I trust?~
 @342  = ~Well, that's all of it. That's how you collect the blood. Now to its use. ~
 @343  = ~*smile* I'm looking forward to it! ~
@@ -363,10 +363,10 @@ From the Other Side. ~
 @353  = ~*Now*, <CHARNAME>, you take the flower! ~
 @354  = ~Huh! What a let-down. I... OOWWW!!!~
 @355  = ~Childishly simple, but... effective, is it not? ~
-@356  = ~You bastard! That ‘flower' is a dire stinging nettle! ~
+@356  = ~You bastard! That 'flower' is a dire stinging nettle! ~
 @357  = ~Really? I bow to the superiority of your botanical lore. But... what, pray tell, has the type of flower to do with any of this? ~
 @358  = ~It's got poisoned thorns, dammit. I'll be itching for a week, if I don't die of blood poisoning first on account of your foolery. ~
-@359  = ~That ‘poor little flower' bites worse - all by itself - than any wolf I've ever met. ~
+@359  = ~That 'poor little flower' bites worse - all by itself - than any wolf I've ever met. ~
 @360  = ~Nothing. Nothing at all. You're a wonder wizard of the first degree, Xzar.~
 @361  = ~Oooh! Would you do that for me? I'd be ever so grateful, really I would.~
 @362  = ~Then behold the power of unintended magecraft, <CHARNAME>, for never have I observed of clearer case of like calling to like - which, as you doubtless will *not* know, is the foundation of *all* thaumaturgy!~
@@ -405,7 +405,7 @@ From the Other Side. ~
 @395  = ~Well, let me think. There wa... Hey! Your not thinking about turning me into a zombie, are you?~
 @396  = ~No... although it would be a fine joke on old Barzy, if your pedigree were not up to snuff. *sigh* But he's dead himself, now, so he couldn't appreciate it.~
 @397  = ~I hope someone made a zombie of *him*.~
-@398  = ~Of dear Barzenak? Why ever for? No. He tried to become a lich... didn't quite make it. They stuffed him, I as I heard it, and sat him in the hallway of his former home. The new owner claimed his effigy keeps the zombies up to their work.~
+@398  = ~Of dear Barzenak? Why ever for? No. He tried to become a lich... didn't quite make it. They stuffed him, as I heard it, and sat him in the hallway of his former home. The new owner claimed his effigy keeps the zombies up to their work.~
 @399  = ~Stuf... ugh... that's horrible, Xzar! Why must you be *so* disgusting?~
 @400  = ~Well, *pardon* my sugar-coating it for you! If I didn't imagine it all. I could tell you... one way or the other... if I could *just* find that compact little reference volume I used to have.~
 @401  = ~My soul aches for my lost Deheriana.~ [%tutu_var%KIVAN11]
@@ -446,7 +446,7 @@ From the Other Side. ~
 @436  = ~And how are you feeling today, Shar-Teel? (I would ask you what you're thinking, but somehow I doubt you'd be able to answer.)~
 @437  = ~I'd be much better off if I wasn't talking to such a spineless weakling. Maybe if you spent more time sharpening our blades, instead of your idle tongue, the rest of us could go an entire day without a headache! But no matter... You'll catch your death soon enough, Edwin, even if you do insist on staying in the back, like a coward. Honestly, I can't see how you have any fun on these adventures.~
 @438  = ~Oh, it is quite amusing, I assure you. But now look what you've done. This little exchange is beginning to resemble an actual conversation... and we wouldn't want *that* to happen, now, would we? It might lead others to the false assumption that you are actually worthy of bantering with me, which would be a gross exaggeration of your verbal skills. (And, needless to say, an insult to my own). Scamper off, then, Shar-Teel. Right to the front, if you please.~
-@439  = ~I don't see why you bother cleaning your amour, knightling. Each blood stain is a mark of victory.~
+@439  = ~I don't see why you bother cleaning your armour, knightling. Each blood stain is a mark of victory.~
 @440  = ~In future, address me as 'Ajantis', or do not address me at all.~
 @441  = ~As to your question, it is the duty of a knight to keep his equipment in good condition. The Order demands no less.~
 @442  = ~How *noble* of you.~
