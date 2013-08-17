@@ -9,7 +9,7 @@
 @8    = ~Ajantis, I am safer with you than I have ever been. I admire your skill as well as your judgement.~
 @9    = ~Any suggestions, Ajantis?~
 @10   = ~Ajantis, wait a minute. I think there is something in your hair...~
-@11   = ~Ajantis, is that a stain on your armour?~
+@11   = ~Ajantis, is that a stain on your armor?~
 @12   = ~I don't know... My body is hurting from all this new and unusual travelling with heavy equipment since I left Candlekeep.~
 @13   = ~*You take Ajantis' arm, pretending to be scared.* For someone raised in the calm of a library, these surroundings are rather...intimidating.~
 @14   = ~*You pretend to rearrange your hair, in fact not changing it at all.* Ajantis, I need your opinion. Is this hairstyle better, or the one before?...~
@@ -104,9 +104,9 @@
 @103  = ~*You study Ajantis' appearance as a whole.*~
 @104  = ~*You do not look at Ajantis any further.*~
 @105  = ~*On Ajantis' face is a stern expression of concentration and vigilance, almost making him appear to be frowning. His skin is tanned from all the time spent outside, and his shaving is flawless.*~
-@106  = ~*The outline of Ajantis' armour and clothes suggest muscular shoulders and arms. His frame is not the bulky sort, yet it is big enough to demonstrate the strength gained by years of hard training.*~
+@106  = ~*The outline of Ajantis' armor and clothes suggest muscular shoulders and arms. His frame is not the bulky sort, yet it is big enough to demonstrate the strength gained by years of hard training.*~
 @107  = ~*Ajantis' hands are big, yet not clumsy. Their skin is tanned, the fingernails cut short and clean. As usual, one of his hands rests on a weapon's handle, ready to draw it with a firm grip, if necessary.*~
-@108  = ~*Ajantis stands upright, his expression radiating vigilance and loyality, and also a slight bit of nervosity. His armour and clothes are in good condition, proving Ajantis' effort in taking care of them. On his cloak the Ilvastarr's family coat of arms is shown: A metallic green dragon with orange eyes on a gold background.*~
+@108  = ~*Ajantis stands upright, his expression radiating vigilance and loyality, and also a slight bit of nervosity. His armor and clothes are in good condition, proving Ajantis' effort in taking care of them. On his cloak the Ilvastarr's family coat of arms is shown: A metallic green dragon with orange eyes on a gold background.*~
 @109  = ~*Ajantis notices your attention and gives you a quick look.* Can I help you in any way, my lady?~
 @110  = ~*Ajantis notices your attention and turns to you.* Is something wrong, my lady?~
 @111  = ~*Ajantis doesn't seem to notice your attention, leaving you a quiet moment for examination.*~
@@ -126,10 +126,10 @@
 @125  = ~Where did you say, my lady?~
 @126  = ~*You start polishing a pretended stain on his breast plate, leaning forward while doing so...*~
 @127  = ~*You pretend there is a fluff at the back of his shoulder that needs removing.*~
-@128  = ~*You pretend to polish his armour, starting at his hip, right above the thigh...*~
+@128  = ~*You pretend to polish his armor, starting at his hip, right above the thigh...*~
 @129  = ~*You could have sworn Ajantis was looking down your shirt, but when you look quickly into his face, his eyes are focused on your hands.* Thank you, my lady... But it is important that we do not allow ourselves to become distracted from our tasks. Let us move on.~
 @130  = ~*This time you caught him. As soon as Ajantis notices that you caught the true destination of his stare, he turns away quickly, face and ears reddening.*~
-@131  = ~Thank you, my lady... I will have a close look at this spot when cleaning my armour tonight.~
+@131  = ~Thank you, my lady... I will have a close look at this spot when cleaning my armor tonight.~
 @132  = ~Thank you, my lady... I appreciate your concern regarding my appearance.~
 @133  = ~*Ajantis stands motionless until you finish.* Thank you, my lady.~
 @134  = ~*Ajantis jumps away as if hit by a spark.* My lady! That is very... very... I will clean any stains that might be there myself!~
@@ -229,8 +229,8 @@
 @228  = ~As ever, ready to fight any evil that we might encounter, my love.~
 @229  = ~Thank you for asking, my love. I am happy to be at your side!~
 @230  = ~*As usual, Ajantis' face wears a stern expression of concentration, vigilance, and loyality. His frown seems to have vanished, though.*~
-@231  = ~*The outline of Ajantis' armour and clothes suggest muscular shoulders and arms. His frame is not the bulky sort, yet it is big enough to demonstrate the strength gained by years of hard fighting and training.*~
-@232  = ~*Ajantis' armour and clothes are in good condition, proving his effort in taking care of them. On his cloak, the Ilvastarr's family coat of arms is shown: A metallic green dragon with orange eyes on a gold background. Ajantis is standing upright, his expression radiating vigilance and loyality. The hint of nervosity you noticed earlier seems to be gone.*~
+@231  = ~*The outline of Ajantis' armor and clothes suggest muscular shoulders and arms. His frame is not the bulky sort, yet it is big enough to demonstrate the strength gained by years of hard fighting and training.*~
+@232  = ~*Ajantis' armor and clothes are in good condition, proving his effort in taking care of them. On his cloak, the Ilvastarr's family coat of arms is shown: A metallic green dragon with orange eyes on a gold background. Ajantis is standing upright, his expression radiating vigilance and loyality. The hint of nervosity you noticed earlier seems to be gone.*~
 @233  = ~*Ajantis notices your attention and gives you a smile.* I cannot help feeling watched, my love.~
 @234  = ~*Ajantis notices your attention and turns to you.* Is something wrong, my love?~
 @235  = ~*Ajantis smiles back at you.* Where did that ray of sunlight come from, that just warmed my face?~
@@ -301,7 +301,7 @@
 @300  = ~I do not see... Ah, my love, I like all of your hairstyles very much.~
 @301  = ~*Ajantis takes the opportunity to run his fingers softly through your hair.* Your hair is always beautiful, my love.~
 @302  = ~*Ajantis' face wears a stern expression of concentration and vigilance. He frowns deeply, and he seems to be thinking about something that moves him very much.*~
-@303  = ~*Ajantis' armour and clothes are in good condition, proving his effort in taking care of them. On his cloak, the Ilvastarr's family coat of arms is shown: A metallic green dragon with orange eyes on a gold background. Ajantis is standing upright, but besides his usual vigilance and loyality, his expression also seems to radiate a hint of thoughtfulness.*~
+@303  = ~*Ajantis' armor and clothes are in good condition, proving his effort in taking care of them. On his cloak, the Ilvastarr's family coat of arms is shown: A metallic green dragon with orange eyes on a gold background. Ajantis is standing upright, but besides his usual vigilance and loyality, his expression also seems to radiate a hint of thoughtfulness.*~
 @304  = ~*Ajantis notices your attention and gives you a short smile without saying anything.*~
 @305  = ~*Ajantis notices your attention and turns to you.* Is something wrong, <CHARNAME>?~
 @306  = ~*Ajantis answers with an approving nod. He looks thoughtfully into your eyes before he turns away.*~
