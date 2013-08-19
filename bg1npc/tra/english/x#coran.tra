@@ -45,7 +45,7 @@ Is she not a beauty?~
 @41   = ~The wisdom of my ancient race. Cannot beat it.~
 @42   = ~You wipe that grin right off your face, elf, otherwise I'll show you how one can beat ancient wisdom... or its carrier.~
 @43   = ~Nope. I do admire the elves so!~
-@44   = ~After the elf has heroically slain the foul orc, there is only one thing left for him to do. He will die in sad reverie about his kin's glorious past and amind regrets of his inability to prevent thier inevitable demise. Then a dwarf will come by and will try to bury him, but, while digging his grave, he is as like as not to find a vein of mithral. So he'd use the tree to smelt the metal and he will have no time among his labors to worry about the elven corpse... And that is why elves dislike the dwarves.~
+@44   = ~After the elf has heroically slain the foul orc, there is only one thing left for him to do. He will die in sad reverie about his kin's glorious past and amid regrets of his inability to prevent their inevitable demise. Then a dwarf will come by and try to bury him, but, while digging his grave, he is as like as not to find a vein of mithral. So he'll use the tree to smelt the metal and he will have no time among his labors to worry about the elven corpse... And that is why elves dislike dwarves.~
 @45   = ~Which will be eaten by a hungry halfling, in turn?~
 @46   = ~What about halflings and humans and gnomes?~
 @47   = ~Coran, that's enough!~
@@ -58,7 +58,7 @@ Is she not a beauty?~
 @54   = ~A halfling would open a small tavern on the spot and call it the “Elf and Orc”, and boast unceasingly that he sells the best ale on Toril. That would be true, of course, since we are talking about the very last one. A human would peer at the elf's remains, thinking wistfully that he would never be able to die in such a mystic way, but aloud he would say that the arrogant bastard had found an appropriate end. I swear by Hanali Celanil's golden heart that I do not know what a gnome might do. Ask a gnome...~
 @55   = ~Yeah, good story!~
 @56   = ~A human would peer at the elf's remains, thinking wistfully that he would never be able to die in such a mystic way, but aloud he would say that the arrogant bastard had found an appropriate end. I swear by Hanali Celanil's golden rose that I do not know what a gnome might do. Ask a gnome... ~
-@57   = ~Who is not? Relax, <CHARNAME>, I do allow that an orc could be a noble exception to his race and that an elf could kill a tree for some dark purpose, and I can even imagine a generous dwarf, adventurous halfling,or a human who did not lust for the things others have...~
+@57   = ~Who is not? Relax, <CHARNAME>, I do allow that an orc could be a noble exception to his race and that an elf could kill a tree for some dark purpose, and I can even imagine a generous dwarf, adventurous halfling, or a human who does not lust for the things others have...~
 @58   = ~I hope that you'd trade me a tale a two of your own for this? Something about the fun times monks have in Candlekeep, maybe?~
 @59   = ~Ah, to be a young runaway from home! You are a daring <PRO_MANWOMAN>, <CHARNAME>. I like it!~
 @60   = ~I am not that young. I have seen a bit of a world, and I am rapidly becoming a hero of sorts! Just wait another month or so - then nobody will dare to address me as *young* <CHARNAME>. I will be as famed as Drizzt soon!~
@@ -123,7 +123,7 @@ Is she not a beauty?~
 @119  = ~Not so loud, if you please! I have a reputation to live up to, you know.~
 @120  = ~Yes, my friend. Sometimes I think that it is the noblest form of love. To wish someone every happiness and wish not for anything in return.~
 @121  = ~That, Coran, is called camaraderie. Not love. Is it so inconceivable to you to have a lady friend who does not share your bed?~
-@122  = ~Loves means life, <CHARNAME>, and one can never think of either too much.~
+@122  = ~Love means life, <CHARNAME>, and one can never think of either too much.~
 @123  = ~Rise and shine, roguesse! ~
 @124  = ~A simple 'the most beautiful, charming and elegant lady in the world' should suffice, darling. What was this 'roguesse' anyway?~
 @125  = ~My most beautiful, charming and elegant lady in the world, I thought this morn that Common is a wonderfully flexible language, but it lacks the ability to mimic the most attractive feature of the world too often. That is that there are males and females...~
@@ -178,12 +178,12 @@ And I do not know why.~
 @150  = ~I left Brielbara with her loving husband! Is it my fault that he turned out to be a cruel-hearted bastard?~
 @151  = ~Brielbara has a special talent for falling for cruel-hearted bastards, apparently.~
 @152  = ~Up, Coran of Tethyr! If you have the strength to grumble, you should have enough strength to walk.~
-@153  = ~Oh, all right, I cannot stand this pathetic display helplessness. A longer rest will not hurt us. Go back to sleep, Coran, and let me try to lull Namara... while we still have arrows left.~
+@153  = ~Oh, all right, I cannot stand this pathetic display of helplessness. A longer rest will not hurt us. Go back to sleep, Coran, and let me try to lull Namara... while we still have arrows left.~
 @154  = ~I should have known better than to doubt you... this lullaby, it sounds very convincing coming from you. *Coran falls asleep, but it will take you good two hours to quiet Namara.*~
 @155  = ~Let my dreams be as beautiful and kind as you are with Namara. *Coran and Namara both fall asleep peacefully, as well as the rest of your rugged companions.*~
 @156  = ~Ermm... you think? I doubt that it is quite true, but... all right. I will not let a frown spoil your beautiful face, <CHARNAME>. I will try to get ready shortly... Namara! Please... I have had lovers who were not as keen as you to pull on my laces...~
 @157  = ~Apparently. You have it all figured out, do you not? Poor, naive Brielbara, cruel-hearted Coran and a bastard babe. Why do I even bother talking to you?~
-@158  = ~Your shield bears a sigil, but it is not Helms' eye. Would that be you family's coat of arms?~
+@158  = ~Your shield bears a sigil, but it is not Helm's eye. Would that be you family's coat of arms?~
 @159  = ~Aye, Coran. Those are the sigil and the words of the House Ilvastarr of Waterdeep.~
 @160  = ~'Law above all'?~
 @161  = ~'Law above all.'~
@@ -197,7 +197,7 @@ And I do not know why.~
 @169  = ~Alora, if you do not mind me asking, do your parents know where you are and what you are doing?~
 @170  = ~Nope. How ‘bout yours?~
 @171  = ~I visited them only a short time ago.~
-@172  = ~Oh, that's when that wizard caught you with his wife and you had to flee the Gate?~
+@172  = ~Oh, that was when that wizard caught you with his wife and you had to flee the Gate?~
 @173  = ~No, it was after Ivette... or was it Anette... told me that we were over for the third time and I felt that it *was* over... Never mind. It cannot be more than 10 years. Tethyr is too far away... and besides it is too idyllic for my liking, but I do miss my parents. Do you?~
 @174  = ~Aye, a bit, every now and then, but I think the further I am from them, the fonder I am of them. Funny, huh?~
 @175  = ~You know, they might be worried sick about you. If I did not know where Namara was...~
@@ -305,10 +305,10 @@ If thou kiss not me?~
 @270  = ~I did play, Garrick. I unstrung my bow and put the string on the lute.~
 @271  = ~And you were, uh, successful?~
 @272  = ~Of course not! Even an elf cannot play well with only one string! However, it is all the matter of perception. Before starting, I announced that it was a comical trick... You should have seen them all laughing as I plucked at that single string over and over and over again. And you should have seen her smile... but, that again is an indiscretion.~
-@273  = ~Such grace and finesse in motion. Imoen, watching you to pick locks is a pleasure to my sore eyes. So much incompetence around...~
+@273  = ~Such grace and finesse in motion. Imoen, watching you pick locks is a pleasure to my sore eyes. So much incompetence around...~
 @274  = ~Huh, to be honest, Coran, thieving's not much to my liking...~
 @275  = ~The trick is to take from those who can spare it.~
-@276  = ~*giggles* How'd you know that? Do you come up to a person and ask if he can afford to be robbed? Or do you leave a message in a house you have just picked clean with your address, so they can reach you in case if they'd want stuff back?~
+@276  = ~*giggles* How'd you know that? Do you come up to a person and ask if he can afford to be robbed? Or do you leave a message in a house you have just picked clean with your address, so they can reach you in case they'd want stuff back?~
 @277  = ~If such thoughts trouble your pretty head, maybe you should think of trying out something else?~
 @278  = ~I am sorry, Imoen. I am trying to sort through some... ahem, paperwork and...~
 @279  = ~Heya, Coran. Wow, what a stack of letters! Do you have a large, lovin' family or somethin'? ~
@@ -329,7 +329,7 @@ If thou kiss not me?~
 @294  = ~Jaheira, you tempestuous druid lady, what were you and Khalid whispering and laughing about awhile ago while looking my way? I always take delight in a fair, smiling maiden's face turned in my direction, but not necessarily, ahem, with her husband's accompaniment.~
 @295  = ~Well, for one thing, I was remarking to Khalid how you would have looked flopping about in the water, had that bridge you stood on like a toll collector not been wide enough to let two pass abreast.~
 @296  = ~Cruel woman! and had it not, would you have really shoved me off to go past, had you not decided to let me join your delightful company?~
-@297  = ~Oh, yes, definitely, seeing how that that was the only way we could get across. Now, if I was paranoid, like some mad wizard, I would suspect that some mischievous and heavy-handed deity designed our travel plans so that we would have no choice but to run in to you.~
+@297  = ~Oh, yes, definitely, seeing how that was the only way we could get across. Now, if I was paranoid, like some mad wizard, I would suspect that some mischievous and heavy-handed deity designed our travel plans so that we would have no choice but to run into you.~
 @298  = ~Ah, that benevolent deity surely must be female.~
 @299  = ~What is the difference between the love of a maid and love of a married woman, Jaheira?~
 @300  = ~A maiden's love is a chance arrow: no one knows where it will fall. A married woman has her eyes set on only one target.~
@@ -338,10 +338,10 @@ If thou kiss not me?~
 @303  = ~Khalid is uninterested in the charms of women? Who could have suspected! What a waste of a woman like you!~
 @304  = ~*icily* I was not speaking figuratively.~
 @305  = ~So you meant for him to shoot me dead, my cruel beauty? ~
-@306  = ~I am glad we came to some understanding. And by the Oaths of Sylvanus, if you'd dare to call me yours again, I'll... ~
+@306  = ~I am glad we came to some understanding. And by the Oaths of Silvanus, if you'd dare to call me yours again, I'll... ~
 @307  = ~*dreamily* Oh, the love of a married woman is like thin ice, but what a thrill to tread on it! ~
 @308  = ~Please, comrades, let us halt for a moment. Namara thinks it is feeding time... again.~
-@309  = ~Coran, let her cry. You have to make her to get used to a schedule.~
+@309  = ~Coran, let her cry. You have to make her get used to a schedule.~
 @310  = ~And you call yourself a druid? ~
 @311  = ~Yes, I am a druid, and I know what I am talking about.~
 @312  = ~Jaheira, when you and Khalid have your own children, you are welcome to do as you please with them. I am not letting my daughter starve to death for your pleasure.~
@@ -386,7 +386,7 @@ If thou kiss not me?~
 @351  = ~Yes. Please, be my witness, Coran. I swear that I will not kill a kneeling person who laid aside his blade.~
 @352  = ~You do not need an oath to bind you. You would not have done it, anyway.~
 @353  = ~Minsc, you traveled this far to be accepted to the Ice Dragon Berserker Lodge? The membership must be highly sought, if you are to accomplish such a feat to join.~
-@354  = ~‘Tis true. The lodge is a place for legendary warriors to meet and their trade tales of fights with evil, manly deeds and manly talk.~
+@354  = ~‘Tis true. The lodge is a place for legendary warriors to meet and trade tales of fights with evil, manly deeds and manly talk.~
 @355  = ~Dragons killed single-handedly and such?~
 @356  = ~Deeds of valor and great bravery. And all done in berserk fury!~
 @357  = ~Hmmm... I remember I once crossed a river at the rapids, jumping from slippery stone to slippery stone... fighting for my dear life every step of the way. It was bravery and folly at the same time... ~
@@ -405,7 +405,7 @@ If thou kiss not me?~
 @370  = ~A martyr, no doubt.~
 @371  = ~A numbpate more like. I hit low times and I told him, I'd go to his darned church and sleep there. And he started lecturin' me, like I could eat his words.~
 @372  = ~They had to wash the temple with holy water after your visit, I am sure.~
-@373  = ~With somethin', I suppose. 'twas pretty messy when I left. This rich feller comes by with a sack o' coin fer the preacher. His sins were plugging him or some such rot, so the idiot decides to give in hopes o' gettin' unplugged. Alla same, he were a sight more liberal in his givin' then he meant, I'd wager. Preacher, too. Between 'em, they givin' cured me o' poverty fer quite a time.~
+@373  = ~With somethin', I suppose. 'twas pretty messy when I left. This rich feller comes by with a sack o' coin fer the preacher. His sins were plugging him or some such rot, so the idiot decides to give in hopes o' gettin' unplugged. Alla same, he were a sight more liberal in his givin' than he meant, I'd wager. Preacher, too. Between 'em, their givin' cured me o' poverty fer quite a time.~
 @374  = ~Associating with you, Montaron, makes me wish I had chosen other ways of charming gold pieces into my pockets. ~
 @375  = ~May I sneak past you, Quayle?~
 @376  = ~Oh, of course, go ahead. But while you are here, do you share my suspicion that I am the smartest creature that ever lived?~
@@ -462,7 +462,7 @@ If thou kiss not me?~
 @427  = ~Why do you want to rule, Tiax?~
 @428  = ~Bah! Why do dwarves wish to dig in the earth!? Why do elves wish to prance in the trees all day!? If Tiax desires to rule, it is because Tiax is *destined* to rule, and Cyric has bestowed the proper cravings for his future role as ruler of all things!~
 @429  = ~You would be terribly unhappy, should you get absolute power...~
-@430  = ~BAH!!! Foolish slave, power is the sixth sense for one *born* to rule! Tiax shall be waited on hand and foot by comely slaves! Tiax's armies shall lay waste to the land, and erect mighty statues in his honor! Tiax shall build a palace which, on it's own, shall make the mightiest human cities look paltry in comparison! All shall hail Tiax as lord and master, and only then shall he be pleased!~
+@430  = ~BAH!!! Foolish slave, power is the sixth sense for one *born* to rule! Tiax shall be waited on hand and foot by comely slaves! Tiax's armies shall lay waste to the land and erect mighty statues in his honor! Tiax shall build a palace which, on its own, shall make the mightiest human cities look paltry in comparison! All shall hail Tiax as lord and master, and only then shall he be pleased!~
 @431  = ~A high lord in his palace is no freer than a prisoner in his dungeon, Tiax.~
 @432  = ~When Tiax rules, he will put you into his dungeon, so you can compare for yourself! Your days of wenching shall end in a bare cell with no companionship, with Tiax making sure to keep you nice and healthy for the hundreds of years remaining in your life! Ahhh, then Tiax shall be pleased even more, to see his old enemies wailing for his mercy and receiving none!~
 @433  = ~You would have to capture me first. And I will give up my freedom neither to a jailer nor to a courtier. I have no desire to be locked up in a jail cell, and as for palaces... Forests' boughs are my golden domes, and flowers in bloom are my carpets. Wine turns sour in the mouth, if served by a slave, and the kiss of a concubine loses its sweetness.~
