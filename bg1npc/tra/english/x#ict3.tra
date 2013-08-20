@@ -365,7 +365,7 @@ adventurer's delight.~
 @360  = ~I will gladly come to the aid of the townsfolk, <CHARNAME>.~
 @361  = ~My dear Mayor, from the looks of you, your idea of a handsome reward is a couple of chickens... or is it a pound of butter?~
 @362  = ~It's sure nice to be appreciated. Mayor, I can clear the mines of your 'demons' with my right hand tied behind my back.~
-@363  = ~We'd apprediate anything you can do for us.~
+@363  = ~We'd appreciate anything you can do for us.~
 @364  = ~We... we're not really going to drag around dead bodies, are we? Just the thought of it makes me feel ill!~
 @365  = ~No matter how deeply flattered I am by being entrusted with such a blessed assignment, I feel that any benefit that we could possibly reap from performing this mission is not worthy of risking staining my robes with refuse.~
 @366  = ~To become a pawn of a twisted necromancer with clear intent on upsetting the delicate cycle of nature? Not me, <CHARNAME>, I refuse to trudge through filthy sewers in search for rotten corpses. Every fiber of my being screams in protest at such a suggestion.~
@@ -440,7 +440,7 @@ adventurer's delight.~
 @435  = ~... because "luck" runs out... A good saying.~
 @436  = ~And you would do well to remember it, young adventurers.~
 @437  = ~Well met, sir, and farewell.~
-@438  = ~Always remember that because of you a wolf had died.~
+@438  = ~Always remember that because of you a wolf has died.~
 @439  = ~And good thing it is...~
 @440  = ~What?! How dare you?! This noble beast was worth ten of your kind! Perhaps I can even the score by sending you after the wolf!~
 @441  = ~Er... of course. I... I apologize, druid.~
@@ -455,7 +455,7 @@ adventurer's delight.~
 @450  = ~You knew full well that I would not stand for this, <CHARNAME>! I cannot let you murder this innocent creature! I do not relish breaking my oath to Gorion and raising a weapon against you, but you leave me no choice!~
 @451  = ~It seems that I will have to face you in c-combat, <CHARNAME>, little as I r-relish it, but I c-cannot let you c-c-commit this evil act. I will always stand by Jaheira's side in this.~
 @452  = ~A hero's work is never done.~
-@453  = ~Another fool freed. Oh, <CHARNAME>, what are hero you truly are.~
+@453  = ~Another fool freed. Oh, <CHARNAME>, what a hero you truly are.~
 @454  = ~I have heard many a tale of poor fellows subdued by evil enchantments, but to hear of one happening now is terrible! <CHARNAME> we must help!~
 @455  = ~And evil magic thrives against weak will; something you humans have in abundance.~
 @456  = ~Self–flagellation? Oh, my...~
@@ -614,7 +614,7 @@ adventurer's delight.~
 @609  = ~Whoa! That's some really creepy magic there!~
 @610  = ~<CHARNAME> can handle most things, and dear Monty here is as hard to kill as a cockroach. And you... you can hide in the jar with me!~
 @611  = ~<CHARNAME> can handle most things, and <PRO_HESHE> is as hard to kill as a cockroach. And you... you can hide in the jar with me!~
-@612  = ~Fool! You are more mad even that Carsa! Death will fit you well! KAHRK!~
+@612  = ~Fool! You are more mad even than Carsa! Death will fit you well! KAHRK!~
 @613  = ~OH MIGHTY KAHRK!!!~
 @614  = ~From the look of the surrounding area, a deadly spider's attack is no surprise... Why did we venture into this ghastly cave?~
 @615  = ~Hmmm. Does the Spider Queen have servants even here? ‘Ware, <CHARNAME>, for if so, those spiders could be lethal indeed.~
@@ -625,7 +625,7 @@ adventurer's delight.~
 @620  = ~So those workers we just killed attacked us cuz of him or somethin' or another, right? Well then, how come none of us were affected, huh?~
 @621  = ~I am unable to answer your question. We know little of this culture, and that is why I was doing research. I doubt that I would ever have an answer for you, Imoen.~
 @622  = ~You sound glad to discover that your adversary is the weaker critter. Hells and demons, but you are a pathetic one, even for a male! <CHARNAME>, this idiot would be of no use for us. We can kill the wyverns without having to share the reward with him.~
-@623  = ~An ancient red will not burn us into a crisp, but we'd die of poison, instead. <CHARNAME>, have mercy on us, walk wide around this suicidal maniac... though then we risk forging this mighty stream. Under current weather conditions, it can only lead to influenza. Why, oh why did you choose this bridge?~
+@623  = ~An ancient red will not burn us to a crisp, but we'd die of poison, instead. <CHARNAME>, have mercy on us, walk wide around this suicidal maniac... though then we risk fording this mighty stream. Under current weather conditions, it can only lead to influenza. Why, oh why did you choose this bridge?~
 @624  = ~The scenery, mellonamin, the scenery...~
 @625  = ~So, are you as jittery as this cold-footed, long-faced fellow?~
 @626  = ~Do we hunt together?~
@@ -637,7 +637,7 @@ adventurer's delight.~
 @632  = ~<CHARNAME>, this is Drizzt Do'Urden, a well known honorable ranger! Don't be misled by his looks. If he is in need, we should help him defeat his attackers!~
 @633  = ~FINALLY, a warrior with real potential! Though he COULD use a good dose of enthusiasm.~
 @634  = ~Should I weep now? (Such suffering, such unease...)~
-@635  = ~Grrr! The drow's scimitars are pretty and sharp, but the Emerald Ray scimitar is what I want. That's the proper weapon for a druid. Did I tell you that it was forged from Kador's the Burner sickle? Kador was a famous Shadow Druid... if only I had it!~
+@635  = ~Grrr! The drow's scimitars are pretty and sharp, but the Emerald Ray scimitar is what I want. That's the proper weapon for a druid. Did I tell you that it was forged from Kador the Burner's sickle? Kador was a famous Shadow Druid... if only I had it!~
 @636  = ~For the good cause, druid, I would fight with my bare hands.~
 @637  = ~Or with boulders... yes, boulders are good.~
 @638  = ~*smiles* If you are of the giantkin.~
@@ -688,7 +688,7 @@ adventurer's delight.~
 @683  = ~Let out the filthy gnolls to let them do evil? Boo's blood boils at the thought! Minsc smells righteous butt-kicking coming! Er... and many other foul smells, too... Yes, Boo, it was very *stupid* of the bandits to lock the whole clan of gnolls in such a small cave for so long.~
 @684  = ~They are no prisoners, <CHARNAME>. Most likely they are bandits who were too unruly even for Chill!~
 @685  = ~<CHARNAME>, this is no time for careful deliberations: a woman is threatened with torture! I pray that we are not too late already!~
-@686  = ~I was just thinking how refreshing it would be to kick some man in the groin. And break his skinny necks afterwards… Stop gawking, <CHARNAME>. There is coin to be made and fun to be had. On we go!~
+@686  = ~I was just thinking how refreshing it would be to kick some man in the groin. And break his skinny neck afterwards… Stop gawking, <CHARNAME>. There is coin to be made and fun to be had. On we go!~
 @687  = ~Yeah, that was a real rotten thing she tricked <CHARNAME> into doing!~
 @688  = ~You'll be much better off with us...~
 @689  = ~<CHARNAME>, he can join us, right? *giggles* He is cute and he is a real bard! Someone's gotta write ballads about my beauty and bravery, ya know?~
