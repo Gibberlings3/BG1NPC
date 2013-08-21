@@ -349,11 +349,11 @@ Sin embargo, si no sois cobarde
 @345  = ~Hacen tanques tan buenos como las mujeres.~
 @346  = ~Matar a estos alfeñiques tiene recompensa... cuando tienen la cartera repleta.~
 @347  = ~Afortunadamente muchos de ellos se unen a los Puños Llameantes, así que puedo obtener un doble placer: no sólo enseño una lección a alguien despreciable, sino que también masacro a otro cerdo.~
-@348  = ~Una empleada de Yesna Cultiano, caníbal, decía que los hombres saben bien asados con pimientos y eneldo.~
+@348  = ~Una empleada de Ysena Cultiano, caníbal, decía que los hombres saben bien asados con pimientos y eneldo.~
 @349  = ~Nunca he intentado comerme a los hombres que mato, pero tendré eso en cuenta. ¡Qué mujer!~
 @350  = ~Nunca vi ningún valor en los ojos de los hombres que se enfrentaron a mi espada. *Ríe* Pero por otra parte, no son sus ojos lo que ataco cuando bajan la guardia.~
 @351  = ~¿Vos, un hombre valiente? Ahora entiendo por qué tenemos que soportar la compañía de esa refinada tortuga, ¡Ajantis! ¡Lo único que hay de duro en él son sus palabras!~
-@352  = ~Yesna solía decir que si una mujer cree que los hombres son valientes, su mejor prueba es decirle a aquél con el que se acuesta que está embarazada.~
+@352  = ~Ysena solía decir que si una mujer cree que los hombres son valientes, su mejor prueba es decirle a aquél con el que se acuesta que está embarazada.~
 @353  = ~Oh, ¡por favor! *Apunta con un dedo hacia Khalid y estalla en carcajadas.* ¡Valiente!~
 @354  = ~¿Y de qué sirve eso? ¿Aparte de para huir corriendo cuando la batalla se pone interesante?~
 @355  = ~Quayle se cree a sí mismo inteligente y presume de tener el cerebro más grande de todos los hombres. ¿Y sabéis qué? Y lo único que prueba es que cuanto más grande es el cerebro de un hombre, más llenos está de tonterías.~
@@ -437,7 +437,7 @@ Sin embargo, si no sois cobarde
 @433  = ~Queda bien con todo.~
 @434  = ~Mirad lo que hacemos. Una caza de demonios suena a algo con lo que disfrutaría... incluso en vuestra miserable compañía.~
 @435  = ~Imaginaciones. Dais asco. Odio a los debiluchos que se desmayan cuando ven sangre. Miradla, chucho, y sabed que la vuestra no es diferente.~
-@436  = ~¿Seda? Yesna tuvo un asesino que podía estrangular a una persona con una hebra de seda. *Escupe* El cobarde también palidecía ante la sangre.~
+@436  = ~¿Seda? Ysena tuvo un asesino que podía estrangular a una persona con una hebra de seda. *Escupe* El cobarde también palidecía ante la sangre.~
 @437  = ~Vuestros ojos están a punto de salirse de sus órbitas. Y yo estoy a punto de ayudarles a hacerlo.~
 @438  = ~*Shar-Teel arquea una orgullosa ceja ante vos.* No sabía que disfrutabais con vuestros propios lamentos. Yo prefiero los quejidos de mis enemigos.~
 @439  = ~*Risitas* ¿Comunicándoos con los chacales otra vez, <CHARNAME>?~
@@ -2247,7 +2247,7 @@ Parece ser la eterna niña, bastante contenta de jugar el rol de la hermana peque
 @2238 = ~[MINSC 34] ¡Soy de pocas palabras y menos dudas! ¡Se acabaron los avisos, ahora morid!~ [%tutu_var%MINSC34]
 @2239 = ~[MINSC 32] No me ofende vuestro comentario. No comprendéis el vínculo que me une a Bubú.~ [%tutu_var%MINSC32]
 @2240 = ~[MINSC 33] Vuestras palabras son afiladas como mi espada, pero ni la mitad de brillantes. ¡Ooooh! Brillantes.~ [%tutu_var%MINSC33]
-@2241 = ~Cuando se le pregunta sobre su pasado, Minsc anuncia orgullosamente que es un luchador salvaje de la nación de Rasheman en el lejano este. Actualmente, se encuentra llevando a cabo su "dajemma", un viaje ritual hacia la hombría, buscando aventuras y gloria en las batallas. Para él, también es un honor ser el guardián personal de una joven Wychalarn de Rashemen, llamada Dynaheir; y si alguien intentase hacerle daño alguno, le golpearía la cabeza hasta hacerle reconsiderar la idea. No está seguro de por qué ella los ha conducido a la Costa de la Espada, pero su lealtad es incuestionable. Si le sirve bien y destaca en las batallas, espera ser aceptado en la temeraria logia del Dragón de Hielo al volver a su tierra natal. Hasta el momento, Minsc considera que su más notable experiencia por el mundo es la adquisición de su animal de compañía, "Bubú", una criatura que él afirma que es un hámster gigante del espacio, en miniatura. Estas cosas existen aparentemente en los Reinos, pero Minsc ha recibido probablemente muchos golpes en la cabeza. Parece un hombre bueno, pero también parece dejarse llevar por su naturaleza salvaje.~ [DUMMYSND]
+@2241 = ~Cuando se le pregunta sobre su pasado, Minsc anuncia orgullosamente que es un luchador salvaje de la nación de Rashemen en el lejano este. Actualmente, se encuentra llevando a cabo su "dajemma", un viaje ritual hacia la hombría, buscando aventuras y gloria en las batallas. Para él, también es un honor ser el guardián personal de una joven Wychlaran de Rashemen, llamada Dynaheir; y si alguien intentase hacerle daño alguno, le golpearía la cabeza hasta hacerle reconsiderar la idea. No está seguro de por qué ella los ha conducido a la Costa de la Espada, pero su lealtad es incuestionable. Si le sirve bien y destaca en las batallas, espera ser aceptado en la temeraria logia del Dragón de Hielo al volver a su tierra natal. Hasta el momento, Minsc considera que su más notable experiencia por el mundo es la adquisición de su animal de compañía, "Bubú", una criatura que él afirma que es un hámster gigante del espacio, en miniatura. Estas cosas existen aparentemente en los Reinos, pero Minsc ha recibido probablemente muchos golpes en la cabeza. Parece un hombre bueno, pero también parece dejarse llevar por su naturaleza salvaje.~ [DUMMYSND]
 @2242 = ~Un poco de saber que actúa es mucho más valioso que montones de saber que no se utilizan. ¡Minsc piensa que <CHARNAME> hubiera hecho mejor actuando mucho!~
 @2243 = ~¡Los traseros villanos deben ser soberanamente pateados!~
 @2244 = ~Deberíais haber escuchado lo que dijo Bubú, <CHARNAME>. Yo no sé decir cosas sabias, como Bubú. A veces deseo que las palabras de Bubú no fueran sólo para Minsc.~
@@ -3386,7 +3386,7 @@ Pero vos sois la más bella que he conocido.~
 @3374 = ~¿Plata?~
 @3375 = ~¿Avellana?~
 @3376 = ~Los sabios en Candelero buscaron en libros en treinta lenguajes diferentes y no pudieron encontrar la palabra correcta para el color de mis ojos. ¡Es único!~
-@3377 = ~¿Azur? Si, dejadme escribirlo: <CHARNAME> de Candelero, con los ojos de oscuro azur, que os recordarán al Dargonmare en un día calmo. Mucho mejor, ¿no?~
+@3377 = ~¿Azur? Si, dejadme escribirlo: <CHARNAME> de Candelero, con los ojos de oscuro azur, que os recordarán al Dragonmere en un día calmo. Mucho mejor, ¿no?~
 @3378 = ~Dejadme escribirlo: <CHARNAME> de Candelero con ojos brillando como esmeraldas cuando está calma y como el cielo antes del amanecer cuando besa a un hombre. Mucho mejor, ¿no?~
 @3379 = ~Dejadme escribirlo: <CHARNAME> de Candelero, con sus ojos profundos y negros, como ónice líquido. Mucho mejor, ¿no?~
 @3380 = ~Dejadme escribirlo: <CHARNAME> de Candelero, con ojos tan puros como la plata más noble. Mucho mejor, ¿no?~

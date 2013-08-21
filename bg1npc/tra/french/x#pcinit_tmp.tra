@@ -93,7 +93,7 @@
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3641
 @41 = ~[VICONIA 31] Si vous souhaitez mourir, je me ferai un plaisir de vous y aider.~ [%tutu_var%VICON31]
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3647
-@42 = ~[VICONIA 36] Dans les Tréfonds Obscurs, vous serviriez de fourrage au Kuo Toa.~ [%tutu_var%VICON36]
+@42 = ~[VICONIA 36] Dans les Tréfonds Obscurs, vous serviriez de fourrage au Kuo-Toa.~ [%tutu_var%VICON36]
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3646
 @43 = ~[VICONIA 35] Vous faites partie des rares personnes parmi nous que je respecte.~ [%tutu_var%VICON35]
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 3648
@@ -594,7 +594,7 @@ Avance et bats-toi sur l'heure !~
 @433 = ~Ca va avec tout.~
 @434 = ~J'ai hâte d'y être. Une chasse au démon me semble être un bon programme... même si c'est en ta pitoyable compagnie.~
 @435 = ~Ben voyons ! Tu as l'estomac fragile ? Je ne supporte pas les lavettes qui tombent dans les pommes à la vue du sang. Regarde-le, et sache que le tien n'est pas différent, espèce de moins-que-rien.~
-@436 = ~Soie ? Yesna connaissait un assassin qui pouvait étrangler une victime avec un foulard de soie. *crache* La vue du sang rendait malade ce couard, lui aussi.~
+@436 = ~Soie ? Ysena connaissait un assassin qui pouvait étrangler une victime avec un foulard de soie. *crache* La vue du sang rendait malade ce couard, lui aussi.~
 @437 = ~Ta mâchoire est tellement ouverte qu'on dirait qu'elle va tomber au sol. Et je suis sur le point de l'y aider.~
 @438 = ~*Shar-Teel vous regarde avec dédain.* Je ne savais pas que tu aimais à ce point tes propres vagissements. De mon côté, les cris et les pleurs de mes ennemis sont une plus douce musique à mes oreilles.~
 @439 = ~*Elle rit* Tu parles encore aux chacals, <CHARNAME> ?~
@@ -1633,7 +1633,7 @@ Avance et bats-toi sur l'heure !~
 // Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 5339, likeliness 99.2
 @1252 = ~[Dynahéir 12] ~ [%tutu_var%DYNAH12]
 // Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 3939, likeliness 90.9
-@1253 = ~[Dynahéir 13] Quel remue-ménage ! A côté de ça, les villes de Rasheman ont l'air vide.~ [%tutu_var%DYNAH13]
+@1253 = ~[Dynahéir 13] Quel remue-ménage ! A côté de ça, les villes de Rashemen ont l'air vide.~ [%tutu_var%DYNAH13]
 // Translation Retriever: Likely string found in file dialog TotSC En.tra at Id 5340, likeliness 99.2
 @1254 = ~[Dynahéir 14] ~ [%tutu_var%DYNAH14]
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 5341
