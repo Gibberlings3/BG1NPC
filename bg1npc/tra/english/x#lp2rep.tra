@@ -39,11 +39,11 @@
 @38   = ~Let him sing our praises across Faerun. After all, a famous bard can ask any price.~
 @39   = ~Pay this false bard no heed, <CHARNAME>! The only fear we should strike throughout the countryside should be in the hearts of evildoers!~
 @40   = ~<CHARNAME>, if you would have folk speak well of you, give your gold to a temple. At least there, it will be put to good use. This man does not need our help to line his pockets. And fame so bought is worthless.~
-@41   = ~<CHARNAME>, the man offers lies and deceipt in exchange for our good name. Do not humor him. Good deeds are their own rewards, as you know well. Come, let us seek after our fame the honorable way, by serving justice and righteousness.~
+@41   = ~<CHARNAME>, the man offers lies and deceit in exchange for our good name. Do not humor him. Good deeds are their own rewards, as you know well. Come, let us seek our fame the honorable way, by serving justice and righteousness.~
 @42   = ~Wow, <CHARNAME>, we could be famous without ever leaving home. Just think of what old Puffguts would say if he could hear about Imoen the Great and her bold party of intrepid adventurers. *sigh* It is an attractive offer. Though it might be nicer to find someone to spread words about our good deeds, instead.~
 @43   = ~Are you sure about this? We don't want people afraid to talk to us. Besides, if they stand too far away, it's harder to sneak up on them.~
 @44   = ~I don't know, <CHARNAME>... I don't want to be known as "Imoen the Terrible," ya know.~
-@45   = ~Jackals and hyeanas have more heart and less gossip than a Bard. We waste time with this cur.~
+@45   = ~Jackals and hyenas have more heart and less gossip than a Bard. We waste time with this cur.~
 @46   = ~Only the folly of "civilized" peoples would dream up something this idiotic. One bear does not care what another bear says of it. I do not see why people should feel differently.~
 @47   = ~<CHARNAME>, why would you care what these fools say? We should serve Nature, not our own vanity!~
 @48   = ~Ah, another way to spend your gold. How novel. You might as well save your gold. Fame or infamy will not save us.~
@@ -75,7 +75,7 @@
 @74   = ~Wouldst thou that every soul on Faerun knew thy business? Have a care, lest thee lose more than gold.~
 @75   = ~Mine ears doth ring at the false tones of this bard. How one could hope to win acclaim beyond one's measure, I know not, but I hope that thou wouldst tread carefully.~
 @76   = ~Have a care! Let not our foes divine our whereabouts through overly talkative bards.~
-@77   = ~Money spent on words aways pays for itself. (Not that these simians could understand the subtleties of masterful manipulation of public opinion).~
+@77   = ~Money spent on words always pays  for itself. (Not that these simians could understand the subtleties of masterful manipulation of public opinion).~
 @78   = ~(Hmmm. If this keeps up, I might well make a name for myself that would make the rest of the Red Wizards most envious. And then they would pay! They will all pay... ) We *could* do with a bit more notoriety, <CHARNAME>, if our budget would allow it.~
 @79   = ~You can never be too rich or too famous, <CHARNAME>. (Except in this case, it is necessary to become less rich to become more famous, but no matter. The ladies love powerful men, do they not?)~
 @80   = ~Fools. Do you think you can cheat the god of valor? Pay the minstrel what you will, but you pay gold for brass.~
@@ -108,9 +108,9 @@
 @107  = ~There are those, alas, who have not heard of your terrific deeds. Naturally, I would seek to remedy that.~
 @108  = ~Why, jaluk, to spread word of your dark prowess, of course! Or do you wish to conceal your fearsome might from these rivven, hmm?~
 @109  = ~I think it is time more people realized that I am a powerful force. Let the public know that I am not to be trifled with.~
-@110  = ~A wise decision. How much more fearsome would like to become? A little, a modest amount, or to a dramatic extent?~
+@110  = ~A wise decision. How much more fearsome would you like to become? A little, a modest amount, or to a dramatic extent?~
 @111  = ~A little would suffice.~
-@112  = ~A little would suffice~
+@112  = ~A little would suffice.~
 @113  = ~A moderate amount would do, I think.~
 @114  = ~Why do it by halves? Let us see a dramatic change.~
 @115  = ~No mean feat, even for a bard as talented as me, for a <MANWOMAN> of your reputation. Few would credit you with such deeds. It would cost you 1500 gold pieces.~

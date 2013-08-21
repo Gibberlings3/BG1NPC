@@ -39,11 +39,11 @@
 @38   = ~Let him sing our praises across Faerun. After all, a famous bard can ask any price.~
 @39   = ~Pay this false bard no heed, <CHARNAME>! The only fear we should strike throughout the countryside should be in the hearts of evildoers!~
 @40   = ~<CHARNAME>, if you would have folk speak well of you, give your gold to a temple. At least there, it will be put to good use. This man does not need our help to line his pockets. And fame so bought is worthless.~
-@41   = ~<CHARNAME>, the man offers lies and deceipt in exchange for our good name. Do not humor him. Good deeds are their own rewards, as you know well. Come, let us seek after our fame the honorable way, by serving justice and righteousness.~
+@41   = ~<CHARNAME>, the man offers lies and deceit in exchange for our good name. Do not humor him. Good deeds are their own rewards, as you know well. Come, let us seek our fame the honorable way, by serving justice and righteousness.~
 @42   = ~Wow, <CHARNAME>, we could be famous without ever leaving home. Just think of what old Puffguts would say if he could hear about Imoen the Great and her bold party of intrepid adventurers. *sigh* It is an attractive offer. Though it might be nicer to find someone to spread words about our good deeds, instead.~
 @43   = ~Are you sure about this? We don't want people afraid to talk to us. Besides, if they stand too far away, it's harder to sneak up on them.~
 @44   = ~I don't know, <CHARNAME>... I don't want to be known as "Imoen the Terrible," ya know.~
-@45   = ~Jackals and hyeanas have more heart and less gossip than a Bard. We waste time with this cur.~
+@45   = ~Jackals and hyenas have more heart and less gossip than a Bard. We waste time with this cur.~
 @46   = ~Only the folly of "civilized" peoples would dream up something this idiotic. One bear does not care what another bear says of it. I do not see why people should feel differently.~
 @47   = ~<CHARNAME>, why would you care what these fools say? We should serve Nature, not our own vanity!~
 @48   = ~Ah, another way to spend your gold. How novel. You might as well save your gold. Fame or infamy will not save us.~
@@ -75,7 +75,7 @@
 @74   = ~Wouldst thou that every soul on Faerun knew thy business? Have a care, lest thee lose more than gold.~
 @75   = ~Mine ears doth ring at the false tones of this bard. How one could hope to win acclaim beyond one's measure, I know not, but I hope that thou wouldst tread carefully.~
 @76   = ~Have a care! Let not our foes divine our whereabouts through overly talkative bards.~
-@77   = ~Money spent on words aways pays for itself. (Not that these simians could understand the subtleties of masterful manipulation of public opinion).~
+@77   = ~Money spent on words always pays  for itself. (Not that these simians could understand the subtleties of masterful manipulation of public opinion).~
 @78   = ~(Hmmm. If this keeps up, I might well make a name for myself that would make the rest of the Red Wizards most envious. And then they would pay! They will all pay... ) We *could* do with a bit more notoriety, <CHARNAME>, if our budget would allow it.~
 @79   = ~You can never be too rich or too famous, <CHARNAME>. (Except in this case, it is necessary to become less rich to become more famous, but no matter. The ladies love powerful men, do they not?)~
 @80   = ~Fools. Do you think you can cheat the god of valor? Pay the minstrel what you will, but you pay gold for brass.~
@@ -110,7 +110,7 @@
 @109  = ~I think it is time more people realized that I am a powerful force. Let the public know that I am not to be trifled with.~
 @110  = ~Well done. So, what's yer pleasure? Do ye want a bit o' tarnish, a middlin' amount, or a lot?~
 @111  = ~A little would suffice.~
-@112  = ~A little would suffice~
+@112  = ~A little would suffice.~
 @113  = ~A moderate amount would do, I think.~
 @114  = ~Why do it by halves? Let us see a dramatic change.~
 @115  = ~No mean feat, for a <MANWOMAN> of yer reputation. Few would credit ye with such deeds. It'd cost ye 1500 gold pieces.~
@@ -128,7 +128,7 @@
 @127  = ~There'll be no end to the travel. People don't know what to to make o' ye, so I'll have to make sure they all hear what ye want 'em to hear. For a <MANWOMAN> of yer reputation, that'd take 700 gold pieces.~
 @128  = ~People would believe as much, in a <MANWOMAN> of yer reputation, but I'll still have to spread the word far and wide, which means travel. The expenses would total 900 gold pieces.~
 @129  = ~There're bound to be at least a few folk yet who have not yet heard of yer deeds. I'll find 'em, and persuade 'em that ye're no one to mess with. For a <MANWOMAN> of yer reputation, that'd take 1200 gold pieces.~
-@130  = ~There're those that'll take some convincin' that you could be even more fearsome than they imagine, but I'm the man to do it. I'll need to be thorough, and that costs. For a <MANWOMAN> of your reputation, the price would be 1500 gold pieces.~
+@130  = ~There're those that'll take some convincin' that ye could be even more fearsome than they imagine, but I'm the man to do it. I'll need to be thorough, and that costs. For a <MANWOMAN> of yer reputation, the price would be 1500 gold pieces.~
 @131  = ~Challenging, but I'm the man for the job. For a <MANWOMAN> of yer reputation, that'd take 2000 gold pieces.~
 @132  = ~'Twon't be easy, for a <MANWOMAN> of yer reputation, but I'm the man for the challenge. In this case, such a commision would cost 2500 gold pieces.~
 @133  = ~No mean feat, for a <MANWOMAN> of yer reputation. Few would credit even ye with such deeds. It'd cost ye 5000 gold pieces.~
@@ -145,7 +145,7 @@
 @144  = ~There'll be no end to the travel. People don't know what to to make o' ye, so I'll have to make sure they all hear what ye want 'em to hear. For a <MANWOMAN> of yer reputation, that'd take 1400 gold pieces.~
 @145  = ~People'd believe as much, for the likes o' ye, but I'll still have to spread the word far and wide, which means travel. The expenses would total 1800 gold pieces.~
 @146  = ~There are bound to be at least a few folk who have not yet heard of yer deeds. I'll find them, and persuade 'em that ye are no one to mess with. For a <MANWOMAN> of yer reputation, that'd take 2400 gold pieces.~
-@147  = ~There're those that'll take some convincin' that you could be even more fearsome than they imagine, but I'm the man for the job. But I'll have to be thorough, and that costs. For a <MANWOMAN> of yer reputation, the price would be 3000 gold pieces.~
+@147  = ~There're those that'll take some convincin' that ye could be even more fearsome than they imagine, but I'm the man for the job. But I'll have to be thorough, and that costs. For a <MANWOMAN> of yer reputation, the price would be 3000 gold pieces.~
 @148  = ~Challenging, but I am up to the task. For a <MANWOMAN> of yer reputation, that'd take 4000 gold pieces.~
 @149  = ~No mean feat, for a <MANWOMAN> of yer reputation. Few would credit even ye with such deeds. It'd cost ye 6500 gold pieces.~
 @150  = ~No mean feat, for a <MANWOMAN> of yer reputation. Few would credit ye with such deeds. It'd cost ye 2800 gold pieces.~
@@ -158,10 +158,10 @@
 @157  = ~There'll be no end to the travel. People don't know what to to make o' ye, so I'll have to make sure they all hear what ye want 'em to hear. For a <MANWOMAN> of yer reputation, that'd take 2200 gold pieces.~
 @158  = ~People'd believe as much, for the likes o' ye, but I'll still have to spread the word far and wide, which means travel. The expenses would total 2800 gold pieces.~
 @159  = ~There are bound to be at least a few folk who have not yet heard of yer deeds. I'll find them, and persuade 'em that ye are no one to mess with. For a <MANWOMAN> of yer reputation, that'd take 3700 gold pieces.~
-@160  = ~There're those that'll take some convincin' that you could be even more fearsome than they imagine, but I'm the man for the job. But I'll have to be thorough, and that costs. For a <MANWOMAN> of yer reputation, the price would be 4000 gold pieces.~
+@160  = ~There're those that'll take some convincin' that ye could be even more fearsome than they imagine, but I'm the man for the job. But I'll have to be thorough, and that costs. For a <MANWOMAN> of yer reputation, the price would be 4000 gold pieces.~
 @161  = ~No mean feat, for a <MANWOMAN> of yer reputation. Few would credit even ye with such deeds. It'd cost ye 7500 gold pieces.~
 @162  = ~For a <MANWOMAN> of yer reputation, I could hardly make ye seem more than a little more fearsome, and that'd cost ye 5000 gold.~
-@163  = ~For a <MANWOMAN> of your reputation, I doubt even I could do much to make it worse. Nevertheless, I might be able to manage moderate damage, but it'd cost ye 7500 gold.~
+@163  = ~For a <MANWOMAN> of yer reputation, I doubt even I could do much to make it worse. Nevertheless, I might be able to manage moderate damage, but it'd cost ye 7500 gold.~
 @164  = ~I fear such a feat is beyond me. Yer reputation is already so fearsome that folk like as not bury their gold and hide their maiden daughters at the merest rumor of yer passage. But look me up, should ye find that yer infamy has faded.~
 @165  = ~A pity. But look me up, come back with a larger purse. Raisin' gold is easy for the likes o' ye, I'm told.~
 @166  = ~A pleasure doin' business with ye. Ye'll be reapin' the profits o' me tale spinnin' afore the day is out.~

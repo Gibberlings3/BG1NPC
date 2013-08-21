@@ -40,7 +40,7 @@
 @39   = ~[VICONIA 29] I worship Lolth no longer.~ [%tutu_var%VICON29]
 @40   = ~[VICONIA 30] Don't threaten me, Kivan, it shall only lead to your death.~ [%tutu_var%VICON30]
 @41   = ~[VICONIA 31] If you wish to die, I am pleased to assist.~ [%tutu_var%VICON31]
-@42   = ~[VICONIA 36] In the Underdark, you would be fodder for the Kuo Toa.~ [%tutu_var%VICON36]
+@42   = ~[VICONIA 36] In the Underdark, you would be fodder for the Kuo-Toa.~ [%tutu_var%VICON36]
 @43   = ~[VICONIA 35] You are one of the few among us whom I can respect.~ [%tutu_var%VICON35]
 @44   = ~[VICONIA 37] Male, fetch me something to eat.~ [%tutu_var%VICON37]
 @45   = ~[VICONIA 40] Death is not something to mourn.~ [%tutu_var%VICON40]
@@ -49,7 +49,7 @@
 @48   = ~[VICONIA 32] I will not accept such arrogance from a male.  On your knees.~ [%tutu_var%VICON32]
 @49   = ~[VICONIA 34] Never again speak to me in such a manner.~ [%tutu_var%VICON34]
 @50   = ~When asked about her past, VICONIA reveals (quite proudly) that she is a dark elf from the Underdark city of Menzoberranzan. She says very little about her reasons for leaving that sunless realm, though separations of such a nature are never gentle. She does claim to no longer worship the spider goddess Lolth; a change that even you know is often fatal. Her new faith is in the night goddess Shar, an appropriate choice for a drow, though this is not a firm indication that she has given up the brutal ways of her people. She finds the laws of the surface world quaint and more than a little strange, but this is simply because of her lack of experience. Likewise she seems a bit naive about how her race is viewed by surface dwellers. Many will not give her the chance she seems to expect, and even being seen with her may affect how people think of you. You know that as a drow, she has resistance to magic, both beneficial and harmful.~ [DUMMYSND]
-@51   = ~A drow will never bend, save to a Matron Mother, and a drow female will never break. My House exiled me, but that does not matter I stopped being one of them.~
+@51   = ~A drow will never bend, save to a Matron Mother, and a drow female will never break. My House exiled me, but that does not matter, as I stopped being one of them.~
 @52   = ~What we have in abundance is pride. I will never stoop so low as to admit that a surfacer is superior to me.~
 @53   = ~If you find yourself in the Underdark, you will understand, abbil.~
 @54   = ~I am a drow. Enough said.~
@@ -337,7 +337,7 @@ Step right up and fight me bold!~
 @333  = ~Gods must love fools, indeed...~
 @334  = ~Never let a man's mind wander, it's too little to be out by itself.~
 @335  = ~So when a woman makes a fool of a man... it is usually an improvement!~
-@336  = ~Nay, it's when she makes a corpse out of a man, than it's really an improvement.~
+@336  = ~Nay, it's when she makes a corpse out of a man, then it's really an improvement.~
 @337  = ~Well, I certainly would not be in a search party when it gets lost.~
 @338  = ~Since they made so many men... Even the gods can be wrong, and this is the error I like to correct with my sword.~
 @339  = ~Yeah, they have their manhood and brain, but not enough blood supply to run both at the same time.~
@@ -348,8 +348,8 @@ Step right up and fight me bold!~
 @344  = ~Of course. Men are especially gifted in the areas of stupidity, boasting and whining.~
 @345  = ~They make as good meat shields as women.~
 @346  = ~Killing these weaklings is rewarding... when they carry fat purses.~
-@347  = ~Luckily lots of them join the Flaming Fist, so I can derive double pleasure: not only I teach a scumbag a lesson, I also slaughter another male pig.~
-@348  = ~One Chultian man-eater in Yesna's employ said that men tasted good when roasted with dill and hot peppers.~
+@347  = ~Luckily lots of them join the Flaming Fist, so I can derive double pleasure: not only do I teach a scumbag a lesson, I also slaughter another male pig.~
+@348  = ~One Chultian man-eater in Ysena's employ said that men tasted good when roasted with dill and hot peppers.~
 @349  = ~Never tried eating men I killed, but I'd take her word on it. What a woman!~
 @350  = ~Never saw any valor in the eyes of men who face my blade. *laughs* But then again, it's not their eyes I go for from the low guard.~
 @351  = ~You like valiant man? Now I understand why we have to endure the company of that polished tortoise, Ajantis! The only thing that is hard about him is his words!~
@@ -361,7 +361,7 @@ Step right up and fight me bold!~
 @357  = ~So? *Nods Kivan's way.* Seems to me that only half-mad men are loyal to tears. You like *that*?~
 @358  = ~As useful as an umbrella to a fish.~
 @359  = ~Useful like Montaron in a bar brawl? The man is four foot tall and calls himself a fighter!~
-@360  = ~Why is that then that men waste good gold on whores, when they can rape all they want while pillaging?~
+@360  = ~Why is it that men waste good gold on whores, when they can rape all they want while pillaging?~
 @361  = ~Meaning that they only fight when there is gold in it like Kagain? That's pathetic!~
 @362  = ~Wise? These boastful scumbags are *wise*? Shar's blessing, but they'd say and do anything for a chance to show off.~
 @363  = ~Right, just like Coran is wise. Ever been to a village that he had passed through and did not have to fight with some enraged boor?~
@@ -437,7 +437,7 @@ Step right up and fight me bold!~
 @433  = ~It fits well with everything.~
 @434  = ~See that we do. A demon hunt sounds like something I'd enjoy... even in your miserable company.~
 @435  = ~Figures. You're a queasy sort. I hate weaklings that faint at the sight of blood. Look at it, mongrel, and know that yours is no different.~
-@436  = ~Silk? Yesna had an assassin who could strangle a person with wisps of silk. *She spits.* The coward was blood-shy, too.~
+@436  = ~Silk? Ysena had an assassin who could strangle a person with wisps of silk. *She spits.* The coward was blood-shy, too.~
 @437  = ~Your eyes are about to fall out of their sockets. And I'm about to help them along.~
 @438  = ~*Shar-Teel arches a proud eyebrow at you.* Didn't know that you enjoyed your own wailing. I prefer the laments of my foes.~
 @439  = ~*chuckles* Communing with jackals again, <CHARNAME>?~
@@ -560,7 +560,7 @@ Step right up and fight me bold!~
 @556  = ~*When she lets go, your palm is crisscrossed with a smattering of thorns and her blood. She presses her hand against your cheek gruffly before turning away. From the expression that was on her face, you appear to have passed some sort of test.*~
 @557  = ~*She smirks and drops your hand, then wipes her palm across her hip carelessly.*~
 @558  = ~The only good blade is a sword. *Shar-Teel tosses the dagger over her shoulder.*~
-@559  = ~I said don't want this, <CHARNAME>, or are you too stupid to understand a simple statement?~
+@559  = ~I said I don't want this, <CHARNAME>, or are you too stupid to understand a simple statement?~
 @560  = ~The next time I see this, it's going into your stomach, <CHARNAME>.~
 @561  = ~*She grasps the dagger and thrusts it toward your stomach.*~
 @562  = ~*Step out of the way.*~
@@ -828,7 +828,7 @@ Step right up and fight me bold!~
 @824  = ~[BRANWEN 20] 'Tis a fine day to die.~ [%tutu_var%BRANW20]
 @825  = ~[BRANWEN 21] If Tempus wills it.~ [%tutu_var%BRANW21]
 @826  = ~[BRANWEN 22] By Valkur's mighty blade.~ [%tutu_var%BRANW22]
-@827  = ~[BRANWEN 27] Shar-Teel seems to have more spine that a lot of the men in this party.~ [%tutu_var%BRANW27]
+@827  = ~[BRANWEN 27] Shar-Teel seems to have more spine than a lot of the men in this party.~ [%tutu_var%BRANW27]
 @828  = ~[BRANWEN 28] You are valiant of action Shar-Teel.  A pity your spirit is mismatched.~ [%tutu_var%BRANW28]
 @829  = ~[BRANWEN 29] Stay well clear of me, you foul speakin' heretic!~ [%tutu_var%BRANW29]
 @830  = ~[BRANWEN 30] Tempus would guide your wayward soul, if you let him.~ [%tutu_var%BRANW30]
@@ -1049,7 +1049,7 @@ Step right up and fight me bold!~
 @1045 = ~*As the party silently walks down the beaten path, Branwen pounces on your back.* ~
 @1046 = ~*You stumble forward with a surprised yell, alerting the other party members, who at first think that you were attacked by some vicious animal. When they notice it is only Branwen, all they do is roll their eyes.*~
 @1047 = ~*You manage to support the combined weight of Branwen, along with both her and your own equipment. Branwen laughs as you hoist her further up your back, but you decide to turn the tables against her by reaching behind and grabbing her waist, and with a mighty swing, she is soon facing you and hanging off of your hips. You mash a long and deep kiss upon her lips, both out of pure desire and to stifle the incessant laughing she emits. After your reluctant parting, she slips down from your arms and hugs you tightly, before resuming pace with the rest of the party.*~
-@1048 = ~*You bend easily, allowing her to slip off your back and to the ground. As she lies there cursing, you graciously offer her your arm, and she starts to snicker instead.* 'Tis true,<CHARNAME>. You can.~
+@1048 = ~*You bend easily, allowing her to slip off your back and to the ground. As she lies there cursing, you graciously offer her your arm, and she starts to snicker instead.* 'Tis true, <CHARNAME>. You can.~
 @1049 = ~*You turn around sharply, managing to catch Branwen before she falls. She answers you with a fierce kiss, and soon, you engage in another match of sorts...* ~
 @1050 = ~*You lurch forward with a forlorn yelp, resigned to the fact that the hard ground is quite suddenly rushing up to meet you. Both you and Branwen hit the dirt with a resounding smack, but Branwen at least has a most convenient cushion for her fall. Branwen breathes into your ear and whispers a half-hearted apology before kissing your temple. The pain from the fall vanishes from your mind, as you roll under Branwen and stare up into her smiling, beautiful features.*~
 @1051 = ~Do you forgive me, <CHARNAME>? *Branwen wears her most innocent look, and trails a finger down your forehead and the length of your nose, stopping at your lips. She then leans down and kisses you very sweetly on the lips, causing your heart to beat fiercely and your stomach to tie in knots.*~
@@ -1276,7 +1276,7 @@ Step right up and fight me bold!~
 @1272 = ~[DYNAHEIR 33] Thou art right indeed.  After my own heart.~ [%tutu_var%DYNAH33]
 @1273 = ~[DYNAHEIR 34] Thou art fluent in compliments.  Some might say effluent.~ [%tutu_var%DYNAH34]
 @1274 = ~[DYNAHEIR 32] I pray thee did not kiss thy mother with that mouth.~ [%tutu_var%DYNAH32]
-@1275 = ~When asked about her past DYNAHEIR has very little to say. She is apparently from the far-eastern nation of Rashemen, and has come to the west with a bodyguard known as Minsc. Minsc is on his 'dajemma,' a rite of passage, and it appears that she may be involved in something similar. Of this, she will only state that great things are foretold for the Sword Coast. She seems very sure of herself, is possessed with an old-world sensibility, and is very demanding of her companions. She has expressed concerns about the sanity of her bodyguard, though she has an obvious respect for him and will not go far from his side.~ [X#BLANK]
+@1275 = ~When asked about her past DYNAHEIR has very little to say. She is apparently from the far-eastern nation of Rashemen, and has come to the West with a bodyguard known as Minsc. Minsc is on his 'dajemma,' a rite of passage, and it appears that she may be involved in something similar. Of this, she will only state that great things are foretold for the Sword Coast. She seems very sure of herself, is possessed with an old-world sensibility, and is very demanding of her companions. She has expressed concerns about the sanity of her bodyguard, though she has an obvious respect for him and will not go far from his side.~ [X#BLANK]
 @1276 = ~I do not need thine affections to live, and I do not measure my worth by thy favor. Remember that, hero.~
 @1277 = ~Also remember that strong passions course through thy veins. 'Tis only natural, I suppose, but learn to reign them in. Some things that they will call for thee to do will not be as easy to mend as this. And a mended thing is never half as strong as the one unbroken.~
 @1278 = ~*Dynaheir leans over your shoulder to take a look at the map, as well.*~
@@ -1324,7 +1324,7 @@ Step right up and fight me bold!~
 @1320 = ~The Red Wizards' thirst to conquer is both fueled and hampered by internal strife among various factions in their midst. On one hand, they art suspicious of the mercenaries and heroes that art not of themselves, and thus diminish their forces. But, on another hand, the most ambitious faction leaders see the conquest of foreign lands as a way to expand the dominion at home by bringing home victories from the battlefields.~
 @1321 = ~Faith is a secondary matter in Thay, but many evil powers thrive there. Cyric hath found the new following, after the Times of Troubles, as the Thayvians recognize a winner when they see one. Shar, Malar, Loviatar, and Talos art also venerated, and there art many cults devoted to Kossuth, the Elemental Lord of Fire.~
 @1322 = ~During the Tuigan Invasion, the Red Wizards fought the invaders to a draw, then schemed with them to attack our land, Rashemen. 'Tis how the Red Wizard acteth: a show of force and power, followed by devious machinations. .~
-@1323 = ~The nation of Thesk had long benefited from the Golden Way - the trade rout from the East to the Sea of the Fallen Stars. But to its demise, the Horde used this route, to march into the heart of Faerun. Now, much of Thesk still lieth in ruin. Most of its people were sent fleeing to Impiltur by the advancing Horde.~
+@1323 = ~The nation of Thesk had long benefited from the Golden Way - the trade route from the East to the Sea of the Fallen Stars. But to its demise, the Horde used this route, to march into the heart of Faerun. Now, much of Thesk still lieth in ruin. Most of its people were sent fleeing to Impiltur by the advancing Horde.~
 @1324 = ~Thesk is now plagued by the inhuman raiders, sent by Thar of Zenthil Keep to fight the Horde. They remained in the hinterland, raiding and pillaging the lands surrounding the Golden Way.~
 @1325 = ~Thesk is ruled by the merchant-mayors. Telflamm, the port-city on the Sea of the Fallen Stars, and a gateway to the East doth not belong to Thesk, but its Grand Prince holds no authority beyond the city's walls. 'Tis told, that even within 'tis the merchant guilds and traders that hold the reigns, not the nobility. ~
 @1326 = ~Aglarond is a small, heavily wooded and scarcely populated land. It lieth on the northern side of a peninsula that juts out into the eastern end of the Inner Sea. Jagged pinnacles of rock stand at its eastern end; to their east, these fall away into vast and treacherous marshes that largely isolate it from the mainland.~
@@ -1332,7 +1332,7 @@ Step right up and fight me bold!~
 @1328 = ~Aglarond cannot boast a field army of any size, nor a navy, but within its woods, the foresters art expert and deadly troops, adept at firefighting and at using coastboats handled with lateen sails, oars, and poles to raid by night. These foresters art equally well trained in treetop travel and fighting amid the foliage.~
 @1329 = ~As with all the lands, that art close to Thay, Aglarond is suffering from that proximity: Skirmishes with raiders hoping to win glory for Thay, or mercenaries hired by Thay, art endless. What is worse, in Aglarond Thay sees the obstacle to their domination of the Sea of the Fallen Stars. But Aglarond holds its own against the Red Wizards. At the battles of Singing Sands and Brokenheads, Aglarond's forces turned back invading hosts from Thay, but the cost was great.~
 @1330 = ~Aglarond's main strength is its ruler - the Simbul. She is a powerful mage, and her true aims art unknown. 'Tis said that she secretly roams the northern lands, seeking to influence all manner of events. Such actions art presumably to better Aglarond's safety, although the Simbul is said to be allied with the secret society known as the Harpers.~
-@1331 = ~I am Dynaheir, a witch of Rasheman. I and my comrade Minsc have been sent by the Wychlaran to determine if the prophecies of Alaundo are true. We search for the spawn of Bhaal.~
+@1331 = ~I am Dynaheir, a witch of Rashemen. I and my comrade Minsc have been sent by the Wychlaran to determine if the prophecies of Alaundo are true. We search for the spawn of Bhaal.~
 @1332 = ~I am worried that Minsc's unfortunate condition is permanent.~
 @1333 = ~We must not concern ourselves with talk, where an enemy may lurk behind any bush.~
 @1334 = ~I would'st rather hear more of Candlekeep, <CHARNAME>.~
@@ -1381,7 +1381,7 @@ Step right up and fight me bold!~
 @1377 = ~An affinity by curse is the most unusual requirement for a bride that I have seen.~
 @1378 = ~Dost not thou perceive just how ridiculous thou sound?~
 @1379 = ~Think on it, then. 'Twill be a beneficial exercise.~
-@1380 = ~If thou regret talking of this thing to me, than 'twas a mistake.~
+@1380 = ~If thou regret'st talking of this thing to me, then 'twas a mistake.~
 @1381 = ~And, <CHARNAME>... I am not afraid of thy origins. Not any more.~
 @1382 = ~I know thy heart better than anyone. 'Tis not murder that thou hold dear.~
 @1383 = ~Anyone who loves thee walks a knife's edge, <CHARNAME>.~
@@ -2247,7 +2247,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2238 = ~[MINSC 34] I am of few words and fewer hesitations!  Warnings past and now you die!~ [%tutu_var%MINSC34]
 @2239 = ~[MINSC 32] I take no offense from your comments.  You just don't understand the bond I have with Boo.~ [%tutu_var%MINSC32]
 @2240 = ~[MINSC 33] Your words are as sharp as my blade, though not half as shiny.  Oooo, shiny.~ [%tutu_var%MINSC33]
-@2241 = ~When asked about his past, MINSC proudly announces that he is a berserker warrior from the nation of Rashemen in the utter east. He is currently undertaking his dajemma, a ritual journey to manhood, and is seeking adventure and glory in battle. It is also his honor to be the bodyguard of a young Wychalarn of Rashemen named Dynaheir, and if anyone tries to harm her he will beat sense into their heads until they reconsider. He is unsure as to why she has led them to the Sword Coast, but his loyalty is unquestioning. If he serves her well and distinguishes himself in battle he hopes to be accepted into the Ice Dragon berserker lodge upon return to their homeland. So far Minsc considers his most notable experience in the world abroad to be the acquisition of his animal companion 'Boo,' a creature that he claims is a miniature giant space hamster. Apparently such things do exist in the Realms, but Minsc has surely taken too many blows to the head. He seems a good-natured fellow, but is all too willing to indulge his berserker nature.~ [DUMMYSND]
+@2241 = ~When asked about his past, MINSC proudly announces that he is a berserker warrior from the nation of Rashemen in the utter east. He is currently undertaking his dajemma, a ritual journey to manhood, and is seeking adventure and glory in battle. It is also his honor to be the bodyguard of a young Wychlaran of Rashemen named Dynaheir, and if anyone tries to harm her he will beat sense into their heads until they reconsider. He is unsure as to why she has led them to the Sword Coast, but his loyalty is unquestioning. If he serves her well and distinguishes himself in battle, he hopes to be accepted into the Ice Dragon berserker lodge upon their return to their homeland. So far Minsc considers his most notable experience in the world abroad to be the acquisition of his animal companion 'Boo,' a creature which he claims is a miniature giant space hamster. Apparently such things do exist in the Realms, but Minsc has surely taken too many blows to the head. He seems a good-natured fellow, but is all too willing to indulge his berserker nature.~ [DUMMYSND]
 @2242 = ~A little knowledge that acts is worth much more than lots of knowledge that is idle. Minsc figures that <CHARNAME>'d better act a lot!~
 @2243 = ~Villainy's butts must be royally kicked!~
 @2244 = ~You should have listened when Boo spoke, <CHARNAME>. I can't say sage things, like Boo does. I sometimes wish that the words of Boo weren't for Minsc alone.~
@@ -2430,7 +2430,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2421 = ~Certainly, <CHARNAME>. I'm glad you agree.~
 @2422 = ~And I have the most fascinating nose, too!~
 @2423 = ~You will find that I make a most magnificent friend!~
-@2424 = ~Indeed, just listen to my wisdom and instruction, and you will win a great deal of knowledge. I am a priest of Baervar Cloakshadow, and a great mage besides. I, ah... mastered sorcery so quickly that the narrow-minded commoners in my village made me leave as soon as I had come of age. They could not tolerate a youngster teaching them how to do things properly, you see...~
+@2424 = ~Indeed, just listen to my wisdom and instruction, and you will gain a great deal of knowledge. I am a priest of Barvar Cloakshadow, and a great mage besides. I, ah... mastered sorcery so quickly that the narrow-minded commoners of my village made me leave as soon as I had come of age. They could not tolerate a youngster teaching them how to do things properly, you see...~
 @2425 = ~But I am glad - I was too talented to remain in the backwater. I have apprenticed under Gifos, and he himself said that I cannot be bothered with learning as all others do, so I am better off on my own acquiring the practical knowledge of magic while adventuring. Yes, he did. So now I do just that - and, to tell you the truth, I think I am now at the level when I myself can teach anyone... bah! I could have taught in the Luskan's Host Tower... as a minimum - years ago, if not for envy and intrigues...~
 @2426 = ~You do not deserve a single whiff of my enormous brain... Wait! Where are you going?~
 @2427 = ~I am the most intelligent being on Toril... Can you feel my amazing brain?~
@@ -2585,12 +2585,12 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2576 = ~*Xan slowly turns around, placing himself in your arms, and brushes a stray lock of hair from your face.* Why are you so intent on chasing me? *sigh* Though I admit, I may as well ask myself the same question.~
 @2577 = ~*In a flash, Xan draws a Moonblade out of its sheath and whips around, his sword at the ready. As he sees it is you, his right arm falls to one side helplessly, his mouth half-open.* <CHARNAME>, you scared me senseless. Whatever happens, do not do this again.~
 @2578 = ~<CHARNAME>... *The gentleness with which Xan whispers your name is surprising. His hold is quite firm and while you are standing a foot apart, you feel the heat radiating from his skin. As Xan finally lets you out from his arms, his fingers brush your cheek, burning it, and his eyes seem to singe your face.*~
-@2579 = ~*His embrace is warm, and it is strangely familiar to feel another elven body, so slight and alike your own, against yours. As Xan presses you more tightly, stroking your shoulders and whispering comforting words in your ear, you sense a new emotion - the call of your elven blood, of the heritage that lay hidden for so long. Its pull is exhilarating and troubling in the same time, for you were raised by human and among humans, and yet is somehow comforting. As you slip from under Xan's palms, you cannot help but feel you have just paid a short visit to the mysterious home of your own people, whose blood flows freely in your veins - Tel'Quessir.*~
+@2579 = ~*His embrace is warm, and it is strangely familiar to feel another elven body, so slight and alike your own, against yours. As Xan presses you more tightly, stroking your shoulders and whispering comforting words in your ear, you sense a new emotion - the call of your elven blood, of the heritage that has lain hidden for so long. Its pull is exhilarating and troubling at the same time, for you were raised by a human and among humans, and yet is somehow comforting. As you slip from under Xan's palms, you cannot help but feel you have just paid a short visit to the mysterious home of your own people, whose blood flows freely in your veins - the Tel'Quessir.*~
 @2580 = ~*You feel him shivering in your arms, and as you raise your head, you are startled by how grim, forlorn and feverish his face looks. Xan sighs as he notices your gaze.* I do not want to lose you. Not now, not in the nearest future, not ever. Like a child, I am clinging to a desperate hope. It seems that I shall never learn, <CHARNAME>.~
 @2581 = ~*Xan is poring over his spellbook, and he frowns as he looks up.* <CHARNAME>, I am sorry, but I have a spell to prepare. If you will excuse me...~
 @2582 = ~*You give Xan a light peck on the cheek. He looks surprised, but says nothing. As you walk away, however, you hear a clearly audible sigh.*~
 @2583 = ~May I ask you not to attempt it in the future? I am not set of stone, <CHARNAME>, though sometimes I wish I was.~
-@2584 = ~I would be more careful if I were you - your human friend, Ajantis, casts dark glances in your direction even now. It is best if you make you choices fast, <CHARNAME>.~
+@2584 = ~I would be more careful if I were you - your human friend, Ajantis, casts dark glances in your direction even now. It is best if you make your choices fast, <CHARNAME>.~
 @2585 = ~<CHARNAME>, have you by any chance confused me with Coran? *Xan winces heavily as he turns away.*~
 @2586 = ~Do you seek company? I doubt mine is what you need at the moment; to tell you the truth, I see no point in conversation now.~
 @2587 = ~*As you walk up to him, Xan's face lights up considerably, and he continues his pace very close by your side.*~
@@ -2641,7 +2641,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2632 = ~*Xan pulls back before you can even touch him.* <CHARNAME>, I appreciate your sense of humor, but there is a line between joking and cruelty. Do not cross it. ~
 @2633 = ~*Your lips lock with his, and for a moment, Xan's eyes widen in shock. Then he starts to respond, and what may have been a brief kiss soon becomes a hot, ardent dance of skin against skin, as sensations overwhelm you. You are not aware of how you have found your way into his arms, or when exactly he has pulled you close, but now your whole being is melting into his, and the outside world ceases to exist. There is nothing but the soft fabric of his robes under your palms, his hands, running along your spine, and his lips, drinking hungrily of yours.* ~
 @2634 = ~*A shudder passes through Xan's body, and he steps back, breaking the embrace. His hands momentarily rest upon your shoulders, both steadying you and preventing you from approaching; then he lets his arms fall. As you glance around, you see that your brief escapade remained unnoticed, but a single look at Xan's face - breathless, shaken and lost - tells you the worst is far from over.*~
-@2635 = ~*He motions you to sit down next to him, and starts to speak, slowly and deliberately, choosing every word with great care.* <CHARNAME>, this has not happened. You were playing a joke, and I could not resist the temptation. I will carry the memory to my grave, but it must never again come to be in the waking word. I will not survive your death, then, and I do not want you to be hurt by mine. ~
+@2635 = ~*He motions you to sit down next to him, and starts to speak, slowly and deliberately, choosing every word with great care.* <CHARNAME>, this has not happened. You were playing a joke, and I could not resist the temptation. I will carry the memory to my grave, but it must never again come to be in the waking world. I will not survive your death, then, and I do not want you to be hurt by mine. ~
 @2636 = ~*Xan presses a finger to your lips, kisses your cheek and walks away. As your gaze follows him, you see that his shoulders are slumped loosely forward, like those of a drunken man, and his gait is unsteady.* ~
 @2637 = ~*You silently approach Xan, your strides falling into step with his. He continues walking as if he has not noticed, but as you move on, you see he is studying the incessant rhythm of your feet, and judging by the way his face relaxes, he finds the sight to his liking.*~
 @2638 = ~*Xan gives you a quizzical look, but seeing you have nothing else in mind, he turns his gaze back on the road. However, you notice that he, too, slightly alters the direction of his steps, until you walk shoulder to shoulder.*~
@@ -2721,7 +2721,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2712 = ~*sigh* But it was harsh of me to remind you of Gorion and Candlekeep yet again. I am sorry, <CHARNAME>; let us move on, lest we are ambushed even here.~
 @2713 = ~You, <CHARNAME>, you and me. What else could captivate my thoughts?~
 @2714 = ~*Xan neither sighs no protests when you find your way into his embrace, but he is still tense, and he lets his arms fall much earlier than you would have expected.*~
-@2715 = ~*Instead of taking you into his arms, Xan gives your face a single look and sweeps you off your feet, leaving your backpack on the ground. Completely oblivious to the startled looks of your companions, he rocks you in his arms slightly, like he would a child, and does not seem to think about your impeding doom at all.*~
+@2715 = ~*Instead of taking you into his arms, Xan gives your face a single look and sweeps you off your feet, leaving your backpack on the ground. Completely oblivious to the startled looks of your companions, he rocks you in his arms slightly, like he would a child, and does not seem to think about your impending doom at all.*~
 @2716 = ~My beautiful <CHARNAME>... *Xan sighs and buries his face in your hair.*~
 @2717 = ~*Xan holds you in a clinch for a few seconds, then places a quick kiss on your cheek and releases you, already muttering an incantation for a battle to come.*~
 @2718 = ~*As you bring your lips to his, Xan looks at you disbelievingly for a few moments, then closes his eyes, his lips trembling almost as violently as his fingers in your hair. As you part, a strange, sweet and bitter taste lingers in your mouth.*~
@@ -2742,9 +2742,9 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2733 = ~*A spontaneous and tender kiss answers you without any words.*~
 @2734 = ~I thought it was futile to attempt to avoid death, but these words... your words... makes it all worthwhile.~
 @2735 = ~*His normally beautiful hair is matted, and jumps around his face in haphazard curls. Your hand quickly gets lost in the tangles.*~
-@2736 = ~*Xan stops, allowing you to play with his soft, silky tresses, and regards you with a small smile.* I never suspected my hair was more important that our tasks and enemies. *sigh* I wish I had your view of things.~
+@2736 = ~*Xan stops, allowing you to play with his soft, silky tresses, and regards you with a small smile.* I never suspected my hair was more important than our tasks and enemies. *sigh* I wish I had your view of things.~
 @2737 = ~*His long, brown hair slides along your fingers with ease, so light that they seem weightless. It is hard to turn into a complete mess, but eventually, you leave no trace of the quaint, luxuriant strands. Instead, what piles on the top of Xan's head closely resembles a raven's nest.*~
-@2738 = ~*Xan sourly stares at his reflection in a nearest puddle.* My thanks and great appreciation, <CHARNAME>. I always suspected that the list of my miseries was not complete.~
+@2738 = ~*Xan sourly stares at his reflection in the nearest puddle.* My thanks and great appreciation, <CHARNAME>. I always suspected that the list of my miseries was not complete.~
 @2739 = ~*Xan frowns and extends his hand, preventing you from approaching.* I feel danger, <CHARNAME>. Whatever you have in mind must wait, I fear.~
 @2740 = ~*sigh* <CHARNAME>, you are a beautiful, insufferable, teasing and completely reckless child. I do not doubt the local brigands would be delighted at such a display, had they a chance to witness it.~
 @2741 = ~*Xan sweeps you in his arms, throwing a cold glance around.* I, however, caution you against it.~
@@ -2760,8 +2760,8 @@ She seems the eternal child, and is quite content to play the part of little sis
 @2751 = ~*Xan slides from under your hands and shakes his head tiredly.* Estel'amin, I fear I am doomed to collapse with exhaustion, and soon. Your efforts will be wasted, if you do not call a halt.~
 @2752 = ~*You bring your hands to the base of his neck, and his shoulders relax, slouching slightly. His skin is soft and warm to the touch, and the scars left after Mulahey's tortures are now barely visible. He breathes lightly and evenly under your fingertips, apparently feeling at ease.*~
 @2753 = ~*As you start working on his neck, Xan inclines his head, sighing softly, as a child would. The next moment, however, he sharply jerks his face up, as an odd sound emerges from the nearby bushes. It proves to be a false alarm, but the moment is lost, and with a brief kiss, he leaves your side.* ~
-@2754 = ~*Xan's build is lithe and lean, but fragile, almost skinny, and for a moment, you cannot help feeling that your touch will break him in two. He is also slightly taller than you, and you have to raise your head to fully see the object of your work. A mass of his hair partly obscures the view, as well as the high collar of his cloak, and it takes some time to get these obstacles safely of the way.*~
-@2755 = ~*Soon, however, you are able to proceed with you task. From the moment your fingertips come to rest on his shoulders, he stands absolutely still, neither moving nor breathing, and the only result you may feel is the increasing heat of his skin.*~
+@2754 = ~*Xan's build is lithe and lean, but fragile, almost skinny, and for a moment, you cannot help feeling that your touch will break him in two. He is also slightly taller than you, and you have to raise your head to fully see the object of your work. A mass of his hair partly obscures the view, as well as the high collar of his cloak, and it takes some time to get these obstacles safely out of the way.*~
+@2755 = ~*Soon, however, you are able to proceed with your task. From the moment your fingertips come to rest on his shoulders, he stands absolutely still, neither moving nor breathing, and the only result you feel is the increasing heat of his skin.*~
 @2756 = ~*When you are finished, Xan turns around and traces a line along your face, very gently.* You are a miracle, <CHARNAME>. I have forgotten all about our... what was it? Misfortunes? ~
 @2757 = ~*He gives you a sad, knowing smile.* But that does not get them out of our way, I am afraid. *sigh* Come, let us face them, as we probably should.~
 @2758 = ~*Xan raises an eyebrow suspiciously, but says nothing.* ~
@@ -3070,7 +3070,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @3061 = ~Aye, 'tis a decent request ye made. I'll pray fer all of you.~
 @3062 = ~When we stop fer the night, I will. 'Tis not prudent ta do it here.~
 @3063 = ~I've been in prison for a considerable time. I really don't know what's been happening on the surface. All I can tell ye is this: whatever those Iron Throne crooks are up to, it's not good, not good at all.~
-@3064 = ~Aye, it grieves me t' see the mines come t' ruin. Me kin is all dead now, but once, <PRO_GIRLBOY>, the Cloakwood Mine of Orothiars was a fare settlement. I meself were an apprentice smith till my seventieth year. Aye... we fought wyverns that even then nested in Cloakwood, and me valour were noticed by old Torgrim, priest of Alaghor. He took me in as an acolyte, and since I taught Calggedin's word eve' since and took over Torgrim's duties on his passing.~
+@3064 = ~Aye, it grieves me t' see the mines come t' ruin. Me kin is all dead now, but once, <PRO_GIRLBOY>, the Cloakwood Mine of th' Orothiars was a fair settlement. I meself were an apprentice smith till my seventieth year. Aye... we fought wyverns that even then nested in Cloakwood, and me valour were noticed by old Torgrim, priest of Alaghor. He took me in as an acolyte, and since I taught Calggedin's word e'er since and took over Torgrim's duties on his passing.~
 @3065 = ~But it's all gone under water by the ill blow of fate. I meself consecrated the mine to serve as a permanent watery grave-site for me kin, leaving it there as a monument to the memory of me family. A handful survived back then, and a handful is no clan. I did well enough for meself in Sembia afterwards, but for the Iron Throne banditry tricking me.~
 @3066 = ~Aye, friendships last when gold is long gone. 'Tis good to talk heart to heart, but now is not a good time, <CHARNAME>.~
 @3067 = ~We do good! 'Tis as my clan was, long ago.~
@@ -3082,7 +3082,7 @@ She seems the eternal child, and is quite content to play the part of little sis
 @3073 = ~*You proceed with asking inquisitive questions about Coran's past.*~
 @3074 = ~*You talk about Coran's problems and hopes, in a friendly and kind manner, in hopes of making Coran confide in you.*~
 @3075 = ~*You are used to hearing things from the bottom of people's hearts... so you try to charm Coran into telling you more about himself.*~
-@3076 = ~*You talk about the Coran's problems and hopes, in a friendly and kind manner, in hopes of making Coran confide in you.*~
+@3076 = ~*You talk about Coran's problems and hopes, in a friendly and kind manner, in hopes of making Coran confide in you.*~
 @3077 = ~So, Coran, who is the fairest woman in the world? ~
 @3078 = ~So, is luck still on the side of the romantic, Coran?~
 @3079 = ~So, my daredevil friend, what's your take on our preferred course of actions?~
@@ -3178,7 +3178,7 @@ But you are the fairest I have seen.~
 @3166 = ~Of course. Cheating is so ignoble.~
 @3167 = ~O, well.~
 @3168 = ~Wonderful! But let us go now: the road, treasures and beautiful women call!~
-@3169 = ~What knowledge would you like from me? I could tell you about the beautiful forests of Tehir, or the many gorgeous damsels that have fallen for my charms. I have studied up on the wyverns that prey upon the area. They have wicked barbs upon their tails, which they use to poison their victims. They are cruel beasts that enjoy inflicting suffering upon their prey. I really have not much more to say.~
+@3169 = ~What knowledge would you like from me? I could tell you about the beautiful forests of Tethir, or the many gorgeous damsels that have fallen for my charms. I have read up on the wyverns that prey upon the area. They have wicked barbs upon their tails, which they use to poison their victims. They are cruel beasts that enjoy inflicting suffering upon their prey. I really have not much more to say.~
 @3170 = ~Friend <CHARNAME>, why do we waste our time talking about me, when we can talk about women? ~
 @3171 = ~About me? I am from the Forest of Tethir and... <CHARNAME>, you have the most beautiful... er... eyes.~ [%tutu_var%CORAN3]
 @3172 = ~<CHARNAME>, I will tell you anything you want to know about me, for a kiss or two.~ [%tutu_var%CORAN3]
@@ -3186,7 +3186,7 @@ But you are the fairest I have seen.~
 @3174 = ~Coran looks at you with his teasing tilted eyes, eager to talk about... anything, it seems.~
 @3175 = ~*Tenderness wells in your heart, when you look Coran's way. There can be no mistake that the elf fancies you. Perhaps, you could hint that his efforts to win your favor did not go unnoticed. A nice kiss, perhaps?*~
 @3176 = ~*Amidst the fray it is so easy to forget about love. It is like a bud that opened up while wildfire was ravaging the forest around it. It has a doomed beauty about it... You can choose to let it strive for survival on its own or try to protect it. Right now, you'd rather nurture it to life. You abandon all caution for a moment and kiss your lover, Coran.*~
-@3177 = ~*You notice that Coran's gaze wonders from the dark sky towards you, and his sharp features become pensive. What is it that he saw that made him to do so? Or does your imagination play tricks on you?*~
+@3177 = ~*You notice that Coran's gaze wanders from the dark sky towards you, and his sharp features become pensive. What is it that he saw that caused this? Or does your imagination play tricks on you?*~
 @3178 = ~*Sadness is not always unwelcome or unkind. After all that has passed, your sheltered world shattered, you savor stronger emotions than you ever knew. They taste bitter and sweet, sour and spicy... You cannot quite understand what you are feeling at the moment, but it calls for solitude and reflection.*~
 @3179 = ~*The sun is high, and the world is full of hot, vibrant light. Dry grasses crack underfoot, spilling intoxicating fragrances in the air. Coran picks a stem and smells it with delight.*~
 @3180 = ~*You pick up a few flowers and carry them, not quite knowing what to do with them.*~
@@ -3247,7 +3247,7 @@ But you are the fairest I have seen.~
 @3235 = ~The prettiest thing is <CHARNAME> dancing in the starlight for just one man to see. Need I say... that man is me? ~
 @3236 = ~I think it's going to rain soon, and we are in for a good soaking. ~
 @3237 = ~Am I a basilisk that you are afraid to meet my glance? ~
-@3238 = ~A woman's sigh is a precious thing, that should not be wasted. *kisses you lightly on her lips* Now, it is preserved. ~
+@3238 = ~A woman's sigh is a precious thing that should not be wasted. *kisses you lightly on the lips* Now, it is preserved. ~
 @3239 = ~So, that's why you steal glances at me every time you think that I am not looking? You are bound to go cross-eyed that way, and for what purpose? ~
 @3240 = ~Oh, simple things. Eternity, life... You. A fool's way to spend time when enemies are abound. I am afraid that my thoughts were too disordered to convey them without confusing you even more.~
 @3241 = ~Well, I imagined you lazing amidst the stars, and myself, I was pulling the coverlet of the night's sky off of you. ~
@@ -3270,7 +3270,7 @@ But you are the fairest I have seen.~
 @3258 = ~*You pull out a yellowish grass-stem sporting a fluffy top and tickle the base of Coran's neck.*~
 @3259 = ~*You take Coran's head in your arms, pulling him toward you and kiss him deeply...* The taste of your lips warmed by the sun is sweeter than honey and...~
 @3260 = ~*You jump up in a fury.* Coran, it's DUSTY here!~
-@3261 = ~*Coran's lips skim over your cheeks and lips, never stopping. Sometimes there is just a minutes difference between a kiss and the touch of his breath. It smells like life itself, sharp and sweet.* It is a pleasure to kiss you in the sunlight, in full view of the world.~
+@3261 = ~*Coran's lips skim over your cheeks and lips, never stopping. Sometimes there is just a minute difference between a kiss and the touch of his breath. It smells like life itself, sharp and sweet.* It is a pleasure to kiss you in the sunlight, in full view of the world.~
 @3262 = ~I heard a request for a kiss. *smiles mischievously* You will have to try much harder...I am quite resilient.~
 @3263 = ~*Coran shakes his head.* Not yet. *His fingers caress your hair and shoulders slowly.* 'Tis moment of perfect harmony... let us savor it.~
 @3264 = ~*Coran's neck arches backwards and he smiles.* Do you think that I am such a weakling of a man that I will flinch away from this gentle touch?~
@@ -3365,7 +3365,7 @@ But you are the fairest I have seen.~
 @3353 = ~Why, because I am stubborn, of course. Just like you, <CHARNAME>. ~
 @3354 = ~*smiles smugly* I do not stop while what I am doing pleases my lady. ~
 @3355 = ~By the very same reason that you closed my eyes in the first place. It's a game, sweetling, and two are playing. ~
-@3356 = ~Ah, you have noticed how badly it's written, as well? It does not do you justice at all! Come now, love, let us re-write it! Hmm... hair color... that's so plain... what will be the best word?~
+@3356 = ~Ah, you have noticed how badly it's written, as well? It does not do you justice at all! Come now, love, let us rewrite it! Hmm... hair color... that's so plain... what will be the best word?~
 @3357 = ~Golden?~
 @3358 = ~Auburn? ~
 @3359 = ~Raven-wing?~
@@ -3379,14 +3379,14 @@ But you are the fairest I have seen.~
 @3367 = ~See, and they had it as "white"! Now it sounds much better: <CHARNAME> of Candlekeep, whose silver hair shines in the moonlight, becoming its rival. ~
 @3368 = ~See, and they had it as "brown"! Now it sounds much better: <CHARNAME> of Candlekeep, with gleaming hair the color of honey.~
 @3369 = ~That's why they never even mentioned your hair... but I shall write over it: with the hair of the most beautiful color Coran has seen and called it <CHARNAME>'s color. ~
-@3370 = ~Ah, you have noticed how badly it's written, as well? It does not do you justice at all! Come now, love, let us re-write it! Hmm... eye color... that's too plain... what will be the best word?~
+@3370 = ~Ah, you have noticed how badly it's written, as well? It does not do you justice at all! Come now, love, let us rewrite it! Hmm... eye color... that's too plain... what will be the best word?~
 @3371 = ~Azure? ~
 @3372 = ~Emerald-green?~
 @3373 = ~Onyx?~
 @3374 = ~Silver?~
 @3375 = ~Hazel?~
 @3376 = ~The sages in Candlekeep looked through books in thirty different languages and could not find the right word for the color of my eyes. It's unique!~
-@3377 = ~Azure? Yes, let me pen it down: <CHARNAME> of Candlekeep with eyes of dark azure, that will remind you of the Dargonmare on a calm day. Much better now, is it not? ~
+@3377 = ~Azure? Yes, let me pen it down: <CHARNAME> of Candlekeep with eyes of dark azure, that will remind you of the Dragonmere on a calm day. Much better now, is it not? ~
 @3378 = ~Let me pen it down: <CHARNAME> of Candlekeep with eyes shining like emeralds when she is calm and as the sky before dawn when she kisses a man. Much better now, is it not?~
 @3379 = ~Let me pen it down: <CHARNAME> of Candlekeep, with her eyes deep and black, like liquid onyx. Much better now, is it not? ~
 @3380 = ~Let me pen it down: <CHARNAME> of Candlekeep, with her eyes as pure as the most noble silver. Much better now, is it not? ~
@@ -3397,7 +3397,7 @@ But you are the fairest I have seen.~
 @3385 = ~There was a paladin once, and a pair of quick hazel eyes led him astray from the path of honor. Long he had fought with the passion that he bore for his lady, but finally one night, when the husband was spending his evening out of the house, he confessed his feelings to the lady. Mystified and curious, the lady was all too willing to induct the paladin on the path of sin. Alas, the brave knight had not brought along his squire to the rendez-vous, and the two of them spent a good hour, panting and sweating, in their attempt to get the man out of his armor. The paladin then announced that this was a sign of Torm's displeasure with their actions, swore himself to chastity and made the lady swear to be faithful to her husband from that day on. Which she did until she encountered a rogue who had never worn anything but a leather jerkin. ~
 @3386 = ~There was a ranger once, who lived in the forest, but belonged to a noble family. He knew all the languages of beasts and birds, and excelled at them. Unfortunately, while in the wilderness, he managed to lose fluency in human languages. As it happens, he came to visit his relatives in the middle of a ball. He walked through the doors, and got into the well-lit chambers, full of guests. Not willing to shame his sister, he grabbed for the first lady he saw and danced with her. In the middle of it, the lady started pinching her nose ever so delicately, and showed signs of being uncomfortable around her forest-seasoned partner. Always eager to help a person in distress, the ranger accompanied her to her chair, took her fan and asked if she need him to pass the wind in her face. ~
 @3387 = ~Once upon a time, there was a king in Tethyr. During his reign, a Minotaur, or maybe just an overgrown wild bull, or whatever else monstrous, showed up in his kingdom, was terrorizing peasants, eating chickens and carrying away women. The usual scope, you know. As it always happens in such stories, the king placed a call for a hero to kill the beast and promised his daughter's hand as a reward. Nobody stepped up for a time, until one outlandish bard heard of the bounty, got the monster killed, and came to claim his reward. Yet, after one look at the princess, he requested to add to the reward the biggest barrel of good wine either instead of or immediately prior to the wedding night.~
-@3388 = ~There was as wizard once, who kept locking himself out of his own magical tower. One day he came back and found the doors open and a gnomish thief going through his belongings. He immediately cast a spell that held the poor sod in place. Faced with the prospect of losing his hand for thievery, the rogue agreed to serve the wizard for five years. So, the mage petrified him and set on his front lawn, and from time to time when he forgot his keys, he unpetrified the rogue to let him in the tower. They still argue how to count the five-year term of service, for the wizard insists on counting only the time when the rogue picks the locks, and the thief says that he works the rest of the time as a garden gnome.~
+@3388 = ~There was a wizard once, who kept locking himself out of his own magical tower. One day he came back and found the doors open and a gnomish thief going through his belongings. He immediately cast a spell that held the poor sod in place. Faced with the prospect of losing his hand for thievery, the rogue agreed to serve the wizard for five years. So, the mage petrified him and set him on his front lawn, and from time to time when he forgot his keys, he unpetrified the rogue to let him into the tower. They still argue how to count the five-year term of service, for the wizard insists on counting only the time when the rogue picks the locks, and the thief says that he works the rest of the time as a garden gnome.~
 @3389 = ~A druid was once collecting mistletoe and saw three beautiful dryads dancing in the meadow. The druid had heard many a story about dryads abducting men misfortunate enough to come too close. The longer he watched them though, the more he was willing to become a victim. So each night he would go around the meadow, coming closer and closer to dryads, and in the end he ended up sleeping almost under their feet, yet they made no attempt at kidnapping. "Well," the druid said then to the dryads, "at least I have proven that all these legends are lies and serve only to blacken the dryads' reputation." "Sir," the dryads replied. "The legends are all true, but abducting you is just as thrilling as abducting an oak tree."~
 @3390 = ~*As if by accident, Coran's hip touches yours.*~
 @3391 = ~*Blush and move away.*~
@@ -3435,7 +3435,7 @@ They are waves and Shuan silk's cascade.~
 @3418 = ~I prefer lazing out here. I have the most beautiful view. ~
 @3419 = ~Let me try... hmm... perhaps a feather there, and a flower by it... *Coran gets absorbed into braiding and decorating your hair. After he is done, you are most likely looking like a very wild elf.* ~
 @3420 = ~*Coran closes his eyes and his lips part. Finally he breathes out.* You should either stop now, sweetling, or command for us to rest here. Please, do not do it, unless you really, really *mean* for this to continue. ~
-@3421 = ~Oh, but I *did* means it this time, lover.~
+@3421 = ~Oh, but I *did* mean it this time, lover.~
 @3422 = ~By Sune! You are overly sensitive. ~
 @3423 = ~I promise, I will try not do it again, unless we are in more... intimate circumstances, no matter how tempting it is. ~
 @3424 = ~*Coran cups your breast with his hand, and his fingers make their way to your nipple.* I see that you still do not believe in what it does to me. Perhaps, I should show you how it feels.~
@@ -3455,7 +3455,7 @@ They are waves and Shuan silk's cascade.~
 @3438 = ~*teasingly* You will never guess! ~
 @3439 = ~*Coran uses this opportunity to sneak upon you and kiss you lightly on your lips.*~
 @3440 = ~Ah! All the lights went out! The dark shadow is about to swallow us! Open your eyes, my light, open your eyes! ~
-@3441 = ~*Coran laughs lightly* And how did you know I meant *yours* eyes, not someone else's? ~
+@3441 = ~*Coran laughs lightly* And how did you know I meant *your* eyes, not someone else's? ~
 @3442 = ~*Coran shifts a bit so that you find yourself inclining with your back against his chest.* ~
 @3443 = ~*Lean your head back to put it on Coran's shoulder*~
 @3444 = ~*Straighten abruptly*~
@@ -3531,7 +3531,7 @@ They are waves and Shuan silk's cascade.~
 @3514 = ~It is a long story, <CHARNAME>, and I am in no mood to talk. Perhaps another time.~
 @3515 = ~The Wizards of Thay do not share their knowledge with anybody and everybody. Be deserving of my respect, and you will know. Or not.~
 @3516 = ~Hmmm, you are interested? Oh, very well. Walk with me, and I will tell you some of it.~
-@3517 = ~My magic is the result of long, through and careful studying, a feat that few are able to accomplish. (Judging by <HISHER> appearance, <HESHE> never had a book in <HISHER> hands, let alone a spellbook.)~
+@3517 = ~My magic is the result of long, thorough and careful study, a feat that few are able to accomplish. (Judging by <HISHER> appearance, <HESHE> never had a book in <HISHER> hands, let alone a spellbook.)~
 @3518 = ~Thay provides patronage for every Red Wizard, and a man of my skill and talent passes by no opportunity, especially in the land so ripe with possibilities.~
 @3519 = ~Follow me on the way to my ascension, <CHARNAME>, and you may grab a tiny scrap for your own.~
 @3520 = ~My powers are beyond your meager mind to comprehend. (Mustn't admit <HISHER> superiority. <CHARNAME> is a simian, and <HESHE> should be made aware of it.)~
@@ -3615,7 +3615,7 @@ They are waves and Shuan silk's cascade.~
 @3598 = ~*looks sidelong at Skie* Endure what cannot be cured. For the sake of your dream.~
 @3599 = ~*leers at Skie* Forget the Future! Embrace the endless Now!~
 @3600 = ~Why, tap the boundless Silvershield fortune and retire to a life of refined hedonism... or did you mean about this iron-whosis thing?~
-@3601 = ~Certainly. Would you prefer one about the deaths of kings? Or the deaths of princes? Or beautiful princesse, perhaps? Or might I suggest 'The Tragic Ballad of the Overweening Adventurer'? ~
+@3601 = ~Certainly. Would you prefer one about the deaths of kings? Or the deaths of princes? Or beautiful princesses, perhaps? Or might I suggest 'The Tragic Ballad of the Overweening Adventurer'? ~
 @3602 = ~Well, there's one called 'Time Waits for No One'... A little *too* apt, though, I think. ~
 @3603 = ~Let's see. 'The Rustic's Education' is a bit didactic. Helpful, though, perhaps. And 'A Bumpkin's Delusion' makes the same points. More crudely, of course. ~
 @3604 = ~Hmm. There's 'Drowned in the Sea of Fate.' 'Crushed Beneath the Wheel'. 'Lost and Doomed.' No. I don't believe that I know any such thing. ~
@@ -3954,7 +3954,7 @@ They are waves and Shuan silk's cascade.~
 @3937 = ~Get rid of the evil in this group! It is contaminating our presence.~
 @3938 = ~<CHARNAME>, I cannot agree to the way we treat the people seeking our help. I see you making bad decisions and turning down pleas for help. This is not the way we should behave on our glorious search!~
 @3939 = ~Your true self shows in the way you treat other people, <CHARNAME>. Stop making bad decisions and turning down pleas for help, or we will soon draw steel against each other.~
-@3940 = ~I belong to the noble family of Ilvastarr of Waterdeep. I joined the Order of the Radiant Heart as a squire and studied my swordsmanship under Myrmith Splendon himself! I am now on the road to fight battles with evil and quench this land of foul creatures we may cross. I hope that this way I may prove to the Order that I am deserving of becoming a full-fledged member!~
+@3940 = ~I belong to a noble family, the Ilvastarrs of Waterdeep. I joined the Order of the Radiant Heart as a squire and studied my swordsmanship under Myrmith Splendon himself! I am now on the road to fight battles with evil and cleanse this land of any foul creatures we may come across. I hope that this way I may prove to the Order that I am deserving of becoming a full-fledged member!~
 @3941 = ~Shhh, listen. There is a rumble in the bushes, there is danger afoot. Let us not be distracted by meaningless banter.~
 @3942 = ~Perhaps some other time, for now we must keep our eyes and ears open.~
 @3943 = ~It is more important to exercise caution than our jaw.~
