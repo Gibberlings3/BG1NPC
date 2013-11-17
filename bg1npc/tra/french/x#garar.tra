@@ -31,7 +31,8 @@
 @26 = ~Je n'y vois pas de mal. Qui sait, en vérité nous pourrions apprendre quelque chose.~
 @27 = ~J'ai déjà eu ma dose avec ce vieux bibliothécaire fou, Garrick, mais si tu ne la fermes pas, alors je vais t'enfoncer ce bouquin là où le soleil ne brille jamais, si tu vois ce que je veux dire...~
 @28 = ~Waouh ! Merci, <CHARNAME>.~
-@29 = ~Bibliothécaires errants.
+// Isaya : à conserver impérativement identique à @26 de x#garwyl.tra
+@29 = ~Bibliothécaires errants
 
-Aujourd'hui, nous avons rencontré un vieux bibliothécaire sénile nommé Archibald, au Carnaval de Nashkel. Il nous a donné une copie du Précis Ultime des Héros Célèbres Méconnus de Saemon Schama, lequel comporte une intéressante section détaillée sur le barde mort-vivant Myr'Cutio que l'on prétend hanter la région d'Ulcaster, à l'est de Bérégost. Garrick aimerait aller y jeter un coup d'oeil.~
+Aujourd'hui, nous avons rencontré un vieux bibliothécaire sénile nommé Archibald, au Carnaval de Nashkel. Il nous a donné une copie du Précis Ultime des Héros Célèbres Méconnus de Saemon Schama, lequel renferme une intéressante section détaillée sur le barde mort-vivant Myr'Cutio, qu'on dit hanter la région d'Ulcaster, à l'est de Bérégost. Garrick aimerait beaucoup aller y faire un tour.~
 @30 = ~Très bien, mais je parie que nous le regretterons, si nous n'y allons pas...~
