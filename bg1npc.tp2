@@ -29,6 +29,17 @@ ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
   OUTER_SPRINT ~bgee~ ~bgee/~
 
   // BG:EE tra conversion
+  // Character encoding for BG II for various languages: ensure the name matches the menu choices
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY languageencoding BEGIN
+	"french" => "CP1252"
+	"spanish" => "CP1252"
+  END
+  OUTER_SPRINT initialencoding ~~
+  ACTION_PHP_EACH languageencoding AS lang => encoding BEGIN
+    ACTION_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~%lang%~ = 0) THEN BEGIN
+      OUTER_SPRINT initialencoding ~%encoding%~
+    END
+  END
   // Isaya: check for existence of BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra as a marker that the mod
   // has already installed at least one component, so conversion is already done, in order
   // to avoid repeating for each component (as a backup of all tra files is then done in each
@@ -36,11 +47,15 @@ ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
   // This is a handy trick with BG1 NPC, since BG1NPC.tra is created when the mod is installed
   // and removed with the mod. But it cannot be used as a generic trick for other mods.
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bg1npc/tra/%LANGUAGE%/BG1NPC.tra~) AND
-            ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) AND
-            ( ("%LANGUAGE%" STRING_COMPARE_CASE ~french~ = 0) OR ("%LANGUAGE%" STRING_COMPARE_CASE ~spanish~ = 0) ) THEN BEGIN
-    // Only convert for the language selected by passing the directory as parameter
-    AT_NOW ~bg1npc/conv_tra.bat %LANGUAGE%~
-    //AT_NOW ~bg1npc/conv_tra.bat~
+            (STRING_LENGTH ~%initialencoding%~ != 0) THEN BEGIN
+    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~WIN32~ = 0) THEN BEGIN
+      // Only convert for the language selected by passing the directory as parameter
+      AT_NOW ~bg1npc/conv_tra.bat %LANGUAGE% %initialencoding%~
+    END
+    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~OSX~ = 0) OR ("%WEIDU_OS%" STRING_EQUAL_CASE ~UNIX~ = 0) THEN BEGIN
+      // Only convert for the language selected by passing the directory as parameter
+      AT_NOW ~bg1npc/conv_tra.sh %LANGUAGE% %initialencoding%~
+    END
     // Isaya: all tra files have to be renamed from .tra_utf8 to .tra!
     // Otherwise the tra files for dialogs are still with the Windows 1252 encoding
     MOVE ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra~
@@ -59,12 +74,10 @@ ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr_notosc.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr_notosc.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisbhaallts.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisbhaallts.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantischallenges_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantischallenges_pr.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisdreamlts.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisdreamlts.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisiniflirts_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisiniflirts_pr.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantislts_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantislts_pr.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajantisnpc_talks_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajantisnpc_talks_pr.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/x#ajchal.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajchal.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajint.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajint.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajpcfl_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajpcfl_tmp.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/x#ajroadd_pr.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#ajroadd_pr.tra~

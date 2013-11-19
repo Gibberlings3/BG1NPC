@@ -73,7 +73,7 @@
 @39    = ~Pour sûr que nous allons écraser quelques têtes pour vous ! Si vous voulez, nous pouvons forcer ces hobgobelins à revenir vers vous et à vous dire qu'ils sont navrés d'avoir pris l'anneau de votre père.~
 /* Joïa, qui trouve les manières de CHARNAME trop bonnes peut-être pour cogner, d'où moquerie d'Imoen */
 // Isaya : comme le groupe initie le dialogue, l'accord se fera sur le sexe du personnage qui parle, pas sur CHARNAME. Pour "my good <PRO_LADYLORD>", la traduction de "good" en "aimable" permet d'imposer un "mon" commun aux deux sexes.
-@40    = ~*vous bourre les cottes* Notre finesse n'est pas appréciée à sa juste valeur par ici, mon aimable <PRO_LADYLORD>.~
+@40    = ~*vous bourre les côtes* Notre finesse n'est pas appréciée à sa juste valeur par ici, mon aimable <PRO_LADYLORD>.~
 /* Chase */
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 530, probablement inutile de traduire ici !
 // Isaya : Beaucoup de contournement à cause du PRO_HIMHER inutilisable et de l'impossibilité d'utiliser la déclinaison féminine puisqu'on n'est pas sûr que ce soit le PJ qui engage la conversation
