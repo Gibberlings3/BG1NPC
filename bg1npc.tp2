@@ -1504,7 +1504,7 @@ BEGIN @1005 DESIGNATED 0
 	
   /* pdialog.2da preparation */
   ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
-    COPY_EXISTING ~pdialog.2da~ ~override~
+    COPY_EXISTING ~pdialog.2da~ ~override~ 
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^JOIN_DIALOG_FILE\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~JOIN_DIALOG_FILE\1DREAM_SCRIPT_FILE~
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_MINSCJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_MINSCJ\1_MINSCD~
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_FALDOJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_FALDOJ\1_FALDOD~
@@ -1647,6 +1647,10 @@ BEGIN @1005 DESIGNATED 0
     END
   BUT_ONLY_IF_IT_CHANGES
   
+  
+COPY_EXISTING ~pdialog.2da~ ~override~ 
+	PRETTY_PRINT_2DA
+      
   ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
 
     /* CamDawg's Temple Healing Fix */
@@ -2138,7 +2142,6 @@ BEGIN @1007
     SAY NAME2 @11
     SAY UNIDENTIFIED_DESC @12
     SAY DESC @13
-  BUT_ONLY_IF_IT_CHANGES
 
   /* Ajantis shield */
   COPY ~BG1NPC/Phase1/ITM/X#ISHAJ.BAM~ ~override~
@@ -2735,7 +2738,8 @@ BEGIN @1007
   COPY_EXISTING  ~%tutu_var%bandit.cre~ ~override/x#bandk1.cre~
                  ~%tutu_var%bandit.cre~ ~override/x#bandk2.cre~
                  ~%tutu_var%bandit.cre~ ~override/x#bandk3.cre~
-	  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+	LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
     SAY NAME1 @30
     SAY NAME2 @30
     SAY INITIAL_MEETING @31
@@ -2752,12 +2756,10 @@ BEGIN @1007
     SAY SELECT_COMMON4 @31
     SAY SELECT_COMMON5 @31
     SAY SELECT_COMMON6 @31
-    WRITE_ASCII 0x2CC ~~ #8 //  dialog
     WRITE_ASCII 0x0258 ~~ #8 //  Creature script - Race
     WRITE_ASCII 0x0260 ~~ #8 //  Creature script - General
     WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TARSGT~ #8 //  Creature script - Default
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
 
   /* Adding Brilla's DV */
   COPY_EXISTING ~%tutu_var%brilla.cre~ ~override~
@@ -2766,7 +2768,7 @@ BEGIN @1007
   BUT_ONLY_IF_IT_CHANGES
 
   /* scripts */
-  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#KABND2.BAF~
+  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#KABAND.BAF~
 
   /* dialogue */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#KAQST.D~
@@ -3048,8 +3050,7 @@ BEGIN @1007
     SAY SELECT_COMMON2 @132
     SAY SELECT_COMMON3 @133
     SAY SELECT_COMMON4 @134
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~ 
 
   COPY ~BG1NPC/Phase2/cre/x#chop.cre~ ~override~
     SAY NAME1 @135
@@ -3064,8 +3065,7 @@ BEGIN @1007
     SAY SELECT_COMMON2 @132
     SAY SELECT_COMMON3 @133
     SAY SELECT_COMMON4 @134
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase2/cre/x#assi01.cre~ ~override~
        ~BG1NPC/Phase2/cre/x#assi02.cre~ ~override~
@@ -3473,72 +3473,23 @@ BEGIN @1007
   COPY ~BG1NPC/Phase2/cre/x#amelia.cre~ ~override~
     SAY NAME1 @237
     SAY NAME2 @237
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~LRING~
     ADD_CRE_ITEM ~%tutu_var%CLCK12~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
 
   /* Natan */
   COPY ~BG1NPC/Phase2/cre/x#natan.cre~ ~override~
-    SAY NAME1 @238
-    SAY NAME2 @238
-    WRITE_LONG INITIAL_MEETING (BNOT 0x0) // BLANKING NATAN'S SOUNDS
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_LONG MORALE (BNOT 0x0)
-    WRITE_LONG HAPPY (BNOT 0x0)
-    WRITE_LONG UNHAPPY_ANNOYED (BNOT 0x0)
-    WRITE_LONG UNHAPPY_SERIOUS (BNOT 0x0)
-    WRITE_LONG UNHAPPY_BREAKING (BNOT 0x0)
-    WRITE_LONG LEADER (BNOT 0x0)
-    WRITE_LONG TIRED (BNOT 0x0)
-    WRITE_LONG BORED (BNOT 0x0)
-    WRITE_LONG BATTLE_CRY1 (BNOT 0x0)
-    WRITE_LONG BATTLE_CRY2 (BNOT 0x0)
-    WRITE_LONG BATTLE_CRY3 (BNOT 0x0)
-    WRITE_LONG BATTLE_CRY4 (BNOT 0x0)
-    WRITE_LONG BATTLE_CRY5 (BNOT 0x0)
-    WRITE_LONG DAMAGE (BNOT 0x0)
-    WRITE_LONG DYING (BNOT 0x0)
-    WRITE_LONG HURT (BNOT 0x0)
-    WRITE_LONG AREA_FOREST (BNOT 0x0)
-    WRITE_LONG AREA_CITY (BNOT 0x0)
-    WRITE_LONG AREA_DUNGEON (BNOT 0x0)
-    WRITE_LONG AREA_DAY (BNOT 0x0)
-    WRITE_LONG AREA_NIGHT (BNOT 0x0)
-    WRITE_LONG SELECT_COMMON1 (BNOT 0x0)
-    WRITE_LONG SELECT_COMMON2 (BNOT 0x0)
-    WRITE_LONG SELECT_COMMON3 (BNOT 0x0)
-    WRITE_LONG SELECT_COMMON4 (BNOT 0x0)
-    WRITE_LONG SELECT_COMMON5 (BNOT 0x0)
-    WRITE_LONG SELECT_COMMON6 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION1 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION2 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION3 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION4 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION5 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION6 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION7 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE1 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE2 (BNOT 0x0)
-    WRITE_LONG CRITICAL_HIT (BNOT 0x0)
-    WRITE_LONG CRITICAL_MISS (BNOT 0x0)
-    WRITE_LONG TARGET_IMMUNE (BNOT 0x0)
-    WRITE_LONG INVENTORY_FULL (BNOT 0x0)
-    WRITE_LONG PICKED_POCKET (BNOT 0x0)
-    WRITE_LONG HIDDEN_IN_SHADOWS (BNOT 0x0)
-    WRITE_LONG SPELL_DISRUPTED (BNOT 0x0)
-    WRITE_LONG SET_A_TRAP (BNOT 0x0)
-    WRITE_LONG BIO (BNOT 0x0)
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-    WRITE_ASCII 0x280 ~natan~ #32 //  death variable
-    ADD_CRE_ITEM ~%tutu_var%POTN42~ #0 #0 #0 ~IDENTIFIED~ ~INV7~
-    ADD_CRE_ITEM ~%tutu_var%POTN36~ #0 #0 #0 ~IDENTIFIED~ ~INV8~
-    ADD_CRE_ITEM ~%tutu_var%POTN37~ #0 #0 #0 ~IDENTIFIED~ ~INV9~
-    ADD_CRE_ITEM ~%tutu_var%POTN07~ #0 #0 #0 ~IDENTIFIED~ ~INV6~
-    ADD_CRE_ITEM ~X#CODYE1~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
-    WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%THIEF4~ #8 // Race script
+      LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+      LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+      SAY NAME1 @238
+      SAY NAME2 @238
+      WRITE_ASCII 0x280 ~natan~ #32 //  death variable
+      ADD_CRE_ITEM ~%tutu_var%POTN42~ #0 #0 #0 ~IDENTIFIED~ ~INV7~
+      ADD_CRE_ITEM ~%tutu_var%POTN36~ #0 #0 #0 ~IDENTIFIED~ ~INV8~
+      ADD_CRE_ITEM ~%tutu_var%POTN37~ #0 #0 #0 ~IDENTIFIED~ ~INV9~
+      ADD_CRE_ITEM ~%tutu_var%POTN07~ #0 #0 #0 ~IDENTIFIED~ ~INV6~
+      ADD_CRE_ITEM ~X#CODYE1~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
+      WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%THIEF4~ #8 // Race script
       PATCH_IF (~%tutuorbgt%~ STRING_COMPARE_CASE ~BGT~ = 0) THEN BEGIN
         WRITE_ASCII 0x268 ~WTARSGT~ #8
         WRITE_ASCII 0x250 ~INITDLG~ #8
@@ -3562,9 +3513,7 @@ BEGIN @1007
     SAY INTERACTION3 @248
     SAY INTERACTION4 @248
     SAY INTERACTION5 @248
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   /*area scripts */
   EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#CQ4500.BAF~
@@ -3710,17 +3659,15 @@ BEGIN @1007
     SAY SELECT_COMMON2 @266
     SAY SELECT_COMMON3 @270
     SAY SELECT_COMMON4 @271
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   /* Shahguin */
   COPY ~BG1NPC/Phase2/cre/x#saha01.cre~ ~override~
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+      LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase2/cre/x#saha02.cre~ ~override~
-
+      LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+      
   /* area patching */
   EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW3100.BAF~
       EVALUATE_BUFFER
@@ -3779,10 +3726,8 @@ BEGIN @1007
     SAY 0x118 @573
     SAY 0x198 @574
     SAY 0x19C @570
-    WRITE_EVALUATED_ASCII 0x2cc ~%DEST_RES%~ #8 // Dialogue file
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
     WRITE_ASCIIE 0x268 ~%DEST_RES%~ #8 // default script
-    WRITE_ASCIIE 0x248 ~%DEST_RES%~ #8 //  override script
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
     WRITE_EVALUATED_ASCII 0x2cc ~%tutu_var%WINSKI~ #8
@@ -3958,8 +3903,8 @@ END
     SAY NAME1 @307
     SAY NAME2 @307
 	WRITE_ASCII 0x10 ~CAS_M05~ #8    // casting sound
-    WRITE_ASCII 0x3a ~SPWI509C~ #8   // spell icon
-    WRITE_ASCII 0x76 ~SPWI509B~ #8   // ability #0 icon
+	WRITE_ASCII 0x3a ~SPWI509C~ #8   // spell icon
+	WRITE_ASCII 0x76 ~SPWI509B~ #8   // ability #0 icon
 
   COPY ~BG1NPC/phase2/itm/X#XZDRIA.BAM~ ~override~
   COPY ~BG1NPC/phase2/itm/X#XZDRIA.itm~ ~override~
@@ -5222,9 +5167,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DYING @404
     SAY SELECT_COMMON1 @405
     SAY SELECT_ACTION4 @406
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#bodhi.cre~ ~override~
     SAY NAME1 @407
@@ -5234,8 +5177,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DAMAGE @410
     SAY DYING @411
     SAY SELECT_COMMON1 @412
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#lassa.cre~ ~override~
     SAY NAME1 @413
@@ -5250,8 +5192,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY SELECT_COMMON2 @420
     SAY SELECT_COMMON3 @421
     SAY SELECT_COMMON4 @422
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#tanov.cre~ ~override~
     SAY NAME1 @423
@@ -5266,8 +5207,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY SELECT_COMMON2 @429
     SAY SELECT_COMMON3 @430
     SAY SELECT_COMMON4 @422
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#valen.cre~ ~override~
     SAY NAME1 @432
@@ -5276,14 +5216,12 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DAMAGE @434
     SAY DYING @435
     SAY SELECT_COMMON1 @436
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override~
     SAY NAME1 @437
     SAY NAME2 @437
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY_EXISTING ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva1.cre~
                 ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva2.cre~
@@ -5311,9 +5249,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DYING @38
     SAY SELECT_COMMON1 @442
     WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#madr.cre~ ~override~
     SAY NAME1 @443
@@ -5331,9 +5267,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY SELECT_COMMON1 @447
     SAY SELECT_COMMON2 @447
     WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#bhet.cre~ ~override~
     SAY NAME1 @448
@@ -5351,9 +5285,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY SELECT_COMMON1 @452
     WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
     WRITE_LONG PICKED_POCKET (BNOT 0x0)
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#sveet.cre~ ~override~
     SAY NAME1 @453
@@ -5369,10 +5301,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DAMAGE @450
     SAY DYING @451
     SAY SELECT_COMMON1 @452
-    SAY DIALOGUE_HOSTILE @455
-    WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#dfake1.cre~ ~override~
     SAY NAME1 @456
@@ -5808,9 +5737,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_COMMON2 @493
     SAY SELECT_COMMON3 @499
     SAY SELECT_COMMON4 @500
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   /* Coran and Ajantis creatures for Fighting */
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#xvart.cre~ ~override/x#xvart1.cre~
@@ -5971,9 +5898,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DAMAGE @536
     SAY DYING @537
     SAY SELECT_COMMON1 @538
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#elles.cre~ ~override/x#elles.cre~
     SAY NAME1 @539
@@ -5983,24 +5908,21 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DAMAGE @542
     SAY DYING @543
     SAY SELECT_COMMON1 @544
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
 
   /* Various Dragons */
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
     SAY NAME1 @545
     SAY NAME2 @545
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrre.cre~ ~override/x#ajdrre.cre~
     SAY NAME1 @546
     SAY NAME2 @546
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#cautz.cre~
     SAY NAME1 @547
@@ -6011,9 +5933,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DYING @551
     SAY SELECT_COMMON1 @552
     WRITE_LONG PICKED_POCKET (BNOT 0x0)
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#drag2.cre~
     SAY NAME1 @553
@@ -6024,9 +5945,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DYING @551
     SAY SELECT_COMMON1 @552
     WRITE_LONG PICKED_POCKET (BNOT 0x0)
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  override script
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
 
   /* NPC scripts */
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~BG1NPC/Phase3/CHALLENGE/baf/X#CHALL0.BAF~
