@@ -219,6 +219,7 @@ END
      EVALUATE_BUFFER
   LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
 
+  INCLUDE ~bg1npc\lib\cmorgan_project_macros.tpa~
 END
 
 /* Language Settings */
