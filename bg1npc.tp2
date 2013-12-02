@@ -1820,9 +1820,7 @@ BEGIN @1005 DESIGNATED 0
   COPY ~BG1NPC/Core/cre/x#gorlet.cre~ ~override/x#gorlet.cre~
     SAY NAME1 @5
     SAY NAME2 @5
-    WRITE_ASCIIE 0x248 ~%DEST_RES%~  #8 //  override script
-    WRITE_ASCIIE 0x2cc ~%DEST_RES%~  #8 //  dialog
-    WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
 
   /* add Gorion's Talking Letter Area Script */
   EXTEND_BOTTOM ~%CK_LibL5_BCS%.bcs~ ~BG1NPC/CORE/baf/X#FW2612.baf~
@@ -2534,7 +2532,7 @@ BEGIN @1007
   /* Tiax Quest */
   /* creatures */
   /* Belgin */
-  COPY ~BG1NPC/Phase2/cre/x#belgin.cre~ ~override~
+  COPY ~BG1NPC/Phase2/cre/x#belgin.cre~ ~override/x#belgin.cre~
     SAY NAME1 ~Belgin~
     SAY NAME2 ~Belgin~
     SAY INITIAL_MEETING @557
@@ -2547,13 +2545,11 @@ BEGIN @1007
     SAY DYING @560
     SAY SELECT_COMMON1 @561
     SAY DIALOGUE_DEFAULT @561
-    WRITE_ASCII 0x248 ~x#belgin~ #8 //  override
-    WRITE_ASCII 0x2cc ~x#belgin~ #8 //  dialogue
-    WRITE_ASCII 0x280 ~x#belgin~ #32 // DV
     ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
     ADD_CRE_ITEM ~shld04~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan02~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
     ADD_CRE_ITEM ~helm06~ #0 #0 #0 ~IDENTIFIED~ ~HELMET~
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
 
   /* Karris */
   COPY ~BG1NPC/Phase2/cre/x#karris.cre~ ~override~
@@ -2705,7 +2701,8 @@ BEGIN @1007
   /* creatures */
 
   COPY_EXISTING ~%tutu_scripti%ronelit.cre~ ~override/x#kaband.cre~
-	  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
     SAY NAME1 @24
     SAY NAME2 @24
     SAY INITIAL_MEETING @25
@@ -2726,15 +2723,12 @@ BEGIN @1007
     SAY SELECT_COMMON6 @27
     WRITE_SHORT 0x0028 0x6110 // animation ID fighter_female_human
     WRITE_BYTE 0x0237 0x02//  gender: female
-    WRITE_ASCII 0x0248 ~X#KABND2~ #8 //  Creature script - Override
     WRITE_ASCII 0x0250 ~~ #8 //  Creature script - Class
     WRITE_ASCII 0x0258 ~~ #8 //  Creature script - Race
     WRITE_ASCII 0x0260 ~~ #8 //  Creature script - General
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
     WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
     WRITE_BYTE 0x0275 0x02//  gender: female
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8//  dialog
     ADD_CRE_ITEM ~X#SILSH~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
     ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED~ ~GLOVES~
 
