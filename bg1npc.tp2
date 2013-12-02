@@ -31,12 +31,13 @@ ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
   // BG:EE tra conversion
   // Character encoding for BG II for various languages: ensure the name matches the menu choices
   ACTION_DEFINE_ASSOCIATIVE_ARRAY languageencoding BEGIN
+	"english" => "CP1252"
 	"french" => "CP1252"
 	"spanish" => "CP1252"
   END
   OUTER_SPRINT initialencoding ~~
   ACTION_PHP_EACH languageencoding AS lang => encoding BEGIN
-    ACTION_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~%lang%~ = 0) THEN BEGIN
+    ACTION_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~%lang%~ = 1) THEN BEGIN
       OUTER_SPRINT initialencoding ~%encoding%~
     END
   END
@@ -48,12 +49,14 @@ ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
   // and removed with the mod. But it cannot be used as a generic trick for other mods.
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bg1npc/tra/%LANGUAGE%/BG1NPC.tra~) AND
             (STRING_LENGTH ~%initialencoding%~ != 0) THEN BEGIN
-    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~WIN32~ = 0) THEN BEGIN
+    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~WIN32~ = 1) THEN BEGIN
       // Only convert for the language selected by passing the directory as parameter
+      PRINT ~Windows conversion with %initialencoding%~
       AT_NOW ~bg1npc/conv_tra.bat %LANGUAGE% %initialencoding%~
     END
-    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~OSX~ = 0) OR ("%WEIDU_OS%" STRING_EQUAL_CASE ~UNIX~ = 0) THEN BEGIN
+    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~OSX~ = 1) OR ("%WEIDU_OS%" STRING_EQUAL_CASE ~UNIX~ = 1) THEN BEGIN
       // Only convert for the language selected by passing the directory as parameter
+      PRINT ~Linux and Mac conversion with %initialencoding%~
       AT_NOW ~bg1npc/conv_tra.sh %LANGUAGE% %initialencoding%~
     END
     // Isaya: all tra files have to be renamed from .tra_utf8 to .tra!
