@@ -1,0 +1,224 @@
+/* creating some macros for tp2 cleanup */
+
+/* Macro for blanking sounds and setting SOURCE_RES as DV, script, and dialog */
+DEFINE_PATCH_MACRO ~source_cre_sound_cleanup~ BEGIN
+         WRITE_LONG INITIAL_MEETING (BNOT 0x0)
+         WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
+         WRITE_LONG MORALE (BNOT 0x0)
+         WRITE_LONG HAPPY (BNOT 0x0)
+         WRITE_LONG UNHAPPY_ANNOYED (BNOT 0x0)
+         WRITE_LONG UNHAPPY_SERIOUS (BNOT 0x0)
+         WRITE_LONG UNHAPPY_BREAKING (BNOT 0x0)
+         WRITE_LONG LEADER (BNOT 0x0)
+         WRITE_LONG TIRED (BNOT 0x0)
+         WRITE_LONG BORED (BNOT 0x0)
+         WRITE_LONG BATTLE_CRY1 (BNOT 0x0)
+         WRITE_LONG BATTLE_CRY2 (BNOT 0x0)
+         WRITE_LONG BATTLE_CRY3 (BNOT 0x0)
+         WRITE_LONG BATTLE_CRY4 (BNOT 0x0)
+         WRITE_LONG BATTLE_CRY5 (BNOT 0x0)
+         WRITE_LONG HURT (BNOT 0x0)
+         WRITE_LONG AREA_FOREST (BNOT 0x0)
+         WRITE_LONG AREA_CITY (BNOT 0x0)
+         WRITE_LONG AREA_DUNGEON (BNOT 0x0)
+         WRITE_LONG AREA_DAY (BNOT 0x0)
+         WRITE_LONG AREA_NIGHT (BNOT 0x0)
+         WRITE_LONG SELECT_COMMON1 (BNOT 0x0)
+         WRITE_LONG SELECT_COMMON2 (BNOT 0x0)
+         WRITE_LONG SELECT_COMMON3 (BNOT 0x0)
+         WRITE_LONG SELECT_COMMON4 (BNOT 0x0)
+         WRITE_LONG SELECT_COMMON5 (BNOT 0x0)
+         WRITE_LONG SELECT_COMMON6 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION1 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION2 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION3 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION4 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION5 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION6 (BNOT 0x0)
+         WRITE_LONG SELECT_ACTION7 (BNOT 0x0)
+         WRITE_LONG SELECT_RARE1 (BNOT 0x0)
+         WRITE_LONG SELECT_RARE2 (BNOT 0x0)
+         WRITE_LONG CRITICAL_HIT (BNOT 0x0)
+         WRITE_LONG CRITICAL_MISS (BNOT 0x0)
+         WRITE_LONG TARGET_IMMUNE (BNOT 0x0)
+         WRITE_LONG INVENTORY_FULL (BNOT 0x0)
+         WRITE_LONG PICKED_POCKET (BNOT 0x0)
+         WRITE_LONG HIDDEN_IN_SHADOWS (BNOT 0x0)
+         WRITE_LONG SPELL_DISRUPTED (BNOT 0x0)
+         WRITE_LONG SET_A_TRAP (BNOT 0x0)
+         WRITE_LONG BIO (BNOT 0x0)
+END
+
+/* Macro setting cre script, dv, dialog to SOURCE_RES */         
+DEFINE_PATCH_MACRO ~bg1npc_cre_dest_res~ BEGIN    
+	WRITE_ASCIIE 0x248 ~%DEST_RES%~ #8 // script
+	WRITE_ASCIIE 0x2cc ~%DEST_RES%~ #8 // dialogue
+	WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 // death variable
+END
+
+/* Macro setting cre script, dv, dialog to SOURCE_RES */         
+DEFINE_PATCH_MACRO ~bg1npc_cre_source_res~ BEGIN         
+	WRITE_ASCIIE 0x248 ~%SOURCE_RES%~ #8 // script
+	WRITE_ASCIIE 0x2cc ~%SOURCE_RES%~ #8 // dialogue
+	WRITE_ASCIIE 0x280 ~%SOURCE_RES%~ #32 // death variable
+END
+        
+/* Macro adding proximity trigger into FW / ARD013.ARE (for Coran dragon talk) by pro-5 */
+  DEFINE_PATCH_MACRO ~DRAGON_TRIGGER~ BEGIN
+    READ_LONG 0x54 "actor_off"
+    READ_LONG 0x5c "info_off"
+    READ_SHORT 0x5a "info_num"
+    READ_LONG 0x60 "spawn_off"
+    READ_LONG 0x68 "ent_off"
+    READ_LONG 0x70 "cont_off"
+    READ_LONG 0x78 "item_off"
+    READ_LONG 0x7c "vert_off"
+    READ_SHORT 0x80 "vert_num"
+    READ_LONG 0x84 "amb_off"
+    READ_LONG 0x88 "var_off"
+    READ_LONG 0xa0 "bmp_off"
+    READ_LONG 0xa8 "door_off"
+    READ_LONG 0xb0 "anim_off"
+    READ_LONG 0xb8 "tiled_off"
+    READ_LONG 0xbc "song_off"
+    READ_LONG 0xc0 "rest_off"
+    READ_LONG 0xc4 "note_off"
+    SET "Left" = 1
+    SET "Top" = 1
+    SET "Right" = 2800
+    SET "Bottom" = 1600
+    WRITE_SHORT 0x5a ("%info_num%" + 1)
+    INSERT_BYTES "%info_off%" 0xC4 // insert new blank info point
+      WRITE_ASCII "%info_off%" ~P5#DragonTrigger~ // name
+      WRITE_SHORT ("%info_off%" + 0x22) "%Left%"
+      WRITE_SHORT ("%info_off%" + 0x24) "%Top%"
+      WRITE_SHORT ("%info_off%" + 0x26) "%Right%"
+      WRITE_SHORT ("%info_off%" + 0x28) "%Bottom%"
+      WRITE_SHORT ("%info_off%" + 0x2A) 4 // # vertices
+      WRITE_LONG ("%info_off%" + 0x2C) "%vert_num%" // first vertex index
+      WRITE_BYTE ("%info_off%" + 0x60) 2 // Flags: Trap Resets=true
+  // WRITE_BYTE ("%info_off%" + 0x60) 10 // Flags: Trap Resets=true, Trap Detectable=true - for testing
+  // WRITE_SHORT ("%info_off%" + 0x68) 1 // Trap det.difficulty - for testing
+      WRITE_SHORT ("%info_off%" + 0x6C) 1 // Trap flag - needed
+      WRITE_ASCII ("%info_off%" + 0x7C) ~P5ARD013~ #8 // Script name
+    PATCH_IF NOT ("%actor_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x54 ("%actor_off%" + 0xC4)
+    END
+    PATCH_IF NOT ("%spawn_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x60 ("spawn_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%ent_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x68 ("ent_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%cont_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x70 ("cont_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%item_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x78 ("item_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%vert_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x7c ("vert_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%amb_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x84 ("amb_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%var_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0x88 ("var_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%bmp_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xa0 ("bmp_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%door_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xa8 ("door_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%anim_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xb0 ("anim_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%tiled_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xb8 ("tiled_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%song_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xbc ("song_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%rest_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xc0 ("rest_off" + 0xC4)
+    END
+    PATCH_IF NOT ("%note_off%" < "%info_off%") BEGIN
+      WRITE_LONG 0xc4 ("note_off" + 0xC4)
+    END
+    // Add 4 new vertices
+    READ_LONG 0x54 "actor_off"
+    READ_LONG 0x5c "info_off"
+    READ_SHORT 0x5a "info_num"
+    READ_LONG 0x60 "spawn_off"
+    READ_LONG 0x68 "ent_off"
+    READ_LONG 0x70 "cont_off"
+    READ_LONG 0x78 "item_off"
+    READ_LONG 0x7c "vert_off"
+    READ_SHORT 0x80 "vert_num"
+    READ_LONG 0x84 "amb_off"
+    READ_LONG 0x88 "var_off"
+    READ_LONG 0xa0 "bmp_off"
+    READ_LONG 0xa8 "door_off"
+    READ_LONG 0xb0 "anim_off"
+    READ_LONG 0xb8 "tiled_off"
+    READ_LONG 0xbc "song_off"
+    READ_LONG 0xc0 "rest_off"
+    READ_LONG 0xc4 "note_off"
+    WRITE_SHORT 0x80 ("%vert_num%" + 4)
+    INSERT_BYTES ("%vert_off%" + (0x04 * "%vert_num%")) 0x10
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%") 948 // Vertex1.X
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" + 2) 1588 // Vertex1.Y
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" + 4) 651 // Vertex2.X
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" + 6) 1125 // Vertex2.Y
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" + 8) 2366 // Vertex3.X
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" +10) 351 // Vertex3.Y
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" +12) 2743 // Vertex4.X
+        WRITE_SHORT ("%vert_off%" + 0x04 * "%vert_num%" +14) 618 // Vertex4.Y
+    PATCH_IF NOT ("%actor_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x54 ("%actor_off%" + 0x10)
+    END
+    PATCH_IF NOT ("%info_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x5c ("info_off" + 0x10)
+    END
+    PATCH_IF NOT ("%spawn_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x60 ("spawn_off" + 0x10)
+    END
+    PATCH_IF NOT ("%ent_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x68 ("ent_off" + 0x10)
+    END
+    PATCH_IF NOT ("%cont_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x70 ("cont_off" + 0x10)
+    END
+    PATCH_IF NOT ("%item_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x78 ("item_off" + 0x10)
+    END
+    PATCH_IF NOT ("%amb_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x84 ("amb_off" + 0x10)
+    END
+    PATCH_IF NOT ("%var_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0x88 ("var_off" + 0x10)
+    END
+    PATCH_IF NOT ("%bmp_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xa0 ("bmp_off" + 0x10)
+    END
+    PATCH_IF NOT ("%door_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xa8 ("door_off" + 0x10)
+    END
+    PATCH_IF NOT ("%anim_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xb0 ("anim_off" + 0x10)
+    END
+    PATCH_IF NOT ("%tiled_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xb8 ("tiled_off" + 0x10)
+    END
+    PATCH_IF NOT ("%song_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xbc ("song_off" + 0x10)
+    END
+    PATCH_IF NOT ("%rest_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xc0 ("rest_off" + 0x10)
+    END
+    PATCH_IF NOT ("%note_off%" < "%vert_off%") BEGIN
+      WRITE_LONG 0xc4 ("note_off" + 0x10)
+    END
+  END
+
