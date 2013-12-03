@@ -14,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* enable all error messages; nothing suppressed. comment this out for release version - cmorgan */
 //  MODDER
 
-/* WeiDU v204 allows tp2 level version listing in the .log, so no more tra changes  */
+/* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
 VERSION ~v21_PRERELEASE_2~
 
 /* launch the readme file immediately. If you want to disable the ReadMe, place two slashes before it, like // README  */
@@ -23,9 +23,9 @@ README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
 
 ALWAYS
 
-ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   /*Tell the player it is using BG:EE stuff */
-  PRINT @5000
+  PRINT ~BG:EE Detected. Installation based on those resources.~
   INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
 
@@ -191,17 +191,17 @@ ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
 
 //    MOVE ~bg1npc/tra/%LANGUAGE%/setup.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/setup.tra~
     LOAD_TRA ~bg1npc/tra/%LANGUAGE%/setup.tra~
-    PRINT ~re-loaded %LANGUAGE% TRA files~
+    PRINT ~re-loaded %LANGUAGE% TRA files with UTF-8(no BOM) encoding for use on BG:EE~
   END
 
 END ELSE BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
     /* Tell the player it is using Tutu stuff */
     PRINT @1000
     INCLUDE ~bg1npc\lib\g3_tutu_cpmvars.tpa~
     OUTER_SPRINT ~bgee~ ~~
   END ELSE BEGIN
-    ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
+    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @1001
         INCLUDE ~bg1npc\lib\g3_bgt_cpmvars.tpa~
@@ -244,7 +244,8 @@ BEGIN @1005 DESIGNATED 0
 
   /* Defines regexp whitespaces */
   OUTER_SPRINT "whitespace" "[%tab% %lnl%%mnl%%wnl%]+"
-
+  
+  ACTION_IF GAME_IS ~tutu bgt~ THEN BEGIN
   /* Ascension64's Bere"gost" Fix - very cool!  AR3300, FW3300, AR6700 (BG1, BGTutu, BGT) */
 	ACTION_FOR_EACH ~filetofix~ IN ~fw3300.are~ ~ar6700.are~ BEGIN
 		ACTION_IF FILE_EXISTS_IN_GAME ~%filetofix%~ THEN BEGIN
@@ -282,7 +283,8 @@ BEGIN @1005 DESIGNATED 0
 			END
 		END
 	END
-  
+END // of A_I G_I Tutu, BGT
+
   /*  Nythrun's Broken CRE Order and Effects Macros are depreciated - her Fix is now part of WeiDU, with troubleshooting/extension by Miloch */
   /* Miloch's and older fixes combined here using PATCH_IF - less touching of the file = good thing */
   /* As far as I can tell the fixes are from Nythrun, Dudleyville, Miloch (especially Gnome fixes), and Tutu v4 conversion hiccups, and BGT vs Tutu script assignments - cmorgan, March 26, 2011 */
@@ -1501,9 +1503,11 @@ BEGIN @1005 DESIGNATED 0
 			BUT_ONLY_IF_IT_CHANGES /*indent of C_E */
 		END /* of A_I */
 	END /*of F_E IN */
+
+  /* .2da patching */
 	
   /* pdialog.2da preparation */
-  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
     COPY_EXISTING ~pdialog.2da~ ~override~ 
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^JOIN_DIALOG_FILE\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~JOIN_DIALOG_FILE\1DREAM_SCRIPT_FILE~
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_MINSCJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_MINSCJ\1_MINSCD~
@@ -1532,8 +1536,10 @@ BEGIN @1005 DESIGNATED 0
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_BRANWJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_BRANWJ\1_BRANWD~
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_ALORAJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_ALORAJ\1_ALORAD~
     BUT_ONLY_IF_IT_CHANGES
-  END ELSE BEGIN /* BGT Versions */
-  ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
+  END
+  
+  /* BGT Versions */
+  ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     COPY_EXISTING ~pdialog.2da~ ~override~
       COUNT_2DA_ROWS 8 "cnt_row"
       FOR ( cnt=0; cnt<"%cnt_row%"; cnt=cnt+1 ) BEGIN
@@ -1601,13 +1607,13 @@ BEGIN @1005 DESIGNATED 0
       END
     BUT_ONLY_IF_IT_CHANGES
   END
-  END
 
-  /* .2da patching */
-  
+  COPY_EXISTING ~pdialog.2da~ ~override~
+    PRETTY_PRINT_2DA
+
   /* Tutu: Giving Imoen a banter file entry in the interdi.2da */
   ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
-    APPEND ~interdia.2da~ ~IMOEN                    _BIMOEN~ UNLESS ~_\(BIMOEN\|bimoen\)~
+    APPEND ~interdia.2da~ ~IMOEN _BIMOEN~ UNLESS ~_BIMOEN~
   END
   /* BGT: Giving Imoen a banter file if the Fixpack isn't installed */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~cdbehbla.pro~) AND (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
@@ -1616,41 +1622,42 @@ BEGIN @1005 DESIGNATED 0
         SET_2DA_ENTRY 17 1 2 ~BIMOEN2~ // fixes ToB version
       BUT_ONLY_IF_IT_CHANGES
     END ELSE BEGIN
-        APPEND ~interdia.2da~ ~IMOEN       BIMOEN2~ // fixes SoA version
+        APPEND ~interdia.2da~ ~IMOEN BIMOEN2~ // fixes SoA version
         UNLESS ~BIMOEN2~
     END
   END
+  
+  COPY_EXISTING ~interdia.2da~ ~override~
+      PRETTY_PRINT_2DA
 
-    /* Imoen BIMOEN.DLG rebuild */
+  /* Imoen BIMOEN.DLG check for Tutu */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~_bimoen.dlg~) AND (FILE_EXISTS_IN_GAME ~FW0100.are~) THEN BEGIN
     COMPILE ~BG1NPC/Core/dlg/X#BIMOEN_TUTU.D~
-  END ELSE BEGIN
-    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bimoen2.dlg~) AND (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
+  END
+  
+  /* Imoen BIMOEN.DLG check for BGT */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bimoen2.dlg~) AND (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
       COMPILE ~BG1NPC/Core/dlg/X#BIMOEN_BGT.D~
-    END
   END 
   
-    /* give Imoen a J file in BG:EE */
+  /* give Imoen a J file in BG:EE */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imoenj.dlg~) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) THEN BEGIN
     COMPILE ~BG1NPC/Core/dlg/x#imoenj_bgee.d~
   END
 
-    /* give CHARNAME a dialogue file in BG:EE */
+  /* give CHARNAME a dialogue file in BG:EE */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1.dlg~) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) THEN BEGIN
     COMPILE ~BG1NPC/Core/dlg/x#player1_bgee.d~
   END
 
-  /* Cam's 2DA Neutral/Happy interjection restoration */
+  /* Cam's 2DA Neutral/Happy interjection restoration : Tutu|BGT|BG:EE */
   COPY_EXISTING ~happy.2da~ ~override~
     FOR (row = 8; row < 14; row = row + 1) BEGIN
       SET_2DA_ENTRY "%row%" 2 4 ~80~
     END
   BUT_ONLY_IF_IT_CHANGES
-  
-  
-COPY_EXISTING ~pdialog.2da~ ~override~ 
-	PRETTY_PRINT_2DA
-      
+ 
+  /* Only on Tutu or BGT until we recheck BG:EE stores */
   ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
 
     /* CamDawg's Temple Healing Fix */
@@ -1803,16 +1810,23 @@ COPY_EXISTING ~pdialog.2da~ ~override~
       SET_2DA_ENTRY 0 2 3 ~X#BLANK.MUS~
     BUT_ONLY_IF_IT_CHANGES
   END
-
-  ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) THEN BEGIN
+  
+  /* Tutu repeating dialogues block other talks */
+  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
     /* Stop Bioware dialogues repeating, fixes DLG matching BreakingPoint DPLAYER2.bcs changes */
     COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#BGREPLACE_TUTU.D~
-  END ELSE BEGIN  /* BGT Versions */
-    ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
-      /* Stop Bioware dialogues repeating, fixes DLG */
-      COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#BGREPLACE_BGT.D~
-    END
   END
+  
+  /* BGT repeating dialogues block other talks */
+  ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+    /* Stop Bioware dialogues repeating, fixes DLG */
+    COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/X#BGREPLACE_BGT.D~
+  END
+
+  /* BG:EE repeating dialogues block other talks */
+//
+//   PLACEHOLDER - NEEDS CHECKING AND CONSTRUCTION
+//
 
   /* custom cutspy.cre for BG1NPC code */
   COPY ~BG1NPC/Core/CRE/x#cutspy.cre~ ~override/x#cutspy.cre~
