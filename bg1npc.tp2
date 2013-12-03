@@ -3726,7 +3726,6 @@ BEGIN @1007
     SAY 0x118 @573
     SAY 0x198 @574
     SAY 0x19C @570
-    WRITE_ASCIIE 0x268 ~%DEST_RES%~ #8 // default script
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
