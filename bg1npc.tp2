@@ -4262,19 +4262,15 @@ END
   EXTEND_BOTTOM ~%CloakwoodWyverns_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW1700JQ.BAF~
       EVALUATE_BUFFER
 
-  /* Patching all creatures in component for leftover/missed Tutu > BGT items */
-  /* BGT compatability macro */
-  INCLUDE ~BG1NPC/LIB/macro_tutu_items_to_bgt.tph~
-
   /* Patching all creatures in component for Tutu > BGT items */
-  ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
-    COPY_EXISTING_REGEXP GLOB ~^[XP]#.+\.cre$~ ~override~
+  ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
+    COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-       LAUNCH_PATCH_MACRO ~tutu_items_to_bgt~
+       LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
       END
     BUT_ONLY_IF_IT_CHANGES
   END
-
+  
   /* Make sure this is last in Quest additions for Phase 2 */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#ICT3.D~
 
@@ -5544,11 +5540,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
       WRITE_ASCII 0x34 ~settas~ #8 // small portrait
   END
 
-  /* BGT compatability macro */
-  INCLUDE ~BG1NPC/LIB/macro_tutu_items_to_bgt.tph~
-
   /* Patching all creatures in component for leftover/missed Tutu > BGT items */
-
+  LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
 
 
 /* SHAR-TEEL ROMANCE */
@@ -5995,14 +5988,11 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
       WRITE_ASCII 0x34 ~mastrchs~ #8 // small portrait
   END
 
-  /* BGT compatability macro */
-  INCLUDE ~BG1NPC/LIB/macro_tutu_items_to_bgt.tph~
-
   /* Patching all creatures in component for Tutu > BGT items */
-  ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
     COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-       LAUNCH_PATCH_MACRO ~tutu_items_to_bgt~
+       LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
       END
     BUT_ONLY_IF_IT_CHANGES
   END
