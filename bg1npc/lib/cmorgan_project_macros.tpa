@@ -362,17 +362,17 @@ DEFINE_PATCH_MACRO ~convert_tutu_items_bgt_bgee~ BEGIN
     PATCH_IF ("%item%" STRING_COMPARE_CASE "_SW1H24" = 0) BEGIN
       WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "SW1H24" #8
     END
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_RING95" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "RING95" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_AGEBRAC" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MAGEBRAC" #8
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_CASE "_JELLGR1" = 0) BEGIN
+      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "JELLGR1" #8
+    END ELSE
   END
 END
 
 
-// MISSING ITEMS ON BG:EE - change or swap in something
-//    PATCH_IF ("%item%" STRING_COMPARE_CASE "_RING95" = 0) BEGIN
-//      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "RING95" #8
-//    END ELSE
-//    PATCH_IF ("%item%" STRING_COMPARE_CASE "_AGEBRAC" = 0) BEGIN
-//      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "MAGEBRAC" #8
-//    END ELSE
-//    PATCH_IF ("%item%" STRING_COMPARE_CASE "_JELLGR1" = 0) BEGIN
-//      WRITE_ASCII ("%itm_off%" + (0x14 * "%index%")) "JELLGR1" #8
-//    END ELSE
+
