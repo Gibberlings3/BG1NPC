@@ -41,7 +41,10 @@
 
     /* BGT-only shutdown of D and BAF after BG1 content */
     OUTER_SPRINT ~BGT_VAR~ ~~
-
+    
+    /* file mapping for bgee */
+    OUTER_SPRINT ~bgee~ ~~
+    
     /* DVs are the same for Tutu/BGT, except for Imoen */
     OUTER_SPRINT "IMOEN_DV" "imoen"
 
