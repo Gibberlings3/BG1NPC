@@ -1,5 +1,5 @@
-/* Declaration of BGT Platform Variables */
-ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+/* Declaration of BG:EE Platform Variables */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     /* tp2, d, and baf parsing variables */
     OUTER_SPRINT "tutuorbgt" ""
     OUTER_SPRINT "bgdreams" "BG1Dream"
