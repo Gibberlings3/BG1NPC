@@ -5120,9 +5120,6 @@ BEGIN @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
         PRINT @1113
         END
 
-  /* BGT compatability macro */
-  INCLUDE ~BG1NPC/LIB/macro_tutu_items_to_bgt.tph~
-
   /* Flirt dialogue compilation */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/COROM/dlg/P#CIFLIRT.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/COROM/dlg/P#CRNPC.D~
@@ -5371,7 +5368,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x248 ~X#DYNA~ #8 //  override script
     WRITE_ASCII 0x280 ~dynacutscene~ #32 //  death variable
     WRITE_ASCII 0x2CC ~X#DYNA~ #8 //  dialog
-    PATCH_IF (~%tutuorbgt%~ STRING_COMPARE_CASE ~BGT~ = 0) THEN BEGIN
+    PATCH_IF !(~%tutubgtbgee%~ STRING_COMPARE_CASE ~tutu~ = 0) THEN BEGIN
 		WRITE_ASCII 0x34 ~DYNAHEIS~ #8  // small portrait
 		WRITE_ASCII 0x3C ~DYNAHEIL~ #8  // large portrait
         WRITE_ASCII 0x268 ~DPLAYER~ #8
@@ -5391,7 +5388,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_LONG SELECT_RARE2 (BNOT 0x0)
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-      PATCH_IF (~%tutuorbgt%~ STRING_COMPARE_CASE ~BGT~ = 0) THEN BEGIN
+      PATCH_IF !(~%tutubgtbgee%~ STRING_COMPARE_CASE ~tutu~ = 0) THEN BEGIN
         WRITE_ASCII 0x268 ~WTRUNSGT~ #8
         WRITE_ASCII 0x258 ~RUNENEMY~ #8
         WRITE_ASCII 0x250 ~MERCH2~ #8
@@ -5646,7 +5643,8 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
         APPEND ~gtimes.ids~ ~5400 XAROM_TIMER~
         PRINT @1113
         END
-
+        
+        
   /* sound */
   COPY ~BG1NPC/Phase3/XAROM/Sound/X#BLANK.WAV~ ~override~
 
@@ -5693,13 +5691,13 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 
   /* Areas for the Challenges */
   /* fireworks area (FW6001) */
-  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu~~ THEN BEGIN
     COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1.are~ ~override/x#ajr1.are~
   END ELSE BEGIN
     COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1_bgt.are~ ~override/x#ajr1.are~
   END
   /* Fighting Area */
-  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
     COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1.ARE~ ~override/x#ch11.are~
       WRITE_ASCII 0x94 ~X#AR6001~ #8
   END ELSE BEGIN
@@ -5727,8 +5725,11 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DESC @490
 
   /* 2DA patching */
-  APPEND ~ITEMDIAL.2da~ ~X#MIRC        5689   X#MIRC~
+  APPEND ~ITEMDIAL.2da~ ~X#MIRC 5689 X#MIRC~
 
+  COPY_EXISTING ~itemdail.2da~ ~override~
+    PRETTY_PRINT_2da
+    
   /* creatures */
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#maste.cre~ ~override/x#maste.cre~
     SAY NAME1 @491
@@ -6015,7 +6016,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (!FILE_EXISTS_IN_GAME ~dw#12.xxx~) @1066 /* This component is already handled by Sword Coast Strategems. To use the BG1 NPC version, please uninstall the SCS version first. */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~FW0100.are~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#WaitAtInn.G3~
 
@@ -6060,7 +6061,7 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/MOVELOC/dlg/x#aloramoves.d~
     USING ~BG1NPC/TRA/%LANGUAGE%/X#ALORAN.TRA~
 
-ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+ACTION_IF GAME_IS ~tutu~ THEN BEGIN
     /* Trying to prevent Alora's CTD */
   COPY_EXISTING ~_AR0130.bcs~ ~override~
     DECOMPILE_BCS_TO_BAF
@@ -6086,7 +6087,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
     BUT_ONLY_IF_IT_CHANGES
     PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
   END ELSE BEGIN
-    ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ THEN BEGIN
+    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     /* Patching Alora's location BGT */
     COPY_EXISTING ~AR7230.bcs~ ~override~
       DECOMPILE_BCS_TO_BAF
@@ -6114,7 +6115,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
 BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~_sw1h01.itm~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1074 /* Eldoth will start in the Cloakwood as in the original game. */
 
@@ -6122,7 +6123,7 @@ BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
 BEGIN @1075 /* Eldoth Starts on the Coast Way. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~_sw1h01.itm~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#EldothMove.G3~
 
@@ -6154,7 +6155,7 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
 BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~_sw1h01.itm~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1079  /* Quayle will start at the Wyrm's Crossing as in the original game. */
 
@@ -6162,7 +6163,7 @@ BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
 BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~_sw1h01.itm~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#QuayleMove.G3~
 
@@ -6185,7 +6186,7 @@ BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
 BEGIN @1083 /* Tiax Starts in Baldur's Gate. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~_sw1h01.itm~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1085 /* Tiax will start in Baldur's Gate as in the original game. */
 
@@ -6193,7 +6194,7 @@ BEGIN @1083 /* Tiax Starts in Baldur's Gate. */
 BEGIN @1086  /* Tiax Starts in Beregost. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~_sw1h01.itm~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#TiaxMove.G3~
 
@@ -6222,16 +6223,22 @@ BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
 
 BEGIN @1092 /* The BG1 NPC Project: Make Shar-Teel Unkillable until In Party */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~FW0100.are~) @1093 /* This component is only useful for Tutu installs. */
+  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1093 /* This component is only useful for Tutu installs. */
     REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   /* Stop Shar-Teel's Premature Death */
-    COPY_EXISTING  ~%tutu_var%sharte.cre~ ~override~
-                  ~%tutu_var%sharte4.cre~ ~override~
-                  ~%tutu_var%sharte6.cre~ ~override~
+    
+    
+ACTION_FOR_EACH ~file~ IN ~_sharte~ ~_sharte4~ ~_sharte6~
+BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
+    COPY_EXISTING ~%file%.cre~ override
         ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~NONE~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
       BUT_ONLY_IF_IT_CHANGES
-    EXTEND_TOP ~%SHARTEEL_BCS%.bcs~ ~BG1NPC/Core/baf/X#SHARFIX.BAF~
-      EVALUATE_BUFFER
+  END
+END
+
+EXTEND_TOP ~%SHARTEEL_BCS%.bcs~ ~BG1NPC/Core/baf/X#SHARFIX.BAF~
+	EVALUATE_BUFFER
 
 BEGIN @1094  /* The BG1 NPC Project: Bardic Reputation Adjustment */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
@@ -6239,9 +6246,6 @@ BEGIN @1094  /* The BG1 NPC Project: Bardic Reputation Adjustment */
 
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
-
-  /* BGT compatability macro */
-  INCLUDE ~BG1NPC/LIB/macro_tutu_items_to_bgt.tph~
 
   COPY_EXISTING ~%tutu_var%volo.cre~ ~override/x#lp1rep.cre~
                 ~%tutu_var%volo.cre~ ~override/x#lp2rep.cre~
@@ -6494,5 +6498,6 @@ BEGIN @1091 DESIGNATED 200    /* The BG1 NPC Project: Player-Initiated Dialogues
     /* install PIDs */
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/PID/X#PCINIT.D~
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/PID/X#AJPCFL.D~
+
 /* End of File. Enjoy! */
 
