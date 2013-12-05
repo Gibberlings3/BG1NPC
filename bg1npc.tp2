@@ -11,16 +11,17 @@ BACKUP ~bg1npc/backup~
 /* Author */
 AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45~
 
-/* enable all error messages; nothing suppressed. comment this out for release version - cmorgan */
-//  MODDER
+/* Enable all error messages; nothing suppressed. comment this out for release version - cmorgan */
+MODDER
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_2~
+VERSION ~v21_PRERELEASE_3~
 
-/* launch the readme file immediately. If you want to disable the ReadMe, place two slashes before it, like // README  */
+/* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
 
+/* ALWAYS = Before each and any component, do this. */
 ALWAYS
 
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
@@ -29,8 +30,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
 
-  // BG:EE tra conversion
-  // Character encoding for BG II for various languages: ensure the name matches the menu choices
+  /* BG:EE tra conversion : Character encoding for BG II for various languages: ensure the name matches the menu choices
   ACTION_DEFINE_ASSOCIATIVE_ARRAY languageencoding BEGIN
 	"english" => "CP1252"
 	"french" => "CP1252"
@@ -42,26 +42,28 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
       OUTER_SPRINT initialencoding ~%encoding%~
     END
   END
-  // Isaya: check for existence of BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra as a marker that the mod
-  // has already installed at least one component, so conversion is already done, in order
-  // to avoid repeating for each component (as a backup of all tra files is then done in each
-  // subdirectory of backup)
-  // This is a handy trick with BG1 NPC, since BG1NPC.tra is created when the mod is installed
-  // and removed with the mod. But it cannot be used as a generic trick for other mods.
+  /* 
+   * Isaya: check for existence of BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra as a marker that the mod
+   * has already installed at least one component, so conversion is already done, in order
+   * to avoid repeating for each component (as a backup of all tra files is then done in each
+   * subdirectory of backup)
+   * This is a handy trick with BG1 NPC, since BG1NPC.tra is created when the mod is installed
+   * and removed with the mod. But it cannot be used as a generic trick for other mods.
+  */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bg1npc/tra/%LANGUAGE%/BG1NPC.tra~) AND
             (STRING_LENGTH ~%initialencoding%~ != 0) THEN BEGIN
     ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~WIN32~ = 1) THEN BEGIN
-      // Only convert for the language selected by passing the directory as parameter
+      /* Only convert for the language selected by passing the directory as parameter */
       PRINT ~Windows conversion with %initialencoding%~
       AT_NOW ~bg1npc/conv_tra.bat %LANGUAGE% %initialencoding%~
     END
     ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~OSX~ = 1) OR ("%WEIDU_OS%" STRING_EQUAL_CASE ~UNIX~ = 1) THEN BEGIN
-      // Only convert for the language selected by passing the directory as parameter
+      /* Only convert for the language selected by passing the directory as parameter */
       PRINT ~Linux and Mac conversion with %initialencoding%~
       AT_NOW ~bg1npc/conv_tra.sh %LANGUAGE% %initialencoding%~
     END
-    // Isaya: all tra files have to be renamed from .tra_utf8 to .tra!
-    // Otherwise the tra files for dialogs are still with the Windows 1252 encoding
+    /* Isaya: all tra files have to be renamed from .tra_utf8 to .tra! */
+    /* Otherwise the tra files for dialogs are still with the Windows 1252 encoding */
     MOVE ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/p#brlt.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#brlt.tra~
     MOVE ~bg1npc/tra/%LANGUAGE%/p#centeo.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/p#centeo.tra~
@@ -190,6 +192,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     MOVE ~bg1npc/tra/%LANGUAGE%/x#yeslick.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/x#yeslick.tra~
 
 //    MOVE ~bg1npc/tra/%LANGUAGE%/setup.tra_utf8~ ~bg1npc/tra/%LANGUAGE%/setup.tra~
+
     LOAD_TRA ~bg1npc/tra/%LANGUAGE%/setup.tra~
     PRINT ~re-loaded %LANGUAGE% TRA files with UTF-8(no BOM) encoding for use on BG:EE~
   END
@@ -199,13 +202,11 @@ END ELSE BEGIN
     /* Tell the player it is using Tutu stuff */
     PRINT @1000
     INCLUDE ~bg1npc\lib\g3_tutu_cpmvars.tpa~
-    OUTER_SPRINT ~bgee~ ~~
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @1001
         INCLUDE ~bg1npc\lib\g3_bgt_cpmvars.tpa~
-        OUTER_SPRINT ~bgee~ ~~
         /* Tell the player it is not Tutu or BGT */
     END ELSE BEGIN FAIL ~Please install on BG:EE, Tutu or BGT.~
     END
