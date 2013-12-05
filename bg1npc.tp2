@@ -5892,10 +5892,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     WRITE_ASCII 0x2CC ~~ #8 //  dialog
     WRITE_EVALUATED_ASCII 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
     WRITE_EVALUATED_ASCII 0x268 ~%tutu_var%DPLAYER~ #8
-	PATCH_IF (~%tutuorbgt%~ STRING_COMPARE_CASE ~BGT~ = 0) THEN BEGIN
-	WRITE_ASCII 0x34 ~AJANTISS~ #8  // small portrait
-    WRITE_ASCII 0x3C ~AJANTISL~ #8  // large portrait
-    END
+	PATCH_IF NOT (~%tutuorbgt%~ STRING_COMPARE_CASE ~tutu~ = 0) THEN BEGIN
+		WRITE_ASCII 0x34 ~AJANTISS~ #8  // small portrait
+		WRITE_ASCII 0x3C ~AJANTISL~ #8  // large portrait
+	END
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#elhan.cre~ ~override/x#elhan.cre~
     SAY NAME1 @533
@@ -6223,27 +6223,24 @@ BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
     EXTEND_TOP ~baldur.bcs~ ~BG1NPC/bantergoose/bantergoose.baf~
 
 BEGIN @1092 /* The BG1 NPC Project: Make Shar-Teel Unkillable until In Party */
-  GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu~) @1093 /* This component is only useful for Tutu installs. */
-    REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-  /* Stop Shar-Teel's Premature Death */
-    
-    
-ACTION_FOR_EACH ~file~ IN ~_sharte~ ~_sharte4~ ~_sharte6~
-BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
-    COPY_EXISTING ~%file%.cre~ override
-        ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~NONE~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
-      BUT_ONLY_IF_IT_CHANGES
-  END
-END
+GROUP @1065 /* The BG1 NPC Project: Tweaks */
+	REQUIRE_PREDICATE (GAME_IS ~tutu~) @1093 /* This component is only useful for Tutu installs. */
+	REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+	/* Stop Shar-Teel's Premature Death */
+    	ACTION_FOR_EACH ~file~ IN ~_sharte~ ~_sharte4~ ~_sharte6~ BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
+			COPY_EXISTING ~%file%.cre~ override
+				ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~NONE~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
+      			BUT_ONLY_IF_IT_CHANGES
+  		END
+  	END
 
-EXTEND_TOP ~%SHARTEEL_BCS%.bcs~ ~BG1NPC/Core/baf/X#SHARFIX.BAF~
-	EVALUATE_BUFFER
+	EXTEND_TOP ~%SHARTEEL_BCS%.bcs~ ~BG1NPC/Core/baf/X#SHARFIX.BAF~
+		EVALUATE_BUFFER
 
 BEGIN @1094  /* The BG1 NPC Project: Bardic Reputation Adjustment */
-  GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+GROUP @1065 /* The BG1 NPC Project: Tweaks */
+REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
