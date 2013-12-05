@@ -779,28 +779,28 @@ END // of A_I G_I Tutu, BGT
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_garric6.cre~ = 0) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
 				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
 				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%gellan.cre~ = 0) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
@@ -930,25 +930,25 @@ END // of A_I G_I Tutu, BGT
       				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen61.cre~ = 0)AND (FILE_EXISTS_IN_GAME ~ar7200.are~)  BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen61.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen6.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~neera.dlg~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen6.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%jaheir.cre~ = 0) BEGIN
@@ -1647,7 +1647,7 @@ END // of A_I G_I Tutu, BGT
   END
 
   /* give CHARNAME a dialogue file in BG:EE */
-  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1.dlg~) AND (GAME_IS ~bgt~) THEN BEGIN
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1.dlg~) AND (GAME_IS ~bgee~) THEN BEGIN
     COMPILE ~BG1NPC/Core/dlg/x#player1_bgee.d~
   END
 
@@ -1659,7 +1659,7 @@ END // of A_I G_I Tutu, BGT
   BUT_ONLY_IF_IT_CHANGES
  
   /* Only on Tutu or BGT until we recheck BG:EE stores */
-  ACTION_IF (FILE_EXISTS_IN_GAME ~fw0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
+  ACTION_IF GAME_IS ~tutu bgt~ THEN BEGIN
 
     /* CamDawg's Temple Healing Fix */
     /* give all stores the normal suite of cures available */
@@ -1848,7 +1848,6 @@ END // of A_I G_I Tutu, BGT
   /* add Gorion's Talking Letter dialog, no need for EVAL */
   COMPILE        ~BG1NPC/Core/dlg/X#GORLET.D~
   COMPILE        ~BG1NPC/Core/baf/X#GORLET.BAF~
-
 
   /* berelinde's Statue Naming Fixes */
   COPY_EXISTING ~%tutu_var%achen.cre~  ~override~
