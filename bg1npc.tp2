@@ -926,7 +926,7 @@ END // of A_I G_I Tutu, BGT
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_imoen6.cre~ = 0) BEGIN
 					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
 				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
+      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (FILE_EXISTS_IN_GAME ~ar7200.are~) BEGIN
