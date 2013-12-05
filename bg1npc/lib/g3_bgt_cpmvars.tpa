@@ -1,7 +1,7 @@
 /* Declaration of BGT Platform Variables */
-ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     /* tp2, d, and baf parsing variables */
-    OUTER_SPRINT "tutuorbgt" "BGT"
+    OUTER_SPRINT "tutubgtbgee" "bgt"
     OUTER_SPRINT "bgdreams" "BG1Dream"
     OUTER_SPRINT "bgdream1" "1"
     OUTER_SPRINT "bgdream2" "2"
