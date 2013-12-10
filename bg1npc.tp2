@@ -1651,13 +1651,15 @@ END // of A_I G_I Tutu, BGT
     COMPILE ~BG1NPC/Core/dlg/x#player1_bgee.d~
   END
 
-  /* Cam's 2DA Neutral/Happy interjection restoration : Tutu|BGT|BG:EE */
-  COPY_EXISTING ~happy.2da~ ~override~
-    FOR (row = 8; row < 14; row = row + 1) BEGIN
-      SET_2DA_ENTRY "%row%" 2 4 ~80~
-    END
-  BUT_ONLY_IF_IT_CHANGES
- 
+  /* Cam's 2DA Neutral/Happy interjection restoration : Tutu|BGT only (BG:EE has already modified happy.2da) */
+  ACTION_IF GAME_IS ~tutu bgt~ THEN BEGIN
+  	COPY_EXISTING ~happy.2da~ ~override~
+    		FOR (row = 8; row < 14; row = row + 1) BEGIN
+      			SET_2DA_ENTRY "%row%" 2 4 ~80~
+    		END
+  	BUT_ONLY_IF_IT_CHANGES
+  END
+  
   /* Only on Tutu or BGT until we recheck BG:EE stores */
   ACTION_IF GAME_IS ~tutu bgt~ THEN BEGIN
 
