@@ -82,6 +82,12 @@ I_C_T ~%tutu_var%RIGGILO~ 15 X#AjantisRiggilo
 == ~%tutu_var%RIGGILO~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1003
 END
 
+/* RIGGILO hostile leave if tricked */
+I_C_T ~%tutu_var%RIGGILO~ 18 X#AjantisRiggilo
+== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @19 DO ~LeaveParty() Enemy() SetGlobal("X#AjantisRomanceActive","GLOBAL",3)~
+== ~%tutu_var%RIGGILO~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1003
+END 
+
 /* Branwen */
 I_C_T ~%tutu_scriptd%ELAINY1~ 52 X#BranwenFlowers
 == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @20
