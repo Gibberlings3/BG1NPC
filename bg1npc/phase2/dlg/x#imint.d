@@ -56,7 +56,7 @@ DO ~GiveGoldForce(100)~
 //== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @19
 //END
 
-I_C_T ~%tutu_var%FIREBE~ 1 X#FirebeardImoen1
+I_C_T ~%tutu_var%FIREBE~ %firebeadstate1% X#FirebeardImoen1
 == ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @20
 == ~%tutu_var%FIREBE~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @21
 == ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @22

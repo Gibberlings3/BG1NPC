@@ -1361,7 +1361,7 @@ END
 
 /* Firebead */
 /* individual passbacks supplied */
-I_C_T3 ~%tutu_var%FIREBE~ 2 X#FIREBE2
+I_C_T3 ~%tutu_var%FIREBE~ %firebeadstate2% X#FIREBE2
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @476
 == ~%tutu_var%FIREBE~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @479
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @477
