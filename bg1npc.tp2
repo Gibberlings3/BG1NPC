@@ -3663,8 +3663,8 @@ BEGIN @1007
 
   /* area script extension */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  /* BGEE needs different location for Imanel Silversword, as Simmeon from Dorn's 
-   * spawns in the original BG1NPC location.
+  /* Astrobryguy: BGEE needs different location for Imanel Silversword, as 
+  Simmeon from Dorn's quest spawns in the original BG1NPC location.
   */
     EXTEND_BOTTOM ~%WyrmsCross_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#AR0900.BAF~
       EVALUATE_BUFFER
