@@ -47,6 +47,9 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
+    OUTER_SPRINT "tazokminhp" "MIHP1"
+    OUTER_SET firebeadstate1 = 3
+    OUTER_SET firebeadstate2 = 1
 
      //BGT Dialogues always appended, zero for Tutu
      OUTER_SET BGTBEDWINState0 = 0

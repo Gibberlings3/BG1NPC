@@ -50,6 +50,10 @@
 
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
+    OUTER_SPRINT "tazokminhp" "TAZOKHP1"
+    OUTER_SET firebeadstate1 = 1
+    OUTER_SET firebeadstate2 = 2
+
 
      //BGT Dialogues always appended, zero for Tutu
      OUTER_SET BGTBEDWINState0 = 0

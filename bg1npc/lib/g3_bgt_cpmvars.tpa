@@ -50,6 +50,10 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "IWasKickedOut"
+    OUTER_SPRINT "tazokminhp" "MINHP1"
+    OUTER_SET firebeadstate1 = 1
+    OUTER_SET firebeadstate2 = 2
+
 
     ACTION_IF FILE_EXISTS ~BGT/Compat/BG1NPC/FluidStates.tpa~ THEN BEGIN
       INCLUDE ~BGT/Compat/BG1NPC/FluidStates.tpa~  // BGT1.06 and higher
