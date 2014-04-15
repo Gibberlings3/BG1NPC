@@ -6,6 +6,6 @@ Global("endofbg1","GLOBAL",2)
 THEN
 RESPONSE #100
 SetGlobal("endofbg1","GLOBAL",3)
-StartMovie("%tutu_var%NDCRDIT")
+StartMovie("%tutu_scripte%NDCRDIT")
 EndCredits()
 END
