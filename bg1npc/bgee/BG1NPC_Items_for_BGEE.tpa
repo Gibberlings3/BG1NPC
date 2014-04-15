@@ -28,6 +28,8 @@ COPY ~bg1npc/bgee/itm/misc3m.itm~ ~override~
   SAY UNIDENTIFIED_DESC @6005
   SAY DESC @6006
 
+COPY ~bg1npc/bgee/wav/itemharp.wav~ ~override~
+
 /* Azlaer's Harp */
 COPY ~bg1npc/bgee/itm/misc3n.itm~ ~override~ 
   SAY NAME2 @6007
