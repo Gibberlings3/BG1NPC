@@ -2570,7 +2570,7 @@ BEGIN @1007
   	COPY ~bg1npc/phase2/cre/x#belgin.cre~ ~override/x#belgin.cre~
   END
   	    
-  COPY_EXISTING ~x#belgin.cre~ ~override~
+  COPY_EXISTING ~x#belgin.cre~ ~override/x#belgin.cre~
     SAY NAME1 ~Belgin~
     SAY NAME2 ~Belgin~
     SAY INITIAL_MEETING @557
@@ -2596,7 +2596,7 @@ BEGIN @1007
   	COPY ~bg1npc/phase2/cre/x#karris.cre~ ~override/x#karris.cre~
   END
   	    
-  COPY_EXISTING ~x#karris.cre~ ~override~
+  COPY_EXISTING ~x#karris.cre~ ~override/x#karris.cre~
     SAY NAME1 ~Karris~
     SAY NAME2 ~Karris~
     SAY INITIAL_MEETING @476
@@ -2628,7 +2628,7 @@ BEGIN @1007
   	COPY ~bg1npc/phase2/cre/x#tqbh4.cre~ ~override/x#tqbh4.cre~
   END
   	    
-  COPY_EXISTING ~x#tqbh1.cre~ ~override~
+  COPY_EXISTING ~x#tqbh1.cre~ ~override/x#tqbh1.cre~
     SAY NAME1 ~Alvo~
     SAY NAME2 ~Alvo~
     SAY INITIAL_MEETING @474
@@ -2648,7 +2648,7 @@ BEGIN @1007
     ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
 
-  COPY_EXISTING ~x#tqbh2.cre~ ~override~
+  COPY_EXISTING ~x#tqbh2.cre~ ~override/x#tqbh2.cre~
     SAY NAME1 ~Leti~
     SAY NAME2 ~Leti~
     SAY INITIAL_MEETING @25
@@ -2668,7 +2668,7 @@ BEGIN @1007
     ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
 
-  COPY_EXISTING ~x#tqbh3.cre~ ~override~
+  COPY_EXISTING ~x#tqbh3.cre~ ~override/x#tqbh3.cre~
     SAY NAME1 ~Zed~
     SAY NAME2 ~Zed~
     SAY INITIAL_MEETING @255
@@ -2688,7 +2688,7 @@ BEGIN @1007
     ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
 
-  COPY_EXISTING ~x#tqbh4.cre~ ~override~
+  COPY_EXISTING ~x#tqbh4.cre~ ~override/x#tqbh4.cre~
     SAY NAME1 ~Mati~
     SAY NAME2 ~Mati~
     SAY INITIAL_MEETING @455
@@ -2705,7 +2705,7 @@ BEGIN @1007
     WRITE_ASCII 0x280 ~x#tqbh4~ #32 // DV
     WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
     ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+    ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
 
   /* scripts */
