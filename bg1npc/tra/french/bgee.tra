@@ -1,70 +1,68 @@
-@6000 = ~Gantelets merveilleux~
-@6001 = ~Ces gants en cuir clouté de gemmes sont enchantés, afin d'améliorer les compétences de toute Bard. 
+// Isaya : must be encoded as UTF8 for use in BGEE
+@6000 = ~Gants merveilleux~
+@6001 = ~Ces gants en cuir incrustés de gemmes ont été enchantés de façon à améliorer les compétences des bardes qui les portent.
 
-STATISTIQUES: 
+PARAMÈTRES
 
-Capacités équipées: 
-- Classe d'Armure: +1 
-- THAC0: 1 
-- Etre capable de mémoriser un 2ème, 4ème niveau 3, et sort de l'assistant 
+Capacités d'équipement :
+- Classe d'Armure : +1
+- TAC0 : +1
+- 1 sort supplémentaire du 2ème, 3ème et du 4ème niveau de mage
 
-Poids: 1~
-@6002 = ~Boomerang Dague +2~
-@6003 = ~Fullen Woolspinner, un halfelin ambitieux d'une famille de gens aisés, a quitté son domicile pour passer plusieurs années à l'aventure. Au cours de ses voyages, il a fini par rester avec une famille de forgerons nains. Très impressionné par leurs axes de lancer, qui revenait toujours aux mains de leur porteur, Fullen cherché à faire un coup de poignard qui pourraient faire la même chose. Avec l'aide de ses amis nains, il a réussi, en créant plusieurs des célèbres poignards Fullen Boomerang. 
+Poids : 1~
+@6002 = ~Dague de retour +2~
+@6003 = ~Fullen Filelaine, un petit-homme ambitieux issu d'une famille aisée, quitta ses pénates pour partir à l'aventure pendant plusieurs années. Au cours de ses voyages il s'installa dans une famille de forgerons nains. Très impressionné par leurs haches de lancer qui revenait toujours dans la main de leurs porteurs, Fullen voulut concevoir une dague dotée des mêmes propriétés. Grâce à l'aide de ses amis nains, il finit par y arriver, et fabriqua plusieurs de ces fameuses Dagues de retour.
 
-STATISTIQUES: 
+PARAMÈTRES :
 
-Capacités de combat: 
-- Retourne à la main du porteur lors de la levée 
+Capacités de combat :
+- la dague revient à son lanceur
 
-THAC0: 2 
-Dommages: 2d4 +2 (missile) 
-Facteur de vitesse: 1 
-Type de compétence: Dague 
-Type: une main 
-nécessite: 
-  3 Force 
+TAC0 : +2
+Dégâts : 2D4 +2 (projectile)
+Facteur de vitesse : 1
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
 
-Poids: 1~
-@6004 = ~Harpe de la discorde~
-@6005 = ~Harpes sont des instruments à cordes souvent utilisées par les bardes. Cette petite harpe est idéal pour la fauvette de voyage ou contes et ballades.~
-@6006 = ~Même le barde plus talentueux ne peut pas obtenir cette harpe à jouer juste. Chaque coup de cordes les résultats de la harpe dans une note sévère, hors clé. Si le barde tente de jouer une ballade appropriée sur la harpe, ses effets magiques sont libérés. Toutes les créatures autres que le barde et sa / son parti, doivent faire un jet de sauvegarde contre les sorts ou être confondue pendant trente secondes. 
+Poids : 1~
+@6004 = ~Harpe de discorde~
+@6005 = ~Les harpes sont des instruments à cordes utilisées le plus souvent par les bardes. Cette petite harpe est idéale pour un voyageur.~
+@6006 = ~Même le barde le plus talentueux ne pourra jamais accorder correctement cette harpe. Chaque corde rend un son faux et strident. Si le barde persiste à interpréter une mélodie, les effets magiques de la harpe sont libérés. Toutes les créatures qui entendent la musique, à l'exception du barde et de ses éventuels compagnons, doivent faire un jet de sauvegarde contre les sorts pour éviter les effets d'une confusion pendant trente secondes.
 
-STATISTIQUES: 
+PARAMÈTRES :
 
-Chargez capacités: 
-- Confusion trois fois par jour (sauf contre les sorts nie) 
-   Durée: 1 tour 
-   Zone d'effet: Tous à l'écoute range sauver le barde et camarades de parti 
+Capacité de charge :
+- Confusion trois fois par jour (à moins de réussir un jet de sauvegarde contre les sorts)
+  Durée : 1 tour
+  Zone d'effet : toutes les créatures à portée d'oreille, le barde et ses compagnons ne sont pas affectés
 
-Poids: 6~
-@6007 = ~Harpe de Azlaer~
-@6008 = ~Dans la cour tordu de Azlaer, un rituel bizarre a été promulguée chaque soir de la pleine lune. Dans palais massif de Azlaer poser une cour à ciel ouvert ci-dessus. Cette cour abritait une grande piscine pleine de requins mangeurs d'hommes. Pour l'amusement, Azlaer invitera les citoyens bien connus des villes voisines à sa succession pour une soirée de restaurants et divertissements. 
+Poids : 6~
+@6007 = ~Harpe d'Azlaer~
+@6008 = ~Un rituel étrange était pratiqué chaque nuit de pleine lune dans le palais d'Azlaer, au centre duquel se trouvait une immense cour à ciel ouvert contenant un grand bassin plein de requins mangeurs d'hommes. Pour s'amuser, Azlaer invitait chez lui des notables des villes voisines pour un dîner et un spectacle.
 
-Ce divertissement est composée de Azlaer jouer cette harpe, dont les effets enlevé toute peur de ses clients. Au hasard, Azlaer serait isoler un client et demandez-lui de pied dans la piscine de requin-rempli. Lorsque, dans une humeur particulièrement sadique, Azlaer devrait d'abord lancer dans le sang, incitant les requins dans une frénésie qui a pris fin avec la mort de l'hôte impuissant. 
+Le spectacle était le jeu de harpe d'Azlaer lui-même, dont l'effet était de faire disparaître toute trace de peur dans ceux qui l'entendaient. Azlaer choisissait ensuite un invité au hasard et lui demandait de nager dans le bassin. Quand il était d'humeur particulièrement cruelle, il commençait par y faire jeter du sang pour exciter les requins et s'assurer de la mort de son invité sans défense.
 
-Les passionnés de Helm enfin fustigé contre Azlaer et ses pratiques cruelles, détruisant la succession, tuant Azlaer, et de s'approprier la harpe pour des utilisations plus bénéfiques. 
+Les serviteur de Heaum finirent par ne plus tolérer Azlaer et ses pratiques sadiques. Il détruisirent le palais, tuèrent Azlaer, et s'emparèrent de la harpe pour en faire une utilisation plus constructive.
 
-STATISTIQUES: 
+PARAMÈTRES :
 
-Chargez capacités: 
-- Dissiper les craintes 
-   Portée: 25 m 
-   Zone d'effet: 30 m. rayon 
+Capacité de charge :
+- Dissipation de la terreur
+  Portée : 7,5 mètres
+  Zone d'effet : 9 mètres de rayon
 
-Poids: 6~
-@6009 = ~Harpe de Methlid~
-@6010 = ~Dans une vallée loin de la plupart des terres civilisées , il était une fois un petit royaume appelé Chilldion . Un soir d' hiver, un trio de sorcières a dépassé la vallée et emprisonné la famille royale par lancer des sorts de tenir sur eux . Les sorcières prévues à manger d'une famille par un. Plus tard ce soir-là , les sorcières étaient épuisés après une dure journée d'innocents et de tuer des profaner le palais , donc ils ont appelé pour le barde de la cour pour y jouer une chanson . Methild le barde était fidèle à son roi et à la famille du roi et si il a utilisé les pouvoirs spéciaux de sa harpe magique .
+Poids : 6~
+@6009 = ~Harpe de Methild~
+@6010 = ~Dans une vallée éloignée des terres civilisées se trouvait le petit royaume de Chilldion. Par un soir d'hiver, trois méchantes sorcières prirent la vallée et emprisonnèrent la famille royale en lançant sur chacun d'eux un sort d'immobilisation. Les sorcières pensaient les manger l'un après l'autre. Plus tard dans la soirée, après une dure journée passée à massacrer des innocents et à répandre le chaos dans le palais, les sorcières firent appeler le barde de la cour pour leur jouer une chanson. Methild le barde était loyal à son roi et à la famille de ce dernier, et c'est pourquoi il employa les pouvoirs de sa harpe magique.
 
-Comme il a joué , il a concentré son attention d'abord sur le roi . Comme la chanson jouée sur le sort de la tenue sur le roi dissipée , et le noble seigneur lentement glissé loin . Un par un Methild libéré ses clients , en prenant soin de garder l'attention des sorcières tiré son chemin . Enfin, une fois toute la famille était libre , le barde pourrait jouer plus et les sorcières vu sa trahison . Mauvais Methild , contrairement à ses vassaux , n'a pas échappé et a été servi sur la table du souper à leur place .
+A mesure qu'il jouait, il concentra d'abord son attention sur le roi. Sous l'influence de la musique, la magie d'immobilisation qui retenait le roi se dissipa, et le noble suzerain put sortir discrètement. L'un après l'autre, Methild libéra toute la famille royale, en prenant soin d'attirer sur lui toute l'attention des sorcières. Finalement, quand toute la famille royale fut libre, le barde ne put continuer à jouer, et les sorcières réalisèrent sa traîtrise. Contrairement à ses suzerains, le pauvre Methild ne put s'enfuir, et il fut servi à leurs places sur la table du dîner.
 
-STATISTIQUES:
+PARAMÈTRES :
 
-Chargez capacités :
-- Dissiper les effets de hold- comme trois fois par jour
-  Portée: 25 m
-  Zone d'effet : 1 créature
+Capacité de charge :
+- Dissipation des effets de type immobilisation trois fois par jour
+  Portée : 7,5 mètres
+  Zone d'effet : 1 créature
 
-Poids: 6~
-
-
+Poids : 6~

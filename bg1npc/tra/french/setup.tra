@@ -130,7 +130,7 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @5001 = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
 // Provision for string not traified in the tp2 file : ~Please install on BG:EE, Tutu or BGT.~
 @5002  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
-@5100  = ~Fumée Méphite~
+@5100  = ~M�phite gazeux~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
@@ -143,9 +143,8 @@ Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
 @-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
 Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 
-// Termes non standards pour s'adapter au fait que l'instruction AUTHOR renvoie au forum du projet
-@-1004= "S'IL VOUS PLAIT, postez le contenu du fichier"
-@-1005= "dans le forum de"
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
 
 @-1006= "Installer le composant ["
 @-1007= "] ?
@@ -197,3 +196,30 @@ choisir un parmi :"
 
 @-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
 @-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

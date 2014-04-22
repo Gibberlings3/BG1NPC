@@ -12,10 +12,10 @@ BACKUP ~bg1npc/backup~
 AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45~
 
 /* Enable all error messages; nothing suppressed. comment this out for release version - cmorgan */
-MODDER
+/* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_3_AY#~
+VERSION ~v21_PRERELEASE_3_AstroBryGuy_20140418~
 
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
@@ -35,6 +35,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	"english" => "CP1252"
 	"french" => "CP1252"
 	"spanish" => "CP1252"
+	"polish" => "CP1250"
   END
   OUTER_SPRINT initialencoding ~~
   ACTION_PHP_EACH languageencoding AS lang => encoding BEGIN
@@ -230,7 +231,7 @@ AUTO_TRA ~bg1npc/tra/%s~
 LANGUAGE ~English~ ~english~ ~bg1npc/tra/english/setup.tra~
 LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ ~bg1npc/tra/spanish/setup.tra~
 LANGUAGE ~Francais (traduit par les d'Oghmatiques)~ ~french~ ~bg1npc/tra/french/setup.tra~
-
+LANGUAGE ~Polski~ ~polish~ ~bg1npc/tra/polish/setup.tra~
 
 /* BEGIN The BG1 NPC Project: Required Modifications  */
 BEGIN @1005 DESIGNATED 0
@@ -6387,7 +6388,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
 BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
   SUBCOMPONENT @1019  /* The BG1 NPC Project: Cloakwood areas availability in Chapter One */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) ~The functionality of this component is either already included or superceded by one of your already installed mods.~
+  REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#BG1NPCCloakLodge.G3~
   COPY_EXISTING ~worldmap.wmp~ ~override~
@@ -6396,12 +6397,14 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     FOR (index = 0; index < area_num; index = index + 1) BEGIN
       READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
       PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw2200" = 0) OR     //  cloakwood 1 (tutu)
-                ("%area_res%" STRING_COMPARE_CASE "ar7000" = 0)) BEGIN //  cloakwood 1 (bgt)
+                ("%area_res%" STRING_COMPARE_CASE "ar7000" = 0) OR     //  cloakwood 1 (bgt)
+                ("%area_res%" STRING_COMPARE_CASE "ar2200" = 0)) BEGIN //  cloakwood 1 (bgee)
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
       END ELSE
       PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw2100" = 0) OR     //  cloakwood 2 (tutu)
-                ("%area_res%" STRING_COMPARE_CASE "ar8800" = 0)) BEGIN //  cloakwood 2 (bgt)
+                ("%area_res%" STRING_COMPARE_CASE "ar8800" = 0) OR     //  cloakwood 2 (bgt)
+                ("%area_res%" STRING_COMPARE_CASE "ar2100" = 0)) BEGIN //  cloakwood 2 (bgee)
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
       END
@@ -6412,6 +6415,7 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     DECOMPILE_BCS_TO_BAF
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW2100")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8800")~
+      REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR2100")~
     COMPILE_BAF_TO_BCS
     BUT_ONLY_IF_IT_CHANGES
 
@@ -6420,7 +6424,7 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
 BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   SUBCOMPONENT @1019  /* The BG1 NPC Project: Cloakwood areas availability in Chapter One */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /*The functionality of this component is either already included or superceded by one of your already installed mods.~ */
+  REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#BG1NPCCloakwood.G3~
     COPY_EXISTING ~worldmap.wmp~ ~override~
@@ -6429,12 +6433,14 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   FOR (index = 0; index < area_num; index = index + 1) BEGIN
     READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
     PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw2200" = 0) OR     //  cloakwood 1 (tutu)
-              ("%area_res%" STRING_COMPARE_CASE "ar7000" = 0)) BEGIN //  cloakwood 1 (bgt)
+              ("%area_res%" STRING_COMPARE_CASE "ar7000" = 0) OR     //  cloakwood 1 (bgt)
+              ("%area_res%" STRING_COMPARE_CASE "ar2200" = 0)) BEGIN //  cloakwood 1 (bgee)
       READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
       WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
     END ELSE
     PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw1800" = 0) OR     //  cloakwood mines (tutu)
-              ("%area_res%" STRING_COMPARE_CASE "ar8600" = 0)) BEGIN //  cloakwood mines (bgt)
+              ("%area_res%" STRING_COMPARE_CASE "ar8600" = 0) OR     //  cloakwood mines (bgt)
+              ("%area_res%" STRING_COMPARE_CASE "AR1800" = 0)) BEGIN //  cloakwood mines (bgee)
       READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
       WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
     END
@@ -6445,6 +6451,7 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
     DECOMPILE_BCS_TO_BAF
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW1800")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8600")~
+      REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR1800")~
     COMPILE_BAF_TO_BCS
     BUT_ONLY_IF_IT_CHANGES
 
