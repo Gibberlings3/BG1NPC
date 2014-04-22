@@ -29,6 +29,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   PRINT ~BG:EE Detected. Installation based on those resources.~
   INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
+  LOAD_TRA ~bg1npc/tra/%LANGUAGE%/bgee.tra~ /* Strings from BG2 not in BGEE */
 
   /* BG:EE tra conversion : Character encoding for BG II for various languages: ensure the name matches the menu choices */
   ACTION_DEFINE_ASSOCIATIVE_ARRAY languageencoding BEGIN
@@ -2121,7 +2122,7 @@ END
 
   /* AstroBryGuy: Add missing items and scripts to BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	LOAD_TRA ~bg1npc/tra/%LANGUAGE%/bgee.tra~
+/*  	LOAD_TRA ~bg1npc/tra/%LANGUAGE%/bgee.tra~ - Move to always load */
 	INCLUDE ~bg1npc/bgee/bg1npc_items_for_bgee.tpa~
 	/* Add missing scripts */
     COMPILE ~bg1npc/bgee/baf/mage10c.baf~
