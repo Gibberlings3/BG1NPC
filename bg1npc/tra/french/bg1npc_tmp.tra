@@ -81,7 +81,7 @@ Sans doute Imoen ne deviendra jamais un maître joaillier mais le collier est ass
 @21    = ~Boîte de Safana~
 @22    = ~Cette boîte possède une serrure très complexe et appartient à Safana. Elle est très lourde et Dieu seul sait ce qu'elle contient.~
 // Ensemble de sons présents dans BG II et aussi BG, manifestement transférés par Tutu, à conserver tel quel
-@23    = ~[GENERIC MALE INJURY 2]~ [%tutu_var%MANC04]
+@23    = ~[GENERIC MALE INJURY 2]~ [%tutu_var%MANCO04]
 // Fin sons
 //
 // Quête de Kagain (la caravane)
