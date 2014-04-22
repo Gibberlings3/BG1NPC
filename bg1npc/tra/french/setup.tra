@@ -130,7 +130,6 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @5001 = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
 // Provision for string not traified in the tp2 file : ~Please install on BG:EE, Tutu or BGT.~
 @5002  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
-@5100  = ~Méphite gazeux~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

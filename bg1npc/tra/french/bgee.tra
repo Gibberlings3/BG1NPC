@@ -66,3 +66,18 @@ Capacité de charge :
   Zone d'effet : 1 créature
 
 Poids : 6~
+@6011  = ~Carreau d'arbalète de Paralysie~
+@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+
+Damage: 1d10 (missile)
+Launcher: Crossbow
+
+Weight: 1~
+@6100  = ~MÈphite gazeux~
+@6101  = ~Chef de Sahuagin~
+@6102  = ~Sahuagin~

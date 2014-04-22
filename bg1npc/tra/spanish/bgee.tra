@@ -62,3 +62,18 @@ Aptitudes especiales:
    Area de efecto: 1 criatura
 
 Peso: 6 Ibs~
+@6011  = ~Paralítica Perno~
+@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+
+Damage: 1d10 (missile)
+Launcher: Crossbow
+
+Weight: 1~
+@6100  = ~Mefit de Humo~
+@6101  = ~Jefe de Sahuagin~
+@6102  = ~Sahuagin~

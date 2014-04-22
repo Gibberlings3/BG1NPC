@@ -64,4 +64,18 @@ Zasięg: 8 m
 Obszar działania: 1 istota
 
 Waga: 6~
+@6011  = ~Paraliżujące Bełt~
+@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
 
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+
+Damage: 1d10 (missile)
+Launcher: Crossbow
+
+Weight: 1~
+@6100  = ~Mefit Dymu~
+@6101  = ~Szef Sahuagin~
+@6102  = ~Sahuagin~

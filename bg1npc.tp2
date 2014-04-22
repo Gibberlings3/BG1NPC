@@ -3734,12 +3734,21 @@ BEGIN @1007
     SAY SELECT_COMMON4 @271
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
-  /* Shahguin */
+  /* Sahuagin */
   COPY ~BG1NPC/Phase2/cre/x#saha01.cre~ ~override~
-      LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+    PATCH_IF (GAME_IS ~bgee~) BEGIN
+    	SAY NAME1 @6101  /* set name for BGEE */
+        SAY NAME2 @6101  /* set name for BGEE */
+    END
+	LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
+      
   COPY ~BG1NPC/Phase2/cre/x#saha02.cre~ ~override~
-      LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+    PATCH_IF (GAME_IS ~bgee~) BEGIN
+    	SAY NAME1 @6102  /* set name for BGEE */
+        SAY NAME2 @6102  /* set name for BGEE */
+    END
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
       
   /* area patching */
   EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW3100.BAF~
@@ -3910,8 +3919,8 @@ END ELSE BEGIN
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht4.cre~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht5.cre~
      PATCH_IF (GAME_IS ~bgee~) BEGIN
-        SAY NAME1 @5100  /* set name for BGEE */
-        SAY NAME2 @5100  /* set name for BGEE */
+        SAY NAME1 @6100  /* set name for BGEE */
+        SAY NAME2 @6100  /* set name for BGEE */
      END
      
   /* Add Smoke Mephit script for BGEE */

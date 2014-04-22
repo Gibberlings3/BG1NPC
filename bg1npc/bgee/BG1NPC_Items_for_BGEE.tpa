@@ -46,3 +46,9 @@ COPY ~bg1npc/bgee/itm/misc3o.itm~ ~override~
 COPY ~bg1npc/bgee/itm/scrl8i.itm~ ~override~ 
 COPY ~bg1npc/bgee/itm/scrl9h.itm~ ~override~ 
 
+/* Sahuagin Spear, Staff, & Paralytic Bolt */
+COPY ~bg1npc/bgee/itm/sahspear.itm~ ~override~ 
+COPY ~bg1npc/bgee/itm/sahstaff.itm~ ~override~ 
+COPY ~bg1npc/bgee/itm/sahbolt.itm~ ~override~ 
+  SAY NAME2 @6011
+  SAY DESC @6012

@@ -66,5 +66,19 @@ Charge abilities:
   Area of Effect: 1 creature
 
 Weight: 6~
+@6011  = ~Paralytic Bolt~
+@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
 
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+
+Damage: 1d10 (missile)
+Launcher: Crossbow
+
+Weight: 1~
+@6100  = ~Smoke Mephit~
+@6101  = ~Sahuagin Chieftain~
+@6102  = ~Sahuagin~
 
