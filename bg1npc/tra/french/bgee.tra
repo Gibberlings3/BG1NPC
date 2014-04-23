@@ -66,18 +66,15 @@ Capacité de charge :
   Zone d'effet : 1 créature
 
 Poids : 6~
-@6011  = ~Carreau d'arbalète de Paralysie~
-@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
+@6011 = ~Carreau paralysant~
+@6012 = ~Toute cible touchée par ce carreau doit réussir un jet de sauvegarde contre la paralysie ou être étourdie pendant 5 rounds.
 
-STATISTICS:
+PARAMÈTRES :
 
-Combat abilities:
-– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+Capacités de combat :
+- la cible doit réussir un jet de sauvegarde contre la paralysie ou être étourdie pendant 5 rounds
 
-Damage: 1d10 (missile)
-Launcher: Crossbow
+Dégâts : 1d10 (projectile)
+Arme de jet : arbalète
 
-Weight: 1~
-@6100  = ~MÈphite gazeux~
-@6101  = ~Chef de Sahuagin~
-@6102  = ~Sahuagin~
+Poids : 1~
