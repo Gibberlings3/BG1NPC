@@ -2124,9 +2124,10 @@ END
 /*  	LOAD_TRA ~bg1npc/tra/%LANGUAGE%/bgee.tra~ - Move to always load */
 	INCLUDE ~bg1npc/bgee/bg1npc_items_for_bgee.tpa~
 	/* Add missing scripts */
-    COMPILE ~bg1npc/bgee/baf/mage10c.baf~
-    COMPILE ~bg1npc/bgee/baf/mage14d.baf~
-    COMPILE ~bg1npc/bgee/baf/pries10b.baf~
+    COMPILE ~bg1npc/bgee/baf/mage10c.baf~  /* For Dushai */
+    COMPILE ~bg1npc/bgee/baf/mage14d.baf~  /* For Tellan */
+    COMPILE ~bg1npc/bgee/baf/pries10b.baf~ /* For Dushai */
+    COMPILE ~bg1npc/bgee/baf/gpshout.baf~  /* For Jozzi, Stock Druids */
   END
 
 /* BEGIN PHASE I BG1NPC PROJECT */
@@ -2644,6 +2645,7 @@ BEGIN @1007
     WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
     WRITE_ASCII 0x280 ~x#tqbh1~ #32 // DV
     WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+    WRITE_ASCIIE 0x250 ~x#fight2~ #8 //  class script
     ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
     ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
@@ -2664,6 +2666,7 @@ BEGIN @1007
     WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
     WRITE_ASCII 0x280 ~x#tqbh2~ #32 // DV
     WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+    WRITE_ASCIIE 0x250 ~x#fight2~ #8 //  class script
     ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
     ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
@@ -2684,6 +2687,7 @@ BEGIN @1007
     WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
     WRITE_ASCII 0x280 ~x#tqbh3~ #32 // DV
     WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+    WRITE_ASCIIE 0x250 ~x#fight2~ #8 //  class script
     ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
     ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
@@ -2704,6 +2708,7 @@ BEGIN @1007
     WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
     WRITE_ASCII 0x280 ~x#tqbh4~ #32 // DV
     WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+    WRITE_ASCIIE 0x250 ~x#fight2~ #8 //  class script
     ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
     ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
@@ -2716,6 +2721,7 @@ BEGIN @1007
   EXTEND_BOTTOM ~X#KARRIS.bcs~ ~BG1NPC/Phase2/baf/x#tqkarris.baf~
     EVALUATE_BUFFER
   COMPILE ~BG1NPC/Phase2/baf/x#tqbh.baf~
+  COMPILE ~bg1npc/phase2/baf/x#fight2.baf~
   
   /* area scripts */
   EXTEND_BOTTOM ~%SEBGBStarsL2_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#tqfw0106.baf~
@@ -3735,18 +3741,14 @@ BEGIN @1007
 
   /* Sahuagin */
   COPY ~BG1NPC/Phase2/cre/x#saha01.cre~ ~override~
-    PATCH_IF (GAME_IS ~bgee~) BEGIN
-    	SAY NAME1 @6101  /* set name for BGEE */
-        SAY NAME2 @6101  /* set name for BGEE */
-    END
-	LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+    SAY NAME1 @700  /* Sahuagin Chieftain */
+    SAY NAME2 @700  /* Sahuagin Chieftain */
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
       
   COPY ~BG1NPC/Phase2/cre/x#saha02.cre~ ~override~
-    PATCH_IF (GAME_IS ~bgee~) BEGIN
-    	SAY NAME1 @6102  /* set name for BGEE */
-        SAY NAME2 @6102  /* set name for BGEE */
-    END
+    SAY NAME1 @701  /* Sahuagin */
+    SAY NAME2 @701  /* Sahuagin */
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
       
   /* area patching */
@@ -3917,10 +3919,8 @@ END ELSE BEGIN
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht3.cre~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht4.cre~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht5.cre~
-     PATCH_IF (GAME_IS ~bgee~) BEGIN
-        SAY NAME1 @6100  /* set name for BGEE */
-        SAY NAME2 @6100  /* set name for BGEE */
-     END
+        SAY NAME1 @702  /* Smoke Mephit */
+        SAY NAME2 @702  /* Smoke Mephit */
      
   /* Add Smoke Mephit script for BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
@@ -4299,8 +4299,6 @@ END
         REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("astSeenBy(Myself))")~ ~!StateCheck(LastSeenBy(),4032)~
       COMPILE_BAF_TO_BCS
     BUT_ONLY_IF_IT_CHANGES
-  END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	COMPILE ~bg1npc/bgee/baf/gpshout.baf~
   END
    
   COPY ~BG1NPC/phase2/cre/x#shdr6.cre~  ~override/x#shdr6.cre~
