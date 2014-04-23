@@ -1,0 +1,155 @@
+IF
+	HPPercentLT(Myself,50)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),75)
+		Hide()
+END
+
+IF
+	Delay(30)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		Hide()
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ARMOR_OF_FAITH)
+	CheckStatGT(Myself,3,ARMORCLASS)
+	HPGT(LastSeenBy(Myself),20)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ARMOR_OF_FAITH)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_BLESS)
+	HPGT(LastSeenBy(Myself),20)
+	!StateCheck(LastSeenBy(Myself),STATE_BLESS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_BLESS)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOfType([0.ANIMAL]))
+	HaveSpell(RANGER_CHARM_ANIMAL)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),RANGER_CHARM_ANIMAL)
+END
+
+IF
+	ActionListEmpty()
+	HPPercentLT(MostDamagedOf(Myself),50)
+	!StateCheck(MostDamagedOf(Myself),STATE_INVISIBLE)
+	HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(MostDamagedOf(Myself),CLERIC_CURE_MEDIUM_WOUNDS)
+END
+
+IF
+	ActionListEmpty()
+	HPPercentLT(MostDamagedOf(Myself),80)
+	!StateCheck(MostDamagedOf(Myself),STATE_INVISIBLE)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(MostDamagedOf(Myself),CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	ActionListEmpty()
+	HPPercentLT(Myself,50)
+	HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+END
+
+IF
+	ActionListEmpty()
+	HPPercentLT(Myself,80)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	HasItem("POTN08",Myself) // Potion of Healing
+	HPPercentLT(Myself,80)
+THEN
+	RESPONSE #100
+		UseItem("POTN08",Myself) // Potion of Healing
+END
+
+IF
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	ActionListEmpty()
+	AttackedBy([ANYONE],DEFAULT)
+	Range(LastAttackerOf(Myself),4)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastAttackerOf(Myself),30)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),4)
+	Range(NearestEnemyOf(Myself),10)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),45)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),10)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),4)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),4)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+
