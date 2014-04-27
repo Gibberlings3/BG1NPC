@@ -488,7 +488,7 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     OUTER_SPRINT "Candlekeep_Catacombs_L2" "AR6519"
     OUTER_SPRINT "Candlekeep_Ch6" "AR6526"
     OUTER_SPRINT "Candlekeep_Ch6_PriestsQuarters" "AR6527"
-    OUTER_SPRINT "Candlekeep_Infirmary" "AR6528"
+    OUTER_SPRINT "Candlekeep_Ch6_Storehouse" "AR6528"
     OUTER_SPRINT "Candlekeep_Ch6_Inn_L1" "AR6529"
     OUTER_SPRINT "Candlekeep_Ch6_Inn_L2" "AR6530"
     OUTER_SPRINT "Candlekeep_Ch6_Barracks" "AR6531"
