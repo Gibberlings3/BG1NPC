@@ -62,15 +62,16 @@ Aptitudes especiales:
    Area de efecto: 1 criatura
 
 Peso: 6 Ibs~
-@6011  = ~Paralítica Perno~
-@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
+@6011  = ~Virote Paralizador~
+@6012  = ~Cualquier blanco es golpeado por este Virote, deberá hacer una tirada de salvamiento o quedar paralizado por 5 asaltos.
 
-STATISTICS:
+CARACTERÍSTICAS:
 
-Combat abilities:
-– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+Aptitudes de combate: 
+– Si un blanco es golpeado, este hacer una tirada de salvamiento contra Parlización/Polimorfismo o quedar Aturdido por 5 asaltos. 
 
-Damage: 1d10 (missile)
-Launcher: Crossbow
+Daño: 1D10
+Tipo de daño: Proyectil
+Talento marcial: Ballesta
 
-Weight: 1~
+Peso: 1Ib~
