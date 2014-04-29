@@ -477,7 +477,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "Candlekeep_Catacombs_L2" "AR2619"
     OUTER_SPRINT "Candlekeep_Ch6" "AR2626"
     OUTER_SPRINT "Candlekeep_Ch6_PriestsQuarters" "AR2627"
-    OUTER_SPRINT "Candlekeep_Infirmary" "AR2628"
+    OUTER_SPRINT "Candlekeep_Ch6_Storehouse" "AR2628"
     OUTER_SPRINT "Candlekeep_Ch6_Inn_L1" "AR2629"
     OUTER_SPRINT "Candlekeep_Ch6_Inn_L2" "AR2630"
     OUTER_SPRINT "Candlekeep_Ch6_Barracks" "AR2631"
