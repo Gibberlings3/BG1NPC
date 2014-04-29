@@ -2197,11 +2197,19 @@ BEGIN @1007
     SAY 8 @15
 
   COPY ~BG1NPC/Phase1/ITM/NUTKIN.EFF~ ~override~
+
+  /* AstroBryGuy's and Mike1072's BG:EE strref fix */
   COPY ~BG1NPC/Phase1/ITM/X#DEX.SPL~ ~override~
-    WRITE_ASCII 0x10 ~CAS_M08~ #8    // casting sound
+    PATCH_IF (GAME_IS ~bgee~) BEGIN
+        WRITE_LONG 0x08 25989  // spell name "Dexterity Increase"
+    END
+    ELSE BEGIN
+        WRITE_LONG 0x08 2688  // spell name "Dexterity Increase"
+    END
+    WRITE_ASCII 0x10 ~CAS_M08~ #8   // casting sound
     WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
     WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
-    WRITE_ASCII 0xDE ~EFF_P07~ #8    // resource
+    WRITE_ASCII 0xDE ~EFF_P07~ #8   // resource
 	
   COPY ~BG1NPC/Phase1/ITM/X#POLY.SPL~ ~override~
     WRITE_ASCII 0x10 ~CAS_M08~ #8    // casting sound
