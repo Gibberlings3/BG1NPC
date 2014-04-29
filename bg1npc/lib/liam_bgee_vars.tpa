@@ -2,7 +2,7 @@
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     /* tp2, d, and baf parsing variables */
     OUTER_SPRINT "tutubgtbgee" "bgee"
-    OUTER_SPRINT "bgdreams" "BG1Dream"
+    OUTER_SPRINT "bgdreams" "DREAM"
     OUTER_SPRINT "bgdream1" "1"
     OUTER_SPRINT "bgdream2" "2"
     OUTER_SPRINT "bgdream3" "3"
@@ -48,7 +48,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
 
-     //BGT Dialogues always appended, zero for Tutu
+     //BGT Dialogues always appended, zero for Tutu and BG:EE
      OUTER_SET BGTBEDWINState0 = 0
      OUTER_SET BGTBJAHEIState0 = 0
      OUTER_SET BGTBMINSCState0 = 0
@@ -66,17 +66,17 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
      OUTER_SET BGTVICONJState0 = 0
      OUTER_SET BGTVICONPState0 = 0
     
-     //Never Ending Journey 2 compatibility appending, zero for Tutu
+     //Never Ending Journey 2 compatibility appending, zero for Tutu and BG:EE
      OUTER_SET BGTXANState0 = 0
      
-     //The Darkest Day compatibility appending, zero for Tutu
+     //The Darkest Day compatibility appending, zero for Tutu and BG:EE
      OUTER_SET BGTKAGAIPState0 = 0
      OUTER_SET BGTKIVANPState0 = 0
      OUTER_SET BGTSHARTPState0 = 0
      OUTER_SET BGTXZARPState0 = 0
      OUTER_SET BGTYESLIPState0 = 0
      
-     //Tortured Souls compatibility appending, zero for Tutu
+     //Tortured Souls compatibility appending, zero for Tutu and BG:EE
      OUTER_SET BGTBCORANState0 = 0
      OUTER_SET BGTCORANState0 = 0
      OUTER_SET BGTCORANJState0 = 0
@@ -84,7 +84,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
      OUTER_SET BGTDYNAHJState0 = 0
      OUTER_SET BGTDYNAHPState0 = 0
 
-    /* Set Post Dialogue Files */
+    /* Set Post Dialogue Files for BG:EE */
     OUTER_SPRINT "AJANTIS_POST" "AJANTP"
     OUTER_SPRINT "ALORA_POST" "ALORAP"
     OUTER_SPRINT "BRANWEN_POST" "BRANWP"
@@ -111,7 +111,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "XZAR_POST" "XZARP"
     OUTER_SPRINT "YESLICK_POST" "YESLIP"
 
-    /* Set BGT BanterFiles */
+    /* Set BanterFiles for BG:EE */
     OUTER_SPRINT "AJANTIS_BANTER" "BAJANT"
     OUTER_SPRINT "ALORA_BANTER" "BALORA"
     OUTER_SPRINT "BRANWEN_BANTER" "BBRANW"
@@ -138,7 +138,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "XZAR_BANTER" "BXZAR"
     OUTER_SPRINT "YESLICK_BANTER" "BYESLI"
 
-    /* Set BGT Joined Dialogue Files */
+    /* Set Joined Dialogue Files for BG:EE */
     OUTER_SPRINT "AJANTIS_JOINED" "AJANTJ"
     OUTER_SPRINT "ALORA_JOINED" "ALORAJ"
     OUTER_SPRINT "BRANWEN_JOINED" "BRANWJ"
@@ -165,8 +165,8 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "XZAR_JOINED" "XZARJ"
     OUTER_SPRINT "YESLICK_JOINED" "YESLIJ"
 
-    /* BGT Chapters */
-    OUTER_SPRINT "tutu_prologue" "1"
+    /* Chapters for BG:EE */
+    OUTER_SPRINT "tutu_prologue" "0"
     OUTER_SPRINT "tutu_prologue_reset" "0"
     OUTER_SPRINT "tutu_chapter_1" "1"
     OUTER_SPRINT "tutu_chapter_2" "2"
@@ -176,7 +176,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "tutu_chapter_6" "6"
     OUTER_SPRINT "tutu_chapter_7" "7"
 
-    /* BGT NPC override script compilation */
+    /* NPC Override script compilation for BG:EE */
     OUTER_SPRINT "ALORA_BCS" "ALORA"
     OUTER_SPRINT "AJANTIS_BCS" "AJANTIS"
     OUTER_SPRINT "BRANWEN_BCS" "BRANWEN"
@@ -203,7 +203,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "XZAR_BCS" "XZAR"
     OUTER_SPRINT "YESLICK_BCS" "YESLICK"
 
-    /* Tutu Areas */
+    /* BG:EE Areas */
     OUTER_SPRINT "NBaldursGate_TempleofHelm" "AR0002"
     OUTER_SPRINT "NBaldursGate_BherensHouse_L1" "AR0004"
     OUTER_SPRINT "NBaldursGate_BherensHouse_L2" "AR0005"
@@ -599,7 +599,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "Nashkel_BelchingDragonTavern" "AR4809"
     OUTER_SPRINT "Nashkel_Garrison" "AR4810"
     OUTER_SPRINT "NashkelCarnival" "AR4900"
-    OUTER_SPRINT "NashkelCarnivalARmorTent" "AR4901"
+    OUTER_SPRINT "NashkelCarnivalArmorTent" "AR4901"
     OUTER_SPRINT "NashkelCarnival_LotusTent" "AR4902"
     OUTER_SPRINT "NashkelCarnival_VitiaresTent" "AR4903"
     OUTER_SPRINT "NashkelCarnival_GamblingTent" "AR4904"
@@ -639,7 +639,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "Encounter_Forest2" "AR6001"
     OUTER_SPRINT "Encounter_Road" "AR6100"
 
-    /* Tutu TOTSC Areas */
+    /* BG:EE TOTSC Areas */
     OUTER_SPRINT "Farmlands" "AR0400"
     OUTER_SPRINT "FarmlandsFarmhouse" "AR0401"
     OUTER_SPRINT "DurlagsTower" "AR0500"
@@ -690,7 +690,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "IceIslandMaze_L1" "AR1009"
     OUTER_SPRINT "IceIslandMaze_L2" "AR1010"
 
-    /* AREA_SCRIPTS (BG1 NPC Only) */
+    /* AREA_SCRIPTS (BG1 NPC Only) for BG:EE */
     OUTER_SPRINT "BelchingDragonTavern_BCS" "AR4809"
     OUTER_SPRINT "BGDocks_BCS" "AR1200"
     OUTER_SPRINT "CK_LibL5_BCS" "AR2612"
