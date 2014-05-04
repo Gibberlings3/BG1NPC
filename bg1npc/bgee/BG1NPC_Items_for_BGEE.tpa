@@ -1,0 +1,54 @@
+/*
+ * BG1NPC_Items_for_BGEE.tpa adds a few items to a BG:EE installation which are used by the
+ * BG1NPC mod.  These items are from BG2, and are assumed to be present by BG1NPC (which
+ * would be a reasonable assumption for a BG:TuTu or BGT installation).  The items are:
+ *   BRAC25: Wondrous Gloves
+ *   DAGG11: Boomerang Dagger +2
+ *   MISC3M: Harp of Discord
+ *   MISC3N: Azlaer's Harp
+ *   MISC3O: Methlid's Harp
+ *   SCRL8I: Cacofiend
+ *   SCRL9H: Maze
+*/
+
+/* Item files needed by BG1NPC, but missing from BGEE */
+/* Wondrous Gauntlets */
+COPY ~bg1npc/bgee/itm/brac25.itm~ ~override~ 
+  SAY NAME2 @6000
+  SAY DESC @6001
+  
+/* Boomerang Dagger */
+COPY ~bg1npc/bgee/itm/dagg11.itm~ ~override~ 
+  SAY NAME2 @6002
+  SAY DESC @6003
+
+/* Harp of Discord */
+COPY ~bg1npc/bgee/itm/misc3m.itm~ ~override~ 
+  SAY NAME2 @6004
+  SAY UNIDENTIFIED_DESC @6005
+  SAY DESC @6006
+
+COPY ~bg1npc/bgee/wav/itemharp.wav~ ~override~
+
+/* Azlaer's Harp */
+COPY ~bg1npc/bgee/itm/misc3n.itm~ ~override~ 
+  SAY NAME2 @6007
+  SAY UNIDENTIFIED_DESC @6005
+  SAY DESC @6008
+
+/* Methlid's Harp */
+COPY ~bg1npc/bgee/itm/misc3o.itm~ ~override~ 
+  SAY NAME2 @6009
+  SAY UNIDENTIFIED_DESC @6005
+  SAY DESC @6010
+  
+/* Scrolls of Cacofiend and Maze */
+COPY ~bg1npc/bgee/itm/scrl8i.itm~ ~override~ 
+COPY ~bg1npc/bgee/itm/scrl9h.itm~ ~override~ 
+
+/* Sahuagin Spear, Staff, & Paralytic Bolt */
+COPY ~bg1npc/bgee/itm/sahspear.itm~ ~override~ 
+COPY ~bg1npc/bgee/itm/sahstaff.itm~ ~override~ 
+COPY ~bg1npc/bgee/itm/sahbolt.itm~ ~override~ 
+  SAY NAME2 @6011
+  SAY DESC @6012

@@ -1,0 +1,18 @@
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),7)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),7)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),30)
+END
+
+

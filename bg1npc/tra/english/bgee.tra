@@ -1,0 +1,82 @@
+@6000 = ~Wondrous Gauntlets~
+@6001 = ~These gem-studded leather gloves are enchanted so as to augment the skills of any Bard. 
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– THAC0: +1
+– Can memorize one 2nd-, 3rd-, and 4th-level wizard spell
+
+Weight: 1~
+@6002 = ~Boomerang Dagger +2~
+@6003 = ~Fullen Woolspinner, an ambitious halfling from a well-to-do family, left his home to spend several years adventuring. During his travels, he ended up staying with a family of dwarven weaponsmiths. Much impressed by their throwing axes, which always returned to the hands of their wielder, Fullen sought to make a dagger that could do the same. With the help of his dwarven friends, he succeeded, creating several of the famous Fullen Boomerang daggers.
+
+STATISTICS:
+
+Combat abilities:
+– Returns to the wielder's hand when thrown
+
+THAC0: +2
+Damage: 2d4+2 (missile)
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+@6004 = ~Harp of Discord~
+@6005 = ~Harps are stringed instruments often used by bards. This small harp is ideal for the traveling warbler or tales and ballads.~
+@6006 = ~Even the most talented bard cannot get this harp to play in tune. Each stroke of the harp's strings results in a harsh, off-key note. If the bard attempts to play a proper ballad upon the harp, its magical effects are released. All creatures, other than the bard and his/her party, must make a Saving Throw vs. Spell or be confused for thirty seconds.
+
+STATISTICS:
+
+Charge abilities:
+– Confusion three times per day (Save vs. Spell negates)
+  Duration: 1 turn
+  Area of Effect: All within listening range save the bard and fellow party members
+
+Weight: 6~
+@6007 = ~Azlaer's Harp~
+@6008 = ~In the twisted court of Azlaer, a bizarre ritual was enacted every night of the full moon. Within Azlaer's massive palace lay a courtyard open to the sky above. This courtyard housed a large pool full of man-eating sharks. For amusement, Azlaer would invite well-known citizens from nearby towns to his estate for an evening of dining and entertainment.
+
+This entertainment consisted of Azlaer playing this harp, the effects of which removed any fear from his guests. Randomly, Azlaer would single out a guest and have him or her walk into the shark-filled pool. When in a particularly sadistic mood, Azlaer would first toss in blood, inciting the sharks into a frenzy that ended with the death of the helpless guest.
+
+Devotees of Helm finally lashed out against Azlaer and his cruel practices, destroying the estate, slaying Azlaer, and appropriating the harp for more beneficial uses.
+
+STATISTICS:
+
+Charge abilities:
+– Dispel Fear
+  Range: 25 ft.
+  Area of Effect: 30-ft. radius
+
+Weight: 6~
+@6009 = ~Methlid's Harp~
+@6010 = ~In a valley far from most civilized lands, there once was a tiny kingdom called Chilldion. One winter evening a trio of evil witches overtook the valley and imprisoned the royal family by casting spells of holding upon them. The witches planned to eat the family one by one. Later that evening, the witches were exhausted after a hard day of slaying innocents and desecrating the palace, so they called for the court bard to play them a song. Methild the bard was loyal to his king and the king's family and so he used the special powers of his magic harp.
+
+As he played, he focused his attention first on the king. As the song played on, the spell of holding upon the king dissipated, and the noble liege slowly crept away. One by one Methild freed his patrons, being careful to keep the witches' attention drawn his way. Finally, once all the family was free, the bard could play no longer and the witches saw his treachery. Poor Methild, unlike his lieges, did not escape and was served on the supper table in their place.
+
+STATISTICS:
+
+Charge abilities:
+– Dispel hold-like effects three times per day
+  Range: 25 ft.
+  Area of Effect: 1 creature
+
+Weight: 6~
+@6011  = ~Paralytic Bolt~
+@6012  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Paralyzation or be stunned for 5 rounds
+
+Damage: 1d10 (missile)
+Launcher: Crossbow
+
+Weight: 1~
+
+

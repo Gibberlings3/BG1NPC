@@ -1,0 +1,81 @@
+@6000 = ~Cudowne Rękawice~
+@6001 = ~Te inkrustowane szlachetnymi kamieniami rękawice są obdarzone mocą, która pozwala na ulepszenie umiejętności każdego barda. 
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– TraK0: +1
+– Pozwala zapamiętać po 1 dodatkowym zaklęciu maga z poziomów 2., 3. i 4.
+
+Waga: 1~
+@6002 = ~Sztylet bumerang +2~
+@6003 = ~Fullen Przędzarz Wełny, ambitny niziołek z dobrej rodziny, opuścił dom by spędzić kilka lat na poszukiwaniu przygód. Podczas swoich podróży zdarzyło mu się mieszkać z rodziną krasnoludzkich płatnerzy. Będąc zafascynowanym ich toporkami, które zawsze wracały do ręki właściciela, Fullen zapragnął zrobić sztylet o tej samej właściwości. Z pomocą jego krasnoludzkich przyjaciół udało mu się stworzyć kilka słynnych sztyletów bumerangów Fullena.
+
+PARAMETRY:
+
+Specjalne:
+– Po rzucie wraca do właściciela
+
+Obrażenia: 2k4+2
+TraK0: +2
+Typ obrażeń: pocisk (kłute)
+Opóźnienie: 1
+Rodzaj biegłości: sztylet
+Typ broni: 1-ręczna
+
+Wymagania:
+- Siła: 3
+
+Waga: 1~
+@6004 = ~Harfa Dysonansu~
+@6005 = ~Harfy to instrumenty strunowe często używane przez bardów. Ta mała harfa jest idealna dla podróżujących grajków.~
+@6006 = ~Nawet najbardziej utalentowani bardowie nie potrafią zmusić tej harfy do harmonijnego grania. Każde pociągnięcie strun wydobywa z niej niemiły dla uszu dźwięk. Jeśli bard będzie chciał zagrać na tej harfie właściwą balladę, uwolni jej magię. Wszystkie istoty poza bardem i jego/jej kompanią muszą wykonać rzut przeciw czarom albo znajdą się pod działaniem Zamętu na trzydzieści sekund.
+
+PARAMETRY:
+
+Specjalne:
+– Zamęt, trzy razy dziennie (rzut obronny przeciw czarom: neguje) 
+Czas działania: 1 tura
+Obszar działania: wszyscy w zasięgu słuchu z wyjątkiem barda i jego drużyny
+
+Waga: 6~
+@6007 = ~Harfa Azlaera~
+@6008 = ~Na pokręconym dworze Azlaera, w nocy, przy każdej pełni księżyca odprawiano dziwny rytuał. W jego pałacu znajdował się otwarty dziedziniec, z którego było widać niebo. Na owym dziedzińcu znajdował się duży staw pełen mięsożernych rekinów. Dla zabawy, Azlaer zapraszał do siebie dobrze znanych mieszkańców pobliskich miast na wieczorną kolację i rozrywki. Azrael grał na harfie, co pozbawiało gości strachu. Losowo wyznaczał wtedy gościa i kazał mu albo jej przejść przez wypełniony rekinami staw. Gdy był w wyjątkowo sadystycznym humorze, najpierw wlewał do stawu krew, co wprawiało rekiny w szał, który kończył się śmiercią biednego gościa. 
+Wyznawcy Helma w końcu wyruszyli przeciwko Azlaerowi, zniszczyli jego posiadłość, jego samego zabili, a harfę przeznaczyli do bardziej odpowiednich zadań.
+
+PARAMETRY:
+
+Specjalne:
+– Przełamanie strachu 
+Zasięg: 8 m 
+Obszar działania: w promieniu 10 m
+
+Waga: 6~
+@6009 = ~Harfa Methilda~
+@6010 = ~W dolinie odległej od najbardziej cywilizowanych ziem kiedyś znajdowało się maleńkie królestwo nazywane Chilldion. Pewnej zimy trójka złych wiedźm przejęła dolinę i uwięziła rodzinę królewską, rzucając na nią zaklęcia unieruchomienia. Planowały one po kolei pożreć członków rodziny. Później, tego wieczora, kiedy wiedźmy były zmęczone zabijaniem niewinnych i bezczeszczeniem pałacu, przyzwały nadwornego barda, aby im coś zagrał. Methild, lojalny swemu królowi i jego rodzinie, użył specjalnych mocy zaklętych w swej magicznej harfie. 
+Gdy grał, skupił się najpierw na królu. Wraz z kolejnymi nutami, słabło zaklęcie unieruchamiające i szlachetny władca powoli wyczołgał się z pomieszczenia. Methild uwalniał swych patronów jednego po drugim, ostrożnie starając się odwracać uwagę wiedźm. Aż w końcu, gdy cała rodzina została uwolniona, a bard nie był w stanie grać dalej, wiedźmy dostrzegły jego zdradę. Biedny Methild nie zdołał uciec i został zjedzony na kolację.
+
+PARAMETRY:
+
+Specjalne:
+– Trzy razy dziennie harfa może rozproszyć efekt unieruchomienia 
+Zasięg: 8 m 
+Obszar działania: 1 istota
+
+Waga: 6~
+@6011  = ~Bełt paraliżujący~
+@6012  = ~Cel trafiony tym bełtem musi wykonać rzut obronny albo zostanie sparaliżowany na 5 rund.
+
+STATYSTYKI:
+
+Specjalne:
+– Cel musi wykonać rzut obronny przeciw paraliżowi albo zostanie sparaliżowany na 5 rund
+
+Obrażenia: 1k10 (pociski)
+Wyrzutnia: kusza
+
+Waga: 1~
+@6100  = ~Mefit Dymu~
+@6101  = ~Wódz Sahuaginów~
+@6102  = ~Sahuagin~

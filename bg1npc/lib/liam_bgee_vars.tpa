@@ -47,6 +47,9 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
+    OUTER_SPRINT "tazokminhp" "MIHP1"
+    OUTER_SET firebeadstate1 = 3
+    OUTER_SET firebeadstate2 = 1
 
      //BGT Dialogues always appended, zero for Tutu and BG:EE
      OUTER_SET BGTBEDWINState0 = 0
@@ -353,8 +356,8 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "EBaldursGate_House6_L2" "AR0802"
     OUTER_SPRINT "EBaldursGate_MaltzWeaponShop_L1" "AR0803"
     OUTER_SPRINT "EBaldursGate_MaltzWeaponShop_L2" "AR0804"
-    OUTER_SPRINT "EBaldursGateARkionsHouse_L1" "AR0805"
-    OUTER_SPRINT "EBaldursGateARkionsHouse_L2" "AR0806"
+	OUTER_SPRINT "EBaldursGate_ArkionsHouse_L1" "AR0805"
+	OUTER_SPRINT "EBaldursGate_ArkionsHouse_L2" "AR0806"
     OUTER_SPRINT "EBaldursGate_Inn_L1" "AR0807"
     OUTER_SPRINT "EBaldursGate_Inn_L2" "AR0808"
     OUTER_SPRINT "EBaldursGate_SilencesShop" "AR0809"
@@ -599,7 +602,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "Nashkel_BelchingDragonTavern" "AR4809"
     OUTER_SPRINT "Nashkel_Garrison" "AR4810"
     OUTER_SPRINT "NashkelCarnival" "AR4900"
-    OUTER_SPRINT "NashkelCarnivalArmorTent" "AR4901"
+    OUTER_SPRINT "NashkelCarnival_ArmorTent" "AR4901"
     OUTER_SPRINT "NashkelCarnival_LotusTent" "AR4902"
     OUTER_SPRINT "NashkelCarnival_VitiaresTent" "AR4903"
     OUTER_SPRINT "NashkelCarnival_GamblingTent" "AR4904"

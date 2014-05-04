@@ -93,7 +93,7 @@ La pieza más grande, la de Gorion, dice atrás, escrito con la letra de Imoen::
 Seguramente  Imoen nunca será una gran joyera, pero el amuleto se mantiene bien unido y, obviamente, le tomó mucho tiempo el realizarlo. Y de todas formas, es un detalle muy bonito por su parte.~
 @21   = ~Caja de Safana~
 @22   = ~Esta caja, con una cerradura muy intrincada, pertenece a Safana. Es muy pesada y nadie sabe qué tiene dentro.~
-@23   = ~[GENERIC MALE INJURY 2]~ [%tutu_var%MANC04]
+@23   = ~[GENERIC MALE INJURY 2]~ [%tutu_var%MANCO04]
 @24   = ~Líder de la Caravana de los Bandidos~
 @25   = ~[FEMALE THREAT 5] Creo vais a estar criando malvas antes de que termine la noche.~ [%tutu_var%GENFT05]
 @26   = ~[FEMALE THREAT 2] Creo que acabaré con vuestra vida aquí mismo.~ [%tutu_var%GENFT02]
@@ -966,3 +966,6 @@ No permitido a:
 @638  = ~Diala~
 @639  = ~Blanco Doe~
 @640  = ~Mercenario~
+@700  = ~Jefe Sajuagín~
+@701  = ~Sajuagín~
+@702  = ~Mefit de Humo~

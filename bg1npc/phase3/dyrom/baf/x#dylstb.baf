@@ -48,6 +48,6 @@ THEN
         FadeToColor([20.0],0)
         Wait(3)
         EndCutSceneMode()
-        StartMovie("%tutu_var%NDCRDIT")
+        StartMovie("%tutu_scripte%NDCRDIT")
         EndCredits()
 END
