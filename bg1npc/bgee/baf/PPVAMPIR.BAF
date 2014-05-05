@@ -1,0 +1,24 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE) // SPIN964.SPL (No such index)
+END
+
+IF
+	HPLT(Myself,10)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE) // SPIN963.SPL (No such index)
+END
+
+IF
+	TimeGT(5)
+	TimeLT(DUSK_END)
+	AreaType(OUTDOOR)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE) // SPIN963.SPL (No such index)
+END
+
+
