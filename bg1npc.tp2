@@ -6106,6 +6106,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13ht.bmp~ ~override~
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13lm.bmp~ ~override~
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13sr.bmp~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13a.bam~ ~override~
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.are~ ~override~
     WRITE_ASCII 0x94 ~X#CH13~ #8
 
