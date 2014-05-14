@@ -418,6 +418,7 @@ ReputationGT(Player1,10)
 OR(2)
 Class(Player1,PALADIN_ALL)
 Class(Player1,RANGER_ALL)
+!Alignment(Player1,MASK_EVIL)
 THEN
 RESPONSE #100
 IncrementGlobal("X#SharGoodCheck","GLOBAL",1)

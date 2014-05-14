@@ -1,18 +1,3 @@
-/* Coran and his Wyverns */
-/*wyverns fix */
-REPLACE_TRIGGER_TEXT %CORAN_JOINED% ~[dD][eE][aA][dD](\"[wW][yY][vV][eE][rR][nN]\")~ ~Dead("X#CoranWyvern")~
-
-/* Replacing Globals in Coran's Wyvern Misadventure */
-REPLACE_STATE_TRIGGER %CORAN_JOINED% 6 ~Global("X#CoranWyvernWarning1","GLOBAL",1)~
-REPLACE_TRANS_ACTION %CORAN_JOINED% BEGIN 6 END BEGIN END ~SetGlobal("CoranWyvern","GLOBAL",1)~ ~SetGlobal("X#CoranWyvernWarning1","GLOBAL",2)~
-
-REPLACE_STATE_TRIGGER %CORAN_JOINED% 5 ~Global("X#CoranWyvernWarning2","GLOBAL",1)~
-REPLACE_TRANS_ACTION %CORAN_JOINED% BEGIN 5 END BEGIN END ~SetGlobal("CoranWyvern","GLOBAL",2)~ ~SetGlobal("X#CoranWyvernWarning2","GLOBAL",2)~
-
-ADD_STATE_TRIGGER _KELDDA 6 ~Dead("X#CoranWyvern")~
-
-ADD_STATE_TRIGGER %XAN_POST% 3 ~!Global("X#XARomanceActive","GLOBAL",2)~
-
 /* Cleaning J's of not conditionals */
 REPLACE_STATE_TRIGGER ~_AJANTJ~ 0 ~Global("AjantisLeave","GLOBAL",0) HappinessLT(Myself,-290)~
 REPLACE_STATE_TRIGGER ~_AJANTJ~ 1 ~Global("X#JCleanAjantis","GLOBAL",1)~

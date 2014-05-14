@@ -1,0 +1,588 @@
+IF
+	OR(2)
+		Allegiance(Myself,ENEMY)
+		InParty(Myself)
+	Delay(10)
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		Hide()
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	HaveSpell(WIZARD_VOCALIZE) // SPWI219.SPL (Vocalize)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_VOCALIZE) // SPWI219.SPL (Vocalize)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_INVISIBILITY) // SPWI206.SPL (Invisibility)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_INVISIBILITY) // SPWI206.SPL (Invisibility)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	OR(2)
+		StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+		StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	HaveSpell(WIZARD_MINOR_SPELL_DEFLECTION) // SPWI318.SPL (Minor Spell Deflection)
+	OR(4)
+		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+	!HasBounceEffects(Myself)
+	!HasImmunityEffects(Myself)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MINOR_SPELL_DEFLECTION) // SPWI318.SPL (Minor Spell Deflection)
+END
+
+IF
+	OR(4)
+		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+	HaveSpell(WIZARD_MINOR_SPELL_TURNING) // SPWI522.SPL (Minor Spell Turning)
+	!HasBounceEffects(Myself)
+	!HasImmunityEffects(Myself)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MINOR_SPELL_TURNING) // SPWI522.SPL (Minor Spell Turning)
+END
+
+IF
+	OR(4)
+		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+	HaveSpell(WIZARD_SPELL_SHIELD) // SPWI519.SPL (Spell Shield)
+	!HasBounceEffects(Myself)
+	!HasImmunityEffects(Myself)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPELL_SHIELD) // SPWI519.SPL (Spell Shield)
+END
+
+IF
+	OR(4)
+		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+	HaveSpell(WIZARD_SPELL_TURNING) // SPWI701.SPL (Spell Turning)
+	!HasBounceEffects(Myself)
+	!HasImmunityEffects(Myself)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPELL_TURNING) // SPWI701.SPL (Spell Turning)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN) // SPWI408.SPL (Stoneskin)
+	CheckStatLT(Myself,1,STONESKINS)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_STONE_SKIN) // SPWI408.SPL (Stoneskin)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPIRIT_ARMOR) // SPWI414.SPL (Spirit Armor)
+	CheckStatGT(Myself,1,ARMORCLASS)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPIRIT_ARMOR) // SPWI414.SPL (Spirit Armor)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GHOST_ARMOR) // SPWI317.SPL (Ghost Armor)
+	CheckStatGT(Myself,2,ARMORCLASS)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_GHOST_ARMOR) // SPWI317.SPL (Ghost Armor)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MIRROR_IMAGE) // SPWI212.SPL (Mirror Image)
+	!StateCheck(Myself,STATE_MIRRORIMAGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MIRROR_IMAGE) // SPWI212.SPL (Mirror Image)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SHIELD) // SPWI114.SPL (Shield)
+	CheckStatGT(Myself,4,ARMORCLASS)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SHIELD) // SPWI114.SPL (Shield)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ARMOR) // SPWI102.SPL (Armor)
+	CheckStatGT(Myself,6,ARMORCLASS)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_ARMOR) // SPWI102.SPL (Armor)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	HaveSpell(WIZARD_SPELL_THRUST) // SPWI321.SPL (Spell Thrust)
+	Global("pscript_SpellThrust","LOCALS",0)
+	OR(2)
+		HasBounceEffects(LastSeenBy(Myself))
+		HasImmunityEffects(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_SPELL_THRUST) // SPWI321.SPL (Spell Thrust)
+		Wait(2)
+		SetGlobal("pscript_SpellThrust","LOCALS",1)
+END
+
+IF
+	Global("pscript_SpellThrust","LOCALS",1)
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	OR(2)
+		HasBounceEffects(LastSeenBy(Myself))
+		HasImmunityEffects(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("pscript_SpellThrust","LOCALS",2)
+END
+
+IF
+	Global("pscript_SpellThrust","LOCALS",1)
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	!HasBounceEffects(LastSeenBy(Myself))
+	!HasImmunityEffects(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("pscript_SpellThrust","LOCALS",0)
+END
+
+IF
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	HaveSpell(WIZARD_WARDING_WHIP) // SPWI705.SPL (Khelben's Warding Whip)
+	Global("pscript_WHIP","LOCALS",0)
+	OR(2)
+		HasBounceEffects(LastSeenBy(Myself))
+		HasImmunityEffects(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_WARDING_WHIP) // SPWI705.SPL (Khelben's Warding Whip)
+		Wait(2)
+		SetGlobal("pscript_WHIP","LOCALS",1)
+END
+
+IF
+	Global("pscript_WHIP","LOCALS",1)
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	OR(2)
+		HasBounceEffects(LastSeenBy(Myself))
+		HasImmunityEffects(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("pscript_WHIP","LOCALS",2)
+END
+
+IF
+	Global("pscript_WHIP","LOCALS",1)
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	!HasBounceEffects(LastSeenBy(Myself))
+	!HasImmunityEffects(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("pscript_WHIP","LOCALS",0)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPGT(LastSeenBy(Myself),30)
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_MAZE) // SPWI813.SPL (Maze)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAZE) // SPWI813.SPL (Maze)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_CONE_OF_COLD) // SPWI503.SPL (Cone of Cold)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CONE_OF_COLD) // SPWI503.SPL (Cone of Cold)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),30)
+	HaveSpell(WIZARD_ICE_STORM) // SPWI404.SPL (Ice Storm)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_ICE_STORM) // SPWI404.SPL (Ice Storm)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),30)
+	HaveSpell(WIZARD_CLOUDKILL) // SPWI502.SPL (Cloudkill)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CLOUDKILL) // SPWI502.SPL (Cloudkill)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),20)
+	HaveSpell(WIZARD_FIREBALL) // SPWI304.SPL (Fireball)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_FIREBALL) // SPWI304.SPL (Fireball)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),30)
+	HaveSpell(WIZARD_DEATH_FOG) // SPWI614.SPL (Death Fog)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_DEATH_FOG) // SPWI614.SPL (Death Fog)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	!General(LastSeenBy(Myself),HUMANOID)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	HaveSpell(WIZARD_HOLD_MONSTER) // SPWI507.SPL (Hold Monster)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_HOLD_MONSTER) // SPWI507.SPL (Hold Monster)
+		Continue()
+END
+
+IF
+	HaveSpell(WIZARD_DEATH_SPELL) // SPWI605.SPL (Death Spell)
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	NumCreatureVsPartyGT([ENEMY],4)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_DEATH_SPELL) // SPWI605.SPL (Death Spell)
+		Continue()
+END
+
+IF
+	HaveSpell(WIZARD_EMOTION_HOPELESSNESS) // SPWI411.SPL (Emotion: Hopelessness)
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	NumCreatureVsPartyGT([ENEMY],3)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_EMOTION_HOPELESSNESS) // SPWI411.SPL (Emotion: Hopelessness)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPGT(LastSeenBy(Myself),20)
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_DISINTEGRATE) // SPWI616.SPL (Disintegrate)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_DISINTEGRATE) // SPWI616.SPL (Disintegrate)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_BURNING_HANDS) // SPWI103.SPL (Burning Hands)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_BURNING_HANDS) // SPWI103.SPL (Burning Hands)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	LevelLT(LastSeenBy(Myself),8)
+	HaveSpell(WIZARD_COLOR_SPRAY) // SPWI105.SPL (Color Spray)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_COLOR_SPRAY) // SPWI105.SPL (Color Spray)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	HaveSpell(WIZARD_SLEEP) // SPWI116.SPL (Sleep)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_SLEEP) // SPWI116.SPL (Sleep)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_CHROMATIC_ORB) // SPWI118.SPL (Chromatic Orb)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CHROMATIC_ORB) // SPWI118.SPL (Chromatic Orb)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN) // SPWI119.SPL (Larloch's Minor Drain)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_LARLOCH_MINOR_DRAIN) // SPWI119.SPL (Larloch's Minor Drain)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_BLINDNESS) // SPWI106.SPL (Blindness)
+	!StateCheck(LastSeenBy(Myself),STATE_BLIND)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_BLINDNESS) // SPWI106.SPL (Blindness)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	General(LastSeenBy(Myself),HUMANOID)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	HaveSpell(WIZARD_CHARM_PERSON) // SPWI104.SPL (Charm Person)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CHARM_PERSON) // SPWI104.SPL (Charm Person)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_AGANNAZAR_SCORCHER) // SPWI217.SPL (Agannazar's Scorcher)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_AGANNAZAR_SCORCHER) // SPWI217.SPL (Agannazar's Scorcher)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_MELF_ACID_ARROW) // SPWI211.SPL (Melf's Acid Arrow)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_MELF_ACID_ARROW) // SPWI211.SPL (Melf's Acid Arrow)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_RAY_OF_ENFEEBLEMENT) // SPWI221.SPL (Ray of Enfeeblement)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_RAY_OF_ENFEEBLEMENT) // SPWI221.SPL (Ray of Enfeeblement)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STRENGTH) // SPWI214.SPL (Strength)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_STRENGTH) // SPWI214.SPL (Strength)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_FLAME_ARROW) // SPWI303.SPL (Flame Arrow)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_FLAME_ARROW) // SPWI303.SPL (Flame Arrow)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_LIGHTNING_BOLT) // SPWI308.SPL (Lightning Bolt)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_LIGHTNING_BOLT) // SPWI308.SPL (Lightning Bolt)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_POLYMORPH_OTHER) // SPWI415.SPL (Polymorph Other)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_POLYMORPH_OTHER) // SPWI415.SPL (Polymorph Other)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_FLESH_TO_STONE) // SPWI604.SPL (Flesh to Stone)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_FLESH_TO_STONE) // SPWI604.SPL (Flesh to Stone)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_IMPROVED_HASTE) // SPWI613.SPL (Improved Haste)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_IMPROVED_HASTE) // SPWI613.SPL (Improved Haste)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	OR(2)
+		StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+		StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),5)
+	Range(LastSeenBy(Myself),20)
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastSeenBy(Myself),10)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),5)
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),20)
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+		Continue()
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	Range(LastAttackerOf(Myself),4)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+		Continue()
+END
+
+

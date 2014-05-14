@@ -1,0 +1,142 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_BARKSKIN) // SPPR202.SPL (Barkskin)
+		ApplySpell(Myself,CLERIC_IRONSKIN) // SPPR506.SPL (Iron Skins)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_BLESS) // SPPR101.SPL (Bless)
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_BLESS) // SPPR101.SPL (Bless)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	AreaType(OUTDOOR)
+	HaveSpell(CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+	Global("didOnce","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+		SetGlobal("didOnce","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ANIMAL_SUMMONING_2) // SPPR501.SPL (Animal Summoning II)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ANIMAL_SUMMONING_2) // SPPR501.SPL (Animal Summoning II)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HaveSpell(CLERIC_MASS_CURE) // SPPR514.SPL (Mass Cure)
+	HPPercentLT(Myself,80)
+	OR(3)
+		HPPercentLT(LastSeenBy(Myself),80)
+		HPPercentLT(SecondNearestMyGroupOfType,80)
+		HPPercentLT(ThirdNearestMyGroupOfType,80)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MASS_CURE) // SPPR514.SPL (Mass Cure)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_WOODLAND_BEINGS) // SPPR410.SPL (Call Woodland Beings)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CALL_WOODLAND_BEINGS) // SPPR410.SPL (Call Woodland Beings)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	AreaType(OUTDOOR)
+	HaveSpell(CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_INVISIBILITY_PURGE) // SPPR309.SPL (Invisibility Purge)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_INVISIBILITY_PURGE) // SPPR309.SPL (Invisibility Purge)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHARM_PERSON) // SPPR204.SPL (Charm Person or Mammal)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON) // SPPR204.SPL (Charm Person or Mammal)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),10)
+	HaveSpell(CLERIC_HEAL) // SPPR607.SPL (Heal)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_HEAL) // SPPR607.SPL (Heal)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,10)
+	HaveSpell(CLERIC_HEAL) // SPPR607.SPL (Heal)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_HEAL) // SPPR607.SPL (Heal)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_BLADE) // SPPR206.SPL (Flame Blade)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE) // SPPR206.SPL (Flame Blade)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+

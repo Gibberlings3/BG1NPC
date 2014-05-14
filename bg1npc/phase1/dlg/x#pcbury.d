@@ -1,6 +1,6 @@
 
 EXTEND_BOTTOM ~%tutu_var%KEEPER~ 2
-IF ~!InParty("imoen") Global("X#GorionBuried","GLOBAL",0) Global("X#PCAloneKeeperStart","GLOBAL",0)~ THEN GOTO X#PCAloneKeeper
+IF ~!InParty("%IMOEN_DV%") Global("X#GorionBuried","GLOBAL",0) Global("X#PCAloneKeeperStart","GLOBAL",0)~ THEN GOTO X#PCAloneKeeper
 END
 
 CHAIN ~%tutu_var%KEEPER~ X#PCAloneKeeper

@@ -233,13 +233,6 @@ ADD_TRANS_ACTION BDYNA BEGIN 15 END BEGIN END ~SetGlobal("X#BIODY6","LOCALS",1)~
 ADD_TRANS_ACTION BDYNA BEGIN 16 END BEGIN END ~SetGlobal("X#BIODY7","LOCALS",1)~
 
 /* CORAN */
-
-/*wyverns fix */
-REPLACE_TRIGGER_TEXT %CORAN_JOINED% ~!Dead("Wyvern")~ ~!Dead("X#CoranWyvern")~
-REPLACE_STATE_TRIGGER %CORAN_JOINED% 0 ~Dead("X#CoranWyvern") Global("CoranReward","GLOBAL",0) Global("wyvernp","GLOBAL",0) PartyHasItem("%tutu_var%MISC52")~ 
-
-ADD_STATE_TRIGGER %tutu_var%KELDDA 6 ~Dead("X#CoranWyvern")~
-
 REPLACE_STATE_TRIGGER BCORAN %BGTBCORANState0% ~InteractingWith("safana") GlobalLT("endofbg1","GLOBAL",2) RandomNum(9,1) Global("X#BIOCO1","LOCALS",0)~
 REPLACE_STATE_TRIGGER BCORAN %BGTBCORANState1% ~InteractingWith("safana") GlobalLT("endofbg1","GLOBAL",2) RandomNum(9,2) Global("X#BIOCO2","LOCALS",0)~
 REPLACE_STATE_TRIGGER BCORAN %BGTBCORANState2% ~InteractingWith("safana") GlobalLT("endofbg1","GLOBAL",2) RandomNum(9,3) Global("X#BIOCO3","LOCALS",0)~

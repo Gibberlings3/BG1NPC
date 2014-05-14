@@ -1,0 +1,84 @@
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ARMOR_OF_FAITH) // SPPR111.SPL (Armor of Faith)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ARMOR_OF_FAITH) // SPPR111.SPL (Armor of Faith)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ENTANGLE) // SPPR105.SPL (Entangle)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_ENTANGLE) // SPPR105.SPL (Entangle)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_POISON) // SPPR411.SPL (Poison)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_POISON) // SPPR411.SPL (Poison)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SUMMON_INSECTS) // SPPR319.SPL (Summon Insects)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_SUMMON_INSECTS) // SPPR319.SPL (Summon Insects)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHARM_PERSON) // SPPR204.SPL (Charm Person or Mammal)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON) // SPPR204.SPL (Charm Person or Mammal)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Cure Serious Wounds)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+
