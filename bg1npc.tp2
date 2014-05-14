@@ -1668,7 +1668,8 @@ END // of A_I G_I Tutu, BGT
   	BUT_ONLY_IF_IT_CHANGES
   END
   
-  /* Only on Tutu or BGT until we recheck BG:EE stores */
+  /* Only on Tutu or BGT until we recheck BG:EE stores 
+     AstroBryGuy: Works in BGEE with update to SPELDESC.2DA */
   // ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
 
     /* CamDawg's Temple Healing Fix */
@@ -1858,9 +1859,10 @@ END // of A_I G_I Tutu, BGT
   END
 
   /* BG:EE repeating dialogues block other talks */
-//
-//   PLACEHOLDER - NEEDS CHECKING AND CONSTRUCTION
-//
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+    /* Stop Bioware dialogues repeating, fixes DLG */
+    COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#bgreplace_bgee.D~
+  END
 
   /* custom cutspy.cre for BG1NPC code */
   COPY ~BG1NPC/Core/CRE/x#cutspy.cre~ ~override/x#cutspy.cre~
@@ -1975,13 +1977,15 @@ END
     COMPILE_BAF_TO_BCS
   BUT_ONLY_IF_IT_CHANGES
   
-  /* Stop Viconia's Potential Script Stutter on Tutu */
+  /* Stop Viconia's Potential Script Stutter on Tutu - fix already in BGEE */
   /* scripts */
-  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
-    COMPILE_BAF_TO_BCS
-  BUT_ONLY_IF_IT_CHANGES
+  ACTION_IF !(GAME_IS ~bgee~) THEN BEGIN
+	  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
+    	DECOMPILE_BCS_TO_BAF
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
+	    COMPILE_BAF_TO_BCS
+  	  BUT_ONLY_IF_IT_CHANGES
+  END
   
   /* Make Tazok Killable */
   /* scripts */
@@ -2028,7 +2032,15 @@ END
   /* Fixing Coran's Wyvern script */
   EXTEND_TOP ~%CORAN_BCS%.bcs~ ~BG1NPC/Core/baf/X#CORWYV.BAF~
      EVALUATE_BUFFER
-  /* the remainder of Coran's fixes are in core/dlg under Tutu and BGT .d files */
+
+  /* Fix Coran's dialog files */
+  ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
+  	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_tutubgee.d~
+  END
+  
+  ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_bgt.d~
+  END
   
   /* removing Kivan's timer to leave party */
   COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
@@ -2609,7 +2621,7 @@ BEGIN @1007
     SAY DYING @560
     SAY SELECT_COMMON1 @561
     SAY DIALOGUE_DEFAULT @561
-    WRITE_ASCII 0x250 ~%tutu_var%priest3~ #8 /* Class script */
+    WRITE_ASCIIE 0x250 ~%tutu_var%priest3~ #8 /* Class script */
     ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
     ADD_CRE_ITEM ~shld04~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan02~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
@@ -2632,7 +2644,7 @@ BEGIN @1007
     SAY SELECT_COMMON1 @476
     SAY DIALOGUE_DEFAULT @476
     WRITE_ASCII 0x248 ~x#karris~ #8  // override
-    WRITE_ASCII 0x250 ~%tutu_var%thief4~ #8  // Class script
+    WRITE_ASCIIE 0x250 ~%tutu_var%thief4~ #8  // Class script
     WRITE_ASCII 0x2cc ~x#karris~ #8  // dialogue
     WRITE_ASCII 0x280 ~x#karris~ #32 // DV
     ADD_CRE_ITEM ~sw1h05~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
@@ -3770,6 +3782,7 @@ BEGIN @1007
     SAY SELECT_COMMON2 @746
     SAY SELECT_COMMON3 @748
     WRITE_ASCII 0x248 ~X#IHTIA~ #8 //  override script
+    WRITE_ASCII SCRIPT_CLASS ~x#gpsht~ #8 // class script
     WRITE_ASCII 0x2CC ~X#IHTIA~ #8 //  dialog
     WRITE_ASCII 0x280 ~seasnake~ #32 //  death variable
     ADD_CRE_ITEM ~SW2H01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
@@ -3799,7 +3812,8 @@ BEGIN @1007
     	SAY SELECT_COMMON3 @270
     	SAY SELECT_COMMON4 @271
     END
-   LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+	WRITE_ASCII SCRIPT_CLASS ~x#gpsht~ #8 // class script
+	LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   /* Sahuagin */
   COPY ~BG1NPC/Phase2/cre/x#saha01.cre~ ~override~
@@ -5196,13 +5210,23 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   COPY ~BG1NPC/Phase3/AJROM/cre/x#ajdoug.cre~ ~override~ // Douglas
     SAY NAME1 @481
     SAY NAME2 @481
-    SAY INITIAL_MEETING @482
-    SAY BATTLE_CRY1 @483
-    SAY DAMAGE @484
-    SAY DYING @485
-    SAY SELECT_COMMON1 @486
-    SAY SELECT_COMMON2 @482
-    SAY SELECT_ACTION4 @487
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use MAINM soundset */
+    	SAY INITIAL_MEETING @774
+    	SAY BATTLE_CRY1 @772
+    	SAY DAMAGE @775
+    	SAY DYING @776
+    	SAY SELECT_COMMON1 @773
+    	SAY SELECT_COMMON2 @774
+	END ELSE BEGIN /* Tutu, BGT */
+    	SAY INITIAL_MEETING @482
+    	SAY BATTLE_CRY1 @483
+    	SAY DAMAGE @484
+    	SAY DYING @485
+    	SAY SELECT_COMMON1 @486
+    	SAY SELECT_COMMON2 @482
+    	SAY SELECT_ACTION4 @487
+    END
 
   /* Ajantis' romance timer */
   PRINT @1117
@@ -5271,9 +5295,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~BG1NPC/Phase3/AJROM/baf/X#AjantisIniFlirts.baf~
     EVALUATE_BUFFER
 
-  /* BGT compatability macro */
-  /* INCLUDE ~BG1NPC/LIB/macro_tutu_items_to_bgt.tph~ */
-
+  /* BGT, BGEE compatability macro */
   ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
   	COPY_EXISTING ~x#ajdoug.cre~ ~override~
         PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
@@ -5361,6 +5383,7 @@ BEGIN @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   COPY_EXISTING ~%tutu_var%girba2.cre~ ~override/x#namara.cre~
     SAY NAME1 @216
     SAY NAME2 @216
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY INITIAL_MEETING @395
     SAY DAMAGE @396
     SAY DYING @397
@@ -5446,6 +5469,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#joni.cre~ ~override~
     SAY NAME1 @400
     SAY NAME2 @400
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY BATTLE_CRY1 @401
     SAY BATTLE_CRY2 @402
     SAY DAMAGE @403
@@ -5457,16 +5481,30 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#bodhi.cre~ ~override~
     SAY NAME1 @407
     SAY NAME2 @407
-    SAY BATTLE_CRY1 @408
-    SAY BATTLE_CRY2 @409
-    SAY DAMAGE @410
-    SAY DYING @411
-    SAY SELECT_COMMON1 @412
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    /* Use VAMPF soundset for BGEE */
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+	    SAY INITIAL_MEETING @713
+    	SAY BATTLE_CRY1 @714
+    	SAY ATTACK1 @715
+    	SAY ATTACK2 @716
+    	SAY DAMAGE @718
+    	SAY DYING @719
+    	SAY SELECT_COMMON1 @713
+    	SAY SELECT_COMMON2 @717
+	END ELSE BEGIN /* For Tutu, BGT */
+    	SAY BATTLE_CRY1 @408
+    	SAY BATTLE_CRY2 @409
+    	SAY DAMAGE @410
+   		SAY DYING @411
+   		SAY SELECT_COMMON1 @412
+   	END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#lassa.cre~ ~override~
     SAY NAME1 @413
     SAY NAME2 @413
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPP soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
 	    SAY INITIAL_MEETING @706
@@ -5494,6 +5532,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#tanov.cre~ ~override~
     SAY NAME1 @423
     SAY NAME2 @423
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
 	    SAY INITIAL_MEETING @713
@@ -5521,6 +5560,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#valen.cre~ ~override~
     SAY NAME1 @432
     SAY NAME2 @432
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
 	    SAY INITIAL_MEETING @713
@@ -5558,6 +5598,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#nell.cre~ ~override~
     SAY NAME1 @439
     SAY NAME2 @439
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY INITIAL_MEETING @440
     SAY BATTLE_CRY1 @441
     SAY BATTLE_CRY2 @441
@@ -5569,13 +5610,12 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DAMAGE @37
     SAY DYING @38
     SAY SELECT_COMMON1 @442
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#madr.cre~ ~override~
     SAY NAME1 @443
     SAY NAME2 @443
-    WRITE_LONG INITIAL_MEETING (BNOT 0x0)
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY BATTLE_CRY1 @444
     SAY BATTLE_CRY2 @444
     SAY BATTLE_CRY3 @444
@@ -5587,13 +5627,12 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DYING @446
     SAY SELECT_COMMON1 @447
     SAY SELECT_COMMON2 @447
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#bhet.cre~ ~override~
     SAY NAME1 @448
     SAY NAME2 @448
-    WRITE_LONG INITIAL_MEETING (BNOT 0x0)
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY BATTLE_CRY1 @449
     SAY BATTLE_CRY2 @449
     SAY BATTLE_CRY3 @449
@@ -5604,13 +5643,12 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DAMAGE @450
     SAY DYING @451
     SAY SELECT_COMMON1 @452
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_LONG PICKED_POCKET (BNOT 0x0)
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~BG1NPC/Phase3/DYROM/cre/x#sveet.cre~ ~override~
     SAY NAME1 @453
     SAY NAME2 @453
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY INITIAL_MEETING @454
     SAY BATTLE_CRY1 @449
     SAY BATTLE_CRY2 @449
@@ -5627,15 +5665,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#dfake1.cre~ ~override~
     SAY NAME1 @456
     SAY NAME2 @456
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY INITIAL_MEETING @457
-    WRITE_LONG MORALE (BNOT 0x0)
-    WRITE_LONG HAPPY (BNOT 0x0)
-    WRITE_LONG UNHAPPY_ANNOYED (BNOT 0x0)
-    WRITE_LONG UNHAPPY_SERIOUS (BNOT 0x0)
-    WRITE_LONG UNHAPPY_BREAKING (BNOT 0x0)
-    WRITE_LONG LEADER (BNOT 0x0)
-    WRITE_LONG TIRED (BNOT 0x0)
-    WRITE_LONG BORED (BNOT 0x0)
     SAY BATTLE_CRY1 @458
     SAY BATTLE_CRY2 @458
     SAY BATTLE_CRY3 @458
@@ -5645,12 +5676,6 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY ATTACK2 @458
     SAY DAMAGE @459
     SAY DYING @460
-    WRITE_LONG HURT (BNOT 0x0)
-    WRITE_LONG AREA_FOREST (BNOT 0x0)
-    WRITE_LONG AREA_CITY (BNOT 0x0)
-    WRITE_LONG AREA_DUNGEON (BNOT 0x0)
-    WRITE_LONG AREA_DAY (BNOT 0x0)
-    WRITE_LONG AREA_NIGHT (BNOT 0x0)
     SAY SELECT_COMMON1 @461
     SAY SELECT_COMMON2 @461
     SAY SELECT_COMMON3 @461
@@ -5664,22 +5689,6 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY SELECT_ACTION5 @461
     SAY SELECT_ACTION6 @461
     SAY SELECT_ACTION7 @461
-    WRITE_LONG INTERACTION1 (BNOT 0x0)
-    WRITE_LONG INTERACTION2 (BNOT 0x0)
-    WRITE_LONG INTERACTION3 (BNOT 0x0)
-    WRITE_LONG INTERACTION4 (BNOT 0x0)
-    WRITE_LONG INTERACTION5 (BNOT 0x0)
-    WRITE_LONG INSULT (BNOT 0x0)
-    WRITE_LONG COMPLIMENT1 (BNOT 0x0)
-    WRITE_LONG COMPLIMENT3 (BNOT 0x0)
-    WRITE_LONG SPECIAL1 (BNOT 0x0)
-    WRITE_LONG REACT_TO_DIE_GENERAL (BNOT 0x0)
-    WRITE_LONG REACT_TO_DIE_SPECIFIC (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_COMPLIMENT2 (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_COMPLIMENT3 (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_INSULT1 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE1 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE2 (BNOT 0x0)
     WRITE_LONG BIO (BNOT 0x0)
     WRITE_ASCII 0x248 ~X#DYNA~ #8 //  override script
     WRITE_ASCII 0x280 ~dynacutscene~ #32 //  death variable
@@ -5694,6 +5703,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase3/DYROM/cre/x#setta.cre~ ~override~
     SAY NAME1 @462
     SAY NAME2 @462
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FEMER soundset not in BGEE.  Use other general female sounds */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
     	SAY INITIAL_MEETING @442
@@ -5708,9 +5718,6 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     	SAY SELECT_COMMON1 @466
     	SAY SELECT_COMMON2 @467
     END
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_LONG SELECT_RARE1 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE2 (BNOT 0x0)
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
       PATCH_IF GAME_IS ~bgee bgt~ BEGIN
@@ -5773,10 +5780,18 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
 
   /* Items for Dynaheir romance endgame cutscene */
   	COPY ~bg1npc/bgee/itm/minhp20.itm~ ~override~   /* For x#bodhi */
-	COPY ~bg1npc/bgee/itm/vamp3.itm~ ~override~     /* For x#bodhi */
-	COPY ~bg1npc/bgee/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
 	COPY ~bg1npc/bgee/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
 	COPY ~bg1npc/bgee/itm/vamp1.itm~ ~override~     /* For x#valen */
+	COPY ~bg1npc/bgee/itm/vamp2.itm~ ~override~     /* For x#tanov */
+	COPY ~bg1npc/bgee/itm/vamp3.itm~ ~override~     /* For x#bodhi */
+	COPY ~bg1npc/bgee/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
+	
+	/* Soundset for x#joni */
+	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
+	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
+	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
+	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
+	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
   END
   
   /* Dynaheir's romance timer */
@@ -5853,11 +5868,6 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#EDCUT2.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#EDCUT3.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#EDCUT4.BAF~
-
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* Add BG2 scripts missing from BGEE */
-  	COMPILE ~bg1npc/bgee/baf/ppvampir.baf~ /* For Arel/x#bodhi */
-  	COMPILE ~bg1npc/bgee/baf/vampir01.baf~ /* For x#cutva[1-4] */
-  END
 
   /* NPC Reactions Scripts */
   EXTEND_TOP  ~%CORAN_BCS%.BCS~ ~BG1NPC/Phase3/DYROM/baf/X#DYCORE.baf~
@@ -6032,7 +6042,6 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
 BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  /* AstroBryGuy: Area files are currently broken for BGEE - x#CH12.are and x#CH13.are rely on BG2 area files. */
   REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#FemaleRomChal.G3~
@@ -6068,6 +6077,14 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   END
   
   /* Dragon Area 1 */
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.MOS~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.TIS~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.WED~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12AM.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12an.wav~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12ht.bmp~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12lm.bmp~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12sr.bmp~ ~override~
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.are~ ~override~
     WRITE_ASCII 0x94 ~X#ARCH12~
 
@@ -6076,6 +6093,19 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     WRITE_ASCII 0x94 ~X#CH14~ #8
 
   /* Suldanessellar Area */
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.MOS~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.TIS~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.WED~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13AM.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c1.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c2.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c3.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c4.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c5.WAV~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13ab.wav~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13ht.bmp~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13lm.bmp~ ~override~
+  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13sr.bmp~ ~override~
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.are~ ~override~
     WRITE_ASCII 0x94 ~X#CH13~ #8
 
@@ -6096,6 +6126,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#maste.cre~ ~override/x#maste.cre~
     SAY NAME1 @491
     SAY NAME2 @492
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY INITIAL_MEETING @493
     SAY UNHAPPY_BREAKING @494
     SAY BATTLE_CRY1 @495
@@ -6112,6 +6143,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
        ~BG1NPC/Phase3/CHALLENGE/cre/x#xvart.cre~ ~override/x#xvart2.cre~
     SAY NAME1 @501
     SAY NAME2 @501
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY BATTLE_CRY1 @502
     SAY BATTLE_CRY2 @502
     SAY BATTLE_CRY3 @502
@@ -6130,15 +6162,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#corafi.cre~ ~override~
     SAY NAME1 @509
     SAY NAME2 @509
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY INITIAL_MEETING @510
     SAY MORALE @511
-    WRITE_LONG HAPPY (BNOT 0x0)
-    WRITE_LONG UNHAPPY_ANNOYED (BNOT 0x0)
-    WRITE_LONG UNHAPPY_SERIOUS (BNOT 0x0)
     SAY UNHAPPY_BREAKING @511
-    WRITE_LONG  LEADER (BNOT 0x0)
-    WRITE_LONG  TIRED (BNOT 0x0)
-    WRITE_LONG  BORED (BNOT 0x0)
     SAY BATTLE_CRY1 @510
     SAY BATTLE_CRY2 @512
     SAY BATTLE_CRY3 @512
@@ -6149,17 +6176,11 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DAMAGE @513
     SAY DYING @514
     SAY HURT @515
-    WRITE_LONG AREA_FOREST (BNOT 0x0)
-    WRITE_LONG AREA_CITY (BNOT 0x0)
-    WRITE_LONG AREA_DUNGEON (BNOT 0x0)
-    WRITE_LONG AREA_DAY (BNOT 0x0)
-    WRITE_LONG AREA_NIGHT (BNOT 0x0)
     SAY SELECT_COMMON1 @516
     SAY SELECT_COMMON2 @517
     SAY SELECT_COMMON3 @518
     SAY SELECT_COMMON4 @516
     SAY SELECT_COMMON5 @516
-    WRITE_LONG SELECT_COMMON6 (BNOT 0x0)
     SAY SELECT_ACTION1 @510
     SAY SELECT_ACTION2 @510
     SAY SELECT_ACTION3 @510
@@ -6167,22 +6188,6 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_ACTION5 @510
     SAY SELECT_ACTION6 @510
     SAY SELECT_ACTION7 @510
-    WRITE_LONG INTERACTION1 (BNOT 0x0)
-    WRITE_LONG INTERACTION2 (BNOT 0x0)
-    WRITE_LONG INTERACTION3 (BNOT 0x0)
-    WRITE_LONG INTERACTION4 (BNOT 0x0)
-    WRITE_LONG INTERACTION5 (BNOT 0x0)
-    WRITE_LONG COMPLIMENT1 (BNOT 0x0)
-    WRITE_LONG COMPLIMENT2 (BNOT 0x0)
-    WRITE_LONG COMPLIMENT3 (BNOT 0x0)
-    WRITE_LONG REACT_TO_DIE_GENERAL (BNOT 0x0)
-    WRITE_LONG REACT_TO_DIE_SPECIFIC (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_COMPLIMENT2 (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_INSULT1 (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_INSULT2 (BNOT 0x0)
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_LONG SELECT_RARE1 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE2 (BNOT 0x0)
     WRITE_LONG BIO (BNOT 0x0)
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
@@ -6195,15 +6200,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajanfi.cre~ ~override/x#ajanfi.cre~
     SAY NAME1 @519
     SAY NAME2 @519
-    WRITE_LONG INITIAL_MEETING (BNOT 0x0)
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY MORALE @520
-    WRITE_LONG HAPPY (BNOT 0x0)
-    WRITE_LONG UNHAPPY_ANNOYED (BNOT 0x0)
-    WRITE_LONG UNHAPPY_SERIOUS (BNOT 0x0)
-    WRITE_LONG UNHAPPY_BREAKING (BNOT 0x0)
-    WRITE_LONG LEADER (BNOT 0x0)
-    WRITE_LONG TIRED (BNOT 0x0)
-    WRITE_LONG BORED (BNOT 0x0)
     SAY BATTLE_CRY1 @521
     SAY BATTLE_CRY2 @522
     SAY BATTLE_CRY3 @522
@@ -6214,11 +6212,6 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY DAMAGE @525
     SAY DYING @526
     SAY HURT @527
-    WRITE_LONG AREA_FOREST (BNOT 0x0)
-    WRITE_LONG AREA_CITY (BNOT 0x0)
-    WRITE_LONG AREA_DUNGEON (BNOT 0x0)
-    WRITE_LONG AREA_DAY (BNOT 0x0)
-    WRITE_LONG AREA_NIGHT (BNOT 0x0)
     SAY SELECT_COMMON1 @528
     SAY SELECT_COMMON2 @529
     SAY SELECT_COMMON3 @530
@@ -6227,27 +6220,6 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_COMMON6 @523
     SAY SELECT_ACTION1 @528
     SAY SELECT_ACTION2 @532
-    WRITE_LONG SELECT_ACTION3 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION4 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION5 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION6 (BNOT 0x0)
-    WRITE_LONG SELECT_ACTION7 (BNOT 0x0)
-    WRITE_LONG INTERACTION1 (BNOT 0x0)
-    WRITE_LONG INTERACTION2 (BNOT 0x0)
-    WRITE_LONG INTERACTION3 (BNOT 0x0)
-    WRITE_LONG INTERACTION4 (BNOT 0x0)
-    WRITE_LONG INTERACTION5 (BNOT 0x0)
-    WRITE_LONG INSULT (BNOT 0x0)
-    WRITE_LONG COMPLIMENT1 (BNOT 0x0)
-    WRITE_LONG SPECIAL1 (BNOT 0x0)
-    WRITE_LONG REACT_TO_DIE_GENERAL (BNOT 0x0)
-    WRITE_LONG REACT_TO_DIE_SPECIFIC (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_COMPLIMENT2 (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_INSULT1 (BNOT 0x0)
-    WRITE_LONG RESPONSE_TO_INSULT2 (BNOT 0x0)
-    WRITE_LONG DIALOGUE_HOSTILE (BNOT 0x0)
-    WRITE_LONG SELECT_RARE1 (BNOT 0x0)
-    WRITE_LONG SELECT_RARE2 (BNOT 0x0)
     WRITE_LONG BIO (BNOT 0x0)
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
     WRITE_ASCII 0x2CC ~~ #8 //  dialog
@@ -6261,21 +6233,42 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#elhan.cre~ ~override/x#elhan.cre~
     SAY NAME1 @533
     SAY NAME2 @533
-    SAY BATTLE_CRY1 @534
-    SAY BATTLE_CRY2 @535
-    SAY DAMAGE @536
-    SAY DYING @537
-    SAY SELECT_COMMON1 @538
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    /* ELHAN soundset not in BGEE.  Use ELFFF soundset */
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    	SAY INITIAL_MEETING @724
+    	SAY BATTLE_CRY1 @726
+    	SAY DAMAGE @727
+    	SAY DYING @728
+    	SAY SELECT_COMMON1 @724
+    	SAY SELECT_COMMON2 @725
+	END ELSE BEGIN /* Tutu, BGT */
+    	SAY BATTLE_CRY1 @534
+    	SAY BATTLE_CRY2 @535
+    	SAY DAMAGE @536
+    	SAY DYING @537
+    	SAY SELECT_COMMON1 @538
+    END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#elles.cre~ ~override/x#elles.cre~
     SAY NAME1 @539
     SAY NAME2 @539
-    SAY BATTLE_CRY1 @540
-    SAY BATTLE_CRY2 @541
-    SAY DAMAGE @542
-    SAY DYING @543
-    SAY SELECT_COMMON1 @544
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    /* ELLESI soundset not in BGEE.  Use FELFF soundset */
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    	SAY INITIAL_MEETING @720
+    	SAY DAMAGE @721
+    	SAY DYING @722
+    	SAY SELECT_COMMON1 @723
+    	SAY SELECT_COMMON2 @720
+	END ELSE BEGIN /* Tutu, BGT */
+    	SAY BATTLE_CRY1 @540
+    	SAY BATTLE_CRY2 @541
+    	SAY DAMAGE @542
+    	SAY DYING @543
+    	SAY SELECT_COMMON1 @544
+    END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
@@ -6283,36 +6276,86 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
     SAY NAME1 @545
     SAY NAME2 @545
+	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+	SAY BATTLE_CRY1 @779
+	SAY BATTLE_CRY2 @780
+	SAY ATTACK1 @781
+	SAY ATTACK2 @782
+	SAY ATTACK3 @783	
+    SAY DAMAGE @784
+    SAY DYING @785
+    SAY SELECT_COMMON1 @777
+    SAY SELECT_COMMON2 @778
+    SAY PICKED_POCKET @786
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrre.cre~ ~override/x#ajdrre.cre~
     SAY NAME1 @546
     SAY NAME2 @546
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+	SAY BATTLE_CRY1 @779
+	SAY BATTLE_CRY2 @780
+	SAY ATTACK1 @781
+	SAY ATTACK2 @782
+	SAY ATTACK3 @783	
+    SAY DAMAGE @784
+    SAY DYING @785
+    SAY SELECT_COMMON1 @777
+    SAY SELECT_COMMON2 @778
+    SAY PICKED_POCKET @786
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#cautz.cre~
     SAY NAME1 @547
     SAY NAME2 @547
-    SAY BATTLE_CRY1 @548
-    SAY BATTLE_CRY2 @549
-    SAY DAMAGE @549
-    SAY DYING @551
-    SAY SELECT_COMMON1 @552
-    WRITE_LONG PICKED_POCKET (BNOT 0x0)
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+		SAY BATTLE_CRY1 @779
+		SAY BATTLE_CRY2 @780
+		SAY ATTACK1 @781
+		SAY ATTACK2 @782
+		SAY ATTACK3 @783	
+    	SAY DAMAGE @784
+    	SAY DYING @785
+    	SAY SELECT_COMMON1 @777
+    	SAY SELECT_COMMON2 @778
+    	SAY PICKED_POCKET @786
+    END ELSE BEGIN /* Tutu, BGT */
+    	SAY BATTLE_CRY1 @548
+    	SAY BATTLE_CRY2 @549
+    	SAY DAMAGE @549
+    	SAY DYING @551
+    	SAY SELECT_COMMON1 @552
+    END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#drag2.cre~
     SAY NAME1 @553
     SAY NAME2 @553
-    SAY BATTLE_CRY1 @548
-    SAY BATTLE_CRY2 @549
-    SAY DAMAGE @549
-    SAY DYING @551
-    SAY SELECT_COMMON1 @552
-    WRITE_LONG PICKED_POCKET (BNOT 0x0)
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+		SAY BATTLE_CRY1 @779
+		SAY BATTLE_CRY2 @780
+		SAY ATTACK1 @781
+		SAY ATTACK2 @782
+		SAY ATTACK3 @783	
+    	SAY DAMAGE @784
+    	SAY DYING @785
+    	SAY SELECT_COMMON1 @777
+    	SAY SELECT_COMMON2 @778
+    	SAY PICKED_POCKET @786
+    END ELSE BEGIN /* Tutu, BGT */
+    	SAY BATTLE_CRY1 @548
+    	SAY BATTLE_CRY2 @549
+    	SAY DAMAGE @549
+    	SAY DYING @551
+    	SAY SELECT_COMMON1 @552
+    END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
