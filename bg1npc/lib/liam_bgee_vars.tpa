@@ -48,8 +48,12 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
     OUTER_SPRINT "tazokminhp" "MIHP1"
+
+    /* Tutu/BGT vs BGEE Dialog states */
     OUTER_SET firebeadstate1 = 3
     OUTER_SET firebeadstate2 = 1
+    OUTER_SET xanpstate3 = 1
+    OUTER_SET xanpstate4 = 0
 
      //BGT Dialogues always appended, zero for Tutu
      OUTER_SET BGTBEDWINState0 = 0
@@ -98,7 +102,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "FALDORN_POST" "FALDOP"
     OUTER_SPRINT "GARRICK_POST" "GARRIP"
     OUTER_SPRINT "IMOEN_POST" "IMOENP"
-    OUTER_SPRINT "JAHEIRA_POST" "JAHEIRAP"
+    OUTER_SPRINT "JAHEIRA_POST" "JAHEIP"
     OUTER_SPRINT "KAGAIN_POST" "KAGAIP"
     OUTER_SPRINT "KHALID_POST" "KHALIP"
     OUTER_SPRINT "KIVAN_POST" "KIVANP"
