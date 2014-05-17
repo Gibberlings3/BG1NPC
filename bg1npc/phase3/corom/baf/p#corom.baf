@@ -49,7 +49,7 @@ Global("P#CoranMatch","GLOBAL",1)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",2)
 InParty(Myself)
-InParty("coran")
+InParty("xan")
 THEN
 RESPONSE #100
 SetGlobal("P#CoranRomCutByOther","GLOBAL",1)
