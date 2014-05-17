@@ -1,12 +1,12 @@
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 Global("P#BranwenRomanceActive","GLOBAL",1)
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 OR(2)
 Global("P#BRLoveTalk","GLOBAL",13)
 Global("P#BRLoveTalk","GLOBAL",17)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 !AreaType(DUNGEON)
 THEN
 RESPONSE #100
@@ -18,16 +18,16 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 Global("P#BranwenRomanceActive","GLOBAL",2)
-!AreaType(DUNGEON)
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 OR(3)
 Global("P#BRLoveTalk","GLOBAL",25)
 Global("P#BRLoveTalk","GLOBAL",31)
 Global("P#BRLoveTalk","GLOBAL",35)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaType(DUNGEON)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
