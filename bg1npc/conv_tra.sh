@@ -7,5 +7,5 @@ fi
 for file in $(ls bg1npc/tra/$1/*.tra) 
 do
 #  echo ${file/tra\/$1\//}
-  iconv -f "$2" -t UTF-8 "$file" > utf8/"$file"
+  iconv -f "$2" -t UTF-8 "$file" > bg1npc/tra/$1/utf8/"${file##*/}"
 done
