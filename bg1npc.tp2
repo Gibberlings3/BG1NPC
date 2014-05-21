@@ -1866,7 +1866,11 @@ END // of A_I G_I Tutu, BGT
 
   /* custom cutspy.cre for BG1NPC code */
   COPY ~BG1NPC/Core/CRE/x#cutspy.cre~ ~override/x#cutspy.cre~
+   WRITE_LONG NAME1 (BNOT 0x0)
+   WRITE_LONG NAME2 (BNOT 0x0)
    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+   WRITE_LONG DAMAGE (BNOT 0x0)
+   WRITE_LONG DYING (BNOT 0x0)
    PATCH_IF (SOURCE_SIZE > 0x2d4) BEGIN
      WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
    END
@@ -2061,11 +2065,10 @@ END
     INCLUDE ~BG1NPC\LIB\tutu_area_script_assign.tph~
   END
 
-/* Do we need to extend this to BG:EE? */
-  ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu tutu_totsc bgt bgee~ THEN BEGIN
     /* Area Type Flagging */
-    /* ToSC only: Tutu and BGT */
-    ACTION_IF GAME_IS ~tutu_totsc bgt~ THEN BEGIN //  if TotSC is installed
+    /* ToSC only: Tutu, BGT, and BGEE */
+    ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if TotSC is installed
       COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
                     ~%IsleofBalduranS%.are~ ~override~
                     ~%DurlagsTower%.are~ ~override~
@@ -2075,7 +2078,7 @@ END
       BUT_ONLY_IF_IT_CHANGES
     END
   
-    /* FOREST and OUTDOOR: Tutu and BGT */
+    /* FOREST and OUTDOOR: Tutu, BGT, and BGEE */
     COPY_EXISTING ~%FishingVillage%.are~ ~override~
                   ~%Peldvale%.are~ ~override~
                   ~%LionsWay%.are~ ~override~
@@ -2102,7 +2105,7 @@ END
       WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
     BUT_ONLY_IF_IT_CHANGES
   
-    /* OUTDOOR ONLY: Tutu and BGT */
+    /* OUTDOOR ONLY: Tutu, BGT, and BGEE */
     COPY_EXISTING ~%GnollStronghold%.are~ ~override~
                   ~%NashkelMines%.are~ ~override~
                   ~%FriendlyArmInn%.are~ ~override~
