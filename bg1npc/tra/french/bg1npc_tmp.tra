@@ -1206,6 +1206,7 @@ Inutilisable par :
 @703 = ~[GHAST 01]~ [GHAST01]
 @704 = ~[GHAST 05]~ [GHAST05]
 @705 = ~[GHAST 06]~ [GHAST06]
+// Sounds available in BGEE, without text
 @706 = ~[VAMPP 01]~ [VAMPP01]
 @707 = ~[VAMPP 02]~ [VAMPP02]
 @708 = ~[VAMPP 03]~ [VAMPP03]
@@ -1220,37 +1221,63 @@ Inutilisable par :
 @717 = ~[VAMPF 05]~ [VAMPF05]
 @718 = ~[VAMPF 06]~ [VAMPF06]
 @719 = ~[VAMPF 07]~ [VAMPF07]
+// BGEE @11063
 @720 = ~[ELF FEMALE 1] Bonjour à vous.~ [%tutu_var%FELFF01]
+// BGEE @11075
 @721 = ~[ELF FEMALE 5]~ [%tutu_var%FELFF05]
+// BGEE @11075
 @722 = ~[ELF FEMALE 6]~ [%tutu_var%FELFF06]
+// BGEE @11065
 @723 = ~[ELF FEMALE 2] Je préfère de loin les régions boisées, mais il faut être souple, par les temps qui courent.~ [%tutu_var%FELFF02]
+// BGEE @4941
 @724 = ~[ELF 1] Les gens bien ont rarement du temps à perdre en commérages.~ [%tutu_var%ELFFF01]
+// BGEE @4942
 @725 = ~[ELF 2] Des temps agités approchent.~ [%tutu_var%ELFFF02]
+// BGEE @4943
 @726 = ~[ELF 3] Bientôt, nous serons tous rassemblés sur Éternelle-Rencontre.~ [%tutu_var%ELFFF03]
+// BGEE @12586
 @727 = ~[ELF 5]~ [%tutu_var%ELFFF05]
+// BGEE @12587
 @728 = ~[ELF 6]~ [%tutu_var%ELFFF06]
+// BG2 seulement ?
 @729 = ~[ORGEF 1]~ [X#OGREF1]
 @730 = ~[ORGEF 2]~ [X#OGREF2]
 @731 = ~[ORGEF 3]~ [X#OGREF3]
 @732 = ~[ORGEF 4]~ [X#OGREF4]
 @733 = ~[ORGEF 5]~ [X#OGREF5]
 @734 = ~[ORGEF 6]~ [X#OGREF6]
+// BG2 ?
 @735 = ~[VOIC1L]~ [%tutu_var%VOIC1L]
 @736 = ~[VOIC1M]~ [%tutu_var%VOIC1M]
+// BGEE @11117
 @737 = ~[FEMALE GREETING 10] Salutations.~ [%tutu_var%GENFG10]
+// BGEE @11120
 @738 = ~[FEMALE GREETING 13] Comment ça va ?~ [%tutu_var%GENFG13]
+// BGEE @5176
 @739 = ~[SIRINE 01] Vous devez être fous pour oser vous trouver sur mon chemin !~ [%tutu_var%SIRIN01]
-@740 = ~[SIRINE 03]~ [%tutu_var%SIRIN03]
+// BGEE @6018
+@740 = ~[SIRINE 03] Réfléchissez en agissant, imbécile !~ [%tutu_var%SIRIN03]
+// BGEE @6022
 @741 = ~[SIRINE 06]~ [%tutu_var%SIRIN06]
+// BGEE @5178
 @742 = ~[SIRINE 07] Imbécile, réfléchissez avant d'agir !~ [%tutu_var%SIRIN07]
+// BGEE @6023
 @743 = ~[SIRINE 08]~ [%tutu_var%SIRIN08]
+// BGEE @6024
 @744 = ~[SIRINE 09]~ [%tutu_var%SIRIN09]
+// BGEE @5193
 @745 = ~[NEREID 01] Se baigner dans nos eaux ! Oh, comme ce serait bon...~ [%tutu_var%NERED01]
+// BGEE @5194
 @746 = ~[NEREID 02] Laissez-moi, espèce de crustacé insolent !~ [%tutu_var%NERED02]
+// BGEE @5195
 @747 = ~[NEREID 03] Vous autres, les hommes, ne pouvez m'atteindre.~ [%tutu_var%NERED03]
+// BGEE @5197
 @748 = ~[NEREID 04] Je préférerais nager.~ [%tutu_var%NERED04]
+// BGEE @6035
 @749 = ~[NEREID 08]~ [%tutu_var%NERED08]
+// BGEE @6036
 @750 = ~[NEREID 09]~ [%tutu_var%NERED09]
+// BG2
 @751 = ~~ [SAHAU01]
 @752 = ~~ [SAHAU02]
 @753 = ~~ [SAHAU03]
@@ -1258,24 +1285,37 @@ Inutilisable par :
 @755 = ~~ [SAHAU05]
 @756 = ~~ [SAHAU06]
 @757 = ~~ [SAHAU07]
+// BG2 ?
 @758 = ~~ [EARTH01]
 @759 = ~~ [EARTH02]
 @760 = ~~ [EARTH03]
 @761 = ~~ [EARTH06]
 @762 = ~~ [EARTH07]
+// BGEE @23945
 @763 = ~[VILLAGER, MALE 01b] Je sens une odeur... étrangère ?~ [%tutu_scriptv%ILLM01b]
+// BGEE @23946
 @764 = ~[VILLAGER, MALE 01c] Parlez et allez-vous en. Je ne veux pas de vous ici.~  [%tutu_scriptv%ILLM01c]
+// BGEE @23949
 @765 = ~[VILLAGER, MALE 01f] Je dis ce que je pense : partez dès que possible.~ [%tutu_scriptv%ILLM01f]
+// BGEE @23882
 @766 = ~[VILLAGER, MALE 03] Vous ne vivrez pas *Grrrr* pour nous tuer ! Grrrr !~ [%tutu_var%VILLM03]
+// BGEE @23884
 @767 = ~[VILLAGER, MALE 05]~ [%tutu_var%VILLM05]
+// BGEE @23885
 @768 = ~[VILLAGER, MALE 06]~ [%tutu_var%VILLM06]
+// BG2
 @769 = ~~ [MOOSE01]
 @770 = ~~ [MOOSE06]
 @771 = ~~ [MOOSE07]
-@772 = ~[MAIN MALE 3] En avant!~ [%tutu_var%MAINM03]
-@773 = ~[Main Male 17] Hmm?~ [%tutu_var%MAINM17]
-@774 = ~[Main Male 18] Oui?~ [%tutu_var%MAINM18]
+// BGEE @16235
+@772 = ~[MAIN MALE 3] En avant !~ [%tutu_var%MAINM03]
+// BGEE @16240
+@773 = ~[Main Male 17] Hein ?~ [%tutu_var%MAINM17]
+// BGEE @16241
+@774 = ~[Main Male 18] Oui ?~ [%tutu_var%MAINM18]
+// BGEE @16248
 @775 = ~~ [%tutu_var%MAINM38]
+// BGEE @16249
 @776 = ~~ [%tutu_var%MAINM39]
 @777 = ~[WYVERN 01]~ [%tutu_var%WYVER01]
 @778 = ~[WYVERN 02]~ [%tutu_var%WYVER02]

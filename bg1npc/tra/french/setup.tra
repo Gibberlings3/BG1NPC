@@ -142,8 +142,9 @@ Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
 @-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
 Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 
-@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
-@-1005= "a"
+// Termes non standards pour s'adapter au fait que l'instruction AUTHOR renvoie au forum du projet
+@-1004= "S'IL VOUS PLAIT, postez le contenu du fichier"
+@-1005= "dans le forum de"
 
 @-1006= "Installer le composant ["
 @-1007= "] ?
