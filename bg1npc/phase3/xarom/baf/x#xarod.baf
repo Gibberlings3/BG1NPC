@@ -1,9 +1,9 @@
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 Global("X#XALoveTalk","GLOBAL",9)
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",1)
 !AreaType(DUNGEON)
@@ -17,11 +17,11 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 Global("X#XALoveTalk","GLOBAL",27)
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",1)
 !AreaType(DUNGEON)
@@ -35,14 +35,14 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#XALoveTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 OR(2)
 Global("X#XALoveTalk","GLOBAL",37)
 Global("X#XALoveTalk","GLOBAL",39)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",2)
 !AreaType(DUNGEON)
@@ -57,11 +57,11 @@ END
 
 /* Bhaal Talk 2 */
 IF %BGT_VAR%
-Global("X#XAFloatTalk3","GLOBAL",3)
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 InParty(Myself)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
+Global("X#XAFloatTalk3","GLOBAL",3)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",2)
 THEN
@@ -75,12 +75,12 @@ END
 
 /* Chapter 7 */
 IF %BGT_VAR%
-Global("Chapter","GLOBAL",%tutu_chapter_7%)
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
-Global("X#XAFloatTalk4","GLOBAL",0)
 InParty(Myself)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
+Global("Chapter","GLOBAL",%tutu_chapter_7%)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#XAFloatTalk4","GLOBAL",0)
 Global("P#KnowBhaal","GLOBAL",1)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",2)
@@ -96,14 +96,14 @@ END
 
 /* Flirt 1 and 2 */
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#XaFlirtsTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 OR(2)
 Global("X#XAFlirtTalk1","GLOBAL",0)
 Global("X#XAFlirtTalk1","GLOBAL",2)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 GlobalGT("X#XALoveTalk","GLOBAL",8)
 GlobalLT("X#XALoveTalk","GLOBAL",28)
 !Global("X#XARomanceInactive","GLOBAL",1)
@@ -121,12 +121,12 @@ END
 
 /* Flirt 3 */
 IF %BGT_VAR%
-RealGlobalTimerExpired("X#XaFlirtsTalkTime","GLOBAL")
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
-Global("X#XAFlirtTalk2","GLOBAL",0)
 InParty(Myself)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
+RealGlobalTimerExpired("X#XaFlirtsTalkTime","GLOBAL")
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
+Global("X#XAFlirtTalk2","GLOBAL",0)
 GlobalGT("X#XALoveTalk","GLOBAL",40)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#DisableXaFlirts","GLOBAL",0)
@@ -162,11 +162,11 @@ END
 
 /* Additional Late in Romance Scene 2 (the dream about Bodhi) */
 IF %BGT_VAR%
-Global("X#XAFlirtTalk5","GLOBAL",0)
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 InParty(Myself)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
+Global("X#XAFlirtTalk5","GLOBAL",0)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 GlobalGT("X#XALoveTalk","GLOBAL",42)
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#DisableXaFlirts","GLOBAL",0)
@@ -181,11 +181,11 @@ END
 
 /* Romance Breakers */
 IF %BGT_VAR%
-GlobalGT("X#XALoveTalk","GLOBAL",28)
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 InParty(Myself)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
+GlobalGT("X#XALoveTalk","GLOBAL",28)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",1)
 OR(3)
@@ -204,11 +204,11 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
-GlobalGT("X#XALoveTalk","GLOBAL",28)
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 InParty(Myself)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
+GlobalGT("X#XALoveTalk","GLOBAL",28)
+RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 !Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",1)
 OR(3)
