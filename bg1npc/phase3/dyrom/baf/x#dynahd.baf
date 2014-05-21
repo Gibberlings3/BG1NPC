@@ -1,5 +1,7 @@
-IF !StateCheck(Myself,CD_STATE_NOTVALID)
-%BGT_VAR%
+IF %BGT_VAR%
+InParty(Myself) 
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#DYLoveTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 ReputationGT(Player1,11)
@@ -28,8 +30,6 @@ AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
 AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
 AreaCheck("%FriendlyArmInn_L1%")
 AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
-InParty(Myself) 
-!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
@@ -39,8 +39,10 @@ SetGlobal("X#DYLoveTalk","GLOBAL",8)
 StartDialogueNoSet(Player1)
 END
 
-IF !StateCheck(Myself,CD_STATE_NOTVALID)
-%BGT_VAR%
+IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 ReputationGT(Player1,11)
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 Global("X#DynahMatch","GLOBAL",1)
@@ -50,8 +52,6 @@ Global("X#DynaheirRomanceActive","GLOBAL",1)
 Global("X#DYLoveTalk","GLOBAL",21)
 RealGlobalTimerExpired("X#DYLoveTalkTime","GLOBAL")
 !AreaType(DUNGEON)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
@@ -61,8 +61,10 @@ PlaySound("dyrom1")
 StartDialogueNoSet(Player1)
 END
 
-IF !StateCheck(Myself,CD_STATE_NOTVALID)
-%BGT_VAR%
+IF %BGT_VAR%
+InParty(Myself) 
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#DYLoveTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 ReputationGT(Player1,11)
@@ -71,8 +73,6 @@ Global("X#DynaheirRomanceActive","GLOBAL",2)
 !Global("X#DynaheirBhaalLoop","GLOBAL",1)
 Global("X#DYLoveTalk","GLOBAL",33)
 !AreaType(DUNGEON)
-InParty(Myself) 
-!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
@@ -82,8 +82,10 @@ PlaySound("dyrom2")
 StartDialogueNoSet(Player1)
 END
 
-IF !StateCheck(Myself,CD_STATE_NOTVALID)
-%BGT_VAR%
+IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#DYLoveTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 ReputationGT(Player1,11)
@@ -94,8 +96,6 @@ AreaType(OUTDOOR)
 TimeOfDay(NIGHT)
 Global("X#DYLoveTalk","GLOBAL",35)
 !AreaType(DUNGEON)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
@@ -105,8 +105,10 @@ PlaySound("dyrom2")
 StartDialogueNoSet(Player1)
 END
 
-IF !StateCheck(Myself,CD_STATE_NOTVALID)
-%BGT_VAR%
+IF %BGT_VAR%
+InParty(Myself) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#DYLoveTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 ReputationGT(Player1,11)
@@ -115,8 +117,6 @@ Global("X#DynaheirRomanceActive","GLOBAL",2)
 !Global("X#DynaheirBhaalLoop","GLOBAL",1)
 Global("X#DYLoveTalk","GLOBAL",41)
 !AreaType(DUNGEON)
-InParty(Myself) 
-!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
@@ -126,8 +126,10 @@ SetGlobal("X#DYLoveTalk","GLOBAL",42)
 StartDialogueNoSet(Player1)
 END
 
-IF !StateCheck(Myself,CD_STATE_NOTVALID)
-%BGT_VAR%
+IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#DYLoveTalkTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 ReputationGT(Player1,11)
@@ -139,8 +141,6 @@ AreaType(OUTDOOR)
 OR(2)
 Global("X#DYLoveTalk","GLOBAL",43)
 Global("X#DYLoveTalk","GLOBAL",49)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
