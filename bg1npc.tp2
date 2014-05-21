@@ -6048,7 +6048,7 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
 BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
+//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#FemaleRomChal.G3~
 
@@ -6063,7 +6063,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1.are~ ~override/x#ajr1.are~
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	  COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1_bgee.are~ ~override/x#ajr1.are~
+  	  COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#ajr1_bgee.are~ ~override/x#ajr1.are~
     END ELSE BEGIN
       COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1_bgt.are~ ~override/x#ajr1.are~
     END
@@ -6083,38 +6083,52 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   END
   
   /* Dragon Area 1 */
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.MOS~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.TIS~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.WED~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12AM.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12an.wav~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12ht.bmp~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12lm.bmp~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12sr.bmp~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.are~ ~override~
-    WRITE_ASCII 0x94 ~X#ARCH12~
-
+  /* BGEE does not have BG2's AR1402 area resources available */ 
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.MOS~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.TIS~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.WED~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12AM.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12an.wav~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12ht.bmp~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12lm.bmp~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12sr.bmp~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12_bgee.are~ ~override/x#ch12.are~
+		WRITE_ASCII 0x94 ~X#ARCH12~
+  END ELSE BEGIN   
+  /* For Tutu, BGT */
+  	COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.are~ ~override~
+    	WRITE_ASCII 0x94 ~X#ARCH12~
+  END
+  
   /* Dragon Area 2 */
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.are~ ~override/X#CH14.are~
+  COPY_EXISTING ~X#CH12.are~ ~override/X#CH14.are~
     WRITE_ASCII 0x94 ~X#CH14~ #8
 
   /* Suldanessellar Area */
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.MOS~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.TIS~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.WED~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13AM.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c1.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c2.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c3.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c4.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13c5.WAV~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13ab.wav~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13ht.bmp~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13lm.bmp~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13sr.bmp~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13a.bam~ ~override~
-  COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.are~ ~override~
-    WRITE_ASCII 0x94 ~X#CH13~ #8
+  /* BGEE does not have BG2's AR2805 area resources available */ 
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.MOS~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.TIS~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.WED~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13AM.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13c1.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13c2.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13c3.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13c4.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13c5.WAV~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13ab.wav~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13ht.bmp~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13lm.bmp~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13sr.bmp~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13a.bam~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13_bgee.are~ ~override/x#ch13.are~
+    	WRITE_ASCII 0x94 ~X#CH13~ #8
+  END ELSE BEGIN
+  /* For Tutu, BGT */
+  	COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.are~ ~override~
+    	WRITE_ASCII 0x94 ~X#CH13~ #8
+  END
 
   /* items */
   COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#MIRC.itm~ ~override~
