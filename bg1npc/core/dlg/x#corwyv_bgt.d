@@ -2,7 +2,7 @@
 /*wyverns fix */
 REPLACE_TRIGGER_TEXT %CORAN_JOINED% ~Dead("Wyvern")~ ~Dead("X#CoranWyvern")~
 REPLACE_TRIGGER_TEXT %CORAN_JOINED% ~!Dead("Wyvern")~ ~!Dead("X#CoranWyvern")~
-REPLACE_STATE_TRIGGER %CORAN_JOINED% 0 ~Dead("X#CoranWyvern") Global("CoranReward","GLOBAL",0) Global("wyvernp","GLOBAL",0) PartyHasItem("%tutu_var%MISC52")~ 
+REPLACE_STATE_TRIGGER %CORAN_JOINED% %BGTCORANJState0% ~Dead("X#CoranWyvern") Global("CoranReward","GLOBAL",0) Global("wyvernp","GLOBAL",0) PartyHasItem("%tutu_var%MISC52")~ 
 
 /* Replacing Globals in Coran's Wyvern Misadventure */
 REPLACE_STATE_TRIGGER %CORAN_JOINED% %BGTCORANJState6% ~Global("X#CoranWyvernWarning1","GLOBAL",1)~
