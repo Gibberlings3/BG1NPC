@@ -122,7 +122,7 @@ END
 
 END
 
-EXTEND_BOTTOM ~%tutu_var%HOUSG3~ 0
+EXTEND_BOTTOM ~%tutu_var%HOUSG3~ %housg3state0%
 IF ~OR(2) Global("X#KagainCaravan","GLOBAL",5) PartyHasItem("X#SILSH")~ THEN REPLY @46 GOTO X#SilverGuardPass
 END
 
