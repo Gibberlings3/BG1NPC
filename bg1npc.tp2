@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_3_AstroBryGuy_20140521~
+VERSION ~v21_PRERELEASE_20140602~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -2053,9 +2053,13 @@ END
     COMPILE_BAF_TO_BCS
   BUT_ONLY_IF_IT_CHANGES
 
-  /* Tutu Area Script Assignment Patching: All Areas Script ID'd */
+  /* Area Script Assignment Patching: All Areas Script ID'd */
+  /* Tutu */
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     INCLUDE ~BG1NPC\LIB\tutu_area_script_assign.tph~
+  END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  /* BGEE */
+    INCLUDE ~BG1NPC\LIB\bgee_area_script_assign.tph~
   END
 
 	/* Area Type Flagging */
@@ -2213,6 +2217,14 @@ BEGIN @1007
         WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon8
       END
 
+  /* BGEE: Add Ajantis' shield to item_use.2da */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~ 
+  	  UNLESS ~x#ajshld~
+  	COPY_EXISTING ~item_use.2da~ ~override~
+	  PRETTY_PRINT_2DA
+  END
+  
   /* Give Ajantis his shield and a bastard sword (no proficiency) */
   COPY_EXISTING ~%tutu_var%ajanti.cre~  ~override~
                 ~%tutu_var%ajanti4.cre~ ~override~
@@ -3681,6 +3693,14 @@ BEGIN @1007
     SAY NAME1 @249
     SAY NAME2 @249
     SAY DESC @250
+    
+  /* BGEE: Add Kivan's bow to item_use.2da */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  	APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~ 
+  	  UNLESS ~P#BOW~  	
+  	COPY_EXISTING ~item_use.2da~ ~override~
+	  PRETTY_PRINT_2DA
+  END
 
   /* creatures */
   COPY ~BG1NPC/Phase2/cre/p#imanel.cre~ ~override~
