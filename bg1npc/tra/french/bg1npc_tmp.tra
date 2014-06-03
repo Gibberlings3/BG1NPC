@@ -1200,130 +1200,76 @@ Inutilisable par :
 @639   = ~Biche blanche~
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 11748
 @640   = ~Mercenaire~
-@700  = ~Chef Sahuagin~
-@701  = ~Sahuagin~
-@702  = ~Méphite gazeux~
-@703 = ~[GHAST 01]~ [GHAST01]
-@704 = ~[GHAST 05]~ [GHAST05]
-@705 = ~[GHAST 06]~ [GHAST06]
-// Sounds available in BGEE, without text
-@706 = ~[VAMPP 01]~ [VAMPP01]
-@707 = ~[VAMPP 02]~ [VAMPP02]
-@708 = ~[VAMPP 03]~ [VAMPP03]
-@709 = ~[VAMPP 04]~ [VAMPP04]
-@710 = ~[VAMPP 05]~ [VAMPP05]
-@711 = ~[VAMPP 06]~ [VAMPP06]
-@712 = ~[VAMPP 07]~ [VAMPP07]
-@713 = ~[VAMPF 01]~ [VAMPF01]
-@714 = ~[VAMPF 02]~ [VAMPF02]
-@715 = ~[VAMPF 03]~ [VAMPF03]
-@716 = ~[VAMPF 04]~ [VAMPF04]
-@717 = ~[VAMPF 05]~ [VAMPF05]
-@718 = ~[VAMPF 06]~ [VAMPF06]
-@719 = ~[VAMPF 07]~ [VAMPF07]
-// BGEE @11063
-@720 = ~[ELF FEMALE 1] Bonjour à vous.~ [%tutu_var%FELFF01]
-// BGEE @11075
-@721 = ~[ELF FEMALE 5]~ [%tutu_var%FELFF05]
-// BGEE @11075
-@722 = ~[ELF FEMALE 6]~ [%tutu_var%FELFF06]
-// BGEE @11065
-@723 = ~[ELF FEMALE 2] Je préfère de loin les régions boisées, mais il faut être souple, par les temps qui courent.~ [%tutu_var%FELFF02]
-// BGEE @4941
-@724 = ~[ELF 1] Les gens bien ont rarement du temps à perdre en commérages.~ [%tutu_var%ELFFF01]
-// BGEE @4942
-@725 = ~[ELF 2] Des temps agités approchent.~ [%tutu_var%ELFFF02]
-// BGEE @4943
-@726 = ~[ELF 3] Bientôt, nous serons tous rassemblés sur Éternelle-Rencontre.~ [%tutu_var%ELFFF03]
-// BGEE @12586
-@727 = ~[ELF 5]~ [%tutu_var%ELFFF05]
-// BGEE @12587
-@728 = ~[ELF 6]~ [%tutu_var%ELFFF06]
-// BG2 seulement ?
-@729 = ~[ORGEF 1]~ [X#OGREF1]
-@730 = ~[ORGEF 2]~ [X#OGREF2]
-@731 = ~[ORGEF 3]~ [X#OGREF3]
-@732 = ~[ORGEF 4]~ [X#OGREF4]
-@733 = ~[ORGEF 5]~ [X#OGREF5]
-@734 = ~[ORGEF 6]~ [X#OGREF6]
-// BG2 ?
-@735 = ~[VOIC1L]~ [%tutu_var%VOIC1L]
-@736 = ~[VOIC1M]~ [%tutu_var%VOIC1M]
-// BGEE @11117
-@737 = ~[FEMALE GREETING 10] Salutations.~ [%tutu_var%GENFG10]
-// BGEE @11120
-@738 = ~[FEMALE GREETING 13] Comment ça va ?~ [%tutu_var%GENFG13]
-// BGEE @5176
-@739 = ~[SIRINE 01] Vous devez être fous pour oser vous trouver sur mon chemin !~ [%tutu_var%SIRIN01]
-// BGEE @6018
-@740 = ~[SIRINE 03] Réfléchissez en agissant, imbécile !~ [%tutu_var%SIRIN03]
-// BGEE @6022
-@741 = ~[SIRINE 06]~ [%tutu_var%SIRIN06]
-// BGEE @5178
-@742 = ~[SIRINE 07] Imbécile, réfléchissez avant d'agir !~ [%tutu_var%SIRIN07]
-// BGEE @6023
-@743 = ~[SIRINE 08]~ [%tutu_var%SIRIN08]
-// BGEE @6024
-@744 = ~[SIRINE 09]~ [%tutu_var%SIRIN09]
+// BG2 - FEMALE1 
+@700 = ~[ORGEF 1]~ [X#OGREF1]
+@701 = ~[ORGEF 2]~ [X#OGREF2]
+@702 = ~[ORGEF 3]~ [X#OGREF3]
+@703 = ~[ORGEF 4]~ [X#OGREF4]
+@704 = ~[ORGEF 5]~ [X#OGREF5]
+@705 = ~[ORGEF 6]~ [X#OGREF6]
+// BG2
+@706 = ~~ [MOOSE01]
+@707 = ~~ [MOOSE06]
+@708 = ~~ [MOOSE07]
+@709 = ~[GHAST 01]~ [GHAST01]
+@710 = ~[GHAST 05]~ [GHAST05]
+@711 = ~[GHAST 06]~ [GHAST06]
+// BG1
+@712 = ~[VOIC1L]~ [%tutu_var%VOIC1L]
+@713 = ~[VOIC1M]~ [%tutu_var%VOIC1M]
 // BGEE @5193
-@745 = ~[NEREID 01] Se baigner dans nos eaux ! Oh, comme ce serait bon...~ [%tutu_var%NERED01]
+@714 = ~[NEREID 01] Se baigner dans nos eaux ! Oh, comme ce serait bon...~ [%tutu_var%NERED01]
 // BGEE @5194
-@746 = ~[NEREID 02] Laissez-moi, espèce de crustacé insolent !~ [%tutu_var%NERED02]
+@715 = ~[NEREID 02] Laissez-moi, espèce de crustacé insolent !~ [%tutu_var%NERED02]
 // BGEE @5195
-@747 = ~[NEREID 03] Vous autres, les hommes, ne pouvez m'atteindre.~ [%tutu_var%NERED03]
+@716 = ~[NEREID 03] Vous autres, les hommes, ne pouvez m'atteindre.~ [%tutu_var%NERED03]
 // BGEE @5197
-@748 = ~[NEREID 04] Je préférerais nager.~ [%tutu_var%NERED04]
+@717 = ~[NEREID 04] Je préférerais nager.~ [%tutu_var%NERED04]
 // BGEE @6035
-@749 = ~[NEREID 08]~ [%tutu_var%NERED08]
+@718 = ~[NEREID 08]~ [%tutu_var%NERED08]
 // BGEE @6036
-@750 = ~[NEREID 09]~ [%tutu_var%NERED09]
+@719 = ~[NEREID 09]~ [%tutu_var%NERED09]
+@720  = ~Chef Sahuagin~
+@721  = ~Sahuagin~
 // BG2
-@751 = ~~ [SAHAU01]
-@752 = ~~ [SAHAU02]
-@753 = ~~ [SAHAU03]
-@754 = ~~ [SAHAU04]
-@755 = ~~ [SAHAU05]
-@756 = ~~ [SAHAU06]
-@757 = ~~ [SAHAU07]
-// BG2 ?
-@758 = ~~ [EARTH01]
-@759 = ~~ [EARTH02]
-@760 = ~~ [EARTH03]
-@761 = ~~ [EARTH06]
-@762 = ~~ [EARTH07]
-// BGEE @23945
-@763 = ~[VILLAGER, MALE 01b] Je sens une odeur... étrangère ?~ [%tutu_scriptv%ILLM01b]
-// BGEE @23946
-@764 = ~[VILLAGER, MALE 01c] Parlez et allez-vous en. Je ne veux pas de vous ici.~  [%tutu_scriptv%ILLM01c]
-// BGEE @23949
-@765 = ~[VILLAGER, MALE 01f] Je dis ce que je pense : partez dès que possible.~ [%tutu_scriptv%ILLM01f]
-// BGEE @23882
-@766 = ~[VILLAGER, MALE 03] Vous ne vivrez pas *Grrrr* pour nous tuer ! Grrrr !~ [%tutu_var%VILLM03]
-// BGEE @23884
-@767 = ~[VILLAGER, MALE 05]~ [%tutu_var%VILLM05]
-// BGEE @23885
-@768 = ~[VILLAGER, MALE 06]~ [%tutu_var%VILLM06]
+@722 = ~~ [SAHAU01]
+@723 = ~~ [SAHAU02]
+@724 = ~~ [SAHAU03]
+@725 = ~~ [SAHAU04]
+@726 = ~~ [SAHAU05]
+@727 = ~~ [SAHAU06]
+@728 = ~~ [SAHAU07]
+@729  = ~Méphite gazeux~
 // BG2
-@769 = ~~ [MOOSE01]
-@770 = ~~ [MOOSE06]
-@771 = ~~ [MOOSE07]
-// BGEE @16235
-@772 = ~[MAIN MALE 3] En avant !~ [%tutu_var%MAINM03]
-// BGEE @16240
-@773 = ~[Main Male 17] Hein ?~ [%tutu_var%MAINM17]
-// BGEE @16241
-@774 = ~[Main Male 18] Oui ?~ [%tutu_var%MAINM18]
-// BGEE @16248
-@775 = ~~ [%tutu_var%MAINM38]
-// BGEE @16249
-@776 = ~~ [%tutu_var%MAINM39]
-@777 = ~[WYVERN 01]~ [%tutu_var%WYVER01]
-@778 = ~[WYVERN 02]~ [%tutu_var%WYVER02]
-@779 = ~[WYVERN 03]~ [%tutu_var%WYVER03]
-@780 = ~[WYVERN 04]~ [%tutu_var%WYVER04]
-@781 = ~[WYVERN 05]~ [%tutu_var%WYVER05]
-@782 = ~[WYVERN 06]~ [%tutu_var%WYVER06]
-@783 = ~[WYVERN 07]~ [%tutu_var%WYVER07]
-@784 = ~[WYVERN 08]~ [%tutu_var%WYVER08]
-@785 = ~[WYVERN 09]~ [%tutu_var%WYVER09]
-@786 = ~[WYVERN 10]~ [%tutu_var%WYVER10]
+@730 = ~~ [EARTH01]
+@731 = ~~ [EARTH02]
+@732 = ~~ [EARTH03]
+@733 = ~~ [EARTH06]
+@734 = ~~ [EARTH07]
+@735 = ~ Au secours !~
+@736 = ~ Pitié ! Pitié !~
+// Sounds available in BGEE, without text
+@737 = ~[VAMPF 01]~ [VAMPF01]
+@738 = ~[VAMPF 02]~ [VAMPF02]
+@739 = ~[VAMPF 03]~ [VAMPF03]
+@740 = ~[VAMPF 04]~ [VAMPF04]
+@741 = ~[VAMPF 05]~ [VAMPF05]
+@742 = ~[VAMPF 06]~ [VAMPF06]
+@743 = ~[VAMPF 07]~ [VAMPF07]
+@744 = ~[VAMPP 01]~ [VAMPP01]
+@745 = ~[VAMPP 02]~ [VAMPP02]
+@746 = ~[VAMPP 03]~ [VAMPP03]
+@747 = ~[VAMPP 04]~ [VAMPP04]
+@748 = ~[VAMPP 05]~ [VAMPP05]
+@749 = ~[VAMPP 06]~ [VAMPP06]
+@750 = ~[VAMPP 07]~ [VAMPP07]
+@751 = ~[WYVERN 01]~ [%tutu_var%WYVER01]
+@752 = ~[WYVERN 02]~ [%tutu_var%WYVER02]
+@753 = ~[WYVERN 03]~ [%tutu_var%WYVER03]
+@754 = ~[WYVERN 04]~ [%tutu_var%WYVER04]
+@755 = ~[WYVERN 05]~ [%tutu_var%WYVER05]
+@756 = ~[WYVERN 06]~ [%tutu_var%WYVER06]
+@757 = ~[WYVERN 07]~ [%tutu_var%WYVER07]
+@758 = ~[WYVERN 08]~ [%tutu_var%WYVER08]
+@759 = ~[WYVERN 09]~ [%tutu_var%WYVER09]
+@760 = ~[WYVERN 10]~ [%tutu_var%WYVER10]

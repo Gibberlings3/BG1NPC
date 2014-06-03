@@ -73,21 +73,9 @@ IF
 	Allegiance(Myself,ENEMY)
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
 THEN
-	RESPONSE #50
+	RESPONSE #100
 		SetGlobal("whined","LOCALS",1)
-		DisplayStringHead(Myself,46151) // Help!
-		Shout(153)
-	RESPONSE #50
-		SetGlobal("whined","LOCALS",1)
-		DisplayStringHead(Myself,49763) // I require assistance.
-		Shout(153)
-	RESPONSE #50
-		SetGlobal("whined","LOCALS",1)
-		DisplayStringHead(Myself,49764) // Defend me!
-		Shout(153)
-	RESPONSE #50
-		SetGlobal("whined","LOCALS",1)
-		DisplayStringHead(Myself,49765) // Slay my attacker!
+		DisplayStringHead(Myself,@735) // Help!
 		Shout(153)
 END
 
@@ -105,15 +93,9 @@ IF
 	BreakingPoint()
 	Global("Panic","LOCALS",0)
 THEN
-	RESPONSE #50
+	RESPONSE #100
 		SetGlobal("Panic","LOCALS",1)
-		DisplayStringHead(Myself,49766) // I can't take this!
-	RESPONSE #50
-		SetGlobal("Panic","LOCALS",1)
-		DisplayStringHead(Myself,49767) // No more!
-	RESPONSE #50
-		SetGlobal("Panic","LOCALS",1)
-		DisplayStringHead(Myself,49768) // Mercy!
+		DisplayStringHead(Myself,@736) // Mercy!
 END
 
 IF

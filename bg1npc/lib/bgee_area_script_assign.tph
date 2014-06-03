@@ -1,0 +1,512 @@
+/* Area Flagging */
+/* Patching All Called Tutu Area Scripts */
+COPY_EXISTING ~AR0002.ARE~ ~override~ // N Baldur's Gate: Temple of Helm
+              ~AR0004.ARE~ ~override~ // N Baldur's Gate: Bheren's House L1
+              ~AR0005.ARE~ ~override~ // N Baldur's Gate: Bheren's House L2
+              ~AR0006.ARE~ ~override~ // N Baldur's Gate: Rinnie's House L1
+              ~AR0007.ARE~ ~override~ // N Baldur's Gate: Rinnie's House L2
+              ~AR0008.ARE~ ~override~ // N Baldur's Gate: House1 L1
+              ~AR0009.ARE~ ~override~ // N Baldur's Gate: House1 L2
+              ~AR0010.ARE~ ~override~ // N Baldur's Gate: Jardak's House L1
+              ~AR0011.ARE~ ~override~ // N Baldur's Gate: Jardak's House L2
+              ~AR0012.ARE~ ~override~ // N Baldur's Gate: House2 L1
+              ~AR0013.ARE~ ~override~ // N Baldur's Gate: House2 L2
+              ~AR0014.ARE~ ~override~ // N Baldur's Gate: House3 L1
+              ~AR0015.ARE~ ~override~ // N Baldur's Gate: House3 L2
+              ~AR0016.ARE~ ~override~ // N Baldur's Gate: House4 L1
+              ~AR0017.ARE~ ~override~ // N Baldur's Gate: House4 L2
+              ~AR0018.ARE~ ~override~ // N Baldur's Gate: House5 L1
+              ~AR0019.ARE~ ~override~ // N Baldur's Gate: House5 L2
+              ~AR0020.ARE~ ~override~ // N Baldur's Gate: House6 L1
+              ~AR0021.ARE~ ~override~ // N Baldur's Gate: House6 L2
+              ~AR0100.ARE~ ~override~ // NW Baldur's Gate
+              ~AR0101.ARE~ ~override~ // NW Baldur's Gate: Silvershield Estate L1
+              ~AR0102.ARE~ ~override~ // NW Baldur's Gate: Silvershield Estate L2
+              ~AR0103.ARE~ ~override~ // NE Baldur's Gate: Splurging Sturgeon L1
+              ~AR0104.ARE~ ~override~ // NE Baldur's Gate: Splurging Sturgeon L2
+              ~AR0105.ARE~ ~override~ // SE Baldur's Gate: Blade & Stars L1
+              ~AR0106.ARE~ ~override~ // SE Baldur's Gate: Blade & Stars L2
+              ~AR0107.ARE~ ~override~ // SE Baldur's Gate: Blade & Stars L3
+              ~AR0108.ARE~ ~override~ // N Baldur's Gate: Ducal Palace L1
+              ~AR0109.ARE~ ~override~ // N Baldur's Gate: Ducal Palace L2
+              ~AR0110.ARE~ ~override~ // N Baldur's Gate: Ducal Palace L3
+              ~AR0111.ARE~ ~override~ // N Baldur's Gate: Ducal Palace Cellar
+              ~AR0112.ARE~ ~override~ // Baldur's Gate Undercellars
+              ~AR0114.ARE~ ~override~ // NE Baldur's Gate: Blushing Mermaid L1
+              ~AR0115.ARE~ ~override~ // NE Baldur's Gate: Blushing Mermaid L2
+              ~AR0116.ARE~ ~override~ // NW Baldur's Gate: Helm & Cloak L1
+              ~AR0117.ARE~ ~override~ // NW Baldur's Gate: Helm & Cloak L2
+              ~AR0118.ARE~ ~override~ // NW Baldur's Gate: Helm & Cloak L3
+              ~AR0119.ARE~ ~override~ // N Baldur's Gate: Three Old Kegs L1
+              ~AR0120.ARE~ ~override~ // N Baldur's Gate: Three Old Kegs L2
+              ~AR0121.ARE~ ~override~ // N Baldur's Gate: Three Old Kegs L3
+              ~AR0123.ARE~ ~override~ // Undercity
+              ~AR0125.ARE~ ~override~ // Undercity: Temple of Bhaal
+              ~AR0126.ARE~ ~override~ // W Baldur's Gate: Ragefast's House
+              ~AR0127.ARE~ ~override~ // SW Baldur's Gate: Merchant League L1
+              ~AR0128.ARE~ ~override~ // SW Baldur's Gate: Merchant League L2
+              ~AR0129.ARE~ ~override~ // SW Baldur's Gate: Merchant League L3
+              ~AR0130.ARE~ ~override~ // W Baldur's Gate: Hall of Wonders
+              ~AR0131.ARE~ ~override~ // W Baldur's Gate: High House of Wonders
+              ~AR0132.ARE~ ~override~ // W Baldur's Gate: Lady's House
+              ~AR0133.ARE~ ~override~ // Baldur's Gate Docks: Low Lantern D1
+              ~AR0134.ARE~ ~override~ // Baldur's Gate Docks: Low Lantern D2
+              ~AR0135.ARE~ ~override~ // Baldur's Gate Docks: Low Lantern D3
+              ~AR0136.ARE~ ~override~ // Baldur's Gate Docks: Low Lantern D4
+              ~AR0137.ARE~ ~override~ // N Baldur's Gate: Ramazith's Tower L1
+              ~AR0138.ARE~ ~override~ // N Baldur's Gate: Ramazith's Tower L6
+              ~AR0139.ARE~ ~override~ // N Baldur's Gate: Ramazith's Tower L2
+              ~AR0140.ARE~ ~override~ // N Baldur's Gate: Ramazith's Tower L3
+              ~AR0141.ARE~ ~override~ // N Baldur's Gate: Ramazith's Tower L4
+              ~AR0142.ARE~ ~override~ // N Baldur's Gate: Ramazith's Tower L5
+              ~AR0143.ARE~ ~override~ // Central Baldur's Gate: Oberon's Estate L1
+              ~AR0144.ARE~ ~override~ // Central Baldur's Gate: Oberon's Estate L2
+              ~AR0145.ARE~ ~override~ // Central Baldur's Gate: Oberon's Estate L3
+              ~AR0146.ARE~ ~override~ // Thieves' Maze
+              ~AR0148.ARE~ ~override~ // E Baldur's Gate: House5
+              ~AR0149.ARE~ ~override~ // NE Baldur's Gate: Ilmater's Shrine
+              ~AR0150.ARE~ ~override~ // E Baldur's Gate: House2
+              ~AR0151.ARE~ ~override~ // E Baldur's Gate: House3
+              ~AR0152.ARE~ ~override~ // E Baldur's Gate: House4
+              ~AR0153.ARE~ ~override~ // E Baldur's Gate: Thieves' Guild
+              ~AR0154.ARE~ ~override~ // E Baldur's Gate: Keexie Tavern L1
+              ~AR0155.ARE~ ~override~ // NW Baldur's Gate: House3 L1
+              ~AR0156.ARE~ ~override~ // NW Baldur's Gate: House3 L2
+              ~AR0157.ARE~ ~override~ // NW Baldur's Gate: Quinn's House L1
+              ~AR0158.ARE~ ~override~ // NW Baldur's Gate: Quinn's House L2
+              ~AR0159.ARE~ ~override~ // NW Baldur's Gate: House1 L1
+              ~AR0160.ARE~ ~override~ // NW Baldur's Gate: House1 L2
+              ~AR0161.ARE~ ~override~ // NW Baldur's Gate: Degrodel's House
+              ~AR0162.ARE~ ~override~ // NW Baldur's Gate: Laerta's House L1
+              ~AR0163.ARE~ ~override~ // NW Baldur's Gate: House2 L1
+              ~AR0164.ARE~ ~override~ // NW Baldur's Gate: House2 L2
+              ~AR0165.ARE~ ~override~ // NW Baldur's Gate: Tavern L1
+              ~AR0166.ARE~ ~override~ // NW Baldur's Gate: Tavern L2
+              ~AR0167.ARE~ ~override~ // NW Baldur's Gate: Pheirkas' House L1
+              ~AR0168.ARE~ ~override~ // NW Baldur's Gate: Pheirkas' House L2
+              ~AR0169.ARE~ ~override~ // NW Baldur's Gate: House4 L1
+              ~AR0170.ARE~ ~override~ // NW Baldur's Gate: House4 L2
+              ~AR0171.ARE~ ~override~ // E Baldur's Gate: Keexie Tavern L2
+              ~AR0200.ARE~ ~override~ // N Baldur's Gate
+              ~AR0224.ARE~ ~override~ // W Sewers
+              ~AR0225.ARE~ ~override~ // Central Sewers
+              ~AR0226.ARE~ ~override~ // E Sewers
+              ~AR0300.ARE~ ~override~ // NE Baldur's Gate
+              ~AR0302.ARE~ ~override~ // NE Baldur's Gate: House2 L1
+              ~AR0303.ARE~ ~override~ // NE Baldur's Gate: House2 L2
+              ~AR0304.ARE~ ~override~ // NE Baldur's Gate: Store
+              ~AR0305.ARE~ ~override~ // NE Baldur's Gate: House1 L1
+              ~AR0306.ARE~ ~override~ // NE Baldur's Gate: House1 L2
+              ~AR0307.ARE~ ~override~ // NE Baldur's Gate: Counting House L1
+              ~AR0308.ARE~ ~override~ // NE Baldur's Gate: Counting House L2
+              ~AR0400.ARE~ ~override~ // Farmlands
+              ~AR0401.ARE~ ~override~ // Farmlands: Farmhouse
+              ~AR0600.ARE~ ~override~ // W Baldur's Gate
+              ~AR0601.ARE~ ~override~ // SW Baldur's Gate: Seven Suns L1
+              ~AR0602.ARE~ ~override~ // SW Baldur's Gate: Seven Suns L2
+              ~AR0603.ARE~ ~override~ // SW Baldur's Gate: Seven Suns Cellar
+              ~AR0606.ARE~ ~override~ // SW Baldur's Gate: Flaming Fist HQ Cellar
+              ~AR0607.ARE~ ~override~ // SW Baldur's Gate: Flaming Fist HQ L1
+              ~AR0608.ARE~ ~override~ // SW Baldur's Gate: Flaming Fist HQ L2
+              ~AR0609.ARE~ ~override~ // Baldur's Gate Docks: Water-Queen's House
+              ~AR0611.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne Cellar
+              ~AR0612.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne L2
+              ~AR0613.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne L3
+              ~AR0614.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne L4
+              ~AR0615.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne L5
+              ~AR0616.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne L1
+              ~AR0617.ARE~ ~override~ // W Baldur's Gate: Tremain's House L1
+              ~AR0618.ARE~ ~override~ // W Baldur's Gate: Tremain's House L2
+              ~AR0619.ARE~ ~override~ // W Baldur's Gate: Fenten's House L1
+              ~AR0620.ARE~ ~override~ // W Baldur's Gate: Fenten's House L2
+              ~AR0621.ARE~ ~override~ // Baldur's Gate Docks: Iron Throne Roof
+              ~AR0700.ARE~ ~override~ // Central Baldur's Gate
+              ~AR0702.ARE~ ~override~ // Baldur's Gate Docks: Harbormaster
+              ~AR0703.ARE~ ~override~ // E Baldur's Gate: Sorcerous Sundries L1
+              ~AR0704.ARE~ ~override~ // E Baldur's Gate: Sorcerous Sundries L2
+              ~AR0705.ARE~ ~override~ // E Baldur's Gate: Elfsong Tavern L1
+              ~AR0706.ARE~ ~override~ // E Baldur's Gate: Elfsong Tavern L2
+              ~AR0707.ARE~ ~override~ // Central Baldur's Gate: House3 L1
+              ~AR0708.ARE~ ~override~ // Central Baldur's Gate: House3 L2
+              ~AR0709.ARE~ ~override~ // Central Baldur's Gate: House2 L1
+              ~AR0710.ARE~ ~override~ // Central Baldur's Gate: House2 L2
+              ~AR0711.ARE~ ~override~ // Central Baldur's Gate: House1 L1
+              ~AR0712.ARE~ ~override~ // Central Baldur's Gate: House1 L2
+              ~AR0713.ARE~ ~override~ // Central Baldur's Gate: House5 L1
+              ~AR0714.ARE~ ~override~ // Central Baldur's Gate: House5 L2
+              ~AR0715.ARE~ ~override~ // Central Baldur's Gate: Nadine's House L1
+              ~AR0716.ARE~ ~override~ // Central Baldur's Gate: Nadine's House L2
+              ~AR0717.ARE~ ~override~ // Central Baldur's Gate: House6 L1
+              ~AR0718.ARE~ ~override~ // Central Baldur's Gate: House6 L2
+              ~AR0719.ARE~ ~override~ // Central Baldur's Gate: Felonius' Manor
+              ~AR0720.ARE~ ~override~ // Central Baldur's Gate: Drakon Tavern
+              ~AR0721.ARE~ ~override~ // Central Baldur's Gate: Poultry Store
+              ~AR0722.ARE~ ~override~ // Central Baldur's Gate: House4 L1
+              ~AR0723.ARE~ ~override~ // Central Baldur's Gate: House4 L2
+              ~AR0724.ARE~ ~override~ // Central Baldur's Gate: Gambling Tent 1
+              ~AR0725.ARE~ ~override~ // Central Baldur's Gate: Gambling Tent 2
+              ~AR0726.ARE~ ~override~ // Central Baldur's Gate: Diviner's Tent
+              ~AR0800.ARE~ ~override~ // E Baldur's Gate
+              ~AR0801.ARE~ ~override~ // E Baldur's Gate: House6 L1
+              ~AR0802.ARE~ ~override~ // E Baldur's Gate: House6 L2
+              ~AR0803.ARE~ ~override~ // E Baldur's Gate: Maltz' Weapon Shop L1
+              ~AR0804.ARE~ ~override~ // E Baldur's Gate: Maltz' Weapon Shop L2
+              ~AR0805.ARE~ ~override~ // E Baldur's Gate: Arkion's House L1
+              ~AR0806.ARE~ ~override~ // E Baldur's Gate: Arkion's House L2
+              ~AR0807.ARE~ ~override~ // E Baldur's Gate: Inn L1
+              ~AR0808.ARE~ ~override~ // E Baldur's Gate: Inn L2
+              ~AR0809.ARE~ ~override~ // E Baldur's Gate: Silence's Shop
+              ~AR0810.ARE~ ~override~ // E Baldur's Gate: Lucky Aello's
+              ~AR0811.ARE~ ~override~ // E Baldur's Gate: House1 L1
+              ~AR0812.ARE~ ~override~ // E Baldur's Gate: House1 L2
+              ~AR0813.ARE~ ~override~ // SE Baldur's Gate: Nemphre's House L1
+              ~AR0814.ARE~ ~override~ // SE Baldur's Gate: Nemphre's House L2
+              ~AR0900.ARE~ ~override~ // Wyrm's Crossing
+              ~AR0901.ARE~ ~override~ // Wyrm's Crossing: Tenya's House
+              ~AR1100.ARE~ ~override~ // SW Baldur's Gate
+              ~AR1101.ARE~ ~override~ // SW Baldur's Gate: Wiven's House L1
+              ~AR1102.ARE~ ~override~ // SW Baldur's Gate: Wiven's House L2
+              ~AR1103.ARE~ ~override~ // SW Baldur's Gate: House3 L1
+              ~AR1104.ARE~ ~override~ // SW Baldur's Gate: House3 L2
+              ~AR1105.ARE~ ~override~ // SW Baldur's Gate: House1 L1
+              ~AR1106.ARE~ ~override~ // SW Baldur's Gate: House1 L2
+              ~AR1107.ARE~ ~override~ // SW Baldur's Gate: House2 L1
+              ~AR1108.ARE~ ~override~ // SW Baldur's Gate: House2 L2
+              ~AR1109.ARE~ ~override~ // SW Baldur's Gate: Tavern L1
+              ~AR1110.ARE~ ~override~ // SW Baldur's Gate: Tavern L2
+              ~AR1111.ARE~ ~override~ // SW Baldur's Gate: Sunin's House
+              ~AR1112.ARE~ ~override~ // SW Baldur's Gate: Weapons Store 1
+              ~AR1113.ARE~ ~override~ // SW Baldur's Gate: Ye Olde Inn L1
+              ~AR1114.ARE~ ~override~ // SW Baldur's Gate: Ye Olde Inn L2
+              ~AR1115.ARE~ ~override~ // SW Baldur's Gate: Potions Store 2
+              ~AR1116.ARE~ ~override~ // SW Baldur's Gate: Weapons Store 2
+              ~AR1117.ARE~ ~override~ // SW Baldur's Gate: Potions Store 1
+              ~AR1200.ARE~ ~override~ // Baldur's Gate Docks
+              ~AR1201.ARE~ ~override~ // Baldur's Gate Docks: Ogre Magi House L1
+              ~AR1202.ARE~ ~override~ // Baldur's Gate Docks: Ogre Magi House L2
+              ~AR1203.ARE~ ~override~ // Baldur's Gate Docks: House2 L1
+              ~AR1204.ARE~ ~override~ // Baldur's Gate Docks: House2 L2
+              ~AR1205.ARE~ ~override~ // Baldur's Gate Docks: House1 L1
+              ~AR1206.ARE~ ~override~ // Baldur's Gate Docks: House1 L2
+              ~AR1207.ARE~ ~override~ // Baldur's Gate Docks: Basilisk Warehouse
+              ~AR1208.ARE~ ~override~ // Baldur's Gate Docks: Noralee's Warehouse
+              ~AR1209.ARE~ ~override~ // Baldur's Gate Docks: Larriaz' House L1
+              ~AR1210.ARE~ ~override~ // Baldur's Gate Docks: Larriaz' House L2
+              ~AR1211.ARE~ ~override~ // Baldur's Gate Docks: Ghorak's House L1
+              ~AR1212.ARE~ ~override~ // Baldur's Gate Docks: Ghorak's House L2
+              ~AR1213.ARE~ ~override~ // Baldur's Gate Docks: Cordyr's House L1
+              ~AR1214.ARE~ ~override~ // Baldur's Gate Docks: Cordyr's House L2
+              ~AR1215.ARE~ ~override~ // Baldur's Gate Docks: Jopalin's Tavern
+              ~AR1300.ARE~ ~override~ // SE Baldur's Gate
+              ~AR1301.ARE~ ~override~ // SE Baldur's Gate: Warehouse
+              ~AR1302.ARE~ ~override~ // SE Baldur's Gate: General Store 2
+              ~AR1303.ARE~ ~override~ // SE Baldur's Gate: Nadarin's Warehouse
+              ~AR1304.ARE~ ~override~ // SE Baldur's Gate: House3 L1
+              ~AR1305.ARE~ ~override~ // SE Baldur's Gate: House3 L2
+              ~AR1306.ARE~ ~override~ // SE Baldur's Gate: Inn L1
+              ~AR1307.ARE~ ~override~ // SE Baldur's Gate: Inn L2
+              ~AR1308.ARE~ ~override~ // SE Baldur's Gate: House4 L1
+              ~AR1309.ARE~ ~override~ // SE Baldur's Gate: House4 L2
+              ~AR1310.ARE~ ~override~ // SE Baldur's Gate: House2 L1
+              ~AR1311.ARE~ ~override~ // SE Baldur's Gate: House2 L2
+              ~AR1312.ARE~ ~override~ // SE Baldur's Gate: Gantolandan's House L1
+              ~AR1313.ARE~ ~override~ // SE Baldur's Gate: Gantolandan's House L2
+              ~AR1314.ARE~ ~override~ // SE Baldur's Gate: House1 L1
+              ~AR1315.ARE~ ~override~ // SE Baldur's Gate: House1 L2
+              ~AR1316.ARE~ ~override~ // SE Baldur's Gate: Taxek's House L1
+              ~AR1317.ARE~ ~override~ // SE Baldur's Gate: Taxek's House L2
+              ~AR1320.ARE~ ~override~ // SE Baldur's Gate: General Store 1
+              ~AR1400.ARE~ ~override~ // Fishing Village
+              ~AR1401.ARE~ ~override~ // Fishing Village: Ankheg Pit
+              ~AR1402.ARE~ ~override~ // Fishing Village: House1
+              ~AR1403.ARE~ ~override~ // Fishing Village: House2
+              ~AR1404.ARE~ ~override~ // Fishing Village: Farmer Brun's House
+              ~AR1600.ARE~ ~override~ // Cloakwood Druids
+              ~AR1601.ARE~ ~override~ // Cloakwood Druids: Treehouse L1
+              ~AR1602.ARE~ ~override~ // Cloakwood Druids: Treehouse L2
+              ~AR1603.ARE~ ~override~ // Cloakwood Druids: Peter's Cave
+              ~AR1700.ARE~ ~override~ // Cloakwood Wyverns
+              ~AR1800.ARE~ ~override~ // Cloakwood Mines
+              ~AR1801.ARE~ ~override~ // Cloakwood Mines: L1
+              ~AR1802.ARE~ ~override~ // Cloakwood Mines: L3
+              ~AR1803.ARE~ ~override~ // Cloakwood Mines: L4
+              ~AR1804.ARE~ ~override~ // Cloakwood Mines: L2
+              ~AR1805.ARE~ ~override~ // Cloakwood Mines: Barracks L1
+              ~AR1806.ARE~ ~override~ // Cloakwood Mines: Barracks L2
+              ~AR1807.ARE~ ~override~ // Cloakwood Mines: Mine Lift
+              ~AR1808.ARE~ ~override~ // Cloakwood Mines: Storehouse
+              ~AR1809.ARE~ ~override~ // Cloakwood Mines: Mine Shed
+              ~AR1900.ARE~ ~override~ // Bandit Camp
+              ~AR1901.ARE~ ~override~ // Bandit Camp: Raemon's Tent
+              ~AR1902.ARE~ ~override~ // Bandit Camp: Tent2
+              ~AR1903.ARE~ ~override~ // Bandit Camp: Gnoll Cave
+              ~AR1904.ARE~ ~override~ // Bandit Camp: Tersus' Tent
+              ~AR1905.ARE~ ~override~ // Bandit Camp: Tent1
+              ~AR1906.ARE~ ~override~ // Bandit Camp: Tent3
+              ~AR1907.ARE~ ~override~ // Bandit Camp: Tent4
+              ~AR2100.ARE~ ~override~ // Cloakwood Nest
+              ~AR2101.ARE~ ~override~ // Cloakwood Nest: Spider Nest
+              ~AR2200.ARE~ ~override~ // Cloakwood Lodge
+              ~AR2215.ARE~ ~override~ // Cloakwood Lodge: Hunting Lodge
+              ~AR2300.ARE~ ~override~ // Friendly Arm Inn
+              ~AR2301.ARE~ ~override~ // Friendly Arm Inn: L1
+              ~AR2302.ARE~ ~override~ // Friendly Arm Inn: L2
+              ~AR2303.ARE~ ~override~ // Friendly Arm Inn: L3
+              ~AR2304.ARE~ ~override~ // Friendly Arm Inn: Temple of Wisdom
+              ~AR2305.ARE~ ~override~ // Friendly Arm Inn: House
+              ~AR2306.ARE~ ~override~ // Friendly Arm Inn: Joia's House
+              ~AR2400.ARE~ ~override~ // Peldvale
+              ~AR2600.ARE~ ~override~ // Candlekeep
+              ~AR2602.ARE~ ~override~ // Candlekeep: Priest's Quarters
+              ~AR2605.ARE~ ~override~ // Candlekeep: Infirmary
+              ~AR2606.ARE~ ~override~ // Candlekeep: Storehouse
+              ~AR2607.ARE~ ~override~ // Candlekeep: Bunkhouse
+              ~AR2608.ARE~ ~override~ // Candlekeep: Library L1
+              ~AR2609.ARE~ ~override~ // Candlekeep: Library L2
+              ~AR2610.ARE~ ~override~ // Candlekeep: Library L3
+              ~AR2611.ARE~ ~override~ // Candlekeep: Library L4
+              ~AR2612.ARE~ ~override~ // Candlekeep: Library L5
+              ~AR2613.ARE~ ~override~ // Candlekeep: Catacombs L1 Antechamber
+              ~AR2614.ARE~ ~override~ // Candlekeep: Library L6
+              ~AR2615.ARE~ ~override~ // Candlekeep: Catacombs L1
+              ~AR2616.ARE~ ~override~ // Candlekeep: Inn L1
+              ~AR2617.ARE~ ~override~ // Candlekeep: Inn L2
+              ~AR2618.ARE~ ~override~ // Candlekeep: Barracks
+              ~AR2619.ARE~ ~override~ // Candlekeep: Catacombs L2
+              ~AR2626.ARE~ ~override~ // Candlekeep: Ch.6
+              ~AR2627.ARE~ ~override~ // Candlekeep: Ch.6 Priest's Quarters
+              ~AR2628.ARE~ ~override~ // Candlekeep: Infirmary
+              ~AR2629.ARE~ ~override~ // Candlekeep: Ch.6 Inn L1
+              ~AR2630.ARE~ ~override~ // Candlekeep: Ch.6 Inn L2
+              ~AR2631.ARE~ ~override~ // Candlekeep: Ch.6 Barracks
+              ~AR2632.ARE~ ~override~ // Candlekeep: Ch.6 Bunkhouse
+              ~AR2633.ARE~ ~override~ // Candlekeep: Ch.6 Infirmary
+              ~AR2643.ARE~ ~override~ // Candlekeep: Obe's Cellar
+              ~AR2700.ARE~ ~override~ // Lion's Way
+              ~AR2800.ARE~ ~override~ // Coast Way
+              ~AR2900.ARE~ ~override~ // Larswood
+              ~AR3000.ARE~ ~override~ // Spider Wood
+              ~AR3100.ARE~ ~override~ // Shipwreck's Coast
+              ~AR3200.ARE~ ~override~ // High Hedge
+              ~AR3201.ARE~ ~override~ // High Hedge: House
+              ~AR3202.ARE~ ~override~ // High Hedge: Thalanthyr's Abode
+              ~AR3300.ARE~ ~override~ // Beregost
+              ~AR3301.ARE~ ~override~ // Beregost: Thunderhammer Smithy
+              ~AR3302.ARE~ ~override~ // Beregost: House19
+              ~AR3303.ARE~ ~override~ // Beregost: Red Sheaf L2
+              ~AR3304.ARE~ ~override~ // Beregost: Jovial Juggler L1
+              ~AR3305.ARE~ ~override~ // Beregost: Jovial Juggler L2F
+              ~AR3306.ARE~ ~override~ // Beregost: Jovial Juggler L2R
+              ~AR3307.ARE~ ~override~ // Beregost: Burning Wizard L1
+              ~AR3308.ARE~ ~override~ // Beregost: Burning Wizard L2
+              ~AR3309.ARE~ ~override~ // Beregost: House13 L1
+              ~AR3310.ARE~ ~override~ // Beregost: House13 L2
+              ~AR3311.ARE~ ~override~ // Beregost: House12 L1
+              ~AR3312.ARE~ ~override~ // Beregost: House12 L2
+              ~AR3313.ARE~ ~override~ // Beregost: Mirianne's House L1
+              ~AR3314.ARE~ ~override~ // Beregost: Mirianne's House L2
+              ~AR3315.ARE~ ~override~ // Beregost: Landrin's House
+              ~AR3316.ARE~ ~override~ // Beregost: House18
+              ~AR3317.ARE~ ~override~ // Beregost: House17
+              ~AR3318.ARE~ ~override~ // Beregost: House15
+              ~AR3319.ARE~ ~override~ // Beregost: House16
+              ~AR3320.ARE~ ~override~ // Beregost: Travenhurst Manor L1
+              ~AR3321.ARE~ ~override~ // Beregost: Travenhurst Manor L2
+              ~AR3322.ARE~ ~override~ // Beregost: Servant's Quarters
+              ~AR3323.ARE~ ~override~ // Beregost: House20 L1
+              ~AR3324.ARE~ ~override~ // Beregost: House20 L2
+              ~AR3325.ARE~ ~override~ // Beregost: House23 L1
+              ~AR3326.ARE~ ~override~ // Beregost: House23 L2
+              ~AR3327.ARE~ ~override~ // Beregost: House14 L1
+              ~AR3328.ARE~ ~override~ // Beregost: House14 L2
+              ~AR3329.ARE~ ~override~ // Beregost: House21 L1
+              ~AR3330.ARE~ ~override~ // Beregost: House21 L2
+              ~AR3331.ARE~ ~override~ // Beregost: House11 L1
+              ~AR3332.ARE~ ~override~ // Beregost: House11 L2
+              ~AR3333.ARE~ ~override~ // Beregost: Firebead's House L1
+              ~AR3334.ARE~ ~override~ // Beregost: Firebead's House L2
+              ~AR3335.ARE~ ~override~ // Beregost: House10 L1
+              ~AR3336.ARE~ ~override~ // Beregost: House10 L2
+              ~AR3337.ARE~ ~override~ // Beregost: House22 L1
+              ~AR3338.ARE~ ~override~ // Beregost: House22 L2
+              ~AR3339.ARE~ ~override~ // Beregost: House01 L1
+              ~AR3340.ARE~ ~override~ // Beregost: House01 L2
+              ~AR3341.ARE~ ~override~ // Beregost: House02 L1
+              ~AR3342.ARE~ ~override~ // Beregost: House02 L2
+              ~AR3343.ARE~ ~override~ // Beregost: House03
+              ~AR3344.ARE~ ~override~ // Beregost: House07
+              ~AR3345.ARE~ ~override~ // Beregost: House04 L1
+              ~AR3346.ARE~ ~override~ // Beregost: House04 L2
+              ~AR3347.ARE~ ~override~ // Beregost: House05 L1
+              ~AR3348.ARE~ ~override~ // Beregost: House05 L2
+              ~AR3349.ARE~ ~override~ // Beregost: House06 L1
+              ~AR3350.ARE~ ~override~ // Beregost: House06 L2
+              ~AR3351.ARE~ ~override~ // Beregost: Feldepost's Inn L1
+              ~AR3352.ARE~ ~override~ // Beregost: Feldepost's Inn L2
+              ~AR3353.ARE~ ~override~ // Beregost: Kagain's Store
+              ~AR3354.ARE~ ~override~ // Beregost: House09
+              ~AR3355.ARE~ ~override~ // Beregost: House08
+              ~AR3356.ARE~ ~override~ // Beregost: House08
+              ~AR3357.ARE~ ~override~ // Beregost: Red Sheaf L1
+              ~AR3400.ARE~ ~override~ // Temple
+              ~AR3401.ARE~ ~override~ // Temple: Vestibule
+              ~AR3402.ARE~ ~override~ // Temple: Song of the Morning
+              ~AR3500.ARE~ ~override~ // Mutamin's Garden
+              ~AR3600.ARE~ ~override~ // Lighthouse
+              ~AR3601.ARE~ ~override~ // Lighthouse: Black Alaric's Cave
+              ~AR3700.ARE~ ~override~ // Red Canyons
+              ~AR3800.ARE~ ~override~ // South Beregost Road
+              ~AR3802.ARE~ ~override~ // South Beregost Road: Cave
+              ~AR3900.ARE~ ~override~ // Ulcaster
+              ~AR3901.ARE~ ~override~ // Ulcaster Ruins
+              ~AR4000.ARE~ ~override~ // Gullykin
+              ~AR4001.ARE~ ~override~ // Gullykin: Jenkal's House L1
+              ~AR4002.ARE~ ~override~ // Gullykin: Jenkal's House Cellar
+              ~AR4003.ARE~ ~override~ // Gullykin: Winery L1
+              ~AR4004.ARE~ ~override~ // Gullykin: Winery Cellar
+              ~AR4005.ARE~ ~override~ // Gullykin: House1 L1
+              ~AR4006.ARE~ ~override~ // Gullykin: House1 Cellar
+              ~AR4007.ARE~ ~override~ // Gullykin: House3 L1
+              ~AR4008.ARE~ ~override~ // Gullykin: House3 Cellar
+              ~AR4009.ARE~ ~override~ // Gullykin: House4 L1
+              ~AR4010.ARE~ ~override~ // Gullykin: House4 Cellar
+              ~AR4011.ARE~ ~override~ // Gullykin: House5 L1
+              ~AR4012.ARE~ ~override~ // Gullykin: House5 Cellar
+              ~AR4013.ARE~ ~override~ // Gullykin: House2 L1
+              ~AR4014.ARE~ ~override~ // Gullykin: House2 Cellar
+              ~AR4100.ARE~ ~override~ // Archaeological Site
+              ~AR4101.ARE~ ~override~ // Archaeological Site: Tomb
+              ~AR4200.ARE~ ~override~ // Fisherman's Lake
+              ~AR4300.ARE~ ~override~ // North Nashkel Road
+              ~AR4400.ARE~ ~override~ // Lonely Peaks
+              ~AR4401.ARE~ ~override~ // Lonely Peaks: Cave
+              ~AR4500.ARE~ ~override~ // Firewine Bridge
+              ~AR4501.ARE~ ~override~ // Cloakwood Wyverns: Wyvern Cave
+              ~AR4600.ARE~ ~override~ // Bear River
+              ~AR4700.ARE~ ~override~ // Xvart Village
+              ~AR4701.ARE~ ~override~ // Xvart Village: Cave
+              ~AR4800.ARE~ ~override~ // Nashkel
+              ~AR4801.ARE~ ~override~ // Nashkel: Inn
+              ~AR4802.ARE~ ~override~ // Nashkel: Temple of Helm
+              ~AR4803.ARE~ ~override~ // Nashkel: Store
+              ~AR4804.ARE~ ~override~ // Nashkel: Manor House L1
+              ~AR4805.ARE~ ~override~ // Nashkel: Manor House L2
+              ~AR4806.ARE~ ~override~ // Nashkel: Joseph's House
+              ~AR4807.ARE~ ~override~ // Nashkel: House1
+              ~AR4808.ARE~ ~override~ // Nashkel: House2
+              ~AR4809.ARE~ ~override~ // Nashkel: Belching Dragon Tavern
+              ~AR4810.ARE~ ~override~ // Nashkel: Garrison
+              ~AR4900.ARE~ ~override~ // Nashkel Carnival
+              ~AR4901.ARE~ ~override~ // Nashkel Carnival: Armor Tent
+              ~AR4902.ARE~ ~override~ // Nashkel Carnival: Lotus Tent
+              ~AR4903.ARE~ ~override~ // Nashkel Carnival: Vitiare's Tent
+              ~AR4904.ARE~ ~override~ // Nashkel Carnival: Gambling Tent
+              ~AR4905.ARE~ ~override~ // Nashkel Carnival: Potion Tent
+              ~AR4906.ARE~ ~override~ // Nashkel Carnival: Zordral's Tent
+              ~AR4907.ARE~ ~override~ // Nashkel Carnival: Magic Items Tent
+              ~AR4908.ARE~ ~override~ // Nashkel Carnival: Melee Weapons Tent
+              ~AR4909.ARE~ ~override~ // Nashkel Carnival: Ranged Weapons Tent
+              ~AR5000.ARE~ ~override~ // Valley of the Tombs
+              ~AR5001.ARE~ ~override~ // Valley of the Tombs: Tomb
+              ~AR5100.ARE~ ~override~ // Gnoll Stronghold
+              ~AR5101.ARE~ ~override~ // Gnoll Stronghold: Xvart Cave
+              ~AR5102.ARE~ ~override~ // Gnoll Stronghold: Tome Cave
+              ~AR5103.ARE~ ~override~ // Gnoll Stronghold: Crawler Cave
+              ~AR5200.ARE~ ~override~ // Dryad Falls
+              ~AR5201.ARE~ ~override~ // Firewine Ruins
+              ~AR5202.ARE~ ~override~ // Dryad Falls: Cave
+              ~AR5300.ARE~ ~override~ // Fire Leaf Forest
+              ~AR5400.ARE~ ~override~ // Nashkel Mines
+              ~AR5401.ARE~ ~override~ // Nashkel Mines: L1
+              ~AR5402.ARE~ ~override~ // Nashkel Mines: L2
+              ~AR5403.ARE~ ~override~ // Nashkel Mines: L3
+              ~AR5404.ARE~ ~override~ // Nashkel Mines: L4
+              ~AR5405.ARE~ ~override~ // Nashkel Mines: Mulahey's Cave
+              ~AR5406.ARE~ ~override~ // Nashkel Mines: Cabin
+              ~AR5500.ARE~ ~override~ // Gibberling Mountains
+              ~AR5506.ARE~ ~override~ // Candlekeep Caves
+              ~AR5600.ARE~ ~override~ // Encounter: Plains1
+              ~AR5601.ARE~ ~override~ // Encounter: Plains2
+              ~AR5700.ARE~ ~override~ // Encounter: Canyon1
+              ~AR5701.ARE~ ~override~ // Encounter: Canyon2
+              ~AR5800.ARE~ ~override~ // Encounter: Cliff1
+              ~AR5801.ARE~ ~override~ // Encounter: Cliff2
+              ~AR5900.ARE~ ~override~ // Encounter: Grassland1
+              ~AR5901.ARE~ ~override~ // Encounter: Grassland2
+              ~AR6000.ARE~ ~override~ // Encounter: Forest1
+              ~AR6001.ARE~ ~override~ // Encounter: Forest2
+              ~AR6100.ARE~ ~override~ // Encounter: Road
+  WRITE_EVALUATED_ASCII 0x94 ~%SOURCE_RES%~ #8 // area script
+BUT_ONLY_IF_IT_CHANGES
+
+/* Tales of the Sword Coast Areas */
+
+/* Durlag's Tower: Elemental Chambers */
+COPY_EXISTING ~AR0507.ARE~ ~override~ // TotSC: Durlag's Tower: Ice Chamber
+              ~AR0508.ARE~ ~override~ // TotSC: Durlag's Tower: Fire Chamber
+              ~AR0509.ARE~ ~override~ // TotSC: Durlag's Tower: Air Chamber
+              ~AR0510.ARE~ ~override~ // TotSC: Durlag's Tower: Earth Chamber
+  WRITE_ASCII 0x94 ~AR0507~ #8 // area script		
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0500.ARE~ ~override~ // TotSC: Durlag's Tower 
+              ~AR0501.ARE~ ~override~ // TotSC: Durlag's Tower: Cellar 
+              ~AR0502.ARE~ ~override~ // TotSC: Durlag's Tower: L1 
+              ~AR0503.ARE~ ~override~ // TotSC: Durlag's Tower: L2 
+              ~AR0504.ARE~ ~override~ // TotSC: Durlag's Tower: L3
+              ~AR0505.ARE~ ~override~ // TotSC: Durlag's Tower: L4
+              ~AR0506.ARE~ ~override~ // TotSC: Durlag's Tower: Chessboard
+              ~AR0511.ARE~ ~override~ // TotSC: Durlag's Tower: D1
+              ~AR0512.ARE~ ~override~ // TotSC: Durlag's Tower: D2
+              ~AR0513.ARE~ ~override~ // TotSC: Durlag's Tower: D3
+              ~AR0514.ARE~ ~override~ // TotSC: Durlag's Tower: D4
+              ~AR0515.ARE~ ~override~ // TotSC: Durlag's Tower: Compass Room
+              ~AR0516.ARE~ ~override~ // TotSC: Durlag's Tower: Demonknight's Chamber
+              ~AR1000.ARE~ ~override~ // TotSC: Ulgoth's Beard
+              ~AR1001.ARE~ ~override~ // TotSC: Ulgoth's Beard: Inn
+              ~AR1002.ARE~ ~override~ // TotSC: Ulgoth's Beard: Demon's Chamber
+              ~AR1003.ARE~ ~override~ // TotSC: Ulgoth's Beard: Storehouse
+              ~AR1004.ARE~ ~override~ // TotSC: Ulgoth's Beard: Mendas' House
+              ~AR1005.ARE~ ~override~ // TotSC: Ulgoth's Beard: Therella's House
+              ~AR1006.ARE~ ~override~ // TotSC: Ulgoth's Beard: House2
+              ~AR1007.ARE~ ~override~ // TotSC: Ulgoth's Beard: House1
+              ~AR1008.ARE~ ~override~ // TotSC: Ice Island
+              ~AR1009.ARE~ ~override~ // TotSC: Ice Island: Maze L1
+              ~AR1500.ARE~ ~override~ // TotSC: Isle of Balduran (North)
+              ~AR1501.ARE~ ~override~ // TotSC: Isle of Balduran (North): Ship D1
+              ~AR1502.ARE~ ~override~ // TotSC: Isle of Balduran (North): Ship D2
+              ~AR1503.ARE~ ~override~ // TotSC: Isle of Balduran (North): Ship D3
+              ~AR1504.ARE~ ~override~ // TotSC: Isle of Balduran (North): Ship D4
+              ~AR1505.ARE~ ~override~ // TotSC: Isle of Balduran (North): Dradeel's House
+              ~AR2000.ARE~ ~override~ // TotSC: Isle of Balduran (South)
+              ~AR2001.ARE~ ~override~ // TotSC: Isle of Balduran (South): Great Hut
+              ~AR2002.ARE~ ~override~ // TotSC: Isle of Balduran (South): Kaishas' Hut
+              ~AR2003.ARE~ ~override~ // TotSC: Isle of Balduran (South): Large Hut 3
+              ~AR2004.ARE~ ~override~ // TotSC: Isle of Balduran (South): Large Hut 2
+              ~AR2005.ARE~ ~override~ // TotSC: Isle of Balduran (South): Large Hut 4
+              ~AR2006.ARE~ ~override~ // TotSC: Isle of Balduran (South): Large Hut 1
+              ~AR2007.ARE~ ~override~ // TotSC: Isle of Balduran (South): Harbor Hut
+              ~AR2008.ARE~ ~override~ // TotSC: Isle of Balduran (South): Store Hut 2
+              ~AR2009.ARE~ ~override~ // TotSC: Isle of Balduran (South): Store Hut 1
+              ~AR2010.ARE~ ~override~ // TotSC: Isle of Balduran (South): Store Hut 4
+              ~AR2011.ARE~ ~override~ // TotSC: Isle of Balduran (South): Store Hut 3
+              ~AR2012.ARE~ ~override~ // TotSC: Werewolf Caverns
+  WRITE_EVALUATED_ASCII 0x94 ~%SOURCE_RES%~ #8 // area script
+BUT_ONLY_IF_IT_CHANGES
+
+ACTION_IF FILE_EXISTS_IN_GAME ~AR1010.ARE~ THEN BEGIN
+  COPY_EXISTING ~AR1010.ARE~ ~override~ // TotSC: Ice Island: Maze L2 Restored by UB
+    WRITE_EVALUATED_ASCII 0x94 ~%SOURCE_RES%~ #8 // area script
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+/* New BGEE Areas */
+COPY_EXISTING ~OH1000.ARE~ ~override~ // Senjak's Ambush
+              ~OH2000.ARE~ ~override~ // Adoy's Enclave
+              ~OH2010.ARE~ ~override~ // Adoy's Enclave: Cave
+              ~OH3000.ARE~ ~override~ // Cloud Peaks
+              ~OH3010.ARE~ ~override~ // Dark Moon Temple
+              ~OH3020.ARE~ ~override~ // Dark Moon Caves
+              ~OH3100.ARE~ ~override~ // Cloud Peaks Summit
+  WRITE_EVALUATED_ASCII 0x94 ~%SOURCE_RES%~ #8 // area script		
+BUT_ONLY_IF_IT_CHANGES

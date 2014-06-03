@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_3_AstroBryGuy_20140521~
+VERSION ~v21_PRERELEASE_20140602~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -1505,15 +1505,15 @@ END // of A_I G_I Tutu, BGT
 	END /*of F_E IN */
 
   /* Scripts */
-	COMPILE ~bg1npc/phase1/baf/x#mag10b.baf~  /* For Bently */
-    COMPILE ~bg1npc/phase1/baf/x#mag10c.baf~  /* For Dushai */
-    COMPILE ~bg1npc/phase1/baf/x#mag14d.baf~  /* For Tellan */
-    COMPILE ~bg1npc/phase1/baf/x#prs10b.baf~  /* For Dushai */
+	COMPILE ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
+    COMPILE ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
+    COMPILE ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
+    COMPILE ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */
 
 
   /* .2da patching */
 	
-  /* pdialog.2da preparation */
+  /* pdialog.2da preparation - not needed for BGEE */
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     COPY_EXISTING ~pdialog.2da~ ~override~ 
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~^JOIN_DIALOG_FILE\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~JOIN_DIALOG_FILE\1DREAM_SCRIPT_FILE~
@@ -1666,10 +1666,6 @@ END // of A_I G_I Tutu, BGT
   	BUT_ONLY_IF_IT_CHANGES
   END
   
-  /* Only on Tutu or BGT until we recheck BG:EE stores 
-     AstroBryGuy: Works in BGEE with update to SPELDESC.2DA */
-  // ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
-
     /* CamDawg's Temple Healing Fix */
     /* give all stores the normal suite of cures available */
     COPY_EXISTING_REGEXP GLOB ~^.+\.sto$~ ~override~
@@ -1811,7 +1807,6 @@ END // of A_I G_I Tutu, BGT
         END
       END
       BUT_ONLY_IF_IT_CHANGES
-  // END
 
   /* Update SPELDESC.2DA for Temple Fix in BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
@@ -2058,13 +2053,17 @@ END
     COMPILE_BAF_TO_BCS
   BUT_ONLY_IF_IT_CHANGES
 
-  /* Tutu Area Script Assignment Patching: All Areas Script ID'd */
+  /* Area Script Assignment Patching: All Areas Script ID'd */
+  /* Tutu */
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     INCLUDE ~BG1NPC\LIB\tutu_area_script_assign.tph~
+  END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  /* BGEE */
+    INCLUDE ~BG1NPC\LIB\bgee_area_script_assign.tph~
   END
 
 	/* Area Type Flagging */
-    /* ToSC only: Tutu, BGT, and BGEE */
+    /* TotSC only */
     ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if TotSC is installed
       COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
                     ~%IsleofBalduranS%.are~ ~override~
@@ -2075,7 +2074,7 @@ END
       BUT_ONLY_IF_IT_CHANGES
     END
   
-    /* FOREST and OUTDOOR: Tutu, BGT, and BGEE */
+    /* FOREST and OUTDOOR */
     COPY_EXISTING ~%FishingVillage%.are~ ~override~
                   ~%Peldvale%.are~ ~override~
                   ~%LionsWay%.are~ ~override~
@@ -2102,7 +2101,7 @@ END
       WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
     BUT_ONLY_IF_IT_CHANGES
   
-    /* OUTDOOR ONLY: Tutu, BGT, and BGEE */
+    /* OUTDOOR ONLY */
     COPY_EXISTING ~%GnollStronghold%.are~ ~override~
                   ~%NashkelMines%.are~ ~override~
                   ~%FriendlyArmInn%.are~ ~override~
@@ -2120,8 +2119,8 @@ END
       WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
     BUT_ONLY_IF_IT_CHANGES
   
-    ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* WizWom's Tutu NPC Battle fix: TUTU only, not compatible with BGT scripts */
+    ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
       COPY_EXISTING ~%EDWIN_BCS%.bcs~ ~override~
                     ~%ELDOTH_BCS%.bcs~ ~override~
                     ~%SHARTEEL_BCS%.bcs~ ~override~
@@ -2142,8 +2141,8 @@ END
     END
 
 
-    ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
     /* Miloch's bugged spell/script fixes (required for Gnomes) */
+    ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
       COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
         DECOMPILE_BCS_TO_BAF
           REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
@@ -2218,6 +2217,14 @@ BEGIN @1007
         WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon8
       END
 
+  /* BGEE: Add Ajantis' shield to item_use.2da */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~ 
+  	  UNLESS ~x#ajshld~
+  	COPY_EXISTING ~item_use.2da~ ~override~
+	  PRETTY_PRINT_2DA
+  END
+  
   /* Give Ajantis his shield and a bastard sword (no proficiency) */
   COPY_EXISTING ~%tutu_var%ajanti.cre~  ~override~
                 ~%tutu_var%ajanti4.cre~ ~override~
@@ -2529,7 +2536,7 @@ BEGIN @1007
       USING ~BG1NPC/TRA/%LANGUAGE%/P#FW2700.tra~
 
   /* General use scripts */
-  COMPILE ~bg1npc/phase2/baf/x#gpsht.baf~ 
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#gpsht.baf~ 
   COMPILE ~bg1npc/phase2/baf/x#shout6.baf~
   COMPILE ~bg1npc/phase2/baf/x#fight2.baf~ 
 
@@ -2850,10 +2857,15 @@ BEGIN @1007
     WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TARSGT~ #8 //  Creature script - Default
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
 
-  /* Add burned corpse CRE file for BGEE */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	COPY ~bg1npc/bgee/cre/burn01.cre~ ~override~
-  END
+  /* Burned corpse */
+  COPY ~bg1npc/phase2/cre/x#burn01.cre~ ~override~
+  	PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+  		SAY NAME1 #17309  // Male body
+  		SAY NAME2 #17309  // Male body
+  	END ELSE BEGIN	/* Tutu, BGT */
+  		SAY NAME1 #20323  // Body
+  		SAY NAME2 #20323  // Body
+    END		
 
   /* Adding Brilla's DV */
   COPY_EXISTING ~%tutu_var%brilla.cre~ ~override~
@@ -3070,12 +3082,11 @@ BEGIN @1007
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* Jan Jansen soundset not present in BGEE, use default gnome instead */
     	SAY INITIAL_MEETING @557
-    	SAY BATTLE_CRY1 @558
-    	SAY SELECT_COMMON1 @557
     	SAY DAMAGE @559
     	SAY DYING @560
-    	SAY PICKED_POCKET @558
-    	SAY EXISTANCE1 @561
+    	SAY SELECT_COMMON1 @557
+    	SAY SELECT_COMMON2 @558
+    	SAY SELECT_COMMON3 @561
     END ELSE BEGIN /* Tutu and BGT */
 	    SAY MORALE @84
     	SAY HAPPY @85
@@ -3132,13 +3143,13 @@ BEGIN @1007
     SAY NAME2 @125
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BG2 sounds not in BGEE */
-    	SAY INITIAL_MEETING @731
-    	SAY BATTLE_CRY1 @729
-    	SAY BATTLE_CRY2 @731
-    	SAY DAMAGE @733
-    	SAY DYING @734
-    	SAY SELECT_COMMON1 @730
-    	SAY SELECT_COMMON2 @732
+    	SAY INITIAL_MEETING @702 // x#ogref3
+    	SAY BATTLE_CRY1 @700 // x#ogref1
+    	SAY BATTLE_CRY2 @702 // x#ogref3
+    	SAY DAMAGE @704 // x#ogref5
+    	SAY DYING @705 // x#ogref6
+    	SAY SELECT_COMMON1 @701 // x#ogref2
+    	SAY SELECT_COMMON2 @703 // x#ogref4
     END ELSE BEGIN /* Tutu, BGT */    	
 	    SAY INITIAL_MEETING @126
     	SAY UNHAPPY_BREAKING @127
@@ -3158,13 +3169,13 @@ BEGIN @1007
     SAY NAME2 @135
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BG2 sounds not in BGEE */
-    	SAY INITIAL_MEETING @731
-    	SAY BATTLE_CRY1 @729
-    	SAY BATTLE_CRY2 @731
-    	SAY DAMAGE @733
-    	SAY DYING @734
-    	SAY SELECT_COMMON1 @730
-    	SAY SELECT_COMMON2 @732
+    	SAY INITIAL_MEETING @702 // x#ogref3
+    	SAY BATTLE_CRY1 @700 // x#ogref1
+    	SAY BATTLE_CRY2 @702 // x#ogref3
+    	SAY DAMAGE @704 // x#ogref5
+    	SAY DYING @705 // x#ogref6
+    	SAY SELECT_COMMON1 @701 // x#ogref2
+    	SAY SELECT_COMMON2 @703 // x#ogref4
     END ELSE BEGIN /* Tutu, BGT */    	
 	    SAY INITIAL_MEETING @126
     	SAY UNHAPPY_BREAKING @127
@@ -3192,31 +3203,38 @@ BEGIN @1007
        ~BG1NPC/Phase2/cre/x#assi11.cre~ ~override~
     SAY NAME1 @136
     SAY NAME2 @136
-    SAY LEADER @137
-    SAY TIRED @138
-    SAY BORED @139
-    SAY BATTLE_CRY1 @140
-    SAY BATTLE_CRY2 @141
-    SAY BATTLE_CRY3 @142
-    SAY DAMAGE @143
-    SAY DYING @144
-    SAY HURT @145
-    SAY SELECT_COMMON1 @146
-    SAY SELECT_COMMON2 @147
-    SAY SELECT_COMMON3 @148
-    SAY SELECT_ACTION1 @149
-    SAY SELECT_ACTION2 @150
-    SAY SELECT_ACTION3 @151
-    SAY SELECT_RARE1 @152
-    SAY SELECT_RARE2 @153
-    SAY CRITICAL_HIT @154
-    SAY CRITICAL_MISS @155
-    SAY TARGET_IMMUNE @156
-    SAY INVENTORY_FULL @157
-    SAY PICKED_POCKET @158
-    SAY HIDDEN_IN_SHADOWS @159
-    SAY SPELL_DISRUPTED @160
-    SAY SET_A_TRAP @161
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BG2 sounds not in BGEE */
+    /* x#assi01-11 are illusions created by x#david that don't speak */
+    	WRITE_LONG DAMAGE BNOT (0x0)
+    	WRITE_LONG DYING BNOT (0x0)
+    END ELSE BEGIN /* Tutu, BGT */    	
+    	SAY LEADER @137
+    	SAY TIRED @138
+    	SAY BORED @139
+    	SAY BATTLE_CRY1 @140
+    	SAY BATTLE_CRY2 @141
+    	SAY BATTLE_CRY3 @142
+    	SAY DAMAGE @143
+    	SAY DYING @144
+    	SAY HURT @145
+    	SAY SELECT_COMMON1 @146
+    	SAY SELECT_COMMON2 @147
+    	SAY SELECT_COMMON3 @148
+    	SAY SELECT_ACTION1 @149
+    	SAY SELECT_ACTION2 @150
+    	SAY SELECT_ACTION3 @151
+    	SAY SELECT_RARE1 @152
+    	SAY SELECT_RARE2 @153
+    	SAY CRITICAL_HIT @154
+    	SAY CRITICAL_MISS @155
+    	SAY TARGET_IMMUNE @156
+    	SAY INVENTORY_FULL @157
+    	SAY PICKED_POCKET @158
+    	SAY HIDDEN_IN_SHADOWS @159
+    	SAY SPELL_DISRUPTED @160
+    	SAY SET_A_TRAP @161
+	END
     SAY BIO @162
     WRITE_ASCII 0x2CC ~X#ASSIST~ #8 //  dialog
     WRITE_ASCII 0x3c ~~ #8 // large portrait
@@ -3282,6 +3300,7 @@ BEGIN @1007
     SAY DAMAGE @473
     SAY DYING @472   
     SAY SELECT_COMMON1 @474
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
     
   COPY ~BG1NPC/Phase2/cre/x#mazuri.cre~ ~override~
@@ -3292,6 +3311,7 @@ BEGIN @1007
     SAY DAMAGE @562
     SAY DYING @563 
     SAY SELECT_COMMON1 @177
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
 
   COPY ~BG1NPC/Phase2/cre/x#gael.cre~ ~override~
@@ -3302,43 +3322,49 @@ BEGIN @1007
     SAY DAMAGE @562
     SAY DYING @563 
     SAY SELECT_COMMON1 @177
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
 
   COPY ~BG1NPC/Phase2/cre/x#siene.cre~ ~override~
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @636
     SAY NAME2 @636
-    SAY DAMAGE @721
-    SAY DYING @722
+    SAY DAMAGE #11075 // [ELF FEMALE 5]
+    SAY DYING #11076 // [ELF FEMALE 6]
     SAY SELECT_COMMON1 @720
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 
   COPY ~BG1NPC/Phase2/cre/x#minuw.cre~ ~override~
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @637
     SAY NAME2 @637
-    SAY DAMAGE @721
-    SAY DYING @722
+    SAY DAMAGE #11075 // [ELF FEMALE 5]
+    SAY DYING #11076 // [ELF FEMALE 6]
     SAY SELECT_COMMON1 @720
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 	
   COPY ~BG1NPC/Phase2/cre/x#diala.cre~ ~override~
   	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @638
     SAY NAME2 @638
-    SAY DAMAGE @721
-    SAY DYING @722
+    SAY DAMAGE #11075 // [ELF FEMALE 5]
+    SAY DYING #11076 // [ELF FEMALE 6]
     SAY SELECT_COMMON1 @720
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 
   COPY ~BG1NPC/Phase2/cre/x#wdoe.cre~ ~override~
   	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @639
     SAY NAME2 @639
-    SAY INITIAL_MEETING @769
-    SAY SELECT_COMMON1 @769
-    SAY DAMAGE @770
-    SAY DYING @771
+    SAY INITIAL_MEETING @706 // [MOOSE01]
+    SAY SELECT_COMMON1 @706 // [MOOSE01]
+    SAY DAMAGE @707 // [MOOSE06]
+    SAY DYING @708 // [MOOSE07]
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
 
   COPY ~BG1NPC/Phase2/cre/x#xqmer1.cre~ ~override~
   	   ~BG1NPC/Phase2/cre/x#xqmer2.cre~ ~override~
@@ -3352,7 +3378,7 @@ BEGIN @1007
     SAY DAMAGE @562
     SAY DYING @563
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
-    WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   /* scripts */
   EXTEND_BOTTOM ~%SpiderWood_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#FW3000XQ.BAF~
@@ -3414,11 +3440,11 @@ BEGIN @1007
     SAY NAME1 @180
     SAY NAME2 @180
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY INITIAL_MEETING @703
-    SAY DAMAGE @704
-    SAY DYING @705
-    SAY SELECT_COMMON1 @703
-    SAY EXISTANCE1 @703
+    SAY INITIAL_MEETING @709 // [GHAST01]
+    SAY DAMAGE @710 // [GHAST05]
+    SAY DYING @711 // [GHAST06]
+    SAY SELECT_COMMON1 @709 // [GHAST01]
+    SAY EXISTANCE1 @709 // [GHAST01]
 
   COPY_EXISTING ~%tutu_var%zombie.cre~  ~override~
                 ~%tutu_var%zombieb.cre~ ~override~
@@ -3583,9 +3609,9 @@ BEGIN @1007
   COPY ~BG1NPC/Phase2/cre/x#amelia.cre~ ~override~
     SAY NAME1 @237
     SAY NAME2 @237
-    SAY BATTLE_CRY1 @714
-    SAY DAMAGE @718
-    SAY DYING @719
+    SAY BATTLE_CRY1 @738 // [VAMPF02]
+    SAY DAMAGE @742 // [VAMPF06]
+    SAY DYING @743 // [VAMPF07]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~LRING~
     ADD_CRE_ITEM ~%tutu_var%CLCK12~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
@@ -3596,8 +3622,8 @@ BEGIN @1007
       LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
       SAY NAME1 @238
       SAY NAME2 @238
-      SAY DAMAGE @735
-      SAY DYING @736
+      SAY DAMAGE @712 // [VOIC1L]
+      SAY DYING @713 // [VOIC1M]
       WRITE_ASCII 0x280 ~natan~ #32 //  death variable
       ADD_CRE_ITEM ~%tutu_var%POTN42~ #0 #0 #0 ~IDENTIFIED~ ~INV7~
       ADD_CRE_ITEM ~%tutu_var%POTN36~ #0 #0 #0 ~IDENTIFIED~ ~INV8~
@@ -3617,11 +3643,12 @@ BEGIN @1007
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* GPRIF soundset not present in BGEE, use other general female sounds */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-    	SAY INITIAL_MEETING @737
-    	SAY DAMAGE @28
-	    SAY DYING @29
-    	SAY SELECT_COMMON1 @738
-    	SAY SELECT_COMMON2 @737
+    	SAY INITIAL_MEETING #11117 // [FEMALE GREETING 10] Salutations.
+    	SAY BATTLE_CRY1 #11123 // [FEMALE THREAT 1] It may be a touch unladylike, but I'm gonna slit your throat, I am!
+    	SAY DAMAGE #12487 // [ABELA 3]
+		SAY DYING #12488 // [ABELA 4]
+     	SAY SELECT_COMMON1 #11120 // [FEMALE GREETING 13] How are you?
+     	SAY SELECT_COMMON2 #11121 // [FEMALE GREETING 14] What's your tale?
     END ELSE BEGIN /* Tutu, BGT */
     	SAY INITIAL_MEETING @240
     	SAY UNHAPPY_BREAKING @241
@@ -3666,21 +3693,29 @@ BEGIN @1007
     SAY NAME1 @249
     SAY NAME2 @249
     SAY DESC @250
+    
+  /* BGEE: Add Kivan's bow to item_use.2da */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  	APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~ 
+  	  UNLESS ~P#BOW~  	
+  	COPY_EXISTING ~item_use.2da~ ~override~
+	  PRETTY_PRINT_2DA
+  END
 
   /* creatures */
   COPY ~BG1NPC/Phase2/cre/p#imanel.cre~ ~override~
     SAY NAME1 @251
     SAY NAME2 @251
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    /* BG2 soundset not present in BGEE, use other general female sounds */
+    /* BG2 soundset not present in BGEE, use SIRINE sounds instead */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-    	SAY INITIAL_MEETING @739
-    	SAY BATTLE_CRY1 @740
-    	SAY DAMAGE @743
-	    SAY DYING @744
-    	SAY SELECT_COMMON1 @739
-    	SAY SELECT_COMMON2 @741
-    	SAY SELECT_COMMON2 @742
+    	SAY INITIAL_MEETING #5176	// [SIRINE 01] Fools to cross my path.
+    	SAY BATTLE_CRY1 #6018		// [SIRINE 03]
+    	SAY DAMAGE #6023			// [SIRINE 08]
+	    SAY DYING #6024				// [SIRINE 09]
+    	SAY SELECT_COMMON1 #5176	// [SIRINE 01] Fools to cross my path.
+    	SAY SELECT_COMMON2 #6022	// [SIRINE 06]
+    	SAY SELECT_COMMON2 #5178	// [SIRINE 07] Think as you act, fool.
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY INITIAL_MEETING @141
     	SAY LEADER @137
@@ -3720,6 +3755,7 @@ BEGIN @1007
        ~BG1NPC/Phase2/cre/p#wolf03.cre~ ~override~
        ~BG1NPC/Phase2/cre/p#wolf04.cre~ ~override~
        ~BG1NPC/Phase2/cre/p#wolf05.cre~ ~override~
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY BATTLE_CRY1 @253
     SAY BATTLE_CRY2 @253
     SAY BATTLE_CRY3 @253
@@ -3779,13 +3815,13 @@ BEGIN @1007
     SAY NAME1 @264
     SAY NAME2 @265
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-	SAY INITIAL_MEETING @745
-    SAY BATTLE_CRY1 @747
-    SAY DAMAGE @749
-    SAY DYING @750
-    SAY SELECT_COMMON1 @745
-    SAY SELECT_COMMON2 @746
-    SAY SELECT_COMMON3 @748
+	SAY INITIAL_MEETING @714 // [NEREID 01]
+    SAY BATTLE_CRY1 @716 // [NEREID 03]
+    SAY DAMAGE @718 // [NEREID 08]
+    SAY DYING @719 // [NEREID 09]
+    SAY SELECT_COMMON1 @714 // [NEREID 01]
+    SAY SELECT_COMMON2 @715 // [NEREID 02]
+    SAY SELECT_COMMON3 @717 // [NEREID 04]
     WRITE_ASCII 0x248 ~X#IHTIA~ #8 //  override script
     WRITE_ASCII SCRIPT_CLASS ~x#gpsht~ #8 // class script
     WRITE_ASCII 0x2CC ~X#IHTIA~ #8 //  dialog
@@ -3799,14 +3835,12 @@ BEGIN @1007
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* ELSOL1 soundset not present in BGEE, use ELFFF soundset instead */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-	    SAY INITIAL_MEETING @724
-    	SAY BATTLE_CRY1 @726
-    	SAY DAMAGE @727
-    	SAY DYING @728
-    	SAY SELECT_COMMON1 @724
-    	SAY SELECT_COMMON2 @725
-    	SAY SELECT_COMMON3 @724
-    	SAY SELECT_COMMON4 @725
+	    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
+    	SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
+    	SAY DAMAGE #12586			// [ELF 5]
+    	SAY DYING #12587			// [ELF 6]
+    	SAY SELECT_COMMON1 #4941	// [ELF 1]
+    	SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
     END ELSE BEGIN /* Tutu and BGT */
      	SAY INITIAL_MEETING @266
     	SAY BATTLE_CRY1 @267
@@ -3822,31 +3856,31 @@ BEGIN @1007
 
   /* Sahuagin */
   COPY ~BG1NPC/Phase2/cre/x#saha01.cre~ ~override~
-    SAY NAME1 @700  /* Sahuagin Chieftain */
-    SAY NAME2 @700  /* Sahuagin Chieftain */
+    SAY NAME1 @720  /* Sahuagin Chieftain */
+    SAY NAME2 @720  /* Sahuagin Chieftain */
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-	SAY INITIAL_MEETING @751
-    SAY BATTLE_CRY1 @752
-    SAY DAMAGE @756
-    SAY DYING @757
-    SAY SELECT_COMMON1 @753
-    SAY SELECT_COMMON2 @754
-    SAY SELECT_COMMON3 @755
-    SAY SELECT_COMMON4 @751
+	SAY INITIAL_MEETING @722 // [SAHAU01]
+    SAY BATTLE_CRY1 @723 // [SAHAU02]
+    SAY DAMAGE @727 // [SAHAU06]
+    SAY DYING @728 // [SAHAU07]
+    SAY SELECT_COMMON1 @724 // [SAHAU03]
+    SAY SELECT_COMMON2 @725 // [SAHAU04]
+    SAY SELECT_COMMON3 @726 // [SAHAU05]
+    SAY SELECT_COMMON4 @722 // [SAHAU01]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
       
   COPY ~BG1NPC/Phase2/cre/x#saha02.cre~ ~override~
-    SAY NAME1 @701  /* Sahuagin */
-    SAY NAME2 @701  /* Sahuagin */
+    SAY NAME1 @721  /* Sahuagin */
+    SAY NAME2 @721  /* Sahuagin */
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-	SAY INITIAL_MEETING @751
-    SAY BATTLE_CRY1 @752
-    SAY DAMAGE @756
-    SAY DYING @757
-    SAY SELECT_COMMON1 @753
-    SAY SELECT_COMMON2 @754
-    SAY SELECT_COMMON3 @755
-    SAY SELECT_COMMON4 @751
+	SAY INITIAL_MEETING @722 // [SAHAU01]
+    SAY BATTLE_CRY1 @723 // [SAHAU02]
+    SAY DAMAGE @727 // [SAHAU06]
+    SAY DYING @728 // [SAHAU07]
+    SAY SELECT_COMMON1 @724 // [SAHAU03]
+    SAY SELECT_COMMON2 @725 // [SAHAU04]
+    SAY SELECT_COMMON3 @726 // [SAHAU05]
+    SAY SELECT_COMMON4 @722 // [SAHAU01]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
       
   /* Add BG2 Items missing from BGEE */
@@ -3856,9 +3890,7 @@ BEGIN @1007
   		SAY NAME2 @6002
   		SAY DESC @6003
   		
-	/* Sahuagin Spear, Staff, & Paralytic Bolt */
-  	COPY ~bg1npc/bgee/itm/sahspear.itm~ ~override~ 
-	COPY ~bg1npc/bgee/itm/sahstaff.itm~ ~override~ 
+	/* Sahuagin Paralytic Bolt */
 	COPY ~bg1npc/bgee/itm/sahbolt.itm~ ~override~ 
 		SAY NAME2 @6011
   		SAY DESC @6012
@@ -4048,8 +4080,8 @@ END ELSE BEGIN
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht3.cre~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht4.cre~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht5.cre~
-        SAY NAME1 @702  /* Smoke Mephit */
-        SAY NAME2 @702  /* Smoke Mephit */
+        SAY NAME1 @729  /* Smoke Mephit */
+        SAY NAME2 @729  /* Smoke Mephit */
         WRITE_ASCII SCRIPT_DEFAULT ~x#mepsmo~ #8
 
   COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override~
@@ -4197,11 +4229,11 @@ END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* SAUVAT soundset not present in BGEE, use EARTH soundset instead */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-    	SAY BATTLE_CRY1 @758
-    	SAY BATTLE_CRY2 @760
-    	SAY DAMAGE @761
-    	SAY DYING @762
-    	SAY SELECT_COMMON1 @759
+    	SAY BATTLE_CRY1 @731 // [EARTH02]
+    	SAY BATTLE_CRY2 @732 // [EARTH03]
+    	SAY DAMAGE @733 // [EARTH06]
+    	SAY DYING @734 // [EARTH07]
+    	SAY SELECT_COMMON1 @730 // [EARTH01]
 	END ELSE BEGIN /* Tutu, BGT */
 		SAY BATTLE_CRY1 @321
     	SAY BATTLE_CRY2 @322
@@ -4500,13 +4532,13 @@ END
     SAY NAME2 @375
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use VILLM soundset */
-    	SAY INITIAL_MEETING @763
-    	SAY BATTLE_CRY1 @766
-    	SAY DAMAGE @767
-    	SAY DYING @768
-    	SAY SELECT_COMMON1 @764
-    	SAY SELECT_COMMON2 @765
-    	SAY SELECT_COMMON3 @763
+    	SAY INITIAL_MEETING #23945	// [VILLAGER, MALE 01b]
+    	SAY BATTLE_CRY1 #23882		// [VILLAGER, MALE 03]
+    	SAY DAMAGE #23884			// [VILLAGER, MALE 05]
+    	SAY DYING #23885			// [VILLAGER, MALE 06]
+    	SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
+    	SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
+    	SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
     END ELSE BEGIN /* Tutu, BGT: EPRIM soundset from BG2 */	
     	SAY INITIAL_MEETING @327
     	SAY UNHAPPY_BREAKING @328
@@ -4531,13 +4563,13 @@ END
     SAY NAME2 @375
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use VILLM soundset */
-    	SAY INITIAL_MEETING @763
-    	SAY BATTLE_CRY1 @766
-    	SAY DAMAGE @767
-    	SAY DYING @768
-    	SAY SELECT_COMMON1 @764
-    	SAY SELECT_COMMON2 @765
-    	SAY SELECT_COMMON3 @763
+    	SAY INITIAL_MEETING #23945	// [VILLAGER, MALE 01b]
+    	SAY BATTLE_CRY1 #23882		// [VILLAGER, MALE 03]
+    	SAY DAMAGE #23884			// [VILLAGER, MALE 05]
+    	SAY DYING #23885			// [VILLAGER, MALE 06]
+    	SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
+    	SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
+    	SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
     END ELSE BEGIN /* Tutu, BGT: HVILLM soundset from BG2 */	
     	SAY INITIAL_MEETING @334
     	SAY UNHAPPY_BREAKING @335
@@ -5216,13 +5248,13 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
     SAY NAME1 @481
     SAY NAME2 @481
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use MAINM soundset */
-    	SAY INITIAL_MEETING @774
-    	SAY BATTLE_CRY1 @772
-    	SAY DAMAGE @775
-    	SAY DYING @776
-    	SAY SELECT_COMMON1 @773
-    	SAY SELECT_COMMON2 @774
+    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use HELMP soundset */
+    	SAY INITIAL_MEETING #4976 // HELMP01
+    	SAY BATTLE_CRY1 #4976 // HELMP01
+    	SAY DAMAGE #5469 // HELMP05
+    	SAY DYING #5470 // HELMP06
+    	SAY SELECT_COMMON1 #4977 // HELMP02
+    	SAY SELECT_COMMON2 #4976 // HELMP01
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY INITIAL_MEETING @482
     	SAY BATTLE_CRY1 @483
@@ -5489,14 +5521,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-	    SAY INITIAL_MEETING @713
-    	SAY BATTLE_CRY1 @714
-    	SAY ATTACK1 @715
-    	SAY ATTACK2 @716
-    	SAY DAMAGE @718
-    	SAY DYING @719
-    	SAY SELECT_COMMON1 @713
-    	SAY SELECT_COMMON2 @717
+    	SAY BATTLE_CRY1 @738 // [VAMPF02]
+    	SAY ATTACK1 @739 // [VAMPF03]
+    	SAY ATTACK2 @740 // [VAMPF04]
+    	SAY DAMAGE @742 // [VAMPF06]
+    	SAY DYING @743 // [VAMPF07]
+    	SAY SELECT_COMMON1 @737 // [VAMPF01]
+    	SAY SELECT_COMMON2 @741 // [VAMPF05]
 	END ELSE BEGIN /* For Tutu, BGT */
     	SAY BATTLE_CRY1 @408
     	SAY BATTLE_CRY2 @409
@@ -5512,14 +5543,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPP soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-	    SAY INITIAL_MEETING @706
-    	SAY BATTLE_CRY1 @707
-    	SAY ATTACK1 @708
-    	SAY ATTACK2 @711
-    	SAY DAMAGE @709
-    	SAY DYING @710
-    	SAY SELECT_COMMON1 @706
-    	SAY SELECT_COMMON2 @712
+    	SAY BATTLE_CRY1 @745 // [VAMPP02]
+    	SAY ATTACK1 @746 // [VAMPP03]
+    	SAY ATTACK2 @747 // [VAMPP04]
+    	SAY DAMAGE @749 // [VAMPP06]
+    	SAY DYING @750 // [VAMPP07]
+    	SAY SELECT_COMMON1 @744 // [VAMPP01]
+    	SAY SELECT_COMMON2 @748 // [VAMPP05]
 	END ELSE BEGIN /* For Tutu, BGT */
     	SAY INITIAL_MEETING @414
     	SAY UNHAPPY_BREAKING @415
@@ -5540,14 +5570,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-	    SAY INITIAL_MEETING @713
-    	SAY BATTLE_CRY1 @714
-    	SAY ATTACK1 @715
-    	SAY ATTACK2 @716
-    	SAY DAMAGE @718
-    	SAY DYING @719
-    	SAY SELECT_COMMON1 @713
-    	SAY SELECT_COMMON2 @717
+    	SAY BATTLE_CRY1 @738 // [VAMPF02]
+    	SAY ATTACK1 @739 // [VAMPF03]
+    	SAY ATTACK2 @740 // [VAMPF04]
+    	SAY DAMAGE @742 // [VAMPF06]
+    	SAY DYING @743 // [VAMPF07]
+    	SAY SELECT_COMMON1 @737 // [VAMPF01]
+    	SAY SELECT_COMMON2 @741 // [VAMPF05]
 	END ELSE BEGIN /* For Tutu, BGT */
 	    SAY INITIAL_MEETING @424
     	SAY UNHAPPY_BREAKING @425
@@ -5568,14 +5597,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-	    SAY INITIAL_MEETING @713
-    	SAY BATTLE_CRY1 @714
-    	SAY ATTACK1 @715
-    	SAY ATTACK2 @716
-    	SAY DAMAGE @718
-    	SAY DYING @719
-    	SAY SELECT_COMMON1 @713
-    	SAY SELECT_COMMON2 @717
+    	SAY BATTLE_CRY1 @738 // [VAMPF02]
+    	SAY ATTACK1 @739 // [VAMPF03]
+    	SAY ATTACK2 @740 // [VAMPF04]
+    	SAY DAMAGE @742 // [VAMPF06]
+    	SAY DYING @743 // [VAMPF07]
+    	SAY SELECT_COMMON1 @737 // [VAMPF01]
+    	SAY SELECT_COMMON2 @741 // [VAMPF05]
 	END ELSE BEGIN /* For Tutu, BGT */
     	SAY BATTLE_CRY1 @433
     	SAY DAMAGE @434
@@ -5588,6 +5616,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY NAME1 @437
     SAY NAME2 @437
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 
   COPY_EXISTING ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva1.cre~
                 ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva2.cre~
@@ -6256,12 +6285,12 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* ELHAN soundset not in BGEE.  Use ELFFF soundset */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-    	SAY INITIAL_MEETING @724
-    	SAY BATTLE_CRY1 @726
-    	SAY DAMAGE @727
-    	SAY DYING @728
-    	SAY SELECT_COMMON1 @724
-    	SAY SELECT_COMMON2 @725
+	    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
+    	SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
+    	SAY DAMAGE #12586			// [ELF 5]
+    	SAY DYING #12587			// [ELF 6]
+    	SAY SELECT_COMMON1 #4941	// [ELF 1]
+    	SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @534
     	SAY BATTLE_CRY2 @535
@@ -6277,11 +6306,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* ELLESI soundset not in BGEE.  Use FELFF soundset */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-    	SAY INITIAL_MEETING @720
-    	SAY DAMAGE @721
-    	SAY DYING @722
-    	SAY SELECT_COMMON1 @723
-    	SAY SELECT_COMMON2 @720
+    	SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Good day and hello to you.
+    	SAY DAMAGE #11075 // [ELF FEMALE 5]
+    	SAY DYING #11076 // [ELF FEMALE 6]
+    	SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Good day and hello to you.
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @540
     	SAY BATTLE_CRY2 @541
@@ -6297,16 +6325,16 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME1 @545
     SAY NAME2 @545
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-	SAY BATTLE_CRY1 @779
-	SAY BATTLE_CRY2 @780
-	SAY ATTACK1 @781
-	SAY ATTACK2 @782
-	SAY ATTACK3 @783	
-    SAY DAMAGE @784
-    SAY DYING @785
-    SAY SELECT_COMMON1 @777
-    SAY SELECT_COMMON2 @778
-    SAY PICKED_POCKET @786
+	SAY BATTLE_CRY1 @753 // [WYVER03]
+	SAY BATTLE_CRY2 @754 // [WYVER04]
+	SAY ATTACK1 @755 // [WYVER05]
+	SAY ATTACK2 @756 // [WYVER06]
+	SAY ATTACK3 @757 // [WYVER07]
+    SAY DAMAGE @758 // [WYVER08]
+    SAY DYING @759 // [WYVER09]
+    SAY SELECT_COMMON1 @751 // [WYVER01]
+    SAY SELECT_COMMON2 @752 // [WYVER02]
+    SAY PICKED_POCKET @760 // [WYVER10]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
@@ -6314,16 +6342,16 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME1 @546
     SAY NAME2 @546
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-	SAY BATTLE_CRY1 @779
-	SAY BATTLE_CRY2 @780
-	SAY ATTACK1 @781
-	SAY ATTACK2 @782
-	SAY ATTACK3 @783	
-    SAY DAMAGE @784
-    SAY DYING @785
-    SAY SELECT_COMMON1 @777
-    SAY SELECT_COMMON2 @778
-    SAY PICKED_POCKET @786
+	SAY BATTLE_CRY1 @753 // [WYVER03]
+	SAY BATTLE_CRY2 @754 // [WYVER04]
+	SAY ATTACK1 @755 // [WYVER05]
+	SAY ATTACK2 @756 // [WYVER06]
+	SAY ATTACK3 @757 // [WYVER07]
+    SAY DAMAGE @758 // [WYVER08]
+    SAY DYING @759 // [WYVER09]
+    SAY SELECT_COMMON1 @751 // [WYVER01]
+    SAY SELECT_COMMON2 @752 // [WYVER02]
+    SAY PICKED_POCKET @760 // [WYVER10]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 
@@ -6333,16 +6361,16 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-		SAY BATTLE_CRY1 @779
-		SAY BATTLE_CRY2 @780
-		SAY ATTACK1 @781
-		SAY ATTACK2 @782
-		SAY ATTACK3 @783	
-    	SAY DAMAGE @784
-    	SAY DYING @785
-    	SAY SELECT_COMMON1 @777
-    	SAY SELECT_COMMON2 @778
-    	SAY PICKED_POCKET @786
+		SAY BATTLE_CRY1 @753 // [WYVER03]
+		SAY BATTLE_CRY2 @754 // [WYVER04]
+		SAY ATTACK1 @755 // [WYVER05]
+		SAY ATTACK2 @756 // [WYVER06]
+		SAY ATTACK3 @757 // [WYVER07]
+    	SAY DAMAGE @758 // [WYVER08]
+    	SAY DYING @759 // [WYVER09]
+    	SAY SELECT_COMMON1 @751 // [WYVER01]
+    	SAY SELECT_COMMON2 @752 // [WYVER02]
+    	SAY PICKED_POCKET @760 // [WYVER10]
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -6359,16 +6387,16 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
     PATCH_IF GAME_IS ~bgee~ THEN BEGIN
-		SAY BATTLE_CRY1 @779
-		SAY BATTLE_CRY2 @780
-		SAY ATTACK1 @781
-		SAY ATTACK2 @782
-		SAY ATTACK3 @783	
-    	SAY DAMAGE @784
-    	SAY DYING @785
-    	SAY SELECT_COMMON1 @777
-    	SAY SELECT_COMMON2 @778
-    	SAY PICKED_POCKET @786
+		SAY BATTLE_CRY1 @753 // [WYVER03]
+		SAY BATTLE_CRY2 @754 // [WYVER04]
+		SAY ATTACK1 @755 // [WYVER05]
+		SAY ATTACK2 @756 // [WYVER06]
+		SAY ATTACK3 @757 // [WYVER07]
+    	SAY DAMAGE @758 // [WYVER08]
+    	SAY DYING @759 // [WYVER09]
+    	SAY SELECT_COMMON1 @751 // [WYVER01]
+    	SAY SELECT_COMMON2 @752 // [WYVER02]
+    	SAY PICKED_POCKET @760 // [WYVER10]
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549

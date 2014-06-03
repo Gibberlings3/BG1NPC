@@ -920,7 +920,7 @@ END
 
 /* Hentold */
 /* passback not required - no trans actions */
-I_C_T3 ~%tutu_var%HENTOL~ 1 X#HENTOL1
+I_C_T3 ~%tutu_var%HENTOL~ %hentolstate1% X#HENTOL1
 == ~%DYNAHEIR_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @331
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @332
 END
