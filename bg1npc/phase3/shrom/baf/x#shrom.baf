@@ -8,6 +8,7 @@ Gender(Player1,MALE)
 !Alignment(Player1,LAWFUL_NEUTRAL)
 !Race(Player1,HALFLING)
 ReputationLT(Player1,10)
+!HasItemEquiped("%tutu_var%BELT05",Player1) //girdle of gender bender
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#SharInterestTime","GLOBAL",100)
