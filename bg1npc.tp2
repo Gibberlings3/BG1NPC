@@ -2233,10 +2233,16 @@ BEGIN @1007
     ADD_CRE_ITEM ~X#AJSHLD~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
 
   /* Imoen - Pink Xan */
-  COPY ~BG1NPC/Phase1/cre/ANPS.BMP~ ~override~
-  COPY ~BG1NPC/Phase1/cre/ANPL.BMP~ ~override~
-  COPY ~BG1NPC/Phase1/cre/ANBS.BMP~ ~override~
-  COPY ~BG1NPC/Phase1/cre/ANBL.BMP~ ~override~
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+	COPY ~BG1NPC/Phase1/cre/anps_ee.bmp~ ~override/anps.bmp~
+	COPY ~BG1NPC/Phase1/cre/anps_ee.bmp~ ~override/anpl.bmp~
+  END ELSE BEGIN /* Tutu or BGT */
+	COPY ~BG1NPC/Phase1/cre/ANPS.BMP~ ~override~
+  	COPY ~BG1NPC/Phase1/cre/ANPL.BMP~ ~override~
+  	COPY ~BG1NPC/Phase1/cre/ANBS.BMP~ ~override~
+  	COPY ~BG1NPC/Phase1/cre/ANBL.BMP~ ~override~
+  END
+  
   COPY ~BG1NPC/Phase1/ITM/PINKXAN.SPL~ ~override~
     SAY 8 @14
     WRITE_ASCII 0xde ~ANPS~
@@ -2244,8 +2250,13 @@ BEGIN @1007
 
   COPY ~BG1NPC/Phase1/ITM/PINKXAN.SPL~ ~override/pinkback.spl~
     SAY 8 @14
-    WRITE_ASCII 0xde ~ANBS~
-    WRITE_ASCII 0xae ~ANBL~
+    PATCH_IF (GAME_IS ~bgee~) BEGIN
+        WRITE_ASCII 0xde ~XANS~
+		WRITE_ASCII 0xae ~XANL~
+    END ELSE BEGIN
+        WRITE_ASCII 0xde ~ANBS~
+		WRITE_ASCII 0xae ~ANBL~
+    END
 
   /* Imoen - Lockpick */
   COPY ~BG1NPC/Phase1/ITM/X#IMSAF.SPL~ ~override/x#imsaf.spl~
@@ -6604,7 +6615,7 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
     BUT_ONLY_IF_IT_CHANGES
   PRINT @1076 /* ~Remember to start a new game for Eldoth to start on the Coast Way near the Obelisk. */
 
-/* Quayle Starts at the Wyvern's Crossing. */
+/* Quayle Starts at the Wyrm's Crossing. */
 BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
