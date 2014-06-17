@@ -2018,12 +2018,16 @@ END
     END
   BUT_ONLY_IF_IT_CHANGES
   
-/* Changing Coran's old leaving timer */
+  /* False() out blocks from Coran's default script 
+     All platforms: Default timer expired block
+     BGEE only: Wyvern killed block */
   COPY_EXISTING ~%CORAN_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-   REPLACE_TEXTUALLY CASE_INSENSITIVE
-    ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
-  COMPILE_BAF_TO_BCS
+  	DECOMPILE_AND_PATCH BEGIN
+  	  REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
+      PATCH_IF (GAME_IS ~bgee~) BEGIN 
+      	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
+	  END
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Fixing Coran's Wyvern script */
@@ -2033,24 +2037,22 @@ END
   /* Fix Coran's dialog files */
   ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
   	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_tutubgee.d~
-  END
-  
-  ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  END ELSE ACTION_IF GAME_IS ~bgt~ THEN BEGIN
   	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_bgt.d~
   END
   
   /* removing Kivan's timer to leave party */
   COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+  	DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Kivan","GLOBAL")~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* removing Minsc's timer to leave party */
   COPY_EXISTING ~%MINSC_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+  	DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Minsc","GLOBAL")~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Area Script Assignment Patching: All Areas Script ID'd */
@@ -2235,7 +2237,7 @@ BEGIN @1007
   /* Imoen - Pink Xan */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
 	COPY ~BG1NPC/Phase1/cre/anps_ee.bmp~ ~override/anps.bmp~
-	COPY ~BG1NPC/Phase1/cre/anps_ee.bmp~ ~override/anpl.bmp~
+	COPY ~BG1NPC/Phase1/cre/anpl_ee.bmp~ ~override/anpl.bmp~
   END ELSE BEGIN /* Tutu or BGT */
 	COPY ~BG1NPC/Phase1/cre/ANPS.BMP~ ~override~
   	COPY ~BG1NPC/Phase1/cre/ANPL.BMP~ ~override~
