@@ -1926,11 +1926,11 @@ ACTION_IF (GAME_IS ~tutu tutu_totsc~) THEN BEGIN
 	
 	/* Changing DPLAYER2.bcs to stop BreakingPoint SDNS from hanging Tutu Only */
 	COPY_EXISTING ~DPLAYER2.bcs~ ~override~
-		DECOMPILE_BCS_TO_BAF
+		DECOMPILE_AND_PATCH BEGIN
 			REPLACE_TEXTUALLY CASE_INSENSITIVE ~!InParty(Myself)~ ~False()~
 			REPLACE_TEXTUALLY CASE_INSENSITIVE ~ChangeAIScript("",DEFAULT)~ ~~
 			REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("IHATEYOUALL","LOCALS",0)~ ~~
-		COMPILE_BAF_TO_BCS
+		END
 	BUT_ONLY_IF_IT_CHANGES
 
 	EXTEND_TOP ~DPLAYER2.bcs~ ~BG1NPC/Core/baf/X#DPLYR2.BAF~
@@ -1946,7 +1946,7 @@ END
 
 /* Tutu, BGT, BG:EE Dialogue Correction in X#JFIX.D */
   COPY_EXISTING ~%UC_TofB_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE
       ~Global("DeathOfSarevok","GLOBAL",0)~
       ~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
@@ -1956,43 +1956,44 @@ END
       REPLACE_TEXTUALLY CASE_INSENSITIVE
       ~Global("D0FinalSave","GLOBAL",0)~
       ~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
 /* Trying to prevent Alora from Stuttering. */
   COPY_EXISTING ~%tutu_var%ALORA.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
     REPLACE_TEXTUALLY CASE_INSENSITIVE
       ~TimeOfDay(DAY)~ ~AreaCheck("%WBaldursGate_HallofWonders%") NumberOfTimesTalkedTo(0) TimeOfDay(DAY) !InParty(Myself)~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* WizWom's Prevent Alora Area Script from Crashing. */
   COPY_EXISTING ~%HallofWonders_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~Exists("Alora")~ ~Exists("Alora") InMyArea("Alora")~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
   
   /* Stop Viconia's Potential Script Stutter on Tutu - fix already in BGEE */
   /* scripts */
   ACTION_IF !(GAME_IS ~bgee~) THEN BEGIN
 	  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
-    	DECOMPILE_BCS_TO_BAF
-    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
-	    COMPILE_BAF_TO_BCS
+    	DECOMPILE_AND_PATCH BEGIN
+    		REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
+	    END
   	  BUT_ONLY_IF_IT_CHANGES
   END
   
   /* Make Tazok Killable */
   /* scripts */
   COPY_EXISTING ~%tutu_var%TAZOK.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("kivan")~
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("MACTazokBelt","LOCALS",0)~ ~Global("X#MACDisableTazokInv","GLOBAL",1)~
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("MACTazokBelt","LOCALS",1)~ ~SetGlobal("X#MACDisableTazokInv","GLOBAL",2)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("kivan")~
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("MACTazokBelt","LOCALS",0)~ ~Global("X#MACDisableTazokInv","GLOBAL",1)~
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("MACTazokBelt","LOCALS",1)~ ~SetGlobal("X#MACDisableTazokInv","GLOBAL",2)~
+    END
   BUT_ONLY_IF_IT_CHANGES
+  
   /* scripts extension */
   EXTEND_TOP ~%tutu_var%TAZOK.bcs~ ~BG1NPC/Core/baf/X#TAKILL.BAF~
     EVALUATE_BUFFER
@@ -2136,9 +2137,9 @@ END
                     ~%TIAX_BCS%.bcs~ ~override~
                     ~%VICONIA_BCS%.bcs~ ~override~
                     ~%DYNAHEIR_BCS%.bcs~ ~override~
-        DECOMPILE_BCS_TO_BAF
+        DECOMPILE_AND_PATCH BEGIN
           REPLACE_TEXTUALLY CASE_INSENSITIVE ~MakeUnselectable(5000)~ ~MakeUnselectable(6) Continue()~
-        COMPILE_BAF_TO_BCS
+        END
       BUT_ONLY_IF_IT_CHANGES
     END
 
@@ -2146,9 +2147,9 @@ END
     /* Miloch's bugged spell/script fixes (required for Gnomes) */
     ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
       COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
-        DECOMPILE_BCS_TO_BAF
+        DECOMPILE_AND_PATCH BEGIN
           REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
-        COMPILE_BAF_TO_BCS
+        END
       BUT_ONLY_IF_IT_CHANGES
     END
 
@@ -2183,11 +2184,9 @@ BEGIN @1007
 
   /* Patching _ELDOTH.bcs */
   COPY_EXISTING ~%ELDOTH_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY CASE_INSENSITIVE
-      ~GlobalTimerExpired("RescueSkie","GLOBAL")~
-      ~!Global("X#SkieLeftEldoth","GLOBAL",1) GlobalTimerExpired("RescueSkie","GLOBAL")~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("RescueSkie","GLOBAL")~ ~!Global("X#SkieLeftEldoth","GLOBAL",1) GlobalTimerExpired("RescueSkie","GLOBAL")~
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Death variable assignments for Yeslick dialogue X#YESLI1.BAF */
@@ -2788,18 +2787,18 @@ BEGIN @1007
   /* Kagain Caravan quest rebuild */
   /* area patching */
   COPY_EXISTING ~%CoastWay_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~GlobalLT("KagainCaravan","GLOBAL",2)~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
   EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW2800.baf~
      EVALUATE_BUFFER
 
   /* Overriding old Kagain Quest interaction triggers */
   COPY_EXISTING ~%KAGAIN_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~GlobalTimerExpired("Kagain","GLOBAL")~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
   EXTEND_BOTTOM ~%KAGAIN_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#KGQUST.BAF~
      EVALUATE_BUFFER
@@ -6496,11 +6495,9 @@ BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
 
   /* scripts Tutu Only */
   COPY_EXISTING ~_AR2301.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY
-      ~GlobalGT("Chapter","GLOBAL",2)~
-      ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",2)~ ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   EXTEND_BOTTOM ~_JAHEIRA.bcs~   ~BG1NPC/Phase3/wait/baf/_jaheira_bot.baf~
@@ -6531,11 +6528,9 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* Trying to prevent Alora's CTD */
   COPY_EXISTING ~_AR0130.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY
-      ~!InParty("alora")~
-      ~!InParty("alora") Global("X#AloraDontBeDifficult","GLOBAL",1)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY ~!InParty("alora")~ ~!InParty("alora") Global("X#AloraDontBeDifficult","GLOBAL",1)~
+    END
     BUT_ONLY_IF_IT_CHANGES
 
   /* patching Alora's location */
@@ -6557,10 +6552,10 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     /* Patching Alora's location BGT */
     COPY_EXISTING ~AR7230.bcs~ ~override~
-      DECOMPILE_BCS_TO_BAF
+      DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
         REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
-      COMPILE_BAF_TO_BCS
+      END
     BUT_ONLY_IF_IT_CHANGES
     EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
       EVALUATE_BUFFER
@@ -6568,9 +6563,9 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   END ELSE BEGIN
  /* Patching Alora's location BG:EE */
     COPY_EXISTING ~AR0130.bcs~ ~override~
-      DECOMPILE_BCS_TO_BAF
+      DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~!Dead("alora")~ ~!Dead("alora") False()~
-      COMPILE_BAF_TO_BCS
+      END
     BUT_ONLY_IF_IT_CHANGES
     EXTEND_BOTTOM ~AR4000.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
       EVALUATE_BUFFER
@@ -6596,11 +6591,9 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
 
   /*Patching _ELDOTH.bcs */
   COPY_EXISTING ~_ELDOTH.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY
-      ~!Global("X#SkieLeftEldoth","GLOBAL",1)~
-      ~OR(2) !Global("X#SkieLeftEldoth","GLOBAL",1) !Global("EldothMove","GLOBAL",0)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY ~!Global("X#SkieLeftEldoth","GLOBAL",1)~ ~OR(2) !Global("X#SkieLeftEldoth","GLOBAL",1) !Global("EldothMove","GLOBAL",0)~
+    END
     BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING ~baldur.gam~ ~override~
@@ -6810,12 +6803,12 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW2100")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8800")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR2100")~
-    COMPILE_BAF_TO_BCS
-    BUT_ONLY_IF_IT_CHANGES
+    END
+  BUT_ONLY_IF_IT_CHANGES
 
   PRINT @1003  /* Please remember to start a new game to access the contents of this component. */
 
@@ -6846,12 +6839,12 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW1800")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8600")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR1800")~
-    COMPILE_BAF_TO_BCS
-    BUT_ONLY_IF_IT_CHANGES
+    END
+  BUT_ONLY_IF_IT_CHANGES
 
   PRINT @1003 /* Please remember to start a new game to access the contents of this component. */
 
