@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_20140602~
+VERSION ~v21_PRERELEASE_20140625~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -1926,11 +1926,11 @@ ACTION_IF (GAME_IS ~tutu tutu_totsc~) THEN BEGIN
 	
 	/* Changing DPLAYER2.bcs to stop BreakingPoint SDNS from hanging Tutu Only */
 	COPY_EXISTING ~DPLAYER2.bcs~ ~override~
-		DECOMPILE_BCS_TO_BAF
+		DECOMPILE_AND_PATCH BEGIN
 			REPLACE_TEXTUALLY CASE_INSENSITIVE ~!InParty(Myself)~ ~False()~
 			REPLACE_TEXTUALLY CASE_INSENSITIVE ~ChangeAIScript("",DEFAULT)~ ~~
 			REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("IHATEYOUALL","LOCALS",0)~ ~~
-		COMPILE_BAF_TO_BCS
+		END
 	BUT_ONLY_IF_IT_CHANGES
 
 	EXTEND_TOP ~DPLAYER2.bcs~ ~BG1NPC/Core/baf/X#DPLYR2.BAF~
@@ -1946,7 +1946,7 @@ END
 
 /* Tutu, BGT, BG:EE Dialogue Correction in X#JFIX.D */
   COPY_EXISTING ~%UC_TofB_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE
       ~Global("DeathOfSarevok","GLOBAL",0)~
       ~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
@@ -1956,43 +1956,44 @@ END
       REPLACE_TEXTUALLY CASE_INSENSITIVE
       ~Global("D0FinalSave","GLOBAL",0)~
       ~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
 /* Trying to prevent Alora from Stuttering. */
   COPY_EXISTING ~%tutu_var%ALORA.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
     REPLACE_TEXTUALLY CASE_INSENSITIVE
       ~TimeOfDay(DAY)~ ~AreaCheck("%WBaldursGate_HallofWonders%") NumberOfTimesTalkedTo(0) TimeOfDay(DAY) !InParty(Myself)~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* WizWom's Prevent Alora Area Script from Crashing. */
   COPY_EXISTING ~%HallofWonders_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~Exists("Alora")~ ~Exists("Alora") InMyArea("Alora")~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
   
   /* Stop Viconia's Potential Script Stutter on Tutu - fix already in BGEE */
   /* scripts */
   ACTION_IF !(GAME_IS ~bgee~) THEN BEGIN
 	  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
-    	DECOMPILE_BCS_TO_BAF
-    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
-	    COMPILE_BAF_TO_BCS
+    	DECOMPILE_AND_PATCH BEGIN
+    		REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
+	    END
   	  BUT_ONLY_IF_IT_CHANGES
   END
   
   /* Make Tazok Killable */
   /* scripts */
   COPY_EXISTING ~%tutu_var%TAZOK.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("kivan")~
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("MACTazokBelt","LOCALS",0)~ ~Global("X#MACDisableTazokInv","GLOBAL",1)~
-    REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("MACTazokBelt","LOCALS",1)~ ~SetGlobal("X#MACDisableTazokInv","GLOBAL",2)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("kivan")~
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("MACTazokBelt","LOCALS",0)~ ~Global("X#MACDisableTazokInv","GLOBAL",1)~
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("MACTazokBelt","LOCALS",1)~ ~SetGlobal("X#MACDisableTazokInv","GLOBAL",2)~
+    END
   BUT_ONLY_IF_IT_CHANGES
+  
   /* scripts extension */
   EXTEND_TOP ~%tutu_var%TAZOK.bcs~ ~BG1NPC/Core/baf/X#TAKILL.BAF~
     EVALUATE_BUFFER
@@ -2018,12 +2019,16 @@ END
     END
   BUT_ONLY_IF_IT_CHANGES
   
-/* Changing Coran's old leaving timer */
+  /* False() out blocks from Coran's default script 
+     All platforms: Default timer expired block
+     BGEE only: Wyvern killed block */
   COPY_EXISTING ~%CORAN_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-   REPLACE_TEXTUALLY CASE_INSENSITIVE
-    ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
-  COMPILE_BAF_TO_BCS
+  	DECOMPILE_AND_PATCH BEGIN
+  	  REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
+      PATCH_IF (GAME_IS ~bgee~) BEGIN 
+      	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
+	  END
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Fixing Coran's Wyvern script */
@@ -2033,24 +2038,22 @@ END
   /* Fix Coran's dialog files */
   ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
   	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_tutubgee.d~
-  END
-  
-  ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  END ELSE ACTION_IF GAME_IS ~bgt~ THEN BEGIN
   	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_bgt.d~
   END
   
   /* removing Kivan's timer to leave party */
   COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+  	DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Kivan","GLOBAL")~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* removing Minsc's timer to leave party */
   COPY_EXISTING ~%MINSC_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+  	DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Minsc","GLOBAL")~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Area Script Assignment Patching: All Areas Script ID'd */
@@ -2134,9 +2137,9 @@ END
                     ~%TIAX_BCS%.bcs~ ~override~
                     ~%VICONIA_BCS%.bcs~ ~override~
                     ~%DYNAHEIR_BCS%.bcs~ ~override~
-        DECOMPILE_BCS_TO_BAF
+        DECOMPILE_AND_PATCH BEGIN
           REPLACE_TEXTUALLY CASE_INSENSITIVE ~MakeUnselectable(5000)~ ~MakeUnselectable(6) Continue()~
-        COMPILE_BAF_TO_BCS
+        END
       BUT_ONLY_IF_IT_CHANGES
     END
 
@@ -2144,9 +2147,9 @@ END
     /* Miloch's bugged spell/script fixes (required for Gnomes) */
     ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
       COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
-        DECOMPILE_BCS_TO_BAF
+        DECOMPILE_AND_PATCH BEGIN
           REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
-        COMPILE_BAF_TO_BCS
+        END
       BUT_ONLY_IF_IT_CHANGES
     END
 
@@ -2181,11 +2184,9 @@ BEGIN @1007
 
   /* Patching _ELDOTH.bcs */
   COPY_EXISTING ~%ELDOTH_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY CASE_INSENSITIVE
-      ~GlobalTimerExpired("RescueSkie","GLOBAL")~
-      ~!Global("X#SkieLeftEldoth","GLOBAL",1) GlobalTimerExpired("RescueSkie","GLOBAL")~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("RescueSkie","GLOBAL")~ ~!Global("X#SkieLeftEldoth","GLOBAL",1) GlobalTimerExpired("RescueSkie","GLOBAL")~
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Death variable assignments for Yeslick dialogue X#YESLI1.BAF */
@@ -2233,19 +2234,31 @@ BEGIN @1007
     ADD_CRE_ITEM ~X#AJSHLD~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
 
   /* Imoen - Pink Xan */
-  COPY ~BG1NPC/Phase1/cre/ANPS.BMP~ ~override~
-  COPY ~BG1NPC/Phase1/cre/ANPL.BMP~ ~override~
-  COPY ~BG1NPC/Phase1/cre/ANBS.BMP~ ~override~
-  COPY ~BG1NPC/Phase1/cre/ANBL.BMP~ ~override~
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+	COPY ~BG1NPC/Phase1/cre/pinkxans_ee.bmp~ ~override/pinkxans.bmp~
+	COPY ~BG1NPC/Phase1/cre/pinkxanl_ee.bmp~ ~override/pinkxanl.bmp~
+  END ELSE BEGIN /* Tutu or BGT */
+	COPY ~BG1NPC/Phase1/cre/pinkxans.bmp~ ~override~
+  	COPY ~BG1NPC/Phase1/cre/pinkxanl.bmp~ ~override~
+  END
+  
   COPY ~BG1NPC/Phase1/ITM/PINKXAN.SPL~ ~override~
     SAY 8 @14
-    WRITE_ASCII 0xde ~ANPS~
-    WRITE_ASCII 0xae ~ANPL~
+    WRITE_ASCII 0xde ~pinkxans~
+    WRITE_ASCII 0xae ~pinkxanl~
 
   COPY ~BG1NPC/Phase1/ITM/PINKXAN.SPL~ ~override/pinkback.spl~
     SAY 8 @14
-    WRITE_ASCII 0xde ~ANBS~
-    WRITE_ASCII 0xae ~ANBL~
+    PATCH_IF (GAME_IS ~bgee~) BEGIN  /* BGEE */
+        WRITE_ASCII 0xde ~xans~
+		WRITE_ASCII 0xae ~xanl~
+    END ELSE PATCH_IF (GAME_IS ~bgt~) BEGIN /* BGT */
+        WRITE_ASCII 0xde ~xans~
+		WRITE_ASCII 0xae ~xanm~
+    END ELSE BEGIN /* Tutu */
+        WRITE_ASCII 0xde ~_ans~
+		WRITE_ASCII 0xae ~_anl~
+	END
 
   /* Imoen - Lockpick */
   COPY ~BG1NPC/Phase1/ITM/X#IMSAF.SPL~ ~override/x#imsaf.spl~
@@ -2774,18 +2787,18 @@ BEGIN @1007
   /* Kagain Caravan quest rebuild */
   /* area patching */
   COPY_EXISTING ~%CoastWay_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~GlobalLT("KagainCaravan","GLOBAL",2)~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
   EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW2800.baf~
      EVALUATE_BUFFER
 
   /* Overriding old Kagain Quest interaction triggers */
   COPY_EXISTING ~%KAGAIN_BCS%.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~GlobalTimerExpired("Kagain","GLOBAL")~ ~False()~
-    COMPILE_BAF_TO_BCS
+    END
   BUT_ONLY_IF_IT_CHANGES
   EXTEND_BOTTOM ~%KAGAIN_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#KGQUST.BAF~
      EVALUATE_BUFFER
@@ -2859,7 +2872,7 @@ BEGIN @1007
 
   /* Burned corpse */
   COPY ~bg1npc/phase2/cre/x#burn01.cre~ ~override~
-  	PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+  	PATCH_IF GAME_IS ~bgee~ BEGIN
   		SAY NAME1 #17309  // Male body
   		SAY NAME2 #17309  // Male body
   	END ELSE BEGIN	/* Tutu, BGT */
@@ -2950,13 +2963,13 @@ BEGIN @1007
     SAY SELECT_COMMON6 @37
     WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  Creature script - Override
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi1~) THEN BEGIN
+      PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi1~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI1~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi2~) THEN BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi2~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI2~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi3~) THEN BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi3~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI3~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi4~) THEN BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi4~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI4~ #8 //  dialog
       END
 
@@ -3080,7 +3093,7 @@ BEGIN @1007
     SAY NAME1 @83
     SAY NAME2 @83
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* Jan Jansen soundset not present in BGEE, use default gnome instead */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* Jan Jansen soundset not present in BGEE, use default gnome instead */
     	SAY INITIAL_MEETING @557
     	SAY DAMAGE @559
     	SAY DYING @560
@@ -3142,7 +3155,7 @@ BEGIN @1007
     SAY NAME1 @125
     SAY NAME2 @125
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BG2 sounds not in BGEE */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* BG2 sounds not in BGEE */
     	SAY INITIAL_MEETING @702 // x#ogref3
     	SAY BATTLE_CRY1 @700 // x#ogref1
     	SAY BATTLE_CRY2 @702 // x#ogref3
@@ -3168,7 +3181,7 @@ BEGIN @1007
     SAY NAME1 @135
     SAY NAME2 @135
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BG2 sounds not in BGEE */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* BG2 sounds not in BGEE */
     	SAY INITIAL_MEETING @702 // x#ogref3
     	SAY BATTLE_CRY1 @700 // x#ogref1
     	SAY BATTLE_CRY2 @702 // x#ogref3
@@ -3204,7 +3217,7 @@ BEGIN @1007
     SAY NAME1 @136
     SAY NAME2 @136
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BG2 sounds not in BGEE */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* BG2 sounds not in BGEE */
     /* x#assi01-11 are illusions created by x#david that don't speak */
     	WRITE_LONG DAMAGE BNOT (0x0)
     	WRITE_LONG DYING BNOT (0x0)
@@ -3642,7 +3655,7 @@ BEGIN @1007
     SAY NAME2 @239
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* GPRIF soundset not present in BGEE, use other general female sounds */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY INITIAL_MEETING #11117 // [FEMALE GREETING 10] Salutations.
     	SAY BATTLE_CRY1 #11123 // [FEMALE THREAT 1] It may be a touch unladylike, but I'm gonna slit your throat, I am!
     	SAY DAMAGE #12487 // [ABELA 3]
@@ -3708,7 +3721,7 @@ BEGIN @1007
     SAY NAME2 @251
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* BG2 soundset not present in BGEE, use SIRINE sounds instead */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY INITIAL_MEETING #5176	// [SIRINE 01] Fools to cross my path.
     	SAY BATTLE_CRY1 #6018		// [SIRINE 03]
     	SAY DAMAGE #6023			// [SIRINE 08]
@@ -3770,19 +3783,19 @@ BEGIN @1007
     WRITE_ASCII 0x248 ~P#WOLFA~ #8 //  override script
     WRITE_ASCII 0x2CC ~P#WOLF~ #8 //  dialog
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
-      PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF01~) THEN BEGIN
+      PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF01~) BEGIN
         SAY NAME1 @252
         SAY NAME2 @252
-      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF02~) THEN BEGIN
+      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF02~) BEGIN
         SAY NAME1 @260
         SAY NAME2 @260
-      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF03~) THEN BEGIN
+      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF03~) BEGIN
         SAY NAME1 @261
         SAY NAME2 @261
-      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF04~) THEN BEGIN
+      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF04~) BEGIN
         SAY NAME1 @262
         SAY NAME2 @262
-      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF05~) THEN BEGIN
+      END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF05~) BEGIN
         SAY NAME1 @263
         SAY NAME2 @263
       END
@@ -3834,7 +3847,7 @@ BEGIN @1007
     SAY NAME2 @273
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* ELSOL1 soundset not present in BGEE, use ELFFF soundset instead */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
 	    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
     	SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
     	SAY DAMAGE #12586			// [ELF 5]
@@ -4024,10 +4037,10 @@ BEGIN @1007
     WRITE_LONG 0x14 ~100~ // XP Value
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STRING_COMPARE_CASE ~x#dgnle1~ = 0) THEN BEGIN
+      PATCH_IF (~%DEST_RES%~ STRING_COMPARE_CASE ~x#dgnle1~ = 0) BEGIN
         WRITE_ASCII 0x2cc ~X#DGNLE~ #8 // Dialogue file: Evil Gnoll #1
         ADD_CRE_ITEM ~X#DYJOR2~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_COMPARE_CASE ~x#dgnlg1~ = 0) THEN BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STRING_COMPARE_CASE ~x#dgnlg1~ = 0) BEGIN
         WRITE_ASCII 0x2cc ~X#DGNLG~ #8// Dialogue file: Good Gnoll #1
         ADD_CRE_ITEM ~X#DYJOR1~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
       END
@@ -4128,15 +4141,15 @@ END
     SAY DIALOGUE_DEFAULT @299
     WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep1~) THEN BEGIN
+      PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep1~) BEGIN
         SAY NAME1 @292
         SAY NAME2 @293
         WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep2~) THEN BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep2~) BEGIN
         SAY NAME1 @303
         SAY NAME2 @304
         WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep3~) THEN BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep3~) BEGIN
         SAY NAME1 @305
         SAY NAME2 @306
         WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
@@ -4228,7 +4241,7 @@ END
     SAY NAME2 @316
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* SAUVAT soundset not present in BGEE, use EARTH soundset instead */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY BATTLE_CRY1 @731 // [EARTH02]
     	SAY BATTLE_CRY2 @732 // [EARTH03]
     	SAY DAMAGE @733 // [EARTH06]
@@ -4252,7 +4265,7 @@ END
     SAY NAME2 @326
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* EPRIM soundset not present in BGEE, use DRUID soundset instead */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	    SAY INITIAL_MEETING @341
     	SAY BATTLE_CRY1 @341
     	SAY DAMAGE @342
@@ -4281,7 +4294,7 @@ END
     SAY NAME2 @333
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* HVILLM soundset not present in BGEE, use DRUID soundset instead */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY INITIAL_MEETING @341
     	SAY BATTLE_CRY1 @341
     	SAY DAMAGE @342
@@ -4531,7 +4544,7 @@ END
     SAY NAME1 @374
     SAY NAME2 @375
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use VILLM soundset */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* BGEE: Use VILLM soundset */
     	SAY INITIAL_MEETING #23945	// [VILLAGER, MALE 01b]
     	SAY BATTLE_CRY1 #23882		// [VILLAGER, MALE 03]
     	SAY DAMAGE #23884			// [VILLAGER, MALE 05]
@@ -4549,11 +4562,11 @@ END
     	SAY SELECT_COMMON2 @332
     END
     WRITE_ASCII SCRIPT_OVERRIDE ~x#gpsht~ #8 // override script
-    PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6~) THEN BEGIN
+    PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6~) BEGIN
       WRITE_ASCII 0x280 ~jadruid6~ #32 //  death variable
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6a~) THEN BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6a~) BEGIN
       WRITE_ASCII 0x280 ~jadruid6a~ #32 //  death variable
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6b~) THEN BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6b~) BEGIN
       WRITE_ASCII 0x280 ~jadruid6b~ #32 //  death variable
     END
 
@@ -4562,7 +4575,7 @@ END
     SAY NAME1 @374
     SAY NAME2 @375
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use VILLM soundset */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* BGEE: Use VILLM soundset */
     	SAY INITIAL_MEETING #23945	// [VILLAGER, MALE 01b]
     	SAY BATTLE_CRY1 #23882		// [VILLAGER, MALE 03]
     	SAY DAMAGE #23884			// [VILLAGER, MALE 05]
@@ -4582,9 +4595,9 @@ END
     	SAY SELECT_COMMON4 @377
     END
     WRITE_ASCII SCRIPT_OVERRIDE ~x#gpsht~ #8 // override script
-    PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr8a~) THEN BEGIN
+    PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr8a~) BEGIN
       WRITE_ASCII 0x280 ~jadruid8a~ #32 //  death variable
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr8b~) THEN BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr8b~) BEGIN
       WRITE_ASCII 0x280 ~jadruid8b~ #32 //  death variable
     END
 
@@ -4628,7 +4641,7 @@ BEGIN @1022 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
 ACTION_FOR_EACH edwin IN edwin edwin2 edwin4 edwin6 _edwin _edwin2 _edwin4 _edwin6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
     COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
-      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x34 ~NEDWINS~ #8 // small portrait
         WRITE_ASCII 0x3c ~NEDWINM~ #8 // medium portrait
       END
@@ -4644,7 +4657,7 @@ BEGIN @1023 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
 ACTION_FOR_EACH imoen IN imoen imoen1 imoen2 imoen4 imoen6 _imoen _imoen1 _imoen2 _imoen4 _imoen6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
     COPY_EXISTING "%imoen%.cre" ~override~
-      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x34 ~NIMOENS~ #8 // small portrait
         WRITE_ASCII 0x3c ~NIMOENM~ #8 // medium portrait
       END
@@ -4660,7 +4673,7 @@ BEGIN @1024  /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
 ACTION_FOR_EACH jaheira IN jaheir jaheir2 jaheir4 jaheir6 _jaheir _jaheir2 _jaheir4 _jaheir6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
     COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
-      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x34 ~NJAHEIRS~ #8 // small portrait
         WRITE_ASCII 0x3c ~NJAHEIRM~ #8 // medium portrait
       END
@@ -4676,7 +4689,7 @@ BEGIN @1025 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
 ACTION_FOR_EACH minsc IN minsc minsc2 minsc4 minsc6 _minsc _minsc2 _minsc4 _minsc6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
     COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
-      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x34 ~NMINSCS~ #8 // small portrait
         WRITE_ASCII 0x3c ~NMINSCM~ #8 // medium portrait
       END
@@ -4692,7 +4705,7 @@ BEGIN @1026  /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
 ACTION_FOR_EACH viconia IN viconi viconi4 viconi61 _viconi _viconi4 _viconi6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
-      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x34 "NVICONS" #8 // small portrait
         WRITE_ASCII 0x3c "NVICONM" #8 // medium portrait
       END
@@ -4710,7 +4723,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
 ACTION_FOR_EACH kivan IN kivan kivan4 kivan6 _kivan _kivan4 _kivan6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
     COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
-      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
         WRITE_ASCII 0x34 ~P#KI2S~ #8 // small portrait
         WRITE_ASCII 0x3c ~P#KI2M~ #8 // medium portrait
       END
@@ -5248,7 +5261,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
     SAY NAME1 @481
     SAY NAME2 @481
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN /* BGEE: Use HELMP soundset */
+    PATCH_IF GAME_IS ~bgee~ BEGIN /* BGEE: Use HELMP soundset */
     	SAY INITIAL_MEETING #4976 // HELMP01
     	SAY BATTLE_CRY1 #4976 // HELMP01
     	SAY DAMAGE #5469 // HELMP05
@@ -5520,7 +5533,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY NAME2 @407
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY BATTLE_CRY1 @738 // [VAMPF02]
     	SAY ATTACK1 @739 // [VAMPF03]
     	SAY ATTACK2 @740 // [VAMPF04]
@@ -5542,7 +5555,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY NAME2 @413
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPP soundset for BGEE */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY BATTLE_CRY1 @745 // [VAMPP02]
     	SAY ATTACK1 @746 // [VAMPP03]
     	SAY ATTACK2 @747 // [VAMPP04]
@@ -5569,7 +5582,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY NAME2 @423
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY BATTLE_CRY1 @738 // [VAMPF02]
     	SAY ATTACK1 @739 // [VAMPF03]
     	SAY ATTACK2 @740 // [VAMPF04]
@@ -5596,7 +5609,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY NAME2 @432
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* Use VAMPF soundset for BGEE */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY BATTLE_CRY1 @738 // [VAMPF02]
     	SAY ATTACK1 @739 // [VAMPF03]
     	SAY ATTACK2 @740 // [VAMPF04]
@@ -5739,7 +5752,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY NAME2 @462
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FEMER soundset not in BGEE.  Use other general female sounds */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY INITIAL_MEETING @442
     	SAY DAMAGE @445
     	SAY DYING @446
@@ -6284,7 +6297,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME2 @533
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* ELHAN soundset not in BGEE.  Use ELFFF soundset */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
 	    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
     	SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
     	SAY DAMAGE #12586			// [ELF 5]
@@ -6305,7 +6318,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME2 @539
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* ELLESI soundset not in BGEE.  Use FELFF soundset */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
     	SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Good day and hello to you.
     	SAY DAMAGE #11075 // [ELF FEMALE 5]
     	SAY DYING #11076 // [ELF FEMALE 6]
@@ -6360,7 +6373,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME2 @547
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
 		SAY BATTLE_CRY1 @753 // [WYVER03]
 		SAY BATTLE_CRY2 @754 // [WYVER04]
 		SAY ATTACK1 @755 // [WYVER05]
@@ -6386,7 +6399,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME2 @553
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
-    PATCH_IF GAME_IS ~bgee~ THEN BEGIN
+    PATCH_IF GAME_IS ~bgee~ BEGIN
 		SAY BATTLE_CRY1 @753 // [WYVER03]
 		SAY BATTLE_CRY2 @754 // [WYVER04]
 		SAY ATTACK1 @755 // [WYVER05]
@@ -6482,11 +6495,9 @@ BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
 
   /* scripts Tutu Only */
   COPY_EXISTING ~_AR2301.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY
-      ~GlobalGT("Chapter","GLOBAL",2)~
-      ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",2)~ ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
+    END
   BUT_ONLY_IF_IT_CHANGES
 
   EXTEND_BOTTOM ~_JAHEIRA.bcs~   ~BG1NPC/Phase3/wait/baf/_jaheira_bot.baf~
@@ -6517,11 +6528,9 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* Trying to prevent Alora's CTD */
   COPY_EXISTING ~_AR0130.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY
-      ~!InParty("alora")~
-      ~!InParty("alora") Global("X#AloraDontBeDifficult","GLOBAL",1)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY ~!InParty("alora")~ ~!InParty("alora") Global("X#AloraDontBeDifficult","GLOBAL",1)~
+    END
     BUT_ONLY_IF_IT_CHANGES
 
   /* patching Alora's location */
@@ -6543,10 +6552,10 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     /* Patching Alora's location BGT */
     COPY_EXISTING ~AR7230.bcs~ ~override~
-      DECOMPILE_BCS_TO_BAF
+      DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
         REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
-      COMPILE_BAF_TO_BCS
+      END
     BUT_ONLY_IF_IT_CHANGES
     EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
       EVALUATE_BUFFER
@@ -6554,9 +6563,9 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   END ELSE BEGIN
  /* Patching Alora's location BG:EE */
     COPY_EXISTING ~AR0130.bcs~ ~override~
-      DECOMPILE_BCS_TO_BAF
+      DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~!Dead("alora")~ ~!Dead("alora") False()~
-      COMPILE_BAF_TO_BCS
+      END
     BUT_ONLY_IF_IT_CHANGES
     EXTEND_BOTTOM ~AR4000.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
       EVALUATE_BUFFER
@@ -6582,11 +6591,9 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
 
   /*Patching _ELDOTH.bcs */
   COPY_EXISTING ~_ELDOTH.bcs~ ~override~
-    DECOMPILE_BCS_TO_BAF
-    REPLACE_TEXTUALLY
-      ~!Global("X#SkieLeftEldoth","GLOBAL",1)~
-      ~OR(2) !Global("X#SkieLeftEldoth","GLOBAL",1) !Global("EldothMove","GLOBAL",0)~
-    COMPILE_BAF_TO_BCS
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY ~!Global("X#SkieLeftEldoth","GLOBAL",1)~ ~OR(2) !Global("X#SkieLeftEldoth","GLOBAL",1) !Global("EldothMove","GLOBAL",0)~
+    END
     BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING ~baldur.gam~ ~override~
@@ -6604,7 +6611,7 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
     BUT_ONLY_IF_IT_CHANGES
   PRINT @1076 /* ~Remember to start a new game for Eldoth to start on the Coast Way near the Obelisk. */
 
-/* Quayle Starts at the Wyvern's Crossing. */
+/* Quayle Starts at the Wyrm's Crossing. */
 BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
@@ -6716,15 +6723,15 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DIALOGUE_DEFAULT @299
     WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp1rep~) THEN BEGIN
+    PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp1rep~) BEGIN
       SAY NAME1 @292
       SAY NAME2 @293
       WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp2rep~) THEN BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp2rep~) BEGIN
       SAY NAME1 @303
       SAY NAME2 @304
       WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp3rep~) THEN BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp3rep~) BEGIN
       SAY NAME1 @305
       SAY NAME2 @306
       WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
@@ -6796,12 +6803,12 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW2100")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8800")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR2100")~
-    COMPILE_BAF_TO_BCS
-    BUT_ONLY_IF_IT_CHANGES
+    END
+  BUT_ONLY_IF_IT_CHANGES
 
   PRINT @1003  /* Please remember to start a new game to access the contents of this component. */
 
@@ -6832,12 +6839,12 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
-    DECOMPILE_BCS_TO_BAF
+    DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW1800")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8600")~
       REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR1800")~
-    COMPILE_BAF_TO_BCS
-    BUT_ONLY_IF_IT_CHANGES
+    END
+  BUT_ONLY_IF_IT_CHANGES
 
   PRINT @1003 /* Please remember to start a new game to access the contents of this component. */
 
