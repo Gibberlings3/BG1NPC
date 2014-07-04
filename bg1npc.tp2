@@ -6299,11 +6299,11 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     /* ELHAN soundset not in BGEE.  Use ELFFF soundset */
     PATCH_IF GAME_IS ~bgee~ BEGIN
 	    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
-    	SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
     	SAY DAMAGE #12586			// [ELF 5]
     	SAY DYING #12587			// [ELF 6]
     	SAY SELECT_COMMON1 #4941	// [ELF 1]
     	SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
+    	SAY SELECT_COMMON3 #4943	// [ELF 3] Soon we shall all be together upon Evermeet.
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @534
     	SAY BATTLE_CRY2 @535
@@ -6419,6 +6419,34 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
+  /* Replace CRE Items missing from BGEE */
+  ACTION_IF GAME_IS ~bgee~ BEGIN
+    /* Shortbow of Gesen for x#corafi */
+  	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/bow19.itm~ ~override~
+    	WRITE_LONG NAME1 6864
+   		SAY NAME2 @6013		// Shortbow of Gesen
+    	WRITE_LONG UNIDENTIFIED_DESC 6866
+    	WRITE_LONG DESC (BNOT 0x0)
+
+    /* Elven Chain and Scimitars for x#elhan */
+  	COPY_EXISTING ~chan12.itm~ ~override/chan13.itm~
+  	COPY_EXISTING ~sw1h22.itm~ ~override/sw1h50.itm~
+
+	/* Dagger for x#maste */
+	COPY_EXISTING ~dagg04.itm~ ~override/dagg24.itm~
+	
+	/* Dragon Claws */
+	COPY_EXISTING ~dragblue.itm~ ~override/dragred1.itm~
+	COPY_EXISTING ~draggre1.itm~ ~override/dragsil1.itm~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragring.itm~ ~override~
+    	WRITE_LONG NAME1 6348
+    	WRITE_LONG NAME2 6348
+    	WRITE_LONG UNIDENTIFIED_DESC 17054
+    	WRITE_LONG DESC (BNOT 0x0)
+
+    /* Skull - In dragon inventories */
+    COPY_EXISTING ~misc50.itm~ ~override/plot05d.itm~
+  END
 
   /* NPC scripts */
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~BG1NPC/Phase3/CHALLENGE/baf/X#CHALL0.BAF~
