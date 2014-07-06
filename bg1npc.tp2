@@ -6198,6 +6198,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_COMMON2 @493
     SAY SELECT_COMMON3 @499
     SAY SELECT_COMMON4 @500
+    PATCH_IF GAME_IS ~bgee~ BEGIN
+    	REPLACE_CRE_ITEM ~DAGG04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   /* Coran and Ajantis creatures for Fighting */
@@ -6250,6 +6253,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_ACTION5 @510
     SAY SELECT_ACTION6 @510
     SAY SELECT_ACTION7 @510
+    PATCH_IF GAME_IS ~bgee~ BEGIN
+    	REPLACE_CRE_ITEM ~BOW08~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~QUIVER01~ #0 #0 #0 ~unstealable&undroppable~ ~QUIVER1~ EQUIP
+    END
     WRITE_LONG BIO (BNOT 0x0)
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
@@ -6304,6 +6311,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 #4941	// [ELF 1]
     	SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
     	SAY SELECT_COMMON3 #4943	// [ELF 3] Soon we shall all be together upon Evermeet.
+    	REPLACE_CRE_ITEM ~CHAN12~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+    	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+     	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~    	
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @534
     	SAY BATTLE_CRY2 @535
@@ -6419,25 +6429,17 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
-  /* Replace CRE Items missing from BGEE */
+  /* Replace Dragon Items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ BEGIN
-    /* Shortbow of Gesen for x#corafi */
-  	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/bow19.itm~ ~override~
-    	WRITE_LONG NAME1 6864
-   		SAY NAME2 @6013		// Shortbow of Gesen
-    	WRITE_LONG UNIDENTIFIED_DESC 6866
+	/* Dragon Claws */
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragred1.itm~ ~override~
+	     ~BG1NPC/Phase3/CHALLENGE/bgee/dragsil1.itm~ ~override~
+    	WRITE_LONG NAME1 (BNOT 0x0)
+    	WRITE_LONG NAME2 (BNOT 0x0)
+    	WRITE_LONG UNIDENTIFIED_DESC (BNOT 0x0)
     	WRITE_LONG DESC (BNOT 0x0)
 
-    /* Elven Chain and Scimitars for x#elhan */
-  	COPY_EXISTING ~chan12.itm~ ~override/chan13.itm~
-  	COPY_EXISTING ~sw1h22.itm~ ~override/sw1h50.itm~
-
-	/* Dagger for x#maste */
-	COPY_EXISTING ~dagg04.itm~ ~override/dagg24.itm~
-	
-	/* Dragon Claws */
-	COPY_EXISTING ~dragblue.itm~ ~override/dragred1.itm~
-	COPY_EXISTING ~draggre1.itm~ ~override/dragsil1.itm~
+	/* Dragon Ring - for various immunities */
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragring.itm~ ~override~
     	WRITE_LONG NAME1 6348
     	WRITE_LONG NAME2 6348
@@ -6717,7 +6719,7 @@ GROUP @1065 /* The BG1 NPC Project: Tweaks */
     	ACTION_FOR_EACH ~file~ IN ~_sharte~ ~_sharte4~ ~_sharte6~ BEGIN
 		ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
 			COPY_EXISTING ~%file%.cre~ override
-				ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~NONE~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
+				ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~unstealable&undroppable~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
       			BUT_ONLY_IF_IT_CHANGES
   		END
   	END
