@@ -5320,19 +5320,15 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisBhaalLTs.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisDreamLTs.D~
 
-  /* ToSC only: */
-  ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if Tutu/TotSC/BGEE is installed
+  ACTION_IF GAME_IS ~tutu~ BEGIN  // Tutu without TotSC
+  	COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
+  END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN  // BGEE
+    COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_BGEE.D~
+      USING ~BG1NPC/TRA/%LANGUAGE%/x#ajantisAddLTs_PR.tra~
+  END ELSE BEGIN   // Tutu+TotSC or BGT
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR.D~
   END
-
-  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
-      COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
-  END
-
-  ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ AND NOT FILE_EXISTS_IN_GAME ~ARW003.are~ THEN BEGIN
-    COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
-  END
-
+  
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/baf/X#AJDOUG.BAF~
 
