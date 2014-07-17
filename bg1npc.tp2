@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_20140625~
+VERSION ~v21_PRERELEASE_20140710~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -5320,19 +5320,15 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisBhaalLTs.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisDreamLTs.D~
 
-  /* ToSC only: */
-  ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if Tutu/TotSC/BGEE is installed
+  ACTION_IF GAME_IS ~tutu~ BEGIN  // Tutu without TotSC
+  	COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
+  END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN  // BGEE
+    COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_BGEE.D~
+      USING ~BG1NPC/TRA/%LANGUAGE%/x#ajantisAddLTs_PR.tra~
+  END ELSE BEGIN   // Tutu+TotSC or BGT
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR.D~
   END
-
-  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
-      COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
-  END
-
-  ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ AND NOT FILE_EXISTS_IN_GAME ~ARW003.are~ THEN BEGIN
-    COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
-  END
-
+  
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/baf/X#AJDOUG.BAF~
 
@@ -6198,6 +6194,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_COMMON2 @493
     SAY SELECT_COMMON3 @499
     SAY SELECT_COMMON4 @500
+    PATCH_IF GAME_IS ~bgee~ BEGIN
+    	REPLACE_CRE_ITEM ~DAGG04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   /* Coran and Ajantis creatures for Fighting */
@@ -6250,6 +6249,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY SELECT_ACTION5 @510
     SAY SELECT_ACTION6 @510
     SAY SELECT_ACTION7 @510
+    PATCH_IF GAME_IS ~bgee~ BEGIN
+    	REPLACE_CRE_ITEM ~BOW08~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~QUIVER01~ #0 #0 #0 ~unstealable&undroppable~ ~QUIVER1~ EQUIP
+    END
     WRITE_LONG BIO (BNOT 0x0)
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
@@ -6299,11 +6302,14 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     /* ELHAN soundset not in BGEE.  Use ELFFF soundset */
     PATCH_IF GAME_IS ~bgee~ BEGIN
 	    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
-    	SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
     	SAY DAMAGE #12586			// [ELF 5]
     	SAY DYING #12587			// [ELF 6]
     	SAY SELECT_COMMON1 #4941	// [ELF 1]
     	SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
+    	SAY SELECT_COMMON3 #4943	// [ELF 3] Soon we shall all be together upon Evermeet.
+    	REPLACE_CRE_ITEM ~CHAN12~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+    	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+     	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~    	
 	END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @534
     	SAY BATTLE_CRY2 @535
@@ -6419,6 +6425,26 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     END
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
+  /* Replace Dragon Items missing from BGEE */
+  ACTION_IF GAME_IS ~bgee~ BEGIN
+	/* Dragon Claws */
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragred1.itm~ ~override~
+	     ~BG1NPC/Phase3/CHALLENGE/bgee/dragsil1.itm~ ~override~
+    	WRITE_LONG NAME1 (BNOT 0x0)
+    	WRITE_LONG NAME2 (BNOT 0x0)
+    	WRITE_LONG UNIDENTIFIED_DESC (BNOT 0x0)
+    	WRITE_LONG DESC (BNOT 0x0)
+
+	/* Dragon Ring - for various immunities */
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragring.itm~ ~override~
+    	WRITE_LONG NAME1 6348
+    	WRITE_LONG NAME2 6348
+    	WRITE_LONG UNIDENTIFIED_DESC 17054
+    	WRITE_LONG DESC (BNOT 0x0)
+
+    /* Skull - In dragon inventories */
+    COPY_EXISTING ~misc50.itm~ ~override/plot05d.itm~
+  END
 
   /* NPC scripts */
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~BG1NPC/Phase3/CHALLENGE/baf/X#CHALL0.BAF~
@@ -6689,7 +6715,7 @@ GROUP @1065 /* The BG1 NPC Project: Tweaks */
     	ACTION_FOR_EACH ~file~ IN ~_sharte~ ~_sharte4~ ~_sharte6~ BEGIN
 		ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
 			COPY_EXISTING ~%file%.cre~ override
-				ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~NONE~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
+				ADD_CRE_ITEM ~monhp1~ #0 #0 #0 ~unstealable&undroppable~ ~AMULET~ //  either adds it new, or forces into inventory (and unequipped)
       			BUT_ONLY_IF_IT_CHANGES
   		END
   	END
