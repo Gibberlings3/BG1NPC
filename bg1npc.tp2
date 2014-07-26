@@ -6551,52 +6551,68 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/MOVELOC/dlg/x#aloramoves.d~
     USING ~BG1NPC/TRA/%LANGUAGE%/X#ALORAN.TRA~
 
-ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* Trying to prevent Alora's CTD */
-  COPY_EXISTING ~_AR0130.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
+    COPY_EXISTING ~_AR0130.bcs~ ~override~
+      DECOMPILE_AND_PATCH BEGIN
     	REPLACE_TEXTUALLY ~!InParty("alora")~ ~!InParty("alora") Global("X#AloraDontBeDifficult","GLOBAL",1)~
-    END
-    BUT_ONLY_IF_IT_CHANGES
-
-  /* patching Alora's location */
-  COPY_EXISTING ~baldur.gam~ ~override~
-    READ_LONG 0x30 non_joined_npcs_off
-    READ_LONG 0x34 non_joined_npcs_count
-    FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
-      SET cre_offset = non_joined_npcs_off + i * 0x160
-      READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~_ALORA~) BEGIN
-        WRITE_ASCII cre_offset + 0x18 ~FW4000~ #8
-        WRITE_SHORT cre_offset + 0x20 553
-        WRITE_SHORT cre_offset + 0x22 506
       END
-    END
-    BUT_ONLY_IF_IT_CHANGES
+      BUT_ONLY_IF_IT_CHANGES
+
+    /* patching Alora's location */
+    COPY_EXISTING ~baldur.gam~ ~override~
+      READ_LONG 0x30 non_joined_npcs_off
+      READ_LONG 0x34 non_joined_npcs_count
+      FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
+        SET cre_offset = non_joined_npcs_off + i * 0x160
+        READ_ASCII 0xc + cre_offset ~CREName~
+        PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~_ALORA~) BEGIN
+          WRITE_ASCII cre_offset + 0x18 ~AR4000~ #8
+          WRITE_SHORT cre_offset + 0x20 553
+          WRITE_SHORT cre_offset + 0x22 506
+        END
+      END
+      BUT_ONLY_IF_IT_CHANGES
+    
     PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     /* Patching Alora's location BGT */
-    COPY_EXISTING ~AR7230.bcs~ ~override~
-      DECOMPILE_AND_PATCH BEGIN
-        REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
-        REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
-      END
-    BUT_ONLY_IF_IT_CHANGES
-    EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
-      EVALUATE_BUFFER
-    PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
-  END ELSE BEGIN
- /* Patching Alora's location BG:EE */
-    COPY_EXISTING ~AR0130.bcs~ ~override~
-      DECOMPILE_AND_PATCH BEGIN
-        REPLACE_TEXTUALLY ~!Dead("alora")~ ~!Dead("alora") False()~
-      END
-    BUT_ONLY_IF_IT_CHANGES
-    EXTEND_BOTTOM ~AR4000.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
-      EVALUATE_BUFFER
-    PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
-  END
+      COPY_EXISTING ~AR7230.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+          REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
+          REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
+        END
+      BUT_ONLY_IF_IT_CHANGES
+      EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
+        EVALUATE_BUFFER
+      PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
+    END ELSE BEGIN
+    /* Patching Alora's location BG:EE */
+      COPY_EXISTING ~AR0130.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+          REPLACE_TEXTUALLY CASE_INSENSITIVE ~!Dead("alora")~ ~!Dead("alora") False()~
+        END
+        BUT_ONLY_IF_IT_CHANGES
+
+      COPY_EXISTING ~baldur.gam~ ~override~
+        READ_LONG 0x30 non_joined_npcs_off
+        READ_LONG 0x34 non_joined_npcs_count
+        FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
+          SET cre_offset = non_joined_npcs_off + i * 0x160
+          READ_ASCII 0xc + cre_offset ~CREName~
+          PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~ALORA~) BEGIN
+            WRITE_ASCII cre_offset + 0x18 ~AR4000~ #8
+            WRITE_SHORT cre_offset + 0x20 553
+            WRITE_SHORT cre_offset + 0x22 506
+          END
+        END
+        BUT_ONLY_IF_IT_CHANGES
+
+//      EXTEND_BOTTOM ~AR4000.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
+//        EVALUATE_BUFFER
+      PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
+    END
   END
 
 /* Eldoth Starts in the Cloakwood Forest */
@@ -6702,6 +6718,7 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
 BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
+  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
   FORBID_FILE ~override/bantergoose.xxx~ @1089  /* You already have the Banter Accelerator installed. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Bantergoose/bantergoose.xxx~ ~override/bantergoose.xxx~
