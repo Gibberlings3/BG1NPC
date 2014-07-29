@@ -6718,7 +6718,7 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
 BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
+//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
   FORBID_FILE ~override/bantergoose.xxx~ @1089  /* You already have the Banter Accelerator installed. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Bantergoose/bantergoose.xxx~ ~override/bantergoose.xxx~
