@@ -1,5 +1,5 @@
 /* Declaration of Tutu Platform Variables */
-  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* tp2, d, and baf parsing variables based on conversion */
     OUTER_SPRINT "tutubgtbgee" "tutu"
     OUTER_SPRINT "bgdreams" "DREAM"
