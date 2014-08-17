@@ -60,7 +60,7 @@ END
 IF
 	HaveSpell(CLERIC_SILENCE_15_FOOT)
 	OR(2)
-		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
 		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
 THEN
 	RESPONSE #100
