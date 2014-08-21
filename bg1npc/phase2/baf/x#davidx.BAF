@@ -57,7 +57,7 @@ END
 IF
 	HaveSpell(WIZARD_MINOR_SPELL_DEFLECTION) // SPWI318.SPL (Minor Spell Deflection)
 	OR(4)
-		See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+		See(NearestEnemyOfType([0.0.0.202]))
 		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
 		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
 		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
@@ -70,7 +70,7 @@ END
 
 IF
 	OR(4)
-		See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+		See(NearestEnemyOfType([0.0.0.202]))
 		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
 		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
 		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
@@ -84,7 +84,7 @@ END
 
 IF
 	OR(4)
-		See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+		See(NearestEnemyOfType([0.0.0.202]))
 		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
 		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
 		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
@@ -98,7 +98,7 @@ END
 
 IF
 	OR(4)
-		See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+		See(NearestEnemyOfType([0.0.0.202]))
 		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
 		See(NearestEnemyOfType([0.0.0.BARD_ALL]))
 		See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
@@ -170,7 +170,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_SPELL_THRUST) // SPWI321.SPL (Spell Thrust)
 	Global("pscript_SpellThrust","LOCALS",0)
 	OR(2)
@@ -185,7 +185,7 @@ END
 
 IF
 	Global("pscript_SpellThrust","LOCALS",1)
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	OR(2)
 		HasBounceEffects(LastSeenBy(Myself))
 		HasImmunityEffects(LastSeenBy(Myself))
@@ -196,7 +196,7 @@ END
 
 IF
 	Global("pscript_SpellThrust","LOCALS",1)
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	!HasBounceEffects(LastSeenBy(Myself))
 	!HasImmunityEffects(LastSeenBy(Myself))
 THEN
@@ -205,7 +205,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_WARDING_WHIP) // SPWI705.SPL (Khelben's Warding Whip)
 	Global("pscript_WHIP","LOCALS",0)
 	OR(2)
@@ -220,7 +220,7 @@ END
 
 IF
 	Global("pscript_WHIP","LOCALS",1)
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	OR(2)
 		HasBounceEffects(LastSeenBy(Myself))
 		HasImmunityEffects(LastSeenBy(Myself))
@@ -231,7 +231,7 @@ END
 
 IF
 	Global("pscript_WHIP","LOCALS",1)
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	!HasBounceEffects(LastSeenBy(Myself))
 	!HasImmunityEffects(LastSeenBy(Myself))
 THEN

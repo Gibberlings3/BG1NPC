@@ -15,7 +15,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_SUMMON_NISHRUU)
 THEN
 	RESPONSE #100
@@ -95,7 +95,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	!HasBounceEffects(LastSeenBy(Myself))
 	!HasImmunityEffects(LastSeenBy(Myself))
 	Global("MinorSequencer","LOCALS",0)
@@ -109,7 +109,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	!HasBounceEffects(Myself)
 	!HasImmunityEffects(Myself)
 	HaveSpell(WIZARD_MINOR_SPELL_DEFLECTION)
@@ -121,7 +121,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	!Class(LastSeenBy(Myself),MAGE_ALL)
+	!Class(LastSeenBy(Myself),202)
 	HaveSpell(WIZARD_DEATH_SPELL)
 	OR(8)
 		SpellCast([ANYONE],WIZARD_MONSTER_SUMMONING_1)
@@ -140,7 +140,7 @@ END
 IF
 	NumCreatureGT([GOODCUTOFF],6)
 	See(NearestEnemyOf(Myself))
-	!Class(LastSeenBy(Myself),MAGE_ALL)
+	!Class(LastSeenBy(Myself),202)
 	HaveSpell(WIZARD_DEATH_SPELL)
 THEN
 	RESPONSE #100
@@ -148,7 +148,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_MONSTER_SUMMONING_3)
 	OR(8)
 		SpellCast([ANYONE],WIZARD_MONSTER_SUMMONING_1)
@@ -181,11 +181,11 @@ IF
 	Allegiance(Myself,ENEMY)
 	HaveSpell(WIZARD_TRUE_SIGHT)
 	OR(5)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_MISLEAD)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_SHADOW_DOOR)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_PROJECT_IMAGE)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_INVISIBILITY)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_IMPROVED_INVISIBILITY)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_MISLEAD)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_SHADOW_DOOR)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_PROJECT_IMAGE)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_INVISIBILITY)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_IMPROVED_INVISIBILITY)
 THEN
 	RESPONSE #100
 		Spell(Myself,WIZARD_TRUE_SIGHT)
@@ -195,15 +195,15 @@ IF
 	Allegiance(Myself,ENEMY)
 	HaveSpell(WIZARD_DETECT_INVISIBILITY)
 	OR(2)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_INVISIBILITY)
-		SpellCast(NearestEnemyOfType([0.0.0.MAGE_ALL]),WIZARD_IMPROVED_INVISIBILITY)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_INVISIBILITY)
+		SpellCast(NearestEnemyOfType([0.0.0.202]),WIZARD_IMPROVED_INVISIBILITY)
 THEN
 	RESPONSE #100
 		Spell(Myself,WIZARD_DETECT_INVISIBILITY)
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_SECRET_WORD)
 	SpellCast(LastSeenBy(Myself),WIZARD_MINOR_SPELL_TURNING)
 THEN
@@ -212,7 +212,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_WARDING_WHIP)
 	OR(2)
 		SpellCast(LastSeenBy(Myself),WIZARD_SPELL_TURNING)
@@ -223,7 +223,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_WARDING_WHIP)
 	OR(2)
 		HasBounceEffects(LastSeenBy(Myself))
@@ -234,7 +234,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_BREACH)
 	OR(12)
 		SpellCast(LastSeenBy(Myself),WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
@@ -255,7 +255,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_DISPEL_MAGIC)
 	OR(4)
 		SpellCast(LastSeenBy(Myself),WIZARD_HASTE)
@@ -268,7 +268,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_POWER_WORD_SILENCE)
 	!HasBounceEffects(LastSeenBy(Myself))
 	!HasImmunityEffects(LastSeenBy(Myself))
@@ -278,7 +278,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_IMPROVED_INVISIBILITY)
 	!HasBounceEffects(Myself)
 	HasBounceEffects(LastSeenBy(Myself))
@@ -323,7 +323,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+	See(NearestEnemyOfType([0.0.0.202]))
 	HaveSpell(WIZARD_SLOW)
 THEN
 	RESPONSE #100
@@ -349,7 +349,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	!Class(LastSeenBy(Myself),MAGE_ALL)
+	!Class(LastSeenBy(Myself),202)
 	HaveSpell(WIZARD_BLUR)
 	HaveSpell(WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
 THEN
@@ -360,7 +360,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	!Class(LastSeenBy(Myself),MAGE_ALL)
+	!Class(LastSeenBy(Myself),202)
 	HaveSpell(WIZARD_POWER_WORD_SLEEP)
 THEN
 	RESPONSE #100
@@ -369,7 +369,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	!Class(LastSeenBy(Myself),MAGE_ALL)
+	!Class(LastSeenBy(Myself),202)
 	HaveSpell(WIZARD_CHARM_PERSON)
 THEN
 	RESPONSE #100
@@ -378,7 +378,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	!Class(LastSeenBy(Myself),MAGE_ALL)
+	!Class(LastSeenBy(Myself),202)
 	HaveSpell(WIZARD_SPOOK)
 THEN
 	RESPONSE #100
