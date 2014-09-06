@@ -676,7 +676,7 @@ IF ~~ THEN DO ~SetGlobal("X#IMDiamond","GLOBAL",2)~ EXIT
 END
 
 /* Found Gorion's Body 1 */
-IF WEIGHT #-2 ~%BGT_VAR% Global("X#IMGBody","GLOBAL",1) PartyHasItem("%tutu_var%SCRL3Z")~ THEN BEGIN ImoenGorionBody
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#IMGBody","GLOBAL",1)~ THEN BEGIN ImoenGorionBody
 SAY @197
 ++ @198 DO ~SetGlobal("X#IMGBody","GLOBAL",2)~ + IMINT1.1
 ++ @199 DO ~SetGlobal("X#IMGBody","GLOBAL",2)~ + IMINT1.1
