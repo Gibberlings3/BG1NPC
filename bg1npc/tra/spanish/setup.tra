@@ -126,19 +126,19 @@ Por favor, usa el componente de Sword Coast Strategems para BGT~
 @1120  = ~Faizah Tin~
 @1121  = ~Rance~
 @1122  = ~Vail~
-@1123  = ~BGEE Banter Timing Tweak~
-@1124  = ~You already have the Banter Timing Tweak installed.~
-@1125  = "Please select one of the following options for banter timing:
-[1] Normal banter timing (~27 minutes between banter dialogs)
-[2] Faster banters (Banter dialogs occur ~50% faster)
-[3] Very fast banters (Banter dialogs occur twice as fast)
-[4] Slower banters (Banter dialogs occur ~50% slower)
-[5] Very slow banters (Banter dialogs occur twice as slow)"
-@1126  = ~Banter Timing: Normal~
-@1127  = ~Banter Timing: Fast~
-@1128  = ~Banter Timing: Very fast~
-@1129  = ~Banter Timing: Slow~
-@1130  = ~Banter Timing: Very slow~
+@1123 = ~Ajuste del temporizador de banters (solo BGEE)~
+@1124 = ~Algunos ajustes del temporizador de banters ya fueron instalados anteriormente.~
+@1125 = "Por favor seleccione una de las siguientes opciones para el temporizador de banters:
+[1] Tiempo normal entre banters (~27 minutos entre banters)
+[2] Banters son mas r·pidos (ocurren un ~50% mas r·pido)
+[3] Banters muy r·pidos (ocurren al doble de la velocidad normal)
+[4] Banters son mas lentos (ocurren ~50% mas lento)
+[5] Banters muy lentos (ocurren a la mitad de la velocidad normal)"
+@1126 = ~Velocidad de los banters: Normal~
+@1127 = ~Velocidad de los banters: Mas r·pidos~
+@1128 = ~Velocidad de los banters: Muy r·pidos~
+@1129 = ~Velocidad de los banters: Mas lentos~
+@1130 = ~Velocidad de los banters: Muy lentos~
 @5000  = ~BG:EE detectado.~
 @5001  = ~Ce composant necessite d'avoir installe BGT ou TuTu.~
 @5002  = ~Ce composant necessite d'avoir installe BGEE.~
