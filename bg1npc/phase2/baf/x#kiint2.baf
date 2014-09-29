@@ -91,6 +91,7 @@ END
 /* Initiate  */
 IF %BGT_VAR%
 Global("P#KivanTazok1","GLOBAL",1)
+!Dead("tazok")
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
@@ -102,6 +103,17 @@ RESPONSE #100
 PlaySong(0)
 PlaySound("kivan99")
 Dialogue(Myself)
+END
+
+/* Skip P#KivanTazok1 if Tazok is killed too fast */
+IF %BGT_VAR%
+Global("P#KivanTazok1","GLOBAL",1)
+Dead("tazok")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("P#KivanTazok1","GLOBAL",3)
 END
 
 /* Tazok Dead in Bandit Camp */
