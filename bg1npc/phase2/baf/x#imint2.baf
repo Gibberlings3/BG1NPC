@@ -209,7 +209,7 @@ PlaySound("imoen99")
 StartDialogNoSet(Player1)
 END
 
-/* Jenkal Dead */
+/* Laryssa Dead */
 IF %BGT_VAR%
 AreaCheck("%ArchaeologicalSite%")
 Global("X#ImoenLaryssa2","GLOBAL",0)
@@ -225,18 +225,30 @@ RESPONSE #100
 SetGlobal("X#ImoenLaryssa2","GLOBAL",1)
 END
 
-/* Initiate Jenkal Dead */
+/* Initiate Laryssa Dead */
 IF %BGT_VAR%
 Global("X#ImoenLaryssa2","GLOBAL",1)
 InParty(Myself)
 InMyArea(Player1)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 !StateCheck(Player1,CD_STATE_NOTVALID)
+Global("BrageRiddle","GLOBAL",0)
 THEN
 RESPONSE #100
 PlaySong(0)
 PlaySound("imoen99")
 StartDialogNoSet(Player1)
+END
+
+/* Skip Laryssa Dead Dialog - Engaged Brage too fast */
+IF %BGT_VAR%
+Global("X#ImoenLaryssa2","GLOBAL",1)
+!Global("BrageRiddle","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("X#ImoenLaryssa2","GLOBAL",3)
 END
 
 /* Osmadi and Corsone dead */
