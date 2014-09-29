@@ -1658,9 +1658,11 @@ END
 /* passback not required - no trans actions */
 I_C_T3 ~%tutu_var%CORAN~ %BGTCORANState4% X#CORAN4
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @622
+== ~%tutu_var%CORAN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID) OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID)~ THEN @626
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @623
 == ~%tutu_var%CORAN~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @624
 == ~%tutu_var%CORAN~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @625
+== ~%tutu_var%CORAN~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @626
 END
 
 /* Cythandria */
