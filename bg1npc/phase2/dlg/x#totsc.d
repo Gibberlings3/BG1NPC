@@ -194,7 +194,7 @@ DO ~ActionOverride("coran",ReallyForceSpellRES("SPPR102",Myself))~
 == ~%tutu_scriptd%URLYLE1~ @43
 DO ~SetGlobal("WillHelpEscape","GLOBAL",1) EscapeArea()~ 
 END
-IF ~~ THEN SOLVED_JOURNAL @44 EXIT
+IF ~~ THEN JOURNAL @44 EXIT
 
 ADD_TRANS_TRIGGER ~%tutu_scriptd%URLYLE1~ 58 ~OR(5) !InParty("coran") !InMyArea("coran") StateCheck("coran",CD_STATE_NOTVALID) !Global("P#CoranMatch","GLOBAL",1) Global("P#CoranRomanceInactive","GLOBAL",1)~
 ADD_TRANS_TRIGGER ~%tutu_scriptd%URLYLE1~ 59 ~OR(5) !InParty("coran") !InMyArea("coran") StateCheck("coran",CD_STATE_NOTVALID) !Global("P#CoranMatch","GLOBAL",1) Global("P#CoranRomanceInactive","GLOBAL",1)~
