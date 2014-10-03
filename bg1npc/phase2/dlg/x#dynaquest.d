@@ -10,7 +10,7 @@ BEGIN ~X#TANARI~
 BEGIN ~X#DRIZZT~
 
 I_C_T ~%tutu_var%DRIZZT~ 10 X#DynaheirQuestAvailable
-== ~%tutu_var%DRIZZT~ IF ~Global("X#DynaJournal","GLOBAL",0)~ THEN @0 DO ~SetGlobal("X#DynaJournal","GLOBAL",1) AddJournalEntry(@225,QUEST)~
+== ~%tutu_var%DRIZZT~ IF ~Global("X#DynaJournal","GLOBAL",0)~ THEN @0 DO ~SetGlobal("X#DynaJournal","GLOBAL",1) AddJournalEntry(@225,INFO)~
 END
 
 /* First Meet Dynaheir - is in the party, whether or not party has already met Drizzt */
@@ -190,7 +190,7 @@ END
 APPEND ~%DYNAHEIR_JOINED%~
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#DYGnollsKilled","GLOBAL",1)~ THEN BEGIN X#DYQU50
 SAY @83
-IF ~OR(3) !InParty("edwin") !InMyArea("edwin") StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1") GiveItemCreate("SCRL9H",Player1,1,1,0)~ JOURNAL @224 EXIT
+IF ~OR(3) !InParty("edwin") !InMyArea("edwin") StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1") GiveItemCreate("SCRL9H",Player1,1,1,0)~ SOLVED_JOURNAL @224 EXIT
 IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) SetGlobalTimer("X#DJTOED","GLOBAL",ONE_DAY) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1") GiveItemCreate("SCRL9H",Player1,1,1,0)~ EXTERN ~%EDWIN_BANTER%~ X#DYQU51
 END
 END
@@ -492,7 +492,7 @@ APPEND ~%DYNAHEIR_JOINED%~
 
 IF ~~ THEN BEGIN X#DynaWinCompletedFinal
 SAY @212
-IF ~~ THEN DO ~GiveItemCreate("SCRL8I",Player1,1,1,0) GiveItemCreate("X#WINAMU",Player1,1,1,0)~ SOLVED_JOURNAL @213 EXIT
+IF ~~ THEN DO ~GiveItemCreate("SCRL8I",Player1,1,1,0) GiveItemCreate("X#WINAMU",Player1,1,1,0)~ JOURNAL @213 EXIT
 END
 
 END
