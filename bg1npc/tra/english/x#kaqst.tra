@@ -35,7 +35,7 @@
 
 Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways, but I might take the pin back to his family, when we get to Baldur's Gate.~
 @34   = ~Sure, we could use your skills.~
-@35   = ~Kagain's Quest
+@35   = ~Entar's Son
 
 Entar Silvershield's son was killed. We might take the pin back to his family, when we get to Baldur's Gate.~
 @36   = ~Now 'bout that hiring thing I promised. Here, have some gold, but I expect my share of the booty from ya. I am poor now.~
@@ -52,3 +52,8 @@ Entar Silvershield's son was killed. I didn't like Kagain's attitude, so we part
 @45   = ~Now 'bout that coin thing I promised. Here, have it, but I expect my share of the booty from ye. I am poor now.~
 @46   = ~We bring news for Lord and Lady Silvershield. We believe that we have found news of their son. Any chance this pin is one of yours?~
 @47   = ~I see that you have the household Sigil. Please go to meet Lady Silvershield directly. You can find her upstairs.~
+// BGEE #27194
+@48   = ~Entar's Son
+We've joined up with Kagain, a dwarf who wants to find a missing noble. The missing noble is the son of Entar Silvershield, and so he's really desperate to find the kid.~
+@49   = ~Entar's Son
+We returned the pin of Entar Silvershield to his family.~
