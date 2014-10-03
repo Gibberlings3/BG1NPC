@@ -102,8 +102,8 @@ CHAIN ~%JAHEIRA_JOINED%~ JAQU2.2
 == ~%tutu_var%SENIYA~ IF ~!Dead("aldeth") Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @122
 == ~%tutu_var%ALDETH~ IF ~!Dead("aldeth") Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @123
 END
-IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) GiveItemCreate("%tutu_var%POTN09",Player1,1,0,0) EraseJournalEntry(@184) AddJournalEntry(@186,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
-IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) GiveItemCreate("%tutu_var%POTN09",Player1,1,0,0) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@186,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
 
 CHAIN ~%JAHEIRA_JOINED%~ JAQU1.3
 @124
@@ -120,8 +120,8 @@ CHAIN ~%JAHEIRA_JOINED%~ JAQU4.1
 == ~%tutu_var%SENIYA~ IF ~!Dead("aldeth") Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @122
 == ~%tutu_var%ALDETH~ IF ~!Dead("aldeth") Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @131
 END
-IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) EraseJournalEntry(@184) AddJournalEntry(@187,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
-IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@187,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
 
 /* Quest Started Resolution 3 : either big fight against Seniyad (helped Aldeth) or all leave (killed Aldeth), either way quest closed and K & J leave. Global("X#JaheiraQuest","GLOBAL",10) */
 CHAIN ~%JAHEIRA_JOINED%~ JAQU4.2
@@ -148,8 +148,8 @@ CHAIN ~%JAHEIRA_JOINED%~ JAQU5.1
 == ~%tutu_var%SENIYA~ IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @122
 == ~%tutu_var%ALDETH~ IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @131
 END
-IF ~Global("X#SenBeador","GLOBAL",1) Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) EraseJournalEntry(@184) AddJournalEntry(@187,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
-IF ~Global("X#SenBeador","GLOBAL",1) Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#SenBeador","GLOBAL",1) Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@187,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#SenBeador","GLOBAL",1) Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
 IF ~!Global("X#SenBeador","GLOBAL",1)~ EXTERN ~%tutu_var%SENIYA~ SenBeador1
 
 /* Another version of Quest Started Resolution 3 : either big fight against Seniyad (helped Aldeth) or all leave (killed Aldeth), either way quest closed and K & J leave. Global("X#JaheiraQuest","GLOBAL",10) */
@@ -175,8 +175,8 @@ CHAIN ~%JAHEIRA_JOINED%~ JAQU6.1
 == ~%KHALID_JOINED%~ IF ~InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @116
 == ~%JAHEIRA_JOINED%~ IF ~InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @117
 END
-IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) GiveItemCreate("%tutu_var%POTN09",Player1,1,0,0) EraseJournalEntry(@184) AddJournalEntry(@186,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
-IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) GiveItemCreate("%tutu_var%POTN09",Player1,1,0,0) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@186,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
 
 CHAIN ~%JAHEIRA_JOINED%~ JAQU6.2
 @148
@@ -184,18 +184,18 @@ CHAIN ~%JAHEIRA_JOINED%~ JAQU6.2
 == ~%tutu_var%SENIYA~ IF ~!Dead("aldeth") Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @122
 == ~%tutu_var%ALDETH~ IF ~!Dead("aldeth") Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN @123
 END
-IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) GiveItemCreate("%tutu_var%POTN09",Player1,1,0,0) EraseJournalEntry(@184) AddJournalEntry(@186,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
-IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestHelpAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) SetGlobal("AldethMove","GLOBAL",1) AddexperienceParty(1000) GiveItemCreate("%tutu_var%POTN09",Player1,1,0,0) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@186,QUEST_DONE) ActionOverride("aldeth",EscapeArea())~ UNSOLVED_JOURNAL @163 EXIT
+IF ~Global("X#JaheiraQuestKillAldeth","GLOBAL",1)~ THEN DO ~SetGlobal("X#SenBeador","GLOBAL",1) SetGlobal("X#JaheiraQuest","GLOBAL",2) AddexperienceParty(500) EraseJournalEntry(@184) EraseJournalEntry(@188) AddJournalEntry(@185,QUEST_DONE)~ UNSOLVED_JOURNAL @163 EXIT
 
 APPEND ~%tutu_var%SENIYA~
 IF ~~ THEN BEGIN PCShadowDruid
 SAY @158
-IF ~~ THEN DO ~Shout(1) SetGlobal("X#JaheiraQuest","GLOBAL",10) AddexperienceParty(5000) SetGlobal("KilledDruids","GLOBAL",4) SetGlobal("HelpAldeth","GLOBAL",1) EraseJournalEntry(@184) Enemy()~ SOLVED_JOURNAL @159 EXIT
+IF ~~ THEN DO ~Shout(1) SetGlobal("X#JaheiraQuest","GLOBAL",10) AddexperienceParty(5000) SetGlobal("KilledDruids","GLOBAL",4) SetGlobal("HelpAldeth","GLOBAL",1) EraseJournalEntry(@184) EraseJournalEntry(@188) Enemy()~ SOLVED_JOURNAL @159 EXIT
 END
 
 IF ~~ THEN BEGIN SenAllLeave
 SAY @160
-IF ~~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",10) AddexperienceParty(2000) EraseJournalEntry(@184) Shout(3) EscapeArea()~ SOLVED_JOURNAL @161 EXIT
+IF ~~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",10) AddexperienceParty(2000) EraseJournalEntry(@184) EraseJournalEntry(@188) Shout(3) EscapeArea()~ SOLVED_JOURNAL @161 EXIT
 END
 
 /* For Quest 2, 3, 4, 5, 6, 7 then a reminder prompt cycles until quest is completed. */
