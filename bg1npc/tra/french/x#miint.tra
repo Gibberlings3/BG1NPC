@@ -1,9 +1,9 @@
 @0 = ~Oui, mais avec la chance de Minsc et l'intelligence de Bouh, on peut aller loin !~
-@1 = ~L'intelligence de Bouh, bien sûr...~
+@1 = ~L'intelligence de Bouh, bien sûr.~
 @2 = ~Oh, et l'aide magique de Dynahéir, aussi.~
-@3 = ~Tu me flattes...~
+@3 = ~Tu me flattes.~
 @4 = ~...Non ! Minsc pense que sa sorcière... Quoi, Bouh ? Oh, je vois... et l'intelligence de Dynahéir nous aide *beaucoup*.~
-@5 = ~Il me semble, oui. *soupire* J'aimerais que Tu n'aies jamais trouvé ce rongeur. J'ai peur qu'il ne Te fasse oublier tous les autres...~
+@5 = ~Il me semble, oui. *soupire* J'aimerais que Tu n'aies jamais trouvé ce rongeur. J'ai peur qu'il ne Te fasse oublier tous les autres.~
 @6 = ~Minsc n'oubliera jamais Dynahéir. Bouh ne le laisserait pas faire.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 547, probablement inutile de traduire ici !
 @7 = ~*soupire*~
@@ -19,7 +19,7 @@
 @17 = ~Mon impatiente apprentie, quelle serait la vie si tu avais un vieux magicien pour guider chacun de tes pas ?~
 @18 = ~A présent, file, jeune fille, l'aventure t'attend !~
 @19 = ~C'est plutôt rassurant de savoir qu'Elminster lui-même approuve la voie que tu as choisie, <CHARNAME>. Mais plus important encore, son approbation est accompagnée d'une recommandation bien utile.~
-@20 = ~Une fois de plus, Elminster a fait une apparition, bien qu'il ait été plus prodigue en informations, cette fois. Il connaissait apparemment bien Gorion et pensait qu'il était l'homme approprié pour s'occuper de moi. Il a aussi parlé de mauvais sang et d'une flétrissure qui va me consumer si je ne fais pas attention. Ce que cela signifie, je n'en suis pas certain. Je tiendrai compte de sa mise en garde, même si je n'ai pas le temps de m'y attarder pour l'instant. Il m'a donné quelques noms, cela dit, de personnes qu'il pense dignes de confiance : La Balafre du Poing Enflammé et le Duc Eltan. Je suppose que je peux les croire si Elminster lui-même me le recommande.~
+@20 = ~Elminster s'est représenté, mais il était cette fois plus généreux en renseignements. Apparemment, il connaissait bien Gorion, qui selon lui était un homme bien pour s'être occupé de moi. Il a aussi parlé de mauvais sang, et d'une infection qui me consumera si je ne fais pas attention. La signification de tout cela n'est pas claire. Je vais tenir compte de sa mise en garde, même si je n'ai pas vraiment le temps de m'y attarder. Il m'a toutefois donné le nom de personnes qu'il jugeait fiables : la Balafre du Poing Enflammé et le Duc Eltan. Je suppose que je peux leur faire confiance si Elminster lui-même me les recommande.~
 @21 = ~Ce n'est pas bien de voler !~
 @22 = ~Du moins, de nous voler ! *glousse*~
 @23 = ~Bon, où as-tu glané cette idée stupide ?~
@@ -40,9 +40,9 @@
 @38 = ~Et bien, la plupart des méchants sont répugnants. Celui-ci a aussi besoin d'un nouveau pantalon, maintenant.~
 @39 = ~Je le jure, Minsc, je ne te comprendrai jamais.~
 @40 = ~Ce n'est pas grave, Minsc ne se comprend pas non plus.~
-@41 = ~Mélicamp le poulet
+@41 = ~Mélicamp, poule de son état
 
-J'ai rapporté un crâne à Thalantyr, comme il l'avait demandé, et sa tentative de restaurer Mélicamp à sa forme originelle a été couronnée de succès. Le corps du jeune homme a supporté le stress de cette nouvelle transformation, et il semble désireux d'apprendre de ses erreurs. Thalantyr a cependant rappelé qu'une fin tragique aurait été tout autant possible, et que des précautions doivent toujours être prises lorsque l'on utilise la magie, même pour des choses d'apparence bénigne.~
+J'ai rapporté un crâne à Thalantyr qui a réussi à rendre sa forme humaine à Mélicamp. Le corps du jeune homme a bien supporté cette nouvelle transformation, et celui-ci se déclare prêt à tirer la leçon de ses erreurs. Selon Thalantyr, l'histoire aurait pu se terminer beaucoup plus mal. On doit toujours utiliser la magie, aussi bénéfique semble-t-elle, avec prudence.~
 @42 = ~Regarde, Bouh, quelle jolie tour !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 563, probablement inutile de traduire ici !
 @43 = ~*squiiik*~ [GAM_48]
@@ -232,3 +232,5 @@ J'ai rencontré un homme nommé Edwin près de Nashkel, et j'ai refusé sa propositi
 @173 = ~Si seulement nous avions Dynahéir avec nous. Oh, les boules de feu qu'elle pourrait lancer ! Plus grandes que celles de Bouh après dix jours de régime aux fayots !~
 @174 = ~Bien sûr, c'est pratique d'avoir une sorcière puissante comme Dynahéir avec nous, hein, Bouh ?~
 @175 = ~Ô flatteur, pourquoi ne Te mettrais-Tu pas sur le côté, pour que je puisse incanter ?~
+@176 = ~It was very lucky that we found the chicken-mage and brought him to the wizard! Now he is a man-mage again and we are heroes!~ 
+@177 = ~Truly, Tymora loveth a fool. From what I know of the magics Melicamp dabbled in, he should have ended up in a farmwife's soup.~
