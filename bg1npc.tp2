@@ -6545,13 +6545,18 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (!FILE_EXISTS_IN_GAME ~dw#12.xxx~) @1066 /* This component is already handled by Sword Coast Strategems. To use the BG1 NPC version, please uninstall the SCS version first. */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @5003 /* Incompatible with BGT & BGEE: please use the equivalent component in SwordCoastStrategems for BGT and BGEE */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#WaitAtInn.G3~
 
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
 
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* BGEE */
+    INCLUDE ~bg1npc/phase3/wait/lib/bgee_wait_areas.tpa~
+	COMPILE EVALUATE_BUFFER ~bg1npc/phase3/wait/dlg/x#npcwait_ee.d~
+      USING ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~  
+  END ELSE BEGIN  /* Tutu */
     /* dialog Tutu Only */
     COMPILE ~BG1NPC/Phase3/WAIT/dlg/X#NPCWAIT.D~
       USING ~BG1NPC/TRA/%LANGUAGE%/X#NPCWAIT.TRA~
@@ -6565,6 +6570,7 @@ BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
 
     EXTEND_BOTTOM ~_JAHEIRA.bcs~   ~BG1NPC/Phase3/wait/baf/_jaheira_bot.baf~
     EXTEND_BOTTOM ~_KHALID.bcs~   ~BG1NPC/Phase3/wait/baf/_khalid_bot.baf~
+  END
 
 /* Move Alora, Eldoth, Quayle and Tiax */
 /* patching location code */
