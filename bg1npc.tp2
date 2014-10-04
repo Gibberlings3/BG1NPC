@@ -2521,7 +2521,7 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#SKINT.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#KIINT.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XZINT.D~
-  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#MOINT.D~
+  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/x#moint.d~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#ELINT.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#SAINT.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#TIINT.D~
@@ -2542,6 +2542,10 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#QUINT.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/x#kiint_new.d~
 
+  /* Add Journal Entries to BGEE.sql for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31279) @72 @73 USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
+  ADD_JOURNAL EXISTING TITLE (#31317) @171 USING ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
+
   /* Area Script additions */
   EXTEND_BOTTOM ~%SilvershieldEstate_L2_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0102.BAF~
       EVALUATE_BUFFER
@@ -2554,6 +2558,8 @@ BEGIN @1007
   EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW2700.BAF~
       EVALUATE_BUFFER
       USING ~BG1NPC/TRA/%LANGUAGE%/P#FW2700.tra~
+  EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~ ~bg1npc/Phase2/baf/x#ar1803.baf~
+      EVALUATE_BUFFER USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
 
   /* General use scripts */
   COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#gpsht.baf~ 
@@ -2790,6 +2796,9 @@ BEGIN @1007
   /* dialogues */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/x#tiaxquest.d~
 
+  /* Add journal entries for BGEE */
+  ADD_JOURNAL TITLE (@999) @10 @25 @63 @72 @106 @112 @114 @250 @251 @252 @254 @255 @256 @313 USING ~bg1npc/tra/%LANGUAGE%/x#tiaxquest.tra~
+
   /* Kagain's Caravan */
   /* Kagain Caravan quest rebuild */
   /* area patching */
@@ -2874,7 +2883,7 @@ BEGIN @1007
     SAY SELECT_COMMON6 @31
     WRITE_ASCII 0x0258 ~~ #8 //  Creature script - Race
     WRITE_ASCII 0x0260 ~~ #8 //  Creature script - General
-    WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TARSGT~ #8 //  Creature script - Default
+    WRITE_EVALUATED_ASCII 0x0268 ~%tutu_var%WTARSGT~ #8 //  Creature script - Default
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
 
   /* Burned corpse */
@@ -2898,6 +2907,10 @@ BEGIN @1007
 
   /* dialogue */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#KAQST.D~
+
+  /* Add Journal entries for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31350) @33 @35 @44 @49 USING ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
+
 
   /* Eldoth's Bently Quarrel */
   COPY ~BG1NPC/phase2/itm/x#fai1.itm~ ~override~
@@ -3502,6 +3515,9 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#GARAR.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#GARWYL.D~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#HALBAZ.D~
+  
+  /* Add Journal entries for BGEE */
+  ADD_JOURNAL TITLE (@999) @24 @26 USING ~bg1npc/tra/%LANGUAGE%/x#garwyl.tra~
 
   /* Coran's Quest */
   /* items */
@@ -3701,6 +3717,9 @@ BEGIN @1007
 
   /* dialogues */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#COSQU.D~
+
+  /* Add journal entries for BGEE */
+  ADD_JOURNAL TITLE (@999) @52 @53 @174 @178 @184 @197 @202 @208 @253 @254 USING ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
 
   /* scripts */
   EXTEND_TOP  ~%tutu_var%CORAN.bcs~ ~BG1NPC/Phase2/baf/X#COSQU.BAF~
@@ -4127,6 +4146,10 @@ END
   EXTEND_TOP  ~%DYNAHEIR_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#dynaquest.baf~
       EVALUATE_BUFFER
 
+  /* Add Journal Entries to database for BGEE */
+  ADD_JOURNAL TITLE (@999) @30 @32 @34 @36 @223 @224 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+  ADD_JOURNAL EXISTING TITLE (#31317) @220 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+  
   /* Lake Poets "Quest"; Bard in party encounter */
   /* creatures */
   COPY_EXISTING ~%tutu_var%VOLO.cre~ ~override/x#lakep1.cre~
@@ -4437,6 +4460,9 @@ END
   /* dialogues */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XZQU.D~
   
+  /* Add journal entries for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGAUGE%/x#xzqu.tra~
+    
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#BLACK.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#STORM.BAF~
@@ -4610,6 +4636,10 @@ END
 
   /* dialogues */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#JAQU.D~
+
+  /* Add Journal entries for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31291) @185 @186 @187 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+  ADD_JOURNAL TITLE (@999) @159 @161 @163 @169 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
 
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#BEADOR.BAF~
@@ -6515,26 +6545,32 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (!FILE_EXISTS_IN_GAME ~dw#12.xxx~) @1066 /* This component is already handled by Sword Coast Strategems. To use the BG1 NPC version, please uninstall the SCS version first. */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @5003 /* Incompatible with BGT & BGEE: please use the equivalent component in SwordCoastStrategems for BGT and BGEE */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#WaitAtInn.G3~
 
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
 
-  /* dialog Tutu Only */
-  COMPILE ~BG1NPC/Phase3/WAIT/dlg/X#NPCWAIT.D~
-    USING ~BG1NPC/TRA/%LANGUAGE%/X#NPCWAIT.TRA~
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* BGEE */
+    INCLUDE ~bg1npc/phase3/wait/lib/bgee_wait_areas.tpa~
+	COMPILE EVALUATE_BUFFER ~bg1npc/phase3/wait/dlg/x#npcwait_ee.d~
+      USING ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~  
+  END ELSE BEGIN  /* Tutu */
+    /* dialog Tutu Only */
+    COMPILE ~BG1NPC/Phase3/WAIT/dlg/X#NPCWAIT.D~
+      USING ~BG1NPC/TRA/%LANGUAGE%/X#NPCWAIT.TRA~
 
-  /* scripts Tutu Only */
-  COPY_EXISTING ~_AR2301.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-    	REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",2)~ ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
-    END
-  BUT_ONLY_IF_IT_CHANGES
+    /* scripts Tutu Only */
+    COPY_EXISTING ~_AR2301.bcs~ ~override~
+      DECOMPILE_AND_PATCH BEGIN
+      	REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",2)~ ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
+      END
+    BUT_ONLY_IF_IT_CHANGES
 
-  EXTEND_BOTTOM ~_JAHEIRA.bcs~   ~BG1NPC/Phase3/wait/baf/_jaheira_bot.baf~
-  EXTEND_BOTTOM ~_KHALID.bcs~   ~BG1NPC/Phase3/wait/baf/_khalid_bot.baf~
+    EXTEND_BOTTOM ~_JAHEIRA.bcs~   ~BG1NPC/Phase3/wait/baf/_jaheira_bot.baf~
+    EXTEND_BOTTOM ~_KHALID.bcs~   ~BG1NPC/Phase3/wait/baf/_khalid_bot.baf~
+  END
 
 /* Move Alora, Eldoth, Quayle and Tiax */
 /* patching location code */

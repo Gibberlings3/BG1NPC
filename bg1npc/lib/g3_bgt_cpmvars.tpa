@@ -713,6 +713,7 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     OUTER_SPRINT "CK_LibL5_BCS" "AR6512"
     OUTER_SPRINT "CloakwoodDr_PetersCave_BCS" "AR8403"
     OUTER_SPRINT "CloakwoodNest_BCS" "AR8800"
+    OUTER_SPRINT "CloakwoodMines_L4_BCS" "AR8603"
     OUTER_SPRINT "CloakwoodWyverns_BCS" "AR8500"
     OUTER_SPRINT "CoastWay_BCS" "AR6900"
     OUTER_SPRINT "EarthChamber_BCS" "ARD010"

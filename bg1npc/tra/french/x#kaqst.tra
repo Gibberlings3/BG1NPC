@@ -41,7 +41,7 @@
 
 Le fils d'Entar Ecudargent a été tué. Je n'ai pas eu confiance en Kagain, nos chemins se sont donc séparés, mais je vais peut-être ramener la broche à la famille quand nous arriverons à la Porte de Baldur.~
 @34   = ~Bien sûr, tes compétences pourraient nous être utiles.~
-@35   = ~La Quête de Kagain
+@35   = ~Le fils d'Entar
 
 Le fils d'Entar Ecudargent a été tué. Nous allons peut-être ramener la broche à la famille quand nous arriverons à la Porte de Baldur.~
 @36   = ~Bon, à propos de ce recrutement que j'ai promis. Voilà, un peu d'or. Mais j'attends que tu me donnes une part du butin que tu amasseras. Je suis pauvre maintenant.~
@@ -60,3 +60,9 @@ Le fils d'Entar Ecudargent a été tué. Je n'ai pas aimé l'attitude de Kagain ; no
 //Domaine Ecudargent
 @46   = ~Nous apportons des nouvelles pour Sire et Dame Ecudargent. Nous pensons avoir trouvé leur fils. Cette broche serait-elle une des vôtres ?~
 @47   = ~Je vois que vous avez le sceau de la famille. Veuillez-vous adresser directement à Dame Ecudargent. Vous la trouverez à l'étage.~
+// BGEE #27194
+@48   = ~Le fils d'Entar
+
+Nous avons rejoint Kagain, un nain qui veut retrouver un noble. Le noble disparu est le fils d'Entar Écudargent, et il tente désespérément de retrouver l'enfant.~
+@49   = ~Entar's Son
+We returned the pin of Entar Silvershield to his family.~

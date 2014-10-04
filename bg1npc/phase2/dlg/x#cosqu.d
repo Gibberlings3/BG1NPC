@@ -37,12 +37,12 @@ END
 
 IF ~~ NAFI1.3
 SAY @13
-IF ~~ THEN DO ~ EscapeArea() AddexperienceParty(1000)~ EXIT
+IF ~~ THEN DO ~AddExperienceParty(1000) EscapeArea()~ EXIT
 END
 
 IF ~~ NAFI1.4
 SAY @14
-IF ~~ THEN DO ~GiveItem("%tutu_var%POTN36",Player1) GiveItem("%tutu_var%POTN37",Player1) GiveItem("%tutu_var%POTN42",Player1) GiveItem("%tutu_var%POTN07",Player1) EscapeArea() AddexperienceParty(100)~ EXIT
+IF ~~ THEN DO ~GiveItem("%tutu_var%POTN36",Player1) GiveItem("%tutu_var%POTN37",Player1) GiveItem("%tutu_var%POTN42",Player1) GiveItem("%tutu_var%POTN07",Player1) AddExperienceParty(100) EscapeArea()~ EXIT
 END
 
 IF ~%BGT_VAR% Global("X#CoranSuccubus","GLOBAL",11)~ NatanAdoreAmelia
@@ -334,17 +334,17 @@ END
 
 IF ~~ AMRE2.2A
 SAY @122
-IF ~~ THEN DO ~StartCutSceneMode() TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) ActionOverride("coran",EscapeArea()) GiveItemCreate("X#COAMUL",Player1,1,0,0) EscapeArea() ActionOverride("natan",EscapeArea()) AddexperienceParty(6400) EndCutSceneMode()~ EXIT
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("coran",EscapeArea()) ActionOverride("natan",EscapeArea()) EscapeArea()~ EXIT
 END
 
 IF ~~ AMRE2.2B
 SAY @123
-IF ~~ THEN DO ~StartCutSceneMode() TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) EscapeArea() AddexperienceParty(6400) EndCutSceneMode()~ EXIT
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) EscapeArea()~ EXIT
 END
 
 IF ~~ AMRE2.3
 SAY @124
-IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",17) Polymorph(ELEMENTAL_FIRE) Enemy() ActionOverride("coran",Enemy()) ActionOverride("natan",Enemy()) AddexperienceParty(5000)~ EXIT
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",17) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy() ActionOverride("coran",Enemy()) ActionOverride("natan",Enemy())~ EXIT
 END
 
 IF ~~ AMRE2.4F
@@ -366,7 +366,7 @@ END
 IF ~~ AMRE2.6
 SAY @130
 = @131
-IF ~~ THEN DO ~StartCutSceneMode() TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) EscapeArea() ActionOverride("coran",EscapeArea()) ActionOverride("natan",EscapeArea()) AddexperienceParty(6400) EndCutSceneMode()~
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE)  AddExperienceParty(6400) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT))  ActionOverride("coran",EscapeArea()) ActionOverride("natan",EscapeArea()) EscapeArea()~
 EXIT
 END
 
@@ -377,7 +377,7 @@ END
 
 IF ~~ AMRE2.8
 SAY @133
-IF ~~ THEN DO ~StartCutSceneMode() TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) EscapeArea() AddexperienceParty(6400) EndCutScenemode()~
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) AddExperienceParty(6400) EscapeArea()~
 EXIT
 END
 
@@ -419,7 +419,7 @@ END
 
 IF ~~ AMRE1.3
 SAY @152
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) Enemy() AddexperienceParty(5000)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.4
@@ -431,18 +431,18 @@ END
 
 IF ~~ AMRE1.5
 SAY @154
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) Enemy() AddexperienceParty(5000)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.6
 SAY @155
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) GiveItemCreate("X#COAMUL",Player1,1,0,0) EscapeArea() ActionOverride("natan",DestroySelf()) AddexperienceParty(6400)~
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("natan",DestroySelf()) EscapeArea()~
 EXIT
 END
 
 IF ~~ AMRE1.7
 SAY @156
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) Enemy() AddexperienceParty(5000)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.8
@@ -454,7 +454,7 @@ END
 
 IF ~~ AMRE1.9
 SAY @161
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) GiveItemCreate("X#COAMUL",Player1,1,0,0) EscapeArea() ActionOverride("natan",DestroySelf()) AddexperienceParty(6400)~
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("natan",DestroySelf()) EscapeArea()~
 EXIT
 END
 
@@ -552,7 +552,7 @@ END
 CHAIN ~%CORAN_JOINED%~ CoranQuitsSuccubus
 @195
 == X#AMELIA @196
-DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("coran",EscapeAreaMove("%FirewineBridge%",4040,2091,3)) SetGlobal("X#CoranSuccubus","GLOBAL",4)~
+DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) SetGlobal("X#CoranSuccubus","GLOBAL",4) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("coran",EscapeAreaMove("%FirewineBridge%",4040,2091,3))~
 END
 IF ~~ UNSOLVED_JOURNAL @197 EXIT
 
@@ -594,7 +594,7 @@ END
 
 IF ~~ CoranResistShort
 SAY @220 
-IF ~~ THEN DO ~ SetGlobalTimer("X#CoranResistTimer","GLOBAL", 10800) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4040,2091,3))~ EXIT
+IF ~~ THEN DO ~SetGlobalTimer("X#CoranResistTimer","GLOBAL", 10800) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4040,2091,3))~ EXIT
 END
 
 IF ~~ CoranResistLong
@@ -604,7 +604,7 @@ END
 
 IF ~~ CoranNotResist
 SAY @221
-IF ~~ THEN DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) LeaveParty() ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) EscapeAreaMove("%FirewineBridge%",4040,2091,3) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4040,2091,3))~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) LeaveParty() ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4040,2091,3)) EscapeAreaMove("%FirewineBridge%",4040,2091,3)~ EXIT
 END
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranCharmedRun","GLOBAL",1)~ CoranNotResistAfterTimer

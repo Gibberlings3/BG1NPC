@@ -1,9 +1,9 @@
 @0   = ~Tak, ale ze szczêœciem Minska i inteligencj¹ Boo ka¿dy daleko zajdzie!~ 
-@1   = ~Doprawdy. Z inteligencj¹ Boo...~
+@1   = ~Doprawdy. Z inteligencj¹ Boo.~
 @2   = ~Och, oraz tak¿e z pomoc¹ magii Dynaheir.~ 
-@3   = ~Schlebiasz mi...~
+@3   = ~Schlebiasz mi.~
 @4   = ~Nie! Minsc myœli, ¿e jego wiedŸma... Co takiego, Boo?... Och, rozumiem... inteligencja Dynaheir równie¿ BARDZO nam pomaga.~ 
-@5   = ~Wiêc siê sta³o. (wzdycha) ¯yczy³abym sobie, abyœ nigdy nie znalaz³ tego gryzonia... Obawiam siê, ¿e przezeñ zapomnisz o wszystkich innych...~
+@5   = ~Wiêc siê sta³o. (wzdycha) ¯yczy³abym sobie, abyœ nigdy nie znalaz³ tego gryzonia... Obawiam siê, ¿e przezeñ zapomnisz o wszystkich innych.~
 @6   = ~Minsc nigdy nie zapomni o Dynaheir. Boo nie pozwoli³by.~
 @7   = ~(wzdycha)~ 
 @8   = ~Tiax chce dostaæ tego gryzonia. Dominacja nad œwiatem by³aby znacznie ³atwiejsza, gdyby Tiax mia³ inteligentnych pomocników zamiast tych prostaków.~
@@ -18,7 +18,7 @@
 @17  = ~Moja niecierpliwa uczennico. Czym by³oby ¿ycie, gdyby na stra¿y ka¿dego twego kroku sta³ sêdziwy czarodziej?~
 @18  = ~Ruszaj, m³odzieñcze, twa przygoda czeka!~ ~Ruszaj, m³oda damo, twa przygoda czeka!~ 
 @19  = ~To ca³kiem buduj¹ce wiedzieæ, ¿e œcie¿ka, któr¹ pod¹¿asz, zosta³a zaakceptowana przez samego Elminstera. Ale, co wa¿niejsze, jego pochwale towarzyszy³a u¿yteczna rada.~
-@20  = ~Elminster pojawi³ siê raz jeszcze, ale tym razem by³ bardziej rozmowny. NajwyraŸniej dobrze zna³ Goriona i uwa¿a³ go za odpowiedni¹ osobê do opiekowania siê mn¹. Wspomnia³ te¿ coœ o z³ej krwi i zepsuciu, które mnie poch³onie, jeœli nikt siê o to nie zatroszczy. Nie jestem pewien, co to oznacza. Wezmê pod uwagê jego ostrze¿enie, choæ nie mam czasu siê nad nim zastanawiaæ. Poda³ mi równie¿ imiona osób, które uwa¿a za godne zaufania: Scar z P³omiennej Piêœci i ksi¹¿ê Eltan. Chyba mogê im wierzyæ - zw³aszcza, ¿e zarekomendowa³ ich sam Elminster.~ ~Elminster pojawi³ siê raz jeszcze, ale tym razem by³ bardziej rozmowny. NajwyraŸniej dobrze zna³ Goriona i uwa¿a³ go za odpowiedni¹ osobê do opiekowania siê mn¹. Wspomnia³ te¿ coœ o z³ej krwi i zepsuciu, które mnie poch³onie, jeœli nikt siê o to nie zatroszczy. Nie jestem pewna, co to oznacza. Wezmê pod uwagê jego ostrze¿enie, choæ nie mam czasu siê nad nim zastanawiaæ. Poda³ mi równie¿ imiona osób, które uwa¿a za godne zaufania: Scar z P³omiennej Piêœci i ksi¹¿ê Eltan. Chyba mogê im wierzyæ - zw³aszcza, ¿e zarekomendowa³ ich sam Elminster.~
+@20  = ~Elminster pojawi³ siê raz jeszcze, ale tym razem by³ bardziej rozmowny. NajwyraŸniej dobrze zna³ Goriona i uwa¿a³ go za odpowiedni¹ osobê do opiekowania siê mn¹. Wspomnia³ te¿ coœ o z³ej krwi i zepsuciu, które mnie poch³onie, jeœli nikt siê o to nie zatroszczy. Nie jestem pewien, co to oznacza. Wezmê pod uwagê jego ostrze¿enie, choæ nie mam czasu siê nad nim zastanawiaæ. Poda³ mi równie¿ imiona osób, które uwa¿a za godne zaufania: Scar z P³omiennej Piêœci i ksi¹¿ê Eltan. Chyba mogê im wierzyæ – zw³aszcza, ¿e zarekomendowa³ ich sam Elminster.~
 @21  = ~Nie³adnie kraœæ!~ 
 @22  = ~Przynajmniej od nas! (chichocze)~
 @23  = ~Sk¹d taki g³upi pomys³?!~ 
@@ -39,9 +39,8 @@
 @38  = ~Tak, wielu ³otrów jest obrzydliwych. Poza tym ten tutaj potrzebuje nowych spodni.~
 @39  = ~Przysiêgam, ¿e nigdy ciê nie zrozumiem, Minsc.~
 @40  = ~To w porz¹dku, Minsc sam siebie nie rozumie.~
-@41  = ~Kurczak Melicamp
-
-Przynieœliœmy czaszkê Thalantyrowi, tak jak sobie tego ¿yczy³, ale jego próby przywrócenia ¿ycia Melicampowi siê nie powiod³y. NajwyraŸniej cia³o m³odzieñca nie wytrzyma³o szoku kolejnej przemiany. Thalantyr powiedzia³, ¿e w ¿aden sposób nie mogliœmy wp³yn¹æ na wynik - to po prostu kwestia szczêœcia. Magia wci¹¿ pozostaje nieokreœlon¹ si³¹ i nale¿y j¹ wykorzystywaæ z wielk¹ ostro¿noœci¹.~ 
+@41  = ~Przemiana Melicampa
+Przynieœliœmy czaszkê Thalantyrowi, tak jak sobie tego ¿yczy³, a jego próby przywrócenia ¿ycia Melicampowi zakoñczy³y siê sukcesem. Cia³o m³odzieñca przetrwa³o szok kolejnej przemiany, a on sam chyba wyci¹gn¹³ wnioski z ostatniej pomy³ki. Thalantyr zwróci³ uwagê, ¿e nieszczêœcie by³o blisko i ¿e magiê nale¿y zawsze wykorzystywaæ z wielk¹ ostro¿noœci¹, bez wzglêdu na to, czy wygl¹da na bezpieczn¹, czy nie.~
 @42  = ~Boo! Zobacz, jaka piêkna wie¿a!~
 @43  = ~(pisk)~ [GAM_48]
 @44  = ~Prawda? <CHARNAME>, Boo mówi, ¿e musimy uwa¿aæ, poniewa¿ b³êkitnoskórne kobiety czekaj¹ na nas z zatrutymi strza³ami i czar... czaruj¹cymi g³osami... co znaczy "czaruj¹cy", Boo?~
@@ -180,3 +179,5 @@ Niedaleko Nashkel spotkaliœmy cz³owieka, nazywaj¹cego siê Edwin i odrzuciliœmy j
 @173 = ~Gdybyœmy tylko mieli Dynaheir. Och, co za kule ognia mog³aby rzucaæ! Wiêksze, ni¿ Boo po dziesiêciodniowej diecie fasolowej.~
 @174 = ~Oczywiœcie posiadanie w dru¿ynie tak potê¿nej wiedŸmy jak Dynaheir pomaga, co nie, Boo?~
 @175 = ~O pochlebco, dlaczego zatem nie odsuniesz siê, ¿ebym mog³a rzuciæ zaklêcie?~
+@176 = ~It was very lucky that we found the chicken-mage and brought him to the wizard! Now he is a man-mage again and we are heroes!~ 
+@177 = ~Truly, Tymora loveth a fool. From what I know of the magics Melicamp dabbled in, he should have ended up in a farmwife's soup.~
