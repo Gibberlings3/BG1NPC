@@ -180,14 +180,14 @@ INTERJECT ~%tutu_var%ENDER~ 6 X#MontaronEnder1
 == ~%MONTARON_JOINED%~ IF ~InParty("montaron") InMyArea("montaron") !StateCheck("montaron",CD_STATE_NOTVALID)~ THEN @71
 END
 IF ~~ THEN DO ~SetGlobal("X#MontaronKillsEnder","GLOBAL",1)~
-JOURNAL @72
+UNSOLVED_JOURNAL @72
 EXIT
 
 INTERJECT ~%tutu_var%ENDER~ 13 X#MontaronEnder2
  == ~%MONTARON_JOINED%~ IF ~InParty("montaron") InMyArea("montaron") !StateCheck("montaron",CD_STATE_NOTVALID)~ THEN @71
 END
 IF ~~ THEN DO ~SetGlobal("X#MontaronKillsEnder","GLOBAL",1)~
-JOURNAL @73
+UNSOLVED_JOURNAL @73
 EXIT
 
 
