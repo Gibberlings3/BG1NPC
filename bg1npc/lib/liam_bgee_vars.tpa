@@ -706,6 +706,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "CloakwoodDr_PetersCave_BCS" "AR1603"
     OUTER_SPRINT "CloakwoodNest_BCS" "AR2100"
     OUTER_SPRINT "CloakwoodWyverns_BCS" "AR1700"
+    OUTER_SPRINT "CloakwoodMines_L4_BCS" "AR1803"
     OUTER_SPRINT "CoastWay_BCS" "AR2800"
     OUTER_SPRINT "EarthChamber_BCS" "AR0507"
     OUTER_SPRINT "ElfsongTavern_L1_BCS" "AR0705"
