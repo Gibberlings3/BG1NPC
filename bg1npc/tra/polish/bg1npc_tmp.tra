@@ -1129,3 +1129,82 @@ Nie mo¿e u¿ywaæ:
 @758 = ~[WYVERN 08]~ [%tutu_var%WYVER08]
 @759 = ~[WYVERN 09]~ [%tutu_var%WYVER09]
 @760 = ~[WYVERN 10]~ [%tutu_var%WYVER10]
+@761 = ~Cudowne Rêkawice~
+@762 = ~Te inkrustowane szlachetnymi kamieniami rêkawice s¹ obdarzone moc¹, która pozwala na ulepszenie umiejêtnoœci ka¿dego barda. 
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– TraK0: +1
+– Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu maga z poziomów 2., 3. i 4.
+
+Waga: 1~
+@763 = ~Sztylet bumerang +2~
+@764 = ~Fullen Przêdzarz We³ny, ambitny nizio³ek z dobrej rodziny, opuœci³ dom by spêdziæ kilka lat na poszukiwaniu przygód. Podczas swoich podró¿y zdarzy³o mu siê mieszkaæ z rodzin¹ krasnoludzkich p³atnerzy. Bêd¹c zafascynowanym ich toporkami, które zawsze wraca³y do rêki w³aœciciela, Fullen zapragn¹³ zrobiæ sztylet o tej samej w³aœciwoœci. Z pomoc¹ jego krasnoludzkich przyjació³ uda³o mu siê stworzyæ kilka s³ynnych sztyletów bumerangów Fullena.
+
+PARAMETRY:
+
+Specjalne:
+– Po rzucie wraca do w³aœciciela
+
+Obra¿enia: 2k4+2
+TraK0: +2
+Typ obra¿eñ: pocisk (k³ute)
+OpóŸnienie: 1
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+
+Wymagania:
+- Si³a: 3
+
+Waga: 1~
+@765 = ~Harfa Dysonansu~
+@766 = ~Harfy to instrumenty strunowe czêsto u¿ywane przez bardów. Ta ma³a harfa jest idealna dla podró¿uj¹cych grajków.~
+@767 = ~Nawet najbardziej utalentowani bardowie nie potrafi¹ zmusiæ tej harfy do harmonijnego grania. Ka¿de poci¹gniêcie strun wydobywa z niej niemi³y dla uszu dŸwiêk. Jeœli bard bêdzie chcia³ zagraæ na tej harfie w³aœciw¹ balladê, uwolni jej magiê. Wszystkie istoty poza bardem i jego/jej kompani¹ musz¹ wykonaæ rzut przeciw czarom albo znajd¹ siê pod dzia³aniem Zamêtu na trzydzieœci sekund.
+
+PARAMETRY:
+
+Specjalne:
+– Zamêt, trzy razy dziennie (rzut obronny przeciw czarom: neguje) 
+Czas dzia³ania: 1 tura
+Obszar dzia³ania: wszyscy w zasiêgu s³uchu z wyj¹tkiem barda i jego dru¿yny
+
+Waga: 6~
+@768 = ~Harfa Azlaera~
+@769 = ~Na pokrêconym dworze Azlaera, w nocy, przy ka¿dej pe³ni ksiê¿yca odprawiano dziwny rytua³. W jego pa³acu znajdowa³ siê otwarty dziedziniec, z którego by³o widaæ niebo. Na owym dziedziñcu znajdowa³ siê du¿y staw pe³en miêso¿ernych rekinów. Dla zabawy, Azlaer zaprasza³ do siebie dobrze znanych mieszkañców pobliskich miast na wieczorn¹ kolacjê i rozrywki. Azrael gra³ na harfie, co pozbawia³o goœci strachu. Losowo wyznacza³ wtedy goœcia i kaza³ mu albo jej przejœæ przez wype³niony rekinami staw. Gdy by³ w wyj¹tkowo sadystycznym humorze, najpierw wlewa³ do stawu krew, co wprawia³o rekiny w sza³, który koñczy³ siê œmierci¹ biednego goœcia. 
+Wyznawcy Helma w koñcu wyruszyli przeciwko Azlaerowi, zniszczyli jego posiad³oœæ, jego samego zabili, a harfê przeznaczyli do bardziej odpowiednich zadañ.
+
+PARAMETRY:
+
+Specjalne:
+– Prze³amanie strachu 
+Zasiêg: 8 m 
+Obszar dzia³ania: w promieniu 10 m
+
+Waga: 6~
+@770 = ~Harfa Methilda~
+@771 = ~W dolinie odleg³ej od najbardziej cywilizowanych ziem kiedyœ znajdowa³o siê maleñkie królestwo nazywane Chilldion. Pewnej zimy trójka z³ych wiedŸm przejê³a dolinê i uwiêzi³a rodzinê królewsk¹, rzucaj¹c na ni¹ zaklêcia unieruchomienia. Planowa³y one po kolei po¿reæ cz³onków rodziny. PóŸniej, tego wieczora, kiedy wiedŸmy by³y zmêczone zabijaniem niewinnych i bezczeszczeniem pa³acu, przyzwa³y nadwornego barda, aby im coœ zagra³. Methild, lojalny swemu królowi i jego rodzinie, u¿y³ specjalnych mocy zaklêtych w swej magicznej harfie. 
+Gdy gra³, skupi³ siê najpierw na królu. Wraz z kolejnymi nutami, s³ab³o zaklêcie unieruchamiaj¹ce i szlachetny w³adca powoli wyczo³ga³ siê z pomieszczenia. Methild uwalnia³ swych patronów jednego po drugim, ostro¿nie staraj¹c siê odwracaæ uwagê wiedŸm. A¿ w koñcu, gdy ca³a rodzina zosta³a uwolniona, a bard nie by³ w stanie graæ dalej, wiedŸmy dostrzeg³y jego zdradê. Biedny Methild nie zdo³a³ uciec i zosta³ zjedzony na kolacjê.
+
+PARAMETRY:
+
+Specjalne:
+– Trzy razy dziennie harfa mo¿e rozproszyæ efekt unieruchomienia 
+Zasiêg: 8 m 
+Obszar dzia³ania: 1 istota
+
+Waga: 6~
+@772  = ~Be³t parali¿uj¹cy~
+@773  = ~Cel trafiony tym be³tem musi wykonaæ rzut obronny albo zostanie sparali¿owany na 5 rund.
+
+STATYSTYKI:
+
+Specjalne:
+– Cel musi wykonaæ rzut obronny przeciw parali¿owi albo zostanie sparali¿owany na 5 rund
+
+Obra¿enia: 1k10 (pociski)
+Wyrzutnia: kusza
+
+Waga: 1~
+@774  = ~Krótki £uk Gesen~
