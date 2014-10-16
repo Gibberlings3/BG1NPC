@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_20141008~
+VERSION ~v21_PRERELEASE_20141015~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -28,7 +28,6 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   PRINT ~BG:EE Detected. Installation based on those resources.~
   INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
-  LOAD_TRA ~bg1npc/tra/%LANGUAGE%/bgee.tra~ /* Strings from BG2 not in BGEE */
 
   /* BG:EE tra conversion : Character encoding for BG II for various languages: ensure the name matches the menu choices */
   ACTION_DEFINE_ASSOCIATIVE_ARRAY languageencoding BEGIN
@@ -36,6 +35,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	"french" => "CP1252"
 	"spanish" => "CP1252"
 	"polish" => "CP1250"
+	"german" => "CP1252"
   END
   OUTER_SPRINT initialencoding ~~
   ACTION_PHP_EACH languageencoding AS lang => encoding BEGIN
@@ -230,6 +230,7 @@ LANGUAGE ~English~ ~english~ ~bg1npc/tra/english/setup.tra~
 LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ ~bg1npc/tra/spanish/setup.tra~
 LANGUAGE ~Francais (traduit par les d'Oghmatiques)~ ~french~ ~bg1npc/tra/french/setup.tra~
 LANGUAGE ~Polski~ ~polish~ ~bg1npc/tra/polish/setup.tra~
+LANGUAGE ~Deutsch (Teiluebersetzung vom Kerzenburgforum, teilweise noch in englisch)~ ~german~ ~bg1npc/tra/german/setup.tra~
 
 /* BEGIN The BG1 NPC Project: Required Modifications  */
 BEGIN @1005 DESIGNATED 0
@@ -3719,7 +3720,7 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#COSQU.D~
 
   /* Add journal entries for BGEE */
-  ADD_JOURNAL TITLE (@999) @52 @53 @174 @178 @184 @197 @202 @208 @253 @254 USING ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
+  ADD_JOURNAL TITLE (@999) @52 @53 @174 @178 @184 @197 @202 @208 @253 @254 @255 USING ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
 
   /* scripts */
   EXTEND_TOP  ~%tutu_var%CORAN.bcs~ ~BG1NPC/Phase2/baf/X#COSQU.BAF~
@@ -3926,13 +3927,13 @@ BEGIN @1007
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	/* Boomerang Dagger */
 	COPY ~bg1npc/bgee/itm/dagg11.itm~ ~override~ 
-  		SAY NAME2 @6002
-  		SAY DESC @6003
+  		SAY NAME2 @763
+  		SAY DESC @764
   		
 	/* Sahuagin Paralytic Bolt */
 	COPY ~bg1npc/bgee/itm/sahbolt.itm~ ~override~ 
-		SAY NAME2 @6011
-  		SAY DESC @6012
+		SAY NAME2 @772
+  		SAY DESC @773
   END
   
   /* area patching */
@@ -4197,19 +4198,19 @@ END
 	COPY ~bg1npc/bgee/wav/itemharp.wav~ ~override~
   	/* Harp of Discord */
 	COPY ~bg1npc/bgee/itm/misc3m.itm~ ~override~ 
-  		SAY NAME2 @6004
-  		SAY UNIDENTIFIED_DESC @6005
-  		SAY DESC @6006
+  		SAY NAME2 @765
+  		SAY UNIDENTIFIED_DESC @766
+  		SAY DESC @767
 	/* Azlaer's Harp */
 	COPY ~bg1npc/bgee/itm/misc3n.itm~ ~override~ 
-  		SAY NAME2 @6007
-  		SAY UNIDENTIFIED_DESC @6005
-  		SAY DESC @6008
+  		SAY NAME2 @768
+  		SAY UNIDENTIFIED_DESC @766
+  		SAY DESC @769
 	/* Methlid's Harp */
 	COPY ~bg1npc/bgee/itm/misc3o.itm~ ~override~ 
-  		SAY NAME2 @6009
-  		SAY UNIDENTIFIED_DESC @6005
-  		SAY DESC @6010
+  		SAY NAME2 @770
+  		SAY UNIDENTIFIED_DESC @766
+  		SAY DESC @771
   END
 	
   /* Xzar's Dryad Quest */
@@ -5855,8 +5856,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN  
   /* Wondrous Gauntlets */
 	COPY ~bg1npc/bgee/itm/brac25.itm~ ~override~ 
-  		SAY NAME2 @6000
-  		SAY DESC @6001
+  		SAY NAME2 @761
+  		SAY DESC @762
 
   /* Items for Dynaheir romance endgame cutscene */
   	COPY ~bg1npc/bgee/itm/minhp20.itm~ ~override~   /* For x#bodhi */
