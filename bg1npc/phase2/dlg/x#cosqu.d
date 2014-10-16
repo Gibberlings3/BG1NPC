@@ -366,7 +366,7 @@ END
 IF ~~ AMRE2.6
 SAY @130
 = @131
-IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE)  AddExperienceParty(6400) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT))  ActionOverride("coran",EscapeArea()) ActionOverride("natan",EscapeArea()) EscapeArea()~
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@255,QUEST_DONE)  AddExperienceParty(6400) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT))  ActionOverride("coran",EscapeArea()) ActionOverride("natan",EscapeArea()) EscapeArea()~
 EXIT
 END
 
