@@ -1,0 +1,61 @@
+@0  = ~Nun, die Straßen sind wirklich nicht mehr sicher. Das habe ich selbst erlebt.~ 
+@1  = ~Junge, Junge.... Ihr seit sowas von einer falschen Person am falschen Ort zur falschen Zeit!~
+@2  = ~He, das ist meins! Hände weg, Ihr dreckiger Söldner!~ 
+@3  = ~Ergebt Euch oder sterbt!~
+@4  = ~Solches Aas ergibt sich nicht.~ 
+@5  = ~Nun sterbt, Abschaum!~
+@6  = ~Ich muss Euch jetzt umbringen. Nichts Persönliches, verstanden?~
+@7  = ~Ich habe schlechte Nachrichten für Euch, meine Dame. Auf meinen Reisen sah ich eine überfallene Karawane... und den toten Körper eines jungen Mannes, gekleidet wie ein Familienmitglied der Silberschild. Die Räuber, die ihn umbrachten, hatten diese Spange bei sich.~ 
+@8  = ~Dann ist Eddard tot? Das sind schmerzhafte Nachrichten. Gebt mir die Spange - Ich werde sie zur Erinnerung an meinen geliebten Stiefsohn aufbewahren...~
+@9  = ~Nein... nein... Warum habt Ihr mir nichts gesagt, <CHARNAME>? M-mein... Bruder, ... oh nein!~ 
+@10 = ~Seid still, Mädchen.~
+@11 = ~Wa... Skie? Was tut Ihr?~
+@12 = ~Ich... Ich bin... äh... nur mal kurz weg. Ja...~ 
+@13 = ~Hmmm, angezogen wie eine Kanalratte und mit dem Rucksack auf dem Rücken? Wohl kaum, meine Liebe - Ihr lauft davon, stimmt's?~
+@14 = ~Ich... ja. Ich gehe fort. Ähm... werdet Ihr es meinem Vater sagen?~ 
+@15 = ~Hmmm... es ihm sagen? Nein, natürlich nicht! Das ist in der Tat mal eine erfreuliche Wendung im Lauf der Dinge...~
+@16 = ~Wa...?~
+@17 = ~Meine Liebe, Ihr seid ein verhätscheltes kleines Mädchen aus reichem Haus. Ihr weint, wenn Euch ein *Fingernagel* abbricht. Glaubt Ihr wirklich, Ihr könntet draußen in der großen bösen Welt überleben? Einen besseren Köder für Goblins habe ich noch nie gesehen.~
+@18 = ~Und wenn Ihr dann schlussendlich so wie Euer Bruder im Straßengraben liegt, dann werde *ich* über das Vermögen der Silberschilds verfügen.~ 
+@19 = ~Was meint Ihr - also dann... vielleicht würdet Ihr Euren Freund verlassen, hmm? *lächelt in Richtung Eldoth*~
+@20 = ~Ihr... Ihr *Miststück*!~ 
+@21 = ~Lasst meinen Eldoth in Ruhe!~ 
+@22 = ~Immer mit der Ruhe, mein Herzchen. Wir sollten wohl nicht darauf hoffen, dass wir Eure... öhm... Abreise geheimhalten können, oder? Selbst nicht vor jemandem so mit sich selbst beschäftigten wie Eurem Vater. Also lasst uns auf den Schwingen der Liebe reisen und sehen, wohin sie uns tragen. *Nimmt Skie in den Arm und winkt über ihre Schulter zu Brilla*~
+@23 = ~Tss-tsss! Falls ich jemals einen Witzbold brauche, um einen trüben Abend aufzuheitern, dann weiß ich jetzt, wo ich suchen muss. Passt auf Euch auf, Schätzchen! *Skie knurrt und zieht Eldoth aus dem Raum.*~ 
+@24 = ~Man findet nie genügend Gefolgsleute, um diese Arbeit vernünftig zu erledigen. Habt Ihr irgendwelche Erfahrung?~
+@25 = ~Wir haben etwas weiter nördlich gegen eine Räuberbande gekämpft, die gerade eine Karawane überfallen und alle Mitreisenden getötet hatte. Gehörte diese Spange vielleicht einem Eurer Reisenden?~
+@26 = ~Ihr kommt nicht häufig hinter Eurer Ladentheke hervor, oder? He, gehörte das einem Reisenden Eurer Karawane? Habe es bei einem Haufen Leichen etwas weiter nördlich gefunden.~
+@27 = ~Ein bisschen. Wir sahen eine überfallene Karawane etwas weiter nördlich und bekämpften die Räuber, aber wir kamen zu spät. Gehörte dies einem Eurer Reisenden?~
+@28 = ~He, freut mich, dass Ihr doch etwas Grips im Kopf habt. Ich habe eine Ladenhilfe, die das Geschäft führen kann, solange ich weg bin, also lasst uns aufbrechen.~
+@29 = ~Auf den Straßen braut sich was zusammen. Wir haben etwas weiter nördlich gegen eine Räuberbande gekämpft, die gerade jeden Reisenden einer Karawane getötet hatte. Gehörte diese Spange vielleicht einem Eurer Reisenden?~
+@30 = ~Wartet mal, mir fällt gerade ein... wir haben etwas weiter nördlich eine überfallene Karawane gesehen und die Räuber bekämpft. Gehörte dies einem Eurer Reisenden?~
+@31 = ~Nun, dies ist das Abzeichen von Silberschilds Sohn. Tot, sagt Ihr? Das war eine meiner Karawanen. Schätze, ich hab' jetzt viel Ärger am Hals. Jetzt, wo er tot ist, werden sie hinter mir her sein. Also gut, da mein Ruf jetzt sowieso einen Dreck wert ist, wie wär's dann, wenn wir uns gemeinsam an diesem Abschaum rächen? Vielleicht könntet Ihr bei den Silberschilds ein gutes Wort für mich einlegen. Was meint Ihr?~
+@32 = ~Wir wollen Euch nicht dabei haben, also verschwindet!~
+@33 = ~Kagains Auftrag
+
+Entar Silberschilds Sohn wurde ermordet. Da ich Kagain nicht über den Weg traute, haben wir uns getrennt, aber wenn wir in Baldurs Tor sind, dann könnte ich die Spange zurück zu den Silberschilds bringen.~
+@34 = ~Na sicher, wir brauchen Eure Fähigkeiten.~
+@35 = ~Kagains Auftrag
+
+Entar Silberschilds Sohn wurde ermordet. Wenn wir in Baldurs Tor sind, dann könnten wir die Spange zu seiner Familie bringen.~
+@36 = ~Und nun zur versprochenen Bezahlung für den Auftrag. Hier habt Ihr etwas Gold, aber ich erwarte auch einen Anteil an der Beute. Ich bin jetzt arm.~
+@37 = ~Haut ab, Ihr Holzköpfe!~
+@38 = ~Ich will Euch Quadratschädel ja nicht hetzen, aber ich muss eine Karawane finden! Also los!~
+@39 = ~Sie war von Beregost Richtung Nordost nach Baldur Tor unterwegs. Ich hatte empfohlen, sich östlich der Hauptstrasse zu halten.~
+@40 = ~Jetzt schaut, was ich gefunden habe; das ist die Leiche von Silberschilds Sohn. Schätze, ich hab' nun eine Menge Ärger am Hals. Jetzt, wo er tot ist, werden sie hinter mir her sein. So wie ich das sehe, seid Ihr auch hinter diesen verdammten Räubern her. Also gut, da mein Ruf jetzt sowieso einen Dreck wert ist, wie wär's dann, wenn wir uns gemeinsam an diesem Abschaum rächen?~
+@41 = ~Wir wollen Euch nicht länger dabei haben, also verschwindet!~
+@42 = ~Na sicher, wir brauchen Eure Fähigkeiten. Seid willkommen.~
+@43 = ~Euer Pech, Ihr Holzköpfe. Ich haue jetzt ab.~
+@44 = ~Kagains Auftrag
+
+Entar Silberschilds Sohn wurde ermordet. Mir gefiel Kagains Einstellung nicht, also haben wir uns getrennt, aber wenn wir in Baldurs Tor sind, dann könnte ich die Spange zurück zu den Silberschilds bringen.~
+@45 = ~Und nun zu den versprochenen Münzen. Hier habt Ihr sie, aber ich erwarte auch einen Anteil an der Beute. Ich bin jetzt arm.~
+@46 = ~Wir haben eine Nachricht für Fürst und Fürstin Silberschild. Wir glauben, etwas Neues über ihren Sohn zu wissen. Gehörte diese Spange einem der Euren?~
+@47 = ~Wie ich sehe habt Ihr das Abzeichen des Hauses. Bitte geht sofort zu Fürstin Silberschild. Ihr könnt sie im oberen Stockwerk finden.~
+// BGEE #27194
+@48   = ~Kagains Auftrag
+
+Ich habe mich mit Kagain verbündet, einem Zwerg, der auf der Suche nach einem verschwundenen Mitglied der Edelleute ist. Es handelt sich um den Sohn von Entar Silberschild, weshalb er wirklich großen Wert darauf legt, das Kind zu finden.~
+@49   = ~Kagains Auftrag
+
+Wir haben die Spange von Entar Silberschilds Sohn zu seiner Familie zurückgegeben.~

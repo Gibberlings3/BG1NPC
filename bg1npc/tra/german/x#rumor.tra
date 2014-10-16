@@ -1,0 +1,93 @@
+@0    = ~Ich höre immer wieder über einen militärischen Aufmarsch. Angelo, der neue Kommandant der Faust, hat viele seiner Männer in den Süden nach Beregost geschickt. Ich fürchte, da könnte sich ein Krieg zusammenbrauen.~
+// #14924
+@1    = ~Militärischer Aufmarsch
+
+Angelo, der neue Befehlshaber der Flammenden Faust, hat viele seiner Leute in den Süden nach Beregost gesandt. Es wird gefürchtet, dass sich ein Krieg zusammenbraut.~
+@2    = ~Ich denke, bei der kommenden Wahl könnte dieser Knabe Sarevok das Rennen machen. Er erhält aus den Reihen des Adels große Unterstützung und das sind diejenigen, die die Macht innehaben.~
+@3    = ~Der Aufstieg Sarevoks
+
+Sarevok ist beim Adel sehr beliebt, was ihm den Herzogssitz in Baldurs Tor einbringen könnte.~
+@4    = ~Habt Ihr von den Attentaten in Kerzenburg gehört? Es scheint, als wären die Anführer des Eisenthrons dort hingegangen und haben sich dabei töten lassen. Dieselben Typen, die den Leuten unten in Nashkell geholfen haben, haben das getan. Sie waren Agenten aus Amn, habe ich gehört. Egal, einer der Söhne der Toten ist jetzt der Anführer. Ich glaube, er heißt Sarevok.~
+// #16316
+@5    = ~Der Aufstieg Sarevoks 
+
+Sarevok hat das Kommando über den Eisenthron übernommen. Ich werde immer noch des Mordes an den früheren Anführern beschuldigt, obwohl man annimmt, dass ich für Amn spioniere. Jemand möchte in diesem Gebiet einen Krieg herauf beschwören.~
+@6    = ~Irgendwie scheint jedermann in diesen Tagen tot umzufallen. Erst Entar Silberschild, dann wird Eltan krank und jetzt ist Scar tot. Etwas braut sich hier zusammen... und nichts Gutes.~
+// #16318
+@7    = ~Verwobenes Netz
+
+Möglicherweise besteht zwischen den Ereignissen, in die Entar Silberschild, Eltan und Scar verwickelt wurden, irgendeine Verbindung. So geht jedenfalls das Gerücht in der Stadt.~
+@8    = ~Ich kann immer noch nicht glauben, dass Entar Silberschild getötet wurde. Nach dem, was man sich so erzählt, führen alle Beweise zu den Schattendieben und damit nach Amn selbst. Tymora, hilf uns allen.~
+// #16332, BG:EE: #27394
+@9    = ~Wachsende Spannungen mit Amn
+
+Man glaubt, dass Entar Silberschild durch Schattendiebe aus Amn getötet wurde. Viele befürchten, dass dies das Vorspiel zu einer Invasion sein könnte.~
+@10   = ~Das mit Eltan ist traurig. Ich hoffe, er erholt sich von seiner Krankheit. Er war der beliebteste unter den Herzögen.~
+// #16335; BG:EE: #27139
+@11   = ~Herzog Eltans Krankheit
+
+Herzog Eltan ist der beliebteste und respektierteste Großherzog in Baldurs Tor. Sein Tod würde eine große Lücke in die Führerschaft der Region reißen.~
+@12   = ~Es ist ein großes Kopfgeld auf die Typen, die die Anführer des Eisenthrons ausgeschaltet haben, ausgesetzt worden. Ich glaube 5.000 Goldstücke oder sogar mehr.~
+// #16337
+@13   = ~Kopfgeld
+
+Auf meinen Kopf ist für die Morde, derer man mich bezichtigt, eine Belohnung von 5.000 Goldmünzen ausgesetzt. Ich muss mich vor Kopfgeldjägern in Acht nehmen.~
+@14   = ~Da Entar Silberschild tot ist, muss nun eine neuer Herzog gewählt werden. Es scheint, viele Leute denken, dass der neue Anführer des Eisenthrons, Sarevok, diese Wahl gewinnen wird.~
+@15   = ~Der Aufstieg Sarevoks
+Nachdem die Anführer des Eisenthrons aus dem Weg geräumt waren, stand Sarevoks Herrschaft nichts mehr im Wege. Er versucht nun, die in Baldurs Tor durch den Tod von Entar Silberschild gerissene Lücke zu füllen. Zufällige Tode scheinen seinen Aufstieg zur Macht zu begleiten.~
+@16   = ~Da Eisen derart knapp ist, verstehe ich nicht, wie die Flammende Faust weiterhin eine effektive Ordnungsmacht darstellen will. Keine neuen Waffen und keine neuen Rüstungen... das ist nicht gut.~
+// #16339; BG:EE: #27400
+@17   = ~Probleme in der Region
+
+Die Flammende Faust läuft Gefahr, ihre Fähigkeiten zum Schutze der Region zu verlieren. Der Zustand ihrer Waffen und Rüstungen hat sich, genau wie bei allen anderen, verschlechtert.~
+@18   = ~Seit der Eisenthron in die Villa im Südwesten gezogen ist, geschehen ständig merkwürdige Dinge. Ich weiß nicht, was es mit diesem Gebäude auf sich hat, aber es lässt mich erschaudern. ~
+// #27389
+@19   = ~Die Untersuchung des Eisenthrons
+Man flüstert einander Gerüchte von merkwürdigen Vorgängen zu, die sich im neuen Sitz des Eisenthrons im Südwsten von Baldurs Tor zutragen sollen.~
+@20   = ~Habt Ihr von den Helden von Nashkell gehört? Einige gute Leute – Söldner erzählt man sich - sind dorthin gekommen und haben alle Probleme der Stadt gelöst.~
+// #16319
+@21   = ~Mein Ruhm wächst
+
+Es werden immer mehr Geschichten über meine Taten verbreitet, doch ich bin nicht sicher, ob mir die Bezeichnung "Söldner" gefällt.~
+@22   = ~Ich habe gehört, dass einige Einheiten der Flammenden Faust nach Beregost geschickt worden sind. Es scheint, als würden die Herzöge richtig paranoid im Bezug auf Amn.~
+// #27390
+@23   = ~Wachsende Spannungen mit Amn
+
+Aufgrund der angeblichen Bedrohung von Amn wachsen die Spannungen in der Region, doch ich habe diesbezüglich nur ziemlich zweideutige Beweise gesehen.~
+@24   = ~Ich habe gehört, dass Amn hinter all den Räubern im Süden steckt. Die Leute hier diskutieren darüber, ob Amn und die Zhentarim unter einer Decke stecken. Ich mache mir Sorgen, was sie zusammen aushecken könnten.~
+@25   = ~Wachsende Spannungen mit Amn
+
+Gerüchte über ein Bündnis von Amn und den Zhentarim verbreiten sich. Jedoch gibt es nur lückenhafte Beweise, um diese zu untermauern.~
+@26   = ~Ich höre Gerüchte über Schattendiebe hier in Baldurs Tor. Ich weiß nicht, ob das wahr ist, aber wenn, dann wette ich, sie sind hier um für eine amnische Invasion zu spionieren.~
+//#27392
+@27   = ~Wachsende Spannungen mit Amn
+
+Im Volk gehen Befürchtungen um, die Schattendiebe würden als Kundschafter für eine Invasion aus Amn arbeiten, doch diese Gerüchte sind viel zahlreicher als die Beweise dafür.~
+@28   = ~Ich habe gehört, dass die Händlergilde derzeit viele Probleme hat. Scheinbar zanken sich die drei Eigentümer darum, wie sie sie denn führen wollen. Der Eisenthron hat sich dadurch Vorteile verschaffen können. Wenn die Dinge so weiterlaufen, wird der Thron bald keine Wettbewerber mehr haben. Irgendwie komisch, wenn man bedenkt, dass sie erst vor ein paar Jahren in die Stadt gezogen sind.~
+// #16331; BG:EE: #27393
+@29   = ~Die Untersuchung des Eisenthrons
+
+Der Eisenthron ist in Baldurs Tor ziemlich mächtig, obwohl seine Mitglieder erst kürzlich dort eingetroffen sind. Vielleicht wird die Händlerliga durch etwas gestört, das ihre Wettbewerbsfähigkeit einschränkt.~
+@30   = ~Es ist in den letzten paar Monaten ziemlich seltsam gewesen. Das Eisen wurde immer schlechter, es zerbröckelte, fast so als würde es ohne bestimmten Grund rosten. Wie ich gehört habe, stammt das meiste "schlechte Eisen" aus den Minen von Nashkell. Man kann diesen amnischen Bergleuten nicht trauen. Wahrscheinlich schmieden sie irgendeine Intrige. ~
+@31   = ~Wachsende Spannungen mit Amn
+
+Eisen aus den Minen von Nashkell ist beinahe nutzlos, wenn es eingeschmolzen wird. Die Leute vermuten, dass dies mit Absicht geschieht; als Teil einer großen Verschwörung von Seiten Amns.~
+@32   = ~Es scheint, als wäre das Eisenproblem unten in Nashkell gelöst. Eine Gruppe Söldner ist in die Minen marschiert und hat das, was die Probleme verursacht hatte, aus dem Weg geräumt. Ganz schön mutig, gegen das zu kämpfen, was auch immer da unten war.~
+@33   = ~Die Sieben Sonnen verhalten sich in letzter Zeit sehr merkwürdig. Die Gruppe scheint es darauf anzulegen, Geld zu verlieren. Selbst ein einfacher Wirt, wie ich es bin, kann die Torheit einer solchen Entscheidung erkennen. Obwohl ich bezweifle, dass der Eisenthron darüber traurig sein wird. Sie können wegen den Fehlern der Sonnen Vieles in Anspruch nehmen.~
+@34   = ~Eisen ist in diesen Tagen so knapp, dass man denkt, es wäre so wertvoll wie Gold. Nicht gut, wirklich nicht gut.~
+@35   = ~Knappes Eisen
+
+Eisen ist weiterhin knapp, was die Preise für Werkzeuge und Waffen immer weiter in die Höhe treibt.~
+@36   = ~Mein Vater scheint zu denken, dass die Schattendiebe nicht die dreckige Arbeit für den Rat der Sechs machen werden, aber ich bin mir da nicht sicher.~
+@37   = ~Sarevok? Nein, das kann nicht sein... Sarevok ist der Bösewicht hier... er... er ist böse, er ist ein Mörder! Das... das ist alles falsch!~
+@38   = ~Der Aufstieg Sarevoks
+
+Nachdem die Anführer des Eisenthrons aus dem Weg geräumt waren, stand Sarevoks Herrschaft nichts mehr im Wege. Er versucht nun, die in Baldurs Tor durch den Tod von Entar Silberschild gerissene Lücke zu füllen. Zufällige Tode scheinen seinen Aufstieg zur Macht zu begleiten.~
+@39   = ~Tja, er hat sicher nicht *meine* Unterstützung.~
+@40   = ~Das ist wahr. Herzog Eltan war ein Mann des Volkes, mein Vater... naja, er war ein... Politiker.~
+@41   = ~Die Dinge entwickeln sich in diesem Teufelskreis irgendwie so schlecht, wie sie nur können.~
+@42   = ~Jap, werter Herr, da habt Ihr sicherlich irgendwie recht. Das Tor ist nicht mehr das, was es zu Baldurans Zeiten war... Ich hätte nach Tiefwasser ziehen sollen.. Ja, mein Herr, das hätte ich.~
+@43   = ~Ich habe nicht Baldurs Tor gemeint, arme Seele. Sondern Toril.~
+@44   = ~Nein... nein... Ihr müsst uns zuhören. Die Schattendiebe sind unschuldig! Mein Vater wurde von Sarevok ermordet und er hat vor, die verbliebenen Herzöge ebenfalls zu töten! Ihr müsst alle warnen, bevor es zu spät ist!~
+@45   = ~Euer Vater? Sarevok? Oh-oh, ich glaube, Ihr solltet etwas weniger dick auftragen, Kind...~
+
