@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_20141015~
+VERSION ~v21_PRERELEASE_20141017~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -5360,10 +5360,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
 
   ACTION_IF GAME_IS ~tutu~ BEGIN  // Tutu without TotSC
   	COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
-  END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN  // BGEE
-    COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR_BGEE.D~
-      USING ~BG1NPC/TRA/%LANGUAGE%/x#ajantisAddLTs_PR.tra~
-  END ELSE BEGIN   // Tutu+TotSC or BGT
+  END ELSE BEGIN   // Tutu+TotSC, BGT, or BGEE
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/AJROM/dlg/x#ajantisAddLTs_PR.D~
   END
   
