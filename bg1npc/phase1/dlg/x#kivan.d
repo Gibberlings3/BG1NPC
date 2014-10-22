@@ -1244,7 +1244,7 @@ DO ~SetGlobal("P#KIFA1","LOCALS",1)~
 EXIT
 
 /* Imoen banters */
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("P#KIIM2","LOCALS",0) Global("X#KivImTot","LOCALS",2) CombatCounter(0) InParty("imoen") !See([ENEMY]) InParty(Myself) See("imoen") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("imoen",CD_STATE_NOTVALID)~ THEN ~%KIVAN_BANTER%~ KIIM2
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("P#KIIM2","LOCALS",0) Global("X#KivImTot","LOCALS",2) CombatCounter(0) InParty("%IMOEN_DV%") !See([ENEMY]) InParty(Myself) See("%IMOEN_DV%") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN ~%KIVAN_BANTER%~ KIIM2
 @502
 DO ~SetGlobal("P#KIIM2","LOCALS",1)~
 == ~%IMOEN_BANTER%~ @503
@@ -1260,7 +1260,7 @@ DO ~SetGlobal("P#KIIM2","LOCALS",1)~
 == ~%KIVAN_BANTER%~ @513
 EXIT
 
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("P#KIIM3","LOCALS",0) CombatCounter(0) AreaType(DUNGEON) Global("P#KIIM2","LOCALS",1) InParty("imoen") !See([ENEMY]) InParty(Myself) See("imoen") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("imoen",CD_STATE_NOTVALID)~ THEN ~%KIVAN_BANTER%~ KIIM3
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("P#KIIM3","LOCALS",0) CombatCounter(0) AreaType(DUNGEON) Global("P#KIIM2","LOCALS",1) InParty("%IMOEN_DV%") !See([ENEMY]) InParty(Myself) See("%IMOEN_DV%") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN ~%KIVAN_BANTER%~ KIIM3
 @514
 DO ~SetGlobal("P#KIIM3","LOCALS",1)~
 == ~%IMOEN_BANTER%~ @515

@@ -271,7 +271,7 @@ I_C_T ~%tutu_var%CHLOE~ 2 X#ImoenChloe
 END
 
 //I_C_T2 ~%tutu_var%DAVAEO~ 0 X#ImoenDavaeorn
-//== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("imoen",MAGE_ALL)~ THEN @81
+//== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("%IMOEN_DV%",MAGE_ALL)~ THEN @81
 //END
 
 //I_C_T2 ~%tutu_var%DESTUS~ 2 X#ImoenDestus
@@ -516,12 +516,12 @@ COPY_TRANS ~%tutu_var%NALIN~ 4
 //END
 
 //I_C_T ~%tutu_var%NARCIL~ 2 X#ImoenNarcillius2
-//== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("imoen",MAGE_ALL)~ THEN @159
+//== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("%IMOEN_DV%",MAGE_ALL)~ THEN @159
 //END
 
 I_C_T ~%tutu_var%NIKOLA~ 8 X#ImoenNikolai
-== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("imoen",MAGE_ALL)~ THEN @160
-== ~%tutu_var%NIKOLA~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("imoen",MAGE_ALL)~ THEN @1010
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("%IMOEN_DV%",MAGE_ALL)~ THEN @160
+== ~%tutu_var%NIKOLA~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) !Class("%IMOEN_DV%",MAGE_ALL)~ THEN @1010
 END
 
 I_C_T ~%tutu_var%NOOBER~ 5 X#NooberImoen1
@@ -828,7 +828,7 @@ END
 
 IF ~~ IMINT1.16
 SAY @256
-IF ~~ THEN DO ~SetGlobal("X#IMORUN","GLOBAL",1) ActionOverride("imoen",JumpToPoint([3498.3684])) MoveViewPoint([3498.3684],INSTANT)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#IMORUN","GLOBAL",1) ActionOverride("%IMOEN_DV%",JumpToPoint([3498.3684])) MoveViewPoint([3498.3684],INSTANT)~ EXIT
 END
 
 IF ~%BGT_VAR% Global("X#IMORUN","GLOBAL",2)~ THEN BEGIN IMINT1.20
@@ -988,7 +988,7 @@ END
 
 IF ~~ X#IMBodyBuried1.16
 SAY @256
-IF ~~ THEN DO ~SetGlobal("X#IMORUN","GLOBAL",1) ActionOverride("imoen",JumpToPoint([3498.3684])) MoveViewPoint([3498.3684],INSTANT)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#IMORUN","GLOBAL",1) ActionOverride("%IMOEN_DV%",JumpToPoint([3498.3684])) MoveViewPoint([3498.3684],INSTANT)~ EXIT
 END
 
 IF ~Global("X#IMORUN","GLOBAL",2)~ THEN BEGIN X#IMBodyBuried1.20
