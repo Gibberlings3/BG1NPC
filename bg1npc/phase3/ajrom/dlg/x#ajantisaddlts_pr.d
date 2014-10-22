@@ -19,22 +19,22 @@ END
 
 IF ~~ THEN wait_at_fai
 SAY @79
-IF ~~ DO ~EscapeAreaMove("%FriendlyArmInn_L1%",766,966,S)~ EXIT
+IF ~~ DO ~EscapeAreaMove("%FriendlyArmInn_L1%",766,966,0)~ EXIT
 END
 
 IF ~~ THEN wait_at_juggler
 SAY @80
-IF ~~ DO ~EscapeAreaMove("%Beregost_JovialJuggler_L1%",824,961,S)~ EXIT
+IF ~~ DO ~EscapeAreaMove("%Beregost_JovialJuggler_L1%",824,961,0)~ EXIT
 END
 
 IF ~~ THEN wait_at_nashkel
 SAY @81
-IF ~~ DO ~EscapeAreaMove("%Nashkel_Inn%",602,463,S)~ EXIT
+IF ~~ DO ~EscapeAreaMove("%Nashkel_Inn%",602,463,0)~ EXIT
 END
 
 IF ~~ THEN wait_at_elfsong
 SAY @82
-IF ~~ DO ~EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",537,704,S)~ EXIT
+IF ~~ DO ~EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",537,704,0)~ EXIT
 END
 
 END
