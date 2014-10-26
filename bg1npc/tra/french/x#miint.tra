@@ -19,7 +19,10 @@
 @17 = ~Mon impatiente apprentie, quelle serait la vie si tu avais un vieux magicien pour guider chacun de tes pas ?~
 @18 = ~A présent, file, jeune fille, l'aventure t'attend !~
 @19 = ~C'est plutôt rassurant de savoir qu'Elminster lui-même approuve la voie que tu as choisie, <CHARNAME>. Mais plus important encore, son approbation est accompagnée d'une recommandation bien utile.~
-@20 = ~Elminster s'est représenté, mais il était cette fois plus généreux en renseignements. Apparemment, il connaissait bien Gorion, qui selon lui était un homme bien pour s'être occupé de moi. Il a aussi parlé de mauvais sang, et d'une infection qui me consumera si je ne fais pas attention. La signification de tout cela n'est pas claire. Je vais tenir compte de sa mise en garde, même si je n'ai pas vraiment le temps de m'y attarder. Il m'a toutefois donné le nom de personnes qu'il jugeait fiables : la Balafre du Poing Enflammé et le Duc Eltan. Je suppose que je peux leur faire confiance si Elminster lui-même me les recommande.~
+// 10074 dans BGEE, ajout d'un titre
+@20 = ~Une nouvelle rencontre avec Elminster
+
+Elminster s'est représenté, mais il était cette fois plus généreux en renseignements. Apparemment, il connaissait bien Gorion, qui selon lui était un homme bien pour s'être occupé de moi. Il a aussi parlé de mauvais sang, et d'une infection qui me consumera si je ne fais pas attention. La signification de tout cela n'est pas claire. Je vais tenir compte de sa mise en garde, même si je n'ai pas vraiment le temps de m'y attarder. Il m'a toutefois donné le nom de personnes qu'il jugeait fiables : la Balafre du Poing Enflammé et le Duc Eltan. Je suppose que je peux leur faire confiance si Elminster lui-même me les recommande.~
 @21 = ~Ce n'est pas bien de voler !~
 @22 = ~Du moins, de nous voler ! *glousse*~
 @23 = ~Bon, où as-tu glané cette idée stupide ?~
@@ -232,5 +235,5 @@ J'ai rencontré un homme nommé Edwin près de Nashkel, et j'ai refusé sa propositi
 @173 = ~Si seulement nous avions Dynahéir avec nous. Oh, les boules de feu qu'elle pourrait lancer ! Plus grandes que celles de Bouh après dix jours de régime aux fayots !~
 @174 = ~Bien sûr, c'est pratique d'avoir une sorcière puissante comme Dynahéir avec nous, hein, Bouh ?~
 @175 = ~Ô flatteur, pourquoi ne Te mettrais-Tu pas sur le côté, pour que je puisse incanter ?~
-@176 = ~It was very lucky that we found the chicken-mage and brought him to the wizard! Now he is a man-mage again and we are heroes!~ 
-@177 = ~Truly, Tymora loveth a fool. From what I know of the magics Melicamp dabbled in, he should have ended up in a farmwife's soup.~
+@176 = ~C'est une chance que nous ayons trouvé la poule-mage et que nous l'ayons ramenée au magicien ! Maintenant c'est à nouveau un homme-mage et nous sommes des héros !~
+@177 = ~En vérité, Tymora aime les imbéciles. D'après ce que je sais de la magie que Mélicamp a titillée, il aurait dû finir dans la soupe d'une paysanne.~
