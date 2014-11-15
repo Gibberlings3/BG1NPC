@@ -1,5 +1,6 @@
 /* Sees Kivan in Party */
 IF %BGT_VAR%
+Global("P#EMMAFight","GLOBAL",0)
 Range(Player1,30)
 InParty("kivan")
 InMyArea("kivan")
@@ -19,6 +20,7 @@ InMyArea("kivan")
 !StateCheck("kivan",CD_STATE_NOTVALID)
 InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
 THEN
 RESPONSE #100
 MoveToObject(Player1)
