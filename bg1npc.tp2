@@ -2,7 +2,7 @@
  * "The BG1 NPC Project"
  * Combined Tutu/BGT installer
  * authored and coded by tons of dedicated people from all walks of life
- * Version 21 pre-release, "Liam's Fabulous Fortuitous Friendly Folly - Factualized and Franchised"
+ * Version 21 pre-release
 */
 
 /* Backup folder */
@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_20141114~
+VERSION ~v21_PRERELEASE_20141130~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -26,7 +26,7 @@ ALWAYS
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   /*Tell the player it is using BG:EE stuff */
   PRINT ~BG:EE Detected. Installation based on those resources.~
-  INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
+  INCLUDE ~bg1npc\lib\g3_bgee_cpmvars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
 
   /* BG:EE tra conversion : Character encoding for BG II for various languages: ensure the name matches the menu choices */
@@ -221,8 +221,8 @@ END
   LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
 
   INCLUDE ~bg1npc\lib\extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
-  INCLUDE ~bg1npc\lib\cmorgan_project_macros.tpa~   /* adds macros callable by each component */
-END
+  INCLUDE ~bg1npc\lib\bg1npc_project_macros.tpa~   /* adds macros callable by each component */
+END /* ALWAYS */
 
 /* Language Settings */
 AUTO_TRA ~bg1npc/tra/%s~
@@ -1080,7 +1080,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi406~ #3 ~wizard~ // Minor Globe of Invulnerability
 					ADD_MEMORIZED_SPELL ~spwi502~ #4 ~wizard~ (4) // Cloudkill
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%minsc6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%minsc6.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_LONG 0x18 36293 // Current XP
 				END
 				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%montar.cre~ = 0) BEGIN
@@ -1357,7 +1357,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi609~ #5 ~wizard~ // True Sight
 					ADD_MEMORIZED_SPELL ~spwi624~ #5 ~wizard~ // Summon Nishruu
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1390,7 +1390,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 35 // Pick pockets (was 10)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax4.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1423,7 +1423,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 45 // Pick pockets (was 20)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax6.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1474,16 +1474,16 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ // Silence 15' Radius
 					ADD_MEMORIZED_SPELL ~sppr303~ #2 ~priest~ // Dispel Magic
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_scriptbg%xan.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_scriptbg%xan.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%xan4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%xan4.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%xan6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%xan6.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_BYTE 0x24 23 // Current Hit Points
 					WRITE_BYTE 0x26 23 // Maximum Hit Points
 					WRITE_BYTE 0x54 5  // Save vs. Death
@@ -1492,7 +1492,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 10 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic5.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic5.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_BYTE 0x24 42 // Current Hit Points
 					WRITE_BYTE 0x26 42 // Maximum Hit Points
 					WRITE_BYTE 0x54 4  // Save vs. Death
@@ -2174,7 +2174,6 @@ END
       END
     END
   BUT_ONLY_IF_IT_CHANGES
-
 
 /* BEGIN PHASE I BG1NPC PROJECT */
 BEGIN @1007
