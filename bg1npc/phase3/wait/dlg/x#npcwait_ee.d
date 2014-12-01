@@ -858,7 +858,7 @@ END
 
 IF ~~ THEN BEGIN BG_MONTA
 SAY @105
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",286,387,0)~ EXIT
+IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",870,668,9)~ EXIT
 END
 
 IF ~~ THEN BEGIN SC_MONTA_J
