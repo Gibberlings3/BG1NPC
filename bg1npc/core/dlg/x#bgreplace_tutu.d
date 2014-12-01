@@ -6,6 +6,9 @@ BEGIN
 "ACTION" ~SetGlobal("X#RemovedEscape","GLOBAL",1)~
 END
 
+/* Remove Enemy() action from Cythandria state 6 to avoid issue with Dynaheir interaction - Tutu only */
+REPLACE_TRANS_ACTION ~%tutu_var%CYTHAN~ BEGIN 6 END BEGIN END ~Enemy()~ ~~
+
 /* PDialogue repairs */
 REPLACE_TRANS_ACTION _JAHEIP BEGIN 7 END BEGIN END ~JoinParty()~ ~ActionOverride("jaheira",JoinParty())~ 
 
