@@ -133,7 +133,7 @@ Amelia is apparently a succubus who is after some centuries old snuff-powders! S
 @128  = ~My father, Gorion, taught me never to kiss strange women! Here are the powders, and suit your words - release the thieves, quickly!~
 @129  = ~I doubt that you could, but I wish to be away from this plane.~
 @130  = ~*she smiles viciously* It's a deal.~
-@131  = ~The frightful truth is that you are only a demi-<RACE>... the second blood that flows trough your veins is powerful and dark... Now, I must go. Follow me, my pets.~
+@131  = ~The frightful truth is that you are only a demi-<RACE>... the second blood that flows through your veins is powerful and dark... Now, I must go. Follow me, my pets.~
 @132  = ~Come closer, sweetheart.~
 @133  = ~Phew, boring mortal, no spine, no flames... but I have no time for games. Give me the powders! Ha! I will be seeing you in the Nine Hells, <CHARNAME>! ~
 @134  = ~You have returned. Have your hearts softened to the plea of poor Amelia? Will you help me?~
@@ -178,7 +178,7 @@ Amelia is apparently a succubus who is after some centuries old snuff-powders! S
 @173  = ~OK, OK, give me your stupid roses!~
 @174  = ~Amelia
 
-Met an odd but most beautiful woman, Amelia. She asked us to restore to life some withered roses and give them to Natan - a rogue, who apparently hides somewhere in the Firewine ruins. Amelia said that I should take these roses to the Song of the Morning Temple in Beregost, to restore them.~
+Met an odd but most beautiful woman, Amelia. She asked us to restore to life some withered roses and give them to Natan - a rogue who apparently hides somewhere in the Firewine ruins. Amelia said that I should take these roses to the Song of the Morning Temple in Beregost to restore them.~
 @175  = ~You have yourself a very good day, Amelia.~
 @176  = ~Thank you, kind strangers, and thank you, Coran, for being so understanding. Take these roses to the temple in Beregost; ask the priest to restore them to life and once you are in the dungeon give them to Natan. He is... he was a rogue. I am afraid, however, that he is angry with me for my rejecting his love, and he may try to tell you some nonsense about me... please, do not believe him!~
 @177  = ~Your story - it sounds very suspicious to me. Rogues are not the type to ask for oaths...~
@@ -214,7 +214,7 @@ Met an odd but most beautiful woman, Amelia. She asked us to restore to life som
 @201  = ~Gods, have pity on me! Amelia, Coran gets hacked to pieces every other day. The scratch is nothing!~
 @202  = ~Amelia
 
-We have encountered a maiden, apparently betrothed to a thief who is hiding from her in the Firewine Bridge ruins. Apparently, Amelia cannot enter the ruins, but she cannot depart the area, either, until giving her fiancé a "yes" or "no" response - in the form of white and red roses, respectively. We agreed to restore to life a bunch of withered roses for her, and give it to this wretch, Natan. According to Amelia, it will set her free from her vow.~
+We have encountered a maiden, apparently betrothed to a thief who is hiding from her in the Firewine Bridge ruins. Apparently, Amelia cannot enter the ruins, but she cannot depart the area, either, until giving her fiancé a "yes" or "no" response - in the form of white and red roses, respectively. We agreed to restore to life a bunch of withered roses for her and give it to this wretch, Natan. According to Amelia, it will set her free from her vow.~
 @203  = ~He has a woman to take care of his wounds, Amelia. Fare thee well.~
 @204  = ~There is no need. Coran, remind me to box your ears later... after I've skinned you alive.~
 @205  = ~Hmm... good thing that we are going to a temple! They will have a priest at the ready, in case Coran perishes from his grievous hurts.~
@@ -222,7 +222,7 @@ We have encountered a maiden, apparently betrothed to a thief who is hiding from
 @207  = ~Excuse me, whilst I gag. Just don't start reciting poetry, both of you, or I'll have your hides!~
 @208  = ~Amelia
 
-We have encountered a maiden, apparently betrothed to a thief who is hiding from her in the Firewine Bridge ruins. Apparently, Amelia cannot enter the ruins, but she cannot depart the area, either, until giving her fiancé a "yes" or "no" response - in the form of white and red roses, respectively. We agreed to restore to life a bunch of withered roses for her and give it to this wretch Natan. According to Amelia, it will set her free from her vow.~
+We have encountered a maiden, apparently betrothed to a thief who is hiding from her in the Firewine Bridge ruins. Apparently, Amelia cannot enter the ruins, but she cannot depart the area, either, until giving her fiancé a "yes" or "no" response - in the form of white and red roses, respectively. We agreed to restore to life a bunch of withered roses for her and give it to this wretch, Natan. According to Amelia, it will set her free from her vow.~
 @209  = ~*smile* I am sorry to take my smitten comrade from you, my lady, but we better get moving, if we are to free you from the curse.~
 @210  = ~No, there is no other way... it has to be the red roses...~
 @211  = ~I'd cut you fresh roses in the closest garden, my darling, as many as you want!~
@@ -276,4 +276,10 @@ We gave the powders to Amelia.  She took them and vanished.~
 We killed the demon known as Amelia.~
 @255  = ~Amelia
 We gave the powders to Amelia.  Before she vanished, she said that the blood in my veins is powerful and dark.~
+@256  = ~Oh, it's quite noble of you, my good elf. Forgive me kindly for breaking up your small fellowship. Take these roses to the temple in Beregost; ask the priest to restore them to life and once you are in the dungeon give them to Natan.  He is... he was a rogue. I am afraid, however, that he is angry with me for my rejecting his love, and he may try to tell you some nonsense about me... please, do not believe him!~
+@257  = ~Hello again, <CHARNAME>.  Unless you've changed your mind about helping Amelia, then I have nothing to say to you.~
+@258  = ~I've changed my mind.  Rejoin us, and we will help Amelia together.~
+@259  = ~Actually, I was hoping you had come to your senses and given up this foolish quest.~
+@260  = ~Gladly, my friend.  Now, let's take these roses to the temple.~
+@261  = ~Then farewell until next we meet, <CHARNAME>.~
 @999  = ~Amelia~

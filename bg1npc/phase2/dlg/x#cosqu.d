@@ -547,12 +547,29 @@ IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranCharmed","GLOBAL",1)~ X#CoranCharmed
 SAY @194
 IF ~~ THEN DO ~EscapeAreaMove("%FirewineBridge%",4040,2091,3)~ EXIT
 END
+
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranTakesRoses","GLOBAL",1)~ X#CoranTakesRoses
+SAY @257
+++ @258 + CoranRejoin
+++ @259 + CoranNotRejoin
+END
+
+IF ~~ CoranRejoin
+SAY @260
+IF ~~ THEN DO ~SetGlobal("X#CoranTakesRoses","GLOBAL",2) SetGlobal("X#CoranSuccubus","GLOBAL",5) ChangeAIScript("",DEFAULT) SetGlobal("KickedOut","LOCALS",0) JoinParty()~ UNSOLVED_JOURNAL @202 EXIT
+END
+
+IF ~~ CoranNotRejoin
+SAY @261
+IF ~~ THEN EXIT
+END
 END
 
 CHAIN ~%CORAN_JOINED%~ CoranQuitsSuccubus
 @195
-== X#AMELIA @196
-DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) SetGlobal("X#CoranSuccubus","GLOBAL",4) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("coran",EscapeAreaMove("%FirewineBridge%",4040,2091,3))~
+== X#AMELIA @256
+== ~%CORAN_JOINED%~ @199
+DO ~SetGlobal("X#CoranTakesRoses","GLOBAL",1) SetGlobal("X#CoranSuccubus","GLOBAL",4) ActionOverride("x#amelia",GiveItemCreate("X#COWIRO","coran",1,0,0)) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("coran",EscapeAreaMove("%Temple%",1500,1575,6))~
 END
 IF ~~ UNSOLVED_JOURNAL @197 EXIT
 

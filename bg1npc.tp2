@@ -2175,6 +2175,7 @@ END
     END
   BUT_ONLY_IF_IT_CHANGES
 
+
 /* BEGIN PHASE I BG1NPC PROJECT */
 BEGIN @1007
   GROUP @1006
@@ -3651,6 +3652,7 @@ BEGIN @1007
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~LRING~
     ADD_CRE_ITEM ~%tutu_var%CLCK12~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
+    WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
 
   /* Natan */
   COPY ~BG1NPC/Phase2/cre/x#natan.cre~ ~override~

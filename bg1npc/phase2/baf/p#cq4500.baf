@@ -10,6 +10,7 @@ END
 
 IF %BGT_VAR%
 Dead("X#amelia")
+Exists("natan")
 !Allegiance("natan",NEUTRAL)
 THEN
 RESPONSE #100
