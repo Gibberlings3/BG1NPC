@@ -1,7 +1,7 @@
 @0    = ~Hey, <CHARNAME>, next tavern we go in, let's have a party!~
-@1    = ~What d'ya say? Pleease...let's have a party!~
+@1    = ~What d'ya say? Pleease... let's have a party!~
 @2    = ~Sure, why not?~
-@3    = ~Heh, why would you want a party? ~
+@3    = ~Heh, why would you want a party?~
 @4    = ~Don't be so ridiculous.~
 @5    = ~Great! We really need to cheer up that ol' misery guts, Kivan.~
 @6    = ~Yeah, I know what you mean.~
@@ -60,7 +60,7 @@
 @59   = ~Imoen? What've you got there?~
 @60   = ~Cut it out, you two, we've got work to do.~
 @61   = ~This is not the place for childish games. Either grow up or leave.~
-@62   = ~Nothing! Say, let's get back to work, eh? ~
+@62   = ~Nothing! Say, let's get back to work, eh?~
 @63   = ~Sure thing, boss!~
 @64   = ~*whispering* Is <PRO_HESHE> always this grumpy? Always this bossy?~
 @65   = ~Nah. At least, <PRO_HESHE> wasn't before...~
@@ -80,7 +80,7 @@
 @79   = ~He-he, you just can't think of the right words, can you?~
 @80   = ~Of course I can! It's just that words cannot describe the way a paladin feels about his duty.~
 @81   = ~How do old paladins teach the new paladins what they're supposed to do, then?~
-@82   = ~Well they... that is... they just know, all right?~
+@82   = ~Well they... that is... they just know, alright?~
 @83   = ~He-he, sure.~
 @84   = ~So you're an elf, Coran?~
 @85   = ~I would have thought that would be fairly obvious. The ears, the hair and the fact that I'm not dog ugly...~
@@ -129,8 +129,8 @@
 @128  = ~I usually don't have time for idle chatter. But perhaps this once I'll make an exception. (Yes, I think I will.) Come, walk with me and listen awhile.~
 @129  = ~Hey, Edwin, I hope you've been keeping up with your studies in creative casting?~
 @130  = ~A master such as myself does not need to follow such useless routines! Those banalities are meant for the moronic mages and the weak of mind! (How did she find those scrolls? I thought I hid them well!)~
-@131  = ~Weeellllll... in that case, maybe I could ask you a teeny-weeny little favour?~
-@132  = ~(I'm strangely curious about what she could possibly have in mind.) That depends on what this 'favour is'... err, and how busy I am with other, more important matters, of course.~
+@131  = ~Weeellllll... in that case, maybe I could ask you a teeny-weeny little favor?~
+@132  = ~(I'm strangely curious about what she could possibly have in mind.) That depends on what this 'favor' is... err, and how busy I am with other, more important matters, of course.~
 @133  = ~I was just wondering... could you teach me some magic tricks? Please? Please?!!~
 @134  = ~Well, a good mage (and obviously I am far more than just a *good* mage) needs a firm grasp of the theories behind the inner works of the Arts Magica as well as a quick mind to be able to cast even the simplest of spells.~
 @135  = ~Are you saying I'm too dumb to be able to cast a spell? *pouts*~

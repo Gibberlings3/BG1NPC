@@ -1005,9 +1005,9 @@ Wizard Slayer~
 STATISTICS:
 
 Equipped abilities:
-Ð Armor Class: +1
-Ð THAC0: +1
-Ð Can memorize one 2nd-, 3rd-, and 4th-level wizard spell
+- Armor Class: +1
+- THAC0: +1
+- Can memorize one 2nd-, 3rd-, and 4th-level wizard spell
 
 Weight: 1~
 @763 = ~Boomerang Dagger +2~
@@ -1016,7 +1016,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-Ð Returns to the wielder's hand when thrown
+- Returns to the wielder's hand when thrown
 
 THAC0: +2
 Damage: 2d4+2 (missile)
@@ -1034,7 +1034,7 @@ Weight: 1~
 STATISTICS:
 
 Charge abilities:
-Ð Confusion three times per day (Save vs. Spell negates)
+- Confusion three times per day (Save vs. Spell negates)
   Duration: 1 turn
   Area of Effect: All within listening range save the bard and fellow party members
 
@@ -1049,7 +1049,7 @@ Devotees of Helm finally lashed out against Azlaer and his cruel practices, dest
 STATISTICS:
 
 Charge abilities:
-Ð Dispel Fear
+- Dispel Fear
   Range: 25 ft.
   Area of Effect: 30-ft. radius
 
@@ -1062,7 +1062,7 @@ As he played, he focused his attention first on the king. As the song played on,
 STATISTICS:
 
 Charge abilities:
-Ð Dispel hold-like effects three times per day
+- Dispel hold-like effects three times per day
   Range: 25 ft.
   Area of Effect: 1 creature
 
@@ -1073,7 +1073,7 @@ Weight: 6~
 STATISTICS:
 
 Combat abilities:
-Ð Hit target must save vs. Paralyzation or be stunned for 5 rounds
+- Hit target must save vs. Paralyzation or be stunned for 5 rounds
 
 Damage: 1d10 (missile)
 Launcher: Crossbow
