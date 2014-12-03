@@ -29,171 +29,22 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   INCLUDE ~bg1npc\lib\liam_bgee_vars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
 
-  /* BG:EE tra conversion : Character encoding for BG II for various languages: ensure the name matches the menu choices */
-  ACTION_DEFINE_ASSOCIATIVE_ARRAY languageencoding BEGIN
-	"english" => "CP1252"
-	"french" => "CP1252"
-	"spanish" => "CP1252"
-	"polish" => "CP1250"
-	"german" => "CP1252"
-  END
-  OUTER_SPRINT initialencoding ~~
-  ACTION_PHP_EACH languageencoding AS lang => encoding BEGIN
-    ACTION_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~%lang%~ = 1) THEN BEGIN
-      OUTER_SPRINT initialencoding ~%encoding%~
-    END
-  END
-  /* 
-   * Isaya: check for existence of BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra as a marker that the mod
-   * has already installed at least one component, so conversion is already done, in order
-   * to avoid repeating for each component (as a backup of all tra files is then done in each
-   * subdirectory of backup)
-   * This is a handy trick with BG1 NPC, since BG1NPC.tra is created when the mod is installed
-   * and removed with the mod. But it cannot be used as a generic trick for other mods.
-  */
-  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bg1npc/tra/%LANGUAGE%/BG1NPC.tra~) AND
-            (STRING_LENGTH ~%initialencoding%~ != 0) THEN BEGIN
-    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~WIN32~ = 1) THEN BEGIN
-      /* Only convert for the language selected by passing the directory as parameter */
-      PRINT ~Windows conversion with %initialencoding%~
-      AT_NOW ~bg1npc/conv_tra.bat %LANGUAGE% %initialencoding%~
-    END
-    ACTION_IF ("%WEIDU_OS%" STRING_EQUAL_CASE ~OSX~ = 1) OR ("%WEIDU_OS%" STRING_EQUAL_CASE ~UNIX~ = 1) THEN BEGIN
-      /* Only convert for the language selected by passing the directory as parameter */
-      PRINT ~Linux and Mac conversion with %initialencoding%~
-      AT_NOW ~bg1npc/conv_tra.sh %LANGUAGE% %initialencoding%~
-    END
-    /* Isaya: all tra files have to be replaced with their counterpart from the utf8 directory */
-    /* Otherwise the tra files for dialogs are still with the Windows 1252 / 1250 encoding */
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/bg1npc_tmp.tra~ ~bg1npc/tra/%LANGUAGE%/bg1npc_tmp.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#brlt.tra~ ~bg1npc/tra/%LANGUAGE%/p#brlt.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#centeo.tra~ ~bg1npc/tra/%LANGUAGE%/p#centeo.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#ciflirt.tra~ ~bg1npc/tra/%LANGUAGE%/p#ciflirt.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#corlt.tra~ ~bg1npc/tra/%LANGUAGE%/p#corlt.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#crnpc.tra~ ~bg1npc/tra/%LANGUAGE%/p#crnpc.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#fw2700.tra~ ~bg1npc/tra/%LANGUAGE%/p#fw2700.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#imanel.tra~ ~bg1npc/tra/%LANGUAGE%/p#imanel.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#imanl2.tra~ ~bg1npc/tra/%LANGUAGE%/p#imanl2.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/p#wolf.tra~ ~bg1npc/tra/%LANGUAGE%/p#wolf.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/setup.tra~ ~bg1npc/tra/%LANGUAGE%/setup.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#addial_tmp.tra~ ~bg1npc/tra/%LANGUAGE%/x#addial_tmp.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantis.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantis.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantisaddlts_pr.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantisaddlts_pr_notosc.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantisaddlts_pr_notosc.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantisbhaallts.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantisbhaallts.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantisdreamlts.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantisdreamlts.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantisiniflirts_pr.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantisiniflirts_pr.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantislts_pr.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantislts_pr.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajantisnpc_talks_pr.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajantisnpc_talks_pr.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajint.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajpcfl_tmp.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajpcfl_tmp.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ajroadd_pr.tra~ ~bg1npc/tra/%LANGUAGE%/x#ajroadd_pr.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#alint.tra~ ~bg1npc/tra/%LANGUAGE%/x#alint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#alora.tra~ ~bg1npc/tra/%LANGUAGE%/x#alora.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#aloran.tra~ ~bg1npc/tra/%LANGUAGE%/x#aloran.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#alorepl.tra~ ~bg1npc/tra/%LANGUAGE%/x#alorepl.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ar6001.tra~ ~bg1npc/tra/%LANGUAGE%/x#ar6001.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#assist.tra~ ~bg1npc/tra/%LANGUAGE%/x#assist.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#branw.tra~ ~bg1npc/tra/%LANGUAGE%/x#branw.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#bri.tra~ ~bg1npc/tra/%LANGUAGE%/x#bri.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#brint.tra~ ~bg1npc/tra/%LANGUAGE%/x#brint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#challenge.tra~ ~bg1npc/tra/%LANGUAGE%/x#challenge.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#chop.tra~ ~bg1npc/tra/%LANGUAGE%/x#chop.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#coint.tra~ ~bg1npc/tra/%LANGUAGE%/x#coint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#coran.tra~ ~bg1npc/tra/%LANGUAGE%/x#coran.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#coran1.tra~ ~bg1npc/tra/%LANGUAGE%/x#coran1.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#cosqu.tra~ ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#cru11.tra~ ~bg1npc/tra/%LANGUAGE%/x#cru11.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#da0125.tra~ ~bg1npc/tra/%LANGUAGE%/x#da0125.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dav01.tra~ ~bg1npc/tra/%LANGUAGE%/x#dav01.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dav02.tra~ ~bg1npc/tra/%LANGUAGE%/x#dav02.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#davi.tra~ ~bg1npc/tra/%LANGUAGE%/x#davi.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dybha.tra~ ~bg1npc/tra/%LANGUAGE%/x#dybha.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dyint.tra~ ~bg1npc/tra/%LANGUAGE%/x#dyint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dylast.tra~ ~bg1npc/tra/%LANGUAGE%/x#dylast.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dynah.tra~ ~bg1npc/tra/%LANGUAGE%/x#dynah.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dynaquest.tra~ ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dyro.tra~ ~bg1npc/tra/%LANGUAGE%/x#dyro.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#dyronpc.tra~ ~bg1npc/tra/%LANGUAGE%/x#dyronpc.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#edint.tra~ ~bg1npc/tra/%LANGUAGE%/x#edint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#edwin.tra~ ~bg1npc/tra/%LANGUAGE%/x#edwin.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#eldoth.tra~ ~bg1npc/tra/%LANGUAGE%/x#eldoth.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#eldothn.tra~ ~bg1npc/tra/%LANGUAGE%/x#eldothn.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#elint.tra~ ~bg1npc/tra/%LANGUAGE%/x#elint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#faint.tra~ ~bg1npc/tra/%LANGUAGE%/x#faint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#faldorn.tra~ ~bg1npc/tra/%LANGUAGE%/x#faldorn.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#gaint.tra~ ~bg1npc/tra/%LANGUAGE%/x#gaint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#garar.tra~ ~bg1npc/tra/%LANGUAGE%/x#garar.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#garri.tra~ ~bg1npc/tra/%LANGUAGE%/x#garri.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#garwyl.tra~ ~bg1npc/tra/%LANGUAGE%/x#garwyl.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#gorlet.tra~ ~bg1npc/tra/%LANGUAGE%/x#gorlet.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#halbaz.tra~ ~bg1npc/tra/%LANGUAGE%/x#halbaz.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#ict3.tra~ ~bg1npc/tra/%LANGUAGE%/x#ict3.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#imint.tra~ ~bg1npc/tra/%LANGUAGE%/x#imint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#imoen.tra~ ~bg1npc/tra/%LANGUAGE%/x#imoen.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#impspl.tra~ ~bg1npc/tra/%LANGUAGE%/x#impspl.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#jaheira.tra~ ~bg1npc/tra/%LANGUAGE%/x#jaheira.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#jaint.tra~ ~bg1npc/tra/%LANGUAGE%/x#jaint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#jaqu.tra~ ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kagain.tra~ ~bg1npc/tra/%LANGUAGE%/x#kagain.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kaint.tra~ ~bg1npc/tra/%LANGUAGE%/x#kaint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kaqst.tra~ ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#khalid.tra~ ~bg1npc/tra/%LANGUAGE%/x#khalid.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#khint.tra~ ~bg1npc/tra/%LANGUAGE%/x#khint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kiint.tra~ ~bg1npc/tra/%LANGUAGE%/x#kiint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kiint_new.tra~ ~bg1npc/tra/%LANGUAGE%/x#kiint_new.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kisequ.tra~ ~bg1npc/tra/%LANGUAGE%/x#kisequ.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#kivan.tra~ ~bg1npc/tra/%LANGUAGE%/x#kivan.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lake.tra~ ~bg1npc/tra/%LANGUAGE%/x#lake.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lp1r.tra~ ~bg1npc/tra/%LANGUAGE%/x#lp1r.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lp1rep.tra~ ~bg1npc/tra/%LANGUAGE%/x#lp1rep.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lp2r.tra~ ~bg1npc/tra/%LANGUAGE%/x#lp2r.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lp2rep.tra~ ~bg1npc/tra/%LANGUAGE%/x#lp2rep.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lp3r.tra~ ~bg1npc/tra/%LANGUAGE%/x#lp3r.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lp3rep.tra~ ~bg1npc/tra/%LANGUAGE%/x#lp3rep.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#lprcad.tra~ ~bg1npc/tra/%LANGUAGE%/x#lprcad.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#miint.tra~ ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#minsc.tra~ ~bg1npc/tra/%LANGUAGE%/x#minsc.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#mirc.tra~ ~bg1npc/tra/%LANGUAGE%/x#mirc.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#moint.tra~ ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#montaron.tra~ ~bg1npc/tra/%LANGUAGE%/x#montaron.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#newmerch2.tra~ ~bg1npc/tra/%LANGUAGE%/x#newmerch2.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#npcwait.tra~ ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#pcbury.tra~ ~bg1npc/tra/%LANGUAGE%/x#pcbury.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#pcbury1.tra~ ~bg1npc/tra/%LANGUAGE%/x#pcbury1.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#pcinit_tmp.tra~ ~bg1npc/tra/%LANGUAGE%/x#pcinit_tmp.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#quayl.tra~ ~bg1npc/tra/%LANGUAGE%/x#quayl.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#quint.tra~ ~bg1npc/tra/%LANGUAGE%/x#quint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#rumor.tra~ ~bg1npc/tra/%LANGUAGE%/x#rumor.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#safana.tra~ ~bg1npc/tra/%LANGUAGE%/x#safana.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#saint.tra~ ~bg1npc/tra/%LANGUAGE%/x#saint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#sharteel.tra~ ~bg1npc/tra/%LANGUAGE%/x#sharteel.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#shint.tra~ ~bg1npc/tra/%LANGUAGE%/x#shint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#shrom.tra~ ~bg1npc/tra/%LANGUAGE%/x#shrom.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#skie.tra~ ~bg1npc/tra/%LANGUAGE%/x#skie.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#skint.tra~ ~bg1npc/tra/%LANGUAGE%/x#skint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#tiax.tra~ ~bg1npc/tra/%LANGUAGE%/x#tiax.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#tiaxquest.tra~ ~bg1npc/tra/%LANGUAGE%/x#tiaxquest.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#tiint.tra~ ~bg1npc/tra/%LANGUAGE%/x#tiint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#totsc.tra~ ~bg1npc/tra/%LANGUAGE%/x#totsc.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#viconia.tra~ ~bg1npc/tra/%LANGUAGE%/x#viconia.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#viint.tra~ ~bg1npc/tra/%LANGUAGE%/x#viint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xaint.tra~ ~bg1npc/tra/%LANGUAGE%/x#xaint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xan.tra~ ~bg1npc/tra/%LANGUAGE%/x#xan.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xanlt.tra~ ~bg1npc/tra/%LANGUAGE%/x#xanlt.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xanq.tra~ ~bg1npc/tra/%LANGUAGE%/x#xanq.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xqxan.tra~ ~bg1npc/tra/%LANGUAGE%/x#xqxan.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xzar.tra~ ~bg1npc/tra/%LANGUAGE%/x#xzar.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xzdqu.tra~ ~bg1npc/tra/%LANGUAGE%/x#xzdqu.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xzdr2.tra~ ~bg1npc/tra/%LANGUAGE%/x#xzdr2.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xzdr3.tra~ ~bg1npc/tra/%LANGUAGE%/x#xzdr3.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xzint.tra~ ~bg1npc/tra/%LANGUAGE%/x#xzint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#xzqu.tra~ ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#yeint.tra~ ~bg1npc/tra/%LANGUAGE%/x#yeint.tra~
-    MOVE ~bg1npc/tra/%LANGUAGE%/utf8/x#yeslick.tra~ ~bg1npc/tra/%LANGUAGE%/x#yeslick.tra~
+  // BG:EE tra conversion
+  // Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237
+  // For complete description check Edwin Romance and the WeiDU forum topic on HANDLE_CHARSETS
 
-    LOAD_TRA ~bg1npc/tra/%LANGUAGE%/setup.tra~
-    PRINT ~re-loaded %LANGUAGE% TRA files with UTF-8(no BOM) encoding for use on BG:EE~
+  // BGEE.tra contains texts already in UTF8 and should not be converted
+  ACTION_DEFINE_ARRAY x#noconvert BEGIN BGEE END
+  // Only setup.tra is stated in LANGUAGE and needs to be reloaded after conversion
+  ACTION_DEFINE_ARRAY x#reload BEGIN setup END
+
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/tra~
+      noconvert_array = x#noconvert
+      reload_array = x#reload
   END
 
 END ELSE BEGIN
