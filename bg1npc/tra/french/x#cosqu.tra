@@ -271,13 +271,21 @@ Se métamorphosèrent en monstres épineux.~
 @250   = ~Bien sûr, Amélia. Je vous apporterai les poudres.~
 @251   = ~Les poudres ? Ainsi Natan ne mentait pas...~
 @252   = ~Vous m'avez menti à propos des roses ! Natan avait raison sur votre compte, alors !~
-@253  = ~Amélia
+@253   = ~Amélia
 
 Nous avons donné les poudres à Amélia. Elle les as prises et a disparu.~
-@254  = ~Amélia
+@254   = ~Amélia
 
 Nous avons tué le démon connu sous le nom d'Amélia.~
-@255  = ~Amélia
+@255   = ~Amélia
 
-Nous avons donné les poudres à Amélia. Avant de disparaître, elle a dit que le sang qui coule dans mes veines et puissant et sombre.~
+Nous avons donné les poudres à Amélia. Avant de disparaître, elle a dit que le sang qui coule dans mes veines est puissant et sombre.~
+// Combine @196 + grande partie de @176
+@256   = ~Oh, c'est plutôt noble de votre part, mon bon elfe. Soyez assez aimable pour me pardonner d'avoir brisé votre petite communauté. Apportez ces roses au temple de Bérégost ; demandez au prêtre de les ramener à la vie et, une fois dans le donjon, donnez-les à Natan. C'est... c'était un voleur. Je crains, néanmoins, qu'il ne soit en colère parce que j'ai rejeté son amour, et il tentera peut-être de vous raconter des absurdités sur mon compte... Je vous en prie, ne le croyez pas !~
+@257   = ~Re-bonjour <CHARNAME>. A moins que tu n'aies changé d'avis à propos d'aider Amélia, je n'ai rien à te dire.~
+@258   = ~J'ai changé d'avis. Rejoins-nous et ensemble nous aiderons Amélia.~
+@259   = ~En réalité, j'espérais que tu avais repris tes esprits et abandonné cette quête ridicule.~
+@260   = ~Avec joie, mon ami. Allons, apportons ces roses au temple.~
+         ~Avec joie, mon amie. Allons, apportons ces roses au temple.~
+@261   = ~Alors adieu, <CHARNAME>, à la prochaine.~
 @999   = ~Amélia~
