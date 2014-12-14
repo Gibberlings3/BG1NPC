@@ -2,6 +2,7 @@
 IF %BGT_VAR%
 AreaCheck("%NashkelMines%")
 Dead("prism")
+See("prism")
 Global("X#KPD","GLOBAL",0)
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
