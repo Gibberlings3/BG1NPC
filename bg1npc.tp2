@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v21_PRERELEASE_20141130~
+VERSION ~v21_PRERELEASE_20141221~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -25,18 +25,18 @@ ALWAYS
 
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   /*Tell the player it is using BG:EE stuff */
-  PRINT ~BG:EE Detected. Installation based on those resources.~
-  INCLUDE ~bg1npc\lib\g3_bgee_cpmvars.tpa~
+  PRINT @5000
+  INCLUDE ~%MOD_FOLDER%/handle_charsets.tpa~
+  INCLUDE ~bg1npc/lib/g3_bgee_cpmvars.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
 
   // BG:EE tra conversion
   // Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237
   // For complete description check Edwin Romance and the WeiDU forum topic on HANDLE_CHARSETS
 
-  // BGEE.tra contains texts already in UTF8 and should not be converted
-  ACTION_DEFINE_ARRAY x#noconvert BEGIN BGEE END
   // Only setup.tra is stated in LANGUAGE and needs to be reloaded after conversion
   ACTION_DEFINE_ARRAY x#reload BEGIN setup END
+  ACTION_DEFINE_ARRAY x#noconvert BEGIN END
 
   LAF HANDLE_CHARSETS
     INT_VAR
@@ -51,28 +51,28 @@ END ELSE BEGIN
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* Tell the player it is using Tutu stuff */
     PRINT @1000
-    INCLUDE ~bg1npc\lib\g3_tutu_cpmvars.tpa~
+    INCLUDE ~bg1npc/lib/g3_tutu_cpmvars.tpa~
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @1001
-        INCLUDE ~bg1npc\lib\g3_bgt_cpmvars.tpa~
+        INCLUDE ~bg1npc/lib/g3_bgt_cpmvars.tpa~
         /* Tell the player it is not Tutu or BGT */
-    END ELSE BEGIN FAIL ~Please install on BG:EE, Tutu or BGT.~
+    END ELSE BEGIN FAIL @1002
     END
   END
 END
 
   /*  alter fluid states */
-  INCLUDE ~BG1NPC\lib\g3_fluid_cpmvars.tpa~
+  INCLUDE ~BG1NPC/lib/g3_fluid_cpmvars.tpa~
 
   /* prep tras for sound references */
   COPY ~BG1NPC/TRA/%LANGUAGE%/BG1NPC_tmp.tra~ ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
      EVALUATE_BUFFER
   LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
 
-  INCLUDE ~bg1npc\lib\extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
-  INCLUDE ~bg1npc\lib\bg1npc_project_macros.tpa~   /* adds macros callable by each component */
+  INCLUDE ~bg1npc/lib/extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
+  INCLUDE ~bg1npc/lib/bg1npc_project_macros.tpa~   /* adds macros callable by each component */
 END /* ALWAYS */
 
 /* Language Settings */
@@ -1911,10 +1911,10 @@ END
   /* Area Script Assignment Patching: All Areas Script ID'd */
   /* Tutu */
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    INCLUDE ~BG1NPC\LIB\tutu_area_script_assign.tph~
+    INCLUDE ~BG1NPC/LIB/tutu_area_script_assign.tph~
   END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
   /* BGEE */
-    INCLUDE ~BG1NPC\LIB\bgee_area_script_assign.tph~
+    INCLUDE ~BG1NPC/LIB/bgee_area_script_assign.tph~
     
     /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
     COPY_EXISTING ~%NNashkelRoad_BCS%.bcs~ ~override~
