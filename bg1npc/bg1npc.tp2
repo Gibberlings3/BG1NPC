@@ -3142,12 +3142,12 @@ BEGIN @1007
   COMPILE ~bg1npc/phase2/baf/x#davidx.baf~  /* Combat script for David Jansen */
 
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* Add sound files for x#cru11 and x#chop */
-	COPY ~bg1npc/bgee/wav/x#ogref1.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/x#ogref2.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/x#ogref3.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/x#ogref4.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/x#ogref5.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/x#ogref6.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/x#ogref1.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/x#ogref2.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/x#ogref3.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/x#ogref4.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/x#ogref5.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/x#ogref6.wav~ ~override~
   END
   
   /* patching Xan's script */
@@ -3778,12 +3778,12 @@ BEGIN @1007
   /* Add BG2 Items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	/* Boomerang Dagger */
-	COPY ~bg1npc/bgee/itm/dagg11.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/dagg11.itm~ ~override~ 
   		SAY NAME2 @763
   		SAY DESC @764
   		
 	/* Sahuagin Paralytic Bolt */
-	COPY ~bg1npc/bgee/itm/sahbolt.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/sahbolt.itm~ ~override~ 
 		SAY NAME2 @772
   		SAY DESC @773
   END
@@ -3824,11 +3824,11 @@ BEGIN @1007
   /* Add BG2 Items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	/* Scrolls of Cacofiend and Maze */
-	COPY ~bg1npc/bgee/itm/scrl8i.itm~ ~override~ 
-	COPY ~bg1npc/bgee/itm/scrl9h.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/scrl8i.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/scrl9h.itm~ ~override~ 
 	
 	/* Demon See Invisibility ring */
-	COPY ~bg1npc/bgee/itm/seeinvis.itm~ ~override~
+	COPY ~bg1npc/phase2/itm/seeinvis.itm~ ~override~
   END
 
   /* Working spell for Prot Evil 10' radius that protects vs Demons 
@@ -3843,7 +3843,7 @@ BEGIN @1007
   
   /* X#IMPSPL.BCS uses the sound file IMPPP04.wav, which is not found in BGEE. */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	COPY ~bg1npc/bgee/wav/imppp04.wav~ ~override~
+  	COPY ~bg1npc/phase2/wav/imppp04.wav~ ~override~
   END
   
   /* creatures */
@@ -4047,19 +4047,19 @@ END
 
   /* Add BG2 items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-	COPY ~bg1npc/bgee/wav/itemharp.wav~ ~override~
+	COPY ~bg1npc/phase2/wav/itemharp.wav~ ~override~
   	/* Harp of Discord */
-	COPY ~bg1npc/bgee/itm/misc3m.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/misc3m.itm~ ~override~ 
   		SAY NAME2 @765
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @767
 	/* Azlaer's Harp */
-	COPY ~bg1npc/bgee/itm/misc3n.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/misc3n.itm~ ~override~ 
   		SAY NAME2 @768
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @769
 	/* Methlid's Harp */
-	COPY ~bg1npc/bgee/itm/misc3o.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/misc3o.itm~ ~override~ 
   		SAY NAME2 @770
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @771
@@ -5704,24 +5704,24 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   /* Add BG2 items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN  
   /* Wondrous Gauntlets */
-	COPY ~bg1npc/bgee/itm/brac25.itm~ ~override~ 
+	COPY ~bg1npc/phase3/dyrom/itm/brac25.itm~ ~override~ 
   		SAY NAME2 @761
   		SAY DESC @762
 
   /* Items for Dynaheir romance endgame cutscene */
-  	COPY ~bg1npc/bgee/itm/minhp20.itm~ ~override~   /* For x#bodhi */
-	COPY ~bg1npc/bgee/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
-	COPY ~bg1npc/bgee/itm/vamp1.itm~ ~override~     /* For x#valen */
-	COPY ~bg1npc/bgee/itm/vamp2.itm~ ~override~     /* For x#tanov */
-	COPY ~bg1npc/bgee/itm/vamp3.itm~ ~override~     /* For x#bodhi */
-	COPY ~bg1npc/bgee/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
+  	COPY ~bg1npc/phase3/dyrom/itm/minhp20.itm~ ~override~   /* For x#bodhi */
+	COPY ~bg1npc/phase3/dyrom/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
+	COPY ~bg1npc/phase3/dyrom/itm/vamp1.itm~ ~override~     /* For x#valen */
+	COPY ~bg1npc/phase3/dyrom/itm/vamp2.itm~ ~override~     /* For x#tanov */
+	COPY ~bg1npc/phase3/dyrom/itm/vamp3.itm~ ~override~     /* For x#bodhi */
+	COPY ~bg1npc/phase3/dyrom/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
 	
 	/* Soundset for x#joni */
-	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
-	COPY ~bg1npc/bgee/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
+	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
+	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
+	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
+	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
+	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
   END
   
   /* Dynaheir's romance timer */
