@@ -6010,7 +6010,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* BGEE does not have BG2's AR1402 area resources available */ 
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.MOS~ ~override~
-	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.TIS~ ~override~
+//	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.TIS~ ~override~
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12.WED~ ~override~
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12AM.WAV~ ~override~
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12an.wav~ ~override~
@@ -6033,7 +6033,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* BGEE does not have BG2's AR2805 area resources available */ 
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.MOS~ ~override~
-	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.TIS~ ~override~
+//	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.TIS~ ~override~
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13.WED~ ~override~
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13AM.WAV~ ~override~
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13c1.WAV~ ~override~
@@ -6052,6 +6052,15 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* For Tutu, BGT */
   	COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.are~ ~override~
     	WRITE_ASCII 0x94 ~X#CH13~ #8
+  END
+
+  /* Unpack tilesets X#CH12 and X#CH13 for BGEE */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	LAF HANDLE_TILESETS
+  	  STR_VAR
+    	tiz_path = ~bg1npc/phase3/challenge/tiz~
+    	tizunpack_path = ~bg1npc/phase3/challenge/tiz~
+	END
   END
 
   /* items */
