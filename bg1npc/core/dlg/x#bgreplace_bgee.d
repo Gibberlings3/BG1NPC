@@ -7,11 +7,30 @@ BEGIN
 END
 
 /* PDialogue repairs */
-REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 7 END BEGIN END ~JoinParty()~ ~ActionOverride("jaheira",JoinParty())~ 
-
+REPLACE_TRANS_ACTION %CORAN_POST% BEGIN 1 END BEGIN END ~SetGlobal("KickedOut","LOCALS",1)~ ~~ 
+REPLACE_TRANS_ACTION %DYNAHEIR_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("Minsc",LeaveParty())~ ~ActionOverride("Minsc",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("Minsc",LeaveParty())~ 
+REPLACE_TRANS_ACTION %DYNAHEIR_POST% BEGIN 8 END BEGIN END ~ActionOverride("Minsc",JoinParty())~ ~ActionOverride("Minsc",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("Minsc",JoinParty())~ 
+REPLACE_TRANS_ACTION %EDWIN_POST% BEGIN 1 END BEGIN END ~SetGlobal("KickedOut","LOCALS",1)~ ~~ 
+REPLACE_TRANS_ACTION %ELDOTH_POST% BEGIN 1 3 8 END BEGIN END ~ActionOverride("Skie",LeaveParty())~ ~ActionOverride("Skie",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("Skie",LeaveParty())~ 
+REPLACE_TRANS_ACTION %ELDOTH_POST% BEGIN 6 END BEGIN END ~ActionOverride("Skie",JoinParty())~ ~ActionOverride("Skie",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("Skie",JoinParty())~ 
 REPLACE_TRANS_ACTION %IMOEN_POST% BEGIN 4 END BEGIN END ~JoinParty()~ ~ActionOverride("imoen",JoinParty())~ 
-
+REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("Khalid",LeaveParty())~ ~ActionOverride("Khalid",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("Khalid",LeaveParty())~ 
+REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 8 END BEGIN END ~ActionOverride("Khalid",JoinParty())~ ~ActionOverride("Khalid",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("Khalid",JoinParty())~ 
+REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 7 END BEGIN END ~JoinParty()~ ~ActionOverride("jaheira",JoinParty())~ 
+REPLACE_TRANS_ACTION %KHALID_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("jaheira",LeaveParty())~ ~ActionOverride("jaheira",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("jaheira",LeaveParty())~ 
+REPLACE_TRANS_ACTION %KHALID_POST% BEGIN 8 END BEGIN END ~ActionOverride("jaheira",JoinParty())~ ~ActionOverride("jaheira",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("jaheira",JoinParty())~ 
+REPLACE_TRANS_ACTION %MINSC_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("dynaheir",LeaveParty())~ ~ActionOverride("dynaheir",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("dynaheir",LeaveParty())~ 
+REPLACE_TRANS_ACTION %MINSC_POST% BEGIN 7 END BEGIN END ~ActionOverride("dynaheir",JoinParty())~ ~ActionOverride("dynaheir",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("dynaheir",JoinParty())~ 
+REPLACE_TRANS_ACTION %MONTARON_POST% BEGIN 1 3 7 END BEGIN END ~ActionOverride("Xzar",LeaveParty())~ ~ActionOverride("Xzar",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("Xzar",LeaveParty())~ 
+REPLACE_TRANS_ACTION %MONTARON_POST% BEGIN 6 END BEGIN END ~JoinParty()~ ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ 
+REPLACE_TRANS_ACTION %MONTARON_POST% BEGIN 8 END BEGIN END ~ActionOverride("Xzar",JoinParty())~ ~ActionOverride("Xzar",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("Xzar",JoinParty())~ 
 REPLACE_TRANS_ACTION %QUAYLE_POST% BEGIN 4 END BEGIN END ~JoinParty()~ ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~
+REPLACE_TRANS_ACTION %SKIE_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("eldoth",LeaveParty())~ ~ActionOverride("eldoth",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("eldoth",LeaveParty())~ 
+REPLACE_TRANS_ACTION %SKIE_POST% BEGIN 7 END BEGIN END ~ActionOverride("eldoth",JoinParty())~ ~ActionOverride("eldoth",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("eldoth",JoinParty())~ 
+REPLACE_TRANS_ACTION %XZAR_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("montaron",LeaveParty())~ ~ActionOverride("montaron",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("montaron",LeaveParty())~ 
+REPLACE_TRANS_ACTION %XZAR_POST% BEGIN 8 END BEGIN END ~ActionOverride("montaron",JoinParty())~ ~ActionOverride("montaron",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("montaron",JoinParty())~ 
+REPLACE_TRANS_ACTION %YESLICK_POST% BEGIN 1 END BEGIN END ~SetGlobal("KickedOut","LOCALS",1)~ ~~ 
+
 
 /* YESLICK */
 REPLACE_STATE_TRIGGER %YESLICK_BANTER% 9 ~InteractingWith("kagain") RandomNum(8,1) Global("X#BIOYE1","LOCALS",0)~
