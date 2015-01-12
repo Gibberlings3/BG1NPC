@@ -1,6 +1,7 @@
 IF %BGT_VAR%
 Global("X#NatanExists","GLOBAL",0)
-GlobalGT("X#CoranSuccubus","GLOBAL",0)
+GlobalGT("X#CoranSuccubus","GLOBAL",2)
+!Dead("x#amelia")
 THEN
 RESPONSE #100
 SetGlobal("X#NatanExists","GLOBAL",1)
