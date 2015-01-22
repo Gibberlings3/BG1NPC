@@ -2,7 +2,7 @@
 @1    = ~I suppose you have cleaned this dungeon of treasure? *sighs* I'll go look for some other ruins. Thanks for rescuing me!~
 @2    = ~'Thank you' does not buy meat and wine. Would not you express your gratitude in a more... materialistic way?~
 @3    = ~Wait, how were the roses involved?~
-@4    = ~Fare thee well, Natan... and stay out of trouble, will you? I may not happen along next time... ~
+@4    = ~Fare thee well, Natan... and stay out of trouble, will you? I may not happen along next time...~
 @5    = ~What have you done?! The woman is a succubus, a demon! Long ago, a mage, who survived the fall of Ulcaster's School, invented a way to travel between the planes - those very powders. The succubus, whom he summoned to entertain him in his labors, has stolen the manual, but before she could get her claws on the powders, the mage warded the dungeon against her. Now she is free to travel between the planes... Oh, well... things happen, I guess. At least I am free from her spell now. Bloody roses!~
 @6    = ~I do not have any money - almost all that I have found, the succubus has taken. I have a few potions, but I hoped to sell them to sustain my living... for awhile... ~
 @7    = ~Potions will do.~
@@ -14,7 +14,7 @@
 @13   = ~Oh, I will be very cautious... Now, where did I meet that beggar who was selling a treasure map for Maztica? ~
 @14   = ~Easy come, easy go. They are yours. I must go now... life is too short to spend it on anything but adventure!~
 @15   = ~I adore Amelia...~
-@16   = ~The roses! Oh, by the gods, the roses! I... my will weakens by the second. Here, take this! That's what she wants! ~
+@16   = ~The roses! Oh, by the gods, the roses! I... my will weakens by the second. Here, take this! That's what she wants!~
 @17   = ~This woman... the demon... she tricked you! She will not leave, until she has the powders I gave you... I cannot say more now, but I swear that she is a being of pure evil. Please, please kill her and release me! ~
 @18   = ~I must run to the Mistress' call.~
 @19   = ~Hello there. Say, have you noticed a woman... the most beautiful woman you have ever seen, nearby?~
@@ -193,7 +193,7 @@ Met an odd but most beautiful woman, Amelia. She asked us to restore to life som
 @184  = ~Amelia
 
 Met an odd but most beautiful woman, Amelia. She asked us to restore to life some withered roses and give them to Natan - a rogue, who apparently hides somewhere in the Firewine ruins. Her story sounded strange and, anyway, I had no time for delivering flowers, so I declined to help her.~
-@185  = ~Would that I knew, my good <LADYLORD>. Some ward guards it against me. Whenever I want to enter, I am transferred to some far-away corner of Faerun. The last time I ended in Turmish... so I do not dare to try again.~
+@185  = ~Would that I knew, my good <PRO_LADYLORD>. Some ward guards it against me. Whenever I want to enter, I am transferred to some far-away corner of Faerun. The last time I ended in Turmish... so I do not dare to try again.~
 @186  = ~This is all quite wondrous and strange. We will help you, my dear woman, to the best of our abilities.~
 @187  = ~I have no time for silly tales and roses. Let's get moving, comrades.~
 @188  = ~It is a common misconception, my good <PRO_LADYLORD>. In my fiancé's Guild all sorts of oaths were given and taken. Some even involved family members... to tie them into their schemes entirely. I was young and foolish, and found it most enticing. Alas, his charms faded with distance and time, and now I would like to have my life back... if I still can, or to die in peace. Will you help me?~
@@ -270,3 +270,10 @@ Turned into monsters with thorns.~
 @250  = ~Of course, Amelia. I will bring the powders to you.~
 @251  = ~Powders? So Natan did not lie...~
 @252  = ~You lied to me about the roses! Natan was right about you, then!~
+@253  = ~Amelia
+We gave the powders to Amelia.  She took them and vanished.~
+@254  = ~Amelia
+We killed the demon known as Amelia.~
+@255  = ~Amelia
+We gave the powders to Amelia.  Before she vanished, she said that the blood in my veins is powerful and dark.~
+@999  = ~Amelia~

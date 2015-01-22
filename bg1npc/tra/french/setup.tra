@@ -126,10 +126,26 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @1120  = ~Faizah Tin~
 @1121  = ~Rance~
 @1122  = ~Vail~
+@1123  = ~Ajustement du rythme des bavardages pour BG:EE~
+@1124  = ~Vous avez deja installe Ajustement du rythme des bavardages pour BG:EE.~
+@1125  = "Veuillez choisir une des options suivantes pour le rythme des bavardages :
+[1] Rythme de bavardage normal (~27 minutes entre les bavardages)
+[2] Bavardages plus frequents (les bavardages se produisent ~50% plus souvent)
+[3] Bavardages tres frequents (les bavardages se produisent deux fois plus souvent)
+[4] Bavardages peu frequents (les bavardages se produisent ~50% moins souvent)
+[5] Bavardages tres peu frequents (les bavardages se produisent deux fois moins souvent)"
+@1126  = ~Rythme des bavardages : normal~
+@1127  = ~Rythme des bavardages : frequents~
+@1128  = ~Rythme des bavardages : tres frequents~
+@1129  = ~Rythme des bavardages : peu frequents~
+@1130  = ~Rythme des bavardages : tres peu frequents~
 @5000  = ~BG:EE detecte~
-@5001 = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
+@5001  = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
+@5002  = ~Pour ce composant il faut avoir installe BG:EE.~
+@5003  = ~Incompatible avec BGT et BG:EE : veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT et BG:EE.~
+
 // Provision for string not traified in the tp2 file : ~Please install on BG:EE, Tutu or BGT.~
-@5002  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
+@6000  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
@@ -196,3 +212,32 @@ choisir un parmi :"
 
 @-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
 @-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

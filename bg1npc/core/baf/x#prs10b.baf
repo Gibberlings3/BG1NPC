@@ -1,0 +1,127 @@
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(LastSeenBy(Myself),CLERIC_DEFENSIVE_HARMONY)
+		ReallyForceSpell(LastSeenBy(Myself),CLERIC_STRENGTH_OF_ONE)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHAOTIC_COMMANDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CHAOTIC_COMMANDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_STRIKE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CAUSE_SERIOUS_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CAUSE_SERIOUS_WOUNDS)
+		AttackOneRound(LastSeenBy(Myself))
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLY_SMITE)
+	Alignment(Myself,MASK_GOOD)
+	Global("blightsmite","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE)
+		SetGlobal("blightsmite","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)
+	Alignment(Myself,MASK_EVIL)
+	Global("blightsmite","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT)
+		SetGlobal("blightsmite","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_SILENCE_15_FOOT)
+	OR(2)
+		See(NearestEnemyOfType([0.0.0.202]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SILENCE_15_FOOT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON)
+	StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),60)
+	HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_MEDIUM_WOUNDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,60)
+	HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

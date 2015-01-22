@@ -1,0 +1,100 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_MIRROR_IMAGE) // SPWI212.SPL (Mirror Image)
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES) // SPWI311.SPL (Protection From Normal Missiles)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONJURE_LESSER_EARTH_ELEMENTAL) // SPWI521.SPL (Conjure Lesser Earth Elemental)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_CONJURE_LESSER_EARTH_ELEMENTAL) // SPWI521.SPL (Conjure Lesser Earth Elemental)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	HaveSpell(WIZARD_HOLD_PERSON) // SPWI306.SPL (Hold Person)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON) // SPWI306.SPL (Hold Person)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	HaveSpell(WIZARD_DOMINATION) // SPWI506.SPL (Domination)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DOMINATION) // SPWI506.SPL (Domination)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MIRROR_IMAGE) // SPWI212.SPL (Mirror Image)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MIRROR_IMAGE) // SPWI212.SPL (Mirror Image)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPIDER_SPAWN) // SPWI423.SPL (Spider Spawn)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPIDER_SPAWN) // SPWI423.SPL (Spider Spawn)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MONSTER_SUMMONING_2) // SPWI407.SPL (Monster Summoning II)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MONSTER_SUMMONING_2) // SPWI407.SPL (Monster Summoning II)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DISPEL_MAGIC) // SPWI302.SPL (Remove Magic)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DISPEL_MAGIC) // SPWI302.SPL (Remove Magic)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MELF_ACID_ARROW) // SPWI211.SPL (Melf's Acid Arrow)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW) // SPWI211.SPL (Melf's Acid Arrow)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

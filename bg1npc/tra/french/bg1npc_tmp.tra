@@ -81,7 +81,7 @@ Sans doute Imoen ne deviendra jamais un maître joaillier mais le collier est ass
 @21    = ~Boîte de Safana~
 @22    = ~Cette boîte possède une serrure très complexe et appartient à Safana. Elle est très lourde et Dieu seul sait ce qu'elle contient.~
 // Ensemble de sons présents dans BG II et aussi BG, manifestement transférés par Tutu, à conserver tel quel
-@23    = ~[GENERIC MALE INJURY 2]~ [%tutu_var%MANC04]
+@23    = ~[GENERIC MALE INJURY 2]~ [%tutu_var%MANCO04]
 // Fin sons
 //
 // Quête de Kagain (la caravane)
@@ -1200,3 +1200,157 @@ Inutilisable par :
 @639   = ~Biche blanche~
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 11748
 @640   = ~Mercenaire~
+// BG2 - FEMALE1 
+@700 = ~[ORGEF 1]~ [X#OGREF1]
+@701 = ~[ORGEF 2]~ [X#OGREF2]
+@702 = ~[ORGEF 3]~ [X#OGREF3]
+@703 = ~[ORGEF 4]~ [X#OGREF4]
+@704 = ~[ORGEF 5]~ [X#OGREF5]
+@705 = ~[ORGEF 6]~ [X#OGREF6]
+// BG2
+@706 = ~~ [MOOSE01]
+@707 = ~~ [MOOSE06]
+@708 = ~~ [MOOSE07]
+@709 = ~[GHAST 01]~ [GHAST01]
+@710 = ~[GHAST 05]~ [GHAST05]
+@711 = ~[GHAST 06]~ [GHAST06]
+// BG1
+@712 = ~[VOIC1L]~ [%tutu_var%VOIC1L]
+@713 = ~[VOIC1M]~ [%tutu_var%VOIC1M]
+// BGEE @5193
+@714 = ~[NEREID 01] Se baigner dans nos eaux ! Oh, comme ce serait bon...~ [%tutu_var%NERED01]
+// BGEE @5194
+@715 = ~[NEREID 02] Laissez-moi, espèce de crustacé insolent !~ [%tutu_var%NERED02]
+// BGEE @5195
+@716 = ~[NEREID 03] Vous autres, les hommes, ne pouvez m'atteindre.~ [%tutu_var%NERED03]
+// BGEE @5197
+@717 = ~[NEREID 04] Je préférerais nager.~ [%tutu_var%NERED04]
+// BGEE @6035
+@718 = ~[NEREID 08]~ [%tutu_var%NERED08]
+// BGEE @6036
+@719 = ~[NEREID 09]~ [%tutu_var%NERED09]
+@720  = ~Chef Sahuagin~
+@721  = ~Sahuagin~
+// BG2
+@722 = ~~ [SAHAU01]
+@723 = ~~ [SAHAU02]
+@724 = ~~ [SAHAU03]
+@725 = ~~ [SAHAU04]
+@726 = ~~ [SAHAU05]
+@727 = ~~ [SAHAU06]
+@728 = ~~ [SAHAU07]
+@729  = ~Méphite gazeux~
+// BG2
+@730 = ~~ [EARTH01]
+@731 = ~~ [EARTH02]
+@732 = ~~ [EARTH03]
+@733 = ~~ [EARTH06]
+@734 = ~~ [EARTH07]
+@735 = ~ Au secours !~
+@736 = ~ Pitié ! Pitié !~
+// Sounds available in BGEE, without text
+@737 = ~[VAMPF 01]~ [VAMPF01]
+@738 = ~[VAMPF 02]~ [VAMPF02]
+@739 = ~[VAMPF 03]~ [VAMPF03]
+@740 = ~[VAMPF 04]~ [VAMPF04]
+@741 = ~[VAMPF 05]~ [VAMPF05]
+@742 = ~[VAMPF 06]~ [VAMPF06]
+@743 = ~[VAMPF 07]~ [VAMPF07]
+@744 = ~[VAMPP 01]~ [VAMPP01]
+@745 = ~[VAMPP 02]~ [VAMPP02]
+@746 = ~[VAMPP 03]~ [VAMPP03]
+@747 = ~[VAMPP 04]~ [VAMPP04]
+@748 = ~[VAMPP 05]~ [VAMPP05]
+@749 = ~[VAMPP 06]~ [VAMPP06]
+@750 = ~[VAMPP 07]~ [VAMPP07]
+@751 = ~[WYVERN 01]~ [%tutu_var%WYVER01]
+@752 = ~[WYVERN 02]~ [%tutu_var%WYVER02]
+@753 = ~[WYVERN 03]~ [%tutu_var%WYVER03]
+@754 = ~[WYVERN 04]~ [%tutu_var%WYVER04]
+@755 = ~[WYVERN 05]~ [%tutu_var%WYVER05]
+@756 = ~[WYVERN 06]~ [%tutu_var%WYVER06]
+@757 = ~[WYVERN 07]~ [%tutu_var%WYVER07]
+@758 = ~[WYVERN 08]~ [%tutu_var%WYVER08]
+@759 = ~[WYVERN 09]~ [%tutu_var%WYVER09]
+@760 = ~[WYVERN 10]~ [%tutu_var%WYVER10]
+// BG2 items added to BGEE
+@761 = ~Gants merveilleux~
+@762 = ~Ces gants en cuir incrustés de gemmes ont été enchantés de façon à améliorer les compétences des bardes qui les portent.
+
+PARAMÈTRES
+
+Capacités d'équipement :
+- Classe d'Armure : +1
+- TAC0 : +1
+- 1 sort supplémentaire du 2ème, 3ème et du 4ème niveau de mage
+
+Poids : 1~
+@763 = ~Dague de retour +2~
+@764 = ~Fullen Filelaine, un petit-homme ambitieux issu d'une famille aisée, quitta ses pénates pour partir à l'aventure pendant plusieurs années. Au cours de ses voyages il s'installa dans une famille de forgerons nains. Très impressionné par leurs haches de lancer qui revenait toujours dans la main de leurs porteurs, Fullen voulut concevoir une dague dotée des mêmes propriétés. Grâce à l'aide de ses amis nains, il finit par y arriver, et fabriqua plusieurs de ces fameuses Dagues de retour.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- la dague revient à son lanceur
+
+TAC0 : +2
+Dégâts : 2D4 +2 (projectile)
+Facteur de vitesse : 1
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
+
+Poids : 1~
+@765 = ~Harpe de discorde~
+@766 = ~Les harpes sont des instruments à cordes utilisées le plus souvent par les bardes. Cette petite harpe est idéale pour un voyageur.~
+@767 = ~Même le barde le plus talentueux ne pourra jamais accorder correctement cette harpe. Chaque corde rend un son faux et strident. Si le barde persiste à interpréter une mélodie, les effets magiques de la harpe sont libérés. Toutes les créatures qui entendent la musique, à l'exception du barde et de ses éventuels compagnons, doivent faire un jet de sauvegarde contre les sorts pour éviter les effets d'une confusion pendant trente secondes.
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Confusion trois fois par jour (à moins de réussir un jet de sauvegarde contre les sorts)
+  Durée : 1 tour
+  Zone d'effet : toutes les créatures à portée d'oreille, le barde et ses compagnons ne sont pas affectés
+
+Poids : 6~
+@768 = ~Harpe d'Azlaer~
+@769 = ~Un rituel étrange était pratiqué chaque nuit de pleine lune dans le palais d'Azlaer, au centre duquel se trouvait une immense cour à ciel ouvert contenant un grand bassin plein de requins mangeurs d'hommes. Pour s'amuser, Azlaer invitait chez lui des notables des villes voisines pour un dîner et un spectacle.
+
+Le spectacle était le jeu de harpe d'Azlaer lui-même, dont l'effet était de faire disparaître toute trace de peur dans ceux qui l'entendaient. Azlaer choisissait ensuite un invité au hasard et lui demandait de nager dans le bassin. Quand il était d'humeur particulièrement cruelle, il commençait par y faire jeter du sang pour exciter les requins et s'assurer de la mort de son invité sans défense.
+
+Les serviteur de Heaum finirent par ne plus tolérer Azlaer et ses pratiques sadiques. Il détruisirent le palais, tuèrent Azlaer, et s'emparèrent de la harpe pour en faire une utilisation plus constructive.
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Dissipation de la terreur
+  Portée : 7,5 mètres
+  Zone d'effet : 9 mètres de rayon
+
+Poids : 6~
+@770 = ~Harpe de Methild~
+@771 = ~Dans une vallée éloignée des terres civilisées se trouvait le petit royaume de Chilldion. Par un soir d'hiver, trois méchantes sorcières prirent la vallée et emprisonnèrent la famille royale en lançant sur chacun d'eux un sort d'immobilisation. Les sorcières pensaient les manger l'un après l'autre. Plus tard dans la soirée, après une dure journée passée à massacrer des innocents et à répandre le chaos dans le palais, les sorcières firent appeler le barde de la cour pour leur jouer une chanson. Methild le barde était loyal à son roi et à la famille de ce dernier, et c'est pourquoi il employa les pouvoirs de sa harpe magique.
+
+A mesure qu'il jouait, il concentra d'abord son attention sur le roi. Sous l'influence de la musique, la magie d'immobilisation qui retenait le roi se dissipa, et le noble suzerain put sortir discrètement. L'un après l'autre, Methild libéra toute la famille royale, en prenant soin d'attirer sur lui toute l'attention des sorcières. Finalement, quand toute la famille royale fut libre, le barde ne put continuer à jouer, et les sorcières réalisèrent sa traîtrise. Contrairement à ses suzerains, le pauvre Methild ne put s'enfuir, et il fut servi à leurs places sur la table du dîner.
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Dissipation des effets de type immobilisation trois fois par jour
+  Portée : 7,5 mètres
+  Zone d'effet : 1 créature
+
+Poids : 6~
+@772 = ~Carreau paralysant~
+@773 = ~Toute cible touchée par ce carreau doit réussir un jet de sauvegarde contre la paralysie ou être étourdie pendant 5 rounds.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- la cible doit réussir un jet de sauvegarde contre la paralysie ou être étourdie pendant 5 rounds
+
+Dégâts : 1d10 (projectile)
+Arme de jet : arbalète
+
+Poids : 1~
+@774 = ~Arc Court de Gesen~

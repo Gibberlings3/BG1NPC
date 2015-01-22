@@ -1,0 +1,10 @@
+IF
+  Global("X#EraseEnderJournal","GLOBAL",0)
+  Dead("Davaeorn")
+  GlobalGT("Chapter","GLOBAL",4)
+THEN
+RESPONSE #100
+  SetGlobal("X#EraseEnderJournal","GLOBAL",1)
+  EraseJournalEntry(@72)
+  EraseJournalEntry(@73)
+END

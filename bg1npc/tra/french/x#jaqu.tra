@@ -181,7 +181,7 @@ Nous avons rencontré une vieille connaissance de Jaheira, aujourd'hui. Ce vieux 
 
 Nous avons rencontré une vieille connaissance de Jaheira, aujourd'hui. Bien que nous ayons tué un chasseur qui menaçait son groupe, le vieux fou n'a pas été très heureux que je décide de continuer ma route sans aider davantage les druides. Certains membres du groupe ont été mécontents, eux aussi, et ont pris la décision de nous quitter, sans remerciements ni félicitations.~
 @162 = ~Je vous enjoins de chercher Beador et Maretha, si vous êtes des amis des druides de Bois-Manteau.~
-@163 = ~Des Ombres dans Bois Manteau.
+@163 = ~Des Ombres dans Bois Manteau
 
 Nous avons accepté une quête visant à aider les druides de Bois Manteau. Seniyad, une vieille connaissance de Jaheira, nous a envoyés découvrir ce qui est arrivé à Beador et Maretha. Nous pensons que le chef des Druides de l'Ombre de Bois Manteau, Amarande, a un nouveau partenaire, Andarthe. Beador et Maretha sont probablement tombés dans les griffes de l'un de ces Archidruides de l'Ombre. Nous pourrions avoir à contourner leur arbre fortifié pour trouver l'île où ils tiennent leurs réunions secrètes.~
 @164 = ~Ah, vous voilà ! J'ai appris que vous aviez administré une punition appropriée à ces vils corrupteurs de nos vraies croyances. Maretha m'a tout dit et m'a révélé le nom de deux de nos membres de haut rang, liés au Cercle de l'Ombre. Leur châtiment a été rapide et adéquat. Nous avons porté un coup important aux Druides de l'Ombre et récupérer notre forêt sacrée n'est plus qu'une question de temps, désormais.~
@@ -218,3 +218,7 @@ Avec l'aide de Jaheira, j'ai réussi à dissuader les druides qui menaçaient Aldet
 @187 = ~Aldeth Sashenstar
 
 Avec l'aide de Jaheira, j'ai réussi à dissuader les druides qui menaçaient Aldeth Sashenstar. Il n'a pas eu l'air très content, cela dit, et est parti rapidement.~
+// BGEE 26820 (laisser identique au texte de BGEE, ne pas corriger)
+@188 = ~Aldeth Sashenstar
+J'ai accepté d'aider Aldeth Sashenstar, noble de la Porte de Baldur, à combattre une bande de sauvages. ~
+@999  = ~Des Ombres dans Bois-Manteau~

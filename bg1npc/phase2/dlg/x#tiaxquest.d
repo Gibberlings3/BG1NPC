@@ -187,7 +187,7 @@ END
 ++ @59 EXTERN ~X#BELGIN~ X#TiaxQuestStartSeven
 ++ @60  EXTERN ~X#BELGIN~ X#TiaxQuestStartSix
 + ~InParty("montaron") InMyArea("montaron") !StateCheck("montaron",CD_STATE_NOTVALID) InParty("xzar") InMyArea("xzar") !StateCheck("xzar",CD_STATE_NOTVALID)~ + @61 EXTERN ~X#BELGIN~ X#TiaxQuestStartSix
-++ @62 DO ~SetGlobal("X#BelginPlacement","GLOBAL",5) ActionOverride("x#belgin",Enemy()) ActionOverride("x#belgin",EscapeArea())~ JOURNAL @63 EXIT
+++ @62 DO ~EraseJournalEntry(@10) EraseJournalEntry(@25) SetGlobal("X#BelginPlacement","GLOBAL",5) ActionOverride("x#belgin",Enemy()) ActionOverride("x#belgin",EscapeArea())~ SOLVED_JOURNAL @63 EXIT
 /* EXIT state: "X#TiaxQuest","GLOBAL",2 | "X#BelginPlacement","GLOBAL",5 */
 
 APPEND ~X#BELGIN~
@@ -212,7 +212,7 @@ APPEND ~X#BELGIN~
 
 IF ~~ X#TiaxQuestStartSix
 SAY @71
-IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",5) ActionOverride("x#belgin",EscapeArea())~ JOURNAL @72 EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10) EraseJournalEntry(@25) SetGlobal("X#BelginPlacement","GLOBAL",5) ActionOverride("x#belgin",EscapeArea())~ SOLVED_JOURNAL @72 EXIT
 END
 /* EXIT state: "X#TiaxQuest","GLOBAL",2 | "X#BelginPlacement","GLOBAL",5 */
 
@@ -259,7 +259,7 @@ CHAIN ~X#BELGIN~ X#TiaxQuestEndBlackmail
 == ~%VICONIA_BANTER%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @104
 == ~%SHARTEEL_BANTER%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @105
 END
-IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",5) ActionOverride("x#belgin",GivePartyGold(500)) ActionOverride("x#belgin",EscapeArea())~ JOURNAL @106 EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10) EraseJournalEntry(@25) SetGlobal("X#BelginPlacement","GLOBAL",5) ActionOverride("x#belgin",GivePartyGold(500)) ActionOverride("x#belgin",EscapeArea())~ SOLVED_JOURNAL @106 EXIT
 /* EXIT state: "X#TiaxQuest","GLOBAL",2 | "X#BelginPlacement","GLOBAL",5 */
 
 CHAIN ~X#BELGIN~ X#TiaxQuestStartBlackmail
@@ -276,26 +276,26 @@ CHAIN ~X#BELGIN~ X#TiaxQuestStartBlackmail
 == ~%VICONIA_BANTER%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @104
 == ~%SHARTEEL_BANTER%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @105
 END
-IF ~~ THEN DO ~SetGlobal("X#TiaxQuestBlackmail","GLOBAL",1) ActionOverride("x#belgin",GivePartyGold(500)) SetGlobal("X#BelginPlacement","GLOBAL",7)~ JOURNAL @112 EXIT
+IF ~~ THEN DO ~SetGlobal("X#TiaxQuestBlackmail","GLOBAL",1) ActionOverride("x#belgin",GivePartyGold(500)) SetGlobal("X#BelginPlacement","GLOBAL",7)~ UNSOLVED_JOURNAL @112 EXIT
 /* EXIT state: "X#TiaxQuestBlackmail","GLOBAL",1 "X#BelginPlacement","GLOBAL",7 "X#TiaxQuest","GLOBAL",2 */
 
 APPEND ~X#BELGIN~
 
 IF ~~ THEN X#TiaxQuestStartEight
 SAY @113 
-IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",7)~ JOURNAL @114 EXIT
+IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",7)~ UNSOLVED_JOURNAL @114 EXIT
 END
 /* EXIT state: "X#BelginPlacement","GLOBAL",7 "X#TiaxQuest","GLOBAL",2 */
 
 IF ~~ THEN X#TiaxQuestStartNine
 SAY @115
-IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",7)~ JOURNAL @114 EXIT
+IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",7)~ UNSOLVED_JOURNAL @114 EXIT
 END
 /* EXIT state: "X#BelginPlacement","GLOBAL",7 "X#TiaxQuest","GLOBAL",2 */
 
 IF ~~ THEN X#TiaxQuestStartTen
 SAY @116
-IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",7)~ JOURNAL @114 EXIT
+IF ~~ THEN DO ~SetGlobal("X#BelginPlacement","GLOBAL",7)~ UNSOLVED_JOURNAL @114 EXIT
 END
 /* EXIT state: "X#BelginPlacement","GLOBAL",7 "X#TiaxQuest","GLOBAL",2 */
 
@@ -515,7 +515,8 @@ ActionOverride("X#TQBH1",Enemy())
 ActionOverride("X#TQBH2",Enemy())
 ActionOverride("X#TQBH3",Enemy())
 ActionOverride("X#TQBH4",Enemy())
-SetGlobal("X#TiaxQuestBattle","GLOBAL",1) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @218 EXIT
+EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114) 
+SetGlobal("X#TiaxQuestBattle","GLOBAL",1) SetGlobal("X#TiaxQuest","GLOBAL",5)~ SOLVED_JOURNAL @218 EXIT
 
 /* EXIT state = "X#TiaxQuest","GLOBAL",5 (finished) "X#TiaxQuestBattle","GLOBAL",1 */
 
@@ -569,23 +570,23 @@ END
 CHAIN ~X#KARRIS~ X#TiaxQuestKarrisNine
 @248
 END
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500)~ JOURNAL @250 EXIT
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @374 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500)~ JOURNAL @250 EXIT
-+ ~Dead("x#belgin")~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500)~ JOURNAL @251 EXIT
-+ ~Dead("x#belgin")~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500)~ JOURNAL @374 EXIT 
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500)~ JOURNAL @252 EXIT
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @374 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500)~ JOURNAL @252 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @250 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @374 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @250 EXIT
++ ~Dead("x#belgin")~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @251 EXIT
++ ~Dead("x#belgin")~ + @374 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @251 EXIT 
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @249 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @252 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @374 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#BelginPlacement","GLOBAL",11) SetGlobal("X#KarrisPlacement","GLOBAL",2) GiveGoldForce(1500) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @252 EXIT
 /* exit condition X#KarrisPlacement","GLOBAL",2 "X#TiaxQuest","GLOBAL",5 "X#BelginPlacement","GLOBAL",11 Belgin vanishes from Helm and Cloak */
 
 CHAIN ~X#KARRIS~ X#TiaxQuestKarrisTen
 @253 
 END
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @249 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @254 EXIT
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @374 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @254 EXIT
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @249 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @255 EXIT
-+ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @374 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @255 EXIT
-+ ~Dead("x#belgin")~ + @249 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @256 EXIT
-+ ~Dead("x#belgin")~ + @374 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5)~ JOURNAL @256 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @249 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @254 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",0)~ + @374 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @254 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @249 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @255 EXIT
++ ~!Dead("x#belgin") Global("X#TiaxQuestBlackmail","GLOBAL",1)~ + @374 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @255 EXIT
++ ~Dead("x#belgin")~ + @249 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @256 EXIT
++ ~Dead("x#belgin")~ + @374 DO ~SetGlobal("X#KarrisPlacement","GLOBAL",2) SetGlobal("X#TiaxQuest","GLOBAL",5) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @256 EXIT
 
 /* exit condition X#KarrisPlacement","GLOBAL",2 "X#TiaxQuest","GLOBAL",5 */
 
@@ -599,7 +600,7 @@ CHAIN ~X#KARRIS~ X#TiaxQuestKarrisDenial
 == ~%GARRICK_BANTER%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @263
 == ~%ELDOTH_BANTER%~ IF ~InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @264
 == ~%AJANTIS_BANTER%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @265
-== ~%IMOEN_BANTER%~ IF ~InParty("imoen") InMyArea("imoen") !StateCheck("imoen",CD_STATE_NOTVALID)~ THEN @266
+== ~%IMOEN_BANTER%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @266
 == ~%FALDORN_BANTER%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @267
 == ~%XAN_BANTER%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @268
 == ~%KAGAIN_BANTER%~ IF ~InParty("kagain") InMyArea("kagain") !StateCheck("kagain",CD_STATE_NOTVALID)~ THEN @269
@@ -632,7 +633,7 @@ CHAIN ~X#KARRIS~ X#TiaxQuestKarrisEleven
 == ~%GARRICK_BANTER%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @291
 == ~%ELDOTH_BANTER%~ IF ~InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @292
 == ~%AJANTIS_BANTER%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @293
-== ~%IMOEN_BANTER%~ IF ~InParty("imoen") InMyArea("imoen") !StateCheck("imoen",CD_STATE_NOTVALID)~ THEN @294
+== ~%IMOEN_BANTER%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @294
 == ~%FALDORN_BANTER%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @295
 == ~%XAN_BANTER%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @296
 == ~%KAGAIN_BANTER%~ IF ~InParty("kagain") InMyArea("kagain") !StateCheck("kagain",CD_STATE_NOTVALID)~ THEN @297
@@ -649,10 +650,10 @@ CHAIN ~X#KARRIS~ X#TiaxQuestKarrisEleven
 == ~%SHARTEEL_BANTER%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @308
 //Deleted Alora reaction. Just couldn't think of anything even remotely suitable.
 END
-++ @309 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#KarrisPlacement","GLOBAL",2)~ JOURNAL @254 EXIT
-+ ~!Dead("x#belgin")~ + @310 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#KarrisPlacement","GLOBAL",2)~ JOURNAL @254 EXIT
+++ @309 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#KarrisPlacement","GLOBAL",2) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @254 EXIT
++ ~!Dead("x#belgin")~ + @310 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#KarrisPlacement","GLOBAL",2) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @254 EXIT
 ++ @311 EXTERN ~X#KARRIS~ X#TiaxQuestKarrisFour
-+ ~Dead("x#belgin")~ + @312 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#KarrisPlacement","GLOBAL",2)~ JOURNAL @313 EXIT
++ ~Dead("x#belgin")~ + @312 DO ~SetGlobal("X#TiaxQuest","GLOBAL",5) SetGlobal("X#KarrisPlacement","GLOBAL",2) EraseJournalEntry(@10) EraseJournalEntry(@25) EraseJournalEntry(@112) EraseJournalEntry(@114)~ SOLVED_JOURNAL @313 EXIT
 /* exit condition: "X#TiaxQuest","GLOBAL",5 "X#KarrisPlacement","GLOBAL",2 potentially out to battle state */
 
 /* Tiax Quest; Tiax Talks */

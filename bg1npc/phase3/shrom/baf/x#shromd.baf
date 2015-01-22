@@ -1,9 +1,9 @@
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#SharInterestTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 HPPercentGT(Player1,95)
 HPPercentGT("sharteel",95)
 Global("X#SharInterestTalk","GLOBAL",1)
@@ -19,12 +19,12 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#SharInterestTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 Global("X#SharInterestTalk","GLOBAL",9)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 Global("X#SharInterest","GLOBAL",1)
 ReputationLT(Player1,11)
 THEN
@@ -37,13 +37,13 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#SharInterestTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 Global("X#SharInterest","GLOBAL",1)
 Global("X#SharInterestTalk","GLOBAL",25)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 ReputationLT(Player1,11)
 TimeOfDay(DAY)
 OR(20)
@@ -77,14 +77,14 @@ StartDialogueNoSet(Player1)
 END
 
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 RealGlobalTimerExpired("X#SharInterestTime","GLOBAL")
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
 OR(2)
 Global("X#SharInterestTalk","GLOBAL",35)
 Global("X#SharInterestTalk","GLOBAL",37)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 ReputationLT(Player1,11)
 InParty(Player4)
 Global("X#SharMatch","GLOBAL",1)
@@ -100,6 +100,9 @@ END
 
 /* Ring Talk */
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 PartyHasItem("%tutu_var%RING15")
 Global("X#SharRing","GLOBAL",0)
 Global("X#SharMatch","GLOBAL",1)
@@ -108,9 +111,6 @@ OR(2)
 Global("X#SharInterest","GLOBAL",1)
 Global("X#SharInterest","GLOBAL",2)
 ReputationLT(Player1,11)
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
@@ -122,6 +122,9 @@ END
 
 /* Books Talk */
 IF %BGT_VAR%
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
 Global("X#SharBook","GLOBAL",0)
 Global("X#SharInterest","GLOBAL",2)
 RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
@@ -131,9 +134,6 @@ PartyHasItem("%tutu_var%BOOK35")
 PartyHasItem("%tutu_var%BOOK36")
 PartyHasItem("%tutu_var%BOOK40")
 PartyHasItem("%tutu_var%BOOK41")
-InParty(Myself)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-!StateCheck(Myself,CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)

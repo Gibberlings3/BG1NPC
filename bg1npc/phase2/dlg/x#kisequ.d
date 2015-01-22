@@ -148,4 +148,4 @@ CHAIN ~%KIVAN_JOINED%~ SeasnakeFinal1
 == X#KETH @66
 = @67
 END
-IF ~~ THEN DO ~SetGlobal("X#KivanSea","GLOBAL",7) EscapeArea() ActionOverride("seasnake",DestroySelf())~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#KivanSea","GLOBAL",7) ActionOverride("seasnake",DestroySelf()) EscapeArea()~ EXIT

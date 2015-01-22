@@ -1,0 +1,9 @@
+IF
+	NumTimesTalkedTo(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

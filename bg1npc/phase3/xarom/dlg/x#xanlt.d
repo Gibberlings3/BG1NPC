@@ -1,6 +1,8 @@
 /* P dialogue patching */
 
-ADD_STATE_TRIGGER ~%XAN_POST%~ 4 ~OR(3) Global("X#XARomanceInactive","GLOBAL",1)
+ADD_STATE_TRIGGER %XAN_POST% %xanpstate3% ~!Global("X#XARomanceActive","GLOBAL",2)~
+
+ADD_STATE_TRIGGER ~%XAN_POST%~ %xanpstate4% ~OR(3) Global("X#XARomanceInactive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",1)
 Global("X#XARomanceActive","GLOBAL",0)~
 

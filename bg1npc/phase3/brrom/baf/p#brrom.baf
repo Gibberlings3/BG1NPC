@@ -13,6 +13,7 @@ Race(Player1,HALFORC)
 ReputationGT(Player1,9)
 CheckStatGT(Player1,9,STR)
 CheckStatGT(Player1,9,CON)
+!HasItemEquiped("%tutu_var%BELT05",Player1) //girdle of gender bender
 THEN
 RESPONSE #100
 SetGlobal("P#BranMatch","GLOBAL",1)

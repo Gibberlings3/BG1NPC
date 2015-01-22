@@ -6,11 +6,35 @@ IF ~%BGT_VAR% Global("%KICKED_OUT%","LOCALS",1) Global("X#AjantisRomanceMatch","
 SAY @71
 IF ~~ THEN REPLY @72 GOTO return_romance_01
 IF ~~ THEN REPLY @73 GOTO 1
+IF ~~ THEN REPLY @75 GOTO wait_at_fai
+IF ~Global("EnteredBeregost","GLOBAL",1)~ THEN REPLY @76 GOTO wait_at_juggler
+IF ~GlobalGT("Chapter","GLOBAL",1)~ THEN REPLY @77 GOTO wait_at_nashkel
+IF ~Global("EnteredBaldursGate","GLOBAL",1)~ THEN REPLY @78 GOTO wait_at_elfsong
 END
 
 IF ~~ THEN return_romance_01
 SAY @74
 IF ~~ THEN EXIT
+END
+
+IF ~~ THEN wait_at_fai
+SAY @79
+IF ~~ DO ~EscapeAreaMove("%FriendlyArmInn_L1%",766,966,0)~ EXIT
+END
+
+IF ~~ THEN wait_at_juggler
+SAY @80
+IF ~~ DO ~EscapeAreaMove("%Beregost_JovialJuggler_L1%",824,961,0)~ EXIT
+END
+
+IF ~~ THEN wait_at_nashkel
+SAY @81
+IF ~~ DO ~EscapeAreaMove("%Nashkel_Inn%",602,463,0)~ EXIT
+END
+
+IF ~~ THEN wait_at_elfsong
+SAY @82
+IF ~~ DO ~EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",537,704,0)~ EXIT
 END
 
 END

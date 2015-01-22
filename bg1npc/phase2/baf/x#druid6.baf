@@ -1,0 +1,48 @@
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_PROTECT_FROM_EVIL) // SPPR107.SPL (Protection From Evil)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_PROTECT_FROM_EVIL) // SPPR107.SPL (Protection From Evil)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SUMMON_INSECTS) // SPPR319.SPL (Summon Insects)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_SUMMON_INSECTS) // SPPR319.SPL (Summon Insects)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHARM_PERSON) // SPPR204.SPL (Charm Person or Mammal)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON) // SPPR204.SPL (Charm Person or Mammal)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_BLADE) // SPPR206.SPL (Flame Blade)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE) // SPPR206.SPL (Flame Blade)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

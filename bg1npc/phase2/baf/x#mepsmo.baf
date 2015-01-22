@@ -1,0 +1,30 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("smokemephitcombat","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_INVISIBILITY)
+		IncrementGlobal("smokemephitcombat","LOCALS",1)
+		MoveToObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),MEPHIT_SOOTY_BALL)
+END
+
+IF
+	Delay(12)
+	See(NearestEnemyOf(Myself))
+	GlobalLT("smokemephitcombat","LOCALS",6)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),MEPHIT_SOOTY_BALL)
+		IncrementGlobal("smokemephitcombat","LOCALS",1)
+		AttackOneRound(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

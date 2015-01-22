@@ -383,7 +383,7 @@ INTERJECT ~%tutu_var%TEVEN~ 0 X#KivanTeven
  == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) !Dead("tazok")~ THEN @84
 == ~%tutu_var%TEVEN~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) !Dead("tazok")~ THEN @85
 END
-IF ~~ THEN DO ~Shout(1) Enemy()~ SOLVED_JOURNAL @86
+IF ~~ THEN DO ~Shout(1) Enemy()~ JOURNAL @86
 EXIT
 
 //I_C_T ~%tutu_var%RAIKEN~ 0 X#KivanRaiken
@@ -598,7 +598,7 @@ ActionOverride("raiken",Enemy())
 SetGlobal("JoinedBandits","GLOBAL",0)
 ActionOverride("banditcr",Enemy())
 EscapeArea()
-SetGlobal("X#KBCTE","GLOBAL",1)~ UNSOLVED_JOURNAL @133 EXIT
+SetGlobal("X#KBCTE","GLOBAL",1)~ JOURNAL @133 EXIT
 END
 
 IF ~~ THEN KivTazok3

@@ -379,7 +379,7 @@ DO ~SetGlobal("X#JAKH3","LOCALS",1)~
 == ~%KHALID_BANTER%~ @167
 EXIT
 
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% CombatCounter(0) InParty("khalid") Global("X#JAKH4","LOCALS",0) !See([ENEMY]) See("khalid") !StateCheck("khalid",CD_STATE_NOTVALID) !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN ~%JAHEIRA_BANTER%~ JAKH4
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% CombatCounter(0) InParty("khalid") Global("X#JAKH4","LOCALS",0) !See([ENEMY]) See("khalid") !StateCheck("khalid",CD_STATE_NOTVALID) !StateCheck(Myself,CD_STATE_NOTVALID) AreaType(OUTDOOR) !AreaType(CITY)~ THEN ~%JAHEIRA_BANTER%~ JAKH4
 @168
 DO ~SetGlobal("X#JAKH4","LOCALS",1)~
 == ~%KHALID_BANTER%~ @169

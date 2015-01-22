@@ -33,7 +33,7 @@ THEN
         MultiPlayerSync()
         SaveGame(2)
         SmallWait(2)
-        StartMovie("%tutu_var%NDMOVIE")
+        StartMovie("%tutu_scripte%NDMOVIE")
         SmallWait(2)
         DisplayStringHead(Player1,@0) // Your half-brother Sarevok has fallen.  But rumors of your heritage have spread... Hounded by dark glances, you flee the city of Baldur's Gate.
         Wait(4)

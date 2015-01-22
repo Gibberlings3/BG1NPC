@@ -92,7 +92,7 @@
 @1092  = ~The BG1 NPC Project: Make Shar-Teel Unkillable Until In Party~
 @1093  = ~This component is only useful for Tutu installs.~
 @1094  = ~The BG1 NPC Project: Bardic Reputation Adjustment~
-@1095  = ~Incompatible with BGT & BG:EE: please use the equivalent component in Sword Coast Strategems for BGT & BG:EE.~
+@1095  = ~Incompatible with BGT: please use the equivalent component in Sword Coast Strategems for BGT.~
 @1096  = ~Romance [Dynaheir]~
 @1097  = ~Romance [Xan]~
 @1098  = ~Romance [Shar-Teel]~
@@ -125,5 +125,20 @@
 @1120  = ~Faizah Tin~
 @1121  = ~Rance~
 @1122  = ~Vail~
+@1123  = ~BGEE Banter Timing Tweak~
+@1124  = ~You already have the Banter Timing Tweak installed.~
+@1125  = "Please select one of the following options for banter timing:
+[1] Normal banter timing (~27 minutes between banter dialogs)
+[2] Faster banters (Banter dialogs occur ~50% faster)
+[3] Very fast banters (Banter dialogs occur twice as fast)
+[4] Slower banters (Banter dialogs occur ~50% slower)
+[5] Very slow banters (Banter dialogs occur twice as slow)"
+@1126  = ~Banter Timing: Normal~
+@1127  = ~Banter Timing: Fast~
+@1128  = ~Banter Timing: Very fast~
+@1129  = ~Banter Timing: Slow~
+@1130  = ~Banter Timing: Very slow~
 @5000  = ~BG:EE install detected.~
 @5001  = ~You must have BGT or TuTu installed for this component.~
+@5002  = ~You must have BGEE installed for this component.~
+@5003  = ~Incompatible with BGT and BGEE: please use the equivalent component in Sword Coast Strategems for BGT & BGEE.~

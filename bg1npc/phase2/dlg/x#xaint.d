@@ -70,7 +70,7 @@ I_C_T ~%tutu_var%MULAHE~ 0 X#XanMulahey1
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @12
 END
 
-I_C_T ~%tutu_var%MULAHE~ 1 X#XanMulahey2
+I_C_T2 ~%tutu_var%MULAHE~ 1 X#XanMulahey2
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @13
 END
 

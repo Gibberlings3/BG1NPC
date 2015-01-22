@@ -10,6 +10,7 @@ Global("P#CoranRomanceInactive","GLOBAL",1)
 OR(2)
 Race(Player1,ELF)
 Race(Player1,HALF_ELF)
+!HasItemEquiped("%tutu_var%BELT05",Player1) //girdle of gender bender
 THEN
 RESPONSE #100
 SetGlobal("X#XANMatch","GLOBAL",1)

@@ -194,7 +194,7 @@ DO ~ActionOverride("coran",ReallyForceSpellRES("SPPR102",Myself))~
 == ~%tutu_scriptd%URLYLE1~ @43
 DO ~SetGlobal("WillHelpEscape","GLOBAL",1) EscapeArea()~ 
 END
-IF ~~ THEN SOLVED_JOURNAL @44 EXIT
+IF ~~ THEN JOURNAL @44 EXIT
 
 ADD_TRANS_TRIGGER ~%tutu_scriptd%URLYLE1~ 58 ~OR(5) !InParty("coran") !InMyArea("coran") StateCheck("coran",CD_STATE_NOTVALID) !Global("P#CoranMatch","GLOBAL",1) Global("P#CoranRomanceInactive","GLOBAL",1)~
 ADD_TRANS_TRIGGER ~%tutu_scriptd%URLYLE1~ 59 ~OR(5) !InParty("coran") !InMyArea("coran") StateCheck("coran",CD_STATE_NOTVALID) !Global("P#CoranMatch","GLOBAL",1) Global("P#CoranRomanceInactive","GLOBAL",1)~
@@ -489,19 +489,29 @@ I_C_T ~%tutu_var%PALIN~ 5 X#VicPalin
 END
 
 I_C_T ~%tutu_var%TRACEA~ 1 X#VicTrac1
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 END
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 
+== ~%tutu_var%TRACEA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1013 
+END
 
 I_C_T ~%tutu_var%TRACEA~ 2 X#VicTrac2
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 END
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 
+== ~%tutu_var%TRACEA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1013 
+END
 
 I_C_T ~%tutu_var%TRACEA~ 3 X#VicTrac3
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 END
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 
+== ~%tutu_var%TRACEA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1013 
+END
 
 I_C_T ~%tutu_var%TRACEA~ 4 X#VicTrac4
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 END
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 
+== ~%tutu_var%TRACEA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1013 
+END
 
 I_C_T ~%tutu_var%TRACEA~ 5 X#VicTrac5
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 END
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @113 
+== ~%tutu_var%TRACEA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1013 
+END
 
 //I_C_T ~%tutu_var%WENRIC~ 1 X#VicWenric
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @114 

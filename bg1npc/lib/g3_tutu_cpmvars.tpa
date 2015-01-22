@@ -1,5 +1,5 @@
 /* Declaration of Tutu Platform Variables */
-  ACTION_IF GAME_IS ~tutu~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* tp2, d, and baf parsing variables based on conversion */
     OUTER_SPRINT "tutubgtbgee" "tutu"
     OUTER_SPRINT "bgdreams" "DREAM"
@@ -50,6 +50,15 @@
 
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
+    OUTER_SPRINT "tazokminhp" "TAZOKHP1"
+
+    /* Tutu/BGT vs BGEE Dialog states */
+    OUTER_SET firebeadstate1 = 1
+    OUTER_SET firebeadstate2 = 2
+    OUTER_SET hentolstate1 = 1
+    OUTER_SET housg3state0 = 0
+    OUTER_SET xanpstate3 = 3
+    OUTER_SET xanpstate4 = 4
 
      //BGT Dialogues always appended, zero for Tutu
      OUTER_SET BGTBEDWINState0 = 0
@@ -700,6 +709,7 @@
     OUTER_SPRINT "CloakwoodDr_PetersCave_BCS" "_AR1603"
     OUTER_SPRINT "CloakwoodNest_BCS" "_AR2100"
     OUTER_SPRINT "CloakwoodWyverns_BCS" "_AR1700"
+    OUTER_SPRINT "CloakwoodMines_L4_BCS" "_AR1803"
     OUTER_SPRINT "CoastWay_BCS" "_AR2800"
     OUTER_SPRINT "EarthChamber_BCS" "_AR0507"
     OUTER_SPRINT "ElfsongTavern_L1_BCS" "_AR0705"

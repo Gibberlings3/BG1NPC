@@ -7,5 +7,5 @@ CreateCreature("X#KABAND",[3898.2611],3)
 CreateCreature("X#BANDK1",[3928.2515],3)
 CreateCreature("X#BANDK2",[3838.2681],3)
 CreateCreature("X#BANDK3",[3970.2677],3)
-CreateCreature("BURN01",[3895.2677],3)
+CreateCreature("X#BURN01",[3895.2677],3)
 END

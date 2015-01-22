@@ -3,12 +3,12 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     /* tp2, d, and baf parsing variables */
     OUTER_SPRINT "tutubgtbgee" "bgee"
     OUTER_SPRINT "bgdreams" "DREAM"
-    OUTER_SPRINT "bgdream1" "1"
-    OUTER_SPRINT "bgdream2" "2"
-    OUTER_SPRINT "bgdream3" "3"
-    OUTER_SPRINT "bgdream4" "4"
-    OUTER_SPRINT "bgdream5" "5"
-    OUTER_SPRINT "bgdream6" "6"
+    OUTER_SPRINT "bgdream1" "2"
+    OUTER_SPRINT "bgdream2" "3"
+    OUTER_SPRINT "bgdream3" "4"
+    OUTER_SPRINT "bgdream4" "5"
+    OUTER_SPRINT "bgdream5" "6"
+    OUTER_SPRINT "bgdream6" "7"
     OUTER_SPRINT "tutu_var" ""
     OUTER_SPRINT "tutu_scripta" "A"
     OUTER_SPRINT "tutu_scriptb" "B"
@@ -47,6 +47,15 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
+    OUTER_SPRINT "tazokminhp" "MIHP1"
+
+    /* Tutu/BGT vs BGEE Dialog states */
+    OUTER_SET firebeadstate1 = 3
+    OUTER_SET firebeadstate2 = 1
+    OUTER_SET hentolstate1 = 12
+    OUTER_SET housg3state0 = 1
+	OUTER_SET xanpstate3 = 1
+    OUTER_SET xanpstate4 = 0
 
      //BGT Dialogues always appended, zero for Tutu and BG:EE
      OUTER_SET BGTBEDWINState0 = 0
@@ -89,13 +98,13 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "ALORA_POST" "ALORAP"
     OUTER_SPRINT "BRANWEN_POST" "BRANWP"
     OUTER_SPRINT "CORAN_POST" "CORANP"
-    OUTER_SPRINT "DYNAHEIR_POST" "DYNAP"
+    OUTER_SPRINT "DYNAHEIR_POST" "DYNAHP"
     OUTER_SPRINT "EDWIN_POST" "EDWINP"
     OUTER_SPRINT "ELDOTH_POST" "ELDOTP"
     OUTER_SPRINT "FALDORN_POST" "FALDOP"
     OUTER_SPRINT "GARRICK_POST" "GARRIP"
     OUTER_SPRINT "IMOEN_POST" "IMOENP"
-    OUTER_SPRINT "JAHEIRA_POST" "JAHEIRAP"
+    OUTER_SPRINT "JAHEIRA_POST" "JAHEIP"
     OUTER_SPRINT "KAGAIN_POST" "KAGAIP"
     OUTER_SPRINT "KHALID_POST" "KHALIP"
     OUTER_SPRINT "KIVAN_POST" "KIVANP"
@@ -106,7 +115,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "SHARTEEL_POST" "SHARTP"
     OUTER_SPRINT "SKIE_POST" "SKIEP"
     OUTER_SPRINT "TIAX_POST" "TIAXP"
-    OUTER_SPRINT "VICONIA_POST" "VICONIP"
+    OUTER_SPRINT "VICONIA_POST" "VICONP"
     OUTER_SPRINT "XAN_POST" "XANP"
     OUTER_SPRINT "XZAR_POST" "XZARP"
     OUTER_SPRINT "YESLICK_POST" "YESLIP"
@@ -250,8 +259,8 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "SWBaldursGate_MerchantLeague_L1" "AR0127"
     OUTER_SPRINT "SWBaldursGate_MerchantLeague_L2" "AR0128"
     OUTER_SPRINT "SWBaldursGate_MerchantLeague_L3" "AR0129"
-    OUTER_SPRINT "WBaldursGate_HalloARonders" "AR0130"
-    OUTER_SPRINT "WBaldursGate_HighHouseoARonders" "AR0131"
+    OUTER_SPRINT "WBaldursGate_HallofWonders" "AR0130"
+    OUTER_SPRINT "WBaldursGate_HighHouseofWonders" "AR0131"
     OUTER_SPRINT "WBaldursGate_LadysHouse" "AR0132"
     OUTER_SPRINT "BaldursGate_DocksLowLantern_D1" "AR0133"
     OUTER_SPRINT "BaldursGate_DocksLowLantern_D2" "AR0134"
@@ -353,8 +362,8 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "EBaldursGate_House6_L2" "AR0802"
     OUTER_SPRINT "EBaldursGate_MaltzWeaponShop_L1" "AR0803"
     OUTER_SPRINT "EBaldursGate_MaltzWeaponShop_L2" "AR0804"
-    OUTER_SPRINT "EBaldursGateARkionsHouse_L1" "AR0805"
-    OUTER_SPRINT "EBaldursGateARkionsHouse_L2" "AR0806"
+	OUTER_SPRINT "EBaldursGate_ArkionsHouse_L1" "AR0805"
+	OUTER_SPRINT "EBaldursGate_ArkionsHouse_L2" "AR0806"
     OUTER_SPRINT "EBaldursGate_Inn_L1" "AR0807"
     OUTER_SPRINT "EBaldursGate_Inn_L2" "AR0808"
     OUTER_SPRINT "EBaldursGate_SilencesShop" "AR0809"
@@ -454,7 +463,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "FriendlyArmInn_L1" "AR2301"
     OUTER_SPRINT "FriendlyArmInn_L2" "AR2302"
     OUTER_SPRINT "FriendlyArmInn_L3" "AR2303"
-    OUTER_SPRINT "FriendlyArmInn_TempleoARisdom" "AR2304"
+    OUTER_SPRINT "FriendlyArmInn_TempleofWisdom" "AR2304"
     OUTER_SPRINT "FriendlyArmInn_House" "AR2305"
     OUTER_SPRINT "FriendlyArmInn_JoiasHouse" "AR2306"
     OUTER_SPRINT "Peldvale" "AR2400"
@@ -599,7 +608,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "Nashkel_BelchingDragonTavern" "AR4809"
     OUTER_SPRINT "Nashkel_Garrison" "AR4810"
     OUTER_SPRINT "NashkelCarnival" "AR4900"
-    OUTER_SPRINT "NashkelCarnivalArmorTent" "AR4901"
+    OUTER_SPRINT "NashkelCarnival_ArmorTent" "AR4901"
     OUTER_SPRINT "NashkelCarnival_LotusTent" "AR4902"
     OUTER_SPRINT "NashkelCarnival_VitiaresTent" "AR4903"
     OUTER_SPRINT "NashkelCarnival_GamblingTent" "AR4904"
@@ -697,6 +706,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "CloakwoodDr_PetersCave_BCS" "AR1603"
     OUTER_SPRINT "CloakwoodNest_BCS" "AR2100"
     OUTER_SPRINT "CloakwoodWyverns_BCS" "AR1700"
+    OUTER_SPRINT "CloakwoodMines_L4_BCS" "AR1803"
     OUTER_SPRINT "CoastWay_BCS" "AR2800"
     OUTER_SPRINT "EarthChamber_BCS" "AR0507"
     OUTER_SPRINT "ElfsongTavern_L1_BCS" "AR0705"

@@ -53,7 +53,7 @@ CHAIN ~%tutu_var%BRILLA~ X#BrillaEddardDeath
 == ~%ELDOTH_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @22
 == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @23
 END
-IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) TakePartyItem("X#SILSH") DestroyItem("X#SILSH") AddexperienceParty(3000) ActionOverride("brilla",EscapeArea())~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) TakePartyItem("X#SILSH") DestroyItem("X#SILSH") AddexperienceParty(3000) EraseJournalEntry(@33) EraseJournalEntry(@35) EraseJournalEntry(@44) EraseJournalEntry(@48) ActionOverride("brilla",EscapeArea())~ SOLVED_JOURNAL @49 EXIT
 
 
 APPEND ~%tutu_var%KAGAIN~
@@ -74,8 +74,8 @@ END
 
 IF ~~ THEN BEGIN X#KagBandResolvAlone
 SAY @31
-IF ~~ THEN REPLY @32 DO ~EraseJournalEntry(@35) EraseJournalEntry(@44) SetGlobal("X#KagainCaravan","GLOBAL",5)~ JOURNAL @33  GOTO X#KAQUDISMISS
-IF ~~ THEN REPLY @34 DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) SetGlobal("X#KagainCaravan","GLOBAL",5)~ JOURNAL @35  GOTO X#KAQUREWARDALONE
+IF ~~ THEN REPLY @32 DO ~EraseJournalEntry(@35) EraseJournalEntry(@44) EraseJournalEntry(@48) SetGlobal("X#KagainCaravan","GLOBAL",5)~ UNSOLVED_JOURNAL @33  GOTO X#KAQUDISMISS
+IF ~~ THEN REPLY @34 DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) SetGlobal("X#KagainCaravan","GLOBAL",5)~ UNSOLVED_JOURNAL @35  GOTO X#KAQUREWARDALONE
 END
 
 IF ~~ THEN BEGIN X#KAQUREWARDALONE
@@ -107,22 +107,22 @@ END
 
 IF ~~ THEN BEGIN X#KAQUDISMISSParty
 SAY @43
-IF ~~ THEN DO ~LeaveParty() ChangeAIScript("",DEFAULT) SetGlobal("%KICKED_OUT%","LOCALS",1) SetLeavePartyDialogFile() EraseJournalEntry(@33) EraseJournalEntry(@35)~ JOURNAL @44 EXIT
+IF ~~ THEN DO ~LeaveParty() ChangeAIScript("",DEFAULT) SetGlobal("%KICKED_OUT%","LOCALS",1) SetLeavePartyDialogFile() EraseJournalEntry(@33) EraseJournalEntry(@35) EraseJournalEntry(@48)~ UNSOLVED_JOURNAL @44 EXIT
 END
 
 IF ~~ THEN BEGIN X#KAQUREWARDParty
   SAY @45
-  IF ~NumInParty(6)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) GiveGoldForce(75) JoinParty()~ JOURNAL @35 EXIT
-  IF ~NumInParty(5)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) GiveGoldForce(60) JoinParty()~ JOURNAL @35 EXIT
-  IF ~NumInParty(4)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) GiveGoldForce(45) JoinParty()~ JOURNAL @35 EXIT
-  IF ~NumInParty(3)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) GiveGoldForce(30) JoinParty()~ JOURNAL @35 EXIT
-  IF ~NumInParty(2)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) GiveGoldForce(15) JoinParty()~ JOURNAL @35 EXIT
-  IF ~NumInParty(1)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) GiveGoldForce(15) JoinParty()~ JOURNAL @35 EXIT
+  IF ~NumInParty(6)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) GiveGoldForce(75) JoinParty()~ UNSOLVED_JOURNAL @35 EXIT
+  IF ~NumInParty(5)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) GiveGoldForce(60) JoinParty()~ UNSOLVED_JOURNAL @35 EXIT
+  IF ~NumInParty(4)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) GiveGoldForce(45) JoinParty()~ UNSOLVED_JOURNAL @35 EXIT
+  IF ~NumInParty(3)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) GiveGoldForce(30) JoinParty()~ UNSOLVED_JOURNAL @35 EXIT
+  IF ~NumInParty(2)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) GiveGoldForce(15) JoinParty()~ UNSOLVED_JOURNAL @35 EXIT
+  IF ~NumInParty(1)~ THEN DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) GiveGoldForce(15) JoinParty()~ UNSOLVED_JOURNAL @35 EXIT
 END
 
 END
 
-EXTEND_BOTTOM ~%tutu_var%HOUSG3~ 0
+EXTEND_BOTTOM ~%tutu_var%HOUSG3~ %housg3state0%
 IF ~OR(2) Global("X#KagainCaravan","GLOBAL",5) PartyHasItem("X#SILSH")~ THEN REPLY @46 GOTO X#SilverGuardPass
 END
 
