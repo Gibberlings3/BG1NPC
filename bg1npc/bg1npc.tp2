@@ -2416,7 +2416,7 @@ BEGIN @1007
   /* General use scripts */
   COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#gpsht.baf~ 
   COMPILE ~bg1npc/phase2/baf/x#shout6.baf~
-  COMPILE ~bg1npc/phase2/baf/x#fight2.baf~ 
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#fight2.baf~ 
 
 	  
  /* -JW-'s Edwin vs Denak fix */ 
@@ -3139,7 +3139,7 @@ BEGIN @1007
     USING ~BG1NPC/TRA/%LANGUAGE%/X#DAV01.TRA~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#DAVID.BAF~
     USING ~BG1NPC/TRA/%LANGUAGE%/X#DAVID.TRA~
-  COMPILE ~bg1npc/phase2/baf/x#davidx.baf~  /* Combat script for David Jansen */
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#davidx.baf~  /* Combat script for David Jansen */
 
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* Add sound files for x#cru11 and x#chop */
 	COPY ~bg1npc/phase2/wav/x#ogref1.wav~ ~override~
@@ -3276,7 +3276,7 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#XQCUT.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#SKODD.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XQXAN.D~
-  COMPILE ~BG1NPC/phase2/baf/x#xqmerx.baf~
+  COMPILE EVALUATE_BUFFER ~BG1NPC/phase2/baf/x#xqmerx.baf~
      
  /* Garrick's Quest */
 
@@ -3490,21 +3490,34 @@ BEGIN @1007
     SAY UNIDENTIFIED_DESC @236
     SAY DESC @236
 
+  /* Wings for Amelia - from 1pp Attachable Wings by Erephine */
+  ACTION_IF !(FILE_EXISTS_IN_GAME ~WQMZWA1.BAM~) THEN BEGIN
+  	COPY ~bg1npc/phase2/wings/bam~ ~override~
+  END
 
+  COPY ~bg1npc/phase2/itm/x#sucwng.itm~ ~override~ // Succubus wings
+  COPY ~bg1npc/phase2/itm/x#succlw.itm~ ~override~ // Succubus claws
+  COPY ~bg1npc/phase2/spl/x#ameth.spl~ ~override~ // Ethereal Jaunt
+  COPY ~bg1npc/phase2/spl/x#amwng.spl~ ~override~ // Succubus shapechange wings
+  COPY ~bg1npc/phase2/spl/x#ambln.spl~ ~override~ // Succubus darkness (blindness)
+  
   /* creatures */
   /* Amelia */
   COPY ~BG1NPC/Phase2/cre/CAMW3G1.BAM~ ~override~
   COPY ~BG1NPC/Phase2/cre/x#amelia.cre~ ~override~
     SAY NAME1 @237
     SAY NAME2 @237
+    SAY INITIAL_MEETING @775 // Sirine sing
     SAY BATTLE_CRY1 @738 // [VAMPF02]
+    SAY ATTACK1 @739 // [VAMPF03]
     SAY DAMAGE @742 // [VAMPF06]
     SAY DYING @743 // [VAMPF07]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
-    ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~LRING~
-    ADD_CRE_ITEM ~%tutu_var%CLCK12~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
-    WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
-
+    ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~BOOTS~
+	WRITE_ASCII 0x250 ~X#AMELIX~ #8
+    ADD_CRE_ITEM ~X#SUCCLW~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
+	WRITE_ASCII 0x250 ~X#AMELIX~ #8
+	
   /* Natan */
   COPY ~BG1NPC/Phase2/cre/x#natan.cre~ ~override~
       LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
@@ -3563,8 +3576,9 @@ BEGIN @1007
       EVALUATE_BUFFER
   EXTEND_TOP  ~%FirewineRuins_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW5201.BAF~
       EVALUATE_BUFFER
-
+  
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#AMELIA.BAF~
+  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#AMELIX.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#RASHEL.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#NATAN.BAF~
 

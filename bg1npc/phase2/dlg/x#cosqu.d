@@ -344,7 +344,7 @@ END
 
 IF ~~ AMRE2.3
 SAY @124
-IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",17) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy() ActionOverride("coran",Enemy()) ActionOverride("natan",Enemy())~ EXIT
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",17) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy() ActionOverride("coran",Enemy()) ActionOverride("natan",Enemy())~ EXIT
 END
 
 IF ~~ AMRE2.4F
@@ -372,7 +372,7 @@ END
 
 IF ~~ AMRE2.7
 SAY @132
-IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) Kill(Player1)~ EXIT
+IF ~~ THEN DO ~MoveToObject(Player1) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 END
 
 IF ~~ AMRE2.8
@@ -406,7 +406,7 @@ SAY @145
 ++ @146 DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",12)~ + AMRE1.12
 ++ @147 + AMRE1.7
 ++ @144 + AMRE1.7
-+ ~!InParty("coran")~ + @148 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) Kill(Player1)~ EXIT
++ ~!InParty("coran")~ + @148 DO ~MoveToObject(Player1) SetGlobal("X#CoranSuccubus","GLOBAL",12) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 + ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ + @148 EXTERN ~%CORAN_JOINED%~ AMRE1.8A
 END
 
@@ -419,7 +419,7 @@ END
 
 IF ~~ AMRE1.3
 SAY @152
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.4
@@ -431,7 +431,7 @@ END
 
 IF ~~ AMRE1.5
 SAY @154
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.6
@@ -442,7 +442,7 @@ END
 
 IF ~~ AMRE1.7
 SAY @156
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Polymorph(ELEMENTAL_FIRE) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.8
@@ -460,7 +460,7 @@ END
 
 IF ~~ AMRE1.10
 SAY @162
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) Kill(Player1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) MoveToObject(Player1) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 END
 
 IF ~~ AMRE1.11
@@ -471,7 +471,7 @@ END
 IF ~~ AMRE1.12
 SAY @164
 ++ @165 + AMRE1.6
-+ ~!InParty("coran")~ + @166 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) Kill(Player1)~ EXIT
++ ~!InParty("coran")~ + @166 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) MoveToObject(Player1) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 + ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ + @166 EXTERN ~%CORAN_JOINED%~ AMRE1.8A
 ++ @167 + AMRE1.3
 END
@@ -556,7 +556,7 @@ END
 
 IF ~~ CoranRejoin
 SAY @260
-IF ~~ THEN DO ~SetGlobal("X#CoranTakesRoses","GLOBAL",2) SetGlobal("X#CoranSuccubus","GLOBAL",5) ChangeAIScript("",DEFAULT) SetGlobal("KickedOut","LOCALS",0) JoinParty()~ UNSOLVED_JOURNAL @202 EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranTakesRoses","GLOBAL",2) SetGlobal("X#CoranSuccubus","GLOBAL",5) ChangeAIScript("",DEFAULT) SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ UNSOLVED_JOURNAL @202 EXIT
 END
 
 IF ~~ CoranNotRejoin
@@ -569,7 +569,7 @@ CHAIN ~%CORAN_JOINED%~ CoranQuitsSuccubus
 @195
 == X#AMELIA @256
 == ~%CORAN_JOINED%~ @199
-DO ~SetGlobal("X#CoranTakesRoses","GLOBAL",1) SetGlobal("X#CoranSuccubus","GLOBAL",4) ActionOverride("x#amelia",GiveItemCreate("X#COWIRO","coran",1,0,0)) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("coran",EscapeAreaMove("%Temple%",1500,1575,6))~
+DO ~SetGlobal("X#CoranTakesRoses","GLOBAL",1) SetGlobal("X#CoranSuccubus","GLOBAL",4) ActionOverride("x#amelia",GiveItemCreate("X#COWIRO","coran",1,0,0)) ActionOverride("coran",SetGlobal("%KICKED_OUT%","LOCALS",1)) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("coran",EscapeAreaMove("%Temple%",1500,1575,6))~
 END
 IF ~~ UNSOLVED_JOURNAL @197 EXIT
 
