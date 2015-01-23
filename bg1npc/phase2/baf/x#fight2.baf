@@ -4,7 +4,7 @@ IF
 	!StateCheck(Myself,STATE_INVISIBLE)
 THEN
 	RESPONSE #100
-		RunAwayFrom(NearestEnemyOf(Myself),75)
+		%RunAwayFrom%(NearestEnemyOf(Myself),75)
 		Hide()
 END
 
@@ -118,7 +118,7 @@ IF
 	Range(NearestEnemyOf(Myself),10)
 THEN
 	RESPONSE #100
-		RunAwayFrom(NearestEnemyOf(Myself),45)
+		%RunAwayFrom%(NearestEnemyOf(Myself),45)
 END
 
 IF
