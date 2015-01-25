@@ -3496,10 +3496,9 @@ BEGIN @1007
   END
 
   COPY ~bg1npc/phase2/itm/x#sucwng.itm~ ~override~ // Succubus wings
-  COPY ~bg1npc/phase2/itm/x#succlw.itm~ ~override~ // Succubus claws
   COPY ~bg1npc/phase2/spl/x#ameth.spl~ ~override~ // Ethereal Jaunt
-  COPY ~bg1npc/phase2/spl/x#amwng.spl~ ~override~ // Succubus shapechange wings
-  COPY ~bg1npc/phase2/spl/x#ambln.spl~ ~override~ // Succubus darkness (blindness)
+  COPY ~bg1npc/phase2/spl/x#amwng.spl~ ~override~ // Shapechange wings
+  COPY ~bg1npc/phase2/spl/x#amtlp.spl~ ~override~ // Teleport
   
   /* creatures */
   /* Amelia */
@@ -3513,9 +3512,10 @@ BEGIN @1007
     SAY DAMAGE @742 // [VAMPF06]
     SAY DYING @743 // [VAMPF07]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+    ADD_CRE_ITEM ~HELMNOAN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~helmet~ 
+    ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~rring~ 
     ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~BOOTS~
-	WRITE_ASCII 0x250 ~X#AMELIX~ #8
-    ADD_CRE_ITEM ~X#SUCCLW~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
+    ADD_CRE_ITEM ~B1-3~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
 	WRITE_ASCII 0x250 ~X#AMELIX~ #8
 	
   /* Natan */

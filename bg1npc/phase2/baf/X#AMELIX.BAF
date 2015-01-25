@@ -1,11 +1,4 @@
 IF
-	Range("Door5201",10)
-THEN
-	RESPONSE #100
-	%RunAwayFrom%("Door5201",30)
-END
-
-IF
 	StateCheck(Myself,STATE_PANIC)
 THEN
 	RESPONSE #100
@@ -30,157 +23,138 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobalTimer("prep","LOCALS",EIGHT_HOURS)
-		SetGlobal("ethereal","LOCALS",0)
-		SetGlobal("heal","LOCALS",0)
 		ReallyForceSpell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
-		ReallyForceSpell(Myself,WIZARD_MINOR_SPELL_DEFLECTION) // SPWI318.SPL (Minor Spell Deflection)
+		ReallyForceSpell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
+		ForceSpellRES("X#AMETH",Myself) // Ethereal
+		Wait(2)
+		PlaySound("%tutu_var%SIRIN06")
+		SetGlobal("X#AmeliaBehavior","LOCALS",0)
 END
 
 IF
+	Allegiance(Myself,ENEMY)
 	See(NearestEnemyOf(Myself))
-	HPPercentLT(Myself,50)
-	!StateCheck(Myself,STATE_INVISIBLE)
-	Global("Ethereal","LOCALS",0)
+	Global("X#AmeliaBehavior","LOCALS",0)
 THEN
-	RESPONSE #100
-		SetGlobal("Ethereal","LOCALS",1)
-		ReallyForceSpellRES("X#AMETH",Myself) // Ethereal
+	RESPONSE #25
+		SetGlobal("X#AmeliaBehavior","LOCALS",1)
+		Continue()
+	RESPONSE #25
+		SetGlobal("X#AmeliaBehavior","LOCALS",2)
+		Continue()
+	RESPONSE #25
+		SetGlobal("X#AmeliaBehavior","LOCALS",3)
+		Continue()
+	RESPONSE #25
+		SetGlobal("X#AmeliaBehavior","LOCALS",4)
+		Continue()
 END
 
 IF
-	HPPercentLT(Myself,50)
-	StateCheck(Myself,STATE_INVISIBLE)
-	Range(NearestEnemyOf(Myself),20)
-THEN
-	RESPONSE #100
-		%RunAwayFrom%(NearestEnemyOf(Myself),30)
-END
-
-IF
-	HPPercentLT(Myself,50)
-	StateCheck(Myself,STATE_INVISIBLE)
-	!Range(NearestEnemyOf(Myself),20)
-	Global("Heal","LOCALS",0)
-THEN
-	RESPONSE #100
-		ReallyForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS) // SPPR315.SPL (Cure Medium Wounds)
-		SetGlobal("Heal","LOCALS",1)
-END
-
-IF
-	!Difficulty(EASY)
-	See(NearestEnemyOf(Myself))
-	See([GOODCUTOFF.0.0.0.0.MALE])
-	!StateCheck(Myself,STATE_INVISIBLE)
-	Range(LastSeenBy(Myself),30)
+	Allegiance(Myself,ENEMY)
+	See(SecondNearest([PC]))
+	See([PC.0.0.0.0.MALE])
 	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
 	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
 	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
 	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
 	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
 	!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
-	!StateCheck(LastSeenBy(Myself),STATE_BLIND)
-	!GlobalTimerNotExpired("AtWill","LOCALS")
+	Global("X#AmeliaBehavior","LOCALS",1)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("X#AMTLP",LastSeenBy(Myself)) // SPWI931.SPL (Teleport Without Error)
+		Wait(1)
+		ForceSpell(LastSeenBy(Myself),SUCCUBUS_CHARM_MALE) // SPWI930.SPL (Charm Person)
+		Wait(2)
+		ForceSpellRES("X#AMETH",Myself) // Ethereal
+		Wait(2)
+		PlaySound("%tutu_var%SIRIN06")
+		SetGlobal("X#AmeliaBehavior","LOCALS",0)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See(ThirdNearest([PC]))
+	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
+	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+	!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+	Global("X#AmeliaBehavior","LOCALS",2)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("X#AMTLP",LastSeenBy(Myself)) // SPWI931.SPL (Teleport Without Error)
+		Wait(1)
+		ForceSpell(NearestEnemyOf(Myself),SUCCUBUS_ENERGY_DRAIN) // SPWI928.SPL (Energy Drain)
+		Wait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		ForceSpellRES("X#AMETH",Myself) // Ethereal
+		Wait(2)
+		PlaySound("%tutu_var%SIRIN06")
+		SetGlobal("X#AmeliaBehavior","LOCALS",0)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See(FourthNearest([PC]))
+	See([PC.0.0.0.0.MALE])
+	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
+	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+	!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+	Global("X#AmeliaBehavior","LOCALS",3)
 THEN
 	RESPONSE #50
-		SetGlobalTimer("AtWill","LOCALS",6)
-		SpellNoDec([GOODCUTOFF.0.0.0.0.MALE],SUCCUBUS_CHARM_MALE) // SPWI930.SPL (Charm Person)
+		ReallyForceSpellRES("X#AMTLP",LastSeenBy(Myself)) // SPWI931.SPL (Teleport Without Error)
+		Wait(1)
+		ForceSpell(LastSeenBy(Myself),SUCCUBUS_CHARM_MALE) // SPWI930.SPL (Charm Person)
+		Wait(2)
+		ForceSpellRES("X#AMETH",Myself) // Ethereal
+		Wait(2)
+		PlaySound("%tutu_var%SIRIN06")
+		SetGlobal("X#AmeliaBehavior","LOCALS",0)
 	RESPONSE #50
 		Continue()
 END
 
 IF
-	AttackedBy([ANYONE],DEFAULT)
-	See(LastAttackerOf(Myself))
-	!StateCheck(Myself,STATE_INVISIBLE)
+	Allegiance(Myself,ENEMY)
+	See(FifthNearest([PC]))
 	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
 	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
 	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
 	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
 	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
 	!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
-	!StateCheck(LastSeenBy(Myself),STATE_BLIND)
-	!GlobalTimerNotExpired("AtWill","LOCALS")
+	Global("X#AmeliaBehavior","LOCALS",4)
 THEN
 	RESPONSE #100
-		SetGlobalTimer("AtWill","LOCALS",6)
-		SpellNoDecRES("X#AMBLN",LastSeenBy(Myself)) // Blindness
-END
-
-IF
-	AttackedBy([ANYONE],DEFAULT)
-	See(LastAttackerOf(Myself))
-	Range(LastAttackerOf(Myself),10)
-	!StateCheck(Myself,STATE_INVISIBLE)
-	GlobalTimerNotExpired("AtWill","LOCALS")
-THEN
-	RESPONSE #100
-		AttackReevaluate(LastAttackerOf(Myself),30)
-END
-
-IF
-	AttackedBy([ANYONE],DEFAULT)
-	See(LastAttackerOf(Myself))
-	!Range(LastAttackerOf(Myself),10)
-	!StateCheck(Myself,STATE_INVISIBLE)
-	GlobalTimerNotExpired("AtWill","LOCALS")
-THEN
-	RESPONSE #100
-		%RunAwayFrom%(NearestEnemyOf(Myself),30)
-END
-
-IF
-	See(NearestEnemyOf(Myself))
-	Range(NearestEnemyOf(Myself),10)
-	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
-	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
-	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
-	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
-	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
-	!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
-	!StateCheck(LastSeenBy(Myself),STATE_BLIND)
-THEN
-	RESPONSE #100
-		%RunAwayFrom%(NearestEnemyOf(Myself),30)
-END
-
-IF
-	See(NearestEnemyOf(Myself))
-	!StateCheck(Myself,STATE_INVISIBLE)
-	Range(LastSeenBy(Myself),30)
-	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
-	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
-	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
-	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
-	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
-	!StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
-	!StateCheck(LastSeenBy(Myself),STATE_BLIND)
-	!GlobalTimerNotExpired("AtWill","LOCALS")
-THEN
-	RESPONSE #100
-		SetGlobalTimer("AtWill","LOCALS",6)
-		SpellNoDecRES("X#AMBLN",LastSeenBy(Myself)) // Blindness
-END
-
-IF
-	See(NearestEnemyOf(Myself))
-	!StateCheck(Myself,STATE_INVISIBLE)
-	OR(6)
-		StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
-		StateCheck(LastSeenBy(Myself),STATE_STUNNED)
-		StateCheck(LastSeenBy(Myself),STATE_PANIC)
-		StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
-		StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
-		StateCheck(LastSeenBy(Myself),STATE_BLIND)
-THEN
-	RESPONSE #100
-		AttackReevaluate(NearestEnemyOf(Myself),30)
-END
-
-IF
-	True()
-THEN
-	RESPONSE #100
+		ReallyForceSpellRES("X#AMTLP",LastSeenBy(Myself)) // SPWI931.SPL (Teleport Without Error)
 		Wait(1)
+		ForceSpell(NearestEnemyOf(Myself),SUCCUBUS_ENERGY_DRAIN) // SPWI928.SPL (Energy Drain)
+		Wait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		ForceSpellRES("X#AMETH",Myself) // Ethereal
+		Wait(2)
+		PlaySound("%tutu_var%SIRIN06")
+		SetGlobal("X#AmeliaBehavior","LOCALS",0)
 END
 
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("X#AMTLP",LastSeenBy(Myself)) // SPWI931.SPL (Teleport Without Error)
+		Wait(1)
+		ForceSpell(NearestEnemyOf(Myself),SUCCUBUS_ENERGY_DRAIN) // SPWI928.SPL (Energy Drain)
+		Wait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		ForceSpellRES("X#AMETH",Myself) // Ethereal
+		Wait(2)
+		PlaySound("%tutu_var%SIRIN06")
+		SetGlobal("X#AmeliaBehavior","LOCALS",0)
+END
