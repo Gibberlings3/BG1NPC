@@ -10,7 +10,7 @@ IF
 	!Allegiance(Myself,ENEMY)
 THEN
 	RESPONSE #100
-		ApplySpellRES("X#AMWNG",Myself) // No such index
+		ApplySpellRES("X#amchg",Myself) // No such index
 		Enemy()
 		Continue()
 END
