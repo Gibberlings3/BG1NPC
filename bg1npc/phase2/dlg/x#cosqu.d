@@ -58,11 +58,11 @@ END
 IF ~~ X#NAAmelia1
 SAY @17
 = @18
-IF ~!InParty("coran")~ THEN DO ~EscapeAreaMove("%FirewineBridge%",4175,2100,3)~ EXIT
-IF ~InParty("coran") Global("P#CoranMatch","GLOBAL",1) !Global("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3))~ EXTERN ~%CORAN_JOINED%~ CoranResistShort
-IF ~InParty("coran") Global("P#CoranMatch","GLOBAL",1) Global("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3))~ EXTERN ~%CORAN_JOINED%~ CoranResistLong
-IF ~InParty("coran") !Global("P#CoranMatch","GLOBAL",1) GlobalLT("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3))~ EXTERN ~%CORAN_JOINED%~ CoranNotResist
-IF ~InParty("coran") !Global("P#CoranMatch","GLOBAL",1) Global("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3))~ EXTERN ~%CORAN_JOINED%~ CoranResistShort
+IF ~!InParty("coran")~ THEN DO ~EscapeAreaMove("%FirewineBridge%",4090,2215,7)~ EXIT
+IF ~InParty("coran") Global("P#CoranMatch","GLOBAL",1) !Global("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7))~ EXTERN ~%CORAN_JOINED%~ CoranResistShort
+IF ~InParty("coran") Global("P#CoranMatch","GLOBAL",1) Global("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7))~ EXTERN ~%CORAN_JOINED%~ CoranResistLong
+IF ~InParty("coran") !Global("P#CoranMatch","GLOBAL",1) GlobalLT("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7))~ EXTERN ~%CORAN_JOINED%~ CoranNotResist
+IF ~InParty("coran") !Global("P#CoranMatch","GLOBAL",1) Global("X#CoranBlessed","GLOBAL",2)~ THEN DO ~ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7))~ EXTERN ~%CORAN_JOINED%~ CoranResistShort
 END
 
 IF ~%BGT_VAR% GlobalGT("X#CoranSuccubus","GLOBAL",2) GlobalLT("X#CoranSuccubus","GLOBAL",7)~ NatanDidNotHelpAmelia
@@ -332,17 +332,17 @@ END
 
 IF ~~ AMRE2.2A
 SAY @122
-IF ~~ THEN DO ~ApplySpellRES("x#amwng",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ForceSpell("coran",DRYAD_TELEPORT) ForceSpell("natan",DRYAD_TELEPORT) ForceSpell("x#amelia",DRYAD_TELEPORT)~ EXIT
+IF ~~ THEN DO ~ApplySpellRES("x#amchg",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) Wait(2) ForceSpell("coran",DRYAD_TELEPORT) ForceSpell("natan",DRYAD_TELEPORT) ForceSpell("x#amelia",DRYAD_TELEPORT)~ EXIT
 END
 
 IF ~~ AMRE2.2B
 SAY @123
-IF ~~ THEN DO ~ApplySpellRES("x#amwng",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ForceSpell("x#amelia",DRYAD_TELEPORT)~ EXIT
+IF ~~ THEN DO ~ApplySpellRES("x#amchg",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) Wait(2) ForceSpell("x#amelia",DRYAD_TELEPORT)~ EXIT
 END
 
 IF ~~ AMRE2.3
 SAY @124
-IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",17) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy() ActionOverride("coran",Enemy()) ActionOverride("natan",Enemy())~ EXIT
+IF ~~ THEN DO ~TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",17) ApplySpellRES("x#amchg",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy() ActionOverride("coran",Enemy()) ActionOverride("natan",Enemy())~ EXIT
 END
 
 IF ~~ AMRE2.4F
@@ -364,18 +364,18 @@ END
 IF ~~ AMRE2.6
 SAY @130
 = @131
-IF ~~ THEN DO ~ApplySpellRES("x#amwng",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@255,QUEST_DONE)  AddExperienceParty(6400) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT))  ForceSpell("coran",DRYAD_TELEPORT) ForceSpell("natan",DRYAD_TELEPORT) ForceSpell("x#amelia",DRYAD_TELEPORT)~
+IF ~~ THEN DO ~ApplySpellRES("x#amchg",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@255,QUEST_DONE)  AddExperienceParty(6400) ActionOverride("coran",LeaveParty()) ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT))  Wait(2) ForceSpell("coran",DRYAD_TELEPORT) ForceSpell("natan",DRYAD_TELEPORT) ForceSpell("x#amelia",DRYAD_TELEPORT)~
 EXIT
 END
 
 IF ~~ AMRE2.7
 SAY @132
-IF ~~ THEN DO ~ApplySpellRES("x#amwng",Myself) MoveToObject(Player1) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
+IF ~~ THEN DO ~ApplySpellRES("x#amchg",Myself) MoveToObject(Player1) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",15) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 END
 
 IF ~~ AMRE2.8
 SAY @133
-IF ~~ THEN DO ~ApplySpellRES("x#amwng",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) AddExperienceParty(6400) ForceSpell("x#amelia",DRYAD_TELEPORT)~
+IF ~~ THEN DO ~ApplySpellRES("x#amchg",Myself) TakePartyItem("X#CODYE1") TakePartyItem("X#CODYE2") SetGlobal("X#CoranSuccubus","GLOBAL",16) GiveItemCreate("X#COAMUL",Player1,1,0,0) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) AddExperienceParty(6400) Wait(2) ForceSpell("x#amelia",DRYAD_TELEPORT)~
 EXIT
 END
 
@@ -417,7 +417,7 @@ END
 
 IF ~~ AMRE1.3
 SAY @152
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amchg",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.4
@@ -429,18 +429,18 @@ END
 
 IF ~~ AMRE1.5
 SAY @154
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amchg",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.6
 SAY @155
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) ApplySpellRES("x#amwng",Myself) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("natan",DestroySelf()) ForceSpell("x#amelia",DRYAD_TELEPORT)~
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) ApplySpellRES("x#amchg",Myself) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("natan",DestroySelf()) Wait(2) ForceSpell("x#amelia",DRYAD_TELEPORT)~
 EXIT
 END
 
 IF ~~ AMRE1.7
 SAY @156
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amchg",Myself) AddExperienceParty(5000) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@254,QUEST_DONE) Enemy()~ EXIT
 END
 
 IF ~~ AMRE1.8
@@ -452,13 +452,13 @@ END
 
 IF ~~ AMRE1.9
 SAY @161
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) ApplySpellRES("x#amwng",Myself) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("natan",DestroySelf()) ForceSpell("x#amelia",DRYAD_TELEPORT)~
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) ApplySpellRES("x#amchg",Myself) GiveItemCreate("X#COAMUL",Player1,1,0,0) AddExperienceParty(6400) EraseJournalEntry(@52) EraseJournalEntry(@53) EraseJournalEntry(@174) EraseJournalEntry(@178) EraseJournalEntry(@184) EraseJournalEntry(@197) EraseJournalEntry(@202) EraseJournalEntry(@208) AddJournalEntry(@253,QUEST_DONE) ActionOverride("natan",DestroySelf()) Wait(2) ForceSpell("x#amelia",DRYAD_TELEPORT)~
 EXIT
 END
 
 IF ~~ AMRE1.10
 SAY @162
-IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) ApplySpellRES("x#amwng",Myself) MoveToObject(Player1) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",12) ApplySpellRES("x#amchg",Myself) MoveToObject(Player1) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 END
 
 IF ~~ AMRE1.11
@@ -469,7 +469,7 @@ END
 IF ~~ AMRE1.12
 SAY @164
 ++ @165 + AMRE1.6
-+ ~!InParty("coran")~ + @166 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amwng",Myself) MoveToObject(Player1) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
++ ~!InParty("coran")~ + @166 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",13) ApplySpellRES("x#amchg",Myself) MoveToObject(Player1) PlaySound("%tutu_var%NERED07") Kill(Player1)~ EXIT
 + ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ + @166 EXTERN ~%CORAN_JOINED%~ AMRE1.8A
 ++ @167 + AMRE1.3
 END
@@ -541,9 +541,14 @@ END
 
 APPEND ~%CORAN_POST%~
 
-IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranCharmed","GLOBAL",1)~ X#CoranCharmed
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranCharmed","GLOBAL",1) AreaCheck("%FirewineBridge%")~ X#CoranCharmed
 SAY @194
-IF ~~ THEN DO ~MoveToPoint([4175.2100])~ EXIT
+IF ~~ THEN DO ~MoveToPoint([4090.2215])~ EXIT
+END
+
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranCharmed","GLOBAL",1) !AreaCheck("%FirewineBridge%")~ X#CoranCharmed2
+SAY @194
+IF ~~ THEN DO ~EscapeAreaMove("%FirewineBridge%",4090,2215,7)~ EXIT
 END
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranTakesRoses","GLOBAL",1)~ X#CoranTakesRoses
@@ -609,22 +614,22 @@ END
 
 IF ~~ CoranResistShort
 SAY @220 
-IF ~~ THEN DO ~SetGlobalTimer("X#CoranResistTimer","GLOBAL",ONE_HOUR) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3))~ EXIT
+IF ~~ THEN DO ~SetGlobalTimer("X#CoranResistTimer","GLOBAL",ONE_HOUR) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7))~ EXIT
 END
 
 IF ~~ CoranResistLong
 SAY @220 
-IF ~~ THEN DO ~SetGlobalTimer("X#CoranResistTimer","GLOBAL",TWO_HOURS) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3))~ EXIT
+IF ~~ THEN DO ~SetGlobalTimer("X#CoranResistTimer","GLOBAL",TWO_HOURS) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7))~ EXIT
 END
 
 IF ~~ CoranNotResist
 SAY @221
-IF ~~ THEN DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) LeaveParty() ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4270,2175,3)) EscapeAreaMove("%FirewineBridge%",4175,2100,3)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranCharmed","GLOBAL",1) LeaveParty() ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) ActionOverride("natan",EscapeAreaMove("%FirewineBridge%",4145,2190,7)) EscapeAreaMove("%FirewineBridge%",4090,2215,7)~ EXIT
 END
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranCharmedRun","GLOBAL",1)~ CoranNotResistAfterTimer
 SAY @221
-IF ~~ THEN DO ~SetGlobal("X#CoranCharmedRun","GLOBAL",2) SetGlobal("X#CoranCharmed","GLOBAL",1) LeaveParty() ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) EscapeAreaMove("%FirewineBridge%",4175,2100,3)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#CoranCharmedRun","GLOBAL",2) SetGlobal("X#CoranCharmed","GLOBAL",1) LeaveParty() ActionOverride("coran",SetLeavePartyDialogFile()) ActionOverride("coran",ChangeAIScript("",DEFAULT)) EscapeAreaMove("%FirewineBridge%",4090,2215,7)~ EXIT
 END
 
 
