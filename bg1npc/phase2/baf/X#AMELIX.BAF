@@ -25,6 +25,7 @@ THEN
 		SetGlobalTimer("prep","LOCALS",EIGHT_HOURS)
 		ReallyForceSpell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
 		ReallyForceSpell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
+		DisplayStringHead("x#amelia",@262)
 		ForceSpellRES("X#AMETH",Myself) // Ethereal
 		Wait(2)
 		PlaySound("%tutu_var%SIRIN06")
