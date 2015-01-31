@@ -2026,6 +2026,25 @@ END
     END
   BUT_ONLY_IF_IT_CHANGES
 
+  // BGEE Fix Area Scripts for AR2400.BCS and AR2900.BCS
+  ACTION_IF GAME_IS ~bgee~ AND 
+    !(FILE_EXISTS ~override/AY#BGEEARBCSFIX.000~) THEN BEGIN //do once
+
+	COPY ~BG1NPC/Core/X#component.xx~ ~override/AY#BGEEARBCSFIX.000~
+	
+	COPY_EXISTING ~AR2400.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+  			//Add Exists(Raiken) check to TazokSays script block
+  			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Raiken")~
+  		END
+
+	COPY_EXISTING ~AR2900.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+  			//Add Exists(Teven) check to TazokSays script block
+  			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Teven")~
+  		END  	
+  END // BGEE Area Script Fix
+
 
 /* BEGIN PHASE I BG1NPC PROJECT */
 BEGIN @1007
