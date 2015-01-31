@@ -2901,7 +2901,7 @@ END
 
 IF ~~ AloraPID2.6
 SAY @774
-IF ~~ DO ~RunAwayFrom(Player1,50)~ EXIT
+IF ~~ DO ~%RunAwayFrom%(Player1,50)~ EXIT
 END
 
 IF ~~ AloraPID2.7
