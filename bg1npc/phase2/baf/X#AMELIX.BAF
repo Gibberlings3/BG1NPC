@@ -26,7 +26,7 @@ THEN
 		SetGlobal("charm","LOCALS",0)
 		ReallyForceSpell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
 		ReallyForceSpell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
-		DisplayStringHead("x#amelia",46694) // Kill them, my pets!
+		DisplayStringHead("x#amelia",@262) // Kill them, my pets!
 		Wait(2)
 END
 
