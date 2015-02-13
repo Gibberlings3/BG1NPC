@@ -6640,6 +6640,7 @@ BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
 BEGIN @1123 /* BGEE Banter Timing Tweak */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~bgee~) @5002 /* You must have BGEE installed for this component. */
+  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   FORBID_FILE ~override/AYBanterTimingTweak.xxx~ @1124  /* You already have the Banter Timing Tweak installed. */
 
   COPY ~BG1NPC/Core/X#component.xx~ ~override/AYBanterTimingTweak.xxx~
