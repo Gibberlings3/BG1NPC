@@ -2976,8 +2976,8 @@ BEGIN @1007
     SAY DESC @168
 
   COPY_EXISTING ~%tutu_var%STO4901.sto~ ~override~
-    ADD_STORE_ITEM ~P#BAG02~  AFTER  ~SHLD16~  #0 #0 #0 ~IDENTIFIED~ #5
-    ADD_STORE_ITEM ~P#BAG01~  AFTER  ~SHLD16~  #0 #0 #0 ~IDENTIFIED~ #5
+    ADD_STORE_ITEM ~P#BAG02~  AFTER  ~%tutu_var%SHLD16~  #0 #0 #0 ~IDENTIFIED~ #5
+    ADD_STORE_ITEM ~P#BAG01~  AFTER  ~%tutu_var%SHLD16~  #0 #0 #0 ~IDENTIFIED~ #5
 
   /* creatures */
   COPY ~BG1NPC/Phase2/cre/x#david.cre~ ~override~
