@@ -26,9 +26,7 @@ CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#CaravanBanditEncounter","GLOBAL",1)~ TH
 == ~X#KABAND~ @6
 DO ~SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
 SetGlobal("X#KagainCaravan","GLOBAL",3)
-ActionOverride("X#BANDK1",ChangeEnemyAlly("X#BANDK1",ENEMY))
-ActionOverride("X#BANDK2",ChangeEnemyAlly("X#BANDK2",ENEMY))
-ActionOverride("X#BANDK3",ChangeEnemyAlly("X#BANDK3",ENEMY))
+Help()
 Enemy()~ EXIT
 
 EXTEND_BOTTOM ~%tutu_var%BRILLA~ 0
@@ -37,6 +35,7 @@ END
 
 CHAIN ~%tutu_var%BRILLA~ X#BrillaEddardDeath
 @8
+// Blocking on T1M2DeadEddy for cross-mod compatibility with Thimblerig.
 == ~%SKIE_BANTER%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) GlobalLT("T1M2DeadEddy","GLOBAL",2)~ THEN @9
 == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) GlobalLT("T1M2DeadEddy","GLOBAL",2)~ THEN @10
 == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @11

@@ -2701,61 +2701,53 @@ BEGIN @1007
 
   COPY_EXISTING ~%tutu_scripti%ronelit.cre~ ~override/x#kaband.cre~
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
-    SAY NAME1 @24
+	REMOVE_CRE_ITEMS    
+	SAY NAME1 @24
     SAY NAME2 @24
     SAY INITIAL_MEETING @25
     SAY BATTLE_CRY1 @26
-    SAY BATTLE_CRY2 @27
-    SAY BATTLE_CRY3 @25
-    SAY BATTLE_CRY4 @26
-    SAY BATTLE_CRY5 @27
-    SAY ATTACK1 @25
-    SAY ATTACK2 @26
+    SAY BATTLE_CRY2 @25
     SAY DAMAGE @28
     SAY DYING @29
-    SAY SELECT_COMMON1 @27
-    SAY SELECT_COMMON2 @27
-    SAY SELECT_COMMON3 @27
-    SAY SELECT_COMMON4 @27
-    SAY SELECT_COMMON5 @27
-    SAY SELECT_COMMON6 @27
+    SAY SELECT_COMMON1 @26
+    SAY SELECT_COMMON2 @25
     WRITE_SHORT 0x0028 0x6110 // animation ID fighter_female_human
+    WRITE_BYTE 0x006E ~2~ // Large sword proficiency
     WRITE_BYTE 0x0237 0x02//  gender: female
-    WRITE_ASCII 0x0250 ~~ #8 //  Creature script - Class
-    WRITE_ASCII 0x0258 ~~ #8 //  Creature script - Race
-    WRITE_ASCII 0x0260 ~~ #8 //  Creature script - General
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
-    WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
+    WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_var%WTARSGT~ #8 //  Creature script - Default
     WRITE_BYTE 0x0275 0x02//  gender: female
-    ADD_CRE_ITEM ~X#SILSH~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
-    ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED~ ~GLOVES~
+    ADD_CRE_ITEM ~%tutu_var%CHAN04~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+    ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~GLOVES~
+    ADD_CRE_ITEM ~%tutu_var%SW1H04~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+    ADD_CRE_ITEM ~%tutu_var%BOW05~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON2~
+    ADD_CRE_ITEM ~%tutu_var%AROW01~ #20 #0 #0 ~IDENTIFIED~ ~QUIVER1~ EQUIP
+    ADD_CRE_ITEM ~X#SILSH~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
+    ADD_CRE_ITEM ~RNDTRE02~ #0 #0 #0 ~IDENTIFIED~ ~INV2~
 
-  COPY_EXISTING  ~%tutu_var%bandit.cre~ ~override/x#bandk1.cre~
-                 ~%tutu_var%bandit.cre~ ~override/x#bandk2.cre~
-                 ~%tutu_var%bandit.cre~ ~override/x#bandk3.cre~
+  COPY_EXISTING  ~%tutu_var%bandit.cre~ ~override/x#bandk.cre~
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
 	LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
+	REMOVE_CRE_ITEMS    
     SAY NAME1 @30
     SAY NAME2 @30
     SAY INITIAL_MEETING @31
     SAY BATTLE_CRY1 @31
-    SAY BATTLE_CRY2 @31
-    SAY BATTLE_CRY3 @31
-    SAY BATTLE_CRY4 @31
-    SAY BATTLE_CRY5 @31
     SAY DAMAGE @32
     SAY DYING @33
     SAY SELECT_COMMON1 @31
-    SAY SELECT_COMMON2 @31
-    SAY SELECT_COMMON3 @31
-    SAY SELECT_COMMON4 @31
-    SAY SELECT_COMMON5 @31
-    SAY SELECT_COMMON6 @31
-    WRITE_ASCII 0x0258 ~~ #8 //  Creature script - Race
-    WRITE_ASCII 0x0260 ~~ #8 //  Creature script - General
-    WRITE_EVALUATED_ASCII 0x0268 ~%tutu_var%WTARSGT~ #8 //  Creature script - Default
+    WRITE_BYTE 0x0070 ~1~ // Bow proficiency
+    WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_var%WTARSGT~ #8 //  Creature script - Default
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
+    ADD_CRE_ITEM ~%tutu_var%LEAT01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+    ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~GLOVES~
+    ADD_CRE_ITEM ~%tutu_var%BOW03~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+    ADD_CRE_ITEM ~%tutu_var%SW1H04~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON2~
+    ADD_CRE_ITEM ~%tutu_var%AROW01~ #20 #0 #0 ~IDENTIFIED~ ~QUIVER1~ EQUIP
+    ADD_CRE_ITEM ~RNDTRE02~ #0 #0 #0 ~IDENTIFIED~ ~INV1~
 
   /* Burned corpse */
   COPY ~bg1npc/phase2/cre/x#burn01.cre~ ~override~
@@ -2775,6 +2767,7 @@ BEGIN @1007
 
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#KABAND.BAF~
+  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#BANDK.BAF~
 
   /* dialogue */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#KAQST.D~

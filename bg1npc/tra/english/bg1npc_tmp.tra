@@ -73,8 +73,8 @@ Surely Imoen will never make a master jewelry smith, but the necklace is very cl
 @25   = ~[FEMALE THREAT 5] Methinks you'll be pushing up daisies before the eve is through.~ [%tutu_var%GENFT05]
 @26   = ~[FEMALE THREAT 2] Looks like I'll be ending your life where you stand.~ [%tutu_var%GENFT02]
 @27   = ~[FEMALE THREAT 4] Your end shall be quick, if you let it.~ [%tutu_var%GENFT04]
-@28   = ~[ABELA 3]~ [%tutu_var%ABELA03]
-@29   = ~[ABELA 4]~ [%tutu_var%ABELA04]
+@28   = ~[GENERIC FEMALE INJURY 1]~ [%tutu_var%WOMCO03]
+@29   = ~[GENERIC FEMALE DEATH 1]~ [%tutu_var%WOMCO04]
 @30   = ~Caravan Bandit~
 @31   = ~[BANDITS 1] So I kicked 'im in the head till he was dead.  Har har~ [%tutu_var%BANDT01]
 @32   = ~[BANDITS 5]~ [%tutu_var%BANDT05]

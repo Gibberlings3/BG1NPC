@@ -93,8 +93,8 @@ Sans doute Imoen ne deviendra jamais un maître joaillier mais le collier est ass
 @27    = ~[FEMALE THREAT 4] Vot' fin sera rapide, si vous vous laissez faire..~ [%tutu_var%GENFT04]
 // Fin sons
 // Ensemble de sons présents dans BG, manifestement transférés par Tutu, à conserver tel quel
-@28    = ~[ABELA 3]~ [%tutu_var%ABELA03]
-@29    = ~[ABELA 4]~ [%tutu_var%ABELA04]
+@28   = ~[GENERIC FEMALE INJURY 1]~ [%tutu_var%WOMCO03]
+@29   = ~[GENERIC FEMALE DEATH 1]~ [%tutu_var%WOMCO04]
 // Fin sons
 @30    = ~Bandit de la Caravane~
 // Ensemble de sons présents dans BG, manifestement transférés par Tutu, à conserver tel quel
