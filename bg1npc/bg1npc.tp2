@@ -4023,6 +4023,11 @@ END
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/x#dynaquest.d~
 
   /* Extend Dynaheir's override scripts */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  	OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~EraseJournalEntry(27171)  EraseJournalEntry(27274) EraseJournalEntry(27275) EraseJournalEntry(27031) AddexperienceParty(800)~
+  END ELSE BEGIN
+  	OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~~
+  END
   EXTEND_TOP  ~%DYNAHEIR_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#dynaquest.baf~
       EVALUATE_BUFFER
 

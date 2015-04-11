@@ -508,6 +508,6 @@ CHAIN ~%tutu_var%DYNAHE~ X#EdandDyBothTogether
 == ~%tutu_var%DYNAHE~ @217
 == ~%EDWIN_JOINED%~ @218
 END
-++ @219 DO ~ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
-++ @221 DO ~ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
-++ @222 DO ~ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
+++ @219 DO ~%BGEEDynaheirEraseJournalEntries% ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
+++ @221 DO ~%BGEEDynaheirEraseJournalEntries% ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
+++ @222 DO ~%BGEEDynaheirEraseJournalEntries% ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
