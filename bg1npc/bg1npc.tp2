@@ -70,6 +70,9 @@ END
   COPY ~BG1NPC/TRA/%LANGUAGE%/BG1NPC_tmp.tra~ ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
      EVALUATE_BUFFER
   LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BGEE_ITEMDESC.tra~ /* Item descriptions for BGEE, i.e. without usability info */
+  END
 
   INCLUDE ~bg1npc/lib/extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
   INCLUDE ~bg1npc/lib/bg1npc_project_macros.tpa~   /* adds macros callable by each component */

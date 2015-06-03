@@ -1,0 +1,159 @@
+@9    = ~El escudo mediano se lleva de la misma forma que el pequeño e impide usar la mano que lo porta para cualquier otra cosa que no sea cargarlo. Los escudos medianos suelen estar fabricados de metal, tienen un diámetro que oscila entre 90 centímetros hasta 1,2 metros y pueden tener cualquier forma, desde redonda o cuadrada hasta la del ala extendida de un dragón. El escudo medieval típico parece un triángulo con una de sus puntas mirando hacia abajo.
+
+Éste es el escudo familiar de Ajantis. Muestra el blasón de los nobles Ilvastarr de Aguas Profundas: Un dragón verde metálico con ojos naranjas en un campo dorado.
+
+CARACTERÍSTICAS:
+
+Clase de Armadura: 1
+Peso: 7
+Especial:
+Concede talento en Estilo de lucha con espada y escudo mientras está equipado.
+Sólo lo puede usar:
+ Ajantis~
+
+@76   = ~Una de las armas más antiguas del hombre, utilizada desde tiempos primitivos, las primeras lanzas eran palos de madera con una piedra afilada. Cuando los hombres comenzaron a fundir metal, las puntas se hicieron de hierro y acero. Más tarde se comenzó a experimentar con otras cabezas, llevando al desarrollo de otros tipos de armas.
+
+CARACTERÍSTICAS:
+
+Daño:  1D6
+Tipo de daño:  punzante
+Peso: 5
+Factor de velocidad: 6
+Tipo de talento: Lanza
+Tipo:  dos puños~
+@77   = ~Ésta es una lanza normal con la punta en forma de hoja. Fue balanceada por manos elfas. El mago Thalantyr la encantó para Kivan de Shilmista.
+
+CARACTERÍSTICAS:
+
+Habilidades de Combate:
+10 por ciento de probabilidad con cada golpe que el objetivo sea enredado, sin tirada de salvación
+TAC0: +2
+Daño:  1D6 +2
+Tipo de daño:  punzante
+Peso: 3
+Factor de velocidad: 4
+Tipo de talento: Lanza
+Tipo:  dos puños
+Requiere: 5 Fuerza~
+
+@79   = ~El escudo grande también es conocido como cometa o escudo de torre. Este impresionante escudo, fabricado de madera o metal, cubre desde la barbilla hasta los pies del usuario. Debe fijarse firmemente al antebrazo, y la mano del escudo debe sujetarlo con fuerza en todo momento.
+
+CARACTERÍSTICAS:
+
+Clase de Armadura: 1
+Especial:  +1 contra Armas de proyectiles
+Peso: 15
+Requiere: 15 Fuerza~
+@80   = ~Este escudo está fabricado en madera de roble blanco, que tiene la dureza pero no el peso del roble normal. El noble vigor del roble se refleja en el usuario. Fue creado por los druidas, y las ataduras que aseguran el escudo al antebrazo del portador se desatan mágicamente si es sostenido por la mano de alguien que no vele por el Equilibrio.
+
+CARACTERÍSTICAS:
+
+Clase de Armadura: 1
+Especial:  +1 contra Armas de proyectiles, +1 a la Constitución
+Peso: 5~
+
+@174  = ~Esta cota de malla alberga un pasado ilustre, ya que fue la armadura del notable bardo semielfo Myr'Cutio. Caminó por los Reinos buscando aventuras y, tan inquieta era su naturaleza que a su muerte, su espíritu y el de sus compañeros continuaron vagando...
+
+Hasta que fueron devueltos al descanso eterno por el grupo de <CHARNAME>, claro. A los aventureros no les interesan las figuras del pasado, pero aun así, la armadura es tuya: ligera, brillante y estilizada. ¿Qué más puede querer un bardo?
+
+CARACTERÍSTICAS:
+
+Clase de Armadura: 4
+Especial: Permite lanzar hechizos
+Peso: 20
+Requiere: 8 fuerza~
+@175  = ~Esta cota de malla alberga un pasado ilustre, ya que fue la armadura del notable bardo semielfo Myr'Cutio. Caminó por los Reinos buscando aventuras y, tan inquieta era su naturaleza que a su muerte, su espíritu y el de sus compañeros continuaron vagando...
+
+Hasta que fueron devueltos al descanso eterno por el grupo de <CHARNAME>, claro. A los aventureros no les interesan las figuras del pasado, pero aun así, la armadura es tuya: ligera, brillante y estilizada. ¿Qué más puede querer un bardo?
+
+Esta armadura fue mejorada por Halbazzer Drin de la tienda Artículos hechizados en Puerta de Baldur. Combinada los bombachos de oro otorga mayor protección, resultando tan estilizada como siempre.
+
+CARACTERÍSTICAS:
+
+Clase de Armadura: 3
+Especial: Permite lanzar hechizos
+Peso: 15
+Requiere: 7 fuerza~
+
+@224  = ~Este amuleto parece bastante vulgar, decorado con varias gemas grandes. Una pequeña inscripción en élfico en el cierre dice que fue creado por Nadyala la Verde como tesis para graduarse como maga en la Escuela de Magia de Ulcaster. El amuleto irradia energía mágica, pero como proyecto de graduación, parece no haber sido terminado. Tienes la impresión de que Nadyala pudo haberlo usado durante sus exámenes.
+
+  CARACTERÍSTICAS:
+
+Habilidades Especiales: Proporciona un conjuro extra de todos los niveles entre el primero y el tercero.~
+
+@227  = ~Este pequeño anillo para el dedo del pie hecho de oro rojo fue usado por una súcubo y siempre está caliente al tacto. Quien utilice el anillo oirá constantemente los sonidos del Plano Abisal: una cacofonía de gritos atormentados y maldiciones de los demonios. Obviamente, aquél que utilice el anillo debe encontrar agradable este tipo de cosas.
+
+CARACTERÍSTICAS:
+
+Habilidades Especiales:
+Lanza Hechizo horrendo una vez al día
+Incrementa el carisma del portador en 2~
+
+@250  = ~Su esposa Deheriana entregó este arco largo a Kivan como regalo de matrimonio.
+
+CARACTERÍSTICAS:
+
+Habilidades equipadas:
+
+Bonificador a la clase de armadura: 1
+
+TAC0: +1
+Peso: 2
+Factor de Velocidad: 1
+Tipo de Talento: Arco Largo
+Tipo:  dos puños
+Requiere: 6 Fuerza~
+
+@315  = ~Encantado con la sangre de la dríada muerta, este anillo protege al usuario del conjuro Hechizar persona. También permite al portador lanzar Hechizar persona 1/día. Sin embargo, la sangre de la criatura muerta se retuerce en visible agonía bajo la superficie del metal, algo repulsivo para cualquier persona de buen corazón.
+
+CARACTERÍSTICAS:
+
+Especial:
+Inmunidad contra Hechizar persona
+Lanza Hechizar persona 1/día~
+
+@361  = ~La mayoría de las clavas son palos resistentes, duros, estrechos por la empuñadura y más anchos al final. Esta sencilla arma se ha utilizado desde que el hombre empezó a usar herramientas. Cualquiera puede encontrar un buen trozo de madera y blandirlo; de ahí el extendido uso de la clava. Ésta en particular ha sido mejorada mágicamente.
+
+CARACTERÍSTICAS:
+
+Daño:  1D6
+Tipo de Daño:  aplastante
+Peso: 3
+Factor de Velocidad: 4
+Tipo de Talento: Armas sin punta
+Tipo:  Una mano~
+@362  = ~Esta clava encantada fue tomada del cuerpo de un Druida Sombrío y entregado a <CHARNAME> por Seniyad, el Archidruida del Bosque de las Capas. Mientras que los orígenes de esta arma mortal, aunque simple en apariencia, son desconocidos, su nombre y su conexión con el elemento del rayo hace pensar en los clérigos de Talos. Aunque fuerzas potencialmente malignas intervinieron en su creación, vuestros hechizos no detectan energía malévola alguna, y por lo tanto es seguro para cualquier druida que quiera usarla.
+
+CARACTERÍSTICAS:
+
+TAC0: +2
+Daño:  1D6 + 2
+Resistencia eléctrica: 25
+Clamar al Relámpago una vez al día
+Tipo de Daño:  aplastante
+Peso: 3
+Factor de Velocidad: 4
+Tipo de Talento: Armas sin punta
+Tipo:  Una mano~
+
+@379  = ~La punta de esta lanza muestra unas runas que simbolizan las fuerzas de la naturaleza. La leyenda cuenta que este arma fue creada por un poderoso Archidruida de Norland para ayudar a la tierra y a su dueño en los más crudos inviernos. También demostró ser una gran arma contra los gigantes de la escarcha.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1
+50 por ciento de posibilidad de +1 punto de daño por fuego
+THAC0: +1 
+Especial: +20 por ciento de resistencia al fuego
+Lanza escudo de fuego (Rojo) 1/día
+Tipo de daño: Perforante
+Peso: 4
+Factor de velocidad: 4
+Tipo de talento: Lanza
+Tipo: A dos manos
+Requiere: Fuerza 5~
+
+@630  = ~El trabajo de Winski Perorata en las regiones del inframundo le hacía estar constantemente en contacto con criaturas que lo que más deseaban era arrancarle la piel. Para evitar tan desagradable experiencia, Winski pidió a un nabassu un amuleto capaz de protegerle de las criaturas malvadas durante tiempo suficiente como para controlarlas. Desgraciadamente, Winski sufrió un lapsus momentáneo de memoria provocado por una gran herida y olvidó activar el amuleto. Esto permitió al tanar'ri matar a su convocador. 
+
+CARACTERÍSTICAS:
+
+Habilidades: Protección contra el mal radio 10 metros, una vez al día~

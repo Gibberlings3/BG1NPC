@@ -1,0 +1,162 @@
+@9   = ~Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³. 
+
+Na tarczy tej przedstawiono herb szlacheckiej rodziny Ilvastarr z Waterdeep: zielonego smoka z pomarañczowymi œlepiami na z³otym tle.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Waga: 7
+Specjalne:
+Gdy noszona gwarantuje bieg³oœæ w walce mieczem i tarcz¹.~
+
+@76   = ~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. W pewnym momencie zaczêto eksperymentowaæ z ró¿nymi typami grotów; w ten sposób powsta³y ró¿ne typy broni drzewcowej. 
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 6
+Rodzaj bieg³oœci: w³ócznie
+Typ: 2-rêczna~
+@77   = ~Ta zwyczajnie wygl¹daj¹ca krótka w³ócznia ma zwieñczenie w kszta³cie liœcia. Zosta³a wywa¿ona z myœl¹ o smuk³ej elfiej rêce. Mag Thalantyr umagiczni³ tê broñ dla Kivana z Shilmisty.
+
+PARAMETRY:
+
+Specjalne:
+ 10% szansa, ¿e ofiara zostanie opl¹tana na 24 sekundy, bez mo¿liwoœci rzutu obronnego
+Trak0: +2
+Obra¿enia: 1K6 +2
+Typ obra¿eñ: k³ute
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Wymagana si³a: 5~
+
+@79   = ~Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne: +1 przeciw broni strzeleckiej
+Waga: 15
+Wymagana si³a: 15~
+@80   = ~Tarcza ta zosta³a wyrzeŸbiona z rzadko spotykanego bia³ego dêbu, który zachowuje trwa³oœæ zwyk³ego dêbu, a przy tym jest znacznie l¿ejszy. Szlachetna wytrzyma³oœæ drewna zdaje siê promieniowaæ na w³aœciciela przedmiotu. Tarcza ta zosta³a stworzona przez druidów, i mocowanie, które zabezpiecza tê tarczê na ramieniu bohatera, bêdzie magicznie rozplecione, jeœli tarczê spróbuje dzier¿yæ rêka nied¹¿¹ca do zachowania równowagi w œwiecie.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne: 
+ +1 przeciw broni strzeleckiej 
+ +1 do Kondycji
+Waga: 5~
+
+@174  = ~Ta bardowa zbroja ma bardzo zacn¹ przesz³oœæ, nale¿a³a niegdyœ do znanego pó³-elfiego barda, Myr'Cutia. Wêdrowa³ on przez Krainy, szukaj¹c przygody, a jego duch by³ tak niespokojny, ¿e po œmierci wci¹¿ wêdrowa³, wraz ze swymi towarzyszami...
+
+By³o tak do czasu, a¿ dru¿yna, któr¹ dowodzi³<HESHE> <CHARNAME>, wys³a³a ich na wieczny odpoczynek. Poszukiwacze przygód maj¹ sk³onnoœci do nieszanowania godnych pamiêci postaci z przesz³oœci. W ka¿dym razie, teraz zbroja nale¿y do ciebie: lekka, b³yszcz¹ca i stylowa. Czegó¿ wiêcej potrzebuje ambitny bard?
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Specjalne: 
+ Umo¿liwia rzucanie czarów
+Waga: 20
+Wymagana si³a: 8~
+@175  = ~Ta bardowa zbroja ma bardzo zacn¹ przesz³oœæ, nale¿a³a niegdyœ do znanego pó³-elfiego barda, Myr'Cutia. Wêdrowa³ on przez Krainy, szukaj¹c przygody, a jego duch by³ tak niespokojny, ¿e po œmierci wci¹¿ wêdrowa³, wraz ze swymi towarzyszami...
+
+By³o tak do czasu, a¿ dru¿yna, któr¹ dowodzi³<HESHE> <CHARNAME>, wys³a³a ich na wieczny odpoczynek. Poszukiwacze przygód maj¹ sk³onnoœci do nie szanowania godnych pamiêci postaci z przesz³oœci. W ka¿dym razie, teraz zbroja nale¿y do ciebie: lekka, b³yszcz¹ca i stylowa. Czegó¿ wiêcej potrzebuje ambitny bard?
+
+Zbroja ta zosta³a ulepszona przez Halbazzera Drina z "Czarodziejskich Rozmaitoœci" we Wrotach Baldura. Po³¹czona ze z³otymi pantalonami zapewnia zwiêkszon¹ ochronê, wci¹¿ wygl¹daj¹c modnie jak przedtem.
+
+PARAMETY:
+
+Klasa Pancerza: 3
+Specjalne: 
+ Umo¿liwia rzucanie czarów 
+Waga: 15
+Wymagana si³a: 7~
+
+@224  = ~Ten wygl¹daj¹cy doœæ tandetnie naszyjnik udekorowany jest kilkoma kamieniami szlachetnymi. Niewielki napis w elfickim wygrawerowany na zamku naszyjnika mówi, ¿e zosta³ on wykonany przez Nadyalê Zielon¹, jako praca dyplomowa nadaj¹ca jej tytu³ Czarodzieja Szko³y Magii Ulcastera. Naszyjnik promieniuje siln¹ magiczn¹ energi¹, ale jak przysta³o na pracê dyplomow¹, wydaje siê niedokoñczony. Przypuszczasz, ¿e Nadyala musia³a mieæ za³o¿ony ten amulet na swoim egzaminie wstêpnym.
+
+PARAMETRY:
+
+Specjalne: pozwala zapamiêtaæ dodatkowy czar z poziomów od pierwszego do trzeciego.~
+@227  = ~Ten ma³y pierœcionek na palec u nogi wykonano z czerwonego z³ota. Noszony by³ przez sukkuba i zawsze jest ciep³y w dotyku. Osoba nosz¹ca ten pierœcieñ nieustannie s³yszy odg³osy otch³ani: kakofonia jêków umêczonych i przeklêtych demonich lordów... Oczywiœcie, osoba nosz¹ca ten pierœcieñ musi byæ na tyle wytrzyma³a, by znieœæ owe odg³osy, jednoczeœnie znajduj¹c w nich przyjemnoœæ.
+
+PARAMETRY:
+
+Specjalne:
+ Okropne Zauroczenie raz dziennie
+ +2 do Charyzmy~
+
+@250  = ~£uk ten Kivan dosta³ od swojej ¿ony Deheriany w prezencie œlubnym.
+
+PARAMETRY:
+
+Specjalne:
+ Klasa Pancerza: 1
+TraK0: +1
+Waga: 2
+OpóŸnienie: 1
+Rodzaj bieg³oœci: d³ugie ³uki
+Typ broni:  2-rêczna
+Wymagana si³a: 6~
+
+@315  = ~Umagiczniony za pomoc¹ krwi zamordowanej driady, pierœcieñ ten chroni w³aœciciela przed Zauroczeniem osoby. Umo¿liwia równie¿ rzucenie tego zaklêcia raz w ci¹gu doby. Jednak¿e, dusza zamordowanej istoty wije siê w widocznej agonii pod powierzchni¹ metalu, odpychaj¹c wszystkie istoty o dobrym charakterze.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na Zauroczenie Osoby
+ Zauroczenie Osoby raz dziennie~
+
+@361  = ~Wiêkszoœæ maczug to po prostu kawa³ki twardego drewna, od strony uchwytu wê¿sze, zaœ po przeciwnej szersze. Ta prosta broñ by³a u¿ywana od czasów, gdy cz³owiek zacz¹³ stosowaæ narzêdzia. Ka¿dy mo¿e znaleŸæ gdzieœ mocny kawa³ek drewna i zacz¹æ nim machaæ, st¹d te¿ popularnoœæ i powszechnoœæ maczug. 
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 1-rêczna~
+@362  = ~Ta magiczna maczuga zosta³a zabrana z cia³a Druida Cienia. <CHARNAME> otrzyma³<HESHE> j¹ od Seniyada, Arcydruida Kniei Otulisko. O ile pochodzenie tej zwodniczo prostej, choæ zdumiewaj¹co œmiertelnej broni jest nieznane, jej nazwa i zwi¹zanie z magi¹ b³yskawic sugeruje kult Talosa. Pomimo potencjalnie z³ych mocy u¿ytych do wykonania tej broni, czary poznania nie wykazuj¹ ¿adnej wrogiej energii ukrytej w tej broni, dziêki czemu mo¿e jej u¿ywaæ ka¿da osoba o powo³aniu druida.
+
+PARAMETRY:
+
+TraK0: +2
+Obra¿enia: 1K6 +2
+Specjalne:
+ Odpornoœæ na elektrycznoœæ: 25%
+ Przyzwanie B³yskawicy raz dziennie
+Typ obra¿eñ: obuchowe
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ broni:  1-rêczna~
+
+@379  = ~G³ownia tej w³óczni nosi ozdobne runy przedstawiaj¹ce ogniste si³y natury. Legenda g³osi, ¿e w³óczniê tê wykona³ potê¿ny arcydruid z Norland, z archipelagu Moonshaes, by chroniæ wyspê i w³aœciciela w³óczni w okresie zimy przed siarczystym mrozem. Broñ ta równie¿ ukaza³a swoj¹ potêgê w walce przeciwko lodowym olbrzymom w Górach Jotunhammer.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 + 1
+TraK0: +1 
+Specjalne: 
+ 50% szansa na zadanie dodatkowego punktu obra¿eñ od ognia 
+ +20 odpornoœæ na ogieñ
+ Mo¿na rzuciæ Ognist¹ tarczê (czerwon¹) raz dziennie
+Typ obra¿eñ: k³ute
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: w³ócznie 
+Typ broni: 2-rêczna
+Wymagana si³a: 5~
+
+@630  = ~Amulet Winski'ego Perorate 
+
+Zainteresowanie Winski'ego Perorate czeluœciami piekielnymi czêsto zmusza³o go do bliskoœci z istotami, które chêtnie dla samej rozrywki wywróci³yby jego flaki na druga stronê. Aby unikn¹æ takiego losu, Winski zleci³ nabassu stworzenie amuletu, który trzyma³by na dystans wszelkie z³e istoty na tyle, by móg³ swobodnie je kontrolowaæ. Niestety, Winski miewa³ doœæ powa¿ne problemy z pamiêci¹ i zapomnia³ aktywowaæ swój amulet. To pozwoli³o przyzwanemu Tanar'ri dostaæ go w swoje ³apy, co zakoñczy³o siê wedle oczekiwañ. 
+
+PARAMETRY:
+
+Gdy noszony: Raz dziennie pozwala rzuciæ Ochronê Przed Z³em w promieniu 10 m~
