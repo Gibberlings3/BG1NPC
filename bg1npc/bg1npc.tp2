@@ -2081,7 +2081,7 @@ BEGIN @1007
 
   /* items */
   /* Ring of Human Influence */
-  COPY_EXISTING ~BG1NPC/Phase1/ITM/X#RINGRO.itm~ ~override/X#RINGRO.itm~
+  COPY ~BG1NPC/Phase1/ITM/X#RINGRO.itm~ ~override/X#RINGRO.itm~
     SAY NAME1 @10
     SAY NAME2 @11
     SAY UNIDENTIFIED_DESC @12
@@ -2090,7 +2090,12 @@ BEGIN @1007
   /* Ajantis shield */
   COPY ~BG1NPC/Phase1/ITM/X#ISHAJ.BAM~ ~override~
   COPY ~BG1NPC/Phase1/ITM/X#CSHAJ.BAM~ ~override~
-  COPY ~BG1NPC/Phase1/ITM/X#AJSHLD.itm~ ~override~
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+	COPY ~BG1NPC/Phase1/ITM/X#AJSHLD_EE.itm~ ~override/x#ajshld.itm~
+  END ELSE BEGIN /* Tutu or BGT */
+	  COPY ~BG1NPC/Phase1/ITM/X#AJSHLD.itm~ ~override~
+  END
+  COPY_EXISTING ~X#AJSHLD.itm~ ~override~
     SAY NAME1 @6
     SAY NAME2 @7
     SAY UNIDENTIFIED_DESC @8
@@ -2098,6 +2103,7 @@ BEGIN @1007
       PATCH_IF GAME_IS ~bgee bgt~ BEGIN
         WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon8
       END
+    BUT_ONLY
 
   /* BGEE: Add Ajantis' shield to item_use.2da */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN 

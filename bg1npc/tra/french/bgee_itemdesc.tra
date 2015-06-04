@@ -6,9 +6,8 @@ Ce bouclier en particulier porte les armoiries de la noble famille Ilvastarr d'E
 PARAMETRES :
 
 Bonus à la classe d'armure : 1
-Poids : 7
-Spécial :
-  Accorde le rang de spécialiste en Epée et Bouclier quand on l'a en main.~
+Spécial : +2 contre les armes à projectiles
+Poids : 7~
 
 // Translation Retriever: Likely string found in file dialog ToB En.tra at Id 6727, likeliness 93.4 %
 @76    = ~La lance, l'une des premières armes de l'homme, remonte aux temps les plus reculés et était initialement constituée d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les hommes ont commencé à remplacer les pointes en bois par des pointes en fer et en acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast.
