@@ -388,7 +388,7 @@ CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#JaheiraHealsB","GLOBAL",4)~ THEN ~X#BEA
 == ~X#BEADOR~ @63
 END
 IF ~InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ DO ~SetGlobal("X#JaheiraHealsB","GLOBAL",5)~ EXTERN ~%KHALID_JOINED%~ KhalidBeadorTalk 
-IF ~OR(2) !InParty("khalid") Dead("khalid")~ DO ~SetGlobal("X#JaheiraHealsB","GLOBAL",5)~ EXTERN ~%JAHEIRA_JOINED%~ JaheiraBeadorNoKhalidTalk
+IF ~OR(3) !InParty("khalid") !InMyArea("khalid") StateCheck("khalid",CD_STATE_NOTVALID)~ DO ~SetGlobal("X#JaheiraHealsB","GLOBAL",5)~ EXTERN ~%JAHEIRA_JOINED%~ JaheiraBeadorNoKhalidTalk
 
 CHAIN ~%KHALID_JOINED%~ KhalidBeadorTalk
 @64

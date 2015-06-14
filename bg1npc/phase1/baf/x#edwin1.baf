@@ -10,18 +10,26 @@
 /* IF X#EdwinDynaheir=5, GTE(X#EdwinKillsDynaheir) Edwin kills Dy */
 /* Backup script IF X#EdwinDynaheir=5, GTE(X#EdwinKillsDynaheir) Edwin kills Dy */
 
-/* start the timer */
+/* start the Edwin friend talk timer */
 IF %BGT_VAR%
 InParty(Myself)
 Global("X#EDPCTimerStarted","GLOBAL",0)
 Global("X#EdwinFriendTalk","GLOBAL",0)
-Global("X#EdwinDynaheir","GLOBAL",0)
 THEN
 RESPONSE #100
 RealSetGlobalTimer("X#EDFriendTalkTime","GLOBAL",3600)
-RealSetGlobalTimer("X#EDDynaTalkTime","GLOBAL",7200)
 SetGlobal("X#EDPCTimerStarted","GLOBAL",1)
 SetGlobal("X#EdwinFriendTalk","GLOBAL",1)
+END
+
+/* start the Edwin-Dynaheir talk timer */
+IF %BGT_VAR%
+InParty(Myself)
+InParty("Dynaheir")
+Global("X#EdwinDynaheir","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("X#EDDynaTalkTime","GLOBAL",7200)
 SetGlobal("X#EdwinDynaheir","GLOBAL",1)
 END
 
