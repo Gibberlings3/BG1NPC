@@ -116,7 +116,10 @@ Durlyle estaba interesado en algo más que la amistad. De hecho fue tan transpare
 @113  = ~¿La invocación de un demonio? ¡<CHARNAME>, debemos marcharnos! ¡Dejad a estos a su suerte!~
 @114  = ~¿O debo usar los poderes divinos de Shar para enviarlos contra vos y tomar vuestro dinero?~
 @115  = ~¡Por favor, señora, casi no tenemos dinero! ¡Somos gente normal! La... la oferta sigue igual, y espero que hagáis lo correcto.~
-@116  = ~Así que aquí estamos, varados en un trozo de hielo en medio del océano sin comida o cobijo. ¿No os hace gracia, <CHARNAME>, el que estemos más a salvo ahora que antes? ¿O estáis ocupado pensando cómo salir de aquí luchando contra todo hasta llegar a nuestra perdición?~
+// Duplicate with different text!
+// Last occurence kept as it is how WeiDU handles the case
+//@116  = ~Así que aquí estamos, varados en un trozo de hielo en medio del océano sin comida o cobijo. ¿No os hace gracia, <CHARNAME>, el que estemos más a salvo ahora que antes? ¿O estáis ocupado pensando cómo salir de aquí luchando contra todo hasta llegar a nuestra perdición?~
+@116  = ~Aquí estamos, en el medio del hielo en el océano, sin comida o refugio. ¿Os parece entretenido, <CHARNAME>, que estemos más a salvo ahora que antes? ¿O estáis pensando ya como salir de este sitio seguro para llegar hasta nuestra muerte?~
 @117  = ~Doce Farfulladores... no, pero puede que los trece sí...~
 @118  = ~*suspiros* Tengo el presentimiento de que el barco es el único en el puerto, y vamos a perderlo... ~
 @119  = ~¿Qué más es Evereska, si no una gran Torre de Durlag? Nos aislamos del mundo, creamos trampas y defensas, todas ilusiones y fantasmas de nuestro orgullo y arrogancia... No hay solución. Los de mi raza estamos destinados a morir tal y cómo el clan de Durlag y nada podrá salvarnos.~
@@ -146,5 +149,3 @@ Durlyle estaba interesado en algo más que la amistad. De hecho fue tan transpare
 @2005 = ~Sé que muchos druidas escogieron este camino para acercarse a la naturaleza, ¡pero me siento mejor con mis propios poderes! Por Silvanus, debemos revertir esta maldición, porque de seguro ninguno de nosotros desea pasar toda su vida dentro de la piel de lobo. Una forma de revertirla es... ¡matando al jefe! ¡Matemos a Kaishas! ¡Rápido!~
 @2006 = ~¿Regalo? Lo llamaría regalo si preguntaseis antes de dárnoslo. Los lobos son orgullosos y no hay que avergonzarse de tener sangre lupina. Al no darnos la elección, nos has condenado, Kaishas.~
 @2007 = ~Pensad en ello como queráis, pero ahora pertenecéis. ~
-@11   = ~Estamos... ¿Atrapados? Pero... ¡hace tanto frío...! ~
-@116  = ~Aquí estamos, en el medio del hielo en el océano, sin comida o refugio. ¿Os parece entretenido, <CHARNAME>, que estemos más a salvo ahora que antes? ¿O estáis pensando ya como salir de este sitio seguro para llegar hasta nuestra muerte?~
