@@ -720,19 +720,19 @@ No permitido a:
 @468  = ~Pergamino de <CHARNAME>~
 @469  = ~Juramento de lealtad de Dynaheir:
 
-Lord <CHARNAME> de Candelero, hijo de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <Player2>,<Player3>, <Player4>, <Player5>, <Player6>, todos ellos hombres y mujeres de honor.
+Lord <CHARNAME> de Candelero, hijo de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <PLAYER2>,<PLAYER3>, <PLAYER4>, <PLAYER5>, <PLAYER6>, todos ellos hombres y mujeres de honor.
 
 Por lo tanto, que todos los presentes conozcan lo que la susodicha Dynaheir promete a vos,  mi lord <CHARNAME>, Hijo de Bhaal, y a vuestros sucesores. Que por el nombre de los Tres siempre seré leal vasalla, os defenderé a vos y a vuestros sucesores contra enemigos e invasores cuando lo requiráis, aunque sea en mi propio perjuicio; y os otorgo completo poder sobre mis posesiones, en tiempos de paz o de guerra, para que sean reclamadas por vos o vuestros sucesores.
 
-Escrito en el año <YEAR>. Atestiguado por <Player2>, <Player3>,<Player4>, <Player5>, <Player6>, Lord <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
+Escrito en el año <YEAR>. Atestiguado por <PLAYER2>, <PLAYER3>,<PLAYER4>, <PLAYER5>, <PLAYER6>, Lord <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
 
 Y yo, la monje Dominique, he transcrito en esta carta las palabras de la susodicha Lady Dynaheir, Hathran de Rashemen en la fecha citada, en presencia de todos los nombrados anteriormente.~ ~Juramento de lealtad de Dynaheir:
 
-Lady <CHARNAME> de Candelero, hija de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <Player2>,<Player3>, <Player4>, <Player5>, <Player6>, todos ellos hombres y mujeres de honor.
+Lady <CHARNAME> de Candelero, hija de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <PLAYER2>,<PLAYER3>, <PLAYER4>, <PLAYER5>, <PLAYER6>, todos ellos hombres y mujeres de honor.
 
 Por lo tanto, que todos los presentes conozcan lo que la susodicha Dynaheir promete a vos,  mi lady <CHARNAME>, Hija de Bhaal, y a vuestros sucesores. Que por el nombre de los Tres siempre seré leal vasalla, os defenderé a vos y a vuestros sucesores contra enemigos e invasores cuando lo requiráis, aunque sea en mi propio perjuicio; y os otorgo completo poder sobre mis posesiones, en tiempos de paz o de guerra, para que sean reclamadas por vos o vuestros sucesores.
 
-Escrito en el año <YEAR>. Atestiguado por <Player2>, <Player3>,<Player4>, <Player5>, <Player6>, Lady <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
+Escrito en el año <YEAR>. Atestiguado por <PLAYER2>, <PLAYER3>,<PLAYER4>, <PLAYER5>, <PLAYER6>, Lady <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
 
 Y yo, la monje Dominique, he transcrito en esta carta las palabras de la susodicha Lady Dynaheir, Hathran de Rashemen en la fecha citada, en presencia de todos los nombrados anteriormente.~
 @470  = ~Retrato de <CHARNAME>~

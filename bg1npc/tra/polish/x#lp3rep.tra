@@ -94,7 +94,9 @@
 @92   = ~Nie wiem, <CHARNAME>... brzmi trochê okropnie, jeœli chcesz znaæ moje zdanie.~
 @93   = ~Kogo obchodzi co ludzie o nas mówi¹, póki mamy ubaw!~
 @94   = ~Mam lepszy pomys³. WeŸmy forsê i zróbmy wielk¹ imprezê, a wtedy na pewno WSZYSCY nas polubi¹!~
-@95   = ~Wiêc co ty na to? Rzeknij tylko jedno s³owo, a wszyscy bêd¹ dr¿eli na twój widok, od jednego krañca Wybrze¿y Mieczy do drugiego. Nie jestem tani, ale za to s³owny.~
+// Duplicate with different text!
+// Last occurence kept as it is how WeiDU handles the case
+//@95   = ~Wiêc co ty na to? Rzeknij tylko jedno s³owo, a wszyscy bêd¹ dr¿eli na twój widok, od jednego krañca Wybrze¿y Mieczy do drugiego. Nie jestem tani, ale za to s³owny.~
 @95   = ~Z ca³¹ pewnoœci¹, taki œwiatowiec jak ty, potrafi dostrzec potencja³ tej oferty. Co powiesz? Mam przemieniæ twe z³oto w s³owa?~
 @96   = ~Po co mia³bym p³aciæ komuœ, by mnie oczerni³?~ ~Po co mia³abym p³aciæ komuœ, by mnie oczerni³?~
 @97   = ~Najwy¿szy czas by ludzie zrozumieli, ¿e dysponujê potê¿n¹ moc¹. Niech ludzie wiedz¹, ¿e nie mo¿na mnie lekcewa¿yæ.~
