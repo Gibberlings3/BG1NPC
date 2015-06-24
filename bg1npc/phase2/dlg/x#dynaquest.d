@@ -1,5 +1,5 @@
 /* Dynaheir Quest */
-/* BEGINS FROM FW4200 the end of the Drizzt/Gnools encounter. After Drizzt is helped, */
+/* BEGINS FROM FW4200 the end of the Drizzt/Gnolls encounter. After Drizzt is helped, */
 /* Drizzt says thanks. He sets a global which allows the rest of the quest to start then this quest starts. */
 /* BEGIN X#DYNAQUEST.D */
 
@@ -9,8 +9,9 @@ BEGIN ~X#WINSKI~
 BEGIN ~X#TANARI~
 BEGIN ~X#DRIZZT~
 
-I_C_T ~%tutu_var%DRIZZT~ 10 X#DynaheirQuestAvailable
-== ~%tutu_var%DRIZZT~ IF ~Global("X#DynaJournal","GLOBAL",0)~ THEN @0 DO ~SetGlobal("X#DynaJournal","GLOBAL",1) AddJournalEntry(@225,INFO)~
+I_C_T ~%tutu_var%DRIZZT~ 10 X#DynaJournal
+== ~%tutu_var%DRIZZT~ IF ~~ THEN @0 DO ~AddJournalEntry(@225,INFO)~
+== ~%tutu_var%DRIZZT~ @226
 END
 
 /* First Meet Dynaheir - is in the party, whether or not party has already met Drizzt */
@@ -507,6 +508,6 @@ CHAIN ~%tutu_var%DYNAHE~ X#EdandDyBothTogether
 == ~%tutu_var%DYNAHE~ @217
 == ~%EDWIN_JOINED%~ @218
 END
-++ @219 DO ~ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
-++ @221 DO ~ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
-++ @222 DO ~ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
+++ @219 DO ~%BGEEDynaheirEraseJournalEntries% ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
+++ @221 DO ~%BGEEDynaheirEraseJournalEntries% ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT
+++ @222 DO ~%BGEEDynaheirEraseJournalEntries% ActionOverride("Minsc",DialogueInterrupt(TRUE)) ActionOverride("minsc",JoinParty()) ActionOverride("dynaheir",JoinParty())~ SOLVED_JOURNAL @220 EXIT

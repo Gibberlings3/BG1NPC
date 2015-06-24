@@ -98,8 +98,8 @@ Seguramente  Imoen nunca será una gran joyera, pero el amuleto se mantiene bien 
 @25   = ~[FEMALE THREAT 5] Creo vais a estar criando malvas antes de que termine la noche.~ [%tutu_var%GENFT05]
 @26   = ~[FEMALE THREAT 2] Creo que acabaré con vuestra vida aquí mismo.~ [%tutu_var%GENFT02]
 @27   = ~[FEMALE THREAT 4] Vuestro fin será rápido, si así lo deseáis.~ [%tutu_var%GENFT04]
-@28   = ~[ABELA 3]~ [%tutu_var%ABELA03]
-@29   = ~[ABELA 4]~ [%tutu_var%ABELA04]
+@28   = ~[GENERIC FEMALE INJURY 1]~ [%tutu_var%WOMCO03]
+@29   = ~[GENERIC FEMALE DEATH 1]~ [%tutu_var%WOMCO04]
 @30   = ~Bandido de la caravana~
 @31   = ~[BANDITS 1] Así que le pateé la cabeza hasta que murió. Jar jar.~ [%tutu_var%BANDT01]
 @32   = ~[BANDITS 5]~ [%tutu_var%BANDT05]
@@ -720,19 +720,19 @@ No permitido a:
 @468  = ~Pergamino de <CHARNAME>~
 @469  = ~Juramento de lealtad de Dynaheir:
 
-Lord <CHARNAME> de Candelero, hijo de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <Player2>,<Player3>, <Player4>, <Player5>, <Player6>, todos ellos hombres y mujeres de honor.
+Lord <CHARNAME> de Candelero, hijo de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <PLAYER2>,<PLAYER3>, <PLAYER4>, <PLAYER5>, <PLAYER6>, todos ellos hombres y mujeres de honor.
 
 Por lo tanto, que todos los presentes conozcan lo que la susodicha Dynaheir promete a vos,  mi lord <CHARNAME>, Hijo de Bhaal, y a vuestros sucesores. Que por el nombre de los Tres siempre seré leal vasalla, os defenderé a vos y a vuestros sucesores contra enemigos e invasores cuando lo requiráis, aunque sea en mi propio perjuicio; y os otorgo completo poder sobre mis posesiones, en tiempos de paz o de guerra, para que sean reclamadas por vos o vuestros sucesores.
 
-Escrito en el año <YEAR>. Atestiguado por <Player2>, <Player3>,<Player4>, <Player5>, <Player6>, Lord <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
+Escrito en el año <YEAR>. Atestiguado por <PLAYER2>, <PLAYER3>,<PLAYER4>, <PLAYER5>, <PLAYER6>, Lord <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
 
 Y yo, la monje Dominique, he transcrito en esta carta las palabras de la susodicha Lady Dynaheir, Hathran de Rashemen en la fecha citada, en presencia de todos los nombrados anteriormente.~ ~Juramento de lealtad de Dynaheir:
 
-Lady <CHARNAME> de Candelero, hija de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <Player2>,<Player3>, <Player4>, <Player5>, <Player6>, todos ellos hombres y mujeres de honor.
+Lady <CHARNAME> de Candelero, hija de Bhaal, solicita que le jure lealtad. En el nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizar mi juramento ante el testimonio de <PLAYER2>,<PLAYER3>, <PLAYER4>, <PLAYER5>, <PLAYER6>, todos ellos hombres y mujeres de honor.
 
 Por lo tanto, que todos los presentes conozcan lo que la susodicha Dynaheir promete a vos,  mi lady <CHARNAME>, Hija de Bhaal, y a vuestros sucesores. Que por el nombre de los Tres siempre seré leal vasalla, os defenderé a vos y a vuestros sucesores contra enemigos e invasores cuando lo requiráis, aunque sea en mi propio perjuicio; y os otorgo completo poder sobre mis posesiones, en tiempos de paz o de guerra, para que sean reclamadas por vos o vuestros sucesores.
 
-Escrito en el año <YEAR>. Atestiguado por <Player2>, <Player3>,<Player4>, <Player5>, <Player6>, Lady <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
+Escrito en el año <YEAR>. Atestiguado por <PLAYER2>, <PLAYER3>,<PLAYER4>, <PLAYER5>, <PLAYER6>, Lady <CHARNAME> de Candelero, quien ha aceptado el juramento de la presente Hathran.
 
 Y yo, la monje Dominique, he transcrito en esta carta las palabras de la susodicha Lady Dynaheir, Hathran de Rashemen en la fecha citada, en presencia de todos los nombrados anteriormente.~
 @470  = ~Retrato de <CHARNAME>~
@@ -1105,3 +1105,4 @@ Talento marcial: Ballesta
 
 Peso: 1Ib~
 @774 = ~Arco Corto de Gesen~
+@775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]

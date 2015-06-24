@@ -12,7 +12,7 @@ IF
 	Range(NearestEnemyOf(Myself),7)
 THEN
 	RESPONSE #100
-		RunAwayFrom(NearestEnemyOf(Myself),30)
+		%RunAwayFrom%(NearestEnemyOf(Myself),30)
 END
 
 

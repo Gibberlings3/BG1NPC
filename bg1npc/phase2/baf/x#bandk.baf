@@ -1,0 +1,20 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Help()
+		Enemy()
+END
+
+IF
+	OR(2)
+		Help("x#bandk")
+		Help("x#kaband")
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+		Attack(NearestEnemyOf(LastHelp(Myself)))
+END
+

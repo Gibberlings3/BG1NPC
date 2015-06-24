@@ -548,7 +548,7 @@ IF
 	!StateCheck(Myself,STATE_INVISIBLE)
 THEN
 	RESPONSE #100
-		RunAwayFrom(LastSeenBy(Myself),10)
+		%RunAwayFrom%(LastSeenBy(Myself),10)
 		Continue()
 END
 

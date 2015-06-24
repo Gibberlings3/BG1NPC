@@ -163,7 +163,7 @@ APPEND ~%XZAR_JOINED%~
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#XzarBoss","GLOBAL",7)~ THEN BEGIN XZNI1.6
 SAY @38
 IF ~InParty("montaron") InMyArea("montaron") !StateCheck("montaron",CD_STATE_NOTVALID)~ THEN GOTO XZNI1.7
-IF ~OR(2) !InParty("montaron") Dead("montaron")~ THEN GOTO XZNI1.8
+IF ~OR(3) !InParty("montaron") !InMyArea("montaron") StateCheck("montaron",CD_STATE_NOTVALID)~ THEN GOTO XZNI1.8
 END
 
 IF ~~ XZNI1.7

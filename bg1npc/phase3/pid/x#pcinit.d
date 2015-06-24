@@ -2455,7 +2455,7 @@ SAY @619
 + ~Global("X#SafanaPIDNashkel","GLOBAL",0) Gender(Player1,MALE) CheckStatGT(Player1,14,CHR) ReputationGT(Player1,8) ReputationLT(Player1,18) CheckStatGT(Player1,7,INT) OR(2) Global("NarlenMove","GLOBAL",0) Global("NarlenMove","GLOBAL",10) !AreaCheck("%NashkelMines_L1%") !AreaCheck("%NashkelMines_L2%") !AreaCheck("%NashkelMines_L3%") !AreaCheck("%NashkelMines_L4%") OR(4) AreaCheck("%CloakwoodMines_L1%") AreaCheck("%CloakwoodMines_L3%") AreaCheck("%CloakwoodMines_L4%") AreaCheck("%CloakwoodMines_L2%") RandomNum(4,3)~ + @628 + SafanaAdvice3
 + ~Global("X#SafanaPIDNashkel","GLOBAL",0) Gender(Player1,MALE) CheckStatGT(Player1,14,CHR) ReputationGT(Player1,8) ReputationLT(Player1,18) CheckStatGT(Player1,7,INT) OR(2) Global("NarlenMove","GLOBAL",0) Global("NarlenMove","GLOBAL",10) !AreaCheck("%NashkelMines_L1%") !AreaCheck("%NashkelMines_L2%") !AreaCheck("%NashkelMines_L3%") !AreaCheck("%NashkelMines_L4%") OR(4) AreaCheck("%CloakwoodMines_L1%") AreaCheck("%CloakwoodMines_L3%") AreaCheck("%CloakwoodMines_L4%") AreaCheck("%CloakwoodMines_L2%") RandomNum(4,4)~ + @628 + SafanaAdvice4
 
-+ ~ReputationGT(Player1,8) ReputationLT(Player1,18) CheckStatGT(Player1,7,INT) OR(2) GlobalGT("NarlenMove","GLOBAL",0) GlobalLT("NarlenMove","GLOBAL",10) !AreaCheck("%NashkelMines_L1%") !AreaCheck("%NashkelMines_L2%") !AreaCheck("%NashkelMines_L3%") !AreaCheck("%NashkelMines_L4%") !AreaCheck("%CloakwoodMines_L1%") !AreaCheck("%CloakwoodMines_L3%") !AreaCheck("%CloakwoodMines_L4%") !AreaCheck("%CloakwoodMines_L2%")~ + @628 DO ~SetGlobal("X#SafanaPIDNashkel","GLOBAL",1)~ + SafanaAdvice10
++ ~ReputationGT(Player1,8) ReputationLT(Player1,18) CheckStatGT(Player1,7,INT) GlobalGT("NarlenMove","GLOBAL",0) GlobalLT("NarlenMove","GLOBAL",10) !AreaCheck("%NashkelMines_L1%") !AreaCheck("%NashkelMines_L2%") !AreaCheck("%NashkelMines_L3%") !AreaCheck("%NashkelMines_L4%") !AreaCheck("%CloakwoodMines_L1%") !AreaCheck("%CloakwoodMines_L3%") !AreaCheck("%CloakwoodMines_L4%") !AreaCheck("%CloakwoodMines_L2%")~ + @628 DO ~SetGlobal("X#SafanaPIDNashkel","GLOBAL",1)~ + SafanaAdvice10
 
 ++ @629 + SafanaVoice
 END
@@ -2901,7 +2901,7 @@ END
 
 IF ~~ AloraPID2.6
 SAY @774
-IF ~~ DO ~RunAwayFrom(Player1,50)~ EXIT
+IF ~~ DO ~%RunAwayFrom%(Player1,50)~ EXIT
 END
 
 IF ~~ AloraPID2.7

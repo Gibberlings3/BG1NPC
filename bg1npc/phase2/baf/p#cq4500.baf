@@ -10,6 +10,8 @@ END
 
 IF %BGT_VAR%
 Dead("X#amelia")
+Exists("natan")
+!Dead("natan")
 !Allegiance("natan",NEUTRAL)
 THEN
 RESPONSE #100
@@ -18,12 +20,14 @@ END
 
 IF %BGT_VAR%
 Dead("X#amelia")
-!Allegiance("coran",ALLY)
-!Global("X#CoranCharmed","GLOBAL",2)
+OR(4)
+Global("X#CoranSuccubus","GLOBAL",9)
+Global("X#CoranSuccubus","GLOBAL",10)
+Global("X#CoranSuccubus","GLOBAL",11)
+Global("X#CoranSuccubus","GLOBAL",14)
 THEN
 RESPONSE #100
-ChangeEnemyAlly("coran",ALLY)
-SetGlobal("X#CoranCharmed","GLOBAL",2)
+SetGlobal("X#CoranSuccubus","GLOBAL",13)
 END
 
 IF %BGT_VAR%
@@ -36,7 +40,28 @@ THEN
 RESPONSE #100
 SetGlobal("X#CoranCharmed","GLOBAL",2)
 FadeToColor([20.0],0)
+ChangeEnemyAlly("coran",ALLY)
 MoveGlobalObject("coran",Player1)
 ActionOverride("coran",JoinParty())
 FadeFromColor([20.0],0)
+END
+
+IF %BGT_VAR%
+OR(2)
+Dead("X#amelia")
+Global("X#CoranSuccubus","GLOBAL",16)
+InParty("coran")
+Global("X#CoranCharmed","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#CoranCharmed","GLOBAL",2)
+ChangeEnemyAlly("coran",ALLY)
+END
+
+IF %BGT_VAR%
+Dead("X#amelia")
+Global("X#CoranTakesRoses","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#CoranTakesRoses","GLOBAL",2)
 END
