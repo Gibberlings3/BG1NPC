@@ -1,23 +1,49 @@
 /* X#LP2R.BAF */
 IF
-See([PC])
-!AreaCheck("%Peldvale%")
-Global("X#LP2RExists","GLOBAL",1)
-Global("X#TT2Deactivate","GLOBAL",0)
+	OR(2)
+		AttackedBy([GOODCUTOFF],DEFAULT)
+		HitBy([GOODCUTOFF],CRUSHING)
+	Allegiance(Myself,NEUTRAL)
 THEN
-  RESPONSE #50
-  DisplayStringHead(Myself,@0)
-  Wait(20)
-  RESPONSE #50
-  DisplayStringHead(Myself,@1)
-  Wait(20)
-  RESPONSE #50
-  DisplayStringHead(Myself,@2)
-  Wait(20)
-  RESPONSE #50
-  DisplayStringHead(Myself,@3)
-  Wait(20)
-  RESPONSE #50
-  DisplayStringHead(Myself,@4)
-  Wait(20)
+	RESPONSE #100
+		Shout(99)
+		PlaySound("%tutu_var%EDWIN43")
+		%RunAwayFrom%(LastAttackerOf(Myself),180)
+		DialogInterrupt(FALSE)
+		Global("X#TT2Deactivate","GLOBAL",1)
 END
+
+IF
+	Heard([ANYONE],99)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		%RunAwayFrom%(LastHeardBy(Myself),180)
+		DialogInterrupt(FALSE)
+		Global("X#TT2Deactivate","GLOBAL",1)
+END
+
+IF
+	!AreaCheck("%Peldvale%")
+	See([PC])
+	Global("X#LP2RExists","GLOBAL",1)
+	Global("X#TT2Deactivate","GLOBAL",0)
+	!Allegiance(Myself,ENEMY)
+THEN
+  	RESPONSE #50
+  		DisplayStringHead(Myself,@0)
+ 		Wait(20)
+  	RESPONSE #50
+  		DisplayStringHead(Myself,@1)
+  		Wait(20)
+  	RESPONSE #50
+  		DisplayStringHead(Myself,@2)
+  		Wait(20)
+  	RESPONSE #50
+  		DisplayStringHead(Myself,@3)
+  		Wait(20)
+  	RESPONSE #50
+  		DisplayStringHead(Myself,@4)
+  		Wait(20)
+END
+
