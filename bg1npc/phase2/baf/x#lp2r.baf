@@ -10,7 +10,7 @@ THEN
 		PlaySound("%tutu_var%EDWIN43")
 		%RunAwayFrom%(LastAttackerOf(Myself),180)
 		DialogInterrupt(FALSE)
-		Global("X#TT2Deactivate","GLOBAL",1)
+		SetGlobal("X#TT2Deactivate","GLOBAL",1)
 END
 
 IF
@@ -20,7 +20,7 @@ THEN
 	RESPONSE #100
 		%RunAwayFrom%(LastHeardBy(Myself),180)
 		DialogInterrupt(FALSE)
-		Global("X#TT2Deactivate","GLOBAL",1)
+		SetGlobal("X#TT2Deactivate","GLOBAL",1)
 END
 
 IF
