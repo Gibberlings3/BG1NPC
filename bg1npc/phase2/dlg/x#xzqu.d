@@ -474,7 +474,8 @@ ActionOverride("faldorn",LeaveParty()) ActionOverride("faldorn",Enemy())
 ActionOverride("minsc",LeaveParty()) ActionOverride("minsc",Enemy())
 ActionOverride("khalid",LeaveParty()) ActionOverride("khalid",Enemy())
 ActionOverride("ajantis",LeaveParty()) ActionOverride("ajantis",Enemy())
-ActionOverride("dynaheir",LeaveParty()) ActionOverride("dynaheir",Enemy())~ SOLVED_JOURNAL @127
+ActionOverride("dynaheir",LeaveParty()) ActionOverride("dynaheir",Enemy()) 
+%BGEEXzarEraseJournalEntries%~ SOLVED_JOURNAL @127
 EXIT
 END
 END
@@ -606,8 +607,8 @@ CHAIN IF ~%BGT_VAR% Global("X#XzarDryad","GLOBAL",1)~ THEN ~%XZAR_JOINED%~ X#XZD
 @165
 == ~%tutu_var%DRYAD~ @166
 END
-IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",3)AddexperienceParty(500) EscapeAreaDestroy(5)
-~ SOLVED_JOURNAL @167 EXTERN ~%XZAR_JOINED%~ XzarDryadLast1
+IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",3) AddExperienceParty(500) EscapeAreaDestroy(5)
+%BGEEXzarEraseJournalEntries%~ SOLVED_JOURNAL @167 EXTERN ~%XZAR_JOINED%~ XzarDryadLast1
 
 CHAIN ~%XZAR_JOINED%~ XzarDryadLast1
 @168
@@ -635,8 +636,8 @@ CHAIN IF ~%BGT_VAR% Global("X#XzarDryad","GLOBAL",1)~ THEN ~%XZAR_JOINED%~ X#XZD
 @171
 == ~%tutu_var%DRYAD~ @166
 END
-IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",3)AddexperienceParty(500) EscapeAreaDestroy(5)
-~ SOLVED_JOURNAL @167 EXTERN ~%XZAR_JOINED%~ XzarDryadLast1
+IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",3) AddExperienceParty(500) EscapeAreaDestroy(5)
+%BGEEXzarEraseJournalEntries%~ SOLVED_JOURNAL @167 EXTERN ~%XZAR_JOINED%~ XzarDryadLast1
 
 
 //Third Case
@@ -661,8 +662,8 @@ CHAIN IF ~%BGT_VAR% Global("X#XzarDryad","GLOBAL",1)~ THEN ~%XZAR_JOINED%~ X#XZD
 == ~%tutu_var%DRYAD~ @166
 = @173
 END
-IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",3)AddexperienceParty(500) EscapeAreaDestroy(5)
-~ SOLVED_JOURNAL @174 EXTERN ~%XZAR_JOINED%~ XzarDryadLast1
+IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",3) AddExperienceParty(500) EscapeAreaDestroy(5)
+%BGEEXzarEraseJournalEntries%~ SOLVED_JOURNAL @174 EXTERN ~%XZAR_JOINED%~ XzarDryadLast1
 
 /* Druids */
 

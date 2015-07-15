@@ -4356,12 +4356,17 @@ END
   EXTEND_BOTTOM ~%ValleyoftheTombsTomb_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW5001.BAF~
     EVALUATE_BUFFER
 
+  /* Add journal entries for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
+    
   /* dialogues */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  	OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
+  END ELSE BEGIN
+  	OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
+  END
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XZQU.D~
   
-  /* Add journal entries for BGEE */
-  ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGAUGE%/x#xzqu.tra~
-    
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#BLACK.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#STORM.BAF~
