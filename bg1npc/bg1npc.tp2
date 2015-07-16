@@ -377,28 +377,28 @@ END // of A_I G_I Tutu, BGT
 					INT_VAR do_message = 1
 				END
 				/* do all the stuff we do to .cres in one tower of P_I */
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%ajanti.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti.cre~) BEGIN
 					WRITE_BYTE 0x54 12 // Save vs. Death
 					WRITE_BYTE 0x55 14 // Save vs. Wand
 					WRITE_BYTE 0x56 13 // Save vs. Polymorph
 					WRITE_BYTE 0x57 15 // Save vs. Breath
 					WRITE_BYTE 0x58 15 // Save vs. Spells
 				END	
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%ajanti4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti4.cre~) BEGIN
 					WRITE_BYTE 0x54 11 // Save vs. Death
 					WRITE_BYTE 0x55 13 // Save vs. Wand
 					WRITE_BYTE 0x56 12 // Save vs. Polymorph
 					WRITE_BYTE 0x57 14 // Save vs. Breath
 					WRITE_BYTE 0x58 14 // Save vs. Spells
 				END	
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%ajanti6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti6.cre~) BEGIN
 					WRITE_BYTE 0x54 9  // Save vs. Death
 					WRITE_BYTE 0x55 11 // Save vs. Wand
 					WRITE_BYTE 0x56 10 // Save vs. Polymorph
 					WRITE_BYTE 0x57 11 // Save vs. Breath
 					WRITE_BYTE 0x58 12 // Save vs. Spells
 				END		
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%alora.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%alora.cre~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%ALORA~ #8 //  override script
 					WRITE_ASCIIE 0x2CC ~%tutu_var%ALORA~ #8 //  dialog
 					WRITE_BYTE 0x54 10 // Save vs. Death
@@ -407,7 +407,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 12 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%alora6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%alora6.cre~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%ALORA~ #8 //  override script
 					WRITE_ASCIIE 0x2CC ~%tutu_var%ALORA~ #8 //  dialog
 					WRITE_BYTE 0x54 9  // Save vs. Death
@@ -416,7 +416,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 15 // Save vs. Breath
 					WRITE_BYTE 0x58 10 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%bently.cre~ = 0) BEGIN /* Bentley Mirrorshade (in FAI L1) */
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%bently.cre~) BEGIN /* Bentley Mirrorshade (in FAI L1) */
 					WRITE_SHORT 0x24 50 // Current HP (was 41)
 					WRITE_SHORT 0x26 50 // Max HP (was 41)
 					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
@@ -444,37 +444,37 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi506~ #4 ~wizard~ // Domination
 					ADD_MEMORIZED_SPELL ~spwi521~ #4 ~wizard~ // Conjure Lesser Earth Elemental
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_branwe.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_branwe.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
 				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_branwe5.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_branwe5.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
 					WRITE_BYTE 0x66 5 // Lore
 				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
       				END	 
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe5.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
       				END	 
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~branwe5.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
       				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%coran.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%coran.cre~) BEGIN
 					WRITE_BYTE 0x24 24 // Current Hit Points
 					WRITE_BYTE 0x26 24 // Maximum Hit Points
 					WRITE_BYTE 0x66 9  // Lore
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%coran5.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%coran5.cre~) BEGIN
 					WRITE_BYTE 0x66 15 // Lore
 					WRITE_BYTE 0x52 16 // THAC0
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%delsvir.cre~ = 0) BEGIN /* Delsvirtanyon (in Ulgoth's Beard) */
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%delsvir.cre~) BEGIN /* Delsvirtanyon (in Ulgoth's Beard) */
 					WRITE_LONG 0x14 976 // XP Value (was 801)
 					WRITE_SHORT 0x28 0x6304 // Animation (thief_male_gnome, was 0x5302 dwarf_low)
 					WRITE_BYTE 0x52 17 // THAC0 (was 16)
@@ -499,7 +499,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi304~ #2 ~wizard~ // Fireball
 					ADD_MEMORIZED_SPELL ~spwi401~ #2 ~wizard~ (2) // Confusion
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%dushai.cre~ = 0) BEGIN // Dushai (in Ulgoth's Beard)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%dushai.cre~) BEGIN // Dushai (in Ulgoth's Beard)
 					WRITE_LONG 0x14 2001 // XP Value (was 11)
 					WRITE_SHORT 0x24 55 // Current HP (was 25)
 					WRITE_SHORT 0x26 55 // Max HP (was 25)
@@ -544,25 +544,25 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi421~ #3 ~wizard~ // Teleport Field
 					ADD_MEMORIZED_SPELL ~spwi508~ #4 ~wizard~ (3) // Chaos
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_faldor.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_faldor.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
 				END	 
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_faldor5.cre~ = 0) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~_faldor5.cre~) BEGIN
       					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE  ~faldor.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
       				END	 
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~faldor5.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE  ~faldor.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
       				END	 
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~faldor5.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
       				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%galtok.cre~ = 0) BEGIN // Galtok (in Nashkel Mines)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%galtok.cre~) BEGIN // Galtok (in Nashkel Mines)
 				  WRITE_LONG 0x14 176 // XP Value (was 151)
 					WRITE_SHORT 0x24 25 // Current HP (was 2)
 					WRITE_BYTE 0x273 0x9b // Class (innocent, was fighter/mage)
@@ -588,26 +588,26 @@ END // of A_I G_I Tutu, BGT
 					READ_LONG 0x2c0 iz // Item count
 					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
 						READ_ASCII (iy + (0x14 * i1)) ~itm~
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%helm01~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%helm01~) BEGIN
 						  READ_SHORT ix hs // Helmet slot
 						  PATCH_IF (hs = 0xffff) BEGIN // If slot open
 							WRITE_SHORT ix i1 // Assign helmet
 						  END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%shld13~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%shld13~) BEGIN
 						  READ_SHORT (ix + 0x4) ss // Shield slot
 						  PATCH_IF (ss = 0xffff) BEGIN // If slot open
 							WRITE_SHORT (ix + 0x4) i1 // Assign shield
 						  END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%dagg05~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dagg05~) BEGIN
 						  WRITE_SHORT (iy + (0x14 * i1) + 0xa) 20 // Charges 1
 						  READ_SHORT (ix + 0x14) w2 // Weapon2 slot
 						  PATCH_IF (w2 = 0xffff) BEGIN // If slot open
 							WRITE_SHORT (ix + 0x14) i1 // Assign dagger to weapon2
 						  END
 						END ELSE
-						PATCH_IF ((~%itm%~ STRING_COMPARE_CASE ~%tutu_var%scrl14~ = 0) OR (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%scrl12~ = 0) OR (~%itm%~ STRING_EQUAL_CASE ~%tutu_var%scrl11~ = 0)) BEGIN
+						PATCH_IF ((~%itm%~ STR_EQ ~%tutu_var%scrl14~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl12~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl11~)) BEGIN
 							FOR (i2 = 18; i2 < 36; i2 += 1) BEGIN // Find first open slot
 								READ_SHORT (ix + (i2 * 0x2)) sr
 								PATCH_IF (sr = 0xffff) BEGIN // If open
@@ -621,43 +621,43 @@ END // of A_I G_I Tutu, BGT
 					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi212~
 					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ // Lightning Bolt
 				END				
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_garric.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
 				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_garric2.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric2.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
 				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_garric4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric4.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
 				END	 
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_garric6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric6.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
 				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric2.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric4.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~garric6.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%gellan.cre~ = 0) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%gellan.cre~) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
 					WRITE_SHORT 0x24 65 // Current HP (was 55)
 					WRITE_SHORT 0x26 65 // Max HP (was 55)
 					WRITE_SHORT 0x28 0x6014 // Animation (cleric_female_gnome, was 0x6012 dwarf)
@@ -692,7 +692,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~sppr502~ #4 ~priest~ // Cure Critical Wounds
 					ADD_MEMORIZED_SPELL ~sppr503~ #4 ~priest~ // Flame Strike
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%hafiz.cre~ = 0) BEGIN // Hafiz (in Gibberling Mountains)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%hafiz.cre~) BEGIN // Hafiz (in Gibberling Mountains)
 				    WRITE_LONG 0x14 176 // XP Value (was 151)
 					WRITE_SHORT 0x24 35 // Current HP (was 29)
 					WRITE_SHORT 0x26 35 // Max HP
@@ -715,26 +715,26 @@ END // of A_I G_I Tutu, BGT
 					READ_LONG 0x2c0 iz // Item count
 					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
 						READ_ASCII (iy + (0x14 * i1)) ~itm~
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%helm01~) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%helm01~) BEGIN
 						  READ_SHORT ix hs // Helmet slot
 						  PATCH_IF (hs = 0xffff) BEGIN // If slot open
 						    WRITE_SHORT ix i1 // Assign helmet
 						  END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%shld13~) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%shld13~) BEGIN
 						  READ_SHORT (ix + 0x4) ss // Shield slot
 						  PATCH_IF (ss = 0xffff) BEGIN // If slot open
 							WRITE_SHORT (ix + 0x4) i1 // Assign shield
 						  END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%dagg05~) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dagg05~) BEGIN
 						  WRITE_SHORT (iy + (0x14 * i1) + 0xa) 20 // Charges 1
 						  READ_SHORT (ix + 0x14) w2 // Weapon2 slot
 						  PATCH_IF (w2 = 0xffff) BEGIN // If slot open
 						    WRITE_SHORT (ix + 0x14) i1 // Assign dagger to weapon2
 						  END
 						END ELSE
-						PATCH_IF ((~%itm%~ STRING_COMPARE_CASE ~%tutu_var%scrl14~ = 0) OR (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%scrl12~ = 0) OR (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%scrl11~ = 0 )) BEGIN
+						PATCH_IF ((~%itm%~ STR_EQ ~%tutu_var%scrl14~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl12~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl11~ )) BEGIN
 							FOR (i2 = 18; i2 < 36; i2 += 1) BEGIN // Find first open slot
 								READ_SHORT (ix + (i2 * 0x2)) sr
 								PATCH_IF (sr = 0xffff) BEGIN // If open
@@ -748,7 +748,7 @@ END // of A_I G_I Tutu, BGT
 					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi212~
 					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ // Lightning Bolt
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%halaca.cre~ = 0) BEGIN // Halacan (in Gullykin)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%halaca.cre~) BEGIN // Halacan (in Gullykin)
 					WRITE_LONG 0x14 176 // XP Value (was 651)
 					WRITE_SHORT 0x28 0x6104 // Animation (fighter_male_gnome, was 0x5102 dwarf_low)
 					WRITE_BYTE 0x55 5 // Save vs. wands (was 13)
@@ -769,86 +769,86 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) // Lightning Bolt
 					ADD_MEMORIZED_SPELL ~spwi317~ #2 ~wizard~ // Ghost Armor
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_imoen1.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen1.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_imoen2.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen2.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_imoen4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen4.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~_imoen6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen6.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
 				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen61.cre~ = 0) AND (GAME_IS ~bgt~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen61.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen1.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen2.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen4.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~imoen6.cre~ = 0) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen6.cre~) AND (GAME_IS ~bgee~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%jaheir.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir.cre~) BEGIN
 					WRITE_BYTE 0x66 1 // Lore
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%jaheir2.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir2.cre~) BEGIN
 					WRITE_BYTE 0x66 2  // Lore
 					WRITE_BYTE 0x24 11 // Current Hit Points
 					WRITE_BYTE 0x26 11 // Maximum Hit Points
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%jaheir4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir4.cre~) BEGIN
 					WRITE_BYTE 0x66 4 // Lore
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%jaheir6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir6.cre~) BEGIN
 					WRITE_BYTE 0x66 6  // Lore
 					WRITE_BYTE 0x52 16 // THAC0
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%kagain.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain.cre~) BEGIN
 					WRITE_BYTE 0x54 9  // Save vs. Death
 					WRITE_BYTE 0x55 11 // Save vs. Wand
 					WRITE_BYTE 0x56 15 // Save vs. Polymorph
 					WRITE_BYTE 0x57 17 // Save vs. Breath
 					WRITE_BYTE 0x58 12 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%kagain2.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain2.cre~) BEGIN
 					WRITE_BYTE 0x54 9  // Save vs. Death
 					WRITE_BYTE 0x55 11 // Save vs. Wand
 					WRITE_BYTE 0x56 15 // Save vs. Polymorph
 					WRITE_BYTE 0x57 17 // Save vs. Breath
 					WRITE_BYTE 0x58 12 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%kagain4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain4.cre~) BEGIN
 					WRITE_BYTE 0x54 8  // Save vs. Death
 					WRITE_BYTE 0x55 10 // Save vs. Wand
 					WRITE_BYTE 0x56 14 // Save vs. Polymorph
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 11 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%kagain6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain6.cre~) BEGIN
 					WRITE_BYTE 0x54 6  // Save vs. Death
 					WRITE_BYTE 0x55 8  // Save vs. Wand
 					WRITE_BYTE 0x56 12 // Save vs. Polymorph
 					WRITE_BYTE 0x57 13 // Save vs. Breath
 					WRITE_BYTE 0x58 9  // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%khalid.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid.cre~) BEGIN
 					WRITE_BYTE 0x23a 15 // intelligence
 					WRITE_BYTE 0x66 1  // Lore
 					WRITE_BYTE 0x54 14 // Save vs. Death
@@ -857,7 +857,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 17 // Save vs. Breath
 					WRITE_BYTE 0x58 17 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%khalid2.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid2.cre~) BEGIN
 					WRITE_BYTE 0x23a 15 // intelligence
 					WRITE_BYTE 0x66 2  // Lore
 					WRITE_BYTE 0x54 14 // Save vs. Death
@@ -866,7 +866,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 17 // Save vs. Breath
 					WRITE_BYTE 0x58 17 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%khalid4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid4.cre~) BEGIN
 					WRITE_BYTE 0x23a 15 // intelligence
 					WRITE_BYTE 0x66 4  // Lore
 					WRITE_BYTE 0x54 13 // Save vs. Death
@@ -875,7 +875,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 16 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%khalid6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid6.cre~) BEGIN
 					WRITE_BYTE 0x23a 15 // intelligence				
 					WRITE_BYTE 0x66 6  // Lore
 					WRITE_BYTE 0x54 11 // Save vs. Death
@@ -884,7 +884,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 13 // Save vs. Breath
 					WRITE_BYTE 0x58 14 // Save vs. Spells
 				END					
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%landri.cre~ = 0) BEGIN // Landrin (in FAI L3)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%landri.cre~) BEGIN // Landrin (in FAI L3)
 					WRITE_SHORT 0x28 0x6314 // Animation (thief_female_gnome, was 0x6212 mage_female_dwarf)
 					WRITE_BYTE 0x55 9 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 10 // Save vs. spells (was 12)
@@ -897,7 +897,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ // Melf's Acid Arrow
 					ADD_MEMORIZED_SPELL ~spwi213~ #1 ~wizard~ // Stinking Cloud
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%madarc.cre~ = 0) BEGIN // Mad Arcand (in Shipwreck's Coast)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%madarc.cre~) BEGIN // Mad Arcand (in Shipwreck's Coast)
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 4 // Save vs. wands (was 7)
 					WRITE_BYTE 0x58 5 // Save vs. spells (was 8)
@@ -934,10 +934,10 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi406~ #3 ~wizard~ // Minor Globe of Invulnerability
 					ADD_MEMORIZED_SPELL ~spwi502~ #4 ~wizard~ (4) // Cloudkill
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%minsc6.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%minsc6.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_LONG 0x18 36293 // Current XP
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%montar.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar.cre~) BEGIN
 					WRITE_BYTE 0x66 3  // Lore
 					WRITE_BYTE 0x54 9  // Save vs. Death
 					WRITE_BYTE 0x55 10 // Save vs. Wand
@@ -945,7 +945,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 11 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%montar2.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar2.cre~) BEGIN
 					WRITE_BYTE 0x24 11 // Current Hit Points
 					WRITE_BYTE 0x26 11 // Maximum Hit Points
 					WRITE_BYTE 0x66 6  // Lore
@@ -955,7 +955,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 11 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%montar4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar4.cre~) BEGIN
 					WRITE_BYTE 0x24 27 // Current Hit Points
 					WRITE_BYTE 0x26 27 // Maximum Hit Points
 					WRITE_BYTE 0x66 12 // Lore
@@ -965,7 +965,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 11 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%montar6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar6.cre~) BEGIN
 					WRITE_BYTE 0x24 43 // Current Hit Points
 					WRITE_BYTE 0x26 43 // Maximum Hit Points
 					WRITE_BYTE 0x66 18 // Lore
@@ -975,7 +975,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 13 // Save vs. Breath
 					WRITE_BYTE 0x58 9  // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%mutami.cre~ = 0) BEGIN // Mutamin (in Mutamin's Garden)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%mutami.cre~) BEGIN // Mutamin (in Mutamin's Garden)
 					WRITE_LONG 0x14 976 // XP Value (was 1201)
 					WRITE_SHORT 0x24 24 // Current HP (was 19)
 					WRITE_SHORT 0x26 24 // Max HP (was 19)
@@ -993,13 +993,13 @@ END // of A_I G_I Tutu, BGT
 					READ_LONG 0x2c0 iz // Item count
 					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
 					READ_ASCII (iy + (0x14 * i1)) ~itm~
-					PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%dart01~ = 0) BEGIN
+					PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dart01~) BEGIN
 					  READ_SHORT (ix + 0x14) w2 // Weapon2 slot
 					  PATCH_IF (w2 = 0xffff) BEGIN // If open
 						WRITE_SHORT (ix + 0x14) i1 // Assign darts to weapon2
 					  END
 					END ELSE
-					PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%potn08~ = 0) BEGIN
+					PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%potn08~) BEGIN
 					  READ_SHORT (ix + 0x24) q1 // Qitem1 slot
 					  READ_SHORT (ix + 0x26) q2 // Qitem1 slot
 					  PATCH_IF (q1 = q2) BEGIN // If duplicate
@@ -1015,7 +1015,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
 					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) // Lightning Bolt
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_scriptbg%neb.cre~ = 0) BEGIN // Neb (in SW Baldur's Gate FF HQ L1)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%neb.cre~) BEGIN // Neb (in SW Baldur's Gate FF HQ L1)
 					WRITE_SHORT 0x24 70 // Current HP (was 85)
 					WRITE_SHORT 0x26 70 // Max HP (was 85)
 					WRITE_SHORT 0x46 10 // Base AC (was 0)
@@ -1034,7 +1034,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%trunsgt~ #8 // Default script
 					WRITE_BYTE 0x272 4 // Race (dwarf, was gnome)
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%pheirk.cre~ = 0) BEGIN // Pheirkas (in NW Baldur's Gate)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%pheirk.cre~) BEGIN // Pheirkas (in NW Baldur's Gate)
 					WRITE_SHORT 0x24 54 // Current HP (was 32)
 					WRITE_SHORT 0x26 54 // Max HP (was 32)
 					WRITE_SHORT 0x28 0x6114 // Animation (fighter_female_gnome, was 0x6112 dwarf)
@@ -1046,7 +1046,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x236 1 // Level 3 (was 5)
 					WRITE_BYTE 0x27b 0x22 // Alignment (neutral)
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_scriptbg%quayle.cre~ = 0) BEGIN 
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%quayle.cre~) BEGIN 
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
@@ -1061,7 +1061,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_script%quayle4.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle4.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
@@ -1078,7 +1078,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_script%quayle6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle6.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
@@ -1094,7 +1094,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ // Melf's Acid Arrow
 					ADD_MEMORIZED_SPELL ~spwi309~ #2 ~wizard~ // Monster Summoning 1
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%sarhed.cre~ = 0) BEGIN // Sarhedra (in Lonely Peaks)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%sarhed.cre~) BEGIN // Sarhedra (in Lonely Peaks)
 					WRITE_SHORT 0x24 45 // Current HP (was 28)
 					WRITE_SHORT 0x26 45 // Max HP (was 28)
 					WRITE_SHORT 0x28 0x6114 // Animation (fighter_female_gnome, was 0x6112 dwarf)
@@ -1105,13 +1105,13 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x74 5 // Axes (was 3)
 					WRITE_BYTE 0x236 1 // Level 3 (was 5)
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%skie.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie.cre~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_scriptbg%skie~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%skie6.cre~ = 0) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie6.cre~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_scriptbg%skie~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tellan.cre~ = 0) BEGIN // Tellan (in Ice Island L1)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tellan.cre~) BEGIN // Tellan (in Ice Island L1)
 					WRITE_LONG 0x14 2001 // XP Value (was 11)
 					WRITE_SHORT 0x24 64 // Current HP (was 54)
 					WRITE_SHORT 0x26 64 // Max HP (was 54)
@@ -1148,13 +1148,13 @@ END // of A_I G_I Tutu, BGT
 					READ_LONG 0x2c0 iz // Item count
 					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
 						READ_ASCII (iy + (0x14 * i1)) ~itm~
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%clck17~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%clck17~) BEGIN
 							READ_SHORT (ix + 0x2) rs // Armor slot
 								PATCH_IF (rs = 0xffff) BEGIN // If slot open
 									WRITE_SHORT (ix + 0x2) i1 // Assign robe to armor
 								END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%mage02~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%mage02~) BEGIN
 							READ_SHORT (ix + 0x8) lr // Lring slot
 							READ_SHORT (ix + 0xa) rr // Rring slot
 							PATCH_IF (lr = 0xffff) BEGIN // If slot open
@@ -1164,20 +1164,20 @@ END // of A_I G_I Tutu, BGT
 								WRITE_SHORT (ix + 0xa) i1 // Assign mage02 to rring
 							END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_scriptm%ageamul~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_scriptm%ageamul~) BEGIN
 							READ_SHORT (ix + 0xc) rs // Amulet slot
 							PATCH_IF (rs = 0xffff) BEGIN // If slot open
 								WRITE_SHORT (ix + 0xc) i1 // Assign mageamul to amulet
 							END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%dagg02~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dagg02~) BEGIN
 							READ_SHORT (ix + 0x12) w1 // Weapon1 slot
 							READ_SHORT (ix + 0x14) w2 // Weapon2 slot
 							PATCH_IF (w1 = w2) BEGIN // If duplicate weapon reference
 								WRITE_SHORT (ix + 0x14) i1 // Assign dagger to weapon2
 							END
 						END ELSE
-						PATCH_IF (~%itm%~ STRING_COMPARE_CASE ~%tutu_var%potn08~ = 0) BEGIN
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%potn08~) BEGIN
 							FOR (i2 = 18; i2 < 36; i2 += 1) BEGIN // Find first open slot
 								READ_SHORT (ix + (i2 * 0x2)) sr
 								PATCH_IF (sr = 0xffff) BEGIN // If open
@@ -1211,7 +1211,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi609~ #5 ~wizard~ // True Sight
 					ADD_MEMORIZED_SPELL ~spwi624~ #5 ~wizard~ // Summon Nishruu
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1244,7 +1244,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 35 // Pick pockets (was 10)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax4.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax4.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1277,7 +1277,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 45 // Pick pockets (was 20)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%tiax6.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax6.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1310,7 +1310,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 55 // Pick pockets (was 30)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%unshey.cre~ = 0) BEGIN // Unshey (in Friendly Arm Inn L2)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%unshey.cre~) BEGIN // Unshey (in Friendly Arm Inn L2)
 					WRITE_SHORT 0x24 42 // Current HP (was 23)
 					WRITE_SHORT 0x26 42 // Max HP (was 23)
 					WRITE_SHORT 0x28 0x6014 // Animation (cleric_female_gnome, was 0x6012 dwarf)
@@ -1328,16 +1328,16 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ // Silence 15' Radius
 					ADD_MEMORIZED_SPELL ~sppr303~ #2 ~priest~ // Dispel Magic
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_scriptbg%xan.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%xan.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%xan4.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan4.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%xan6.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan6.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_BYTE 0x24 23 // Current Hit Points
 					WRITE_BYTE 0x26 23 // Maximum Hit Points
 					WRITE_BYTE 0x54 5  // Save vs. Death
@@ -1346,7 +1346,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 10 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STRING_COMPARE_CASE ~%tutu_var%yeslic5.cre~ = 0) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic5.cre~) AND !(GAME_IS ~bgee~) BEGIN
 					WRITE_BYTE 0x24 42 // Current Hit Points
 					WRITE_BYTE 0x26 42 // Maximum Hit Points
 					WRITE_BYTE 0x54 4  // Save vs. Death
@@ -1406,64 +1406,64 @@ END // of A_I G_I Tutu, BGT
       COUNT_2DA_ROWS 8 "cnt_row"
       FOR ( cnt=0; cnt<"%cnt_row%"; cnt=cnt+1 ) BEGIN
         READ_2DA_ENTRY "%cnt%" 0 8 "pd_name"
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "MONTARON")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "MONTARON") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "MONTAD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KAGAIN")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "KAGAIN") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "KAGAID"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KIVAN")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "KIVAN") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "KIVAND"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SHARTEEL")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "SHARTEEL") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "SHARTD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "YESLICK")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "YESLICK") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "YESLID"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "XZAR")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "XZAR") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "XZARD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "ALORA")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "ALORA") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "ALORAD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "AJANTIS")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "AJANTIS") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "AJANTD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "KHALID")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "KHALID") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "KHALID"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "GARRICK")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "GARRICK") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "GARRID"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SAFANA")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "SAFANA") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "SAFAND"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "FALDORN")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "FALDORN") BEGIN
         SET_2DA_ENTRY "%cnt%" 3 8 "FALDOD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "BRANWEN")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "BRANWEN") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "BRANWD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "QUAYLE")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "QUAYLE") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "QUAYLD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "XAN")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "XAN") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "XAND"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "SKIE")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "SKIE") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "SKIED"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "ELDOTH")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "ELDOTH") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "ELDOTD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "TIAX")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "TIAX") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "TIAXD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "DYNAHEIR")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "DYNAHEIR") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "DYNAHD"
         END
-        PATCH_IF (("%pd_name%" STRING_COMPARE_CASE "CORAN")=0) BEGIN
+        PATCH_IF ("%pd_name%" STR_EQ "CORAN") BEGIN
          SET_2DA_ENTRY "%cnt%" 3 8 "CORAND"
         END
       END
@@ -1545,34 +1545,34 @@ END // of A_I G_I Tutu, BGT
         //  check if cures already available
         FOR (index = 0; index < cure_num; index = index + 1) BEGIN
           READ_ASCII ("%cure_off%" + ("%index%" * 0x0c)) "resref"
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr103" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr103") BEGIN
             SET "sppr103" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr212" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr212") BEGIN
             SET "sppr212" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr303" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr303") BEGIN
             SET "sppr303" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr307" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr307") BEGIN
             SET "sppr307" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr401" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr401") BEGIN
             SET "sppr401" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr502" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr502") BEGIN
             SET "sppr502" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr504" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr504") BEGIN
             SET "sppr504" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr607" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr607") BEGIN
             SET "sppr607" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr712" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr712") BEGIN
             SET "sppr712" = 1
           END ELSE
-          PATCH_IF ("%resref%" STRING_COMPARE_CASE "sppr713" = 0) BEGIN
+          PATCH_IF ("%resref%" STR_EQ "sppr713") BEGIN
             SET "sppr713" = 1
           END
         END
@@ -1669,16 +1669,16 @@ END // of A_I G_I Tutu, BGT
   		COUNT_2DA_ROWS 2 "cnt_row"
   		FOR (cnt = 0; cnt < %cnt_row%; cnt = cnt + 1) BEGIN
   			READ_2DA_ENTRY "%cnt%" 0 2 "spl_name"
-  			PATCH_IF (("%spl_name%" STRING_COMPARE_CASE "sppr502")=0) BEGIN
+  			PATCH_IF ("%spl_name%" STR_EQ "sppr502") BEGIN
   				SET_2DA_ENTRY "%cnt%" 1 2 "25357"
   			END
-  			PATCH_IF (("%spl_name%" STRING_COMPARE_CASE "sppr607")=0) BEGIN
+  			PATCH_IF ("%spl_name%" STR_EQ "sppr607") BEGIN
   				SET_2DA_ENTRY "%cnt%" 1 2 "25358"
   			END
-  			PATCH_IF (("%spl_name%" STRING_COMPARE_CASE "sppr712")=0) BEGIN
+  			PATCH_IF ("%spl_name%" STR_EQ "sppr712") BEGIN
   				SET_2DA_ENTRY "%cnt%" 1 2 "25359"
   			END
-  			PATCH_IF (("%spl_name%" STRING_COMPARE_CASE "sppr713")=0) BEGIN
+  			PATCH_IF ("%spl_name%" STR_EQ "sppr713") BEGIN
   				SET_2DA_ENTRY "%cnt%" 1 2 "25360"
   			END
     	END
@@ -1868,7 +1868,7 @@ END
     READ_SHORT 0x58 actors_num
     FOR (i = 0; i < %actors_num%; i += 1) BEGIN
       READ_ASCII (%actors_off% + %i% * 0x110 + 0x80) actor_resref
-      PATCH_IF !("%actor_resref%" STRING_COMPARE_CASE "%tutu_var%WYVERN") BEGIN
+      PATCH_IF !("%actor_resref%" STR_EQ "%tutu_var%WYVERN") BEGIN
         WRITE_ASCII (%actors_off% + %i% * 0x110 + 0x80) X#CORWYV #8
       END
     END
@@ -2856,13 +2856,13 @@ BEGIN @1007
     SAY SELECT_COMMON6 @37
     WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  Creature script - Override
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi1~) BEGIN
+      PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi1~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI1~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi2~) BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi2~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI2~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi3~) BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi3~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI3~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#zizi4~) BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi4~) BEGIN
         WRITE_ASCII 0x2CC ~ZIZIZI4~ #8 //  dialog
       END
 
@@ -3554,7 +3554,7 @@ BEGIN @1007
       ADD_CRE_ITEM ~%tutu_var%POTN37~ #0 #0 #0 ~IDENTIFIED~ ~INV9~
       ADD_CRE_ITEM ~%tutu_var%POTN07~ #0 #0 #0 ~IDENTIFIED~ ~INV6~
       ADD_CRE_ITEM ~X#CODYE1~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
-      WRITE_ASCII 0x258 ~%tutu_var%thief4~ #8 // Race script
+      WRITE_ASCIIE 0x258 ~%tutu_var%thief4~ #8 // Race script
       PATCH_IF GAME_IS ~bgee bgt~ BEGIN
         WRITE_ASCII 0x268 ~WTARSGT~ #8
         WRITE_ASCII 0x250 ~INITDLG~ #8
@@ -3952,10 +3952,10 @@ BEGIN @1007
     WRITE_LONG 0x14 ~100~ // XP Value
     WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STRING_COMPARE_CASE ~x#dgnle1~ = 0) BEGIN
+      PATCH_IF (~%DEST_RES%~ STR_EQ ~x#dgnle1~) BEGIN
         WRITE_ASCII 0x2cc ~X#DGNLE~ #8 // Dialogue file: Evil Gnoll #1
         ADD_CRE_ITEM ~X#DYJOR2~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_COMPARE_CASE ~x#dgnlg1~ = 0) BEGIN
+      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#dgnlg1~) BEGIN
         WRITE_ASCII 0x2cc ~X#DGNLG~ #8// Dialogue file: Good Gnoll #1
         ADD_CRE_ITEM ~X#DYJOR1~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
       END
@@ -4049,6 +4049,8 @@ END
   COPY_EXISTING ~%tutu_var%VOLO.cre~ ~override/x#lakep1.cre~
                 ~%tutu_var%VOLO.cre~ ~override/x#lakep2.cre~
                 ~%tutu_var%VOLO.cre~ ~override/x#lakep3.cre~
+    LPM source_cre_sound_cleanup
+    LPM source_cre_script_cleanup
     SAY INITIAL_MEETING @294
     SAY UNHAPPY_BREAKING @295
     SAY BATTLE_CRY1 @296
@@ -4063,21 +4065,24 @@ END
     SAY SELECT_COMMON3 @301
     SAY SELECT_COMMON4 @302
     SAY DIALOGUE_DEFAULT @299
-    WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep1~) BEGIN
-        SAY NAME1 @292
-        SAY NAME2 @293
-        WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep2~) BEGIN
-        SAY NAME1 @303
-        SAY NAME2 @304
-        WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
-      END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#lakep3~) BEGIN
-        SAY NAME1 @305
-        SAY NAME2 @306
-        WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
-      END
+    WRITE_EVALUATED_ASCII DIALOG ~%DEST_RES%~ #8 //  dialog
+    WRITE_EVALUATED_ASCII DEATHVAR ~%DEST_RES%~ #32 //  death variable
+	WRITE_EVALUATED_ASCII SCRIPT_GENERAL ~%tutu_scriptr%unenemy~
+	WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_scriptw%trunsgt~
+	WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lakep1~) BEGIN
+      SAY NAME1 @292
+      SAY NAME2 @293
+      WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lakep2~) BEGIN
+      SAY NAME1 @303
+      SAY NAME2 @304
+      WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lakep3~) BEGIN
+      SAY NAME1 @305
+      SAY NAME2 @306
+      WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
+    END
 
   /* area script changes */
   EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#LAKEP.BAF~
@@ -4351,12 +4356,17 @@ END
   EXTEND_BOTTOM ~%ValleyoftheTombsTomb_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW5001.BAF~
     EVALUATE_BUFFER
 
+  /* Add journal entries for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
+    
   /* dialogues */
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  	OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
+  END ELSE BEGIN
+  	OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
+  END
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XZQU.D~
   
-  /* Add journal entries for BGEE */
-  ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGAUGE%/x#xzqu.tra~
-    
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#BLACK.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#STORM.BAF~
@@ -4489,11 +4499,11 @@ END
     	SAY SELECT_COMMON2 @332
     END
     WRITE_ASCII SCRIPT_OVERRIDE ~x#gpsht~ #8 // override script
-    PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6~) BEGIN
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr6~) BEGIN
       WRITE_ASCII 0x280 ~jadruid6~ #32 //  death variable
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6a~) BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr6a~) BEGIN
       WRITE_ASCII 0x280 ~jadruid6a~ #32 //  death variable
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr6b~) BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr6b~) BEGIN
       WRITE_ASCII 0x280 ~jadruid6b~ #32 //  death variable
     END
 
@@ -4522,9 +4532,9 @@ END
     	SAY SELECT_COMMON4 @377
     END
     WRITE_ASCII SCRIPT_OVERRIDE ~x#gpsht~ #8 // override script
-    PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr8a~) BEGIN
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr8a~) BEGIN
       WRITE_ASCII 0x280 ~jadruid8a~ #32 //  death variable
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL_CASE ~x#shdr8b~) BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr8b~) BEGIN
       WRITE_ASCII 0x280 ~jadruid8b~ #32 //  death variable
     END
 
@@ -6512,7 +6522,7 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
       FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
         SET cre_offset = non_joined_npcs_off + i * 0x160
         READ_ASCII 0xc + cre_offset ~CREName~
-        PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~%ALORA_BCS%~) BEGIN
+        PATCH_IF !(~%CREName%~ STR_EQ ~%ALORA_BCS%~) BEGIN
           WRITE_ASCIIE cre_offset + 0x18 ~%Gullykin%~ #8
           WRITE_SHORT cre_offset + 0x20 553
           WRITE_SHORT cre_offset + 0x22 506
@@ -6565,7 +6575,7 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
     FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
       SET cre_offset = non_joined_npcs_off + i * 0x160
       READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~%ELDOTH_BCS%~) BEGIN
+      PATCH_IF !(~%CREName%~ STR_EQ ~%ELDOTH_BCS%~) BEGIN
         WRITE_ASCIIE cre_offset + 0x18 ~%CoastWay%~ #8
         WRITE_SHORT cre_offset + 0x20 1064
         WRITE_SHORT cre_offset + 0x22 2086
@@ -6596,7 +6606,7 @@ BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
     FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
       SET cre_offset = non_joined_npcs_off + i * 0x160
       READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~%QUAYLE_BCS%~) BEGIN
+      PATCH_IF !(~%CREName%~ STR_EQ ~%QUAYLE_BCS%~) BEGIN
         WRITE_ASCIIE cre_offset + 0x18 ~%NashkelCarnival%~ #8
         WRITE_SHORT cre_offset + 0x20 1067
         WRITE_SHORT cre_offset + 0x22 3784
@@ -6627,7 +6637,7 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
     FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
       SET cre_offset = non_joined_npcs_off + i * 0x160
       READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STRING_COMPARE_CASE ~%TIAX_BCS%~) BEGIN
+      PATCH_IF !(~%CREName%~ STR_EQ ~%TIAX_BCS%~) BEGIN
         WRITE_ASCIIE cre_offset + 0x18 ~%Beregost_FeldepostsInn_L1%~ #8
         WRITE_SHORT cre_offset + 0x20 500
         WRITE_SHORT cre_offset + 0x22 630
@@ -6729,6 +6739,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY_EXISTING ~%tutu_var%volo.cre~ ~override/x#lp1rep.cre~
                 ~%tutu_var%volo.cre~ ~override/x#lp2rep.cre~
                 ~%tutu_var%volo.cre~ ~override/x#lp3rep.cre~
+    LPM source_cre_sound_cleanup
+    LPM source_cre_script_cleanup
     SAY INITIAL_MEETING @294
     SAY UNHAPPY_BREAKING @295
     SAY BATTLE_CRY1 @296
@@ -6745,15 +6757,17 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DIALOGUE_DEFAULT @299
     WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
     WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-    PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp1rep~) BEGIN
+	WRITE_EVALUATED_ASCII SCRIPT_GENERAL ~%tutu_scriptr%unenemy~
+	WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_scriptw%trunsgt~
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lp1rep~) BEGIN
       SAY NAME1 @292
       SAY NAME2 @293
       WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp2rep~) BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lp2rep~) BEGIN
       SAY NAME1 @303
       SAY NAME2 @304
       WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
-    END ELSE PATCH_IF (~%DEST_RES%~ STRING_EQUAL ~x#lp3rep~) BEGIN
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lp3rep~) BEGIN
       SAY NAME1 @305
       SAY NAME2 @306
       WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
@@ -6809,15 +6823,15 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     READ_LONG  0x34 "area_off"
     FOR (index = 0; index < area_num; index = index + 1) BEGIN
       READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
-      PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw2200" = 0) OR     //  cloakwood 1 (tutu)
-                ("%area_res%" STRING_COMPARE_CASE "ar7000" = 0) OR     //  cloakwood 1 (bgt)
-                ("%area_res%" STRING_COMPARE_CASE "ar2200" = 0)) BEGIN //  cloakwood 1 (bgee)
+      PATCH_IF (("%area_res%" STR_EQ "fw2200") OR     //  cloakwood 1 (tutu)
+                ("%area_res%" STR_EQ "ar7000") OR     //  cloakwood 1 (bgt)
+                ("%area_res%" STR_EQ "ar2200")) BEGIN //  cloakwood 1 (bgee)
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
       END ELSE
-      PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw2100" = 0) OR     //  cloakwood 2 (tutu)
-                ("%area_res%" STRING_COMPARE_CASE "ar8800" = 0) OR     //  cloakwood 2 (bgt)
-                ("%area_res%" STRING_COMPARE_CASE "ar2100" = 0)) BEGIN //  cloakwood 2 (bgee)
+      PATCH_IF (("%area_res%" STR_EQ "fw2100") OR     //  cloakwood 2 (tutu)
+                ("%area_res%" STR_EQ "ar8800") OR     //  cloakwood 2 (bgt)
+                ("%area_res%" STR_EQ "ar2100")) BEGIN //  cloakwood 2 (bgee)
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
       END
@@ -6845,15 +6859,15 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   READ_LONG  0x34 "area_off"
   FOR (index = 0; index < area_num; index = index + 1) BEGIN
     READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
-    PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw2200" = 0) OR     //  cloakwood 1 (tutu)
-              ("%area_res%" STRING_COMPARE_CASE "ar7000" = 0) OR     //  cloakwood 1 (bgt)
-              ("%area_res%" STRING_COMPARE_CASE "ar2200" = 0)) BEGIN //  cloakwood 1 (bgee)
+    PATCH_IF (("%area_res%" STR_EQ "fw2200") OR     //  cloakwood 1 (tutu)
+              ("%area_res%" STR_EQ "ar7000") OR     //  cloakwood 1 (bgt)
+              ("%area_res%" STR_EQ "ar2200")) BEGIN //  cloakwood 1 (bgee)
       READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
       WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
     END ELSE
-    PATCH_IF (("%area_res%" STRING_COMPARE_CASE "fw1800" = 0) OR     //  cloakwood mines (tutu)
-              ("%area_res%" STRING_COMPARE_CASE "ar8600" = 0) OR     //  cloakwood mines (bgt)
-              ("%area_res%" STRING_COMPARE_CASE "AR1800" = 0)) BEGIN //  cloakwood mines (bgee)
+    PATCH_IF (("%area_res%" STR_EQ "fw1800") OR     //  cloakwood mines (tutu)
+              ("%area_res%" STR_EQ "ar8600") OR     //  cloakwood mines (bgt)
+              ("%area_res%" STR_EQ "AR1800")) BEGIN //  cloakwood mines (bgee)
       READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
       WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
     END
