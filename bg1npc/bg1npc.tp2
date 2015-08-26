@@ -2362,6 +2362,10 @@ BEGIN @1007
     WRITE_ASCII 0x280 ~bearpo~ #32 //  death variable
   BUT_ONLY_IF_IT_CHANGES
 
+  COPY_EXISTING ~%tutu_var%bheren.cre~ ~override~
+    WRITE_ASCII 0x280 ~bheren~ #32 //  death variable
+  BUT_ONLY_IF_IT_CHANGES
+
   COPY_EXISTING ~%tutu_var%elmin5.cre~ ~override~
     WRITE_ASCII 0x280 ~elminster5~ #32 //  death variable
   BUT_ONLY_IF_IT_CHANGES
