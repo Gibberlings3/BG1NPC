@@ -26,10 +26,9 @@ END
 	
 IF
 AttackedBy([GOODCUTOFF],DEFAULT)
-OR(3)
+OR(2)
 Allegiance(Myself,EVILBUTBLUE)
 Allegiance(Myself,NEUTRAL)
-Allegiance(Myself,0)
 THEN
 RESPONSE #100
 Shout(151)
