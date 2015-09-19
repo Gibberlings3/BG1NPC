@@ -1,0 +1,190 @@
+@9   = ~A medium shield is carried in the same manner as a small shield.  Its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward.
+
+This particular shield bears the coat of arms of the noble Ilvastarr family of Waterdeep: a metallic green dragon with orange eyes on a golden field.
+
+STATISTICS:
+
+Equipped Abilties:
+- Armor Class: +1, an extra +2 vs. missile attacks
+
+Weight: 7~
+
+@76   = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end.  When man mastered metals, spearheads were made from iron and steel.  Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+Damage: 1D6
+Damage type: piercing
+Speed Factor: 6
+Proficiency Type: Spear
+Type: 2-handed
+
+Weight: 5~
+@77   = ~This is a plain looking short spear with a leaf-shaped point. It was balanced for a slender elven hand. Mage Thalantyr enchanted the weapon for Kivan of Shilmista.
+
+STATISTICS:
+
+Combat Abilities:
+- 10 percent chance with every hit that opponent is entangled for 24 seconds, no save
+
+THAC0: +2 bonus
+Damage:  1D6 +2
+Damage type:  piercing
+Speed Factor: 4
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength
+
+Weight: 3~
+@79   = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1, an extra +1 vs. missile attacks
+
+Requires:
+ 15 Strength
+
+Weight: 15~
+@80   = ~The large shield is carved from a rare white oak, which has all the strength but not the weight of the regular oak. The noble stamina of the wood seems to reflect on the shield bearer. It was created by the druids, and the bindings that secure this body shield on the hero's forearm will become magically undone, if it is used by the hand that does not strive to maintain the Balance.
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1, an extra +1 vs. missile attacks
+- +1 Bonus to Constitution
+
+Weight: 5~
+@174  = ~This bardic chainmail has an illustrious past, being the armor of the noted half-elven bard Myr'Cutio. He wandered the Realms seeking adventure, and so restless was his nature that on his death his spirit, and those of his companions, continued to roam...
+
+Until they were put to rest by the party of <CHARNAME>, that is. Adventurers tend not to have respect for noteworthy figures of the past. Still, the armor is yours: lightweight, shiny and stylish. What more could an aspiring bard hope for?
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
+- Does not interfere with arcane spellcasting
+
+Requires: 8 Strength
+
+Weight: 20~
+@175  = ~This bardic chainmail has an illustrious past, being the armor of the noted half-elven bard Myr'Cutio. He wandered the Realms seeking adventure, and so restless was his nature that on his death his spirit, and those of his companions, continued to roam...
+
+Until they were put to rest by the party of <CHARNAME>, that is. Adventurers tend not to have respect for noteworthy figures of the past. Still, the armor is yours: lightweight, shiny and stylish. What more could an aspiring bard hope for?
+
+This armor was further improved by Halbazzer Drin of the Sorcerous Sundries store in Baldur's Gate. Combination with a pair of golden pantaloons has afforded an increased measure of protection, while keeping the suit as fashionable as ever.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+- Does not interfere with arcane spellcasting
+
+Requires: 7 Strength
+
+Weight: 15~
+@224  = ~This is a rather tacky looking necklace decorated with a few large gemstones. A small inscription in elvish on the lock of the necklace says that the item was created by Nadyala the Green as her thesis to achieve a status of Wizard in Ulcaster School of Magic. The necklace radiates strong magical energy, but as any graduation project seemed to be not entirely finished. You have a strong suspicion that Nadyala might have worn it for her Candidate's exams.
+
+STATISTICS:
+
+Equipped abilities:
+- Grants 1 extra spell per level for levels 1 through 3.
+
+Weight: 1~
+@227  = ~This small toe ring of red gold was worn by a succubus and is always warm to the touch.  The wearer of this ring constantly hears the sounds of the Abyssal Planes: a cacophony of the wails of tormented and curses of demon lords… Obviously, the person who wears the ring must be resilient to or find enjoyment in such things.
+
+STATISTICS:
+
+Equipped Abilities:
+- Increases the wearer's charisma by 2 points
+
+Charge Abilities:
+- Dire Charm once per day
+
+Weight: 0~
+@250  = ~This long bow has been given to Kivan by his wife Deheriana as a wedding gift.
+
+STATISTICS:
+
+Equipped Abilities:
+- Armor Class: +1
+
+THAC0: +1
+Speed Factor: 1
+Proficiency Type: Longbow
+Type: 2-handed
+Requires: 6 Strength
+
+Weight: 2~
+@315  = ~Enchanted with the blood of a murdered dryad, this ring protects the wearer against Charm Person spells and effects.  It also enables the wearer to cast Charm Person once per day.  However, the blood of the slain creature, stirred perhaps by her ensorcelled soul, writhes  in visible agony beneath surface of the metal, making it so repulsive that Good individuals cannot endure putting it on.
+
+STATISTICS:
+
+Equipped Abilities:
+- Immunity to Charm Person
+
+Charge Abilities:
+- Cast Charm Person once per day
+
+Weight: 0~
+@361  = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since mankind first began using tools.  Anyone can find a good stout piece of wood and swing it; hence the club's widespread use.
+
+STATISTICS:
+
+Damage: 1D6
+Damage type: crushing
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+
+Weight: 3~
+@362  = ~This enchanted club was taken from the corpse of a Shadow Druid and given to <CHARNAME> by Seniyad, the Archdruid of Cloakwood. While the origins of this deceptively simple, yet astonishingly deadly weapon are unknown, its name and connection with the element of lightning points heavily to the clergy of Talos. Despite the potentially evil forces used in its creation, scrying spells detect no malevolent energies contained within this weapon, thus it is safe to use for anyone who follows the calling of the druid.
+
+STATISTICS:
+
+Equipped Abilities:
+- Electrical resistance: 25 percent
+
+Charge Abilities:
+- Call Lightning once per day
+
+THAC0: +2
+Damage: 1D6 + 2
+Damage type: crushing
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+
+Weight: 3~
+@379  = ~The head of this spear bears ornate runes portraying the fiery forces of nature.  Legend has it that the spear was created by a powerful archdruid of Norland in the Moonshaes to succor the land and its wielder in times of winter and bitter cold.  It also proved a mighty weapon against the frost giants of the Jotunhammer Mountains.
+
+STATISTICS:
+
+Equipped Abilities:
+- +20 percent fire resistance
+
+Combat Abilities:
+- 50 percent chance +1 point of fire damage
+
+Charge Abilities:
+- Casts Fire Shield (Red) once per day
+
+Damage: 1D6 + 1
+THAC0: +1 bonus
+Damage type: piercing
+Speed Factor: 4
+Proficiency Type: Spear 
+Type: 2-handed
+Requires: 5 Strength
+
+Weight: 4~
+ @630  = ~Winski Perorate's Amulet 
+
+Winski Perorate's work with the nether regions of the underworld often placed him in close proximity to beings who would prefer Winski to be wearing his skin inside out. To make that possibility less likely, Winski commissioned a nabassu to build an amulet that would ward off evil creatures long enough to gain control of them. Unfortunately, Winski had a momentary lapse in memory due to great injury, and forgot to activate his amulet. This allowed his summoned Tanar'ri access to its summoner, with predictable results. 
+
+STATISTICS:
+
+Charge Abilities: 
+- Protection from Evil 10' radius, once per day
+
+Weight: 0~

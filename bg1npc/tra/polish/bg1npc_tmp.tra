@@ -96,8 +96,8 @@ Z ca³¹ pewnoœci¹ Imoen nie jest mistrzyni¹ rzemios³a jubilerskiego, ale naszyjni
 @25   = ~[FEMALE THREAT 5] Zanim wieczór dobiegnie koñca, wyrosn¹ na was stokrotki!~ [%tutu_var%GENFT05]
 @26   = ~[FEMALE THREAT 2] Skoñczê z wami tu, gdzie stoicie... i basta!~ [%tutu_var%GENFT02]
 @27   = ~[FEMALE THREAT 4] Spotka was szybki koniec, jeœli nic nie zrobicie!~ [%tutu_var%GENFT04]
-@28   = ~[ABELA 3]~ [%tutu_var%ABELA03]
-@29   = ~[ABELA 4]~ [%tutu_var%ABELA04]
+@28   = ~[GENERIC FEMALE INJURY 1]~ [%tutu_var%WOMCO03]
+@29   = ~[GENERIC FEMALE DEATH 1]~ [%tutu_var%WOMCO04]
 @30   = ~Rabuœ karawan~
 @31   = ~[BANDITS 1] No tom wykopa³ mu uszy ze ³ba, a¿ zdech³. He, he, he, he.~  [%tutu_var%BANDT01]
 @32   = ~[BANDITS 5]~ [%tutu_var%BANDT05]
@@ -1090,7 +1090,8 @@ Nie mo¿e u¿ywaæ:
 @718 = ~[NEREID 08]~ [%tutu_var%NERED08]
 @719 = ~[NEREID 09]~ [%tutu_var%NERED09]
 @720  = ~Wódz Sahuaginów~
-@721  = ~Sahuaginów~@722 = ~~ [SAHAU01]
+@721  = ~Sahuaginów~
+@722 = ~~ [SAHAU01]
 @723 = ~~ [SAHAU02]
 @724 = ~~ [SAHAU03]
 @725 = ~~ [SAHAU04]
@@ -1208,3 +1209,4 @@ Wyrzutnia: kusza
 
 Waga: 1~
 @774  = ~Krótki £uk Gesen~
+@775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]

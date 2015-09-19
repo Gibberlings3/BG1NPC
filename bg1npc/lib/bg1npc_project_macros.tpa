@@ -49,6 +49,14 @@ DEFINE_PATCH_MACRO ~source_cre_sound_cleanup~ BEGIN
          WRITE_LONG BIO (BNOT 0x0)
 END
 
+DEFINE_PATCH_MACRO ~source_cre_script_cleanup~ BEGIN
+    WRITE_ASCII SCRIPT_OVERRIDE ~~ #8 //  override script
+    WRITE_ASCII SCRIPT_CLASS ~~ #8 //  class script
+    WRITE_ASCII SCRIPT_RACE ~~ #8 //  race script
+    WRITE_ASCII SCRIPT_GENERAL ~~ #8 //  general script
+    WRITE_ASCII SCRIPT_DEFAULT ~~ #8 //  default script
+END
+
 /* Macro setting cre script, dv, dialog to DEST_RES */         
 DEFINE_PATCH_MACRO ~bg1npc_cre_dest_res~ BEGIN    
 	WRITE_ASCIIE 0x248 ~%DEST_RES%~ #8 // script

@@ -1,5 +1,5 @@
 IF
-OnCreation()
+/* OnCreation() */
 Global("X#AloraMoved","GLOBAL",4)
 THEN
 RESPONSE #100

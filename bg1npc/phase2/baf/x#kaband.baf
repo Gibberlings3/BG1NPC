@@ -1,46 +1,42 @@
 IF %BGT_VAR%
-OR(6)
-See(Player1)
-See(Player2)
-See(Player3)
-See(Player4)
-See(Player5)
-See(Player6)
-Global("X#CaravanBanditEncounter","GLOBAL",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		Global("X#CaravanBanditEncounter","GLOBAL",0)
 THEN
-RESPONSE #100
-SetGlobal("X#CaravanBanditEncounter","GLOBAL",1)
+	RESPONSE #100
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",1)
 END
 
 IF
-Global("X#CaravanBanditEncounter","GLOBAL",1)
+	Global("X#CaravanBanditEncounter","GLOBAL",1)
 THEN
-RESPONSE #100
-StartDialogueNoSet(Player1)
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
 END
 
 IF
-AttackedBy([GOODCUTOFF],DEFAULT)
-Global("X#BanditFightIsOn","GLOBAL",0)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
 THEN
-RESPONSE #100
-SetGlobal("X#BanditFightIsOn","GLOBAL",1)
-ActionOverride("X#BANDK1",ChangeEnemyAlly("X#BANDK1",ENEMY))
-ActionOverride("X#BANDK2",ChangeEnemyAlly("X#BANDK2",ENEMY))
-ActionOverride("X#BANDK3",ChangeEnemyAlly("X#BANDK3",ENEMY))
-Enemy()
+	RESPONSE #100
+		SetGlobal("X#KagainCaravan","GLOBAL",3)
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
+		Help()
+		Enemy()
 END
 
 IF
-See(NearestEnemyOf(Myself))
+	Help("x#bandk")
+	Allegiance(Myself,NEUTRAL)
 THEN
-RESPONSE #100
-AttackReevaluate(NearestEnemyOf(Myself),30)
-END
-
-IF
-AttackedBy([ANYONE],DEFAULT)
-THEN
-RESPONSE #100
-Attack(LastAttackerOf(Myself))
+	RESPONSE #100
+		SetGlobal("X#KagainCaravan","GLOBAL",3)
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
+		Enemy()
+		Attack(NearestEnemyOf(LastHelp(Myself)))
 END

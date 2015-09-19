@@ -51,6 +51,7 @@
     /* Items and Variables that need special handling */
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
     OUTER_SPRINT "tazokminhp" "TAZOKHP1"
+    OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
 
     /* Tutu/BGT vs BGEE Dialog states */
     OUTER_SET firebeadstate1 = 1

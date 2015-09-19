@@ -73,8 +73,8 @@ Imoen wird sicherlich nie zu einer Meisterin im Schmuckschmieden werden, aber di
 @25   = ~[FEMALE THREAT 5] Ich glaube, du wirst heute Abend schon die Radieschen von unten anschauen dürfen.~ [%tutu_var%GENFT05]
 @26   = ~[FEMALE THREAT 2] Es sieht ganz so aus, als ob ich hier auf der Stelle Euer Lebenslicht ausblase.~ [%tutu_var%GENFT02]
 @27   = ~[FEMALE THREAT 4] Ich werde kurzen Prozess mit dir machen.~ [%tutu_var%GENFT04]
-@28   = ~[ABELA 3]~ [%tutu_var%ABELA03]
-@29   = ~[ABELA 4]~ [%tutu_var%ABELA04]
+@28   = ~[GENERIC FEMALE INJURY 1]~ [%tutu_var%WOMCO03]
+@29   = ~[GENERIC FEMALE DEATH 1]~ [%tutu_var%WOMCO04]
 @30   = ~Karawanenräuber~
 @31   = ~[BANDITS 1] Ich hab ihm gegen den Kopf getreten, bis er tot war. Har har~ [%tutu_var%BANDT01]
 @32   = ~[BANDITS 5]~ [%tutu_var%BANDT05]
@@ -720,7 +720,8 @@ Untote! Fledermäuse an der Decke, Skelett-Kämpfer und -Bogenschützen an den Wänd
 
 In genau diesem Moment lacht die Gestalt auf, mit dem körperlichen, triumphierenden Lachen eines satten Raubtiers, einen Arm gen Boden deutend. "Bodhi", plötzlich fällt Euch ihr Name ein und dann seht Ihr es: Einen Körper in der hintersten Ecke des Raumes, in einem Haufen von Müll, zerschmettert und zerstört. Das elfische Blut in Euch kocht und friert gleichzeitig, flüstern in Euch von kalter Endgültigkeit: Es ist tot, jenseits aller Hoffnung auf die Auferstehung, die Seele verschwunden - verloren, und selbst die Seldarine können sie nicht mehr zurückbringen.
 
-Ihr wisst, von wem sie spricht, aber Ihr habt keine Zeit, den Namen laut auszusprechen. Stattdessen verschwindet der Raum in der Schwärze und Ihr stürzt mit ihm in die dunklen Tiefen des traumlosen Schlafes, die Vision verblasst langsam aus Eurem Gedächtnis.~@476  = ~[MAREK 1] Habt Ihr mal 'nen Moment Zeit für uns?~ [%tutu_var%MAREK01]
+Ihr wisst, von wem sie spricht, aber Ihr habt keine Zeit, den Namen laut auszusprechen. Stattdessen verschwindet der Raum in der Schwärze und Ihr stürzt mit ihm in die dunklen Tiefen des traumlosen Schlafes, die Vision verblasst langsam aus Eurem Gedächtnis.~
+@476  = ~[MAREK 1] Habt Ihr mal 'nen Moment Zeit für uns?~ [%tutu_var%MAREK01]
 @477  = ~Blumenanhänger~
 @478  = ~Verzauberter Blumenanhänger
 
@@ -1074,3 +1075,5 @@ Schaden: 1W10 (Geschoss)
 Gewicht: 1
 Schusswaffe: Armbrust~ 
 @774 = ~Gesens Kurzbogen~
+@775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]
+

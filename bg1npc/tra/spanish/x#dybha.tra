@@ -143,6 +143,6 @@
 @142  = ~*silenciosamente* No creo que regrese a Rashemen.~
 @143  = ~Ya sea difícil o fácil, no me interesa. Decidme si queréis el juramento.~
 @144  = ~Tenéis razón, <CHARNAME>. *suspiros* Para bien o para mal, es verdad.~
-@145  = ~Señor <CHARNAME> de Candelero, un Hijo de Bhaal, ha pedido que le jure lealtad. En nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizarlo en presencia de <Player2>, <Player3>, <Player4>, <Player5>, <Player6>, todos honorables hombre y mujeres.~
+@145  = ~Señor <CHARNAME> de Candelero, un Hijo de Bhaal, ha pedido que le jure lealtad. En nombre de los Tres, yo, Lady Dynaheir, Hathran de Rashemen, me preparo para realizarlo en presencia de <PLAYER2>, <PLAYER3>, <PLAYER4>, <PLAYER5>, <PLAYER6>, todos honorables hombre y mujeres.~
 @146  = ~Por lo tanto que sepan los presentes que yo, Dynaheir, os digo a vos, mi señor <CHARNAME>, Hijo de Bhaal, y a todos vuestros sucesores, que juro en nombre de los Tres que siempre seré vuestra vasalla fiel y de todos vuestros sucesores en todo lo que pueda ser requerido un vasallo, y os defenderé a vos y a vuestros sucesores contra villanos e invasores cuando me lo pidáis vos o vuestros sucesores cueste lo que cueste; y os doy poder sobre todas mis posesiones ya sea en paz o en guerra, para que las toméis cuando vos o vuestros sucesores lo requieran.~
 @147  = ~Ni yo a vos, <CHARNAME>.~

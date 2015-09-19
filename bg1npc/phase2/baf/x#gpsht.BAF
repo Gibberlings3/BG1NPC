@@ -102,7 +102,7 @@ IF
 	HitBy(Myself,CRUSHING)
 THEN
 	RESPONSE #100
-		RunAwayFrom(NearestEnemyOf(Myself),15)
+		%RunAwayFrom%(NearestEnemyOf(Myself),15)
 END
 
 IF

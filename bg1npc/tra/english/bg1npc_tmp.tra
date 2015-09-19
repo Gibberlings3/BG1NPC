@@ -73,8 +73,8 @@ Surely Imoen will never make a master jewelry smith, but the necklace is very cl
 @25   = ~[FEMALE THREAT 5] Methinks you'll be pushing up daisies before the eve is through.~ [%tutu_var%GENFT05]
 @26   = ~[FEMALE THREAT 2] Looks like I'll be ending your life where you stand.~ [%tutu_var%GENFT02]
 @27   = ~[FEMALE THREAT 4] Your end shall be quick, if you let it.~ [%tutu_var%GENFT04]
-@28   = ~[ABELA 3]~ [%tutu_var%ABELA03]
-@29   = ~[ABELA 4]~ [%tutu_var%ABELA04]
+@28   = ~[GENERIC FEMALE INJURY 1]~ [%tutu_var%WOMCO03]
+@29   = ~[GENERIC FEMALE DEATH 1]~ [%tutu_var%WOMCO04]
 @30   = ~Caravan Bandit~
 @31   = ~[BANDITS 1] So I kicked 'im in the head till he was dead.  Har har~ [%tutu_var%BANDT01]
 @32   = ~[BANDITS 5]~ [%tutu_var%BANDT05]
@@ -366,7 +366,7 @@ Weight: 5~
 
 Special Abilities: Grants 1 extra spell per level for levels 1 through 3.
 
-Only Useable: By mages of Neutral and Evil Alignment~
+Only Usable: By mages of Neutral and Evil Alignment~
 @225  = ~Toe Ring~
 @226  = ~Succubus' Toe Ring~
 @227  = ~This small toe ring of red gold was worn by a succubus and is always warm to the touch.  The wearer of this ring constantly hears the sounds of the Abyssal Planes: a cacophony of the wails of tormented and curses of demon lords… Obviously, the person who wears the ring must be resilient to or find enjoyment in such things.
@@ -375,7 +375,7 @@ Only Useable: By mages of Neutral and Evil Alignment~
 Special Abilities:
 Dire Charm once per day
 Increases the wearer's charisma by 2 points
-Only Useable by Evil-Aligned characters~
+Only Usable by Evil-Aligned characters~
 @228  = ~Withered Roses~
 @229  = ~This is a bunch of dried out roses.  Amelia the Maiden Fair asked you to restore them back to life.~
 @230  = ~Red Roses~
@@ -569,7 +569,7 @@ Weight: 3
 Speed Factor: 4
 Proficiency Type: Club
 Type:  1-handed
-Only Useable by:
+Only Usable by:
 Druids~
 @363  = ~Andarthe~
 @364  = ~Beador~
@@ -872,7 +872,7 @@ I am tempted to take the opportunity to make a side visit to Candlekeep on the r
 
 9th of Uktar, 1367:  Winksi has similarly occupied himself well during my absence, and today presented me with the location of a nearby sect of Cyricists, who have made a particular practice of researching everything they can about Bhaal, and especially his successor.  It only makes sense that Cyric would be very interested in the offspring of his fallen foe, rising to reclaim his portfolio.  Winski wants to capture one or more of their leaders and extract their knowledge from them, but I say we should shoot higher and interrogate them all.  But that requires more than just two people, so I shall begin carefully selecting followers.  Though I fully realize that my heritage should remain a general secret, especially from Rieltar, it is time that the Son of Murder had the acolytes he deserves.
 
-14th of Uktar, 1367:  Cythandria reacted to my revelation exactly as I thought she would:  She immediately saw herself as a queen or an idol of worship, the only fitting roles for the consort of the Lord of Murder.  Only after several minutes of imagining life seated at my right hand did she think to pay me any proper homage or obesiance.  If I had the luxury of choice, I would not have to put up with this kind of attitude, but I need to establish a power base of my own, so I shall tolerate it. . . for now.  There will be time for correction later.
+14th of Uktar, 1367:  Cythandria reacted to my revelation exactly as I thought she would:  She immediately saw herself as a queen or an idol of worship, the only fitting roles for the consort of the Lord of Murder.  Only after several minutes of imagining life seated at my right hand did she think to pay me any proper homage or obeisance.  If I had the luxury of choice, I would not have to put up with this kind of attitude, but I need to establish a power base of my own, so I shall tolerate it. . . for now.  There will be time for correction later.
 
 Feast of the Moon, 1367:  The Cyricists are ours, and we have begun pumping them for information, with Zhalimar taking over whenever other matters call me away.  I have ordered that the younger members be kept alive, except to serve as useful examples to motivate the elder priests to be more forthcoming.  What Winski is most concerned about is that some mysterious "ward of Gorion" is mentioned in the prophecies, and is said to play a major role in the succession to Bhaal's portfolio, but there is no depiction of this rune or sigil anywhere, nor does he know what its significance might be.  It is a pity that Gorion is not a more uncommon name.
 
@@ -1080,3 +1080,4 @@ Launcher: Crossbow
 
 Weight: 1~
 @774 = ~Shortbow of Gesen~
+@775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]

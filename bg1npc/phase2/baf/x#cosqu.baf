@@ -67,6 +67,28 @@ IF %BGT_VAR%
 Global("X#CoranCharmedRun","GLOBAL",0)
 Global("X#CoranSuccubus","GLOBAL",11)
 !Dead("X#amelia")
+See("x#amelia")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+AreaCheck("%FirewineBridge%")
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranCharmedRun","GLOBAL",2)
+SetGlobal("X#CoranCharmed","GLOBAL",1) 
+LeaveParty() 
+ActionOverride("coran",SetLeavePartyDialogFile()) 
+ActionOverride("coran",ChangeAIScript("",DEFAULT))
+StartDialogueNoSet(Player1)
+END
+
+IF %BGT_VAR%
+Global("X#CoranCharmedRun","GLOBAL",0)
+Global("X#CoranSuccubus","GLOBAL",11)
+!Dead("X#amelia")
 RealGlobalTimerExpired("X#CoranResistTimer","GLOBAL")
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
