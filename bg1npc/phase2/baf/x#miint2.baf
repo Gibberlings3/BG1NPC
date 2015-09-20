@@ -296,6 +296,7 @@ InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
+AreaCheck("%Lighthouse%")
 THEN
 RESPONSE #100
 PlaySong(0)
