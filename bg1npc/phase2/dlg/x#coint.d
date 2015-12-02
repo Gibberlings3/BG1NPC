@@ -5,7 +5,7 @@ IF ~CheckStatLT(Player1,17,CHR) !InParty("jaheira")~ THEN DO ~GiveItemCreate("X#
 END
 
 EXTEND_BOTTOM ~%tutu_var%FORESH~ 2
-IF ~CheckStatLT(Player1,17,CHR)!InParty("jaheira")~ THEN DO ~GiveItemCreate("X#RINGRO",Player1,1,0,0)~ + X#RomanceForeshadow
+IF ~CheckStatLT(Player1,17,CHR) !InParty("jaheira")~ THEN DO ~GiveItemCreate("X#RINGRO",Player1,1,0,0)~ + X#RomanceForeshadow
 END
 
 EXTEND_BOTTOM ~%tutu_var%FORESH~ 3
