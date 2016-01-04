@@ -227,7 +227,8 @@ END
 //END
 
 I_C_T ~%tutu_var%ELMIN2~ 4 X#JaheiraEl23
-== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @64
+== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) !Global("sprite_is_deadtranzig","global",1)~ THEN @64
+== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) Global("sprite_is_deadtranzig","global",1)~ THEN @211
 == ~%tutu_var%ELMIN2~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @65
 END
 

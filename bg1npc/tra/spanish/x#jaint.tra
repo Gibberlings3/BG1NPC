@@ -210,3 +210,5 @@
 @206  = ~Bueno, ahora dormirán tranquilos. Gracias.~
 @207  = ~La ley queda hecha.~
 @210  = ~No hagáis caso a las tonterías de un viejo. Adiós, <CHARNAME>, y gracias por el libro.~
+// Modified version of @64, in case Tranzig is already dead
+@211  = ~No os resignéis, <CHARNAME>. Si no lo hace Elminster, entonces os contaría más de vuestro padre adoptivo. Pero antes de que hagamos eso, hay cosas que hacer...~
