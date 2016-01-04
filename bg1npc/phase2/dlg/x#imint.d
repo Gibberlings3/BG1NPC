@@ -9,7 +9,7 @@ CHAIN ~%IMOEN_JOINED%~ X#ImoenKeeper1
 = @1
 == ~%tutu_var%KEEPER~ IF ~GlobalLT("Chapter","GLOBAL",%tutu_chapter_4%) InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2 DO ~SetGlobal("X#IMPCTalkKeeperStart","GLOBAL",1)~
 END
-IF ~~ THEN REPLY @3 EXTERN ~%tutu_var%KEEPER~ X#ImoenKeeper1A
+IF ~Global("EnteredArmInn","GLOBAL",0)~ THEN REPLY @3 EXTERN ~%tutu_var%KEEPER~ X#ImoenKeeper1A
 IF ~~ THEN REPLY @4 EXTERN ~%tutu_var%KEEPER~ X#ImoenKeeper1A
 IF ~~ THEN REPLY @5 EXTERN ~%tutu_var%KEEPER~ X#ImoenKeeper1A
 IF ~Global("X#GorionBuried","GLOBAL",0)~ THEN REPLY @6 EXTERN ~%tutu_var%KEEPER~ X#KeeperBuryGorion
