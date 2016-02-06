@@ -3241,10 +3241,11 @@ BEGIN @1007
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @636
     SAY NAME2 @636
-    SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Tutu/BGT: The fair folk will inherit the earth. / BGEE: Good day and hello to you.
+    SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
     SAY DAMAGE #11075 // [ELF FEMALE 5]
     SAY DYING #11076 // [ELF FEMALE 6]
-    SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Tutu/BGT: The fair folk will inherit the earth. / BGEE: Good day and hello to you.
+    SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+    SAY DIALOGUE_DEFAULT #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 
@@ -3256,6 +3257,7 @@ BEGIN @1007
     SAY DAMAGE #11075 // [ELF FEMALE 5]
     SAY DYING #11076 // [ELF FEMALE 6]
     SAY SELECT_COMMON1 #11112 // [FEMALE GREETING 5] Yes, friend?
+    SAY DIALOGUE_DEFAULT #11112 // [FEMALE GREETING 5] Yes, friend?
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 	
@@ -3267,6 +3269,7 @@ BEGIN @1007
     SAY DAMAGE #11075 // [ELF FEMALE 5]
     SAY DYING #11076 // [ELF FEMALE 6]
     SAY SELECT_COMMON1 #11117 // [FEMALE GREETING 10] Salutations.
+    SAY DIALOGUE_DEFAULT #11117 // [FEMALE GREETING 10] Salutations.
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 
@@ -3276,6 +3279,7 @@ BEGIN @1007
     SAY NAME2 @639
     SAY INITIAL_MEETING @706 // [MOOSE01]
     SAY SELECT_COMMON1 @706 // [MOOSE01]
+    SAY DIALOGUE_DEFAULT @706 // [MOOSE01]
     SAY DAMAGE @707 // [MOOSE06]
     SAY DYING @708 // [MOOSE07]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
