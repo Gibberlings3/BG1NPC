@@ -1617,7 +1617,7 @@ END
 
 IF ~~ SharAmulet1.1
 SAY @452
-IF ~~ THEN DO ~TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13") SetGlobal("X#SharAmulet","GLOBAL",1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
 END
 
 IF ~~ SharAmulet1.2
@@ -1632,7 +1632,7 @@ END
 
 IF ~~ SharAmulet1.4
 SAY @455
-IF ~~ THEN DO ~TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13") SetGlobal("X#SharAmulet","GLOBAL",1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
 END
 
 IF ~~ SharAmulet1.5
@@ -2092,20 +2092,20 @@ END
 IF ~~ STDagger4b
 SAY @566
 = @567
-IF ~~ THEN DO ~ApplyDamage(Player1,1,PIERCING)
+IF ~~ THEN DO ~SetGlobal("X#ShDagr","LOCALS",4) 
+ApplyDamage(Player1,1,PIERCING)
 TakePartyItem("%tutu_var%DAGG04")
-DestroyItem("%tutu_var%DAGG04")
-SetGlobal("X#ShDagr","LOCALS",4)~ EXIT
+DestroyItem("%tutu_var%DAGG04")~ EXIT
 END
 
 IF ~~ STDagger4c
 SAY @568
 = @569
 = @567
-IF ~~ THEN DO ~ApplyDamage(Player1,2,PIERCING)
+IF ~~ THEN DO ~SetGlobal("X#ShDagr","LOCALS",4) 
+ApplyDamage(Player1,2,PIERCING)
 TakePartyItem("%tutu_var%DAGG04")
-DestroyItem("%tutu_var%DAGG04")
-SetGlobal("X#ShDagr","LOCALS",4)~ EXIT
+DestroyItem("%tutu_var%DAGG04")~ EXIT
 END
 
 /* Fight */
