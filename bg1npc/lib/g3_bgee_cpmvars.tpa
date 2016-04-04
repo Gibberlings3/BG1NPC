@@ -49,7 +49,12 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
     OUTER_SPRINT "tazokminhp" "MIHP1"
     OUTER_SPRINT "RunAwayFrom" "RunAwayFromNoLeaveArea"
-
+    ACTION_IF FILE_EXISTS_IN_GAME ~corwyvrn.cre~ THEN BEGIN
+    	OUTER_SPRINT "CorWyvrn"	"CORWYVRN"
+    END ELSE BEGIN
+    	OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+    END
+    
     /* Tutu/BGT vs BGEE Dialog states */
     OUTER_SET firebeadstate1 = 3
     OUTER_SET firebeadstate2 = 1

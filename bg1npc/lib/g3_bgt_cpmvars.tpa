@@ -52,6 +52,7 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     OUTER_SPRINT "KICKED_OUT" "IWasKickedOut"
     OUTER_SPRINT "tazokminhp" "MINHP1"
     OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
+    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
 
     /* Tutu/BGT vs BGEE Dialog states */
     OUTER_SET firebeadstate1 = 1
