@@ -2,7 +2,9 @@
 
 /* Coran, Getting Reward for Wyvern Quest */
 IF %BGT_VAR% 
+AreaCheck("%Temple%")
 Global("X#CoranWyvernReward","GLOBAL",1)
+Global("wyvernp","GLOBAL",1)
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
