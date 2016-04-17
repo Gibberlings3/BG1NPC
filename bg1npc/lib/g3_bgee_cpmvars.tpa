@@ -46,6 +46,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "IMOEN_DV" "imoen"
 
     /* Items and Variables that need special handling */
+    OUTER_SPRINT "VoiceStrange" "False()"
     OUTER_SPRINT "KICKED_OUT" "KickedOut"
     OUTER_SPRINT "tazokminhp" "MIHP1"
     OUTER_SPRINT "RunAwayFrom" "RunAwayFromNoLeaveArea"
