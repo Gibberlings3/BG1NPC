@@ -7,12 +7,20 @@ ADD_TRANS_ACTION ~%tutu_var%KAGAIN~ BEGIN 0 END BEGIN END ~SetGlobal("KagainCara
 ADD_TRANS_ACTION  ~%tutu_var%KAGAIN~ BEGIN 7 END BEGIN END ~SetGlobal("KagainCaravan","GLOBAL",20) SetGlobal("X#KagainCaravan","GLOBAL",1)~
 
 /* making sure the quest can't happen if Eddard is already dead */
-EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 2
-IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN REPLY @0 GOTO X#KagQuestDerail1
-END
+//EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 2
+//IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN REPLY @0 GOTO X#KagQuestDerail1
+//END
+
+//EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 7
+//IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN GOTO X#KagQuestDerail2
+//END 
 
 EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 7
-IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN GOTO X#KagQuestDerail2
+IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) PartyHasItem("X#SILSH")~ THEN REPLY @29 GOTO X#KagBandResolvAlone
+IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) PartyHasItem("X#SILSH")~ THEN REPLY @26 GOTO X#KagBandResolvAlone
+IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) PartyHasItem("X#SILSH")~ THEN REPLY @30 GOTO X#KagBandResolvAlone
+IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) !PartyHasItem("X#SILSH")~ THEN REPLY @50 GOTO X#KagBandResolvAlone2
+IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) !PartyHasItem("X#SILSH")~ THEN REPLY @51 GOTO X#KagBandResolvAlone2
 END
 
 BEGIN ~X#KABAND~
@@ -26,8 +34,9 @@ CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#CaravanBanditEncounter","GLOBAL",1)~ TH
 == ~X#KABAND~ @6
 DO ~SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
 SetGlobal("X#KagainCaravan","GLOBAL",3)
-Help()
-Enemy()~ EXIT
+Shout(ASSIST)
+Enemy()
+~ EXIT
 
 EXTEND_BOTTOM ~%tutu_var%BRILLA~ 0
 IF ~OR(2) Global("X#KagainCaravan","GLOBAL",5) PartyHasItem("X#SILSH")~ THEN REPLY @7 GOTO X#BrillaEddardDeath
@@ -57,24 +66,32 @@ IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) 
 
 APPEND ~%tutu_var%KAGAIN~
 
-IF ~~ THEN BEGIN X#KagQuestDerail1
+/*IF ~~ THEN BEGIN X#KagQuestDerail1
 SAY @24
 ++ @25 GOTO X#KagBandResolvAlone
 ++ @26 GOTO X#KagBandResolvAlone
 ++ @27 GOTO X#KagBandResolvAlone
 END
+*/
 
-IF ~~ THEN BEGIN X#KagQuestDerail2
+/*IF ~~ THEN BEGIN X#KagQuestDerail2
 SAY @28
 ++ @29 GOTO X#KagBandResolvAlone
 ++ @26 GOTO X#KagBandResolvAlone
 ++ @30 GOTO X#KagBandResolvAlone
 END
+*/
 
 IF ~~ THEN BEGIN X#KagBandResolvAlone
 SAY @31
 IF ~~ THEN REPLY @32 DO ~EraseJournalEntry(@35) EraseJournalEntry(@44) EraseJournalEntry(@48) SetGlobal("X#KagainCaravan","GLOBAL",5)~ UNSOLVED_JOURNAL @33  GOTO X#KAQUDISMISS
 IF ~~ THEN REPLY @34 DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) SetGlobal("X#KagainCaravan","GLOBAL",5)~ UNSOLVED_JOURNAL @35  GOTO X#KAQUREWARDALONE
+END
+
+IF ~~ THEN BEGIN X#KagBandResolvAlone2
+SAY @52
+IF ~~ THEN REPLY @32 DO ~EraseJournalEntry(@35) EraseJournalEntry(@44) EraseJournalEntry(@48) SetGlobal("X#KagainCaravan","GLOBAL",5)~ UNSOLVED_JOURNAL @53  GOTO X#KAQUDISMISS
+IF ~~ THEN REPLY @34 DO ~EraseJournalEntry(@33) EraseJournalEntry(@44) EraseJournalEntry(@48) SetGlobal("X#KagainCaravan","GLOBAL",5)~ UNSOLVED_JOURNAL @54  GOTO X#KAQUREWARDALONE
 END
 
 IF ~~ THEN BEGIN X#KAQUREWARDALONE

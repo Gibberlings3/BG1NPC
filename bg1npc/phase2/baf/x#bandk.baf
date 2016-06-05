@@ -1,20 +1,82 @@
 IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+IF
 	AttackedBy([GOODCUTOFF],DEFAULT)
 	Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100
-		Help()
+		Shout(ASSIST)
 		Enemy()
+		Continue()
+END
+
+IF
+	OR(2)
+		Heard("x#bandk",ASSIST)
+		Heard("x#kaband",ASSIST)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Shout(ASSIST)
+		Enemy()
+		Continue()
+END
+
+IF
+	OR(2)
+		Heard("x#bandk",ASSIST)
+		Heard("x#kaband",ASSIST)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	HPPercentLT(Myself,50)
+	!GlobalTimerNotExpired("x#HelpTimer","locals")
+THEN
+	RESPONSE #100
+		Help()
+		SetGlobalTimer("x#HelpTimer","locals",TWO_ROUNDS)
 END
 
 IF
 	OR(2)
 		Help("x#bandk")
 		Help("x#kaband")
-	Allegiance(Myself,NEUTRAL)
+	!Range(NearestEnemyOf(Myself),5)
 THEN
 	RESPONSE #100
-		Enemy()
-		Attack(NearestEnemyOf(LastHelp(Myself)))
+		AttackReevaluate(NearestEnemyOf(LastHelp(Myself)),30)
 END
 
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
