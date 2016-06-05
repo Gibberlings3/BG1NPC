@@ -2671,7 +2671,7 @@ END
 
 /* Early in Romance */
 
-IF WEIGHT #-2 ~%BGT_VAR% Global("X#XanFlirtEarly","GLOBAL",1)~ THEN BEGIN XaFlirtEarly
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#XanFlirtEarly","GLOBAL",2)~ THEN BEGIN XaFlirtEarly
 SAY @813  
 IF ~RandomNum(20,1)~ DO ~SetGlobal("X#XanFlirtEarly","GLOBAL",0) RealSetGlobalTimer("X#XAFlirtEarlyTime","GLOBAL",XAROM_TIMER)~ + XaFlirtEarly1
 IF ~RandomNum(20,2)~ DO ~SetGlobal("X#XanFlirtEarly","GLOBAL",0) RealSetGlobalTimer("X#XAFlirtEarlyTime","GLOBAL",XAROM_TIMER)~ + XaFlirtEarly2
@@ -2897,7 +2897,7 @@ END
 
 /* Late in Romance */
 
-IF WEIGHT #-2 ~%BGT_VAR% Global("X#XanFlirtLate","GLOBAL",1)~ THEN BEGIN XaFlirtLate
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#XanFlirtLate","GLOBAL",2)~ THEN BEGIN XaFlirtLate
 SAY @881   
 IF ~RandomNum(20,1)~ DO ~SetGlobal("X#XanFlirtLate","GLOBAL",0) RealSetGlobalTimer("X#XAFlirtLateTime","GLOBAL",XAROM_TIMER)~ + XaFlirtLate1
 IF ~RandomNum(20,2)~ DO ~SetGlobal("X#XanFlirtLate","GLOBAL",0) RealSetGlobalTimer("X#XAFlirtLateTime","GLOBAL",XAROM_TIMER)~ + XaFlirtLate2
