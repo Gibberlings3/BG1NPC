@@ -459,7 +459,7 @@ END
 /* Chat w PC */
 /* Wyvern head friendtalk */
 IF %BGT_VAR%
-Dead("X#CoranWyvern")
+Dead("%CorWyvrn%")
 Global("CoranReward","GLOBAL",1)
 PartyHasItem("%tutu_var%MISC52") //wyvern head
 Global("wyvernp","GLOBAL",0)

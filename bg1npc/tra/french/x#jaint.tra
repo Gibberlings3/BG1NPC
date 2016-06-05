@@ -152,6 +152,8 @@
       ~C'est vrai, <CHARNAME> a pris quelques décisions douteuses récemment, mais peut-être ferions-nous bien de ne pas la juger si rapidement. Je suis certaine que je réussirai à la garder sur la voie de l'Equilibre, et par la mémoire de Gorion, il en sera ainsi.~
 @67 = ~Hmm, il semblerait qu'Elminster lui-même approuve la voie que tu as choisie. Si seulement il pouvait prétendre que ce sont ses conseils qui te guident le long de cette voie. Hélas, il se réserve tout juste le droit de juger. *soupire*~
 @68 = ~Allons, Jaheira, en tant que druide tu devrais comprendre que je ne peux pas intervenir de trop près dans des matières... d'importance locale. Mais je te fais confiance, comme je faisais confiance à Gorion.~
+// Modified version of @64, in case Tranzig is already dead
+@211 = ~Ne rumine pas, <CHARNAME>. Si Elminster ne le fait pas, alors je t'en dirai plus sur ton père adoptif. Mais avant cela, nous devons nous charger de certaines choses...~
 
 //Avec Perleflamme le mage qui cherche un bouquin et en donne un autre, sur Bhaal
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 477, probablement inutile de traduire ici !
@@ -428,3 +430,4 @@
 @206 = ~Bien, elles dormiront mieux, à présent. Merci.~
 @207 = ~La loi est respectée.~
 @210 = ~Ne prête pas attention aux délires d'un vieil homme. Adieu, <CHARNAME>, et merci pour le livre.~
+

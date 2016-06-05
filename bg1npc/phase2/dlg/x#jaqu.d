@@ -477,8 +477,8 @@ APPEND X#ANDART
 /* Andarthe tries to surrender if below 50 percent HP and still alive */
 IF WEIGHT #-2 ~Global("X#AndSurrender","GLOBAL",1)~ THEN BEGIN AndSurrender
 SAY @0
-IF ~!Dead("beador")~ THEN DO ~DestroyItem("MINHP1") SetGlobal("X#AndSurrender","GLOBAL",2)~ EXTERN ~%JAHEIRA_JOINED%~ JahAndSur1
-IF ~Dead("beador")~ THEN DO ~DestroyItem("MINHP1") SetGlobal("X#AndSurrender","GLOBAL",2)~ EXTERN ~%JAHEIRA_JOINED%~ JahAndSur2
+IF ~!Dead("beador")~ THEN DO ~SetGlobal("X#AndSurrender","GLOBAL",2) DestroyItem("MINHP1")~ EXTERN ~%JAHEIRA_JOINED%~ JahAndSur1
+IF ~Dead("beador")~ THEN DO ~SetGlobal("X#AndSurrender","GLOBAL",2) DestroyItem("MINHP1")~ EXTERN ~%JAHEIRA_JOINED%~ JahAndSur2
 END
 
 /* From Andarthe & Faldorn */
@@ -508,8 +508,8 @@ END
 CHAIN ~%JAHEIRA_JOINED%~ JahAndSur1
 @3
 END
-++ @4 DO ~ChangeEnemyAlly("andarthe",ENEMY) SetGlobal("X#AndSurrender","GLOBAL",3)~ EXIT
-++ @5 DO ~AddexperienceParty(500) SetGlobal("X#AndSurrender","GLOBAL",4) ActionOverride("andarthe",EscapeArea())~ EXTERN ~%JAHEIRA_JOINED%~ JahAndSur4
+++ @4 DO ~SetGlobal("X#AndSurrender","GLOBAL",3) ChangeEnemyAlly("andarthe",ENEMY)~ EXIT
+++ @5 DO ~SetGlobal("X#AndSurrender","GLOBAL",4) AddexperienceParty(500) ActionOverride("andarthe",EscapeArea())~ EXTERN ~%JAHEIRA_JOINED%~ JahAndSur4
 
 /* Beador was Killed surrender terms */
 CHAIN ~%JAHEIRA_JOINED%~ JahAndSur2
@@ -619,11 +619,11 @@ CHAIN ~%tutu_var%SENIYA~ SEReward1.1
 == ~%JAHEIRA_JOINED%~ @179
 == ~%tutu_var%SENIYA~ @180
 END
-IF ~~ THEN DO ~AddexperienceParty(5000) GiveItemCreate("X#JACLUB",Player1,1,1,0) SetGlobal("SeniyadXP","GLOBAL",1) EraseJournalEntry(@163) Shout(3) EscapeArea()~ SOLVED_JOURNAL @169 EXIT
+IF ~~ THEN DO ~SetGlobal("SeniyadXP","GLOBAL",1) AddexperienceParty(5000) GiveItemCreate("X#JACLUB",Player1,1,1,0) EraseJournalEntry(@163) Shout(3) EscapeArea()~ SOLVED_JOURNAL @169 EXIT
 
 CHAIN ~%tutu_var%SENIYA~ SEReward1.3
 @181
 == ~%JAHEIRA_JOINED%~ @179
 == ~%tutu_var%SENIYA~ @182
 END
-IF ~~ THEN DO ~AddexperienceParty(5000) GiveItemCreate("X#JACLUB",Player1,1,1,0) SetGlobal("SeniyadXP","GLOBAL",1) EraseJournalEntry(@163) Shout(3) EscapeArea()~ SOLVED_JOURNAL @169 EXIT
+IF ~~ THEN DO ~SetGlobal("SeniyadXP","GLOBAL",1) AddexperienceParty(5000) GiveItemCreate("X#JACLUB",Player1,1,1,0) EraseJournalEntry(@163) Shout(3) EscapeArea()~ SOLVED_JOURNAL @169 EXIT

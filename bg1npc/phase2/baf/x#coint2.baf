@@ -1,5 +1,22 @@
 /* Coran Interjections*/
 
+/* Coran, Getting Reward for Wyvern Quest */
+IF %BGT_VAR% 
+AreaCheck("%Temple%")
+Global("X#CoranWyvernReward","GLOBAL",1)
+Global("wyvernp","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#CoranWyvernReward","GLOBAL",2)
+StartDialogueNoSet(Player1)
+END
+
 /* Coran Durlyle */
 IF %BGT_VAR%
 Global("X#CoranDur","GLOBAL",2)

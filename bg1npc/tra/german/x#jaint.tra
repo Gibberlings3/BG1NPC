@@ -228,3 +228,5 @@ Sie werden uns nicht einfach durch ihr Gebiet ziehen lassen ohne Fragen zu stell
 @206  = ~Nunja, sie werden jetzt besser schlafen. Danke.~
 @207  = ~Dem Gesetzt ist gedient.~
 @210  = ~Schenkt dem müßigen Geschwafel eines alten Mannes keine Aufmerksamkeit. Lebt wohl, <CHARNAME>, und danke für das Buch.~
+// Modified version of @64, in case Tranzig is already dead
+@211  = ~Haltet Euch nicht auf, <CHARNAME>. Wenn Elminster es nicht wird, dann werde ich Euch mehr über Euren Ziehvater erzählen. Aber bevor wir das können, müssen Dnge erledigt werden...~

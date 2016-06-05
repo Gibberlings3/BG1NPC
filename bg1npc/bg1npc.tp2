@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v22_20150614~
+VERSION ~v22.3_20160416~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -1798,22 +1798,6 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 	/* Changing DPLAYER2.bcs to stop BreakingPoint SDNS from hanging is unnessesary in BGT */     
 END
 
-
-/* Tutu, BGT, BG:EE Dialogue Correction in X#JFIX.D */
-  COPY_EXISTING ~%UC_TofB_BCS%.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE
-      ~Global("DeathOfSarevok","GLOBAL",0)~
-      ~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
-      REPLACE_TEXTUALLY CASE_INSENSITIVE
-      ~GlobalTimerExpired("DeathOfSarevok","GLOBAL")~
-      ~GlobalTimerExpired("DeathOfSarevok","GLOBAL") OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
-      REPLACE_TEXTUALLY CASE_INSENSITIVE
-      ~Global("D0FinalSave","GLOBAL",0)~
-      ~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
-    END
-  BUT_ONLY_IF_IT_CHANGES
-
 /* Trying to prevent Alora from Stuttering. */
   COPY_EXISTING ~%tutu_var%ALORA.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
@@ -1857,45 +1841,53 @@ END
   EXTEND_BOTTOM ~%Undercity_BCS%.bcs~ ~bg1npc/core/baf/x#tazokarea.baf~
     EVALUATE_BUFFER
     
+  /* CORAN WYVERN QUEST */
   /* Create Coran's Wyverns */
-  COPY_EXISTING ~%tutu_var%WYVERN.CRE~ ~override/X#CORWYV.CRE~
-    WRITE_ASCII 0x280 ~X#CoranWyvern~ #32
-  BUT_ONLY_IF_IT_CHANGES
+  ACTION_IF !(FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 already has unique wyverns for Coran's quest
+  	COPY_EXISTING ~%tutu_var%WYVERN.CRE~ ~override/X#CORWYV.CRE~
+    	WRITE_ASCII 0x280 ~X#CoranWyvern~ #32
+  	BUT_ONLY_IF_IT_CHANGES
 
   /* put them in the Cave */
-  COPY_EXISTING ~%CloakwoodWyverns_WyvernCave%.ARE~ ~override~
-    READ_LONG 0x54 actors_off
-    READ_SHORT 0x58 actors_num
-    FOR (i = 0; i < %actors_num%; i += 1) BEGIN
-      READ_ASCII (%actors_off% + %i% * 0x110 + 0x80) actor_resref
-      PATCH_IF !("%actor_resref%" STR_EQ "%tutu_var%WYVERN") BEGIN
-        WRITE_ASCII (%actors_off% + %i% * 0x110 + 0x80) X#CORWYV #8
-      END
-    END
-  BUT_ONLY_IF_IT_CHANGES
+  	COPY_EXISTING ~%CloakwoodWyverns_WyvernCave%.ARE~ ~override~
+    	READ_LONG 0x54 actors_off
+    	READ_SHORT 0x58 actors_num
+    	FOR (i = 0; i < %actors_num%; i += 1) BEGIN
+      		READ_ASCII (%actors_off% + %i% * 0x110 + 0x80) actor_resref
+      		PATCH_IF ("%actor_resref%" STR_EQ "%tutu_var%WYVERN") BEGIN
+        		WRITE_ASCII (%actors_off% + %i% * 0x110 + 0x80) X#CORWYV #8
+      		END
+    	END
+  	BUT_ONLY_IF_IT_CHANGES
+  END
   
   /* False() out blocks from Coran's default script 
      All platforms: Default timer expired block
      BGEE only: Wyvern killed block */
   COPY_EXISTING ~%CORAN_BCS%.bcs~ ~override~
   	DECOMPILE_AND_PATCH BEGIN
-  	  REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
-      PATCH_IF (GAME_IS ~bgee~) BEGIN 
-      	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
-	  END
+  	  	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
+      	PATCH_IF (GAME_IS ~bgee~) BEGIN 
+      		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
+	  	END
     END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Fixing Coran's Wyvern script */
   EXTEND_TOP ~%CORAN_BCS%.bcs~ ~BG1NPC/Core/baf/X#CORWYV.BAF~
-     EVALUATE_BUFFER
+    EVALUATE_BUFFER
 
   /* Fix Coran's dialog files */
-  ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
-  	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_tutubgee.d~
-  END ELSE ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN 
+  	ACTION_IF (FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 	
+  		COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_bgeev2.d~
+  	END ELSE BEGIN
+  		COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_tutu.d~
+  	END 
+  END ELSE BEGIN // BGT
   	COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#corwyv_bgt.d~
-  END
+  END 
+  /* END WYVERN QUEST */
   
   /* removing Kivan's timer to leave party */
   COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
@@ -3241,9 +3233,11 @@ BEGIN @1007
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @636
     SAY NAME2 @636
+    SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
     SAY DAMAGE #11075 // [ELF FEMALE 5]
     SAY DYING #11076 // [ELF FEMALE 6]
-    SAY SELECT_COMMON1 @720
+    SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+    SAY DIALOGUE_DEFAULT #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 
@@ -3251,9 +3245,11 @@ BEGIN @1007
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @637
     SAY NAME2 @637
+    SAY INITIAL_MEETING #11112 // [FEMALE GREETING 5] Yes, friend?
     SAY DAMAGE #11075 // [ELF FEMALE 5]
     SAY DYING #11076 // [ELF FEMALE 6]
-    SAY SELECT_COMMON1 @720
+    SAY SELECT_COMMON1 #11112 // [FEMALE GREETING 5] Yes, friend?
+    SAY DIALOGUE_DEFAULT #11112 // [FEMALE GREETING 5] Yes, friend?
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 	
@@ -3261,9 +3257,11 @@ BEGIN @1007
   	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @638
     SAY NAME2 @638
+    SAY INITIAL_MEETING #11117 // [FEMALE GREETING 10] Salutations.
     SAY DAMAGE #11075 // [ELF FEMALE 5]
     SAY DYING #11076 // [ELF FEMALE 6]
-    SAY SELECT_COMMON1 @720
+    SAY SELECT_COMMON1 #11117 // [FEMALE GREETING 10] Salutations.
+    SAY DIALOGUE_DEFAULT #11117 // [FEMALE GREETING 10] Salutations.
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 
@@ -3273,6 +3271,7 @@ BEGIN @1007
     SAY NAME2 @639
     SAY INITIAL_MEETING @706 // [MOOSE01]
     SAY SELECT_COMMON1 @706 // [MOOSE01]
+    SAY DIALOGUE_DEFAULT @706 // [MOOSE01]
     SAY DAMAGE @707 // [MOOSE06]
     SAY DYING @708 // [MOOSE07]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
@@ -4649,7 +4648,7 @@ BEGIN @1026  /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 //  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */  
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-ACTION_FOR_EACH viconia IN viconi viconi4 viconi61 _viconi _viconi4 _viconi6 BEGIN
+ACTION_FOR_EACH viconia IN viconi viconi4 viconi6 viconi61 _viconi _viconi4 _viconi6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -5574,10 +5573,10 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 
-  COPY_EXISTING ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva1.cre~
-                ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva2.cre~
-                ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva3.cre~
-                ~BG1NPC/Phase3/DYROM/cre/x#ulvar.cre~ ~override/x#cutva4.cre~
+  COPY_EXISTING ~x#ulvar.cre~ ~override/x#cutva1.cre~
+                ~x#ulvar.cre~ ~override/x#cutva2.cre~
+                ~x#ulvar.cre~ ~override/x#cutva3.cre~
+                ~x#ulvar.cre~ ~override/x#cutva4.cre~
     SAY NAME1 @438
     SAY NAME2 @438
     WRITE_ASCII 0x248 ~X#CUTVAM~ #8 //  override script
@@ -5815,7 +5814,21 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
         PRINT @1113
         END
 
-  ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
+  ACTION_IF ((GAME_IS ~tutu tutu_totsc bgee~) AND (NOT FILE_EXISTS_IN_GAME ~bd1000.are~)) THEN BEGIN
+  	COPY_EXISTING ~%UC_TofB_BCS%.bcs~ ~override~
+    	DECOMPILE_AND_PATCH BEGIN
+      		REPLACE_TEXTUALLY CASE_INSENSITIVE
+      			~Global("DeathOfSarevok","GLOBAL",0)~
+      			~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
+      		REPLACE_TEXTUALLY CASE_INSENSITIVE
+      			~GlobalTimerExpired("DeathOfSarevok","GLOBAL")~
+      			~GlobalTimerExpired("DeathOfSarevok","GLOBAL") OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
+      		REPLACE_TEXTUALLY CASE_INSENSITIVE
+      			~Global("D0FinalSave","GLOBAL",0)~
+      			~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
+    	END
+	BUT_ONLY_IF_IT_CHANGES
+
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#DYDEAD.BAF~
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#DYLSTA.BAF~
       USING ~BG1NPC/TRA/%LANGUAGE%/X#DYLAST.TRA~
@@ -6528,7 +6541,7 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
       FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
         SET cre_offset = non_joined_npcs_off + i * 0x160
         READ_ASCII 0xc + cre_offset ~CREName~
-        PATCH_IF !(~%CREName%~ STR_EQ ~%ALORA_BCS%~) BEGIN
+        PATCH_IF (~%CREName%~ STR_EQ ~%ALORA_BCS%~) BEGIN
           WRITE_ASCIIE cre_offset + 0x18 ~%Gullykin%~ #8
           WRITE_SHORT cre_offset + 0x20 553
           WRITE_SHORT cre_offset + 0x22 506
@@ -6581,7 +6594,7 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
     FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
       SET cre_offset = non_joined_npcs_off + i * 0x160
       READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STR_EQ ~%ELDOTH_BCS%~) BEGIN
+      PATCH_IF (~%CREName%~ STR_EQ ~%ELDOTH_BCS%~) BEGIN
         WRITE_ASCIIE cre_offset + 0x18 ~%CoastWay%~ #8
         WRITE_SHORT cre_offset + 0x20 1064
         WRITE_SHORT cre_offset + 0x22 2086
@@ -6612,7 +6625,7 @@ BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
     FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
       SET cre_offset = non_joined_npcs_off + i * 0x160
       READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STR_EQ ~%QUAYLE_BCS%~) BEGIN
+      PATCH_IF (~%CREName%~ STR_EQ ~%QUAYLE_BCS%~) BEGIN
         WRITE_ASCIIE cre_offset + 0x18 ~%NashkelCarnival%~ #8
         WRITE_SHORT cre_offset + 0x20 1067
         WRITE_SHORT cre_offset + 0x22 3784
@@ -6643,7 +6656,7 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
     FOR (i = 0; i < non_joined_npcs_count; i+=1) BEGIN
       SET cre_offset = non_joined_npcs_off + i * 0x160
       READ_ASCII 0xc + cre_offset ~CREName~
-      PATCH_IF !(~%CREName%~ STR_EQ ~%TIAX_BCS%~) BEGIN
+      PATCH_IF (~%CREName%~ STR_EQ ~%TIAX_BCS%~) BEGIN
         WRITE_ASCIIE cre_offset + 0x18 ~%Beregost_FeldepostsInn_L1%~ #8
         WRITE_SHORT cre_offset + 0x20 500
         WRITE_SHORT cre_offset + 0x22 630

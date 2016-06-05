@@ -27,5 +27,6 @@ SAY @5
 IF ~~ THEN EXIT
 END
 
-
 END
+
+ADD_TRANS_TRIGGER ~%tutu_var%HULL2~ 0 ~Global("X#PCBuryGorion","GLOBAL",0)~ DO 2

@@ -52,7 +52,7 @@ CHAIN ~%tutu_var%BRILLA~ X#BrillaEddardDeath
 == ~%ELDOTH_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @22
 == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @23
 END
-IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) TakePartyItem("X#SILSH") DestroyItem("X#SILSH") AddexperienceParty(3000) EraseJournalEntry(@33) EraseJournalEntry(@35) EraseJournalEntry(@44) EraseJournalEntry(@48) ActionOverride("brilla",EscapeArea())~ SOLVED_JOURNAL @49 EXIT
+IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) EraseJournalEntry(@33) EraseJournalEntry(@35) EraseJournalEntry(@44) EraseJournalEntry(@48) TakePartyItem("X#SILSH") DestroyItem("X#SILSH") ActionOverride("brilla",EscapeArea())~ SOLVED_JOURNAL @49 EXIT
 
 
 APPEND ~%tutu_var%KAGAIN~

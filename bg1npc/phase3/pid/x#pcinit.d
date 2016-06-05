@@ -59,7 +59,7 @@ IF ~IsGabber(Player1) %BGT_VAR%~ THEN BEGIN VICH
 	+ ~RandomNum(8,6) Gender(Player1,MALE)~ + @9 + ViconiaPID3.6
 	+ ~RandomNum(8,7) Gender(Player1,MALE)~ + @9 + ViconiaPID3.7
 	+ ~RandomNum(8,8) Gender(Player1,MALE)~ + @9 + ViconiaPID3.8
-	++ @10 + ViconiaVoice
+	+ ~%VoiceStrange%~ + @10 + ViconiaVoice
 END
 
 /* SetPlayerSound entries for _VICONI.CRE... */
@@ -359,7 +359,7 @@ SAY @88
 
 + ~Global("X#SkieDeadELPCINITCounter","GLOBAL",10)~ + @96 + X#SkSuit8
 
-++ @97 + SkieVoice
++ ~%VoiceStrange%~ + @97 + SkieVoice
 
 END
 
@@ -743,7 +743,7 @@ SAY @157
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @191 + SharBlood3
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @191 + SharBlood4
 + ~!Global("X#SharDisableFlirts","GLOBAL",1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @192 DO ~SetGlobal("X#SharDisableFlirts","GLOBAL",1)~ EXIT
-++ @193 + SharVoice
++ ~%VoiceStrange%~ + @193 + SharVoice
 END
 
 /* SetPlayerSound entries for _SHARTE.CRE... */
@@ -1617,7 +1617,7 @@ END
 
 IF ~~ SharAmulet1.1
 SAY @452
-IF ~~ THEN DO ~TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13") SetGlobal("X#SharAmulet","GLOBAL",1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
 END
 
 IF ~~ SharAmulet1.2
@@ -1632,7 +1632,7 @@ END
 
 IF ~~ SharAmulet1.4
 SAY @455
-IF ~~ THEN DO ~TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13") SetGlobal("X#SharAmulet","GLOBAL",1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
 END
 
 IF ~~ SharAmulet1.5
@@ -2092,20 +2092,20 @@ END
 IF ~~ STDagger4b
 SAY @566
 = @567
-IF ~~ THEN DO ~ApplyDamage(Player1,1,PIERCING)
+IF ~~ THEN DO ~SetGlobal("X#ShDagr","LOCALS",4) 
+ApplyDamage(Player1,1,PIERCING)
 TakePartyItem("%tutu_var%DAGG04")
-DestroyItem("%tutu_var%DAGG04")
-SetGlobal("X#ShDagr","LOCALS",4)~ EXIT
+DestroyItem("%tutu_var%DAGG04")~ EXIT
 END
 
 IF ~~ STDagger4c
 SAY @568
 = @569
 = @567
-IF ~~ THEN DO ~ApplyDamage(Player1,2,PIERCING)
+IF ~~ THEN DO ~SetGlobal("X#ShDagr","LOCALS",4) 
+ApplyDamage(Player1,2,PIERCING)
 TakePartyItem("%tutu_var%DAGG04")
-DestroyItem("%tutu_var%DAGG04")
-SetGlobal("X#ShDagr","LOCALS",4)~ EXIT
+DestroyItem("%tutu_var%DAGG04")~ EXIT
 END
 
 /* Fight */
@@ -2457,7 +2457,7 @@ SAY @619
 
 + ~ReputationGT(Player1,8) ReputationLT(Player1,18) CheckStatGT(Player1,7,INT) GlobalGT("NarlenMove","GLOBAL",0) GlobalLT("NarlenMove","GLOBAL",10) !AreaCheck("%NashkelMines_L1%") !AreaCheck("%NashkelMines_L2%") !AreaCheck("%NashkelMines_L3%") !AreaCheck("%NashkelMines_L4%") !AreaCheck("%CloakwoodMines_L1%") !AreaCheck("%CloakwoodMines_L3%") !AreaCheck("%CloakwoodMines_L4%") !AreaCheck("%CloakwoodMines_L2%")~ + @628 DO ~SetGlobal("X#SafanaPIDNashkel","GLOBAL",1)~ + SafanaAdvice10
 
-++ @629 + SafanaVoice
++ ~%VoiceStrange%~ + @629 + SafanaVoice
 END
 
 /* SetPlayerSound entries for _SAFANA.CRE... */
@@ -2755,7 +2755,7 @@ SAY @702
 + ~RandomNum(8,7)~ + @712 + AloraPID4.7
 + ~RandomNum(8,8)~ + @712 + AloraPID4.8
 
-++ @713 + AloraVoice
++ ~%VoiceStrange%~ + @713 + AloraVoice
 
 END
 //>>>>NOTE: MODIFYING OR CHANGING THESE ENTRIES IN ANY WAY WILL RESULT IN NEW STRINGS BEING ADDED TO DIALOG.TLK
@@ -3040,7 +3040,7 @@ IF ~IsGabber(Player1) %BGT_VAR% Global("P#BranMatch","GLOBAL",1) GlobalGT("P#BRL
 THEN BEGIN BranwenQuitRomance
 SAY @804
 ++ @805 EXIT
-++ @806 + BranwenVoice
++ ~%VoiceStrange%~ + @806 + BranwenVoice
 END
 
 /* SetPlayerSound entries for _BRANWE.CRE...*/
@@ -3197,7 +3197,7 @@ SAY @841
 + ~RandomNum(8,8)~ + @852 + BrTemper8
 
 + ~Global("P#BranwenRomanceActive","GLOBAL",3) OR(2) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) OR(2) Global("X#SharInterest","GLOBAL",3) Global("X#SharInterest","GLOBAL",0) Global("P#BranRomCutByOther","GLOBAL",1)~ + @853 + BrSorry
-++ @854 + BranwenVoice
++ ~%VoiceStrange%~ + @854 + BranwenVoice
 
 END
 
@@ -3543,7 +3543,7 @@ SAY @904
 
 ++ @918 + X#BrBreakLate1
 
-++ @854 + BranwenVoice
++ ~%VoiceStrange%~ + @854 + BranwenVoice
 
 END
 
@@ -4298,7 +4298,7 @@ SAY @1092
 
 ++ @917 EXIT
 
-++ @854 + BranwenVoice
++ ~%VoiceStrange%~ + @854 + BranwenVoice
 
 END
 
@@ -4904,7 +4904,7 @@ SAY @1224
 
 + ~Global("X#DynaheirRomanceInactive","GLOBAL",1) OR(2) Global("P#BranwenRomanceActive","GLOBAL",3) Global("P#BranwenRomanceActive","GLOBAL",0) OR(2) Global("X#SharInterest","GLOBAL",3) Global("X#SharInterest","GLOBAL",0) Global("X#DynaRomCutByOther","GLOBAL",1)~ + @1236 + DynaSorry
 
-++ @1237 + DynaVoice
++ ~%VoiceStrange%~ + @1237 + DynaVoice
 END
 
 IF ~~ DynaVoice
@@ -5353,7 +5353,7 @@ SAY @1337
 + ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1365 DO ~SetGlobal("X#DynaDisableFlirts","GLOBAL",1)~ EXIT
 + ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1366 EXIT
 
-++ @1237 + DynaVoice
++ ~%VoiceStrange%~ + @1237 + DynaVoice
 END
 
 IF ~~ DynaTorm1
@@ -7022,7 +7022,7 @@ SAY @1842
 + ~RandomNum(6,5)~ + @1851 + FalName5
 + ~RandomNum(6,6)~ + @1851 + FalName6
 
-++ @1852 + FaldornVoice
++ ~%VoiceStrange%~ + @1852 + FaldornVoice
 END
 
 IF ~~ FaldornVoice
@@ -7461,7 +7461,7 @@ SAY @1970
 
 + ~CheckStatLT("%IMOEN_DV%",7,FATIGUE) CheckStatLT("%IMOEN_DV%",7,INTOXICATION) HPPercentLT("%IMOEN_DV%",75) !AreaType(DUNGEON)~ + @1978 + X#ImoenWrong9
 
-++ @1979 + ImoenVoice
++ ~%VoiceStrange%~ + @1979 + ImoenVoice
 END
 
 /* SetPlayerSound entries for _IMOEN2.CRE... */
@@ -7711,7 +7711,7 @@ SAY @2029
 
 + ~Dead("khalid")~ + @2037 + X#JaScowl9
 
-++ @2038 + JaheiraVoice
++ ~%VoiceStrange%~ + @2038 + JaheiraVoice
 END
 
 /* SetPlayerSound entries for _JAHEIR.CRE... */
@@ -8011,7 +8011,7 @@ SAY @2103
 + ~GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%) Dead("tazok") RandomNum(5,3)~ + @2112 + X#KiCourse10
 + ~GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%) Dead("tazok") RandomNum(5,4)~ + @2112 + X#KiCourse11
 + ~GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%) Dead("tazok") RandomNum(5,5)~ + @2112 + X#KiCourse12
-++ @2113 + X#KivanVoice
++ ~%VoiceStrange%~ + @2113 + X#KivanVoice
 END
 
 /* SetPlayerSound entries for _KIVAN.CRE... */
@@ -8364,7 +8364,7 @@ SAY @2192
 + ~RandomNum(8,7)~ + @2201 + X#MiAdvice7
 + ~RandomNum(8,8)~ + @2201 + X#MiAdvice8
 
-++ @2202 + MinscVoice
++ ~%VoiceStrange%~ + @2202 + MinscVoice
 END
 
 /* SetPlayerSound entries for _MINSC.CRE... */
@@ -8680,7 +8680,7 @@ SAY @2279
 + ~!Dead("sarevok") !HPPercentLT("montaron",75) !AreaCheck("%IsleofBalduranS%") !AreaCheck("%IsleofBalduranN%") OR(17) AreaCheck("%DurlagsTower%") AreaCheck("%DurlagsTower_Cellar%") AreaCheck("%DurlagsTower_L1%") AreaCheck("%DurlagsTower_L2%") AreaCheck("%DurlagsTower_L3%") AreaCheck("%DurlagsTower_L4%") AreaCheck("%DurlagsTower_Chessboard%") AreaCheck("%DurlagsTower_IceChamber%") AreaCheck("%DurlagsTower_FireChamber%") AreaCheck("%DurlagsTower_AirChamber%") AreaCheck("%DurlagsTower_EarthChamber%") AreaCheck("%DurlagsTower_D1%") AreaCheck("%DurlagsTower_D2%") AreaCheck("%DurlagsTower_D3%") AreaCheck("%DurlagsTower_D4%") AreaCheck("%DurlagsTower_CompassRoom%") AreaCheck("%DurlagsTower_DemonknightsChamber%") !AreaCheck("%DurlagsTower_IceChamber%") !AreaCheck("%DurlagsTower_FireChamber%") !AreaCheck("%DurlagsTower_AirChamber%") !AreaCheck("%DurlagsTower_EarthChamber%") !AreaCheck("%DurlagsTower_D1%") !AreaCheck("%DurlagsTower_D2%") !AreaCheck("%DurlagsTower_D3%") !AreaCheck("%DurlagsTower_D4%") !AreaCheck("%DurlagsTower_CompassRoom%") !AreaCheck("%DurlagsTower_DemonknightsChamber%")~ + @2287 + X#MoSuggestion7
 + ~!Dead("sarevok") !HPPercentLT("montaron",75) OR(2) AreaCheck("%IsleofBalduranS%") AreaCheck("%IsleofBalduranN%") !AreaCheck("%DurlagsTower%") !AreaCheck("%DurlagsTower_Cellar%") !AreaCheck("%DurlagsTower_L1%") !AreaCheck("%DurlagsTower_L2%") !AreaCheck("%DurlagsTower_L3%") !AreaCheck("%DurlagsTower_L4%") !AreaCheck("%DurlagsTower_Chessboard%") !AreaCheck("%DurlagsTower_IceChamber%") !AreaCheck("%DurlagsTower_FireChamber%") !AreaCheck("%DurlagsTower_AirChamber%") !AreaCheck("%DurlagsTower_EarthChamber%") !AreaCheck("%DurlagsTower_D1%") !AreaCheck("%DurlagsTower_D2%") !AreaCheck("%DurlagsTower_D3%") !AreaCheck("%DurlagsTower_D4%") !AreaCheck("%DurlagsTower_CompassRoom%") !AreaCheck("%DurlagsTower_DemonknightsChamber%")~ + @2287 + X#MoSuggestion8
 
-++ @2288 + MontaronVoice
++ ~%VoiceStrange%~ + @2288 + MontaronVoice
 END
 
 /* SetPlayerSound entries for _MONTAR.CRE... */
@@ -8930,7 +8930,7 @@ SAY @2349
 + ~RandomNum(8,7)~ + @2358 + QuaylePID3.7
 + ~RandomNum(8,8)~ + @2358 + QuaylePID3.8
 
-++ @2359 + QuayleVoice
++ ~%VoiceStrange%~ + @2359 + QuayleVoice
 END
 
 /* SetPlayerSound entries for _QUAYLE.CRE... */
@@ -9211,7 +9211,7 @@ SAY @2428
 + ~RandomNum(8,7)~ + @2437 + TiaxPID3.7
 + ~RandomNum(8,8)~ + @2437 + TiaxPID3.8
 
-++ @2438 + TiaxVoice
++ ~%VoiceStrange%~ + @2438 + TiaxVoice
 END
 //>>>>NOTE: MODIFYING OR CHANGING THESE ENTRIES IN ANY WAY WILL RESULT IN NEW STRINGS BEING ADDED TO DIALOG.TLK
 //            INSTEAD OF THE DESIRED REPAIR. PLEASE USE CAUTION IN MASS TEXT PROCESSING OF X#PCINIT.D WHEN IN PLACE!
@@ -9568,7 +9568,7 @@ SAY @2511
 
 ++ @2524 EXIT
 
-++ @2525 + XanVoice
++ ~%VoiceStrange%~ + @2525 + XanVoice
 END
 
 /* SetPlayerSound entries for _XAN.CRE... */
@@ -10183,7 +10183,7 @@ SAY @2662
 
 ++ @2524 EXIT
 
-++ @2525 + XanVoice
++ ~%VoiceStrange%~ + @2525 + XanVoice
 END
 
 IF ~~ XAFELove8
@@ -10892,7 +10892,7 @@ Global("X#AjantisRomanceActive","GLOBAL",0)
 Global("X#XanRomCutByOther","GLOBAL",1)
 !Race(Player1,ELF)~ + @2809 + X#MakeUpNonElf
 
-++ @2525 + XanVoice
++ ~%VoiceStrange%~ + @2525 + XanVoice
 END
 
 IF ~~ X#MakeUpElf
@@ -11322,7 +11322,7 @@ SAY @2880
 + ~!HPPercentLT("xzar",80) GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%) Dead("sarevok") !AreaCheck("%Undercity_TempleofBhaal%") !AreaCheck("%Undercity%") !AreaCheck("%IsleofBalduranS%") !AreaCheck("%IsleofBalduranN%") !AreaCheck("%DurlagsTower%") !AreaCheck("%DurlagsTower_Cellar%") !AreaCheck("%DurlagsTower_L1%") !AreaCheck("%DurlagsTower_L2%") !AreaCheck("%DurlagsTower_L3%") !AreaCheck("%DurlagsTower_L4%") !AreaCheck("%DurlagsTower_Chessboard%") !AreaCheck("%DurlagsTower_IceChamber%") !AreaCheck("%DurlagsTower_FireChamber%") !AreaCheck("%DurlagsTower_AirChamber%") !AreaCheck("%DurlagsTower_EarthChamber%") !AreaCheck("%DurlagsTower_D1%") !AreaCheck("%DurlagsTower_D2%") !AreaCheck("%DurlagsTower_D3%") !AreaCheck("%DurlagsTower_D4%") !AreaCheck("%DurlagsTower_CompassRoom%") !AreaCheck("%DurlagsTower_DemonknightsChamber%")~ + @2889 + X#XzSuggestion6
 + ~!HPPercentLT("xzar",80) GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%) !Dead("sarevok") !AreaCheck("%Undercity_TempleofBhaal%") OR(2) AreaCheck("%IsleofBalduranS%") AreaCheck("%IsleofBalduranN%") !AreaCheck("%DurlagsTower%") !AreaCheck("%DurlagsTower_Cellar%") !AreaCheck("%DurlagsTower_L1%") !AreaCheck("%DurlagsTower_L2%") !AreaCheck("%DurlagsTower_L3%") !AreaCheck("%DurlagsTower_L4%") !AreaCheck("%DurlagsTower_Chessboard%") !AreaCheck("%DurlagsTower_IceChamber%") !AreaCheck("%DurlagsTower_FireChamber%") !AreaCheck("%DurlagsTower_AirChamber%") !AreaCheck("%DurlagsTower_EarthChamber%") !AreaCheck("%DurlagsTower_D1%") !AreaCheck("%DurlagsTower_D2%") !AreaCheck("%DurlagsTower_D3%") !AreaCheck("%DurlagsTower_D4%") !AreaCheck("%DurlagsTower_CompassRoom%") !AreaCheck("%DurlagsTower_DemonknightsChamber%")~ + @2889 + X#XzSuggestion8
 
-++ @2890 + XzarVoice
++ ~%VoiceStrange%~ + @2890 + XzarVoice
 END
 
 IF ~~ XzarVoice
@@ -11680,7 +11680,7 @@ SAY @2998
 + ~RandomNum(8,7)~ + @3006 + YeslickPID2.7
 + ~RandomNum(8,8)~ + @3006 + YeslickPID2.8
 
-++ @3007 + YeslickVoice
++ ~%VoiceStrange%~ + @3007 + YeslickVoice
 END
 
 /* SetPlayerSound entries for _YESLIC.CRE... */
@@ -11978,7 +11978,7 @@ Global("P#CoranRomCutByOther","GLOBAL",1)~ + @3081 + X#MakeUpCoran
 
 + ~Global("X#CoranHanaliRune","GLOBAL",10)~ + @3082 DO ~SetGlobal("X#CoranHanaliRune","GLOBAL",12)~ + X#CoHa6.1
 
-++ @3083 + CoranVoice
++ ~%VoiceStrange%~ + @3083 + CoranVoice
 END
 
 /* SetPlayerSound entries for _CORAN.CRE... */
@@ -12371,7 +12371,7 @@ SAY @3173
 + ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CoranLover","GLOBAL",0) Global("X#CoranHanali","GLOBAL",0)~ + @3200 DO ~SetGlobal("X#CoranHanali","GLOBAL",1) SetGlobal("X#CoranHanaliRune","GLOBAL",1) RealSetGlobalTimer("X#CoHanaliTime","GLOBAL",10)~ + X#CoHa1
 
 + ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CoranLover","GLOBAL",0) Global("X#CoranHanali","GLOBAL",1)~ + @3201 DO ~SetGlobal("X#CoranHanali","GLOBAL",3)~ EXIT
-++ @3083 + CoranVoice
++ ~%VoiceStrange%~ + @3083 + CoranVoice
 END
 
 IF ~~ X#CoHa1
@@ -13577,7 +13577,7 @@ SAY @3455
 + ~RandomNum(8,7) InParty("alora") !StateCheck("alora",CD_STATE_NOTVALID) Global("X#EDAL1","LOCALS",1)~ + @3465 + EdwinPID4.7
 + ~RandomNum(8,8) InParty("alora") !StateCheck("alora",CD_STATE_NOTVALID) Global("X#EDAL1","LOCALS",1)~ + @3465 + EdwinPID4.8
 
-++ @3466 + EdwinVoice
++ ~%VoiceStrange%~ + @3466 + EdwinVoice
 END
 
 IF ~~ EdwinVoice
@@ -13915,7 +13915,7 @@ SAY @3542
 + ~!Dead("skie") !InParty("skie") RandomNum(6,5)~ + @3550 + X#ElSuggestion5
 + ~!Dead("skie") !InParty("skie") RandomNum(6,6)~ + @3550 + X#ElSuggestion8
 
-++ @3551 + EldothVoice
++ ~%VoiceStrange%~ + @3551 + EldothVoice
 END
 
 IF ~~ EldothVoice
@@ -14144,7 +14144,7 @@ IF ~IsGabber(Player1) %BGT_VAR%~ THEN BEGIN GACH
 	+ ~RandomNum(8,6)~ + @3622 + GarrickPID2.6
 	+ ~RandomNum(8,7)~ + @3622 + GarrickPID2.7
 	+ ~RandomNum(8,8)~ + @3622 + GarrickPID2.8
-	++ @3623 + GarrickVoice
+	+ ~%VoiceStrange%~ + @3623 + GarrickVoice
 END
 
 IF ~~ GarrickVoice
@@ -14408,7 +14408,7 @@ SAY @3687
 + ~!InParty("jaheira") Dead("jaheira") RandomNum(5,4)~ + @3695 + X#KhWince4
 + ~!InParty("jaheira") Dead("jaheira") RandomNum(5,5)~ + @3695 + X#KhWince6
 
-++ @3696 + KhalidVoice
++ ~%VoiceStrange%~ + @3696 + KhalidVoice
 END
 
 IF ~~ KhalidVoice
@@ -14636,7 +14636,7 @@ SAY @3753
 
 + ~HPPercentLT("kagain",75)~ + @3761 + X#KaFront7
 
-++ @3762 + KagainVoice
++ ~%VoiceStrange%~ + @3762 + KagainVoice
 END
 
 IF ~~ KagainVoice
@@ -14978,7 +14978,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -15164,7 +15164,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------------
@@ -15329,7 +15329,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 //-----------------------------------------------
 
@@ -15508,7 +15508,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -15687,7 +15687,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -15881,7 +15881,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -16054,7 +16054,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -16240,7 +16240,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 
@@ -16418,7 +16418,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -16604,7 +16604,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------------
@@ -16783,7 +16783,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -16976,7 +16976,7 @@ SAY @3823
 
 ++ @3840 EXIT
 
-++ @3841 + AjantisVoice
++ ~%VoiceStrange%~ + @3841 + AjantisVoice
 END
 
 

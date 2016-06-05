@@ -5,7 +5,7 @@ IF ~CheckStatLT(Player1,17,CHR) !InParty("jaheira")~ THEN DO ~GiveItemCreate("X#
 END
 
 EXTEND_BOTTOM ~%tutu_var%FORESH~ 2
-IF ~CheckStatLT(Player1,17,CHR)!InParty("jaheira")~ THEN DO ~GiveItemCreate("X#RINGRO",Player1,1,0,0)~ + X#RomanceForeshadow
+IF ~CheckStatLT(Player1,17,CHR) !InParty("jaheira")~ THEN DO ~GiveItemCreate("X#RINGRO",Player1,1,0,0)~ + X#RomanceForeshadow
 END
 
 EXTEND_BOTTOM ~%tutu_var%FORESH~ 3
@@ -227,7 +227,7 @@ END
 
 I_C_T ~%tutu_var%KELDDA~ 6 X#CoranWyvernReward
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @93
-= @94 DO ~SetGlobal("P#CoranWyvern","GLOBAL",10)~
+//= @94 DO ~SetGlobal("P#CoranWyvern","GLOBAL",10)~
 == ~%tutu_var%KELDDA~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @1002
 END
 
@@ -273,6 +273,12 @@ END
 
 
 APPEND ~%CORAN_JOINED%~
+
+/* Coran, Getting Reward for Wyvern Quest */
+IF WEIGHT #-2 ~%BGT_VAR% Global("X#CoranWyvernReward","GLOBAL",2)~ THEN CWR2
+SAY @94
+IF ~~ THEN DO ~SetGlobal("X#CoranWyvernReward","GLOBAL",3) SetGlobal("P#CoranWyvern","GLOBAL",10)~ EXIT
+END
 
 /* Coran, Entry to Baldur’s Gate */
 IF WEIGHT #-2 ~%BGT_VAR% Global("P#CEBG","GLOBAL",1)~ THEN CEBG1
