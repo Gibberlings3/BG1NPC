@@ -61,13 +61,22 @@ CombatCounter(0)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 See(Player1)
-CombatCounter(0)
 THEN
 RESPONSE #100
 PlaySong(0)
 PlaySound("jahei99")
 StartDialogueNoSet(Player1)
 END
+
+IF %BGT_VAR%
+InParty(Myself)
+Global("X#JaheiraGorBuryTalk","GLOBAL",0)
+!Global("X#GorionBuried","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#JaheiraGorBuryTalk","GLOBAL",3)
+END
+
 
 /* PC Friend talk */
 IF %BGT_VAR%
