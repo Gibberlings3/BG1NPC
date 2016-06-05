@@ -2780,7 +2780,7 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#KAQST.D~
 
   /* Add Journal entries for BGEE */
-  ADD_JOURNAL EXISTING TITLE (#31350) @33 @35 @44 @49 USING ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
+  ADD_JOURNAL EXISTING TITLE (#31350) @33 @35 @44 @49 @53 @54 USING ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
 
 
   /* Eldoth's Bently Quarrel */
@@ -6573,7 +6573,7 @@ BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1074 /* Eldoth will start in the Cloakwood as in the original game. */
 
-/* Eldoth Starts on the Coastal Way */
+/* Eldoth Starts on the Coast Way */
 BEGIN @1075 /* Eldoth Starts on the Coast Way. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
