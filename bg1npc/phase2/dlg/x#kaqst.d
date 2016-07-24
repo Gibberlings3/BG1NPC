@@ -148,3 +148,13 @@ SAY @47
 IF ~~ THEN EXIT
 END
 END
+
+REPLACE_TRIGGER ~%tutu_var%HOUSG3~ %housg3state5%
+~OR(4) StateCheck(Myself,STATE_CHARMED) IsGabber("SKIE") IfValidForPartyDialog("SKIE") Global("X#KagainCaravan","GLOBAL",6)~
+
+SET_WEIGHT ~%tutu_var%HOUSG3~ %housg3state5% #-1
+
+REPLACE_TRIGGER ~%tutu_var%SERVA2~ 11
+~OR(4) StateCheck(Myself,STATE_CHARMED) IsGabber("SKIE") IfValidForPartyDialog("SKIE") Global("X#KagainCaravan","GLOBAL",6)~
+
+SET_WEIGHT ~%tutu_var%SERVA2~ 11 #-1
