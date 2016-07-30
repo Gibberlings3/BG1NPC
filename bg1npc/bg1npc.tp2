@@ -1840,7 +1840,13 @@ END
   /* Set Tazok sprite back to living before last chapter, and move triggers to another variable other than Dead() */
   EXTEND_BOTTOM ~%Undercity_BCS%.bcs~ ~bg1npc/core/baf/x#tazokarea.baf~
     EVALUATE_BUFFER
-    
+  
+  /* BGEE adds a second Legacy of the Masters to the chest in Raemon's tent (in addition to the one Tazok wears). Adding a block to AR1901.BCS to remove the item from the chest if Tazok has been made killable (i.e., Kivan is in the party). */
+  ACTION_IF (GAME_IS ~bgee~) THEN BEGIN
+  	EXTEND_TOP ~%BanditCamp_RaemonsTent%.bcs~ ~bg1npc/core/baf/x#ar1901.baf~
+    	EVALUATE_BUFFER
+  END
+  
   /* CORAN WYVERN QUEST */
   /* Create Coran's Wyverns */
   ACTION_IF !(FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 already has unique wyverns for Coran's quest
