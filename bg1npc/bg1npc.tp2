@@ -6353,6 +6353,14 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
     SAY NAME1 @545
     SAY NAME2 @545
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+	END
+	PATCH_IF ((GAME_IS ~bgee~) && (FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4353 // Use DRAGON_WHITE animation for BGEE with SoD
+    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+	END
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 	SAY BATTLE_CRY1 @753 // [WYVER03]
 	SAY BATTLE_CRY2 @754 // [WYVER04]
@@ -6370,6 +6378,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrre.cre~ ~override/x#ajdrre.cre~
     SAY NAME1 @546
     SAY NAME2 @546
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 	SAY BATTLE_CRY1 @753 // [WYVER03]
 	SAY BATTLE_CRY2 @754 // [WYVER04]
@@ -6387,6 +6399,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#cautz.cre~
     SAY NAME1 @547
     SAY NAME2 @547
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
     PATCH_IF GAME_IS ~bgee~ BEGIN
@@ -6400,6 +6415,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 @751 // [WYVER01]
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~undroppable&unstealable~ ~rring~   
+     	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -6413,6 +6431,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#drag2.cre~
     SAY NAME1 @553
     SAY NAME2 @553
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
     PATCH_IF GAME_IS ~bgee~ BEGIN
@@ -6426,6 +6447,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 @751 // [WYVER01]
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~undroppable&unstealable~ ~rring~   
+    	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -6438,22 +6462,18 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* Replace Dragon Items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ BEGIN
 	/* Dragon Claws */
-	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragred1.itm~ ~override~
-	     ~BG1NPC/Phase3/CHALLENGE/bgee/dragsil1.itm~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#drgrd1.itm~ ~override~
+	     ~BG1NPC/Phase3/CHALLENGE/bgee/x#drgsl1.itm~ ~override~
     	WRITE_LONG NAME1 (BNOT 0x0)
     	WRITE_LONG NAME2 (BNOT 0x0)
     	WRITE_LONG UNIDENTIFIED_DESC (BNOT 0x0)
     	WRITE_LONG DESC (BNOT 0x0)
-
 	/* Dragon Ring - for various immunities */
-	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragring.itm~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#drgrng.itm~ ~override~
     	WRITE_LONG NAME1 6348
     	WRITE_LONG NAME2 6348
     	WRITE_LONG UNIDENTIFIED_DESC 17054
     	WRITE_LONG DESC (BNOT 0x0)
-
-    /* Skull - In dragon inventories */
-    COPY_EXISTING ~misc50.itm~ ~override/plot05d.itm~
   END
 
   /* NPC scripts */
