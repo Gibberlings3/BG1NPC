@@ -1,0 +1,7 @@
+IF %BGT_VAR%
+Global("X#CanKillTazok","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#CanKillTazok","GLOBAL",2)
+ActionOverride("Container 1",DestroyItem("%tutu_var%brac10"))
+END

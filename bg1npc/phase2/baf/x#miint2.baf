@@ -140,6 +140,19 @@ PlaySound("minsc99")
 Dialog(Player1)
 END
 
+IF %BGT_VAR%
+GlobalGT("X#MinscVitiare","GLOBAL",0)
+GlobalLT("X#MinscVitiare","GLOBAL",6)
+InParty(Myself)
+OR(2)
+ Dead("vitiare")
+ !InMyArea("vitiare")
+THEN
+RESPONSE #100
+SetGlobal("X#MinscVitiare","GLOBAL",10)
+END
+
+
 /* Gnoll's Stronghold, Khalid NIP */
 IF %BGT_VAR%
 AreaCheck("%GnollStronghold%")
