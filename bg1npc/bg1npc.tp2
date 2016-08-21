@@ -3425,11 +3425,12 @@ BEGIN @1007
 
   COPY ~BG1NPC/phase2/itm/X#COBAG.itm~ ~override~
     SAY NAME1 @218
-    SAY NAME2 @219
+    SAY NAME2 @218
     SAY UNIDENTIFIED_DESC @220
     SAY DESC @220
 
   COPY ~BG1NPC/phase2/itm/X#COBAG.STO~ ~override~
+    SAY NAME2 @218
 
   /* pro5's Coran Dragon Skeleton Fix */
   ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN
@@ -4602,8 +4603,8 @@ ACTION_FOR_EACH edwin IN edwin edwin2 edwin4 edwin6 _edwin _edwin2 _edwin4 _edwi
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
     COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NEDWINS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NEDWINM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NEDWIN%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NEDWIN%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4618,8 +4619,8 @@ ACTION_FOR_EACH imoen IN imoen imoen1 imoen2 imoen4 imoen6 _imoen _imoen1 _imoen
   ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
     COPY_EXISTING "%imoen%.cre" ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NIMOENS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NIMOENM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NIMOEN%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NIMOEN%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4634,8 +4635,8 @@ ACTION_FOR_EACH jaheira IN jaheir jaheir2 jaheir4 jaheir6 _jaheir _jaheir2 _jahe
   ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
     COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NJAHEIRS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NJAHEIRM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NJAHEIR%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NJAHEIR%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4650,8 +4651,8 @@ ACTION_FOR_EACH minsc IN minsc minsc2 minsc4 minsc6 _minsc _minsc2 _minsc4 _mins
   ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
     COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NMINSCS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NMINSCM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NMINSC%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NMINSC%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4666,8 +4667,8 @@ ACTION_FOR_EACH viconia IN viconi viconi4 viconi6 viconi61 _viconi _viconi4 _vic
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 "NVICONS" #8 // small portrait
-        WRITE_ASCII 0x3c "NVICONM" #8 // medium portrait
+        WRITE_ASCIIE 0x34 "NVICON%port_s%" #8 // small portrait
+        WRITE_ASCIIE 0x3c "NVICON%port_l%" #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4684,8 +4685,8 @@ ACTION_FOR_EACH kivan IN kivan kivan4 kivan6 _kivan _kivan4 _kivan6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
     COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~P#KI2S~ #8 // small portrait
-        WRITE_ASCII 0x3c ~P#KI2M~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~P#KI2%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~P#KI2%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -5724,8 +5725,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x280 ~dynacutscene~ #32 //  death variable
     WRITE_ASCII 0x2CC ~X#DYNA~ #8 //  dialog
     PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-		WRITE_ASCII 0x34 ~DYNAHEIS~ #8  // small portrait
-		WRITE_ASCII 0x3C ~DYNAHEIL~ #8  // large portrait
+		WRITE_ASCIIE 0x34 ~DYNAHEI%port_s%~ #8  // small portrait
+		WRITE_ASCIIE 0x3C ~DYNAHEI%port_l%~ #8  // large portrait
         WRITE_ASCII 0x268 ~DPLAYER~ #8
         WRITE_ASCII 0x260 ~WTRUNSGT~ #8
     END
@@ -6268,8 +6269,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
     WRITE_ASCIIE 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
 	PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-	    WRITE_ASCII 0x34 ~CORANS~ #8    // small portrait
-        WRITE_ASCII 0x3C ~CORANL~ #8    // large portrait
+	    WRITE_ASCIIE 0x34 ~CORAN%port_s%~ #8    // small portrait
+        WRITE_ASCIIE 0x3C ~CORAN%port_l%~ #8    // large portrait
     END
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajanfi.cre~ ~override/x#ajanfi.cre~
@@ -6301,8 +6302,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     WRITE_EVALUATED_ASCII 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
     WRITE_EVALUATED_ASCII 0x268 ~%tutu_var%DPLAYER~ #8
 	PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-		WRITE_ASCII 0x34 ~AJANTISS~ #8  // small portrait
-		WRITE_ASCII 0x3C ~AJANTISL~ #8  // large portrait
+		WRITE_ASCIIE 0x34 ~AJANTIS%port_s%~ #8  // small portrait
+		WRITE_ASCIIE 0x3C ~AJANTIS%port_l%~ #8  // large portrait
 	END
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#elhan.cre~ ~override/x#elhan.cre~
@@ -6522,6 +6523,16 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
     COPY_EXISTING ~x#maste.cre~ ~override/x#maste.cre~
       WRITE_ASCII 0x34 ~x#mastes~ #8 // small portrait
+    COPY_EXISTING ~x#elles.cre~ ~override/x#elles.cre~
+      WRITE_ASCII 0x34 ~x#elless~ #8 // small portrait
+    COPY_EXISTING ~x#elhan.cre~ ~override/x#elhan.cre~
+      WRITE_ASCII 0x34 ~x#elhans~ #8 // small portrait
+    COPY_EXISTING ~x#drag2.cre~ ~override/x#ajdrsi.cre~
+      WRITE_ASCII 0x34 ~x#ajdrss~ #8 // small portrait
+    COPY_EXISTING ~x#cautz.cre~ ~override/x#cautz.cre~
+      WRITE_ASCII 0x34 ~x#cautzs~ #8 // small portrait
+    COPY_EXISTING ~x#drag2.cre~ ~override/x#drag2.cre~
+      WRITE_ASCII 0x34 ~x#drag2s~ #8 // small portrait
   END
 
   /* Patching all creatures in component for Tutu > BGT items */
