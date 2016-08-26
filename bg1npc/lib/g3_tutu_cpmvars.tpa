@@ -54,6 +54,8 @@
     OUTER_SPRINT "tazokminhp" "TAZOKHP1"
     OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
     OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+	OUTER_SPRINT "port_s" "s"
+	OUTER_SPRINT "port_l" "m"
 
     /* Tutu/BGT vs BGEE Dialog states */
     OUTER_SET firebeadstate1 = 1
