@@ -1918,10 +1918,10 @@ END
     INCLUDE ~BG1NPC/LIB/bgee_area_script_assign.tph~
     
     /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
-    ACTION_IF FILE_EXISTS ~%NNashkelRoad_BCS%.bcs~ THEN BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~%NNashkelRoad_BCS%.bcs~ THEN BEGIN
     	COPY_EXISTING ~%NNashkelRoad_BCS%.bcs~ ~override~
         	DECOMPILE_AND_PATCH BEGIN
-          		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~False()~
+          		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~Global("PoorMrColquetleFamily","GLOBAL",0) False()~
         	END
     	BUT_ONLY_IF_IT_CHANGES
   	END
