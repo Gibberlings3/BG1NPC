@@ -62,8 +62,11 @@ Le Seigneur Présage donna cet anneau à <CHARNAME> en faisant allusion à une aide
 
 PARAMETRES :
 
-Capacité d'équipement : remonte le Charisme de son porteur à 18
-Capacité spéciale : Charme-personne une fois par jour~
+Capacité d'équipement :
+- Charisme : 18
+
+Capacité spéciale :
+- Charme-personne une fois par jour~
 // Translation Retriever: Likely string found in file dialog ToB En.tra at Id 31655, likeliness 95.0 %
 @14    = ~Soupir~
 @15    = ~Les compétences d'Imoen en vol à la tire se sont améliorées grâce aux conseils ingénieux de Safana.~
