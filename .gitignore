@@ -6,3 +6,8 @@ CHANGELOG.txt
 setup-bg1npc.exe
 setup-bg1npc
 setup-bg1npc.command
+
+bg1npc-*.exe
+osx-bg1npc-*.tar.gz
+lin-bg1npc-*.tar.gz
+package_mod.bat
