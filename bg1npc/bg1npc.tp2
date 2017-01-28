@@ -4870,9 +4870,6 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
                 ~%tutu_var%deltan2.cre~ ~override~
     WRITE_ASCII 0x34 ~deltans~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
-  COPY_EXISTING ~%tutu_var%entar.cre~  ~override~
-    WRITE_ASCII 0x34 ~entars~ #8 //  small portrait
-  BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%gorion.cre~  ~override~
                 ~%tutu_var%gorion3.cre~ ~override~
     WRITE_ASCII 0x34 ~gorions~ #8 //  small portrait
