@@ -2,7 +2,7 @@
  * "The BG1 NPC Project"
  * Combined Tutu/BGT installer
  * authored and coded by tons of dedicated people from all walks of life
- * Version 22
+ * Version 22.6
 */
 
 /* Backup folder */
@@ -15,7 +15,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v22.4~
+VERSION ~v22.6~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -4870,9 +4870,6 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
                 ~%tutu_var%deltan2.cre~ ~override~
     WRITE_ASCII 0x34 ~deltans~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
-  COPY_EXISTING ~%tutu_var%entar.cre~  ~override~
-    WRITE_ASCII 0x34 ~entars~ #8 //  small portrait
-  BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%gorion.cre~  ~override~
                 ~%tutu_var%gorion3.cre~ ~override~
     WRITE_ASCII 0x34 ~gorions~ #8 //  small portrait
@@ -6356,11 +6353,11 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME2 @545
 	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
 		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
-    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 	END
 	PATCH_IF ((GAME_IS ~bgee~) && (FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
 		WRITE_LONG 0x28 4353 // Use DRAGON_WHITE animation for BGEE with SoD
-    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 	END
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 	SAY BATTLE_CRY1 @753 // [WYVER03]
@@ -6381,7 +6378,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     SAY NAME2 @546
 	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
 		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
-    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 	SAY BATTLE_CRY1 @753 // [WYVER03]
@@ -6416,8 +6413,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 @751 // [WYVER01]
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
-    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
-    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~undroppable&unstealable~ ~rring~   
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
      	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
@@ -6448,8 +6445,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 @751 // [WYVER01]
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
-    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~undroppable&unstealable~ ~WEAPON1~ EQUIP
-    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~undroppable&unstealable~ ~rring~   
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
     	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
