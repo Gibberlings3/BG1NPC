@@ -268,16 +268,14 @@ END
 * END
 */
 
-/* Faldorn Izefia ICT  to set Quest */
-
-I_C_T ~%tutu_var%IZEFIA~ 1 X#FALDORNIZEFIA1
+/* Faldorn Izefia interjection to set Quest, using INTERJECT to avoid EscapeArea() command in State 1 */
+INTERJECT ~%tutu_var%IZEFIA~ 1 X#FALDORNIZEFIA1
 == ~%FALDORN_JOINED%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @56
 == ~%tutu_var%IZEFIA~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @57
 DO ~SetGlobal("X#ReportIzefia","GLOBAL",1)~
-END
+EXIT
 
 /* Faldorn Izefia Quest Done  */
-
 CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#ReportIzefia","GLOBAL",1) Dead("peter") InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~
 THEN ~%tutu_var%IZEFIA~ X#IzeFaldo2
 @58
@@ -285,18 +283,16 @@ THEN ~%tutu_var%IZEFIA~ X#IzeFaldo2
 == ~%tutu_var%IZEFIA~ @60
 == ~%FALDORN_JOINED%~ @61
 == ~%tutu_var%IZEFIA~ @62
-DO ~SetGlobal("X#ReportIzefia","GLOBAL",2) AddXPObject("faldorn",100) GiveItemCreate("%tutu_var%POTN08","faldorn",1,0,0) GiveItemCreate("%tutu_var%POTN20","faldorn",1,0,0)~
+DO ~SetGlobal("X#ReportIzefia","GLOBAL",2) AddXPObject("faldorn",100) GiveItemCreate("%tutu_var%POTN08","faldorn",1,0,0) GiveItemCreate("%tutu_var%POTN20","faldorn",1,0,0) ActionOverride("Izefia",EscapeArea())~
 EXIT
 
 /* Faldorn Izefia Quest Done BUT Faldorn Not OK/In Party */
-
 CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#ReportIzefia","GLOBAL",1) Dead("peter") OR(3) !InParty("faldorn") !InMyArea("faldorn") StateCheck("faldorn",CD_STATE_NOTVALID)~
 THEN ~%tutu_var%IZEFIA~ X#IzeFaldoNotYet1
-@58
-END
-++ @151 EXIT
+@175 /* ~Be strong! Go with the Nature's blessings.~ */
+EXIT
 
-/* Faldorn Izefia Quest Not Done or Faldorn Not OK/In Party */
+/* Faldorn Izefia Quest Not Done AND Faldorn Not OK/In Party */
 CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#ReportIzefia","GLOBAL",1) !Dead("peter") OR(3) !InParty("faldorn") !InMyArea("faldorn") StateCheck("faldorn",CD_STATE_NOTVALID)~
 THEN ~%tutu_var%IZEFIA~ X#IzeFaldoNotYet2
 @58
@@ -304,7 +300,6 @@ END
 ++ @151 EXIT
 
 /* Faldorn Izefia Quest Not Done but Faldorn OK/In Party */
-
 CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#ReportIzefia","GLOBAL",1) !Dead("peter") InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~
 THEN ~%tutu_var%IZEFIA~ X#IzeFaldoNotYet
 @58
