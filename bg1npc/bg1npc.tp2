@@ -2,7 +2,6 @@
  * "The BG1 NPC Project"
  * Combined Tutu/BGT installer
  * authored and coded by tons of dedicated people from all walks of life
- * Version 22.6
 */
 
 /* Backup folder */
@@ -15,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v22.6~
+VERSION ~v22.8~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -2101,7 +2100,7 @@ BEGIN @1007
     SAY UNIDENTIFIED_DESC @8
     SAY DESC @9
       PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon8
+        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon
       END
     BUT_ONLY
 
@@ -2336,6 +2335,10 @@ BEGIN @1007
 
   COPY_EXISTING  ~%tutu_var%coksmth.cre~ ~override~
     WRITE_ASCII 0x280 ~peter~ #32 //  death variable X#FAINT.D
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING  ~%tutu_var%izefia.cre~ ~override~
+    WRITE_ASCII 0x280 ~izefia~ #32 //  death variable X#FAINT.D
   BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING  ~%tutu_var%entill.cre~ ~override~
@@ -4695,7 +4698,9 @@ END
 /* Non-Joinable Characters */
 BEGIN @1009 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
 REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  	
   COPY ~BG1NPC/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
   
   ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
