@@ -415,15 +415,15 @@ END
 ++ @90 EXTERN ~%tutu_var%KAISH~ 5 //(leads to normal dialogue for third option)
 
 EXTEND_BOTTOM ~%tutu_var%KAISH~ 0
-IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_BANTER%~ TKWI1
+IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_JOINED%~ TKWI1
 END
 
 EXTEND_BOTTOM ~%tutu_var%KAISH~ 1 // Tiax, Kaish - Werewolf Island
-IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_BANTER%~ TKWI1
+IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_JOINED%~ TKWI1
 END
 
 EXTEND_BOTTOM ~%tutu_var%KAISH~ 2 // Tiax, Kaish - Werewolf Island
-IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_BANTER%~ TKWI1
+IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_JOINED%~ TKWI1
 END
 
 /* Viconia */
