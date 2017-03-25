@@ -2101,7 +2101,7 @@ BEGIN @1007
     SAY UNIDENTIFIED_DESC @8
     SAY DESC @9
       PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon8
+        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon
       END
     BUT_ONLY
 
@@ -4695,7 +4695,9 @@ END
 /* Non-Joinable Characters */
 BEGIN @1009 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
 REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  	
   COPY ~BG1NPC/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
   
   ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
