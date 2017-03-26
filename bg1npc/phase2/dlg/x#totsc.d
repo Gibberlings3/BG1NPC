@@ -405,7 +405,7 @@ END
 /* Tiax */
 
 /* Tiax, Kaish - Werewolf Island */
-CHAIN ~%TIAX_BANTER%~ TKWI1
+CHAIN ~%TIAX_JOINED%~ TKWI1
 @86
 DO ~SetGlobal("X#TKWI","LOCALS",1) SetGlobal("X#TKWI111","GLOBAL",1)~
 == ~%tutu_var%KAISH~ @87
