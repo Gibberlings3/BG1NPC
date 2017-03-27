@@ -1359,10 +1359,10 @@ END // of A_I G_I Tutu, BGT
 	END /*of F_E IN */
 
   /* Scripts */
-	COMPILE ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
-    COMPILE ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
-    COMPILE ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
-    COMPILE ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */
+	COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */
 
 
   /* .2da patching */
