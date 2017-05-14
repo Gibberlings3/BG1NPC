@@ -35,7 +35,7 @@
 @28   = ~Ah, j'suis content que vous ayez un peu d'intelligence dans vos caboches, les gars. J'ai un laquais qui s'occupe de mon affaire quand je suis pas là, alors allons-y.~
 @29   = ~Et bien, il y a des vrais problèmes sur les routes. Nous avons combattu un groupe de bandits qui avaient tué tous les membres d'une caravane au Nord. Par hasard, cette broche n'appartiendrait pas à l'un des tiens ?~
 @30   = ~T'sais, je viens d'me rappeler... on a vu une caravane attaquée au Nord, et on a combattu les bandits. C'est à un des tiens ?~
-@31   = ~Et ben, c'est le bibelot du fils Ecudargent. Mort, tu dis ? C'était une de mes caravanes. Avec sa mort, j'vais être un nain recherché. Bon, maintenant qu'ma réputation est dans la boue, pourquoi j't'aiderais pas a t'venger de ces petites frappes ? Tu pourras p't'têtre m'épauler avec les Ecudargent. Qu'est-ce-que t'en dis ?~
+@31   = ~Et ben, c'est le bibelot du fils Ecudargent. Mort, tu dis ? C'était une de mes caravanes. J'suppose que je suis dans la panade maintenant. Avec sa mort, j'vais être un nain recherché. Bon, maintenant qu'ma réputation est dans la boue, pourquoi j't'aiderais pas a t'venger de ces petites frappes ? Tu pourras p't'têtre m'épauler avec les Ecudargent. Qu'est-ce-que t'en dis ?~
 @32   = ~On ne veut pas de toi, alors va-t'en.~
 @33   = ~La Quête de Kagain
 
@@ -48,14 +48,14 @@ Le fils d'Entar Ecudargent a été tué. Nous allons peut-être ramener la broche à 
 @37   = ~Abrutis, vous savez pas ce que vous perdez.~
 @38   = ~J'veux pas presser vos cerveaux de moutons, mais j'ai une caravane à retrouver ! On se bouge !~
 @39   = ~Elle partait du nord-est de Bérégost vers la Porte de Baldur. J'leur avais dit d'rester à l'Est de la route principale.~
-@40   = ~Tiens donc, r'gardez ce que j'ai trouvé ; c'est le corps du fils d'Ecudargent. J'suppose que je suis dans la panade maintenant. Lui mort, je suis un nain recherché. D'après ce que j'ai compris, vous êtes tous à la poursuite de ces maudits bandits. Vu que ma réputation est maintenant dans la boue, pourquoi j'vous aiderais pas à vous venger de ces pourris ?~
+@40   = ~Tiens donc, r'gardez ce que j'ai trouvé ; c'est le corps du fils d'Ecudargent. J'suppose que je suis dans la panade maintenant. Avec sa mort, j'vais être un nain recherché. D'après ce que j'ai compris, vous êtes tous à la poursuite de ces maudits bandits. Vu que ma réputation est maintenant dans la boue, pourquoi j'vous aiderais pas à vous venger de ces pourris ?~
 @41   = ~Nous ne voulons plus de toi, alors déguerpis.~
 @42   = ~Bien sûr, on pourrait avoir besoin de tes compétences. Rejoins-nous.~
 @43   = ~Abrutis, vous savez pas ce que vous perdez. J'me barre à présent.~
 @44   = ~La Quête de Kagain
 
 Le fils d'Entar Ecudargent a été tué. Je n'ai pas aimé l'attitude de Kagain ; nos chemins se sont donc séparés, mais je vais peut-être ramener la broche à la famille quand nous arriverons à la Porte de Baldur.~
-@45   = ~Bon, a propos de cet or que j'ai promis. Voilà, pour toi, mais j'attends que tu me donnes une part du butin que tu amasseras. Je suis pauvre maintenant.~
+@45   = ~Bon, à propos de cet or que j'ai promis. Voilà, pour toi, mais j'attends que tu me donnes une part du butin que tu amasseras. Je suis pauvre maintenant.~
 
 //Domaine Ecudargent
 @46   = ~Nous apportons des nouvelles pour Sire et Dame Ecudargent. Nous pensons avoir trouvé leur fils. Cette broche serait-elle une des vôtres ?~
@@ -67,3 +67,12 @@ Nous avons rejoint Kagain, un nain qui veut retrouver un noble. Le noble disparu
 @49   = ~Le fils d'Entar
 
 Nous avons rendu la broche du fils d'Entar Ecudargent à sa famille.~
+@50   = ~Et bien, il y a des vrais problèmes sur les routes. Nous avons combattu un groupe de bandits qui avaient tué tous les membres d'une caravane au Nord.~
+@51   = ~Tu ne quittes pas beaucoup l'arrière de ton comptoir, n'est-ce pas ? T'sais, je viens d'me rappeler... on a vu une caravane attaquée au Nord, et on a combattu les bandits.~
+@52   = ~Mort, tu dis ? C'était une de mes caravanes. J'suppose que je suis dans la panade maintenant. Avec la mort du fils d'Ecudargent, j'vais être un nain recherché. Bon, maintenant qu'ma réputation est dans la boue, pourquoi j't'aiderais pas a t'venger de ces petites frappes ? Tu pourras p't'têtre m'épauler avec les Ecudargent. Qu'est-ce-que t'en dis ?~
+@53   = ~Le fils d'Entar
+
+Le fils d'Entar Ecudargent a été tué. Je n'ai pas eu confiance en Kagain, nos chemins se sont donc séparés.~
+@54   = ~Le fils d'Entar
+
+Le fils d'Entar Ecudargent a été tué.~

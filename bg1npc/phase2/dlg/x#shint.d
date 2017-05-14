@@ -133,11 +133,11 @@ END
 //END
 
 /* Kagain */
-I_C_T ~%tutu_var%KAGAIN~ 7 X#SharKagainJoin
+I_C_T ~%tutu_var%KAGAIN~ 1 X#SharKagainJoin
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @37
 == ~%tutu_var%KAGAIN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @38
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @39
-== ~%tutu_var%KAGAIN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1008
+== ~%tutu_var%KAGAIN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1020
 END
 
 /* jaheira and khalid */

@@ -2,7 +2,6 @@
  * "The BG1 NPC Project"
  * Combined Tutu/BGT installer
  * authored and coded by tons of dedicated people from all walks of life
- * Version 22
 */
 
 /* Backup folder */
@@ -15,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v22.3_20160416~
+VERSION ~v22.8~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -1360,10 +1359,10 @@ END // of A_I G_I Tutu, BGT
 	END /*of F_E IN */
 
   /* Scripts */
-	COMPILE ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
-    COMPILE ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
-    COMPILE ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
-    COMPILE ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */
+	COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */
 
 
   /* .2da patching */
@@ -1840,7 +1839,13 @@ END
   /* Set Tazok sprite back to living before last chapter, and move triggers to another variable other than Dead() */
   EXTEND_BOTTOM ~%Undercity_BCS%.bcs~ ~bg1npc/core/baf/x#tazokarea.baf~
     EVALUATE_BUFFER
-    
+  
+  /* BGEE adds a second Legacy of the Masters to the chest in Raemon's tent (in addition to the one Tazok wears). Adding a block to AR1901.BCS to remove the item from the chest if Tazok has been made killable (i.e., Kivan is in the party). */
+  ACTION_IF (GAME_IS ~bgee~) THEN BEGIN
+  	EXTEND_TOP ~%BanditCamp_RaemonsTent%.bcs~ ~bg1npc/core/baf/x#ar1901.baf~
+    	EVALUATE_BUFFER
+  END
+  
   /* CORAN WYVERN QUEST */
   /* Create Coran's Wyverns */
   ACTION_IF !(FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 already has unique wyverns for Coran's quest
@@ -1912,10 +1917,10 @@ END
     INCLUDE ~BG1NPC/LIB/bgee_area_script_assign.tph~
     
     /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
-    ACTION_IF FILE_EXISTS ~%NNashkelRoad_BCS%.bcs~ THEN BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~%NNashkelRoad_BCS%.bcs~ THEN BEGIN
     	COPY_EXISTING ~%NNashkelRoad_BCS%.bcs~ ~override~
         	DECOMPILE_AND_PATCH BEGIN
-          		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~False()~
+          		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~Global("PoorMrColquetleFamily","GLOBAL",0) False()~
         	END
     	BUT_ONLY_IF_IT_CHANGES
   	END
@@ -2095,7 +2100,7 @@ BEGIN @1007
     SAY UNIDENTIFIED_DESC @8
     SAY DESC @9
       PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon8
+        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon
       END
     BUT_ONLY
 
@@ -2330,6 +2335,10 @@ BEGIN @1007
 
   COPY_EXISTING  ~%tutu_var%coksmth.cre~ ~override~
     WRITE_ASCII 0x280 ~peter~ #32 //  death variable X#FAINT.D
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING  ~%tutu_var%izefia.cre~ ~override~
+    WRITE_ASCII 0x280 ~izefia~ #32 //  death variable X#FAINT.D
   BUT_ONLY_IF_IT_CHANGES
 
   COPY_EXISTING  ~%tutu_var%entill.cre~ ~override~
@@ -2780,7 +2789,7 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#KAQST.D~
 
   /* Add Journal entries for BGEE */
-  ADD_JOURNAL EXISTING TITLE (#31350) @33 @35 @44 @49 USING ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
+  ADD_JOURNAL EXISTING TITLE (#31350) @33 @35 @44 @49 @53 @54 USING ~bg1npc/tra/%LANGUAGE%/x#kaqst.tra~
 
 
   /* Eldoth's Bently Quarrel */
@@ -3419,11 +3428,12 @@ BEGIN @1007
 
   COPY ~BG1NPC/phase2/itm/X#COBAG.itm~ ~override~
     SAY NAME1 @218
-    SAY NAME2 @219
+    SAY NAME2 @218
     SAY UNIDENTIFIED_DESC @220
     SAY DESC @220
 
   COPY ~BG1NPC/phase2/itm/X#COBAG.STO~ ~override~
+    SAY NAME2 @218
 
   /* pro5's Coran Dragon Skeleton Fix */
   ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN
@@ -3817,13 +3827,15 @@ BEGIN @1007
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
       
   /* Add BG2 Items missing from BGEE */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-	/* Boomerang Dagger */
+  /* Boomerang Dagger */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~dagg11.itm~) THEN BEGIN
 	COPY ~bg1npc/phase2/itm/dagg11.itm~ ~override~ 
   		SAY NAME2 @763
   		SAY DESC @764
-  		
-	/* Sahuagin Paralytic Bolt */
+  END
+  
+  /* Sahuagin Paralytic Bolt */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~sahbolt.itm~) THEN BEGIN
 	COPY ~bg1npc/phase2/itm/sahbolt.itm~ ~override~ 
 		SAY NAME2 @772
   		SAY DESC @773
@@ -4096,20 +4108,26 @@ END
   /* dialogue */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#LAKE.D~
 
-  /* Add BG2 items missing from BGEE */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  /* Add Lake Poet Harps if not in game */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~itemharp.wav~) THEN BEGIN
 	COPY ~bg1npc/phase2/wav/itemharp.wav~ ~override~
-  	/* Harp of Discord */
+  END  
+  /* Harp of Discord */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3m.itm~) THEN BEGIN
 	COPY ~bg1npc/phase2/itm/misc3m.itm~ ~override~ 
   		SAY NAME2 @765
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @767
-	/* Azlaer's Harp */
+  END
+  /* Azlaer's Harp */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3n.itm~) THEN BEGIN
 	COPY ~bg1npc/phase2/itm/misc3n.itm~ ~override~ 
   		SAY NAME2 @768
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @769
-	/* Methlid's Harp */
+  END
+  /* Methlid's Harp */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3o.itm~) THEN BEGIN
 	COPY ~bg1npc/phase2/itm/misc3o.itm~ ~override~ 
   		SAY NAME2 @770
   		SAY UNIDENTIFIED_DESC @766
@@ -4588,8 +4606,8 @@ ACTION_FOR_EACH edwin IN edwin edwin2 edwin4 edwin6 _edwin _edwin2 _edwin4 _edwi
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
     COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NEDWINS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NEDWINM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NEDWIN%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NEDWIN%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4604,8 +4622,8 @@ ACTION_FOR_EACH imoen IN imoen imoen1 imoen2 imoen4 imoen6 _imoen _imoen1 _imoen
   ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
     COPY_EXISTING "%imoen%.cre" ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NIMOENS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NIMOENM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NIMOEN%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NIMOEN%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4620,8 +4638,8 @@ ACTION_FOR_EACH jaheira IN jaheir jaheir2 jaheir4 jaheir6 _jaheir _jaheir2 _jahe
   ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
     COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NJAHEIRS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NJAHEIRM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NJAHEIR%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NJAHEIR%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4636,8 +4654,8 @@ ACTION_FOR_EACH minsc IN minsc minsc2 minsc4 minsc6 _minsc _minsc2 _minsc4 _mins
   ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
     COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~NMINSCS~ #8 // small portrait
-        WRITE_ASCII 0x3c ~NMINSCM~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~NMINSC%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~NMINSC%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4652,8 +4670,8 @@ ACTION_FOR_EACH viconia IN viconi viconi4 viconi6 viconi61 _viconi _viconi4 _vic
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 "NVICONS" #8 // small portrait
-        WRITE_ASCII 0x3c "NVICONM" #8 // medium portrait
+        WRITE_ASCIIE 0x34 "NVICON%port_s%" #8 // small portrait
+        WRITE_ASCIIE 0x3c "NVICON%port_l%" #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4670,8 +4688,8 @@ ACTION_FOR_EACH kivan IN kivan kivan4 kivan6 _kivan _kivan4 _kivan6 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
     COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-        WRITE_ASCII 0x34 ~P#KI2S~ #8 // small portrait
-        WRITE_ASCII 0x3c ~P#KI2M~ #8 // medium portrait
+        WRITE_ASCIIE 0x34 ~P#KI2%port_s%~ #8 // small portrait
+        WRITE_ASCIIE 0x3c ~P#KI2%port_l%~ #8 // medium portrait
       END
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -4680,7 +4698,9 @@ END
 /* Non-Joinable Characters */
 BEGIN @1009 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
 REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  	
   COPY ~BG1NPC/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
   
   ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
@@ -4691,10 +4711,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
 
   /* Standard Non-Joinable Actors */
   COPY_EXISTING ~%tutu_var%alatos.cre~ ~override~
-    WRITE_ASCII 0x34 ~alatos~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~alatoss~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%albert.cre~ ~override~
-    WRITE_ASCII 0x34 ~albers~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~alberts~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%aldeth.cre~ ~override~
+    WRITE_ASCII 0x34 ~aldeths~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%alyth.cre~ ~override~
     WRITE_ASCII 0x34 ~alyths~ #8 //  small portrait
@@ -4706,38 +4729,44 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x34 ~armoreds~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%bjorni.cre~ ~override~
-    WRITE_ASCII 0x34 ~bjorns~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~bjornis~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%bassil.cre~ ~override~
-    WRITE_ASCII 0x34 ~bass~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~bassils~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%belt.cre~ ~override~
     WRITE_ASCII 0x34 ~belts~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%berrun.cre~ ~override~
+    WRITE_ASCII 0x34 ~berruns~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%brage.cre~  ~override~
                 ~%tutu_var%brage2.cre~ ~override~
     WRITE_ASCII 0x34 ~brages~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%brilla.cre~ ~override~
-    WRITE_ASCII 0x34 ~brilles~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~brillas~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%farmbr.cre~ ~override~
-    WRITE_ASCII 0x34 ~bruns~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~farmbrs~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%cadder.cre~ ~override~
-    WRITE_ASCII 0x34 ~cadds~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~cadders~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%coksmth.cre~ ~override~
-    WRITE_ASCII 0x34 ~peters~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~coksmths~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%davaeo.cre~ ~override~
-    WRITE_ASCII 0x34 ~daverons~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~davaeos~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%drizzt.cre~ ~override~
     WRITE_ASCII 0x34 ~drizzts~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%drienn.cre~ ~override~
     WRITE_ASCII 0x34 ~driens~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%droth.cre~ ~override~
+    WRITE_ASCII 0x34 ~droths~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%elmin2.cre~  ~override~
                 ~%tutu_var%elmin3.cre~  ~override~
@@ -4752,13 +4781,16 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x34 ~galiles~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%greywo.cre~ ~override~
-    WRITE_ASCII 0x34 ~greyws~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~greywos~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%jessup.cre~ ~override~
     WRITE_ASCII 0x34 ~jessups~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%halbaz.cre~ ~override~
     WRITE_ASCII 0x34 ~halbazs~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%kahrk.cre~ ~override~
+    WRITE_ASCII 0x34 ~kahrks~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%liia.cre~ ~override~
     WRITE_ASCII 0x34 ~liias~ #8 //  small portrait
@@ -4767,13 +4799,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x34 ~larzes~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%keldda.cre~ ~override~
-    WRITE_ASCII 0x34 ~keldaths~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~kelddas~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%korax.cre~ ~override~
     WRITE_ASCII 0x34 ~koraxs~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%mulahe.cre~ ~override~
-    WRITE_ASCII 0x34 ~mulahs~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~mulahes~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%narlen.cre~ ~override~
     WRITE_ASCII 0x34 ~narlens~ #8 //  small portrait
@@ -4781,20 +4813,23 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY_EXISTING ~%tutu_var%niemai.cre~ ~override~
     WRITE_ASCII 0x34 ~niemais~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%oublek.cre~ ~override~
+    WRITE_ASCII 0x34 ~oubleks~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%petrin.cre~ ~override~
     WRITE_ASCII 0x34 ~petrins~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%rielta.cre~ ~override~
-    WRITE_ASCII 0x34 ~rieltars~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~rieltas~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%seniya.cre~ ~override~
     WRITE_ASCII 0x34 ~seniyas~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%thalan.cre~ ~override~
-    WRITE_ASCII 0x34 ~thalas~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~thalans~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%vai.cre~ ~override~
-    WRITE_ASCII 0x34 ~ofvais~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~vais~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%shoal.cre~ ~override~
     WRITE_ASCII 0x34 ~shoals~ #8 //  small portrait
@@ -4806,9 +4841,14 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
                 ~%tutu_var%tenya2.cre~ ~override~
     WRITE_ASCII 0x34 ~tenyas~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%tethto.cre~  ~override~
+                ~%tutu_var%tethto2.cre~ ~override~
+                ~%tutu_var%tethto3.cre~ ~override~
+    WRITE_ASCII 0x34 ~tethtos~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%pumberl.cre~ ~override~
                 ~%tutu_var%pumber2.cre~ ~override~
-    WRITE_ASCII 0x34 ~umbprs~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~pumberls~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%winthr2.cre~ ~override~
                 ~%tutu_var%winthr3.cre~ ~override~
@@ -4829,11 +4869,11 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY_EXISTING ~%tutu_var%brielb.cre~ ~override~
     SAY NAME1 @386
     SAY NAME2 @386
-    WRITE_ASCII 0x34 ~briels~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~brielbs~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%deltan.cre~  ~override~
                 ~%tutu_var%deltan2.cre~ ~override~
-    WRITE_ASCII 0x34 ~eltans~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~deltans~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%gorion.cre~  ~override~
                 ~%tutu_var%gorion3.cre~ ~override~
@@ -4841,7 +4881,10 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%sarevo.cre~  ~override~
                 ~%tutu_var%sarevo2.cre~ ~override~
-    WRITE_ASCII 0x34 ~sarevoks~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~sarevos~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%kovera.cre~  ~override~
+    WRITE_ASCII 0x34 ~koveras~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%scar.cre~ ~override~
     WRITE_ASCII 0x34 ~scars~ #8 //  small portrait
@@ -4856,6 +4899,9 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
                 ~%tutu_var%tazok2.cre~ ~override~
     WRITE_ASCII 0x34 ~tazoks~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%taugos.cre~ ~override~
+    WRITE_ASCII 0x34 ~taugoss~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%chase.cre~  ~override~
     WRITE_ASCII 0x34 ~chases~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
@@ -4864,7 +4910,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%fireb1.cre~ ~override~
                 ~%tutu_var%firebe.cre~ ~override~
-    WRITE_ASCII 0x34 ~fbehs~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~firebes~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%keeper.cre~ ~override~
     WRITE_ASCII 0x34 ~keepers~ #8 //  small portrait
@@ -4874,7 +4920,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%gatewa.cre~ ~override~
                 ~%tutu_var%gatewa2.cre~ ~override~
-    WRITE_ASCII 0x34 ~gatewars~ #8 //  small portrait
+    WRITE_ASCII 0x34 ~gatewas~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%joia.cre~ ~override~
     WRITE_ASCII 0x34 ~joias~ #8 //  small portrait
@@ -4886,9 +4932,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x34 ~perdues~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%winski.cre~ ~override~
-    WRITE_ASCII 0x34 ~winskis~ #8 //  small portrait
-  BUT_ONLY_IF_IT_CHANGES
-  COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
+  			    ~%tutu_var%winski2.cre~ ~override~
     WRITE_ASCII 0x34 ~winskis~ #8 //  small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~%tutu_var%taerom.cre~ ~override~
@@ -4939,14 +4983,16 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
       WRITE_ASCII 0x34 ~drizzts~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#kaband.cre~ ~override~
-      WRITE_ASCII 0x34 ~kabands~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#kabans~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#david.cre~ ~override~
-      WRITE_ASCII 0x34 ~davids~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#davids~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#cru11.cre~ ~override~
-                  ~x#chop.cre~ ~override~
-      WRITE_ASCII 0x34 ~ladyogs~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#crus~ #8 // small portrait
+    BUT_ONLY_IF_IT_CHANGES
+    COPY_EXISTING ~x#chop.cre~ ~override~
+      WRITE_ASCII 0x34 ~x#chops~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#assi01.cre~ ~override~
                   ~x#assi02.cre~ ~override~
@@ -4959,93 +5005,91 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
                   ~x#assi09.cre~ ~override~
                   ~x#assi10.cre~ ~override~
                   ~x#assi11.cre~ ~override~
-      WRITE_ASCII 0x34 ~asststs~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#assis~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#garar.cre~ ~override~
-      WRITE_ASCII 0x34 ~garars~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#garars~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#amelia.cre~ ~override~
-      WRITE_ASCII 0x34 ~amelias~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#amelis~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#natan.cre~ ~override~
-      WRITE_ASCII 0x34 ~natans~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#natans~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#rashel.cre~ ~override~
-      WRITE_ASCII 0x34 ~rashels~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#rashes~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~p#imanel.cre~ ~override~
-      WRITE_ASCII 0x34 ~XIMANS~ #8 // small portrait
+      WRITE_ASCII 0x34 ~p#imanes~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#seasn.cre~ ~override~
-      WRITE_ASCII 0x34 ~seas~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#seasns~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#keth.cre~ ~override~
-      WRITE_ASCII 0x34 ~keths~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#keths~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#dgnlg1.cre~ ~override~
                   ~x#dgnle1.cre~ ~override~
-      WRITE_ASCII 0x34 ~gnolls~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#dgnls~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#lakep1.cre~ ~override~
-      WRITE_ASCII 0x34 ~lpb1s~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#lake1s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#lakep2.cre~ ~override~
-      WRITE_ASCII 0x34 ~lpb2s~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#lake2s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#lakep3.cre~ ~override~
-      WRITE_ASCII 0x34 ~lpb3s~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#lake3s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#xzfsp1.cre~ ~override~
-      WRITE_ASCII 0x34 ~fspirits~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#xzfs1s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#xzfsp2.cre~ ~override~
                   ~x#xzfsp3.cre~ ~override~
-      WRITE_ASCII 0x34 ~greens~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#xzfs2s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#black.cre~ ~override~
-      WRITE_ASCII 0x34 ~blacks~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#blacks~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#storm.cre~ ~override~
-      WRITE_ASCII 0x34 ~storms~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#storms~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#zosya.cre~ ~override~
-      WRITE_ASCII 0x34 ~zosyas~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#zosyas~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#xzgu01.cre~ ~override~
-      WRITE_ASCII 0x34 ~capffs~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#xzgu1s~ #8 // small portrait
     COPY_EXISTING ~x#xzgu02.cre~ ~override~
-      WRITE_ASCII 0x34 ~xzgus~ #8 // small portrait
-    BUT_ONLY_IF_IT_CHANGES
-    COPY_EXISTING ~x#xzgu03.cre~ ~override~
-      WRITE_ASCII 0x34 ~xzgus~ #8 // small portrait
+    			~x#xzgu03.cre~ ~override~
+      WRITE_ASCII 0x34 ~x#xzgu2s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#garwyl.cre~ ~override~
-      WRITE_ASCII 0x34 ~mercuts~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#garwys~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#garz01.cre~ ~override~
-      WRITE_ASCII 0x34 ~garzoms~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#garz1s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#garz02.cre~ ~override~
-      WRITE_ASCII 0x34 ~garzom2s~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#garz2s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#garz03.cre~ ~override~
-      WRITE_ASCII 0x34 ~garzom3s~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#garz3s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#garz04.cre~ ~override~
-      WRITE_ASCII 0x34 ~garzom4s~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#garz4s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#andart.cre~ ~override~
-      WRITE_ASCII 0x34 ~andars~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#andars~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#beador.cre~ ~override~
                   ~x#beado1.cre~ ~override~
-      WRITE_ASCII 0x34 ~beadors~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#beados~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#mareth.cre~ ~override~
-      WRITE_ASCII 0x34 ~marethas~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#marets~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~x#shdr8a.cre~ ~override~
-      WRITE_ASCII 0x34 ~shdr8as~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#shdr8s~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
   END
 
@@ -5055,15 +5099,15 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
       WRITE_ASCII 0x34 ~hurgans~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%ulraun.cre~ ~override~
-      WRITE_ASCII 0x34 ~ulraunts~ #8 //  small portrait
+      WRITE_ASCII 0x34 ~ulrauns~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%delain.cre~  ~override~
                   ~%tutu_var%delain2.cre~ ~override~
-      WRITE_ASCII 0x34 ~delas~ #8 //  small portrait
+      WRITE_ASCII 0x34 ~delains~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%durlyl.cre~  ~override~
                   ~%tutu_var%durlyl2.cre~ ~override~
-      WRITE_ASCII 0x34 ~durls~ #8 //  small portrait
+      WRITE_ASCII 0x34 ~durlyls~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%karoug.cre~ ~override~
       WRITE_ASCII 0x34 ~karougs~ #8 //  small portrait
@@ -5075,10 +5119,10 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     COPY_EXISTING ~%tutu_var%mendas.cre~  ~override~
                   ~%tutu_var%mendas2.cre~ ~override~
                   ~%tutu_var%mendas3.cre~ ~override~
-      WRITE_ASCII 0x34 ~mendas~ #8 //  small portrait
+      WRITE_ASCII 0x34 ~mendass~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_scripts%handal2.cre~ ~override~
-      WRITE_ASCII 0x34 ~shands~ #8 //  small portrait
+      WRITE_ASCII 0x34 ~shandals~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
 
     // Miloch's TotSC additions
@@ -5103,7 +5147,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     COPY_EXISTING ~%tutu_var%daitel.cre~ ~override~ // Daitel (Ghost - in Durlag's Tower L3)
       WRITE_ASCII 0x34 ~daitels~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
-    COPY_EXISTING ~%tutu_var%dalton.cre~ ~override~ // Dalton (Ghost - in Durlag's Tower L4)
+    COPY_EXISTING ~%tutu_var%dalton.cre~ ~override~ // Dalton (in Durlag's Tower L4)
       WRITE_ASCII 0x34 ~daltons~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%deathk.cre~  ~override~ // Demonknight (in Durlag's Tower)
@@ -5116,10 +5160,10 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     COPY_EXISTING ~%tutu_var%dopdur1.cre~ ~override~ // Durlag (Doppleganger - in Durlag's Tower D2)
                   ~%tutu_var%dopdur2.cre~ ~override~
                   ~%tutu_var%dopdur3.cre~ ~override~
-      WRITE_ASCII 0x34 ~dopdurs~ #8 // small portrait
+      WRITE_ASCII 0x34 ~durlagts~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%durlagt.cre~ ~override~ // Durlag (Ghost - in Durlag's Tower D4)
-      WRITE_ASCII 0x34 ~durlags~ #8 // small portrait
+      WRITE_ASCII 0x34 ~durlagts~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_scriptd%ursword.cre~ ~override~ // Durlag's Pride (in Durlag's Tower D1)
       WRITE_ASCII 0x34 ~durswors~ #8 // small portrait
@@ -5150,7 +5194,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
       WRITE_ASCII 0x34 ~ikes~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%isla.cre~ ~override~ // Islanne (in Durlag's Tower D4)
-      WRITE_ASCII 0x34 ~islanns~ #8 // small portrait
+      WRITE_ASCII 0x34 ~islas~ #8 // small portrait
     BUT_ONLY_IF_IT_CHANGES
     COPY_EXISTING ~%tutu_var%kirinh.cre~ ~override~ // Kirinhale (in Durlag's Tower L4)
       WRITE_ASCII 0x34 ~kirinhs~ #8 // small portrait
@@ -5299,7 +5343,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   /* Add Portraits if NJNPC Portraits was chosen */
   ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
     COPY_EXISTING ~x#ajdoug.cre~ ~override~
-      WRITE_ASCII 0x34 ~ajdougs~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#ajdous~ #8 // small portrait
 	  BUT_ONLY_IF_IT_CHANGES
   END
 
@@ -5683,8 +5727,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     WRITE_ASCII 0x280 ~dynacutscene~ #32 //  death variable
     WRITE_ASCII 0x2CC ~X#DYNA~ #8 //  dialog
     PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-		WRITE_ASCII 0x34 ~DYNAHEIS~ #8  // small portrait
-		WRITE_ASCII 0x3C ~DYNAHEIL~ #8  // large portrait
+		WRITE_ASCIIE 0x34 ~DYNAHEI%port_s%~ #8  // small portrait
+		WRITE_ASCIIE 0x3C ~DYNAHEI%port_l%~ #8  // large portrait
         WRITE_ASCII 0x268 ~DPLAYER~ #8
         WRITE_ASCII 0x260 ~WTRUNSGT~ #8
     END
@@ -5895,17 +5939,17 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   /* Add Portraits if NJNPC Portraits was chosen */
   ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
     COPY_EXISTING ~x#nell.cre~ ~override~
-      WRITE_ASCII 0x34 ~madams~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#nells~ #8 // small portrait
     COPY_EXISTING ~x#madr.cre~ ~override~
-      WRITE_ASCII 0x34 ~madrinas~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#madrs~ #8 // small portrait
     COPY_EXISTING ~x#bhet.cre~ ~override~
-      WRITE_ASCII 0x34 ~bhetels~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#bhets~ #8 // small portrait
     COPY_EXISTING ~x#sveet.cre~ ~override~
-      WRITE_ASCII 0x34 ~sveetlas~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#sveets~ #8 // small portrait
     COPY_EXISTING ~x#winski.cre~ ~override~
       WRITE_ASCII 0x34 ~winskis~ #8 // small portrait
     COPY_EXISTING ~x#setta.cre~ ~override~
-      WRITE_ASCII 0x34 ~settas~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#settas~ #8 // small portrait
   END
   
   /* Patching all creatures in component for leftover/missed Tutu > BGT items */
@@ -6227,8 +6271,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
     WRITE_ASCIIE 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
 	PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-	    WRITE_ASCII 0x34 ~CORANS~ #8    // small portrait
-        WRITE_ASCII 0x3C ~CORANL~ #8    // large portrait
+	    WRITE_ASCIIE 0x34 ~CORAN%port_s%~ #8    // small portrait
+        WRITE_ASCIIE 0x3C ~CORAN%port_l%~ #8    // large portrait
     END
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajanfi.cre~ ~override/x#ajanfi.cre~
@@ -6260,8 +6304,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     WRITE_EVALUATED_ASCII 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
     WRITE_EVALUATED_ASCII 0x268 ~%tutu_var%DPLAYER~ #8
 	PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-		WRITE_ASCII 0x34 ~AJANTISS~ #8  // small portrait
-		WRITE_ASCII 0x3C ~AJANTISL~ #8  // large portrait
+		WRITE_ASCIIE 0x34 ~AJANTIS%port_s%~ #8  // small portrait
+		WRITE_ASCIIE 0x3C ~AJANTIS%port_l%~ #8  // large portrait
 	END
 
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#elhan.cre~ ~override/x#elhan.cre~
@@ -6312,6 +6356,14 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
     SAY NAME1 @545
     SAY NAME2 @545
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+	END
+	PATCH_IF ((GAME_IS ~bgee~) && (FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4353 // Use DRAGON_WHITE animation for BGEE with SoD
+    	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+	END
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 	SAY BATTLE_CRY1 @753 // [WYVER03]
 	SAY BATTLE_CRY2 @754 // [WYVER04]
@@ -6329,6 +6381,10 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrre.cre~ ~override/x#ajdrre.cre~
     SAY NAME1 @546
     SAY NAME2 @546
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
 	SAY BATTLE_CRY1 @753 // [WYVER03]
 	SAY BATTLE_CRY2 @754 // [WYVER04]
@@ -6346,6 +6402,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#cautz.cre~
     SAY NAME1 @547
     SAY NAME2 @547
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
     PATCH_IF GAME_IS ~bgee~ BEGIN
@@ -6359,6 +6418,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 @751 // [WYVER01]
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
+     	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -6372,6 +6434,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#drag2.cre~
     SAY NAME1 @553
     SAY NAME2 @553
+	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
     PATCH_IF GAME_IS ~bgee~ BEGIN
@@ -6385,6 +6450,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON1 @751 // [WYVER01]
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
+    	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
+    	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
     END ELSE BEGIN /* Tutu, BGT */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -6397,22 +6465,18 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* Replace Dragon Items missing from BGEE */
   ACTION_IF GAME_IS ~bgee~ BEGIN
 	/* Dragon Claws */
-	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragred1.itm~ ~override~
-	     ~BG1NPC/Phase3/CHALLENGE/bgee/dragsil1.itm~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#drgrd1.itm~ ~override~
+	     ~BG1NPC/Phase3/CHALLENGE/bgee/x#drgsl1.itm~ ~override~
     	WRITE_LONG NAME1 (BNOT 0x0)
     	WRITE_LONG NAME2 (BNOT 0x0)
     	WRITE_LONG UNIDENTIFIED_DESC (BNOT 0x0)
     	WRITE_LONG DESC (BNOT 0x0)
-
 	/* Dragon Ring - for various immunities */
-	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/dragring.itm~ ~override~
+	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#drgrng.itm~ ~override~
     	WRITE_LONG NAME1 6348
     	WRITE_LONG NAME2 6348
     	WRITE_LONG UNIDENTIFIED_DESC 17054
     	WRITE_LONG DESC (BNOT 0x0)
-
-    /* Skull - In dragon inventories */
-    COPY_EXISTING ~misc50.itm~ ~override/plot05d.itm~
   END
 
   /* NPC scripts */
@@ -6460,7 +6524,17 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* Add Portraits if NJNPC Portraits was chosen */
   ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
     COPY_EXISTING ~x#maste.cre~ ~override/x#maste.cre~
-      WRITE_ASCII 0x34 ~mastrchs~ #8 // small portrait
+      WRITE_ASCII 0x34 ~x#mastes~ #8 // small portrait
+    COPY_EXISTING ~x#elles.cre~ ~override/x#elles.cre~
+      WRITE_ASCII 0x34 ~x#elless~ #8 // small portrait
+    COPY_EXISTING ~x#elhan.cre~ ~override/x#elhan.cre~
+      WRITE_ASCII 0x34 ~x#elhans~ #8 // small portrait
+    COPY_EXISTING ~x#drag2.cre~ ~override/x#ajdrsi.cre~
+      WRITE_ASCII 0x34 ~x#ajdrss~ #8 // small portrait
+    COPY_EXISTING ~x#cautz.cre~ ~override/x#cautz.cre~
+      WRITE_ASCII 0x34 ~x#cautzs~ #8 // small portrait
+    COPY_EXISTING ~x#drag2.cre~ ~override/x#drag2.cre~
+      WRITE_ASCII 0x34 ~x#drag2s~ #8 // small portrait
   END
 
   /* Patching all creatures in component for Tutu > BGT items */
@@ -6573,7 +6647,7 @@ BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1074 /* Eldoth will start in the Cloakwood as in the original game. */
 
-/* Eldoth Starts on the Coastal Way */
+/* Eldoth Starts on the Coast Way */
 BEGIN @1075 /* Eldoth Starts on the Coast Way. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
@@ -6822,13 +6896,13 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   /* Add Portraits if NJNPC Portraits was chosen */
   ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
   COPY_EXISTING ~x#lp1rep.cre~ ~override~
-    WRITE_ASCII 0x34 ~lpb1s~ #8 // small portrait
+    WRITE_ASCII 0x34 ~x#lake1s~ #8 // small portrait
 
   COPY_EXISTING ~x#lp2rep.cre~ ~override~
-    WRITE_ASCII 0x34 ~lpb2s~ #8 // small portrait
+    WRITE_ASCII 0x34 ~x#lake2s~ #8 // small portrait
 
   COPY_EXISTING ~x#lp3rep.cre~ ~override~
-    WRITE_ASCII 0x34 ~lpb3s~ #8 // small portrait
+    WRITE_ASCII 0x34 ~x#lake3s~ #8 // small portrait
   END
 
 BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */

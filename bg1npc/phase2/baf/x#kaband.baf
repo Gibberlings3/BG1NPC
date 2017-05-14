@@ -1,3 +1,10 @@
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
 IF %BGT_VAR%
 	OR(6)
 		See(Player1)
@@ -10,6 +17,7 @@ IF %BGT_VAR%
 THEN
 	RESPONSE #100
 		SetGlobal("X#CaravanBanditEncounter","GLOBAL",1)
+		Continue()
 END
 
 IF
@@ -26,17 +34,69 @@ THEN
 	RESPONSE #100
 		SetGlobal("X#KagainCaravan","GLOBAL",3)
 		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
-		Help()
+		Shout(ASSIST)
 		Enemy()
+		Continue()
 END
 
 IF
-	Help("x#bandk")
+	Heard("x#bandk",ASSIST)
 	Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100
 		SetGlobal("X#KagainCaravan","GLOBAL",3)
 		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
+		Shout(ASSIST)
 		Enemy()
-		Attack(NearestEnemyOf(LastHelp(Myself)))
+		Continue()
+END
+
+IF
+	Heard("x#bandk",ASSIST)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	HPPercentLT(Myself,50)
+	!GlobalTimerNotExpired("x#HelpTimer","locals")
+THEN
+	RESPONSE #100
+		Help()
+		SetGlobalTimer("x#HelpTimer","locals",TWO_ROUNDS)
+END
+
+IF
+	Help("x#bandk")
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(LastHelp(Myself)),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
 END

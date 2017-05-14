@@ -39,8 +39,8 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT "tutu_scriptz" "Z"
     OUTER_SPRINT "percentage_sign" "%"
 
-    /* BGT-only shutdown of D and BAF after BG1 content */
-    OUTER_SPRINT ~BGT_VAR~ ~~
+    /* Shutdown of D and BAF after BG1 content for BGT and BGEE-SoD */
+    OUTER_SPRINT ~BGT_VAR~ ~GlobalLT("EndofBG1","GLOBAL",1)~
 
     /* DVs are the same for Tutu/BGT, except for Imoen */
     OUTER_SPRINT "IMOEN_DV" "imoen"
@@ -55,12 +55,15 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     END ELSE BEGIN
     	OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
     END
-    
+	OUTER_SPRINT "port_s" "m"
+	OUTER_SPRINT "port_l" "l"
+	    
     /* Tutu/BGT vs BGEE Dialog states */
     OUTER_SET firebeadstate1 = 3
     OUTER_SET firebeadstate2 = 1
     OUTER_SET hentolstate1 = 12
     OUTER_SET housg3state0 = 1
+    OUTER_SET housg3state5 = 0
 	OUTER_SET xanpstate3 = 1
     OUTER_SET xanpstate4 = 0
 
