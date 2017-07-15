@@ -2,14 +2,14 @@
 // /* Recognize Tazok in the last fight */  << Now in x#kiint_new.d/.baf
 // I_C_T ~%tutu_var%SAREVO~ 15 X#KivanSarevokTazok1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 16 X#KivanSarevokTazok2
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1001
 // END
@@ -17,48 +17,48 @@
 // /* Incompatible with BGT, hard to attain with Tutu */
 // // I_C_T2 ~%tutu_var%SAREVO~ 17 X#KivanSarevokTazok3
 // // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// // == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// // == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // //END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 18 X#KivanSarevokTazok4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 19 X#KivanSarevokTazok5
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 20 X#KivanSarevokTazok6
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 21 X#KivanSarevokTazok7
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @0
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @2
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",1)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 15 X#KivanSarevokTazok8
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 16 X#KivanSarevokTazok9
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @1001
 // END
@@ -66,34 +66,34 @@
 // /* Incompatible with BGT, hard to attain with Tutu */
 // // I_C_T2 ~%tutu_var%SAREVO~ 17 X#KivanSarevokTazok10
 // // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// // == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// // == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 18 X#KivanSarevokTazok11
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 19 X#KivanSarevokTazok12
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 20 X#KivanSarevokTazok13
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @1001
 // END
 // 
 // I_C_T ~%tutu_var%SAREVO~ 21 X#KivanSarevokTazok14
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @3
-// == ~%tutu_scriptbg%TAZOK~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
+// == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @4
 // == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @5
 // == ~%tutu_var%SAREVO~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#TazokDead","GLOBAL",0)~ THEN @1001
 // END
@@ -522,7 +522,7 @@ END
 /*  Kivan, First Sighting Of Tazok */
 IF WEIGHT #-2 ~%BGT_VAR% Global("P#KivanTazok1","GLOBAL",1)~ THEN BEGIN KivanTazok1
 SAY @119
-IF ~~ THEN DO ~SetGlobal("P#KivanTazok1","GLOBAL",2)~ EXTERN ~%tutu_scriptbg%TAZOK~ KivanTazok2
+IF ~~ THEN DO ~SetGlobal("P#KivanTazok1","GLOBAL",2)~ EXTERN ~%tutu_scriptbg%TAZOK%eet_var%~ KivanTazok2
 END
 
 /*  Kivan, Bandit Camp, After Tazok’s Escape */
@@ -578,7 +578,7 @@ END
 
 END
 
-APPEND ~%tutu_scriptbg%TAZOK~
+APPEND ~%tutu_scriptbg%TAZOK%eet_var%~
 
 IF WEIGHT #-1 ~%BGT_VAR% GlobalGT("JoinedBandits","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_3%) InParty("kivan")~ THEN KivTazok
 SAY @130
@@ -613,10 +613,10 @@ END
 
 END
 
-CHAIN3 ~%tutu_scriptbg%TAZOK~ KivanTazok2
+CHAIN3 ~%tutu_scriptbg%TAZOK%eet_var%~ KivanTazok2
 @135
 == ~%KIVAN_JOINED%~ @136
-== ~%tutu_scriptbg%TAZOK~ @137
+== ~%tutu_scriptbg%TAZOK%eet_var%~ @137
 END
 IF ~~ THEN DO ~ClearAllActions()
 SetGlobal("BeatTazok","GLOBAL",2)
@@ -637,50 +637,50 @@ EXIT
 END
 END
 
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 0 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 1 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 2 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 3 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 4 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 5 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 6 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 7 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 8 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 9 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 10 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 11 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 12 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 13 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 14 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 15 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 16 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 17 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 18 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 19 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 20 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 21 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 22 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 23 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 24 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 25 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 26 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 27 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK~ 28 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 0 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 1 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 2 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 3 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 4 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 5 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 6 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 7 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 8 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 9 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 10 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 11 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 12 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 13 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 14 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 15 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 16 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 17 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 18 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 19 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 20 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 21 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 22 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 23 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 24 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 25 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 26 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 27 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 28 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
 
-ADD_TRANS_TRIGGER ~%tutu_scriptbg%TAZOK~ 13 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_TRANS_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 13 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
 
-EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK~ 13
+EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK%eet_var%~ 13
 IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivanTazok1","GLOBAL",0)~ THEN DO ~SetGlobal("P#KivanTazok1","GLOBAL",1) EndCutSceneMode()~ EXTERN ~%KIVAN_JOINED%~ KivanTazok1
 END
 
-ADD_TRANS_TRIGGER ~%tutu_scriptbg%TAZOK~ 25 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_TRANS_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 25 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
 
-EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK~ 25
+EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK%eet_var%~ 25
 IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivanTazok1","GLOBAL",0)~ THEN DO ~SetGlobal("P#KivanTazok1","GLOBAL",1) EndCutSceneMode()~ EXTERN ~%KIVAN_JOINED%~ KivanTazok1
 END
 
-ADD_TRANS_TRIGGER ~%tutu_scriptbg%TAZOK~ 27 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
+ADD_TRANS_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 27 ~OR(3) !InParty("kivan") !InMyArea("kivan") StateCheck("kivan",CD_STATE_NOTVALID)~
 
-EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK~ 27
+EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK%eet_var%~ 27
 IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivanTazok1","GLOBAL",0)~ THEN DO ~SetGlobal("P#KivanTazok1","GLOBAL",1) EndCutSceneMode()~ EXTERN ~%KIVAN_JOINED%~ KivanTazok1
 END

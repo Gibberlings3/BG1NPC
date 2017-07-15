@@ -14,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v22.8~
+VERSION ~v22.9~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -22,13 +22,20 @@ README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
 /* ALWAYS = Before each and any component, do this. */
 ALWAYS
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
   /*Tell the player it is using BG:EE stuff */
   PRINT @5000
   // INCLUDE ~%MOD_FOLDER%/handle_charsets.tpa~
-  INCLUDE ~bg1npc/lib/g3_bgee_cpmvars.tpa~
+  INCLUDE ~bg1npc/lib/cpmvars_bgee.tpa~
   OUTER_SPRINT ~bgee~ ~bgee/~
-
+  END
+  
+  ACTION_IF GAME_IS ~eet~ THEN BEGIN 
+  INCLUDE ~bg1npc/lib/cpmvars_eet.tpa~
+  OUTER_SPRINT ~bgee~ ~bgee/~
+  END
+  
   // BG:EE tra conversion
   // Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237
   // For complete description check Edwin Romance and the WeiDU forum topic on HANDLE_CHARSETS
@@ -50,12 +57,12 @@ END ELSE BEGIN
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     /* Tell the player it is using Tutu stuff */
     PRINT @1000
-    INCLUDE ~bg1npc/lib/g3_tutu_cpmvars.tpa~
+    INCLUDE ~bg1npc/lib/cpmvars_tutu.tpa~
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @1001
-        INCLUDE ~bg1npc/lib/g3_bgt_cpmvars.tpa~
+        INCLUDE ~bg1npc/lib/cpmvars_bgt.tpa~
         /* Tell the player it is not Tutu or BGT */
     END ELSE BEGIN FAIL @1002
     END
@@ -63,13 +70,13 @@ END ELSE BEGIN
 END
 
   /*  alter fluid states */
-  INCLUDE ~BG1NPC/lib/g3_fluid_cpmvars.tpa~
+  INCLUDE ~BG1NPC/lib/cpmvars_fluid.tpa~
 
   /* prep tras for sound references */
   COPY ~BG1NPC/TRA/%LANGUAGE%/BG1NPC_tmp.tra~ ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
      EVALUATE_BUFFER
   LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BG1NPC.tra~
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	LOAD_TRA ~BG1NPC/TRA/%LANGUAGE%/BGEE_ITEMDESC.tra~ /* Item descriptions for BGEE, i.e. without usability info */
   END
 
@@ -457,10 +464,10 @@ END // of A_I G_I Tutu, BGT
       					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
       				END	 
-      				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
       				END
@@ -555,10 +562,10 @@ END // of A_I G_I Tutu, BGT
       				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
       				END	 
-      				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
       				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%galtok.cre~) BEGIN // Galtok (in Nashkel Mines)
@@ -644,16 +651,16 @@ END // of A_I G_I Tutu, BGT
       				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%gellan.cre~) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
@@ -792,16 +799,16 @@ END // of A_I G_I Tutu, BGT
       				PATCH_IF (~%crefile%~ STR_EQ ~imoen61.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
-      				PATCH_IF (~%crefile%~ STR_EQ ~imoen6.cre~) AND (GAME_IS ~bgee~) BEGIN
+      				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_imoen6%.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
       				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir.cre~) BEGIN
@@ -933,7 +940,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi406~ #3 ~wizard~ // Minor Globe of Invulnerability
 					ADD_MEMORIZED_SPELL ~spwi502~ #4 ~wizard~ (4) // Cloudkill
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%minsc6.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%minsc6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_LONG 0x18 36293 // Current XP
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar.cre~) BEGIN
@@ -1210,7 +1217,7 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~spwi609~ #5 ~wizard~ // True Sight
 					ADD_MEMORIZED_SPELL ~spwi624~ #5 ~wizard~ // Summon Nishruu
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1243,7 +1250,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 35 // Pick pockets (was 10)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax4.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax4.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1276,7 +1283,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x6a 45 // Pick pockets (was 20)
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax6.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
 					READ_LONG 0x244 tkt
@@ -1327,16 +1334,16 @@ END // of A_I G_I Tutu, BGT
 					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ // Silence 15' Radius
 					ADD_MEMORIZED_SPELL ~sppr303~ #2 ~priest~ // Dispel Magic
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%xan.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%xan.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan4.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan4.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan6.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_BYTE 0x24 23 // Current Hit Points
 					WRITE_BYTE 0x26 23 // Maximum Hit Points
 					WRITE_BYTE 0x54 5  // Save vs. Death
@@ -1345,7 +1352,7 @@ END // of A_I G_I Tutu, BGT
 					WRITE_BYTE 0x57 16 // Save vs. Breath
 					WRITE_BYTE 0x58 10 // Save vs. Spells
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic5.cre~) AND !(GAME_IS ~bgee~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic5.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_BYTE 0x24 42 // Current Hit Points
 					WRITE_BYTE 0x26 42 // Maximum Hit Points
 					WRITE_BYTE 0x54 4  // Save vs. Death
@@ -1476,8 +1483,8 @@ END // of A_I G_I Tutu, BGT
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     APPEND ~interdia.2da~ ~IMOEN _BIMOEN~ UNLESS ~_BIMOEN~
   END
-  /* BGT and BG:EE : Checking for Imoen's banter file if the Fixpack isn't installed */
-  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~cdbehbla.pro~) AND (GAME_IS ~bgt bgee~) THEN BEGIN
+  /* BGT: Checking for Imoen's banter file if the Fixpack isn't installed */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~cdbehbla.pro~) AND (GAME_IS ~bgt~) THEN BEGIN
     ACTION_IF FILE_EXISTS_IN_GAME ~saradush.mve~ THEN BEGIN
       COPY_EXISTING ~interdia.2da~ ~override~
         SET_2DA_ENTRY 17 1 2 ~BIMOEN2~ // fixes ToB version
@@ -1502,12 +1509,12 @@ END // of A_I G_I Tutu, BGT
   END 
   
   /* give Imoen a J file in BG:EE */
-  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imoenj.dlg~) AND (GAME_IS ~bgee~) THEN BEGIN
-    COMPILE ~BG1NPC/Core/dlg/x#imoenj_bgee.d~
-  END
+//  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imoenj.dlg~) AND (GAME_IS ~bgee eet~) THEN BEGIN
+//    COMPILE ~BG1NPC/Core/dlg/x#imoenj_bgee.d~
+//  END
 
   /* give CHARNAME a dialogue file in BG:EE */
-  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1.dlg~) AND (GAME_IS ~bgee~) THEN BEGIN
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1.dlg~) AND (GAME_IS ~bgee eet~) THEN BEGIN
     COMPILE ~BG1NPC/Core/dlg/x#player1_bgee.d~
   END
 
@@ -1706,7 +1713,7 @@ END // of A_I G_I Tutu, BGT
   END
 
   /* BG:EE repeating dialogues block other talks */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
     /* Stop Bioware dialogues repeating, fixes DLG */
     COMPILE EVALUATE_BUFFER ~BG1NPC/Core/dlg/x#bgreplace_bgee.D~
   END
@@ -1732,7 +1739,7 @@ END // of A_I G_I Tutu, BGT
     LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
 
   /* add Gorion's Talking Letter Area Script */
-  EXTEND_BOTTOM ~%CK_LibL5_BCS%.bcs~ ~BG1NPC/CORE/baf/X#FW2612.baf~
+  EXTEND_BOTTOM ~%Candlekeep_Library_L5_BCS%.bcs~ ~BG1NPC/CORE/baf/X#FW2612.baf~
     EVALUATE_BUFFER
 
   /* add Gorion's Talking Letter dialog, no need for EVAL */
@@ -1806,15 +1813,15 @@ END
   BUT_ONLY_IF_IT_CHANGES
 
   /* WizWom's Prevent Alora Area Script from Crashing. */
-  COPY_EXISTING ~%HallofWonders_BCS%.bcs~ ~override~
+  COPY_EXISTING ~%WBaldursGate_HallofWonders_BCS%.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE ~Exists("Alora")~ ~Exists("Alora") InMyArea("Alora")~
+      REPLACE_TEXTUALLY CASE_INSENSITIVE ~Exists("ALORA")~ ~Exists("ALORA") InMyArea("ALORA")~
     END
   BUT_ONLY_IF_IT_CHANGES
   
   /* Stop Viconia's Potential Script Stutter on Tutu - fix already in BGEE */
   /* scripts */
-  ACTION_IF !(GAME_IS ~bgee~) THEN BEGIN
+  ACTION_IF !(GAME_IS ~bgee eet~) THEN BEGIN
 	  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
     	DECOMPILE_AND_PATCH BEGIN
     		REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
@@ -1826,7 +1833,7 @@ END
   /* scripts */
   COPY_EXISTING ~%tutu_var%TAZOK.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
-    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("kivan")~
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("KIVAN")~
     	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("MACTazokBelt","LOCALS",0)~ ~Global("X#MACDisableTazokInv","GLOBAL",1)~
     	REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("MACTazokBelt","LOCALS",1)~ ~SetGlobal("X#MACDisableTazokInv","GLOBAL",2)~
     END
@@ -1841,7 +1848,7 @@ END
     EVALUATE_BUFFER
   
   /* BGEE adds a second Legacy of the Masters to the chest in Raemon's tent (in addition to the one Tazok wears). Adding a block to AR1901.BCS to remove the item from the chest if Tazok has been made killable (i.e., Kivan is in the party). */
-  ACTION_IF (GAME_IS ~bgee~) THEN BEGIN
+  ACTION_IF (GAME_IS ~bgee eet~) THEN BEGIN
   	EXTEND_TOP ~%BanditCamp_RaemonsTent%.bcs~ ~bg1npc/core/baf/x#ar1901.baf~
     	EVALUATE_BUFFER
   END
@@ -1871,8 +1878,8 @@ END
      BGEE only: Wyvern killed block */
   COPY_EXISTING ~%CORAN_BCS%.bcs~ ~override~
   	DECOMPILE_AND_PATCH BEGIN
-  	  	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Coran","GLOBAL")~ ~False()~
-      	PATCH_IF (GAME_IS ~bgee~) BEGIN 
+  	  	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("CORAN","GLOBAL")~ ~False()~
+      	PATCH_IF (GAME_IS ~bgee eet~) BEGIN 
       		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
 	  	END
     END
@@ -1897,14 +1904,14 @@ END
   /* removing Kivan's timer to leave party */
   COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
   	DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Kivan","GLOBAL")~ ~False()~
+      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("KIVAN","GLOBAL")~ ~False()~
     END
   BUT_ONLY_IF_IT_CHANGES
 
   /* removing Minsc's timer to leave party */
   COPY_EXISTING ~%MINSC_BCS%.bcs~ ~override~
   	DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("Minsc","GLOBAL")~ ~False()~
+      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("MINSC","GLOBAL")~ ~False()~
     END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -1917,8 +1924,8 @@ END
     INCLUDE ~BG1NPC/LIB/bgee_area_script_assign.tph~
     
     /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
-    ACTION_IF FILE_EXISTS_IN_GAME ~%NNashkelRoad_BCS%.bcs~ THEN BEGIN
-    	COPY_EXISTING ~%NNashkelRoad_BCS%.bcs~ ~override~
+    ACTION_IF FILE_EXISTS_IN_GAME ~%NorthNashkelRoad_BCS%.bcs~ THEN BEGIN
+    	COPY_EXISTING ~%NorthNashkelRoad_BCS%.bcs~ ~override~
         	DECOMPILE_AND_PATCH BEGIN
           		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~Global("PoorMrColquetleFamily","GLOBAL",0) False()~
         	END
@@ -1928,7 +1935,7 @@ END
 
 	/* Area Type Flagging */
     /* TotSC only */
-    ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if TotSC is installed
+    ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
       COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
                     ~%IsleofBalduranS%.are~ ~override~
                     ~%DurlagsTower%.are~ ~override~
@@ -2015,9 +2022,9 @@ END
     END
 
 
-  ACTION_IF NOT(MOD_IS_INSTALLED setup-scs.tp2 32) THEN BEGIN // Non-SCS Smarter Priests
-    EXTEND_TOP ~%tutu_var%priest4.bcs~ ~BG1NPC/phase2/baf/x#pries4.baf~ // Add a few spells
-  END
+//  ACTION_IF NOT(MOD_IS_INSTALLED setup-scs.tp2 32) THEN BEGIN // Non-SCS Smarter Priests
+//    EXTEND_TOP ~%tutu_var%priest4.bcs~ ~BG1NPC/phase2/baf/x#pries4.baf~ // Add a few spells
+//  END
 
   COPY_EXISTING ~%tutu_var%ghoult.itm~ ~override~ // Fix droppable Ghoul Touch
     PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
@@ -2029,18 +2036,18 @@ END
   BUT_ONLY_IF_IT_CHANGES
 
   // BGEE Fix Area Scripts for AR2400.BCS and AR2900.BCS
-  ACTION_IF GAME_IS ~bgee~ AND 
+  ACTION_IF GAME_IS ~bgee eet~ AND 
     !(FILE_EXISTS ~override/AY#BGEEARBCSFIX.000~) THEN BEGIN //do once
 
 	COPY ~BG1NPC/Core/X#component.xx~ ~override/AY#BGEEARBCSFIX.000~
 	
-	COPY_EXISTING ~AR2400.bcs~ ~override~
+	COPY_EXISTING ~%Peldvale_BCS%.bcs~ ~override~
 		DECOMPILE_AND_PATCH BEGIN
   			//Add Exists(Raiken) check to TazokSays script block
   			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Raiken")~
   		END
 
-	COPY_EXISTING ~AR2900.bcs~ ~override~
+	COPY_EXISTING ~%Larswood_BCS%.bcs~ ~override~
 		DECOMPILE_AND_PATCH BEGIN
   			//Add Exists(Teven) check to TazokSays script block
   			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Teven")~
@@ -2089,7 +2096,7 @@ BEGIN @1007
   /* Ajantis shield */
   COPY ~BG1NPC/Phase1/ITM/X#ISHAJ.BAM~ ~override~
   COPY ~BG1NPC/Phase1/ITM/X#CSHAJ.BAM~ ~override~
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN 
 	COPY ~BG1NPC/Phase1/ITM/X#AJSHLD_EE.itm~ ~override/x#ajshld.itm~
   END ELSE BEGIN /* Tutu or BGT */
 	  COPY ~BG1NPC/Phase1/ITM/X#AJSHLD.itm~ ~override~
@@ -2105,7 +2112,7 @@ BEGIN @1007
     BUT_ONLY
 
   /* BGEE: Add Ajantis' shield to item_use.2da */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN 
   	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~ 
   	  UNLESS ~x#ajshld~
   	COPY_EXISTING ~item_use.2da~ ~override~
@@ -2120,7 +2127,7 @@ BEGIN @1007
     ADD_CRE_ITEM ~X#AJSHLD~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
 
   /* Imoen - Pink Xan */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN 
 	COPY ~BG1NPC/Phase1/cre/pinkxans_ee.bmp~ ~override/pinkxans.bmp~
 	COPY ~BG1NPC/Phase1/cre/pinkxanl_ee.bmp~ ~override/pinkxanl.bmp~
   END ELSE BEGIN /* Tutu or BGT */
@@ -2135,15 +2142,12 @@ BEGIN @1007
 
   COPY ~BG1NPC/Phase1/ITM/PINKXAN.SPL~ ~override/pinkback.spl~
     SAY 8 @14
-    PATCH_IF (GAME_IS ~bgee~) BEGIN  /* BGEE */
-        WRITE_ASCII 0xde ~xans~
-		WRITE_ASCII 0xae ~xanl~
-    END ELSE PATCH_IF (GAME_IS ~bgt~) BEGIN /* BGT */
-        WRITE_ASCII 0xde ~xans~
-		WRITE_ASCII 0xae ~xanm~
+    PATCH_IF (GAME_IS ~bgt bgee eet~) BEGIN  /* BGT, BGEE, EET */
+        WRITE_ASCII 0xde ~xans~ #8
+		WRITE_ASCII 0xae ~xanl~ #8
     END ELSE BEGIN /* Tutu */
-        WRITE_ASCII 0xde ~_ans~
-		WRITE_ASCII 0xae ~_anl~
+        WRITE_ASCII 0xde ~_ans~ #8
+		WRITE_ASCII 0xae ~_anl~ #8
 	END
 
   /* Imoen - Lockpick */
@@ -2152,14 +2156,9 @@ BEGIN @1007
 
   COPY ~BG1NPC/Phase1/ITM/NUTKIN.EFF~ ~override~
 
-  /* AstroBryGuy's and Mike1072's BG:EE strref fix */
+  /* Imoen's Tome */
   COPY ~BG1NPC/Phase1/ITM/X#DEX.SPL~ ~override~
-    PATCH_IF (GAME_IS ~bgee~) BEGIN
-        WRITE_LONG 0x08 25989  // spell name "Dexterity Increase"
-    END
-    ELSE BEGIN
-        WRITE_LONG 0x08 2688  // spell name "Dexterity Increase"
-    END
+    SAY NAME1 @782 // spell name "Dexterity Increase"
     WRITE_ASCII 0x10 ~CAS_M08~ #8   // casting sound
     WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
     WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
@@ -2374,7 +2373,7 @@ BEGIN @1007
   BUT_ONLY_IF_IT_CHANGES
 
   /* ToSC death Variables */
-  ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN
     COPY_EXISTING  ~%tutu_var%pridem.cre~ ~override~
       WRITE_ASCII 0x280 ~pridem~ #32 //  death variable X#BRINT2.BAF
     BUT_ONLY_IF_IT_CHANGES
@@ -2397,7 +2396,7 @@ BEGIN @1007
   END
 
   /* ToSC Interjections, ToSC only: */
-  ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if TotSC is installed
+  ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#TOTSC.d~
   END
 
@@ -2434,13 +2433,13 @@ BEGIN @1007
   ADD_JOURNAL EXISTING TITLE (#31317) @171 USING ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
 
   /* Area Script additions */
-  EXTEND_BOTTOM ~%SilvershieldEstate_L2_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0102.BAF~
+  EXTEND_BOTTOM ~%NWBaldursGate_SilvershieldEstate_L2_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0102.BAF~
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%FishingVillage_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW1400.BAF~
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%Undercellars_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0112.BAF~
       EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%SorcerousSundries_L2_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0704.BAF~
+  EXTEND_BOTTOM ~%EBaldursGate_SorcerousSundries_L2_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0704.BAF~
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW2700.BAF~
       EVALUATE_BUFFER
@@ -2674,10 +2673,10 @@ BEGIN @1007
   COMPILE ~BG1NPC/Phase2/baf/x#tqbh.baf~
   
   /* area scripts */
-  EXTEND_BOTTOM ~%SEBGBStarsL2_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#tqfw0106.baf~
+  EXTEND_BOTTOM ~%SEBaldursGate_Blade&Stars_L2_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#tqfw0106.baf~
      EVALUATE_BUFFER
 
-  EXTEND_BOTTOM ~%BGDocks_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#tqfw1200.baf~
+  EXTEND_BOTTOM ~%BaldursGateDocks_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#tqfw1200.baf~
      EVALUATE_BUFFER
 
   /* dialogues */
@@ -2700,7 +2699,7 @@ BEGIN @1007
   /* Overriding old Kagain Quest interaction triggers */
   COPY_EXISTING ~%KAGAIN_BCS%.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY ~GlobalTimerExpired("Kagain","GLOBAL")~ ~False()~
+      REPLACE_TEXTUALLY ~GlobalTimerExpired("KAGAIN","GLOBAL")~ ~False()~
     END
   BUT_ONLY_IF_IT_CHANGES
   EXTEND_BOTTOM ~%KAGAIN_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#KGQUST.BAF~
@@ -3000,7 +2999,7 @@ BEGIN @1007
     	SAY SELECT_COMMON1 @557
     	SAY SELECT_COMMON2 @558
     	SAY SELECT_COMMON3 @561
-    END ELSE BEGIN /* Tutu and BGT */
+    END ELSE BEGIN /* Tutu, BGT, EET */
 	    SAY MORALE @84
     	SAY HAPPY @85
     	SAY UNHAPPY_ANNOYED @86
@@ -3063,7 +3062,7 @@ BEGIN @1007
     	SAY DYING @705 // x#ogref6
     	SAY SELECT_COMMON1 @701 // x#ogref2
     	SAY SELECT_COMMON2 @703 // x#ogref4
-    END ELSE BEGIN /* Tutu, BGT */    	
+    END ELSE BEGIN /* Tutu, BGT, EET */    	
 	    SAY INITIAL_MEETING @126
     	SAY UNHAPPY_BREAKING @127
    		SAY BATTLE_CRY1 @128
@@ -3089,7 +3088,7 @@ BEGIN @1007
     	SAY DYING @705 // x#ogref6
     	SAY SELECT_COMMON1 @701 // x#ogref2
     	SAY SELECT_COMMON2 @703 // x#ogref4
-    END ELSE BEGIN /* Tutu, BGT */    	
+    END ELSE BEGIN /* Tutu, BGT, EET */    	
 	    SAY INITIAL_MEETING @126
     	SAY UNHAPPY_BREAKING @127
    		SAY BATTLE_CRY1 @128
@@ -3183,7 +3182,7 @@ BEGIN @1007
       EVALUATE_BUFFER
 
   /* Xan's Encounter 1  */
-  EXTEND_BOTTOM ~%NNashkelRoad_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#FW4300.BAF~
+  EXTEND_BOTTOM ~%NorthNashkelRoad_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#FW4300.BAF~
       EVALUATE_BUFFER
 
   /* Xan Centeol */
@@ -3435,8 +3434,8 @@ BEGIN @1007
   COPY ~BG1NPC/phase2/itm/X#COBAG.STO~ ~override~
     SAY NAME2 @218
 
-  /* pro5's Coran Dragon Skeleton Fix */
-  ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN
+  /* pro5's CORAN Dragon Skeleton Fix */
+  ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/P5ARD013.BAF~
     COPY_EXISTING ~%DurlagsTower_D3%.ARE~ ~override~
          LAUNCH_PATCH_MACRO ~DRAGON_TRIGGER~
@@ -3451,7 +3450,7 @@ BEGIN @1007
       EVALUATE_BUFFER
 
   /* appended scripts */
-  EXTEND_BOTTOM ~%NEBG_SSL1_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0103.baf~
+  EXTEND_BOTTOM ~%NEBaldursGate_SplurgingSturgeon_L1_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0103.baf~
       EVALUATE_BUFFER
 
   /* override script to Brielbara */
@@ -3588,7 +3587,7 @@ BEGIN @1007
 		SAY DYING #12488 // [ABELA 4]
      	SAY SELECT_COMMON1 #11120 // [FEMALE GREETING 13] How are you?
      	SAY SELECT_COMMON2 #11121 // [FEMALE GREETING 14] What's your tale?
-    END ELSE BEGIN /* Tutu, BGT */
+    END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY INITIAL_MEETING @240
     	SAY UNHAPPY_BREAKING @241
     	SAY BATTLE_CRY1 @242
@@ -3638,7 +3637,7 @@ BEGIN @1007
     SAY DESC @250
     
   /* BGEE: Add Kivan's bow to item_use.2da */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
   	APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~ 
   	  UNLESS ~P#BOW~  	
   	COPY_EXISTING ~item_use.2da~ ~override~
@@ -3740,13 +3739,13 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/P#WOLFA.BAF~// Compile script
 
   /* area script extension */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
   /* BGEE needs different location for Imanel Silversword, as Simmeon from Dorn's quest spawns in Imanel's original BG1NPC location. */
-    EXTEND_BOTTOM ~%WyrmsCross_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#AR0900.BAF~
+    EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#AR0900.BAF~
       EVALUATE_BUFFER
   END ELSE BEGIN
   /* For TuTu and BGT */ 
-    EXTEND_BOTTOM ~%WyrmsCross_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0900.BAF~
+    EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW0900.BAF~
       EVALUATE_BUFFER
   END
 
@@ -3875,18 +3874,19 @@ BEGIN @1007
     SAY DESC @630
 
   /* Add BG2 Items missing from BGEE */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-	/* Scrolls of Cacofiend and Maze */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~scrl8i.itm~) THEN BEGIN   /* Scroll of Cacofiend */
 	COPY ~bg1npc/phase2/itm/scrl8i.itm~ ~override~ 
-	COPY ~bg1npc/phase2/itm/scrl9h.itm~ ~override~ 
-	
-	/* Demon See Invisibility ring */
+  END
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~scrl9h.itm~) THEN BEGIN   /* Scroll of Maze */
+  	COPY ~bg1npc/phase2/itm/scrl9h.itm~ ~override~ 
+  END
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~seeinvis.itm~) THEN BEGIN   /* Demon See Invisibility ring */
 	COPY ~bg1npc/phase2/itm/seeinvis.itm~ ~override~
   END
 
   /* Working spell for Prot Evil 10' radius that protects vs Demons 
      Note: BGEE version of SPPR408 already protects vs demons. */
-  ACTION_IF !(GAME_IS ~bgee~) THEN BEGIN
+  ACTION_IF !(GAME_IS ~bgee eet~) THEN BEGIN
   	COPY ~BG1NPC/phase2/itm/SPPR408.SPL~ ~override~
   END
  
@@ -3895,7 +3895,7 @@ BEGIN @1007
     USING ~BG1NPC/TRA/%LANGUAGE%/X#IMPSPL.TRA~
   
   /* X#IMPSPL.BCS uses the sound file IMPPP04.wav, which is not found in BGEE. */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imppp04.wav~) THEN BEGIN
   	COPY ~bg1npc/phase2/wav/imppp04.wav~ ~override~
   END
   
@@ -4043,15 +4043,18 @@ END
   /* Compile .bcs for X#WINSKI and X#TANARI and x#mepht1-5 */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#DYQWIN.BAF~
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#DYTANR.BAF~
+  COMPILE ~bg1npc/phase2/baf/x#dycut.baf~
   COMPILE ~bg1npc/phase2/baf/x#mepsmo.baf~
 
   /* dialogues */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~EraseJournalEntry(27171)  EraseJournalEntry(27274) EraseJournalEntry(27275) EraseJournalEntry(27031) AddexperienceParty(800)~
-  END ELSE BEGIN
-  	OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~~
-  END
-  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/x#dynaquest.d~
+	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+		OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~EraseJournalEntry(27171)  EraseJournalEntry(27274) EraseJournalEntry(27275) EraseJournalEntry(27031)  AddexperienceParty(800)~
+	END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  		OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~EraseJournalEntry(227171)  EraseJournalEntry(227274) EraseJournalEntry(227275) EraseJournalEntry(227031)  AddexperienceParty(800)~
+	END ELSE BEGIN
+  		OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~~
+	END
+	COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/x#dynaquest.d~
 
   /* Extend Dynaheir's override scripts */
   EXTEND_TOP  ~%DYNAHEIR_BCS%.bcs~ ~BG1NPC/Phase2/baf/x#dynaquest.baf~
@@ -4199,7 +4202,7 @@ END
     	SAY DAMAGE @733 // [EARTH06]
     	SAY DYING @734 // [EARTH07]
     	SAY SELECT_COMMON1 @730 // [EARTH01]
-	END ELSE BEGIN /* Tutu, BGT */
+	END ELSE BEGIN /* Tutu, BGT, EET */
 		SAY BATTLE_CRY1 @321
     	SAY BATTLE_CRY2 @322
     	SAY DAMAGE @323
@@ -4224,7 +4227,7 @@ END
     	SAY DYING @343
     	SAY SELECT_COMMON1 @344
     	SAY SELECT_COMMON2 @345
-	END ELSE BEGIN /* Tutu, BGT: BG2 EPRIM soundset */
+	END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
     	SAY INITIAL_MEETING @327
    		SAY UNHAPPY_BREAKING @328
     	SAY BATTLE_CRY1 @329
@@ -4253,7 +4256,7 @@ END
     	SAY DYING @343
     	SAY SELECT_COMMON1 @344
     	SAY SELECT_COMMON2 @345
-	END ELSE BEGIN /* Tutu, BGT: BG2 HVILLM soundset */
+	END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
     	SAY INITIAL_MEETING @334
     	SAY UNHAPPY_BREAKING @335
     	SAY BATTLE_CRY1 @336
@@ -4368,27 +4371,29 @@ END
       END
 
   /* extending area scripts */
-  EXTEND_BOTTOM ~%FV_AnkhegPit_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW1401.BAF~
+  EXTEND_BOTTOM ~%FishingVillage_AnkhegPit_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW1401.BAF~
     EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%CloakwoodDr_PetersCave_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW1603.BAF~
+  EXTEND_BOTTOM ~%CloakwoodDruids_PetersCave_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW1603.BAF~
     EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%Lighthouse_BAsCave_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW3601.BAF~
+  EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW3601.BAF~
     EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%XvartVillageCave_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW4701.BAF~
+  EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW4701.BAF~
     EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%ValleyoftheTombsTomb_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW5001.BAF~
+  EXTEND_BOTTOM ~%ValleyoftheTombs_Tomb_BCS%.bcs~ ~BG1NPC/Phase2/baf/P#FW5001.BAF~
     EVALUATE_BUFFER
 
   /* Add journal entries for BGEE */
   ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
     
   /* dialogues */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
-  END ELSE BEGIN
-  	OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
-  END
-  COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XZQU.D~
+	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  		OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
+	END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  		OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(227005)~
+	END ELSE BEGIN
+  		OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
+	END
+  	COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#XZQU.D~
   
   /* scripts */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/baf/X#BLACK.BAF~
@@ -4512,7 +4517,7 @@ END
     	SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
     	SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
     	SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
-    END ELSE BEGIN /* Tutu, BGT: EPRIM soundset from BG2 */	
+    END ELSE BEGIN /* Tutu, BGT, EET: EPRIM soundset from BG2 */	
     	SAY INITIAL_MEETING @327
     	SAY UNHAPPY_BREAKING @328
     	SAY BATTLE_CRY1 @329
@@ -4543,7 +4548,7 @@ END
     	SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
     	SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
     	SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
-    END ELSE BEGIN /* Tutu, BGT: HVILLM soundset from BG2 */	
+    END ELSE BEGIN /* Tutu, BGT, EET: HVILLM soundset from BG2 */	
     	SAY INITIAL_MEETING @334
     	SAY UNHAPPY_BREAKING @335
     	SAY BATTLE_CRY1 @336
@@ -4583,7 +4588,7 @@ END
       EVALUATE_BUFFER
 
   /* Patching all creatures in component for Tutu > BGT items */
-  ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
     COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
        LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
@@ -4600,9 +4605,8 @@ END
 /* Edwin */
 BEGIN @1022 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */  
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-ACTION_FOR_EACH edwin IN edwin edwin2 edwin4 edwin6 _edwin _edwin2 _edwin4 _edwin6 BEGIN
+ACTION_FOR_EACH edwin IN "%tutu_var%edwin" "%tutu_var%edwin2" "%tutu_var%edwin4" "%tutu_var%edwin6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
     COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -4616,9 +4620,8 @@ END
 /* Imoen */
 BEGIN @1023 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */  
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-ACTION_FOR_EACH imoen IN imoen imoen1 imoen2 imoen4 imoen6 _imoen _imoen1 _imoen2 _imoen4 _imoen6 BEGIN
+ACTION_FOR_EACH imoen IN "%tutu_var%imoen" "%tutu_var%imoen1" "%tutu_var%imoen2" "%tutu_var%imoen4" "%tutu_imoen6%" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
     COPY_EXISTING "%imoen%.cre" ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -4632,9 +4635,8 @@ END
 /* Jaheira */
 BEGIN @1024  /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */  
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-ACTION_FOR_EACH jaheira IN jaheir jaheir2 jaheir4 jaheir6 _jaheir _jaheir2 _jaheir4 _jaheir6 BEGIN
+ACTION_FOR_EACH jaheira IN "%tutu_var%jaheir" "%tutu_var%jaheir2" "%tutu_var%jaheir4" "%tutu_var%jaheir6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
     COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -4648,9 +4650,8 @@ END
 /* Minsc */
 BEGIN @1025 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */  
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-ACTION_FOR_EACH minsc IN minsc minsc2 minsc4 minsc6 _minsc _minsc2 _minsc4 _minsc6 BEGIN
+ACTION_FOR_EACH minsc IN "%tutu_var%minsc" "%tutu_var%minsc2" "%tutu_var%minsc4" "%tutu_var%minsc6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
     COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -4664,9 +4665,8 @@ END
 /* Viconia */
 BEGIN @1026  /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */  
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-ACTION_FOR_EACH viconia IN viconi viconi4 viconi6 viconi61 _viconi _viconi4 _viconi6 BEGIN
+ACTION_FOR_EACH viconia IN "%tutu_var%viconi" "%tutu_var%viconi4" "%tutu_viconi6%" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -4684,7 +4684,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COPY ~BG1NPC/Phase2/Portraits/%bgee%P#KI2L.bmp~ ~override~
   COPY ~BG1NPC/Phase2/Portraits/%bgee%P#KI2M.bmp~ ~override~
   COPY ~BG1NPC/Phase2/Portraits/%bgee%P#KI2S.bmp~ ~override~
-ACTION_FOR_EACH kivan IN kivan kivan4 kivan6 _kivan _kivan4 _kivan6 BEGIN
+ACTION_FOR_EACH kivan IN "%tutu_var%kivan" "%tutu_var%kivan4" "%tutu_var%kivan6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
     COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
@@ -5094,7 +5094,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   END
 
   /*ToSC only portraits: */
-  ACTION_IF GAME_IS ~tutu_totsc bgt bgee~ THEN BEGIN //  if TotSC is installed
+  ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
     COPY_EXISTING ~%tutu_var%hurgan.cre~ ~override~
       WRITE_ASCII 0x34 ~hurgans~ #8 //  small portrait
     BUT_ONLY_IF_IT_CHANGES
@@ -5261,7 +5261,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
     	SAY DYING #5470 // HELMP06
     	SAY SELECT_COMMON1 #4977 // HELMP02
     	SAY SELECT_COMMON2 #4976 // HELMP01
-	END ELSE BEGIN /* Tutu, BGT */
+	END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY INITIAL_MEETING @482
     	SAY BATTLE_CRY1 @483
     	SAY DAMAGE @484
@@ -5332,7 +5332,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
     EVALUATE_BUFFER
 
   /* BGT, BGEE compatability macro */
-  ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
   	COPY_EXISTING ~x#ajdoug.cre~ ~override~
         PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
         	/* LAUNCH_PATCH_MACRO ~tutu_items_to_bgt~ */
@@ -5527,7 +5527,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     	SAY DYING @743 // [VAMPF07]
     	SAY SELECT_COMMON1 @737 // [VAMPF01]
     	SAY SELECT_COMMON2 @741 // [VAMPF05]
-	END ELSE BEGIN /* For Tutu, BGT */
+	END ELSE BEGIN /* For Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @408
     	SAY BATTLE_CRY2 @409
     	SAY DAMAGE @410
@@ -5549,7 +5549,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     	SAY DYING @750 // [VAMPP07]
     	SAY SELECT_COMMON1 @744 // [VAMPP01]
     	SAY SELECT_COMMON2 @748 // [VAMPP05]
-	END ELSE BEGIN /* For Tutu, BGT */
+	END ELSE BEGIN /* For Tutu, BGT, EET */
     	SAY INITIAL_MEETING @414
     	SAY UNHAPPY_BREAKING @415
     	SAY BATTLE_CRY1 @416
@@ -5576,7 +5576,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     	SAY DYING @743 // [VAMPF07]
     	SAY SELECT_COMMON1 @737 // [VAMPF01]
     	SAY SELECT_COMMON2 @741 // [VAMPF05]
-	END ELSE BEGIN /* For Tutu, BGT */
+	END ELSE BEGIN /* For Tutu, BGT, EET */
 	    SAY INITIAL_MEETING @424
     	SAY UNHAPPY_BREAKING @425
     	SAY BATTLE_CRY1 @426
@@ -5603,7 +5603,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     	SAY DYING @743 // [VAMPF07]
     	SAY SELECT_COMMON1 @737 // [VAMPF01]
     	SAY SELECT_COMMON2 @741 // [VAMPF05]
-	END ELSE BEGIN /* For Tutu, BGT */
+	END ELSE BEGIN /* For Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @433
     	SAY DAMAGE @434
     	SAY DYING @435
@@ -5744,7 +5744,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     	SAY DYING @446
     	SAY SELECT_COMMON1 @447
     	SAY SELECT_COMMON2 @442
-	END ELSE BEGIN /* Tutu, BGT */
+	END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY INITIAL_MEETING @463
     	SAY DAMAGE @464
     	SAY DYING @465
@@ -5805,26 +5805,11 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     SAY DESC @471
 
   /* Add BG2 items missing from BGEE */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN  
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~brac25~) THEN BEGIN  
   /* Wondrous Gauntlets */
 	COPY ~bg1npc/phase3/dyrom/itm/brac25.itm~ ~override~ 
   		SAY NAME2 @761
   		SAY DESC @762
-
-  /* Items for Dynaheir romance endgame cutscene */
-  	COPY ~bg1npc/phase3/dyrom/itm/minhp20.itm~ ~override~   /* For x#bodhi */
-	COPY ~bg1npc/phase3/dyrom/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
-	COPY ~bg1npc/phase3/dyrom/itm/vamp1.itm~ ~override~     /* For x#valen */
-	COPY ~bg1npc/phase3/dyrom/itm/vamp2.itm~ ~override~     /* For x#tanov */
-	COPY ~bg1npc/phase3/dyrom/itm/vamp3.itm~ ~override~     /* For x#bodhi */
-	COPY ~bg1npc/phase3/dyrom/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
-	
-	/* Soundset for x#joni */
-	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
-	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
-	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
-	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
-	COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
   END
   
   /* Dynaheir's romance timer */
@@ -5858,18 +5843,18 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
         PRINT @1113
         END
 
-  ACTION_IF ((GAME_IS ~tutu tutu_totsc bgee~) AND (NOT FILE_EXISTS_IN_GAME ~bd1000.are~)) THEN BEGIN
-  	COPY_EXISTING ~%UC_TofB_BCS%.bcs~ ~override~
+  ACTION_IF ((GAME_IS ~tutu tutu_totsc bgee~) AND (NOT GAME_INCLUDES ~sod~)) THEN BEGIN
+  	COPY_EXISTING ~%Undercity_TempleofBhaal_BCS%.bcs~ ~override~
     	DECOMPILE_AND_PATCH BEGIN
       		REPLACE_TEXTUALLY CASE_INSENSITIVE
       			~Global("DeathOfSarevok","GLOBAL",0)~
-      			~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
+      			~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("DYNAHEIR") !InParty("DYNAHEIR")~
       		REPLACE_TEXTUALLY CASE_INSENSITIVE
       			~GlobalTimerExpired("DeathOfSarevok","GLOBAL")~
-      			~GlobalTimerExpired("DeathOfSarevok","GLOBAL") OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
+      			~GlobalTimerExpired("DeathOfSarevok","GLOBAL") OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("DYNAHEIR") !InParty("DYNAHEIR")~
       		REPLACE_TEXTUALLY CASE_INSENSITIVE
       			~Global("D0FinalSave","GLOBAL",0)~
-      			~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("dynaheir") !InParty("dynaheir")~
+      			~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("DYNAHEIR") !InParty("DYNAHEIR")~
     	END
 	BUT_ONLY_IF_IT_CHANGES
 
@@ -5879,13 +5864,32 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#DYLSTB.BAF~
       USING ~BG1NPC/TRA/%LANGUAGE%/X#DYLAST.TRA~
     /* Area Script Extensions */
-    EXTEND_BOTTOM ~%tutu_var%AR0112.BCS~ ~BG1NPC/Phase3/DYROM/baf/P#RO0112.baf~
+    EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.BCS~ ~BG1NPC/Phase3/DYROM/baf/P#RO0112.baf~
     EVALUATE_BUFFER
-    EXTEND_BOTTOM ~%tutu_var%AR2700.BCS~ ~BG1NPC/Phase3/DYROM/baf/X#DA2700.baf~
+    EXTEND_BOTTOM ~%LionsWay_BCS%.BCS~ ~BG1NPC/Phase3/DYROM/baf/X#DA2700.baf~
     EVALUATE_BUFFER
-    EXTEND_BOTTOM ~%tutu_var%AR0125.BCS~ ~BG1NPC/Phase3/DYROM/baf/X#DA0125.baf~
+    EXTEND_BOTTOM ~%Undercity_TempleofBhaal_BCS%.BCS~ ~BG1NPC/Phase3/DYROM/baf/X#DA0125.baf~
     EVALUATE_BUFFER
       USING ~BG1NPC/TRA/%LANGUAGE%/X#DA0125.TRA~
+    
+    /* Add BG2 files missing from BGEE */
+    ACTION_IF GAME_IS ~bgee~ THEN BEGIN  
+  		/* Items for Dynaheir romance endgame cutscene */
+  		COPY ~bg1npc/phase3/dyrom/itm/minhp20.itm~ ~override~   /* For x#bodhi */
+		COPY ~bg1npc/phase3/dyrom/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
+		COPY ~bg1npc/phase3/dyrom/itm/vamp1.itm~ ~override~     /* For x#valen */
+		COPY ~bg1npc/phase3/dyrom/itm/vamp2.itm~ ~override~     /* For x#tanov */
+		COPY ~bg1npc/phase3/dyrom/itm/vamp3.itm~ ~override~     /* For x#bodhi */
+		COPY ~bg1npc/phase3/dyrom/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
+	
+		/* Soundset for x#joni */
+		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
+		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
+		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
+		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
+		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
+  	END
+
   END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN /* BGT Versions */
   //   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#DYDEAD.BAF~// Dynaheir's End Cutscene disabled, no BGT file
   //   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#DYLSTA.BAF~// Dynaheir's End Cutscene disabled, no BGT file
@@ -5893,7 +5897,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   //   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/DYROM/baf/X#DYLSTB.BAF~// Dynaheir's End Cutscene disabled, no BGT file
   //     USING ~BG1NPC/TRA/%LANGUAGE%/X#DYLAST.TRA~// Dynaheir's End Cutscene disabled, no BGT file
     /* Area Script Extensions */
-    EXTEND_BOTTOM ~AR7212.BCS~ ~BG1NPC/Phase3/DYROM/baf/P#RO0112.baf~
+    EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.BCS~ ~BG1NPC/Phase3/DYROM/baf/P#RO0112.baf~
       EVALUATE_BUFFER
     // NOT FOR BGT EXTEND_BOTTOM ~AR6600.BCS~ ~BG1NPC/BGT/baf/X#DA2700.baf~ // Dynaheir's End Cutscene disabled, no BGT file
     // NOT FOR BGT EXTEND_BOTTOM ~AR7225.BCS~ ~BG1NPC/BGT/baf/X#DA0125.baf~ // Dynaheir's End Cutscene disabled, no BGT file
@@ -5953,7 +5957,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   END
   
   /* Patching all creatures in component for leftover/missed Tutu > BGT items */
-  ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
     COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
        LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
@@ -6089,7 +6093,6 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
 BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-//  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#FemaleRomChal.G3~
 
@@ -6103,25 +6106,21 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
     COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1.are~ ~override/x#ajr1.are~
   END ELSE BEGIN
-    ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+    ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
   	  COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#ajr1_bgee.are~ ~override/x#ajr1.are~
-    END ELSE BEGIN
+  	  	WRITE_ASCIE 0x08 ~%Encounter_Forest1%~ #8
+  	  	WRITE_ASCIE 0x18 ~%NBaldursGate_RinniesHouse_L2%~ #8
+   	  	WRITE_ASCIE 0x24 ~%NBaldursGate_RinniesHouse_L2%~ #8
+  	  	WRITE_ASCIE 0x30 ~%NBaldursGate_RinniesHouse_L2%~ #8
+  	  	WRITE_ASCIE 0x3c ~%NBaldursGate_RinniesHouse_L2%~ #8
+      END ELSE BEGIN
       COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1_bgt.are~ ~override/x#ajr1.are~
     END
   END
+
   /* Fighting Area */
-  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ajr1.ARE~ ~override/x#ch11.are~
+  COPY_EXISTING ~x#ajr1.are~ ~override/x#ch11.are~
       WRITE_ASCII 0x94 ~X#AR6001~ #8
-  END ELSE BEGIN
-    ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	  COPY ~BG1NPC/Phase3/CHALLENGE/bgee/x#ajr1_bgee.are~ ~override/x#ch11.are~
-  	  WRITE_ASCII 0x94 ~X#AR6001~ #8
-    END ELSE BEGIN
-      COPY ~BG1NPC/Phase3/CHALLENGE/itm/x#ch11_bgt.are~ ~override/x#ch11.are~
-      WRITE_ASCII 0x94 ~X#AR6001~ #8
-    END
-  END
   
   /* Dragon Area 1 */
   /* BGEE does not have BG2's AR1402 area resources available */ 
@@ -6137,7 +6136,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH12_bgee.are~ ~override/x#ch12.are~
 		WRITE_ASCII 0x94 ~X#ARCH12~
   END ELSE BEGIN   
-  /* For Tutu, BGT */
+  /* For Tutu, BGT, EET */
   	COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH12.are~ ~override~
     	WRITE_ASCII 0x94 ~X#ARCH12~
   END
@@ -6166,7 +6165,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 	COPY ~BG1NPC/Phase3/CHALLENGE/bgee/X#CH13_bgee.are~ ~override/x#ch13.are~
     	WRITE_ASCII 0x94 ~X#CH13~ #8
   END ELSE BEGIN
-  /* For Tutu, BGT */
+  /* For Tutu, BGT, EET */
   	COPY ~BG1NPC/Phase3/CHALLENGE/itm/X#CH13.are~ ~override~
     	WRITE_ASCII 0x94 ~X#CH13~ #8
   END
@@ -6323,7 +6322,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	REPLACE_CRE_ITEM ~CHAN12~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
     	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
      	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~    	
-	END ELSE BEGIN /* Tutu, BGT */
+	END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @534
     	SAY BATTLE_CRY2 @535
     	SAY DAMAGE @536
@@ -6342,7 +6341,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY DAMAGE #11075 // [ELF FEMALE 5]
     	SAY DYING #11076 // [ELF FEMALE 6]
     	SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Good day and hello to you.
-	END ELSE BEGIN /* Tutu, BGT */
+	END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @540
     	SAY BATTLE_CRY2 @541
     	SAY DAMAGE @542
@@ -6356,11 +6355,11 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
     SAY NAME1 @545
     SAY NAME2 @545
-	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+	PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
 		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
     	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 	END
-	PATCH_IF ((GAME_IS ~bgee~) && (FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+	PATCH_IF ((GAME_IS ~bgee~) && (GAME_INCLUDES ~sod~)) BEGIN
 		WRITE_LONG 0x28 4353 // Use DRAGON_WHITE animation for BGEE with SoD
     	REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 	END
@@ -6381,7 +6380,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#ajdrre.cre~ ~override/x#ajdrre.cre~
     SAY NAME1 @546
     SAY NAME2 @546
-	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+	PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
 		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
     	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 	END
@@ -6402,7 +6401,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#cautz.cre~
     SAY NAME1 @547
     SAY NAME2 @547
-	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+	PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
 		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
 	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
@@ -6421,7 +6420,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
     	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
      	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
-    END ELSE BEGIN /* Tutu, BGT */
+    END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
     	SAY DAMAGE @549
@@ -6434,7 +6433,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   COPY ~BG1NPC/Phase3/CHALLENGE/cre/x#dragon.cre~ ~override/x#drag2.cre~
     SAY NAME1 @553
     SAY NAME2 @553
-	PATCH_IF ((GAME_IS ~bgee~) && !(FILE_EXISTS_IN_GAME ~bd1000.are~)) BEGIN
+	PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
 		WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
 	END
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
@@ -6453,7 +6452,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
     	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
     	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
-    END ELSE BEGIN /* Tutu, BGT */
+    END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
     	SAY DAMAGE @549
@@ -6538,7 +6537,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   END
 
   /* Patching all creatures in component for Tutu > BGT items */
-  ACTION_IF GAME_IS ~bgt bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
     COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
       PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
        LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
@@ -6551,14 +6550,14 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (!FILE_EXISTS_IN_GAME ~dw#12.xxx~) @1066 /* This component is already handled by Sword Coast Strategems. To use the BG1 NPC version, please uninstall the SCS version first. */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#WaitAtInn.G3~
 
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
 
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* BGEE */
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN  /* BGEE */
     INCLUDE ~bg1npc/phase3/wait/lib/bgee_wait_areas.tpa~
 	COMPILE EVALUATE_BUFFER ~bg1npc/phase3/wait/dlg/x#npcwait_ee.d~
       USING ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~  
@@ -6600,11 +6599,11 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
   COMPILE EVALUATE_BUFFER ~BG1NPC/Phase3/MOVELOC/dlg/x#aloramoves.d~
     USING ~BG1NPC/TRA/%LANGUAGE%/X#ALORAN.TRA~
 
-  ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
+  ACTION_IF GAME_IS ~tutu tutu_totsc bgee eet~ THEN BEGIN
     /* Trying to prevent Alora's CTD */
-    COPY_EXISTING ~%HallofWonders_BCS%.bcs~ ~override~
+    COPY_EXISTING ~%WBaldursGate_HallofWonders_BCS%.bcs~ ~override~
       DECOMPILE_AND_PATCH BEGIN
-    	REPLACE_TEXTUALLY ~!InParty("alora")~ ~!InParty("alora") Global("X#AloraDontBeDifficult","GLOBAL",1)~
+    	REPLACE_TEXTUALLY ~!InParty("ALORA")~ ~!InParty("ALORA") Global("X#AloraDontBeDifficult","GLOBAL",1)~
       END
       BUT_ONLY_IF_IT_CHANGES
 
@@ -6627,10 +6626,10 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
     /* Patching Alora's location BGT */
-      COPY_EXISTING ~%HallofWonders_BCS%.bcs~ ~override~
+      COPY_EXISTING ~%WBaldursGate_HallofWonders_BCS%.bcs~ ~override~
         DECOMPILE_AND_PATCH BEGIN
           REPLACE_TEXTUALLY ~Global("BGTNPC7230","GLOBAL",0)~ ~False()~
-          REPLACE_TEXTUALLY ~Exists("Alora")~ ~False()~
+          REPLACE_TEXTUALLY ~Exists("ALORA")~ ~False()~
         END
       BUT_ONLY_IF_IT_CHANGES
       EXTEND_BOTTOM ~AR9900.bcs~ ~BG1NPC/Phase3/MOVELOC/baf/X#ALORASPA.baf~
@@ -6643,7 +6642,7 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
 BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1074 /* Eldoth will start in the Cloakwood as in the original game. */
 
@@ -6651,7 +6650,7 @@ BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
 BEGIN @1075 /* Eldoth Starts on the Coast Way. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#EldothMove.G3~
 
@@ -6681,7 +6680,7 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
 BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1079  /* Quayle will start at the Wyrm's Crossing as in the original game. */
 
@@ -6689,7 +6688,7 @@ BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
 BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#QuayleMove.G3~
 
@@ -6712,7 +6711,7 @@ BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
 BEGIN @1083 /* Tiax Starts in Baldur's Gate. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1085 /* Tiax will start in Baldur's Gate as in the original game. */
 
@@ -6720,7 +6719,7 @@ BEGIN @1083 /* Tiax Starts in Baldur's Gate. */
 BEGIN @1086  /* Tiax Starts in Beregost. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#TiaxMove.G3~
 
@@ -6742,7 +6741,7 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
 BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (!GAME_IS ~bgee~) @5001 /* You must have BGT or TuTu installed for this component. */
+  REQUIRE_PREDICATE (!GAME_IS ~bgee eet~) @5001 /* You must have BGT or TuTu installed for this component. */
   FORBID_FILE ~override/bantergoose.xxx~ @1089  /* You already have the Banter Accelerator installed. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~BG1NPC/Bantergoose/bantergoose.xxx~ ~override/bantergoose.xxx~
@@ -6752,7 +6751,7 @@ BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
    adjust banter dialog timings.  Replaces Compton's "bantergoose" script for BGEE - AstroBryGuy */
 BEGIN @1123 /* BGEE Banter Timing Tweak */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~bgee~) @5002 /* You must have BGEE installed for this component. */
+  REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   COPY ~BG1NPC/Core/X#component.xx~ ~override/AYBanterTimingTweak.xxx~
@@ -6882,9 +6881,9 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   /* Area Scripts for spawning */
   EXTEND_BOTTOM ~%FriendlyArmInn_L1_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#LP1REPAS.BAF~ // The Friendly Arm Inn
     EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%BelchingDragonTavern_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#LP2REPAS.BAF~ // The Belching Dragon
+  EXTEND_BOTTOM ~%Nashkel_BelchingDragonTavern_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#LP2REPAS.BAF~ // The Belching Dragon
     EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%ElfsongTavern_L1_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#LP3REPAS.BAF~ // The Elfsong
+  EXTEND_BOTTOM ~%EBaldursGate_ElfsongTavern_L1_BCS%.bcs~ ~BG1NPC/Phase2/baf/X#LP3REPAS.BAF~ // The Elfsong
     EVALUATE_BUFFER
 
   /* Ajantis Reputation Seller Reactions */
@@ -6916,26 +6915,20 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     READ_LONG  0x34 "area_off"
     FOR (index = 0; index < area_num; index = index + 1) BEGIN
       READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
-      PATCH_IF (("%area_res%" STR_EQ "fw2200") OR     //  cloakwood 1 (tutu)
-                ("%area_res%" STR_EQ "ar7000") OR     //  cloakwood 1 (bgt)
-                ("%area_res%" STR_EQ "ar2200")) BEGIN //  cloakwood 1 (bgee)
+      PATCH_IF ("%area_res%" STR_EQ "%CloakwoodLodge%") BEGIN 
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
       END ELSE
-      PATCH_IF (("%area_res%" STR_EQ "fw2100") OR     //  cloakwood 2 (tutu)
-                ("%area_res%" STR_EQ "ar8800") OR     //  cloakwood 2 (bgt)
-                ("%area_res%" STR_EQ "ar2100")) BEGIN //  cloakwood 2 (bgee)
+      PATCH_IF ("%area_res%" STR_EQ "%CloakwoodNest%") BEGIN //  cloakwood 2
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
       END
     END
     BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
+  COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW2100")~
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8800")~
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR2100")~
+      REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodNest%")~
     END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -6947,31 +6940,26 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
     COPY ~BG1NPC/Core/X#component.xx~ ~override/X#BG1NPCCloakwood.G3~
-    COPY_EXISTING ~worldmap.wmp~ ~override~
-  READ_LONG  0x30 "area_num"
-  READ_LONG  0x34 "area_off"
-  FOR (index = 0; index < area_num; index = index + 1) BEGIN
-    READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
-    PATCH_IF (("%area_res%" STR_EQ "fw2200") OR     //  cloakwood 1 (tutu)
-              ("%area_res%" STR_EQ "ar7000") OR     //  cloakwood 1 (bgt)
-              ("%area_res%" STR_EQ "ar2200")) BEGIN //  cloakwood 1 (bgee)
-      READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
-      WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
-    END ELSE
-    PATCH_IF (("%area_res%" STR_EQ "fw1800") OR     //  cloakwood mines (tutu)
-              ("%area_res%" STR_EQ "ar8600") OR     //  cloakwood mines (bgt)
-              ("%area_res%" STR_EQ "AR1800")) BEGIN //  cloakwood mines (bgee)
-      READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
-      WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
-    END
-  END
+    
+  COPY_EXISTING ~worldmap.wmp~ ~override~
+  	READ_LONG  0x30 "area_num"
+  	READ_LONG  0x34 "area_off"
+  	FOR (index = 0; index < area_num; index = index + 1) BEGIN
+    	READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
+    	PATCH_IF ("%area_res%" STR_EQ "%CloakwoodLodge%") BEGIN 
+      		READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
+      		WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
+    	END ELSE
+    	PATCH_IF ("%area_res%" STR_EQ "%CloakwoodMines%") BEGIN 
+      		READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
+      		WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
+    	END
+  	END
   BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING_REGEXP GLOB ~^\(_ar1901\|ar8701\|ar1901\)\.bcs$~ ~override~
+  COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("FW2200")~ ~RevealAreaOnMap("FW2200") RevealAreaOnMap("FW1800")~
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("AR7000")~ ~RevealAreaOnMap("AR7000") RevealAreaOnMap("AR8600")~
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("AR2200")~ ~RevealAreaOnMap("AR2200") RevealAreaOnMap("AR1800")~
+      REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodNest%")~
     END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -6981,25 +6969,27 @@ BEGIN @1114 /* The BG1 NPC Project: SixofSpades Extended Sarevok's Diary */
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-  /* SixofSpades Sarevok's Diary changes, Tutu/BGT */
+
+  /* SixofSpades Sarevok's Diary changes: Tutu, BGT, BGEE, EET */
   COPY_EXISTING ~%tutu_var%SCRL3F.itm~ ~override~
     SAY UNIDENTIFIED_DESC @575
     SAY DESC @575
     WRITE_SHORT 0x1c 0x25 //  Sets item category from Scrolls to Books
     WRITE_BYTE 0x4c 0x08 //  Sets weight to 8 lbs
-    BUT_ONLY_IF_IT_CHANGES
+  BUT_ONLY_IF_IT_CHANGES
 
 BEGIN @1116 /* The BG1 NPC Project: Sarevok's Diary Date Changes only */
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-  /* Fixing Sarevok's Diary dates changed only, Tutu/BGT */
+
+  /* Fixing Sarevok's Diary dates changed only: Tutu, BGT, BGEE, EET */
   COPY_EXISTING ~%tutu_var%SCRL3F.itm~ ~override~
     SAY UNIDENTIFIED_DESC @2
     SAY DESC @2
     WRITE_SHORT 0x1c 0x25 //  Sets item category from Scrolls to Books
     WRITE_BYTE 0x4c 0x08 //  Sets weight to 8 lbs
-    BUT_ONLY_IF_IT_CHANGES
+  BUT_ONLY_IF_IT_CHANGES
 
 /* TutuFix Walking Speeds Component Check -- keep next-to-last to compile */
 BEGIN @1090 /* The BG1 NPC Project: Check for TutuFix Walking Speeds */
