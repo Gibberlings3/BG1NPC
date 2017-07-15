@@ -1,0 +1,12 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("winski2")  // Winski
+		ClearAllActions()		
+		SetGlobal("X#DynaJournal","GLOBAL",9) 
+		CreateCreatureObjectDoor("X#TANARI",Player1,0,0,0)
+		Wait(4)
+		EndCutSceneMode()
+		ActionOverride("aravaata",StartDialogueNoSet("winski2"))
+END
