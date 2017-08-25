@@ -217,9 +217,10 @@ Nothing happens again until the party goes to %CloakwoodWyverns%, P#FW1700. Then
 
 /* Covering Amaranth if the Party goes through Tree Fort before Beador, or after */
 /* adding Amaranth recognition of quest. Entirety plays out only if Jaheira is there and Quest has started. */
-ADD_TRANS_TRIGGER ~%tutu_var%AMARAN~ 4 ~Global("X#JaheiraQuest","GLOBAL",0)~
-
-ADD_TRANS_TRIGGER ~%tutu_var%AMARAN~ 5 ~Global("X#JaheiraQuest","GLOBAL",0)~
+// Adding this trigger creates the possibility of Amarande having no valid dialog state (if Jaheira is in the party but unavailable for dialogue).
+//ADD_TRANS_TRIGGER ~%tutu_var%AMARAN~ 4 ~Global("X#JaheiraQuest","GLOBAL",0)~
+//
+//ADD_TRANS_TRIGGER ~%tutu_var%AMARAN~ 5 ~Global("X#JaheiraQuest","GLOBAL",0)~
 
 EXTEND_BOTTOM ~%tutu_var%AMARAN~ 4
 IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) GlobalGT("X#JaheiraQuest","GLOBAL",0) Global("X#AmarantheAndarthe","GLOBAL",0)~ THEN DO ~SetGlobal("X#AmarantheAndarthe","GLOBAL",1)~ GOTO JQTreeHouse
