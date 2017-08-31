@@ -13,7 +13,7 @@
 @12   = ~Coran, will you stop that mumbling!~
 @13   = ~Stop encouraging him!~
 @14   = ~Ah, those were the times...~
-@15   = ~What's so funny about that? Minsc used to do that all the time, until Boo explained to him that the sight of a naked Minsc is too much for some people. Actually Boo said it caused "phallic jealousy", but Boo uses hard to understand words all the time, so Minsc has to translate... ~
+@15   = ~What's so funny about that? Minsc used to do that all the time, until Boo explained to him that the sight of a naked Minsc is too much for some people. Actually Boo said it caused "phallic jealousy", but Boo uses hard to understand words all the time, so Minsc has to translate...~
 @16   = ~Minsc, thou shalt not utter another word! I refuse, even, to remember those times! We wert chased out of three towns in less than a tenday!~
 @17   = ~Yes, but Minsc also got twelve marriage proposals.~
 @18   = ~A refreshing outlook...~
@@ -23,7 +23,7 @@
 @22   = ~I heard that, Garrick. Watch your tongue while talking of the fairer gender, especially lady <CHARNAME>!~
 @23   = ~Aha, so your little friends here noticed it, too?~
 @24   = ~Seems you were born with the talent, then... But you must learn to control this desire of yours to steal men's clothing. Tee-hee!~
-@25   = ~Don't tell her that... She might actually listen to you. ~
+@25   = ~Don't tell her that... She might actually listen to you.~
 @26   = ~She never listens about it... but she is such a dear...~
 @27   = ~Who did not see this one coming from a mile away? Now the boys'll be bantering for days... yup!~
 @28   = ~Ah, you are here, too? Well, you were the quiet one of the pair, you were...~
@@ -47,7 +47,7 @@
 @46   = ~What a relief to know that all these poor souls will have a chance to escape! Let us move on, and clarify what is going on in this mine.~
 @47   = ~Wow, <CHARNAME>, we're freeing the slaves, just like heroes in the songs!~
 @48   = ~Thanks again! And good luck!~
-@49   = ~ *whispering* I, err... I don't think it is such a good idea...~
+@49   = ~*whispering* I, err... I don't think it is such a good idea...~
 @50   = ~I like not the looks of this, <CHARNAME>. This one has a furtive manner, and I trust not the suspicious set of his face. He would not be so cautious 'less he had something to hide from Tempus' sight.~
 @51   = ~ Don't ya be standin' there all day! Come on!~
 @53   = ~(Fishermen ask me to help them to go out to sea... next, the farmers will plead for me to help them to sow. I am becoming truly indispensable to the agriculture of this region.) Please, <CHARNAME>, just say... NO!~
@@ -78,7 +78,7 @@
 @77  = ~Poor defenseless boy, lost in these woods! We must find him, <CHARNAME>, we must!~
 @78   = ~Please. What say you, m'<PRO_LADYLORD>?~
 @79   = ~Well, I am kinda bored...~
-@80   = ~ My lucky day, then. I got someone who's bored AND foolish.~
+@80   = ~My lucky day, then. I got someone who's bored AND foolish.~
 @81   = ~Hmmph.~
 @82   = ~*sighs* At least we are likely to get a gravestone monument out of this one, in addition to the grave itself...~
 @83   = ~A basilisk! Stonegazers, slayers with sight... I have known what it is like to be stone, and greatly desire to take vengeance for the memory out of the hide of this creature!~
@@ -477,7 +477,7 @@ adventurer's delight.~
 @472  = ~Yes, sleazy! Now go, before I set my hamster on you!~
 @473  = ~It's not your call, you overfed... overfed... monkey! (Yes, that will do.)~
 @474  = ~This high and mighty wizard seems an arrogant type indeed, and those red robes hint at a Thayvian... We should be careful of our dealings with him, <CHARNAME>.~
-@475  = ~ What say you?~
+@475  = ~What say you?~
 @476  = ~The History of the Dead Three – he's right, a dark tale indeed. Merely thinking of those fell deities sends shivers down my spine.~
 @477  = ~Hmm... an odd choice of a reward, as well as an odd choice of words. Both set me ill at ease, to be truthful.~
 @478  = ~A strange choice of book; my guess is the old fool couldn't stomach the reading for himself.~
@@ -556,7 +556,7 @@ adventurer's delight.~
 @551  = ~*gulp* Y-yes, guildmaster.~
 @552  = ~I'm glad to hear it. After all, we wouldn't want a repeat of that little... 'incident', now would we?~
 @553  = ~Err, n-no, guildmaster.~
-@554  = ~Good.~
+@554  = ~Good. Now, to business.~
 @555  = ~Now, to business.~
 @556  = ~Then you should not have even let us enter! Die, rivvil!~
 @557  = ~Now they show their true faces! I second your decision not to cooperate with these people. Let us fight these criminals, we are doing the city a favour by cleaning this den of thieves!~
@@ -662,7 +662,7 @@ adventurer's delight.~
 @657  = ~*whispering* Hey, <CHARNAME>. Why did you agree to work with this guy? He seems, well, creepy.~
 @658  = ~I heard that, rogue. It is none of your concern, as the matter was settled between <CHARNAME> and myself.~
 @659  = ~Let us go.~
-@660  = ~By Helm! <CHARNAME>, can you not see that this is a fight of good against evil? I am not at your side in this! My honor tells me to defend this woman!~
+@660  = ~<CHARNAME>, I hope you don't seriously consider carrying out this false plan?~
 @661  = ~I dunno 'bout this guy. I mean his scheme isn't all that terribly bad or anything, but I get the feeling he's not tellin' us everything.~
 @662  = ~Shall we go?~
 @663  = ~Minsc says not to trust them, <CHARNAME>! Look, Boo's getting all jittery and ready for battle! This is a trap!~
@@ -683,7 +683,7 @@ adventurer's delight.~
 @678  = ~Don't think so. Only Luckyfoot I ever met was old Wendal, back in Berdusk.~
 @679  = ~Ah, my favorite third cousin! How's he doing?~
 @680  = ~Just fine. He and the missus were expecting their seventh kid, when I left town. I bet she'll be as cute as the others...~
-@681  = ~And to think the pair'd only just had their third when I last saw 'em! I really must make the journey up there sometime, I heard it's a nice enough place, for a human built town... err, looks like your friends getting rather impatient with all this family stuff. What were we talking about? Ah yes, the a trip to the tower versus halfling hospitality...~
+@681  = ~And to think the pair'd only just had their third when I last saw 'em! I really must make the journey up there sometime, I heard it's a nice enough place, for a human built town... err, looks like your friend's getting rather impatient with all this family stuff. What were we talking about? Ah yes, a trip to the tower versus halfling hospitality...~
 @682  = ~Our business is our own to mind, and ye'd better be keepin' yer nose to yerself.~
 @683  = ~Let out the filthy gnolls to let them do evil? Boo's blood boils at the thought! Minsc smells righteous butt-kicking coming! Er... and many other foul smells, too... Yes, Boo, it was very *stupid* of the bandits to lock the whole clan of gnolls in such a small cave for so long.~
 @684  = ~They are no prisoners, <CHARNAME>. Most likely they are bandits who were too unruly even for Chill!~
@@ -915,7 +915,7 @@ adventurer's delight.~
 @910  = ~Hold on! I think we should help them out, but aren't we gonna kill the guards here anyway? Why d'we need to pay him? They'll be free once all the guards here are dead, anyway. I mean, it's not like we have funds to spare, y'know.~
 @911  = ~But uhm... they can use it, poor men. *sighs* You're a kind <PRO_MANWOMAN>, that's why I like ya.~
 @912  = ~Wow!~
-@913  = ~Exactly, my friend. What say ye~
+@913  = ~Exactly, my friend. What say ye?~
 @914  = ~Perhaps we should. Though such mercy is... infrequent from me, petrification is a terrible fate.~
 @915  = ~A bargain at 500 gold!~
 @916  = ~FINALLY! I swear, if he said one more thing, I was going to kill him!~
