@@ -1,1 +1,1 @@
-BEGIN ~PLAYER1~
+BEGIN ~PLAYER1%eet_var%~

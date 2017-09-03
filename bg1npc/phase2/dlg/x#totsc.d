@@ -369,9 +369,9 @@ I_C_T ~%tutu_var%GARAN~ 0 X#QuaGar
 //I_C_T2~%tutu_var%HACK~ 0 X#QuaHack
 //== ~%QUAYLE_JOINED%~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @82 END
 
-I_C_T ~%tutu_scriptbg%KNIGHT~ 1 X#QuaKnight
+I_C_T ~%tutu_scriptbg%KNIGHT%eet_var%~ 1 X#QuaKnight
 == ~%QUAYLE_JOINED%~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @83 
-== ~%tutu_scriptbg%KNIGHT~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @1008
+== ~%tutu_scriptbg%KNIGHT%eet_var%~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @1008
 END
 
 /* Safana - no */

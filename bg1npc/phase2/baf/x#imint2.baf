@@ -279,7 +279,7 @@ THEN
 RESPONSE #100
 PlaySong(0)
 PlaySound("imoen99")
-ActionOverride(Player1,SetDialogue("Player1"))
+ActionOverride(Player1,SetDialogue("player1%eet_var%"))
 StartDialogNoSet(Player1)
 END
 

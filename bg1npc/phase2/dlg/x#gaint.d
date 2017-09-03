@@ -494,14 +494,14 @@ END
 //== ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @177
 //== ~%tutu_var%TAMOKO~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @178 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 8 X#GarTaz1
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 8 X#GarTaz1
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @179 
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @1012 
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @1012 
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 22 X#GarTaz2
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 22 X#GarTaz2
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @179 
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @1012 
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @1012 
 END
 
 I_C_T ~%tutu_var%TENYA~ 5 X#GarTen
