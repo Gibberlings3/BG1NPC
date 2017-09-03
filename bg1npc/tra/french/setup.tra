@@ -143,10 +143,8 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @5001  = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
 @5002  = ~Pour ce composant il faut avoir installe BG:EE.~
 @5003  = ~Incompatible avec BGT et BG:EE : veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT et BG:EE.~
-@5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+@5004  = ~Il faut utiliser Modmerge avant de pouvoir installer des mods sur ce jeu. Consultez le readme pour plus d'informations et un lien pour telecharger Modmerge.~
 
-// Provision for string not traified in the tp2 file : ~Please install on BG:EE, Tutu or BGT.~
-@6000  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
