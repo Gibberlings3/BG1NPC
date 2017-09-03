@@ -6,9 +6,9 @@ BEGIN X#MARETH
 /* Add into Seniyad's Dialogue the options to  start the quest  */
 ADD_STATE_TRIGGER ~%tutu_var%SENIYA~ 2 ~Global("X#JaheiraQuest","GLOBAL",0)~
 
-ADD_TRANS_TRIGGER ~%tutu_var%SENIYA~ 1 ~OR(2) !InParty("jaheira") Dead("jaheira")~
-ADD_TRANS_TRIGGER ~%tutu_var%SENIYA~ 2 ~OR(2) !InParty("jaheira") Dead("jaheira")~
-ADD_TRANS_TRIGGER ~%tutu_var%SENIYA~ 6 ~OR(2) !InParty("jaheira") Dead("jaheira")~
+//ADD_TRANS_TRIGGER ~%tutu_var%SENIYA~ 1 ~OR(2) !InParty("jaheira") Dead("jaheira")~
+//ADD_TRANS_TRIGGER ~%tutu_var%SENIYA~ 2 ~OR(2) !InParty("jaheira") Dead("jaheira")~
+//ADD_TRANS_TRIGGER ~%tutu_var%SENIYA~ 6 ~OR(2) !InParty("jaheira") Dead("jaheira")~
 
 EXTEND_BOTTOM ~%tutu_var%SENIYA~ 1
 IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) !Dead("aldeth")~ THEN DO ~SetGlobal("X#JaheiraQuest","GLOBAL",1) EndCutSceneMode()~ EXTERN ~%JAHEIRA_JOINED%~ JaheiraMakePeace
