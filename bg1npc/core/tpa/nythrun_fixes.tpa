@@ -1,0 +1,1224 @@
+  /*  Nythrun's Broken CRE Order and Effects Macros are depreciated - her Fix is now part of WeiDU, with troubleshooting/extension by Miloch */
+  /* Miloch's and older fixes combined here using PATCH_IF - less touching of the file = good thing */
+  /* As far as I can tell the fixes are from Nythrun, Dudleyville, Miloch (especially Gnome fixes), and Tutu v4 conversion hiccups, and BGT vs Tutu script assignments - cmorgan, March 26, 2011 */
+  /* Apply Nythrun's Fixes to creatures we use */
+	ACTION_FOR_EACH ~crefile~ IN ~%tutu_scripta%varicem.cre~
+                               ~%tutu_scriptb%ullrush.cre~
+                               ~%tutu_scriptbg%neb.cre~
+                               ~%tutu_scriptd%ursword.cre~
+                               ~%tutu_scriptf%twbax_a.cre~
+                               ~%tutu_scripti%ronelit.cre~
+                               ~%tutu_scriptm%oorlock.cre~
+                               ~%tutu_scripto%grema03.cre~
+                               ~%tutu_scripts%handal2.cre~
+                               ~%tutu_var%alatos.cre~
+                               ~%tutu_var%albert.cre~
+                               ~%tutu_var%alvanh.cre~
+                               ~%tutu_var%alyth.cre~
+                               ~%tutu_var%amaran.cre~
+                               ~%tutu_var%angelo.cre~
+                               ~%tutu_var%ankheg.cre~
+                               ~%tutu_var%arkush.cre~
+                               ~%tutu_var%avarice.cre~
+                               ~%tutu_var%bandit.cre~
+                               ~%tutu_var%baresh.cre~
+                               ~%tutu_var%bassil.cre~
+                               ~%tutu_var%bayard.cre~
+                               ~%tutu_var%bearbl.cre~
+                               ~%tutu_var%bearbr.cre~
+                               ~%tutu_var%bearca.cre~
+                               ~%tutu_var%bearpo.cre~
+                               ~%tutu_var%belt.cre~
+                               ~%tutu_var%bently.cre~
+                               ~%tutu_var%bjorni.cre~
+                               ~%tutu_var%brage.cre~
+                               ~%tutu_var%brielb.cre~
+                               ~%tutu_var%brilla.cre~
+                               ~%tutu_var%cadder.cre~
+                               ~%tutu_var%calaha.cre~
+                               ~%tutu_var%chase.cre~
+                               ~%tutu_var%claird.cre~
+                               ~%tutu_var%coksmth.cre~
+                               ~%tutu_var%daitel.cre~
+                               ~%tutu_var%dalton.cre~
+                               ~%tutu_var%davaeo.cre~
+                               ~%tutu_var%deathk.cre~
+                               ~%tutu_var%delain.cre~
+                               ~%tutu_var%delsvir.cre~
+                               ~%tutu_var%deltan.cre~
+                               ~%tutu_var%dopdur1.cre~
+                               ~%tutu_var%drienn.cre~
+                               ~%tutu_var%drizzt.cre~
+                               ~%tutu_var%dryad.cre~
+                               ~%tutu_var%durlagt.cre~
+                               ~%tutu_var%durlyl.cre~
+                               ~%tutu_var%dushai.cre~
+                               ~%tutu_var%elmin2.cre~
+                               ~%tutu_var%elmin5.cre~
+                               ~%tutu_var%ender.cre~
+                               ~%tutu_var%entill.cre~
+                               ~%tutu_var%erdane.cre~
+                               ~%tutu_var%faldor.cre~
+                               ~%tutu_var%farmbr.cre~
+                               ~%tutu_var%fear.cre~
+                               ~%tutu_var%fearm.cre~
+                               ~%tutu_var%fenrus.cre~
+                               ~%tutu_var%fireb1.cre~
+                               ~%tutu_var%flame.cre~
+                               ~%tutu_var%galken.cre~
+                               ~%tutu_var%galtok.cre~
+                               ~%tutu_var%gatewa.cre~
+                               ~%tutu_var%gellan.cre~
+                               ~%tutu_var%gerde.cre~
+                               ~%tutu_var%girba2.cre~
+                               ~%tutu_var%gnoll.cre~
+                               ~%tutu_var%gorion.cre~
+                               ~%tutu_var%grael.cre~
+                               ~%tutu_var%greywo.cre~
+                               ~%tutu_var%hack.cre~
+                               ~%tutu_var%hafiz.cre~
+                               ~%tutu_var%halaca.cre~
+                               ~%tutu_var%halbaz.cre~
+                               ~%tutu_var%hurgan.cre~
+                               ~%tutu_var%ike.cre~
+                               ~%tutu_var%iron11.cre~
+                               ~%tutu_var%isla.cre~
+                               ~%tutu_var%jessup.cre~
+                               ~%tutu_var%joia.cre~
+                               ~%tutu_var%kaisha.cre~
+                               ~%tutu_var%karoug.cre~
+                               ~%tutu_var%keeper.cre~
+                               ~%tutu_var%keldda.cre~
+                               ~%tutu_var%kirinh.cre~
+                               ~%tutu_var%korax.cre~
+                               ~%tutu_var%krumm.cre~
+                               ~%tutu_var%landri.cre~
+                               ~%tutu_var%larze.cre~
+                               ~%tutu_var%liia.cre~
+                               ~%tutu_var%love.cre~
+                               ~%tutu_var%lovem.cre~
+                               ~%tutu_var%madarc.cre~
+                               ~%tutu_var%marl.cre~
+                               ~%tutu_var%meiala.cre~
+                               ~%tutu_var%mendas.cre~
+                               ~%tutu_var%mulahe.cre~
+                               ~%tutu_var%mutami.cre~
+                               ~%tutu_var%narlen.cre~
+                               ~%tutu_var%niemai.cre~
+                               ~%tutu_var%nobw2.cre~
+                               ~%tutu_var%perdue.cre~
+                               ~%tutu_var%petrin.cre~
+                               ~%tutu_var%pheirk.cre~
+                               ~%tutu_var%phlydi3.cre~
+                               ~%tutu_var%poe.cre~
+                               ~%tutu_var%pride.cre~
+                               ~%tutu_var%pridem.cre~
+                               ~%tutu_var%prost5.cre~
+                               ~%tutu_var%pumberl.cre~
+                               ~%tutu_var%rielta.cre~
+                               ~%tutu_var%riggilo.cre~
+                               ~%tutu_var%sarev1.cre~
+                               ~%tutu_var%sarevo.cre~
+                               ~%tutu_var%sarhed.cre~
+                               ~%tutu_var%scar.cre~
+                               ~%tutu_var%seniya.cre~
+                               ~%tutu_var%serva2.cre~
+                               ~%tutu_var%shoal.cre~
+                               ~%tutu_var%silke.cre~
+                               ~%tutu_var%skie.cre~
+                               ~%tutu_var%slave.cre~
+                               ~%tutu_var%taerom.cre~
+                               ~%tutu_var%takiyah.cre~
+                               ~%tutu_var%tamoko.cre~
+                               ~%tutu_var%tarnes.cre~
+                               ~%tutu_var%tarnor.cre~
+                               ~%tutu_scriptbg%tazok.cre~
+                               ~%tutu_var%tazok2.cre~
+                               ~%tutu_var%tellan.cre~
+                               ~%tutu_var%tenya.cre~
+                               ~%tutu_var%thalan.cre~
+                               ~%tutu_var%therel.cre~
+                               ~%tutu_var%ulraun.cre~
+                               ~%tutu_var%unshey.cre~
+                               ~%tutu_var%vai.cre~
+                               ~%tutu_var%vail.cre~
+                               ~%tutu_var%volo.cre~
+                               ~%tutu_var%winski.cre~
+                               ~%tutu_var%winski2.cre~
+                               ~%tutu_var%winthr2.cre~
+                               ~%tutu_var%yago.cre~
+                               ~%tutu_var%zombie.cre~
+                               ~%tutu_var%zombiew.cre~
+                               ~%tutu_var%ajanti.cre~
+                               ~%tutu_var%ajanti4.cre~
+                               ~%tutu_var%ajanti6.cre~
+                               ~%tutu_var%alora.cre~
+                               ~%tutu_var%alora6.cre~
+                               ~%tutu_var%branwe.cre~
+                               ~%tutu_var%branwe5.cre~
+                               ~%tutu_var%coran.cre~
+                               ~%tutu_var%coran5.cre~
+                               ~%tutu_var%dynahe.cre~
+                               ~%tutu_var%dynahe2.cre~
+                               ~%tutu_var%dynahe4.cre~
+                               ~%tutu_var%dynahe6.cre~
+                               ~%tutu_var%edwin.cre~
+                               ~%tutu_var%edwin2.cre~
+                               ~%tutu_var%edwin4.cre~
+                               ~%tutu_var%edwin6.cre~
+                               ~%tutu_var%faldor.cre~
+                               ~%tutu_var%faldor5.cre~
+                               ~%tutu_var%garric.cre~
+                               ~%tutu_var%garric2.cre~
+                               ~%tutu_var%garric4.cre~
+                               ~%tutu_var%garric6.cre~
+                               ~%tutu_var%imoen1.cre~
+                               ~%tutu_var%imoen2.cre~
+                               ~%tutu_var%imoen4.cre~
+                               ~%tutu_var%imoen6.cre~
+                               ~%tutu_var%jaheir.cre~
+                               ~%tutu_var%jaheir2.cre~
+                               ~%tutu_var%jaheir4.cre~
+                               ~%tutu_var%jaheir6.cre~
+                               ~%tutu_var%kagain.cre~
+                               ~%tutu_var%kagain2.cre~
+                               ~%tutu_var%kagain4.cre~
+                               ~%tutu_var%kagain6.cre~
+                               ~%tutu_var%khalid.cre~
+                               ~%tutu_var%khalid2.cre~
+                               ~%tutu_var%khalid4.cre~
+                               ~%tutu_var%khalid6.cre~
+                               ~%tutu_var%kivan.cre~
+                               ~%tutu_var%kivan4.cre~
+                               ~%tutu_var%kivan6.cre~
+                               ~%tutu_var%minsc.cre~
+                               ~%tutu_var%minsc2.cre~
+                               ~%tutu_var%minsc4.cre~
+                               ~%tutu_var%minsc6.cre~
+                               ~%tutu_var%montar.cre~
+                               ~%tutu_var%montar2.cre~
+                               ~%tutu_var%montar4.cre~
+                               ~%tutu_var%montar6.cre~
+                               ~%tutu_scriptbg%quayle.cre~
+                               ~%tutu_var%quayle4.cre~
+                               ~%tutu_var%quayle6.cre~
+                               ~%tutu_var%safana.cre~
+                               ~%tutu_var%safana4.cre~
+                               ~%tutu_var%safana6.cre~
+                               ~%tutu_var%sharte.cre~
+                               ~%tutu_var%sharte4.cre~
+                               ~%tutu_var%sharte6.cre~
+                               ~%tutu_var%skie.cre~
+                               ~%tutu_var%skie6.cre~
+                               ~%tutu_var%tiax.cre~
+                               ~%tutu_var%tiax4.cre~
+                               ~%tutu_var%tiax6.cre~
+                               ~%tutu_var%viconi.cre~
+                               ~%tutu_var%viconi4.cre~
+                               ~%tutu_var%viconi6.cre~
+                               ~%tutu_scriptbg%xan.cre~
+                               ~%tutu_var%xan4.cre~
+                               ~%tutu_var%xan6.cre~
+                               ~%tutu_var%xzar.cre~
+                               ~%tutu_var%xzar2.cre~
+                               ~%tutu_var%xzar4.cre~
+                               ~%tutu_var%xzar6.cre~
+                               ~%tutu_var%yeslic.cre~
+                               ~%tutu_var%yeslic5.cre~
+                               ~idemon02.cre~
+                               ~imp01.cre~
+                               ~mepsmo01.cre~ 
+	BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~%crefile%~ THEN BEGIN
+			COPY_EXISTING ~%crefile%~ ~override~
+				LAUNCH_PATCH_FUNCTION FJ_CRE_VALIDITY
+					INT_VAR do_message = 1
+				END
+				/* do all the stuff we do to .cres in one tower of P_I */
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti.cre~) BEGIN
+					WRITE_BYTE 0x54 12 // Save vs. Death
+					WRITE_BYTE 0x55 14 // Save vs. Wand
+					WRITE_BYTE 0x56 13 // Save vs. Polymorph
+					WRITE_BYTE 0x57 15 // Save vs. Breath
+					WRITE_BYTE 0x58 15 // Save vs. Spells
+				END	
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti4.cre~) BEGIN
+					WRITE_BYTE 0x54 11 // Save vs. Death
+					WRITE_BYTE 0x55 13 // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 14 // Save vs. Breath
+					WRITE_BYTE 0x58 14 // Save vs. Spells
+				END	
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti6.cre~) BEGIN
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 11 // Save vs. Wand
+					WRITE_BYTE 0x56 10 // Save vs. Polymorph
+					WRITE_BYTE 0x57 11 // Save vs. Breath
+					WRITE_BYTE 0x58 12 // Save vs. Spells
+				END		
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%alora.cre~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_var%ALORA~ #8 //  override script
+					WRITE_ASCIIE 0x2CC ~%tutu_var%ALORA~ #8 //  dialog
+					WRITE_BYTE 0x54 10 // Save vs. Death
+					WRITE_BYTE 0x55 11 // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 12 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%alora6.cre~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_var%ALORA~ #8 //  override script
+					WRITE_ASCIIE 0x2CC ~%tutu_var%ALORA~ #8 //  dialog
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 9  // Save vs. Wand
+					WRITE_BYTE 0x56 11 // Save vs. Polymorph
+					WRITE_BYTE 0x57 15 // Save vs. Breath
+					WRITE_BYTE 0x58 10 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%bently.cre~) BEGIN /* Bentley Mirrorshade (in FAI L1) */
+					WRITE_SHORT 0x24 50 // Current HP (was 41)
+					WRITE_SHORT 0x26 50 // Max HP (was 41)
+					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
+					WRITE_BYTE 0x52 15 // THAC0 (was 16)
+					WRITE_BYTE 0x55 7 // Save vs. wands (was 9)
+					WRITE_BYTE 0x58 8 // Save vs. spells (was 10)
+					WRITE_BYTE 0x6f 1 // Small swords (was 3)
+					WRITE_BYTE 0x235 11 // Level 2 (was 10)
+					WRITE_BYTE 0x236 1 // Level 3 (was 6)
+					WRITE_BYTE 0x23a 17 // Intelligence (was 16)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_ASCII 0x250 ~x#mag10b~ #8 // Class script
+					REMOVE_MEMORIZED_SPELL ~spwi211~ ~spwi303~ ~spwi401~
+					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ (4) // Magic Missile
+					ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ // Chromatic Orb
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (4) // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi212~ #1 ~wizard~ // Mirror Image
+					ADD_MEMORIZED_SPELL ~spwi302~ #2 ~wizard~ // Dispel Magic
+					ADD_MEMORIZED_SPELL ~spwi303~ #2 ~wizard~ // Flame Arrow
+					ADD_MEMORIZED_SPELL ~spwi306~ #2 ~wizard~ // Hold Person
+					ADD_MEMORIZED_SPELL ~spwi311~ #2 ~wizard~ // Protection From Normal Missiles
+					ADD_MEMORIZED_SPELL ~spwi401~ #3 ~wizard~ // Confusion
+					ADD_MEMORIZED_SPELL ~spwi407~ #3 ~wizard~ // Monster Summoning 2
+					ADD_MEMORIZED_SPELL ~spwi423~ #3 ~wizard~ // Spider Spawn
+					ADD_MEMORIZED_SPELL ~spwi506~ #4 ~wizard~ // Domination
+					ADD_MEMORIZED_SPELL ~spwi521~ #4 ~wizard~ // Conjure Lesser Earth Elemental
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~_branwe.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
+				END	 
+				PATCH_IF (~%crefile%~ STR_EQ ~_branwe5.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
+					WRITE_BYTE 0x66 5 // Lore
+				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
+      					WRITE_BYTE 0x66 5 // Lore
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
+      					WRITE_BYTE 0x66 5 // Lore
+      				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%coran.cre~) BEGIN
+					WRITE_BYTE 0x24 24 // Current Hit Points
+					WRITE_BYTE 0x26 24 // Maximum Hit Points
+					WRITE_BYTE 0x66 9  // Lore
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%coran5.cre~) BEGIN
+					WRITE_BYTE 0x66 15 // Lore
+					WRITE_BYTE 0x52 16 // THAC0
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%delsvir.cre~) BEGIN /* Delsvirtanyon (in Ulgoth's Beard) */
+					WRITE_LONG 0x14 976 // XP Value (was 801)
+					WRITE_SHORT 0x28 0x6304 // Animation (thief_male_gnome, was 0x5302 dwarf_low)
+					WRITE_BYTE 0x52 17 // THAC0 (was 16)
+					WRITE_BYTE 0x54 12 // Save vs. death (was 11)
+					WRITE_BYTE 0x55 7 // Save vs. wands (was 9)
+					WRITE_BYTE 0x56 11 // Save vs. polymorph (was 10)
+					WRITE_BYTE 0x58 8 // Save vs. spells (was 10)
+					WRITE_BYTE 0x6f 1 // Small swords (was 3)
+					WRITE_BYTE 0x235 7 // Level 2 (was 1)
+					WRITE_BYTE 0x236 1 // Level 3 (was 6)
+					WRITE_BYTE 0x237 1 // Sex (male, was 158)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%mage6~ #8 // Race script
+					WRITE_BYTE 0x275 1 // Gender (male, was 158)
+					REMOVE_MEMORIZED_SPELL ~spwi211~ ~spwi303~ ~spwi401~ ~spwi505~
+					REMOVE_KNOWN_SPELL ~spwi505~ // Shadow Door
+					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ (4) // Magic Missile
+					ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ // Chromatic Orb
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (3) // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi217~ #1 ~wizard~ // Agannazar's Scorcher
+					ADD_MEMORIZED_SPELL ~spwi303~ #2 ~wizard~ (2) // Flame Arrow
+					ADD_MEMORIZED_SPELL ~spwi304~ #2 ~wizard~ // Fireball
+					ADD_MEMORIZED_SPELL ~spwi401~ #2 ~wizard~ (2) // Confusion
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%dushai.cre~) BEGIN // Dushai (in Ulgoth's Beard)
+					WRITE_LONG 0x14 2001 // XP Value (was 11)
+					WRITE_SHORT 0x24 55 // Current HP (was 25)
+					WRITE_SHORT 0x26 55 // Max HP (was 25)
+					WRITE_SHORT 0x28 0x6014 // Animation (cleric_female_gnome, was 0x6013 halfling)
+					WRITE_BYTE 0x52 16 // THAC0 (was 5)
+					WRITE_BYTE 0x54 7 // Save vs. death (was 5)
+					WRITE_BYTE 0x55 6 // Save vs. wands (was 5)
+					WRITE_BYTE 0x56 10 // Save vs. polymorph (was 5)
+					WRITE_BYTE 0x57 13 // Save vs. breath (was 5)
+					WRITE_BYTE 0x58 7 // Save vs. spells (was 5)
+					WRITE_BYTE 0x59 100 // Resist fire
+					WRITE_BYTE 0x5e 80 // Resist magic fire
+					WRITE_BYTE 0x72 1 // Blunt weapons
+					WRITE_BYTE 0x75 1 // Missile weapons
+					WRITE_BYTE 0x234 9 // Level 1 (was 10)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 12)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist, was 0x40000000 trueclass)
+					WRITE_ASCII 0x258 ~x#mag10c~ #8 // Race script
+					WRITE_ASCII 0x260 ~x#prs10b~ #8 // General script
+					WRITE_BYTE 0x273 0x9b // Class (innocent, was 0xe cleric_mage)
+					ADD_CRE_ITEM ~clck19~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~ // Robe of the Good Archmagi (Undroppable)
+					ADD_CRE_ITEM ~%tutu_var%blun04~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ // Mace
+					REMOVE_MEMORIZED_SPELL ~spwi215~ // Web
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (6) // Command
+					ADD_MEMORIZED_SPELL ~sppr208~ #1 ~priest~ (4) // Hold Person
+					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ (2) // Silence 15' Radius
+					ADD_MEMORIZED_SPELL ~sppr306~ #2 ~priest~ // Protection From Fire
+					ADD_MEMORIZED_SPELL ~sppr312~ #2 ~priest~ // Strength of One
+					ADD_MEMORIZED_SPELL ~sppr313~ #2 ~priest~ // Holy Smite
+					ADD_MEMORIZED_SPELL ~sppr315~ #2 ~priest~ // Cure Medium Wounds
+					ADD_MEMORIZED_SPELL ~sppr401~ #3 ~priest~ (2) // Cure Serious Wounds
+					ADD_MEMORIZED_SPELL ~sppr406~ #3 ~priest~ // Defensive Harmony
+					ADD_MEMORIZED_SPELL ~sppr503~ #4 ~priest~ // Flame Strike
+					ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ (6) // Chromatic Orb
+					ADD_MEMORIZED_SPELL ~spwi212~ #1 ~wizard~ // Mirror Image
+					ADD_MEMORIZED_SPELL ~spwi215~ #1 ~wizard~ (2) // Web
+					ADD_MEMORIZED_SPELL ~spwi219~ #1 ~wizard~ // Vocalize
+					ADD_MEMORIZED_SPELL ~spwi306~ #2 ~wizard~ (2) // Hold Person
+					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) // Lightning Bolt
+					ADD_MEMORIZED_SPELL ~spwi408~ #3 ~wizard~ // Stoneskin
+					ADD_MEMORIZED_SPELL ~spwi418~ #3 ~wizard~ // Fire Shield (Red)
+					ADD_MEMORIZED_SPELL ~spwi421~ #3 ~wizard~ // Teleport Field
+					ADD_MEMORIZED_SPELL ~spwi508~ #4 ~wizard~ (3) // Chaos
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~_faldor.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
+				END	 
+      				PATCH_IF (~%crefile%~ STR_EQ ~_faldor5.cre~) BEGIN
+      					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
+      				END	 
+      				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
+      				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%galtok.cre~) BEGIN // Galtok (in Nashkel Mines)
+				  WRITE_LONG 0x14 176 // XP Value (was 151)
+					WRITE_SHORT 0x24 25 // Current HP (was 2)
+					WRITE_BYTE 0x273 0x9b // Class (innocent, was fighter/mage)
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~scrl70~ ~scrl12~ // Scroll of Foolishness
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~scrl07~ ~scrl11~ // Scroll of Clumsiness
+					WRITE_SHORT 0x26 35 // Max HP
+					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
+					WRITE_BYTE 0x55 5 // Save vs. wands (was 13)
+					WRITE_BYTE 0x56 11 // Save vs. polymorph (was 12)
+					WRITE_BYTE 0x58 6 // Save vs. spells (was 14)
+					WRITE_BYTE 0x234 6 // Level 1 (was 4)
+					WRITE_BYTE 0x235 6 // Level 2 (was 4)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%mage3~ #8 // Race script
+					WRITE_EVALUATED_ASCII 0x260 ~%tutu_var%mage2~ #8 // General script (was %tutu_scriptw%tasight)
+					WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~chan01~ ~dagg05~ // Throwing Dagger
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~chan04~ ~shld13~ // Medium Shield
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~scrl81~ ~scrl14~ // Cursed Scroll of Summon Monster
+					READ_LONG 0x2b8 ix // Item slots offset
+					READ_LONG 0x2bc iy // Item offset
+					READ_LONG 0x2c0 iz // Item count
+					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
+						READ_ASCII (iy + (0x14 * i1)) ~itm~
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%helm01~) BEGIN
+						  READ_SHORT ix hs // Helmet slot
+						  PATCH_IF (hs = 0xffff) BEGIN // If slot open
+							WRITE_SHORT ix i1 // Assign helmet
+						  END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%shld13~) BEGIN
+						  READ_SHORT (ix + 0x4) ss // Shield slot
+						  PATCH_IF (ss = 0xffff) BEGIN // If slot open
+							WRITE_SHORT (ix + 0x4) i1 // Assign shield
+						  END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dagg05~) BEGIN
+						  WRITE_SHORT (iy + (0x14 * i1) + 0xa) 20 // Charges 1
+						  READ_SHORT (ix + 0x14) w2 // Weapon2 slot
+						  PATCH_IF (w2 = 0xffff) BEGIN // If slot open
+							WRITE_SHORT (ix + 0x14) i1 // Assign dagger to weapon2
+						  END
+						END ELSE
+						PATCH_IF ((~%itm%~ STR_EQ ~%tutu_var%scrl14~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl12~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl11~)) BEGIN
+							FOR (i2 = 18; i2 < 36; i2 += 1) BEGIN // Find first open slot
+								READ_SHORT (ix + (i2 * 0x2)) sr
+								PATCH_IF (sr = 0xffff) BEGIN // If open
+									WRITE_SHORT (ix + (i2 * 0x2)) i1 // Assign scroll to slot
+									i2 = 36 // Kills loop
+								END
+							END
+						END
+					END
+					REMOVE_MEMORIZED_SPELL ~spwi205~ ~spwi212~ // Horror & Mirror Image
+					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi212~
+					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ // Lightning Bolt
+				END				
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
+				END	 
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric2.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
+				END	 
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric4.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
+				END	 
+				PATCH_IF (~%crefile%~ STR_EQ ~_garric6.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
+				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%gellan.cre~) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
+					WRITE_SHORT 0x24 65 // Current HP (was 55)
+					WRITE_SHORT 0x26 65 // Max HP (was 55)
+					WRITE_SHORT 0x28 0x6014 // Animation (cleric_female_gnome, was 0x6012 dwarf)
+					WRITE_BYTE 0x2c 115 // Metal color (sunkissed, was 27 gray)
+					WRITE_BYTE 0x2d 35 // Minor color (light:yellow/dark:purple, was 61 lavender)
+					WRITE_BYTE 0x2e 50 // Major color (dark yellow, was 46 red)
+					WRITE_BYTE 0x30 80 // Leather color (saturated bronze, was 21 dark iron gray)
+					WRITE_BYTE 0x31 67 // Armor color (shiny gold, was 24 dark gold)
+					WRITE_BYTE 0x54 6 // Save vs. death (was 7)
+					WRITE_BYTE 0x55 6 // Save vs. wands (was 11)
+					WRITE_BYTE 0x56 9 // Save vs. polymorph (was 10)
+					WRITE_BYTE 0x57 12 // Save vs. breath (was 13)
+					WRITE_BYTE 0x58 7 // Save vs. spells (was 12)
+					WRITE_BYTE 0x72 1 // Blunt weapons (was 3)
+					WRITE_BYTE 0x75 1 // Missile weapons
+					WRITE_BYTE 0x234 10 // Level 1 (was 9)
+					WRITE_BYTE 0x235 1 // Level 2 (was 3)
+					WRITE_BYTE 0x236 1 // Level 3 (was 6)
+					WRITE_BYTE 0x23b 18 // Wisdom (was 16)
+					REMOVE_MEMORIZED_SPELL ~sppr105~ ~sppr301~ ~sppr304~
+					REMOVE_KNOWN_SPELL ~sppr105~ ~sppr301~ // Entangle & Animate Dead
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (4) // Command
+					ADD_MEMORIZED_SPELL ~sppr103~ #0 ~priest~ (2) // Cure Light Wounds
+					ADD_MEMORIZED_SPELL ~sppr107~ #0 ~priest~ // Protection From Evil
+					ADD_MEMORIZED_SPELL ~sppr208~ #1 ~priest~ (2) // Hold Person
+					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ // Silence 15' Radius
+					ADD_MEMORIZED_SPELL ~sppr303~ #2 ~priest~ // Dispel Magic
+					ADD_MEMORIZED_SPELL ~sppr304~ #2 ~priest~ // Glyph of Warding
+					ADD_MEMORIZED_SPELL ~sppr306~ #2 ~priest~ // Protection From Fire
+					ADD_MEMORIZED_SPELL ~sppr309~ #2 ~priest~ // Invisibility Purge
+					ADD_MEMORIZED_SPELL ~sppr401~ #3 ~priest~ (2) // Cure Serious Wounds
+					ADD_MEMORIZED_SPELL ~sppr502~ #4 ~priest~ // Cure Critical Wounds
+					ADD_MEMORIZED_SPELL ~sppr503~ #4 ~priest~ // Flame Strike
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%hafiz.cre~) BEGIN // Hafiz (in Gibberling Mountains)
+				    WRITE_LONG 0x14 176 // XP Value (was 151)
+					WRITE_SHORT 0x24 35 // Current HP (was 29)
+					WRITE_SHORT 0x26 35 // Max HP
+					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
+					WRITE_BYTE 0x55 5 // Save vs. wands (was 13)
+					WRITE_BYTE 0x56 11 // Save vs. polymorph (was 12)
+					WRITE_BYTE 0x58 6 // Save vs. spells (was 14)
+					WRITE_BYTE 0x234 6 // Level 1 (was 4)
+					WRITE_BYTE 0x235 6 // Level 2 (was 4)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%mage3~ #8 // Race script
+					WRITE_EVALUATED_ASCII 0x260 ~%tutu_var%mage2~ #8 // General script (was %tutu_scriptw%tasight)
+					WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~chan01~ ~dagg05~ // Throwing Dagger
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~chan04~ ~shld13~ // Medium Shield
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~scrl81~ ~scrl14~ // Cursed Scroll of Summon Monster
+					READ_LONG 0x2b8 ix // Item slots offset
+					READ_LONG 0x2bc iy // Item offset
+					READ_LONG 0x2c0 iz // Item count
+					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
+						READ_ASCII (iy + (0x14 * i1)) ~itm~
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%helm01~) BEGIN
+						  READ_SHORT ix hs // Helmet slot
+						  PATCH_IF (hs = 0xffff) BEGIN // If slot open
+						    WRITE_SHORT ix i1 // Assign helmet
+						  END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%shld13~) BEGIN
+						  READ_SHORT (ix + 0x4) ss // Shield slot
+						  PATCH_IF (ss = 0xffff) BEGIN // If slot open
+							WRITE_SHORT (ix + 0x4) i1 // Assign shield
+						  END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dagg05~) BEGIN
+						  WRITE_SHORT (iy + (0x14 * i1) + 0xa) 20 // Charges 1
+						  READ_SHORT (ix + 0x14) w2 // Weapon2 slot
+						  PATCH_IF (w2 = 0xffff) BEGIN // If slot open
+						    WRITE_SHORT (ix + 0x14) i1 // Assign dagger to weapon2
+						  END
+						END ELSE
+						PATCH_IF ((~%itm%~ STR_EQ ~%tutu_var%scrl14~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl12~) OR (~%itm%~ STR_EQ ~%tutu_var%scrl11~ )) BEGIN
+							FOR (i2 = 18; i2 < 36; i2 += 1) BEGIN // Find first open slot
+								READ_SHORT (ix + (i2 * 0x2)) sr
+								PATCH_IF (sr = 0xffff) BEGIN // If open
+									WRITE_SHORT (ix + (i2 * 0x2)) i1 // Assign scroll to slot
+									i2 = 36 // Kills loop
+								END
+							END
+						END
+					END
+					REMOVE_MEMORIZED_SPELL ~spwi205~ ~spwi212~ // Horror & Mirror Image
+					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi212~
+					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ // Lightning Bolt
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%halaca.cre~) BEGIN // Halacan (in Gullykin)
+					WRITE_LONG 0x14 176 // XP Value (was 651)
+					WRITE_SHORT 0x28 0x6104 // Animation (fighter_male_gnome, was 0x5102 dwarf_low)
+					WRITE_BYTE 0x55 5 // Save vs. wands (was 13)
+					WRITE_BYTE 0x56 11 // Save vs. polymorph (was 12)
+					WRITE_BYTE 0x58 6 // Save vs. spells (was 14)
+					WRITE_BYTE 0x6f 1 // Small swords
+					WRITE_BYTE 0x234 6 // Level 1 (was 4)
+					WRITE_BYTE 0x235 6 // Level 2 (was 4)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 13)
+					WRITE_EVALUATED_ASCII 0x250 ~%tutu_var%mage3~ #8 // Class script (was ~%tutu_var%mage2~)
+					REMOVE_MEMORIZED_SPELL ~spwi205~ ~spwi212~ // Horror & Mirror Image
+					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi212~
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi213~ #1 ~wizard~ // Stinking Cloud
+					ADD_MEMORIZED_SPELL ~spwi217~ #1 ~wizard~ // Agannazar's Scorcher
+					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) // Lightning Bolt
+					ADD_MEMORIZED_SPELL ~spwi317~ #2 ~wizard~ // Ghost Armor
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen1.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen2.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen4.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~_imoen6.cre~) BEGIN
+					WRITE_ASCII 0x248 ~_IMOEN2~ #8 //  override script
+				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen61.cre~) AND (GAME_IS ~bgt~) BEGIN
+      					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+      				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_imoen6%.cre~) AND (GAME_IS ~bgee eet~) BEGIN
+      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir.cre~) BEGIN
+					WRITE_BYTE 0x66 1 // Lore
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir2.cre~) BEGIN
+					WRITE_BYTE 0x66 2  // Lore
+					WRITE_BYTE 0x24 11 // Current Hit Points
+					WRITE_BYTE 0x26 11 // Maximum Hit Points
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir4.cre~) BEGIN
+					WRITE_BYTE 0x66 4 // Lore
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir6.cre~) BEGIN
+					WRITE_BYTE 0x66 6  // Lore
+					WRITE_BYTE 0x52 16 // THAC0
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain.cre~) BEGIN
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 11 // Save vs. Wand
+					WRITE_BYTE 0x56 15 // Save vs. Polymorph
+					WRITE_BYTE 0x57 17 // Save vs. Breath
+					WRITE_BYTE 0x58 12 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain2.cre~) BEGIN
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 11 // Save vs. Wand
+					WRITE_BYTE 0x56 15 // Save vs. Polymorph
+					WRITE_BYTE 0x57 17 // Save vs. Breath
+					WRITE_BYTE 0x58 12 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain4.cre~) BEGIN
+					WRITE_BYTE 0x54 8  // Save vs. Death
+					WRITE_BYTE 0x55 10 // Save vs. Wand
+					WRITE_BYTE 0x56 14 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 11 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%kagain6.cre~) BEGIN
+					WRITE_BYTE 0x54 6  // Save vs. Death
+					WRITE_BYTE 0x55 8  // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 13 // Save vs. Breath
+					WRITE_BYTE 0x58 9  // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid.cre~) BEGIN
+					WRITE_BYTE 0x23a 15 // intelligence
+					WRITE_BYTE 0x66 1  // Lore
+					WRITE_BYTE 0x54 14 // Save vs. Death
+					WRITE_BYTE 0x55 16 // Save vs. Wand
+					WRITE_BYTE 0x56 15 // Save vs. Polymorph
+					WRITE_BYTE 0x57 17 // Save vs. Breath
+					WRITE_BYTE 0x58 17 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid2.cre~) BEGIN
+					WRITE_BYTE 0x23a 15 // intelligence
+					WRITE_BYTE 0x66 2  // Lore
+					WRITE_BYTE 0x54 14 // Save vs. Death
+					WRITE_BYTE 0x55 16 // Save vs. Wand
+					WRITE_BYTE 0x56 15 // Save vs. Polymorph
+					WRITE_BYTE 0x57 17 // Save vs. Breath
+					WRITE_BYTE 0x58 17 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid4.cre~) BEGIN
+					WRITE_BYTE 0x23a 15 // intelligence
+					WRITE_BYTE 0x66 4  // Lore
+					WRITE_BYTE 0x54 13 // Save vs. Death
+					WRITE_BYTE 0x55 15 // Save vs. Wand
+					WRITE_BYTE 0x56 14 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 16 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid6.cre~) BEGIN
+					WRITE_BYTE 0x23a 15 // intelligence				
+					WRITE_BYTE 0x66 6  // Lore
+					WRITE_BYTE 0x54 11 // Save vs. Death
+					WRITE_BYTE 0x55 13 // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 13 // Save vs. Breath
+					WRITE_BYTE 0x58 14 // Save vs. Spells
+				END					
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%landri.cre~) BEGIN // Landrin (in FAI L3)
+					WRITE_SHORT 0x28 0x6314 // Animation (thief_female_gnome, was 0x6212 mage_female_dwarf)
+					WRITE_BYTE 0x55 9 // Save vs. wands (was 11)
+					WRITE_BYTE 0x58 10 // Save vs. spells (was 12)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 11)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%mage3~ #8 // Race script (was ~%tutu_var%mage1~)
+					REMOVE_MEMORIZED_SPELL ~spwi102~ ~spwi105~ // Armor & Color Spray
+					REMOVE_KNOWN_SPELL ~spwi102~ ~spwi105~
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi213~ #1 ~wizard~ // Stinking Cloud
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%madarc.cre~) BEGIN // Mad Arcand (in Shipwreck's Coast)
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x55 4 // Save vs. wands (was 7)
+					WRITE_BYTE 0x58 5 // Save vs. spells (was 8)
+					WRITE_BYTE 0x72 1 // Blunt weapons (was 3)
+					WRITE_BYTE 0x75 1 // Missile weapons
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 11)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_EVALUATED_ASCII 0x250 ~%tutu_var%mage7~ #8 // Class script (was ~%tutu_var%priest5~)
+					WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%priest4~ #8 // Race script
+					ADD_CRE_ITEM ~%tutu_var%mage05~ #0 #0 #0 ~NONE~ ~LRING RRING~ // Free Action
+					REMOVE_MEMORIZED_SPELL ~sppr214~ ~sppr301~ // Draw Upon Holy Might & Animate Dead
+					REMOVE_KNOWN_SPELL ~sppr214~
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (3) // Command
+					ADD_MEMORIZED_SPELL ~sppr103~ #0 ~priest~ (3) // Cure Light Wounds
+					ADD_MEMORIZED_SPELL ~sppr107~ #0 ~priest~ // Protection From Evil
+					ADD_MEMORIZED_SPELL ~sppr208~ #1 ~priest~ // Hold Person
+					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ // Silence 15' Radius
+					ADD_MEMORIZED_SPELL ~sppr301~ #2 ~priest~ // Animate Dead
+					ADD_MEMORIZED_SPELL ~sppr303~ #2 ~priest~ // Dispel Magic
+					ADD_MEMORIZED_SPELL ~sppr304~ #2 ~priest~ // Glyph of Warding
+					ADD_MEMORIZED_SPELL ~sppr306~ #2 ~priest~ // Protection From Fire
+					ADD_MEMORIZED_SPELL ~sppr309~ #2 ~priest~ // Invisibility Purge
+					ADD_MEMORIZED_SPELL ~sppr401~ #3 ~priest~ (2) // Cure Serious Wounds
+					ADD_MEMORIZED_SPELL ~sppr402~ #3 ~priest~ (2) // Animal Summoning 1
+					ADD_MEMORIZED_SPELL ~sppr502~ #4 ~priest~ // Cure Critical Wounds
+					ADD_MEMORIZED_SPELL ~sppr503~ #4 ~priest~ // Flame Strike
+					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ (5) // Magic Missile
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (4) // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi212~ #1 ~wizard~ // Mirror Image
+					ADD_MEMORIZED_SPELL ~spwi302~ #2 ~wizard~ (2) // Dispel Magic
+					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (3) // Lightning Bolt
+					ADD_MEMORIZED_SPELL ~spwi401~ #3 ~wizard~ (3) // Confusion
+					ADD_MEMORIZED_SPELL ~spwi406~ #3 ~wizard~ // Minor Globe of Invulnerability
+					ADD_MEMORIZED_SPELL ~spwi502~ #4 ~wizard~ (4) // Cloudkill
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%minsc6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_LONG 0x18 36293 // Current XP
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar.cre~) BEGIN
+					WRITE_BYTE 0x66 3  // Lore
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 10 // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 11 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar2.cre~) BEGIN
+					WRITE_BYTE 0x24 11 // Current Hit Points
+					WRITE_BYTE 0x26 11 // Maximum Hit Points
+					WRITE_BYTE 0x66 6  // Lore
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 10 // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 11 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar4.cre~) BEGIN
+					WRITE_BYTE 0x24 27 // Current Hit Points
+					WRITE_BYTE 0x26 27 // Maximum Hit Points
+					WRITE_BYTE 0x66 12 // Lore
+					WRITE_BYTE 0x54 9  // Save vs. Death
+					WRITE_BYTE 0x55 10 // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 11 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%montar6.cre~) BEGIN
+					WRITE_BYTE 0x24 43 // Current Hit Points
+					WRITE_BYTE 0x26 43 // Maximum Hit Points
+					WRITE_BYTE 0x66 18 // Lore
+					WRITE_BYTE 0x54 7  // Save vs. Death
+					WRITE_BYTE 0x55 8  // Save vs. Wand
+					WRITE_BYTE 0x56 11 // Save vs. Polymorph
+					WRITE_BYTE 0x57 13 // Save vs. Breath
+					WRITE_BYTE 0x58 9  // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%mutami.cre~) BEGIN // Mutamin (in Mutamin's Garden)
+					WRITE_LONG 0x14 976 // XP Value (was 1201)
+					WRITE_SHORT 0x24 24 // Current HP (was 19)
+					WRITE_SHORT 0x26 24 // Max HP (was 19)
+					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
+					WRITE_SHORT 0x46 10 // Base AC (was 6)
+					WRITE_SHORT 0x48 10 // Effective AC (was 6)
+					WRITE_BYTE 0x55 5 // Save vs. wands (was 9)
+					WRITE_BYTE 0x58 6 // Save vs. spells (was 3)
+					WRITE_BYTE 0x23c 18 // Dexterity (was 16)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%mage7~ #8 // Race script (was %tutu_var%mage5)
+					WRITE_BYTE 0x272 6 // Race (gnome, was human)
+					READ_LONG 0x2b8 ix // Item slots offset
+					READ_LONG 0x2bc iy // Item offset
+					READ_LONG 0x2c0 iz // Item count
+					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
+					READ_ASCII (iy + (0x14 * i1)) ~itm~
+					PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dart01~) BEGIN
+					  READ_SHORT (ix + 0x14) w2 // Weapon2 slot
+					  PATCH_IF (w2 = 0xffff) BEGIN // If open
+						WRITE_SHORT (ix + 0x14) i1 // Assign darts to weapon2
+					  END
+					END ELSE
+					PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%potn08~) BEGIN
+					  READ_SHORT (ix + 0x24) q1 // Qitem1 slot
+					  READ_SHORT (ix + 0x26) q2 // Qitem1 slot
+					  PATCH_IF (q1 = q2) BEGIN // If duplicate
+						WRITE_SHORT (ix + 0x24) i1 // Assign potn08 to qitem1
+					  END
+					END
+					END
+					ADD_CRE_ITEM ~%tutu_var%brac01~ #0 #0 #0 ~NONE~ ~GLOVES~ // Bracers AC8
+					ADD_CRE_ITEM ~%tutu_var%mage06~ #0 #0 #0 ~NONE~ ~LRING RRING~ // Haste
+					REMOVE_MEMORIZED_SPELL ~spwi119~ ~spwi205~ ~spwi211~ ~spwi305~
+					REMOVE_KNOWN_SPELL ~spwi119~ ~spwi205~ // Larloch's Minor Drain & Horror
+					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ (5) // Magic Missile
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) // Lightning Bolt
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%neb.cre~) BEGIN // Neb (in SW Baldur's Gate FF HQ L1)
+					WRITE_SHORT 0x24 70 // Current HP (was 85)
+					WRITE_SHORT 0x26 70 // Max HP (was 85)
+					WRITE_SHORT 0x46 10 // Base AC (was 0)
+					WRITE_SHORT 0x48 10 // Effective AC (was 0)
+					WRITE_BYTE 0x52 13 // THAC0 (was 19)
+					WRITE_BYTE 0x54 6 // Save vs. death (was 13)
+					WRITE_BYTE 0x55 4 // Save vs. wands (was 14)
+					WRITE_BYTE 0x56 9 // Save vs. polymorph (was 12)
+					WRITE_BYTE 0x57 13 // Save vs. breath (was 16)
+					WRITE_BYTE 0x58 5 // Save vs. spells (was 15)
+					WRITE_BYTE 0x75 1 // Missile weapons
+					WRITE_BYTE 0x234 15 // Level 1 (was 3)
+					WRITE_BYTE 0x235 1 // Level 2 (was 4)
+					WRITE_BYTE 0x23c 17 // Dexterity (was 14)
+					WRITE_BYTE 0x23d 15 // Constitution (was 6)
+					WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%trunsgt~ #8 // Default script
+					WRITE_BYTE 0x272 4 // Race (dwarf, was gnome)
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%pheirk.cre~) BEGIN // Pheirkas (in NW Baldur's Gate)
+					WRITE_SHORT 0x24 54 // Current HP (was 32)
+					WRITE_SHORT 0x26 54 // Max HP (was 32)
+					WRITE_SHORT 0x28 0x6114 // Animation (fighter_female_gnome, was 0x6112 dwarf)
+					WRITE_BYTE 0x54 7 // Save vs. death (was 11)
+					WRITE_BYTE 0x55 9 // Save vs. wands (was 13)
+					WRITE_BYTE 0x58 10 // Save vs. spells (was 14)
+					WRITE_BYTE 0x73 0 // Spiked weapons (was 2)
+					WRITE_BYTE 0x74 5 // Axes (was 3)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_BYTE 0x27b 0x22 // Alignment (neutral)
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%quayle.cre~) BEGIN 
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
+					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
+					WRITE_BYTE 0x236 1 // Level 3 (was 0)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 15)
+					WRITE_LONG 0x18 5001 // XP (was 4001)
+					WRITE_SHORT 0x24 12 // Current HP (was 11)
+					WRITE_SHORT 0x26 12 // Max HP (was 11)
+					WRITE_BYTE 0x66 13 // Lore (was 8)
+					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
+					REMOVE_KNOWN_SPELL ~sppr105~
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
+					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle4.cre~) BEGIN
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
+					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
+					WRITE_BYTE 0x236 1 // Level 3 (was 0)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 15)
+					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
+					REMOVE_KNOWN_SPELL ~sppr105~
+					REMOVE_MEMORIZED_SPELL ~spwi205~ // Horror
+					REMOVE_KNOWN_SPELL ~spwi205~
+					WRITE_SHORT 0x24 22 // Current HP (was 18)
+					WRITE_SHORT 0x26 22 // Max HP (was 18)
+					WRITE_BYTE 0x66 19 // Lore (was 13)
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
+					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle6.cre~) BEGIN
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
+					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
+					WRITE_BYTE 0x236 1 // Level 3 (was 0)
+					WRITE_BYTE 0x23c 16 // Dexterity (was 15)  				
+					WRITE_SHORT 0x24 34 // Current HP (was 24)
+					WRITE_SHORT 0x26 34 // Max HP (was 24)
+					WRITE_BYTE 0x66 25 // Lore (was 21)
+					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
+					REMOVE_KNOWN_SPELL ~sppr105~ 
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
+					ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ // Chromatic Orb
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi309~ #2 ~wizard~ // Monster Summoning 1
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%sarhed.cre~) BEGIN // Sarhedra (in Lonely Peaks)
+					WRITE_SHORT 0x24 45 // Current HP (was 28)
+					WRITE_SHORT 0x26 45 // Max HP (was 28)
+					WRITE_SHORT 0x28 0x6114 // Animation (fighter_female_gnome, was 0x6112 dwarf)
+					WRITE_BYTE 0x54 7 // Save vs. death (was 11)
+					WRITE_BYTE 0x55 9 // Save vs. wands (was 13)
+					WRITE_BYTE 0x58 10 // Save vs. spells (was 14)
+					WRITE_BYTE 0x73 0 // Spiked weapons (was 2)
+					WRITE_BYTE 0x74 5 // Axes (was 3)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie.cre~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_scriptbg%skie~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie6.cre~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_scriptbg%skie~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tellan.cre~) BEGIN // Tellan (in Ice Island L1)
+					WRITE_LONG 0x14 2001 // XP Value (was 11)
+					WRITE_SHORT 0x24 64 // Current HP (was 54)
+					WRITE_SHORT 0x26 64 // Max HP (was 54)
+					WRITE_SHORT 0x28 0x6204 // Animation (mage_male_gnome, was 0x6202 dwarf)
+					WRITE_SHORT 0x46 10 // Base AC (was 0)
+					WRITE_SHORT 0x48 10 // Effective AC (was 0)
+					WRITE_BYTE 0x54 10 // Save vs. death (was 6)
+					WRITE_BYTE 0x55 3 // Save vs. wands (was 6)
+					WRITE_BYTE 0x56 9 // Save vs. polymorph (was 6)
+					WRITE_BYTE 0x57 11 // Save vs. breath (was 10)
+					WRITE_BYTE 0x58 4 // Save vs. spells (was 7)
+					WRITE_BYTE 0x6f 1 // Small swords (was 3)
+					WRITE_BYTE 0x236 1 // Level 3 (was 13)
+					WRITE_LONG 0x244 0x04000000 // Kit (illusionist)
+					WRITE_ASCIIE 0x250 ~%tutu_var%follow~ #8
+					WRITE_ASCII 0x258 ~x#mag14d~ #8 // Race script (was ~%tutu_var%mage7~)
+					WRITE_ASCII 0x260 ~~ #8
+					WRITE_BYTE 0x270 0x80 // Reaction (neutral, was enemy)
+					WRITE_BYTE 0x272 6 // Race (gnome, was human)
+					WRITE_BYTE 0x273 0xd //  Class (mage/thief, was thief)
+					SAY INITIAL_MEETING #4931
+					SAY SELECT_COMMON1 #4930
+					SAY DAMAGE #12582
+					SAY DYING #12583
+					SAY DIALOGUE_DEFAULT #4929
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~dagg04~ ~dagg02~ // Dagger +1
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~leat02~ ~clck17~ // Robe of the Evil Archmagi
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~slng02~ ~mage02~ // Protection from Normal Missiles
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~_bull02~ ~_ageamul~ (8) // Minor Globe of Invulnerability
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~bull02~ ~mageamul~ (8)
+					REPLACE_TEXTUALLY CASE_INSENSITIVE ~bull03~ ~potn08~ // Potion of Healing
+					READ_LONG 0x2b8 ix // Item slots offset
+					READ_LONG 0x2bc iy // Item offset
+					READ_LONG 0x2c0 iz // Item count
+					FOR (i1 = 0; i1 < iz; i1 += 1) BEGIN
+						READ_ASCII (iy + (0x14 * i1)) ~itm~
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%clck17~) BEGIN
+							READ_SHORT (ix + 0x2) rs // Armor slot
+								PATCH_IF (rs = 0xffff) BEGIN // If slot open
+									WRITE_SHORT (ix + 0x2) i1 // Assign robe to armor
+								END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%mage02~) BEGIN
+							READ_SHORT (ix + 0x8) lr // Lring slot
+							READ_SHORT (ix + 0xa) rr // Rring slot
+							PATCH_IF (lr = 0xffff) BEGIN // If slot open
+								WRITE_SHORT (ix + 0x8) i1 // Assign mage02 to lring
+							END ELSE
+							PATCH_IF (rr = 0xffff) BEGIN // If slot open
+								WRITE_SHORT (ix + 0xa) i1 // Assign mage02 to rring
+							END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_scriptm%ageamul~) BEGIN
+							READ_SHORT (ix + 0xc) rs // Amulet slot
+							PATCH_IF (rs = 0xffff) BEGIN // If slot open
+								WRITE_SHORT (ix + 0xc) i1 // Assign mageamul to amulet
+							END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%dagg02~) BEGIN
+							READ_SHORT (ix + 0x12) w1 // Weapon1 slot
+							READ_SHORT (ix + 0x14) w2 // Weapon2 slot
+							PATCH_IF (w1 = w2) BEGIN // If duplicate weapon reference
+								WRITE_SHORT (ix + 0x14) i1 // Assign dagger to weapon2
+							END
+						END ELSE
+						PATCH_IF (~%itm%~ STR_EQ ~%tutu_var%potn08~) BEGIN
+							FOR (i2 = 18; i2 < 36; i2 += 1) BEGIN // Find first open slot
+								READ_SHORT (ix + (i2 * 0x2)) sr
+								PATCH_IF (sr = 0xffff) BEGIN // If open
+									WRITE_SHORT (ix + (i2 * 0x2)) i1 // Assign potn08 to slot
+									i2 = 36 // Kills loop
+								END
+							END
+						END
+					END
+					REMOVE_MEMORIZED_SPELL ~spwi205~ ~spwi308~ ~spwi313~ ~spwi401~
+					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi313~ // Horror, Skull Trap
+					ADD_MEMORIZED_SPELL ~spwi203~ #1 ~wizard~ // Detect Invisibility
+					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
+					ADD_MEMORIZED_SPELL ~spwi219~ #1 ~wizard~ // Vocalize
+					ADD_MEMORIZED_SPELL ~spwi305~ #2 ~wizard~ // Haste
+					ADD_MEMORIZED_SPELL ~spwi311~ #2 ~wizard~ // Protection From Normal Missiles
+					ADD_MEMORIZED_SPELL ~spwi312~ #2 ~wizard~ // Slow
+					ADD_MEMORIZED_SPELL ~spwi318~ #2 ~wizard~ // Minor Spell Deflection
+					ADD_MEMORIZED_SPELL ~spwi325~ #2 ~wizard~ // Melf's Minute Meteors
+					ADD_MEMORIZED_SPELL ~spwi405~ #3 ~wizard~ // Improved Invisibility
+					ADD_MEMORIZED_SPELL ~spwi408~ #3 ~wizard~ // Stoneskin
+					ADD_MEMORIZED_SPELL ~spwi418~ #3 ~wizard~ // Fire Shield (Red)
+					ADD_MEMORIZED_SPELL ~spwi419~ #3 ~wizard~ // Secret Word
+					ADD_MEMORIZED_SPELL ~spwi408~ #3 ~wizard~ // Stoneskin
+					ADD_MEMORIZED_SPELL ~spwi503~ #4 ~wizard~ // Cone of Cold
+					ADD_MEMORIZED_SPELL ~spwi504~ #4 ~wizard~ // Monster Summoning 3
+					ADD_MEMORIZED_SPELL ~spwi505~ #4 ~wizard~ // Shadow Door
+					ADD_MEMORIZED_SPELL ~spwi513~ #4 ~wizard~ // Breach
+					ADD_MEMORIZED_SPELL ~spwi522~ #4 ~wizard~ // Minor Spell Turning
+					ADD_MEMORIZED_SPELL ~spwi605~ #5 ~wizard~ // Death Spell
+					ADD_MEMORIZED_SPELL ~spwi609~ #5 ~wizard~ // True Sight
+					ADD_MEMORIZED_SPELL ~spwi624~ #5 ~wizard~ // Summon Nishruu
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x236 1 // Level 3 (was 0)
+					READ_LONG 0x244 tkt
+					PATCH_IF (tkt = 0x40000000) BEGIN
+						WRITE_LONG 0x244 0x00000000 // Kit (none, was 0x40000000 trueclass)
+					END
+					READ_LONG 0x2b8 st // Item slots offset
+					READ_SHORT (st + 0x2a) sx
+					READ_SHORT (st + 0x2c) sz
+					PATCH_IF ((sx = 1) AND (sz = 2)) BEGIN // Equip sling and bullets
+						WRITE_SHORT (st + 0x2a) `0x0
+						WRITE_SHORT (st + 0x2c) `0x0
+						WRITE_SHORT (st + 0x14) 1
+						WRITE_SHORT (st + 0x1a) 2
+						WRITE_SHORT (st + 0x4c) 1
+					END
+					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
+					REMOVE_KNOWN_SPELL ~sppr105~
+					WRITE_SHORT 0x24 14 // Current HP (was 17)
+					WRITE_SHORT 0x26 14 // Max HP (was 17)
+					WRITE_BYTE 0x55 10 // Save vs. wands (was 14)
+					WRITE_BYTE 0x58 11 // Save vs. spells (was 15)
+					WRITE_BYTE 0x45 25 // Hide in shadows
+					WRITE_BYTE 0x64 10 // Detect illusions
+					WRITE_BYTE 0x65 5 // Set traps
+					WRITE_BYTE 0x66 6 // Lore (was 8)
+					WRITE_BYTE 0x67 25 // Open locks (was 15)
+					WRITE_BYTE 0x68 25 // Move silently (was 10)
+					WRITE_BYTE 0x69 30 // Find traps (was 15)
+					WRITE_BYTE 0x6a 35 // Pick pockets (was 10)
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax4.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x236 1 // Level 3 (was 0)
+					READ_LONG 0x244 tkt
+					PATCH_IF (tkt = 0x40000000) BEGIN
+						WRITE_LONG 0x244 0x00000000 // Kit (none, was 0x40000000 trueclass)
+					END
+					READ_LONG 0x2b8 st // Item slots offset
+					READ_SHORT (st + 0x2a) sx
+					READ_SHORT (st + 0x2c) sz
+					PATCH_IF ((sx = 1) AND (sz = 2)) BEGIN // Equip sling and bullets
+						WRITE_SHORT (st + 0x2a) `0x0
+						WRITE_SHORT (st + 0x2c) `0x0
+						WRITE_SHORT (st + 0x14) 1
+						WRITE_SHORT (st + 0x1a) 2
+						WRITE_SHORT (st + 0x4c) 1
+					END
+					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
+					REMOVE_KNOWN_SPELL ~sppr105~
+					WRITE_SHORT 0x24 26 // Current HP (was 28)
+					WRITE_SHORT 0x26 26 // Max HP (was 28)
+					WRITE_BYTE 0x55 9 // Save vs. wands (was 13)
+					WRITE_BYTE 0x58 10 // Save vs. spells (was 14)
+					WRITE_BYTE 0x45 35 // Hide in shadows
+					WRITE_BYTE 0x64 10 // Detect illusions
+					WRITE_BYTE 0x65 5 // Set traps
+					WRITE_BYTE 0x66 12 // Lore (was 16)
+					WRITE_BYTE 0x67 35 // Open locks (was 25)
+					WRITE_BYTE 0x68 35 // Move silently (was 20)
+					WRITE_BYTE 0x69 40 // Find traps (was 25)
+					WRITE_BYTE 0x6a 45 // Pick pockets (was 20)
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tiax6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
+					WRITE_BYTE 0x236 1 // Level 3 (was 0)
+					READ_LONG 0x244 tkt
+					PATCH_IF (tkt = 0x40000000) BEGIN
+						WRITE_LONG 0x244 0x00000000 // Kit (none, was 0x40000000 trueclass)
+					END
+					READ_LONG 0x2b8 st // Item slots offset
+					READ_SHORT (st + 0x2a) sx
+					READ_SHORT (st + 0x2c) sz
+					PATCH_IF ((sx = 1) AND (sz = 2)) BEGIN // Equip sling and bullets
+						WRITE_SHORT (st + 0x2a) `0x0
+						WRITE_SHORT (st + 0x2c) `0x0
+						WRITE_SHORT (st + 0x14) 1
+						WRITE_SHORT (st + 0x1a) 2
+						WRITE_SHORT (st + 0x4c) 1
+					END
+					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
+					REMOVE_KNOWN_SPELL ~sppr105~
+					WRITE_SHORT 0x24 36 // Current HP (was 38)
+					WRITE_SHORT 0x26 36 // Max HP (was 38)
+					WRITE_BYTE 0x55 8 // Save vs. wands (was 12)
+					WRITE_BYTE 0x58 9 // Save vs. spells (was 13)
+					WRITE_BYTE 0x45 45 // Hide in shadows
+					WRITE_BYTE 0x64 10 // Detect illusions
+					WRITE_BYTE 0x65 5 // Set traps
+					WRITE_BYTE 0x66 18 // Lore (was 23)
+					WRITE_BYTE 0x67 45 // Open locks (was 35)
+					WRITE_BYTE 0x68 45 // Move silently (was 30)
+					WRITE_BYTE 0x69 50 // Find traps (was 35)
+					WRITE_BYTE 0x6a 55 // Pick pockets (was 30)
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%unshey.cre~) BEGIN // Unshey (in Friendly Arm Inn L2)
+					WRITE_SHORT 0x24 42 // Current HP (was 23)
+					WRITE_SHORT 0x26 42 // Max HP (was 23)
+					WRITE_SHORT 0x28 0x6014 // Animation (cleric_female_gnome, was 0x6012 dwarf)
+					WRITE_BYTE 0x54 5 // Save vs. death (was 9)
+					WRITE_BYTE 0x55 9 // Save vs. wands (was 13)
+					WRITE_BYTE 0x58 10 // Save vs. spells (was 14)
+					WRITE_BYTE 0x236 1 // Level 3 (was 5)
+					WRITE_EVALUATED_ASCII 0x250 ~%tutu_var%priest4~ #8 // Class script (was %tutu_var%priest3)
+					REMOVE_MEMORIZED_SPELL ~sppr105~ ~sppr213~ // Entangle & Spiritual Hammer
+					REMOVE_KNOWN_SPELL ~sppr105~
+					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
+					ADD_MEMORIZED_SPELL ~sppr103~ #0 ~priest~ (2) // Cure Light Wounds
+					ADD_MEMORIZED_SPELL ~sppr107~ #0 ~priest~ // Protection From Evil
+					ADD_MEMORIZED_SPELL ~sppr208~ #1 ~priest~ // Hold Person
+					ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ // Silence 15' Radius
+					ADD_MEMORIZED_SPELL ~sppr303~ #2 ~priest~ // Dispel Magic
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%xan.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan4.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%xan6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_ASCIIE 0x248 ~%tutu_var%xan~ #8 //  override script
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_BYTE 0x24 23 // Current Hit Points
+					WRITE_BYTE 0x26 23 // Maximum Hit Points
+					WRITE_BYTE 0x54 5  // Save vs. Death
+					WRITE_BYTE 0x55 9  // Save vs. Wand
+					WRITE_BYTE 0x56 13 // Save vs. Polymorph
+					WRITE_BYTE 0x57 16 // Save vs. Breath
+					WRITE_BYTE 0x58 10 // Save vs. Spells
+				END
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%yeslic5.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
+					WRITE_BYTE 0x24 42 // Current Hit Points
+					WRITE_BYTE 0x26 42 // Maximum Hit Points
+					WRITE_BYTE 0x54 4  // Save vs. Death
+					WRITE_BYTE 0x55 8  // Save vs. Wand
+					WRITE_BYTE 0x56 12 // Save vs. Polymorph
+					WRITE_BYTE 0x57 15 // Save vs. Breath
+					WRITE_BYTE 0x58 9  // Save vs. Spells
+				END
+			BUT_ONLY_IF_IT_CHANGES /*indent of C_E */
+		END /* of A_I */
+	END /*of F_E IN */
+
+	/* Scripts */
+	COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
+    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */

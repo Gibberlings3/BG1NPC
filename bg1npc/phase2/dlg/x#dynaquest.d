@@ -453,9 +453,9 @@ CHAIN IF WEIGHT #-4 ~%BGT_VAR% Global("X#DynaJournal","GLOBAL",8) InParty("dynah
 == ~%tutu_var%WINSKI~ @179
 == ~%DYNAHEIR_BANTER%~ @180
 == ~%tutu_var%WINSKI~ @181 
-== ~%tutu_var%WINSKI~ @182 DO ~SetGlobal("X#DynaJournal","GLOBAL",9) CreateCreatureObjectDoor("X#TANARI",Player1,0,0,0)~ EXIT
+== ~%tutu_var%WINSKI~ @182 DO ~StartCutSceneMode() StartCutScene("x#dycut")~ EXIT
 
-CHAIN IF WEIGHT #-2 ~NumTimesTalkedTo(0) Global("X#DynaJournal","GLOBAL",9)~ THEN ~X#TANARI~ X#TanarriKillsWinski
+CHAIN IF WEIGHT #-2 ~Global("X#DynaJournal","GLOBAL",9)~ THEN ~X#TANARI~ X#TanarriKillsWinski
 @183 DO ~SetGlobal("X#DynaJournal","GLOBAL",10)~
 == ~%tutu_var%WINSKI~ @184
 == ~X#TANARI~ @185

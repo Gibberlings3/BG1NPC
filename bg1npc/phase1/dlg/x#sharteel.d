@@ -720,7 +720,7 @@ DO ~SetGlobal("X#SHSA1","LOCALS",1)~
 == ~%SAFANA_BANTER%~ @300
 EXIT
 
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% CombatCounter(0) GlobalGT("Chapter","GLOBAL",3) InParty("tiax") Global("X#SHTI1","LOCALS",0) !See([ENEMY]) InParty(Myself) See("tiax") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("tiax",CD_STATE_NOTVALID)~ THEN ~%SHARTEEL_BANTER%~ SHTI1
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% CombatCounter(0) GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%) InParty("tiax") Global("X#SHTI1","LOCALS",0) !See([ENEMY]) InParty(Myself) See("tiax") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("tiax",CD_STATE_NOTVALID)~ THEN ~%SHARTEEL_BANTER%~ SHTI1
 @301
 DO ~SetGlobal("X#SHTI1","LOCALS",1)~
 == ~%TIAX_BANTER%~ @302

@@ -27,8 +27,8 @@ DO ~ActionOverride("denak",Enemy())
 DO ~SetGlobal("X#EdwinReturn","GLOBAL",3)~
 == ~%EDWIN_POST%~ IF ~Global("X#EdwinReturn","GLOBAL",2) !Dead("Edwin") !InParty("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) See("denak")~ THEN @2
 DO ~SetGlobal("X#EdwinReturn","GLOBAL",3)
-    CreateCreature("%tutu_var%FGOLEM",[-1.-1],0)
-    CreateCreature("%tutu_var%FGOLEM",[-1.-1],0)~
+    CreateCreature("%tutu_var%GOLEMF",[-1.-1],0)
+    CreateCreature("%tutu_var%GOLEMF",[-1.-1],0)~
 EXIT
 
 CHAIN ~%EDWIN_JOINED%~ EDWINFOOLSHAIR

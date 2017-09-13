@@ -244,7 +244,7 @@ ADD_TRANS_ACTION %ELDOTH_BANTER% BEGIN 22 END BEGIN END ~SetGlobal("X#BIOEL6","L
 
 // REPLACE_STATE_TRIGGER %ELDOTH_JOINED% 0 ~Global("EldothMove","GLOBAL",0) InParty("eldoth") AreaCheck("FW0100")~
 
-REPLACE_STATE_TRIGGER ~%tutu_var%ELDOTH~ 8 ~Global("EldothMove","GLOBAL",0) InParty("eldoth") AreaCheck("AR0100")~
+REPLACE_STATE_TRIGGER ~%tutu_var%ELDOTH~ 8 ~Global("EldothMove","GLOBAL",0) InParty("eldoth") AreaCheck("%NWBaldursGate%")~
 
 /* EDWIN */
 ADD_STATE_TRIGGER %EDWIN_BANTER% 3 ~Global("X#BIOED1","LOCALS",0)~

@@ -1,0 +1,70 @@
+/* ALWAYS = Before each and any component, do this. */
+
+/* SoD DLC check - Thanks, CamDawg! */
+ACTION_IF FILE_EXISTS ~dlc/sod-dlc.zip~ THEN BEGIN
+  	FAIL @5004
+END
+
+/* Actions for BGEE and EET */
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+	ACTION_IF GAME_IS ~bgee~ THEN BEGIN 		
+		/*Tell the player it is using BG:EE stuff */
+		PRINT @5000
+  		INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
+  		OUTER_SPRINT ~bgee~ ~bgee/~
+	END
+  
+	ACTION_IF GAME_IS ~eet~ THEN BEGIN 
+		INCLUDE ~%MOD_FOLDER%/lib/eet_cpmvars.tpa~
+		OUTER_SPRINT ~bgee~ ~bgee/~
+	END
+  
+	// BG:EE tra conversion
+	// Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237
+	// For complete description check Edwin Romance and the WeiDU forum topic on HANDLE_CHARSETS
+
+	// Only setup.tra is stated in LANGUAGE and needs to be reloaded after conversion
+	ACTION_DEFINE_ARRAY x#reload BEGIN setup END
+	ACTION_DEFINE_ARRAY x#noconvert BEGIN END
+
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charset = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/tra~
+			noconvert_array = x#noconvert
+			reload_array = x#reload
+	END
+
+END ELSE BEGIN /* Actions for Tutu or BGT */
+
+	/* Tutu */
+	ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+		PRINT @1000
+		INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~
+	END ELSE BEGIN
+	/* BGT */
+    	ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+			PRINT @1001
+			INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~
+    	END ELSE BEGIN 
+    		/* Not a supported game */
+    		FAIL @1002
+		END
+	END
+END
+
+/*  alter fluid states */
+INCLUDE ~%MOD_FOLDER%/lib/g3_fluid_cpmvars.tpa~
+
+/* prep tras for sound references */
+COPY ~%MOD_FOLDER%/TRA/%LANGUAGE%/BG1NPC_tmp.tra~ ~%MOD_FOLDER%/TRA/%LANGUAGE%/BG1NPC.tra~
+	EVALUATE_BUFFER
+LOAD_TRA ~%MOD_FOLDER%/TRA/%LANGUAGE%/BG1NPC.tra~
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+	LOAD_TRA ~%MOD_FOLDER%/TRA/%LANGUAGE%/BGEE_ITEMDESC.tra~ /* Item descriptions for BGEE, i.e. without usability info */
+END
+
+INCLUDE ~%MOD_FOLDER%/lib/extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
+OUTER_SPRINT "whitespace" "[%tab% %lnl%%mnl%%wnl%]+" /* Defines regexp whitespaces */
+INCLUDE ~%MOD_FOLDER%/lib/bg1npc_project_macros.tpa~   /* adds macros callable by each component */
