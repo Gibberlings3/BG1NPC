@@ -348,10 +348,11 @@ PlaySound("minsc99")
 Dialog(Player1)
 END
 
+/* taken out - no dialogue attached to it
 /* CK Catacombs */
 IF %BGT_VAR%
 AreaCheck("%Candlekeep_Catacombs_L1%")
-Dead("phlydia")
+Dead("phlydia") //note: patching PHLYDI3.cre with a script name for this does not trigger this, because she changes into a doppelganger!
 Global("X#MinscPhlydia","GLOBAL",0)
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -376,6 +377,7 @@ PlaySong(0)
 PlaySound("minsc99")
 Dialog(Player1)
 END
+*/
 
 /* Gallor */
 IF %BGT_VAR%

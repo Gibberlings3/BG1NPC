@@ -867,9 +867,13 @@ BEGIN @1007
     WRITE_ASCII 0x280 ~entill~ #32 //  death variable X#JAINT.D
   BUT_ONLY_IF_IT_CHANGES
 
+/* this does not work because PHLYDI3.cre changes into a doppelganger and the assigned DV does not trigger.
+Taken out because there is no dialogue that needs this. 
+Also, using the DV "phlydi3" would be more appropriate since it's not the real Phlydia.
   COPY_EXISTING  ~%tutu_var%phlydi3.cre~ ~override~
     WRITE_ASCII 0x280 ~phlydia~ #32 //  death variable
   BUT_ONLY_IF_IT_CHANGES
+*/
 
   COPY_EXISTING ~%tutu_var%bearbl.cre~ ~override~
     WRITE_ASCII 0x280 ~bearbl~ #32 //  death variable
