@@ -483,7 +483,7 @@ EXIT
 // == ~%tutu_var%BASSIL~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @138
 //END
 
-I_C_T ~%tutu_var%MTOWN3~ 0 X#JaheiraDruggie
+I_C_T ~%tutu_scriptbg%MTOWN3~ 0 X#JaheiraDruggie
  == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @139
  == ~%tutu_var%MTOWN3~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @140
 END
