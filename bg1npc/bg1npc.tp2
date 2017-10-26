@@ -1570,9 +1570,10 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     	SAY SET_A_TRAP @124
     END
     WRITE_LONG BIO (BNOT 0x0)
+    LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
     WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-    WRITE_ASCII SCRIPT_CLASS ~x#gpsht~ #8 // class script
-    WRITE_ASCII SCRIPT_DEFAULT ~x#davidx~ #8 // default script
+    WRITE_ASCII SCRIPT_CLASS ~x#davidx~ #8 // class script
+    WRITE_ASCII SCRIPT_DEFAULT ~%tutu_var%WTARSGT~ #8 // default script
     WRITE_ASCII 0x34 ~~ #8 // small portrait
     WRITE_ASCII 0x2CC ~X#DAVI~ #8 //  dialog
     WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
