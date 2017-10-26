@@ -867,9 +867,13 @@ BEGIN @1007
     WRITE_ASCII 0x280 ~entill~ #32 //  death variable X#JAINT.D
   BUT_ONLY_IF_IT_CHANGES
 
+/* this does not work because PHLYDI3.cre changes into a doppelganger and the assigned DV does not trigger.
+Taken out because there is no dialogue that needs this. 
+Also, using the DV "phlydi3" would be more appropriate since it's not the real Phlydia.
   COPY_EXISTING  ~%tutu_var%phlydi3.cre~ ~override~
     WRITE_ASCII 0x280 ~phlydia~ #32 //  death variable
   BUT_ONLY_IF_IT_CHANGES
+*/
 
   COPY_EXISTING ~%tutu_var%bearbl.cre~ ~override~
     WRITE_ASCII 0x280 ~bearbl~ #32 //  death variable
@@ -5600,7 +5604,9 @@ BEGIN @1091 DESIGNATED 200    /* The BG1 NPC Project: Player-Initiated Dialogues
         EVALUATE_BUFFER
     COPY ~%MOD_FOLDER%/TRA/%LANGUAGE%/X#AJPCFL_tmp.tra~ ~%MOD_FOLDER%/TRA/%LANGUAGE%/X#AJPCFL.tra~
         EVALUATE_BUFFER
-    /* install PIDs */
+    /* install PIDs */  
+      /* sound */
+    COPY ~BG1NPC/Phase3/XAROM/Sound/X#BLANK.WAV~ ~override~
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/Phase3/PID/X#PCINIT.D~
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/Phase3/PID/X#AJPCFL.D~
 
