@@ -5,7 +5,7 @@
 */
 
 /* Backup folder */
-BACKUP ~%MOD_FOLDER%/backup~
+BACKUP ~bg1npc/backup~
 
 /* Author */
 AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45~
