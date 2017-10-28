@@ -10,12 +10,12 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	ACTION_IF GAME_IS ~bgee~ THEN BEGIN 		
 		/*Tell the player it is using BG:EE stuff */
 		PRINT @5000
-  		INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
+  		INCLUDE ~bg1npc/lib/g3_bgee_cpmvars.tpa~
   		OUTER_SPRINT ~bgee~ ~bgee/~
 	END
   
 	ACTION_IF GAME_IS ~eet~ THEN BEGIN 
-		INCLUDE ~%MOD_FOLDER%/lib/eet_cpmvars.tpa~
+		INCLUDE  ~EET/other/cpmvars/eet_cpmvars.tpa~
 		OUTER_SPRINT ~bgee~ ~bgee/~
 	END
   
@@ -31,7 +31,7 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 		INT_VAR
 			infer_charset = 1
 		STR_VAR
-			tra_path = EVAL ~%MOD_FOLDER%/tra~
+			tra_path = EVAL ~bg1npc/tra~
 			noconvert_array = x#noconvert
 			reload_array = x#reload
 	END
@@ -41,12 +41,14 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
 	/* Tutu */
 	ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
 		PRINT @1000
-		INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~
+		INCLUDE ~bg1npc/lib/g3_tutu_cpmvars.tpa~
+		OUTER_SPRINT ~bgee~ ~~
 	END ELSE BEGIN
 	/* BGT */
     	ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-			PRINT @1001
-			INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~
+		PRINT @1001
+		INCLUDE ~bg1npc/lib/g3_bgt_cpmvars.tpa~
+		OUTER_SPRINT ~bgee~ ~~
     	END ELSE BEGIN 
     		/* Not a supported game */
     		FAIL @1002
@@ -54,17 +56,20 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
 	END
 END
 
+/* include dream scripts */
+INCLUDE ~bg1npc/lib/g3_dreamscript_cpmvars.tpa~
+
 /*  alter fluid states */
-INCLUDE ~%MOD_FOLDER%/lib/g3_fluid_cpmvars.tpa~
+INCLUDE ~bg1npc/lib/g3_fluid_cpmvars.tpa~
 
 /* prep tras for sound references */
-COPY ~%MOD_FOLDER%/TRA/%LANGUAGE%/BG1NPC_tmp.tra~ ~%MOD_FOLDER%/TRA/%LANGUAGE%/BG1NPC.tra~
+COPY ~bg1npc/TRA/%LANGUAGE%/BG1NPC_tmp.tra~ ~bg1npc/TRA/%LANGUAGE%/BG1NPC.tra~
 	EVALUATE_BUFFER
-LOAD_TRA ~%MOD_FOLDER%/TRA/%LANGUAGE%/BG1NPC.tra~
+LOAD_TRA ~bg1npc/TRA/%LANGUAGE%/BG1NPC.tra~
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-	LOAD_TRA ~%MOD_FOLDER%/TRA/%LANGUAGE%/BGEE_ITEMDESC.tra~ /* Item descriptions for BGEE, i.e. without usability info */
+	LOAD_TRA ~bg1npc/TRA/%LANGUAGE%/BGEE_ITEMDESC.tra~ /* Item descriptions for BGEE, i.e. without usability info */
 END
 
-INCLUDE ~%MOD_FOLDER%/lib/extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
+INCLUDE ~bg1npc/lib/extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
 OUTER_SPRINT "whitespace" "[%tab% %lnl%%mnl%%wnl%]+" /* Defines regexp whitespaces */
-INCLUDE ~%MOD_FOLDER%/lib/bg1npc_project_macros.tpa~   /* adds macros callable by each component */
+INCLUDE ~bg1npc/lib/bg1npc_project_macros.tpa~   /* adds macros callable by each component */

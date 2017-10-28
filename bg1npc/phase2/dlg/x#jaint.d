@@ -89,7 +89,7 @@ CHAIN ~%JAHEIRA_JOINED%~ JaheiraEntill2
 == ~%KHALID_JOINED%~ @23
 == ~%JAHEIRA_JOINED%~ @24
 END
-IF ~~ THEN DO ~ActionOverride("entill",EscapeArea())~ JOURNAL @25
+IF ~~ THEN DO ~ActionOverride("entillis",EscapeArea())~ JOURNAL @25
 EXIT
 
 EXTEND_BOTTOM ~%tutu_var%ENTILL~ 8
@@ -504,12 +504,12 @@ END
 IF ~~ JaheiraEntill1
 SAY @142
 ++ @143 EXTERN ~%tutu_var%ENTILL~ JAENTILL1.1
-++ @144 DO ~ ActionOverride("entill",EscapeArea())~ JOURNAL @25 EXIT
+++ @144 DO ~ ActionOverride("entillis",EscapeArea())~ JOURNAL @25 EXIT
 END
 
 IF ~~ JAENTILL1.2
 SAY @145
-++ @146 DO ~ ActionOverride("entill",EscapeArea())~ JOURNAL @25 EXIT
+++ @146 DO ~ ActionOverride("entillis",EscapeArea())~ JOURNAL @25 EXIT
 END
 
 /* ToTSC Jaheira Mendas */
