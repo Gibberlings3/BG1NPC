@@ -1,0 +1,38 @@
+/* Declaration of BG1NPC Special Variables */
+
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+    OUTER_SPRINT "VoiceStrange" "False()"
+    OUTER_SPRINT "RunAwayFrom" "RunAwayFromNoLeaveArea"
+    ACTION_IF FILE_EXISTS_IN_GAME ~corwyvrn.cre~ THEN BEGIN
+    	OUTER_SPRINT "CorWyvrn"	"CORWYVRN"
+    END ELSE BEGIN
+    	OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+    END
+	OUTER_SPRINT "port_s" "m"
+	OUTER_SPRINT "port_l" "l"
+
+	/* Tutu/BGT vs BGEE/EET Dialog states */
+    OUTER_SET housg3state5 = 0
+END
+
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+    OUTER_SPRINT "VoiceStrange" "True()"
+    OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
+    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+	OUTER_SPRINT "port_s" "s"
+	OUTER_SPRINT "port_l" "m"
+
+	/* Tutu/BGT vs BGEE/EET Dialog states */
+    OUTER_SET housg3state5 = 5
+END
+
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+    OUTER_SPRINT "VoiceStrange" "False()"
+    OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
+    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+	OUTER_SPRINT "port_s" "s"
+	OUTER_SPRINT "port_l" "m"
+
+	/* Tutu/BGT vs BGEE/EET Dialog states */
+    OUTER_SET housg3state5 = 5
+END

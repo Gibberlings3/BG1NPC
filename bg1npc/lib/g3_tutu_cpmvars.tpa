@@ -1,5 +1,5 @@
 /* Declaration of Tutu Platform Variables */
-ACTION_IF GAME_IS ~tutu~ THEN BEGIN
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
 	/* tp2, d, and baf parsing variables */
 	OUTER_SPRINT "tutorbgt" "tutu"
 	OUTER_SPRINT "tutubgtbgee" "tutu"
@@ -77,11 +77,6 @@ ACTION_IF GAME_IS ~tutu~ THEN BEGIN
 	/* Items and Variables that need special handling */
 	OUTER_SPRINT "KICKED_OUT" "KickedOut"
 	OUTER_SPRINT "tazokminhp" "TAZOKHP1"
-    OUTER_SPRINT "VoiceStrange" "True()"
-    OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
-    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
-	OUTER_SPRINT "port_s" "s"
-	OUTER_SPRINT "port_l" "m"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
 	OUTER_SET firebeadstate1 = 1

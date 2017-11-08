@@ -56,6 +56,9 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
 	END
 END
 
+/* include special variables */
+INCLUDE ~bg1npc/lib/bg1npc_specvar.tpa~
+
 /* include dream scripts */
 INCLUDE ~bg1npc/lib/g3_dreamscript_cpmvars.tpa~
 

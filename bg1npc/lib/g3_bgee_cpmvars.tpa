@@ -77,15 +77,6 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	/* Items and Variables that need special handling */
 	OUTER_SPRINT "KICKED_OUT" "KickedOut"
 	OUTER_SPRINT "tazokminhp" "MIHP1"
-    OUTER_SPRINT "VoiceStrange" "False()"
-    OUTER_SPRINT "RunAwayFrom" "RunAwayFromNoLeaveArea"
-    ACTION_IF FILE_EXISTS_IN_GAME ~corwyvrn.cre~ THEN BEGIN
-    	OUTER_SPRINT "CorWyvrn"	"CORWYVRN"
-    END ELSE BEGIN
-    	OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
-    END
-	OUTER_SPRINT "port_s" "m"
-	OUTER_SPRINT "port_l" "l"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
 	OUTER_SET firebeadstate1 = 3
