@@ -581,7 +581,8 @@ END
 /* BEGIN PHASE I BG1NPC PROJECT */
 BEGIN @1007
   GROUP @1006
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
    COPY ~bg1npc/Core/X#component.xx~ ~override/X#BG1NPCPhase1.G3~
    COPY ~bg1npc/Core/X#component.xx~ ~override/X#BG1NPCPhase2.G3~ //legacy file, leave in
 
@@ -747,31 +748,31 @@ BEGIN @1007
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#PCBURY.D~
 
   /* Dream script compilation */
-  EXTEND_TOP ~%tutu_var%EDWIND.bcs~   ~bg1npc/Phase1/baf/P#EDWIND.BAF~
+  EXTEND_TOP ~%EDWIN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#EDWIND.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%ELDOTD.bcs~   ~bg1npc/Phase1/baf/P#ELDOTD.BAF~
+  EXTEND_TOP ~%ELDOTH_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#ELDOTD.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%IMOEND.bcs~   ~bg1npc/Phase1/baf/P#IMOEND.BAF~
+  EXTEND_TOP ~%IMOEN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#IMOEND.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%KAGAID.bcs~   ~bg1npc/Phase1/baf/P#KAGAID.BAF~
+  EXTEND_TOP ~%KAGAIN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#KAGAID.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%KIVAND.bcs~   ~bg1npc/Phase1/baf/P#KIVAND.BAF~
+  EXTEND_TOP ~%KIVAN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#KIVAND.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%MINSCD.bcs~   ~bg1npc/Phase1/baf/P#MINSCD.BAF~
+  EXTEND_TOP ~%MINSC_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#MINSCD.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%MONTAD.bcs~   ~bg1npc/Phase1/baf/P#MONTAD.BAF~
+  EXTEND_TOP ~%MONTARON_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#MONTAD.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%SHARTD.bcs~   ~bg1npc/Phase1/baf/P#SHARTD.BAF~
+  EXTEND_TOP ~%SHARTEEL_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#SHARTD.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%SKIED.bcs~    ~bg1npc/Phase1/baf/P#SKIED.BAF~
+  EXTEND_TOP ~%SKIE_DREAM%.bcs~    ~bg1npc/Phase1/baf/P#SKIED.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%VICOND.bcs~   ~bg1npc/Phase1/baf/P#VICOND.BAF~
+  EXTEND_TOP ~%VICONIA_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#VICOND.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%XZARD.bcs~    ~bg1npc/Phase1/baf/P#XZARD.BAF~
+  EXTEND_TOP ~%XZAR_DREAM%.bcs~    ~bg1npc/Phase1/baf/P#XZARD.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%YESLID.bcs~   ~bg1npc/Phase1/baf/P#YESLID.BAF~
+  EXTEND_TOP ~%YESLICK_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#YESLID.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP ~%tutu_var%GARRID.bcs~   ~bg1npc/Phase1/baf/P#GARRID.BAF~
+  EXTEND_TOP ~%GARRICK_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#GARRID.BAF~
     EVALUATE_BUFFER
 
   /* NPC override script compilation */
@@ -863,9 +864,11 @@ BEGIN @1007
     WRITE_ASCII 0x280 ~izefia~ #32 //  death variable X#FAINT.D
   BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING  ~%tutu_var%entill.cre~ ~override~
-    WRITE_ASCII 0x280 ~entill~ #32 //  death variable X#JAINT.D
-  BUT_ONLY_IF_IT_CHANGES
+  ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+    COPY_EXISTING  ~%tutu_var%entill.cre~ ~override~ /* has script name "Entillis" in BG:EE */
+      WRITE_ASCII 0x280 ~entillis~ #32 //  death variable X#JAINT.D
+    BUT_ONLY_IF_IT_CHANGES
+  END
 
 /* this does not work because PHLYDI3.cre changes into a doppelganger and the assigned DV does not trigger.
 Taken out because there is no dialogue that needs this. 
@@ -3133,7 +3136,8 @@ END
 /* Edwin */
 BEGIN @1022 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 ACTION_FOR_EACH edwin IN "%tutu_var%edwin" "%tutu_var%edwin2" "%tutu_var%edwin4" "%tutu_var%edwin6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
     COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
@@ -3148,7 +3152,8 @@ END
 /* Imoen */
 BEGIN @1023 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 ACTION_FOR_EACH imoen IN "%tutu_var%imoen" "%tutu_var%imoen1" "%tutu_var%imoen2" "%tutu_var%imoen4" "%tutu_imoen6%" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
     COPY_EXISTING "%imoen%.cre" ~override~
@@ -3163,7 +3168,8 @@ END
 /* Jaheira */
 BEGIN @1024  /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 ACTION_FOR_EACH jaheira IN "%tutu_var%jaheir" "%tutu_var%jaheir2" "%tutu_var%jaheir4" "%tutu_var%jaheir6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
     COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
@@ -3178,7 +3184,8 @@ END
 /* Minsc */
 BEGIN @1025 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 ACTION_FOR_EACH minsc IN "%tutu_var%minsc" "%tutu_var%minsc2" "%tutu_var%minsc4" "%tutu_var%minsc6" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
     COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
@@ -3193,7 +3200,8 @@ END
 /* Viconia */
 BEGIN @1026  /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
   GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 ACTION_FOR_EACH viconia IN "%tutu_var%viconi" "%tutu_var%viconi4" "%tutu_viconi6%" BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
     COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
@@ -3208,7 +3216,8 @@ END
 /* Kivan */
 BEGIN @1027  /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Phase2/Portraits/%bgee%P#KI2L.bmp~ ~override~
   COPY ~bg1npc/Phase2/Portraits/%bgee%P#KI2M.bmp~ ~override~
   COPY ~bg1npc/Phase2/Portraits/%bgee%P#KI2S.bmp~ ~override~
@@ -3227,7 +3236,8 @@ END
 BEGIN @1009 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
-REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   	
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
   
@@ -3758,7 +3768,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
 /* AJANTIS ROMANCE */
 BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#AjantisRomance.G3~
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -3852,7 +3863,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
 
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/Phase3/AJROM/baf/X#AJROM.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP  ~%tutu_var%AJANTD.BCS~ ~bg1npc/Phase3/AJROM/baf/X#AJROD.BAF~
+  EXTEND_TOP  ~%AJANTIS_DREAM%.BCS~ ~bg1npc/Phase3/AJROM/baf/X#AJROD.BAF~
     EVALUATE_BUFFER
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/Phase3/AJROM/baf/X#AjantisRomNPC.baf~
     EVALUATE_BUFFER
@@ -3878,7 +3889,8 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
 /* BRANWEN ROMANCE */
 BEGIN @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#BranwenRomance.G3~
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -3917,7 +3929,7 @@ BEGIN @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   /* script */
     EXTEND_TOP  ~%BRANWEN_BCS%.BCS~ ~bg1npc/Phase3/BRROM/baf/P#BRROM.baf~
       EVALUATE_BUFFER
-    EXTEND_TOP   ~%tutu_var%BRANWD.BCS~ ~bg1npc/Phase3/BRROM/baf/P#BRROD.baf~
+    EXTEND_TOP   ~%BRANWEN_DREAM%.BCS~ ~bg1npc/Phase3/BRROM/baf/P#BRROD.baf~
       EVALUATE_BUFFER
 
   /* dialogue */
@@ -3926,7 +3938,8 @@ BEGIN @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 /* CORAN ROMANCE */
 BEGIN @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#CoranRomance.G3~
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -3993,7 +4006,7 @@ BEGIN @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase3/COROM/dlg/P#CORLT.D~
 
   /* Flirt scripts */
-  EXTEND_TOP  ~%tutu_var%CORAND.BCS~ ~bg1npc/Phase3/COROM/baf/P#CORAND.BAF~
+  EXTEND_TOP  ~%CORAN_DREAM%.BCS~ ~bg1npc/Phase3/COROM/baf/P#CORAND.BAF~
     EVALUATE_BUFFER
   EXTEND_TOP  ~%CORAN_BCS%.BCS~   ~bg1npc/Phase3/COROM/baf/P#COROM.BAF~
     EVALUATE_BUFFER
@@ -4017,7 +4030,8 @@ BEGIN @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
 /* DYNAHEIR ROMANCE */
 BEGIN @1012  /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 GROUP @1010  /* The BG1 NPC Project: Romances */
-REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#DynaheirRomance.G3~
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -4438,7 +4452,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase3/DYROM/dlg/X#DYRONPC.D~
 
   /* scripts */
-  EXTEND_TOP  ~%tutu_var%DYNAHD.BCS~ ~bg1npc/Phase3/DYROM/baf/X#DYNAHD.baf~
+  EXTEND_TOP  ~%DYNAHEIR_DREAM%.BCS~ ~bg1npc/Phase3/DYROM/baf/X#DYNAHD.baf~
   EVALUATE_BUFFER
   EXTEND_TOP  ~%DYNAHEIR_BCS%.BCS~ ~bg1npc/Phase3/DYROM/baf/P#DYROM.baf~
   EVALUATE_BUFFER
@@ -4465,7 +4479,7 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
     EVALUATE_BUFFER
   EXTEND_TOP  ~%YESLICK_BCS%.BCS~ ~bg1npc/Phase3/DYROM/baf/X#DYERE.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP  ~%tutu_var%YESLID.BCS~ ~bg1npc/Phase3/DYROM/baf/X#DYERED.BAF~
+  EXTEND_TOP  ~%YESLICK_DREAM%.BCS~ ~bg1npc/Phase3/DYROM/baf/X#DYERED.BAF~
     EVALUATE_BUFFER
 
   /* Add Portraits if NJNPC Portraits was chosen */
@@ -4497,7 +4511,8 @@ REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes compon
 /* SHAR-TEEL ROMANCE */
 BEGIN @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#SharTeelRomance.G3~
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -4536,7 +4551,7 @@ BEGIN @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) 
   /* script */
   EXTEND_TOP  ~%SHARTEEL_BCS%.BCS~   ~bg1npc/Phase3/SHROM/baf/X#SHROM.baf~
       EVALUATE_BUFFER
-  EXTEND_TOP  ~%tutu_var%SHARTD.BCS~   ~bg1npc/Phase3/SHROM/baf/X#SHROMD.baf~
+  EXTEND_TOP  ~%SHARTEEL_DREAM%.BCS~   ~bg1npc/Phase3/SHROM/baf/X#SHROMD.baf~
       EVALUATE_BUFFER
 
   /* dialogue */
@@ -4545,7 +4560,8 @@ BEGIN @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) 
 /* XAN ROMANCE */
 BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#XanRomance.G3~
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -4595,7 +4611,7 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
          REPLACE 99999 @475
 
   /* Script */
-  EXTEND_TOP  ~%tutu_var%XAND.BCS~ ~bg1npc/Phase3/XAROM/baf/X#XAROD.BAF~
+  EXTEND_TOP  ~%XAN_DREAM%.BCS~ ~bg1npc/Phase3/XAROM/baf/X#XAROD.BAF~
     EVALUATE_BUFFER
   EXTEND_TOP  ~%XAN_BCS%.BCS~ ~bg1npc/Phase3/XAROM/baf/X#XAROM.BAF~
     EVALUATE_BUFFER
@@ -4621,7 +4637,8 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
 BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
   GROUP @1010  /* The BG1 NPC Project: Romances */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#FemaleRomChal.G3~
 
   /* makes sure PIDs go last */
@@ -5009,7 +5026,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* NPC scripts */
   EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/Phase3/CHALLENGE/baf/X#CHALL0.BAF~
     EVALUATE_BUFFER
-  EXTEND_TOP  ~%tutu_var%AJANTD.BCS~ ~bg1npc/Phase3/CHALLENGE/baf/X#CHALL1.BAF~
+  EXTEND_TOP  ~%AJANTIS_DREAM%.BCS~ ~bg1npc/Phase3/CHALLENGE/baf/X#CHALL1.BAF~
     EVALUATE_BUFFER
   EXTEND_TOP  ~%CORAN_BCS%.BCS~ ~bg1npc/Phase3/CHALLENGE/baf/X#CHALL8.BAF~
     EVALUATE_BUFFER
@@ -5079,7 +5096,8 @@ BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (!FILE_EXISTS_IN_GAME ~dw#12.xxx~) @1066 /* This component is already handled by Sword Coast Strategems. To use the BG1 NPC version, please uninstall the SCS version first. */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#WaitAtInn.G3~
 
   /* makes sure PIDs go last */
@@ -5111,14 +5129,16 @@ BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
 BEGIN @1067 /* Alora Starts in the Hall of Wonders. */
   SUBCOMPONENT @1068  /* The BG1 NPC Project: Alora's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1069  /* Alora will start in the Hall of Wonders as in the original game. */
 
 /* Alora Starts in Gullykin */
 BEGIN @1070  /* Alora Starts in Gullykin. */
   SUBCOMPONENT @1068  /* The BG1 NPC Project: Alora's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#AloraMove.G3~
 
   /* makes sure PIDs go last */
@@ -5171,7 +5191,8 @@ BEGIN @1072 /* Eldoth Starts in the Cloakwood Forest. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1074 /* Eldoth will start in the Cloakwood as in the original game. */
 
 /* Eldoth Starts on the Coast Way */
@@ -5179,7 +5200,8 @@ BEGIN @1075 /* Eldoth Starts on the Coast Way. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#EldothMove.G3~
 
   /*Patching _ELDOTH.bcs */
@@ -5209,7 +5231,8 @@ BEGIN @1077  /* Quayle Starts at the Wyrm's Crossing. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1079  /* Quayle will start at the Wyrm's Crossing as in the original game. */
 
 /* Quayle Starts at the Nashkel Carnival */
@@ -5217,7 +5240,8 @@ BEGIN @1081 /* Quayle Starts at the Nashkel Carnival. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#QuayleMove.G3~
 
   COPY_EXISTING ~baldur.gam~ ~override~
@@ -5240,7 +5264,8 @@ BEGIN @1083 /* Tiax Starts in Baldur's Gate. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     PRINT @1085 /* Tiax will start in Baldur's Gate as in the original game. */
 
 /* Tiax Starts in Beregost */
@@ -5248,7 +5273,8 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#TiaxMove.G3~
 
   COPY_EXISTING ~baldur.gam~ ~override~
@@ -5269,9 +5295,10 @@ BEGIN @1086  /* Tiax Starts in Beregost. */
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
 BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
   REQUIRE_PREDICATE (!GAME_IS ~bgee eet~) @5001 /* You must have BGT or TuTu installed for this component. */
   FORBID_FILE ~override/bantergoose.xxx~ @1089  /* You already have the Banter Accelerator installed. */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     COPY ~bg1npc/Bantergoose/bantergoose.xxx~ ~override/bantergoose.xxx~
     EXTEND_TOP ~baldur.bcs~ ~bg1npc/bantergoose/bantergoose.baf~
 
@@ -5280,7 +5307,8 @@ BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
 BEGIN @1123 /* BGEE Banter Timing Tweak */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   COPY ~bg1npc/Core/X#component.xx~ ~override/AYBanterTimingTweak.xxx~
   
@@ -5336,7 +5364,8 @@ BEGIN @1123 /* BGEE Banter Timing Tweak */
 BEGIN @1092 /* The BG1 NPC Project: Make Shar-Teel Unkillable until In Party */
 GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @1093 /* This component is only useful for Tutu installs. */
-	REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//	REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 	/* Stop Shar-Teel's Premature Death */
     	ACTION_FOR_EACH ~file~ IN ~_sharte~ ~_sharte4~ ~_sharte6~ BEGIN
 		ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
@@ -5351,7 +5380,8 @@ GROUP @1065 /* The BG1 NPC Project: Tweaks */
 
 BEGIN @1094  /* The BG1 NPC Project: Bardic Reputation Adjustment */
 GROUP @1065 /* The BG1 NPC Project: Tweaks */
-REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   /* makes sure PIDs go last */
   UNINSTALL ~bg1npc.tp2~ 200
@@ -5436,7 +5466,8 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
   SUBCOMPONENT @1019  /* The BG1 NPC Project: Cloakwood areas availability in Chapter One */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#BG1NPCCloakLodge.G3~
   COPY_EXISTING ~worldmap.wmp~ ~override~
     READ_LONG  0x30 "area_num"
@@ -5466,7 +5497,8 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   SUBCOMPONENT @1019  /* The BG1 NPC Project: Cloakwood areas availability in Chapter One */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#BG1NPCCloakwood.G3~
     
   COPY_EXISTING ~worldmap.wmp~ ~override~
@@ -5496,7 +5528,8 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
 BEGIN @1114 /* The BG1 NPC Project: SixofSpades Extended Sarevok's Diary */
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   /* SixofSpades Sarevok's Diary changes: Tutu, BGT, BGEE, EET */
   COPY_EXISTING ~%tutu_var%SCRL3F.itm~ ~override~
@@ -5509,7 +5542,8 @@ BEGIN @1114 /* The BG1 NPC Project: SixofSpades Extended Sarevok's Diary */
 BEGIN @1116 /* The BG1 NPC Project: Sarevok's Diary Date Changes only */
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   /* Fixing Sarevok's Diary dates changed only: Tutu, BGT, BGEE, EET */
   COPY_EXISTING ~%tutu_var%SCRL3F.itm~ ~override~
@@ -5523,7 +5557,8 @@ BEGIN @1116 /* The BG1 NPC Project: Sarevok's Diary Date Changes only */
 BEGIN @1090 /* The BG1 NPC Project: Check for TutuFix Walking Speeds */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @1093 /* This component is only useful for Tutu installs. */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     /* Detect Walking Speeds install */
     COPY_EXISTING ~_montar.cre~ ~override~
       READ_BYTE  0x33 "eff_version"
@@ -5599,7 +5634,8 @@ BEGIN @1090 /* The BG1 NPC Project: Check for TutuFix Walking Speeds */
 
 /* Player-Initiated Dialogues  -always keep the VERY last of BG1NPC to compile! */
 BEGIN @1091 DESIGNATED 200    /* The BG1 NPC Project: Player-Initiated Dialogues */
-  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
     /* set up .tra files for Tutu vs BGT sound resources, create platform files */
     COPY ~bg1npc/TRA/%LANGUAGE%/X#PCINIT_tmp.tra~ ~bg1npc/TRA/%LANGUAGE%/X#PCINIT.tra~
         EVALUATE_BUFFER

@@ -126,12 +126,12 @@ COPY_EXISTING ~interdia.2da~ ~override~
 
 /* Imoen BIMOEN.DLG check for Tutu */
 ACTION_IF NOT (FILE_EXISTS_IN_GAME ~_bimoen.dlg~) AND (GAME_IS ~tutu tutu_totsc~) THEN BEGIN
-	COMPILE ~%MOD_FOLDER%/Core/dlg/X#BIMOEN_TUTU.D~
+	COMPILE ~bg1npc/Core/dlg/X#BIMOEN_TUTU.D~
 END
   
 /* Imoen BIMOEN.DLG check for BGT */
 ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bimoen2.dlg~) AND (GAME_IS ~bgt~) THEN BEGIN
-	COMPILE ~%MOD_FOLDER%/Core/dlg/X#BIMOEN_BGT.D~
+	COMPILE ~bg1npc/Core/dlg/X#BIMOEN_BGT.D~
 END 
   
 /* Cam's 2DA Neutral/Happy interjection restoration : Tutu|BGT only (BG:EE has already modified happy.2da) */

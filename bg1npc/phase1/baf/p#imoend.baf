@@ -12,19 +12,6 @@ THEN
 RESPONSE #100
 SetGlobal("X#ImoenYesl1","GLOBAL",1)
 RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
-END
-
-IF %BGT_VAR%
-Global("X#ImoenYesl1","GLOBAL",1)
-RealGlobalTimerExpired("X#DreamTalk","GLOBAL")
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InParty("yeslick")
-!StateCheck("yeslick",CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
 StartDialogueNoSet("yeslick")
 END
+
