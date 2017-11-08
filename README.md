@@ -15,7 +15,7 @@
 **On the web: [Home page](http://www.gibberlings3.net/bg1npc/)** and **[discussion forum](http://gibberlings3.net/forums/index.php?showforum=45)**
 For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](http://www.gibberlings3.net/). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net/).
 
-**Version** 22.9 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+**Version** 23 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
 **Languages:** English, Spanish, French, Polish, German* (teilweise noch in englisch)
 **Platforms:** Windows, Mac OS X, and Linux
 
