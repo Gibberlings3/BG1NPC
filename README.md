@@ -266,6 +266,7 @@ The philosophy driving coding in this project is to preserve compatibility with 
 *   In .DLG: Use of I_C_T with passback or I_C_T3 with passback for maximum compatibility with multiple interjections into the same state.
 *   | TuTu | Variable | Associated | BGT |
     | dream | %bgdreams% | player1d | BG1Dream |
+    |---|---|---|---|
     | 2 | %bgdream1% | DRMTXT-2 has played | 1 |
     | 3 | %bgdream2% | DRMTXT-3 has played | 2 |
     | 4 | %bgdream3% | DRMTXT-4 has played | 3 |
@@ -580,6 +581,31 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Int
 ## <a name="history" id="history">Version History</a>
 
 <div class="section">
+
+**Version 23 - 2017-11-07**
+
+*   Updates for EET compatibility to bg1npc.tp2 and x#player1_bgee.d.
+*   Moving some large code blocks to .tpa files to clean up bg1npc.tp2
+*   Fixed hardcoded strings in x#mag14d.baf
+*   Fixed bug with Amarande dialog
+*   Fixed bug with Edwin's golems in Spiderwood
+*   Fixed bug with Winski's demon spawning neutral
+*   Fixed minsc dialogue problame x#miint.d + x#miint2.baf
+*   (BGT) Jaheira's interjection in Black Lotus tent
+*   Remove added trans triggers from Seniyad's dialog
+*   Replace David Jansen's "shout" script 
+*   tp2: changed from REQUIRE_FILE to REQUIRE_COMPONENT to enable automated deinstall of components if the required component is deinstalled
+*   corrected Imoen-Yeslick rest banter for BGT
+*   added li/g3_dreamscript_cpmvars.tpa for dream scripts of NPCs
+*   lib/tp2: removed eet_cpmvars and linked to EET original one instead (not used yet anyway)
+*   unified DV or entill.cre to "Entillis" as it is in BG:EE and fixed usage in x#jaint.d
+*   x#dyered.baf: added "See("dynaheir") to trigger (although it might not be needed because group can only sleep if together) 
+*   Typos and many small bugs quashed!
+*   Un-hardcoded strings for Imoen's Tome
+*   Adding an unused line for Imoen's dialogue about Tarnesh's spellbook
+*   Copying over x#blank.wav to silence default dialog sounds
+*   Updates to German, French, and Polish translations
+
 
 **Version 22.8 - 2017-03-25**
 
