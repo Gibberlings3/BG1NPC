@@ -43,6 +43,9 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
 		PRINT @1000
 		INCLUDE ~bg1npc/lib/g3_tutu_cpmvars.tpa~
 		OUTER_SPRINT ~bgee~ ~~
+
+		APPEND ~GTIMES.IDS~  ~12 TWO_ROUNDS~    UNLESS ~TWO_ROUNDS~
+
 	END ELSE BEGIN
 	/* BGT */
     	ACTION_IF GAME_IS ~bgt~ THEN BEGIN
