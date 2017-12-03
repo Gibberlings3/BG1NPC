@@ -28,7 +28,7 @@
         <br/>
       </p>
       <p>
-        <strong>Version 22.7 - <a href="http://gibberlings3.net/forums/index.php?app=downloads&showcat=11">Vérifiez la version la plus récente</a></strong>
+        <strong>Version 23 - <a href="http://gibberlings3.net/forums/index.php?app=downloads&showcat=11">Vérifiez la version la plus récente</a></strong>
         <br/>
         <strong>Langues :</strong> Anglais, Espagnol, Français, Polonais, Allemand* (teilweise noch in englisch)
         <br/>
@@ -1309,6 +1309,32 @@
       <p>
         <em>[NdT : cette section est intentionnellement laissée en anglais. Pour paraphraser une certaine publicité, "avoir certaines informations importantes dans sa langue, ça n'a pas de prix, pour le reste, il y a XXX Translate" (remplacez XXX par votre site préféré de traduction en ligne).]</em>
       </p>
+      <p>
+        <strong>Version 23 - 2017-11-07</strong>
+     </p>
+      <ul>
+		<li>Updates for EET compatibility to bg1npc.tp2 and x#player1_bgee.d.
+		<li>Moving some large code blocks to .tpa files to clean up bg1npc.tp2
+		<li>Fixed hardcoded strings in x#mag14d.baf
+		<li>Fixed bug with Amarande dialog
+		<li>Fixed bug with Edwin's golems in Spiderwood
+		<li>Fixed bug with Winski's demon spawning neutral
+		<li>Fixed minsc dialogue problame x#miint.d + x#miint2.baf
+		<li>(BGT) Jaheira's interjection in Black Lotus tent
+		<li>Remove added trans triggers from Seniyad's dialog
+		<li>Replace David Jansen's "shout" script 
+		<li>tp2: changed from REQUIRE_FILE to REQUIRE_COMPONENT to enable automated deinstall of components if the required component is deinstalled
+		<li>corrected Imoen-Yeslick rest banter for BGT
+		<li>added li/g3_dreamscript_cpmvars.tpa for dream scripts of NPCs
+		<li>lib/tp2: removed eet_cpmvars and linked to EET original one instead (not used yet anyway)
+		<li>unified DV or entill.cre to "Entillis" as it is in BG:EE and fixed usage in x#jaint.d
+		<li>x#dyered.baf: added "See("dynaheir") to trigger (although it might not be needed because group can only sleep if together) 
+		<li>Typos and many small bugs quashed!
+		<li>Un-hardcoded strings for Imoen's Tome
+		<li>Adding an unused line for Imoen's dialogue about Tarnesh's spellbook
+		<li>Copying over x#blank.wav to silence default dialog sounds
+		<li>Updates to German, French, and Polish translations
+	  </ul>
       <p>
         <strong>Version 22.8 - 2017-03-25</strong>
      </p>

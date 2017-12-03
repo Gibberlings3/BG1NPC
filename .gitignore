@@ -11,3 +11,4 @@ bg1npc-*.exe
 osx-bg1npc-*.tar.gz
 lin-bg1npc-*.tar.gz
 package_mod.bat
+package_mod.sh
