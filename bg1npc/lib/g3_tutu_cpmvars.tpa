@@ -11,7 +11,7 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
 	OUTER_SPRINT "bgdream5" "6"
 	OUTER_SPRINT "bgdream6" "7"
 	OUTER_SPRINT "tutu_var" "_"
-	OUTER_SPRINT "tutu_scriptbg" ""//BGT 'BG' prefix
+	OUTER_SPRINT "tutu_scriptbg" "_"//BGT 'BG' prefix
 	OUTER_SPRINT "tutu_scripta" "_"
 	OUTER_SPRINT "tutu_scriptb" "_"
 	OUTER_SPRINT "tutu_scriptc" "_"
