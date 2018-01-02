@@ -967,7 +967,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%FishingVillage_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW1400.BAF~
       EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%Undercellars_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0112.BAF~
+  EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0112.BAF~
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%EBaldursGate_SorcerousSundries_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0704.BAF~
       EVALUATE_BUFFER
