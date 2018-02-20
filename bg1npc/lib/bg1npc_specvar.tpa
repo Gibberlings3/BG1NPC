@@ -13,6 +13,9 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
     OUTER_SET housg3state5 = 0
+    
+    /* DisplayStringNoNameHead requires ToB or EE engine */
+    OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
 END
 
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
@@ -24,6 +27,13 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
     OUTER_SET housg3state5 = 5
+
+    /* DisplayStringNoNameHead requires ToB or EE engine */
+    ACTION_IF ENGINE_IS ~tob~ THEN BEGIN
+    	OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
+    END ELSE BEGIN
+    	OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringHead"    
+    END
 END
 
 ACTION_IF GAME_IS ~bgt~ THEN BEGIN
@@ -35,4 +45,7 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
     OUTER_SET housg3state5 = 5
+
+    /* DisplayStringNoNameHead requires ToB or EE engine */
+    OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
 END

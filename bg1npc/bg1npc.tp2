@@ -14,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v23~
+VERSION ~v23.3~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -967,7 +967,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%FishingVillage_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW1400.BAF~
       EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%Undercellars_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0112.BAF~
+  EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0112.BAF~
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%EBaldursGate_SorcerousSundries_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0704.BAF~
       EVALUATE_BUFFER
@@ -5519,7 +5519,7 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
 
   COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodNest%")~
+      REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodMines%")~
     END
   BUT_ONLY_IF_IT_CHANGES
 

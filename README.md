@@ -15,7 +15,7 @@
 **On the web: [Home page](http://www.gibberlings3.net/bg1npc/)** and **[discussion forum](http://gibberlings3.net/forums/index.php?showforum=45)**
 For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](http://www.gibberlings3.net/). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net/).
 
-**Version** 23 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+**Version** 23.1 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
 **Languages:** English, Spanish, French, Polish, German* (teilweise noch in englisch)
 **Platforms:** Windows, Mac OS X, and Linux
 
@@ -581,6 +581,10 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Int
 ## <a name="history" id="history">Version History</a>
 
 <div class="section">
+
+**Version 23.1 - 2017-12-03**
+
+* Fixed Tutu install + more German proofreadings from jastey
 
 **Version 23 - 2017-11-07**
 

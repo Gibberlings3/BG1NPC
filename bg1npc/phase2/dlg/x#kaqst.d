@@ -4,18 +4,16 @@ REPLACE_STATE_TRIGGER ~%KAGAIN_JOINED%~ 0 ~False()~
 
 ADD_TRANS_ACTION ~%tutu_var%KAGAIN~ BEGIN 0 END BEGIN END ~SetGlobal("KagainCaravan","GLOBAL",20)~
 
-ADD_TRANS_ACTION  ~%tutu_var%KAGAIN~ BEGIN 7 END BEGIN END ~SetGlobal("KagainCaravan","GLOBAL",20) SetGlobal("X#KagainCaravan","GLOBAL",1)~
+ADD_TRANS_ACTION ~%tutu_var%KAGAIN~ BEGIN 7 END BEGIN END ~SetGlobal("KagainCaravan","GLOBAL",20) SetGlobal("X#KagainCaravan","GLOBAL",1)~
 
 /* making sure the quest can't happen if Eddard is already dead */
-//EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 2
-//IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN REPLY @0 GOTO X#KagQuestDerail1
-//END
+EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 2
+IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN REPLY @0 GOTO X#KagQuestDerail1
+END
 
-//EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 7
-//IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN GOTO X#KagQuestDerail2
-//END 
-
+ADD_TRANS_TRIGGER ~%tutu_var%KAGAIN~ 7 ~!Global("X#CaravanBanditEncounter","GLOBAL",2)~ DO 0
 EXTEND_BOTTOM ~%tutu_var%KAGAIN~ 7
+//IF ~Global("X#CaravanBanditEncounter","GLOBAL",2)~ THEN GOTO X#KagQuestDerail2
 IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) PartyHasItem("X#SILSH")~ THEN REPLY @29 GOTO X#KagBandResolvAlone
 IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) PartyHasItem("X#SILSH")~ THEN REPLY @26 GOTO X#KagBandResolvAlone
 IF ~Global("X#CaravanBanditEncounter","GLOBAL",2) PartyHasItem("X#SILSH")~ THEN REPLY @30 GOTO X#KagBandResolvAlone
@@ -66,21 +64,23 @@ IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) 
 
 APPEND ~%tutu_var%KAGAIN~
 
-/*IF ~~ THEN BEGIN X#KagQuestDerail1
+IF ~~ THEN BEGIN X#KagQuestDerail1
 SAY @24
-++ @25 GOTO X#KagBandResolvAlone
-++ @26 GOTO X#KagBandResolvAlone
-++ @27 GOTO X#KagBandResolvAlone
+IF ~PartyHasItem("X#SILSH")~ THEN REPLY @25 GOTO X#KagBandResolvAlone
+IF ~PartyHasItem("X#SILSH")~ THEN REPLY @26 GOTO X#KagBandResolvAlone
+IF ~PartyHasItem("X#SILSH")~ THEN REPLY @27 GOTO X#KagBandResolvAlone
+IF ~!PartyHasItem("X#SILSH")~ THEN REPLY @55 GOTO X#KagBandResolvAlone2
+IF ~!PartyHasItem("X#SILSH")~ THEN REPLY @51 GOTO X#KagBandResolvAlone2
 END
-*/
 
-/*IF ~~ THEN BEGIN X#KagQuestDerail2
+/* IF ~~ THEN BEGIN X#KagQuestDerail2
 SAY @28
-++ @29 GOTO X#KagBandResolvAlone
-++ @26 GOTO X#KagBandResolvAlone
-++ @30 GOTO X#KagBandResolvAlone
-END
-*/
+IF ~PartyHasItem("X#SILSH")~ THEN REPLY @29 GOTO X#KagBandResolvAlone
+IF ~PartyHasItem("X#SILSH")~ THEN REPLY @26 GOTO X#KagBandResolvAlone
+IF ~PartyHasItem("X#SILSH")~ THEN REPLY @30 GOTO X#KagBandResolvAlone
+IF ~!PartyHasItem("X#SILSH")~ THEN REPLY @50 GOTO X#KagBandResolvAlone2
+IF ~!PartyHasItem("X#SILSH")~ THEN REPLY @51 GOTO X#KagBandResolvAlone2
+END */
 
 IF ~~ THEN BEGIN X#KagBandResolvAlone
 SAY @31

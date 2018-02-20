@@ -31,9 +31,9 @@ RESPONSE #100
 SetGlobal("X#PCBuryGorion","GLOBAL",2)
 SetGlobal("X#KeepBuryGorion","GLOBAL",2)
 SetGlobal("X#GorionBuried","GLOBAL",1)
-DisplayStringNoNameHead(Player1,@0)
+%DisplayStringNoNameHead%(Player1,@0)
 Wait(3)
-DisplayStringNoNameHead(Player1,@1)
+%DisplayStringNoNameHead%(Player1,@1)
 ActionOverride("gorion",DestroySelf())
 END
 
@@ -49,6 +49,6 @@ RESPONSE #100
 SetGlobal("X#PCBuryGorion","GLOBAL",2)
 SetGlobal("X#KeepBuryGorion","GLOBAL",2)
 SetGlobal("X#GorionBuried","GLOBAL",1)
-DisplayStringNoNameHead(Player1,@2)
+%DisplayStringNoNameHead%(Player1,@2)
 ActionOverride("gorion",DestroySelf())
 END
