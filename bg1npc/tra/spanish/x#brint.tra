@@ -1,10 +1,10 @@
-@0    = ~¡Sois tan inteligente como una piedra!~
-@1    = ~Dejad de ladrar, perro. He venido a castigaros por vuestra traición, ¡por vuestras formas! ¡Tempus me proteja!~
-@2    = ~Esperaba que os hubierais vuelto un poco más inteligente, bruja, antes de volverme a molestar. Pero veo que no. ¿Creéis que me asustáis vos y estos perdedores que os liberaron de mi hechizo?~
-@3    = ~Vaca estúpida. Si no os marcháis de mi vista en cinco segundos, ¡os destrozaré!~
-@4    = ~¡No! ¡<CHARNAME> se va, pero yo no! ¡A las armas!~
-@5    = ~Asqueroso infeliz... Matadlo, <CHARNAME>. El que ruega por su vida no tiene honor. Os traicionará con Tazok si dejáis que se escape.~
-@6    = ~No, no lo haré, no lo haré... *bajo su aliento* ¡Arpía!~
+//@0    = ~¡Sois tan inteligente como una piedra!~
+//@1    = ~Dejad de ladrar, perro. He venido a castigaros por vuestra traición, ¡por vuestras formas! ¡Tempus me proteja!~
+//@2    = ~Esperaba que os hubierais vuelto un poco más inteligente, bruja, antes de volverme a molestar. Pero veo que no. ¿Creéis que me asustáis vos y estos perdedores que os liberaron de mi hechizo?~
+//@3    = ~Vaca estúpida. Si no os marcháis de mi vista en cinco segundos, ¡os destrozaré!~
+//@4    = ~¡No! ¡<CHARNAME> se va, pero yo no! ¡A las armas!~
+//@5    = ~Asqueroso infeliz... Matadlo, <CHARNAME>. El que ruega por su vida no tiene honor. Os traicionará con Tazok si dejáis que se escape.~
+//@6    = ~No, no lo haré, no lo haré... *bajo su aliento* ¡Arpía!~
 @7    = ~El Lobo de Mar venera a Umberlee, <CHARNAME>. Venera a las olas y los vientos marinos desde el Abismo. Se la venera por miedo, no por adoración. Los marineros lanzan oro y gemas al mar cuando los azotan las tormentas con la esperanza de apaciguar a la Reina Perra. Sus seguidores son tan violentos como ella. Será una buena batalla, <CHARNAME>, pero si alguna vez vais a navegar... sé que podéis luchar contra hombres, ¿pero contra olas?~
 @8    = ~¡Jajaja! Otra vez, otra vez *aplausos*~
 @9    = ~Nuestro estirado <CHARNAME> en una alfombra de piel de oso. Un pensamiento que no olvidaré.~ ~Nuestra estirada <CHARNAME> en una alfombra de piel de oso. Un pensamiento que no olvidaré.~
@@ -53,7 +53,7 @@
 @52   = ~Es cosa del pasado. El encantamiento ya no existe gracias a <CHARNAME>. Adiós, Tamah, id con las bendiciones de Tempus.~
 @53   = ~No culpéis a <CHARNAME>. Debe actuar por hábito, porque a mí me rescató del mismo estado y yo le ofrecí mis servicios para pagar su bondad.~
 @54   = ~Es cosa del pasado. El encantamiento ya no existe gracias a <CHARNAME>. Adiós, Tamah, id con las bendiciones de Tempus.~
-@55   = ~¡El perro sin honor ha muerto! ¡Tempus, he hecho lo que deseabais! Vamos, bebamos por Tempus y por nuestra victoria, <CHARNAME>!~
+//@55   = ~¡El perro sin honor ha muerto! ¡Tempus, he hecho lo que deseabais! Vamos, bebamos por Tempus y por nuestra victoria, <CHARNAME>!~
 @56   = ~*tiembla* Este lugar huele horrible... algo está frío y rancio... parece familiar. Tempus, dadnos la fuerza para encontrar la fuente.~
 @57   = ~Ah, no hay nada como el olor de la sangre fresca para dar alegría a la nariz y una sonrisa a vuestro rostro. Ugh, éste podría haberse lavado el pelo al menos una vez cada diez días.~
 @58   = ~¡Al fin una batalla que merece la pena! ¡CONOCED VUESTRO DESTINO, DIABLO! ¡TEMPUS VERÁ HERVIR VUESTRA SANGRE!~

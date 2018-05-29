@@ -1,8 +1,8 @@
-@0 = ~T'étais plus futée quand t'étais pétrifiée !~
-@1 = ~Arrête d'aboyer, espèce de roquet. Je suis venue te punir pour ta traitrise et tes mensonges ! Tempus est avec moi !~
-@2 = ~Hé ma grosse, j'espérais que tu t'sois un peu déniaisée avant de revenir m'ennuyer. Mais j'vois que non. Tu crois que j'ai peur de toi et des autres pignoufs qui t'ont libérée de mon sortilège ?~
-@3 = ~Espèce de vache stupide. Si tu ne disparais pas d'ma vue dans les cinq secondes, je t'expédie dans l'autre monde !~
-@4 = ~Non ! <CHARNAME> t'a laissé filer, mais pas moi ! Dégaine tes armes !~
+//@0 = ~T'étais plus futée quand t'étais pétrifiée !~
+//@1 = ~Arrête d'aboyer, espèce de roquet. Je suis venue te punir pour ta traitrise et tes mensonges ! Tempus est avec moi !~
+//@2 = ~Hé ma grosse, j'espérais que tu t'sois un peu déniaisée avant de revenir m'ennuyer. Mais j'vois que non. Tu crois que j'ai peur de toi et des autres pignoufs qui t'ont libérée de mon sortilège ?~
+//@3 = ~Espèce de vache stupide. Si tu ne disparais pas d'ma vue dans les cinq secondes, je t'expédie dans l'autre monde !~
+//@4 = ~Non ! <CHARNAME> t'a laissé filer, mais pas moi ! Dégaine tes armes !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 887, probablement inutile de traduire ici !
 @5 = ~Pauvre type, tu es dégoutant... Tue-le, <CHARNAME>. Celui qui implore grâce n'a aucun honneur. Si tu le laisses partir, il ira voir Tazok et te trahira.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 888, probablement inutile de traduire ici !
@@ -86,7 +86,7 @@
 @52 = ~C'est du passé maintenant. Cet odieux sortilège a été dissipé, grâce à <CHARNAME>. Porte-toi bien, Tamah, et que Tempus te bénisse.~
 @53 = ~Ce n'est pas la faute de <CHARNAME> - ce doit être une habitude, car <PRO_HESHE> m'a aussi sauvée de la pétrification et je lui ai offert mes services pour m'acquitter de ma dette envers sa personne.~
 @54 = ~C'est du passé maintenant. Cet odieux sortilège a été dissipé, grâce à <CHARNAME>. Porte-toi bien, Tamah, et que Tempus te bénisse.~
-@55 = ~Cet ignoble chien est mort ! Tempus, ta volonté est faite ! Viens <CHARNAME>, allons boire à la gloire de Tempus et à la victoire !~
+//@55 = ~Cet ignoble chien est mort ! Tempus, ta volonté est faite ! Viens <CHARNAME>, allons boire à la gloire de Tempus et à la victoire !~
 @56 = ~*elle frissonne* Il y a une odeur nauséabonde ici... quelque chose de froid et fétide, et d'une certaine manière... cette sensation m'est familière. Tempus, donne-nous le courage d'en trouver la source.~
 @57 = ~Ah, rien de mieux que l'odeur du sang frais pour faire frissonner le nez et mettre un sourire sur le visage. Les scalps font de bons trophées. Beurk, celui-là aurait pu faire l'effort de se laver les cheveux ne serait-ce qu'une fois par semaine.~
 @58 = ~Enfin, une bataille digne de moi ! TU VAS MOURIR, MONSTRE ! TEMPUS VA VOIR TON SANG BOUILLIR !~

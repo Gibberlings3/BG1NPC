@@ -1,33 +1,34 @@
 /* Branwen's Interjections */
 /* Coder: Rastor <rastor@rpgdungeonmods.tk> */
 
-APPEND ~%tutu_var%TRANZI~
+// Moved Tranzig Interjections to x#tranzig.d
+// APPEND ~%tutu_var%TRANZI~
 
-IF ~~ X#TranzigStone2
-SAY @0
-IF ~~ THEN GOTO 10
-END
+// IF ~~ X#TranzigStone2
+// SAY @0
+// IF ~~ THEN GOTO 10
+// END
 
-END
+// END
 
 /* Dealing with Tranzig */
-INTERJECT ~%tutu_var%TRANZI~ 0 X#BranwenTranzigDialogue
-== ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @1
-== ~%tutu_var%TRANZI~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @2
-= @3
-END
-IF ~~ THEN EXTERN ~%tutu_var%TRANZI~ 1
+// INTERJECT ~%tutu_var%TRANZI~ 0 X#BranwenTranzigDialogue
+// == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @1
+// == ~%tutu_var%TRANZI~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @2
+// = @3
+// END
+// IF ~~ THEN EXTERN ~%tutu_var%TRANZI~ 1
 
-INTERJECT ~%tutu_var%TRANZI~ 8 X#BranwenTranzigDialogue1
-== ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @4
-END
-IF ~~ THEN EXTERN ~%tutu_var%TRANZI~ X#TranzigStone2
+// INTERJECT ~%tutu_var%TRANZI~ 8 X#BranwenTranzigDialogue1
+// == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @4
+// END
+// IF ~~ THEN EXTERN ~%tutu_var%TRANZI~ X#TranzigStone2
 
-EXTEND_BOTTOM ~%tutu_var%ZEKE~ 0 
+EXTEND_BOTTOM ~%tutu_var%ZEKE~ 0
 + ~!InParty("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ + @1001 + X#UnpetrifiedBranwen
 IF ~Global("X#JaheiraZeke","GLOBAL",1)~ THEN GOTO X#JaheiraHitZeke
 END
- 
+
 APPEND ~%tutu_var%ZEKE~
 IF ~~ X#UnpetrifiedBranwen
 SAY @1002
@@ -201,7 +202,7 @@ OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID)
 OR(3) !InParty("montaron") !InMyArea("montaron") StateCheck("montaron",CD_STATE_NOTVALID)
 OR(3) !InParty("viconia") !InMyArea("viconia") StateCheck("viconia",CD_STATE_NOTVALID)
 ~ THEN @41
-END 
+END
 
 /* Branwen and Xan are in the party but not Montaron or Viconia */
 I_C_T2 ~%tutu_var%BREVLI~ 17 X#BranwenTheftB
@@ -213,8 +214,8 @@ OR(3) !InParty("viconia") !InMyArea("viconia") StateCheck("viconia",CD_STATE_NOT
 ~ THEN @42 DO ~SetGlobal("HelpBrevlik","GLOBAL",1)~
 == ~%tutu_var%BREVLI~ IF ~
 InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)
-InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) 
-OR(3) !InParty("montaron") !InMyArea("montaron") StateCheck("montaron",CD_STATE_NOTVALID) 
+InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)
+OR(3) !InParty("montaron") !InMyArea("montaron") StateCheck("montaron",CD_STATE_NOTVALID)
 OR(3) !InParty("viconia") !InMyArea("viconia") StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @41
 END
 
@@ -222,8 +223,8 @@ END
 I_C_T2 ~%tutu_var%BREVLI~ 17 X#BranwenTheftC
 == ~%BRANWEN_JOINED%~ IF ~
 InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)
-InParty("montaron") InMyArea("montaron") !StateCheck("montaron",CD_STATE_NOTVALID) 
-OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID) 
+InParty("montaron") InMyArea("montaron") !StateCheck("montaron",CD_STATE_NOTVALID)
+OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID)
 OR(3) !InParty("viconia") !InMyArea("viconia") StateCheck("viconia",CD_STATE_NOTVALID)
 ~ THEN @43 DO ~SetGlobal("HelpBrevlik","GLOBAL",1)~
 == ~%tutu_var%BREVLI~ IF ~
@@ -238,8 +239,8 @@ END
 I_C_T2 ~%tutu_var%BREVLI~ 17 X#BranwenTheftD
 == ~%BRANWEN_JOINED%~ IF ~
 InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)
-InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID) 
-OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID) 
+InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)
+OR(3) !InParty("xan") !InMyArea("xan") StateCheck("xan",CD_STATE_NOTVALID)
 OR(3) !InParty("montaron") !InMyArea("montaron") StateCheck("montaron",CD_STATE_NOTVALID)
 ~ THEN @44 DO ~SetGlobal("HelpBrevlik","GLOBAL",1)~
 == ~%tutu_var%BREVLI~ IF ~
@@ -252,7 +253,7 @@ END
 /* New Interjections */
 
 I_C_T ~%tutu_var%TAMAH~ 4 X#BranwenTamah1
-== ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @45 
+== ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @45
 == ~%tutu_var%TAMAH~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @46
 == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @47
 == ~%tutu_var%TAMAH~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @48
@@ -281,10 +282,10 @@ END
 APPEND ~%BRANWEN_JOINED%~
 
 /* Branwen- Tranzig Death */
-IF WEIGHT #-2 ~%BGT_VAR% Global("P#BranTranzig","GLOBAL",1)~ THEN BEGIN BranQuest2
-SAY @55
-IF ~~ THEN DO ~SetGlobal("P#BranTranzig","GLOBAL",2)~ EXIT
-END
+// IF WEIGHT #-2 ~%BGT_VAR% Global("P#BranTranzig","GLOBAL",1)~ THEN BEGIN BranQuest2
+// SAY @55
+// IF ~~ THEN DO ~SetGlobal("P#BranTranzig","GLOBAL",2)~ EXIT
+// END
 
 /* In area FW3500 */
 IF WEIGHT #-2 ~%BGT_VAR% Global("P#BranInFW3500","GLOBAL",1)~ THEN BEGIN BranwenEastTemple

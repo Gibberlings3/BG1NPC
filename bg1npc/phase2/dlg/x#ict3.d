@@ -427,7 +427,7 @@ END
 //== ~%tutu_var%LUCKY~ @127
 //END
 
-/* Areana - Noblewoman and Cyrdemac (Baldur’s Gate N) */
+/* Areana - Noblewoman and Cyrdemac (Baldur's Gate N) */
 /* passback not required - no trans actions */
 I_C_T3 ~%tutu_var%NOBW8~ 3 X#NOBW83
 == ~%SAFANA_JOINED%~ IF ~InParty("safana") InMyArea("safana") !StateCheck("safana",CD_STATE_NOTVALID)~ THEN @128
@@ -2073,16 +2073,16 @@ I_C_T3 ~%tutu_var%TOWNCR~ 0 X#TOWNCR0
 == ~%tutu_var%TOWNCR~ IF ~InParty("xzar") InMyArea("xzar") !StateCheck("xzar",CD_STATE_NOTVALID)~ THEN @885
 END
 
-/* Tranzig */
+/* Tranzig  - Moved to separate file for BGEE v2.5 compatibility */
 /* passback not required - all trans actions relate to journal entries */
-I_C_T3 ~%tutu_var%TRANZI~ 7 X#TRANZI7
-== ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @887
-== ~%tutu_var%TRANZI~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @888
-== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @889
-== ~%tutu_var%TRANZI~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @890
-== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @891
-== ~%tutu_var%TRANZI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @892
-END
+// I_C_T3 ~%tutu_var%TRANZI~ 7 X#TRANZI7
+// == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @887
+// == ~%tutu_var%TRANZI~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @888
+// == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @889
+// == ~%tutu_var%TRANZI~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @890
+// == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @891
+// == ~%tutu_var%TRANZI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @892
+// END
 
 /* Vail */
 /* passback not required - no trans actions */

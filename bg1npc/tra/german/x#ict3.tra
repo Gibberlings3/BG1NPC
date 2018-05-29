@@ -36,7 +36,7 @@
 @34   = ~Gerechtigkeit wurde geübt, und doch... verbleibt ein bitterer Nachgeschmack.~
 @35   = ~<CHARNAME>, I am not pleased with thy handling of this matter. This poor man was cursed, and his torment upon his recovery was genuine. Thou should have found a just and merciful man to surrender him to.~
 @36   = ~You've surrendered him to lawful justice. The people of this town will sleep easier knowing he's no longer a threat.~
-@37   = ~Bei Helm! <CHARNAME>, seht Ihr denn nicht, dass das hier ein Kampf zwischen Gut und Böse ist? Ich stehe in dieser Sache nicht auf Eurer Seite! Meine Ehre verlangt es, dieser Dame zu helfen!~ 
+@37   = ~Bei Helm! <CHARNAME>, seht Ihr denn nicht, dass das hier ein Kampf zwischen Gut und Böse ist? Ich stehe in dieser Sache nicht auf Eurer Seite! Meine Ehre verlangt es, dieser Dame zu helfen!~
 @38   = ~Ich danke Euch, Verfechter der Rechtschaffenheit!~
 @39   = ~I will not stand idly, let alone help you to finish off what gnolls have started by torturing this innocent woman! Lady Dynaheir, it is my pleasure to offer you my assistance against these... bandits.~
 @40   = ~I thank thy noble heart and generous spirit!~
@@ -890,12 +890,12 @@ adventurer's delight.~
 @884  = ~Well... vertically, perhaps, but yes. He seems to have no respect at all for his handiwork.~
 @885  = ~Heh, for me 5,000 gold would be motivation enough to finish him off, if I was an adventurer! Heh, sorry, back to work!~
 @886  = ~Hear ye! Hear ye! By order of his Most Radiant of Lathander Kelddath Ormlyr, governor of Beregost, and in the best interest of its peoples-~
-@887  = ~You are disgusting, wretch... Kill him, <CHARNAME>. One who begs for his life has no honor. He will betray you to Tazok if you let him go.~
-@888  = ~No, I won't, I won't... *under his breath* Harpy!~
-@889  = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
-@890  = ~Bitch.~
-@891  = ~<CHARNAME>, wir dürfen diesen Mistkerl nicht davon kommen lassen, er wird sicher seine Vorgesetzten informieren. Es wäre angeraten, wenn wir das... verhindern könnten, irgendwie...~
-@892  = ~Ihr werdet alle sterben!~
+//@887  = ~You are disgusting, wretch... Kill him, <CHARNAME>. One who begs for his life has no honor. He will betray you to Tazok if you let him go.~
+//@888  = ~No, I won't, I won't... *under his breath* Harpy!~
+//@889  = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
+//@890  = ~Bitch.~
+//@891  = ~<CHARNAME>, wir dürfen diesen Mistkerl nicht davon kommen lassen, er wird sicher seine Vorgesetzten informieren. Es wäre angeraten, wenn wir das... verhindern könnten, irgendwie...~
+//@892  = ~Ihr werdet alle sterben!~
 @893  = ~Es ist nicht sehr, äh, nett, nur Dinge von anderen zu verlangen, <CHARNAME>.~
 @894  = ~<CHARNAME>, magical trinkets are valuable, but men's respect is ever dearer; it cannot be earned by robbing those you have saved of their prized possession. Think on it.~
 @895  = ~Irgend jemand sollte ihm wirklich einen Hinweis geben!~

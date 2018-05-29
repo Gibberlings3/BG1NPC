@@ -1,0 +1,23 @@
+// x#brint.tra @0, @1, @2, @3
+@0    = ~¡Sois tan inteligente como una piedra!~
+@1    = ~Dejad de ladrar, perro. He venido a castigaros por vuestra traición, ¡por vuestras formas! ¡Tempus me proteja!~
+@2    = ~Esperaba que os hubierais vuelto un poco más inteligente, bruja, antes de volverme a molestar. Pero veo que no. ¿Creéis que me asustáis vos y estos perdedores que os liberaron de mi hechizo?~
+@3    = ~Vaca estúpida. Si no os marcháis de mi vista en cinco segundos, ¡os destrozaré!~
+
+// x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
+@4  = ~Sois repugnante, miserable... Matadle, <CHARNAME>. Alguien que suplica por su vida no tiene honor. Os traicionará a Tazok si le dejáis marchar.~
+@5  = ~¡Arpía!~
+@6  = ~¡Mirad, se ha mojado los pantalones! Matémosle para asegurarnos que no procreará. Eso, a menos que sus partes íntimas queden escondidas en su trasero, como la cola de un perro muerto de miedo. *risas*~
+@7  = ~Bitch.~
+@8  = ~<CHARNAME>, no debemos permitir que ese desgraciado huya, seguro que avisará a sus superiores. Sería recomendable... evitarlo, de algún modo...~
+@9  = ~No, no...~
+
+// x#brint.tra @4
+@10 = ~¡No! ¡<CHARNAME> se va, pero yo no! ¡A las armas!~
+
+// x#jaint.tra @61, @62
+@11 = ~No disfruto tomando este camino, pero, desafortunadamente, es la única opción realmente segura. Estoy de acuerdo con vuestra decisión, <CHARNAME>.~
+@12 = ~¡Vais a morir todos!~
+
+// x#brint.tra @55
+@13 = ~¡El perro sin honor ha muerto! ¡Tempus, he hecho lo que deseabais! Vamos, bebamos por Tempus y por nuestra victoria, <CHARNAME>!~
