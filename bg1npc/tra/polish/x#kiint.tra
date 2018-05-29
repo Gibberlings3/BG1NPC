@@ -1,9 +1,9 @@
-@0    = ~Tazok!~
-@1    = ~Proszê, proszê... znów siê spotykamy. Myœla³eœ, ¿e skonam tak prêdko jak twoja dziewczyna?~
-@2    = ~Wyœlê ciê do Piekie³, nawet jeœli bêdê musia³ trafiæ tam z tob¹!~
-@3    = ~Tazok! Nie masz dok¹d uciec. W koñcu wype³niê swe œlubowanie. Deheriano, melamin, nadesz³a nasza godzina krwi!~
-@4    = ~Ech. Dziœ w nocy mój malec dostanie elfi czerep do zabawy!~
-@5    = ~Wyœlê ciê w otch³añ, gdzie twoje miejsce!~
+//@0    = ~Tazok!~
+//@1    = ~Proszê, proszê... znów siê spotykamy. Myœla³eœ, ¿e skonam tak prêdko jak twoja dziewczyna?~
+//@2    = ~Wyœlê ciê do Piekie³, nawet jeœli bêdê musia³ trafiæ tam z tob¹!~
+//@3    = ~Tazok! Nie masz dok¹d uciec. W koñcu wype³niê swe œlubowanie. Deheriano, melamin, nadesz³a nasza godzina krwi!~
+//@4    = ~Ech. Dziœ w nocy mój malec dostanie elfi czerep do zabawy!~
+//@5    = ~Wyœlê ciê w otch³añ, gdzie twoje miejsce!~
 @6    = ~Dz-dziêkujê, poszukiwacze przygód. Ja... znalaz³em ten klejnot podczas kopania... chcia³em zachowaæ go dla mej pani, ale... dziêki wam ¿yjê, i nie mam niczego innego, czym móg³bym zap³aciæ wam za wasz¹ odwagê...~
 @7    = ~Wiêc daj go swej pani, przyjacielu. A teraz idŸ, nim nadejdzie wiêcej "demonów".~
 @8    = ~Twe ¿ycie bêdzie dla niej wystarczaj¹cym darem. Dziêki za klejnot.~
@@ -62,7 +62,7 @@
 @61   = ~Dezercja jest aktem tchórzostwa, ale ¿al mi go. I ta kobieta, Lena, jej odwaga starczy za dwóch, skoro wesz³a do lasu pe³nego gibberlingów z rannym mê¿czyzn¹, aby go chroniæ. Nie wydawajmy go, <CHARNAME>, ze wzglêdu na ni¹, choæ on sam zas³u¿y³ sobie na nasz¹ pogardê.~
 @62   = ~Jeœli wci¹¿ potrzebujesz pomocy w rozgromieniu okolicznych bandytów, Jesso Vai, mój przyjaciel zgodzi³ siê pomóc odnaleŸæ ich kryjówkê.~ ~Jeœli wci¹¿ potrzebujesz pomocy w rozgromieniu okolicznych bandytów, Jesso Vai, moja przyjació³ka zgodzi³a siê pomóc odnaleŸæ ich kryjówkê.~
 @63   = ~Dzieñ dobry, Kivanie z Shilmisty. Ja... wprowadzê twego przyjaciela w... szczegó³y. Jeœli pozwolisz...~ ~Dzieñ dobry, Kivanie z Shilmisty. Ja... wprowadzê twoj¹ przyjació³kê w... szczegó³y. Jeœli pozwolisz...~
-@64   = ~Cieszê siê, ¿e przyj¹³eœ do dru¿yny ³owcê. Potrzebuje towarzystwa, aby nie oszaleæ. Szczere serce i duch pe³en pasji... i ten bezgraniczny smutek. Przera¿a mnie widok mê¿czyzny, który tak szybko siê wypala. Uwa¿aj na niego, dobrze?~ 
+@64   = ~Cieszê siê, ¿e przyj¹³eœ do dru¿yny ³owcê. Potrzebuje towarzystwa, aby nie oszaleæ. Szczere serce i duch pe³en pasji... i ten bezgraniczny smutek. Przera¿a mnie widok mê¿czyzny, który tak szybko siê wypala. Uwa¿aj na niego, dobrze?~
 @65   = ~Cieszê siê, ¿e rozs¹dna kobieta czuwa nad naszym elfim ³owc¹. Szczere serce i duch pe³en pasji... i ten bezgraniczny smutek. Przera¿a mnie widok mê¿czyzny, który tak szybko siê wypala. Uwa¿aj na niego, dobrze? I jeœli chcesz pogadaæ – piwo jest na mój koszt.~
 @66   = ~Wracaj¹c do interesów... masz jakieœ pytania, <CHARNAME>?~
 @67   = ~Bêdê liczy³ bestie, które zabijemy, i dopilnujê, aby moi towarzysze nie przekroczyli tego limitu.~
@@ -115,42 +115,42 @@ Spotka³am jedn¹ z grup bandytów, które nêkaj¹ Wybrze¿e Mieczy. Ich herszt, Teven
 @110  = ~Jak chcesz, ksiê¿niczko.~
 @111  = ~Nie potrafiê ci szczerze ¿yczyæ niczego dobrego, <CHARNAME>...~
 @112  = ~K³aniam ci siê z uznaniem, wielki artysto. Zwi¹za³eœ siê z kobiet¹, która nie by³a ci przeznaczona. Twa mi³oœæ by³a œwiat³em, jasnym i czystym, które bêdzie œwieci³o na wielu. Stworzy³eœ rzecz piêkn¹, równie nieœmierteln¹, jak pozuj¹ca ci modelka.~
-@113  = ~Potrzebujê chwili, aby pomodliæ siê do Shevarasha. Wygl¹da na to, ¿e mój zaprzysiêg³y wróg jest wreszcie w zasiêgu mej strza³y.~
-@114  = ~Tylko szybko, albo zostaniemy zdemaskowani.~
-@115  = ~Oczywiœcie, elfie. Pomodlê siê wraz z tob¹ o powodzenie w naszej bitwie z bandytami.~
-@116  = ~Przykro mi, Kivanie, wolê abyœmy ¿wawo ruszali. Mo¿esz siê modliæ ile chcesz, kiedy ju¿ siê uwiniemy.~
-@117  = ~Mój Panie Shevarashie, oto stojê na ziemi, po której wci¹¿ chodzi zwierzê, które zabi³o moj¹ ukochan¹. Nie ma w mym sercu wiêkszego pragnienia ni¿ to, aby splamiæ j¹ jego mroczn¹ krwi¹. Proszê, aby me ramiê by³o równie stanowcze, jak ma dusza. Proszê o wype³nienie mego œlubowania, proszê o cios, który powali mego nieprzyjaciela. Proszê o si³ê do walki, i si³ê do obrony tych, którzy walcz¹ u mego boku.~
-@118  = ~Rozumiem. Zamilknê. Niech me strza³y wyœpiewaj¹ modlitwê za mnie.~
-@119  = ~Pamiêtasz moj¹ Deherianê, bestio?~
-@120  = ~NIE! Stawaj i walcz, albo uznam ciê za tchórza... Ale czegó¿ oczekiwa³em? Tazok jest tchórzem, gdy¿ ka¿dy, kto torturuje niewinnych i bezbronnych nim jest. Bitwa siê zakoñczy³a, ale wojna wci¹¿ trwa, Tazok! Odnajdê ciê!~
+//@113  = ~Potrzebujê chwili, aby pomodliæ siê do Shevarasha. Wygl¹da na to, ¿e mój zaprzysiêg³y wróg jest wreszcie w zasiêgu mej strza³y.~
+//@114  = ~Tylko szybko, albo zostaniemy zdemaskowani.~
+//@115  = ~Oczywiœcie, elfie. Pomodlê siê wraz z tob¹ o powodzenie w naszej bitwie z bandytami.~
+//@116  = ~Przykro mi, Kivanie, wolê abyœmy ¿wawo ruszali. Mo¿esz siê modliæ ile chcesz, kiedy ju¿ siê uwiniemy.~
+//@117  = ~Mój Panie Shevarashie, oto stojê na ziemi, po której wci¹¿ chodzi zwierzê, które zabi³o moj¹ ukochan¹. Nie ma w mym sercu wiêkszego pragnienia ni¿ to, aby splamiæ j¹ jego mroczn¹ krwi¹. Proszê, aby me ramiê by³o równie stanowcze, jak ma dusza. Proszê o wype³nienie mego œlubowania, proszê o cios, który powali mego nieprzyjaciela. Proszê o si³ê do walki, i si³ê do obrony tych, którzy walcz¹ u mego boku.~
+//@118  = ~Rozumiem. Zamilknê. Niech me strza³y wyœpiewaj¹ modlitwê za mnie.~
+//@119  = ~Pamiêtasz moj¹ Deherianê, bestio?~
+//@120  = ~NIE! Stawaj i walcz, albo uznam ciê za tchórza... Ale czegó¿ oczekiwa³em? Tazok jest tchórzem, gdy¿ ka¿dy, kto torturuje niewinnych i bezbronnych nim jest. Bitwa siê zakoñczy³a, ale wojna wci¹¿ trwa, Tazok! Odnajdê ciê!~
 @121  = ~Twój zaprzysiêg³y wróg i przyrodni brat s¹ w pobli¿u, <CHARNAME>. Niech bogowie siê nad tob¹ zlituj¹.~
 @122  = ~W doprawdy dziwne miejsce nas zaprowadzi³eœ. Czy chêæ polowania na skarby jest dla ciebie na tyle wa¿na, ¿e zdecydowa³eœ siê podró¿owaæ przez te korytarze pe³ne krasnoludzkich duchów? Czujê, ¿e nie s¹ zachwycone moim widokiem.~ ~W doprawdy dziwne miejsce nas zaprowadzi³aœ. Czy chêæ polowania na skarby jest dla ciebie na tyle wa¿na, ¿e zdecydowa³aœ siê podró¿owaæ przez te korytarze pe³ne krasnoludzkich duchów? Czujê, ¿e nie s¹ zachwycone moim widokiem.~
 @123  = ~WyobraŸnia ludzka jest raczej ograniczona... tak wiele domów, i wszystkie wygl¹daj¹ jak pomalowane na szaro pude³ka.~
 @124  = ~Jeœli to z³e istoty, dlaczego me serce odczuwa ¿al, ¿e zniszczyliœmy ich œrodki do ¿ycia? Walcz¹ o swe domy, <CHARNAME>, i my jesteœmy najeŸdŸcami, a nie obroñcami. Dobrze zrobimy, omijaj¹c to przejœcie w przysz³oœci.~
 @125  = ~Czy tak bardzo siê ró¿nimy – ten cz³owiek i ja? Kocha zombich jak swoj¹ rodzinê, a ja kroczê przez Plan Materialny kieruj¹c swe myœli do tej, która przebywa w Arvanaith. Jak d³ugo to jeszcze potrwa, nim ma têsknota stworzy ducha Deheriany?~
 @126  = ~Jak d³ugo to jeszcze potrwa, nim zawtórujê mu, przera¿aj¹c wszystkich o zdrowych zmys³ach? <CHARNAME>, powinniœmy odnaleŸæ Tazoka w te pêdy. Mam tutaj coraz mniej czasu.~
-@127  = ~Deheriano... zosta³aœ pomszczona, mela en'coiamin. Shevarash! Twa wola dokona³a siê!~
-@128  = ~<CHARNAME>... zostanê z tob¹, aby pomóc odnaleŸæ ci morderców twego ojca. Modlê siê, abyœmy stawili mu czo³a rych³o, gdy¿ trwanie na tym planie poch³ania me wszystkie si³y...~
+//@127  = ~Deheriano... zosta³aœ pomszczona, mela en'coiamin. Shevarash! Twa wola dokona³a siê!~
+//@128  = ~<CHARNAME>... zostanê z tob¹, aby pomóc odnaleŸæ ci morderców twego ojca. Modlê siê, abyœmy stawili mu czo³a rych³o, gdy¿ trwanie na tym planie poch³ania me wszystkie si³y...~
 @129  = ~Wystarczy, <CHARNAME>. Zagrozimy kolonii, jeœli nie zaprzestaniemy polowania.~
-@130  = ~Zabiæ ich! Czekaj¹ na mnie w kopalniach i nie mam czasu na to gówno!~
-@131  = ~Tazok rozpozna³ Kivana i nasz plan zinfiltrowania obozu bandytów spali³ na panewce.~
-@132  = ~G³owa elfa ma zostaæ nadziana na pal przed mym namiotem!~
-@133  = ~Kivan i Tazok
-
-Jak mo¿na by³o oczekiwaæ, mój towarzysz Kivan zosta³ rozpoznany przez Tazoka, ale nie uda³o mu siê przebiæ strza³¹ pó³-ogra. Bandyta widocznie by³ zbyt zajêty, aby zaprz¹taæ sobie g³ow¹ oszala³ym z chêci zemsty elfem. Tazok udaje siê do kompleksu kopalñ. To tam mo¿e znajdowaæ siê siedziba tego, który kontroluje bandytów.~
-@134  = ~Tazok rozpozna³ Kivana
-
-Tazok rozpozna³ Kivana i nasz plan zinfiltrowania obozu bandytów spali³ na panewce.~
-@135  = ~Proszê, oto wreszcie nadszed³ nasz chodz¹cy trup! I to w towarzystwie sobie równych ¿a³osnych g³upców.~
-@136  = ~Nie mieszaj w to moich przyjació³, to sprawa pomiêdzy mn¹ a tob¹. Dziœ umrzesz, Tazok!~
-@137  = ~Och, dr¿ê na dŸwiêk twojego skrzecz¹cego g³osu! Doœæ d³ugo gnêbi³eœ moich ¿o³nierzy, œmieciu! Zakoñczê to, raz na zawsze.~
-@138  = ~Tazok rozpoznaje Kivana
-
-Tazok rozpozna³ Kivana. Nasza jedyna nadzieja na zinfiltrowanie obozu bandytów to zabicie tego czarta. Kivanowi spodoba siê takie rozwi¹zanie, jak s¹dzê.~
-@139  = ~Spójrzcie! Tazok nie ¿yje. Na Maska, dostaniemy po dupie, jak dopisze mu fart i dalej bêdzie siê naprzykrza³ szefom we Wrotach...~
-@140  = ~Ale kim¿eœ jest? Nie kumam twej gêby... Ba, doœæ pytañ. Nie dostanê z³amanego miedziaka za gadanie z tob¹.~
-@141  = ~Wiêc wybacz, stary, ale w³aœnie zosta³eœ nominowany do bycia trupem. HEJ¯EEE! Znalaz³em zabójców Tazoka! HEJ¯EEE!~
-@1001 = ~Tazok! Zakoñczmy to!~
+//@130  = ~Zabiæ ich! Czekaj¹ na mnie w kopalniach i nie mam czasu na to gówno!~
+//@131  = ~Tazok rozpozna³ Kivana i nasz plan zinfiltrowania obozu bandytów spali³ na panewce.~
+//@132  = ~G³owa elfa ma zostaæ nadziana na pal przed mym namiotem!~
+//@133  = ~Kivan i Tazok
+//
+//Jak mo¿na by³o oczekiwaæ, mój towarzysz Kivan zosta³ rozpoznany przez Tazoka, ale nie uda³o mu siê przebiæ strza³¹ pó³-ogra. Bandyta widocznie by³ zbyt zajêty, aby zaprz¹taæ sobie g³ow¹ oszala³ym z chêci zemsty elfem. Tazok udaje siê do kompleksu kopalñ. To tam mo¿e znajdowaæ siê siedziba tego, który kontroluje bandytów.~
+//@134  = ~Tazok rozpozna³ Kivana
+//
+//Tazok rozpozna³ Kivana i nasz plan zinfiltrowania obozu bandytów spali³ na panewce.~
+//@135  = ~Proszê, oto wreszcie nadszed³ nasz chodz¹cy trup! I to w towarzystwie sobie równych ¿a³osnych g³upców.~
+//@136  = ~Nie mieszaj w to moich przyjació³, to sprawa pomiêdzy mn¹ a tob¹. Dziœ umrzesz, Tazok!~
+//@137  = ~Och, dr¿ê na dŸwiêk twojego skrzecz¹cego g³osu! Doœæ d³ugo gnêbi³eœ moich ¿o³nierzy, œmieciu! Zakoñczê to, raz na zawsze.~
+//@138  = ~Tazok rozpoznaje Kivana
+//
+//Tazok rozpozna³ Kivana. Nasza jedyna nadzieja na zinfiltrowanie obozu bandytów to zabicie tego czarta. Kivanowi spodoba siê takie rozwi¹zanie, jak s¹dzê.~
+//@139  = ~Spójrzcie! Tazok nie ¿yje. Na Maska, dostaniemy po dupie, jak dopisze mu fart i dalej bêdzie siê naprzykrza³ szefom we Wrotach...~
+//@140  = ~Ale kim¿eœ jest? Nie kumam twej gêby... Ba, doœæ pytañ. Nie dostanê z³amanego miedziaka za gadanie z tob¹.~
+//@141  = ~Wiêc wybacz, stary, ale w³aœnie zosta³eœ nominowany do bycia trupem. HEJ¯EEE! Znalaz³em zabójców Tazoka! HEJ¯EEE!~
+//@1001 = ~Tazok! Zakoñczmy to!~
 @1002 = ~Z pewnoœci¹ podziêkuje ci za to.~
 @1003 = ~Poka¿ mi niewinnego cz³owieka, a ja go oszczêdzê. Póki co, trzymaj gêbê na k³ódkê!~
 @1004 = ~Tak, có¿, dziêkujê i ¿egnam.~

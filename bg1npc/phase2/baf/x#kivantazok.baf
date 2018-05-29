@@ -1,0 +1,63 @@
+/* Shut Down Find Bandits Global */
+IF %BGT_VAR%
+InParty(Myself)
+AreaCheck("%BanditCamp%")
+GlobalLT("FindBandits","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("FindBandits","GLOBAL",99)
+END
+
+/* Kivan, First Entry to Bandit Camp */
+IF %BGT_VAR%
+AreaCheck("%BanditCamp%")
+Global("JoinedBandits","GLOBAL",0)
+Global("X#KFEBC","GLOBAL",0)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#KFEBC","GLOBAL",1)
+END
+
+/* Initiate Kivan, First Entry to Bandit Camp */
+IF %BGT_VAR%
+Global("X#KFEBC","GLOBAL",1)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("kivan99")
+Dialogue(Myself)
+END
+
+/* Dialogue with Tazok before final fight */
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("X#KivanSarevokTazok","GLOBAL",1)
+  See("tazok")
+  Global("X#KivanFinalFight","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KivanFinalFightLiving","GLOBAL",1)
+END
+
+IF %BGT_VAR%
+  InParty(Myself)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  See("tazok")
+  Global("X#KivanFinalFightLiving","GLOBAL",1)
+THEN
+  RESPONSE #100
+   StartDialogueNoSet(Myself)
+END

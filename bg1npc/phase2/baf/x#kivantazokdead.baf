@@ -1,0 +1,11 @@
+IF
+	InMyArea("kivan")
+	!Dead("kivan")
+	Dead("Tazok")
+	Exists("Tazok")
+	Global("x#tazok_dead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("x#tazok_dead","GLOBAL",1)
+		DisplayStringHead("kivan",@20)  // Deheriana... you have been avenged, mela en'coiamin. Shevarash! Thy will has been done!
+END

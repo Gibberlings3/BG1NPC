@@ -31,159 +31,6 @@ PlaySound("kivan99")
 Dialogue(Myself)
 END
 
-/* Shut Down Find Bandit's Global */
-IF %BGT_VAR%
-InParty(Myself)
-AreaCheck("%BanditCamp%")
-GlobalLT("FindBandits","GLOBAL",2)
-THEN
-RESPONSE #100
-SetGlobal("FindBandits","GLOBAL",99)
-END
-
-/* Kivan, First Entry to Bandit Camp */
-IF %BGT_VAR%
-AreaCheck("%BanditCamp%")
-GlobalLT("P#KivanTazok1","GLOBAL",2)
-Global("JoinedBandits","GLOBAL",0)
-Global("X#KFEBC","GLOBAL",0)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-SetGlobal("X#KFEBC","GLOBAL",1)
-END
-
-/* Initiate Kivan, First Entry to Bandit Camp */
-IF %BGT_VAR%
-Global("X#KFEBC","GLOBAL",1)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-PlaySong(0)
-PlaySound("kivan99")
-Dialogue(Myself)
-END
-
-/* Kivan, See Tazok */
-IF %BGT_VAR%
-AreaCheck("%BanditCamp%")
-See("tazok")
-!Dead("tazok")
-Global("P#KivanTazok1","GLOBAL",0)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-THEN
-RESPONSE #100
-SetGlobal("P#KivanTazok1","GLOBAL",1)
-END
-
-/* Initiate  */
-IF %BGT_VAR%
-Global("P#KivanTazok1","GLOBAL",1)
-!Dead("tazok")
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-PlaySong(0)
-PlaySound("kivan99")
-Dialogue(Myself)
-END
-
-/* Skip P#KivanTazok1 if Tazok is killed too fast */
-IF %BGT_VAR%
-Global("P#KivanTazok1","GLOBAL",1)
-Dead("tazok")
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-THEN
-RESPONSE #100
-SetGlobal("P#KivanTazok1","GLOBAL",3)
-END
-
-/* Tazok Dead in Bandit Camp */
-IF %BGT_VAR%
-AreaCheck("%BanditCamp%")
-Dead("tazok")
-Global("P#KivanTazok3","GLOBAL",0)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-THEN
-RESPONSE #100
-SetGlobal("X#TazokDead","GLOBAL",1)
-SetGlobal("P#KivanTazok3","GLOBAL",1)
-SetGlobalTimer("X#TazokDead","GLOBAL",450)
-END
-
-/* Initiate  */
-IF %BGT_VAR%
-Global("P#KivanTazok3","GLOBAL",1)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-PlaySong(0)
-PlaySound("kivan99")
-Dialogue(Myself)
-END
-
-/* If Tazok dead */
-IF %BGT_VAR%
-AreaCheck("%BanditCamp%")
-Dead("tazok")
-GlobalTimerExpired("X#TazokDead","GLOBAL")
-Global("X#TazokAlarm","GLOBAL",0)
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-THEN
-RESPONSE #100
-CreateCreature("%tutu_var%BANDIT",[-1.-1],0)
-SetGlobal("X#TazokAlarm","GLOBAL",1)
-ActionOverride("bandit",StartDialogueNoSet(Player1))
-END
-
-/* Kivan, Bandit Camp, After Tazok’s escape */
-IF %BGT_VAR%
-AreaCheck("%BanditCamp%")
-Global("X#KBCTE","GLOBAL",1)
-!Dead("tazok")
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-InMyArea(Player1)
-!StateCheck(Player1,CD_STATE_NOTVALID)
-CombatCounter(0)
-!See([ENEMY])
-THEN
-RESPONSE #100
-PlaySong(0)
-PlaySound("kivan99")
-Dialogue(Myself)
-END
-
 /* Kivan, Before the last Battle with Sarevok */
 IF %BGT_VAR%
 AreaCheck("%Undercity%")
@@ -215,7 +62,7 @@ PlaySound("kivan99")
 Dialogue(Player1)
 END
 
-/* Kivan, Entry to Durlag’s Tower */
+/* Kivan, Entry to Durlag's Tower */
 IF %BGT_VAR%
 AreaCheck("%DurlagsTower_L1%")
 Global("X#KEDT","GLOBAL",0)
@@ -246,7 +93,7 @@ PlaySound("kivan99")
 Dialogue(Myself)
 END
 
-/* Kivan, Entry to Baldur’s Gate */
+/* Kivan, Entry to Baldur's Gate */
 IF %BGT_VAR%
 AreaCheck("%EBaldursGate%")
 Global("X#KEBG","GLOBAL",0)
@@ -420,9 +267,9 @@ IF %BGT_VAR%
 THEN
   RESPONSE #100
     SetGlobal("X#KivanDynaheir","GLOBAL",2)
-    SetLeavePartyDialogFile() 
-    ChangeAIScript("",DEFAULT) 
-    LeaveParty() 
+    SetLeavePartyDialogFile()
+    ChangeAIScript("",DEFAULT)
+    LeaveParty()
     Enemy()
 END
 
@@ -436,9 +283,9 @@ IF %BGT_VAR%
 THEN
   RESPONSE #100
     SetGlobal("X#KivanHelpGallor","GLOBAL",2)
-    SetLeavePartyDialogFile() 
-    ChangeAIScript("",DEFAULT) 
-    LeaveParty() 
+    SetLeavePartyDialogFile()
+    ChangeAIScript("",DEFAULT)
+    LeaveParty()
     Enemy()
 END
 
@@ -452,9 +299,9 @@ IF %BGT_VAR%
 THEN
   RESPONSE #100
     SetGlobal("X#KivanRamazith","GLOBAL",2)
-    SetLeavePartyDialogFile() 
-    ChangeAIScript("",DEFAULT) 
-    LeaveParty() 
+    SetLeavePartyDialogFile()
+    ChangeAIScript("",DEFAULT)
+    LeaveParty()
     Attack("ramazith")
 END
 
@@ -468,8 +315,8 @@ IF %BGT_VAR%
 THEN
   RESPONSE #100
     SetGlobal("X#KivanBetrayAbela","GLOBAL",2)
-    SetLeavePartyDialogFile() 
-    ChangeAIScript("",DEFAULT) 
-    LeaveParty() 
+    SetLeavePartyDialogFile()
+    ChangeAIScript("",DEFAULT)
+    LeaveParty()
     Enemy()
 END

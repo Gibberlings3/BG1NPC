@@ -1,0 +1,43 @@
+// Première entrée au camp des bandits
+// x#kiint.tra: @113 - @118
+@1 = ~Il me faut quelques instants pour prier Shevarash. Il semblerait que mon ennemi juré soit enfin à portée de flèche.~
+@2 = ~Faites vite, de crainte que nous ne soyons découverts.~
+@3 = ~Bien sûr, elfe. Je joindrai ma voix à la vôtre pour le succès de notre bataille contre les brigands.~
+@4 = ~Je suis désolé, Kivan, je préfère que nous avancions rapidement. Vous pourrez prier tant que vous voudrez, quand nous en aurons fini.~
+       ~Je suis désolée, Kivan, je préfère que nous avancions rapidement. Vous pourrez prier tant que vous voudrez, quand nous en aurons fini.~
+@5 = ~Mon Seigneur Shevarash, voici, je me tiens sur la terre que le monstre qui a tué ma bien-aimée foule encore. Il n'est pas de plus grand désir en mon coeur que de la détremper de son sang noir. Je demande à ce que la fermeté de mon bras égale celle de mon âme. Je demande l'accomplissement de mon voeu, je demande le coup qui mettra mon ennemi à bas. Je Vous demande de me donner la force de combattre, et la force de protéger ceux qui combattent avec moi.~
+@6 = ~Je comprends votre besoin. Je demeurerai silencieux. Laissons mes flèches chanter ma prière à ma place.~
+
+// x#kiint.tra: @119, @135, @136, @137
+// Voit Tazok pour la première fois
+@7 = ~Monstre, vous rappelez-vous ma chère Déhériana ?~
+@8 = ~Hé là, n'est-ce pas notre mort sur pattes, finalement ? Et avec un groupe de crétins pathétiques dans son genre, rien que ça.~
+@9 = ~Laissez mes amis en dehors de ça, c'est entre vous et moi. C'est aujourd'hui le jour de votre mort, Tazok !~
+@10 = ~Oh, ta voix stridente me fait trembler ! Tu as assez harcelé mes soldats, ordure ! Je vais y mettre fin, et je le ferai comme il faut.~
+
+// x#kiint.tra: @130, @120, @132
+@11 = ~Tuez-les ! On m'attend aux mines, et je n'ai pas de temps à perdre avec ces conneries !~
+// Après la fuite de Tazok
+@12 = ~NON ! Restez et battez-vous, ou je vous traiterai de lâche... Mais qu'avais-je espéré ? Tazok est un lâche, car quiconque est prêt à torturer des êtres innocents et sans défense est un lâche. Cette bataille est finie, mais la guerre ne l'est pas, Tazok ! Je vous retrouverai !~
+@13 = ~La tête de l'elfe sera pour le poteau devant ma tente !~
+
+// x#kiint.tra: @3,@4,@5
+@14    = ~Tazok ! Vous n'avez nul endroit où fuir cette fois-ci. Mon serment sera enfin accompli. Déhériana, melamin, cette heure sanglante est nôtre !~
+@15    = ~Hé hé. Ma petite compagnie aura une tête d'elfe avec laquelle jouer ce soir !~
+@16    = ~Je vous jetterai dans ces Abysses auxquels vous appartenez !~
+
+// x#kiint.tra: @127
+// Tazok mort
+@20 = ~Déhériana... tu as été vengée, mela en'coiamin. Shevarash ! Votre volonté a été accomplie !~
+
+// Journal entries
+// x#kiint.tra: @134, new, @133
+@101 = ~Tazok a reconnu Kivan
+
+Tazok a reconnu Kivan et notre projet d'infiltration du camp des bandits a échoué.~
+@102  = ~Une base secrète ?
+
+Tazok prévoit de visiter le site d'une mine. C'est à cet endroit qu'il pourrait faire ses rapports au véritable chef des bandits.~
+@103  = ~Kivan et Tazok
+
+Sans surprise, mon compagnon Kivan a été reconnu par Tazok, mais il n'a pas saisi sa chance d'embrocher le demi-ogre. Le bandit avait apparemment trop à faire pour traiter avec l'elfe rendu fou par sa vengeance. Tazok est en route pour un site minier. Cette mine pourrait être la base de celui, quel qu'il soit, qui contrôle ces bandits.~
