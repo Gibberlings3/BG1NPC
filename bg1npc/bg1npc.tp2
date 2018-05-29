@@ -1,4 +1,4 @@
-/*
+ /*
  * "The BG1 NPC Project"
  * Combined Tutu/BGT installer
  * authored and coded by tons of dedicated people from all walks of life
@@ -14,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v23.3~
+VERSION ~v24~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -40,262 +40,7 @@ BEGIN @1005 DESIGNATED 0
 	/* makes sure PIDs go last */
 	UNINSTALL ~bg1npc.tp2~ 200
 
-	/* Fixes */
-	INCLUDE ~bg1npc/core/tpa/a64_beregost.tpa~ /* Ascension64's Bere"gost" Fix */
-	INCLUDE ~bg1npc/core/tpa/nythrun_fixes.tpa~ /* Apply Nythrun's Fixes to creatures we use */
-	INCLUDE ~bg1npc/core/tpa/2da_patch.tpa~ /* Apply .2da patching for banter dialog files */
-
-	/* give CHARNAME a dialogue file in BG:EE */
-	ACTION_IF NOT (FILE_EXISTS_IN_GAME ~player1%eet_var%.dlg~) AND (GAME_IS ~bgee eet~) THEN BEGIN
-		COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#player1_bgee.d~
-	END
-  
-    /* CamDawg's Temple Healing Fix */
-    /* give all stores the normal suite of cures available */
-    COPY_EXISTING_REGEXP GLOB ~^.+\.sto$~ ~override~
-      READ_BYTE 0x10 "flags" ELSE 0
-      PATCH_IF (("%flags%" BAND 0b00010000) = 0b00010000) BEGIN //  if sures available; also filters out invalid files
-        READ_LONG 0x2c "buy_off"   ELSE 0
-        READ_LONG 0x34 "sale_off"  ELSE 0
-        READ_LONG 0x4c "drink_off" ELSE 0
-        READ_LONG 0x70 "cure_off"  ELSE 0
-        READ_LONG 0x74 "cure_num"  ELSE 0
-        SET "new_cure" = 0
-        SET "sppr103" = 0 //  cure light wounds
-        SET "sppr212" = 0 //  slow poison
-        SET "sppr303" = 0 //  dispel magic
-        SET "sppr307" = 0 //  remove curse
-        SET "sppr401" = 0 //  cure serious wounds
-        SET "sppr502" = 0 //  cure critical wounds
-        SET "sppr504" = 0 //  raise dead
-        SET "sppr607" = 0 //  heal
-        SET "sppr712" = 0 //  resurrection
-        SET "sppr713" = 0 //  greater restoration
-        //  check if cures already available
-        FOR (index = 0; index < cure_num; index = index + 1) BEGIN
-          READ_ASCII ("%cure_off%" + ("%index%" * 0x0c)) "resref"
-          PATCH_IF ("%resref%" STR_EQ "sppr103") BEGIN
-            SET "sppr103" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr212") BEGIN
-            SET "sppr212" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr303") BEGIN
-            SET "sppr303" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr307") BEGIN
-            SET "sppr307" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr401") BEGIN
-            SET "sppr401" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr502") BEGIN
-            SET "sppr502" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr504") BEGIN
-            SET "sppr504" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr607") BEGIN
-            SET "sppr607" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr712") BEGIN
-            SET "sppr712" = 1
-          END ELSE
-          PATCH_IF ("%resref%" STR_EQ "sppr713") BEGIN
-            SET "sppr713" = 1
-          END
-        END
-        //  add cures if not already present
-        PATCH_IF ("%sppr103%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr103~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 50        //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr212%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr212~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 150       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr303%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr303~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr307%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr307~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 500       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr401%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr401~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 100       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr502%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr502~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr504%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr504~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr607%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr607~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr712%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr712~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 1000      //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        PATCH_IF ("%sppr713%" = 0) BEGIN //  if cure not already available
-          INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
-            WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr713~ //  resref
-            WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
-          SET "cure_num" = "%cure_num%" + 1
-          SET "new_cure" = "%new_cure%" + 1
-        END
-        //  adjust offsets and counts if cures inserted
-        PATCH_IF ("%new_cure%" > 0) BEGIN
-          WRITE_LONG 0x74 "%cure_num%"
-          PATCH_IF ("%buy_off%" > "%cure_off%") BEGIN
-            WRITE_LONG 0x2c ("%buy_off%" + ("%new_cure%" * 0x0c))
-          END
-          PATCH_IF ("%sale_off%" > "%cure_off%") BEGIN
-            WRITE_LONG 0x34 ("%sale_off%" + ("%new_cure%" * 0x0c))
-          END
-          PATCH_IF ("%drink_off%" > "%cure_off%") BEGIN
-            WRITE_LONG 0x4c ("%drink_off%" + ("%new_cure%" * 0x0c))
-          END
-        END
-      END
-      BUT_ONLY_IF_IT_CHANGES
-
-  /* Update SPELDESC.2DA for Temple Fix in BGEE */
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  	COPY_EXISTING ~speldesc.2da~ ~override~
-  		COUNT_2DA_ROWS 2 "cnt_row"
-  		FOR (cnt = 0; cnt < %cnt_row%; cnt = cnt + 1) BEGIN
-  			READ_2DA_ENTRY "%cnt%" 0 2 "spl_name"
-  			PATCH_IF ("%spl_name%" STR_EQ "sppr502") BEGIN
-  				SET_2DA_ENTRY "%cnt%" 1 2 "25357"
-  			END
-  			PATCH_IF ("%spl_name%" STR_EQ "sppr607") BEGIN
-  				SET_2DA_ENTRY "%cnt%" 1 2 "25358"
-  			END
-  			PATCH_IF ("%spl_name%" STR_EQ "sppr712") BEGIN
-  				SET_2DA_ENTRY "%cnt%" 1 2 "25359"
-  			END
-  			PATCH_IF ("%spl_name%" STR_EQ "sppr713") BEGIN
-  				SET_2DA_ENTRY "%cnt%" 1 2 "25360"
-  			END
-    	END
-  	BUT_ONLY_IF_IT_CHANGES
-  END
-
-
-  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    /* Music File .2da patching, Tutu only */
-    COPY ~bg1npc/Core/MUS/x#blank.mus~ ~music~
-    COPY_EXISTING ~songlist.2da~ ~override~
-      SET_2DA_ENTRY 0 2 3 ~X#BLANK.MUS~
-    BUT_ONLY_IF_IT_CHANGES
-  END
-  
-  /* Tutu repeating dialogues block other talks */
-  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    /* Stop Bioware dialogues repeating, fixes DLG matching BreakingPoint DPLAYER2.bcs changes */
-    COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/X#BGREPLACE_TUTU.D~
-  END
-  
-  /* BGT repeating dialogues block other talks */
-  ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-    /* Stop Bioware dialogues repeating, fixes DLG */
-    COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/X#BGREPLACE_BGT.D~
-  END
-
-  /* BG:EE repeating dialogues block other talks */
-  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-    /* Stop Bioware dialogues repeating, fixes DLG */
-    COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#bgreplace_bgee.D~
-  END
-
-  /* custom cutspy.cre for BG1NPC code */
-  COPY ~bg1npc/Core/CRE/x#cutspy.cre~ ~override/x#cutspy.cre~
-   WRITE_LONG NAME1 (BNOT 0x0)
-   WRITE_LONG NAME2 (BNOT 0x0)
-   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-   WRITE_LONG DAMAGE (BNOT 0x0)
-   WRITE_LONG DYING (BNOT 0x0)
-   PATCH_IF (SOURCE_SIZE > 0x2d4) BEGIN
-     WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
-   END
-   ADD_CRE_ITEM ~%tutu_var%mage01~ #0 #0 #0 ~identified&unstealable&undroppable~ ~LRING~
-   ADD_CRE_ITEM ~%tutu_var%minhp1~ #0 #0 #0 ~identified&unstealable&undroppable~ ~AMULET~
-
-
-  /* X#GorionTalkingLetter Variable: Gorion's Letter creature */
-  COPY ~bg1npc/Core/cre/x#gorlet.cre~ ~override/x#gorlet.cre~
-    SAY NAME1 @5
-    SAY NAME2 @5
-    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
-
-  /* add Gorion's Talking Letter Area Script */
-  EXTEND_BOTTOM ~%Candlekeep_Library_L5_BCS%.bcs~ ~bg1npc/CORE/baf/X#FW2612.baf~
-    EVALUATE_BUFFER
-
-  /* add Gorion's Talking Letter dialog, no need for EVAL */
-  COMPILE        ~bg1npc/Core/dlg/X#GORLET.D~
-  COMPILE        ~bg1npc/Core/baf/X#GORLET.BAF~
-
-  /* berelinde's Statue Naming Fixes */
-  COPY_EXISTING ~%tutu_var%achen.cre~  ~override~
-    SAY NAME2 @1118 //  ~Achen Dell~
-  BUT_ONLY_IF_IT_CHANGES
-  
-  COPY_EXISTING ~%tutu_var%cailan.cre~  ~override~
-    SAY NAME2 @1119 //  ~Cailan~
-  BUT_ONLY_IF_IT_CHANGES
-  
-  COPY_EXISTING ~%tutu_var%faizah.cre~  ~override~
-    SAY NAME2 @1120 //  ~Faizah Tin~
-  BUT_ONLY_IF_IT_CHANGES
-  
-  COPY_EXISTING ~%tutu_var%rance.cre~  ~override~
-    SAY NAME2 @1121 //  ~Rance~
-  BUT_ONLY_IF_IT_CHANGES
-  
-  COPY_EXISTING ~%tutu_var%vail.cre~  ~override~
-    SAY NAME2 @1122 //  ~Vail~
-  BUT_ONLY_IF_IT_CHANGES
-  
-  /* Kivan and Tazok Dialogue File Assignment */
-  COPY_EXISTING ~%tutu_var%tazok2.cre~  ~override~
-    WRITE_EVALUATED_ASCII 0x2CC ~%tutu_var%tazok2~ #8 //  dialog
-  BUT_ONLY_IF_IT_CHANGES
-  
-  /* STATE.IDS patching to ToB - thanks, Cam, if you read it */
+	/* STATE.IDS patching to ToB - thanks, Cam, if you read it */
   /* adds custom IsValidForPartyDialogue state */
   APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 
@@ -303,279 +48,18 @@ BEGIN @1005 DESIGNATED 0
   /* and GTIMES.IDS, ANIMATE.IDS patching to ToB, courtesy of the BG2 Fix Pack */
   INCLUDE ~bg1npc/LIB/ids_entries_cleanup.tph~
 
-/* Tutu J File junk States, DPLAYER2.BCS */
-ACTION_IF (GAME_IS ~tutu tutu_totsc~) THEN BEGIN
-	/* Cleaning J files from junk states */
-	COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/X#JFIX_TUTU.D~
-	
-	/* Changing DPLAYER2.bcs to stop BreakingPoint SDNS from hanging Tutu Only */
-	COPY_EXISTING ~DPLAYER2.bcs~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-			REPLACE_TEXTUALLY CASE_INSENSITIVE ~!InParty(Myself)~ ~False()~
-			REPLACE_TEXTUALLY CASE_INSENSITIVE ~ChangeAIScript("",DEFAULT)~ ~~
-			REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("IHATEYOUALL","LOCALS",0)~ ~~
-		END
-	BUT_ONLY_IF_IT_CHANGES
+	/* Fixes */
+	INCLUDE ~bg1npc/core/tpa/a64_beregost.tpa~ /* Ascension64's Bere"gost" Fix */
+	INCLUDE ~bg1npc/core/tpa/nythrun_fixes.tpa~ /* Apply Nythrun's Fixes to creatures we use */
+	INCLUDE ~bg1npc/core/tpa/2da_patch.tpa~ /* Apply .2da patching for banter dialog files */
+	INCLUDE ~bg1npc/core/tpa/cd_templefix.tpa~ /* CamDawg's Temple Healing Fix */
+	INCLUDE ~bg1npc/core/tpa/dialog_fixes.tpa~ /* BG1NPC Dialog Fixes */
+	INCLUDE ~bg1npc/core/tpa/area_fixes.tpa~ /* BG1NPC Area Fixes */
+	INCLUDE ~bg1npc/core/tpa/misc_fixes.tpa~ /* Miscellaneous Fixes */
 
-	EXTEND_TOP ~DPLAYER2.bcs~ ~bg1npc/Core/baf/X#DPLYR2.BAF~
-END 
-
-/* BGT J File junk States, DPLAYER2.BCS */
-ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-	/* Cleaning J files from junk states */
-	COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/X#JFIX_BGT.D~
-	/* Changing DPLAYER2.bcs to stop BreakingPoint SDNS from hanging is unnessesary in BGT */     
-END
-
-/* Trying to prevent Alora from Stuttering. */
-  COPY_EXISTING ~%tutu_var%ALORA.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY CASE_INSENSITIVE
-      ~TimeOfDay(DAY)~ ~AreaCheck("%WBaldursGate_HallofWonders%") NumberOfTimesTalkedTo(0) TimeOfDay(DAY) !InParty(Myself)~
-    END
-  BUT_ONLY_IF_IT_CHANGES
-
-  /* WizWom's Prevent Alora Area Script from Crashing. */
-  COPY_EXISTING ~%WBaldursGate_HallofWonders_BCS%.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE ~Exists("ALORA")~ ~Exists("ALORA") InMyArea("ALORA")~
-    END
-  BUT_ONLY_IF_IT_CHANGES
-  
-  /* Stop Viconia's Potential Script Stutter on Tutu - fix already in BGEE */
-  /* scripts */
-  ACTION_IF !(GAME_IS ~bgee eet~) THEN BEGIN
-	  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
-    	DECOMPILE_AND_PATCH BEGIN
-    		REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
-	    END
-  	  BUT_ONLY_IF_IT_CHANGES
-  END
-  
-  /* Make Tazok Killable */
-  /* scripts */
-  COPY_EXISTING ~%tutu_var%TAZOK.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~HPPercentLT(Myself,50)~ ~HPPercentLT(Myself,50) !InParty("KIVAN")~
-    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("MACTazokBelt","LOCALS",0)~ ~Global("X#MACDisableTazokInv","GLOBAL",1)~
-    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~SetGlobal("MACTazokBelt","LOCALS",1)~ ~SetGlobal("X#MACDisableTazokInv","GLOBAL",2)~
-    END
-  BUT_ONLY_IF_IT_CHANGES
-  
-  /* scripts extension */
-  EXTEND_TOP ~%tutu_var%TAZOK.bcs~ ~bg1npc/Core/baf/X#TAKILL.BAF~
-    EVALUATE_BUFFER
-	
-  /* Set Tazok sprite back to living before last chapter, and move triggers to another variable other than Dead() */
-  EXTEND_BOTTOM ~%Undercity_BCS%.bcs~ ~bg1npc/core/baf/x#tazokarea.baf~
-    EVALUATE_BUFFER
-  
-  /* BGEE adds a second Legacy of the Masters to the chest in Raemon's tent (in addition to the one Tazok wears). Adding a block to AR1901.BCS to remove the item from the chest if Tazok has been made killable (i.e., Kivan is in the party). */
-  ACTION_IF (GAME_IS ~bgee eet~) THEN BEGIN
-  	EXTEND_TOP ~%BanditCamp_RaemonsTent%.bcs~ ~bg1npc/core/baf/x#ar1901.baf~
-    	EVALUATE_BUFFER
-  END
-  
-  /* CORAN WYVERN QUEST */
-  /* Create Coran's Wyverns */
-  ACTION_IF !(FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 already has unique wyverns for Coran's quest
-  	COPY_EXISTING ~%tutu_var%WYVERN.CRE~ ~override/X#CORWYV.CRE~
-    	WRITE_ASCII 0x280 ~X#CoranWyvern~ #32
-  	BUT_ONLY_IF_IT_CHANGES
-
-  /* put them in the Cave */
-  	COPY_EXISTING ~%CloakwoodWyverns_WyvernCave%.ARE~ ~override~
-    	READ_LONG 0x54 actors_off
-    	READ_SHORT 0x58 actors_num
-    	FOR (i = 0; i < %actors_num%; i += 1) BEGIN
-      		READ_ASCII (%actors_off% + %i% * 0x110 + 0x80) actor_resref
-      		PATCH_IF ("%actor_resref%" STR_EQ "%tutu_var%WYVERN") BEGIN
-        		WRITE_ASCII (%actors_off% + %i% * 0x110 + 0x80) X#CORWYV #8
-      		END
-    	END
-  	BUT_ONLY_IF_IT_CHANGES
-  END
-  
-  /* False() out blocks from Coran's default script 
-     All platforms: Default timer expired block
-     BGEE only: Wyvern killed block */
-  COPY_EXISTING ~%CORAN_BCS%.bcs~ ~override~
-  	DECOMPILE_AND_PATCH BEGIN
-  	  	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("CORAN","GLOBAL")~ ~False()~
-      	PATCH_IF (GAME_IS ~bgee eet~) BEGIN 
-      		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
-	  	END
-    END
-  BUT_ONLY_IF_IT_CHANGES
-
-  /* Fixing Coran's Wyvern script */
-  EXTEND_TOP ~%CORAN_BCS%.bcs~ ~bg1npc/Core/baf/X#CORWYV.BAF~
-    EVALUATE_BUFFER
-
-  /* Fix Coran's dialog files */
-  ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN 
-  	ACTION_IF (FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 	
-  		COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_bgeev2.d~
-  	END ELSE BEGIN
-  		COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_tutu.d~
-  	END 
-  END ELSE BEGIN // BGT
-  	COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_bgt.d~
-  END 
-  /* END WYVERN QUEST */
-  
-  /* removing Kivan's timer to leave party */
-  COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
-  	DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("KIVAN","GLOBAL")~ ~False()~
-    END
-  BUT_ONLY_IF_IT_CHANGES
-
-  /* removing Minsc's timer to leave party */
-  COPY_EXISTING ~%MINSC_BCS%.bcs~ ~override~
-  	DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("MINSC","GLOBAL")~ ~False()~
-    END
-  BUT_ONLY_IF_IT_CHANGES
-
-  /* Area Script Assignment Patching: All Areas Script ID'd */
-  /* Tutu */
-  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    INCLUDE ~bg1npc/LIB/tutu_area_script_assign.tph~
-  END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN 
-  /* BGEE */
-    INCLUDE ~bg1npc/LIB/bgee_area_script_assign.tph~
-    
-    /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
-    ACTION_IF FILE_EXISTS_IN_GAME ~%NorthNashkelRoad_BCS%.bcs~ THEN BEGIN
-    	COPY_EXISTING ~%NorthNashkelRoad_BCS%.bcs~ ~override~
-        	DECOMPILE_AND_PATCH BEGIN
-          		REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~Global("PoorMrColquetleFamily","GLOBAL",0) False()~
-        	END
-    	BUT_ONLY_IF_IT_CHANGES
-  	END
-  END
-
-	/* Area Type Flagging */
-    /* TotSC only */
-    ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
-      COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
-                    ~%IsleofBalduranS%.are~ ~override~
-                    ~%DurlagsTower%.are~ ~override~
-                    ~%Farmlands%.are~ ~override~ //  is this correct? area reference is... FW0400
-        READ_BYTE  "0x48" "flags"
-        WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
-      BUT_ONLY_IF_IT_CHANGES
-    END
-  
-    /* FOREST and OUTDOOR */
-    COPY_EXISTING ~%FishingVillage%.are~ ~override~
-                  ~%Peldvale%.are~ ~override~
-                  ~%LionsWay%.are~ ~override~
-                  ~%CoastWay%.are~ ~override~
-                  ~%Larswood%.are~ ~override~
-                  ~%ShipwrecksCoast%.are~ ~override~
-                  ~%HighHedge%.are~ ~override~
-                  ~%MutaminsGarden%.are~ ~override~
-                  ~%Lighthouse%.are~ ~override~
-                  ~%RedCanyons%.are~ ~override~
-                  ~%SouthBeregostRoad%.are~ ~override~
-                  ~%Ulcaster%.are~ ~override~
-                  ~%ArchaeologicalSite%.are~ ~override~
-                  ~%FishermansLake%.are~ ~override~
-                  ~%NorthNashkelRoad%.are~ ~override~
-                  ~%LonelyPeaks%.are~ ~override~
-                  ~%FirewineBridge%.are~ ~override~
-                  ~%BearRiver%.are~ ~override~
-                  ~%ValleyoftheTombs%.are~ ~override~
-                  ~%DryadFalls%.are~ ~override~
-                  ~%FireLeafForest%.are~ ~override~
-                  ~%GibberlingMountains%.are~ ~override~
-      READ_BYTE  "0x48" "flags"
-      WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
-    BUT_ONLY_IF_IT_CHANGES
-  
-    /* OUTDOOR ONLY */
-    COPY_EXISTING ~%GnollStronghold%.are~ ~override~
-                  ~%NashkelMines%.are~ ~override~
-                  ~%FriendlyArmInn%.are~ ~override~
-                  ~%Temple%.are~ ~override~
-                  ~%NashkelCarnival%.are~ ~override~
-      READ_BYTE  "0x48" "flags"
-      WRITE_BYTE "0x48" ("%flags%" BOR "0b00000001")
-    BUT_ONLY_IF_IT_CHANGES
-  
-    /* CITY and OUTDOOR */
-    COPY_EXISTING ~%WyrmsCrossing%.are~ ~override~
-                  ~%Candlekeep_Ch6%.are~ ~override~
-                  ~%Gullykin%.are~ ~override~
-      READ_BYTE  "0x48" "flags"
-      WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
-    BUT_ONLY_IF_IT_CHANGES
-  
-    /* WizWom's Tutu NPC Battle fix: TUTU only, not compatible with BGT scripts */
-    ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-      COPY_EXISTING ~%EDWIN_BCS%.bcs~ ~override~
-                    ~%ELDOTH_BCS%.bcs~ ~override~
-                    ~%SHARTEEL_BCS%.bcs~ ~override~
-                    ~%JAHEIRA_BCS%.bcs~ ~override~
-                    ~%KAGAIN_BCS%.bcs~ ~override~
-                    ~%KHALID_BCS%.bcs~ ~override~
-                    ~%KIVAN_BCS%.bcs~ ~override~
-                    ~%MINSC_BCS%.bcs~ ~override~
-                    ~%MONTARON_BCS%.bcs~ ~override~
-                    ~%QUAYLE_BCS%.bcs~ ~override~
-                    ~%TIAX_BCS%.bcs~ ~override~
-                    ~%VICONIA_BCS%.bcs~ ~override~
-                    ~%DYNAHEIR_BCS%.bcs~ ~override~
-        DECOMPILE_AND_PATCH BEGIN
-          REPLACE_TEXTUALLY CASE_INSENSITIVE ~MakeUnselectable(5000)~ ~MakeUnselectable(6) Continue()~
-        END
-      BUT_ONLY_IF_IT_CHANGES
-    END
-
-
-    /* Miloch's bugged spell/script fixes (required for Gnomes) */
-    ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
-      COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
-        DECOMPILE_AND_PATCH BEGIN
-          REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
-        END
-      BUT_ONLY_IF_IT_CHANGES
-    END
-
-
-//  ACTION_IF NOT(MOD_IS_INSTALLED setup-scs.tp2 32) THEN BEGIN // Non-SCS Smarter Priests
-//    EXTEND_TOP ~%tutu_var%priest4.bcs~ ~bg1npc/phase2/baf/x#pries4.baf~ // Add a few spells
-//  END
-
-  COPY_EXISTING ~%tutu_var%ghoult.itm~ ~override~ // Fix droppable Ghoul Touch
-    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-      READ_BYTE 0x18 fl // Flags
-      PATCH_IF ((fl BAND 0b00000100) = 0b00000100) BEGIN // If movable
-        WRITE_BYTE 0x18 (fl BAND 0b11110011) // Make unmovable
-      END
-    END
-  BUT_ONLY_IF_IT_CHANGES
-
-  // BGEE Fix Area Scripts for AR2400.BCS and AR2900.BCS
-  ACTION_IF GAME_IS ~bgee eet~ AND 
-    !(FILE_EXISTS ~override/AY#BGEEARBCSFIX.000~) THEN BEGIN //do once
-
-	COPY ~bg1npc/Core/X#component.xx~ ~override/AY#BGEEARBCSFIX.000~
-	
-	COPY_EXISTING ~%Peldvale_BCS%.bcs~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-  			//Add Exists(Raiken) check to TazokSays script block
-  			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Raiken")~
-  		END
-
-	COPY_EXISTING ~%Larswood_BCS%.bcs~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-  			//Add Exists(Teven) check to TazokSays script block
-  			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Teven")~
-  		END  	
-  END // BGEE Area Script Fix
+  /* Joinable NPC Fixes */
+	INCLUDE ~bg1npc/core/tpa/npc_fixes.tpa~ /* BG1NPC Dialog Fixes */
+	INCLUDE ~bg1npc/core/tpa/coran_wyvern.tpa~ /* CORAN WYVERN QUEST */
 
 
 /* BEGIN PHASE I BG1NPC PROJECT */
@@ -620,7 +104,7 @@ BEGIN @1007
   /* Ajantis shield */
   COPY ~bg1npc/Phase1/ITM/X#ISHAJ.BAM~ ~override~
   COPY ~bg1npc/Phase1/ITM/X#CSHAJ.BAM~ ~override~
-  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN 
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	COPY ~bg1npc/Phase1/ITM/X#AJSHLD_EE.itm~ ~override/x#ajshld.itm~
   END ELSE BEGIN /* Tutu or BGT */
 	  COPY ~bg1npc/Phase1/ITM/X#AJSHLD.itm~ ~override~
@@ -636,13 +120,13 @@ BEGIN @1007
     BUT_ONLY
 
   /* BGEE: Add Ajantis' shield to item_use.2da */
-  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN 
-  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~ 
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~
   	  UNLESS ~x#ajshld~
   	COPY_EXISTING ~item_use.2da~ ~override~
 	  PRETTY_PRINT_2DA
   END
-  
+
   /* Give Ajantis his shield and a bastard sword (no proficiency) */
   COPY_EXISTING ~%tutu_var%ajanti.cre~  ~override~
                 ~%tutu_var%ajanti4.cre~ ~override~
@@ -651,14 +135,14 @@ BEGIN @1007
     ADD_CRE_ITEM ~X#AJSHLD~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
 
   /* Imoen - Pink Xan */
-  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN 
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	COPY ~bg1npc/Phase1/cre/pinkxans_ee.bmp~ ~override/pinkxans.bmp~
 	COPY ~bg1npc/Phase1/cre/pinkxanl_ee.bmp~ ~override/pinkxanl.bmp~
   END ELSE BEGIN /* Tutu or BGT */
 	COPY ~bg1npc/Phase1/cre/pinkxans.bmp~ ~override~
   	COPY ~bg1npc/Phase1/cre/pinkxanl.bmp~ ~override~
   END
-  
+
   COPY ~bg1npc/Phase1/ITM/PINKXAN.SPL~ ~override~
     SAY 8 @14
     WRITE_ASCII 0xde ~pinkxans~
@@ -687,13 +171,13 @@ BEGIN @1007
     WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
     WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
     WRITE_ASCII 0xDE ~EFF_P07~ #8   // resource
-	
+
   COPY ~bg1npc/Phase1/ITM/X#POLY.SPL~ ~override~
     WRITE_ASCII 0x10 ~CAS_M08~ #8    // casting sound
     WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
     WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
     WRITE_ASCII 0xDE ~EFF_P07~ #8    // resource
-	
+
   COPY ~bg1npc/Phase1/ITM/X#TOME.itm~ ~override~
     SAY NAME1 @16
     SAY NAME2 @16
@@ -871,7 +355,7 @@ BEGIN @1007
   END
 
 /* this does not work because PHLYDI3.cre changes into a doppelganger and the assigned DV does not trigger.
-Taken out because there is no dialogue that needs this. 
+Taken out because there is no dialogue that needs this.
 Also, using the DV "phlydi3" would be more appropriate since it's not the real Phlydia.
   COPY_EXISTING  ~%tutu_var%phlydi3.cre~ ~override~
     WRITE_ASCII 0x280 ~phlydia~ #32 //  death variable
@@ -956,7 +440,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#COINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#VIINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#QUINT.D~
-  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kiint_new.d~
+//  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kiint_new.d~
 
   /* Add Journal Entries to BGEE.sql for BGEE */
   ADD_JOURNAL EXISTING TITLE (#31279) @72 @73 USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
@@ -978,14 +462,14 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
       EVALUATE_BUFFER USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
 
   /* General use scripts */
-  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#gpsht.baf~ 
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#gpsht.baf~
   COMPILE ~bg1npc/phase2/baf/x#shout6.baf~
-  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#fight2.baf~ 
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#fight2.baf~
 
-	  
- /* -JW-'s Edwin vs Denak fix */ 
+
+ /* -JW-'s Edwin vs Denak fix */
  /* http:// forums.gibberlings3.net/index.php?s=&showtopic=15516&view=findpost&p=133308 */
- 
+
   EXTEND_BOTTOM ~%SpiderWood_BCS%.bcs~ ~bg1npc/Phase2/baf/JW#FW3000.BAF~
 
   /* Interjection scripting changes, added creatures */
@@ -1053,8 +537,8 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
       EVALUATE_BUFFER
   EXTEND_TOP  ~%tutu_var%DRIZZT.bcs~  ~bg1npc/Phase2/baf/X#DRIZZT2.BAF~
       EVALUATE_BUFFER
-  EXTEND_TOP  ~%KIVAN_BCS%.bcs~  ~bg1npc/Phase2/baf/x#kiint_new.baf~
-      EVALUATE_BUFFER
+//  EXTEND_TOP  ~%KIVAN_BCS%.bcs~  ~bg1npc/Phase2/baf/x#kiint_new.baf~
+//      EVALUATE_BUFFER
 
   /* Added Quests */
   /* Edwin */
@@ -1080,7 +564,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     ADD_CRE_ITEM ~shld04~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
     ADD_CRE_ITEM ~chan02~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
     ADD_CRE_ITEM ~helm06~ #0 #0 #0 ~IDENTIFIED~ ~HELMET~
-    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
   /* Karris */
   COPY ~bg1npc/phase2/cre/x#karris.cre~ ~override/x#karris.cre~
@@ -1201,7 +685,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   EXTEND_BOTTOM ~X#KARRIS.bcs~ ~bg1npc/Phase2/baf/x#tqkarris.baf~
     EVALUATE_BUFFER
   COMPILE ~bg1npc/Phase2/baf/x#tqbh.baf~
-  
+
   /* area scripts */
   EXTEND_BOTTOM ~%SEBaldursGate_Blade&Stars_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqfw0106.baf~
      EVALUATE_BUFFER
@@ -1247,8 +731,8 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COPY_EXISTING ~%tutu_scripti%ronelit.cre~ ~override/x#kaband.cre~
     LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
-    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
-	REMOVE_CRE_ITEMS    
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+	REMOVE_CRE_ITEMS
 	SAY NAME1 @24
     SAY NAME2 @24
     SAY INITIAL_MEETING @25
@@ -1275,8 +759,8 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COPY_EXISTING  ~%tutu_var%bandit.cre~ ~override/x#bandk.cre~
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
-	LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~ 
-	REMOVE_CRE_ITEMS    
+	LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+	REMOVE_CRE_ITEMS
     SAY NAME1 @30
     SAY NAME2 @30
     SAY INITIAL_MEETING @31
@@ -1302,7 +786,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   	END ELSE BEGIN	/* Tutu, BGT */
   		SAY NAME1 #20323  // Body
   		SAY NAME2 #20323  // Body
-    END		
+    END
 
   /* Adding Brilla's DV */
   COPY_EXISTING ~%tutu_var%brilla.cre~ ~override~
@@ -1593,7 +1077,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     	SAY DYING @705 // x#ogref6
     	SAY SELECT_COMMON1 @701 // x#ogref2
     	SAY SELECT_COMMON2 @703 // x#ogref4
-    END ELSE BEGIN /* Tutu, BGT, EET */    	
+    END ELSE BEGIN /* Tutu, BGT, EET */
 	    SAY INITIAL_MEETING @126
     	SAY UNHAPPY_BREAKING @127
    		SAY BATTLE_CRY1 @128
@@ -1605,7 +1089,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     	SAY SELECT_COMMON3 @133
     	SAY SELECT_COMMON4 @134
     END
-    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~ 
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
 
   COPY ~bg1npc/Phase2/cre/x#chop.cre~ ~override~
     SAY NAME1 @135
@@ -1619,7 +1103,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     	SAY DYING @705 // x#ogref6
     	SAY SELECT_COMMON1 @701 // x#ogref2
     	SAY SELECT_COMMON2 @703 // x#ogref4
-    END ELSE BEGIN /* Tutu, BGT, EET */    	
+    END ELSE BEGIN /* Tutu, BGT, EET */
 	    SAY INITIAL_MEETING @126
     	SAY UNHAPPY_BREAKING @127
    		SAY BATTLE_CRY1 @128
@@ -1651,7 +1135,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     /* x#assi01-11 are illusions created by x#david that don't speak */
     	WRITE_LONG DAMAGE BNOT (0x0)
     	WRITE_LONG DYING BNOT (0x0)
-    END ELSE BEGIN /* Tutu, BGT */    	
+    END ELSE BEGIN /* Tutu, BGT */
     	SAY LEADER @137
     	SAY TIRED @138
     	SAY BORED @139
@@ -1707,7 +1191,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
 	COPY ~bg1npc/phase2/wav/x#ogref5.wav~ ~override~
 	COPY ~bg1npc/phase2/wav/x#ogref6.wav~ ~override~
   END
-  
+
   /* patching Xan's script */
   EXTEND_TOP  ~%XAN_BCS%.bcs~ ~bg1npc/Phase2/baf/X#XACUT.BAF~
       EVALUATE_BUFFER
@@ -1741,18 +1225,18 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY NAME2 @633
     SAY INITIAL_MEETING @474
     SAY DAMAGE @473
-    SAY DYING @472   
+    SAY DYING @472
     SAY SELECT_COMMON1 @474
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
-    
+
   COPY ~bg1npc/Phase2/cre/x#mazuri.cre~ ~override~
 	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @634
     SAY NAME2 @634
     SAY INITIAL_MEETING @177
     SAY DAMAGE @562
-    SAY DYING @563 
+    SAY DYING @563
     SAY SELECT_COMMON1 @177
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
@@ -1763,7 +1247,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY NAME2 @635
     SAY INITIAL_MEETING @177
     SAY DAMAGE @562
-    SAY DYING @563 
+    SAY DYING @563
     SAY SELECT_COMMON1 @177
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
@@ -1791,7 +1275,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY DIALOGUE_DEFAULT #11112 // [FEMALE GREETING 5] Yes, friend?
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
     WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
-	
+
   COPY ~bg1npc/Phase2/cre/x#diala.cre~ ~override~
   	LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
     SAY NAME1 @638
@@ -1842,7 +1326,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#SKODD.BAF~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XQXAN.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#xqmerx.baf~
-     
+
  /* Garrick's Quest */
 
   /* items */
@@ -1932,7 +1416,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#GARAR.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#GARWYL.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#HALBAZ.D~
-  
+
   /* Add Journal entries for BGEE */
   ADD_JOURNAL TITLE (@999) @24 @26 USING ~bg1npc/tra/%LANGUAGE%/x#garwyl.tra~
 
@@ -1995,10 +1479,10 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COPY ~bg1npc/phase2/itm/X#CDYEI.BAM~ ~override~
 		~bg1npc/phase2/itm/X#COAMUL.BAM~ ~override~
 		~bg1npc/phase2/itm/X#CORINC.BAM~ ~override~
-		~bg1npc/phase2/itm/X#CORINI.BAM~ ~override~	   
+		~bg1npc/phase2/itm/X#CORINI.BAM~ ~override~
 		~bg1npc/phase2/itm/X#COFRRO.BAM~ ~override~
 		~bg1npc/phase2/itm/X#COWIRO.BAM~ ~override~
-		   
+
   COPY ~bg1npc/phase2/itm/X#COAMUL.itm~  ~override~
     SAY NAME1 @221
     SAY NAME2 @222
@@ -2066,7 +1550,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
 
   COPY ~bg1npc/phase2/spl/x#ameth.spl~ ~override~ // Ethereal Jaunt
   COPY ~bg1npc/phase2/spl/x#amtlp.spl~ ~override~ // Teleport
-  
+
   /* creatures */
   /* Amelia */
   COPY ~bg1npc/Phase2/cre/CAMW3G1.BAM~ ~override~
@@ -2079,12 +1563,12 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY DAMAGE @742 // [VAMPF06]
     SAY DYING @743 // [VAMPF07]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
-    ADD_CRE_ITEM ~HELMNOAN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~helmet~ 
-    ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~rring~ 
+    ADD_CRE_ITEM ~HELMNOAN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~helmet~
+    ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~rring~
     ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~BOOTS~
     ADD_CRE_ITEM ~B1-3~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
 	WRITE_ASCII 0x250 ~X#AMELIX~ #8
-	
+
   /* Natan */
   COPY ~bg1npc/Phase2/cre/x#natan.cre~ ~override~
       LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
@@ -2143,7 +1627,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
       EVALUATE_BUFFER
   EXTEND_TOP  ~%FirewineRuins_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW5201.BAF~
       EVALUATE_BUFFER
-  
+
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#AMELIA.BAF~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#AMELIX.BAF~ USING ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#RASHEL.BAF~
@@ -2159,6 +1643,40 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   EXTEND_TOP  ~%tutu_var%CORAN.bcs~ ~bg1npc/Phase2/baf/X#COSQU.BAF~
     EVALUATE_BUFFER
 
+
+	/* Kivan & Tazok */
+	/* Kivan and Tazok Dialogue File Assignment */
+  COPY_EXISTING ~%tutu_var%tazok2.cre~  ~override~
+    WRITE_EVALUATED_ASCII 0x2CC ~%tutu_var%tazok2~ #8 //  dialog
+  BUT_ONLY_IF_IT_CHANGES
+
+	/* Scripts */
+	EXTEND_TOP  ~%tutu_var%KIVAN.bcs~ ~bg1npc/Phase2/baf/x#kivantazok.baf~ EVALUATE_BUFFER USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+
+	/* Dialogues */
+	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+		OUTER_SPRINT "kivan17" "#32793"
+	END
+	ACTION_IF GAME_IS ~eet~ THEN BEGIN
+		OUTER_SPRINT "kivan17" "#232793"
+	END
+	ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+		COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kivantazok_ee.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+	END ELSE BEGIN
+		EXTEND_TOP  ~%Undercity_TempleofBhaal_BCS%.bcs~ ~bg1npc/Phase2/baf/x#kivantazokdead.baf~ EVALUATE_BUFFER
+		COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kivantazok_tutu.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+	END
+
+	/* Journal Entries for BGEE & EET */
+	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+		ADD_JOURNAL EXISTING TITLE (#31280) @102 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+		ADD_JOURNAL EXISTING TITLE (#32759) @103 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+	END
+	ACTION_IF GAME_IS ~eet~ THEN BEGIN
+		ADD_JOURNAL EXISTING TITLE (#231280) @102 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+		ADD_JOURNAL EXISTING TITLE (#232759) @103 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+	END
+
   /* Kivan's Quest */
 
   /* items */
@@ -2166,11 +1684,11 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY NAME1 @249
     SAY NAME2 @249
     SAY DESC @250
-    
+
   /* BGEE: Add Kivan's bow to item_use.2da */
   ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-  	APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~ 
-  	  UNLESS ~P#BOW~  	
+  	APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~
+  	  UNLESS ~P#BOW~
   	COPY_EXISTING ~item_use.2da~ ~override~
 	  PRETTY_PRINT_2DA
   END
@@ -2275,7 +1793,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#AR0900.BAF~
       EVALUATE_BUFFER
   END ELSE BEGIN
-  /* For TuTu and BGT */ 
+  /* For TuTu and BGT */
     EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0900.BAF~
       EVALUATE_BUFFER
   END
@@ -2341,7 +1859,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY SELECT_COMMON3 @726 // [SAHAU05]
     SAY SELECT_COMMON4 @722 // [SAHAU01]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
-      
+
   COPY ~bg1npc/Phase2/cre/x#saha02.cre~ ~override~
     SAY NAME1 @721  /* Sahuagin */
     SAY NAME2 @721  /* Sahuagin */
@@ -2355,22 +1873,22 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
     SAY SELECT_COMMON3 @726 // [SAHAU05]
     SAY SELECT_COMMON4 @722 // [SAHAU01]
     LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
-      
+
   /* Add BG2 Items missing from BGEE */
   /* Boomerang Dagger */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~dagg11.itm~) THEN BEGIN
-	COPY ~bg1npc/phase2/itm/dagg11.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/dagg11.itm~ ~override~
   		SAY NAME2 @763
   		SAY DESC @764
   END
-  
+
   /* Sahuagin Paralytic Bolt */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~sahbolt.itm~) THEN BEGIN
-	COPY ~bg1npc/phase2/itm/sahbolt.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/sahbolt.itm~ ~override~
 		SAY NAME2 @772
   		SAY DESC @773
   END
-  
+
   /* area patching */
   EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW3100.BAF~
       EVALUATE_BUFFER
@@ -2379,7 +1897,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#IHTIA.BAF~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KETH.BAF~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KISE1.BAF~
-  
+
   /* dialogues */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KISEQU.D~
 
@@ -2406,30 +1924,30 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
 
   /* Add BG2 Items missing from BGEE */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~scrl8i.itm~) THEN BEGIN   /* Scroll of Cacofiend */
-	COPY ~bg1npc/phase2/itm/scrl8i.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/scrl8i.itm~ ~override~
   END
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~scrl9h.itm~) THEN BEGIN   /* Scroll of Maze */
-  	COPY ~bg1npc/phase2/itm/scrl9h.itm~ ~override~ 
+  	COPY ~bg1npc/phase2/itm/scrl9h.itm~ ~override~
   END
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~seeinvis.itm~) THEN BEGIN   /* Demon See Invisibility ring */
 	COPY ~bg1npc/phase2/itm/seeinvis.itm~ ~override~
   END
 
-  /* Working spell for Prot Evil 10' radius that protects vs Demons 
+  /* Working spell for Prot Evil 10' radius that protects vs Demons
      Note: BGEE version of SPPR408 already protects vs demons. */
   ACTION_IF !(GAME_IS ~bgee eet~) THEN BEGIN
   	COPY ~bg1npc/phase2/itm/SPPR408.SPL~ ~override~
   END
- 
+
   /* Compile spell for Imp */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#IMPSPL.BAF~
     USING ~bg1npc/TRA/%LANGUAGE%/X#IMPSPL.TRA~
-  
+
   /* X#IMPSPL.BCS uses the sound file IMPPP04.wav, which is not found in BGEE. */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imppp04.wav~) THEN BEGIN
   	COPY ~bg1npc/phase2/wav/imppp04.wav~ ~override~
   END
-  
+
   /* creatures */
   /* new Drizzt for cutscenes */
   COPY_EXISTING ~%tutu_var%drizzt.cre~ ~override/x#drizzt.cre~
@@ -2507,7 +2025,7 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
         WRITE_ASCII 0x2cc ~X#DGNLG~ #8// Dialogue file: Good Gnoll #1
         ADD_CRE_ITEM ~X#DYJOR1~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
       END
-      
+
 
 ACTION_IF FILE_EXISTS_IN_GAME ~imp01.cre~ THEN BEGIN
   COPY_EXISTING ~IMP01.cre~ ~override/x#dyqimp.cre~
@@ -2521,7 +2039,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~imp01.cre~ THEN BEGIN
     WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
     WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
     WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
-    
+
   COPY_EXISTING ~MEPSMO01.cre~ ~override/x#mepht1.cre~
                 ~MEPSMO01.cre~ ~override/x#mepht2.cre~
                 ~MEPSMO01.cre~ ~override/x#mepht3.cre~
@@ -2550,7 +2068,7 @@ END ELSE BEGIN
     WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
     WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
     WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
-    
+
   COPY ~bg1npc/phase2/cre/x#mepht1.cre~ ~override~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht2.cre~
        ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht3.cre~
@@ -2594,7 +2112,7 @@ END
   /* Add Journal Entries to database for BGEE */
   ADD_JOURNAL TITLE (@999) @30 @32 @34 @36 @223 @224 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
   ADD_JOURNAL EXISTING TITLE (#31317) @220 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
-  
+
   /* Lake Poets "Quest"; Bard in party encounter */
   /* creatures */
   COPY_EXISTING ~%tutu_var%VOLO.cre~ ~override/x#lakep1.cre~
@@ -2645,29 +2163,29 @@ END
   /* Add Lake Poet Harps if not in game */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~itemharp.wav~) THEN BEGIN
 	COPY ~bg1npc/phase2/wav/itemharp.wav~ ~override~
-  END  
+  END
   /* Harp of Discord */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3m.itm~) THEN BEGIN
-	COPY ~bg1npc/phase2/itm/misc3m.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/misc3m.itm~ ~override~
   		SAY NAME2 @765
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @767
   END
   /* Azlaer's Harp */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3n.itm~) THEN BEGIN
-	COPY ~bg1npc/phase2/itm/misc3n.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/misc3n.itm~ ~override~
   		SAY NAME2 @768
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @769
   END
   /* Methlid's Harp */
   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3o.itm~) THEN BEGIN
-	COPY ~bg1npc/phase2/itm/misc3o.itm~ ~override~ 
+	COPY ~bg1npc/phase2/itm/misc3o.itm~ ~override~
   		SAY NAME2 @770
   		SAY UNIDENTIFIED_DESC @766
   		SAY DESC @771
   END
-	
+
   /* Xzar's Dryad Quest */
   /* items */
   COPY ~bg1npc/phase2/itm/X#XZSPL.SPL~ ~override~
@@ -2915,7 +2433,7 @@ END
 
   /* Add journal entries for BGEE */
   ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
-    
+
   /* dialogues */
 	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   		OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
@@ -2925,7 +2443,7 @@ END
   		OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
 	END
   	COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XZQU.D~
-  
+
   /* scripts */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#BLACK.BAF~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#STORM.BAF~
@@ -2943,7 +2461,7 @@ END
   COMPILE ~bg1npc/phase2/baf/x#druid8.baf~  /* For x#storm */
   COMPILE ~bg1npc/phase2/baf/x#drui12.baf~  /* For x#zosya */
   COMPILE ~bg1npc/phase2/baf/x#drdsht.baf~  /* Druid shout script */
-   
+
   /* Jaheira Shadow Druids Quest */
 
   /* Club */
@@ -2986,7 +2504,7 @@ END
     SAY DYING @343
     SAY SELECT_COMMON1 @345
     WRITE_ASCII 0x280 ~andarthe~ #32 //  death variable
-    
+
   /* Beador */
   COPY ~bg1npc/phase2/cre/x#beador.cre~ ~override~
     SAY NAME1 @364
@@ -3033,7 +2551,7 @@ END
     SAY SELECT_COMMON1 @373
     SAY SELECT_COMMON2 @366
 
-  /* Stock Druids */ 
+  /* Stock Druids */
   COPY ~bg1npc/phase2/cre/x#shdr6.cre~  ~override/x#shdr6.cre~
        ~bg1npc/phase2/cre/x#shdr6.cre~  ~override/x#shdr6a.cre~
        ~bg1npc/phase2/cre/x#shdr6.cre~  ~override/x#shdr6b.cre~
@@ -3048,7 +2566,7 @@ END
     	SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
     	SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
     	SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
-    END ELSE BEGIN /* Tutu, BGT, EET: EPRIM soundset from BG2 */	
+    END ELSE BEGIN /* Tutu, BGT, EET: EPRIM soundset from BG2 */
     	SAY INITIAL_MEETING @327
     	SAY UNHAPPY_BREAKING @328
     	SAY BATTLE_CRY1 @329
@@ -3079,7 +2597,7 @@ END
     	SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
     	SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
     	SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
-    END ELSE BEGIN /* Tutu, BGT, EET: HVILLM soundset from BG2 */	
+    END ELSE BEGIN /* Tutu, BGT, EET: HVILLM soundset from BG2 */
     	SAY INITIAL_MEETING @334
     	SAY UNHAPPY_BREAKING @335
     	SAY BATTLE_CRY1 @336
@@ -3126,7 +2644,7 @@ END
       END
     BUT_ONLY_IF_IT_CHANGES
   END
-  
+
   /* Make sure this is last in Quest additions for Phase 2 */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ICT3.D~
 
@@ -3212,7 +2730,7 @@ ACTION_FOR_EACH viconia IN "%tutu_var%viconi" "%tutu_var%viconi4" "%tutu_viconi6
     BUT_ONLY_IF_IT_CHANGES
   END
 END
-  
+
 /* Kivan */
 BEGIN @1027  /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
 GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
@@ -3238,9 +2756,9 @@ GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
 //REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
-  	
+
   COPY ~bg1npc/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
-  
+
   ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
     COPY ~bg1npc/Phase2/Portraits~ ~override~
   END ELSE BEGIN
@@ -3857,7 +3375,7 @@ BEGIN @1016 /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   END ELSE BEGIN   // Tutu+TotSC, BGT, or BGEE
     COMPILE EVALUATE_BUFFER ~bg1npc/Phase3/AJROM/dlg/x#ajantisAddLTs_PR.D~
   END
-  
+
   /* scripts */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase3/AJROM/baf/X#AJDOUG.BAF~
 
@@ -4347,13 +3865,13 @@ GROUP @1010  /* The BG1 NPC Project: Romances */
     SAY DESC @471
 
   /* Add BG2 items missing from BGEE */
-  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~brac25~) THEN BEGIN  
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~brac25~) THEN BEGIN
   /* Wondrous Gauntlets */
-	COPY ~bg1npc/phase3/dyrom/itm/brac25.itm~ ~override~ 
+	COPY ~bg1npc/phase3/dyrom/itm/brac25.itm~ ~override~
   		SAY NAME2 @761
   		SAY DESC @762
   END
-  
+
   /* Dynaheir's romance timer */
   PRINT @1104
 
@@ -4413,9 +3931,9 @@ GROUP @1010  /* The BG1 NPC Project: Romances */
     EXTEND_BOTTOM ~%Undercity_TempleofBhaal_BCS%.BCS~ ~bg1npc/Phase3/DYROM/baf/X#DA0125.baf~
     EVALUATE_BUFFER
       USING ~bg1npc/TRA/%LANGUAGE%/X#DA0125.TRA~
-    
+
     /* Add BG2 files missing from BGEE */
-    ACTION_IF GAME_IS ~bgee~ THEN BEGIN  
+    ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   		/* Items for Dynaheir romance endgame cutscene */
   		COPY ~bg1npc/phase3/dyrom/itm/minhp20.itm~ ~override~   /* For x#bodhi */
 		COPY ~bg1npc/phase3/dyrom/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
@@ -4423,7 +3941,7 @@ GROUP @1010  /* The BG1 NPC Project: Romances */
 		COPY ~bg1npc/phase3/dyrom/itm/vamp2.itm~ ~override~     /* For x#tanov */
 		COPY ~bg1npc/phase3/dyrom/itm/vamp3.itm~ ~override~     /* For x#bodhi */
 		COPY ~bg1npc/phase3/dyrom/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
-	
+
 		/* Soundset for x#joni */
 		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
 		COPY ~bg1npc/phase3/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
@@ -4497,7 +4015,7 @@ GROUP @1010  /* The BG1 NPC Project: Romances */
     COPY_EXISTING ~x#setta.cre~ ~override~
       WRITE_ASCII 0x34 ~x#settas~ #8 // small portrait
   END
-  
+
   /* Patching all creatures in component for leftover/missed Tutu > BGT items */
   ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
     COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
@@ -4567,7 +4085,7 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
   UNINSTALL ~bg1npc.tp2~ 200
 
   APPEND ~trigger.ids~ ~0x40da HaveSpellParty(I:Spell*Spell)~ UNLESS ~HaveSpellParty~
-  
+
   /* Xan romance timer */
   PRINT @1107
 
@@ -4599,8 +4117,8 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
         APPEND ~gtimes.ids~ ~5400 XAROM_TIMER~
         PRINT @1113
         END
-        
-        
+
+
   /* sound */
   COPY ~bg1npc/Phase3/XAROM/Sound/X#BLANK.WAV~ ~override~
 
@@ -4632,7 +4150,7 @@ BEGIN @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 
   /* dialogue */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase3/XAROM/dlg/X#XANLT.D~
-  
+
 
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
 BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
@@ -4666,9 +4184,9 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
   /* Fighting Area */
   COPY_EXISTING ~x#ajr1.are~ ~override/x#ch11.are~
       WRITE_ASCII 0x94 ~X#AR6001~ #8
-  
+
   /* Dragon Area 1 */
-  /* BGEE does not have BG2's AR1402 area resources available */ 
+  /* BGEE does not have BG2's AR1402 area resources available */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	COPY ~bg1npc/Phase3/CHALLENGE/bgee/X#CH12.MOS~ ~override~
 //	COPY ~bg1npc/Phase3/CHALLENGE/bgee/X#CH12.TIS~ ~override~
@@ -4680,18 +4198,18 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 	COPY ~bg1npc/Phase3/CHALLENGE/bgee/X#CH12sr.bmp~ ~override~
 	COPY ~bg1npc/Phase3/CHALLENGE/bgee/X#CH12_bgee.are~ ~override/x#ch12.are~
 		WRITE_ASCII 0x94 ~X#ARCH12~
-  END ELSE BEGIN   
+  END ELSE BEGIN
   /* For Tutu, BGT, EET */
   	COPY ~bg1npc/Phase3/CHALLENGE/itm/X#CH12.are~ ~override~
     	WRITE_ASCII 0x94 ~X#ARCH12~
   END
-  
+
   /* Dragon Area 2 */
   COPY_EXISTING ~X#CH12.are~ ~override/X#CH14.are~
     WRITE_ASCII 0x94 ~X#CH14~ #8
 
   /* Suldanessellar Area */
-  /* BGEE does not have BG2's AR2805 area resources available */ 
+  /* BGEE does not have BG2's AR2805 area resources available */
   ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 	COPY ~bg1npc/Phase3/CHALLENGE/bgee/X#CH13.MOS~ ~override~
 //	COPY ~bg1npc/Phase3/CHALLENGE/bgee/X#CH13.TIS~ ~override~
@@ -4736,7 +4254,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
 
   COPY_EXISTING ~itemdial.2da~ ~override~
     PRETTY_PRINT_2DA
-    
+
   /* creatures */
   COPY ~bg1npc/Phase3/CHALLENGE/cre/x#maste.cre~ ~override/x#maste.cre~
     SAY NAME1 @491
@@ -4866,7 +4384,7 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON3 #4943	// [ELF 3] Soon we shall all be together upon Evermeet.
     	REPLACE_CRE_ITEM ~CHAN12~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
     	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
-     	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~    	
+     	REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
 	END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @534
     	SAY BATTLE_CRY2 @535
@@ -4963,8 +4481,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
     	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
-    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
-     	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~
+     	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~
     END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -4995,8 +4513,8 @@ BEGIN @1017  /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan v
     	SAY SELECT_COMMON2 @752 // [WYVER02]
     	SAY PICKED_POCKET @760 // [WYVER10]
     	REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
-    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~   
-    	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~ 
+    	REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~
+    	REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~
     END ELSE BEGIN /* Tutu, BGT, EET */
     	SAY BATTLE_CRY1 @548
     	SAY BATTLE_CRY2 @549
@@ -5106,7 +4624,7 @@ BEGIN @1064  /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN  /* BGEE */
     INCLUDE ~bg1npc/phase3/wait/lib/bgee_wait_areas.tpa~
 	COMPILE EVALUATE_BUFFER ~bg1npc/phase3/wait/dlg/x#npcwait_ee.d~
-      USING ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~  
+      USING ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~
   END ELSE BEGIN  /* Tutu */
     /* dialog Tutu Only */
     COMPILE ~bg1npc/Phase3/WAIT/dlg/X#NPCWAIT.D~
@@ -5169,7 +4687,7 @@ BEGIN @1070  /* Alora Starts in Gullykin. */
         END
       END
       BUT_ONLY_IF_IT_CHANGES
-    
+
     PRINT @1071  /* Remember to start a new game for Alora to start in Gullykin near the door to the winery. */
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
@@ -5302,7 +4820,7 @@ BEGIN @1088 /* Jason Compton's Accelerated Banter Script. */
     COPY ~bg1npc/Bantergoose/bantergoose.xxx~ ~override/bantergoose.xxx~
     EXTEND_TOP ~baldur.bcs~ ~bg1npc/bantergoose/bantergoose.baf~
 
-/* BGEE Banter Timing Tweak: Utilizes new BANTTIMG.2DA available in BGEE to 
+/* BGEE Banter Timing Tweak: Utilizes new BANTTIMG.2DA available in BGEE to
    adjust banter dialog timings.  Replaces Compton's "bantergoose" script for BGEE - AstroBryGuy */
 BEGIN @1123 /* BGEE Banter Timing Tweak */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
@@ -5311,7 +4829,7 @@ BEGIN @1123 /* BGEE Banter Timing Tweak */
 //  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
 
   COPY ~bg1npc/Core/X#component.xx~ ~override/AYBanterTimingTweak.xxx~
-  
+
   PRINT @1125
   OUTER_SPRINT ~bantertimer~ ~placeholder_value~
   OUTER_WHILE (!(IS_AN_INT %bantertimer%) OR (%bantertimer% < 1) OR (%bantertimer% > 5)) BEGIN
@@ -5359,7 +4877,7 @@ BEGIN @1123 /* BGEE Banter Timing Tweak */
   		BUT_ONLY_IF_IT_CHANGES
 	PRINT @1130
   END
- 
+
 
 BEGIN @1092 /* The BG1 NPC Project: Make Shar-Teel Unkillable until In Party */
 GROUP @1065 /* The BG1 NPC Project: Tweaks */
@@ -5474,7 +4992,7 @@ BEGIN @1020  /* Open Cloakwood Lodge (first Cloakwood area only) */
     READ_LONG  0x34 "area_off"
     FOR (index = 0; index < area_num; index = index + 1) BEGIN
       READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
-      PATCH_IF ("%area_res%" STR_EQ "%CloakwoodLodge%") BEGIN 
+      PATCH_IF ("%area_res%" STR_EQ "%CloakwoodLodge%") BEGIN
         READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
         WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
       END ELSE
@@ -5500,17 +5018,17 @@ BEGIN @1021   /* Open four Cloakwood areas (everything but the Mines) */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
 //  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* ~BG1 NPC Required Changes component is not installed.~ */
     COPY ~bg1npc/Core/X#component.xx~ ~override/X#BG1NPCCloakwood.G3~
-    
+
   COPY_EXISTING ~worldmap.wmp~ ~override~
   	READ_LONG  0x30 "area_num"
   	READ_LONG  0x34 "area_off"
   	FOR (index = 0; index < area_num; index = index + 1) BEGIN
     	READ_ASCII ("%area_off%" + 0x08 + (0xf0 * "%index%")) "area_res"
-    	PATCH_IF ("%area_res%" STR_EQ "%CloakwoodLodge%") BEGIN 
+    	PATCH_IF ("%area_res%" STR_EQ "%CloakwoodLodge%") BEGIN
       		READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
       		WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BOR 0b00000010) //  adds 'reveal thru linked area' flag
     	END ELSE
-    	PATCH_IF ("%area_res%" STR_EQ "%CloakwoodMines%") BEGIN 
+    	PATCH_IF ("%area_res%" STR_EQ "%CloakwoodMines%") BEGIN
       		READ_BYTE  ("%area_off%" + 0x30 + (0xf0 * "%index%")) "flags"
       		WRITE_BYTE ("%area_off%" + 0x30 + (0xf0 * "%index%")) ("%flags%" BAND 0b11111101) //  removes 'reveal thru linked area' flag
     	END
@@ -5641,7 +5159,7 @@ BEGIN @1091 DESIGNATED 200    /* The BG1 NPC Project: Player-Initiated Dialogues
         EVALUATE_BUFFER
     COPY ~bg1npc/TRA/%LANGUAGE%/X#AJPCFL_tmp.tra~ ~bg1npc/TRA/%LANGUAGE%/X#AJPCFL.tra~
         EVALUATE_BUFFER
-    /* install PIDs */  
+    /* install PIDs */
       /* sound */
     COPY ~BG1NPC/Phase3/XAROM/Sound/X#BLANK.WAV~ ~override~
     COMPILE EVALUATE_BUFFER ~bg1npc/Phase3/PID/X#PCINIT.D~
