@@ -16,9 +16,22 @@ THEN
 END
 
 IF
-	OR(2)
+	OR(3)
 		Heard("x#bandk",ASSIST)
 		Heard("x#kaband",ASSIST)
+		Global("X#CaravanBanditEncounter","GLOBAL",2)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Shout(ASSIST)
+		Enemy()
+		Continue()
+END
+
+IF
+	OR(2)
+		Heard("x#bandk",ASSIST)  // Caravan Bandit
+		Heard("x#kaband",ASSIST)  // Caravan Bandit Leader
 	Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100

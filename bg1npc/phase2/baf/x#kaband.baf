@@ -5,6 +5,15 @@ THEN
 		RandomWalkContinuous()
 END
 
+IF
+	Die()
+	Global("X#CaravanBanditEncounter","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("X#KagainCaravan","GLOBAL",3)
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
+END
+
 IF %BGT_VAR%
 	OR(6)
 		See(Player1)
@@ -41,6 +50,19 @@ END
 
 IF
 	Heard("x#bandk",ASSIST)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		SetGlobal("X#KagainCaravan","GLOBAL",3)
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
+		Shout(ASSIST)
+		Enemy()
+		Continue()
+END
+
+IF
+	OR(2)
+		Heard("x#bandk",ASSIST)  // Caravan Bandit
 	Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100
