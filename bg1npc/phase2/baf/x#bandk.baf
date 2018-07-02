@@ -1,4 +1,11 @@
 IF
+	Global("bd_entboy_removal","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
 	StateCheck(Myself,STATE_PANIC)
 THEN
 	RESPONSE #100
@@ -16,14 +23,10 @@ THEN
 END
 
 IF
-	OR(3)
-		Heard("x#bandk",ASSIST)
-		Heard("x#kaband",ASSIST)
-		Global("X#CaravanBanditEncounter","GLOBAL",2)
+	Global("X#CaravanBanditEncounter","GLOBAL",2)
 	Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100
-		Shout(ASSIST)
 		Enemy()
 		Continue()
 END

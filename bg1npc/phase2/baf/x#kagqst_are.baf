@@ -1,0 +1,19 @@
+IF %BGT_VAR%
+  Global("X#KABAND","%CoastWay%",0)
+THEN
+  RESPONSE #100
+    SetGlobal("X#KABAND","%CoastWay%",1)
+    CreateCreature("X#KABAND",[3898.2611],3)
+    CreateCreature("X#BANDK",[3928.2515],3)
+    CreateCreature("X#BANDK",[3838.2681],3)
+    CreateCreature("X#BANDK",[3970.2677],3)
+END
+
+IF %BGT_VAR%
+  GlobalTimerExpired("Kagain","GLOBAL")
+  Global("KagainCaravan","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("bd_entboy_removal","GLOBAL",1)
+    SetGlobal("KagainCaravan","GLOBAL",5)
+END

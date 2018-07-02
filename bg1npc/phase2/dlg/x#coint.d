@@ -114,7 +114,7 @@ DO ~GiveGoldForce(10)~
 END
 
 //I_C_T2 ~%tutu_var%COKSMTH~ 0 X#CoranPeter
-//== ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @42 
+//== ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @42
 //== ~%tutu_var%COKSMTH~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @43
 //== ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @44
 //= @45
@@ -132,7 +132,7 @@ END
 //== ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @51
 //END
 
-EXTEND_BOTTOM ~%tutu_var%BRILLA~ 0
+EXTEND_BOTTOM ~%tutu_var%BRILLA~ 8
 IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
 END
 
@@ -280,7 +280,7 @@ SAY @94
 IF ~~ THEN DO ~SetGlobal("X#CoranWyvernReward","GLOBAL",3) SetGlobal("P#CoranWyvern","GLOBAL",10)~ EXIT
 END
 
-/* Coran, Entry to Baldur’s Gate */
+/* Coran, Entry to Baldurï¿½s Gate */
 IF WEIGHT #-2 ~%BGT_VAR% Global("P#CEBG","GLOBAL",1)~ THEN CEBG1
 SAY @113
 IF ~~ THEN DO ~SetGlobal("P#CEBG","GLOBAL",2)~ EXIT
@@ -383,7 +383,7 @@ SAY @145
 IF ~~ THEN EXIT
 END
 
-/* Coran, Entry to Durlag’s Tower - TOTSC! */
+/* Coran, Entry to Durlagï¿½s Tower - TOTSC! */
 IF WEIGHT #-1 ~%BGT_VAR% Global("P#CEDT","GLOBAL",1)~ THEN CEDT1
 SAY @146
 IF ~~ THEN DO ~SetGlobal("P#CEDT","GLOBAL",2)~ EXIT
@@ -434,6 +434,3 @@ CHAIN ~%CORAN_JOINED%~ X#CoranBrilla2
 == ~%tutu_var%BRILLA~ @171
 DO ~GiveItemCreate("%tutu_var%RING18","coran",1,0,0) EscapeArea()~
 EXIT
-
-
-

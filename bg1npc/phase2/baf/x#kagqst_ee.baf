@@ -1,0 +1,13 @@
+IF
+	InParty(Myself)
+	Global("KagainCaravan","GLOBAL",2)
+  Dead("x#kaband")
+	!ActuallyInCombat()
+	See("BDENTBOY")
+	Range("BDENTBOY",8)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Kagain","GLOBAL",ONE_DAY)
+		SetGlobal("KagainCaravan","GLOBAL",3)
+		Dialog([PC])
+END

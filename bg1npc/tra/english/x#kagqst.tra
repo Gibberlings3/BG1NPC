@@ -31,12 +31,11 @@
 @30   = ~Y'know, I just remembered... we saw a slain caravan up north, and fought off the bandits. Is this from one of yours?~
 @31   = ~Well, this is Silvershield's son's marker. Dead, y'say? That was one of my caravans. Guess I'm in a lot of trouble now. With him dead, I'll be a wanted dwarf. Well, since my reputation is now mud, how 'bout I help you gain revenge on those scum bags? P'rhaps you can put in a word for me with the Silvershields. Whadda ya say?~
 @32   = ~We don't want you around, so hit the road.~
-@33   = ~Kagain's Quest
+/* @33   = ~Kagain's Quest
 
-Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways, but I might take the pin back to his family, when we get to Baldur's Gate.~
+Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways, but I might take the pin back to his family, when we get to Baldur's Gate.~ */
 @34   = ~Sure, we could use your skills.~
 @35   = ~Entar's Son
-
 Entar Silvershield's son was killed. We might take the pin back to his family, when we get to Baldur's Gate.~
 @36   = ~Now 'bout that hiring thing I promised. Here, have some gold, but I expect my share of the booty from ya. I am poor now.~
 @37   = ~Stupid chumps, your loss.~
@@ -46,9 +45,9 @@ Entar Silvershield's son was killed. We might take the pin back to his family, w
 @41   = ~We don't want you around any more, so hit the road.~
 @42   = ~Sure, we could use your skills. Join us.~
 @43   = ~Stupid chumps, your loss. I'll be leavin' now.~
-@44   = ~Kagain's Quest
+/* @44   = ~Kagain's Quest
 
-Entar Silvershield's son was killed. I didn't like Kagain's attitude, so we parted ways, but I might take the pin back to the Silvershields when we get to Baldur's Gate.~
+Entar Silvershield's son was killed. I didn't like Kagain's attitude, so we parted ways, but I might take the pin back to the Silvershields when we get to Baldur's Gate.~ */
 @45   = ~Now 'bout that coin thing I promised. Here, have it, but I expect my share of the booty from ye. I am poor now.~
 @46   = ~We bring news for Lord and Lady Silvershield. We believe that we have found news of their son. Any chance this pin is one of yours?~
 @47   = ~I see that you have the household Sigil. Please go to meet Lady Silvershield directly. You can find her upstairs.~
@@ -60,8 +59,11 @@ We returned the pin of Entar Silvershield's son to his family.~
 @50   = ~Well there sure is trouble on the roads. We battled a bandit group that had just killed everyone in a caravan up North.~
 @51   = ~You don't get out from behind the counter much, do you? Y'know, I just remembered... we saw a slain caravan up north, and fought off the bandits.~
 @52   = ~Dead, y'say? That was one of my caravans. Guess I'm in a lot of trouble now. With Silvershield's son's dead, I'll be a wanted dwarf. Well, since my reputation is now mud, how 'bout I help you gain revenge on those scum bags? P'rhaps you can put in a word for me with the Silvershields. Whadda ya say?~
-@53   = ~Entar's Son
-Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways.~
+/* @53   = ~Entar's Son
+Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways.~ */
 @54   = ~Entar's Son
 Entar Silvershield's son was killed.~
 @55   = ~We battled a bandit group that had just killed everyone in a caravan up North.~
+@56   = ~Ah, on second thought, not really.~
+@57   = ~Eddard! *sniffle* I can't believe he's dead.~
+@58   = ~I can't believe he's dead.~
