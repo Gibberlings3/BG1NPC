@@ -132,8 +132,12 @@ END
 //== ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @51
 //END
 
+EXTEND_BOTTOM ~%tutu_var%BRILLA~ 0
+IF ~!PartyHasItem("X#SILSH") !Global("X#CoranBrilla2","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
+END
+
 EXTEND_BOTTOM ~%tutu_var%BRILLA~ 8
-IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
+IF ~!Global("X#CoranBrilla2","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
 END
 
 //I_C_T2 ~%tutu_var%BRILLA~ 0 X#CoranBrilla1
@@ -432,5 +436,5 @@ CHAIN ~%CORAN_JOINED%~ X#CoranBrilla2
 == ~%tutu_var%BRILLA~ @169
 == ~%CORAN_JOINED%~ @170
 == ~%tutu_var%BRILLA~ @171
-DO ~GiveItemCreate("%tutu_var%RING18","coran",1,0,0) EscapeArea()~
+DO ~GiveItemCreate("%tutu_var%RING18","coran",1,0,0) SetGlobal("X#CoranBrilla2","GLOBAL",1) EscapeArea()~
 EXIT
