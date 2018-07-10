@@ -1,0 +1,84 @@
+/* Xzar's Quest */
+
+/* items */
+COPY ~bg1npc/phase2/itm/X#XZSLIM.BAM~ ~override~
+COPY ~bg1npc/phase2/itm/X#XZSLIM.itm~ ~override~
+  SAY NAME1 @48
+  SAY NAME2 @49
+  SAY UNIDENTIFIED_DESC @50
+  SAY DESC @51
+
+/* creatures */
+COPY ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi1.cre~
+     ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi2.cre~
+     ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi3.cre~
+     ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi4.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @36
+  SAY NAME2 @36
+  SAY DAMAGE @37
+  SAY DYING @38
+  SAY SELECT_COMMON1 @37
+  SAY SELECT_COMMON2 @37
+  SAY SELECT_COMMON3 @37
+  SAY SELECT_COMMON3 @37
+  SAY SELECT_COMMON4 @37
+  SAY SELECT_COMMON5 @37
+  SAY SELECT_COMMON6 @37
+  WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  Creature script - Override
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi1~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI1~ #8 //  dialog
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi2~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI2~ #8 //  dialog
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi3~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI3~ #8 //  dialog
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi4~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI4~ #8 //  dialog
+    END
+
+COPY_EXISTING ~%tutu_var%prost5.cre~ ~override~
+              ~%tutu_var%prost6.cre~ ~override~
+              ~%tutu_var%prost7.cre~ ~override~
+              ~%tutu_var%prost4.cre~ ~override~
+              ~%tutu_var%prost8.cre~ ~override~
+              ~%tutu_var%prost2.cre~ ~override~
+              ~%tutu_var%prost3.cre~ ~override~
+  WRITE_ASCII 0x280 ~harlot~ #32 //  death variable
+
+
+COPY ~bg1npc/Phase2/cre/x#jelly.cre~ ~override/x#jelly.cre~
+    SAY NAME1 @39
+    SAY NAME2 @39
+    SAY BATTLE_CRY1 @40
+    SAY BATTLE_CRY2 @41
+    SAY BATTLE_CRY3 @40
+    SAY BATTLE_CRY4 @41
+    SAY BATTLE_CRY5 @40
+    SAY ATTACK1 @42
+    SAY ATTACK2 @43
+    SAY DAMAGE @44
+    SAY DYING @45
+    SAY SELECT_COMMON1 @46
+    SAY SELECT_COMMON2 @47
+    WRITE_ASCII 0x248 ~X#XZJELL~ #8//  override script
+    WRITE_ASCII 0x280 ~xzjelly~ #32//  death variable
+  WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
+
+COPY ~bg1npc/Phase2/cre/x#slime.cre~ ~override/x#slime.cre~
+  SAY NAME1 @39
+  SAY NAME2 @39
+  SAY BATTLE_CRY1 @40
+  SAY BATTLE_CRY2 @41
+  SAY BATTLE_CRY3 @40
+  SAY BATTLE_CRY4 @41
+  SAY BATTLE_CRY5 @40
+  SAY ATTACK1 @42
+  SAY ATTACK2 @43
+  SAY DAMAGE @44
+  SAY DYING @45
+  SAY SELECT_COMMON1 @46
+  SAY SELECT_COMMON2 @47
+  WRITE_ASCII 0x248 ~X#XZSLIM~ #8//  override script
+  WRITE_ASCII 0x280 ~xzslime~ #32//  death variable
+WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default

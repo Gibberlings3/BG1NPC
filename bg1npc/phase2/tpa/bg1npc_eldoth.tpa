@@ -1,0 +1,41 @@
+/* Eldoth's Bently Quarrel */
+COPY ~bg1npc/phase2/itm/x#fai1.itm~ ~override~
+  SAY NAME1 @56
+  SAY NAME2 @57
+  SAY UNIDENTIFIED_DESC @58
+  SAY DESC @59
+
+COPY ~bg1npc/phase2/itm/x#fai2.itm~ ~override~
+  SAY NAME1 @60
+  SAY NAME2 @61
+  SAY UNIDENTIFIED_DESC @62
+  SAY DESC @63
+
+COPY ~bg1npc/phase2/itm/x#fai3.itm~ ~override~
+  SAY NAME1 @64
+  SAY NAME2 @64
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @66
+
+COPY ~bg1npc/phase2/itm/x#fai4.itm~ ~override~
+  SAY NAME1 @67
+  SAY NAME2 @67
+  SAY UNIDENTIFIED_DESC @68
+  SAY DESC @69
+
+COPY ~bg1npc/phase2/itm/X#FAI5.itm~ ~override~
+  SAY NAME1 @70
+  SAY NAME2 @71
+  SAY UNIDENTIFIED_DESC @72
+  SAY DESC @73
+
+/* Eldoth FAI */
+COPY ~bg1npc/phase2/itm/X#FRIED2.STO~ ~override~
+  SAY STORE_NAME @624
+  SAY 0xA4 @52
+  SAY 0xb8 @53
+  SAY 0xcc @54
+  SAY 0xe0 @55
+PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+  WRITE_ASCII 0x44 ~RFRIED2~ #8   // rumors dialog
+  END

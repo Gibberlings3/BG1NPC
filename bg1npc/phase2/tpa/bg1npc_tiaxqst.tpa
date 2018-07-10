@@ -1,0 +1,156 @@
+/* Tiax Quest */
+/* creatures */
+/* Belgin */
+COPY ~bg1npc/phase2/cre/x#belgin.cre~ ~override/x#belgin.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 ~Belgin~
+  SAY NAME2 ~Belgin~
+  SAY INITIAL_MEETING @557
+  SAY BATTLE_CRY1 @558
+  SAY BATTLE_CRY2 @558
+  SAY BATTLE_CRY3 @558
+  SAY BATTLE_CRY4 @558
+  SAY BATTLE_CRY5 @558
+  SAY DAMAGE @559
+  SAY DYING @560
+  SAY SELECT_COMMON1 @561
+  SAY DIALOGUE_DEFAULT @561
+  WRITE_ASCIIE 0x250 ~%tutu_var%priest3~ #8 /* Class script */
+  ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~shld04~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+  ADD_CRE_ITEM ~chan02~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+  ADD_CRE_ITEM ~helm06~ #0 #0 #0 ~IDENTIFIED~ ~HELMET~
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+/* Karris */
+COPY ~bg1npc/phase2/cre/x#karris.cre~ ~override/x#karris.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 ~Karris~
+  SAY NAME2 ~Karris~
+  SAY INITIAL_MEETING @476
+  SAY BATTLE_CRY1 @488
+  SAY BATTLE_CRY2 @488
+  SAY BATTLE_CRY3 @488
+  SAY BATTLE_CRY4 @488
+  SAY BATTLE_CRY5 @488
+  SAY DAMAGE @555
+  SAY DYING @556
+  SAY SELECT_COMMON1 @476
+  SAY DIALOGUE_DEFAULT @476
+  WRITE_ASCII 0x248 ~x#karris~ #8  // override
+  WRITE_ASCIIE 0x250 ~%tutu_var%thief4~ #8  // Class script
+  WRITE_ASCII 0x2cc ~x#karris~ #8  // dialogue
+  WRITE_ASCII 0x280 ~x#karris~ #32 // DV
+  ADD_CRE_ITEM ~sw1h05~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~leat11~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+
+/* Assorted bounty hunters */
+COPY ~bg1npc/phase2/cre/x#tqbh1.cre~ ~override/x#tqbh1.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 ~Alvo~
+  SAY NAME2 ~Alvo~
+  SAY INITIAL_MEETING @474
+  SAY BATTLE_CRY1 @354
+  SAY BATTLE_CRY2 @354
+  SAY BATTLE_CRY3 @354
+  SAY BATTLE_CRY4 @354
+  SAY BATTLE_CRY5 @354
+  SAY DAMAGE @473
+  SAY DYING @472
+  SAY SELECT_COMMON1 @474
+  SAY DIALOGUE_DEFAULT @474
+WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
+  WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
+  WRITE_ASCII 0x280 ~x#tqbh1~ #32 // DV
+  WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+  ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+  ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+
+COPY ~bg1npc/phase2/cre/x#tqbh2.cre~ ~override/x#tqbh2.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 ~Leti~
+  SAY NAME2 ~Leti~
+  SAY INITIAL_MEETING @25
+  SAY BATTLE_CRY1 @25
+  SAY BATTLE_CRY2 @25
+  SAY BATTLE_CRY3 @25
+  SAY BATTLE_CRY4 @25
+  SAY BATTLE_CRY5 @25
+  SAY DAMAGE @3
+  SAY DYING @4
+  SAY SELECT_COMMON1 @25
+  SAY DIALOGUE_DEFAULT @25
+  WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
+  WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
+  WRITE_ASCII 0x280 ~x#tqbh2~ #32 // DV
+  WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+  ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+  ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+
+COPY ~bg1npc/phase2/cre/x#tqbh3.cre~ ~override/x#tqbh3.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 ~Zed~
+  SAY NAME2 ~Zed~
+  SAY INITIAL_MEETING @285
+  SAY BATTLE_CRY1 @285
+  SAY BATTLE_CRY2 @285
+  SAY BATTLE_CRY3 @285
+  SAY BATTLE_CRY4 @285
+  SAY BATTLE_CRY5 @285
+  SAY DAMAGE @23
+  SAY DYING @387
+  SAY SELECT_COMMON1 @285
+  SAY DIALOGUE_DEFAULT @285
+  WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
+  WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
+  WRITE_ASCII 0x280 ~x#tqbh3~ #32 // DV
+  WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+  ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+  ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+
+COPY ~bg1npc/phase2/cre/x#tqbh4.cre~ ~override/x#tqbh4.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 ~Mati~
+  SAY NAME2 ~Mati~
+  SAY INITIAL_MEETING @455
+  SAY BATTLE_CRY1 @455
+  SAY BATTLE_CRY2 @455
+  SAY BATTLE_CRY3 @455
+  SAY BATTLE_CRY4 @455
+  SAY BATTLE_CRY5 @455
+  SAY DAMAGE @388
+  SAY DYING @399
+  SAY SELECT_COMMON1 @455
+  SAY DIALOGUE_DEFAULT @455
+  WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
+  WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
+  WRITE_ASCII 0x280 ~x#tqbh4~ #32 // DV
+  WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
+  ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+  ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+
+/* scripts */
+EXTEND_BOTTOM ~%TIAX_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqtiax.baf~
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~X#BELGIN.bcs~ ~bg1npc/Phase2/baf/x#tqbelgin.baf~
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~X#KARRIS.bcs~ ~bg1npc/Phase2/baf/x#tqkarris.baf~
+  EVALUATE_BUFFER
+COMPILE ~bg1npc/Phase2/baf/x#tqbh.baf~
+
+/* area scripts */
+EXTEND_BOTTOM ~%SEBaldursGate_Blade&Stars_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqfw0106.baf~
+   EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%BaldursGateDocks_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqfw1200.baf~
+   EVALUATE_BUFFER
+
+/* dialogues */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tiaxquest.d~
+
+/* Add journal entries for BGEE */
+ADD_JOURNAL TITLE (@999) @10 @25 @63 @72 @106 @112 @114 @250 @251 @252 @254 @255 @256 @313 USING ~bg1npc/tra/%LANGUAGE%/x#tiaxquest.tra~
