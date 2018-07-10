@@ -1,5 +1,5 @@
 /* Yeslick and Rieltar */
-EXTEND_BOTTOM ~%tutu_var%RIELTA~ 0
+EXTEND_BOTTOM ~%tutu_var%RIELTA~ 0 #1
   IF ~InParty("yeslick") InMyArea("yeslick") !StateCheck("yeslick",CD_STATE_NOTVALID)~ EXTERN ~%tutu_var%YESLIJ~ YWMR1
 END
 
