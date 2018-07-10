@@ -1,65 +1,3 @@
-ADD_STATE_TRIGGER ~%tutu_var%RIELTA~ 1 ~OR(3) !InParty("yeslick") !InMyArea("yeslick") StateCheck("yeslick",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_var%RIELTA~ 2 ~OR(3) !InParty("yeslick") !InMyArea("yeslick") StateCheck("yeslick",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_var%RIELTA~ 4 ~OR(3) !InParty("yeslick") !InMyArea("yeslick") StateCheck("yeslick",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_var%RIELTA~ 5 ~OR(3) !InParty("yeslick") !InMyArea("yeslick") StateCheck("yeslick",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_var%RIELTA~ 6 ~OR(3) !InParty("yeslick") !InMyArea("yeslick") StateCheck("yeslick",CD_STATE_NOTVALID)~
-ADD_STATE_TRIGGER ~%tutu_var%RIELTA~ 7 ~OR(3) !InParty("yeslick") !InMyArea("yeslick") StateCheck("yeslick",CD_STATE_NOTVALID)~
-
-/* Ogre-Mage Torturer in the Cloakwood Mines */
-//I_C_T2 ~%tutu_var%OGRMA2~ 0 X#YOMTCM
-// == ~%YESLICK_JOINED%~ IF ~InParty("yeslick") InMyArea("yeslick") !StateCheck("yeslick",CD_STATE_NOTVALID)~ THEN @0
-//END
-
-/* Yeslick, On meeting Davaeorn */
-//I_C_T2 ~%tutu_var%DAVAEO~ 0 X#YOMDstart
-// == ~%YESLICK_JOINED%~ IF ~InParty("yeslick") InMyArea("yeslick") !StateCheck("yeslick",CD_STATE_NOTVALID)~ THEN @1
-// == ~%tutu_var%DAVAEO~ IF ~InParty("yeslick") InMyArea("yeslick") !StateCheck("yeslick",CD_STATE_NOTVALID)~ THEN @2
-//END
-
-/* Rieltar */
-EXTEND_BOTTOM ~%tutu_var%RIELTA~ 0
-IF ~InParty("yeslick") InMyArea("yeslick") !StateCheck("yeslick",CD_STATE_NOTVALID)~ EXTERN ~%tutu_var%YESLIJ~ YWMR1
-END
-
-/* Yeslick, When meeting Rieltar */
-CHAIN ~%YESLICK_JOINED%~ YWMR1
-@3
-== ~%tutu_var%RIELTA~ @4
-== ~%YESLICK_JOINED%~ @5 DO ~SetGlobal("X#YWMRFTFT","GLOBAL",1)~
-END
-++ @6 DO ~SetGlobal("Criminal","GLOBAL",1)~ EXTERN ~%tutu_var%YESLIJ~ YWMR2B20
-++ @7 DO ~SetGlobal("Criminal","GLOBAL",1)~ EXTERN ~%tutu_var%YESLIJ~ YWMR2B5
-
-CHAIN ~%YESLICK_JOINED%~ YWMR2B20
-@8
-= @9
-= @10
-== ~%tutu_var%RIELTA~ @11
-== ~%YESLICK_JOINED%~ @12
-EXIT
-
-APPEND ~%tutu_var%RIELTA~
-
-/* If Rieltar wins, and survived */
-IF WEIGHT #-1 ~%BGT_VAR% Global("X#IRWAS","GLOBAL",2)~ IRWAS1
-SAY @13
-++ @14 DO ~SetGlobal("X#IRWAS","GLOBAL",3)~ + IRWAS11
-++ @15 DO ~SetGlobal("X#IRWAS","GLOBAL",3)~ + IRWAS12
-END
-
-/* Rieltar turns hostile */
-IF ~~ IRWAS12
-SAY @16
-IF ~~ THEN DO ~SetGlobal("X#IRWAS","GLOBAL",4) Enemy()~ EXIT
-END
-
-IF ~~ IRWAS11
-SAY @17
-IF ~~ THEN EXIT
-END
-END
-
-
 APPEND ~%YESLICK_JOINED%~
 /* Yeslick, When Davaeorn Is Dead */
 IF WEIGHT #-1 ~%BGT_VAR% Global("X#YWDID","GLOBAL",1)~ THEN YWDID1
@@ -100,11 +38,11 @@ SAY @31
 END
 
 IF ~~ YATPRTULOTCM5
-SAY @35 
+SAY @35
 ++ @36 EXIT
 ++ @37 + YATPRTULOTCM7
 END
- 
+
 IF ~~ YATPRTULOTCM7
 SAY @38
 IF ~~ THEN DO ~LeaveParty() ChangeAIScript("",7) EscapeArea()~ EXIT
@@ -161,7 +99,7 @@ SAY @35
 END
 
 IF ~~ YITPLTMNF2
-SAY @53 
+SAY @53
 IF ~~ THEN DO ~LeaveParty() ChangeAIScript("",7) EscapeArea()~ EXIT
 END
 
@@ -194,78 +132,6 @@ END
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#YUCTBGFTFT","GLOBAL",1)~ YUCTBGFTFT1
 SAY @59
 IF ~~ THEN DO ~SetGlobal("X#YUCTBGFTFT","GLOBAL",2)~ EXIT
-END
-
-/* With Rieltar */
-IF ~~ YWMR2B2
-SAY @60
-++ @61 + YWMR4
-++ @62 + YWMR4
-++ @63 + YWMR4
-END
-
-IF ~~ YWMR4
-SAY @64
-++ @65 EXTERN ~%YESLICK_JOINED%~ YWMR2B20
-++ @66 EXTERN ~%YESLICK_JOINED%~ YWMR2B20
-++ @67 + YWMR2B3
-++ @68 + YWMR2B4
-++ @69 + YWMR2B5
-END
-
-/* Rieltar goes hostile */
-IF ~~ YWMR2B3
-SAY @70
-IF ~~ THEN DO ~SetGlobal("X#YRACTH","GLOBAL",1)~ EXIT
-END
-
-/* Yeslick leaves party - fights Rieltar */
-IF ~~ YWMR2B4
-SAY @71
-IF ~~ THEN DO ~LeaveParty() ChangeAIScript("",7) SetGlobal("X#IRWAS","GLOBAL",1)~ EXIT
-END
-
-/* Rieltar goes hostile */
-IF ~~ YWMR2B5
-SAY @72
-IF ~~ THEN DO ~SetGlobal("X#YRACTH","GLOBAL",1)~ EXIT
-END
-
-/* Yeslick, killed Rieltar, Brunos, Tuth, Kestor */
-IF WEIGHT #-2 ~%BGT_VAR% Global("X#YKRBTK","GLOBAL",1)~ YKRBTK1
-SAY @73
-++ @74 DO ~SetGlobal("X#YKRBTK","GLOBAL",2)~ + YKRBTK2
-++ @75 DO ~SetGlobal("X#YKRBTK","GLOBAL",2)~ + YKRBTK2
-++ @76 DO ~SetGlobal("X#YKRBTK","GLOBAL",2)~ + YKRBTK2
-END
-
-/* Yeslick leaves party */
-IF ~~ YKRBTK2
-SAY @77
-IF ~~ THEN DO ~LeaveParty() ChangeAIScript("",7) EscapeArea()~ EXIT
-END
-
-/* If Yeslick and the party fight Rieltar and win */
-IF WEIGHT #-2 ~%BGT_VAR% Global("X#YRACTH","GLOBAL",3)~ YATPFRAW1
-SAY @78
-++ @79 DO ~SetGlobal("X#YRACTH","GLOBAL",4)~ + YATPFRAW2
-++ @80 DO ~SetGlobal("X#YRACTH","GLOBAL",4)~ + YATPFRAW3
-++ @81 DO ~SetGlobal("X#YRACTH","GLOBAL",4)~ + YATPFRAW4
-END
-
-IF ~~ YATPFRAW2
-SAY @82 
-IF ~~ THEN EXIT
-END
-
-IF ~~ YATPFRAW3
-SAY @83
-IF ~~ THEN EXIT
-END
-
-IF ~~ YATPFRAW4
-SAY @84
-IF ~~ THEN EXIT
 END
 
 /* Yeslick, Chapter Seven */
@@ -316,7 +182,7 @@ SAY @105
 ++ @108 + YChapter75a
 END
 
-IF ~~ YChapter75a 
+IF ~~ YChapter75a
 SAY @109
 IF ~~ EXIT
 END

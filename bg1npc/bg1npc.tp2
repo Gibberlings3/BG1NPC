@@ -104,14 +104,6 @@ BEGIN @1007
     BUT_ONLY_IF_IT_CHANGES
   END
 
-/* this does not work because PHLYDI3.cre changes into a doppelganger and the assigned DV does not trigger.
-Taken out because there is no dialogue that needs this.
-Also, using the DV "phlydi3" would be more appropriate since it's not the real Phlydia.
-  COPY_EXISTING  ~%tutu_var%phlydi3.cre~ ~override~
-    WRITE_ASCII 0x280 ~phlydia~ #32 //  death variable
-  BUT_ONLY_IF_IT_CHANGES
-*/
-
   COPY_EXISTING ~%tutu_var%bearbl.cre~ ~override~
     WRITE_ASCII 0x280 ~bearbl~ #32 //  death variable
   BUT_ONLY_IF_IT_CHANGES
@@ -217,9 +209,8 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
   COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#fight2.baf~
 
 
- /* -JW-'s Edwin vs Denak fix */
- /* http:// forums.gibberlings3.net/index.php?s=&showtopic=15516&view=findpost&p=133308 */
-
+  /* -JW-'s Edwin vs Denak fix */
+  /* http:// forums.gibberlings3.net/index.php?s=&showtopic=15516&view=findpost&p=133308 */
   EXTEND_BOTTOM ~%SpiderWood_BCS%.bcs~ ~bg1npc/Phase2/baf/JW#FW3000.BAF~
 
   /* Interjection scripting changes, added creatures */
@@ -259,8 +250,6 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
       EVALUATE_BUFFER
   EXTEND_TOP  ~%TIAX_BCS%.bcs~    ~bg1npc/Phase2/baf/X#TIINT2.BAF~
       EVALUATE_BUFFER
-  EXTEND_TOP  ~%tutu_var%RIELTAR.bcs~ ~bg1npc/Phase2/baf/X#RIYE.BAF~
-      EVALUATE_BUFFER
   EXTEND_TOP  ~%YESLICK_BCS%.bcs~ ~bg1npc/Phase2/baf/X#YEINT2.BAF~
       EVALUATE_BUFFER
   EXTEND_TOP  ~%KAGAIN_BCS%.bcs~  ~bg1npc/Phase2/baf/X#KAINT2.BAF~
@@ -290,295 +279,26 @@ Also, using the DV "phlydi3" would be more appropriate since it's not the real P
 //  EXTEND_TOP  ~%KIVAN_BCS%.bcs~  ~bg1npc/Phase2/baf/x#kiint_new.baf~
 //      EVALUATE_BUFFER
 
+	/* Yeslick - Rieltar Interaction - Do NOT install on BGEEv2.5+ */
+	ACTION_IF !FILE_EXISTS_IN_GAME ~bdentboy.cre~ THEN BEGIN
+		COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#yeslick_rieltar.d~ USING ~bg1npc/tra/%LANGUAGE%/x#yeint.tra~
+		EXTEND_TOP  ~%YESLICK_BCS%.bcs~ ~bg1npc/Phase2/baf/x#yeslick_rieltar.BAF~
+				EVALUATE_BUFFER
+	END
+
   /* Added Quests */
-  /* Edwin */
-  /* Tiax Quest */
-  /* creatures */
-  /* Belgin */
-  COPY ~bg1npc/phase2/cre/x#belgin.cre~ ~override/x#belgin.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 ~Belgin~
-    SAY NAME2 ~Belgin~
-    SAY INITIAL_MEETING @557
-    SAY BATTLE_CRY1 @558
-    SAY BATTLE_CRY2 @558
-    SAY BATTLE_CRY3 @558
-    SAY BATTLE_CRY4 @558
-    SAY BATTLE_CRY5 @558
-    SAY DAMAGE @559
-    SAY DYING @560
-    SAY SELECT_COMMON1 @561
-    SAY DIALOGUE_DEFAULT @561
-    WRITE_ASCIIE 0x250 ~%tutu_var%priest3~ #8 /* Class script */
-    ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~shld04~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
-    ADD_CRE_ITEM ~chan02~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
-    ADD_CRE_ITEM ~helm06~ #0 #0 #0 ~IDENTIFIED~ ~HELMET~
-    LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
-  /* Karris */
-  COPY ~bg1npc/phase2/cre/x#karris.cre~ ~override/x#karris.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 ~Karris~
-    SAY NAME2 ~Karris~
-    SAY INITIAL_MEETING @476
-    SAY BATTLE_CRY1 @488
-    SAY BATTLE_CRY2 @488
-    SAY BATTLE_CRY3 @488
-    SAY BATTLE_CRY4 @488
-    SAY BATTLE_CRY5 @488
-    SAY DAMAGE @555
-    SAY DYING @556
-    SAY SELECT_COMMON1 @476
-    SAY DIALOGUE_DEFAULT @476
-    WRITE_ASCII 0x248 ~x#karris~ #8  // override
-    WRITE_ASCIIE 0x250 ~%tutu_var%thief4~ #8  // Class script
-    WRITE_ASCII 0x2cc ~x#karris~ #8  // dialogue
-    WRITE_ASCII 0x280 ~x#karris~ #32 // DV
-    ADD_CRE_ITEM ~sw1h05~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~leat11~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
-
-  /* Assorted bounty hunters */
-  COPY ~bg1npc/phase2/cre/x#tqbh1.cre~ ~override/x#tqbh1.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 ~Alvo~
-    SAY NAME2 ~Alvo~
-    SAY INITIAL_MEETING @474
-    SAY BATTLE_CRY1 @354
-    SAY BATTLE_CRY2 @354
-    SAY BATTLE_CRY3 @354
-    SAY BATTLE_CRY4 @354
-    SAY BATTLE_CRY5 @354
-    SAY DAMAGE @473
-    SAY DYING @472
-    SAY SELECT_COMMON1 @474
-    SAY DIALOGUE_DEFAULT @474
-	WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
-    WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
-    WRITE_ASCII 0x280 ~x#tqbh1~ #32 // DV
-    WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
-    ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
-    ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
-
-  COPY ~bg1npc/phase2/cre/x#tqbh2.cre~ ~override/x#tqbh2.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 ~Leti~
-    SAY NAME2 ~Leti~
-    SAY INITIAL_MEETING @25
-    SAY BATTLE_CRY1 @25
-    SAY BATTLE_CRY2 @25
-    SAY BATTLE_CRY3 @25
-    SAY BATTLE_CRY4 @25
-    SAY BATTLE_CRY5 @25
-    SAY DAMAGE @3
-    SAY DYING @4
-    SAY SELECT_COMMON1 @25
-    SAY DIALOGUE_DEFAULT @25
-    WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
-    WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
-    WRITE_ASCII 0x280 ~x#tqbh2~ #32 // DV
-    WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
-    ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~sw1h43~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
-    ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
-
-  COPY ~bg1npc/phase2/cre/x#tqbh3.cre~ ~override/x#tqbh3.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 ~Zed~
-    SAY NAME2 ~Zed~
-    SAY INITIAL_MEETING @285
-    SAY BATTLE_CRY1 @285
-    SAY BATTLE_CRY2 @285
-    SAY BATTLE_CRY3 @285
-    SAY BATTLE_CRY4 @285
-    SAY BATTLE_CRY5 @285
-    SAY DAMAGE @23
-    SAY DYING @387
-    SAY SELECT_COMMON1 @285
-    SAY DIALOGUE_DEFAULT @285
-    WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
-    WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
-    WRITE_ASCII 0x280 ~x#tqbh3~ #32 // DV
-    WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
-    ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~sw1h01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
-    ADD_CRE_ITEM ~leat01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
-
-  COPY ~bg1npc/phase2/cre/x#tqbh4.cre~ ~override/x#tqbh4.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 ~Mati~
-    SAY NAME2 ~Mati~
-    SAY INITIAL_MEETING @455
-    SAY BATTLE_CRY1 @455
-    SAY BATTLE_CRY2 @455
-    SAY BATTLE_CRY3 @455
-    SAY BATTLE_CRY4 @455
-    SAY BATTLE_CRY5 @455
-    SAY DAMAGE @388
-    SAY DYING @399
-    SAY SELECT_COMMON1 @455
-    SAY DIALOGUE_DEFAULT @455
-    WRITE_ASCII 0x250 ~x#fight2~ #8 //  class script
-    WRITE_ASCII 0x2cc ~x#tqbh~ #8 //  dialogue
-    WRITE_ASCII 0x280 ~x#tqbh4~ #32 // DV
-    WRITE_ASCIIE 0x248 ~x#tqbh~ #8 //  override script
-    ADD_CRE_ITEM ~ax1h01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
-    ADD_CRE_ITEM ~hamm01~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
-    ADD_CRE_ITEM ~chan01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
-
-  /* scripts */
-  EXTEND_BOTTOM ~%TIAX_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqtiax.baf~
-    EVALUATE_BUFFER
-  EXTEND_BOTTOM ~X#BELGIN.bcs~ ~bg1npc/Phase2/baf/x#tqbelgin.baf~
-    EVALUATE_BUFFER
-  EXTEND_BOTTOM ~X#KARRIS.bcs~ ~bg1npc/Phase2/baf/x#tqkarris.baf~
-    EVALUATE_BUFFER
-  COMPILE ~bg1npc/Phase2/baf/x#tqbh.baf~
-
-  /* area scripts */
-  EXTEND_BOTTOM ~%SEBaldursGate_Blade&Stars_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqfw0106.baf~
-     EVALUATE_BUFFER
-
-  EXTEND_BOTTOM ~%BaldursGateDocks_BCS%.bcs~ ~bg1npc/Phase2/baf/x#tqfw1200.baf~
-     EVALUATE_BUFFER
-
-  /* dialogues */
-  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tiaxquest.d~
-
-  /* Add journal entries for BGEE */
-  ADD_JOURNAL TITLE (@999) @10 @25 @63 @72 @106 @112 @114 @250 @251 @252 @254 @255 @256 @313 USING ~bg1npc/tra/%LANGUAGE%/x#tiaxquest.tra~
+	/* Tiax Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_tiaxqst.tpa~
 
 	/* Kagain's Caravan */
 	INCLUDE ~bg1npc/phase2/tpa/bg1npc_kagqst.tpa~
 
-
   /* Eldoth's Bently Quarrel */
-  COPY ~bg1npc/phase2/itm/x#fai1.itm~ ~override~
-    SAY NAME1 @56
-    SAY NAME2 @57
-    SAY UNIDENTIFIED_DESC @58
-    SAY DESC @59
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_eldoth.tpa~
 
-  COPY ~bg1npc/phase2/itm/x#fai2.itm~ ~override~
-    SAY NAME1 @60
-    SAY NAME2 @61
-    SAY UNIDENTIFIED_DESC @62
-    SAY DESC @63
-
-  COPY ~bg1npc/phase2/itm/x#fai3.itm~ ~override~
-    SAY NAME1 @64
-    SAY NAME2 @64
-    SAY UNIDENTIFIED_DESC @65
-    SAY DESC @66
-
-  COPY ~bg1npc/phase2/itm/x#fai4.itm~ ~override~
-    SAY NAME1 @67
-    SAY NAME2 @67
-    SAY UNIDENTIFIED_DESC @68
-    SAY DESC @69
-
-  COPY ~bg1npc/phase2/itm/X#FAI5.itm~ ~override~
-    SAY NAME1 @70
-    SAY NAME2 @71
-    SAY UNIDENTIFIED_DESC @72
-    SAY DESC @73
-
-  /* Eldoth FAI */
-  COPY ~bg1npc/phase2/itm/X#FRIED2.STO~ ~override~
-    SAY STORE_NAME @624
-    SAY 0xA4 @52
-    SAY 0xb8 @53
-    SAY 0xcc @54
-    SAY 0xe0 @55
-	PATCH_IF GAME_IS ~bgee bgt~ BEGIN
-		WRITE_ASCII 0x44 ~RFRIED2~ #8   // rumors dialog
-    END
-
-  /* Xzar's Quest */
-
-  /* items */
-  COPY ~bg1npc/phase2/itm/X#XZSLIM.BAM~ ~override~
-  COPY ~bg1npc/phase2/itm/X#XZSLIM.itm~ ~override~
-    SAY NAME1 @48
-    SAY NAME2 @49
-    SAY UNIDENTIFIED_DESC @50
-    SAY DESC @51
-
-  /* creatures */
-  COPY ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi1.cre~
-       ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi2.cre~
-       ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi3.cre~
-       ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi4.cre~
-    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-    SAY NAME1 @36
-    SAY NAME2 @36
-    SAY DAMAGE @37
-    SAY DYING @38
-    SAY SELECT_COMMON1 @37
-    SAY SELECT_COMMON2 @37
-    SAY SELECT_COMMON3 @37
-    SAY SELECT_COMMON3 @37
-    SAY SELECT_COMMON4 @37
-    SAY SELECT_COMMON5 @37
-    SAY SELECT_COMMON6 @37
-    WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  Creature script - Override
-    WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
-      PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi1~) BEGIN
-        WRITE_ASCII 0x2CC ~ZIZIZI1~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi2~) BEGIN
-        WRITE_ASCII 0x2CC ~ZIZIZI2~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi3~) BEGIN
-        WRITE_ASCII 0x2CC ~ZIZIZI3~ #8 //  dialog
-      END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi4~) BEGIN
-        WRITE_ASCII 0x2CC ~ZIZIZI4~ #8 //  dialog
-      END
-
-  COPY_EXISTING ~%tutu_var%prost5.cre~ ~override~
-                ~%tutu_var%prost6.cre~ ~override~
-                ~%tutu_var%prost7.cre~ ~override~
-                ~%tutu_var%prost4.cre~ ~override~
-                ~%tutu_var%prost8.cre~ ~override~
-                ~%tutu_var%prost2.cre~ ~override~
-                ~%tutu_var%prost3.cre~ ~override~
-    WRITE_ASCII 0x280 ~harlot~ #32 //  death variable
-
-
-  COPY ~bg1npc/Phase2/cre/x#jelly.cre~ ~override/x#jelly.cre~
-      SAY NAME1 @39
-      SAY NAME2 @39
-      SAY BATTLE_CRY1 @40
-      SAY BATTLE_CRY2 @41
-      SAY BATTLE_CRY3 @40
-      SAY BATTLE_CRY4 @41
-      SAY BATTLE_CRY5 @40
-      SAY ATTACK1 @42
-      SAY ATTACK2 @43
-      SAY DAMAGE @44
-      SAY DYING @45
-      SAY SELECT_COMMON1 @46
-      SAY SELECT_COMMON2 @47
-      WRITE_ASCII 0x248 ~X#XZJELL~ #8//  override script
-      WRITE_ASCII 0x280 ~xzjelly~ #32//  death variable
-	  WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
-
-  COPY ~bg1npc/Phase2/cre/x#slime.cre~ ~override/x#slime.cre~
-    SAY NAME1 @39
-    SAY NAME2 @39
-    SAY BATTLE_CRY1 @40
-    SAY BATTLE_CRY2 @41
-    SAY BATTLE_CRY3 @40
-    SAY BATTLE_CRY4 @41
-    SAY BATTLE_CRY5 @40
-    SAY ATTACK1 @42
-    SAY ATTACK2 @43
-    SAY DAMAGE @44
-    SAY DYING @45
-    SAY SELECT_COMMON1 @46
-    SAY SELECT_COMMON2 @47
-    WRITE_ASCII 0x248 ~X#XZSLIM~ #8//  override script
-    WRITE_ASCII 0x280 ~xzslime~ #32//  death variable
-	WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
+	/* Xzar's Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_xzarqst.tpa~
 
   /* Kivan's spear */
   COPY ~bg1npc/phase2/itm/X#KISPEA.itm~ ~override~
