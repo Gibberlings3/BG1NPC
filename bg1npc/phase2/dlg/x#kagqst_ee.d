@@ -99,16 +99,38 @@ END
 
 
 // Dialogue with Lady Silvershield
-EXTEND_BOTTOM ~%tutu_var%BRILLA~ 0
-IF ~PartyHasItem("X#SILSH")~ THEN REPLY @7 GOTO X#BrillaEddardDeath
+EXTEND_TOP ~%tutu_var%BRILLA~ 0 #7
+IF ~PartyHasItem("X#SILSH") !Global("X#KagainCaravan","GLOBAL",6)~ THEN REPLY @7 GOTO X#BrillaEddardDeath
 END
 
-CHAIN ~%tutu_var%BRILLA~ X#BrillaEddardDeath
-@8
-// Blocking on T1M2DeadEddy for cross-mod compatibility with Thimblerig.
-== ~%SKIE_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) GlobalLT("T1M2DeadEddy","GLOBAL",2) Global("X#SkieSeesEddard","GLOBAL",0)~ THEN @9
-== ~%SKIE_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) OR(2) GlobalGT("T1M2DeadEddy","GLOBAL",1) GlobalGT("X#SkieSeesEddard","GLOBAL",0)~ THEN @58
-== ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @11
+EXTEND_TOP ~%tutu_var%BRILLA~ 8 #1
+IF ~PartyHasItem("X#SILSH") !Global("X#KagainCaravan","GLOBAL",6)~ THEN REPLY @7 GOTO X#BrillaEddardDeath
+END
+
+
+APPEND ~%tutu_var%BRILLA~
+  IF ~~ THEN BEGIN X#BrillaEddardDeath
+    SAY @8
+    IF ~OR(4) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID) Global("X#SkieBrillaGuards","GLOBAL",1)~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) EraseJournalEntry(@35) EraseJournalEntry(@48) EraseJournalEntry(@54) ActionOverride("brilla",TakePartyItem("X#SILSH"))  ActionOverride("brilla",DestroyItem("X#SILSH"))~ SOLVED_JOURNAL @49 EXIT
+    IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) Global("X#SkieBrillaGuards","GLOBAL",0) OR(2) GlobalGT("T1M2DeadEddy","GLOBAL",1) GlobalGT("X#SkieSeesEddard","GLOBAL",0)~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) EraseJournalEntry(@35) EraseJournalEntry(@48) EraseJournalEntry(@54) ActionOverride("brilla",TakePartyItem("X#SILSH"))  ActionOverride("brilla",DestroyItem("X#SILSH"))~ SOLVED_JOURNAL @49 EXTERN ~%SKIE_JOINED%~ X#BrillaEddardDeathSkieSee
+    IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) Global("X#SkieBrillaGuards","GLOBAL",0) GlobalLT("T1M2DeadEddy","GLOBAL",2) Global("X#SkieSeesEddard","GLOBAL",0)~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) EraseJournalEntry(@35) EraseJournalEntry(@48) EraseJournalEntry(@54) ActionOverride("brilla",TakePartyItem("X#SILSH"))  ActionOverride("brilla",DestroyItem("X#SILSH"))~ SOLVED_JOURNAL @49 EXTERN ~%SKIE_JOINED%~ X#BrillaEddardDeathSkieNotSee
+  END
+END
+
+APPEND ~%SKIE_JOINED%~
+  IF ~~ THEN BEGIN X#BrillaEddardDeathSkieNotSee
+    SAY @9
+    IF ~~ THEN DO ~SetGlobal("X#SkieBrillaGuards","GLOBAL",1)~ EXTERN ~%tutu_var%BRILLA~ %SkieBrillaGuards%
+  END
+
+  IF ~~ THEN BEGIN X#BrillaEddardDeathSkieSee
+    SAY @58
+    IF ~~ THEN DO ~SetGlobal("X#SkieBrillaGuards","GLOBAL",1)~ EXTERN ~%tutu_var%BRILLA~ %SkieBrillaGuards%
+  END
+END
+
+
+/* == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @11
 == ~%SKIE_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @12
 == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @13
 == ~%SKIE_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @14
@@ -122,7 +144,7 @@ CHAIN ~%tutu_var%BRILLA~ X#BrillaEddardDeath
 == ~%ELDOTH_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @22
 == ~%tutu_var%BRILLA~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID) InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @23
 END
-IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) EraseJournalEntry(@35) EraseJournalEntry(@48) EraseJournalEntry(@54) ActionOverride("brilla",TakePartyItem("X#SILSH"))  ActionOverride("brilla",DestroyItem("X#SILSH"))~ SOLVED_JOURNAL @49 EXIT
+IF ~~ THEN DO ~SetGlobal("X#KagainCaravan","GLOBAL",6) AddexperienceParty(3000) EraseJournalEntry(@35) EraseJournalEntry(@48) EraseJournalEntry(@54) ActionOverride("brilla",TakePartyItem("X#SILSH"))  ActionOverride("brilla",DestroyItem("X#SILSH"))~ SOLVED_JOURNAL @49 EXIT */
 
 // Add transtion for Silvershield house guard if party has Eddard's fibula
 EXTEND_BOTTOM ~%tutu_var%HOUSG3~ %housg3state0%

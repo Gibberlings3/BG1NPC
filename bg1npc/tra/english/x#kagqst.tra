@@ -8,7 +8,7 @@
 @7    = ~Madam, I bring grave news. In my travels, I came across a raided caravan... and the body of a young man, dressed in Silvershield colors. The bandits who killed him had this clasp.~
 @8    = ~Then Eddard is dead? That is grievous news. Give me that pin - I shall keep it in memory of my dear, dear step-son... ~
 @9    = ~No... no... Why have not you told me, <CHARNAME>? M-m-y brother... o, no!~
-@10   = ~Hush, girl.~
+/* @10   = ~Hush, girl.~
 @11   = ~Wha... Skie? What are you doing?~
 @12   = ~I.. I'm just er... popping out. Heh...~
 @13   = ~Hmph, dressed like a sewer rat, and with your pack on your shoulders? Hardly, dear - You're running away, aren't you? ~
@@ -21,7 +21,7 @@
 @20   = ~You... You *bitch*!~
 @21   = ~Stay away from my Eldoth!~
 @22   = ~Now, now, my dearest. We can hardly hope to keep your... um... departure a secret, can we? Even from someone as self-absorbed as your father? Let us, then, mount upon the wings of Love and fly where they will take us. *Hugs Skie and winks at Brilla over her shoulder.*~
-@23   = ~Tee-hee! If I ever need a humorist to brighten a dull evening, I know now where to apply. Take good care, sweetie! *Skie snarls and drags Eldoth from the room.*~
+@23   = ~Tee-hee! If I ever need a humorist to brighten a dull evening, I know now where to apply. Take good care, sweetie! *Skie snarls and drags Eldoth from the room.*~ */
 @24   = ~Never is enough hirelings around t' do the job proper. D'ya have any experience?~
 @25   = ~We battled a bandit group that had just killed everyone in a caravan up North. Any chance this pin was from one of yours?~
 @26   = ~You don't get out from behind the counter much, do you? Hey, is this from one of your caravans? Took it off a bunch of bodies up north.~

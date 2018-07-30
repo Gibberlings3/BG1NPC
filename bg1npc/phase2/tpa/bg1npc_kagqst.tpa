@@ -1,6 +1,9 @@
 /* Kagain's Caravan */
 /* Kagain Caravan quest rebuild */
 
+// Get state for X#SkieBrillaGuards
+OUTER_SET SkieBrillaGuards = STATE_WHICH_SAYS 66 IN ~bg1npc/tra/%s/x#skint.tra~ FROM ~%tutu_var%BRILLA~
+
 /* BGEE v2.5+ */
 ACTION_IF FILE_EXISTS_IN_GAME ~BDENTBOY.CRE~ THEN BEGIN
   /* Area patching */

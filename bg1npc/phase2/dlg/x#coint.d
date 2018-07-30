@@ -132,12 +132,15 @@ END
 //== ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID)~ THEN @51
 //END
 
+// Coran-Brilla dialogue for female CHARNAME.
+// Same interjection on both dialogue states, since state 0 only works for NumTimesTalkedTo(0). Variable check blocks firing twice.
+// For compatibility with Kagain's Caravan Quest, check for party having item x#silsh.
 EXTEND_BOTTOM ~%tutu_var%BRILLA~ 0
 IF ~!PartyHasItem("X#SILSH") !Global("X#CoranBrilla2","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
 END
 
 EXTEND_BOTTOM ~%tutu_var%BRILLA~ 8
-IF ~!Global("X#CoranBrilla2","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
+IF ~!PartyHasItem("X#SILSH") !Global("X#CoranBrilla2","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1,FEMALE) OR(3) !InParty("skie") !InMyArea("skie") StateCheck("skie",CD_STATE_NOTVALID)~ EXTERN ~%CORAN_JOINED%~ X#CoranBrilla2
 END
 
 //I_C_T2 ~%tutu_var%BRILLA~ 0 X#CoranBrilla1
@@ -436,5 +439,5 @@ CHAIN ~%CORAN_JOINED%~ X#CoranBrilla2
 == ~%tutu_var%BRILLA~ @169
 == ~%CORAN_JOINED%~ @170
 == ~%tutu_var%BRILLA~ @171
-DO ~GiveItemCreate("%tutu_var%RING18","coran",1,0,0) SetGlobal("X#CoranBrilla2","GLOBAL",1) EscapeArea()~
+DO ~GiveItemCreate("%tutu_var%RING18","coran",1,0,0) SetGlobal("X#CoranBrilla2","GLOBAL",1)~
 EXIT
