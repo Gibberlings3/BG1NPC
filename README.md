@@ -75,6 +75,9 @@ For BGEE, a list of compatible mods can be found by checking [mlnevese's list of
 
 ## Installation
 
+### Special Note for Siege of Dragonspear from Steam/GOG
+Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must install a mod called [DLC Merger](https://github.com/Argent77/A7-DlcMerger/releases/latest) on your SoD installation before you can install this or any other WeiDU-based mod.
+
 ### Windows
 The BG1NPC Project is packaged and installed with WeiDU and is distributed as a self-extracting archive. To install, simply double-click the archive and follow the instructions on screen.
 
