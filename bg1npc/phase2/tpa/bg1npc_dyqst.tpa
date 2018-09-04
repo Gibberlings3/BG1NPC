@@ -1,0 +1,211 @@
+/* Dynaheir's Quest */
+
+  /* items */
+COPY_EXISTING ~%tutu_var%SCRL2J.itm~ ~override/X#DYJOR1.itm~ // page
+  SAY NAME1 @274
+  SAY NAME2 @274
+  SAY UNIDENTIFIED_DESC @275
+  SAY DESC @275
+
+COPY_EXISTING ~%tutu_var%BOOK40.itm~ ~override/X#DYJOR2.itm~ // journal
+  SAY NAME1 @276
+  SAY NAME2 @276
+  SAY UNIDENTIFIED_DESC @277
+  SAY DESC @277
+
+COPY ~bg1npc/phase2/itm/X#WINAMU.itm~ ~override~
+  SAY NAME1 @629
+  SAY NAME2 @629
+  SAY UNIDENTIFIED_DESC @630
+  SAY DESC @630
+
+/* Add BG2 Items missing from BGEE */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~scrl8i.itm~) THEN BEGIN   /* Scroll of Cacofiend */
+COPY ~bg1npc/phase2/itm/scrl8i.itm~ ~override~
+END
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~scrl9h.itm~) THEN BEGIN   /* Scroll of Maze */
+  COPY ~bg1npc/phase2/itm/scrl9h.itm~ ~override~
+END
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~seeinvis.itm~) THEN BEGIN   /* Demon See Invisibility ring */
+COPY ~bg1npc/phase2/itm/seeinvis.itm~ ~override~
+END
+
+/* Working spell for Prot Evil 10' radius that protects vs Demons
+   Note: BGEE version of SPPR408 already protects vs demons. */
+ACTION_IF !(GAME_IS ~bgee eet~) THEN BEGIN
+  COPY ~bg1npc/phase2/itm/SPPR408.SPL~ ~override~
+END
+
+/* Compile spell for Imp */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#IMPSPL.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#IMPSPL.TRA~
+
+/* X#IMPSPL.BCS uses the sound file IMPPP04.wav, which is not found in BGEE. */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~imppp04.wav~) THEN BEGIN
+  COPY ~bg1npc/phase2/wav/imppp04.wav~ ~override~
+END
+
+/* creatures */
+/* new Drizzt for cutscenes */
+COPY_EXISTING ~%tutu_var%drizzt.cre~ ~override/x#drizzt.cre~
+  SAY NAME1 @564
+  SAY NAME2 @564
+  SAY 0xA4 @565
+  SAY 0xB8 @566
+  SAY 0xC8 @567
+  SAY 0xCC @567
+  SAY 0xD0 @567
+  SAY 0xD4 @567
+  SAY 0xD8 @567
+  SAY 0xEC @568
+  SAY 0xF0 @569
+  SAY 0x10C @570
+  SAY 0x110 @571
+  SAY 0x114 @572
+  SAY 0x118 @573
+  SAY 0x198 @574
+  SAY 0x19C @570
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
+  WRITE_EVALUATED_ASCII 0x2cc ~%tutu_var%WINSKI~ #8
+  WRITE_ASCII 0x280 ~winski2~ #32
+
+COPY_EXISTING ~%tutu_var%winski.cre~ ~override/x#winski.cre~
+  SAY NAME1 @284
+  SAY NAME2 @284
+  SAY BATTLE_CRY1 @285
+  SAY BATTLE_CRY2 @285
+  SAY BATTLE_CRY3 @285
+  SAY BATTLE_CRY4 @285
+  SAY BATTLE_CRY5 @285
+  SAY ATTACK1 @285
+  SAY ATTACK2 @285
+  SAY DAMAGE @286
+  SAY DYING @287
+  SAY SELECT_COMMON1 @285
+  SAY SELECT_COMMON2 @285
+  WRITE_ASCII 0x2cc ~X#WINSKI~ #8// Dialogue file
+  WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral no combat scripts assigned to cre, so should remain neutral
+  WRITE_ASCII 0x268 ~X#DYQWIN~ #8 // Default Script
+  WRITE_ASCII 0x248 ~X#DYQWIN~ #8 //  override script no combat scripting assigned in bcs, so should not respond
+  WRITE_ASCII 0x280 ~X#WINSKI~ #32 //  death variable, unused by current scripting; "winski" used on copied uncalled _WINSKI.cre
+
+COPY_EXISTING ~%tutu_var%GNOLL.cre~ ~override/x#dgnle1.cre~ // Evil Gnoll #1
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnle2.cre~ // Evil Gnoll #2
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnle3.cre~ // Evil Gnoll #3
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnle4.cre~ // Evil Gnoll #4
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnlg1.cre~ // Good Gnoll #1
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnlg2.cre~ // Good Gnoll #2
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnlg3.cre~ // Good Gnoll #3
+              ~%tutu_var%GNOLL.cre~ ~override/x#dgnlg4.cre~ // Good Gnoll #4
+  SAY NAME1 @278
+  SAY NAME2 @278
+  SAY BATTLE_CRY1 @279
+  SAY BATTLE_CRY2 @279
+  SAY BATTLE_CRY3 @279
+  SAY BATTLE_CRY4 @279
+  SAY BATTLE_CRY5 @279
+  SAY ATTACK1 @279
+  SAY ATTACK2 @279
+  SAY DAMAGE @280
+  SAY DYING @281
+  SAY SELECT_COMMON1 @282
+  SAY SELECT_COMMON2 @283
+  WRITE_LONG 0x14 ~100~ // XP Value
+  WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#dgnle1~) BEGIN
+      WRITE_ASCII 0x2cc ~X#DGNLE~ #8 // Dialogue file: Evil Gnoll #1
+      ADD_CRE_ITEM ~X#DYJOR2~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#dgnlg1~) BEGIN
+      WRITE_ASCII 0x2cc ~X#DGNLG~ #8// Dialogue file: Good Gnoll #1
+      ADD_CRE_ITEM ~X#DYJOR1~ #0 #0 #0 ~IDENTIFIED~ ~INV5~
+    END
+
+
+ACTION_IF FILE_EXISTS_IN_GAME ~imp01.cre~ THEN BEGIN
+COPY_EXISTING ~IMP01.cre~ ~override/x#dyqimp.cre~
+  SAY NAME1 @288
+  SAY NAME2 @288
+  SAY DAMAGE @289
+  SAY DYING @290
+  WRITE_LONG 0x14 ~2000~ // XP Value
+  WRITE_SHORT 0x24 ~25~ // Current HP (usually 18)
+  WRITE_SHORT 0x26 ~25~ // Maximum HP (usually 18)
+  WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
+  WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
+  WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
+
+COPY_EXISTING ~MEPSMO01.cre~ ~override/x#mepht1.cre~
+              ~MEPSMO01.cre~ ~override/x#mepht2.cre~
+              ~MEPSMO01.cre~ ~override/x#mepht3.cre~
+              ~MEPSMO01.cre~ ~override/x#mepht4.cre~
+              ~MEPSMO01.cre~ ~override/x#mepht5.cre~
+  WRITE_ASCII SCRIPT_DEFAULT ~x#mepsmo~ #8
+
+COPY_EXISTING ~IDEMON02.cre~ ~override/x#tanari.cre~
+  SAY NAME1 @291
+  SAY NAME2 @291
+  WRITE_BYTE 0x5b 50  /* Electrical Resistance */
+  WRITE_ASCII 0x248 ~X#DYTANR~ #8  /* Override script */
+  WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8   /* Dialog */
+  WRITE_BYTE 0x270 ~128~  /* Allegiance = Neutral */
+  WRITE_ASCII 0x280 ~aravaata~ #32  /* death variable */
+
+END ELSE BEGIN
+COPY ~bg1npc/phase2/cre/x#dyqimp.cre~ ~override~
+  SAY NAME1 @288
+  SAY NAME2 @288
+  SAY DAMAGE @289
+  SAY DYING @290
+  WRITE_LONG 0x14 ~2000~ // XP Value
+  WRITE_SHORT 0x24 ~25~ // Current HP (usually 18)
+  WRITE_SHORT 0x26 ~25~ // Maximum HP (usually 18)
+  WRITE_ASCII 0x268 ~X#IMPSPL~ #8 // Default Script
+  WRITE_ASCII 0x248 ~none~ #8 //  override script no combat scripting assigned in bcs, so should not respond
+  WRITE_ASCII 0x280 ~ichthraa~ #32 //  death variable
+
+COPY ~bg1npc/phase2/cre/x#mepht1.cre~ ~override~
+     ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht2.cre~
+     ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht3.cre~
+     ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht4.cre~
+     ~bg1npc/phase2/cre/x#mepht1.cre~ ~override/x#mepht5.cre~
+      SAY NAME1 @729  /* Smoke Mephit */
+      SAY NAME2 @729  /* Smoke Mephit */
+      WRITE_ASCII SCRIPT_DEFAULT ~x#mepsmo~ #8
+
+COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override~
+  SAY NAME1 @291
+  SAY NAME2 @291
+  WRITE_BYTE 0x5b 50 //  replace # with percentage electrical resistance you want
+  WRITE_ASCII 0x248 ~X#DYTANR~ #8 //  override script
+  WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+  WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
+  WRITE_ASCII 0x280 ~aravaata~ #32 //  death variable
+END
+
+
+/* Compile .bcs for X#WINSKI and X#TANARI and x#mepht1-5 */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#DYQWIN.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#DYTANR.BAF~
+COMPILE ~bg1npc/phase2/baf/x#dycut.baf~
+COMPILE ~bg1npc/phase2/baf/x#mepsmo.baf~
+
+/* dialogues */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~EraseJournalEntry(27171)  EraseJournalEntry(27274) EraseJournalEntry(27275) EraseJournalEntry(27031)  AddexperienceParty(800)~
+END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
+    OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~EraseJournalEntry(227171)  EraseJournalEntry(227274) EraseJournalEntry(227275) EraseJournalEntry(227031)  AddexperienceParty(800)~
+END ELSE BEGIN
+    OUTER_SPRINT ~BGEEDynaheirEraseJournalEntries~ ~~
+END
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#dynaquest.d~
+
+/* Extend Dynaheir's override scripts */
+EXTEND_TOP  ~%DYNAHEIR_BCS%.bcs~ ~bg1npc/Phase2/baf/x#dynaquest.baf~
+    EVALUATE_BUFFER
+
+/* Add Journal Entries to database for BGEE */
+ADD_JOURNAL TITLE (@999) @30 @32 @34 @36 @223 @224 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+ADD_JOURNAL EXISTING TITLE (#31317) @220 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~

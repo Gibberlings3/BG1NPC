@@ -1,0 +1,72 @@
+/* Lake Poets "Quest"; Bard in party encounter */
+/* creatures */
+COPY_EXISTING ~%tutu_var%VOLO.cre~ ~override/x#lakep1.cre~
+              ~%tutu_var%VOLO.cre~ ~override/x#lakep2.cre~
+              ~%tutu_var%VOLO.cre~ ~override/x#lakep3.cre~
+  LPM source_cre_sound_cleanup
+  LPM source_cre_script_cleanup
+  SAY INITIAL_MEETING @294
+  SAY UNHAPPY_BREAKING @295
+  SAY BATTLE_CRY1 @296
+  SAY BATTLE_CRY2 @296
+  SAY BATTLE_CRY3 @296
+  SAY BATTLE_CRY4 @296
+  SAY BATTLE_CRY5 @296
+  SAY DAMAGE @297
+  SAY DYING @298
+  SAY SELECT_COMMON1 @299
+  SAY SELECT_COMMON2 @300
+  SAY SELECT_COMMON3 @301
+  SAY SELECT_COMMON4 @302
+  SAY DIALOGUE_DEFAULT @299
+  WRITE_EVALUATED_ASCII DIALOG ~%DEST_RES%~ #8 //  dialog
+  WRITE_EVALUATED_ASCII DEATHVAR ~%DEST_RES%~ #32 //  death variable
+WRITE_EVALUATED_ASCII SCRIPT_GENERAL ~%tutu_scriptr%unenemy~
+WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_scriptw%trunsgt~
+WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
+  PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lakep1~) BEGIN
+    SAY NAME1 @292
+    SAY NAME2 @293
+    WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lakep2~) BEGIN
+    SAY NAME1 @303
+    SAY NAME2 @304
+    WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lakep3~) BEGIN
+    SAY NAME1 @305
+    SAY NAME2 @306
+    WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
+  END
+
+/* area script changes */
+EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~bg1npc/Phase2/baf/X#LAKEP.BAF~
+    EVALUATE_BUFFER
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#LAKE.D~
+
+/* Add Lake Poet Harps if not in game */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~itemharp.wav~) THEN BEGIN
+COPY ~bg1npc/phase2/wav/itemharp.wav~ ~override~
+END
+/* Harp of Discord */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3m.itm~) THEN BEGIN
+COPY ~bg1npc/phase2/itm/misc3m.itm~ ~override~
+    SAY NAME2 @765
+    SAY UNIDENTIFIED_DESC @766
+    SAY DESC @767
+END
+/* Azlaer's Harp */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3n.itm~) THEN BEGIN
+COPY ~bg1npc/phase2/itm/misc3n.itm~ ~override~
+    SAY NAME2 @768
+    SAY UNIDENTIFIED_DESC @766
+    SAY DESC @769
+END
+/* Methlid's Harp */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~misc3o.itm~) THEN BEGIN
+COPY ~bg1npc/phase2/itm/misc3o.itm~ ~override~
+    SAY NAME2 @770
+    SAY UNIDENTIFIED_DESC @766
+    SAY DESC @771
+END
