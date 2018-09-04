@@ -120,7 +120,7 @@
 @119  = ~Hold your horses, Jaheira. We have better things to do than this; the mines await us.~
 @120  = ~Thank you, <CHARNAME>. I knew I could count on your assistance.~
 @121  = ~You have made a wise decision. Good luck to you!~
-@122  = ~And you... get out of my sight, defiler of nature. Be glad that Jaheira's word is valued so highly, lest I would insist on your foul presence until the deed is carried out.~
+@122  = ~And you, Sashenstar... get out of my sight, defiler of nature. Be glad that Jaheira's word is valued so highly, lest I would insist on your foul presence until the deed is carried out.~
 @123  = ~Y-yes, thank you for your assistance, strangers... If you ever travel to Baldur's Gate, come to the Merchants' League, and I will aid you in any way I can. Take now this small token of my appreciation.~
 @124  = ~Have I misheard? <CHARNAME>, it is in the same direction we intend to travel, this would be only a slight distraction! Are you truly so self-absorbed that you would spit on the hand that heals and feeds you?~
 @125  = ~Would you raise my hopes of rescue, only to hand me back over to these uncouth savages? You are despicable beyond description, and I warn you, betray me, and I will make sure that you won't survive this encounter!~
@@ -158,15 +158,12 @@
 @157  = ~Little wolfling, go with them if it is your choice. It's time for you to learn an important lesson: there are those who claim to serve nature, but only serve themselves. I trust that you'll be able to see pretenders for yourself after this expedition.~
 @158  = ~Jaheira, I am disappointed in you! For siding with the criminals you shall die yourself!~
 @159  = ~Shadows in Cloakwood
-
-We met an old acquaintance of Jaheira's today. The old fool decided to show weakness in the face of Nature's need, so we were forced to kill him and his party of followers. Nature will rest easier tonight. As an added bonus, we should visit the Merchant League when we get to Baldur's Gate for information, though I wish that we had thought to follow the hunter and kill him as well.~
+We met an old acquaintance of Jaheira's today. The old fool decided to show weakness in the face of Nature's need, so we were forced to kill him and his party of followers. Nature will rest easier tonight.~
 @160  = ~You showed some reason by aiding us in killing this filthy hunter, but your lack of concern for our course and your reluctance to aid your own friends appalls me. Leave this wood now - I have lost my patience with you!~
 @161  = ~Shadows in Cloakwood
-
 We met an old acquaintance of Jaheira's today. While we killed a hunter who was threatening his group, the old fool was not happy with my decision to press on without helping the druids further. Some party members were unhappy, too, and made the decision to move on with little thanks and no praise.~
 @162  = ~I urge you to look for Beador and Maretha, if you are friends to the druids of Cloakwood.~
 @163  = ~Shadows in Cloakwood
-
 We have accepted a quest to help the druids of Cloakwood. Seniyad, an old acquaintance of Jaheira, sent us to find out what has happened to Beador and Maretha. We think that the leader of the Shadow Druids in Cloakwood, Amarande, has a new partner, Andarthe. Beador and Maretha may have fallen into the clutches of one of these Shadow Archdruids. We may need to bypass the Treefort of the Shadow Druids, and find the island where they hold their secret meetings.~
 @164  = ~Ah, there you are! I hear that you have administered a fitting punishment for those vile mockers of our true beliefs. Maretha told me everything, as well as the names of two high standing members in our own order, connected with the Shadow Circle. Their punishment was swift and sound. We have dealt a huge blow to the Shadow Druids, and reclaiming our sacred forest shall now be only a matter of time.~
 @165  = ~I am glad to have helped you and Jaheira, Seniyad.~
@@ -174,7 +171,6 @@ We have accepted a quest to help the druids of Cloakwood. Seniyad, an old acquai
 @167  = ~You have proven to be a good ally, <CHARNAME>. For that you will be rewarded with the allegiance of the druids of the Cloakwood and a free, undisturbed passage through our woods. Jaheira's guidance has apparently helped us find another steadfast ally of our cause... you would do well by continuing to listen to her wisdom and experience, you can learn much from her.~
 @168  = ~And let me add something else as well... this enchanted club was found in the possessions of one of the traitors. I trust you or Jaheira will make good use of it.~
 @169  = ~Shadows in Cloakwood
-
 We have been successful in helping the druids of Cloakwood, and they have granted us free passage, a magical club, and newfound friendship. Gaining a new ally is important... with all that has been going on, I have a feeling that it is useful to have new allies.~
 @170  = ~Do you imply that the allegiance of the druids of Cloakwood, a safe passage through our forests and the personal aid of one of nature's most devoted warriors, is not enough of a reward?~
 @171  = ~Err... well, I...~
@@ -194,15 +190,23 @@ We have been successful in helping the druids of Cloakwood, and they have grante
 
 I have agreed to help Aldeth Sashenstar, a noble from Baldur's Gate, to fight off a band of savages.~
 @185  = ~Aldeth Sashenstar
-
 I sided with Seniyad and the druids in their conflict with Aldeth Sashenstar, and ultimately killed Aldeth.~
 @186  = ~Aldeth Sashenstar
-
 With Jaheira's help, I succeeded in dissuading the druids who were threatening Aldeth Sashenstar. He was grateful, and invited me to visit him at his merchant house in Baldur's Gate one day.~
 @187  = ~Aldeth Sashenstar
-
 With Jaheira's help, I succeeded in dissuading the druids who were threatening Aldeth Sashenstar. He didn't seem too happy about it though, and left in a hurry.~
 // BGEE 26820
 @188  = ~Aldeth Sashenstar
 I have agreed to help Aldeth Sashenstar, a noble from Baldur's Gate, to fight off a band of savages.~
+// BGEE 27430
+@189 = ~Aldeth Sashenstar
+Siding with the druids, I slew Aldeth Sashenstar. Seniyad was grateful for my help.~
+// BGEE 32835
+@190 = ~Aldeth Sashenstar
+Aldeth Sashenstar was so grateful that I defused the situation with the druids that he invited me to visit him at his house in Baldur's Gate.~
+// From @105
+@191 = ~Then we must hurry to aid the girl as soon as possible.~
+// From @160
+@192 = ~Your lack of concern for our course and your reluctance to aid your own friends appalls me. Leave this wood now - I have lost my patience with you!~
+@193 = ~Very well, Jaheira. Before you leave, I must ask a favor of you.~
 @999  = ~Shadows in Cloakwood~
