@@ -1,4 +1,4 @@
-BEGIN ~%tutu_var%DORAA~
+BEGIN ~x#dora~
 
 APPEND ~%SKIE_JOINED%~
 
@@ -277,7 +277,7 @@ I_C_T ~%tutu_var%KRYSTI~ 2 X#SkieAssas
 == ~%tutu_var%KRYSTI~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @85
 END
 
-APPEND ~%tutu_var%DORAA~
+APPEND ~x#dora~
 
 IF ~Global("X#SummonDora","GLOBAL",2)~ THEN BEGIN DoraMeeting
 SAY @86
@@ -289,60 +289,60 @@ END
 
 CHAIN ~%SKIE_BANTER%~ SkieDora1
 @87
-== ~%tutu_var%DORAA~ @88
+== ~x#dora~ @88
 == ~%SKIE_BANTER%~ @89
-== ~%tutu_var%DORAA~ @90
+== ~x#dora~ @90
 == ~%SKIE_BANTER%~ @91
 = @92
-== ~%tutu_var%DORAA~ @93
+== ~x#dora~ @93
 == ~%SKIE_BANTER%~ @94
-== ~%tutu_var%DORAA~ @95
+== ~x#dora~ @95
 = @96
 == ~%SKIE_BANTER%~ @97
-== ~%tutu_var%DORAA~ @98
+== ~x#dora~ @98
 == ~%SKIE_BANTER%~ @99
-== ~%tutu_var%DORAA~ @100
+== ~x#dora~ @100
 = @101
 == ~%SKIE_BANTER%~ @102
-== ~%tutu_var%DORAA~ @103
+== ~x#dora~ @103
 DO ~GiveItemCreate("%tutu_var%AMUL13","skie",1,0,0) EscapeArea()~
 EXIT
 
 CHAIN ~%SKIE_BANTER%~ SkieDora2
 @104
-== ~%tutu_var%DORAA~ @105
+== ~x#dora~ @105
 == ~%SKIE_BANTER%~ @106
-== ~%tutu_var%DORAA~ @107
+== ~x#dora~ @107
 == ~%SKIE_BANTER%~ @108
-== ~%tutu_var%DORAA~ @109
+== ~x#dora~ @109
 = @96
 == ~%SKIE_BANTER%~ @97
-== ~%tutu_var%DORAA~ @98
+== ~x#dora~ @98
 == ~%SKIE_BANTER%~ @99
-== ~%tutu_var%DORAA~ @100
+== ~x#dora~ @100
 = @110
 == ~%SKIE_BANTER%~ @102
-== ~%tutu_var%DORAA~ @103
+== ~x#dora~ @103
 DO ~GiveItemCreate("%tutu_var%AMUL13","skie",1,0,0) EscapeArea()~
 == ~%SKIE_BANTER%~ @111
 EXIT
 
 
-BEGIN ~X#JESSUP~
+BEGIN ~x#jopha~
 
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#SkieJessup","GLOBAL",1)~ THEN ~X#JESSUP~ JessupSkie1
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#SkieJopha","GLOBAL",1)~ THEN ~x#Jopha~ JophaSkie1
 @112
-DO ~SetGlobal("X#SkieJessup","GLOBAL",2)~
+DO ~SetGlobal("X#SkieJopha","GLOBAL",2)~
 == ~%SKIE_BANTER%~ @113
-== ~X#JESSUP~ @114
+== ~x#jopha~ @114
 == ~%SKIE_BANTER%~ @115
-== ~X#JESSUP~ @116
-DO ~ActionOverride("jessup",EscapeArea()) SetGlobal("X#SkieJessup","GLOBAL",3)~
+== ~x#jopha~ @116
+DO ~ActionOverride("Jopha",EscapeArea()) SetGlobal("X#SkieJopha","GLOBAL",3)~
 EXIT
 
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#SkieJessup","GLOBAL",4)~ THEN ~%SKIE_JOINED%~ JessupSkie2
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#SkieJopha","GLOBAL",4)~ THEN ~%SKIE_JOINED%~ JophaSkie2
 @117
-DO ~SetGlobal("X#SkieJessup","GLOBAL",5)~
+DO ~SetGlobal("X#SkieJopha","GLOBAL",5)~
 == ~%ELDOTH_BANTER%~ @118
 == ~%SKIE_BANTER%~ @119
 == ~%ELDOTH_BANTER%~ @120

@@ -203,12 +203,12 @@ I_C_T ~%tutu_scriptbg%WILLIA~ 5 X#ManyInt2
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @83
 END
 
-I_C_T ~%tutu_var%JESSUP~ 1 X#ManyInt3
+I_C_T ~%tutu_var%jessup~ 1 X#ManyInt3
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE) Class(Player1,THIEF_ALL)~ THEN @84
 == ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE) Class(Player1,THIEF_ALL)~ THEN @85
 END
 
-I_C_T ~%tutu_var%JESSUP~ 2 X#ManyInt4
+I_C_T ~%tutu_var%jessup~ 2 X#ManyInt4
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @86
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @87
 END

@@ -56,12 +56,12 @@ PlaySound("skie99")
 StartDialogueNoSet(Myself)
 END
 
-/* Doraa spawn */
+/* Dora spawn */
 IF %BGT_VAR%
 Global("Chapter","GLOBAL",%tutu_chapter_7%)
-Global("X#DoraExists","GLOBAL",0)
+Global("x#doraExists","GLOBAL",0)
 AreaCheck("%NWBaldursGate%")
-!Exists("doraa")
+!Exists("x#dora")
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
@@ -70,13 +70,13 @@ CombatCounter(0)
 !See([ENEMY])
 THEN
 RESPONSE #100
-SetGlobal("X#DoraExists","GLOBAL",1)
+SetGlobal("x#doraExists","GLOBAL",1)
 SetGlobal("X#SummonDora","GLOBAL",1)
-CreateCreatureObjectOffScreen("X#DORA",Myself,0,0,0)
+CreateCreatureObjectOffScreen("x#dora",Myself,0,0,0)
 END
 
 IF %BGT_VAR%
-Global("X#SkieJessup","GLOBAL",3)
+Global("X#SkieJopha","GLOBAL",3)
 InParty("eldoth")
 !StateCheck("eldoth",CD_STATE_NOTVALID)
 InParty(Myself)
@@ -87,11 +87,11 @@ CombatCounter(0)
 !See([ENEMY])
 THEN
 RESPONSE #100
-SetGlobal("X#SkieJessup","GLOBAL",4)
+SetGlobal("X#SkieJopha","GLOBAL",4)
 END
 
 IF %BGT_VAR%
-Global("X#SkieJessup","GLOBAL",4)
+Global("X#SkieJopha","GLOBAL",4)
 InParty("eldoth")
 !StateCheck("eldoth",CD_STATE_NOTVALID)
 InParty(Myself)

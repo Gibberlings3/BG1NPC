@@ -45,11 +45,10 @@ END
 
 IF %BGT_VAR%
 InParty("skie")
-Global("X#SkieJessup","GLOBAL",0)
+Global("X#SkieJopha","GLOBAL",0)
 THEN
 RESPONSE #100
-SetGlobal("X#SkieJessup","GLOBAL",1)
+SetGlobal("X#SkieJopha","GLOBAL",1)
 MoveToObject("skie")
 Dialogue("skie")
 END
-
