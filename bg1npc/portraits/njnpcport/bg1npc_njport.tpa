@@ -1,0 +1,521 @@
+ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
+  COPY ~bg1npc/Phase2/Portraits~ ~override~
+END ELSE BEGIN
+  COPY ~bg1npc/Phase2/Portraits/bgee~ ~override~
+END
+
+/* Standard Non-Joinable Actors */
+COPY_EXISTING ~%tutu_var%alatos.cre~ ~override~
+  WRITE_ASCII 0x34 ~alatoss~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%albert.cre~ ~override~
+  WRITE_ASCII 0x34 ~alberts~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%aldeth.cre~ ~override~
+  WRITE_ASCII 0x34 ~aldeths~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%alyth.cre~ ~override~
+  WRITE_ASCII 0x34 ~alyths~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%amaran.cre~ ~override~
+  WRITE_ASCII 0x34 ~amarans~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%sarev1.cre~ ~override~
+  WRITE_ASCII 0x34 ~armoreds~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%bjorni.cre~ ~override~
+  WRITE_ASCII 0x34 ~bjornis~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%bassil.cre~ ~override~
+  WRITE_ASCII 0x34 ~bassils~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%belt.cre~ ~override~
+  WRITE_ASCII 0x34 ~belts~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%berrun.cre~ ~override~
+  WRITE_ASCII 0x34 ~berruns~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%brage.cre~  ~override~
+              ~%tutu_var%brage2.cre~ ~override~
+  WRITE_ASCII 0x34 ~brages~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%brilla.cre~ ~override~
+  WRITE_ASCII 0x34 ~brillas~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%farmbr.cre~ ~override~
+  WRITE_ASCII 0x34 ~farmbrs~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%cadder.cre~ ~override~
+  WRITE_ASCII 0x34 ~cadders~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%coksmth.cre~ ~override~
+  WRITE_ASCII 0x34 ~coksmths~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%davaeo.cre~ ~override~
+  WRITE_ASCII 0x34 ~davaeos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%drizzt.cre~ ~override~
+  WRITE_ASCII 0x34 ~drizzts~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%drienn.cre~ ~override~
+  WRITE_ASCII 0x34 ~driens~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%droth.cre~ ~override~
+  WRITE_ASCII 0x34 ~droths~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%elmin2.cre~  ~override~
+              ~%tutu_var%elmin3.cre~  ~override~
+              ~%tutu_var%elmin5.cre~  ~override~
+              ~%tutu_var%elmins4.cre~ ~override~
+  WRITE_ASCII 0x34 ~elmins~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%gerde.cre~ ~override~
+  WRITE_ASCII 0x34 ~gerdes~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%galile.cre~ ~override~
+  WRITE_ASCII 0x34 ~galiles~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%greywo.cre~ ~override~
+  WRITE_ASCII 0x34 ~greywos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%jessup.cre~ ~override~
+  WRITE_ASCII 0x34 ~jessups~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%halbaz.cre~ ~override~
+  WRITE_ASCII 0x34 ~halbazs~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%kahrk.cre~ ~override~
+  WRITE_ASCII 0x34 ~kahrks~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%liia.cre~ ~override~
+  WRITE_ASCII 0x34 ~liias~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%larze.cre~ ~override~
+  WRITE_ASCII 0x34 ~larzes~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%keldda.cre~ ~override~
+  WRITE_ASCII 0x34 ~kelddas~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%korax.cre~ ~override~
+  WRITE_ASCII 0x34 ~koraxs~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%mulahe.cre~ ~override~
+  WRITE_ASCII 0x34 ~mulahes~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%narlen.cre~ ~override~
+  WRITE_ASCII 0x34 ~narlens~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%niemai.cre~ ~override~
+  WRITE_ASCII 0x34 ~niemais~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%oublek.cre~ ~override~
+  WRITE_ASCII 0x34 ~oubleks~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%petrin.cre~ ~override~
+  WRITE_ASCII 0x34 ~petrins~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%rielta.cre~ ~override~
+  WRITE_ASCII 0x34 ~rieltas~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%seniya.cre~ ~override~
+  WRITE_ASCII 0x34 ~seniyas~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%thalan.cre~ ~override~
+  WRITE_ASCII 0x34 ~thalans~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%vai.cre~ ~override~
+  WRITE_ASCII 0x34 ~vais~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%shoal.cre~ ~override~
+  WRITE_ASCII 0x34 ~shoals~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%tamoko.cre~ ~override~
+  WRITE_ASCII 0x34 ~tamokos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%tenya.cre~  ~override~
+              ~%tutu_var%tenya2.cre~ ~override~
+  WRITE_ASCII 0x34 ~tenyas~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%tethto.cre~  ~override~
+              ~%tutu_var%tethto2.cre~ ~override~
+              ~%tutu_var%tethto3.cre~ ~override~
+  WRITE_ASCII 0x34 ~tethtos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%pumberl.cre~ ~override~
+              ~%tutu_var%pumber2.cre~ ~override~
+  WRITE_ASCII 0x34 ~pumberls~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%winthr2.cre~ ~override~
+              ~%tutu_var%winthr3.cre~ ~override~
+              ~%tutu_var%innke2.cre~ ~override~
+  WRITE_ASCII 0x34 ~winthrs~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%yago.cre~ ~override~
+  WRITE_ASCII 0x34 ~yagos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%angelo.cre~ ~override~
+  WRITE_ASCII 0x34 ~angelos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%arkush.cre~ ~override~
+  SAY NAME1 @385
+  SAY NAME2 @385
+  WRITE_ASCII 0x34 ~arkushs~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%brielb.cre~ ~override~
+  SAY NAME1 @386
+  SAY NAME2 @386
+  WRITE_ASCII 0x34 ~brielbs~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%deltan.cre~  ~override~
+              ~%tutu_var%deltan2.cre~ ~override~
+  WRITE_ASCII 0x34 ~deltans~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%gorion.cre~  ~override~
+              ~%tutu_var%gorion3.cre~ ~override~
+  WRITE_ASCII 0x34 ~gorions~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%sarevo.cre~  ~override~
+              ~%tutu_var%sarevo2.cre~ ~override~
+  WRITE_ASCII 0x34 ~sarevos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%kovera.cre~  ~override~
+  WRITE_ASCII 0x34 ~koveras~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%scar.cre~ ~override~
+  WRITE_ASCII 0x34 ~scars~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%vail.cre~ ~override~
+  WRITE_ASCII 0x34 ~vails~//  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%volo.cre~ ~override~
+  WRITE_ASCII 0x34 ~volos~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%tazok.cre~  ~override~
+              ~%tutu_var%tazok2.cre~ ~override~
+  WRITE_ASCII 0x34 ~tazoks~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%taugos.cre~ ~override~
+  WRITE_ASCII 0x34 ~taugoss~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%chase.cre~  ~override~
+  WRITE_ASCII 0x34 ~chases~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%dryad.cre~  ~override~
+  WRITE_ASCII 0x34 ~dryadcps~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%fireb1.cre~ ~override~
+              ~%tutu_var%firebe.cre~ ~override~
+  WRITE_ASCII 0x34 ~firebes~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%keeper.cre~ ~override~
+  WRITE_ASCII 0x34 ~keepers~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%silke.cre~ ~override~
+  WRITE_ASCII 0x34 ~silkes~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%gatewa.cre~ ~override~
+              ~%tutu_var%gatewa2.cre~ ~override~
+  WRITE_ASCII 0x34 ~gatewas~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%joia.cre~ ~override~
+  WRITE_ASCII 0x34 ~joias~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%marl.cre~ ~override~
+  WRITE_ASCII 0x34 ~marls~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%perdue.cre~ ~override~
+  WRITE_ASCII 0x34 ~perdues~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%winski.cre~ ~override~
+          ~%tutu_var%winski2.cre~ ~override~
+  WRITE_ASCII 0x34 ~winskis~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%taerom.cre~ ~override~
+  WRITE_ASCII 0x34 ~taeroms~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%tarnes.cre~ ~override~
+  WRITE_ASCII 0x34 ~tarness~ #8 //  small portrait
+BUT_ONLY_IF_IT_CHANGES
+
+/* Miloch's Gnome Portraits */
+COPY_EXISTING ~%tutu_var%bently.cre~ ~override~ // Bentley Mirrorshade
+  WRITE_ASCII 0x34 ~bentlys~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%galtok.cre~ ~override~ // Galtok (in Nashkel Mines)
+  WRITE_ASCII 0x34 ~galtoks~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%gellan.cre~ ~override~ // Gellana Mirrorshade (in FAI Temple of Wisdom)
+  WRITE_ASCII 0x34 ~gellans~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%hafiz.cre~ ~override~ // Hafiz (in Gibberling Mountains)
+  WRITE_ASCII 0x34 ~hafizs~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%landri.cre~ ~override~ // Landrin (in FAI L3)
+  WRITE_ASCII 0x34 ~landris~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%madarc.cre~ ~override~ // Mad Arcand (in Shipwreck's Coast)
+  WRITE_ASCII 0x34 ~madarcs~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%mutami.cre~ ~override~ // Mutamin (in Mutamin's Garden)
+  WRITE_ASCII 0x34 ~mutamis~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_scriptbg%neb.cre~ ~override~ // Neb (in SW Baldur's Gate FF HQ L1)
+  WRITE_ASCII 0x34 ~nebs~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%pheirk.cre~ ~override~ // Pheirkas (in NW Baldur's Gate)
+  WRITE_ASCII 0x34 ~pheirks~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%sarhed.cre~ ~override~ // Sarhedra (in Lonely Peaks)
+  WRITE_ASCII 0x34 ~sarheds~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~%tutu_var%unshey.cre~ ~override~ // Unshey (in Friendly Arm Inn L2)
+  WRITE_ASCII 0x34 ~unsheys~ #8 // Small portrait
+BUT_ONLY_IF_IT_CHANGES
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~X#BG1NPCPhase1.G3~) THEN BEGIN
+/* Phase2 Quest NPCs */
+  COPY_EXISTING ~x#drizzt.cre~ ~override~
+    WRITE_ASCII 0x34 ~drizzts~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#kaband.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#kabans~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#david.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#davids~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#cru11.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#crus~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#chop.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#chops~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#assi01.cre~ ~override~
+                ~x#assi02.cre~ ~override~
+                ~x#assi03.cre~ ~override~
+                ~x#assi04.cre~ ~override~
+                ~x#assi05.cre~ ~override~
+                ~x#assi06.cre~ ~override~
+                ~x#assi07.cre~ ~override~
+                ~x#assi08.cre~ ~override~
+                ~x#assi09.cre~ ~override~
+                ~x#assi10.cre~ ~override~
+                ~x#assi11.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#assis~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#garar.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#garars~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#amelia.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#amelis~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#natan.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#natans~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#rashel.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#rashes~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~p#imanel.cre~ ~override~
+    WRITE_ASCII 0x34 ~p#imanes~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#seasn.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#seasns~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#keth.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#keths~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#dgnlg1.cre~ ~override~
+                ~x#dgnle1.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#dgnls~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#lakep1.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#lake1s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#lakep2.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#lake2s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#lakep3.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#lake3s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#xzfsp1.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#xzfs1s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#xzfsp2.cre~ ~override~
+                ~x#xzfsp3.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#xzfs2s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#black.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#blacks~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#storm.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#storms~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#zosya.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#zosyas~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#xzgu01.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#xzgu1s~ #8 // small portrait
+  COPY_EXISTING ~x#xzgu02.cre~ ~override~
+        ~x#xzgu03.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#xzgu2s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#garwyl.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#garwys~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#garz01.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#garz1s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#garz02.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#garz2s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#garz03.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#garz3s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#garz04.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#garz4s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#andart.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#andars~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#beador.cre~ ~override~
+                ~x#beado1.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#beados~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#mareth.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#marets~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~x#shdr8a.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#shdr8s~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+/*ToSC only portraits: */
+ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
+  COPY_EXISTING ~%tutu_var%hurgan.cre~ ~override~
+    WRITE_ASCII 0x34 ~hurgans~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%ulraun.cre~ ~override~
+    WRITE_ASCII 0x34 ~ulrauns~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%delain.cre~  ~override~
+                ~%tutu_var%delain2.cre~ ~override~
+    WRITE_ASCII 0x34 ~delains~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%durlyl.cre~  ~override~
+                ~%tutu_var%durlyl2.cre~ ~override~
+    WRITE_ASCII 0x34 ~durlyls~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%karoug.cre~ ~override~
+    WRITE_ASCII 0x34 ~karougs~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%kaisha.cre~ ~override~
+                ~%tutu_var%kaish2.cre~ ~override~
+    WRITE_ASCII 0x34 ~kashias~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%mendas.cre~  ~override~
+                ~%tutu_var%mendas2.cre~ ~override~
+                ~%tutu_var%mendas3.cre~ ~override~
+    WRITE_ASCII 0x34 ~mendass~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_scripts%handal2.cre~ ~override~
+    WRITE_ASCII 0x34 ~shandals~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+
+  // Miloch's TotSC additions
+  COPY_EXISTING ~%tutu_var%avarice.cre~ ~override~ // Avarice (in Durlag's Tower D1)
+    WRITE_ASCII 0x34 ~avarices~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%baresh.cre~ ~override~ // Baresh (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~bareshs~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%bayard.cre~ ~override~ // Bayard (in Durlag's Cellar)
+    WRITE_ASCII 0x34 ~bayards~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_scriptb%ullrush.cre~ ~override~ // Bullrush (in Durlag's Tower D3)
+    WRITE_ASCII 0x34 ~bullruss~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%calaha.cre~ ~override~ // Calahan (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~calahas~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%claird.cre~ ~override~ // Clair De'Lain (in Durlag's Tower D4)
+    WRITE_ASCII 0x34 ~clairds~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%daitel.cre~ ~override~ // Daitel (Ghost - in Durlag's Tower L3)
+    WRITE_ASCII 0x34 ~daitels~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%dalton.cre~ ~override~ // Dalton (in Durlag's Tower L4)
+    WRITE_ASCII 0x34 ~daltons~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%deathk.cre~  ~override~ // Demonknight (in Durlag's Tower)
+                ~%tutu_var%deathk1.cre~ ~override~
+    WRITE_ASCII 0x34 ~deathks~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%delsvir.cre~ ~override~ // Delsvirtanyon (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~delsvirs~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%dopdur1.cre~ ~override~ // Durlag (Doppleganger - in Durlag's Tower D2)
+                ~%tutu_var%dopdur2.cre~ ~override~
+                ~%tutu_var%dopdur3.cre~ ~override~
+    WRITE_ASCII 0x34 ~durlagts~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%durlagt.cre~ ~override~ // Durlag (Ghost - in Durlag's Tower D4)
+    WRITE_ASCII 0x34 ~durlagts~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_scriptd%ursword.cre~ ~override~ // Durlag's Pride (in Durlag's Tower D1)
+    WRITE_ASCII 0x34 ~durswors~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%dushai.cre~ ~override~ // Dushai (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~dushais~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%erdane.cre~ ~override~ // Erdane (in Durlag's Tower)
+    WRITE_ASCII 0x34 ~erdanes~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%fear.cre~ ~override~ // Fear (in Durlag's Tower D1)
+    WRITE_ASCII 0x34 ~fears~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%fenrus.cre~ ~override~ // Fenrus Boulon (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~fenruss~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%galken.cre~ ~override~ // Galkin (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~galkens~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%grael.cre~ ~override~ // Grael (in Durlag's Tower D4)
+    WRITE_ASCII 0x34 ~graels~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%hack.cre~ ~override~ // Hack (in Durlag's Tower D3)
+    WRITE_ASCII 0x34 ~hacks~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%ike.cre~  ~override~ // Ike (in Ulgoth's Beard)
+                ~%tutu_var%ike2.cre~ ~override~ // Ike (in Durlag's Tower)
+    WRITE_ASCII 0x34 ~ikes~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%isla.cre~ ~override~ // Islanne (in Durlag's Tower D4)
+    WRITE_ASCII 0x34 ~islas~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%kirinh.cre~ ~override~ // Kirinhale (in Durlag's Tower L4)
+    WRITE_ASCII 0x34 ~kirinhs~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%love.cre~ ~override~ // Love (in Durlag's Tower D1)
+    WRITE_ASCII 0x34 ~loves~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%meiala.cre~ ~override~ // Meiala (in Durlag's Tower D3)
+    WRITE_ASCII 0x34 ~meialas~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_scriptm%oorlock.cre~ ~override~ // Moorlock (in Durlag's Tower D3)
+    WRITE_ASCII 0x34 ~moorlocs~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%pride.cre~ ~override~ // Pride (in Durlag's Tower D1)
+    WRITE_ASCII 0x34 ~prides~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%riggilo.cre~ ~override~ // Riggilo (in Durlag's Tower L3)
+    WRITE_ASCII 0x34 ~riggilos~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%tarnor.cre~ ~override~ // Tarnor (in Durlag's Tower D3)
+    WRITE_ASCII 0x34 ~tarnors~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%tellan.cre~ ~override~ // Tellan (in Ice Island L1)
+    WRITE_ASCII 0x34 ~tellans~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%therel.cre~ ~override~ // Therella (in Ulgoth's Beard)
+    WRITE_ASCII 0x34 ~therels~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+END
