@@ -1,0 +1,82 @@
+/* AJANTIS ROMANCE */
+
+/* items */
+COPY ~bg1npc/romances/AJROM/ITM/X#AJRONE.itm~ ~override~
+  SAY NAME1 @477
+  SAY NAME2 @477
+  SAY UNIDENTIFIED_DESC @478
+  SAY DESC @478
+
+COPY ~bg1npc/romances/AJROM/BAM~ ~override~
+COPY ~bg1npc/romances/AJROM/ITM/X#AJRORI.itm~ ~override~
+  SAY NAME1 @479
+  SAY NAME2 @479
+  SAY UNIDENTIFIED_DESC @480
+  SAY DESC @480
+
+/* creatures */
+COPY ~bg1npc/romances/AJROM/cre/x#ajdoug.cre~ ~override~ // Douglas
+  SAY NAME1 @481
+  SAY NAME2 @481
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* BGEE: Use HELMP soundset */
+    SAY INITIAL_MEETING #4976 // HELMP01
+    SAY BATTLE_CRY1 #4976 // HELMP01
+    SAY DAMAGE #5469 // HELMP05
+    SAY DYING #5470 // HELMP06
+    SAY SELECT_COMMON1 #4977 // HELMP02
+    SAY SELECT_COMMON2 #4976 // HELMP01
+END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY INITIAL_MEETING @482
+    SAY BATTLE_CRY1 @483
+    SAY DAMAGE @484
+    SAY DYING @485
+    SAY SELECT_COMMON1 @486
+    SAY SELECT_COMMON2 @482
+    SAY SELECT_ACTION4 @487
+  END
+
+/* cutscenes */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCUT.BAF~
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/X#AJROADD_PR.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisLTs_PR.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisIniFlirts_PR.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisNPC_talks_PR.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisBhaalLTs.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisDreamLTs.D~
+
+ACTION_IF GAME_IS ~tutu~ BEGIN  // Tutu without TotSC
+  COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
+END ELSE BEGIN   // Tutu+TotSC, BGT, or BGEE
+  COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisAddLTs_PR.D~
+END
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/baf/X#AJDOUG.BAF~
+
+EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/romances/AJROM/baf/X#AJROM.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%AJANTIS_DREAM%.BCS~ ~bg1npc/romances/AJROM/baf/X#AJROD.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/romances/AJROM/baf/X#AjantisRomNPC.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/romances/AJROM/baf/X#AjantisIniFlirts.baf~
+  EVALUATE_BUFFER
+
+/* Add Portraits if NJNPC Portraits was chosen */
+ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
+  COPY_EXISTING ~x#ajdoug.cre~ ~override~
+    WRITE_ASCII 0x34 ~x#ajdous~ #8 // small portrait
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+/* BGT, BGEE compatability macro */
+ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
+  COPY_EXISTING ~x#ajdoug.cre~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+        /* LAUNCH_PATCH_MACRO ~tutu_items_to_bgt~ */
+    LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
+      END
+END

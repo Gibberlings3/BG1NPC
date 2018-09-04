@@ -1,0 +1,447 @@
+/* FEMALE CHARACTER ROMANCE CHALLENGES */
+
+COPY ~bg1npc/romances/CHALLENGE/bam~ ~override~
+
+/* Areas for the Challenges */
+/* fireworks area (FW6001) */
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+  COPY ~bg1npc/romances/CHALLENGE/itm/x#ajr1.are~ ~override/x#ajr1.are~
+END ELSE BEGIN
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+    COPY ~bg1npc/romances/CHALLENGE/bgee/x#ajr1_bgee.are~ ~override/x#ajr1.are~
+      WRITE_ASCIIE 0x08 ~%Encounter_Forest1%~ #8
+      WRITE_ASCIIE 0x18 ~%NBaldursGate_RinniesHouse_L2%~ #8
+      WRITE_ASCIIE 0x24 ~%NBaldursGate_RinniesHouse_L2%~ #8
+      WRITE_ASCIIE 0x30 ~%NBaldursGate_RinniesHouse_L2%~ #8
+      WRITE_ASCIIE 0x3c ~%NBaldursGate_RinniesHouse_L2%~ #8
+    END ELSE BEGIN
+    COPY ~bg1npc/romances/CHALLENGE/itm/x#ajr1_bgt.are~ ~override/x#ajr1.are~
+  END
+END
+
+/* Fighting Area */
+COPY_EXISTING ~x#ajr1.are~ ~override/x#ch11.are~
+    WRITE_ASCII 0x94 ~X#AR6001~ #8
+
+/* Dragon Area 1 */
+/* BGEE does not have BG2's AR1402 area resources available */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12.MOS~ ~override~
+//	COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12.TIS~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12.WED~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12AM.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12an.wav~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12ht.bmp~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12lm.bmp~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12sr.bmp~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH12_bgee.are~ ~override/x#ch12.are~
+  WRITE_ASCII 0x94 ~X#ARCH12~
+END ELSE BEGIN
+/* For Tutu, BGT, EET */
+  COPY ~bg1npc/romances/CHALLENGE/itm/X#CH12.are~ ~override~
+    WRITE_ASCII 0x94 ~X#ARCH12~
+END
+
+/* Dragon Area 2 */
+COPY_EXISTING ~X#CH12.are~ ~override/X#CH14.are~
+  WRITE_ASCII 0x94 ~X#CH14~ #8
+
+/* Suldanessellar Area */
+/* BGEE does not have BG2's AR2805 area resources available */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13.MOS~ ~override~
+//	COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13.TIS~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13.WED~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13AM.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13c1.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13c2.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13c3.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13c4.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13c5.WAV~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13ab.wav~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13ht.bmp~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13lm.bmp~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13sr.bmp~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13a.bam~ ~override~
+COPY ~bg1npc/romances/CHALLENGE/bgee/X#CH13_bgee.are~ ~override/x#ch13.are~
+    WRITE_ASCII 0x94 ~X#CH13~ #8
+END ELSE BEGIN
+/* For Tutu, BGT, EET */
+  COPY ~bg1npc/romances/CHALLENGE/itm/X#CH13.are~ ~override~
+    WRITE_ASCII 0x94 ~X#CH13~ #8
+END
+
+/* Unpack tilesets X#CH12 and X#CH13 for BGEE */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+LAF HANDLE_TILESETS
+    STR_VAR
+    tiz_path = ~bg1npc/romances/challenge/tiz~
+    tizunpack_path = ~bg1npc/romances/challenge/tiz~
+END
+END
+
+/* items */
+COPY ~bg1npc/romances/CHALLENGE/itm/X#MIRC.itm~ ~override~
+  SAY NAME1 @489
+  SAY NAME2 @489
+  SAY UNIDENTIFIED_DESC @490
+  SAY DESC @490
+
+/* 2DA patching */
+APPEND ~ITEMDIAL.2da~ ~X#MIRC 5689 X#MIRC~
+
+COPY_EXISTING ~itemdial.2da~ ~override~
+  PRETTY_PRINT_2DA
+
+/* creatures */
+COPY ~bg1npc/romances/CHALLENGE/cre/x#maste.cre~ ~override/x#maste.cre~
+  SAY NAME1 @491
+  SAY NAME2 @492
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @493
+  SAY UNHAPPY_BREAKING @494
+  SAY BATTLE_CRY1 @495
+  SAY DAMAGE @496
+  SAY DYING @497
+  SAY SELECT_COMMON1 @498
+  SAY SELECT_COMMON2 @493
+  SAY SELECT_COMMON3 @499
+  SAY SELECT_COMMON4 @500
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    REPLACE_CRE_ITEM ~DAGG04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+/* Coran and Ajantis creatures for Fighting */
+COPY ~bg1npc/romances/CHALLENGE/cre/x#xvart.cre~ ~override/x#xvart1.cre~
+     ~bg1npc/romances/CHALLENGE/cre/x#xvart.cre~ ~override/x#xvart2.cre~
+  SAY NAME1 @501
+  SAY NAME2 @501
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY BATTLE_CRY1 @502
+  SAY BATTLE_CRY2 @502
+  SAY BATTLE_CRY3 @502
+  SAY BATTLE_CRY4 @502
+  SAY BATTLE_CRY5 @502
+  SAY ATTACK1 @503
+  SAY ATTACK2 @504
+  SAY DAMAGE @505
+  SAY DYING @506
+  SAY SELECT_COMMON1 @507
+  SAY SELECT_COMMON2 @508
+  WRITE_ASCIIE 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32//  death variable
+  WRITE_EVALUATED_ASCII 0x258 ~%tutu_var%xvart~ #8 // Race script
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#corafi.cre~ ~override~
+  SAY NAME1 @509
+  SAY NAME2 @509
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @510
+  SAY MORALE @511
+  SAY UNHAPPY_BREAKING @511
+  SAY BATTLE_CRY1 @510
+  SAY BATTLE_CRY2 @512
+  SAY BATTLE_CRY3 @512
+  SAY BATTLE_CRY4 @512
+  SAY BATTLE_CRY5 @512
+  SAY ATTACK1 @510
+  SAY ATTACK2 @512
+  SAY DAMAGE @513
+  SAY DYING @514
+  SAY HURT @515
+  SAY SELECT_COMMON1 @516
+  SAY SELECT_COMMON2 @517
+  SAY SELECT_COMMON3 @518
+  SAY SELECT_COMMON4 @516
+  SAY SELECT_COMMON5 @516
+  SAY SELECT_ACTION1 @510
+  SAY SELECT_ACTION2 @510
+  SAY SELECT_ACTION3 @510
+  SAY SELECT_ACTION4 @510
+  SAY SELECT_ACTION5 @510
+  SAY SELECT_ACTION6 @510
+  SAY SELECT_ACTION7 @510
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    REPLACE_CRE_ITEM ~BOW08~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    REPLACE_CRE_ITEM ~QUIVER01~ #0 #0 #0 ~unstealable&undroppable~ ~QUIVER1~ EQUIP
+  END
+  WRITE_LONG BIO (BNOT 0x0)
+  WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+  WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+  WRITE_ASCIIE 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
+PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    WRITE_ASCIIE 0x34 ~CORAN%port_s%~ #8    // small portrait
+      WRITE_ASCIIE 0x3C ~CORAN%port_l%~ #8    // large portrait
+  END
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#ajanfi.cre~ ~override/x#ajanfi.cre~
+  SAY NAME1 @519
+  SAY NAME2 @519
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY MORALE @520
+  SAY BATTLE_CRY1 @521
+  SAY BATTLE_CRY2 @522
+  SAY BATTLE_CRY3 @522
+  SAY BATTLE_CRY4 @522
+  SAY BATTLE_CRY5 @522
+  SAY ATTACK1 @523
+  SAY ATTACK2 @523
+  SAY DAMAGE @525
+  SAY DYING @526
+  SAY HURT @527
+  SAY SELECT_COMMON1 @528
+  SAY SELECT_COMMON2 @529
+  SAY SELECT_COMMON3 @530
+  SAY SELECT_COMMON4 @531
+  SAY SELECT_COMMON5 @523
+  SAY SELECT_COMMON6 @523
+  SAY SELECT_ACTION1 @528
+  SAY SELECT_ACTION2 @532
+  WRITE_LONG BIO (BNOT 0x0)
+  WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+  WRITE_ASCII 0x2CC ~~ #8 //  dialog
+  WRITE_EVALUATED_ASCII 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
+  WRITE_EVALUATED_ASCII 0x268 ~%tutu_var%DPLAYER~ #8
+PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+  WRITE_ASCIIE 0x34 ~AJANTIS%port_s%~ #8  // small portrait
+  WRITE_ASCIIE 0x3C ~AJANTIS%port_l%~ #8  // large portrait
+END
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#elhan.cre~ ~override/x#elhan.cre~
+  SAY NAME1 @533
+  SAY NAME2 @533
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* ELHAN soundset not in BGEE.  Use ELFFF soundset */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
+    SAY DAMAGE #12586			// [ELF 5]
+    SAY DYING #12587			// [ELF 6]
+    SAY SELECT_COMMON1 #4941	// [ELF 1]
+    SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
+    SAY SELECT_COMMON3 #4943	// [ELF 3] Soon we shall all be together upon Evermeet.
+    REPLACE_CRE_ITEM ~CHAN12~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+    REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    REPLACE_CRE_ITEM ~SW1H22~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
+END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY BATTLE_CRY1 @534
+    SAY BATTLE_CRY2 @535
+    SAY DAMAGE @536
+    SAY DYING @537
+    SAY SELECT_COMMON1 @538
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#elles.cre~ ~override/x#elles.cre~
+  SAY NAME1 @539
+  SAY NAME2 @539
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* ELLESI soundset not in BGEE.  Use FELFF soundset */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Good day and hello to you.
+    SAY DAMAGE #11075 // [ELF FEMALE 5]
+    SAY DYING #11076 // [ELF FEMALE 6]
+    SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Good day and hello to you.
+END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY BATTLE_CRY1 @540
+    SAY BATTLE_CRY2 @541
+    SAY DAMAGE @542
+    SAY DYING @543
+    SAY SELECT_COMMON1 @544
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+
+/* Various Dragons */
+COPY ~bg1npc/romances/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
+  SAY NAME1 @545
+  SAY NAME2 @545
+PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
+  WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+    REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+END
+PATCH_IF ((GAME_IS ~bgee~) && (GAME_INCLUDES ~sod~)) BEGIN
+  WRITE_LONG 0x28 4353 // Use DRAGON_WHITE animation for BGEE with SoD
+    REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+END
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY BATTLE_CRY1 @753 // [WYVER03]
+SAY BATTLE_CRY2 @754 // [WYVER04]
+SAY ATTACK1 @755 // [WYVER05]
+SAY ATTACK2 @756 // [WYVER06]
+SAY ATTACK3 @757 // [WYVER07]
+  SAY DAMAGE @758 // [WYVER08]
+  SAY DYING @759 // [WYVER09]
+  SAY SELECT_COMMON1 @751 // [WYVER01]
+  SAY SELECT_COMMON2 @752 // [WYVER02]
+  SAY PICKED_POCKET @760 // [WYVER10]
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#ajdrre.cre~ ~override/x#ajdrre.cre~
+  SAY NAME1 @546
+  SAY NAME2 @546
+PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
+  WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+    REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+END
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY BATTLE_CRY1 @753 // [WYVER03]
+SAY BATTLE_CRY2 @754 // [WYVER04]
+SAY ATTACK1 @755 // [WYVER05]
+SAY ATTACK2 @756 // [WYVER06]
+SAY ATTACK3 @757 // [WYVER07]
+  SAY DAMAGE @758 // [WYVER08]
+  SAY DYING @759 // [WYVER09]
+  SAY SELECT_COMMON1 @751 // [WYVER01]
+  SAY SELECT_COMMON2 @752 // [WYVER02]
+  SAY PICKED_POCKET @760 // [WYVER10]
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#dragon.cre~ ~override/x#cautz.cre~
+  SAY NAME1 @547
+  SAY NAME2 @547
+PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
+  WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+END
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY BATTLE_CRY1 @753 // [WYVER03]
+  SAY BATTLE_CRY2 @754 // [WYVER04]
+  SAY ATTACK1 @755 // [WYVER05]
+  SAY ATTACK2 @756 // [WYVER06]
+  SAY ATTACK3 @757 // [WYVER07]
+    SAY DAMAGE @758 // [WYVER08]
+    SAY DYING @759 // [WYVER09]
+    SAY SELECT_COMMON1 @751 // [WYVER01]
+    SAY SELECT_COMMON2 @752 // [WYVER02]
+    SAY PICKED_POCKET @760 // [WYVER10]
+    REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~
+    REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~
+  END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY BATTLE_CRY1 @548
+    SAY BATTLE_CRY2 @549
+    SAY DAMAGE @549
+    SAY DYING @551
+    SAY SELECT_COMMON1 @552
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+
+COPY ~bg1npc/romances/CHALLENGE/cre/x#dragon.cre~ ~override/x#drag2.cre~
+  SAY NAME1 @553
+  SAY NAME2 @553
+PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
+  WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
+END
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* FIRKAAG soundset not in BGEE.  Use WYVERN soundset */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY BATTLE_CRY1 @753 // [WYVER03]
+  SAY BATTLE_CRY2 @754 // [WYVER04]
+  SAY ATTACK1 @755 // [WYVER05]
+  SAY ATTACK2 @756 // [WYVER06]
+  SAY ATTACK3 @757 // [WYVER07]
+    SAY DAMAGE @758 // [WYVER08]
+    SAY DYING @759 // [WYVER09]
+    SAY SELECT_COMMON1 @751 // [WYVER01]
+    SAY SELECT_COMMON2 @752 // [WYVER02]
+    SAY PICKED_POCKET @760 // [WYVER10]
+    REPLACE_CRE_ITEM ~x#drgrd1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+    REPLACE_CRE_ITEM ~x#drgrng~ #0 #0 #0 ~unstealable&undroppable~ ~rring~
+    REPLACE_CRE_ITEM ~misc50~ #0 #0 #0 ~identified~ ~INV3~
+  END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY BATTLE_CRY1 @548
+    SAY BATTLE_CRY2 @549
+    SAY DAMAGE @549
+    SAY DYING @551
+    SAY SELECT_COMMON1 @552
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+/* Replace Dragon Items missing from BGEE */
+ACTION_IF GAME_IS ~bgee~ BEGIN
+/* Dragon Claws */
+COPY ~bg1npc/romances/CHALLENGE/bgee/x#drgrd1.itm~ ~override~
+     ~bg1npc/romances/CHALLENGE/bgee/x#drgsl1.itm~ ~override~
+    WRITE_LONG NAME1 (BNOT 0x0)
+    WRITE_LONG NAME2 (BNOT 0x0)
+    WRITE_LONG UNIDENTIFIED_DESC (BNOT 0x0)
+    WRITE_LONG DESC (BNOT 0x0)
+/* Dragon Ring - for various immunities */
+COPY ~bg1npc/romances/CHALLENGE/bgee/x#drgrng.itm~ ~override~
+    WRITE_LONG NAME1 6348
+    WRITE_LONG NAME2 6348
+    WRITE_LONG UNIDENTIFIED_DESC 17054
+    WRITE_LONG DESC (BNOT 0x0)
+END
+
+/* NPC scripts */
+EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/romances/CHALLENGE/baf/X#CHALL0.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%AJANTIS_DREAM%.BCS~ ~bg1npc/romances/CHALLENGE/baf/X#CHALL1.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%CORAN_BCS%.BCS~ ~bg1npc/romances/CHALLENGE/baf/X#CHALL8.BAF~
+  EVALUATE_BUFFER
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/dlg/X#CHALLENGE.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/dlg/X#MIRC.D~
+
+/* additional character scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#MASTE.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AR6001.BAF~
+    USING ~bg1npc/TRA/%LANGUAGE%/X#AR6001.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#ELHAN.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#ELLES.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CH13.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL2.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL3.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL4.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL5.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL6.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL7.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL8.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHALL9.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHAL10.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHAL11.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHAL12.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#CHAL13.BAF~
+
+/* cutscene scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCUT.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU2.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU3.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU4.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU5.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU6.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU7.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU8.BAF~
+
+/* Add Portraits if NJNPC Portraits was chosen */
+ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
+  COPY_EXISTING ~x#maste.cre~ ~override/x#maste.cre~
+    WRITE_ASCII 0x34 ~x#mastes~ #8 // small portrait
+  COPY_EXISTING ~x#elles.cre~ ~override/x#elles.cre~
+    WRITE_ASCII 0x34 ~x#elless~ #8 // small portrait
+  COPY_EXISTING ~x#elhan.cre~ ~override/x#elhan.cre~
+    WRITE_ASCII 0x34 ~x#elhans~ #8 // small portrait
+  COPY_EXISTING ~x#drag2.cre~ ~override/x#ajdrsi.cre~
+    WRITE_ASCII 0x34 ~x#ajdrss~ #8 // small portrait
+  COPY_EXISTING ~x#cautz.cre~ ~override/x#cautz.cre~
+    WRITE_ASCII 0x34 ~x#cautzs~ #8 // small portrait
+  COPY_EXISTING ~x#drag2.cre~ ~override/x#drag2.cre~
+    WRITE_ASCII 0x34 ~x#drag2s~ #8 // small portrait
+END
+
+/* Patching all creatures in component for Tutu > BGT items */
+ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
+  COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+     LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
+    END
+  BUT_ONLY_IF_IT_CHANGES
+END

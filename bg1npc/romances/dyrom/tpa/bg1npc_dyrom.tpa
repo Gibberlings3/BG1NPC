@@ -1,0 +1,443 @@
+/* DYNAHEIR ROMANCE */
+
+/* creatures */
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~x#winski.cre~ THEN BEGIN
+  COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
+    WRITE_EVALUATED_ASCII 0x2cc ~%tutu_var%WINSKI~ #8
+    WRITE_ASCII 0x280 ~winski2~ #32
+  COPY_EXISTING ~%tutu_var%winski.cre~ ~override/x#winski.cre~
+END
+
+COPY ~bg1npc/romances/DYROM/cre/x#joni.cre~ ~override~
+SAY NAME1 @400
+SAY NAME2 @400
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY BATTLE_CRY1 @401
+SAY BATTLE_CRY2 @402
+SAY DAMAGE @403
+SAY DYING @404
+SAY SELECT_COMMON1 @405
+SAY SELECT_ACTION4 @406
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#bodhi.cre~ ~override~
+SAY NAME1 @407
+SAY NAME2 @407
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+/* Use VAMPF soundset for BGEE */
+PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY BATTLE_CRY1 @738 // [VAMPF02]
+  SAY ATTACK1 @739 // [VAMPF03]
+  SAY ATTACK2 @740 // [VAMPF04]
+  SAY DAMAGE @742 // [VAMPF06]
+  SAY DYING @743 // [VAMPF07]
+  SAY SELECT_COMMON1 @737 // [VAMPF01]
+  SAY SELECT_COMMON2 @741 // [VAMPF05]
+END ELSE BEGIN /* For Tutu, BGT, EET */
+  SAY BATTLE_CRY1 @408
+  SAY BATTLE_CRY2 @409
+  SAY DAMAGE @410
+  SAY DYING @411
+  SAY SELECT_COMMON1 @412
+END
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#lassa.cre~ ~override~
+SAY NAME1 @413
+SAY NAME2 @413
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+/* Use VAMPP soundset for BGEE */
+PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY BATTLE_CRY1 @745 // [VAMPP02]
+  SAY ATTACK1 @746 // [VAMPP03]
+  SAY ATTACK2 @747 // [VAMPP04]
+  SAY DAMAGE @749 // [VAMPP06]
+  SAY DYING @750 // [VAMPP07]
+  SAY SELECT_COMMON1 @744 // [VAMPP01]
+  SAY SELECT_COMMON2 @748 // [VAMPP05]
+END ELSE BEGIN /* For Tutu, BGT, EET */
+  SAY INITIAL_MEETING @414
+  SAY UNHAPPY_BREAKING @415
+  SAY BATTLE_CRY1 @416
+  SAY BATTLE_CRY2 @417
+  SAY DAMAGE @418
+  SAY DYING @419
+  SAY SELECT_COMMON1 @414
+  SAY SELECT_COMMON2 @420
+  SAY SELECT_COMMON3 @421
+  SAY SELECT_COMMON4 @422
+END
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#tanov.cre~ ~override~
+SAY NAME1 @423
+SAY NAME2 @423
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+/* Use VAMPF soundset for BGEE */
+PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY BATTLE_CRY1 @738 // [VAMPF02]
+  SAY ATTACK1 @739 // [VAMPF03]
+  SAY ATTACK2 @740 // [VAMPF04]
+  SAY DAMAGE @742 // [VAMPF06]
+  SAY DYING @743 // [VAMPF07]
+  SAY SELECT_COMMON1 @737 // [VAMPF01]
+  SAY SELECT_COMMON2 @741 // [VAMPF05]
+END ELSE BEGIN /* For Tutu, BGT, EET */
+  SAY INITIAL_MEETING @424
+  SAY UNHAPPY_BREAKING @425
+  SAY BATTLE_CRY1 @426
+  SAY BATTLE_CRY2 @427
+  SAY DAMAGE @428
+  SAY DYING @419
+  SAY SELECT_COMMON1 @424
+  SAY SELECT_COMMON2 @429
+  SAY SELECT_COMMON3 @430
+  SAY SELECT_COMMON4 @422
+END
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#valen.cre~ ~override~
+SAY NAME1 @432
+SAY NAME2 @432
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+/* Use VAMPF soundset for BGEE */
+PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY BATTLE_CRY1 @738 // [VAMPF02]
+  SAY ATTACK1 @739 // [VAMPF03]
+  SAY ATTACK2 @740 // [VAMPF04]
+  SAY DAMAGE @742 // [VAMPF06]
+  SAY DYING @743 // [VAMPF07]
+  SAY SELECT_COMMON1 @737 // [VAMPF01]
+  SAY SELECT_COMMON2 @741 // [VAMPF05]
+END ELSE BEGIN /* For Tutu, BGT, EET */
+  SAY BATTLE_CRY1 @433
+  SAY DAMAGE @434
+  SAY DYING @435
+  SAY SELECT_COMMON1 @436
+END
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#ulvar.cre~ ~override~
+SAY NAME1 @437
+SAY NAME2 @437
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+
+COPY_EXISTING ~x#ulvar.cre~ ~override/x#cutva1.cre~
+            ~x#ulvar.cre~ ~override/x#cutva2.cre~
+            ~x#ulvar.cre~ ~override/x#cutva3.cre~
+            ~x#ulvar.cre~ ~override/x#cutva4.cre~
+SAY NAME1 @438
+SAY NAME2 @438
+WRITE_ASCII 0x248 ~X#CUTVAM~ #8 //  override script
+WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+
+COPY ~bg1npc/romances/DYROM/ITM/X#DYMEN.SPL~ ~override~
+
+COPY ~bg1npc/romances/DYROM/cre/x#nell.cre~ ~override~
+SAY NAME1 @439
+SAY NAME2 @439
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY INITIAL_MEETING @440
+SAY BATTLE_CRY1 @441
+SAY BATTLE_CRY2 @441
+SAY BATTLE_CRY3 @441
+SAY BATTLE_CRY4 @441
+SAY BATTLE_CRY5 @441
+SAY ATTACK1 @441
+SAY ATTACK2 @441
+SAY DAMAGE @37
+SAY DYING @38
+SAY SELECT_COMMON1 @442
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#madr.cre~ ~override~
+SAY NAME1 @443
+SAY NAME2 @443
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY BATTLE_CRY1 @444
+SAY BATTLE_CRY2 @444
+SAY BATTLE_CRY3 @444
+SAY BATTLE_CRY4 @444
+SAY BATTLE_CRY5 @441
+SAY ATTACK1 @444
+SAY ATTACK2 @444
+SAY DAMAGE @445
+SAY DYING @446
+SAY SELECT_COMMON1 @447
+SAY SELECT_COMMON2 @447
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#bhet.cre~ ~override~
+SAY NAME1 @448
+SAY NAME2 @448
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY BATTLE_CRY1 @449
+SAY BATTLE_CRY2 @449
+SAY BATTLE_CRY3 @449
+SAY BATTLE_CRY4 @449
+SAY BATTLE_CRY5 @449
+SAY ATTACK1 @449
+SAY ATTACK2 @449
+SAY DAMAGE @450
+SAY DYING @451
+SAY SELECT_COMMON1 @452
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#sveet.cre~ ~override~
+SAY NAME1 @453
+SAY NAME2 @453
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY INITIAL_MEETING @454
+SAY BATTLE_CRY1 @449
+SAY BATTLE_CRY2 @449
+SAY BATTLE_CRY3 @449
+SAY BATTLE_CRY4 @449
+SAY BATTLE_CRY5 @449
+SAY ATTACK1 @449
+SAY ATTACK2 @449
+SAY DAMAGE @450
+SAY DYING @451
+SAY SELECT_COMMON1 @452
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/romances/DYROM/cre/x#dfake1.cre~ ~override~
+SAY NAME1 @456
+SAY NAME2 @456
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY INITIAL_MEETING @457
+SAY BATTLE_CRY1 @458
+SAY BATTLE_CRY2 @458
+SAY BATTLE_CRY3 @458
+SAY BATTLE_CRY4 @458
+SAY BATTLE_CRY5 @458
+SAY ATTACK1 @458
+SAY ATTACK2 @458
+SAY DAMAGE @459
+SAY DYING @460
+SAY SELECT_COMMON1 @461
+SAY SELECT_COMMON2 @461
+SAY SELECT_COMMON3 @461
+SAY SELECT_COMMON4 @461
+SAY SELECT_COMMON5 @461
+SAY SELECT_COMMON6 @461
+SAY SELECT_ACTION1 @461
+SAY SELECT_ACTION2 @461
+SAY SELECT_ACTION3 @461
+SAY SELECT_ACTION4 @461
+SAY SELECT_ACTION5 @461
+SAY SELECT_ACTION6 @461
+SAY SELECT_ACTION7 @461
+WRITE_LONG BIO (BNOT 0x0)
+WRITE_ASCII 0x248 ~X#DYNA~ #8 //  override script
+WRITE_ASCII 0x280 ~dynacutscene~ #32 //  death variable
+WRITE_ASCII 0x2CC ~X#DYNA~ #8 //  dialog
+PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+WRITE_ASCIIE 0x34 ~DYNAHEI%port_s%~ #8  // small portrait
+WRITE_ASCIIE 0x3C ~DYNAHEI%port_l%~ #8  // large portrait
+    WRITE_ASCII 0x268 ~DPLAYER~ #8
+    WRITE_ASCII 0x260 ~WTRUNSGT~ #8
+END
+
+COPY ~bg1npc/romances/DYROM/cre/x#setta.cre~ ~override~
+SAY NAME1 @462
+SAY NAME2 @462
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+/* FEMER soundset not in BGEE.  Use other general female sounds */
+PATCH_IF GAME_IS ~bgee~ BEGIN
+  SAY INITIAL_MEETING @442
+  SAY DAMAGE @445
+  SAY DYING @446
+  SAY SELECT_COMMON1 @447
+  SAY SELECT_COMMON2 @442
+END ELSE BEGIN /* Tutu, BGT, EET */
+  SAY INITIAL_MEETING @463
+  SAY DAMAGE @464
+  SAY DYING @465
+  SAY SELECT_COMMON1 @466
+  SAY SELECT_COMMON2 @467
+END
+WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+  PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    WRITE_ASCII 0x268 ~WTRUNSGT~ #8
+    WRITE_ASCII 0x258 ~RUNENEMY~ #8
+    WRITE_ASCII 0x250 ~MERCH2~ #8
+    WRITE_ASCII 0x248 ~SHOUT~ #8
+  END
+
+/* items */
+COPY_EXISTING ~%tutu_var%ghoult.itm~ ~override~ // Fix droppable Ghoul Touch
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+  READ_BYTE 0x18 fl // Flags
+  PATCH_IF ((fl BAND 0b00000100) = 0b00000100) BEGIN // If movable
+    WRITE_BYTE 0x18 (fl BAND 0b11110011) // Make unmovable
+  END
+END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_scriptbg%SCRL3I.itm~ ~override/X#DYOATH.itm~
+SAY NAME1 @468
+SAY NAME2 @468
+SAY UNIDENTIFIED_DESC @469
+SAY DESC @469
+
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORE.BAM~ ~override~
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORE.itm~ ~override~
+SAY NAME1 @470
+SAY NAME2 @470
+SAY UNIDENTIFIED_DESC @471
+SAY DESC @471
+
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORF.BAM~ ~override~
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORF.itm~ ~override~
+SAY NAME1 @470
+SAY NAME2 @470
+SAY UNIDENTIFIED_DESC @471
+SAY DESC @471
+
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORO.BAM~ ~override~
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORO.itm~ ~override~
+SAY NAME1 @470
+SAY NAME2 @470
+SAY UNIDENTIFIED_DESC @471
+SAY DESC @471
+
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORR.BAM~ ~override~
+COPY ~bg1npc/romances/DYROM/ITM/X#DYPORR.itm~ ~override~
+SAY NAME1 @470
+SAY NAME2 @470
+SAY UNIDENTIFIED_DESC @471
+SAY DESC @471
+
+/* Add BG2 items missing from BGEE */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~brac25~) THEN BEGIN
+/* Wondrous Gauntlets */
+COPY ~bg1npc/romances/dyrom/itm/brac25.itm~ ~override~
+  SAY NAME2 @761
+  SAY DESC @762
+END
+
+/* End Game Cutscene (Tutu, BGEE without SoD only) */
+ACTION_IF ((GAME_IS ~tutu tutu_totsc bgee~) AND (NOT GAME_INCLUDES ~sod~)) THEN BEGIN
+COPY_EXISTING ~%Undercity_TempleofBhaal_BCS%.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY CASE_INSENSITIVE
+        ~Global("DeathOfSarevok","GLOBAL",0)~
+        ~Global("DeathOfSarevok","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("DYNAHEIR") !InParty("DYNAHEIR")~
+      REPLACE_TEXTUALLY CASE_INSENSITIVE
+        ~GlobalTimerExpired("DeathOfSarevok","GLOBAL")~
+        ~GlobalTimerExpired("DeathOfSarevok","GLOBAL") OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("DYNAHEIR") !InParty("DYNAHEIR")~
+      REPLACE_TEXTUALLY CASE_INSENSITIVE
+        ~Global("D0FinalSave","GLOBAL",0)~
+        ~Global("D0FinalSave","GLOBAL",0) OR(4) Global("X#DynaheirRomanceInactive","GLOBAL",1) Global("X#DynaheirRomanceActive","GLOBAL",0) Dead("DYNAHEIR") !InParty("DYNAHEIR")~
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYDEAD.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYLSTA.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#DYLAST.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYLSTB.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#DYLAST.TRA~
+
+/* Area Script Extensions */
+EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/P#RO0112.baf~
+EVALUATE_BUFFER
+EXTEND_BOTTOM ~%LionsWay_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DA2700.baf~
+EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Undercity_TempleofBhaal_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DA0125.baf~
+EVALUATE_BUFFER
+  USING ~bg1npc/TRA/%LANGUAGE%/X#DA0125.TRA~
+
+/* Add BG2 files missing from BGEE */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  /* Items for Dynaheir romance endgame cutscene */
+  COPY ~bg1npc/romances/dyrom/itm/minhp20.itm~ ~override~   /* For x#bodhi */
+COPY ~bg1npc/romances/dyrom/itm/vamp.itm~ ~override~      /* For x#cutva[1-4], x#lassa, x#ulvar */
+COPY ~bg1npc/romances/dyrom/itm/vamp1.itm~ ~override~     /* For x#valen */
+COPY ~bg1npc/romances/dyrom/itm/vamp2.itm~ ~override~     /* For x#tanov */
+COPY ~bg1npc/romances/dyrom/itm/vamp3.itm~ ~override~     /* For x#bodhi */
+COPY ~bg1npc/romances/dyrom/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
+
+/* Soundset for x#joni */
+COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
+COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
+COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
+COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
+COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
+END
+
+END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN /* BGT Versions */
+//   COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYDEAD.BAF~// Dynaheir's End Cutscene disabled, no BGT file
+//   COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYLSTA.BAF~// Dynaheir's End Cutscene disabled, no BGT file
+//     USING ~bg1npc/TRA/%LANGUAGE%/X#DYLAST.TRA~// Dynaheir's End Cutscene disabled, no BGT file
+//   COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYLSTB.BAF~// Dynaheir's End Cutscene disabled, no BGT file
+//     USING ~bg1npc/TRA/%LANGUAGE%/X#DYLAST.TRA~// Dynaheir's End Cutscene disabled, no BGT file
+/* Area Script Extensions */
+EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/P#RO0112.baf~
+  EVALUATE_BUFFER
+// NOT FOR BGT EXTEND_BOTTOM ~AR6600.BCS~ ~bg1npc/BGT/baf/X#DA2700.baf~ // Dynaheir's End Cutscene disabled, no BGT file
+// NOT FOR BGT EXTEND_BOTTOM ~AR7225.BCS~ ~bg1npc/BGT/baf/X#DA0125.baf~ // Dynaheir's End Cutscene disabled, no BGT file
+// NOT FOR BGT   USING ~bg1npc/TRA/%LANGUAGE%/X#DA0125.TRA~ // Dynaheir's End Cutscene disabled, no BGT file
+END
+
+/* dialogues */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/dlg/X#DYRO.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/dlg/X#DYBHA.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/dlg/X#DYRONPC.D~
+
+/* scripts */
+EXTEND_TOP  ~%DYNAHEIR_DREAM%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYNAHD.baf~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%DYNAHEIR_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/P#DYROM.baf~
+EVALUATE_BUFFER
+
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#EDCUT1.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#EDCUT2.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#EDCUT3.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#EDCUT4.BAF~
+
+/* NPC Reactions Scripts */
+EXTEND_TOP  ~%CORAN_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYCORE.baf~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%EDWIN_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYEDRE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%GARRICK_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYGARE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%IMOEN_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYIMRE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%KHALID_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYKHRE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%MINSC_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYMIRE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%TIAX_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYTIRE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%YESLICK_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYERE.BAF~
+EVALUATE_BUFFER
+EXTEND_TOP  ~%YESLICK_DREAM%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYERED.BAF~
+EVALUATE_BUFFER
+
+/* Add Portraits if NJNPC Portraits was chosen */
+ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
+COPY_EXISTING ~x#nell.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#nells~ #8 // small portrait
+COPY_EXISTING ~x#madr.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#madrs~ #8 // small portrait
+COPY_EXISTING ~x#bhet.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#bhets~ #8 // small portrait
+COPY_EXISTING ~x#sveet.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#sveets~ #8 // small portrait
+COPY_EXISTING ~x#winski.cre~ ~override~
+  WRITE_ASCII 0x34 ~winskis~ #8 // small portrait
+COPY_EXISTING ~x#setta.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#settas~ #8 // small portrait
+END
+
+/* Patching all creatures in component for leftover/missed Tutu > BGT items */
+ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
+COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+   LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
+  END
+BUT_ONLY_IF_IT_CHANGES
+END
