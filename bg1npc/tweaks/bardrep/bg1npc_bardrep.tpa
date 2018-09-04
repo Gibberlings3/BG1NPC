@@ -1,0 +1,75 @@
+COPY_EXISTING ~%tutu_var%volo.cre~ ~override/x#lp1rep.cre~
+              ~%tutu_var%volo.cre~ ~override/x#lp2rep.cre~
+              ~%tutu_var%volo.cre~ ~override/x#lp3rep.cre~
+  LPM source_cre_sound_cleanup
+  LPM source_cre_script_cleanup
+  SAY INITIAL_MEETING @294
+  SAY UNHAPPY_BREAKING @295
+  SAY BATTLE_CRY1 @296
+  SAY BATTLE_CRY2 @296
+  SAY BATTLE_CRY3 @296
+  SAY BATTLE_CRY4 @296
+  SAY BATTLE_CRY5 @296
+  SAY DAMAGE @297
+  SAY DYING @298
+  SAY SELECT_COMMON1 @299
+  SAY SELECT_COMMON2 @300
+  SAY SELECT_COMMON3 @301
+  SAY SELECT_COMMON4 @302
+  SAY DIALOGUE_DEFAULT @299
+  WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+WRITE_EVALUATED_ASCII SCRIPT_GENERAL ~%tutu_scriptr%unenemy~
+WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_scriptw%trunsgt~
+  PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lp1rep~) BEGIN
+    SAY NAME1 @292
+    SAY NAME2 @293
+    WRITE_ASCII 0x248 ~X#LP1R~ #8 //  override script
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lp2rep~) BEGIN
+    SAY NAME1 @303
+    SAY NAME2 @304
+    WRITE_ASCII 0x248 ~X#LP2R~ #8 //  override script
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#lp3rep~) BEGIN
+    SAY NAME1 @305
+    SAY NAME2 @306
+    WRITE_ASCII 0x248 ~X#LP3R~ #8 //  override script
+  END
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#LP1R.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#LP1R.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#LP2R.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#LP2R.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#LP3R.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#LP3R.TRA~
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#LP1REP.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#LP2REP.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#LP3REP.D~
+
+/* Area Scripts for spawning */
+EXTEND_BOTTOM ~%FriendlyArmInn_L1_BCS%.bcs~ ~bg1npc/Phase2/baf/X#LP1REPAS.BAF~ // The Friendly Arm Inn
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Nashkel_BelchingDragonTavern_BCS%.bcs~ ~bg1npc/Phase2/baf/X#LP2REPAS.BAF~ // The Belching Dragon
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~%EBaldursGate_ElfsongTavern_L1_BCS%.bcs~ ~bg1npc/Phase2/baf/X#LP3REPAS.BAF~ // The Elfsong
+  EVALUATE_BUFFER
+
+/* Ajantis Reputation Seller Reactions */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#LPRCAD.D~
+EXTEND_BOTTOM ~%AJANTIS_BCS%.bcs~ ~bg1npc/Phase2/baf/X#LPRCAJR.BAF~
+    EVALUATE_BUFFER
+
+/* Tutu/BGT Portrait Assignment */
+/* Add Portraits if NJNPC Portraits was chosen */
+ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
+COPY_EXISTING ~x#lp1rep.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#lake1s~ #8 // small portrait
+
+COPY_EXISTING ~x#lp2rep.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#lake2s~ #8 // small portrait
+
+COPY_EXISTING ~x#lp3rep.cre~ ~override~
+  WRITE_ASCII 0x34 ~x#lake3s~ #8 // small portrait
+END
