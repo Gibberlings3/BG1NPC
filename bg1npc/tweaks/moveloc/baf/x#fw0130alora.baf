@@ -1,0 +1,11 @@
+IF
+/* OnCreation() */
+Global("X#AloraMoved","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("X#AloraMoved","GLOBAL",5)
+CreateCreature("X#FLAL",[770.780],12)
+ActionOverride("X#FLAMAL",JumpToPoint([782.829]))
+END
+
+

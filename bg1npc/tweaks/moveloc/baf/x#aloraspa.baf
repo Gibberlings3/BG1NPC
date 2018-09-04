@@ -1,0 +1,17 @@
+IF %BGT_VAR%
+  Global("BGTNPC7230","GLOBAL",0)
+  LevelLT(Player1,6)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7230","GLOBAL",1)
+    CreateCreature("ALORA",[553.506],5)
+END
+
+IF %BGT_VAR%
+  Global("BGTNPC7230","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7230","GLOBAL",1)
+    CreateCreature("ALORA6",[553.506],5)
+END
