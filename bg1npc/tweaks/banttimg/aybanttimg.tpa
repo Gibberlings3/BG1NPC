@@ -1,0 +1,40 @@
+ACTION_IF (~%bantertimer%~ = 1) THEN BEGIN
+  COPY_EXISTING ~banttimg.2da~ ~override~
+    SET_2DA_ENTRY 3 1 1 ~600~
+    SET_2DA_ENTRY 4 1 1 ~10~
+    SET_2DA_ENTRY 6 1 1 ~25~
+  BUT_ONLY_IF_IT_CHANGES
+  PRINT @1126
+END
+ACTION_IF (~%bantertimer%~ = 2) THEN BEGIN
+  COPY_EXISTING ~banttimg.2da~ ~override~
+    SET_2DA_ENTRY 3 1 1 ~550~
+    SET_2DA_ENTRY 4 1 1 ~10~
+    SET_2DA_ENTRY 6 1 1 ~30~
+  BUT_ONLY_IF_IT_CHANGES
+  PRINT @1127
+END
+ACTION_IF (~%bantertimer%~ = 3) THEN BEGIN
+  COPY_EXISTING ~banttimg.2da~ ~override~
+    SET_2DA_ENTRY 3 1 1 ~480~
+    SET_2DA_ENTRY 4 1 1 ~10~
+    SET_2DA_ENTRY 6 1 1 ~40~
+  BUT_ONLY_IF_IT_CHANGES
+  PRINT @1128
+END
+ACTION_IF (~%bantertimer%~ = 4) THEN BEGIN
+  COPY_EXISTING ~banttimg.2da~ ~override~
+    SET_2DA_ENTRY 3 1 1 ~650~
+    SET_2DA_ENTRY 4 1 1 ~10~
+    SET_2DA_ENTRY 6 1 1 ~18~
+  BUT_ONLY_IF_IT_CHANGES
+  PRINT @1129
+END
+ACTION_IF (~%bantertimer%~ = 5) THEN BEGIN
+  COPY_EXISTING ~banttimg.2da~ ~override~
+    SET_2DA_ENTRY 3 1 1 ~700~
+    SET_2DA_ENTRY 4 1 1 ~10~
+    SET_2DA_ENTRY 6 1 1 ~14~
+  BUT_ONLY_IF_IT_CHANGES
+  PRINT @1130
+END
