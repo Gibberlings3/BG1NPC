@@ -10,7 +10,7 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
   END
 	OUTER_SPRINT "port_s" "m"
 	OUTER_SPRINT "port_l" "l"
-  OUTER_SPRINT "porttype" "bgee"
+  OUTER_SPRINT "portsize" "bgee"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
   OUTER_SET housg3state5 = 0
@@ -25,7 +25,7 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
 	OUTER_SPRINT "port_s" "s"
 	OUTER_SPRINT "port_l" "m"
-  OUTER_SPRINT "porttype" "tutu"
+  OUTER_SPRINT "portsize" "tutu"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
   OUTER_SET housg3state5 = 5
@@ -44,7 +44,7 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
   OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
 	OUTER_SPRINT "port_s" "s"
 	OUTER_SPRINT "port_l" "m"
-  OUTER_SPRINT "porttype" "tutu"
+  OUTER_SPRINT "portsize" "tutu"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
   OUTER_SET housg3state5 = 5

@@ -79,119 +79,9 @@ BEGIN @1007 DESIGNATED 10
 
 /* END OF BANTERS, QUESTS, INTERJECTIONS */
 
-
-/* BEGIN: Portrait Changes */
-/* Edwin */
-BEGIN @1022 DESIGNATED 20 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH edwin IN "%tutu_var%edwin" "%tutu_var%edwin2" "%tutu_var%edwin4" "%tutu_var%edwin6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
-	    COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NEDWIN%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NEDWIN%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Imoen */
-BEGIN @1023 DESIGNATED 21 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH imoen IN "%tutu_var%imoen" "%tutu_var%imoen1" "%tutu_var%imoen2" "%tutu_var%imoen4" "%tutu_imoen6%" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
-	    COPY_EXISTING "%imoen%.cre" ~override~
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NIMOEN%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NIMOEN%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Jaheira */
-BEGIN @1024 DESIGNATED 22 /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH jaheira IN "%tutu_var%jaheir" "%tutu_var%jaheir2" "%tutu_var%jaheir4" "%tutu_var%jaheir6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
-	    COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NJAHEIR%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NJAHEIR%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Minsc */
-BEGIN @1025 DESIGNATED 23 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH minsc IN "%tutu_var%minsc" "%tutu_var%minsc2" "%tutu_var%minsc4" "%tutu_var%minsc6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
-	    COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NMINSC%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NMINSC%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Viconia */
-BEGIN @1026 DESIGNATED 24 /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH viconia IN "%tutu_var%viconi" "%tutu_var%viconi4" "%tutu_viconi6%" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
-	    COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 "NVICON%port_s%" #8 // small portrait
-	        WRITE_ASCIIE 0x3c "NVICON%port_l%" #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Kivan */
-BEGIN @1027 DESIGNATED 25 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
-	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	COPY ~bg1npc/portraits/kivan/%porttype%/P#KI2L.bmp~ ~override~
-	COPY ~bg1npc/portraits/kivan/%porttype%/P#KI2M.bmp~ ~override~
-	COPY ~bg1npc/portraits/kivan/%porttype%/P#KI2S.bmp~ ~override~
-	ACTION_FOR_EACH kivan IN "%tutu_var%kivan" "%tutu_var%kivan4" "%tutu_var%kivan6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
-	    COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~P#KI2%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~P#KI2%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Non-Joinable Characters */
-BEGIN @1009 DESIGNATED 26 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
-	GROUP @1008 /* The BG1 NPC Project: Portrait Changes and Additions */
-	DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
-	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	COPY ~bg1npc/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
-
-
 /* BEGIN ROMANCES */
 /* AJANTIS ROMANCE */
-BEGIN @1109 DESIGNATED 30 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+BEGIN @1109 DESIGNATED 20 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -201,7 +91,7 @@ BEGIN @1109 DESIGNATED 30 /* Speed: 1 hour real time (standard) minimum between 
 	APPEND ~gtimes.ids~ ~3600 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
-BEGIN @1110 DESIGNATED 31 /* Speed: 45 minutes real time minimum between LoveTalks */
+BEGIN @1110 DESIGNATED 21 /* Speed: 45 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -211,7 +101,7 @@ BEGIN @1110 DESIGNATED 31 /* Speed: 45 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~2700 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
-BEGIN @1111 DESIGNATED 32 /* Speed: 30 minutes real time minimum between LoveTalks */
+BEGIN @1111 DESIGNATED 22 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -221,7 +111,7 @@ BEGIN @1111 DESIGNATED 32 /* Speed: 30 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~1800 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
-BEGIN @1112 DESIGNATED 33 /* Speed: 15 minutes real time minimum between LoveTalks */
+BEGIN @1112 DESIGNATED 23 /* Speed: 15 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -231,7 +121,7 @@ BEGIN @1112 DESIGNATED 33 /* Speed: 15 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~900 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
-BEGIN @1113 DESIGNATED 34 /* Speed: 90 minutes real time minimum between LoveTalks */
+BEGIN @1113 DESIGNATED 24 /* Speed: 90 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -243,7 +133,7 @@ BEGIN @1113 DESIGNATED 34 /* Speed: 90 minutes real time minimum between LoveTal
 
 
 /* BRANWEN ROMANCE */
-BEGIN @1109 DESIGNATED 40 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+BEGIN @1109 DESIGNATED 30 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -253,7 +143,7 @@ BEGIN @1109 DESIGNATED 40 /* Speed: 1 hour real time (standard) minimum between 
 	APPEND ~gtimes.ids~ ~3600 BRROM_TIMER~ UNLESS ~BRROM_TIMER~
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
-BEGIN @1110 DESIGNATED 41 /* Speed: 45 minutes real time minimum between LoveTalks */
+BEGIN @1110 DESIGNATED 31 /* Speed: 45 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -263,7 +153,7 @@ BEGIN @1110 DESIGNATED 41 /* Speed: 45 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~2700 BRROM_TIMER~ UNLESS ~BRROM_TIMER~
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
-BEGIN @1111 DESIGNATED 42 /* Speed: 30 minutes real time minimum between LoveTalks */
+BEGIN @1111 DESIGNATED 32 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -273,7 +163,7 @@ BEGIN @1111 DESIGNATED 42 /* Speed: 30 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~1800 BRROM_TIMER~ UNLESS ~BRROM_TIMER~
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
-BEGIN @1112 DESIGNATED 43 /* Speed: 15 minutes real time minimum between LoveTalks */
+BEGIN @1112 DESIGNATED 33 /* Speed: 15 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -283,7 +173,7 @@ BEGIN @1112 DESIGNATED 43 /* Speed: 15 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~900 BRROM_TIMER~ UNLESS ~BRROM_TIMER~
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
-BEGIN @1113 DESIGNATED 44 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+BEGIN @1113 DESIGNATED 34 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -295,7 +185,7 @@ BEGIN @1113 DESIGNATED 44 /* Speed: 1 hour 30 minutes real time minimum between 
 
 
 /* CORAN ROMANCE */
-BEGIN @1109 DESIGNATED 50 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+BEGIN @1109 DESIGNATED 40 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -305,7 +195,7 @@ BEGIN @1109 DESIGNATED 50 /* Speed: 1 hour real time (standard) minimum between 
 	APPEND ~gtimes.ids~ ~3600 COROM_TIMER~ UNLESS ~COROM_TIMER~
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
-BEGIN @1110 DESIGNATED 51 /* Speed: 45 minutes real time minimum between LoveTalks */
+BEGIN @1110 DESIGNATED 41 /* Speed: 45 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -315,7 +205,7 @@ BEGIN @1110 DESIGNATED 51 /* Speed: 45 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~2700 COROM_TIMER~ UNLESS ~COROM_TIMER~
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
-BEGIN @1111 DESIGNATED 52 /* Speed: 30 minutes real time minimum between LoveTalks */
+BEGIN @1111 DESIGNATED 42 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -325,7 +215,7 @@ BEGIN @1111 DESIGNATED 52 /* Speed: 30 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~1800 COROM_TIMER~ UNLESS ~COROM_TIMER~
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
-BEGIN @1112 DESIGNATED 53 /* Speed: 15 minutes real time minimum between LoveTalks */
+BEGIN @1112 DESIGNATED 43 /* Speed: 15 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -335,7 +225,7 @@ BEGIN @1112 DESIGNATED 53 /* Speed: 15 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~900 COROM_TIMER~ UNLESS ~COROM_TIMER~
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
-BEGIN @1113 DESIGNATED 54 /* Speed: 90 minutes real time minimum between LoveTalks */
+BEGIN @1113 DESIGNATED 44 /* Speed: 90 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -347,7 +237,7 @@ BEGIN @1113 DESIGNATED 54 /* Speed: 90 minutes real time minimum between LoveTal
 
 
 /* DYNAHEIR ROMANCE */
-BEGIN @1109 DESIGNATED 60 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+BEGIN @1109 DESIGNATED 50 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -357,7 +247,7 @@ BEGIN @1109 DESIGNATED 60 /* Speed: 1 hour real time (standard) minimum between 
 	APPEND ~gtimes.ids~ ~3600 DYROM_TIMER~ UNLESS ~DYROM_TIMER~
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
-BEGIN @1110 DESIGNATED 61 /* Speed: 45 minutes real time minimum between LoveTalks */
+BEGIN @1110 DESIGNATED 51 /* Speed: 45 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -367,7 +257,7 @@ BEGIN @1110 DESIGNATED 61 /* Speed: 45 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~2700 DYROM_TIMER~ UNLESS ~DYROM_TIMER~
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
-BEGIN @1111 DESIGNATED 62 /* Speed: 30 minutes real time minimum between LoveTalks */
+BEGIN @1111 DESIGNATED 52 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -377,7 +267,7 @@ BEGIN @1111 DESIGNATED 62 /* Speed: 30 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~1800 DYROM_TIMER~ UNLESS ~DYROM_TIMER~
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
-BEGIN @1112 DESIGNATED 63 /* Speed: 15 minutes real time minimum between LoveTalks */
+BEGIN @1112 DESIGNATED 53 /* Speed: 15 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -387,7 +277,7 @@ BEGIN @1112 DESIGNATED 63 /* Speed: 15 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~900 DYROM_TIMER~ UNLESS ~DYROM_TIMER~
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
-BEGIN @1113 DESIGNATED 64 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+BEGIN @1113 DESIGNATED 54 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -399,7 +289,7 @@ BEGIN @1113 DESIGNATED 64 /* Speed: 1 hour 30 minutes real time minimum between 
 
 
 /* SHAR-TEEL ROMANCE */
-BEGIN @1109 DESIGNATED 70 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+BEGIN @1109 DESIGNATED 60 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -409,7 +299,7 @@ BEGIN @1109 DESIGNATED 70 /* Speed: 1 hour real time (standard) minimum between 
 	APPEND ~gtimes.ids~ ~3600 SHROM_TIMER~ UNLESS ~SHROM_TIMER~
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
-BEGIN @1110 DESIGNATED 71 /* Speed: 45 minutes real time minimum between LoveTalks */
+BEGIN @1110 DESIGNATED 61 /* Speed: 45 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -419,7 +309,7 @@ BEGIN @1110 DESIGNATED 71 /* Speed: 45 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~2700 SHROM_TIMER~ UNLESS ~SHROM_TIMER~
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
-BEGIN @1111 DESIGNATED 72 /* Speed: 30 minutes real time minimum between LoveTalks */
+BEGIN @1111 DESIGNATED 62 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -429,7 +319,7 @@ BEGIN @1111 DESIGNATED 72 /* Speed: 30 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~1800 SHROM_TIMER~ UNLESS ~SHROM_TIMER~
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
-BEGIN @1112 DESIGNATED 73 /* Speed: 15 minutes minimum between LoveTalks */
+BEGIN @1112 DESIGNATED 63 /* Speed: 15 minutes minimum between LoveTalks */
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -439,7 +329,7 @@ BEGIN @1112 DESIGNATED 73 /* Speed: 15 minutes minimum between LoveTalks */
 	APPEND ~gtimes.ids~ ~900 SHROM_TIMER~ UNLESS ~SHROM_TIMER~
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
-BEGIN @1113 DESIGNATED 74 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+BEGIN @1113 DESIGNATED 64 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -451,7 +341,7 @@ BEGIN @1113 DESIGNATED 74 /* Speed: 1 hour 30 minutes real time minimum between 
 
 
 /* XAN ROMANCE */
-BEGIN @1109 DESIGNATED 80 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+BEGIN @1109 DESIGNATED 70 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -461,7 +351,7 @@ BEGIN @1109 DESIGNATED 80 /* Speed: 1 hour real time (standard) minimum between 
 	APPEND ~gtimes.ids~ ~3600 XAROM_TIMER~ UNLESS ~XAROM_TIMER~
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
-BEGIN @1110 DESIGNATED 81 /* Speed: 45 minutes real time minimum between LoveTalks */
+BEGIN @1110 DESIGNATED 71 /* Speed: 45 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -471,7 +361,7 @@ BEGIN @1110 DESIGNATED 81 /* Speed: 45 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~2700 XAROM_TIMER~ UNLESS ~XAROM_TIMER~
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
-BEGIN @1111 DESIGNATED 82 /* Speed: 30 minutes real time minimum between LoveTalks */
+BEGIN @1111 DESIGNATED 72 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -481,7 +371,7 @@ BEGIN @1111 DESIGNATED 82 /* Speed: 30 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~1800 XAROM_TIMER~ UNLESS ~XAROM_TIMER~
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
-BEGIN @1112 DESIGNATED 83 /* Speed: 15 minutes real time minimum between LoveTalks */
+BEGIN @1112 DESIGNATED 73 /* Speed: 15 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -491,7 +381,7 @@ BEGIN @1112 DESIGNATED 83 /* Speed: 15 minutes real time minimum between LoveTal
 	APPEND ~gtimes.ids~ ~900 XAROM_TIMER~ UNLESS ~XAROM_TIMER~
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
-BEGIN @1113 DESIGNATED 84 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+BEGIN @1113 DESIGNATED 74 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -503,7 +393,7 @@ BEGIN @1113 DESIGNATED 84 /* Speed: 1 hour 30 minutes real time minimum between 
 
 
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
-BEGIN @1017 DESIGNATED 90 /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
+BEGIN @1017 DESIGNATED 80 /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -511,10 +401,9 @@ BEGIN @1017 DESIGNATED 90 /* The BG1 NPC Project: Female Romance Challenges, Aja
 	UNINSTALL ~bg1npc.tp2~ 200 /* makes sure PIDs go last */
 	INCLUDE ~bg1npc/romances/challenge/tpa/bg1npc_chall.tpa~
 
-
 /* BG1 NPC Final Modifications (Wait at an Inn, Change NPC Starting Locations, Jason Compton's Accelerated Banter Script, Walking Speeds Component, Player-Initiated Dialogues */
 /* NPCs Wait at Inn */
-BEGIN @1064 DESIGNATED 100 /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
+BEGIN @1064 DESIGNATED 90 /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (!FILE_EXISTS_IN_GAME ~dw#12.xxx~) @1066 /* This component is already handled by Sword Coast Strategems. To use the BG1 NPC version, please uninstall the SCS version first. */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -546,7 +435,7 @@ BEGIN @1064 DESIGNATED 100 /* The BG1 NPC Project: NPCs can be sent to wait in a
 /* Move Alora, Eldoth, Quayle and Tiax */
 /* patching location code */
 /* Alora Starts in the Hall of Wonders */
-BEGIN @1067 DESIGNATED 110 /* Alora Starts in the Hall of Wonders. */
+BEGIN @1067 DESIGNATED 100 /* Alora Starts in the Hall of Wonders. */
   SUBCOMPONENT @1068  /* The BG1 NPC Project: Alora's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -554,7 +443,7 @@ BEGIN @1067 DESIGNATED 110 /* Alora Starts in the Hall of Wonders. */
   PRINT @1069  /* Alora will start in the Hall of Wonders as in the original game. */
 
 /* Alora Starts in Gullykin */
-BEGIN @1070 DESIGNATED 111 /* Alora Starts in Gullykin. */
+BEGIN @1070 DESIGNATED 101 /* Alora Starts in Gullykin. */
   SUBCOMPONENT @1068  /* The BG1 NPC Project: Alora's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -605,7 +494,7 @@ BEGIN @1070 DESIGNATED 111 /* Alora Starts in Gullykin. */
   END
 
 /* Eldoth Starts in the Cloakwood Forest */
-BEGIN @1072 DESIGNATED 112 /* Eldoth Starts in the Cloakwood Forest. */
+BEGIN @1072 DESIGNATED 102 /* Eldoth Starts in the Cloakwood Forest. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -614,7 +503,7 @@ BEGIN @1072 DESIGNATED 112 /* Eldoth Starts in the Cloakwood Forest. */
   PRINT @1074 /* Eldoth will start in the Cloakwood as in the original game. */
 
 /* Eldoth Starts on the Coast Way */
-BEGIN @1075 DESIGNATED 113 /* Eldoth Starts on the Coast Way. */
+BEGIN @1075 DESIGNATED 103 /* Eldoth Starts on the Coast Way. */
   SUBCOMPONENT @1073 /* The BG1 NPC Project: Eldoth's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -645,7 +534,7 @@ BEGIN @1075 DESIGNATED 113 /* Eldoth Starts on the Coast Way. */
   PRINT @1076 /* ~Remember to start a new game for Eldoth to start on the Coast Way near the Obelisk. */
 
 /* Quayle Starts at the Wyrm's Crossing. */
-BEGIN @1077 DESIGNATED 114 /* Quayle Starts at the Wyrm's Crossing. */
+BEGIN @1077 DESIGNATED 104 /* Quayle Starts at the Wyrm's Crossing. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -654,7 +543,7 @@ BEGIN @1077 DESIGNATED 114 /* Quayle Starts at the Wyrm's Crossing. */
   PRINT @1079  /* Quayle will start at the Wyrm's Crossing as in the original game. */
 
 /* Quayle Starts at the Nashkel Carnival */
-BEGIN @1081 DESIGNATED 115 /* Quayle Starts at the Nashkel Carnival. */
+BEGIN @1081 DESIGNATED 105 /* Quayle Starts at the Nashkel Carnival. */
   SUBCOMPONENT @1078  /* The BG1 NPC Project: Quayle's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -678,7 +567,7 @@ BEGIN @1081 DESIGNATED 115 /* Quayle Starts at the Nashkel Carnival. */
   PRINT @1082  /* Remember to start a new game for Quayle to start at the Nashkel Carnival near Great Gazib's show. */
 
 /* Tiax Starts in Baldur's Gate */
-BEGIN @1083 DESIGNATED 116 /* Tiax Starts in Baldur's Gate. */
+BEGIN @1083 DESIGNATED 106 /* Tiax Starts in Baldur's Gate. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -687,7 +576,7 @@ BEGIN @1083 DESIGNATED 116 /* Tiax Starts in Baldur's Gate. */
   PRINT @1085 /* Tiax will start in Baldur's Gate as in the original game. */
 
 /* Tiax Starts in Beregost */
-BEGIN @1086 DESIGNATED 117 /* Tiax Starts in Beregost. */
+BEGIN @1086 DESIGNATED 107 /* Tiax Starts in Beregost. */
   SUBCOMPONENT @1084 /* The BG1 NPC Project: Tiax's Starting Location. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
@@ -711,7 +600,7 @@ BEGIN @1086 DESIGNATED 117 /* Tiax Starts in Beregost. */
   PRINT @1087  /* Remember to start a new game for Tiax to start in Beregost on the first floor of Feldepost's Inn. */
 
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
-BEGIN @1088 DESIGNATED 120 /* Jason Compton's Accelerated Banter Script. */
+BEGIN @1088 DESIGNATED 110 /* Jason Compton's Accelerated Banter Script. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
   REQUIRE_PREDICATE (!GAME_IS ~bgee eet~) @5001 /* You must have BGT or TuTu installed for this component. */
@@ -722,7 +611,7 @@ BEGIN @1088 DESIGNATED 120 /* Jason Compton's Accelerated Banter Script. */
 
 /* BGEE Banter Timing Tweak: Utilizes new BANTTIMG.2DA available in BGEE to
    adjust banter dialog timings.  Replaces Compton's "bantergoose" script for BGEE - AstroBryGuy */
-BEGIN @1126 DESIGNATED 121 /* Banter Timing: Normal (about 27 minutes between banter dialogs)~ */
+BEGIN @1126 DESIGNATED 111 /* Banter Timing: Normal (about 27 minutes between banter dialogs)~ */
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -732,7 +621,7 @@ BEGIN @1126 DESIGNATED 121 /* Banter Timing: Normal (about 27 minutes between ba
 	OUTER_SET bantertimer = 1
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
-BEGIN @1127 DESIGNATED 122 /* Banter Timing: Fast (about 20 minutes between banter dialogs)~ */
+BEGIN @1127 DESIGNATED 112 /* Banter Timing: Fast (about 20 minutes between banter dialogs)~ */
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -742,7 +631,7 @@ BEGIN @1127 DESIGNATED 122 /* Banter Timing: Fast (about 20 minutes between bant
 	OUTER_SET bantertimer = 2
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
-BEGIN @1128 DESIGNATED 123 /* Banter Timing: Very Fast (about 13 minutes between banter dialogs)~ */
+BEGIN @1128 DESIGNATED 113 /* Banter Timing: Very Fast (about 13 minutes between banter dialogs)~ */
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -752,7 +641,7 @@ BEGIN @1128 DESIGNATED 123 /* Banter Timing: Very Fast (about 13 minutes between
 	OUTER_SET bantertimer = 3
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
-BEGIN @1129 DESIGNATED 124 /* Banter Timing: Slow (about 40 minutes between banter dialogs)~ */
+BEGIN @1129 DESIGNATED 114 /* Banter Timing: Slow (about 40 minutes between banter dialogs)~ */
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -762,7 +651,7 @@ BEGIN @1129 DESIGNATED 124 /* Banter Timing: Slow (about 40 minutes between bant
 	OUTER_SET bantertimer = 4
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
-BEGIN @1130 DESIGNATED 125 /* Banter Timing: Very Slow (about 55 minutes between banter dialogs)~ */
+BEGIN @1130 DESIGNATED 115 /* Banter Timing: Very Slow (about 55 minutes between banter dialogs)~ */
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -774,7 +663,7 @@ BEGIN @1130 DESIGNATED 125 /* Banter Timing: Very Slow (about 55 minutes between
 
 
 /* Stop Shar-Teel's Premature Death */
-BEGIN @1092 DESIGNATED 130 /* The BG1 NPC Project: Make Shar-Teel Unkillable until In Party */
+BEGIN @1092 DESIGNATED 120 /* The BG1 NPC Project: Make Shar-Teel Unkillable until In Party */
 GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @1093 /* This component is only useful for Tutu installs. */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -789,7 +678,7 @@ GROUP @1065 /* The BG1 NPC Project: Tweaks */
 
 	EXTEND_TOP ~%SHARTEEL_BCS%.bcs~ ~bg1npc/tweaks/SharTeel/X#SHARFIX.BAF~ EVALUATE_BUFFER
 
-BEGIN @1094 DESIGNATED 135 /* The BG1 NPC Project: Bardic Reputation Adjustment */
+BEGIN @1094 DESIGNATED 125 /* The BG1 NPC Project: Bardic Reputation Adjustment */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -798,7 +687,7 @@ BEGIN @1094 DESIGNATED 135 /* The BG1 NPC Project: Bardic Reputation Adjustment 
 	INCLUDE ~bg1npc/tweaks/bardrep/bg1npc_bardrep.tpa~
 
 
-BEGIN @1020 DESIGNATED 140 /* Open Cloakwood Lodge (first Cloakwood area only) */
+BEGIN @1020 DESIGNATED 130 /* Open Cloakwood Lodge (first Cloakwood area only) */
   SUBCOMPONENT @1019  /* The BG1 NPC Project: Cloakwood areas availability in Chapter One */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
@@ -821,15 +710,25 @@ BEGIN @1020 DESIGNATED 140 /* Open Cloakwood Lodge (first Cloakwood area only) *
     END
     BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodNest%")~
-    END
-  BUT_ONLY_IF_IT_CHANGES
+  ACTION_IF FILE_EXISTS_IN_GAME ~bdentboy.cre~ THEN BEGIN
+		// In BGEE v2.5, the RevealAreaOnMap() command is in BALDUR.BCS
+		COPY_EXISTING ~baldur.bcs~ ~override~
+    	DECOMPILE_AND_PATCH BEGIN
+      	REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodNest%")~
+    	END
+  	BUT_ONLY_IF_IT_CHANGES
+	END ELSE BEGIN
+	  // In all other games, it is in Raemons Tent Area Script
+		COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
+    	DECOMPILE_AND_PATCH BEGIN
+      	REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodNest%")~
+    	END
+  	BUT_ONLY_IF_IT_CHANGES
+	END
 
   PRINT @1003  /* Please remember to start a new game to access the contents of this component. */
 
-BEGIN @1021 DESIGNATED 141 /* Open four Cloakwood areas (everything but the Mines) */
+BEGIN @1021 DESIGNATED 131 /* Open four Cloakwood areas (everything but the Mines) */
   SUBCOMPONENT @1019  /* The BG1 NPC Project: Cloakwood areas availability in Chapter One */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE ((NOT FILE_EXISTS_IN_GAME ~cdt01035.g3~) AND (NOT FILE_EXISTS_IN_GAME ~cdt01036.g3~)) @1101 /* ~The functionality of this component is either already included or superceded by one of your already installed mods.~ */
@@ -852,15 +751,25 @@ BEGIN @1021 DESIGNATED 141 /* Open four Cloakwood areas (everything but the Mine
   	END
   BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
-    DECOMPILE_AND_PATCH BEGIN
-      REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodMines%")~
-    END
-  BUT_ONLY_IF_IT_CHANGES
+	ACTION_IF FILE_EXISTS_IN_GAME ~bdentboy.cre~ THEN BEGIN
+		// In BGEE v2.5, the RevealAreaOnMap() command is in BALDUR.BCS
+		COPY_EXISTING ~baldur.bcs~ ~override~
+    	DECOMPILE_AND_PATCH BEGIN
+      	REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodMines%")~
+    	END
+  	BUT_ONLY_IF_IT_CHANGES
+	END ELSE BEGIN
+	  // In all other games, it is in Raemons Tent Area Script
+		COPY_EXISTING ~%BanditCamp_RaemonsTent_BCS%.bcs~ ~override~
+    	DECOMPILE_AND_PATCH BEGIN
+      	REPLACE_TEXTUALLY ~RevealAreaOnMap("%CloakwoodLodge%")~ ~RevealAreaOnMap("%CloakwoodLodge%") RevealAreaOnMap("%CloakwoodMines%")~
+    	END
+  	BUT_ONLY_IF_IT_CHANGES
+	END
 
   PRINT @1003 /* Please remember to start a new game to access the contents of this component. */
 
-BEGIN @1114 DESIGNATED 150 /* The BG1 NPC Project: SixofSpades Extended Sarevok's Diary */
+BEGIN @1114 DESIGNATED 140 /* The BG1 NPC Project: SixofSpades Extended Sarevok's Diary */
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -873,7 +782,7 @@ BEGIN @1114 DESIGNATED 150 /* The BG1 NPC Project: SixofSpades Extended Sarevok'
     WRITE_BYTE 0x4c 0x08 //  Sets weight to 8 lbs
   BUT_ONLY_IF_IT_CHANGES
 
-BEGIN @1116 DESIGNATED 151 /* The BG1 NPC Project: Sarevok's Diary Date Changes only */
+BEGIN @1116 DESIGNATED 141 /* The BG1 NPC Project: Sarevok's Diary Date Changes only */
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -887,12 +796,121 @@ BEGIN @1116 DESIGNATED 151 /* The BG1 NPC Project: Sarevok's Diary Date Changes 
   BUT_ONLY_IF_IT_CHANGES
 
 /* TutuFix Walking Speeds Component Check -- keep next-to-last to compile */
-BEGIN @1090 DESIGNATED 160 /* The BG1 NPC Project: Check for TutuFix Walking Speeds */
+BEGIN @1090 DESIGNATED 150 /* The BG1 NPC Project: Check for TutuFix Walking Speeds */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @1093 /* This component is only useful for Tutu installs. */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
   INCLUDE ~bg1npc/tweaks/walkspeed/bg1npc_walkspeed.tpa~
+
+
+/* BEGIN: Portrait Changes */
+/* Edwin */
+BEGIN @1022 DESIGNATED 170 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
+  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	ACTION_FOR_EACH edwin IN "%tutu_var%edwin" "%tutu_var%edwin2" "%tutu_var%edwin4" "%tutu_var%edwin6" BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
+	    COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
+	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
+	        WRITE_ASCIIE 0x34 ~NEDWIN%port_s%~ #8 // small portrait
+	        WRITE_ASCIIE 0x3c ~NEDWIN%port_l%~ #8 // medium portrait
+	      END
+	    BUT_ONLY_IF_IT_CHANGES
+	  END
+	END
+
+/* Imoen */
+BEGIN @1023 DESIGNATED 171 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
+  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	ACTION_FOR_EACH imoen IN "%tutu_var%imoen" "%tutu_var%imoen1" "%tutu_var%imoen2" "%tutu_var%imoen4" "%tutu_imoen6%" BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
+	    COPY_EXISTING "%imoen%.cre" ~override~
+	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
+	        WRITE_ASCIIE 0x34 ~NIMOEN%port_s%~ #8 // small portrait
+	        WRITE_ASCIIE 0x3c ~NIMOEN%port_l%~ #8 // medium portrait
+	      END
+	    BUT_ONLY_IF_IT_CHANGES
+	  END
+	END
+
+/* Jaheira */
+BEGIN @1024 DESIGNATED 172 /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
+  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	ACTION_FOR_EACH jaheira IN "%tutu_var%jaheir" "%tutu_var%jaheir2" "%tutu_var%jaheir4" "%tutu_var%jaheir6" BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
+	    COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
+	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
+	        WRITE_ASCIIE 0x34 ~NJAHEIR%port_s%~ #8 // small portrait
+	        WRITE_ASCIIE 0x3c ~NJAHEIR%port_l%~ #8 // medium portrait
+	      END
+	    BUT_ONLY_IF_IT_CHANGES
+	  END
+	END
+
+/* Minsc */
+BEGIN @1025 DESIGNATED 173 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
+  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	ACTION_FOR_EACH minsc IN "%tutu_var%minsc" "%tutu_var%minsc2" "%tutu_var%minsc4" "%tutu_var%minsc6" BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
+	    COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
+	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
+	        WRITE_ASCIIE 0x34 ~NMINSC%port_s%~ #8 // small portrait
+	        WRITE_ASCIIE 0x3c ~NMINSC%port_l%~ #8 // medium portrait
+	      END
+	    BUT_ONLY_IF_IT_CHANGES
+	  END
+	END
+
+/* Viconia */
+BEGIN @1026 DESIGNATED 174 /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
+  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	ACTION_FOR_EACH viconia IN "%tutu_var%viconi" "%tutu_var%viconi4" "%tutu_viconi6%" BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
+	    COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
+	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
+	        WRITE_ASCIIE 0x34 "NVICON%port_s%" #8 // small portrait
+	        WRITE_ASCIIE 0x3c "NVICON%port_l%" #8 // medium portrait
+	      END
+	    BUT_ONLY_IF_IT_CHANGES
+	  END
+	END
+
+/* Kivan */
+BEGIN @1027 DESIGNATED 175 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
+	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	COPY ~bg1npc/portraits/kivan/%portsize%/P#KI2L.bmp~ ~override~
+	COPY ~bg1npc/portraits/kivan/%portsize%/P#KI2M.bmp~ ~override~
+	COPY ~bg1npc/portraits/kivan/%portsize%/P#KI2S.bmp~ ~override~
+	ACTION_FOR_EACH kivan IN "%tutu_var%kivan" "%tutu_var%kivan4" "%tutu_var%kivan6" BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
+	    COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
+	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
+	        WRITE_ASCIIE 0x34 ~P#KI2%port_s%~ #8 // small portrait
+	        WRITE_ASCIIE 0x3c ~P#KI2%port_l%~ #8 // medium portrait
+	      END
+	    BUT_ONLY_IF_IT_CHANGES
+	  END
+	END
+
+/* Non-Joinable Characters */
+BEGIN @1009 DESIGNATED 180 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
+	GROUP @1008 /* The BG1 NPC Project: Portrait Changes and Additions */
+	DEPRECATED ~Non-Joinable NPC portraits component deprecated due to copyright issues~
+	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
+
+	COPY ~bg1npc/Core/X#component.xx~ ~override/X#NJNPCPortrait.G3~
 
 
 /* Player-Initiated Dialogues  -always keep the VERY last of BG1NPC to compile! */
