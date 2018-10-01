@@ -1,12 +1,12 @@
 // Credit to Smeagolheart for this macro!
 
 DEFINE_ACTION_MACRO ~s9_addpic~ BEGIN
-    ACTION_IF FILE_EXISTS ~%MOD_FOLDER%/portraits/%filename%.bmp~ THEN BEGIN
+    ACTION_IF FILE_EXISTS ~%MOD_FOLDER%/portraits/%portsize%/%filename%.bmp~ THEN BEGIN
       LOG ~PATCHING: %crename%.cre with PORTRAIT: %filename%.bmp~
       COPY_EXISTING ~%crename%.cre~ ~override~
         WRITE_EVALUATED_ASCII 0x34 ~%filename%~ #8
       BUT_ONLY_IF_IT_CHANGES
-      ACTION_IF NOT FILE_EXISTS ~override\%filename%.bmp~ THEN BEGIN
+      ACTION_IF NOT FILE_EXISTS ~override/%filename%.bmp~ THEN BEGIN
         COPY ~bg1npc/portraits/%portsize%/%filename%.bmp~ ~override~
       END
     END	ELSE BEGIN     // If portrait's not in the mod, just update reference (Re-use existing portraits)
