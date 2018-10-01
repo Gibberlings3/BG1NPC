@@ -620,7 +620,7 @@ BEGIN @1131 DESIGNATED 156 /* The BG1 NPC Project: Coran's "Murder in Baldur's G
 	COPY ~bg1npc/portraits/coran/%portsize%/x#coranl.bmp~ ~override~
 	COPY ~bg1npc/portraits/coran/%portsize%/x#coranm.bmp~ ~override~
 	COPY ~bg1npc/portraits/coran/%portsize%/x#corans.bmp~ ~override~
-	ACTION_FOR_EACH coran IN "%tutu_var%coran" "%tutu_var%coran5" BEGIN
+	ACTION_FOR_EACH coran IN "%tutu_var%coran" "%tutu_var%coran5" "x#corafi" BEGIN
 	  ACTION_IF FILE_EXISTS_IN_GAME "%coran%.cre" BEGIN
 	    COPY_EXISTING "%coran%.cre" ~override~ // Kivan
 	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
