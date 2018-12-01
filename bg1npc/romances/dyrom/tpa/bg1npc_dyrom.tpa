@@ -417,22 +417,6 @@ EVALUATE_BUFFER
 EXTEND_TOP  ~%YESLICK_DREAM%.BCS~ ~bg1npc/romances/DYROM/baf/X#DYERED.BAF~
 EVALUATE_BUFFER
 
-/* Add Portraits if NJNPC Portraits was chosen */
-ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
-COPY_EXISTING ~x#nell.cre~ ~override~
-  WRITE_ASCII 0x34 ~x#nells~ #8 // small portrait
-COPY_EXISTING ~x#madr.cre~ ~override~
-  WRITE_ASCII 0x34 ~x#madrs~ #8 // small portrait
-COPY_EXISTING ~x#bhet.cre~ ~override~
-  WRITE_ASCII 0x34 ~x#bhets~ #8 // small portrait
-COPY_EXISTING ~x#sveet.cre~ ~override~
-  WRITE_ASCII 0x34 ~x#sveets~ #8 // small portrait
-COPY_EXISTING ~x#winski.cre~ ~override~
-  WRITE_ASCII 0x34 ~winskis~ #8 // small portrait
-COPY_EXISTING ~x#setta.cre~ ~override~
-  WRITE_ASCII 0x34 ~x#settas~ #8 // small portrait
-END
-
 /* Patching all creatures in component for leftover/missed Tutu > BGT items */
 ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
 COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~

@@ -421,22 +421,6 @@ COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU6.BAF~
 COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU7.BAF~
 COMPILE EVALUATE_BUFFER ~bg1npc/romances/CHALLENGE/baf/X#AJRCU8.BAF~
 
-/* Add Portraits if NJNPC Portraits was chosen */
-ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
-  COPY_EXISTING ~x#maste.cre~ ~override/x#maste.cre~
-    WRITE_ASCII 0x34 ~x#mastes~ #8 // small portrait
-  COPY_EXISTING ~x#elles.cre~ ~override/x#elles.cre~
-    WRITE_ASCII 0x34 ~x#elless~ #8 // small portrait
-  COPY_EXISTING ~x#elhan.cre~ ~override/x#elhan.cre~
-    WRITE_ASCII 0x34 ~x#elhans~ #8 // small portrait
-  COPY_EXISTING ~x#drag2.cre~ ~override/x#ajdrsi.cre~
-    WRITE_ASCII 0x34 ~x#ajdrss~ #8 // small portrait
-  COPY_EXISTING ~x#cautz.cre~ ~override/x#cautz.cre~
-    WRITE_ASCII 0x34 ~x#cautzs~ #8 // small portrait
-  COPY_EXISTING ~x#drag2.cre~ ~override/x#drag2.cre~
-    WRITE_ASCII 0x34 ~x#drag2s~ #8 // small portrait
-END
-
 /* Patching all creatures in component for Tutu > BGT items */
 ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
   COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~

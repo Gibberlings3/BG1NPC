@@ -65,13 +65,6 @@ EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/romances/AJROM/baf/X#AjantisRomNPC.baf~
 EXTEND_TOP  ~%AJANTIS_BCS%.BCS~ ~bg1npc/romances/AJROM/baf/X#AjantisIniFlirts.baf~
   EVALUATE_BUFFER
 
-/* Add Portraits if NJNPC Portraits was chosen */
-ACTION_IF FILE_EXISTS_IN_GAME ~X#NJNPCPortrait.G3~ THEN BEGIN
-  COPY_EXISTING ~x#ajdoug.cre~ ~override~
-    WRITE_ASCII 0x34 ~x#ajdous~ #8 // small portrait
-  BUT_ONLY_IF_IT_CHANGES
-END
-
 /* BGT, BGEE compatability macro */
 ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
   COPY_EXISTING ~x#ajdoug.cre~ ~override~
