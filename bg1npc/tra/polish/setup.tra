@@ -130,10 +130,10 @@ prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT~
 @1124 = ~Ju¿ masz zainstalowany ten komponent.~
 @1125 = "Proszê wybraæ jedn¹ z poni¿szych opcji:
 [1] Normalny czas (NPC rozmawiaj¹ miêdzy sob¹ co ~27 minut)
-[2] Szybsze rozmowy (Dialogi pojawiaj¹ oko³o ~50% szybciej)
-[3] Bardzo szybkie rozmowy (Dialogi pojawiaj¹ dwa razy szybciej)
-[4] Wolniejsze rozmowy (Dialogi pojawiaj¹ siê ~50% wolniej)
-[5] Bardzo wolne rozmowy (Dialogi pojawiaj¹ dwa razy wolniej)"
+[2] Szybsze rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~20 minut)
+[3] Bardzo szybkie rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~13 minut)
+[4] Wolniejsze rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~40 minut)
+[5] Bardzo wolne rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~55 minut)"
 @1126 = ~Czas pomiêdzy rozmowami: Normalny~
 @1127 = ~Czas pomiêdzy rozmowami: Krótki~
 @1128 = ~Czas pomiêdzy rozmowami: Bardzo krótki~
@@ -144,3 +144,4 @@ prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT~
 @5002  = ~Dla tego komponentu musisz miec zainstalowane BGEE.~
 @5003 = ~Niekompatybilne z BGT i BGEE:
 prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT i BGEE~
+@5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~

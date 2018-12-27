@@ -68,13 +68,14 @@ END
 
 IF ~~ AcceptedOfferXzar
 SAY @8
-IF ~~ THEN DO ~TakePartyItem("X#XZDRIA")
-DestroyItem("X#XZDRIA")
-TakePartyItem("X#XZMIRI")
-DestroyItem("X#XZMIRI")
+IF ~~ THEN DO ~SetGlobal("X#XZRingMade","GLOBAL",1) 
+SetGlobal("X#XZRingPayed","GLOBAL",1)
+SetGlobalTimer("X#XzarRingTime","GLOBAL",36000)
 TakePartyGold(1000)
-SetGlobal("X#XZRingMade","GLOBAL",1) SetGlobal("X#XZRingPayed","GLOBAL",1)
-SetGlobalTimer("X#XzarRingTime","GLOBAL",36000)~ EXIT
+TakePartyItem("X#XZDRIA")
+TakePartyItem("X#XZMIRI")
+DestroyItem("X#XZDRIA")
+DestroyItem("X#XZMIRI")~ EXIT
 END
 
 IF ~~ NoMoney
@@ -84,12 +85,12 @@ END
 
 IF ~~ CruelCharRing
 SAY @10
-IF ~~ THEN DO ~TakePartyItem("X#XZDRIA")
-DestroyItem("X#XZDRIA")
+IF ~~ THEN DO ~SetGlobal("X#XZRingMade","GLOBAL",3)
+SetGlobalTimer("X#XzarRingTime","GLOBAL",36000)
+TakePartyItem("X#XZDRIA")
 TakePartyItem("X#XZMIRI")
-DestroyItem("X#XZMIRI")
-SetGlobal("X#XZRingMade","GLOBAL",3)
-SetGlobalTimer("X#XzarRingTime","GLOBAL",36000)~ EXIT
+DestroyItem("X#XZDRIA")
+DestroyItem("X#XZMIRI")~ EXIT
 END
 
 IF ~Global("X#XZRingMade","GLOBAL",1)~ XzarRingReady1
@@ -185,13 +186,13 @@ END
 
 IF ~~ MakeRingChain4.1
 SAY @44
-IF ~~ THEN DO ~TakePartyItem("X#XZDRIA")
-DestroyItem("X#XZDRIA")
-TakePartyItem("X#XZMIRI")
-DestroyItem("X#XZMIRI")
+IF ~~ THEN DO ~SetGlobal("X#XZRingMade","GLOBAL",1)
+SetGlobalTimer("X#XzarRingTime","GLOBAL",36000)
 TakePartyGold(1000)
-SetGlobal("X#XZRingMade","GLOBAL",1)
-SetGlobalTimer("X#XzarRingTime","GLOBAL",36000)~ EXIT
+TakePartyItem("X#XZDRIA")
+TakePartyItem("X#XZMIRI")
+DestroyItem("X#XZDRIA")
+DestroyItem("X#XZMIRI")~ EXIT
 END
 
 IF ~~ X#XZRING1
@@ -261,13 +262,13 @@ END
 IF ~~ X#XZRING3
 SAY @63
 IF ~ReputationGT(Player1,12)~ THEN DO ~TakePartyItem("X#XZDRIA")
-DestroyItem("X#XZDRIA")
 TakePartyItem("X#XZMIRI")
+DestroyItem("X#XZDRIA")
 DestroyItem("X#XZMIRI")
-LeaveParty()
-EscapeArea()
 ActionOverride("montaron",LeaveParty())
-ActionOverride("montaron",EscapeArea())~ EXIT
+ActionOverride("montaron",EscapeArea())
+LeaveParty()
+EscapeArea()~ EXIT
 IF ~!ReputationGT(Player1,12)~ THEN DO ~ReallyForceSpellRES("X#XZSPL","xzar")~ EXTERN ~%tutu_var%HALBAZ~ CruelCharRing
 END
 
@@ -395,7 +396,7 @@ END
 
 IF ~~ XzOfficer1.1
 SAY @102
-++ @103 DO ~
+++ @103 DO ~GiveGoldForce(-200)
 TakePartyItem("X#XZRING")
 DestroyItem("X#XZRING")
 ActionOverride("X#XZGU01",Enemy())
@@ -404,9 +405,7 @@ ActionOverride("X#XZGU03",Enemy())
 ActionOverride("xzar",LeaveParty())
 ActionOverride("xzar",Enemy())
 ActionOverride("montaron",LeaveParty())
-ActionOverride("montaron",Enemy())
-GiveGoldForce(-200)
-~ EXIT
+ActionOverride("montaron",Enemy())~ EXIT
 ++ @104 DO ~DestroyItem("X#XZRING") ActionOverride("xzar",MoveToObject("X#XZGU01"))~ EXTERN ~%XZAR_JOINED%~ XzarOfficerChain
 END
 

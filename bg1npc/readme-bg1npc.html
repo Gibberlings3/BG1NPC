@@ -29,7 +29,7 @@
         <br/>
       </p>
       <p>
-        <strong>Version 22 - <a href="http://gibberlings3.net/forums/index.php?app=downloads&showcat=11">Check for the most recent version</a></strong>
+        <strong>Version 23.3 - <a href="http://gibberlings3.net/forums/index.php?app=downloads&showcat=11">Check for the most recent version</a></strong>
         <br/>
         <strong>Languages:</strong> English, Spanish, French, Polish, German* (teilweise noch in englisch)
         <br/>
@@ -132,9 +132,9 @@
           <li>
             <a href="bg1npc_docs/jaheirasquest.html">Jaheira's Quest </a>
           </li>
-          <li>
+<!--          <li>
             <a href="bg1npc_docs/npcportraits.html">Sample of non-Joinable Non-Player-Character Portraits</a>
-          </li>
+          </li> -->
           <li>
             <a href="bg1npc_docs/bg1npcvarindex.htm">For Modders: Index of Variables used in <acronym title="Baldur's Gate">BG1</acronym><acronym title="Non-Player Character">NPC</acronym>Project code </a>
           </li>
@@ -270,7 +270,7 @@
         </strong> This component will give Kivan his portrait from Domi's mod, for those wanting consitency for the entire saga.
       </p>
       <p>
-        <strong>The <acronym title="Baldur's Gate">BG1</acronym><acronym title="Non-Player Character">NPC</acronym> Project: Add Non-Joinable <acronym title="Non-Player Character">NPC</acronym> Portraits to Quests and Dialogues
+        <strong>The <acronym title="Baldur's Gate">BG1</acronym><acronym title="Non-Player Character">NPC</acronym> Project: Add Non-Joinable <acronym title="Non-Player Character">NPC</acronym> Portraits to Quests and Dialogues (DEPRECATED)
         <br/>
         </strong> Installing this component gives some important non-joinable <acronym title="Non-Player Character">NPC</acronym> portraits, such as Gorion, Angelo, Duke Eltan and Tazok. A sample of some of the portraits can be found <a href="bg1npc_docs/npcportraits.html">here</a>.
       </p>
@@ -1289,7 +1289,129 @@
       <a name="history" id="history">Version History</a>
     </h2>
     <div class="section">
-     <p>
+      <p>
+        <strong>Version 23.3 - 2017-12-29</strong>
+     </p>
+      <ul>
+		<li>Fix for Kagain's Quest not allowing to be "completed" without accepting Kagain into the party.
+	  </ul>
+      <p>
+        <strong>Version 23.2 - 2017-12-24</strong>
+     </p>
+      <ul>
+		<li>Fix for SoA-based Tutu installs: only use of DisplayStringNoNameHead on ToB/EE engine installs, default to DisplayStringHead on SoA-Tutu.
+	  </ul>
+      <p>
+        <strong>Version 23.1 - 2017-12-03</strong>
+     </p>
+      <ul>
+		<li>Fixed Tutu install + more German proofreadings from jastey
+	  </ul>
+      <p>
+        <strong>Version 23 - 2017-11-07</strong>
+     </p>
+      <ul>
+		<li>Updates for EET compatibility to bg1npc.tp2 and x#player1_bgee.d.
+		<li>Moving some large code blocks to .tpa files to clean up bg1npc.tp2
+		<li>Fixed hardcoded strings in x#mag14d.baf
+		<li>Fixed bug with Amarande dialog
+		<li>Fixed bug with Edwin's golems in Spiderwood
+		<li>Fixed bug with Winski's demon spawning neutral
+		<li>Fixed minsc dialogue problame x#miint.d + x#miint2.baf
+		<li>(BGT) Jaheira's interjection in Black Lotus tent
+		<li>Remove added trans triggers from Seniyad's dialog
+		<li>Replace David Jansen's "shout" script 
+		<li>tp2: changed from REQUIRE_FILE to REQUIRE_COMPONENT to enable automated deinstall of components if the required component is deinstalled
+		<li>corrected Imoen-Yeslick rest banter for BGT
+		<li>added li/g3_dreamscript_cpmvars.tpa for dream scripts of NPCs
+		<li>lib/tp2: removed eet_cpmvars and linked to EET original one instead (not used yet anyway)
+		<li>unified DV or entill.cre to "Entillis" as it is in BG:EE and fixed usage in x#jaint.d
+		<li>x#dyered.baf: added "See("dynaheir") to trigger (although it might not be needed because group can only sleep if together) 
+		<li>Typos and many small bugs quashed!
+		<li>Un-hardcoded strings for Imoen's Tome
+		<li>Adding an unused line for Imoen's dialogue about Tarnesh's spellbook
+		<li>Copying over x#blank.wav to silence default dialog sounds
+		<li>Updates to German, French, and Polish translations
+	  </ul>
+      <p>
+        <strong>Version 22.8 - 2017-03-25</strong>
+     </p>
+      <ul>
+		<li>Fixed issue with Faldorn-Izefia quest. https://github.com/Gibberlings3/BG1NPC/issues/26
+		<li>Deprecating Non-Joinable NPC Portraits component due to copyright issues
+	  </ul>
+      <p>
+        <strong>Version 22.7 - 2017-03-01</strong>
+     </p>
+      <ul>
+		<li>Fixed issue with BMPs with negative heights in header.
+	  </ul>
+      <p>
+        <strong>Version 22.6 - 2017-01-28</strong>
+     </p>
+      <ul>
+		<li>Fixed: missing entar.cre for BGT install? https://github.com/Gibberlings3/BG1NPC/issues/23
+	  </ul>
+      <p>
+        <strong>Version 22.5 - 2017-01-08</strong>
+     </p>
+      <ul>
+		<li>French translation updates
+		<li>Fixed item flags for Romance Challenge dragons
+	  </ul>
+      <p>
+        <strong>Version 22.4 - 2017-01-04</strong>
+     </p>
+      <ul>
+      	<li>Updates for Jaheira's "Bury Gorion" dialogue
+      	<li>Updates to Kagain's Quest
+      	<li>Update BGEE Banter Tweak prompts
+      	<li>Change Shar-teel's interjection on meeting Kagain
+      	<li>Update Lord Foreshadow's Ring Description
+      	<li>Ajantis Bhaaltalks - variable correction
+      	<li>Fixing Minsc's interjection with Vitiare
+      	<li>Check before adding "missing" items to BGEE games (SoD adds many of
+the previously missing items)
+		<li>Portraits: Make filenames consistent with naming scheme, i.e.
+%SOURCE_RES%s.bmp
+		<li>Portraits: Replaced BGEE portraits with new 169x266 images
+		<li>Portraits: Added a few new portraits
+		<li>Fix for 2 Legacy of the Masters gauntlets in Bandit Camp
+		<li>Make Amulet of the Apprentice Mage unusable by Monks
+		<li>Updates to dragons for Romance Challenges
+		<li>Update BGT_VAR for EET support
+		<li>Update x#tqbh2.cre sex to match animation
+		<li>Enforce LoveTalk timer on Branwen romance post-rest talks
+		<li>Fix Colquetle Family Amulet bug
+		<li>French translation updates
+	  </ul>
+      <p>
+        <strong>Version 22.3 - 2016-04-16</strong>
+     </p>
+      <ul>
+      	<li>Fix Gatekeeper dialog if CHARNAME has been to the Friendly Arm Inn
+      	<li>Updating Jaheira's interjection to ELMIN2.DLG
+      	<li>Moving SetGlobal actions to before non-INSTANT actions
+      	<li>Updating CRE sounds for Xan's quest CREs
+      	<li>Update for Coran Wyvern Quest fixes for BGEEv2
+      	<li>No Dynaheir Romance endgame cutscene on SoD
+      	<li>Updates for "your voice is strange" PID function on BGEE and BGT.
+	  </ul>
+      <p>
+        <strong>Version 22.2 - December 12, 2015</strong>
+     </p>
+      <ul>
+      	<li>Fix for bug in NPC Starting Location Component - Thanks Lollorian!
+	  </ul>
+      <p>
+        <strong>Version 22.1 - December 1, 2015</strong>
+     </p>
+      <ul>
+      	<li>Correcting typos in German tra files [Isaya]
+	  	<li>More German translations [Jastey]
+	  	<li>Numerous minor bug fixes
+	  </ul>
+    <p>
         <strong>Version 22 - June 14, 2015</strong>
      </p>
       <ul>

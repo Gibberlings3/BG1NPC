@@ -2,45 +2,45 @@
 
 /* Theodon (Many Interjections) */
 /* passback supplied */
-I_C_T3 ~%tutu_scriptbg%WILLIA~ 10 X#WILLIA10
+I_C_T3 ~%tutu_scriptbg%WILLIA%eet_var%~ 10 X#WILLIA10
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @0
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @1
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @2
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @3
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @3
 == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @4
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @5
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @5
 == ~%ELDOTH_JOINED%~ IF ~InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @6
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @7
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID)~ THEN @7
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @8
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @9
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @9
 == ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @10
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @11
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @12
 == ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @13
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @14
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @14
 == ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, MALE)~ THEN @15
 == ~%DYNAHEIR_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, MALE)~ THEN @16
 == ~%MINSC_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1, MALE)~ THEN @17
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1,MALE)~ THEN @18
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) Gender(Player1,MALE)~ THEN @18
 == ~%EDWIN_JOINED%~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) Gender(Player1,FEMALE) Alignment(Player1,MASK_EVIL)~ THEN @19
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) Gender(Player1,FEMALE) Alignment(Player1,MASK_EVIL)~ THEN @20
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) Gender(Player1,FEMALE) Alignment(Player1,MASK_EVIL)~ THEN @20
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @21
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @22
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @23
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @23
 == ~%ALORA_JOINED%~ IF ~InParty("alora") InMyArea("alora") !StateCheck("alora",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @24
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) InParty("alora") InMyArea("alora") !StateCheck("alora",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @25
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @26
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("alora") InMyArea("alora") !StateCheck("alora",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @26
 == ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @27
-== ~%tutu_scriptbg%WILLIA~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @28
+== ~%tutu_scriptbg%WILLIA%eet_var%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) Gender(Player1,FEMALE)~ THEN @28
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @29
 == ~%KHALID_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @30
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @31
 == ~%KHALID_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @32
-== ~%tutu_scriptbg%WILLIA~ @33
+== ~%tutu_scriptbg%WILLIA%eet_var%~ @33
 END
 
 /* passback not required - no trans actions */
-I_C_T3 ~%tutu_scriptbg%WILLIA~ 4 X#WILLIA4
+I_C_T3 ~%tutu_scriptbg%WILLIA%eet_var%~ 4 X#WILLIA4
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @192
 == ~%CORAN_JOINED%~ IF ~Global("P#CoranMatch","GLOBAL",1) !Global("P#CoranRomanceInactive","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE) Global("P#CoranLover","GLOBAL",1)~ THEN @193
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Global("P#CoranMatch","GLOBAL",1) !Global("P#CoranRomanceInactive","GLOBAL",1) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE) Global("P#CoranLover","GLOBAL",1)~ THEN @194
@@ -48,7 +48,7 @@ I_C_T3 ~%tutu_scriptbg%WILLIA~ 4 X#WILLIA4
 END
 
 /* passback supplied */
-I_C_T3 ~%tutu_scriptbg%WILLIA~ 8 X#WILLIA8
+I_C_T3 ~%tutu_scriptbg%WILLIA%eet_var%~ 8 X#WILLIA8
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @197
 == ~%CORAN_JOINED%~ IF ~InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @198
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID) InParty("coran") InMyArea("coran") !StateCheck("coran",CD_STATE_NOTVALID) Gender(Player1, FEMALE)~ THEN @199
@@ -1235,6 +1235,7 @@ I_C_T3 ~%tutu_var%MELICA~ 2 X#MELICA2
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @771
 == ~%tutu_var%MELICA~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @772
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @773
+== ~%tutu_var%MELICA~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @776
 == ~%EDWIN_JOINED%~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID)~ THEN @774
 == ~%tutu_var%MELICA~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID)~ THEN @775
 END

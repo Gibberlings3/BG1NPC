@@ -51,8 +51,11 @@ Lord Foreshadow gave this ring to <CHARNAME> alluding that it might help <PRO_HI
 
 STATISTICS:
 
-Equipped Abilities:  Raises wielder's charisma to 18
-Special Abilities: Charm person once per day~
+Equipped Abilities:  
+- Charisma: 18
+
+Special Abilities: 
+- Charm person once per day~
 @14   = ~Sigh~
 @15   = ~Imoen's lock picking ability has improved thanks to Safana's ingenious tip.~
 @16   = ~Imoen's Artifact~
@@ -872,7 +875,7 @@ I am tempted to take the opportunity to make a side visit to Candlekeep on the r
 
 9th of Uktar, 1367:  Winksi has similarly occupied himself well during my absence, and today presented me with the location of a nearby sect of Cyricists, who have made a particular practice of researching everything they can about Bhaal, and especially his successor.  It only makes sense that Cyric would be very interested in the offspring of his fallen foe, rising to reclaim his portfolio.  Winski wants to capture one or more of their leaders and extract their knowledge from them, but I say we should shoot higher and interrogate them all.  But that requires more than just two people, so I shall begin carefully selecting followers.  Though I fully realize that my heritage should remain a general secret, especially from Rieltar, it is time that the Son of Murder had the acolytes he deserves.
 
-14th of Uktar, 1367:  Cythandria reacted to my revelation exactly as I thought she would:  She immediately saw herself as a queen or an idol of worship, the only fitting roles for the consort of the Lord of Murder.  Only after several minutes of imagining life seated at my right hand did she think to pay me any proper homage or obesiance.  If I had the luxury of choice, I would not have to put up with this kind of attitude, but I need to establish a power base of my own, so I shall tolerate it. . . for now.  There will be time for correction later.
+14th of Uktar, 1367:  Cythandria reacted to my revelation exactly as I thought she would:  She immediately saw herself as a queen or an idol of worship, the only fitting roles for the consort of the Lord of Murder.  Only after several minutes of imagining life seated at my right hand did she think to pay me any proper homage or obeisance.  If I had the luxury of choice, I would not have to put up with this kind of attitude, but I need to establish a power base of my own, so I shall tolerate it. . . for now.  There will be time for correction later.
 
 Feast of the Moon, 1367:  The Cyricists are ours, and we have begun pumping them for information, with Zhalimar taking over whenever other matters call me away.  I have ordered that the younger members be kept alive, except to serve as useful examples to motivate the elder priests to be more forthcoming.  What Winski is most concerned about is that some mysterious "ward of Gorion" is mentioned in the prophecies, and is said to play a major role in the succession to Bhaal's portfolio, but there is no depiction of this rune or sigil anywhere, nor does he know what its significance might be.  It is a pity that Gorion is not a more uncommon name.
 
@@ -1081,3 +1084,10 @@ Launcher: Crossbow
 Weight: 1~
 @774 = ~Shortbow of Gesen~
 @775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]
+@776 = ~Spell Sequencer Fired~
+@777 = ~Spell Sequencer - Stoneskin~
+@778 = ~Spell Sequencer - Fireshield (Red)~
+@779 = ~Spell Sequencer - Melf's Minute Meteors~
+@780 = ~Contingency - Minor Spell Turning~
+@781 = ~Minor Sequencer Activated~
+@782 = ~Dexterity Increase~

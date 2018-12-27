@@ -133,11 +133,11 @@ END
 //END
 
 /* Kagain */
-I_C_T ~%tutu_var%KAGAIN~ 7 X#SharKagainJoin
+I_C_T ~%tutu_var%KAGAIN~ 1 X#SharKagainJoin
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @37
 == ~%tutu_var%KAGAIN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @38
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @39
-== ~%tutu_var%KAGAIN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1008
+== ~%tutu_var%KAGAIN~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1020
 END
 
 /* jaheira and khalid */
@@ -338,75 +338,76 @@ I_C_T ~%tutu_var%IRON3~ 0 X#SHARTEELIRON31
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @94
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 1 X#SHARTEELTAZOK1
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 1 X#SHARTEELTAZOK1
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 6 X#SHARTEELTAZOK2
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 6 X#SHARTEELTAZOK2
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 7 X#SHARTEELTAZOK3
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 7 X#SHARTEELTAZOK3
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 10 X#SHARTEELTAZOK4
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 10 X#SHARTEELTAZOK4
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 12 X#SHARTEELTAZOK5
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 12 X#SHARTEELTAZOK5
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 14 X#SHARTEELTAZOK6
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 14 X#SHARTEELTAZOK6
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 15 X#SHARTEELTAZOK7
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 15 X#SHARTEELTAZOK7
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 20 X#SHARTEELTAZOK8
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 20 X#SHARTEELTAZOK8
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 21 X#SHARTEELTAZOK9
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 21 X#SHARTEELTAZOK9
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 24 X#SHARTEELTAZOK10
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 24 X#SHARTEELTAZOK10
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 26 X#SHARTEELTAZOK11
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 26 X#SHARTEELTAZOK11
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 28 X#SHARTEELTAZOK12
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 28 X#SHARTEELTAZOK12
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 34 X#SHARTEELTAZOK13
-== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
-END
+// TAZOK's dialog only has states 0-33 in vanilla. This is adding Shar-Teel's reaction to mod-added states. However, if another mod has already added states to TAZOK.DLG, Shar-Teel will potentially interject on the wrong dialog states. Commenting out.
+//I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 34 X#SHARTEELTAZOK13
+//== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
+//== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+//END
 
-I_C_T ~%tutu_scriptbg%TAZOK~ 35 X#SHARTEELTAZOK14
-== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
-END
+//I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 35 X#SHARTEELTAZOK14
+//== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
+//== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+//END
 
 I_C_T ~%tutu_var%GREYWO~ 3 X#SHARTEELGRYWLF1
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @97

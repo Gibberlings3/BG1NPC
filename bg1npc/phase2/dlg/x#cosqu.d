@@ -52,7 +52,7 @@ END
 
 IF ~%BGT_VAR% Global("X#CoranSuccubus","GLOBAL",7)~ HelpedAmelia
 	SAY @16
-	IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",11) TakePartyItem("X#COFRRO") DestroyItem("X#COFRRO") GiveItemCreate("X#CODYE1",Player1,1,0,0)~ GOTO X#NAAmelia1
+	IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",11) TakePartyItem("X#COFRRO") GiveItemCreate("X#CODYE1",Player1,1,0,0) DestroyItem("X#COFRRO")~ GOTO X#NAAmelia1
 END
 
 IF ~~ X#NAAmelia1

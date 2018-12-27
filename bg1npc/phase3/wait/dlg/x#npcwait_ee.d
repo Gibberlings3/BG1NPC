@@ -60,21 +60,21 @@ APPEND ~%JAHEIRA_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_JAHEI
   SAY @4 
-  IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_JAHEI
 SAY @5
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_JAHEI_K
 SAY @6
 IF ~~ THEN DO ~ActionOverride("khalid",ChangeAIScript("",DEFAULT))
 ActionOverride("khalid",SetDialogue("%KHALID_POST%"))
-ActionOverride("khalid",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("khalid",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("khalid",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_JAHEI
@@ -112,13 +112,13 @@ END
 
 IF ~~ THEN BEGIN SC_JAHEI
 SAY @14
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%FriendlyArmInn_L1%",256,618,13)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_JAHEI
 SAY @15
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",463,449,14)~ EXIT
 END
 
@@ -126,10 +126,10 @@ IF ~~ THEN BEGIN SC_JAHEI_K
 SAY @16
 IF ~~ DO ~ActionOverride("khalid",ChangeAIScript("",DEFAULT))
 ActionOverride("khalid",SetDialogue("%KHALID_POST%"))
-ActionOverride("khalid",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("khalid",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("khalid",LeaveParty())
 ActionOverride("khalid",EscapeAreaMove("%FriendlyArmInn_L1%",277,670,9))
-SetGlobal("KickedOut","LOCALS",1) 
+SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%FriendlyArmInn_L1%",256,618,13)~ EXIT
 END
 
@@ -137,10 +137,10 @@ IF ~~ THEN BEGIN BG_JAHEI_K
 SAY @17
 IF ~~ DO ~ActionOverride("khalid",ChangeAIScript("",DEFAULT))
 ActionOverride("khalid",SetDialogue("%KHALID_POST%"))
-ActionOverride("khalid",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("khalid",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("khalid",LeaveParty())
 ActionOverride("khalid",EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",507,415,0))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",463,449,14)~ EXIT
 END
 END // END ADD TO JAHEIRA
@@ -166,21 +166,21 @@ APPEND ~%KHALID_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_KHALI
   SAY @20 
-  IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_KHALI
 SAY @21
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_KHALI_J
 SAY @22
 IF ~~ THEN DO ~ActionOverride("jaheira",ChangeAIScript("",DEFAULT))
 ActionOverride("jaheira",SetDialogue("%JAHEIRA_POST%"))
-ActionOverride("jaheira",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("jaheira",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("jaheira",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_KHALI
@@ -218,22 +218,22 @@ END
 
 IF ~~ THEN BEGIN SC_KHALI
   SAY @27
-  IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",277,670,9)~ EXIT
+  IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",277,670,9)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_KHALI
   SAY @28
-  IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",463,449,14)~ EXIT
+  IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",463,449,14)~ EXIT
 END
 
 IF ~~ THEN BEGIN SC_KHALI_J
 SAY @29
 IF ~~ DO ~ActionOverride("jaheira",ChangeAIScript("",DEFAULT))
 ActionOverride("jaheira",SetDialogue("%JAHEIRA_POST%"))
-ActionOverride("jaheira",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("jaheira",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("jaheira",LeaveParty())
 ActionOverride("jaheira",EscapeAreaMove("%FriendlyArmInn_L1%",256,618,13))
-SetGlobal("KickedOut","LOCALS",1) 
+SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%FriendlyArmInn_L1%",277,670,9)~ EXIT
 END
 
@@ -241,10 +241,10 @@ IF ~~ THEN BEGIN BG_KHALI_J
 SAY @30
 IF ~~ DO ~ActionOverride("jaheira",ChangeAIScript("",DEFAULT))
 ActionOverride("jaheira",SetDialogue("%JAHEIRA_POST%"))
-ActionOverride("jaheira",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("jaheira",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("jaheira",LeaveParty())
 ActionOverride("jaheira",EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",507,415,0))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",463,449,14)~ EXIT
 END
 END // END ADD TO KHALID
@@ -275,21 +275,21 @@ APPEND ~%DYNAHEIR_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_DYNAH
  SAY @33 
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_DYNAH
 SAY @34
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_DYNAH_K
 SAY @35
 IF ~~ THEN DO ~ActionOverride("minsc",ChangeAIScript("",DEFAULT))
 ActionOverride("minsc",SetDialogue("%MINSC_POST%"))
-ActionOverride("minsc",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("minsc",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("minsc",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_DYNAH
@@ -327,13 +327,13 @@ END
 
 IF ~~ THEN BEGIN SC_DYNAH
 SAY @40
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%FriendlyArmInn_L1%",669,378,3)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_DYNAH
 SAY @41
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",320,330,9)~ EXIT
 END
 
@@ -341,10 +341,10 @@ IF ~~ THEN BEGIN SC_DYNAH_K
 SAY @42
 IF ~~ DO ~ActionOverride("minsc",ChangeAIScript("",DEFAULT))
 ActionOverride("minsc",SetDialogue("%MINSC_POST%"))
-ActionOverride("minsc",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("minsc",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("minsc",LeaveParty())
 ActionOverride("minsc",EscapeAreaMove("%FriendlyArmInn_L1%",599,386,12))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%FriendlyArmInn_L1%",669,378,3)~ EXIT
 END
 
@@ -352,10 +352,10 @@ IF ~~ THEN BEGIN BG_DYNAH_K
 SAY @43
 IF ~~ DO ~ActionOverride("minsc",ChangeAIScript("",DEFAULT))
 ActionOverride("minsc",SetDialogue("%MINSC_POST%"))
-ActionOverride("minsc",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("minsc",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("minsc",LeaveParty())
 ActionOverride("minsc",EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",286,387,0))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",320,330,9)~ EXIT
 END
 END // END ADD TO DYNAHEIR
@@ -385,21 +385,21 @@ APPEND ~%MINSC_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_MINSC
  SAY @46
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_MINSC
 SAY @47
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_MINSC_J
 SAY @48
 IF ~~ THEN DO ~ActionOverride("dynaheir",ChangeAIScript("",DEFAULT))
 ActionOverride("dynaheir",SetDialogue("%DYNAHEIR_POST%"))
-ActionOverride("dynaheir",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("dynaheir",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("dynaheir",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_MINSC
@@ -437,13 +437,13 @@ END
 
 IF ~~ THEN BEGIN SC_MINSC
 SAY @53
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%FriendlyArmInn_L1%",599,386,12)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_MINSC
 SAY @54
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",286,387,0)~ EXIT
 END
 
@@ -451,10 +451,10 @@ IF ~~ THEN BEGIN SC_MINSC_J
 SAY @55
 IF ~~ DO ~ActionOverride("dynaheir",ChangeAIScript("",DEFAULT))
 ActionOverride("dynaheir",SetDialogue("%DYNAHEIR_POST%"))
-ActionOverride("dynaheir",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("dynaheir",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("dynaheir",LeaveParty())
 ActionOverride("dynaheir",EscapeAreaMove("%FriendlyArmInn_L1%",669,378,3))
-SetGlobal("KickedOut","LOCALS",1) 
+SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%FriendlyArmInn_L1%",599,386,12)~ EXIT
 END
 
@@ -462,10 +462,10 @@ IF ~~ THEN BEGIN BG_MINSC_J
 SAY @56
 IF ~~ DO ~ActionOverride("dynaheir",ChangeAIScript("",DEFAULT))
 ActionOverride("dynaheir",SetDialogue("%DYNAHEIR_POST%"))
-ActionOverride("dynaheir",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("dynaheir",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("dynaheir",LeaveParty())
 ActionOverride("dynaheir",EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",320,330,9))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",286,387,0)~ EXIT
 END
 END // END ADD TO MINSC
@@ -491,21 +491,21 @@ APPEND ~%SKIE_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_SKIE
   SAY @59
-  IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_SKIE
 SAY @60
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_SKIE_K
 SAY @61
 IF ~~ THEN DO ~ActionOverride("eldoth",ChangeAIScript("",DEFAULT))
 ActionOverride("eldoth",SetDialogue("%ELDOTH_POST%"))
-ActionOverride("eldoth",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("eldoth",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("eldoth",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_SKIE
@@ -543,13 +543,13 @@ END
 
 IF ~~ THEN BEGIN SC_SKIE
 SAY @66
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%Beregost_FeldepostsInn_L1%",306,472,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_SKIE
 SAY @67
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",479,874,2)~ EXIT
 END
 
@@ -557,10 +557,10 @@ IF ~~ THEN BEGIN SC_SKIE_K
 SAY @68
 IF ~~ DO ~ActionOverride("eldoth",ChangeAIScript("",DEFAULT))
 ActionOverride("eldoth",SetDialogue("%ELDOTH_POST%"))
-ActionOverride("eldoth",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("eldoth",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("eldoth",LeaveParty())
 ActionOverride("eldoth",EscapeAreaMove("%Beregost_FeldepostsInn_L1%",274,501,10))
-SetGlobal("KickedOut","LOCALS",1) 
+SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%Beregost_FeldepostsInn_L1%",306,472,0)~ EXIT
 END
 
@@ -568,10 +568,10 @@ IF ~~ THEN BEGIN BG_SKIE_K
 SAY @69
 IF ~~ DO ~ActionOverride("eldoth",ChangeAIScript("",DEFAULT))
 ActionOverride("eldoth",SetDialogue("%ELDOTH_POST%"))
-ActionOverride("eldoth",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("eldoth",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("eldoth",LeaveParty())
 ActionOverride("eldoth",EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",414,897,10))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",479,874,2)~ EXIT
 END
 END // END ADD TO SKIE
@@ -597,21 +597,21 @@ APPEND ~%ELDOTH_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_ELDOT
   SAY  @72 
-  IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_ELDOT
 SAY @73
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_ELDOT_J
 SAY @74
 IF ~~ THEN DO ~ActionOverride("skie",ChangeAIScript("",DEFAULT))
 ActionOverride("skie",SetDialogue("%SKIE_POST%"))
-ActionOverride("skie",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("skie",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("skie",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_ELDOT
@@ -649,13 +649,13 @@ END
 
 IF ~~ THEN BEGIN SC_ELDOT
 SAY @79
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%Beregost_FeldepostsInn_L1%",274,501,10)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_ELDOT
 SAY @80
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",414,897,10)~ EXIT
 END
 
@@ -663,10 +663,10 @@ IF ~~ THEN BEGIN SC_ELDOT_J
 SAY @81
 IF ~~ DO ~ActionOverride("skie",ChangeAIScript("",DEFAULT))
 ActionOverride("skie",SetDialogue("%SKIE_POST%"))
-ActionOverride("skie",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("skie",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("skie",LeaveParty())
 ActionOverride("skie",EscapeAreaMove("%Beregost_FeldepostsInn_L1%",306,472,0))
-SetGlobal("KickedOut","LOCALS",1) 
+SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%Beregost_FeldepostsInn_L1%",274,501,10)~ EXIT
 END
 
@@ -674,10 +674,10 @@ IF ~~ THEN BEGIN BG_ELDOT_J
 SAY @80
 IF ~~ DO ~ActionOverride("skie",ChangeAIScript("",DEFAULT))
 ActionOverride("skie",SetDialogue("%SKIE_POST%"))
-ActionOverride("skie",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("skie",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("skie",LeaveParty())
 ActionOverride("skie",EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",479,871,2))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L2%",414,897,10)~ EXIT
 END
 END // END ADD TO ELDOTH
@@ -704,21 +704,21 @@ APPEND ~%XZAR_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_XZAR
   SAY  @84 
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_XZAR
 SAY @85
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_XZAR_K
 SAY @86
 IF ~~ THEN DO ~ActionOverride("montaron",ChangeAIScript("",DEFAULT))
 ActionOverride("montaron",SetDialogue("%MONTARON_POST%"))
-ActionOverride("montaron",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("montaron",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("montaron",LeaveParty())
-SetGlobal("KickedOut","LOCALS",1)~ EXIT
+SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_XZAR
@@ -756,13 +756,13 @@ END
 
 IF ~~ THEN BEGIN SC_XZAR
 SAY @91
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%Nashkel_BelchingDragonTavern%",410,278,11)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_XZAR
 SAY @92
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) 
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) 
 EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",946,657,13)~ EXIT
 END
 
@@ -770,10 +770,10 @@ IF ~~ THEN BEGIN SC_XZAR_K
 SAY @93
 IF ~~ DO ~ActionOverride("montaron",ChangeAIScript("",DEFAULT))
 ActionOverride("montaron",SetDialogue("%MONTARON_POST%"))
-ActionOverride("montaron",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("montaron",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("montaron",LeaveParty())
 ActionOverride("montaron",EscapeAreaMove("%Nashkel_BelchingDragonTavern%",428,247,0))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%Nashkel_BelchingDragonTavern%",410,278,11)~ EXIT
 END
 
@@ -781,10 +781,10 @@ IF ~~ THEN BEGIN BG_XZAR_K
 SAY @94
 IF ~~ DO ~ActionOverride("montaron",ChangeAIScript("",DEFAULT))
 ActionOverride("montaron",SetDialogue("%MONTARON_POST%"))
-ActionOverride("montaron",SetGlobal("KickedOut","LOCALS",1))
+ActionOverride("montaron",SetGlobal("%KICKED_OUT%","LOCALS",1))
 ActionOverride("montaron",LeaveParty())
 ActionOverride("montaron",EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",870,668,9))
-SetGlobal("KickedOut","LOCALS",1)
+SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",946,657,13)~ EXIT
 END
 END // END ADD TO XZAR
@@ -810,17 +810,17 @@ APPEND ~%MONTARON_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_MONTA
  SAY @97 
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_MONTA
 SAY @98
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_MONTA_J
 SAY @99
-IF ~~ THEN DO ~ActionOverride("xzar",ChangeAIScript("",DEFAULT)) ActionOverride("xzar",SetDialogue("%XZAR_POST%")) ActionOverride("xzar",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("xzar",LeaveParty()) SetGlobal("KickedOut","LOCALS",1)~ EXIT
+IF ~~ THEN DO ~ActionOverride("xzar",ChangeAIScript("",DEFAULT)) ActionOverride("xzar",SetDialogue("%XZAR_POST%")) ActionOverride("xzar",SetGlobal("%KICKED_OUT%","LOCALS",1)) ActionOverride("xzar",LeaveParty()) SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_MONTA
@@ -853,22 +853,22 @@ END
 
 IF ~~ THEN BEGIN SC_MONTA
 SAY @104
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",428,247,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",428,247,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_MONTA
 SAY @105
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",870,668,9)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",870,668,9)~ EXIT
 END
 
 IF ~~ THEN BEGIN SC_MONTA_J
 SAY @106
-IF ~~ DO ~ActionOverride("xzar",ChangeAIScript("",DEFAULT)) ActionOverride("xzar",SetDialogue("%XZAR_POST%")) ActionOverride("xzar",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("xzar",LeaveParty()) ActionOverride("xzar",EscapeAreaMove("%Nashkel_BelchingDragonTavern%",410,278,11)) SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",428,247,0)~ EXIT
+IF ~~ DO ~ActionOverride("xzar",ChangeAIScript("",DEFAULT)) ActionOverride("xzar",SetDialogue("%XZAR_POST%")) ActionOverride("xzar",SetGlobal("%KICKED_OUT%","LOCALS",1)) ActionOverride("xzar",LeaveParty()) ActionOverride("xzar",EscapeAreaMove("%Nashkel_BelchingDragonTavern%",410,278,11)) SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",428,247,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_MONTA_J
 SAY @107
-IF ~~ DO ~ActionOverride("xzar",ChangeAIScript("",DEFAULT)) ActionOverride("xzar",SetDialogue("%XZAR_POST%")) ActionOverride("xzar",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("xzar",LeaveParty()) ActionOverride("xzar",EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",946,657,13)) SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",870,668,9)~ EXIT
+IF ~~ DO ~ActionOverride("xzar",ChangeAIScript("",DEFAULT)) ActionOverride("xzar",SetDialogue("%XZAR_POST%")) ActionOverride("xzar",SetGlobal("%KICKED_OUT%","LOCALS",1)) ActionOverride("xzar",LeaveParty()) ActionOverride("xzar",EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",946,657,13)) SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",870,668,9)~ EXIT
 END
 END // END ADD TO MONTARON
 
@@ -886,12 +886,12 @@ APPEND ~%EDWIN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_EDWIN
  SAY  @110 
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_EDWIN
  SAY @111
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -910,12 +910,12 @@ END
 
 IF ~~ THEN BEGIN SC_EDWIN
 SAY @114
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",144,289,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",144,289,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_EDWIN
 SAY @115
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",564,474,8)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%BaldursGate_DocksLowLantern_D1%",564,474,8)~ EXIT
 END
 
 END // END ADD TO EDWIN
@@ -943,12 +943,12 @@ APPEND ~%SHARTEEL_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_SHART
  SAY @118
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_SHART
  SAY @119
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -967,12 +967,12 @@ END
 
 IF ~~ THEN BEGIN SC_SHART
 SAY @122
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",207,260,9)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",207,260,9)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_SHART
 SAY @123
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",603,487,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",603,487,0)~ EXIT
 END
 
 END // END ADD TO _SHART
@@ -992,12 +992,12 @@ APPEND ~%TIAX_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_TIAX
  SAY  @126 
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_TIAX
  SAY @127
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1016,12 +1016,12 @@ END
 
 IF ~~ THEN BEGIN SC_TIAX
 SAY @130
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",636,359,2)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",636,359,2)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_TIAX
 SAY @131
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",869,699,9)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",869,699,9)~ EXIT
 END
 
 END // END ADD TO TIAX
@@ -1041,12 +1041,12 @@ APPEND ~%VICONIA_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_VICON
  SAY @134
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_VICON
  SAY @135
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1065,12 +1065,12 @@ END
 
 IF ~~ THEN BEGIN SC_VICON
 SAY @138
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%SouthBeregostRoad_Cave%",347,178,14)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%SouthBeregostRoad_Cave%",347,178,14)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_VICON
 SAY @139
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",1033,908,4)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",1033,908,4)~ EXIT
 END
 
 END // END ADD TO VICONIA
@@ -1090,12 +1090,12 @@ APPEND ~%KAGAIN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_KAGAI
  SAY @142
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_KAGAI
  SAY @143
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1114,12 +1114,12 @@ END
 
 IF ~~ THEN BEGIN SC_KAGAI
 SAY @146
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Beregost_KagainsStore%",317,271,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Beregost_KagainsStore%",317,271,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_KAGAI
 SAY @147
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",621,658,7)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%NEBaldursGate_BlushingMermaid_L1%",621,658,7)~ EXIT
 END
 
 END // END ADD TO KAGAIN
@@ -1139,12 +1139,12 @@ APPEND ~%AJANTIS_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_AJANT
  SAY @150
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_AJANT
  SAY @151
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1163,12 +1163,12 @@ END
 
 IF ~~ THEN BEGIN SC_AJANT
 SAY @154
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",582,534,2)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",582,534,2)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_AJANT
 SAY @155
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",612,450,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",612,450,0)~ EXIT
 END
 
 END // END ADD TO AJANTIS
@@ -1188,12 +1188,12 @@ APPEND ~%QUAYLE_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_QUAYL
  SAY @158
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_QUAYL
  SAY @159
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1212,12 +1212,12 @@ END
 
 IF ~~ THEN BEGIN SC_QUAYL
 SAY @162
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",890,693,4)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",890,693,4)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_QUAYL
 SAY @163
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",372,797,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",372,797,0)~ EXIT
 END
 
 END // END ADD TO QUAYLE
@@ -1237,12 +1237,12 @@ APPEND ~%GARRICK_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_GARRI
  SAY @166
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_GARRI
  SAY @167
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1261,12 +1261,12 @@ END
 
 IF ~~ THEN BEGIN SC_GARRI
 SAY @170
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",519,574,14)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",519,574,14)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_GARRI
 SAY @171
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) TakePartyGold(25) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",580,505,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) TakePartyGold(25) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",580,505,0)~ EXIT
 END
 
 END // END ADD TO GARRICK
@@ -1286,12 +1286,12 @@ APPEND ~%IMOEN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_IMOEN
  SAY @174
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_IMOEN
  SAY @175
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1310,12 +1310,12 @@ END
 
 IF ~~ THEN BEGIN SC_IMOEN
 SAY @178
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",894,659,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",894,659,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_IMOEN
 SAY @179
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",630,270,12)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",630,270,12)~ EXIT
 END
 
 END
@@ -1338,12 +1338,12 @@ APPEND ~%XAN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_XAN
  SAY @182
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_XAN
  SAY @183
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1362,12 +1362,12 @@ END
 
 IF ~~ THEN BEGIN SC_XAN
 SAY @186
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",790,660,13)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",790,660,13)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_XAN
 SAY @187
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",403,864,12)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",403,864,12)~ EXIT
 END
 
 END // END ADD TO XAN
@@ -1388,12 +1388,12 @@ APPEND ~%BRANWEN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_BRANW
  SAY @190
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_BRANW
  SAY @191
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1412,12 +1412,12 @@ END
 
 IF ~~ THEN BEGIN SC_BRANW
 SAY @194
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",480,617,14)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",480,617,14)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_BRANW
 SAY @195
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",894,568,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",894,568,0)~ EXIT
 END
 
 END // END ADD TO BRANWEN
@@ -1437,12 +1437,12 @@ APPEND ~%ALORA_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_ALORA
  SAY @198
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_ALORA
  SAY @199
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1461,12 +1461,12 @@ END
 
 IF ~~ THEN BEGIN SC_ALORA
 SAY @202
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",941,525,6)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L1%",941,525,6)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_ALORA
 SAY @203
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",373,403,4)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",373,403,4)~ EXIT
 END
 
 END // END ADD TO ALORA
@@ -1486,12 +1486,12 @@ APPEND ~%YESLICK_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_YESLI
  SAY @206
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_YESLI
  SAY @207
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1510,12 +1510,12 @@ END
 
 IF ~~ THEN BEGIN SC_YESLI
 SAY @210
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",1142,422,13)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%FriendlyArmInn_L2%",1142,422,13)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_YESLI
 SAY @211
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",715,424,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",715,424,0)~ EXIT
 END
 
 END // END ADD TO YESLICK
@@ -1535,12 +1535,12 @@ APPEND ~%FALDORN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_FALDO
  SAY @214
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_FALDO
  SAY @215
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1559,12 +1559,12 @@ END
 
 IF ~~ THEN BEGIN SC_FALDO
 SAY @218
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%CloakwoodDruids%",775,2916,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%CloakwoodDruids%",775,2916,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_FALDO
 SAY @219
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%CloakwoodDruids%",775,2916,0)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%CloakwoodDruids%",775,2916,0)~ EXIT
 END
 
 END // END ADD TO FALDORN
@@ -1584,12 +1584,12 @@ APPEND ~%KIVAN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_KIVAN
  SAY @222
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_KIVAN
  SAY @223
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1608,13 +1608,13 @@ END
 
 IF ~~ THEN BEGIN SC_KIVAN
 SAY @226
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%FriendlyArmInn_L2%",917,501,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_KIVAN
 SAY @227
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)
 EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",872,332,12)~ EXIT
 END
 
@@ -1635,12 +1635,12 @@ APPEND ~%CORAN_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_CORAN
  SAY @230
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_CORAN
  SAY @231
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 
@@ -1659,12 +1659,12 @@ END
 
 IF ~~ THEN BEGIN SC_CORAN
 SAY @234
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",334,222,14)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",334,222,14)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_CORAN
 SAY @235
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",494,655,12)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",494,655,12)~ EXIT
 END
 
 END // END ADD TO CORAN
@@ -1683,12 +1683,12 @@ APPEND ~%SAFANA_POST%~
 
 IF ~~ THEN BEGIN NEVERLEFT_SAFAN
  SAY @238
- IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0) JoinParty()~ EXIT
+ IF ~~ THEN DO ~SetGlobal("%KICKED_OUT%","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN STAYHERE_SAFE_SAFAN
  SAY @239
- IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN LEAVE_SAFAN
@@ -1706,12 +1706,12 @@ END
 
 IF ~~ THEN BEGIN SC_SAFAN
 SAY @242
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",400,230,5)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%Nashkel_BelchingDragonTavern%",400,230,5)~ EXIT
 END
 
 IF ~~ THEN BEGIN BG_SAFAN
 SAY @243
-IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",522,640,4)~ EXIT
+IF ~~ DO ~SetGlobal("%KICKED_OUT%","LOCALS",1) EscapeAreaMove("%EBaldursGate_ElfsongTavern_L1%",522,640,4)~ EXIT
 END
 
 END // END ADD TO SAFANA

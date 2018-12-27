@@ -131,12 +131,27 @@ InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
+InMyArea("vitiare")
+!StateCheck("vitiare",CD_STATE_NOTVALID)
 THEN
 RESPONSE #100
 PlaySong(0)
 PlaySound("minsc99")
 Dialog(Player1)
 END
+
+IF %BGT_VAR%
+GlobalGT("X#MinscVitiare","GLOBAL",0)
+GlobalLT("X#MinscVitiare","GLOBAL",6)
+InParty(Myself)
+OR(2)
+ Dead("vitiare")
+ !InMyArea("vitiare")
+THEN
+RESPONSE #100
+SetGlobal("X#MinscVitiare","GLOBAL",10)
+END
+
 
 /* Gnoll's Stronghold, Khalid NIP */
 IF %BGT_VAR%
@@ -296,6 +311,7 @@ InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
+AreaCheck("%Lighthouse%")
 THEN
 RESPONSE #100
 PlaySong(0)
@@ -332,10 +348,11 @@ PlaySound("minsc99")
 Dialog(Player1)
 END
 
+/* taken out - no dialogue attached to it
 /* CK Catacombs */
 IF %BGT_VAR%
 AreaCheck("%Candlekeep_Catacombs_L1%")
-Dead("phlydia")
+Dead("phlydia") //note: patching PHLYDI3.cre with a script name for this does not trigger this, because she changes into a doppelganger!
 Global("X#MinscPhlydia","GLOBAL",0)
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -360,6 +377,7 @@ PlaySong(0)
 PlaySound("minsc99")
 Dialog(Player1)
 END
+*/
 
 /* Gallor */
 IF %BGT_VAR%

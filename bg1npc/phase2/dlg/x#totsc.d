@@ -369,9 +369,9 @@ I_C_T ~%tutu_var%GARAN~ 0 X#QuaGar
 //I_C_T2~%tutu_var%HACK~ 0 X#QuaHack
 //== ~%QUAYLE_JOINED%~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @82 END
 
-I_C_T ~%tutu_scriptbg%KNIGHT~ 1 X#QuaKnight
+I_C_T ~%tutu_scriptbg%KNIGHT%eet_var%~ 1 X#QuaKnight
 == ~%QUAYLE_JOINED%~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @83 
-== ~%tutu_scriptbg%KNIGHT~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @1008
+== ~%tutu_scriptbg%KNIGHT%eet_var%~ IF ~InParty("quayle") InMyArea("quayle") !StateCheck("quayle",CD_STATE_NOTVALID)~ THEN @1008
 END
 
 /* Safana - no */
@@ -405,7 +405,7 @@ END
 /* Tiax */
 
 /* Tiax, Kaish - Werewolf Island */
-CHAIN ~%TIAX_BANTER%~ TKWI1
+CHAIN ~%TIAX_JOINED%~ TKWI1
 @86
 DO ~SetGlobal("X#TKWI","LOCALS",1) SetGlobal("X#TKWI111","GLOBAL",1)~
 == ~%tutu_var%KAISH~ @87
@@ -415,15 +415,15 @@ END
 ++ @90 EXTERN ~%tutu_var%KAISH~ 5 //(leads to normal dialogue for third option)
 
 EXTEND_BOTTOM ~%tutu_var%KAISH~ 0
-IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_BANTER%~ TKWI1
+IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_JOINED%~ TKWI1
 END
 
 EXTEND_BOTTOM ~%tutu_var%KAISH~ 1 // Tiax, Kaish - Werewolf Island
-IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_BANTER%~ TKWI1
+IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_JOINED%~ TKWI1
 END
 
 EXTEND_BOTTOM ~%tutu_var%KAISH~ 2 // Tiax, Kaish - Werewolf Island
-IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_BANTER%~ TKWI1
+IF ~Global("X#TKWI111","GLOBAL",0) InParty("tiax") InMyArea("tiax") !StateCheck("tiax",CD_STATE_NOTVALID)~ EXTERN ~%TIAX_JOINED%~ TKWI1
 END
 
 /* Viconia */

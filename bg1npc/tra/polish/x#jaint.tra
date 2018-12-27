@@ -209,3 +209,5 @@
 @206  = ~Dobrze, bêd¹ teraz spali lepiej. Dziêkujê.~
 @207  = ~Prawu sta³o siê zadoœæ.~
 @210  = ~Nie zwracaj uwagi na gadanie starca. ¯egnaj, <CHARNAME>, i dziêkujê za ksi¹¿kê.~
+// Modified version of @64, in case Tranzig is already dead
+@211  = ~Nie rozwódŸ siê nad tym, <CHARNAME>. Jeœli Elminster nie chce, to ja powiem ci wiêcej o twoim przybranym ojcu. Ale zanim to nast¹pi, jest mnóstwo rzeczy do zrobienia...~

@@ -191,8 +191,8 @@ END
 APPEND ~%DYNAHEIR_JOINED%~
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#DYGnollsKilled","GLOBAL",1)~ THEN BEGIN X#DYQU50
 SAY @83
-IF ~OR(3) !InParty("edwin") !InMyArea("edwin") StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1") GiveItemCreate("SCRL9H",Player1,1,1,0)~ SOLVED_JOURNAL @224 EXIT
-IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) SetGlobalTimer("X#DJTOED","GLOBAL",ONE_DAY) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1") GiveItemCreate("SCRL9H",Player1,1,1,0)~ EXTERN ~%EDWIN_BANTER%~ X#DYQU51
+IF ~OR(3) !InParty("edwin") !InMyArea("edwin") StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) GiveItemCreate("SCRL9H",Player1,1,1,0) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1")~ SOLVED_JOURNAL @224 EXIT
+IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID)~ DO ~EraseJournalEntry(@223) EraseJournalEntry(@225) EraseJournalEntry(@30) EraseJournalEntry(@32) EraseJournalEntry(@34) EraseJournalEntry(@36) SetGlobal("X#DYGnollsKilled","GLOBAL",2) SetGlobal("X#DynaJournal","GLOBAL",8) SetGlobalTimer("X#DJRomanceAbduction","GLOBAL",TWO_DAYS) SetGlobalTimer("X#DJTOED","GLOBAL",ONE_DAY) GiveItemCreate("SCRL9H",Player1,1,1,0) TakePartyItem("X#DYJOR1") DestroyItem("X#DYJOR1")~ EXTERN ~%EDWIN_BANTER%~ X#DYQU51
 END
 END
 
@@ -453,9 +453,9 @@ CHAIN IF WEIGHT #-4 ~%BGT_VAR% Global("X#DynaJournal","GLOBAL",8) InParty("dynah
 == ~%tutu_var%WINSKI~ @179
 == ~%DYNAHEIR_BANTER%~ @180
 == ~%tutu_var%WINSKI~ @181 
-== ~%tutu_var%WINSKI~ @182 DO ~SetGlobal("X#DynaJournal","GLOBAL",9) CreateCreatureObjectDoor("X#TANARI",Player1,0,0,0)~ EXIT
+== ~%tutu_var%WINSKI~ @182 DO ~StartCutSceneMode() StartCutScene("x#dycut")~ EXIT
 
-CHAIN IF WEIGHT #-2 ~NumTimesTalkedTo(0) Global("X#DynaJournal","GLOBAL",9)~ THEN ~X#TANARI~ X#TanarriKillsWinski
+CHAIN IF WEIGHT #-2 ~Global("X#DynaJournal","GLOBAL",9)~ THEN ~X#TANARI~ X#TanarriKillsWinski
 @183 DO ~SetGlobal("X#DynaJournal","GLOBAL",10)~
 == ~%tutu_var%WINSKI~ @184
 == ~X#TANARI~ @185

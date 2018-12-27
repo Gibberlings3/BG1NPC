@@ -106,7 +106,7 @@
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 115
 @36   = ~Vous avez mis son sort entre les mains de la justice. Il ne représente plus une menace, les gens de cette ville dormiront en paix, maintenant.~
 /* Dynahéir, si on l'attaque, lorsqu'Edwin rappelle le marché */
-// Ajantis (identique à @660) - Dynahéir
+// Ajantis - Dynahéir
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 21
 @37   = ~Par Heaum ! <CHARNAME>, ne pouvez-vous pas voir qu'il s'agit d'un combat du Bien contre le Mal ? Je ne peux rester à vos côtés, dans ces circonstances ! Mon honneur me dicte de défendre cette femme !~
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 234
@@ -1556,7 +1556,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 79
 @553  = ~Euh, n-non, maître.~
 // BG1 NPC : texte proche dans le fichier x#alint.tra au numéro 80 (seul "Good" gardé dans ict3)
-@554  = ~Bien.~
+@554  = ~Bien. Maintenant, au travail.~
 /* Non utilisé */
 @555  = ~Maintenant, au travail.~
 /* Alatos, qui attaque si on a refusé son offre de travail */
@@ -1848,9 +1848,8 @@ L'aventurier se réjouit.~
 /* Non utilisé */
 @659  = ~Allons-y.~
 /* Eldoth, quand il rejoint le groupe et salue le bon sens du PJ */
-// Ajantis (identique à @37) - Eldoth (@935)
-// BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 21
-@660  = ~Par Heaum ! <CHARNAME>, ne pouvez-vous pas voir qu'il s'agit d'un combat du Bien contre le Mal ? Je ne peux rester à vos côtés, dans ces circonstances ! Mon honneur me dicte de défendre cette femme !~
+// Ajantis - Eldoth (@935)
+@660  = ~<CHARNAME>, j'espère que vous ne songez pas sérieusement à mettre ce faux plan en pratique ?~
 // Imoen - Eldoth
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 95
 @661  = ~Je sais pas quoi penser de ce type. Je veux dire, son plan n'est pas si terriblement méchant dans le fond, mais j'ai le sentiment qu'il ne nous dit pas tout.~
@@ -2168,7 +2167,6 @@ L'aventurier se réjouit.~
 @774  = ~Que c'est mignon. Maintenant nous sommes en train de sauver un poulet des grands méchants loups. J'ai entendu que ton premier haut-fait était d'avoir apporté un antidote à une vache au ventre malade. Peut-être que l'agriculture te siérait mieux que l'aventure, <CHARNAME>. Pense juste à tous ces puissants légumes que tu pourrais cultiver, en brandissant ta fourche magique ! (J'en supporte tellement !)~
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 57
 @775  = ~*cot cot* Le loup ! Le loup arrive !~
-/* Non utilisé */
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 128
 @776  = ~*cot cot*~
 /* Minsc, accepté dans le goupe, qui parle du hamster de l'espace et presse le groupe de ne pas tarder */

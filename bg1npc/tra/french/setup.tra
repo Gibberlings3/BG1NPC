@@ -130,10 +130,10 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @1124  = ~Vous avez deja installe Ajustement du rythme des bavardages pour BG:EE.~
 @1125  = "Veuillez choisir une des options suivantes pour le rythme des bavardages :
 [1] Rythme de bavardage normal (~27 minutes entre les bavardages)
-[2] Bavardages plus frequents (les bavardages se produisent ~50% plus souvent)
-[3] Bavardages tres frequents (les bavardages se produisent deux fois plus souvent)
-[4] Bavardages peu frequents (les bavardages se produisent ~50% moins souvent)
-[5] Bavardages tres peu frequents (les bavardages se produisent deux fois moins souvent)"
+[2] Bavardages plus frequents (~20 minutes entre les bavardages)
+[3] Bavardages tres frequents (~13 minutes entre les bavardages)
+[4] Bavardages peu frequents (~40 minutes entre les bavardages)
+[5] Bavardages tres peu frequents (~55 minutes entre les bavardages)"
 @1126  = ~Rythme des bavardages : normal~
 @1127  = ~Rythme des bavardages : frequents~
 @1128  = ~Rythme des bavardages : tres frequents~
@@ -143,9 +143,8 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @5001  = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
 @5002  = ~Pour ce composant il faut avoir installe BG:EE.~
 @5003  = ~Incompatible avec BGT et BG:EE : veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT et BG:EE.~
+@5004  = ~Il faut utiliser Modmerge avant de pouvoir installer des mods sur ce jeu. Consultez le readme pour plus d'informations et un lien pour telecharger Modmerge.~
 
-// Provision for string not traified in the tp2 file : ~Please install on BG:EE, Tutu or BGT.~
-@6000  = ~Veuillez installer a partir de BG:EE, Tutu ou BGT.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

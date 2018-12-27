@@ -130,10 +130,10 @@ Bitte nutzen Sie fuer BGT die equivalente Komponente aus Sword Coast Stratagems.
 @1124  = ~Sie haben bereits den Banter Timing Tweak installiert.~
 @1125  = "Bitte eine der folgenden Moeglichkeiten fuer den minimalen Zeitraum fuer Gespraeche zwischen Gruppenmitgliedern waehlen::
 [1] Standard Gespraechetimer (~27 zwischen Gespraechen)
-[2] Schnellere Gespraeche (finden ~50% schneller statt)
-[3] Sehr schnelle Gespraeche (finden doppelt so schnell statt)
-[4] Langsamere Gespraeche (finden ~50% langsamer statt)
-[5] Sehr langsame Gespraeche (finden doppelt so langsam statt)"
+[2] Schnellere Gespraeche (~20 zwischen Gespraechen)
+[3] Sehr schnelle Gespraeche (~13 zwischen Gespraechen)
+[4] Langsamere Gespraeche (~40 zwischen Gespraechen)
+[5] Sehr langsame Gespraeche (~55 zwischen Gespraechen)"
 @1126  = ~Gespraechetimer: Standard~
 @1127  = ~Gespraechetimer: Schnell~
 @1128  = ~Gespraechetimer: Sehr schnell~
@@ -143,3 +143,4 @@ Bitte nutzen Sie fuer BGT die equivalente Komponente aus Sword Coast Stratagems.
 @5001  = ~Fuer diese Komponente muessen Sie BGT oder TuTu installiert haben.~
 @5002  = ~Fuer diese Komponente muessen Sie BG:EE installiert haben.~
 @5003  = ~Inkompatibel mit BGT und BG:EE: Bitte nutzen Sie die aequivalente Komponente in Sword Coast Strategems fuer BGT und BG:EE.~
+@5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~

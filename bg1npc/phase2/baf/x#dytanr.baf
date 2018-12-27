@@ -1,10 +1,11 @@
-IF
+/*IF
 NumTimesTalkedTo(0)
 Global("X#TanarriTalks","LOCALS",0)
 THEN RESPONSE #100
 SetGlobal("X#TanarriTalks","LOCALS",1)
 StartDialogueNoSet(Myself)
 END
+*/
 
 IF
 Global("X#DynaJournal","GLOBAL",10)

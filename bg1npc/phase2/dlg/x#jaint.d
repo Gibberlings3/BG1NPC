@@ -89,7 +89,7 @@ CHAIN ~%JAHEIRA_JOINED%~ JaheiraEntill2
 == ~%KHALID_JOINED%~ @23
 == ~%JAHEIRA_JOINED%~ @24
 END
-IF ~~ THEN DO ~ActionOverride("entill",EscapeArea())~ JOURNAL @25
+IF ~~ THEN DO ~ActionOverride("entillis",EscapeArea())~ JOURNAL @25
 EXIT
 
 EXTEND_BOTTOM ~%tutu_var%ENTILL~ 8
@@ -227,7 +227,8 @@ END
 //END
 
 I_C_T ~%tutu_var%ELMIN2~ 4 X#JaheiraEl23
-== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @64
+== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) !Global("sprite_is_deadtranzig","global",1)~ THEN @64
+== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) Global("sprite_is_deadtranzig","global",1)~ THEN @211
 == ~%tutu_var%ELMIN2~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @65
 END
 
@@ -482,7 +483,7 @@ EXIT
 // == ~%tutu_var%BASSIL~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @138
 //END
 
-I_C_T ~%tutu_var%MTOWN3~ 0 X#JaheiraDruggie
+I_C_T ~%tutu_scriptbg%MTOWN3~ 0 X#JaheiraDruggie
  == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @139
  == ~%tutu_var%MTOWN3~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @140
 END
@@ -503,12 +504,12 @@ END
 IF ~~ JaheiraEntill1
 SAY @142
 ++ @143 EXTERN ~%tutu_var%ENTILL~ JAENTILL1.1
-++ @144 DO ~ ActionOverride("entill",EscapeArea())~ JOURNAL @25 EXIT
+++ @144 DO ~ ActionOverride("entillis",EscapeArea())~ JOURNAL @25 EXIT
 END
 
 IF ~~ JAENTILL1.2
 SAY @145
-++ @146 DO ~ ActionOverride("entill",EscapeArea())~ JOURNAL @25 EXIT
+++ @146 DO ~ ActionOverride("entillis",EscapeArea())~ JOURNAL @25 EXIT
 END
 
 /* ToTSC Jaheira Mendas */

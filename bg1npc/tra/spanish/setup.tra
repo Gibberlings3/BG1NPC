@@ -130,10 +130,10 @@ Por favor, usa el componente de Sword Coast Strategems para BGT~
 @1124 = ~Algunos ajustes del temporizador de banters ya fueron instalados anteriormente.~
 @1125 = "Por favor seleccione una de las siguientes opciones para el temporizador de banters:
 [1] Tiempo normal entre banters (~27 minutos entre banters)
-[2] Banters son mas rapidos (ocurren un ~50% mas rapido)
-[3] Banters muy rapidos (ocurren al doble de la velocidad normal)
-[4] Banters son mas lentos (ocurren ~50% mas lento)
-[5] Banters muy lentos (ocurren a la mitad de la velocidad normal)"
+[2] Banters son mas rapidos (~20 minutos entre banters)
+[3] Banters muy rapidos (~13 minutos entre banters)
+[4] Banters son mas lentos (~40 minutos entre banters)
+[5] Banters muy lentos (~55 minutos entre banters)"
 @1126 = ~Velocidad de los banters: Normal~
 @1127 = ~Velocidad de los banters: Mas rapidos~
 @1128 = ~Velocidad de los banters: Muy rapidos~
@@ -144,3 +144,4 @@ Por favor, usa el componente de Sword Coast Strategems para BGT~
 @5002  = ~Este componente requiere BGEE.~
 @5003  = ~Incompatible con BGT y BGEE: 
 Por favor, usa el componente de Sword Coast Strategems para BGT y BGEE.~
+@5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~

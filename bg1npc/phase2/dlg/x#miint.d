@@ -91,7 +91,7 @@ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !D
 DO ~SetGlobal("X#MinscGnarl","GLOBAL",1)~ EXTERN ~%MINSC_JOINED%~ X#MinscGnarlChain
 END
 
-CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#Minsc3600","GLOBAL",1) AreaCheck("%Lighthouse%")~ THEN ~%MINSC_JOINED%~ X#Minsc3600Talk
+CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#Minsc3600","GLOBAL",1)~ THEN ~%MINSC_JOINED%~ X#Minsc3600Talk
 @42
 DO ~SetGlobal("X#Minsc3600","GLOBAL",2)~
 == ~%MINSC_JOINED%~ @43 
@@ -123,10 +123,10 @@ DO ~SetGlobal("X#Minsc2615","GLOBAL",2)~
 = @54
 == ~%MINSC_JOINED%~ @49 
 = @55
-== ~%IMOEN_JOINED%~ IF ~!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @56
-== ~%MINSC_JOINED%~ IF ~!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @57
-== ~%IMOEN_JOINED%~ IF ~!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @58
-== ~%MINSC_JOINED%~ IF ~!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @49 
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @56
+== ~%MINSC_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @57
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @58
+== ~%MINSC_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @49 
 = @59
 EXIT
 

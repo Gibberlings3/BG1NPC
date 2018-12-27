@@ -428,3 +428,6 @@
 @206 = ~Bien, elles dormiront mieux, à présent. Merci.~
 @207 = ~La loi est respectée.~
 @210 = ~Ne prête pas attention aux délires d'un vieil homme. Adieu, <CHARNAME>, et merci pour le livre.~
+
+// Modified version of @64, in case Tranzig is already dead
+@211 = ~Ne rumine pas, <CHARNAME>. Si Elminster ne le fait pas, alors je t'en dirai plus sur ton père adoptif. Mais avant cela, nous devons nous charger de certaines choses...~

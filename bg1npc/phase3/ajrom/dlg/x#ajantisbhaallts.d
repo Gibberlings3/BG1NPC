@@ -27,8 +27,8 @@ IF ~~ THEN BEGIN bhaalcycle_02
 SAY @8 
 + ~Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @9 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
 + ~!Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @10 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
-+ ~!Class(Player1,PALADIN) Reputation(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @11 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
-+ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
++ ~!Class(Player1,PALADIN) Reputation(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @11 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
++ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_06
 ++ @13 + bhaalcycle_07
 ++ @14 DO ~SetGlobal("X#AjantisRomanceBhaalPos","LOCALS",1)~ + bhaalcycle_13
@@ -62,8 +62,8 @@ SAY @22
 = @23
 + ~Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @9 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
 + ~!Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @10 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
-+ ~!Class(Player1,PALADIN) Reputation(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
-+ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
++ ~!Class(Player1,PALADIN) Reputation(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
++ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_06
 ++ @14 DO ~SetGlobal("X#AjantisRomanceBhaalPos","LOCALS",1)~ + bhaalcycle_13
 ++ @15 DO ~SetGlobal("X#AjantisRomPowersYes","GLOBAL",1)~ + bhaalcycle_14
@@ -92,8 +92,8 @@ IF ~~ THEN BEGIN bhaalcycle_11
 SAY @27
 + ~Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @9 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
 + ~!Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @10 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
-+ ~!Class(Player1,PALADIN) Reputation(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @11 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
-+ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
++ ~!Class(Player1,PALADIN) Reputation(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @11 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
++ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_06
 ++ @14 DO ~SetGlobal("X#AjantisRomanceBhaalPos","LOCALS",1)~ + bhaalcycle_13
 ++ @15 DO ~SetGlobal("X#AjantisRomPowersYes","GLOBAL",1)~ + bhaalcycle_14
@@ -126,15 +126,15 @@ END
 IF ~~ THEN BEGIN bhaalcycle_16
 SAY @39
 + ~!Class(Player1,PALADIN_ALL) Reputation(Player1,20)
-Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @40 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
+GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @40 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
 + ~!Class(Player1,PALADIN_ALL) ReputationLT(Player1,20)
-Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @40 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
+GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @40 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN_ALL) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @40 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_06
 + ~Class(Player1,PALADIN_ALL)~ + @40 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
 + ~!Class(Player1,PALADIN_ALL) Reputation(Player1,20)
-Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @41 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
+GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @41 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
 + ~!Class(Player1,PALADIN_ALL) ReputationLT(Player1,20)
-Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @41 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
+GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @41 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN_ALL) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @41 + bhaalcycle_06
 + ~Class(Player1,PALADIN_ALL)~ + @41 + bhaalcycle_03
 ++ @42 + bhaalcycle_19
@@ -145,9 +145,9 @@ END
 IF ~~ THEN BEGIN bhaalcycle_17
 SAY @45
 IF ~!Class(Player1,PALADIN_ALL) Reputation(Player1,20)
-Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ THEN + bhaalcycle_21
+GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ THEN + bhaalcycle_21
 IF ~!Class(Player1,PALADIN_ALL) ReputationLT(Player1,20)
-Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ THEN + bhaalcycle_22
+GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ THEN + bhaalcycle_22
 IF ~!Class(Player1,PALADIN_ALL) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ THEN + bhaalcycle_23
 IF ~Class(Player1,PALADIN_ALL)~ THEN + bhaalcycle_20
 END
@@ -194,8 +194,8 @@ SAY @55
 = @56
 + ~Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @9 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
 + ~!Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @57 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
-+ ~!Class(Player1,PALADIN) Reputation(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @11 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
-+ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
++ ~!Class(Player1,PALADIN) Reputation(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @11 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
++ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_06
 ++ @58 + bhaalcycle_07
 ++ @14 DO ~SetGlobal("X#AjantisRomanceBhaalPos","LOCALS",1)~ + bhaalcycle_13
@@ -346,8 +346,8 @@ IF ~~ THEN BEGIN bhaalcycle2_15
 SAY @107 
 + ~Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @108 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
 + ~!Global("X#AjantisRomanceHelmGod","GLOBAL",1) Class(Player1,PALADIN)~ + @109 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_03
-+ ~!Class(Player1,PALADIN) Reputation(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
-+ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) Global("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
++ ~!Class(Player1,PALADIN) Reputation(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_04
++ ~!Class(Player1,PALADIN) ReputationLT(Player1,20) GlobalLT("X#AjantisRomanceBadDecision","GLOBAL",1)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_05
 + ~!Class(Player1,PALADIN) GlobalGT("X#AjantisRomanceBadDecision","GLOBAL",0)~ + @12 DO ~IncrementGlobal("X#AjantisRomanceBadBhaal","GLOBAL",-1)~ + bhaalcycle_06
 ++ @110 + bhaalcycle_07
 ++ @111 DO ~SetGlobal("X#AjantisRomanceBhaalPos","LOCALS",1)~ + bhaalcycle_13

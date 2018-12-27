@@ -54,10 +54,10 @@ SAY @19
 IF ~~ THEN DO ~TakePartyGold(1000)
 SetGlobal("X#HalbTalk","LOCALS",2)
 TakePartyItem("X#GARCH")
-DestroyItem("X#GARCH")
 TakePartyItem("MISC47")
-DestroyItem("MISC47")
 TakePartyItem("_MISC47")
+DestroyItem("X#GARCH")
+DestroyItem("MISC47")
 DestroyItem("_MISC47")
 GiveItemCreate("X#GARCH2",Player1,1,0,0)~ EXIT
 END

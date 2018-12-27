@@ -189,7 +189,7 @@ IF %BGT_VAR%
 Global("X#HalfBrotherRevealed","GLOBAL",1)
 Global("P#KnowBhaal","GLOBAL",1)
 Global("P#KiBhaal","GLOBAL",0)
-GlobalGT("Chapter","GLOBAL",5)
+GlobalGT("Chapter","GLOBAL",%tutu_chapter_5%)
 InParty(Myself)
 CombatCounter(0)
 !See([ENEMY])

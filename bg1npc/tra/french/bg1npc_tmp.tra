@@ -62,8 +62,11 @@ Le Seigneur Présage donna cet anneau à <CHARNAME> en faisant allusion à une aide
 
 PARAMETRES :
 
-Capacité d'équipement : remonte le Charisme de son porteur à 18
-Capacité spéciale : Charme-personne une fois par jour~
+Capacité d'équipement :
+- Charisme : 18
+
+Capacité spéciale :
+- Charme-personne une fois par jour~
 // Translation Retriever: Likely string found in file dialog ToB En.tra at Id 31655, likeliness 95.0 %
 @14    = ~Soupir~
 @15    = ~Les compétences d'Imoen en vol à la tire se sont améliorées grâce aux conseils ingénieux de Safana.~
@@ -1355,3 +1358,10 @@ Arme de jet : arbalète
 Poids : 1~
 @774 = ~Arc Court de Gesen~
 @775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]
+@776 = ~Séquenceur de sort - Lancé~
+@777 = ~Séquenceur de sort - Peau de pierre~
+@778 = ~Séquenceur de sort - Bouclier de feu (rouge)~
+@779 = ~Séquenceur de sort - Minuscules météores de Melf~
+@780 = ~Contingence - Renvoi des sorts mineurs~
+@781 = ~Séquenceur mineur activé~
+@782 = ~Augmentation de la Dextérité~

@@ -124,7 +124,7 @@ SAY @0
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -330,7 +330,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_27
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -510,7 +510,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_31
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -707,7 +707,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_27
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -904,7 +904,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -1118,7 +1118,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -1314,7 +1314,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -1521,7 +1521,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 ++ @16 + flirt_end
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -1736,7 +1736,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -1969,7 +1969,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -2175,7 +2175,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -2397,7 +2397,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -2619,7 +2619,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -2859,7 +2859,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -3074,7 +3074,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -3306,7 +3306,7 @@ Global("X#AjantisNameFlirt","GLOBAL",1)~ + @29 + lady_ilvastarr_bhaal_03
 ++ @30 + ajantis_break_up
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 
 END
 
@@ -3399,7 +3399,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_25
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -3503,7 +3503,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_27
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 //-----------------------------------------------------
@@ -3581,7 +3581,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_31
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 //-----------------------------------------------
 /* Bhaal cycle */
@@ -3676,7 +3676,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_27
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -3771,7 +3771,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -3884,7 +3884,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -3970,7 +3970,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 + ~RandomNum(5,5) Global("Chapter","GLOBAL",%tutu_chapter_7%)~ + @9 + suggestions_32
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 //-----------------------------------------------
@@ -4075,7 +4075,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_32
 
 
 ++ @17 EXIT
-++ @33 + AjantisVoice
++ ~%VoiceStrange%~ + @33 + AjantisVoice
 END
 
 

@@ -129,10 +129,10 @@
 @1124  = ~You already have the Banter Timing Tweak installed.~
 @1125  = "Please select one of the following options for banter timing:
 [1] Normal banter timing (~27 minutes between banter dialogs)
-[2] Faster banters (Banter dialogs occur ~50% faster)
-[3] Very fast banters (Banter dialogs occur twice as fast)
-[4] Slower banters (Banter dialogs occur ~50% slower)
-[5] Very slow banters (Banter dialogs occur twice as slow)"
+[2] Faster banters (~20 minutes between banter dialogs)
+[3] Very fast banters (~13 minutes between banter dialogs)
+[4] Slower banters (~40 minutes between banter dialogs)
+[5] Very slow banters (~55 minutes between banter dialogs)"
 @1126  = ~Banter Timing: Normal~
 @1127  = ~Banter Timing: Fast~
 @1128  = ~Banter Timing: Very fast~
@@ -142,3 +142,4 @@
 @5001  = ~You must have BGT or TuTu installed for this component.~
 @5002  = ~You must have BGEE installed for this component.~
 @5003  = ~Incompatible with BGT and BGEE: please use the equivalent component in Sword Coast Strategems for BGT & BGEE.~
+@5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~

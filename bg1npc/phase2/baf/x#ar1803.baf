@@ -1,7 +1,7 @@
 IF
   Global("X#EraseEnderJournal","GLOBAL",0)
   Dead("Davaeorn")
-  GlobalGT("Chapter","GLOBAL",4)
+  GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
 THEN
 RESPONSE #100
   SetGlobal("X#EraseEnderJournal","GLOBAL",1)

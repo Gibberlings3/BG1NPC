@@ -405,6 +405,9 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 559, probablement inutile de traduire ici !
 @1019 = ~Dégainez vos épées !~
 
+//réponse de Kagain à @39
+@1020 = ~Il est temps de revenir à nos affaires. Est-ce qu'un travail vous intéresse ?~
+
 //non-listés dans le x#shint.d
 @144 = ~J'en ai assez.~
 @145 = ~AAaaaah !~

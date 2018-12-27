@@ -69,12 +69,12 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,39969) // Spell Sequencer?Fired
-		DisplayString(Myself,40241) // Spell Sequencer?Stoneskins
+		DisplayString(Myself,@776) // Spell Sequencer-Fired
+		DisplayString(Myself,@777) // Spell Sequencer-Stoneskins
 		ApplySpell(Myself,WIZARD_STONE_SKIN)
-		DisplayString(Myself,40243) // Spell Sequencer?Fireshield Red
+		DisplayString(Myself,@778) // Spell Sequencer-Fireshield Red
 		ApplySpell(Myself,WIZARD_FIRE_SHIELD_RED)
-		DisplayString(Myself,8638) // Spell Sequencer?Melf's Minute Meteors
+		DisplayString(Myself,@779) // Spell Sequencer-Melf's Minute Meteors
 		ApplySpell(Myself,WIZARD_MELF_METEOR)
 		AttackOneRound(LastSeenBy(Myself))
 		AttackOneRound(LastSeenBy(Myself))
@@ -89,7 +89,7 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,36209) // Contingency?Minor Spell Turning
+		DisplayString(Myself,@780) // Contingency-Minor Spell Turning
 		ApplySpell(Myself,WIZARD_MINOR_SPELL_TURNING)
 		SetGlobal("Contingency","LOCALS",1)
 END
@@ -102,7 +102,7 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,8635) // Minor Sequencer Activated
+		DisplayString(Myself,@781) // Minor Sequencer Activated
 		ForceSpell(LastSeenBy(Myself),WIZARD_MELF_ACID_ARROW)
 		ForceSpell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
 		SetGlobal("MinorSequencer","LOCALS",1)

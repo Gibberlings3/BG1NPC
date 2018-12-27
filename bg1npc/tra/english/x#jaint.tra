@@ -209,3 +209,5 @@
 @206  = ~Well, they'll sleep better now. Thank you.~
 @207  = ~The law is served.~
 @210  = ~Pay no heed to the idle ramblings of an old man. Farewell, <CHARNAME>, and thank you for the book.~
+// Modified version of @64, in case Tranzig is already dead
+@211  = ~Do not dwell, <CHARNAME>. If Elminster won't, then I will tell you more of your foster father. But before we do that, there are things to be done...~

@@ -1,0 +1,144 @@
+/* .2da patching */
+	
+/* pdialog.2da preparation - not needed for BGEE */
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+	COPY_EXISTING ~pdialog.2da~ ~override~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^JOIN_DIALOG_FILE\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~JOIN_DIALOG_FILE\1DREAM_SCRIPT_FILE~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_MINSCJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_MINSCJ\1_MINSCD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_FALDOJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_FALDOJ\1_FALDOD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_JAHEIJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_JAHEIJ\1_JAHEID~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_CORANJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_CORANJ\1_CORAND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_DYNAHJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_DYNAHJ\1_DYNAHD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_XANJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_XANJ\1_XAND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_YESLIJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_YESLIJ\1_YESLID~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_ELDOTJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_ELDOTJ\1_ELDOTD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_VICONJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_VICONJ\1_VICOND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_SHARTJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_SHARTJ\1_SHARTD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_SKIEJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_SKIEJ\1_SKIED~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_KIVANJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_KIVANJ\1_KIVAND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_XZARJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_XZARJ\1_XZARD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_SAFANJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_SAFANJ\1_SAFAND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_QUAYLJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_QUAYLJ\1_QUAYLD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_KHALIJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_KHALIJ\1_KHALID~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_TIAXJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_TIAXJ\1_TIAXD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_EDWINJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_EDWINJ\1_EDWIND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_AJANTJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_AJANTJ\1_AJANTD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_KAGAIJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_KAGAIJ\1_KAGAID~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_MONTAJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_MONTAJ\1_MONTAD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_IMOEN2\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_IMOEN2\1_IMOEND~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_GARRIJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_GARRIJ\1_GARRID~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_BRANWJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_BRANWJ\1_BRANWD~
+		REPLACE_TEXTUALLY CASE_INSENSITIVE ~^_ALORAJ\( +[^ ]+ +[^ ]+ +\)[^ ]+~ ~_ALORAJ\1_ALORAD~
+	BUT_ONLY_IF_IT_CHANGES
+END
+  
+/* BGT Versions */
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+	COPY_EXISTING ~pdialog.2da~ ~override~
+    	COUNT_2DA_ROWS 8 "cnt_row"
+		FOR ( cnt=0; cnt<"%cnt_row%"; cnt=cnt+1 ) BEGIN
+			READ_2DA_ENTRY "%cnt%" 0 8 "pd_name"
+			PATCH_IF ("%pd_name%" STR_EQ "MONTARON") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "MONTAD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "KAGAIN") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "KAGAID"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "KIVAN") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "KIVAND"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "SHARTEEL") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "SHARTD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "YESLICK") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "YESLID"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "XZAR") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "XZARD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "ALORA") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "ALORAD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "AJANTIS") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "AJANTD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "KHALID") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "KHALID"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "GARRICK") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "GARRID"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "SAFANA") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "SAFAND"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "FALDORN") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "FALDOD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "BRANWEN") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "BRANWD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "QUAYLE") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "QUAYLD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "XAN") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "XAND"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "SKIE") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "SKIED"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "ELDOTH") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "ELDOTD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "TIAX") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "TIAXD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "DYNAHEIR") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "DYNAHD"
+			END
+			PATCH_IF ("%pd_name%" STR_EQ "CORAN") BEGIN
+				SET_2DA_ENTRY "%cnt%" 3 8 "CORAND"
+			END
+		END
+	BUT_ONLY_IF_IT_CHANGES
+END
+
+COPY_EXISTING ~pdialog.2da~ ~override~
+	PRETTY_PRINT_2DA
+
+/* Tutu: Giving Imoen a banter file entry in the interdi.2da */
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+	APPEND ~interdia.2da~ ~IMOEN _BIMOEN~ UNLESS ~_BIMOEN~
+END
+/* BGT: Checking for Imoen's banter file if the Fixpack isn't installed */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~cdbehbla.pro~) AND (GAME_IS ~bgt~) THEN BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~saradush.mve~ THEN BEGIN
+		COPY_EXISTING ~interdia.2da~ ~override~
+			SET_2DA_ENTRY 17 1 2 ~BIMOEN2~ // fixes ToB version
+		BUT_ONLY_IF_IT_CHANGES
+	END ELSE BEGIN
+		APPEND ~interdia.2da~ ~IMOEN BIMOEN2~ // fixes SoA version
+			UNLESS ~BIMOEN2~
+	END
+END
+  
+COPY_EXISTING ~interdia.2da~ ~override~
+	PRETTY_PRINT_2DA
+
+/* Imoen BIMOEN.DLG check for Tutu */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~_bimoen.dlg~) AND (GAME_IS ~tutu tutu_totsc~) THEN BEGIN
+	COMPILE ~bg1npc/Core/dlg/X#BIMOEN_TUTU.D~
+END
+  
+/* Imoen BIMOEN.DLG check for BGT */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bimoen2.dlg~) AND (GAME_IS ~bgt~) THEN BEGIN
+	COMPILE ~bg1npc/Core/dlg/X#BIMOEN_BGT.D~
+END 
+  
+/* Cam's 2DA Neutral/Happy interjection restoration : Tutu|BGT only (BG:EE has already modified happy.2da) */
+ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
+	COPY_EXISTING ~happy.2da~ ~override~
+    	FOR (row = 8; row < 14; row = row + 1) BEGIN
+      		SET_2DA_ENTRY "%row%" 2 4 ~80~
+    	END
+	BUT_ONLY_IF_IT_CHANGES
+END
