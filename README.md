@@ -15,7 +15,7 @@
 **On the web: [Home page](http://www.gibberlings3.net/bg1npc/)** and **[discussion forum](http://gibberlings3.net/forums/index.php?showforum=45)**
 For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](http://www.gibberlings3.net/). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net/).
 
-**Version** 24 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+**Version** 24.0 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
 **Languages:** English, Spanish, French, Polish, German* (teilweise noch in englisch)
 **Platforms:** Windows, Mac OS X, and Linux
 
@@ -79,14 +79,12 @@ For BGEE, a list of compatible mods can be found by checking [mlnevese's list of
 Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must install a mod called [DLC Merger](https://github.com/Argent77/A7-DlcMerger/releases/latest) on your SoD installation before you can install this or any other WeiDU-based mod.
 
 ### Windows
-The BG1NPC Project is packaged and installed with WeiDU and is distributed as a self-extracting archive. To install, simply double-click the archive and follow the instructions on screen.
+The BG1NPC Project is packaged and installed with WeiDU. To install, extract the mod archive, and copy the "bg1npc" folder and setup-bg1npc.exe to your game folder (the folder which contains the CHITIN.KEY file). To install, simply double-click setup-bg1npc.exe and follow the instructions on screen.
 
-Alternatively the files can be extracted from the archive using [WinRAR](http://www.rarlab.com/). If properly extracted, you should have a "bg1npc" folder and setup-bg1npc.exe in your game folder (the folder which contains the CHITIN.KEY file). To install, simply double-click setup-bg1npc.exe and follow the instructions on screen.
-
-Please run setup-bg1npc in your game folder to reinstall, uninstall or otherwise change components.
+Please run setup-bg1npc.exe in your game folder to reinstall, uninstall or otherwise change components.
 
 ### macOS
-_If the mod was previously installed, uninstall it before extracting the new version._ The BG1NPC Project is packaged and installed with WeiDU. To install, extract the mod archive, then copy of the _contents_ of the folder "OSX-bg1npc-v22.9" into your game folder (the folder which contains the CHITIN.KEY file). If properly extracted, you should have a "bg1npc" folder, setup-bg1npc, and setup-bg1npc.command in your game folder. To install, simply double-click **setup-bg1npc.command** and follow the instructions on screen.
+_If the mod was previously installed, uninstall it before extracting the new version._ The BG1NPC Project is packaged and installed with WeiDU. To install, extract the mod archive, then copy the _contents_ of the folder "OSX-bg1npc-v24" into your game folder (the folder which contains the CHITIN.KEY file). If properly extracted, you should have a "bg1npc" folder, setup-bg1npc, and setup-bg1npc.command in your game folder. To install, simply double-click **setup-bg1npc.command** and follow the instructions on screen.
 
 ### Linux
 **For Tutu/BGT installs:** Download the latest version of WeiDU for Linux from weidu.org and extract (at least) the WeiDU, weinstall and tolower executables in a $PATH directory (e.g. /opt/bin). Following that, open a terminal, cd to your Tutu/BGT installation directory, run 'tolower' and answer Y to both queries. After that, run 'weinstall bg1npc' from your game installation directory to install or uninstall the mod.
@@ -513,17 +511,24 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™, Inter
 
 ## Version History
 
-**Version 24 - 2018-12-01**
+**Version 24 - 2018-12-31**
 
 * Fix script variable reference for AR0112.BCS
 * Moving component code blocks to .tpa files for organization
 * Kagain's Quest - Update bandit scripts for killing lead bandit by stealth
-* Moving Tranzig interjections to separate file for BGEEv2.5 compatibility.
-* Updates to Kivan-Tazok encounter: simplifies scripting/dialogs for compatibility with BGEEv2.5
-* Updating the Extended Kagain's Caravan Quest for BGEE v2.5
+* Moved Tranzig interjections to separate file. Implemented separate BGEEv2.5/Tutu compatible versions.
+* Updated Kivan-Tazok encounter
+  * Moved interjections to separate files.
+  * Simplified scripting/dialogs for compatibility with BGEEv2.5
+  * Implemented separate BGEEv2.5/Tutu versions of encounter
+* Updated the Extended Kagain's Caravan Quest for BGEE v2.5
+  * Separated quest into two parts: 1) Find missing caravan, 2) Return Silvershield's son's brooch
+  * On BGEEv2.5, part 1) exists, so use that. Only implement part 2)
 * Fix Dueling Interjections on BRILLA.DLG
 * Updates to Yeslick-Rieltar Encounter for BGEEv2.5 Compatibility
 * Update Jaheira' Quest for BGEEv2.5 compatibility
+* Implement SUBCOMPONENTs for romance component timing options
+* Implement SUBCOMPONENTs for BGEE Banter Timing Tweak
 * Transferring the following components to [Tweaks Anthology](https://github.com/Gibberlings3/Tweaks-Anthology):
   * NPCs Wait at Inns
   * Move NPCs to Convenient Locations (Alora, Eldoth, Quayle, Tiax)

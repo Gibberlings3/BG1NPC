@@ -14,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v24~
+VERSION ~v24.0~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -513,88 +513,8 @@ BEGIN @1090 DESIGNATED 140 /* The BG1 NPC Project: Check for TutuFix Walking Spe
 
 
 /* BEGIN: Portrait Changes */
-/* Edwin */
-BEGIN @1022 DESIGNATED 150 /* The BG1 NPC Project: Give Edwin his BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH edwin IN "%tutu_var%edwin" "%tutu_var%edwin2" "%tutu_var%edwin4" "%tutu_var%edwin6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
-	    COPY_EXISTING "%edwin%.cre" ~override~ // Edwin
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NEDWIN%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NEDWIN%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Imoen */
-BEGIN @1023 DESIGNATED 151 /* The BG1 NPC Project: Give Imoen her BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH imoen IN "%tutu_var%imoen" "%tutu_var%imoen1" "%tutu_var%imoen2" "%tutu_var%imoen4" "%tutu_imoen6%" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%imoen%.cre" BEGIN
-	    COPY_EXISTING "%imoen%.cre" ~override~
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NIMOEN%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NIMOEN%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Jaheira */
-BEGIN @1024 DESIGNATED 152 /* The BG1 NPC Project: Give Jaheira her BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH jaheira IN "%tutu_var%jaheir" "%tutu_var%jaheir2" "%tutu_var%jaheir4" "%tutu_var%jaheir6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%jaheira%.cre" BEGIN
-	    COPY_EXISTING "%jaheira%.cre" ~override~ // Jaheira
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NJAHEIR%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NJAHEIR%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Minsc */
-BEGIN @1025 DESIGNATED 153 /* The BG1 NPC Project: Give Minsc his BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH minsc IN "%tutu_var%minsc" "%tutu_var%minsc2" "%tutu_var%minsc4" "%tutu_var%minsc6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%minsc%.cre" BEGIN
-	    COPY_EXISTING "%minsc%.cre" ~override~ // Minsc
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~NMINSC%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~NMINSC%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
-/* Viconia */
-BEGIN @1026 DESIGNATED 154 /* The BG1 NPC Project: Give Viconia her BG2 portrait. */
-  GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
-	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-	ACTION_FOR_EACH viconia IN "%tutu_var%viconi" "%tutu_var%viconi4" "%tutu_viconi6%" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%viconia%.cre" BEGIN
-	    COPY_EXISTING "%viconia%.cre" ~override~ // Viconia
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 "NVICON%port_s%" #8 // small portrait
-	        WRITE_ASCIIE 0x3c "NVICON%port_l%" #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
-
 /* Kivan */
-BEGIN @1027 DESIGNATED 155 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
+BEGIN @1027 DESIGNATED 150 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
 	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -613,7 +533,7 @@ BEGIN @1027 DESIGNATED 155 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana 
 	END
 
 /* Coran */
-BEGIN @1131 DESIGNATED 156 /* The BG1 NPC Project: Coran's "Murder in Baldur's Gate" portrait */
+BEGIN @1131 DESIGNATED 155 /* The BG1 NPC Project: Coran's "Murder in Baldur's Gate" portrait */
 	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
