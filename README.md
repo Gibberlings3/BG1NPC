@@ -2,20 +2,20 @@
 
 **[A Gibberlings Three Mod](http://www.gibberlings3.net/)**
 
-**Authors:** [The BG1NPC Project Team](http://gibberlings3.net/forums/?showtopic=1315). Please contact us on the Gibberlings3 forums for more information.
+**Authors:** [The BG1NPC Project Team](https://www.gibberlings3.net/forums/topic/1315-credits/). Please contact us on the Gibberlings3 forums for more information.
 
 **Project Coordinators (in temporal order):**
-* [Blucher](http://gibberlings3.net/forums/?showuser=721)
-* [Kish](http://gibberlings3.net/forums/?showuser=62)
-* [Andyr](http://gibberlings3.net/forums/?showuser=30)
-* [Domi](http://gibberlings3.net/forums/?showuser=142)
-* [cmorgan](http://gibberlings3.net/forums/?showuser=844)
-* Currently: [AstroBryGuy](http://gibberlings3.net/forums/index.php?showuser=6858)
+* [Blucher](https://www.gibberlings3.net/profile/721-blucher/)
+* [Kish](https://www.gibberlings3.net/profile/62-kish/)
+* [Andyr](https://www.gibberlings3.net/profile/30-andyr/)
+* [Domi](https://www.gibberlings3.net/profile/142-domi/)
+* [cmorgan](https://www.gibberlings3.net/profile/844-cmorgan/)
+* Currently: [AstroBryGuy](https://www.gibberlings3.net/profile/6858-astrobryguy/)
 
-**On the web: [Home page](http://www.gibberlings3.net/bg1npc/)** and **[discussion forum](http://gibberlings3.net/forums/index.php?showforum=45)**
+**On the web: [Home page](https://www.gibberlings3.net/mods/npcs/bg1npc/)** and **[discussion forum](https://www.gibberlings3.net/forum/45-bg1-npc-project/)**
 For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](http://www.gibberlings3.net/). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net/).
 
-**Version** 24.0 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+**Version** 24.0 - [Check for the most recent version](https://www.gibberlings3.net/files/file/908-bg1-npc-project/)
 **Languages:** English, Spanish, French, Polish, German* (teilweise noch in englisch)
 **Platforms:** Windows, Mac OS X, and Linux
 
