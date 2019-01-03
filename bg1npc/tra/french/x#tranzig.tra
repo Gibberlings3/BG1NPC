@@ -1,12 +1,12 @@
 // x#brint.tra @0, @1, @2, @3
 @0 = ~T'étais plus futée quand t'étais pétrifiée !~
-@1 = ~Arrête d'aboyer, espèce de roquet. Je suis venue te punir pour ta traitrise et tes mensonges ! Tempus est avec moi !~
+@1 = ~Arrête d'aboyer, espèce de roquet. Je suis venue te punir pour ta traîtrise et tes mensonges ! Tempus est avec moi !~
 @2 = ~Hé ma grosse, j'espérais que tu t'sois un peu déniaisée avant de revenir m'ennuyer. Mais j'vois que non. Tu crois que j'ai peur de toi et des autres pignoufs qui t'ont libérée de mon sortilège ?~
 @3 = ~Espèce de vache stupide. Si tu ne disparais pas d'ma vue dans les cinq secondes, je t'expédie dans l'autre monde !~
 
 // x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 5
-@4  = ~Pauvre type, tu es dégoutant... Tue-le, <CHARNAME>. Celui qui implore grâce n'a aucun honneur. Si tu le laisses partir, il ira voir Tazok et te trahira.~
+@4  = ~Pauvre type, tu es dégoûtant... Tue-le, <CHARNAME>. Celui qui implore grâce n'a aucun honneur. Si tu le laisses partir, il ira voir Tazok et te trahira.~
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 6
 @5  = ~Harpie !~
 // Shar-Teel - Tranzig
@@ -18,7 +18,7 @@
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 63
 @8  = ~<CHARNAME>, nous ne devons pas laisser cette racaille s'enfuir, il va certainement aller informer ses supérieurs. Il serait préférable que nous puissions... empêcher cela... d'une manière ou d'une autre...~
 @9  = ~Non, je ne le ferai pas, je ne le ferai pas...~
-@
+
 // x#brint.tra @4
 @10 = ~Non ! <CHARNAME> t'a laissé filer, mais pas moi ! Dégaine tes armes !~
 
