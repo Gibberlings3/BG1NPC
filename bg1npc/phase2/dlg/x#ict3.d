@@ -1121,9 +1121,9 @@ I_C_T3 ~%tutu_var%INGOT~ 1 X#INGOT1
 == ~%tutu_var%INGOT~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @936
 == ~%EDWIN_JOINED%~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @396
 == ~%tutu_var%INGOT~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @937
-== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) OR(3) !InParty("minsc") !InParty("minsc") StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @397
-== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InParty("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @398
-== ~%MINSC_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InParty("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @399
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) OR(3) !InParty("minsc") !InMyArea("minsc") StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @397
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @398
+== ~%MINSC_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @399
 == ~%tutu_var%INGOT~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @400
 END
 
