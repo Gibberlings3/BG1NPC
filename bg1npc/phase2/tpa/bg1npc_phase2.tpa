@@ -222,6 +222,13 @@ END
 				EVALUATE_BUFFER
 	END
 
+  /* Interjections on Tranzig Encounter */
+  ACTION_IF FILE_EXISTS_IN_GAME ~bdentboy.cre~ THEN BEGIN
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tranzig_ee.d~ USING ~bg1npc/tra/%s/x#tranzig.tra~
+  END ELSE BEGIN
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tranzig.d~ USING ~bg1npc/tra/%s/x#tranzig.tra~
+  END
+
   /* Kivan's spear */
   COPY ~bg1npc/phase2/itm/X#KISPEA.itm~ ~override~
     SAY NAME1 @74
