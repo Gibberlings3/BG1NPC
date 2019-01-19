@@ -21,21 +21,21 @@ APPEND ~%KIVAN_JOINED%~
 END
 
 /* Kivan interjects on dialogue with Tazok */
-EXTEND_BOTTOM ~%tutu_var%TAZOK%eet_var%~ 0 3 17 33
+EXTEND_BOTTOM ~%tutu_scriptbg%TAZOK%eet_var%~ 0 3 17 33
   IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN EXTERN ~%KIVAN_JOINED%~ X#KivanTazok1
 END
 
 CHAIN ~%KIVAN_JOINED%~ X#KivanTazok1
   @7
-  == ~%tutu_var%TAZOK%eet_var%~ @8
+  == ~%tutu_scriptbg%TAZOK%eet_var%~ @8
   == ~%KIVAN_JOINED%~ @9
-  == ~%tutu_var%TAZOK%eet_var%~ @10
+  == ~%tutu_scriptbg%TAZOK%eet_var%~ @10
   END
   IF ~~ THEN DO ~SetGlobal("JoinedBandits","GLOBAL",5) EndCutSceneMode() Enemy()~ JOURNAL @101
 EXIT
 
 /* Tazok Loses Fight - Prisoner Branch */
-APPEND ~%tutu_var%TAZOK%eet_var%~
+APPEND ~%tutu_scriptbg%TAZOK%eet_var%~
   IF WEIGHT #-1 ~%BGT_VAR% !Global("JoinedBandits","GLOBAL",2) HPPercentLT(Myself,50) Global("FoughtTazok","GLOBAL",0)~ THEN X#KivanTazok2
   SAY @11
   IF ~~ THEN DO ~SetGlobal("BeatTazok","GLOBAL",1)
@@ -52,7 +52,7 @@ END
 /* Kivan Reaction to Tazok Fleeing */
 CHAIN ~%KIVAN_JOINED%~ X#KivanTazokFlee
   @12
-  == ~%tutu_var%TAZOK%eet_var%~ @13
+  == ~%tutu_scriptbg%TAZOK%eet_var%~ @13
   END
   IF ~~ THEN DO ~SetGlobal("BeatTazok","GLOBAL",1)
   SetGlobal("FoughtTazok","GLOBAL",1)
@@ -64,8 +64,8 @@ CHAIN ~%KIVAN_JOINED%~ X#KivanTazokFlee
 EXIT
 
 /* Add state triggers to TAZOK 8 & 13 */
-ADD_STATE_TRIGGER ~%tutu_var%TAZOK%eet_var%~ 8 ~Global("JoinedBandits","GLOBAL",2)~
-ADD_STATE_TRIGGER ~%tutu_var%TAZOK%eet_var%~ 13 ~Global("JoinedBandits","GLOBAL",2)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 8 ~Global("JoinedBandits","GLOBAL",2)~
+ADD_STATE_TRIGGER ~%tutu_scriptbg%TAZOK%eet_var%~ 13 ~Global("JoinedBandits","GLOBAL",2)~
 
 
 /* Kivan-Tazok Interactions at final fight */
