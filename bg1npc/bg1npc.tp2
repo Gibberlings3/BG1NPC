@@ -503,14 +503,6 @@ BEGIN @1116 DESIGNATED 131 /* The BG1 NPC Project: Sarevok's Diary Date Changes 
     WRITE_BYTE 0x4c 0x08 //  Sets weight to 8 lbs
   BUT_ONLY_IF_IT_CHANGES
 
-/* TutuFix Walking Speeds Component Check -- keep next-to-last to compile */
-BEGIN @1090 DESIGNATED 140 /* The BG1 NPC Project: Check for TutuFix Walking Speeds */
-  GROUP @1065 /* The BG1 NPC Project: Tweaks */
-  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc~) @1093 /* This component is only useful for Tutu installs. */
-  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
-
-  INCLUDE ~bg1npc/tweaks/walkspeed/bg1npc_walkspeed.tpa~
-
 
 /* BEGIN: Portrait Changes */
 /* Kivan */
