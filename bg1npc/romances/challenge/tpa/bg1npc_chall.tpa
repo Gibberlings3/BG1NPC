@@ -88,7 +88,7 @@ COPY ~bg1npc/romances/CHALLENGE/itm/X#MIRC.itm~ ~override~
   SAY DESC @490
 
 /* 2DA patching */
-APPEND ~ITEMDIAL.2da~ ~X#MIRC 5689 X#MIRC~
+APPEND ~ITEMDIAL.2da~ ~X#MIRC 4933 X#MIRC~
 
 COPY_EXISTING ~itemdial.2da~ ~override~
   PRETTY_PRINT_2DA
