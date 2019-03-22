@@ -103,6 +103,8 @@ EXTEND_TOP ~%tutu_var%BRILLA~ 0 #7
 IF ~PartyHasItem("X#SILSH") !Global("X#KagainCaravan","GLOBAL",6)~ THEN REPLY @7 GOTO X#BrillaEddardDeath
 END
 
+ADD_TRANS_TRIGGER ~%tutu_var%BRILLA~ 8 ~OR(2) !PartyHasItem("X#SILSH") Global("X#KagainCaravan","GLOBAL",6)~ DO 0
+
 EXTEND_TOP ~%tutu_var%BRILLA~ 8 #1
 IF ~PartyHasItem("X#SILSH") !Global("X#KagainCaravan","GLOBAL",6)~ THEN REPLY @7 GOTO X#BrillaEddardDeath
 END
