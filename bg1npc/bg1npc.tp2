@@ -510,39 +510,22 @@ BEGIN @1027 DESIGNATED 150 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana 
 	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
-	COPY ~bg1npc/portraits/kivan/%portsize%/P#KI2L.bmp~ ~override~
-	COPY ~bg1npc/portraits/kivan/%portsize%/P#KI2M.bmp~ ~override~
-	COPY ~bg1npc/portraits/kivan/%portsize%/P#KI2S.bmp~ ~override~
-	ACTION_FOR_EACH kivan IN "%tutu_var%kivan" "%tutu_var%kivan4" "%tutu_var%kivan6" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%kivan%.cre" BEGIN
-	    COPY_EXISTING "%kivan%.cre" ~override~ // Kivan
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~P#KI2%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~P#KI2%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
+	INCLUDE ~bg1npc/portraits/lib/cd_portrait_copy.tph~
+
+	LAF cd_portrait_bioware STR_VAR source = EVAL ~%tutu_var%kivan~ destination = ~x#kivan~ END
+
+	LAF cd_portrait_copy STR_VAR source = ~x#kivan~ destination = EVAL ~%tutu_var%kivan~ source_path = ~bg1npc/portraits/kivan~ END
 
 /* Coran */
 BEGIN @1131 DESIGNATED 155 /* The BG1 NPC Project: Coran's "Murder in Baldur's Gate" portrait */
 	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
-	COPY ~bg1npc/portraits/coran/%portsize%/x#coranl.bmp~ ~override~
-	COPY ~bg1npc/portraits/coran/%portsize%/x#coranm.bmp~ ~override~
-	COPY ~bg1npc/portraits/coran/%portsize%/x#corans.bmp~ ~override~
-	ACTION_FOR_EACH coran IN "%tutu_var%coran" "%tutu_var%coran5" "x#corafi" BEGIN
-	  ACTION_IF FILE_EXISTS_IN_GAME "%coran%.cre" BEGIN
-	    COPY_EXISTING "%coran%.cre" ~override~ // Kivan
-	      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
-	        WRITE_ASCIIE 0x34 ~x#coran%port_s%~ #8 // small portrait
-	        WRITE_ASCIIE 0x3c ~x#coran%port_l%~ #8 // medium portrait
-	      END
-	    BUT_ONLY_IF_IT_CHANGES
-	  END
-	END
+	INCLUDE ~bg1npc/portraits/lib/cd_portrait_copy.tph~
 
+	LAF cd_portrait_bioware STR_VAR source = EVAL ~%tutu_var%coran~ destination = ~x#coran~ END
+
+	LAF cd_portrait_copy STR_VAR source = ~x#coran~ destination = EVAL ~%tutu_var%coran~ source_path = ~bg1npc/portraits/coran~ END
 
 /* Non-Joinable Characters */
 BEGIN @1009 DESIGNATED 160 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */

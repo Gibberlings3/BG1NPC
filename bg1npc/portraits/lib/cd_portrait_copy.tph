@@ -1,0 +1,155 @@
+/*
+https://www.gibberlings3.net/forums/topic/29922-on-portrait-sizes/
+ portrait sizes:
+  42 x  42 - IWD2 square, cropped small portraits 'S' for game screen
+  36 x  58 - original IWD as game screen portrait as 'S'
+  38 x  60 - original BG/BG2 game screen/dialogue as 'S' portrait
+  54 x  84 - EE as 'S' portrait (unused?)
+ 110 x 170 - original BG2 record screen as 'M' portrait; original BG/IWD record screen as 'L' portrait
+ 169 x 266 - EE game screen/dialogue as 'M' portrait
+ 210 x 330 - original BG as 'G' portrait (unused?); original BG2 epilogue as 'L' portrait; original IWD as initial character selection portrait as 'G'; IWD2 as main portrait; EE epilogue/record screen as 'L' portrait
+*/
+ 
+ACTION_CLEAR_ARRAY ~cd_portrait_map~ // just in case
+
+ACTION_IF GAME_IS ~bgee bg2ee eet iwdee pstee~ BEGIN // EEs
+  OUTER_SPRINT portrait_directory "%USER_DIRECTORY%/portraits" // e.g. My Documents/Baldur's Gate 2 Enhanced Edition/portraits
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_portrait_map BEGIN
+    330 => l
+  END 
+END ELSE BEGIN  
+  OUTER_SPRINT portrait_directory "portraits" // e.g. [game folder]/portraits
+  ACTION_IF GAME_IS ~bg1 totsc~ BEGIN // original bg
+    ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_portrait_map BEGIN
+       60 => s
+      170 => l
+    END
+  END ELSE BEGIN 
+    ACTION_IF GAME_IS ~iwd how totlm~ BEGIN // original iwd
+      ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_portrait_map BEGIN
+         58 => s
+        170 => l
+      END
+	END ELSE BEGIN
+      ACTION_IF GAME_IS ~iwd2~ BEGIN // original iwd2
+        ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_portrait_map BEGIN
+           42 => s
+          330 => l
+        END  
+	  END ELSE BEGIN   // original bg2
+        ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_portrait_map BEGIN
+           60 => s
+          170 => m
+		END  
+      END 
+	END  
+  END
+END 
+
+DEFINE_ACTION_FUNCTION cd_portrait_bioware // used to preserve (mod) NPC portraits as player-available portraits before overwriting them
+  INT_VAR
+  STR_VAR 
+      destination = "foo"
+      source = "bar"
+BEGIN
+
+  ACTION_PHP_EACH cd_portrait_map AS size => suffix_dest BEGIN // read in array of needed size/names for PC portraits
+  
+    ACTION_FOR_EACH suffix_source IN g l m s BEGIN // iterate through known suffixes since we can not rely on mods to follow naming conventions
+    
+	  OUTER_SET height = 0
+      COPY_EXISTING ~%source%%suffix_source%.bmp~ ~override~ // check height, if file exists
+	    READ_LONG 0x16 height
+	    BUT_ONLY IF_EXISTS
+	  
+      ACTION_IF height = size BEGIN	// if height matches the desired size, copy over as properly named file to player portrait folder 
+
+        COPY_EXISTING ~%source%%suffix_source%.bmp~ ~%portrait_directory%/%destination%%suffix_dest%.bmp~
+		
+	  END
+	
+    END	
+
+  END	  
+
+END
+
+DEFINE_ACTION_FUNCTION cd_pc_portrait_copy // used to copy portraits as to make them player-available
+  INT_VAR
+  STR_VAR 
+      destination = ""
+      source = ""
+      source_path = "%MOD_FOLDER%/portraits"
+BEGIN
+
+  ACTION_IF ("%destination%" STRING_COMPARE_CASE "" = 0) BEGIN OUTER_SPRINT destination "%source%" END
+
+  ACTION_PHP_EACH cd_portrait_map AS size => suffix BEGIN
+
+    COPY ~%source_path%/%source%_%size%.bmp~ ~%portrait_directory%/%destination%%suffix%.bmp~
+
+  END
+
+END
+  
+DEFINE_ACTION_FUNCTION cd_portrait_copy // used to copy portraits as to replace existing NPC portraits, e.g. a new portrait for Imoen
+  INT_VAR
+    debug = 0
+  STR_VAR 
+    source = ""
+    destination = ""
+    source_path = "%MOD_FOLDER%/portraits"
+  RET 
+    success  
+BEGIN
+
+  OUTER_SET success = 0
+  ACTION_FOR_EACH suffix IN g l m s BEGIN
+  
+    ACTION_IF FILE_EXISTS_IN_GAME ~%destination%%suffix%.bmp~ BEGIN
+	
+	  COPY_EXISTING ~%destination%%suffix%.bmp~ ~override~
+	    READ_LONG 0x16 height
+	    BUT_ONLY
+	  
+	  ACTION_IF FILE_EXISTS ~%source_path%/%source%_%height%.bmp~ THEN BEGIN
+
+        COPY ~%source_path%/%source%_%height%.bmp~ ~override/%destination%%suffix%.bmp~
+        OUTER_SET success = 1
+
+      END ELSE BEGIN
+
+        WARN ~%destination%%suffix%.bmp found, but no replacement available: looking for %source_path%/%source%_%height%.bmp~
+
+      END // end local portrait check to copy/warn
+
+    END ELSE BEGIN
+
+      ACTION_IF debug BEGIN PRINT ~%destination%%suffix%.bmp not found~ END
+
+    END // end portrait check
+
+  END // end ACTION_PHP_EACH
+    
+END  // end function define  
+  
+DEFINE_ACTION_FUNCTION cd_portrait_npc // used to copy new portraits for mod npcs
+  STR_VAR 
+    source = ""
+    destination = ""
+    source_path = "%MOD_FOLDER%/portraits"
+BEGIN
+
+  ACTION_IF ("%destination%" STRING_COMPARE_CASE "" = 0) BEGIN OUTER_SPRINT destination "%source%" END
+  
+  COPY ~%source_path%/%source%_330.bmp~ ~override/%destination%l.bmp~ 
+  
+  ACTION_IF GAME_IS ~bgee bg2ee eet iwdee pstee~ BEGIN // EEs
+    COPY ~%source_path%/%source%_266.bmp~ ~override/%destination%m.bmp~ 
+    COPY ~%source_path%/%source%_84.bmp~  ~override/%destination%s.bmp~ 
+  END ELSE BEGIN	
+    COPY ~%source_path%/%source%_170.bmp~ ~override/%destination%m.bmp~ 
+    COPY ~%source_path%/%source%_60.bmp~  ~override/%destination%s.bmp~ 
+  END	    
+    
+END  // end function define  
