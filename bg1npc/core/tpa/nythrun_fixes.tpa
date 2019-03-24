@@ -35,7 +35,7 @@
                                ~%tutu_var%brielb.cre~
                                ~%tutu_var%brilla.cre~
                                ~%tutu_var%cadder.cre~
-                               ~%tutu_var%calaha.cre~
+                               ~%tutu_scriptbg%calaha%eet_var%.cre~
                                ~%tutu_var%chase.cre~
                                ~%tutu_var%claird.cre~
                                ~%tutu_var%coksmth.cre~
@@ -919,7 +919,7 @@
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle4.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%quayle4.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
@@ -936,7 +936,7 @@
 					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle6.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%quayle6.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
