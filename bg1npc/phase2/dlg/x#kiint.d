@@ -185,13 +185,13 @@ END
 //I_C_T2 ~%tutu_var%THALAN~ 0 X#KivanThalantyr1
 //== ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @50
 //== ~%tutu_var%THALAN~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @51
-//DO ~GiveItemCreate("X#KISPEA","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
+//DO ~GiveItemCreate("x#kispr","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
 //END
 
 I_C_T ~%tutu_var%THALAN~ 1 X#KivanThalantyr2
 == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @50
 == ~%tutu_var%THALAN~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @51
-DO ~GiveItemCreate("X#KISPEA","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
+DO ~GiveItemCreate("x#kispr","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
 END
 
 

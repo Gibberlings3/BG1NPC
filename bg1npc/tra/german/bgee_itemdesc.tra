@@ -20,7 +20,7 @@ Typ:  2-händig~
 
 EIGENSCHAFTEN:
 
-10 % Chance, dass ein getroffenes Ziel für 24 Sekunden verstrickt wird (kein RW)
+Bei 10 % der Treffer wird das Ziel für 2 Runde verstrickt (Rettungswurf gg. Odemwaffen).
 
 ETW0-Bonus: +2
 Schaden: 1W6+2 (Stich)
@@ -138,12 +138,12 @@ ETW0: +1
 Schaden: 1W6+1 (Stich)
 (+1 Feuer, 50% Wahrscheinlichkeit)
 Gewicht: 4
-Initiativefaktor: 4
-Fertigkeit: Speer 
+Initiativefaktor: 5
+Fertigkeit: Speer
 Typ: 2-händig
 Mindeststärke: 5~
 
-@630  = ~Winski Perorates Amulett 
+@630  = ~Winski Perorates Amulett
 
 Winski Perorates Arbeit mit den tieferen Regionen der Unterwelt brachte ihn oft in die Nähe von Wesen, die ihm seine Haut wohl liebend gerne von innen nach außen ziehen würden. Um dieses Risiko zu minimieren, beauftragte Winski einen Nabassu damit, ihm ein Amulett herzustellen, das böse Kreaturen lange genug abwehrt, damit er Kontrolle über sie erlangen kann. Leider hatte Winski, bedingt durch seine Verletzungen und die damit verbundenen Schmerzen, vergessen, sein Amulett zu aktivieren. Dies ermöglichte dem von ihm gerufenen Tanar'ri Zugang zu seinem Beschwörer, mit vorhersehbaren Folgen.
 

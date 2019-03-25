@@ -26,7 +26,7 @@ Poids : 5~
 PARAMETRES :
 
 Capacités de combat :
-  10 % de chance à chaque coup que l'adversaire soit enchevêtré pendant 24 secondes, sans sauvegarde
+  - 10 % de chance à chaque coup que l'adversaire soit enchevêtré pendant 2 rounds (annulé par une sauvegarde contre les souffles)
 TAC0 : bonus de +2
 Dégâts : 1D6 +2
 Type de dégâts : perforant
@@ -38,7 +38,7 @@ Force nécessaire : 5
 Poids : 3~
 
 // Translation Retriever: Likely string found in file dialog ToB En.tra at Id 6820, likeliness 100.0 %
-@79    = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
+@79    = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place.
 
 PARAMETRES :
 
@@ -156,8 +156,8 @@ TAC0 : bonus de +1
 Dégâts : 1D6 +1
 50 % de chance de faire +1 point de dégâts du feu
 Type de dégâts : perforant
-Facteur de Vitesse : 4
-Type de compétence : lance 
+Facteur de Vitesse : 5
+Type de compétence : lance
 Type : arme à 2 mains
 Force nécessaire : 5
 

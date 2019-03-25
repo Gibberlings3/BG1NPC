@@ -138,7 +138,7 @@ Kann nicht verwendet werden von:
 
 EIGENSCHAFTEN:
 
-10 % Chance, dass ein getroffenes Ziel für 24 Sekunden verstrickt wird (kein RW)
+Bei 10 % der Treffer wird das Ziel für 2 Runde verstrickt (Rettungswurf gg. Odemwaffen).
 
 ETW0-Bonus: +2
 Schaden: 1W6+2 (Stich)
@@ -600,7 +600,7 @@ ETW0: +1
 Schaden: 1W6+1 (Stich)
 (+1 Feuer, 50% Wahrscheinlichkeit)
 Gewicht: 4
-Initiativefaktor: 4
+Initiativefaktor: 5
 Fertigkeit: Speer
 Typ: 2-händig
 Mindeststärke: 5

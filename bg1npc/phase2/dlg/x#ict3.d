@@ -269,7 +269,7 @@ I_C_T3 ~%tutu_var%THALAN~ 0 X#THALAN0
 == ~%tutu_var%THALAN~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @921
 == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @95
 == ~%tutu_var%THALAN~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @96
-DO ~GiveItemCreate("X#KISPEA","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
+DO ~GiveItemCreate("x#kispr","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
 END
 
 /* passback not required - trans actions are journal related */

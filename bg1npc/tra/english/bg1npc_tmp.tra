@@ -143,7 +143,7 @@ Not Usable By:
 STATISTICS:
 
 Combat Abilities:
-10 percent chance with every hit that opponent is entangled for 24 seconds, no save
+10% chance per hit of entangling the target for 2 rounds (Save vs. Breath negates)
 THAC0: +2 bonus
 Damage:  1D6 +2
 Damage type:  piercing
@@ -601,7 +601,7 @@ Special: +20 percent fire resistance
 Casts Fire Shield (Red) once per day
 Damage type: piercing
 Weight: 4
-Speed Factor: 4
+Speed Factor: 5
 Proficiency Type: Spear
 Type: 2-handed
 Requires: 5 Strength

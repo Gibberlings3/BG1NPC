@@ -25,7 +25,7 @@ Weight: 5~
 STATISTICS:
 
 Combat Abilities:
-- 10 percent chance with every hit that opponent is entangled for 24 seconds, no save
+- 10% chance per hit of entangling the target for 2 rounds (Save vs. Breath negates)
 
 THAC0: +2 bonus
 Damage:  1D6 +2
@@ -172,19 +172,19 @@ Charge Abilities:
 Damage: 1D6 + 1
 THAC0: +1 bonus
 Damage type: piercing
-Speed Factor: 4
-Proficiency Type: Spear 
+Speed Factor: 5
+Proficiency Type: Spear
 Type: 2-handed
 Requires: 5 Strength
 
 Weight: 4~
- @630  = ~Winski Perorate's Amulet 
+ @630  = ~Winski Perorate's Amulet
 
-Winski Perorate's work with the nether regions of the underworld often placed him in close proximity to beings who would prefer Winski to be wearing his skin inside out. To make that possibility less likely, Winski commissioned a nabassu to build an amulet that would ward off evil creatures long enough to gain control of them. Unfortunately, Winski had a momentary lapse in memory due to great injury, and forgot to activate his amulet. This allowed his summoned Tanar'ri access to its summoner, with predictable results. 
+Winski Perorate's work with the nether regions of the underworld often placed him in close proximity to beings who would prefer Winski to be wearing his skin inside out. To make that possibility less likely, Winski commissioned a nabassu to build an amulet that would ward off evil creatures long enough to gain control of them. Unfortunately, Winski had a momentary lapse in memory due to great injury, and forgot to activate his amulet. This allowed his summoned Tanar'ri access to its summoner, with predictable results.
 
 STATISTICS:
 
-Charge Abilities: 
+Charge Abilities:
 - Protection from Evil 10' radius, once per day
 
 Weight: 0~

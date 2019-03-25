@@ -15,7 +15,7 @@ Le 11 Ches 1368 : Mes recherches ont progressé. Les moines de Château-Suif se so
 
 Le 3 Tarsahk 1368 : Le moine Gorion m'inquiète. Il s'est apparemment intéressé à mes lectures. Je dois impérativement veiller à mieux protéger le secret de mes recherches. J'aimerais pouvoir m'en débarrasser, mais je ne crois pas qu'il soit possible de l'assassiner dans cette damnée bibliothèque.
 
-Le 11 Tarsahk 1368 : J'ai fait un rêve cette nuit. Ma mère me parlait... Mais peu à peu son visage s'est mis à se congestionner et à perdre ses couleurs... Sa voix est devenue plus faible. Elle demandait que je la protège de Rieltar. Je voyais le garrot autour de son cou, mais je ne réagissais pas. Ce n'était qu'un rêve. 
+Le 11 Tarsahk 1368 : J'ai fait un rêve cette nuit. Ma mère me parlait... Mais peu à peu son visage s'est mis à se congestionner et à perdre ses couleurs... Sa voix est devenue plus faible. Elle demandait que je la protège de Rieltar. Je voyais le garrot autour de son cou, mais je ne réagissais pas. Ce n'était qu'un rêve.
 
 Le 27 Tarsahk 1368 : Je quitte à présent Château-Suif, et il est plus que temps, car je suis sûr que Gorion connaît à présent mes origines. Une chose est certaine : <CHARNAME> descend en fait aussi de Bhaal. <CHARNAME> en a tous les stigmates et cela pourrait expliquer la curiosité que Gorion manifeste pour mes études. Je ne peux rien faire maintenant, mais il faudra absolument que je retourne là-bas pour tuer ce gamin. Ce serait de la folie de laisser la vie sauve à l'un de mes frères et soeurs, surtout quelqu'un élevé par les Ménestrels (et je suis sûr que Gorion en est un).
 
@@ -25,7 +25,7 @@ Le 8 Martel 1369 : J'ai rencontré les chefs du Frisson et des Griffes Noires. J'
 
 Le 3 Tarsahk 1369 : Tout va bien. Le minerai extrait de Nashkel a commencé à se détériorer et mes mercenaires ont fait du bon travail en détruisant tous les convois qui acheminaient du métal vers la Porte de Baldur. Bien que certains aient été capturés, la plupart pensent travailler pour les Zhents ; aucun trouble n'a donc perturbé le Trône de Fer. Il est évident que les Zhents de la Forteresse Noire n'apprécieront pas cette utilisation abusive de leur nom. Il faudra que je me méfie de leurs agents dans les prochains mois.
 
-Le 28 Tarsahk 1369 : Je pense avoir maintenant le temps de m'occuper de ce vieux Gorion et de son rejeton. Je vais devoir informer mes hommes que je serai absent pendant les prochaines semaines.  
+Le 28 Tarsahk 1369 : Je pense avoir maintenant le temps de m'occuper de ce vieux Gorion et de son rejeton. Je vais devoir informer mes hommes que je serai absent pendant les prochaines semaines.
 
 Le 5 Myrtle 1369 : J'ai à peine le temps d'écrire, mais je ne dois pas négliger mon journal pour autant. Les morts à venir doivent savoir comment le Seigneur du Meurtre vint à nouveau à eux. Je devrai engager un scribe, quand le temps le permettra. Les choses ne se sont pas déroulées exactement comme prévu, mais je peux encore sauver la situation. <CHARNAME> est en route pour la Porte de Baldur ; si je pouvais l'attirer à Château-Suif, j'aurais un bouc émissaire parfait. Mon « père » mortel, Rieltar, s'y trouve pour rencontrer les Chevaliers de l'Ecu. Il a bloqué toutes mes tentatives visant à intensifier les hostilités entre l'Amn et la Porte de Baldur, et ces entretiens ne serviront qu'à adoucir les relations. Il faut que je me débarrasse d'eux et que je prenne moi-même le contrôle du Trône de Fer. Je ne peux pas laisser les minables intérêts d'affaires et d'argent interférer. Vraiment désolé, « père », mais ma véritable parenté m'appelle et tu me bloques le passage. Il faut que je pense à donner des instructions aux dopplegangers sur la manière exacte dont Rieltar doit mourir. Je pense qu'un garrot serait parfait pour cette tâche.
 
@@ -185,7 +185,7 @@ Non utilisable par :
 PARAMETRES :
 
 Capacités de combat :
-  10 % de chance à chaque coup que l'adversaire soit enchevêtré pendant 24 secondes, sans sauvegarde
+  - 10 % de chance à chaque coup que l'adversaire soit enchevêtré pendant 2 rounds (annulé par une sauvegarde contre les souffles)
 TAC0 : bonus de +2
 Dégâts : 1D6 +2
 Type de dégâts : perforant
@@ -201,7 +201,7 @@ Non utilisable par :
  Mage~
 @78    = ~Pavois - Chêne blanc~
 // Translation Retriever: Likely string found in file dialog ToB En.tra at Id 6820, likeliness 100.0 %
-@79    = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
+@79    = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place.
 
 PARAMETRES :
 
@@ -624,7 +624,7 @@ PARAMETRES :
 Spécial :
   Immunité à Charme-personne
   Peut lancer Charme-personne une fois par jour
-  
+
 Utilisable uniquement par :
  Personnage d'alignement Neutre ou Mauvais~
 // Translation Retriever: perfect match found in file dialog ToB En.tra at Id 73368
@@ -762,8 +762,8 @@ Dégâts : 1D6 +1
 50 % de chance de faire +1 point de dégâts du feu
 Type de dégâts : perforant
 Poids : 4
-Facteur de Vitesse : 4
-Type de compétence : lance 
+Facteur de Vitesse : 5
+Type de compétence : lance
 Type : arme à 2 mains
 Force nécessaire : 5
 Inutilisable par :
@@ -1123,7 +1123,7 @@ Je suis tenté de profiter de l'occasion pour faire un détour par Château-Suif lo
 
 Le 30 Marpenoth 1367 : J'ai rencontré les dirigeants du Frisson et des Griffes Noires. J'éprouve peu de sympathie pour Ardenor, le chef du Frisson, mais Taugosz semble être un homme de parole. C'est une bonne chose, car je vais devoir travailler avec ces mercenaires sur toute la durée ; Rieltar appuie même l'idée de me placer à la tête de toute cette aile de l'opération. Mais il ne faudrait pas qu'on aperçoive le fils adoptif d'un dirigeant du Trône de Fer en compagnie de bandits, bien entendu, alors j'ai choisi le demi-ogre Tazok en tant que représentant ; ses compétences et sa loyauté envers moi sont très satisfaisantes.
 
-Le 3 Uktar 1367 : Un nouveau rêve cette nuit. Mère me parlait... Mais peu à peu son visage s'est mis à se congestionner et à perdre ses couleurs... Sa voix est devenue plus faible. Elle demandait que je la protège de Rieltar. Je voyais le garrot autour de son cou, mais je ne réagissais pas. Ce n'était qu'un rêve. 
+Le 3 Uktar 1367 : Un nouveau rêve cette nuit. Mère me parlait... Mais peu à peu son visage s'est mis à se congestionner et à perdre ses couleurs... Sa voix est devenue plus faible. Elle demandait que je la protège de Rieltar. Je voyais le garrot autour de son cou, mais je ne réagissais pas. Ce n'était qu'un rêve.
 
 Le 8 Uktar 1367 : Aujourd'hui je suis retourné à notre quartier général nouvellement achevé à la Porte de Baldur et j'ai fait mon rapport à Rieltar. L'imbécile tient encore à m'appeler son fils, et je laisse faire pour l'instant. Il suppose que je lui suis loyal parce qu'il m'a élevé. Eh bien, loyal je suis, mais uniquement tant qu'il m'est utile. Il m'a effectivement placé aux commandes des opérations avec les mercenaires, tandis qu'il supervise les intrigues avec les doppelgangers et que Davaëorn surveille la situation minière. La démonstration du poison minéral était très impressionnante.
 
@@ -1203,7 +1203,7 @@ Inutilisable par :
 @639   = ~Biche blanche~
 // Translation Retriever: perfect match found in file dialog TotSC En.tra at Id 11748
 @640   = ~Mercenaire~
-// BG2 - FEMALE1 
+// BG2 - FEMALE1
 @700 = ~[ORGEF 1]~ [X#OGREF1]
 @701 = ~[ORGEF 2]~ [X#OGREF2]
 @702 = ~[ORGEF 3]~ [X#OGREF3]

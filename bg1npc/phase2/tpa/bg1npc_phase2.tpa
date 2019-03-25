@@ -230,12 +230,18 @@ END
   END
 
   /* Kivan's spear */
-  COPY ~bg1npc/phase2/itm/X#KISPEA.itm~ ~override~
+  COPY ~bg1npc/phase2/itm/x#kispr.itm~ ~override~
     SAY NAME1 @74
     SAY NAME2 @75
     SAY UNIDENTIFIED_DESC @76
     SAY DESC @77
     WRITE_LONG 0x34 0
+
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+    COPY ~bg1npc/phase2/spl/x#kispr_ee.spl~ ~override/x#kispr.spl~
+  END ELSE BEGIN
+    COPY ~bg1npc/phase2/spl/x#kispr_tutu.spl~ ~override/x#kispr.spl~
+  END
 
   /* Great Shield - White Oak */
   COPY ~bg1npc/phase2/itm/X#FASH01.itm~ ~override~
