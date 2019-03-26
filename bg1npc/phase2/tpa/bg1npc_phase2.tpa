@@ -243,6 +243,8 @@ END
     COPY ~bg1npc/phase2/spl/x#kispr_tutu.spl~ ~override/x#kispr.spl~
   END
 
+  /* See end of file for routine to patch items with Entangle immunity */
+
   /* Great Shield - White Oak */
   COPY ~bg1npc/phase2/itm/X#FASH01.itm~ ~override~
     SAY NAME1 @78
@@ -310,6 +312,24 @@ END
       END
     BUT_ONLY_IF_IT_CHANGES
   END
+
+  /* Patching all items with immunity to Entangle SPPR105.SPL to also grant immunity to Kivan's Spear effect */
+  COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      LAUNCH_PATCH_FUNCTION CLONE_EFFECT
+        INT_VAR
+          check_globals=1
+          check_headers=0
+          multi_match=1
+          verbose=1
+          match_opcode=206
+        STR_VAR
+          insert=~below~
+          match_resource=~SPPR105~
+          resource=~x#kispr~
+      END
+    END
+  BUT_ONLY_IF_IT_CHANGES
 
   /* Make sure this is last in Quest additions for Phase 2 */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ICT3.D~
