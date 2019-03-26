@@ -321,7 +321,6 @@ END
           check_globals=1
           check_headers=0
           multi_match=1
-          verbose=1
           match_opcode=206
         STR_VAR
           insert=~below~
