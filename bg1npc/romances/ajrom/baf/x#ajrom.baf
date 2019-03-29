@@ -30,7 +30,7 @@ InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 CombatCounter(0)
 !See([ENEMY])
-HasItemEquiped("%tutu_var%BELT05",Player1) 
+HasItemEquiped("%tutu_var%BELT05",Player1)
 Global("X#AjantisRomanceMatch","GLOBAL",1)
 OR(2)
 Global("X#AjantisRomanceActive","GLOBAL",1)
@@ -48,7 +48,7 @@ InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 CombatCounter(0)
 !See([ENEMY])
-HasItemEquiped("%tutu_var%BELT05",Player1) 
+HasItemEquiped("%tutu_var%BELT05",Player1)
 Global("X#AjantisRomanceMatch","GLOBAL",1)
 OR(2)
 Global("X#AjantisRomanceActive","GLOBAL",1)
@@ -433,10 +433,22 @@ IF %BGT_VAR%
  AreaCheck("%Nashkel%") //Nashkell
  AreaCheck("%NashkelCarnival%") //Carnival
 THEN
- RESPONSE #100
+ RESPONSE #25
  IncrementGlobal("X#AjantisLoveTalk","GLOBAL",2)
  SetGlobal("X#AjantisHasRing","GLOBAL",1)
- CreateCreatureObjectOffScreen("X#AJDOUG",Myself,0,0,0) //Douglas
+ CreateCreatureObjectOffSet("X#AJDOUG",Myself,[-500.0]) //Douglas
+ RESPONSE #25
+ IncrementGlobal("X#AjantisLoveTalk","GLOBAL",2)
+ SetGlobal("X#AjantisHasRing","GLOBAL",1)
+ CreateCreatureObjectOffSet("X#AJDOUG",Myself,[500.0]) //Douglas
+ RESPONSE #25
+ IncrementGlobal("X#AjantisLoveTalk","GLOBAL",2)
+ SetGlobal("X#AjantisHasRing","GLOBAL",1)
+ CreateCreatureObjectOffSet("X#AJDOUG",Myself,[0.-500]) //Douglas
+ RESPONSE #25
+ IncrementGlobal("X#AjantisLoveTalk","GLOBAL",2)
+ SetGlobal("X#AjantisHasRing","GLOBAL",1)
+ CreateCreatureObjectOffSet("X#AJDOUG",Myself,[0.500]) //Douglas
 END
 
 /* restart of romance cycle after accepted marriage proposal (to gain some time before the next LT fires) */
