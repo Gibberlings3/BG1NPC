@@ -27,7 +27,7 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
-			infer_charset = 1
+			infer_charsets = 1
 		STR_VAR
 			tra_path = EVAL ~bg1npc/tra~
 			noconvert_array = x#noconvert
