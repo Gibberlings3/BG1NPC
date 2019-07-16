@@ -1,4 +1,4 @@
-ADD_TRANS_TRIGGER ~%tutu_scripts%LAVLEAD~ 2 ~OR(3) !InParty("jaheira") !InMyArea("jaheira") StateCheck("jaheira",CD_STATE_NOTVALID)~ 
+ADD_TRANS_TRIGGER ~%tutu_scripts%LAVLEAD~ 2 ~OR(3) !InParty("jaheira") !InMyArea("jaheira") StateCheck("jaheira",CD_STATE_NOTVALID)~
 
 EXTEND_BOTTOM ~%tutu_scripts%LAVLEAD~ 2
 + ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ + @0 DO ~SetGlobal("X#JahRill","GLOBAL",1)~ EXTERN ~%JAHEIRA_JOINED%~ JaRill
@@ -216,10 +216,10 @@ END
 //== ~%KHALID_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID) InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @60
 //END
 
-I_C_T ~%tutu_var%TRANZI~ 10 X#JaTranzi2
-== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @61
-== ~%tutu_var%TRANZI~ @62
-END
+// I_C_T ~%tutu_var%TRANZI~ 10 X#JaTranzi2
+// == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @61
+// == ~%tutu_var%TRANZI~ @62
+// END
 
 //I_C_T ~%tutu_var%TRANZI~ 7 X#JaTranzi1
 //== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @63
@@ -384,12 +384,12 @@ END
 I_C_T ~%tutu_var%JARED~ 0 X#JaheiraJared
  == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @114
  END
- 
+
 I_C_T ~%tutu_var%DRYAD~ 1 X#JaheiraDryad1
  == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @115
  == ~%tutu_var%DRYAD~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @116
  END
- 
+
 //I_C_T ~%tutu_var%DRYAD~ 4 X#JaheiraDryad2
 // == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @117
 // == ~%tutu_var%DRYAD~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @118
@@ -688,7 +688,7 @@ END
 
 END
 
-APPEND ~%KHALID_JOINED%~ 
+APPEND ~%KHALID_JOINED%~
 
 IF ~~ KhalidUnder1
 SAY @183
@@ -718,9 +718,9 @@ IF WEIGHT #3 ~%BGT_VAR% PartyHasItem("%tutu_var%MISC13") InParty("jaheira") InMy
  IF ~~ THEN REPLY @189 GOTO 12
  END
  END
- 
+
  APPEND ~%JAHEIRA_BANTER%~
- 
+
  IF ~~ JaiSamuel1
  SAY @190
  IF ~~ THEN EXTERN ~%tutu_var%FLAM4~ 10

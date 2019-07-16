@@ -1,0 +1,96 @@
+/* Area Script Assignment Patching: All Areas Script ID'd */
+/* Tutu */
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+  INCLUDE ~bg1npc/LIB/tutu_area_script_assign.tph~
+END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+/* BGEE */
+  INCLUDE ~bg1npc/LIB/bgee_area_script_assign.tph~
+
+  /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
+  ACTION_IF FILE_EXISTS_IN_GAME ~%NorthNashkelRoad_BCS%.bcs~ THEN BEGIN
+    COPY_EXISTING ~%NorthNashkelRoad_BCS%.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~Global("PoorMrColquetleFamily","GLOBAL",0) False()~
+        END
+    BUT_ONLY_IF_IT_CHANGES
+  END
+END
+
+/* Area Type Flagging */
+  /* TotSC only */
+  ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
+    COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
+                  ~%IsleofBalduranS%.are~ ~override~
+                  ~%DurlagsTower%.are~ ~override~
+                  ~%Farmlands%.are~ ~override~ //  is this correct? area reference is... FW0400
+      READ_BYTE  "0x48" "flags"
+      WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
+    BUT_ONLY_IF_IT_CHANGES
+  END
+
+  /* FOREST and OUTDOOR */
+  COPY_EXISTING ~%FishingVillage%.are~ ~override~
+                ~%Peldvale%.are~ ~override~
+                ~%LionsWay%.are~ ~override~
+                ~%CoastWay%.are~ ~override~
+                ~%Larswood%.are~ ~override~
+                ~%ShipwrecksCoast%.are~ ~override~
+                ~%HighHedge%.are~ ~override~
+                ~%MutaminsGarden%.are~ ~override~
+                ~%Lighthouse%.are~ ~override~
+                ~%RedCanyons%.are~ ~override~
+                ~%SouthBeregostRoad%.are~ ~override~
+                ~%Ulcaster%.are~ ~override~
+                ~%ArchaeologicalSite%.are~ ~override~
+                ~%FishermansLake%.are~ ~override~
+                ~%NorthNashkelRoad%.are~ ~override~
+                ~%LonelyPeaks%.are~ ~override~
+                ~%FirewineBridge%.are~ ~override~
+                ~%BearRiver%.are~ ~override~
+                ~%ValleyoftheTombs%.are~ ~override~
+                ~%DryadFalls%.are~ ~override~
+                ~%FireLeafForest%.are~ ~override~
+                ~%GibberlingMountains%.are~ ~override~
+    READ_BYTE  "0x48" "flags"
+    WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
+  BUT_ONLY_IF_IT_CHANGES
+
+  /* OUTDOOR ONLY */
+  COPY_EXISTING ~%GnollStronghold%.are~ ~override~
+                ~%NashkelMines%.are~ ~override~
+                ~%FriendlyArmInn%.are~ ~override~
+                ~%Temple%.are~ ~override~
+                ~%NashkelCarnival%.are~ ~override~
+    READ_BYTE  "0x48" "flags"
+    WRITE_BYTE "0x48" ("%flags%" BOR "0b00000001")
+  BUT_ONLY_IF_IT_CHANGES
+
+  /* CITY and OUTDOOR */
+  COPY_EXISTING ~%WyrmsCrossing%.are~ ~override~
+                ~%Candlekeep_Ch6%.are~ ~override~
+                ~%Gullykin%.are~ ~override~
+    READ_BYTE  "0x48" "flags"
+    WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
+  BUT_ONLY_IF_IT_CHANGES
+
+  // BGEE Fix Area Scripts for AR2400.BCS and AR2900.BCS
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN //do once
+//  	COPY ~bg1npc/Core/X#component.xx~ ~override/AY#BGEEARBCSFIX.000~
+
+  	COPY_EXISTING ~%Peldvale_BCS%.bcs~ ~override~
+  		DECOMPILE_AND_PATCH BEGIN
+    			//Add Exists(Raiken) check to TazokSays script block
+    			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Raiken")~
+    		END
+      UNLESS ~Exists("Raiken")~
+    BUT_ONLY_IF_IT_CHANGES
+
+  	COPY_EXISTING ~%Larswood_BCS%.bcs~ ~override~
+  		DECOMPILE_AND_PATCH BEGIN
+    			//Add Exists(Teven) check to TazokSays script block
+    			REPLACE_TEXTUALLY ~Global("TazokSays","GLOBAL",1)~ ~Global("TazokSays","GLOBAL",1) Exists("Teven")~
+    		END
+      UNLESS ~Exists("Teven")~
+    BUT_ONLY_IF_IT_CHANGES
+
+  END // BGEE Area Script Fix

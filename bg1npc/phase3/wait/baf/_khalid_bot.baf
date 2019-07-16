@@ -1,8 +1,0 @@
-IF
-	InParty(Myself)
-	Global("X#Kh_Jae","GLOBAL",0)
-THEN
-	RESPONSE #100
-		IncrementGlobal("X#Kh_Jae","GLOBAL",1)
-END
-

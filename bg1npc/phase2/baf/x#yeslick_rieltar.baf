@@ -1,0 +1,45 @@
+/* In Candlekeep library, Yeslick and the party fight Rieltar */
+IF %BGT_VAR%
+AreaCheck("%Candlekeep_Library_L3%")
+Global("X#YWMRFTFT","GLOBAL",1)
+Global("X#YRACTH","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("X#YRACTH","GLOBAL",2)
+ActionOverride("rieltar",Enemy())
+ActionOverride("bruno",Enemy())
+ActionOverride("tuth",Enemy())
+ActionOverride("kestor",Enemy())
+END
+
+/* If Yeslick and the party fight Rieltar and win */
+IF %BGT_VAR%
+Global("X#YRACTH","GLOBAL",2)
+Dead("rieltar")
+Dead("bruno")
+Dead("tuth")
+Dead("kestor")
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("X#YRACTH","GLOBAL",3)
+END
+
+/* Initiate */
+IF %BGT_VAR%
+Global("X#YRACTH","GLOBAL",3)
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("yesli99")
+StartDialogueNoSet(Player1)
+END

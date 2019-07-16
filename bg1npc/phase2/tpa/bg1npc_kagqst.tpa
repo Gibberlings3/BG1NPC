@@ -1,0 +1,135 @@
+/* Kagain's Caravan */
+/* Kagain Caravan quest rebuild */
+
+// Get state for X#SkieBrillaGuards
+OUTER_SET SkieBrillaGuards = STATE_WHICH_SAYS 66 IN ~bg1npc/tra/%s/x#skint.tra~ FROM ~%tutu_var%BRILLA~
+
+/* BGEE v2.5+ */
+ACTION_IF FILE_EXISTS_IN_GAME ~BDENTBOY.CRE~ THEN BEGIN
+  /* Area patching */
+  EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~bg1npc/phase2/baf/x#kagqst_are.baf~
+    EVALUATE_BUFFER
+
+  /* Patch Kagain's script */
+  COPY_EXISTING ~%KAGAIN_BCS%.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~Global("KagainCaravan","GLOBAL",2) !ActuallyInCombat()~ ~False()~
+    END
+  BUT_ONLY_IF_IT_CHANGES
+  EXTEND_BOTTOM ~%KAGAIN_BCS%.bcs~ ~bg1npc/phase2/baf/x#kagqst_ee.baf~
+     EVALUATE_BUFFER
+
+  /* Patch Skie's script */
+  EXTEND_BOTTOM ~%KAGAIN_BCS%.bcs~ ~bg1npc/phase2/baf/x#kagqst_skie.baf~
+     EVALUATE_BUFFER
+
+  /* dialogue */
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/dlg/x#kagqst_ee.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kagqst.tra~
+
+/* Tutu, BGT, BGEE v1.x-v2.3 */
+END ELSE BEGIN
+  /* area patching */
+  COPY_EXISTING ~%CoastWay_BCS%.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~GlobalLT("KagainCaravan","GLOBAL",2)~ ~False()~
+    END
+  BUT_ONLY_IF_IT_CHANGES
+  EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~bg1npc/phase2/baf/p#fw2800.baf~
+     EVALUATE_BUFFER
+
+  /* Overriding old Kagain Quest interaction triggers */
+  COPY_EXISTING ~%KAGAIN_BCS%.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~GlobalTimerExpired("KAGAIN","GLOBAL")~ ~False()~
+    END
+  BUT_ONLY_IF_IT_CHANGES
+  EXTEND_BOTTOM ~%KAGAIN_BCS%.bcs~ ~bg1npc/phase2/baf/x#kagqst.baf~
+     EVALUATE_BUFFER
+
+  /* dialogue */
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/dlg/x#kagqst_tutu.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kagqst.tra~
+
+  /* Burned corpse */
+  COPY ~bg1npc/phase2/cre/x#burn01.cre~ ~override~
+    PATCH_IF GAME_IS ~bgee~ BEGIN
+      SAY NAME1 #17309  // Male body
+      SAY NAME2 #17309  // Male body
+    END ELSE BEGIN	/* Tutu, BGT */
+      SAY NAME1 #20323  // Body
+      SAY NAME2 #20323  // Body
+    END
+
+  /* Adding Brilla's DV */
+  COPY_EXISTING ~%tutu_var%brilla.cre~ ~override~
+    WRITE_ASCIIE 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+    WRITE_ASCII 0x280 ~brilla~ #32 //  death variable
+  BUT_ONLY_IF_IT_CHANGES
+
+END // End Tutu, BGT, BGEE 1.x only stuff
+
+/* common stuff */
+
+/* items */
+COPY ~bg1npc/phase2/itm/x#silsh.itm~ ~override~
+  SAY NAME1 @34
+  SAY NAME2 @34
+  SAY UNIDENTIFIED_DESC @35
+  SAY DESC @35
+
+/* creatures */
+COPY_EXISTING ~%tutu_scripti%ronelit.cre~ ~override/x#kaband.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+  REMOVE_CRE_ITEMS
+  SAY NAME1 @24
+  SAY NAME2 @24
+  SAY INITIAL_MEETING @25
+  SAY BATTLE_CRY1 @26
+  SAY BATTLE_CRY2 @25
+  SAY DAMAGE @28
+  SAY DYING @29
+  SAY SELECT_COMMON1 @26
+  SAY SELECT_COMMON2 @25
+  WRITE_SHORT 0x0028 0x6110 // animation ID fighter_female_human
+  WRITE_BYTE 0x006E ~2~ // Large sword proficiency
+  WRITE_BYTE 0x0237 0x02//  gender: female
+  WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
+  WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_var%WTARSGT~ #8 //  Creature script - Default
+  WRITE_BYTE 0x0275 0x02//  gender: female
+  ADD_CRE_ITEM ~%tutu_var%CHAN04~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+  ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~GLOVES~
+  ADD_CRE_ITEM ~%tutu_var%SW1H04~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~%tutu_var%BOW05~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON2~
+  ADD_CRE_ITEM ~%tutu_var%AROW01~ #20 #0 #0 ~IDENTIFIED~ ~QUIVER1~ EQUIP
+  ADD_CRE_ITEM ~X#SILSH~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
+  ADD_CRE_ITEM ~RNDTRE02~ #0 #0 #0 ~IDENTIFIED~ ~INV2~
+
+COPY_EXISTING  ~%tutu_var%bandit.cre~ ~override/x#bandk.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+  REMOVE_CRE_ITEMS
+  SAY NAME1 @30
+  SAY NAME2 @30
+  SAY INITIAL_MEETING @31
+  SAY BATTLE_CRY1 @31
+  SAY DAMAGE @32
+  SAY DYING @33
+  SAY SELECT_COMMON1 @31
+  WRITE_BYTE 0x0070 ~1~ // Bow proficiency
+  WRITE_EVALUATED_ASCII SCRIPT_DEFAULT ~%tutu_var%WTARSGT~ #8 //  Creature script - Default
+  WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
+  ADD_CRE_ITEM ~%tutu_var%LEAT01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+  ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~GLOVES~
+  ADD_CRE_ITEM ~%tutu_var%BOW03~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~%tutu_var%SW1H04~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON2~
+  ADD_CRE_ITEM ~%tutu_var%AROW01~ #20 #0 #0 ~IDENTIFIED~ ~QUIVER1~ EQUIP
+  ADD_CRE_ITEM ~RNDTRE02~ #0 #0 #0 ~IDENTIFIED~ ~INV1~
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/X#KABAND.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/X#BANDK.BAF~
+
+/* Add Journal entries for BGEE */
+ADD_JOURNAL EXISTING TITLE (#31350) @35 @49 @54 USING ~bg1npc/tra/%LANGUAGE%/x#kagqst.tra~

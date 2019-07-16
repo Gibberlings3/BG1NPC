@@ -178,9 +178,9 @@ CHAIN3 ~%KIVAN_JOINED%~ EMKIBigChain
 = @46
 = @47
 = @48
-== ~%KIVAN_JOINED%~ IF ~Dead("tazok")~ THEN @49
-== ~P#IMANEL~ IF ~Dead("tazok")~ THEN @50
-= @51
+//== ~%KIVAN_JOINED%~ IF ~Dead("tazok")~ THEN @49
+//== ~P#IMANEL~ IF ~Dead("tazok")~ THEN @50
+//= @51
 == ~%KIVAN_JOINED%~ @43
 == ~P#IMANEL~ @52
 == ~%KIVAN_JOINED%~ @53

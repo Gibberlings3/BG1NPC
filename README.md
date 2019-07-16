@@ -2,38 +2,38 @@
 
 **[A Gibberlings Three Mod](http://www.gibberlings3.net/)**
 
-**Authors:** [The BG1NPC Project Team](http://gibberlings3.net/forums/?showtopic=1315). Please contact us on the Gibberlings3 forums for more information.
+**Authors:** [The BG1NPC Project Team](https://www.gibberlings3.net/forums/topic/1315-credits/). Please contact us on the Gibberlings3 forums for more information.
 
 **Project Coordinators (in temporal order):**
-* [Blucher](http://gibberlings3.net/forums/?showuser=721)
-* [Kish](http://gibberlings3.net/forums/?showuser=62)
-* [Andyr](http://gibberlings3.net/forums/?showuser=30)
-* [Domi](http://gibberlings3.net/forums/?showuser=142)
-* [cmorgan](http://gibberlings3.net/forums/?showuser=844)
-* Currently: [AstroBryGuy](http://gibberlings3.net/forums/index.php?showuser=6858)
+* [Blucher](https://www.gibberlings3.net/profile/721-blucher/)
+* [Kish](https://www.gibberlings3.net/profile/62-kish/)
+* [Andyr](https://www.gibberlings3.net/profile/30-andyr/)
+* [Domi](https://www.gibberlings3.net/profile/142-domi/)
+* [cmorgan](https://www.gibberlings3.net/profile/844-cmorgan/)
+* Currently: [AstroBryGuy](https://www.gibberlings3.net/profile/6858-astrobryguy/)
 
-**On the web: [Home page](http://www.gibberlings3.net/bg1npc/)** and **[discussion forum](http://gibberlings3.net/forums/index.php?showforum=45)**
+**On the web: [Home page](https://www.gibberlings3.net/mods/npcs/bg1npc/)** and **[discussion forum](https://www.gibberlings3.net/forum/45-bg1-npc-project/)**
 For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](http://www.gibberlings3.net/). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net/).
 
-**Version** 23.1 - [Check for the most recent version](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+**Version** 24.0 - [Check for the most recent version](https://www.gibberlings3.net/files/file/908-bg1-npc-project/)
 **Languages:** English, Spanish, French, Polish, German* (teilweise noch in englisch)
 **Platforms:** Windows, Mac OS X, and Linux
 
 ## Contents
 
-[Notes](#notes)
-[Overview](#overview)
-[Compatibility](#compatibility)
-[Installation](#installation)
-[Components](#components)
-[Modder Notes](#modder-notes)
-[Thanks and Acknowledgments](#thanks-and-acknowledgments)
-[Contact and Copyright Information](#contact-and-copyright-information)
-[Version History](#version-history)
+* [Notes](#notes)
+* [Overview](#overview)
+* [Compatibility](#compatibility)
+* [Installation](#installation)
+* [Components](#components)
+* [Modder Notes](#modder-notes)
+* [Thanks and Acknowledgments](#thanks-and-acknowledgments)
+* [Contact and Copyright Information](#contact-and-copyright-information)
+* [Version History](#version-history)
 
 ## Notes
 
-For documentation to troubleshoot romances or quests, please follow these links, or reference the individual .html files in the directory BG1NPC\Documents:
+For documentation to troubleshoot romances or quests, please follow these links, or reference the individual .html files in the directory BG1NPC/Documents:
 
 * [BG1NPC Romance Guide](bg1npc_docs/bg1npc_romance_guide.pdf)
 * [Dynaheir's Quest](bg1npc_docs/dynaheirsquest.html)
@@ -58,9 +58,9 @@ This mod expands on the depth of character and levels of interaction with the NP
 
 ## Compatibility
 
-This mod is designed to work on Tutu v4, EasyTutu, and BGT, all based on full, patched installs of Baldur's Gate and Baldur's Gate II. Neither the BG2 expansion Throne of Bhaal nor the BG expansion Tales of the Sword Coast are required. Current versions are also compatible with BGEE and EET.
+The BG1 NPC Project is compatible with Tutu (v4 or EasyTutu), BGT, Baldur's Gate Enhanced Edition (with or without Siege of Dragonspear), and EET.
 
-This mod will not install correctly under versions of WeiDU below v237. This distribution ships with WeiDU v242, which will automatically update your WeiDU version when you install The BG1NPC Project.
+BG1NPC uses WeiDU for mod installation. The Windows and Mac packages ship with WeiDU v246.
 
 BG1NPC is not currently compatible with Tutu v5 or v6. It might install, but is guaranteed to behave incorrectly. Don't say we didn't warn you. If you have legacy copies of these rebuilds, don't use them - Easytutu and Tutu v4 are the last confirmed workable platforms.
 
@@ -75,25 +75,26 @@ For BGEE, a list of compatible mods can be found by checking [mlnevese's list of
 
 ## Installation
 
+### Special Note for Siege of Dragonspear from Steam/GOG
+Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must install a mod called [DLC Merger](https://github.com/Argent77/A7-DlcMerger/releases/latest) on your SoD installation before you can install this or any other WeiDU-based mod.
+
 ### Windows
-The BG1NPC Project is packaged and installed with WeiDU and is distributed as a self-extracting archive. To install, simply double-click the archive and follow the instructions on screen.
+The BG1NPC Project is packaged and installed with WeiDU. To install, extract the mod archive, and copy the "bg1npc" folder and setup-bg1npc.exe to your game folder (the folder which contains the CHITIN.KEY file). To install, simply double-click setup-bg1npc.exe and follow the instructions on screen.
 
-Alternatively the files can be extracted from the archive using [WinRAR](http://www.rarlab.com/). If properly extracted, you should have a "bg1npc" folder and setup-bg1npc.exe in your game folder (the folder which contains the CHITIN.KEY file). To install, simply double-click setup-bg1npc.exe and follow the instructions on screen.
-
-Please run setup-bg1npc in your game folder to reinstall, uninstall or otherwise change components.
+Please run setup-bg1npc.exe in your game folder to reinstall, uninstall or otherwise change components.
 
 ### macOS
-_If the mod was previously installed, uninstall it before extracting the new version._ The BG1NPC Project is packaged and installed with WeiDU. To install, extract the mod archive, then copy of the _contents_ of the folder "OSX-bg1npc-v22.9" into your game folder (the folder which contains the CHITIN.KEY file). If properly extracted, you should have a "bg1npc" folder, setup-bg1npc, and setup-bg1npc.command in your game folder. To install, simply double-click **setup-bg1npc.command** and follow the instructions on screen.
+_If the mod was previously installed, uninstall it before extracting the new version._ The BG1NPC Project is packaged and installed with WeiDU. To install, extract the mod archive, then copy the _contents_ of the folder "OSX-bg1npc-v24" into your game folder (the folder which contains the CHITIN.KEY file). If properly extracted, you should have a "bg1npc" folder, setup-bg1npc, and setup-bg1npc.command in your game folder. To install, simply double-click **setup-bg1npc.command** and follow the instructions on screen.
 
 ### Linux
-**For Tutu/BGT installs:** Download the latest version of WeiDU for Linux from weidu.org and extract (at least) the WeiDU, weinstall and tolower executables in a $PATH directory (e.g. /opt/bin). Following that, open a terminal, cd to your Tutu/BGT installation directory, run `tolower' and answer Y to both queries. After that, run 'weinstall bg1npc' from your game installation directory to install or uninstall the mod.
+**For Tutu/BGT installs:** Download the latest version of WeiDU for Linux from weidu.org and extract (at least) the WeiDU, weinstall and tolower executables in a $PATH directory (e.g. /opt/bin). Following that, open a terminal, cd to your Tutu/BGT installation directory, run 'tolower' and answer Y to both queries. After that, run 'weinstall bg1npc' from your game installation directory to install or uninstall the mod.
 
 **For BGEE/EET installs:** See [The Linux User's Guide to Installing Mods on the Enhanced Editions](http://gibberlings3.net/forums/index.php?showtopic=28516).
 
 
 ## Components
 
-The BG1NPC Project contains 28 separate components that can be installed independently of one another.
+The BG1NPC Project contains 18 separate components that can be installed independently of one another.
 
 At the beginning of the install, WeiDU will ask if you want to display four groups of components. If you wish to install or uninstall any of these components, reply "Y"; if not, the installer will allow you to skip ahead to the next section.
 
@@ -102,31 +103,10 @@ To uninstall BG1NPC completely, uninstall the component **The BG1NPC Project: Re
 If you wish to use only portraits or tweaks, you still must install this core repairs component.
 
 ### The BG1NPC Project: Required Modifications
-This component patches dialogue, creatures, scripts, adds or changes some items, fixes and alters some resources, and generally prepares for the rest of BG1 NPC . It must be installed if you want to install any of the other components. The rest of the mod is dependent on that core component being installed, and uninstalling it will automatically de-install **all** of BG1NPC.
+This component patches dialogue, creatures, scripts, adds or changes some items, fixes and alters some resources, and generally prepares for the rest of BG1NPC. It must be installed if you want to install any of the other components. The rest of the mod is dependent on that core component being installed, and uninstalling it will automatically de-install **all** of BG1NPC.
 
 ### The BG1NPC Project: Banters, Quests, and Interjections
-This component adds intra-party banters to BG NPCs. Each joinable NPC banters with every other joinable NPC and with the player character. It also adds interjections, scenery dialogue, encounters and quests for the NPCs . Kagain, Coran, Garrick, Kivan, Dynaheir, Xzar, Jaheira, Tiax, and Xan have custom personal quests. Additional small "Easter Egg" encounters are also included.
-
-### The BG1NPC Project: Give Edwin his BG2 Portrait
-This component will give Edwin his portrait from BG2 .
-
-### The BG1NPC Project: Give Imoen her BG2 Portrait
-This component will give Imoen her portrait from BG2 .
-
-### The BG1NPC Project: Give Jaheira her BG2 Portrait
-This component will give Jaheira her portrait from BG2 .
-
-### The BG1NPC Project: Give Minsc his BG2 Portrait.
-This component will give Minsc his portrait from BG2 .
-
-### The BG1NPC Project: Give Viconia her BG2 Portrait
-This component will give Viconia her portrait from BG2 .
-
-### The BG1NPC Project: Kivan's "Kivan and Deheriana Companions" Portrait
-This component will give Kivan his portrait from Domi's mod, for those wanting consitency for the entire saga.
-
-### The BG1NPC Project: Add Non-Joinable NPC Portraits to Quests and Dialogues (DEPRECATED)
-Installing this component gives some important non-joinable NPC portraits, such as Gorion, Angelo, Duke Eltan and Tazok. _This component has been deprecated due to copyright issues._
+This component adds intra-party banters to BG NPCs. Each joinable NPC banters with every other joinable NPC and with the player character. It also adds interjections, scenery dialogue, encounters and quests for the NPCs. Kagain, Coran, Garrick, Kivan, Dynaheir, Xzar, Jaheira, Tiax, and Xan have custom personal quests. Additional small "Easter Egg" encounters are also included.
 
 ### The BG1NPC Project: Ajantis's Romance Core (teen content)
 This component will allow Ajantis to romance a Good or Lawful Neutral female PC. As of this version, you must choose your preferred timing for any romances you install; the standard speed is one hour, meaning that the minimum real time between romance lovetalks is one hour.
@@ -149,67 +129,18 @@ This component will allow Xan to romance a female PC. As of this version, you mu
 ### The BG1NPC Project: Female Romance Challenges, Ajantis vs. Xan vs. Coran
 This component expands the romance options and content for female characters being courted by Coran, Ajantis, and/or Xan. It only appears for female characters who have two or three of these NPCs in their party.
 
-### The BG1NPC Project: NPCs Can Be Sent to Wait in an Inn
-_Tutu, BGEE Only_
-This component allows BG NPCs to be sent to an Inn, another location, or to wait for you when you dismiss them from the party. This component is not compatible with the similar component from Sword Coast Strategems, but both mods detect each other and will not install components that conflict. If you would prefer to use Sword Coast Stratagems' version, do not install BG1NPC's version. In the BG1NPC version, slightly different waiting places are used, and NPCs will highly dislike being abandoned alone in dangerous areas...
-
-**NPC waiting locations:**
-
-* Ajantis - Friendly Arm Inn or Elfsong Tavern
-* Alora - Friendly Arm Inn or Elfsong Tavern
-* Branwen - Friendly Arm Inn or Elfsong Tavern
-* Coran - Belching Dragon in Nashkel or Elfsong Tavern
-* Dynaheir/Minsc - Friendly Arm Inn or Elfsong Tavern
-* Edwin - Belching Dragon in Nashkel or Low Lantern
-* Eldoth/Skie - Feldpost's Inn or Elfsong Tavern
-* Faldorn - Cloakwood (what, you think she'd wait in an inn?)
-* Garrick - Friendly Arm Inn or Elfsong Tavern
-* Imoen - Friendly Arm Inn or Elfsong Tavern
-* Jaheria/Khalid - Friendly Arm Inn or Elfsong Tavern
-* Kagain - His store or Blusing Mermaid
-* Kivan - Friendly Arm Inn or Elfsong Tavern
-* Montaron/Xzar - Belching Dragon in Nashkel or Low Lantern
-* Quayle - Friendly Arm Inn or Elfsong Tavern
-* Safana - Belching Dragon in Nashkel or Elfsong Tavern
-* Shar-Teel - Belching Dragon in Nashkel or Blushing Mermaid
-* Viconia - A cave on the South Beregost Road or Blushing Mermaid
-* Xan - Friendly Arm Inn or Elfsong Tavern
-* Yeslick - Friendly Arm Inn or Elfsong Tavern
-
-### The BG1NPC Project: Alora's Starting Location.
-**Alora** will start either in her regular starting place or in [Gullykin](http://www.forgottenwars.com/bg1/ar4000.htm) at the door to the winery. Change to the join-in dialogue: If you are using a mod which changes Alora's pre-joining dialogue significantly (no known mods do at the present), please be advised that we create an entirely new joining dialogue file.
-
-### The BG1NPC Project: Eldoth's Starting Location
-_Tutu, BGEE Only_'
-**Eldoth** will start either at his regular location or at the [Coastal Way](http://www.forgottenwars.com/bg1/ar2800b.htm) by the obelisk. No change to the join-in dialogue.
-
-### The BG1NPC Project: Quayle's Starting Location
-_Tutu, BGEE Only_
-**Quayle** will be available in either his regular starting location or the [Nashkel Carnival](http://www.forgottenwars.com/bg1/ar4900.htm) near Great Gazib. No change to the join-in dialogue.
-
-### The BG1NPC Project: Tiax's Starting Location
-_Tutu, BGEE Only_
-**Tiax** will start in his regular location or [Beregost](http://www.forgottenwars.com/bg1/ar3300b.htm), in Feldepost's Inn. No change to the join-in dialogue.
-
 ### Jason Compton's Accelerated Banter Script
 _Tutu, BGT Only_
 This component installs Jason Compton's Accelerated Banter Script, which basically makes banters happen more often. It is the same one as included with mods such as the Banter Packs for BG2, so if you have installed it there you don't need it again. Don't worry, the installer will tell you if you already have it installed.
 
 ### Banter Timing Tweak
-_BGEE Only_
+_BGEE, EET Only_
 This component utilizes the new BANTTIMG.2DA file available in BGEE to adjust banter dialog timings, allowing them to be accelerated *or* decelerated. This component supercedes Compton's Banter Accelerator script for BGEE. It is not available for Tutu/BGT (Compton's Banter Accelerator remains available for Tutu/BGT).
-
-### The BG1NPC Project: Make Shar-Teel Unkillable until In Party
-_Tutu Only_
-This component installs a short set of changes to Shar-Teel and her scripts which make her unkillable until she joins the party. This allows players to have the duel necessary for Shar-Teel to join the party without risking her destruction. It is compatible with Sword Coast Stratagems' similar component.
 
 ### The BG1NPC Project: Bardic Reputation Adjustment
 This component places three Bards in three inns scattered on the Sword Coast. Each can be hired to spread your fearsome reputation around, decreasing your reputation. The amount of money this costs is dependent on your current reputation. This allows players to manipulate reputation both upwards through temple donations, and downwards through the spread of rumors (for those of us who hate killing an innocent just to keep neutral NPCs happy).
 
-### The BG1NPC Project: Cloakwood areas availability in Chapter One
-This component provides the option of opening up the first map of Cloakwood or all four Cloakwood maps at the start of the game. This is to support players who wish to pick up Coran and Faldorn earlier.
-
-### The BG1NPC Sarevok's Diary Adjustments**
+### The BG1NPC Sarevok's Diary Adjustments
 This component installs either SixofSpades' Expanded Sarevok Diary, or the original BG1NPC Project version.
 
 SixofSpades' Expanded Sarevok Diary adds content rationalizing in-game events as closely to the storyline as he could, and incorporates entries that give depth to roleplayers. It also sets the diary to a book instead of a scroll. It is more a comprehensive change than Unfinished Business.
@@ -231,10 +162,22 @@ This component can be used to match BG1 NPC -created actors/NPCs walking speeds 
 
 **WARNING: Tutufix's Walking Speeds component has odd effects on the Polymorph, Haste, and Slow spells.** Fixes for these odd behaviors are under development by the BG2 Tweaks team at [www.gibberlings3.net](http://www.gibberlings3.net/).
 
+### The BG1NPC Project: Kivan's "Kivan and Deheriana Companions" Portrait
+This component will give Kivan his portrait from Domi's mod, for those wanting consitency for the entire saga.
+
+### The BG1NPC Project: Coran's "Murder in Baldur's Gate" Portrait
+This component will give Coran his portrait from the D&D PnP module "Murder in Baldurs' Gate".
+
+### The BG1NPC Project: Add Portraits to BG1NPC Non-Joinable NPCs
+Installing this component assigns portraits to non-joinable NPCs added by BG1NPC. It is designed to be used in conjunction with a mod that assigns portraits to other non-joinable NPCs (e.g., [Portraits Portraits Everywhere](https://forums.beamdog.com/discussion/61015/mod-portraits-portraits-everywhere-for-bg1ee-sod-bg2ee-iwdee-eet)).
+
+### The BG1NPC Project: Add Non-Joinable NPC Portraits to Important NPCs (DEPRECATED)
+Installing this component gives some important non-joinable NPC portraits, such as Gorion, Angelo, Duke Eltan and Tazok. _This component is currently deprecated due to copyright issues._
+
 ### The BG1NPC Project: Player-Initiated Dialogues (PIDs)
 This component will give the player force-talk options for all party members. This will allow the PC to ask questions about an NPC and their past. To activate the PIDs, have your character talk to the NPC in question. Please note: the PID component must be installed after all other BG1NPC components. If you change an installation component involving dialogue, this component will automatically be uninstalled, and you may have to manually re-install it.
 
-_Tutu only_: This component also has a Player-initiated string-fixer for all BGNPCs. If an NPC is starting to say other character's lines, or sounds odd, then speak to the character and let them know that their voice "sounds strange". The PID string-fixer will re-map the voiced lines and responses for the character, allowing you to continue the game. 
+_Tutu only_: This component also has a Player-initiated string-fixer for all BGNPCs. If an NPC is starting to say other character's lines, or sounds odd, then speak to the character and let them know that their voice "sounds strange". The PID string-fixer will re-map the voiced lines and responses for the character, allowing you to continue the game.
 
 ## Modder Notes
 
@@ -245,7 +188,7 @@ The philosophy driving coding in this project is to preserve compatibility with 
 * Use of Fluid State Variables for single install code for BGT compatible coding of joinable NPCs who stack BG dialogue on top of BG2 dialogue. This will be most useful when used in conjunction with versions of BGT v1.06 and above.
 * Non-destructive .tp2 patching of the pdialog.2da to incorporate Dream Scripts for all standard BioWare Non-Player-Characters
 * Non-destructive .tp2 patching of the interdia.2da to incorporate Imoen's banter file if not present
-* Non-destructive (installs if not present) initialization of bimoen.dlg/_bimoen.dlg
+* Non-destructive (installs if not present) initialization of bimoen.dlg/\_bimoen.dlg
 * Non-destructive .tp2 patching of the happy.2da to allow CamDawg's Neutral/Happy interjection restoration
 * Tutu only: non-destructive .tp2 patching of the songlist.2da to allow music swapping
 * Clearing of repetition of default BioWare dialogues by ADD_STATE_TRIGGER and ADD_TRANS_ACTION to most files (c.f. files BG1NPC/Core/DLG/X#BGREPLACE_TUTU.D and BG1NPC/Core/DLG/X#BGREPLACE_BGT.D)
@@ -254,8 +197,7 @@ The philosophy driving coding in this project is to preserve compatibility with 
 * Non-destructive patching of several NPCs to recheck that platform default override scripts and gnome animations are correct, and to force any .cre we use to effect v2 rather than v1
 * Inclusion of STATE.IDS patching to support CD_STATE_NOTVALID (courtesy of CamDawg)
 * ACTION.IDS, TRIGGER.IDS, GTIMES.IDS, and ANIMATE.IDS updated to Throne of Bhaal version (courtesy of BG2 Fixpack)
-* REPLACE_TEXTUALLY removal of Tazok's invulnerability items to render him killable in the Bandit Camp encounter
-* Tutu/BGT only: Cleaning Joined Files of non-conditional states using reversible non-attainable variables specific to the states in question, using a standardized format REPLACE_STATE_TRIGGER ~_AJANTJ~ 1 ~Global("X#JCleanAjantis","GLOBAL",1)~
+* Tutu/BGT only: Cleaning Joined Files of non-conditional states using reversible non-attainable variables specific to the states in question, using a standardized format REPLACE_STATE_TRIGGER ~\_AJANTJ~ 1 ~Global("X#JCleanAjantis","GLOBAL",1)~
 * Hijacking of Coran's Wyvern Timer and related dialogue via ~GlobalTimerExpired("Coran","GLOBAL")~ ~GlobalTimerExpired("Coran","GLOBAL") Global("X#CoranWyvernDisable","GLOBAL",1)~ and extension of his bcs.
 * Falsing of Kivan's and Minsc's standard timers in bcs, effectively removing any quest-time-related attempt to leave the party
 * Inclusion of a patching macro to convert Tutu items to BG2 items for BGT compatibility
@@ -274,10 +216,9 @@ The philosophy driving coding in this project is to preserve compatibility with 
     | 6 | %bgdream5% | DRMTXT-6 has played | 5 |
     | 7 | %bgdream6% | DRMTXT-7 has played | 6 |
 
-This list covers the required components. For compatibility notes on individually installed components, please evaluate the code directly, remembering that the files are often interlinked - so search carefully. While almost all Project code actively tries to avoid compatibility problems, two specific components do re-adjust major expected behaviors. ALORA being moved destructively overwrites a new pre-joining [_]ALORA.DLG, so if a mod has added to her pre-joined file those materials will be destroyed. KAGAIN's Caravan Quest shuts the variable "KagainCaravan" off and replaces it with a new expanded quest using "X#KagainCaravan".
+This list covers the required components. For compatibility notes on individually installed components, please evaluate the code directly, remembering that the files are often interlinked - so search carefully. While almost all Project code actively tries to avoid compatibility problems, two specific components do re-adjust major expected behaviors. ALORA being moved destructively overwrites a new pre-joining [\_]ALORA.DLG, so if a mod has added to her pre-joined file those materials will be destroyed. KAGAIN's Caravan Quest shuts the variable "KagainCaravan" off and replaces it with a new expanded quest using "X#KagainCaravan".
 
 As of September, 2011, none of the above items have shown incompatibility problems in testing with both Tutu and BGT standard mods installed in the recommended orders from the forums.
-
 
 ## Thanks and Acknowledgements
 
@@ -536,51 +477,74 @@ The current list for this release shows the dedication of a community for many y
 
 Advanced users can follow BG1NPC or add to its development by following it on GitHub; [https://github.com/cmorganbg/BG1NPC](https://github.com/cmorganbg/BG1NPC)
 
-</div>
-
 ## Musical Themes Used
-
-<div class="section">
 
 (those not listed are unknown)
 
 NOTE: To access this content, you will need to download and install the _The BG1<acronym title="Non-Player Characters">NPC</acronym>Music Pack_. You can find it on The Gibberlings Three download page, [here.](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
 
-* **Ajantis:** _Federation Mission Failure_(from Star Trek: Starfleet Command) by Ron Jones
-* **Alora:** _The Heartland_by Bill Brown
-* **Coran:** _Gwinever_by Aquarium
-* **Coran: Romance (Good path)** _Recercada Tercera_by Diego Ortiz
-* **Coran: Romance (Baby Path)** _Dulce Memoria_by Hernando de Cabezon
-* **Coran: Romance (Neutral/Bored Path)** _Danse Macabre_by Camille Saint-Saens
-* **Coran: Romance Flirting** _Les beautéés du Diable_by François Dompierre
-* **Eldoth:** _Waterdeep_(from Descent to Undermountain) by Richard Band, Rick Jackson and Ron Valdez
-* **Faldorn:** _They are Coming_(from Run Like Hell) by Inon Zur
-* **Garrick:** _La Serenisima_(from Crusader Knights) by Inon Zur
+* **Ajantis:** _Federation Mission Failure_ (from Star Trek: Starfleet Command) by Ron Jones
+* **Alora:** _The Heartland_ by Bill Brown
+* **Coran:** _Gwinever_ by Aquarium
+* **Coran: Romance (Good path)** _Recercada Tercera_ by Diego Ortiz
+* **Coran: Romance (Baby Path)** _Dulce Memoria_ by Hernando de Cabezon
+* **Coran: Romance (Neutral/Bored Path)** _Danse Macabre_ by Camille Saint-Saens
+* **Coran: Romance Flirting** _Les beautéés du Diable_ by François Dompierre
+* **Eldoth:** _Waterdeep_ (from Descent to Undermountain) by Richard Band, Rick Jackson and Ron Valdez
+* **Faldorn:** _They are Coming_ (from Run Like Hell) by Inon Zur
+* **Garrick:** _La Serenisima_ (from Crusader Knights) by Inon Zur
 * **Imoen:** Unknown (from Neverwinter Nights) by Jermey Soule
-* **Kagain:** _Jango Fett's Theme_(from Star Wars: Bounty Hunter) by Jeremy Soule
-* **Kivan:** _The Lonely Shepard_by Paul Moria Orchestra
-* **Minsc:** _Worldmap 1_(from Fallout 2) by Mark Morgan
-* **Quayle:** _Buffy Rat_(from Buffy the Vampire Slayer) by Christophe Beck
-* **Safana:** _Thashasa's Pool_(from Descent to Undermountain) by Richard Band, Rick Jackson and Ron Valdez
-* **Skie:** _The Town of Targos_(from Icewind Dale II) by Inon Zur
-* **Tiax:** _Creatures_(from Digimon) by Inon Zur
-* **Yeslick:** _First Revelation_by Inon Zur
+* **Kagain:** _Jango Fett's Theme_ (from Star Wars: Bounty Hunter) by Jeremy Soule
+* **Kivan:** _The Lonely Shepard_ by Paul Moria Orchestra
+* **Minsc:** _Worldmap 1_ (from Fallout 2) by Mark Morgan
+* **Quayle:** _Buffy Rat_ (from Buffy the Vampire Slayer) by Christophe Beck
+* **Safana:** _Thashasa's Pool_ (from Descent to Undermountain) by Richard Band, Rick Jackson and Ron Valdez
+* **Skie:** _The Town of Targos_ (from Icewind Dale II) by Inon Zur
+* **Tiax:** _Creatures_ (from Digimon) by Inon Zur
+* **Yeslick:** _First Revelation_ by Inon Zur
 
-</div>
-
-## <a name="contact" id="contact">Contact and Copyright Information</a>
-
-<div class="section">
+## Contact and Copyright Information
 
 A complete list of contributors is maintained at our forum. Visit the [Gibberlings Three forums](http://gibberlings3.net/forums/) for information on this and any other Gibberlings Three mods on which we may be working. The current maintainer/coordinator is [cmorgan](http://gibberlings3.net/forums/?showuser=844)
 
-The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Interplay/BlackIsle. The Tutu mod was created by Japheth, aided by Ghreyfain, SimDing0, and Kish. EasyTutu was created by Macready, based on a Baldurdashed (Kevin Dorner) version of Tutu v4 Fixpack 15\. If there are any copyright issues or this statement needs revision then please contact one of us and advise us what to do about it. This mod was created to be freely enjoyed by all Baldur's Gate and Baldur's Gate II players. However, it should not be sold, published, compiled or redistributed in any form without the consent of the team leaders.
+The BG1NPC Project is not developed, supported, or endorsed by BioWare™, Interplay/BlackIsle, Beamdog, or Wizards of the Coast. The Tutu mod was created by Japheth, aided by Ghreyfain, SimDing0, and Kish. EasyTutu was created by Macready, based on a Baldurdashed (Kevin Dorner) version of Tutu v4 Fixpack 15. If there are any copyright issues or this statement needs revision then please contact one of us and advise us what to do about it. This mod was created to be freely enjoyed by all Baldur's Gate and Baldur's Gate II players. However, it should not be sold, published, compiled or redistributed in any form without the consent of the team leaders.
 
-</div>
+## Version History
 
-## <a name="history" id="history">Version History</a>
+**Version 24 - 2018-12-31**
 
-<div class="section">
+* Fix script variable reference for AR0112.BCS
+* Moving component code blocks to .tpa files for organization
+* Kagain's Quest - Update bandit scripts for killing lead bandit by stealth
+* Moved Tranzig interjections to separate file. Implemented separate BGEEv2.5/Tutu compatible versions.
+* Updated Kivan-Tazok encounter
+  * Moved interjections to separate files.
+  * Simplified scripting/dialogs for compatibility with BGEEv2.5
+  * Implemented separate BGEEv2.5/Tutu versions of encounter
+* Updated the Extended Kagain's Caravan Quest for BGEE v2.5
+  * Separated quest into two parts: 1) Find missing caravan, 2) Return Silvershield's son's brooch
+  * On BGEEv2.5, part 1) exists, so use that. Only implement part 2)
+* Fix Dueling Interjections on BRILLA.DLG
+* Updates to Yeslick-Rieltar Encounter for BGEEv2.5 Compatibility
+* Update Jaheira' Quest for BGEEv2.5 compatibility
+* Implement SUBCOMPONENTs for romance component timing options
+* Implement SUBCOMPONENTs for BGEE Banter Timing Tweak
+* Transferring the following components to [Tweaks Anthology](https://github.com/Gibberlings3/Tweaks-Anthology):
+  * NPCs Wait at Inns
+  * Move NPCs to Convenient Locations (Alora, Eldoth, Quayle, Tiax)
+  * Make Shar-Teel Unkillable until In Party
+  * Cloakwood areas availability in Chapter One
+* Transferring Edwin, Imoen, Jaheira, and Minsc portrait components to [Continuous NPC Portraits](https://github.com/Gibberlings3/Continuous_NPC_Portraits)
+* Add new component: Coran's "Murder in Baldur's Gate" portrait
+
+**Version 23.3 - 2017-12-29**
+
+* Fix for Kagain's Quest not allowing to be "completed" without accepting Kagain into the party.
+* Fix for Cloakwood Mines not appearing when "Open Cloakwood Mines early" component is installed.
+
+**Version 23.2 - 2017-12-24**
+
+* Fix for SoA-based Tutu installs: only use of DisplayStringNoNameHead on ToB/EE engine installs, default to DisplayStringHead on SoA-Tutu.
 
 **Version 23.1 - 2017-12-03**
 
@@ -597,13 +561,13 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Int
 * Fixed minsc dialogue problame x#miint.d + x#miint2.baf
 * (BGT) Jaheira's interjection in Black Lotus tent
 * Remove added trans triggers from Seniyad's dialog
-* Replace David Jansen's "shout" script 
+* Replace David Jansen's "shout" script
 * tp2: changed from REQUIRE_FILE to REQUIRE_COMPONENT to enable automated deinstall of components if the required component is deinstalled
 * corrected Imoen-Yeslick rest banter for BGT
 * added li/g3_dreamscript_cpmvars.tpa for dream scripts of NPCs
 * lib/tp2: removed eet_cpmvars and linked to EET original one instead (not used yet anyway)
 * unified DV or entill.cre to "Entillis" as it is in BG:EE and fixed usage in x#jaint.d
-* x#dyered.baf: added "See("dynaheir") to trigger (although it might not be needed because group can only sleep if together) 
+* x#dyered.baf: added "See("dynaheir") to trigger (although it might not be needed because group can only sleep if together)
 * Typos and many small bugs quashed!
 * Un-hardcoded strings for Imoen's Tome
 * Adding an unused line for Imoen's dialogue about Tarnesh's spellbook
@@ -864,7 +828,7 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Int
 **Version 16 - May 15, 2008**
 
 * Clan DLAN provides the Spanish translation files! Culmination of a long project coordinated by Immortality of ClanDLAN. For Spanish support, visit them on www.clandlan.net
-* Ajantis' PID: Fixed typo in bg1npc\core\dlg\x#jfix_tutu.d(8): REPLACE_STATE_TRIGGER ~_AJANTJ~ 0 ~Global("AjantisLeave","GLOBAL",0) HappinessLT(Myself,-290)~
+* Ajantis' PID: Fixed typo in bg1npc\\core\\dlg\\x#jfix_tutu.d(8): REPLACE_STATE_TRIGGER ~\_AJANTJ~ 0 ~Global("AjantisLeave","GLOBAL",0) HappinessLT(Myself,-290)~
 * Caravan Bandit Leader does not have a scalp. All the other bandits do. Added line 2562 >> ADD_CRE_ITEM ~%tutu_var%misc86~ #0 #0 #0 ~IDENTIFIED~ ~GLOVES~
 * Bug when completing Kagain's quest in Baldur's Gate: Talking to lady Silvershield with any NPCs that have interjections gives you no option to tell her "the grave news" about her step-son. Coran still stops completeion, but that is intended behavior. Solved by moving I_C_T3 file to last in the order of compilation: line 4795 >> COMPILE EVALUATE_BUFFER ~BG1NPC/Phase2/dlg/X#ICT3.D~
 * Updated to WeiDU v206
@@ -884,7 +848,7 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Int
 * Rebuilt and repaired Dynaheir's Romance end-of-game cutscene (Tutu only).
 * Fluid States materials integrated for compatibility with more types of BGT installs (See <acronym title="The Gibberlings Three">G3</acronym> Tutuorial section or <acronym title="Spellhold Studios">SHS</acronym> BGT-WeiDU forum for discussions about fluid dialogue states).
 * Miloch's multiple fixes to gnomes integrated, Imoen/Safana spell fix so that Safana's gift no longer shows up in spellbooks as a selectable spell, Jaheira Quest journal entry and .d/.tra edits integrated; Portraits Revisions and Additions integrated - Miloch reduced existing to 256 colors where necessary and touched up several blurry portraits. Added new (not previously referenced) portraits for <acronym title="Tales of the Sword Coast">TotSC</acronym>NPCs, more gnomes, etc. including added <acronym title="Tales of the Sword Coast">TotSC</acronym> portraits and gnome portraits.
-* Miloch's Code Repairs: Added buggered Tutu soundslot fix, _zombiew.cre's race to zombie, Changed copied zombies' reaction from Enemy to Neutral (critical fix for Garrick's quest), macro_tutu_items_to_bgt.tph fixes adding a ton of items that weren't getting converted on BGT , unique portraits to Garrick's zombies, surgical spell/script fixes (required for Gnomes), removed redundant druid references assigned on CREs, and even more stuff. Repairs to Garrick's Quest and Jaheira's Quest documentation. x#andart, x#beado1, x#beador, x#mareth, x#shdr6, x#shdr8a, x#shdr8b, removed small portrait reference (added via mod component); gave undroppable free action effect (_mage05) to do away with the RunAwayFrom weirdness when casting Entangle, Web.
+* Miloch's Code Repairs: Added buggered Tutu soundslot fix, \_zombiew.cre's race to zombie, Changed copied zombies' reaction from Enemy to Neutral (critical fix for Garrick's quest), macro_tutu_items_to_bgt.tph fixes adding a ton of items that weren't getting converted on BGT , unique portraits to Garrick's zombies, surgical spell/script fixes (required for Gnomes), removed redundant druid references assigned on CREs, and even more stuff. Repairs to Garrick's Quest and Jaheira's Quest documentation. x#andart, x#beado1, x#beador, x#mareth, x#shdr6, x#shdr8a, x#shdr8b, removed small portrait reference (added via mod component); gave undroppable free action effect (\_mage05) to do away with the RunAwayFrom weirdness when casting Entangle, Web.
 * Moved to VERSION ~version #~ and WeiDU v20400, and reordered some code to remove WeiDU warnings for resources called. If you uncomment the MODDER flag, do not be alarmed - hundreds of warnings about "ajant99" and such missing are links to The BG1NPC Music package. If you don't install it first, WeiDU will warn you that those resources do not exist.
 
 **Version 14 - September 17, 2007**
@@ -1077,5 +1041,3 @@ The BG1NPC Project is not developed, supported, or endorsed by BioWare™ or Int
 * Incorporated banters for Branwen, Dynaheir, Garrick and Quayle.
 * Added Garrick's quest.
 * Added the option of giving NPCs their BG2 portraits.
-
-</div>

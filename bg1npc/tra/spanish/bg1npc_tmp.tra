@@ -164,7 +164,7 @@ No permitido a:
 CARACTERÍSTICAS:
 
 Habilidades de Combate:
-10 por ciento de probabilidad con cada golpe que el objetivo sea enredado, sin tirada de salvación
+10 % de enredado al objetivo durante 2 asalto salvo que supere una tirada de salvación contra aliento con cada golpe
 TAC0: +2
 Daño:  1D6 +2
 Tipo de daño:  punzante
@@ -203,7 +203,7 @@ No permitido a:
  Mago
  Ladrón
  Alineamientos no neutrales ~
-@81   = ~Jessup~
+@81   = ~Jopha~
 @82   = ~Dora~
 @83   = ~David Jansen~
 @84   = ~ ¡Prudencia! ¡Nada de valor! ¡Discreción! ¡¡Prudencia!!~ [JANJAN02]
@@ -619,12 +619,12 @@ CARACTERÍSTICAS:
 
 Daño: 1D6 + 1
 50 por ciento de posibilidad de +1 punto de daño por fuego
-THAC0: +1 
+THAC0: +1
 Especial: +20 por ciento de resistencia al fuego
 Lanza escudo de fuego (Rojo) 1/día
 Tipo de daño: Perforante
 Peso: 4
-Factor de velocidad: 4
+Factor de velocidad: 5
 Tipo de talento: Lanza
 Tipo: A dos manos
 Requiere: Fuerza 5
@@ -889,9 +889,9 @@ En cuestiones personales, mi curiosidad acerca de mi ascendencia crece incesante
 
 20 de Eleint, 1367: El hombre harapiento finalmente ha reaparecido, esta vez sin su disfraz. Responde al nombre de Winski Perorata, y confirma mis sospechas: soy ciertamente uno de los muchos descendientes del caído Bhaal. Mantiene haber sido aprendiz de un Merodeador de la Muerte, y por consiguiente conoce las señales. Él ha pasado los años pasados andando de acá para allá, siguiendo la pista a tantos niños como pudo, pero parece ser que soy el más prometedor de todos ellos, y aparentemente tiene la intención de instruirme como su alumno exclusivo. Ya me ha informado que no pude haber escogido un camino más correcto que el de Portador de Muerte. Creo que disfrutaré esto muchísimo.
 
-28 de Eleint, 1367: Davaeorn informa que las minas en el Bosque de las Capas han sido drenadas y están listas para su uso. Esta revelación debería ayudar en gran medida a convencer al alto concejo del Trono. Rieltar establece una base en la Puerta de Baldur, en la mansión de una familia noble venida a menos, y todo va sobre ruedas. 
+28 de Eleint, 1367: Davaeorn informa que las minas en el Bosque de las Capas han sido drenadas y están listas para su uso. Esta revelación debería ayudar en gran medida a convencer al alto concejo del Trono. Rieltar establece una base en la Puerta de Baldur, en la mansión de una familia noble venida a menos, y todo va sobre ruedas.
 
-19 de Marpenoth, 1367: El consejo del Trono de Hierro ha acordado respaldar el plan de padre. Él ha recibido todos los recursos que necesitaba, así como el liderazgo del proyecto. He expresado interés a mi "padre", y como había prometido, me incluye en las operaciones a lo largo de la Costa de la Espada. Me envía, como a su representante, a conectar con algunos de los grupos de mercenarios que están operando hacia el este. Mencionó a madre en nuestra conversación: de qué modo no debía ser desleal a él como ella lo había sido. Aclaró que sufriría su destino si así fuese. Sus amenazas son débiles y vacías, y no las escucharé por mucho tiempo. 
+19 de Marpenoth, 1367: El consejo del Trono de Hierro ha acordado respaldar el plan de padre. Él ha recibido todos los recursos que necesitaba, así como el liderazgo del proyecto. He expresado interés a mi "padre", y como había prometido, me incluye en las operaciones a lo largo de la Costa de la Espada. Me envía, como a su representante, a conectar con algunos de los grupos de mercenarios que están operando hacia el este. Mencionó a madre en nuestra conversación: de qué modo no debía ser desleal a él como ella lo había sido. Aclaró que sufriría su destino si así fuese. Sus amenazas son débiles y vacías, y no las escucharé por mucho tiempo.
 Estoy tentado de aprovechar esta oportunidad para hacer una visita a Candelero en el viaje de regreso. Hay algunas cosas acerca de mi herencia que incluso Winski no sabe, y cierto texto de las profecías de Alaundo debería resultar ser más esclarecedor.
 
 30 de Marpenoth, 1367: Me encontré con los líderes de Escalofrío, y Garras Negras. No me gusta demasiado Ardenor, comandante de Escalofrío, pero Taugosz parece ser un hombre de palabra. Es algo bueno, ya que tendré que trabajar con estos mercenarios durante mucho tiempo: Rieltar aun aboga por colocarme al mando de esta parte de la operación. Pero no lo haré, por supuesto, no es digno para el hijo adoptivo de un líder del Trono de Hierro el verse visitando a los bandidos, así es que he elegido al medio ogro Tazok como mi hombre de confianza; sus habilidades y su lealtad hacia mí son muy satisfactorias.
@@ -914,7 +914,7 @@ Festejo de la Luna, 1367: Los seguidores de Cyric son nuestros, y hemos comenzad
 
 22 de Hammer, 1368: Más revelaciones de los seguidores de Cyric: después del intenso interrogatorio, finalmente obtuvimos algunos nombres y números. Me pregunto qué es tan importante sobre Saradush. Parece ser que Bhaal engendró, literalmente, a cientos de descendientes, por todo Faerûn, pero sólo veinte de estos tendrán alguna auténtica importancia, y de ellos, cinco harán los mismísimos cielos temblar de miedo. Esto promete mucho. Pero parece que el sacerdote principal de Cyric tampoco sabe nada en lo que se refiere a este "pupilo" de Gorion. ¡Maldito sea! Tendré que encontrar una oportunidad para entrar en Candelero después de todo.
 
-14 de Alturiak, 1368: En Candelero por fin, y aunque Winski estaba demasiado enfermo para dejar la Puerta de Baldur, mi investigación ha ido bien. Los monjes aquí son realmente útiles. De lo que he leído hasta ahora, está fuera de toda duda que la sangre de Bhaal fluye a través de mis venas. Las profecías de Alaundo son, por supuesto, de todo menos explícitas, pero pienso que las comprendo. Los hijos de Bhaal portan las marcas de caos, un poder desatado, sentirán la sangre de un dios dentro de ellos, y se verán obligados a causar muerte y destrucción, especialmente unos contra otros. "Las muertes que traen despertarán al padre, y por medio de ellas, él se levantará". La redacción es algo ambigua, pero obviamente ésta quiere decir que la muerte de los niños causará que él ascienda. La adaptación y, dado que padre fue El Señor de Asesinato, poner a prueba el valor de uno debe implicar un acto de conformidad con su destino. Comienzo a entender lo que debo hacer. La muerte para escalar a Dios. 
+14 de Alturiak, 1368: En Candelero por fin, y aunque Winski estaba demasiado enfermo para dejar la Puerta de Baldur, mi investigación ha ido bien. Los monjes aquí son realmente útiles. De lo que he leído hasta ahora, está fuera de toda duda que la sangre de Bhaal fluye a través de mis venas. Las profecías de Alaundo son, por supuesto, de todo menos explícitas, pero pienso que las comprendo. Los hijos de Bhaal portan las marcas de caos, un poder desatado, sentirán la sangre de un dios dentro de ellos, y se verán obligados a causar muerte y destrucción, especialmente unos contra otros. "Las muertes que traen despertarán al padre, y por medio de ellas, él se levantará". La redacción es algo ambigua, pero obviamente ésta quiere decir que la muerte de los niños causará que él ascienda. La adaptación y, dado que padre fue El Señor de Asesinato, poner a prueba el valor de uno debe implicar un acto de conformidad con su destino. Comienzo a entender lo que debo hacer. La muerte para escalar a Dios.
 
 15 de Alturiak, 1368: Winski fue un tonto. El "pupilo" de Gorion no es ningún tipo de símbolo, sino que es un pequeño diablillo llamado <CHARNAME>, algunos años más joven que yo mismo. Y Gorion, aunque más viejo ahora, es indudablemente el mismo hombre del templo. Cuánta ironía que la cara que ha estado grabada en mi cerebro durante la mayor parte de mi vida ha estado, durante todo este tiempo, viviendo como un monje prácticamente en mi umbral. Y mientras que no tenga nada para probarlo, creo que <CHARNAME> era ese bebé que lloraba con el pañal sucio. ¿Y ESTE pequeño mocoso ha de tener una importancia monumental en el cumplimiento de MI destino? La simple idea parece ridícula. Apenas alcancé más que a atisbarlo hoy, pero <CHARNAME> no parece nada más que un cachorro dichosamente ignorante, y sin ningún entrenamiento en absoluto. Apenas una figura para agitar a las deidades. Pero Gorion me molesta. Parece haberse interesado por mis lecturas; debo de ser más cuidadoso en mi investigación.
 
@@ -922,10 +922,10 @@ Festejo de la Luna, 1367: Los seguidores de Cyric son nuestros, y hemos comenzad
 
 19 de Alturiak, 1368: El último de los seguidores al culto de Cyric ha muerto, pero creo que estrujamos absolutamente todo lo aprovechable de ellos a tiempo. Winski en gran parte comparte mi opinión acerca de <CHARNAME> en que su muerte es sin duda exigida, pero me aconseja retrasar el asesinato hasta que él pueda determinar exactamente hasta dónde puede llegar el papel de Gorion en este juego. Muy bien, puedo esperar. La salud de Winski parece fallarle, de modo que ha delegado en Semaj para asumir el control de la cuestión husmear en busca de cualquier posible hueva de Bhaal en el área, y engañarlos con el señuelo del Trono de Hierro con la pretensión de razones comerciales. Aquellos que estime una posible amenaza los mataré yo mismo, el resto los dejaré a Semaj para repartirlos de algún modo. Discretamente he encargado un magnífico conjunto de armadura y espada, digno del siguiente Señor del Asesinato, y he pospuesto mis actividades fratricidas hasta que pueda adornar la interpretación.
 
-17 de Ches, 1368: Todo prosigue adecuadamente. El mineral procedente de Nashkel ha comenzado a deteriorarse, y los mercenarios han estado haciendo un excelente trabajo apoderándose de cualquier caravana de hierro en ruta hacia la Puerta de Baldur. Aunque algunos de mis hombres han sido capturados, creyeron que trabajan para los Zhent, de tal manera que ninguna dificultad ha caído sobre el Trono de Hierro. Pero tendré que ser cauteloso por cuenta de los agentes zhentarim en los próximos meses. 
+17 de Ches, 1368: Todo prosigue adecuadamente. El mineral procedente de Nashkel ha comenzado a deteriorarse, y los mercenarios han estado haciendo un excelente trabajo apoderándose de cualquier caravana de hierro en ruta hacia la Puerta de Baldur. Aunque algunos de mis hombres han sido capturados, creyeron que trabajan para los Zhent, de tal manera que ninguna dificultad ha caído sobre el Trono de Hierro. Pero tendré que ser cauteloso por cuenta de los agentes zhentarim en los próximos meses.
 Estoy un poco desilusionado con Rieltar: sobre su habilidad en manipular este complot del hierro, él lo ve nada más que como otra forma de ganar dinero, y aumentar su estatus dentro de la jerarquía del Trono de Hierro. ¡Bah! ¿Quién se preocupa por las insignificantes intrigas de una patética organización mercantil, cuándo uno puede controlar a las tropas de naciones enteras? Ah, correcto. Su ceguera es mi ganancia.
 
-25 de Tarsakh, 1368: La armadura está terminada, y es admirablemente apropiada para la aterradora presencia de un Portador de Muerte descendiente del Señor del Asesinato. Tendré que felicitar a Winski por ayudar con el diseño, especialmente con los encantamientos adicionales despertados tan sólo por la presencia de la esencia Bhaal. La espada no estará lista hasta dentro de otro día o dos, pero me parece más apropiado que debiese matar mi primer hermano con mis propias manos desnudas. Adiós, Colin de'Graage. Tú no eres uno de los veinte; a Alaundo nunca le importaste un bledo, y tampoco a mí. 
+25 de Tarsakh, 1368: La armadura está terminada, y es admirablemente apropiada para la aterradora presencia de un Portador de Muerte descendiente del Señor del Asesinato. Tendré que felicitar a Winski por ayudar con el diseño, especialmente con los encantamientos adicionales despertados tan sólo por la presencia de la esencia Bhaal. La espada no estará lista hasta dentro de otro día o dos, pero me parece más apropiado que debiese matar mi primer hermano con mis propias manos desnudas. Adiós, Colin de'Graage. Tú no eres uno de los veinte; a Alaundo nunca le importaste un bledo, y tampoco a mí.
 
 28 de Tarsakh, 1368: La Espada del Caos es gloriosa. Es el momento para tratar con ese viejo carcamal de Gorion, y su pequeño granuja. Tendré que informar a mis hombres que estaré ausente durante los próximos días. Cythandria estaba furiosa cuando se enteró de que me llevo a Tamoko en lugar de a ella. Quizá esto la motive a apoyarme en otras áreas que simplemente el dormitorio.
 
@@ -950,7 +950,7 @@ Estoy un poco desilusionado con Rieltar: sobre su habilidad en manipular este co
 
 @624  = ~Mesón del Brazo Amigo~
 @629  = ~Amuleto de Rashemaar~
-@630  = ~El trabajo de Winski Perorata en las regiones del inframundo le hacía estar constantemente en contacto con criaturas que lo que más deseaban era arrancarle la piel. Para evitar tan desagradable experiencia, Winski pidió a un nabassu un amuleto capaz de protegerle de las criaturas malvadas durante tiempo suficiente como para controlarlas. Desgraciadamente, Winski sufrió un lapsus momentáneo de memoria provocado por una gran herida y olvidó activar el amuleto. Esto permitió al tanar'ri matar a su convocador. 
+@630  = ~El trabajo de Winski Perorata en las regiones del inframundo le hacía estar constantemente en contacto con criaturas que lo que más deseaban era arrancarle la piel. Para evitar tan desagradable experiencia, Winski pidió a un nabassu un amuleto capaz de protegerle de las criaturas malvadas durante tiempo suficiente como para controlarlas. Desgraciadamente, Winski sufrió un lapsus momentáneo de memoria provocado por una gran herida y olvidó activar el amuleto. Esto permitió al tanar'ri matar a su convocador.
 
 CARACTERÍSTICAS:
 
@@ -1056,18 +1056,18 @@ Requisitos:
 Peso: 1 Ibs~
 @765 = ~Arpa de la Discordia~
 @766 = ~Las Arpas son instruments de cuerda normalmente usados por Bárdos. Esta pequeña arpa es ideal para el bardo viajante y sus baladas.~
-@767 = ~Hasta el más talentoso de los bárdos no puede to car una sola nota bién. Cada trazo en las curds del arpa resulta en notas chillosas y desafinadas. Si un bardo trata de tocar una balada correctamente, las propidades mágicos del arpa son liberadas. Todas las criaturas ajenas al grupo del bardo deberan hacer una salvación contra conjuros o estar confundidos por treinta segúndos. 
+@767 = ~Hasta el más talentoso de los bárdos no puede to car una sola nota bién. Cada trazo en las curds del arpa resulta en notas chillosas y desafinadas. Si un bardo trata de tocar una balada correctamente, las propidades mágicos del arpa son liberadas. Todas las criaturas ajenas al grupo del bardo deberan hacer una salvación contra conjuros o estar confundidos por treinta segúndos.
 
 CARACTERÍSTICAS:
 
 Aptitudes especiales:
 – Confusión tres veces al día (salvación contra hechízos)
   Duración: 1 turno
-  Area de efecto: 
+  Area de efecto:
 
 Peso: 6 Ibs~
 @768 = ~Arpa de Azlaer~
-@769 = ~En la retorcida corte de Azlaer tenía lugar un grotesco ritual todas las noches de luna llena. Dentro del enorme palacio de Azlaer se preparaba un patio descubierto. En él había un gran estanque lleno de tiburones devoradores de hombres. Para entretenerse, Azlaer invitaba a conocidos ciudadanos de los pueblos cercanos a su hogar para cenar y divertirse. 
+@769 = ~En la retorcida corte de Azlaer tenía lugar un grotesco ritual todas las noches de luna llena. Dentro del enorme palacio de Azlaer se preparaba un patio descubierto. En él había un gran estanque lleno de tiburones devoradores de hombres. Para entretenerse, Azlaer invitaba a conocidos ciudadanos de los pueblos cercanos a su hogar para cenar y divertirse.
 Este entretenimiento consistía en que Azlaer tocaba esta arpa, cuyos efectos eliminaban cualquier miedo de sus invitados. Seleccionaba de forma aleatoria a uno de los asistentes y lo hacía entrar en el estanque lleno de tiburones. Con un humor particularmente sádico, primero echaba sangre, llevando a los tiburones a un frenesí que terminaba con la muerte del indefenso invitado.
 Devotos de Helmo castigaron finalmente a Azlaer y sus crueles prácticas, destruyendo la mansión, matándolo a él y apropiándose del arpa para darle mejor uso.
 
@@ -1081,11 +1081,11 @@ Aptitudes especiales:
 Peso: 6 Ibs~
 @770 = ~Arpa de Methild~
 @771 = ~En un valle alejado de tierras civilizadas hubo una vez un diminuto reino llamado Chilldion. Una tarde de invierno, un trío de malvadas brujas llegó al valle y secuestró a la familia real lanzándoles conjuros de Inmovilizar. Las brujas planeaban comerse uno por uno a todos los miembros de la familia. Al acabar la tarde, después de una dura jornada matando inocentes y profanando el palacio, las brujas estaban exhaustas, así que llamaron al bardo de la corte para que tocara una canción. Methild el bardo era leal al Rey y a su familia, y utilizó los poderes especiales del arpa mágica.
-Cuando tocó, centró su atención primero en el Rey. Cuando terminó la canción, el conjuro que inmovilizaba al Rey se disipó y éste se movió lentamente. Uno por uno, Methild liberó a sus seÒores, teniendo cuidado de alejar la atenciÛn de las brujas de ellos. Finalmente, una vez que toda la familia estaba libre, el bardo no pudo tocar más y las brujas descubrieron su traición. El pobre Methild, a diferencia de sus regentes, no pudo escapar y fue servido como primer plato en lugar de ellos. 
+Cuando tocó, centró su atención primero en el Rey. Cuando terminó la canción, el conjuro que inmovilizaba al Rey se disipó y éste se movió lentamente. Uno por uno, Methild liberó a sus seÒores, teniendo cuidado de alejar la atenciÛn de las brujas de ellos. Finalmente, una vez que toda la familia estaba libre, el bardo no pudo tocar más y las brujas descubrieron su traición. El pobre Methild, a diferencia de sus regentes, no pudo escapar y fue servido como primer plato en lugar de ellos.
 
 CARACTERÍSTICAS:
 
-Aptitudes especiales: 
+Aptitudes especiales:
 - Disipar cualquier efecto similar a Inmovilizar tres veces al día.
    Alcance: 25 pies
    Area de efecto: 1 criatura
@@ -1096,8 +1096,8 @@ Peso: 6 Ibs~
 
 CARACTERÍSTICAS:
 
-Aptitudes de combate: 
-– Si un blanco es golpeado, este hacer una tirada de salvamiento contra Parlización/Polimorfismo o quedar Aturdido por 5 asaltos. 
+Aptitudes de combate:
+– Si un blanco es golpeado, este hacer una tirada de salvamiento contra Parlización/Polimorfismo o quedar Aturdido por 5 asaltos.
 
 Daño: 1D10
 Tipo de daño: Proyectil

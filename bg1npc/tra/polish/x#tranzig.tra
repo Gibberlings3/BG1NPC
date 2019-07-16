@@ -1,0 +1,23 @@
+// x#brint.tra @0, @1, @2, @3
+@0    = ~By³aœ bystrzejsza jako kamieñ!~
+@1    = ~Przestañ szczekaæ, psie. Przyby³am ukaraæ ciê za twoj¹ zdradê i u¿alanie siê nad sob¹! Tempus jest ze mn¹!~
+@2    = ~Mia³em nadziejê, ¿e zm¹drzejesz, wielka wiedŸmo, zanim znowu mnie nawiedzisz. Ale widzê, ¿e tego nie zrobi³aœ. Myœlisz, ¿e bojê siê ciebie i tych twoich prostaków, które uwolni³y ciê spod mojego czaru?~
+@3    = ~G³upia krowo. Jeœli wszyscy nie znikniecie mi z oczu w ci¹gu piêciu sekund, bêdziecie siê sma¿yæ do usranej œmierci!~
+
+// x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
+@4  = ~Jesteœ odra¿aj¹cym nikczemnikiem... Zabij go, <CHARNAME>. Ktoœ, kto b³aga o ¿ycie nie ma honoru. Zdradzi ciê dla Tazoka, jeœli pozwolisz mu odejœæ.~
+@5  = ~Jêdza!~
+@6  = ~Zobacz, biedaczysko siê prawie zafajda³o! Zabijmy go, aby ten s³abiak nie móg³ siê rozmno¿yæ. Chocia¿, to mo¿e nie byæ potrzebne. Zapewne po dzisiejszej przygodzie jego mêskoœæ ze strachu na zawsze utknê³a miêdzy jego poœladkami. (œmieje siê)~
+@7  = ~Suka.~
+@8  = ~<CHARNAME>, nie mo¿emy pozwoliæ uciec temu draniowi, bo na pewno poinformuje swoich prze³o¿onych. Rozs¹dnie by by³o, gdybyœmy mogli... zapobiec temu... w jakiœ sposób...~
+@9  = ~Nie, nie zdradzê, nie zdradzê...~
+
+// x#brint.tra @4
+@10 = ~Nie! <CHARNAME> da³ ci swe upowa¿nienie, ale nie masz mojego! Do broni!~ ~Nie! <CHARNAME> da³a ci swe upowa¿nienie, ale nie masz mojego! Do broni!~
+
+// x#jaint.tra @61, @62
+@11 = ~Nie podoba mi siê obieranie tej œcie¿ki, ale niestety jest to jedyny bezpieczny wybór. Pozostanê w zgodzie z twoj¹ decyzj¹, <CHARNAME>.~
+@12 = ~Wszyscy zginiecie!~
+
+// x#brint.tra @55
+@13 = ~Ten niehonorowy pies jest martwy! Tempusie, twoja wola zosta³a wype³niona! ChodŸcie, wypijmy za Tempusa i za zwyciêstwo, <CHARNAME>!~

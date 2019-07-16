@@ -1,0 +1,222 @@
+/* Coran's Quest */
+/* items */
+COPY ~bg1npc/phase2/itm/X#CBOOK.itm~ ~override~
+  SAY NAME1 @211
+  SAY NAME2 @211
+  SAY UNIDENTIFIED_DESC @212
+  SAY DESC @212
+
+COPY ~bg1npc/phase2/itm/X#CMILK.itm~ ~override~
+  SAY NAME1 @213
+  SAY NAME2 @213
+  SAY UNIDENTIFIED_DESC @214
+  SAY DESC @214
+
+COPY ~bg1npc/phase2/itm/X#CBABY.itm~ ~override~
+  SAY NAME1 @215
+  SAY NAME2 @216
+  SAY UNIDENTIFIED_DESC @217
+  SAY DESC @217
+
+COPY ~bg1npc/phase2/itm/X#COBAG.itm~ ~override~
+  SAY NAME1 @218
+  SAY NAME2 @218
+  SAY UNIDENTIFIED_DESC @220
+  SAY DESC @220
+
+COPY ~bg1npc/phase2/itm/X#COBAG.STO~ ~override~
+  SAY NAME2 @218
+
+/* pro5's CORAN Dragon Skeleton Fix */
+ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/P5ARD013.BAF~
+  COPY_EXISTING ~%DurlagsTower_D3%.ARE~ ~override~
+       LAUNCH_PATCH_MACRO ~DRAGON_TRIGGER~
+END
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#BRI.D~
+/*scipts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#GOBRI.BAF~
+/* appended scripts */
+EXTEND_BOTTOM ~%tutu_var%CORAN.bcs~ ~bg1npc/Phase2/baf/X#RUNCOR.BAF~
+    EVALUATE_BUFFER
+
+/* appended scripts */
+EXTEND_BOTTOM ~%NEBaldursGate_SplurgingSturgeon_L1_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0103.baf~
+    EVALUATE_BUFFER
+
+/* override script to Brielbara */
+COPY_EXISTING ~%tutu_var%brielb.cre~ ~override~
+  WRITE_ASCII 0x248 ~X#GOBRI~ #8 // override script
+BUT_ONLY_IF_IT_CHANGES
+
+/* Coran Succubus Quest */
+
+/* items */
+COPY ~bg1npc/phase2/itm/X#CDYEI.BAM~ ~override~
+  ~bg1npc/phase2/itm/X#COAMUL.BAM~ ~override~
+  ~bg1npc/phase2/itm/X#CORINC.BAM~ ~override~
+  ~bg1npc/phase2/itm/X#CORINI.BAM~ ~override~
+  ~bg1npc/phase2/itm/X#COFRRO.BAM~ ~override~
+  ~bg1npc/phase2/itm/X#COWIRO.BAM~ ~override~
+
+COPY ~bg1npc/phase2/itm/X#COAMUL.itm~  ~override~
+  SAY NAME1 @221
+  SAY NAME2 @222
+  SAY UNIDENTIFIED_DESC @223
+  SAY IDENTIFIED_DESC @224
+  WRITE_ASCII 0x3a ~X#COAMUL~ #8 // BAM
+    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+      WRITE_ASCII 0x44 ~GAMUL02~ #8
+      WRITE_ASCII 0x58 ~CAMUL01~ #8
+    END
+
+COPY ~bg1npc/phase2/itm/X#SUCRIN.itm~  ~override~
+  SAY NAME1 @225
+  SAY NAME2 @226
+  SAY UNIDENTIFIED_DESC @12
+  SAY IDENTIFIED_DESC @227
+    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+      WRITE_ASCII 0x3a ~IRING17~ #8
+      WRITE_ASCII 0x58 ~CRING11~ #8
+    END
+
+COPY ~bg1npc/phase2/itm/X#COWIRO.itm~ ~override~
+  SAY NAME1 @228
+  SAY NAME2 @228
+  WRITE_LONG 0x34 1
+  SAY UNIDENTIFIED_DESC @229
+  SAY DESC @229
+WRITE_ASCII 0x76 ~X#COWIRO~ #8   // icon
+    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+      WRITE_ASCII 0x44 ~GSACK01~ #8
+      WRITE_ASCII 0x58 ~CMISC1I~ #8
+    END
+
+COPY ~bg1npc/phase2/itm/X#COFRRO.itm~ ~override~
+  SAY NAME1 @230
+  SAY NAME2 @230
+  WRITE_LONG 0x34 5
+  SAY UNIDENTIFIED_DESC @231
+  SAY DESC @232
+WRITE_ASCII 0x76 ~X#COFRRO~ #8   // icon
+    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+      WRITE_ASCII 0x44 ~GSACK01~ #8
+      WRITE_ASCII 0x58 ~CMISC1I~ #8
+    END
+
+COPY ~bg1npc/phase2/itm/X#CODYE1.itm~ ~override~
+  SAY NAME1 @233
+  SAY NAME2 @233
+  SAY UNIDENTIFIED_DESC @234
+  SAY DESC @234
+
+COPY ~bg1npc/phase2/itm/X#CODYE2.itm~ ~override~
+  SAY NAME1 @235
+  SAY NAME2 @235
+  SAY UNIDENTIFIED_DESC @236
+  SAY DESC @236
+
+/* Amelia's shapechange ability - use 1pp Wings if present */
+ACTION_IF (FILE_EXISTS_IN_GAME ~WQMZWA1.BAM~) THEN BEGIN
+  COPY ~bg1npc/phase2/itm/x#sucwng.itm~ ~override~ // Succubus wings
+  COPY ~bg1npc/phase2/spl/x#amchg_wng.spl~ ~override/x#amchg.spl~ // Shapechange wings
+END ELSE BEGIN
+  COPY ~bg1npc/phase2/spl/x#amchg_nowng.spl~ ~override/x#amchg.spl~ // Shapechange - fire elemental
+END
+
+COPY ~bg1npc/phase2/spl/x#ameth.spl~ ~override~ // Ethereal Jaunt
+COPY ~bg1npc/phase2/spl/x#amtlp.spl~ ~override~ // Teleport
+
+/* creatures */
+/* Amelia */
+COPY ~bg1npc/Phase2/cre/CAMW3G1.BAM~ ~override~
+COPY ~bg1npc/Phase2/cre/x#amelia.cre~ ~override~
+  SAY NAME1 @237
+  SAY NAME2 @237
+  SAY INITIAL_MEETING @775 // Sirine sing
+  SAY BATTLE_CRY1 @738 // [VAMPF02]
+  SAY ATTACK1 @739 // [VAMPF03]
+  SAY DAMAGE @742 // [VAMPF06]
+  SAY DYING @743 // [VAMPF07]
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  ADD_CRE_ITEM ~HELMNOAN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~helmet~
+  ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~rring~
+  ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~BOOTS~
+  ADD_CRE_ITEM ~B1-3~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
+WRITE_ASCII 0x250 ~X#AMELIX~ #8
+
+/* Natan */
+COPY ~bg1npc/Phase2/cre/x#natan.cre~ ~override~
+    LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+    LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+    SAY NAME1 @238
+    SAY NAME2 @238
+    SAY DAMAGE @712 // [VOIC1L]
+    SAY DYING @713 // [VOIC1M]
+    WRITE_ASCII 0x280 ~natan~ #32 //  death variable
+    ADD_CRE_ITEM ~%tutu_var%POTN42~ #0 #0 #0 ~IDENTIFIED~ ~INV7~
+    ADD_CRE_ITEM ~%tutu_var%POTN36~ #0 #0 #0 ~IDENTIFIED~ ~INV8~
+    ADD_CRE_ITEM ~%tutu_var%POTN37~ #0 #0 #0 ~IDENTIFIED~ ~INV9~
+    ADD_CRE_ITEM ~%tutu_var%POTN07~ #0 #0 #0 ~IDENTIFIED~ ~INV6~
+    ADD_CRE_ITEM ~X#CODYE1~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
+    WRITE_ASCIIE 0x258 ~%tutu_var%thief4~ #8 // Race script
+    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+      WRITE_ASCII 0x268 ~WTARSGT~ #8
+      WRITE_ASCII 0x250 ~INITDLG~ #8
+    END
+
+/* Rashel */
+COPY ~bg1npc/Phase2/cre/x#rashel.cre~ ~override~
+  SAY NAME1 @239
+  SAY NAME2 @239
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* GPRIF soundset not present in BGEE, use other general female sounds */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY INITIAL_MEETING #11117 // [FEMALE GREETING 10] Salutations.
+    SAY BATTLE_CRY1 #11123 // [FEMALE THREAT 1] It may be a touch unladylike, but I'm gonna slit your throat, I am!
+    SAY DAMAGE #12487 // [ABELA 3]
+  SAY DYING #12488 // [ABELA 4]
+    SAY SELECT_COMMON1 #11120 // [FEMALE GREETING 13] How are you?
+    SAY SELECT_COMMON2 #11121 // [FEMALE GREETING 14] What's your tale?
+  END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY INITIAL_MEETING @240
+    SAY UNHAPPY_BREAKING @241
+    SAY BATTLE_CRY1 @242
+    SAY DAMAGE @243
+    SAY DYING @244
+    SAY SELECT_COMMON1 @245
+    SAY SELECT_COMMON2 @240
+    SAY SELECT_COMMON3 @246
+    SAY SELECT_COMMON4 @247
+    SAY INTERACTION1 @248
+    SAY INTERACTION2 @248
+    SAY INTERACTION3 @248
+    SAY INTERACTION4 @248
+    SAY INTERACTION5 @248
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+/*area scripts */
+EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~bg1npc/Phase2/baf/P#CQ4500.BAF~
+    EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Temple_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW3400.BAF~
+    EVALUATE_BUFFER
+EXTEND_TOP  ~%FirewineRuins_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW5201.BAF~
+    EVALUATE_BUFFER
+
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#AMELIA.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#AMELIX.BAF~ USING ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#RASHEL.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#NATAN.BAF~
+
+/* dialogues */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#COSQU.D~
+
+/* Add journal entries for BGEE */
+ADD_JOURNAL TITLE (@999) @52 @53 @174 @178 @184 @197 @202 @208 @253 @254 @255 USING ~bg1npc/tra/%LANGUAGE%/x#cosqu.tra~
+
+/* scripts */
+EXTEND_TOP  ~%tutu_var%CORAN.bcs~ ~bg1npc/Phase2/baf/X#COSQU.BAF~
+  EVALUATE_BUFFER

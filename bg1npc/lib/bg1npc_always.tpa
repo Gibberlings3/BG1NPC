@@ -7,18 +7,16 @@ END
 
 /* Actions for BGEE and EET */
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-	ACTION_IF GAME_IS ~bgee~ THEN BEGIN 		
+	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 		/*Tell the player it is using BG:EE stuff */
 		PRINT @5000
   		INCLUDE ~bg1npc/lib/g3_bgee_cpmvars.tpa~
-  		OUTER_SPRINT ~bgee~ ~bgee/~
 	END
-  
-	ACTION_IF GAME_IS ~eet~ THEN BEGIN 
+
+	ACTION_IF GAME_IS ~eet~ THEN BEGIN
 		INCLUDE  ~EET/other/cpmvars/eet_cpmvars.tpa~
-		OUTER_SPRINT ~bgee~ ~bgee/~
 	END
-  
+
 	// BG:EE tra conversion
 	// Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237
 	// For complete description check Edwin Romance and the WeiDU forum topic on HANDLE_CHARSETS
@@ -42,7 +40,6 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
 	ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
 		PRINT @1000
 		INCLUDE ~bg1npc/lib/g3_tutu_cpmvars.tpa~
-		OUTER_SPRINT ~bgee~ ~~
 
 		APPEND ~GTIMES.IDS~  ~12 TWO_ROUNDS~    UNLESS ~TWO_ROUNDS~
 
@@ -51,7 +48,6 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
     	ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 		PRINT @1001
 		INCLUDE ~bg1npc/lib/g3_bgt_cpmvars.tpa~
-		OUTER_SPRINT ~bgee~ ~~
     	END ELSE BEGIN 
     		/* Not a supported game */
     		FAIL @1002

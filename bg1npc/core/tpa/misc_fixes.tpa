@@ -1,0 +1,79 @@
+/* Music File .2da patching, Tutu only */
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+  COPY ~bg1npc/Core/MUS/x#blank.mus~ ~music~
+  COPY_EXISTING ~songlist.2da~ ~override~
+    SET_2DA_ENTRY 0 2 3 ~X#BLANK.MUS~
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+
+/* custom cutspy.cre for BG1NPC code */
+COPY ~bg1npc/Core/CRE/x#cutspy.cre~ ~override/x#cutspy.cre~
+ WRITE_LONG NAME1 (BNOT 0x0)
+ WRITE_LONG NAME2 (BNOT 0x0)
+ LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+ WRITE_LONG DAMAGE (BNOT 0x0)
+ WRITE_LONG DYING (BNOT 0x0)
+ PATCH_IF (SOURCE_SIZE > 0x2d4) BEGIN
+   WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
+ END
+ ADD_CRE_ITEM ~%tutu_var%mage01~ #0 #0 #0 ~identified&unstealable&undroppable~ ~LRING~
+ ADD_CRE_ITEM ~%tutu_var%minhp1~ #0 #0 #0 ~identified&unstealable&undroppable~ ~AMULET~
+
+
+/* X#GorionTalkingLetter Variable: Gorion's Letter creature */
+COPY ~bg1npc/Core/cre/x#gorlet.cre~ ~override/x#gorlet.cre~
+  SAY NAME1 @5
+  SAY NAME2 @5
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
+
+/* add Gorion's Talking Letter Area Script */
+EXTEND_BOTTOM ~%Candlekeep_Library_L5_BCS%.bcs~ ~bg1npc/CORE/baf/X#FW2612.baf~
+  EVALUATE_BUFFER
+
+/* add Gorion's Talking Letter dialog, no need for EVAL */
+COMPILE        ~bg1npc/Core/dlg/X#GORLET.D~
+COMPILE        ~bg1npc/Core/baf/X#GORLET.BAF~
+
+
+/* berelinde's Statue Naming Fixes */
+COPY_EXISTING ~%tutu_var%achen.cre~  ~override~
+  SAY NAME2 @1118 //  ~Achen Dell~
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%cailan.cre~  ~override~
+  SAY NAME2 @1119 //  ~Cailan~
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%faizah.cre~  ~override~
+  SAY NAME2 @1120 //  ~Faizah Tin~
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%rance.cre~  ~override~
+  SAY NAME2 @1121 //  ~Rance~
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%vail.cre~  ~override~
+  SAY NAME2 @1122 //  ~Vail~
+BUT_ONLY_IF_IT_CHANGES
+
+
+/* Miloch's bugged spell/script fixes (required for Gnomes) */
+ACTION_IF GAME_IS ~tutu tutu_totsc bgt~ THEN BEGIN
+  COPY_EXISTING ~mage14d.bcs~ ~override~ // Fix script syntax error
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY EXACT_MATCH ~!Dead("yself)")~ ~!StateCheck(Myself,4032)~
+    END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+
+// Fix droppable Ghoul Touch
+COPY_EXISTING ~%tutu_var%ghoult.itm~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+  READ_BYTE 0x18 fl // Flags
+  PATCH_IF ((fl BAND 0b00000100) = 0b00000100) BEGIN // If movable
+    WRITE_BYTE 0x18 (fl BAND 0b11110011) // Make unmovable
+  END
+END
+BUT_ONLY_IF_IT_CHANGES

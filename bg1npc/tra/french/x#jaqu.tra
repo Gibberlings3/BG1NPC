@@ -81,7 +81,7 @@
 @72 = ~Comme tu voudras, Jaheira. Il y a un pont qui enjambe la rivière, non loin, traverse-le et retourne vers le sud... Trouve l'arbre-maison. Elle a été... *tousse*... emmenée là, pour être torturée par Andarthe, l'un des Archidruides de l'Ombre. Je t'en prie, fais vite !~
 @73 = ~Nous ferons de notre mieux, Beador. Reste ici et essaie de ne pas trop te déplacer. Viens, <CHARNAME>, allons donner une bonne leçon à ces hérétiques !~
 @74 = ~Même à l'agonie, il est toujours ridiculement noble ! En avant, <CHARNAME>, nous ne pouvons pas laisser ces crapules de l'Ombre le tuer !~
-@75 = ~Tu oses interrompre nos rituels sacrés, étranger ? Et tu as amené l'une de ces faux druides avec toi ? Pour cela, tu mourras, intrus !~ 
+@75 = ~Tu oses interrompre nos rituels sacrés, étranger ? Et tu as amené l'une de ces faux druides avec toi ? Pour cela, tu mourras, intrus !~
       ~Tu oses interrompre nos rituels sacrés, étrangère ? Et tu as amené l'une de ces faux druides avec toi ? Pour cela, tu mourras, intruse !~
 @76 = ~Tu oses interrompre nos rituels sacrés, étranger ? Et tu as amené une de ces faux druides avec toi ?~
       ~Tu oses interrompre nos rituels sacrés, étrangère ? Et tu as amené une de ces faux druides avec toi ?~
@@ -132,7 +132,7 @@
 @119 = ~Calme-toi, Jaheira. Nous avons mieux à faire que ceci, les mines nous attendent.~
 @120 = ~Merci, <CHARNAME>. Je savais pouvoir compter sur ton aide.~
 @121 = ~Tu as pris une sage décision. Bonne chance à toi !~
-@122 = ~Et toi... hors de ma vue, profanateur de la nature. Sois heureux que la parole de Jaheira ait une telle valeur, sinon je pourrais exiger que tu restes avec moi jusqu'à ce que leur mission soit accomplie.~
+@122 = ~Et toi, Sashenstar... hors de ma vue, profanateur de la nature. Sois heureux que la parole de Jaheira ait une telle valeur, sinon je pourrais exiger que tu restes avec moi jusqu'à ce que leur mission soit accomplie.~
 @123 = ~O-Oui, merci de votre aide, étrangers... Si vous venez jamais à la Porte de Baldur, venez à la Ligue des Marchands, et je vous aiderai par tous les moyens possibles. En attendant, recevez ce petit gage de mon appréciation.~
 @124 = ~Ai-je mal entendu ? <CHARNAME>, c'est dans la direction que nous avions l'intention d'emprunter, ce ne serait qu'un petit détour ! Es-tu à ce point égocentrique que tu cracherais sur la main qui te soigne et te nourrit ?~
 @125 = ~Raviveriez-vous mes espoirs d'être secouru, pour ensuite me livrer à ces sauvages grossiers ? Vous êtes incroyablement détestables ! Je vous préviens, trahissez-moi, et je vous assure que vous ne survivrez pas à cette rencontre !~
@@ -175,7 +175,7 @@
 @158 = ~Jaheira, je suis déçu ! Pour avoir fait équipe avec ces criminels, tu mourras !~
 @159 = ~Des Ombres dans Bois-Manteau
 
-Nous avons rencontré une vieille connaissance de Jaheira, aujourd'hui. Ce vieux fou a décidé de démontrer sa faiblesse face aux besoins de la Nature, nous avons donc été forcés de le tuer, ainsi que son groupe d'adeptes. La Nature reposera plus sereinement ce soir. En prime, nous devrons rendre visite à la Ligue des Marchands quand nous arrivons à la Porte de Baldur, même si je regrette que nous n'ayons pas pensé à suivre le chasseur pour le tuer lui aussi.~
+Nous avons rencontré une vieille connaissance de Jaheira, aujourd'hui. Ce vieux fou a décidé de démontrer sa faiblesse face aux besoins de la Nature, nous avons donc été forcés de le tuer, ainsi que son groupe d'adeptes. La Nature reposera plus sereinement ce soir.~
 @160 = ~Vous avez démontré une certaine sagesse en nous aidant à tuer ce chasseur répugnant, mais votre manque d'intérêt pour notre cause et votre réticence à aider vos amis me dégoûte. Quittez ces bois, à présent : j'ai perdu patience en ce qui vous concerne !~
 @161 = ~Des Ombres dans Bois-Manteau
 
@@ -221,4 +221,16 @@ Avec l'aide de Jaheira, j'ai réussi à dissuader les druides qui menaçaient Aldet
 // BGEE 26820 (laisser identique au texte de BGEE, ne pas corriger)
 @188 = ~Aldeth Sashenstar
 J'ai accepté d'aider Aldeth Sashenstar, noble de la Porte de Baldur, à combattre une bande de sauvages. ~
+// BGEE 27430
+@189 = ~Aldeth Sashenstar
+
+Je me suis rangé du côté des druides, et ai tué Aldeth Sashenstar. Séniyad s'est montré tout à fait reconnaissant de mon aide.~
+// BGEE 32835
+@190 = ~Aldeth Sashenstar
+Aldeth Sashenstar était tellement reconnaissant que j'ai désamorcé la situation avec les druides qu'il m'a invité à lui rendre visite dans sa maison à la Porte de Baldur.~
+// From @105
+@191 = ~Alors nous devons nous dépêcher d'aller aider cette fille aussi vite que possible.~
+// From @160
+@192 = ~Votre manque d'intérêt pour notre cause et votre réticence à aider vos amis me dégoûte. Quittez ces bois, à présent : j'ai perdu patience en ce qui vous concerne !~
+@193 = ~Entendu, Jaheira. Avant de partir, je vous demande un service.~
 @999  = ~Des Ombres dans Bois-Manteau~

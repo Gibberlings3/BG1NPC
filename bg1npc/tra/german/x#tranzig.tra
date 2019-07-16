@@ -1,0 +1,23 @@
+// x#brint.tra @0, @1, @2, @3
+@0    = ~Da wart Ihr schlauer als ein Stein!~
+@1    = ~Hört auf zu kläffen, Hund. Ich bin gekommen, um Euren Verrat zu bestrafen, Eure wehleidige Art und Weise! Tempus steht mir bei!~
+@2    = ~Ich hatte gehofft, Ihr werdet ein bisschen schlauer, großes Frauenzimmer, bevor Ihr mich wieder belästigt. Aber ich sehe, dass Ihr das nicht seid. Glaubt Ihr, dass ich Angst vor Euch und diesen Lümmeln habe, die Euch von meinem Zauber befreiten?~
+@3    = ~Dumme Kuh! Wenn Ihr mir nicht alle in fünf Sekunden aus den Augen gegangen sied, werde ich Euch ins Jenseits befördern!~
+
+// x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
+@4  = ~Ihr seid abstoßend, Schuft... Tötet ihn, <CHARNAME>. Einer, der um sein Leben bettelt, hat keine Ehre. Er wird Euch an Tazok verraten, wenn Ihr ihn gehen lasst.~
+@5  = ~Harpie!~
+@6  = ~Schau, er hat sich selbst beschmutzt! Lasst uns ihn töten, also gibt es keine Chance, dass dieser Schwächling sich fortpflanzt. Das ist, wenn seine Männlichkeit nicht für immer zwischen seinen eigenen Hintern stecken bleibt, wie ein Hundeschwanz eines Mischlings, vor dem Schreck, den wir ihm heute gegeben haben. * lacht *~
+@7  = ~Hündin.~
+@8  = ~<CHARNAME>, wir dürfen diesen Mistkerl nicht davon kommen lassen, er wird sicher seine Vorgesetzten informieren. Es wäre angeraten, wenn wir das... verhindern könnten, irgendwie...~
+@9  = ~Nein, das werde ich nicht, das werde ich nicht...~
+
+// x#brint.tra @4
+@10 = ~Nein! <CHARNAME> hat Euch <PRO_HISHER>e Erlaubnis gegeben, aber meine habt Ihr nicht! Erhebt Eure Waffen!~
+
+// x#jaint.tra @61, @62
+@11 = ~Diesen Weg gewählt zu haben, gibt mir keine Gennugtuung, aber leider ist es die einzig sichere Option. Ich stimme Eurer Entscheidung zu, <CHARNAME>.~
+@12 = ~Ihr werdet alle sterben!~
+
+// x#brint.tra @55
+@13 = ~Der ehrlose Hund ist tot! Tempus, Euer Wille ist erfüllt! Kommt, trinken wir auf Tempus und den Sieg, <CHARNAME>!~

@@ -441,7 +441,7 @@
 /* Non utilisé */
 @156  = ~Oui... Je fais de la spéléologie.~
 /* Brilla Ecudargent, qui veut savoir qui s'introduit chez elle */
-// Eldoth - Skie 
+// Eldoth - Skie
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 61
 @157  = ~Par les dieux ! Ca doit être la *nouvelle* Dame Ecudargent dont Skie n'arrêtait pas de se plaindre. Plus jolie, tout aussi bête, et pourtant plus colérique, si je puis en juger, que celle pour qui je me suis donné tant de mal. *soupir* Il est sans doute trop tard pour changer à ce stade...~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 62
@@ -2496,19 +2496,19 @@ L'aventurier se réjouit.~
 /* Tranzig, quand il est gravement blessé et veut se rendre */
 // Branwen - Tranzig
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 5
-@887  = ~Pauvre type, tu es dégoutant... Tue-le, <CHARNAME>. Celui qui implore grâce n'a aucun honneur. Si tu le laisses partir, il ira voir Tazok et te trahira.~
+//@887  = ~Pauvre type, tu es dégoutant... Tue-le, <CHARNAME>. Celui qui implore grâce n'a aucun honneur. Si tu le laisses partir, il ira voir Tazok et te trahira.~
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 6
-@888  = ~Non, je ne le ferai pas, je ne le ferai pas... *murmure dans sa barbe* Harpie !~
+//@888  = ~Non, je ne le ferai pas, je ne le ferai pas... *murmure dans sa barbe* Harpie !~
 // Shar-Teel - Tranzig
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 67
-@889  = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. A moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
+//@889  = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. A moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 68
-@890  = ~Garce !~
+//@890  = ~Garce !~
 // Jaheira - Tranzig
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 63
-@891  = ~<CHARNAME>, nous ne devons pas laisser cette racaille s'enfuir, il va certainement aller informer ses supérieurs. Il serait préférable que nous puissions... empêcher cela... d'une manière ou d'une autre...~
+//@891  = ~<CHARNAME>, nous ne devons pas laisser cette racaille s'enfuir, il va certainement aller informer ses supérieurs. Il serait préférable que nous puissions... empêcher cela... d'une manière ou d'une autre...~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 62
-@892  = ~Vous allez tous mourir !~
+//@892  = ~Vous allez tous mourir !~
 /* Vail, pas prêt à révéler où il a caché le heaume de Baldurien */
 // Garrick
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 190

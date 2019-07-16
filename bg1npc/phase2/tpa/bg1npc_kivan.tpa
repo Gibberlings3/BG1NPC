@@ -1,0 +1,258 @@
+/* Kivan & Tazok */
+/* Kivan and Tazok Dialogue File Assignment */
+COPY_EXISTING ~%tutu_var%tazok2.cre~  ~override~
+  WRITE_EVALUATED_ASCII 0x2CC ~%tutu_var%tazok2~ #8 //  dialog
+BUT_ONLY_IF_IT_CHANGES
+
+/* Scripts */
+EXTEND_TOP  ~%tutu_var%KIVAN.bcs~ ~bg1npc/Phase2/baf/x#kivantazok.baf~ EVALUATE_BUFFER USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+
+/* Dialogues */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  OUTER_SPRINT "kivan17" "#32793"
+END
+ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  OUTER_SPRINT "kivan17" "#232793"
+END
+/* Version for BGEE v2.5+ */
+ACTION_IF FILE_EXISTS_IN_GAME ~BDENTBOY.CRE~ THEN BEGIN
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kivantazok_ee.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+END ELSE BEGIN
+/* Version for Tutu, BGT, BGEE 1.x - 2.4 */
+  EXTEND_TOP  ~%Undercity_TempleofBhaal_BCS%.bcs~ ~bg1npc/Phase2/baf/x#kivantazokdead.baf~ EVALUATE_BUFFER
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kivantazok_tutu.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+END
+
+/* Journal Entries for BGEE & EET */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ADD_JOURNAL EXISTING TITLE (#31280) @102 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+  ADD_JOURNAL EXISTING TITLE (#32759) @103 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+END
+ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  ADD_JOURNAL EXISTING TITLE (#231280) @102 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+  ADD_JOURNAL EXISTING TITLE (#232759) @103 USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
+END
+
+/* Kivan's Quest */
+
+/* items */
+COPY ~bg1npc/phase2/itm/P#BOW.itm~ ~override~
+  SAY NAME1 @249
+  SAY NAME2 @249
+  SAY DESC @250
+
+/* BGEE: Add Kivan's bow to item_use.2da */
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+  APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~
+    UNLESS ~P#BOW~
+  COPY_EXISTING ~item_use.2da~ ~override~
+  PRETTY_PRINT_2DA
+END
+
+/* creatures */
+COPY ~bg1npc/Phase2/cre/p#imanel.cre~ ~override~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* BG2 soundset not present in BGEE, use SIRINE sounds instead */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY INITIAL_MEETING #5176	// [SIRINE 01] Fools to cross my path.
+    SAY BATTLE_CRY1 #6018		// [SIRINE 03]
+    SAY DAMAGE #6023			// [SIRINE 08]
+    SAY DYING #6024				// [SIRINE 09]
+    SAY SELECT_COMMON1 #5176	// [SIRINE 01] Fools to cross my path.
+    SAY SELECT_COMMON2 #6022	// [SIRINE 06]
+    SAY SELECT_COMMON2 #5178	// [SIRINE 07] Think as you act, fool.
+END ELSE BEGIN /* Tutu, BGT */
+    SAY INITIAL_MEETING @141
+    SAY LEADER @137
+    SAY TIRED @138
+    SAY BORED @139
+    SAY BATTLE_CRY1 @142
+    SAY BATTLE_CRY2 @141
+    SAY BATTLE_CRY3 @142
+    SAY ATTACK1 @142
+    SAY DAMAGE @143
+    SAY DYING @144
+    SAY HURT @145
+    SAY SELECT_COMMON1 @146
+    SAY SELECT_COMMON2 @147
+    SAY SELECT_COMMON3 @148
+    SAY SELECT_ACTION1 @149
+    SAY SELECT_ACTION2 @150
+    SAY SELECT_ACTION3 @151
+    SAY SELECT_RARE1 @152
+    SAY SELECT_RARE2 @153
+    SAY CRITICAL_HIT @154
+    SAY CRITICAL_MISS @155
+    SAY TARGET_IMMUNE @156
+    SAY INVENTORY_FULL @157
+    SAY PICKED_POCKET @158
+    SAY HIDDEN_IN_SHADOWS @159
+    SAY SPELL_DISRUPTED @160
+    SAY SET_A_TRAP @161
+  END
+  SAY BIO @162
+  WRITE_ASCII 0x248 ~P#IMANL2~ #8 //  override script
+  WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+  WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+
+COPY ~bg1npc/Phase2/cre/p#wolf01.cre~ ~override~
+     ~bg1npc/Phase2/cre/p#wolf02.cre~ ~override~
+     ~bg1npc/Phase2/cre/p#wolf03.cre~ ~override~
+     ~bg1npc/Phase2/cre/p#wolf04.cre~ ~override~
+     ~bg1npc/Phase2/cre/p#wolf05.cre~ ~override~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY BATTLE_CRY1 @253
+  SAY BATTLE_CRY2 @253
+  SAY BATTLE_CRY3 @253
+  SAY BATTLE_CRY4 @253
+  SAY BATTLE_CRY5 @253
+  SAY ATTACK1 @254
+  SAY ATTACK2 @255
+  SAY DAMAGE @256
+  SAY DYING @257
+  SAY SELECT_COMMON1 @258
+  SAY SELECT_COMMON2 @259
+  WRITE_ASCII 0x248 ~P#WOLFA~ #8 //  override script
+  WRITE_ASCII 0x2CC ~P#WOLF~ #8 //  dialog
+  WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+    PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF01~) BEGIN
+      SAY NAME1 @252
+      SAY NAME2 @252
+    END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF02~) BEGIN
+      SAY NAME1 @260
+      SAY NAME2 @260
+    END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF03~) BEGIN
+      SAY NAME1 @261
+      SAY NAME2 @261
+    END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF04~) BEGIN
+      SAY NAME1 @262
+      SAY NAME2 @262
+    END ELSE PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL ~P#WOLF05~) BEGIN
+      SAY NAME1 @263
+      SAY NAME2 @263
+    END
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/P#IMANEL.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/P#WOLF.D~
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/P#IMANL2.BAF~// Compile script
+  USING ~bg1npc/TRA/%LANGUAGE%/P#IMANL2.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/P#WOLFA.BAF~// Compile script
+
+/* area script extension */
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+/* BGEE needs different location for Imanel Silversword, as Simmeon from Dorn's quest spawns in Imanel's original BG1NPC location. */
+  EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#AR0900.BAF~
+    EVALUATE_BUFFER
+END ELSE BEGIN
+/* For TuTu and BGT */
+  EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0900.BAF~
+    EVALUATE_BUFFER
+END
+
+/* Kivan and Sea Elf interlude */
+/* creatures */
+
+/* Jozzi Seasnake */
+COPY ~bg1npc/Phase2/cre/x#seasn.cre~ ~override~
+  SAY NAME1 @264
+  SAY NAME2 @265
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY INITIAL_MEETING @714 // [NEREID 01]
+  SAY BATTLE_CRY1 @716 // [NEREID 03]
+  SAY DAMAGE @718 // [NEREID 08]
+  SAY DYING @719 // [NEREID 09]
+  SAY SELECT_COMMON1 @714 // [NEREID 01]
+  SAY SELECT_COMMON2 @715 // [NEREID 02]
+  SAY SELECT_COMMON3 @717 // [NEREID 04]
+  WRITE_ASCII 0x248 ~X#IHTIA~ #8 //  override script
+  WRITE_ASCII SCRIPT_CLASS ~x#gpsht~ #8 // class script
+  WRITE_ASCII 0x2CC ~X#IHTIA~ #8 //  dialog
+  WRITE_ASCII 0x280 ~seasnake~ #32 //  death variable
+  ADD_CRE_ITEM ~SW2H01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+
+/* Keth'sim Dwin'anea */
+COPY ~bg1npc/Phase2/cre/x#keth.cre~ ~override~
+  SAY NAME1 @272
+  SAY NAME2 @273
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* ELSOL1 soundset not present in BGEE, use ELFFF soundset instead */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY INITIAL_MEETING #4941	// [ELF 1] The Fair Folk rarely have time for small talk.
+    SAY BATTLE_CRY1 #4943		// [ELF 3] Soon we shall all be together upon Evermeet.
+    SAY DAMAGE #12586			// [ELF 5]
+    SAY DYING #12587			// [ELF 6]
+    SAY SELECT_COMMON1 #4941	// [ELF 1]
+    SAY SELECT_COMMON2 #4942	// [ELF 2] Troubled times are upon us.
+  END ELSE BEGIN /* Tutu and BGT */
+    SAY INITIAL_MEETING @266
+    SAY BATTLE_CRY1 @267
+    SAY DAMAGE @268
+    SAY DYING @269
+    SAY SELECT_COMMON1 @266
+    SAY SELECT_COMMON2 @266
+    SAY SELECT_COMMON3 @270
+    SAY SELECT_COMMON4 @271
+  END
+WRITE_ASCII SCRIPT_CLASS ~x#gpsht~ #8 // class script
+LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+/* Sahuagin */
+COPY ~bg1npc/Phase2/cre/x#saha01.cre~ ~override~
+  SAY NAME1 @720  /* Sahuagin Chieftain */
+  SAY NAME2 @720  /* Sahuagin Chieftain */
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY INITIAL_MEETING @722 // [SAHAU01]
+  SAY BATTLE_CRY1 @723 // [SAHAU02]
+  SAY DAMAGE @727 // [SAHAU06]
+  SAY DYING @728 // [SAHAU07]
+  SAY SELECT_COMMON1 @724 // [SAHAU03]
+  SAY SELECT_COMMON2 @725 // [SAHAU04]
+  SAY SELECT_COMMON3 @726 // [SAHAU05]
+  SAY SELECT_COMMON4 @722 // [SAHAU01]
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/Phase2/cre/x#saha02.cre~ ~override~
+  SAY NAME1 @721  /* Sahuagin */
+  SAY NAME2 @721  /* Sahuagin */
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+SAY INITIAL_MEETING @722 // [SAHAU01]
+  SAY BATTLE_CRY1 @723 // [SAHAU02]
+  SAY DAMAGE @727 // [SAHAU06]
+  SAY DYING @728 // [SAHAU07]
+  SAY SELECT_COMMON1 @724 // [SAHAU03]
+  SAY SELECT_COMMON2 @725 // [SAHAU04]
+  SAY SELECT_COMMON3 @726 // [SAHAU05]
+  SAY SELECT_COMMON4 @722 // [SAHAU01]
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+/* Add BG2 Items missing from BGEE */
+/* Boomerang Dagger */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~dagg11.itm~) THEN BEGIN
+COPY ~bg1npc/phase2/itm/dagg11.itm~ ~override~
+    SAY NAME2 @763
+    SAY DESC @764
+END
+
+/* Sahuagin Paralytic Bolt */
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~sahbolt.itm~) THEN BEGIN
+COPY ~bg1npc/phase2/itm/sahbolt.itm~ ~override~
+  SAY NAME2 @772
+    SAY DESC @773
+END
+
+/* area patching */
+EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW3100.BAF~
+    EVALUATE_BUFFER
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#IHTIA.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KETH.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KISE1.BAF~
+
+/* dialogues */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KISEQU.D~

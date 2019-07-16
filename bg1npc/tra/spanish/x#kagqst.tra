@@ -1,0 +1,70 @@
+@0    = ~Bueno, sí que hay problemas en las calles. He visto varios.~
+@1    = ~¡Vaya que si estás en el lugar equivocado en el momento equivocado!~
+@2    = ~¡Oíd, eso es mío! ¡Quitad vuestras manos de encima!~
+@3    = ~Rendíos o morid ahora.~
+@4    = ~No hay rendición para gusanos como estos.~
+@5    = ~¡Morid, mugre!~
+@6    = ~Tengo que mataros ahora. No es nada personal, ¿eh?~
+@7    = ~Señora, traigo malas noticias. En mis viajes encontré una caravana destrozada... y el cuerpo de un hombre joven, vestido con colores de Escudo de Plata. Los bandidos que lo mataron tenían su hebilla.~
+@8    = ~¿Entonces Eddard ha muerto? Éstas son terribles noticias. Dadme la hebilla. La guardaré en memoria de mi querido hijastro... ~
+@9    = ~No... no... ¿Por qué no me lo habéis dicho, <CHARNAME>? M-m-mi hermano... ¡oh, no!~
+@10   = ~Callad niña.~
+@11   = ~¿Qué... Skie? ¿Qué hacéis?~
+@12   = ~Yo eh... estoy saliendo. Eh...~
+@13   = ~¿Hmph, con esas vestiduras de rata de caño, y con la mochila a la espalda? Casi que no, querida. Os estáis escapando, ¿verdad? ~
+@14   = ~Yo... sí, me voy. Er... ¿Se lo diréis a mi padre?~
+@15   = ~Hmmm... ¿decírselo? ¡Claro que no! Es un giro de eventos interesante...~
+@16   = ~¿Qué..?~
+@17   = ~Querida, sois una niñita mimada. Os quejáis cuando os rompéis una *uña*. ¿En serio creéis que sobreviviréis en el malvado mundo exterior? Un mejor ejemplo de comida de trasgo no he visto.~
+@18   = ~Y cuando eventualmente caigáis en el camino, justo como vuestro hermano, *YO* seré quien esté sentada en la cumbre de la fortuna Escudo de Plata.~
+@19   = ~Pero marchad... ¿tal vez podáis dejar a vuestro amigo, hmm? *sonríe a Eldoth* ~
+@20   = ~ Vos... ¡Vos, *perra*!~
+@21   = ~¡Alejaos de mí, Eldoth!~
+@22   = ~Calma, cariño. Sólo podemos esperar que... um... el que vuestra marcha permanezca en secreto, ¿verdad? ¿Incluso de alguien tan introvertido como vuestro padre? Vamos a montarnos en las alas del Amor e ir a donde nos lleven. *abraza a Skie y guiña a Brilla sobre su hombro.*~
+@23   = ~¡Tee-hee! si alguna vez necesito un humorista para hacer divertidas mis tardes ya sé dónde ir. ¡Qué os vaya bien, cariño! *Skie arrastra a Eldoth de la habitación.*~
+@24   = ~Nunca se tienen mercenarios suficientes para hacer bien la operación. ¿Tenéis experiencia?~
+@25   = ~Hemos luchado contra un grupo de bandidos que habían matado a todos dentro de una caverna en el norte. ¿Alguna posibilidad de que esta hebilla sea de alguno de los vuestros?~
+@26   = ~Vos no salís de detrás de la barra demasiado, ¿verdad?. Ei, ¿es esto de alguna de vuestras caravanas? Lo conseguí de unos cuerpos al norte.~
+@27   = ~Algo. Vimos unas caravanas al norte, y luchamos contra los bandidos, pero llegamos demasiado tarde. ¿Es esto de alguno de los vuestros?~
+@28   = ~Ei, me alegra que tengáis sentido común. Tengo a alguien que puede encargarse de mi negocio mientras no estoy, así que vamos.~
+@29   = ~Bueno, hay problemas en los caminos. Hemos luchado contra un grupo de bandidos que habían matado a todos dentro de una caverna en el norte. ¿Alguna posibilidad de que esta hebilla sea de alguno de los vuestros?~
+@30   = ~Sabéis, me acabo de acordar... vimos una caravana destrozada al norte, y luchamos con los bandidos. ¿Es esto de alguno de los vuestros?~
+@31   = ~Bueno éste es la marca de los Escudo de Plata. ¿Creéis que está muerto? Estaba en una de mis caravanas. Supongo que estoy en un gran aprieto ahora. Con él muerto, soy un enano buscado. Bueno, ya que mi reputación es fango, ¿qué tal si os ayudo a vengaros de esos cerdos? Tal vez podáis hablar por mí con los Escudo de Plata. ¿Qué decís?~
+@32   = ~No os queremos cerca, marchaos.~
+@33   = ~La búsqueda de Kagain
+
+El hijo de Entar Escudo de Plata ha sido asesinado. No confié en Kagain, así que nos fuimos cada uno por nuestro lado. Pero podría llevar esta hebilla de vuelta a su familia, en Puerta de Baldur.~
+@34   = ~Claro podríamos usar vuestras habilidades.~
+@35   = ~La búsqueda de Kagain
+
+El hijo de Entar Escudo de Plata ha sido asesinado. Deberíamos llevar la hebilla de vuelta a su familia, cuando lleguemos a Puerta de Baldur.~
+@36   = ~Ahora, respecto a eso que prometí de la contratación. Tomad este oro, pero de ahora en adelante esperaré parte de las ganancias. Soy pobre.~
+@37   = ~Imbécil. Vos os lo perdéis.~
+@38   = ~¡No quiero apresuraros para nada, pero tengo que encontrar una caravana! ¡Moveos!~
+@39   = ~Iba de Beregost hacia el noreste, a Puerta de Baldur. Les dije que se mantuvieran al este del camino principal.~
+@40   = ~Bueno, mirad lo que encontré, el cuerpo del hijo de Escudo de Plata. Supongo que estoy en un gran aprieto ahora. Con él muerto, soy un enano buscado. De lo que saqué hasta ahora todos vosotros estáis detrás de los malditos bandidos. Bueno, ya que mi reputación es fango, ¿qué tal si os ayudo a vengaros de esos cerdos?~
+@41   = ~No os quiero cerca. Marchaos.~
+@42   = ~Claro, podríamos usar vuestras habilidades. Uníos.~
+@43   = ~Imbécil. Vos os lo perdéis. Me voy.~
+@44   = ~La búsqueda de Kagain
+
+El hijo de Entar Escudo de Plata ha sido asesinado. No me gustó la actitud de Kagain, así que marchamos por caminos diferentes. Pero podría llevar esta hebilla de vuelta a su familia, en Puerta de Baldur.~
+@45   = ~Ahora, respecto a eso que prometí de la contratación. Tomad este oro, pero de ahora en adelante esperaré parte de las ganancias. Soy pobre.~
+@46   = ~Traemos noticias para el señor y la señora Escudo de Plata. Creemos tener novedades acerca de su hijo. ¿Puede ser esta hebilla suya?~
+@47   = ~Veo que tenéis un objeto de la familia. Por favor, hablad directamente con la señora Escudo de Plata. Está escaleras arriba.~
+// BGEE #27194
+@48   = ~La misión de Kagain
+Kagain, un enano que está buscando a un noble perdido, se ha unido a mi grupo. Concretamente es el hijo de Entar Escudo de Plata, quien está realmente desesperado por encontrarle.~
+@49   = ~El hijo de Entar
+Devolvimos el broche insignia del hijo de Entar Escudo de Plata a su familia.~
+@50   = ~Bueno, hay problemas en los caminos. Hemos luchado contra un grupo de bandidos que habían matado a todos dentro de una caverna en el norte.~
+@51   = ~Vos no salís de detrás de la barra demasiado, ¿verdad? Sabéis, me acabo de acordar... vimos una caravana destrozada al norte, y luchamos con los bandidos.~
+@52   = ~¿Creéis que está muerto? Estaba en una de mis caravanas. Supongo que estoy en un gran aprieto ahora. Con el hijo de Entar Escudo de Plata muerto, soy un enano buscado. Bueno, ya que mi reputación es fango, ¿qué tal si os ayudo a vengaros de esos cerdos? Tal vez podáis hablar por mí con los Escudo de Plata. ¿Qué decís?~
+@53   = ~La búsqueda de Kagain
+El hijo de Entar Escudo de Plata ha sido asesinado. No confié en Kagain, así que nos fuimos cada uno por nuestro lado.~
+@54   = ~La búsqueda de Kagain
+El hijo de Entar Escudo de Plata ha sido asesinado.~
+@55   = ~Hemos luchado contra un grupo de bandidos que habían matado a todos dentro de una caverna en el norte.~
+@56   = ~Aaaah, pensándolo bien, en realidad no.~
+@57   = ~¡Eddard! No puedo creer que haya muerto.~
+@58   = ~No puedo creer que haya muerto.~

@@ -139,9 +139,9 @@
 @60 = ~*ricane* <CHARNAME>, tu m'en d-dois une...~
 
 //Avec Tranzig, le mage contact des bandits à Bérégost
-@61 = ~Je ne suis pas ravie de prendre cette voie, mais, malheureusement, c'est la seule option vraiment sûre. Je suis d'accord avec toi, <CHARNAME>.~
+//@61 = ~Je ne suis pas ravie de prendre cette voie, mais, malheureusement, c'est la seule option vraiment sûre. Je suis d'accord avec toi, <CHARNAME>.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 892, probablement inutile de traduire ici !
-@62 = ~Vous allez tous mourir !~
+//@62 = ~Vous allez tous mourir !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 891, probablement inutile de traduire ici !
 @63 = ~<CHARNAME>, nous ne devons pas laisser cette racaille s'enfuir, il va certainement aller informer ses supérieurs. Il serait préférable que nous puissions... empêcher cela... d'une manière ou d'une autre...~
 

@@ -35,7 +35,7 @@
                                ~%tutu_var%brielb.cre~
                                ~%tutu_var%brilla.cre~
                                ~%tutu_var%cadder.cre~
-                               ~%tutu_var%calaha.cre~
+                               ~%tutu_scriptbg%calaha%eet_var%.cre~
                                ~%tutu_var%chase.cre~
                                ~%tutu_var%claird.cre~
                                ~%tutu_var%coksmth.cre~
@@ -227,7 +227,7 @@
                                ~%tutu_var%yeslic5.cre~
                                ~idemon02.cre~
                                ~imp01.cre~
-                               ~mepsmo01.cre~ 
+                               ~mepsmo01.cre~
 	BEGIN
 		ACTION_IF FILE_EXISTS_IN_GAME ~%crefile%~ THEN BEGIN
 			COPY_EXISTING ~%crefile%~ ~override~
@@ -241,21 +241,21 @@
 					WRITE_BYTE 0x56 13 // Save vs. Polymorph
 					WRITE_BYTE 0x57 15 // Save vs. Breath
 					WRITE_BYTE 0x58 15 // Save vs. Spells
-				END	
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti4.cre~) BEGIN
 					WRITE_BYTE 0x54 11 // Save vs. Death
 					WRITE_BYTE 0x55 13 // Save vs. Wand
 					WRITE_BYTE 0x56 12 // Save vs. Polymorph
 					WRITE_BYTE 0x57 14 // Save vs. Breath
 					WRITE_BYTE 0x58 14 // Save vs. Spells
-				END	
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%ajanti6.cre~) BEGIN
 					WRITE_BYTE 0x54 9  // Save vs. Death
 					WRITE_BYTE 0x55 11 // Save vs. Wand
 					WRITE_BYTE 0x56 10 // Save vs. Polymorph
 					WRITE_BYTE 0x57 11 // Save vs. Breath
 					WRITE_BYTE 0x58 12 // Save vs. Spells
-				END		
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%alora.cre~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_var%ALORA~ #8 //  override script
 					WRITE_ASCIIE 0x2CC ~%tutu_var%ALORA~ #8 //  dialog
@@ -304,21 +304,21 @@
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_branwe.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
-				END	 
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_branwe5.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_BRANWE~ #8 //  override script
 					WRITE_BYTE 0x66 5 // Lore
 				END
       				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
-      				END	 
+      				END
       				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGBRANW~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
-      				END	 
+      				END
       				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
@@ -404,19 +404,19 @@
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_faldor.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
-				END	 
+				END
       				PATCH_IF (~%crefile%~ STR_EQ ~_faldor5.cre~) BEGIN
       					WRITE_ASCII 0x248 ~_FALDO~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
-      				END	 
+      				END
       				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgt~) BEGIN
       					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
-      				END	 
+      				END
       				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
       					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
       				END
@@ -478,16 +478,16 @@
 					REMOVE_MEMORIZED_SPELL ~spwi205~ ~spwi212~ // Horror & Mirror Image
 					REMOVE_KNOWN_SPELL ~spwi205~ ~spwi212~
 					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ // Lightning Bolt
-				END				
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_garric.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
-				END	 
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_garric2.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
-				END	 
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_garric4.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
-				END	 
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~_garric6.cre~) BEGIN
 					WRITE_ASCII 0x248 ~_GARRI~ #8 //  override script
 				END
@@ -734,14 +734,14 @@
 					WRITE_BYTE 0x58 16 // Save vs. Spells
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%khalid6.cre~) BEGIN
-					WRITE_BYTE 0x23a 15 // intelligence				
+					WRITE_BYTE 0x23a 15 // intelligence
 					WRITE_BYTE 0x66 6  // Lore
 					WRITE_BYTE 0x54 11 // Save vs. Death
 					WRITE_BYTE 0x55 13 // Save vs. Wand
 					WRITE_BYTE 0x56 12 // Save vs. Polymorph
 					WRITE_BYTE 0x57 13 // Save vs. Breath
 					WRITE_BYTE 0x58 14 // Save vs. Spells
-				END					
+				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%landri.cre~) BEGIN // Landrin (in FAI L3)
 					WRITE_SHORT 0x28 0x6314 // Animation (thief_female_gnome, was 0x6212 mage_female_dwarf)
 					WRITE_BYTE 0x55 9 // Save vs. wands (was 11)
@@ -904,7 +904,7 @@
 					WRITE_BYTE 0x236 1 // Level 3 (was 5)
 					WRITE_BYTE 0x27b 0x22 // Alignment (neutral)
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%quayle.cre~) BEGIN 
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%quayle.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
@@ -919,7 +919,7 @@
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ // Command
 					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle4.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%quayle4.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
@@ -936,17 +936,17 @@
 					ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ // Magic Missile
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_script%quayle6.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%quayle6.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)
 					WRITE_BYTE 0x236 1 // Level 3 (was 0)
-					WRITE_BYTE 0x23c 16 // Dexterity (was 15)  				
+					WRITE_BYTE 0x23c 16 // Dexterity (was 15)
 					WRITE_SHORT 0x24 34 // Current HP (was 24)
 					WRITE_SHORT 0x26 34 // Max HP (was 24)
 					WRITE_BYTE 0x66 25 // Lore (was 21)
 					REMOVE_MEMORIZED_SPELL ~sppr105~ // Entangle
-					REMOVE_KNOWN_SPELL ~sppr105~ 
+					REMOVE_KNOWN_SPELL ~sppr105~
 					ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (2) // Command
 					ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ // Chromatic Orb
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ // Melf's Acid Arrow
@@ -1219,6 +1219,6 @@
 
 	/* Scripts */
 	COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10b.baf~  /* For Bently */
-    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
-    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
-    COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */
+  COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag10c.baf~  /* For Dushai */
+  COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#mag14d.baf~  /* For Tellan */
+  COMPILE EVALUATE_BUFFER ~bg1npc/core/baf/x#prs10b.baf~  /* For Dushai */

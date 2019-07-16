@@ -269,7 +269,7 @@ I_C_T3 ~%tutu_var%THALAN~ 0 X#THALAN0
 == ~%tutu_var%THALAN~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @921
 == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @95
 == ~%tutu_var%THALAN~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("P#KivWelcome","GLOBAL",0)~ THEN @96
-DO ~GiveItemCreate("X#KISPEA","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
+DO ~GiveItemCreate("x#kispr","kivan",1,0,0) SetGlobal("P#KivWelcome","GLOBAL",1)~
 END
 
 /* passback not required - trans actions are journal related */
@@ -427,7 +427,7 @@ END
 //== ~%tutu_var%LUCKY~ @127
 //END
 
-/* Areana - Noblewoman and Cyrdemac (Baldur’s Gate N) */
+/* Areana - Noblewoman and Cyrdemac (Baldur's Gate N) */
 /* passback not required - no trans actions */
 I_C_T3 ~%tutu_var%NOBW8~ 3 X#NOBW83
 == ~%SAFANA_JOINED%~ IF ~InParty("safana") InMyArea("safana") !StateCheck("safana",CD_STATE_NOTVALID)~ THEN @128
@@ -1121,9 +1121,9 @@ I_C_T3 ~%tutu_var%INGOT~ 1 X#INGOT1
 == ~%tutu_var%INGOT~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @936
 == ~%EDWIN_JOINED%~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @396
 == ~%tutu_var%INGOT~ IF ~InParty("edwin") InMyArea("edwin") !StateCheck("edwin",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @937
-== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) OR(3) !InParty("minsc") !InParty("minsc") StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @397
-== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InParty("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @398
-== ~%MINSC_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InParty("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @399
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) OR(3) !InParty("minsc") !InMyArea("minsc") StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @397
+== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @398
+== ~%MINSC_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) !Global("HelpMinsc","GLOBAL",2)~ THEN @399
 == ~%tutu_var%INGOT~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @400
 END
 
@@ -2073,16 +2073,16 @@ I_C_T3 ~%tutu_var%TOWNCR~ 0 X#TOWNCR0
 == ~%tutu_var%TOWNCR~ IF ~InParty("xzar") InMyArea("xzar") !StateCheck("xzar",CD_STATE_NOTVALID)~ THEN @885
 END
 
-/* Tranzig */
+/* Tranzig  - Moved to separate file for BGEE v2.5 compatibility */
 /* passback not required - all trans actions relate to journal entries */
-I_C_T3 ~%tutu_var%TRANZI~ 7 X#TRANZI7
-== ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @887
-== ~%tutu_var%TRANZI~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @888
-== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @889
-== ~%tutu_var%TRANZI~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @890
-== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @891
-== ~%tutu_var%TRANZI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @892
-END
+// I_C_T3 ~%tutu_var%TRANZI~ 7 X#TRANZI7
+// == ~%BRANWEN_JOINED%~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @887
+// == ~%tutu_var%TRANZI~ IF ~InParty("branwen") InMyArea("branwen") !StateCheck("branwen",CD_STATE_NOTVALID)~ THEN @888
+// == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @889
+// == ~%tutu_var%TRANZI~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @890
+// == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @891
+// == ~%tutu_var%TRANZI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @892
+// END
 
 /* Vail */
 /* passback not required - no trans actions */

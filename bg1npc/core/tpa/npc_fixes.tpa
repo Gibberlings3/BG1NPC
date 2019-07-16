@@ -1,0 +1,59 @@
+/* Trying to prevent Alora from Stuttering. */
+COPY_EXISTING ~%tutu_var%ALORA.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+  REPLACE_TEXTUALLY CASE_INSENSITIVE
+    ~TimeOfDay(DAY)~ ~AreaCheck("%WBaldursGate_HallofWonders%") NumberOfTimesTalkedTo(0) TimeOfDay(DAY) !InParty(Myself)~
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+/* WizWom's Prevent Alora Area Script from Crashing. */
+COPY_EXISTING ~%WBaldursGate_HallofWonders_BCS%.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~Exists("ALORA")~ ~Exists("ALORA") InMyArea("ALORA")~
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+/* Stop Viconia's Potential Script Stutter on Tutu - fix already in BGEE */
+/* scripts */
+ACTION_IF !(GAME_IS ~bgee eet~) THEN BEGIN
+  COPY_EXISTING ~%tutu_var%VICONIA.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY CASE_INSENSITIVE ~See("flamingfist2")~ ~See("flamingfist2") !Dead("flamingfist2")~
+    END
+    BUT_ONLY_IF_IT_CHANGES
+END
+
+/* removing Minsc's timer to leave party */
+COPY_EXISTING ~%MINSC_BCS%.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("MINSC","GLOBAL")~ ~False()~
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+/* removing Kivan's timer to leave party */
+COPY_EXISTING ~%KIVAN_BCS%.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("KIVAN","GLOBAL")~ ~False()~
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+  /* WizWom's Tutu NPC Battle fix: TUTU only, not compatible with BGT scripts */
+  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+    COPY_EXISTING ~%EDWIN_BCS%.bcs~ ~override~
+                  ~%ELDOTH_BCS%.bcs~ ~override~
+                  ~%SHARTEEL_BCS%.bcs~ ~override~
+                  ~%JAHEIRA_BCS%.bcs~ ~override~
+                  ~%KAGAIN_BCS%.bcs~ ~override~
+                  ~%KHALID_BCS%.bcs~ ~override~
+                  ~%KIVAN_BCS%.bcs~ ~override~
+                  ~%MINSC_BCS%.bcs~ ~override~
+                  ~%MONTARON_BCS%.bcs~ ~override~
+                  ~%QUAYLE_BCS%.bcs~ ~override~
+                  ~%TIAX_BCS%.bcs~ ~override~
+                  ~%VICONIA_BCS%.bcs~ ~override~
+                  ~%DYNAHEIR_BCS%.bcs~ ~override~
+      DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY CASE_INSENSITIVE ~MakeUnselectable(5000)~ ~MakeUnselectable(6) Continue()~
+      END
+    BUT_ONLY_IF_IT_CHANGES
+  END

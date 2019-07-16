@@ -203,4 +203,16 @@ Con la ayuda de Jaheira pude convencer a los druidas que estaban amenazando a Al
 // BGEE 26820
 @188 = ~Aldezh Marquestrella
 He accedido a ayudar a Aldezh Marquestrella, un noble de Puerta de Baldur, a luchar contra una banda de salvajes.~
+// BGEE 27430
+@189 = ~Aldezh Marquestrella
+Me puse de parte de los druidas y maté a Aldezh Marquestrella. Seniyad me agradeció mi ayuda.~
+// BGEE 32835
+@190 = ~Aldezh Marquestrella
+Aldezh Marquestrella estaba tan agradecido por haber apaciguado a los druidas que me invitó a su hogar en Puerta de Baldur.~
+// From @105
+@191 = ~Entonces debemos apresurarnos para ayudar a la chica tan pronto como sea posible.~
+// From @160
+@192 = ~Vuestra falta de preocupación por nuestro rumbo y vuestra reluctancia a ayudar a vuestros propios amigos me horroriza. ¡Abandonad este bosque ahora, he perdido mi paciencia con vos!~
+// From BGEE 1381 "Very well," 7926 "Before you go," 21033 "I must ask a favor of you."
+@193 = ~Está bien, Jaheira. Antes de irme, debo pedirte un favor.~
 @999  = ~Sombras en el Bosque de las Capas~

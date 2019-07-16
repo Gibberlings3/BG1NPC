@@ -133,11 +133,12 @@
 [3] Very fast banters (~13 minutes between banter dialogs)
 [4] Slower banters (~40 minutes between banter dialogs)
 [5] Very slow banters (~55 minutes between banter dialogs)"
-@1126  = ~Banter Timing: Normal~
-@1127  = ~Banter Timing: Fast~
-@1128  = ~Banter Timing: Very fast~
-@1129  = ~Banter Timing: Slow~
-@1130  = ~Banter Timing: Very slow~
+@1126  = ~Banter Timing: Normal (about 27 minutes between banter dialogs)~
+@1127  = ~Banter Timing: Fast (about 20 minutes between banter dialogs)~
+@1128  = ~Banter Timing: Very fast (about 13 minutes between banter dialogs)~
+@1129  = ~Banter Timing: Slow (about 40 minutes between banter dialogs)~
+@1130  = ~Banter Timing: Very slow (about 55 minutes between banter dialogs)~
+@1131  = ~The BG1 NPC Project: Give Coran his "Murder in Baldur's Gate" portrait~
 @5000  = ~BG:EE install detected.~
 @5001  = ~You must have BGT or TuTu installed for this component.~
 @5002  = ~You must have BGEE installed for this component.~

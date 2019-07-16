@@ -1,8 +1,24 @@
 IF
+	Global("bd_entboy_removal","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
 	StateCheck(Myself,STATE_PANIC)
 THEN
 	RESPONSE #100
 		RandomWalkContinuous()
+END
+
+IF
+	Die()
+	Global("X#CaravanBanditEncounter","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("X#KagainCaravan","GLOBAL",3)
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
 END
 
 IF %BGT_VAR%
@@ -41,6 +57,18 @@ END
 
 IF
 	Heard("x#bandk",ASSIST)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		SetGlobal("X#KagainCaravan","GLOBAL",3)
+		SetGlobal("X#CaravanBanditEncounter","GLOBAL",2)
+		Shout(ASSIST)
+		Enemy()
+		Continue()
+END
+
+IF
+	Heard("x#bandk",ASSIST)  // Caravan Bandit
 	Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100

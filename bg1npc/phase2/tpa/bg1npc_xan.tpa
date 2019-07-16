@@ -1,0 +1,350 @@
+/* Xan's Encounter 1  */
+
+  /* items */
+COPY ~bg1npc/phase2/itm/X#CTURN.BAM~ ~override~
+     ~bg1npc/phase2/itm/X#ITURN.BAM~ ~override~
+COPY ~bg1npc/phase2/itm/P#BAG01.itm~ ~override~
+  SAY NAME1 @163
+  SAY NAME2 @163
+  WRITE_ASCII 0x3a ~X#ITURN~ #8
+  WRITE_ASCII 0x44 ~GSACK01~ #8
+  WRITE_ASCII 0x58 ~X#CTURN~ #8
+  SAY UNIDENTIFIED_DESC @164
+  SAY DESC @165
+
+COPY ~bg1npc/phase2/itm/P#BAG02.itm~ ~override~
+  SAY NAME1 @166
+  SAY NAME2 @166
+  WRITE_ASCII 0x44 ~GSACK01~ #8
+  SAY UNIDENTIFIED_DESC @167
+  SAY DESC @168
+
+COPY_EXISTING ~%tutu_var%STO4901.sto~ ~override~
+  ADD_STORE_ITEM ~P#BAG02~  AFTER  ~%tutu_var%SHLD16~  #0 #0 #0 ~IDENTIFIED~ #5
+  ADD_STORE_ITEM ~P#BAG01~  AFTER  ~%tutu_var%SHLD16~  #0 #0 #0 ~IDENTIFIED~ #5
+
+/* creatures */
+COPY ~bg1npc/Phase2/cre/x#david.cre~ ~override~
+  SAY NAME1 @83
+  SAY NAME2 @83
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* Jan Jansen soundset not present in BGEE, use default gnome instead */
+    SAY INITIAL_MEETING @557
+    SAY DAMAGE @559
+    SAY DYING @560
+    SAY SELECT_COMMON1 @557
+    SAY SELECT_COMMON2 @558
+    SAY SELECT_COMMON3 @561
+  END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY MORALE @84
+    SAY HAPPY @85
+    SAY UNHAPPY_ANNOYED @86
+    SAY UNHAPPY_SERIOUS @87
+    SAY UNHAPPY_BREAKING @88
+    SAY LEADER @89
+    SAY TIRED @90
+    SAY BORED @91
+    SAY BATTLE_CRY1 @92
+    SAY BATTLE_CRY2 @93
+    SAY BATTLE_CRY3 @94
+    SAY DAMAGE @95
+    SAY DYING @96
+    SAY HURT @97
+    SAY AREA_FOREST @98
+    SAY AREA_CITY @99
+    SAY AREA_DUNGEON @100
+    SAY AREA_DAY @101
+    SAY AREA_NIGHT @102
+    SAY SELECT_COMMON1 @103
+    SAY SELECT_COMMON3 @104
+    SAY SELECT_COMMON4 @105
+    SAY SELECT_COMMON5 @106
+    SAY SELECT_COMMON6 @107
+    SAY SELECT_ACTION1 @108
+    SAY SELECT_ACTION2 @109
+    SAY SELECT_ACTION3 @110
+    SAY SELECT_ACTION4 @111
+    SAY SELECT_ACTION5 @112
+    SAY SELECT_ACTION6 @113
+    SAY SELECT_ACTION7 @114
+    SAY SELECT_RARE1 @115
+    SAY SELECT_RARE2 @116
+    SAY CRITICAL_HIT @117
+    SAY CRITICAL_MISS @118
+    SAY TARGET_IMMUNE @119
+    SAY INVENTORY_FULL @120
+    SAY PICKED_POCKET @121
+    SAY HIDDEN_IN_SHADOWS @122
+    SAY SPELL_DISRUPTED @123
+    SAY SET_A_TRAP @124
+  END
+  WRITE_LONG BIO (BNOT 0x0)
+  LAUNCH_PATCH_MACRO ~source_cre_script_cleanup~
+  WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
+  WRITE_ASCII SCRIPT_CLASS ~x#davidx~ #8 // class script
+  WRITE_ASCII SCRIPT_DEFAULT ~%tutu_var%WTARSGT~ #8 // default script
+  WRITE_ASCII 0x34 ~~ #8 // small portrait
+  WRITE_ASCII 0x2CC ~X#DAVI~ #8 //  dialog
+  WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+
+COPY ~bg1npc/Phase2/cre/x#cru11.cre~ ~override~
+  SAY NAME1 @125
+  SAY NAME2 @125
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* BG2 sounds not in BGEE */
+    SAY INITIAL_MEETING @702 // x#ogref3
+    SAY BATTLE_CRY1 @700 // x#ogref1
+    SAY BATTLE_CRY2 @702 // x#ogref3
+    SAY DAMAGE @704 // x#ogref5
+    SAY DYING @705 // x#ogref6
+    SAY SELECT_COMMON1 @701 // x#ogref2
+    SAY SELECT_COMMON2 @703 // x#ogref4
+  END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY INITIAL_MEETING @126
+    SAY UNHAPPY_BREAKING @127
+    SAY BATTLE_CRY1 @128
+    SAY BATTLE_CRY2 @129
+    SAY DAMAGE @130
+    SAY DYING @131
+    SAY SELECT_COMMON1 @126
+    SAY SELECT_COMMON2 @132
+    SAY SELECT_COMMON3 @133
+    SAY SELECT_COMMON4 @134
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/Phase2/cre/x#chop.cre~ ~override~
+  SAY NAME1 @135
+  SAY NAME2 @135
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* BG2 sounds not in BGEE */
+    SAY INITIAL_MEETING @702 // x#ogref3
+    SAY BATTLE_CRY1 @700 // x#ogref1
+    SAY BATTLE_CRY2 @702 // x#ogref3
+    SAY DAMAGE @704 // x#ogref5
+    SAY DYING @705 // x#ogref6
+    SAY SELECT_COMMON1 @701 // x#ogref2
+    SAY SELECT_COMMON2 @703 // x#ogref4
+  END ELSE BEGIN /* Tutu, BGT, EET */
+    SAY INITIAL_MEETING @126
+    SAY UNHAPPY_BREAKING @127
+    SAY BATTLE_CRY1 @128
+    SAY BATTLE_CRY2 @129
+    SAY DAMAGE @130
+    SAY DYING @131
+    SAY SELECT_COMMON1 @126
+    SAY SELECT_COMMON2 @132
+    SAY SELECT_COMMON3 @133
+    SAY SELECT_COMMON4 @134
+  END
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+COPY ~bg1npc/Phase2/cre/x#assi01.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi02.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi03.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi04.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi05.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi06.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi07.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi08.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi09.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi10.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#assi11.cre~ ~override~
+  SAY NAME1 @136
+  SAY NAME2 @136
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* BG2 sounds not in BGEE */
+  /* x#assi01-11 are illusions created by x#david that don't speak */
+    WRITE_LONG DAMAGE BNOT (0x0)
+    WRITE_LONG DYING BNOT (0x0)
+  END ELSE BEGIN /* Tutu, BGT */
+    SAY LEADER @137
+    SAY TIRED @138
+    SAY BORED @139
+    SAY BATTLE_CRY1 @140
+    SAY BATTLE_CRY2 @141
+    SAY BATTLE_CRY3 @142
+    SAY DAMAGE @143
+    SAY DYING @144
+    SAY HURT @145
+    SAY SELECT_COMMON1 @146
+    SAY SELECT_COMMON2 @147
+    SAY SELECT_COMMON3 @148
+    SAY SELECT_ACTION1 @149
+    SAY SELECT_ACTION2 @150
+    SAY SELECT_ACTION3 @151
+    SAY SELECT_RARE1 @152
+    SAY SELECT_RARE2 @153
+    SAY CRITICAL_HIT @154
+    SAY CRITICAL_MISS @155
+    SAY TARGET_IMMUNE @156
+    SAY INVENTORY_FULL @157
+    SAY PICKED_POCKET @158
+    SAY HIDDEN_IN_SHADOWS @159
+    SAY SPELL_DISRUPTED @160
+    SAY SET_A_TRAP @161
+END
+  SAY BIO @162
+  WRITE_ASCII 0x2CC ~X#ASSIST~ #8 //  dialog
+  WRITE_ASCII 0x3c ~~ #8 // large portrait
+  WRITE_ASCII 0x34 ~~ #8 // small portrait
+  WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
+
+/* dialogues */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#DAVI.D~
+                        ~bg1npc/Phase2/dlg/X#CRU11.D~
+                        ~bg1npc/Phase2/dlg/X#CHOP.D~
+                        ~bg1npc/Phase2/dlg/X#XANQ.D~
+                        ~bg1npc/Phase2/dlg/X#ASSIST.D~
+                        ~bg1npc/Phase2/dlg/X#NEWMERCH2.D~
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#DAV01.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#DAV01.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#DAVID.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#DAVID.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#davidx.baf~  /* Combat script for David Jansen */
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN  /* Add sound files for x#cru11 and x#chop */
+COPY ~bg1npc/phase2/wav/x#ogref1.wav~ ~override~
+COPY ~bg1npc/phase2/wav/x#ogref2.wav~ ~override~
+COPY ~bg1npc/phase2/wav/x#ogref3.wav~ ~override~
+COPY ~bg1npc/phase2/wav/x#ogref4.wav~ ~override~
+COPY ~bg1npc/phase2/wav/x#ogref5.wav~ ~override~
+COPY ~bg1npc/phase2/wav/x#ogref6.wav~ ~override~
+END
+
+/* patching Xan's script */
+EXTEND_TOP  ~%XAN_BCS%.bcs~ ~bg1npc/Phase2/baf/X#XACUT.BAF~
+    EVALUATE_BUFFER
+
+/* Xan's Encounter 1  */
+EXTEND_BOTTOM ~%NorthNashkelRoad_BCS%.bcs~ ~bg1npc/Phase2/baf/X#FW4300.BAF~
+    EVALUATE_BUFFER
+
+/* Xan Centeol */
+COPY_EXISTING ~%CloakwoodNest%.are~ ~override~
+  WRITE_LONG 0x4a 100
+
+/* D/BAF Centeol */
+EXTEND_BOTTOM ~%CloakwoodNest_BCS%.bcs~  ~bg1npc/Phase2/baf/P#FW2100.BAF~
+    EVALUATE_BUFFER
+
+/* D/BAF Centeol */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/P#CENTEO.d~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/P#CECUT.BAF~
+EXTEND_TOP  ~%tutu_var%CENTEOL.bcs~ ~bg1npc/Phase2/baf/P#CENTEO.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%tutu_var%XAN.bcs~  ~bg1npc/Phase2/baf/P#XANCE.BAF~
+  EVALUATE_BUFFER
+
+/* Xan's Quest */
+
+/* creatures */
+COPY ~bg1npc/Phase2/cre/x#skodd.cre~ ~override~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @633
+  SAY NAME2 @633
+  SAY INITIAL_MEETING @474
+  SAY DAMAGE @473
+  SAY DYING @472
+  SAY SELECT_COMMON1 @474
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
+
+COPY ~bg1npc/Phase2/cre/x#mazuri.cre~ ~override~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @634
+  SAY NAME2 @634
+  SAY INITIAL_MEETING @177
+  SAY DAMAGE @562
+  SAY DYING @563
+  SAY SELECT_COMMON1 @177
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
+
+COPY ~bg1npc/Phase2/cre/x#gael.cre~ ~override~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @635
+  SAY NAME2 @635
+  SAY INITIAL_MEETING @177
+  SAY DAMAGE @562
+  SAY DYING @563
+  SAY SELECT_COMMON1 @177
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
+
+COPY ~bg1npc/Phase2/cre/x#siene.cre~ ~override~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @636
+  SAY NAME2 @636
+  SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+  SAY DAMAGE #11075 // [ELF FEMALE 5]
+  SAY DYING #11076 // [ELF FEMALE 6]
+  SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+  SAY DIALOGUE_DEFAULT #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
+
+COPY ~bg1npc/Phase2/cre/x#minuw.cre~ ~override~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @637
+  SAY NAME2 @637
+  SAY INITIAL_MEETING #11112 // [FEMALE GREETING 5] Yes, friend?
+  SAY DAMAGE #11075 // [ELF FEMALE 5]
+  SAY DYING #11076 // [ELF FEMALE 6]
+  SAY SELECT_COMMON1 #11112 // [FEMALE GREETING 5] Yes, friend?
+  SAY DIALOGUE_DEFAULT #11112 // [FEMALE GREETING 5] Yes, friend?
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
+
+COPY ~bg1npc/Phase2/cre/x#diala.cre~ ~override~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @638
+  SAY NAME2 @638
+  SAY INITIAL_MEETING #11117 // [FEMALE GREETING 10] Salutations.
+  SAY DAMAGE #11075 // [ELF FEMALE 5]
+  SAY DYING #11076 // [ELF FEMALE 6]
+  SAY SELECT_COMMON1 #11117 // [FEMALE GREETING 10] Salutations.
+  SAY DIALOGUE_DEFAULT #11117 // [FEMALE GREETING 10] Salutations.
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+  WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
+
+COPY ~bg1npc/Phase2/cre/x#wdoe.cre~ ~override~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @639
+  SAY NAME2 @639
+  SAY INITIAL_MEETING @706 // [MOOSE01]
+  SAY SELECT_COMMON1 @706 // [MOOSE01]
+  SAY DIALOGUE_DEFAULT @706 // [MOOSE01]
+  SAY DAMAGE @707 // [MOOSE06]
+  SAY DYING @708 // [MOOSE07]
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+
+COPY ~bg1npc/Phase2/cre/x#xqmer1.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#xqmer2.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#xqmer3.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#xqmer4.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#xqmer5.cre~ ~override~
+     ~bg1npc/Phase2/cre/x#xqmer6.cre~ ~override~
+LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @640
+  SAY NAME2 @640
+  SAY DAMAGE @562
+  SAY DYING @563
+  WRITE_ASCII SCRIPT_GENERAL ~x#xqmerx~ #8
+  LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
+
+/* scripts */
+EXTEND_BOTTOM ~%SpiderWood_BCS%.bcs~ ~bg1npc/Phase2/baf/X#FW3000XQ.BAF~
+    EVALUATE_BUFFER
+EXTEND_BOTTOM ~%MutaminsGarden_BCS%.bcs~ ~bg1npc/Phase2/baf/X#FW3500XQ.BAF~
+    EVALUATE_BUFFER
+EXTEND_TOP ~%XAN_BCS%.bcs~ ~bg1npc/Phase2/baf/X#XQXAN.BAF~
+    EVALUATE_BUFFER
+
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#XQCUT.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#SKODD.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XQXAN.D~
+COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#xqmerx.baf~

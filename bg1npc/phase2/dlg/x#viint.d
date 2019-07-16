@@ -24,16 +24,16 @@ I_C_T ~%tutu_var%ALDETH~ 5 X#VicAld
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @8 END
 
 I_C_T ~%tutu_var%ANDARS~ 1 X#VicAnd
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @9 
-== ~%tutu_var%ANDARS~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1001 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @9
+== ~%tutu_var%ANDARS~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1001
 END
 
 //I_C_T2 ~%tutu_var%ANGELO~ 0 X#VicAng
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @10 END
 
 I_C_T ~%tutu_var%AOLN~ 1 X#VicAoln
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @11 
-== ~%tutu_var%AOLN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1002 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @11
+== ~%tutu_var%AOLN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1002
 END
 
 I_C_T ~%tutu_var%ARCAND~ 1 X#VicArcand
@@ -65,8 +65,8 @@ I_C_T ~%tutu_var%ARKANI3~ 1 X#VicArk
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @23 END
 
 I_C_T ~%tutu_var%ASHEN~ 1 X#VicAshen
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @24 
-== ~%tutu_var%ASHEN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1003 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @24
+== ~%tutu_var%ASHEN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1003
 END
 
 I_C_T ~%tutu_var%BANDCR~ 5 X#VicBandCR
@@ -104,12 +104,12 @@ I_C_T ~%tutu_var%BASSIL~ 1 X#VicBassilus
 //END
 
 //I_C_T ~%tutu_var%BELAND~ 1 X#VicBel2
-//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @29 
+//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @29
 //== ~%tutu_var%BELAND~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @30
 //END
 
 //I_C_T ~%tutu_var%BELAND~ 2 X#VicBel3
-//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @29 
+//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @29
 //== ~%tutu_var%BELAND~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @30
 //END
 
@@ -184,7 +184,7 @@ I_C_T ~%tutu_var%DRIENN~ 1 X#VicDri
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @54 END
 
 I_C_T ~%tutu_var%DROTH~ 2 X#VicDroth
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @55 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @55
 == ~%tutu_var%DROTH~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1004
 END
 
@@ -196,7 +196,7 @@ I_C_T ~%tutu_var%DUN~ 1 X#VicDun
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @58 END
 
 //I_C_T2 ~%tutu_var%ENTILL~ 0 X#VicEntill
-//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @59 
+//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @59
 //== ~%tutu_var%ENTILL~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @60 END
 
 I_C_T ~%tutu_var%FAIZAH~ 0 X#VicFai
@@ -217,8 +217,8 @@ I_C_T ~%tutu_var%GARDEN~ 0 X#VicGard
 == ~%tutu_var%GARDEN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @67 END
 
 I_C_T ~%tutu_var%GAZIB~ 2 X#VicGaz
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @68 
-== ~%tutu_var%GAZIB~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1005 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @68
+== ~%tutu_var%GAZIB~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1005
 END
 
 I_C_T ~%tutu_var%GRETEK~ 1 X#VicGret
@@ -233,8 +233,8 @@ I_C_T ~%tutu_var%GRETEK~ 1 X#VicGret
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @73 END
 
 I_C_T ~%tutu_var%JAMIE~ 0 X#VicJamie
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @74 
-== ~%tutu_var%JAMIE~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1006 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @74
+== ~%tutu_var%JAMIE~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1006
 END
 
 I_C_T ~%tutu_var%KESTOR~ 0 X#VicKestor
@@ -248,8 +248,8 @@ I_C_T ~%tutu_var%LARYSS~ 0 X#VicLary
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @78 END
 
 I_C_T ~%tutu_var%LAUREL~ 0 X#VicLau
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @79 
-== ~%tutu_var%LAUREL~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1007 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @79
+== ~%tutu_var%LAUREL~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1007
 END
 
 //I_C_T ~%tutu_scripts%LAVLEAD~ 2 X#VicSlav
@@ -267,7 +267,7 @@ I_C_T ~%tutu_var%LIIA~ 2 X#VicLiia
 //== ~%tutu_var%LOTHAN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @85 END
 
 //I_C_T2 ~%tutu_var%MEILUM~ 0 X#VicMeil
-//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @86 
+//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @86
 //== ~%tutu_var%MEILUM~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @87 END
 
 I_C_T ~%tutu_var%MELICA~ 5 X#VicMeli
@@ -302,8 +302,8 @@ I_C_T ~%tutu_var%PERDUE~ 1 X#VicPerdue
 == ~%tutu_var%PERDUE~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @100 END
 
 I_C_T ~%tutu_var%PHANDA~ 0 X#VicPhand
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @101 
-== ~%tutu_var%PHANDA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1008 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @101
+== ~%tutu_var%PHANDA~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1008
 END
 
 I_C_T ~%tutu_var%PRIILMU~ 6 X#VicPriI
@@ -343,16 +343,23 @@ I_C_T ~%tutu_var%TAMAH~ 0 X#VicTamah
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @115 END
 
 I_C_T ~%tutu_var%TAMOKO~ 6 X#VicTamoko
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @116 
-== ~%tutu_var%TAMOKO~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1009 
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @116
+== ~%tutu_var%TAMOKO~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @1009
 END
 
 //I_C_T2 ~%tutu_var%TARTUS~ 0 X#VicTartus
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @117 END
 
+// Interjection with Tazok - Raiken branch
 I_C_T ~%tutu_scriptbg%TAZOK~ 5 X#VicTazok
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @118
 == ~%tutu_scriptbg%TAZOK~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @119 END
+
+// Interjection with Tazok - Teven branch
+I_C_T ~%tutu_scriptbg%TAZOK~ 19 X#VicTazok2
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @118
+== ~%tutu_scriptbg%TAZOK~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @119 END
+
 
 //I_C_T2 ~%tutu_var%TEYNGA~ 2 X#VicTeyn
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @120 END
@@ -388,7 +395,7 @@ I_C_T ~%tutu_var%WIVEN~ 0 X#VicWiven
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @132 END
 
 //I_C_T2 ~%tutu_var%XAN~ 0 X#VicXan
-//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @133 
+//== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @133
 //== ~%tutu_var%XAN~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @134 END
 
 //I_C_T2 ~%tutu_var%ZEKE~ 0 X#VicZeke
@@ -396,4 +403,3 @@ I_C_T ~%tutu_var%WIVEN~ 0 X#VicWiven
 
 I_C_T ~%tutu_var%ZOMBIE~ 1 X#VicZombie
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @136 END
-

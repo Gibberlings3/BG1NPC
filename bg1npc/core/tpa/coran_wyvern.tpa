@@ -1,0 +1,47 @@
+/* CORAN WYVERN QUEST */
+/* Create Coran's Wyverns */
+ACTION_IF !(FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2 already has unique wyverns for Coran's quest
+  COPY_EXISTING ~%tutu_var%WYVERN.CRE~ ~override/X#CORWYV.CRE~
+    WRITE_ASCII 0x280 ~X#CoranWyvern~ #32
+  BUT_ONLY_IF_IT_CHANGES
+
+/* put them in the Cave */
+  COPY_EXISTING ~%CloakwoodWyverns_WyvernCave%.ARE~ ~override~
+    READ_LONG 0x54 actors_off
+    READ_SHORT 0x58 actors_num
+    FOR (i = 0; i < %actors_num%; i += 1) BEGIN
+        READ_ASCII (%actors_off% + %i% * 0x110 + 0x80) actor_resref
+        PATCH_IF ("%actor_resref%" STR_EQ "%tutu_var%WYVERN") BEGIN
+          WRITE_ASCII (%actors_off% + %i% * 0x110 + 0x80) X#CORWYV #8
+        END
+    END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+/* False() out blocks from Coran's default script
+   All platforms: Default timer expired block
+   BGEE only: Wyvern killed block */
+COPY_EXISTING ~%CORAN_BCS%.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("CORAN","GLOBAL")~ ~False()~
+      PATCH_IF (GAME_IS ~bgee eet~) BEGIN
+        REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("coranreward","global",0)~ ~False()~
+    END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+/* Fixing Coran's Wyvern script */
+EXTEND_TOP ~%CORAN_BCS%.bcs~ ~bg1npc/Core/baf/X#CORWYV.BAF~
+  EVALUATE_BUFFER
+
+/* Fix Coran's dialog files */
+ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2
+    COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_bgeev2.d~
+  END ELSE BEGIN
+    COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_tutu.d~
+  END
+END ELSE BEGIN // BGT
+  COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_bgt.d~
+END
+/* END WYVERN QUEST */

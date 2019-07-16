@@ -1,0 +1,10 @@
+/* SHAR-TEEL ROMANCE */
+
+/* scripts */
+EXTEND_TOP  ~%SHARTEEL_BCS%.BCS~   ~bg1npc/romances/SHROM/baf/X#SHROM.baf~
+    EVALUATE_BUFFER
+EXTEND_TOP  ~%SHARTEEL_DREAM%.BCS~   ~bg1npc/romances/SHROM/baf/X#SHROMD.baf~
+    EVALUATE_BUFFER
+
+/* dialogues */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/SHROM/dlg/X#SHROM.D~
