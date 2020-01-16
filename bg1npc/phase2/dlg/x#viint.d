@@ -351,14 +351,14 @@ END
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @117 END
 
 // Interjection with Tazok - Raiken branch
-I_C_T ~%tutu_scriptbg%TAZOK~ 5 X#VicTazok
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 5 X#VicTazok
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @118
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @119 END
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @119 END
 
 // Interjection with Tazok - Teven branch
-I_C_T ~%tutu_scriptbg%TAZOK~ 19 X#VicTazok2
+I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 19 X#VicTazok2
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @118
-== ~%tutu_scriptbg%TAZOK~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @119 END
+== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @119 END
 
 
 //I_C_T2 ~%tutu_var%TEYNGA~ 2 X#VicTeyn
