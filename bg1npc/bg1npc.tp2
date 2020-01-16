@@ -25,6 +25,7 @@ ALWAYS
 END /* ALWAYS */
 
 /* Language Settings */
+AUTO_EVAL_STRINGS
 AUTO_TRA ~bg1npc/tra/%s~
 LANGUAGE ~English~ ~english~ ~bg1npc/tra/english/setup.tra~
 LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ ~bg1npc/tra/spanish/setup.tra~ // http://www.clandlan.net/

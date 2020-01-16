@@ -331,4 +331,10 @@ END
   BUT_ONLY_IF_IT_CHANGES
 
   /* Make sure this is last in Quest additions for Phase 2 */
-  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ICT3.D~
+  // DW smart-compile
+
+  WITH_TRA "bg1npc\tra\english\x#ict3.tra" "bg1npc\tra\%LANGUAGE%\x#ict3.tra" BEGIN
+     LAF compile_with_ict_handling STR_VAR dialog="bg1npc/Phase2/dlg/X#ICT3.D" END
+  END
+
+  // COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ICT3.D~ // replaced by DW smart-compile

@@ -2,7 +2,7 @@
 
 /* Theodon (Many Interjections) */
 /* passback supplied */
-I_C_T3 ~%tutu_scriptbg%WILLIA%eet_var%~ 10 X#WILLIA10
+I_C_T4 ~%tutu_scriptbg%WILLIA%eet_var%~ 10 X#WILLIA10
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @0
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @1
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) Gender(Player1,FEMALE) !Global("X#AjantisRomanceActive","GLOBAL",3) Global("X#AjantisRomanceMatch","GLOBAL",1)~ THEN @2
@@ -87,12 +87,12 @@ END
 
 /* Laskal */
 /* passback supplied */
-I_C_T3 ~%tutu_var%LASKAL~ 5 X#LASKAL5
+I_C_T4 ~%tutu_var%LASKAL~ 5 X#LASKAL5
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @41
 == ~%DYNAHEIR_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @42
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @43
 == ~%tutu_var%LASKAL~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @44
-== ~%tutu_var%LASKAL~ @45
+//== ~%tutu_var%LASKAL~ @45
 END
 
 /* Rill (slave leader in mines, after giving him money */

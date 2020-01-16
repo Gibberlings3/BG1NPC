@@ -5,6 +5,16 @@ ACTION_IF FILE_EXISTS ~dlc/sod-dlc.zip~ THEN BEGIN
   	FAIL @5004
 END
 
+/* DW function libraries */
+
+OUTER_SPRINT workspace "weidu_external/workspace"
+MKDIR "%workspace%"
+
+INCLUDE "bg1npc/lib/lib_interject.tpa"
+INCLUDE "bg1npc/lib/alter_dlg.tpa"
+
+
+
 /* Actions for BGEE and EET */
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	ACTION_IF GAME_IS ~bgee~ THEN BEGIN
