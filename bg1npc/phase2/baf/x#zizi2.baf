@@ -23,8 +23,7 @@ StartDialogueNoSet("xzar")
 END
 
 IF
-OR(3)
-Global("X#TalkedToZizi","GLOBAL",1)
+OR(2)
 Global("X#TalkedToZizi","GLOBAL",2)
 GlobalGT("X#TalkedToZizi","GLOBAL",4)
 THEN
