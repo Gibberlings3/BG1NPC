@@ -52,7 +52,9 @@ END
 
 IF ~%BGT_VAR% Global("X#CoranSuccubus","GLOBAL",7)~ HelpedAmelia
 	SAY @16
-	IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",11) TakePartyItem("X#COFRRO") GiveItemCreate("X#CODYE1",Player1,1,0,0) DestroyItem("X#COFRRO")~ GOTO X#NAAmelia1
+	IF ~~ THEN DO ~SetGlobal("X#CoranSuccubus","GLOBAL",11) TakePartyItem("X#COFRRO") 
+//GiveItemCreate("X#CODYE1",Player1,1,0,0) 
+GiveItem("X#CODYE1",Player1) DestroyItem("X#COFRRO")~ GOTO X#NAAmelia1
 END
 
 IF ~~ X#NAAmelia1
@@ -162,10 +164,11 @@ APPEND X#RASHEL
 IF ~True()~ RashelGreeting
 SAY @59
 IF ~!Global("X#CoranSuccubus","GLOBAL",5) !Global("X#CoranSuccubus","GLOBAL",6)~ THEN GOTO RashelGreeting1
-IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",5) Global("X#CoranBlessed","GLOBAL",0)~ THEN GOTO RashelRoses1
-IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",6)~ THEN GOTO RashelRoses2
-IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",5) Global("X#CoranBlessed","GLOBAL",1)~ THEN GOTO RashelRoses2
+IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",5) Global("X#CoranBlessed","GLOBAL",0) PartyHasItem("X#COWIRO")~ THEN GOTO RashelRoses1
+IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",6) PartyHasItem("X#COWIRO")~ THEN GOTO RashelRoses2
+IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",5) Global("X#CoranBlessed","GLOBAL",1) PartyHasItem("X#COWIRO")~ THEN GOTO RashelRoses2
 IF ~InParty("coran") Global("X#CoranSuccubus","GLOBAL",5) Global("X#CoranBlessed","GLOBAL",2)~ THEN GOTO RashelGreeting1
+IF ~!PartyHasItem("X#COWIRO")~ THEN GOTO RashelGreeting1
 END
 
 IF ~~ RashelGreeting1
@@ -216,8 +219,8 @@ END
 IF ~~ RARO1.1
 SAY @78
 ++ @79 + RARO1.3
-+ ~PartyGoldGT(200)~ + @80 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",7)~ + RARO1.4
-++ @81 + RARO1.2
++ ~PartyGoldGT(200) PartyHasItem("X#COWIRO")~ + @80 DO ~SetGlobal("X#CoranSuccubus","GLOBAL",7)~ + RARO1.4
++ ~PartyHasItem("X#COWIRO")~ + @81 + RARO1.2
 END
 
 IF ~~ RARO1.3
@@ -285,7 +288,7 @@ CHAIN ~X#RASHEL~ RashelRoses1
 == ~%CORAN_JOINED%~ @102
 END
 ++ @103 + RARO1.1
-++ @104 + RARO1.2
++ ~PartyHasItem("X#COWIRO")~ + @104 + RARO1.2
 
 CHAIN ~%CORAN_JOINED%~ RosesRestored
 @105
