@@ -4,7 +4,7 @@ Global("X#StormShootSpell","LOCALS",0)
 XPGT(Player1,20000)
 THEN
 RESPONSE #100
-MoveToObject("blackberry")
+MoveToObject("xzar")
 SetGlobal("X#StormShootSpell","LOCALS",1)
 CreateCreature("%tutu_var%BEARCA",[-1.-1],0)
 ActionOverride("bearca",MoveToObject("xzar"))
@@ -18,7 +18,7 @@ Global("X#StormShootSpell","LOCALS",0)
 !XPGT(Player1,20000)
 THEN
 RESPONSE #100
-MoveToObject("blackberry")
+MoveToObject("xzar")
 SetGlobal("X#StormShootSpell","LOCALS",1)
 Enemy()
 END
