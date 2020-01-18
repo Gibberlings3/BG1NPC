@@ -5,8 +5,8 @@ InParty("xzar")
 THEN
 RESPONSE #100
 MoveToObject("xzar")
-ActionOverride("storm",MoveToObject("blackberry"))
-ActionOverride("zosya",MoveToObject("blackberry"))
+ActionOverride("storm",MoveToObject("xzar"))
+ActionOverride("zosya",MoveToObject("xzar"))
 Dialogue(Player1)
 END
 

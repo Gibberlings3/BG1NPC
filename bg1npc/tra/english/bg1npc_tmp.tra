@@ -96,15 +96,15 @@ Surely Imoen will never make a master jewelry smith, but the necklace is very cl
 @45   = ~[GREEN SLIME 09]~ [GSLIM09]
 @46   = ~[GREEN SLIME 01]~ [GSLIM01]
 @47   = ~[GREEN SLIME 02]~ [GSLIM02]
-@48   = ~A vial of disgusting green liquid~
-@49   = ~A vial of vile extract~
+@48   = ~A Vial of disgusting green Liquid~
+@49   = ~A Vial of vile Extract~
 @50   = ~Har, har har!
   Xzar has a jar!~
 @51   = ~This vial contains the alleged essence of Schlumpsa, the Sewer King, as collected by Xzar.  There is no telling if the glop will turn out to be useful, dangerous or merely disgusting but Xzar is so delighted with it that, short of killing him, there is no way to get rid of it.~
-@52   = ~Trough water~
-@53   = ~Well water~
-@54   = ~Watered beer~
-@55   = ~Watered wine~
+@52   = ~Trough Water~
+@53   = ~Well Water~
+@54   = ~Watered Beer~
+@55   = ~Watered Wine~
 @56   = ~Rock~
 @57   = ~Stone of Stunning~
 @58   = ~This looks like an ordinary rock.~
@@ -119,8 +119,8 @@ Surely Imoen will never make a master jewelry smith, but the necklace is very cl
 @67   = ~Battered Armor~
 @68   = ~This armor, once fit for any knight, has seen better days.~
 @69   = ~Bentley Mirrorshade notes that "What of the iron shortage and all, armor of *this* quality is simply *not* available any longer."  You don't doubt him but are in some uncertainty as to what the phrase '*this* quality' actually means.  The suit of armor is dented through in some places and rusted out in others.  Overall, it is so massive that it looks more like a defunct iron golem than anything suitable for an adventurer.  So you may be excused for thinking that armor of 'this quality' is not available now.  Nor would it have ever been; not for practical use anyway.~
-@70   = ~empty potion bottle~
-@71   = ~chipped, empty potion bottle~
+@70   = ~Empty Potion Bottle~
+@71   = ~Chipped, empty Potion Bottle~
 @72   = ~An empty potion bottle with a broken neck.~
 @73   = ~While it may be true, as Bentley Mirrorshade reminds you, that no adventurer should ever go afield without a spare potion bottle or two, in case one happens upon a magic fountain, the neck of this particular bottle is so chipped that it could not possibly be stoppered so as to retain its contents for five minutes.~
 @74   = ~Elven Spear~
@@ -484,7 +484,7 @@ There is no discernable pattern, rhyme, or reason to the symbols, although they 
 @305  = ~Lake Poet Willy~
 @306  = ~Willy~
 @307  = ~Xzar is depressed~
-@308  = ~Pale red fluid~
+@308  = ~Pale red Fluid~
 @309  = ~Ichor of the Dryad of the Cloudpeaks~
 @310  = ~Ho, ho, ho!
                        Need I say more!~
@@ -723,8 +723,8 @@ At precisely that moment, the figure laughs, a carnal, triumphant laugh of a sat
 
 You know of whom it speaks, but you have no time to say the name aloud. Instead, the room goes black, and you plunge into the dark depths of dreamless sleep, the vision slowly fading from your memory.~
 @476  = ~[MAREK 1] Could we have a moment of your time?~ [%tutu_var%MAREK01]
-@477  = ~Flower pendant~
-@478  = ~Enchanted flower pendant
+@477  = ~Flower Pendant~
+@478  = ~Enchanted Flower Pendant
 
 This is the enchanted pendant Ajantis gave to you.
 
@@ -734,8 +734,8 @@ Can cast Protection from Evil on the carrier once a day.
 
 Cannot be used by:
  Creatures of evil alignment~
-@479  = ~Ajantis' engagement ring~
-@480  = ~Engagement ring
+@479  = ~Ajantis' Engagement Ring~
+@480  = ~Engagement Ring
 
 This is the engagement ring that Ajantis gave to you. The ring is an Ilvastarr family treasure. It is ornamented in a rather plain way, with only a few elaborate decorations around a light-blue gem.~
 @481  = ~Douglas~
@@ -755,7 +755,7 @@ Is, by all signs, permanently infatuated with <CHARNAME>
 Will talk even if not spoken to
 When looking in this mirror, <CHARNAME> appears prettier than she is~
 @491  = ~Master O'Challenges~
-@492  = ~Master of Challenges ~
+@492  = ~Master of Challenges~
 @493  = ~I've traveled the length and breadth of Faerun, and there's always something new.~ [VOLOO05]
 @494  = ~This is not my day at all!~ [VOLOO02]
 @495  = ~Perhaps some other time!  I'm not in the mood for fighting, today!  Or any day!~ [VOLOO03]

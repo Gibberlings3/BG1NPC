@@ -9,6 +9,10 @@ END
 IF %BGT_VAR%
 Global("Chapter","GLOBAL",%tutu_chapter_7%)
 Global("X#ZiziExists","GLOBAL",0)
+InParty("xzar")  // Xzar
+InMyArea("xzar")  // Xzar
+!StateCheck("xzar",CD_STATE_NOTVALID)  // Xzar
+PartyHasItem("X#XZSLIM")
 !Exists("x#zizi1")
 !Exists("x#zizi2")
 !Exists("x#zizi3")
@@ -22,6 +26,7 @@ CreateCreature("X#ZIZI3",[2164.1607],0) //3rd location
 CreateCreature("X#ZIZI4",[524.1579],0) //4th location
 END
 
+/* This dialogue is triggered by Xzar's script
 IF %BGT_VAR%
 InParty("xzar")
 Global("X#XzarSlime","GLOBAL",1)
@@ -30,13 +35,14 @@ RESPONSE #100
 SetGlobal("X#XzarSlime","GLOBAL",2)
 ActionOverride("xzar",StartDialogueNoSet(Player1))
 END
+*/
  
 /* 1st location */
 IF %BGT_VAR%
 Global("Chapter","GLOBAL",%tutu_chapter_7%)
 InParty("xzar")
 Global("X#SlimeCraze","GLOBAL",1)
-Global("X#TalkedToZizi","GLOBAL",1)
+Global("X#TalkedToZizi","GLOBAL",2)
 !Exists("xzslime")
 THEN
 RESPONSE #100
@@ -49,7 +55,7 @@ CreateCreature("X#JELLY",[587.405],0)
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",1)
+Global("X#TalkedToZizi","GLOBAL",2)
 RealGlobalTimerExpired("X#SlimeMultiple","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",2)
@@ -67,7 +73,7 @@ ActionOverride("harlot",Attack("xzjelly"))
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",1)
+Global("X#TalkedToZizi","GLOBAL",2)
 RealGlobalTimerExpired("X#SlimeMult","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",3)
@@ -86,7 +92,7 @@ IF %BGT_VAR%
 Global("Chapter","GLOBAL",%tutu_chapter_7%)
 InParty("xzar")
 Global("X#SlimeCraze","GLOBAL",1)
-Global("X#TalkedToZizi","GLOBAL",2)
+Global("X#TalkedToZizi","GLOBAL",4)
 !Exists("xzslime")
 THEN
 RESPONSE #100
@@ -99,7 +105,7 @@ CreateCreature("X#JELLY",[2205.376],0)
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",2)
+Global("X#TalkedToZizi","GLOBAL",4)
 RealGlobalTimerExpired("X#SlimeMultiple","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",2)
@@ -117,7 +123,7 @@ ActionOverride("harlot",Attack("xzjelly"))
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",2)
+Global("X#TalkedToZizi","GLOBAL",4)
 RealGlobalTimerExpired("X#SlimeMult","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",3)
@@ -136,7 +142,7 @@ IF %BGT_VAR%
 Global("Chapter","GLOBAL",%tutu_chapter_7%)
 InParty("xzar")
 Global("X#SlimeCraze","GLOBAL",1)
-Global("X#TalkedToZizi","GLOBAL",3)
+Global("X#TalkedToZizi","GLOBAL",6)
 !Exists("xzslime")
 THEN
 RESPONSE #100
@@ -149,7 +155,7 @@ CreateCreature("X#slime",[2164.1607],0)
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",3)
+Global("X#TalkedToZizi","GLOBAL",6)
 RealGlobalTimerExpired("X#SlimeMultiple","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",2)
@@ -168,7 +174,7 @@ ActionOverride("harlot",Attack("xzjelly"))
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",3)
+Global("X#TalkedToZizi","GLOBAL",6)
 RealGlobalTimerExpired("X#SlimeMult","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",3)
@@ -187,7 +193,7 @@ IF %BGT_VAR%
 Global("Chapter","GLOBAL",%tutu_chapter_7%)
 InParty("xzar")
 Global("X#SlimeCraze","GLOBAL",1)
-Global("X#TalkedToZizi","GLOBAL",4)
+Global("X#TalkedToZizi","GLOBAL",8)
 !Exists("xzslime")
 THEN
 RESPONSE #100
@@ -200,7 +206,7 @@ CreateCreature("X#SLIME",[524.1579],0)
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",4)
+Global("X#TalkedToZizi","GLOBAL",8)
 RealGlobalTimerExpired("X#SlimeMultiple","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",2)
@@ -219,7 +225,7 @@ ActionOverride("harlot",Attack("xzjelly"))
 END
 
 IF %BGT_VAR%
-Global("X#TalkedToZizi","GLOBAL",4)
+Global("X#TalkedToZizi","GLOBAL",8)
 RealGlobalTimerExpired("X#SlimeMult","GLOBAL")
 OR(5)
 Global("X#SlimeCraze","GLOBAL",3)
@@ -233,6 +239,7 @@ RealSetGlobalTimer("X#SlimeMultiple","GLOBAL",10)
 IncrementGlobal("X#SlimeCraze","GLOBAL",1)
 END
 
+/* this dialogue will be riggered by Xzar's script
 IF %BGT_VAR%
 PartyHasItem("%tutu_var%MISC78")
 InParty("xzar")
@@ -249,4 +256,5 @@ RESPONSE #100
 SetGlobal("X#XzUnder","GLOBAL",1)
 ActionOverride("xzar",StartDialogueNoSet(Player1))
 END
+*/
 

@@ -144,15 +144,6 @@ COPY_EXISTING ~MEPSMO01.cre~ ~override/x#mepht1.cre~
               ~MEPSMO01.cre~ ~override/x#mepht5.cre~
   WRITE_ASCII SCRIPT_DEFAULT ~x#mepsmo~ #8
 
-COPY_EXISTING ~IDEMON02.cre~ ~override/x#tanari.cre~
-  SAY NAME1 @291
-  SAY NAME2 @291
-  WRITE_BYTE 0x5b 50  /* Electrical Resistance */
-  WRITE_ASCII 0x248 ~X#DYTANR~ #8  /* Override script */
-  WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8   /* Dialog */
-  WRITE_BYTE 0x270 ~128~  /* Allegiance = Neutral */
-  WRITE_ASCII 0x280 ~aravaata~ #32  /* death variable */
-
 END ELSE BEGIN
 COPY ~bg1npc/phase2/cre/x#dyqimp.cre~ ~override~
   SAY NAME1 @288
@@ -175,7 +166,7 @@ COPY ~bg1npc/phase2/cre/x#mepht1.cre~ ~override~
       SAY NAME2 @729  /* Smoke Mephit */
       WRITE_ASCII SCRIPT_DEFAULT ~x#mepsmo~ #8
 
-COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override~
+COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override/x#tanari.cre~
   SAY NAME1 @291
   SAY NAME2 @291
   WRITE_BYTE 0x5b 50 //  replace # with percentage electrical resistance you want
