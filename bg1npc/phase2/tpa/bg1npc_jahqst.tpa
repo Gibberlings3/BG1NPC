@@ -1,0 +1,180 @@
+/* Jaheira Shadow Druids Quest */
+
+/* Club */
+COPY ~bg1npc/phase2/itm/X#JACLUB.itm~ ~override~
+  SAY NAME1 @359
+  SAY NAME2 @360
+  SAY UNIDENTIFIED_DESC @361
+  SAY DESC @362
+    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+      WRITE_ASCII 0x3a ~IBLUN01~ #8 //  main item bam
+      WRITE_ASCII 0x44 ~GBLUN01~ #8
+      WRITE_ASCII 0x58 ~CBLUN01~ #8
+    END
+
+/* Andarthe's Spear */
+COPY ~bg1npc/phase2/itm/x#anspri.bam~ ~override~
+COPY ~bg1npc/phase2/itm/x#ansprd.bam~ ~override~
+COPY ~bg1npc/phase2/itm/x#ansper.itm~ ~override~
+  SAY NAME2 @378
+  SAY DESC @379
+WRITE_ASCII 0x10 ~MISC56~ #8 // used-up item
+ PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    WRITE_ASCII 0x44 ~gsper01~ #8
+  END
+
+/* creatures */
+
+COPY_EXISTING ~%tutu_var%takiyah.cre~ ~override~
+  WRITE_ASCII 0x280 ~takiyah~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+/* Andarthe */
+COPY ~bg1npc/Phase2/cre/x#andart.cre~ ~override~
+  SAY NAME1 @363
+  SAY NAME2 @363
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @341
+  SAY BATTLE_CRY1 @341
+  SAY DAMAGE @342
+  SAY DYING @343
+  SAY SELECT_COMMON1 @345
+  WRITE_ASCII 0x280 ~andarthe~ #32 //  death variable
+
+/* Beador */
+COPY ~bg1npc/phase2/cre/x#beador.cre~ ~override~
+  SAY NAME1 @364
+  SAY NAME2 @364
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @341
+  SAY BATTLE_CRY1 @341
+  SAY ATTACK1 @341
+  SAY ATTACK2 @341
+  SAY DAMAGE @342
+  SAY DYING @343
+  SAY SELECT_COMMON1 @344
+  SAY SELECT_COMMON2 @345
+
+COPY ~bg1npc/phase2/cre/x#beado1.cre~ ~override~
+  SAY NAME1 @364
+  SAY NAME2 @364
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @341
+  SAY BATTLE_CRY1 @341
+  SAY ATTACK1 @341
+  SAY ATTACK2 @341
+  SAY DAMAGE @342
+  SAY DYING @343
+  SAY SELECT_COMMON1 @344
+  SAY SELECT_COMMON2 @345
+
+/* Maretha */
+COPY ~bg1npc/Phase2/cre/x#mareth.cre~ ~override~
+  SAY NAME1 @365
+  SAY NAME2 @365
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @366
+  SAY BATTLE_CRY1 @367
+  SAY BATTLE_CRY2 @367
+  SAY BATTLE_CRY3 @367
+  SAY BATTLE_CRY4 @367
+  SAY BATTLE_CRY5 @367
+  SAY ATTACK1 @368
+  SAY ATTACK2 @369
+  SAY ATTACK3 @370
+  SAY DAMAGE @371
+  SAY DYING @372
+  SAY SELECT_COMMON1 @373
+  SAY SELECT_COMMON2 @366
+
+/* Stock Druids */
+COPY ~bg1npc/phase2/cre/x#shdr6.cre~  ~override/x#shdr6.cre~
+     ~bg1npc/phase2/cre/x#shdr6.cre~  ~override/x#shdr6a.cre~
+     ~bg1npc/phase2/cre/x#shdr6.cre~  ~override/x#shdr6b.cre~
+  SAY NAME1 @374
+  SAY NAME2 @375
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* BGEE: Use VILLM soundset */
+    SAY INITIAL_MEETING #23945	// [VILLAGER, MALE 01b]
+    SAY BATTLE_CRY1 #23882		// [VILLAGER, MALE 03]
+    SAY DAMAGE #23884			// [VILLAGER, MALE 05]
+    SAY DYING #23885			// [VILLAGER, MALE 06]
+    SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
+    SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
+    SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
+  END ELSE BEGIN /* Tutu, BGT, EET: EPRIM soundset from BG2 */
+    SAY INITIAL_MEETING @327
+    SAY UNHAPPY_BREAKING @328
+    SAY BATTLE_CRY1 @329
+    SAY DAMAGE @330
+    SAY DYING @331
+    SAY SELECT_COMMON1 @327
+    SAY SELECT_COMMON2 @332
+  END
+  WRITE_ASCII SCRIPT_OVERRIDE ~x#gpsht~ #8 // override script
+  PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr6~) BEGIN
+    WRITE_ASCII 0x280 ~jadruid6~ #32 //  death variable
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr6a~) BEGIN
+    WRITE_ASCII 0x280 ~jadruid6a~ #32 //  death variable
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr6b~) BEGIN
+    WRITE_ASCII 0x280 ~jadruid6b~ #32 //  death variable
+  END
+
+COPY ~bg1npc/phase2/cre/x#shdr8a.cre~ ~override/x#shdr8a.cre~
+     ~bg1npc/phase2/cre/x#shdr8b.cre~ ~override/x#shdr8b.cre~
+  SAY NAME1 @374
+  SAY NAME2 @375
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  PATCH_IF GAME_IS ~bgee~ BEGIN /* BGEE: Use VILLM soundset */
+    SAY INITIAL_MEETING #23945	// [VILLAGER, MALE 01b]
+    SAY BATTLE_CRY1 #23882		// [VILLAGER, MALE 03]
+    SAY DAMAGE #23884			// [VILLAGER, MALE 05]
+    SAY DYING #23885			// [VILLAGER, MALE 06]
+    SAY SELECT_COMMON1 #23946 	// [VILLAGER, MALE 01c]
+    SAY SELECT_COMMON2 #23949   // [VILLAGER, MALE 01f]
+    SAY SELECT_COMMON3 #23945	// [VILLAGER, MALE 01b]
+  END ELSE BEGIN /* Tutu, BGT, EET: HVILLM soundset from BG2 */
+    SAY INITIAL_MEETING @334
+    SAY UNHAPPY_BREAKING @335
+    SAY BATTLE_CRY1 @336
+    SAY DAMAGE @337
+    SAY DYING @338
+    SAY SELECT_COMMON1 @339
+    SAY SELECT_COMMON2 @334
+    SAY SELECT_COMMON3 @376
+    SAY SELECT_COMMON4 @377
+  END
+  WRITE_ASCII SCRIPT_OVERRIDE ~x#gpsht~ #8 // override script
+  PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr8a~) BEGIN
+    WRITE_ASCII 0x280 ~jadruid8a~ #32 //  death variable
+  END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#shdr8b~) BEGIN
+    WRITE_ASCII 0x280 ~jadruid8b~ #32 //  death variable
+  END
+
+/* dialogues */
+/* x#jaqu1 dialogs contain quest opening - different versions for BGEE v2.5 vs. Tutu/BGT/BGEE v1.x-2.4 */
+ACTION_IF FILE_EXISTS_IN_GAME ~BDENTBOY.CRE~ THEN BEGIN
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#JAQU1_EE.D~ USING ~bg1npc/tra/%s/x#jaqu.tra~
+END ELSE BEGIN
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#JAQU1_TUTU.D~ USING ~bg1npc/tra/%s/x#jaqu.tra~
+END
+/* x#jaqu2.d contains rest of the quest (universal) */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#JAQU2.D~ USING ~bg1npc/tra/%s/x#jaqu.tra~
+
+/* Add Journal entries for BGEE */
+ADD_JOURNAL EXISTING TITLE (#31291) @185 @186 @187 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+ADD_JOURNAL TITLE (@999) @159 @161 @163 @169 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#BEADOR.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#JABE1.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#ANDART.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#MARETH.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#SHDR6.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#SHDR8.BAF~
+EXTEND_TOP ~%JAHEIRA_BCS%.bcs~ ~bg1npc/Phase2/baf/X#JAQU.BAF~
+  EVALUATE_BUFFER
+
+  /* Patching Area Scripts */
+EXTEND_BOTTOM ~%CloakwoodWyverns_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW1700JQ.BAF~
+    EVALUATE_BUFFER

@@ -65,8 +65,8 @@
 @64   = ~Law? Laws are for weaklings. Just kill the lecher. Who'd cry for a man, anyway?~
 @65   = ~You got that last bit right, sister! Only they are no callous brutes; more like vapid maggots, dirty pigs, loud-mouthed weaklings, faeces of a diarrheatic monkey...~
 @66   = ~Hey, too bad. You talk business!~
-@67   = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
-@68   = ~Bitch.~
+//@67   = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
+//@68   = ~Bitch.~
 @69   = ~*laughs* Heewwwlp mwweee, kind sirs! What a milksop! Go help him yourself! After all, you're as able-bodied as we are... and you look like trash, but that's nothing that a shiny chain and a smear of foe's blood can't fix.~
 @70   = ~Daddy? You call your father 'daddy' and run to him to heal your stupid cat? *Stares at the nodding girl for a moment.* Beat it, brat! Your dead cat's hair irritates my eyes.~
 @71   = ~Oh, right! Here comes the 'daddy'! *Now* the fun starts. And you, <CHARNAME>, are a freak - picking fights with girls that are no taller than your knee!~
@@ -105,7 +105,7 @@
 @104  = ~Kill the *pesky* thing? With pleasure!~
 @105  = ~Petrine, your uncle wanted us to kill Angel. I reasoned that if we refused, tomorrow he'd find someone else. And I can not stand idle when people go around killing poor orphan girls' cats! I... I killed him.~
 @106  = ~I am going to make sure that you are transferred into the care of someone kinder than your rude uncle, Petrine. Trust me.~
-@107  = ~I will hunt Sarevok down, ma'am, but seeing that I could lose my life, I plead your Grace for one favour before I go. There is some unfinished business... a trivial thing. An orphan girl, Petrine and her cat, Angel need a proper guardian. I... I killed her uncle – a mean man who mistreated her, and yet she was left with no soul in the world to protect her. 'Tis a blood debt.~
+@107  = ~I will hunt Sarevok down, ma'am, but seeing that I could lose my life, I plead your Grace for one favour before I go. There is some unfinished business... a trivial thing. An orphan girl, Petrine and her cat, Angel need a proper guardian. I... I killed her uncle ï¿½ a mean man who mistreated her, and yet she was left with no soul in the world to protect her. 'Tis a blood debt.~
 @108  = ~Rise, my good <PRO_LADYLORD>. You have my word that as long as I command power and authority in this city, the girl Petrine should be raised as my own... and Angel the Cat will find welcome in the palace as well. Now, do not tarry, Sarevok has to be destroyed for his crimes!~
 @109  = ~That goes to show that even among Chill, men are as pathetic as elsewhere.~
 @110  = ~We will fight for our coin, you dolt, unless <CHARNAME> is a worthless rag.~
@@ -121,7 +121,7 @@ adventurer's delight.~
 @116  = ~Not bad, <CHARNAME>. I wish I got half that for every man I killed, but a man has to be a freak before he is worth anything. Figures.~
 @117  = ~Ha-ha! This man dares to call himself the strongest in *my* presence?! Perhaps, I can keep him as a fool for a day or two, before cutting his throat.~
 @118  = ~You and your girl stand no chance against me and my boy. He's the ugly one. Now, that we have been properly introduced, what are you waiting for, <CHARNAME>? Let's kill this scum.~
-@119  = ~I was just thinking how refreshing it would be to kick some man in the groin. And break his skinny neck afterwards… Stop gawking, <CHARNAME>. There is coin to be made and fun to be had. On we go!~
+@119  = ~I was just thinking how refreshing it would be to kick some man in the groin. And break his skinny neck afterwardsï¿½ Stop gawking, <CHARNAME>. There is coin to be made and fun to be had. On we go!~
 @120  = ~You called me cowardly?! Big mistake, sister. I'd even say a lethal one! I was considering to help you against this lot for pure sport, but not any more.~
 @121  = ~Then I shall brag that I've killed Death itself on the morrow!~
 @122  = ~This woman asks for a taste of our steel, <CHARNAME>. Shall we give it to her, or will you act a coward and try to *spits* appease her?~
@@ -164,7 +164,7 @@ adventurer's delight.~
 @1017 = ~All die, but you die first!~
 @1018 = ~Er... farewell!~
 @1019 = ~Draw steel!~
-@1020 = ~Lasst uns zum Alltagsgeschäft zurückkehren. Wollt Ihr diesen Dienst für mich übernehmen?~
+@1020 = ~Lasst uns zum Alltagsgeschï¿½ft zurï¿½ckkehren. Wollt Ihr diesen Dienst fï¿½r mich ï¿½bernehmen?~
 
 @144  = ~I've had enough of this.~
 @145  = ~WAaaah!~

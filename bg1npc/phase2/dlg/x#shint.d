@@ -338,10 +338,10 @@ I_C_T ~%tutu_var%IRON3~ 0 X#SHARTEELIRON31
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @94
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 1 X#SHARTEELTAZOK1
-== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
-END
+//I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 1 X#SHARTEELTAZOK1
+//== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
+//== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+//END
 
 I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 6 X#SHARTEELTAZOK2
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
@@ -368,10 +368,10 @@ I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 14 X#SHARTEELTAZOK6
 == ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
 END
 
-I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 15 X#SHARTEELTAZOK7
-== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
-== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
-END
+//I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 15 X#SHARTEELTAZOK7
+//== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
+//== ~%tutu_scriptbg%TAZOK%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @96
+//END
 
 I_C_T ~%tutu_scriptbg%TAZOK%eet_var%~ 20 X#SHARTEELTAZOK8
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @95
@@ -562,4 +562,3 @@ END
 //I_C_T2 ~%tutu_var%SHISTA~ 8 X#ShartShistal1
 //== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @127
 //END
-

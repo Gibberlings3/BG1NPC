@@ -1,8 +1,7 @@
 IF
-Global("X#JessupExists","%NWBaldursGate_SilvershieldEstate_L2%",0)
+Global("x#JophaExists","%NWBaldursGate_SilvershieldEstate_L2%",0)
 THEN
 RESPONSE #100
-SetGlobal("X#JessupExists","%NWBaldursGate_SilvershieldEstate_L2%",1)
-CreateCreature("X#JESSUP",[458.1185],3)
+SetGlobal("x#JophaExists","%NWBaldursGate_SilvershieldEstate_L2%",1)
+CreateCreature("x#jopha",[458.1185],3)
 END
-

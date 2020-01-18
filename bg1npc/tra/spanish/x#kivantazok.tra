@@ -1,0 +1,35 @@
+// x#kiint.tra: @113 - @118
+@1  = ~Necesito un momento para cantar una oración a Shevarash. Parece ser que el enemigo al que juré matar está al alcance de mi flecha por fin.~
+@2  = ~Hacedlo rápido si no queréis que nos descubran.~
+@3  = ~Por supuesto, elfo. Uniré mi voz a la vuestra por nuestro éxito en la próxima batalla contra los bandidos.~
+@4  = ~Lo siento, Kivan, no tenemos tiempo que perder. Podréis rezar todo lo que queráis cuando hayamos acabado.~
+@5  = ~Mi Señor Shevarash, aquí estoy, en la tierra por la que deambula la bestia que acabó con la vida de mi amada. No hay mayor deseo en mi corazón que el de derramar su sangre negra. Os pido que la firmeza de mi brazo se iguale a la firmeza de mi alma. Os pido que se cumpla mi voto, os pido el golpe final que derrote a mi enemigo. Os pido que me deis fuerzas para luchar, así como fuerzas para proteger a quienes luchan a mi lado.~
+@6  = ~Entiendo, guardaré silencio. Que mis flechas canten mi oración por mí.~
+
+// x#kiint.tra: @119, @135, @136, @137
+@7  = ~¿Os acordáis de mi Deheriana, bestia?~
+@8  = ~Vaya, vaya, al fin se arrastra hasta mí el muerto viviente. Y acompañado por unos patéticos necios como él, nada menos.~
+@9  = ~No metáis a mis amigos en esto, esto entre vos y yo. ¡Hoy es el día de vuestra muerte, Tazok!~
+@10  = ~¡Oh, mirad como tiemblo! ¡Ya es hora de que dejéis de molestar a mis soldados, escoria! Voy a poner fin a esto como debería haber hecho hace tiempo.~
+
+// x#kiint.tra: @130, @120, @132
+@11  = ~¡Matadlos! ¡Me esperan en las minas, y no tengo tiempo para sandeces!~
+@12  = ~¡NO! Quedaos y luchad, o seréis un cobarde... ¿Pero qué esperaba? Tazok es un cobarde, todo el que tortura a inocentes e indefensos es un cobarde. ¡Esta batalla ha terminado, pero no la guerra, Tazok! ¡Os encontraré!~
+@13  = ~¡Clavaré la cabeza del elfo en un palo delante de mi tienda!~
+
+// x#kiint.tra: @3,@4,@5
+@14   = ~¡Tazok! No tenéis adónde huír. Mi promesa se verá cumplida. ¡Deheriana, Melamin! ¡Ésta es nuestra hora!~
+@15   = ~Je. ¡Mi gente tendrá una cabeza de elfo para jugar!~
+@16   = ~¡Os lanzaré al Abismo de donde salisteis!~
+
+// x#kiint.tra: @127
+@20  = ~Deheriana... al fin habéis sido vengada, mela en'coiamin. ¡Shevarash! ¡Se ha cumplido vuestra voluntad!~
+
+// Journal entries
+// x#kiint.tra: @134, BGEE:#27470, @133
+@101  = ~Tazok ha reconocido a Kivan
+Tazok ha reconocido a Kivan y nuestro plan de infiltrarnos en el campamento de los bandidos ha fracasado.~
+@102  = ~¿Una base secreta?
+Tazok planea visitar una mina donde podría informar al verdadero líder de los bandidos.~
+@103  = ~Kivan y Tazok
+Como era de esperar, mi compañero Kivan ha sido reconocido por Tazok, pero perdió su oportunidad de acabar con el semiogro. Parece ser que el bandido estaba demasiado ocupado como para encargarse del elfo sediento de venganza. Tazok ha viajado a una mina, que podría ser la base de quien controla a los bandidos.~

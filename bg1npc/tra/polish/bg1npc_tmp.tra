@@ -40,7 +40,7 @@
 @6   = ~Tarcza œrednia~
 @7   = ~Tarcza rodu Ilvastarr~
 @8   = ~To rodzinna tarcza Ajantisa. Przedstawiono na niej herb szlacheckiej rodziny Ilvastarr z Waterdeep: zielonego smoka z pomarañczowymi œlepiami na z³otym tle.~
-@9   = ~Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³. 
+@9   = ~Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³.
 
 Na tarczy tej przedstawiono herb szlacheckiej rodziny Ilvastarr z Waterdeep: zielonego smoka z pomarañczowymi œlepiami na z³otym tle.
 
@@ -55,19 +55,19 @@ Mo¿e u¿ywaæ:
 @10   = ~Pierœcieñ~
 @11   = ~Pierœcieñ wp³ywu na ludzi Lorda Foreshadow~
 @12   = ~Pierœcieñ to ma³a obrêcz wykonana z drogocennego metalu, s³u¿¹ca jako bi¿uteria.  Niektóre pierœcienie s¹ umagicznione, co zapewnia im specjalne w³aœciwoœci.  Pierœcienie takie s¹ szczególnie po¿¹dane, zw³aszcza wœród poszukiwaczy przygód.~
-@13   = ~Pierœcieñ wp³ywu na ludzi Lorda Foreshadow 
+@13   = ~Pierœcieñ wp³ywu na ludzi Lorda Foreshadow
 <CHARNAME> otrzyma³ ten pierœcieñ od Lorda Foreshadow, który zasugerowa³, ¿e mo¿e on pomóc mu na przysz³oœæ zjednywaæ cudze serca. Nie da siê ukryæ, ¿e w tej chwili jest to jego najmniejsze zmartwienie, ale jak to mówi¹: darowanemu koniowi... a jeszcze inni powiedzieliby: nie znasz dnia ani godziny... nie wspominaj¹c o starym przys³owiu: w mi³oœci i na wojnie wszystkie chwyty s¹ dozwolone...
 
 PARAMETRY:
 
-Specjalne: 
+Specjalne:
  Zwiêksza charyzmê w³aœciciela do 18
- Raz dziennie potrafi zauroczyæ osobê~ ~Pierœcieñ wp³ywu na ludzi Lorda Foreshadow 
+ Raz dziennie potrafi zauroczyæ osobê~ ~Pierœcieñ wp³ywu na ludzi Lorda Foreshadow
 <CHARNAME> otrzyma³a ten pierœcieñ od Lorda Foreshadow, który zasugerowa³, ¿e mo¿e on pomóc jej na przysz³oœæ zjednywaæ cudze serca. Nie da siê ukryæ, ¿e w tej chwili jest to jej najmniejsze zmartwienie, ale jak to mówi¹: darowanemu koniowi... a jeszcze inni powiedzieliby: nie znasz dnia ani godziny... nie wspominaj¹c o starym przys³owiu: w mi³oœci i na wojnie wszystkie chwyty s¹ dozwolone...
 
 PARAMETRY:
 
-Specjalne: 
+Specjalne:
  Zwiêksza charyzmê w³aœciciela do 18
  Raz dziennie potrafi zauroczyæ osobê~
 @14   = ~Westchnienie~
@@ -135,7 +135,7 @@ Xzar s³ój ma!~
 @63   = ~Bentley Lustrzany Cieñ zapewnia, ¿e ka¿dy kompetentny kowal bêdzie potrafi³ przekuæ te szcz¹tki w "miecz najwy¿szej potêgi, w piêæ minut." Patrz¹c na widoczn¹ rdzê i nalot, nie wspominaj¹c o kilku g³êbokich karbach na klindze, masz powody, by w to w¹tpiæ.~
 @64   = ~Wgnieciona tarcza~
 @65   = ~Ta tarcza uczestniczy³a w wielu bitwach - i wszystkie przegra³a.~
-@66 = ~Bentley Lustrzany Cieñ wiele sobie ¿¹da za tê tarczê; nosi ona wiele znamion przemocy, ale pomimo wszystkich dowodów jej eksploatacji, przetrwa³a. Oczywiœcie, z ca³¹ pewnoœci¹ tego samego nie mo¿na powiedzieæ o jej poprzednim w³aœcicielu. Tarcza ta tyle razy by³a ³atana i przekuwana, ¿e wygl¹da wyj¹tkowo nieporêcznie.~ 
+@66 = ~Bentley Lustrzany Cieñ wiele sobie ¿¹da za tê tarczê; nosi ona wiele znamion przemocy, ale pomimo wszystkich dowodów jej eksploatacji, przetrwa³a. Oczywiœcie, z ca³¹ pewnoœci¹ tego samego nie mo¿na powiedzieæ o jej poprzednim w³aœcicielu. Tarcza ta tyle razy by³a ³atana i przekuwana, ¿e wygl¹da wyj¹tkowo nieporêcznie.~
 @67   = ~Zniszczona zbroja~
 @68   = ~Zbroja ta, niegdyœ nale¿¹ca do jakiegoœ rycerza, pamiêta zdecydowanie lepsze czasy.~
 @69   = ~Bentley Lustrzany Cieñ twierdzi, ¿e "przy braku ¿elaza i w ogóle, zbroje o TAKIEJ jakoœci s¹ ju¿ NIE produkowane." Nie w¹tpisz w to, choæ nie masz pewnoœci co ma na myœli, mówi¹c o TAKIEJ jakoœci. Zbroja w niektórych miejscach ma widoczne wg³êbieniach, w innych pordzewia³a. W sumie jest tak masywna, ¿e bardziej przypomina zamar³ego ¿elaznego golema ni¿ coœ, co móg³by za³o¿yæ na siebie poszukiwacz przygód. Dlatego masz prawo myœleæ, ¿e zbroje "takiej jakoœci" s¹ ju¿ nie produkowane. Nie ¿eby kiedykolwiek by³y; przynajmniej dla celów praktycznych.~
@@ -145,7 +145,7 @@ Xzar s³ój ma!~
 @73   = ~Choæ zgadzasz siê ze s³owami Bentley'a Lustrzanego Cienia, ¿e nikt nie powinien iœæ na bitwê bez zapasowej butelki na mikstury, szyjka tej butelki jest tak pokiereszowana, ¿e jej zakorkowanie wydaje siê niemo¿liwe i tym samym przetrzymanie w niej czegokolwiek choæby przez piêæ minut.~
 @74   = ~Elfia w³ócznia~
 @75   = ~Elfia w³ócznia opl¹tania~
-@76   = ~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. W pewnym momencie zaczêto eksperymentowaæ z ró¿nymi typami grotów; w ten sposób powsta³y ró¿ne typy broni drzewcowej. 
+@76   = ~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. W pewnym momencie zaczêto eksperymentowaæ z ró¿nymi typami grotów; w ten sposób powsta³y ró¿ne typy broni drzewcowej.
 
 PARAMETRY:
 
@@ -163,7 +163,7 @@ Nie mo¿e u¿ywaæ:
 PARAMETRY:
 
 Specjalne:
- 10% szansa, ¿e ofiara zostanie opl¹tana na 24 sekundy, bez mo¿liwoœci rzutu obronnego
+ – 10% szans na spl¹tanie celu przez dwie rundê (rzut obronny przeciw zioniêciom)
 Trak0: +2
 Obra¿enia: 1K6 +2
 Typ obra¿eñ: k³ute
@@ -195,8 +195,8 @@ Nie mo¿e u¿ywaæ:
 PARAMETRY:
 
 Klasa Pancerza: +1
-Specjalne: 
- +1 przeciw broni strzeleckiej 
+Specjalne:
+ +1 przeciw broni strzeleckiej
  +1 do Kondycji
 Waga: 5
 Nie mo¿e u¿ywaæ:
@@ -204,7 +204,7 @@ Nie mo¿e u¿ywaæ:
  Mag
  Z³odziej
  Dobre lub z³e postaci~
-@81   = ~Jessup~
+@81   = ~Jopha~
 @82   = ~Dora~
 @83   = ~Dawid Jansen~
 @84   = ~Dyskretnie! ¯adnego mêstwa! Dyskretnie! Dyskretnie!!~ [JANJAN02]
@@ -316,7 +316,7 @@ By³o tak do czasu, a¿ dru¿yna, któr¹ dowodzi³<HESHE> <CHARNAME>, wys³a³a ich na 
 PARAMETRY:
 
 Klasa Pancerza: 4
-Specjalne: 
+Specjalne:
  Umo¿liwia rzucanie czarów
 Waga: 20
 Wymagana si³a: 8
@@ -331,8 +331,8 @@ Zbroja ta zosta³a ulepszona przez Halbazzera Drina z "Czarodziejskich Rozmaitoœc
 PARAMETY:
 
 Klasa Pancerza: 3
-Specjalne: 
- Umo¿liwia rzucanie czarów 
+Specjalne:
+ Umo¿liwia rzucanie czarów
 Waga: 15
 Wymagana si³a: 7
 Mo¿e u¿ywaæ:
@@ -381,7 +381,7 @@ Mo¿e u¿ywaæ:
 @217  = ~To jest córka Corana, Namara. Dziecko wydaje siê zdrowe, po tym jak zdjêto z niego kl¹twê, i chêtnie zwraca na siebie uwagê ca³ego œwiata.~
 @218  = ~Futera³ na miksturê Brielbary~
 @219  = ~Futera³ na miksturê~
-@220  = ~To pude³ko, zwykle noszone przez podró¿nych uzdrowicieli, rozk³ada siê i pozwala w³aœcicielowi przypi¹æ buteleczki z mikstur¹ do jego wyœcie³anego boku przy pomocy licznych skórzanych rzemyków, by bezpiecznie mog³y byæ przechowywane w czasie podró¿y. 
+@220  = ~To pude³ko, zwykle noszone przez podró¿nych uzdrowicieli, rozk³ada siê i pozwala w³aœcicielowi przypi¹æ buteleczki z mikstur¹ do jego wyœcie³anego boku przy pomocy licznych skórzanych rzemyków, by bezpiecznie mog³y byæ przechowywane w czasie podró¿y.
 
 PARAMETRY:
 
@@ -393,9 +393,9 @@ Waga: 5 ~
 
 PARAMETRY:
 
-Specjalne: pozwala zapamiêtaæ dodatkowy czar z poziomów od pierwszego do trzeciego. 
+Specjalne: pozwala zapamiêtaæ dodatkowy czar z poziomów od pierwszego do trzeciego.
 
-Mo¿e u¿ywaæ: 
+Mo¿e u¿ywaæ:
  Neutralny lub z³y mag~
 @225  = ~Pierœcionek na palec u nogi~
 @226  = ~Pierœcionek Sukkuba~
@@ -406,7 +406,7 @@ PARAMETRY:
 Specjalne:
  Okropne Zauroczenie raz dziennie
  +2 do Charyzmy
-Mo¿e u¿ywaæ: 
+Mo¿e u¿ywaæ:
  Postaæ o z³ym charakterze~
 @228  = ~Wysuszone ró¿e~
 @229  = ~To jest bukiet zwiêd³ych ró¿.  Amelia Bia³og³owa poprosi³a o przywrócenie ich do ¿ycia.~
@@ -470,17 +470,17 @@ Mo¿e u¿ywaæ:
 @274  = ~Podarty pergamin~
 @275  = ~[Podarty pergamin] Strona
 
-Ten kawa³ek pergaminu jest postrzêpiony z jednej strony, jakby zosta³ wydarty z ksiêgi. Papier pokryty jest eleganckim pismem z zawijasami, które zdaje siê zmieniaæ kszta³t na twoich oczach. 
+Ten kawa³ek pergaminu jest postrzêpiony z jednej strony, jakby zosta³ wydarty z ksiêgi. Papier pokryty jest eleganckim pismem z zawijasami, które zdaje siê zmieniaæ kszta³t na twoich oczach.
 
-S³owa nie uk³adaj¹ siê w ¿aden dostrzegalny wzór, rym czy symbol, choæ nie wydaj¹ siê te¿ byæ magiczne. 
+S³owa nie uk³adaj¹ siê w ¿aden dostrzegalny wzór, rym czy symbol, choæ nie wydaj¹ siê te¿ byæ magiczne.
 
-(Dokument wydaje siê byæ bardzo wa¿ny. Lepiej trzymaj go przez ca³y czas przy sobie.)~ 
+(Dokument wydaje siê byæ bardzo wa¿ny. Lepiej trzymaj go przez ca³y czas przy sobie.)~
 @276  = ~Dziennik Dynaheir~
 @277  = ~[Dziennik Dynaheir] Hathranski Zakodowany Tekst
 
-Ten ciê¿ki tom zape³niony jest eleganckim pismem z zawijasami Dynaheir. Próbuj¹c zajrzeæ jej przez ramiê, zauwa¿asz, ¿e litery zdaj¹ siê zmieniaæ kszta³t na twoich oczach. 
+Ten ciê¿ki tom zape³niony jest eleganckim pismem z zawijasami Dynaheir. Próbuj¹c zajrzeæ jej przez ramiê, zauwa¿asz, ¿e litery zdaj¹ siê zmieniaæ kszta³t na twoich oczach.
 
-S³owa nie uk³adaj¹ siê w ¿aden dostrzegalny wzór, rym czy symbol, choæ nie wydaj¹ siê te¿ byæ magiczne. Agenci z Thay wiele by zap³acili, by poznaæ zawartoœæ tego dziennika...~ 
+S³owa nie uk³adaj¹ siê w ¿aden dostrzegalny wzór, rym czy symbol, choæ nie wydaj¹ siê te¿ byæ magiczne. Agenci z Thay wiele by zap³acili, by poznaæ zawartoœæ tego dziennika...~
 @278  = ~Gnoll~
 @279  = ~[GNOLL 03]~ [%tutu_var%GNOLL03]
 @280  = ~[GNOLL 08]~ [%tutu_var%GNOLL08]
@@ -573,7 +573,7 @@ Mo¿e u¿ywaæ:
 @358  = ~[FLAMING FIST SOLDIER 4] Ty tam!  Piêædziesi¹t pompek!~ [FLAMN04]
 @359  = ~Maczuga~
 @360  = ~Maczuga +2, Oko Cyklonu~
-@361  = ~Wiêkszoœæ maczug to po prostu kawa³ki twardego drewna, od strony uchwytu wê¿sze, zaœ po przeciwnej szersze. Ta prosta broñ by³a u¿ywana od czasów, gdy cz³owiek zacz¹³ stosowaæ narzêdzia. Ka¿dy mo¿e znaleŸæ gdzieœ mocny kawa³ek drewna i zacz¹æ nim machaæ, st¹d te¿ popularnoœæ i powszechnoœæ maczug. 
+@361  = ~Wiêkszoœæ maczug to po prostu kawa³ki twardego drewna, od strony uchwytu wê¿sze, zaœ po przeciwnej szersze. Ta prosta broñ by³a u¿ywana od czasów, gdy cz³owiek zacz¹³ stosowaæ narzêdzia. Ka¿dy mo¿e znaleŸæ gdzieœ mocny kawa³ek drewna i zacz¹æ nim machaæ, st¹d te¿ popularnoœæ i powszechnoœæ maczug.
 
 PARAMETRY:
 
@@ -622,15 +622,15 @@ Mo¿e u¿ywaæ:
 PARAMETRY:
 
 Obra¿enia: 1K6 + 1
-TraK0: +1 
-Specjalne: 
- 50% szansa na zadanie dodatkowego punktu obra¿eñ od ognia 
+TraK0: +1
+Specjalne:
+ 50% szansa na zadanie dodatkowego punktu obra¿eñ od ognia
  +20 odpornoœæ na ogieñ
  Mo¿na rzuciæ Ognist¹ tarczê (czerwon¹) raz dziennie
 Typ obra¿eñ: k³ute
 Waga: 4
-OpóŸnienie: 4
-Rodzaj bieg³oœci: w³ócznie 
+OpóŸnienie: 5
+Rodzaj bieg³oœci: w³ócznie
 Typ broni: 2-rêczna
 Wymagana si³a: 5
 Nie mo¿e u¿ywaæ:
@@ -755,7 +755,7 @@ Para podwójnych, ciê¿kich drzwi blokuje ci przejœcie. Œwist rêki i obracaj¹ siê 
 
 Nieumarli. Nietoperze wisz¹cy u sufitu, szkieletowi wojownicy i ³ucznicy wzd³u¿ œcian, gnij¹ce postaci, stoj¹cy jak atrapa stra¿ników u wejœcia. Ich przywódca stoi po drugiej stronie pomieszczenia, na po³y skryty w cieniu. Ruszasz naprzód, próbuj¹c dojrzeæ jego twarz... "jej" twarz...
 
-Dok³adnie w tej chwili, postaæ zaczyna siê œmiaæ, zmys³owym, triumfalnym œmiechem zaspokojonego drapie¿nika, a jej ramiê wskazuje pod³ogê. "Bodhi", nagle przypominasz sobie jej imiê; i wtedy to dostrzegasz: cia³o w najdalszym rogu pomieszczenia, zwiniête w k¹cie jak kupa œmieci. Elfia krew w twych ¿y³ach wrze i zamarza jednoczeœnie, gdy szepcz¹c ci poza wszelk¹ stanowczoœæ: jest zbyt martwy na wskrzeszenie, dusza odesz³a - na zawsze, i nawet Seldarine nie mo¿e jej wskrzesiæ. 
+Dok³adnie w tej chwili, postaæ zaczyna siê œmiaæ, zmys³owym, triumfalnym œmiechem zaspokojonego drapie¿nika, a jej ramiê wskazuje pod³ogê. "Bodhi", nagle przypominasz sobie jej imiê; i wtedy to dostrzegasz: cia³o w najdalszym rogu pomieszczenia, zwiniête w k¹cie jak kupa œmieci. Elfia krew w twych ¿y³ach wrze i zamarza jednoczeœnie, gdy szepcz¹c ci poza wszelk¹ stanowczoœæ: jest zbyt martwy na wskrzeszenie, dusza odesz³a - na zawsze, i nawet Seldarine nie mo¿e jej wskrzesiæ.
 
 Wiesz, o kim mówi, ale nie zd¹¿asz wymówiæ na g³os tego imienia. Zamiast tego pokój zachodzi mrokiem, a ty nurkujesz w mrocznych odmêtach nieskalanego wizjami snu, obraz powoli blaknie w twej pamiêci.~ ~Znajdujesz siê w starej jaskini, g³êboko pod ziemi¹, rysunki starych, dawno zapomnianych bogów na œcianach. B³êkit i pomarañcz; twoje poczucie dobrego smaku kuli siê w agonii na widok tych krzykliwych kolorów. Pod¹¿asz w¹skim korytarzem, zag³êbiaj¹c siê coraz g³êbiej w labirynt, i zdajesz sobie sprawê, ¿e mo¿esz nigdy nie znaleŸæ wyjœcia. Wola³abyœ, ¿eby tak siê nie sta³o.
 
@@ -772,7 +772,7 @@ Dok³adnie w tej chwili, postaæ zaczyna siê œmiaæ, zmys³owym, triumfalnym œmieche
 Wiesz, o kim mówi, ale nie zd¹¿asz wymówiæ na g³os tego imienia. Zamiast tego pokój zachodzi mrokiem, a ty nurkujesz w mrocznych odmêtach nieskalanego wizjami snu, obraz powoli blaknie w twej pamiêci.~
 @476  = ~[MAREK 1] Czy mo¿ecie zatrzymaæ siê na chwilê?~ [%tutu_var%MAREK01]
 @477  = ~Kwietny naszyjnik~
-@478  = ~Zaczarowany kwietny naszyjnik 
+@478  = ~Zaczarowany kwietny naszyjnik
 
 To jest umagiczniony naszyjnik, prezent od Ajantisa.
 
@@ -785,7 +785,7 @@ Nie mo¿e u¿ywaæ:
 @479  = ~Pierœcionek zarêczynowy Ajantisa~
 @480  = ~Pierœcionek zarêczynowy
 
-To jest pierœcionek zarêczynowy ofiarowany Ci przez Ajantisa. Nale¿a³ on od pokoleñ do rodu Ilvastarr. Jest raczej skromnie ozdobiony, z kilkoma zawi³ymi zdobieniami w okolicach jasnoniebieskiego kamienia szlachetnego.~ 
+To jest pierœcionek zarêczynowy ofiarowany Ci przez Ajantisa. Nale¿a³ on od pokoleñ do rodu Ilvastarr. Jest raczej skromnie ozdobiony, z kilkoma zawi³ymi zdobieniami w okolicach jasnoniebieskiego kamienia szlachetnego.~
 @481  = ~Douglas~
 @482  = ~¯yczê ci udanego dnia.~ [GNMAL02]
 @483  = ~Sprawiedliwoœæ zostanie wymierzona szybko i w sposób ostateczny!~ [GNMAL03]
@@ -795,7 +795,7 @@ To jest pierœcionek zarêczynowy ofiarowany Ci przez Ajantisa. Nale¿a³ on od poko
 @487  = ~Na mnie patrzysz?  Na mnie!~ [AMNSO04]
 @488  = ~[MALE THREAT 3] Mam tu ostrze specjalne dla ciebie.~ [%tutu_var%GENMT03]
 @489  = ~Zwierciad³o: Oczy kochanka~
-@490  = ~Zwierciad³o: Oczy kochanka 
+@490  = ~Zwierciad³o: Oczy kochanka
 To jest ma³e ozdobne lusterko, które <CHARNAME> dosta³a od swojego towarzysza, Corana, w ramach zalotów. Zwierciad³o zosta³o tak stworzone, by s³odziæ, komplementowaæ i bez skrupu³ów pochlebiaæ swej w³aœcicielce. Wszystko co mówi, powinno zostaæ odebrane z przymru¿eniem oka: zdarza³o siê, ¿e zwierciad³o wychwala³o jej nieziemskie piêkno, kiedy <CHARNAME> zmazywa³a b³oto i krew ze swej twarzy po zakoñczonej bitwie.
 
 Specjalne:
@@ -892,14 +892,14 @@ Ten pamiêtnik wygl¹da na coœ wa¿nego i powinieneœ go zachowaæ, gdy¿ mo¿e on stan
 
 21 Nightal, 1366: Ojciec pracuje nad czymœ wa¿nym, jednak jak zwykle nie pokazuje mi ¿adnych detali swego planu. Obecnie wiêkszoœæ czasu spêdza na polepszaniu naturalnej obronnoœci w Kniei Otulisko i wypompowywaniu wody z jaskiñ. Jak dot¹d nie uda³o mi siê tego wszystkiego po³¹czyæ w ca³oœæ, tak samo jak poznaæ to¿samoœci cz³owieka, który go odwiedza. To siê zmieni.
 
-11 Ches, 1367: Kolejny brutalny sen. Znów by³em ch³opcem, szczeka³ na mnie pies, wiêc zabi³em go sztyletem, który trzyma³em w d³oni. Tym samym sztyletem z koœci, który widzia³em w innych snach. Spotka³em mamê. Zaczê³a na mnie krzyczeæ, czemu tak postêpujê i podobne bzdury... Rozci¹³em jej brzuch. Jej krew by³a œwie¿a, jednak na d³oniach mia³em ju¿ star¹ krew... i moje palce nagle przemieni³y siê w szpony. Psi ³eb wróci³ do ¿ycia - w jego oczach by³ bezmiar pustki. "Jaki ojciec, taki syn" - powiedzia³. Podczas snu by³em spokojny, a jednak od razu, gdy siê obudzi³em, zacz¹³em p³akaæ. Czy to s³aboœæ? Muszê j¹ wyeliminowaæ. 
+11 Ches, 1367: Kolejny brutalny sen. Znów by³em ch³opcem, szczeka³ na mnie pies, wiêc zabi³em go sztyletem, który trzyma³em w d³oni. Tym samym sztyletem z koœci, który widzia³em w innych snach. Spotka³em mamê. Zaczê³a na mnie krzyczeæ, czemu tak postêpujê i podobne bzdury... Rozci¹³em jej brzuch. Jej krew by³a œwie¿a, jednak na d³oniach mia³em ju¿ star¹ krew... i moje palce nagle przemieni³y siê w szpony. Psi ³eb wróci³ do ¿ycia - w jego oczach by³ bezmiar pustki. "Jaki ojciec, taki syn" - powiedzia³. Podczas snu by³em spokojny, a jednak od razu, gdy siê obudzi³em, zacz¹³em p³akaæ. Czy to s³aboœæ? Muszê j¹ wyeliminowaæ.
 
 14 Mirtul, 1367: Ceremonia zakoñczenia mojego szkolenia Zwiastuna Œmierci wydawa³a mi siê ma³o klimatyczna, jednak mój wystêp zaimponowa³ Ojcu. Po ceremonii wzi¹³ mnie na bok i powiedzia³ mi, ¿e jutro dowiem siê wszystkiego o jego planach, a ponadto odegram w nich wa¿n¹ rolê, o ile oczywiœcie jego wspólnicy mu na to pozwol¹. Zapewni³ mnie, ¿e to wielki plan, i nie zawiodê siê na nim. Zaintrygowa³ mnie.
 Cythandria równie¿ by³a zadowolona z mego pokazu, zaœ jej czas nie zosta³ zmarnowany. Gdy byliœmy ze sob¹ pierwszy raz, pamiêtam jak cieszy³em siê, ¿e spotka³em kogoœ, kogo nie odpycha³a moja bliskoœæ ze œmierci¹ i strachem, jednak dziœ doszed³em do wniosku, ¿e nasze pragnienia nie s¹ takie same: ona nie po¿¹da kontaktu ze œmierci¹, lecz tylko poœrednio ekscytuje siê ni¹. I nie jestem pewien, czy rzeczywiœcie czuje szczer¹ ¿¹dze krwi tak jak ja, czy tylko podnieca j¹ dreszczyk emocji. Obawiam siê, ¿e to drugie...
 
 15 Mirtul, 1367: Ojciec wreszcie odkry³ przede mn¹ swój sekret, który raczej brzmia³ dosyæ ¿a³oœnie, i nie by³ godny takiego ekscytowania siê. Ojciec znalaz³ w Kniei Otulisko jak¹œ star¹, nieznan¹ nikomu kopalnie nale¿¹c¹ do krasnoludzkiego klanu Orothiar, która jest nadal niezwykle bogata w ¿elazo tam, gdzie zosta³a zalana lata temu. Fiu! ¯elazo?! Mog³em oczekiwaæ czegoœ w tym stylu, jednak przy ca³ej tej ostro¿noœci i dyskrecji ojca spodziewa³em siê czegoœ cenniejszego. Gdzie w tym miejsce dla mnie i mojego sza³u krwi? Nie spêdzi³em tych d³ugich lat na treningu walki, by pomóc Ojcu przy prowadzeniu kopalni. Czujê potrzebê jakiegoœ wyzwania, moje umiejêtnoœci siê tutaj marnuj¹. Czekam wreszcie na moj¹ upragnion¹ rzeŸ.
 
-8 Flamerule, 1367: Dziœ Ojciec przedstawi³ mnie swym podw³adnym - Davaeornowi i Tranzigowi, którzy ju¿ odbyli podró¿ do ukrytej kopalni i potwierdzili to, ¿e mo¿na j¹ znów otworzyæ. 
+8 Flamerule, 1367: Dziœ Ojciec przedstawi³ mnie swym podw³adnym - Davaeornowi i Tranzigowi, którzy ju¿ odbyli podró¿ do ukrytej kopalni i potwierdzili to, ¿e mo¿na j¹ znów otworzyæ.
 Tego wieczoru na ulicy zaczepi³ mnie jakiœ oparszywia³y ¿ebrak bez imienia, który wepchn¹³ mi do r¹k ksiêgê, i powiedzia³, ¿e jeszcze wróci. Ksiêga by³a bardzo stara i zniszczona - traktowa³a o Czasie Niepokojów. Jednak coœ mi mówi, ¿e ten cz³owiek jest kimœ wiêcej ni¿ spitym lunatykiem, jakich wielu.
 
 
@@ -911,7 +911,7 @@ Jeœli chodzi o bardziej prywatne rzeczy, coraz czêœciej myœlê o snach. Muszê w k
 
 20 Eleint, 1367: Wreszcie objawi³ siê ten cz³owiek, który da³ mi ksiêgê - tym razem bez przebrania. Nazywa siê Winski Perorate, i od razu potwierdzi³ moje domys³y - jestem jednym z Dzieci Bhaala. Twierdzi, ¿e jest jednym z Tropicieli œmierci, i potrafi to rozpoznaæ. Poœwiêci³ kilka ostatnich lat, by znaleŸæ jak najwiêcej potomków Boga Œmierci, jednak wed³ug niego jestem najbardziej obiecuj¹cy. Bêdê siê u niego uczy³. Oprócz tego powiedzia³ mi, ¿e nie mog³em wybraæ w³aœciwszej œcie¿ki ni¿ Zwiastun Œmierci. Powoli zaczyna mi siê to podobaæ.
 
-28 Eleint, 1367: Davaeorn wys³a³ Rieltarowi wiadomoœæ, informuj¹c go, ¿e kopalnie w kniei Otulisko zosta³y oczyszczone i mo¿na je wykorzystaæ. Ta rewelacja bardzo pomo¿e w przekonaniu Najwy¿szej Rady Tronu. Oprócz tego Rieltar za³o¿y³ bazê we Wrotach, w jakimœ szlacheckim pa³acyku - wszystko idzie bardzo dobrze. 
+28 Eleint, 1367: Davaeorn wys³a³ Rieltarowi wiadomoœæ, informuj¹c go, ¿e kopalnie w kniei Otulisko zosta³y oczyszczone i mo¿na je wykorzystaæ. Ta rewelacja bardzo pomo¿e w przekonaniu Najwy¿szej Rady Tronu. Oprócz tego Rieltar za³o¿y³ bazê we Wrotach, w jakimœ szlacheckim pa³acyku - wszystko idzie bardzo dobrze.
 
 19 Marpenoth, 1367: Rada ¯elaznego Tronu zgodzi³a siê wesprzeæ plan Rieltara. Otrzyma on wszelk¹ potrzebn¹ pomoc i oczywiœcie zostanie przywódc¹ w zakresie tego planu. Wyrazi³em swe zainteresowanie i mój "ojciec" obieca³ w³¹czyæ mnie do dzia³añ tocz¹cych siê wzd³u¿ Wybrze¿a Mieczy. Wspomnia³ w rozmowie o matce - stwierdzi³, ¿e nie mogê byæ mu tak niewierny jak ona. Jego groŸby s¹ nêdzne i p³askie; na szczêœcie ju¿ wkrótce nie bêdê ich wys³uchiwa³. Da³ mi jasno do zrozumienia, ¿e jeœli coœ takiego siê zdarzy, podzielê jej los. Zdecydowa³em siê w koñcu odwiedziæ Candlekeep. S¹ rzeczy dotycz¹ce mojego pochodzenia, o których Winski nic nie wiedzia³, jednak najbardziej pomog³a mi przepowiednia Alaundo.
 
@@ -919,9 +919,9 @@ Jeœli chodzi o bardziej prywatne rzeczy, coraz czêœciej myœlê o snach. Muszê w k
 
 3 Uktar, 1367: Tej nocy mia³em sen. Mówi³a do mnie matka, ale jej twarz by³a napuchniêta i blada. Z ka¿dym s³owem jej g³os by³ coraz s³abszy. Prosi³a mnie, bym uratowa³ j¹ przed Rieltarem. Widzia³em garotê przecinaj¹c¹ jej szyjê, ale nic nie zrobi³em. To by³ tylko sen.
 
-8 Uktar, 1367: Dziœ wróci³em do nowo powsta³ej kwatery we Wrotach i spotka³em siê z Rieltarem. Ten g³upiec wci¹¿ upiera siê przy nazywaniu mnie synem, na co na razie mu pozwalam. Pewnie uwa¿a, ¿e jestem lojalny, gdy¿ mnie wychowa³. Có¿... bêdê lojalny na tyle d³ugo, na ile bêdzie przydatny. Da³ mi pe³n¹ kontrolê nad operacjami najemników, zaœ sam zaj¹³ siê dogl¹daniem kopalni i planowaniem jakiejœ intrygi, w której u¿yje sobowtórniaków. 
+8 Uktar, 1367: Dziœ wróci³em do nowo powsta³ej kwatery we Wrotach i spotka³em siê z Rieltarem. Ten g³upiec wci¹¿ upiera siê przy nazywaniu mnie synem, na co na razie mu pozwalam. Pewnie uwa¿a, ¿e jestem lojalny, gdy¿ mnie wychowa³. Có¿... bêdê lojalny na tyle d³ugo, na ile bêdzie przydatny. Da³ mi pe³n¹ kontrolê nad operacjami najemników, zaœ sam zaj¹³ siê dogl¹daniem kopalni i planowaniem jakiejœ intrygi, w której u¿yje sobowtórniaków.
 
-9 Uktar, 1367: Winski, tak samo jak ja, nie marnowa³ czasu i dziœ pokaza³ mi, gdzie znajduje siê niewielka sekta Cyrika, która od wielu lat zajmuje siê zbieraniem informacji o Bhaalu i, w szczególnoœci, o jego potomkach. NajwyraŸniej Cyric jest bardzo zainteresowany potomstwem swego martwego wroga, gdy¿ dziêki niemu móg³by jeszcze bardziej zwiêkszyæ sw¹ moc. Winski chcia³ porwaæ jednego lub kilku ich przywódców i wszystkiego dowiedzieæ siê od nich, jednak powiedzia³em, ¿e powinniœmy mierzyæ wy¿ej i zagarn¹æ ich wszystkich. Jednak to wymaga wiêcej ni¿ dwóch ludzi, dlatego powoli zaczynam selekcjonowanie swych wyznawców. Moje pochodzenie na razie nie mo¿e wyjœæ na jaw, szczególnie przed Rieltarem - to czas, gdy Syn Mordu zbierze Akolitów, na jakich zas³uguje. 
+9 Uktar, 1367: Winski, tak samo jak ja, nie marnowa³ czasu i dziœ pokaza³ mi, gdzie znajduje siê niewielka sekta Cyrika, która od wielu lat zajmuje siê zbieraniem informacji o Bhaalu i, w szczególnoœci, o jego potomkach. NajwyraŸniej Cyric jest bardzo zainteresowany potomstwem swego martwego wroga, gdy¿ dziêki niemu móg³by jeszcze bardziej zwiêkszyæ sw¹ moc. Winski chcia³ porwaæ jednego lub kilku ich przywódców i wszystkiego dowiedzieæ siê od nich, jednak powiedzia³em, ¿e powinniœmy mierzyæ wy¿ej i zagarn¹æ ich wszystkich. Jednak to wymaga wiêcej ni¿ dwóch ludzi, dlatego powoli zaczynam selekcjonowanie swych wyznawców. Moje pochodzenie na razie nie mo¿e wyjœæ na jaw, szczególnie przed Rieltarem - to czas, gdy Syn Mordu zbierze Akolitów, na jakich zas³uguje.
 
 14 Uktar, 1367: Cythandria zareagowa³a na to, co powiedzia³em o moim pochodzeniu dok³adnie tak, jak oczekiwa³em. Od razu widzia³a siebie jako królow¹ czy bóstwo, zasiadaj¹c¹ po prawicy Pana Mordu. Po kilku minutach rozmyœlania nad tym, by³a gotowa zap³aciæ ka¿d¹ cenê za to, by byæ dalej u mego boku. Tolerujê to... na razie. PóŸniej bêdzie czas na korekty.
 
@@ -929,39 +929,39 @@ Uczta Ksiê¿yca, 1367: S³udzy Cyrika s¹ nasi i ju¿ zaczêliœmy wydobywaæ od nich w
 
 17 Nightal, 1367: Mulahey zainstalowa³ siê w kopalniach Nashkel, a jego koboldy zaczê³y zanieczyszczaæ rudê ¿elaza. Jedynie kilku niewolników zajmuje siê wydobywaniem rudy z kopalni w kniei Otulisko, choæ jak zaczn¹ siê napady bandytów, bêdê móg³ wysy³aæ Davaeornowi wiêksz¹ ich iloœæ. Chcia³bym przeci¹gn¹æ Davaeorna na stronê mego ma³ego kultu, w koñcu dowiedzia³em siê, ¿e w tajemnicy wci¹¿ czci mego ojca. Niestety to bêdzie trudne - nie ufa mi, chocia¿ powoli zacz¹³em rozpowiadaæ to, kim jestem naprawdê.
 
-29 Nightal, 1367: Tamoko wykaza³a zadziwiaj¹c¹ umiejêtnoœæ w przekonywaniu kilku z najbardziej opornych Wyznawców Cyrika. Sposób, w jaki zar¿nê³a jednego z m³odszych cz³onków, a potem wskrzesi³a go jako nieumar³ego i kaza³a mu zaatakowaæ jego œpi¹cych kompanów, by³ mi³y dla oczu. Nie ¿ebym potrzebowa³ wymówki, aby opuœciæ towarzystwo Cythandri: ta narzeka na zbyt wiele rzeczy. 
+29 Nightal, 1367: Tamoko wykaza³a zadziwiaj¹c¹ umiejêtnoœæ w przekonywaniu kilku z najbardziej opornych Wyznawców Cyrika. Sposób, w jaki zar¿nê³a jednego z m³odszych cz³onków, a potem wskrzesi³a go jako nieumar³ego i kaza³a mu zaatakowaæ jego œpi¹cych kompanów, by³ mi³y dla oczu. Nie ¿ebym potrzebowa³ wymówki, aby opuœciæ towarzystwo Cythandri: ta narzeka na zbyt wiele rzeczy.
 
 6 Hammer, 1368: P³omienna Piêœæ w koñcu zauwa¿y³a nasz¹ ma³¹ operacjê i rozes³a³a kilka ma³ych kontyngentów na Wybrze¿e Mieczy, aby spróbowaæ powstrzymaæ bandyckie napady. Rozka¿ê wszystkim ludziom, aby w wypadku z³apania powo³ywali siê na powi¹zania z Zhentarimami i zaopatrzê ich w niezbêdne szczegó³y, aby ich k³amstwa by³y bardziej przekonywuj¹ce. Jestem pewien, ¿e Zhentarimowie z Ciemnej Warowni nie bêd¹ zadowoleni, kiedy siê dowiedz¹, i¿ ktoœ podszywa siê pod ich imiê, ale nie mo¿emy pozwoliæ w³adzom z³apaæ naszego tropu. W miêdzyczasie uda³o nam siê przekabaciæ Angelo z P³omiennej Piêœci na nasz¹ stronê. Obecnie szkolê go w taktyce bitewnej: gdy tylko wszyscy zauwa¿¹ jego talent, z pewnoœci¹ awansuje - co zapewni nam wartoœciowego szpiega pod nosem Eltana.
 
-22 Hammer, 1368: Wiêcej odkryæ od sekciarzy Cyrika - po intensywnych badaniach w koñcu mamy kilka imion i liczb. Zastanawiam siê tak¿e, co jest takiego wa¿nego w Saradush? Wygl¹da na to, ¿e Bhaal sp³odzi³ dos³ownie setki potomków, wzd³u¿ ca³ego Fearunu, ale tylko dwudziestu z nich bêdzie mia³o prawdziwe znaczenie, a z nich tylko pi¹tka sprawi, ¿e nawet Niebiosa zadr¿¹ ze strachu. To bardzo obiecuj¹ce. Ale wygl¹da na to, ¿e g³ówny kap³an Cyrika wie równie wiele o "skarbie Goriona", co my. A niech to! I tak muszê znaleŸæ okazjê do dostania siê do Candlekeep. 
+22 Hammer, 1368: Wiêcej odkryæ od sekciarzy Cyrika - po intensywnych badaniach w koñcu mamy kilka imion i liczb. Zastanawiam siê tak¿e, co jest takiego wa¿nego w Saradush? Wygl¹da na to, ¿e Bhaal sp³odzi³ dos³ownie setki potomków, wzd³u¿ ca³ego Fearunu, ale tylko dwudziestu z nich bêdzie mia³o prawdziwe znaczenie, a z nich tylko pi¹tka sprawi, ¿e nawet Niebiosa zadr¿¹ ze strachu. To bardzo obiecuj¹ce. Ale wygl¹da na to, ¿e g³ówny kap³an Cyrika wie równie wiele o "skarbie Goriona", co my. A niech to! I tak muszê znaleŸæ okazjê do dostania siê do Candlekeep.
 
-14 Alturiak, 1368: Nareszcie jestem w Candlekeep. Mimo ¿e Winski by³ zbyt chory, aby opuszczaæ Wrota - radzê sobie. Pomagaj¹ mi tutejsi mnisi. Z tego, co przeczyta³em, wynika, i¿ rzeczywiœcie w moich ¿y³ach p³ynie krew Bhaala. Jego przepowiednie s¹ (oczywiœcie) niejednoznaczne, ale wydaje mi siê, ¿e je rozumiem. Przewidzia³ nadchodz¹c¹ œmieræ i rozsia³ sw¹ esencjê po œwiecie. Urodzone w wyniku tego dzieci nosz¹ œlad chaosu, posiadaj¹ potêgê i zapewne czuj¹ p³yn¹c¹ w ¿y³ach krew boga. Œmierci, do których doprowadz¹, obudz¹ ich ojca i pozwol¹ mu raz jeszcze powstaæ. Przepowiednie nie mówi³y tego wprost, ale mo¿na siê domyœliæ, ¿e zadane przez dzieci œmierci pozwol¹ im wznieœæ siê ku panteonowi. Tak wiêc mój ojciec jest bogiem morderstw i dowodem wartoœci bêdzie czyn odpowiadaj¹cy jego wizerunkowi. Wiem ju¿, co muszê uczyniæ. Spowodowaæ rzeŸ na iœcie bosk¹ skalê. 
+14 Alturiak, 1368: Nareszcie jestem w Candlekeep. Mimo ¿e Winski by³ zbyt chory, aby opuszczaæ Wrota - radzê sobie. Pomagaj¹ mi tutejsi mnisi. Z tego, co przeczyta³em, wynika, i¿ rzeczywiœcie w moich ¿y³ach p³ynie krew Bhaala. Jego przepowiednie s¹ (oczywiœcie) niejednoznaczne, ale wydaje mi siê, ¿e je rozumiem. Przewidzia³ nadchodz¹c¹ œmieræ i rozsia³ sw¹ esencjê po œwiecie. Urodzone w wyniku tego dzieci nosz¹ œlad chaosu, posiadaj¹ potêgê i zapewne czuj¹ p³yn¹c¹ w ¿y³ach krew boga. Œmierci, do których doprowadz¹, obudz¹ ich ojca i pozwol¹ mu raz jeszcze powstaæ. Przepowiednie nie mówi³y tego wprost, ale mo¿na siê domyœliæ, ¿e zadane przez dzieci œmierci pozwol¹ im wznieœæ siê ku panteonowi. Tak wiêc mój ojciec jest bogiem morderstw i dowodem wartoœci bêdzie czyn odpowiadaj¹cy jego wizerunkowi. Wiem ju¿, co muszê uczyniæ. Spowodowaæ rzeŸ na iœcie bosk¹ skalê.
 
-15 Alturiak, 1368: Winski by³ g³upcem. "Skarb Goriona" to nie ¿aden glif, ale raczej mój brat o imieniu <CHARNAME>, kilka lat m³odszy ode mnie. I Gorion, mimo ¿e teraz stary, jest bez w¹tpienia tym samym cz³owiekiem ze œwi¹tyni, sprzed tych wielu lat. Jaka¿ to ironia, ¿e twarz, która towarzyszy³a mi we wspomnieniach przez wiêkszoœæ mego ¿ycia, nale¿a³a do jakiegoœ parszywego mnicha mieszkaj¹cego niedaleko mnie. I gdy nie mam ju¿ nic do udowadniania, wierzê, ¿e <CHARNAME> by³ tym samym wrzeszcz¹cym niemowlakiem na o³tarzu. I TEN m³okos ma mieæ monumentalny wp³yw na MOJE przeznaczenie? To jest œmieszne. Nie przygl¹da³em siê mu zbyt mocno, ale <CHARNAME> wygl¹da na nic wiêcej ni¿ nieszkodliwego ignoranta, bez ¿adnego treningu. Ciê¿ko poj¹æ bogów. Niepokoi mnie ten Gorion. Chyba zainteresowa³ siê moimi badaniami. Muszê pracowaæ w jeszcze wiêkszej tajemnicy. 
+15 Alturiak, 1368: Winski by³ g³upcem. "Skarb Goriona" to nie ¿aden glif, ale raczej mój brat o imieniu <CHARNAME>, kilka lat m³odszy ode mnie. I Gorion, mimo ¿e teraz stary, jest bez w¹tpienia tym samym cz³owiekiem ze œwi¹tyni, sprzed tych wielu lat. Jaka¿ to ironia, ¿e twarz, która towarzyszy³a mi we wspomnieniach przez wiêkszoœæ mego ¿ycia, nale¿a³a do jakiegoœ parszywego mnicha mieszkaj¹cego niedaleko mnie. I gdy nie mam ju¿ nic do udowadniania, wierzê, ¿e <CHARNAME> by³ tym samym wrzeszcz¹cym niemowlakiem na o³tarzu. I TEN m³okos ma mieæ monumentalny wp³yw na MOJE przeznaczenie? To jest œmieszne. Nie przygl¹da³em siê mu zbyt mocno, ale <CHARNAME> wygl¹da na nic wiêcej ni¿ nieszkodliwego ignoranta, bez ¿adnego treningu. Ciê¿ko poj¹æ bogów. Niepokoi mnie ten Gorion. Chyba zainteresowa³ siê moimi badaniami. Muszê pracowaæ w jeszcze wiêkszej tajemnicy.
 16 Alturiak, 1368: Opuszczam ju¿ Candlekeep - ani chwili za wczeœnie, jestem bowiem pewien, ¿e Gorion odkry³ moje dziedzictwo. Jeszcze jednej rzeczy jestem teraz pewien: <CHARNAME> równie¿ jest dzieckiem Bhaala. Wskazuj¹ na to wszystkie znaki, a ponadto fakt ten wyjaœni³by zainteresowanie Goriona moimi studiami. Có¿, teraz nic nie mogê uczyniæ, muszê jednak postaraæ siê wróciæ i zabiæ bachora. G³upot¹ by³oby pozwoliæ ¿yæ rodzeñstwu - szczególnie temu, którym interesuj¹ siê Harfiarze (jestem pewien, ¿e w³aœnie z nimi zwi¹zany jest Gorion). Spodziewam siê, ¿e moc Bhaala bêdzie rozdzielana wœród dzieci, które prze¿yj¹, a wiêc muszê siê upewniæ, ¿e pozostanê sam na placu boju. Jeœli mam odziedziczyæ Tron Bhaala, chcê go mieæ tylko dla siebie.
 
 19 Alturiak, 1368: Ostatni z naszego ma³ego kultu Cyrika zmar³, ale myœlê, ¿e wyci¹gnêliœmy z nich ju¿ wszystko, co u¿yteczne. Winski podziela moj¹ opiniê o <CHARNAME> w tym, ¿e œmieræ dziecka jest ju¿ pewna, ale doradza mi poczekaæ, dopóki nie dowie siê, jak¹ szczególn¹ rolê ma pe³niæ "wychowanek Goriona". Bardzo dobrze, obecnie mogê sobie pozwoliæ na chwilê zw³oki. W sekrecie sprawi³em sobie œwietny pancerz i miecz, godne nastêpnego Pana Mordu, i od³o¿y³em wszystkie dzia³ania, dopóki zbroi nie przywdziejê.
 
-17 Ches, 1368: Wszystko zmierza w dobrym kierunku. Ruda z Nashkel straci³a na jakoœci, a moi najemnicy œwietnie daj¹ sobie radê z rozbijaniem karawan wioz¹cych ¿elazo do Wrót Baldura. Z³apano kilku moich podw³adnych, ale i tak wiêkszoœæ uwa¿a, ¿e pracuj¹ oni dla Zhentarimów, wiêc na ¯elazny Tron nie powinny spaœæ ¿adne k³opoty. W najbli¿szym czasie bêdê musia³ uwa¿aæ na ich agentów. 
-Jestem trochê zawiedziony na Rieltarze: postrzega to wszystko tylko jako kolejn¹ drogê do wzbogacenia siê i podniesienia swego statusu w ¯elaznym Tronie. Ba! Kto siê przejmuje marnymi intrygami w ¿a³osnej organizacji kupieckiej, kiedy jeden mo¿e kontrolowaæ armie ca³ych nacji? A co tam. Jego œlepota dzia³a na moj¹ korzyœæ. 
+17 Ches, 1368: Wszystko zmierza w dobrym kierunku. Ruda z Nashkel straci³a na jakoœci, a moi najemnicy œwietnie daj¹ sobie radê z rozbijaniem karawan wioz¹cych ¿elazo do Wrót Baldura. Z³apano kilku moich podw³adnych, ale i tak wiêkszoœæ uwa¿a, ¿e pracuj¹ oni dla Zhentarimów, wiêc na ¯elazny Tron nie powinny spaœæ ¿adne k³opoty. W najbli¿szym czasie bêdê musia³ uwa¿aæ na ich agentów.
+Jestem trochê zawiedziony na Rieltarze: postrzega to wszystko tylko jako kolejn¹ drogê do wzbogacenia siê i podniesienia swego statusu w ¯elaznym Tronie. Ba! Kto siê przejmuje marnymi intrygami w ¿a³osnej organizacji kupieckiej, kiedy jeden mo¿e kontrolowaæ armie ca³ych nacji? A co tam. Jego œlepota dzia³a na moj¹ korzyœæ.
 
-25 Tarsakh, 1368: Zbroja jest gotowa, i wspaniale dope³nia mój wizerunek Zwiastuna Œmierci i dziedzica po Panie Mordu. Muszê pogratulowaæ Winskiemu za pomoc przy tworzeniu, zw³aszcza za dodatkowe umagicznienia aktywowane tylko przez obecnoœæ esencji Bhaala. Miecz powinien byæ ukoñczony za dzieñ lub dwa, ale wygl¹da na to, ¿e powinienem zabiæ moje pierwsze rodzeñstwo go³ymi rêkami. ¯egnaj, Colinie de'Graage. Nie jesteœ jednym z dwudziestki; Alaundo nigdy nie wspomnia³ o tobie, i ja te¿. 
+25 Tarsakh, 1368: Zbroja jest gotowa, i wspaniale dope³nia mój wizerunek Zwiastuna Œmierci i dziedzica po Panie Mordu. Muszê pogratulowaæ Winskiemu za pomoc przy tworzeniu, zw³aszcza za dodatkowe umagicznienia aktywowane tylko przez obecnoœæ esencji Bhaala. Miecz powinien byæ ukoñczony za dzieñ lub dwa, ale wygl¹da na to, ¿e powinienem zabiæ moje pierwsze rodzeñstwo go³ymi rêkami. ¯egnaj, Colinie de'Graage. Nie jesteœ jednym z dwudziestki; Alaundo nigdy nie wspomnia³ o tobie, i ja te¿.
 
 28 Tarsakh, 1368: Miecz Chaosu jest wspania³y. Chyba w koñcu nadszed³ moment za³atwienia sprawy z tym starym g³upcem Gorionem i ma³ym bachorem. Muszê poinformowaæ mych podw³adnych, ¿e nie bêdzie mnie przez najbli¿sze kilka tygodni. Cythandria by³a wœciek³a, kiedy siê dowiedzia³a, ¿e biorê Tamoko zamiast jej. Mo¿e to zmotywuje j¹ do wspierania mnie w innych sferach ¿ycia ni¿ sypialnia.
 
-2 Mirtul, 1368: Moja d³ugo odk³adana zemsta na tym pokrêconym starcu wreszcie siê dope³ni³a. W sumie, to zabi³em go trochê za szybko; chcia³em mieæ doœæ czasu, aby spojrzeæ w jego umieraj¹ce oczy i przypomnieæ mu, gdzie spotka³ mnie wczeœniej. A co tam, to nie ma znaczenia. Ich zachowania nie mo¿na by³o okreœliæ inaczej ni¿ idiotyzm - on i jego g³upawy bachor uciekali z Candlekeep pod os³on¹ nocy, nie maj¹c nic wiêcej prócz paru zawini¹tek. Agenci Semaja wystraszyli ich i wprowadzili prosto w zasadzkê. Niestety, bachor mi uciek³ - bieg³ jak jakiœ królik po tym, jak Tamoko pokaza³a mu prawdziw¹ magiê. Mog³em jej rozkazaæ, by go goni³a, jednak w koñcu da³em sobie spokój. Spodziewam siê, ¿e <CHARNAME> nie przetrwa kilku dni i nocy bez swego starego g³upca. I taki bêdzie zas³u¿ony koniec dla "skarbu" kogoœ, kto uwa¿a³ mnie za mniej wa¿nego od jakiejœ becz¹cej sieroty. Wracam do Wrót i zrobiê listê braci i sióstr, którzy s¹ warci œmierci z mojej rêki. Jednak dla spokoju ducha skontaktowa³em siê z ma³¹ sieci¹ Semaja i doda³em imiê <CHARNAME> do tych, których œmieræ bêdzie nagrodzona. Mo¿liwe, ¿e ktoœ siê skusi na parê groszy i dokoñczy to, czego ja nie zrobi³em. 
+2 Mirtul, 1368: Moja d³ugo odk³adana zemsta na tym pokrêconym starcu wreszcie siê dope³ni³a. W sumie, to zabi³em go trochê za szybko; chcia³em mieæ doœæ czasu, aby spojrzeæ w jego umieraj¹ce oczy i przypomnieæ mu, gdzie spotka³ mnie wczeœniej. A co tam, to nie ma znaczenia. Ich zachowania nie mo¿na by³o okreœliæ inaczej ni¿ idiotyzm - on i jego g³upawy bachor uciekali z Candlekeep pod os³on¹ nocy, nie maj¹c nic wiêcej prócz paru zawini¹tek. Agenci Semaja wystraszyli ich i wprowadzili prosto w zasadzkê. Niestety, bachor mi uciek³ - bieg³ jak jakiœ królik po tym, jak Tamoko pokaza³a mu prawdziw¹ magiê. Mog³em jej rozkazaæ, by go goni³a, jednak w koñcu da³em sobie spokój. Spodziewam siê, ¿e <CHARNAME> nie przetrwa kilku dni i nocy bez swego starego g³upca. I taki bêdzie zas³u¿ony koniec dla "skarbu" kogoœ, kto uwa¿a³ mnie za mniej wa¿nego od jakiejœ becz¹cej sieroty. Wracam do Wrót i zrobiê listê braci i sióstr, którzy s¹ warci œmierci z mojej rêki. Jednak dla spokoju ducha skontaktowa³em siê z ma³¹ sieci¹ Semaja i doda³em imiê <CHARNAME> do tych, których œmieræ bêdzie nagrodzona. Mo¿liwe, ¿e ktoœ siê skusi na parê groszy i dokoñczy to, czego ja nie zrobi³em.
 
-9 Mirtul, 1368: Proszê, proszê! <CHARNAME> nie tylko NIE zosta³ zjedzony przez gibberlingi, jak siê spodziewa³em, ale tak¿e przetrwa³ dwa zamachy ³owców nagród Semaja, zorganizowa³ grupê poszukiwaczy przygód i bezpiecznie spotka³ siê z burmistrzem Nashkel! Jest oczywiste, ¿e ta ma³a wojenna dru¿yna szuka sposobu na przeszkodzenie naszej dzia³alnoœci w kopalniach! Na szczêœcie, Tazok i Tranzig zostali dobrze przygotowani na tego typu... "incydenty", i doskonale wiedz¹, co maj¹ robiæ. 
+9 Mirtul, 1368: Proszê, proszê! <CHARNAME> nie tylko NIE zosta³ zjedzony przez gibberlingi, jak siê spodziewa³em, ale tak¿e przetrwa³ dwa zamachy ³owców nagród Semaja, zorganizowa³ grupê poszukiwaczy przygód i bezpiecznie spotka³ siê z burmistrzem Nashkel! Jest oczywiste, ¿e ta ma³a wojenna dru¿yna szuka sposobu na przeszkodzenie naszej dzia³alnoœci w kopalniach! Na szczêœcie, Tazok i Tranzig zostali dobrze przygotowani na tego typu... "incydenty", i doskonale wiedz¹, co maj¹ robiæ.
 
 15 Mirtul, 1368:  Strata Nashkel by³a szokuj¹cym ciosem, ale nadal jesteœmy silni. Na specjalnym spotkaniu uradziliœmy, ¿e najlepszym rozwi¹zaniem bêdzie wys³anie jeszcze kilku ludzi, by dalej zatruwali rudê. Nawet nie zawsze musz¹ pracowaæ w kopalni, by móc zanieczyœciæ rudê. Zasugerowa³em, ¿e mo¿na by to czyniæ podczas transportu: nasi ludzie mogliby tam pracowaæ jako woŸnice czy stra¿nicy karawan, i z ³atwoœci¹ mogliby zaj¹æ siê towarem, szczególnie podczas symulowanych ataków Czarnych Szponów. Po krótkiej debacie nawet Davaeorn zosta³ przekonany. Najlepsze jest to, ¿e nawet jeœli zatrujemy TROCHÊ rudy z Nashkel, to ludzie bêd¹ dalej wierzyæ, ¿e ¿elazo jest zanieczyszczone, i nie bêd¹ go chcieli u¿ywaæ! Mo¿e nawet ktoœ pomyœli, ¿e Amnijczycy wymyœlili sobie tê dru¿ynê poszukiwaczy, by oszukaæ Wrota i sprzedawaæ z³e ¿elazo. Jutro wspomnê o tym Rieltarowi. Poza tym, martwi mnie to, ¿e <CHARNAME>, pomimo prób zamachów i wielu przeciwnoœci wci¹¿ ¿yje. Najpierw porozmawiam o tym z Winskim, póŸniej zacznê dzia³aæ. Bêdê musia³ siê tym zaj¹æ osobiœcie.
 
-24 Mirtul, 1368: Niech to ogieñ piekielny! Nie mogê uwierzyæ, ¿e mimo wszystkich trudnoœci nic nie mo¿e ich zatrzymaæ. Przez zniszczenie obozu Tazoka, muszê wystawiæ now¹ bazê wypadow¹ i nadzorowaæ to osobiœcie. Muszê przestaæ ufaæ wszelkim g³upcom i niedojdom. Rieltar i Davaeorn zgodzili siê, poniewa¿ mój nowy pancerz uniemo¿liwia rozpoznanie, a co wa¿niejsze - nawet przy zdemaskowaniu nie naprowadzi³bym nikogo na ¯elazny Tron. A niech to! Poza strat¹ ludzi, stracê wiele cennego czasu, a ponadto muszê skupiæ przy sobie wszystkich najemników i zabójców, którzy mieli za zadanie zabiæ mojego rywala. Sytuacja siê komplikuje, <CHARNAME> ju¿ wie za du¿o. Przynajmniej jego nastêpny ruch jest ju¿ przewidziany; Davaeorn i za³oga zebrana przez Rieltara ju¿ wyruszy³a, aby broniæ kopalni. A wiêc niech <CHARNAME> pod¹¿a za œladami. Niech SPRÓBUJ¥ przeprawiæ siê przez Kniejê Otulisko, i wszyscy mog¹ polec. Osobiœcie niewiele mnie to obchodzi, czy znajd¹ kopalnie, czy nie; w koñcu to zarówno ludzie Rieltara i Davaeorna, nie moi. Muszê wykorzystaæ ten czas na zebranie zdziesi¹tkowanych najemników i sprawiæ, by znów przypominali armiê. 
+24 Mirtul, 1368: Niech to ogieñ piekielny! Nie mogê uwierzyæ, ¿e mimo wszystkich trudnoœci nic nie mo¿e ich zatrzymaæ. Przez zniszczenie obozu Tazoka, muszê wystawiæ now¹ bazê wypadow¹ i nadzorowaæ to osobiœcie. Muszê przestaæ ufaæ wszelkim g³upcom i niedojdom. Rieltar i Davaeorn zgodzili siê, poniewa¿ mój nowy pancerz uniemo¿liwia rozpoznanie, a co wa¿niejsze - nawet przy zdemaskowaniu nie naprowadzi³bym nikogo na ¯elazny Tron. A niech to! Poza strat¹ ludzi, stracê wiele cennego czasu, a ponadto muszê skupiæ przy sobie wszystkich najemników i zabójców, którzy mieli za zadanie zabiæ mojego rywala. Sytuacja siê komplikuje, <CHARNAME> ju¿ wie za du¿o. Przynajmniej jego nastêpny ruch jest ju¿ przewidziany; Davaeorn i za³oga zebrana przez Rieltara ju¿ wyruszy³a, aby broniæ kopalni. A wiêc niech <CHARNAME> pod¹¿a za œladami. Niech SPRÓBUJ¥ przeprawiæ siê przez Kniejê Otulisko, i wszyscy mog¹ polec. Osobiœcie niewiele mnie to obchodzi, czy znajd¹ kopalnie, czy nie; w koñcu to zarówno ludzie Rieltara i Davaeorna, nie moi. Muszê wykorzystaæ ten czas na zebranie zdziesi¹tkowanych najemników i sprawiæ, by znów przypominali armiê.
 
-9 Kythorn, 1368: Z powrotem we Wrotach Baldura, szkoda, ¿e na krótko - zreszt¹ tego siê spodziewa³em. O tym, co siê sta³o w Kniei, wyczyta³em ju¿ na twarzy zrozpaczonego Rieltara. Muszê przyznaæ, ¿e nie wszystko posz³o jak zaplanowaliœmy, ale ci¹gle mo¿na to zmieniæ na nasz¹ korzyœæ. Jak? Proste - w¹tpiê, by <CHARNAME> nagle oczyœci³ ca³¹ kopalniê rudy i gdzieœ j¹ wywióz³, co oznacza, ¿e w kopalni czeka jeszcze masa ¿elaza czekaj¹cego na barki, które je wezm¹ - czyli tak, jak planowaliœmy. Teraz wystarczy odrobina manipulacji opini¹ publiczn¹ - wrobiæ <CHARNAME> w kryzys z ¿elazem - jak na razie muszê jeszcze dbaæ o interesy ¯elaznego Tronu... Jeszcze. Przygotowa³em Zhalimara i jego grupê do pilnowania mojej w³asnoœci. Czekam na <CHARNAME> i jego nastêpny i ostatni krok przeciw mnie. 
+9 Kythorn, 1368: Z powrotem we Wrotach Baldura, szkoda, ¿e na krótko - zreszt¹ tego siê spodziewa³em. O tym, co siê sta³o w Kniei, wyczyta³em ju¿ na twarzy zrozpaczonego Rieltara. Muszê przyznaæ, ¿e nie wszystko posz³o jak zaplanowaliœmy, ale ci¹gle mo¿na to zmieniæ na nasz¹ korzyœæ. Jak? Proste - w¹tpiê, by <CHARNAME> nagle oczyœci³ ca³¹ kopalniê rudy i gdzieœ j¹ wywióz³, co oznacza, ¿e w kopalni czeka jeszcze masa ¿elaza czekaj¹cego na barki, które je wezm¹ - czyli tak, jak planowaliœmy. Teraz wystarczy odrobina manipulacji opini¹ publiczn¹ - wrobiæ <CHARNAME> w kryzys z ¿elazem - jak na razie muszê jeszcze dbaæ o interesy ¯elaznego Tronu... Jeszcze. Przygotowa³em Zhalimara i jego grupê do pilnowania mojej w³asnoœci. Czekam na <CHARNAME> i jego nastêpny i ostatni krok przeciw mnie.
 
 12 Kythorn, 1368: <CHARNAME> w koñcu dotar³ do Wrót Baldura, i zaprzyjaŸni³ siê ze Scarem, ale nie wykona³ jeszcze bezpoœredniego ruchu przeciw ¯elaznemu Tronowi. Z tonu listu widaæ, ¿e Rieltar jest na skraju paniki i spodziewa siê zabójców, którzy zaskocz¹ go w pi¿amie w ka¿dej chwili. Chce, abym migiem wróci³ do miasta, wspominaj¹c coœ o spotkaniu. Chce, abym by³ obecny w sekretnym pomieszczeniu. Coœ mi mówi, ¿e ten tchórz tylko szuka pretekstu, aby byæ jak najdalej od ³ap <CHARNAME>. Na szczêœcie, Tazok jest ju¿ wyleczony i w pe³ni si³, wiêc mo¿e wracaæ do s³u¿by.
 
-14 Kythorn, 1368: Wiedzia³em o pacyfistycznych tendencjach Rieltara, ale nigdy bym siê nie spodziewa³, ¿e zaaran¿uje spotkanie z Rycerzami Tarczy, aby ZAPOBIEC wojnie, która mog³a byæ dla nas tak zyskowna. Muszê zainterweniowaæ. Dlatego "poinformowa³em" Rieltara, ¿e dru¿yna <CHARNAME> zosta³a rozbita, i zast¹piona sobowtórniakami. Kiedy oni nagle wparuj¹ na spotkanie, paniczne reakcje Rieltara z pewnoœci¹ doprowadz¹ do krwawego koñca. Na szczêœcie, sekta Cyrika wygrzeba³a kilka starych tekstów, które wystarcz¹, aby wejœæ do Candlekeep, a Winski i Semaj ju¿ skopiowali wszystko, co istotne. 
+14 Kythorn, 1368: Wiedzia³em o pacyfistycznych tendencjach Rieltara, ale nigdy bym siê nie spodziewa³, ¿e zaaran¿uje spotkanie z Rycerzami Tarczy, aby ZAPOBIEC wojnie, która mog³a byæ dla nas tak zyskowna. Muszê zainterweniowaæ. Dlatego "poinformowa³em" Rieltara, ¿e dru¿yna <CHARNAME> zosta³a rozbita, i zast¹piona sobowtórniakami. Kiedy oni nagle wparuj¹ na spotkanie, paniczne reakcje Rieltara z pewnoœci¹ doprowadz¹ do krwawego koñca. Na szczêœcie, sekta Cyrika wygrzeba³a kilka starych tekstów, które wystarcz¹, aby wejœæ do Candlekeep, a Winski i Semaj ju¿ skopiowali wszystko, co istotne.
 
 19 Kythorn, 1368: Nie mam czasu, by pisaæ, ale nie powinienem tak zaniedbywaæ mego pamiêtnika. Przysz³oœæ musi poznaæ, jak Pan Mordu narodzi³ siê na nowo. Jeœli czas pozwoli, najmê skrybê. <CHARNAME> kieruje siê do Wrót Baldura. Jeœli zdo³am zwabiæ bachora do Candlekeep, to bêdê mia³ œwietnego koz³a ofiarnego. Mój "ojciec" spotyka siê tam z Rycerzami Tarczy. I utr¹ca wszystkie moje starania maj¹ce na celu wzrost wrogoœci miêdzy Amnem i Wrotami Baldura. Muszê uwolniæ siê od niego i od jego sprzymierzeñców, a potem przej¹æ kontrolê nad ¯elaznym Tronem. Nie mog¹ pozwoliæ, by ma³ostkowe interesy i pragnienie bogactwa pokrzy¿owa³y moje plany. Przykro mi, "ojcze", ale wzywa mnie zew mej prawdziwej krwi. Muszê dok³adnie poinstruowaæ sobowtórniaki, jak maj¹ zabiæ Rieltara. Garota doskonale do tego siê nada.
 
@@ -971,14 +971,14 @@ Ten pamiêtnik wygl¹da na coœ wa¿nego i powinnaœ go zachowaæ, gdy¿ mo¿e on stanow
 
 21 Nightal, 1366: Ojciec pracuje nad czymœ wa¿nym, jednak jak zwykle nie pokazuje mi ¿adnych detali swego planu. Obecnie wiêkszoœæ czasu spêdza na polepszaniu naturalnej obronnoœci w Kniei Otulisko i wypompowywaniu wody z jaskiñ. Jak dot¹d nie uda³o mi siê tego wszystkiego po³¹czyæ w ca³oœæ, tak samo jak poznaæ to¿samoœci cz³owieka, który go odwiedza. To siê zmieni.
 
-11 Ches, 1367: Kolejny brutalny sen. Znów by³em ch³opcem, szczeka³ na mnie pies, wiêc zabi³em go sztyletem, który trzyma³em w d³oni. Tym samym sztyletem z koœci, który widzia³em w innych snach. Spotka³em mamê. Zaczê³a na mnie krzyczeæ, czemu tak postêpujê i podobne bzdury... Rozci¹³em jej brzuch. Jej krew by³a œwie¿a, jednak na d³oniach mia³em ju¿ star¹ krew... i moje palce nagle przemieni³y siê w szpony. Psi ³eb wróci³ do ¿ycia - w jego oczach by³ bezmiar pustki. "Jaki ojciec, taki syn" - powiedzia³. Podczas snu by³em spokojny, a jednak od razu, gdy siê obudzi³em, zacz¹³em p³akaæ. Czy to s³aboœæ? Muszê j¹ wyeliminowaæ. 
+11 Ches, 1367: Kolejny brutalny sen. Znów by³em ch³opcem, szczeka³ na mnie pies, wiêc zabi³em go sztyletem, który trzyma³em w d³oni. Tym samym sztyletem z koœci, który widzia³em w innych snach. Spotka³em mamê. Zaczê³a na mnie krzyczeæ, czemu tak postêpujê i podobne bzdury... Rozci¹³em jej brzuch. Jej krew by³a œwie¿a, jednak na d³oniach mia³em ju¿ star¹ krew... i moje palce nagle przemieni³y siê w szpony. Psi ³eb wróci³ do ¿ycia - w jego oczach by³ bezmiar pustki. "Jaki ojciec, taki syn" - powiedzia³. Podczas snu by³em spokojny, a jednak od razu, gdy siê obudzi³em, zacz¹³em p³akaæ. Czy to s³aboœæ? Muszê j¹ wyeliminowaæ.
 
 14 Mirtul, 1367: Ceremonia zakoñczenia mojego szkolenia Zwiastuna Œmierci wydawa³a mi siê ma³o klimatyczna, jednak mój wystêp zaimponowa³ Ojcu. Po ceremonii wzi¹³ mnie na bok i powiedzia³ mi, ¿e jutro dowiem siê wszystkiego o jego planach, a ponadto odegram w nich wa¿n¹ rolê, o ile oczywiœcie jego wspólnicy mu na to pozwol¹. Zapewni³ mnie, ¿e to wielki plan, i nie zawiodê siê na nim. Zaintrygowa³ mnie.
 Cythandria równie¿ by³a zadowolona z mego pokazu, zaœ jej czas nie zosta³ zmarnowany. Gdy byliœmy ze sob¹ pierwszy raz, pamiêtam jak cieszy³em siê, ¿e spotka³em kogoœ, kogo nie odpycha³a moja bliskoœæ ze œmierci¹ i strachem, jednak dziœ doszed³em do wniosku, ¿e nasze pragnienia nie s¹ takie same: ona nie po¿¹da kontaktu ze œmierci¹, lecz tylko poœrednio ekscytuje siê ni¹. I nie jestem pewien, czy rzeczywiœcie czuje szczer¹ ¿¹dze krwi tak jak ja, czy tylko podnieca j¹ dreszczyk emocji. Obawiam siê, ¿e to drugie...
 
 15 Mirtul, 1367: Ojciec wreszcie odkry³ przede mn¹ swój sekret, który raczej brzmia³ dosyæ ¿a³oœnie, i nie by³ godny takiego ekscytowania siê. Ojciec znalaz³ w Kniei Otulisko jak¹œ star¹, nieznan¹ nikomu kopalnie nale¿¹c¹ do krasnoludzkiego klanu Orothiar, która jest nadal niezwykle bogata w ¿elazo tam, gdzie zosta³a zalana lata temu. Fiu! ¯elazo?! Mog³em oczekiwaæ czegoœ w tym stylu, jednak przy ca³ej tej ostro¿noœci i dyskrecji ojca spodziewa³em siê czegoœ cenniejszego. Gdzie w tym miejsce dla mnie i mojego sza³u krwi? Nie spêdzi³em tych d³ugich lat na treningu walki, by pomóc Ojcu przy prowadzeniu kopalni. Czujê potrzebê jakiegoœ wyzwania, moje umiejêtnoœci siê tutaj marnuj¹. Czekam wreszcie na moj¹ upragnion¹ rzeŸ.
 
-8 Flamerule, 1367: Dziœ Ojciec przedstawi³ mnie swym podw³adnym - Davaeornowi i Tranzigowi, którzy ju¿ odbyli podró¿ do ukrytej kopalni i potwierdzili to, ¿e mo¿na j¹ znów otworzyæ. 
+8 Flamerule, 1367: Dziœ Ojciec przedstawi³ mnie swym podw³adnym - Davaeornowi i Tranzigowi, którzy ju¿ odbyli podró¿ do ukrytej kopalni i potwierdzili to, ¿e mo¿na j¹ znów otworzyæ.
 Tego wieczoru na ulicy zaczepi³ mnie jakiœ oparszywia³y ¿ebrak bez imienia, który wepchn¹³ mi do r¹k ksiêgê, i powiedzia³, ¿e jeszcze wróci. Ksiêga by³a bardzo stara i zniszczona - traktowa³a o Czasie Niepokojów. Jednak coœ mi mówi, ¿e ten cz³owiek jest kimœ wiêcej ni¿ spitym lunatykiem, jakich wielu.
 
 9 Flamerule, 1367: Tej nocy sen by³ bardzo dziwny. Znów œwi¹tynia, jednak wszystkie kap³anki mia³y MOJ¥ twarz i trzyma³y identyczne sztylety z koœci. Spojrza³em na ofiarny o³tarz, jednak zamiast MNIE le¿¹cego na skalnej p³ycie, le¿a³a tam ta ksi¹¿ka, któr¹ otrzyma³em od ¿ebraka. Te¿ mia³em sztylet, i gdy wbi³em go w ksiêgê, zaczê³a z niej cienk¹ stru¿k¹ lecieæ krew. Ksiêga i krew zaczê³y zmieniaæ siê w jak¹œ dziwn¹, magiczn¹ energiê, która zaczê³a kr¹¿yæ w powietrzu... Po tym siê obudzi³em i czu³em dziwny uœcisk ch³odu na sercu. Sprawdzi³em co z ksiêg¹. Prawie wszystkie strony by³y zaplamione ciemnoczerwon¹ krwi¹ - jedyne które przetrwa³y, to te traktuj¹ce o Bhaalu, jego œmierci oraz jego potomstwie. Zastanawiam siê, co dok³adnie to mo¿e oznaczaæ.
@@ -989,7 +989,7 @@ Jeœli chodzi o bardziej prywatne rzeczy, coraz czêœciej myœlê o snach. Muszê w k
 
 20 Eleint, 1367: Wreszcie objawi³ siê ten cz³owiek, który da³ mi ksiêgê - tym razem bez przebrania. Nazywa siê Winski Perorate, i od razu potwierdzi³ moje domys³y - jestem jednym z Dzieci Bhalla. Twierdzi, ¿e jest jednym z Tropicieli œmierci, i potrafi to rozpoznaæ. Poœwiêci³ kilka ostatnich lat, by znaleŸæ jak najwiêcej potomków Boga Œmierci, jednak wed³ug niego jestem najbardziej obiecuj¹cy. Bêdê siê u niego uczy³. Oprócz tego powiedzia³ mi, ¿e nie mog³em wybraæ w³aœciwszej œcie¿ki ni¿ Zwiastun Œmierci. Powoli zaczyna mi siê to podobaæ.
 
-28 Eleint, 1367: Davaeorn wys³a³ Rieltarowi wiadomoœæ, informuj¹c go, ¿e kopalnie w kniei Otulisko zosta³y oczyszczone i mo¿na je wykorzystaæ. Ta rewelacja bardzo pomo¿e w przekonaniu Najwy¿szej Rady Tronu. Oprócz tego Rieltar za³o¿y³ bazê we Wrotach, w jakimœ szlacheckim pa³acyku - wszystko idzie bardzo dobrze. 
+28 Eleint, 1367: Davaeorn wys³a³ Rieltarowi wiadomoœæ, informuj¹c go, ¿e kopalnie w kniei Otulisko zosta³y oczyszczone i mo¿na je wykorzystaæ. Ta rewelacja bardzo pomo¿e w przekonaniu Najwy¿szej Rady Tronu. Oprócz tego Rieltar za³o¿y³ bazê we Wrotach, w jakimœ szlacheckim pa³acyku - wszystko idzie bardzo dobrze.
 
 19 Marpenoth, 1367: Rada ¯elaznego Tronu zgodzi³a siê wesprzeæ plan Rieltara. Otrzyma on wszelk¹ potrzebn¹ pomoc i oczywiœcie zostanie przywódc¹ w zakresie tego planu. Wyrazi³em swe zainteresowanie i mój "ojciec" obieca³ w³¹czyæ mnie do dzia³añ tocz¹cych siê wzd³u¿ Wybrze¿a Mieczy. Wspomnia³ w rozmowie o matce - stwierdzi³, ¿e nie mogê byæ mu tak niewierny jak ona. Jego groŸby s¹ nêdzne i p³askie; na szczêœcie ju¿ wkrótce nie bêdê ich wys³uchiwa³. Da³ mi jasno do zrozumienia, ¿e jeœli coœ takiego siê zdarzy, podzielê jej los. Zdecydowa³em siê w koñcu odwiedziæ Candlekeep. S¹ rzeczy dotycz¹ce mojego pochodzenia, o których Winski nic nie wiedzia³, jednak najbardziej pomog³a mi przepowiednia Alaundo.
 
@@ -997,9 +997,9 @@ Jeœli chodzi o bardziej prywatne rzeczy, coraz czêœciej myœlê o snach. Muszê w k
 
 3 Uktar, 1367: Tej nocy mia³em sen. Mówi³a do mnie matka, ale jej twarz by³a napuchniêta i blada. Z ka¿dym s³owem jej g³os by³ coraz s³abszy. Prosi³a mnie, bym uratowa³ j¹ przed Rieltarem. Widzia³em garotê przecinaj¹c¹ jej szyjê, ale nic nie zrobi³em. To by³ tylko sen.
 
-8 Uktar, 1367: Dziœ wróci³em do nowo powsta³ej kwatery we Wrotach i spotka³em siê z Rieltarem. Ten g³upiec wci¹¿ upiera siê przy nazywaniu mnie synem, na co na razie mu pozwalam. Pewnie uwa¿a, ¿e jestem lojalny, gdy¿ mnie wychowa³. Có¿... bêdê lojalny na tyle d³ugo, na ile bêdzie przydatny. Da³ mi pe³n¹ kontrolê nad operacjami najemników, zaœ sam zaj¹³ siê dogl¹daniem kopalni i planowaniem jakiejœ intrygi, w której u¿yje sobowtórniaków. 
+8 Uktar, 1367: Dziœ wróci³em do nowo powsta³ej kwatery we Wrotach i spotka³em siê z Rieltarem. Ten g³upiec wci¹¿ upiera siê przy nazywaniu mnie synem, na co na razie mu pozwalam. Pewnie uwa¿a, ¿e jestem lojalny, gdy¿ mnie wychowa³. Có¿... bêdê lojalny na tyle d³ugo, na ile bêdzie przydatny. Da³ mi pe³n¹ kontrolê nad operacjami najemników, zaœ sam zaj¹³ siê dogl¹daniem kopalni i planowaniem jakiejœ intrygi, w której u¿yje sobowtórniaków.
 
-9 Uktar, 1367: Winski, tak samo jak ja, nie marnowa³ czasu i dziœ pokaza³ mi, gdzie znajduje siê niewielka sekta Cyrika, która od wielu lat zajmuje siê zbieraniem informacji o Bhaalu i, w szczególnoœci, o jego potomkach. NajwyraŸniej Cyric jest bardzo zainteresowany potomstwem swego martwego wroga, gdy¿ dziêki niemu móg³by jeszcze bardziej zwiêkszyæ sw¹ moc. Winski chcia³ porwaæ jednego lub kilku ich przywódców i wszystkiego dowiedzieæ siê od nich, jednak powiedzia³em, ¿e powinniœmy mierzyæ wy¿ej i zagarn¹æ ich wszystkich. Jednak to wymaga wiêcej ni¿ dwóch ludzi, dlatego powoli zaczynam selekcjonowanie swych wyznawców. Moje pochodzenie na razie nie mo¿e wyjœæ na jaw, szczególnie przed Rieltarem - to czas, gdy Syn Mordu zbierze Akolitów, na jakich zas³uguje. 
+9 Uktar, 1367: Winski, tak samo jak ja, nie marnowa³ czasu i dziœ pokaza³ mi, gdzie znajduje siê niewielka sekta Cyrika, która od wielu lat zajmuje siê zbieraniem informacji o Bhaalu i, w szczególnoœci, o jego potomkach. NajwyraŸniej Cyric jest bardzo zainteresowany potomstwem swego martwego wroga, gdy¿ dziêki niemu móg³by jeszcze bardziej zwiêkszyæ sw¹ moc. Winski chcia³ porwaæ jednego lub kilku ich przywódców i wszystkiego dowiedzieæ siê od nich, jednak powiedzia³em, ¿e powinniœmy mierzyæ wy¿ej i zagarn¹æ ich wszystkich. Jednak to wymaga wiêcej ni¿ dwóch ludzi, dlatego powoli zaczynam selekcjonowanie swych wyznawców. Moje pochodzenie na razie nie mo¿e wyjœæ na jaw, szczególnie przed Rieltarem - to czas, gdy Syn Mordu zbierze Akolitów, na jakich zas³uguje.
 
 14 Uktar, 1367: Cythandria zareagowa³a na to, co powiedzia³em o moim pochodzeniu dok³adnie tak, jak oczekiwa³em. Od razu widzia³a siebie jako królow¹ czy bóstwo, zasiadaj¹c¹ po prawicy Pana Mordu. Po kilku minutach rozmyœlania nad tym, by³a gotowa zap³aciæ ka¿d¹ cenê za to, by byæ dalej u mego boku. Tolerujê to... na razie. PóŸniej bêdzie czas na korekty.
 
@@ -1007,52 +1007,52 @@ Uczta Ksiê¿yca, 1367: S³udzy Cyrika s¹ nasi i ju¿ zaczêliœmy wydobywaæ od nich w
 
 17 Nightal, 1367: Mulahey zainstalowa³ siê w kopalniach Nashkel, a jego koboldy zaczê³y zanieczyszczaæ rudê ¿elaza. Jedynie kilku niewolników zajmuje siê wydobywaniem rudy z kopalni w kniei Otulisko, choæ jak zaczn¹ siê napady bandytów, bêdê móg³ wysy³aæ Davaeornowi wiêksz¹ ich iloœæ. Chcia³bym przeci¹gn¹æ Davaeorna na stronê mego ma³ego kultu, w koñcu dowiedzia³em siê, ¿e w tajemnicy wci¹¿ czci mego ojca. Niestety to bêdzie trudne - nie ufa mi, chocia¿ powoli zacz¹³em rozpowiadaæ to, kim jestem naprawdê.
 
-29 Nightal, 1367: Tamoko wykaza³a zadziwiaj¹c¹ umiejêtnoœæ w przekonywaniu kilku z najbardziej opornych Wyznawców Cyrika. Sposób, w jaki zar¿nê³a jednego z m³odszych cz³onków, a potem wskrzesi³a go jako nieumar³ego i kaza³a mu zaatakowaæ jego œpi¹cych kompanów, by³ mi³y dla oczu. Nie ¿ebym potrzebowa³ wymówki, aby opuœciæ towarzystwo Cythandri: ta narzeka na zbyt wiele rzeczy. 
+29 Nightal, 1367: Tamoko wykaza³a zadziwiaj¹c¹ umiejêtnoœæ w przekonywaniu kilku z najbardziej opornych Wyznawców Cyrika. Sposób, w jaki zar¿nê³a jednego z m³odszych cz³onków, a potem wskrzesi³a go jako nieumar³ego i kaza³a mu zaatakowaæ jego œpi¹cych kompanów, by³ mi³y dla oczu. Nie ¿ebym potrzebowa³ wymówki, aby opuœciæ towarzystwo Cythandri: ta narzeka na zbyt wiele rzeczy.
 
 6 Hammer, 1368: P³omienna Piêœæ w koñcu zauwa¿y³a nasz¹ ma³¹ operacjê i rozes³a³a kilka ma³ych kontyngentów na Wybrze¿e Mieczy, aby spróbowaæ powstrzymaæ bandyckie napady. Rozka¿ê wszystkim ludziom, aby w wypadku z³apania powo³ywali siê na powi¹zania z Zhentarimami i zaopatrzê ich w niezbêdne szczegó³y, aby ich k³amstwa by³y bardziej przekonywuj¹ce. Jestem pewien, ¿e Zhentarimowie z Ciemnej Warowni nie bêd¹ zadowoleni, kiedy siê dowiedz¹, i¿ ktoœ podszywa siê pod ich imiê, ale nie mo¿emy pozwoliæ w³adzom z³apaæ naszego tropu. W miêdzyczasie uda³o nam siê przekabaciæ Angelo z P³omiennej Piêœci na nasz¹ stronê. Obecnie szkolê go w taktyce bitewnej: gdy tylko wszyscy zauwa¿¹ jego talent, z pewnoœci¹ awansuje - co zapewni nam wartoœciowego szpiega pod nosem Eltana.
 
-22 Hammer, 1368: Wiêcej odkryæ od sekciarzy Cyrika - po intensywnych badaniach w koñcu mamy kilka imion i liczb. Zastanawiam siê tak¿e, co jest takiego wa¿nego w Saradush? Wygl¹da na to, ¿e Bhaal sp³odzi³ dos³ownie setki potomków, wzd³u¿ ca³ego Fearunu, ale tylko dwudziestu z nich bêdzie mia³o prawdziwe znaczenie, a z nich tylko pi¹tka sprawi, ¿e nawet Niebiosa zadr¿¹ ze strachu. To bardzo obiecuj¹ce. Ale wygl¹da na to, ¿e g³ówny kap³an Cyrika wie równie wiele o "skarbie Goriona", co my. A niech to! I tak muszê znaleŸæ okazjê do dostania siê do Candlekeep. 
+22 Hammer, 1368: Wiêcej odkryæ od sekciarzy Cyrika - po intensywnych badaniach w koñcu mamy kilka imion i liczb. Zastanawiam siê tak¿e, co jest takiego wa¿nego w Saradush? Wygl¹da na to, ¿e Bhaal sp³odzi³ dos³ownie setki potomków, wzd³u¿ ca³ego Fearunu, ale tylko dwudziestu z nich bêdzie mia³o prawdziwe znaczenie, a z nich tylko pi¹tka sprawi, ¿e nawet Niebiosa zadr¿¹ ze strachu. To bardzo obiecuj¹ce. Ale wygl¹da na to, ¿e g³ówny kap³an Cyrika wie równie wiele o "skarbie Goriona", co my. A niech to! I tak muszê znaleŸæ okazjê do dostania siê do Candlekeep.
 
-14 Alturiak, 1368: Nareszcie jestem w Candlekeep. Mimo ¿e Winski by³ zbyt chory, aby opuszczaæ Wrota - radzê sobie. Pomagaj¹ mi tutejsi mnisi. Z tego, co przeczyta³em, wynika, i¿ rzeczywiœcie w moich ¿y³ach p³ynie krew Bhaala. Jego przepowiednie s¹ (oczywiœcie) niejednoznaczne, ale wydaje mi siê, ¿e je rozumiem. Przewidzia³ nadchodz¹c¹ œmieræ i rozsia³ sw¹ esencjê po œwiecie. Urodzone w wyniku tego dzieci nosz¹ œlad chaosu, posiadaj¹ potêgê i zapewne czuj¹ p³yn¹c¹ w ¿y³ach krew boga. Œmierci, do których doprowadz¹, obudz¹ ich ojca i pozwol¹ mu raz jeszcze powstaæ. Przepowiednie nie mówi³y tego wprost, ale mo¿na siê domyœliæ, ¿e zadane przez dzieci œmierci pozwol¹ im wznieœæ siê ku panteonowi. Tak wiêc mój ojciec jest bogiem morderstw i dowodem wartoœci bêdzie czyn odpowiadaj¹cy jego wizerunkowi. Wiem ju¿, co muszê uczyniæ. Spowodowaæ rzeŸ na iœcie bosk¹ skalê. 
+14 Alturiak, 1368: Nareszcie jestem w Candlekeep. Mimo ¿e Winski by³ zbyt chory, aby opuszczaæ Wrota - radzê sobie. Pomagaj¹ mi tutejsi mnisi. Z tego, co przeczyta³em, wynika, i¿ rzeczywiœcie w moich ¿y³ach p³ynie krew Bhaala. Jego przepowiednie s¹ (oczywiœcie) niejednoznaczne, ale wydaje mi siê, ¿e je rozumiem. Przewidzia³ nadchodz¹c¹ œmieræ i rozsia³ sw¹ esencjê po œwiecie. Urodzone w wyniku tego dzieci nosz¹ œlad chaosu, posiadaj¹ potêgê i zapewne czuj¹ p³yn¹c¹ w ¿y³ach krew boga. Œmierci, do których doprowadz¹, obudz¹ ich ojca i pozwol¹ mu raz jeszcze powstaæ. Przepowiednie nie mówi³y tego wprost, ale mo¿na siê domyœliæ, ¿e zadane przez dzieci œmierci pozwol¹ im wznieœæ siê ku panteonowi. Tak wiêc mój ojciec jest bogiem morderstw i dowodem wartoœci bêdzie czyn odpowiadaj¹cy jego wizerunkowi. Wiem ju¿, co muszê uczyniæ. Spowodowaæ rzeŸ na iœcie bosk¹ skalê.
 
-15 Alturiak, 1368: Winski by³ g³upcem. "Skarb Goriona" to nie ¿aden glif, ale raczej moja siostra o imieniu <CHARNAME>, kilka lat m³odsza ode mnie. I Gorion, mimo ¿e teraz stary, jest bez w¹tpienia tym samym cz³owiekiem ze œwi¹tyni, sprzed tych wielu lat. Jaka¿ to ironia, ¿e twarz, która towarzyszy³a mi we wspomnieniach przez wiêkszoœæ mego ¿ycia, nale¿a³a do jakiegoœ parszywego mnicha mieszkaj¹cego niedaleko mnie. I gdy nie mam ju¿ nic do udowadniania, wierzê, ¿e <CHARNAME> by³a tym samym wrzeszcz¹cym niemowlakiem na o³tarzu. I TA ma³olata ma mieæ monumentalny wp³yw na MOJE przeznaczenie? To jest œmieszne. Nie przygl¹da³em siê jej zbyt mocno, ale <CHARNAME> wygl¹da na nic wiêcej ni¿ nieszkodliw¹ ignorantkê, bez ¿adnego treningu. Ciê¿ko poj¹æ bogów. Niepokoi mnie ten Gorion. Chyba zainteresowa³ siê moimi badaniami. Muszê pracowaæ w jeszcze wiêkszej tajemnicy. 
+15 Alturiak, 1368: Winski by³ g³upcem. "Skarb Goriona" to nie ¿aden glif, ale raczej moja siostra o imieniu <CHARNAME>, kilka lat m³odsza ode mnie. I Gorion, mimo ¿e teraz stary, jest bez w¹tpienia tym samym cz³owiekiem ze œwi¹tyni, sprzed tych wielu lat. Jaka¿ to ironia, ¿e twarz, która towarzyszy³a mi we wspomnieniach przez wiêkszoœæ mego ¿ycia, nale¿a³a do jakiegoœ parszywego mnicha mieszkaj¹cego niedaleko mnie. I gdy nie mam ju¿ nic do udowadniania, wierzê, ¿e <CHARNAME> by³a tym samym wrzeszcz¹cym niemowlakiem na o³tarzu. I TA ma³olata ma mieæ monumentalny wp³yw na MOJE przeznaczenie? To jest œmieszne. Nie przygl¹da³em siê jej zbyt mocno, ale <CHARNAME> wygl¹da na nic wiêcej ni¿ nieszkodliw¹ ignorantkê, bez ¿adnego treningu. Ciê¿ko poj¹æ bogów. Niepokoi mnie ten Gorion. Chyba zainteresowa³ siê moimi badaniami. Muszê pracowaæ w jeszcze wiêkszej tajemnicy.
 
 16 Alturiak, 1368: Opuszczam ju¿ Candlekeep - ani chwili za wczeœnie, jestem bowiem pewien, ¿e Gorion odkry³ moje dziedzictwo. Jeszcze jednej rzeczy jestem teraz pewien: <CHARNAME> równie¿ jest dzieckiem Bhaala. Wskazuj¹ na to wszystkie znaki, a ponadto fakt ten wyjaœni³by zainteresowanie Goriona moimi studiami. Có¿, teraz nic nie mogê uczyniæ, muszê jednak postaraæ siê wróciæ i zabiæ bachora. G³upot¹ by³oby pozwoliæ ¿yæ rodzeñstwu - szczególnie temu, którym interesuj¹ siê Harfiarze (jestem pewien, ¿e w³aœnie z nimi zwi¹zany jest Gorion). Spodziewam siê, ¿e moc Bhaala bêdzie rozdzielana wœród dzieci, które prze¿yj¹, a wiêc muszê siê upewniæ, ¿e pozostanê sam na placu boju. Jeœli mam odziedziczyæ Tron Bhaala, chcê go mieæ tylko dla siebie.
 
-19 Alturiak, 1368: Ostatni z naszego ma³ego kultu Cyrika zmar³, ale myœlê, ¿e wyci¹gnêliœmy z nich ju¿ wszystko, co u¿yteczne. Winski podziela moj¹ opiniê o <CHARNAME> w tym, ¿e œmieræ dziecka jest ju¿ pewna, ale doradza mi poczekaæ, dopóki nie dowie siê, jak¹ szczególn¹ rolê ma pe³niæ "wychowanek Goriona". Bardzo dobrze, obecnie mogê sobie pozwoliæ na chwilê zw³oki. W sekrecie sprawi³em sobie œwietny pancerz i miecz, godne nastêpnego Pana Mordu, i od³o¿y³em wszystkie dzia³ania, dopóki zbroi nie przywdziejê. 
+19 Alturiak, 1368: Ostatni z naszego ma³ego kultu Cyrika zmar³, ale myœlê, ¿e wyci¹gnêliœmy z nich ju¿ wszystko, co u¿yteczne. Winski podziela moj¹ opiniê o <CHARNAME> w tym, ¿e œmieræ dziecka jest ju¿ pewna, ale doradza mi poczekaæ, dopóki nie dowie siê, jak¹ szczególn¹ rolê ma pe³niæ "wychowanek Goriona". Bardzo dobrze, obecnie mogê sobie pozwoliæ na chwilê zw³oki. W sekrecie sprawi³em sobie œwietny pancerz i miecz, godne nastêpnego Pana Mordu, i od³o¿y³em wszystkie dzia³ania, dopóki zbroi nie przywdziejê.
 
-17 Ches, 1368: Wszystko zmierza w dobrym kierunku. Ruda z Nashkel straci³a na jakoœci, a moi najemnicy œwietnie daj¹ sobie radê z rozbijaniem karawan wioz¹cych ¿elazo do Wrót Baldura. Z³apano kilku moich podw³adnych, ale i tak wiêkszoœæ uwa¿a, ¿e pracuj¹ oni dla Zhentarimów, wiêc na ¯elazny Tron nie powinny spaœæ ¿adne k³opoty. W najbli¿szym czasie bêdê musia³ uwa¿aæ na ich agentów. 
-Jestem trochê zawiedziony na Rieltarze: postrzega to wszystko tylko jako kolejn¹ drogê do wzbogacenia siê i podniesienia swego statusu w ¯elaznym Tronie. Ba! Kto siê przejmuje marnymi intrygami w ¿a³osnej organizacji kupieckiej, kiedy jeden mo¿e kontrolowaæ armie ca³ych nacji? A co tam. Jego œlepota dzia³a na moj¹ korzyœæ. 
+17 Ches, 1368: Wszystko zmierza w dobrym kierunku. Ruda z Nashkel straci³a na jakoœci, a moi najemnicy œwietnie daj¹ sobie radê z rozbijaniem karawan wioz¹cych ¿elazo do Wrót Baldura. Z³apano kilku moich podw³adnych, ale i tak wiêkszoœæ uwa¿a, ¿e pracuj¹ oni dla Zhentarimów, wiêc na ¯elazny Tron nie powinny spaœæ ¿adne k³opoty. W najbli¿szym czasie bêdê musia³ uwa¿aæ na ich agentów.
+Jestem trochê zawiedziony na Rieltarze: postrzega to wszystko tylko jako kolejn¹ drogê do wzbogacenia siê i podniesienia swego statusu w ¯elaznym Tronie. Ba! Kto siê przejmuje marnymi intrygami w ¿a³osnej organizacji kupieckiej, kiedy jeden mo¿e kontrolowaæ armie ca³ych nacji? A co tam. Jego œlepota dzia³a na moj¹ korzyœæ.
 
-25 Tarsakh, 1368: Zbroja jest gotowa, i wspaniale dope³nia mój wizerunek Zwiastuna Œmierci i dziedzica po Panie Mordu. Muszê pogratulowaæ Winskiemu za pomoc przy tworzeniu, zw³aszcza za dodatkowe umagicznienia aktywowane tylko przez obecnoœæ esencji Bhaala. Miecz powinien byæ ukoñczony za dzieñ lub dwa, ale wygl¹da na to, ¿e powinienem zabiæ moje pierwsze rodzeñstwo go³ymi rêkami. ¯egnaj, Colinie de'Graage. Nie jesteœ jednym z dwudziestki; Alaundo nigdy nie wspomnia³ o tobie, i ja te¿. 
+25 Tarsakh, 1368: Zbroja jest gotowa, i wspaniale dope³nia mój wizerunek Zwiastuna Œmierci i dziedzica po Panie Mordu. Muszê pogratulowaæ Winskiemu za pomoc przy tworzeniu, zw³aszcza za dodatkowe umagicznienia aktywowane tylko przez obecnoœæ esencji Bhaala. Miecz powinien byæ ukoñczony za dzieñ lub dwa, ale wygl¹da na to, ¿e powinienem zabiæ moje pierwsze rodzeñstwo go³ymi rêkami. ¯egnaj, Colinie de'Graage. Nie jesteœ jednym z dwudziestki; Alaundo nigdy nie wspomnia³ o tobie, i ja te¿.
 
 28 Tarsakh, 1368: Miecz Chaosu jest wspania³y. Chyba w koñcu nadszed³ moment za³atwienia sprawy z tym starym g³upcem Gorionem i ma³ym bachorem. Muszê poinformowaæ mych podw³adnych, ¿e nie bêdzie mnie przez najbli¿sze kilka tygodni. Cythandria by³a wœciek³a, kiedy siê dowiedzia³a, ¿e biorê Tamoko zamiast jej. Mo¿e to zmotywuje j¹ do wspierania mnie w innych sferach ¿ycia ni¿ sypialnia.
 
-2 Mirtul, 1368: Moja d³ugo odk³adana zemsta na tym pokrêconym starcu wreszcie siê dope³ni³a. W sumie, to zabi³em go trochê za szybko; chcia³em mieæ doœæ czasu, aby spojrzeæ w jego umieraj¹ce oczy i przypomnieæ mu, gdzie spotka³ mnie wczeœniej. A co tam, to nie ma znaczenia. Ich zachowania nie mo¿na by³o okreœliæ inaczej ni¿ idiotyzm - on i jego g³upawy bachor uciekali z Candlekeep pod os³on¹ nocy, nie maj¹c nic wiêcej prócz paru zawini¹tek. Agenci Semaja wystraszyli ich i wprowadzili prosto w zasadzkê. Niestety, bachor mi uciek³ - bieg³ jak jakiœ królik po tym, jak Tamoko pokaza³a jej prawdziw¹ magiê. Mog³em jej rozkazaæ, by j¹ goni³a, jednak w koñcu da³em sobie spokój. Spodziewam siê, ¿e <CHARNAME> nie przetrwa kilku dni i nocy bez swego starego g³upca. I taki bêdzie zas³u¿ony koniec dla "skarbu" kogoœ, kto uwa¿a³ mnie za mniej wa¿nego od jakiejœ becz¹cej sieroty. Wracam do Wrót i zrobiê listê braci i sióstr, którzy s¹ warci œmierci z mojej rêki. Jednak dla spokoju ducha skontaktowa³em siê z ma³¹ sieci¹ Semaja i doda³em imiê <CHARNAME> do tych, których œmieræ bêdzie nagrodzona. Mo¿liwe, ¿e ktoœ siê skusi na parê groszy i dokoñczy to, czego ja nie zrobi³em. 
+2 Mirtul, 1368: Moja d³ugo odk³adana zemsta na tym pokrêconym starcu wreszcie siê dope³ni³a. W sumie, to zabi³em go trochê za szybko; chcia³em mieæ doœæ czasu, aby spojrzeæ w jego umieraj¹ce oczy i przypomnieæ mu, gdzie spotka³ mnie wczeœniej. A co tam, to nie ma znaczenia. Ich zachowania nie mo¿na by³o okreœliæ inaczej ni¿ idiotyzm - on i jego g³upawy bachor uciekali z Candlekeep pod os³on¹ nocy, nie maj¹c nic wiêcej prócz paru zawini¹tek. Agenci Semaja wystraszyli ich i wprowadzili prosto w zasadzkê. Niestety, bachor mi uciek³ - bieg³ jak jakiœ królik po tym, jak Tamoko pokaza³a jej prawdziw¹ magiê. Mog³em jej rozkazaæ, by j¹ goni³a, jednak w koñcu da³em sobie spokój. Spodziewam siê, ¿e <CHARNAME> nie przetrwa kilku dni i nocy bez swego starego g³upca. I taki bêdzie zas³u¿ony koniec dla "skarbu" kogoœ, kto uwa¿a³ mnie za mniej wa¿nego od jakiejœ becz¹cej sieroty. Wracam do Wrót i zrobiê listê braci i sióstr, którzy s¹ warci œmierci z mojej rêki. Jednak dla spokoju ducha skontaktowa³em siê z ma³¹ sieci¹ Semaja i doda³em imiê <CHARNAME> do tych, których œmieræ bêdzie nagrodzona. Mo¿liwe, ¿e ktoœ siê skusi na parê groszy i dokoñczy to, czego ja nie zrobi³em.
 
-9 Mirtul, 1368: Proszê, proszê! <CHARNAME> nie tylko NIE zosta³a zjedzona przez gibberlingi, jak siê spodziewa³em, ale tak¿e przetrwa³a dwa zamachy ³owców nagród Semaja, zorganizowa³a grupê poszukiwaczy przygód i bezpiecznie spotka³a siê z burmistrzem Nashkel! Jest oczywiste, ¿e ta ma³a wojenna dru¿yna szuka sposobu na przeszkodzenie naszej dzia³alnoœci w kopalniach! Na szczêœcie, Tazok i Tranzig zostali dobrze przygotowani na tego typu... "incydenty", i doskonale wiedz¹, co maj¹ robiæ. 
+9 Mirtul, 1368: Proszê, proszê! <CHARNAME> nie tylko NIE zosta³a zjedzona przez gibberlingi, jak siê spodziewa³em, ale tak¿e przetrwa³a dwa zamachy ³owców nagród Semaja, zorganizowa³a grupê poszukiwaczy przygód i bezpiecznie spotka³a siê z burmistrzem Nashkel! Jest oczywiste, ¿e ta ma³a wojenna dru¿yna szuka sposobu na przeszkodzenie naszej dzia³alnoœci w kopalniach! Na szczêœcie, Tazok i Tranzig zostali dobrze przygotowani na tego typu... "incydenty", i doskonale wiedz¹, co maj¹ robiæ.
 
 15 Mirtul, 1368: Strata Nashkel by³a szokuj¹cym ciosem, ale nadal jesteœmy silni. Na specjalnym spotkaniu uradziliœmy, ¿e najlepszym rozwi¹zaniem bêdzie wys³anie jeszcze kilku ludzi, by dalej zatruwali rudê. Nawet nie zawsze musz¹ pracowaæ w kopalni, by móc zanieczyœciæ rudê. Zasugerowa³em, ¿e mo¿na by to czyniæ podczas transportu: nasi ludzie mogliby tam pracowaæ jako woŸnice czy stra¿nicy karawan, i z ³atwoœci¹ mogliby zaj¹æ siê towarem, szczególnie podczas symulowanych ataków Czarnych Szponów. Po krótkiej debacie nawet Davaeorn zosta³ przekonany. Najlepsze jest to, ¿e nawet jeœli zatrujemy TROCHÊ rudy z Nashkel, to ludzie bêd¹ dalej wierzyæ, ¿e ¿elazo jest zanieczyszczone, i nie bêd¹ go chcieli u¿ywaæ! Mo¿e nawet ktoœ pomyœli, ¿e Amnijczycy wymyœlili sobie tê dru¿ynê poszukiwaczy, by oszukaæ Wrota i sprzedawaæ z³e ¿elazo. Jutro wspomnê o tym Rieltarowi. Poza tym, martwi mnie to, ¿e <CHARNAME>, pomimo prób zamachów i wielu przeciwnoœci wci¹¿ ¿yje. Najpierw porozmawiam o tym z Winskim, póŸniej zacznê dzia³aæ. Bêdê musia³ siê tym zaj¹æ osobiœcie.
 
-24 Mirtul, 1368: Niech to ogieñ piekielny! Nie mogê uwierzyæ, ¿e mimo wszystkich trudnoœci nic nie mo¿e ich zatrzymaæ. Przez zniszczenie obozu Tazoka, muszê wystawiæ now¹ bazê wypadow¹ i nadzorowaæ to osobiœcie. Muszê przestaæ ufaæ wszelkim g³upcom i niedojdom. Rieltar i Davaeorn zgodzili siê, poniewa¿ mój nowy pancerz uniemo¿liwia rozpoznanie, a co wa¿niejsze - nawet przy zdemaskowaniu nie naprowadzi³bym nikogo na ¯elazny Tron. A niech to! Poza strat¹ ludzi, stracê wiele cennego czasu, a ponadto muszê skupiæ przy sobie wszystkich najemników i zabójców, którzy mieli za zadanie zabiæ mojego rywala. Sytuacja siê komplikuje, <CHARNAME> ju¿ wie za du¿o. Przynajmniej jej nastêpny ruch jest ju¿ przewidziany; Davaeorn i za³oga zebrana przez Rieltara ju¿ wyruszy³a, aby broniæ kopalni. A wiêc niech <CHARNAME> pod¹¿a za œladami. Niech SPRÓBUJ¥ przeprawiæ siê przez Kniejê Otulisko, i wszyscy mog¹ polec. Osobiœcie niewiele mnie to obchodzi, czy znajd¹ kopalnie, czy nie; w koñcu to zarówno ludzie Rieltara i Davaeorna, nie moi. Muszê wykorzystaæ ten czas na zebranie zdziesi¹tkowanych najemników i sprawiæ, by znów przypominali armiê. 
+24 Mirtul, 1368: Niech to ogieñ piekielny! Nie mogê uwierzyæ, ¿e mimo wszystkich trudnoœci nic nie mo¿e ich zatrzymaæ. Przez zniszczenie obozu Tazoka, muszê wystawiæ now¹ bazê wypadow¹ i nadzorowaæ to osobiœcie. Muszê przestaæ ufaæ wszelkim g³upcom i niedojdom. Rieltar i Davaeorn zgodzili siê, poniewa¿ mój nowy pancerz uniemo¿liwia rozpoznanie, a co wa¿niejsze - nawet przy zdemaskowaniu nie naprowadzi³bym nikogo na ¯elazny Tron. A niech to! Poza strat¹ ludzi, stracê wiele cennego czasu, a ponadto muszê skupiæ przy sobie wszystkich najemników i zabójców, którzy mieli za zadanie zabiæ mojego rywala. Sytuacja siê komplikuje, <CHARNAME> ju¿ wie za du¿o. Przynajmniej jej nastêpny ruch jest ju¿ przewidziany; Davaeorn i za³oga zebrana przez Rieltara ju¿ wyruszy³a, aby broniæ kopalni. A wiêc niech <CHARNAME> pod¹¿a za œladami. Niech SPRÓBUJ¥ przeprawiæ siê przez Kniejê Otulisko, i wszyscy mog¹ polec. Osobiœcie niewiele mnie to obchodzi, czy znajd¹ kopalnie, czy nie; w koñcu to zarówno ludzie Rieltara i Davaeorna, nie moi. Muszê wykorzystaæ ten czas na zebranie zdziesi¹tkowanych najemników i sprawiæ, by znów przypominali armiê.
 
-9 Kythorn, 1368: Z powrotem we Wrotach Baldura, szkoda, ¿e na krótko - zreszt¹ tego siê spodziewa³em. O tym, co siê sta³o w Kniei, wyczyta³em ju¿ na twarzy zrozpaczonego Rieltara. Muszê przyznaæ, ¿e nie wszystko posz³o jak zaplanowaliœmy, ale ci¹gle mo¿na to zmieniæ na nasz¹ korzyœæ. Jak? Proste - w¹tpiê, by <CHARNAME> nagle oczyœci³a ca³¹ kopalniê rudy i gdzieœ j¹ wywioz³a, co oznacza, ¿e w kopalni czeka jeszcze masa ¿elaza czekaj¹cego na barki, które je wezm¹ - czyli tak, jak planowaliœmy. Teraz wystarczy odrobina manipulacji opini¹ publiczn¹ - wrobiæ <CHARNAME> w kryzys z ¿elazem - jak na razie muszê jeszcze dbaæ o interesy ¯elaznego Tronu... Jeszcze. Przygotowa³em Zhalimara i jego grupê do pilnowania mojej w³asnoœci. Czekam na <CHARNAME> i jej nastêpny i ostatni krok przeciw mnie. 
+9 Kythorn, 1368: Z powrotem we Wrotach Baldura, szkoda, ¿e na krótko - zreszt¹ tego siê spodziewa³em. O tym, co siê sta³o w Kniei, wyczyta³em ju¿ na twarzy zrozpaczonego Rieltara. Muszê przyznaæ, ¿e nie wszystko posz³o jak zaplanowaliœmy, ale ci¹gle mo¿na to zmieniæ na nasz¹ korzyœæ. Jak? Proste - w¹tpiê, by <CHARNAME> nagle oczyœci³a ca³¹ kopalniê rudy i gdzieœ j¹ wywioz³a, co oznacza, ¿e w kopalni czeka jeszcze masa ¿elaza czekaj¹cego na barki, które je wezm¹ - czyli tak, jak planowaliœmy. Teraz wystarczy odrobina manipulacji opini¹ publiczn¹ - wrobiæ <CHARNAME> w kryzys z ¿elazem - jak na razie muszê jeszcze dbaæ o interesy ¯elaznego Tronu... Jeszcze. Przygotowa³em Zhalimara i jego grupê do pilnowania mojej w³asnoœci. Czekam na <CHARNAME> i jej nastêpny i ostatni krok przeciw mnie.
 
 12 Kythorn, 1368: <CHARNAME> w koñcu dotar³a do Wrót Baldura, i zaprzyjaŸni³a siê ze Scarem, ale nie wykona³a jeszcze bezpoœredniego ruchu przeciw ¯elaznemu Tronowi. Z tonu listu widaæ, ¿e Rieltar jest na skraju paniki i spodziewa siê zabójców, którzy zaskocz¹ go w pi¿amie w ka¿dej chwili. Chce, abym migiem wróci³ do miasta, wspominaj¹c coœ o spotkaniu. Chce, abym by³ obecny w sekretnym pomieszczeniu. Coœ mi mówi, ¿e ten tchórz tylko szuka pretekstu, aby byæ jak najdalej od ³ap <CHARNAME>. Na szczêœcie, Tazok jest ju¿ wyleczony i w pe³ni si³, wiêc mo¿e wracaæ do s³u¿by.
 
-14 Kythorn, 1368: Wiedzia³em o pacyfistycznych tendencjach Rieltara, ale nigdy bym siê nie spodziewa³, ¿e zaaran¿uje spotkanie z Rycerzami Tarczy, aby ZAPOBIEC wojnie, która mog³a byæ dla nas tak zyskowna. Muszê zainterweniowaæ. Dlatego "poinformowa³em" Rieltara, ¿e dru¿yna <CHARNAME> zosta³a rozbita, i zast¹piona sobowtórniakami. Kiedy oni nagle wparuj¹ na spotkanie, paniczne reakcje Rieltara z pewnoœci¹ doprowadz¹ do krwawego koñca. Na szczêœcie, sekta Cyrika wygrzeba³a kilka starych tekstów, które wystarcz¹, aby wejœæ do Candlekeep, a Winski i Semaj ju¿ skopiowali wszystko, co istotne. 
+14 Kythorn, 1368: Wiedzia³em o pacyfistycznych tendencjach Rieltara, ale nigdy bym siê nie spodziewa³, ¿e zaaran¿uje spotkanie z Rycerzami Tarczy, aby ZAPOBIEC wojnie, która mog³a byæ dla nas tak zyskowna. Muszê zainterweniowaæ. Dlatego "poinformowa³em" Rieltara, ¿e dru¿yna <CHARNAME> zosta³a rozbita, i zast¹piona sobowtórniakami. Kiedy oni nagle wparuj¹ na spotkanie, paniczne reakcje Rieltara z pewnoœci¹ doprowadz¹ do krwawego koñca. Na szczêœcie, sekta Cyrika wygrzeba³a kilka starych tekstów, które wystarcz¹, aby wejœæ do Candlekeep, a Winski i Semaj ju¿ skopiowali wszystko, co istotne.
 
 19 Kythorn, 1368: Nie mam czasu, by pisaæ, ale nie powinienem tak zaniedbywaæ mego pamiêtnika. Przysz³oœæ musi poznaæ, jak Pan Mordu narodzi³ siê na nowo. Jeœli czas pozwoli, najmê skrybê. <CHARNAME> kieruje siê do Wrót Baldura. Jeœli zdo³am zwabiæ bachora do Candlekeep, to bêdê mia³ œwietnego koz³a ofiarnego. Mój "ojciec" spotyka siê tam z Rycerzami Tarczy. I utr¹ca wszystkie moje starania maj¹ce na celu wzrost wrogoœci miêdzy Amnem i Wrotami Baldura. Muszê uwolniæ siê od niego i od jego sprzymierzeñców, a potem przej¹æ kontrolê nad ¯elaznym Tronem. Nie mog¹ pozwoliæ, by ma³ostkowe interesy i pragnienie bogactwa pokrzy¿owa³y moje plany. Przykro mi, "ojcze", ale wzywa mnie zew mej prawdziwej krwi. Muszê dok³adnie poinstruowaæ sobowtórniaki, jak maj¹ zabiæ Rieltara. Garota doskonale do tego siê nada.
 
-21 Kythorn, 1368: Na szczycie œwiata. Thaldorn, Rieltar i Brunos s¹ martwi, <CHARNAME> w wiêzieniu za ich zabicie, i mam ca³kowity dostêp do œrodków ¯elaznego Tronu, praktycznie ca³e miasto jest pod mymi stopami, i wszystko idzie tak, jak Alaundo przepowiedzia³. Zaanonsowa³em moje intencje finansowego wsparcia wszystkiego zwi¹zanego z produkcj¹ wojenn¹, i teraz, gdy Srebrna Tarcza nie stoi ju¿ na przeszkodzie, plotki o mojej elekcji na Wielkiego Ksiêcia zaczynaj¹ rozchodziæ siê wœród plebsu. Jedyna skaza dnia to to, ¿e komunikat który wys³a³em do Zhalimara nie dotar³ do niego na czas, co pozbawi³o mnie szeœciu moich najlepszych najemników. Ju¿ odpowiednio potraktowa³em goñca, i mo¿e bêdê móg³ przygotowaæ egzekucjê <CHARNAME> osobiœcie, zamykaj¹c tym samym kr¹g zemsty.~ 
+21 Kythorn, 1368: Na szczycie œwiata. Thaldorn, Rieltar i Brunos s¹ martwi, <CHARNAME> w wiêzieniu za ich zabicie, i mam ca³kowity dostêp do œrodków ¯elaznego Tronu, praktycznie ca³e miasto jest pod mymi stopami, i wszystko idzie tak, jak Alaundo przepowiedzia³. Zaanonsowa³em moje intencje finansowego wsparcia wszystkiego zwi¹zanego z produkcj¹ wojenn¹, i teraz, gdy Srebrna Tarcza nie stoi ju¿ na przeszkodzie, plotki o mojej elekcji na Wielkiego Ksiêcia zaczynaj¹ rozchodziæ siê wœród plebsu. Jedyna skaza dnia to to, ¿e komunikat który wys³a³em do Zhalimara nie dotar³ do niego na czas, co pozbawi³o mnie szeœciu moich najlepszych najemników. Ju¿ odpowiednio potraktowa³em goñca, i mo¿e bêdê móg³ przygotowaæ egzekucjê <CHARNAME> osobiœcie, zamykaj¹c tym samym kr¹g zemsty.~
 
 
 
 @624  = ~Gospoda "Pod Pomocn¹ D³oni¹"~
 @629  = ~Amulet z Rashemen~
-@630  = ~Amulet Winski'ego Perorate 
+@630  = ~Amulet Winski'ego Perorate
 
-Zainteresowanie Winski'ego Perorate czeluœciami piekielnymi czêsto zmusza³o go do bliskoœci z istotami, które chêtnie dla samej rozrywki wywróci³yby jego flaki na druga stronê. Aby unikn¹æ takiego losu, Winski zleci³ nabassu stworzenie amuletu, który trzyma³by na dystans wszelkie z³e istoty na tyle, by móg³ swobodnie je kontrolowaæ. Niestety, Winski miewa³ doœæ powa¿ne problemy z pamiêci¹ i zapomnia³ aktywowaæ swój amulet. To pozwoli³o przyzwanemu Tanar'ri dostaæ go w swoje ³apy, co zakoñczy³o siê wedle oczekiwañ. 
+Zainteresowanie Winski'ego Perorate czeluœciami piekielnymi czêsto zmusza³o go do bliskoœci z istotami, które chêtnie dla samej rozrywki wywróci³yby jego flaki na druga stronê. Aby unikn¹æ takiego losu, Winski zleci³ nabassu stworzenie amuletu, który trzyma³by na dystans wszelkie z³e istoty na tyle, by móg³ swobodnie je kontrolowaæ. Niestety, Winski miewa³ doœæ powa¿ne problemy z pamiêci¹ i zapomnia³ aktywowaæ swój amulet. To pozwoli³o przyzwanemu Tanar'ri dostaæ go w swoje ³apy, co zakoñczy³o siê wedle oczekiwañ.
 
 PARAMETRY:
 
@@ -1131,7 +1131,7 @@ Nie mo¿e u¿ywaæ:
 @759 = ~[WYVERN 09]~ [%tutu_var%WYVER09]
 @760 = ~[WYVERN 10]~ [%tutu_var%WYVER10]
 @761 = ~Cudowne Rêkawice~
-@762 = ~Te inkrustowane szlachetnymi kamieniami rêkawice s¹ obdarzone moc¹, która pozwala na ulepszenie umiejêtnoœci ka¿dego barda. 
+@762 = ~Te inkrustowane szlachetnymi kamieniami rêkawice s¹ obdarzone moc¹, która pozwala na ulepszenie umiejêtnoœci ka¿dego barda.
 
 PARAMETRY:
 
@@ -1167,32 +1167,32 @@ Waga: 1~
 PARAMETRY:
 
 Specjalne:
-– Zamêt, trzy razy dziennie (rzut obronny przeciw czarom: neguje) 
+– Zamêt, trzy razy dziennie (rzut obronny przeciw czarom: neguje)
 Czas dzia³ania: 1 tura
 Obszar dzia³ania: wszyscy w zasiêgu s³uchu z wyj¹tkiem barda i jego dru¿yny
 
 Waga: 6~
 @768 = ~Harfa Azlaera~
-@769 = ~Na pokrêconym dworze Azlaera, w nocy, przy ka¿dej pe³ni ksiê¿yca odprawiano dziwny rytua³. W jego pa³acu znajdowa³ siê otwarty dziedziniec, z którego by³o widaæ niebo. Na owym dziedziñcu znajdowa³ siê du¿y staw pe³en miêso¿ernych rekinów. Dla zabawy, Azlaer zaprasza³ do siebie dobrze znanych mieszkañców pobliskich miast na wieczorn¹ kolacjê i rozrywki. Azrael gra³ na harfie, co pozbawia³o goœci strachu. Losowo wyznacza³ wtedy goœcia i kaza³ mu albo jej przejœæ przez wype³niony rekinami staw. Gdy by³ w wyj¹tkowo sadystycznym humorze, najpierw wlewa³ do stawu krew, co wprawia³o rekiny w sza³, który koñczy³ siê œmierci¹ biednego goœcia. 
+@769 = ~Na pokrêconym dworze Azlaera, w nocy, przy ka¿dej pe³ni ksiê¿yca odprawiano dziwny rytua³. W jego pa³acu znajdowa³ siê otwarty dziedziniec, z którego by³o widaæ niebo. Na owym dziedziñcu znajdowa³ siê du¿y staw pe³en miêso¿ernych rekinów. Dla zabawy, Azlaer zaprasza³ do siebie dobrze znanych mieszkañców pobliskich miast na wieczorn¹ kolacjê i rozrywki. Azrael gra³ na harfie, co pozbawia³o goœci strachu. Losowo wyznacza³ wtedy goœcia i kaza³ mu albo jej przejœæ przez wype³niony rekinami staw. Gdy by³ w wyj¹tkowo sadystycznym humorze, najpierw wlewa³ do stawu krew, co wprawia³o rekiny w sza³, który koñczy³ siê œmierci¹ biednego goœcia.
 Wyznawcy Helma w koñcu wyruszyli przeciwko Azlaerowi, zniszczyli jego posiad³oœæ, jego samego zabili, a harfê przeznaczyli do bardziej odpowiednich zadañ.
 
 PARAMETRY:
 
 Specjalne:
-– Prze³amanie strachu 
-Zasiêg: 8 m 
+– Prze³amanie strachu
+Zasiêg: 8 m
 Obszar dzia³ania: w promieniu 10 m
 
 Waga: 6~
 @770 = ~Harfa Methilda~
-@771 = ~W dolinie odleg³ej od najbardziej cywilizowanych ziem kiedyœ znajdowa³o siê maleñkie królestwo nazywane Chilldion. Pewnej zimy trójka z³ych wiedŸm przejê³a dolinê i uwiêzi³a rodzinê królewsk¹, rzucaj¹c na ni¹ zaklêcia unieruchomienia. Planowa³y one po kolei po¿reæ cz³onków rodziny. PóŸniej, tego wieczora, kiedy wiedŸmy by³y zmêczone zabijaniem niewinnych i bezczeszczeniem pa³acu, przyzwa³y nadwornego barda, aby im coœ zagra³. Methild, lojalny swemu królowi i jego rodzinie, u¿y³ specjalnych mocy zaklêtych w swej magicznej harfie. 
+@771 = ~W dolinie odleg³ej od najbardziej cywilizowanych ziem kiedyœ znajdowa³o siê maleñkie królestwo nazywane Chilldion. Pewnej zimy trójka z³ych wiedŸm przejê³a dolinê i uwiêzi³a rodzinê królewsk¹, rzucaj¹c na ni¹ zaklêcia unieruchomienia. Planowa³y one po kolei po¿reæ cz³onków rodziny. PóŸniej, tego wieczora, kiedy wiedŸmy by³y zmêczone zabijaniem niewinnych i bezczeszczeniem pa³acu, przyzwa³y nadwornego barda, aby im coœ zagra³. Methild, lojalny swemu królowi i jego rodzinie, u¿y³ specjalnych mocy zaklêtych w swej magicznej harfie.
 Gdy gra³, skupi³ siê najpierw na królu. Wraz z kolejnymi nutami, s³ab³o zaklêcie unieruchamiaj¹ce i szlachetny w³adca powoli wyczo³ga³ siê z pomieszczenia. Methild uwalnia³ swych patronów jednego po drugim, ostro¿nie staraj¹c siê odwracaæ uwagê wiedŸm. A¿ w koñcu, gdy ca³a rodzina zosta³a uwolniona, a bard nie by³ w stanie graæ dalej, wiedŸmy dostrzeg³y jego zdradê. Biedny Methild nie zdo³a³ uciec i zosta³ zjedzony na kolacjê.
 
 PARAMETRY:
 
 Specjalne:
-– Trzy razy dziennie harfa mo¿e rozproszyæ efekt unieruchomienia 
-Zasiêg: 8 m 
+– Trzy razy dziennie harfa mo¿e rozproszyæ efekt unieruchomienia
+Zasiêg: 8 m
 Obszar dzia³ania: 1 istota
 
 Waga: 6~

@@ -1,0 +1,31 @@
+// x#brint.tra @0, @1, @2, @3
+@0 = ~T'étais plus futée quand t'étais pétrifiée !~
+@1 = ~Arrête d'aboyer, espèce de roquet. Je suis venue te punir pour ta traîtrise et tes mensonges ! Tempus est avec moi !~
+@2 = ~Hé ma grosse, j'espérais que tu t'sois un peu déniaisée avant de revenir m'ennuyer. Mais j'vois que non. Tu crois que j'ai peur de toi et des autres pignoufs qui t'ont libérée de mon sortilège ?~
+@3 = ~Espèce de vache stupide. Si tu ne disparais pas d'ma vue dans les cinq secondes, je t'expédie dans l'autre monde !~
+
+// x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
+// BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 5
+@4  = ~Pauvre type, tu es dégoûtant... Tue-le, <CHARNAME>. Celui qui implore grâce n'a aucun honneur. Si tu le laisses partir, il ira voir Tazok et te trahira.~
+// BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 6
+@5  = ~Harpie !~
+// Shar-Teel - Tranzig
+// BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 67
+@6  = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. A moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
+// BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 68
+@7  = ~Garce !~
+// Jaheira - Tranzig
+// BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 63
+@8  = ~<CHARNAME>, nous ne devons pas laisser cette racaille s'enfuir, il va certainement aller informer ses supérieurs. Il serait préférable que nous puissions... empêcher cela... d'une manière ou d'une autre...~
+@9  = ~Non, je ne le ferai pas, je ne le ferai pas...~
+
+// x#brint.tra @4
+@10 = ~Non ! <CHARNAME> t'a laissé filer, mais pas moi ! Dégaine tes armes !~
+
+// x#jaint.tra @61, @62
+@11 = ~Je ne suis pas ravie de prendre cette voie, mais, malheureusement, c'est la seule option vraiment sûre. Je suis d'accord avec toi, <CHARNAME>.~
+// BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 62
+@12  = ~Vous allez tous mourir !~
+
+// x#brint.tra @55
+@13 = ~Cet ignoble chien est mort ! Tempus, ta volonté est faite ! Viens <CHARNAME>, allons boire à la gloire de Tempus et à la victoire !~

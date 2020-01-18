@@ -29,12 +29,12 @@ Global("X#TalkedToZizi","GLOBAL",4)
 Global("X#TalkedToZizi","GLOBAL",6)
 THEN
 RESPONSE #100
-EscapeArea()
+DestroySelf()
 END
 
 IF %BGT_VAR%
 Global("X#SlimeCraze","GLOBAL",1)
 THEN
 RESPONSE #100
-DestroySelf()
+NoAction()
 END

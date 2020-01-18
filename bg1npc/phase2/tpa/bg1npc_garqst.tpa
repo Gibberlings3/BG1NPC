@@ -1,0 +1,92 @@
+/* Garrick's Quest */
+
+ /* items */
+ COPY ~bg1npc/phase2/itm/X#CGBK.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#CGCN.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#ICBABN.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#ICRFN.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#IGBK.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#IGCN.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#XAQUGN.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#CGBK.BAM~ ~override~
+ COPY ~bg1npc/phase2/itm/X#BLITM.itm~ ~override~
+   SAY NAME1 @169
+
+ COPY ~bg1npc/phase2/itm/X#GARBK.itm~ ~override~
+   SAY NAME1 @170
+   SAY NAME2 @170
+ SAY UNIDENTIFIED_DESC @171
+   SAY DESC @171
+
+ COPY ~bg1npc/phase2/itm/X#GARCH.itm~ ~override~
+   SAY NAME1 @172
+   SAY NAME2 @172
+   SAY UNIDENTIFIED_DESC @173
+   SAY DESC @174
+
+ COPY ~bg1npc/phase2/itm/X#GARCH2.itm~ ~override~
+   SAY NAME1 @172
+   SAY NAME2 @172
+   SAY UNIDENTIFIED_DESC @173
+   SAY DESC @175
+
+ /* creatures */
+ COPY ~bg1npc/phase2/cre/x#garar.cre~ ~override~
+   SAY NAME1 @176
+   SAY NAME2 @176
+   SAY INITIAL_MEETING @177
+   SAY DAMAGE @178
+   SAY DYING @179
+   SAY SELECT_COMMON1 @177
+   WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8  //  override script
+   WRITE_ASCII 0x280 ~archibald~ #32 //  death variable
+
+ COPY ~bg1npc/phase2/cre/x#garwyl.cre~ ~override~
+   SAY NAME1 @180
+   SAY NAME2 @180
+   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+   SAY INITIAL_MEETING @709 // [GHAST01]
+   SAY DAMAGE @710 // [GHAST05]
+   SAY DYING @711 // [GHAST06]
+   SAY SELECT_COMMON1 @709 // [GHAST01]
+   SAY EXISTANCE1 @709 // [GHAST01]
+
+ COPY_EXISTING ~%tutu_var%zombie.cre~  ~override~
+               ~%tutu_var%zombieb.cre~ ~override~
+   PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+     WRITE_BYTE 0x272 0x94 // Race (zombie, was skeleton)
+   END
+ BUT_ONLY_IF_IT_CHANGES
+
+ COPY_EXISTING ~%tutu_var%zombie.cre~ ~override/x#garz01.cre~
+               ~%tutu_var%zombie.cre~ ~override/x#garz02.cre~
+               ~%tutu_var%zombie.cre~ ~override/x#garz03.cre~
+               ~%tutu_var%zombie.cre~ ~override/x#garz04.cre~
+   SAY NAME1 @203
+   SAY NAME2 @203
+   SAY BATTLE_CRY1 @204
+   SAY BATTLE_CRY2 @204
+   SAY BATTLE_CRY3 @204
+   SAY BATTLE_CRY4 @204
+   SAY BATTLE_CRY5 @204
+   SAY ATTACK1 @205
+   SAY ATTACK2 @206
+   SAY DAMAGE @207
+   SAY DYING @208
+   SAY SELECT_COMMON1 @209
+   SAY SELECT_COMMON2 @210
+   WRITE_BYTE 0x270 0x80 // Reaction (neutral, was enemy)
+   WRITE_EVALUATED_ASCII 0x2cc ~%DEST_RES%~ #8 // Dialog
+   WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 // Death variable
+
+ /* scripts */
+ COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#GARAR.BAF~
+ COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#GARWYL.BAF~
+
+ /* dialog */
+ COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#GARAR.D~
+ COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#GARWYL.D~
+ COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#HALBAZ.D~
+
+ /* Add Journal entries for BGEE */
+ ADD_JOURNAL TITLE (@999) @24 @26 USING ~bg1npc/tra/%LANGUAGE%/x#garwyl.tra~

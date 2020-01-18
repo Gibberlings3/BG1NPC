@@ -1,0 +1,340 @@
+/* DV assignments */
+COPY_EXISTING  ~%tutu_var%alvanh.cre~ ~override~
+  WRITE_ASCII 0x280 ~alvahe~ #32 //  death variable X#MOINT2.BAF
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING  ~%tutu_var%ankheg.cre~  ~override~
+               ~%tutu_var%ankhegg.cre~ ~override~
+               ~%tutu_var%ankhegq.cre~ ~override~
+  WRITE_ASCII 0x280 ~ankheg~ #32 //  death variable x#kiint2.baf, p#fw1400.baf
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING  ~%tutu_var%slave.cre~ ~override~
+  WRITE_ASCII 0x280 ~cmslave~ #32 //  death variable unused
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING  ~%tutu_var%korax.cre~ ~override~
+  WRITE_ASCII 0x280 ~korax~ #32 //  death variable X#JAINT2.BAF
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING  ~%tutu_var%coksmth.cre~ ~override~
+  WRITE_ASCII 0x280 ~peter~ #32 //  death variable X#FAINT.D
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING  ~%tutu_var%izefia.cre~ ~override~
+  WRITE_ASCII 0x280 ~izefia~ #32 //  death variable X#FAINT.D
+BUT_ONLY_IF_IT_CHANGES
+
+ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+  COPY_EXISTING  ~%tutu_var%entill.cre~ ~override~ /* has script name "Entillis" in BG:EE */
+    WRITE_ASCII 0x280 ~entillis~ #32 //  death variable X#JAINT.D
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+COPY_EXISTING ~%tutu_var%bearbl.cre~ ~override~
+  WRITE_ASCII 0x280 ~bearbl~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%bearbr.cre~ ~override~
+  WRITE_ASCII 0x280 ~bearbr~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%bearca.cre~ ~override~
+  WRITE_ASCII 0x280 ~bearca~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%bearpo.cre~ ~override~
+  WRITE_ASCII 0x280 ~bearpo~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%bheren.cre~ ~override~
+  WRITE_ASCII 0x280 ~bheren~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~%tutu_var%elmin5.cre~ ~override~
+  WRITE_ASCII 0x280 ~elminster5~ #32 //  death variable
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING  ~%tutu_var%ender.cre~ ~override~
+  WRITE_ASCII 0x280 ~ender~ #8 //  death variable x#kiint2.baf, x#moint.baf
+BUT_ONLY_IF_IT_CHANGES
+
+/* ToSC death Variables */
+ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN
+  COPY_EXISTING  ~%tutu_var%pridem.cre~ ~override~
+    WRITE_ASCII 0x280 ~pridem~ #32 //  death variable X#BRINT2.BAF
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING  ~%tutu_scripta%varicem.cre~ ~override~
+    WRITE_ASCII 0x280 ~avaricem~ #32 //  death variable X#BRINT2.BAF
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%fearm.cre~ ~override~
+    WRITE_ASCII 0x280 ~fearm~ #32 //  death variable X#BRINT2.BAF
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING ~%tutu_var%lovem.cre~ ~override~
+    WRITE_ASCII 0x280 ~lovem~ #32 //  death variable X#BRINT2.BAF
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING  ~%tutu_scripto%grema03.cre~ ~override~
+    WRITE_ASCII 0x280 ~cmogremage~ #32 //  death variable X#XZINT2.BAF
+  BUT_ONLY_IF_IT_CHANGES
+  COPY_EXISTING  ~%tutu_var%zombiew.cre~ ~override~
+    WRITE_BYTE 0x272 0x94 // Race (zombie, was skeleton)
+    WRITE_ASCII 0x280 ~zombiew~ #32 //  death variable X#XZINT2.BAF
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+  /* ToSC Interjections, ToSC only: */
+  ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#TOTSC.d~
+  END
+
+  /* Interjections */
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#BRINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#JAINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#FAINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#SKINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KIINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XZINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#moint.d~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ELINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#SAINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#TIINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#YEINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KAINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KHINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#AJINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#DYINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XAINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#SHINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#MIINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#EDINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#GAINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ALINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#IMINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#COINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#VIINT.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#QUINT.D~
+//  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kiint_new.d~
+
+  /* Add Journal Entries to BGEE.sql for BGEE */
+  ADD_JOURNAL EXISTING TITLE (#31279) @72 @73 USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
+  ADD_JOURNAL EXISTING TITLE (#31317) @171 USING ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
+
+  /* Area Script additions */
+  EXTEND_BOTTOM ~%NWBaldursGate_SilvershieldEstate_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0102.BAF~
+      EVALUATE_BUFFER
+  EXTEND_BOTTOM ~%FishingVillage_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW1400.BAF~
+      EVALUATE_BUFFER
+  EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0112.BAF~
+      EVALUATE_BUFFER
+  EXTEND_BOTTOM ~%EBaldursGate_SorcerousSundries_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0704.BAF~
+      EVALUATE_BUFFER
+  EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW2700.BAF~
+      EVALUATE_BUFFER
+      USING ~bg1npc/TRA/%LANGUAGE%/P#FW2700.tra~
+  EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~ ~bg1npc/Phase2/baf/x#ar1803.baf~
+      EVALUATE_BUFFER USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
+
+  /* General use scripts */
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#gpsht.baf~
+  COMPILE ~bg1npc/phase2/baf/x#shout6.baf~
+  COMPILE EVALUATE_BUFFER ~bg1npc/phase2/baf/x#fight2.baf~
+
+
+  /* -JW-'s Edwin vs Denak fix */
+  /* http:// forums.gibberlings3.net/index.php?s=&showtopic=15516&view=findpost&p=133308 */
+  EXTEND_BOTTOM ~%SpiderWood_BCS%.bcs~ ~bg1npc/Phase2/baf/JW#FW3000.BAF~
+
+  /* Interjection scripting changes, added creatures */
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KRUMM.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/x#Jopha.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/x#dora.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#MOMUR1.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#ZIZI1.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#ZIZI2.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#ZIZI3.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#ZIZI4.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#XZSLIM.BAF~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#XZJELL.BAF~
+
+  /* Assign Krumm's override script */
+  COPY_EXISTING  ~%tutu_var%krumm.cre~ ~override~
+    WRITE_ASCII 0x248 ~x#krumm~ #8 //  override script
+  BUT_ONLY_IF_IT_CHANGES
+
+  /* Interjection scripting changes, BG1 NPCs */
+  EXTEND_TOP  ~%BRANWEN_BCS%.bcs~  ~bg1npc/Phase2/baf/X#BRINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%tutu_scriptr%EDDEATH.bcs~ ~bg1npc/Phase2/baf/X#BRDWI.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%JAHEIRA_BCS%.bcs~ ~bg1npc/Phase2/baf/X#JAINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%FALDORN_BCS%.bcs~   ~bg1npc/Phase2/baf/X#FAINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%SKIE_BCS%.bcs~    ~bg1npc/Phase2/baf/X#SKINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%KIVAN_BCS%.bcs~   ~bg1npc/Phase2/baf/X#KIINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%MONTARON_BCS%.bcs~ ~bg1npc/Phase2/baf/X#MOINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%XZAR_BCS%.bcs~    ~bg1npc/Phase2/baf/X#XZINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%tutu_var%NIEMAIN.bcs~ ~bg1npc/Phase2/baf/X#NIEMAIN.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%ELDOTH_BCS%.bcs~  ~bg1npc/Phase2/baf/X#ELINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%SAFANA_BCS%.bcs~  ~bg1npc/Phase2/baf/X#SAINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%TIAX_BCS%.bcs~    ~bg1npc/Phase2/baf/X#TIINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%YESLICK_BCS%.bcs~ ~bg1npc/Phase2/baf/X#YEINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%KAGAIN_BCS%.bcs~  ~bg1npc/Phase2/baf/X#KAINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%KHALID_BCS%.bcs~  ~bg1npc/Phase2/baf/X#KHINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%AJANTIS_BCS%.bcs~ ~bg1npc/Phase2/baf/X#AJINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%DYNAHEIR_BCS%.bcs~ ~bg1npc/Phase2/baf/X#DYINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%EDWIN_BCS%.bcs~   ~bg1npc/Phase2/baf/X#EDINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%MINSC_BCS%.bcs~   ~bg1npc/Phase2/baf/X#MIINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%CORAN_BCS%.bcs~   ~bg1npc/Phase2/baf/X#COINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%IMOEN_BCS%.bcs~  ~bg1npc/Phase2/baf/X#IMINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%GARRICK_BCS%.bcs~   ~bg1npc/Phase2/baf/X#GAINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%SHARTEEL_BCS%.bcs~ ~bg1npc/Phase2/baf/X#SHINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%XAN_BCS%.bcs~     ~bg1npc/Phase2/baf/X#XAINT2.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP  ~%tutu_var%DRIZZT.bcs~  ~bg1npc/Phase2/baf/X#DRIZZT2.BAF~
+      EVALUATE_BUFFER
+//  EXTEND_TOP  ~%KIVAN_BCS%.bcs~  ~bg1npc/Phase2/baf/x#kiint_new.baf~
+//      EVALUATE_BUFFER
+
+	/* Yeslick - Rieltar Interaction - Do NOT install on BGEEv2.5+ */
+	ACTION_IF !FILE_EXISTS_IN_GAME ~bdentboy.cre~ THEN BEGIN
+		COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#yeslick_rieltar.d~ USING ~bg1npc/tra/%LANGUAGE%/x#yeint.tra~
+		EXTEND_TOP  ~%YESLICK_BCS%.bcs~ ~bg1npc/Phase2/baf/x#yeslick_rieltar.BAF~
+				EVALUATE_BUFFER
+	END
+
+  /* Interjections on Tranzig Encounter */
+  ACTION_IF FILE_EXISTS_IN_GAME ~bdentboy.cre~ THEN BEGIN
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tranzig_ee.d~ USING ~bg1npc/tra/%s/x#tranzig.tra~
+  END ELSE BEGIN
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tranzig.d~ USING ~bg1npc/tra/%s/x#tranzig.tra~
+  END
+
+  /* Kivan's spear */
+  COPY ~bg1npc/phase2/itm/x#kispr.itm~ ~override~
+    SAY NAME1 @74
+    SAY NAME2 @75
+    SAY UNIDENTIFIED_DESC @76
+    SAY DESC @77
+    WRITE_LONG 0x34 0
+
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+    COPY ~bg1npc/phase2/spl/x#kispr_ee.spl~ ~override/x#kispr.spl~
+  END ELSE BEGIN
+    COPY ~bg1npc/phase2/spl/x#kispr_tutu.spl~ ~override/x#kispr.spl~
+  END
+
+  /* See end of file for routine to patch items with Entangle immunity */
+
+  /* Great Shield - White Oak */
+  COPY ~bg1npc/phase2/itm/X#FASH01.itm~ ~override~
+    SAY NAME1 @78
+    SAY NAME2 @78
+    SAY UNIDENTIFIED_DESC @79
+    SAY DESC @80
+
+  /* Add Jopha & Dora for Skie Interjections */
+  COPY_EXISTING ~%tutu_var%serva2.cre~ ~override/x#jopha.cre~
+    SAY NAME1 @81
+    SAY NAME2 @81
+    WRITE_ASCIIE 0x248 ~%DEST_RES%~ #8 //  override script
+    WRITE_ASCIIE 0x2CC ~%DEST_RES%~ #8 //  dialog
+    WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
+
+  COPY_EXISTING ~%tutu_var%nobw2.cre~ ~override/x#dora.cre~
+    SAY NAME1 @82
+    SAY NAME2 @82
+    WRITE_ASCIIE 0x248 ~%DEST_RES%~ #8 //  override script
+    WRITE_ASCIIE 0x2CC ~%DEST_RES%~ #8 //  dialog
+    WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
+
+
+  /* Added Quests */
+
+	/* Tiax Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_tiaxqst.tpa~
+
+	/* Kagain's Caravan Quest Extension */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_kagqst.tpa~
+
+  /* Eldoth's Bently Quarrel */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_eldoth.tpa~
+
+	/* Xzar's Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_xzarqst.tpa~
+
+  /* Xan's Encounters & Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_xan.tpa~
+
+  /* Garrick's Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_garqst.tpa~
+
+  /* Coran's Encounters & Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_coran.tpa~
+
+  /* Kivan's Encounters & Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_kivan.tpa~
+
+  /* Dynaheir's Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_dyqst.tpa~
+
+  /* Lake Poet Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_lakepoet.tpa~
+
+  /* Jaheira's Quest */
+	INCLUDE ~bg1npc/phase2/tpa/bg1npc_jahqst.tpa~
+
+
+  /* Patching all creatures in component for Tutu > BGT items */
+  ACTION_IF GAME_IS ~bgt bgee eet~ THEN BEGIN
+    COPY_EXISTING_REGEXP GLOB ~^[XxPp]#.*\.cre~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+       LAUNCH_PATCH_MACRO ~convert_tutu_items_bgt_bgee~
+      END
+    BUT_ONLY_IF_IT_CHANGES
+  END
+
+  /* Patching all items with immunity to Entangle SPPR105.SPL to also grant immunity to Kivan's Spear effect */
+  COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      LAUNCH_PATCH_FUNCTION CLONE_EFFECT
+        INT_VAR
+          check_globals=1
+          check_headers=0
+          multi_match=1
+          match_opcode=206
+        STR_VAR
+          insert=~below~
+          match_resource=~SPPR105~
+          resource=~x#kispr~
+      END
+    END
+  BUT_ONLY_IF_IT_CHANGES
+
+  /* Make sure this is last in Quest additions for Phase 2 */
+  // DW smart-compile
+
+  WITH_TRA "bg1npc\tra\english\x#ict3.tra" "bg1npc\tra\%LANGUAGE%\x#ict3.tra" BEGIN
+     LAF compile_with_ict_handling STR_VAR dialog="bg1npc/Phase2/dlg/X#ICT3.D" END
+  END
+
+  // COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ICT3.D~ // replaced by DW smart-compile

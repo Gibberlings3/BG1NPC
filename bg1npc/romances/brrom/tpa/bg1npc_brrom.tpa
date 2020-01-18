@@ -1,0 +1,10 @@
+/* BRANWEN ROMANCE */
+
+/* scripts */
+  EXTEND_TOP  ~%BRANWEN_BCS%.BCS~ ~bg1npc/romances/BRROM/baf/P#BRROM.baf~
+    EVALUATE_BUFFER
+  EXTEND_TOP   ~%BRANWEN_DREAM%.BCS~ ~bg1npc/romances/BRROM/baf/P#BRROD.baf~
+    EVALUATE_BUFFER
+
+/* dialogues */
+  COMPILE EVALUATE_BUFFER ~bg1npc/romances/BRROM/dlg/P#BRLT.D~

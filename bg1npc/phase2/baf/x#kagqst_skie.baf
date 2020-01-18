@@ -1,0 +1,14 @@
+IF
+	InParty(Myself)
+  IsValidForPartyDialogue(Myself)
+  Global("X#SkieSeesEddard","GLOBAL",0)
+  Global("X#CaravanBanditEncounter","GLOBAL",2)
+  !ActuallyInCombat()
+	!InParty("Kagain")
+	See("BDENTBOY")
+	Range("BDENTBOY",8)
+THEN
+	RESPONSE #100
+		SetGlobal("X#SkieSeesEddard","GLOBAL",1)
+		Dialog([PC])
+END

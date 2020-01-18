@@ -110,12 +110,12 @@
 @109  = ~Oh, this is just so exciting!~
 @110  = ~*spits* I, for one, have no desire to prove myself a gentle MAN! I'm one tough woman, and if you won't shut up and fight, I'll push your manners down your throat with my boots!~
 @111  = ~I doubt not that you are ill-mannered enough to act upon your threat, but I assure you that I have taken every precaution to protect myself against brutes like you.~
-@112  = ~A thief does not set rules for another thief... gentleman, or not. We will do what pleases us, and if you do not like it – well, here is your chance to make yet another attempt on <CHARNAME>'s life. All previous assailants have fallen to <PRO_HISHER> hand.~
+@112  = ~A thief does not set rules for another thief... gentleman, or not. We will do what pleases us, and if you do not like it ï¿½ well, here is your chance to make yet another attempt on <CHARNAME>'s life. All previous assailants have fallen to <PRO_HISHER> hand.~
 @113  = ~It would be a sad day indeed, if I took some pointy-eared rogue's threats seriously.~
 @114  = ~Ah, what a pity... I was hoping to see the amulet decorating that beautiful neck of yours, lady... ~
 @115  = ~Get lost, already!~
 @116  = ~I shall not leave without teaching you two lessons: firstly, do not hire a Red Wizard of Thay for such petty tasks, and secondly - if you made the huge mistake of doing so, you should never call him a fool afterwards.~
-@117  = ~Committing a crime by stealing! I can't believe this scum is asking passers-by to do his abominable deeds for him!~
+@117  = ~Committing a crime by stealing! I can't believe this scum is asking passers-by to do her abominable deeds for her!~
 @118  = ~I'll be damned if I'll be running small errands for a dwarf! Wait... you said the reward would be handsome? Can you give an exact number?~
 @119  = ~If I like your work, and you do it fast, there'd be 200 gold in it fer you.~
 @120  = ~From what I've heard, the items from this place will probably kill you!~
@@ -140,7 +140,7 @@
 @139  = ~Knowing you, I am inclined to believe this tale, temptress. I wish I knew how your father... er... never mind.~
 @140  = ~Oh, boy, yes, please!~
 @141  = ~*raises his eyebrow* I was not aware that they now call it *entropy* in Baldur's Gate... I was away for too long, perhaps.~
-@142  = ~My lady, it is my understanding that entropy is the degradation of matter and energy in the universe to an ultimate state of inert uniformity. If that is what your soul sister and you are prepared to exemplify with your heavenly bodies, I am quite intrigued and willing to lend mine for such experimentation... (Yes, yes, I have achieved a delightful proportion of philosophy and risqué, but why did I even bother? I am sure that a simple 'yes' was sufficient - they are not accustomed to my level of sophistication in this barbaric land.)~
+@142  = ~My lady, it is my understanding that entropy is the degradation of matter and energy in the universe to an ultimate state of inert uniformity. If that is what your soul sister and you are prepared to exemplify with your heavenly bodies, I am quite intrigued and willing to lend mine for such experimentation... (Yes, yes, I have achieved a delightful proportion of philosophy and risquï¿½, but why did I even bother? I am sure that a simple 'yes' was sufficient - they are not accustomed to my level of sophistication in this barbaric land.)~
 @143  = ~Grr! Your eyes are death! Cold gaze, cold! Stay back, you fools.~
 @144  = ~Shall we teach you?~
 @145  = ~Life is cruel to the weak, get over it.~
@@ -164,7 +164,7 @@
 @163  = ~Despair not, sister, you will soon return to the starlit woods.~
 @164  = ~Thank you, and farewell.~
 @165  = ~Magnificent! Such a tale could fill any tavern or hall in all the Realms!~
-@166  = ~Your kind words do warm this young bard's heart – which is useful, considering the weather here. I thank you most humbly.~
+@166  = ~Your kind words do warm this young bard's heart ï¿½ which is useful, considering the weather here. I thank you most humbly.~
 @167  = ~That was not a particularly good poem. It surprises me that my beauty didn't inspire him to greater heights.~
 @168  = ~Miss, I have long ago decided that I should create poetry about the subjects less fleeting than a woman's beauty.~
 @169  = ~Gods save us from plague and poets. (I should have fled when I had the time. Into the hills, the hills, I say!)~
@@ -283,7 +283,7 @@ adventurer's delight.~
 @278  = ~And now I have you.~
 @279  = ~O, sorry for scarin' your son an' all, ma'am. Hope he's alright! Ya tell him that some adventurers do good things, like helpin' other folk at need.~
 @280  = ~I cannot understand how any woman would want to have a husband and children. I have no time for taking care of anyone but myself... But then again, every matron I met was nowhere nearly as attractive and sophisticated as I am - so maybe they feel that it's pointless?~
-@281  = ~Hmmmph... At least the rivvil had money, though ‘twas surely not enough to compensate for the waste of time.~
+@281  = ~Hmmmph... At least the rivvil had money, though ï¿½twas surely not enough to compensate for the waste of time.~
 @282  = ~My friend, it was a noble deed. I wish that more people were as ready as you to lend a helping hand to the small folk.~
 @283  = ~Thou didst good in helping this poor woman. Now we should'st return to our travails.~
 @284  = ~Take this, and thank you!~
@@ -458,7 +458,7 @@ adventurer's delight.~
 @453  = ~Another fool freed. Oh, <CHARNAME>, what a hero you truly are.~
 @454  = ~I have heard many a tale of poor fellows subdued by evil enchantments, but to hear of one happening now is terrible! <CHARNAME> we must help!~
 @455  = ~And evil magic thrives against weak will; something you humans have in abundance.~
-@456  = ~Self–flagellation? Oh, my...~
+@456  = ~Selfï¿½flagellation? Oh, my...~
 @457  = ~Hold on here, <CHARNAME>! Since when did you become a follower of the Crying God? What's more, since when do ya go around saying we're *all* followers of Ilmater? I certainly am not! But er... whatever floats yer boat.~
 @458  = ~I can't see the wood for the subterranean trees...~
 @459  = ~Subterranean trees? Ha! Any fool could have thought of a better lie than that, iblith.~
@@ -478,7 +478,7 @@ adventurer's delight.~
 @473  = ~It's not your call, you overfed... overfed... monkey! (Yes, that will do.)~
 @474  = ~This high and mighty wizard seems an arrogant type indeed, and those red robes hint at a Thayvian... We should be careful of our dealings with him, <CHARNAME>.~
 @475  = ~What say you?~
-@476  = ~The History of the Dead Three – he's right, a dark tale indeed. Merely thinking of those fell deities sends shivers down my spine.~
+@476  = ~The History of the Dead Three ï¿½ he's right, a dark tale indeed. Merely thinking of those fell deities sends shivers down my spine.~
 @477  = ~Hmm... an odd choice of a reward, as well as an odd choice of words. Both set me ill at ease, to be truthful.~
 @478  = ~A strange choice of book; my guess is the old fool couldn't stomach the reading for himself.~
 @479  = ~Yes, it is dark, but history often is.~
@@ -509,7 +509,7 @@ adventurer's delight.~
 @504  = ~That's the home of Thalantyr, a wise and powerful mage. I'd, uh, caution against trying to rob him, <CHARNAME>.~
 @505  = ~Good luck!~
 @506  = ~All orders are doomed to fail sooner or later, but something tells me that your own doom will come even faster than ours, if <CHARNAME> makes such a decision.~
-@507  = ~Oh, do shut up. I've met kobolds more ‘enlightened' than you.~
+@507  = ~Oh, do shut up. I've met kobolds more ï¿½enlightened' than you.~
 @508  = ~What? Who dares defy my rule! Explain yourselves!~
 @509  = ~Compassion is a weakness. Kill him, <CHARNAME>.~
 @510  = ~It is a trap... mark my words, the fiend is luring us into some devious trap...~
@@ -617,7 +617,7 @@ adventurer's delight.~
 @612  = ~Fool! You are more mad even than Carsa! Death will fit you well! KAHRK!~
 @613  = ~OH MIGHTY KAHRK!!!~
 @614  = ~From the look of the surrounding area, a deadly spider's attack is no surprise... Why did we venture into this ghastly cave?~
-@615  = ~Hmmm. Does the Spider Queen have servants even here? ‘Ware, <CHARNAME>, for if so, those spiders could be lethal indeed.~
+@615  = ~Hmmm. Does the Spider Queen have servants even here? ï¿½Ware, <CHARNAME>, for if so, those spiders could be lethal indeed.~
 @616  = ~Consider this, <CHARNAME>. *She points to all the corpses* We're all but done -just need to finish off this one. We don't even have to go far to bury him properly. This tomb is roomy enough. *Laughs.*~
 @617  = ~And Gallor can have his sarcophagus, if you are afraid of the stupid curses.~
 @618  = ~Ugh! My head hurts just trying ta make sense of what you're sayin' about this... Kozah. But, um, I guess he was some evil god, and this place has something ta do with him, like a temple, right?~
@@ -688,7 +688,7 @@ adventurer's delight.~
 @683  = ~Let out the filthy gnolls to let them do evil? Boo's blood boils at the thought! Minsc smells righteous butt-kicking coming! Er... and many other foul smells, too... Yes, Boo, it was very *stupid* of the bandits to lock the whole clan of gnolls in such a small cave for so long.~
 @684  = ~They are no prisoners, <CHARNAME>. Most likely they are bandits who were too unruly even for Chill!~
 @685  = ~<CHARNAME>, this is no time for careful deliberations: a woman is threatened with torture! I pray that we are not too late already!~
-@686  = ~I was just thinking how refreshing it would be to kick some man in the groin. And break his skinny neck afterwards… Stop gawking, <CHARNAME>. There is coin to be made and fun to be had. On we go!~
+@686  = ~I was just thinking how refreshing it would be to kick some man in the groin. And break his skinny neck afterwardsï¿½ Stop gawking, <CHARNAME>. There is coin to be made and fun to be had. On we go!~
 @687  = ~Yeah, that was a real rotten thing she tricked <CHARNAME> into doing!~
 @688  = ~You'll be much better off with us...~
 @689  = ~<CHARNAME>, he can join us, right? *giggles* He is cute and he is a real bard! Someone's gotta write ballads about my beauty and bravery, ya know?~
@@ -703,7 +703,7 @@ adventurer's delight.~
 @698  = ~You, Garrick, an ASSET?! Even a bard should not exaggerate so shamelessly! You, who had to hire help to fight three peasants?~
 @699  = ~Hahaha! Again, again! *claps*~
 @700  = ~Such an amazing show! I wonder how he does it. I'm sure I could figure it out one bored afternoon.~
-@701  = ~Nay, but he be worth *your* life t' me. Bounty on ‘im is at least.~
+@701  = ~Nay, but he be worth *your* life t' me. Bounty on ï¿½im is at least.~
 @702  = ~I've heard of you... You are Greywolf, and you will be making your apologies to Ysena in Hades to<DAYNIGHT>, or my name is not Shar-Teel!~
 @703  = ~Shar-Teel? You must be the ridiculous brat Ysena scooped out of the gutter!~
 @704  = ~The one and only, though you'll find me a little more than just a brat. You betrayed Ysena to the Fists, because of a quarrel over the reward for a run-away slave. I've been wanting to meet you for a long time, Greywolf - do you know why?~
@@ -719,7 +719,7 @@ adventurer's delight.~
 @714  = ~*blush* Ah, Jaheira... you... you shouldn't have...~
 @715  = ~Don't you agree?~
 @716  = ~This tale must be dark indeed, if she asks for a reward. The foul tales art enough and to spare in this land, and art told freely to every passerby who would listen.~
-@717  = ~A good tale is priceless, <CHARNAME> – and I fear this one, dark as it is, could be important.~
+@717  = ~A good tale is priceless, <CHARNAME> ï¿½ and I fear this one, dark as it is, could be important.~
 @718  = ~I swear that it's worth every coin ye'd pay me.~
 @719  = ~Dynaheir! Look, Boo, we found her! Oh, glorious day!~
 @720  = ~Now I believe that 'tis truly thee. I would'st never have thought that I would'st be glad to see this... rodent.~
@@ -889,12 +889,12 @@ adventurer's delight.~
 @884  = ~Well... vertically, perhaps, but yes. He seems to have no respect at all for his handiwork.~
 @885  = ~Heh, for me 5,000 gold would be motivation enough to finish him off, if I was an adventurer! Heh, sorry, back to work!~
 @886  = ~Hear ye! Hear ye! By order of his Most Radiant of Lathander Kelddath Ormlyr, governor of Beregost, and in the best interest of its peoples-~
-@887  = ~You are disgusting, wretch... Kill him, <CHARNAME>. One who begs for his life has no honor. He will betray you to Tazok if you let him go.~
-@888  = ~No, I won't, I won't... *under his breath* Harpy!~
-@889  = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
-@890  = ~Bitch.~
-@891  = ~<CHARNAME>, we must not let this wretch get away, he will surely inform his superiors. It would be advisable if we could... prevent this, somehow...~
-@892  = ~Ya all gonna die!~
+//@887  = ~You are disgusting, wretch... Kill him, <CHARNAME>. One who begs for his life has no honor. He will betray you to Tazok if you let him go.~
+//@888  = ~No, I won't, I won't... *under his breath* Harpy!~
+//@889  = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
+//@890  = ~Bitch.~
+//@891  = ~<CHARNAME>, we must not let this wretch get away, he will surely inform his superiors. It would be advisable if we could... prevent this, somehow...~
+//@892  = ~Ya all gonna die!~
 @893  = ~It's not too, uh, nice just to demand things you want from others, <CHARNAME>.~
 @894  = ~<CHARNAME>, magical trinkets are valuable, but men's respect is ever dearer; it cannot be earned by robbing those you have saved of their prized possession. Think on it.~
 @895  = ~Someone really needs to give him a clue!~

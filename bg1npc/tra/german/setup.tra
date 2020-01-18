@@ -92,7 +92,7 @@
 @1092  = ~Das BG1-NPC-Projekt: Mache Shar-Teel bis zur Aufnahme in die Gruppe untoetbar~
 @1093  = ~Diese Komponente ist nur fuer Tutuinstallationen sinnvoll.~
 @1094  = ~Das BG1-NPC-Projekt: Anpassung des Rufes durch Barden moeglich.~
-@1095  = ~Inkompatibel mit BGT: 
+@1095  = ~Inkompatibel mit BGT:
 Bitte nutzen Sie fuer BGT die equivalente Komponente aus Sword Coast Stratagems.~
 @1096  = ~Romanze [Dynaheir]~
 @1097  = ~Romanze [Xan]~
@@ -139,6 +139,7 @@ Bitte nutzen Sie fuer BGT die equivalente Komponente aus Sword Coast Stratagems.
 @1128  = ~Gespraechetimer: Sehr schnell~
 @1129  = ~Gespraechetimer: Langsam~
 @1130  = ~Gespraechetimer: Sehr langsam~
+@1131  = ~Das BG1-NPC-Projekt: Gib Coran sein "Murder in Baldur's Gate" Portrait~
 @5000  = ~BG:EE-Installation detektiert.~
 @5001  = ~Fuer diese Komponente muessen Sie BGT oder TuTu installiert haben.~
 @5002  = ~Fuer diese Komponente muessen Sie BG:EE installiert haben.~

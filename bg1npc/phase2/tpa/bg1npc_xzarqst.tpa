@@ -1,0 +1,350 @@
+/* Xzar's Quests */
+
+/* Xzar's Slime Quest */
+
+/* items */
+COPY ~bg1npc/phase2/itm/X#XZSLIM.BAM~ ~override~
+COPY ~bg1npc/phase2/itm/X#XZSLIM.itm~ ~override~
+  SAY NAME1 @48
+  SAY NAME2 @49
+  SAY UNIDENTIFIED_DESC @50
+  SAY DESC @51
+
+/* creatures */
+COPY ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi1.cre~
+     ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi2.cre~
+     ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi3.cre~
+     ~bg1npc/Phase2/cre/x#harl1.cre~ ~override/x#zizi4.cre~
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY NAME1 @36
+  SAY NAME2 @36
+  SAY DAMAGE @37
+  SAY DYING @38
+  SAY SELECT_COMMON1 @37
+  SAY SELECT_COMMON2 @37
+  SAY SELECT_COMMON3 @37
+  SAY SELECT_COMMON3 @37
+  SAY SELECT_COMMON4 @37
+  SAY SELECT_COMMON5 @37
+  SAY SELECT_COMMON6 @37
+  WRITE_EVALUATED_ASCII 0x248 ~%DEST_RES%~ #8 //  Creature script - Override
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+    PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi1~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI1~ #8 //  dialog
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi2~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI2~ #8 //  dialog
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi3~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI3~ #8 //  dialog
+    END ELSE PATCH_IF (~%DEST_RES%~ STR_EQ ~x#zizi4~) BEGIN
+      WRITE_ASCII 0x2CC ~ZIZIZI4~ #8 //  dialog
+    END
+
+COPY_EXISTING ~%tutu_var%prost5.cre~ ~override~
+              ~%tutu_var%prost6.cre~ ~override~
+              ~%tutu_var%prost7.cre~ ~override~
+              ~%tutu_var%prost4.cre~ ~override~
+              ~%tutu_var%prost8.cre~ ~override~
+              ~%tutu_var%prost2.cre~ ~override~
+              ~%tutu_var%prost3.cre~ ~override~
+  WRITE_ASCII 0x280 ~harlot~ #32 //  death variable
+
+
+COPY ~bg1npc/Phase2/cre/x#jelly.cre~ ~override/x#jelly.cre~
+    SAY NAME1 @39
+    SAY NAME2 @39
+    SAY BATTLE_CRY1 @40
+    SAY BATTLE_CRY2 @41
+    SAY BATTLE_CRY3 @40
+    SAY BATTLE_CRY4 @41
+    SAY BATTLE_CRY5 @40
+    SAY ATTACK1 @42
+    SAY ATTACK2 @43
+    SAY DAMAGE @44
+    SAY DYING @45
+    SAY SELECT_COMMON1 @46
+    SAY SELECT_COMMON2 @47
+    WRITE_ASCII 0x248 ~X#XZJELL~ #8//  override script
+    WRITE_ASCII 0x280 ~xzjelly~ #32//  death variable
+  WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
+
+COPY ~bg1npc/Phase2/cre/x#slime.cre~ ~override/x#slime.cre~
+  SAY NAME1 @39
+  SAY NAME2 @39
+  SAY BATTLE_CRY1 @40
+  SAY BATTLE_CRY2 @41
+  SAY BATTLE_CRY3 @40
+  SAY BATTLE_CRY4 @41
+  SAY BATTLE_CRY5 @40
+  SAY ATTACK1 @42
+  SAY ATTACK2 @43
+  SAY DAMAGE @44
+  SAY DYING @45
+  SAY SELECT_COMMON1 @46
+  SAY SELECT_COMMON2 @47
+  WRITE_ASCII 0x248 ~X#XZSLIM~ #8//  override script
+  WRITE_ASCII 0x280 ~xzslime~ #32//  death variable
+WRITE_EVALUATED_ASCII 0x0268 ~%tutu_scriptw%TASIGHT~ #8 //  Creature script - Default
+
+
+/* Xzar's Dryad Quest */
+/* items */
+COPY ~bg1npc/phase2/itm/X#XZSPL.SPL~ ~override~
+  SAY NAME1 @307
+  SAY NAME2 @307
+WRITE_ASCII 0x10 ~CAS_M05~ #8    // casting sound
+WRITE_ASCII 0x3a ~SPWI509C~ #8   // spell icon
+WRITE_ASCII 0x76 ~SPWI509B~ #8   // ability #0 icon
+
+COPY ~bg1npc/phase2/itm/X#XZDRIA.BAM~ ~override~
+COPY ~bg1npc/phase2/itm/X#XZDRIA.itm~ ~override~
+  SAY NAME1 @308
+  SAY NAME2 @309
+  SAY UNIDENTIFIED_DESC @310
+  SAY DESC @311
+
+/* The Dryad Ring */
+COPY ~bg1npc/phase2/itm/X#XZRINC.BAM~ ~override~
+COPY ~bg1npc/phase2/itm/X#XZRINI.BAM~ ~override~
+COPY ~bg1npc/phase2/itm/X#XZRING.itm~ ~override~
+  SAY NAME1 @10
+  SAY NAME2 @314
+  SAY UNIDENTIFIED_DESC @12
+  SAY DESC @315
+
+/* inventory icon bam for mithril ring */
+COPY ~bg1npc/phase2/itm/X#XZMIRI.bam~ ~override~
+
+/* Mithril Ring adding to Containers in FW5001,4701, 1401, 1603, 3601 */
+COPY_EXISTING ~%tutu_var%RING11.itm~ ~override/X#XZMIRI.itm~
+  SAY NAME1 @312
+  SAY NAME2 @312
+  SAY UNIDENTIFIED_DESC @313
+  SAY DESC @313
+  WRITE_LONG 0x34 750
+  WRITE_ASCII 0x58 ~cring05~ #8
+  WRITE_ASCII 0x3a ~x#xzmiri~
+
+/* creatures */
+/* Forest Spirit 1 */
+COPY ~bg1npc/Phase2/cre/x#xzfsp1.cre~ ~override~
+  SAY NAME1 @316
+  SAY NAME2 @316
+  SAY INITIAL_MEETING @317
+  SAY DAMAGE @318
+  SAY DYING @319
+  SAY SELECT_COMMON1 @320
+  SAY SELECT_COMMON2 @317
+  WRITE_ASCII SCRIPT_CLASS ~x#shoutp~ #8 // class script
+  WRITE_ASCII 0x2CC ~X#XZFSP1~ #8 //  dialog
+  WRITE_ASCII 0x280 ~xzfspirit1~ #32 //  death variable
+
+/* Forest Spirit 2,3 */
+COPY ~bg1npc/Phase2/cre/x#xzfsp2.cre~ ~override/x#xzfsp2.cre~
+     ~bg1npc/Phase2/cre/x#xzfsp2.cre~ ~override/x#xzfsp3.cre~
+  SAY NAME1 @316
+  SAY NAME2 @316
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* SAUVAT soundset not present in BGEE, use EARTH soundset instead */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY BATTLE_CRY1 @731 // [EARTH02]
+    SAY BATTLE_CRY2 @732 // [EARTH03]
+    SAY DAMAGE @733 // [EARTH06]
+    SAY DYING @734 // [EARTH07]
+    SAY SELECT_COMMON1 @730 // [EARTH01]
+END ELSE BEGIN /* Tutu, BGT, EET */
+  SAY BATTLE_CRY1 @321
+    SAY BATTLE_CRY2 @322
+    SAY DAMAGE @323
+    SAY DYING @324
+    SAY SELECT_COMMON1 @325
+  END
+  WRITE_ASCII 0x248 ~X#XZFSP2~ #8 //  override script
+  WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
+  WRITE_EVALUATED_ASCII 0x282 ~%DEST_RES%~ #30 //  death variable
+  WRITE_ASCII 0x280 ~xzfspirit~ #9 //  death variable
+
+/* Blackberry */
+COPY ~bg1npc/Phase2/cre/x#black.cre~ ~override~
+  SAY NAME1 @326
+  SAY NAME2 @326
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* EPRIM soundset not present in BGEE, use DRUID soundset instead */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+        SAY INITIAL_MEETING @341
+    SAY BATTLE_CRY1 @341
+    SAY DAMAGE @342
+    SAY DYING @343
+    SAY SELECT_COMMON1 @344
+    SAY SELECT_COMMON2 @345
+END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
+    SAY INITIAL_MEETING @327
+    SAY UNHAPPY_BREAKING @328
+    SAY BATTLE_CRY1 @329
+    SAY DAMAGE @330
+    SAY DYING @331
+    SAY SELECT_COMMON1 @327
+    SAY SELECT_COMMON2 @332
+  END
+WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
+WRITE_ASCII SCRIPT_CLASS ~x#druid6~ #8 // class script
+  WRITE_ASCII SCRIPT_GENERAL ~x#drdsht~ #8 // general script
+  WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
+  WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+  WRITE_ASCII 0x280 ~blackberry~ #32 //  death variable
+
+/* Storm */
+COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
+  SAY NAME1 @333
+  SAY NAME2 @333
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* HVILLM soundset not present in BGEE, use DRUID soundset instead */
+  PATCH_IF GAME_IS ~bgee~ BEGIN
+    SAY INITIAL_MEETING @341
+    SAY BATTLE_CRY1 @341
+    SAY DAMAGE @342
+    SAY DYING @343
+    SAY SELECT_COMMON1 @344
+    SAY SELECT_COMMON2 @345
+END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
+    SAY INITIAL_MEETING @334
+    SAY UNHAPPY_BREAKING @335
+    SAY BATTLE_CRY1 @336
+    SAY DAMAGE @337
+    SAY DYING @338
+    SAY SELECT_COMMON1 @339
+    SAY SELECT_COMMON2 @334
+  END
+  WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
+  WRITE_ASCII SCRIPT_CLASS ~x#druid8~ #8 // class script
+  WRITE_ASCII SCRIPT_GENERAL ~x#drdsht~ #8 // general script
+  WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
+  WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+  WRITE_ASCII 0x280 ~storm~ #32 //  death variable
+
+/* Zosya */
+COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
+  SAY NAME1 @340
+  SAY NAME2 @340
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  /* DRYAD soundset */
+  SAY INITIAL_MEETING @373
+  SAY BATTLE_CRY1 @367
+  SAY DAMAGE @371
+  SAY DYING @372
+  SAY SELECT_COMMON1 @366
+  SAY SELECT_COMMON2 @373
+  WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
+  WRITE_ASCII SCRIPT_CLASS ~x#drui12~ #8 // class script
+  WRITE_ASCII SCRIPT_RACE ~~ #8 // race script
+  WRITE_ASCII SCRIPT_GENERAL ~x#drdsht~ #8 // general script
+  WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
+  WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
+  WRITE_ASCII 0x280 ~zosya~ #32 //  death variable
+
+/* Flaming Fist Officer */
+COPY_EXISTING ~%tutu_var%VAI.cre~ ~override/x#xzgu01.cre~
+  SAY NAME1 @346
+  SAY NAME2 @346
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @350
+  SAY BATTLE_CRY1 @348
+  SAY BATTLE_CRY2 @349
+  SAY BATTLE_CRY3 @350
+  SAY BATTLE_CRY4 @349
+  SAY BATTLE_CRY5 @348
+  SAY ATTACK1 @349
+  SAY ATTACK2 @348
+  SAY DAMAGE @351
+  SAY DYING @352
+  SAY SELECT_COMMON1 @353
+  SAY SELECT_COMMON2 @349
+  SAY DIALOGUE_HOSTILE @354
+  WRITE_ASCIIE 0x248 ~%DEST_RES%~ #8 //  override script
+  WRITE_ASCIIE 0x2CC ~%DEST_RES%~ #8 //  dialog
+  WRITE_ASCIIE 0x280 ~%DEST_RES%~ #32 //  death variable
+
+/* Flaming Fist Mercenary 1 */
+COPY_EXISTING ~%tutu_var%FLAME.cre~ ~override/x#xzgu02.cre~
+  SAY NAME1 @355
+  SAY NAME2 @355
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @350
+  SAY BATTLE_CRY1 @348
+  SAY BATTLE_CRY2 @349
+  SAY BATTLE_CRY3 @350
+  SAY BATTLE_CRY4 @349
+  SAY BATTLE_CRY5 @348
+  SAY ATTACK1 @348
+  SAY ATTACK2 @349
+  SAY DAMAGE @351
+  SAY DYING @352
+  SAY SELECT_COMMON1 @350
+  SAY SELECT_COMMON2 @353
+  SAY DIALOGUE_HOSTILE @356
+  SAY DIALOGUE_DEFAULT @350
+  WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+
+/* Flaming Fist Mercenary 2 */
+COPY_EXISTING ~%tutu_var%FLAMWIZ.cre~ ~override/x#xzgu03.cre~
+  SAY NAME1 @357
+  SAY NAME2 @357
+  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
+  SAY INITIAL_MEETING @350
+  SAY BATTLE_CRY1 @353
+  SAY BATTLE_CRY2 @349
+  SAY BATTLE_CRY3 @350
+  SAY BATTLE_CRY4 @349
+  SAY BATTLE_CRY5 @348
+  SAY ATTACK1 @348
+  SAY ATTACK2 @349
+  SAY DAMAGE @351
+  SAY DYING @352
+  SAY SELECT_COMMON1 @350
+  SAY SELECT_COMMON2 @349
+  SAY DIALOGUE_HOSTILE @353
+  SAY SELECT_RARE1 @349
+  WRITE_EVALUATED_ASCII 0x280 ~%DEST_RES%~ #32 //  death variable
+
+/* extending area scripts */
+EXTEND_BOTTOM ~%FishingVillage_AnkhegPit_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW1401.BAF~
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_PetersCave_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW1603.BAF~
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW3601.BAF~
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW4701.BAF~
+  EVALUATE_BUFFER
+EXTEND_BOTTOM ~%ValleyoftheTombs_Tomb_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW5001.BAF~
+  EVALUATE_BUFFER
+
+/* Add journal entries for BGEE */
+ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
+
+/* dialogues */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
+END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
+    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(227005)~
+END ELSE BEGIN
+    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
+END
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XZQU.D~
+
+/* scripts */
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#BLACK.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#STORM.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#ZOSYA.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#XZDR1.BAF~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#XZDR2.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#XZDR2.TRA~
+COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#XZDR3.BAF~
+  USING ~bg1npc/TRA/%LANGUAGE%/X#XZDR3.TRA~
+EXTEND_TOP ~%XZAR_BCS%.bcs~ ~bg1npc/Phase2/baf/X#XZDQU.BAF~
+  EVALUATE_BUFFER
+  USING ~bg1npc/TRA/%LANGUAGE%/X#XZDQU.TRA~
+COMPILE ~bg1npc/phase2/baf/x#shoutp.baf~  /* For x#xzfsp1 */
+COMPILE ~bg1npc/phase2/baf/x#druid6.baf~  /* For x#black */
+COMPILE ~bg1npc/phase2/baf/x#druid8.baf~  /* For x#storm */
+COMPILE ~bg1npc/phase2/baf/x#drui12.baf~  /* For x#zosya */
+COMPILE ~bg1npc/phase2/baf/x#drdsht.baf~  /* Druid shout script */

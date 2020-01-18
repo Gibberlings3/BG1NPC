@@ -1,51 +1,54 @@
 /* Declaration of BG1NPC Special Variables */
 
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-    OUTER_SPRINT "VoiceStrange" "False()"
-    OUTER_SPRINT "RunAwayFrom" "RunAwayFromNoLeaveArea"
-    ACTION_IF FILE_EXISTS_IN_GAME ~corwyvrn.cre~ THEN BEGIN
-    	OUTER_SPRINT "CorWyvrn"	"CORWYVRN"
-    END ELSE BEGIN
-    	OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
-    END
+  OUTER_SPRINT "VoiceStrange" "False()"
+  OUTER_SPRINT "RunAwayFrom" "RunAwayFromNoLeaveArea"
+  ACTION_IF FILE_EXISTS_IN_GAME ~corwyvrn.cre~ THEN BEGIN
+  	OUTER_SPRINT "CorWyvrn"	"CORWYVRN"
+  END ELSE BEGIN
+    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+  END
 	OUTER_SPRINT "port_s" "m"
 	OUTER_SPRINT "port_l" "l"
+  OUTER_SPRINT "portsize" "bgee"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
-    OUTER_SET housg3state5 = 0
-    
-    /* DisplayStringNoNameHead requires ToB or EE engine */
-    OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
+  OUTER_SET housg3state5 = 0
+
+  /* DisplayStringNoNameHead requires ToB or EE engine */
+  OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
 END
 
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    OUTER_SPRINT "VoiceStrange" "True()"
-    OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
-    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+  OUTER_SPRINT "VoiceStrange" "True()"
+  OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
+  OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
 	OUTER_SPRINT "port_s" "s"
 	OUTER_SPRINT "port_l" "m"
+  OUTER_SPRINT "portsize" "tutu"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
-    OUTER_SET housg3state5 = 5
+  OUTER_SET housg3state5 = 5
 
-    /* DisplayStringNoNameHead requires ToB or EE engine */
-    ACTION_IF ENGINE_IS ~tob~ THEN BEGIN
-    	OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
-    END ELSE BEGIN
-    	OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringHead"    
-    END
+  /* DisplayStringNoNameHead requires ToB or EE engine */
+  ACTION_IF ENGINE_IS ~tob~ THEN BEGIN
+    OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
+  END ELSE BEGIN
+    OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringHead"
+  END
 END
 
 ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-    OUTER_SPRINT "VoiceStrange" "False()"
-    OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
-    OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
+  OUTER_SPRINT "VoiceStrange" "False()"
+  OUTER_SPRINT ~RunAwayFrom~ ~RunAwayFrom~
+  OUTER_SPRINT "CorWyvrn"	"X#CoranWyvern"
 	OUTER_SPRINT "port_s" "s"
 	OUTER_SPRINT "port_l" "m"
+  OUTER_SPRINT "portsize" "tutu"
 
 	/* Tutu/BGT vs BGEE/EET Dialog states */
-    OUTER_SET housg3state5 = 5
+  OUTER_SET housg3state5 = 5
 
     /* DisplayStringNoNameHead requires ToB or EE engine */
-    OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
+  OUTER_SPRINT "DisplayStringNoNameHead" "DisplayStringNoNameHead"
 END

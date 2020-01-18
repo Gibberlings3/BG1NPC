@@ -1,10 +1,10 @@
-@0    = ~Da wart Ihr schlauer als ein Stein!~
-@1    = ~Hört auf zu kläffen, Hund. Ich bin gekommen, um Euren Verrat zu bestrafen, Eure wehleidige Art und Weise! Tempus steht mir bei!~
-@2    = ~Ich hatte gehofft, Ihr werdet ein bisschen schlauer, großes Frauenzimmer, bevor Ihr mich wieder belästigt. Aber ich sehe, dass Ihr das nicht seid. Glaubt Ihr, dass ich Angst vor Euch und diesen Lümmeln habe, die Euch von meinem Zauber befreiten?~
-@3    = ~Dumme Kuh! Wenn Ihr mir nicht alle in fünf Sekunden aus den Augen gegangen sied, werde ich Euch ins Jenseits befördern!~
-@4    = ~Nein! <CHARNAME> hat Euch <PRO_HISHER>e Erlaubnis gegeben, aber meine habt Ihr nicht! Erhebt Eure Waffen!~
-@5    = ~Ihr seid abstoßend, Schuft... Tötet ihn, <CHARNAME>. Einer, der um sein Leben bettelt, hat keine Ehre. Er wird Euch an Tazok verraten, wenn Ihr ihn gehen lasst.~
-@6    = ~Nein, das werde ich nicht, das werde ich nicht... *verhalten* Harpie!~
+//@0    = ~Da wart Ihr schlauer als ein Stein!~
+//@1    = ~Hört auf zu kläffen, Hund. Ich bin gekommen, um Euren Verrat zu bestrafen, Eure wehleidige Art und Weise! Tempus steht mir bei!~
+//@2    = ~Ich hatte gehofft, Ihr werdet ein bisschen schlauer, großes Frauenzimmer, bevor Ihr mich wieder belästigt. Aber ich sehe, dass Ihr das nicht seid. Glaubt Ihr, dass ich Angst vor Euch und diesen Lümmeln habe, die Euch von meinem Zauber befreiten?~
+//@3    = ~Dumme Kuh! Wenn Ihr mir nicht alle in fünf Sekunden aus den Augen gegangen sied, werde ich Euch ins Jenseits befördern!~
+//@4    = ~Nein! <CHARNAME> hat Euch <PRO_HISHER>e Erlaubnis gegeben, aber meine habt Ihr nicht! Erhebt Eure Waffen!~
+//@5    = ~Ihr seid abstoßend, Schuft... Tötet ihn, <CHARNAME>. Einer, der um sein Leben bettelt, hat keine Ehre. Er wird Euch an Tazok verraten, wenn Ihr ihn gehen lasst.~
+//@6    = ~Nein, das werde ich nicht, das werde ich nicht... *verhalten* Harpie!~
 @7    = ~Seebären verehren Umberlee, <CHARNAME>. Von ihrer überfluteten Ebene des Abyss aus beherrscht sie Wellen und Meereswinde. Sie wird aus Furcht verehrt, nicht aus Anbetung. Seeleute werfen in der Hoffnung, der Königin der Schlampen zu gefallen, Gold und Edelsteinde in den Ozean, wenn sie von einem Sturm erfasst werden. Ihre Anhänger sind genauso gewalttätig wie ihre Schirmherrin. Das wird sicher eine großartige Schlacht werden, <CHARNAME>, aber falls Ihr jemals vorhabt, zur See zu fahren... Ich weiß, dass Ihr gegen Sterbliche kämpfen könnt, aber könnt Ihr auch gegen riesige Wellen kämpfen?~
 @8    = ~Hahaha! Noch einmal, noch einmal! *klatscht in die Hände*~
 @9    = ~<CHARNAME>, wie die Götter ihn schufen, auf einem Bärenvorleger. Ein Gedanke, den ich so schnell nicht vergessen werde.~ ~<CHARNAME>, wie die Götter sie schufen, auf einem Bärenvorleger. Ein Gedanke, den ich so schnell nicht vergessen werde.~
@@ -53,7 +53,7 @@
 @52   = ~Das ist Vergangenheit. Der faule Zauber ist gebrochen, dank <CHARNAME>. Lebt wohl, Tamah, und geht mit Tempus' Segen.~
 @53   = ~Macht nicht <CHARNAME> verantwortlich - <PRO_HESHE> macht das aus Gewohnheit: ich wurde von <PRO_HIMHER> aus dem selben unnatürlichen Zustand befreit, und habe <PRO_HIMHER> daher meine Dienste als eine Art Wiedergutmachung für <PRO_HISHER>e Güte angeboten.~
 @54   = ~Das ist Vergangenheit. Der faule Zauber ist gebrochen, dank <CHARNAME>. Lebt wohl, Tamah, und geht mit Tempus' Segen.~
-@55   = ~Der ehrlose Hund ist tot! Tempus, Euer Wille ist erfüllt! Kommt, trinken wir auf Tempus und den Sieg, <CHARNAME>!~
+//@55   = ~Der ehrlose Hund ist tot! Tempus, Euer Wille ist erfüllt! Kommt, trinken wir auf Tempus und den Sieg, <CHARNAME>!~
 @56   = ~*schüttelt sich* An diesem Ort herrscht ein fauliger Geruch... etwas kaltes und widerliches, und irgendwie... scheint es vertraut. Tempus, gebt uns Stärke um die Quelle des Ganzen zu finden.~
 @57   = ~Ah, es gibt doch nichts über den Geruch von frischem Blut, um einem ein Prickeln in die Nase und ein Lächeln aufs Gesicht zu zaubern. Uh, dieser hier hätte seine Haare einmal alle zehn Tage waschen können.~
 @58   = ~Endlich eine Schlacht, die meines Eifers Wert ist! BEGEGNET EUREM VERDERBEN, UNHOLD! TEMPUS WIRD EUER BLUT KOCHEN SEHEN!~

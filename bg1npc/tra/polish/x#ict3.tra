@@ -39,7 +39,7 @@
 @38   = ~Dziêkujê ci, obroñco prawoœci!~
 @39   = ~Nie bêdê sta³ bezczynnie, a tym bardziej nie pomogê ci zakoñczyæ tego, co rozpoczê³y gnolle, torturuj¹c tê niewinn¹ kobietê! Lady Dynaheir, z przyjemnoœci¹ pomogê ci stawiæ czo³a tym... bandytom.~
 @40   = ~Dziêkujê twemu szlachetnemu sercu i hojnemu duchowi!~
-@41   = ~Okaza³eœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³eœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~ ~Okaza³aœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³aœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~ 
+@41   = ~Okaza³eœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³eœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~ ~Okaza³aœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³aœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~
 @42   = ~Czy teraz og³aszasz siê otwarcie wrogiem ¯elaznego Tronu? Có¿, nie wszystko mo¿na trzymaæ w ukryciu, jak przypuszczam, wiêc byæ mo¿e to najlepsze rozwi¹zanie.~
 @43   = ~Hmph. Propozycja od jednego z plugawych Druidów Cienia. Jestem zdumiona, ¿e nie zaatakowa³ nas od razu. <CHARNAME>... nie zaufam tym ich wywarom. Ta mikstura powinna byæ wyrzucona zamiast wypita.~
 @44   = ~Twój towarzysz okaza³ przyjaŸñ. Nie wystawiaj mojej tolerancji na próbê.~ ~Twoja towarzyszka okaza³a przyjaŸñ. Nie wystawiaj mojej tolerancji na próbê.~
@@ -82,7 +82,7 @@
 @81   = ~Hmmm.~
 @82   = ~(wzdycha) Przynajmniej postawi¹ nam imponuj¹cy pomnik...~
 @83   = ~Bazyliszek! Zabójca wzrokiem... Wiem jak to jest byæ kamieniem i moim ogromnym pragnieniem jest wzi¹æ odwet na pancerzu tej kreatury!~
-@84   = ~Znudzona, g³upia, i masz rachunki do wyrównania. Nadajesz siê.~ 
+@84   = ~Znudzona, g³upia, i masz rachunki do wyrównania. Nadajesz siê.~
 @85   = ~A teraz idŸ tam i zabij natychmiast tego szkodnika!~
 @86   = ~Oddaæ ca³e nasze ¿elazo?! Szybciej odda³abym swoje dziewictwo!~
 @87   = ~Ach, spójrz. Wiêcej typowego naziemczego œcierwa dla rozrywki. Mêczy mnie s³uchanie ich têpych wywodów.~
@@ -209,9 +209,9 @@
 @208  = ~Nie lekcewa¿ jego s³ów, <CHARNAME>. Wyczuwam w nim moc; zaiste, jest potê¿nym czarodziejem.~
 @209  = ~Szczêœcie Tymory, ale jesteœ obrzydliwy! I pomyœleæ, ¿e ja chcia³am byæ magiem! Brr...~
 @210  = ~Czy ktoœ mówi³ o bogactwie? Nie ma nic s³odszego ni¿ uczciwie zgrabione ³upy z cia³ martwych drani!~
-@211  = ~Jak to mówi¹: 
+@211  = ~Jak to mówi¹:
 
-Mag spotkany o brzasku 
+Mag spotkany o brzasku
 ³owca przygód w potrzasku
 mag zgin¹³ o zmroku
 podró¿nik jest rad i ma spokój~
@@ -433,7 +433,7 @@ podró¿nik jest rad i ma spokój~
 @427  = ~Grr, chcia³abym, ¿eby twoje imiê odzwierciedla³o jedn¹ z cnót drzew - ich rozs¹dn¹ ciszê.~
 @428  = ~Mieszczanin oczernia s³ugê natury? Œmieræ mu! Chwilka, dlaczego jesteœ w mieœcie, druidko? Czy jesteœ jedn¹ z tych wypaczonych druidów, którzy ucz¹ nas, ¿e miasta... zreszt¹ to niewa¿ne w tej chwili. Najpierw zabijmy maga!~
 @429  = ~W imieniu grupy przepraszam za najœcie. Klnê siê na moj¹ przysiêgê druida, ¿e wtr¹canie siê w prywatne sprawy innych nie jest zajêciem moim, ani moich kompanów. Byæ mo¿e w celu wyjaœnienia tego nieporozumienia moglibyœmy zaj¹æ siê Gervisse za ciebie?~
-@430  = ~Hmm, kolejny druid w mieœcie. Jakie to... dziwne. Przypuszczam, ¿e mogliœcie próbowaæ porozmawiaæ z nim; nie s¹dzê, aby mog³o byæ jeszcze gorzej. Próbowa³am siê go pozbyæ, ale w odwecie rozpowiada³ plotki na mój temat. Jeœli oczyœcicie s¹siedztwo z jego obecnoœci, bêdê wdziêczna.~ 
+@430  = ~Hmm, kolejny druid w mieœcie. Jakie to... dziwne. Przypuszczam, ¿e mogliœcie próbowaæ porozmawiaæ z nim; nie s¹dzê, aby mog³o byæ jeszcze gorzej. Próbowa³am siê go pozbyæ, ale w odwecie rozpowiada³ plotki na mój temat. Jeœli oczyœcicie s¹siedztwo z jego obecnoœci, bêdê wdziêczna.~
 @431  = ~Ratowanie gadaj¹cych kurcz¹t od wielkich z³ych wilków! Rety, co to ma byæ! By³abym bardziej rada, gdyby to P³omienna Piêœæ ci zagra¿a³a.~
 @432  = ~<CHARNAME>! To wilk goni¹cy kurczaka... nie powinniœmy wtr¹caæ siê w kr¹g ¿ycia... CZEKAJ CHWILÊ! To MÓWI! Wstrêtni ludzie! Nie mogli zostawiæ kurczaka z jego gdakaniem! Powiedz mi istoto kto - NIE! Nie MÓW mi niczego! Nie bêdê ciê zachêcaæ, byœ zachowywa³ siê w tak nienaturalny sposób!~
 @433  = ~Zabij *gdak* wilka! *gdak* G³upia!~
@@ -476,7 +476,7 @@ podró¿nik jest rad i ma spokój~
 @470  = ~Tak, MOJ¥ wiedŸmê! OdejdŸ, brudny Czerwony Magu, albo Boo wyd³ubie ci oczy!~
 @471  = ~Brudny?! My³em siê dzisiaj! (Czego nie mogê powiedzieæ o tym gorylu.)~
 @472  = ~Tak, brudny! A teraz idŸ, albo naœlê na ciebie chomika!~
-@473  = ~To nie twoja sprawa, ty obleœna... obleœna... ma³po! (Tak, to za³atwi sprawê.)~ 
+@473  = ~To nie twoja sprawa, ty obleœna... obleœna... ma³po! (Tak, to za³atwi sprawê.)~
 @474  = ~Ten wynios³y czarodziej wydaje siê aroganckim typem, a te czerwone szaty sugeruj¹, ¿e pochodzi z Thay... Powinniœmy byæ ostro¿ni, <CHARNAME>.~
 @475  = ~Co mówisz?~
 @476  = ~Historia Martwej Trójki - ma racjê, to naprawdê mroczna opowieœæ. Ju¿ samo myœlenie o tych bóstwach powoduje ciarki na plecach.~
@@ -606,7 +606,7 @@ podró¿nik jest rad i ma spokój~
 @600  = ~Twoja proœba o pomoc zostanie wys³uchana. Zrobimy co w naszej mocy, by znaleŸæ przyczynê tych niecnych wypadków w twej kopalni!~
 @601  = ~Wiêc ruszamy w drogê, <CHARNAME>. Jako ¿e to twoja pierwsza misja, obawiam siê, ¿e moje umiejêtnoœci uzdrowiciela bêd¹ czêsto sprawdzane. Mimo to, postaram siê zachowaæ was wszystkich w jednym kawa³ku i powrócimy do Berruna jako zwyciêzcy.~
 @602  = ~To by³ dobry wybór, aby nie sprzymierzaæ siê z t¹ z³¹ istot¹, <CHARNAME>!~
-@603  = ~Bardzo prawdopodobne, ¿e ona posiada okrutne i z³e serce, i przypuszczam, ¿e nikt nie bêdzie po niej p³aka³. Ale pomimo tego nie podejmowa³abym tej decyzji tak lekko, <CHARNAME>.~ 
+@603  = ~Bardzo prawdopodobne, ¿e ona posiada okrutne i z³e serce, i przypuszczam, ¿e nikt nie bêdzie po niej p³aka³. Ale pomimo tego nie podejmowa³abym tej decyzji tak lekko, <CHARNAME>.~
 @604  = ~Z pewnoœci¹ tak zrobimy, mój przyjacielu. Wkrótce, te pó³-ogry nie bêd¹ ju¿ stanowi³y zagro¿enia.~
 @605  = ~Nie musisz wiêcej mówiæ, Bjornin. Te pó³-ogry ju¿ s¹ trupami.~
 @606  = ~Och, krwawe szczegó³y podboju tej niezwyciê¿onej fortecy... Doprawdy, a¿ wiruje mi w g³owie z podniecenia.~
@@ -818,7 +818,7 @@ podró¿nik jest rad i ma spokój~
 @812  = ~P³omienna Piêœæ! Znowu!~
 @813  = ~Jeœli wci¹¿ potrzebujesz pomocy w rozgromieniu okolicznych bandytów, Jesso Vai, mój przyjaciel zgodzi³ siê pomóc odnaleŸæ ich kryjówkê.~ ~Jeœli wci¹¿ potrzebujesz pomocy w rozgromieniu okolicznych bandytów, Jesso Vai, moja przyjació³ka zgodzi³a siê pomóc odnaleŸæ ich kryjówkê.~
 @814  = ~Dzieñ dobry, Kivanie z Shilmisty. Ja... wprowadzê twego przyjaciela w... szczegó³y. Jeœli pozwolisz...~ ~Dzieñ dobry, Kivanie z Shilmisty. Ja... wprowadzê twoj¹ przyjació³kê w... szczegó³y. Jeœli pozwolisz...~
-@815  = ~Cieszê siê, ¿e przyj¹³eœ do dru¿yny ³owcê. Potrzebuje towarzystwa, aby nie oszaleæ. Szczere serce i duch pe³en pasji... i ten bezgraniczny smutek. Przera¿a mnie widok mê¿czyzny, który tak szybko siê wypala. Uwa¿aj na niego, dobrze?~ 
+@815  = ~Cieszê siê, ¿e przyj¹³eœ do dru¿yny ³owcê. Potrzebuje towarzystwa, aby nie oszaleæ. Szczere serce i duch pe³en pasji... i ten bezgraniczny smutek. Przera¿a mnie widok mê¿czyzny, który tak szybko siê wypala. Uwa¿aj na niego, dobrze?~
 @816  = ~Cieszê siê, ¿e rozs¹dna kobieta czuwa nad naszym elfim ³owc¹. Szczere serce i duch pe³en pasji... i ten bezgraniczny smutek. Przera¿a mnie widok mê¿czyzny, który tak szybko siê wypala. Uwa¿aj na niego, dobrze? I jeœli chcesz pogadaæ – piwo jest na mój koszt.~
 @817  = ~Wracaj¹c do interesów... masz jakieœ pytania, <CHARNAME>?~
 @818  = ~ZnaleŸæ kogoœ takiego nie bêdzie trudne! Ka¿dy mê¿czyzna w Faerunie odpowiada temu opisowi! (œmieje siê)~
@@ -890,12 +890,12 @@ podró¿nik jest rad i ma spokój~
 @884  = ~Có¿... w pionie, byæ mo¿e, ale tak. Wygl¹da na to, ¿e nie ma szacunku dla w³asnej pracy.~
 @885  = ~Có¿, 5000 to by³aby wystarczaj¹ca motywacja dla mnie, gdybym by³ awanturnikiem! Có¿, przepraszam, muszê wracaæ do pracy!~
 @886  = ~S³uchajcie! S³uchajcie! Z rozkazu jaœnie oœwieconego s³ugi Lathandera, Kelddatha Ormlyra, gubernatora Beregostu i z uwagi na dobro obywateli...~
-@887  = ~Jesteœ odra¿aj¹cym nikczemnikiem... Zabij go, <CHARNAME>. Ktoœ, kto b³aga o ¿ycie nie ma honoru. Zdradzi ciê dla Tazoka, jeœli pozwolisz mu odejœæ.~
-@888  = ~Nie, nie zdradzê, nie zdradzê... (pó³g³osem) Jêdza!~
-@889  = ~Zobacz, biedaczysko siê prawie zafajda³o! Zabijmy go, aby ten s³abiak nie móg³ siê rozmno¿yæ. Chocia¿, to mo¿e nie byæ potrzebne. Zapewne po dzisiejszej przygodzie jego mêskoœæ ze strachu na zawsze utknê³a miêdzy jego poœladkami. (œmieje siê)~
-@890  = ~Suka.~
-@891  = ~<CHARNAME>, nie mo¿emy pozwoliæ uciec temu draniowi, bo na pewno poinformuje swoich prze³o¿onych. Rozs¹dnie by by³o, gdybyœmy mogli... zapobiec temu... w jakiœ sposób...~
-@892  = ~Wszyscy zginiecie!~
+//@887  = ~Jesteœ odra¿aj¹cym nikczemnikiem... Zabij go, <CHARNAME>. Ktoœ, kto b³aga o ¿ycie nie ma honoru. Zdradzi ciê dla Tazoka, jeœli pozwolisz mu odejœæ.~
+//@888  = ~Nie, nie zdradzê, nie zdradzê... (pó³g³osem) Jêdza!~
+//@889  = ~Zobacz, biedaczysko siê prawie zafajda³o! Zabijmy go, aby ten s³abiak nie móg³ siê rozmno¿yæ. Chocia¿, to mo¿e nie byæ potrzebne. Zapewne po dzisiejszej przygodzie jego mêskoœæ ze strachu na zawsze utknê³a miêdzy jego poœladkami. (œmieje siê)~
+//@890  = ~Suka.~
+//@891  = ~<CHARNAME>, nie mo¿emy pozwoliæ uciec temu draniowi, bo na pewno poinformuje swoich prze³o¿onych. Rozs¹dnie by by³o, gdybyœmy mogli... zapobiec temu... w jakiœ sposób...~
+//@892  = ~Wszyscy zginiecie!~
 @893  = ~To niezbyt... eee... mi³o tak naciskaæ, <CHARNAME>.~
 @894  = ~<CHARNAME>, magiczne b³yskotki s¹ cenne, ale szacunek cz³owieka jest jeszcze cenniejszy; nie zyskasz go, okradaj¹c tych, których uratowa³eœ. Przemyœl to.~ ~<CHARNAME>, magiczne b³yskotki s¹ cenne, ale szacunek cz³owieka jest jeszcze cenniejszy; nie zyskasz go, okradaj¹c tych, których uratowa³aœ. Przemyœl to.~
 @895  = ~Ktoœ naprawdê powinien daæ mu nauczkê!~
@@ -908,7 +908,7 @@ podró¿nik jest rad i ma spokój~
 @902  = ~Uda³bym siê za tym ch³opakiem choæby po to, ¿eby powiedzieæ jego opiekunowi, i¿ to nie wypada, aby dziecko prosi³o o pomoc na ulicy.~
 @903  = ~Zacne s³owa, drowko, ale lepiej ich nie zapomnij. Bêdê uwa¿nie obserwowa³ twe kroki.~
 @904  = ~Jestem tego pewna, jaluk!~
-@905  = ~Tak, mo¿e to nie byæ m¹dre pozwoliæ jej wêdrowaæ po okolicy, nawet jeœli to dla jej bezpieczeñstwa. I powinniœmy sprawdziæ mimo wszystko, czy pomaganie jej by³o s³uszne. Jeœli wyprowadzi³a nas w pole... wtedy bêdzie mi jej naprawdê szkoda.~ 
+@905  = ~Tak, mo¿e to nie byæ m¹dre pozwoliæ jej wêdrowaæ po okolicy, nawet jeœli to dla jej bezpieczeñstwa. I powinniœmy sprawdziæ mimo wszystko, czy pomaganie jej by³o s³uszne. Jeœli wyprowadzi³a nas w pole... wtedy bêdzie mi jej naprawdê szkoda.~
 @906  = ~Zachowaj swoj¹ litoœæ dla naszych nieprzyjació³!~
 @907  = ~To by³o przygnêbiaj¹ce.~
 @908  = ~Widzê naziemnego elfa wiêdn¹cego w podziemiu! Ha! Wreszcie to iblith zda³o sobie sprawê z pró¿noœci swego istnienia.~

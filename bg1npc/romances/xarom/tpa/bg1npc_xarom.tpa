@@ -1,0 +1,35 @@
+/* XAN ROMANCE */
+
+APPEND ~trigger.ids~ ~0x40da HaveSpellParty(I:Spell*Spell)~ UNLESS ~HaveSpellParty~
+
+/* sound */
+COPY ~bg1npc/romances/XAROM/Sound/X#BLANK.WAV~ ~override~
+
+/* Xan's Dream 2DA set up */
+COPY ~bg1npc/romances/XAROM/MOS/XANDREAM.MOS~ ~override~
+COPY ~bg1npc/romances/XAROM/MOS/X#BLANK.2da~ ~override/XANDREAM.2da~
+       REPLACE_TEXTUALLY ~IMAGE~ ~XANDREAM~
+       REPLACE 99999 @475
+
+/* Script */
+EXTEND_TOP  ~%XAN_DREAM%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAROD.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%XAN_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAROM.BAF~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%SHARTEEL_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XASTRE.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%JAHEIRA_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAJARE.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%MONTARON_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAMORE.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%TIAX_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XATIRE.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%MINSC_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAMIRE.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%QUAYLE_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAQURE.baf~
+  EVALUATE_BUFFER
+EXTEND_TOP  ~%EDWIN_BCS%.BCS~ ~bg1npc/romances/XAROM/baf/X#XAEDRE.baf~
+  EVALUATE_BUFFER
+
+/* dialogue */
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/XAROM/dlg/X#XANLT.D~

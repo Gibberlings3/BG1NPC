@@ -1,0 +1,250 @@
+/* set up .tra files for Tutu vs BGT sound resources, create platform files */
+  COPY ~bg1npc/TRA/%LANGUAGE%/X#ADDIAL_tmp.tra~ ~bg1npc/TRA/%LANGUAGE%/X#ADDIAL.tra~
+      EVALUATE_BUFFER
+
+  /* Patching _ELDOTH.bcs */
+  COPY_EXISTING ~%ELDOTH_BCS%.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+    	REPLACE_TEXTUALLY CASE_INSENSITIVE ~GlobalTimerExpired("RescueSkie","GLOBAL")~ ~!Global("X#SkieLeftEldoth","GLOBAL",1) GlobalTimerExpired("RescueSkie","GLOBAL")~
+    END
+  BUT_ONLY_IF_IT_CHANGES
+
+  /* Death variable assignments for Yeslick dialogue X#YESLI1.BAF */
+  COPY_EXISTING ~%tutu_var%iron11.cre~ ~override~
+    WRITE_ASCII 0x280 ~iron11~ #32 //  death variable
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING ~%tutu_var%poe.cre~ ~override~
+    WRITE_ASCII 0x280 ~poe~ #32 //  death variable
+  BUT_ONLY_IF_IT_CHANGES
+
+  /* items */
+  /* Ring of Human Influence */
+  COPY ~bg1npc/Phase1/ITM/X#RINGRO.itm~ ~override/X#RINGRO.itm~
+    SAY NAME1 @10
+    SAY NAME2 @11
+    SAY UNIDENTIFIED_DESC @12
+    SAY DESC @13
+
+  /* Ajantis shield */
+  COPY ~bg1npc/Phase1/ITM/X#ISHAJ.BAM~ ~override~
+  COPY ~bg1npc/Phase1/ITM/X#CSHAJ.BAM~ ~override~
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+	COPY ~bg1npc/Phase1/ITM/X#AJSHLD_EE.itm~ ~override/x#ajshld.itm~
+  END ELSE BEGIN /* Tutu or BGT */
+	  COPY ~bg1npc/Phase1/ITM/X#AJSHLD.itm~ ~override~
+  END
+  COPY_EXISTING ~X#AJSHLD.itm~ ~override~
+    SAY NAME1 @6
+    SAY NAME2 @7
+    SAY UNIDENTIFIED_DESC @8
+    SAY DESC @9
+      PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+        WRITE_ASCII 0x44 ~GSHLD03~ #8  //  ground icon
+      END
+    BUT_ONLY
+
+  /* BGEE: Add Ajantis' shield to item_use.2da */
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~
+  	  UNLESS ~x#ajshld~
+  	COPY_EXISTING ~item_use.2da~ ~override~
+	  PRETTY_PRINT_2DA
+  END
+
+  /* Give Ajantis his shield and a bastard sword (no proficiency) */
+  COPY_EXISTING ~%tutu_var%ajanti.cre~  ~override~
+                ~%tutu_var%ajanti4.cre~ ~override~
+                ~%tutu_var%ajanti6.cre~ ~override~
+    ADD_CRE_ITEM ~%tutu_var%SW1H01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+    ADD_CRE_ITEM ~X#AJSHLD~ #0 #0 #0 ~IDENTIFIED~ ~SHIELD~
+
+  /* Imoen - Pink Xan */
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+	COPY ~bg1npc/Phase1/cre/pinkxans_ee.bmp~ ~override/pinkxans.bmp~
+	COPY ~bg1npc/Phase1/cre/pinkxanl_ee.bmp~ ~override/pinkxanl.bmp~
+  END ELSE BEGIN /* Tutu or BGT */
+	COPY ~bg1npc/Phase1/cre/pinkxans.bmp~ ~override~
+  	COPY ~bg1npc/Phase1/cre/pinkxanl.bmp~ ~override~
+  END
+
+  COPY ~bg1npc/Phase1/ITM/PINKXAN.SPL~ ~override~
+    SAY 8 @14
+    WRITE_ASCII 0xde ~pinkxans~
+    WRITE_ASCII 0xae ~pinkxanl~
+
+  COPY ~bg1npc/Phase1/ITM/PINKXAN.SPL~ ~override/pinkback.spl~
+    SAY 8 @14
+    PATCH_IF (GAME_IS ~bgt bgee eet~) BEGIN  /* BGT, BGEE, EET */
+        WRITE_ASCII 0xde ~xans~ #8
+		WRITE_ASCII 0xae ~xanl~ #8
+    END ELSE BEGIN /* Tutu */
+        WRITE_ASCII 0xde ~_ans~ #8
+		WRITE_ASCII 0xae ~_anl~ #8
+	END
+
+  /* Imoen - Lockpick */
+  COPY ~bg1npc/Phase1/ITM/X#IMSAF.SPL~ ~override/x#imsaf.spl~
+    SAY 8 @15
+
+  COPY ~bg1npc/Phase1/ITM/NUTKIN.EFF~ ~override~
+
+  /* Imoen's Tome */
+  COPY ~bg1npc/Phase1/ITM/X#DEX.SPL~ ~override~
+    SAY NAME1 @782 // spell name "Dexterity Increase"
+    WRITE_ASCII 0x10 ~CAS_M08~ #8   // casting sound
+    WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
+    WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
+    WRITE_ASCII 0xDE ~EFF_P07~ #8   // resource
+
+  COPY ~bg1npc/Phase1/ITM/X#POLY.SPL~ ~override~
+    WRITE_ASCII 0x10 ~CAS_M08~ #8    // casting sound
+    WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
+    WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
+    WRITE_ASCII 0xDE ~EFF_P07~ #8    // resource
+
+  COPY ~bg1npc/Phase1/ITM/X#TOME.itm~ ~override~
+    SAY NAME1 @16
+    SAY NAME2 @16
+    SAY UNIDENTIFIED_DESC @17
+    SAY DESC @18
+
+  COPY ~bg1npc/Phase1/ITM/X#IAMUL.itm~ ~override/x#iamul.itm~
+    SAY NAME1 @19
+    SAY NAME2 @19
+    SAY UNIDENTIFIED_DESC @20
+    SAY DESC @20
+
+  /* Safana's Item: */
+  COPY ~bg1npc/Phase1/ITM/X#SABOX.itm~ ~override/x#sabox.itm~
+    SAY NAME1 @21
+    SAY NAME2 @21
+    SAY UNIDENTIFIED_DESC @22
+    SAY DESC @22
+
+  /* Imoen - Tarnesh Spell scene */
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/baf/X#CANTRP.BAF~
+
+  /* Phase 1 - Dialogues */
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#AJANTIS.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#ALORA.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#ALOREPL.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#BRANW.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#CORAN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#DYNAH.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#EDWIN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#ELDOTH.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#FALDORN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#GARRI.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#IMOEN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#JAHEIRA.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#KAGAIN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#KHALID.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#KIVAN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#MINSC.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#MONTARON.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#QUAYL.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#SAFANA.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#SHARTEEL.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#SKIE.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#TIAX.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#VICONIA.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#XAN.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#XZAR.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#YESLICK.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#ADDIAL.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#RUMOR.D~
+  COMPILE EVALUATE_BUFFER ~bg1npc/Phase1/dlg/X#PCBURY.D~
+
+  /* Dream script compilation */
+  EXTEND_TOP ~%EDWIN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#EDWIND.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%ELDOTH_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#ELDOTD.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%IMOEN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#IMOEND.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%KAGAIN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#KAGAID.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%KIVAN_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#KIVAND.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%MINSC_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#MINSCD.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%MONTARON_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#MONTAD.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%SHARTEEL_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#SHARTD.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%SKIE_DREAM%.bcs~    ~bg1npc/Phase1/baf/P#SKIED.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%VICONIA_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#VICOND.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%XZAR_DREAM%.bcs~    ~bg1npc/Phase1/baf/P#XZARD.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%YESLICK_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#YESLID.BAF~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~%GARRICK_DREAM%.bcs~   ~bg1npc/Phase1/baf/P#GARRID.BAF~
+    EVALUATE_BUFFER
+
+  /* NPC override script compilation */
+  EXTEND_TOP ~%ALORA_BCS%.bcs~   ~bg1npc/Phase1/baf/X#ALORA1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%AJANTIS_BCS%.bcs~ ~bg1npc/Phase1/baf/X#AJANTIS1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%BRANWEN_BCS%.bcs~  ~bg1npc/Phase1/baf/X#BRANWEN1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%CORAN_BCS%.bcs~   ~bg1npc/Phase1/baf/X#CORAN1.BAF~
+      EVALUATE_BUFFER
+      USING ~bg1npc/TRA/%LANGUAGE%/X#CORAN1.TRA~
+  EXTEND_TOP ~%DYNAHEIR_BCS%.bcs~ ~bg1npc/Phase1/baf/X#DYNAHEIR1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%EDWIN_BCS%.bcs~   ~bg1npc/Phase1/baf/X#EDWIN1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%ELDOTH_BCS%.bcs~  ~bg1npc/Phase1/baf/X#ELDOT1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%FALDORN_BCS%.bcs~   ~bg1npc/Phase1/baf/X#FALDO1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%GARRICK_BCS%.bcs~   ~bg1npc/Phase1/baf/X#GARRI1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%IMOEN_BCS%.bcs~  ~bg1npc/Phase1/baf/X#IMOEN1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%JAHEIRA_BCS%.bcs~ ~bg1npc/Phase1/baf/X#JAHEIRA1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%KAGAIN_BCS%.bcs~  ~bg1npc/Phase1/baf/X#KAGAIN1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%KHALID_BCS%.bcs~  ~bg1npc/Phase1/baf/X#KHALID1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%KIVAN_BCS%.bcs~   ~bg1npc/Phase1/baf/X#KIVAN1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%MINSC_BCS%.bcs~   ~bg1npc/Phase1/baf/X#MINSC1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%MONTARON_BCS%.bcs~ ~bg1npc/Phase1/baf/X#MONTA1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%QUAYLE_BCS%.bcs~  ~bg1npc/Phase1/baf/X#QUAYLE1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%SAFANA_BCS%.bcs~  ~bg1npc/Phase1/baf/X#SAFANA1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%SHARTEEL_BCS%.bcs~ ~bg1npc/Phase1/baf/X#SHAR1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%SKIE_BCS%.bcs~    ~bg1npc/Phase1/baf/X#SKIE1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%TIAX_BCS%.bcs~    ~bg1npc/Phase1/baf/X#TIAX1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%VICONIA_BCS%.bcs~ ~bg1npc/Phase1/baf/X#VICON1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%XAN_BCS%.bcs~     ~bg1npc/Phase1/baf/X#XAN1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%XZAR_BCS%.bcs~    ~bg1npc/Phase1/baf/X#XZAR1.BAF~
+      EVALUATE_BUFFER
+  EXTEND_TOP ~%YESLICK_BCS%.bcs~ ~bg1npc/Phase1/baf/X#YESLI1.BAF~
+      EVALUATE_BUFFER
+
+  /* Firewine */
+  EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~bg1npc/Phase1/baf/P#FW4500.baf~
+    EVALUATE_BUFFER
+
+  COPY_EXISTING ~%tutu_scriptf%twbax_a.cre~ ~override~
+                ~%tutu_scriptf%twbax_b.cre~ ~override~
+                ~%tutu_scriptf%twbax_c.cre~ ~override~
+                ~%tutu_scriptf%twbax_d.cre~ ~override~
+                ~%tutu_scriptf%twbax_e.cre~ ~override~
+    WRITE_EVALUATED_ASCII 0x2CC ~X#RUMOR~ #8 //  dialog
+  BUT_ONLY_IF_IT_CHANGES

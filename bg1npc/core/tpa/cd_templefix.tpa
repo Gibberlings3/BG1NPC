@@ -1,0 +1,163 @@
+/* CamDawg's Temple Healing Fix */
+/* give all stores the normal suite of cures available */
+COPY_EXISTING_REGEXP GLOB ~^.+\.sto$~ ~override~
+  READ_BYTE 0x10 "flags" ELSE 0
+  PATCH_IF (("%flags%" BAND 0b00010000) = 0b00010000) BEGIN //  if sures available; also filters out invalid files
+    READ_LONG 0x2c "buy_off"   ELSE 0
+    READ_LONG 0x34 "sale_off"  ELSE 0
+    READ_LONG 0x4c "drink_off" ELSE 0
+    READ_LONG 0x70 "cure_off"  ELSE 0
+    READ_LONG 0x74 "cure_num"  ELSE 0
+    SET "new_cure" = 0
+    SET "sppr103" = 0 //  cure light wounds
+    SET "sppr212" = 0 //  slow poison
+    SET "sppr303" = 0 //  dispel magic
+    SET "sppr307" = 0 //  remove curse
+    SET "sppr401" = 0 //  cure serious wounds
+    SET "sppr502" = 0 //  cure critical wounds
+    SET "sppr504" = 0 //  raise dead
+    SET "sppr607" = 0 //  heal
+    SET "sppr712" = 0 //  resurrection
+    SET "sppr713" = 0 //  greater restoration
+    //  check if cures already available
+    FOR (index = 0; index < cure_num; index = index + 1) BEGIN
+      READ_ASCII ("%cure_off%" + ("%index%" * 0x0c)) "resref"
+      PATCH_IF ("%resref%" STR_EQ "sppr103") BEGIN
+        SET "sppr103" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr212") BEGIN
+        SET "sppr212" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr303") BEGIN
+        SET "sppr303" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr307") BEGIN
+        SET "sppr307" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr401") BEGIN
+        SET "sppr401" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr502") BEGIN
+        SET "sppr502" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr504") BEGIN
+        SET "sppr504" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr607") BEGIN
+        SET "sppr607" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr712") BEGIN
+        SET "sppr712" = 1
+      END ELSE
+      PATCH_IF ("%resref%" STR_EQ "sppr713") BEGIN
+        SET "sppr713" = 1
+      END
+    END
+    //  add cures if not already present
+    PATCH_IF ("%sppr103%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr103~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 50        //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr212%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr212~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 150       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr303%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr303~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr307%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr307~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 500       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr401%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr401~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 100       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr502%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr502~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 200       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr504%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr504~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr607%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr607~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr712%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr712~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 1000      //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    PATCH_IF ("%sppr713%" = 0) BEGIN //  if cure not already available
+      INSERT_BYTES  ("%cure_off%" +        ("%cure_num%" * 0x0c)) 0x0c
+        WRITE_ASCII ("%cure_off%" +        ("%cure_num%" * 0x0c)) ~sppr713~ //  resref
+        WRITE_LONG  ("%cure_off%" + 0x08 + ("%cure_num%" * 0x0c)) 750       //  price
+      SET "cure_num" = "%cure_num%" + 1
+      SET "new_cure" = "%new_cure%" + 1
+    END
+    //  adjust offsets and counts if cures inserted
+    PATCH_IF ("%new_cure%" > 0) BEGIN
+      WRITE_LONG 0x74 "%cure_num%"
+      PATCH_IF ("%buy_off%" > "%cure_off%") BEGIN
+        WRITE_LONG 0x2c ("%buy_off%" + ("%new_cure%" * 0x0c))
+      END
+      PATCH_IF ("%sale_off%" > "%cure_off%") BEGIN
+        WRITE_LONG 0x34 ("%sale_off%" + ("%new_cure%" * 0x0c))
+      END
+      PATCH_IF ("%drink_off%" > "%cure_off%") BEGIN
+        WRITE_LONG 0x4c ("%drink_off%" + ("%new_cure%" * 0x0c))
+      END
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+/* Update SPELDESC.2DA for Temple Fix in BGEE */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY_EXISTING ~speldesc.2da~ ~override~
+  COUNT_2DA_ROWS 2 "cnt_row"
+  FOR (cnt = 0; cnt < %cnt_row%; cnt = cnt + 1) BEGIN
+    READ_2DA_ENTRY "%cnt%" 0 2 "spl_name"
+    PATCH_IF ("%spl_name%" STR_EQ "sppr502") BEGIN
+      SET_2DA_ENTRY "%cnt%" 1 2 "25357"
+    END
+    PATCH_IF ("%spl_name%" STR_EQ "sppr607") BEGIN
+      SET_2DA_ENTRY "%cnt%" 1 2 "25358"
+    END
+    PATCH_IF ("%spl_name%" STR_EQ "sppr712") BEGIN
+      SET_2DA_ENTRY "%cnt%" 1 2 "25359"
+    END
+    PATCH_IF ("%spl_name%" STR_EQ "sppr713") BEGIN
+      SET_2DA_ENTRY "%cnt%" 1 2 "25360"
+    END
+  END
+BUT_ONLY_IF_IT_CHANGES
+END
