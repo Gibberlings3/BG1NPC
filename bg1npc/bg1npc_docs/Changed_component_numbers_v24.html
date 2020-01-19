@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Changed Component Numbering in v24.x vs. v23.3</title>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <style>
+      body {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      thead tr:nth-child(1) th {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      
+      tbody {
+        border-bottom: 2px outset #eee;
+      }
+
+      tbody:nth-child(odd) {
+        background-color: #ddd;
+      }
+
+      tbody:nth-child(even) {
+        background-color: #eee;
+      }
+      
+      td, th {
+        vertical-align: baseline;
+        padding: 5px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #000099;
+        color: #fff;
+        font-weight: bold;
+      }
+      
+      sup a {
+        color: inherit;
+        text-decoration: none;
+      }
+      
+      .references {
+        margin: 10px;
+      }
+      
+      .references div {
+        padding: 5px;
+      }
+      
+      .references div:target {
+        background-color: #d3d9ff;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Component name</th>
+          <th>old number in v23.3</th>
+          <th>new number in v24.x</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Required Modifications</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Banters, Quests, and Interjections</td>
+          <td>1</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Give Edwin his BG2 portrait</td>
+          <td>2</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Give Imoen her BG2 portrait</td>
+          <td>3</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Give Jaheira her BG2 portrait</td>
+          <td>4</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Give Minsc his BG2 portrait</td>
+          <td>5</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Give Viconia her BG2 portrait</td>
+          <td>6</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait</td>
+          <td>7</td>
+          <td>150</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues</td>
+          <td>8</td>
+          <td>160</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">The BG1 NPC Project: Ajantis Romance Core (teen content)</td>
+          <td rowspan="5">9</td>
+          <td>20 /* Speed: 1 hour real time (standard) minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>21 /* Speed: 45 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>22 /* Speed: 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>23 /* Speed: 15 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>24 /* Speed: 90 minutes real time minimum between LoveTalks */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">The BG1 NPC Project: Branwen's Romance Core (teen content)</td>
+          <td rowspan="5">10</td>
+          <td>30 /* Speed: 1 hour real time (standard) minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>31 /* Speed: 45 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>32 /* Speed: 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>33 /* Speed: 15 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>34 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">The BG1 NPC Project: Coran's Romance Core (adult content)</td>
+          <td rowspan="5">11</td>
+          <td>40 /* Speed: 1 hour real time (standard) minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>41 /* Speed: 45 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>42 /* Speed: 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>43 /* Speed: 15 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>44 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">The BG1 NPC Project: Dynaheir's Romance Core (teen content)</td>
+          <td rowspan="5">12</td>
+          <td>50 /* Speed: 1 hour real time (standard) minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>51 /* Speed: 45 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>52 /* Speed: 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>53 /* Speed: 15 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>54 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">The BG1 NPC Project: Shar-Teel Relationship Core (adult content)</td>
+          <td rowspan="5">13</td>
+          <td>60 /* Speed: 1 hour real time (standard) minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>61 /* Speed: 45 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>62 /* Speed: 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>63 /* Speed: 15 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>64 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">The BG1 NPC Project: Xan's Romance Core (teen content)</td>
+          <td rowspan="5">14</td>
+          <td>70 /* Speed: 1 hour real time (standard) minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>71 /* Speed: 45 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>72 /* Speed: 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>73 /* Speed: 15 minutes real time minimum between LoveTalks */</td>
+        </tr>
+        <tr>
+          <td>74 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran</td>
+          <td>15</td>
+          <td>80</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: NPCs can be sent to wait in an inn.</td>
+          <td>16</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">The BG1 NPC Project: Alora's Starting Location.</td>
+          <td>17 /* Alora Starts in the Hall of Wonders. */</td>
+          <td rowspan="2">removed</td>
+        </tr>
+        <tr>
+          <td>18 /* Alora Starts in Gullykin. */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">The BG1 NPC Project: Eldoth's Starting Location.</td>
+          <td>19 /* Eldoth Starts in the Cloakwood Forest. */</td>
+          <td rowspan="2">removed</td>
+        </tr>
+        <tr>
+          <td>20 /* Eldoth Starts on the Coast Way. */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">The BG1 NPC Project: Quayle's Starting Location.</td>
+          <td>21 /* Quayle Starts at the Wyrm's Crossing. */</td>
+          <td rowspan="2">removed</td>
+        </tr>
+        <tr>
+          <td>22 /* Quayle Starts at the Nashkel Carnival. */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">The BG1 NPC Project: Tiax's Starting Location.</td>
+          <td>23 /* Tiax Starts in Baldur's Gate. */</td>
+          <td rowspan="2">removed</td>
+        </tr>
+        <tr>
+          <td>24 /* Tiax Starts in Beregost. */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>Jason Compton's Accelerated Banter Script.</td>
+          <td>25</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="5">BGEE Banter Timing Tweak</td>
+          <td rowspan="5">26</td>
+          <td>110 /* Banter Timing: Normal (about 27 minutes between banter dialogs)~ */</td>
+        </tr>
+        <tr>
+          <td>111 /* Banter Timing: Fast (about 20 minutes between banter dialogs)~ */</td>
+        </tr>
+        <tr>
+          <td>112 /* Banter Timing: Very Fast (about 13 minutes between banter dialogs)~ */</td>
+        </tr>
+        <tr>
+          <td>113 /* Banter Timing: Slow (about 40 minutes between banter dialogs)~ */</td>
+        </tr>
+        <tr>
+          <td>114 /* Banter Timing: Very Slow (about 55 minutes between banter dialogs)~ */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Make Shar-Teel Unkillable until In Party</td>
+          <td>27</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Bardic Reputation Adjustment</td>
+          <td>28</td>
+          <td>120</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">The BG1 NPC Project: Cloakwood areas availability in Chapter One</td>
+          <td>29 /* Open Cloakwood Lodge (first Cloakwood area only) */</td>
+          <td rowspan="2">removed</td>
+        </tr>
+        <tr>
+          <td>30 /* Open four Cloakwood areas (everything but the Mines) */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">The BG1 NPC Project: Sarevok's Diary Adjustments.</td>
+          <td>31 /* SixofSpades Extended Sarevok's Diary */</td>
+          <td>130 /* SixofSpades Extended Sarevok's Diary */</td>
+        </tr>
+        <tr>
+          <td>32 /* Sarevok's Diary Date Changes only */</td>
+          <td>131 /* Sarevok's Diary Date Changes only */</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Check for TutuFix Walking Speeds</td>
+          <td>33</td>
+          <td>removed</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Player-Initiated Dialogues</td>
+          <td>34</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>The BG1 NPC Project: Coran's "Murder in Baldur's Gate" portrait</td>
+          <td>-- (new component in v24)</td>
+          <td>155</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+ 
