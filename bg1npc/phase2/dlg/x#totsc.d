@@ -78,14 +78,14 @@ END
 
 /* RIGGILO hostile leave if tricked */
 I_C_T ~%tutu_var%RIGGILO~ 15 X#AjantisRiggilo
-== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @19 DO ~LeaveParty() Enemy() SetGlobal("X#AjantisRomanceActive","GLOBAL",3)~
-== ~%tutu_var%RIGGILO~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1003
+== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) !Dead("KIRINHALE")~ THEN @19 DO ~LeaveParty() Enemy() SetGlobal("X#AjantisRomanceActive","GLOBAL",3)~
+== ~%tutu_var%RIGGILO~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) !Dead("KIRINHALE")~ THEN @1003
 END
 
 /* RIGGILO hostile leave if tricked */
 I_C_T ~%tutu_var%RIGGILO~ 18 X#AjantisRiggilo
-== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @19 DO ~LeaveParty() Enemy() SetGlobal("X#AjantisRomanceActive","GLOBAL",3)~
-== ~%tutu_var%RIGGILO~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1003
+== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) !Dead("KIRINHALE")~ THEN @19 DO ~LeaveParty() Enemy() SetGlobal("X#AjantisRomanceActive","GLOBAL",3)~
+== ~%tutu_var%RIGGILO~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID) !Dead("KIRINHALE")~ THEN @1003
 END 
 
 /* Branwen */
@@ -445,7 +445,7 @@ I_C_T ~%tutu_scriptg%ATEWERE~ 0 X#VicGateWere
 I_C_T ~%tutu_var%BAYARD~ 1 X#VicBayard
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @97 END
 
-I_C_T ~%tutu_scriptbg%CALAHA~ 2 X#VicCalahan
+I_C_T ~%tutu_scriptbg%calaha%eet_var%~ 2 X#VicCalahan
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @98 END
 
 I_C_T ~%tutu_var%CUCHOL~ 0 X#VicCuchol
