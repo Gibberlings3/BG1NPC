@@ -805,23 +805,23 @@ END
 
 /* Neb */
 /* passback not required - no trans actions */
-I_C_T3 ~%tutu_scriptbg%NEB~ 2 X#NEB2
+I_C_T3 ~%tutu_scriptbg%NEB%eet_var%~ 2 X#NEB2
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @797
-== ~%tutu_scriptbg%NEB~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @798
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @798
 == ~%SKIE_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @799
-== ~%tutu_scriptbg%NEB~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @800
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @800
 END
 
 /* individual passbacks supplied */
-I_C_T3 ~%tutu_scriptbg%NEB~ 8 X#NEB8
+I_C_T3 ~%tutu_scriptbg%NEB%eet_var%~ 8 X#NEB8
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @287
-== ~%tutu_scriptbg%NEB~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @288
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @288
 == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @289
-== ~%tutu_scriptbg%NEB~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @290
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @290
 == ~%DYNAHEIR_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @291
-== ~%tutu_scriptbg%NEB~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @292
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @292
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @293
-== ~%tutu_scriptbg%NEB~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @294
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @294
 END
 
 /* Ragefast */
@@ -1847,11 +1847,11 @@ END
 
 /* Joseph's widow */
 /* individual passbacks supplied */
-I_C_T3 ~%tutu_scriptbg%FTOWN2~ 6 X#FTOWN26
+I_C_T3 ~%tutu_scriptbg%FTOWN2%eet_var%~ 6 X#FTOWN26
 == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @742
-== ~%tutu_scriptbg%FTOWN2~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @743
+== ~%tutu_scriptbg%FTOWN2%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @743
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @744
-== ~%tutu_scriptbg%FTOWN2~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @745
+== ~%tutu_scriptbg%FTOWN2%eet_var%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @745
 END
 
 /* Karlat */
@@ -2116,11 +2116,11 @@ END
 
 /* Viconia */
 /* individual passbacks supplied */
-I_C_T3 ~%tutu_scriptbg%VICONI~ 9 X#VICONI9
+I_C_T3 ~%tutu_scriptbg%VICONI%eet_var%~ 9 X#VICONI9
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @903
-== ~%tutu_scriptbg%VICONI~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @904
+== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @904
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @905
-== ~%tutu_scriptbg%VICONI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @906
+== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @906
 END
 
 /* Xan */

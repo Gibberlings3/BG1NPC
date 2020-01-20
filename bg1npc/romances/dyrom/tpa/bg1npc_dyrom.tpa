@@ -232,7 +232,7 @@ WRITE_LONG BIO (BNOT 0x0)
 WRITE_ASCII 0x248 ~X#DYNA~ #8 //  override script
 WRITE_ASCII 0x280 ~dynacutscene~ #32 //  death variable
 WRITE_ASCII 0x2CC ~X#DYNA~ #8 //  dialog
-PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
 WRITE_ASCIIE 0x34 ~DYNAHEI%port_s%~ #8  // small portrait
 WRITE_ASCIIE 0x3C ~DYNAHEI%port_l%~ #8  // large portrait
     WRITE_ASCII 0x268 ~DPLAYER~ #8
@@ -259,7 +259,7 @@ END ELSE BEGIN /* Tutu, BGT, EET */
 END
 WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
 WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
-  PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+  PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
     WRITE_ASCII 0x268 ~WTRUNSGT~ #8
     WRITE_ASCII 0x258 ~RUNENEMY~ #8
     WRITE_ASCII 0x250 ~MERCH2~ #8

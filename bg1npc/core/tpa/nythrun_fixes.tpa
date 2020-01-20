@@ -4,7 +4,7 @@
   /* Apply Nythrun's Fixes to creatures we use */
 	ACTION_FOR_EACH ~crefile~ IN ~%tutu_scripta%varicem.cre~
                                ~%tutu_scriptb%ullrush.cre~
-                               ~%tutu_scriptbg%neb.cre~
+                               ~%tutu_scriptbg%neb%eet_var%.cre~
                                ~%tutu_scriptd%ursword.cre~
                                ~%tutu_scriptf%twbax_a.cre~
                                ~%tutu_scripti%ronelit.cre~
@@ -131,7 +131,7 @@
                                ~%tutu_var%takiyah.cre~
                                ~%tutu_var%tamoko.cre~
                                ~%tutu_var%tarnes.cre~
-                               ~%tutu_var%tarnor.cre~
+                               ~%tutu_scriptbg%tarnor%eet_var%.cre~
                                ~%tutu_scriptbg%tazok.cre~
                                ~%tutu_var%tazok2.cre~
                                ~%tutu_var%tellan.cre~
@@ -199,7 +199,7 @@
                                ~%tutu_var%montar2.cre~
                                ~%tutu_var%montar4.cre~
                                ~%tutu_var%montar6.cre~
-                               ~%tutu_scriptbg%quayle.cre~
+                               ~%tutu_scriptbg%quayle%eet_var%.cre~
                                ~%tutu_var%quayle4.cre~
                                ~%tutu_var%quayle6.cre~
                                ~%tutu_var%safana.cre~
@@ -216,7 +216,7 @@
                                ~%tutu_var%viconi.cre~
                                ~%tutu_var%viconi4.cre~
                                ~%tutu_var%viconi6.cre~
-                               ~%tutu_scriptbg%xan.cre~
+                               ~%tutu_scriptbg%xan%eet_var%.cre~
                                ~%tutu_var%xan4.cre~
                                ~%tutu_var%xan6.cre~
                                ~%tutu_var%xzar.cre~
@@ -317,10 +317,10 @@
       					WRITE_BYTE 0x66 5 // Lore
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~branwe.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~BRANWEN%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~branwe5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~BRANWEN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~BRANWEN%eet_var%~ #8 //  override script
       					WRITE_BYTE 0x66 5 // Lore
       				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%coran.cre~) BEGIN
@@ -415,10 +415,10 @@
       					WRITE_ASCII 0x248 ~BGFALDRN~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ  ~faldor.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~FALDORN%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~faldor5.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~FALDORN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~FALDORN%eet_var%~ #8 //  override script
       				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%galtok.cre~) BEGIN // Galtok (in Nashkel Mines)
 				  WRITE_LONG 0x14 176 // XP Value (was 151)
@@ -504,16 +504,16 @@
       					WRITE_ASCII 0x248 ~BGGARRIK~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~garric.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~GARRICK%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~garric2.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~GARRICK%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~garric4.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~GARRICK%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~garric6.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~GARRICK~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~GARRICK%eet_var%~ #8 //  override script
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%gellan.cre~) BEGIN // Gellana Mirrorshade (in FAI Temple of Wisdom)
 					WRITE_SHORT 0x24 65 // Current HP (was 55)
@@ -652,16 +652,16 @@
       					WRITE_ASCII 0x248 ~BGIMOEN~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~imoen1.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~IMOEN%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~imoen2.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~IMOEN%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~imoen4.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~IMOEN%eet_var%~ #8 //  override script
       				END
       				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_imoen6%.cre~) AND (GAME_IS ~bgee eet~) BEGIN
-      					WRITE_ASCII 0x248 ~IMOEN~ #8 //  override script
+      					WRITE_EVALUATED_ASCII 0x248 ~IMOEN%eet_var%~ #8 //  override script
       				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%jaheir.cre~) BEGIN
 					WRITE_BYTE 0x66 1 // Lore
@@ -873,7 +873,7 @@
 					ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) // Melf's Acid Arrow
 					ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) // Lightning Bolt
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%neb.cre~) BEGIN // Neb (in SW Baldur's Gate FF HQ L1)
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%neb%eet_var%.cre~) BEGIN // Neb (in SW Baldur's Gate FF HQ L1)
 					WRITE_SHORT 0x24 70 // Current HP (was 85)
 					WRITE_SHORT 0x26 70 // Max HP (was 85)
 					WRITE_SHORT 0x46 10 // Base AC (was 0)
@@ -904,7 +904,7 @@
 					WRITE_BYTE 0x236 1 // Level 3 (was 5)
 					WRITE_BYTE 0x27b 0x22 // Alignment (neutral)
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%quayle.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_scriptbg%quayle%eet_var%.cre~) BEGIN
 					WRITE_SHORT 0x28 0x6004 // Animation (cleric_male_gnome, was 0x6002 dwarf)
 					WRITE_BYTE 0x55 8 // Save vs. wands (was 11)
 					WRITE_BYTE 0x58 9 // Save vs. spells (was 12)

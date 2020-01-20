@@ -135,9 +135,9 @@ END
 //= @28
 //END
 
-//I_C_T ~%tutu_scriptbg%FTOWN2~ 6 X#XanJoseph
+//I_C_T ~%tutu_scriptbg%FTOWN2%eet_var%~ 6 X#XanJoseph
 //== ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @29
-//== ~%tutu_scriptbg%FTOWN2~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @30
+//== ~%tutu_scriptbg%FTOWN2%eet_var%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @30
 //END
 
 //I_C_T2 ~%tutu_scriptd%AERRAGH~ 1 X#XanDaerragh
@@ -247,13 +247,13 @@ END
 //== ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @63
 //END
 
-I_C_T ~%tutu_scriptbg%KNIGHT~ 0 X#XANFWGNITE1
+I_C_T ~%tutu_scriptbg%KNIGHT%eet_var%~ 0 X#XANFWGNITE1
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @64
 END
 
-I_C_T ~%tutu_scriptbg%NEB~ 6 X#XANNEB
+I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 6 X#XANNEB
 == ~%XAN_JOINED%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @65
-== ~%tutu_scriptbg%NEB~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @66
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("xan") InMyArea("xan") !StateCheck("xan",CD_STATE_NOTVALID)~ THEN @66
 END
 
 //I_C_T ~%tutu_var%LOTHAN~ 1 X#XANPOISON

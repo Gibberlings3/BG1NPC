@@ -28,9 +28,9 @@ EXTEND_BOTTOM ~%tutu_var%BELDIN~ 1
 IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID) Global("X#KivanBeldin","GLOBAL",0)~ THEN EXTERN ~%KIVAN_JOINED%~ X#KivanBeldin
 END
 
-//I_C_T ~%tutu_scriptbg%FTOWN2~ 6 X#KivanJoseph1
+//I_C_T ~%tutu_scriptbg%FTOWN2%eet_var%~ 6 X#KivanJoseph1
 //== ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @13
-//== ~%tutu_scriptbg%FTOWN2~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @14
+//== ~%tutu_scriptbg%FTOWN2%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @14
 //END
 
 //I_C_T2 ~%tutu_var%BARDOL~ 4 X#KivanBardol1
@@ -149,9 +149,9 @@ END
 //== ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @38
 //END
 
-//I_C_T ~%tutu_scriptbg%NEB~ 8 X#KivanNeb
+//I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 8 X#KivanNeb
 //== ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @39
-//== ~%tutu_scriptbg%NEB~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @40
+//== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @40
 //END
 
 //I_C_T ~%tutu_var%RAMAZI~ 15 X#KivanRamazi
@@ -408,13 +408,13 @@ SAY @121
 IF ~~ THEN DO ~SetGlobal("X#KBLBWS","GLOBAL",2)~ EXIT
 END
 
-/*  Kivan, Entry to Durlag�s Tower */
+/*  Kivan, Entry to Durlag s Tower */
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#KEDT","GLOBAL",1)~ THEN BEGIN KEDT1
 SAY @122
 IF ~~ THEN DO ~SetGlobal("X#KEDT","GLOBAL",2)~ EXIT
 END
 
-/* Kivan, Entry to Baldur�s Gate */
+/* Kivan, Entry to Baldur s Gate */
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#KEBG","GLOBAL",1)~ THEN BEGIN KEBG1
 SAY @123
 IF ~~ THEN DO ~SetGlobal("X#KEBG","GLOBAL",2)~ EXIT

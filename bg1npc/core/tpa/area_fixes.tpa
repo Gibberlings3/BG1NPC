@@ -2,10 +2,12 @@
 /* Tutu */
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   INCLUDE ~bg1npc/LIB/tutu_area_script_assign.tph~
-END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+END 
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 /* BGEE */
   INCLUDE ~bg1npc/LIB/bgee_area_script_assign.tph~
 
+/* I don't think this is still necessary but leave it in  because it doesn't hurt, either */
   /* AR4300.BCS is inactive in vanilla BGEE and will create a second Colquetle Family Amulet if activated.  False()-ing the script block to prevent it from executing. */
   ACTION_IF FILE_EXISTS_IN_GAME ~%NorthNashkelRoad_BCS%.bcs~ THEN BEGIN
     COPY_EXISTING ~%NorthNashkelRoad_BCS%.bcs~ ~override~
@@ -13,7 +15,12 @@ END ELSE ACTION_IF GAME_IS ~bgee~ THEN BEGIN
             REPLACE_TEXTUALLY CASE_INSENSITIVE ~Global("PoorMrColquetleFamily","GLOBAL",0)~ ~Global("PoorMrColquetleFamily","GLOBAL",0) False()~
         END
     BUT_ONLY_IF_IT_CHANGES
-  END
+    END
+END
+ACTION_IF GAME_IS ~eet~ THEN BEGIN
+/* not sure this is necessary but better safe than sorry */
+/* EET */
+  INCLUDE ~bg1npc/LIB/eet_area_script_assign.tph~
 END
 
 /* Area Type Flagging */
@@ -73,6 +80,7 @@ END
     WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
   BUT_ONLY_IF_IT_CHANGES
 
+/* would be no longer necessary for 2.5 */
   // BGEE Fix Area Scripts for AR2400.BCS and AR2900.BCS
   ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN //do once
 //  	COPY ~bg1npc/Core/X#component.xx~ ~override/AY#BGEEARBCSFIX.000~

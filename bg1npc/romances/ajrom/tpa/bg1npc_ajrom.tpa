@@ -49,7 +49,7 @@ COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisDreamLTs.D~
 
 ACTION_IF GAME_IS ~tutu~ BEGIN  // Tutu without TotSC
   COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisAddLTs_PR_noToSC.D~
-END ELSE BEGIN   // Tutu+TotSC, BGT, or BGEE
+END ELSE BEGIN   // Tutu+TotSC, BGT, BGEE, or EET
   COMPILE EVALUATE_BUFFER ~bg1npc/romances/AJROM/dlg/x#ajantisAddLTs_PR.D~
 END
 

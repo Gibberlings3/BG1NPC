@@ -109,9 +109,9 @@ END
 //END
 
 /* Quayle */
-I_C_T ~%tutu_scriptbg%QUAYLE~ 4 X#SharQuayleJoin
+I_C_T ~%tutu_scriptbg%QUAYLE%eet_var%~ 4 X#SharQuayleJoin
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @31
-== ~%tutu_scriptbg%QUAYLE~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1006
+== ~%tutu_scriptbg%QUAYLE%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1006
 END
 
 /* Tiax */
@@ -278,10 +278,10 @@ I_C_T ~%tutu_var%FLAM5~ 1 X#SHARTEELFFMER51
 == ~%tutu_var%FLAM5~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @1013
 END
 
-I_C_T ~%tutu_scriptbg%VICONI~ 0 X#SHARTEELVICONI1
+I_C_T ~%tutu_scriptbg%VICONI%eet_var%~ 0 X#SHARTEELVICONI1
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @73
 =@74
-== ~%tutu_scriptbg%VICONI~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @75
+== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @75
 END
 
 //I_C_T2 ~%tutu_var%TAMOKO~ 16 X#SHARTEELTAMOKO1
@@ -450,8 +450,8 @@ EXIT
 
 
 EXTEND_BOTTOM ~%tutu_var%PETRIN~ 3
-IF ~!Dead("petrinescat") Dead("BHEREN")~ THEN REPLY @105 DO ~TakePartyItem("%tutu_var%RING16") AddexperienceParty(1000)~ EXIT
-IF ~!Dead("petrinescat") Dead("BHEREN")~ THEN REPLY @106 DO ~ReputationInc(1) TakePartyItem("%tutu_var%RING16") AddexperienceParty(1000)~ EXIT
+IF ~!Dead("petrinescat") Dead("BHEREN")~ THEN REPLY @105 DO ~TakePartyItem("%tutu_scriptbg%RING16") AddexperienceParty(1000)~ EXIT
+IF ~!Dead("petrinescat") Dead("BHEREN")~ THEN REPLY @106 DO ~ReputationInc(1) TakePartyItem("%tutu_scriptbg%RING16") AddexperienceParty(1000)~ EXIT
 END
 
 EXTEND_BOTTOM ~%tutu_var%LIIA~ 8
@@ -528,11 +528,11 @@ END
 //== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @121
 //END
 
-I_C_T ~%tutu_scriptbg%SENDAI~ 0 X#ShartSendai1
+I_C_T ~%tutu_scriptbg%SENDAI%eet_var%~ 0 X#ShartSendai1
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @122
 END
 
-I_C_T ~%tutu_scriptbg%SENDAI~ 3 X#ShartSendai2
+I_C_T ~%tutu_scriptbg%SENDAI%eet_var%~ 3 X#ShartSendai2
 == ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @123
 END
 

@@ -44,24 +44,24 @@ I_C_T ~%tutu_var%GERVIS~ 3 X#JaGrevis
 DO ~SetGlobal("X#VoltineAdd","GLOBAL",1)~
 END
 
-//I_C_T2 ~%tutu_scriptbg%VICONI~ 9 X#JaheiraViconia5
+//I_C_T2 ~%tutu_scriptbg%VICONI%eet_var%~ 9 X#JaheiraViconia5
 //== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @14
-//== ~%tutu_scriptbg%VICONI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @15
+//== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @15
 //END
 
-I_C_T ~%tutu_scriptbg%VICONI~ 7 X#JaheiraViconia4
+I_C_T ~%tutu_scriptbg%VICONI%eet_var%~ 7 X#JaheiraViconia4
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @16
-== ~%tutu_scriptbg%VICONI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @17
+== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @17
 END
 
-I_C_T ~%tutu_scriptbg%VICONI~ 6 X#JaheiraViconia3
+I_C_T ~%tutu_scriptbg%VICONI%eet_var%~ 6 X#JaheiraViconia3
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @16
-== ~%tutu_scriptbg%VICONI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @17
+== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @17
 END
 
-I_C_T ~%tutu_scriptbg%VICONI~ 5 X#JaheiraViconia2
+I_C_T ~%tutu_scriptbg%VICONI%eet_var%~ 5 X#JaheiraViconia2
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @16
-== ~%tutu_scriptbg%VICONI~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @17
+== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @17
 END
 
 //I_C_T2 ~%tutu_var%FLAM2~ 3 X#JaheiraViconia1
@@ -121,9 +121,9 @@ I_C_T ~%tutu_var%TREMAI~ 3 X#JaheiraTremai
 == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @31
 END
 
-//I_C_T ~%tutu_scriptbg%NEB~ 8 X#JaheiraNeb
+//I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 8 X#JaheiraNeb
 //== ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @32
-//== ~%tutu_scriptbg%NEB~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @33
+//== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @33
 //END
 
 I_C_T ~%tutu_var%PETRIN~ 3 X#JaheiraPetrine
@@ -483,9 +483,9 @@ EXIT
 // == ~%tutu_var%BASSIL~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @138
 //END
 
-I_C_T ~%tutu_scriptbg%MTOWN3~ 0 X#JaheiraDruggie
+I_C_T ~%tutu_scriptbg%MTOWN3%eet_var%~ 0 X#JaheiraDruggie
  == ~%JAHEIRA_JOINED%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @139
- == ~%tutu_var%MTOWN3~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @140
+ == ~%tutu_var%MTOWN3%eet_var%~ IF ~InParty("jaheira") InMyArea("jaheira") !StateCheck("jaheira",CD_STATE_NOTVALID)~ THEN @140
 END
 
 

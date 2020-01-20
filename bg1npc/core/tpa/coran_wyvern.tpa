@@ -35,7 +35,7 @@ EXTEND_TOP ~%CORAN_BCS%.bcs~ ~bg1npc/Core/baf/X#CORWYV.BAF~
   EVALUATE_BUFFER
 
 /* Fix Coran's dialog files */
-ACTION_IF GAME_IS ~tutu tutu_totsc bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~tutu tutu_totsc bgee eet~ THEN BEGIN
   ACTION_IF (FILE_EXISTS_IN_GAME ~corwyvrn.cre~) THEN BEGIN //BGEEv2
     COMPILE EVALUATE_BUFFER ~bg1npc/Core/dlg/x#corwyv_bgeev2.d~
   END ELSE BEGIN
