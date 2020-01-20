@@ -170,7 +170,7 @@ COPY ~bg1npc/romances/CHALLENGE/cre/x#corafi.cre~ ~override~
   WRITE_EVALUATED_ASCII 0x280 ~%SOURCE_RES%~ #32 //  death variable
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCIIE 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
-PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
     WRITE_ASCIIE 0x34 ~CORAN%port_s%~ #8    // small portrait
       WRITE_ASCIIE 0x3C ~CORAN%port_l%~ #8    // large portrait
   END
@@ -203,7 +203,7 @@ COPY ~bg1npc/romances/CHALLENGE/cre/x#ajanfi.cre~ ~override/x#ajanfi.cre~
   WRITE_ASCII 0x2CC ~~ #8 //  dialog
   WRITE_EVALUATED_ASCII 0x248 ~%tutu_scriptw%TASIGHT~ #8 //  override script
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_var%DPLAYER~ #8
-PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
   WRITE_ASCIIE 0x34 ~AJANTIS%port_s%~ #8  // small portrait
   WRITE_ASCIIE 0x3C ~AJANTIS%port_l%~ #8  // large portrait
 END
@@ -259,8 +259,8 @@ COPY ~bg1npc/romances/CHALLENGE/cre/x#ajdrsi.cre~ ~override/x#ajdrsi.cre~
 PATCH_IF ((GAME_IS ~bgee~) && !(GAME_INCLUDES ~sod~)) BEGIN
   WRITE_LONG 0x28 4096 // Use WYVERN_BIG animation for BGEE without SoD
     REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
-END
-PATCH_IF ((GAME_IS ~bgee~) && (GAME_INCLUDES ~sod~)) BEGIN
+END 
+PATCH_IF (GAME_IS ~eet~ OR ((GAME_IS ~bgee~) && (GAME_INCLUDES ~sod~))) BEGIN
   WRITE_LONG 0x28 4353 // Use DRAGON_WHITE animation for BGEE with SoD
     REPLACE_CRE_ITEM ~x#drgsl1~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
 END

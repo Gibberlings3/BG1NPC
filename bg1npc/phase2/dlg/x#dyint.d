@@ -105,9 +105,9 @@ END
 //== ~%DYNAHEIR_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @19
 //END
 
-//I_C_T ~%tutu_scriptbg%NEB~ 8 X#DynaheirNeb
+//I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 8 X#DynaheirNeb
 //== ~%DYNAHEIR_JOINED%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @20
-//== ~%tutu_scriptbg%NEB~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @21
+//== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("dynaheir") InMyArea("dynaheir") !StateCheck("dynaheir",CD_STATE_NOTVALID)~ THEN @21
 //END
 
 //I_C_T2 ~%tutu_var%RAGEFA~ 6 X#DyRagefast

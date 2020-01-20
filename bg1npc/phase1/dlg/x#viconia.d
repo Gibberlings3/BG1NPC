@@ -156,7 +156,7 @@ DO ~SetGlobal("X#VISA1","LOCALS",2)~
 == ~%SAFANA_BANTER%~ @58
 == ~%VICONIA_BANTER%~ @59
 DO ~CreateItem("%tutu_var%AMUL10",0,0,0)
-CreateItem("%tutu_var%RING12",0,0,0)
+CreateItem("%tutu_scriptbg%RING12",0,0,0)
 RestParty()~
 EXIT
 

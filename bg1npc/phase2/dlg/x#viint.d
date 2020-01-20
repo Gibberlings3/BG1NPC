@@ -276,9 +276,9 @@ I_C_T ~%tutu_var%MELICA~ 5 X#VicMeli
 //I_C_T2 ~%tutu_var%MULAHE~ 3 X#VicMulahey
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @89 END
 
-//I_C_T ~%tutu_scriptbg%NEB~ 2 X#VicNeb
+//I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 2 X#VicNeb
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @90
-//== ~%tutu_scriptbg%NEB~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @91 END
+//== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @91 END
 
 //I_C_T2 ~%tutu_var%NEXLIT~ 0 X#VicNex
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @92 END

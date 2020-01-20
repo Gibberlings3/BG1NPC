@@ -25,7 +25,7 @@ COPY_EXISTING  ~%tutu_var%izefia.cre~ ~override~
   WRITE_ASCII 0x280 ~izefia~ #32 //  death variable X#FAINT.D
 BUT_ONLY_IF_IT_CHANGES
 
-ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+ACTION_IF NOT GAME_IS ~bgee eet~ BEGIN
   COPY_EXISTING  ~%tutu_var%entill.cre~ ~override~ /* has script name "Entillis" in BG:EE */
     WRITE_ASCII 0x280 ~entillis~ #32 //  death variable X#JAINT.D
   BUT_ONLY_IF_IT_CHANGES
@@ -86,13 +86,21 @@ END
   ACTION_IF GAME_IS ~tutu_totsc bgt bgee eet~ THEN BEGIN //  if TotSC is installed
     COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#TOTSC.d~
   END
+  ACTION_IF GAME_IS ~tutu_totsc bgee eet~ THEN BEGIN //BGT needs extra dialogue state for Thalantyr (Kivan's spear) 
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KIINT.D~
+  END
+  ACTION_IF GAME_IS ~bgt~ THEN BEGIN //BGT needs extra dialogue state for Thalantyr (Kivan's spear) 
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KIINT.D~ 
+      ~bg1npc/Phase2/dlg/x#kiint_bgtadd.D~ 
+      USING ~bg1npc/tra/%LANGUAGE%/X#KIINT.tra~
+  END
 
   /* Interjections */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#BRINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#JAINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#FAINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#SKINT.D~
-  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KIINT.D~
+//  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KIINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XZINT.D~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#moint.d~
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#ELINT.D~
@@ -318,6 +326,7 @@ END
     PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
       LAUNCH_PATCH_FUNCTION CLONE_EFFECT
         INT_VAR
+	  silent = 1
           check_globals=1
           check_headers=0
           multi_match=1

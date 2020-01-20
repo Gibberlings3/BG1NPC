@@ -723,11 +723,22 @@ SAY @157
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2)~ + @188 + StHugL2
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @188 + StHugL3
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @188 + StHugL4
-+ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) PartyHasItem("%tutu_var%AMUL13") !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @189 + SharAmulet1.1
-+ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) PartyHasItem("%tutu_var%AMUL13") !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @189 + SharAmulet1.2
-+ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) PartyHasItem("%tutu_var%AMUL13") !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @189 + SharAmulet1.3
-+ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) PartyHasItem("%tutu_var%AMUL13") !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @189 + SharAmulet1.4
-+ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) PartyHasItem("%tutu_var%AMUL13") !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @189 + SharAmulet1.5
++ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
+PartyHasItem("%tutu_var%AMUL13") 
+PartyHasItem("%tutu_scriptbg%AMUL13") 
+!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @189 + SharAmulet1.1
++ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
+PartyHasItem("%tutu_var%AMUL13") 
+PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @189 + SharAmulet1.2
++ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
+PartyHasItem("%tutu_var%AMUL13") 
+PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @189 + SharAmulet1.3
++ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
+PartyHasItem("%tutu_var%AMUL13") 
+PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @189 + SharAmulet1.4
++ ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
+PartyHasItem("%tutu_var%AMUL13") 
+PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @189 + SharAmulet1.5
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1) !Class(Player1,BARD_ALL)~ + @190 + ShSong1
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2) !Class(Player1,BARD_ALL)~ + @190 + ShSong2
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3) !Class(Player1,BARD_ALL)~ + @190 + ShSong3
@@ -1617,7 +1628,9 @@ END
 
 IF ~~ SharAmulet1.1
 SAY @452
-IF ~~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
+IF ~PartyHasItem("%tutu_scriptbg%AMUL13")~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_scriptbg%AMUL13")
+DestroyItem("%tutu_scriptbg%AMUL13")~ EXIT
+IF ~PartyHasItem("%tutu_var%AMUL13")~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
 END
 
 IF ~~ SharAmulet1.2
@@ -1632,7 +1645,9 @@ END
 
 IF ~~ SharAmulet1.4
 SAY @455
-IF ~~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
+IF ~PartyHasItem("%tutu_scriptbg%AMUL13")~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_scriptbg%AMUL13")
+DestroyItem("%tutu_scriptbg%AMUL13")~ EXIT
+IF ~PartyHasItem("%tutu_var%AMUL13")~ THEN DO ~SetGlobal("X#SharAmulet","GLOBAL",1) TakePartyItem("%tutu_var%AMUL13") DestroyItem("%tutu_var%AMUL13")~ EXIT
 END
 
 IF ~~ SharAmulet1.5

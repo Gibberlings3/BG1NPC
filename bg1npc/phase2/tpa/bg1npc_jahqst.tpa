@@ -19,7 +19,7 @@ COPY ~bg1npc/phase2/itm/x#ansper.itm~ ~override~
   SAY NAME2 @378
   SAY DESC @379
 WRITE_ASCII 0x10 ~MISC56~ #8 // used-up item
- PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+ PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
     WRITE_ASCII 0x44 ~gsper01~ #8
   END
 

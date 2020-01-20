@@ -367,9 +367,9 @@ I_C_T ~%tutu_var%NARCIL~ 1 X#GarNar
 == ~%tutu_var%NARCIL~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @1009
 END
 
-I_C_T ~%tutu_scriptbg%NEB~ 7 X#GarNeb
+I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 7 X#GarNeb
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @133
-== ~%tutu_scriptbg%NEB~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @134 END
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @134 END
 
 I_C_T ~%tutu_var%NIEMAI~ 0 X#GarNie
 == ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @135 END

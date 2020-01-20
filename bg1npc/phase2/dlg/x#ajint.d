@@ -205,9 +205,9 @@ I_C_T ~%tutu_var%FLAM2~ 4 X#AjantisViconiaHelp
 == ~%tutu_var%FLAM2~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1008 
 END
 
-//I_C_T ~%tutu_scriptbg%VICONI~ 9 X#AjantisViconiaJoining
+//I_C_T ~%tutu_scriptbg%VICONI%eet_var%~ 9 X#AjantisViconiaJoining
 //== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @35 
-//== ~%tutu_scriptbg%VICONI~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1009 
+//== ~%tutu_scriptbg%VICONI%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1009 
 //END
 
 /* Lena and Samuel */
@@ -272,14 +272,14 @@ END
 //END
 
 /* Neb! */
-I_C_T ~%tutu_scriptbg%NEB~ 1 X#AjantisNeb1
+I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 1 X#AjantisNeb1
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @48 
-== ~%tutu_scriptbg%NEB~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @49
+== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @49
 END
 
-//I_C_T ~%tutu_scriptbg%NEB~ 8 X#AjantisNeb2
+//I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 8 X#AjantisNeb2
 //== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @50 
-//== ~%tutu_scriptbg%NEB~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @51
+//== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @51
 //END
 
 /* help ill Eltan */
@@ -340,26 +340,26 @@ I_C_T ~%tutu_var%DRIZZT~ 3 X#AjantisDrizzt3
 END
 
 /* Joseph's wife */
-INTERJECT ~%tutu_scriptbg%FTOWN2~ 0 X#AjantisWomanNashkell0
+INTERJECT ~%tutu_scriptbg%FTOWN2%eet_var%~ 0 X#AjantisWomanNashkell0
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @62
-== ~%tutu_scriptbg%FTOWN2~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @63
+== ~%tutu_scriptbg%FTOWN2%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @63
 END 
-++ @64 EXTERN ~%tutu_scriptbg%FTOWN2~ 3
+++ @64 EXTERN ~%tutu_scriptbg%FTOWN2%eet_var%~ 3
 ++ @65 EXIT
 
 /* If help is offered */
-I_C_T ~%tutu_scriptbg%FTOWN2~ 3 X#AjantisWomanNashkell3
+I_C_T ~%tutu_scriptbg%FTOWN2%eet_var%~ 3 X#AjantisWomanNashkell3
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @66 DO ~SetGlobal("X#AjantisWomanNashkellPromise","GLOBAL",1)~ 
 END
 
 /* If ring is "hidden" from her (Joseph's wife) */
-INTERJECT ~%tutu_scriptbg%FTOWN2~ 5 X#AjantisWomanNashkell5
+INTERJECT ~%tutu_scriptbg%FTOWN2%eet_var%~ 5 X#AjantisWomanNashkell5
 == ~%AJANTIS_JOINED%~ IF ~PartyHasItem("%tutu_var%RINGJOS") InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @67
 = @68 DO ~TakePartyItem("%tutu_var%RINGJOS")~
-END ~%tutu_scriptbg%FTOWN2~ 6
+END ~%tutu_scriptbg%FTOWN2%eet_var%~ 6
 
 /* If ring is not given to her */
-I_C_T ~%tutu_scriptbg%FTOWN2~ 7 X#AjantisWomanNashkell7
+I_C_T ~%tutu_scriptbg%FTOWN2%eet_var%~ 7 X#AjantisWomanNashkell7
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @69 DO ~IncrementGlobal("X#AjantisRomanceBadDecision","GLOBAL",1)~
 END
 
@@ -490,7 +490,7 @@ I_C_T ~%tutu_var%BREVLI~ 3 X#AjantisBrevlik3
 END
 
 /* interjection for "good" reaction to Joseph's wife */
-I_C_T ~%tutu_scriptbg%FTOWN2~ 8 X#AjantisWomanNashkell8
+I_C_T ~%tutu_scriptbg%FTOWN2%eet_var%~ 8 X#AjantisWomanNashkell8
 == ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @87
 = @88
 END

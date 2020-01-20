@@ -278,11 +278,11 @@ COPY ~bg1npc/Phase2/cre/x#siene.cre~ ~override~
 LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
   SAY NAME1 @636
   SAY NAME2 @636
-  SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+  SAY INITIAL_MEETING #11063 // [ELF FEMALE 1] Tutu/BGT/EET: Greetings, adventurers / BGEE: Good day and hello to you.
   SAY DAMAGE #11075 // [ELF FEMALE 5]
   SAY DYING #11076 // [ELF FEMALE 6]
-  SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
-  SAY DIALOGUE_DEFAULT #11063 // [ELF FEMALE 1] Tutu/BGT: Greetings, adventurers / BGEE: Good day and hello to you.
+  SAY SELECT_COMMON1 #11063 // [ELF FEMALE 1] Tutu/BGT/EET: Greetings, adventurers / BGEE: Good day and hello to you.
+  SAY DIALOGUE_DEFAULT #11063 // [ELF FEMALE 1] Tutu/BGT/EET: Greetings, adventurers / BGEE: Good day and hello to you.
   LAUNCH_PATCH_MACRO ~bg1npc_cre_source_res~
   WRITE_ASCIIE SCRIPT_GENERAL ~%tutu_var%wtrunsgt~ #8
 

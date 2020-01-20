@@ -95,9 +95,9 @@ END
 //== ~%tutu_var%LOTHAN~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @38
 //END
 
-//I_C_T ~%tutu_scriptbg%NEB~ 2 X#SkieNeb
+//I_C_T ~%tutu_scriptbg%NEB%eet_var%~ 2 X#SkieNeb
 //== ~%SKIE_JOINED%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @39
-//== ~%tutu_scriptbg%NEB~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @40
+//== ~%tutu_scriptbg%NEB%eet_var%~ IF ~InParty("skie") InMyArea("skie") !StateCheck("skie",CD_STATE_NOTVALID)~ THEN @40
 //END
 
 I_C_T ~%tutu_var%IVANNE~ 4 X#SkieIvanne1
@@ -305,7 +305,7 @@ CHAIN ~%SKIE_BANTER%~ SkieDora1
 = @101
 == ~%SKIE_BANTER%~ @102
 == ~x#dora~ @103
-DO ~GiveItemCreate("%tutu_var%AMUL13","skie",1,0,0) EscapeArea()~
+DO ~GiveItemCreate("%tutu_scriptbg%AMUL13","skie",1,0,0) EscapeArea()~
 EXIT
 
 CHAIN ~%SKIE_BANTER%~ SkieDora2
