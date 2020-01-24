@@ -5479,7 +5479,7 @@ END
 
 IF ~~ DynaWind1.2
 SAY @1398
-IF ~~ THEN DO ~ReallyForceSpell(Player1,CLERIC_RESIST_COLD)~ EXIT
+IF ~~ THEN DO ~ReallyForceSpell(Player1,CLERIC_CURE_LIGHT_WOUNDS)~ EXIT
 END
 
 IF ~~ DynaWind1.3
