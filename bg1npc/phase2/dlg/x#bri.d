@@ -3,7 +3,7 @@
 REPLACE_SAY ~%CORAN_JOINED%~ %BGTCORANJState4% @0
 
 REPLACE_SAY ~%tutu_var%BRIELB~ 14 @1
-ALTER_TRANS ~%tutu_var%BRIELB~ BEGIN 14 END BEGIN 0 END BEGIN ACTION ~SetGlobal("P#Briel_Stay","GLOBAL",1) RealSetGlobalTimer("X#BriLostPatience","GLOBAL",1800)~ END
+ALTER_TRANS ~%tutu_var%BRIELB~ BEGIN 14 END BEGIN END BEGIN ACTION ~SetGlobal("P#Briel_Stay","GLOBAL",1) RealSetGlobalTimer("X#BriLostPatience","GLOBAL",1800)~ END
 
 /* RETAINED - can't see another way to code it without a messy E_B-fest*/
 REPLACE ~%tutu_var%BRIELB~
