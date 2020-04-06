@@ -25,7 +25,12 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 
 	ACTION_IF GAME_IS ~eet~ THEN BEGIN
 		INCLUDE  ~EET/other/cpmvars/eet_cpmvars.tpa~
+
+	/* EET-SoD: PID should not block SoD dialogues. --- This is a hack and only valid because BG1NPC only adds to BG1! */
+	OUTER_SPRINT ~BGT_VAR~ ~!GlobalGT("BD_PLOT","GLOBAL",0)~
+
 	END
+
 
 	// BG:EE tra conversion
 	// Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237

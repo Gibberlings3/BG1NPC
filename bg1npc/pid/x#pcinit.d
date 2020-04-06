@@ -12273,119 +12273,119 @@ IF ~IsGabber(Player1) %BGT_VAR% Global("P#CoranMatch","GLOBAL",1) !Global("P#Cor
 SAY @3173
 ++ @3174 + CHFEMALE
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4)  Global("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3175 + CoKiss1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4)  Global("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3175 + CoKiss1
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,1)~ + @3176 + CoKissL1.1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,2)~ + @3176 + CoKissL1.2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,3)~ + @3176 + CoKissL1.3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,4)~ + @3176 + CoKissL1.4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,5)~ + @3176 + CoKissL1.5
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,6)~ + @3176 + CoKissL1.6
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,7)~ + @3176 + CoKissL1.7
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,1)~ + @3176 + CoKissL1.1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,2)~ + @3176 + CoKissL1.2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,3)~ + @3176 + CoKissL1.3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,4)~ + @3176 + CoKissL1.4
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,5)~ + @3176 + CoKissL1.5
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,6)~ + @3176 + CoKissL1.6
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) GlobalGT("P#CoranLover","GLOBAL",0) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(7,7)~ + @3176 + CoKissL1.7
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(OUTDOOR) TimeLT(7) TimeGT(19)~ + @3177 + Stars
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3178 + Sad
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) GlobalGT("P#CoranLover","GLOBAL",1) TimeLT(20) TimeGT(6)~ + @3179 + Summer
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) RandomNum(3,1)~ + @3180 + Flo1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) RandomNum(3,2)~ + @3180 + Flo2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) RandomNum(3,3)~ + @3180 + Flo3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1)~ + @3181 + Cheek1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2)~ + @3181 + Cheek2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3)~ + @3181 + Cheek3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4)~ + @3181 + Cheek4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,1) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,2) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,3) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left10
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,4) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left11
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,1)~ + @3183 + Theq1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,2)~ + @3183 + Theq2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,3)~ + @3183 + Theq3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3184 + CoLean
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) HPPercentGT("coran",50)~ + @3185 + CoHealth1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !HPPercentGT("coran",50)~ + @3185 + CoHealth2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) GlobalGT("P#CoranLover","GLOBAL",1) !Global("P#CoEar","GLOBAL",1) RandomNum(2,1)~ + @3186 + CoEar1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) GlobalGT("P#CoranLover","GLOBAL",1) !Global("P#CoEar","GLOBAL",1) RandomNum(2,2)~ + @3186 + CoEar2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3187 + CoShine
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3188 + CoHood
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) GlobalLT("P#CoranLover", "GLOBAL",1)~ + @3189 + CoHip
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,1)~ + @3080 + CoStory1.1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,2)~ + @3080 + CoStory1.2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,3)~ + @3080 + CoStory1.3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,4)~ + @3080 + CoStory1.4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,5)~ + @3080 + CoStory1.5
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(3,1)~ + @3190 + AskHair
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(3,2)~ + @3190 + AskEye
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(3,3)~ + @3190 + AskNot
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(2,1)~ + @3190 + AskEye
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(2,2)~ + @3190 + AskNot
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) Global("X#EyeColor","GLOBAL",1) RandomNum(2,1)~ + @3190 + AskHair
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) Global("X#EyeColor","GLOBAL",1) RandomNum(2,2)~ + @3190 + AskNot
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) Global("X#HairColor","GLOBAL",1) Global("X#EyeColor","GLOBAL",1)~ + @3190 + AskNot
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,1) OR(2) Global("P#CoranRomancePath","GLOBAL",1) Global("P#CoranRomancePath","GLOBAL",6)~ + @3191 + CoPalm1.1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,2) OR(2) Global("P#CoranRomancePath","GLOBAL",1) Global("P#CoranRomancePath","GLOBAL",6)~ + @3191 + CoPalm1.2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,3) OR(2) Global("P#CoranRomancePath","GLOBAL",1) Global("P#CoranRomancePath","GLOBAL",6)~ + @3191 + CoPalm1.3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3192 + CoBerry
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON)~ + @3193 + CoCold
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(2,1) Race(Player1,HUMAN) TimeOfDay(NIGHT)~ + @3194 + CoTorch1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(2,2) Race(Player1,HUMAN) TimeOfDay(NIGHT)~ + @3194 + CoTorch2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1) Race(Player1,ELF)~ + @3195 + CoElfCompliment1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) Race(Player1,ELF)~ + @3195 + CoElfCompliment2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) Race(Player1,ELF)~ + @3195 + CoElfCompliment3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) Race(Player1,ELF)~ + @3195 + CoElfCompliment4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3198 DO ~SetGlobal("P#CoranDisableFlirts","GLOBAL",1)~ EXIT
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3199 EXIT
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(OUTDOOR) TimeLT(7) TimeGT(19)~ + @3177 + Stars
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3178 + Sad
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) GlobalGT("P#CoranLover","GLOBAL",1) TimeLT(20) TimeGT(6)~ + @3179 + Summer
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) RandomNum(3,1)~ + @3180 + Flo1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) RandomNum(3,2)~ + @3180 + Flo2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) RandomNum(3,3)~ + @3180 + Flo3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1)~ + @3181 + Cheek1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2)~ + @3181 + Cheek2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3)~ + @3181 + Cheek3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4)~ + @3181 + Cheek4
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,1) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,2) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,3) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left10
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON) RandomNum(4,4) GlobalGT("P#CoranLover","GLOBAL",1)~ + @3182 + Left11
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,1)~ + @3183 + Theq1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,2)~ + @3183 + Theq2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,3)~ + @3183 + Theq3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3184 + CoLean
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) HPPercentGT("coran",50)~ + @3185 + CoHealth1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !HPPercentGT("coran",50)~ + @3185 + CoHealth2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) GlobalGT("P#CoranLover","GLOBAL",1) !Global("P#CoEar","GLOBAL",1) RandomNum(2,1)~ + @3186 + CoEar1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) GlobalGT("P#CoranLover","GLOBAL",1) !Global("P#CoEar","GLOBAL",1) RandomNum(2,2)~ + @3186 + CoEar2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3187 + CoShine
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3188 + CoHood
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) GlobalLT("P#CoranLover", "GLOBAL",1)~ + @3189 + CoHip
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,1)~ + @3080 + CoStory1.1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,2)~ + @3080 + CoStory1.2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,3)~ + @3080 + CoStory1.3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,4)~ + @3080 + CoStory1.4
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(5,5)~ + @3080 + CoStory1.5
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(3,1)~ + @3190 + AskHair
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(3,2)~ + @3190 + AskEye
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(3,3)~ + @3190 + AskNot
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(2,1)~ + @3190 + AskEye
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) Global("X#HairColor","GLOBAL",1) !Global("X#EyeColor","GLOBAL",1) RandomNum(2,2)~ + @3190 + AskNot
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) Global("X#EyeColor","GLOBAL",1) RandomNum(2,1)~ + @3190 + AskHair
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) !Global("X#HairColor","GLOBAL",1) Global("X#EyeColor","GLOBAL",1) RandomNum(2,2)~ + @3190 + AskNot
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) Global("X#HairColor","GLOBAL",1) Global("X#EyeColor","GLOBAL",1)~ + @3190 + AskNot
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,1) OR(2) Global("P#CoranRomancePath","GLOBAL",1) Global("P#CoranRomancePath","GLOBAL",6)~ + @3191 + CoPalm1.1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,2) OR(2) Global("P#CoranRomancePath","GLOBAL",1) Global("P#CoranRomancePath","GLOBAL",6)~ + @3191 + CoPalm1.2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(3,3) OR(2) Global("P#CoranRomancePath","GLOBAL",1) Global("P#CoranRomancePath","GLOBAL",6)~ + @3191 + CoPalm1.3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(FOREST) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3192 + CoBerry
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) AreaType(DUNGEON)~ + @3193 + CoCold
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(2,1) Race(Player1,HUMAN) TimeOfDay(NIGHT)~ + @3194 + CoTorch1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(2,2) Race(Player1,HUMAN) TimeOfDay(NIGHT)~ + @3194 + CoTorch2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1) Race(Player1,ELF)~ + @3195 + CoElfCompliment1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) Race(Player1,ELF)~ + @3195 + CoElfCompliment2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) Race(Player1,ELF)~ + @3195 + CoElfCompliment3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) Race(Player1,ELF)~ + @3195 + CoElfCompliment4
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) !Race(Player1,ELF)~ + @3196 + CoNElfCompliment4
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,1) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly1
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly2
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly3
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly4
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3198 DO ~SetGlobal("P#CoranDisableFlirts","GLOBAL",1)~ EXIT
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3199 EXIT
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,1)~ + @3077 + X#COMaiden5
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,2)~ + @3077 + X#COMaiden6
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,3)~ + @3077 + X#COMaiden7
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,4)~ + @3077 + X#COMaiden8
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,1)~ + @3077 + X#COMaiden5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,2)~ + @3077 + X#COMaiden6
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,3)~ + @3077 + X#COMaiden7
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,4)~ + @3077 + X#COMaiden8
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,1)~ + @3078 + X#CORomantic1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,2)~ + @3078 + X#CORomantic2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,3)~ + @3078 + X#CORomantic3
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,4)~ + @3078 + X#CORomantic4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,5)~ + @3078 + X#CORomantic5
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,6)~ + @3078 + X#CORomantic6
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,1)~ + @3078 + X#CORomantic1
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,2)~ + @3078 + X#CORomantic2
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,3)~ + @3078 + X#CORomantic3
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,4)~ + @3078 + X#CORomantic4
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,5)~ + @3078 + X#CORomantic5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) RandomNum(6,6)~ + @3078 + X#CORomantic6
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) !Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,1)~ + @3079 + X#COAction1
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) !Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,2)~ + @3079 + X#COAction2
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) !Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,3)~ + @3079 + X#COAction3
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) !Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,1)~ + @3079 + X#COAction1
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) !Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,2)~ + @3079 + X#COAction2
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) !Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,3)~ + @3079 + X#COAction3
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,1)~ + @3079 + X#COAction4
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,2)~ + @3079 + X#COAction5
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,3)~ + @3079 + X#COAction6
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,1)~ + @3079 + X#COAction4
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,2)~ + @3079 + X#COAction5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%) Global("P#CoranWyvern","GLOBAL",1) RandomNum(3,3)~ + @3079 + X#COAction6
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,1)~ + @3079 + X#COAction5
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,2)~ + @3079 + X#COAction7
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,3)~ + @3079 + X#COAction8
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,4)~ + @3079 + X#COAction9
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,1)~ + @3079 + X#COAction5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,2)~ + @3079 + X#COAction7
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,3)~ + @3079 + X#COAction8
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_5%) RandomNum(4,4)~ + @3079 + X#COAction9
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,1) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction10
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,2) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction11
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,3) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction12
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,4) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,1) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction10
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,2) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction11
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,3) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction12
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,4) AreaCheck("%Candlekeep_Ch6%")~ + @3079 + X#COAction5
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,1) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction13
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,2) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction14
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,3) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction15
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,4) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,1) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction13
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,2) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction14
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,3) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction15
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_6%) RandomNum(4,4) !AreaCheck("%Candlekeep_Ch6%") OR(2) AreaCheck("%Candlekeep_Catacombs_L1%") AreaCheck("%Candlekeep_Catacombs_L2%")~ + @3079 + X#COAction5
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,1)~ + @3079 + X#COAction16
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,2)~ + @3079 + X#COAction17
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,3)~ + @3079 + X#COAction18
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) !GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,4)~ + @3079 + X#COAction5
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,1)~ + @3079 + X#COAction16
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,2)~ + @3079 + X#COAction17
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,3)~ + @3079 + X#COAction18
++ ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Global("Chapter","GLOBAL",%tutu_chapter_7%) RandomNum(4,4)~ + @3079 + X#COAction5
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CoranLover","GLOBAL",0) Global("X#CoranHanali","GLOBAL",0)~ + @3200 DO ~SetGlobal("X#CoranHanali","GLOBAL",1) SetGlobal("X#CoranHanaliRune","GLOBAL",1) RealSetGlobalTimer("X#CoHanaliTime","GLOBAL",10)~ + X#CoHa1
++ ~GlobalGT("P#CoranLover","GLOBAL",0) Global("X#CoranHanali","GLOBAL",0)~ + @3200 DO ~SetGlobal("X#CoranHanali","GLOBAL",1) SetGlobal("X#CoranHanaliRune","GLOBAL",1) RealSetGlobalTimer("X#CoHanaliTime","GLOBAL",10)~ + X#CoHa1
 
-+ ~!Global("P#CoranDisableFlirts","GLOBAL",1) GlobalGT("P#CoranLover","GLOBAL",0) Global("X#CoranHanali","GLOBAL",1)~ + @3201 DO ~SetGlobal("X#CoranHanali","GLOBAL",3)~ EXIT
++ ~GlobalGT("P#CoranLover","GLOBAL",0) Global("X#CoranHanali","GLOBAL",1)~ + @3201 DO ~SetGlobal("X#CoranHanali","GLOBAL",3)~ EXIT
 + ~%VoiceStrange%~ + @3083 + CoranVoice
 END
 
