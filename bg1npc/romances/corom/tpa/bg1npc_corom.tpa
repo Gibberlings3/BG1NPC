@@ -54,4 +54,4 @@ EXTEND_TOP ~%XZAR_BCS%.BCS~    ~bg1npc/romances/COROM/baf/P#CRXZ.BAF~
   EVALUATE_BUFFER
 
 /* fade to black cutscene */
-COMPILE EVALUATE_BUFFER ~bg1npc/romances/COROM/dlg/p#coftb.baf~
+COMPILE EVALUATE_BUFFER ~bg1npc/romances/COROM/baf/p#coftb.baf~
