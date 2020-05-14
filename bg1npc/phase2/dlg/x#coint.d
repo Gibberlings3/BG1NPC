@@ -287,7 +287,7 @@ SAY @94
 IF ~~ THEN DO ~SetGlobal("X#CoranWyvernReward","GLOBAL",3) SetGlobal("P#CoranWyvern","GLOBAL",10)~ EXIT
 END
 
-/* Coran, Entry to Baldur�s Gate */
+/* Coran, Entry to Baldur s Gate */
 IF WEIGHT #-2 ~%BGT_VAR% Global("P#CEBG","GLOBAL",1)~ THEN CEBG1
 SAY @113
 IF ~~ THEN DO ~SetGlobal("P#CEBG","GLOBAL",2)~ EXIT
@@ -390,7 +390,7 @@ SAY @145
 IF ~~ THEN EXIT
 END
 
-/* Coran, Entry to Durlag�s Tower - TOTSC! */
+/* Coran, Entry to Durlag's Tower - TOTSC! */
 IF WEIGHT #-1 ~%BGT_VAR% Global("P#CEDT","GLOBAL",1)~ THEN CEDT1
 SAY @146
 IF ~~ THEN DO ~SetGlobal("P#CEDT","GLOBAL",2)~ EXIT
@@ -416,7 +416,10 @@ EXIT
 CHAIN ~%tutu_var%FCOOK2~ X#CoranCook5
 @151
 == ~%CORAN_BANTER%~ @152
+/*
 DO ~LeaveParty() SetLeavePartyDialogFile() ChangeAIScript("",DEFAULT) EscapeArea() ActionOverride("%tutu_var%FCOOK2", EscapeArea())~
+*/
+DO ~ClearAllActions() StartCutSceneMode() StartCutScene("p#coftb")~
 EXIT
 
 CHAIN ~%CORAN_JOINED%~ X#CoranBrilla2

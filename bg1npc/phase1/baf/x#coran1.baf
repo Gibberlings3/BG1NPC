@@ -124,7 +124,7 @@ END
 
 IF %BGT_VAR%
 OR(2)
-  RealGlobalTimerExpired("P#CoranAskBaby","GLOBAL")
+  GlobalTimerExpired("P#CoranAskBaby","GLOBAL")
   Global("P#CoranPrompted","GLOBAL",3)
 Global("P#Briel_Stay","GLOBAL",1)
 Global("P#CoranBaby","GLOBAL",0)

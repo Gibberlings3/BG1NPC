@@ -79,8 +79,9 @@ DO ~SetGlobal("X#MIDY2","LOCALS",2)~
 == ~%MINSC_BANTER%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @38
 == ~%IMOEN_BANTER%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @39
 == ~%MINSC_BANTER%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @5 
-DO ~RestParty()~
-EXIT
+END
+IF ~~ THEN DO ~RestParty()~ EXIT
+
 
 /* Edwin's missive to his superior */
 CHAIN IF WEIGHT #-2 ~Global("X#Yegoriy","GLOBAL",1) Global("X#MIED2","LOCALS",0)~ THEN ~%MINSC_JOINED%~ MIED2
