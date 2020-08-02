@@ -360,11 +360,18 @@ COPY ~bg1npc/romances/dyrom/itm/vamp3.itm~ ~override~     /* For x#bodhi */
 COPY ~bg1npc/romances/dyrom/itm/vampreg2.itm~ ~override~  /* For x#bodhi */
 
 /* Soundset for x#joni */
-COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
-COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
-COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
-COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
-COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
+ACTION_IF FILE_EXISTS ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ BEGIN
+  COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC01.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC03.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC04.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC05.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/%LANGUAGE%/IRENIC06.wav~ ~override~
+END ELSE
+  COPY ~bg1npc/romances/dyrom/wav/english/IRENIC01.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/english/IRENIC03.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/english/IRENIC04.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/english/IRENIC05.wav~ ~override~
+  COPY ~bg1npc/romances/dyrom/wav/english/IRENIC06.wav~ ~override~
 END
 
 END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN /* BGT Versions */
