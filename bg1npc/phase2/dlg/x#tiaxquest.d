@@ -761,6 +761,8 @@ END
 ++ @372 DO ~SetGlobal("X#TiaxQuestComplain","GLOBAL",4) SetGlobal("X#TiaxQuestTiaxQuits","GLOBAL",1)~ JOURNAL @371 EXIT
 ++ @373 DO ~SetGlobal("X#TiaxQuestComplain","GLOBAL",4) SetGlobal("X#TiaxQuestTiaxQuits","GLOBAL",1)~ JOURNAL @371 EXIT
 
-CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#TiaxQuestComplain","GLOBAL",7)~ THEN ~%TIAX_JOINED%~ X#TiaxLetBelginGo1
+CHAIN IF WEIGHT #-2 ~%BGT_VAR% Global("X#TiaxQuestComplain","GLOBAL",7)
+GlobalGT("X#TiaxQuest","GLOBAL",5)
+!Dead("x#belgin")~ THEN ~%TIAX_JOINED%~ X#TiaxLetBelginGo1
 @380
 DO ~SetGlobal("X#TiaxQuestTiaxQuits","GLOBAL",1) SetGlobal("X#TiaxQuestComplain","GLOBAL",8)~ EXIT /* JOURNAL @381 */
