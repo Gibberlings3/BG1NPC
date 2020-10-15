@@ -449,31 +449,31 @@ The current list for this release shows the dedication of a community for many y
 * Proof readers: Cuttooth (coordinator), Kol (coordinator), Lua Nova, Claudiad, Morgan, Li, Jinete, Zireael, Soul Reaver, Picollo, Zed Nocear, Arientar, Tinuviel, Euler, Grazin
 
 **Tools Used in Creation**
-[jEdit](http://www.jedit.org) Programmer's Editor, a fantastic free world-wide project
-[WinMerge](https://winmerge.org) <acronym title="GNU's Not Unix">GNU</acronym> freeware file comparison utility, developed: Grim; Project Lead: List
-Soundset Utility by Macready
-[BAM Workshop](http://www.baldursgatemods.com/forums/index.php?action=downloads;cat=32) by Glenn Flansburg
-[BAM Workshop II](http://www.baldursgatemods.com/forums/index.php?action=downloads;cat=32) by Andrew Bridges
-[DyValiTool](http://www.baldurs-gate.ch) by Dyara
-[Aptana IDE](http://www.aptana.com) html/xml javascript editor. (c) Copyright Aptana, Inc. 2007\. Portions copyright Adobe, 2007.
-[ConTEXT](http://www.context.cx) by Eden Kirin
-[TextPAD](https://www.textpad.com) purchased version 5 by Helios Software Solutions
-[WildEdit](https://www.textpad.com) purchased version 1.1 by Helios Software Solutions
-[Crimson Editor](http://www.crimsoneditor.com) by Ingyu Kang
-[<acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym>](https://www.gibberlings3.net/mods/tools/dltcep/) by Avenger
-[<acronym title="Infinity Engine Structures Description Project">IESDP</acronym>](https://gibberlings3.github.io/iesdp/) maintained by igi and Avenger
-[Infinity Explorer](http://infexp.sourceforge.net) by Dmitry Jemerov
-[Near Infinity](https://forums.pocketplane.net/index.php/topic,22727.msg297145.html#msg297145) by Jon Olav Hauglid, FredSRichardson and devSin
-Shadowkeeper by Mud-Master
-<acronym title="Weimer Dialogue Utility">[WeiDU](https://weidu.org/main.html#weidu)</acronym> by Wes Weimer and the bigg
-[WeiDU ConTEXT Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by Idobek, updated by cmorgan
-[WeiDU Crimson Editor Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by cmorgan
-[WeiDU TextPAD Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by cmorgan
-WeiDU NotePad++ Highlighters by mike 1072 and cmorgan
-[BGT](http://www.spellholdstudios.net/ie/bgt) builds by Ascension64
-[Platform Conversion Utility](http://www.shsforums.net/topic/22499-release-platform-conversion-utility-pcu/) by Ascension64 for initial translation work to BGT
-[Tutu](https://www.pocketplane.net/bg1tutu/) by japheth, et. al
-[EasyTutu builds](http://usoutpost31.com/easytutu/mac/) of Tutu by Macready
+* [jEdit](http://www.jedit.org) Programmer's Editor, a fantastic free world-wide project
+* [WinMerge](https://winmerge.org) <acronym title="GNU's Not Unix">GNU</acronym> freeware file comparison utility, developed: Grim; Project Lead: List
+* Soundset Utility by Macready
+* [BAM Workshop](http://www.baldursgatemods.com/forums/index.php?action=downloads;cat=32) by Glenn Flansburg
+* [BAM Workshop II](http://www.baldursgatemods.com/forums/index.php?action=downloads;cat=32) by Andrew Bridges
+* [DyValiTool](http://www.baldurs-gate.ch) by Dyara
+* [Aptana IDE](http://www.aptana.com) html/xml javascript editor. (c) Copyright Aptana, Inc. 2007\. Portions copyright Adobe, 2007.
+* [ConTEXT](http://www.context.cx) by Eden Kirin
+* [TextPAD](https://www.textpad.com) purchased version 5 by Helios Software Solutions
+* [WildEdit](https://www.textpad.com) purchased version 1.1 by Helios Software Solutions
+* [Crimson Editor](http://www.crimsoneditor.com) by Ingyu Kang
+* [<acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym>](https://www.gibberlings3.net/mods/tools/dltcep/) by Avenger
+* [<acronym title="Infinity Engine Structures Description Project">IESDP</acronym>](https://gibberlings3.github.io/iesdp/) maintained by igi and Avenger
+* [Infinity Explorer](http://infexp.sourceforge.net) by Dmitry Jemerov
+* [Near Infinity](https://forums.pocketplane.net/index.php/topic,22727.msg297145.html#msg297145) by Jon Olav Hauglid, FredSRichardson and devSin
+* Shadowkeeper by Mud-Master
+* <acronym title="Weimer Dialogue Utility">[WeiDU](https://weidu.org/main.html#weidu)</acronym> by Wes Weimer and the bigg
+* [WeiDU ConTEXT Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by Idobek, updated by cmorgan
+* [WeiDU Crimson Editor Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by cmorgan
+* [WeiDU TextPAD Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by cmorgan
+* WeiDU NotePad++ Highlighters by mike 1072 and cmorgan
+* [BGT](http://www.spellholdstudios.net/ie/bgt) builds by Ascension64
+* [Platform Conversion Utility](http://www.shsforums.net/topic/22499-release-platform-conversion-utility-pcu/) by Ascension64 for initial translation work to BGT
+* [Tutu](https://www.pocketplane.net/bg1tutu/) by japheth, et. al
+* [EasyTutu builds](http://usoutpost31.com/easytutu/mac/) of Tutu by Macready
 
 Advanced users can follow BG1NPC or add to its development by following it on GitHub; [https://github.com/Gibberlings3/BG1NPC](https://github.com/Gibberlings3/BG1NPC)
 
