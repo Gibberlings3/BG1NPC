@@ -116,6 +116,7 @@ CombatCounter(0)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 !StateCheck("khalid",CD_STATE_NOTVALID)
 CombatCounter(0)
+AreaType(OUTDOOR)
 THEN
 RESPONSE #100
 PlaySong(0)
