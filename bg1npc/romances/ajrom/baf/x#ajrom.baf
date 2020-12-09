@@ -634,7 +634,7 @@ IF %BGT_VAR%
  InParty(Myself)
  !StateCheck(Player1,CD_STATE_NOTVALID)
  !StateCheck(Myself,CD_STATE_NOTVALID)
- OR(20)
+ OR(19)
  Global("X#AjantisLoveTalk","GLOBAL",2)
  Global("X#AjantisLoveTalk","GLOBAL",4)
  Global("X#AjantisLoveTalk","GLOBAL",6)
@@ -652,7 +652,6 @@ IF %BGT_VAR%
  Global("X#AjantisLoveTalk","GLOBAL",30)
  Global("X#AjantisLoveTalk","GLOBAL",34)
  Global("X#AjantisLoveTalk","GLOBAL",36)
- Global("X#AjantisLoveTalk","GLOBAL",38)
  Global("X#AjantisLoveTalk","GLOBAL",40)
  Global("X#AjantisLoveTalk","GLOBAL",42)
 THEN
