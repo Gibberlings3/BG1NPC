@@ -1,0 +1,541 @@
+//Sulla testa della viverna
+@0    = ~*Tenendo la testa senza vita della viverna nella sua mano tesa*
+Ahimè, povera viverna. Senza carne sulle sue ossa
+Non vivrà la vita delle viverne... ma ci porterà monete.
+Non è una bellezza?~
+@1    = ~Ora, Coran, non sappiamo nemmeno se quella fosse una viverna femmina.~
+@2    = ~Coran, basta! Non mi piace quando il sacro viene ridicolizzato!~
+@3    = ~Coran, hai uno strano concetto di bellezza. Finirai col fare avances perfino alle femmine goblin...~
+@4    = ~Mmm, in realtà, possiamo. Guarda la forma del cranio - era decisamente una femmina.~
+@5    = ~In che modo un ladro potrebbe sapere cose del genere? Mi aspetterei che tali conoscenze venissero dalla bocca di un druido o di un ranger.~
+@6    = ~Va bene, era femmina. Ma, Coran, hai uno strano concetto di bellezza. Finirai col fare avances perfino alle femmine goblin...~
+@7    = ~*sospirando* Ah, fai silenzio!~
+@8    = ~Dimmi, chi ha ucciso il tuo senso dell'umorismo?~
+@9    = ~Un elfo fastidioso, di nome Coran.~
+@10   = ~Lasciami stare, Coran. Non ho voglia di scherzare.~
+@11   = ~Scusa, Coran, non sono affatto incline a parlare con nessuno in questo momento.~
+@12   = ~Oh, temo non ci stiamo capendo. Mi sto proprio stancando dei tuoi modi. Forse è meglio se ognuno prosegua per la sua strada...~
+@13   = ~Resta, ma resta in silenzio.~
+@14   = ~Sì, hai ragione. Sei troppo fastidioso da tenere in giro.~
+@15   = ~Giusto. Allora parlerò con un albero di quercia. Dopotutto sono un elfo. Le querce saranno compagne abbastanza piacevoli rispetto a te.~
+@16   = ~Buon viaggio!~
+@17   = ~Non c'è pericolo! La viverna è una bestia potente e magica, inoltre... ha una certa maestosità e bellezza in lei. Una goblin, d'altra parte, è solo settanta libbre di verde, viscido sputo. Io dico, lascia che i maschi dei goblin di occupino delle loro femmine.~
+@18   = ~Ora, Coran, non sappiamo nemmeno se quella fosse una viverna femmina...~
+@19   = ~Bah, come ti pare...~
+@20   = ~Mia gentile signora, se sarai disposta a conoscermi più approfonditamente, scoprirai che i miei interessi non si limitano a serrature, tasche, trappole e bauli.~
+@21   = ~Ero consapevole che avessi un grande interesse nel rapporto tra i sessi. Ma non avrei potuto immaginare fino a che punto fossi disposto a spingerti nella tua ricerca.~
+@22   = ~Mi dispiace tanto, Coran. Capisco che la frenologia sia una sfera di conoscenza assolutamente vitale per te, ma non è quanto voglia sapere di te. Almeno per ora.~
+@23   = ~Non intendevo offenderti, Coran. Qualche volta potremo parlare di te... e di me... dei nostri interessi, cose del genere.~
+@24   = ~Non mi interessa scoprire nulla di te. Nella mia compagnia, farai bene a limitarti a occuparti di serrature, tasche, trappole e bauli.~
+@25   = ~Non faccio mai le cose a metà, <CHARNAME>.~
+@26   = ~È colpa mia averti infastidito, perché è il peccato più grande per un uomo essere noioso agli occhi di una bella donna.~
+@27   = ~Quindi sono io che dovrei scusarmi, <CHARNAME>. Prometto che farò del mio meglio per non annoiarti.~
+@28   = ~Non vedo l'ora, <CHARNAME>. Niente sarebbe più divertente di una chiacchierata amichevole con una persona con il tuo ingegno e il tuo fascino.~
+@29   = ~Oh, non c'è bisogno di irrigidirsi tanto.~
+@30   = ~Ora hai ferito i miei sentimenti. Pensi che i miei interessi siano limitati a serrature, tasche, trappole e bauli?~
+@31   = ~Non intendevo offenderti, Coran. Mi dispiace.~
+@32   = ~Sì, lo supponevo, e preferirei che limitassi i tuoi interessi a serrature, tasche, trappole e bauli.~
+@33   = ~*ride* Significa che è assolutamente inutile? Certo, certo, ma le persone hanno bisogno di qualcosa nelle loro vite oltre al loro lavoro!~
+@34   = ~Eh, nessun rancore! Stavo scherzando, tutto qui.~
+@35   = ~Va bene, era una femmina. Ora dammi un momento di pace!~
+//Primo dialogo amichevole
+@36   = ~Perché odio gli orchi? Lascia che ti dica. Se fossero rimasti su tutto Toril solamente un elfo, un orco e un albero, l'orco abbatterebbe l'albero e l'elfo lo ucciderebbe per questo.~
+@37   = ~Che storia fantastica! Descrive perfettamente il rapporto tra la gente alta e le razze goblinoidi in una sola frase!~
+@38   = ~Ora, Coran, se solo potessi spiegare anche perché agli elfi non vanno d'accordo coi nani...~
+@39   = ~Mmm, mi chiedo cosa succede a quell'elfo in seguito?~
+@40   = ~Qualunque cosa.~
+@41   = ~La saggezza della mia antica razza. Impossibile batterla.~
+@42   = ~Togliti quel sorriso dalla faccia, elfo, altrimenti ti mostrerò come si può battere l'antica saggezza... o il suo portatore.~
+@43   = ~No. Ammiro così tanto gli elfi!~
+@44   = ~Dopo che l'elfo avrà così eroicamente ucciso il vile orco, gli resterà solo una cosa da fare. Morirà fantasticando tristemente sul glorioso passato della sua gente e col rimpianto sulla sua incapacità di prevenire la loro inevitabile morte. Quindi un nano passerà e proverà a seppellirlo, ma, scavando la sua tomba, non potrà fare a meno di trovare una vena di mithral. Quindi userà l'albero per fondere il metallo e non avrà tempo tra le sue fatiche di preoccuparsi del cadavere elfico... Ed è per questo che agli elfi non piacciono i nani.~
+@45   = ~Che sarà a sua volta mangiato da un halfling affamato?~
+@46   = ~Che dire di halfling, umani e gnomi?~
+@47   = ~Coran, basta così!~
+@48   = ~Certo, mi ero dimenticato che fossi un tipo cupo.~
+		~Certo, mi ero dimenticato che fossi una tipa cupa.~
+@49   = ~È piacevole da ascoltare.~
+@50   = ~Eh, è stato bello!~
+@51   = ~Deve essere un halfling veramente affamato di cui stai parlando, <CHARNAME>. Penso piuttosto che aprirebbe una piccola taverna sul posto e la chiamerebbe "L'Elfo e l'Orco", e si vanterebbe incessantemente di vendere la migliore birra su Toril. Il che sarebbe senz'altro vero, ovviamente, poiché stiamo parlando dell'ultimo.~
+@52   = ~E gli umani e gli gnomi?~
+@53   = ~Sai di essere pieno di pregiudizi?~
+@54   = ~Un halfling aprirebbe una piccola taverna sul posto e la chiamerebbe "L'Elfo e l'Orco", e si vanterebbe incessantemente di vendere la migliore birra su Toril. Il che sarebbe senz'altro vero, ovviamente, poiché stiamo parlando dell'ultimo. Un umano scruterebbe i resti dell'elfo, pensando malinconicamente a come non sarebbe mai stato in grado di morire in un modo così mistico, ma ad alta voce avrebbe detto che l'arrogante bastardo aveva trovato una fine degna. Giuro sul cuore d'oro di Hanali Celanil che non so cosa potrebbe fare uno gnomo. Chiedi a uno gnomo...~
+@55   = ~Sì, bella storia!~
+@56   = ~ Un umano scruterebbe i resti dell'elfo, pensando malinconicamente a come non sarebbe mai stato in grado di morire in un modo così mistico, ma ad alta voce avrebbe detto che l'arrogante bastardo aveva trovato una fine degna. Giuro sul cuore d'oro di Hanali Celanil che non so cosa potrebbe fare uno gnomo. Chiedi a uno gnomo...~
+@57   = ~Chi non lo è? Rilassati, <CHARNAME>, ammetto che un orco potrebbe essere una nobile eccezione alla sua razza e che un elfo potrebbe abbattere un albero per uno scopo oscuro, e posso persino immaginare un nano generoso, un halfling avventuroso o un umano che non brami le cose che gli altri hanno...~
+@58   = ~Spero che ora in cambio mi parlerai un po' di te? Qualcosa sul tempo spensierato passato coi monaci a Candlekeep, forse?~
+//Secondo dialogo amichevole
+@59   = ~Ah, essere un giovane in fuga da casa! Sei un tipo audace, <CHARNAME>. Mi piace!~
+		~Ah, essere un giovane in fuga da casa! Sei una tipa audace, <CHARNAME>. Mi piace!~
+@60   = ~Non sono così giovane. Ho visto un po' di mondo e sto rapidamente diventando una sorta di  eroe! Aspetta solo un altro mese o giù di lì, e nessuno oserà più chiamarmi *giovane* <CHARNAME>. Presto sarò famoso come Drizzt!~
+		~Non sono così giovane. Ho visto un po' di mondo e sto rapidamente diventando una sorta di  eroe! Aspetta solo un altro mese o giù di lì, e nessuno oserà più chiamarmi *giovane* <CHARNAME>. Presto sarò famosa come Drizzt!~
+@61   = ~Non a caso, anche tu mi piaci, Coran. Noi vagabondi e bon vivants abbiamo bisogno di unire le forze!~
+@62   = ~Coran, per quanto apprezzi il sentimento, non sono scappato di casa. Ho lasciato Candlekeep accompagnato dal mio padre adottivo e ho continuato ad agire in piena conformità con i suoi desideri dopo la sua prematura morte. Non sono il marmocchio disobbediente che immagini.~
+		~Coran, per quanto apprezzi il sentimento, non sono scappata di casa. Ho lasciato Candlekeep accompagnata dal mio padre adottivo e ho continuato ad agire in piena conformità con i suoi desideri dopo la sua prematura morte. Non sono la monella disobbediente che immagini.~
+@63   = ~*ridacchia* Ah, vedo che sei già ubriaco del tuo primo calice di libertà e gloria! Ottimo. Non abbiamo bisogno di gente comune in questa compagnia!~
+		~*ridacchia* Ah, vedo che sei già ubriaca del tuo primo calice di libertà e gloria! Ottimo. Non abbiamo bisogno di gente comune in questa compagnia!~
+@64   = ~Assolutamente no! Finirebbero comunque col morire troppo in fretta.~
+@65   = ~Ah, ma potremmo portarcene dietro un paio, per avere qualcuno di cui ridere.~
+@66   = ~A ciascuno il suo. Non faccio reclutamento, e la gente comune non vaga per le colline e le valli in compagnia di avventurieri dalla dubbia reputazione. Il mondo va semplicemente come è sempre andato.~
+@67   = ~ Per celebrare la nostra compagnia, suggerisco di bere un paio di caraffe di buon vino alla prossima taverna decente, e raccontare poi ad una bella fanciulla, o magari due, le nostre incredibili imprese. Vieni ora, andiamo all'avventura prima che ombrosi paladini uccidano tutti i draghi, tutte le ragazze si trasformino in vecchie zitelle e il vino evapori!~
+@68   = ~Ti piaccio? La mia bellissima signora ha appena reso il sole ancora più brillante! Combatterò come un leone, tesoro, sapendo che i tuoi occhi mi guardano con approvazione. Vieni ora, andiamo all'avventura prima che ombrosi paladini uccidano tutti i draghi e tutto il vino evapori!~
+@69   = ~*ridendo* Amico mio, fidati di me, non sei poi così cattivo come compagno. Ma se vuoi pretendere di fingerti un soldato in servizio e dalla faccia severa, accomodati pure!~
+@70   = ~Ah, mia signora, dovresti riscaldarti un po', a meno che tu non voglia trasformare le gioiose terre di Baldur's Gate in quelle di Icewind Dale. Ogni tuo più piccolo sorriso ci salverà tutti dall'assideramento, <CHARNAME>.~
+@71   = ~Sei impossibile! Esiste un modo in cui possa mostrarti che i tuoi flirt mi infastidiscono?~
+@72   = ~Non mi lascerai in pace, vero? Eccoti il tuo sorriso, Coran, e ora muoviamoci!~
+@73   = ~*ridendo* Ah, Coran, sapevo che non avrei potuto ingannarti. Sono vagabonda quanto te. Forse è per questo che mi piaci così tanto...~
+@74   = ~No, non possiamo lasciar morire la gente comune. A meno che non cerchino di costringerci a stabilirci in mezzo a loro, ovviamente. Vieni ora, continuiamo la nostra ricerca di avventura prima che ombrosi paladini uccidano tutti i draghi, le belle ragazze si trasformino in zitelle acide e tutto il vino evapori!~
+@75   = ~Forse. Ma non mi piace ridere di quelli che sono patetici o deboli. Mi piace ridere di e con persone forti e libere. Vieni ora, continuiamo la nostra ricerca di avventura prima che ombrosi paladini uccidano tutti i draghi, le belle ragazze si trasformino in zitelle acide e tutto il vino evapori!~
+@76   = ~Certo, <PRO_LADYLORD>, ovviamente... e questa è una buona cosa. Il mondo non sarebbe lo stesso senza contadini o avventurieri. Vieni ora, continuiamo la nostra ricerca di avventura prima che ombrosi paladini uccidano tutti i draghi, le belle ragazze si trasformino in zitelle acide e tutto il vino evapori!~
+@77   = ~Perché? Non ho mai flirtato con te! Non proprio. Non ancora. Potrei provare in modo da farti vedere la differenza... oh, smettila di aggrottare le sopracciglia, sto solo scherzando!~
+@78   = ~Mia signora, il tuo sorriso fa brillare il sole! Combatterò come un leone, tesoro, indossando nella memoria il ricordo delle tue belle labbra, come se un cavaliere indossa il favore della sua Signora. Vieni ora, continuiamo la nostra ricerca di avventura prima che ombrosi paladini uccidano tutti i draghi, ed il vino evapori!~
+//dialogo amicale 3
+@79   = ~Sono felice di essere nella tua compagnia, perché sembri attrarre l'avventura. Le viverne non sono niente! Sto iniziando a sperare che un giorno incontreremo un drago. Tutti a casa affermano di essere discendenti di Tethir l'Ammazza Draghi, quindi forse condivido il suo sangue.~
+@80   = ~Prima hai parlato di nient'altro che fanciulle, ora sono draghi... Coran, sei davvero il più vecchio tra noi due?~
+@81   = ~Non credo che siamo ancora pronti ad affrontare un drago, Coran. Sono bestie dal potere leggendario e...~
+@82   = ~Sì! Quello *sarebbe* emozionante... e scommetto che il teschio di un drago sarebbe abbastanza grande da trasformarsi in una sedia a dondolo! O un trono...~
+@83   = ~Questo si trasformerà in una lezione sulla responsabilità? Grazie, ma io *sono* più vecchio e te lo proibisco esplicitamente! Mi hanno già stracotto a sufficienza durante il mio ultimo soggiorno a Suldanessellar.~
+@84   = ~E tutto solo perché ho inciso il mio nome e quello di mia signora sul tronco dell'Albero della Vita... e con un cuore molto attraente attorno, tra l'altro. Col senno di poi, è colpa mia. Non avrei dovuto scrivere il mio, ma l'amore si sa acceca un uomo.~
+@85   = ~Quanto può essere difficile uccidere una viverna? La cosa principale è non lasciare mai che il tuo cuore affondi nella disperazione, né quando sei di fronte a un drago rosso molto arrabbiato, né quando una bella fanciulla ti restituisce uno sguardo gelido.~
+@86   = ~Cosa c'è da sorridere quando un drago sta per mangiarti?~
+@87   = ~Draghi e fanciulle. Coran, maturerai mai?~
+@88   = ~Forse potremmo farlo. Sarebbe una scappatella elettrizzante, e scommetto che il teschio di un drago sarebbe abbastanza grande da trasformarsi in una sedia a dondolo. O un trono...~
+@89   = ~Perché parli di troni? Sei uno di quelli che brama il potere e sogna di diventare sovrano?~
+		~Perché parli di troni? Sei una di quelle che brama il potere e sogna di diventare sovrano?~
+@90   = ~È meglio desiderare il potere rispetto alle locandiere, Coran.~
+@91   = ~Con il mio sangue divino dovrei pensare a cose del genere, Coran. Vedo un trono fatto di ossa di drago, giada nera e adamantino scuro. È stranamente attraente e minaccioso allo stesso tempo.~
+@92   = ~Era un pensiero vagante, Coran, non di più. Stavo parlando delle sedie a dondolo e improvvisamente ho visto un trono fatto di ossa di drago, giada nera e adamantino scuro. Era stranamente attraente e minaccioso allo stesso tempo.~
+@93   = ~No, Coran, non intendevo sul serio. Solo una parola che mi è venuta in mente.~
+@94   = ~Oh, un sacco! Basti pensare al bruciore di stomaco che il drago otterrebbe dopo aver banchettato con te!~
+@95   = ~Ne dubito... il potere è un'amante molo capriccioso, e la storia d'amore con lui alla fine è così poco gratificante! Ti trasforma in un calamaro grasso, arrogante ed egoista, che pretende di insegnare agli altri come affrontare la propria vita persino più velocemente di quanto faccia il matrimonio.~
+@96   = ~Sei in verità <PRO_SONDAUGHTER> di Bhaal, vero? A volte me ne dimentico, ma poi riemerge come bolle in una torbiera. Temo che il potere ti troverà anche se manterrai il tuo ingegno e non lo cercherai. Io... potrei prendere in considerazione l'idea di lasciare presto la tua compagnia, <CHARNAME>. Sebbene il nostro tempo insieme sia stato divertente, non mi sento troppo a mio agio a viaggiare con qualcuno della tua stirpe.~
+@97   = ~Hai le visioni e i sogni più strani, <CHARNAME>. O la grandezza è veramente il tuo destino, o sei semplicemente folle. Preferirei impazzire, piuttosto che governare. Il potere è un'amante così capriccioso, e la storia d'amore con lui è in definitiva così poco gratificante! Ti trasforma in un calamaro grasso, arrogante ed egoista, che pretende di insegnare agli altri come affrontare la propria vita persino più velocemente di quanto faccia il matrimonio.~
+@98   = ~Sai che non lo è. Sei <PRO_SONDAUGHTER> di Bhaal. A volte me ne dimentico, ma poi riemerge come bolle in una torbiera. Temo che il potere ti troverà anche se manterrai il tuo ingegno e non lo cercherai. Io... potrei prendere in considerazione l'idea di lasciare presto la tua compagnia, <CHARNAME>. Sebbene il nostro tempo insieme sia stato divertente, non mi sento troppo a mio agio a viaggiare con qualcuno della tua stirpe.~
+@99   = ~Una strana parola da usare, <CHARNAME O la grandezza è veramente il tuo destino, o sei semplicemente folle. Preferirei impazzire, piuttosto che governare. Il potere è un'amante così capriccioso, e la storia d'amore con lui è in definitiva così poco gratificante! Ti trasforma in un calamaro grasso, arrogante ed egoista, che pretende di insegnare agli altri come affrontare la propria vita persino più velocemente di quanto faccia il matrimonio.~
+//dialogo amicale 4
+@100  = ~C'è la perfezione in ogni donna, ma nessuna donna è perfetta. Ahimè.~
+@101  = ~È quello che stai cercando, Coran? Perfezione? Ti stai preparando per una delusione.~
+@102  = ~In questo caso, Coran, la tua unica speranza è rivolgere la tua ricerca altrove. Ma penso che troveresti maschi non meno imperfetti delle femmine.~
+@103  = ~Perché dici questo?~
+@104  = ~Non temere, posso far fronte alla delusione. Ho inventato un sistema peculiare. Credo che ci sia una perfezione in ogni donna: uno ha un lobo fatto per i baci più delicati, un' altra può danzare divinamente, e un'altra ancora ha negli occhi un incantesimo irresistibile... ecco, quando li metti insieme, formano un'immagine bellissima.~
+@105  = ~Tu... collezioni donne come pezzi di un mosaico? È disgustoso, Coran!~
+@106  = ~Soluzione interessante. Mi chiedo se i tuoi esemplari raccolti non si ribellino a volte contro l'essere partecipi di una simile compagnia.~
+@107  = ~*ride* In effetti.~
+@108  = ~Vedi... di solito, una donna uno ha un lobo fatto per i baci più delicati, un'altra può danzare divinamente, e un'altra ancora ha negli occhi un incantesimo irresistibile. Quindi, quando messe insieme, fanno la donna perfetta dei miei sogni.~
+@109  = ~Penso che tu mi abbia frainteso. Non desidero rovinare i piaceri dell'amore diventando amante di più di una donna contemporaneamente, ma noto la bellezza delle altre e la ricordo. In effetti credo che con alcune donne *non* dovresti innamorartene per amarle...~
+@110  = ~Coran, di cosa stai parlando? Non ha senso!~
+@111  = ~Intendi questo strano, dolce sentimento che germoglia nella tua anima quando sai che sei innamorato di un'altra e lei di te? Quando non devi provare nulla o conquistarla, ma stai semplicemente lì a goderti la sua compagnia e la sua grazia, e ti senti orgoglioso e triste che nessun pensiero "cosa succederebbe se" ti  passi per la mente?~
+@112  = ~Coran, Coran. Pensi troppo alle donne. Ma che ne dici di farlo in silenzio per un po'? Dovremmo davvero andare.~
+@113  = ~Io... A volte ho avuto questa strana, dolce sensazione. Non ho dovuto provare nulla per conquistarla. Mi è semplicemente piaciuta la sua compagnia e la sua grazia. E mi sentivo orgoglioso e triste che nessun pensiero "cosa succederebbe se" mi passasse per la mente. Che cos'è questa se non la più nobile forma di amore? Augurare a qualcuno ogni felicità e non desiderare nulla in cambio?~
+@114  = ~Questo, Coran, si chiama cameratismo. Non amore. È così inconcepibile per te avere un'amica che non condivide il tuo letto?~
+@115  = ~Forse sei in grado di provare sentimenti più profondi di quanto pensassi.~
+@116  = ~Coran, Coran. Che importa se è amore o no? Dovremmo davvero andare ora.~
+@117  = ~Un uomo che pensa troppo poco alle donne è in cerca di guai.~
+@118  = ~*sospira* Avrei amato una donna del genere per il resto della mia vita, ma purtroppo, devo ancora incontrare una donna che non si innamorerebbe di me alla fine.~
+@119  = ~Non così forte, per favore! Ho una reputazione da difendere, sai.~
+@120  = ~Sì, amico mio. A volte penso che sia la più nobile forma di amore. Augurare a qualcuno ogni felicità e non desiderare nulla in cambio.~
+@121  = ~Questo, Coran, si chiama cameratismo. Non amore. È così inconcepibile per te avere un'amica che non condivide il tuo letto?~
+@122  = ~L'amore significa vita, <CHARNAME> e non si può mai pensare a nessuno dei due.~
+//dialogo con Safana
+@123  = ~Alzati e risplendi, furfantessa!~
+@124  = ~Un semplice "la signora più bella, affascinante ed elegante del mondo" dovrebbe bastare, tesoro. Cosa mi significa "furfantessa"?~
+@125  = ~Mia signora più bella, affascinante ed elegante del mondo, questa mattina mi sono accorto di come il Comune sia un linguaggio meravigliosamente flessibile, ma troppo spesso privo della capacità di enfatizzare la caratteristica più attraente del mondo. Cioè la differenza tra maschi e femmine...~
+@126  = ~È per questo che vuoi chiamarmi … furfantina?~
+@127  = ~Furfantessa... o furfantina... o furfantella... o magari furfantuccia?~
+@128  = ~Oh, capisco. Ma tesoro, chi può dire che furfante sia riservato ai maschi? Forse è di per sé femminile, e sono io che dovrei chiamarti... furfanto?~
+@129  = ~Se questo ti fa piacere. Ma preferisco quando mi chiami "tesoro". È più... incoraggiante, mio petalo di rosa.~
+//episodio della ninna nanna
+@130  = ~<CHARNAME>? *sbadiglia* È già ora di alzarsi? Dimmi che stai scherzando! Io... sono esausto. Namara si è un po' agitata durante la nostra ultima battaglia e non ha smesso di borbottare. *sbadiglia* E ha provato a masticare l'impennaggio delle frecce... anche di quelle magiche...~
+@131  = ~<CHARNAME>?~
+@132  = ~Mi dispiace, Coran. Dobbiamo davvero muoverci. Non ti ho svegliato fino all'ultimo, ma è ora.~
+@133  = ~Non credo che un riposo più lungo ci farà del male. Torna a dormire, Coran... Ehm... *dopo* che avrai calmato Namara... E tienila lontana dalla nostra scorta di frecce!~
+@134  = ~Non ho pazienza per questo, Coran. Hai scelto di fare il tuo dovere come dovrebbe fare un uomo, ora fallo senza piagnucolare. In piedi, Coran di Tethyr!~
+@135  = ~Grazie, <CHARNAME>. Proverò a prepararmi a breve... Namara! Ho avuto amanti che non erano così efficienti nel farmi alzare...~
+@136  = ~Sì, mio Capitano!~
+@137  = ~*sbadiglia* Mi preparo in un attimo... Namara! Per favore... ho avuto amanti che non erano così efficienti nel farmi alzare...~
+@138  = ~Il più grande segno di stupidità è l'incapacità di seguire i consigli di gente esperta. Sono sceso dal piedistallo della mia superiorità per inebriarti con la mia saggezza e non hai fatto nulla. (Lo sciocco non ha visto l'occasione perfetta per sbarazzarsi della mocciosa. Tutto quello che doveva fare era darle l'estremità appuntita da succhiare anziché l'impennaggio.) Smetti di provare a sollecitare la simpatia di <CHARNAME> e alzati, pigro di un ladro!~
+@139  = ~Nata a malapena, e sta già corteggiando la morte. Deve averlo imparato da noi.~
+@140  = ~Oh! È così carina! *ridacchia* Voglio una bambina tutta mia!~
+@141  = ~Tieni quegli occhi lascivi sull'elfo, e sarai facilmente accontentata.~
+@142  = ~<CHARNAME>? Che bella visione sei... *soffoca uno sbadiglio* Mi dispiace, bella signora. Sarai misericordiosa e mi dirai che ti sto sognando e non è già il momento di alzarmi? Io... sono esausto. Namara si è un po' agitata durante il nostro ultimo scontro e non ha smesso di borbottare. E ha cercato di masticare l'impennaggio delle frecce... anche di quelle magiche... e...~[CORANB]
+@143  = ~Non credo che un riposo più lungo ci farà del male. Torna a dormire, Coran, e fammi provare a cullare Namara... finché ci rimangono ancora frecce.~
+@144  = ~Bah! Non ho pietà per te. Hai quasi lasciato la povera Brielbara al suo destino, e ora piangi di autocommiserazione perché la bambina ti ha effettivamente costretto ad essere responsabile. Uomini! Adesso ALZATI!~
+@145  = ~<CHARNAME>, la tua gentilezza è superata solo dalla tua bellezza. Ehm, sei sicura di poter cullare Namara, comunque? Puoi esercitarti su di me... se non sei sicura, cioè.~
+@146  = ~*Dai un'occhiata a Coran e prendi Namara. Ignorando il suo sguardo piuttosto ansioso, inizi a cantare una ninna nanna: *
+Cento api dall'alveare,
+Nella notte per volare.
+Sembran perse lì nel cielo
+Api d'argento, mogli d'amare
+Ma non le sento ronzare,
+Ma non le sento frignare.
+È la mia bambina che lo fa
+E nessuno il perché lo sa.~
+@147  = ~Non preoccuparti, Coran. Faccio sempre bene le cose a cui tengo. *Ignorando lo sguardo piuttosto ansioso di Coran, raccogli Namara e inizi a cantare una ninna nanna: *
+Cento api dall'alveare,
+Nella notte per volare.
+Sembran perse lì nel cielo
+Api d'argento, mogli d'amare
+Ma non le sento ronzare,
+Ma non le sento frignare.
+È la mia bambina che lo fa
+E nessuno il perché lo sa.~
+@148  = ~Sembra una buona idea... Ecco, Coran, lascia che prenda Namara e mi siederò vicino a te e canterò per entrambi. *Ignorando lo sguardo piuttosto ansioso di Coran, raccogli Namara e inizi a cantare una ninna nanna*
+Cento api dall'alveare,
+Nella notte per volare.
+Sembran perse lì nel cielo
+Api d'argento, mogli d'amare
+Ma non le sento ronzare,
+Ma non le sento frignare.
+È la mia bambina che lo fa
+E nessuno il perché lo sa.~
+@149  = ~In piedi, Coran di Tethyr! Se hai la forza di flirtare, dovresti avere abbastanza forze per camminare.~
+@150  = ~Ho lasciato Brielbara con il suo amorevole marito! È colpa mia se si è rivelato essere un bastardo dal cuore crudele?~
+@151  = ~Brielbara ha un talento speciale per innamorarsi dei bastardi dal cuore crudele, a quanto pare.~
+@152  = ~In piedi, Coran di Tethyr! Se hai la forza di brontolare, dovresti avere abbastanza forze per camminare.~
+@153  = ~Oh, va bene, non sopporto questa patetica dimostrazione di impotenza. Un riposo più lungo non ci farà del male. Torna a dormire, Coran, e fammi provare a cullare Namara... finché ci rimangono ancora frecce.~
+@154  = ~Non avrei dovuto dubitare di te... questa ninna nanna, sembra molto convincente sulle tue labbra. *Coran si addormenta, ma ti ci vogliono due ore buone per calmare Namara.*~
+@155  = ~Lascia che i miei sogni siano belli e gentili come lo sei con Namara. *Coran e Namara si addormentano entrambi pacificamente, così come il resto dei tuoi vigorosi compagni.*~
+@156  = ~Ermm... tu dici? Dubito che sia del tutto vero, ma... va bene. Non permetterò a un cipiglio di rovinare il tuo bel viso, <CHARNAME>. Proverò a prepararmi a breve... Namara! Per favore... ho avuto amanti che non erano così efficienti nel farmi alzare...~
+@157  = ~Apparentemente. Hai capito tutto, non è vero? La povera, ingenua Brielbara, Coran dal cuore crudele e una figlia bastarda. Perché mi preoccupo di parlarti?~
+//dialogo con Ajantis
+@158  = ~Il tuo scudo porta un sigillo, ma non è l'occhio di Helm. Quello sarebbe lo stemma della tua famiglia?~
+@159  = ~Sì, Coran. Quelli sono il sigillo e le parole della Casata Ilvastarr di Waterdeep.~
+@160  = ~'La legge soprattutto'?~
+@161  = ~'La legge soprattutto'.~
+@162  = ~Mmm... quale legge?~
+@163  = ~La legge della terra.~
+@164  = ~Dimmi, Ajantis, quando attraversi i confini tra le terre, la tua percezione di giusto e sbagliato cambia? E se ti trovassi in una città Drow? Ho sentito che hanno una sola legge: "Non farti prendere!"~
+@165  = ~Le persone non possono essere così cieche da non vedere come le leggi di Waterdeep siano giuste, eque e virtuose. Obbedisco a quelle leggi e mi aspetto che tutti gli altri le rispettino. Se non lo fanno, guai a loro!~
+@166  = ~È una posizione piuttosto dura, Ajantis. Fino a quando tutto il Faerun non avrà... ahem... acquisito questa intuizione... con il tuo aiuto, non ne dubito... non considereresti almeno che le leggi possono essere diverse, e che quello che pensi sia sbagliato potrebbe non essere esattamente illegale?~
+@167  = ~Non ho intenzione di stare qui e ascoltare un ladro che parla della legge. Tu, che non hai un briciolo d'onore, come osi deridere quelli che sono migliori di te?~
+@168  = ~*ride* Vacci piano, Ajantis. Le tue narici stanno già fumando, ancora un po' e inizierai a sputare fuoco verso di me. Pensavo che i paladini dovessero combattere i draghi, non trasformarsi in uno di loro.~
+//Alora
+@169  = ~Alora, se non ti dispiace che te lo chieda, i tuoi genitori sanno dove sei e cosa stai facendo?~
+@170  = ~No. Che mi dici dei tuoi?~
+@171  = ~Li ho visitati solo poco tempo fa.~
+@172  = ~Oh, giusto, è stato quando quel mago ti ha sorpreso con la moglie e sei dovuto fuggire da Baldur's Gate?~
+@173  = ~No, è stato dopo che Ivette, o era Anette forse, mi ha detto che tra noi era finita … per la terza volta … e ho sentito che *era* finita... Non importa. Non può essere più di dieci anni fa. Il Tethyr è troppo lontano... e inoltre è troppo idilliaco per i miei gusti, ma mi mancano i miei genitori. E a te?~
+@174  = ~Sì, un po', ogni tanto, ma penso che più sono lontana da loro, più mi ci affeziono. Divertente, eh?~
+@175  = ~Sai, potrebbero essere preoccupati per te. Se non sapessi dove fosse Namara...~
+@176  = ~Ah, Namara è una *bambina*, Coran. Mi preoccuperei anche io per lei, se avesse iniziato a vivere da sola a quell'età...~
+@177  = ~Alora, stai prendendo quello che sto dicendo troppo alla leggera, penso. Forse una volta che avrai figli tuoi capirai...~
+@178  = ~Coran, sicuro di stare bene?~
+@179  = ~No... Sono solo... Non lo so! Mi dispiace, Alora, ultimamente ho tanti pensieri strani in testa. Mi sarò preso la 'febbre del padre apprensivo'.~
+//Branwen
+@180  = ~Branwen, i tuoi capelli sono come l'oro. Permettetemi di diventare mastro fabbro e plasmarli in una corona di rara magnificenza.~
+@181  = ~Non perderò il mio tempo con una tale follia. Sono una guerriera, non una concubina.~
+@182  = ~Potrebbe aiutare ad attirare l'attenzione del tuo dio selvaggio.~
+@183  = ~Tempus vede la mia furia in battaglia e il mio coraggio! È così che troverò il suo favore.~
+@184  = ~Ma potresti anche dargli un'idea del perché il clero femminile potrebbe essere qualcosa che gli manca tra le sue fatiche. È il tuo obiettivo, dopo tutto...~
+@185  = ~Il Signore della Battaglia non si cura del mio aspetto! I combattenti di Tempus sono considerati per i loro atti di valore.~
+@186  = ~Oh, io non ne sarei così sicuro. È pur sempre un uomo, Branwen.~
+//Dynaheir
+@187  = ~Qualcuno ti ha mai detto, Dynaheir, che il tuo accento può rovesciare il cuore di un uomo?~
+@188  = ~Mi sorprendi, Coran.~
+@189  = ~Sicuramente un tale complimento non è nuovo per te. I tuoi discorsi sono così eleganti ed elaborati, Dynaheir. Ti si addicono perfettamente.~
+@190  = ~Ti piacciono i miei discorsi allora?~
+@191  = ~Sì, e anche molte altre cose su di te. L'intelligenza è una caratteristica molto interessante in una donna... almeno per me.~
+@192  = ~Capisco, quindi stai cercando nella tua compagna quello che a te manca, giusto?~
+@193  = ~Cosa ti fa pensare così, incantatrice?~
+@194  = ~*freddamente* Invocatrice, grazie... Alcune voci sulle tue avventure, elfo. Gli uomini intelligenti non vengono catturati, e a prescindere non si dedicano anima e corpo ad eccessi edonistici.~
+@195  = ~È un piacere viaggiare in tua compagnia, maga.~
+@196  = ~Prendi la nostra situazione troppo alla leggera, elfo. Tieni i tuoi occhi sul nemico e le tue spalle verso di me.~
+@197  = ~Ti trovo molto più attraente di teppisti e rapinatori, Dynaheir~
+@198  = ~Quelli come te trovano attraente qualsiasi donna, Coran, non mi prendere in giro. Suppongo che almeno due volte alla settimana giuri amore immortale, ogni volta da dimenticare in un momento.~
+@199  = ~Dynaheir, per allenare il braccio e l'occhio, devo esercitarmi a tirare l'arco ogni giorno. Anche il cuore richiede la stessa pratica.~
+@200  = ~La tua abilità nel tiro è utile, elfo, ma a che serve il tuo secondo esercizio?~
+@201  = ~Hai mai sentito parlare del legame elfico, Dynaheir?~
+@202  = ~In effetti. Quindi stai cercando un vero amore a cui legarti per il resto dei tuoi giorni?~
+@203  = ~*sorride* Sono un elfo, Dynaheir, e non c'è niente che desidero di più che trovare una compagna la cui anima sarà una con la mia.~
+@204  = ~Che stupida, mi sembrava che la stessi cercando lasciandoti sedurre da tutte le locandiere che incontravi.~
+@205  = ~Piuttosto... stregato... al momento...~
+//Edwin
+@206  = ~Edwin, devo insistere sul non lanciare incantesimi pericolosi così vicino ai bambini piccoli.~
+@207  = ~Se tali bambini smettessero di attaccare i loro mignoli appiccicosi (ereditati dai loro padri ladri, senza dubbio) a oggetti magici di varia natura, che dovrebbero essere gestiti solo da una persona di intelletto superiore, non avrei bisogno di sprecare il mio prezioso talento nel distrarli.~
+@208  = ~Stai cercando di dirmi che hai lanciato quello spruzzo colorato per distrarre Namara?~
+@209  = ~La tua mocciosa sembra aver fermato il suo insensato brontolio, e penso di avere scorto alcuni segni di piacere sotto tutta quella saliva che le copre il viso. (Se solo potessi far smettere di parlare con la stessa facilità quella creatura non meno primitiva di un padre...)~
+@210  = ~In effetti, sta sorridendo. Forse ha un talento naturale per la magia? Edwin, pensi di poter provare a insegnarle un incantesimo o due? Edwin? Edwin? Dove vai?~
+//con Eldoth
+@211  = ~È vero che delle tue amiche ti hanno pagato la strada attraverso il Nuovo Olamn?~
+@212  = ~L'attenzione delle donne è un dono raro, per il quale sono più che abbondantemente portato. Sì, certo.~
+@213  = ~Trovo l'idea molto... attraente. Infatti, invece di strappare soldi dalle mani di qualcuno, baci invece quelle stesse mani e voilà! Non piangono: "Ladro!", ma anzi sorridono e ti pregano di prenderne ancora.~
+@214  = ~Beh, se sei pronto per un cambio di professione, potrei facilmente indicarti la giusta direzione. Hai un po' di talento, ma temo che metteresti troppo cuore nel tuo lavoro – che rimane un lavoro.~
+@215  = ~Lavoro? Anche se ho sentito che alcuni sono pagati per la degustazione di ottimi vini e cibo per i ricchi, devo credere che anche soddisfare le loro mogli possa nascondere del veleno?~
+@216  = ~Ci sono così tanti frutti aspri tra loro, che non puoi immaginare. Sopportare i capricci di quelle noiose, prepotenti o eccessivamente loquaci è pura tortura. Puoi immaginarlo? Alcune di loro pensano davvero di avere qualcosa da dire che non abbia mai sentito prima!~
+@217  = ~E ovviamente non puoi permetterti di avere un minimo brandello di amore o onore.~
+@218  = ~Onore? Amore? Il segreto è non prendere nulla a cuore. Dopotutto, il primo dovere nella vita è quello di essere il più artificiale possibile.~
+@219  = ~Sembra molto rinfrescante, Eldoth. Sto iniziando a vedere tutti i tipi di vantaggi nella tua filosofia.~
+//Faldorn
+@220  = ~Ho una domanda sulla natura, Faldorn.~
+@221  = ~Allora stai chiedendo alla persona giusta, Coran.~
+@222  = ~Penso che ti porterà leggermente oltre il tuo campo di competenza, tuttavia.~
+@223  = ~Non mi dispiace, Elfo. So che la percezione della natura del popolo fiero è diversa da quella delle altre razze. Mi aspetto un colpo di scena.~
+@224  = ~Guarda le montagne baciare l'alto cielo,
+E le onde rincorrersi l'un l'altra;
+A nessuna sorella sarebbe perdonato il gelo
+Verso il suo fratello come lastra;
+La luce del sole stringe la terra nelle sue fauci,
+E i raggi della luna accarezzano il mare—
+Quanto valgono tutti questi baci,
+Se tu non mi vuoi amare?~
+@225  = ~Quei baci valgono l'eternità, Coran. Sono sempre stati e lo saranno sempre, creano e modellano il mondo. Se dovessi baciarti, d'altro canto, ciò non creerebbe altro che un momento di piacere, casuale e incostante.~
+@226  = ~Teoricamente potresti avere ragione, Faldorn, ma sono piuttosto appassionato di esperimenti pratici che confermino la teoria, Faldorn.~
+@227  = ~Naturalmente. Eccoti il tuo bacio.~
+@228  = ~Mmmgh... Penso che tu abbia assolutamente ragione. Era piuttosto casuale e incostante.~
+@229  = ~Tu, bastardo!~
+@230  = ~Ma anche un momento di grande piacere, proprio perché è stato così casuale e incostante.~
+@231  = ~Faldorn, se un Druido dell'Ombra arriva nella grotta di un drago e vede lì una principessa catturata...~
+@232  = ~*sospira esasperata* Conosco quella battuta! Sì, avrebbe ucciso la principessa per salvare il povero drago dalle sue grinfie.~
+@233  = ~Personalmente, non so perché a un drago dispiacerebbe. Mi piacerebbe trovarmi nelle grinfie di una principessa, in particolare una dalla bellezza soprannaturale...~
+@234  = ~Continua a sognare, elfo. Non mi sorprende che i padri rinchiudano le loro figlie dietro le mura del castello quando sentono che sei tornato in città.~
+@235  = ~Faldorn, se qualcuno bloccasse il mio amore dietro le alte mura di un castello per nasconderla da me, ruberei sia la donna che il muro.~
+@236  = ~Grrr! Ti vanti peggio di un paladino appena nominato, Coran.~
+@237  = ~Sicuramente non *così* tanto?~
+@238  = ~Faldorn, sei una di quelle donne che accendono l'immaginazione degli uomini.~
+@239  = ~Cosa?~
+@240  = ~Io, per esempio, mi chiedo continuamente come appariresti in seta e gemme.~
+@241  = ~Grrr! Ho due tuniche di lana, calzoni e una collana di ardesia. Questo è tutto ciò di cui ho bisogno. Seta, bah!~
+@242  = ~Precisamente, fiore selvaggio. Come può una donna indossare quegli stracci, avere i capelli come un nido di corvo particolarmente artistico, avere una macchia di fango sulla guancia ed essere contenta - è un mistero. E il mistero è un terreno fertile, che fa crescere il seme dell'immaginazione.~
+@243  = ~La tua *immaginazione*, Coran, proprio come la civiltà, deve essere ridotta a misura!~
+//con Garrick
+@244  = ~Mi sono sempre chiesto, bardo, qual è la parte più difficile nello scrivere una canzone?~
+@245  = ~È facile, la prima riga! Coran, dammi solo una buona prima riga... E poi posso dare una canzone al mondo.~
+@246  = ~Che strano. Penso che trovare la prima dozzina di parole non sia diverso dal trovare la prossima dozzina.~
+@247  = ~La prima riga è come un nodo su una collana, Coran. Dimentica di legarlo o fallo male e l'intera corda cadrà a pezzi, non importa con quale cura scegli le perle.~
+@248  = ~Se mai dovessi imbattermi in una linea che sembra un nodo, ti farò sapere, Garrick.~
+@249  = ~Ah, bene, grazie.~
+@250  = ~Mi dispiace per la tua perdita, Garrick. Si diceva che Silke fosse una donna di squisita bellezza e fascino.~
+@251  = ~Ah, Silke! Un tale talento, così enorme, inesplorato talento! Tutto rovinato a causa di un piccolo battibecco su una manciata di monete. Lavorare per lei, rispondere alla chiamata della sua bella voce, accettare le punizioni...~
+@252  = ~Punizioni?~
+@253  = ~Le piaceva somministrare le punizioni da sola. Dura, ma per com'era, c'era da aspettarselo. Diceva che il dolore è inevitabile...~
+@254  = ~... e devi prenderlo e amare la mano che te l'ha dispensato.~
+@255  = ~Uh, sì, in realtà. Come fai a saperlo? Avevi... Ahem... già incontrato Silke?~
+@256  = ~Garrick, come puoi essere così cieco? Non hai mai sentito parlare di Loviatar, la Signora del Dolore? La tua Silke sembra fosse una sua seguace!~
+@257  = ~Ma, ma Silke era un'attrice! Un bardo! Non una sacerdotessa!~
+@258  = ~I sacerdoti di Loviatar, o Dolori, come si definiscono, spesso si travestono da artisti, Garrick. In questo modo sperano di ottenere l'accesso alle case dei potenti per sedurli e indottrinarli.~
+@259  = ~Uhm... Coran, sembra che tu sappia tremendamente bene queste cose.~
+@260  = ~Io... ne ho parlato una volta con un dotto teologo.~
+@261  = ~Ti ho detto che una volta suonavo il liuto?~
+@262  = ~No, Coran, non l'hai fatto. Forse potremmo provare un duetto per i nostri compagni qualche volta? Sarebbe glorioso!~
+@263  = ~L'ultima volta che ho suonato in pubblico... ahem... è una bella storia.~
+@264  = ~Continua, non c'è niente come una bella storia condivisa tra amici.~
+@265  = ~Una volta ho notato una bella signora nella piazza del mercato di Baldur's Gate. Ahimè, la signora apparteneva a una famiglia ricca e potente, quindi per un po' ho pensato che non ci fosse modo di conoscerla. Più tardi, ho appreso che era una intenditrice d'arte e che dava il benvenuto ai bardi nella sua casa. Così ho comprato un liuto e ho imparato a suonarlo, e quindi ho guadagnato l'ammissione alla casa...~
+@266  = ~Ah, ti capisco. Solo alla casa?~
+@267  = ~Garrick, vuoi che sia indiscreto? Ma diciamo che qualunque cosa stesse succedendo è stato abbastanza per rendere geloso il marito della signora.~
+@268  = ~O almeno così ho dedotto una sera in cui dovevo suonare in presenza di un mezzo centinaio di ospiti e ho trovato tutte le corde del mio liuto sparite.~
+@269  = ~Oh? È un disastro terribile! Gli ospiti devono essere rimasti delusi quando non ti sei presentato per suonare. E le donne... a loro piace che i loro ospiti siano di ottimo umore...~
+@270  = ~Ho suonato, Garrick. Ho aperto l'arco e ho messo la corda sul liuto.~
+@271  = ~E hai avuto successo?~
+@272  = ~Certo che no! Persino un elfo non può suonare bene con una sola corda! Tuttavia, è tutta una questione di percezione. Prima di iniziare, ho annunciato che era un trucco comico... Avresti dovuto vederli tutti ridere mentre io pizzicavo quella singola corda ancora e ancora e ancora. E avresti dovuto vederla sorridere... ma questa è di nuovo un'indiscrezione.~
+//Imoen
+@273  = ~Tanta grazia e finezza nei movimenti. Imoen, guardarti scassinare serrature è un piacere per i miei occhi stanchi. C'è così tanta incompetenza nel mondo...~
+@274  = ~Uh, a dire il vero, Coran, rubacchiare non credo sia la mia strada...~
+@275  = ~Il segreto è prendere da chi può farne a meno.~
+@276  = ~*ridacchia* E come fai a saperlo? Vai da una persona e chiedi se può permettersi di essere derubato? O lasci un messaggio in una casa che hai appena ripulito con il tuo indirizzo, in modo che possano contattarti nel caso in cui desiderassero indietro qualcosa?~
+@277  = ~Se questi pensieri disturbano la tua bella testolina, forse dovresti pensare di provare qualcos'altro?~
+@278  = ~Mi dispiace, Imoen. Sto cercando di barcamenarmi con alcune... ahem, scartoffie e...~
+@279  = ~Heya, Coran. Wow, che pila di lettere! Hai una famiglia numerosa, amorevole o qualcosa del genere?~
+@280  = ~Queste sono lettere di alcuni amici...~
+@281  = ~O amiche?~
+@282  = ~Beh, non tutte sono necessariamente donne... Voglio dire amiche. Ce ne sono due o tre da parte di uomini.~
+@283  = ~Devono provenire dai mariti, allora?~
+@284  = ~Per la maggior parte.~
+@285  = ~Imoen! Questa è la mia corrispondenza *privata*!~
+@286  = ~Oh, ma si legge come un romanzo! Sentite qua: "Signore, rubando la devozione di mia moglie, avete agito in modo assolutamente disonorevole..."~
+@287  = ~Mmm... deve arrivare da qualche paladino. Dovrei sfidarlo a duello un giorno di questo mese, a meno che non mi sbagli?~
+@288  = ~Oh, sì, senza dubbio! Eccone un altra! *leggendo ad alta voce* 'Elfo, se mai oserai avvicinarti di nuovo alla mia candida figliola con la tua spiacevole adulazione...'~
+@289  = ~Avrebbe dovuto scrivere: "se mai oserai avvicinarti di nuovo alla mia disgustosa figliola con la tua innocente adulazione..." * scrolla le spalle * Se lo rende più felice, non ho intenzione di incontrare di nuovo la signorina in questione. Mi stava proponendo cose davvero spregevoli...~
+@290  = ~Tipo il matrimonio?~
+@291  = ~Come fai a saperlo?~
+@292  = ~*ridacchia* 'e tutto il tuo tramare non ti aiuterà ad ottenere la mano di Carrina. Sappi che è felicemente fidanzata con il barone Kuntz.'~
+@293  = ~Che tu sia benedetto, gentile signore.~
+//Jaheira
+@294  = ~Jaheira, tempestosa signora druida, cosa stavate sussurrando e ridacchiando tu e Khalid, poco fa, mentre guardavate dalla mia parte? Mi rallegro sempre di un bel volto sorridente di fanciulla rivolto nella mia direzione, ma non necessariamente, ehm, con l'accompagnamento di quello di suo marito.~
+@295  = ~Beh, per prima cosa, stavo osservando con Khalid come sarebbe stato vederti cadere in acqua, se quel ponte su cui ti trovavi come un esattore delle tasse non fosse stato abbastanza largo da far passare due persone.~
+@296  = ~Donna crudele! E se non lo fosse stato, mi avresti davvero spintonato via, se non avessi deciso di unirmi alla vostra deliziosa compagnia?~
+@297  = ~Oh, sì, sicuramente, visto che era l'unico modo per attraversarlo. Ora, se fossi paranoica, come un mago pazzo, sospetterei che qualche divinità dispettosa e pesante abbia progettato i nostri piani di viaggio in modo che non avessimo altra scelta che imbatterci in uno come te.~
+@298  = ~Ah, quella divinità benevola sicuramente deve essere una femmina.~
+@299  = ~Qual è la differenza tra l'amore di una cameriera e l'amore di una donna sposata, Jaheira?~
+@300  = ~L'amore di una fanciulla è una freccia casuale: nessuno sa dove cadrà. Una donna sposata ha gli occhi puntati su un solo bersaglio.~
+@301  = ~Che delizia! Devo dipingere un bersaglio sul mio petto, intorno al mio cuore, solo per te?~
+@302  = ~Non sono un arciere, Coran, ma penso che Khalid ne sarebbe felice. Devo chiederglielo?~
+@303  = ~Khalid non è interessato al fascino delle donne? Chi se lo sarebbe mai aspettato! Che spreco per una donna come te!~
+@304  = ~*gelidamente* Non parlavo in senso figurato.~
+@305  = ~Quindi intendevi che mi uccidesse, mia bellezza crudele?~
+@306  = ~Sono contento che siamo giunti a una certa comprensione. E per i Giuramenti di Silvanus, se oserai chiamarmi di nuovo tua, io...~
+@307  = ~*sognante* Oh, l'amore di una donna sposata è come il ghiaccio sottile, ma che brivido calpestarlo!~
+@308  = ~Per favore, compagni, fermiamoci un momento. Namara pensa che sia l'ora della pappa... di nuovo.~
+@309  = ~Coran, lasciala piangere. Devi farla abituare a orari stabili.~
+@310  = ~E tu ti definisci un druido?~
+@311  = ~Sì, sono un druido e so di cosa sto parlando.~
+@312  = ~Jaheira, quando tu e Khalid avrete i vostri figli, sarete liberi di fare ciò che volete con loro. Non permetterò a mia figlia di morire di fame per il tuo piacere.~
+@313  = ~È un fatto ben noto...~
+@314  = ~Jaheira, l'opinione di mia figlia in questa materia supera la tua. Per non parlare del fatto che è in grado di urlare più forte di te.~
+@315  = ~Dimmi, Khalid, le locandiere trovano attraente la tua timidezza?~
+@316  = ~T-timidezza? Vuoi dire che non d-dico a tutte le ragazze che p-passano che il sole del mio cuore non sorgerà mai p-più se non mi s-s-sorridessero?~
+@317  = ~Qualcosa del genere, sì.~
+@318  = ~Non so cosa  p-possano provare, Coran. Non voglio nessuno, t-tranne Jaheira.~
+@319  = ~Non dubito della tua fedeltà, Khalid. Che dire allora di prima che incontrassi Jaheira?~
+@320  = ~Q-quello era un altro mondo, Coran - la mia vita è cambiata d-da quando ho conosciuto Jaheira, non solo p-per il nostro incontro, ma p-per il nostro... lavorare insieme. Da giovane a C-Calimport, p- penso di essere stato un c-compagno abbastanza simpatico, anche se i b-baci erano tutto ciò che scambiavo, con donne che non v-volevano andare oltre.~
+@321  = ~Non volevano oltre?! Immagino che l'approccio timido abbia i suoi lati negativi.~
+@322  = ~Ma q-quando *tu* consideri una donna attratta? Perché ti ho sentito d-dire che una fanciulla della taverna ti d-desiderava quando tutto quello che ha fatto è stato p-portarti la tua birra.~
+@323  = ~Oh, ma il modo in cui mi guardava...~
+@324  = ~Coran, era troppo b-buio per dirlo. Inoltre, con le m-mance che lasci, d-devi essere una leggenda di F-Faerun. Sarebbe una s-spiegazione migliore p-per il suo sorriso.~
+@325  = ~Quelle povere ragazze non si divertono molto. Un pezzo d'oro per un sorriso felice è un vero affare, se me lo chiedi. Ora, che mi dici della mia domanda?~
+@326  = ~Forse *tu* p-potresti provare ad essere meno... diretto, tanto per c-cambiare, allora vedresti di p-persona cosa preferiscono le ragazze.~
+@327  = ~Dopo aver vagato in lungo e in largo, si inizia a desiderare la propria terra natale. Anche io...~
+@328  = ~Coran, sei di T-Tethyr, giusto? Puoi parlarmi della tua terra?~
+@329  = ~È cambiato molto dai tempi di Tethir l'Ammazzadraghi. Niente più draghi in giro. C'è la città di Suldanessellar e molta natura selvaggia. È bello, maestoso e idilliaco. Ma alla lunga noioso. Ecco perché non posso mai stare lì a lungo. Ma perché me lo chiedi?~
+@330  = ~È la patria di J-Jaheira. Sono curioso di sapere c-come sia. Deve essere molto d-diverso da Calimport.~
+@331  = ~Non sei mai stato a Tethyr?~
+@332  = ~No, p-purtroppo non abbiamo mai avuto t-tempo. Inoltre, temo che sarebbe d-doloroso per Jaheira. Tutta la sua famiglia è stata uccisa lì d-durante una guerra civile.~
+@333  = ~Oh, ma è orribile! Il mio cuore mi fa male se ci penso, e un sapore amaro mi riempie la bocca, ma adorerai assolutamente Tethyr, Khalid.~
+@334  = ~Perché sei c-così sicuro?~
+@335  = ~Perché ami tutto ciò che riguarda Jaheira.~
+@336  = ~Hai ragione. Se Jaheira volesse tornare a T-Tethyr, sarei felice di vivere lì. La mia casa non è un posto, è una p-persona.~
+//Kivan
+@337  = ~Sei di nuovo teso come una corda dell'arco, Kivan. Ti ho sentito gemere nelle tue fantasticherie. Non dirmi che stai ancora rivangando tristi ricordi!~
+@338  = ~Non ho scelta, Coran, e tu lo sai. Volgerei volentieri i miei pensieri ai giorni in cui conoscevo la felicità, ma i ricordi siano buoni o cattivi vengono a noi quando sogniamo.~
+@339  = ~Ah, mellonamin, è troppo crudele.~
+@340  = ~Io... Devo guardare i loro volti, ogni tanto, in modo da non dimenticarmene nemmeno uno.~
+@341  = ~I volti dei briganti che vi hanno catturato?~
+@342  = ~Sì. Questi sogni provengono da Shevarash, ne sono sicuro.~
+@343  = ~Kivan, non so cosa dire. Non sopporto Shevarash e i suoi modi orribilmente cupi e risoluti, ma-~
+@344  = ~Allora non dire nulla.~
+@345  = ~- *ma* Non sopporto nemmeno te. Per i Nove Inferi! Sei un silvano testardo proprio come il tuo Shevarash! Sei insopportabile! Sei assolutamente pazzo! Ma in nome di Hanali Celanil, mi viene sempre voglia di uccidere Tazok dopo aver parlato con te!~
+@346  = ~Kivan, sembri preoccupato. D'altronde, la tua faccia sembra essere scolpita nel marmo piuttosto che nel granito.~
+@347  = ~Il mio nemico è vicino, Coran. Lo sento e divento irrequieto. C'è qualcosa che mi preoccupa di ciò che ci aspetta.~
+@348  = ~Hai paura di perdere questa battaglia?~
+@349  = ~No, ho paura di vincerla, Coran. Temo cosa potrebbe accadere se Tazok si arrendesse.~
+@350  = ~Ti chiedi se sei capace di misericordia?~
+@351  = ~Sì. Per favore, sii il mio testimone, Coran. Giuro che non ucciderò una persona in ginocchio che ha messo da parte la sua lama.~
+@352  = ~Non hai bisogno di un giuramento. Non l'avresti fatto, comunque.~
+//Minsc
+@353  = ~Minsc, hai viaggiato così lontano per essere accettato nella Loggia dei Berserker del Drago di Ghiaccio? L'adesione deve essere molto ricercata, se devi realizzare una tale impresa per unirti a loro.~
+@354  = ~È vero. Nella loggia i guerrieri leggendari si possono incontrare e scambiare storie di lotte contro i malvagi e discorsi virili.~
+@355  = ~Draghi uccisi con una mano sola e cose simili?~
+@356  = ~Atti di valore e grande coraggio. E tutti fatti con furia berserker!~
+@357  = ~Mmm... Ricordo di aver attraversato un fiume alle rapide, saltando da una pietra scivolosa a un'altra... lottando per la mia cara vita ad ogni passo. Fu coraggio e follia allo stesso tempo...~
+@358  = ~C'erano dei mostri? Combattere il male è una parte necessaria dell'eroe!~
+@359  = ~Alcuni xvart mi lanciavano frecce, per quanto ricordo...~
+@360  = ~Oh, perché non l'hai detto fin dall'inizio? Questa è la parte più interessante! Guarda, Boo è tutto orecchi adesso!~
+@361  = ~Ha le orecchie? Oh, bene. C'erano alcuni Xvart. Li ho combattuti e poi ho attraversato il fiume mentre mi inseguivano.~
+@362  = ~Ti sei allontanato dalla battaglia? Questa è vigliaccheria! Avresti dovuto caricare alla cieca in un impeto di furia berserker!~
+@363  = ~Errore mio. *scrolla le spalle* Dopo un po', uno si stanca di combattere gli Xvart, sai.~
+//Montaron
+@364  = ~I tuoi modi mi spaventano, Montaron. Non ho nulla contro prendere in prestito una o due monete da un tizio che può farne a meno, ma...~
+@365  = ~Puah! Chi può giudicare meglio di me i miei bisogni rispetto a quelli di un altro?~
+@366  = ~Gli "altri" sembrano certamente obiettare abbastanza spesso il tuo giudizio.~
+@367  = ~E lasciali fare. Quelli che conosco sono in fretta un po' troppo morti per avere bisogni.~
+@368  = ~Ma così non saranno nemmeno disponibili, in occasioni successive, per soddisfare le tue esigenze future.~
+@369  = ~Mmpf. Ora parli come quel folle sacerdote di Ilmater, che ha cercato di convertirmi...~
+@370  = ~Un martire, senza dubbio.~
+@371  = ~Direi più un imbecille. Ero messo male e gli dissi che sarei andato nella sua stramaledetta chiesa e avrei dormito lì. E ha iniziato a insegnarmi, come se potessi mangiare le sue parole.~
+@372  = ~Hanno dovuto lavare il tempio con acqua santa dopo la tua visita, ne sono sicuro.~
+@373  = ~Con qualcosa, senz'altro. C'era un bel casino quando me ne sono andato. È arrivato questo riccone con un sacco di monete per il predicatore. I suoi peccati lo tormentavano e altre stupidaggini simili, quindi l'idiota aveva deciso di fare una donazione per ricevere l'assoluzione. Uno spettacolo più liberale di quello che intendeva dare, scommetto. Anche il predicatore. Tra tutti e due, mi hanno guarito dalla povertà per un bel po'.~
+@374  = ~Frequentare gente come te, Montaron, mi fa riconsiderare il modo in cui l'oro finisce nelle mie tasche.~
+//Quayle
+@375  = ~Posso passarti vicino di soppiatto, Quayle?~
+@376  = ~Oh, certo, fai pure. Ma già che sei qui, condividi il mio sospetto che io sia la creatura più intelligente che sia mai vissuta?~
+@377  = ~Semplicemente non può essere, Quayle.~
+@378  = ~No? Non hai forse osservato la vera portata dei miei poteri intellettuali? Li hai confrontati con tutti quelli che hanno vissuto prima di me?~
+@379  = ~Non proprio.~
+@380  = ~Beh, sai, ho fatto il confronto e ho trovato gli altri estremamente limitati.~
+@381  = ~Quando Ao ha creato il mondo, ha creato una quantità finita di tutte le cose, compreso l'intelletto. La sua quantità è sempre stata costante nei Regni...~
+@382  = ~E allora?~
+@383  = ~Vedi, gnomo, la quantità di intelletto nel mondo è costante e la popolazione sta crescendo. La quota di ogni individuo diventa quindi...~
+@384  = ~Stupidaggini! E posso dimostrarti che sono solo sciocchezze! Prima di tutto, l'intelletto collettivo, come lo chiameresti tu, non è distribuito equamente - e tu sei un chiaro esempio di *quanta* differenza possa esserci. Oh, sì. Io, d'altra parte, ho ricevuto il più grande valore assoluto! Questo, amico mio, è indiscutibile.~
+@385  = ~Mentre cala l'oscurità, cerco un'adorabile fanciulla per rompere il sinistro silenzio della notte con la sua voce argentata.~
+@386  = ~E ti piace quello che hai trovato?~
+@387  = ~Dovrei esaminare la mia scoperta più da vicino per esserne sicuro.~
+@388  = ~Cosa causa i tuoi dubbi, non credente?~
+@389  = ~L'oscurità, tesoro. Spero che ti mostri giusta alla luce del sole come appari al chiaro di luna.~
+@390  = ~Noi due siamo una bella coppia.~
+@391  = ~Penso che non siamo giusti l'uno per l'altra, è che siamo sbagliati tutti gli altri, come si dice a Calimshan... o era nelle Valli? Non importa.~
+@392  = ~Safana, cammina con cautela, potresti farmi pensare di avere del cervello in testa.~
+@393  = ~Ah, beh, non potremmo averlo, vero?~
+@394  = ~Distruggerebbe il tuo fascino.~
+@395  = ~Incantatrice, posso dire che oggi sembri particolarmente sbalorditiva?~
+@396  = ~Quando hai avuto l'impressione che non accolga con favore un complimento? Anche uno così... privo di originalità?~
+@397  = ~Hai la giusta idea di come dovrebbe apparire una bella donna. Ti distingui sempre. Indossi un vestito luminoso in un giorno grigio, uno bianco nel buio della notte, rivaleggiando con la luna e velluto nero quando tutte le luci sono accese.~
+@398  = ~Sei un uomo di gusto. Ma lo sappiamo già, vero cagnolino?~
+@399  = ~Essermi innamorato di te a prima vista ne è la prova innegabile.~
+@400  = ~Tuttavia, c'è una piccola correzione nel tuo piccolo discorso. In una notte buia, non cercherei di distinguermi. Indosserei degli abiti neri, seppur molto attillati.~
+@401  = ~E andresti alla ricerca di avventura e una moneta che starebbe molto meglio nella tua borsa che in quella di qualcun altro? Ora, sono davvero colpito, Safana.~
+@402  = ~Safana, mia luce, perché sei corrucciata?~
+@403  = ~Coran, tesoro, forse perché non stai ancora implorando perdono.~
+@404  = ~La mia amante mi darebbe la lista dei miei crimini?~
+@405  = ~Mi hai lasciato andare a dormire senza nemmeno un complimento. Stai dimenticando le tue cortesie, elfo.~
+@406  = ~Io... ho molto per la testa ultimamente. Perdonami la mia mancanza di...~
+@407  = ~Spirito?~
+@408  = ~Oh? Safana, possiamo continuare questa conversazione in seguito? Ho del bucato di cui occuparmi...~
+@409  = ~Caro, spero che siano i doveri della paternità che stanno causando il tuo improvviso interesse per il bucato e non perché preferiresti fare altro che parlarmi. Ciò mi affliggerebbe molto e, beh, alla mia sofferenza non solo piace la compagnia, ma pretende di essere condivisa. Preferibilmente con la persona che l'ha causata.~
+@410  = ~Accidenti a te, donna! Non puoi essere almeno un po'... no, non puoi. Oh, bene.~
+@411  = ~Io ho... ehm... 'acquisito' delle mandorle al miele, Shar-Teel. Ne hai voglia?~
+@412  = ~Allontanati da me, viscido elfo!~
+@413  = ~Non sapevo che odiassi le mandorle con tanta passione, Shar-Teel. Mi dispiace~
+@414  = ~Per i Nove Inferi! Non odio le mandorle, odio il tuo provarci con me, stupido bastardo!~
+@415  = ~Ma non ci stavo provando. Facciamo un patto: premerò due dita sulla mia guancia - in questo modo - quando ci proverò con te, così potrai infuriarti quanto vuoi. Quindi, quando provo solo a parlarti...~
+@416  = ~Stai zitto! Non ho dannatamente bisogno né di parlarti e tantomeno delle tue mandorle.~
+@417  = ~Io invece penso di te. Qualche essere spregevole ti ha ferito in passato, e ora sei arrabbiata col mondo.~
+@418  = ~Non sono affari tuoi. Per NIENTE!~
+@419  = ~Sono una persona strana, che pensa che le belle donne dovrebbero sorridere, non accigliarsi, Shar-Teel. Mi piace farle sorridere...~
+@420  = ~In effetti ho sempre sospettato un vestito da saltimbanco ti calzerebbe a pennello!~
+@421  = ~Non ho un tale vestito, temo. Tutto quello che ho sono delle mandorle... prendine qualcuna, Shar-Teel, magari addolcirebbero la tua giornata.~
+@422  = ~È vero quindi che le persone più piccole nutrono le maggiori ambizioni.~
+@423  = ~Quando Tiax governerà il mondo dal suo palazzo sulla cima della montagna più alta, nessuno oserà chiamare Tiax piccolo! Sei solo invidioso della mia futura grandezza!~
+@424  = ~Invidioso di congelarmi su una montagna, in balia dei venti, in mezzo al nulla? Penso proprio di no.~
+@425  = ~I suoi schiavi gli costruiranno un palazzo caldo e vedrà tutto il suo Regno dalla sua sala del trono... Tiax riceverà il suo maestro Cyric nelle camere delle Bugie e dell'Inganno... splendide concubine strisceranno ai suoi piedi lungo il pavimento in moquette, versando bevande gustose... e il mondo intero resterà in attesa del più piccolo movimento del suo mignolo come imperioso comando... oh, quanto desidera il giorno gioioso in cui tutto questo avverrà.~
+@426  = ~Ispirato, senza dubbio... Posso solo immaginarlo... Oh! Perdonami, Tiax, ho questa strana malattia che tende a farmi crollare a terra, ridendo istericamente.~
+@427  = ~Perché vuoi governare, Tiax?~
+@428  = ~Bah! Perché i nani desiderano scavare nella terra !? Perché gli elfi desiderano oziare sugli alberi tutto il giorno !? Se Tiax desidera governare, è perché Tiax è *destinato* a governare, e Cyric sta preparando il suo cammino verso il suo futuro ruolo di sovrano di tutte le cose!~
+@429  = ~Saresti terribilmente infelice, se dovessi ottenere il potere assoluto...~
+@430  = ~BAH!!! Schiavo sciocco, il potere è come il sesto senso per uno *nato* per governare! Gli eserciti di Tiax distruggeranno la terra e costruiranno possenti statue in suo onore! Tiax costruirà un palazzo che, da solo, farà sembrare le più potenti città umane insignificanti! Tutti saluteranno Tiax come signore e padrone, e solo allora sarà contento!~
+@431  = ~Un alto signore nel suo palazzo non è più libero di un prigioniero nel suo sotterraneo, Tiax.~
+@432  = ~Quando Tiax governerà, ti metterà nel suo sotterraneo, così potrai confrontarti da solo! I tuoi giorni di rubacuori finiranno in una cella nuda senza compagnia, con Tiax che ti farà stare bene e in salute per le centinaia di anni rimasti nella tua vita! Ahhh, allora Tiax sarà ancora più contento di vedere i suoi vecchi nemici implorare per la sua misericordia e non riceverne nessuna!~
+@433  = ~Prima dovresti catturarmi. E non regalerò la mia libertà né a un carceriere né a una cortigiana. Non ho alcun desiderio di essere rinchiuso in una cella, e per quanto riguarda i palazzi... I rami delle foreste sono le mie cupole dorate e le piante in fiore sono i miei tappeti. Il vino diventa acido in bocca, se servito da uno schiavo, e il bacio di una concubina perde la sua dolcezza.~
+@434  = ~La felicità è in ciò che stiamo facendo ora: scegliere la nostra strada e avventurarci per nostra volontà.~
+//Viconia
+@435  = ~Viconia...~
+@436  = ~Che cosa c'è, darthiir? Hai ceduto alla tentazione alla fine? Tu, che tratti la bellezza e la passione femminile con così grande stima?~
+@437  = ~In realtà, ti volevo chiedere di smettere di perseguitarmi. È il crepuscolo, no, Viconia?~
+@438  = ~Sì, il buio – un grande alleato in questioni intime, e un valido motivo per sospettare le tue intenzioni.~
+@439  = ~Ma è in quel periodo che anche le sacerdotesse di Shar cercano di compiere un atto malvagio per compiacere la loro dea.~
+@440  = ~Sei interessato a discutere di teologia con me o tu, come tutti i jaluken, brami ancora la mia compagnia?~
+@441  = ~In tutta onestà, non attiri la mia curiosità. Ci tengo a rimanere in un unico pezzo. Trovati un'altra vittima per il tuo rituale notturno, drow.~
+@442  = ~Vivi e lascia vivere... hai mai sentito questa semplice regola che alcuni di noi abitanti di superficie rispettiamo?~
+@443  = ~Puah, ne ho sentito parlare. Nella mia mente, è la spiegazione per i molti deboli indegni che trascinano le loro ombre attraverso questo inferno illuminato dal sole.~
+@444  = ~E la tua qual è? Una piccola tortura può fare miracoli?~
+@445  = ~C'è uno scopo per tutto il dolore, che sia utile a te o ad un altro, Jaluk. Come diciamo in Menzoberranzan: "Il dolore è un modo rozzo per ottenere l'obbedienza, ma è economico e abbondante."~
+@446  = ~Non dubito che a Menzoberranzan il dolore sia facile da trovare. Ma devi per forza portarlo con te in questo mondo? Anche dopo che sei stata scacciata dal tuo?~
+@447  = ~C'è saggezza e potere nelle usanze drow che non si possono abbandonare con leggerezza. Sii grato che non ne sono completamente fedele, altrimenti dovrei sventrarti come un pesce, darthiir.~
+@448  = ~Se una donna drow moderatamente ribelle è così, spero che <CHARNAME> non avrà mai il desiderio improvviso e incontrollabile di andare a cercare un tradizionalista rigido da includere nel gruppo...~
+//Xan
+@449  = ~Xan, stai cercando per caso la tua bacchetta?~
+@450  = ~In effetti è solo per fortuna che sono ancora vivo e capace di vedere... ma temo che potrebbe non durare a lungo.~
+@451  = ~Finché dura, mago... hai bisogno della tua bacchetta?~
+@452  = ~Per cosa? Allontanarci, per un momento fugace, dal destino imminente? Un incantesimo, un trucchetto, un'oscillazione della lama: quelle sono barriere che difficilmente riescono a tenere lontana la morte a lungo.~
+@453  = ~Indipendentemente da ciò, se ne hai bisogno, so dove si trova.~
+@454  = ~L'hai rubata? Per quale scopo? Sei uno di quegli sciocchi che pensano che le arti magiche garantiscano il potere di superare il proprio destino?~
+@455  = ~Io... ehm... ho preso in prestito la tua bacchetta per appendere il bucato. *scrolla le spalle* Non guardarmi così o mi metterò a piangere! Ha le dimensioni giuste.~
+//Xzar
+@456  = ~Xzar, semplicemente non riesco a capire come tu possa giustificare passare una vita - la tua vita - nello studio della morte e del decadimento.~
+@457  = ~Suppongo che non sia rilevante per la *tua* gente, ma uno dei requisiti base della negromanzia è il prolungamento indefinito dell'opportunità per tali studi.~
+@458  = ~Affascinante... quindi passi il tuo tempo a fare cose disgustose per ottenere più tempo per farne di odiose...~
+@459  = ~Trovi la morte odiosa? Allora cosa ne pensi della vita?~
+@460  = ~La vita è piena di meraviglia e divertimento, e ovviamente le donne vive hanno un odore decisamente migliore. Non è la morte che mi fa schifo, è la non-morte che i negromanti cercano.~
+@461  = ~Ehm... beh, non la "cerchiamo" esattamente. La non-morte ci trova, sai? Immortalità, potere illimitato, pelle secca e squamosa - ma un po' di sangue di goblin, applicato localmente, aiuta in questi casi... o il sangue di chiunque a dire il vero. Abbi pietà di questo, misericordiosamente, poiché tutti hanno bisogno di creature minori per sostenersi.~
+@462  = ~Devi scusarmi, Xzar. Inspiegabilmente questa amabile chiacchierata mi spinge a vomitare.~
+@463  = ~Con tutto quel saltellare in giro annusando piante, non c'è da meravigliarsi che gli elfi abbiano stomaci così teneri!~
+@464  = ~Yeslick, è vero che le donne nane sono tutte barbute?~
+@465  = ~Certo, Coran! Una cosa così nobile, giusta e... ma oserei dire che tu non capiresti.~
+@466  = ~*si accarezza il mento e sorride* Devi considerarmi un giovane sbarbatello?~
+@467  = ~I tuoi modi effeminati mi hanno portato a questa conclusione più del tuo aspetto, elfo.~
+@468  = ~Essere giovani non è un peccato agli occhi di Clangeddin, spero?~
+@469  = ~No, no.~
+@470  = ~Le tue parole sono musica per le mie orecchie! Adoro essere giovane, Yeslick, sul serio.~
+@471  = ~Ascolta Yeslick, è possibile che tu sia in realtà una nana?~
+@472  = ~Sei veramente COSI' disperatamente in cerca di compagnia, Coran?~
+@473  = ~Solo curiosità. Poiché sia i nani maschi che femmine hanno la barba... deve essere difficile distinguere tra i sessi.~
+@474  = ~Non è più difficile di quanto lo sia per gli elfi.~
+@475  = ~Te lo concedo. Ma con il modo in cui la mia gente preferisce vestirsi c'è poco spazio per l'ambiguità.~
+

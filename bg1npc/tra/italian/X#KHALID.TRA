@@ -1,0 +1,243 @@
+//Minaccia banditi
+@0    = ~Io... s-spero, <CHARNAME>, che non sia f-finita qui. Che tu intenda approfondire questa c-cospirazione.~
+@1    = ~Certamente. Se la minaccia dei banditi non venisse eliminata, il ferro si accumulerebbe inutilmente a Nashkel, senza possibilità di venire utilizzato.~
+@2    = ~Fino a quando non avrò saldato i conti con l'assassino di Gorion, non sarà mai finita.~
+@3    = ~Lo farò, ma tu non devi se non vuoi. Non se il tuo cuore non ne è convinto.~
+@4    = ~Ma questi b-banditi sono sparsi dappertutto! Cacciarli tutti p-potrebbe richiedere mesi!~
+@5    = ~Allora vuol dire che ci metteremo mesi. È nostro dovere farlo.~
+@6    = ~Mmm. Immagino p-potrebbe esserlo. C-Cosa suggerisci?~
+@7    = ~Se la consideri una perdita di tempo troppo grande per te, allora non disturbarmi.~
+@8    = ~Spero, <CHARNAME>, che q-questa missione non d-degeneri in una ricerca di vendetta assetata di s-sangue.~
+@9    = ~La vendetta è un motivo più che sufficiente per me!~
+@10   = ~No. C'è una ragione per la morte di Gorion. E una decisamente malvagia, essendo stato un uomo buono. Quindi non posso fermarmi finché non avrò scoperto cosa c'è dietro a tutta questa storia.~
+@11   = ~Ne dubito. Sembra che ci sia molto di più dietro. Ma se la tua curiosità è già sazia, puoi anche andartene.~
+@12   = ~Avevo s-sperato che fosse tutto p-più semplice. Ma anche se c-così non è, io... io sono con te, <CHARNAME>, finché la mia f-forza mi sosterrà.~
+@13   = ~Loro sono così numerosi... e così d-determinati... deve esserci un'organizzazione alle s-spalle. Forse quel c-contatto a Beregost potrebbe p-portarci al suo cuore, ignorando i suoi t-tentacoli.~
+@14   = ~C-Capisco. Allora dovrò sostenerti nel miglior modo p-possibile.~
+@15   = ~Sono contento di s-saperlo, <CHARNAME>. Ti aiuterò come meglio p-posso.~
+//Elminster
+@16   = ~Non riesco p-proprio a credere che l'incontro con Elminster così p-presto lungo il nostro c-cammino sia stato accidentale. Spero che i nostri n-nemici non siano altrettanto b-ben informati.~
+@17   = ~Almeno per ora non siamo ancora annunciati dagli strilloni per le strade! Faremmo meglio ad affrettarci.~
+//Baldur's Gate
+@18   = ~Potrebbe essere utile un po' di discrezione in più. Ci sarà sicuramente una gilda di ladri in una città di queste dimensioni. Forse potremmo fare loro qualche lavoretto, in cambio di un piccolo occultamento.~
+@19   = ~Ottima osservazione. Vedo parecchie grate di fognature. Forse potremmo usarle per passare inosservati quando ne avremo bisogno.~
+@20   = ~E tu *sai* a cosa p-porta la fretta. P-Prego di non finire inconsapevolmente p-per f-ficcarci nei guai.~
+@21   = ~Potrebbe funzionare. Se ci sono *ladri* onesti da queste parti.~
+@22   = ~I nostri nemici d-devono conoscere bene quel labirinto. Un tale occultamento p-potrebbe funzionare più a loro vantaggio. P-per non p-parlare dell'odore terribile.~
+//Quayle
+@23   = ~Dì, Quayle, c-conosci...~
+@24   = ~Certamente, "conosco" un numero infinito di cose. E ne avrò pensato altre quattro prima che tu abbia terminato di postulare la tua domanda.~
+@25   = ~Splendido. Allora p-puoi indicarmi una bottega di p-pelletteria da queste p-parti che sarà in grado di sostituire q-queste cinghie. Stanno per s-strapparsi.~
+@26   = ~Ti aspetti - ti aspetti davvero - che interrompa le mie inimitabili cogitazioni sull'Infinito per occuparmi di alcune cinghie in pelle?~
+@27   = ~Beh, sei s-stato *già* interrotto, se solo p-potessi dirmelo, allora ti lascerò in p-pace.~
+@28   = ~Desolato. Non ne ho la minima idea. Se proprio vuoi il mio consiglio,chiedi a qualche feticista rilassato lungo i moli.~
+//Ajantis
+@29   = ~Sai, cavaliere, non p-posso fare a meno di chiedermi se, nella tua ricerca degli ideali, a v-volte non ignori... beh... le p-persone?~
+@30   = ~Gli ideali sono guide semplici da seguire. Ma ci sono così tante persone... che è difficile conoscerle tutte a sufficienza da comportarsi correttamente nei loro confronti.~
+@31   = ~Ma l'ideale... per dire... di giustizia non rovina f-forse un uomo buono, che è diventato un ladro solo per s-sventura e necessità?~
+@32   = ~Potrebbe, ma in questo modo è molto meno probabile che il mio giudizio liberi erroneamente un ladro di professione, pieno di nient'altro che storie tristi con cui sedurre guardie e magistrati.~
+@33   = ~Ma non sarebbe forse meglio che d-dodici uomini colpevoli venissero liberati se ciò p-potesse impedire che uno innocente debba soffrire un torto?~
+@34   = ~Se viene fatta giustizia, nessuno soffrirà un torto. Temo che la tua contabilità morale avrebbe l'effetto innegabile di incoraggiare i mascalzoni a causa della mancanza di conseguenze per le loro azioni malvagie.~
+//Alora
+@35   = ~Sai, Alora, d-dovresti davvero indossare q-qualche indumento in più. Ti p-prenderai un terribile raffreddore andando in g-giro svestita in quel modo...~
+@36   = ~Ehi, è sempre estate da queste parti, zio Khalid. O non l'avevi notato?~
+@37   = ~Zio Khalid?~
+@38   = ~Eh eh, sembri proprio lo zio di qualcuno. Perché non il mio?~
+@39   = ~Err, s-sì. Umm, beh, t-torniamo al lavoro, suppongo...~
+@40   = ~Okay, andiamo, zio Khalid, ma prova a sorridere un po' di più! Perché rendere cupe giornate che non lo sono?~
+@41   = ~Se solo fosse così s-semplice... Spero che tu non s-scopra mai la v-verità per il tuo b-bene.~
+//Branwen
+@42   = ~Branwen, non trovi mai che T-Tempus sia in qualche modo limitante? Voglio dire, non tutta la vita è b-battaglia. In realtà, la maggior p-parte non lo è.~
+@43   = ~È vero, ma l'impegno e la determinazione di una guerriera … quelle sono applicabili in ogni circostanza.~
+@44   = ~M-ma... dove vanno a finire la c-cooperazione? E l'amicizia? Tutti quegli altri aspetti d-della vita che la rendono d-degna di essere vissuta?~
+@45   = ~Anche tra le cosiddette persone civili, ciò che viene chiamata "cooperazione" è normalmente nient'altro che cedere la propria volontà a un determinato leader. Per quanto riguarda l'amicizia, non c'è amicizia più vera in questo mondo che tra compagni di battaglia.~
+@46   = ~E... l'amore?~
+@47   = ~Ah, beh, sei una persona sposata. Lascio a te decidere fino a che punto "l'amore" è veramente un esercizio di volontà.~
+@48   = ~E io risponderò c-che l'amore è valutazione … s-sapere cosa è veramente importante per un'altra p-persona.~
+@49   = ~Davvero? Mmm. Direi che tu ne sei un esempio più che calzante.~
+//Coran
+@50   = ~Mi chiedo se la tua necessità di chiedere aiuto per la tua c-caccia alle viverne sia dovuta al fatto che usi l'arco d-decisamente meglio della spada.~
+@51   = ~Il mio desiderio di aiuto è dovuto al mio bisogno di aiuto, Khalid. Le viverne sono prede rapide e difficili.~
+@52   = ~Sì, ma avendo uno scudo a t-torre di fronte a te...~
+@53   = ~Avrebbe un senso se quelle bestie non potessero volare. Così com'è, possono tranquillamente svolazzarti oltre e venire da me – che poi sarei quello che le colpirebbe per primo col mio arco.~
+@54   = ~Io... s-sì. Perdonami se ti ho offeso, ma non ho m-mai incontrato una viverna... Mi c-chiedevo cosa aspettarmi.~
+@55   = ~Non devi scusarti, amico mio. Mi hai fatto dei complimenti per la mia abilità con l'arco e hai chiesto informazioni sulle abitudini della preda che stiamo cacciando. Questo è tutto.~
+//Dynaheir
+@56   = ~Sai, Dynaheir, mi p-piace molto Minsc. Mi fido di lui … il suo cuore è p-puro e lo conduce giustamente.~
+@57   = ~"Ma"… Con Minsc, ho imparato, c'è sempre un "ma".~
+@58   = ~Sì. Sono sorpreso dalla sua c-capacità di rimanere un ranger... ancora. Voglio dire, ho sempre s-saputo che p-per questo incarico fosse necessario un livello abbastanza alto di c-comprensione.~
+@59   = ~Forse dovresti consultare il suo "compagno". Ma per quanto posso dire, le sue abilità sono entrate nei suoi tendini e nelle sue ossa, funzionando senza bisogno di una mente come guida.~
+@60   = ~Ho chiesto a Jaheira se p-pensasse che Boo p-potesse davvero essere ciò che Minsc crede che sia. Secondo lei, Boo è un normale r-roditore.~
+@61   = ~Tu la pensi diversamente?~
+@62   = ~Ci ho pensato. Ma se Minsc *può* funzionare c-credendo in Boo, significa che la sua mente non è del tutto p-persa... la p-percepisce solo come separata da sé... ora. Forse, quindi, la sua g-guarigione non è del tutto impossibile.~
+@63   = ~Io... non conosco la risposta a questo. Non ho addestramento al riguardo. So che non è mai stato tentato nessun processo lenitivo. Minsc è stato ferito e in seguito io sono stata rapita. Ci conosci da quel momento.~
+@64   = ~E ora corriamo c-contro la minaccia della guerra e non abbiamo t-tempo. Comunque, tutto ciò d-deve finire... Ne parlerò con <CHARNAME>, allora. Le ferite... il dolore... dovrebbero essere leniti... quando fosse p-possibile.~
+//Edwin
+@65   = ~Beh, Edwin, sembri essere di b-buon umore. Cosa l'ha causato, se p-posso osare chiedere?~
+@66   = ~Se devi saperlo, sto contemplando molti pensieri piacevoli, non ultimo dei quali è la prevedibile estinzione della tua patetica organizzazione.~
+@67   = ~Estinzione? Penso p-proprio di no.~
+@68   = ~Pensi di poter nascondere un tale dettaglio al mio prodigioso intelletto e al mio occhio acuto, Arpista? Ma state tranquilli, la vostra morente congregazione di ombre non è tra le mie preoccupazioni.~
+@69   = ~Non s-stiamo morendo.~
+@70   = ~Con delle reclute come te, gli Arpisti possono davvero aspettarsi altro?~
+@71   = ~Sono orgoglioso di essere c-come sono. E... e il mio valore è noto ai miei s-superiori. I tuoi p-padroni non danno alcun valore a te se non quando p-porti loro dei benefici; probabilmente non sarebbero affatto p-preoccupati di sapere della tua morte, salvo per il fatto che li obbligherebbe a spedire qualcun altro per finire il tuo lavoro. Il mio servizio va verso uomini e donne p-più meritevoli.~
+@72   = ~Oh, non ho tempo da perdere con te! (La mia sferzante ironia è sprecata per quest'uomo!)~
+//Eldoth
+@73   = ~Sai, b-bardo, ho i miei dubbi su questa s-signorina che vuoi "salvare". Una ragazza rinchiusa dal p-padre nella sua stanza per tenerla lontana da c-compagni inadatti; non credo sia una b-buona idea.~
+@74   = ~Cosa? Negheresti il dono prezioso della libertà a una damigella imprigionata? "L'uccello in gabbia smette di cantare", sai.~
+@75   = ~E allora 'I p-padri agiscono per il tuo bene' se dobbiamo p-parlare per cliché. Voglio sapere cosa lo renda d-diverso dal comune furto con scasso o d-dal rapimento.~
+@76   = ~Sei *sempre* così duro?... uh... non devi rispondere. Ho incontrato tua moglie, e mi sembra chiaro che il concetto di due giovani cuori, che battono all'unisono, ma forzatamente separati dal diktat di un senile autocrate, non ti sarebbe familiare. Eppure, ti assicuro che questo è il caso presente.~
+@77   = ~Alla fine d-dipenderà da <CHARNAME>, ma penso che la ragazza stia m-molto meglio dove si trova.~
+//Faldorn
+@78   = ~Penso che ci sia una cosa in c-comune tra te e Jaheira, Faldorn. Entrambi siete state s-separati dai vostri genitori molto presto e non li avete mai p-più rivisti. Forse se condividessi il tuo d-dolore, aiuterebbe ad essere più amichevoli l'una con l'altra.~
+@79   = ~Come tutte le cose viventi, sono figlia della Grande Madre, il cui cuore è generoso. Silvanus, il Padre Quercia mi protegge. Non mi mancano quelli che consideri i miei genitori e non ne ho bisogno.~
+@80   = ~Non può essere v-vero, oppure hai un cuore di p-pietra. Mi manca terribilmente mia madre, anche se i miei ricordi d-di lei sono offuscati. Io... mi manca p-persino mio padre, anche se non ha mai mostrato molto interesse per me. So che Jaheira si sente allo s-stesso modo.~
+@81   = ~La morte è solo una transizione nel grande cerchio della vita. Nessuno è perduto per la Grande Madre. Se Jaheira non lo capisce, è un druido anche peggiore di quanto pensassi.~
+//Garrick
+@82   = ~Dimmi, menestrello, conosci q-qualcosa di diverso dalle p-prose formali che provi così spesso?~
+@83   = ~Uh, come bardo errante, ho imparato alcuni spartiti adatti alle taverne. Devi sapere quelli per cavartela nelle città e non sono ancora pronto per le grandi sale.~
+@84   = ~No, intendevo... canzoni p-popolari, si potrebbe dire.~
+@85   = ~Una o due, forse, da quando ero bambino, ma non intrattengono la folla della sala da ballo, e certamente non possono essere chiamate 'Arte'.~
+@86   = ~No? Strano, se ci p-pensi. Che l'esperienza comune non sia il miglior t-terreno in cui l'arte possa crescere in...~
+@87   = ~Ciò che già tutti sanno non può essere arte. L'arte è una cosa rara, e quindi è meglio servita da eventi straordinari; meglio quindi esplorare i limiti più estremi del sentimento e della comprensione.~
+@88   = ~Non mi sento così male, allora, p-per non avere questo t-talento, se uno deve parlare una lingua diversa, quasi aliena, solo p-per riuscirci.~
+//Imoen
+@89   = ~C-Cosa??? Oh, Imoen. Vorrei che la smettessi.~
+@90   = ~Sto solo praticando la mia furtività con le persone. Non intendevo spaventarti.~
+@91   = ~Beh, non l'hai f-fatto … c-circa.~
+@92   = ~Ehi, dai. Come potrò migliorare, se non mi esercito?~
+@93   = ~Direi che hai delle ottime b-basi. La prossima volta, avvertimi p-però. Ciò renderà il tuo t-test ancora più v-vero.~
+@94   = ~Sì! Lo farò!~
+//Jaheira
+@95   = ~P-pensi che ci stabiliremo mai da nessuna p-parte, mia cara? A volte mi sento quasi obbligato ad andare avanti, e v-vedere dove ci porta la p-prossima svolta della strada... servendo la c-causa della giustizia...~
+@96   = ~Giustizia?~
+@97   = ~Oh, e l'equilibrio, ovviamente, come p-potrei dimenticare l'equilibrio?~
+@98   = ~Come potresti, in effetti?~
+@99   = ~Ma altre volte, vorrei solo trovare un p-posto dove fermarmi, piantare un orto... creare una f-famiglia, centrata nel loro essere c-creature dal doppio retaggio e c-cresciute dalla loro m-madre orgogliosa per quello c-che sono.~
+@100  = ~E abituate dal padre a fare ciò che devono senza pensare al costo e a conoscere la differenza tra forza reale e apparenza, giusto?~
+@101  = ~*sorride* Esatto. Spero un giorno che l'occasione c-ci verrà incontro. Come dovremmo chiamare il nostro p-primo figlio?~
+@102  = ~La nostra primogenita sarà una figlia - noi druidi abbiamo certe conoscenze, sai...~
+@103  = ~Allora sarà b-bella, saggia e forte come te, e sarà la mia gioia, il mio amore più c-caro...~
+@104  = ~Moglie mia...~
+@105  = ~Khalid, non ora! Sto cercando di trovare un consiglio per <CHARNAME>, riguardo allo stato attuale delle cose.~
+@106  = ~Mi d-dispiace, cara.~
+@107  = ~Uh-uh.~
+@108  = ~S-sai che i tuoi occhi diventano ancora più verdi q-quando sei irritata?~
+@109  = ~Io non mi irrito mai! Sono la donna più calma di tutta Faerun!~
+@110  = ~*sorride* Sì, d-decisamente verdi. Come l'uva spina.~
+@111  = ~Uva spina? Ah, Khalid, le cose che dici a volte sono... così dolci. *ridacchia* Non hai mai fallito nel farmi sorridere?~
+@112  = ~Mai, amore mio.~
+@113  = ~Jaheira, ho f-fatto un sogno ieri sera... un b-brutto sogno.~
+@114  = ~Il ricordo dei giorni maledetti in cui sei stato catturato e torturato dagli Zhentarim ti perseguita ancora, amore mio?~
+@115  = ~P-potrebbero non essere stati gli Zhentarim, non abbiamo mai trovato p-prove...~
+@116  = ~Non c'è motivo, tuttavia, di credere che non fossero *gli* Zhentarim. Ma non voglio rivangare il dolore passato più del necessario.~
+@117  = ~Forse non era quello. Non ne sono s-sicuro. Ho visto... ho visto luoghi oscuri e d-dolore. Tu non c'eri. Ma io ero felice p-per questo, dal momento che ho p-pensato … se non ci sei, non p-possono farti del male.~
+@118  = ~Ed ero quindi libera di venire in tuo soccorso. Come abbiamo fatto l'ultima volta, Gorion e io.~
+@119  = ~È sufficiente per me sapere che tu fossi al s-sicuro, Jaheira.~
+@120  = ~Forse non sei ancora abbastanza forte per tornare all'avventura, amore mio? Questi sogni, mi preoccupano.~
+@121  = ~Mia c-cara, ho fatto un giuramento solenne a Gorion per proteggere <CHARNAME>. Farò ciò che ho p-promesso.~
+@122  = ~Coran voleva s-sapere se la mia timidezza f-fosse attraente per le ragazze o men. *ride* Ho detto che non ne avevo idea. Quindi ho p-pensato che forse avrei fatto meglio a chiedere a q-qualcuno che probabilmente lo avrebbe s-saputo. P-pensi dunque che la mia... timidezza sia attraente?~
+@123  = ~Oh, sì, sei certamente molto timido, vero? È stata un'enorme esplosione di timidezza quella in cui ti sei impegnato la scorsa notte. Direi che quel tipo di timidezza è estremamente attraente...~
+@124  = ~Grazie, mio dolce fiore. *La bacia*~
+//Kagain
+@125  = ~Devi per forza s-saccheggiare i caduti con tanta allegria, nano?~
+@126  = ~Come se tu non facessi lo stesso; ora lasciami raccogliere queste frecce e controllare la qualità di quello scudo.~
+@127  = ~Spero di non mostrare... c-cosa che non credo... tanta avidità per il b-bottino.~
+@128  = ~Ah sì? E *io* spero di non mostrare lo stesso nervosismo in battaglia, quindi prendi quello che ti lascio e sii grato.~
+//Kivan
+@129  = ~*Khalid fischia piano una melodia.*~
+@130  = ~Credo di riconoscere la melodia. Cormyriana, vero? Il testo era qualcosa del genere:
+Amo una donna è una dolce marea
+Gli occhi son verdi mia dolce orchidea.~
+@131  = ~Nel grano danzano i capelli dorati
+Di vino le labbra e i suoi baci salati.~
+@132  = ~Occhi verdi...~
+@133  = ~Kivan, non stai b-bene? Kivan?~
+@134  = ~Deheriana aveva gli occhi verdi. Oio naa eleahe alasse '... La loro vista è sempre stata una gioia per me. Anche adesso la vedo sorridere e i suoi occhi hanno il colore della primavera.~
+@135  = ~P-Pensavo a Jaheira.~
+@136  = ~Jaheira?~
+@137  = ~M-mia moglie, Jaheira...~
+@138  = ~Certo. Mi dispiace, Khalid, la mia mente è stata persa in un sogno ad occhi aperti per un momento.~
+@139  = ~Allora non ti d-disturberò.~
+//Minsc
+@140  = ~Uh... Non voglio interrompere... ma... stai c-contando i semi?~
+@141  = ~Certo. Boo dice che deve rimanere a dieta.~
+@142  = ~Non potresti d-dargliene semplicemente un po' meno? Giudicando ad occhio?~
+@143  = ~Sciocchezze! Boo è un criceto di precisione! Nessun compito è troppo grande per mantenerlo in condizioni fisiche perfette.~
+@144  = ~No, s-suppongo di no.~
+//Montaron
+@145  = ~Hai già memorizzato ogni ultimo r-rivetto della sua armatura, Zhent?~
+@146  = ~Eh? Di cosa stai parlando adesso?~
+@147  = ~Ti ho visto v-valutare la p-protezione della mia Jaheira alla ricerca di p-punti deboli. Non mi p-piace...~
+@148  = ~Come suo compagno, probabilmente ti piacerebbe ancora meno se ti dicessi che in verità stavo controllando quello che c'è SOTTO la sua armatura.~
+@149  = ~Non ti credo.~
+@150  = ~Stai dimenticando qual è il livello degli occhi per me. Ed è uno spettacolo da non perdere - se non si considera ciò che c'è poco più in alto di fronte a lei.~
+@151  = ~Se la tua libidine fosse davvero un v-vizio altrettanto sviluppato quanto la tua c-crudeltà, sarei sollevato d-dalle tue bugie, Zhent.~
+@152  = ~Vedo che questa faida durerà per sempre. Gli Arpisti stupidi non sono certo meglio di quelli Zhent. Diversi, certamente, ma non migliori.~
+//Safana??
+@153  = ~Signora, mi chiedevo...~
+@154  = ~Ooh, cosa c'è tesoro? Non hai leccato gli stivali della tua consorte abbastanza per i suoi gusti?~
+@155  = ~No... no, ovviamente no. Riguarda le storie che r-racconti.~
+@156  = ~Sembri *quindi* non approvare. Non apprezzi l'aura di mistero fornita da degli aneddoti così poco illustrativi?~
+@157  = ~Mmm. Beh, secondo i miei c-conteggi, se avessi fatto tutto ciò che rivendichi, avresti più di 220 anni.~
+@158  = ~*ridacchia* Allora il tuo conto è tristemente errato. Ma sai caro, posso fare parecchio in un periodo di tempo *molto* breve... se hai fretta...~
+@159  = ~Uh... n-no, grazie!~
+//Shar-Teel
+@160  = ~Oh! Shar-Teel, c-calma.~
+@161  = ~Allora levati di mezzo più velocemente, verme!~
+@162  = ~Ho solo r-rallentato un attimo per la vista laggiù. Non devi s-spingermi via solo p-per questo.~
+@163  = ~No, non *devo*, è solo un piccolo piacere per me farlo, dal momento che, a causa del mio giuramento, non posso ucciderti.~
+@164  = ~Il tuo scudo è abbastanza grande da non d-doverti nascondere d-dietro un giuramento.~
+@165  = ~Ah! Ah! Ma il tuo non lo è, a quanto pare. Ti stai facendo sempre più piccolo dietro il tuo a vista d'occhio, verme.~
+@166  = ~Per la Luce e la Via...~
+@167  = ~Khalid! NO! Questo non è il tempo per la Via!~
+@168  = ~Ascolta la tua metà "amara", piccolo verme. La sua saggezza è tutto ciò che si frappone tra te e una morte raccapricciante.~
+@169  = ~Non c-capisci cosa ha appena detto Jaheira. Mi ha solo r-ricordato che non vale la p-pena combattere p-per, con o contro di te.~
+//Skie
+@170  = ~Avrei una p-parola per te, milady Skie, se me lo c-concedi.~
+@171  = ~Certo. Ma prima *devo* ringraziarti per la tua parte nel liberarmi da quella prigione dorata. Tutti i servizi tranne uno: la libertà di fare ciò che *devo* fare.~
+@172  = ~Ah... p-prego... ovviamente. Ma io... voglio d-dire... non sapevo che Eldoth... uhm...~
+@173  = ~Oh, io so che lo ha *pianificato*. Ovviamente lo ha fatto. E sono *così* contenta che abbia trovato degli amici così carini per aiutarlo. Quel povero ragazzo è *così* ingenuo. Ha preso alcune persone perfettamente sconosciute solo sulla parola e ha sofferto terribilmente per avervi dato fiducia.~
+@174  = ~Beh... non sono sicuro c-che... uh... in realtà...~
+@175  = ~Oh, so cosa hai intenzione di dire. Eldoth appare sicuro di sé, cinico e mondano - ma è solo una recita! È davvero incredibilmente ingenuo ma, per favore, non dirgli che te l'ho detto. Non vorrei ferire quel caro sognatore.~
+@176  = ~Uh... no. Vi *auguro* ogni f-felicità, milady...~
+//Tiax
+@177  = ~Uh... Tiax...~
+@178  = ~Silenzio! Stai interrompendo il tuo sovrano dalla sua contemplazione dell'infinita crudeltà che dovrà arrivare!~
+@179  = ~Beh, sì, m-ma...~
+@180  = ~Continui ad importunarmi, essere blasfemo!? Tu, un codardo, per giunta!~
+@181  = ~Ehm... vedi...~
+@182  = ~Non tentare di negare il tuo terrore! Perché te lo dico, posso sentire l'odore della tua paura da qui.~
+@183  = ~Ecco è proprio q-questo di cui ti volevo p-parlare. Ti trovi p-proprio sopra una pila di escrementi di c-cavallo freschi.~
+@184  = ~Eh? Oh... sei più saggio di quanto pensassi... ehm... percepisci... la metafora finale del dominio di Tiax! Tutti non saranno altro che escrementi di cavallo per lui; indegni di macchiare i suoi stivali ma comunque calpestati ehm... volevo dire, inginocchiati... al suo volere!~
+//Viconia
+@185  = ~Vorrei che non la f-fissassi in quel modo, drow.~
+@186  = ~La tua padrona? Non ha nulla da temere da me. Anzi, la trovo interessante.~
+@187  = ~L'interesse di una della t-tua razza non promette nulla di b-buono, Viconia.~
+@188  = ~Né dovrebbe, ma *io* non sono tra la mia gente ora, quindi metti da parte le tue paure. Sono solo curiosa.~
+@189  = ~In che modo?~
+@190  = ~In nessun modo che *tu* ti preoccuperesti di ascoltare. Tuttavia, il suo grado di controllo che esercita su di te si avvicina a ciò che è comune proprio della mia stessa razza. Eppure, è lontano dalla norma tra voi gente di superficie. Sto semplicemente cercando di decidere se questo deriva dalla sua forza di volontà o dalla *tua* totale mancanza in questo senso.~
+@191  = ~Per quanto r-riguarda Jaheira, considerami un volontario c-consapevole.~
+@192  = ~Sì? Ma questa risposta non mi aiuta. Non è la risposta di un debole o di uno sciocco, tuttavia l'effetto che dà è sembrare entrambi.~
+@193  = ~Se p-posso avventurarmi in un'opinione, avrai bisogno di uno studio p-prolungato per p-poter capire.~
+//Xan
+@194  = ~Non voglio fare il f-ficcanaso, Xan...~
+@195  = ~Ma hai intenzione di farlo, comunque. Procedi, quindi, se non puoi trattenerti.~
+@196  = ~Se credi che nulla che *possa* essere fatto abbia alcun valore, come puoi prendere parte a una missione così pericolosa come la nostra?~
+@197  = ~Non sono ancora morto.~
+@198  = ~Chiedo s-scusa?~
+@199  = ~Mi hai sentito. Con mio infinito stupore, questa "missione", come la chiami tu, non mi ha ancora ucciso. Pertanto, continuo come ho iniziato: alleviare col dolore e la paura l'insopportabile agonia del tedio.~
+@200  = ~Non riesco a credere che q-questa sia tutta la storia, Xan.~
+@201  = ~Potresti. Se fossi come me maledetto dalla vera visione sui nostri miserabili affari.~
+//Xzar
+@202  = ~Non mi p-piacciono i tuoi metodi, Zhent.~
+@203  = ~No? Bene, non devi preoccuparti. Uno zombie incapace e codardo non sarebbe utile a nessuno.~
+@204  = ~Certamente non a *te*, p-prego. Ma mi riferivo al fatto che tu f-fossi uno Zhentarim, non alle tue scellerate scelte p-personali.~
+@205  = ~Ancora questi luoghi comuni? La tua curva di apprendimento deve essere piatta come una tavola, se non capisci che i tuoi amici e i miei hanno un interesse comune qui.~
+@206  = ~Questa è l' *unica* r-ragione per cui non sei ancora m-morto. Ma temo quali piani potresti avere per la fine di questa m-missione.~
+@207  = ~Oh, ma tu temi così tante cose! D'altra parte, io temo il Nulla. E oltre al Nulla, solo alcune altre piccole paure perfettamente normali. Ora, se mi vuoi scusare, ho un volo di fantasia da catturare.~
+//Yeslick??
+@208  = ~Devo dire che tu sopporti il d-dolore con grande coraggio … molto meglio di me.~
+@209  = ~Non è così male; una bella brezza di superficie e un cielo sopra la testa. E persino un sorso di birra quando ho la gola secca.~
+@210  = ~M-ma la tua casa … la t-tua gente...~
+@211  = ~Sì, e accidenti a me per come è andata. Ma terrò i miei dolori privati se la cosa non ti dispiace.~
+

@@ -1,0 +1,196 @@
+//Volo
+@0    = ~Maestro Volo? Sono estasiata di fare la vostra conoscenza. La "Guida alla Costa della Spada" mi ha servito bene e con profitto lungo i miei viaggi.~
+@1    = ~Cara signora, ricambio l'entusiasmo, non mi aspettavo davvero di incontrare una mia fan in questo piccolo posto.~
+@2    = ~Cara signora, ricambio l'entusiasmo, poiché non mi aspettavo davvero di incontrare una mia fan in questo piccolo posto.~
+//Berrun
+@3    = ~Segnati bene il suo, sindaco. Sento che questa non sarà l'ultima sua buona azione di cui sentirai parlare.~
+//Cythandria
+@4    = ~Così sembra. <CHARNAME>, non mi piace affatto ciò che vedo. Non permettere a Bhaal di sopraffarti, come ha fatto con tuo fratello.~
+//Liia 247
+@5    = ~<CHARNAME>, Sarevok è una progenie di Bhaal, e ha ceduto alla pazzia. Deve essere fermato a tutti i costi!~
+//Brun 251-0-673-254
+@6    = ~In effetti, possiamo dedicare qualche ora ad aiutarti, buon contadino. Non è così, <CHARNAME>?~
+@7    = ~Hai forse un pezzo di roccia, al posto di un cuore di <PRO_RACE> nel tuo petto, <CHARNAME>?~
+@8    = ~Hai fatto bene ad accettare questo compito, <CHARNAME>.~
+@9    = ~Oh, <CHARNAME>, che nobile <PRO_MANWOMAN>!~
+//Gallor 0-258
+@10   = ~Tu menzioni solo il furto in questo compito disonesto, ma in realtà faresti di noi gli assassini di Charleston e dei suoi uomini. <CHARNAME> sicuramente non sarebbe d'accordo nel commettere una tale atrocità.~
+@11   = ~Non farei parte di questa... impresa!~
+//Angelo 262
+@12   = ~Se io fossi nella posizione che tu rivendichi come tua, non sarei così rapida ad accusare degli innocenti.~
+//Varci 901
+@13   = ~Il mio consiglio... <CHARNAME>, è di prestare il tuo orecchio alla richiesta di questo bambino. È impossibile guardarlo senza provare pietà.~
+//Eltan
+@14   = ~Le azioni di Sarevok sono goffe, in confronto agli intrighi politici dei Maghi Rossi, ma non per questo meno vili.~
+@15   = ~Signora, vorrei che ci concentrassimo sugli avvenimenti in Baldur's Gate per ora.~
+@16   = ~Faremo del nostro meglio per prevenire una cosa così malvagia, Duca Eltan.~
+//Ardrouine 283
+@17   = ~Sei stato bravo ad aiutare questa povera donna. Ora dovremmo tornare ai nostri compiti.~
+		~Sei stata brava ad aiutare questa povera donna. Ora dovremmo tornare ai nostri compiti.~
+//Ocelli
+@18   = ~Di già? Temo che arriveremo tardi per evitare la catastrofe.~
+//Hannah 286
+@19   = ~Questo Ragefast deve aver commesso un'azione davvero malvagia per provocare una reazione così forte in qualcuna di così nobile discendenza. È mia esperienza che raramente si preoccupino del destino degli altri. Faremmo bene a indagare.~
+//Neb 291-292
+@20   = ~Quale ignominia... che essere abbietto! Fuoco e fulmini! Ti esorto a... uccidere questo gnomo!~
+@21   = ~Uccidermi? Ah... alcuni ci hanno provato, sì, sì... e sai dove sono ora, tesoro? Sotto due metri di terra.~
+//Ragevite 296
+@22   = ~Questa è una svolta inaspettata...~
+//Areana
+@23   = ~Ti consiglieri cautela nel farti assoldare come assassino pagato da questa donna. Questioni come questa non dovrebbero essere risolte con l'omicidio.~
+//Minatore
+@24   = ~Se pensi di lasciare questa povera gente a morire, è meglio che tu ti unisca a loro. La morte per annegamento non sarebbe nulla, rispetto al mio trattamento!~
+//Tenya
+@25   = ~È un bambino molto vivace, ma comunque un bambino. Confido che tu abbia giustamente concluso chi è nel torto qui.~
+//Felonius
+@26   = ~Sento la presenza di un incantesimo malvagio. Mi oppongo con veemenza all'entrare nelle case di brava gente non invitati, ma forse dovremmo indagare su questa.~
+//Delorna
+@27   = ~Devo scusarmi per la nostra rozza intrusione. <CHARNAME>, il nostro scopo qui non è di alto livello morale. Faremmo meglio a lasciare queste fanciulle istruite ai loro studi, e dimenticare la volgare richiesta di Alatos.~
+//Beland 313-314
+@28   = ~Ho sentito che molti artefatti sono stati creati qui, ma da mani abili e menti acute, senza l'uso della magia. Avrà mai successo l'idea che l'arcano e il tecnico debbano venire a congiungersi per soddisfare il bisogno di un essere senziente di fare cose sane e meravigliose?~
+@29   = ~Ben detto, mia signora, ben detto.~
+//Narcillius 316
+@30   = ~Ogni volta che assisto alle follie di maghi che praticano in settori di cui non possiedono alcuna competenza, mi chiedo se l'ozio non porti inevitabilmente le grandi menti alla follia.~
+//Entillis
+@31   = ~Faresti bene ad accettare il consiglio. Non solo viene da un saggio, ma ammetto anche che la rapidità è fondamentale per la risoluzione pacifica di questa grave questione.~
+@32   = ~Non avrei potuto dire di meglio, signora.~
+//Arkushule 321
+@33   = ~La divinazione è una magia che raramente viene praticata nel Rashemen. Purtroppo, per necessità, diamo maggiore importanza agli incantesimi da battaglia. Se permetterai a questa donna di esplorare il tuo passato e il tuo futuro, mi piacerebbe molto vedere come è fatto.~
+//Thalantyr
+@34   = ~Tu sei un mago dalle conoscenze notevoli. Dovresti ricordare ancora la curiosità e l'ambizione della gioventù, perché senza di esse non avresti raggiunto la tua statura attuale. È tua responsabilità assicurarti che il tuo apprendista non abbia accesso a magie al di là della sua comprensione. Sicuramente, avresti potuto fare meglio di un debole glifo difensivo e un lucchetto!~
+@35   = ~La distrazione del tuo padrone, tuttavia, non scusa la tua disobbedienza, Melicamp.~
+@36   = ~Vai a tagliare il formaggio con la tua lingua. Disturbarmi con consigli così saccenti!~
+//
+@37   = ~Non è un nome che riconosco, ma con il passare dei signori della lotta e dell'omicidio, il Principe delle Bugie avrebbe potuto rivendicare un titolo del genere.~
+@38   = ~Rispondimi!~
+//
+@39   = ~Bello? Lo trovo piuttosto banale, anche se suppongo che un uomo della sua stirpe possieda una certa... oscura bellezza.~
+//Brevlik 323-324
+@40   = ~Attenzione, <CHARNAME>. Se quelli sono davvero Maghi Rossi di Thay, cosa di cui non ho motivo di dubitare, sono abili nelle arti arcane quanto in quella dell'inganno.~
+@41   = ~Questo accento... è fin troppo familiare. Devi essere la strega Rashemi individuata da queste parti dai nostri amici. Vedo che Edwin non ha svolto la sua missione come ordinato. Lasala, suggerisco di non dirgli che abbiamo fatto il suo lavoro. Più è lontano, meno ostacoli crea per noi.~
+//Denak 328-329
+@42   = ~La fame di questo gnomo per le cose magiche è encomiabile, ma i modi in cui desidera saziarla non lo sono. <CHARNAME>, non ci stai veramente ordinando di commettere questo... furto?~
+@43   = ~Oh, sì, per favore!~
+//Yago
+@44   = ~Un mago che usa le sue conoscenze per maledire un bambino deve essere condannato! Non c'è briciola di bontà nel tuo cuore per evitare una cosa del genere? Tua moglie e il suo amante ti avranno anche ferito... ma sei tu ad aver fatto l'atto più vile tra i tre di voi coinvolti!~
+@45   = ~Un mago che non usa la sua conoscenza con giudizio è un pazzo. E penso di sapere esattamente come voglio applicare la mia adesso!~
+//Emerson 668
+@46   = ~Mancare di rispetto a coloro che ti vogliono aiutare non è saggio, e ancora meno lo è minacciarli. O forse non desideri che la tua miniera venga liberata dai mostri che la infestano?~
+@47   = ~Ne sai di più, caposquadra?~
+@48   = ~Abbastanza poco, signora. Posso dirvi questo: c'è un gruppo di creature dalla testa di cane che uccide i miei uomini nella miniera. Dovete fermarle!~
+//Kylee
+@49   = ~Sono molto contenta che siamo stati in grado di dare a questo povero uomo un po' di conforto. Anche se un pugnale sembra essere un baluardo molto sottile di fronte ai malefici all'opera in questi luoghi.~
+//Hentold 331
+@50   = ~Quest'uomo è sicuramente sconvolto! Devi scoprire cosa c'è di sbagliato qui, <CHARNAME>. Potremmo essere d'aiuto.~
+//Ravenant 333
+@51   = ~Abbi pietà di questa creatura, <CHARNAME>. Tutto ciò che vuole è trovare la pace. Ridagli il pugnale.~
+//Nalin 794
+@52   = ~Espiazione, non punizione... Tu sei un uomo saggio, Nalin. Saggio quanto qualsiasi Othlor della mia terra. Confido che tu abbia imparato una preziosa lezione sulla giustizia oggi, <CHARNAME>.~
+//Galileo 343-344-345-346-347
+@53   = ~Tu vedi tutto nelle stelle, mio buon uomo?~
+@54   = ~Sì, mia signora.~
+@55   = ~Allora la tua vista è davvero acuta.~
+@56   = ~Abbastanza, mia signora. Bene, è stato un piacere chiacchierare con qualcuno che apprezza la mia arte. Tuttavia, devo andare a studiare le mie carte stellari e a cospargere di lozione il mio collo dolorante. Buona fortuna nei vostri viaggi, e che gli dei siano con voi.~
+//Samantha
+@57   = ~Sembra che abbiamo interrotto un incontro amoroso, e ora stiamo per massacrare un uomo innocente perché hai spaventato questa ragazza. Un caro prezzo per il tuo voler essere di buon cuore, <CHARNAME>.~
+//Oublek 0-0-35-0
+@58   = ~Molto nobile da parte tua, <CHARNAME>.~
+@59   = ~Ora mi chiedo solo perché ti abbia preso per qualcuno che pratica affari poco raccomandabili. Deve essere qualcosa nel tuo personaggio che lo lascia pensare.~
+@60   = ~<CHARNAME>, non sono soddisfatta della tua gestione di questa faccenda. Questo povero uomo era stato maledetto e il suo tormento una volta tornato alla ragione era sincero. Avresti dovuto trovare un uomo giusto e misericordioso che lo giudicasse.~
+@61   = ~Questi smeraldi saranno ovunque fuori posto e per sempre opachi. A meno che non siano di nuovo riportati alla meravigliosa statua che Prism aveva scolpito.~
+//Kirian 203
+@62   = ~C'è un detto nel Rashemen: "Ci vogliono due pazzi per iniziare un combattimento."~
+//Davaeorn 208
+@63   = ~Non prendere le sue parole alla leggera, <CHARNAME>. Sento il potere su di lui; è davvero un potente mago.~
+//Larze
+@64   = ~Non è l'orco che trovo spaventoso; è la persistenza di chi lo ha mandato.~
+//Ivanne 716
+@65   = ~Questa storia deve essere davvero oscura, se chiede un simile pagamento. I racconti volgari sono arte comune in questa terra, e sono normalmente raccontati liberamente a ogni passante che ha voglia di ascoltarli.~
+//Tiber 76-348
+@66   = ~Sono addolorata, perché temo le tue paure siano giustificate: i ragni non fanno prigionieri. Tuttavia, io stessa sono stata prigioniera di creature non meno pericolose e sono sopravvissuta fino a quando <CHARNAME> mi ha salvata.~
+@67   = ~È una triste lezione che ogni giovane avventuriero impara alla fine. Essere coraggiosi non rende invincibili.~
+//Laskal 42
+@68   = ~Quindi, ora ti dichiari apertamente un nemico del Trono di Ferro? Beh, non si può nascondere per sempre la testa nella sabbia, suppongo. Immagino sia meglio così.~
+//Ajantis 0-354
+@69   = ~Insultare questo scudiero mi sembra incredibilmente stupido, <CHARNAME>.~
+@70   = ~Questo giovane scudiero mi sembra degno di fiducia. A dire il vero, mi ricorda il mio fedele Minsc. Sarà una preziosa aggiunta per questo gruppo.~
+//Larry
+@71   = ~Ora sto iniziando a chiedermi di CHI mi debba preoccupare di più. *Lo sguardo che ti dà parla del tormento di una donna che si ritiene intelligente, ma il cui fedele compagno chiacchiera regolarmente con un criceto spaziale gigante in miniatura, e che ha appena visto il suo capo chiedere un autografo ad uno xvart, un coboldo e un tasloi.*~
+//Hafiz
+@72   = ~Ti ringrazio con tutto il cuore per questo dono e per le informazioni sulle battaglie a venire, astrologo.~
+//Degrodel 229
+@73   = ~Non è una punizione equa. Incantesimi del genere non sono giocattoli da lanciare in giro come un bambino che fa i capricci. Ti esorto a liberare questi ladri, <CHARNAME>.~
+//Derlik
+@74   = ~<CHARNAME>, dovresti davvero capire che agire come un ladro comune non è qualcosa di cui andar fieri. Non mi piace usare le mie arti per uccidere uomini onesti.~
+//Petrine
+@75   = ~*sospira* Non mi piace per niente, ma potresti entrare nella casa, <CHARNAME> e... appropriarti dell'anello?~
+@76   = ~*sospira* Non mi piace per niente, ma potremmo entrare nella casa, <CHARNAME> e... appropriarci dell'anello?~
+//Furto
+@77   = ~Mi auguro che derubare delle persone innocenti non diventi una consuetudine, <CHARNAME>.~
+//Ponte di Firewinw
+@78   = ~Cammina con attenzione, <CHARNAME>, e non uccidere le piccole creature che strisciano. La leggenda locale dice che non tutta la gente di Firewine perì nell'ondata magica che distrusse la loro città. Si dice che alcuni siano stati trasformati in creature quali lumache o lucertole...~
+@79   = ~Quale ondata magica?~
+@80   = ~Beh, per quanto non voglia uccidere un rispettabile elfo trasformato in tartaruga... non sono nemmeno un folletto in grado di muoversi fluttuando senza peso.~
+		~Beh, per quanto non voglia uccidere un rispettabile elfo trasformato in tartaruga... non sono nemmeno una fata in grado di muoversi fluttuando senza peso.~
+@81   = ~Esistono prove concrete a sostegno di questa affermazione?~
+@82   = ~Sono sorpresa che tu non conosca la storia della tua terra. Firewine fu distrutta in un duello tra due potenti maghi. I loro incantesimi furono così potenti e così selvaggi da devastare la sfortunata città e cambiare il corso del fiume. Ora, nulla più che ruderi rimangono come monito a quelli della mia professione a non esercitare le proprie arti per conflitti infantili. Uno stupido gioco può trasformarsi in una tragedia.~
+@83   = ~Sono consapevole del fatto che tu non sia un folletto, ma fai attenzione...~
+		~Sono consapevole del fatto che tu non sia una fata, ma fai attenzione...~
+@84   = ~È nel tuo interesse.~
+@85   = ~La gente del posto dice come una ragazza di Gullykin abbia una volta liberato un mago per sbaglio e abbia finito per sposarlo.~
+@86   = ~Immagino che avrebbe potuto andare peggio.~
+//Figlie di Shandalar
+@87   = ~L'idea stessa di averti aiutato a commettere una tale carneficina è insopportabile! Nemmeno il mio debito nei tuoi confronti mi farà servire un assassino, a sua volta agli ordini di un ladro.~
+//Candlekeep
+@88   = ~Ed ecco quindi la Fortezza che chiede al viaggiatore di pagare l'ingresso in conoscenza e non con monete d'oro... In effetti, posso solo invidiarti, <CHARNAME>, perché hai vissuto in un tale luogo di illuminazione. Vorrei avere il tempo per studiare le sue collezioni.~
+//Carnevale
+@89   = ~Ciò che è successo qui è una lezione per ogni ciarlatano che non mostri il dovuto rispetto per le arti magiche.~
+//Edwin
+@90   = ~Ma cosa vedo? Non sei così inutile come continuavo a ripetere a Nevron. Sei decisamente peggio! Quale parte di "uccidere" non hai capito quando ti è stato ordinato di assassinare la strega Rashemi? La permanenza in queste terre barbare ha annebbiato la tua mente?~
+@91   = ~Au contraire, illustrissimo Denak. (L'adulazione non fa mai male...) Oh intelligente, potente e infinitamente saggio Denak... Ho ideato un piano degno del mio intelletto superiore. Se potessi lasciare da parte il tuo sdegno per un momento sarò in grado di spiegarti...~
+@92   = ~*sospira* Fammi indovinare - invece di uccidere la strega, l'hai catturata per interrogarla?~
+@93   = ~Sapevo che un uomo dalle tue vaste capacità avrebbe avuto bisogno di un solo attimo per cogliere il nucleo del mio astuto stratagemma.~
+@94   = ~Farò finta per qualche istante di essere prigioniera del giovane mago troppo ambizioso, se questo ci risparmierà una battaglia. Ma non mi arrenderò *mai* ai suoi compagni!~
+@95   = ~E hai pensato a quanto sarebbe dispendioso trasportare una prigioniera fino al Thay?~
+@96   = ~Err... ne ho tenuto conto, ovviamente. Ho interrogato la strega... severamente, e ho imparato tutto quello che c'è da sapere da lei. Ho solo portato qui la miserabile... chiedendomi se... se gli ordini di Nevron verso di lei non fossero cambiati, e in modo che i miei comandanti più illustri potessero prendere parte all'esecuzione della strega e dei suoi collaboratori. (Ora, questa sì che è la risposta di un vero genio!)~
+@97   = ~Aspetta un minuto! Edwin... Io non sono-~
+@98   = ~Giusto. Sapevo che era tutto troppo bello per durare. Immagino che dovremo uccidere questi maghi. La domanda è, se sei con noi o contro di noi, Edwin.~
+@99   = ~Sta mentendo spudoratamente! Ammetto di non aver voluto ucciderla, come Edwin stesso aveva suggerito. Che l'ho salvata e che ora viaggia al mio fianco è anche vero. Tuttavia, non so nulla della faida tra di voi.~
+@100  = ~Tsk, tsk, Edwin... sei un tale burlone! Sai perfettamente che sono venuto qui per assicurarmi che la strega venga uccisa in modo da portare la maggior gloria al Thay. Non è vero?~
+@101  = ~... pronto a morire? Scimmia, chi te l'ha chiesto?~
+		~... pronta a morire? Scimmia, chi te l'ha chiesto?~
+@102  = ~Un Mago Rosso del Thay serve la gloria del Thay... o i suoi interessi. E per chi è nato per unificare tutto il Thay sotto il suo dominio, è ovviamente lo stesso obiettivo. A prescindere da quanto siate stati pateticamente inadeguati nell'eseguire i miei ordini, <CHARNAME>, trovo i miei cosiddetti superiori persino inferiori a uno scimmione loquace di queste terre barbare. Ovviamente avrai bisogno del mio aiuto per distruggerli... (E così poi sarò libero di pianificare senza essere costantemente scrutato e sminuito da questi piccoli burocrati).~
+@103  = ~Questa, macaco, è una domanda che non ti dovrebbe sfiorare la mente.~
+@104  = ~Non dovrei nemmeno sforzarmi eccessivamente con i documenti... Nevron è un cretino, e si berrebbe ogni possibile storia...~
+@105  = ~Trovo che sia difficile da credere. Edwin, dimostrati utile e aiutami a prendermi cura di questo... gruppo eterogeneo.~
+@106  = ~Abbastanza divertente, Edwin. Quando avrò un nuovo incarico, ti contatterò. Oh... ed ecco il tuo rimborso come da ultimo rapporto spese, anche se non ho ancora ben chiaro come acquistare una schiava di piacere drow ti abbia aiutato nella cattura della strega...~
+@107  = ~Edwin, i tuoi compagni qui attendono una risposta. Concedi di avere il più patetico senso dell'umorismo in questo lato della Spina del Mondo, o ammetti il tuo tentativo primitivo di ingannarci?~
+@108  = ~Il mio superiore incredibilmente intelligente può sicuramente capire che uno deve fare del suo meglio per elevare gli spiriti dei suoi barbari subordinati. Lo scherzo era per le scimmie che mi accompagnano, non per le tue nobili orecchie. Ora, per dimostrare la nostra fedeltà, uccideremo la strega in un modo decisamente esemplare...~
+@109  = ~Questo è il modo in cui mi ripaghi per la mia lealtà, <CHARNAME>?~
+@110  = ~Spero davvero che tu abbia ragione!~
+@111  = ~Grazie per aver risposto alla richiesta di una madre.~
+@112  = ~È tutto ciò che ho, e ne sono molto felice. Grazie.~
+@113  = ~Jamie, non lasciare che mi feriscano!~
+@114  = ~Eh? Non importa. Ecco ciò che ti spetta, Greywolf.~
+//ict3 36
+@115  = ~L'hai consegnato alla giustizia. Le persone di questa città dormiranno più facilmente sapendo che non è più una minaccia.~
+@116  = ~Ora, Prism ha preso ciò che non era propriamente suo, quindi brillerà altrettanto bene nelle mani del legittimo proprietario.~
+@117  = ~E quelli sareste tu e <PRO_HESHE>.~
+@118  = ~Molto vero! Peccato che non vivrai abbastanza a lungo da raccontarlo.~
+//ict3 353
+@119  = ~Povero Chelak!~
+@120  = ~Prendi questo e dimostra le tue intenzioni con le tue azioni.~
+@121  = ~Forse la signora verrà a rimpiangere la sua associazione con gente così maleducata.~
+@122  = ~Grazie, mia signora. Mi sforzo di servire con vigilanza e con onore.~
+@123  = ~Ehi, signora, tu nelle vesti - ne vuoi uno anche tu?~
+@124  = ~Aiutandoti, aiuto me stessa. Non desidero che questi sogni persistano.~
+@125  = ~Avresti dovuto pensarci prima di distruggere il posto.~
+//Kylee 
+@1001 = ~Ogni piccolo aiuto è importante!~
+@1002 = ~Aiutaaami!~
+@1003 = ~Hai detto qualcosa? Non importa... ti auguro una buona <DAYNIGHT>.~
+@1004 = ~Hm, forse, ma hai fatto la cosa giusta restituendoli al legittimo proprietario.~
+@1005 = ~Troppo tardi. Vattene!~
+@1006 = ~Ecco le due R... e voilà!~
+@1007 = ~Non dirlo. Servo me stessa come te.~
+@1008 = ~Avrei dovuto pensarci prima!~

@@ -1,0 +1,244 @@
+@0    = ~Dici a me? Non ho tempo per le chiacchiere. Sto cucinando la dannata cena.~ [%tutu_var%MONTR17]
+@1    = ~Mmm, ha un buon profumo. Che cosa stai cucinando, Montaron?~
+@2    = ~Devo ammettere che mi sorprendi. Cucinare non è un talento che avrei associato a qualcuno del tuo temperamento.~
+@3    = ~Bene, splendido lavoro. Continua così!~
+@4    = ~È lo spezzatino di "qualunque cosa abbiamo catturato di recente", lo stesso di sempre.~
+@5    = ~Devo ammettere che mi sorprendi. Cucinare non è un talento che avrei associato a qualcuno del tuo temperamento.~
+@6    = ~Mi piace mangiare, e non mi fido di nessun'altro quando si tratta della mia pancia, tutto qui.~
+@7    = ~Ah, hai paura che uno di noi faccia scivolare qualcosa nella tua porzione?~
+@8    = ~Mmm. Riservandoti tutti i diritti sulla distribuzione di belladonna, suppongo?~
+@9    = ~Puah! Come se potessi capirne la differenza.~
+@10   = ~'Uno di noi' mangerebbe il suo stesso veleno allora, visto che la pentola è una e ognuno si serve da solo. Ma comunque, non le ho tolto gli occhi di dosso un solo attimo. Niente di cui preoccuparsi.~
+@11   = ~Quindi hai delle conoscenze sui veleni, dopotutto.~
+@12   = ~Dato che c'è una unica pentola per cucinare ed è tutto condiviso, anch'io ne soffrirei gli effetti, la qual cosa non mi farebbe impazzire. Ma comunque, se avessi in mente qualcosa del genere, te ne accorgeresti molto prima di cena.~
+@13   = ~Se non le avessi, sarei un pazzo... o morto, più facilmente. Ma non devi preoccuparti. Nessuno dei membri di questo gruppo merita le mie 'cure'.~
+@14   = ~Sembra che non ne approvi l'uso.~
+@15   = ~Beh, se non ci fosse *nessun* altro modo... ma non ho mai conosciuto gente usarli regolarmente, senza diventare trascurati nelle loro abitudini e poco attenti alla loro conservazione.~
+//Yeslick
+@16   = ~Puah! Il rifugio per cuccioli smarriti è da quella parte, non da questa.~
+//Xan
+@17   = ~Ecco, hai visto, faccia triste? Sembra che i nostri patetici sforzi non siano stati poi così inutili, eh? Mulahey è morto.~
+//Yeslick
+@18   = ~Ma quel mago maledetto rimane comunque *da questa*, quindi non ho scelta.~
+@19   = ~Sarai senz'altro una bella palla di bontà …~
+@20   = ~Non proverò rancore per le tue parole, avendomi trovato in questi tempi e modi – per questa volta. Ma le profondità sono casa mia. Trarrai beneficio dalle mie conoscenze.~
+@21   = ~E questo tuo mago ha avuto quanto tempo per posizionare guardie e piazzare trappole di cui tu non sai assolutamente nulla?~
+@22   = ~Abbastanza vero. Ma ho ancora qualche potere di guarigione, grazie a Clangeddin. Oserei dire di poter rattoppare entrambi dopo una scaramuccia o due, meglio di niente non credi?~
+@23   = ~Ah. Mi hai proprio convinto… ma forse largo come sei potresti almeno incassare qualche freccia diretta a me.~
+//Ajantis
+@24   = ~Ehi, omino di latta, ti spiacerebbe rimanere all'ombra? Il riflesso sulla tua armatura mi brucia gli occhi.~
+@25   = ~Quello che vedi non è un riflesso, ladro, ma la fiamma del mio fuoco interiore quando divampa all'avvicinarsi del Male.~
+@26   = ~E tu ti aspetti che venga illuminato dalle tue parole?~
+@27   = ~No. Aspiro ad essere un tale faro ma non posso, senza vanità, pretendere di voler raggiungere così tanto.~
+@28   = ~Capisco. Da lattina aspiri a diventare un candelabro, fai passi da gigante...~
+@29   = ~Nell'oscurità che il Male pone sulla terra, una fonte di luce non sarà mai disprezzata. Ricordalo bene, halfling.~
+@30   = ~Se dovessi ricordare la metà delle sciocchezze che dici, la mia testa sarebbe così grossa da poterla usare come ariete per abbattere le porte chiuse.~
+//Alora
+@31   = ~Eh eh, passerotta. Non hai un nido in cui volare questa sera?~
+@32   = ~Certo certino che ce l'ho. Diversi, in effetti.~
+@33   = ~Parte uccello notturno, parte cuculo, eh?~
+@34   = ~Veramente mi vedo più come una gattina che qualsiasi uccello.~
+@35   = ~Tieni a mente cosa dicono sulla curiosità dei gatti allora.~
+@36   = ~A proposito di curiosità, visto che *tu* ci sei insieme da più tempo, che mi dici di <CHARNAME>?~
+@37   = ~Sì, è da un po' in effetti. Non è malaccio, tutto considerato.~
+@38   = ~Ooooh! Raccontami TUTTO. Avete visto molte difficoltà? Molti... pericoli?~
+@39   = ~Eh, ci è costato parecchio. Specie ad alcuni di noi.~
+@40   = ~Vuoi dire che gli altri sono stati troppo poveri per continuare?!~
+@41   = ~Di una gattina avrai forse l'agilità ma non certo l'intelligenza. Intendo dire che gli altri sono morti.~
+@42   = ~Oh. Io... mi dispiace.~
+//Branwen
+@43   = ~Ohi, ragazzona. Hai un momento del tuo tempo?~
+@44   = ~Non sprecare fiato con me, codardo.~
+@45   = ~Codardo? Questa mi è nuova... e a cosa devo questa tua convinzione?~
+@46   = ~Ti ho visto aggirare i nostri nemici e pugnalarli ignari alle loro spalle. Tempus vede tutti i cuori di una battaglia e conosce il valore di ciascuno di essi.~
+@47   = ~Se vedesse chiaramente ciò che mi riguarda, vedrebbe qualcuno a cui interessa solo sopravvivere. Ma se credi che il tuo dio sia davvero così onnisciente, perché *tu* sprechi il tuo tempo guardando *me* invece di farti gli affari tuoi?~
+@48   = ~I miei affari in battaglia vengono svolti efficientemente dalle mie braccia guidate da Tempus lasciandomi occhi liberi di vedere, ma... no. Nessuno come te potrebbe capire.~
+@49   = ~Oh, non posso capire affatto, sicuro. Come non posso capire che i tizi a cui ho piantato una lama nella schiena nell'ultima battaglia non stanno affatto peggio di quelli a cui *tu* hai fracassato il cranio. ~
+//Coran
+@50   = ~Quindi, sei una specie di 'arciladro', eh?~
+@51   = ~Sono un arciere di grande abilità *e* un ladro, se questo è ciò che intendi.~
+@52   = ~Hai capito male, allora. Intendo dire che sono 'arcisicuro' che con la storia dell'arco puoi scappartene via quando ti pare stando nelle retrovie.~
+@53   = ~È questo il tuo modo di salutare tutti i nuovi compagni? Non mi stupisce che questa compagnia sia così... piccola.~
+@54   = ~Oh ma con la tua boccaccia adesso è molto più grande. E con le tue viscere, ma quelle vedremo. Dovrai fare di più che lanciare frecce a caso nel nascondiglio di quelle tue viverne per dimostrare qualcosa qui.~
+@55   = ~Allora non devi preoccuparti, perché perforeranno il cuore di quelle bestie, non temere al riguardo.~
+@56   = ~Sì. Fintanto che ciò accadrà prima che il resto di noi venga squartato in prima linea per la convenienza di 'vostrarceria'~
+@57   = ~Se è il combattimento corpo a corpo che preferisci, non mi tirerò indietro, halfling.~
+@58   = ~Se davvero lo facessi, ti troveresti un pezzo indietro, uno davanti, e altri sparpagliati in giro prima che tu abbia potuto capire cosa stesse succedendo.~
+@59   = ~Vedremo *se* la tua lama si rivelerà assetata di sangue come la tua lingua.~
+@60   = ~Lo vedrai senz'altro.~
+//Dynaheir
+@61   = ~Ehi, bella mora, hai un momento?~
+@62   = ~Il mio nome è Dynaheir, halfling. Cosa vuoi?~
+@63   = ~Quel tuo Minsc-aldo-per-nulla. Finirà per farci ammazzare tutti, caricando a testa bassa senza nemmeno guardare. Per non parlare delle sue fini abilità tattiche. Puah…~
+@64   = ~Ciò è insito nella sua natura. Minsc è un grande guerriero berserker e... il suo giudizio... è carente, come hai potuto constatare.~
+@65   = ~Grazie tante. Non sto discutendo su quanto sia dannoso, mi chiedo solo se non potresti accorciare un po' il suo guinzaglio, tutto qui.~
+@66   = ~Minsc si getta su uno gnoll e si fa infilzare, poi <CHARNAME>, per eroica idiozia, ci si infilza dietro, e a noi non resta che domandarci se l'ilarità della scena sarebbe sufficiente a permetterci di scappare!~
+@67   = ~Stai suggerendo che dovrei imbrigliare l'onore e deformare il dovere di un così nobile spirito guerriero?~
+@68   = ~Sì. L'onore e il dovere sono utili, ma nel momento in cui smettono di servire, li deformi, non hai bisogno di un halfling dalla dubbia moralità, per capirlo.~
+@69   = ~Inoltre, il suo dovere è proteggere *te*, non è vero? E da morto gli risulterebbe complicato, a prescindere da quello che potrebbe pensare Xzar al riguardo.~
+@70   = ~Filtrato dalla tua immoralità, il tuo consiglio pratico merita comunque considerazione. E ti ringrazio per il suggerimento.~
+//Edwin
+@71   = ~Traa-laaa-la-la-la-laaaa-laa-la-la-la-laaa...~
+@72   = ~Chiaramente non sei un bardo. Pertanto, la tua patetica esibizione, nelle mie vicinanze, di quella goliardica melodia implica un'evidente critica alla mia persona. Attenzione, non mi piacciono gli scherzi.~
+@73   = ~Quante storie per una innocente canzoncina … Non è che tu sia un critico musicale nel tuo tempo libero.~
+@74   = ~La tua codarda indifferenza non riesce a ingannarmi, ladro. Sparisci, prima che la mia magia non ti riduca ai tuoi componenti costitutivi.~
+@75   = ~Parole grosse fin quando sei tra 'amici'. Mi piacerebbe vederti diventare così duro con i nostri nemici qualche volta.~
+@76   = ~Qualsiasi reticenza dimostrata finora è stata dovuta al rispetto della *tua* sicurezza, considerata la tua naturale predisposizione a posizionarti perfettamente alle loro spalle. Poiché tale mia preoccupazione è stata chiaramente fuori luogo, potrai, seppur brevemente, ammirare l'ira senza restrizioni di un grande mago durante il prossimo scontro. *Questo halfling oltre a preparare la cena vuole chiaramente farne parte*~
+@77   = ~Quando questo "grande mago" dovesse arrivare, fammi un fischio, mi piacerebbe conoscerne uno.~
+//Edwin 2
+@78   = ~Devo proprio dirtelo, Thayviano: hai coraggio da vendere a indossare quella tunica.~
+@79   = ~Certamente. Simboleggia il nostro disprezzo verso gli inferiori che devono affidarsi a dei travestimenti.~
+@80   = ~Ah, ma a me piace. Così sei un bersaglio splendido.~
+@81   = ~Eh? Se pensi...~
+@82   = ~Io non penso, lo so. Le tue vesti rosse attirano le frecce come lo sterco di vacca attira le mosche... ma distraggono l'attenzione del resto di noi, quindi come ho detto, tienitele strette!~
+@83   = ~Il mio repertorio arcano è più che adeguato alla protezione della mia persona, così come alla distruzione di qualunque minaccia.~
+@84   = ~Ancora meglio, se significa che puoi fare da bersaglio più di una volta.~
+//Eldoth
+@85   = ~E così, <CHARNAME> ha il suo uccello canterino. Ed uno che vuole *entrare* in una gabbia dorata, non di meno.~
+@86   = ~L'umorismo della tua prosa non nasconde lo scherno del tuo tono. Andiamo, dovremmo essere tutti amici qui. Cosa ti preoccupa?~
+@87   = ~Non sei il primo tizio che ho incontrato a cui piaceva svuotare le tasche con le parole più che con l'abilità di mano.~
+@88   = ~Dubito che tu sia nato così innocente da lasciarti ingannare da semplici lusinghe. E neppure, e parlo francamente amico mio, sembra che tu nutrisca la benché minima riluttanza nell'accettare monete dalla provenienza non propriamente chiara, se offerte.~
+@89   = ~No, hai ragione. Ma sai questi tizi di cui ho parlato, avevano anche loro dei buoni piani, solo che i buoni piani non funzionano mai come credi tu.~
+@90   = ~Immagino che tutti questi 'tizi' di cui parli, non avessero il fondamentale *intuito* d'improvvisazione indispensabile, nel caso qualcosa dovesse andare storto.~
+@91   = ~In verità, mi sembra una valutazione ragionevole. La propria pelle *vale* più di tutto l'oro di Faerun – e questo vale per tutti credo.~
+@92   = ~Così pensavano anche *loro*, sai. Hanno preso l'oro e la pelle e le hanno nascoste ben bene. Ma alla fine sai dove hanno sbagliato? Si sono fatti scoprire...~
+@93   = ~Allora eviterò il loro errore e mi impegnerò energicamente al tuo fianco. La probabilità che sorga tale necessità, tuttavia, è molto piccola. Semplicemente non è *quel* tipo di lavoro.~
+@94   = ~Uh-uh. Esattamente le loro parole.~
+//Faldorn
+@95   = ~Puah! Puoi anche smetterla con tutto quel baccano. Hai già fatto scappare tutta la fauna commestibile a distanza di chilometri.~
+@96   = ~La generosità della natura non è limitata a ciò che ha zampe o ali. Questa è la lezione che imparerai oggi.~
+@97   = ~Dillo al mio stomaco, o a quello di Xzar o di <CHARNAME>, quando non avranno carne per cena.~
+@98   = ~Grrr! Forse se si preoccupassero meno dei loro pasti, sarebbero più aperti al vero spirito della natura.~
+@99   = ~Il massimo spirito che mi evoca lo spettacolo della natura comporta il mangiare senza essere mangiato.~
+@100  = ~La tua meschinità profana qualunque cosa tocchi. Dovrei considerare bene il mio stesso percorso.~
+//Garrick
+@101  = ~Ragazzo, sembri più felice di una cozza su uno scoglio del mare.~
+@102  = ~E perché non dovrei? Sto viaggiando di nuovo, dopo tutto. La causa è degna, ed è bello aver scritto "terminato" sul mio contratto con Silke, devo ammetterlo.~
+@103  = ~Mmm-mmm. Volevo parlare proprio di quello. Sembravi il suo braccio destro, ma non hai alzato un dito quando ne ha avuto bisogno.~
+@104  = ~Era vile, crudele, capricciosa, totalmente egocentrica e indicibilmente malvagia. Eppure, in qualche modo estremamente convincente nell'offrire incentivi che prevalgono sul comune buon senso.~
+@105  = ~Spero che non ti metterai a meditare su di noi allo stesso modo nel prossimo combattimento, menefreghello.~
+@106  = ~Cosa? Ma no... tu e <CHARNAME> non avete nulla in comune con lei… sicuramente… no?~
+//Imoen
+@107  = ~Ehi, ragazzina, passami il coltello grosso uncinato, svelta.~
+@108  = ~Montaron... cosa stai facendo a quelle povere creature?~
+@109  = ~Ehi, se vuoi lo stufato di scoiattolo per cena, devi farli sanguinare per bene, addensa il brodo.~
+@110  = ~Ma sono ancora vivi!~
+@111  = ~*Ovviamente* sono ancora vivi. Smettono di sanguinare se muoiono, sai?~
+@112  = ~Aaah! Non ne mangerò mai più nemmeno un boccone!~
+@113  = ~Ottimo, ne resterà di più per noi, angioletto.~
+//Jaheira
+@114  = ~Ehi! Ma che diavolo? Oh... dannato roditore!~
+@115  = ~I tassi non sono roditori.~
+@116  = ~Sì. Si accucciano e vivono in buche. Potrebbero essere roditori... e dovrebbero esserlo, comunque.~
+@117  = ~Se la natura permettesse eccezioni individuali ai tuoi criteri...~
+@118  = ~... Sarei un topo o una puzzola o qualcosa del genere, lo so. Potremmo anche essere sposati, sai? Già mi insulti senza motivo.~
+@119  = ~Normalmente i miei confronti con gli Zhentarim, implicano un combattimento. Il solo insulto è un segno di grande moderazione.~
+@120  = ~Se riusciremo a liberarci di questa situazione col ferro, terrò bene a mente la tua "moderazione", non ti preoccupare.~
+//Kagain
+@121  = ~Ehi, nano... non trovi mai il tuo stile di combattimento un po' noioso?~
+@122  = ~Solo se non trovo oro all'altra estremità. Dove vuoi arrivare?~
+@123  = ~Stavo pensando che magari anche solo *per una volta* potresti provare qualcos'altro a parte trovare il nemico più vicino e tagliarlo a fettine.~
+@124  = ~I tagli di cui mi occupo io fanno spillare il sangue dei nostri nemici. E danno loro uno spettacolo di cui preoccuparsi mentre tu ti intrufoli alle loro spalle per decidere dove aprirgli un secondo buco nel sedere.~
+@125  = ~Non sto dicendo che non mi va bene. Dovresti solo avere più di una carta nella tua manica. Io la chiamo 'stragedia', ovvero una strategia che evita una tragedia.~
+@126  = ~A questo proposito sarebbe senz'altro un'immane 'stragedia' se una di queste mattine ti dovessi svegliare con tutti gli arti staccati a causa del tuo insopportabile russare.~
+@127  = ~Ti do il permesso di provarci. Dicono che solo i bambini si sveglino col sorriso ma tu potresti ritrovarti con uno larghissimo proprio sotto il mento.~
+//Khalid
+@128  = ~Ehi, torci-lingua, hai mai caricato un nemico come un uomo? O la mogliettina non approverebbe?~
+@129  = ~S-semplifica il tuo compito in quanto sai d-dove sarà la parte posteriore della formazione nemica. Ho notato c-che è comunque dove p-preferisci affrontare le b-battaglie.~
+@130  = ~Dipende. A volte preferisco il corpo a corpo, come scoprirai un bel giorno di questi.~
+@131  = ~Attendo con p-piacere. Ma per ora, d-dobbiamo concentrarci congiuntamente sulla c-carenza di ferro. Posso supporre che tu volessi p-parlare con me di qualcos'altro a parte q-questi inutili insulti?~
+@132  = ~Sì, ero curioso di sapere se avessi una sola nozione di tattica sotto quel vaso da notte che spacci per elmetto. A dire il vero, non mi sembra.~
+@133  = ~Se preferisci caricare c-ciecamente in avanti, piuttosto che v-valutare i tuoi nemici, non avrò paura delle *tue* tattiche q-quando arriverà il bel giorno di c-cui parlavi.~
+@134  = ~Eh, eh, quella tua mogliettina... se potessimo girare quella lingua contro i nostri nemici, saremmo a cavallo.~
+@135  = ~E io mi r-rammarico di non p-poterli affliggere con le f-follie mentali del t-tuo mago.~
+@136  = ~Ah forse, ma io non sono sposato con il verme dal cervello di pelliccia, ti pare?~
+@137  = ~No. E nemmeno hai la c-carità per ignorare diatribe s-superficiali per amore del piacere della c-compagnia di un altro.~
+@138  = ~Puah! La carità è ciò su cui vivono i mendicanti.~
+@139  = ~Allora siamo tutti m-mendicanti, perché la nostra esistenza d-dipende dalla carità degli dei.~
+@140  = ~Accidenti, sono circondato da svitati!~
+//Kivan
+@141  = ~Ohi, conosci i tuoi boschi, vero?~
+@142  = ~Conosco i boschi, ma non conosco questo in particolare più di quanto lo conosca tu.~
+@143  = ~Dannazione! Suppongo quindi che tu non abbia nemmeno una ricetta per della birra artigianale da estratti di radici, eh?~
+@144  = ~No. In effetti, non ho mai sentito parlare di una tale libagione.~
+@145  = ~Neanche io. Speravo solo che *tu* avresti potuto, ho la gola secca.~
+@146  = ~Ho osservato abbastanza di ciò che ci circonda da notare un ruscello fresco e limpido nelle vicinanze. Posso guidarti fino ad esso.~
+@147  = ~Puah! Ho detto "secca", non "assetata".~
+@148  = ~Allora ti consiglio di consolarti con il pensiero di quanto sarà buona la tua birra al nostro ritorno in una regione più popolosa.~
+@149  = ~Sì, *se* faremo ritorno.~
+//Minsc
+@150  = ~Arrrgh! Guarda dove metti i piedi, gigantone!~
+@151  = ~Minsc ti chiede scusa. Stavo guardando lontano e non ti ho visto. Boo l'ha fatto, ma non ha avuto il tempo di avvertirmi.~
+@152  = ~Beh, di' al tuo criceto di essere più veloce o alla prossima cena, il piatto principale sarà lui.~
+@153  = ~Ah, ah... cosa? Boo dice di dirti di non ripetere queste cose. Non crede che tu stia scherzando.~
+@154  = ~Io *non* stavo scherzando. Ho capito che la colpa era dei tuoi piedi, ma il tuo criceto ha senz'altro un sapore migliore.~
+@155  = ~Senza dubbio. Minsc ha calpestato così spesso il Male, che i suoi piedi sono piuttosto puzzolenti e totalmente poco appetitosi.~
+@156  = ~Ghaaah! Perfetto Boo è al sicuro. Mi avete fatto passare l'appetito.~
+//Quayle
+@157  = ~Quindi affermi di essere intelligente in quella tua testa...~
+@158  = ~Chiedo scusa, non *affermo*. È un fatto inattaccabile!~
+@159  = ~... e che hai un "collegamento" con qualche dio o altro.~
+@160  = ~La mia fede mi sostiene quando nemmeno la ragione può farlo. Non che il mio ragionamento sia mai imperfetto, d'altronde.~
+@161  = ~Io sono intelligente con le mani.~
+@162  = ~Cosa!? Confronti la semplice destrezza fisica con i panorami aperti a un intelletto e una fede senza pari come quelli che possiedo? Che dire, anche nella sfera di base della praticità...~
+@163  = ~Ecco. Riprenditi la tua fionda.~
+@164  = ~La mia fionda? Cosa intendi? Non l'ho mica persa… oh, capisco. Sapevo che l'avevi presa tu.~
+@165  = ~Quindi immagino sapessi anche di queste pietre preziose qui.~
+@166  = ~Beh, te le avrei lasciate portare per un po', ma immagino di rivolerle indietro ora.~
+@167  = ~Quindi, mi sembra di poter dire che noi due, saremmo abbastanza ben preparati per tutto ciò che verrà.~
+@168  = ~Capisco. E cosa direbbero i tuoi datori di lavoro di questa possibile collaborazione?~
+@169  = ~Datori di lavoro è una parola grossa. Ma non credo avrebbero da ridire.~
+@170  = ~Mmm. È chiaro a uno saggio quanto me che potremmo fare molto peggio che esercitare cautela l'uno per l'altro.~
+//Safana
+@171  = ~Guarda, truffatrice. Non mi dispiace che tu ti nasconda al primo accenno di pericolo. Quantomeno ti levi dai piedi rendendo il lavoro più semplice.~
+@172  = ~Non considero il tuo...~
+@173  = ~... e non mi dispiace sentirti sbraitare ordini a destra e sinistra. I nostri nemici potrebbero pensare tu sia importante e caricare te.~
+@174  = ~Io *non* sbraito...~
+@175  = ~... e non mi dispiace nemmeno vederti intascare la maggior parte del bottino. Meno peso da trasportare fino al momento di incassare.~
+@176  = ~Hai il *coraggio* di...~
+@177  = ~... ma sono talmente STANCO del tuo inutile chiacchiericcio, che dimenticherò tutti i benefici di cui sopra e passerò a zittirti in maniera PERMANENTE se sentirò anche solo UNA parola in più nella mia direzione. Mi sono spiegato?!~
+@178  = ~<CHARNAME>, tesoro, se devi permettere a questo 'coso' di girare senza guinzaglio, potresti *per favore* mettergli almeno una museruola? Lasciarlo sbavare così liberamente... non è salutare.~
+//Shar-Teel
+@179  = ~Ehi, guarda dove stai andando!~
+@180  = ~Evita il mio cammino, maschio. Faccio lunghi passi.~
+@181  = ~Questa faccenda del "maschio" ti ha già bloccato con noi. Dovresti aver imparato la lezione.~
+@182  = ~Ho imparato solo che la mia valutazione originale era troppo gentile. Tu, per esempio, una volta ti avrei ignorato, ma è persino più offensivo che tu debba compensare la tua mezza taglia raddoppiando la tipica arroganza da maschio.~
+@183  = ~Devo tenere il passo coi miei simili, no?~
+@184  = ~E questo cosa dovrebbe significare?~
+@185  = ~Lo hai detto tu stesso. Sono di mezza taglia, quindi devo 'spacconare' due volte più forte, o verrei preso a calci quattro volte di più. E se accadesse dovrei ucciderli tutti e alla lunga non sarebbe ragionevole.~
+@186  = ~Ti aspetti davvero che io creda che la tua ripugnante aggressività verbale di superiorità sia frutto di un *ragionamento*?~
+@187  = ~Per i Nove Inferi, donna! Sono un ladro per scelta. Ombra è il mio secondo nome, e questo significa NON essere notato. Ma ho bisogno di armi per sopravvivere anche quando non lavoro, sai?~
+@188  = ~Mmm. Sembra che tu abbia raggiunto un minimo di consapevolezza di te stesso... Ciò non toglie che il tuo cinico sfruttamento dei tuoi tratti maschili ti renda ancora più repellente.~
+//Skie
+@189  = ~Incredibile! Un altro dilettante.~
+@190  = ~Non avrei mai pensato che la compagnia di altri ladri ti avrebbe disturbato.~
+@191  = ~Se non possono fare nient'altro, come richiesto dai nostri compiti, allora sì, lo fa.~
+@192  = ~Non troverai Eldoth o me stessa meno pronti o intraprendenti degli altri tuoi compagni.~
+@193  = ~Se pensi di affascinare il Trono di ferro e far rivelare i loro segreti facendogli gli occhi dolci potresti avere ragione. Ma io non credo siano così fessi. Anche se ripensandoci potrebbero abbandonare la città per non avere a che fare con te.~
+@194  = ~Non sai nulla dell'amore! Di due cuori, due anime sintonizzate in perfetta armonia...~
+@195  = ~Sì, sì, sì, come no, due cuori e una capanna... di monete. Se fossi in te, chiuderei il borsello e ci dormirei sopra la notte... sai l'amore sarà cieco ma un ladro di mia conosccenza ci vede benissimo.~
+//Tiax
+@196  = ~So che mi pentirò di avertelo chiesto, ma se tutti *non* ti dovessero servire, cosa faresti?~
+@197  = ~Non ci sarà scelta. Solo per sua volontà, Tiax decreterà la servitù totale. Nessuno potrà fare altro che obbedire.~
+@198  = ~Avrai intorno un sacco di gente, allora. Cosa farai quando "Tutti" moriranno di fame e inizieranno a puzzare?~
+@199  = ~Quelli che periranno saranno i deboli! Saranno spazzati via da Tutti quelli che verranno dopo.~
+@200  = ~Quindi ci sono due tipi di "Tutti"? O magari alcuni ritardatari vivono troppo lontano e non sono così veloci a piedi?~
+@201  = ~Deridi pure! Ma a Tiax è stato mostrato! A Tiax è stato PROMESSO!!!~
+@202  = ~Verificherei accuratamente i riferimenti al riguardo. Non sembra che tu li abbia valutati "Tutti" con la dovuta attenzione.~
+//Viconia
+@203  = ~Uh-oh. Cosa c'è che non va adesso?~
+@204  = ~Perché pensi che ci sia qualcosa non va?~
+@205  = ~Stavi per dire qualcosa. Non lo fai mai, a meno che non sia per lamentarti di quanto fossi potente e rispettata prima e ora non lo sia più.~
+@206  = ~I miei pensieri e la mia storia non devono preoccuparti, halfling.~
+@207  = ~Concordo. Ed è il motivo per cui preferirei non ce ne parlassi in continuazione.~
+@208  = ~Spero tu possa rimanere bloccato un giorno, da solo, nel Sottosuolo. Mi piacerebbe vedere di quante poche parole faresti uso in una situazione come quella.~
+@209  = ~Facile. "Da che parte è l'uscita", sarebbero le uniche parole che mi sentiresti dire.~
+@210  = ~E saresti subito accontentato, coi fatti più che con le parole, sulla tua uscita. Con una tomba.~
+@211  = ~Forse. Tuttavia, non sarei l'unico a doverne avere bisogno d'una.~
+//Xan
+@212  = ~È solo un altro passo verso l'inevitabile in questa mia missione condannata. *sospira* Mulahey non è certo la fonte della carenza di ferro. Non so se sarò in grado di vivere fino a domani, figuriamoci per vedere chi c'è dietro tutto questo.~
+@213  = ~Tornatene in quella tua caverna, allora. Non credo ci metteresti molto a morire e infestarla. Potresti diventare un'attrazione turistica.~
+@214  = ~Dovrebbe essere una minaccia? Mmm, non importa. Nella migliore delle ipotesi è debole. Per lo meno, vorrei voler sentire di nuovo il calore del sole sulla mia faccia prima che qualcosa vada storto.~
+@215  = ~Bene, se hai deciso di non tornare a strisciare nel tuo buco da topo, perché non tieni i tuoi occhietti aperti per individuare altre di queste creature mentre controllo i cadaveri?~
+@216  = ~Se controllare cadaveri rende la tua esistenza più tollerabile, sicuramente...~
+

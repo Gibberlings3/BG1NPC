@@ -1,0 +1,38 @@
+// x#kiint.tra: @113 - @118
+@1  = ~Ho bisogno di un momento per dire una preghiera a Shevarash. Sembra che il mio nemico giurato sia finalmente a portata di freccia.~
+@2  = ~Procedi rapidamente, per non farci scoprire.~
+@3  = ~Certo, elfo. Unirò la mia voce alla tua per il successo della nostra battaglia contro i briganti.~
+@4  = ~Mi dispiace, Kivan, preferirei che ci muovessimo rapidamente. Puoi pregare tutto quello che vuoi, dopo che abbiamo finito.~
+@5  = ~Mio signore Shevarash, eccomi qui, sul suolo che la bestia che ha ucciso la mia amata calpesta ancora. Non c'è desiderio più grande nel mio cuore che bagnarlo con il suo sangue nero. Chiedo che la fermezza del mio braccio si abbini alla fermezza della mia anima. Chiedo l'adempimento del mio voto, chiedo il colpo che farà cadere il mio nemico. Ti chiedo di darmi forza per combattere e forza per proteggere coloro che combattono con me.~
+@6  = ~Capisco la tua necessità. Starò in silenzio. Lasce che le mie frecce cantino la mia preghiera per me.~
+
+// x#kiint.tra: @119, @135, @136, @137
+@7  = ~Ricordi la mia Deheriana, bestia?~
+@8  = ~Ora, non è forse il nostro morto che cammina? E con una compagnia di patetici sciocchi come lui, nientemeno.~
+@9  = ~Lascia fuori i miei amici, questo è tra te e me. Oggi è il giorno della tua morte, Tazok!~
+@10 = ~Oh, la tua voce stridente mi fa rabbrividire! Hai assillato i miei soldati abbastanza a lungo, feccia! Facciamola finita e questa volta definitivamente.~
+
+// x#kiint.tra: @130, @120, @132
+@11  = ~Uccideteli! Sono atteso nelle miniere e non ho tempo per questa merda!~
+@12  = ~NO! Resta e combatti, se non sei un codardo... Ma cosa mi aspettavo? Tazok è un codardo, perché chiunque torturi innocenti e indifesi è un codardo. Questa battaglia è finita, ma la guerra no, Tazok! Ti troverò!~
+@13  = ~La testa di quell'elfo deve ornare il palo davanti alla mia tenda!~
+
+// x#kiint.tra: @3, @4, @5
+@14   = ~Tazok! Non hai nessun posto dove fuggire ora. Il mio voto sarà finalmente adempiuto. Deheriana, melamina, quest'ora di sangue è nostra!~
+@15   = ~Ah. La mia piccola combriccola avrà una testa di elfo con cui giocare stasera!~
+@16   = ~Ti getterò nell'Abisso a cui appartieni!~
+
+// x#kiint.tra: @127
+@20  = ~Deheriana... sei stata vendicata, mela en'coiamin. Shevarash! La tua volontà è stata fatta!~
+
+// Journal entries
+// x#kiint.tra: @134, BGEE:#27470, @133
+@101  = ~Tazok ha riconosciuto Kivan
+
+Tazok ha riconosciuto Kivan e il nostro piano per infiltrarsi nel campo del bandito è fallito.~
+@102  = ~Una base nascosta?
+
+Tazok ha in programma di visitare il sito di una miniera, dove dovrebbe riferire al vero leader dei banditi.~
+@103  = ~Kivan e Tazok
+
+Non mi sorprende che il mio compagno Kivan sia stato riconosciuto da Tazok, ma non ha avuto la possibilità di infilzare quell'orco. Apparentemente la carogna era troppo occupata per affrontare un'elfo pazzo di vendetta. Tazok sta viaggiando verso un sito minerario che potrebbe essere la vera base di chiunque controlli i banditi.~

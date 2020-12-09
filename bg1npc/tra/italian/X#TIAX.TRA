@@ -1,0 +1,366 @@
+@0    = ~Questo gruppo si muove troppo lentamente! Tiax vorrebbe dominare il mondo in QUESTA vita, eppure tutti i suoi schiavi hanno l'ossessione di sconfiggere un piccolo gruppo mercantile! Tiax ha maggiori preoccupazioni di cui occuparsi che un grasso nobile ottenga la sua spedizione di spezie Maztican in tempo!~
+@1    = ~Non preoccuparti, Tiax. Dominerai il mondo nei tempi previsti, te lo assicuro.~
+@2    = ~Tiax, non puoi dominare il mondo. Dovresti saperlo ormai. E non siamo i tuoi schiavi.~
+@3    = ~Il Trono di Ferro è coinvolto in qualcosa di più che mere spezie, Tiax...~
+@4    = ~Smetti di lamentarti. Sei qui perché sei utile; smetti di esserlo, e ti sbudello come un pesce.~
+@5    = ~Tiax suppone che tu abbia ragione. A malapena Cyric stesso può ritardare il destino di Tiax! Se tutti si muovono al ritmo delle lumache, deve essere perché il destino di Tiax è più vicino che mai e Cyric non vede la necessità di correre! In marcia, lacchè, per la gloria di Tiax!~
+@6    = ~Osi negare la volontà di Tiax!?! Tiax non capirà mai perché Cyric abbia ritenuto necessario legarlo con ottusi e sciocchi che non riescono nemmeno a capire che Tiax è DESTINATO a governare! Se non fossero stati inviati divinamente da Cyric per aiutare la sua conquista del mondo, Tiax avrebbe cominciato a chiedersi se fosse con gli schiavi giusti!~
+@7    = ~Come ho appena detto, NON siamo schiavi. Smetti di chiamarci così.~
+@8    = ~*sospirando* Come ti pare. Arriveremo al tuo "dominio del mondo", ma non ora.~
+@9    = ~Basta con le chiacchiere. Torna in linea con gli altri, o assaggerai la mia arma.~
+@10   = ~Sì, sì, Tiax lo sa. Tiax è sicuro che in qualunque cosa sia coinvolto questo gruppo è molto importante per gli insetti come te, ma il futuro Signore di Tutto ha pesci più grandi da friggere! Tiax farà come vuoi per il momento, ma quando verrà il momento, faresti meglio a mettere da parte queste piccole cose e aiutare Tiax nella sua conquista!~
+@11   = ~MINACCIARE Tiax!?! Sicuramente sei lo schiavo più morto di cervello con cui Tiax sia mai stato immischiato! Avrai una settimana di frustate quando Tiax governerà, ma per ora Tiax metterà da parte la tua follia e ti permetterà di continuare a servirlo.~
+@12   = ~Spiacente, Tiax. Il mio carattere ha preso il sopravvento. Sei troppo divertente per ucciderti.~
+@13   = ~Questo è troppo. Ne ho abbastanza della tua idiozia, insolente...~
+@14   = ~Tiax non riesce a credere alle sue orecchie! I suoi servi osano lamentarsi della loro inevitabile servitù verso il futuro sovrano di tutto!? Verrà il giorno in cui i suoi schiavi si rallegreranno di poter sacrificare le loro vite insignificanti per la sua gloria, ma per ora Tiax deve subire simili ribellioni contro il suo dominio. Verrà fatta rispettare la giusta disciplina... quando sarà il momento giusto. Ma per ora, sarete risparmiati, miei fedeli lacchè!~
+@15   = ~*sospirando* Come ti pare. Arriveremo al tuo "dominio del mondo", ma non ora.~
+@16   = ~Ti avevo avvisato di NON chiamarci schiavi. Penso che sia tempo che tu lasci questo gruppo, Tiax.~
+@17   = ~Tiax, divertente!? Sicuramente hai perso anche quel poco di senso che potresti aver mai avuto, ma Tiax apprezza che i suoi fedeli lacchè non lo abbiano abbandonato. In marcia! Per la gloria di Tiax!~
+@18   = ~Cosa?! Bricconieri da galera! Tiax il grande non può tollerare di essere messo da parte! Egli ascenderà senza le tue insipide chiacchiere! Il Grande Tiax, tradito da tutti i lati da coloro che cercano di minare il suo regno imminente, mette da parte i rifiuti che una volta chiamava suoi schiavi! Stolti insensati! Respirate profondamente e riempite i vostri polmoni sfortunati con le arie salate del vostro triste destino!~
+@19   = ~Sì, sì, Tiax che tutto vede e tutto pensa, suppone che la sua partenza sarebbe la cosa migliore. Deve finalizzare le sue strategie e consultarsi in segreto con Cyric. Ovviamente incontrerai di nuovo il Grande Tiax, a quel punto farò la mia grande ascensione e ti nominerò al tuo legittimo posto come frustatore di schiavi e infedeli.~
+//PG Malvagio
+@20   = ~Tiax ha notato la tua pretesa di dirigere questo gruppo, <CHARNAME>, e ti ha permesso di continuare, perché lo diverte. La meschina presunzione degli schiavizzati aggrada sia Cyric che il suo favorito, e tu mostri l'illuminazione nella tua volontà di fare qualsiasi cosa per servire gli interessi di Tiax, non importa quanto possa essere orribile o vile! Dal momento che mostri tale abilità nel compito che Tiax ti ha assegnato, quando Tiax alla fine governerà su tutto forse potrebbe permetterti di diventare capo guardia del palazzo... o della sua squadra di lucidatori di stivali, qualunque dei due tu preferisca.~
+@21   = ~Ehm... grazie, Tiax. Immagino.~
+@22   = ~Quindi le mie opzioni sono il capo della tua guardia personale... o il lucida stivali? Sei davvero pazzo, vero?~
+		~Quindi le mie opzioni sono la capa della tua guardia personale... o una lucida stivali? Sei davvero pazzo, vero?~
+@23   = ~I miei metodi sono orribili e vili solo per le amebe senza cervello e senza spina dorsale. Alcuni si riferiscono a loro come "illuminati".~
+@24   = ~Ritorna in linea. Non ho tempo di chiacchierare con la carne da macello.~
+@25   = ~In marcia, mio fedele servitore! Il destino si avvicina rapidamente e quando arriverà, troverai la tua lealtà davvero ben ricompensata! I codardi e gli infedeli tremeranno davanti alla potenza del pugno di ferro di Tiax, e tu sarai lo strumento con cui i suoi nemici saranno distrutti! Ci saranno molti lamenti e denti che sbatteranno quando <CHARNAME>, Martello di Tiax, arriverà sulla scena! Ma per ora, i piedi di Tiax sono doloranti, quindi possiamo fermarci un minuto?~
+		~In marcia, mia fedele servitrice! Il destino si avvicina rapidamente e quando arriverà, troverai la tua lealtà davvero ben ricompensata! I codardi e gli infedeli tremeranno davanti alla potenza del pugno di ferro di Tiax, e tu sarai lo strumento con cui i suoi nemici saranno distrutti! Ci saranno molti lamenti e denti che sbatteranno quando <CHARNAME>, Martello di Tiax, arriverà sulla scena! Ma per ora, i piedi di Tiax sono doloranti, quindi possiamo fermarci un minuto?~
+@26   = ~Tiax è pazzo? O Tiax è forse l'unica creatura sana che conosci!? Medita su QUESTO, oh infedele! Oh, a proposito, ti sei appena guadagnato il dovere di lava-latrine per un anno, quando Tiax governerà.~
+@27   = ~Parole illuminate davvero! Non esiste male, eccetto sfidare la volontà di Tiax! Non esiste bene, a parte quello che Tiax desidera!~
+@28   = ~Cinquecento frustate al palo della frusta, quando Tiax governerà!~
+//PG Buono
+@29   = ~Tiax ha preso atto della tua pretesa di dirigere questo gruppo, <CHARNAME>, e ti ha permesso di continuare per tutto il tempo perché lo diverte. La meschina presunzione degli schiavizzati aggrada sia Cyric che il suo favorito, eppure qui la generosità di Tiax è sprecata in inutili buone azioni. Mentre Tiax si prepara ad assumere il ruolo di Maestro di Tutta la Vita e Sterminatore dei Senza Fede, tu ti impegni ad aiutare le donne anziane ad attraversare la strada e a salvare i gattini dagli alberi! Bene, Tiax ne ha avuto abbastanza! Tiax troverà nuovi schiavi più adatti! Prega che il giorno in cui incontrerai di nuovo Tiax non arrivi presto, perché quando lo farai implorerai la sua misericordia... e non ne troverai nessuna!~
+@30   = ~Ehm, Tiax...~
+@31   = ~Buon viaggio!~
+@32   = ~Ne ho abbastanza della tua meschinità, gnomo. Difenditi!~
+@33   = ~Quando i servitori di Tiax si affolleranno sotto il suo stendardo e i cieli si scuriranno con una moltitudine infinita di draghi al suo comando, ti pentirai di averlo respinto. Preparati per il giorno in cui ci incontreremo di nuovo, ma per ora Tiax ne ha abbastanza di voi deboli!~
+@34   = ~Folle imbecille! Respira profondamente e riempi i tuoi polmoni sfortunati con le arie salate del tuo triste destino!~
+//Discussione su Bhaal
+@35   = ~<CHARNAME>, Tiax ha avuto un'ulteriore rivelazione!~
+@36   = ~*sospirando* Di cosa si tratta questa volta?~
+@37   = ~Dimmi pure. È dalla tua ultima visione che non mi faccio una bella risata.~
+@38   = ~Stai zitto!~
+@39   = ~Tiax comprende la tua riluttanza ad ascoltare, perché ti fa sentire male, senza dubbio. Tiax ha riflettuto sul motivo per cui gli sia stato dato compito di seguirti, volente o nolente, appresso le tue discutibili occupazioni. Tale comportamento non rispecchierebbe la dignità dell' Eletto di Cyric! Ma ora! Ora, Tiax ha capito! Ora, Tiax ha visto...~
+@40   = ~E così *ora* parlerai. Continua, dunque.~
+@41   = ~*sospirando* Non ho tempo per tutto questo.~
+@42   = ~Tu ora deridi. Non lo farai più quando avrai sentito! Tiax ha riflettuto sul motivo per cui gli sia stato dato compito di seguirti, volente o nolente, appresso le tue discutibili occupazioni. Tale comportamento non rispecchierebbe la dignità dell' Eletto di Cyric! Ma ora! Ora, Tiax ha capito! Ora, Tiax ha visto...~
+@43   = ~No! Tiax parlerà e tu ascolterai poiché sei tra tutti maggiormente coinvolto - tranne che per il potente Tiax, ovviamente! Tiax ha riflettuto sul motivo per cui gli sia stato dato compito di seguirti, volente o nolente, appresso le tue discutibili occupazioni. Tale comportamento non rispecchierebbe la dignità dell' Eletto di Cyric! Ma ora! Ora, Tiax ha capito! Ora, Tiax ha visto...~
+		~No! Tiax parlerà e tu ascolterai poiché sei tra tutti maggiormente coinvolta - tranne che per il potente Tiax, ovviamente! Tiax ha riflettuto sul motivo per cui gli sia stato dato compito di seguirti, volente o nolente, appresso le tue discutibili occupazioni. Tale comportamento non rispecchierebbe la dignità dell' Eletto di Cyric! Ma ora! Ora, Tiax ha capito! Ora, Tiax ha visto...~
+@44   = ~Tu, <CHARNAME>, sei Progenie di Bh... colui che Tiax disprezza. È il glorioso compito di Tiax supervisionare la tua ricerca, abortire il tuo destino, e assicurare che l'ultima traccia del tuo disgustoso genitore venga sradicata!~
+@45   = ~Fantastico! Quindi da ora sarai la mia tata metafisica, giusto?~
+@46   = ~Non tollererò che nessuno nella mia compagnia mi si opponga - specialmente non per motivi così ridicoli come questo. Vattene!~
+@47   = ~Allora posso togliermi questo problema uccidendoti ora, invece che dopo.~
+@48   = ~Accidenti! Finora era stata davvero una bellissima giornata. Non vedo l'ora per il resto.~
+@49   = ~Puah! La tua debole metafora tradisce la tua mancanza di comprensione. *Questo* è il motivo per cui hai bisogno di *Tiax*! <CHARNAME>, non puoi evitare ciò che deve essere. Sei lo strumento designato da Tiax in base al quale Tiax frustrerà i disegni rozzi e sciocchi di... di LUI. Questo è il compito glorioso per il quale il meraviglioso, ricco Cyric ricompenserà Tiax con l'onnipotente ed eterno Regno su TUTTI!!!~
+@50   = ~Folle! Pensi che un dio vivente, il potente Tiax possa essere deviato dalle parole? <CHARNAME>, non puoi evitare ciò che deve essere. Sei lo strumento designato da Tiax in base al quale Tiax frustrerà i disegni rozzi e sciocchi di... di lui. Questo è il compito glorioso per il quale il meraviglioso, ricco Cyric ricompenserà Tiax con l'onnipotente ed eterno Regno su TUTTI!!!~
+@51   = ~Err... no. Non è necessaria la violenza. Non per molto tempo, ad ogni modo. Il potente Tiax si spiegherà meglio. <CHARNAME>, non puoi evitare ciò che deve essere. Sei lo strumento designato da Tiax in base al quale Tiax frustrerà i disegni rozzi e sciocchi di... di LUI. Questo è il compito glorioso per il quale il meraviglioso, ricco Cyric ricompenserà Tiax con l'onnipotente ed eterno Regno su TUTTI!!!~
+//PG Medio
+@52   = ~Tiax ha notato la tua pretesa di dirigere questo gruppo, <CHARNAME>, e ti ha permesso di continuare, perché lo diverte. La meschina presunzione degli schiavizzati aggrada sia Cyric che il suo favorito, ma ti manca il giusto entusiasmo nei tuoi doveri. Tiax richiede sangue e morte, dolore e miseria, affinché tutti possano conoscere la volontà e la disperazione di Cyric, ma tu hai dimostrato insufficiente applicazione in questo senso! Correggi il tuo atteggiamento se, invece che strappare i cuori dal petto dei suoi nemici, non vorrai ritrovarti a spalare letame quando Tiax prenderà il controllo di tutto!~
+@53   = ~Tiax comanda!~
+@54   = ~Perché vorresti che diffondessi dolore e miseria? Qual è lo scopo di tali azioni malvagie?~
+@55   = ~Quindi... esattamente cosa vuoi che faccia? Buttare giù un bambino da una scogliera?~
+@56   = ~Strappare i cuori dal petto delle persone è per dilettanti. I professionisti non vengono mai scoperti fino a quando non è troppo tardi... Ci siamo capiti, gnomo?~
+@57   = ~Allontanati da me, pazzo. Non vedi che ho in mente cose più grandi dei deliri di onnipotenza di uno gnomo delirante?~
+@58   = ~Lo scopo!? Lo SCOPO!?! Lo scopo è quello di diffondere la volontà di Cyric e fare come Tiax ti ordina! Quale scopo superiore potrebbe esserci!? Il tuo destino è fare come ordina Tiax, farlo rapidamente e farlo con un sorriso! Accettalo con gioia o con la promessa della morte! Questo è il tuo sciocco "scopo"! Tiax ti darà cinque giorni per correggere il tuo atteggiamento riguardo al tuo "scopo", o Tiax se ne andrà, col suo destino ad accompagnarlo!~
+@59   = ~*sospirando* Chi avrebbe mai potuto pensare che un megalomane chierico di Cyric sarebbe stato così spiacevole?~
+@60   = ~Ne ho abbastanza delle tue credenze grondanti di sangue, gnomo. Allontanati dalla mia vista.~
+@61   = ~Ne ho abbastanza delle tue credenze grondanti di sangue, gnomo. Difenditi!~
+@62   = ~Sarebbe un inizio! Magari dai anche fuoco a un Paladino già che ci sei, o fai a pezzi qualche donna anziana. Qualunque cosa serva per dimostrare il tuo valore a Tiax! Cyric esige sangue e crudeltà! Forniscili, o Tiax non guiderà più questo gruppo! Tiax ti concederà un po' di tempo per correggere il tuo atteggiamento. Tiax se ne andrà se Cyric non verrà saziato!~
+@63   = ~Va bene, va bene. Come ti pare.~
+@64   = ~Dato che non ho intenzione di fare qualsiasi cosa tu suggerisca, potresti anche andartene ora, Tiax.~
+@65   = ~Mmmmmmm... errrrr... ovviamente Tiax capisce! Tiax è molto saggio! Tiax lo sa bene! Errrr... Tiax ti lascerà continuare, credo. Ma niente più azioni da buoni samaritani o Tiax se ne andrà!~
+@66   = ~NIENTE è più importante della volontà di Tiax! Ti darà un avvertimento e un solo avvertimento: correggi i tuoi modi o Tiax se ne andrà! Asseconda Tiax, o Tiax andrà a trovare pedine sacrificali più adatte!~
+@67   = ~Tiax non sarà evitato! Per il momento hai il suo perdono, ma non osare sbagliare di nuovo, schiavo!~
+		~Tiax non sarà evitato! Per il momento hai il suo perdono, ma non osare sbagliare di nuovo, schiava!~
+@68   = ~Cosa?! Bricconieri da galera! Tiax il Grande ascenderà senza la tua insensata confusione! Il Grande Tiax, tradito da tutti i lati da coloro che cercano di minare la sua regola imminente, getta da parte i rifiuti che una volta chiamava suoi schiavi! Stolti insensati! Respira profondamente e riempi i tuoi polmoni sfortunati con le arie salate del tuo triste destino!~
+//Ajantis
+@69   = ~Ogni ora che passa, il momento dell'ascensione di Tiax si avvicina! Non passerà molto tempo e tutti i nemici di Tiax tremeranno alla menzione del suo nome! I suoi nemici si bagneranno nei fiumi del loro stesso sangue e tutti gli infedeli urleranno il perdono di Tiax e troveranno solo la sua ira senza fine! Lascia che Cyric possa diffondere l'oscurità del potere di Tiax ai quattro angoli di questo miserabile pianeta che un giorno Tiax rivendicherà come suo! Tutti adoreranno Tiax! Lodato sia il suo nome!~
+@70   = ~<CHARNAME>, dobbiamo parlare. Questo... Tiax... va avanti con queste fastidiose invettive da fin troppo tempo. Puzza di malvagità, proclama devozione al malvagio dio Cyric, ed è ovviamente un agente delle forze oscure.~
+@71   = ~Inoltre, mi *infastidisce a non finire*! Anche se la sua follia limita i danni che può causare, non riesco a vedere come una creatura così malvagia possa favorire la causa di Helm. Perché lo tieni qui!?~
+//Quayle
+@72   = ~Spostati, intelligentone! TIAX sta passando e non sei stato sufficientemente servile per essere autorizzato a stare vicino a lui!~
+@73   = ~Oh, non sognerei mai di ostacolare il tuo passaggio, caro il mio 'amico' dall'odore disgustoso e dal naso piccolo~
+@74   = ~Il naso di Tiax non verrà deriso! Parla ancora una volta e Tiax presenterà la tua testa al suo mazzafrusto!~
+@75   = ~Dal modo in cui ti ho visto combattere, direi che sarei più in pericolo se mi alitassi addosso piuttosto che se provassi a roteare quel giocattolo da bambini nella mia direzione. Un gibberling malato senza occhi e con tre arti mancanti avrebbe maggiori possibilità di sferrare un attacco di te, Tiax!~
+@76   = ~Tiax ne ha avuto abbastanza! L'INTELLIGENTONE MUORE!~
+//Ajantis sbotta, Minsc e Kivan possono intervenire
+@77   = ~Verme! Non prenderemo provvedimenti di questo tipo finché sarò membro di questo gruppo. È una meraviglia del mio autocontrollo che non ti abbia ancora tagliato a metà!~
+@78   = ~Boo non tollererebbe mai simili azioni! Le sue stesse orecchie gli fanno male sentendoti parlarne! Causa altro dolore al mio criceto e eserciterò su di te la mia tecnica di lancio dello gnomo!~
+@79   = ~Ti consiglio di ignorare questo sfogo, <CHARNAME>.~
+@80   = ~Silenzio, *paladino*!~
+@81   = ~Quando Tiax parla, i RATTI dovrebbero tacere!~
+@82   = ~Quando Tiax governerà il mondo, raccoglierà le lingue dei ranger. La tua sarà la prima ad essere portata a Tiax dai suoi schiavi, Kivan.~
+@83   = ~Smettete di fissarmi, deboli! Le parole di Tiax erano per il nostro finto leader, non dei buoni samaritani come voi! Ora, che ne dici, <CHARNAME>? Un'eternità di baldoria nel massacro dei nemici di Tiax, o una vita di buone azioni e un'eternità da pulisci latrine per la volontà di Tiax?~
+@84   = ~Tiax ha una proposta per te, paladino.~
+@85   = ~Non mi interessano le proposte dei pazzi. Vattene.~
+@86   = ~BAH! Mi ascolterai o soffrirai a lungo quando Tiax governerà tutto! Il percorso del falso dio Helm è contrario agli insegnamenti di Cyric. Il tuo paladino è un affronto al Sole Nero e Cyric richiede un risarcimento per una tale parodia!~
+@87   = ~In quanto tale, Tiax ti offre una scelta: puoi rinunciare al tuo cosiddetto "cavalierato", rendendo omaggio alla potenza di Cyric e al suo servitore scelto Tiax, oppure soffrire come pochi mortali hanno mai sofferto quando Tiax si impadronirà del controllo su tutti. A te la scelta!~
+@88   = ~Folle pupazzo di Cyric! Anche se la tua offerta non fosse semplicemente un sintomo della tua follia, non venderei mai il mio Dio e la mia anima al tuo malvagio maestro! Le tue pazze invettive non hanno alcun significato per me, quindi fai silenzio e pussa via come il piccolo cane randagio che sei.~
+@89   = ~Così sia! Rifiuti di rinunciare ai tuoi modi buonisti di tua spontanea volontà, pertanto rinuncerai a loro altre mille volte sull'altare di Cyric appena prima che io ti strappi quel tuo cuore bonario dal petto! Fai attenzione al giorno in cui Tiax governerà tutto nel nome di Cyric, poiché in quel giorno inizierai a implorare la sua clemenza...~
+@90   = ~Fai semplicemente *silenzio*! Per Helm, mi sto veramente stancando di te. Come ho detto, sgattaiola via da me e non parlarmi più. Non desidero avere niente a che fare con te.~
+@91   = ~Il Grande Tiax ti ordina di parlare, verme!~
+@92   = ~Lo tengo in giro perché è di aiuto al gruppo. Come dici tu, non può causare molti danni nel suo stato mentale attuale, quindi perché preoccuparsi?~
+@93   = ~Lo tengo in giro perché mi diverte. A volte le sue folli invettive sono esilaranti.~
+@94   = ~Non hai ascoltato una parola dello gnomo, Ajantis? È destinato a conquistare tutto! Ora, quale persona razionale potrebbe capirlo e *non* provare a tenersi in buoni rapporti con il futuro sovrano del mondo?~
+@95   = ~Lo tengo per lo stesso motivo per cui ti tengo, Ajantis. Ho bisogno di pedine per raggiungere i miei obiettivi, ed entrambi fate abbastanza al caso mio.~
+@96   = ~Sai, hai perfettamente ragione, Ajantis. Perché *sto* mantenendo questo piccolo odioso gnomo? Tiax! Vattene via! Sciò, sciò!~
+@97   = ~Preferirei non condividere le motivazioni che mi inducono a mantenere Tiax nel gruppo, Ajantis.~
+@98   = ~Tiax, innocuo!? BAH! Vedremo chi è innocuo quando TIAX ti colpirà per la tua infedeltà... errr, cioè, naturalmente quando governerà!~
+@99   = ~Pensi che Tiax sia un pagliaccio, qui per il tuo divertimento!? Vorresti che Tiax ballasse un po' forse, e indossasse anche un costume divertente!? Perché Cyric ha concesso a Tiax schiavi così irrispettosi, Tiax non lo saprà mai, ma si è stancato di questa impudenza! La conquista del mondo arriverà presto, e allora le risate dei suoi schiavi si trasformeranno in lacrime sull'altare sacrificale!~
+@100  = ~Mai parole di più grande saggezza sono state pronunciate! Ti sei guadagnato un posto nella guardia d'onore di Tiax, quando Tiax governerà, per la tua fede e obbedienza e avrai l'onore di baciare i piedi di Tiax ogni giorno in omaggio alla sua gloria! Tutti loderanno la potenza di Tiax, poiché solo i fedeli sopravvivranno alla sua ira!~
+		~Mai parole di più grande saggezza sono state pronunciate! Ti sei guadagnata un posto nella guardia d'onore di Tiax, quando Tiax governerà, per la tua fede e obbedienza e avrai l'onore di baciare i piedi di Tiax ogni giorno in omaggio alla sua gloria! Tutti loderanno la potenza di Tiax, poiché solo i fedeli sopravvivranno alla sua ira!~
+@101  = ~Lo schiavo di Tiax OSA riferirsi a lui come una semplice pedina!? Tiax è il RE, anche se può ancora muoversi in qualsiasi spazio gli piaccia e non dovrà mai essere controllato! Tale impudenza ti farà guadagnare l'ira di Cyric stesso, se sarai abbastanza fortunato da sopravvivere all'ira di Tiax quando governerà!~
+		~La schiava di Tiax OSA riferirsi a lui come una semplice pedina!? Tiax è il RE, anche se può ancora muoversi in qualsiasi spazio gli piaccia e non dovrà mai essere controllato! Tale impudenza ti farà guadagnare l'ira di Cyric stesso, se sarai abbastanza fortunata da sopravvivere all'ira di Tiax quando governerà!~
+@102  = ~Tiax è contento del suo schiavo.~
+		~Tiax è contento della sua schiava.~
+@103  = ~Tiax si avventura nella grandezza!~
+@104  = ~Tiax è contento del suo schiavo. Non è necessario condividere i piani di conquista di Tiax con paladini dalla testa di latta.~
+		~Tiax è contento della sua schiava. Non è necessario condividere i piani di conquista di Tiax con paladini dalla testa di latta.~
+@105  = ~Stride con la mia coscienza e la mia pazienza, ma accetterò il tuo giudizio, <CHARNAME>. Sappi, tuttavia, che non avrò alcuna obiezione quando verrà il giorno in cui espellerai questo gnomo una volta per tutte! In marcia!~
+@106  = ~Temo, <CHARNAME>, che non condividiamo lo stesso senso dell'umorismo. Sarò molto felice quando questo gnomo si separerà dal nostro gruppo. Per ora, tuttavia, cedo al tuo giudizio.~
+@107  = ~<CHARNAME>, o hai perso il senno come questo gnomo impazzito, o ti stai prendendo gioco di me. Prego, per il nostro bene, che sia quest'ultima.~
+@108  = ~Pedina, dici!? Ovviamente, ho commesso un errore di giudizio unendo le nostre forze! Addio, <CHARNAME>, quando ci incontreremo nuovamente, se non avrai modificato i tuoi comportamenti malvagi, sarà solo come nemici!~
+@109  = ~Lodato sia Helm! Forse ora, il mio mal di testa svanirà in pace e tranquillità. Grazie, <CHARNAME>, per il tuo acuto giudizio.~
+@110  = ~Mi inchinerò alla tua guida, <CHARNAME>, ma non farò finta di esserne felice. Ti darò comunque un giusto avvertimento: se questo "Tiax" dovesse mai convertire i suoi cattivi pensieri in azioni, allora sarò costretto a ucciderlo. In marcia!~
+//Alora
+@111  = ~La pazienza di Tiax si avvicina al punto di rottura! Perché Cyric deve impiegare così tanto tempo a consentire a Tiax di governare!? Di questo passo, Tiax avrà a malapena conquistato le Terre Centrali quando inizierà a perdere il controllo della vescica e a mangiare cibi frullati!~
+@112  = ~Stupido Tiax! Dovresti fermarti e annusare i fiori. Smettila di affrettare le cose! La conquista del mondo può aspettare! Abbiamo davanti a noi un'avventura super divertente, e sarà molto meglio che rimanere intrappolati in una sala del trono vecchia e soffocante.~
+@113  = ~Tiax non ha tempo per queste sciocchezze! Tiax preferisce calpestarli i fiori, per dimostrare il suo potere e il suo dominio! Quando Tiax governerà, ordinerà che tutti i campi di fiori siano strappati da terra, in modo tale che nessuno venga distratto con la loro fragranza dall'adorazione di sua maestà!~
+@114  = ~Che pensiero terribile! Tiax, perché non puoi semplicemente accontentarti delle cose che abbiamo? La conquista del mondo non significa molto se ti rende un pazzo nel processo.~
+@115  = ~Bah! Tiax ne ha abbastanza. Quando Tiax governerà, trenta giorni in catene per la schiava fastidiosa, con la personalità frizzante e la voce irritante!~
+@116  = ~Tiax comanda di smettere di fissarlo, halfling!~
+@117  = ~Cosa? Oh, stavo solo pensando. Tiax, tu e io dovremmo andare per ruberie insieme, qualche volta. Scommetto che mettere a soqquadro la casa di qualche nobile dandy sarebbe la cosa giusta per tirarti su il morale!~
+@118  = ~Tiax ha cose più importanti di cui preoccuparsi rispetto alla bigiotteria altrui! Il suo Regno si avvicina e, quando lo farà, potrà semplicemente PRENDERE tutto ciò che vuole senza inganni subdoli o meschini!~
+@119  = ~Se i nobili non risponderanno abbastanza rapidamente alle sue richieste, avranno le loro case incendiate e rase al suolo, le loro famiglie mandate a lavorare nelle miniere di carbone e le loro teste piccate alle porte del suo palazzo! Così ha parlato Tiax!~
+@120  = ~Bleargh, Tiax, mi stai facendo venire il mal di pancia con quel tipo di chiacchiere. Quello di cui penso tu abbia bisogno è un grande abbraccio per farti sentire meglio e toglierti quei pensieri vecchi e cattivi dalla testa!~
+@121  = ~Bah! Tiax non ha bisogno di tale idiozia sentimentale! Resta lontana da me, odiosa schiava, prima che Tiax decida di... Gaaah! ACCHH! VADE RETRO!~
+@122  = ~Eh, dai, Tiax! Era solo un abbraccio! Ora, non dirmi che non ti senti meglio?~
+@123  = ~Lo spazio personale di Tiax è stato VIOLATO! Maledizione a te! Vattene e non osare toccare mai più Tiax, a meno che non ti venga dato il permesso!~
+@124  = ~Ooops, suppongo che non sia stato di grande aiuto. La prossima volta dovrò darti un bacio sulle labbra! Questo ti renderebbe meno pazzo … o forse di più! *ridacchia*~
+//Branwen
+@125  = ~Perché Tiax deve arrancare nel mezzo del nulla per cercare il suo dominio? Se esistesse giustizia nel mondo, i suoi servi verrebbero semplicemente a LUI e si prostrerebbero ai suoi piedi, piuttosto che costringere Tiax a vagare senza meta da un posto all'altro!~
+@126  = ~La tua gente si lamenta sempre di fronte a qualsiasi difficoltà. Un seguace di Cyric dotato di spina dorsale sarebbe davvero merce rara. La maggior parte preferirebbe sguazzare nelle loro insignificanti esistenze nel grembo del lusso, manipolando nell'ombra, senza mai provare la gioia della battaglia o la sensazione corroborante della propria mazza che colpisce il cranio di un nemico. Vigliacchi, tutti quanti.~
+@127  = ~Chi oserebbe chiamare codardo Tiax!? Tiax non teme nessuno! La sua volontà domina tutto e i nemici di Cyric saranno abbattuti di fronte alla sua ira!~
+@128  = ~Ti chiamo codardo perché SEI un codardo. Il tuo dio malvagio ne è sufficiente prova. Preferiresti piantare un coltello nella schiena di un nemico, piuttosto che affrontarlo in battaglia. Tempus insegna che tali tattiche sono per rapinatori e traditori, non per guerrieri nati e cresciuti per la guerra!~
+@129  = ~Bah! Ed è per questo che CYRIC dominerà tutto, e Tempus sarà il suo umile, insignificante lacchè! Cyric insegna che tutti i metodi per raggiungere il potere sono corretti: solo il potere è ciò che conta, non il metodo per raggiungerlo!~
+@130  = ~Questo è anche il motivo per cui Cyric è perso nella sua follia mentre Tempus esercita ancora il suo potere con chiarezza e concentrazione. I modi malvagi di Cyric hanno fallito, e gli sono costati tutto, mentre l'onore di Tempus rimane incolume ed il suo potere senza rivali. Un giorno imparerai, troppo tardi, che il tuo dio ti ha reso debole mentre il mio mi ha reso forte. Ora vattene.~
+@131  = ~... e TU! Il tuo compito dovrà essere-~
+@132  = ~Non mi interessa. Fai silenzio.~
+@133  = ~Impertinente! Tiax STAVA per elevarti allo status di lucidatrice di feci, ma pensa ora che forse potresti servire meglio come parte stessa del concime, tu pagh-~
+@134  = ~Ascoltami adesso, perché è l'unica volta che mi prenderò la briga di concederti la mia attenzione abbastanza a lungo. Non mi interessa quale tipo di piccola delusione ribolle in quel folle paiolo che chiami cranio. Fai SILENZIO.~
+@135  = ~Il CONCIME è troppo bello per una come te! Tu, sarai una concubina per i mindflay-~
+@136  = ~*SCIAF!*~
+@137  = ~Ahi! Come osi alzare le tue goffe manacce sul Grand-~
+@138  = ~AHIA! Smettila subito o farò bollire la tu-~
+@139  = ~*Sciaf, sciaf, SCIAFFF!*~
+@140  = ~AHIA! AHIA! AHIAAAA!~
+@141  = ~Ne hai avuto abbastanza?~
+@142  = ~*piagnucola*~
+@143  = ~Bene.~
+@144  = ~*borbottando tra sé* Oh, lei sarà la prima contro il muro quando verrà il mio glorioso giorno, siiiii...~
+//Coran
+@145  = ~Non essere troppo arrogante, orecchie a punta! Potresti avere un vantaggio ora, ma quando Tiax governerà, il suo harem si conterà a decine di migliaia, con tutte le donne più belle di ogni razza riunite per il suo piacere! Quindi Tiax ti rinchiuderà nella sua prigione per il resto dei tuoi anni, per sempre lontano dall'abbraccio di una donna, così che maledirai il giorno in cui non ti piegasti a Tiax quando ne ebbi l'occasione!~
+@146  = ~Quando dici "tutte le donne più belle di ogni razza", intendi con i tuoi standard o i loro? Dopotutto, una donna nana e la sua barba potrebbero sembrare sbalorditivi per gli uomini nani della roccaforte da cui proviene.~
+@147  = ~Non ci sono standard, salvo quelli imposti da Tiax! Le sue mogli e le concubine devono avere le forme più sinuose, la loro pelle deve essere morbida e impeccabile, e il loro naso deve essere delle dimensioni più notevoli, con i più abbondanti ciuffi di peli dalle narici! Nessuna, tranne i più perfetti esemplari fisici, potrà compiacere Tiax!~
+@148  = ~Nasi notevoli? Peli nelle narici? Ahhh, ma dimenticavo, gli gnomi hanno i loro standard unici, non è vero?~
+@149  = ~Prepara bene tua figlia per il futuro, elfo. Crescerà nella nuova era di Tiax, e potrebbe piangere per la vergogna quando scoprirà che suo padre era uno dei detrattori di Tiax piuttosto che uno dei suoi servili servitori! Cioè, presumendo che non la mandi al patibolo con te. Tiax non ha ancora deciso se i figli dei suoi nemici alla fine moriranno insieme ai loro genitori!~
+@150  = ~Sto preparandola bene, Tiax. Non abbastanza per il futuro che prevedi, ma ti assicuro che le insegnerò tutte le abilità di cui ha bisogno per sopravvivere nel mondo.~
+@151  = ~Ahhh, come leccare le scarpe e asservirsi ai suoi inevitabili padroni?~
+@152  = ~No, i modi per sopravvivere in città come nel deserto e per tenere lontano dei maschi viscidi, indecenti e lussuriosi... conosci il tipo. Ahh, quante cose che potrei insegnarle...~
+@153  = ~BAH! Chi ha bisogno del fuoco quando il calore del potere di Tiax un giorno riscalderà tutto? Se le insegnassi ad inchinarsi e massaggiare i piedi di Tiax, implorandolo di permetterle di vivere per poterlo servire ancora per un altro giorno, le insegneresti qualcosa di utile!~
+@154  = ~Così com'è, Tiax si sta avvicinando alla conclusione che i suoi nemici e i loro figli moriranno TUTTI quando Tiax salirà al suo legittimo stato! Il grazioso teschio di Namara sarà un ottimo ornamento al trono di Tiax!~
+@155  = ~Mmm... Ascoltami attentamente, Tiax. Coran farà della testa di Tiax un simpatico sonaglio, se oserà minacciare nuovamente Namara.~
+//Dynaheir
+@156  = ~Tiax vorrebbe sapere di più sulla nazione del Rashemen. Tiax non ci è mai stato, ma è affascinato dalla sua cultura... ehm.... Sì, la cultura. Gli racconterai del Rashemen, delle sue difese, del suo numero di Streghe, del suo terreno e delle sue fortificazioni... e forse così facendo compiacerai Tiax!~
+@157  = ~Non ho nulla da dire sulla mia terra natia ad uno come te, specialmente informazioni di natura così importante.~
+@158  = ~Tiax non richiede informazioni. Tiax PRETENDE informazioni!~
+@159  = ~Allora Tiax dovrà rimanere deluso. Fin quando avrò respiro non estorcerai una sillaba da queste labbra.~
+@160  = ~Perché i servitori di Tiax devono sfidarlo costantemente!? Cyric vuole forse schernirlo con schiavi così poco cooperativi!?!~
+@161  = ~Quando Tiax governerà, FORZERÀ la strega Rashemi a parlare, e lei gli dirà volentieri tutto ciò che gli piace con un SORRISO!~
+@162  = ~Fino ad allora, tuttavia, la conquista del Rashemen e la sua sconfinata adorazione verso il potente Tiax dovranno aspettare... ma Tiax diventa impaziente, così circondato da traditori e sciocchi!~
+//Edwin
+@163  = ~Tiax pensa che i Maghi Rossi sarebbero schiavi perfetti per la sua gloria. Un giorno, il resto della tua organizzazione si piegherà alla mia maestà proprio come te, mio servo! Che giorno glorioso sarà! Mille maghi vestiti di rosso, tutti in omaggio al loro signore e a pregare che la sua ira non si abbatta su di loro! Tiax sarà in piedi davanti a loro, e TREMERANNO alla sua minima parola!~
+@164  = ~(Ancora una volta sono scosso dai miei pensieri dal balbettio di inferiori insensati...) Non vedi che sto pensando, gnomo!? Se desideri chiacchierare su qualsiasi idiozia che ti sei immaginato, allora fallo dove non possa più sentirti, vederti... o annusarti, soprattutto.~
+@165  = ~... e quando Tiax si troverà davanti a quella congregazione di maghi schiavi dedicata al suo servizio, si assicurerà di strapparti il cuore dal petto e darlo da mangiare ai cani randagi, affinché tutti possano conoscere la pena del disobbedire al suo comando! Se non servirai obbedientemente come un mago, allora fungerai da macabro esempio del destino di tutti i non credenti!~
+@166  = ~(Tutto ciò che serve è un coltello accuratamente passato attraverso la sua gola durante il sonno, o un incantesimo "mal mirato", e potrei sbarazzarmi di questo stupido idiota per sempre. Così allettante... così allettante... )~
+@167  = ~Thayviano! Il possente Tiax ti sta offrendo il privilegio di dargli un consiglio.~
+@168  = ~(Preferirei avere il privilegio di calpestare dello sterco.) Di cosa si tratta? Fai presto, sono molto occupato.~
+@169  = ~Tiax ha in programma di avere un harem pieno di concubine, una volta che sarà il sovrano del mondo. Richiedo le informazioni sul modo in cui i Thayviani organizzano queste cose, in modo da poter riflettere sull'attuazione e sui possibili miglioramenti. Se mi piacerà la tua risposta, potrei persino nominarti capo eunuco.~
+@170  = ~Non permettere che il fatto che non abbia ancora infilato una palla di fuoco nelle tue narici orribilmente grandi, ti dia un falso senso di sicurezza! Rivolgiti a me col dovuto rispetto! (Puah! L'unica possibilità che avrebbe di mantenere un harem è che io fossi in perfetta forma e mi occupassi personalmente della soddisfazione e benessere delle donne...)~
+@171  = ~Silenzio! Tiax ti ha fatto un grande favore nel chiedere la tua opinione, e stai blaterando delle sciocchezze. Parla, a meno che tu non voglia che Tiax ti escluda dai suoi grandiosi piani!~
+@172  = ~(Non si dovrebbe discutere con i pazzi, questo lo concedo.) Non si dica che non sono un uomo generoso, allora. Hai bisogno di consigli con le donne ed è comprensibile. Ci sono tre concetti chiave per mantenere le concubine e sono affascina, soddisfa, controlla.~
+@173  = ~Tuttavia, poiché ti manca chiaramente ciò che è necessario per la prima e non hai alcuna possibilità di ottenere ricchezza per la seconda, non vedo alcun motivo per cui dovresti preoccuparti della terza.~
+@174  = ~Il Potente Tiax è soddisfatto della tua risposta per ora, ma è scontento del tuo tono. Tiax nella sua generosità vuole elevare questo schiavo al suo cerchio interno, ma Tiax ha sentito un pizzico di gelosia nella voce del suo schiavo, e consiglia lo schiavo di procreare piccoli maghi barbuti finché è ancora in tempo.~
+@175  = ~(Intendeva essere sarcasmo?) Ascoltami bene, insopportabile creatura, ci vorrebbe un esercito e tre recinti di venti piedi per proteggere il tuo harem, ma non dagli intrusi esterni. Non riesco a vedere nessun uomo, donna o creatura boschiva, non importa quanto in basso di nascita, che sia in grado di sopportare la tua presenza per più di un minuto. (Anche se probabilmente a LUI un minuto basterebbe due volte …)~
+//Eldoth
+@176  = ~Quando Tiax governerà, Tiax pensa che questo sarebbe un ottimo posto per una statua, inneggiante alla sua grandezza! Erta per trecento piedi nel cielo, ricoperta di preziosi gioielli e forgiata in oro e mithral! È DESTINO! Oh, e forse il resto di voi si meriterà una targa lungo la strada che menzioni il vostro contributo al Regno di Tiax. Una piccola targa.~
+@177  = ~Sarai fortunato, se riceverai l'onore di una tomba senza nome, quando un inevitabile coboldo mezzo cieco ti trafiggerà, mio delirante amico. La tua megalomania è diventata piuttosto vecchia e insipida a questo punto. Non hai davvero altro di cui parlare?~
+@178  = ~Uhm... beh, cosa ne dici delle idee di Tiax su come massacrare gli infedeli e muovere le masse a suo capriccio?~
+@179  = ~Come pensavo. Il silenzio è d'oro, Tiax. Ti suggerisco di andare laggiù a lucidarlo con cura.~
+//Garrick
+@180  = ~Tu! Tiax richiede una canzone. Suona un inno alla potenza e alla gloria di Tiax, e di come il Regno di Tiax sia inevitabile, e rendila accattivante! Tiax non ha pazienza per la cattiva musica.~
+@181  = ~Errrr... Temo di non avere canzoni del genere a portata di mano, Tiax.~
+@182  = ~Tu schiavo insolente! Non hai canzoni dedicate a Tiax!? Quando Tiax governerà, tale incompetenza sarà punita con uno schiocco di frusta e la rimozione della lingua dello schiavo offensivo! Quando Tiax governerà, non ci saranno ALTRO che canzoni dedicate a Tiax, e tutti canteranno della sua gloria o affronteranno la sua ira! Questo proclama Tiax. La sua volontà sarà fatta!~
+@183  = ~Potrei sempre suonarti un'altra canzone. Ne conosco un bel po', e più di una farebbe gonfiare il tuo cuore con una tale felicità che dimenticheresti tutta questa fissazione che hai sulla conquista del mondo.~
+@184  = ~BAH! Tiax non crede proprio! Non c'è musica più dolce degli schiavi che rendono omaggio alla gloria di Tiax e Tiax non si accontenterà di niente di meno! Vai ora e componi una canzone che inneggi all'enorme dimensione del naso di Tiax o che descrive la maestosità con cui annichilisce i suoi nemici!~
+@185  = ~Se per te va bene, Tiax, penso che passerò per ora.~
+@186  = ~Blasfemia! Avrai un sacco di tempo per comporre inni al potere e alla gloria di Tiax, quando starai marcendo nella sua prigione, chiedendo perdono! Tale è la volontà di Tiax!~
+//Imoen
+@187  = ~Tiax ti chiede di mostrargli rispetto! Tiax non tollererà questa presa in giro per molto tempo ancora!~
+@188  = ~Oh, smettila di frignare, pappamolle! Mi sto solo divertendo un po', Tiax! Sai che siamo amici!~
+@189  = ~Amici!? Tiax non ha amici, solo schiavi e lacchè e sottoposti che si crogiolano nella gloria di Tiax, sperando che la sua ira non si abbatta su di loro! Rischi l'ira di Tiax presupponendo di essere uguale a Tiax!~
+@190  = ~Oh, va bene, come vuoi tu. Ma so che anche tu mi consideri un'amica! Lo stesso Cyric non te l'ha detto?~
+@191  = ~Cosa!?! Cyric non ha detto nulla del genere, e Tiax è l'unica creatura degna di ascoltare le parole di Cyric! Come faresti a sapere cosa desidera Cyric!?~
+@192  = ~Oh, Cyric parla anche con me, sciocchino. Ciò deve significare che sono destinata a governare il mondo con te e che quindi sono tua pari! Non sarà divertente?~
+@193  = ~Può essere che tu … mia regina? NO! TU MENTI! BLASFEMIA!!! Cyric parla a Tiax e solamente a Tiax!!!~
+@194  = ~Che cosa dici, Cyric? Dici che Tiax non è più il tuo preferito, e quindi dovrei governare il mondo da sola? Grazie mille!~
+@195  = ~Tiax non ascolterà oltre! Cyric parla solo a Tiax! CYRIC parla solo a TIAX!!! Cyric non darebbe una tale benedizione a una bambina! No, Tiax non ti ascolterà più!!!~
+@196  = ~Corbezzolini! Sembra che certi gnomi non sappiano proprio cosa sia uno scherzo...~
+//Jaheira
+@197  = ~Tiax PRETENDE che gli mostri il rispetto che merita!~
+@198  = ~Solo gli sciocchi richiedono rispetto. I saggi lo guadagnano, e non ho ancora visto nulla di te se non la follia e il disprezzo gratuito.~
+@199  = ~Come osi!? TIAX è COMPLETAMENTE saggio, nulla OSA sfuggire alla sua conoscenza!~
+@200  = ~Tiax ha già risolto l'intera "ricerca", sa esattamente dove si nascondono i nemici di <CHARNAME>, la trama e il piano, ma non condividerà questa conoscenza, poiché se la brillantezza di Tiax fosse svelata a creature minori, potrebbero AVVIZZIRE sotto la forza del suo geniale splendore!~
+@201  = ~Oh? Potresti almeno condividere il nome del malvagio in armatura che ha ucciso Gorion con noi umili mortali, oh saggio Tiax? Sicuramente non vorremmo avvizzire prima di aver ricevuto almeno quel po' di conoscenza!~
+@202  = ~Ehm... Tiax lo sa, ma NON deve condividere tali informazioni! È... uhm... non è molta conoscenza, ma la POTENZA dietro di essa è davvero sconcertante! Se Tiax dovesse pronunciarne il nome, prima che fosse rivelato correttamente ai suoi servi, potrebbero sbriciolarsi in POLVERE a causa della sua saggezza profetica!~
+@203  = ~Come pensavo. Per Silvanus, se sarò felice quando <CHARNAME> si sbarazzerà di questo ridicolo gnomo...~
+@204  = ~AH! Tiax SAPEVA che lo avresti detto!~
+//Kagain
+@205  = ~Inginocchiati, verme e obbedisci al tuo signore e padrone! Tiax ti chiede di mostrare il tuo rispetto per la sua potenza, proprio ora!~
+@206  = ~Idiota! Mettiti di nuovo sulla mia strada e ti spaccherò le rotule. Non avresti molta fortuna a governare il mondo se non potessi camminare, non ti pare?~
+@207  = ~Se Tiax non dovesse più essere in grado di camminare, allora dovrà essere portato da un posto all'altro! In effetti, quando Tiax governerà, non avrà più BISOGNO delle ginocchia! Non che uno schiavo così insignificante come te possa mai sperare di poter far del male a qualcuno così grande e potente come il magnifico Tiax!~
+@208  = ~Un giorno, ti darò una lezione o due su quelli che chiami inferiori a te. Gli gnomi boriosi dovrebbero imparare qual è il loro posto: trovare diamanti e gioielli in modo che noi nani possiamo diventare schifosamente ricchi grazie a loro.~
+@209  = ~Tiax ha trasceso cose meschine come oro e gioielli: quando governerà, questi orpelli decoreranno la sua stanza del trono, ma solo come la più semplice delle bagattelle per impressionare i suoi schiavi sciocchi in insensata obbedienza alla sua volontà!~
+@210  = ~Ah! Ho sentito degli idioti dire che trascendono oro e gioielli, di solito significa che devo colpirli più forte con la mia ascia per ottenere la mia paga!~
+@211  = ~Potrai anche essere pazzo a causa della tua fissazione sulla conquista del mondo, ma sei veramente stupido se non capisci che è l'oro che lo fa girare. Ora fuori dai piedi.~
+@212  = ~Quando Tiax governerà, a quelli di voi che avranno dimostrato la loro fedeltà verrà risparmiata la sua ira. Tutti quelli che viaggiano con Tiax ora potranno scoprire un giorno che si sono guadagnati un posto come portatori del Suo trono, o come pulitori dei suoi vasi da notte, se lo avranno sufficientemente compiaciuto!~
+@213  = ~Ancora con queste fesserie! Risparmia le tue continue divagazioni, cretino. Il resto di noi ha cose più importanti a cui pensare.~
+@214  = ~Più importanti di Tiax!? Bestemmia! Tiax è il centro di tutte le cose, il fulcro della tua vita altrimenti insignificante e incomprensibile!~
+@215  = ~Senza Tiax, non sei altro che una formica da schiacciare col suo enorme stivale! Tiax pretende un inchino immediato affinché il brutto nano riceva il suo perdono! Fallo, e forse Tiax limiterà la tua fustigazione a soli quindici colpi!~
+@216  = ~Questo nano non si inchina a nessuno, a meno che non ci sia una quantità sufficiente di oro nell'offerta. Parlami di nuovo, quando avrai abbastanza oro per riempire le mie casse fino a scoppiare, e potrei mostrarti un po' di rispetto!~
+@217  = ~Tiax un giorno avrà tutto l'oro del mondo, eppure il brutto nano è così stupido che non riesce a prepararsi per quel giorno mostrando riverenza al suo padrone!~
+@218  = ~Coloro che obbediscono alla volontà di Tiax si troveranno favoriti sopra tutti, ma ovviamente TU non sarai incluso in quel gruppo. Inizia a prepararti per il giorno in cui la punizione di Tiax cadrà su di te!~
+//Khalid
+@219  = ~AHI! Quale zanzara OSEREBBE pungere Tiax!?! Questa foresta brucerà per la sua mancanza di ospitalità quando Tiax governerà, la sua popolazione di animali e insetti sarà messa a repentaglio per la sua incapacità di prevenire questo oltraggio e il suo suolo sarà cosparso di sale in modo che nulla possa mai più ricrescerci!!! Questo Tiax esige, e così sarà!~
+@220  = ~Andiamo, Tiax, è s-solo un morso di zanzara. Succede a t-tutti noi. Non è necessario p-prenderla così sul p-personale.~
+@221  = ~Prenderla sul personale?! Uno degli schiavi senza fede di Tiax gli ha causato DOLORE! Tale azione è un insulto a tutti gli esseri viventi su questo pianeta e quando Tiax governerà sarà un crimine punibile con l'eterno tormento! Tutte le cose si spaventeranno quando Tiax verrà punto, perché rovinerà le loro terre e vedrà i suoi servitori traditori macellati per miglia intorno a lui per l'insulto!~
+@222  = ~L'unica p-persona a cui farà del male la tua rabbia è t-te stesso. Se continuerai a urlare in questo modo, ti verrà un c-colpo.~
+@223  = ~Tiax urlerà quando Tiax VUOLE urlare! Tiax chiede che i suoi schiavi obbediscano alla sua volontà, e ancora si rifiutano di piegare le ginocchia alla sua gloria! TIAX AVRÀ LA SUO RIV...~
+@224  = ~Ooooh...~
+@225  = ~Uhooohuh... il mondo... gira...~
+@226  = ~*ansimando* OK. Forse Tiax smetterà di urlare per un po'...~
+@227  = ~Tiax pensa che diventerai un buono schiavo, mezzelfo. Una frusta sulla schiena e quelli come te si precipitano al lavoro con un tale entusiasmo!~
+@228  = ~Quelli c-come me?~
+@229  = ~Ma certo! Vigliacchi senza vergogna, ovviamente! Tiax ha bisogno di schiavi che obbediscono agli ordini prontamente e senza rispondere! Al momento ne esistono pochi, ma presto il mondo intero sarà patetico e obbediente come te, e allora Tiax sarà contento!~
+@230  = ~M-m-molto g-gentile a farmi s-sapere la t-t-tua opinione in m-merito.~
+@231  = ~Parla di nuovo a mio marito in questo modo, gnomo, e ti strapperò quella patetica lingua dalla bocca.~
+@232  = ~P-per favore, Jaheira, p-posso difendermi da s-solo.~
+@233  = ~Non c-capisco perché <CHARNAME> abbia deciso di p-portarti con noi, ma non t-tollero questo tipo di maleducazione! P-per favore, lasciami in p-pace.~
+//Kivan
+@234  = ~Pssst... Elfo! ELFO!~
+@235  = ~Che cosa vuoi, Tiax?~
+@236  = ~Tiax ha un'offerta... per te. Nonostante la tua natura un po' noiosa, potresti rivelarti utile, SE fossi adeguatamente motivato!~
+@237  = ~Qualunque cosa sia, Tiax, ti assicuro che non mi interessa. Non sarò trascinato nei folli piani di un discepolo di Cyric.~
+@238  = ~Ahhh, ma Tiax CONOSCE ciò che più desideri! Tiax ti ha sentito sussurrarne il nome, giurando la tua eterna vendetta contro coloro che te l'hanno rubata.~
+@239  = ~TIAX, nel suo infinito potere e saggezza, è disposto a garantirti sia il suo ritorno che la sua vendetta contro coloro che te la portarono via, ma in cambio Tiax PRETENDE...~
+@240  = ~Risparmiami le tue pretese. Non ho bisogno di niente da te, pazzo. Sono solo una freccia sull'arco di Shevarash, ed è la sua mano che mi punta e mi guida.~
+//Minsc
+@241  = ~Tiax esige che il suo schiavo smetta di borbottare con quel roditore! A Tiax sta venendo il mal di testa a causa di tale idiozia!~
+@242  = ~Boo non è un semplice roditore, sciocco gnomo. È mio amico, e l'unico Criceto Spaziale Gigante in Miniatura rimasto nei Reami! Dove va Boo, Minsc lo seguirà e porterà con sé il suo pugno di giustizia!~
+@243  = ~Bah! Che sciocchezze! Tiax è saggio e onnisciente, eppure non ha mai sentito parlare di "Criceti Spaziali Giganti in Miniatura"!~
+@244  = ~È vero! Boo possiede un potere che né tu né Minsc possono capire, anche se ci impegnassimo davvero molto. Il suo potere, tuttavia, viene usato solo per guidare lo stivale di Minsc verso le chiappe malvagie!~
+@245  = ~Tiax crede che tu sia impazzito a causa della vicinanza con la grandezza di Tiax! Tiax non riesce a credere all'indegnità di essere costretto a viaggiare con una banda di sciocchi creduloni! Ahem... per amore della discussione, che tipo di poteri avrebbe, se fosse davvero un criceto spaziale in miniatura?~
+@246  = ~È come Minsc ha già detto. Tali poteri sono insondabili da parte nostra!~
+@247  = ~Poteri insondabili... poteri insondabili... mmm... Tiax chiede che gli sia permesso di tenere il criceto per un momento!~
+@248  = ~Minsc riconosce le idee malvagie quando le vede formarsi! Solo Minsc può parlare con Boo! Boo parla solo a Minsc! E tu NON PUOI tenerlo!~
+@249  = ~Pssst... criceto! Tiax ha bisogno di parlarti, è meglio che ascolti bene il tuo futuro maestro!~
+@250  = ~*Boo squittisce.*~
+@251  = ~Il tempo dell'ascensione di Tiax si avvicina. I suoi nemici dovranno presto temere la sua ira, e Tiax darà loro la caccia come i roditori che sono! … Errrr, senza offesa naturalmente.~
+@252  = ~In ogni caso, Tiax ti offrirà un posto al suo fianco. La vittoria di Tiax è inevitabile e viaggiare con un Ranger morto di mente non è la strada per il successo di un'entità così potente. Un giorno avrai tutti i semi e le larve che potrai mangiare, se solo rinuncerai a questo zuccone calvo per la gloria di Tiax!~
+@253  = ~Cos... cosa? Cosa sta... BOO! Stai lontano dal mio criceto, gnomo!~
+@254  = ~Dannazione! Lo schiavo di Tiax ha interrotto importanti trattative, al di là della sua scarsa capacità di comprensione! Girati e tappati le orecchie, in modo che i tuoi superiori possano continuare la loro discussione!~
+@255  = ~No! BOO parla solo a MINSC e MINSC parla solo a BOO! O forse non così tanto l'ultima parte. Tuttavia, Boo ovviamente deve essere tenuto lontano da te, poiché Boo non sopporta il sussurro di pensieri così malvagi. Vieni, Boo, ti terrò al sicuro.~
+@256  = ~Maledizione a te! Tiax avrà la sua vendetta!~
+@257  = ~Ora è la tua occasione, criceto! Ergiti contro il barbaro e unisciti a me! È indebolito dalle nostre battaglie e sarà una facile preda!~
+@258  = ~ARRRGGGH! Minsc conosce il male quando lo sente! Stai cercando di tentare Boo a ribellarsi, ma noi siamo amici eterni! Non è vero, Boo?~
+@259  = ~Ehm... vero, Boo?~
+@260  = ~AH! Il tuo criceto rimugina sulla mia proposta! È solo questione di tempo prima che si renda conto che TIAX è l'unica scelta per un così potente...~
+@261  = ~AAHHHHH!!! AHI! AHI! AHI! TOGLIMELO DI DOSSO! AHIAAA!~
+@262  = ~Sì! Vai, Boo, vai! Mordi il piccolo gnomo cattivo! Questo ti insegnerà a provare a separare Minsc e Boo! Giustizia è fatta!~
+//Montaron
+@263  = ~Tiax ha una proposta per te, halfling.~
+@264  = ~Proponiti pure allora, oh saggio paroliere. Non ho ancora avuto la mia dose di risate questa decade.~
+@265  = ~Silenzio! TIAX non ti ha ancora dato il permesso di parlare!~
+@266  = ~Tiax ha notato la tua capacità con una lama e le tue abilità con furtività e omicidio. Sei riuscito a soddisfare Tiax con le tue azioni e Tiax vorrebbe offrirti un impiego come capo delle sue sentinelle segrete quando governerà.~
+@267  = ~Perlustrerai le città alla ricerca dei nemici di Tiax, epurando i traditori e i miscredenti, smembrando coloro che guardano nel modo sbagliato verso le numerose statue di Tiax che saranno sparse in tutta la terra! Cosa ne dici?~
+@268  = ~Mmpf. Dico, prima fai la tua parte e io sarò il migliore che tu possa trovare. Fino a quel momento però, faresti meglio a pensare a trattarmi con rispetto – a meno che tu non *voglia* che ti liberi del tuo sangue mortale in una notte senza luna.~
+@269  = ~Ahhh, Tiax si diletta nel vedere la sete di sangue dei suoi servi! Tiax sa che comprenderai la saggezza del suo piano. Fino ad allora, fingi pure la tua indipendenza e spera che Tiax non cambi idea! La sua volontà sarà fatta!~
+//Safana
+@270  = ~Perché Tiax deve sopportare l'odore di questa città!? Quando Tiax governerà, un esercito di domestici pulirà il suo cammino mentre avanza, rimuovendo tutto ciò che potrebbe offendere il naso di Tiax! Le strade brilleranno dove viaggia Tiax, poiché quelle città che non riusciranno a soddisfare Tiax saranno messe al rogo e i loro abitanti resi suoi schiavi! Questo proclama Cyric!~
+@271  = ~A che serve una città senza un po' di polvere e sporcizia? Personalmente, mi piace un po' di degenerazione. La trovo... eccitante.~
+@272  = ~Bah! Tiax ha avuto abbastanza sporcizia per una vita intera senza dover affrontare l'odore dell'urina stantia e dei contadini non lavati.~
+@273  = ~È mia esperienza, Tiax, che un luogo eccessivamente infatuato di pulizia, tende ad essere un luogo noioso fino alle lacrime. Tutte le diversioni più divertenti possono essere trovate solo in luoghi in cui lo squallore e la sporcizia sono di casa.~
+@274  = ~Proprio come un bel mercenario con l'uniforme di cuoio incrostata di polvere può essere mille volte più divertente di un paladino con la sua armatura scintillante e ben lucidata, così può una città sporca ma con le giuste taverne e sale da gioco far impallidire le così nobili Waterdeep e Neverwinter.~
+@275  = ~Bah! Tiax non ha tempo per giocare d'azzardo o perdere tempo mentre il suo destino lo aspetta! Tiax ti lascerà volentieri tutta la polvere e la sporcizia che tanto ti piacciono. Tiax rimarrà nel suo magnifico palazzo che si estende nei cieli! Cyric sia lodato che il suo tempo si stia avvicinando rapidamente e Tiax non dovrà più sentire più l'odore di fogna!~
+//Shar-Teel
+@276  = ~Anche con la sua infinita saggezza, Tiax non ti capisce, umana.~
+@277  = ~Allora 'Tiax' dovrebbe smettere di pensarci e starsene zitto. I maschi dovrebbero imparare a essere visti e non ascoltati.~
+@278  = ~Tiax parlerà a chiunque gli piaccia, ogni volta che lo desidera, di qualunque cosa gli piaccia! Il tuo sistema di credenze è totalmente imperfetto e ridicolo! Tiax ha meditato e ponderato, e non riesce ancora a capire come si possano ritenere delle femmine superiori ai maschi!~
+@279  = ~Cyric ha forgiato Tiax stesso, campione dei suoi grandi pari e sovrano di tutte le cose, come maschio. Chiaramente, questo dimostra che i maschi sono superiori alle femmine, poiché se le femmine fossero superiori ai maschi, allora Tiax ne sarebbe una.~
+@280  = ~Al massimo, mi aiuti a dimostrare quanto sia corretto il mio sistema di credenze.~
+@281  = ~Anche tra i maschi, ti distingui per la tua stupidità e debolezza. Il tuo pragmatismo è ammirevole, ma per il resto sei privo di qualità. Ora sparisci e non disturbarmi oltre con la tua follia se ci tieni a quella parte che ti rende un maschio!~
+@282  = ~Bah! Quando Tiax governerà, penso che ti aggiungerà al suo harem solo per insegnarti il dovuto rispetto! Vedremo quali parole dirai a Tiax DOPO, tu infedele insopportabilmente alta!~
+//Viconia
+@283  = ~Tiax non si sente affatto bene. Chierico! CHIERICO!~
+@284  = ~Waela yingil! Stupido Gnomo! Possiedi abilità per curare le tue ferite. Non verrò di corsa ad ogni schiamazzo come se fossi una tua serva.~
+@285  = ~Ma tu *sei* una serva di Tiax! Tutto esiste solo per servire Tiax!~
+@286  = ~Puah. Continua pure a sanguinare, iblith. Non sarò certo io a guarirti.~
+@287  = ~Un giorno Tiax governerà... e la tua impudenza non resterà impunita!~
+@288  = ~Ahhh, capelli bianchi come la neve e anima nera come il carbone! Il naso avrebbe potuto essere più grande, ma... Cyric, e di conseguenza Tiax stesso, potrebbero beneficiare di servitori come te! Perché ti sei dedicata al falso dio Shar, quando il Sole Nero ti avrebbe accolto a braccia aperte al suo servizio?~
+@289  = ~Servo Shar, yingil, e solamente Shar. Non tentare la sua ira o la mia con i tuoi deboli tentativi di conversazione.~
+@290  = ~Shar non è che una schiava promessa a Cyric! Nessun altro cosiddetto "Dio" può opporsi alla potenza di Cyric, eppure tu non abbracci il suo potere e la sua maestà!?~
+@291  = ~Folle! Il tuo Cyric non è che un poppante davanti alla Dea Oscura. E cosa potrebbe offrire Cyric che Shar non può concedermi? Mi ha mostrato l'abbraccio dell'oscurità e mi concede i dolci sogni della inesistenza. Cosa potrebbe mai offrire Cyric per tentare di allontanarmi dalla mia dea?~
+@292  = ~Ma è ovvio! Una vita di schiavitù per mano di Tiax!~
+@293  = ~Non solo, ma ti sarà permesso di cantare le lodi nel nome di Cyric, sacrificare gli infedeli alla sua gloria e magari persino incontrare la tua fine, combattendo contro i suoi nemici! Quale più grande ricompensa si potrebbe chiedere se non di vivere e morire in nome di Cyric e del suo più grande campione!?~
+@294  = ~Credi davvero che tradirei la mia dea per l'eterna schiavitù per mano di uno yingil squilibrato? Non tentare di parlarmi di nuovo del tuo debole dio maschio, og'elend, o Shar potrebbe esigere da me un'azione che non sarebbe propriamente a tuo vantaggio...~
+//Xan
+@295  = ~Tiax si compiace della tua ossessione per la rovina e la disperazione, elfo. Crede che, unico tra i suoi schiavi, riconosci il grande destino che si sta avvicinando a questo mondo, perché presto Tiax si ergerà sopra tutti e lo rivendicherà come suo! Quando Tiax governerà, sarai il suo profeta ufficiale, diffonderai la voce dell'avvicinarsi degli eserciti di Tiax esaltando la distruzione che porteranno!~
+@296  = ~Non credo che tu mi capisca affatto, Tiax. Tutto ciò che facciamo è senza speranza, compresa la tua ricerca di dominio del mondo. I tuoi sogni imperialistici si trasformeranno in cenere, quando i nostri nemici ci schiacceranno come gli insetti che siamo.~
+@297  = ~Osi negare l'inevitabile vittoria di Tiax!? La tua mancanza di fede non ti farà guadagnare altro che dolore quando regnerà Tiax! Lo stesso Cyric ha proclamato la vittoria di Tiax, e nessuno può contestare la sua volontà!~
+@298  = ~Il tuo Cyric al momento si sta crogiolando nella follia, quindi tendo a non pensare che la sua parola conti molto.~
+@299  = ~BAH! Tale impudenza! Tiax crede di averti valutato troppo bene, schiavo. Bene allora! Marcerai con i suoi eserciti, ma lo farai come carcassa in decomposizione appesa allo standard di Tiax, in modo che tutti possano vederla e conoscere il prezzo della disobbedienza! Questo Tiax esige, e così sarà fatto!~
+@300  = ~Perché perdiamo il nostro tempo in questo miserabile buco? Tiax ha molti problemi da affrontare! Come conquistare il mondo, per esempio!~
+@301  = ~Presto non ti dovrai comunque preoccupare di nulla. Questo posto sarà la tomba di tutti noi. Non abbiamo alcuna possibilità contro i nemici che vi si nascondono.~
+@302  = ~Bah! Tiax non ha paura di questo posto, non ha paura di nulla! Vuole semplicemente poter proseguire su altre questioni più importanti!~
+@303  = ~Oh, perché insisti a ossessionarti con la tua fantasia senza speranza, Tiax? È improbabile che sopravvivi alla notte, figuriamoci conquistare il mondo!~
+@304  = ~Il nostro destino è stato segnato da tempo ormai, e presto non saremo altro che carne in decomposizione nel mezzo di questo buco dimenticato.~
+@305  = ~Che follia! Tiax esige che il suo schiavo smetta di piagnucolare! La tua codardia sta scuotendo il morale del resto della sua carne da macello, e Tiax non tollererà di veder scappare per le loro miserabili vite le sue sacrificabili pedine.~
+@306  = ~Molto bene, quindi andiamo avanti e finiamo questa piccola "spedizione", ma quando Tiax avrà finito, chiederà un'azione immediata verso il suo dominio totale!~
+//Xzar
+@307  = ~Tiax ti ordina di smettere di fissarlo!~
+@308  = ~Oh! scusami, povero Tiax. Stavo solo notando una forte somiglianza con un mio vecchio amico.~
+@309  = ~Uhm... amico?~
+@310  = ~Non l'ho appena detto? Smetti di ripetere tutto quello che dico, accidenti a te! Ora, dov'ero rimasto?~
+@311  = ~Ahhh, sì, il mio amico! Era basso, come te, e un po' grassoccio. Per divertimento, eravamo soliti metterlo con un bastone sopra il fuoco, e poi lo giravamo "in tondo", e "in tondo" e "in tondo" fino a quando non aveva le vertigini. Poi, lo toglievamo e lo divoravamo pezzo per pezzo, con le sue urla a riempire l'aria di travolgente gioia e allegria. Ci siamo divertiti così tanto!~
+@312  = ~Stai parlando del coniglio che abbiamo cucinato la scorsa notte?~
+@313  = ~Oh sì, esatto! Lo conosci anche tu?~
+@314  = ~Tiax NON È CIBO! Prova a mangiare Tiax e soffrirai molto quando conquisterà tutto! Ti sei già negato la posizione futura di cuoco reale di Tiax con le tue folli fantasie!~
+@315  = ~Mangiarti?!? Che idea rivoltante! Stavo solo suggerendo che ti cucinassimo un po'... e che poi ti *avremmo* assaggiato, ovviamente. Ah, bene. Forse un'altra volta. La tua conversazione non è divertente come la sua, ad ogni modo...~
+//Yeslick
+@316  = ~Clangeddin!? Bah! Che follia! Cyric è l'unico vero dio, e 'Clangeddin' farà meglio a mettersi da parte, quando arriverà a issare Tiax nella sua legittima posizione di sovrano di tutti!~
+@317  = ~Fatico a credere che il tuo folle dio sia in procinto di conquistare il mondo in tempi brevi. Non è forse completamente impazzito?~
+@318  = ~Cyric, folle!? AH! Cyric non è più pazzo dello stesso Tiax, futuro sovrano di tutto! Altri considerano il suo vero signore pazzo solo per la PAURA paralizzante che il suo inevitabile regno provoca in loro! Quando Cyric governerà tutto con Tiax al suo fianco, i loro ranghi codardi saranno purificati con il fuoco e la furia più terribile, e *allora* vedremo chi sono i veri pazzi!~
+@319  = ~Non ho paura del tuo dio traditore. Lascia venire i suoi schiavi; si troveranno abbattuti dall'acciaio nanico nel nome di Clangeddin, entro la fine della giornata! E con seguaci folli come *te*, penso che il compito non sarà così difficile.~
+@320  = ~Tiax è CIRCONDATO dai traditori! Perché i suoi schiavi osano sfidare la sua volontà quando offre loro un dono così raro come la continua esistenza per la loro servitù insensata!?~
+@321  = ~Tiax ti farà flagellare e ti darà da mangiare ai cinghiali quando governerà su tutto, ma fino ad allora, prega di non offenderlo di nuovo, per non rendere la tua punizione ancora più terribile!~
+@322  = ~Tiax ti comanda di lasciare la sua presenza! Il tuo atteggiamento diventa stancante e Tiax non ha alcun desiderio di fare da baby-sitter a schiavi disubbidienti!~
+@323  = ~Ah! Come se a qualcuno importasse quello che pensi, Tiax. L'ultima volta che ho controllato, è <CHARNAME> qui ad avere l'ultima parola su chi resta e chi va... e credimi, non sono più felice di te del fatto che tu sia qui con me...~
+@324  = ~Non hai capito niente, schiavo!? La parola di Tiax è LEGGE. Lascerai la sua presenza e pregherai che la sua ira non scenda su di te, quando questo mondo cadrà sotto l'inevitabile dominio di Tiax! Tiax non accetterà alcuna contraddizione alla sua volontà onnipotente!~
+@325  = ~Ora vai, affinché Tiax non sia costretto a colpirti!~
+@326  = ~Quindi mi stai dicendo che non ti dispiacerebbe darmi una bella lezione, allora? Perché non mi fai vedere cosa mi *faresti* per farmi andare, Tiax? Non mi tiro mai indietro di fronte alla possibilità di spaccare il cranio a un seguace di Cyric.~
+@327  = ~In effetti, a pensarci bene, la maggior parte di quelle guardie del Trono di ferro nella miniera erano seguaci di Cyric, quindi sarebbe il mio piacere personale farti urlare come un elfetto, se te la senti!~
+@328  = ~Lo schiavo *minaccia* Tiax!?! BAH! Che follia! Tiax potrebbe spezzarti in due usando solo il suo mignolo, ma, fortunatamente per te, il suo mignolo si sente stanco oggi! Sgattaiola via, oh sciocco, e prega che il mignolo di Tiax non si senta meglio presto!~
+@329  = ~Lo sapevo. Tutti parlano, nessuno agisce. Se avrai voglia di una sonora lezione, parlami di nuovo, Tiax. Come ora, a meno che <CHARNAME> non dica il contrario, non ho alcuna intenzione di andarmene, quindi farai meglio ad abituarti!~
+

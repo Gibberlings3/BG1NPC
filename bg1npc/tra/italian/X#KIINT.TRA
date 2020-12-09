@@ -1,0 +1,239 @@
+// @0    = ~Tazok!~
+// @1    = ~Bene, bene... ci incontriamo di nuovo. Pensavi che sarei morto facilmente come la tua ragazza?~
+// @2    = ~Ti lancerò nell'Inferno se devo seguirti!~
+// @3    = ~Tazok! Non hai nessun posto dove fuggire ora. Il mio voto sarà finalmente adempiuto. Deheriana, melamina, quest'ora di sangue è nostra!~
+// @4    = ~Ah. La mia piccola combriccola avrà una testa di elfo con cui giocare stasera!~
+// @5    = ~Ti ricaccerò nell'Abisso a cui appartieni!~
+//Kivan-Beldin
+@6    = ~Grazie, avventurieri. Io... ho trovato questa gemma durante gli scavi... la stavo tenendo per la mia signora, ma... mi avete salvato la vita e non ho nient'altro con cui ripagarvi per il vostro coraggio...~
+@7    = ~Allora conservala per la tua signora, amico mio. Ora vai, prima che arrivino altri "demoni".~
+@8    = ~La tua vita sarà un dono sufficiente per lei. Grazie per la gemma.~
+@9    = ~Sei ancora qui, codardo? Allontanati dalla mia vista, prima che ti uccida io stesso. Ah, spaventato da dei coboldi!~
+@10   = ~Cerca di stare nascosto e chiedi alle guardie di scortarti in superficie.~
+@11   = ~Lo farò, Mastro Elfo. Dirò alle guardie e a Mastro Emerson stesso quanto sei stato coraggioso. Spero che ucciderai rapidamente tutti i mostri qui sotto: un uomo deve potersi guadagnare da vivere~
+//Dink
+@12   = ~Senza dubbio lo farà, se le cose stanno così male come sembra. <CHARNAME>, faremmo bene a trovare il ragazzo non appena possibile. Queste guardie non sembrano del tipo che armerebbe gli operai, anche in presenza di gravi pericoli. Dubito che un uomo comune possa sconfiggere le creature malvagie che percepisco, ma un pugnale sarebbe comunque meglio delle mani nude.~
+//Joseph (ict3 742-743)
+@13   = ~Le mie condoglianze, brava donna. Io... so quanto fa male perdere il proprio amato. Vorrei poterti offrire più delle sole parole.~
+@14   = ~*singhiozza*~
+//Bardolan (ict3 534)
+@15   = ~<CHARNAME>, mi rifiuto di credere che qualsiasi uomo sano di mente ucciderebbe la sua stessa gente.~
+//Berrun (ict3 241-360)
+@16   = ~È piacevole sapere che le nostre fatiche sono apprezzate, <CHARNAME>.~
+@17   = ~Verrò volentieri in aiuto dei cittadini, <CHARNAME>.~
+//Liia Jannath (ict3 246)
+@18   = ~<CHARNAME>, quest'uomo ha ucciso tuo padre. La lasceresti passare liscia? Sicuramente, i suoi piani sono rovinati, ma vive ancora.~
+//Farmer Brun (ict3 255)
+@19   = ~<CHARNAME>, non solo hai offerto il tanto necessario aiuto, ma l'hai offerto in modo tale da non ferire l'orgoglio dell'uomo nell'accettarlo. È stata una lezione per tutti noi~
+//Gallor (ict3 259-537)
+@20   = ~Non ti permetterò di accettare l'offerta di questo bandito! Difenditi!~
+@21   = ~Temo che potrebbe riuscire a trovare aiuto. Dovremmo avvisare Charleston e scongiurare uno spargimento di sangue.~
+//Angelo (ict3 263-0)
+@22   = ~È un grave reato essere chiamati assassini, ancora più grave perché viene da un servitore della legge.~
+@23   = ~E questa sarebbe quella che voi umani chiamate giustizia? Giustiziare uomini innocenti per la strada su ordine di un usurpatore?~
+//Varci (ict3 902)
+@24   = ~Seguirei questo ragazzo, se non altro per dire al suo tutore che non è giusto lasciare che il bambino chieda aiuto per la strada.~
+//Vail (ict3 0-0-0-0-894)
+@25   = ~Ti lodo per la tua decisione, <CHARNAME>.~
+@26   = ~Vail, spezzerò le usanze della nostra gente nel fare questo, ma... sei un brav'uomo. Prima di diventare sordo allo spirito, smetti di disonorare la tua comunità vivendo nella città degli umani e pagando donne facili per quello che chiamano "amore". Torna indietro, amico mio, o potresti non tornare affatto un giorno.~
+@27   = ~Non sarai solo.~
+@28   = ~Disonorerai te stesso sfidando coloro che non desiderano combattere.~
+@29   = ~<CHARNAME>, gli oggetti magici sono preziosi, ma il rispetto degli uomini è sempre più caro, non può essere guadagnato derubandone coloro che hai salvato. Pensaci.~
+//Quinn (ict3 827)
+@30   = ~Troppe ricerche come questa finiscono col ritrovamento di un cadavere. Questi sono tempi cattivi, davvero.~
+//Ardrouine (ict3 282-70)
+@31   = ~Amico mio, è stata una nobile azione. Vorrei che più persone fossero pronte come te a dare una mano.~
+		~Amica mia, è stata una nobile azione. Vorrei che più persone fossero pronte come te a dare una mano.~
+@32   = ~Sul mio onore di ranger, giuro che faremo del nostro meglio per attirare gli worg, mia brava donna.~
+//Dynaheir (ict3 39)
+@33   = ~Non me ne starò a guardare, tantomeno ti aiuterò a finire ciò che gli gnoll hanno iniziato torturando questa donna innocente! Lady Dynaheir, è un piacere offrirti il mio aiuto contro questi... banditi.~
+//Spengil'meh (ict3 540)
+@34   = ~Il Ponte di Firewine è stato costruito dagli elfi, <CHARNAME>. Era una città commerciale, fino a quando non fu distrutta quasi due secoli fa. Due potenti maghi hanno combattuto un duello nelle vicinanze scatenando così tanta energia magica da radere al suolo le case e cambiare per sempre il corso del fiume. Mi piacerebbe vedere cosa rimane ancora.~
+//Mirianne (ict3 0-783-784)
+@35   = ~Il tuo sorriso è una ricompensa sufficiente. È importante sapere che da qualche parte in questo mondo qualcuno sia felice.~
+@36   = ~Cara signora, faremo del nostro meglio. E se posso... se una parola di uno sconosciuto ti fosse di conforto, spero che tuo marito stia bene.~
+@37   = ~Grazie, mio buon elfo.~
+//Bjornin (ict3 605)
+@38   = ~Non devi aggiungere altro, Bjornin. Quei mezzogre sono già morti.~
+//Neb (ict3 289-290)
+@39   = ~Questo uomo malvagio non può essere lasciato libero.~
+@40   = ~*scoppia in una fragorosa risata* Stupido elfo.~
+//Ramazith (ict3 840)
+@41   = ~<CHARNAME>! Sei forse sordo? Il mago ucciderà la ninfa! Resterai semplicemente a guardare? Almeno prova a dissuadere questo disgraziato da una simile azione malvagia - o la sua morte ricadrà sulle nostre mani.~
+		~<CHARNAME>! Sei forse sorda? Il mago ucciderà la ninfa! Resterai semplicemente a guardare? Almeno prova a dissuadere questo disgraziato da una simile azione malvagia - o la sua morte ricadrà sulle nostre mani.~
+//Abela (ict3 542-543-544-545)
+@42   = ~Vero, avevi un accordo, ma la vita di questa donna vale più delle parole. Solo un uomo dal cuore nero ti potrebbe criticare te volessi rompere quell'accordo. Ma, forse, Ramazith può essere persuaso a liberarti dalla tua parola.~
+@43   = ~Ci sono così tante formalità nelle città degli uomini... ascolta il tuo cuore, elfo. Non ti dice di liberarmi?~
+@44   = ~Sì, ma ho ancora speranza che <CHARNAME> rinsavisca prima che debba essere versato del sangue.~
+@45   = ~Sangue... *rabbrividisce* il sangue è orribile...~
+//Ragefast (ict3 297)
+@46   = ~Uno non imprigiona la donna che è il suo amore e la sua stessa vita contro la sua volontà. Lasciala andare, mago, se non vuoi pentirti di averla mai amata.~
+//Miniera (ict3 300)
+@47   = ~No, *non* l'abbiamo fatto, ma provvederemo immediatamente. Andiamo, <CHARNAME>.~
+//Rill (ict3 852)
+@48   = ~Un piano audace, amico mio! <CHARNAME>, dobbiamo *liberare* queste persone.~
+//Tenya (ict3 303)
+@49   = ~Questo è spregevole! Questi pescatori ci hanno mandato ad assassinare una bambina! <CHARNAME>, non lo sopporterò!~
+//Talanthyr (ict3 95-96)
+@50   = ~Speravo in un benvenuto più caloroso per la mia compagnia, Thalantyr. Una volta mi hai offerto il tuo tetto o te ne sei dimenticato?~
+@51   = ~Elfo! Il tuo nome è Kivan, se non sbaglio. Bah! Questo è il trattamento che meriti, se te ne stai in un angolo con il cappuccio a coprirti il viso. Ma non ti ho mai ringraziato adeguatamente... Vieni, vieni, ti mostrerò cosa ho fatto con la lancia che hai rotto a quei fastidiosi banditi che hanno cercato di forzare l'ingresso. Sono abbastanza contento di come l'incantamento ha attecchito. Non fabbrico armi, intendiamoci. Bah! È un regalo. Prendila, prendila, elfo.~
+//Kelddath
+@52   = ~Il tuo tempio è giusto e pieno di speranza, sacerdote.~
+@53   = ~E tu l'hai abbandonata la speranza, figlio mio?~
+@54   = ~Ho speranza, ma si trova oltre questo piano, Kelddath Ormlyr.~
+@55   = ~Guarda il sole mentre sorge, elfo. Nasce di nuovo ogni mattina - qui e ovunque nel resto del mondo... e su questo piano. Rallegrati, perché sei benedetto dai suoi raggi.~
+//Drizzt
+@56   = ~Saesa omentien lle, Drizzt Do'Urden. Piacere di conoscerti... Ho sentito parlare di te tra la mia gente e sono contento che ci siamo incontrati. Sono Kivan di Shilmista. Non mi sarei mai aspettato di trovare un'anima nobile tra quelli del tuo popolo. Servo Shevarash, eppure sento che non bestemmierei la mia fede stringendoti la mano, Drizzt Do'Urden. Il vero sangue di Ilythiiry scorre forte in te, incorrotto dal tradimento di Lolth. Anche dopo 5000 anni, la bontà nidifica ancora nell'oscurità.~
+@57   = ~Non so quanti della mia gente siano nati e rimangano incorrotti dagli insegnamenti di Lolth. Ma mio padre lo era. Può darsi che un giorno potremmo riunirci tutti e camminare in superficie come amici che inseguono gli stessi buoni propositi.~
+@58   = ~In quel caso le fatiche di Shevarash sarebbero davvero terminate.~
+@59   = ~Shevarash ha una prospettiva più chiara. Le migliaia di anni di odio che dividono i nostri popoli non saranno facilmente dimenticate. Tuttavia, non possiamo che riporvi speranza. Con la benedizione di Mielikki, Kivan.~
+@60   = ~Aa 'menealle nauva calen ar' malta, Mori'quessir. Possano le tue vie essere verdi e dorate, Elfo Oscuro.~
+//Samuel
+@61   = ~Una diserzione è un atto di codardia, ma non posso fare a meno di compatirlo. E la donna, Lena, ha abbastanza coraggio per tutti e due, camminando per boschi pieni di gibberling, con un uomo ferito da proteggere. Cerchiamo di nascondere l'uomo, <CHARNAME>, per il suo bene, anche se non merita altro che il nostro disprezzo.~
+//Vai (ict3 813-814-815-816-817)
+@62   = ~Se hai ancora bisogno di una mano per distruggere i banditi nella zona, Jessa Vai, il mio amico ha accettato di aiutarmi a trovare il loro covo.~
+		~Se hai ancora bisogno di una mano per distruggere i banditi nella zona, Jessa Vai, la mia amica ha accettato di aiutarmi a trovare il loro covo.~
+@63   = ~Buona giornata anche a te, Kivan di Shilmista. Lasciami solo aggiornare <CHARNAME> su alcuni... dettagli. Con il tuo permesso...~
+@64   = ~È bello vedere che hai preso il ranger nel tuo gruppo. Ha dannatamente bisogno di compagnia per rimanere sano di mente. Vero cuore e anima passionale... e un dolore così sconfinato. Mi spaventa vedere un uomo bruciarsi così rapidamente. Prenditi cura di lui, vuoi?~
+@65   = ~Sono felice di vedere che una donna sensibile si prende cura del ranger. Cuore sincero e anima passionale... e un dolore così sconfinato. Mi spaventa vedere un uomo bruciarsi così rapidamente. Prenditi cura di lui, d'accordo? E se vuoi fare due chiacchere, questa sera il vino lo offro io.~
+@66   = ~Ora, tornando agli affari... hai qualche domanda, <CHARNAME>?~
+//Gerde (ict3 223-224)
+@67   = ~Farò in modo di contare il numero di bestie che uccideremo e che i miei compagni ricordino il limite.~
+@68   = ~Che Shaundakul ti guidi, amico.~
+//Brielbara
+@69   = ~Nei miei lunghi anni di solitudine ho spesso desiderato avere avuto un bambino, Coran. Pensa bene, prima di rifiutare il dono che questa donna ti ha offerto.~
+@70   = ~Kivan... Io non sono te, e Briel non è Deheriana.~
+//Corsone
+@71   = ~A volte il dono della morte è misericordioso, lo so fin troppo bene. Ma quell'uomo era impazzito dal dolore. E nonostante questa conoscenza, Corsone non ha fatto nulla per impedire la morte di uno che sosteneva essere suo compagno. Anzi, ci ha aiutato a uccidere Osmadi...~
+@72   = ~Ti esorto a proseguire con il tuo interrogatorio, <CHARNAME>. Questa morte è sulle nostre mani e non saremo mai in grado di fare ammenda, se non conosciamo l'intera verità sulla questione.~
+//Nexlit (ict3 801-802)
+@73   = ~Sciamano, non abbiamo fatto altro che attraversare l'insediamento con le armi nel fodero, quando il tuo popolo ci ha attaccato. Ma le abbasseremo, se abbasserete le vostre.~
+@74   = ~È troppo tardi. Troppi sono morti. Ursa ti ucciderà per questo!~
+//Ramazith (ict3 834)
+@75   = ~Il mago non cercava di liberare la ninfa prigioniera, ma solo di imprigionarla di nuovo? <CHARNAME>, faremmo bene a liberare questa creatura dei boschi e lasciarla fuggire da questi uomini.~
+//Lothander (ict3 762-763
+@76   = ~Avvelenati? Il nostro avversario sta diventando disperato, se passa dall'acciaio delle spade agli intrugli maledetti di Talona.~
+@77   = ~Oh, qualunque cosa. Mettiamoci subito al lavoro.~
+//Minsc (ict3 526)
+@78   = ~<CHARNAME>, un uomo può essere torturato e ucciso, ma manterrà il suo onore. Una donna prigioniera di brutali selvaggi no... Ti esorto a cercare di trovare la compagna di quest'uomo, prima che sia troppo tardi.~
+//Archeologi
+@79   = ~È così che gli umani cercano la conoscenza? Scavando i tumuli dei loro antenati? Ti invito alla cautela, amico mio, le curiosità di questa natura nidificano spesso nelle anime malvagie o avide.~
+		~È così che gli umani cercano la conoscenza? Scavando i tumuli dei loro antenati? Ti invito alla cautela, amica mia, le curiosità di questa natura nidificano spesso nelle anime malvagie o avide.~
+//Edwin (ict3 467)
+@80   = ~Vuoi che ci scagliamo su una donna come una banda di briganti e la uccidiamo? Sembra parecchio malvagio, Edwin Odesseiron, e non hai prove delle malefatte o dei reati della donna contro di te. <CHARNAME>, faremmo bene ad avvertire Dynaheir dei complotti di quest'uomo.~
+//Mulahey (ict3 787-788)
+@81   = ~Utinu en lokirim! Figlio di serpenti!~
+@82   = ~Ci sono troppi elfi in questa miniera! Uccidetelo!~
+//Mutamin (ict3 492)
+@83   = ~Un vero artista l'ho visto vicino alle miniere di Nashkel. Prism il suo nome. Ha riversato la sua anima in una scultura di rara bellezza - e ha dato tutto sé stesso per dare vita alla pietra. Al contrario, tu prendi la vita degli altri, pazzo, e non hai creato nulla se non un giardino di paura... non sono statue, Mutamin, sono... pietra morta.~
+//Teven
+@84   = ~Se potessi fare a modo mio, le abbasserei sulla tua gola.~
+@85   = ~Aspetta un minuto! Abbassate i cappucci, feccia! Ragazzi, ecco il vecchio amico di Tazok: è quello che ha offeso Red Gren! Portiamo la sua testa a Tazok - saremo ricchi!~
+@86   = ~Attacchi Teven
+Ho incontrato una parte dei banditi che attualmente affliggono la Costa. Il loro leader, Teven, ha riconosciuto il mio compagno, Kivan... e abbiamo dovuto combattere. Dovrò trovare un altro metodo per localizzare la loro base.~
+//Raiken (ict3 828)
+@87   = ~Non poserò la mia spada, <CARNAME>! Preferirei affondarla nel corpo di quest'uomo. Tuttavia, se vuoi entrare nel nido dei banditi sotto mentite spoglie, tratterrò la mia mano. Ma non aspettarti che taccia, quando incontreremo Tazok.~
+//Credus
+@88   = ~Sbagliato. È Tazok, che morirà in questa <DAYNIGHT>!~
+@89   = ~Non un'altra spia elfica! Ho già avuto abbastanza piagnistei da quel tale Ender! Comunque, cari miei, morite!~
+//Raemon
+@90   = ~Dov'è?! Dimmi dov'è Tazok e ti lascerò andare!~
+//Garklax (ict3 684)
+@91   = ~Non sono prigionieri, <CHARNAME>. Molto probabilmente sono banditi troppo indisciplinati anche per il Gelo!~
+//Ender
+@92   = ~Grazie, amico. Io... so cosa significa essere catturati da Tazok e dai suoi uomini. Hai bisogno di guarigione?~
+@93   = ~No, il peggio è passato. Tazok si è dimenticato di me per qualche giorno... o stava preparando qualcosa di speciale per la mia esecuzione e voleva tenermi sulle spine? Chissà, ma nella sua tenda sono stato al sicuro dai suoi bruti... Quasi del tutto.~
+@94   = ~Sei stato fortunato, Ender.~
+@95   = ~Sei... sei Kivan, per caso?~
+@96   = ~Mi conosci?~
+@97   = ~Ho sentito menzionare il tuo nome. Attento, amico, hai qualcuno sulle tue tracce. Non ne so molto di più, ma fai solo attenzione. Vanya sulie... Venti propizi.~
+//Permidon (ict3 503)
+@98   = ~Ho già incontrato questo mago, Thalantyr. È un brav'uomo e non sopporterò un assalto contro di lui. Vale la pena fargli visita, tuttavia, e magari commerciare con lui, <CHARNAME>. Sarà interessato agli oggetti magici, se mai ne avremo in surplus.~
+//Cattack
+@99   = ~<CHARNAME>, questi sono banditi del Gelo e siamo obbligati a fermarli!~
+@100  = ~Sì, hai ragione, orecchie a punta. Sono Cattack, membro del Gelo. E al Gelo è stato ordinato di attaccare tutti i grassi umani che trasportano ferro. Lo facciamo, ci piace perché uccidere è così divertente!~
+//Kirian (ict3 204)
+@101  = ~Dovevi per forza provocare quella donna? Questi omicidi avrebbero potuto essere evitati, <CHARNAME>, se avessimo un uomo saggio come leader.~
+	~Dovevi per forza provocare quella donna? Questi omicidi avrebbero potuto essere evitati, <CHARNAME>, se avessimo una donna saggia come leader.~
+//Davaeorn (ict3 214)
+@102  = ~Hai ragione su una cosa: siamo arrivati a porre fine alle tue torture e alla schiavitù di persone innocenti. Quanto al fatto di essere già morti... vedremo. Non siamo schiavi affamati che tu possa facilmente offendere.~
+//Karan
+@103  = ~Il tuo vecchio tutore non ha espresso alcuna rimostranza nel vedere la nostra compagnia marciare attraverso questo santuario di conoscenza, armata fino ai denti. Eppure, si preoccupa di un uomo che ha recitato a memoria una vecchia pergamena. Questa è una biblioteca davvero particolare.~
+//Garrick (ict3 685)
+@104  = ~<CHARNAME>, non è il momento per caute riflessioni: una donna è minacciata di tortura! Prego che non sia già troppo tardi!~
+//Faltis
+@105  = ~Mi scuso per le mie parole avventate, <CHARNAME>. Avrei dovuto essere più saggio e prendere in considerazione che la donna potesse mentire, ma... *scuote la testa*~
+//Montaron
+@106  = ~Voi benpensanti non siete proprio la giusta compagnia per me.~
+//Beldin
+@107  = ~Coboldi! Riparati dietro di noi, vecchio...~
+//Montaron
+@108  = ~Montaron ha ucciso un mio simile senza motivo! <CHARNAME>, volevo solo correggere il torto... ma ho portato qui te e il tuo compagno. Ora un uomo innocente giace morto ai miei piedi. Da ora in poi, caccerò da solo.~
+@109  = ~No, Kivan, non andare! Sono inorridito io stesso da quello che ha fatto Montaron, e non lo terrò in questa compagnia!~
+		~No, Kivan, non andare! Sono inorridita io stessa da quello che ha fatto Montaron, e non lo terrò in questa compagnia!~
+@110  = ~Come ti pare, regina del dramma.~
+@111  = ~Non posso sinceramente augurarti buona fortuna, <CHARNAME>...~
+//Prism
+@112  = ~Mi inchino a te con rispetto, maestro artista. Ti sei legato a una donna che non eri destinato a conoscere. Il tuo amore è stato leggero, luminoso e puro, e risplenderà per secoli. Hai dato alla luce qualcosa di bellezza immortale come la modella stessa.~
+// @113  = ~Ho bisogno di un momento per dire una preghiera a Shevarash. Sembra che il mio nemico giurato sia finalmente alla portata della freccia.~
+// @114  = ~Procedi rapidamente, per non farci scoprire.~
+// @115  = ~Certo, elfo. Unirò la mia voce alla tua per il successo della nostra battaglia contro i briganti.~
+// @116  = ~Mi dispiace, Kivan, preferirei che ci muovessimo rapidamente. Puoi pregare tutto quello che vuoi, dopo che abbiamo finito.~
+// @117  = ~Mio signore Shevarash, eccomi qui, sul suolo che la bestia che ha ucciso la mia amata cammina ancora. Non c'è desiderio più grande nel mio cuore che bagnarlo con il suo sangue nero. Chiedo la fermezza del mio braccio per abbinare la fermezza della mia anima. Chiedo l'adempimento del mio voto, chiedo lo sciopero che farà cadere il mio nemico. Ti chiedo di darmi forza per combattere e forza per proteggere coloro che combattono con me.~
+// @118  = ~Vedo il tuo bisogno. Starò zitto. Lascia che le mie frecce cantino la mia preghiera per me.~
+//Tazok
+// @119  = ~Ricordi la mia Deheriana, bestia?~
+// @120  = ~NO! Resta e combatti, se non sei un codardo... Ma cosa mi aspettavo? Tazok è un codardo, perché chiunque torturi innocenti e indifesi è un codardo. Questa battaglia è finita, ma la guerra no, Tazok! Ti troverò!~
+//Sarevok
+@121  = ~Il tuo fratellastro e nemico giurato è vicino, <CHARNAME>. Possano gli dei avere pietà di te.~
+//Torre di Durlag
+@122  = ~È un posto strano che hai scelto di visitare. La tua caccia al tesoro è così importante che desideri attraversare queste sale piene di fantasmi nani? Loro non amano la vista di quelli come me, lo percepisco.~
+//Baldur's Gate
+@123  = ~L'immaginazione degli umani è piuttosto limitata... così tante case e sembrano tutte scatole dipinte di grigio.~
+//Villaggio Xvart
+@124  = ~Se sono bestie malvagie, perché il mio cuore prova rimpianto per aver distrutto il loro sostentamento? Lottano per le loro case qui, <CHARNAME>, e noi siamo invasori, non difensori. Faremmo bene ad evitare questo passaggio in futuro.~
+//Morte di Bassilus
+@125  = ~Siamo così diversi: quest'uomo e io? Aveva a cuore gli zombi come se fossero la sua famiglia, e io cammino sul piano materiale con i miei pensieri sempre rivolti a quello di Arvanaith. Quanto tempo ci vorrà prima che il mio desiderio crei un fantasma di Deheriana?~
+@126  = ~Quanto tempo ci vorrà, prima di fare la sua stessa fine, e terrorizzare le persone di buon senso? <CHARNAME>, dovremmo trovare presto Tazok. Il mio tempo qui si riduce.~
+// @127  = ~Deheriana... sei stato vendicata, mela en'coiamin. Shevarash! La tua volontà è stata fatta!~
+// @128  = ~<NOME_CARICATO>... Rimarrò per aiutarti a trovare quello che ha ucciso tuo padre. Prego che lo affrontiamo presto, perché ci vuole tutta la mia forza per rimanere su questo piano...~
+//Ankheg
+@129  = ~Basta, <CHARNAME>. Metteremmo in pericolo la colonia, se continuassimo la caccia.~
+// @130  = ~Uccideteli! Sono atteso nelle miniere e non ho tempo per questa merda!~
+// @131  = ~Tazok ha riconosciuto Kivan e il nostro piano per infiltrarsi nel campo del bandito è fallito.~
+// @132  = ~La testa di quell'elfo deve ornare il palo davanti alla mia tenda!~
+// @133  = ~Kivan e Tazok
+//
+// Non sorprende che il mio compagno Kivan sia stato riconosciuto da Tazok, ma non ha avuto la possibilità di infilzare l'orco. Apparentemente il bandito era troppo occupato per affrontare l'elfo pazzo della vendetta. Tazok sta viaggiando verso un sito minerario. Questo sito minerario potrebbe essere la base di chiunque controlli i banditi.~
+// @134  = ~Tazok ha riconosciuto Kivan
+//
+// Tazok ha riconosciuto Kivan e il nostro piano per infiltrarsi nel campo del bandito è fallito.~
+// @135  = ~Ora, non è forse il nostro morto che cammina? E con una compagnia di patetici sciocchi come lui, nientemeno.~
+// @136  = ~Lascia fuori i miei amici, questo è tra te e me. Oggi è il giorno della tua morte, Tazok!~
+// @137  = ~Oh, la tua voce stridente mi fa rabbrividire! Hai assillato i miei soldati abbastanza a lungo, feccia! Facciamola finita e questa volta definitivamente.~
+// @138  = ~Kazan riconosciuto da Tazok
+//
+// Tazok ha riconosciuto Kivan. La nostra unica speranza di infiltrarsi nel campo del bandito ora è uccidere il demonio. A Kivan piacerebbe, scommetto.~
+// @139  = ~Lo! Tazok è stato trovato morto. Con Mask, avrebbe le nostre pelli, se fosse di nuovo fortunato, e se i capi del Gate lo ordinassero rattoppato...~
+// @140  = ~Ma chi sei? Non ti ho mai visto prima... Bah, non ho voglia di fare domande. Nessuno spenderebbe un bel soldo per sollevarmi.~
+// @141  = ~Quindi, scusa amico, ma sei appena stato promosso a assassini. HEYOOO! Ho trovato gli assassini di Tazok! HEYOOO!~
+// @1001 = ~Tazok! Finisci questo!~
+//Dink
+@1002 = ~Vi ringrazierà, ne sono sicuro.~
+//Angelo
+@1003 = ~Mostrami un uomo innocente e lo risparmierò. Nel frattempo, tieni la tua maledetta bocca chiusa!~
+//Vail
+@1004 = ~Sì, bene, grazie e addio.~
+@1005 = ~Allora stiamo insieme!~
+@1006 = ~Hai la pergamena! Se non sei soddisfatto, combatterò.~
+//Mirianne
+@1007 = ~Lo sono, e grazie per il tuo aiuto!~
+//Ramazith
+@1008 = ~Questa è una scoperta rara, elfo!~
+//Raemon
+@1009 = ~Cosa?! Cosa ci fai qui?~
+//Karan
+@1010 = ~Stai solo attento. Addio.~
+//Faltis
+@1011 = ~Grazie per l'aiuto, comunque.~
+

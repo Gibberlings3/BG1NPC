@@ -1,0 +1,26 @@
+//Miniere di Nashkel
+@0    = ~E chi pagherebbe per la consegna?~
+@1    = ~*annusando l'aria* Sai, <CHARNAME>, essendo un lungagnone forse non te ne sarai accorto, ma qui c'è una puzza che non è naturale per delle miniere.~
+		~*annusando l'aria* Sai, <CHARNAME>, essendo una lungagnona forse non te ne sarai accorta, ma qui c'è una puzza che non è naturale per delle miniere.~
+@2    = ~Oh, sei diventato un segugio adesso? Comunque, cosa pensi che possa essere?~
+@3    = ~L'unica volta che mi è capitato di sentire un simile tanfo è stato quando ho dovuto recuperare il bottino da una carovana saccheggiata presso i Picchi delle Nuvole. E veniva da una caverna infestata da coboldi!~
+@4    = ~Coboldi? Sarebbe un sollievo. Sicuramente molto meglio che combattere dei demoni.~
+@5    = ~Fino a un certo punto. So che quei piccoli ratti lucertola trasportano ben poco oro e viaggiano solitamente in gruppi numerosi. Meglio proseguire con prudenza, fino a quando non ne saremo certi.~
+//Tempio di Bhaal
+@6    = ~Mi domandavo, ora se... nah.~
+@7    = ~Che cosa c'è? Dimmi, potrebbe essere importante.~
+@8    = ~Beh, c'è che i doganieri da queste parti hanno dita certamente non refrattarie alle monete. Stavo solo pensando che un bel po' di merci potrebbero starsene qui inosservate. Ma riflettendoci meglio ci sono ladri su per le scale e il fiume scorre nella direzione sbagliata per i miei commerci, quindi non importa.~
+@9    = ~Capisco. E cosa c'entra tutto questo con la nostra missione?~
+//Davanti alle porte della città 
+@10   = ~Per essere un lungagnone, quel Baldur doveva avere un certo buon senso. Che io sia la nonna di un coboldo se quella pietra laggiù non è di lavorazione nanica.~
+//Entrando in città 
+@11   = ~Opulenza sopra altra ricchezza, e tutta strappata dalle labbra sanguinanti di poveri affamati!~
+@12   = ~Eh? Non avrei mai pensato che ti importasse qualcosa dei poveri.~
+@13   = ~Certo che mi importa! Mi importa moltissimo non diventare uno di loro. Questo posto ha trappole in grado di mandarti in rovina, quindi muoviamoci con discrezione, d'accordo?~
+//Candlekeep
+@14   = ~Bah! Tutto questo gran polverone e poi scommetto che l'unico con un briciolo di senso pratico qui, è il tizio che fa alzare e abbassare il cancello.~
+//Risposta al 9
+@15   = ~Nulla suppongo. Pensavo tra me e me, tutto qui.~
+//Oublek
+@16   = ~Io non sono certo un gemmologo, <CHARNAME>, ma direi che ci abbiamo rimesso alla grande. Solo quelle pietre verdi valevano il doppio di quello che abbiamo ottenuto, per non parlare del lavoro sporco.~
+

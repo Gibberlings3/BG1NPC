@@ -1,0 +1,318 @@
+//Charname
+@0    = ~<CHARNAME>, non si può rimanere a lungo in tua compagnia senza rendersi conto che hai avuto sogni... fastidiosi, ultimamente.~
+@1    = ~Di che preoccupazione possono essere i miei sogni per un necromante?~
+@2    = ~Una volta o due. Perché, interferiscono con il tuo riposo rigenerante?~
+@3    = ~Se avessi saputo che ti importava, ti avrei portato con me...~
+@4    = ~I miei sogni sono fatti miei. Lasciami stare.~
+@5    = ~Tutte le cose relative a un compagno fedele come te sono di mio interesse, <CHARNAME>.~
+@6    = ~Stai suggerendo che *Io* sia un tuo interesse... *personale*?~
+@7    = ~Vorrei poter dire lo stesso di te.~
+@8    = ~Osa citare di nuovo i miei sogni e ti strapperò i polmoni.~
+@9    = ~Abominevolmente, ora che me lo dici, ma non era questo il punto.~
+@10   = ~C'è un punto? Sentiamolo!~
+@11   = ~I miei sogni sono solo miei. Punto e basta.~
+@12   = ~Ci sarà un punto rosso nel tuo cuore, se non metti a tacere la bocca in questo istante!~
+@13   = ~Se *io* sognassi che tu fossi competente a sufficienza per farmi tornare, ci verrei. Tuttavia, al momento, mi preoccupo di ciò che questi sogni presagiscono per il tuo io cosciente.~
+@14   = ~Rilassati. Sono solo brutti sogni, niente di più!~
+@15   = ~Senti, ultimamente ho avuto dei brutti momenti. La cosa strana è che i miei sogni non sono i peggiori.~
+@16   = ~Presagiranno la TUA morte, se non smetti di lamentarti!~
+@17   = ~Spero che tu sia davvero così dubbioso come lasci intendere, <CHARNAME>.~
+		~Spero che tu sia davvero così dubbiosa come lasci intendere, <CHARNAME>.~
+@18   = ~Non essere irragionevole! Desidero semplicemente assicurarmi che i tuoi incubi non presagiscono... follia o... possessione.~
+@19   = ~Presagiranno la TUA morte se non smetti di lamentarti!~
+@20   = ~Potresti, se solo smettessi per un momento di crogiolarti in un cupo auto-assorbimento. Purtroppo, alcuni miracoli vanno oltre il mio potere. No, non sporcherò più il mio intelletto con tale contatto.~
+@21   = ~Una risposta davvero... rivelatrice... Grazie, <CHARNAME>.~
+@22   = ~Io non... no, è stupido illuminare la strada a chi ha gli occhi chiusi. <CHARNAME>, il nostro sforzo congiunto probabilmente richiede che tu tenga la mente aperta. Eppure, i tuoi sogni presagiscono una... alterazione dentro di te che potrebbe... potrebbe... dominare il tuo io semi-cosciente.~
+//Prima di inondare le miniere
+@23   = ~Finché la salma vaaa... lasciaaala andaare!~
+@24   = ~Finché la salma vaa-~
+@25   = ~Xzar!~
+@26   = ~Oh? L'ho detto ad alta voce?~
+@27   = ~L'hai *cantato* ad alta voce. Pensa ai sentimenti di Yeslick!~
+//Imoen, prima di un riposo
+@28   = ~Ah, bambina, trovato qualcosa di interessante nelle nostre comuni tasche ultimamente?~
+@29   = ~Ehm... no, solo lanugine e briciole. Perché? Stai nascondendo qualcosa?~
+@30   = ~No davvero. Solo i poveri strumenti del mio mestiere, come tu hai i tuoi.~
+@31   = ~Ah-ah. Un coltello chirurgico e guanti, pergamena, penne, inchiostro, un gomitolo di corde di budella, quattro fiale di ceramica vuote e due fiale di acciaio che sembrano vuote.~
+@32   = ~Con cosa le hai chiuse? Non è sughero. Sembra più una specie di catrame.~
+@33   = ~Sei *stata* una bambina molto curiosa. Sono tappi non reattivi realizzati da specialisti di... mia conoscenza. Non si sa mai quando si potrebbe desiderare conservare un... campione.~
+@34   = ~Campione? Di cosa?~
+@35   = ~Non si sa mai. Per dire, proprio l'altro giorno, ho trovato quello che ritenevo un campione eccezionale. Ahimè! Mi è sfuggito prima che potessi accertarmene.~
+@36   = ~Scommetto che ti succede spesso.~
+@37   = ~Tutte le cose arrivano a coloro che aspirano... e aspettano. Aspetta che qualcuno finisca il lavoro sporco, dannazione alle loro ossa pigre! Perché *non possono* fare il loro lavoro e farmi andare avanti con il mio?~
+@38   = ~Forse non hai ancora aspettato abbastanza.~
+@39   = ~*sospira* Probabilmente no. Vuoi una gelatina, Imoen?~
+@40   = ~Uh... ne hai?~
+@41   = ~Ne avevo un po' una volta e mi piacerebbe averne delle altre. Per favore, tienilo a mente, dovresti imbatterti in qualcuna, vuoi?~
+//Imoen, come prima
+@42   = ~Bambina mia, mi stai ignorando. Non è molto gentile da parte tua.~
+@43   = ~N-no, non ho avuto molto da dire, tutto qui.~
+@44   = ~Allora ascoltami ora, bambina. Quante morti porti dentro di te?~
+@45   = ~Accidenti! Spero solo una, veloce e indolore.~
+@46   = ~Davvero? E che dire dei bambini che avrai un giorno e dei loro figli e dei figli dei loro figli? Considera questa moltitudine, in fila davanti alla fossa della morte, come gladiatori in un'arena.~
+@47   = ~Stai *cercando* di spaventarmi, Xzar? Perché stai facendo un ottimo lavoro.~
+@48   = ~Oh. Allora mi passeresti la mia coperta blu, per favore? È proprio accanto al tuo ginocchio lì sulla spallina.~
+//Davaeorn morto
+@49   = ~*canta a pieni polmoni* Ding, dong, il lich è morto, lecca il lich, il lich laccato...~
+@50   = ~Ehi! Abbassa i toni, Xzar. Ci sono ancora molte guardie in giro. Li vuoi tutti qui nella stanza con noi?~
+@51   = ~Puah! Non sono niente. Il loro malvagio capo ha incontrato il suo destino ultimo. Non è forse motivo per gioire? Per cantare? Per dare una festa di compleanno?~
+@52   = ~Non avevo mai pensato prima di accendere candele su una crostata.~
+@53   = ~Okay! Scateneremo una vera baraonda quando torneremo in superficie. Ma prima ci dobbiamo arrivare, questo posto mi fa venire i brividi.~
+@54   = ~Il tuo pragmatismo ha annichilito la gioia tanto quanto i nostri colpi quel mago. Seguiamo allora quindi il tuo consiglio implicito. Saccheggiamo e diamocela a gambe!~
+@55   = ~Trattieni la tua allegria, se non vuoi allertare tutte le guardie sopravvissute in zona.~
+@56   = ~Ci sarà tempo in abbondanza per festeggiare quando saremo fuori da questi sotterranei, Zhent.~
+@57   = ~Zhent?! È una servitrice dell'Equilibrio davvero povera colei che disapprova l'utilizzo di un  male presunto per porre rimedio a uno indubbio.~
+@58   = ~Eppure p-potrei dire che chiunque v-vinca tra gli Zhent e questi schiavisti, il b-bilancio sarà comunque m-malvagio.~
+@59   = ~Potresti - se riuscissi a dire due parole in fila senza balbettare.~
+@60   = ~Silenzio, Monty. Lascia pure che i nostri colleghi diano la loro stimata – ih ih - opinione, al meglio delle loro possibilità.~
+@61   = ~La crudeltà può essere in cose piccole e grandi. Puoi intuire perché vi ci opponiamo?~
+@62   = ~Sì, potrei. Ma la tua asprezza ha posto fine a tutto il divertimento. Seguiamo allora quindi il tuo consiglio implicito. Saccheggiamo e diamocela a gambe!~
+@63   = ~Miserabile! Mio mar... Khalid è caduto in questa missione. Devo forse sopportare anche la tua idiozia?~
+@64   = ~Ah, ma lui ha trovato la pace. Come un ornamento da giardino della miglior fattura.~
+@65   = ~'lasciala andaaaree...'~
+@66   = ~Non importa. C'è saggezza nel tono beffardo del mago.~
+@67   = ~AH! Un grosso applauso alla raffinata percezione del bassotto!~
+@68   = ~Ho lasciato alle spalle molti fratelli del clan per combattere il Trono. E ho visto il male che possono diffondere se lasciati fare indisturbati.~
+@69   = ~'Lasciala andare.' Aye, è meglio così.~
+//Ajantis
+@70   = ~Sir paladino, muoviti! Un drago!~
+@71   = ~Eh, cosa, dove? Non vedo nulla.~
+@72   = ~Eccolo! In quel gruppo di rovi!~
+@73   = ~Il tuo tentativo di scherno è meschino quasi quanto te. Vedi abbastanza chiaramente che sono un paladino, ma fingi di credere che un passero sia un drago.~
+@74   = ~Ah, chiedo perdono, sire, maledico questi miei sensi erranti. Ora percepisco che mi sono sbagliato due volte.~
+@75   = ~Due volte?!~
+@76   = ~Assolutamente. Per un istante, avevo davvero creduto che quella cinguettante creatura fosse un paladino.~
+//Sirene
+@77   = ~Queste adorabili creature sono morte. È un giorno triste, davvero...~
+@78   = ~Non ti avrei mai ritenuto così sensibile alla bellezza, Xzar. Forse ti ho giudicato male...~
+@79   = ~Ahimè, dover contemplare una tale carneficina senza avere una singola fiala-~
+@80   = ~Fiele? Beh, ammetto che abbiano cercato di irretirci e poi ucciderci, ma è nella loro...~
+@81   = ~No, idiota, FIALA! Un recipiente in ceramica per il sangue dei loro cuori. Non ti aspetterai che lo raccolga col mio mantello, vero? Non sarebbe più utile dopo, te lo assicuro.~
+@82   = ~Tu... vorresti... fare esperimenti su queste fuorvianti creature?~
+@83   = ~Ah! Ecco infine l'alba dopo la notte più buia. Ma certo che farei degli esperimenti. Che cosa vorresti che facessi... mangiarle?~
+@84   = ~In effetti, ti *ho* giudicato male. Sono stato troppo ottimista a quanto pare.~
+@85   = ~Bravo Sir Cavalleria, è un mondo duro e penoso. Uno semplicemente non può permettersi di perdere opportunità come questa, per la sola mancanza dell'attrezzatura appropriata.~
+@86   = ~Anche se, ora che lo dici... le sirine sono delicate, come le sogliole, e per nulla pesanti come il manzo stagionato. Si grigliano i lombi, affettati sottilmente, con alcune uova di pettirosso e un po' di crescione per guarnizione, e...~
+@87   = ~Chiederò a Monty cosa ne pensa.~
+@88   = ~Penso che tu stia pensando troppo lentamente. Puzzano già come un cimitero.~
+@89   = ~*sospira* Sembra essere il mio giorno delle opportunità mancate. Avrei davvero dovuto consultare il mio oroscopo prima di alzarmi questa mattina.~
+//Alora
+@90   = ~Signorina mano-svelta, per favore raccontami una storia.~
+@91   = ~Che tipo di storia vuoi sentire?~
+@92   = ~Una favola felice sugli allegri halfling che spettegolano, bevono birra, cantano e... macellano i loro greggi, strappando ogni singolo nervo dalle loro vittime per prolungarne l'agonia, fino a farne una forma d'arte.~
+@93   = ~È terribile! Io... non penso che tu mi piaccia! Proprio per niente!~
+@94   = ~Io? Che cosa ho a che fare io con tutto questo? Stavo chiedendo a *te* degli halfling.~
+@95   = ~Non siamo così! E non ti dirò come siamo, *tu* chiaramente non capiresti.~
+@96   = ~Mmpf. A giudicare dai piccoli hobby del caro Monty... ma forse hai ragione. La questione non avrebbe comunque conseguenze per uno come me. Stavo semplicemente facendo un po' di conversazione educata... ovviamente uno sforzo sprecato.~
+//Branwen
+@97   = ~Muuu. Muuuu! MUUUU!... dico io.~
+@98   = ~Non smettere di muggire. È senza dubbio uno dei tuoi discorsi più riusciti.~
+@99   = ~M-ma è l'ora della bistecca di manza e... oh no, accidenti! Oggi è la mia giornata vegetariana.~
+@100  = ~Non hai che da dirmi quando allora, e sarò più che felice ti spedirti al macello.~
+@101  = ~C'è un equivoco... senz'altro lo faresti. Stavo solo testando la teoria di base sulla magia che riguarda i richiami tra simili.~
+@102  = ~Allora hai commesso l'errore di identificarti con la testa della mucca anziché con le sue parti basse.~
+@103  = ~E come testa della mucca, mi viene risposto dalle sue parti basse! Un'altra teoria confermata dalla pratica! Grazie, mia cara, per avermi confermato l'essenza della questione.~
+//Coran
+@104  = ~<CHARNAME> starà impazzendo.~
+@105  = ~Non mi ero reso conto che la tua condizione fosse contagiosa. Terrò le distanze.~
+@106  = ~Buffone! Sei tu la prova della sua pazzia.~
+@107  = ~Oh? Credi che acquisire un arciere del mio talento sia un segno di follia?~
+@108  = ~Rende affollata l'area in cui si devono lanciare incantesimi. Dove ci sono *io*!~
+@109  = ~Stai calmo, mago. In caso di necessità, troverai la mia lama non meno capace del mio arco. Un'idea confortante per te, direi, se la nostra piccola compagnia venisse assalita sul fianco.~
+@110  = ~Davvero? Ti sacrificheresti per salvarmi? Con una conoscenza così breve? Davvero, ti avevo ritenuto incapace di un discernimento così rapido.~
+@111  = ~Non ho detto esattamente "sacrificio". Non sono più suicida di quanto lo sia tu.~
+@112  = ~Cosa?!? Non vuoi morire in una causa così degna? Allora avevo ragione! <CHARNAME> *è* idiota!~
+//Dynaheir
+@113  = ~Oh, strega, mi piacerebbe sapere... uh...~
+@114  = ~Sì? Fai la tua domanda e ti verrà risposto.~
+@115  = ~Se sei una *vera* strega, perché non ridi più spesso? E dimmi, per favore, dove nascondi sulla tua persona il tuo gatto, la tua scopa e il tuo cappello nero a punta?~
+@116  = ~Non sono sicura a cosa tu ti riferisca, ma sembrano provenire da storie per bambini.~
+@117  = ~No! No, no, no, no, noooo! Mammina non mi direbbe una bugia! Non lo farebbe mai!~
+@118  = ~Forse non l'ha fatto, ma ti assicuro che non si riferiva nemmeno alla mia terra natale. Nel Rashemen, le "streghe" sono la sorellanza dei maghi che governano la terra ma il loro nome corretto è Hathran.~
+@119  = ~Non mi piacciono le tue streghe! Sono cattive! Mi piacciono le streghe di Mammina. Volano in aria e ridacchiano e... e... mangiano i bambini cattivi per colazione. Perché non puoi essere una strega così?~
+@120  = ~*sospira* Se dovessi mangiarmi tutti i "cattivi" che incontro, sarei presto così pesante da non poter sorvolare nemmeno un formicaio.~
+@121  = ~Oh. È vero... a questo proposito dovresti proprio fare dell'esercizio fisico.~
+//Edwin
+@122  = ~Ehi, gambe rosse, di nuovo a contemplare le fonti dell'Infinito, eh?~
+@123  = ~La tua sopravvalutazione delle mie attuali elucubrazioni è comprensibile. Tuttavia, temo che questa volta il mio ineffabile flusso di pensiero fosse concentrato su faccende molto più banali.~
+@124  = ~Orsi panda su pattini a rotelle! O palloncini. Palloncini dai colori vivaci che si alzano al sole e scoppiano con piccoli pop così inutili...~
+@125  = ~La tua concezione del banale è allo stesso livello di quella per l'eccezionale. Nulla, in entrambi i casi.~
+@126  = ~E informa il tuo "amico" halfling che ho appena attraversato la regione ora direttamente dietro di me. Non c'è nulla lì che meriti la sua attenzione.~
+@127  = ~Sarai sorpreso... un giorno, sarai sorpreso, io credo... di sapere quali interessi abbia Montaron.~
+@128  = ~Ma... ma... sei cattivo! Non ti piacciono i panda o i palloncini e sei anche un grande ipocrita. Non stavi pensando a niente. Non avresti potuto! Perché *Io* stavo pensando a TUTTO! E a te non è rimasto niente!~
+@129  = ~Ti sbagli. Stavo prendendo in considerazione tutta una serie di piacevoli metodi in base ai quali un necromante squilibrato potrebbe essere eliminato dalla sua - e, cosa molto più importante, dalla *mia* - miseria.~
+@130  = ~Quando ne avrai trovato uno, mi piacerebbe ascoltarlo. Ogni bastone ha due punte, dopotutto.~
+//Eldoth
+@131  = ~Eldoth, cantami una canzone, una canzone felice sul tradimento di una madre nei confronti del figlio amorevole.~
+@132  = ~Mi hai chiesto uno strano soggetto, mago. Ne conosco molte del genere opposto, ma nessuna che possa soddisfare la tua richiesta.~
+@133  = ~Allora creane una! Gli dei stessi lo invocano!~
+@134  = ~Forse se mi dessi un po' più di materiale su cui lavorare...~
+@135  = ~No, no, no! Non se ne parla affatto. Avevo pensato di chiederti di cantare al mio matrimonio. O il mio funerale. Qualunque sia prima. Ma non sei di nessun aiuto.~
+@136  = ~Eldoth, hai conosciuto delle donne...~
+@137  = ~Sì, una o due.~
+@138  = ~Allora dimmi, come tratti l'urgenza di insinuarti, sempre più interiormente, nel loro cuore nero di squallida putrescenza?~
+@139  = ~Non provando a fare nulla del genere, se capisco cosa intendi. Faccio già abbastanza fatica a insinuarmi nelle loro vesti. E il loro oro non aumenta di valore insanguinandolo.~
+@140  = ~Oro? Cosa c'entra l'oro con tutto questo?~
+@141  = ~Semplice, è l'incantesimo erotico più efficace al mondo, amico.~
+@142  = ~Sarà, ma le tue parole sono come meduse, capaci di qualsiasi forma o di nessuna.~
+//Faldorn
+@143  = ~Oh, sacerdotessa di pietra, legno e fango, che differenza può fare una persona - persino io - nel grande schema delle cose? Illuminami, ti prego, perché sto quasi impazzendo.~
+@144  = ~Non troverai conforto da me, pazzo. Le stagioni si susseguono senza curarsi di nessun uomo, per quanto potente esso sia.~
+@145  = ~Ah! Le stagioni, come le detesto! La primavera è per le pulsioni di giovani animali. L'estate snerva le ossa. In autunno si mangia oltre ogni ragione. E l'inverno... ah, il nobile inverno, così freddo, così rigido, così spietato...~
+@146  = ~Come la morte, in effetti.~
+@147  = ~Morte? Qualcuno è morto?~
+@148  = ~Senz'altro.~
+@149  = ~Perché nessuno mi ha avvisato? Chi è morto? Quando?~
+@150  = ~Quando? Proprio in questo momento. Chi? Non saprei dire, Toril è molto grande... ma qualcuno è morto. Una bestia, un uccello, una pianta, un uomo... Sappilo, necromante.~
+@151  = ~Ah, capisco. Bene a sapersi, la nostra comune compagna di letto lavora senza sosta. Ma per quanto io sia inevitabilmente più accattivante di un uomo medio... mi rifiuto di essere una sua vittima!~
+@152  = ~Non avrai più voce in capitolo di qualsiasi altro uomo o insetto.~
+@153  = ~Così dissero i pessimisti al grande Vecna, eppure del Chianti decente non si può trovare a meno di tre pezzi d'oro. Dov'è l'equilibrio naturale in tutto questo!?!~
+//Garrick
+@154  = ~Oh, cantautore, che accordi il tuo strumento...~
+@155  = ~Sì?~
+@156  = ~È un'aria marziale, vero? Riempie il cuore di ardente speranza, di ardore per le lotte a venire?~
+@157  = ~Hai un orecchio acuto. Questo, in effetti, è il motivo della mia canzone.~
+@158  = ~Ottimo, allora... FINISCILA! È TROPPO deprimente.~
+@159  = ~Preferiresti essere un cadavere piuttosto che produrli, suppongo.~
+@160  = ~No, sarebbe sciocco. Ma lo sforzo mi darà un'emicrania... *sospira*... perché, oh, *perché* la gente non può semplicemente morire quando lo dico io?~
+//Kagain
+@161  = ~Oh, bassotto...~
+@162  = ~Tieni a freno la lingua, se ci tieni.~
+@163  = ~Perché ci provo? C'è solo meschinità in menti così vicine al buco del... ma no! Ho una scoperta che voglio condividere con te nonostante tutto.~
+@164  = ~E quindi?~
+@165  = ~Tramite la mia Arte ho predetto che potrò estrarre una moneta d'oro dal tuo orecchio una volta al giorno.~
+@166  = ~E io potrò estrarre lo sterco dal tuo, sciolto dal muoversi incessante della tua lingua, non ho dubbi al riguardo.~
+@167  = ~Lasciamo perdere i tuoi ricordi d'infanzia per ora. Resta fermo solo un momento...~
+@168  = ~Ehi! Non mi taglierai l'orecchio, pazzo bastardo!?~
+@169  = ~Se rimanesse attaccato alla tua testa, come puoi aspettarti che lo possa modellare in una borsa di seta che produca oro?~
+@170  = ~Non mi aspetto altro che tu mi lasci in pace - se ci tieni alla salute!~
+@171  = ~Ahimè, è così triste che un esploratore dei limiti della conoscenza venga affossato in una terra di folli ciechi!~
+@172  = ~E in effetti in una fossa dovresti stare, e io sono solo la persona giusta per questo. Il servizio è persino gratuito nel tuo caso.~
+//Khalid
+@173  = ~Uh, s-salute c-c-coraggioso p-protettore. Dovremmo fare due chiacchiere, io e te.~
+@174  = ~Dì quello che d-devi dire, ma fai in f-fretta.~
+@175  = ~Oh, fammi il piacere. Vedi cercavo qualcuno abituato a farsi mettere i piedi in testa e con cui passare la giornata parlando di un paio di faccende.~
+@176  = ~Le mie abitudini d-domestiche non sono affar tuo, e non ho alcun d-desiderio di passare del tempo con *te*, n-necromante.~
+@177  = ~Preferisci *ri*passare qualcosa di più concreto, non è vero?~
+@178  = ~Va bene, d'accordo! Io coltivo un disinteressato interesse per la morte, l'unico e giusto obiettivo di tutta la vita, e cosa ottengo dalla minoranza ancora vivente? Cecità e bigottismo, ogni volta!~
+@179  = ~I veri obiettivi della vita si manifestano nel viverla.~
+@180  = ~SCIOCCHEZZE! Se vivessimo tutti per sempre, nemmeno dieci di noi troverebbero una giustificazione per la loro stessa esistenza.~
+@181  = ~Quindi non r-rischi di s-sembrare ipocrita, rifiutandoti di raggiungere i-immediatamente il *tuo* obiettivo u-ultimo?~
+@182  = ~Io? Perire? Potrei, ma quel punto, chi ti insegnerebbe le buone maniere?~
+@183  = ~Se siamo t-tutti d-destinati a morire c-comunque, la nostra istruzione n-non ha m-molta importanza. C-certamente non per te.~
+@184  = ~Ah, c'è del vero in quel che dici. Il mio altruismo è effettivamente sprecato.~
+@185  = ~*sospira* A quanto pare dovrò rimanere nel mio percorso solitario senza altra ricompensa oltre che la pura conoscenza - poiché aborro completamente qualsiasi valore nella ricchezza, fama e potere a cui sono destinato.~
+@186  = ~Oh, n-naturalmente.~
+//Kivan
+@187  = ~Oh, piè-leggero, discuti un fenomeno naturale con me per un momento, per favore.~
+@188  = ~Tu? E la natura? Il solo accostare le due cose mi dà i brividi. Sii rapido con le tue parole... e conciso.~
+@189  = ~Molto bene. Osserva, dunque, lo scoiattolo. Gli scoiattoli abitano sugli alberi, vivono di noci e bacche e chiacchierano molto. Quale può essere dunque, mio amico dei boschi, la differenza tra scoiattoli ed elfi?~
+@190  = ~Non vedo tutte queste similitudini. Ci sono cose che uno scoiattolo non farebbe mai. Ad esempio, trapassare con una freccia un umano che si crede divertente. Un elfo, d'altra parte...~
+@191  = ~Allora dovresti insegnare loro quell'arte. Qualsiasi umano così maleducato meriterebbe una simile punizione.~
+//Minsc
+@192  = ~Mmm? Un po' più forte, amico Boo. Non riesco quasi a... oohoohoh, ah, ah, ah. Sì, non è vero?~
+@193  = ~Cosa... cosa stai dicendo?~
+@194  = ~AHAHAHAH! Oh, smettila, Boo, mi stai uccidendo... per favore, Minsc, non interrompere. È molto scortese.~
+@195  = ~TU sei scortese. Boo non lascerebbe mai Minsc da parte quando racconta la sua saggezza.~
+@196  = ~Oh, certo! Pensi che dirà a *te* quello che sta dicendo *di* te?~
+@197  = ~Minsc ti compatisce, Xzar. Stai ascoltando di nuovo voci nella tua testa, piuttosto che Boo. Credimi, perché Minsc conosce la differenza.~
+//Montaron
+@198  = ~Ah, il pulsante viavai del commercio, linfa vitale della civiltà. *sospira* Perché le persone invidiose ci calunniano in questo modo? Che colpa abbiamo noi se i miei metodi... miei e dei miei colleghi... in effetti, la redditività e le economie di mercato portano alla comparsa di monopoli... che restituiscono i lenti e retrogradi alla produzione basica alla quale appartengono...~
+@199  = ~Pesce dorato.~
+@200  = ~Eh? Ehm... cosa...~
+@201  = ~Eh. Ricordo quella volta che Xzar voleva monopolizzare il mercato del pesce dorato a Westgate. Dipinse di giallo 10.000 pesciolini, li ficcò in delle vasche e li accatastò in un magazzino. Voleva 50 monete d'oro a pezzo, perché aveva il ‘monopolio'.~
+@202  = ~Ehm...~
+@203  = ~Ne avesse venduto uno prima che fossero tutti morti. C'erano tutti i gatti nel raggio di venticinque miglia che miagolavano a ogni ora del giorno e della notte, fino a che un pezzo grosso del porto non lo ha costretto a sbaraccare tutto per minaccia alla salute pubblica. Gli è costato un bel gruzzoletto.~
+@204  = ~Caro Monty! Le carenze estetiche di quella comunità filistea ricadranno sulle loro teste in tempi brevi, te lo assicuro. Per il momento, vorrei un bel piatto di fragole e panna... con sopra un cervello di scimmia, proprio così.~
+@205  = ~... disturbanti... sogni...~
+@206  = ~Allora, cosa stai pensando, grande pensatore?~
+@207  = ~Stavo pensando... a quanto coraggiosamente un gilet scarlatto si appoggi su dei pantaloni azzurri.~
+@208  = ~Ah, lo supponevo, ma tienili per il tuo commerciante. Pensa a qualcos'altro.~
+@209  = ~Oh, quello... suppongo che il fatto debba essere comunicato... ma non fino a quando la nostra attuale incertezza non sarà diminuita in modo apprezzabile.~
+@210  = ~Chiaro come fango.~
+@211  = ~È precisamente questo il dilemma. E, naturalmente, non possiamo aspettarci che i nostri... uhm... colleghi conservino una tale risorsa per la mia indagine esclusiva...~
+@212  = ~Né dovrebbero. Conserverebbero *te* all'idea stessa, direi.~
+@213  = ~Sciocchezze! Restituiscono valore per valore... in qualche modo... ma sarebbe così scarso rispetto a...~
+@214  = ~Accidenti a loro! Mi soffocano... uh, ma sono ancora troppo inesp... troppo impegnato, per meglio dire, sulla nostra attuale e più importante missione per contemplare di assumermi l'unica responsabilità di una digressione così prolungata.~
+@215  = ~Quindi aspettiamo ancora un po', eh?~
+@216  = ~Ottimo riassunto, caro Monty.~
+//Quayle
+@217  = ~Oh, saggio gnomo, rispondi a una mia domanda, se puoi.~
+@218  = ~Chiedi. Il mio impareggiabile intelletto giudicherà se meriti una risposta.~
+@219  = ~La mia domanda è questa: qual è la migliore ricetta per conservare sottaceto le rape durante l'inverno?~
+@220  = ~Non si mettono sottaceto le rape, somaro. Sono radici. Conservale all'ombra e asciutte in una scatola di sabbia e resteranno fresche.~
+@221  = ~D'accordo - ma non mi *piacciono* le rape fresche. O quelle sottaceto, d'altro canto, ma...~
+@222  = ~Bah! Piantati nel terreno e germoglia dalle caviglie. A nessuno gnomo è mai comunque importato un accidente delle rape.~
+//Safana
+@223  = ~Oh, guai neri e notizie nerissime, ahimè e me tapino.~
+@224  = ~Sembri del tuo solito umore radioso.~
+@225  = ~Sono triste nell'osservarti priva di quell'ornamento che ti valorizzerebbe al meglio.~
+@226  = ~È per caso qualcosa che mi farebbe assomigliare alla tua cara mammina scomparsa?~
+@227  = ~Meno repulsivamente diverso, pensavo ad un laboratorio di vivisezione - con *te* come soggetto.~
+@228  = ~Grazie per il pensiero, tesoro, ma non credo che il tuo piccolo halfling potrebbe trasportartelo in giro. Inoltre, posso pensare a parecchie altre attività che sarebbero decisamente più... divertenti.~
+@229  = ~DIVERTENTI!? Non sei altro che una mercenaria degradata, che offre putrescenza dal pozzo nero della sua carnalità, credi davvero che *io* mi sporcherei con qualsiasi cosa tu consideri DIVERTENTE?! Per cibo, forse, o per studio... ma non per DIVERTIMENTO!~
+@230  = ~Ma guarda... un necromante folle che pretende di dare una lezioncina morale alla piccola, dolce Safana.~
+@231  = ~Misura bene le tue parole, se non desideri misurare la profondità della tua caduta... caduta, caduta, ta-ta-tà e Comsì-comsà.~
+//Shar-Teel
+@232  = ~Principessa dell'Alba, perché ti affidi ancora all'oscurità, piuttosto che alla luce?~
+@233  = ~Il silenzio sarebbe di maggiore conforto al mio umore... e alla tua lingua.~
+@234  = ~Andiamo, sai che non lo pensi davvero...~
+@235  = ~Sei un maschio, un mago codardo e un pazzo. Ma se tutti questi difetti venissero rimossi... rimarresti comunque ripugnante.~
+@236  = ~Questo è esattamente il motivo per cui hai bisogno del mio consiglio.~
+@237  = ~Non ho bisogno di niente da te. A parte il sangue del tuo cuore. E non tentarmi al riguardo, sciocco.~
+@238  = ~Esattamente. Hai molto saggiamente respinto la metà maschile della vita, ma ti aggrappi a quella femminile più ferventemente, un travaglio ululante, una pulsazione oscura della carne.~
+@239  = ~Perché non passare alla luce, sorellina, ed ecco che la pace brillerebbe oltre la corruzione! Considera Madre Morte, sorellina e rallegrati!~
+@240  = ~Devo a <CHARNAME> un servizio. Una volta speravo che ucciderti potesse adempiere a quel debito, ma ho capito che sei troppo svitato perché possa trovarne giovamento nel farlo. Ora vattene, pazzo.~
+//Skie
+@241  = ~Mia cara Lady Skie, che nome bellissimo.~
+@242  = ~Ehm... grazie...~
+@243  = ~Ma capovolto.~
+@244  = ~Lo sapevo. Ora arriva la battuta sulla mia zucca vuota, vero?~
+@245  = ~Niente scherzi, te lo assicuro. Il tuo cranio racchiude in modo così grazioso il firmamento vacuo.~
+@246  = ~Mm-mmm. Sei ancora serio, vero?~
+@247  = ~Perfettamente. Chiunque abbia una testa che contiene i Cieli farà sogni d'oro.~
+@248  = ~Preferisco vivere i miei sogni da sveglia, grazie mille.~
+@249  = ~Chi non lo preferisce? Chi non lo fa di fatto? Eppure, nella veglia i sogni si confondono l'uno con l'altro, così che il mio riposo è ora turbato dai tuoi sogni, poi da quelli di <CHARNAME>, e forse anche dai piccoli eccentrici strilli del caro Monty...~
+@250  = ~Bene, questo è un modo di vederla...~
+@251  = ~Non mi riposo affatto, finché non dormo! È questo il modo di vivere?~
+@252  = ~Sono perfettamente disposta a smettere di influenzare i tuoi sogni.~
+@253  = ~Egoista! Come fai a sapere che qualcosa di peggio non riempirebbe quel vuoto, se così fosse?!~
+//Tiax
+@254  = ~Oh, mega, qual è la tua posizione sul libero scambio? Così sarò preparato quando arriverà il grande giorno.~
+@255  = ~Quando Tiax governerà, tutti esisteranno per servire Tiax. Il loro mantenimento non lo riguarda.~
+@256  = ~Oooooh, un pensiero *intelligente*. Lascia che loro guardino *te*. Non ha senso sprecare la vecchia materia grigia sul viceversa, mmm?~
+@257  = ~Tu deridi ora. Quando arriverà il Giorno di Tiax, ti sarà riservato un tormento speciale.~
+@258  = ~AARRRGGGH! TI SUPPLICO! Per i sacerdoti di HELM! Oh, grande maestro, risparmia il tuo servo e... e io... ti aiuterò!~
+@259  = ~Il destino di Tiax è governare tutto! Nessun aiuto è necessario o possibile.~
+@260  = ~Ma io *posso* aiutare. Lancerò il mio incantesimo proprio ora, e potrai iniziare a governare da subito!~
+@261  = ~Oh, Sim-sala-brutto
+Tiax ora governa su tutto.
+Ma ha un senso
+Ora che ci penso
+Che tutto il mondo si troverà in lutto.~
+@262  = ~Ecco! Sei il sovrano di Tutto, ora. Come ci si sente?~
+@263  = ~Sei fuori come un balcone...~
+@264  = ~Oops! Troppo lento! È tutto finito e ti sei perso la barca!~
+@265  = ~Tiax non vede ness...~
+@266  = ~Ora IL MIO cammino è libero! AHAHAHAH!~
+//Viconia
+@267  = ~Dimmi, Signora Oscura, un personaggio come me, come sarebbe considerato dalla tua gente?~
+@268  = ~I drow, in effetti, hanno un posto speciale per quelli come te.~
+@269  = ~Davvero? Com'è? Come si chiama?~
+@270  = ~Il nome si traduce male nella tua lingua impoverita. Credo che potresti chiamarlo il Riposo dei Perdenti.~
+@271  = ~Cosa?!~
+@272  = ~Forse Cimitero delle Vite Sprecate è una versione più corretta. In ogni caso, è il luogo innominabile in cui disporre i resti di coloro che le Madri Matrone hanno giudicato inadatti.~
+@273  = ~Io? Inadatto!?~
+@274  = ~Cos'altro devo concludere? Trovo una persona del tuo talento e predilezione, la cui mente è stata spezzata dall'irrazionalità della vita di superficie, che vaga senza scopo su strade oscure e polverose, senza onore o posizione.~
+@275  = ~Cosa potrei giudicarla se non 'inadatta'?~
+@276  = ~Ah, percepisco come non ti renda conto che l'esterno del mondo sia molto più grande delle sue viscere. Detto tra noi, avventure come questa, anche se sono certamente fastidiose, non devono essere disprezzate ipso facto.~
+@277  = ~In quale altro modo, infatti, avrei potuto incontrare un gioiello incantato tuo pari, Signora Oscura?~
+@278  = ~La tua adulazione è goffa, ma il tuo consiglio potrebbe essere saggio. Ti osserverò, maschio.~
+//Xan
+@279  = ~Elfo, sospendi per un attimo le tue meditazioni sull'inevitabile e cantami una canzone... di unicorni che ballano sotto rami di smeraldo baciati dal sole.~
+@280  = ~Non so cantare una simile canzone, umano.~
+@281  = ~Bene, gracchiala allora. Non mi interessa la tua voce. Ma devo avere qualcosa del genere. ADESSO!~
+@282  = ~Ti è mai balenata nella tua mente frammentata l'idea che non tutti gli elfi dedicano la propria vita a diffondere testi di dubbia qualità?~
+@283  = ~No, nemmeno per un momento. Perché qualcuno dovrebbe essere un elfo, se non per calmare gli altri con arie bucoliche?~
+@284  = ~*sospira* Dal tuo punto di vista, suppongo che potrebbe essere per poterci uccidere e ottenere così pozioni di longevità.~
+@285  = ~Ma certo, che sciocco da parte mia non pensarci! Per favore, accetta le mie scuse, caro compositore, mio caro, carissimo amico...~

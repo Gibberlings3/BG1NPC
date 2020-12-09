@@ -1,0 +1,23 @@
+// x#brint.tra @0, @1, @2, @3
+@0    = ~Più intelligente di un sasso!~
+@1    = ~Smettila di abbaiare, cane! Sono venuta per punirti per il tuo tradimento! Tempus è dalla mia parte!~
+@2    = ~Speravo che ti saresti fatta più furba, ragazzona, prima di darmi di nuovo fastidio. Ma vedo che non l'hai fatto. Pensi che abbia paura di questa combriccola che ti ha liberato dal mio incantesimo?~
+@3    = ~Stupida vacca. Se non sparirai dalla mia faccia nei prossimi cinque secondi, ti scaglierò dall'altra parte del regno!~
+
+// x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
+@4    = ~Sei disgustoso, disgraziato... Uccidilo, <CHARNAME>. Chi implora per la sua vita non ha onore. Ti tradirà a Tazok se lo lascerai andare.~
+@5    = ~Arpia!~
+@6    = ~Guarda, se l'è fatta sotto! Uccidiamolo, per impedire che questo debole possa riprodursi. Questo a meno che la sua virilità non rimanga per sempre incastrata tra le sue natiche, come la coda di un cane bastardo, per lo spavento che gli abbiamo rifilato oggi. *ride*~
+@7    = ~Cagna.~
+@8    = ~<CHARNAME>, non dobbiamo lasciare che questo disgraziato se ne vada, informerà sicuramente i suoi superiori. Sarebbe consigliabile se potessimo... impedirlo, in qualche modo...~
+@9    = ~No, non lo farò, non lo farò...~
+
+// x#brint.tra @4
+@10   = ~No! <CHARNAME> ha dato il suo consenso, ma non hai il mio! Sguaina le tue armi!~
+
+// x#jaint.tra @61, @62
+@11   = ~Non mi piace seguire questa strada, ma sfortunatamente è l'unica opzione veramente sicura. Sono d'accordo con la tua decisione, <CHARNAME>.~
+@12   = ~Morirete tutti!~
+
+// x#brint.tra @55
+@13   = ~Quel cane senza onore è morto! Tempus, la tua volontà è stata fatta! Vieni, brindiamo a Tempus e alla vittoria, <CHARNAME>!~

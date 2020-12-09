@@ -1,0 +1,235 @@
+//Nord di Nashkel
+@0    = ~Ah, quasi dimenticavo! Ho un gingillo per te da un benefattore segreto. Sei giovane e in viaggio... Potrebbe benissimo succedere che ti possa innamorare di qualcuno dei tuoi  compagni. Ecco qualcosina per aiutarti a conquistare il suo cuore.~
+//Voltine
+@1    = ~Ben incontrata, Voltine! Sono Coran e puoi chiamarmi... Coran. Che deliziosa sorpresa incontrare un altro elfo! E di una bellezza così squisita per giunta...~
+//Rieltar 112-113
+@2    = ~Un ladro non stabilisce le regole per un altro ladro... gentiluomo o no. Faremo come più ci aggrada, e se la cosa non ti va - beh, ecco la tua occasione per attentare nuovamente alla vita di <CHARNAME>. Non ti sfuggirà di notare che tutti i tentativi precedenti hanno miseramente fallito.~
+@3    = ~Sarebbe davvero un giorno triste, se prendessi sul serio le minacce di qualche canaglia dalle orecchie a punta.~
+//Nemphre 114-115
+@4    = ~Ah, che peccato... speravo di vedere l'amuleto decorare quel tuo bellissimo collo, signora...~
+@5    = ~Vedi di sparire!~
+//Lariaz (sirena dei pescatori)
+@6    = ~Non ha un bell'aspetto, per quanto odi dire una cosa del genere di una signora. In effetti, davvero allo stremo delle forze. Forse potremmo scortarla fino al mare, <CHARNAME>? È troppo bella per morire...~
+//Pheirkas (mantello di Algernon) 118-119
+@7    = ~Che io sia dannato se farò commissioni per un nano! Aspetta... hai detto che la ricompensa sarebbe buona? Quanto buona, per intenderci?~
+@8    = ~Se mi piacerà il tuo lavoro e lo farai velocemente, ci saranno 200 monete d'oro per te.~
+//Laerta
+@9    = ~Giovani signore, avete la mia parola che il miscredente sarà severamente punito per aver disturbato il vostro sonno tranquillo.~
+//Bazar 125-126
+@10   = ~Uhm... sei davvero fortunato, se sei ancora vivo con le cose che vendi. Guarda questa bottiglia! Ha bruciato un buco profondo un pollice intorno a sé sullo scaffale! E questa... ehm, qualunque cosa sia... giuro che mi ha fatto l'occhiolino!~
+@11   = ~Quella? Sono gli occhi di una qualche signora Lich... o, almeno, lo gnomo che me li ha venduti affermava che lo fossero...~
+//Lusselyn
+@12   = ~*ride* Sei un uomo felice, Lusselyn... Guardandoti, che non vorrebbe passare le giornate a sbronzarsi e chiacchierare con amichevoli compagni... Che ne dici se restiamo qui per un po', <CHARNAME >, e spendere queste monete per festeggiare che siamo vivi, e per compensare al buon oste la spesa per l'acquisto di altra gelatina?~
+@13   = ~Sei un bravo tizio, davvero...~
+//Areana 129-130
+@14   = ~Chi potrebbe credere a tali voci, una volta che avesse guardato nei tuoi bellissimi occhi innocenti, mia signora?~
+@15   = ~Questa... non è una faccenda frivola... ho bisogno che sia messo a tacere! Per favore...~
+//Rinnie 856-857-858-859
+@16   = ~Mmh... quindi stiamo cercando una copia della Storia del Fiume dell'Unicorno? Con un titolo del genere, potrebbe essere una lettura piccante.~
+@17   = ~Una volta mi è stata raccontata una bella storia sulla caccia agli unicorni. Vedi, dicono che se leghi una giovane fanciulla a una quercia nella foresta, un unicorno arriverà... Quindi quel bel tipo ha convinto una vergine a cacciare unicorni con lui... Gran bella storia, quella.~
+@18   = ~Mi chiedo se quei fogli raccontino qualcosa di simile.~
+@19   = ~*arrossendo* Non si tratta di *niente* del genere, ovviamente!~
+//Cordyr 137-138-139
+@20   = ~La caccia alle sirene è una ricerca crudele: ascoltare il loro dolce canto e sapere con certezza che attirano gli uomini solo per versare sangue il loro sangue bollente. *sospira* Non riesco mai a credere completamente che sia il loro solo intento. Forse, un giorno, dovrei smetterla di resistere e scoprirlo da solo.~
+@21   = ~Mi è stato detto che mia madre era una sirena...~
+@22   = ~Conoscendoti, sono propenso a credere a questa storia, tentatrice. Vorrei proprio sapere come tuo padre... ehm... ripensandoci, non importa.~
+//Desreta 141
+@23   = ~*alzando un sopracciglio* Non sapevo che ora la chiamano *entropia* a Baldur's Gate... Sono stato via troppo a lungo, forse.~
+//Faber
+@24   = ~Uno spione! Mi ricorda mia sorella Ameniela... Mamma! Coran è scivolato fuori dalla finestra ed è stato fuori a caccia tutta la notte! Papà! Coran stava baciando la figlia di Enivien Maervik... Piuttosto scomodo. Adesso dovremo guardarci le spalle.~
+@25   = ~Guaaardieee!~
+//Canticle 146-147
+@26   = ~Ridurre in schiavitù un bardo per farlo scavare? Questo Davaeorn ha un cervello grande quanto una noce! Non preoccuparti, trovatore, siamo qui per liberarti e uccidere Davaeorn.~
+@27   = ~Se ci liberassi... canterei una tua canzone, anche se non fossi più in grado di parlare dopo averla declamata.~
+//Taxek
+@28   = ~È *tutto* qui?~
+@29   = ~Sì, signore. Non per essere offensivo, o qualcosa del genere, ma la tua casa non è molto...~
+//Forthel
+@30   = ~Hai bisogno di materiale per una ballata? Hai chiesto alla persona giusta! Guarda questo nobile eroico signore! Ogni giorno con <PRO_HIMHER> può essere trasformato in una canzone e una settimana in un'epopea!~
+		~Hai bisogno di materiale per una ballata? Hai chiesto alla persona giusta! Guarda questa nobile eroica signora! Ogni giorno con <PRO_HIMHER> può essere trasformato in una canzone e una settimana in un'epopea!~
+@31   = ~*mormorando* E ogni notte - in una canzone...~
+@32   = ~Bene, allora dammi almeno un...~
+@33   = ~Volentieri. Solo pochi giorni fa, abbiamo lavorato per fermare la carenza di ferro e cacciato i banditi dalle viscere di Toril... O quanto più vicino alle sue viscere io abbia mai pensato di trovarmi.~
+@34   = ~Mi stai dicendo che sei stato nel Sottosuolo?~
+@35   = ~Ehm... praticamente. Là siamo stati aggrediti da terribili-~
+@36   = ~Drow?! Sapevo che erano coinvolti! Niente di malvagio... assolutamente "niente"... accade sulla faccia di Toril, senza che uno o due drow siano coinvolti!~
+@37   = ~Ehm... sì, drow dappertutto, si nascondevano nell'ombra, sparando quei loro dardi velenosi... e le loro donne erano così voluttuose e malvagie da innamorartene più velocemente di quanto loro ti uccidano, e detto da me, lo fanno abbastanza velocemente...~
+@38   = ~*tranquillamente* Sarei felice di dimostrarti la parte omicida, stupido darthiir...~
+@39   = ~*tranquillamente* Allora abbassa il tuo cappuccio e fallo... Mi chiedo quanto tempo vivrai dopo che il Pugno Fiammante avrà scoperto a chi diamo riparo?~
+@40   = ~Miserabile essere!~
+@41   = ~Che splendida storia!~
+//Allevatore di viverne 150-151-152-153-154-155
+@42   = ~Un compagno cacciatore di viverne, presumo?~
+@43   = ~Un cacciatore, sì. Ma non mi interessano queste... viverne. Sono qui per... uhm... le grotte.~
+@44   = ~Davvero? Avrei giurato che questo debole odore acido sul tuo mantello è lo stesso che lascia il loro veleno...~
+@45   = ~Quindi non hai intenzione di uccidere questa coppia? Non ne sono sorpreso. *Nessuno* da queste parti compra trofei di viverna... Lo so per certo!~
+@46   = ~Ehm... per quanto tempo rimarrai in questa grotta, comunque?~
+@47   = ~Ancora per un po'. La mia attività... ehm... speleologica richiede tempo...~
+//Rill
+@48   = ~Certo che possiamo aiutarti! Come si suol dire: ruba ai ricchi per dare ai poveri, ma non dimenticare te stesso...~
+//Sonner 56-57-58
+@49   = ~Voi tre non potete ottenere il favore di un'unica donna? Io da solo posso ottenere quello di tre donne contemporaneamente!~
+@50   = ~Allora provaci, amico. Solo che non è una donna, è una sgualdrina, come la sua Regina...~
+@51   = ~<CHARNAME>, degli uomini che chiamano una donna sgualdrina non sono degni del nostro aiuto...~
+//Coran se personaggio maschile 159
+@52   = ~Ricordi cosa ti ho detto? Con le nobildonne, è l'audacia che conta. Sorridi, mascalzone!~
+//Abela la Ninfa 160-161
+@53   = ~Sei libera, bellezza dei boschi. Ti va di celebrare la gioiosa occasione in un'accogliente locanda? O nella deliziosa grotta che chiami casa... dov'è, a proposito? Abela?~
+@54   = ~*Abela lancia uno sguardo indagatore verso Coran, ma poi rotea gli occhi e sospira*~
+//Poe 176-177-178-179-180-181-182-183-184-185-186-187-188-189-190
+@55   = ~Bardo, la tua ballata mi ha fatto venire in mente la storia del re-elfo Echtellion e della cantante Inga Alisublimi.~
+@56   = ~Mi piacerebbe ascoltare questa storia, Maestro Elfo.~
+@57   = ~C'è un piccolo insediamento chiamato Belgiardino nel Cormyr, sulle terre che ora sono rivendicate dagli umani, ma un tempo erano degli Elfi. Una battaglia crudele fu combattuta lì migliaia di anni fa, prima delle Guerre della Corona. E proprio lì, l'elfo più bello e più potente, il re Echtellion, fu ucciso - in modo nobile, naturalmente.~
+@58   = ~Per commemorarlo, l'artista Alaundalion ha scolpito una statua, da mettere sulla sua tomba. Si diceva che fosse innamorato della sorella di Echtellion, e quindi, per compiacerla, ha eseguito i suoi ordini e ha reso la statua molto realistica, contro la tradizione elfica - sappiamo tutti che gli Elfi hanno poco talento per la rappresentazione esatta delle caratteristiche, poiché cercano sempre di catturarne lo spirito.~
+@59   = ~La sorella del re, la saggia Ogneda, era innamorata del lavoro di Alaundalion, e molto spesso veniva per onorare suo fratello e deporre fiori ai piedi della statua. Si ritiene che in seguito Ogneda sia diventata pazza, convincendosi che la pietra morta fosse suo fratello. La magia era forte in lei e, aiutata dalla sua follia, si trasformò in una banshee.~
+@60   = ~I secoli sono passati, e anche gli Elfi, con i loro lunghi ricordi, hanno ormai quasi dimenticato il re Echtellion e le sue gesta. Eppure, la statua è integra com'era il giorno in cui fu scolpita. Molte persone sono venute, nel corso degli anni, a vedere il monumento e se ne sono andate meravigliate.~
+@61   = ~Inga Alisublimi è rimasta.~
+@62   = ~L'immagine del Re morto da tempo la affascinò così tanto che volle sapere tutto quello che c'era da sapere su di lui. Mise insieme i brandelli di conoscenza che è riuscita a trovare, ma il risultato fu insoddisfacente. Nel suo amore per il re, Inga scriveva le sue canzoni per lui e veniva alla sua statua ogni giorno, all'alba, per cantare alla sua immagine di pietra.~
+@63   = ~Una notte, mentre era nel mezzo di una ballata particolarmente commovente, oh, meraviglia! La statua scese dalla colonna su cui si trovava e si avvicinò a Inga. Echtellion camminava di nuovo!~
+@64   = ~La piccola folla che si era radunata intorno divenne così silenziosa che la caduta di un fiocco di neve avrebbe rotto il silenzio. La voce di Echtellion non si era fatta roca nel disuso, e l'intera assemblea ascoltò le parole che disse a Inga:~
+@65   = ~"Seldarine, abbiate pietà di me! Ti lamenti peggio di mia sorella!"~
+@66   = ~C-cosa?~
+@67   = ~Non disperare, bardo. Come vedi, la cattiva poesia ha il potere di trasformare la pietra in carne e di resuscitare i morti...~
+@68   = ~Ora, <CHARNAME>, stavi per dire qualcosa?~
+@69   = ~E sarà meglio sia b-buono.~
+//cuoco
+@70   = ~Ehm... signora, sembra che i tuoi ideali romantici siano stati gravemente influenzati dalla tua lunga permanenza tra rozzi teppisti, minatori e hobgoblin.~
+@71   = ~Sì, ma una scopata è pur sempre una scopata. Sei un po' fragile per i miei gusti, ma se vuoi un po'...~
+@72   = ~Vorrei poterlo fare, mia signora. Ma ahimè, il mio cuore non mi appartiene più. E ho paura che chi lo possiede non la prenderebbe bene se io...~
+@73   = ~La tua amante ti farebbe a pezzettini, se la tradissi, è questo che intendi... oh, beh. Forse un'altra volta. *fa l'occhiolino*~
+@74   = ~Se avessi il tempo, ti mostrerei la differenza, mia signora... come ti chiami?~
+@75   = ~Cooooran! Devo staccarti da *ogni* gonna?~
+@76   = ~Ma non lo hai. Quindi il nome dell'usignolo è irrilevante. Ora andiamo.~
+@77   = ~Mi scusi, gentile signora, ma devo portarvi via il mio compagno...~
+//Coran-Ajantis 193-194-195
+@78   = ~Non devi nemmeno darle le spalle, adesso, perché accada.~
+@79   = ~Coran?! Di cosa stai borbottando?~
+@80   = ~Oh, niente, mio coraggioso cavaliere.~
+//Xan – giocatore maschio
+@81   = ~Un'allodola in nient'altro che un mantello intorno alla vita...~
+@82   = ~Coran... *sospira* CORAN!~
+@83   = ~Oh... mi sono addormentato?~
+//Imoen
+@84   = ~ Ladro carino una volta, ladro carino per sempre.~
+@85   = ~Heya! <CHARNAME> non è l'unico ladro carino di questo gruppo, grazie tante!~
+//Xan
+@86   = ~*sussurra* <CHARNAME>, essendo un Mantogrigio di Evereska... ho un mantello di riserva... se desideri prenderlo in prestito un giorno...~
+@87   = ~Xan... ti ho sentito!~
+//Xan – personaggio femmina 198-199
+@88   = ~<CHARNAME>, devi mostrare di più questo lato spensierato di te, sai. Aiuterebbe sicuramente a ridurre... la tensione.~
+@89   = ~Le nostre possibilità di sopravvivenza sono scarse così com'è, e potrebbero solamente peggiorare se il nostro leader decidesse di abbandonare le sue armi e il suo abbigliamento nel mezzo della battaglia... Inoltre, sebbene <CHARNAME> sia senz'altro carina, ho pochissima fiducia che il suo rivelarsi in questo modo avrebbe un effetto accecante sui nostri nemici, tale a quello che una driade potrebbe lanciare sui suoi nemici...~
+//Tamoko
+@90   = ~*fischia piano* Che donna! Tuo fratello deve essere davvero straordinario per ispirare sentimenti così profondi!~
+//Kirian 202
+@91   = ~Odio uccidere belle donne, specialmente quando hanno quella scintilla.~
+//Davaeorn 210
+@92   = ~Qualcuno ha detto ricchezze? Niente è più dolce del bottino guadagnato onestamente uccidendo bastardi!~
+//Kelddath
+@93   = ~Potenti oltre ogni immaginazione! Che dire, questa viverna non aveva alcuna possibilità contro di noi! Se hai bisogno di uccidere una viverna, un drago o qualsiasi altra bestia malvagia, Coran è il tuo uomo per il lavoro, santissimo Kelddath Ormlyr.~
+@94   = ~Ehm, <CHARNAME>, te l'avevo detto, ne è valsa la pena: un paio di frecce ben mirate, un antidoto e ta-da! Duemila pezzi d'oro! A proposito, mi aspetto una quota doppia dei profitti per averti condotto in questa piccola ricerca.~
+//Destus 218-219-220
+@95   = ~Un tipo simpatico e così laconico.~
+@96   = ~Hai visto Kivan? È il tuo compagno ideale.  Potrai condividere con lui molte ore di bellissimo e meditabondo silenzio.~
+@97   = ~Grazie per il suggerimento, ma la tua solenne disposizione è già sufficiente per sentirmi a mio agio.~
+//Keeper
+@98   = ~<CHARNAME>, <CHARNAME>! Per favore, guarda le mie orecchie. Si stanno arricciando e appassendo come fiori sotto i venti aspri dell'inverno? Perché gli sciocchi più pomposi arrivano sempre con le voci più fragorose e disgustose?~
+//Gerde 222
+@99   = ~Per i Seldarine, quando gli ankheg sputano, sputano alla grande, se non altro balliamo tanto quanto cacciamo! Divertente quasi quanto cacciare viverne, eh?~
+//Fogne con Kivan
+@100  = ~Ecco una professione invidiabile!~
+@101  = ~Cosa ne pensi, Kivan?~
+@102  = ~Pulire un dedalo infestato e maleodorante in cui scorrono i rifiuti degli umani? Penso che tu sia nato per questo.~
+@103  = ~E stai di nuovo facendo la mammoletta. Diventi pallido ogni volta che il soffitto e le pareti sono un po' troppo vicini per i tuoi gusti. Arh-arh!~
+@104  = ~Sei patetico anche come nano, Coran.~
+@105  = ~Molto meglio di te, arrampica-alberi!~
+@106  = ~Sono contento che tu sia orgoglioso di questo... risultato.~
+@107  = ~Ti spacco la testa come un melone marcio con la mia ascia!~
+@108  = ~Quello è il tuo arco, Coran. Gli effluvi stanno facendo effetto prima di quanto pensassi?~
+@109  = ~*scuotendo la testa* Sei senza speranza, Kivan.~
+//Degrodel 228
+@110  = ~Trasformato in pietra per un piccolo furtarello? *rabbrividisce* Cosa *sta* diventando questo mondo, mi domando io?!~
+//Nivek 231
+@111  = ~Un basilisco? Abbiamo un problema, compagni avventurieri! Ma forse dovresti guidarci tu, impavido <CHARNAME>. Il tuo cuore è già di pietra, dopotutto. Pertanto, per quanto ne sappiamo, rimarrai illeso allo sguardo della creatura.~
+//Shistal 234
+@112  = ~Ero solito invidiare i doppelganger durante il carnevale. Le donne sembravano riconoscermi sempre, nonostante il costume.~
+//Ingresso BG
+@113  = ~Ah, adoro questa città!~
+//Taverna halfling
+@114  = ~Ho sentito che le birre di un halfling sono le più deliziose. Ti va di unirti a me e accertare o confutare questa affermazione, <CHARNAME>?~
+@115  = ~Forse più tardi, Coran.~
+@116  = ~No, dovrai bere da solo. Anche se, con i tuoi talenti, non dubito che ti troverai compagnia.~
+@117  = ~Non siamo venuti qui per l'idromele e la birra, Coran!~
+@118  = ~Ah, niente è meglio di una serata in dolce compagnia davanti al camino dopo aver massacrato uno o due fantasmi...~
+@119  = ~Ma volevo bere con una brava persona... ripensandoci, questo ti elimina automaticamente!~
+@120  = ~No, ma ora che li abbiamo trovati... dico che vale la pena provarli!~
+//Natasha
+@121  = ~Solo un altro corpo freddo... ma che corpo! Mi rattrista vedere una tale magnificenza andare sprecata. *sospira*~
+@122  = ~E anche un tipo strano... perché non lanciarmi contro fulmini e palle di fuoco una volta che le ho parlato e mi sono diretto verso l'uscita, come ogni altra donna? In questo modo nessuno si fa male... a meno che i mobili nella stanza non abbiano un valore sentimentale...~
+//Taxek
+@123  = ~Sono i soldi più facili che abbia mai fatto! Ma devo ammettere che non mi piace rubare ciò che era stato giustamente sottratto... Se un ladro può tradire un ladro, che razza di mondo è?~
+//Unicorno
+@124  = ~Ahimè, questo Storia del Fiume dell'Unicorno è davvero un libro storico... E anche noioso! Ascolta:~
+@125  = ~Bardi e saggi tramandano la storia che le sorgenti del Fiume dell'Unicorno sono, in verità, la Fonte della Vita e culla della fecondità. Si dice che ogni razza naturale sia emersa dal grembo di Chauntea su Toril alla sorgente del fiume, e poi abbia viaggiato lungo il Fiume dell'Unicorno verso il mondo esterno.~
+@126  = ~Oh, beh, sarebbe potuta andare peggio! Se dovessi trovare un'altra "Storia del Nord", impazzirei, lo giuro! È in ogni casa in cui entriamo: è stata regalata gratuitamente dall'autore qui intorno? O ha promesso una ricompensa a chiunque riesca a leggerlo dall'inizio alla fine?~
+//Cuoco
+@127  = ~Solo quelle avvolte attorno a un paio di gambe squisitamente tornite...~
+@128  = ~Sì, sì, lo so che con te è quello sotto le gonne ciò che conta.~
+@129  = ~Signora, mostragli le gambe, così possiamo finalmente muoverci.~
+@130  = ~Oh, la vita variabile di un avventuriero! Un minuto prima macello hobgoblin, quello dopo ricevo lezioni di seduzione. E tutto nella stessa miniera.~
+@131  = ~Ah, sei troppo venale, amico mio, per uno così giovane. Dovresti ancora sognare baci casti e passeggiate al chiaro di luna...~
+@132  = ~Eri proprio così alla mia età, senza dubbio.~
+@133  = ~Non è meraviglioso?~
+//Durlyle pg femmina
+@134  = ~Nessuno chiama la mia amata una cagna-~
+@135  = ~Se n'è andato, sciocco.~
+@136  = ~Oh, Coran, Coran... ti ha ferito, amore mio?~
+@137  = ~Che diamine, e io che pensavo che fossi più saggio del litigare con ragazzi più grandi di te...~
+@138  = ~Beh... Ehm... Codardo!~
+@139  = ~*si tocca la mascella* Non fa male, ma dovrai stare attenta quando mi baci. Il bastardo mi ha rotto il labbro. Mi chiedo come sia riuscito a colpirmi così velocemente?~
+@140  = ~Ehm... era... troppo impetuoso con le sue canzoni dolci e gli sguardi indiscreti. Ti stava *spogliando* con gli occhi!~
+@141  = ~*ridendo* Non è l'unico a fare queste cose, Coran... Conosco un elfo di Tethyr-~
+@142  = ~Oh, davvero? Che cosa orribile!~
+@143  = ~*sospirando* Andiamo, Coran.~
+@144  = ~*imbarazzato* Oh... immagino che tu abbia ragione. Ma non ti dispiace... quando sono io a farlo, spero?~
+@145  = ~Lo era! *si tocca la mascella* Mi chiedo, come sia riuscito a colpirmi così velocemente?~
+//Torre di Durlag
+@146  = ~Questo posto sarà una prova definitiva delle mie capacità! Trappole naniche, contro l'agilità delle mani elfiche! Se perdo, muoio, se vinco - c'è un tesoro in attesa! Che emozione!~
+//Drago
+@147  = ~È enorme... guardalo! Non ho mai visto un drago di quelle dimensioni. Scommetto che è uno di quelli antichi... immagino sia morto di vecchiaia. Mi chiedo quanto avrebbero pagato per il suo teschio alla Sala delle Meraviglie?~
+//Coran cuoco
+@148  = ~Buonsalve, mia adorata. Ci incontriamo e ci separiamo, come due lucciole in una notte ventosa...~
+@149  = ~*ridacchia*~
+@150  = ~Sembra che la nostra miniera ora attiri i nati gentili... farei meglio a fare qualcosa per la mia pettinatura... e comprare delle scarpe nuove.~
+@151  = ~Non mi divertivo così tanto da secoli! Ecco qua!~
+//Lady Brilla
+@152  = ~Uhm... <CHARNAME>, ti raggiungerò più tardi... molto più tardi...~
+@153  = ~*sottovoce* Lascia che me ne occupi io, <CHARNAME>...~
+@154  = ~Oh, mia adorata, la voce che Lady Brilla Silvershield è la più bella signora di Baldur's Gate è arrivata fino alle mie orecchie, e sono venuto qui per -~
+@155  = ~Era in tutta la città? Oh...~
+@156  = ~Le voci mentono, mia signora...~
+@157  = ~C-cosa?!~
+@158  = ~*dopo una pausa drammatica* Sei la donna più bella del MONDO...~
+@159  = ~Grazie mille...~
+@160  = ~Posso avere il privilegio di baciare le tue dita sottili ed eleganti?~
+@161  = ~Certamente...~
+@162  = ~Aspetta! Penso di conoscerti! Ti ho visto alla Tenuta di Lady Berayat, la sera stessa in cui la sua collana di diamanti e zaffiri a stella è scomparsa...~
+@163  = ~*ridacchia* E le sta bene, non perdeva occasione per farla vedere in giro!~
+@164  = ~Lady Berayat? Oh... diamanti e zaffiri a stella? Ragazza con la faccia da cavallo?~
+@165  = ~Eri terribilmente amichevole con lei...~
+@166  = ~Devo essere stato accecato dalla tua bellezza...~
+@167  = ~*ridacchia* Ma hai detto che non mi hai mai visto prima, o sbaglio?~
+@168  = ~Ehm... ho mentito. Da quella sera, speravo di rivederti... io ehm... ho anche chiamato i miei compagni perché mi aiutassero a trovarti...~
+@169  = ~Com'è romantico!~
+@170  = ~Ti farò una serenata stasera a mezzanotte, mia signora.~
+@171  = ~Aspetterò...~
+//Laerta
+@1001  = ~Oooh! Grazie!~
+@1002  = ~Lo terrò a mente.~
+@173  = ~Te la sei voluta!~
+@174  = ~Ah! Che spavalderia! Tale coraggio!~
+@175  = ~Hai guadagnato la tua ricompensa.~
+@176  = ~Da questa parte, da questa parte.~
+@177  = ~Non parlare! CORRI!~
+@178  = ~È ora di morire!~
+@1003 = ~Hai un libro?~
+

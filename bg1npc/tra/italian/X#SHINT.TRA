@@ -1,0 +1,247 @@
+//Roe
+@0    = ~*legge la lettera* '... Spero che questa lettera ti raggiunga. L'halfling che ho assunto per portarla mi sembra un tipo abbastanza onesto. Insieme e per sempre... ' Bla-bla-bla...~
+@1    = ~Quindi, caro il mio tipo abbastanza onesto, mentre il grasso mercante attende a Waterdeep, tu sei qui a innaffiare la polvere della strada con il tuo sangue... AH! L'onestà non ha mai salvato nessuno. A differenza della spada.~
+//Cintura
+@2    = ~Mmm... quindi è così che ci si sente a pensare con dei peli sul petto. Patetico. Ora, se non mi toglerai immediatamente questa dannata cosa, sarà la mia spada a parlare. E togliti quell'insopportabile sorrisino dalla faccia.~
+//Angelo 946
+@3    = ~Lo spero anch'io!~
+@4    = ~Sono lieto che abbiamo raggiunto un accordo così cordiale in merito, figlia cara.~
+//Laryssa
+@5    = ~Questo si chiama parlare, donna! Ah, a volte quasi mi dispiace persino doverli uccidere nel momento in cui comincio a rispettarli!~
+//Vax e Zal
+@6    = ~Se dovessi aver dimenticato come si uccidono degli idioti, <CHARNAME>, sarei felice di ricordartelo...~
+@7    = ~Hai dato il nostro bottino a questi... questi... uomini? Tu... idiota!~
+//Cortigiana
+@8    = ~Vuoi scommetterci, baldracca? Vediamo chi sarà rimasto sopra dopo che io avrò fatto oscillare la mia spada e tu le tue curve...~
+@9    = ~Oooh... ma lo so chi finirebbe sopra, cara. E l'idea non mi dispiace nemmeno un po'. Adoro i guerrieri in armatura completa. Sembrano così... duri.~
+@10   = ~Oooh... ma lo so chi finirebbe sopra, cara. Lo vedo nei suoi occhi...~
+//Xzar e Montaron
+@11   = ~Ah! Un mezz'uomo e un mago... Insieme dovrebbero fare un quarto di compagno utile!~
+@12   = ~Un esemplare davvero muscoloso... sì, sì, soprattutto se paragonata a te, caro Monty.~
+@13   = ~Bene, pagheremo il tuo peso in oro o mezze monetine. Se fossi in te, prenderei le mezze monetine, mingherlino.~
+@14   = ~Viaggiare in pace? Non sei solo un mezz'uomo, sei anche mezzo scemo! In pace... Bah! Hai finito di reclutare uomini patetici, <CHARNAME>?~
+//Coran 622
+@15   = ~Sembri felice di scoprire che il tuo avversario sia una creatura più debole. Inferi e demoni, sei veramente patetico, anche per un maschio! <CHARNAME>, questo idiota non ci sarebbe di alcuna utilità. Possiamo uccidere quelle viverne senza dover condividere con lui la ricompensa.~
+//Edwin 656
+@16   = ~Non solo hai accettato di uccidere una donna, ma insisti nel portarti in giro questo... mucchietto d'ossa! Guardalo! Si piega quasi in due sotto il peso del suo bastone! Sei cieco o stupido, <CHARNAME>?~
+		~Non solo hai accettato di uccidere una donna, ma insisti nel portarti in giro questo... mucchietto d'ossa! Guardalo! Si piega quasi in due sotto il peso del suo bastone! Sei cieca o stupida, <CHARNAME>?~
+//Garrick 698-691-692-693-694-695-696
+@17   = ~Tu, Garrick, una RISORSA?! Persino un bardo non dovrebbe esagerare così spudoratamente! Tu, che hai dovuto assumere un aiuto per combattere tre contadini?~
+@18   = ~Guarda il tuo torace stretto! Guarda le tue spalle curve! Guarda le tue gambe secche! Scommetto che piagnucolerai di fermarci dopo una marcia di mezza giornata!~
+@19   = ~<CHARNAME>, un bardo in una compagnia non è una buona cosa. Soprattutto un bardo *maschio*!~
+@20   = ~<CHARNAME>, *un altro* bardo in una compagnia non è una buona cosa. Soprattutto un bardo *maschio*!~
+@21   = ~<CHARNAME>, *un altro  bardo in una compagnia non è una buona cosa. Per non parlare di un altro bardo *maschio*!~
+@22   = ~O ti piacciono... gracili?~
+@23   = ~Ehm... signora... ehm... calmati.~
+//Kivan
+@24   = ~Cavalletta, non abbiamo bisogno di un uomo nel gruppo. Per di più non di un elfo che sembra non aver mangiato un pasto decente da giorni, ma presume che la nobiltà risplenda dal suo culo!~
+@25   = ~<CHARNAME>! Hai sentito quello che ho detto? Smettila di fissarlo... Demoni e diavoli dell'Abisso! Hai un "debole" per i maschi elfi? Devono essere le orecchie a punta … Donna, dobbiamo parlare.~
+@26   = ~Caccio meglio da solo, ma in questa lotta un alleato sarebbe il benvenuto. Tuttavia, se non siete interessati a unire le forze, non insisterò per viaggiare con voi.~
+//Minsc 780
+@27   = ~Non so chi sia più stupido - quest'uomo che parla al suo criceto, o tu per averlo invitato. Ma quantomeno Minsc è forte e sembra saper stare al suo posto. Mmm... quella Dynaheir ha il mio stesso gusto in fatto di uomini.~
+//Xan
+@28   = ~No! No e ancora NO! Non questo codardo piagnucoloso. Giuro di aver sentito le pareti tremare durante la battaglia, a causa dei suoi brividi! E quella voce! Xan suona come un lupo lamentoso con un forte raffreddore!~
+//Yeslick
+@29   = ~Questo tizio, Yeslick, lui cosa... ti ricorda forse il tuo bis-bis-bisnonno o qualcosa del genere? <CHARNAME>, potrei ricordarti che siamo qui per un' "avventura", e non per prenderci cura di nani senili?~
+//Eldoth
+@30   = ~Chiamare questo tipo melma sarebbe un'offesa alle melme! <CHARNAME>, l'unico modo in cui accetterei di avere nei paraggi quest'essere viscido, è il poterlo picchiare a sangue durante i tempi morti tra uno scontro e l'altro.~
+//Quayle
+@31   = ~Fammi indovinare... hai preso con te questo Quayle, perché stai pensando di mostrargli un basilisco e poi venderlo come ornamento da giardino?~
+//Tiax
+@32   = ~E questo cosa dovrebbe essere? Un modello in scala dell'umanità? Perché vedo tonnellate di boria, arroganza, autostima, grandi propositi e vanagloria ma assolutamente zero buon senso, per non parlare dell'utilità.~
+@33   = ~<CHARNAME>, hai perso la testa? No? Beh, presto lo farai, con *questa* compagnia.~
+//Ajantis 0-356-355
+@34   = ~Quale forza se posso chiedere? Sembra solo grosso. Spoglialo della sua armatura... e non rimarrebbe nulla. È come un gattino bagnato, capisci.~
+@35   = ~Bella signora, mi ferisci con parole così rancorose.~
+@36   = ~A meno che tu non abbia intenzione di cominciare una collezione di cavalieri giocattolo o non abbia bisogno di un'ancora per una barca, <CHARNAME>, eviterei di unire le forze con questo pomposo bastardo.~
+//Kagain
+@37   = ~Guardati! Forte, robusto e con un senso del denaro. Se solo i nani fossero più alti!~
+@38   = ~Ragazzona, ascolta me - se entrambi ci sdraiassimo, sarei più alto di te. Letto e campo di battaglia hanno una cosa in comune: l'altezza non fa la differenza. L'abilità la fa.~
+@39   = ~Mmm, se continui a parlare così, sarò tentata di verificare una certa regola riguardante le proporzioni di voi nani.~
+//Khalid e Jaheira 729-730-731
+@40   = ~Quindi il totale è - una donna con del senso pratico e un peso morto - suo marito. *Sbuffa*~
+@41   = ~Se fossi in lei, nasconderei quel debole in un posto sicuro, se lo volessi davvero...~
+@42   = ~Deve essere una cosa druidica... Nessuna donna che conosco, con almeno un briciolo di cervello, perderebbe tempo con uno come lui.~
+//Chloe
+@43   = ~Un Ufficiale del Pugno Fiammante ci sta cercando? Ed è GENTILE? Direi che dobbiamo preoccuparci - quei deboli potrebbero cadere così in basso da cercare di tenderci una trappola.~
+@44   = ~Ah, beh, ancora meglio: uccideremmo l'intera compagnia senza doverli inseguire uno per uno.~
+//Taugosz
+@45   = ~Chi è piccolo, TenTAMMAZZO? Chi è debole? Mi chiamo Shar-Teel e sto pensando di intraprendere un nuovo hobby: la rimozione degli artigli. Leeeenta.~
+//Knott
+@46   = ~Guarda, le sue ginocchia si sono trasformate in gelatina. Spremi questa lumaca maschio un po' più forte e sputerà qualsiasi cosa tu voglia sapere, <CHARNAME>.~
+//Raiken 829
+@47   = ~Le donne non diventano sagge perdendo le loro spade, idiota cerebroleso. Sono gli uomini che lo fanno. Virilità per ingegno - dico che è un vero affare!~
+// Daer'Ragh 528
+@48   = ~Un'idea invitante... <CHARNAME>, voglio proprio vedere l'ira di questo maghetto! E ucciderlo per avermi minacciato, ovviamente.~
+//Bardolan 533
+@49   = ~Oh, questi teneri maschi di Nashkel! Uno scende dalla sua sedia a dondolo e l'altro piange per il suo destino! Spero che nessuno *qui* abbia il coraggio di dirmi che gli uomini sono il sesso forte!~
+//Berrun 362
+@50   = ~È sicuramente bello essere apprezzati. Sindaco, posso liberare le miniere dai tuoi "demoni" con la mano destra legata dietro la schiena.~
+//Liia
+@51   = ~Non ho aperto quel guscio di aragosta nera con la mia spada per un pelo! Sto diventando affamata per quel piatto, <CHARNAME>. E questi buoni Duchi pagherebbero parecchio per la testa di Sarevok, senza dubbio.~
+//Gallor 481-482
+@52   = ~Novecento pezzi d'oro mi sembrano un prezzo equo per il lavoro. Non fare la checca, <CHARNAME>, accetta l'offerta!~
+@53   = ~Questi scavatori non hanno comunque una vita di cui parlare. Che diavolo di spazzatura è questo sbavare su una casalinga morta da tempo?~
+//Strillone 879
+@54   = ~Ora, quella sì che è una taglia! Una moneta brillante per un compito piacevole!~
+//Cythandria 0-628
+@55   = ~E fai bene ad esserlo, baldracca!~
+@56   = ~Ora, posso capire il desiderio di uccidere, ma a parte questo, mi fai pena, donna. Non solo sei una concubina, ma sei *orgogliosa* di esserlo! Chiami un maschio tuo Signore e supplichi per il suo favore! *sputa* Preferisco di gran lunga uccidere gli uomini, ma in questo caso, farei volentieri un'eccezione!~
+@57   = ~Non per il piacere di conversare con delle sgualdrine, questo è certo.~
+//Marl
+@58   = ~Come si suol dire: un cadavere al giorno leva il medico di torno!~
+@59   = ~E se non me ne vado, che succede? Spero che tu abbia il fegato di attaccarci, così che possa strappartelo.~
+//Karlat 750
+@60   = ~Rispetto il tuo atteggiamento, nano, che è più di quello che possa dire di altri maschi. Ora vediamo quanto bene riesci a ballare mentre la mia lama fischietta un sanguinante notturno.~
+//Perdue 818-819
+@61   = ~È un gioco da ragazzi allora! Ogni singolo uomo di Faerun corrisponde a questa descrizione! *Ride*~
+@62   = ~Sto sprecando tempo con voi idioti.~
+//Silke
+@63   = ~Non mi interessa quello che ti hanno fatto, attrice, ma sono sempre pronta a spaccare teste di uomini.~
+//Hannah 285-709
+@64   = ~La Legge? Le leggi sono per i deboli. Basta uccidere il maniaco. Chi piangerebbe per un uomo, comunque?~
+@65   = ~Puoi dirlo forte, sorella! Solo che non sono bruti insensibili ma più simili a insipidi vermi, sporchi maiali, rumorose vesciche, feci di una scimmia con la diarrea...~
+@66   = ~Ehi, peccato. Parli di affari!~
+//Tranzig 889-890
+@67   = ~Guarda, se l'è fatta addosso! Uccidiamolo, così che non ci sia alcuna possibilità che una simile nullità abbia dei discendenti. Questo a meno che la sua virilità non rimanga per sempre incastrata tra le sue natiche, come la coda di un cane bastardo, per la paura che gli abbiamo fatto oggi. *Ride*~
+@68   = ~Lurida cagna.~
+//Lena
+@69   = ~*ride* Aioouutaatuueemi, gentili signori! Che pappamolle! Vai ad aiutarlo tu stessa! Dopotutto, per quanto tu faccia schifo, sembri sana e non c'è niente che una armatura scintillante e una macchia di sangue nemico non possano aggiustare.~
+//Drienne 629
+@70   = ~Papino? Chiami tuo padre "papino" e corri da lui per curare il tuo stupido gatto? *Fissa la ragazza annuendo per un momento.* Sparisci, mocciosa! I peli del tuo gatto morto mi irritano gli occhi.~
+@71   = ~Oh, bene! Ecco che arriva "papino"! *Ora* inizia il divertimento. E tu, <CHARNAME>, sei un maniaco – accettare combattimenti con ragazze che non ti arrivano neanche alle ginocchia!~
+		~Oh, bene! Ecco che arriva "papino"! *Ora* inizia il divertimento. E tu, <CHARNAME>, sei una maniaca – accettare combattimenti con ragazze che non sono più alte del tuo ginocchio!~
+//Pugno Fiammante
+@72   = ~Ah-ah-ah! Musica per le mie orecchie! <CHARNAME>, se scapperai da questo combattimento, perderò l'ultima goccia di rispetto che ho per te. Guardami mentre scarico tutto il piscio da questo tizio... perché giuro per gli Inferi, è quello che passa per sangue nel Pugno Fiammante.~
+//Viconia
+@73   = ~Sono cresciuta con i racconti di potenti donne drow. E ora compare questa... *sputa* fighetta lamentosa. Immagino che dovrei imparare a convivere con le delusioni.~
+@74   = ~Forse i drow esiliano le più deboli di spirito in superficie. *Questo* spiegherebbe molte cose.~
+@75   = ~Rivvin, nel Sottosuolo i drow dallo spirito debole muoiono. Solo i forti sopravvivono e io non sono ancora un cadavere in decomposizione.~
+//Tamoko 871
+@76   = ~Ti ha lasciato, e tu ancora lo cerchi? Non riesco a capire se questo sia segno di forza o debolezza. Stupidità, molto probabilmente. Misteriosa anima di Kara-Turian, il mio culo.~
+//Vai
+@77   = ~Resoconti? Rapporti? Bah! Donna, non mi sembri un verme. Perché dovresti impelagarti con una banda di deboli soldatini?~
+@78   = ~Beh... rapporti favorevoli... perlopiù~
+@79   = ~Resta qui a scarabocchiare, allora. Ma i combattimenti sono fuori e ti stai perdendo tutto il divertimento in questa locanda fatiscente.~
+@80   = ~*seccamente* <CHARNAME>, devo davvero occuparmi del trasferimento del mio contingente.~
+//Meilum
+@81   = ~Lanciare la biancheria intima? Puah! Che ne dici se ti lancio in un fosso?! Ti servirò il tuo culo su un piatto d'argento con una mano legata dietro la schiena e l'altra...~
+@82   = ~… Che tiene un uncinetto per la maglia? Donna, ho detto *gente* che mi sfida, e *donne* che lanciano biancheria intima.~
+@83   = ~<CHARNAME>, mostriamo a questo piccolo verme chi è che comanda!~
+@84   = ~Personalmente, non mi preoccupo di memorizzare i nomi maschili. Un fischio è sufficiente...~
+@85   = ~Non combatto con la feccia gratuitamente.~
+@86   = ~Oh, non un altro che copre la paura di una sconfitta con sciocchezze filosofiche.~
+@87   = ~No, non la combatto gratuitamente: la uccido.~
+//Mutamin 493
+@88   = ~Ti aspetti che inizi a urlare a squarciagola, a causa delle tue stupide lucertole? Ne ho uccise due ieri; vedi questa cintura? Falli venire! Mi farà comodo qualcuna in più! E ti lascerò tenere gli occhi, eh.~
+//Rieltar 110-111
+@89   = ~*sputa* Io, per esempio, non ho alcun desiderio di dimostrarmi un UOMO gentile! Sono una donna tosta, e se non stai zitto e combatti, ti ficcherò le tue maniere in gola con i miei stivali!~
+@90   = ~Non dubito che tu sia abbastanza maleducata da mettere in atto la tua minaccia, ma ti assicuro che ho preso tutte le precauzioni per proteggermi dai bruti come te.~
+//Denak
+@91   = ~Guarda questo! Uomini in gonnella sopra un trespolo! Woo-oo! Paa-uuu-raa!~
+@92   = ~Allora, Edwin, sembra che tu non sia l'unico uomo in natura a indossare gonne rosse! Oooo, non andatevene, damerini. Se il vostro temibile amico salisse con voi sul podio, potreste iniziare un vero concorso di bellezza! *schiocca rumorosamente le labbra* Dai Edwin, scatenati, tesoro!~
+//Melicamp 431
+@93   = ~Salvare polli parlanti da grandi lupi cattivi! Bah! Sarebbe molto più bello se fossero quelli del Pugno Fiammante ad averti avvicinato.~
+//Trono di Ferro
+@94   = ~*sottovoce* Uh, il tuo istinto è giusto, idiota di ferro. Non abbiamo alcuna spiegazione che considereresti *buona*. Ora, parlando di istinti, che ne dici di sventrare questo pesce puzzolente, <CHARNAME>?~
+//Tazok
+@95   = ~Più sono grossi, più rumore fanno quando cadono, e poi ho sempre desiderato un marsupio fatto di orecchie di orco.~
+@96   = ~Eh, forse siete banditi, dopo tutto! Vediamo se sapete anche combattere!~
+//Greywolf 702-703-704-705-706-707
+@97   = ~Ho sentito parlare di te... Sei Greywolf e quanto è vero che mi chiamo Shar-Teel, oggi farai le tue scuse a Ysena negli Inferi!~
+@98   = ~Shar-Teel? Devi essere quella ridicola mocciosa che Ysena ha tirato fuori dai bassifondi!~
+@99   = ~L'unica e la sola, anche se mi troverai un po' più di dura di una semplice mocciosa. Hai venduto Ysena a quelli del Pugno, a causa di una lite per la ricompensa su uno schiavo fuggito. Ho voglia di incontrarti da parecchio tempo, Greywolf - sai perché?~
+@100  = ~*sogghigna* Illuminami.~
+@101  = ~Perché possa finalmente strapparti le viscere con la punta della mia spada.~
+@102  = ~Sbagliato!~
+//Bheren
+@103  = ~La ragazza, Petrine, dice che *non* sei stato gentile con lei. Per farla breve, vuole quel gatto. Consegnalo, brutto bastardo, o le porterò la tua testa invece!~
+@104  = ~Uccidere la cosa *fastidiosa*? Con piacere!~
+//Petrine (parla Charname)
+@105  = ~Petrine, tuo zio voleva che uccidessimo Angel. Ho pensato che se avessimo rifiutato, domani avrebbe trovato qualcun altro. E non posso restare a guardare mentre la gente va in giro a uccidere i gatti a delle ragazze povere orfane! Io... l'ho ucciso.~
+@106  = ~Mi assicurerò che tu sia affidata alle cure di qualcuno più gentile di tuo zio, Petrine. Fidati di me.~
+//Liia 2 (parla Charname)
+@107  = ~Darò la caccia a Sarevok, signora, ma considerato che potrei perdere la vita, chiedo a Vostra Grazia un favore prima di andare. Ci sono degli affari incompiuti... una cosa banale. Una ragazza orfana, Petrine, e il suo gatto, Angel, hanno bisogno di un vero tutore. Io... ho ucciso suo zio - un uomo malvagio che la maltrattava, e pertanto è rimasta senza anima al mondo che la protegga. È un debito di sangue.~
+@108  = ~Alzati, e non temere. Hai la mia parola che fino a quando avrò autorità in questa città, questa ragazza, Petrine, sarà cresciuta come fosse mia... e anche Angel avrà sempre il suo posto a palazzo. Ora, non indugiare oltre, Sarevok deve essere distrutto per i suoi crimini!~
+//Cattack
+@109  = ~Questo dimostra che anche tra i Gelo, gli uomini sono patetici come altrove.~
+@110  = ~Combatteremo per le nostre monete, idiota, a meno che <CHARNAME> non sia un cencio senza valore.~
+@111  = ~Cosa?! Non sopporto la codardia, <CHARNAME>. *sputa* Non voglio nemmeno sporcare la mia lama sul tuo sangue vigliacco. Al diavolo! Prenderò dal Gelo ciò che è mio.~
+//Kirian 201
+@112  = ~Finalmente! A voi due piace troppo parlare. Dèi, se adoro gli spargimenti di sangue.~
+//Davaeorn 211
+@113  = ~Come si suol dire:
+Mago vivo di mattina,
+la battaglia si avvicina.
+Mago morto di sera,
+bel bottino si spera.~
+//Charles 616-617
+@114  = ~Considera questo, <CHARNAME>. *Indica tutti i cadaveri* Abbiamo quasi finito, manca solo questo tizio. Non dobbiamo nemmeno andare lontano per seppellirlo come si deve. Questa tomba è abbastanza spaziosa. *Ride*.~
+@115  = ~E Gallor potrà avere il suo sarcofago, se hai paura di una stupida maledizione.~
+//Kelddath 751
+@116  = ~Non male, <CHARNAME>. Vorrei averne avuto la metà per ogni uomo che ho ucciso, ma un uomo deve essere un mostro prima di valere qualcosa. Pensa un po'.~
+//Zargal
+@117  = ~Ah-ah! Questa creatura osa definirsi più forte in *mia* presenza?! Forse posso tenerla come animale da compagnia per un giorno o due, prima di tagliarle la gola.~
+//Teyngan 878
+@118  = ~Tu e la tua ragazza non avete alcuna possibilità contro di me e il mio uomo. Lui è quello brutto. Ora che ci siamo presentati come si deve, cosa stai aspettando, <CHARNAME>? Uccidiamo questa feccia.~
+//Garrick e Silke 686
+@119  = ~Stavo pensando a quanto sarebbe rinfrescante prendere un uomo a calci nelle palle. E poi spezzargli il collo magro... Ah, smettila di fissarmi, <CHARNAME>. Ci sono delle monete da guadagnare e divertimento da avere. Andiamo!~
+@120  = ~Mi hai chiamato codarda?! Grave errore, sorella. Direi addirittura letale! Stavo pensando di aiutarti contro questa gente per solidarietà femminile, ora non più.~
+//Nimbul 807
+@121  = ~Allora mi vanterò di aver ucciso la Morte stessa!~
+//Sendari
+@122  = ~Questa donna chiede di assaggiare il nostro acciaio, <CHARNAME>. Glielo daremo, o agirai da codardo e proverai a *sputa* farla ragionare?~
+		~Questa donna chiede di assaggiare il nostro acciaio, <CHARNAME>. Glielo daremo, o agirai da codarda e proverai a *sputa* farla ragionare?~
+@123  = ~Bah, <CHARNAME>, questa stupida vacca ti ha appena detto in quanti sono: solo tre e due di loro sono *uomini*. Patetici. Non è degna di quella dolce lama che agita davanti al tuo naso. Non vedo l'ora di togliergliela!~
+//Stephan
+@124  = ~Verme senza fegato! Ameba! Codardo!... maschio. *sputa*~
+//Caedmon
+@125  = ~Non mi piace affatto avere a che fare con quelli del Pugno. Andiamo, <CHARNAME>!~
+//Jardak
+@126  = ~Ottimo! *Amo* questo domestico!~
+//Shistal 235
+@127  = ~Ah, questo posto è davvero triste. Che ne dici di ridecorarlo con il tuo sangue?!~
+@128  = ~Anche così, se lo vuoi, dovrai passare sul mio cadavere!~
+@129  = ~Sì, beh, si può fare!~
+@130  = ~La farei pagare a peso, grande bue, ma non so se hai così tanto oro.~
+@131  = ~Eppure è sempre metà ingegno in più del tuo, ma lasciamo perdere, o non ci metteremo mai più in marcia. E c'è abbastanza oro per tutti davanti a noi, forse.~
+@132  = ~Attento, affinché la tua presenza non risponda alla domanda. Fortunatamente, <CHARNAME> ha abbastanza ingegno da riconoscere i vantaggi di portare con sé un Mago Rosso.~
+@133  = ~Boo dice che non dovrei ascoltare, quindi non lo farò. Vai avanti, <CHARNAME>!~
+@134  = ~È una fortuna, quindi, che la mia voce non sia così acuta quanto la tua. Allontaniamoci da questo posto umidiccio.~
+@135  = ~Posso occuparmi abbastanza bene di me stesso.~
+@136  = ~Chiunque può vedere il vantaggio di portare un uomo della mia raffinatezza e talento.~
+@137  = ~Tiax è il modello dell'umanità! Tiax governa tutto!~
+@138  = ~Quando vuoi.~
+@139  = ~Parere notato, con disgusto. Andiamo avanti.~
+@140  = ~Sono al di sopra del tuo disprezzo, barbara.~
+@141  = ~Ti saremo grati per qualsiasi cosa tu possa fare. Berrun Ghastkill o Oublek possono dirti di più.~
+@142  = ~Se vuoi liberarci di lui, non piangerò di certo.~
+@1001 = ~Sì? Bene, dai!~
+@1002 = ~Sì! Grazie!~
+@1003 = ~Ah, roba del genere.~
+@1004 = ~* sospiro *~
+@1005 = ~Allora smetti di ridere e iniziamo l'avventura! Abbiamo una miniera da inondare!~
+@1006 = ~Ah ah. Molto divertente. Vedremo chi ride per ultimo.~
+@1007 = ~Tiax non ti sente! Sei indegna!~
+@1008 = ~Hai spirito, per un essere umano!~
+@1009 = ~Avresti la tua ricompensa, ma è una tua scelta.~
+@1010 = ~L'hai chiesto tu!~
+@1011 = ~Ne ho avuto abbastanza di questo.~
+@1012 = ~Peccato che sia tutto solo un pio desiderio.~
+@1013 = ~Ce ne siamo accorti!~
+@1014 = ~Tolleri davvero questa insolenza? Non importa. Andiamo.~
+@1015 = ~Tutti stracci inutili!~
+@1016 = ~Umano intelligente! Cattack prende l'oro e va.~
+@1017 = ~Tutti muoiono, ma tu muori prima!~
+@1018 = ~Ehm... addio!~
+@1019 = ~Estrai la spada!~
+@1020 = ~È ora di tornare al lavoro. Ti interessa un lavoro?~
+ 
+@144 = ~Ne ho abbastanza.~
+@145 = ~WAaaah!~
+@149 = ~Lo capirai, ma non venire a piangere dopo.~
+@151 = ~Hai fornito un servizio prezioso ed è un piacere ricompensarti.~
+@153 = ~Lasciami andare! Ti supplico!~
+@155 = ~Sssssshh!~
+
+
