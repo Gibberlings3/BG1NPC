@@ -13,7 +13,7 @@ REPLACE_TRANS_ACTION %DYNAHEIR_POST% BEGIN 8 END BEGIN END ~ActionOverride("Mins
 REPLACE_TRANS_ACTION %EDWIN_POST% BEGIN 1 END BEGIN END ~SetGlobal("KickedOut","LOCALS",1)~ ~~ 
 REPLACE_TRANS_ACTION %ELDOTH_POST% BEGIN 1 3 8 END BEGIN END ~ActionOverride("Skie",LeaveParty())~ ~ActionOverride("Skie",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("Skie",LeaveParty())~ 
 REPLACE_TRANS_ACTION %ELDOTH_POST% BEGIN 6 END BEGIN END ~ActionOverride("Skie",JoinParty())~ ~ActionOverride("Skie",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("Skie",JoinParty())~ 
-REPLACE_TRANS_ACTION %IMOEN_POST% BEGIN 4 END BEGIN END ~JoinParty()~ ~ActionOverride("imoen",JoinParty())~ 
+REPLACE_TRANS_ACTION %IMOEN_POST% BEGIN 4 END BEGIN END ~JoinParty()~ ~ActionOverride("%IMOEN_DV%",JoinParty())~ 
 REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 1 3 6 END BEGIN END ~ActionOverride("Khalid",LeaveParty())~ ~ActionOverride("Khalid",SetGlobal("KickedOut","LOCALS",1)) ActionOverride("Khalid",LeaveParty())~ 
 REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 8 END BEGIN END ~ActionOverride("Khalid",JoinParty())~ ~ActionOverride("Khalid",SetGlobal("KickedOut","LOCALS",0)) ActionOverride("Khalid",JoinParty())~ 
 REPLACE_TRANS_ACTION %JAHEIRA_POST% BEGIN 7 END BEGIN END ~JoinParty()~ ~ActionOverride("jaheira",JoinParty())~ 
