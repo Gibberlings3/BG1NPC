@@ -1,6 +1,6 @@
 # The BG1NPC Project
 
-**[A Gibberlings Three Mod](http://www.gibberlings3.net/)**
+**[A Gibberlings Three Mod](https://www.gibberlings3.net)**
 
 **Authors:** [The BG1NPC Project Team](https://www.gibberlings3.net/forums/topic/1315-credits/). Please contact us on the Gibberlings3 forums for more information.
 
@@ -13,7 +13,7 @@
 * Currently: [AstroBryGuy](https://www.gibberlings3.net/profile/6858-astrobryguy/)
 
 **On the web: [Home page](https://www.gibberlings3.net/mods/npcs/bg1npc/)** and **[discussion forum](https://www.gibberlings3.net/forum/45-bg1-npc-project/)**
-For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](http://www.gibberlings3.net/). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net/).
+For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contact [www.gibberlings3.net](https://www.gibberlings3.net). For support issues on a BGT install involving Big Picture (<acronym title="Big Picture">BP</acronym> ) mods or Mega Installs, please contact [www.spellholdstudios.net](http://www.spellholdstudios.net).
 
 **Version** 24.0 - [Check for the most recent version](https://www.gibberlings3.net/files/file/908-bg1-npc-project/)
 **Languages:** English, Spanish, French, Polish, German* (teilweise noch in englisch)
@@ -27,7 +27,7 @@ For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contac
 * [Installation](#installation)
 * [Components](#components)
 * [Modder Notes](#modder-notes)
-* [Thanks and Acknowledgments](#thanks-and-acknowledgments)
+* [Thanks and Acknowledgments](#thanks-and-acknowledgements)
 * [Contact and Copyright Information](#contact-and-copyright-information)
 * [Version History](#version-history)
 
@@ -35,25 +35,25 @@ For support issues on a Tutu, EasyTutu, BGT, BGEE, or EET install, please contac
 
 For documentation to troubleshoot romances or quests, please follow these links, or reference the individual .html files in the directory BG1NPC/Documents:
 
-* [BG1NPC Romance Guide](bg1npc_docs/bg1npc_romance_guide.pdf)
-* [Dynaheir's Quest](bg1npc_docs/dynaheirsquest.html)
-* [Coran's Quest](bg1npc_docs/coransquest.html)
-* [Tiax's Quest](bg1npc_docs/tiaxsquest.html)
-* [Xan's Quest](bg1npc_docs/xansquest.html)
-* [Kagain's Quest](bg1npc_docs/kagainsquest.html)
-* [Garrick's Quest](bg1npc_docs/garricksquest.html)
-* [Kivan's Quest](bg1npc_docs/kivansquest.html)
-* [Xzar's Quest](bg1npc_docs/xzarsquest.html)
-* [Jaheira's Quest](bg1npc_docs/jaheirasquest.html)
-* [For Modders: Index of Variables used in BG1NPC Project code](bg1npc_docs/bg1npcvarindex.htm)
-* [For Modders: Interjections by location](bg1npc_docs/interjectbylocation.xls)
-* [For Modders: Interjections by NPC](bg1npc_docs/interjectbynpc.xls)
-* [For Modders: Interjections by .cre file](bg1npc_docs/interjectbycreature.xls)
+* [BG1NPC Romance Guide](bg1npc/bg1npc_docs/bg1npc_romance_guide.pdf)
+* [Dynaheir's Quest](bg1npc/bg1npc_docs/dynaheirsquest.html)
+* [Coran's Quest](bg1npc/bg1npc_docs/coransquest.html)
+* [Tiax's Quest](bg1npc/bg1npc_docs/tiaxsquest.html)
+* [Xan's Quest](bg1npc/bg1npc_docs/xansquest.html)
+* [Kagain's Quest](bg1npc/bg1npc_docs/kagainsquest.html)
+* [Garrick's Quest](bg1npc/bg1npc_docs/garricksquest.html)
+* [Kivan's Quest](bg1npc/bg1npc_docs/kivansquest.html)
+* [Xzar's Quest](bg1npc/bg1npc_docs/xzarsquest.html)
+* [Jaheira's Quest](bg1npc/bg1npc_docs/jaheirasquest.html)
+* [For Modders: Index of Variables used in BG1NPC Project code](bg1npc/bg1npc_docs/bg1npcvarindex.htm)
+* [For Modders: Interjections by location](bg1npc/bg1npc_docs/interjectbylocation.xls)
+* [For Modders: Interjections by NPC](bg1npc/bg1npc_docs/interjectbynpc.xls)
+* [For Modders: Interjections by .cre file](bg1npc/bg1npc_docs/interjectbycreature.xls)
 
 
 ## Overview
 
-This mod expands on the depth of character and levels of interaction with the NPCs from the BG game. When BG2 was released, one of the major improvements in many peoples' eyes was the increased level of interaction one could have with the party members. This mod was developed to allow BG players a similar experience. NPCs in your party now have banters with the PC, with each other, and small side-quests of their own. As we were unable to get the original character voice actors to voice all the new lines, we instead sought out music appropriate to each NPC to be played whenever they initiate banter. This musical package is a separate, optional package (to keep the download size down) titled _The BG1NPC Music Pack_. You can find it on [The Gibberlings Three download page.](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+This mod expands on the depth of character and levels of interaction with the NPCs from the BG game. When BG2 was released, one of the major improvements in many peoples' eyes was the increased level of interaction one could have with the party members. This mod was developed to allow BG players a similar experience. NPCs in your party now have banters with the PC, with each other, and small side-quests of their own. As we were unable to get the original character voice actors to voice all the new lines, we instead sought out music appropriate to each NPC to be played whenever they initiate banter. This musical package is a separate, optional package (to keep the download size down) titled _The BG1NPC Music Pack_. You can find it on [The Gibberlings Three page.](https://www.gibberlings3.net/subpages/bg1npc/bg1music/)
 
 
 ## Compatibility
@@ -66,11 +66,11 @@ BG1NPC is not currently compatible with Tutu v5 or v6. It might install, but is 
 
 Sword Coast Stratagems, EasyTutu, BGT, BG1NPC, and BG Unfinished Business have made special efforts to make sure players can use these mods together without conflict. In addition, we have adapted our code to allow concurrent use of Sirene's Call. Please visit the forums for more information, especially on install order.
 
-A discussion of install order and a list of compatible mods can be found in [The Tutu State of the Modding Union](http://gibberlings3.net/forums/index.php?showtopic=8122) at the Gibberlings Three.
+A discussion of install order and a list of compatible mods can be found in [The Tutu State of the Modding Union](https://www.gibberlings3.net/forums/topic/9277-tutu-state-of-the-modding-union/) at the Gibberlings Three.
 
 For BGT, a discussion of install order and a list of compatible mods can be found by checking [Spellhold Studios forums: compatibility](http://www.shsforums.net/index.php?showtopic=19539) and looking for specific install order recommendations elsewhere on the forums, notably [Mega Mod Help](http://www.shsforums.net/index.php?showforum=193) and projects like BiG World Project (BWP). Even if you are not playing a Mega Mod install, these are the places where people have experimented with install orders using BG1NPC on BGT games.
 
-For BGEE, a list of compatible mods can be found by checking [mlnevese's list of BGEE Mods at the Baldur's Gate Forums](http://forum.baldursgate.com/discussion/15380/bg-ee-mods-and-modding-tutorials-quick-links/p1) and looking for specific install order recommendations elsewhere on the forums.
+For BGEE, a list of compatible mods can be found by checking [mlnevese's list of BGEE Mods at the Beamdog Forums](https://forums.beamdog.com/discussion/50340/bg-ee-2-0-and-siege-of-dragonspear-compatible-mods) and looking for specific install order recommendations elsewhere on the forums.
 
 
 ## Installation
@@ -89,7 +89,7 @@ _If the mod was previously installed, uninstall it before extracting the new ver
 ### Linux
 **For Tutu/BGT installs:** Download the latest version of WeiDU for Linux from weidu.org and extract (at least) the WeiDU, weinstall and tolower executables in a $PATH directory (e.g. /opt/bin). Following that, open a terminal, cd to your Tutu/BGT installation directory, run 'tolower' and answer Y to both queries. After that, run 'weinstall bg1npc' from your game installation directory to install or uninstall the mod.
 
-**For BGEE/EET installs:** See [The Linux User's Guide to Installing Mods on the Enhanced Editions](http://gibberlings3.net/forums/index.php?showtopic=28516).
+**For BGEE/EET installs:** See [The Linux User's Guide to Installing Mods on the Enhanced Editions](https://www.gibberlings3.net/forums/topic/28516-the-linux-users-guide-to-installing-mods-on-the-enhanced-editions/).
 
 
 ## Components
@@ -160,7 +160,7 @@ In order of extent of changes, from least to most, between BG1 Unfinished Busine
 _Tutu Only_
 This component can be used to match BG1 NPC -created actors/NPCs walking speeds to the default walking speeds if you have chosen to install TutuFix's Walking Speeds Component. It checks to see if Walking Speeds has modified the NPC Montaron, and then checks each BG1NPC -added creature you have installed to see if they qualify for the walking speed modification. If you have, it patches accordingly. If you have not installed TutuFix's Walking Speeds Component, no changes will be made. PLEASE NOTE: This component only checks BG1 NPC creatures. If you have added other mods, a better approach is to install the Walking Speeds component of TutuFix after all mods that add new quests, characters, or NPCs have been applied.
 
-**WARNING: Tutufix's Walking Speeds component has odd effects on the Polymorph, Haste, and Slow spells.** Fixes for these odd behaviors are under development by the BG2 Tweaks team at [www.gibberlings3.net](http://www.gibberlings3.net/).
+**WARNING: Tutufix's Walking Speeds component has odd effects on the Polymorph, Haste, and Slow spells.** Fixes for these odd behaviors are under development by the BG2 Tweaks team at [www.gibberlings3.net](https://www.gibberlings3.net).
 
 ### The BG1NPC Project: Kivan's "Kivan and Deheriana Companions" Portrait
 This component will give Kivan his portrait from Domi's mod, for those wanting consitency for the entire saga.
@@ -183,8 +183,8 @@ _Tutu only_: This component also has a Player-initiated string-fixer for all BGN
 
 The philosophy driving coding in this project is to preserve compatibility with as wide a range of platforms and mods as possible. The BG1NPC Project incorporates the following required core fixes to support Project code:
 
-* [Index of Variables used in The BG1NPCProject code, with file name and line number, sortable by column.](bg1npc_docs/bg1npcvarindex.htm)
-* Use of [Cross Platform Modding Variables](http://gibberlings3.net/forums/) for single install code for multiple platforms
+* [Index of Variables used in The BG1NPCProject code, with file name and line number, sortable by column.](bg1npc/bg1npc_docs/bg1npcvarindex.htm)
+* Use of [Cross Platform Modding Variables](https://gibberlings3.net/forums/) for single install code for multiple platforms
 * Use of Fluid State Variables for single install code for BGT compatible coding of joinable NPCs who stack BG dialogue on top of BG2 dialogue. This will be most useful when used in conjunction with versions of BGT v1.06 and above.
 * Non-destructive .tp2 patching of the pdialog.2da to incorporate Dream Scripts for all standard BioWare Non-Player-Characters
 * Non-destructive .tp2 patching of the interdia.2da to incorporate Imoen's banter file if not present
@@ -429,7 +429,7 @@ The current list for this release shows the dedication of a community for many y
 
 **French translation:**
 
-[La Couronne de Cuivre](http://www.baldursgateworld.fr/lacouronne/baldurs-gate-reloaded-les-mods-tutu-et-baldurs-gate-trilogy/)
+[La Couronne de Cuivre](https://www.baldursgateworld.fr/lacouronne/la-chambre-des-scribes/24608-sortie-de-la-version-francaise-du-baldur-s-gate-1-npc-project.html)
 
 * Eleima: translator (Xan)
 * Galathée: translator (Ajantis, Coran romance, Garrick, Jaheira, Khalid, Minsc, Montaron, Tiax, Female Romance Challenges)
@@ -449,39 +449,39 @@ The current list for this release shows the dedication of a community for many y
 * Proof readers: Cuttooth (coordinator), Kol (coordinator), Lua Nova, Claudiad, Morgan, Li, Jinete, Zireael, Soul Reaver, Picollo, Zed Nocear, Arientar, Tinuviel, Euler, Grazin
 
 **Tools Used in Creation**
-[jEdit](http://www.jedit.org/) Programmer's Editor, a fantastic free world-wide project
-[WinMerge](http://winmerge.org/) <acronym title="GNU's Not Unix">GNU</acronym> freeware file comparison utility, developed: Grim; Project Lead: List
-[Soundset Utility](http://www.usoutpost31.com/) by Macready
-[BAM Workshop](http://www.teambg.eu/?page=tools&cat=32) by Glenn Flansburg
-[BAM Workshop II](http://www.teambg.eu/?page=tools&cat=32) by Andrew Bridges
-[DyValiTool](http://www.baldurs-gate.ch/) by Dyara
-[Aptana IDE](http://www.aptana.com/) html/xml javascript editor. (c) Copyright Aptana, Inc. 2007\. Portions copyright Adobe, 2007.
-[ConTEXT](http://www.context.cx/) by Eden Kirin
-[TextPAD](http://www.textpad.com/) purchased version 5 by Helios Software Solutions
-[WildEdit](http://www.textpad.com/) purchased version 1.1 by Helios Software Solutions
-[Crimson Editor](http://www.crimsoneditor.com/) by Ingyu Kang
-[<acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym>](http://gibberlings3.net/forums/index.php?showforum=137) by Avenger
-[<acronym title="Infinity Engine Structures Description Project">IESDP</acronym>](http://iesdp.gibberlings3.net/) maintained by igi and Avenger
-[Infinity Explorer](http://infexp.sourceforge.net/) by Dmitry Jemerov
-[Near Infinity](http://forums.pocketplane.net/index.php/topic,22727.msg297145.html#msg297145) by Jon Olav Hauglid, FredSRichardson and devSin
-[Shadowkeeper](http://www.mud-master.com/shadowkeeper/) by Mud-Master
-<acronym title="Weimer Dialogue Utility">[WeiDU](http://weidu.org/main.html#weidu)</acronym> by Wes Weimer and the bigg
-[WeiDU ConTEXT Highlighters](http://dev.gibberlings3.net/) by Idobek, updated by cmorgan
-[WeiDU Crimson Editor Highlighters](http://dev.gibberlings3.net/) by cmorgan
-[WeiDU TextPAD Highlighters](http://dev.gibberlings3.net/) by cmorgan
-[WeiDU NotePad++ Highlighters](http://dev.gibberlings3.net/) by mike 1072 and cmorgan
-[BGT](http://forums.spellholdstudios.net/index.php?automodule=downloads&showcat=9/) builds by Ascension64
-[Platform Conversion Utility](http://forums.spellholdstudios.net/index.php?automodule=downloads&showcat=9/) by Ascension64 for initial translation work to BGT
-[Tutu](http://www.pocketplane.net/tutu/) by japheth, et. al
-[EasyTutu builds](http://www.usoutpost31.com/) of Tutu by Macready
+* [jEdit](http://www.jedit.org) Programmer's Editor, a fantastic free world-wide project
+* [WinMerge](https://winmerge.org) <acronym title="GNU's Not Unix">GNU</acronym> freeware file comparison utility, developed: Grim; Project Lead: List
+* Soundset Utility by Macready
+* [BAM Workshop](http://www.baldursgatemods.com/forums/index.php?action=downloads;cat=32) by Glenn Flansburg
+* [BAM Workshop II](http://www.baldursgatemods.com/forums/index.php?action=downloads;cat=32) by Andrew Bridges
+* [DyValiTool](http://www.baldurs-gate.ch) by Dyara
+* [Aptana IDE](http://www.aptana.com) html/xml javascript editor. (c) Copyright Aptana, Inc. 2007\. Portions copyright Adobe, 2007.
+* [ConTEXT](http://www.context.cx) by Eden Kirin
+* [TextPAD](https://www.textpad.com) purchased version 5 by Helios Software Solutions
+* [WildEdit](https://www.textpad.com) purchased version 1.1 by Helios Software Solutions
+* [Crimson Editor](http://www.crimsoneditor.com) by Ingyu Kang
+* [<acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym>](https://www.gibberlings3.net/mods/tools/dltcep/) by Avenger
+* [<acronym title="Infinity Engine Structures Description Project">IESDP</acronym>](https://gibberlings3.github.io/iesdp/) maintained by igi and Avenger
+* [Infinity Explorer](http://infexp.sourceforge.net) by Dmitry Jemerov
+* [Near Infinity](https://forums.pocketplane.net/index.php/topic,22727.msg297145.html#msg297145) by Jon Olav Hauglid, FredSRichardson and devSin
+* Shadowkeeper by Mud-Master
+* <acronym title="Weimer Dialogue Utility">[WeiDU](https://weidu.org/main.html#weidu)</acronym> by Wes Weimer and the bigg
+* [WeiDU ConTEXT Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by Idobek, updated by cmorgan
+* [WeiDU Crimson Editor Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by cmorgan
+* [WeiDU TextPAD Highlighters](https://www.gibberlings3.net/mods/tools/weidu/) by cmorgan
+* WeiDU NotePad++ Highlighters by mike 1072 and cmorgan
+* [BGT](http://www.spellholdstudios.net/ie/bgt) builds by Ascension64
+* [Platform Conversion Utility](http://www.shsforums.net/topic/22499-release-platform-conversion-utility-pcu/) by Ascension64 for initial translation work to BGT
+* [Tutu](https://www.pocketplane.net/bg1tutu/) by japheth, et. al
+* [EasyTutu builds](http://usoutpost31.com/easytutu/mac/) of Tutu by Macready
 
-Advanced users can follow BG1NPC or add to its development by following it on GitHub; [https://github.com/cmorganbg/BG1NPC](https://github.com/cmorganbg/BG1NPC)
+Advanced users can follow BG1NPC or add to its development by following it on GitHub; [https://github.com/Gibberlings3/BG1NPC](https://github.com/Gibberlings3/BG1NPC)
 
 ## Musical Themes Used
 
 (those not listed are unknown)
 
-NOTE: To access this content, you will need to download and install the _The BG1<acronym title="Non-Player Characters">NPC</acronym>Music Pack_. You can find it on The Gibberlings Three download page, [here.](http://gibberlings3.net/forums/index.php?app=downloads&showcat=11)
+NOTE: To access this content, you will need to download and install the _The BG1<acronym title="Non-Player Characters">NPC</acronym>Music Pack_. You can find it on The Gibberlings Three download page, [here.](https://www.gibberlings3.net/subpages/bg1npc/bg1music/)
 
 * **Ajantis:** _Federation Mission Failure_ (from Star Trek: Starfleet Command) by Ron Jones
 * **Alora:** _The Heartland_ by Bill Brown
@@ -505,7 +505,7 @@ NOTE: To access this content, you will need to download and install the _The BG1
 
 ## Contact and Copyright Information
 
-A complete list of contributors is maintained at our forum. Visit the [Gibberlings Three forums](http://gibberlings3.net/forums/) for information on this and any other Gibberlings Three mods on which we may be working. The current maintainer/coordinator is [cmorgan](http://gibberlings3.net/forums/?showuser=844)
+A complete list of contributors is maintained at our forum. Visit the [Gibberlings Three forums](https://www.gibberlings3.net/forums/) for information on this and any other Gibberlings Three mods on which we may be working. The current maintainer/coordinator is [cmorgan](https://www.gibberlings3.net/profile/844-cmorgan/)
 
 The BG1NPC Project is not developed, supported, or endorsed by BioWare™, Interplay/BlackIsle, Beamdog, or Wizards of the Coast. The Tutu mod was created by Japheth, aided by Ghreyfain, SimDing0, and Kish. EasyTutu was created by Macready, based on a Baldurdashed (Kevin Dorner) version of Tutu v4 Fixpack 15. If there are any copyright issues or this statement needs revision then please contact one of us and advise us what to do about it. This mod was created to be freely enjoyed by all Baldur's Gate and Baldur's Gate II players. However, it should not be sold, published, compiled or redistributed in any form without the consent of the team leaders.
 
