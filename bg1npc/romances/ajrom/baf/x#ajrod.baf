@@ -44,6 +44,7 @@ IF %BGT_VAR%
 THEN
   RESPONSE #100
   RealSetGlobalTimer("X#DreamTalk","GLOBAL",180)
+RealSetGlobalTimer("X#AjantisRomance","GLOBAL",AJROM_TIMER)
   PlaySong(0)
   PlaySound("ajrom")
   IncrementGlobal("X#AjantisLoveTalk","GLOBAL",1)

@@ -1,0 +1,199 @@
+@0    = ~Sì, ma con la fortuna di Minsc e l'intelligenza di Boo, si può andare lontano!~
+@1    = ~L'intelligenza di Boo … sicuramente.~
+@2    = ~Oh, e anche le magie di Dynaheir aiuteranno.~
+@3    = ~Adulatore.~
+@4    = ~No! Minsc pensa che la sua strega... cosa c'è, Boo?... Oh, capisco... l'intelligenza di Dynaheir ci aiuterà *moltissimo*.~
+@5    = ~Così sembra. *sospira* Vorrei che tu non avessi mai trovato quel roditore. Temo che potrebbe farti dimenticare di tutti gli altri.~
+@6    = ~Minsc non si dimenticherà mai Dynaheir. Boo non glielo permetterebbe.~
+//ict3 547
+@7    = ~*sospira*~
+@8    = ~Tiax pretende di ottenere quel roditore. Il dominio del mondo sarà molto più facile se Tiax avesse degli aiutanti intelligenti, invece di questi sempliciotti.~
+@9    = ~Immagino che aiuti avere sia l'intelligenza che la fortuna, finché dura...~
+@10   = ~Era un criceto quello?!~
+@11   = ~Uno Gigante Spaziale in Miniatura per essere precisi!~
+@12   = ~Capisco. Penso che tu abbia davvero bisogno di *fortuna*... e molta.~
+@13   = ~Mi chiedo se questi pazzi possano persino uscire dalla porta senza essere uccisi.~
+@14   = ~Criceti spaziali... che idiozia...~
+@15   = ~Non l'ho detto, però...~
+@16   = ~Ma non hai detto nemmeno che non lo è... ti piace davvero mantenere le cose sul vago, vero?~
+@17   = ~Impaziente apprendista, che cosa sarebbe la vita se avessi un vecchio mago che guidasse ogni tuo passo?~
+@18   = ~Ora corri, giovane, la tua avventura ti aspetta!~
+@19   = ~È abbastanza rassicurante sapere che il percorso che hai scelto, <CHARNAME>, è approvato da Elminster stesso. Ma ancora più importante, la sua approvazione arriva con utili parole di consiglio.~
+//BGEE 10074
+@20   = ~L'ennesimo incontro con Elminster
+
+Elminster ha di nuovo fatto la sua comparsa, ma questa volta è stato un po' più prodigo di informazioni. Pare che conoscesse bene Gorion, e che lo considerasse una brava persona per essersi preso cura di me. Ha parlato anche di sangue corrotto e di una contaminazione che mi consumerà senza la dovuta attenzione. Non sono sicuro di cosa questo significhi. Darò ascolto al suo consiglio, ma ho poco tempo per starci a pensare. Elminster mi ha dato alcuni nomi di persone che ritiene degne di fiducia: Scar del Pugno Fiammante e il Duca Eltan. Suppongo di potermi fidare di loro se Elminster stesso consiglia di farlo.~
+		~L'ennesimo incontro con Elminster
+
+Elminster ha di nuovo fatto la sua comparsa, ma questa volta è stato un po' più prodigo di informazioni. Pare che conoscesse bene Gorion, e che lo considerasse una brava persona per essersi preso cura di me. Ha parlato anche di sangue corrotto e di una contaminazione che mi consumerà senza la dovuta attenzione. Non sono sicura di cosa questo significhi. Darò ascolto al suo consiglio, ma ho poco tempo per starci a pensare. Elminster mi ha dato alcuni nomi di persone che ritiene degne di fiducia: Scar del Pugno Fiammante e il Duca Eltan. Suppongo di potermi fidare di loro se Elminster stesso consiglia di farlo.~
+
+@21   = ~Non è bello rubare!~
+@22   = ~Almeno non da noi! *ridacchia*~
+@23   = ~Ora, da dove hai preso questa idea stupida?!~
+@24   = ~Oh... beh... vedi, io *sono* un sublime borseggiatore e... oh cielo... potresti lasciarmi andare il braccio?~
+@25   = ~NON È BELLO RUBARE!~
+@26   = ~Ma come potrei guadagnarmi da vivere? (Per Mask, il mio braccio mi fa davvero male!) *Piagnucola*~
+@27   = ~Che ne dici di *lavorare*, buono a nulla? Guardie! Venite!~
+@28   = ~Ahh, Minsc sente il suo sangue ribollire. La sua testa inizia a girare. La sua furia inizia a salire. Oh, sì, una potente rabbia berserker sommerge Minsc! E POI TI TAGLIERA' COME L'ERBA SECCA, PICCOLO LADRUNCOLO!!!~
+@29   = ~*deglutisce* Mask, abbi pietà di me! Io... io... vedo la luce! Lo giuro! Non ruberò mai più nella mia vita! Qui, ecco prendi! Riprenditi *tutto*!~
+@30   = ~Ora lasciami andare! Per favoooreee!~
+@31   = ~Vai allora, ma ricorda, Boo dirà a Minsc se proverai qualcosa di simile. E Minsc verrà a cercarti!~
+@32   = ~Sì, signore! Lo giuro, signore!... Arrivederci, signore!~
+@33   = ~Perché l'hai lasciato andare? Era un ladro, avrebbe dovuto essere punito!~
+@34   = ~Oh, amico Ajantis, è bello punire il male, ma vedi, era così spaventato...~
+@35   = ~E allora? Era un criminale!~
+@36   = ~Sì, ma l'odore della sua paura aveva iniziato a far lacrimare gli occhi di Boo. Devo confessare che anche Minsc ha sentito il suo stomaco iniziare a reagire...~
+@37   = ~L'odore della... Oh, per Helm! È disgustoso!~
+@38   = ~Bene, la maggior parte dei cattivi è disgustosa. Questo qui in particolare ora ha anche bisogno di nuovi pantaloni.~
+@39   = ~Giuro che non ti capirò mai, Minsc.~
+@40   = ~Va bene, anche Minsc a volte non capisce sé stesso.~
+@41   = ~Melicamp il Pollo
+
+Ho portato a Thalantyr un teschio come mi aveva chiesto e il suo tentativo di restituire a Melicamp le sembianze umane ha avuto successo. Il corpo del giovane ha retto allo sforzo della nuova trasformazione, e sembra desideroso di imparare dai suoi errori. Thalantyr lo ha avvertito che un epilogo tragico era altrettanto probabile e che occorre sempre prestare attenzione quando si utilizza la magia, non importa quanto innocua sembri.~
+
+@42   = ~Guarda, Boo, che bella torre!~
+@43   = ~*Squeak*~[GAM_48]
+@44   = ~Davvero? <CHARNAME>, Boo dice che dobbiamo stare attenti, perché donne dalla pelle blu attendono con frecce avvelenate e voci suadenti... err... cosa significa "suadenti", Boo?~
+@45   = ~*Squeak*~[GAM_48]
+@46   = ~Oh, capisco! Grazie, Boo.~
+@47   = ~Quel criceto sembra avere più usi dello specchio magico di Mammina. Mmm... mi domando che sapore avrebbe con i funghi... (Molto meglio dello specchio, questo è sicuro.)~
+@48   = ~Minsc può vedere da qui la fortezza dove gli gnoll nascondono Dynaheir! Malvagi sul ponte, fatevi da parte, Minsc e Boo stanno arrivando!~
+@49   = ~*Squeak*~[GAM_48]
+@50   = ~Sì, pensi tu grande! Vuoi combattere? Prendiamo comunque teste, e prendiamo un sacco d'oro!~
+@51   = ~Boo dice che dovremmo cercare trappole! Guarda come si gratta freneticamente la pancia! Lo fa sempre quando ci sono trappole in giro! O quando ha un brutto prurito, ma dice che non è questo il caso.~
+@52   = ~Attenzione, amici miei! Boo dice che nulla qui è come sembra!~
+@53   = ~Boo avverte anche che il suo naso acuto gli dice che ci sono molti ragni e non morti qui. E dall'odore di zolfo, un sacco di trappole esplosive.~
+@54   = ~Err... sei sicuro che sia così, Boo, e non quel pezzo di formaggio che tieni nel marsupio da dieci giorni?~
+@55   = ~Scusa, scusa, volevo solo sapere!~
+@56   = ~Ehi, testone, dì a Boo di smetterla di avvertire <CHARNAME> delle trappole! Anche una ragazza deve guadagnarsi da vivere, sai!~
+@57   = ~Ma Boo non potrebbe mai disarmare una trappola come fa la piccola Imoen.~
+@58   = ~Puoi scommetterci!~
+@59   = ~*sussurrando* So che *puoi*, Boo, ma non sconvolgere la nostra buona amica Imoen dicendole questo. Non ha ancora fatto i conti con la tua grandezza.~
+@60   = ~Tu... volevi *mangiare* la dolce e bella Dynaheir?!~
+@61   = ~"Dolce" Dynaheirrrr? Argh, se Ingot lo avesse saputo, gli altri gnoll lo avrebbero ascoltato. Forse Ingot può tornare indietro e convincerli ora.~
+@62   = ~Non andrai da nessuna parte e non mangerai mai Dynaheir! MALE, INCONTRA LA MIA SPADA! SPADA, INCONTRA IL MALE! RRRRARGH!!!~
+@63   = ~Ingot e Minsc
+
+La strega di Minsc viene tenuta prigioniera nella fortezza degli Gnoll ad ovest! Sembra probabile che sia ancora viva, in quanto i suoi rapitori hanno apparentemente bandito lo gnoll Ingot, a causa del fondato sospetto che potesse mangiarsela. A Minsc non è piaciuto questo proposito gastronomico.~
+//ict3 850-851-820-821-683-562-564-565-566-567-568-569-91-92-91-92
+@64   = ~Tengono degli schiavi qui?! Come può qualcuno essere così crudele da privare gli altri dell'aria fresca e della luce del sole? Questa malvagità alza come l'oceano la furia di Minsc! AVANTI, AMICI MIEI, CHE IL MALE TREMI!~
+@65   = ~Grazie, signori. Siamo lieti di avere uomini onesti come voi che difendono la nostra causa.~
+@66   = ~Oh, Minsc lo sa, Minsc lo sa! Uno gnoll! Minsc ODIA gli Gnoll! E hanno anche un cattivo odore!~
+@67   = ~Perché diavolo urli? Non puoi parlare normalmente? Mi hai fatto sordo, lo sai?~
+@68   = ~Lasciare uscire gli schifosi gnoll per permettere loro di fare del Male? Il sangue di Boo ribolle al pensiero! Minsc sente che stanno per partire calci nelle chiappe! Ehm... e sente anche molti altri cattivi odori... Sì, Boo, è stato molto *stupido* da parte dei banditi bloccare l'intero clan di gnoll in una caverna così piccola per così tanto tempo.~
+@69   = ~Minsc non capisce. Perché tutte queste persone odiano così tanto Jaheira? È una brava signora! Forse un po' troppo autoritaria, e un po' nervosa... ehm... in realtà, ricorda tanto a Minsc Berta la Zitella del Rashemen...~
+@70   = ~Cosa Boo? No, non penso di volere che mi tiri nuovamente le orecchie...~
+@71   = ~Immagina cosa farebbe a Minsc e Boo se sapesse che *abbiamo* fatto ubriacare Khalid al Giocoliere Gioviale...~
+@72   = ~Ahem!~
+@73   = ~Quindi siete stati voi! State tranquilli, scambieremo due paroline sulla questione... più tardi.~
+@74   = ~A volte p-penso che lo fai a-apposta, Minsc.~
+@75   = ~Alla Grande Madre non importa se la capisci o no, insetto. Segue il Suo percorso. E così dovrei fare anch'io, la Sua serva.~
+@76   = ~Asservisci povere, innocenti, piccole viverne?! Minsc dovrà usare i suoi stivali contro le tue vili azioni, sissignore!~
+@77   = ~Non dei brutti stivali... mmm, mi domando se le mie allieve li lasceranno, dopo aver finito di mangiare il tuo cadavere?~
+@78   = ~Asservisci povere, innocenti, piccole viverne?! Minsc dovrà usare i suoi stivali contro le tue vili azioni, sissignore!~
+@79   = ~Non male come stivali... mmm, mi domando se le mie allieve li lasceranno integri, dopo aver finito di mangiare il tuo cadavere?~
+@80   = ~Vogliono mangiarci?! Che tipo di creature vili sono queste?! E loro... vogliono mangiare anche Boo? NO! Minsc deve distruggerle, così che tutti i criceti possano essere al sicuro, sapendo che Minsc e Boo vegliano su di loro!~
+@81   = ~Mangiarrre crrrriceti? Perché? Tu hai molta più carrrrne...~
+//ict3 719-720-721-722-723-724-468-469-470-471-472-473
+@82   = ~Dynaheir! Guarda, Boo, l'abbiamo trovata! Oh, giorno glorioso!~
+@83   = ~Oh, sembrate davvero voi. Non avrei mai pensato che sarei stata felice di vedere il tuo... roditore.~
+@84   = ~Sì, mia strega, sono io! Oh, <CHARNAME>, se pensavi che Minsc e Boo e te formassimo una grande squadra da calci nelle chiappe, aspetta che Dynaheir si unisca a noi e scateni la sua magia contro le creature malvagie che ti ostacolano!~
+@85   = ~B-bestiole? Sto ancora s-sanguinando a causa dell'ultima di queste "b-bestiole"!~
+@86   = ~B-bestiole? Pensavo saremmo certamente morti, e lui le chiama b-bestiole?!~
+@87   = ~Non riesco a pensare ad un nome migliore per questa feccia, guerriero.~
+@88   = ~Tu vuoi uccidere la strega di Minsc?!~
+@89   = ~La tua strega?! (Tra tutti i gruppi di avventurieri del Faerun, dovevo chiedere proprio a *questi* babbuini.)~
+@90   = ~Sì, la MIA strega! Sparisci, sordido mago rosso, a meno che tu non voglia che Boo miri ai tuoi occhi!~
+@91   = ~Sordido?! Ho fatto il bagno questa mattina! (Che è più di quello che posso dire di questo gorilla).~
+@92   = ~Sì, sordido! Ora vattene, prima che Minsc scateni il suo criceto su di te!~
+@93   = ~Non è una tua scelta, scimmione... scimmione... sovrappeso! (Sì, questo può andare.). Che cosa ne pensi tu, <CHARNAME>?~
+@94   = ~Vedi, mago, nessuno qui vuole gente come te. Ora sparisci, prima che Boo non possa più trattenersi e ti mostri la potenza del suo spirito guerriero!~
+//ict3 653-652
+@95   = ~Idiota.~
+@96   = ~No, non può essere! Tutti i veri eroi devono abbassare la testa per la vergogna!~
+@97   = ~Aspetta un attimo, buon uomo, Boo sta dicendo qualcosa... come dici, Boo? Oh, capisco... non sei il tizio che ha venduto Boo a Minsc?~
+@98   = ~Infatti, mi sono dilettato con il commercio di animali domestici di tanto in tanto. Posso vederlo?~
+@99   = ~Vieni, Boo, saluta il simpatico vecchio mago!~
+@100  = ~Fammi dare un'occhiata al piccolo furfante...~
+@101  = ~Il mio amico peloso, con cosa sei stato occupato?~
+@102  = ~Davvero? È piuttosto intrigante!~
+@103  = ~Certo che dirò a Mystra che la saluti.~
+@104  = ~Sì, e che ti dispiace per quell'incidente con le pantofole.~
+@105  = ~Aspetta un attimo! Quindi Boo è davvero un...?~
+@106  = ~Tu uomo malvagio, non le toccherai un capello! Non finché Minsc e Boo sono qui per combattere per lei con la spada e con i denti!~
+@107  = ~Sono sicuro di potervi porre rimedio, babbuino. (Sì, una palla di fuoco dovrebbe essere sufficiente.)~
+//10-11-12-13-14-15-16-17-18
+@108  = ~Dolce, innocente <CHARNAME>, senza vestiti, su un tappeto di pelle d'orso. Immagina, Boo!~
+@109  = ~Qualcuno di noi lo ha già fatto.~
+@110  = ~Coran, la smetterai di borbottare!?~
+@111  = ~Smetti di incoraggiarlo!~
+@112  = ~Ah, quelli erano i giorni...~
+@113  = ~Che cosa c'è di così divertente in questo? Minsc lo faceva sempre, finché Boo gli ha spiegato che la vista di un Minsc nudo è troppa per alcune persone. In realtà Boo ha detto che potrebbe causare "gelosia fallica", ma Boo usa sempre parole difficili da capire, quindi Minsc deve tradurre con-*Dynaheir si sovrappone in tutta fretta*.~
+@114  = ~Minsc, non pronuncerai un'altra parola! Mi rifiuto, inoltre, di ricordare quel periodo! Siamo stati cacciati da tre città in meno di una decade!~
+@115  = ~Sì, ma Minsc ha anche ricevuto dodici proposte di matrimonio.~
+@116  = ~Una prospettiva rinfrescante...~
+@117  = ~Mezzorco traditore, BOO AVRÀ I TUOI OCCHI!~
+@118  = ~Gah!~
+//809-810-811
+@119  = ~BASTA! BASTA! MINSC IMPAZZISCE! E NON TI PIACE MINSC QUANDO È PAZZO!~
+@120  = ~Sì, meglio ascoltarlo, amico. L'ho visto strappare la testa a degli ogre, sai...~
+@121  = ~*deglutisce* Bene, allora... ahem... ta-dah, arrivederci, buona giornata e tutto il resto!~
+@122  = ~Sì, Boo, adesso chiedo... <CHARNAME>, hai delle mele? Boo dice che ha questo desiderio di mele e...~
+@123  = ~<CHARNAME>?! Sei tu, allora! MUORI! MUORI! MUORI!~
+@124  = ~Questo dimostra che l'intelletto di un individuo è inversamente proporzionale alla sua taglia. Guardami, e guarda Minsc... CVD.~
+@125  = ~Scimmia troppo cresciuta, ci farai uccidere tutti un giorno! (Non che mi interessi degli altri, ma potrebbe fare uccidere ME!)~
+@126  = ~Perché quelle facce lunghe? Una battaglia gloriosa ci attende, e poi prenderò a Boo le sue mele. Sa aspettare, sai. MIRA AGLI OCCHI, BOO, MIRA AGLI OCCHI! RRRARGH!!!~
+@127  = ~C'è qualcosa di strano in quell'uomo... Non ho mai visto i baffi di Boo fremere così.~
+//663-664-665-77-735-736
+@128  = ~Minsc dice di non fidarsi di loro, <CHARNAME>! Guarda, Boo sta diventando nervoso e pronto per la battaglia! È una trappola!~
+@129  = ~Dobbiamo seguire i capricci di un criceto ora? E per di più un criceto *Rashemi*... (Ma penso che terrò pronta una palla di fuoco... non si sa mai...)~
+@130  = ~Devo ammettere che sono d'accordo con Minsc, <CHARNAME>!~
+@131  = ~Un povero ragazzo indifeso, perso in questi boschi! Dobbiamo trovarlo, <CHARNAME>, dobbiamo!~
+@132  = ~Poverino, è matto come lo era Minsc prima che Boo lo trovasse. Forse dovremmo procurargli un criceto? Lo tranquillizzerebbe sicuramente...~
+@133  = ~Che cosa dici, Boo?... sì, penso che anche un cincillà andrebbe bene. Si intonerebbe ai suoi occhi.~
+@134  = ~Attento, <CHARNAME>! Boo mi dice che la terra stessa qui contiene grandi pericoli, e non sta parlando di vermi!~
+@135  = ~Sì! Questo è il posto! In marcia, dobbiamo sbrigarci! Minsc non permetterà a Dynaheir di soffrire ulteriormente!~
+@136  = ~In marcia per salvare la nostra bella signora!~
+@137  = ~Ehi, come fa <CHARNAME> a sapere che Dynaheir è bella?~
+@138  = ~*fai l'occhiolino* L'ho vista nei miei sogni, Minsc.~
+@139  = ~Io... penso di averla vista nei miei sogni, ranger.~
+@140  = ~Dai tuoi racconti, ovviamente, mio fedele compagno!~
+@141  = ~Lei non lo è? O, beh, suppongo che dovremo salvarla a prescindere...~
+@142  = ~Non lo so, ma uno ci può sempre sperare, no? Vedete, nelle canzoni dei bardi le damigelle in difficoltà baciano sempre i coraggiosi cavalieri che le hanno salvate.~
+@143  = ~Davvero?!~
+@144  = ~Che cosa dici, Boo?~
+@145  = ~Oh, capisco... bella battuta, <CHARNAME>!~
+@146  = ~Anche Minsc lo ha fatto... Ma come può <CHARNAME> sapere che sia Dynaheir, e non qualche altra strega?~
+@147  = ~SÌ! IN MARCIA!~
+@148  = ~Perché Dynaheir bacerebbe <CHARNAME>? Minsc pensa che se volesse baciare qualcuno sarebbe Boo... le donne fanno quel genere di cose...~
+@149  = ~Ora, Boo, non eccitarti!~
+@150  = ~Il male è dietro ogni angolo. Attento a non... aaargh! Penso di averne appena pestata una!~
+@151  = ~Spero che questa nave non abbia ratti. Boo ODIA i ratti! Non è vero, Boo?~
+@152  = ~Copriti il naso, Boo! Questo posto puzza peggio della Loggia dopo una festa di tre giorni!~
+@153  = ~Hai ragione Boo, batta persino quella volta in cui Uldon Il Sudicio aveva avuto tutti quei fagioli e cavoli per cena. Ma almeno possiamo fare qualcosa per i malvagi puzzolenti responsabili di tutto questo!~
+@154  = ~Questo luogo puzzolente è intriso di malvagità! Lasciate che il nostro vento di giustizia lo pulisca!... ehm... penso che non suoni totalmente giusto, vero, Boo?~
+@155  = ~Copriti il naso, Boo! Questo posto puzza peggio della Loggia...~
+@156  = ~*ignora Minsc*~
+@157  = ~... dopo una festa di tre giorni! Lo so, lo so...~
+@158  = ~... dopo una festa di tre giorni! Aspetta... non siamo già stati in un posto esattamente così? Eh?~
+@159  = ~Minsc lo ha già detto?~
+@160  = ~Sì, Minsc, lo hai fatto...~
+@161  = ~Beh, è vero! Esatto!~
+@162  = ~Minsc non ti permetterà di uccidere la dolce Dynaheir! Riconsidera le tue opzioni, ora!~
+@163  = ~Molto bene, Minsc, andremo a salvare Dynaheir.~
+@164  = ~Minsc, non ho promesso niente a nessuno. Andremo a salvare Dynaheir. Tu controllerai Edwin, e lui controllerà te.~
+@165  = ~No, non lo farò. Sparisci, pazzo adoratore di animali domestici.~
+@166  = ~Allora assaggerai l'ira di Minsc e Boo! RRRARRRGH!!!~
+@167  = ~Non capisco, <CHARNAME>, ma Dynaheir deve essere salvata. Io terrò d'occhio il mago e Boo terrà d'occhio te.~
+@168  = ~Relativamente astuto, per gente come te. (Sopporterò questi idioti per ora, ed entrambi i Rashemi cadranno sotto il mio potere).~
+@169  = ~Mago, nessuno qui vuole gente come te. Ora sparisci, prima che Boo non possa più trattenersi e ti mostri la potenza del suo spirito guerriero!~
+@170  = ~Mmm. Sembra che dovrò trovare altri più... abituati ai lavori confidenziali. Vattene! Non ho tempo per questo!~
+@171  = ~Edwin e Dynaheir
+
+Ho incontrato un uomo di nome Edwin vicino a Nashkel e ho rifiutato il suo accordo per uccidere una donna di nome Dynaheir. Dovrò tenere occhi e orecchie aperte per entrambi.~
+@172  = ~Oh! Boo dice a Minsc che queste cose appiccicose sono pericolose! Dobbiamo usare il fuoco contro di loro, <CHARNAME>!~
+@173  = ~Se solo avessimo Dynaheir con noi. Oh, che palle di fuoco potrebbe lanciare! Più grandi di quelle di Boo dopo una dieta a base di fagioli.~
+@174  = ~Certo, aiuta avere una strega potente come Dynaheir con noi, vero, Boo?~
+@175  = ~Oh adulatore, perché non ti fai da parte in modo da permettermi di lanciare?~
+@176  = ~Siamo stati molto fortunati a trovare il mago-pollo e a riportarlo dal mago-uomo! Ora è di nuovo un uomo-pollo anche il mago-mago e noi siamo dei polli eroi … ehm forse Minsc ha confuso le parole!~
+@177  = ~Veramente, Tymora ama i pazzi. Da quello che so delle magie con cui Melicamp si è dilettato, avrebbe potuto finire nella zuppa di una contadina.~

@@ -1,0 +1,245 @@
+//Incontro con Arkushule
+@0    = ~Una zingara che non vuole soldi? Aspetta! Cosa hai visto?~
+@1    = ~Lasciami!~
+@2    = ~Che cosa c'è, vecchia? Qual è il destino di <CHARNAME>?~
+@3    = ~Nessun nome! Non voglio sapere il nome! Non avvicinarti!~
+@4    = ~Ora, hai idea di cosa sia successo? Cosa del tuo passato avrebbe potuto spaventare Arkushule così tanto?~
+@5    = ~Era ovviamente folle. Probabilmente non è niente.~
+@6    = ~Non lo so, ma è stato divertente vederla farsi piccola piccola.~
+@7    = ~Non ne ho idea. Vorrei che me lo avesse detto.~
+@8    = ~Beh, qualunque cosa fosse, era ovviamente spaventata. Mi fa porre qualche domanda su questa compagnia a cui mi sono aggregata. Sei sicuro di non aver dimenticato di dirmi qualcosa, tesoro?~
+		~Beh, qualunque cosa fosse, era ovviamente spaventata. Mi fa porre qualche domanda su questa compagnia a cui mi sono aggregata. Sei sicura di non aver dimenticato di dirmi qualcosa, tesoro?~
+@9    = ~Che riflessione... affascinante, <CHARNAME>. Cercherò di ricordarla.~
+@10   = ~Beh, sfortunatamente è morta ora, quindi probabilmente non lo sapremo mai. A meno che non ci fermassimo da un Negromante.~
+@11   = ~Beh, qualunque cosa fosse, le ha fatto abbastanza paura da provare a ucciderti. Mi fa porre qualche domanda su questa compagnia a cui mi sono aggregata. Sei sicuro di non aver dimenticato di dirmi qualcosa, tesoro?~
+		~Beh, qualunque cosa fosse, le ha fatto abbastanza paura da provare a ucciderti. Mi fa porre qualche domanda su questa compagnia a cui mi sono aggregata. Sei sicura di non aver dimenticato di dirmi qualcosa, tesoro?~
+//Safana e Skie
+@12   = ~Skie, sto trovando il mio guardaroba un po'... carente, in questi giorni. Hai un occhio meraviglioso per i vestiti, dove mi consigli di guardare?~
+@13   = ~Ooh, vediamo. C'è una sarta semplicemente meravigliosa vicino alla casa di mio padre.~
+@14   = ~Fa un ottimo lavoro con sete, velluti e persino pelle, che potrebbero essere più di tuo gusto. Vuoi che ti mostri dove si trova?~
+@15   = ~Mmm, sì. <CHARNAME>, tesoro, Skie e io abbiamo alcune, ah, commissioni prioritarie da eseguire. E avremmo anche bisogno di una moneta o due...~
+//Safana e Ajantis
+@16   = ~Oof!~
+@17   = ~Che cosa c'è, mia signora? Ti sei fatta male?~
+@18   = ~Io... all'improvviso mi sento... svenire. Questo zaino sembra diventare sempre più pesante. Forse ho solo bisogno di sedermi per un po'.~
+@19   = ~Sembra davvero troppo pesante per te, mia signora. Per favore, lascia che porti io un po' di quel peso.~
+@20   = ~Davvero, avere un cavaliere così galante nel gruppo è così conven- … voglio dire … delizioso. Cosa farei senza un giovane forte come te? Ecco, prendi pure, Ajantis.~
+//Safana e Branwen
+@21   = ~Sai, stavo chiacchierando con <CHARNAME> e ho sentito una storia davvero straordinaria.~
+@22   = ~Un'altra tua straordinaria storia, Safana? Confido che sarà un po' più credibile della storia del naufragio.~
+@23   = ~Ti permetterò di esserne il giudice, cara. È la storia di una sacerdotessa-guerriera immobile nelle sue convinzioni, indurita dai suoi anni di battaglie in un pilastro di virtù.~
+@24   = ~Come inizio non c'è male. Tempus ci ha insegnato molte di queste storie ispiratrici per guidarci nella nostra vita quotidiana.~
+@25   = ~Davvero? Bene, questo racconto tratta di questa bellezza statuaria messa di fronte a una questione di onore contro amore - anzi, di una mente inflessibile contro un cuore indurito.~
+@26   = ~Una domanda che alla fine l'ha lasciata pietrificata, incapace di fare altro che supplicare il suo dio.~
+@27   = ~Posso solo sperare che l'onore abbia vinto in questo caso, perché l'amore può essere fugace, mentre l'onore è l'unica roccia su cui un'anima trova conforto.~
+@28   = ~L'unica ‘roccia'? Non avrei saputo dirlo meglio io stessa, Branwen. *ridacchia tra sé*~
+//Safana e Coran durante la missione delle viverne
+@29   = ~Coran, sembri un uomo che conosce qualcosa del mondo. Dimmi, cosa potrebbe fare una donna giovane e bella come me in un posto come questo?~
+@30   = ~La signora in questione preferirebbe forse un posto più appartato?~
+@31   = ~Se l'elfo in questione fosse abbastanza in gamba da rimanere vivo in questa piccola caccia alla viverna, forse vedrà ciò che la signora preferisce.~
+//Safana e Coran
+@32   = ~Forse ora sarebbe un buon momento per acquistare un giro di bevute. La mia sete sta diventando intollerabile.~
+@33   = ~Sono abbastanza d'accordo. In più di un'occasione, il dolce vino si è dimostrato il migliore olio per sbloccare le serrature più serrate.~
+@34   = ~Girava un detto sulle serrature bloccate quando ero in mare, ma non riuscirei a ricordarlo neppure per salvarmi la vita. Sono abbastanza sicura potrebbe aver avuto a che fare con degli elfi impertinenti.~
+@35   = ~Impertinenti? Signora, stavo semplicemente commentando i punti più raffinati della nobile arte dello scasso.~
+@36   = ~Perdonami, hai detto qualcosa, Coran? Sono stata distratta da quel bagliore lascivo nei tuoi occhi.~
+@37   = ~Sono un po' scioccata dalla mancanza di discrezione di Briel in tali questioni. Non credo che mi limiterei ad avvicinarmi a un uomo con un gruppo di sconosciuti per strada per annunciare di essere la sua sgualdrina abbandonata.~
+@38   = ~Non so nemmeno...~
+@39   = ~No, penso che cercherei di trovare un uomo simile in un posto tranquillo, gli sfilerei la borsa e lo lascerei poi in vari piccoli pezzettini in giro per la città.~
+@40   = ~Uh, Safana, forse è solo una specie di...~
+@41   = ~Ma è solo una mia opinione, con nessuna possibile attinenza con questa situazione. Vero tesoro? Assolutamente nessuna con la nostra situazione?~
+@42   = ~No, certo che no. Forse dovremmo andare?~
+//Safana e Dynaheir
+@43   = ~Dynaheir, la tua conoscenza della magia include la creazione di pozioni?~
+@44   = ~No, Safana. Nella mia terra natale, la creazione di oggetti magici è dominio riservato ai Vremyonni, i maghi uomini. Perché me lo chiedi?~
+@45   = ~Nell'ultima taverna, mi è sembrato di aver pagato lo scotto di tutto questo viaggiare: solo sette uomini si sono offerti di offrirmi da bere, invece della solita dozzina. Quindi ho pensato che potresti avere una crema per la pelle o qualcosa di simile.~
+@46   = ~Una crema per la pelle? Anche se avessi questa abilità non mi abbasserei a usarla per una ragione così mondana. Le mie arti magiche non servono la tua vanità, ma il benessere di questo gruppo.~
+@47   = ~Oh, ma non devi preoccuparti per questo, tesoro. In molti mi hanno detto che ci so *davvero* fare col benessere.~
+//Safana e Edwin
+@48   = ~Edwin, mi ricordi uno dei consiglieri di mio padre, quando ero giovane. Credo che fosse un Mago Rosso, come te.~
+@49   = ~Davvero? Mi sorprende che tuo padre fosse abbastanza saggio da cercare la conoscenza della nostra setta.~
+@50   = ~Sì, beh, aveva una propensione ad usare le nostre domestiche per affinare le sue arti sensuali, se capisci cosa voglio dire.~
+@51   = ~La pratica è indispensabile per migliorare le proprie abilità.~
+@52   = ~Un giorno, quando avevo dodici anni, ha deciso di volerle affinare con me. Mi ha attirato nella dispensa con la promessa di mostrarmi un trucco magico e ha tentato di bloccarmi sul tavolo.~
+@53   = ~Sono fuggita, ma ha strappato la mia gonna preferita nella colluttazione.~
+@54   = ~Immagino che tu sia corsa da tuo padre, che, non capendo l'importanza di un'educazione liberale, avrà fatto decapitare quell'uomo. (Beh, forse era effettivamente un po' troppo giovane, ma comunque... sono pur sempre degli sciocchi non illuminati.)~
+@55   = ~A dire il vero, quella sera mi sono insinuata nella sua stanza mentre dormiva e gli ho tagliato la gola da parte a parte. Vedi, adoravo quella gonna.~
+//Safana ed Eldoth
+@56   = ~Trovo il tuo aspetto e i tuoi modi molto affascinanti, Eldoth. Mi hai fatto venire in mente una storia di passione e intrighi, di teneri abbracci e dolci promesse.~
+@57   = ~Hai sollevato il mio... interesse, mia affascinante ragazza. Il tuo pubblico attende senza fiato.~
+@58   = ~C'era una volta una piccola allodola che viveva in una gabbia dorata. Giovane e innocente, cantava a tutti i passanti i suoi desideri di libertà e avventura.~
+@59   = ~Poi, un giorno, una canaglia si è imbattuta in quest'allodola. Non gli importava della sua bellezza o delle sue canzoni, ma solo di quelle sbarre dorate che la tenevano prigioniera. Incantò l'ingenua allodola mormorandole dolci parole, e promettendole tutti i desideri del suo cuore.~
+@60   = ~Lei si affidò a lui, senza mai rendersi conto di aver semplicemente scambiato una gabbia d'oro con una gabbia di bugie.~
+@61   = ~Fortunatamente per l'allodola, un falco ha scoperto tutto questo e ha avuto pietà di lei. Sorveglio quindi la canaglia notte e giorno per impedire ulteriori falsità.~
+@62   = ~Che favola interessante! Ma da un canta-storie all'altro, la morale finale è piuttosto pesante.~
+@63   = ~Oh dici? Temevo che la sua sottile finezza ti fosse sfuggita, bardo.~
+@64   = ~Vorrei anche sottolineare che fintanto che la piccola allodola canta ancora per il suo padrone ogni volta che lo desidera, non importa che il falco lo sappia. E gli artigli di quel falco sono sicuramente spuntati come il tuo ingegno.~
+@65   = ~Io se fossi la canaglia, mi guarderei le spalle. Un giorno potrebbe imparare quanto siano invece affilati quegli artigli.~
+//Safana e Faldorn
+@66   = ~Non ti stanchi mai dei boschi, Faldorn?~
+@67   = ~Blasfemia! Le foreste sono una delle creazioni più belle della natura.~
+@68   = ~Beh, sì, gli alberi sono molto più belli di un vecchio deserto noioso o del mare aperto. Ma non riesco mai a dormire bene la notte sdraiata su rametti e pigne.~
+@69   = ~Preferirei di gran lunga stare in un'accogliente taverna, condividendo un bicchiere di vino e forse altre delizie con un bel ragazzo.~
+@70   = ~Mi fai ribrezzo. Sarà un giorno gioioso quando i Druidi dell'Ombra finalmente libereranno questa terra dai tuoi simili.~
+@71   = ~Vieni a cercarmi quel giorno, tesoro - Sarò quella rannicchiata sul letto di piume più spesso della città.~
+//Safana e Garrick
+@72   = ~Garrick, ho sentito storie sulla tua abilità lirica e ho deciso di volerti commissionarti una canzone.~
+@73   = ~Commissionare? Oh no, non mi sognerei mai di accettare denaro da parte tua - la sola vista della tua bellezza è un pagamento sufficiente. In effetti, sto già lavorando su un'ode alla tua grazia. Ti piacerebbe ascoltarla?~
+@74   = ~Davvero? Mi piacerebbe sentirla. Tuttavia, devo informarti che questa non è la prima canzone scritta su di me. In effetti, a bordo dell'Exzesus sono stata immortalata in uno dei canti più pazzi mai scritti.~
+@75   = ~Beh, è molto da controbattere, ma cercherò di fare del mio meglio:~
+@76   = ~Guardo nella mia anima, ma vedo solo il vuoto.
+Perché il vino è stato bevuto per alleviare il dolore,
+lasciando solo una bottiglia vuota e sedimenti,
+come sangue secco che ricopre le mie viscere.~
+@77   = ~Cerco il tappo per riempire la bottiglia e trovo
+cristalli, brillanti nella luce e sanno
+che dal vuoto deriva la bellezza.~
+@78   = ~Interessante, Garrick. Ma mi aspettavo qualcosa di più sulla falsariga di "C'era una volta di Beregost un tale..."~
+@79   = ~Uh, ok. Bene, che ne dici allora di questa:~
+@80   = ~C'era una volta di Beregost un tale
+Che vagava perso come un animale
+Quando incontrò una gentile damigella,
+che per una giusta somma gli mostrò quant'era bella
+Ma ancora si domanda se tutto quell'oro vale.~
+@81   = ~Ora questa sì che è ispirazione, cucciolotto. *Veramente* ispirato!~
+@82   = ~Allora, Garrick, come procede la tua canzone?~
+@83   = ~Safana, ho paura di dire che non riesco a esprimere ciò che provo.~
+@84   = ~Cosa? Ci sono molte parole che fanno rima con "lussuria". Penuria, furia, anguria o senti questa... goduria! Mi sembra di avere un talento per i testi, che ne pensi, bardo?~
+@85   = ~Beh, sì, suppongo che tu ne abbia. Ma non è questo il dilemma in cui mi trovo. Vedi, trovo difficile creare qualcosa che sia più di un'ombra dei miei veri sentimenti nei tuoi confronti. Ho semplicemente perso la voglia di lavorare.~
+@86   = ~Voglio dire, certo, i semplici inni di battaglia non sono un problema, ma quando provo a sbloccare il mio cuore, naufrago sulle onde della tua bellezza, e mi ritrovo completamente solo e torturato da qualcosa che nemmeno io posso nominare. (Non male, come parlantina.)~
+@87   = ~Forse dovremmo concentrarci maggiormente sulla rima con "lussuria", e vedere dove ti porta.~
+@88   = ~Ah, magari! Voglio dire, credo che potrebbe essere un approccio migliore...~
+@89   = ~Garrick, spero che tu sia riuscito a superare quel piccolo blocco mentale che stavi avendo.~
+@90   = ~Safana, ho trascorso il tempo dalla nostra ultima conversazione cercando di trovare un modo per esprimermi, e ho deciso che devo scegliere tra te o il lavoro della mia vita. Non posso condividere questa divisione nella mia ispirazione.~
+@91   = ~Dal momento che mi sembra di non essere altro che un giocattolo per te, devo chiederti di smettere di giocare con me e lasciarmi stare.~
+@92   = ~Non sei più divertente, Garrick. Comunque, non sono stata io a chiederti di scaricare tutta la tua storia di "bottiglie vuote" su di me.~
+@93   = ~Sarò felice di lasciarti in pace, ma mi mancheranno davvero i massaggi al collo. Potresti aver perso la tua occasione in tal senso.~
+//Safana e Imoen
+@94   = ~Imoen cara, ho notato che hai avuto un po' di difficoltà con una di quelle serrature lì dietro. Quando ero giovane, la casa di mio padre era piena di serrature proprio come quella, quindi ho imparato che esiste un trucco speciale per aprirle. Vuoi che te lo mostri?~
+@95   = ~Uh, certo, Safana. È così terribilmente carino da parte tua...~
+@96   = ~Perfetto, ora hai il tocco giusto. Una ragazza così intelligente, mi ricordi un'altra piccola carina che conoscevo una volta...~
+@97   = ~Imoen, bambina, oggi i tuoi capelli sono semplicemente spaventosi. Vieni, lascia che li aggiusti per te.~
+@98   = ~Non capisco, Safana. Cosa c'è tutta quest'attenzione? Perché sei così gentile con me?~
+@99   = ~Mia dolce piccola innocente, questo è un mondo freddo e crudele in cui viviamo. Una ragazza deve usare qualunque vantaggio naturale abbia, e tu ne hai parecchi. Sei abbastanza cresciuta perché qualcuno ti prenda sotto la sua ala e ti aiuti a far sbocciare il tuo fascino.~
+@100  = ~Non ne sono certa per la parte del fascino, Safana, ma di sicuro mi piacciono i suggerimenti sullo scasso. Puoi mostrarmene ancora qualcuno?~
+@101  = ~Certamente, cara, ma penso che imparare a sbloccare i cuori degli uomini ti servirà molto meglio a lungo termine.~
+//Safana e Jaheira
+@102  = ~Khalid, tesoro, hai-~
+@103  = ~Safana, ti suggerisco di trovare qualcun altro da chiamare "tesoro"~
+@104  = ~Cos'è questa? Una punta di gelosia, forse?~
+@105  = ~Sciocchezze. Conosco il carattere di Khalid e non mi ha mai destato preoccupazione.~
+@106  = ~Allora forse la tua gelosia è rivolta più alla mia intelligenza sfavillante, al mio fascino irresistibile e alla mia natura libera e ribelle?~
+@107  = ~"Libera e ribelle" non sono esattamente le parole con cui ti descriverei. "Irresponsabile" ed "egoista" sembrano più appropriate.~
+@108  = ~Sono davvero lusingato dalla quantità di tempo che hai trascorso a pensare a me, Jaheira.~
+//Safana e Kagain
+@109  = ~Kagain, hai sicuramente maneggiato bene la tua ascia in quest'ultima battaglia.~
+@110  = ~Sarei più che felice di mostrarti come maneggio qualche altra mia arma, se capisci cosa intendo.~
+@111  = ~Sono curiosa, tutto il tuo … equipaggiamento, rispetta le dimensioni naniche?~
+@112  = ~Non è la dimensione dell'ascia, ragazza, è come la fai oscillare.~
+@113  = ~Oh, la tecnica è importante, ma posso assicurarti che le dimensioni contano, amico mio.~
+@114  = ~Ma avrai notato, ragazza mia, che le armi forgiate dai nani sono sempre più grandi di quelle delle razze "alte" …~
+//Safana e Khalid
+@115  = ~Sai, Khalid, non sembri abbastanza ficcanaso per essere un Arpista. Viaggiamo insieme da un po' di tempo ormai e non mi hai ancora rivolto la parola.~
+@116  = ~Temo di non essere un t-tipo da p-pettegolezzi, Safana.~
+@117  = ~Perché? A causa della tua balbuzie?~
+@118  = ~Ah. Non esiti a essere s-schietta, vero?~
+@119  = ~Non ha senso sprecare tempo che può essere dedicato ad attività più piacevoli, lo dico sempre. No, tesoro, se è per quello che sei così tranquillo con me, non c'è bisogno di essere timido.~
+@120  = ~No, non è p-per quello. Raramente trovo d-divertimento in una conversazione informale, p-perché...~
+@121  = ~Sono contenta che abbiamo fatto chiarezza. Ora, pasta parlare di te, parliamo di me...~
+@122  = ~Quindi, Khalid, non ti stai domandando cosa ci faccia una creatura così affascinante come me così lontano da casa?~
+@123  = ~P-perdonami, Safana, stavo pensando ad altro. Hai d-detto qualcosa?~
+@124  = ~Non ti stai chiedendo nulla su di me? O la tua sorvegliante acceca completamente la mia presenza?~
+@125  = ~Non so cosa chiederti. E t-trovo il tuo interesse verso di me un po' s-strano. Sicuramente la mia d-devozione per Jaheira non è un segreto.~
+@126  = ~Mi domandavo, non avresti potuto trovare di meglio che Jaheira la Dispotica? Non trascorre un'ora senza che ti rimproveri o non borbotti contro qualcuno.~
+@127  = ~Jaheira non è per niente d-dis-disp… *sospira*. E scusami ma suona davvero - prepotente. Ci sono alcune c-cose nel nostro p-passato che non conosci, Safana.~
+@128  = ~No? Beh, non sono molto interessata al passato. Tengo gli occhi aperti sul futuro e-~
+@129  = ~Non importa, tesoro, la vedo fissarci. Continueremo un'altra volta.~
+//Safana e Kivan
+@130  = ~Kivan, come si chiamava di nuovo tua moglie?~
+@131  = ~*dolcemente* Deheriana.~
+@132  = ~Ah, sì, giusto. Il tuo dolore per lei mi ricorda quello di mio padre quando perse mia madre.~
+@133  = ~Mi dispiace sapere della dipartita di tua madre, Safana.~
+@134  = ~Beh, è interessante che tu abbia usato quel termine, cisto che in verità potrebbe essere effettivamente solo "partita". Sono stata affascinata dalle sirene e dalle ninfe fin da piccola, e mio padre mi diceva che mia madre era una sirena che doveva tornare al mare.~
+@135  = ~Quando sono cresciuta, ho pensato che fosse solo una storia per ammorbidire la perdita ad una bambina. Ma forse non lo era.~
+@136  = ~In ogni caso, non vedo l'ora di aiutarti a vendicare la morte di Deheriana.~
+@137  = ~Grazie, Safana.~
+//Safana e Minsc
+@138  = ~Dimmi, Minsc, cosa ci fa un uomo grande e forte come te in un posto come questo?~
+@139  = ~Boo afferma che <CHARNAME> voleva che venissimo qui. C'è qualche altro posto in cui dovremmo essere?~
+@140  = ~Boo è sicuro che ci sia il Male nelle vicinanze. Presto lo troveremo e le chiappe dei malvagi verranno prese a calci dai miei stivali grandi e da quelli piccoli di Boo.~
+@141  = ~Non importa, Minsc. Porteresti il mio zaino per un po', vero?~
+@142  = ~Certo! Dimmi, non sei segretamente una maga, vero, signorina? Boo mi dice che sono incantato, ma non mi sento diverso.~
+//Safana e Montaron
+@143  = ~<CHARNAME>, non credo di averti mai raccontato di quella volta che ho sistemato da sola una ventina di combattenti halfling che stavano tentando di raccogliere una taglia su di me?~
+@144  = ~Ci sono halfling che pensano di essere guerrieri, e ce ne sono altri che lo sono. Se solo ne avessi voglia ti farei vedere la differenza.~
+@145  = ~Vai a raderti i piedi, moscerino, sto raccontando una storia qui.~
+@146  = ~Strusciarli sul tuo freddo cadavere dovrebbe funzionare. Non credo serva altro.~
+@147  = ~<CHARNAME>, tesoro, puoi dire al nanetto qui di chiudere la sua fogna, prima che rimetta in pratica la parte finale del mio racconto?~
+//Safana e Shar-Teel
+@148  = ~Shar-Teel, non posso fare a meno di notare che non ti piacciono molto gli uomini.~
+@149  = ~Ovviamente <CHARNAME> ti ha voluto per il tuo acume.~
+@150  = ~A dire il vero, sì, tesoro, credo sia per questo che faccio parte di questo gruppo. È così dolce farmelo notare da parte tua.~
+@151  = ~Ma torniamo all'argomento. Mi chiedo perché li odi così. Non ti è mai capitato di sentire che il miele cattura più mosche dell'aceto?~
+@152  = ~Non mi interessa *catturare* le mosche, ma solo ucciderle.~
+@153  = ~Uh che ostilità, cara. Penso solo che ci siano modi più semplici, per non dire più divertenti, di sfruttare le debolezze degli uomini rispetto al percorso che hai scelto tu.~
+//Safana e Skie
+@154  = ~Come figlia di uno dei duchi, Skie, devi aver avuto molti pretendenti. Dimmi, come sono gli uomini di Baldur's Gate?~
+@155  = ~Beh, nessuno di loro può reggere il confronto con Eldoth. Gli altri sono così noiosi. Sono solo interessati ai soldi di mio padre.~
+@156  = ~Ah … sì, certo … tesoro, sono sicura che Eldoth non abbia assolutamente nessun interesse per la tua posizione o la tua ricchezza.~
+@157  = ~Oh davvero! Mi ama per quello che sono. Sono così felice che finalmente andremo all'avventura insieme, proprio come mi ha sempre promesso!~
+@158  = ~Sì, penso che viaggiare un po' allargherà i tuoi orizzonti e ti aprirà gli occhi su come funziona davvero il mondo.~
+@159  = ~Skie, tesoro, mi è appena venuta in mente una storia che penso ti farebbe piacere ascoltare.~
+@160  = ~Ooh, adoro le tue storie. Di cosa parla questa?~
+@161  = ~C'era una volta una figlia di un signore ricco e potente - una ragazza straordinariamente bella, potrei aggiungere. Suo padre le forniva ogni capriccio, ma il suo cuore desiderava soltanto l'avventura.~
+@162  = ~Oh, so proprio come ci si sente!~
+@163  = ~Sì, ho pensato potessi, mia cara. Così un giorno ha deciso di scappare con alcuni pirati spericolati.~
+@164  = ~Ma l'avventura si è rivelata molto più... disordinata e più pericolosa di qualsiasi altra storia mai menzionata.~
+@165  = ~È terribile! Non aveva qualcuno che si prendesse cura di lei?~
+@166  = ~No, cara, era da sola, con nient'altro che il suo ingegno e un fascino non trascurabile.~
+@167  = ~Ha imparato che era una sfida per chiunque e in grado di affrontare qualsiasi cosa. Non aveva bisogno di un uomo.~
+@168  = ~Ma è molto più bello con qualcuno come Eldoth in giro. Non devo mai preoccuparmi di nulla.~
+@169  = ~Oh, gli uomini hanno il loro posto, certamente... preferibilmente a strofinarmi le spalle o prendermi qualcosa da bere.~
+@170  = ~Ma la ragazza della mia storia ha imparato a non confondere il desiderio di un uomo con il bisogno di uno. Spero, tesoro, che penserai alla mia storia.~
+//Safana e Tiax
+@171  = ~Tiax, ti ho sentito menzionare il dominio del mondo in diverse occasioni. Mi ricorda una storia che ho sentito mentre ero in mare di un artefatto potentissimo. Un manufatto che dovrebbe essere impugnato solo da qualcuno della tua, ah, levatura.~
+@172  = ~Il sovrano supremo sarebbe molto interessato a sentire una tale storia.~
+@173  = ~Mi trovavo a bordo dell'Exzesus. Avevamo appena saccheggiato un villaggio sulla costa dell'Amn e salpammo per l'isola di Brynnlaw per scaricare il bottino in eccesso.~
+@174  = ~Stavo trascorrendo la serata in uno dei bordelli più famosi, quando ho sentito per caso un giovane mago e la sua padrona vestita di pelle fare riferimento a un "Amuleto della Dominatrice".~
+@175  = ~Apparentemente il possessore di un simile oggetto può schiavizzare il mondo.~
+@176  = ~Schiavizzare il mondo? Tiax deve conoscere la posizione di questo bordello! Tiax deve avere l'amuleto! A Tiax non verrà negato il suo destino!~
+@177  = ~Ma certo, cucciolotto, a tempo debito. Adesso però, avrei bisogno che tu raggiunga le mie scapole - ho un prurito semplicemente insopportabile...~
+@178  = ~Sono curiosa, Tiax. Che opinioni hanno gli gnomi sulle donne umane?~
+@179  = ~I nasi delle donne umane sono inquietantemente piccoli mentre loro stesse sono inquietantemente grandi!~
+@180  = ~Gli umani dovrebbero imparare a smettere di crescere ad altezze non necessarie, e quando Tiax governerà dovrà assicurarsi che a nessuno sia permesso di crescere anche di un solo centimetro più in alto rispetto allo stesso Tiax!~
+@181  = ~Oh, andiamo. Cosa potresti trovare di attraente in un naso? Sicuramente ci sono altri... vantaggi, che le donne umane possiedono e che nessuna donna gnomica potrebbe mai possedere.~
+@182  = ~Nulla supera l'importanza di un naso ben sviluppato! NULLA! Il naso di una donna gnomica è testimonianza della sua bellezza!~
+@183  = ~Solo pensare a un naso femminile ben formato, la sua lunghezza straordinaria estendersi oltre il viso, le sue narici espandersi, la sua elegante curvatura... *Gli occhi di Tiax si velano*~
+@184  = ~Penso di essermi spinta molto più lontano del previsto su questo argomento. Alla prossima locanda, vedrò se posso organizzarti un bagno freddo, Tiax.~
+//Safana e Viconia
+@185  = ~Viconia, non posso fare a meno di notare come hai continuato a nascondere il tuo bellissimo viso da quando ti abbiamo salvato. Temi ancora per la tua vita tra eroi così prodigiosi?~
+@186  = ~Temo che le vecchie abitudini siano dure a morire, rivvil. Quando hai vissuto in clandestinità per tutta la vita, passare inosservata diventa come una seconda natura.~
+@187  = ~Sì, ma sei ancora una drow ed esercitare i tuoi poteri come donna dovrebbe essere ancora la tua prima natura, non ti pare?~
+@188  = ~Non so molto sulla cultura dei drow, ma penso di aver imparato un po' su di te e odio vedere una creatura così orgogliosa che si nasconde dietro il suo cappuccio.~
+@189  = ~C'è del vero in quello che dici. Sotto la superficie, emanavo molta più autorità di quanto non faccia qui, e mi fa male essere ridotta a uno stato così misterioso.~
+@190  = ~Sei solo una rivvil, ma le tue parole sono... allettanti. Potrei tenerle in considerazione.~
+@191  = ~Questo è lo spirito, tesoro! Ora andiamo a vedere se riusciamo a trovare qualche allocco che ci compri un paio di bevute. Due come noi, dovrebbero essere in grado di prosciugare la maggior parte delle tasche nella prossima taverna.~
+//Safana e Xan
+@192  = ~Considerando che la tua specialità è l'incantamento, Xan, mi chiedo perché tu non sei più, ehm, effervescente.~
+@193  = ~Cosa c'entra la mia visione realistica della vita con l'essere un incantatore?~
+@194  = ~Beh, la maggior parte degli incantatori che ho incontrato cercavano di incantare gli altri con la loro personalità e i loro incantesimi.~
+@195  = ~Ho incontrato alcune persone che trovano attraente la depressione, ma davvero, tesoro, è più facile convincere le persone a fare ciò che vuoi con un sorriso.~
+@196  = ~Perché fare lo sforzo, quando un incantesimo fa il lavoro?~
+@197  = ~Alcune di noi non hanno lo stesso acume che hai tu, caro. Anche se ho spesso pensato che se avessi studiato per diventare una maga, le mie abilità naturali mi avrebbero probabilmente portato ad essere un'incantatrice.~
+@198  = ~Forse potresti insegnarmi uno o due trucchi che potrei usare per migliorare il mio naturale talento nell'affascinare?~
+@199  = ~Perché perdere il tuo tempo ed il mio? Quando questa piccola disavventura sarà finita, saremo entrambi morti.~
+@200  = ~Come non detto. Penso che ti lascerò a rimuginare in pace.~
+//Safana e Xzar
+@201  = ~Ho notato che mi stai evitando, da quando <CHARNAME> ci ha uniti nel suo gruppo. Le mie forme possono essere così spiacevoli per te?~
+@202  = ~Sì... le tue forme sono deliziosamente carnose. Eppure, sono così corrotte dalla vitalità e da quel puzzo lascivo che trasudano... semplicemente spaventoso! Ma ti concedo che potresti essere un cadavere molto attraente.~
+@203  = ~Ah, come sospettavo, un necrofilo, altrimenti saresti venuto ad ansimare alla mia porta molto tempo fa.~
+@204  = ~Quindi non una singola donna ti ha mai dato piacere? Forse tua madre? Ti ho sentito chiamarla nel sonno la scorsa notte...~
+@205  = ~Mammina!? Oh, ma Mammina *è* morta. Ed è molto più gentile con me adesso! A volte... a volte mi mancano le cose adorabili che mi direbbe, se avesse ancora la lingua per farlo.~
+@206  = ~E dove si trova ora la lingua della cara mammina?~
+@207  = ~Monty ha preparato sicuramente un ottimo stufato ieri sera.~
+@208  = ~Mmm. Temo che la mia domanda e la tua risposta non siano del tutto estranee, mio vorace piccolo negromante.~
+

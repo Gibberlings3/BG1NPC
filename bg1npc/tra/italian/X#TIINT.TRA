@@ -1,0 +1,40 @@
+//Prima del naufragio sull'isola dei licantropi
+@0    = ~*Argh*... *cough*... Per Cyric, Tiax non salirà mai più su una barca, una volta che avrà lasciato quest'isola! Tiax ODIA l'acqua! Quando Tiax governerà, farà sdraiare i suoi schiavi nell'acqua per creare un ponte dovunque voglia andare!~
+//Shaella
+@1    = ~Allora Shaella vede con chiarezza, poiché Shaella vede Tiax, futuro sovrano di tutte le cose, e la sua banda di schiavi!~
+@2    = ~Che insolenza da parte di una così giovane. Shaella non vede con chiarezza ma vagamente, nel suo scrutare sempre attraverso le nebbie di Leira. Sono lieto, tuttavia, che tu sia stata toccata da Leira con il dono della cecità e dell'illusione.~
+//Tartusse 873-874
+@3    = ~I nobili dovrebbero essere più preoccupati di come rimarranno in vita, quando Tiax governerà. Si è stancato di nobili piagnucoloni, e Tiax ti romperà più dello specchio, se ti dovesse incontrare di uovo! Ora, allontanati dal tuo futuro padrone, ha cose più importanti su cui pontificare!~
+@4    = ~Santo cielo! Che maleducato! Prima mi si rompe lo specchio, e ora vengo aggredito verbalmente per la strada da plebei maleodoranti. Che cosa sta diventando questa città!?~
+//Tick
+@5    = ~Tiax ha scorticato vivi i suoi schiavi per molto meno! Rispetterai il suo potere, la sua MAESTÀ, o subirai il destino di tutti i suoi nemici!~
+@6    = ~Ehi, senza offesa, gente. Le fogne sono solo la fonte di avventura per gli abitanti di città, se capite cosa intendo. D'altronde non mi sembrate certo tipi da shopping.~
+//Shep
+@7    = ~BLASFEMIA!!! Tiax puzza da conquistatore del mondo, non di avventuriero! Perderai il naso quando Tiax governerà, contadino, perché sicuramente ti sta portando verso la tua stessa fine!~
+@8    = ~Il mio naso stava benissimo, finché non sei entrato nella mia taverna preferita e hai riempito la sala comune con il tuo fetore. Riconosco un avventuriero, quando lo annuso, perché puzza di stupidità e brama di tesori illeciti. Ora vattene, perché per quanto sia potente il tuo fetore, il tuo ingegno è debole e non mi piace perdere tempo con dei bambini.~
+//Locanda spada e stelle
+@9    = ~Oh no! Sei tutto meno che benvenuto qui, Tiax. Grazie, ma trova alloggio altrove per favore, arrivederci!~
+@10   = ~A Tiax viene rifiutato il servizio!? Blasfemia! Tiax non verrà buttato fuori da gente come te! Solo lo stesso Cyric potrebbe spostarlo da questo punto, se desiderasse restarvi!~
+@11   = ~Se devo chiamare qui la guardia, lo farò. Non sei più il benvenuto nella mia locanda.~
+@12   = ~Che cosa ha fatto esattamente Tiax?~
+@13   = ~È il benvenuto finché ci sarò io. Non mi lascerò buttare per strada da un umile locandiere, e ho la forza per sostenere il mio desiderio di restare.~
+@14   = ~Va bene, va bene, abbiamo ricevuto il messaggio. Andiamo, Tiax, andiamo.~
+@15   = ~Oh, ti dirò cosa ha fatto! Ha quasi ucciso uno dei nostri ospiti ma soprattutto quasi distrutto la mia locanda!~
+@16   = ~C'era un pacifico gruppo di mercanti qui non molto tempo fa, che beveva e socializzava, facendosi gli affari propri. Poi questo piccolo gnomo fa irruzione e richiede un servizio immediato, sostenendo che se non avesse bevuto abbastanza velocemente ci avrebbe "torturato per l'eternità" quando "avrebbe governato tutto". Uno dei mercanti ha scherzato e gli altri hanno riso; ovviamente era inteso per divertimento.~
+@17   = ~Allora, questo... questo gnomo psicotico e delirante si avvicina e lo colpisce in testa con una mazza!~
+@18   = ~Fortunatamente, gli ha solo fatto perdere i sensi, ma non aveva ancora finito, oh no! Gli altri mercanti si dispersero, eppure lui continuò a inseguirli, facendo oscillare la sua mazza e distruggendo nel frattempo metà della sala comune!~
+@19   = ~Bah! Lo sciocco sfacciato ha affermato che Tiax sarebbe stato troppo basso per torturare qualcosa al di sopra delle ginocchiere! Tale stupidità verrà punita adeguatamente quando Tiax governerà, ma fino ad allora Tiax non ha avuto altra scelta che rendere giustizia ai suoi nemici! Nessuno osa prendere in giro Tiax!~
+@20   = ~Personalmente, metto in dubbio la sanità mentale di chiunque viaggi con questo pazzo. A ciascuno il suo, suppongo. Tuttavia, ti suggerirei gentilmente di portarlo FUORI dalla mia locanda, grazie!~
+@21   = ~Mi dispiace terribilmente per tutti i problemi che ha causato. Quanto sono i danni? Li pagherò per lui.~
+@22   = ~Ci stai buttando fuori per alcuni mercanti piagnucolanti che non possono sopportare una rissa da taverna? Ma per piacere! Servici, o una mazzata in testa sembrerà una benedizione, quando avremo finito con te.~
+@23   = ~Beh, posso capire perché sei arrabbiato. Troveremo solo un altro posto dove stare.~
+@24   = ~Non mi faccio minacciare nella mia locanda. La tua presenza qui, proprio come quella del tuo amico, non è più gradita. Fuori! Fuori!~
+@25   = ~Sono contento che tu sia più comprensivo del tuo minuscolo amico. Buona giornata.~
+		~Sono contento che tu sia più comprensiva del tuo minuscolo amico. Buona giornata.~
+@26   = ~Il totale è di 300 pezzi d'oro. Prendere o lasciare, ma finché non verrà pagato nessuno che viaggi con quello gnomo potrà restare qui.~
+@27   = ~Ne ho abbastanza. Ecco, prendi i 300 e le mie scuse a nome di Tiax.~
+@28   = ~300!?! Per qualche bicchiere rotto!? Sei un imbroglione se mai ce ne fosse uno!~
+@29   = ~Troppo caro. Grazie comunque, locandiere. Troveremo un altro posto dove stare.~
+@30   = ~Non ho altro da dirti. Finché quello gnomo sarà con te, non siete i benvenuti. Gentilmente, esci.~
+@31   = ~Beh, sono felice di vedere che ci siano ancora alcune persone onorevoli rimaste nel mondo. Perché vorrebbero viaggiare con LUI, non lo so. Puoi restare qui finché terrai lo gnomo al guinzaglio e grazie per l'aiuto!~
+@32   = ~Come ho detto, potevi prendere o lasciare. Ovviamente, hai scelto di lasciare. Ora, gentilmente, porta le tue attività altrove, per favore!~

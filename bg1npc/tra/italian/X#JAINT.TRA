@@ -1,0 +1,297 @@
+//Maestro degli schiavi
+@0    = ~Non darò monete a nessuno stupido schiavo! Fuori dai piedi.~
+@1    = ~Ecco, prendi l'oro di cui hai bisogno e porta via te stesso e gli altri da qui, il prima possibile.~
+@2    = ~Non ascoltare il farfugliare di quell'ignorante infantile e ribelle. Ecco i soldi di cui hai bisogno, ora conduci fuori il resto dei tuoi uomini, mentre noi terremo occupati gli Artigli Neri. Quanto a te, <CHARNAME>... Ho molte cose da dire su questa tua piccola battuta, e nessuna buona. Gorion non proverebbe altro che vergogna.~
+@3    = ~Grazie, signora, grazie mille! Ti auguro ogni bene, e spero che tu possa porre fine a questa operazione disgustosa.~
+//Gervisse, binocolo e Voltine
+@4    = ~Sì, cosa vuoi? Hai già avuto modo di occuparti di quel druido?~
+@5    = ~Err, no, torneremo.~
+@6    = ~Abbiamo incontrato Voltine. Dice che sei *tu* che spaventa le ragazzine e crediamo alla sua storia. Penso che dovresti andartene subito, vecchio.~
+@7    = ~Che cosa? Che impertinenza è mai questa? Quanto puoi essere folle per minacciare un'artista della magia! Non importa... mi sbarazzerò di te, se questo è quello che serve per mantenere il mio piccolo... passatempo.~
+//ict3 429-430
+@8    = ~A nome del mio gruppo, mi scuso per l'intrusione. Giuro sul mio patto druidico che intromettersi nella privacy altrui non è passatempo mio, né dei miei compagni. Forse, per rimediare a questo equivoco, potremmo occuparci di questo Gervisse?~
+@9    = ~Mmm, un altro druido qui in città. Che strano. Suppongo che potresti provare a parlare con lui. Non vedo come potresti peggiorare le cose. Ho cercato di cacciarlo via, ma in cambio ora diffonde brutte voci su di me. Se libererete questo quartiere dalla sua presenza, ve ne sarei grata.~
+@10   = ~Sembra che abbiamo fatto una buona azione e ci siamo guadagnati un'alleata, <CHARNAME>. Ah, ma perdona le mie maniere, Voltine... Il mio nome è Jaheira, druido del Bosco Ammantato. Rimarrai qui in città?~
+@11   = ~Temo di no, Jaheira. Ho saputo che i banditi di Larswood sono stati mandati in rotta... io... sono fuggita in città dopo aver capito che non sarei stata in grado di proteggere la natura dalla loro intrusione. Penso che sia tempo per me di tornare e cercare di guarire le ferite che hanno procurato, così da cercare di guadagnare la redenzione agli occhi del Padre Quercia.~
+@12   = ~Allora ti auguro buon viaggio e buona fortuna, sorella dei boschi.~
+@13   = ~Sì... la prossima generazione al cimitero. E tutto perché *alcune* persone non permetterebbero a due ragazzine di addormentarsi!~
+//Viconia 905-906-0-0-603
+@14   = ~Sì, potrebbe non essere saggio lasciarla girare, se non altro per la sua stessa sicurezza. E dovremmo capire se aiutarla sia stato giusto, dopotutto. Se ci dimostrasse che abbiamo avuto torto... beh, allora seriamente la compatirò.~
+@15   = ~Tieni la tua compassione per i nostri nemici!~
+@16   = ~Non mi sento in colpa per aver ucciso questo pazzo col suo fuorviante senso di giustizia, ma mi resta il dubbio se salvare questa drow fosse una ragione sufficiente per farlo. Qualunque sia la risposta, è meglio sbarazzarci di questo cadavere, a meno che non vogliamo guai peggiori con il Pugno Fiammante.~
+@17   = ~I tuoi tirapiedi non hanno... rispetto per te, rivvin, per usare un eufemismo... pfft...~
+@18   = ~È molto probabile che possedesse un cuore crudele e malvagio, e suppongo che nessuno piangerà per lei. Tuttavia, sono un po' turbata dalla facilità con cui hai preso questa decisione, <CHARNAME>.~
+//Safana
+@19   = ~Mah. <CHARNAME>, fai attenzione alla nostra nuova compagna. Conosco quelle come lei... non fidarti completamente, o un giorno la troverai sparita, insieme alle nostre finanze. Normalmente mi fiderei del tuo giudizio, ma dal modo in cui ti guardava, ho pensato che una parola di avvertimento sarebbe stata opportuna.~
+@20   = ~C'è qualche problema, tesooooro?~
+//Entillis
+@21   = ~Grazie per le tue gentili parole, Entillis, ma in questo momento non lascerò che nessuno si prenda cura di me. Posso difendermi da sola... la vita continua e vedremo cosa ne verrà fuori.~
+@22   = ~Entillis! Tra te e Khalid, non ho davvero bisogno che nessun altro si occupi di me! Mi avete scambiata per una fragile ragazzetta indifesa dal sorriso falso che ha bisogno del costante sostegno dagli uomini per sopravvivere?~
+@23   = ~Mia c-cara, so bene che tu sei t-tutto tranne che f-fragile...~
+@24   = ~Parole sagge, Khalid. Non dimenticarlo mai.~
+@25   = ~Sembra che i miei cari amici Khalid e Jaheira siano con gli Arpisti. Sono onorato e anche un po' spaventato nel constatare che garantisco tale attenzione. Uno dei loro compatrioti, un gentile vecchio gentiluomo di nome Entillis Fulsom, sembra ben informato sulle mie indagini in corso sul Trono di Ferro. Mi ha raccomandato l'assistenza di Scar e del Duca Eltan, due uomini associati agli onorevoli Mercenari del Pugno Fiammante, qui a Baldur's Gate... gli Arpisti, tuttavia … perche' nessuno mi dice mai queste cose?~
+//Larriaz
+@26   = ~La natura è stata offesa qui, e gli aggressori sono stati puniti severamente per la loro follia... forse troppo severamente, ma non sta a me giudicare. Andiamocene, <CHARNAME>... consentiamo a questo sfortunato essere di morire in pace.~
+//Cordyr 136
+@27   = ~Se stai cercando qualcuno che rimuova queste sirine per te, ti suggerisco di cercare altrove. Tuttavia, posso capire il risentimento... ma faresti bene a capire che non c'era malizia nel loro comportamento. Non puoi biasimarla per qualcosa che è nella loro natura.~
+//Hannah 712-713-714
+@28   = ~Un mago tiene una ninfa in schiavitù. Dovremmo esaminare questa faccenda, <CHARNAME>, sono parole preoccupanti per me da ascoltare. E tu stai attenta a ciò che desideri, donna... una volta che il mondo fosse liberato da tutti gli uomini, potresti realizzare quanto ti mancano.~
+@29   = ~Un mago tiene una ninfa in schiavitù. Dovremmo esaminare questa faccenda, <CHARNAME>, sono parole preoccupanti per me da ascoltare. Ma tu hai torto a pensare che tutti gli uomini siano bruti incalliti, donna. Ah, ma non dovrei vantarmi della mia fortuna.~
+@30   = ~*arrossendo* Ah, Jaheira... t-tu... non avresti dovuto...~
+//Tremain
+@31   = ~Aiutare significherebbe intromettersi nel ciclo della natura, ma... per Silvanus, è della vita di un bambino di cui stiamo parlando! Farei un'eccezione in questo caso e, ne sono sicura, la natura non protesterà.~
+//Neb 293-294
+@32   = ~Sì, seguiamolo, <CHARNAME>... ma non perderlo di vista. Una volta fuori, non esiterò a ucciderlo e confido mi aiuterete.~
+@33   = ~*Neb ridacchia, ma è impossibile capire se è perché ha sentito le parole di Jaheira, o semplicemente a causa della sua follia.*~
+//Petrine
+@34   = ~Forse... quando avremo più tempo, potremmo vedere cosa si può fare sul destino di questa bambina. Sarebbe sbagliato permetterle di vagare per le strade di notte. Un orfanotrofio potrebbe essere un'opzione da prendere in considerazione.~
+@35   = ~O, no... loro... non mi lascerebbero tenere Angel. E Angel... nessuno in tutto il mondo mi ama, tranne la mia Angel.~
+//Ramazith 833
+@36   = ~Fai attenzione, <CHARNAME>. Vorrei suggerire di liberare questa ninfa, non di scambiarla per una piccola ricompensa... il posto della creatura è tra le sue simili. Le ninfe hanno una stretta affinità con la natura, e all'interno delle mura di una città, perirebbero molto rapidamente.~
+//Jaheira, Khalid e Kivan si scontrano con Charname che vuole monetizzare la ninfa piuttosto che liberarla (e variazioni attorno al tema) 0-842-843-547-841-546
+@37   = ~Non ho ancora capito se sei veramente malvagio, o semplicemente idiota. Ma è il momento di mettere da parte le speculazioni. Qualunque sia la tua natura, non sei mai stato il figlio di Gorion... ed è qui che finisce il tuo percorso.~
+		~Non ho ancora capito se sei veramente malvagia, o semplicemente idiota. Ma è il momento di mettere da parte le speculazioni. Qualunque sia la tua natura, non sei mai stata la figlia di Gorion... ed è qui che finisce il tuo percorso.~
+@38   = ~Non p-possiamo p-permettere che questa creatura s-sia ridotta in schiavitù... o p-peggio! J-Jaheira, sono con te!~
+@39   = ~La creatura dei boschi sarà lasciata libera.~
+@40   = ~*sospira*~
+@41   = ~Forse è l'ignoranza a guidare le tue azioni più che un intento malvagio, <CHARNAME>... ma a prescindere, non lascerò che questa transazione abbia luogo. Silvanus esige che tu non prenda quella ninfa, mago!~
+@42   = ~Non sono d'accordo con la nostra linea d'azione. Consegneresti un essere senziente alla schiavitù o peggio per qualche carabattola? Ti suggerisco di ripensarci, prima di parlare di nuovo con Ramazith, perché non me ne starò pigramente a guardare.~
+//Ragevite 298
+@43   = ~Sono venuta qui aspettandomi di trovare uno di quei maghi vili che avrebbero sezionato questa bella creatura alla ricerca di componenti per incantesimi. E invece, troviamo un uomo sciocco con la mente annebbiata dalla passione e dal desiderio. E sebbene meriti di essere punito per aver tenuto questa ninfa qui contro la sua volontà, suppongo che possa essere capito... faremmo bene a risolvere questa faccenda senza spargimenti di sangue, <CHARNAME>.~
+//Aerana 131
+@44   = ~Non conosco quest'uomo, ma cercare di sfruttare la disgrazia di un altro è sicuramente spregevole. Tuttavia, i mezzi che questa donna è pronta a mettere in campo suggeriscono che sia ugualmente malvagia. A dire il vero, mi disgustano entrambi e suggerisco di lasciarli risolvere i loro problemi senza interferire.~
+//Arkion 366
+@45   = ~Diventare una pedina di un malvagio negromante con il chiaro intento di sconvolgere il delicato ciclo della natura? Non io, <CHARNAME>, mi rifiuto di attraversare faticosamente le fogne alla ricerca di cadaveri marci. Ogni fibra del mio essere urla in segno di protesta contro tale suggerimento.~
+//Elminster
+@46   = ~È abbastanza rassicurante sapere che il percorso che hai scelto è approvato dallo stesso Elminster. Ma ancora più importante, la sua approvazione arriva con un utile consiglio.~
+@47   = ~Buon viaggio allora.~
+@48   = ~<CHARNAME>! Desideri davvero fare arrabbiare qualcuno della potenza di Elminster? Non abbiamo abbastanza nemici? Forse quello che ha detto è stato leggermente... immeritato, ma non è una scusa per perdere la pazienza così in fretta!~
+@49   = ~Ah, <PRO_HESHE> non sa cosa sta facendo.~
+//Allevatore di Viverne 149
+@50   = ~Accompagnato da un'orda di ugualmente umili piccole viverne? Dichiara le tue intenzioni, prima che esegua il mio dovere di servitrice della natura e le determini da sola.~
+//Tenya 302
+@51   = ~Può essere così, ma si sono dimenticati di informarci che il nostro avversario sarebbe stata una bambina. Stai tranquilla, torneremo a scambiare qualche parola con loro... e forse piu' di semplici parole.~
+//Ankheg 226
+@52   = ~Beh, questa è un'opinione interessante. Sebbene sia d'accordo sul fatto che queste bestie facciano parte del grande ciclo della Natura, sarebbe sciocco ignorare il pericolo che rappresentano. E sebbene ventilino il terreno e migliorino i raccolti, riducono anche il numero di agricoltori che gestiscono queste terre. Amano anche ridurre i ranghi di ignari viaggiatori e avventurieri... in particolare di quelli giovani e sciocchi.~
+//Telman
+@53   = ~No, e immagina la nostra sorpresa, quando la strega che dovevamo uccidere si è rivelata una semplice bambina. Questo tipo di inganno mi rende... furiosa.~
+//Elminster Doppelganger
+@54   = ~<CHARNAME>, hai visto troppe bestie malvagie per credere ora alle loro bugie. Alza le tue armi e liberiamo il mondo da queste beffarde parodie dei nostri amici e alleati!~
+//Rieltar 0-845
+@55   = ~So che questo deve essere molto difficile per te, tenere la calma in presenza di questi vili mostri. Ma sai che non sarebbe giusto inquinare questi sacri luoghi con il loro sangue impuro. Faremo la nostra mossa contro di loro... ma non qui e non ora.~
+@56   = ~Sicuramente finiremo in difficoltà con gli Osservatori per questo. E anche se approvo e condivido le intenzioni, una biblioteca, specialmente una sacra come questa, non è un luogo dove spargere sangue.~
+//Theodon 29-30-31-32
+@57   = ~*ridendo* Non ricordo di aver mai riso così tanto... <CHARNAME> sul suo tappeto di pelle d'orso... Avrei voluto semplicemente vedere come apparisse la nostra onnipotente figura autoritaria, carina come la natura l'ha fatta...~
+@58   = ~F-forse in cambio io p-potrei permettere a <CHARNAME> di dare un'occhiata ad alcuni dei d-dipinti che ti r-ritraggono, mia c-cara... specialmente quello che p-porto sempre con me.~
+@59   = ~*arrossendo* Cosa... quale dipinto, Khalid? Non ho assolutamente idea di cosa tu stia parlando, e ti suggerisco di lasciar perdere queste sciocchezze ora. Abbiamo cose più importanti da fare.~
+@60   = ~*ridacchiando* <CHARNAME>, mi devi un favore p-per questo...~
+//Tranzig
+//@61   = ~Non mi piace seguire questa strada, ma sfortunatamente è l'unica opzione veramente sicura. Sono d'accordo con la tua decisione, <CHARNAME>.~
+//@62   = ~Morirete tutti!~
+@63   = ~<CHARNAME>, non dobbiamo lasciare che questo disgraziato fugga, sicuramente informerà i suoi superiori. Sarebbe consigliabile se potessimo... impedirlo, in qualche modo...~
+//Elminster
+@64   = ~Non rimuginarci troppo, <CHARNAME>. Se Elminster non lo farà, allora ti dirò di più io sul tuo padre adottivo. Ma prima di farlo, ci sono delle cose da fare... cerchiamo prima questo Tranzig. Dopo, ci sarà tempo per parlare.~
+@65   = ~Mi fido di te in questa faccenda, Jaheira, come avevo fiducia in Gorion.~
+@66   = ~Vero, <CHARNAME> ha preso alcune decisioni discutibili nel recente passato, ma forse faremmo bene a non giudicare così rapidamente. Sono abbastanza fiduciosa che riuscirò a mostrar <PRO_HESHE> la via dell'equilibrio, e sulla memoria di Gorion, sarà così.~
+@67   = ~Mmm, sembrerebbe che Elminster stesso approvi il percorso che hai scelto. Se solo avesse potuto affermare che fosse stata la sua guida a portarti su questa strada. Ahimè, si riserva solo il diritto di osservare e giudicare. *Sospira*~
+@68   = ~Ora, Jaheira, come druido dovresti sapere che non posso intervenire troppo da vicino in questioni di... importanza locale. Ma mi fido di te, come mi sono fidato di Gorion.~
+//Mago 477
+@69   = ~Mmm... una strana scelta per una ricompensa, oltre a una strana scelta di parole. Entrambe mi mettono a disagio, ad essere sincera.~
+//Silke
+@70   = ~Ti fidi sempre così ciecamente, <CHARNAME>? Non ti sei accorto che questi uomini non erano briganti e che siamo stati ingannati per ucciderli? Anche solo per evitare ulteriori incidenti, dovrei assumere io il comando da ora in poi. Hai dimostrato di essere inadatto al ruolo.~
+		~Ti fidi sempre così ciecamente, <CHARNAME>? Non ti sei accorta che questi uomini non erano briganti e che siamo stati ingannati per ucciderli? Anche solo per evitare ulteriori incidenti, dovrei assumere io il comando da ora in poi. Hai dimostrato di essere inadatta al ruolo.~
+@71   = ~Non ascoltare le chiacchere di una donna acida, <CHARNAME>. Hai fatto bene.~
+@72   = ~Per essere un "attrice straordinaria", il tuo tentativo di costringerci a un piano omicida sembra estremamente stupido.~
+//Kelddath 752-753
+@73   = ~Sì, mi sarei aspettata una tale opulenza da questi lathanderiti nel premiarci, c'è splendore ed eccesso in tutto ciò che fanno, è così fuori equilibrio... ma tutto sommato, almeno loro apprezzano quando un atto di bontà sia stato compiuto.~
+@74   = ~Il tuo aiuto è stato davvero molto apprezzato.~
+//Ghoul
+@75   = ~Accettare l'aiuto di un così orribile abominio della natura? Faremo a modo tuo, ma sii consapevole che questo non-morto si rivolterà contro di noi non appena nessun'altra preda sarà in vista.~
+//Pugno Fiammante
+@76   = ~Ovviamente sei rimasto al sole per troppo tempo, soldato, poiché la tua testa si è chiaramente surriscaldata. Ti suggerisco di porre fine a questa follia e di lasciarci passare. Siamo attesi dal sindaco di Nashkel in persona.~
+@77   = ~Il sindaco di Nashkel in persona, eh?~
+//Halfling e il gioiello
+@78   = ~*sospira* Per il nostro bene, terrò io i fondi del gruppo d'ora in poi. Tu... puoi tenere la tua *gemma*, <CHARNAME>.~
+@79   = ~Tu... vedrai il vero valore di questa gemma!~
+//Poe il bardo 171-172-173-174-175
+@80   = ~Sebbene preferisca le sottili sinfonie che si sentono suonate nella serenità di una radura all'interno di un bosco, devo ammettere che ho trovato la storia di questo giovane bardo di mio gradimento. Giuro, a confronto di quei lupi che inquinano le taverne di Baldur's Gate, quest'uomo ripristina in realtà il buon nome della sua vocazione!~
+@81   = ~Spero che tu ti ricordi la sua storia, Garrick. Alla nostra prossima fermata, ti siederai e la scriverai. Mi piacerebbe sentirla di nuovo.~
+@82   = ~S-si, signora! Certo che me la ricordo! Fammi vedere se riesco a spremere il mio talento e apportare qualche miglioramento...~
+@83   = ~Per Silvanus, NO!~
+@84   = ~Mia signora hai buon gusto.~
+//
+@85   = ~Athkatla? No, grazie mille. Ho visitato quella fossa sporca e non ho intenzione di tornarci, non di mia volontà.~
+@86   = ~Non era c-così male, cara… almeno la tua c-compagnia ha reso il v-viaggio gradevole.~
+@87   = ~Ovviamente, sai che sarei felice in qualsiasi posto con te al mio fianco, Khalid.~
+@88   = ~Oh, potrebbe non essere il posto più salutare per quelli come voi.~
+//Berrun 0-601-239-240-239
+@89   = ~Devi scusare la maleducazione di <CHARNAME>, Mastro Berrun, poiché deriva dalla sua mancanza di esperienza come leader. Penso che fino a quando non abbia ottenuto la competenza necessaria, <CHARNAME> farebbe meglio a lasciarmi gestire tutte le nostre trattative .~
+@90   = ~Proseguiamo allora, <CHARNAME>. Visto che questa è la tua prima missione, temo che le mie capacità di guaritrice saranno messe severamente alla prova. Tuttavia, cercherò di riportarci tutti da Berrun ancora in un pezzo solo e vittoriosi.~
+@91   = ~Non c'è bisogno di gratitudine, Berrun. Aiutarti era nostro dovere, lo sai bene. Nonostante i miei dubbi assillanti, <CHARNAME> si è comportato bene, molto meglio di quanto mi aspettassi.~
+		~Non c'è bisogno di gratitudine, Berrun. Aiutarti era nostro dovere, lo sai bene. Nonostante i miei dubbi assillanti, <CHARNAME> si è comportata bene, molto meglio di quanto mi aspettassi.~
+@92   = ~Oh, certamente l'ha fatto! <CHARNAME> qui è l'eroe di Nashkel ormai!~
+		~Oh, certamente l'ha fatto! <CHARNAME> qui è l'eroina di Nashkel ormai!~
+@93   = ~Non c'è bisogno di gratitudine, Berrun. Aiutarti era nostro dovere, lo sai bene. Nonostante i miei dubbi assillanti, <CHARNAME> si è comportato bene, molto meglio di quanto mi aspettassi.~
+//Corson
+@94   = ~*sospira* Smettila di guardarmi così, <CHARNAME>! Sicuramente, non metterai in discussione la lealtà e il buon senso di *questo* druido?~
+@95   = ~Tu sei solo la caricatura di un druido, donna.~
+//Laskal 43-44
+@96   = ~Mah. Un'offerta da uno di questi sporchi Druidi dell'Ombra. Sono stupita che non ci abbia attaccato a vista. Eppure, <CHARNAME>... non mi fiderei dei loro intrugli, quella pozione dovrebbe essere smaltita anziché consumata.~
+@97   = ~Il tuo compagno ha professato amicizia. Non mettere alla prova la mia tolleranza.~
+		~La tua compagna ha professato amicizia. Non mettere alla prova la mia tolleranza.~
+//Takiyah
+@98   = ~Ma hai la forza di eseguire questa punizione, fanatico malvagio? Una manciata di Druidi dell'Ombra ha la forza di opporsi alla civiltà e di distruggerla, facendo arretrare i resti dell'umanità in uno stato barbaro simile a quello degli orchi? No, né tu né i tuoi vili compagni avete la forza di farlo, e questa è una lezione che state per imparare.~
+@99   = ~Allora morirò, difendendo la mia fede, e ritornando quando la Grande Madre avrà ancora bisogno di me.~
+//Izefia
+@100  = ~O non è forse a causa della tua dottrina estremista che vengono compiute più atrocità contro la natura, come atti di vendetta e rappresaglia per le vostre azioni crudeli? Tu e la gente come te danneggiate la Grande Madre più della civiltà a cui cercate di opporvi; lo avete fatto mettendo in antagonismo la Natura con una delle sue creazioni più meravigliose, l'umanità. Sarai affrontato in fretta, così come lo sarà lo schiavista di animali. A differenza tua, abbiamo la forza e la volontà di opporci a lui.~
+@101  = ~Qui non troverai schiavi, Jaheira. Solo guerrieri consenzienti, sia umani che animali. Ma posso vedere che è vero - tu sei tra quelli che mentono volentieri su di noi. Vuoi uccidermi e dimostrarti più forte? Fallo, allora, ma sappi che per tua mano un vero difensore della natura cadrà.~
+//Amarande 560-561
+@102  = ~Ah, il famigerato Arcidruido dell'Ombra in persona, sbilanciato e irragionevole come qualsiasi altro dei suoi seguaci, come si può giudicare in base a questo saluto. Ma se la falce che cercherà di abbattermi sarà spenta come il tuo spirito, allora ho molto poco da temere. <CHARNAME>  io libererò questo bosco dal fetore dei Druidi dell'Ombra, in modo che i *veri* druidi possano riprendere la loro cura della foresta.~
+@103  = ~Sei brava coi luoghi comuni quanto il tuo mentore Seniyad.~
+//Brevlik 0-0-326-327-98-99-0-0-0
+@104  = ~Ah, non ti preoccupare, piccoletto. <CHARNAME> prova sicuro interesse per imprese eroiche del tipo che non dubito tu stia per proporci. *sospira* Se solo <PRO_HESHE> non si aspettasse che fossimo anche noi ugualmente interessati...~
+@105  = ~Grazie, signora, per aver ascoltato.~
+@106  = ~Ah certo. Siamo arrivati faticosamente fino a Baldur's Gate per rubare un... un Tele-coso per questo sciocco ometto. O mi sbaglio, <CHARNAME>?~
+@107  = ~'Telescopio', signora... è una parola così sgraziata... se capisci cosa intendo... mi scuso, se questo vi offende...~
+@108  = ~Sì, diventare improvvisamente un ladro comune è davvero "troppo divertente". Avere il Pugno Fiammante elencarci come criminali ricercati per questo furto, mentre stiamo tentando di indagare sulla situazione in città, sarà ancora piu' divertente, non è così? Come ho fatto a finire con uno come te, <CHARNAME>?~
+		~Sì, diventare improvvisamente un ladro comune è davvero "troppo divertente". Avere il Pugno Fiammante elencarci come criminali ricercati per questo furto, mentre stiamo tentando di indagare sulla situazione in città, sarà ancora piu' divertente, non è così? Come ho fatto a finire con una come te, <CHARNAME>?~
+@109  = ~Devi condurre una vita eccitante, signora.~
+@110  = ~Devo dire che la generosa ricompensa alquanto "bilancia" la dubbia moralità dell'atto stesso... *ridacchia*~
+@111  = ~Con tutto il dovuto rispetto, signora... grazie per il tuo aiuto!~
+//Brielbara
+@112  = ~Tu... hai il coraggio di trattare un regalo così meraviglioso con una tale... insensibilità... tale indifferenza? Altri darebbero qualsiasi cosa per essere al tuo posto, ma tu... non sembra nemmeno che ti importi! Solo... stai lontano da me, elfo, prima che faccia qualcosa di cui ci pentiremmo entrambi! Anzi, "prima che faccia qualcosa di cui TU ti pentiresti".~
+@113  = ~S-stavolta hai davvero esagerato, C-coran. *sospira* M-meglio lasciarla sola, finché non mi viene in mente un buon modo per c-calmarla...~
+//Jared
+@114  = ~Ti aiuteremo, ovviamente. Ma se scoprissi che hai stuzzicato o lanciato pietre contro l'animale... allora preparati ad affrontare l'ira di questa protettrice della Natura. Non sarà nulla rispetto a un singolo orso, te lo assicuro.~
+//Driade 0-0-649-650
+@115  = ~Da dove viene questo atteggiamento da mercenario senza scrupoli, <CHARNAME>? Potrei capire chiedere oro e ricchezze per aiutare un nobile, ma questa driade è una pura e innocente creatura silvana che non possiede oggetti di valore.~
+@116  = ~Se devo pagare, lo farò!~
+@117  = ~Dire che sono delusa è poco. Se non fosse per il mio giuramento a Gorion, ti avrei dato una bella lezione per questa spietatezza.~
+@118  = ~Devo trovare aiuto!~
+//Driade e albero 450-451
+@119  = ~Sai perfettamente che non posso tollerare tutto questo, <CHARNAME>! Non posso lasciarti uccidere questa creatura innocente! Non mi piace rompere il mio giuramento a Gorion e sollevare un'arma contro di te, ma non mi lasci altra scelta!~
+@120  = ~Sembra che dovrò affrontarti in c-combattimento, <CHARNAME>, un po' mi d-dispiace, ma non posso lasciarti c-c-commettere questo atto malvagio. Mi schiererò sempre dalla p-parte di Jaheira in questo.~
+//La bambina che ha perso il suo gatto 630-631
+@121  = ~Ho sentimenti contrastanti su questo, <CHARNAME>. Da una parte, detesto tutto ciò che riguarda la vile pratica della negromanzia... ma d'altra parte, solo un mostro potrebbe rimanere impassibile, di fronte alla supplica di una bambina che piange.~
+@122  = ~Devo portare Pixie da Papino!~
+//Shoal 
+@123  = ~Le nereidi sono creature pericolose e astute. Mi chiedo quanti marinai abbia adescato e ucciso... ma non c'è cattiveria nelle sue azioni, è parte della sua natura. Schiavizzarla tenendo il suo scialle, che contiene la sua essenza, è stato un atto spregevole, sono contenta che siamo intervenuti.~
+@124  = ~Più di quanti tu possa immaginare, druido... ma ti posso assicurare che sono morti felici...~
+//Bob
+@125  = ~Un drago? Qui? Oh, non dire stupidaggini. La presenza di un drago è sempre facile da notare, quindi, posso assicurarti che non ci sono draghi nascosti nelle viscere di questa miniera. Ti consiglierei una breve passeggiata all'aria aperta per eliminare queste allucinazioni.~
+@126  = ~Bene, saprai per il meglio, essendo un'avventuriera e tutto...~
+//Minatori
+@127  = ~Giuro, la follia di questi minatori spaventati mi esaspera non poco. Chi potrebbe essere così stupido da non riconoscere un comune coboldo?~
+@128  = ~Allora è un coboldo che mi ucciderà? Pazienza...~
+@129  = ~Vedi? Un COBOLDO! E non mi fanno parlare...~
+//Faldorn
+@130  = ~Io e questa ragazza non andremo mai d'accordo. Non sarà una risorsa per questo gruppo e porterà solo conflitti e dissensi tra di noi.~
+//Zeke
+@131  = ~Vuoi dire che hai la pergamena con cui liberare questa donna pietrificata dalla sua prigione di roccia?~
+@132  = ~Ma certo che ce l'ho! Come ho detto, per soli 500 pezzi d'oro...~
+@133  = ~*SBONK!*~
+@134  = ~Ahi! Mi hai... colpito!~
+@135  = ~Sono felice che tu l'abbia notato. Prenderò questa pergamena, grazie mille. Ora vattene da qui, e in fretta, prima che mi venga voglia di colpirti di nuovo. Ho poca pazienza per i miscredenti che cercano profitto sulle disgrazie altrui.~
+@136  = ~Bene... Oookay. Volevo vedere io stesso se quel rotolo funzionasse davvero...~
+//Bassilus 581-582
+@137  = ~C'era da aspettarsi che un tale disonesto e vile disgraziato non potesse arrivare da nessun'altra parte se non da Zhentil Keep... un servitore pazzo di un dio ugualmente pazzo! Ma non preoccuparti, il tuo regno di terrore finisce qui, sporco Zhent!~
+@138  = ~Vedrai la gloria di Cyric quando ti ricongiungerai alla famiglia, mia perduta sorella...~
+//Loto nero
+@139  = ~No, non ne ha alcun interesse e non lo avrà mai. Non finché ci sarò io, di questo puoi essere sicuro. La vita è tua e puoi rovinarla come meglio credi, ma non chiedere a <CHARNAME> di fare lo stesso.~
+@140  = ~Che cosa ne sai... tu...~
+//Baldur's Gate
+@141  = ~Bene, sembra che abbiamo finalmente raggiunto l'ultima tappa del nostro cammino. Abbiamo ottenuto molto, già... e ci hai condotto con una competenza inaspettata per la tua giovane età, <CHARNAME>. Abbiamo tutti fiducia in te e sappiamo che non vacillerai ora.~
+//Entillis
+@142  = ~*arrossisce* Veramente, Entillis... dovevi proprio parlarne?~
+@143  = ~Oh! Ahahah! Per favore, potremmo avere altre storie imbarazzanti sul passato di Jaheira?~
+@144  = ~Beh, per quanto ami queste riunioni familiari, non abbiamo davvero tempo per questo.~
+@145  = ~Eh, per quanto triste, abbiamo anche affari importanti altrove... mi dispiace, Entillis, ma dobbiamo davvero proseguire. Ci rivedremo presto, spero.~
+@146  = ~Si, per quanto ami queste riunioni familiari, non abbiamo davvero tempo per questo.~
+//Mendas morto
+@147  = ~Io... sento che la maledizione si sta lentamente dissipando! Siamo guariti dall'infezione, <CHARNAME>! Lode a Silvanus, ce l'abbiamo fatta!~
+//Kaisha morta
+@148  = ~Mmpf... strano. Sento ancora l'infezione dentro di me. Forse... forse la morte di questo Selaad è la cura. Spero che lo troveremo prima che sia troppo tardi.~
+//Aec il demone
+@149  = ~<CHARNAME>, ti rendi conto di ciò che abbiamo ottenuto? Abbiamo bandito uno dei piu' terrificanti e letali demoni tanar'ri verso il piano da cui è stato generato! Sento orgoglio e sollievo allo stesso modo, perché avremmo potuto essere facilmente uccisi nel modo più raccapricciante venendo trasformati in ghoul senza cervello... come servitrice della natura, trovo questo pensiero assolutamente terrificante. Ma ora, Silvanus ci sorride per quello che abbiamo fatto!~
+//Perdue
+@150  = ~Mi interessa poco della spada di questo sbruffone, ma servirà comunque l'equilibrio portare giustizia su quelle creature malvagie.~
+@151  = ~*geme* E pensare che hai passato l'infanzia in una biblioteca, ricolma di libri di grande saggezza e sapienza... eppure non riesci a riconoscere nemmeno la descrizione di un comune gnoll? Solo ora comincio a comprendere appieno il compito che mi aspetta...~
+//Korax ostile
+@152  = ~Come mi aspettavo. Almeno ora abbiamo una buona ragione per porre fine al suo stato innaturale!~
+//Durlag
+@153  = ~Sono contenta di sentire ancora una volta il respiro rasserenante di Madre Natura. Il suo tocco era a malapena visibile nelle profondità di quel maledetto sotterraneo. Ah, ma perche' mi lamento? Abbiamo fatto molto bene laggiù, no? Guardando indietro a quelle battaglie, mi meraviglio di come ognuno di noi sia ancora in grado di vivere e raccontarne la storia, perché gli avversari che abbiamo affrontato sono stati feroci oltre misura. E possiamo essere davvero orgogliosi di aver distrutto una creatura così innaturale e ripugnante come un Cavaliere della Morte, <CHARNAME>.~
+@154  = ~È stato un compito difficile, ma era per una giusta causa, e ci siamo riusciti. Il tuo contributo è stato particolarmente importante, Jaheira.~
+@155  = ~Così dovrebbe essere sempre, Jaheira! Nessuno ostacolerà la nostra forza e con l'aiuto del bottino che abbiamo raccolto qui, i nostri nemici cadranno più facilmente!~
+@156  = ~Silenzio, donna! Cos'è questo "noi" di cui continui a blaterare? Guardami incantata e inchinati davanti a <CHARNAME>, il trucidatore del Cavaliere della Morte!~
+@157  = ~C'e' saggezza nelle tue parole, Jaheira, come sempre... e l'orgoglio e la soddisfazione della nostra vittoria saranno ottimamente evocati dal poema che sto attualmente componendo!~
+@158  = ~Una buona azione per ripristinare l'equilibrio in questo posto, sì, ma è stato davvero angosciante essere giù in quei sotterranei. È così strano che, pur essendo più vicini al cuore della Madre Terra, il suo battito fosse molto più difficili da ascoltare.~
+@159  = ~È bello sapere che trovi utile il mio aiuto, <CHARNAME>. Non c'è molto altro a cui possa dedicarmi, oltre ad essere utile al gruppo.~
+@160  = ~È vero, siamo diventati tutti abbastanza potenti, <CHARNAME>. Ci dà una ragione per sentirci più sicuri sulle nostre possibilità di riuscita, anche se non c'è quasi nessuna ragione per essere troppo sicuri. Tuttavia, abbiamo fatto molte buone azioni insieme, e confido che continueremo su questa strada.~
+@161  = ~Mmpf. Sì, ho notato come stiamo diventando sempre più potenti, ma il cambiamento in te non deve essere visto necessariamente in modo positivo. Non è ancora chiaro come userai quel potere, ma per il bene di tutti noi, prego che non ti allontanerai dal sentiero dell'equilibrio. Spero che mi dimostrerai come la mia cautela non sia giustificata.~
+@162  = ~È un bene che tu abbia scelto questo momento per ricordare a tutti noi come, nonostante tutti i potenti nemici che abbiamo conquistato, tu non abbia ancora padroneggiato la tua stessa immaturità. Grazie per questo promemoria, <CHARNAME>..~
+@163  = ~Sì, supponevo lo avresti detto. Ma non esagerare con le celebrazioni... sarebbe preferibile che i racconti delle nostre azioni non si diffondessero troppo. Io... preferirei non essere menzionata affatto, anche se temo che sarebbe troppo chiedertelo...~
+@164  = ~Questa è un'osservazione interessante. Ma mi sentivo allo stesso modo, mentre eravamo là sotto, quindi è bello sapere che il tuo legame con Madre Natura è forte e vero come il mio. Ho pregato il Padre Quercia per dare forza a tutti noi, ma soprattutto a te, perché ti ho visto soffrire. Sono felice che le mie preghiere non siano state inutili.~
+//Sirine
+@165  = ~Senza dubbio hai sentito che le sirine abitano alcune zone della costa a sud di Candlekeep, vivendo in una fortezza vicino al mare. Anche se non penso che tu abbia mai avuto a che fare con loro sappi che, se dobbiamo attraversare i loro territori, è un risultato probabile. La loro arma principale è un potente incantesimo in grado di confondere le nostre menti e farci combattere l'un l'altro. Qualsiasi strategia in grado di prevenirlo è consigliabile. Ho sentito parlare di chierici e maghi che usano evocazioni, come scheletri e orchi, per tenere a bada le sirine. Forse questa opzione merita di essere presa in considerazione.~
+@166  = ~Certo, può darsi che tu non preveda di difenderti da questi incantesimi, avendo sentito dire che le belle sirine a volte prendono amanti maschi. Se è così, allora colgo l'occasione per ricordarti che la ricerca per portare l'assassino di Gorion alla giustizia richiede anche la tua presenza...~
+//Koveras
+@167  = ~Vattene per ora, "Koveras"... ma ci rivedremo, te lo prometto. E ringrazia queste sacre mura di Candlekeep e la presenza degli Osservatori, altrimenti il tuo sangue starebbe macchiando il pavimento, mentre parlo!~
+//Faldorn
+@168  = ~Ti esorto a rifiutare la sua offerta, <CHARNAME>.~
+@169  = ~Non avevo intenzione di lasciarla unirsi a noi, Jaheira. Le tue abilità druidiche sono più che sufficienti per il nostro gruppo.~
+@170  = ~Jaheira, confido che la tua saggezza la convincerà ad abbandonare le sue opinioni estremiste. Sicuramente saresti in grado di riuscirci? O sei assolutamente sicura che dovrei rifiutare la sua offerta?~
+@171  = ~Bah, abbiamo bisogno di un'altra guaritrice, e lei sembra capace. Inoltre, sono piuttosto in sintonia con la filosofia dei Druidi dell'Ombra...~
+@172  = ~Sono felice che tu la pensi così e non abbia mancato di vederne la ragione.~
+@173  = ~*Sospira* Non preoccuparti di camuffare le tue intenzioni, <CHARNAME>, lo vedo facilmente oltre di esse. Molto bene, lasciala partecipare. Farò del mio meglio per andare d'accordo e forse convincerla della follia dei suoi modi, ma rimarrò cauta. La mia ricompensa per il tentativo potrebbe benissimo essere un morso feroce di questa lupa rabbiosa.~
+@174  = ~Tu sei... COSA? Se questo è solo uno scherzo per infastidirmi, ti assicuro che non fa ridere. Tuttavia, se le tue parole sono vere, ci sarà più di una persona nel nostro gruppo di cui diffidare.~
+//Basilischi
+@175  = ~<CHARNAME>, si dice che questa zona sia affollata di basilischi. Il loro sguardo pietrificherà qualcuno di noi, se non ci proteggiamo con incantesimi o pozioni. A meno che tu non abbia questi mezzi di protezione, ti consiglio di tornare a Beregost. Voglio dire, se diventare un ornamento da giardino non rientrasse nei tuoi piani.~
+//Bosco Ammantato
+@176  = ~<CHARNAME>, so che questa zona del Bosco Ammantato è pesantemente infestata da ettercap e ragni. Vorrei raccomandare grande cautela, poiché queste creature non sono solo altamente velenose, ma sono anche note per impostare trappole subdole per gli incauti. Sebbene conosca come curare le tossine pericolose, è consigliabile avere una scorta abbondante di pozioni di antidoto... specialmente se vogliamo eseguire un esame più approfondito di quest'area.~
+//Osmadi
+@177  = ~Aspetta, <CHARNAME>! Vedo che qualcuno con cui condivido la vocazione di druido si sta avvicinando. Non c'è dubbio che sarà disponibile a condividere informazioni sui pericoli che nasconde questa parte della Foresta di Larswood.~
+@178  = ~Vedi, <CHARNAME>... l'uso eccessivo del giusquiamo nero è una svista comune da parte di alcuni druidi inesperti, quindi spero che questo servirà da lezione per tutti noi. Sembra che stiamo per ricevere delle risposte.~
+//Druidi dell'Ombra
+@179  = ~Ci avviciniamo ai territori controllati dai Druidi dell'Ombra. Consentimi di dirti di più, <CHARNAME>. L'ordine druidico normalmente accetta molte filosofie diverse e, quindi, ha molti rami diversi... ma solo uno di questi rami vive combattendo una guerra costante con gli altri, per lo più segreta, ma a volte apertamente. Queste persone, i Druidi dell'Ombra, credono che la Natura sia una forza purificatrice che deve essere usata per combattere la civiltà, che, secondo le loro credenze, ha indebolito l'umanità.~
+@180  = ~I loro tentativi di incoraggiare le persone ad abbandonare i progressi della civiltà e a ritornare ad un'esistenza più primitiva da cacciatori e raccoglitori sono spesso condotti con aggressività e violenza. Sebbene credano di prendersi cura della natura e dell'equilibrio, i mezzi con cui combattono per i loro obiettivi possono essere crudeli e malvagi, contrariamente a quanto propone l'ordine druidico. Non ci lasceranno attraversare i loro territori senza fare domande... e non appena mi vedranno, potrebbero reagire violentemente. Conto sul tuo supporto, <CHARNAME>.~
+//Entillis
+@181  = ~Mmm... come ho detto, sono di fretta, ma visto che sembri così sinceramente interessato...~
+//Kahlid e Koveras
+@182  = ~Ora, c-cara... non p-produrrebbe niente di b-buono perdere la calma ora, non c-credi? Tutti i d-debiti saranno ripagati, ce ne assicureremo e-entrambi, insieme... con l'aiuto di <CHARNAME>, ovviamente.~
+@183  = ~G-Gorion sarebbe orgoglioso di te, <CHARNAME>, arrivare così lontano... ciò che arriverà ora ci m-metterà tutti in p-pericolo mortale, e non tutti noi p-potremmo tornare, ma... ti seguiremo, s-sperando per il meglio.~
+//Krumm
+@184  = ~Uhhhhmmmm...~
+//Pugno Fiammante
+@185  = ~Quindi, ci incontriamo di nuovo. Scusa, ma non... ehi, chi stai portando lì?~
+@186  = ~È uno dei nostri compagni, è stato ferito.~
+@187  = ~Un hobgoblin che abbiamo ucciso. Pensiamo che sia un membro del Gelo, quindi lo stiamo riportando a Beregost per l'identificazione.~
+@188  = ~È un commerciante che abbiamo trovato. La sua carovana è stata attaccata dai banditi ed è stato gravemente ferito. Ci ha pagato per riportarlo a Beregost.~
+@189  = ~Questo è Samuel. Vogliamo consegnarlo per 50 monete d'oro.~
+@190  = ~*sospira* <CHARNAME>, so che sembra difficile da immaginare, ma non tutti i membri del Pugno Fiammante sono delle complete teste di rapa. Anche se non sarei troppo sorpresa se questo si bevesse la tua ridicola scusa.~
+//Ankheg
+@191  = ~Te la senti di prendere a mazzate qualche ankheg, <CHARNAME>? Considera che i loro gusci potrebbero essere usati per procurarsi un bel set di armatura. Ma il pericolo è grande, poiché le loro mandibole sono abbastanza forti da spezzare un piccolo albero. Potrebbero sorprenderti saltando fuori dal terreno di fronte a te, solo per spruzzarti in faccia un flusso di acido tossico. Siamo arrivati durante la stagione degli amori, quindi saranno estremamente aggressive.~
+@192  = ~Oooh, sono più aggressive nel periodo dell'accoppiamento, Jaheira? Uh, vale anche per altri... uhm, animali bipedi?~
+@193  = ~O-o-ora, Imoen, non mi p-p-piace per n-niente il t-tono della tua v-v-voce...~
+@194  = ~Oops!~
+//Viverne
+@195  = ~La lucertola che ci è appena volata sopra le nostre teste era davvero una viverna, <CHARNAME>.~
+@196  = ~Un avversario molto temibile, i suoi artigli possono fare a pezzi qualsiasi guerriero troppo sicuro di sé... e presta attenzione alla sua coda spinata. Se il pungiglione ti prende, il suo veleno può ucciderti, prima che io abbia la possibilità di curarti.~
+@197  = ~I miei poteri druidici, sebbene considerevoli, non sono illimitati.~
+@198  = ~Hai spiegato i pericoli della caccia alle viverne a <CHARNAME> prima di chiederne l'aiuto, vero Coran?~
+@199  = ~Ma certo... e, se posso aggiungere... trovo che la tua naturale bellezza sia ulteriormente valorizzata dalla nostra presenza nel dominio della foresta. Ti fa apparire... come una graziosa driade...~
+@200  = ~Ma ovviamente... a proposito di <CHARNAME>... non trovi che la sua bellezza sia ulteriormente valorizzata dalla nostra presenza nel dominio della foresta? Elegante come una driade... non trovi anche tu?~
+@201  = ~Bah! Perché mi preoccupo ancora di parlarti, elfo?~
+//Cavaliere della Morte
+@202  = ~È gentile da parte tua dirlo, <CHARNAME>, ma non rendere il mio ruolo più importante di quello degli altri. Soprattutto quello di Khalid, perché ha dimostrato abilità e coraggio eccezionali.~
+@203  = ~A-assurdità, c-cara... ho solo c-cercato di fare del m-mio meglio, come t-tutti...~
+@204  = ~Questo è mio marito, <CHARNAME>. Modestia è il suo secondo nome. Il tuo padre adottivo non avrebbe potuto scegliere un tutore migliore per te, fidati di me su questo.~
+//Voltine, Entillis, Korax
+@1001 = ~Anche a te.~
+@1002 = ~È vero, vedremo.~
+@1003 = ~Io voglio aiutare!~
+//???
+@206  = ~Bene, dormiranno meglio ora. Grazie.~
+@207  = ~La legge è servita.~
+@210  = ~Non prestare attenzione alle sconclusionate digressioni di un vecchio. Addio, <CHARNAME>, e grazie per il libro.~
+// Modified version of @64, in case Tranzig is already dead
+@211  = ~Non rimuginarci sopra, <CHARNAME>. Se Elminster non lo farà, allora ti dirò io di più sul tuo padre adottivo. Ma prima che possa farlo, ci sono delle cose che vanno fatte...~

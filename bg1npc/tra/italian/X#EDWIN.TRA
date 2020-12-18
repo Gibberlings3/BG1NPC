@@ -1,0 +1,209 @@
+//Xan
+@0    = ~Sarei diffidente nei confronti di quella zuppa se fossi in te, elfo.~
+@1    = ~Davvero? E perché?~
+@2    = ~Beh, non sei forse circondato da così tanti pericoli? Non ci sono forse bestie feroci e nemici mortali che ti attendono dietro ogni curva della strada?~
+@3    = ~Sì...~
+@4    = ~E non sei forse d'accordo che il più grande dei pericoli potrebbe provenire dai luoghi più inaspettati?~
+@5    = ~In effetti, il cupo angelo della distruzione si diletta nel guardare divertito i nostri vani sforzi, prima di affondare la sua crudele falce... ma cosa c'entra tutto questo con la zuppa?~
+@6    = ~(Fin troppo facile.) Poiché i pericoli si nascondono dietro ogni angolo, e la morte ti aspetta ad ogni passo, perché dovresti fidarti di una sostanza calda e oleosa di composizione ignota solo perché ti capita di trovartela davanti in un piatto? Fuggi, fuggi, cuore di coniglio, perché l'ombra si avvicina sempre di più! (Poco importa che sia proprio la tua).~
+//Tiax
+@7    = ~Tiax, prendimi un po' di cibo e fai presto! Se <CHARNAME> insiste nel farti viaggiare con noi, puoi almeno renderti utile. (Anche se non sarà mai abbastanza utile da giustificare la sua presenza tra noi, o la sua stessa esistenza, se è per quello.)~
+@8    = ~Tiax non è un servitore! Piuttosto, Tiax è quello che deve essere servito! Ora che Tiax è stato insultato, pretende che tu porti la sua colazione! A Tiax piacciono le uova strapazzate, con poca gelatina sul suo tramezzino!!!~
+@9    = ~(Perché i miei inferiori devono sempre lamentarsi invece di obbedire prontamente!? Suppongo che dovrò parlare in una lingua che questo idiota capisca se desidero qualcosa!) Tiax, se mi porti la colazione, ti farò usare la mia pergamena di Conquista del Mondo che ho tenuto da parte quando ho lasciato il Thay, così che potrai governare il mondo non appena avrò finito di mangiare.~
+@10   = ~Errrrr... pergamena di Conquista del Mondo?~
+@11   = ~Sì, l'ho trovata su un coboldo che ho ucciso durante il viaggio dal Thay. È un incantesimo. Lancialo e dominerai istantaneamente sul mondo. (Vorrei che prendesse il mio cibo altrettanto velocemente!)~
+@12   = ~Bah! Tiax non è un idiota! Se esistesse una tale pergamena, lo stesso Cyric la consegnerebbe a Tiax che potrebbe così governare il mondo più velocemente! Cyric non si sarebbe mai sognato di lasciare cadere un rotolo così importante nelle mani di uno schiavo sciocco, come te!~
+@13   = ~Stai andando a prendere la mia colazione, o no!?~
+@14   = ~Errrrr... sì. Ma non perché Tiax crede nella pergamena, ovviamente! Tiax non ha assolutamente alcun interesse per una menzogna così evidentemente chiara! Tiax tornerà con la colazione, va bene? E anche se Tiax non ti crede, la tua promessa è ancora vincolante se stai dicendo la verità!~
+//Ajantis
+@15   = ~Dimmi, Ajantis... Colui che Vigila, Helm... su cosa sta vigilando esattamente? Le abitudini alimentari dei suoi seguaci? Le abitudini del sonno dei suoi adepti? Cosa ci vuole per essere un'altra pecora nel gregge?~
+@16   = ~Stai attento, mago, poiché la mia pazienza è già consumata dalla presenza di una persona malvagia come te in mezzo a noi. Non istigarmi oltre, oppure...~
+@17   = ~Oh, minacciamo anche! Beh, forse mi sono sbagliato dopo tutto, ed è il rituale di accoppiamento dei suoi seguaci su cui Helm vigila? (E se questo è il suo divertimento, deve essere un dio piuttosto annoiato.)~
+@18   = ~Come ti permetti!~
+@19   = ~Non sentirti male, ragazzo vestito di ferro. Nessuno performerebbe bene con una divinità barbuta che lo osserva costantemente sopra le sue spalle.~
+//Alora
+@20   = ~Alora, non che mi dispiaccia davvero l'attenzione costante e lusinghiera (anche se rumorosa e fastidiosa), ma sono sicuro che potresti trovare il modo per smetterla di tormentarmi almeno un'ora o due al giorno?~
+@21   = ~Uh, Edwin, ovviamente! È così dolce da parte tua suggerire che abbia bisogno di andare a chiacchierare con qualcun altro, ma d'altronde dolce è quello che sei, anche se ti sforzi di nasconderlo. Tutti sono così cordiali nella nostra piccola compagnia!~
+@22   = ~Sì, per non parlare del fatto che alcuni dei nostri così amichevoli compagni hanno iniziato a pensare... in modo decisamente inappropriato... e altrettanto maleducato... cose...~
+@23   = ~Oh! Vuoi dire quelle robe sul "pervertito dal mantello rosso estimatore di hobbit"? Vero? Ma ti assicuro che sono solo sciocchezze. Uhm, questo non significa che non ti piaccia, vero? Vero?!~
+@24   = ~E Monty dice che ti ucciderà se proverai qualcosa...~
+@25   = ~Non è che non tu mi piaccia, e tu mi piaci, in un modo strano, che non è assolutamente *quel* modo. Ehm, quello che voglio dire è che mi piacciono i bambini... Smettetela di fissarmi, cretini dalla mente sporca! In generale! Mi piacciono i bambini in generale, a condizione che siano ben educati, puliti e silenziosi se non si parla di... (Basta così... cosa diavolo sto dicendo? Inoltre, cosa stanno capendo loro!?)~
+@26   = ~NON SONO una bambina! Sono un halfling! Una donna cresciuta per lo standard halfling! E sono molto alta per la mia età!~
+@27   = ~(Questa cosa sta diventano più complicata del trattare con lo Zulkir!) Sì, sì, certo che sei completamente cresciuta. In effetti, come ho potuto sbagliarmi così? Ti chiedo scusa. Però non urlare più!~
+@28   = ~Vedi, Edwin, non suona già meglio?~
+@29   = ~Strano, io... non mi sento molto bene. Ho bisogno di riposare...~[%tutu_var%EDWIN11]
+//Branwen
+@30   = ~(Non sono solo i nani che hanno difficoltà a distinguere le donne dagli uomini...)~
+@31   = ~Che cosa dici, Edwin?~
+@32   = ~Niente, niente, stavo solo riflettendo sul fatto che certe donne hanno una straordinaria capacità di imitare l'ambiente da cui provengono. Solo perché una ha vissuto tra le rocce... o ne era una... non significa che debba imitarle nell'aspetto.~
+@33   = ~Tempus dota ciascuno dei suoi figli quanto ritiene opportuno. Perché la forza dello spirito e della fede non dovrebbe essere raddoppiata dalla forza del corpo?~
+@34   = ~O triplicata dalla forza della voce. (Parlare con lei è una minaccia per le mie orecchie sensibili).~
+//Coran
+@35   = ~Guarda dove stai andando, sgradevole zoticone. (L'agilità elfica è decisamente sopravvalutata, non posso essere convinto del contrario).~
+@36   = ~Oh, ma sto guardando, Edwin, e qualcosa di molto meglio dei ciottoli sotto i miei piedi. Dai un'occhiata, umano...~
+@37   = ~Bene... sei scusato allora... inoltre, ti sei guadagnato quel poco di gratitudine che avevo in programma per la giornata.~
+@38   = ~Quella ragazza è una vista gradita per gli occhi dolenti di un viaggiatore, non è vero? Hai visto qualcuna di simile a lei nel Thay?~
+@39   = ~Certo, naturalmente, anche se un tale tesoro sarebbe stato immediatamente reclamato e non avrebbe vagato per le strade in modo così voluttuoso. (Ho il più improbabile bisogno di aiutarla a portare i suoi generi alimentari in camera da letto... in cucina...ovunque lei li voglia.)~
+@40   = ~Sarebbe un crimine reclamare un tesoro come quello cosicché un uomo solo possa vederlo e adorarlo. E chi lo facesse meriterebbe di esserne derubato.~
+@41   = ~Bah. I tesori del mondo sono molti, elfo dagli occhi d'aquila, e nessuno deve essere amato in modo sicuro per sempre.~
+@42   = ~Ma i più brillanti, Edwin, sono quelli che giacciono nel forziere di un altro...~
+@43   = ~Ed è per questo che gli uomini Thayviani stanno bene attenti a chiudere con cura le loro porte quando escono di casa.~
+//Dynaheir
+@44   = ~Ti informo, strega, che anche se la nostra attuale compagnia sembra essere ignara della tua natura malvagia, non lascerò che un solo tuo gesto sfugga al mio occhio acuto, e che il tuo momento per rispondere alla chiamata della morte arriverà presto.~
+@45   = ~Parli della mia natura malvagia mentre mi minacci di morte?~
+@46   = ~Non c'è niente di più giusto della morte per persone come te! Troppo a lungo la tua nazione selvaggia e incivile ha ostacolato il potere del Thay. (Per caso, nient'altro che per caso.)~
+@47   = ~La mia valorosa nazione ha a lungo protetto i Reami dalla folle brama di conquista dei governanti Thay.~
+@48   = ~Non c'è niente di folle nel desiderio di conquista; inoltre, l'inutile terra desolata che è la tua terra trarrebbe beneficio dalla superiore leadership e dalla magia Thay.~
+@49   = ~Che cosa conoscerebbe un sovrano Thayviano della mia terra, dei tumuli dei miei antenati e delle mie usanze? Una Rashemi non si inginocchia davanti a nessuno straniero e non è schiava di nessuno. Colui che viene con una spada nella mia terra morirà di spada. O di fuoco.~
+@50   = ~Il fuoco della mia magia troverà *te* abbastanza presto, donna malvagia.~
+@51   = ~Annunci il tuo desiderio di uccidermi abbastanza spesso, eppure vivo ancora. Da questo posso solo concludere che tu mi temi. E fai bene, mago, perché non sono meno abile di te e posso portarti facilmente quella morte che nomini tanto spesso.~
+@52   = ~La tua magia è così forte che hai bisogno di una scimmia gigante che sorvegli ogni tuo passo. La sicurezza di cui godi non durerà per sempre. Divertici, finché puoi.~
+//Eldoth
+@53   = ~Tra le varie tipologie di sciocchi che mi circondano, non ne trovo nessuno che sia spregevole quanto te. Non trovi umiliante sopravvivere per soddisfare i capricci di una donna?~
+@54   = ~No, perché? Io, da parte mia, reputo spregevoli gli uomini che pagano o schiavizzano le donne per giacere con loro... come te, per esempio.~
+@55   = ~Sono padrone della mia camera da letto, e posso permettermi di scegliere chi portarci, invece di dover sopportare una parodia del piacere. Almeno io porto a letto la donna in sé, non il suo nome o le sue ricchezze.~
+@56   = ~Se ti giudichi vincente perché hai la padronanza della tua camera da letto, allora i tuoi piani sembrano essere molto umili. Io ho la padronanza delle camere da letto di coloro che governano attraverso l'oro o attraverso le spade.~
+@57   = ~(Dall'aspetto, direi troppo brevemente perché nessuna se ne accorga.) Dimmi, Eldoth, quando condividi la passione con la tua sciocca ragazza, senti il tintinnio delle monete d'oro?~
+@58   = ~Sì. L'amore per l'oro è la più grande passione e mi concedo con entusiasmo a coloro che possono soddisfare il mio desiderio.~
+@59   = ~Mi correggo allora. Non è disprezzo che provo per te, ma pietà. Le donne non sono la via per il potere, ma piuttosto una delle sue molte benedizioni. Arriverà il giorno in cui una di loro ti butterà sulla strada e candeggerà tutti i tuoi vestiti. (O candeggerà lui e butterà i suoi indumenti in strada, non sono sicuro di quale sia il modo migliore per sbarazzarsi della melma.)~
+@60   = ~Ah, apri gli occhi, mago! Se una di loro mi buttasse per strada nudo... ci sarebbe la fila e combatterebbero per il diritto di prendermi.~
+@61   = ~Hai detto che guadagni potere attraverso le donne, Eldoth. Ma tu sei di fronte a un paradosso: le donne che sono abbastanza stupide da abbassarsi a persone come te non possono esercitare il potere, mentre quelle che ti trovano irresistibile non saprebbero nemmeno impugnare una forchetta nella maniera corretta.~
+@62   = ~Dove hai preso le tue idee sulla classe delle donne? Qualche bordello di Beregost? La mia ultima amante è Skie Silvershield, figlia del Granduca di Baldur's Gate.~
+@63   = ~Oh sì, ho dimenticato che la tua piccola scimmietta ha un nome, la cui sonorità rende alcune delle qualità che potrebbe avere abbastanza inosservabile. Allora non sarà lei a buttarti in strada, ma suo padre. (A meno che non sia da lui che ha preso in prestito quell'arguzia eccezionale).~
+@64   = ~*ride* Continua a sognare, mago. Skie mi ama, e il suo amore provvede ai miei bisogni. Betty Boccadirosa... o qualunque fosse il nome della tua sgualdrina, d'altro canto, non sa nemmeno chi sia suo padre. Riesci a vedere la differenza?~
+@65   = ~In effetti, la vedo. Mi è piaciuta la spiritosa e piacevole Betty, la sua conversazione e la sua affascinante risatina in un modo in cui tu non potrai mai apprezzare Skie, nemmeno nei suoi giorni migliori.~
+@66   = ~*ridacchia* Sì, certo.~
+//Garrick
+@67   = ~Scrivere più di un testo è segno di uno scrittore carente. Non ricordo di averti mai visto con un libro di qualsiasi tipo, Garrick, il che, unito alla tua completa mancanza di talento, spiega la scarsa qualità della tua prosa.~
+@68   = ~Sei semplicemente troppo snob per capire la mia musica. È rivolta a persone più semplici e gentili di te. Inoltre, leggo. Nemmeno un anno fa avevo quel libro... com'è che si intitolava?~
+@69   = ~'Come scrivere rime povere in tre semplici passaggi' di 'Conta Refino Acinque'?~
+@70   = ~No, in realtà. Anche se è un grande manuale. Penso fosse: "Come far diventare Blu un Mago Rosso" di "L'ascia Minpace".~
+@71   = ~Eh, come previsto - la scimmia vede, la scimmia ripete. Proprio come in quella che chiami arte, non sei altro che una imitazione economica del genio di uomini più grandi.~
+//Imoen
+@72   = ~Hai un grande gusto per i vestiti, giovane ladra. Il tuo senso della moda potrebbe un giorno diventare uguale al mio. (A patto di parecchio esercizio e uno studio attento, ovviamente.)~
+@73   = ~Ti piace il mio vestito? Veramente? È divertente, nessun altro sembra-~
+@74   = ~Sciocchezze, bambina, chiacchiere insensate, provocate dall'invidia e nient'altro. Puoi fidarti del mio giudizio e del tuo gusto impeccabile. Sicuramente, il rosa non è altrettanto impressionante del rosso, ma è un ottimo punto di partenza.~
+@75   = ~Non lo so, Edwin, non mi piace davvero tanto il rosso...~
+@76   = ~Carissima Imoen, concedimi ancora un po' del tuo tempo. (In effetti, il rosso su una così giovane e priva di nobili ascendenze Thayviane difficilmente ti si addirebbe ora.) Il rosso è il colore dei colori, il vertice dello stile e l'apice dell'eleganza. Naturalmente, essendo di così tenera età, potresti non vederlo ancora, ma non disperare! Ho grandi speranze su di te.~
+@77   = ~Er... Certo, Edwin. Come dici tu.~
+//Jaheira
+@78   = ~Per una che dice di essere di nobile discendenza, trovo le tue maniere (o la completa mancanza di esse) completamente sorprendente, Jaheira.~
+@79   = ~Ha più senso dire quello che si pensa schiettamente che l'adulazione insensata degli scarsi lacchè a cui sei abituato, mago. Uno con più saggezza vedrebbe l'onestà che ne deriva come rinfrescante.~
+@80   = ~Una linea sottile divide la schiettezza dalla maleducazione; e tu l'hai superata così tante volte, arrancando avanti e indietro, che se sospettassi che tu possa avere l'intelligenza di farlo apposta, mi congratulerei con te (il più silenziosamente possibile).~
+@81   = ~Preferiresti che mentissi, quindi, e ti chiamassi bello o saggio quando miei occhi vedono l'opposto?~
+@82   = ~Quanto presto mi stanca la tua petulanza! Sono certo che quelli che comprendono le mie ovvie qualità sono di gran lunga più numerosi di quelli che ti definirebbero una donna attraente - anzi, lontanamente piacevole.~
+@83   = ~È sorprendente sentire parlare di audacia chi non ha il coraggio di scegliere una fazione, ma invece si sofferma nel mezzo delle cose con compiti non chiari e motivazioni nascoste. (E soprattutto, è sicuro.)~
+@84   = ~La tua mente è contaminata dalla lussuria e dall'avidità; tra le illusioni che offuscano il tuo pensiero, non vi è alcun raggio di luce e nessuna speranza di comprendere ragioni più grandi. Cammina, prima che sia tentata di soffermare il mio bastone nel mezzo di cose a cui tieni!~
+@85   = ~Bah. Detto da una che ha paura delle opinioni e del piacere. (Stupidi idioti, dal primo all'ultimo). In realtà, otterrei probabilmente più ammirazione dall'ottuso berserker Rashemi.~
+//Kagain
+@86   = ~Ammiro i tuoi modi schietti, Kagain, anche se la tua mente è più che carente. Tu sei uno del mio tipo, perché riesco a vedere che non ti fai scrupoli sui compiti che ti vengono affidati. Dopotutto, il fine giustifica sempre i mezzi.~
+@87   = ~Arh, ecco perché vengo pagato in modo così profumato. Alcune persone sono troppo codarde per occuparsi del loro bucato sporco. Quindi pagano - e lo faccio io.~
+@88   = ~Un mestiere come qualsiasi altro, scommetto, e più redditizio della maggior parte. Devo chiedermi però, c'è un limite anche alla tua mancanza di coscienza? C'è qualcosa che non faresti per amore dell'oro?~
+@89   = ~Sei impazzito o qualcosa del genere, mago? Dimmi la verità: c'è qualcosa che TU non faresti, per amore dell'oro, ad un'altra persona?~
+@90   = ~L'oro per me è una motivazione secondaria, un mezzo per un fine; Non è la ricchezza che cerco, ma il potere che può acquistare. Una volta che la mia missione sarà compiuta, dovrò raggiungerla. Non ho paura di prendere in mano la situazione; una macchia di sangue è poco visibile su una veste rossa.~
+@91   = ~Ora stai parlando come un uomo che ha un po' di fegato, mago, non un damerino che ha paura di tagliare una gola o due.~
+@92   = ~Qualunque cosa sia necessaria per la maggiore gloria del Thay. (E per il nome Odesseiron allo stesso tempo.)~
+//Khalid
+@93   = ~Khalid, non credi che questa tua finta timidezza stia diventando noiosa? (Un altro balbettamento, e gli disincastrerò la lingua con il mio pugnale.)~
+@94   = ~T-timidezza? È questa ciò che i-immagini essere la causa d-delle mie b-balbuzie?~
+@95   = ~Cos'altro? Accetta un consiglio benevolo da un uomo migliore di te, sciocco, e ferma questa pagliacciata. Non lo sai che una casa dove canta la gallina al posto del gallo è destinata al disastro?~
+@96   = ~Jaheira non è una g-gallina. È una donna f-forte e intelligente.~
+@97   = ~Ahh, sì, ma sono proprio le donne intelligenti e forti che rendono servi i propri mariti, salvo poi disprezzarli per questo.~
+@98   = ~Può un uomo *b-brillante* come te essere c-così cieco? Questa non è una c-competizione. L'amore di Jaheira p-per me va oltre il d-dubbio, la mia f-fiducia in lei non ha limiti.~
+@99   = ~Non ho né il tempo né la volontà di aprirti gli occhi alla verità. (Giuro, quest'uomo ha preso in prestito la sua intelligenza da un tronco d'albero).~
+//Kivan
+@100  = ~Sembra che il concetto di omicidio sia abbastanza accettato in questi giorni. Chiamarlo 'vendetta' te lo rende più appetibile, ranger?~
+@101  = ~Non c'è dubbio nella mia mente, Edwin - Tazok deve pagare per i suoi crimini, e mi interessa poco il termine usato dagli altri. Giustizia sarà fatta...~
+@102  = ~Oh, sì, ma fino a dove arriva la giustizia? Consideriamola una domanda ipotetica. (Se un tale concetto non è al di là delle sue capacità.)~
+@103  = ~Domanda ipotetica? Il dolore di mia moglie non era ipotetico, Edwin.~
+@104  = ~Sì, sì, ma andiamo al punto. È giusto uccidere la guardia che ozia pigramente davanti alla tenda di Tazok? Magari è stata assunta solo la sera precedente e non ha niente a che fare con l'omicidio di tua moglie.~
+@105  = ~Non ucciderò una persona inerme, Edwin. Ma ucciderò chiunque voglia provare a difendere Tazok. Nessuna persona veramente buona servirebbe questo mezzorco. O sarebbe inconsapevole dei suoi crimini.~
+@106  = ~Non è una questione di bene o di male, ma di colpevolezza e punizione. Riterrei un tale uomo colpevole di nient'altro che assoluta stupidità nella scelta del lavoro. È suo dovere difendere Tazok. È questo un crimine punibile con la morte nel codice dei ranger, al giorno d'oggi?~
+@107  = ~L'uomo di cui parli ha scelto di unirsi ai briganti, Edwin. Ha scelto il saccheggio, l'omicidio e la tortura di innocenti come suo ramo d'affari.~
+@108  = ~(Facile, quasi troppo facile...) Quindi, ora sei il vendicatore di TUTTI gli innocenti, non solo di Deheriana. Interessante, il cerchio dei tuoi nemici si allarga persino più velocemente del mio. Non ti chiedi se la tua missione non sia molto più di quanto tu ammetta che sia?~
+@109  = ~Ho giurato di vendicare Deheriana, e lo farò. Eri tu, che volevi parlare di casi astratti.~
+@110  = ~Senz'altro, ma io non maschero i miei rancori personali come missioni di giustizia. (La maggior parte delle volte, se non altro.)~
+//Minsc
+@111  = ~Toglimelo! Tieni il tuo puzzolente roditore a bada. È il terzo buco che ha rosicchiato nella mia veste da stamattina e le cuciture non sono roba per maghi! (A meno che non si tratti di cucire il suddetto criceto al ranger che lo trasporta e bruciare entrambi!)~
+@112  = ~Boo non ha gli stivali per prendere a calci le chiappe malvagie. Quindi deve masticarle. Giusto, Boo?~
+@113  = ~Mi chiedo... forse si potrebbe ancora trovare un uso pratico per il furetto. È troppo piccolo per diventare un guanto e troppo grande per un portamonete. Inoltre, il colore non è per nulla elegante. Ah, ci sono. Sarà un portaspilli. Sicuramente. Dal momento che ho bisogno di aghi, potrei anche avere un posto dove tenerli.~
+@114  = ~ARRRGGGH! Il malvagio mago ha rivelato i suoi piani malvagi! Vuole uccidere Dynaheir e vuole mettere aghi dentro Boo! Rendi Minsc molto arrabbiato!~
+@115  = ~Ascolta questo, ranger! Non ti annoierò rivolgendoti parole plurisillabiche. (O, rivolgendomi a te del tutto). Se il roditore mastica nuovamente la mia tunica, il roditore muore. Sono stato abbastanza chiaro?~
+@116  = ~Non provare a confondere Minsc. Boo è un criceto, non una CAPRA! Se il mago fa del male a Boo, il mago morirà. Minsc ha parlato.~
+@117  = ~Veleno… Pugnali… Pugnali velenosi… (Sì, sì, pensa a cose piacevoli e non ti verrà un'ulcera.) Palle di fuoco... aaah...~
+//Montaron
+@118  = ~Ti sei scelto una professione insolita, Montaron. Non ero consapevole del fatto che la tua razza fosse in grado di compiere più che semplici furti e ruberie. (O diffondere l'odore dei piedi, d'altra parte).~
+@119  = ~Continua a spalancare la bocca e vedrai da te quanto sono bravo.~
+@120  = ~Non ti preoccupare, mi terrò il più lontano possibile da te. Anche se per il momento i nostri interessi potrebbero mantenerci uniti, nessun uomo di posizione morale accetterebbe la presenza della coppia di gran lunga più idiota che gli Zhentarim abbiano da offrire.~
+@121  = ~Ora suoni come un dannato Arpista. Guarda un po'.~
+@122  = ~Anche se ammetto che suonare come un "Dannato Arpista" è musica per le mie orecchie, non ci vuole uno spericolato seguace di Mystra per capire quanto siano assolutamente idiote, prive di scopo e guida le azioni della tua ridicola organizzazione.~
+@123  = ~Mi sembra che neanche i tuoi abbiano vinto. E noi *abbiamo* un detto; "Più marcio è il Thayviano, più dolce è l' odore di sangue del suo cuore."~
+@124  = ~Sì, sì, e più piccoli sono, più velocemente bruciano. (E con molto meno odore, potrei aggiungere.)~
+@125  = ~Quelli sufficientemente stupidi e lenti da essere colpiti da un Thayviano meritano di farlo.~
+//Quayle
+@126  = ~Zitto! Sta zitto! Silenzio! Parli dal mattino alla sera, e anche nel sonno borbotti qualcosa. Sono totalmente e completamente stanco del tuo chiacchiericcio. (E ho una emicrania crescente, completamente non legata al bere, ovviamente.) Fai solamente silenzio!~
+@127  = ~Il mio fantastico cervello deve trovare suo sollievo verbalizzando. Se conservasse tutte le idee che crea, la mia testa esploderebbe. E faresti bene ad ascoltare quello che dico, forse acquisteresti un po' di brillantezza in più.~
+@128  = ~Non ho bisogno di acquisire brillantezza. Se fossi anche solo una punta più intelligente (come a noi con il vocabolario avanzato piace dire) gli dèi stessi ne sarebbero gelosi.~
+@129  = ~Oh, questo è un destino crudele ma alcuni di noi hanno imparato a conviverci. Io, per esempio, se sei troppo stupido per cogliere il sottile riferimento.~
+@130  = ~Certamente, quindi, saprai che il silenzio è il terreno più fertile del pensiero? (Se anche questo fallisce, troverò un bardo a cui vendere le sue corde vocali. Sicuramente nessuna corda di chitarra ha mai sopportato tanta pressione senza rompersi.) Tenta di annidare alcuni pensieri utili in quel tuo teschio rimbombante...~
+@131  = ~In realtà, secondo la mia ultima ricerca, la discussione è il modo più produttivo per sviluppare idee. Alcuni saggi la chiamano 'tempesta di cervelli', una tecnica che ho facilmente padroneggiato. Anzi, padroneggiato è poco. Ho perfezionato questa tecnica e l'ho trasformata in una forma d'arte; Posso fare uragani di cervelli o tifoni di cervelli... non solo mere, umili 'tempeste'.~
+@132  = ~Stai lontano da me, gnomo. Ora e per sempre... stai lontano da me! Altrimenti sonderò le profondità di ogni tuo orifizio corporeo con il primo parafulmine che troverò! (Perché devo sopportare questi sciocchi? Sicuramente ci deve essere un destino migliore per un abile mago come me da qualche parte in questo continente infestato da scimmie...)~
+//Safana
+@133  = ~È un vero peccato che tu spreca il tuo tempo con uomini di così poca importanza, quando hai qui uno come me. Sono molto orgoglioso di annunciarti che le mie mani non sono abili solo con le magie più arcane, ma anche nelle più piacevoli carezze. (E la mia borsa è molto meglio fornita. Questo porta sempre un vantaggio.)~
+@134  = ~Tesoro, se potessi avere un pezzo d'oro per ogni uomo che me l'ha detto, la mia borsa sarebbe più grande del palazzo ducale di Baldur's Gate.~
+@135  = ~Indubbiamente un sacco di chiacchiere inutili e nessuna azione; se dovesti essere disposta, sarò lieto di ergermi (o di sdraiarmi, se preferisci) per una dimostrazione.~
+@136  = ~Oh, sei uno di quelli che hanno fretta. Tagliati la barba e potrei darti una possibilità...~
+@137  = ~Non hai il diritto di parlare della mia barba! Ogni giorno sacrifico ore per raggiungere la sua perfezione infinita. (E sembro un dodicenne senza. Ma questo è un altro discorso.)~
+@138  = ~Preferisco gli uomini più giovani, Edwin. Con l'età, gli uomini, come il vino cattivo, diventano aspri.~
+@139  = ~Ho troppo spirito e troppo orgoglio per commentare le tue preferenze. I tuoi gusti ti porteranno ben presto fuori strada, però, e verrai a rimpiangere l'esserti associata a bardi squattrinati senza futuro.~
+@140  = ~Ma anche no, caro. Almeno loro metteranno il mio nome in una canzone o due... e tu cosa farai? Mi insegnerai a lanciare dardi incantati? Io stessa sono già una maga niente male... della Scuola dell'Amore. Non hai mai sentito parlare delle Mani Brucianti Lussuriose di Safana? O del suo incantesimo Charme Ineluttabile? O il mio preferito: la Palla del Desiderio di Fuoco?~
+@141  = ~Tentami come desideri, ma la barba rimane al suo posto. L'ho avuta per molto più tempo di quanto ti conosca, e la avrò per molto tempo ancora dopo che la tua non degna presenza non sarà che un lontano ricordo.~
+@142  = ~Oh, immagino allora che sia vero quando dici che sembri un dodicenne senza.~
+//Shar-Teel
+@143  = ~Capisco che tu pensa che profumarsi sia solo uno dei metodi di asservimento dei maschi, ma lavarsi è un'abitudine saggia e consigliabile. Una volta al giorno per la maggior parte delle persone, ma tu non dovresti affrettare le cose non essendoci abituata. Prova due volte al mese, per cominciare.~
+@144  = ~Chiudi la bocca! L'odore del sudore e del sangue si addice a una combattente. E se stiamo parlando di lavarsi, comincia tu, figlio dei fiori. Il tuo olezzo attira tutte le api in un raggio di quindici leghe.~
+@145  = ~Ci tengo a farti sapere che si tratta di un profumo. Il più eccellente e costoso che si possa trovare, dovrei aggiungere.~
+@146  = ~Mi domando che odore abbia il tuo sangue... scommetto che si amalgamerebbe bene al mio bouquet...~
+@147  = ~Che scelta di parole interessante. Bouquet? Come quella cosa che non potrai mai lanciare, perché l'idiota che vorrebbe sposare una come te non è ancora nato? (A meno che non contiamo i tanar'ri, ma persino quelli possiedono un minimo di cervello.)~
+@148  = ~Non sono abbastanza pazza da desiderare di essere legata a una cosa così patetica come un uomo. Se avrai il coraggio di umiliarmi nuovamente con un simile suggerimento, avrò la tua lingua.~
+@149  = ~Perdonami, non sono ancora abbastanza intossicato da parlare con gli animali. (Cosa stavo pensando, affrontando questa cosa? Non ho cose molto più importanti da fare?)~
+@150  = ~Prova a mettere un po' più di quel tuo profumo. Ti dovrebbe intossicare abbastanza rapidamente.~
+@151  = ~Aprirò la tua mente sulla causa del tuo comportamento eccessivamente aggressivo. Gelosia, pura e semplice. Non solo sono un mago molto abile, ma anche un individuo affascinante e ben curato.~
+@152  = ~E il bastardo più inutile tra tutti quei bastardi che si chiudono le brache sul loro congegno pensante.~
+@153  = ~In effetti, ho notato i tuoi sguardi, demonio di una donna. Tu, schifoso zimbello di una creatura simile a un uomo, dai verità al detto che le donne ammirano il lato posteriore degli uomini, perché a loro piacciono gli uomini intelligenti e pertanto presuppongono che pensino con la stessa parte loro.~
+//Skie
+@154  = ~Skie, saresti così gentile da stare lì ferma e apparire stupenda senza dire una parola?~
+@155  = ~I miei talenti vanno oltre il mio aspetto straordinario, Edwin. Mi hai mai sentito cantare? *arrossisce* Eldoth dice che ho una voce notevole.~
+@156  = ~No, no mio cara, ha detto "notevolmente fastidiosa". (Indubbiamente mi spezzerebbe qualche bottiglia di pozione se ci provasse). Certamente quei barbari occidentali dei tuoi genitori ti hanno insegnato che le donne devono essere viste e non ascoltate? Perché non rispettarli, allora? (Il suo silenzio sarebbe una piccola perdita, se mai ce ne fosse una...)~
+@157  = ~No... mio padre ha insistito che prendessi lezioni di linguaggio artistico. Suppongo che avrebbe voluto vedermi spesso parlare in pubblico. Ma è così difficile dire quali sono i desideri di mio padre... anche se potessi vederlo, non potrei mai indovinare nulla dal suo viso o dalle sue parole. Ecco perché amo Eldoth così tanto... tutti i suoi sentimenti nei miei confronti sono scritti così chiaramente nei suoi meravigliosi occhi...~
+@158  = ~Occhi meravigliosi? Quelle appendici simili a perline? Ho visto occhi più intelligenti e onesti su una donnola ubriaca. Molto bene, quindi, impressionami con le tue capacità oratorie. (Anche se apprezzerei molto di più una danza del ventre).~
+@159  = ~Immagino di poter improvvisare sull'argomento che hai suggerito... gli occhi di Eldoth...
+"Gli occhi del mio amante sono come due laghi pieni di passione...
+Riesco a vedere le increspature del desiderio indotte sulla loro superficie dal mio sguardo, come se fosse un vento gentile...
+Ogni volta che guardo nella loro profondità mi sento sommergere nella loro calda carezza e
+Non mi dispiace perdervi il respiro e lasciarmici annegare... "~
+@160  = ~Uuuuhhh, basta così, basta così. (Siano maledetti i miei modi educati!) Ehm, Skie, il tuo massacro di poesia prevede interruzioni?~
+@161  = ~Ma ho appena iniziato!~
+@162  = ~Sì, sì, ma... (Devo fingere di dover lavorare...)~
+@163  = ~Ah! Vedo che stai iniziando a guardare le tue pergamene... devi essere occupato, mi dispiace averti distratto. Gli uomini hanno così tante cose importanti da fare, mi sorprende sempre.~
+@164  = ~Oh, sì, sono occupato, molto occupato.~
+@165  = ~Allora andrò a pensare al mio amore per Eldoth.~
+@166  = ~Fallo, ti prego Skie, e prosegui per i prossimi dieci anni, già che ci sei.~
+//Viconia
+@167  = ~Devo congratularmi con te per la tua compostezza, graziosa creatura delle tenebre. (Complimenti, sì, molti complimenti porteranno a termine il compito.)~
+@168  = ~Non sono sicura di cosa intendi dire, mago. Parla e non perdere tempo.~
+@169  = ~È chiaro a tutti quelli con intelligenza superiore a quella di un ceppo in decomposizione che una donna dal gusto molto raffinato non potrebbe vedere migliore scelta di compagnia che la mia, vedendosi circondata da così pietosi esempi di uomini. Trovo il tuo ritardo nell'agire affascinante, eppure desidero rilassarti la mente.~
+@170  = ~Credimi, jaluk, non ho avuto alcuna preoccupazione per la mancanza di interesse da parte tua. Se mai, mi sembri oltremodo smanioso.~
+@171  = ~Non sono un uomo facile da influenzare, ma il tuo fascino ed eleganza non possono passare inosservati. Pertanto, sono a disposizione per ogni tuo capriccio. Come potrei farti piacere, mia ebanea incarnazione di bellezza?~
+@172  = ~Desideri farmi piacere? Allora girati e cammina lontano da me, tanto velocemente quanto il tuo indumento insopportabilmente luminoso te lo consenta.~
+@173  = ~(Un'altra tattica abile! Ma dovrò perseverare.) Molto bene, per ora. Ma starò nei paraggi, perché il tuo giudizio è destinato inesorabilmente a migliorare. (Ogni momento da ora...)~
+//Yeslick
+@174  = ~Dimmi, piccoletto, qual è il prezzo della magia nelle ore in ginocchio?~
+@175  = ~In ginocchio? La mia preghiera a Clangeddin è cantata dal mio martello tanto quanto dalle mie parole, Edwin!~
+@176  = ~In qualunque modo sia fatta, sta ancora supplicando. Preferisco la mia magia del pensiero e del tipo studiato; lungi da me l'idea di affidarmi a qualche divinità per la capacità di curare un ginocchio sbucciato.~
+@177  = ~Sì, la divinità mi dà il suo favore e potere. Clangeddin è immortale e indistruttibile. Tutto quello che hai tu sono dei tomi polverosi e delle pergamene "accartocciate". Saranno bruciate un giorno e dove si anniderà la tua magia? Potrebbero rafforzare il tuo spirito e guarire il tuo cuore quando saranno cenere?~
+@178  = ~Sì, sì, ma mentre gli dèi salgono e scendono, il potere della mente è veramente duraturo. Brucia tutti i tomi, ce ne saranno altri da scrivere, e non avrò altro potere supremo oltre alla mia volontà.~
+@179  = ~Devi essere un elfo allora, Edwin, tu guadagni potere senza la volontà di Mystra.~
+@180  = ~Mystra? Mystra? Lascia che Elminster e la sua patetica compagnia si attengano a Mystra! L'unica attività che Mystra ha nei reami è l'adozione di maghi scadenti per pietà!~
+@181  = ~Ohoh, non ti piacerebbe diventare uno dei suoi Prescelti, allora?~
+@182  = ~(Se solo fossi così fortunato...) Sì! Il tuo udito si è indebolito con il fragoroso fracasso della tua stessa voce? Ho detto maghi scadenti. Ciò mi esclude chiaramente, poiché sono di gran lunga il più geniale incantatore che abbia mai vissuto, con o senza l'aiuto di qualche divinità femminile dal cuore sanguinante. Ora sparisci, ho bisogno di ricompormi. (Mystra! Elminster! Un giorno, un giorno...)~

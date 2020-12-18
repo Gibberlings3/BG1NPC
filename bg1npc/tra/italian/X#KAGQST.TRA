@@ -1,0 +1,70 @@
+@0    = ~Beh, ci sono sicuramente problemi lungo le strade. Ne ho visti alcuni io stesso.~
+		~Beh, ci sono sicuramente problemi lungo le strade. Ne ho visti alcuni io stessa.~
+@1    = ~Dannazione, sei davvero la persona sbagliata, nel posto sbagliato, al momento sbagliato!~
+@2    = ~Ehi, quello è mio! Giù le mani, mercenario!~
+@3    = ~Arrenditi o muori qui ed ora.~
+@4    = ~Non esiste resa con carogne come queste.~
+@5    = ~Muori ora, feccia!~
+@6    = ~Ora ti devo uccidere. Niente di personale, capisci?~
+@7    = ~Signora, sono latore di gravi notizie. Durante il mio peregrinare, mi sono imbattuto in una carovana saccheggiata... e nel corpo di un giovane uomo, vestito con i colori dei Silvershield. I banditi che lo hanno ucciso avevano questa fibbia.~
+@8    = ~Allora Eddard è morto? Questa è una notizia terribile. Dammi quella fibbia - La terrò in memoria del mio caro, caro figliastro...~
+@9    = ~No... no... Perché non me lo hai detto <CHARNAME>? Mio fratello... oh, no!~
+// @10   = ~Silenzio, ragazza.~
+@11   = ~Cos... Skie? Cosa ci fai qui?~
+@12   = ~Io... Sto ehm... prendendo una boccata d'aria, sì proprio così...~
+@13   = ~Mmpf, vestita come un topo di fogna e con lo zaino sulle spalle? Mi risulta difficile crederlo, cara - Stai scappando, vero?~
+@14   = ~Io... sì. Me ne sto andando. Ehm... hai intenzione di raccontarlo a mio padre?~
+@15   = ~Mmm... raccontarglielo? Perché, certo che no! Questa è davvero una piacevole svolta di eventi...~
+@16   = ~Cos...?~
+@17   = ~Mia cara, sei solo una piccola ragazzina ricca e viziata. Ti lamenti persino quando ti spezzi un' *unghia*. Pensi davvero che sarai in grado di sopravvivere nel grande mondo cattivo? Se esiste un esempio più calzante di esca per goblin, non credo di averlo mai visto.~
+@18   = ~E quando alla fine cadrai sul ciglio della strada, proprio come tuo fratello, *io* sarò quella seduto in cima alla fortuna dei Silvershield.~
+@19   = ~Ora scappa pure, però... forse potresti lasciare qui il tuo amico, mmm? *sorride verso Eldoth*~
+@20   = ~Tu... Tu *sgualdrina*!~
+@21   = ~Stai lontana dal mio Eldoth!~
+@22   = ~Ora, ora, mia adorata. Difficilmente possiamo sperare di mantenere segreta la tua... uhm... partenza, giusto? Persino da qualcuno tanto egocentrico come tuo padre. Quindi, montiamo sulle ali dell'Amore e voliamo dove ci porteranno. *Abbraccia Skie e strizza l'occhio a Brilla da sopra la sua spalla.*~
+@23   = ~Hi-hi! Se mai avessi bisogno di un umorista per rallegrare una serata noiosa, ora so dove fare domanda. Abbi cura di te, tesoro! *Skie sbuffa e trascina Eldoth fuori dalla stanza. *~ 
+@24   = ~Non ci sono mai abbastanza mercenari in giro per fare il lavoro giusto. Hai qualche esperienza?~
+@25   = ~Abbiamo combattuto contro un gruppo di banditi che aveva appena sterminato una carovana a nord. Qualche possibilità che questa fibbia provenisse da uno dei tuoi?~
+@26   = ~Non esci molto da dietro il bancone, vero? Ehi, questa proviene da una delle tue carovane? L'ho raccolta da un gruppo di cadaveri su a nord.~
+@27   = ~Un po'. Abbiamo visto una carovana saccheggiata su a nord e abbiamo combattuto i banditi, ma siamo arrivati troppo tardi. Questa è forse di uno dei tuoi?~
+@28   = ~Ehi, sono contento che voi ragazzi abbiate del sale in zucca. Ho un amico mercenario che può occuparsi degli affari qui mentre sono via, quindi andiamo pure.~
+@29   = ~Beh, ci sono sicuramente problemi sulle strade. Abbiamo combattuto un gruppo di banditi che aveva sterminato tutti in una carovana su a nord. Qualche possibilità che questa fibbia appartenesse a uno dei tuoi?~
+@30   = ~Sai, mi è appena venuto in mente... abbiamo visto una carovana assaltata su a nord e abbiamo combattuto i banditi. Questa è per caso di uno dei tuoi?~
+@31   = ~Diavolo, questo è il sigillo del figlio di Silvershield. Morto, dici? Quella era una delle mie carovane. Immagino di essere nei guai. Con lui morto, diventerò un nano ricercato. Ottimo, dato che ora la mia reputazione è irrimediabilmente infangata, che ne dici se ti aiuto a vendicarti di quei sacchi della spazzatura? Forse in cambio potresti mettere una buona parola con i Silvershield. Che ne pensi?~
+@32   = ~Non ti vogliamo in giro, nano.~
+/* @33   = ~La Missione di Kagain
+ 
+Il figlio di Entar Silvershield è stato ucciso. Non mi fido di Kagain, quindi ci siamo separati, ma potrei riportare la fibbia alla sua famiglia, quando arriveremo a Baldur's Gate.~ */
+@34   = ~Certo, le tue abilità ci saranno utili.~
+@35   = ~Il Figlio di Entar
+Il figlio di Entar Silvershield è stato ucciso. Potremmo riportare la fibbia alla sua famiglia, quando arriveremo a Baldur's Gate.~
+@36   = ~Ora riguardo quella assunzione di cui ti ho parlato. Ecco, prendi dell'oro, ma mi aspetto da te la mia parte di bottino. Dopotutto sono povero ora.~
+@37   = ~Stupidi zucconi, peggio per voi.~
+@38   = ~Non voglio metterti fretta testa di braciola, ma avrei una carovana da trovare! Sbrighiamoci!~
+@39   = ~Era diretta da Beregost a nord-est verso Baldur's Gate. Gli avevo detto di rimanere a est della strada principale.~
+@40   = ~Bene, guarda cosa ho trovato; questo è il corpo del figlio di Silvershield. Immagino che adesso sia nei guai. Con lui morto, diventerò un nano ricercato. Da quello che ho capito finora, tutti voi inseguite quei dannati banditi. Bene, dal momento che la mia reputazione ora è fango, che ne dici se ti aiutassi a vendicarti di quei sacchi della spazzatura?~
+@41   = ~Non ti vogliamo più in giro, vai pure per la tua strada.~
+@42   = ~Certo, le tue abilità ci saranno utili. Unisciti a noi.~
+@43   = ~Stupidi zucconi, peggio per voi. Me ne vado.~
+/* @44   = ~La Missione di Kagain
+ 
+Il figlio di Entar Silvershield è stato ucciso. Non mi piaceva l'atteggiamento di Kagain, quindi ci siamo separati, ma potrei riportare la fibbia ai Silvershield quando arriveremo a Baldur's Gate.~ */
+@45   = ~Ora riguardo a quella cosa che ti ho promesso. Ecco, ce l'hai, ma mi aspetto da te la mia parte di bottino. Dopotutto sono povero ora.~
+@46   = ~Portiamo notizie per Lord e Lady Silvershield. Crediamo di aver trovato indizi su loro figlio. Qualche possibilità che questa fibbia appartenga a uno di voi?~
+@47   = ~Vedo che hai il Sigillo della casata. Per favore, vai a parlare direttamente con Lady Silvershield. La puoi trovare di sopra.~
+// BGEE#27194
+@48   = ~Il Figlio di Entar
+Ci siamo uniti a Kagain, un nano che vuole ritrovare un nobile scomparso. Il nobile scomparso è nientemeno che il figlio di Entar Silvershield, quindi è davvero importante ritrovarlo.~
+@49   = ~Il Figlio di Entar
+Abbiamo restituito la fibbia del figlio di Entar Silvershield alla sua famiglia.~
+@50   = ~Beh, ci sono sicuramente problemi lungo le strade. Abbiamo combattuto un gruppo di banditi che aveva appena ucciso tutti in una carovana su a nord.~
+@51   = ~Non esci molto da dietro il bancone, vero? Sai, mi è appena venuto in mente... abbiamo visto una carovana saccheggiata su a nord e combattuto i banditi.~
+@52   = ~Morto, dici? Quella era una delle mie carovane. Immagino che adesso sia nei guai. Con il figlio di Silvershield morto, diventerò un nano ricercato. Bene, dato che ora la mia reputazione è fango, che ne dici se ti aiuto a vendicarti di quei sacchi della spazzatura? Forse potrai mettere una parola con i Silvershield in cambio. Che ne pensi?~
+/* @53   = ~Il Figlio di Entar
+Il figlio di Entar Silvershield è stato ucciso. Non mi fido di Kagain, quindi ci siamo separati.~ */
+@54   = ~Il Figlio di Entar
+Il figlio di Entar Silvershield è stato ucciso.~
+@55   = ~Abbiamo combattuto contro un gruppo di banditi che aveva appena sterminato una carovana su a nord.~
+@56   = ~Ah, ripensandoci, non proprio.~
+@57   = ~Eddard! *singhiozza* Non riesco a credere che sia morto.~
+@58   = ~Non riesco a credere che sia morto.~

@@ -1,0 +1,32 @@
+@0    = ~Si può sempre trovare una storia da qualche parte, se si sa dove cercare...~
+@1    = ~Per favore, ditemi, chi va là? Siete avventurieri?~
+@2    = ~È la compagnia di <CHARNAME> e io sono il coraggioso Sir Garrick.~
+@3    = ~E Tiax, che governerà su tutto!~
+@4    = ~Ehi, Garrick, hai dimenticato di menzionarmi! Voglio dire, io *sono* senza dubbio quello che questo gruppo dovrebbe presentare come leader...~
+@5    = ~Vedo, Sir Garrick. Io sono Myr'Cutio. O almeno lo ero, prima che io, beh, morissi... Dimmi, perché sei venuto qui?~
+@6    = ~Veniamo alla ricerca di storie sulla tua saggezza e le tue avventure, nobile spirito.~
+@7    = ~Uhhhh...~
+@8    = ~Ahimè, non ho avuto molte avventure negli ultimi anni. I miei compagni non sopportano la condizione di non morto come me, e, se me lo concedete, ora sono piuttosto noiosi.~
+@9    = ~Ora, ma è terribilmente ingiusto, vecchio mio!~
+@10   = ~Guhhhh...~
+@11   = ~Cosa? Tiax voleva unirsi! Quando governerà, *tutti* dovranno avere le capacità di conversazione degli zombi!~
+@12   = ~Ok, ripensandoci ti concederò quel punto... Deve essere piuttosto noioso per te, Myr'Cutio.~
+@13   = ~Ehi! Tu puoi, beh, parlare?!?~
+@14   = ~Sì, certo! Uh, voglio dire, uhuhhh...~
+@15   = ~Mammina mi diceva sempre che le ossa secche non erano i migliori conversatori. Tuttavia, trovo sempre molto di cui parlare con loro! Giusto, Monty?~
+@16   = ~Uhuhhh...~
+@17   = ~Chiudi il becco, maledetto stupido mago...~
+@18   = ~Uh, capisco.~
+@19   = ~A dire la verità, anch'io mi sono stancato di questa non vita. Forse per la mia ultima avventura potrei essere messo a riposo da questa coraggiosa banda di compagni che vedo davanti ai miei occhi.~
+@20   = ~Tutti i non morti sono abominazioni! Per Helm, è tempo che incontri il tuo creatore!~
+@21   = ~Gloriosa battaglia, per Tempus!~
+@22   = ~Non credo che...~
+@23   = ~Sì, venite! Ancora una volta sulla breccia, cari amici! E così finisce qui la storia di Myr'Cutio, o quella di <CHARNAME>... Vedremo.~
+@24   = ~Sui grandi della letteratura.
+
+Abbiamo incontrato lo spirito del leggendario Myr'Cutio e l'abbiamo sconfitto in battaglia, ponendo fine alla storia epica della sua vita (o non morte) e aggiungendo alla nostra. Sembra che si possano imparare cose utili dai libri, dopo tutto.~
+@25   = ~Sono d'accordo sul fatto che i grandi artisti dovrebbero avere l'immortalità attraverso le loro opere... Anche se penso che ciò dimostri che, probabilmente, è meglio lasciare che i loro corpi decadano dopo che il loro tempo naturale è terminato. Non penso che vorrei mai essere un fantasma, non in quel modo... Tuttavia, questa armatura *è* molto elegante.~
+@26   = ~Bibliotecari Erranti
+
+Oggi abbiamo incontrato un vecchio bibliotecario di nome Archibald al Carnevale di Nashkel. Ci ha dato una copia de "L'Antologia Definitiva di Eroi Famosi Poco Conosciuti". Contiene un'interessante sezione che descrive in dettaglio l'ormai non morto Myr'Cutio, che si dice perseguiti la regione di Ulcaster all'incirca a est di Beregost. Garrick è desideroso di andare a dare un'occhiata.~
+@999  = ~Bibliotecari Erranti~

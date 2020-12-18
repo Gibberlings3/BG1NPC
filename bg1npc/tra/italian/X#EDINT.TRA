@@ -1,0 +1,94 @@
+@0    = ~Non me la sento di uccidere senza una ragione chiara. Vieni con noi, e se troveremo questa 'Dynaheir' decideremo come procedere.~
+@1    = ~Non tradire mai un Mago Rosso del Thay, <CHARNAME>. Sfortunatamente, non vivresti abbastanza per goderti i benefici di questa lezione.~
+@2    = ~Non ti avevo forse detto che avrei fatto ritorno? Ho una sorpresa per te.~
+@3    = ~I Maghi Rossi del Thay non sono noti per la loro natura magnanima. Ci hai privato di uno dei nostri, Edwin, ed è un'offesa per tutti noi. Dovremo ucciderti.~
+@4    = ~Dimmi, creatura, chi ti ha insegnato la parola "duecento"? Perché sono sicuro che non sai contare fino a quella cifra. Se vuoi dimostrarmi che mi sbaglio, ti prego di farlo ad alta voce, e ti pagheremo mille monete per i tuoi sforzi. Ma a una condizione: tu e i tuoi compagni dovrete chiudere gli occhi mentre state contando.~
+@5    = ~Oh... sì. Chiudete gli occhi!~
+@6    = ~Uno...~
+@7    = ~Due...~
+@8    = ~Che cosa stai aspettando, <CHARNAME>? Il conto alla rovescia?~
+@9    = ~Quattro...~
+@10   = ~Una decisione saggia. Non si può mai essere troppo cauti nel trattare con... la sua risma. (Sì, la terrò d'occhio attentamente.)~
+@11   = ~E Boo e io terremo d'occhio te, mago...~
+@12   = ~Tieni lontano da me quel roditore puzzolente. E anche la piccola fetida creatura che lo accompagna.~
+@13   = ~Ho incontrato un uomo di nome Edwin vicino a Nashkel, che ha cercato di assumerci per uccidere una pericolosa strega di nome Dynaheir. Dovrò diffidare di entrambi.~
+//19-20-358-142-134-123-124-116
+@14   = ~Così assolutamente ingenua... e non proprio totalmente brutta... (Una combinazione mortale in effetti. Per una scimmia, ovviamente.)~
+@15   = ~Chiedo scusa, signore, ma non c'è nulla di malvagio in questa piccola ciliegia.~
+@16   = ~Sgualdrina, le concubine del Thay quando invecchiano coprono le lampade con sfumature di rosa per creare un effetto luminoso più favorevole ai loro incantesimi di charme. Vedo... o, piuttosto, immagino, che tu abbia fatto lo stesso, avendo scelto una miniera come habitat. Sicuramente, nell'oscurità anche tu potresti passare per una donna per un babbuino locale.~
+@17   = ~Mia signora, è mia comprensione che l'entropia sia la degradazione della materia e dell'energia dell'universo a un ultimo stato di inerte uniformità. Se è questo che tu e la tua sorella gemella vi state preparando ad esemplificare con i vostri corpi celestiali, ne sarei piuttosto incuriosito e volentieri disposto a prestarvi il mio per tale sperimentazione... (Sì, sì, ho raggiunto una deliziosa proporzione di audace filosofia, ma perché mi sono anche preoccupato? Sono sicuro che un semplice "sì" sarebbe stato sufficiente - non sono abituati al mio livello di sofisticazione in questa terra barbara.)~
+@18   = ~<CHARNAME>, sicuramente mi spezzerà il cuore uccidere queste bellissime creature innocenti... (Questo dovrebbe essere sufficiente; tutti gli eroi da due soldi si fanno facilmente ingannare da questi lamenti sentimentalistici... e fornire concubine esotiche è un affare redditizio. Tutto ciò che mi serve ora è una nave e un paio di reti robuste.)~
+@19   = ~Il tuo cervello marinato, se vuoi, e un migliaio di monete d'oro, come ricompensa per aver rimosso la merce peggiore dal tuo negozio per te.~
+@20   = ~Giuro, signore, non è così male come sembra...~
+@21   = ~Non me ne andrò senza averti insegnato due lezioni: in primo luogo, non assumere un Mago Rosso del Thay per compiti così meschini, e in secondo luogo - se facessi l'enorme errore di farlo, non dovresti mai chiamarlo pazzo.~
+@22   = ~Sicuramente, se il Destino stesso ti ha portata davanti a <CHARNAME>, solo la sua prematura dipartita impedirà a <PRO_HIMHER> di ascoltarti. (Non è divertente come le donne inventino qualsiasi cosa per giustificare il loro desiderio di spettegolare?)~
+//361-64-365-318-319-373-309-310
+@23   = ~Mio caro Sindaco, a giudicare dal tuo aspetto, la tua idea di 'buona ricompensa' sarà un paio di polli... o forse un chilo di burro?~
+@24   = ~Au contraire, c'è un sacco di tempo. Direi, circa quindici anni fino a quando il ragazzo maturerà senza interferenze dalla sua starnazzante madre dalla testa vuota. Se fossi in lui, avrei scelto la compagnia dei worg senza esitazione.~
+@25   = ~Non importa quanto profondamente lusingato sia dal vedermi affidare un incarico così benedetto, sento che qualsiasi beneficio che potremmo ricavare dall'eseguire questa missione non sia degno del rischiare di macchiarmi le vesti con un rifiuto.~
+@26   = ~(Se diventassi abbastanza disperato in questa terra di dementi dal ridurmi a discutere di magia con streghe mediocri, potrei far notare che lanciare incantesimi non cuoce lo stufato. I componenti magici non sporcano le mani di chi li maneggia.)~
+@27   = ~*lancia uno sguardo significativo verso <CHARNAME>* (A meno che, naturalmente, non siano mani molto inesperte...)~
+@28   = ~Brillante. La performance di Fratello Thurm è proprio la cosa che ho atteso per tutto il giorno... <CHARNAME>, ti esorto a eliminarli rapidamente, prima di avere la possibilità di godere dei suoni prodotti dalle corde vocali dei non morti.~
+@29   = ~Non sprecherei i miei soldi in questo patetico mausoleo. In questa terra barbara, una pietra focaia sarebbe considerata un'invenzione straordinaria. (Inoltre - l'audacia sfacciata, l'impudente sicurezza e l'insolenza nell'elogiare macchinari in mia presenza! Come se dei gadget potessero essere paragonati con l'eleganza o l'efficienza della magia.)~
+@30   = ~Sono sicuro, signore, che lo troverai di tuo gradimento.~
+@31   = ~Oh, mio signore Odesseiron... come stai? Le ragazze mi domandavano di te.~
+@32   = ~Rinnoverei volentieri la conoscenza con alcune di loro. (Si aspetta forse che io sia sorpreso dal fatto che il mio figura eccezionale sia rimasta per sempre impressa nella loro memoria?)~
+@33   = ~Grazie per il tuo patrocinio.~
+@34   = ~Oh, mille grazie, Milady. (Le loro nobildonne sono persino più stupide delle loro cameriere di taverna).~
+//606
+@35   = ~Oh, i dettagli cruenti della conquista di questa fortezza insormontabile... In verità, la testa mi gira per l'eccitazione.~
+@36   = ~*Edwin si sta tagliando le unghie.* Un grande albero, isolato dagli altri, deve essere pieno d'oro... posso solo invidiare la tua percezione, galantuomo. Che sia forse fatto interamente d'oro sotto quell'ingannevole strato di corteccia?~
+@37   = ~Uh-uh, potrebbe essere.~
+@38   = ~Sarebbe un sacco d'oro... l'albero è grande. Anche se le radici fossero d'argento.~
+@39   = ~Beh, non limitarti a fissarlo - continua a tagliare, e lo scoprirai.~
+@40   = ~Sì, hai sentito, Krumm? Abbiamo degli aiutanti. Ci darai una mano, non è vero?~
+//462-634
+@41   = ~Il tuo potere di osservazione è sorprendente, drow.~
+@42   = ~Dovrei piangere ora? (Che sofferenza, che disagio...)~
+@43   = ~Sicuramente, la semplice apparizione di Drizzt Do'Urden avrebbe dovuto ormai aver fatto fuggire ogni singolo brigante. O i racconti dei bardi esagerano forse la tua bravura, drow? Ah, poco importa; è del tutto possibile che i banditi da queste parti non abbiano avuto la possibilità di ascoltare i racconti esaltanti sul fuoco che bruci nei tuoi occhi color lavanda, l'ipnotizzante danza della morte che fanno le tue piccole spade o la terribile parata incrociata. (O il salto mortale del fato fulmineo, o le pagine di diario dal sanguinamento nasale istantaneo, e così via...)~
+@44   = ~Sono sinceramente meravigliato dal tuo potere di ragionamento... come avremmo mai potuto capire che la taglia cresce proporzionalmente alla difficoltà del compito...~
+@45   = ~Vedi, dovendo scegliere tra l'esercizio dell'arguzia e quello della lama, io dico che hai fatto la scelta giusta, Drizzt Do'Urden, diventando uno spadaccino. Ah, scusa, dimenticavo che è stato tuo padre a fare quella scelta per te...~
+@46   = ~Una supplica, se posso, per favore, non menzionare questo incontro nei tuoi diari. Il mio nome non potrebbe sopportare... ehm, tale onore.~
+//379-382-386-386-394-396
+@47   = ~Il piacere è tutto tuo, ne sono più che sicuro.~
+@48   = ~Questa grande città non è altro che una moltitudine di vicoli tortuosi, dove si possono incontrare i personaggi più idioti. Ma quali sono le probabilità di imbattersi nello stesso idiota due volte e in tempi così ravvicinati? <CHARNAME>, attiri gli sciocchi, come la carne putrefatta attira le mosche.~
+@49   = ~Se me lo chiedi, <CHARNAME>, è meglio evitare la lotta e darle queste venti monete. Sarebbe una piccola somma da pagare per il privilegio di non dover trascinarci dietro questa stupida mucca e la sua spada arrugginita.~
+@50   = ~Incredibile. Sfido chiunque a credere nella purezza dell'amore dopo aver ascoltato questa particolare dichiarazione di intenti.~
+@51   = ~Per uno sciocco accecato dall'amore, vede abbastanza bene come trarre profitto dalla stupidità di uno sconosciuto. Gli anelli Pelle d'Angelo sono costosi, <CHARNAME>...~
+@52   = ~Quindi, è ancora viva... Sbrigati, <CHARNAME>, prima che la mia ricompensa vada in fumo, per gentile concessione di questi selvaggi non lavati.~
+@53   = ~Devo ancora decidere cosa mi ha divertito di più: il livello di precauzione uguale a quello di un duergar ubriaco che cerca di corteggiare una Madre Matrona che quest'uomo ha esibito nel preparare una trappola per te, o l'arguzia che ha quasi eguagliato la velocità di uno zombi magicamente rallentato che hai esercitato mentre pendevi da ogni sua parola. Non è che siete parenti, per caso?~
+//401-407-774-775-411
+@54   = ~È mia esperienza, che nelle questioni di vita e di morte è sempre utile mentire. Ma puoi essere sincero con questi scagnozzi, se lo desideri - hanno questo aspetto particolare... come potrei definirlo? Ah sì, "pedine destinate a essere macellate in un momento".~
+@55   = ~Anche se avessi sentito il tuo nome, mi sarebbe sfuggito, spadaccino alle prime armi... Non ha una sonorità sufficiente. Rispetto a, diciamo, Edwin Odesseiron... (Qui, c'è la vera magnificenza!)~
+@56   = ~Delizioso. Adesso salviamo anche i polli da grandi lupi cattivi. Ho sentito dire che il tuo primo atto eroico sia stato portare un antidoto a una mucca malata di stomaco. Forse l'agricoltura per te sarebbe un'occupazione più adatta dell'avventura, <CHARNAME>. Pensa alle molte possenti verdure che potresti produrre, brandendo il tuo forcone magico! (Che sofferenza!)~
+@57   = ~*Coo-co-co* Il lupo! Il lupo sta arrivando!~
+@58   = ~Hai dei servitori? E io che ti avevo preso per uno di loro...~
+@59   = ~Era solo il tuo cervello, contadino.~
+//418-420-169-170
+@60   = ~Il trucco più vecchio dell'incompetente è quello di coprire la sua impotenza con uno spettacolo di giusta indignazione. È più comune tra i paladini, però, che tra gli studenti arcani.~
+@61   = ~Devo essere d'accordo, perché provengo dal glorioso Thay, che è solo a pochi anni di distanza dal provare al resto di Faerun che è davvero il centro dell'universo.~
+@62   = ~Gli dèi ci salvino dalla peste e dai poeti. (Avrei dovuto fuggire quando potevo. Sulle colline, le colline, dico!)~
+@63   = ~Ah, direi che è "tra le rovine, nelle rovine!" Non invidio la tua fortuna, signore. Non mi dispiace stare qui in piedi ad ammirare la grazia malinconica dell'ambiente, ma andare sottoterra... no, signore!~
+@64   = ~Sospetto che tra voi due ci sia, forse, una pulce di ragione.~
+//200-424-53-252
+@65   = ~Oh? Che divertimento.~
+@66   = ~<CHARNAME>, l'offerta di questa donna sembra piuttosto... intrigante. Sicuramente non puoi ignorare l'opportunità di salvare una damigella in pericolo? (Sì, dovrebbe dare loro una piccola spinta nella giusta direzione... Faranno la maggior parte del lavoro e, conoscendo l'effetto che ho sulle donne, dovrei raccogliere tutto il piacere. Finalmente, qualcosa degno della mia attenzione!)~
+@67   = ~(Ora i pescatori mi chiedono di aiutarli ad andare in mare... poi, gli agricoltori mi supplicheranno di aiutarli a seminare. Sto diventando veramente indispensabile per l'economia di questa regione.) Per favore, <CHARNAME >, dì solo di... NO!~
+@68   = ~*sospira* Che cosa avevo detto riguardo al fatto che gli agricoltori fossero i prossimi in fila dopo i pescatori? Trattengo il respiro, o leader glorioso... Potrebbe esserci un tosatore che aspetta di chiedere aiuto dietro quel cumulo di letame!~
+@69   = ~La sua arroganza immeritata mi annoia, <CHARNAME>. Lo finiamo ora, prima che il nostro pranzo diventi freddo?~
+//305-853-854
+@70   = ~Notate come nonostante abbia preso atto della presenza delle nostre armi, si rivolga ancora a noi in maniera arrogante; l'infanzia è un tempo in cui la logica e l'autoconservazione sono concetti alieni. Questa qui non crescerà per scoprire quanto siano preziose quelle abilità che non ha mai acquisito.~
+@71   = ~<CHARNAME>, colui che si mescola negli affari degli schiavi si abbassa alla loro stessa vergognosa situazione.~
+@72   = ~Viscido.~
+@73   = ~Come? Perché? Percheeeé? È una tale perdita per il mondo! <CHARNAME> dobbiamo andare immediatamente al tempio, altrimenti molte lacrime cadranno! (e non saranno tutte mie, ti assicuro!)~
+@74   = ~Chi ha detto che stavo parlando con te? Ma ho comunque finito con te. Vai.~
+@75   = ~E io sono deluso.~
+@76   = ~L'ho già dimenticato.~
+@77   = ~Se non l'hanno già arrostita!~
+@78   = ~Vai ora e fai ciò che devi.~
+@79   = ~Silenzio!~
+@80   = ~Sparisci, scettico!~
+@81   = ~O i tuoi corpi lo faranno.~
+@1001 = ~Il tuo nome? L'ho già dimenticato.~
+@1002 = ~Non sprecare l'opportunità davanti a te.~
+@1003 = ~Muori, mago!~

@@ -1,0 +1,33 @@
+@0    = ~Levati di mezzo, mascalzone! Sciò!~
+@1    = ~Libri, libri, libri. Fuori dai piedi, giovani mascalzoni! Ai miei tempi i giovani erano molto più rispettosi con gli anziani... E molto più portati alla grande letteratura. Oh, sì. Bah.~
+@2    = ~Sì? Bene, ciao anche a te, vecchio!~
+@3    = ~Uhm, mi dispiace, signore.~
+@4    = ~Sembra che il Faerun sia pieno di vecchi pazzi di questi tempi. Andiamo avanti. Rapidamente.~
+@5    = ~Ah! Come ho detto, irrispettoso. Forse avresti potuto imparare qualcosa dai miei innumerevoli anni di saggezza, per non parlare dei miei libri. Ma credo che tu sia stato troppo sfacciato per cogliere il suggerimento.~
+@6    = ~Buone maniere, oh! Quindi forse la vita moderna non ha completamente eroso le ultime vestigia di decenza da te. Forse posso aiutarti...~
+@7    = ~Aiutami? Come?~
+@8    = ~Dubito che un vecchio abbia molto da offrirmi. Credo che me ne andrò.~
+@9    = ~Beh, sono un bibliotecario. O, meglio, lo ero, visto che ora sto vendendo la mia collezione per finanziare il mio tanto atteso pensionamento.~
+@10   = ~Oh davvero? Qualche progetto carino?~
+@11   = ~*siediti e ascolta*~
+@12   = ~Bla bla bla... Vai avanti.~
+@13   = ~Sono contento che tu me l'abbia chiesto in realtà, sto pensando di andare più a sud ad Amn, forse sulle colline di Umar o da qualche altra parte...~
+@14   = ~Non credo a tutti questi discorsi sull'imminente guerra. Per quanto mi riguarda, è un bel posto tranquillo, dove non succede nulla. Niente di inaspettato, niente avventurieri o altro. Nulla di nulla. Avrò una bella vita tranquilla. E soprattutto, niente più libri!~
+@15   = ~Ora potresti non essere d'accordo, ma ho un buon istinto su queste cose. Comunque, non è questo il punto. Mi stai distraendo.~
+@16   = ~Sì, scusa. Stavi dicendo?~
+@17   = ~Sì, sto vendendo la mia collezione, anche se in realtà ho fatto abbastanza soldi per sopravvivere ora. Mi restano solo pochi libri. Forse ti potrebbe interessare questo: "L'Antologia Definitiva di Eroi Famosi Poco Conosciuti", di un mio vecchio amico, Saemon Schama.~
+@18   = ~Wow, veramente? L'Antologia Definitiva di Eroi Famosi Poco Conosciuti di Saemon Schama? Per favore, <CHARNAME>, questo è un ottimo libro! Mi piacerebbe davvero averlo!~
+@19   = ~Ah, allora saresti uno studioso, ragazzo mio?~
+@20   = ~Un bardo, signore... Ne ho sempre voluto una copia, fin da quando mi sedevo sulle ginocchia di un vecchio gnomo. È uno dei classici - l'autore è un genio!~
+@21   = ~Anche se non è del tutto all'altezza del mio livello, è un personaggio abbastanza intelligente, <CHARNAME>. Voglio dire, per un essere umano, ovviamente, qualsiasi cosa abbia scritto vale probabilmente almeno una rapida occhiata.~
+@22   = ~Bene, allora, se ti fa piacere, te lo darò gratuitamente. È raro incontrare tipi ben educati come voi. Buona fortuna a te, ora, se mi vuoi scusare, devo andare in pensione. E un ultimo consiglio: le cose lette nei libri possono spesso rivelarsi molto utili. Oh, sì.~
+@23   = ~Oh, un bibliotecario decrepito consegna un tomo importante a un giovane avido bardo avventuroso? Per favore, cos'è questa roba? Cosa ho fatto per meritare simili idioti come compagni?~
+@24   = ~Sei un brav'uomo, signore. Non lo dimenticherò.~
+@25   = ~Ehi, <CHARNAME>! C'è un passaggio in questo libro sul bardo mezzelfo Myr'Cutio, morto da secoli, che si dice vagare tra i non morti nelle valli nei pressi di un luogo chiamato Ulcaster in cerca di ulteriori storie di avventura. Ehi, ci sono delle indicazioni approssimative, dovrebbe essere da qualche parte, ad est di Beregost! Forse potremmo andare a dare un'occhiata?~
+@26   = ~Non vedo nulla di male in questo. Chissà, se fosse vero potremmo imparare qualcosa.~
+@27   = ~Pensavo che quel vecchio pazzo bibliotecario fosse abbastanza, Garrick, ma se non stai zitto, allora spingerò quel libro dove il sole non brilla, se capisci cosa intendo...~
+@28   = ~Wow! Grazie, <CHARNAME>.~
+@29   = ~Bibliotecari Erranti.
+
+Oggi abbiamo incontrato un vecchio bibliotecario di nome Archibald al Carnevale di Nashkel. Ci ha dato una copia de "L'Antologia Definitiva di Eroi Famosi Poco Conosciuti." Contiene un'interessante sezione che descrive in dettaglio l'ormai non morto Myr'Cutio, che si dice perseguiti la regione di Ulcaster all'incirca a est di Beregost. Garrick è desideroso di andare a dare un'occhiata.~
+@30   = ~Come vuoi, ma scommetto che ce ne pentiremmo se non andassimo...~

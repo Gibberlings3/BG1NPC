@@ -1,0 +1,259 @@
+//Carnevale di Nashkel
+@0    = ~Ho sentito molte cose fantastiche su questo carnevale - si dice sia il migliore di tutta la Costa della Spada! Spero che avremo almeno un po' di tempo per rilassarci...~
+@1    = ~Garrick, ogni venditore afferma che il proprio prodotto è il migliore. Probabilmente è solo mediocre.~
+@2    = ~Sono sicuro che ci sarà tempo per divertirsi.~
+		~Sono sicura che ci sarà tempo per divertirsi.~
+@3    = ~Bah! Sono al di sopra di divertimenti dozzinali come questo patetico carnevale. Non sono più un bambino.~
+		~Bah! Sono al di sopra di divertimenti dozzinali come questo patetico carnevale. Non sono più una bambina.~
+@4    = ~Oh, beh... voglio dire, almeno potremmo provarci. Ah, bene.~
+@5    = ~Posso dire che andremo d'accordo favol... fav... ah, brillantemente, <CHARNAME>!~
+//Il Ponte di Firewine
+@6    = ~Il Ponte di Firewine... Ci sarebbero da raccontare una o due storie da queste parti!~
+@7    = ~Tuttavia, mi chiedo dove *sia* effettivamente il fiume.~
+@8    = ~Mmm. Immagino che cose del genere non siano date sapere.~
+@9    = ~Ehi, ragazzi, aspettatemi!~
+//Porte di Baldur
+@10   = ~La città di Baldur's Gate... Tanto da fare, così tanto da vedere! Potremmo forse vedere uno spettacolo, visitare la Sala delle Meraviglie...~
+@11   = ~Difficilmente avremo tempo per queste banalità, Garrick. Ora fai silenzio.~
+@12   = ~Non sono mai stato qui prima. Cosa suggerisci di visitare?~
+		~Non sono mai stata qui prima. Cosa suggerisci di visitare?~
+@13   = ~L'arte e la storia non sono banali, sono... uh... Bah!~
+@14   = ~Oh, ci sono così tanti posti! Potremmo visitare la Sala delle Meraviglie di Gond dall'altra parte della città, il Palazzo Ducale, il …~
+@15   = ~Mi sono fatto un'idea. Daremo un'occhiata mentre la esploriamo, quindi.~
+		~Mi sono fatta un'idea. Daremo un'occhiata mentre la esploriamo, quindi.~
+@16   = ~Le mie orecchie non possono più sopportare questa punizione! Tieni la bocca chiusa. Decido io dove andare.~
+@17   = ~Intendevo più riguardo taverne e rifornimenti...~
+@18   = ~Beh, ci sono parecchi mercanti di armi in città, ma per gli articoli magici faremo meglio a provare da Chincaglierie Magiche non troppo lontano da qui. Il proprietario è un po'… sostenuto, a volte, però...~
+@19   = ~Per le taverne, suggerirei il Canto Elfico, ah, e la Sirenetta Timida. Ma non sono sicuro che ti piacciano gli stessi posti e, beh, ci sono molti tra cui scegliere.~
+@20   = ~Grazie, Garrick. Lo terrò a mente.~
+//Candlekeep
+@21   = ~Quindi questa è la famosa biblioteca? Wow, ci sono più libri di quanti potresti leggere, ah, in una dozzina di vite!~
+@22   = ~Sì, ecco perché lo chiamano biblioteca.~
+@23   = ~Sono per lo più resoconti storici molto stringati e oscuri tomi di incantesimi, Garrick. Probabilmente non li troveresti molto interessanti.~
+@24   = ~Non abbiamo tempo, Garrick, dobbiamo trovare i leader del Trono di Ferro!~
+@25   = ~Beh, non c'è bisogno di *quel* tipo di atteggiamento <CHARNAME>. Alcuni di noi non sono stati così fortunati da crescere circondati da tonnellate di tradizione...~
+@26   = ~Suppongo sia stato un vero privilegio, Garrick. Comunque, andiamo; non abbiamo molto tempo da perdere. Dobbiamo trovare i leader del Trono di Ferro!~
+@27   = ~E non vogliamo nemmeno perdere il resto della nostra vita su di loro. Dai, abbiamo cose da fare.~
+@28   = ~Oh, no! Trovo tutti i libri interessanti, <CHARNAME>... Non sai mai quando qualcosa che leggi si rivelerà inaspettatamente di vitale importanza!~
+@29   = ~Almeno, questo è quello che mi dico.~
+@30   = ~Forse troveremo tempo dopo, ma per ora è meglio che ci muoviamo.~
+@31   = ~Grande attitudine, ma non abbiamo tempo per parlare di libri, Garrick. Dobbiamo trovare i leader del Trono di Ferro!~
+@32   = ~Ne sarò felice quando tutto sarà finito. Spero che non sia troppo disordinata nel caso...~
+//La famigerata pelle d'orso 21-22-23
+@33   = ~Beh, allora non è cambiato molto. Ora aspetta solo che ci accampiamo, prima di allontanarsi dal resto del gruppo e... Ah... mmm... dimentica quello che ho detto.~
+@34   = ~Ti ho sentito, Garrick. Controlla il tuo linguaggio quando parli del gentil sesso, in particolare di lady <CHARNAME>!~
+@35   = ~Ah, quindi anche i tuoi piccoli amici lo hanno notato?~
+//Abela la ninfa
+@36   = ~Una cosa terribile, vedere una creatura di tale bellezza così sprecata...~
+//Achen Dell 452
+@37   = ~Il lavoro di un eroe non finisce mai.~
+@38   = ~Oh, <CHARNAME>, dobbiamo assolutamente!~
+//454
+@39   = ~Ho sentito molti racconti di poveri compagni sottomessi da incantesimi malvagi, ma sentire parlare di uno che sta accadendo ora è terribile! <CHARNAME> dobbiamo aiutare!~
+@40   = ~Andare coraggiosamente dove gli altri non osano... È il credo dell'avventuriero!~
+//Bassilus 374
+@41   = ~Che stregoneria è questa? Lui... Ci sta parlando assieme! Quell'uomo è pazzo!~
+@42   = ~L'interno del Palazzo Ducale. Magnifico! Se solo fossimo qui in tempi più felici.~
+@43   = ~Oh, suppongo che dovrei, ah, prestare attenzione...~
+//456
+@44   = ~Auto-flagellazione? Oh, mio...~
+@45   = ~Ha ragione, <CHARNAME>. Kelddath è il Sommo Sacerdote di Lathander in questa regione.~
+@46   = ~Una storia così triste. Alle armi, quindi!~
+@47   = ~Uh, ok.~
+@48   = ~Oh, <CHARNAME>, non dovremmo! Sono stato già coinvolto con gente poco raccomandabile, e non è la strada giusta!~
+@49   = ~È sicuramente poco ortodosso, ma... ma vedila come se stessimo trovando una casa migliore per quell'artefatto... sì, sì, un obiettivo molto nobile.~
+@50   = ~ Cadderly? Come  *quel* Cadderly, famoso sacerdote di Deneir?~
+@51   = ~Non direi "famoso", ma sì, sono io.~
+//458
+@52   = ~Non riesco a vedere il legno di questi alberi sotterranei...~
+@53   = ~Questo è il Duca Eltan, <CHARNAME>. Ho sentito cose positive su di lui; Penso che dovremmo dirgli la verità.~
+@54   = ~In effetti, sarebbe nel tuo interesse.~
+@55   = ~Kozah era un'antica divinità della distruzione. Dobbiamo stare attenti!~
+@56   = ~Non riconosco la lingua, ma Kozah era un vecchio dio del caos e della distruzione... Non mi piace per niente!~
+//463-464-465
+@57   = ~Il famoso ranger, Drizzt Do'Urden!~
+@58   = ~In persona, ben trovato, giovanotto! Mi aiuterai?~
+@59   = ~Drizzt è un nobile guerriero, <CHARNAME>. Dobbiamo aiutarlo!~
+@60   = ~Un Ogre magi? Dobbiamo fuggire, <CHARNAME>! Non possiamo resistere a una creatura come questa!~
+//640-641-725-726-307-308-307
+@61   = ~Che bellezza! Non possiamo permettere questo affronto alla natura!~
+@62   = ~Tu parli rettamente, anche se sei vestito come un abitante della città.~
+@63   = ~Il vero guerriero, in lotta per salvare la sua dama... Ora che la loro ricerca è finita, <CHARNAME>, forse potrebbero unirsi alla nostra?~
+@64   = ~Sarebbe davvero un onore servirti, <CHARNAME>.~
+@65   = ~<CHARNAME>, andiamo! Sono già stato qui una volta, da bambino, e ci sono alcune cose davvero fantastiche...~
+@66   = ~Abbiamo anche delle splendide nuove acquisizioni, signore!~
+@67   = ~<CHARNAME>, andiamo! Sono già stato qui una volta, da bambino, e ci sono alcune cose davvero fantastiche...~
+@68   = ~Sono così eccitato!~
+@69   = ~Un Drago a Vapore! Cosa si inventeranno ancora?~
+//466-466-388-389-390-391
+@70   = ~Questo potente mago sembra davvero un tipo arrogante, e quelle vesti rosse suggeriscono sia un Thayviano... Dovremmo stare attenti ai nostri rapporti con lui, <CHARNAME>.~
+@71   = ~Questo potente mago sembra davvero un tipo arrogante, e quelle vesti rosse suggeriscono sia un Thayviano... Dovremmo stare attenti ai nostri rapporti con lui, <CHARNAME>.~
+@72   = ~Estorsione? Ricatto? Questi non mi sembrano obiettivi molto nobili.~
+@73   = ~Mmm, moccioso, hai detto qualcosa?~
+@74   = ~Moccioso?!? Io-~
+@75   = ~Ti assicuro che mi fa duole farlo, ma devi pensare alla mia amata, Skie! Questo è l'unico modo in cui può sfuggire alla tirannia della sua vita. Allora, che ne dici?~
+@76   = ~Elminster di Shadowdale, famoso saggio e Prescelto di Mystra? Veramente?~
+@77   = ~In carne ed ossa. vedo che hai il luccichio del cantastorie in quei giovani occhi, ragazzo. Perché non mi dici il tuo nome così che in futuro possa dire di aver conosciuto il biografo di <CHARNAME>?~
+@78   = ~Mi chiamo, oh... Oh, cavolo, Elminster in persona!~
+@79   = ~No, io sono Elminster.~
+@80   = ~Voglio dire, ah, mi chiamo Garrick, signore. Ed è un onore conoscerti.~
+@81   = ~Garrick? Terrò il tuo nome e la tua faccia bene a mente, ragazzo. Mi aspetto grandi cose da te. Ma ora, devo affrontare ciò che sta appesantendo la mente di <CHARNAME>.~
+//377-378-381-674-393-476
+@82   = ~Ben ritrovato, Garrick.~
+@83   = ~È un onore rivederti, signore.~
+@84   = ~Sto cominciando a capire come hai acquisito una reputazione per... interferire … Nel miglior senso possibile della parola, signore!~
+@85   = ~Ciò significherebbe sicuramente ossa piuttosto grandi...~
+@86   = ~Ah, il vero amore! Forse potremmo aiutare Fergus in questa faccenda?~
+@87   = ~La Storia dei Tre Morti - ha ragione, davvero una storia oscura. Il solo pensiero di quelle divinità cadute mi fa venire i brividi lungo la schiena.~
+@88   = ~Saresti sorpreso di come viaggiare allarghi gli orizzonti di un bardo, signore.~
+@89   = ~Forse, ma preferisco le mie lenzuola di seta. Buona serata a te.~
+//480
+@90   = ~<CHARNAME>, quanto vale una vita innocente? Dico che dovremmo rifiutare l'offerta di Gallor e informare Charleston.~
+@91   = ~Una profezia oscura, la materia di cui sono fatte le leggende! Devo prendere appunti.~
+//875
+@92   = ~Oh, cavolo.~
+@93   = ~Ovunque ci rivolgiamo, troviamo avventura e intrighi... Ai Tre Vecchi Barili, <CHARNAME>?~
+@94   = ~Oh, <CHARNAME>, cos'è reale? Niente ha più alcun senso!~
+//486
+@95   = ~Abbiamo molte storie da raccontare; cosa ne dici, <CHARNAME>?~
+@96   = ~No! Non è giusto, quell'uomo è un artista!~
+@97   = ~Questi sono davvero presagi funesti...~
+@98   = ~Sembra che ci siano parecchi mormorii loschi che coinvolgono il Trono di Ferro in questi giorni...~
+@99   = ~Scherzare coi morti spesso provoca sofferenze ai vivi...~
+@100  = ~Intrigante. Sembra l'inizio di una grande avventura, eh, <CHARNAME>?~
+@101  = ~Oh, penso di poter sentire la mia colazione tornare su!~
+//395-717-718-733
+@102  = ~Wow, non credo di aver mai sentito parlare uno gnoll prima. Forse dovremmo ascoltarlo con attenzione?~
+@103  = ~Una bella storia non ha prezzo, <CHARNAME>. E temo che questa, per quanto oscura, possa essere importante.~
+@104  = ~Giuro che vale ogni moneta che mi pagherai.~
+@105  = ~Starei molto attento ad avere a che fare con le serve della Regina delle Sgualdrine, <CHARNAME>.~
+@106  = ~Un punto a tuo favore, immagino.~
+@107  = ~Sicuramente possiamo fare questo semplice compito per questa dolce signorina?~
+@108  = ~Ha ragione.~
+@109  = ~Le regole di Candlekeep sono conosciute da tutti i dotti, <CHARNAME>. È un peccato che non si pieghino, solo un po'.~
+@110  = ~Mi sembra strano. Le Cantine non hanno una reputazione particolarmente gradevole...~
+@111  = ~Non che io sia un frequentatore abituale, ovviamente.~
+@112  = ~Ben trovati, amici. Spero che possiate arrivare in fondo a questa faccenda - per tutti noi.~
+@113  = ~Incredibile! Può essere vero?~
+//758
+@114  = ~Un pollo infernale? Ho avuto un mal di stomaco infernale dopo uno stufato di pollo cucinato male, ma quest'uomo parla di un pollo che, beh… parla!~
+@115  = ~Che barbara!~
+@116  = ~Preferirei il termine... depravata, mmm?~
+@117  = ~Baldur's Gate è chiusa? Sicuramente la situazione deve essere seria, allora.~
+//488
+@118  = ~Sicuramente ci deve essere qualcosa che possiamo fare per aiutare!~
+@119  = ~Ho la sensazione che succeda spesso.~
+@120  = ~Nosferatu è un classico; ma d'altra parte un orco che esplode sembra molto divertente!~
+//426-406-769-770-771-772-773-776
+@121  = ~Wow.~
+@122  = ~Meilum? Ah, io non la penso così. E tu, <CHARNAME>?~
+@123  = ~Un pollo parlante... Oh, cavolo. Cos'è, stregoneria da polli, questa?~
+@124  = ~Polli? *Coccoodè * Non hai idea di quanto avrò *Cooccodè* odiato questa battuta quando *Coooooccodè* sarò tornato normale!~
+@125  = ~Mmm. Battuta dici … come la carne?~
+@126  = ~Gaaaaaah! *Coccooooooodè*~
+@127  = ~Aspetta! Sto scambiato battute con un *pollo*? Oh, cavolo, oh, cavolo...~
+@128  = ~*Coooccodè*~
+@129  = ~Se vuoi la mia opinione, sei già abbastanza fortunato a non essere un pollo arrosto!~
+//413-491
+@130  = ~Alle armi, allora! Dobbiamo prevalere!~
+@131  = ~È mostruoso!~
+@132  = ~Un peccato. Avremmo potuto imparare qualcosa!~
+@133  = ~Che creatura vile! Merita di marcire in queste celle!~
+@134  = ~Vile o no, eh, sono la tua unica via d'uscita da qui...~
+@135  = ~I rapporti di Xzar? Cosa?~
+@136  = ~Ehi!~
+//495
+@137  = ~Nessun problema, bella signora!~
+@138  = ~Meraviglioso! Bravo!~
+@139  = ~Grazie infinite, giovane signore. Sebbene io sia semplicemente il tramite per le parole dell'autore.~
+@140  = ~Io... Uh...~
+@141  = ~È un peccato che non si sia potuta risolvere in un modo migliore. Immagino che non tutte le storie possano avere un lieto fine.~
+//500-501-504
+@142  = ~Interessante. Sembra che ci siano molti eventi degni di nota nei Reami.~
+@143  = ~Sì, ci sono. Forse un giorno qualcuno di voi ne farà parte. Pensateci.~
+@144  = ~Questa è la casa di Thalantyr, un mago saggio e potente. Non ti consiglierei di cercare di derubarlo, <CHARNAME>.~
+@145  = ~Storie epiche di malvagità? Wow! Oh, <CHARNAME>, per favore!~
+@146  = ~*gasp*~
+//165-166-475
+@147  = ~Magnifica! Una tale storia potrebbe riempire qualsiasi taverna o salone dei Reami!~
+@148  = ~Le tue parole gentili riscaldano il cuore di questo giovane bardo - il che è utile, considerando il tempo qui. Ti ringrazio umilmente.~
+@149  = ~Ed ora, cosa dici?~
+@150  = ~Non sembra troppo appropriato per un sacerdote del Dio Piangente come te...~
+@151  = ~La bellezza soprannaturale degli elfi ruba il cuore di molti uomini...~
+@152  = ~Hai fatto la cosa giusta, signore.~
+//830-831
+@153  = ~Ha ridotto in schiavitù una ninfa? Un crimine disgustoso!~
+@154  = ~Esattamente. Mi aiuterai... a sistemare le cose?~
+@155  = ~Non avrei potuto spiegarlo meglio io stesso.~
+@156  = ~Davvero! Si potrebbe dire che sia stata una vera e propria festa del vocabolario, sebbene concisa nelle sue lodi. Ma tale è ancora misera rispetto allo sfarzo, al glamour e alla personalità che scorre impersonalmente dal cuore di questa piccola metropoli.~
+//846-847-860-861-423
+@157  = ~Non ha … tutti i torti.~
+@158  = ~Sì, ascolta il moccioso e levati dai piedi.~
+@159  = ~Sono sicuro che potremmo tenere gli occhi aperti, signorina.~
+@160  = ~Bene, grazie!~
+@161  = ~Oh, cavolo... è in momenti come questi che sono felice di essere un avventuriero.~
+@162  = ~L'incoronazione! Siamo appena in tempo!~
+@163  = ~Oh, orrore indicibile!~
+@164  = ~Sembra sospetto.~
+@165  = ~Ha ragione, <CHARNAME>. Non dovremmo ignorare una richiesta del genere.~
+@166  = ~Parla per enigmi... Mi chiedo cosa significhi?~
+@167  = ~Puoi dirlo forte! Qui c'è qualcosa che puzza!~
+@168  = ~Beh, l'omicidio per mano di Cyric è l'opinione comunemente accettata degli eventi. In un certo senso mi sono perso dopo.~
+//865-866
+@169  = ~Quale ingiustizia! Io, Garrick, ti aiuterò, dolce creatura!~
+@170  = ~Per favore! Non posso combattere Droth da sola, giovane umano!~
+@171  = ~Silke?~
+@172  = ~Ah, Garrick. Fai il bravo e stai zitto, va bene?~
+@173  = ~Così dice la gente!~
+//54-55
+@174  = ~La Regina delle Sgualdrine? I suoi ministri saranno sicuramente gente malvagia e terribile.~
+@175  = ~È dannatamente così. Quindi, ci aiuterai?~
+@176  = ~Sì... Questo spiega la sua interminabile malattia!~
+//869-870
+@177  = ~Anche le anime più spaventose possono trovare l'amore, a quanto pare. Il tuo amore deve essere stato grande, per durare ancora adesso.~
+@178  = ~Sì, e... rifarei tutto di nuovo. Non è colpa sua se è nato così. Lo amo ancora e lo farò sempre.~
+@179  = ~Beh, è stato … insolito.~
+@180  = ~Sembrerebbe che la situazione sia più complessa di quanto siamo stati indotti a credere.~
+@181  = ~Vai via!~
+//875-435-436-437
+@182  = ~Oh, cavolo!~
+@183  = ~... perché la "fortuna" si esaurisce... Un buon proverbio.~
+@184  = ~E fareste bene a ricordarlo, giovani avventurieri.~
+@185  = ~Ben trovato, signore, e arrivederci.~
+@186  = ~Un seguace di Cyric, e a prima vista direi che la sua presa sulla realtà sia piuttosto labile...~
+@187  = ~La presa di Tiax è ferma sulle armi che usa per colpire i suoi nemici! Salda come la pietra con cui il Trono Supremo di Cyric - e presto anche di Tiax - è scolpito!~
+@188  = ~Beh, tranne te forse, bamboccio.~
+@189  = ~Fortuna, destino, possibilità... È una fede interessante, quella di Tymora. E ha un punto a suo favore: se riesce a far risorgere il bambino, perché no?~
+//893
+@190  = ~Non è molto, uh, carino pretendere le cose che vuoi dagli altri, <CHARNAME>.~
+@191  = ~Signore, siete per caso Volo, il famoso bardo?~
+@192  = ~Sono proprio io, giovanotto. Se non un bardo, almeno un venditore ambulante di storie. E chi, per favore dimmi, sei tu? Dubito che la mia fama si sia diffusa abbastanza che chiunque abbia sentito parlare di me, e non fraintendetemi, questo è qualcosa di cui sono grato; avrei ragione nel pensare che anche tu hai l'anima del narratore?~
+@193  = ~Mi chiamo Garrick, signore, e in effetti mi definirei una specie di bardo. Beh, immagino che stia ancora imparando... È un onore conoscerla! Per favore, ci regali uno dei suoi famosi racconti!~
+//197
+@194  = ~Sembra un'infanzia movimentata!~
+@195  = ~Sono... contento che tu sia così diverso da Sarevok, <CHARNAME>. Odio che tu ci tratti come Sarevok tratta i suoi alleati... Andiamo avanti, io... mi sento male.~
+		~Sono... contento che tu sia così diversa da Sarevok, <CHARNAME>. Non potrei sopportare che ci trattassi come Sarevok tratta i suoi alleati... Andiamo avanti, io... credo di sentirmi male.~
+//907-912-913-933
+@196  = ~Che cosa, beh, deprimente.~
+@197  = ~Wow!~
+@198  = ~Esatto, amico mio. Che ne dici?~
+@199  = ~Grazie!~
+@214  = ~Non ti serviranno!~
+@217  = ~Ah, si è già occupato di quei mostri di carne.~
+//45
+@220  = ~Addio.~
+//0-505-584
+@1001 = ~Per favore, fallo!~
+@1002 = ~Buona fortuna!~
+@1003 = ~MUORI!~
+@1004 = ~Da questa parte, per favore!~
+@1005 = ~Astuto, non è vero?~
+@1006 = ~Alzati!~
+@1007 = ~Voglio solo liberarmene... per favore!~
+//759
+@1008 = ~Ti avverto, non avvicinarti! È posseduto!~
+@1009 = ~Certamente. Addio.~
+@1010 = ~Per il povero Brage, è stato "bello" quanto avrebbe potuto esserlo.~
+@1011 = ~Come ha rubato il mio. Addio...~
+@1012 = ~Taugoz ti guarda.~
+

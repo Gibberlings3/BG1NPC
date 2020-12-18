@@ -1,0 +1,75 @@
+//Theodon 6-7
+@0    = ~Devo dire che questa è la storia più stimolante che ho sentito su <CHARNAME> fino ad oggi.~
+@1    = ~Sì, piccolo...~
+//Priilmu
+@2    = ~Prilly! Sei davvero tu?~
+@3    = ~Eh? Che diamine? Che cosa? Eldoth! Ragazzo mio, ragazzo mio. È passato un po' di tempo, non è vero?~
+@4    = ~Ma... tu... qui? Stavi per conquistare i salotti di Waterdeep, l'ultima volta che ti ho visto.~
+@5    = ~È così. L'ho fatto, per un po'. Ma il Bastone Nero è un uomo crudele e con cui è meglio non scontrarsi. Quindi, sono proprio contento di poter essere qui ora.~
+@6    = ~Ah! Avrei dovuto immaginarlo! Eppure, ho sempre pensato che i sacerdoti fossero tipi schivi. Sono lieto di saperlo ora, per certo.~
+@7    = ~Oh, non è solo una maschera, ragazzo. La mia sofferenza è sufficientemente reale.~
+@8    = ~Così dev'essere, altrimenti saresti diventato un accolito della Dama Chiomadifuoco, che, se ricordo bene, è sempre stata la tua vera devozione.~
+@9    = ~Sune, eh? Ebbene, non nego che conosca ancora alcuni... praticanti pratici delle arti della Dama. Vedi, c'è questo posto che chiamano le Cantine, e...~
+@10   = ~Ehm! Penso che queste reminiscenze siano durate *abbastanza* a lungo. Abbiamo una missione da portare a termine.~
+@11   = ~Le Cantine? È lì che dobbiamo andare! Subito!~
+@12   = ~Ci siamo stati. La caratteristica più interessante del posto è stata la coppia di assassini che vi abbiamo ucciso.~
+@13   = ~Oooh, un vero giovane fannullone, non è vero? Bene, allora, andatevene, e spero che apprezzerai la tua dose di sofferenza, quando ti troverà.~
+@14   = ~Nessuna paura, o mentore della mia giovinezza. <CHARNAME> è ben fermentato in quella bevanda. E... ehm... saprebbe anche prolungare l'agonia.~
+//Bentley
+@15   = ~Salute viaggiatori, cosa posso fare per... TU!!! Guardie! GUARDIE!!!~
+@16   = ~Non c'è "bisogno". È un grandissimo piacere!~
+@17   = ~Uh... qualcuno vuole dirmi cosa sta succedendo?~
+@18   = ~Questo... vagabondo!... si è offerto di "cantare per la sua cena". Abbiamo poco intrattenimento qui, quindi ho pensato che ne valesse la pena. AH! Alla seconda canzone di dubbio gusto, avevo la locanda in rivolta! Mi ci sono volute due settimane per riparare tutti i danni.~
+@19   = ~Incluse le tre bottiglie con cui sei scappato quando sono iniziati i guai.~
+@20   = ~Mmpf!~
+@21   = ~Sei tornato? Dì quello che vuoi e non farmi perdere tempo!~
+//Priilmu
+@22   = ~Non sei tu la giovane e ardente creatura, quindi?~
+@23   = ~No, no. I nostri nemici hanno fissato un appuntamento lì. Dobbiamo prenderli!~
+@24   = ~Ah! Imparerai col tempo, se te ne sarà concesso a sufficienza, di chi fidarti. Ed il giovane Eldoth, qui, sarebbe un ottimo insegnante.~
+@25   = ~Certo, certo. Una delle ragazze sarà un drago verde mascherato, vero? Scommetto che è quel nuovo usignolo, Mistie, che tutti... no? Bene, ti mostrerò un... ingresso... privato. Ma cerca di non distruggere completamente il posto, eh? Si soffre in modo davvero sublime da quelle parti!~
+@26   = ~Trovati la cinghia giusta e io *ti* istruirò. *sospira* Ovviamente, alla mia età, dovrai usare anche parecchia immaginazione...~
+@27   = ~Ah, siete tornati. Vi interessa la gitarella, allora?~
+@28   = ~Sì, penso che dovremmo andarci.~
+@29   = ~Uh... no. Dimentica di avermi visto.~
+@30   = ~Ah, una dolce serata corona il giorno più caldo. Da questa parte.~
+//Bentley
+@31   = ~Ora, ora, buon signore. Non c'è bisogno di sconvolgere la tua casa a causa mia.~
+@32   = ~Non avresti dovuto fornire così tanto... e così eccellente... vino con il pasto, allora, buon signore.~
+@33   = ~Ma quello era allora, questo è adesso. Sono... ahimè... perfettamente sobrio e lo rimarrò sotto il tuo tetto, oserei dire. Noterai anche che mi piace la stimabile... e capace... compagnia di <CHARNAME> in questa visita. Quindi potremmo partecipare alle tue offerte, per favore?~
+//Priilmu
+@34   = ~O, Prilly, Prilly...~
+@35   = ~Della città di Wenroth la trama
+È incendiata dal sole al crepuscolo.
+Andiamo al lago, mia amata dama
+Per vedere il tempo diventare minuscolo.~
+@36   = ~Stai citando quel vecchio caprone? Mi sembra un'altra scusa per convincere le sue donnine a uscire la sera.~
+@37   = ~Ancora con quel vecchio imbroglione? A proposito, non sei stato terribilmente generoso con lui con i *nostri* soldi?~
+@38   = ~Ssshh!~
+@39   = ~Nessuna paura, o mentore della mia giovinezza. Saremo discreti. E... ehm... qualcosa per prolungare la tua agonia.~
+@40   = ~Ah! Se avessi imparato solo un decimo delle tue lezioni, sarei davvero un maestro! Oh... e qualcosina per prolungare la tua agonia.~
+@41   = ~Sì, davvero. Così tanti approcci - così poche, così poche donne degne del loro uso.~
+@42   = ~Io... beh... Dannazione! Era un brav'uomo... un *grande* poeta. Non sopporto il pensiero che debba far bollire il suo perizoma per fare il brodo con i pidocchi che lo infestano.~
+//Gilda dei Ladri
+@43   = ~Ah, il dolce odore di guadagni illeciti. Mi chiedo se qualcuno stia mentendo al riguardo?~
+//Tempio di Tymora
+@44   = ~Cerchiamo di essere veloci, <CHARNAME>. Non mi piace questo distretto.~
+@45   = ~Davvero? Avrei pensato che tu, tra tutte le persone, ti saresti sentito come a casa qui.~
+@46   = ~Allora sono lieto di salvarti dal tuo errore. La Dama non mi ha mai visto di buon occhio. Questo spiega i miei gusti e le mie tattiche conservatrici, vedi.~
+//Libreria di Candlekeep
+@47   = ~<CHARNAME>, ti devo delle scuse. Quello che avevo scambiato per una serie noiosa, era solo il residuo di questo mausoleo ricoperto di polvere.~
+@48   = ~È tranquillo, lo ammetto, ma non così male. Non ci si può aspettare che persone devote allo studio e alla filosofia suonino come al Carnevale di Waterdeep, sai.~
+@49   = ~Non chiedo tanto... ma l'apprendimento dovrebbe avere uno scopo, non essere fine a sé stesso. Dopo un'infanzia qui, dove la conoscenza si annida e poi muore, sono stupito della tua sopravvivenza alla vita sulla strada.~
+//Nave Baldur
+@50   = ~Sai, <CHARNAME>, sono stato a bordo di più di qualche nave, ma mai una con queste dotazioni. Mi chiedo, quando tutto questo sarà finito, se potremmo noleggiarla per una tranquilla crociera celebrativa.~
+@51   = ~Se deve essere tranquilla, perché allontanarsi dal molo? Questa tinozza non sembra particolarmente solida all'attacco di pesci volanti.~
+@52   = ~Con "tranquilla" intendevo che non dovrebbe essere udibile dalla terraferma per almeno cinque leghe in mare aperto. E con un adeguato successo da parte nostra, opportunamente pubblicizzato... sarebbe un punto d'onore per molti di questi splendidi cittadini, poter partecipare.~
+@53   = ~Lascia perdere! Quando avremo finito, scaverò una buca, ci entrerò e diventerò un ravanello. Sicuramente NON ho intenzione di sponsorizzare la tua spoliazione di massa dei nobili più ricchi e più facoltosi di Baldur's Gate.~
+@54   = ~Ah! Ah! Spero che le tue ambizioni tuberose vadano a vuoto; l'arguzia non ti manca. Un bottino veloce sarebbe di cattivo gusto... e renderebbe ancora più difficile eludere la punizione. Tuttavia, una solida percentuale su un'attività più … permanente, potrebbe interessarti maggiormente?~
+@55   = ~Prima ve ne andrete, meglio sarà.~
+@56   = ~Luskan è il posto giusto per vagabondi come voi. Perché non ci andate?~
+@57   = ~Si dice che Westgate sia adorabile in questo periodo dell'anno. Perché non vai lì - o altrove - e controlli di persona?~
+@58   = ~Quello che offri non vale quello che toglieresti, e ancor meno i danni che provocherebbe.~
+@59   = ~Vattene!~
+@60   = ~SPARISCI!!!~
+

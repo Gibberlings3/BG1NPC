@@ -1,0 +1,181 @@
+@0    = ~Destino o no, come dici tu, perché dovremmo preoccuparcene?~
+//ict3 453
+@1    = ~Un altro pazzo liberato. Oh, <CHARNAME>, non puoi proprio fare a meno di fare l'eroe.~
+@2    = ~Ah! La breve durata della vita umana è di per sé una malattia devastante!~
+//556
+@3    = ~Allora non avresti neanche dovuto lasciarci entrare! Muori, rivvil!~
+@4    = ~Non vale nemmeno il tempo sprecato per ucciderlo, <CHARNAME>. Andiamo via.~
+@5    = ~E ti consideri 'colto', iblith? Non farmi ridere.~
+//507-508-455
+@6    = ~Oh, fai silenzio. Ho incontrato coboldi più "illuminati" di te.~
+@7    = ~Che cosa? Chi osa sfidare la mia legge! Spiegatevi!~
+@8    = ~E la magia malvagia prospera contro le volontà deboli; cosa di cui voi umani non mancate.~
+@9    = ~Risparmiaci il melodramma, perché non te ne vai a piangere in un angolo da qualche parte...~
+//261
+@10   = ~Gongola ora, iblith, ma presto ti strapperò quelle labbra sorridenti dalla faccia!~
+@11   = ~Nel Sottosuolo, i bambini drow cacciano quotidianamente cose ben peggiori degli ogre magi... Vieni, <CHARNAME>, non c'è nulla da temere qui.~
+@12   = ~Un tipico esempio di intelligenza di superficie. Davvero buffo.~
+@13   = ~Te lo dico gratis, hobgoblin. Nel mondo dei veri civilizzati, l'umanità è lontana dalla cima... come la tua gente del resto.~
+//67-68-69-281-87
+@14   = ~<CHARNAME>, se facessimo commissioni per ogni vecchia signora lungo la strada, finirei per morire anch'io di vecchiaia e avendo compiuto nient'altro che compiti adatti a degli schiavi!~
+@15   = ~Non hai un cuore, strega dalla pelle scura? È mio figlio quello intrappolato lassù!~
+@16   = ~Oh sì, ho un cuore. Ma batte solo per me, e certamente non per quelli troppo deboli per prendersi cura di sé stessi. Andiamo, <CHARNAME>, non desidero più parlare con questa disgraziata.~
+@17   = ~Mmpf... Almeno il rivvil aveva del denaro, per quanto non fosse abbastanza per compensare lo spreco di tempo.~
+@18   = ~Ah, guarda. Altra tipica feccia di superficie con cui giocare. È una fatica ascoltare le loro lingue ottuse.~
+@19   = ~In effetti, c'è poco che puoi fare per aiutarci, ma assicurati che ogni nemico incontri quelle quattro braccia forti prima che le loro armi raggiungano me.~
+//368-369-370-320
+@20   = ~Un compito veramente sgradevole.~
+@21   = ~Mi dispiace molto, signora oscura, se lo trovi moralmente disc-~
+@22   = ~Moralmente discutibile, avevi intenzione di dire? Per i Nove Inferi, no. Semplicemente disprezzo il fetore delle vostre fogne più di quanto disprezzi quello delle vostre città.~
+@23   = ~<CHARNAME>, perché dobbiamo fermarci e parlare con ogni pezzo di sporcizia che incontriamo per strada?~
+@24   = ~Finalmente, uno di superficie che è d'accordo con me.~
+@25   = ~Superato numericamente, ma guardando lo stato in cui ti trovi, sicuramente non surclassato.~
+@26   = ~Questo sembra ancora più fuori dal mondo del resto della tua pietosa razza.~
+//585-586-311-312-598-599
+@27   = ~Non credo proprio, disgraziato. Vattene! A meno che <CHARNAME> non abbia pietà di te.~
+@28   = ~Per favore, <PRO_SIRMAAM> <CHARNAME>, abbiate pietà...~
+@29   = ~Bah! Indubbiamente, nulla qui potrebbe essere paragonato alle meraviglie dell'artigianato drow.~
+@30   = ~Forse, signora, ma chi ha mai visto una città drow ed è poi sopravvissuto per raccontarne la storia? Nessuno che io conosca, questo è sicuro! Ed è caldo all'interno, quindi non è necessario restare avvolta nel mantello in quel modo contro il freddo.~
+@31   = ~Grazie per il suggerimento, piccoletto. Penso che mi farebbe molto piacere far visita a questo Phandalyn, <CHARNAME>. Forse per insegnargli la futilità della sua vita?~
+@32   = ~Yikes, una drow, se mai ne ho vista una! Non c'è da stupirsi che Phandalyn stia ansimando e sbuffando di furia giustizialista e tutto il resto.~
+@33   = ~Bah... abbiamo la possibilità di fare tutto ciò che desideriamo! Per qualche ragione ci troviamo ad aiutare questi rivvil; eppure, continuano a lanciare accuse contro di noi!~
+@34   = ~Stai indietro e ascolta, <CHARNAME>. Sento che questo probabilmente fornirà ampie prove del perché detesto così tanto gli iblith di superficie.~
+@35   = ~E tale è la natura della perdita. Questi sono gli insegnamenti di Shar, anche se questo ottuso è senza dubbio troppo sciocco per capirli.~
+@36   = ~C'è un fondo di verità in questa affermazione, anche se persa in un pantano di stupidità.~
+@37   = ~Dobbiamo sopportare questi vaneggiamenti? Io dico: uccidiamolo e facciamola finita!~
+//
+@38   = ~Pff...~
+@39   = ~La somma è buona e, a giudicare dallo stato mentale di questa persona, sicuramente il compito che richiede non potrà essere troppo oneroso. Io dico di ascoltare.~
+@40   = ~Oppure, è oneroso e molto difficoltoso, signora, per una persona normale come me. Ma sicuramente per dei grandi avventurieri non è niente di che.~
+@41   = ~Esattamente il tipo di racconto che mi aspetterei tirasse fuori un nemico sotto mentite spoglie. Fai attenzione, <CHARNAME>.~
+//145
+@42   = ~La vita è crudele con i deboli, fattene una ragione.~
+@43   = ~Mi sembra che presto gli verrà presentato il conto... <CHARNAME>?~
+//615-459-460-133-215
+@44   = ~Mmm. La Regina dei Ragni ha dei servi anche qui? Attenzione, <CHARNAME>, perché se così fosse, quei ragni potrebbero essere davvero letali.~
+@45   = ~Alberi sotterranei? Ah! Qualsiasi sciocco avrebbe potuto pensare a una bugia migliore di questa, iblith.~
+@46   = ~Uhm... No, davvero, è un campo di studi poco conosciuto... è stato tenuto per lo più segretissimo per, ah, scopi di conservazione.~
+@47   = ~È tutto merito della magia; poiché so che nessuna creatura in natura è più bella dei drow. Non ho scrupoli a eliminare queste creature, anche se non vedo perché dovremmo fare lo sforzo. Comunque, come al solito, sospetto che le nostre azioni non saranno interamente una mia decisione...~
+@48   = ~Per Shar!~
+@49   = ~Io... un'accoglienza interessante. Un potente mago potrebbe dare ricompense altrettanto potenti, <CHARNAME>.~
+@50   = ~Bah! Anche se mi piacerebbe distruggere il Pugno Fiammante e tutto ciò che ha a che fare con esso, temo che dovremo rispettare questo rivvil.~
+//322
+@51   = ~Pietosi damerini, vestiti di rosso, non mi spaventano!~
+@52   = ~Ah, finalmente sottoterra. Penso che mi piacerà questo posto.~
+@53   = ~Povera? Impertinente? Che cosa?!? <CHARNAME>, dobbiamo insegnare a questi pazzi una lezione!~
+@54   = ~E scene come questa, <CHARNAME>, sono il motivo per cui penso che gli esseri di superficie siano deboli.~
+@55   = ~Un altro goffo babbeo che incontrerà rapidamente la sua fine!~
+//642-643
+@56   = ~Non lasciarti ammaliare da quest'essere, <CHARNAME>. Sparisci, spirito! Non abbiamo tempo per te!~
+@57   = ~Oh, per favore, sono in pericolo e ho bisogno dell'aiuto di coraggiosi avventurieri come voi!~
+@58   = ~Ah! Questo mi piace.~
+//670-671
+@59   = ~Guarda, un altro bastardo che viene a morirci tra le braccia. Seguire le vie di tuo padre ti è reso molto più facile dal numero di pazzi che si lanciano contro di noi.~
+@60   = ~Una drow viaggia con te? Hai trovato alleati in luoghi più oscuri di quanto potessi immaginare...~
+@61   = ~Almeno, quest'essere di superficie conosce la realtà del mondo.~
+//478
+@62   = ~Una strana scelta di libri; la mia ipotesi è che neppure il vecchio pazzo non ne sopportasse la lettura.~
+@63   = ~Sicuramente non sarebbe troppo difficile per noi sbarazzarci del vecchio pazzo, se il prezzo fosse giusto...~
+@64   = ~A me sembra una ragione abbastanza buona per la tortura. Se non riesci a respingere un po' di coboldi da solo, perché presumi che ci prenderemo la briga di aiutarti?~
+@65   = ~Tu... demonio dal cuore nero!~
+@66   = ~Non mi interessano i sentimenti del tuo insignificante signorotto di superficie. Cammino dove desidero.~
+@67   = ~Gah! Farabutti e canaglie! Non avete alcun apprezzamento per quanta fatica può richiedere un giardino?!~
+@68   = ~E così il debole cade sempre, alla fine.~
+@69   = ~Se ve ne andate *ora*, allora qualcuno di voi potrebbe avere la fortuna di rimanere un uomo!~
+@70   = ~Nessuna donna minaccia i Picchiatori di Sottomonte! Carica!~
+//710-711-734
+@71   = ~Se è riuscito a far legare la creatura a lui, lascia che la mantenga schiava.~
+@72   = ~Tu! Ragioni come un uomo!~
+@73   = ~Sii cauto, perché Umberlee è una divinità capricciosa e malvagia - molto simile a Lloth. Non mi aspetterei niente di meno dai suoi seguaci.~
+@74   = ~Due anni? Bah, un semplice battito di ciglia. E presto i tuoi occhi non sbatteranno più.~
+@75   = ~Molto sfacciato, per un debole.~
+//755-756
+@76   = ~Ci insulti, cucciolo, eppure non dureresti un'ora nel Sottosuolo!~
+@77   = ~Ah! Questa dovete proprio sentirla, ragazzi! La tipa dalla pelle scura crede davvero nel Sottosuolo!~
+@78   = ~Pazzia? Questo potrebbe rivelarsi persino divertente. Stiamo a vedere.~
+@79   = ~E così un'altra sciocca iblith incontra il suo destino!~
+//848-849
+@80   = ~Pezzenti mangiasoldi! Aiutare gli schiavi ci farà rallentare, una cosa di cui non vedo la necessità.~
+@81   = ~Per favore, <PRO_SIRMAAM>... Questa è la nostra migliore possibilità di libertà, abbiamo solo bisogno del tuo aiuto!~
+@82   = ~Sembra una trappola - dopotutto non dobbiamo nulla a questa donna. Ignora le sue suppliche.~
+@83   = ~Uno stratagemma ovvio; Sono sorpresa che ne stiano ancora discutendo.~
+//760-761-408-409
+@84   = ~Non preoccuparti, <CHARNAME>. Shar mi svelerà il segreto per dissipare questa maledizione.~
+@85   = ~Temo di no, drow. Il veleno è stato schermato per garantire che nessuna magia potesse agire contro di esso... Il Trono di Ferro vi vuole davvero morti.~
+@86   = ~Un semplice bambino, appena uscito dalla culla.~
+@87   = ~Banalizzare la mia abilità in questo modo dimostra che sei tu l'ignorante, drow.~
+@88   = ~Quali bizzarri animali abitano la superficie!~
+//509-797-798-803-496
+@89   = ~La compassione è una debolezza. Uccidilo, <CHARNAME>.~
+@90   = ~Il baccano può essere effettivamente esasperante.~
+@91   = ~Esattamente quello che penso io. Sto facendo un servizio a questa città, davvero.~
+@92   = ~Morirai, iblith.~
+@93   = ~Ugh. Altre mansioni da fattorino. Non ce ne facciamo scappare nemmeno una?~
+@94   = ~Valuto il mio tempo ben più prezioso.~
+@95   = ~Bene, ne ho abbastanza. Addio e grazie a tutti, anche se i miei ringraziamenti sembrano inadeguati rivolti a *voi*.~
+@96   = ~Pozioni di infravisione! Oh, mi sono veramente utili!~
+@97   = ~Risparmiami il sarcasmo, per la maggior parte delle persone lo sono davvero! È miracoloso vedere nell'oscurità. Addio e grazie a tutti, anche se i miei ringraziamenti sembrano inadeguati rivolti a *voi*.~
+@98   = ~Sono completamente d'accordo. Iblith ipocrita... peggio dei maiali.~
+@99   = ~Suona come uno qualsiasi di quei rozzi contadini che girano da queste parti.~
+@100  = ~Stupida ragazza. Te l'ho detto, con la testa di un cane.~
+@101  = ~Penso che inizieremo minacciandoti!~
+@102  = ~Ben detto.~
+@103  = ~È la scultura di un darthiir! Che orrore.~
+@104  = ~Sei già vecchio.~
+//832-511-862
+@105  = ~Il rapimento di una ninfa non dovrebbe essere al di fuori delle nostre capacità; soprattutto non con della magia come ricompensa.~
+@106  = ~Questo si può sicuramente organizzare.~
+@107  = ~Preferirei non farmi vedere nel comando del Pugno Fiammante, <CHARNAME>.~
+@108  = ~Con solo un gesto magico potrei scuoiarti la pelle dalle ossa, bambina. Ti ritieni abbastanza veloce per sfuggire a *questo*?~
+@109  = ~Eek.~
+@110  = ~Non dubito che il tuo bestiame abbia familiarità con il tuo "odore", contadino. Mi fai ribrezzo.~
+@111  = ~Bah, non fareste così gli sbruffoni senza tutte quelle armi! Avidi avventurieri.~
+@112  = ~Oh, smettila di lamentarti, prima che ti tagli la lingua.~
+@113  = ~Non proprio, no. Il pazzo non poteva difendersi. Penso che ci troverai più che all'altezza del compito, rivvin.~
+@114  = ~Sei stato liberato; un certo disorientamento è normale.~
+@115  = ~Puoi considerare le mie parole inusuali, <CHARNAME>, ma... odierei essere pietrificata. Una statua vivente! Sono solidale con questa donna.~
+@116  = ~Misterioso davvero. Suppongo che dobbiamo andare da Eltan, quindi, anche se significa gettarsi tra le braccia di quei dannati del Pugno Fiammante. Ugh.~
+//872
+@117  = ~Crisi del ferro o no, il tuo viso ripugnante era già probabilmente più che sufficiente a rompere lo specchio.~
+@118  = ~Sono una drow. Questo non dice già abbastanza sulle mie capacità?~
+@119  = ~Ah! Solo una di voi è drow, il resto sembra un concentrato di debolezza!~
+//877
+@120  = ~Certo, ma tu feccia non avrai né l'uno né l'altro.~
+@121  = ~Questo è quello che succede quando razze minori cercano di sperimentare con la magia.~
+@122  = ~Non razze minori, ma sicuramente meno intelligenti! Anche se, si spera, questo avrà insegnato loro una lezione.~
+@123  = ~Candlekeep? Che gioia, altro trekking senza scopo attraverso le campagne, quindi.~
+@124  = ~Per favore, lasciami andare!~
+//74
+@125  = ~Davvero sciocco. La morte del debole deve essere incoraggiata non impedita; questa selezione naturale è ciò che ha reso la mia gente così superiore.~
+@126  = ~Un errore stupido.~
+@127  = ~Sì, ma vedrò di insegnarli la lezione, se potrò farlo crescere. Ecco perché ho bisogno del tuo aiuto.~
+//812
+@128  = ~Il Pugno! Ancora!~
+@129  = ~Sarà un piacere.~
+//192
+@130  = ~Commovente.~
+@131  = ~Hai scelto la progenie di Bhaal sbagliata con cui allearti, rivvil.~
+@132  = ~Preferirei lunga e dolorosa... per te.~
+//908-909-914
+@133  = ~Guarda l'elfo di superficie avvizzire sottoterra! Ah! Almeno l'iblith sembra rendersi conto della follia della sua vita.~
+@134  = ~Una... drow! Devo essere sicuramente morto.~
+@135  = ~Forse dovremmo. Sebbene tale misericordia sia... poco frequente da parte mia, la pietrificazione è un destino terribile.~
+@136  = ~Sembra che essere morto non abbia oscurato le sue facoltà.~
+@137  = ~Grazie!~
+@138  = ~Prima tu!~
+@1001 = ~Non aiuta.~
+@1002 = ~Non dire che non sei stato avvertito.~
+@1003 = ~Le difficoltà che una deve sopportare!~
+@1004 = ~Ucciderò anche te!~
+@1005 = ~Noooo!~
+@1006 = ~Non ho paura di te!~
+@1007 = ~La mia fede mi protegge!~
+@1008 = ~Helm mi proteggerà da persone come te!~
+@1009 = ~Vai ora. Ne parleremo dopo.~
+
+@143  = ~Lei non ti può aiutare ora!~
+@144  = ~Lo vedremo!~
+@145  = ~Sarà la tua fine, penso!~
+@146  = ~Prendilo, bambina.~
+@150  = ~Ursa ci protegge!~
+@152  = ~Ha!~

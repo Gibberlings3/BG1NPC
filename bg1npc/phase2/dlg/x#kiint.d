@@ -387,8 +387,8 @@ END
 /* Kivan - montaron killed Ender */
 IF WEIGHT #-2 ~%BGT_VAR% Global("P#KivanMontEnder","GLOBAL",1)~ THEN BEGIN X#KiMoEnderstart
 SAY @108
-++ @109 EXTERN ~%MONTARON_JOINED%~ X#MontEnderKicked1
-++ @110 + KiMoEnder1
+++ @109 DO ~SetGlobal("P#KivanMontEnder","GLOBAL",2)~ EXTERN ~%MONTARON_JOINED%~ X#MontEnderKicked1
+++ @110 DO ~SetGlobal("P#KivanMontEnder","GLOBAL",2)~ + KiMoEnder1
 END
 
 IF ~~ KiMoEnder1

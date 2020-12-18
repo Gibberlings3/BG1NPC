@@ -1,0 +1,195 @@
+@9   = ~Uno scudo medio si porta nello stesso modo di uno scudo piccolo. Tuttavia, al contrario di quanto avviene con quest'ultimo, il suo peso non consente al personaggio di utilizzare la mano che lo sostiene per nessun altro scopo. Gli scudi medi sono in genere realizzati in metallo, con un diametro dai 90 ai 120 centimetri, e possono avere qualsiasi forma, dalla rotonda alla quadrata, a quella delle ali spiegate di un drago. Il tipico scudo medievale assomiglia ad un triangolo con uno dei vertici rivolto verso il basso.
+
+Questo particolare scudo porta lo stemma della nobile famiglia Ilvastarr di Waterdeep: un drago verde metallico con occhi arancioni su un campo dorato.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +1, +2 contro attacchi con armi da lancio
+
+Peso: 7~
+
+@76   = ~Una delle prime armi ad essere creata e risalente a tempi antichissimi, in origine le lance erano semplici aste di legno o pali appuntiti ad un'estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i fabbri iniziarono a sperimentare nuovi tipi di punte per le lance, sviluppando in tal modo nuovi esemplari di armi inastate.
+
+STATISTICHE:
+
+Danno: 1d6
+Tipo di Danno: Perforante
+Fattore-velocità: 6
+Tipo di Competenza: Lancia
+Tipo: A due mani
+
+Peso: 5~
+@77   = ~Questa è una lancia corta dall'aspetto semplice con una punta a forma di foglia. È stata bilanciata per la snella mano di un elfo. Il mago Thalantyr ha incantato quest'arma per Kivan di Shilmista.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- 10% di probabilità ad ogni colpo che l'avversario rimanga intralciato per 2 round (Tiro-Salvezza Soffio nega)
+
+THAC0: +2 
+Danno: 1d6+2
+Tipo di Danno:  Perforante
+Fattore-velocità: 4
+Tipo di Competenza: Lancia
+Tipo:  A due mani
+
+Richiede: 
+ Forza 5
+
+Peso: 3~
+@79   = ~Lo scudo grande, conosciuto anche come l'aquilone o scudo a torre, è un enorme scudo di metallo o di legno la cui altezza va all'incirca dai piedi al mento di chi lo usa. Deve essere legato saldamente all'avambraccio. La mano che impugna lo scudo deve inoltre tenerlo con fermezza tutto il tempo. Ovviamente, questo preclude l'utilizzo di tale mano per qualsiasi cosa diversa dal mantenere lo scudo grande al suo posto.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +1, +2 contro attacchi con armi da lancio
+
+Richiede:
+ Forza 15
+
+Peso: 15~
+@80   = ~Questo scudo grande è ricavato da una rara quercia bianca, che possiede tutta la forza ma non il peso di una quercia normale. La nobile resistenza del suo legno sembra riflettersi sul portatore. E' stato creato dai druidi, e il legame che assicura questo scudo al braccio dell'eroe si dissolverà magicamente, se utilizzato da una mano che non persegue l'Equilibrio.
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +1, +2 contro attacchi con armi da lancio
+- Costituzione +1
+
+Peso: 5~
+@174  = ~Questa cotta di maglia bardica ha un passato illustre, essendo stata l'armatura del noto bardo mezzelfo Myr'Cutio. Vagò per i Reami in cerca di avventura, e la sua natura fu così irrequieta che alla sua morte il suo spirito, e quelli dei suoi compagni, continuarono a vagare …...
+
+… Fino a quando non sono stati messi a riposo dalla compagnia di <CHARNAME>, almeno. Gli avventurieri tendono a non rispettare le figure degne di nota del passato. Tuttavia, l'armatura è tua: leggera, lucida ed elegante. Cosa potrebbe sperare di più un aspirante bardo?
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: 4 (2 contro danno tagliente, 6 contro danno contundente)
+- Il lancio degli incantesimi non viene disattivato
+
+Richiede: 
+ Forza 8
+
+Peso: 20~
+@175  = ~Questa cotta di maglia bardica ha un passato illustre, essendo stata l'armatura del noto bardo mezzelfo Myr'Cutio. Vagò per i Reami in cerca di avventura, e la sua natura fu così irrequieta che alla sua morte il suo spirito, e quelli dei suoi compagni, continuarono a vagare …
+
+… Fino a quando non sono stati messi a riposo dalla compagnia di <CHARNAME>, almeno. Gli avventurieri tendono a non rispettare le figure degne di nota del passato. Tuttavia, l'armatura è tua: leggera, lucida ed elegante. Cosa potrebbe sperare di più un aspirante bardo?
+
+Questa armatura è stata poi ulteriormente migliorata da Halbazzer Drin del negozio Chincaglierie Magiche di Baldur's Gate. La combinazione con un paio di Pantaloni Dorati ha offerto una maggiore protezione, mantenendo l'armatura più alla moda che mai.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: 3 (1 contro danno tagliente, 5 contro danno contundente)
+- Il lancio degli incantesimi non viene disattivato
+
+Richiede:
+ Forza 7
+
+Peso: 15~
+@224  = ~Questa è una collana dall'aspetto piuttosto pacchiano decorata con alcune grandi pietre preziose. Una piccola iscrizione in elfico sulla chiusura della collana dice che l'oggetto è stato creato da Nadyala la Verde come sua tesi per raggiungere lo status di Maga nella Scuola di Magia di Ulcaster. La collana irradia una forte energia magica, ma come qualsiasi progetto di laurea sembra non essere del tutto completa. Hai il forte sospetto che Nadyala possa averla indossata per il suo esame finale.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Il portatore può memorizzare un incantesimo arcano addizionale di ogni livello, dal 1° al 3°.
+
+Peso: 1~
+@227  = ~Questo piccolo anello in oro rosso è stato indossato da una succube ed è sempre caldo al tatto. Chi indossa questo anello sente costantemente i suoni dei Piani Abissali: una cacofonia dei lamenti dei tormentati e delle maledizioni dei signori dei demoni. Ovviamente, la persona che indossa l'anello deve essere resistente a queste cose o magari trovarci divertimento.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- +2 Carisma
+
+Abilità attivabili:
+- Charme Estremo una volta al giorno
+
+Peso: 0~
+@250  = ~Questo arco lungo è stato regalato a Kivan da sua moglie Deheriana come regalo di nozze.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +1
+
+THAC0: +1
+Fattore-velocità: 1
+Tipo di Competenza: Arco Lungo
+Tipo: A due mani
+Richiede:
+ Forza 6
+
+Peso: 2~
+@315  = ~Incantato col sangue di una driade assassinata, questo anello protegge chi lo indossa da incantesimi ed effetti di Charme. Inoltre, consente a chi lo indossa di lanciare Charmare Persone una volta al giorno. Tuttavia, il sangue della creatura uccisa, agitato forse dalla sua anima consacrata, si contorce in visibile agonia sotto la superficie del metallo, rendendolo così ripugnante che i buoni individui non possono sopportare di indossarlo.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Immunità a Charmare Persone
+
+Abilità attivabili:
+- Charmare Persone una volta al giorno
+
+Peso: 0~
+@361  = ~La maggior parte delle clave sono bastoni dal legno robusto e resistente, stretti all'altezza dell'impugnatura e più larghi all'altra estremità. Queste semplici armi vengono utilizzate da quando le razze dei Reami iniziarono a servirsi di strumenti. Chiunque può trovare un buon pezzo di legno e agitarlo, da qui, l'ampia diffusione della clava.
+
+STATISTICHE:
+
+Danno: 1d6
+Tipo di Danno: Contundente
+Fattore-velocità: 4
+Tipo di Competenza: Clava
+Tipo: A una mano
+
+Peso: 3~
+@362  = ~Questa clava incantata è stata raccolta dal cadavere di un Druido dell'Ombra e donata a <CARNAME> da Seniyad, l'Arcidruido del Bosco Ammantato. Sebbene le origini di questa arma ingannevolmente semplice, ma sorprendentemente mortale siano sconosciute, il suo nome e la sua connessione con l'elemento del fulmine indicano fortemente il culto di Talos. Nonostante le forze potenzialmente malvagie utilizzate nella sua creazione, gli incantesimi di identificazione non rilevano energie malevole contenute all'interno di quest'arma, pertanto è perfettamente sicura da usare per chiunque segua i codici druidici.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Restistenza all'Elettricità: +20%
+
+Abilità attivabili:
+- Invocare il Fulmine una volta al giorno
+
+THAC0: +2
+Danno: 1d6+2
+Tipo di Danno: Contundente
+Fattore-velocità: 4
+Tipo di Competenza: Clava
+Tipo: A una mano
+
+Peso: 3~
+@379  = ~La punta di questa lancia è ornata da rune che ritraggono le forze infuocate della natura. La leggenda narra che la lancia fu creata da un potente Arcidruido di Norland nelle Isole Moonshae per salvare la terra e il suo possessore in periodi di inverno e freddo pungente. Si rivelò anche una potente arma contro i giganti del gelo dei Monti Jotunhammer.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistenza al Fuoco: +20%
+
+Abilità in combattimento:
+- 50% di possibilità +1 danno da fuoco
+
+Abilità attivabili:
+- Scudo di Fuoco (Rosso) una volta al giorno
+
+THAC0: +1
+Danno: 1d6+1 (perforante)
+Fattore-velocità: 5
+Tipo di Competenza: Lancia
+Tipo: A due mani
+
+Richiede:
+Forza 5
+
+Peso: 4~
+ @630  = ~Amuleto di Winski Perorate
+
+Il lavoro di Winski Perorate con le regioni inferiori degli inferi lo metteva spesso in prossimità di esseri a cui non sarebbe dispiaciuto che Winski indossasse la sua pelle al rovescio. Per rendere questa possibilità meno probabile, Winski commissionò a un Nabassu di costruire un amuleto che avrebbe scacciato le creature malvagie abbastanza a lungo da ottenerne il loro controllo. Sfortunatamente, Winski ha avuto un lapsus momentaneo a causa di un grave infortunio e ha dimenticato di attivare il suo amuleto. Ciò ha permesso al Tanar'ri da egli stesso evocato di accedere al suo convocatore, con risultati prevedibili.
+
+STATISTICHE:
+
+Abilità attivabili:
+- Protezione dal Male nel Raggio di 3 Metri, una volta al giorno
+
+Peso: 0~

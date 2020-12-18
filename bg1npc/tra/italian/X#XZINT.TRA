@@ -1,0 +1,187 @@
+//Incontro con Niemain alle Chincaglierie Magiche
+@0    = ~Xzar? Sono sbalordito dalla tua sfacciataggine.~
+@1    = ~Tuttavia, <CHARNAME>, la tua presenza mette la cosa sotto una luce migliore. Ho raccolto abbastanza informazioni sulle tue attività - non certo dai miserabili resoconti di Xzar ma da testimoni che hanno esposto volentieri le tue imprese – da esserne soddisfatto. Anzi, devo dire quasi impressionato... fino a un certo punto.~
+@2    = ~Ho la sensazione che mi impressionerei altrettanto... se sapessi chi sei.~
+@3    = ~Ah. Immagino quindi tu sia il rappresentante degli Zhentarim.~
+@4    = ~Sei il superiore di Xzar? In che modo? Spero non in pazzia, almeno.~
+@5    = ~Davvero? Xzar è stato più discreto di quanto avrei osato immaginare. Sono il Maestro degli Zhentarim sulla Costa della Spada.~
+@6    = ~*sospira* Se mai dovessi desiderare pubblicità su una questione, dovrei solo dirla a Xzar e fargli giurare di mantenere il segreto. Sì, sono il Maestro degli Zhentarim sulla Costa della Spada.~
+@7    = ~Per niente. Anche se non mi meraviglio del tuo giudizio distorto da un simile esempio. Sappi quindi che sono il Maestro degli Zhentarim sulla Costa della Spada.~
+@8    = ~Il rovescio della tua aritmetica è che l'attuale mancanza di investimenti determina l'estensione delle tue opportunità future. Non dimenticarlo, halfling.~
+@9    = ~Quanto a te, <CHARNAME>, sappi che il nostro nemico comune qui non è inferiore al Trono di Ferro. Dalla loro sala nella parte occidentale della città cospirano ancora contro tutti noi. Poni fine ai loro atroci crimini e la tua ricompensa sarà l'alto favore degli Zhentarim.~
+@10   = ~La tua moderazione, per una persona così giovane, è encomiabile, <CHARNAME>. Almeno, spero che sia stata moderazione e non codardia. Non importa. Andate ora e portate al Trono di Ferro la stessa giustizia che abbiamo consegnato a... quei resti, lì. E portati dietro l'halfling, se vuoi.~
+@11   = ~Oh! È quel halfling, Moranton, se i miei occhi non...~
+@12   = ~Vieni ora, questa è una storia migliore. <CHARNAME>, il povero Xzar ha parlato bene di te, fino a quando ha potuto almeno, e i testimoni delle tue azioni sono stati altrettanto eloquenti nel lodare le tue gesta. Vi do il benvenuto qui.~
+@13   = ~Ti ringrazio ma vorrei sapere con quale compagnia mi sto intrattenendo.~
+@14   = ~Grazie. È un piacevole cambiamento incontrare un rappresentante responsabile degli Zhentarim.~
+@15   = ~Quindi sei il capo Zhent, eh? Sembra che i tizi del Trono ti abbiano sorpreso a fare un sonnellino da queste parte.~
+@16   = ~Risparmia le tue vivaci sortite aritmetiche per le locande, halfling e partecipa.~
+@17   = ~Mi sembra che un pagamento più tangibile non sarebbe fuori posto.~
+@18   = ~I miei ringraziamenti. Non potrei chiedere di più.~
+@19   = ~Non vedo l'ora di scoprire cosa significhi esattamente.~
+@20   = ~Un mezzo successo non produce nulla. Chiedete a Xzar a questo proposito, se lo incontraste di nuovo. Un successo completo d'altra parte non vi lascerà delusi.~
+@21   = ~Certo. Sono Niemain, il Maestro degli Zhentarim sulla Costa della Spada.~
+@22   = ~Sì, un titolo impressionante se ci fossero più di dieci persone qui... contando i cinque già nella stanza.~
+@23   = ~Mmm. Chiaramente, conoscevi il povero Xzar... ehm. Permettetemi, il mio nome è Niemain, sono il Maestro degli Zhentarim sulla Costa della Spada.~
+@24   = ~Nessuno sonnellino. Un concorrente ha semplicemente pre-investito maggiori risorse prima di noi in questa terra barbara. Sottolinea semplicemente le opportunità per un personale adeguatamente... ma non credo tu sia interessato alle nostre tortuosità amministrative. Sono Niemain, il Maestro degli Zhentarim sulla Costa della Spada.~
+@25   = ~Montaron, se non ti dispiace. O anche se lo fa.~
+@26   = ~Come ti pare. Ciò che conta è che sembra che tu abbia perso il nostro caro amico, Xzar, e lo abbia sostituito con questa marmaglia.~
+@27   = ~Puah! Era troppo pazzo e troppo lento per essere salvato. Considerando che <CHARNAME> qui...~
+@28   = ~Accidenti! Un bel casino! Faremmo meglio a fregarcene del Trono e iniziare a cercare un buco in cui nasconderci.~
+@29   = ~Conosco il buco perfetto per te, Monty!~
+@30   = ~Se è così che ti senti, perché ti sei schierato con noi, allora?~
+@31   = ~Perché ho intuito chi sarebbe uscito vivo da questa stanza, e volevo essere dalla sua parte. Ma... ah, ora non so che fare. Forse se parleremo con i capi con gli scalpi del Trono alle cinture, non la prenderanno così male. Specialmente dal momento che nessuno sarà in grado di contraddire ciò che gli diremo.~
+@32   = ~Sì, un titolo impressionante se ci fossero più di dieci persone qui... contando i sei già in questa stanza.~
+@33   = ~Fattene una ragione, amico! Non c'è altra speranza per noi. Nessuno a est saprà nulla, se non quello che *noi* racconteremo.~
+@34   = ~RICOMPENSA??? È così che la chiami? Essere messo da parte, ignorato, privato di ogni aiuto e, soprattutto, di oli da bagno? <CHARNAME>, non tutti noi siamo come questo maiale, lo giuro! Beh, non del tutto almeno...~
+@35   = ~Uhm... oh, sì. <CHARNAME>, aiutami a uccidere questo miserabile idiota, e prenderò il suo posto di Maestro, *e* Sarò tuo amico per la vita! Per quanto lunga possa essere...~
+@36   = ~Spiacente, Xzar. Tu hai iniziato tutto questo, e tu gli porrai fine. Da solo.~
+@37   = ~Ahhh, il diavolo che conosco, va bene... facciamolo, Xzar!~
+@38   = ~AH! AH! Ce l'ho fatta! Il vecchio scarpone è storia! Devo... devo... <CHARNAME, che cosa hai fatto?!~
+@39   = ~Hai ucciso il Maestro degli Zhentarim e io... ne sarò incolpato! Perché la vita è così ingiusta?!?~
+@40   = ~Che ingiustizia, vero? Allora dovrei alleggerire il tuo fardello, zittendo la tua lingua bugiarda.~
+@41   = ~Rilassati! Come faranno i tuoi capi a sapere cosa è successo qui se non dalle tue parole?~
+@42   = ~Eh?... potrebbe funzionare... Certo! Riferirò che siamo arrivati qui e li abbiamo trovati in questo stato deplorevole. I nostri nemici devono averlo fatto! Il mio genio ha trionfato di nuovo! <CHARNAME>, al Trono di Ferro!~
+//Missione slime?
+@43   = ~Spiacente, <CHARNAME>.~
+@44   = ~XZAR! Che cosa... hai appena melmizzato quella ragazza! Avevi promesso di conservare l'incantesimo per un bersaglio *importante*!~
+@45   = ~Mammina... Mammina ha detto di farlo... e... e io l'ho fatto. Penso che dovremmo andare avanti ora.~
+//Zombie
+@46   = ~Che delizioso raccolto ha prodotto questa fattoria. E pensare che, nel mio orgoglio, avevo sempre disprezzato i luoghi bucolici.~
+@47   = ~Sei paz... fuori di... Xzar! Questo posto è pieno di zombi e stanno cercando di ucciderci!~
+@48   = ~Meraviglioso, non è vero? Dopo tutto, non è colpa loro se stanno cercando di ucciderci. Semplicemente non sono stati realizzati in modo corretto.~
+//Lama del Revenant
+@49   = ~Sai, <CHARNAME>, *è* un'arma piuttosto bella. Ovviamente, anche efficace...~
+@50   = ~Scordatelo, Xzar. Sì, *potremmo* creare un altro revenant con essa, ma no, *non* abbiamo il tempo di stare attorno a ciascun cadavere fino a quando il risultato non diventi ovvio.~
+@51   = ~Rapido e Insapido, <CHARNAME>, ti chiamerò così d'ora in poi.~
+		~Rapida e Insapida, <CHARNAME>, ti chiamerò così d'ora in poi.~
+//Ponte di Firewine
+@52   = ~Ahimè! Quel meraviglioso vaso... distrutto in frammenti. Così, come i miei sogni... e ancora di più come le mie ore di veglia. Vieni, <CHARNAME>, abbandoniamo questa scena malinconica.~
+//Missione slime
+@53   = ~Un peccato sprecare una tale risorsa. Forse dovremmo cercare un punto di uscita alternativo. Avevo dimenticato come si moltiplicassero le melme - come simpatici coniglietti, eheheehee!~
+//Montaron
+@54   = ~Caro Monty. Ora sei molto meno problematico. Mangi di meno, hai un odore migliore e non mi contraddici mai, sei anche molto più educato. Sì, avrei dovuto ucciderti secoli fa, la tua compagnia è decisamente più piacevole ora.~
+@55   = ~*Segue una breve pausa. Xzar inclina la testa come se stesse ascoltando qualcosa.*~
+@56   = ~Che dire, grazie, Monty... Anche tu.~
+//Melicamp
+@57   = ~<CHARNAME>, ora che abbiamo catturato un tale pennuto, non sarebbe opportuno festeggiare con un pollo arrosto piccante con salsa di castagne e una piccola insalata?~
+@58   = ~Non so. Mi è sembrato un po' duro per l'arrosto, quando l'ho buttato nel sacco.~
+@59   = ~Xzar, questo non è un pollo, ma un uomo! Un apprendista mago. Non ho alcuna intenzione di mangiarlo!~
+@60   = ~Duro, eh?~
+@61   = ~Come una roccia piumata, a dire il vero.~
+@62   = ~Sfortuna, Xzar.~
+@63   = ~Ugh. Allora hai ragione, faremmo meglio ad astenerci. Prima le mele, poi il Male.~
+//Ogre
+@64   = ~Tu inutile avventato! L'hai ucciso!~
+	~Tu inutile avventata! L'hai ucciso!~
+@65   = ~Sicuro. Stava cercando di uccidere *me*, o sbaglio?~
+@66   = ~Beh, sì...~
+@67   = ~Un ogre magi in più o in meno non fa differenza, è ovvio. Ma...~
+@68   = ~Ma?~
+@69   = ~*rotea gli occhi*~
+@70   = ~Non ne voglio parlare.~
+@71   = ~Ora non saprò mai come avesse inventato il reagente contro l'atrofizzante malattia di questi dannati millepiedi!~
+@72   = ~Uh. Quella schifezza era comunque troppo lenta per essere utile a *noi*.~
+@73   = ~Che perdita per la civiltà!~
+@74   = ~Fretta, fretta, fretta! Quando *imparerai*, <CHARNAME>, che la 'caaalma' può indurre un terrore molto più salutare nelle tue vittime?~
+//Schiavi
+@75   = ~Come appaiono attraenti questi corpi. Come frutta candita su una torta.~
+@76   = ~Ehm, Xzar, hai mai considerato... uhm... come dire, un aiuto professionale?~
+@77   = ~Che osservatore! E il sangue è proprio come la marmellata...~
+@78   = ~*sospira* Come ti pare.~
+@79   = ~Solo questa volta e mai più, lo giuro. Concorderai che i cani bugiardi volevano *cambiarmi* piuttosto che AIUTARMI!~
+//Re delle fogne
+@80   = ~Mmm... Schlumpsa è morto?~
+@81   = ~Uh, Xzar, cosa stai facendo?~
+@82   = ~Stai raccogliendo pezzi di quel mostro in uno dei tuoi vasetti. Non è vero?~
+@83   = ~Xzar, me ne sto andando...~
+@84   = ~Niente! Uh... nessun ritardo... ti raggiungo subito.~
+@85   = ~Uh... beh... in linea di massima... Uhm... sì.~
+@86   = ~Posso avere l'ardire di chiederti *perché* stai mettendo piccoli pezzi di Schlumpsa nei tuoi vasetti?~
+@87   = ~Aargh! Ma è DISGUSTOSO! Me ne vado...~
+@88   = ~Ah... solo un piccolo campione... per una lezione e... un documento che stavo pianificando... per la revisione annuale dei Necromanti.~
+@89   = ~Ah-ah. Stai pensando di lanciarla su qualcuno, vero, Xzar? Una piccola "poltiglia verde istantanea in barattolo"?~
+@90   = ~Oh dei! Una lezione sulla melma... Dobbiamo andare, Xzar.~
+@91   = ~Oh... ah... Non a TE!!! Voglio dire... mi ha appena sfiorato l'idea... una sorta di munizione... solo per le emergenze più estreme! E... e per un bersaglio degno. Mi lascerai tenerla, vero <CHARNAME>? Per favooore?~
+@92   = ~Fantastico. Mi ero appena abituato ad avere un necromante folle alle mie spalle, e ora mi ritrovo con un necromante folle con in tasca una melma verde. E sempre alle mie spalle. Xzar, voglio che tu mi prometta una cosa...~
+@93   = ~La userai su Sarevok ed esclusivamente Sarevok e *solo* a distanza di sicurezza, in modo che nessuno di *noi* ne venga schizzato.~
+@94   = ~Beh... tienila solo lontana dalla mia vista. Potrei cadere in tentazione la prossima volta che Jaheira mi assillerà con le sue manie di comando...~
+@95   = ~Giusto... capisco il tuo punto di vista. A volte l'insopportabile risata di Imoen mi fa venire voglia di... non IMPORTA, Xzar. Non la lancerò su *nessuno* di questo gruppo!~
+@96   = ~Oh! Lo farò! La voglio! Lo prometto! Lo prometto!~
+@97   = ~Beh... tienila solo lontana dalla mia vista. Potrei cadere in tentazione la prossima volta che Jaheira mi assillerà con le sue manie di comando...~
+@98   = ~Ma certo. Comunque, <CHARNAME>, a volte parli come se credessi che fossi completamente pazzo.~
+//Niemain
+@99   = ~Tante cose semplici ti stupiscono, cosa può contare una di più?~
+@100  = ~Controlla la tua lingua se non vuoi perderla! Chi sono queste persone con te?~
+@101  = ~Aaah! Il vederti di nuovo mi ha fatto scordare le buone maniere. Questi sono i miei servi... uh... colleghi d'avventura. <CHARNAME>, <PLAYER2>, <PLAYER3>, <PLAYER4>, <PLAYER5>, <PLAYER6>...~
+@102  = ~Xzar, conosco *te* e Montaron... perché ti sei presentato?~
+@103  = ~Xzar, conosco *te* e quello che resta di Montaron... Perché ti sei presentato?~
+@104  = ~Xzar, conosco *te*, e Montaron... sembra assente. Perché ti sei presentato?~
+@105  = ~Perché, ma per cospirazione, ovviamente. E questo è Niemain, un mio... collega...~
+@106  = ~Sono il tuo superiore! Discuteremo il tuo atteggiamento e la tua efficacia in modo più approfondito in un secondo momento. Puoi starne certo!~
+//Re delle fogne 2
+@107  = ~Aspetta un attimo! Sicuramente non puoi avere tutta *questa* fretta...~
+@108  = ~Io... percepissssco... mago... necrrrromanteee... parrrrla, quindi.~
+@109  = ~Hai una sistemazione davvero bella qui, dissolvere le menti e le volontà, ma non i corpi. Affascinante! Come ci riesci nella tua... condizione?~
+@110  = ~Eehee. L'ammirrrrrazione è rrreale... Io ferissssco... Unisciti, e lo vedrrrrai.~
+@111  = ~Non essere assurdo! Se volessi *unirmi*, mi tufferei e basta, no? Voglio sapere come *tu* lo fai, non parteciparvi io stesso.~
+@112  = ~Il sssecreto non può essssere condiviso... ma... i tuoi penssssieri rrrrruotano... causano dolorrre a Ssschlumpssha... Devo chiederrrrrti di fermarrrrli ora!~
+@113  = ~Il sssecreto non può essssere condiviso... ma... i tuoi penssssieri rrrrruotano...~
+//Arkion 576-577
+@114  = ~Mmpf. Un magnaccia della mortalità. O un giullare. Tutti e due. Nessuno dei due. Non importa, non ha alcuna importanza nel grande schema di cose della morte.~
+@115  = ~Non ho tempo per la filosofia.~
+//Arkushule
+@116  = ~Sai, Monty, la reazione della vecchia strega mi ha fatto pensare. Mi domando... solo mi domando, immagina... se i sogni del nostro giovane amico fossero il prodotto di qualcosa di diverso di un'adolescenza disordinata.~
+	~Sai, Monty, la reazione della vecchia strega mi ha fatto pensare. Mi domando... solo mi domando, immagina... se i sogni della nostra giovane amica fossero il prodotto di qualcosa di diverso di un'adolescenza disordinata.~
+//Carsa (giara Ogre Magi)
+@117  = ~Ooh! E anche un bel barattolo. Da dove l'hai rubato?~
+@118  = ~Lo farò. Dammelo e pronuncerò il nome. E... poi mi nasconderò dentro il barattolo fino a quando qualsiasi cosa abbia evocato non sia morto.~
+@119  = ~Oh, non credo proprio.~
+//Bassilus
+@120  = ~Dannazione, ragazzo. Hai riunito di nuovo tutta la famiglia e non mi hai invitato alla festa.~
+@121  = ~Cos... NO! Siamo tutti qui. Siamo!~
+@122  = ~Lo siamo - ora che *io* sono arrivato!~
+@123  = ~Chi sei?~
+@124  = ~Chi... ehm... io... io sono il tuo DESTINO, ragazzo!~
+@125  = ~ZIO LESTER!!!~
+@126  = ~Uh... sì, sono io, tuo zio Lester! In persona!~
+@127  = ~Oooohhh...~
+@128  = ~Ecco fatto. Hai visto, <CHARNAME>, trascinare questo miserabile pazzo in uno stato di quiescenza non è stato così difficile...~
+@129  = ~NON SEI ZIO LESTER! Se lo fossi, ora sarei morto! Quindi...~
+//Il banditore di Beregost 880..886
+@130  = ~Di quali crimini contro natura stai blaterando, uomo?~
+@131  = ~Ascolta! Ascoltate! Un chierico pazzo di Cyric contamina la natura! Ha trasformato i viventi in cadaveri ambulanti e vive con loro come se fossero la sua famiglia! Temetelo!~
+@132  = ~<CHARNAME>, quel tale Bassilus - quello vivo intendo - sembra davvero un tipo strambo, direi quasi... squilibrato.~
+@133  = ~Ascolta! Ascoltate! Ecco l'uomo che lo raddrizzerà!~
+@134  = ~Beh... forse in verticale, ma sì. Sembra non avere alcun rispetto per le sue creazioni.~
+@135  = ~Ah, per me 5.000 monete d'oro sarebbero una motivazione sufficiente per finirlo, se fossi un avventuriero! Ora scusate, devo tornare al lavoro!~
+@136  = ~Ascolta! Ascoltate! Per ordine di Kelddath Ormlyr, governatore di Beregost, e nel miglior interesse della sua gente-~
+//Carsa 610-611-612-613
+@137  = ~<CHARNAME> può gestire la maggior parte delle cose, e il caro Monty qui è difficile da uccidere come uno scarafaggio. E tu... potresti nasconderti nel barattolo con me!~
+@138  = ~<CHARNAME> può gestire la maggior parte delle cose, e <PRO_HESHE> è difficile da uccidere come uno scarafaggio. E tu... potresti nasconderti nel barattolo con me!~
+@139  = ~Matto! Sei più folle persino di Carsa! La morte ti farà bene! KAHRK!~
+@140  = ~OH POTENTE KAHRK!!!~
+@141  = ~Sciocca creatura. Sei già non morto e hai l'eternità al tuo comando. Perché tale impazienza?~
+//Revenant 334-335-336-337-338-339
+@142  = ~L'odiooo... l'odio mi ha risvegliato... il pugnale... mi ha ucciso... chiunque lo possegga... ricorda il mio assassino... e DEVE MORIRE!~
+@143  = ~Una cosa così limitata, povero caro. Eppure, totalmente impossibile da controllare.~
+@144  = ~Affascinante...~
+@145  = ~Noooon discutereee... RIDAMMELO! O affascinerò la tua goooola.~
+@146  = ~Oh! Tuttavia, se restituissimo il pugnale, probabilmente scomparirebbe solo per farmi dispetto... uno studio prolungato sembra quindi fuori discussione... che cosa ne pensi, <CHARNAME>?~
+//Slythe Krystin
+@147  = ~Slythe, tesoro! Cos'è questo baccano?~
+@148  = ~Sembra che qualche pazzo di un mago abbia lasciato di nuovo della melma verde su una delle ragazze, Krystin, piccola.~
+@149  = ~Ooooh! Possiamo guardare?~
+@150  = ~Tra poco, forse. Questa sciocca mancanza di originalità offre la speranza che i nostri ospiti siano arrivati. Non dobbiamo essere così sconsiderati da ignorarli per divertimenti minori.~
+@151  = ~Oooo, Slythe. Il tuo ingegno è la seconda migliore parte di te. Lo sai, vero tesoro?~
+@152  = ~Certo piccola.~
+@153  = ~Uccidiamoli rapidamente, allora. Voglio andare a vedere!~
+//Zizi
+@154  = ~Ehi, uomo magico, vuoi divertirti? Ti assicuro che conosco incantesimi di cui non hai mai sentito parlare.~
+@155  = ~Ah... no... ehr... no, grazie.~
+@156  = ~Non essere timido, mago. L'ignoranza va combattuta e io sono un insegnante davvero dolce.~
+@157  = ~No... per favore...~
+@158  = ~Oooh, ti ho spaventato? Non sono un mostro grande, cattivo e spaventoso, non trovi?~
+@159  = ~Tu... lo sarai...~
+@160  = ~EEEEEKK!!!~
+

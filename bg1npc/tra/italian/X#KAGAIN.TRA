@@ -1,0 +1,278 @@
+@0    = ~Sai, <CHARNAME>, sembri una formica insignificante di fronte alle imprese che dovresti compiere da queste parti.~
+@1    = ~Bisogna pur iniziare da qualche parte. I problemi che affliggono la Costa sono diventati anche i miei e li affronterò come posso.~
+@2    = ~Non sono affari tuoi. Sono sulla strada e la percorrerò liberamente. E tu?~
+@3    = ~Sentiti libero di andartene, se lo desideri.~
+@4    = ~Potrei anche rimanere con voi, allora. Quei banditi si stanno allargando un po' troppo, ne risentono gli affari.~
+@5    = ~Non sono così appassionato del vagabondare fine a sé stesso. Ma credo che sarò presto al verde se non potessi più viaggiare dove e quando voglio, quindi ti seguirò per questa volta.~
+@6    = ~No, va tutto bene. Ci sono molte faccende poco chiare qui intorno, e almeno sei disposto a fare qualcosa al riguardo.~
+		~No, va tutto bene. Ci sono molte faccende poco chiare qui intorno, e almeno sei disposta a fare qualcosa al riguardo.~
+@7    = ~La mia carovana è distrutta e il marmocchio dei Silvershield è morto. Che bella notizia! La mia possibile paga è diventata cibo per avvoltoi e il mio cliente non ne sarà affatto contento!~
+@8    = ~Pensi che ci sia una connessione tra questi banditi e i predoni di ferro?~
+@9    = ~Sei vendicato, in ogni caso. Ora puoi tornare a casa e raccontare i fatti.~
+@10   = ~Sfortuna. Cosa farai adesso?~
+@11   = ~Nah. Non stava trasportando ferro. Questi sciacalli qui devono aver fiutato il sangue che gli altri hanno versato.~
+@12   = ~In tal caso, i nostri obiettivi sono gli stessi. Possiamo continuare a cercare insieme questi banditi e i loro padroni, se vuoi.~
+@13   = ~Considerando il pasticcio che hai fatto finora, sarebbe meglio se ci separassimo~
+@14   = ~Potrei. Meglio di no, però. La vendetta non risolverà le cose a casa, quindi è meglio che me ne stia in giro fino a quando le cose non saranno sistemate per bene.~
+@15   = ~In tal caso, i nostri obiettivi sono gli stessi. Possiamo continuare a cercare insieme questi banditi e i loro padroni, se vuoi.~
+@16   = ~Considerando il pasticcio che hai fatto finora, sarebbe meglio se ci separassimo.~
+@17   = ~Bah, potrei andare a casa e morire di fame lamentandomene con qualche parente stretto. Oppure potrei stare fuori e ripagare quei tizi del ferro con la loro stessa moneta.~
+@18   = ~In tal caso, i nostri obiettivi sono gli stessi. Possiamo perseguirli insieme se lo desideri.~
+@19   = ~Così sia allora. Farai meglio ad essere un bersaglio altrettanto eccellente per le loro frecce e i loro incantesimi così come lo sono io.~
+@20   = ~Come vuoi tu. Spero solo di non inciampare troppo duramente sui cadaveri che faranno di voi.~
+@21   = ~Devo ammetterlo, <CHARNAME>. Non sembri granché, ma *hai* un certo tocco.~
+@22   = ~Oh? In che senso 'tocco'?~
+@23   = ~Riesci a impicciarti negli affari altrui e renderli redditizi. Non c'è lavoro migliore al mondo.~
+@24   = ~Preferisco farla "pagare" a questi criminali, piuttosto che a delle persone qualsiasi.~
+@25   = ~Non ho intenzione di tenere un registro contabile. Qualsiasi bottino verrà utilizzato per promuovere i nostri sforzi o venduto per migliorare l'equipaggiamento, di cui avremo sicuramente bisogno in breve tempo.~
+@26   = ~Ho notato le qualità adesive che l'oro sembra sviluppare in prossimità del palmo delle tue mani. Non esagerare.~
+@27   = ~Sì, dicono che sia più piacevole dare che ricevere. Quindi dai pure loro quello che meritano, e io farò il lavoro sporco di prendere ciò che non gli servirà più.~
+@28   = ~È il modo giusto di fare del bene nel mondo, raddoppiando le possibilità di profitto. Spero solo che alla fine potremo incassare con stile.~
+@29   = ~Niente paura. Non lo perderò come avranno fatto i morti a cui lo avremo preso, quindi spendilo pure se devi.~
+//Faldorn
+@30   = ~Oof! Ed ecco qua la nostra legna. Il fuoco si accenderà in un attimo.~
+@31   = ~Quello... quello è legno verde. Tagliato da un albero vivente!~
+@32   = ~Non c'è nessun bosco vicino. E ci servirà altrettanto bene.~
+@33   = ~Lo scopo della foresta non è servirci! Hai ferito gravemente un figlio vivente della natura!~
+@34   = ~Non fare un altro passo verso di me. Oppure, e magari lenirà persino il tuo cuore dolorante, ridurrò il resto allo stesso modo, almeno non soffrirà più.~
+@35   = ~Sei più selvaggio dei crudeli predoni che cacciamo!~
+@36   = ~Grazie, signora. L'acqua sta bollendo. Gradisci un po' di tè?~
+//Ajantis
+@37   = ~Ehi, gambe lunghe, è vero che è il tuo destino combattere per l'onore di rendere giustizia agli oppressi?~
+@38   = ~Mmm... Non mi aspettavo un simile interesse... ma sì. Espresso un po' rozzamente, ma il concetto è quello.~
+@39   = ~Eccellente! Tu puoi prenderti tutto l'onore, la gloria e così via in questo viaggio, e io mi occuperò della grana!~
+@40   = ~Aspetta! Non siamo briganti da passare a filo di spada. Anche l'oro ha il suo ruolo nell'Ordine.~
+@41   = ~*sputa* Avrei dovuto immaginarmelo. Avrei fatto meglio a starmene zitto, non avrei sprecato fiato.~
+//Alora
+@42   = ~Tu, ragazza. Non pensi che sia giunto il momento di tornare al tuo paese a giocare con i tuoi conigli e fiorellini vari?~
+@43   = ~Oooh, no … non ancora almeno. C'è ancora tanto da vedere - e da fare - in città.~
+@44   = ~Pianifica meglio le tue azioni, allora. Ho fatto un sogno, la scorsa notte … dieci piccole dita che si trascinavano via la mia borsa.~
+@45   = ~Davvero? Una volta ho fatto un sogno in cui soffiavo via un dente di leone, e suonava una musica bellissima.~
+@46   = ~È un dato di fatto? Bene, sappi che io ho il sonno leggero e la *tua* musica mi sveglia facilmente - se capisci quello che voglio dire.~
+@47   = ~Povero nano. Prometto di non sognare ad alta voce intorno a te, va bene?~
+//Branwen
+@48   = ~Dimmi, signora, se ho capito bene, il tuo dio sembra un tipo tosto … con le battaglie e tutto il resto.~
+@49   = ~Davvero? Mi sorprendi. Pensavo che il tuo interesse per i conflitti fosse puramente mercenario.~
+@50   = ~Oh, non mi dispiace un po' d'oro per le mie fatiche, ma un buon combattimento non serve solo a quello. Mantiene il corpo e la mente in forma.~
+@51   = ~Bah! Tempus non viene servito per interesse personale. La fede richiede impegno, audacia e dolore.~
+@52   = ~Ah, è così? Avevo pensato che concedesse ai suoi chierici qualche tipo di vantaggio in battaglia. A quanto pare mi sbagliavo.~
+@53   = ~Un 'vantaggio' sarebbe una bestemmia! Il mio Signore Tempus pretende tutto ciò che si ha dentro. Chiedere di più, solo per i propri scopi, sarebbe abominevole!~
+@54   = ~Caspita! Sei proprio stramba anche per una gambe-lunghe.~
+//Coran
+@55   = ~Ehi, tu. Te la cavi bene a sgraffignare la roba, se non sono in errore.~
+@56   = ~Io li definirei prestiti anticipati a costo zero e a lungo termine, se non ti dispiace.~
+@57   = ~Mmpf. Ricorda solo che il tuo posto è nelle retrovie con le tue frecce. Non ti voglio vedere in prima linea nei miei paraggi.~
+@58   = ~E i cadaveri offrono termini estremamente vantaggiosi. Così come altre benedizioni come l'assenza di parola.~
+@59   = ~Egregia osservazione. Mi hai quasi convinto a dare seguito al tuo consiglio. E credo che rinforzerò la parte posteriore della mia armatura prima di domani.~
+@60   = ~Un ottimo proponimento per i deboli di cuore.~
+@61   = ~Vedremo solo chi sverrà per primo, che ne dici?~
+@62   = ~Se quella dannata peste non se ne sta zitta, finirò con strapparle quella sua maledettissima testolina dal collo!~
+@63   = ~Silenzio! Stai disturbando Namara con le tue inutili maledizioni.~
+@64   = ~STO PARLANDO SULLA TUA STUPIDA FIGLIA, TATA RAMMOLLITA!~
+@65   = ~Quindi, per favore, scegli termini più premurosi, potrebbero influenzare negativamente il suo futuro senso di autostima, se continuassi ad essere così scortese nei suoi confronti.~
+@66   = ~Qualunque cosa. Basta che *chiuda* la sua dannata boccaccia!~
+@67   = ~Se la bambina balbetterà, ti riterrò direttamente responsabile!~
+@68   = ~Se continuerà a urlare per un altro minuto, mi dovrai ritenere responsabile per l'improvvisa sparizione della sua testa!~
+//Dynaheir
+@69   = ~Chiedo scusa, signora, ma ti ritrovi lontana da casa, vero?~
+@70   = ~In effetti, lo siamo, ma la mia "casa" è piccola. Il Faerun è grande. È un bene imparare qualcosa sulle terre oltre il confine.~
+@71   = ~Uhm-mm. Ma io ho conosciuto qualche tipo studioso. Il loro metodo di apprendimento non assomiglia nemmeno lontanamente al tuo.~
+@72   = ~L'obiettivo di un corso di apprendimento determina il suo metodo di studio. Nel nostro caso, io e Minsc cerchiamo di conoscere noi stessi tanto quanto qualsiasi altra cosa.~
+@73   = ~Ah! Il tuo amico potrebbe trovare un intero branco di topi domestici, e ancora non venirne a capo. Tu, però. Ti vedo già sulla via del ritorno, oserei dire.~
+@74   = ~Mi fa piacere che le mie incertezze non si palesino. Stai certo, tuttavia, che non sono più lungimirante o illuminata dei Saggi nel predire il futuro, come sembri presupporre.~
+@75   = ~Non ti stavo chiedendo una lettura della mano o simili sciocchezze. Intendevo dire che sembri conoscere ben di più di quello che lasci trasparire, tutto qui.~
+@76   = ~Come tutti noi, dovrei dire. Ma l'autocelebrazione rende noiosa una conversazione, non ti pare?~
+//Edwin
+@77   = ~Dì un po', pesce rosso … sei lontano dalla tua gente, giusto?~
+@78   = ~...~
+@79   = ~Acc! Non fare il sordo con me. Ti ho visto digrignare i denti. Se non hai voglia di rispondere, dillo da uomo.~
+@80   = ~(Se rispondo, questo rospo graciderà di nuovo. Ma se non lo faccio, graciderà anche più forte per dimostrare a sé stesso di non essere così insignificante.) *Sospirando* Stavo solo considerando il modo migliore per esprimermi in termini a te comprensibili. Non *è* un compito semplice per qualcuno della mia levatura.~
+@81   = ~Ah, allora sei lento di comprendonio, vero?~
+@82   = ~Fortunatamente per te, sono molto lento a "comprendere" l'umorismo come rozza impertinenza. Per quanto riguarda la tua richiesta originale, il dominio dei Maghi Rossi si estende ben oltre la semplice distanza fisica. Più di quanto tu abbia il diritto di sapere.~
+@83   = ~Ah, capisco. Non hai la più pallida idea del perché tu sia qui. Potrebbe essere che ti abbiano spedito così lontano a causa per i tuoi modi così affabili?~
+@84   = ~Sappi, nano chiamato Ignoranza, che dove *Io * cammino *lì* è il centro della taumaturgia più arcana del Thay.~
+@85   = ~Devono essere tutti ben nascosti dietro la tua ombra. Dei tipi davvero bravi a travestirsi, te lo concedo.~
+@86   = ~Oggettivamente, suppongo che tu, personalmente, non abbia colpa. La colpa è di chiunque ti abbia insegnato a parlare senza concederti una minima capacità di argomentare. Mi piacerebbe conoscerlo un giorno.~
+@87   = ~Devo ammetterlo, pettirosso, non ho una forte predilezione per la magia, ma la tua offre alcuni... vantaggi.~
+@88   = ~(Oh, benissimo. Il tizio basso mi sta parlando.) Beh, sono estremamente contento che tu ti diverta a guardarmi mentre riduco in polvere i miei nemici.~
+@89   = ~Ah, ma sono gli "amici" che sto valutando, al momento. Che ne dici di 'ridurre in polvere' questo gruppo di pappamolle e dividere il bottino? Tu potresti comprare delle nuove vesti magiche e io una nuova ascia.~
+@90   = ~Cosa ti fa pensare che avrei bisogno del tuo aiuto per affrontarli? Inoltre, anche se volessi desiderare assistenza, quale motivo dovrebbe portarmi a fidarmi di *te* al riguardo?~
+@91   = ~Dato che sono ancora qui, anche una mente semplice come la tua dovrebbe poter comprendere che non ho intenzione di abbandonare i miei compagni attuali. (Anche se un'eccezione si può sempre fare.)~
+@92   = ~Beh, suppongo che *potrei* avvertire i nostri compagni di ciò che stai complottando.~
+@93   = ~Sarebbe difficile, dal momento che non hai idea dei miei obiettivi. O insinui forse che, avendo fallito nel reclutarmi nel tuo strampalato tentativo di tradimento, avresti intenzione di darmene la colpa?~
+@94   = ~Che fine pensatore! Questo è esattamente il motivo per cui dovremmo lavorare insieme. Siamo gli unici intelligenti in questo gruppo. Tutti gli altri preferirebbero costruire una casa di beneficenza per coniglietti orfani o roba simile.~
+@95   = ~Mmm. Prevedo che i guadagni di una simile alleanza sarebbero molto maggiori nel prossimo futuro. Forse più avanti... (Forse più avanti diventerò meno attento a dove lanciare le mie palle di fuoco di fronte a questo nano inaffidabile.)~
+//Eldoth
+@96   = ~Ah! Devo ammetterlo, "Sir Lancia-l'-otto", avevo sempre pensato che quando un uomo conquista una donna in un certo senso ne sia l'acquirente. Ma vedo che tu riesci ad andare oltre.~
+@97   = ~Puah, mio caro socio. Scambiarsi felicità non è un mero resoconto commerciale.~
+@98   = ~E chi sarà mai questa Felicità quindi, se non la tua maliziosa bambolina tutta curve?~
+@99   = ~Ah, ah. No. Quello che intendevo dire è che l'unione di due anime nelle estasi del romanticismo non è un sordido affare commerciale. Non puoi stabilire un prezzo.~
+@100  = ~No, *io* non posso, hai ragione. Ma potrei dirti il nome di uno che lo ha fatto, e anche con una bella sommetta in mente.~
+@101  = ~La tua lingua è più affilata anche della tua ascia e ferisce più profondamente. Stimo lo sguardo puro della mia amata più di tutte le ricchezze del Faerun.~
+@102  = ~Girala come ti pare. Ma devi avere una bella scorta di sviolinate, per sprecarle con *me* anziché conservarle per la tua bambolina.~
+//Garrick
+@103  = ~Giovane, puoi davvero essere così semplice da occuparti di nient'altro che di recitare strofe su tutto quello che ti capita sotto il naso?~
+@104  = ~Compongo storie sulle nostre imprese in modo che altri possano sentire ciò che abbiamo fatto. Perché ti dovrebbe offendere? Avrei pensato che ti sarebbe piaciuta l'attenzione.~
+@105  = ~Ho sentito la tua immondizia, non dimenticarlo. Non contiene né sudore, né dolore, né sangue a sufficienza.~
+@106  = ~Perché vorresti sentir parlare di sudore, dolore o sangue? Accidenti, non sono molto stimolanti. Preferirei parlare dei nostri successi - le cose per cui vogliamo essere ricordati.~
+@107  = ~Ah, non ho voglia di farmi il sangue amaro per la tua ingenuità. Ma ti dirò, la tua musica mi rallegrerebbe molto di più se volessi condividerla col prossimo gruppo di banditi che dovremo affrontare marciando direttamente su di loro.~
+@108  = ~Ah, bene … grazie. O almeno credo...~
+//Imoen
+@109  = ~È strano se ci pensi, ragazzina. Tu e <CHARNAME> sostenete di essere stati cresciuti in una grande biblioteca, ma posso giurare di non aver mai incontrato una coppia meno “libresca” di voi due.~
+@110  = ~Sì è vero. Ma i libri erano per gli studiosi. Da giovani lavoravamo più di quanto leggessimo.~
+@111  = ~Sembrate troppo pratici per degli amanti dei libri, ecco tutto. E deve essere stato un lavoro strano, viste le abilità che entrambi vi siete portati via da quel posto.~
+		~Sembrate troppo pratiche per degli amanti dei libri, ecco tutto. E deve essere stato un lavoro strano, viste le abilità che entrambi vi siete portate via da quel posto.~
+@112  = ~*ridacchia* Siamo stati lì per tutta la vita, sai. Abbiamo avuto un sacco di tempo per imparare ogni sorta di cose.~
+		~*ridacchia* Siamo state lì per tutta la vita, sai. Abbiamo avuto un sacco di tempo per imparare ogni sorta di cose.~
+@113  = ~Come ad esempio "Frugare le tasche in cinque semplici passaggi", eh? Potrebbe essere che ci farò visita qualche volta. Sembra che non sia un posto così noioso dopotutto.~
+//Jaheira
+@114  = ~Sai, signora, avevo sentito parlare degli Arpisti ma non ne avevo mai visto uno. Non posso dire di essere troppo impressionato.~
+@115  = ~Impressionare *te* non è certo la più viva delle nostre preoccupazioni.~
+@116  = ~Non oserei tanto. Né chiedevo stendardi, trombe o simili. Mi domando solo come portate avanti le cose in generale, tutto qui.~
+@117  = ~Come ogni persona dedicata può: rimanendo devoti alla nostra vera causa a prescindere dai nostri mestieri e impegni.~
+@118  = ~Nessuna cantina piena d'oro, né scrigni di gemme per sostenervi attraverso i tempi difficili, eh?~
+@119  = ~Certamente no! Chiunque apprezzasse l'accumulo di tali scorie cesserebbe di essere un Arpista.~
+@120  = ~Quindi dovrete subire un alto tasso di abbandoni. A giudicare da quello che posso vedere, almeno.~
+@121  = ~Continua a giudicare da ciò che puoi vedere. È la nostra più grande garanzia.~
+@122  = ~Druido, perché ti preoccupi così tanto di queste dannate foreste?~
+@123  = ~A differenza di te, posso vedere la bellezza in altre cose oltre all'oro.~
+@124  = ~Bah! Sono così inutili! Tutto ciò che fanno è farci perdere tempo per abbatterle prima di poterci costruire.~
+@125  = ~Per qualcuno la cui razza vive in simbiosi con le montagne, un'altra parte della natura, sono sorpresa che tu abbia detto una cosa del genere.~
+@126  = ~Pensi che i buchi arrivino già pronti? Prova a trascorrere l'intera infanzia trascinando macerie fuori dalla porta sul retro e capiresti quello che intendo.~
+@127  = ~Se non lo hai notato nano, la natura è ovunque. Anche nelle viscere del Sottosuolo ci sono piante che proliferano.~
+@128  = ~Oh, ho *notato* tutto molto bene. Penso solo che si potrebbe trovare un modo per migliorarlo, così che un tizio ci possa vivere dentro ma tu sei così testarda, che non lo faresti neanche se potessi.~
+//Khalid
+@129  = ~Sai, non pensavo che fossi un tipo così sveglio.~
+@130  = ~C-cosa vuoi dire?~
+@131  = ~Beh, sei una spada a pagamento la cui passerotta vola allegra accanto a lui e può brandire una lama, lanciare una pietra o rattoppare il suo uomo alla bisogna. Un tipo del genere mi sembra che sappia davvero il fatto suo.~
+@132  = ~Se la m-metti così... ma devi s-sapere che ho sposato Jaheira per la p-persona che è. Non c-erto per le sue abilità a-avventurose.~
+@133  = ~Ah, ecco che ricominciamo. Provo a parlare in modo sensato e subito tornate alle vostre "teorie". Come con quelle assurdità da Arpisti.~
+@134  = ~Cosa hanno a che fare gli Arpisti con mia moglie?~
+@135  = ~Stesso approccio da parte vostra per entrambi. Iniziate con qualcosa che dovrebbe dare un buon profitto costante, e lo buttate via in nome del dovere o dell'amore o di cose come quelle, che non si possono vedere, che non si mangiano, che non si indossano e che non si possono spendere.~
+@136  = ~C-Capisco. Lasciami alla mia follia, quindi, e ognuno di noi avrà ciò che d-desidera veramente.~
+@137  = ~Abbastanza onesto. Ma non pretendere che lo capisca o che lo sopporti.~
+//Kivan
+@138  = ~Non ci crederai, elfo, ma tu mi piaci.~
+@139  = ~Hai ragione nano. Non ci credo.~
+@140  = ~Eppure, è così. Tieni la bocca chiusa, le mani sui tuoi averi e combatti con perizia. Ti mette chilometri avanti a qualsiasi tuo simile.~
+@141  = ~Allora ritornerò a quel silenzio che apprezzi così tanto.~
+@142  = ~Non ho mai visto un elfo assetato di sangue prima d'ora. Mi piacerebbe di più se le tue ragioni fossero migliori, però.~
+@143  = ~Cosa vorresti sapere delle mie ragioni?~
+@144  = ~Arr, ne so abbastanza. Hai perso la tua occasione in quel campo. Se avessi aspettato solo un altro giorno o due, Tazok sarebbe tornato. Ovviamente ti saresti fatto rompere la testa, ma forse avresti potuto mettere a segno un colpo o due, rallentandolo un po' per il resto di noi.~
+@145  = ~Shevarash mi guiderà dal mio nemico giurato. La mia caccia è lunga, ma prima o poi ucciderò Tazok. La mia vita mi è stata restituita per vendicare Deheriana. Una volta adempiuto al mio dovere, non sarò più costretto a rimanere qui da solo.~
+@146  = ~Questo è ciò che intendevo con ragioni deboli. Se vivere bene è la vendetta migliore come si suol dire, devi prima vivere, e lo puoi fare molto meglio con un bel gruzzolo d'oro da parte.~
+@147  = ~Kagain, non conosci né l'amore né la perdita. Non mi capiresti e ne sarei davvero spaventato se dovessi pensare che lo facessi.~
+@148  = ~Così sia. Vorrà dire che metterò io da parte un paio di monete per il tuo funerale.~
+//Minsc
+@149  = ~Ehi, criceto! Potresti convincere il tuo padrone a fare un passo avanti? Stare lì in piedi, contando l'aria, non ci porta da nessuna parte.~
+@150  = ~Uh... cosa... oh. Boo dice che hai detto qualcosa. È scortese rivolgersi direttamente a Boo. Soprattutto tu, perché Boo dubita del tuo impegno a calciare le chiappe del Male.~
+@151  = ~Ti ho solo suggerito di iniziare a muovere quei piedi. A meno che tu non voglia mettere radici.~
+@152  = ~Oh, mi dispiace. Mi sono lasciato trasportare dalle fantasie sui malvagi calciati come si deve.~
+@153  = ~Trasportare, eh? Non così bene come avresti dovuto. Muoviamoci.~
+@154  = ~È passato un po' di tempo da quando ho mangiato un bel pezzo di carne succosa, Minsc.~
+@155  = ~Non ti è piaciuta la zuppa di ranger che Boo ha preparato ieri?~
+@156  = ~Penso solo che Boo possa fare molto di più per la cucina. Hai mai pensato di fargli un bel bagno caldo ultimamente?~
+@157  = ~A Boo non piace il tuo tono, nano.~
+@158  = ~Non sono un bardo, quindi non ho un tono di nessun tipo. Ma quel topo è solo uno spreco di semi. Lascia che gli trovi la sua utilità.~
+@159  = ~Minsc non sarebbe nulla senza Boo! Senza Boo, chi direbbe a Minsc chi prendere a calci?~
+@160  = ~Mmm, quindi questo è il motivo per cui lo tieni così vicino. Parleremo di nuovo, grandone. Potrei avere un buon lavoro per uno come te.~
+@161  = ~Minsc, cosa ne pensi se tu e Boo accettaste un lavoro per me?~
+@162  = ~Cosa vorresti far fare a Minsc e Boo?~
+@163  = ~Boo mi ha parlato e dice che ti piacerebbe aiutarmi con alcuni dei miei lavori.~
+@164  = ~Boo non mi ha detto nulla. Sei sicuro?~
+@165  = ~Oh, sì, certo, ha detto che dovresti aiutare quel nano gentile a dare calci per la giustizia.~
+@166  = ~Boo dice di non ricordare di aver detto nulla del genere.~
+@167  = ~Boo era abbastanza assonnato quando me lo ha detto. Forse se ne è dimenticato?~
+@168  = ~No, non può essere! Boo può ricordare qualsiasi cosa.~
+@169  = ~Minsc, cosa ci guadagni a stare qui? Puoi guadagnare un bel po' di oro lavorando con me.~
+@170  = ~Boo dice che non dovrei fidarmi di te.~
+@171  = ~Nessuno ti ha chiesto di fidarti completamente di me. Solo una volta al mese il giorno di paga … ripensandoci anche allora faresti meglio a contare le monete.~
+@172  = ~*mormora cupamente* Ratto maledetto! Dovrei bollire quel dannato roditore e farla finita.~
+//Montaron
+@173  = ~Quindi, dici che i tuoi Zhent sono solo semplici commercianti, eh?~
+@174  = ~Esatto.~
+@175  = ~A me sembra che il tuo amico laggiù non sia proprio la migliore delle pubblicità. Non ispira particolare fiducia, sai.~
+@176  = ~Mmpf. Questa non è una vendita promozionale, sai? Anche se forse si potrebbe definire ricerca di mercato, dopotutto.~
+@177  = ~Ah, ma certo. Se dovessi riuscire a trascinarti in giro il tuo 'capo' in un unico pezzo, la Costa potrebbe meritare ulteriori investimenti, eh?~
+@178  = ~Non lo so. Il mio lavoro è assicurarmi che non ci incolpino di nulla che *non* abbiamo fatto.~
+@179  = ~Beh, detto tra noi, non mi dispiacerebbe se ne venissero altri come voi. Trattare regolarmente con un gruppo stabile potrebbe rendere più malleabile la folla di "nobili" tirchi che abbiamo qui adesso.~
+@180  = ~Allora ascia in spalla e lo vedrai …~
+@181  = ~Dirigiti verso l'oro, ragazzo mio, e non ti potrai mai sbagliare.~
+@182  = ~Sì. E quando l'oro è una necessità, c'è sempre la borsa di un uomo ricco a portata di mano.~
+@183  = ~Bah! I ricchi non portano la loro vera ricchezza nelle loro borse. Dopotutto, è importante che i clienti ritornino. Ciò significa affidarsi ad un'organizzazione che implementi procedure almeno in apparenza legali.~
+@184  = ~Ah! Mi ricordi un tizio che conosco … parla sempre di metodi produttivi e procedure …~
+@185  = ~A... uh... qualche nobile Zhenterim? Sai, ho sempre considerato la mia indipendenza trattabile per il giusto prezzo.~
+@186  = ~ … ed è sempre pronto a elargire "sussidi genuini alle sue organizzazioni" e cose del genere.~
+@187  = ~Me lo devi presentare allora, prima o poi. Non fa mai male parlare con una corporazione, vero?~
+//Quayle
+@188  = ~Dimmi, gnomo, perché parli sempre a raffica in quella maniera? Ti fa sembrare un elfo piuttosto che un compagno di senso.~
+@189  = ~Forse, Kagain, il tuo malinteso su questo tema è dovuto all'appropriazione da parte degli elfi di quel distacco intellettuale che, io nel mio genio, ho raggiunto per primo. Oh, sì.~
+@190  = ~Ah, di-stacco ne sa di più la mia ascia! Comunque, immagino che sia per questo che ti abbiamo incontrato alle porte della città coi pollici al vento.~
+@191  = ~Non stavo semplicemente tenendo i pollici in aria! Come è tipico di ogni nano, confondi l'aspetto esteriore con la realtà interiore.~
+@192  = ~L'osservazione dei flussi d'aria che circolano attraverso la porta offre intuizioni straordinarie … per qualcuno capace come il sottoscritto. (Ah, in nessun modo può aver capito tutto questo!)~
+@193  = ~Veramente? E cosa hai imparato, quindi?~
+@194  = ~Cosa? Ah, ma è inequivocabilmente semplice se valuti attentamente la mia presenza in questo gruppo eterogeneo. Ovvero che il mio intelletto senza eguali e i miei incredibili talenti sarebbero stati meglio impiegati altrove.~
+//Safana
+@195  = ~Suppongo che <CHARNAME> sappia il fatto suo, ma che sia morto e dannato se *Io* riesca a vedere la necessità di tenere una sciacquetta in mezzo a noi.~
+@196  = ~Oh, povero caro! Hai paura che ti faccia cadere le noci dalla sacca?~
+@197  = ~Dovresti pensare a fare qualcosa per la tua vista, donna. Nella mia sacca ci sono solo meloni.~
+@198  = ~Non preoccuparti, tesoro. Preferisco cenare con piatti... come dire... meno ristretti.~
+@199  = ~I tuoi appetiti sono fin troppo chiari. Ricordati solo che per soddisfarli devi avere una testa attaccata al collo.~
+//Shar-Teel
+@200  = ~Devo ammetterlo, mi fa piacere poter condividere con qualcuno la pura lotta in questa compagnia.~
+@201  = ~Debole! Non osare paragonarti a me!~
+@202  = ~Debole … io? Quel tipo che ha macellato l'ultimo gruppo che abbiamo affrontato doveva essere uno che mi assomigliava, allora.~
+@203  = ~Bah! Come tutti gli uomini, la tua debolezza si manifesta attraverso le tue passioni. Nel tuo caso, per l'oro. Per un altro sono le donne, o la bramosia della fama. Tutti voi siete senza valore!~
+@204  = ~Mmpf. Fino a quando continuerai a voler provare la tua piccola teoria standomi a debita distanza, andrà tutto bene.~
+//Skie
+@205  = ~Quindi. Ecco qua il piccolo forziere ambulante per cui quel bardo si agita tanto, eh?~
+@206  = ~Sai, non mi piace per niente sentire l'amore che Eldoth prova per me svilito in questa maniera.~
+@207  = ~Perché no? Si vede lontano un chilometro a che gioco mira. Lui canta e tu balli.~
+@208  = ~Tu... non osare! Non puoi parlare del nostro amore come se fosse una... bancarella di un mercato!~
+@209  = ~Ah. Ma io non ci trovo nulla di male nei mercati d'amore. Almeno le cortigiane hanno un lavoro onesto.~
+@210  = ~Sappi, rozzo bifolco, che il mio amore per Eldoth *non* è un articolo in commercio!~
+@211  = ~Ah, può anche darsi che non lo sia per te, mi domando se si possa dire lo stesso per lui.~
+//Tiax
+@212  = ~Allora, Grande, stai cominciando a fare spazio per il povero mercante armato di ascia, nel tuo impero?~
+@213  = ~Quando Tiax governerà, tutto apparterrà a Tiax, quindi il commercio dovrà cessare. Coloro che sopravvivranno, lo faranno per la sua misericordia, e si sostenteranno grazie alla sua carità.~
+@214  = ~Tempi difficili, sembra.~
+@215  = ~Sparisci! Le preoccupazioni sul tuo piccolo commercio imbrattano la Magnificenza di Tiax. Non c'è posto per te al Suo fianco.~
+@216  = ~La prenderò comunque come una buona notizia.~
+@217  = ~Tiax, potresti chiudere la tua maledetta bocca per una volta?~
+@218  = ~Tiax governerà su tutto, Tiax parlerà per tutto il tempo che Tiax vuole.~
+@219  = ~Beh, se proprio devi sbattere le gengive dì qualcosa di utile. In che modo serviresti Cyric governando tutto?~
+@220  = ~Nessuno dice a Tiax cosa dire! Solo Tiax governa Tiax e Tiax governerà tutti voi. Sarai solo grasso sotto le mie ruote.~
+@221  = ~Ma se... argh! Sono pazzo quanto te, a cercare di parlarti sensatamente.~
+@222  = ~Tiax non desidera più parlare con te. Ora adorerai Tiax in silenzio.~
+//Viconia
+@223  = ~Chi l'avrebbe detto, una elfa oscura, in carne ed ossa. Non sembri così spaventosa né infida come venite descritte.~
+@224  = ~È per questo che non hai chiuso occhio durante il mio turno di guardia ieri notte?~
+@225  = ~Temevi di essere colto di sorpresa dai miei simili?~
+@226  = ~Mi è solo venuto in mente che potresti non essere il lupo solitario che pretendi di essere.~
+@227  = ~Allora resta pure comodo, miserabile disgraziato. Se fossi davvero una spia del mio popolo, il tuo cuore pulsante e sanguinante starebbe già adornando uno dei nostri altari.~
+@228  = ~Può darsi. Ma mi darebbe un enorme fastidio se il mio fosse l'unico in quello stato alla fine della giornata.~
+//Xan
+@229  = ~Elfo, ti lamenti incessantemente da quando ci siamo conosciuti. Ti è mai passato per la testa che solo *forse* questa faccenda di <CHARNAME> non finirà come hai predetto?~
+@230  = ~No.~
+@231  = ~Stai facendo del tuo meglio per fare il profeta di sventura. Se sei così spaventato di riuscire, perché provarci?~
+@232  = ~Il disastro ci raggiungerà sia che ci muoviamo sia che restiamo fermi. Razionalmente, ho semplicemente preferito spostarmi nella sua direzione, per ridurre al minimo il tedio dell'attesa.~
+@233  = ~Sarai l'elfo più stupito della foresta, allora, quando io e <CHARNAME> risolveremo la questione.~
+@234  = ~Le vittorie minori sono gli inganni più insidiosi di tutti. Ci accecano alla grande e finale sconfitta che attende tutti noi: la Morte.~
+@235  = ~Meglio essere ciechi, allora, o ancora meglio essere sordi in tua compagnia. Ma dal momento che non lo sono, potrei magari renderti muto, visto che non riesci a fare altro che il menagramo.~
+@236  = ~Molto gentile da parte tua offrirmi gratuitamente un tale regalo ma temo che <CHARNAME> non apprezzerebbe il fatto che mi renderesti totalmente incapace di lanciare incantesimi, tu che ne pensi nano?~
+@237  = ~Xan, devo dire che la tua magia è diventata veramente potente. Non vedo così tanto potere da molto tempo.~
+@238  = ~Gradiresti un esempio pratico, nano?~
+@239  = ~Ah! Davvero spiritoso, elfo. Ad ogni modo, come stavo dicendo, la tua magia è così forte ora, che non vedo perché tu senta il bisogno di portarti dietro quella tua lama giocattolo.~
+@240  = ~Stai forse dicendo tra le righe di volere la mia Lama, nano? Solo io posso maneggiarla, o un erede del mio stesso sangue.~
+@241  = ~Non brandirei una lama forgiata dagli elfi nemmeno sotto tortura, ma un'arma del genere di potrebbe vendere per un ottimo prezzo.~
+@242  = ~Preferirei dare la mia vita piuttosto che vedere le tue sporche mani sulla mia Lama di Luna.~
+@243  = ~Uh. Fai attenzione a ciò che desideri, mago.~
+//Xzar
+@244  = ~È da un po' che te ne stai zitto. Spero che non sia dovuto a un eccessivo afflusso di buon senso al cranio.~
+@245  = ~Hai in verità interrotto una profonda riflessione sulle relative proprietà conservanti di tannino e more.~
+@246  = ~More! Cosa puoi conservare con delle dannate more?~
+@247  = ~Altre more, ovviamente. La marmellata di more è il mio ornamento preferito per il pane tostato.~ 
+@248  = ~Cos...? Siamo nei guai fino al collo, mezza Faerun ci vuole morta e tu stai pensando a cosa mangerai a colazione?~
+@249  = ~Beh... ho fame, vedi.~
+@250  = ~Ora che mi ci fai pensare, anch'io. Ehi, <CHARNAME>! Che ne dici di anticipare un po' la sosta?~
+

@@ -1019,10 +1019,12 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-- Returns to the wielder's hand when thrown
+– Returns to the wielder's hand when thrown
 
 THAC0: +2
-Damage: 2d4+2 (missile)
+Damage: 2d4+2
+Damage type (melee): Piercing
+Damage type (thrown): Missile
 Speed Factor: 1
 Proficiency Type: Dagger
 Type: One-handed

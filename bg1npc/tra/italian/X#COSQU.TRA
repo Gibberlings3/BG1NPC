@@ -1,0 +1,297 @@
+@0    = ~Ah-ah! Posso vedere dai vostri volti, bruciacchiati e pestati, ma piuttosto contenti, che avete ucciso il demone... ed ecco il suo anello. Fantastico! Libertà finalmente!~
+@1    = ~Immagino che tu abbia già ripulito questa prigione dai suoi tesori? *sospira* Andrò ad esplorare altre rovine. Grazie per avermi salvato!~
+@2    = ~Con i "grazie" non si compra né carne né vino. Che ne dici di esprimere la tua gratitudine in un modo più... materialistico?~
+@3    = ~Aspetta, come erano coinvolte quelle rose?~
+@4    = ~Addio, Natan... e stai fuori dai guai, va bene? Potrei non essere nei paraggi la prossima volta...~
+@5    = ~Cosa hai fatto?! Quella donna è una succube, un demone! Molto tempo fa, un mago, sopravvissuto alla caduta della Scuola di Ulcaster, ha inventato un modo per viaggiare tra i piani, grazie a quelle polveri. La succube, che aveva convocato per intrattenerlo nelle sue fatiche, ha rubato il manuale, ma prima che potesse mettere gli artigli sulle polveri, il mago è riuscito a interdirla. Ora sarà libera di viaggiare tra i piani... Oh, beh... le cose accadono, immagino. Almeno ora sono libero dal suo incantesimo. Dannatissime rose!~
+@6    = ~Non ho oro – e quasi tutto quello che ho trovato, l'ha preso la succube. Ho alcune pozioni, ma speravo di venderle per mantenermi in vita... per un po'...~
+@7    = ~Le pozioni andranno bene.~
+@8    = ~Hai bisogno di soldi più di me. Addio, Natan... e stai lontano dai guai, d'accordo? Potrei non essere nei paraggi la prossima volta...~
+@9    = ~Stregoneria, ecco come! Non sono che un ladro... un buon ladro, <PRO_SIRMAAM>, ma non sono abituato a trattare con cose... innaturali. Sono venuto a Firewine per lo stesso motivo per cui lo fanno tutti: i tesori... e ho visto una bellissima fanciulla fuori dal sotterraneo, raccogliere rose selvatiche bianche in un piccolo cesto. Era così bella - mi ha tolto il fiato. Non riusciva a prendere un fiore dalla cima di un cespuglio, appeso appena oltre la sua portata, quindi, naturalmente, le ho offerto il mio aiuto...~
+@10   = ~Quando ho afferrato il fiore, le spine sono spuntate dallo stelo e la rosa è diventata scarlatta del mio sangue. La donna rise sguaiatamente e me lo prese... ero schiavo. L'incantesimo non era perfetto, e a volte potevo fare cose di mia spontanea volontà - ed è così che mi sono imbattuto nelle note di quel mago, che ha evocato qui la succube, e ho trovato le sue polveri magiche. Tra le sue altre provviste, ho trovato una pozione che aveva chiamato Acqua Morta, e l'ho spruzzata sulle dannate rose.~
+@11   = ~Le rose sono morte e la mia volontà si è liberata, ma il demone è stato spietato. Ha detto che aveva tempo di aspettare... che le avrei portato le polveri o sarei morto in questa prigione. Il resto lo sai... beh, più o meno.~
+@12   = ~Con i "grazie" non si compra né carne né vino. Che ne dici di esprimere la tua gratitudine in un modo più... materialistico?~
+@13   = ~Oh, sarò molto cauto... Ora, dove avevo incontrato quel mendicante che vendeva una mappa del tesoro di Maztica?~
+@14   = ~Facile venire, facile andare. Sono tue. Ora devo andare... la vita è troppo breve per spenderla in qualcosa di diverso dall'avventura!~
+@15   = ~Adoro Amelia...~
+@16   = ~Le rose! Oh, per gli dèi, le rose! Io... la mia volontà si indebolisce ogni secondo. Ecco prendi queste! Queste sono ciò che vuole!~
+@17   = ~Quella donna... il demone... ti ha ingannato! Non se ne andrà, finché non avrà le polveri che ti ho dato... Non posso dire di più ora, ma giuro che è un essere di pura malvagità. Per favore, per favore uccidila e liberami!~
+@18   = ~Devo correre alla chiamata della Padrona.~
+@19   = ~Ehi là. Dimmi, hai per caso notato una donna... la donna più bella che tu abbia mai visto, nelle vicinanze?~
+@20   = ~Sì, e ho una brutta notizia per te - non ti sposerà, amico.~
+@21   = ~Non che io possa ricordare.~
+@22   = ~Allora, sei l'uomo che le era stato promesso? Sii ragionevole, esci da questo posto orribile e libera la donna dal suo voto!~
+@23   = ~Sì, l'ho vista e mi piacerebbe sentire la tua versione della storia.~
+@24   = ~S-Sposare? Non sposerei quell'arpia per tutto l'oro di Faerun... cosa ti ha detto? Ha ancora quelle rose insanguinate?~
+@25   = ~Ehm... ha detto di essere la tua promessa sposa e che avrebbe dovuto darti una risposta per il suo sedicesimo compleanno presentandoti rose rosse o bianche. Le sue rose ora sono solo polvere, però. Non puoi comportarti come un adulto e andare a sistemare la tua relazione? Mi renderebbe la vita molto più facile...~
+@26   = ~Voglio prima sentire la tua versione della storia.~
+@27   = ~Amelia aveva previsto che avresti provato a macchiare il suo nome! Morirai per questo!~
+@28   = ~Oh, buon per te! Se la vedi, corri per la tua vita!~
+@29   = ~Cosa sai di lei?~
+@30   = ~Beh, a dire il vero, l'abbiamo incontrata. Ha detto che è la tua promessa sposa e che avrebbe dovuto darti una risposta per il suo sedicesimo compleanno presentandoti rose rosse o bianche. Le sue rose ora sono solo polvere, però. Non puoi comportarti come un adulto e andare a sistemare la tua relazione?~
+@31   = ~Cosa... quale voto? Che storia ha inventato quella sgualdrina? Ha ancora quelle rose insanguinate?~
+@32   = ~Ehm... ha detto di essere la tua promessa sposa e che avrebbe dovuto darti una risposta per il suo sedicesimo compleanno presentandoti rose rosse o bianche. Le sue rose ora sono solo polvere, però. Non puoi comportarti come un adulto e andare a sistemare la tua relazione?~
+@33   = ~Voglio prima sentire la tua versione della storia.~
+@34   = ~Amelia aveva previsto che avresti provato a macchiare il suo nome! Morirai per questo!~
+@35   = ~Non sono che un ladro... un buon ladro, <PRO_SIRMAAM>, ma poco abituato a trattare con cose... innaturali. Sono venuto a Firewine per lo stesso motivo per cui lo fanno tutti: i tesori... L'ho vista fuori dal sotterraneo, raccogliere rose selvatiche bianche in un piccolo cestino. Era così bella; mi ha tolto il fiato. Non riusciva a prendere un fiore dalla cima di un cespuglio, appeso appena oltre la sua portata, quindi naturalmente le ho offerto il mio aiuto...~
+@36   = ~<PRO_MANWOMAN>, quelle sono tutte bugie!~
+@37   = ~Quando ho afferrato il fiore, le spine sono spuntate dallo stelo e la rosa è diventata scarlatta del mio sangue. La donna rise sguaiatamente e me lo prese... ero schiavo. Mi ha ordinato di entrare nella prigione e cercare un tesoro per lei. All'inizio non sapevo cosa volesse, ma a volte riuscivo a combattere la compulsione a adorarla e obbedirle e ho cercato da solo le risposte.~
+@38   = ~Continua...~
+@39   = ~Quindi è una specie di strega cattiva? La ucciderò per te, se hai di che pagare. Oh, e risparmiami il resto di questa orribile storia.~
+@40   = ~Un giorno ho trovato il diario di un mago morto da tempo.~
+@41   = ~Quell'uomo era scappato dal disastro nella Scuola Ulcaster e si era stabilito qui, studiando in solitudine... ad eccezione di una succube che aveva evocato dall'Abisso. Lei... lo ha intrattenuto, ma ha anche scoperto che aveva creato una serie di polveri magiche, che, una volta combinate, permettevano l'apertura dei cancelli tra i piani. Niente convocazioni, niente navi... solo polveri combinate nel modo giusto... e voilà! Il portale viene aperto. Ha cercato di rubare le polveri del mago e il manuale...~
+@42   = ~Il mago, tuttavia, ha colto la sua fanciulla demoniaca in flagrante e lei è fuggita, portando via il manuale... ma non le polveri. Il mago ha quindi protetto le rovine contro il suo ingresso e ha continuato a vivere come un eremita, senza mai preoccuparsi di ricreare i suoi appunti. Tra le altre sue provviste ho trovato una pozione che chiamava Acqua Morta, e l'ho spruzzata sulle dannate rose.~
+@43   = ~Ahimè, le rose sono morte e la mia volontà è stata liberata, ma il demone è stato spietato. Ha detto che ha tempo di aspettare... che le porterò le polveri o morirò in questa prigione. Scelgo di morire nella prigione... meglio che farmi risucchiare la vita goccia a goccia da una succube - e non ho dubbi che lo farebbe una volta che le avrò dato le polveri.~
+@44   = ~Hai finito? Bene. Allora vado a ucciderla.~
+@45   = ~Forse posso convincerla a lasciarti andare se le portiamo le polveri? Lasciami parlare con lei.~
+@46   = ~Aveva previsto che avresti provato a macchiare il suo nome! Morirai per questo!~
+@47   = ~Penso che vi ucciderò entrambi e userò le polveri e il manuale da solo.~
+@48   = ~Amelia ha ammaliato anche uno dei miei compagni. Immagino che ci sia poco da fare se non ucciderla e in tal modo liberare sia te che Coran.~
+@49   = ~Non vorrei essere nei tuoi panni, amico. Non temere, tuttavia, posso uccidere il demone e liberarti... per il giusto prezzo, naturalmente.~
+@50   = ~Quindi sei anche tu sotto il suo incantesimo? Molto bene, combattiamo. Ma tu combatti per l'onore della succube! Preferirei morire in battaglia che marcire qui o arrendermi al demone!~
+@51   = ~Ah, capisco. Non posso offrirti denaro, ma nel nascondiglio del vecchio mago ho trovato delle pozioni rare: te le darò, se mi darai la prova che il demone è morto. Uno dei suoi anelli sarà sufficiente - so che non può essere rimosso mentre è in vita. Ehi, non fissarmi così! Lo so perché lo so.~
+@52   = ~Amelia
+ 
+Apparentemente Amelia è un essere malvagio che ha ridotto in schiavitù Natan. Abbiamo deciso di uccidere Amelia e liberare Natan.~
+@53   = ~Amelia
+ 
+Amelia è apparentemente una succube alla caccia di alcune polveri secolari! Aveva ridotto in schiavitù Natan affinché le trovasse per lei. Abbiamo deciso di uccidere Amelia e liberare Natan.~
+@54   = ~Dubito che mantenga la sua parte dell'accordo. Inoltre, non la ucciderai davvero - la rigetterai nell'Abisso, a cui appartiene. I piani sarebbero molto più sicuri senza una succube che possa viaggiare tra loro a suo piacimento. Uccidila, ti prego. Non posso offrirti denaro, ma nel nascondiglio del vecchio mago ho trovato delle pozioni rare: te le darò, se mi porterai la prova che il demone è morto. Uno dei suoi anelli sarà sufficiente - so che non può essere rimosso mentre è in vita. Ehi, non fissarmi così! Lo so perché lo so.~
+@55   = ~Come fai a sapere se porto le pozioni su di me o se le ho nascoste da qualche parte? Come fai a sapere se Amelia ha ancora il manuale?~
+@56   = ~Suppongo che dovrò fidarmi della mia fortuna! Muori, feccia!~
+@57   = ~Hai ragione. Ma non mi azzarderei a uccidere un demone senza una sostanziale ricompensa per ispirare il mio coraggio...~
+@58   = ~Dannazione! Va bene, va bene, vado ad ucciderla.~
+@59   = ~Saluti a te da un umile servitore di Lathander, Rashel Raggio di Sole.~
+@60   = ~Che tipo di aiuto posso darti?~
+@61   = ~Vendi cure magiche o pergamene?~
+@62   = ~Puoi parlarci delle terre vicine?~
+@63   = ~A che ora finisci di lavorare? Ho visto una locanda accogliente nelle vicinanze e mi chiedevo se ti uniresti a me per cena?~
+@64   = ~Per favore, parlami di questo tempio.~
+@65   = ~Il Radioso di Lathander, Kelddath Ormlyr, dovrebbe essere in grado di aiutarti. Puoi trovarlo all'interno del Tempio del Canto del Mattino.~
+@66   = ~C'è qualcos'altro che vorresti sapere?~
+@67   = ~No, grazie, Rashel. Arrivederci.~
+@68   = ~Ora ti trovi a Beregost. Una volta era un villaggio, sotto la protezione della Scuola di Magia. Veniva chiamata la Scuola di Ulcaster, poiché fu fondata da Ulcaster, uno scongiuratore di una certa fama, ma fu distrutta per paura dai maghi del Calimshan.~
+@69   = ~Ma il Radioso di Lathander, Kelddath Ormlyr, non approva che si parli di quel luogo infestato, figuriamoci avvicinarvisi.~
+@70   = ~La famiglia Craumerdaun di Amn ha delle proprietà nelle vicinanze e alleva ottimi cavalli, molto apprezzati ad Amn e Tethyr.~
+@71   = ~A nord-ovest si trova Alta Siepe, la tenuta di Thalantyr l'Evocatore. È un tipo solitario, credo, e non ama i visitatori. Tuttavia, si dice che sia interessato a cose e luoghi lontani, quindi se avessi qualcosa di strano da vendere, potresti tentare la fortuna.~
+@72   = ~ A che ora finisci di lavorare? Ho visto una locanda accogliente nelle vicinanze e mi chiedevo se ti uniresti a me per cena?~
+@73   = ~*Il volto di Rashel si illumina d'orgoglio.* Il Canto del Mattino è il nome del nostro tempio, consacrato nel nome del Signore del Mattino, Lathander. Proteggiamo le brave persone di Beregost. I servitori del Signore del Mattino si occupano anche dei campi di patate ed erbe medicinali del tempio a est della strada e allevano le pecore sui pendii della collina sormontata dalle rovine della Scuola di Ulcaster.~
+@74   = ~Le pecore sono più facilmente sorvegliate lì, impedendo ai ladri e alle bestie predatrici di razziarle. Ci permette un certo controllo sulle spedizioni verso le rovine e di prevenire l'espansione di Beregost.~
+@75   = ~Nel corso degli anni, vari mercanti Amniani hanno mostrato una tendenza angosciante a rivendicare tutte le terre facilmente raggiungibili dalla Strada della Costa che non fossero fortemente difese.~
+@76   = ~Vendi cure magiche o pergamene?~
+@77   = ~Cammina nella luce benedetta del Sole, mio buon uomo.~
+		~Cammina nella luce benedetta del Sole, mia gentile signora.~
+@78   = ~Non sono sicura di sapere cosa tu stia tentando di fare, ma immagino che non ci sia nulla di male nel riportare in vita alcuni fiori. Chiederò 200 monete d'oro per l'incantesimo.~
+@79   = ~200 monete d'oro? Potremmo comprare un carretto pieno di rose per quel prezzo! Persino rose blu! Eh, vediamo se possiamo uccidere Natan o fare qualcos'altro di... più economico.~
+@80   = ~Per favore, fallo, mia brava donna. Ecco i soldi.~
+@81   = ~Hai mai sentito parlare di carità, mia brava donna? La nostra richiesta è per una buona azione! Abbiamo incontrato una signora di nome Amalia presso le rovine del Ponte di Firewine, ed è la donna più bella che abbia mai visto. Il fidanzato di Amelia le ha chiesto di dargli la risposta definitiva per il suo sedicesimo compleanno. Se avesse acconsentito al loro matrimonio, gli avrebbe dato delle rose bianche, e se non fosse stata d'accordo - delle rose rosse. Ora, ad Amelia non piaceva molto il ragazzo, quindi ha scelto le rose rosse. Il suo pidocchio di fidanzato, tuttavia, ha trovato un modo per vendicare il suo orgoglio: si è nascosto tra le rovine e Amelia, vincolata dal suo voto, non può andarsene senza prima avergli dato i fiori. Lei non può entrare nelle rovine - sembra che quel disgraziato le abbia interdetto l'ingresso. Quindi, abbiamo deciso di aiutare Amelia, riportare in vita le rose rosse e consegnarle a Natan.~
+@82   = ~Come desideri. Cammina nella luce benedetta del Sole, mio buon signore.~
+		~Come desideri. Cammina nella luce benedetta del Sole, mia gentile signora.~
+@83   = ~Devi riportare in vita i fiori per commettere una buona azione, quindi? Io... penso di poterti aiutare. L'incantesimo sarà insolito, ma non chiederò soldi - sono felice di aiutare per una giusta causa.~
+@84   = ~Come desideri, mio buon signore.~
+		~Come desideri, mia gentile signora.~
+@85   = ~Possa la luce del Signore del Mattino guidarti.~
+@86   = ~È troppo debole e insolito, e dubito di poterlo persino percepire. Ma posso benedire il tuo compagno, per ogni evenienza. Sfortunatamente, dovrò farlo a pagamento, poiché temo che i miei superiori non sarebbero d'accordo sul fatto che l'incantesimo fosse necessario, figuriamoci salvavita... Avrò bisogno di cento pezzi d'oro.~
+@87   = ~Benedici Coran, accolita, e usa bene il denaro per instillare l'amore della luce e della bontà nella gente comune e nei signori.~
+@88   = ~Ora, questa è una fregatura bella e buona! Ce ne andiamo.~
+@89   = ~La burocrazia e la corruzione dei sacerdoti sono ben note. Forse è *questo* il male a cui stai annuendo? Ma non si può stare troppo attenti. Lancia l'incantesimo, accolita Rashel.~
+@90   = ~Non dubitare, i tuoi soldi saranno spesi con saggezza.~
+@91   = ~Possa la luce del Signore del Mattino risplendere sempre nel tuo cuore. Sei di nuovo qui: cerchi di nuovo aiuto?~
+@92   = ~Sì, abbiamo deciso di riportare in vita le rose della ragazza maledetta.~
+@93   = ~Ho cambiato idea, Rashel. Non si è mai troppo prudenti di questi tempi. Ecco le tue monete; per favore, benedici Coran.~
+@94   = ~Ero di passaggio e ho deciso di passare a salutarti.~
+@95   = ~Chi sei e come fai a conoscermi?~
+@96   = ~Sono lusingata dal tuo interesse per la mia umile persona, ma il mio cuore appartiene al Signore del Mattino, il quale servo e al quale appartiene tutto il mio tempo.~
+@97   = ~Così sia, ma non sai cosa ti perdi!~
+@98   = ~Allora vado.~
+@99   = ~Bene, arrivederci, allora. E benvenuti al Canto del Mattino.~
+@100  = ~Ti devo aver preso per qualcun altro. Strano, ero sicura che avessi avuto a che fare con delle rose... ho bisogno di studiare di meno.~
+@101  = ~Perché porti dei fiori appassiti nella Casa del Signore del Mattino?~
+@102  = ~È una lunga storia, sorella santa, ma il cuore di una fanciulla non conoscerà felicità finché queste rose non saranno riportate in vita.~
+@103  = ~Sì, il mio amico Coran ha ragione. La pace e la tranquillità di qualcuno dipendono dal fatto che questi petali possano essere nuovamente resi rossi e freschi.~
+@104  = ~È una storia molto interessante, in realtà... Abbiamo incontrato una signora di nome Amalia presso le rovine del Ponte di Firewine, ed è la donna più bella che abbia mai visto. Il fidanzato di Amelia le ha chiesto di dargli la risposta definitiva per il suo sedicesimo compleanno. Se avesse acconsentito al loro matrimonio, gli avrebbe dato delle rose bianche, e se non fosse stata d'accordo - delle rose rosse. Ora, ad Amelia non piaceva molto il ragazzo, quindi ha scelto le rose rosse. Il suo pidocchio di fidanzato, tuttavia, ha trovato un modo per vendicare il suo orgoglio: si è nascosto tra le rovine e Amelia, vincolata dal suo voto, non può andarsene senza prima avergli dato i fiori. Lei non può entrare nelle rovine - sembra che quel disgraziato le abbia interdetto l'ingresso. Quindi, abbiamo deciso di aiutare Amelia, riportare in vita le rose rosse e consegnarle a Natan.~
+@105  = ~Ouch! La mia mano... sanguina di nuovo...~
+@106  = ~Sento una vaga traccia malvagia su queste rose... e sul tuo compagno. Tuttavia, sembri sincero e gentile. Forse mi sbaglio.~
+		~Sento una vaga presenza malvagia su queste rose... e sul tuo compagno. Tuttavia, sembri sincera e gentile. Forse mi sbaglio.~
+@107  = ~Ti sbagli. Grazie per il tuo aiuto.~
+@108  = ~Bene, arriveremo abbastanza presto a fondo di questa storia. Tuttavia, per ogni evenienza... puoi fare qualcosa per togliere quella presenza malvagia da Coran e dalle rose?~
+@109  = ~I miei servi qui mi han detto che hai quello di cui ho bisogno: le polveri. Consegnamele, <CHARNAME>...~
+@110  = ~Voglio sapere la verità, prima di prendere la mia decisione.~
+@111  = ~Certamente, certamente.~
+@112  = ~Certamente, certamente. Ma dovresti liberare i tuoi prigionieri e darci qualcosa in cambio...~
+@113  = ~Hai fatto prigioniero il mio compagno e ora mi stai chiedendo di essere un bravo ragazzo e di fare affari con te! Io dico che i tempi sono maturi per la spada.~
+		~Hai fatto prigioniero il mio compagno e ora mi stai chiedendo di essere una brava ragazza e di fare affari con te! Io dico che i tempi sono maturi per la spada.~
+@114  = ~Ti darò le polveri in cambio del mio compagno... e una bella ricompensa.~
+@115  = ~Qual è la verità, mortale? Guardati allo specchio, <CHARNAME>, e vedrai un altro giovane <RACE>... e questa è la verità su di te, ovviamente. Eppure, c'è un'altra verità, quella che non può essere vista allo specchio - ed è spaventosa. Guardami come se fossi uno specchio, non chiedere la verità nascosta. Sono solo una ragazza bisognosa e mi sono guadagnata l'oggetto che tieni tra le mani.~
+@116  = ~Qual è la verità, mortale? Non molto tempo fa, eri solo un giovane <RACE>... e ora hai fatto crescere penne sulla coda adatte a un figlio dell'Omicidio. Sei più felice per questo? Sei diverso? Ecco la verità su di me: sono una ragazza bisognosa, che si è guadagnata l'oggetto che hai in mano. Dammelo e ti consegnerò quel patetico Manuale...~
+@117  = ~Dammelo e libererò quei patetici ladri...~
+@118  = ~*sospirando* Non voglio stare qui tutto il giorno a parlare con te. Ecco le polveri e ora mantieni la tua parola: libera il ladro o sarà la tua fine!~
+@119  = ~Verità spaventosa? Cosa sai di me, Amelia? Per favore, dimmelo, e le polveri saranno tue!~
+@120  = ~Mmm... mi hai quasi convinto... Rilascia il mio compagno, e aggiungici una bella ricompensa, e avremo raggiunto un accordo.~
+@121  = ~La tua elusiva prolissità dimostra la tua malvagità, e ti darò la stessa risposta che do a ogni malvagio che incontro. MUORI!~
+@122  = ~Ce le ho! Ce le ho! Addio a tu, stupido manuale!~
+@123  = ~Ce le ho! Ce le ho! Tieni, prendi questa collana. Cos'è uno stupido gingillo, rispetto alla libertà?~
+@124  = ~Allora oggi è il giorno in cui morirai, sciocco mortale!~
+@125  = ~È stato un piacere fare affari con te, ragazza.~
+@126  = ~'È stato un piacere fare affari con te... Ma temo che tu non stia ottenendo abbastanza da questo affare, mio eroe. Permettimi di aggiungere il bacio più dolce, un bacio che non dimenticherai mai, al pagamento...~
+@127  = ~Ora, questo è un bel modo per concludere l'affare!~
+@128  = ~Mio padre, Gorion, mi ha insegnato a non baciare mai donne strane! Ecco le polveri e ora tieni fede alle tue parole: libera i ladri, e alla svelta!~
+@129  = ~Dubito che tu possa, ma vorrei essere lontana da questo piano.~
+@130  = ~*sorride maliziosamente* Affare fatto.~
+@131  = ~La spaventosa verità è che tu sei solo un semi- <RACE>... il secondo sangue che scorre nelle tue vene è potente e oscuro... Ora, devo andare. Seguitemi, servi.~
+@132  = ~Avvicinati, tesoro.~
+@133  = ~Uff, mortale noioso, senza spina dorsale, senza fiamme... ma non ho tempo per i giochi. Dammi le polveri! Ah! Ci vediamo nei Nove Inferi, <CHARNAME>!~
+@134  = ~Siete tornati. I vostri cuori si sono addolciti alla supplica della povera Amelia? Mi aiuterete?~
+@135  = ~Oh, ferma questa commedia, succube. Ho quello che vuoi, lo comprerai da me?~
+@136  = ~Io... l'ho ucciso accidentalmente.~
+@137  = ~Ho sentito la versione di Natan della storia e sono propenso a credergli. Sono venuto per bandirti dal Piano Materiale e liberare il ladro. Difenditi, demone!~
+@138  = ~Natan mi ha detto che sei malvagia, e io sono propenso a credergli. Lascio che sia la mia spada a parlare, quando incontro creature malvagie. Muori, strega!~
+@139  = ~Avevi ragione. Natan ha blaterato una storia incomprensibile accusandoti di essere un demone, di ruberie e di furto di anime... Chissà perché non ha incluso un bell'omicidio nella lista? Piuttosto ingiusto... In ogni caso, non è un uomo a cui legarsi, quindi dammi quelle rose e cercherò di liberarti.~
+@140  = ~Ho deciso di aiutarti, dopotutto. Natan ha cercato di raccontarmi una elaborata bugia, e chiaramente non è un uomo per una bella fanciulla come te, a cui essere legato.~
+@141  = ~Ascolta, il tuo gioco è finito. Tuttavia, ti risparmierò se consegnerai il manuale rubato e giurerai che non farai del male a Natan.~
+@142  = ~Ce l'hai? Meraviglioso. Ecco l'oggetto magico per il disturbo... Ora dammi le polveri.~
+@143  = ~Tutti traggono profitto dal buon commercio onesto. Tranne il povero Natan, ovviamente, ma la sua morte è irrilevante. Addio, Amelia, divertiti con le polveri.~
+@144  = ~Quindi, la storia di Natan era vera. Non posso riportarlo in vita, ma posso purificare il suo sangue ingiustamente versato e vendicarlo. Muori, demone!~
+@145  = ~Mio eroe! L'oggetto magico che ti ho promesso non è abbastanza per premiare un atto così coraggioso... Lascia che ti dia un bacio che non dimenticherai, un bacio con cui nessuna donna mortale potrà mai rivaleggiare...~
+@146  = ~L'oggetto è una ricompensa sufficiente, Amelia. Tutti traggono profitto da un commercio buono e onesto e non sarò io a mescolare l'utile al dilettevole. Addio, Amelia, e divertiti con le polveri.~
+@147  = ~Non così in fretta! Un misero oggetto e un bacio? Che ne dici di darci il manuale e di dividere le polveri a metà? Mi sembra un buon affare...~
+@148  = ~Baciami allora, bellissima, e baciami forte.~
+@149  = ~L'hai ucciso? Aveva... aveva una borsa con delle polveri su di lui? Sono mie e vorrei riaverle. Ti darò un oggetto magico in cambio...~
+@150  = ~Non ho trovato polveri, Amelia, ma posso tornare a cercarle.~
+@151  = ~Aspetta... c'è dell'altro in questa storia, allora? Forse sei malvagia, dopotutto... e mi hai indotto a uccidere un uomo innocente! Non posso riportarlo in vita, ma posso purificare il suo sangue ingiustamente versato e vendicarlo. Muori, strega!~
+@152  = ~Oggi è il giorno in cui morirai, sciocco mortale!~
+@153  = ~Sei molto gentile, <PRO_LADYLORD>... C'è un altro favore che ti chiedo. Natan aveva delle polveri sulla sua persona, polveri che appartengono a me. Ne ho davvero bisogno... per diventare libera. Per favore, portamele. Devo averle.~
+@154  = ~Allora, il piccolo ladro l'ha capito? Ho sottovalutato lui... e il tuo compagno. Purtroppo, dopotutto, non siete degli sciocchi docili. Non ti permetterò di vagare libero, sapendo chi sono! Oggi è il giorno in cui morirete, stupidi mortali!~
+@155  = ~Ecco, prendi questa collana. Cos'è uno stupido gingillo, rispetto alla libertà?~
+@156  = ~Mortale, non sarai uno sciocco docile, ma sciocco senz'altro. Pensi che ti permetterò di vagare liberamente, sapendo chi sono? Oggi è il giorno in cui muori!~
+@157  = ~Non prestargli attenzione, <CHARNAME>, è solo geloso...~
+@158  = ~No! Ha ragione lui! C'era qualcosa di terribile nel bacio di una succube! Stai lontana da me, demone, e scambiamo le merci.~
+@159  = ~I tuoi baci... Uccidono, vero? Volevi uccidermi! Muori, bestia traditrice!~
+@160  = ~Non badare a lui, tesoro...~
+@161  = ~Uff, mortale noioso, senza spina dorsale, senza fiamme... Ecco, prendi questa collana. Non mi è mai piaciuta, comunque.~
+@162  = ~Non è niente, tesoro, assolutamente niente.~
+@163  = ~Per favore, ti prego, ti scongiuro... ti ricompenserò per avermi portato quelle polveri, perché la mia libertà è in loro - lo sento!~
+@164  = ~Sono libera, finalmente! Mio eroe, meriti più di quello stupido gingillo. Permettimi di darti il bacio più dolce che non potrai mai dimenticare.~
+@165  = ~È davvero troppo, Amelia.~
+@166  = ~Baciami allora, bellissima, e baciami forte.~
+@167  = ~Sei libera? Senza riportare in vita le rose? Sai, tutto questo suona strano. È meglio che ti uccida... nel caso tu sia veramente malvagia.~
+@168  = ~Hai le polveri? Meraviglioso. Dammele... presto! Sto perdendo la pazienza! Ecco l'oggetto magico che ti ho promesso.~
+@169  = ~Aspetta... come ti liberano le polveri? Pensavo fossero le rose di cui avevi bisogno? Strano. Forse sei davvero malvagia, dopotutto... e mi hai indotto a uccidere un uomo innocente! Non posso riportarlo in vita, ma posso purificare il sangue versato ingiustamente e vendicarlo. Muori, strega!~
+@170  = ~Hai le rose? Il mio cuore canta di gioia a questa vista! Presto sarò libera. Veloce, veloce! Alle rovine!~
+@171  = ~*tossendo* Perdonami la fretta.~
+@172  = ~*Singhiozza*~
+@173  = ~OK, OK, dammi le tue stupide rose!~
+@174  = ~Amelia
+ 
+Ho incontrato una donna strana ma bellissima, Amelia. Ci ha chiesto di riportare in vita alcune rose appassite e di darle a Natan, un ladro che a quanto pare si nasconde da qualche parte tra le rovine di Firewine. Amelia ha detto che avrei dovuto portare queste rose al Tempio del Canto del Mattino a Beregost per riportarle in vita.~
+@175  = ~Ti auguro una buona giornata, Amelia.~
+@176  = ~Grazie, gentili sconosciuti, e grazie, Coran, per essere stato così comprensivo. Porta queste rose al tempio di Beregost; chiedi al sacerdote di riportarle in vita e una volta che sarai alle rovine consegnale a Natan. È... era un ladro. Temo, tuttavia, che sia arrabbiato con me per aver rifiutato il suo amore, e potrebbe provare a dirti delle sciocchezze su di me... per favore, non credergli!~
+@177  = ~La tua storia - mi sembra molto sospetta. I ladri non sono tipi da chiedere giuramenti...~
+@178  = ~Amelia
+ 
+Ho incontrato una donna strana ma bellissima, Amelia. Ci ha chiesto di riportare in vita alcune rose appassite e di darle a Natan, un ladro che a quanto pare si nasconde da qualche parte tra le rovine di Firewine. Amelia ha detto che avrei dovuto portare queste rose al Tempio del Canto del Mattino a Beregost per riportarle in vita.~
+@179  = ~Che tipo di storie, esattamente?~
+@180  = ~Se questo cane codardo cerca in qualche modo di disonorarvi, mia signora, verrà fermato. Hai sofferto abbastanza. Ecco, dammi quelle rose e ti giuro che farò del mio meglio per liberarti.~
+@181  = ~Uomini... Non me lo dire! Pronti a inventare qualsiasi cosa, quando pensano che qualcuna gli abbia fatto un torto. Non preoccuparti, sorellina, farò in modo che riceva le tue rose!~
+@182  = ~C'è un altro modo per dare il messaggio a Natan? Forse un semplice "Non ti amo e non ti sposerò" su un rotolo sigillato con il tuo anello con sigillo? Non voglio davvero andare fino al tempio.~
+@183  = ~Povera me! Per quanto tempo vagherò senza aiuto, disperata, desolata... *singhiozza*~
+@184  = ~Amelia
+ 
+Ho incontrato una donna strana ma bellissima, Amelia. Ci ha chiesto di riportare in vita alcune rose appassite e di darle a Natan, un ladro, che a quanto pare si nasconde da qualche parte tra le rovine di Firewine. La sua storia sembrava strana e, comunque, non avevo tempo per consegnare i fiori, quindi ho rifiutato di aiutarla.~
+@185  = ~Vorrei saperlo. Qualche tipo di sigillo lo protegge da me. Ogni volta che provo ad entrare, vengo trasferita in qualche angolo lontano del Faerun. L'ultima volta mi sono ritrovata a Turmish... quindi non oso riprovare.~
+@186  = ~Tutto questo è abbastanza meraviglioso e strano. Ti aiuteremo, mia cara donna, al meglio delle nostre capacità.~
+@187  = ~Non ho tempo per storie stupide e rose. Muoviamoci, compagni.~
+@188  = ~È un malinteso comune. Nella Gilda del mio fidanzato venivano dati e presi tutti i tipi di giuramenti. Alcuni hanno persino coinvolto i membri della famiglia... per legarli completamente ai loro piani. Ero giovane e sciocca, e lo trovavo molto allettante. Ahimè, il suo fascino svanì con la distanza e il tempo, e ora vorrei riavere la mia vita... se ancora posso, o morire in pace. Mi aiuterai?~
+@189  = ~Capisco. Bene, dammi quelle rose e cercherò di liberarti dal tuo giuramento.~
+@190  = ~Sembra sempre più intrigante. Di dove sei? Ho sentito parlare di diverse gilde di ladri e, in effetti, vorrei registrare un'usanza così interessante come far fare un voto solenne alla fidanzata di un membro.~
+@191  = ~Vedo che non ti fidi di me. Ahimè, allora vagherò senza aiuto...~
+@192  = ~Oh, non lo so. Mi è appena venuto in mente che Natan potrebbe essere arrabbiato, e non è mai stato un uomo dalle parole dolci. Mi frusterà con la lingua, ne sono sicuro. Mi chiamerà strega e dirà altre bugie... solo per vendicarsi, ovviamente.~
+@193  = ~Sembra un po' eccessivo per un uomo rifiutato dalla sua fidanzata... anche se è un ladro della peggior specie. Dimmi, mia cara, c'è un pizzico di verità in quei racconti?~
+@194  = ~Amelia... Adoro Amelia...~
+@195  = ~No, mia signora, non lo farai! Io sono a tua disposizione.~
+@196  = ~Oh, è piuttosto nobile da parte tua, mio buon elfo. Perdonami per aver separato la tua piccola compagnia.~
+@197  = ~Amelia
+ 
+Ho incontrato una donna strana ma bellissima, Amelia. Ci ha chiesto di riportare in vita alcune rose appassite e di darle a Natan, un ladro che a quanto pare si nasconde da qualche parte tra le rovine di Firewine. La sua storia suonava strana e, comunque, non avevo tempo per consegnare i fiori, quindi ho rifiutato di aiutarla. Coran, tuttavia, è scappato per aiutare la ragazza. Tipico.~
+@198  = ~Oh, sei la compagnia più nobile che abbia mai incontrato! Coran, mio coraggioso elfo, mi toglieresti queste orribili rose morte?~
+@199  = ~Sarà un piacere- Ouch! Auch! Certamente hanno mantenuto le loro spine!~
+@200  = ~Sei ferito, mio povero eroe? Ah, sono così goffa! Ho graffiato l'uomo più meraviglioso che abbia mai incontrato... devi ritenermi così terribile. Ora permettimi di fasciarti la ferita con il mio fazzoletto...~
+@201  = ~Dei, abbiate pietà di me! Amelia, Coran viene fatto a pezzi un giorno sì e l'altro pure. Un graffio non è niente!~
+@202  = ~Amelia
+ 
+Abbiamo incontrato una fanciulla, apparentemente promessa sposa di un ladro che si nasconde da lei tra le rovine del Ponte di Firewine. Apparentemente, Amelia non può entrare nelle rovine, ma non può nemmeno lasciare la zona, fino a quando non avrà risposto al suo fidanzato "sì" o "no", rispettivamente sotto forma di rose bianche e rosse. Abbiamo deciso di riportare in vita un mazzo di rose appassite per lei e di darlo a questo disgraziato, Natan. Secondo Amelia, la libererà dal suo voto.~
+@203  = ~Ha già una donna che si prende cura delle sue ferite, Amelia. Addio.~
+@204  = ~Non sarà necessario. Coran, ricordami di tapparti le orecchie più tardi... dopo che ti avrò scuoiato vivo.~
+@205  = ~Mmm... per fortuna andiamo in un tempio! Avranno un sacerdote pronto, nel caso in cui Coran muoia a causa delle sue gravi ferite.~
+@206  = ~Ci prenderemo cura del nostro compagno, Amelia. Sono sicuro che dimenticherà questa terrificante ferita della carne per il dolore che ha ora nel suo cuore.~
+@207  = ~Scusatemi, mentre mi strozzo. Basta non iniziate a recitare poesie, entrambi, o avrò le vostre pelli!~
+@208  = ~Amelia
+ 
+Abbiamo incontrato una fanciulla, apparentemente promessa sposa di un ladro che si nasconde da lei tra le rovine di Ponte di Firewine. Apparentemente, Amelia non può entrare nelle rovine, ma non può nemmeno lasciare la zona, fino a quando non avrà risposto al suo fidanzato "sì" o "no", rispettivamente sotto forma di rose bianche e rosse. Abbiamo deciso di riportare in vita un mazzo di rose appassite per lei e di darlo a questo disgraziato, Natan. Secondo Amelia, la libererà dal suo voto.~
+@209  = ~*sorridendo* Mi dispiace portarti via il mio affascinato compagno, mia signora, ma è meglio che ci muoviamo, se vogliamo liberarti dalla maledizione.~
+@210  = ~No, non c'è altro modo... devono essere rose rosse...~
+@211  = ~Ti taglierei rose fresche nel giardino più vicino, mia cara, quante ne vuoi!~
+@212  = ~No, non funzionerà, mio caro amico. Ho bisogno che siano *queste* a venire portate da Natan. *singhiozza*~
+@213  = ~Oh? E perché è così? In che modo una rosa rossa è diversa da un'altra?~
+@214  = ~Per favore, non piangere. Stiamo andando ad aiutarti.~
+@215  = ~Beh, devi saperlo meglio di tutti: è *la tua* maledizione, dopotutto. Andremo al tempio, ridaremo vita alle rose e poi le consegneremo a Natan.~
+@216  = ~Scambierò volentieri storie con te, dopo che mi avrai liberato da questa terribile maledizione. *singhiozza* Per favore... aiutami.~
+@217  = ~<CHARNAME>! Non essere così senza cuore... Guarda, sta quasi svenendo!~
+@218  = ~Mi dispiace, Amelia, ma non ti credo. O mi dici la verità o non ti aiuterò.~
+@219  = ~Aspetta... aspetta, <CHARNAME>, lei è una...~
+@220  = ~Sento... Sento Amelia che mi chiama per andare a servirla. Temo che la sacerdotessa e Natan avessero ragione: c'è del male in quelle rose e in quella... donna. Io... posso resistere per ora, ma non per molto. Dobbiamo trovare Amelia, <CHARNAME>.~
+@221  = ~La Padrona chiama! Devo andare!~
+@222  = ~Salve, adorabile signora! Cosa fate in questo posto desolato?~
+@223  = ~*sospirando* Ora, Coran, per favore limitati a dare la caccia a donne vere. Gli dèi mi perdonino! L'ho detto davvero?~
+@224  = ~Rovine distrutte! Ci faranno impazzire tutti! Coran, vieni, nessuna donna vivente vagherebbe mai per questi luoghi... Ma ci sono molti fantasmi tra le rovine di Firewine...~
+@225  = ~Io... non vedo nessuno. E tu, Coran?~
+@226  = ~Lei è reale... o surreale... potevo vederla svanire nelle nebbie e sentirla cantare. Sembrava triste. Forse ha bisogno di aiuto. Andiamo a cercarla - è andata verso est.~
+@227  = ~Coran, quando avremo bisogno di andare a est, emetterò un tale ordine. Ora torna nei ranghi.~
+@228  = ~Wow, ecco a voi occhi e orecchie da elfi! A est, hai detto? Andiamo!~
+@229  = ~Capisco... Una donzella spettrale in pericolo. Fammi sapere, se la scorgi nuovamente.~
+@230  = ~*sospirando* Un'altra buona azione? Va bene, va bene. Cerchiamo questa donna che piange.~
+@231  = ~Siamo qui per un altro motivo! Non mi farò distrarre dalle tue folli fantasie.~
+@232  = ~Sì, la vedo... ehm... l'ho vista. Per essere più precisi, l'ho vista svanire nelle nebbie e l'ho sentita cantare. Sembrava triste. Forse ha bisogno di aiuto. Andiamo a cercarla - è andata in quella direzione, verso est.~
+@233  = ~*sospirando* Un'altra buona azione? Va bene, va bene. Cerchiamo questa donna che piange.~
+@234  = ~Come desideri. Ma ricorda le mie parole, c'è una fanciulla là fuori, che grida a squarciagola e... Ah, tu sei il tipo a cui non importa altro che i suoi piani.~
+@235  = ~Meraviglioso! Mi chiedo, come si chiami?~
+@236  = ~Le rose fiorirono troppo presto quell'anno.
+Arrivarono i venti e le tempeste, gran danno!
+Le rose in fiore, rosse e bellissime
+Trasformate in mostri dalle spine acutissime.~
+@237  = ~Ti sento, bellissima... chi sei? Che cosa sei? Uno spirito?~
+@238  = ~Coran... Coran, non so cosa sono. Probabilmente un fantasma.~
+@239  = ~Tutto quello che so è che dovevo dare una risposta all'uomo che mi era stato promesso. È entrato in quelle rovine in cerca di fortuna... e non è più tornato. Ho giurato di dargli una rosa rossa per il mio sedicesimo compleanno se avessi rifiutato il suo amore, e una bianca se l'avessi accettato... e il giuramento mi ha portato qui. Non posso entrare in quel posto; Non riesco a trovarlo... non posso dargli i fiori.~
+@240  = ~Vado in giro con un cesto di rose appassite - O fato crudele!~
+@241  = ~Rose rosse o bianche?~
+@242  = ~Rosse...~
+@243  = ~Sono sicuro che possiamo aiutarti... uhm, come hai detto che ti chiami?~
+@244  = ~Amelia... il mio nome è Amelia.~
+@245  = ~Lady Amelia, non sarà per niente difficile per noi raccogliere delle rose fresche, liberare le rovine, deporre quel tuo cavaliere nella sua tomba e liberarti dal tuo giuramento. Un sorriso, mia signora?~
+@246  = ~Gentile signore, sono felice di incontrare un uomo di così eccezionale galanteria e così bello... ma - <PRO_HESHE> non mi sembra altrettanto incline... non vorrei che tu...~
+@247  = ~Ti aiuteremo, mia cara donna, al meglio delle nostre capacità.~
+@248  = ~Hai buon occhio, ragazza. In effetti, non abbiamo tempo per la carità e le rose.~
+@249  = ~Perché non puoi entrare nel dungeon da sola, Amelia?~
+@250  = ~Certo, Amelia. Ti porterò le polveri.~
+@251  = ~Polveri? Quindi Natan non ha mentito...~
+@252  = ~Mi hai mentito sulle rose! Natan aveva ragione su di te, allora!~
+@253  = ~Amelia
+
+Abbiamo dato le polveri ad Amelia. Le ha prese ed è svanita.~
+@254  = ~Amelia
+
+Abbiamo ucciso il demone noto come Amelia.~
+@255  = ~Amelia
+
+Abbiamo dato le polveri ad Amelia. Prima di scomparire, ha detto che il sangue nelle mie vene è potente e oscuro.~
+@256  = ~Oh, è molto nobile da parte tua, mio buon elfo. Perdonami gentilmente per dividere la tua piccola compagnia. Porta queste rose al tempio di Beregost; chiedi al sacerdote di riportarle in vita e una volta che sarai nelle rovine consegnale a Natan. È... era un ladro. Temo, tuttavia, che sia arrabbiato con me per aver rifiutato il suo amore, e potrebbe provare a dirti delle sciocchezze su di me... per favore, non credergli!~
+@257  = ~Ben ritrovato, <CHARNAME>. A meno che tu non abbia cambiato idea sull'aiutare Amelia, allora non ho niente da dirti.~
+	   ~Ben ritrovata, <CHARNAME>. A meno che tu non abbia cambiato idea sull'aiutare Amelia, allora non ho niente da dirti.~
+@258  = ~Ho cambiato idea. Unisciti a noi e aiuteremo Amelia insieme.~
+@259  = ~In realtà, speravo che fossi tornato in te e avessi rinunciato a questa folle ricerca.~
+@260  = ~Con piacere, amico mio. Ora, portiamo queste rose al tempio.~
+	   ~Con piacere, amica mio. Ora, portiamo queste rose al tempio.~
+@261  = ~Allora arrivederci al prossimo incontro, <CHARNAME>.~
+@262  = ~Uccideteli, miei servi!~
+@999  = ~Amelia~
+

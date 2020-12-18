@@ -1,0 +1,79 @@
+// @0    = ~Più intelligente di un sasso!~
+// @1    = ~Smettila di abbaiare, cane! Sono venuta per punirti per il tuo tradimento! Tempus è con me!~
+// @2    = ~Speravo che ti saresti fatto più furba, ragazzona, prima di darmi di nuovo fastidio. Ma vedo che non l'hai fatto. Pensi che abbia paura di questa combriccola che ti ha liberato dal mio incantesimo?~
+// @3    = ~Stupida vacca. Se non sparirai dalla mia faccia nei prossimi cinque secondi, ti scaglierò dall'altra parte del regno!~
+// @4    = ~No! <CHARNAME> ha dato il suo consenso, ma non hai il mio! Alza le tue armi!~
+// @5    = ~Sei disgustoso, miserabile... uccidilo, <CHARNAME>. Chi implora per la propria vita non ha onore. Ti tradirà a Tazok se lo lascerai andare.~
+// @6    = ~No, non lo farò, non lo farò... * sottovoce * Arpia!~
+// ict3 52-699-4-5
+@7    = ~Gli abitanti di Seawolf venerano Umberlee, <CHARNAME>. Lei governa le onde dei venti marini dal suo piano allagato nell'Abisso. È venerata per paura, non per adorazione. I marinai lanciano oro e gemme nell'oceano quando vengono colti dalle tempeste nella speranza di placare la Regina delle Sgualdrine. I suoi seguaci sono violenti come la loro protettrice. Sarebbe una bella battaglia, <CHARNAME>, se mai decidessi di navigare per il mare... so che puoi combattere gli uomini, ma sapresti combattere le alte onde?~
+@8    = ~Ahahah! Ancora, ancora! *applaude*~
+@9    = ~Il nostro formale e misurato <CHARNAME> su un tappeto di pelle d'orso. Un pensiero che non dimenticherò facilmente.~
+		~La nostra formale e misurata <CHARNAME> su un tappeto di pelle d'orso. Un pensiero che non dimenticherò facilmente.~
+@10   = ~Ah, ma rimane sempre carino!~
+		~Ah, ma rimane sempre carino!~
+@11   = ~È bello vedere QUALCUNO ricavare un profitto dalle mie sfortune. Credo.~
+@12   = ~Err... Devo andare!~
+//ict3 61-62-789-790-66-75-78
+@13   = ~Se solo fosse stata dotata nell'impugnare una lama la metà di quanto brandisce la sua lingua, sarebbe stata davvero una creatura meravigliosa.~
+@14   = ~Sì, lo vorrei anch'io qualche volta. Allora potrei darmi all'avventura.~
+@15   = ~Figlio di uno sporco maiale infestato da parassiti! Tempus conosce il tuo tradimento e mi concederà la forza di abbatterti!~
+@16   = ~Uccideteli, ma lasciate a me la ragazzona!~
+@17   = ~Onestamente, non sapete prendervi cura di voi stessi? Al marmocchio non è stato ameno insegnato impugnare una spada? Questa dimostrazione di vile codardia contro dei semplici worg è patetica.~
+@18   = ~È un atto valoroso che questi due hanno tentato di compiere. Rispetto la loro risolutezza ma ora hanno bisogno della nostra possanza.~
+@19   = ~Per favore. Cosa ne pensi, <CHARNAME>?~
+@20   = ~Questo tizio ha un portamento fiero, ma le sue mani non presentano i calli tipici di un abile spadaccino, e i suoi occhi sono fiochi e pigri. Mostriamogli come appare un vero guerriero in battaglia.~
+@21   = ~Biondina, preferirei che tu mi mostrassi quello che sai fare tra le lenzuola, ma visto che dubiti delle mie abilità...~
+//ict3 50-51-83-(84-85)-822-823-579-580-86-88
+@22   = ~Non mi piace questo tizio, <CHARNAME>. Ha dei modi furtivi, e non mi fido dell'espressione sospettosa sulla sua faccia. Non sarebbe così cauto se non avesse qualcosa da nascondere dalla vista di Tempus.~
+@23   = ~Non ve ne starete fermi lì tutto il giorno! Andiamo!~
+		~Non ve ne starete ferme lì tutto il giorno! Andiamo!~
+@24   = ~Un basilisco! Pietrificatori, cacciatori con lo sguardo... So bene cosa significhi diventare pietra, e desidero ardentemente vendicarmi di quel ricordo sulla pelle di questa creatura!~
+@25   = ~Annoiati, sciocchi e con un bottino da incassare. Siete perfettamente qualificati. Ora, entrate e uccidete quella creatura!~
+@26   = ~Una piccola miserabile commissione, davvero poco degna, ma se ci dà la possibilità di combattere ancora una volta...~
+@27   = ~Ascolta la ragazza qui.~
+@28   = ~Questo sacerdote è completamente fuori di testa. Forse un colpo ben assestato di martello lo farebbe rinsavire.~
+@29   = ~Sei pazza quanto me, sorella, ma a breve sarai guarita da ogni male...~
+@30   = ~Rinunciare a tutto il nostro ferro ?! Rinuncerei più facilmente alla mia vita!~
+@31   = ~Allora il vostro ferro e la vostra vita!~
+@32   = ~Non riesco a vedere la necessità di un tale atto. Non possiamo semplicemente uccidere tutti coloro che abitano qui e si oppongono a noi, e trasformare questo posto nella loro tomba? Bah, dovremmo sgominare i nostri nemici con la forza giusta e schietta delle nostre armi! Non con l'inganno e il sabotaggio. *Sputa*~
+@33   = ~Rill! Per favore, vai a parlare con Rill!~
+//ict3 89-90
+@34   = ~Cuccioli di viverna? Patetico. Preferirei trovare un nemico più degno da affrontare, ma sia fatta la volontà di Tempus.~
+@35   = ~*ride sguaiatamente* Nessuno ride delle mie allieve!~
+@36   = ~Un uomo così annebbiato dalla sua follia da diventare un berserker? Quasi invidio la chiarezza della sua visione.~
+@37   = ~Invidi un uomo che ha ucciso tutti quelli che amava?~
+//94-633-100-101-102-103-104
+@38   = ~Ti dirò, questo mago è un po' troppo scortese per i miei gusti. Sono tentata di insegnargli come essere più educato e ospitale. Ma Tempus mi perdoni, che senso ha sfidare qualcuno così ovviamente debole?~
+@39   = ~FINALMENTE, un guerriero con un potenziale reale! Non mi dispiacerebbe verificare di persona la potenza della sua scimitarra.~
+@40   = ~Davvero dobbiamo farci assumere da questo ometto sudicio e puzzolente per tentare un semplice furtarello?! Andiamo, questo è abbastanza avvilente per tutti noi!~
+@41   = ~Vogliate perdonarmi, sacerdotessa, ma ho fatto il bagno non più tardi di ieri sera e sono abbastanza fiducioso che voi non possiate dire altrettanto.~
+@42   = ~Davvero dobbiamo farci assumere da questo ometto sudicio e puzzolente per tentare un semplice furtarello?! Andiamo, questo è abbastanza avvilente per tutti noi! Perfino per Xan.~
+@43   = ~Davvero dobbiamo farci assumere da questo ometto sudicio e puzzolente per tentare un semplice furtarello?! Andiamo, questo è abbastanza avvilente per tutti noi! Perfino per Montaron.~
+@44   = ~Davvero dobbiamo farci assumere da questo ometto sudicio e puzzolente per tentare un semplice furtarello?! Andiamo, questo è abbastanza avvilente per tutti noi! Perfino per Viconia.~
+@45   = ~<CHARNAME> qui si comporta come un vero bandito. Ma suppongo che dovrei essere grata che <PRO_HESHE> abbia accettato i miei servigi come pagamento per avermi salvata dalla pietrificazione.~
+@46   = ~Anche tu sei stata colta di sorpresa da dei basilischi?~
+@47   = ~No, è stato un cane spregevole, un mago, a trasformi a tradimento in fredda pietra.~
+@48   = ~È orribile!~
+@49   = ~È un ricordo del passato. Quel sortilegio è stato dissipato, grazie a <CHARNAME>. Buon viaggio, Tamah, e segui le benedizioni di Tempus. È tutto ciò che posso fare per te.~
+@50   = ~Grazie.~
+@51   = ~<CHARNAME> ci ha ormai preso l'abitudine a trasformare la pietra in carne, mia buona donna. Vedi, io stessa sono stata salvata da <PRO_HIMHER> dallo stesso stato innaturale.~
+@52   = ~È un ricordo del passato. Quel sortilegio è stato dissipato, grazie a <CHARNAME>. Buon viaggio, Tamah, e segui le benedizioni di Tempus.~
+@53   = ~Non dare la colpa a <CHARNAME> - <PRO_HESHE> deve agire per abitudine: poiché ha salvato anche me dallo stesso stato innaturale e io ho offerto i miei servigi come pagamento per la sua gentilezza.~
+@54   = ~È un ricordo del passato. Quel sortilegio è stato dissipato, grazie a <CHARNAME>. Buon viaggio, Tamah, e segui le benedizioni di Tempus.~
+// @55   = ~Il cane disonorevole è morto! Tempus, la tua volontà è fatta! Vieni, beviamo a Tempus e alla vittoria, <CHARNAME>!~
+@56   = ~* brividi * C'è un cattivo odore in questo posto... qualcosa di freddo e sporco, ma in qualche modo... sembra familiare. Tempus, dacci la forza di trovarne la fonte.~
+@57   = ~Ah, non c'è niente come l'odore di sangue fresco per rinfrancare lo spirito. E questi scalpi saranno ottimi trofei. Ugh, questo avrebbe potuto lavarsi i capelli almeno una volta a settimana …~
+@58   = ~Finalmente una battaglia degna del mio coraggio! IN GUARDIA MOSTRO! TEMPUS VEDRÀ IL TUO SANGUE SCORRERE!~
+@59   = ~Alzati, pigro! Anche se devo abbassarmi al rango di semplice ladra, intendo offrire alle mie vittime la giusta possibilità di conservare le loro ricchezze! DIFENDITI!~
+@60   = ~Bene, era ORA. È meglio così!~
+@61   = ~Enigmi. Io odio gli enigmi. Non possiamo semplicemente ucciderli tutti invece?~
+@62   = ~Zzzzz... cos... aspetta un minuto. Io non possiedo un gatto. Chi va là?~
+@63   = ~La tua morte, se non te ne stai ferma e zitta! Prenderò quello che mi serve e vivrai un altro giorno!~
+@64   = ~È fatta! Fuori, dobbiamo uscire!~
+@65   = ~Sono un randagio, torna a dormire. Shhhhhhhhhh...~
+@66   = ~*rivolgendosi a Branwen* Ma non siete venuti qui per parlare solo di Brage immagino. Avete bisogno di provviste che il Tempio di Helm possa fornirvi?~
+@67   = ~Eccoci qua!~
+@1001 = ~Arrivi troppo tardi. Non è più di pietra ormai.~
+@1002 = ~La statua ha preso vita?! Ho un impegno inderogabile, addio!~
+

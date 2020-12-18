@@ -1,0 +1,291 @@
+//ict3 666-0-1-2-3-604
+@0    = ~Per Helm, le menzogne e le pelli di questi demoni puzzano di malvagità. Prepariamoci per la battaglia!~
+@1    = ~Lady <CHARNAME> come Helm l'ha fatta, su un tappeto di pelle d'orso - che pensiero affascinante...~
+@2    = ~... pensando a te da piccola, ovviamente, mia signora. *arrossisce*~
+@3    = ~Mia signora, se vuoi la mia opinione, sei ancora carina come da bambina. E questo era inteso come un complimento.~
+@4    = ~Ovviamente, è una bambina...~
+@5    = ~Lo faremo sicuramente, puoi contarci. Presto, quei mezzogre non saranno più una minaccia.~
+@6    = ~Non ancora, ma sono sicuro che <CHARNAME> ci condurrà lì presto.~
+//Ict3 785
+@7    = ~Cercheremo tracce di tuo marito, mia signora. Spero che questo possa alleviare le tue preoccupazioni.~
+@8    = ~'Uccidere tutti gli innocenti che si trovano sul suo cammino'?! Che razza di malvagità è mai questa! Dobbiamo fermarlo!~
+//Ict3 375-376-34-792-793
+@9    = ~Questo deve essere quel criminale, Bassilus, di cui ci hanno parlato al tempio! Dobbiamo porre fine alle sue azioni malvagie!~
+@10   = ~Che tipo di diavoleria è mai questa?! Dobbiamo fermarlo!~
+@11   = ~Giustizia è stata fatta, eppure... mi è rimasta una sensazione amara in bocca.~
+@12   = ~Le tue parole mostrano grande saggezza e rinnovano la speranza. Grazie a Helm abbiamo deciso di portare questa povera anima fino a qui.~
+@13   = ~*Inclina la testa in segno di assenso alle parole di Ajantis.*~
+@14   = ~Grazie amico mio. Possa Helm proteggerti sempre.~
+//Ict3 600
+@15   = ~La tua richiesta di aiuto non rimarrà inascoltata. Faremo il possibile per trovare le cause degli eventi malvagi che accadono nella tua miniera!~
+@16   = ~<CHARNAME>, non lasciare che questi furfanti feriscano questo vecchio e possente albero! È la casa di una driade!~
+//Ict3 449
+@17   = ~<CHARNAME>, sono sbalordito dalla tua intenzione di aiutare questi furfanti a tagliare questo vecchio e possente albero! È la casa di una driade!~
+@18   = ~*sussurra* <CHARNAME>, dobbiamo per forza prendere parte a questo gioco? Ci deve essere un modo più onorevole per entrare nell'accampamento dei banditi!~
+@19   = ~Hai detto qualcosa?~
+// Ict3 781-37
+@20   = ~Per quanto strano sembri il tuo atteggiamento, amico mio, ho l'impressione che tu sia un combattente capace. Andiamo a salvare la tua signora allora!~
+@21   = ~Per Helm! <CHARNAME>, come puoi non vedere che si tratta di una lotta del Bene contro il Male? Non sono al tuo fianco in questo! Il mio onore mi dice di difendere questa donna!~
+@22   = ~<CHARNAME>, Spero che tu non stia prendendo seriamente in considerazione l'idea di portare a termine questo inganno?~
+@23   = ~<CHARNAME>, Non posso credere che tua stia pensando di partecipare a questo inganno!~
+@24   = ~La tua città è minacciata dai coboldi? Sono sicuro che intervenire non sarà un problema per noi... <CHARNAME>?~
+@25   = ~Sono contento che tu abbia scelto in questo modo, <CHARNAME>. Gandolar, quando esamineremo le rovine, uccideremo quei coboldi per te.~
+@26   = ~<CHARNAME>, sono deluso dalla tua maleducazione con questo halfling! È il capo di questo villaggio, dopo tutto!~
+//Ict3 864
+@27   = ~Sei legata alla volontà del proprietario del tuo scialle?~
+@28   = ~Sì, combatteremo quest'ogre che ti opprime, bellissima creatura. Ma ci aspettiamo che il nostro compagno venga riportato in vita, una volta che ci saremo riusciti!~
+@29   = ~Ora capisci cosa comportano inutili menzogne, <CHARNAME>! Siamo costretti a combattere qualcuno che avrebbe potuto essere nostro alleato!~
+//Ict3 41
+@30   = ~Hai dimostrato un grande coraggio e senso dell'onore, <CHARNAME>! Non ti sai lasciato tentare dal mentire per ricevere un messaggio indirizzato ai nostri nemici.~
+		~Hai dimostrato un grande coraggio e senso dell'onore, <CHARNAME>! Non ti sai lasciata tentare dal mentire per ricevere un messaggio indirizzato ai nostri nemici.~
+@31   = ~È stato un onore combattere al tuo fianco. Addio.~
+@32   = ~<CHARNAME>, questa drow è malvagia e accusata di omicidio. Proteggerla significa opporsi alla legge!~
+//Ict3 602
+@33   = ~È stata la scelta giusta non allearsi con quella creatura malvagia, <CHARNAME>!~
+@34   = ~*Tu* mi condanni a morte? Hai il diritto di farlo? Parliamone, non c'è bisogno di spargimenti di sangue.~
+//Ict3 903
+@35   = ~Belle parole, drow, ma stai attenta a non dimenticarle. Osserverò attentamente i tuoi passi.~
+@36   = ~Non abbiate paura, milady. Lo porteremo il più velocemente possibile.~
+@37   = ~Non posso chiudere le orecchie a tanta sofferenza! Raccontaci del peso che stai portando, buon uomo.~
+@38   = ~<CHARNAME>, dobbiamo parlare ancora con questo povero uomo e vedere se possiamo aiutarlo. Non possiamo lasciarlo così!~
+@39   = ~Lavoreremo per la *gilda dei ladri*? <CHARNAME>, ho problemi a conciliare questo fatto con i miei doveri di paladino! Ma userò questa opportunità per dare un'occhiata più da vicino a quello che sta succedendo qui. Sicuramente confido che la motivazione di questa cooperazione vada oltre il voler aumentare la tua ricchezza attraverso attività illegali.~
+//Ict3 105-106
+@40   = ~<CHARNAME>, questo furto non è altro che una comune ruberia! Non posso credere che tu abbia accettato questa richiesta!~
+@41   = ~Un paladino all'opera? Oh, che brutta cosa!~
+@42   = ~<CHARNAME>, perché hai allontanato quel bambino? Sembrava in disperato bisogno di aiuto!~
+//Ict3 897-898
+@43   = ~<CHANAME>, sono felice che tu abbia cambiato idea e deciso di aiutare quel ragazzino!~
+@44   = ~Sì, mostraci la strada. Vedremo cosa possiamo fare per aiutarti.~
+@45   = ~Stare tra due chiese: povero padre! <CHARNAME> non è stata una decisione facile, ma penso che stiamo facendo la cosa giusta. Cerchiamo di trovare il corpo di questo bambino!~
+@46   = ~<CHARNAME>, Umberlee è una divinità crudele e malvagia, ma le sue sacerdotesse non molesterebbero i pescatori senza provocazione. Ho la sensazione che ci sia molto di più dietro questa storia di quanto ci sia stato detto.~
+//Ict3 117
+@47   = ~Commettere un crimine rubando! Non posso credere che questa feccia stia spudoratamente chiedendo ai passanti di compiere queste azioni spregevoli al posto suo!~
+@48   = ~Crudele assassino, ti meriti la tua sentenza! Fuori dalla mia vista!~
+@49   = ~*ride fragorosamente* Allora vuoi restare qui?~
+//Ict3 287-288
+@50   = ~Stai pur certo, assassino, che se mai ti capiterà di incrociarmi nuovamente, farò giustizia per quelle piccole anime che hai ucciso!~
+@51   = ~Noioso, fastidioso... Vorrei averti incontrato quindici anni fa, quando eri piccolo... oh, sì. Come lo vorrei.~
+@52   = ~Duca Eltan, può star certo che faremo tutto ciò che è in nostro potere per fermare il piano infido di questi uomini malvagi e prevenire questa guerra inutile e brutale!~
+@53   = ~Helm sarebbe felice di vederti prenderti cura dei poveri e dei bisognosi, <CHARNAME>!~
+//Ict3 570-571-654-72-826
+@54   = ~Helm ci protegga! Un seguace del nostro peggior nemico al comando del Pugno Fiammante? Ci deve essere un modo per invalidare la sua promozione e ribaltare la sentenza che ci ha riservato!~
+@55   = ~In questa città, cavaliere, hai due possibilità: fare quello che dico io o penzolare da una forca.~
+@56   = ~<CHARNAME>, non starai seriamente pensando di uccidere una persona che non hai mai incontrato prima, senza nemmeno conoscere le accuse contro di lei, vero? Non alzeremo le nostre armi contro questa Dynaheir prima di aver ascoltato almeno tutta la storia!~
+@57   = ~Non temere oltre, gentile signora! Sarà un compito facile per noi uccidere quei worg che stanno minacciando tuo figlio!~
+@58   = ~Cercheremo tracce del tuo amico, ragazzo.~
+@59   = ~Non preoccuparti, cara donna. Troveremo quel libro degli incantesimi per salvare tua figlia.~
+//Ict3 632
+@60   = ~<CHARNAME>, questo è Drizzt Do'Urden, un ben noto e onorevole ranger! Non farti ingannare dal suo aspetto. Se ha bisogno di aiuto, dovremmo aiutarlo a sconfiggere i suoi aggressori!~
+@61   = ~Per Helm! Infine, sveli la tua vera natura! Non sono al tuo fianco in questa lotta! <CHARNAME>, alza la tua arma! Il mio onore esige che io difenda quest'elfo!~
+@62   = ~Mia buona signora, la tristezza si irradia dal tuo viso. Dimmi, qual è il peso che porti sulle spalle? Ha qualcosa a che fare con gli avvenimenti nella miniera?~
+@63   = ~Che parole gentili da un estraneo! Forse potresti... è solo che... mio marito lavora nelle miniere e non torna a casa da settimane. Ogni giorno, ci sono uomini che scompaiono laggiù, e sono molto preoccupata...~
+@64   = ~Forse potremmo aiutarti. Stiamo andando a indagare sulle miniere. Dacci una descrizione di tuo marito, forse lo vedremo laggiù.~
+@65   = ~Triste. Dobbiamo andare ora.~
+@66   = ~Terremo gli occhi aperti per tuo marito, mia signora.~
+@67   = ~<CHARNAME>, perché nascondi l'anello che abbiamo trovato? Questa donna ha un disperato bisogno di notizie di suo marito! Perché tenerla in ansia?~
+@68   = ~Mia signora, ecco un anello che corrisponde alla tua descrizione. L'abbiamo trovato su di un cadavere in uno dei livelli della miniera... Per favore, accetta le mie più profonde condoglianze, perché con ogni probabilità tuo marito è morto.~
+@69   = ~<CHARNAME>! Come puoi essere così senza cuore! Questo anello ha molto più valore per la vedova di quanto potrebbe mai averne per te. Appartiene a lei, nel senso più stretto!~
+@70   = ~No! Devo finire il mio lavoro! Ellesime!~
+@71   = ~Allora così sia. Che gli spiriti della foresta ti perseguitino.~
+@72   = ~Quest'uomo sta parlando di *uccidere* l'archeologo e tutti i suoi aiutanti e *rubare* un oggetto magico. Fuori dalla mia vista, verme!~
+@73   = ~Ehi, stavo parlando con *<PRO_HESHE>*, o sei tu che prendi le decisioni?~
+@74   = ~<CHARNAME> è il nostro leader, ma io sono un paladino e, nel nome di Helm, non tollererò un simile tradimento!~
+@75   = ~Ajantis ha assolutamente ragione. Non faremo nulla di ciò che intendevi!~
+@76   = ~Ehm... Ajantis? Vorrei ascoltare ciò che quest'uomo sta effettivamente suggerendo.~
+@77   = ~Ajantis, tieni la bocca chiusa! *Io* prendo le decisioni, va bene? Penso che quest'uomo abbia una proposta molto interessante e mi piacerebbe sentirla.~
+@78   = ~Ah, no, no, lascia perdere. Non penso che tu possa essere di grande aiuto in questo caso. Dannazione! Bene, troverò qualcun altro che mi aiuterà. Faresti meglio ad andartene!~
+@79   = ~Vuoi furfanti non avrete la possibilità di abbattere questo possente albero - la casa di una driade! Se il rispetto per le fate non vi impedirà di compiere questo atto malvagio, allora dovremo proteggere questo spirito della foresta! In guardia!~
+@80   = ~Che persona infida! Sono molto contento che tu l'abbia allontanato, <CHARNAME>! Forse dovremmo avvertire questo Duca di Baldur's Gate, prima che questo mascalzone trovi altri aiutanti per il suo piano.~
+//Ict3 46-557
+@81   = ~È un sollievo sapere che tutte queste povere anime avranno la possibilità di scappare! Proseguiamo e cerchiamo di far luce su cosa stia succedendo in questa miniera.~
+@82   = ~Ora mostrano la loro vera natura! Assecondo la tua decisione di non collaborare con queste persone. Combattiamo questi criminali, stiamo facendo un favore alla città ripulendo questo covo di ladri!~
+@83   = ~Illegale! <CHARNAME>, siamo qui per mettere fine alle attività dei banditi che minacciano la Costa della Spada. Non ascolterai seriamente ciò che quest'uomo ha da offrire? L'unica reazione appropriata alle sue parole sarebbe chiamare le guardie cittadine!~
+@84   = ~Per favore, signore, non...~
+@85   = ~<CHARNAME>, sono contento che tu abbia abbandonato quell'uomo. Sembrava un poco di buono, come tanti che abbiamo incontrato durante i nostri viaggi.~
+@86   = ~Poco di buono, io? Ohi...~
+@87   = ~Almeno abbiamo potuto portarvi la notizia della sua morte e la sua fede come ricordo, anche se questo potrà essere di poca consolazione per voi, ora. Siate certa dei miei più profondi sentimenti di dolore e lutto, mia signora.~
+@88   = ~<CHARNAME>, sono molto contento che tu abbia trovato il tempo di restituire l'anello a questa povera vedova. Almeno ora conosce la triste verità.~
+//Ict3 876
+@89   = ~Che minaccia ridicola! Non siamo i mercanti indifesi che normalmente potresti incontrare da queste parti! In realtà, siamo abbastanza forti da porre fine alla tua deplorevole esistenza!~
+@90   = ~Ottima decisione, <CHARNAME>! Ora questa feccia sarà trattata come merita!~
+@91   = ~<CHARNAME>, perché hai ceduto a quei banditi! Abbiamo combattuto contro avversari molto più pericolosi. Sono sicuro che avremmo potuto sconfiggere quei farabutti. Ora che se ne sono andati, potranno minacciare altri viaggiatori – e con le tasche piene per giunta!~
+//Ict3 863
+@92   = ~Sembra una cosa seria, <CHARNAME>! Se il secondo in comando del Pugno Fiammante sta chiedendo aiuto a dei 'passanti', come potremmo sembrare noi, dovremmo ascoltare!~
+@93   = ~Dovremmo sbrigare le nostre faccende e tornare rapidamente da Scar, in modo da poter essere ricevuti dal Granduca Eltan! Questo incontro sembra poter essere importante anche per la nostra missione!~
+@94   = ~<CHARNAME>, perché hai rifiutato di aiutare quell'uomo? La sua sembrava essere una supplica accorata!~
+@95   = ~Perlustreremo questa foresta spaventosa in cerca di tracce di tuo fratello, ragazzo!~
+@96   = ~Per Helm, <CHARNAME>, se questo Chelak fosse davvero il giovane inesperto che immagino che sia, penso che non abbia una minima possibilità. Tuttavia, spero che le mie parole possano essere smentite, quindi muoviamoci rapidamente!~
+//Ict3 256-257
+@97   = ~È stato un atto onorevole, <CHARNAME>! Quei soldi aiuteranno il contadino Brun a mantenere la sua fattoria senza suo figlio.~
+@98   = ~E anche molto intelligente da parte tua! Far finta che noi *non* intendessimo dargli dei soldi era l'unico modo per far accettare a questo uomo orgoglioso la donazione!~
+@99   = ~Mmm. Che vecchio orgoglioso! Sono profondamente impressionato. Ma non sarà in grado di tirare avanti senza aiuti. Forse c'è un modo migliore per fargli cambiare idea, <CHARNAME>!~
+@100  = ~<CHARNAME>, le tue azioni rispecchiano appieno lo spirito d'onore e della giustizia! Sono orgoglioso di essere parte di questo gruppo e di combattere al tuo fianco!~ [%tutu_var%AJANT04]
+@101  = ~Per Helm! Infine, riveli la tua vera natura! Non sono al tuo fianco in questa lotta! <CHARNAME>, alza la tua arma! Il mio onore richiede che io difenda questo onorevole drow!~
+@102  = ~<CHARNAME>, questa deve essere la fede nuziale di Joseph. Poveretto, deve essere caduto vittima del male che affligge queste miniere. Portiamo questo anello alla sua vedova, una volta tornati. Il minimo che possiamo fare per lei è portarle certezze sul suo destino.~
+@103  = ~Aspetta un attimo! Naturalmente ti daremo i soldi di cui hai bisogno per salvare tutte queste povere anime! Prendili e conduci te stesso e gli altri fuori di qui il prima possibile!~
+@104  = ~Aspetta, meraviglioso spirito della foresta, non andare via. <CHARNAME>, non posso essere d'accordo con la tua decisione di lasciare che questa richiesta di aiuto non venga ascoltata. Proteggere l'albero di questa driade non ci costerà molto sforzo, ma salverà la vita di un'antica creatura della foresta.~
+@105  = ~OK, OK, ora che i miei compagni hanno preso la decisione per me... ti aiuterò. Mostraci la via!~
+@106  = ~Ajantis, non abbiamo tempo per cose come questa. Ho detto "no" ed è la mia risposta definitiva.~
+@107  = ~Tieniti i tuoi soldi, buon uomo. <CHARNAME> stava solamente scherzando, immagino. Non c'è nessuno chiamato Greywolf in questo gruppo.~
+@108  = ~Non c'è bisogno di imprecare, mio buon uomo. Sono sicuro che <CHARNAME> sarà d'accordo che abbiamo abbastanza tempo per aspettare un po'. Se significa così tanto per te, ti lasceremo finire il tuo lavoro.~
+@109  = ~*sospiri* Va bene allora, continua.~
+@110  = ~No! Ho detto che lo porteremo con noi *ora*, ed è quello che faremo!~
+@111  = ~<CHARNAME>, questo pugnale sembra speciale. Forse apparteneva a quel piccolo gnomo ucciso dagli ankheg.~
+@112  = ~<CHARNAME>, dopo tutto quello che è successo qui, vuoi portare quel manufatto con te? Kozah era un dio molto potente del caos e della distruzione, non ne verrà fuori niente di buono!~
+@113  = ~Tradimento! Dobbiamo proteggere il Duca Belt e la Duchessa Liia a tutti i costi!~
+@114  = ~<CHARNAME>, questo è il figlio della giovane Maralee. Non posso credere che queste creature abbiano rapito un bambino piccolo come questo! È in buona salute, ma dovremmo riportarlo da sua madre il prima possibile!~
+@115  = ~Quindi, eccoci alla gilda dei ladri! Che posto di illegalità e tradimento! Ti consiglio di fare attenzione, <CHARNAME>, e mi aspetto di lasciare questo luogo il prima possibile!~
+@116  = ~Grazie per l'avviso, Ajantis. Nemmeno io mi sento a mio agio qui dentro.~
+@117  = ~Siamo venuti qui perché siamo stati... invitati. Diamo un'occhiata in giro, Ajantis.~
+@118  = ~Ajantis, stai generalizzando. Non tutti i ladri sono cattivi. Dovresti giudicare le persone dalle loro azioni, non dalla loro professione. Se non esistessero i ladri, chi disarmerebbe le trappole che potrebbero farci del male? Chi scassinerebbe le serrature per liberare i prossimi schiavi che dovessimo trovare?~
+@119  = ~Sono d'accordo con le tue parole, <CHARNAME>, e rispetto una persona che sceglie quella professione ma percorre la strada del Bene. Eppure, tali casi sono una minoranza. Questa gilda è un'alleanza di ladri senza cuore e potenti senza morale, che si guadagnano da vivere compiendo azioni illegali.~
+@120  = ~Questo sembra essere il figlio di quel vecchio contadino. Poveretto! Gli ankheg devono averlo trascinato fin quaggiù.~
+@121  = ~<CHARNAME>, questo Samuel sta diventando sempre più malato. Non so per quanto ancora sopravviverà. Dobbiamo portarlo subito al Tempio della Saggezza alla Locanda del Braccio Amico, altrimenti morirà.~
+@122  = ~Questa sembra essere una lettera del marito di Mirianne! Dovremmo portargliela il prima possibile!~
+@123  = ~<CHARNAME>, non posso essere d'accordo su come ci stai guidando! Non stiamo seguendo la via della bontà e della giustizia!~ [%tutu_var%AJANT06]
+@124  = ~Ajantis, non piace neanche a me, ma è solo una cosa temporanea. Cambierà presto.~
+@125  = ~Ajantis, calmati! Non è così male! Tieni presente che lo stiamo facendo per gli alti obiettivi a cui miriamo!~
+@126  = ~Sono sollevato nel sentirtelo dire. Andiamo avanti e trasformiamo le tue parole in realtà con le nostre azioni!~
+@127  = ~Gli alti obiettivi non giustificano qualsiasi cosa. D'ora in poi, assicurati di procedere sulla strada del Bene!~
+@128  = ~Attenzione, <CHARNAME>, siamo ora nella zona menzionata dal paladino Bjornin. Dovremmo tenere gli occhi aperti per quegli ogre di cui ha parlato!~
+@129  = ~Ben fatto, <CHARNAME>, quello era l'ultimo di quegli ogre. Dovremmo tornare a Beregost e riferire a Bjornin che le sue ferite sono state vendicate.~
+@130  = ~Ed eccoci qui, nella famosa biblioteca di Candlekeep! Tutta questa saggezza e questa conoscenza condensate in queste sale!~
+@131  = ~Ma non siamo qui per la conoscenza. Ahimè! È la presenza di criminali spudorati che ci porta qui. Cerchiamo di trovarli e ripulire queste possenti sale della loro presenza malefica!~
+@132  = ~<CHARNAME>, tu... sei una progenie di *Bhaal*, il Dio dell'Omicidio?!~
+@133  = ~Non lo sapevo, Ajantis!~
+@134  = ~Così sembra, a quanto pare.~
+@135  = ~Lo dici come se questa informazione non ti smuovesse affatto! Lo sapevi già?~
+@136  = ~No, l'ho scoperto adesso, Ajantis.~
+@137  = ~Perché questo è di tuo interesse, Ajantis?~
+@138  = ~Non lo sapevi... sì, ti credo. Che scoperta sconcertante! Che eredità stai portando!~
+@139  = ~Beh, immagino di doverti credere. Che scoperta sconcertante! Che eredità stai portando!~
+@140  = ~Rispondi sinceramente alle mie domande. Cosa significa questo per te? Come tratterai questo retaggio?~
+@141  = ~Detesto essere una progenie di Bhaal! Il male non avrà una possibilità su di me. Farò tutto ciò che è in mio potere per non continuare quello che mio padre ha lasciato!~
+@142  = ~Non lo so... Sta succedendo tutto così in fretta. Non voglio essere coinvolto in questo! Vorrei che tutto fosse solo un grande fraintendimento!~
+		~Non lo so... Sta succedendo tutto così in fretta. Non voglio essere coinvolta in questo! Vorrei che tutto fosse solo un grande fraintendimento!~
+@143  = ~Mmm... Devo pensarci. Questo in realtà fornisce alcune nuove possibilità molto interessanti...~
+@144  = ~Sono il figlio di un Dio, Ajantis. Sento il potere che è in me! Devo usarlo. Qualsiasi altra cosa sarebbe sbagliata!~
+		~Sono la figlia di un Dio, Ajantis. Sento il potere che è in me! Devo usarlo. Qualsiasi altra cosa sarebbe sbagliata!~
+@145  = ~Perché questo mi interessa?! Sono un paladino di Helm, e tu... una progenie di Bhaal! Devo sapere come affronterai il tuo retaggio!~
+@146  = ~Perché questo mi interessa?! Amore mio, sono un paladino di Helm, e tu... una progenie di Bhaal! Io... *devo* sapere come affronterai il tuo retaggio!~
+@147  = ~Sono molto sollevato e felice di sentirlo.~
+@148  = ~Grandi parole, ma dubito che avrai la fermezza e la forza di volontà per farle diventare realtà.~
+@149  = ~Sembra essere reale, quindi devi affrontarlo! Cercare di nascondere la tua eredità divina non funzionerà, ti lascerà solo senza difese in caso di necessità!~
+@150  = ~Possibilità?! Pensi seriamente di usare i poteri del tuo sanguinario Padre per i tuoi scopi?~
+@151  = ~No, non intendevo quello. Era solo un pensiero generale.~
+@152  = ~Davvero! Sono figlio di un Dio, Ajantis. Sento il potere che è in me! Devo usarlo. Qualsiasi altra cosa sarebbe sbagliata!~
+		~Davvero! Sono figlia di un Dio, Ajantis. Sento il potere che è in me! Devo usarlo. Qualsiasi altra cosa sarebbe sbagliata!~
+@153  = ~Di cosa stai parlando ?! Bhaal era la divinità dell'omicidio e della distruzione! Vuoi che quei poteri malvagi diventino *tuoi*?~
+@154  = ~Certo! Un sacco di possibilità inaspettate stanno venendo verso di me... Più ci penso, più mi piace l'idea!~
+@155  = ~Ho una scelta? Conosci le profezie di Alaundo. Devo essere l'ultimo, altrimenti cadrò per mano di uno dei miei fratelli o sorelle.~
+		~Ho una scelta? Conosci le profezie di Alaundo. Devo essere l'ultima, altrimenti cadrò per mano di uno dei miei fratelli o sorelle.~
+@156  = ~Non le forze *malvagie*, Ajantis. Tutto ciò di cui sto parlando sono i poteri divini che ho in me. Li userò per i miei scopi!~
+@157  = ~Conosci le profezie di Alaundo. I figli di Bhaal si batteranno l'un l'altro per il trono di loro padre, portando il caos e la distruzione a tutti intorno a loro. Da che parte starai quando questo accadrà, <CHARNAME>?~
+@158  = ~Basi le tue parole sulle traduzioni mortali delle profezie. Sono sicuro che alcuni dei suoi figli combatteranno per il trono, ma io mi rifiuto di intraprendere un sentiero malvagio semplicemente perché una tale... divinità ha deciso di mettere in cinta mia madre. E sarò ovunque avrò bisogno di essere, per distruggerlo... prima che possa distruggere me.~
+@159  = ~Non posso accettare questo come mio destino! Non voglio combattere per il trono di Bhaal, non voglio diffondere il caos e la distruzione! Rimarrò fedele al mio percorso, cercando di fare del bene!~
+@160  = ~Bene, se questa è la volontà degli dèi, temo che succederà in questo modo.~
+@161  = ~Devo combattere questa lotta! È l'unico modo per ottenere il retaggio di mio padre, che mi appartiene!~
+@162  = ~Sei così naive da pensare di poter ingannare la vera natura di tuo padre e usare i suoi poteri per fare del *bene*?!~
+@163  = ~Perché questo dovrebbe essere impossibile? Il male non mi appartiene, Ajantis. Se è il mio destino prendere il posto di mio padre - perché non farlo a modo *mio*?~
+@164  = ~Chi sta parlando di fare del bene, Ajantis?... Una volta che avrò i poteri, farò qualunque cosa *io* voglia!~
+@165  = ~Non posso credere che tu stia dicendo tutto questo. Stammi distante! Starò con te, ma solo per controllare i tuoi passi. Helm, nella sua santa potenza, mi aiuterà a combatterti, se questo dovesse diventare necessario!~
+@166  = ~Cosa... cosa stai dicendo, amore mio! Per favore, dimmi che non parli sul serio... eppure, sembravi seria. Mi sono davvero così sbagliato sul tuo conto...~
+@167  = ~Stai lontana da me, mia signora! Ho dei doveri cavallereschi da adempiere! Starò con te, ma solo per controllare i tuoi passi. Helm, nella sua santa potenza, mi aiuterà a combatterti, se questo dovesse diventare necessario!~
+@168  = ~Quindi, ucciderai i tuoi fratelli e sorelle? Stai per versare il loro sangue e quello di altri sul suolo del tuo paese?~
+@169  = ~Non ho detto che è il mio *volere*! Tutto quello che sto facendo è accettare il mio destino. Se questo è ciò che gli dèi hanno in serbo per me, farò il loro gioco.~
+@170  = ~Davvero! Non mi siederò e aspetterò fino a quando i miei fratellastri e sorellastre che cercano il potere passeranno, cercando di avvicinarsi al trono di nostro padre uccidendomi!~
+@171  = ~Guadagnerò il loro sangue, e sorriderò nel vederlo scorrere, Ajantis!~
+@172  = ~Perché noi mortali non siamo nati per avere e *controllare* tali poteri, <CHARNAME>! Bhaal stesso era un mortale, ma era malvagio e assetato di potere, e così pure i poteri divini che ha ricevuto. Ciò di cui stai parlando è usare e formare questi poteri malvagi per i tuoi scopi non malvagi! Come sai che sarai abbastanza forte per questo?~
+@173  = ~Non lo so, Ajantis, ma farò tutto ciò che è in mio potere per farlo diventare realtà.~
+@174  = ~Certo che sarò abbastanza forte! Non ho forse già scelto la via del Bene, nonostante il mio retaggio?~
+@175  = ~Ah, fesserie! Il tempo lo dirà. Perché ti preoccupi ora?~
+@176  = ~Non posso credere che tu la stia prendendo così alla leggera! Torna in te, <CHARNAME>! Questo è il potere di una divinità che stai affrontando. Lui formerà *te*, non il contrario. Devi avere una fede salda, stabile e senza la minima esitazione sul sentiero della bontà e della rettitudine, e allora potrebbe esserci una possibilità di avere successo!~
+@177  = ~Beh, sembra che tu sia effettivamente rimasto sulla retta via fino ad ora... Vedo una possibilità per te di raggiungere il tuo obiettivo.~
+		~Beh, sembra che tu sia effettivamente rimasta sulla retta via fino ad ora... Vedo una possibilità per te di raggiungere il tuo obiettivo.~
+@178  = ~Fallirai, <CHARNAME>. Hai già compiuto azioni malvagie nei nostri viaggi. Non sei sulla strada giusta e la tua forza di volontà non è abbastanza forte! I poteri del male ti travolgeranno!~
+@179  = ~Sei decisamente sulla via della rettitudine, e vedo una possibilità per te di raggiungere il tuo obiettivo.~
+@180  = ~Ma come riuscirai? Conosci le profezie di Alaundo. I figli di Bhaal si batteranno l'un l'altro per il trono di loro padre, portando il caos e la distruzione a tutti intorno a loro. Dove sarai quando questo accadrà, <CHARNAME>?~
+@181  = ~Resterò con te... ma solo per controllare i tuoi passi! Helm, nella sua santa potenza, mi darà la forza di combatterti, se questo dovesse diventare necessario!~
+@182  = ~Perdonami, amore mio. Devo terminare la nostra relazione per potermi concentrare sui miei doveri di paladino. Starò con te... ma solo per controllare i tuoi passi! Helm, nella sua santa potenza, mi darà la forza di combatterti, se questo dovesse diventare necessario!~
+@183  = ~Le tue parole lasciano che i miei dubbi scompaiano. Andiamo avanti e siamo vigili. Combatterò al tuo fianco e ti assisterò nel tuo nobile piano il più possibile.~
+@184  = ~Hai scelto parole grandiose, ma non possono far sparire i miei dubbi. Combatterò al tuo fianco e ti assisterò nel tuo nobile piano, fintanto che rimarrai sulla buona strada.~
+@185  = ~Scegli grandi parole, amore mio, ma non si sposano alle tue azioni fino ad ora compiute. Speravo di poterlo trascurare, ma la situazione è cambiata...~
+@186  = ~Perdonami, amore mio. Devo terminare la nostra relazione per potermi concentrare sui miei doveri di paladino. Starò con te... ma solo per controllare i tuoi passi! Combatterò al tuo fianco e ti assisterò nel tuo nobile piano, fintanto che rimarrai sulla buona strada.~
+@187  = ~Capisco. Cerchiamo di andare avanti e di essere vigili. Combatterò al tuo fianco e ti assisterò, purché tu stia sulla strada giusta.~
+@188  = ~Amore mio, le tue parole lasciano che i miei dubbi scompaiano. Sono... molto felice, perché significa che posso stare con te senza dover trascurare i miei doveri di paladino...~
+@189  = ~Eppure tremo al pensiero di cosa potrebbe aspettarti in futuro. Cerchiamo di andare avanti e di essere vigili. Ti sosterrò con tutte le mie forze!~
+@190  = ~Non accettare il destino come un dato! Non è ancora deciso *come* le cose accadranno. Puoi influenzare il percorso che il tuo futuro porterà con i tuoi buoni poteri! Come paladino devo sapere cosa deciderai, una volta che quel giorno arriverà.~
+@191  = ~Ajantis, cercherò di rimanere sulla via del Bene, a prescindere dal futuro. Per favore, credimi!~
+@192  = ~Quando verrà il giorno, farò qualunque cosa il destino mi abbia preparato. Se significa che devo uccidere altri figli di Bhaal, allora così sarà.~
+@193  = ~Ciò significa che *tu* parteciperai attivamente nel far avverare la profezia...~
+@194  = ~La prontezza nelle tue parole mi spaventa, amore mio. Eppure, avresti la forza per rimanere sulla buona strada...~
+@195  = ~Tremo al pensiero di cosa potrebbe aspettarti in futuro. Cerchiamo di andare avanti e di essere vigili. Ti aiuterò, purché tu stia sulla retta via.~
+@196  = ~La prontezza nelle tue parole mi spaventa. Eppure, avresti la forza di rimanere sulla retta via...~
+@197  = ~Passiamo ad essere vigili. Combatterò al tuo fianco e ti assisterò, purché tu stia sulla retta via.~
+@198  = ~Il mio cuore si rattrista profondamente considerando questo, amore mio. Hai già compiuto azioni malvagie nei nostri viaggi. Speravo di poterlo trascurare, ma la situazione è cambiata...~
+@199  = ~Il mio cuore si rattrista profondamente considerando questo. Hai già compiuto azioni malvagie nei nostri viaggi... Devo concentrarmi sui miei doveri di paladino. Terrò i miei pensieri per me, d'ora in poi.~
+@200  = ~Andiamo avanti e sii vigile, mia signora. Combatterò al tuo fianco e ti assisterò, purché tu stia sulla retta via.~
+@201  = ~Sei una creatura malvagia! Infine, riveli la tua vera natura! Alza la tua arma, non ti lascerò andare oltre!~[%Tutu_var%AJANT31]
+@202  = ~<CHARNAME>, ti seguirò nonostante la reputazione che hai al momento. Il tempo dirà se le tue azioni risulteranno essere migliori delle impressioni che stai lasciando in questo momento. Mi aspetto che continueremo sulla via della bontà e della giustizia mentre procediamo. Andiamo a inseguire quei banditi che affliggono le strade!~
+@203  = ~<CHARNAME>, vedo che ora siamo sulla retta via. Quello che hai appena fatto è stata un'ottima azione. Andiamo avanti e continuiamo con questo spirito!~[%Tutu_var%AJANT04]
+@204  = ~<CHARNAME>, sono molto contento delle nostre azioni fino ad ora e ritengo che tu sia un ottimo leader. Le nostre azioni mostrano spirito di bontà e giustizia! Ringrazio Helm di aver unito le nostre forze. Andiamo avanti e continuiamo, ci sono ancora molte creature malvagie che aspettano di subire la nostra ira.~[%Tutu_var%AJANT04]
+@205  = ~Cos'è questa?! Questa è una taglia sulla tua testa, <CHARNAME>. Un nemico malvagio ti vuole morto, a quanto pare! Continuiamo con la nostra ricerca e non facciamoci scoraggiare da tali sviluppi. Siamo sulla strada giusta, e alla fine questo nemico sarà sconfitto.~
+		~Cos'è questa?! Questa è una taglia sulla tua testa, <CHARNAME>. Un nemico malvagio ti vuole morta, a quanto pare! Continuiamo con la nostra ricerca e non facciamoci scoraggiare da tali sviluppi. Siamo sulla strada giusta, e alla fine questo nemico sarà sconfitto.~
+@206  = ~Ed ecco alla fine Chelak, poveretto. Tutto quello che possiamo fare per lui e la sua famiglia è restituire il corpo a suo fratello. Un'altra madre in lutto! Ho sicuramente desiderato che potesse esserci un finale più felice.~
+@207  = ~Per Helm! Infine, riveli la tua vera natura! Non sono dalla tua parte in questa lotta! <CHARNAME>, alza le tue armi! Il mio onore richiede di difendere questo valoroso drow!~
+@208  = ~Quindi, queste sono le Cantine di Baldur's Gate. Ah, questo posto puzza di crimine e oppressione.~
+@209  = ~Questo non è un luogo dove un paladino dovrebbe passare il suo tempo. <CHARNAME>, mi aspetto che lasceremo questo posto immediatamente!~
+@210  = ~Questo non è un luogo dove un paladino dovrebbe passare il suo tempo. <CHARNAME>, mi aspetto che cerchiamo la persona per cui siamo venuti e poi lasciamo immediatamente questo posto!~
+@211  = ~Mai che i malfattori abbiano abbastanza decenza da uscire dalle viscere e dalle fogne, per affrontarci direttamente sul campo di battaglia! Ma no, preferiscono scavare nel sudiciume, e cercano rifugio nei tuguri di donne poco raccomandabili, certo non nei templi! Senza dubbio, sperando che quelli dalla disposizione più nobile non vogliano macchiare il loro onore associandosi con tale gentaglia, e non li seguirebbero.~
+@212  = ~L'onore cavalleresco è una cosa strana... Ti senti disonorato quando queste ragazze laboriose ti offrono le loro semplici grazie in cambio di monete. Eppure, eserciti la tua attenzione su <CHARNAME>, gratuitamente e liberamente, aspettandoti che lei ne sia onorata...~
+@213  = ~*arrossisce* Questo è qualcosa di completamente diverso, elfo, e non so a cosa servisse quell'osservazione. Meglio stare attento a non perdere il tuo onore tu stesso - o persino a sbavare su <CHARNAME>!~
+@214  = ~Cosa ti è successo, <CHARNAME>. La tua mente sarà contorta da questo dispositivo malvagio...~
+@215  = ~Vedremo se nel bene o nel male. Osserverò attentamente i tuoi passi, finché non ti toglierai l'elmetto dalla testa.~
+@216  = ~Cosa... cosa mi è successo! La mia mente... era contorta, i miei pensieri erano malvagi!~
+@217  = ~Indossavi un elmetto che ti rendeva malvagio, Ajantis. È stato rimosso ora.~
+@218  = ~Grazie a Dio hai tolto quell'affare. Ti preferisco come sei.~
+@219  = ~Qual è il problema? Ci siamo divertiti un po', tu ed io, massacrando gli innocenti nel nome di Helm.~
+@220  = ~Non cercare di ingannarmi! Mi hai fatto tradire le mie convinzioni!~
+@221  = ~Ajantis, giuro, non ero a conoscenza delle conseguenze derivanti dall'uso di questo elmo.~
+@222  = ~Mi dispiace davvero, Ajantis. Non accadrà di nuovo.~
+@223  = ~Qual è il problema? Ti ho appena aiutato a sbarazzarti di quella cosa!~
+@224  = ~Come ti pare! Tieni quell'oggetto malvagio lontano da me. Non mi piegherà di nuovo la mente!~
+@225  = ~Tu... pensi davvero che io possa servire meglio il nostro scopo in questo stato? Chiedo che questa cintura mi venga tolta il prima possibile!~
+//Ict3 749
+@226  = ~Prima dovrai passare sul mio cadavere!~
+@227  = ~Non mi piace il vostro tono, signore!~
+@228  = ~Perdonami, allora. Sto cercando qualcuno.~
+@229  = ~Allora preparati a morire per la tua avidità!~
+//Ict3 805
+@230  = ~Gli dèi possano premiare la tua arroganza con la morte!~
+@231  = ~Hai svolto un prezioso servizio in questa città per aver consegnato questo criminale alla giustizia.~
+@1001 = ~E anche con te.~
+@1002 = ~Avanti, mio corazzato amico!~
+//Ict3 38-935
+@234  = ~Ti ringrazio, campione di giustizia!~
+@1003 = ~Pensala come il "salvare" una ragazza, mio buon uomo!~
+@1004 = ~Ci vogliono tutti i tipi, suppongo. Sarebbe stato meglio qualcuno un po' più utile, ma le cose vanno così.~
+@1005 = ~Lo farà, se uccidi l'ogre.~
+@1006 = ~Non puoi mentire alla natura!~
+@239  = ~Ed ecco la tua ricompensa.~
+@1007 = ~Che Helm ti accompagni.~
+@1008 = ~Sono autorizzato a farlo se *dico* che sono autorizzato a farlo! Ora preparati a combattere!~
+//Ict3 904-933
+@1009 = ~Scommetto che lo farai, jaluk!~
+@1010 = ~Grazie!~
+@1011 = ~Hai fatto tutto quello che potevo chiederti, portandomi il suo corpo. Non puoi farci niente se sono un povero vecchio contadino.~
+@1012 = ~Lo sono anch'io!~
+@1013 = ~Grazie. Se ci riuscirai, Baldur's Gate sarà in debito con te.~
+@1014 = ~Cos'è? Fai già piani? Vai tranquillamente, e nessuno si farà male.~
+//Ict3 655
+@1015 = ~La "storia" è che lei è una strega Rashemi! Qualsiasi altra nozione travolgerebbe le vostre piccole e limitate menti.~
+@1016 = ~Grazie, mio valoroso compagno.~
+@1017 = ~Arh arh! Combattiamo!~
+//Ict3 48
+@251  = ~Grazie ancora! E buona fortuna!~
+//Ict3 558
+@1018 = ~O purificandolo dalla vostra presenza!~
+@1019 = ~Heh. La tua perdita!~
+@1020 = ~Stupida decisione, se me lo chiedi!~
+@1021 = ~Lo era. Dovrò trovare qualcun altro per aiutarmi.~
+@256  = ~Non ho bisogno della tua carità. Hai fatto tutto il possibile. I miei problemi di soldi non ti devono interessare.~

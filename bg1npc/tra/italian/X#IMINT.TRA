@@ -1,0 +1,503 @@
+@0    = ~Ma Guardiano! Gorion e <CHARNAME> sono stati attaccati appena fuori dal mastio, vicino alla costa. Gorion... lui... lui è morto. <CHARNAME> ha potuto a malapena fuggire. Ho visto tutto!~
+@1    = ~Non pensi di poter fare un'eccezione? Conosci <CHARNAME> da anni!~
+@2    = ~Io... mi rattrista sentire della morte di Gorion, <CHARNAME>. Tuo padre era un brav'uomo e mio amico. Informerò gli altissimi Ulraunt e Tethtoril della sua morte. Questa è davvero una notizia seria. Tuttavia, spero tu capisca che non posso permetterti di entrare, <CHARNAME>. Ho le mani legate su questo aspetto.~
+@3    = ~Mi farebbe davvero comodo il tuo aiuto. Non ho una casa, nessuna protezione e ho bisogno di arrivare alla Locanda del Braccio Amico.~
+@4    = ~Non riesco a credere che tu non mi voglia lasciare tornare. Almeno lascia entrare Imoen... non voglio che mi segua.~
+@5    = ~Non hai alcun diritto di bloccare il mio cammino.~
+@6    = ~Penso che Gorion avrebbe voluto essere sepolto a Candlekeep. Potresti occupartene tu?~
+@7    = ~Ritornerò sulla Via Dorata per seppellire il mio mentore con le mie stesse mani. Imoen, però, potrebbe voler rimanere qui. La lascerai entrare, se lo volesse?~
+@8    = ~Invieremo una squadra di ricerca e Gorion sarà sepolto in modo adeguato. Vorrei poter fare di più per te...~
+@9    = ~Forse posso aiutare in qualche modo. Ecco, per favore prendi queste. Non è molto, ma spero che ti sarà di qualche aiuto.~
+@10   = ~Imoen, tu, tuttavia, sei libera di entrare se lo desideri. Winthrop è piuttosto preoccupato per la tua scomparsa.~
+@11   = ~Oh, no! <CHARNAME> e io ci siamo dentro insieme, accada quel che accada! Il Pancione ha la mia lettera. E comunque mi ha insegnato una cosetta o due... la zia Imoen sa come stare fuori dai guai!~
+@12   = ~Digli che gli voglio bene, però, d'accordo? E digli di non preoccuparsi per me.~
+@13   = ~Lo farò, Imoen. Abbiate cura di voi. E <CHARNAME>? Fai attenzione agli estranei e non essere troppo veloce nello svelare il tuo nome. Solo un piccolo consiglio. Viaggiate sicuri.~
+//Duchessa Liia ict3 249
+@14   = ~Qualsiasi cosa tu decida, io sono con te, <CHARNAME>!~
+//Gallor 536
+@15   = ~Uh, quell'uomo mi ha fatto venire i brividi. Voglio dire, sgraffignare da una tasca è una cosa, ma sterminare una decina di lavoratori per rubare qualche stupido manufatto è... orribile!~
+//Angelo 260
+@16   = ~Ehi, state indietro! Non abbiamo fatto nulla di male!~
+//Varci 899
+@17   = ~Sono felice che tu abbia accettato di dare una mano, <CHARNAME>. Per Mask! Ho sperato un sacco di volte che qualcuno liberasse *me* dai guai quando avevo l'età di Varci!~
+//Ardrouine 279
+@18   = ~Oh, mi dispiace di aver spaventato suo figlio, signora. Spero che stia bene! Gli dica che certi avventurieri compiono anche buone azioni, come aiutare quelli che hanno bisogno.~
+//Gil'meh 539
+@19   = ~Il Ponte di Firewine... suona familiare... dove l'ho sentito? Uhm... In ogni caso, le rovine sono SEMPRE piene di tesori! E visto che siamo esperti avventurieri, non c'è nulla di cui preoccuparsi. Dovremmo andarci un giorno.~
+//
+@20   = ~Heya, Signor E.! Ti ricordi di me? Sono la *seconda* ragazza di Candlekeep. Andremo a cercare il tuo libro, nessun problema...~
+@21   = ~Imoen! Felice di vederti, ragazza. Perdonami per non averti riconosciuto immediatamente; ma tu sei cambiata!~
+@22   = ~Sicuro, signore! Niente più grembiuli e cuffie per Imoen la Magnifica. Beh, a meno che qualcuno non mi offra un baule di tesori di drago per indossarne uno.~
+@23   = ~Andremo a cercare il tuo libro, nessun problema, Signor E...~
+@24   = ~È bello vedere un volto familiare, eh, <CHARNAME>?~
+//Raleo
+@25   = ~Una cosa che ho imparato è che senti storie più interessanti stando sulla strada che in una locanda. *sospira* Stando alloggiati in una locanda, non appena un viaggiatore giunto da lontano inizia una bella storia, tutti gli altri cominciano a sbraitare per avere cibo e birra... e io non riesco mai a sentire tutta la storia. Ho dovuto riempire i pezzi mancanti per conto mio.~
+@26   = ~Meno che brillante?! Ih ih, è bello andare all'avventura con degli amici! Almeno tu non mi chiameresti "meno che brillante" sperando di cavartela!~
+@27   = ~Ragazza, le tue chiacchiere mi stanno facendo venire il mal di testa.~
+//Silke ict3 868
+@28   = ~Garrick non è piccolo! Per fortuna sei un'attrice e non una pittrice; sarebbe stato un problema essendo cieca, eh. Perchè se non vedi da te quanto è alto, sei proprio cieca!~
+@29   = ~Ma certo!~
+//ict3 689
+@30   = ~Voglio dire, <CHARNAME>, può unirsi a noi, vero? *ridacchia* È carino, ed è un vero bardo! Qualcuno dovrà pur scrivere ballate sulla mia bellezza e il mio coraggio, non ti pare?~
+//ict3 690
+@31   = ~Tu... pensi davvero che io sia... ehm... carino?~
+//ict3 687
+@32   = ~Sì, è stata una cosa veramente squallida che lei ha costretto <CHARNAME> a fare!~
+//ict3 688
+@33   = ~Starai molto meglio con noi...~
+//ict3 689
+@34   = ~<CHARNAME>, può unirsi a noi, vero? *ridacchia* È carino, ed è un vero bardo! Qualcuno dovrà pur scrivere ballate sulla mia bellezza e il mio coraggio, non ti pare?~
+//Jaheira
+@35   = ~Non è fantastico, <CHARNAME>? Abbiamo attraversato una foresta piena di gibberling e lupi e ora stiamo incontrando *veri* avventurieri! Stiamo facendo progressi!~
+@36   = ~Ehi, Zietta Jaheira, io sono Imoen! Un'amica di <CHARNAME>... in realtà, più una guardiana che un'amica, capisci? Mi sto prendendo cura di <PRO_HESHE>, e roba così.~
+@37   = ~Gli avventurieri generalmente non si chiamano 'zietta', Imoen. Ma basta con le distrazioni. Gorion ti aveva menzionato nella sua corrispondenza, lodando la tua amicizia sincera con <CHARNAME>. Sei la benvenuta tra noi.~
+//guardia
+@38   = ~No! Ma dal tuo aspetto devono essere del tipo terribilmente noioso!~
+//Joja
+@39   = ~Certo che spaccheremo un po' di teste per te! Se vuoi, possiamo far sì che gli hobgoblin tornino qui e ti chiedano scusa in ginocchio per aver preso l'anello di tuo padre!~
+@40   = ~*ti dà una gomitata* La nostra finezza non è apprezzata qui.~
+//Chase 530
+@41   = ~Ehi, la sai una cosa? <CHARNAME> è stato appena bloccato fuori dalla sua città natale senza un soldo, e alcuni mostri hanno ucciso suo padre. Se c'è qualcuno qui che avrebbe tutto il diritto di voler saltare da una scogliera, è <CHARNAME>! E lo vedi forse saltare? Allora, qual è il tuo problema?~
+@42   = ~Ah. Che tipo strano.~
+@43   = ~Sono felice che tu l'abbia convinto a non farlo, <CHARNAME>, anche se probabilmente stava solo cercando attenzione.~
+@44   = ~Avresti almeno potuto provare prima col dialogo, <CHARNAME>, anche se stava probabilmente solo cercando attenzione.~
+//Binkos
+@45   = ~Un'altra carovana saccheggiata?! Wow, non va bene! Ricordi quei tipi del Pugno Fiammante passati da Candlekeep la scorsa settimana? Avevano detto che ne erano sparite almeno due! Penso che dovremmo tenere gli occhi aperti, se non vogliamo finire uccisi da dei banditi!~
+@46   = ~Eppure, è così eccitante... le carovane, i banditi, la strada... come un'avventura da un libro!~
+//Kolssed
+@47   = ~Heya, io sono Imoen, e qui c'è <CHARNAME>. Siamo appena usciti da Candlekeep e stiamo iniziando una grande avventura, per vendicare un grande mago e poi... uhm, <CHARNAME>, perchè te ne stai lì con la bocca chiusa come un mollusco quando la marea è alta? Sai più di quanto ne sappia io su tutte quelle faccende di battaglie e robe, comunque. Allora vai e diglielo! Questo è ciò che fanno gli avventurieri! Quelli famosi, a dire il vero. O come avrebbero mai fatto a finire nelle canzoni dei bardi?~
+@48   = ~Lo senti? "Compagni dalla mente simile"! Sarei io! Stai facendo bene, nonostante tu possa essere più duro delle mura di Candlekeep! Ma Imoen la Magnifica riuscirà a tirare fuori l'avventura che è dentro di te!~
+//Elminster
+@49   = ~Eh, io... o forse è meglio "La qui presente"? Voglio dire se "tu" diventa "voi"... o era "Vossia"? Uhm... in ogni caso non sono né disperata né sconvolta. Sono emozionata! Diventerò una famosa avventuriera, come Elminster!~
+@50   = ~*sorride sotto i baffi* Sei una ragazza vivace, Imoen. Ora, che dire di chi ti accompagna?~
+@51   = ~Aspetta un momento! Come fai a sapere il mio nome?~
+@52   = ~Si può acquisire tale conoscenza in più modi, bambina. Ma lascia parlare <PRO_HESHE>.~
+//Xzar
+@53   = ~Psst, <CHARNAME>, questo mago parla come se stesse spalmando il miele sul pane, ma non so... I suoi occhi non mi piacciono per niente!~
+@54   = ~Uhm, <CHARNAME>, non dovremmo andare prima alla Locanda del Braccio Amico? Probabilmente dovremmo trovare gli amici di Gorion, come voleva che tu facessi.~
+@55   = ~Non mi piace l'aspetto di questi due buffoni, <CHARNAME>. No. Affatto. Per niente.~
+@56   = ~Arriviamo alla Locanda del Braccio Amico al più presto, ok? Mi piacerebbe avere delle persone di cui mi possa fidare che viaggino con noi.~
+//Aoln
+@57   = ~Ehi, non ti lamentare... non stavamo mica gridando. Siamo avventurieri e comprendiamo queste cose, sai? Diglielo, <CHARNAME>.~
+//Winthrop
+@58   = ~Per i Nove Inferi, è bello essere a casa! Winthrop, mio vecchio amico!~
+@59   = ~E tu, piccola signorina, mi devi un lungo resoconto, per tutte le mie preoccupazioni dopo che sei scappata!~
+@60   = ~Lo farò... *i suoi occhi lacrimano* Lo so... Oh, dannazione, sono così felice di vederti, Pancione!~
+@61   = ~Pancione, <PRO_HESHE> è esattamente come prima! E siamo stati in grado di...fare un sacco di cose... prometto che verrò a dirti tutto ciò che <PRO_HESHE>, dall'alto della sua noiosità, tralascerebbe!~
+@62   = ~Lo farai, mia cara, lo farai sicuramente.~
+@63   = ~*ridacchia* È sicuramente divertente vedere che salta via per uno scherzo innocente... proprio come ai bei tempi...~
+//Hull
+@64   = ~Oh, Hull, sono successe così tante cose da quando... sia buone che cattive... ma niente di peggio di quando il vecchio Gorion è stato ucciso. <CHARNAME>, penso che dovremmo bere alla sua memoria, mentre siamo qui a Candlekeep con i nostri amici.~
+//Fuller
+@65   = ~*Una* storia?! Migliaia, magari! Le cose che abbiamo visto e fatto... emozionerebbero persino Nessa!~
+@66   = ~Sappiamo bene cosa stiamo facendo! E senti cosa ti dico, Fuller, quei tizi del Trono di Ferro sono i cattivi qui!~
+//Ardrouine ict3 65
+@67   = ~Povero ragazzo. Penso che dovremmo andare ad aiutarlo. Mi ricorda quando eravamo piccoli a Candlekeep e tu correvi via, spaventato dai cani che ti abbaiavano dietro.~
+//Arkushule
+@68   = ~Che tipo di maniaca vorrebbe un po' d'oro, e poi scapperebbe come una pazza quando le viene offerto del denaro?~
+@69   = ~Quale diavolo è il suo problema? Non riesco a credere che si sia arrabbiata così tanto riguardo il non raccontarti del tuo passato, e robe così. Perchè ha finito per attaccarci, invece di scappare?~
+//Bentan ict3 457
+@70   = ~Un momento, <CHARNAME>! Da quando segui gli insegnamenti del Dio Piangente? Inoltre, da quando vai in giro dicendo che siamo *tutti* seguaci di Ilmater? Io certamente non lo sono! Ma ehm... come ti pare.~
+//Borda
+@71   = ~*colpisce <CHARNAME> in testa* Idiota! Perchè non mi hai consultata, prima? Non hai pensato per un momento che avrebbe potuto tentare di fregarti? Dovrei saperlo, dopo tutto.~
+@72   = ~*colpisce <CHARNAME> in testa* Idiota! Perchè l'hai comprato? Che ottusità! Non hai pensato per un momento che avrebbe potuto tentare di fregarti? E questo dopo aver sbandierato quali incredibili abilità da ladro avessi e tutto!~
+//Carsa 0-609
+@73   = ~Puoi dire paauuuuurosooo...~
+@74   = ~Whoa! Ecco una magia davvero raccapricciante!~
+//Charleston Nib 618-619-620-621-620
+@75   = ~Ugh! Mi fa male la testa solo nel cercare di dare un senso a quello che stai dicendo su questo... Kozah. Ma, uhm, suppongo che fosse un dio malvagio, e questo posto ha qualcosa da fare con lui … una specie di tempio, giusto?~
+@76   = ~Sì. Fondamentalmente hai ragione. Quindi?~
+@77   = ~Quindi quegli operai che abbiamo appena ucciso ci hanno attaccato a causa sua o di qualcosa d'altro, giusto? Bene, allora come mai nessuno di noi ne è stato influenzato, eh?~
+@78   = ~Non sono in grado di rispondere alla tua domanda. Conosciamo poco di questa cultura, ed è per questo che stavamo facendo ricerche. Dubito che avrò mai una risposta per te, Imoen.~
+@79   = ~Quindi quegli operai che abbiamo appena ucciso ci hanno attaccato a causa sua o di qualcosa d'altro, giusto? Bene, allora come mai nessuno di noi ne è stato influenzato, eh?~
+//Chloe
+@80   = ~Wow, siamo famosi, <CHARNAME>!~
+//Davaeorn 209
+@81   = ~Per la fortuna di Tymora, se sei viscido! E pensare che volevo diventare una maga! brr...~
+//Destus Gurn 217
+@82   = ~*si strofina la testa* Mi sta venendo il mal di testa, ad ascoltare questo tipo. Pensavo che avessimo lasciato tutte quelle noiosissime lezioni a Candlekeep.~
+//Dra'tan
+@83   = ~È inquietante. Sicuramente non voglio che qualcuno mi copi! Dopo tutto, sono l'unica a cui è concesso di essere Imoen.~
+@84   = ~Si. Una di te è più che sufficiente.~
+@85   = ~Non ti preoccupare. Chi vorrebbe comunque copiarti?~
+@86   = ~Non ti preoccupare. Non lo lascerò accadere.~
+@87   = ~Ehi! E con quello cosa vorresti dire??~
+@88   = ~Grazie. E farai meglio a non attaccare quello sbagliata, però. Capito?~
+@89   = ~Non ti preoccupare. Nessuno potrebbe confondere una copia per la vera te.~
+@90   = ~Non ti preoccupare. Riconoscerei l'originale da una mutaforma ad occhi chiusi.~
+@91   = ~In qualche modo questo non mi fa sentire meglio, sai.~
+@92   = ~Grazie. Questo mi fa sentire un po' meglio. E io farò lo stesso per te, okay?~
+//Edwin 657-658
+@93   = ~*sussurrando* Ehi, <CHARNAME>. Perchè hai accettato di lavorare con questo tizio? Sembra, beh, raccapricciante.~
+@94   = ~Ti ho sentito, ladra. E non sono affari tuoi, poiché la questione è stata risolta tra <CHARNAME> e me stesso.~
+//Eldoth 661
+@95   = ~Questo tipo non mi convince. Voglio dire, il suo piano non è poi così terribile, ma ho la sensazione che non ci abbia detto tutto.~
+//Emerson 667
+@96   = ~Uh, qualcuno è di cattivo umore oggi. Deve essersi alzato dalla parte sbagliata del letto o qualcosa del genere.~
+//Gullikin
+@97   = ~Ugh! Lascerò questo a <CHARNAME>. Non sono mai stata brava in questo tipo di indovinelli.~
+//Lingot 397-398-399
+@98   = ~Ewww... disgustoso! Non credo di sentirmi troppo bene.~
+@99   = ~Beh, sembra che quegli altri Gnoll vogliano tenere Dynaheir viva almeno per un po', quindi... ehm, credo che sia una buona notizia, eh Minsc?~
+@100  = ~Non buona, ottima! La strega di Minsc vive! Il mio stivale non vede l'ora di prendere a calci quegli gnoll malvagi e liberare Dynaheir dalle loro grinfie! Raaagh!~
+//Jaheira 727-547(728)
+@101  = ~Sì! Lo zio Khalid e la zia Jaheira vengono con noi! Questa sarà una grande avventura, dopo tutto!~
+@102  = ~*sospira*~
+@103  = ~Cosa?! Aspetta un secondo! Siamo venuti fin qui, e ora volti loro le spalle? Sono come la nostra famiglia, lo sai!~
+@104  = ~Ho le mie ragioni.~
+@105  = ~Non voglio coinvolgerli. Hanno già abbastanza di cui preoccuparsi.~
+//Jenkal
+@106  = ~Immagino che gli halfling siano davvero sensibili riguardo la loro altezza.~
+@107  = ~Alcuni di noi lo sono, specialmente con gli umani. Non preoccuparti, però. Non mi arrabbierò se mi chiamerai 'piccoletta', Imoen, finché potrò chiamarti 'Piccola Imoen', o forse 'Piccola Immy'. Sì, mi piace di più l'ultima.~
+@108  = ~Allora, uhm, perchè gli halfling odiano così tanto i coboldi?~
+@109  = ~Davvero serve una ragione per odiare qualcuno?~
+@110  = ~Beh, sono creature brutte e sporche. Cercano di prenderci la nostra terra, e poi sono solo malvagi. Hai davvero bisogno di altre ragioni?~
+@111  = ~Immagino di no. Ma mi sembra quasi troppo. Voglio dire, gli umani odiano gli orchi e robe così, ma non nella misura con cui voi ragazzi sembrate odiare i coboldi.~
+@112  = ~Ha le sue radici nel tempo, Imoen. Non penso di essere l'halfling giusta con cui parlarne. Mi dispiace.~
+//Kirien 0-0-754
+@113  = ~Stai versando olio sul fuoco qui, sorella. <CHARNAME> ha il temperamento di una gatta selvatica!~
+@114  = ~Stai versando olio sul fuoco qui, sorella. <CHARNAME> ha il temperamento di un toro selvaggio!~
+@115  = ~Ehi, rallenta! Non mi sembra che voi siate così differenti!~
+//Kissiq 757
+@116  = ~Va bene. Questo lo devo proprio vedere. Err, ascoltare.~
+//Kerrachus
+@117  = ~Un nuovo mondo!? Wow! Sembra così eccitante! Mi piacerebbe andarci un giorno!~
+@118  = ~Dai, Imoen! Pensavo fossi più intelligente di così! Ti sta solo prendendo in giro.~
+@119  = ~Continuo a dire che ha in qualche modo incasinato i fatti. Può anche esserci un nuovo mondo, ma la sua spiegazione è quella di un pazzo.~
+@120  = ~Non lo so. Forse c'è un nuovo mondo da qualche parte e forse non c'è. Dubito che lo sapremo mai, per non parlare del metterci piede.~
+@121  = ~Bene, se quello che dice è vero, forse un giorno ci metteremo piede. E mi piacerebbe anche.~
+@122  = ~Non lo so. Sembrava molto serio.~
+@123  = ~Certo! In che altro modo potrebbe ingannare i creduloni?~
+@124  = ~Sì, forse perchè è un pazzo delirante!~
+@125  = ~Forse. Ma ne dubito fortemente.~
+@126  = ~Beh... forse hai ragione. Effettivamente suonava inverosimile, quello che ha detto.~
+@127  = ~*sospira* Sì. Immagino che tu abbia ragione. È davvero un peccato, però. Davvero.~
+@128  = ~Mi piacerebbe davvero vedere cosa potrebbe esserci in un'area inesplorata di questo mondo! Forse hanno una razza di umani con i capelli rosa! Non sarebbe il massimo!?~
+@129  = ~Questo è lo spirito! Nessun posto è troppo remoto! Nessun posto troppo sconosciuto! Nessun posto troppo pericoloso per noi!~
+@130  = ~Beh, finché c'è un posto dove una ragazza può rinfrescarsi di tanto in tanto almeno.~
+@131  = ~Comunque...~
+@132  = ~Beh suppon-~
+@133  = ~*tira una gomitata a <CHARNAME>* Io non sono una *credulona*!~
+//Kylee
+@134  = ~*ridacchia* Nudo senza il suo pugnale? Direi! Questi minatori non indossano molto, eh.~
+//Rill 47-910-911
+@135  = ~Wow, <CHARNAME>, stiamo liberando degli schiavi, proprio come gli eroi nelle ballate!~
+@136  = ~Aspetta! Penso che dovremmo aiutarli, ma non uccideremo le guardie a prescindere? Perchè dobbiamo pagarlo? Saranno liberi comunque una volta che tutte le guardie saranno. Voglio dire, non è che abbiamo fondi da investire, sai.~
+@137  = ~Ma uhm... loro potrebbero farne buon uso, poveretti. *sospira* Sei una brava persona, ecco perchè mi piaci.~
+@138  = ~A cosa serve? Non siamo guardie, ma suppongo non mi piaccia nemmeno il termine mercenari.~
+@139  = ~Non dovevi essere così avaro. Voglio dire, mi piace mantenere i soldi che ho, ma erano solo un centinaio di monete, ed erano per una buona causa. Sei davvero tirchio a non aiutarli quando abbiamo tutti questi soldi!~
+		~Non dovevi essere così avara. Voglio dire, mi piace mantenere i soldi che ho, ma erano solo un centinaio di monete, ed erano per una buona causa. Sei davvero tirchia a non aiutarli quando abbiamo tutti questi soldi!~
+//Laryssa 489
+@140  = ~Andata. Non preoccuparti, signora. Cercheremo di salvare Brage per te, okay?~
+@141  = ~Povera donna. Mi dispiace per lei, anche se ci ha attaccato. Stava solo cercando di proteggere qualcuno a cui teneva, anche se era stata ingannata.~
+//Minsc 777-778-779
+@142  = ~Wow. Una damigella in pericolo e un coraggioso guerriero che viene a salvarla. Vorrei che succedesse a me.~
+@143  = ~A dire il vero, io no. Non mi dispiacerebbe il coraggioso guerriero, purché fosse bello, ma alla parte dell' essere in pericolo posso fare volentieri a meno.~
+@144  = ~Minsc salverà una brava ragazza come te, non temere! Ma ora è la gloriosa Dynaheir che dobbiamo salvare! Avanti, amici!~
+@145  = ~Forse avrai questa possibilità un giorno.~
+@146  = ~Ah, e poi io!~
+@147  = ~*ridacchia* Eh. Sei davvero un ragazzino! Stavo parlando di qualcuno più romantico di te.~
+@148  = ~*ridacchia* Non ho appena detto che non lo voglio, sciocco?~
+//Nalin
+@149  = ~Vedi, non sei felice di aver ascoltato la mia idea di portarlo qui, invece di consegnarlo per la taglia? Ora abbiamo ottenuto il doppio della ricompensa!~
+@150  = ~Ehi, quella è stata una mia idea!~
+@151  = ~Ah. Sì, hai ragione, Imoen. Sono felice di aver seguito il *tuo* consiglio.~
+@152  = ~Penso che ti ricordi male. *Tu* volevi i soldi per la sua taglia.~
+@153  = ~Eh. Sì, te lo lascerò credere.~
+@154  = ~Grazie ancora per il vostro aiuto.~
+@155  = ~Non penso che mi piaccia il modo in cui lo hai detto...~
+@156  = ~Io? Sì, mi piacciono i soldi e tutto, ma non a scapito della vita di una persona innocente. Anche io devo tirare una linea da qualche parte, sai?~
+@157  = ~Non so da dove hai preso questa pazza idea, ma non è divertente.~
+//Narcillicus 795-317
+@158  = ~Il tempismo è tutto nella professione dell'avventuriero.~
+@159  = ~Uhm, sì... tutti i maghi sono così? Se io lo fossi, non lavorerei con melme e fanghiglie... Brrr... sono troppo uhm... viscide. Creerei golem di caramelle o qualcosa del genere, se volessi proprio dare di matto.~
+//Nikolai
+@160  = ~Ha ragione. Stai iniziando a spaventare anche me.~
+//Noober 60-808-916-917
+@161  = ~Aghh! Farai star zitto questo deficiente!? Cosa deve fare una ragazza per ottenere un po' di pace e tranquillità?!~
+@162  = ~Ora basta!!! Fuori dalla mia vista! O non rispondo di me! Mi sta facendo impazzire!!!~
+@163  = ~FINALMENTE! Giuro, se avesse detto anche solo un'altra cosa, lo avrei ucciso!~
+@164  = ~Perchè tutti si arrabbiano con me? Sto solo cercando di essere amichevole!~
+//Ogre-magi 444
+@165  = ~Paauuuurosoo. Spero che non finiremo mai per essere torturati in questo modo.~
+//Osmadi
+@166  = ~Aspetta un secondo! Di cosa diavolo stai parlando? Che tipo di reputazione stai cercando di darmi, eh?~
+//Pallonia 415-416(498)-417(499)-416(498)-497
+@167  = ~Sì! Vai via, ciarlatana!~
+@168  = ~Posso farlo anch'io sai? Dire robe e collegarle a stramberie su allineamenti di stelle e altre cose, e farle sembrare abbastanza vaghe da coprire quasi ogni circostanza.~
+@169  = ~Aspetta un secondo... mmm...~
+@170  = ~Posso farlo anch'io sai? Dire robe e collegarle a stramberie su allineamenti di stelle e altre cose, e farle sembrare abbastanza vaghe da coprire quasi ogni circostanza.~
+@171  = ~Non ci crederai sul serio, vero <CHARNAME>?~
+//Permidion Stark
+@172  = ~Uh, questo tizio si infervora per dure parole dette nel silenzio dei boschi? Vorrei vederlo nelle cucine del Pancione la notte della festa di Mezza Estate! Probabilmente perderebbe la testa e inizierebbe a urlare o robe così. Ah, si adatterebbe perfettamente!~
+//Prisme
+@173  = ~Wow, è bellissima! Pensi che qualcuno realizzerà anche le nostre di statue un giorno, <CHARNAME>? Vedendo come stiamo diventando grandi eroi e tutto il resto?~
+//Raiken e Teven
+@174  = ~*ti dà un calcio bello forte* Tu sei una stupida scimmia! Perchè lo hai fatto!? Avremmo potuto cavarcela facilmente. La prossima volta che incappassimo in altre specie di banditi come loro, farò io la negoziatrice, ok?~
+//Tethtoril
+@175  = ~Hai sentito!? Sarevok! Sembra un po' strano, non trovi?~
+//Vitiare
+@176  = ~Aspetta! Che cosa... ma dai, questo gruppo è pieno di ladri, eppure veniamo ancora derubati così facilmente? Non è colpa mia, però. Qualcuno ha voluto insistere che <PRO_HESHE> li avrebbe tenuti più al sicuro di me.~
+@177  = ~Aspetta! Che cosa... avrei dovuto prevederlo. Lasciarti i soldi mentre siamo qui al  carnevale è stata una pessima idea. Ma no... qualcuno ha voluto insistere che <PRO_HESHE> li avrebbe tenuti più al sicuro di me, l'unica a sapere cosa aspettarsi!~
+//Ulcaster
+@178  = ~E pensare che tutto quello che voleva era un libro per poter insegnare. Ti fa riflettere.~
+@179  = ~Oh! <CHARNAME>, anche tu mi farai avere tutto ciò che voglio in modo che io possa riposare in pace se devessi morire, vero?~
+//Ulraunt 895
+@180  = ~Qualcuno dovrebbe davvero dargli una pista!~
+//Zhurlong
+@181  = ~Dove?!~
+@182  = ~Oh cavolo, ti hanno derubato, <CHARNAME>, mentre ti guardavi in giro come un ebete!~
+@183  = ~Uh, tanto rumore per degli stupidi stivali! E sai una cosa, <CHARNAME>, con quegli stivali potrà solamente rubare meglio, quindi teniamo gli occhi sui nostri soldi finché stiamo qui intorno.~
+@184  = ~Oh, guarda chi è tutto importante adesso!~
+@185  = ~E per quanto riguarda me? Mmm?~
+@186  = ~Non avrei potuto impedirti di venire, anche se ci avessi provato.~
+@187  = ~Qualcuno deve farti da baby-sitter.~
+@188  = ~*tirando fuori la lingua* È così? Vedremo chi dovrà dormire fuori la prossima volta con una grossa roccia sotto di sé!~
+@189  = ~Proprio così! Ma è per il tuo bene, lo sai.~
+//Padhiver
+@190  = ~Possiamo andarci un giorno? Eh, <CHARNAME>? Sembra divertente!~
+@191  = ~Assolutamente no!~
+@192  = ~Forse. Dovremo vedere che cosa ci porta la fortuna.~
+@193  = ~Certo! Non me lo perderei per nulla mondo!~
+@194  = ~Buu! Non sei divertente! Pensavo si supponesse dovessimo essere degli avventurieri!~
+@195  = ~Grande! Ciò significa che devo iniziare tutta la pianificazione!~
+//Diamante
+@196  = ~Wow! E Winthrop mi diceva che i diamanti non crescono sugli alberi! Certo, a Candlekeep no! Ehi, <CHARNAME>, sorridi! Tymora ci favorisce, a quanto pare.~
+//Gorion
+@197  = ~È... Gorion?~
+@198  = ~Sì. È morto salvandomi da qualche... cosa.~
+@199  = ~Sì, *era* Gorion. È morto proteggendomi da un attacco.~
+@200  = ~*spingi il corpo con la punta del piede* Giusto. Il *grande* mago Gorion! Non ha saputo resistere nemmeno ad un paio di orchi e uno spaventa-passeri!~
+@201  = ~Ehi! Tu stavi nascondendo il tuo culone sotto un cespuglio mentre lui combatteva tutti questi mostri, non è vero?~
+@202  = ~Non sai nemmeno cosa vi ha attaccato? Qualunque cosa fosse, sembra sia stata feroce.~
+@203  = ~Ho avuto una paura inenarrabile! Cosa ti aspettavi?~
+@204  = ~Era troppo buio per vedere molto, ma era umanoide, anche se non sono riuscito  a vederne la faccia. I suoi occhi brillavano, però... come il fuoco degli Inferi! E sarebbe venuto dritto su di me se Gorion, gli dei salvino la sua anima, non gli avesse sbarrato la strada!~
+@205  = ~Non ricordo molto della scorsa notte... o... di chi ci ha attaccati. Ma ricordo che lui... ha parlato.~
+@206  = ~Degli orchi, una ragazza con una mazza e un enorme uomo in armatura a spuntoni. Non sono rimasto abbastanza a lungo da dare un'occhiata più da vicino, sai. Con Gorion che mi urlava di correre, quell'uomo che chiedeva la mia testa e tutto il resto...~
+		~Degli orchi, una ragazza con una mazza e un enorme uomo in armatura a spuntoni. Non sono rimasta abbastanza a lungo da dare un'occhiata più da vicino, sai. Con Gorion che mi urlava di correre, quell'uomo che chiedeva la mia testa e tutto il resto...~
+@207  = ~Davvero? Sono contenta di non essere stata lì. Ti ho visto stupirti e saltare via, ma mai e poi mai con così tanta paura. Io … io non voglio nemmeno pensare a cosa potrebbe spaventarti così.~
+@208  = ~Capisco. Mmm... quindi non stava cercando Gorion, ma te.~
+@209  = ~E ti ricordi cosa ha detto?~
+@210  = ~Non proprio, solo che voleva uccidermi.~
+@211  = ~Beh, non ha detto molto... inoltre, ovviamente, volendo che il mio cadavere fosse dove ora è quello di Gorion, o almeno al suo fianco, ha menzionato che mi stava cercando.~
+@212  = ~Non mi piace tutto questo, <CHARNAME>, non mi piace per niente.~
+@213  = ~Nemmeno a me, ma devo scoprire cosa sta succedendo e perchè sono stato attaccato. Non voglio trascinarti in tutto questo, però, Imoen.~
+		~Nemmeno a me, ma devo scoprire cosa sta succedendo e perchè sono stata attaccata. Non voglio trascinarti in tutto questo, però, Imoen.~
+@214  = ~Nemmeno a me, ma ciò che è fatto è fatto. Lo spirito di Gorion non tornerà più. Dubito che persino un Alto Chierico di Helm possa riportarlo in vita con un corpo così lacerato. No, faremmo meglio a proseguire ora, Imoen.~
+@215  = ~Non volevo che Gorion morisse, ma lo vendicherò, Imoen. Aspetta e vedrai.~
+@216  = ~Bah, le cose stanno appena iniziando a diventare interessanti. Non fraintendermi, vorrei che Gorion fosse qui, ma è così che iniziano le grandi avventure, Imoen!~
+@217  = ~Ho chiesto la tua opinione, mocciosa?~
+@218  = ~No, perchè sei troppo stupido!~
+		~No, perchè sei troppo stupida!~
+@219  = ~Sembrava ovvio, da quello che hai detto prima.~
+@220  = ~*scrollando le spalle e sorridendo* Bene, avremo a che fare con loro solo quando torneranno, ma questa volta, saranno i loro corpi a marcire sotto il sole.~
+@221  = ~Beh, non sei popolare?~
+@222  = ~Scusa, provo solo a ravvivare le cose qui. Ad ogni modo, se quella cosa ti stava cercando, verrà da te. Non preoccuparti, però! Questa volta, con Imoen la Magnifica al tuo fianco, non potrai perdere!~
+@223  = ~Ah. Grazie, Imoen.~
+@224  = ~Imoen la Magnifica?~
+@225  = ~Magnifica? Sei okay, ma non mi allargherei così tanto.~
+@226  = ~E Imoen la Magnifica può rianimare *questa* cosa qui? *indichi il corpo di Gorion*~
+@227  = ~Andarmene? E se lo facessi, chi ti terrebbe compagnia? Chi manterrebbe il tuo spirito allegro anche nelle ore più buie? E chi farebbe battute totalmente stupide, eh chi?~
+@228  = ~Andarmene! Ah! Mi dovresti obbligare per lasciarti ora!~
+@229  = ~Sei sicuro? Almeno potremmo dargli una sepoltura adeguata, sai. Non è che mi piaccia l'idea, ma so che a me farebbe piacere che qualcuno mi seppellisse.~
+		~Sei sicura? Almeno potremmo dargli una sepoltura adeguata, sai. Non è che mi piaccia l'idea, ma so che a me farebbe piacere che qualcuno mi seppellisse.~
+@230  = ~Suppongo che tu abbia ragione.~
+@231  = ~Imoen, è solo un corpo. Lascia che marcisca.~
+@232  = ~No... ho paura a restare qui troppo a lungo. L'uomo in nero e i suoi scagnozzi potrebbero tornare a cercarmi. Dobbiamo muoverci.~
+@233  = ~No... no, non posso. Ma parlando di corpi... Il minimo che possiamo fare è dare a Gorion una sepoltura appropriata, sai. Non è che mi piaccia l'idea, ma so che a me farebbe piacere che qualcuno mi seppellisse.~
+@234  = ~Bene, allora! Starò con te fino alla fine!~
+@235  = ~Ma non pensi che prima dovremmo seppellire Gorion? Voglio dire, non è corretto lasciarlo qua fuori in questo modo.~
+@236  = ~Giusto... bene, prima di iniziare questa avventura, non dovresti seppellire Gorion, o almeno quello che rimane di lui?~
+@237  = ~Suppongo che tu abbia ragione. D'altronde, tutte le grandi avventure iniziano dopo aver seppellito qualcuno a cui tenevi.~
+@238  = ~Sì, hai ragione, Imoen. Seppelliamo Gorion.~
+@239  = ~*All'improvviso non puoi più parlare, le lacrime sgorgano dai tuoi occhi. Fai solo un cenno di assenso.*~
+@240  = ~Ma certo! È il nome perfetto per me, una tipa tosta con così tanti talenti!~
+@241  = ~Bene, allora andiamo. Non sarebbe giusto sprecare questo mio magnifico talento per niente, sai?~
+@242  = ~OKAY!? Forse non ricordi quante volte ti hanno accusato per uno scherzo che non hai mai commesso, o le volte in cui la tua roba scompariva da sola per ricomparire poi da qualche altra parte nella tua stanza, o quella volta in cui il tuo vestito è diventato completamente trasparente nel mezzo della piazza cittadina? Sono sicura che le guardie di Candlekeep questa se la ricordano. Probabilmente anche alcuni di quei vecchi studiosi. Tutte queste cose hanno richiesto molta pianificazione, strategia e astuzia...~
+@243  = ~*ridacchia* Solo ripensandoci...~
+@244  = ~*arrossendo* Io… io non so di cosa tu stia parlando. Devi confonderti con qualcun altro...~
+@245  = ~*fumante di rabbia* SEI STATA TU!? VIENI QUI, PRIMA CHE TU POSSA PENTIRTENE.~
+@246  = ~E allora? Me ne hai fatta qualcuna quando eravamo giovani. Bell'affare. Siamo adulti ora, Imoen, e dovremo commettere *vere* azioni per definirci Magnifici.~
+@247  = ~E che mi dici di quando tutte le forchette nella locanda del signor Winthrop sono scomparse e tutti hanno pensato che fosse colpa tua? E quel tuo libro preferito, che non hai più potuto aprire, non importa quanto tu ci abbia provato? O il tappeto che si riarrotolava ogni volta che provavi a colpirlo con il tuo battitore? Ah! Anch'io te l'ho fatta un paio di volte!~
+@248  = ~OKAY!? Forse non ricordi quante volte ti hanno mostrato le prove per uno scherzo che non hai mai commesso, o le volte in cui la tua roba scompariva da sola per ricomparire poi da qualche altra parte nella tua stanza, o quella volta in cui ti sono cascati i pantaloni nel bel mezzo della piazza cittadina? Sono sicuro che quasi tutti lo ricordino. Le guardie si fecero una bella risata, come fecero molte di quelle... ehm... ragazze-che-non-avevano-ancora-compiuto-almeno-cent'anni! Anche quella per cui avevi una cotta... uhm... come si chiamava? Ah, non importa.~
+@249  = ~*ti lancia un'occhiataccia * OKAY!? Ascolta, lo so che cercavi sempre di superarmi, ma sai perchè eri sempre tu a prenderti la colpa, e mai io? Perchè dovevi sempre essere tu a fare quelle faccende in più, e non io? Eh, lo sai?~
+@250  = ~Effettivamente è un problema a cui non ho mai avuto risposta.~
+@251  = ~Non ha più importanza. Perchè ora siamo qui e non c'è nessun altro posto dove andare...~
+@252  = ~Non è esattamente vero, Imoen. Che mi dici di quando tutte le forchette nella locanda del signor Winthrop sono scomparse e tutti hanno pensato che fosse colpa tua? E quel tuo libro preferito, che non sei più riuscita ad aprire, non importa quanto tu ci abbia provato? O il tappeto che si riarrotolava ogni volta che provavi a colpirlo con il tuo battitore? Ah! Anch'io te l'ho fatta un paio di volte! Ma... non siamo più a Candlekeep, Imoen. Non c'è nessun altro da cui andare... quindi non perdiamo tempo con diatribe sciocche.~
+@253  = ~*rotea gli occhi* Come ti pare...~
+@254  = ~Tu... tu … oh cavolo... Mi dispiace... ma penso che dovremmo seppellire Gorion, <CHARNAME>.~
+@255  = ~Ah. Bene, dì quello che vuoi. Ma io sono Imoen la Magnifica.~
+@256  = ~*sudando* Uhm, beh … ora devo proprio andare... da qualche parte. Ci vediamo!~
+@257  = ~*ansimando* Okay... hai vinto... per... ora. Ma... vedi... ora... tu... non sei … così... depresso. Mi... dovresti... ringraziare... io...~
+@258  = ~Beh, puoi continuare a chiedertelo, perchè Imoen la Magnifica non rivela mai i suoi segreti, a meno che non ci sia qualcosa per lei in cambio. E comunque lei non rivela TUTTI i suoi segreti.~
+@259  = ~*sudando* Sai che era roba da bambini, vero? Non mi avrai tenuto rancore per tutto questo tempo?~
+@260  = ~No, ma non pensare di potertela cavare ora altrettanto facilmente.~
+@261  = ~Forse. Vedremo. Dipende da quanto sei brava come aiutante.~
+@262  = ~Uhm... Non mi piace quel termine, 'aiutante'...~
+@263  = ~Quella è... è la lettera che Gorion stava portando?~
+@264  = ~Sì, era sul corpo di Gorion. È morto proteggendomi da un attacco.~
+@265  = ~Giusto. Il *grande* mago Gorion! Che non ha saputo nemmeno resistere contro un paio di orchi e uno spaventa-passeri!~
+@266  = ~Ehi! Tu stavi nascondendo il tuo culone sotto un cespuglio mentre lui combatteva tutti questi mostri, ricordi?~
+@267  = ~Non sai nemmeno cosa ti ha attaccato?~
+@268  = ~Non lo so, ma quello che è fatto è fatto. Lo spirito di Gorion non tornerà più. Dubito che persino un Alto Chierico di Helm possa riportarlo in vita. No, faremmo meglio a proseguire, Imoen.~
+@269  = ~Giusto... beh, vorrei che potessimo organizzare il funerale di Gorion, <CHARNAME>.~
+@270  = ~Anch'io, Imoen. Ma tutte le grandi avventure iniziano dopo aver perso qualcuno a te caro.~
+@271  = ~Sì, hai ragione, Imoen. Diciamo una preghiera per Gorion.~
+@272  = ~Imoen, è solo un corpo. La natura e gli dei prendono tutto col tempo. Andiamo avanti.~
+@273  = ~Vorrei farlo, ma ho troppa paura di restare troppo a lungo vicino a Candlekeep. L'uomo in nero e i suoi scagnozzi potrebbero tornare a cercarmi. Andiamo avanti.~
+@274  = ~Bene, andiamo allora. Sarebbe un peccato avere questo tuo magnifico talento sprecato, giusto?~
+@275  = ~Tu... tu … oh cavolo... mi dispiace, <CHARNAME>.~
+@276  = ~Dai, <CHARNAME>, andiamo via da qui.~
+//Assassino 2
+@277  = ~Ch-chi era quella?~
+@278  = ~Un altro assassino. Non è la stessa che ha ucciso Gorion, però. Se lo fosse stato, ora non saremmo qui..~
+@279  = ~Un altro assassino. Questo è il quarto. Ne ho incontrati altri due prima di lasciare Candlekeep. Uno subito dopo aver lasciato Candlekeep. E ora questo...~
+@280  = ~Un altro assassino. Questo è il quinto. Ne ho incontrati altri due prima di lasciare Candlekeep. Uno subito dopo aver lasciato Candlekeep. E quel nano al Covone Rosso...~
+@281  = ~Un altro assassino. Questo è il quinto. Ne ho incontrati altri due prima di lasciare Candlekeep. Uno subito dopo aver lasciato Candlekeep. E quel mago sulla soglia della Locanda del Braccio Amico...~
+@282  = ~Un altro assassino. Questo è il sesto. Ne ho incontrati altri due prima di lasciare Candlekeep. Uno subito dopo aver lasciato Candlekeep. E quel mago sulla soglia della Locanda del Braccio Amico... E quel nano al Covone Rosso.~
+@283  = ~Aspetta! Mi stati dicendo che hai subito degli attacchi anche dentro le mura di Candlekeep!? Ma perchè non me l'hai detto prima che te ne andassi?~
+@284  = ~Non volevo preoccuparti e farti venire l'idea di seguirmi, come effettivamente hai fatto.~
+@285  = ~Ci ho provato, ma hai detto che eri troppo impegnata.~
+@286  = ~Cosa intendi con... inquietante?~
+@287  = ~Inquietante significa inquietante. Muoviamoci...~
+@288  = ~Pensaci per un secondo. Chiunque sia stato sapeva di potermi attaccare appena lasciata Candlekeep, come se si aspettassero che fuggissi. Poi, sapeva che mi stavo dirigendo verso la Locanda del Braccio Amico, e ha organizzato un'imboscata sulla porta della locanda. Ora questo. Gorion si era assicurato che nessun altro sapesse della Locanda del Braccio Amico, e nessuno qui aveva idea che ci saremmo diretti a Nashkel. Eppure, un altro assassino ci aspettava anche qui...~
+@289  = ~Eh, sì. Ti sono attaccata come la malta ai mattoni! Bene, basta chiacchere, andiamo a cercare una stanza in modo che possa fare un bel bagno caldo.~
+@290  = ~Pff! E tu avresti dovuto fermarmi! Hai davvero bisogno di lavorare sulla spina dorsale, ragazza mio! Se non riesci a gestire me, come ti aspetti di convivere con tuo marito?~
+@291  = ~Non importa. Andiamo.~
+@292  = ~Marito? Che c'entra adesso?~
+@293  = ~Marito, eh? Potrei dire la stessa cosa di te, Imoen.~
+@294  = ~Pff! E tu avresti dovuto fermarmi! Hai davvero bisogno di lavorare sulla spina dorsale se vuoi sperare di avere una moglie un giorno, a meno che non vuoi che ti comandi a bacchetta!~
+@295  = ~Moglie, eh? Non ti preoccupare, ho un sacco di quella cosa... spina dorsale, io.~
+@296  = ~Non devo preoccuparmene. L'unica persona che vorrei per moglie è proprio di fronte a me.~
+@297  = ~Mmpf. E va bene, ma sarà meglio che me lo spiegherai più tardi.~
+@298  = ~Effettivamente...~
+@299  = ~Ma non è tutto. Perchè quell'uomo in armatura non è tornato di persona? Perchè inviare degli assassini, quando è stato disposto a venire lui stesso la prima volta? Cosa lo ha reso abbastanza occupato da giustificare l'invio di semplici manovali?~
+@300  = ~Va bene, stare qui non aiuta nessuno. Andiamo.~
+@301  = ~Non ha senso, a meno che... no... dannazione! Non ne ho proprio idea!~
+@302  = ~Io … io non lo so... Comunque, mi stai facendo venire il mal di testa. Sarò magnanima e lascerò a te fare tutti i ragionamenti complessi del caso.~
+@303  = ~Conosci la risposta, Imoen. Come la conosco io. Gli assassini ci stavano aspettando ed erano di piccolo calibro, perchè sono *ovunque*. Hanno scelto la quantità rispetto alla qualità, scommettendo sul fatto che qualcuno, da qualche parte, sia destinato a prendermi alla sprovvista. Quindi, non importa dove andremo...~
+@304  = ~Bene, buon per te!~
+@305  = ~Smettila! Mi stai spaventando!~
+@306  = ~Ehi, non preoccuparti, so impormi sufficientemente già adesso.~
+@307  = ~Non c'è bisogno di dirlo.~
+@308  = ~*ti allontani*~
+@309  = ~Forse quando combatti contro mostri e quant'altro, ma non quando si tratta di donne.~
+@310  = ~*si guarda intorno innocentemente* Eh? Non vedo altre ragazze nei paraggi... aspetta, non stai parlando di me, vero?!~
+@311  = ~Ah, ti sto prendendo in giro!~
+@312  = ~Quindi, non vedi nessun altro? Nemmeno io...~
+@313  = ~Hai detto qualcosa?~
+@314  = ~Uh, sì. Dovremmo andare.~
+@315  = ~Uh, no, niente di niente.~
+@316  = ~Ecco così impari a fare l'idiota! *scalcia <CHARNAME>*~
+@317  = ~Ahi! Le mie vecchie ferite!~
+@318  = ~Allora, forse, non dovresti andare in giro a fare battute. Battute stupide!~
+@319  = ~Oh, vedo una bellezza elfica, i suoi capelli sono come oro filato e gli occhi più verdi degli smeraldi. Il tipo a cui tutti i maschi sbavano dietro. *scalcia <CHARNAME>*~
+@320  = ~Allora forse non dovresti sbavare o fare battute. Andiamo, amatore provetto. *fa una linguaccia*~
+@321  = ~Mmpf!~
+//Ritorno a Candlekeep
+@322  = ~Candlekeep... non avrei mai pensato di tornare così presto. Porta indietro tutti i tipi di ricordi, non è vero?~
+@323  = ~Sì, vero.~
+@324  = ~Sì, come quella volta in cui hai rubato quella torta al signor Winthrop e me l'hai data mezza mangiata, poco prima che lui arrivasse per urlarmi contro.~
+@325  = ~Sì, ma preferirei non parlarne.~
+@326  = ~Non c'è tempo per i ricordi. Abbiamo del lavoro da fare.~
+@327  = ~Sì. Ehi, Guarda, c'è Hull! Andiamo a salutarlo!~
+@328  = ~Ehi, stavo solo cercando di condividere. Come avrei potuto sapere che il signor Winthrop stesse arrivando proprio in quel momento? Eh, come?~
+@329  = ~Tu lo sai sempre.~
+@330  = ~Non importa. Comunque mi ha beccato.~
+@331  = ~Oh, lasciamo perdere. Oggi non ho voglia di discutere.~
+@332  = ~Ancora ricordi quell'incidente, eh? Non posso biasimarti, però. Lo ricorderei anche io.~
+@333  = ~Anche se non era esattamente dentro Candlekeep, è l'ultimo suo ricordo che ho, e ha avuto un risultato orribile.~
+@334  = ~Cavolo. Sei davvero senza parole oggi. Voglio dire, non è ogni giorno che torniamo nella nostra città natale, sai.~
+@335  = ~Chi è questo Malar di cui quel tipo stava parlando?~
+@336  = ~Non ha importanza. Non ho nemmeno voglia di spiegarlo.~
+@337  = ~Non lo so.~
+@338  = ~Non sai niente, Imoen? Malar è uno degli dei di questo mondo.~
+@339  = ~*alza gli occhi e non rispondere*~
+@340  = ~Sì, certo. Sono sicura che nemmeno tu lo sai.~
+@341  = ~E invece lo so! Malar è uno degli dei.~
+@342  = ~Ebbene, sì. Non lo so neanche io.~
+@343  = ~Ah. Beh, almeno ammetti la tua incompetenza, quindi non te lo farò pesare per questa volta.~
+@344  = ~Uhm... sì... sì, lo sapevo... ovviamente. Io ero, uhm … ti stavo testando. Ecco tutto.~
+@345  = ~Come ti pare...~
+@346  = ~Va bene, allora potrai dirmi per che cosa è conosciuto questo Malar, giusto? Mmm? Sicuramente non sarà troppo difficile?~
+@347  = ~Ascolta, Imoen, potrai conoscere molte cose pratiche, ma ricordo che non studiavi troppo duramente a Candlekeep. Ti spiegherò qualcosa su Malar, se vuoi.~
+@348  = ~Ehi! Cosa vorresti insinuare? Oh, lascia perdere!~
+@349  = ~Uhm, beh, sai … quel uhm … quel tizio... dunque, praticamente …~
+@350  = ~Certo. Ammetti semplicemente di non saperlo, e ti spiegherò qualcosa io.~
+@351  = ~Come immaginavo.~
+@352  = ~*sospira* Sì. Hai ragione. Stavo solo bluffando. Non sono mai riuscita a tenere gli occhi abbastanza aperti per leggere quei libri o ascoltare tutte quelle lezioni.~
+@353  = ~Quindi vuoi che ti spieghi chi è?~
+@354  = ~Sì, se non è troppo lungo. Non voglio che te ne esca con una storia interminabile, sai, come quei vecchi tromboni. Siamo amici e tutto il resto, ma ho anch'io i miei limiti.~
+@355  = ~Va bene allora, cominciamo.~
+@356  = ~Non importa, allora. Non penso di poterlo fare senza annoiarti.~
+@357  = ~Malar è conosciuto come il Signore delle Bestie, perchè i suoi poteri riguardano mostri e animali predatori e tutto quello a loro correlato. Non ha alcun potere sugli umani, ma ha cercato di averlo in passato, quando Bane, Bhaal e Myrkul andarono a sfidare il potere dal precedente sovrano della Città del Giudizio, Jergal.~
+@358  = ~Ovviamente, gli altri non volevano il suo intervento, quindi hanno finto di farlo partecipare per poi invece spartirsi i poteri divini acquisiti. Puoi capire che non fu troppo contento di quel risultato.~
+@359  = ~Wow. Ci scommetto.~
+@360  = ~Grazie. Nessuno di quei vecchi fossili ammuffiti sarebbe stato in grado di spiegarlo così facilmente come hai fatto tu.~
+@361  = ~Malar è conosciuto come il Signore delle Bestie o anche Leopardo dal Sangue Nero, perchè è patrono dei cacciatori, delle bestie predatrici, dei mostri e dei licantropi malvagi. Inoltre, controlla la sete di sangue e lo stalking, che sono tutti strettamente correlati in qualche modo al comportamento delle bestie. È una divinità malvagia e considerata solo una piccola potenza tra le divinità del Faerun. A parte su quelli che lo seguono, non ha alcun potere maggiore sugli umani.~
+@362  = ~Uno degli incidenti più famosi in cui è stato coinvolto è conosciuto oggi come "La storia dei Tre Morti". Malar stava venendo a trovare Jergal, il Signore della Città del Giudizio e il primo dio della morte, della lotta e dell'omicidio.~
+@363  = ~In ogni caso, Malar era arrivato in un momento in cui quelli che sarebbero stati conosciuti come I Tre Morti - Myrkul, Bhaal e Bane - erano in competizione per il potere di Jergal, dal momento che egli si era stancato del lavoro. Dovevano dividere il potere tra di loro. Malar voleva essere della partita. I Tre Morti lanciarono i teschi forniti da Jergal attraverso il Deserto Grigio, e Malar andò a cercare un altro teschio per sé stesso con la speranza di scagliarlo più lontano degli altri.~
+@364  = ~Ovviamente, nessuno di loro voleva condividere il potere con lui. Così mentre era via, gli altri avevano inventato un nuovo gioco con le falangi, e quando Malar tornò con il teschio, la loro partita era già finita. Malar se ne andò furioso per non avere ottenuto nulla.~
+@365  = ~Comunque, questo è solo un incidente tra tanti, ma credo che sia sufficiente visto che ti stai addormentando.~
+@366  = ~*sbadiglia* Sì. È stato abbastanza lungo e noioso. Beh, almeno, ti sei fermato prima che mi addormentassi, quindi non sei così male come quegli insegnanti, ma comunque...~
+@367  = ~Beh, perchè ci stiamo fissando? Cominciamo a... scavare. Forse un giorno potremo tornare e aggiungere una piccola lapide o qualcosa del genere...~
+@368  = ~Era un brav'uomo. Ora possa il suo spirito riposare e il suo corpo tornare alla natura pacificamente. Ma per Silvanus, giuro che la sua morte non resterà impunita!~
+@369  = ~Lo c-conoscevo bene. Ci mancherà molto.~
+@370  = ~È un triste ritrovo quello di questo giorno, signori. Forse io... potrei creare una storia della sua... battaglia finale in un poema, uno che sarà ricordato... si spera, un domani e oltre.~
+@371  = ~Non conoscevo Gorion, ma da quello che <CHARNAME> dice di lui, doveva essere un grande uomo.~
+@372  = ~Boo dice che Gorion sembra essere stato molto intelligente e coraggioso. Minsc pensa che Boo abbia ragione! Minsc avrebbe voluto conoscerlo.~
+@373  = ~Non passa giorno senza che assistiamo alla sepoltura di un'altra povera anima distrutta dall'avventura. *sospira* Prevedo che anche il nostro funerale si avvicinerà a breve.~
+@374  = ~Un peccato. Sarebbe stato un buon amico per un nano.~
+@375  = ~Davvero lo volete seppellire là dentro? Ma per favore! Non avrà una sepoltura adeguata fino a che non si trovi almeno tre metri più sotto! Ricordatemi di non farmi mai seppellire da gente di superficie.~
+@376  = ~Sembra che il vecchio abbia finalmente avuto il suo eterno riposo. Ma non capisco perchè non mi vogliono lasciare prendere un dito per... ricordo?~
+@377  = ~Non capirò mai i vostri rituali di fantasia. Un morto è morto e non c'è nulla per cui valga la pena sbattersi tanto per il suo cadavere.~
+@378  = ~Non voglio seppellire mai più qualcuno. Non morirmi per favore, <CHARNAME>. Io … io non penso che potrei sopportarlo se dovessi seppellire anche te.~
+@379  = ~Non preoccuparti, Imoen, non lo farò. Andiamo ora, e lasciamo riposare in pace Gorion.~
+@380  = ~Solo se mi prometti che anch'io non dovrò seppellire te.~
+@381  = ~Un altro!? Sapevo che ti stavano inseguendo dopo l'attacco, ma questo... questo è troppo per me. Voglio dire, non mi piace per niente! Per prima cosa c'è l'agguato di fronte a Candlekeep di quel maniaco bramoso per il tuo sangue, e Gorion muore. Quindi di nuovo fuori dalla Locanda del Braccio Amico, subito prima che ci incontrassimo con Jaheira e Khalid! Ora anche qui! L'ennesimo tentato omicidio sulla soglia di un'altra locanda! Quando è troppo è troppo!~
+@382  = ~S-se avessimo saputo che un assassino ti stesse aspettando f-fuori dalla locanda, avremmo c-combattuto anche noi. V-vero, Jaheira?~
+@383  = ~Certo. Altrimenti ti avremmo incontrato al cancello, ma non possiamo cambiare il passato. Almeno eravamo qui con te questa volta.~
+@384  = ~Sì, lo so che è difficile, e sì, sono riconoscente per il tuo aiuto. Finché restiamo uniti, nessun assassino sarà in grado di sconfiggerci...~
+@385  = ~Questo è inquietante. Sapevano di trovarmi qui... molto inquietante, in effetti.~
+@386  = ~Sì! Giusto! Siamo una squadra inarrestabile!~
+@387  = ~Sì! Insieme a me come supporto principale, e alla zia Jaheira e allo zio Khalid, i cattivi non avranno alcuna possibilità.~
+@388  = ~Per favore, Imoen, puoi chiamarmi Jaheira. Non c'è bisogno di usare 'zia' davanti al mio nome.~
+@389  = ~Okaaay, zietta Jaheira.~
+@390  = ~Dai, smetti di stare lì, come se stessi aspettando che un altro assassino venga a prenderti!~
+//Theodon (ict3 27-28)
+@391  = ~Chi non l'ha visto arrivare da un miglio di distanza? Ora i ragazzi si divertiranno per giorni... sì!~
+@392  = ~Ah, sei qui anche tu? Beh, tu eri la più silenzioso tra i due … eri...~
+@393  = ~Ah, ho finito con te.~
+//ict3 900
+@394  = ~Da questa parte!~
+@395  = ~Grazie! Lo farò!~
+@396  = ~Err... addio!~
+@1001 = ~Eh? Non importa! Devo andare! Ho molto da fare!~
+@1002 = ~Eh? Non importa. Ho un conto in sospeso con un mondo insensibile.~
+@1003 = ~Tenete giù la testa e le armi a portata di mano.~
+@1004 = ~Ah. Ma siamo tutti un po' più grandi.~
+@1005 = ~Non vogliamo il tuo oro, hai capito?~
+//Arkushule (ict3 922)
+@1006 = ~Aiyee!~
+@1007 = ~Devo andare!~
+@1008 = ~Taci!~
+@1009 = ~Corri, dico io!~
+@1010 = ~Shoo!~
+@1011 = ~La pagherai!~
+@1012 = ~Vedrai. Addio.~
+@1013 = ~Grazie per la tua generosa donazione.~
+@1014 = ~Grazie mille!~
+@1015 = ~Addio...~
+@1016 = ~Chi, io?~
+@402  = ~Oh, silenzio. So che <PRO_HESHE> sa cosa sta facendo.~
+@403  = ~Ohhh...~
+@404  = ~Senti il potere!~
+//Destus (ict3 221)
+@405  = ~Da questa parte, se non ti dispiace.~
+@406  = ~Sciocchezze!~
+@407  = ~Strrrrrappale!~
+@408  = ~Corri, dico io!~
+//ict3 933
+@409  = ~Grazie!~
+@410  = ~Bastardi.~
+@413  = ~Vedrai. Addio.~
