@@ -1,0 +1,14 @@
+COPY_EXISTING_REGEXP "^%tutu_var%kivan[0-9]*\.cre" "override"
+  SET_BG2_PROFICIENCY PROFICIENCYSPEAR 0
+  SET_BG2_PROFICIENCY PROFICIENCYHALBERD 2
+
+  REPLACE_CRE_ITEM "%tutu_var%halb01" #0 #0 #0 "identified" "weapon1" EQUIP TWOHANDED
+
+
+COPY_EXISTING "x#kispr.itm" "override"
+  WRITE_SHORT 0x001c 0x1e
+  WRITE_BYTE 0x0031 0x62
+
+  IF_EXISTS
+
+
