@@ -1,0 +1,23 @@
+COPY_EXISTING_REGEXP "^%tutu_var%kivan[0-9]*\.cre" "override"
+  SET_BG2_PROFICIENCY PROFICIENCYSPEAR 2
+  SET_BG2_PROFICIENCY PROFICIENCYHALBERD 0
+
+  REPLACE_CRE_ITEM "%tutu_var%sper01" #0 #0 #0 "identified" "weapon1" EQUIP TWOHANDED
+
+
+COPY_EXISTING "%DryadFalls_Cave%.are" "override"
+  LAUNCH_PATCH_FUNCTION REPLACE_AREA_ITEM
+    STR_VAR
+    old_item	= "%tutu_var%halb02"
+    new_item	= "%tutu_var%sper02"
+  END
+
+
+COPY_EXISTING "%CloakwoodMines_L3%.are" "override"
+  LAUNCH_PATCH_FUNCTION REPLACE_AREA_ITEM
+    STR_VAR
+    old_item	= "%tutu_var%sper02"
+    new_item	= "%tutu_var%halb02"
+  END
+
+
