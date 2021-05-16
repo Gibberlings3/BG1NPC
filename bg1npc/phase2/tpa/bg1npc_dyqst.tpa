@@ -165,6 +165,7 @@ COPY ~bg1npc/phase2/cre/x#mepht1.cre~ ~override~
       SAY NAME1 @729  /* Smoke Mephit */
       SAY NAME2 @729  /* Smoke Mephit */
       WRITE_ASCII SCRIPT_DEFAULT ~x#mepsmo~ #8
+END
 
 COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override/x#tanari.cre~
   SAY NAME1 @291
@@ -174,7 +175,6 @@ COPY ~bg1npc/phase2/cre/x#tanari.cre~ ~override/x#tanari.cre~
   WRITE_EVALUATED_ASCII 0x2CC ~%DEST_RES%~ #8 //  dialog
   WRITE_BYTE 0x270 ~128~ // Allegiance = Neutral
   WRITE_ASCII 0x280 ~aravaata~ #32 //  death variable
-END
 
 
 /* Compile .bcs for X#WINSKI and X#TANARI and x#mepht1-5 */
