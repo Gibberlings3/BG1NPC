@@ -27,7 +27,8 @@
 @26   = ~Non vedo nulla di male in questo. Chissà, se fosse vero potremmo imparare qualcosa.~
 @27   = ~Pensavo che quel vecchio pazzo bibliotecario fosse abbastanza, Garrick, ma se non stai zitto, allora spingerò quel libro dove il sole non brilla, se capisci cosa intendo...~
 @28   = ~Wow! Grazie, <CHARNAME>.~
-@29   = ~Bibliotecari Erranti.
+//needs to be exact same as @26 from x#garwyl.tra
+@29   = ~Bibliotecari Erranti
 
-Oggi abbiamo incontrato un vecchio bibliotecario di nome Archibald al Carnevale di Nashkel. Ci ha dato una copia de "L'Antologia Definitiva di Eroi Famosi Poco Conosciuti." Contiene un'interessante sezione che descrive in dettaglio l'ormai non morto Myr'Cutio, che si dice perseguiti la regione di Ulcaster all'incirca a est di Beregost. Garrick è desideroso di andare a dare un'occhiata.~
+Oggi abbiamo incontrato un vecchio bibliotecario di nome Archibald al Carnevale di Nashkel. Ci ha dato una copia de "L'Antologia Definitiva di Eroi Famosi Poco Conosciuti". Contiene un'interessante sezione che descrive in dettaglio l'ormai non morto Myr'Cutio, che si dice perseguiti la regione di Ulcaster all'incirca a est di Beregost. Garrick è desideroso di andare a dare un'occhiata.~
 @30   = ~Come vuoi, ma scommetto che ce ne pentiremmo se non andassimo...~

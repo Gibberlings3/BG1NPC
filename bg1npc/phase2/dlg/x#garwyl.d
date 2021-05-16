@@ -52,7 +52,7 @@ APPEND ~%GARRICK_JOINED%~
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#PostMyrChat","GLOBAL",1)~ THEN BEGIN PostMyrChat
 SAY @25
-IF ~~ THEN DO ~SetGlobal("X#PostMyrChat","GLOBAL",2)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@26) SetGlobal("X#PostMyrChat","GLOBAL",2)~ EXIT
 END
 
 END
