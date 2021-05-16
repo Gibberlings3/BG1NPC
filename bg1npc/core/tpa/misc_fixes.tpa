@@ -28,7 +28,11 @@ COPY ~bg1npc/Core/cre/x#gorlet.cre~ ~override/x#gorlet.cre~
   LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
 /* add Gorion's Talking Letter Area Script */
+/*
 EXTEND_BOTTOM ~%Candlekeep_Library_L5_BCS%.bcs~ ~bg1npc/CORE/baf/X#FW2612.baf~
+  EVALUATE_BUFFER
+*/
+EXTEND_BOTTOM ~baldur.bcs~ ~bg1npc/CORE/baf/X#FW2612.baf~
   EVALUATE_BUFFER
 
 /* add Gorion's Talking Letter dialog, no need for EVAL */
