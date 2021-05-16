@@ -5,16 +5,23 @@ SAY @0
 = @1
 IF ~!PartyHasItem("_MISC47") !PartyHasItem("MISC47")~ THEN REPLY @2 DO ~SetGlobal("X#HalbTalk","LOCALS",1)~ GOTO Upgrade2
 IF ~OR(2) PartyHasItem("_MISC47") PartyHasItem("MISC47")~ THEN REPLY @2 DO ~SetGlobal("X#HalbTalk","LOCALS",1)~ GOTO Upgrade3
-IF ~~ THEN REPLY @3 DO ~StartStore("%tutu_var%STO0703",Protagonist)~ EXIT
-IF ~~ THEN REPLY @4 EXIT
+IF ~~ THEN REPLY @3 DO ~SetGlobal("X#HalbTalk","LOCALS",1) StartStore("%tutu_var%STO0703",Protagonist)~ EXIT
+IF ~~ THEN REPLY @4 DO ~SetGlobal("X#HalbTalk","LOCALS",1)~ EXIT
 END
 
-IF WEIGHT #-5 ~%BGT_VAR% PartyHasItem("X#GARCH") Global("X#HalbTalk","LOCALS",1)~ THEN BEGIN Upgrade7
-SAY @5
-IF ~OR(2) PartyHasItem("_MISC47") PartyHasItem("MISC47") PartyGoldGT(999)~ THEN REPLY @6 GOTO Upgrade6
-IF ~~ THEN REPLY @7 DO ~StartStore("%tutu_var%STO0703",Protagonist)~ EXIT
-IF ~~ THEN REPLY @8 EXIT
+END //APPEND
+
+EXTEND_BOTTOM ~%tutu_var%HALBAZ~ 0
+IF ~OR(2) PartyHasItem("_MISC47") PartyHasItem("MISC47") PartyGoldGT(999)
+PartyHasItem("X#GARCH") Global("X#HalbTalk","LOCALS",1)~ THEN REPLY @6 GOTO Upgrade6
 END
+
+EXTEND_BOTTOM ~%tutu_var%HALBAZ~ 1
+IF ~OR(2) PartyHasItem("_MISC47") PartyHasItem("MISC47") PartyGoldGT(999)
+PartyHasItem("X#GARCH") Global("X#HalbTalk","LOCALS",1)~ THEN REPLY @6 GOTO Upgrade6
+END
+
+APPEND ~%tutu_var%HALBAZ~
 
 IF ~~ THEN BEGIN Upgrade2
 SAY @9
