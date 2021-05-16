@@ -190,10 +190,11 @@ Dialogue(Myself)
 END
 
 /* Kivan Ankhegs */
+/* Kivan counts killed Ankhegs */
 IF %BGT_VAR%
 AreaCheck("%FishingVillage%")
-Global("AnkhegCount","%FishingVillage%",1)
-Global("P#KivanAnkheg","GLOBAL",0)
+Global("X#GerdeAnkhegsCount","GLOBAL",2)
+Global("P#KivanAnkheg","GLOBAL",1) //set in Gerde's interjection
 NumDead("ankheg",10)
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -203,12 +204,12 @@ CombatCounter(0)
 !See([ENEMY])
 THEN
 RESPONSE #100
-SetGlobal("P#KivanAnkheg","GLOBAL",1)
+SetGlobal("P#KivanAnkheg","GLOBAL",2)
 END
 
 /* Initiate  */
 IF %BGT_VAR%
-Global("P#KivanAnkheg","GLOBAL",1)
+Global("P#KivanAnkheg","GLOBAL",2)
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)

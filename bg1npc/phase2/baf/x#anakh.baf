@@ -1,8 +1,0 @@
-IF %BGT_VAR%
-GlobalGT("HelpGerde","GLOBAL",0)
-AreaCheck("%FishingVillage%")
-Die()
-THEN
-RESPONSE #100
-IncrementGlobal("AnkhegCount","%FishingVillage%",1)
-END
