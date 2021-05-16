@@ -514,12 +514,14 @@ BEGIN @1116 DESIGNATED 131 /* The BG1 NPC Project: Sarevok's Diary Date Changes 
 BEGIN @1133 DESIGNATED 240 /* Kivan uses spears */
   SUBCOMPONENT @1132 /* The BG1 NPC Project: Kivan's Proficiency */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
   INCLUDE "%MOD_FOLDER%/tweaks/kivan_spears.tpa"
 
 BEGIN @1134 DESIGNATED 241 /* Kivan uses halberds */
   SUBCOMPONENT @1132 /* The BG1 NPC Project: Kivan's Proficiency */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
   INCLUDE "%MOD_FOLDER%/tweaks/kivan_halberds.tpa"
 
