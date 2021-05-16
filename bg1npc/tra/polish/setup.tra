@@ -140,9 +140,19 @@ prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT~
 @1129 = ~Czas pomiêdzy rozmowami: D³ugi~
 @1130 = ~Czas pomiêdzy rozmowami: Bardzo d³ugi~
 @1131  = ~The BG1 NPC Project: Daj Coran jego portret z "Murder in Baldur's Gate"~
+
+/* new for v26 */
+@1132  = ~The BG1 NPC Project: Kivan's Proficiency~
+@1133  = ~Kivan uses spears~
+@1134  = ~Kivan uses halberds~
+
 @5000  = ~Wykryto zainstalowane BG:EE.~
 @5001  = ~Dla tego komponentu musisz miec zainstalowane BGT albo TuTu.~
 @5002  = ~Dla tego komponentu musisz miec zainstalowane BGEE.~
 @5003 = ~Niekompatybilne z BGT i BGEE:
 prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT i BGEE~
 @5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+
+/* new for v26 */
+@5005 = ~This mod is not compatible with this game.~
+@5006 = ~This mod needs to be installed before EET_End on your EET install.~

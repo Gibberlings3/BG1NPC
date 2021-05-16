@@ -140,9 +140,19 @@ Por favor, usa el componente de Sword Coast Strategems para BGT~
 @1129 = ~Velocidad de los banters: Mas lentos~
 @1130 = ~Velocidad de los banters: Muy lentos~
 @1131  = ~Proyecto BG1NPC: Cambiar el retrato de Coran por el que tiene en "Murder in Baldur's Gate"~
+
+/* new for v26 */
+@1132  = ~The BG1 NPC Project: Kivan's Proficiency~
+@1133  = ~Kivan uses spears~
+@1134  = ~Kivan uses halberds~
+
 @5000  = ~BG:EE detectado.~
 @5001  = ~Este componente requiere BGT o TuTu.~
 @5002  = ~Este componente requiere BGEE.~
 @5003  = ~Incompatible con BGT y BGEE:
 Por favor, usa el componente de Sword Coast Strategems para BGT y BGEE.~
 @5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+
+/* new for v26 */
+@5005 = ~This mod is not compatible with this game.~
+@5006 = ~This mod needs to be installed before EET_End on your EET install.~
