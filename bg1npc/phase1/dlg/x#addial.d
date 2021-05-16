@@ -1391,7 +1391,7 @@ END ~%JAHEIRA_JOINED%~ JADRU2.11
 ADD_TRANS_TRIGGER ~%tutu_var%TETHTO2~ 1 ~Global("P#KnowBhaal","GLOBAL",1)~
 
 EXTEND_BOTTOM ~%tutu_var%TETHTO2~ 1
-IF ~Global("TalkedToKoveras","GLOBAL",1) Global("P#KnowBhaal","GLOBAL",0)~ THEN REPLY @576 DO ~GiveItemCreate("%tutu_var%scrl2J",Player1,0,0,0) SetGlobal("P#KnowBhaal","GLOBAL",1)~ GOTO 2
-IF ~Global("P#KnowBhaal","GLOBAL",0)~ THEN REPLY @577 DO ~GiveItemCreate("%tutu_var%scrl2J",Player1,0,0,0) SetGlobal("P#KnowBhaal","GLOBAL",1)~ GOTO 3
-IF ~Global("P#KnowBhaal","GLOBAL",0) Dead("rieltar")~ THEN REPLY @578 DO ~GiveItemCreate("%tutu_var%scrl2J",Player1,0,0,0) SetGlobal("P#KnowBhaal","GLOBAL",1)~ GOTO 5
+IF ~Global("TalkedToKoveras","GLOBAL",1) Global("P#KnowBhaal","GLOBAL",0)~ THEN REPLY @576 DO ~GiveItemCreate("%tutu_var%scrl2J",Player1,0,0,0)~ GOTO 2
+IF ~Global("P#KnowBhaal","GLOBAL",0)~ THEN REPLY @577 DO ~GiveItemCreate("%tutu_var%scrl2J",Player1,0,0,0)~ GOTO 3
+IF ~Global("P#KnowBhaal","GLOBAL",0) Dead("rieltar")~ THEN REPLY @578 DO ~GiveItemCreate("%tutu_var%scrl2J",Player1,0,0,0)~ GOTO 5
 END
