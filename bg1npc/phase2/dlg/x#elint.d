@@ -46,7 +46,7 @@ EXIT
 
 APPEND ~%tutu_var%BENTLY~
 
-IF WEIGHT #-1 ~%BGT_VAR% InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID) Global("X#BentEld","GLOBAL",0)~ THEN BEGIN BentEld1.1
+IF WEIGHT #-1 ~%BGT_VAR% See("ELDOTH") InParty("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID) Global("X#BentEld","GLOBAL",0)~ THEN BEGIN BentEld1.1
 SAY @15
 IF ~~ THEN DO ~SetGlobal("X#BentEld","GLOBAL",1)~ EXTERN ~%ELDOTH_JOINED%~ 
 BentEld1.2
@@ -73,7 +73,7 @@ IF ~~ THEN DO ~StartStore("X#FRIED2",LastTalkedToBy(Myself))~
 EXIT
 END
 
-IF WEIGHT #-1 ~%BGT_VAR% InParty("eldoth") InMyArea("eldoth") !StateCheck("eldoth",CD_STATE_NOTVALID) GlobalGT("X#BentEld","GLOBAL",0)~ THEN BEGIN BentEld1.9
+IF WEIGHT #-1 ~%BGT_VAR% InParty("eldoth") See("ELDOTH") !StateCheck("eldoth",CD_STATE_NOTVALID) GlobalGT("X#BentEld","GLOBAL",0)~ THEN BEGIN BentEld1.9
 SAY @21
 IF ~~ THEN DO ~StartStore("X#FRIED2",LastTalkedToBy(Myself))~
 EXIT
