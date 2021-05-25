@@ -237,6 +237,10 @@ END
     COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#tranzig.d~ USING ~bg1npc/tra/%s/x#tranzig.tra~
   END
 
+  /* add tracking variable for Gerde's Ankheg limit */
+    COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/gerde_ankhegs.d~
+
+
   /* Kivan's spear */
   COPY ~bg1npc/phase2/itm/x#kispr.itm~ ~override~
     SAY NAME1 @74

@@ -140,8 +140,18 @@ Bitte nutzen Sie fuer BGT die equivalente Komponente aus Sword Coast Stratagems.
 @1129  = ~Gespraechetimer: Langsam~
 @1130  = ~Gespraechetimer: Sehr langsam~
 @1131  = ~Das BG1-NPC-Projekt: Gib Coran sein "Murder in Baldur's Gate" Portrait~
+
+/* new for v26 */
+@1132  = ~The BG1 NPC Project: Kivans Waffenfertigkeiten~
+@1133  = ~Kivan verwendet Speere~
+@1134  = ~Kivan verwendet Hellebarden~
+
 @5000  = ~BG:EE-Installation detektiert.~
 @5001  = ~Fuer diese Komponente muessen Sie BGT oder TuTu installiert haben.~
 @5002  = ~Fuer diese Komponente muessen Sie BG:EE installiert haben.~
 @5003  = ~Inkompatibel mit BGT und BG:EE: Bitte nutzen Sie die aequivalente Komponente in Sword Coast Strategems fuer BGT und BG:EE.~
 @5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+
+/* new for v26 */
+@5005 = ~Die Mod ist nicht mit diesem Spiel kompatibel.~
+@5006 = ~Die Mod muss vor EET_End installiert werden.~

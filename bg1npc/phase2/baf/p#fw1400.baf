@@ -1,17 +1,16 @@
 IF %BGT_VAR%
-Global("AnkhegCount","%FishingVillage%",0)
-GlobalGT("HelpGerde","GLOBAL",1)
+Global("X#GerdeAnkhegsCount","GLOBAL",1)
 THEN
 RESPONSE #100
-SetGlobal("AnkhegCount","%FishingVillage%",1)
 SetGlobal("SPRITE_IS_DEADANKHEG","GLOBAL",0)
+SetGlobal("X#GerdeAnkhegsCount","GLOBAL",2)
 END
 
 IF %BGT_VAR%
 InParty("faldorn")
 !StateCheck("faldorn",CD_STATE_NOTVALID)
 AreaCheck("%FishingVillage%")
-Global("AnkhegCount","%FishingVillage%",1)
+Global("X#GerdeAnkhegsCount","GLOBAL",2)
 Global("X#FaldornAn10","%FishingVillage%",0)
 NumDead("ankheg",10)
 THEN
@@ -23,7 +22,7 @@ IF %BGT_VAR%
 AreaCheck("%FishingVillage%")
 InParty("faldorn")
 !StateCheck("faldorn",CD_STATE_NOTVALID)
-Global("AnkhegCount","%FishingVillage%",1)
+Global("X#GerdeAnkhegsCount","GLOBAL",2)
 Global("X#FaldornAn11","%FishingVillage%",0)
 NumDead("ankheg",11)
 THEN
@@ -34,7 +33,7 @@ END
 IF %BGT_VAR%
 InParty("faldorn")
 AreaCheck("%FishingVillage%")
-Global("AnkhegCount","%FishingVillage%",1)
+Global("X#GerdeAnkhegsCount","GLOBAL",2)
 Global("X#FaldornAn12","%FishingVillage%",0)
 NumDead("ankheg",12)
 THEN

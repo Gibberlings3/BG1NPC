@@ -4440,7 +4440,7 @@ END
 
 IF WEIGHT #-2 ~%BGT_VAR% Global("X#DyFlirt5","GLOBAL",1)~ THEN BEGIN X#DYFlirt5
 SAY @1808
-IF ~~ THEN DO ~SetGlobal("P#KnowBhaal","GLOBAL",1) SetGlobal("X#DyFlirt5","GLOBAL",2)~ + DYFLT5.1
+IF ~~ THEN DO ~SetGlobal("X#DyFlirt5","GLOBAL",2)~ + DYFLT5.1
 END
 
 IF ~~ DYFLT5.1

@@ -435,9 +435,9 @@ IF ~~ THEN DO ~SetGlobal("P#KivanBass","GLOBAL",2)~ EXIT
 END
 
 /* Kivan 10 Ankhegs */
-IF WEIGHT #-2 ~%BGT_VAR% Global("P#KivanAnkheg","GLOBAL",1)~ THEN BEGIN KivanAnkheg2
+IF WEIGHT #-2 ~%BGT_VAR% Global("P#KivanAnkheg","GLOBAL",2)~ THEN BEGIN KivanAnkheg2
 SAY @129
-IF ~~ THEN DO ~SetGlobal("P#KivanAnkheg","GLOBAL",2)~ EXIT
+IF ~~ THEN DO ~SetGlobal("P#KivanAnkheg","GLOBAL",3)~ EXIT
 END
 
 END

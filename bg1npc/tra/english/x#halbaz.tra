@@ -3,10 +3,10 @@
 @2    = ~Thanks for the compliment.~
 @3    = ~I've come to buy something, actually...~
 @4    = ~I'd better be going.~
-@5    = ~Hello again. Have you changed your mind on my offer? I do believe that the armor would be most beneficial.~
-@6    = ~Yes, I have. Please, improve my armor.~
-@7    = ~Not at this time, thank you. May I see your wares?~
-@8    = ~Not today. Farewell.~
+//@5    = ~Hello again. Have you changed your mind on my offer? I do believe that the armor would be most beneficial.~
+@6    = ~Please, improve my armor as offered.~
+//@7    = ~Not at this time, thank you. May I see your wares?~
+//@8    = ~Not today. Farewell.~
 @9    = ~Now, the pair of us may be able to help each other out. In exchange for letting me look at the suit, that I may perhaps come to understand the manner of construction and nature of enchantments on it, I will further strengthen its protective abilities. For a modest fee, of course...~
 @10   = ~That sounds great!~
 @11   = ~What's the catch?~

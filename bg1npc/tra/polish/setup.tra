@@ -126,23 +126,28 @@ prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT~
 @1120  = ~Faizah Tin~
 @1121  = ~Rance~
 @1122  = ~Vail~
-@1123 = ~BGEE Czas Pomiêdzy Rozmowami~
-@1124 = ~Ju¿ masz zainstalowany ten komponent.~
-@1125 = "Proszê wybraæ jedn¹ z poni¿szych opcji:
-[1] Normalny czas (NPC rozmawiaj¹ miêdzy sob¹ co ~27 minut)
-[2] Szybsze rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~20 minut)
-[3] Bardzo szybkie rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~13 minut)
-[4] Wolniejsze rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~40 minut)
-[5] Bardzo wolne rozmowy (NPC rozmawiaj¹ miêdzy sob¹ co ~55 minut)"
-@1126 = ~Czas pomiêdzy rozmowami: Normalny~
-@1127 = ~Czas pomiêdzy rozmowami: Krótki~
-@1128 = ~Czas pomiêdzy rozmowami: Bardzo krótki~
-@1129 = ~Czas pomiêdzy rozmowami: D³ugi~
-@1130 = ~Czas pomiêdzy rozmowami: Bardzo d³ugi~
-@1131  = ~The BG1 NPC Project: Daj Coran jego portret z "Murder in Baldur's Gate"~
+@1123 = ~BGEE Czas Pomiedzy Rozmowami~
+@1124 = ~Juz masz zainstalowany ten komponent.~
+@1125 = "Prosze wybrac jedna z ponizszych opcji:
+[1] Normalny czas (NPC rozmawiaja miedzy soba co ~27 minut)
+[2] Szybsze rozmowy (NPC rozmawiaja miedzy soba co ~20 minut)
+[3] Bardzo szybkie rozmowy (NPC rozmawiaja miedzy soba co ~13 minut)
+[4] Wolniejsze rozmowy (NPC rozmawiaja miedzy soba co ~40 minut)
+[5] Bardzo wolne rozmowy (NPC rozmawiaja miedzy soba co ~55 minut)"
+@1126 = ~Czas pomiedzy rozmowami: Normalny~
+@1127 = ~Czas pomiedzy rozmowami: Krotki~
+@1128 = ~Czas pomiedzy rozmowami: Bardzo krotki~
+@1129 = ~Czas pomiedzy rozmowami: Dlugi~
+@1130 = ~Czas pomiedzy rozmowami: Bardzo dlugi~
+@1131  = ~The BG1 NPC Project: Daj Coranowi jego portret z "Murder in Baldur's Gate"~
+@1132  = ~The BG1 NPC Project: Bieglosci Kivana~
+@1133  = ~Kivan uzywa wloczni~
+@1134  = ~Kivan uzywa halabard~ 
 @5000  = ~Wykryto zainstalowane BG:EE.~
 @5001  = ~Dla tego komponentu musisz miec zainstalowane BGT albo TuTu.~
 @5002  = ~Dla tego komponentu musisz miec zainstalowane BGEE.~
 @5003 = ~Niekompatybilne z BGT i BGEE:
 prosze uzyj podobnego komponentu z modu Sword Coast Strategems dla BGT i BGEE~
-@5004 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+@5004 = ~Do instalacji modow na tej grze wymagany jest Modmerge. Wiecej informacji i link do pobrania Modmerge w pliku readme.~
+@5005 = ~Ten mod nie jest kompatybilny z ta gra.~
+@5006 = ~Ten mod musi byc instalowany przed EET_End jesli grasz w EET.~ 
