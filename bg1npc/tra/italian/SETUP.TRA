@@ -141,9 +141,9 @@
 @1131 = ~The BG1 NPC Project: dai a Coran il suo ritratto in "Assassinio a Baldur's Gate"~
 
 /* new for v26 */
-@1132  = ~The BG1 NPC Project: Kivan's Proficiency~
-@1133  = ~Kivan uses spears~
-@1134  = ~Kivan uses halberds~
+@1132  = ~The BG1 NPC Project: Competenze di Kivan~
+@1133  = ~Kivan utilizza lance~
+@1134  = ~Kivan utilizza alabarde~
 
 @5000 = ~BG: installazione EE rilevata.~
 @5001 = ~Devi avere BGT o TuTu installati per questo componente.~
@@ -152,5 +152,5 @@
 @5004 = ~Modmerge è richiesto prima di poter installare le mod su questo gioco. Controllare il file readme per ulteriori informazioni e il collegamento per scaricare Modmerge.~
 
 /* new for v26 */
-@5005 = ~This mod is not compatible with this game.~
-@5006 = ~This mod needs to be installed before EET_End on your EET install.~
+@5005 = ~Questa mod non è compatibile con questo gioco.~
+@5006 = ~Questa mod deve essere installata prima di EET_End sulla tua installazione EET.~
