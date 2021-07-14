@@ -37,6 +37,7 @@ LANGUAGE ~Italian (by Coland)~ ~italian~ ~bg1npc/tra/italian/setup.tra~
 
 /* BEGIN The BG1 NPC Project: Required Modifications  */
 BEGIN @1005 DESIGNATED 0
+LABEL bg1npc_project-main
 REQUIRE_PREDICATE GAME_IS ~tutu tutu_totsc bgt bgee eet~ @5005
 FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5006
 FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5006
@@ -70,6 +71,7 @@ FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5006
 
 /* The BG1 NPC Project: Banters, Quests, and Interjections */
 BEGIN @1007 DESIGNATED 10
+LABEL bg1npc_project-banters_quests_interjections
   GROUP @1006
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
    COPY ~bg1npc/Core/X#component.xx~ ~override/X#BG1NPCPhase1.G3~
@@ -89,6 +91,7 @@ BEGIN @1007 DESIGNATED 10
 /* BEGIN ROMANCES */
 /* AJANTIS ROMANCE */
 BEGIN @1109 DESIGNATED 20 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+LABEL bg1npc_project-ajantisromance_1h
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -99,6 +102,7 @@ BEGIN @1109 DESIGNATED 20 /* Speed: 1 hour real time (standard) minimum between 
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1110 DESIGNATED 21 /* Speed: 45 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-ajantisromance_45min
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -110,6 +114,7 @@ BEGIN @1110 DESIGNATED 21 /* Speed: 45 minutes real time minimum between LoveTal
 
 BEGIN @1111 DESIGNATED 22 /* Speed: 30 minutes real time minimum between LoveTalks */
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
+LABEL bg1npc_project-ajantisromance_30min
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -119,6 +124,7 @@ BEGIN @1111 DESIGNATED 22 /* Speed: 30 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1112 DESIGNATED 23 /* Speed: 15 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-ajantisromance_15min
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -129,6 +135,7 @@ BEGIN @1112 DESIGNATED 23 /* Speed: 15 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1113 DESIGNATED 24 /* Speed: 90 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-ajantisromance_1h30min
 	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -141,6 +148,7 @@ BEGIN @1113 DESIGNATED 24 /* Speed: 90 minutes real time minimum between LoveTal
 
 /* BRANWEN ROMANCE */
 BEGIN @1109 DESIGNATED 30 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+LABEL bg1npc_project-branwenromance_1h
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -151,6 +159,7 @@ BEGIN @1109 DESIGNATED 30 /* Speed: 1 hour real time (standard) minimum between 
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
 BEGIN @1110 DESIGNATED 31 /* Speed: 45 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-branwenromance_45min
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -161,6 +170,7 @@ BEGIN @1110 DESIGNATED 31 /* Speed: 45 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
 BEGIN @1111 DESIGNATED 32 /* Speed: 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-branwenromance_30min
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -171,6 +181,7 @@ BEGIN @1111 DESIGNATED 32 /* Speed: 30 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
 BEGIN @1112 DESIGNATED 33 /* Speed: 15 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-branwenromance_15min
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -181,6 +192,8 @@ BEGIN @1112 DESIGNATED 33 /* Speed: 15 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
 BEGIN @1113 DESIGNATED 34 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+
+LABEL bg1npc_project-branwenromance_1h30min
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -193,6 +206,7 @@ BEGIN @1113 DESIGNATED 34 /* Speed: 1 hour 30 minutes real time minimum between 
 
 /* CORAN ROMANCE */
 BEGIN @1109 DESIGNATED 40 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+LABEL bg1npc_project-coranromance_1h
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -203,6 +217,7 @@ BEGIN @1109 DESIGNATED 40 /* Speed: 1 hour real time (standard) minimum between 
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
 BEGIN @1110 DESIGNATED 41 /* Speed: 45 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-coranromance_45min
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -213,6 +228,7 @@ BEGIN @1110 DESIGNATED 41 /* Speed: 45 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
 BEGIN @1111 DESIGNATED 42 /* Speed: 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-coranromance_30min
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -223,6 +239,7 @@ BEGIN @1111 DESIGNATED 42 /* Speed: 30 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
 BEGIN @1112 DESIGNATED 43 /* Speed: 15 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-coranromance_15min
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -233,6 +250,7 @@ BEGIN @1112 DESIGNATED 43 /* Speed: 15 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/corom/tpa/bg1npc_corom.tpa~
 
 BEGIN @1113 DESIGNATED 44 /* Speed: 90 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-coranromance_1h30min
 	SUBCOMPONENT @1011  /* The BG1 NPC Project: Coran's Romance Core (adult content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -245,6 +263,7 @@ BEGIN @1113 DESIGNATED 44 /* Speed: 90 minutes real time minimum between LoveTal
 
 /* DYNAHEIR ROMANCE */
 BEGIN @1109 DESIGNATED 50 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+LABEL bg1npc_project-dynaheirromance_1h
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -255,6 +274,7 @@ BEGIN @1109 DESIGNATED 50 /* Speed: 1 hour real time (standard) minimum between 
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
 BEGIN @1110 DESIGNATED 51 /* Speed: 45 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-dynaheirromance_45min
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -265,6 +285,7 @@ BEGIN @1110 DESIGNATED 51 /* Speed: 45 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
 BEGIN @1111 DESIGNATED 52 /* Speed: 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-dynaheirromance_30min
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -275,6 +296,7 @@ BEGIN @1111 DESIGNATED 52 /* Speed: 30 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
 BEGIN @1112 DESIGNATED 53 /* Speed: 15 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-dynaheirromance_15min
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -285,6 +307,7 @@ BEGIN @1112 DESIGNATED 53 /* Speed: 15 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/dyrom/tpa/bg1npc_dyrom.tpa~
 
 BEGIN @1113 DESIGNATED 54 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-dynaheirromance_1h30min
 	SUBCOMPONENT @1012 /* The BG1 NPC Project: Dynaheir's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -297,6 +320,7 @@ BEGIN @1113 DESIGNATED 54 /* Speed: 1 hour 30 minutes real time minimum between 
 
 /* SHAR-TEEL ROMANCE */
 BEGIN @1109 DESIGNATED 60 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+LABEL bg1npc_project-sharteelromance_1h
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -307,6 +331,7 @@ BEGIN @1109 DESIGNATED 60 /* Speed: 1 hour real time (standard) minimum between 
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
 BEGIN @1110 DESIGNATED 61 /* Speed: 45 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-sharteelromance_45min
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -317,6 +342,7 @@ BEGIN @1110 DESIGNATED 61 /* Speed: 45 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
 BEGIN @1111 DESIGNATED 62 /* Speed: 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-sharteelromance_30min
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -327,6 +353,7 @@ BEGIN @1111 DESIGNATED 62 /* Speed: 30 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
 BEGIN @1112 DESIGNATED 63 /* Speed: 15 minutes minimum between LoveTalks */
+LABEL bg1npc_project-sharteelromance_15min
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -337,6 +364,7 @@ BEGIN @1112 DESIGNATED 63 /* Speed: 15 minutes minimum between LoveTalks */
 	INCLUDE ~bg1npc/romances/shrom/tpa/bg1npc_shrom.tpa~
 
 BEGIN @1113 DESIGNATED 64 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-sharteelromance_1h30min
 	SUBCOMPONENT @1013 /* The BG1 NPC Project: Shar-Teel Relationship Core (adult content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -349,6 +377,7 @@ BEGIN @1113 DESIGNATED 64 /* Speed: 1 hour 30 minutes real time minimum between 
 
 /* XAN ROMANCE */
 BEGIN @1109 DESIGNATED 70 /* Speed: 1 hour real time (standard) minimum between LoveTalks */
+LABEL bg1npc_project-xanromance_1h
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -359,6 +388,7 @@ BEGIN @1109 DESIGNATED 70 /* Speed: 1 hour real time (standard) minimum between 
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
 BEGIN @1110 DESIGNATED 71 /* Speed: 45 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-xanromance_45min
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -369,6 +399,7 @@ BEGIN @1110 DESIGNATED 71 /* Speed: 45 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
 BEGIN @1111 DESIGNATED 72 /* Speed: 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-xanromance_30min
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -379,6 +410,7 @@ BEGIN @1111 DESIGNATED 72 /* Speed: 30 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
 BEGIN @1112 DESIGNATED 73 /* Speed: 15 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-xanromance_15min
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
 	GROUP @1010  /* The BG1 NPC Project: Romances */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -389,6 +421,7 @@ BEGIN @1112 DESIGNATED 73 /* Speed: 15 minutes real time minimum between LoveTal
 	INCLUDE ~bg1npc/romances/xarom/tpa/bg1npc_xarom.tpa~
 
 BEGIN @1113 DESIGNATED 74 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
+LABEL bg1npc_project-xanromance_1h30min
 	SUBCOMPONENT @1015 /* The BG1 NPC Project: Xan's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -401,6 +434,7 @@ BEGIN @1113 DESIGNATED 74 /* Speed: 1 hour 30 minutes real time minimum between 
 
 /* FEMALE CHARACTER ROMANCE CHALLENGES */
 BEGIN @1017 DESIGNATED 80 /* The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran */
+LABEL bg1npc_project-romancechallenge
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -412,6 +446,7 @@ BEGIN @1017 DESIGNATED 80 /* The BG1 NPC Project: Female Romance Challenges, Aja
 
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
 BEGIN @1088 DESIGNATED 100 /* Jason Compton's Accelerated Banter Script. */
+LABEL bg1npc_project-banteraccelerator
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
   REQUIRE_PREDICATE (!GAME_IS ~bgee eet~) @5001 /* You must have BGT or TuTu installed for this component. */
@@ -423,6 +458,7 @@ BEGIN @1088 DESIGNATED 100 /* Jason Compton's Accelerated Banter Script. */
 /* BGEE Banter Timing Tweak: Utilizes new BANTTIMG.2DA available in BGEE to
    adjust banter dialog timings.  Replaces Compton's "bantergoose" script for BGEE - AstroBryGuy */
 BEGIN @1126 DESIGNATED 110 /* Banter Timing: Normal (about 27 minutes between banter dialogs)~ */
+LABEL bg1npc_project-eebantertiming_normal
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -433,6 +469,7 @@ BEGIN @1126 DESIGNATED 110 /* Banter Timing: Normal (about 27 minutes between ba
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
 BEGIN @1127 DESIGNATED 111 /* Banter Timing: Fast (about 20 minutes between banter dialogs)~ */
+LABEL bg1npc_project-eebantertiming_fast
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -443,6 +480,7 @@ BEGIN @1127 DESIGNATED 111 /* Banter Timing: Fast (about 20 minutes between bant
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
 BEGIN @1128 DESIGNATED 112 /* Banter Timing: Very Fast (about 13 minutes between banter dialogs)~ */
+LABEL bg1npc_project-eebantertiming_veryfast
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -453,6 +491,7 @@ BEGIN @1128 DESIGNATED 112 /* Banter Timing: Very Fast (about 13 minutes between
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
 BEGIN @1129 DESIGNATED 113 /* Banter Timing: Slow (about 40 minutes between banter dialogs)~ */
+LABEL bg1npc_project-eebantertiming_slow
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
 	REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -463,6 +502,7 @@ BEGIN @1129 DESIGNATED 113 /* Banter Timing: Slow (about 40 minutes between bant
 	INCLUDE ~bg1npc/tweaks/BantTimg/AYBantTimg.tpa~
 
 BEGIN @1130 DESIGNATED 114 /* Banter Timing: Very Slow (about 55 minutes between banter dialogs)~ */
+LABEL bg1npc_project-eebantertiming_veryslow
 	SUBCOMPONENT @1123 /* BGEE Banter Timing Tweak */
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @5002 /* You must have BGEE installed for this component. */
@@ -475,6 +515,7 @@ BEGIN @1130 DESIGNATED 114 /* Banter Timing: Very Slow (about 55 minutes between
 
 /* The BG1 NPC Project: Bardic Reputation Adjustment */
 BEGIN @1094 DESIGNATED 120
+LABEL bg1npc_project-bardicreputation
 	GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -485,6 +526,7 @@ BEGIN @1094 DESIGNATED 120
 
 /* The BG1 NPC Project: SixofSpades Extended Sarevok's Diary */
 BEGIN @1114 DESIGNATED 130
+LABEL bg1npc_project-sarevokdiary_sixofspades
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -498,6 +540,7 @@ BEGIN @1114 DESIGNATED 130
   BUT_ONLY_IF_IT_CHANGES
 
 BEGIN @1116 DESIGNATED 131 /* The BG1 NPC Project: Sarevok's Diary Date Changes only */
+LABEL bg1npc_project-sarevokdiary_datechanges
   SUBCOMPONENT @1115  /* The BG1 NPC Project: Sarevok's Diary Adjustments. */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -512,6 +555,7 @@ BEGIN @1116 DESIGNATED 131 /* The BG1 NPC Project: Sarevok's Diary Date Changes 
 
 
 BEGIN @1133 DESIGNATED 240 /* Kivan uses spears */
+LABEL bg1npc_project-kivanproficiency_spears
   SUBCOMPONENT @1132 /* The BG1 NPC Project: Kivan's Proficiency */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -519,6 +563,7 @@ BEGIN @1133 DESIGNATED 240 /* Kivan uses spears */
   INCLUDE "%MOD_FOLDER%/tweaks/kivan_spears.tpa"
 
 BEGIN @1134 DESIGNATED 241 /* Kivan uses halberds */
+LABEL bg1npc_project-kivanproficiency_halberds
   SUBCOMPONENT @1132 /* The BG1 NPC Project: Kivan's Proficiency */
   GROUP @1065 /* The BG1 NPC Project: Tweaks */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
@@ -529,6 +574,7 @@ BEGIN @1134 DESIGNATED 241 /* Kivan uses halberds */
 /* BEGIN: Portrait Changes */
 /* Kivan */
 BEGIN @1027 DESIGNATED 150 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana Companions" portrait */
+LABEL bg1npc_project-portraits_kivandeheriana
 	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -540,6 +586,7 @@ BEGIN @1027 DESIGNATED 150 /* The BG1 NPC Project: Kivan's "Kivan and Deheriana 
 
 /* Coran */
 BEGIN @1131 DESIGNATED 155 /* The BG1 NPC Project: Coran's "Murder in Baldur's Gate" portrait */
+LABEL bg1npc_project-portraits_coranmurder
 	GROUP @1008  /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -551,6 +598,7 @@ BEGIN @1131 DESIGNATED 155 /* The BG1 NPC Project: Coran's "Murder in Baldur's G
 
 /* Non-Joinable Characters */
 BEGIN @1009 DESIGNATED 160 /* The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues */
+LABEL bg1npc_project-portraits_nonjoinable
 	GROUP @1008 /* The BG1 NPC Project: Portrait Changes and Additions */
 	REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -561,6 +609,7 @@ BEGIN @1009 DESIGNATED 160 /* The BG1 NPC Project: Add Non-Joinable NPC portrait
 
 /* Player-Initiated Dialogues  -always keep the VERY last of BG1NPC to compile! */
 BEGIN @1091 DESIGNATED 200    /* The BG1 NPC Project: Player-Initiated Dialogues */
+LABEL bg1npc_project-pid
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
     /* set up .tra files for Tutu vs BGT sound resources, create platform files */
