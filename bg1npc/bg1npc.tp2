@@ -113,8 +113,8 @@ LABEL bg1npc_project-ajantisromance_45min
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1111 DESIGNATED 22 /* Speed: 30 minutes real time minimum between LoveTalks */
-	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
 LABEL bg1npc_project-ajantisromance_30min
+	SUBCOMPONENT @1016  /* The BG1 NPC Project: Ajantis Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
   REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004 /* BG1 NPC Required Changes component is not installed. */
 
@@ -192,7 +192,6 @@ LABEL bg1npc_project-branwenromance_15min
 	INCLUDE ~bg1npc/romances/brrom/tpa/bg1npc_brrom.tpa~
 
 BEGIN @1113 DESIGNATED 34 /* Speed: 1 hour 30 minutes real time minimum between LoveTalks */
-
 LABEL bg1npc_project-branwenromance_1h30min
 	SUBCOMPONENT @1014  /* The BG1 NPC Project: Branwen's Romance Core (teen content) */
   GROUP @1010  /* The BG1 NPC Project: Romances */
