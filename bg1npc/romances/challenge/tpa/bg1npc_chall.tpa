@@ -10,10 +10,10 @@ END ELSE BEGIN
   ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
     COPY ~bg1npc/romances/CHALLENGE/bgee/x#ajr1_bgee.are~ ~override/x#ajr1.are~
       WRITE_ASCIIE 0x08 ~%Encounter_Forest1%~ #8
-      WRITE_ASCIIE 0x18 ~%NBaldursGate_RinniesHouse_L2%~ #8
-      WRITE_ASCIIE 0x24 ~%NBaldursGate_RinniesHouse_L2%~ #8
-      WRITE_ASCIIE 0x30 ~%NBaldursGate_RinniesHouse_L2%~ #8
-      WRITE_ASCIIE 0x3c ~%NBaldursGate_RinniesHouse_L2%~ #8
+//      WRITE_ASCIIE 0x18 ~%NBaldursGate_RinniesHouse_L2%~ #8
+//      WRITE_ASCIIE 0x24 ~%NBaldursGate_RinniesHouse_L2%~ #8
+//      WRITE_ASCIIE 0x30 ~%NBaldursGate_RinniesHouse_L2%~ #8
+//      WRITE_ASCIIE 0x3c ~%NBaldursGate_RinniesHouse_L2%~ #8
     END ELSE BEGIN
     COPY ~bg1npc/romances/CHALLENGE/itm/x#ajr1_bgt.are~ ~override/x#ajr1.are~
   END
