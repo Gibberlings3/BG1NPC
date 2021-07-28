@@ -439,7 +439,8 @@ ADD_STATE_TRIGGER ~%tutu_var%DRYAD~ 6 ~OR(2) !InParty("xzar") Dead("xzar")~
 ADD_STATE_TRIGGER ~%tutu_var%DRYAD~ 7 ~OR(2) !InParty("xzar") Dead("xzar")~
 ADD_STATE_TRIGGER ~%tutu_var%DRYAD~ 8 ~OR(2) !InParty("xzar") Dead("xzar")~
 
-CHAIN IF ~%BGT_VAR% Dead("caldo") Dead("krumm") Global("AskedDryad","GLOBAL",0) InParty("xzar") InMyArea("xzar") !StateCheck("xzar",CD_STATE_NOTVALID) Global("X#XzarDryad","GLOBAL",0)~ THEN ~%tutu_var%DRYAD~ X#XZDRYAD0
+CHAIN IF WEIGHT #-1
+~%BGT_VAR% Dead("caldo") Dead("krumm") Global("AskedDryad","GLOBAL",0) InParty("xzar") InMyArea("xzar") !StateCheck("xzar",CD_STATE_NOTVALID) Global("X#XzarDryad","GLOBAL",0)~ THEN ~%tutu_var%DRYAD~ X#XZDRYAD0
 @112
 == ~%XZAR_JOINED%~ @113
 = @114
@@ -454,7 +455,8 @@ END
 ++ @122 DO ~SetGlobal("X#XzarDryad","GLOBAL",1)~ EXTERN ~%XZAR_JOINED%~ X#XZDRYAD1
 ++ @123 DO ~SetGlobal("X#XzarDryad","GLOBAL",2)~ EXTERN ~%tutu_var%DRYAD~ X#XZDRYAD2
 
-CHAIN IF ~%BGT_VAR% Global("X#XzarDryad","GLOBAL",2)~ THEN ~%tutu_var%DRYAD~ X#XZDRYAD2
+CHAIN IF WEIGHT #-1
+~%BGT_VAR% Global("X#XzarDryad","GLOBAL",2)~ THEN ~%tutu_var%DRYAD~ X#XZDRYAD2
 @124
 == ~%XZAR_JOINED%~ @125
 END
@@ -464,7 +466,8 @@ EXIT
 
 APPEND ~%tutu_var%DRYAD~ 
 
-IF ~Global("X#XzarDryad","GLOBAL",5)~ THEN BEGIN X#DryadDeath
+IF WEIGHT #-1
+~Global("X#XzarDryad","GLOBAL",5)~ THEN BEGIN X#DryadDeath
 SAY @126
 IF ~~ THEN DO ~SetGlobal("X#XzarDryad","GLOBAL",6) SetGlobal("X#SummonForest","GLOBAL",1) Enemy()
 ActionOverride("jaheira",LeaveParty()) ActionOverride("jaheira",Enemy())
