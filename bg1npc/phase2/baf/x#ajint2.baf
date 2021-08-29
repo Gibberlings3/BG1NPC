@@ -368,6 +368,7 @@ IF %BGT_VAR%
 AreaCheck("%NBaldursGate_DucalPalace_L1%")
 Global("NobleDopple","GLOBAL",1)
 Global("X#AjantisNobleDopple","GLOBAL",0)
+See([ENEMY])
 InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 InMyArea(Player1)
