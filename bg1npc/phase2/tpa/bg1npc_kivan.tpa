@@ -43,7 +43,7 @@ COPY ~bg1npc/phase2/itm/P#BOW.itm~ ~override~
 
 /* BGEE: Add Kivan's bow to item_use.2da */
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-  APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2~
+  APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2 9467~
     UNLESS ~P#BOW~
   COPY_EXISTING ~item_use.2da~ ~override~
   PRETTY_PRINT_2DA
