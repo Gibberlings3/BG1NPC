@@ -9,7 +9,7 @@
 @8    = ~Twe ¿ycie bêdzie dla niej wystarczaj¹cym darem. Dziêki za klejnot.~
 @9    = ~Jeszcze tu jesteœ, tchórzu? Precz mi z oczu, bo osobiœcie ciê zabijê. Heh, robi w portki na widok zwyk³ych koboldów!~
 @10   = ~Spróbuj trzymaæ siê cienia i poproœ stra¿ników, aby eskortowali ciê na powierzchniê.~
-@11   = ~Tak zrobiê, zacny elfie. Powiem stra¿nikom i Panu Emersonowi we w³asnej osobie, jak dzielni jesteœcie. Mam nadziejê, ¿e szybko uporacie siê z tymi potworami tam, na dole – musimy jakoœ zarabiaæ na ¿ycie.~
+@11   = ~Tak zrobiê, zacny elfie. Powiem stra¿nikom i panu Emersonowi we w³asnej osobie, jak dzielni jesteœcie. Mam nadziejê, ¿e szybko uporacie siê z tymi potworami tam, na dole – musimy jakoœ zarabiaæ na ¿ycie.~
 @12   = ~Bez w¹tpienia, jeœli rzeczy maj¹ siê tak Ÿle, jak powiadaj¹. Dobrze zrobimy, <CHARNAME>, jeœli odnajdziemy tego ch³opaka najszybciej, jak to mo¿liwe. Ci stra¿nicy nie wygl¹daj¹ na takich, co by chronili robotników, nawet w obliczu powa¿nego niebezpieczeñstwa. W¹tpiê, aby przeciêtny cz³owiek móg³ stawiæ czo³a z³ym istotom, których smród czujê, ale sztylet zawsze jest lepszy ni¿ go³e piêœci.~
 @13   = ~Moje kondolencje, dobra kobieto. Ja... ja wiem jak to boli, straciæ kogoœ ukochanego. Chcia³bym zaoferowaæ ci coœ wiêcej, ni¿ s³owa.~
 @14   = ~(chlip)~
@@ -36,7 +36,7 @@
 @35   = ~Uœmiech pani jest wystarczaj¹c¹ nagrod¹. To bardzo istotne, aby wiedzieæ, ¿e gdzieœ w tym œwiecie, ktoœ jest szczêœliwy.~
 @36   = ~Droga pani, zrobimy wszystko, co w naszej mocy. I jeœli mogê... jeœli s³owo obcego stanowi dla pani jakieœ pocieszenie – mam nadziejê, ¿e z pani mê¿em wszystko w porz¹dku.~
 @37   = ~Dziêkujê, zacny elfie.~
-@38   = ~Nie musisz wiêcej mówiæ, Bjornin. Te pó³-ogry ju¿ s¹ trupami.~
+@38   = ~Nie musisz wiêcej mówiæ, Bjorninie. Te pó³ogry ju¿ s¹ trupami.~
 @39   = ~Ten nikczemnik nie mo¿e wyjœæ na wolnoœæ.~
 @40   = ~(chichocze) G³upi elf.~
 @41   = ~<CHARNAME>! Og³uch³eœ? Ten mag ma zamiar zabiæ nimfê! Bêdziesz przygl¹da³ siê temu z za³o¿onymi rêkoma? Spróbuj przynajmniej odwieœæ tego nikczemnika od tak z³ego czynu – w przeciwnym razie bêdziesz mia³ jej krew na swoich rêkach.~ ~<CHARNAME>! Og³uch³aœ? Ten mag ma zamiar zabiæ nimfê! Bêdziesz przygl¹da³a siê temu z za³o¿onymi rêkoma? Spróbuj przynajmniej odwieœæ tego nikczemnika od tak z³ego czynu – w przeciwnym razie bêdziesz mia³a jej krew na swoich rêkach.~
@@ -86,9 +86,7 @@
 @85   = ~Chwila! Opuœæ kaptur, œmieciu! Ch³opcy, oto stary przyjaciel Tazoka – ten, który wykoñczy³ Szkar³atnego Grena! Przyniesiemy jego g³owê Tazokowi – bêdziemy bogaci!~
 @86   = ~Teven atakuje
 
-Spotka³em jedn¹ z grup bandytów, które nêkaj¹ Wybrze¿e Mieczy. Ich herszt, Teven, rozpozna³ mego towarzysza, Kivana... i, obawiam siê, ¿e zakoñczy³o siê rozlewem krwi. Wygl¹da na to, ¿e bêdê musia³ znaleŸæ jakiœ inny sposób, aby zlokalizowaæ ich obóz.~ ~Teven atakuje
-
-Spotka³am jedn¹ z grup bandytów, które nêkaj¹ Wybrze¿e Mieczy. Ich herszt, Teven, rozpozna³ mego towarzysza, Kivana... i, obawiam siê, ¿e zakoñczy³o siê rozlewem krwi. Wygl¹da na to, ¿e bêdê musia³a znaleŸæ jakiœ inny sposób, aby zlokalizowaæ ich obóz.~
+Spotkaliœmy jedn¹ z grup bandytów, które nêkaj¹ Wybrze¿e Mieczy. Ich herszt, Teven, rozpozna³ mego towarzysza, Kivana... i, obawiam siê, ¿e zakoñczy³o siê rozlewem krwi. Wygl¹da na to, ¿e bêdê musia³<PRO_HESHE> znaleŸæ jakiœ inny sposób, aby zlokalizowaæ ich obóz.~
 @87   = ~Nie opuszczê swego miecza, <CHARNAME>! Prêdzej schowam go w ciele tego cz³owieka. Jednak, jeœli wci¹¿ chcesz wejœæ do gniazda bandytów po cichu, to zachowam zimn¹ krew. Ale nie oczekuj, ¿e bêdê siedzia³ cicho, gdy spotkamy Tazoka.~
 @88   = ~Twój b³¹d. To Tazok dziœ wyzionie ducha!~
 @89   = ~Tylko nie kolejny elfi szpieg! Mam ju¿ doœæ wrzasków tego Endera! W ka¿dym razie, ludziska, zaraz spotka was œmieræ!~
@@ -137,7 +135,7 @@ Spotka³am jedn¹ z grup bandytów, które nêkaj¹ Wybrze¿e Mieczy. Ich herszt, Teven
 //@132  = ~G³owa elfa ma zostaæ nadziana na pal przed mym namiotem!~
 //@133  = ~Kivan i Tazok
 //
-//Jak mo¿na by³o oczekiwaæ, mój towarzysz Kivan zosta³ rozpoznany przez Tazoka, ale nie uda³o mu siê przebiæ strza³¹ pó³-ogra. Bandyta widocznie by³ zbyt zajêty, aby zaprz¹taæ sobie g³ow¹ oszala³ym z chêci zemsty elfem. Tazok udaje siê do kompleksu kopalñ. To tam mo¿e znajdowaæ siê siedziba tego, który kontroluje bandytów.~
+//Jak mo¿na by³o oczekiwaæ, mój towarzysz Kivan zosta³ rozpoznany przez Tazoka, ale nie uda³o mu siê przebiæ strza³¹ pó³ogra. Bandyta widocznie by³ zbyt zajêty, aby zaprz¹taæ sobie g³ow¹ oszala³ym z chêci zemsty elfem. Tazok udaje siê do kompleksu kopalñ. To tam mo¿e znajdowaæ siê siedziba tego, który kontroluje bandytów.~
 //@134  = ~Tazok rozpozna³ Kivana
 //
 //Tazok rozpozna³ Kivana i nasz plan zinfiltrowania obozu bandytów spali³ na panewce.~

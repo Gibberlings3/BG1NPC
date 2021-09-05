@@ -3,7 +3,7 @@
 @2    = ~Masz racjê. To iluzja. ¯adne miejsce nie jest doœæ bezpieczne, Xan. Dorasta³em w bibliotece zamkniêtej na œwiat, a nawet tam zabójcy mnie odnaleŸli. Mury zamków, ostrza oddanych ¿o³nierzy, potê¿ne czary ochronne – to wszystko da siê obejœæ, jeœli ktoœ bêdzie chcia³ ciê dopaœæ.~ ~Masz racjê. To iluzja. ¯adne miejsce nie jest doœæ bezpieczne, Xan. Dorasta³am w bibliotece zamkniêtej na œwiat, a nawet tam zabójcy mnie odnaleŸli. Mury zamków, ostrza oddanych ¿o³nierzy, potê¿ne czary ochronne – to wszystko da siê obejœæ, jeœli ktoœ bêdzie chcia³ ciê dopaœæ.~
 @3    = ~Xan, nie zaoferujê ci jedwabnej chusteczki, wiêc mo¿esz wyp³akiwaæ swe obawy gdzie indziej. W³aœciwie, jeœli nie zamkniesz siê, to z przyjemnoœci¹ ciê ni¹ uduszê.~
 @4    = ~Œwiat jest niebezpiecznym miejscem, ale kilku ludziom wci¹¿ udaje siê do¿yæ sêdziwego wieku... miejmy nadziejê, ¿e nie umrzemy jeszcze przez d³ugi czas, niewa¿ne gdzie siê znajdziemy.~
-@5    = ~Mój m³ody przyjacielu, nie da siê wejœæ dwa razy do tej samej wody. Œwiat siê rozwija i obawiam siê, ¿e staje siê coraz gorszy.~ ~Moja m³oda przyjació³ko, nie da siê wejœæ dwa razy do tej samej wody. Œwiat siê rozwija i obawiam siê, ¿e staje siê coraz gorszy.~
+@5    = ~Mój m³ody przyjacielu, nie da siê wejœæ dwa razy do tej samej rzeki. Œwiat siê rozwija i obawiam siê, ¿e staje siê coraz gorszy.~ ~Moja m³oda przyjació³ko, nie da siê wejœæ dwa razy do tej samej rzeki. Œwiat siê rozwija i obawiam siê, ¿e staje siê coraz gorszy.~
 @6    = ~To nie mo¿e byæ prawd¹! Przecie¿ nie mo¿e byæ ju¿ GORZEJ!~
 @7    = ~Œwiat siê rozpada, to prawda. Ale byæ mo¿e celem ka¿dego ¿ycia jest ulepszanie go. To doœæ pocieszaj¹ce myœleæ, ¿e tysi¹c lat po naszym odejœciu Toril bêd¹ zamieszkiwali ludzie o wiele lepsi i szlachetniejsi ni¿ teraz, poniewa¿ zadaliœmy sobie trud by stawaæ siê coraz lepszymi.~
 @8    = ~Xan, czy jest coœ, czego siê nie obawiasz?~
@@ -29,7 +29,7 @@
 @28   = ~Xan, nie wiele wiem o mieczach takich, jak twój. Ksiê¿ycowe ostrza dostosowuj¹ siê do w³aœcicieli, czy to magów, czy wojowników.~
 @29   = ~Nie chce mi siê z tob¹ gadaæ. Mam doœæ twej œpiewki o nadchodz¹cej zag³adzie.~
 @30   = ~Dorasta³em z dala od naszego ludu, Xan, ale znam nasze zwyczaje. Oddajê ci czeœæ, obroñco Królestwa elfów i powierniku ksiê¿ycowego ostrza.~ ~Dorasta³am z dala od naszego ludu, Xan, ale znam nasze zwyczaje. Oddajê ci czeœæ, obroñco Królestwa elfów i powierniku ksiê¿ycowego ostrza.~
-@31   = ~Xan, nie jestem ignorantem w sprawach œcie¿ek naszego ludu. W ¿y³ach mieszkañców Evereski musi rzeczywiœcie p³yn¹æ woda zamiast krwi, skoro ksiê¿ycowe ostrze wybra³o CIEBIE! ~
+@31   = ~Xan, nie jestem ignorantem w sprawach œcie¿ek naszego ludu. W ¿y³ach mieszkañców Evereski musi rzeczywiœcie p³yn¹æ woda zamiast krwi, skoro ksiê¿ycowe ostrze wybra³o CIEBIE!~
 @32   = ~Wiêc, jesteœ magiem, co? Z mieczem, co? I co z tego?~
 @33   = ~(wzdycha) Wiedzia³em, ¿e nie zaznam spokoju póki nie wyt³umaczê tego wszystkim. To z pewnoœci¹ doprowadzi do zdarcia strun g³osowych, a mag ze zdartymi strunami g³osowymi jest martwym magiem...~
 @34   = ~O rety. Proszê, Xan, oszczêdzaj swój g³os. Przepraszam za moj¹ przedwczesn¹ ciekawoœæ i ordynarny brak wra¿liwoœci.~
@@ -44,7 +44,7 @@
 @43   = ~Wiêc przeczyta³eœ to w ksi¹¿ce? M³ody g³upcze, œcie¿ek mego ludu nie da siê nauczyæ w bibliotece.~ ~Wiêc przeczyta³aœ to w ksi¹¿ce? G³upia dziewczyno, œcie¿ek mego ludu nie da siê nauczyæ w bibliotece.~
 @44   = ~Wiêc NIE jestem z TWOJEGO ludu. Cieszê siê, ¿e to mówisz, Xan. Naprawdê, cieszê siê.~
 @45   = ~Przepraszam, Xan. To by³o nie na miejscu. Tylko wyobra¿a³em sobie sprawiedliwych i zacnych elfich lordów nieco... eee... inaczej.~ ~Przepraszam, Xan. To by³o nie na miejscu. Tylko wyobra¿a³am sobie sprawiedliwych i zacnych elfich lordów nieco... eee... inaczej.~
-@46   = ~Wiêc masz najwiêksze wady NASZEGO ludu – ich arogancjê i snobizm. Szkoda tylko, ¿e nie jest to poparte ich dobrymi cechami. Odwaga, szlachetnoœæ, subtelnoœæ – tego w tobie nie ma. ~
+@46   = ~Wiêc masz najwiêksze wady NASZEGO ludu – ich arogancjê i snobizm. Szkoda tylko, ¿e nie jest to poparte ich dobrymi cechami. Odwaga, szlachetnoœæ, subtelnoœæ – tego w tobie nie ma.~
 @47   = ~"Co z tego?", doprawdy.~
 @48   = ~W³aœnie udowodni³eœ g³ówn¹ przewagê s³ów nad czynami. Zawsze mo¿na zaprzeczyæ temu, co powiedzia³o siê przy innej okazji. Podczas gdy konsekwencje czynów rzadko mo¿na z tak¹ ³atwoœci¹ poprawiæ, szczególnie je¿eli ich skutki by³y fatalne, tak ja to czêsto dzieje siê w tych czasach.~ ~W³aœnie udowodni³aœ g³ówna przewagê s³ów nad czynami. Zawsze mo¿na zaprzeczyæ temu, co powiedzia³o siê przy innej okazji. Podczas gdy konsekwencje czynów rzadko mo¿na z tak¹ ³atwoœci¹ poprawiæ, szczególnie je¿eli ich skutki by³y fatalne, tak ja to czêsto dzieje siê w tych czasach.~
 @49   = ~Xan! Twój g³os!~
@@ -56,10 +56,10 @@
 @55   = ~Proponujê, abyœ zakneblowa³ Edwina i wys³a³ go w sam œrodek bitki, uzbrojonego w zwyk³y sztylet. To doœæ wyraŸnie powinno pokazaæ szansê niemego albo zachrypniêtego maga, który nie mo¿e rzuciæ zawi³ego zaklêcia, wymagaj¹cego wyj¹tkowej precyzji w modulacji strun g³osowych...~ ~Proponujê, abyœ zakneblowa³a Edwina i wys³a³ go w sam œrodek bitki, uzbrojonego w zwyk³y sztylet. To doœæ wyraŸnie powinno pokazaæ szansê niemego albo zachrypniêtego maga, który nie mo¿e rzuciæ zawi³ego zaklêcia, wymagaj¹cego wyj¹tkowej precyzji w modulacji strun g³osowych...~
 @56   = ~Dlaczego wczeœniej o tym nie pomyœla³em? Szar¿a jest najlepsz¹ strategi¹! A mo¿e to by³a taktyka? Na Dziewiêæ Piekie³!~ ~Dlaczego wczeœniej o tym nie pomyœla³am? Szar¿a jest najlepsz¹ strategi¹! A mo¿e to by³a taktyka? Na Dziewiêæ Piekie³!~
 @57   = ~Czy to dlatego nosisz miecz? Znaczy siê, jest lepszy ni¿ sztylet.~
-@58   = ~Ten miecz, to jedno z ksiê¿ycowych ostrzy, ofiarowanych elfom przez Seldarine. Bronie te tworz¹ wiêŸ ze swych w³aœcicielem, nie bacz¹c, czy krocz¹ oni œcie¿k¹ wojownika, czy mêdrca. Ksiê¿ycowe ostrza nale¿¹ do wybranych przywódców spoœród elfów, tych, którzy mog¹ ochroniæ Królestwo elfów przed goblinami, orkami, drowami i innymi naszymi odwiecznymi wrogami.~
+@58   = ~Ten miecz, to jedno z ksiê¿ycowych ostrzy, ofiarowanych elfom przez Seldarine. Bronie te tworz¹ wiêŸ ze swoimi w³aœcicielami, nie bacz¹c, czy krocz¹ oni œcie¿k¹ wojownika, czy mêdrca. Ksiê¿ycowe ostrza nale¿¹ do wybranych przywódców spoœród elfów, tych, którzy mog¹ ochroniæ Królestwo elfów przed goblinami, orkami, drowami i innymi naszymi odwiecznymi wrogami.~
 @59   = ~S¹ przekazywane w rodzinach od jednej wartoœciowej osoby, do drugiej, i ¿aden mê¿czyzna albo kobieta nieczystego ducha nie mo¿e nim w³adaæ. Ostrze zabi³oby degenerata, który próbuje je nadu¿yæ.~
 @60   = ~Wiêc, ksiê¿ycowe ostrza wybieraj¹ bohaterów godnych w³adania nimi? Jesteœ mo¿e chodz¹c¹ i gadaj¹c¹ kolekcj¹ lamentów, ale twe serce musi byæ szlachetne i czyste. Jestem zaszczycony maj¹c cie w dru¿ynie.~ ~Wiêc, ksiê¿ycowe ostrza wybieraj¹ bohaterów godnych w³adania nimi? Jesteœ mo¿e chodz¹c¹ i gadaj¹c¹ kolekcj¹ lamentów, ale twe serce musi byæ szlachetne i czyste. Jestem zaszczycona maj¹c cie w dru¿ynie.~
-@61   = ~Mam teoriê, Xan. Nie mam w¹tpliwoœci, ¿e ostrze wybra³o ciê gdy zrozumia³o, ¿e nie masz jaj by zrobiæ cokolwiek, co narazi twe ¿ycie. Wiêc, jesteœ bohaterem wbrew swej woli, dokonuj¹c aktów odwagi i samopoœwiêcenia, jednoczeœnie skoml¹c w przera¿eniu. ~
+@61   = ~Mam teoriê, Xan. Nie mam w¹tpliwoœci, ¿e ostrze wybra³o ciê gdy zrozumia³o, ¿e nie masz jaj by zrobiæ cokolwiek, co narazi twe ¿ycie. Wiêc, jesteœ bohaterem wbrew swej woli, dokonuj¹c aktów odwagi i samopoœwiêcenia, jednoczeœnie skoml¹c w przera¿eniu.~
 @62   = ~Fajnie. Te¿ chcê takie mieæ!~
 @63   = ~Mo¿esz mi opowiedzieæ wiêcej o ksiê¿ycowych ostrzach? To brzmi doœæ interesuj¹co.~
 @64   = ~Jesteœ mê¿czyzn¹ honoru i posiadasz jakieœ zadatki na dowódcê. Gdyby nasza sytuacja nie by³a tak dramatyczna, powiedzia³bym, ¿e nasza znajomoœæ potrwa przynajmniej jeszcze z cztery dni.~ ~Jesteœ kobiet¹ honoru i posiadasz jakieœ zadatki na dowódcê. Gdyby nasza sytuacja nie by³a tak dramatyczna, powiedzia³bym, ¿e nasza znajomoœæ potrwa przynajmniej jeszcze z cztery dni.~
@@ -80,7 +80,7 @@
 @79   = ~Przynajmniej jest w twojej rodzinie jedna normalna osoba! To rokuje pewne nadzieje dla Królestwa elfów.~
 @80   = ~Có¿, nie jesteœ mym krewniakiem, ale chyba pozna³em ciê ju¿ wystarczaj¹co, by domyœliæ siê co sk³oni³o Erevaina do opuszczenia domu.~ ~Có¿, nie jesteœ mym krewniakiem, ale chyba pozna³am ciê ju¿ wystarczaj¹co, by domyœliæ siê co sk³oni³o Erevaina do opuszczenia domu.~
 @81   = ~Kuzyn Erevain chcia³ zobaczyæ œwiat, zanim do³¹czy do rodziny podczas Odwrotu. Ostatecznie zawêdrowa³ a¿ do Doliny Lodowego Wichru. (wzdycha)~
-@82   = ~Och, ³a³! Pewnie ma mnóstwo do opowiedzenia!~
+@82   = ~Och, super! Pewnie ma mnóstwo do opowiedzenia!~
 @83   = ~Wzdychasz... Wybacz moj¹ ciekawoœæ, ale mam przeczucie, ¿e twój kuzyn mia³ jakiœ powa¿ny wypadek.~
 @84   = ~Odwrotu?~
 @85   = ~(wzdycha) Królestwo elfów powinno uczyæ siê na b³êdach Erevaina. Grupa obszarpanych najemników pojawi³a siê w gospodzie "W Pó³ Drogi" oko³o piêædziesi¹t lat temu. Mieli ze sob¹ miecz Erevaina i pamiêtnik. Jego... jego cia³o znaleziono niedaleko szlaku w Kuldahar...~
@@ -100,11 +100,11 @@
 @99   = ~Och, TEN Odwrót! Gorion mówi³ o nim Exodus... Niewa¿ne, powiedz co spotka³o Erevaina.~
 @100  = ~Powiem ci co jest niepokoj¹ce: rozmowa z tob¹! I mam zamiar z tym skoñczyæ.~
 @101  = ~Nasz lud opuszcza Faerun? Wiêc co tu jeszcze robisz, Xan? Myœla³bym, ¿e bêdziesz na pierwszym statku. A mo¿e boisz siê umrzeæ na morzu?~ ~Nasz lud opuszcza Faerun? Wiêc co tu jeszcze robisz, Xan? Myœla³abym, ¿e bêdziesz na pierwszym statku. A mo¿e boisz siê umrzeæ na morzu?~
-@102  = ~Nic nie wiesz, g³upi ch³opcze! Elf, który zgin¹³ z dala od domu gwa³town¹ œmierci¹, mo¿e nigdy nie znaleŸæ siê w Arvanaith. Tylko g³upiec mo¿e porzuciæ elfi¹ nieœmiertelnoœæ dla przygód. ~ ~Nic nie wiesz, g³upia dziewczyno! Elf, który zgin¹³ z dala od domu gwa³town¹ œmierci¹, mo¿e nigdy nie znaleŸæ siê w Arvanaith. Tylko g³upiec mo¿e porzuciæ elfi¹ nieœmiertelnoœæ dla przygód. ~
+@102  = ~Nic nie wiesz, g³upi ch³opcze! Elf, który zgin¹³ z dala od domu gwa³town¹ œmierci¹, mo¿e nigdy nie znaleŸæ siê w Arvanaith. Tylko g³upiec mo¿e porzuciæ elfi¹ nieœmiertelnoœæ dla przygód.~ ~Nic nie wiesz, g³upia dziewczyno! Elf, który zgin¹³ z dala od domu gwa³town¹ œmierci¹, mo¿e nigdy nie znaleŸæ siê w Arvanaith. Tylko g³upiec mo¿e porzuciæ elfi¹ nieœmiertelnoœæ dla przygód. ~
 @103  = ~Nie wiedzia³em. Myœlê... mo¿e lepiej by³oby dla ciebie, gdybyœ wróci³ do domu, do Evereski. Zajmê siê brakami ¿elaza, ktokolwiek za nimi stoi...~ ~Nie wiedzia³am. Myœlê... mo¿e lepiej by³oby dla ciebie, gdybyœ wróci³ do domu, do Evereski. Zajmê siê brakami ¿elaza, ktokolwiek za nimi stoi...~
 @104  = ~Co, przypadkowo, robi z ciebie g³upca, drogi Xanie. Przyznaj, podoba ci siê awanturnicze ¿ycie, pomimo twego ponurego usposobienia.~
-@105  = ~¯al mi Erevaina, i ¿al mi ciebie, jeœli tak to wygl¹da. Jednak obowi¹zki i przeznaczenie s¹ silniejsze ni¿ nasze zachcianki. Staw czo³a nieuniknionemu z odwag¹ i szlachetnoœci¹ godn¹ twego ludu.~
-@106  = ~Nic nie wiesz? Elf, który zgin¹³ z dala od domu gwa³town¹ œmierci¹, mo¿e nigdy nie znaleŸæ siê w Arvanaith. Tylko g³upiec mo¿e porzuciæ elfi¹ nieœmiertelnoœæ dla przygód. ~ 
+@105  = ~¯al mi Erevaina i ¿al mi ciebie, jeœli tak to wygl¹da. Jednak obowi¹zki i przeznaczenie s¹ silniejsze ni¿ nasze zachcianki. Staw czo³a nieuniknionemu z odwag¹ i szlachetnoœci¹ godn¹ twego ludu.~
+@106  = ~Nic nie wiesz? Elf, który zgin¹³ z dala od domu gwa³town¹ œmierci¹, mo¿e nigdy nie znaleŸæ siê w Arvanaith. Tylko g³upiec mo¿e porzuciæ elfi¹ nieœmiertelnoœæ dla przygód.~ 
 @107  = ~Xan, po co prowadziæ nieskoñczone, ale nijakie ¿ycie tu i w Arvanaith? Moja krew wrze, gdy walczê, i nie zamieniê tego na nic innego! Ty, z drugiej strony, mo¿esz iœæ do domu, Xan. Sam odnajdê tych, którzy stoj¹ za brakami ¿elaza.~ ~Xan, po co prowadziæ nieskoñczone, ale nijakie ¿ycie tu i w Arvanaith? Moja krew wrze, gdy walczê, i nie zamieniê tego na nic innego! Ty, z drugiej strony, mo¿esz iœæ do domu, Xan. Sama odnajdê tych, którzy stoj¹ za brakami ¿elaza.~
 @108  = ~Co, przypadkowo, robi z nas obu g³upców, drogi Xanie. Przyznaj, mellonamin, podoba ci siê awanturnicze ¿ycie, pomimo twego ponurego usposobienia.~
 @109  = ~¯al mi Erevaina, ¿al mi ciebie i ¿al mi siebie. Jednak obowi¹zki i przeznaczenie s¹ silniejsze ni¿ nasze zachcianki. Stawmy czo³a nieuniknionemu z odwag¹ i szlachetnoœci¹ godn¹ naszego ludu, powierniku ksiê¿ycowego ostrza.~
@@ -124,13 +124,13 @@
 @123  = ~Komukolwiek z mojej rodziny, kto jeszcze ¿yje. PóŸniej ostrze samo dokona wyboru.~
 @124  = ~To szaleñstwo, <CHARNAME>. Wiele pokus ma kolor czarny, choæ ta jest bia³a, i droga do Dziewiêciu Piekie³ jest wybrukowana w³aœnie tymi bia³ymi.~
 @125  = ~W zamian oferujê ci moj¹ wdziêcznoœæ. PóŸniej, z wiadomych przyczyn, nie bêdê móg³ tego uczyniæ.~
-@126  = ~Jak chcesz. Nie ¿ebym spodziewa³ siê po tobie czegoœ przyzwoitego. ~
+@126  = ~Jak chcesz. Nie ¿ebym spodziewa³ siê po tobie czegoœ przyzwoitego.~
 @127  = ~(wzdycha) Evereska... Móg³bym teraz patrzeæ na zielon¹ dolinê mych rodzinnych stron. Zamiast tego, brnê przez kurz, ciemnoœæ i mu³. To ironiczne, ¿e ja, który urodzi³em siê w najpiêkniejszym miejscu na Torilu, umrê w jednej z tych brudnych... dziur, bez ani jednego promienia s³onecznego nade mn¹.~
 @128  = ~Pech, Xanie.~
 @129  = ~Nie wola³byœ ujrzeæ nad sob¹ ksiê¿yca w chwili œmierci? Jesteœ w koñcu szarym elfem.~
 @130  = ~Na pó³ spróchnia³a stodo³a, pe³na koñskiego ³ajna, przebija to miejsce na g³owê, jeœli mówimy o estetyce. Nie mogê uwierzyæ, ¿e przywo³a³o ono w tobie obraz legendarnie piêknej Evereski.~
 @131  = ~Zamknij oczy, by nie widzieæ tego odra¿aj¹cego, g³êbokiego do kolan gnoju, zatkaj nos, by go nie czuæ, i w³ó¿ sobie coœ w uszy. I wyobraŸ sobie, ¿e jesteœ w Everesce.~
-@132  = ~D³ugo patrzy³em na ni¹, nim j¹ opuœci³em. Przewidzia³em, ¿e nie przyjdzie mi wiêcej patrzyæ na iglice Akademii Magii i Broni, wysokie œwi¹tynie i góry Evereski. (wzdycha) ~
+@132  = ~D³ugo patrzy³em na ni¹, nim j¹ opuœci³em. Przewidzia³em, ¿e nie przyjdzie mi wiêcej patrzyæ na iglice Akademii Magii i Broni, wysokie œwi¹tynie i góry Evereski. (wzdycha)~
 @133  = ~Mów dalej, Xan. Wiêc, w Everesce jest Akademia Magii i Broni, œwi¹tynie i góry. Co jeszcze?~
 @134  = ~Za³o¿ymy siê, Xan? Ten srebrny pierœcieñ przeciw twemu ksiê¿ycowemu ostrzu, ¿e wkrótce bêdziemy wspólnie spacerowali po ulicach Evereski!~
 @135  = ~Xan, wykrwawiaj siê ile tylko chcesz, ale rób to po cichu!~
@@ -154,7 +154,7 @@
 @153  = ~Och... Chcesz powiedzieæ, ¿e nie jesteœmy mile widziani w Everesce?~
 @154  = ~Póki co, opowiedz mi o kilku znanych atrakcjach Evereski? Choæ na chwilê oderwiemy siê od ponurej rzeczywistoœci.~
 @155  = ~Doœæ pogawêdek. Miejmy oczy i uszy szeroko otwarte.~
-@156  = ~Zatrzymaj swój pierœcieñ, <CHARNAME>. Jest zbyt powszechni. Och, gdybyœ tylko móg³ zobaczyæ kunszt jubilerów w Everesce. (wzdycha) Tutaj znajdziesz jedynie ich najprostsze wyroby. Sprzedaj¹ damskie zdobione sztylety o srebrnym ostrzu, albo scyzoryki kupcom z zewn¹trz ale nic wiêcej. ~ ~Zatrzymaj swój pierœcieñ, <CHARNAME>. Jest zbyt powszechni. Och, gdybyœ tylko mog³a zobaczyæ kunszt jubilerów w Everesce. (wzdycha) Tutaj znajdziesz jedynie ich najprostsze wyroby. Sprzedaj¹ damskie zdobione sztylety o srebrnym ostrzu, albo scyzoryki kupcom z zewn¹trz ale nic wiêcej. ~
+@156  = ~Zatrzymaj swój pierœcieñ, <CHARNAME>. Jest zbyt powszechni. Och, gdybyœ tylko móg³ zobaczyæ kunszt jubilerów w Everesce. (wzdycha) Tutaj znajdziesz jedynie ich najprostsze wyroby. Sprzedaj¹ damskie zdobione sztylety o srebrnym ostrzu, albo scyzoryki kupcom z zewn¹trz ale nic wiêcej.~ ~Zatrzymaj swój pierœcieñ, <CHARNAME>. Jest zbyt powszechni. Och, gdybyœ tylko mog³a zobaczyæ kunszt jubilerów w Everesce. (wzdycha) Tutaj znajdziesz jedynie ich najprostsze wyroby. Sprzedaj¹ damskie zdobione sztylety o srebrnym ostrzu, albo scyzoryki kupcom z zewn¹trz ale nic wiêcej.~
 @157  = ~S³ysza³em, ¿e rzadko sprzedaj¹ swoje towary poza Evereskê. A wiêc to prawda.~ ~S³ysza³am, ¿e rzadko sprzedaj¹ swoje towary poza Evereskê. A wiêc to prawda.~
 @158  = ~Opowiedz mi o kilku znanych atrakcjach Evereski? Choæ na chwilê oderwiesz siê od ponurej rzeczywistoœci.~
 @159  = ~Po cichu? W tej norze? Nie s³yszysz w ciemnoœci kroków naszych wrogów, zawodzenia zagubionych dusz i trzasku koœci nieumar³ych? Nie bêdzie ciszy, <CHARNAME>. Ta... ta kakofonia bêdzie naszym requiem.~
@@ -184,7 +184,7 @@
 @183  = ~O tym, <CHARNAME>, nie mogê z tob¹ dyskutowaæ.~
 @184  = ~W Szarych P³aszczach jest wiêcej plotek na ten temat ni¿ oczu na ciele obserwatora! Prêdzej czy póŸniej prawda wyjdzie na jaw!~
 @185  = ~Zdaje siê, ¿e bêdê musia³ dowiedzieæ siê tego na w³asn¹ rêkê.~ ~Zdaje siê, ¿e bêdê musia³a dowiedzieæ siê tego na w³asn¹ rêkê.~
-@186  = ~(wzdycha) O co chodzi z tymi stra¿nikami? To te¿ jakiœ wielki sekret? ~
+@186  = ~(wzdycha) O co chodzi z tymi stra¿nikami? To te¿ jakiœ wielki sekret?~
 @187  = ~Tyle dostajê w zamian za uprzejmoœæ!~
 @188  = ~Wzgórza Szarego P³aszcza nazywano niegdyœ Grobowymi Wzgórzami. Mo¿na je znaleŸæ w pó³nocnych górach i zosta³y zasiedlone przez elfy z Evereski, by chroniæ jej granice przed wieloma banshee, które mo¿na by³o tam spotkaæ.~
 @189  = ~Przypominam sobie. Ale plotki mówi³y, ¿e to nie chodzi³o o banshee, ale skarby Upad³ego Królestwa ukryte w tych grobowcach, a które elfy chcia³y wydobyæ.~
@@ -267,7 +267,7 @@
 @266  = ~Faldorn, rozmawianie z tob¹ jest tylko odrobinê lepsze ni¿ walka u twego boku. Mogê ciê prosiæ, byœ nie zwiêksza³a mych cierpieñ? Na Seldarine, dzieñ jest ju¿ wystarczaj¹co ponury...~
 @267  = ~Coœ nie tak z moj¹ walk¹, elfiludzie?~
 @268  = ~Faldorn, nigdy nie s³ysza³em, aby ktoœ tak wrzeszcza³ na najniebezpieczniejszych wrogów, potrafisz staæ w miejscu i œmiaæ siê, gdy ten szar¿uje na ciebie... albo kogoœ stoj¹cego obok ciebie, kto akurat rzuca bardzo niebezpieczne zaklêcie. Nie dbam o twój ca³kowity brak instynktu samozachowawczego, ale twe lekcewa¿enie mego bezpieczeñstwa jest co najmniej irytuj¹ce.~
-@269  = ~Grrr! Robiê tak, bo-~
+@269  = ~Grrr! Robiê tak, bo...~
 @270  = ~Jak œmiesz w¹tpiæ w mój instynkt samozachowawczy! ¯yjê zgodnie z wol¹ Wielkiej Matki!~
 @271  = ~Jestem zgubiony... wiatr zawsze dmucha dym z ogniska w moj¹ stronê, a deszcz zaczyna padaæ akurat, gdy zdejmê p³aszcz... a teraz jakiœ szalony barbarzyñca wybra³ sobie mnie jako ¿yw¹ tarczê...~
 @272  = ~Xan! Nie wykorzystujê ciê! To jak walczê nie ma z tob¹ nic wspólnego! Tylko najsilniejsi przetrwaj¹. Jeœli chcê byæ jednym z mistrzów Wielkiej Matki, muszê udowodniæ jej swoj¹ si³ê!~
@@ -299,7 +299,7 @@
 @298  = ~Nic z tych rzeczy, Xan. Wiedz, ¿e moim zdaniem, ludzie którzy bior¹ na swe barki za ma³o odpowiedzialnoœci bêd¹ gorzko ¿a³owali straconych lat na ³o¿u œmierci.~
 @299  = ~Jednak im wiêcej zadañ siê podejmujesz, tym wiêcej pora¿ek ciê spotyka.~
 @300  = ~I wiêcej sukcesów. Jeœli nie akceptujesz pora¿ek, to równie dobrze mo¿esz po³o¿yæ siê i umrzeæ.~
-@301  = ~(wzdycha) Z tak¹ postaw¹, nie dziwiê siê, ¿e co chwilê musimy cudem uchodziæ z ¿yciem. Gdybym by³ tob¹-~
+@301  = ~(wzdycha) Z tak¹ postaw¹, nie dziwiê siê, ¿e co chwilê musimy cudem uchodziæ z ¿yciem. Gdybym by³ tob¹...~
 @302  = ~Skoncentrowa³abym siê na obowi¹zkach druida. Przynajmniej wtedy, nie bacz¹c na to jak zginiesz, powiedz¹, ¿e zmar³eœ œmierci¹ naturaln¹.~
 @303  = ~Krasnoludzie, od wczoraj masz resztki nieprze¿utego jedzenia na brodzie.~
 @304  = ~Nie mam tera czasu zadbaæ o gêbê, elfie. Przygotowa³em se topór, policzy³em z³oto i jestem gotowy do drogi.~
@@ -336,7 +336,7 @@
 @335  = ~To... doradza ci? Powiedz mi, co ci to doradza?~
 @336  = ~Mówi, ¿e jesteœ Ÿród³em wielkiego smutku... Dlaczego siê smucisz?~
 @337  = ~Wszystko w porz¹dku... naprawdê.~
-@338  = ~(pisk)~ [GAM_48]
+@338  = ~(Boo piszczy)~ [GAM_48]
 @339  = ~O co chodzi, Boo? Ach, tak, to dobry pomys³!~
 @340  = ~Boo mówi, ¿e powinieneœ go uœciskaæ. Mnie to zawsze pomaga!~
 @341  = ~Nie bêdê siê œciska³ z chomikiem...~
@@ -387,7 +387,7 @@
 @386  = ~Z drugiej strony, jest swego rodzaju radoœæ w ¿yciu we w³asnym œwiecie. Mo¿e w³aœnie dlatego teraz robimy to, co robimy, <CHARNAME>? Nasze codzienne ocieranie siê o œmieræ to czyste szaleñstwo.~
 @387  = ~Nie wyobra¿a³em sobie, ¿e do¿yjê chwili, w której bêdê nie tylko widzia³, ale sam BÊDÊ elfem prosz¹cym drowa o uleczenie.~
 @388  = ~(phi) Darthiir, twój lud zawsze p³aszczy siê przed nami.~
-@389  = ~Drowy snuj¹ k³amstwa, jak paj¹ki sieci. Ok³amuj¹ nawet samych siebie-~
+@389  = ~Drowy snuj¹ k³amstwa, jak paj¹ki sieci. Ok³amuj¹ nawet samych siebie...~
 @390  = ~Ok³amuj¹? Waela rivvil, widzia³am takich jak ty, pe³zaj¹cych na brzuchu, ca³uj¹cych kurz pod stopami Matrony DeVir, prosz¹c, by zakoñczy³a ich cierpienia. Zdzierano z nich blade skalpy, a ich wnêtrznoœci ci¹gnê³y siê za nimi, gdy prosili o œmieræ.~
 @391  = ~Ja... nie pozwolê ci siê uleczyæ, Viconio. Po zastanowieniu, to bezcelowe. Kto siê skuma³ z drowem, ten niechybnie zginie. Niekoniecznie z r¹k nieprzyjació³.~
 @392  = ~(œmieje siê)~
@@ -401,7 +401,7 @@
 @400  = ~Có¿, Monty to raczej partacz, ale mo¿e coœ mi siê ostanie. Gdyby uda³o mi siê zachowaæ choæ kawa³ek twej magii, to by³oby ju¿ niez³e wyzwanie.~
 @401  = ~Spróbuj, a oboje zobaczycie wiêcej ni¿ "kawa³ek" mej magii.~
 @402  = ~(wzdycha) Wiedzia³em! Tylko siê dra¿ni³eœ. OdejdŸ, ty makabryczny flirciarzu.~
-@403  = ~Yeslick, wszystko jest skazane na klêskê, i to jedyna prawda na tym œwiecie. Nasz upadek jest nieuchronny. Z pewnoœci¹, ka¿da œwiadoma, racjonalnie myœl¹ca istota potrafi dostrzec, jak niemo¿liwie dziwne i ogromnie-~
+@403  = ~Yeslick, wszystko jest skazane na klêskê, i to jedyna prawda na tym œwiecie. Nasz upadek jest nieuchronny. Z pewnoœci¹, ka¿da œwiadoma, racjonalnie myœl¹ca istota potrafi dostrzec, jak niemo¿liwie dziwne i ogromnie...~
 @404  = ~Zamkniesz wreszcie jadaczkê! Od godziny paplasz o tym samym! "Wszystko jest skazane na klêskê", ba! Bêdziesz glêdzi³ ca³y dzieñ – znowu - czy mo¿e wreszcie ruszysz zadek, by coœ z tym zrobiæ?~
 @405  = ~W przeciwieñstwie do tych, co maj¹ puste g³owy i chwiejny temperament, ja po prostu akceptujê los, jaki nas czeka. Ani ja, ani ty nie mo¿emy nic z tym zrobiæ.~
 @406  = ~Nie ma w tobie ani kropli prawego gniewu, elfie? G³upstwo! Przylaz³eœ w tê stronê œwiata, dzier¿¹c swój p³on¹cy miecz – po co w ogóle byœ walczy³, gdyby to by³a jeno robota g³upiego, co? CO?~

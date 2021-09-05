@@ -39,9 +39,9 @@
 @38   = ~Jest œlepy czy po prostu g³upi? Nie widzi ca³ej ³¹ki jak¹ trzymasz w rêku?~
 @39   = ~Mój biedny przyjacielu, nie stój tak! Mniemam, ¿e na takim odludziu nie ma zbyt wiele dziewcz¹t, ale sposób, w jaki oblepiasz j¹ wzrokiem jest karygodny! Zamknij przynajmniej usta nim zaczniesz siê œliniæ, szczeniaku.~
 @40   = ~Szczeniaku?! (krzywi siê) Jestem wystarczaj¹co doros³y, by biæ siê z tob¹ o tê sukê!~
-@41   = ~Oj... Nikt-~
+@41   = ~Oj... Nikt...~
 @42   = ~(rzuca siê do przodu)~
-@43   = ~¯egnaj wiêc, piêkna pani... Byæ mo¿e... innym razem... IdŸ z mym b³ogos³awieñstwem i niech bogowie ci sprzyjaj¹. ~
+@43   = ~¯egnaj wiêc, piêkna pani... Byæ mo¿e... innym razem... IdŸ z mym b³ogos³awieñstwem i niech bogowie ci sprzyjaj¹.~
 @44   = ~Coran i Durlyle
 
 Wygl¹da na to, ¿e Durlyle’a interesowa³o coœ wiêcej ni¿ tylko przyjaŸñ. W³aœciwie to by³ tak dosadny, ¿e Coran zrobi³ siê naprawdê zazdrosny. Skoñczy³o siê na przepychankach. Czujê siê... niezrêcznie.~
@@ -118,12 +118,12 @@ Wygl¹da na to, ¿e Durlyle’a interesowa³o coœ wiêcej ni¿ tylko przyjaŸñ. W³aœciwi
 @115  = ~Proszê, prze pani, jesteœmy u kresu wytrzyma³oœci! Jesteœmy zwyk³ymi ludŸmi! O... oferta wci¹¿ jest aktualna, i modlê siê, abyœcie post¹pili s³usznie.~
 @116  = ~Wiêc oto osiedliœmy na tej lodowej krze poœrodku oceanu, bez jedzenia i w³aœciwego okrycia. Nie s¹dzisz, <CHARNAME>, ¿e to zabawne, ¿e akurat teraz jesteœmy bezpieczniejsi ni¿ kiedykolwiek? A mo¿e jesteœ zbyt zajêty planowaniem, w jaki sposób uciec z tego bezpiecznego schronienia prosto w rêce nieub³aganej zguby?~ ~Wiêc oto osiedliœmy na tej lodowej krze poœrodku oceanu, bez jedzenia i w³aœciwego okrycia. Nie s¹dzisz, <CHARNAME>, ¿e to zabawne, ¿e akurat teraz jesteœmy bezpieczniejsi ni¿ kiedykolwiek? A mo¿e jesteœ zbyt zajêta planowaniem, w jaki sposób uciec z tego bezpiecznego schronienia prosto w rêce nieub³aganej zguby?~
 @117  = ~Be³kocz¹ca Dwunastka - nie, raczej Be³kocz¹ca Trójka...~
-@118  = ~(wzdycha) Mam przeczucie, ¿e skoro wspomniany statek jest jedynym w porcie, nie zd¹¿ymy siê na niego zaci¹gn¹æ... ~
+@118  = ~(wzdycha) Mam przeczucie, ¿e skoro wspomniany statek jest jedynym w porcie, nie zd¹¿ymy siê na niego zaci¹gn¹æ...~
 @119  = ~Czym¿e jest Evereska, jeœli nie wiêksz¹ Wie¿¹ Durlaga? Odciêliœmy siê od œwiata, za³o¿yliœmy pu³apki i czary ochronne – wszystkie te iluzje i zjawy naszej w³asnej dumy i krótkowzrocznoœci... To beznadziejne. Mój lud jest skazany na œmieræ, tak samo jak klan Durlaga, i nic nas nie ocali.~
 @120  = ~Och, wiem, ¿e w obecnej sytuacji g³upio mówiæ "a nie mówi³em"... Ale nie mogê siê oprzeæ, aby wypomnieæ ci, ¿e przy wielu okazjach wspomina³em, i¿ ró¿nego rodzaju straszne potwory maj¹ zwyczaj zamieszkiwaæ tajemnicze podziemne ruiny... do których ty tak czêsto lubisz zagl¹daæ, <CHARNAME>. Teraz, dziêki twemu niezaspokojonemu pragnieniu ³adowania nas w przeró¿ne tarapaty, zasmakujemy œmierci z rêki demona! Có¿ to za zaszczyt...~
 @121  = ~Zamknij usta swe!~
 @122  = ~A ja od tak dawna szuka³em w³aœciwej nazwy dla naszej nieszczêsnej dru¿yny... "S³udzy Œmierci". Ca³kiem zgrabne. Szkoda, ¿e nie po¿yjê wystarczaj¹co d³ugo, aby zapisaæ to w mych "Zapiskach z samobójczej misji".~
-@123  = ~A dlaczego, O sprzedawco samobójstw, powinniœmy skorzystaæ z twych us³ug? Jesteœmy wystarczaj¹co uposa¿eni, aby samym daæ siê zabiæ. Oczywiœcie, chyba ¿e nasz skory-do-dzielnej-œmierci <CHARNAME> uzna, ¿e poczucie fa³szywego bezpieczeñstwa mo¿e sprowadziæ na nas klêskê znacznie szybciej.~ ~A dlaczego, O sprzedawco samobójstw, powinniœmy skorzystaæ z twych us³ug? Jesteœmy wystarczaj¹co uposa¿eni, aby samym daæ siê zabiæ. Oczywiœcie, chyba ¿e nasza skora-do-dzielnej-œmierci <CHARNAME> uzna, ¿e poczucie fa³szywego bezpieczeñstwa mo¿e sprowadziæ na nas klêskê znacznie szybciej.~
+@123  = ~A dlaczego, o sprzedawco samobójstw, powinniœmy skorzystaæ z twych us³ug? Jesteœmy wystarczaj¹co uposa¿eni, aby samym daæ siê zabiæ. Oczywiœcie, chyba ¿e nasz skory-do-dzielnej-œmierci <CHARNAME> uzna, ¿e poczucie fa³szywego bezpieczeñstwa mo¿e sprowadziæ na nas klêskê znacznie szybciej.~ ~A dlaczego, o sprzedawco samobójstw, powinniœmy skorzystaæ z twych us³ug? Jesteœmy wystarczaj¹co uposa¿eni, aby samym daæ siê zabiæ. Oczywiœcie, chyba ¿e nasza skora-do-dzielnej-œmierci <CHARNAME> uzna, ¿e poczucie fa³szywego bezpieczeñstwa mo¿e sprowadziæ na nas klêskê znacznie szybciej.~
 @124  = ~O takim losie w³aœnie marzy³em – by strzec zwiotcza³e szcz¹tki przez ca³¹ wiecznoœæ. Czy "nie, dziêkujê, nie skorzystam" wystarczy? (wzdycha) Tak, myœla³em.~
 @125  = ~(wzdycha) Dziêkujê bardzo. W³aœnie zguby mi brakowa³o w tym, ech, przeklêtym miejscu.~
 @1001 = ~Pomyœl tylko, co ciê mo¿e omin¹æ!~

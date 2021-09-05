@@ -68,7 +68,7 @@
 @67  = ~Na Silvanusa, chwa³a tobie i Seniyadowi! Proszê, Jaheiro, musisz j¹ uratowaæ... niedaleko jest most nad rzek¹. Przekrocz go i idŸ na po³udnie... znajdŸ dom w drzewie. Ona zosta³a... (kaszle) tam zabrana, by byæ torturowana przez Andarthe, jednego z Arcydruidów Cienia. Proszê, pospiesz siê!~
 @68  = ~Zrobimy co w naszej mocy, Beadorze. Zostañ tu i nie próbuj siê st¹d ruszaæ. ChodŸ, <CHARNAME>, dajmy tym heretykom kilka ostrych lekcji!~
 @69  = ~Powodzi³o mi siê... ca³kiem dobrze, dziêki za troskê.~
-@70  = ~Jaheira? Co z ³zami w twoich oczach i dr¿eniem g³osu? I dlaczego nie widzê Khal-~
+@70  = ~Jaheira? Co z ³zami w twoich oczach i dr¿eniem g³osu? I dlaczego nie widzê Khal...~
 @71  = ~Dosyæ!! Dosyæ... nie bêdê o tym mówiæ! Zostaliœmy przys³ani przez Seniyada, ¿eby znaleŸæ ciebie i Marethê, i to jest jedyny powód naszego pobytu tutaj, Beadorze.~
 @72  = ~Jak sobie ¿yczysz, Jaheiro. Niedaleko jest most nad rzek¹. Przekrocz go i idŸ na po³udnie... znajdŸ dom w drzewie. Ona zosta³a... (kaszle) tam zabrana, by byæ torturowana przez Andarthe, jednego z Arcydruidów Cienia. Proszê, pospiesz siê!~
 @73  = ~Zrobimy co w naszej mocy, Beadorze. Zostañ tu i nie próbuj siê st¹d ruszaæ. ChodŸ, <CHARNAME>, dajmy tym heretykom kilka ostrych lekcji!~
@@ -85,7 +85,7 @@
 @84  = ~Próbujecie mnie oszukaæ! Zginiecie za to!~
 @85  = ~A zatem walczmy, ty nic nie warty s³abeuszu! Za Wielk¹ Matkê!~
 @86  = ~Jakoœ nie czujê, ¿eby to by³a s³uszna decyzja, <CHARNAME>. Cz³owiek, chocia¿ oczywiœcie jest zniewieœcia³ym g³upcem, nie zas³u¿y³ na tak ciê¿k¹ karê za swe przewinienia.~
-@87  = ~Bah! Nie pozwól k³amstwom najgorszych produktów cywilizacji zamieszaæ w g³owie, m³ody dru-... Jaheira? To ty? Powinienem ciê rozpoznaæ od razu!~
+@87  = ~Bah! Nie pozwól k³amstwom najgorszych produktów cywilizacji zamieszaæ w g³owie, m³ody dru... Jaheira? To ty? Powinienem ciê rozpoznaæ od razu!~
 @88  = ~Istotnie, to ja. Smuci mnie, ¿e ci¹gle trwasz w swoim agresywnych pogl¹dach, kiedy zawierasz uk³ady z tymi, którzy ma³o dbaj¹ o naturê. Ci ludzie s¹ godni pogardy, a ty nie wygl¹dasz na takiego, który by siê zastanawia³, ile kosztuje nas twoja postawa nadwyrê¿aj¹ca szacunek mieszkañców miasta.~
 @89  = ~Wygl¹da na to, ¿e sta³e nara¿anie siê na wp³yw cywilizacji zmiêkczy³o ciê jeszcze bardziej ni¿ wtedy, kiedy opuœci³aœ kr¹g. Albo, byæ mo¿e ostatnie k³opoty wp³ynê³y na mnie i sta³em siê bardziej okrutny, ni¿ zdawa³em sobie z tego sprawê? Mo¿e... jest to coœ, nad czym powinienem siê zadumaæ.~
 @90  = ~Ostatnie k³opoty? Co masz na myœli, Seniyadzie?~
@@ -117,7 +117,7 @@
 @116 = ~Radzê nie byæ a¿ t-tak dociekliwym, <CHARNAME>... d-dla twojego dobra.~
 @117 = ~Jesteœ m¹dry, Khalidzie, kochanie... i ta m¹droœæ dobrze ci s³u¿y. <CHARNAME>, powinniœmy ruszaæ w g³¹b Kniei Otulisko, jeœli chcemy uratowaæ moich przyjació³.~
 @118 = ~Dobrze, Jaheiro. Pomó¿my druidom.~
-@119 = ~Pohamuj siê, Jaheiro. Mamy lepsze rzeczy do roboty. Kopalnie czekaj¹.~
+@119 = ~Pohamuj siê, Jaheiro. Mamy lepsze rzeczy do roboty. Ukryta baza czeka.~
 @120 = ~Dziêkujê, <CHARNAME>. Wiedzia³am, ¿e mogê liczyæ na twoj¹ pomoc.~
 @121 = ~Podjêliœcie m¹dr¹ decyzjê. Powodzenia!~
 @122 = ~A ty... zejdŸ mi z oczu, niszczycielu natury. Ciesz siê, ¿e ceniê sobie tak wysoko s³owa Jaheiry, w przeciwnym razie nalega³bym, abyœ odpokutowa³ swe niecne uczynki.~
@@ -127,7 +127,7 @@
 @126 = ~Eee... nie wiem, co we mnie wst¹pi³o. Oczywiœcie siê nie zrozumieliœmy, Jaheiro. Pomó¿my twoim przyjacio³om jak najszybciej.~
 @127 = ~Ach, zamknij siê, uporczywa leœna dziewko. Zrobimy, co mówiê, a teraz moje s³owa brzmi¹ - wracaj do szeregu i siedŸ cicho.~ ~Ach, zamknij siê, uporczywa leœna dziewko. Zrobimy, co mówiê, a teraz moje s³owa brzmi¹ - wracaj do szeregu i siedŸ cicho.~
 @128 = ~Jaheiro, rozumiem, ¿e siê martwisz, ale nie mo¿emy pozwoliæ sobie na opóŸnienia. Wrócimy tu póŸniej i wtedy pomo¿emy twoim przyjacio³om.~
-@129 = ~Hmph. Dobrze, <CHARNAME>, prowadŸ zatem. Na przysz³oœæ staraj siê unikaæ takich nieporozumieñ, albo bêdê zmuszona poci¹gn¹æ za lejce.~
+@129 = ~Hmpf. Dobrze, <CHARNAME>, prowadŸ zatem. Na przysz³oœæ staraj siê unikaæ takich nieporozumieñ, albo bêdê zmuszona poci¹gn¹æ za lejce.~
 @130 = ~Cieszê siê, ¿e przemyœla³eœ sprawê. Powodzenia!~ ~Cieszê siê, ¿e przemyœla³aœ sprawê. Powodzenia!~
 @131 = ~W³aœnie to robiê, nieokrzesany brutalu. W przysz³ym roku zamierzam udaæ siê do Lasu Ostrych K³ów, zamiast do Kniei Otulisko. Jestem pewien, ¿e nie spotka mnie nic gorszego!~
 @132 = ~Ty draniu! Za wszystkie wysi³ki, ¿eby ci pomóc, dostajê klapsa w twarz! Bardzo dobrze, lepiej, ¿e odkry³em twe prawdziwe oblicze póŸniej ni¿ wcale! Jeœli takie jest twoje ¿yczenie, oka¿ê sw¹ pomoc moim PRAWDZIWYM przyjacio³om.~
@@ -146,7 +146,7 @@
 @145 = ~Wiêc, nie tylko sprzymierzy³eœ siê z pod³ym ³owc¹, ale tak¿e zdradzi³eœ moj¹ siostrê w wierze, i tych, których nazywasz przyjació³mi. Jesteœ ¿a³osn¹ parodi¹ cz³owieka, a twoja eksterminacja ma pierwszeñstwo nad kar¹ dla ³owcy! Za równowagê!~ ~Wiêc, nie tylko sprzymierzy³aœ siê z pod³ym ³owc¹, ale tak¿e zdradzi³aœ moj¹ siostrê w wierze, i tych, których nazywasz przyjació³mi. Jesteœ ¿a³osn¹ parodi¹ cz³owieka, a twoja eksterminacja ma pierwszeñstwo nad kar¹ dla ³owcy! Za równowagê!~
 @146 = ~Czekaj! To nie wszystko, Jaheiro. Kilka dni temu jeden z moich druidów zaryzykowa³ ¿yciem i próbowa³ przeœlizgn¹æ siê na tereny Druidów Cienia i uratowaæ kobietê, w której by³ zakochany. Od tamtego czasu nie daje znaków ¿ycia. Powinnaœ go pamiêtaæ... to Beador.~
 @147 = ~Wydawa³o mi siê, ¿e ci siê œpieszy, Jaheiro? Skoñcz gadaæ i ruszaj!~
-@148 = ~Hmph. Dobrze, <CHARNAME>, prowadŸ. Wiedz, ¿e jestem niezadowolona z twojej postawy, ale mam nadziejê, ¿e konfrontacja z Druidami Cienia sprawi, ¿e zrozumiesz, i¿ podj¹³eœ s³uszn¹ decyzjê.~ ~Hmph. Dobrze, <CHARNAME>, prowadŸ. Wiedz, ¿e jestem niezadowolona z twojej postawy, ale mam nadziejê, ¿e konfrontacja z Druidami Cienia sprawi, ¿e zrozumiesz, i¿ podjê³aœ s³uszn¹ decyzjê.~
+@148 = ~Hmpf. Dobrze, <CHARNAME>, prowadŸ. Wiedz, ¿e jestem niezadowolona z twojej postawy, ale mam nadziejê, ¿e konfrontacja z Druidami Cienia sprawi, ¿e zrozumiesz, i¿ podj¹³eœ s³uszn¹ decyzjê.~ ~Hmpf. Dobrze, <CHARNAME>, prowadŸ. Wiedz, ¿e jestem niezadowolona z twojej postawy, ale mam nadziejê, ¿e konfrontacja z Druidami Cienia sprawi, ¿e zrozumiesz, i¿ podjê³aœ s³uszn¹ decyzjê.~
 @149 = ~Albo byæ mo¿e spodziewaliœcie siê uwolnienia intruza? G³upcy... Natura jest brutalna, skuteczna i nie wybacza. Nie otrzymasz ode mnie pomocy.~
 @150 = ~Wydaj Marethê, Amarande... a mo¿e nie jesteœ prawdziwym Arcydruidem?~
 @151 = ~Amarande, uwolniliœmy Marethê... ona i Beador s¹ poza twoim zasiêgiem.~
@@ -159,15 +159,11 @@
 @158 = ~Jaheiro, jestem rozczarowany. Za zadawanie siê z kryminalistami powinnaœ zgin¹æ!~
 @159 = ~Cienie Kniei Otulisko
 
-Spotkaliœmy starego znajomego Jaheiry. Stary g³upiec zdecydowa³ siê ukazaæ s³aboœci w obliczu Natury, wiêc zostaliœmy zmuszeni zabiæ go i jego zwolenników. Natura ³atwiej dziœ odpocznie. Dodatkowo powinniœmy odwiedziæ Ligê Kupieck¹ we Wrotach Baldura, ¿eby zdobyæ interesuj¹ce nas informacje, choæ z chêci¹ œledzi³bym ³owcê i jego równie¿ pozbawi³ ¿ycia.~ ~Cienie Kniei Otulisko
-
-Spotkaliœmy starego znajomego Jaheiry. Stary g³upiec zdecydowa³ siê ukazaæ s³aboœci w obliczu Natury, wiêc zostaliœmy zmuszeni zabiæ go i jego zwolenników. Natura ³atwiej dziœ odpocznie. Dodatkowo powinniœmy odwiedziæ Ligê Kupieck¹ we Wrotach Baldura, ¿eby zdobyæ interesuj¹ce nas informacje, choæ z chêci¹ œledzi³abym ³owcê i jego równie¿ pozbawi³a ¿ycia.~
+Spotkaliœmy starego znajomego Jaheiry. Stary g³upiec zdecydowa³ siê ukazaæ s³aboœci w obliczu Natury, wiêc zostaliœmy zmuszeni zabiæ go i jego zwolenników. Natura ³atwiej dziœ odpocznie. Dodatkowo powinniœmy odwiedziæ Ligê Kupieck¹ we Wrotach Baldura, ¿eby zdobyæ interesuj¹ce nas informacje, choæ wolelibyœmy œledziæ ³owcê i jego równie¿ pozbawiæ ¿ycia.~
 @160 = ~Okaza³eœ odrobinê rozs¹dku pomagaj¹c nam w zabiciu ³owcy, ale twój brak troski o nasze sprawy i twoja niechêæ do pomocy przyjacio³om mnie zaszokowa³a. Opuœæ ten las - straci³em cierpliwoœæ!~ ~Okaza³aœ odrobinê rozs¹dku pomagaj¹c nam w zabiciu ³owcy, ale twój brak troski o nasze sprawy i twoja niechêæ do pomocy przyjacio³om mnie zaszokowa³a. Opuœæ ten las - straci³em cierpliwoœæ!~
 @161 = ~Cienie Kniei Otulisko
 
-Spotkaliœmy starego znajomego Jaheiry. Choæ zabiliœmy ³owcê, który grozi³ druidom, g³upiec nie by³ zadowolony, ¿e odmówi³em im dalszej pomocy. Kilkoro cz³onków dru¿yny równie¿ nie pochwali³o mej decyzji i skoñczy³o siê na skromnych podziêkowaniach i braku nagrody.~ ~Cienie Kniei Otulisko
-
-Spotkaliœmy starego znajomego Jaheiry. Choæ zabiliœmy ³owcê, który grozi³ druidom, g³upiec nie by³ zadowolony, ¿e odmówi³am im dalszej pomocy. Kilkoro cz³onków dru¿yny równie¿ nie pochwali³o mej decyzji i skoñczy³o siê na skromnych podziêkowaniach i braku nagrody.~
+Spotkaliœmy starego znajomego Jaheiry. Choæ zabiliœmy ³owcê, który grozi³ druidom, g³upiec nie by³ zadowolony, ¿e odmówiliœmy im dalszej pomocy. Kilkoro cz³onków dru¿yny równie¿ nie pochwali³o tej decyzji i skoñczy³o siê na skromnych podziêkowaniach i braku nagrody.~
 @162 = ~Nalegam, ¿ebyœcie odszukali Beadora i Marethê, jeœli jesteœcie przyjació³mi druidów.~
 @163 = ~Cienie Kniei Otulisko
 
@@ -175,7 +171,7 @@ Zgodziliœmy siê pomóc druidom z Kniei Otulisko. Seniyad, stary znajomy Jaheiry, 
 @164 = ~Tu jesteœcie! S³ysza³em, ¿e ukaraliœcie tych, którzy kpili z naszych wierzeñ. Maretha powiedzia³a mi wszystko, nawet imiona dwóch wysoko postawionych cz³onków naszego bractwa, maj¹cych zwi¹zek z Krêgiem Cienia. Kara by³a szybka i odbi³a siê szerokim echem. Zadaliœmy silny cios Druidom Cienia i odzyskanie naszego lasu bêdzie kwesti¹ czasu.~
 @165 = ~Seniyadzie, cieszê siê, ¿e pomog³em tobie i Jaheirze.~ ~Seniyadzie, cieszê siê, ¿e pomog³am tobie i Jaheirze.~
 @166 = ~Tak tak, to naprawdê cudowne. Jaheira wspomina³a, ¿e macie dla nas nagrodê...~
-@167 = ~Okaza³eœ siê byæ dobrym sojusznikiem, <CHARNAME>. Dlatego bêdziesz wynagrodzony sojuszem z druidami z Kniei Otulisko i wolnym, nieskrêpowanym przejœciem przez nasze lasy. Wstawiennictwo Jaheiry bardzo pomog³o nam znaleŸæ silnego sojusznika dla naszej sprawy... M¹drze uczynisz, jeœli bêdziesz dalej polega³ na jej m¹droœci i doœwiadczeniu - wiele siê dziêki temu nauczysz.~ ~Okaza³aœ siê byæ dobr¹ sojuszniczk¹, <CHARNAME>. Dlatego bêdziesz wynagrodzona sojuszem z druidami z Kniei Otulisko i wolnym, nieskrêpowanym przejœciem przez nasze lasy. Wstawiennictwo Jaheiry bardzo pomog³o nam znaleŸæ silnego sojusznika dla naszej sprawy...  M¹drze uczynisz, jeœli bêdziesz dalej polega³a na jej m¹droœci i doœwiadczenia - wiele siê dziêki temu nauczysz.~
+@167 = ~Okaza³eœ siê byæ dobrym sojusznikiem, <CHARNAME>. Dlatego bêdziesz wynagrodzony sojuszem z druidami z Kniei Otulisko i wolnym, nieskrêpowanym przejœciem przez nasze lasy. Wstawiennictwo Jaheiry bardzo pomog³o nam znaleŸæ silnego sojusznika dla naszej sprawy... M¹drze uczynisz, jeœli bêdziesz dalej polega³ na jej m¹droœci i doœwiadczeniu - wiele siê dziêki temu nauczysz.~ ~Okaza³aœ siê byæ dobr¹ sojuszniczk¹, <CHARNAME>. Dlatego bêdziesz wynagrodzona sojuszem z druidami z Kniei Otulisko i wolnym, nieskrêpowanym przejœciem przez nasze lasy. Wstawiennictwo Jaheiry bardzo pomog³o nam znaleŸæ silnego sojusznika dla naszej sprawy... M¹drze uczynisz, jeœli bêdziesz dalej polega³a na jej m¹droœci i doœwiadczenia - wiele siê dziêki temu nauczysz.~
 @168 = ~Pozwól mi dodaæ coœ od siebie... ta zaklêta maczuga by³a w posiadaniu jednego ze zdrajców. Ufam, ¿e ty lub Jaheira zrobicie z niej dobry u¿ytek.~
 @169 = ~Cienie Kniei Otulisko
 
@@ -196,14 +192,10 @@ Odnieœliœmy sukces w sprawie pomocy druidom z Kniei Otulisko, a oni odwdziêczyli
 @183 = ~To twoja œmieræ, Andarthe.~
 @184 = ~Aldeth Sashenstar
 
-Zgodzi³em siê pomóc Aldethowi Sashenstarowi, kupcowi z Wrót Baldura, w walce z grup¹ dzikusów.~ ~Aldeth Sashenstar
-
-Zgodzi³am siê pomóc Aldethowi Sashenstarowi, kupcowi z Wrót Baldura, w walce z grup¹ dzikusów.~
+Zgodziliœmy siê pomóc Aldethowi Sashenstarowi, kupcowi z Wrót Baldura, w walce z grup¹ dzikusów.~
 @185 = ~Aldeth Sashenstar
 
-Sprzymierzy³em siê z Seniyadem i innymi druidami w ich konflikcie z Aldethem Sashenstarem. Aldeth zgin¹³ bardzo szybko.~ ~Aldeth Sashenstar
-
-Sprzymierzy³am siê z Seniyadem i innymi druidami w ich konflikcie z Aldethem Sashenstarem. Aldeth zgin¹³ bardzo szybko.~
+Sprzymierzyliœmy siê z Seniyadem i innymi druidami w ich konflikcie z Aldethem Sashenstarem. Aldeth zgin¹³ bardzo szybko.~
 @186 = ~Aldeth Sashenstar
 
 Z pomoc¹ Jaheiry uda³o mi siê odwieœæ druidów od gro¿enia Aldethowi Sashenstarowi. By³ bardzo wdziêczny i zaprosi³ mnie do odwiedzin w jego domu kupieckim we Wrotach Baldura.~
@@ -212,6 +204,7 @@ Z pomoc¹ Jaheiry uda³o mi siê odwieœæ druidów od gro¿enia Aldethowi Sashenstarow
 Z pomoc¹ Jaheiry uda³o mi siê odwieœæ druidów od gro¿enia Aldethowi Sashenstarowi. Nie wygl¹da³ na zbyt zadowolonego z takiego obrotu sprawy i odszed³ w poœpiechu.~
 // BGEE 26820
 @188 = ~Aldeth Sashenstar
+
 Zgodziliœmy siê pomóc szlachcicowi z Wrót Baldura o imieniu Aldeth Sashenstar w rozgromieniu bandy dzikusów.~
 // BGEE 27430
 @189 = ~Aldeth Sashenstar
@@ -226,5 +219,5 @@ Aldeth Sashenstar by³ niezwykle wdziêczny za roz³adowanie sytuacji z druidami i 
 // From @160
 @192 = ~Twój brak troski o nasze sprawy i twoja niechêæ do pomocy przyjacio³om mnie zaszokowa³a. Opuœæ ten las - straci³em cierpliwoœæ!~
 // From BGEE 1381 "Very well," 7926 "Before you go," 21033 "I must ask a favor of you."
-@193 = ~Dobrze, Jaheira. Przed wyjazdem muszê ciê prosiæ o przys³ugê.~
+@193 = ~Dobrze, Jaheiro. Przed waszym odejœciem, muszê ciê prosiæ o przys³ugê.~
 @999  = ~Cienie Kniei Otulisko~

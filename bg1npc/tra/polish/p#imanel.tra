@@ -1,10 +1,5 @@
 @0    = ~Hej¿e, podró¿ni. Ten zakapturzony elf pasuje do opisu. Czy ty jesteœ Kivan z Shilmisty?~
-@1    = ~Œnie¿ka, do nogi! R¹czyszpon, ZACHOWUJ siê!
-Straszny, zostaw go w spokoju!
-Kociak, noga, dobra dziewczynka... Kie³, przestañ œliniæ zbrojê tego dobrego Pana. To nie on jest wasz¹ kolacj¹.~ ~Œnie¿ka, do nogi! R¹czyszpon, ZACHOWUJ siê!
-Straszny, zostaw j¹ w spokoju!
-Kociak, noga, dobra dziewczynka... Kie³, przestañ œliniæ zbrojê tej dobrej Pani. 
-To nie ona jest wasz¹ kolacj¹.~
+@1    = ~Œnie¿ka, do nogi! R¹czyszpon, ZACHOWUJ siê! Straszny, zostaw go w spokoju! Kociak, noga, dobra dziewczynka... Kie³, przestañ œliniæ zbrojê tego dobrego pana. To nie on jest wasz¹ kolacj¹.~ ~Œnie¿ka, do nogi! R¹czyszpon, ZACHOWUJ siê! Straszny, zostaw j¹ w spokoju! Kociak, noga, dobra dziewczynka... Kie³, przestañ œliniæ zbrojê tej dobrej pani. To nie ona jest wasz¹ kolacj¹.~
 @2    = ~Wiêc wygl¹da na to, ¿e potrafisz zabiæ. Bardzo dobrze.~
 @3    = ~Do³¹czysz do mnie, Imanel?~
 @4    = ~Dostanê nagrodê?~
@@ -27,9 +22,7 @@ To nie ona jest wasz¹ kolacj¹.~
 @21   = ~Doskonale. Usadowiê siê wygodnie, a ty zaczynaj rzeŸ.~
 @22   = ~Moje wilki s¹ mi towarzyszami. Jednak czasami przydaje mi siê ktoœ chodz¹cy na dwóch nogach i w³adaj¹cy Wspólnym. Oczywiœcie, nie zaakceptujê u siebie na s³u¿bie nikogo obcego, wiêc oczekujê, ¿e poddasz siê ma³emu testowi. Zabij ³owcê, chcê zobaczyæ ciê w akcji.~
 @23   = ~Pani, zwolnij. JA nie chcê s³u¿yæ TOBIE. To TY mo¿esz siê do MNIE do³¹czyæ, jeœli chcesz.~
-@24   = ~Œnie¿ka, do ataku! R¹czyszponie, NAPRZÓD!
-Straszny, braæ ich! Kociak, b¹dŸ dobr¹ dziewczynk¹ i zabij! Kie³, przestañ œliniæ zbrojê tego dobrego pana i rozerwij mu gard³o, natychmiast!~ ~Œnie¿ka, do ataku! R¹czyszponie, NAPRZÓD!
-Straszny, braæ ich! Kociak, b¹dŸ dobr¹ dziewczynk¹ i zabij! Kie³, przestañ œliniæ zbrojê tej dobrej pani i rozerwij jej gard³o, natychmiast!~
+@24   = ~Œnie¿ka, do ataku! R¹czyszponie, NAPRZÓD! Straszny, braæ ich! Kociak, b¹dŸ dobr¹ dziewczynk¹ i zabij! Kie³, przestañ œliniæ zbrojê tego dobrego pana i rozerwij mu gard³o, natychmiast!~ ~Œnie¿ka, do ataku! R¹czyszponie, NAPRZÓD! Straszny, braæ ich! Kociak, b¹dŸ dobr¹ dziewczynk¹ i zabij! Kie³, przestañ œliniæ zbrojê tej dobrej pani i rozerwij jej gard³o, natychmiast!~
 @25   = ~<CHARNAME>, goth en gothamin ar' mellon en mellonamin - wróg mego wroga i przyjaciel mego przyjaciela - na pierwsze m³ode drzewo wyros³e tam, gdzie Shilmista stoi, i ostatni cieñ, jakie rzuci nim spotka swój kres, przysiêgam oddaæ m¹ krew za ciebie.~
 @26   = ~Wygl¹da na to, ¿e w tej bitwie jesteœmy sojusznikami, <CHARNAME>, nawet jeœli niechêtnie.~
 @27   = ~Nic nie boli bardziej ni¿ zdrada. Mia³eœ moj¹ przyjaŸñ, a teraz chcesz moj¹ g³owê? ChodŸ; spróbuj j¹ zdj¹æ z mych ramion.~ ~Nic nie boli bardziej ni¿ zdrada. Mia³aœ moj¹ przyjaŸñ, a teraz chcesz moj¹ g³owê? ChodŸ; spróbuj j¹ zdj¹æ z mych ramion.~

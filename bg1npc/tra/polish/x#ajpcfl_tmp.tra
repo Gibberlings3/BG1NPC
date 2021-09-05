@@ -12,7 +12,7 @@
 @11   = ~Ajantisie, czy to brud na twej zbroi?~
 @12   = ~Sama nie wiem... Wszystko mnie boli, nie przywyk³am do podró¿owania z ciê¿kim ekwipunkiem, co siê dzieje, odk¹d opuœci³am Candlekeep.~
 @13   = ~(£apiesz ramiê Ajantisa udaj¹c przera¿enie.) Dla kogoœ wychowanego w spokojnej bibliotece, to otoczenie jest raczej... przera¿aj¹ce.~
-@14   = ~(Udajesz, ¿e poprawiasz w³osy, w rzeczywistoœci nic nie zmieniaj¹c.) Ajantisie, potrzebujê twej opinii. W którym uczesaniu mi bardziej do twarzy: tym czy poprzednim?...~
+@14   = ~(Udajesz, ¿e poprawiasz w³osy, w rzeczywistoœci nic nie zmieniaj¹c.) Ajantisie, potrzebujê twej opinii. W którym uczesaniu mi bardziej do twarzy: tym czy poprzednim...?~
 @15   = ~(Czekasz na odpowiedni¹ sytuacjê i upuszczasz ma³y przedmiot na ziemiê, w zasiêgu wzroku Ajantisa, udaj¹c, ¿e tego nie zauwa¿y³aœ.)~
 @16   = ~Ajantisie, wola³abym, abyœ zachowa³ swe myœli dla siebie. Jestem œwiadoma, ¿e przez to nie zbli¿ymy siê bardziej do siebie.~
 @17   = ~Nic, Ajantisie, przepraszam, ¿e ciê zdekoncentrowa³am.~
@@ -35,11 +35,11 @@
 @34   = ~(kaszle)~
 @35   = ~Ajantis~
 @36   = ~[AJANTIS 01] Hola, jesteœcie przyjació³mi czy wrogami?~ [%tutu_var%AJANT01]
-@37   = ~[AJANTIS 02] Co za tchórzostwo!  Wracaj, gdzie ciê potrzebuj¹.~ [%tutu_var%AJANT02]
+@37   = ~[AJANTIS 02] Co za tchórzostwo! Wracaj, gdzie ciê potrzebuj¹.~ [%tutu_var%AJANT02]
 @38   = ~[AJANTIS 04] Pod¹¿amy œcie¿k¹ prawoœci, œcie¿k¹ Helma.~ [%tutu_var%AJANT04]
 @39   = ~[AJANTIS 05] To co teraz robimy przekracza wszelkie granice przyzwoitoœci.~ [%tutu_var%AJANT05]
 @40   = ~[AJANTIS 06] Nie bêdê sta³ bezczynnie, gdy moi towarzysze pope³niaj¹ nieprawe czyny.~ [%tutu_var%AJANT06]
-@41   = ~[AJANTIS 07] Koniec z wasz¹ pod³oœci¹.  Siêgajcie po stal i raz na zawsze rozstrzygnijmy ten spór.~ [%tutu_var%AJANT07]
+@41   = ~[AJANTIS 07] Koniec z wasz¹ pod³oœci¹. Siêgajcie po stal i raz na zawsze rozstrzygnijmy ten spór.~ [%tutu_var%AJANT07]
 @42   = ~[AJANTIS 08] Odpowiedzialnoœæ, jak¹ mnie obarczyliœcie, jest dla mnie zaszczytem.~ [%tutu_var%AJANT08]
 @43   = ~[AJANTIS 09] Zmêczy³em siê.~ [%tutu_var%AJANT09]
 @44   = ~[AJANTIS 10] Walczymy z wielkim z³em i nie mamy czasu na g³upstwa.~ [%tutu_var%AJANT10]
@@ -62,7 +62,7 @@
 @61   = ~[AJANTIS 28] Nie ma nic poza dobrem i z³em. I podejrzewam, ¿e ty opowiadasz siê za tym ostatnim.~ [%tutu_var%AJANT28]
 @62   = ~[AJANTIS 29] Z³o musi byæ wytrzebione wszêdzie, gdzie siê na nie natkniemy – nawet wœród towarzyszy broni.~ [%tutu_var%AJANT29]
 @63   = ~[AJANTIS 30] Nieznoœny jest smród z³a, jakie do ciebie przylgnê³o.~ [%tutu_var%AJANT30]
-@64   = ~[AJANTIS 31] Ju¿ d³u¿ej tego nie zniosê.  Wyci¹gaj broñ i stawaj.~ [%tutu_var%AJANT31]
+@64   = ~[AJANTIS 31] Ju¿ d³u¿ej tego nie zniosê. Wyci¹gaj broñ i stawaj.~ [%tutu_var%AJANT31]
 @65   = ~[AJANTIS 37] Myœlê, ¿e by³oby m¹drze z twej strony nieco poprawiæ swe zachowanie póki jesteœ wœród nas.~ [%tutu_var%AJANT37]
 @66   = ~[AJANTIS 36] Jesteœ cz³owiekiem honoru. Szanujê tw¹ godnoœæ.~ [%tutu_var%AJANT36]
 @67   = ~[AJANTIS 35] Panno, jesteœ najpiêkniejsz¹ z dam.~ [%tutu_var%AJANT35]
@@ -153,7 +153,7 @@
 @152  = ~Proszê, móg³byœ je rozmasowaæ, Ajantisie?~
 @153  = ~Tak, mo¿e masz racjê.~
 @154  = ~(Ajantis ostro¿nie zdejmuje twe buty i zaczyna masowaæ stopy.) To niesamowite, ¿e tak waleczna i ¿wawa osoba mo¿e poruszaæ siê na tak drobnych stopach... Eee... (kaszle) Nie chcia³em powiedzieæ, ¿e masz ZBYT ma³e stopy, moja panno, po prostu s¹ pe³ne wdziêku... chyba powinienem zamilkn¹æ.~
-@155  = ~(Ajantis ostro¿nie zdejmuje twe buty i zaczyna masowaæ stopy.)  Pozwól mi zamilkn¹æ, moja panno. Proszê, spróbuj poœwiêciæ tê chwilê na odprê¿enie.~
+@155  = ~(Ajantis ostro¿nie zdejmuje twe buty i zaczyna masowaæ stopy.) Pozwól mi zamilkn¹æ, moja panno. Proszê, spróbuj poœwiêciæ tê chwilê na odprê¿enie.~
 @156  = ~(Ajantis ostro¿nie zdejmuje twe buty i zaczyna masowaæ stopy.) Jako giermek potrzebowa³em wiele czasu by przywykn¹æ do tych ci¹g³ych marszy, moja panno. Po pewnym czasie sama siê przyzwyczaisz i nauczysz siê sztuczek, jak z³agodziæ ból podczas odpoczynków.~
 @157  = ~Pewien jestem, ¿e twój pe³en gracji kark jest ca³y napiêty od maszerowania z tym ciê¿kim ekwipunkiem... *ahem* Jeœli chcesz, abym... z³agodzi³ napiêcie, móg³bym zrobiæ ci masa¿, moja panno.~
 @158  = ~By³oby wspaniale, Ajantisie. Niech tylko zdejmê plecak...~

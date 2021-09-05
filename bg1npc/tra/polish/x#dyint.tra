@@ -64,12 +64,12 @@
 @63   = ~Nie lekcewa¿ jego s³ów, <CHARNAME>. Wyczuwam w nim moc; zaiste, jest potê¿nym czarodziejem.~
 @64   = ~To nie ogr wydaje mi siê przera¿aj¹cy; to upór tych, którzy go wys³ali.~
 @65   = ~Zaiste, to musi byæ ponura historia, skoro kobieta za¿¹da³a zap³aty. Opowieœci o niegodziwoœciach nie brakuje w tej krainie, opowiada siê je za darmo ka¿demu, kto zechce s³uchaæ.~
-@66   = ~Jestem zasmucona, gdy¿ podejrzewam ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³ mnie ocaliæ.~ ~Jestem zasmucona, gdy¿ podejrzewam ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³a mnie ocaliæ.~
+@66   = ~Jestem zasmucona, gdy¿ podejrzewam, ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³ mnie ocaliæ.~ ~Jestem zasmucona, gdy¿ podejrzewam, ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³a mnie ocaliæ.~
 @67   = ~To smutna lekcja, któr¹ ka¿dy m³ody poszukiwacz przygód ostatecznie poznaje. Odwaga nie czyni nikogo niezwyciê¿onym.~
 @68   = ~Czy teraz og³aszasz siê otwarcie wrogiem ¯elaznego Tronu? Có¿, nie wszystko mo¿na trzymaæ w ukryciu, jak przypuszczam, wiêc byæ mo¿e to najlepsze rozwi¹zanie.~
 @69   = ~Obra¿anie tego rycerza by³o z³ym uczynkiem, <CHARNAME>.~
 @70   = ~Ten rycerz wygl¹da na godnego zaufania. Och, przywodzi mi na myœl mojego wiernego Minska. Bêdzie cennym uzupe³nieniem tej dru¿yny.~
-@71   = ~Zaczynam zastanawiam siê w CZYJ¥ poczytalnoœæ powinnam w¹tpiæ. (Spojrzenie, które Ci rzuca mówi wiele o udrêce kobiety uwa¿aj¹cej siê za inteligentn¹, której zaprzysiê¿ony obroñca prowadzi regularne pogawêdki z gigantycznym kosmicznym chomikiem, kobiety przekonanej, ¿e w³aœnie by³a œwiadkiem, jak jej dowódca prosi xvarta, kobolda i tasloi o autograf.)~
+@71   = ~Zaczynam zastanawiam siê w CZYJ¥ poczytalnoœæ powinnam w¹tpiæ. (Spojrzenie, które ci rzuca mówi wiele o udrêce kobiety uwa¿aj¹cej siê za inteligentn¹, której zaprzysiê¿ony obroñca prowadzi regularne pogawêdki z gigantycznym kosmicznym chomikiem, kobiety przekonanej, ¿e w³aœnie by³a œwiadkiem, jak jej dowódca prosi xvarta, kobolda i tasloi o autograf.)~
 @72   = ~Dziêkujê wam za podarunek, astrologu, jak i za ostrze¿enie przed bitw¹, która nadejdzie.~
 @73   = ~To nie jest sprawiedliwa kara. Zaklêcia tego typu to nie zabawki, którymi mo¿na miotaæ dooko³a niczym wpadaj¹ce we wœciek³oœæ dziecko. Nalegam, abyœ uwolni³ tych nêdzników, <CHARNAME>.~ ~To nie jest sprawiedliwa kara. Zaklêcia tego typu to nie zabawki, którymi mo¿na miotaæ dooko³a niczym wpadaj¹ce we wœciek³oœæ dziecko. Nalegam, abyœ uwolni³a tych nêdzników, <CHARNAME>.~
 @74   = ~<CHARNAME>, doprawdy powinieneœ rozwa¿yæ, ¿e nie przystoi ci, byœ postêpowa³ jak pospolity ³otr. Nie lubiê u¿ywaæ mojej sztuki do uœmiercania uczciwych ludzi.~ ~<CHARNAME>, doprawdy powinnaœ rozwa¿yæ, ¿e nie przystoi ci, byœ postêpowa³a jak pospolita ³otrzyca. Nie lubiê u¿ywaæ mojej sztuki do uœmiercania uczciwych ludzi.~
@@ -95,7 +95,7 @@
 @94   = ~Mogê odegraæ rolê wiêŸniarki tego m³odzieniaszka o przeroœcie ambicji przez kilka minut, jeœli ma to nam oszczêdziæ potyczki. Ale NIE ODDAM SIÊ jego kamratom!~
 @95   = ~A pomyœla³eœ mo¿e jakim marnotrawstwem jest transport wiêŸnia z powrotem do Thay?~
 @96   = ~Ee... przewidzia³em to, rzecz jasna. Przes³ucha³em wiedŸmê... z najwiêkszym okrucieñstwem, i dowiedzia³em siê od niej wszystkiego, czego by³o mo¿na. Przywlok³em tu nêdznicê tylko po to, by... zapytaæ czy... czy rozkazy Nevrona dotycz¹ce jej nie uleg³y zmianie, oraz po to, by najznamienitsi z moich dowódców mogli wzi¹æ udzia³ w straceniu wiedŸmy i jej wspólników. (No, oto odpowiedŸ prawdziwego geniusza!)~
-@97   = ~Chwileczkê! Edwinie... nie jestem-~
+@97   = ~Chwileczkê! Edwinie... nie jestem...~
 @98   = ~Racja. Wiedzia³em, ¿e to zbyt piêkne, by mog³o byæ prawdziwe. Zdaje siê, ¿e bêdziemy zmuszeni zabiæ tych czarodziejów. Pytanie, czy jesteœ z nami, czy przeciwko nam, Edwinie.~ ~Racja. Wiedzia³am, ¿e to zbyt piêkne, by mog³o byæ prawdziwe. Zdaje siê, ¿e bêdziemy zmuszeni zabiæ tych czarodziejów. Pytanie, czy jesteœ z nami, czy przeciwko nam, Edwinie.~
 @99   = ~£¿e w ¿ywe oczy! Przyznajê, nie zgodzi³em siê jej zabiæ, co sugerowa³ Edwin. Prawd¹ jest te¿ to, ¿e uratowa³em j¹ i teraz jest moj¹ towarzyszk¹ podró¿y. Niemniej jednak, nic mi nie wiadomo o waœni miêdzy wami.~ ~£¿e w ¿ywe oczy! Przyznajê, nie zgodzi³am siê jej zabiæ, co sugerowa³ Edwin. Prawd¹ jest te¿ to, ¿e uratowa³am j¹ i teraz jest moj¹ towarzyszk¹ podró¿y. Niemniej jednak, nic mi nie wiadomo o waœni miêdzy wami.~
 @100  = ~Oj, Edwinie... dowcipniœ z ciebie! Wiesz, ¿e przyby³em tutaj upewniæ siê, ¿e wiedŸma zosta³a zabita w sposób, który przyniesie Thay jak najwiêksz¹ chwa³ê. Czy¿ nie tak?~ ~Oj, Edwinie... dowcipniœ z ciebie! Wiesz, ¿e przyby³am tutaj upewniæ siê, ¿e wiedŸma zosta³a zabita w sposób, który przyniesie Thay jak najwiêksz¹ chwa³ê. Czy¿ nie tak?~
@@ -130,5 +130,5 @@
 @1004 = ~Hm, niewykluczone, ale uczyni³eœ dobrze zwracaj¹ je prawowitemu w³aœcicielowi.~
 @1005 = ~Co siê sta³o, to siê nie odstanie. OdejdŸ!~
 @1006 = ~Dwa razy R... proszê bardzo!~
-@1007 = ~Nie ma o czym mówiæ. To s³u¿y mi tak samo dobrze ,jak tobie.~
+@1007 = ~Nie ma o czym mówiæ. To s³u¿y mi tak samo dobrze, jak tobie.~
 @1008 = ~Trzeba by³o pomyœleæ o tym wczeœniej!~

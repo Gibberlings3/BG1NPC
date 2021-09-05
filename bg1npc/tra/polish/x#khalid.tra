@@ -36,7 +36,7 @@
 @35   = ~Wiesz, Aloro, naprawdê p-powinnaœ za³o¿yæ c-coœ jeszcze n-na siebie. M-mo¿esz siê n-n-naprawdê m-mocno przeziêbiæ, jak bêdziesz chodziæ t-tak lekko ubrana.~
 @36   = ~Hej, przecie¿ tutaj jest zawsze lato, wujku Khalidzie. A mo¿e tego jeszcze nie zauwa¿y³eœ?~
 @37   = ~Wujku K-khalidzie?~
-@38   = ~He he, wygl¹dasz po prostu ,jakbyœ by³ czyimœ wujkiem. Dlaczego by nie moim?~
+@38   = ~He he, wygl¹dasz po prostu, jakbyœ by³ czyimœ wujkiem. Dlaczego by nie moim?~
 @39   = ~Eee... d-dobrze. Hmm... có¿, wracajmy do n-naszych zajêæ...~
 @40   = ~Pewnie, ale weŸ no, wujku Khalidzie, uœmiechnij siê czasami. Po co byæ takim posêpnym w tak ³adny dzionek?~
 @41   = ~¯eby t-to by³o takie p-proste... Mam n-nadziejê, ¿e n-nigdy t-tego nie zrozumiesz.~
@@ -119,9 +119,7 @@
 @118  = ~A skoro mnie tam nie ma, to mogê ciê uratowaæ. Tak jak zrobiliœmy ostatnio, Gorion i ja.~
 @119  = ~Wystarczy mi tylko wiedzieæ, ¿e jesteœ b-bezpieczna, Jaheiro.~
 @120  = ~Mo¿e nie jesteœ wystarczaj¹cy silny by wracaæ do przygód, mój drogi? Te twoje sny naprawdê mnie martwi¹.~
-@121  = ~M-moja droga, uroczyœcie przyrzek³em Gorionowi, ¿e <CHARNAME> 
-bêdzie przy mnie bezpieczny. I d-dotrzymam s³owa.~ ~M-moja droga, uroczyœcie przyrzek³em Gorionowi, ¿e <CHARNAME> 
-bêdzie przy mnie bezpieczna. I d-dotrzymam s³owa.~
+@121  = ~M-moja droga, uroczyœcie przyrzek³em Gorionowi, ¿e <CHARNAME> bêdzie przy mnie bezpieczny. I d-dotrzymam s³owa.~ ~M-moja droga, uroczyœcie przyrzek³em Gorionowi, ¿e <CHARNAME> bêdzie przy mnie bezpieczna. I d-dotrzymam s³owa.~
 @122  = ~C-Coran chcia³ wiedzieæ, czy m-moja nieœmia³oœæ jest atrakcyjna dla dziewczyn, czy te¿ nie. (œmieje siê) P-powiedzia³em mu, ¿e nie mam p-pojêcia. P-pomyœla³em wiêc, ¿e spytam kogoœ, kto powinien wiedzieæ. Czy myœlisz, ¿e... m-moja nieœmia³oœæ jest atrakcyjna?~
 @123  = ~Och, tak, jesteœ naprawdê nieœmia³y. To co pokaza³eœ tej nocy, to dobitne "tryœniêcie" nieœmia³oœci¹, zupe³nie to potwierdza. Rzek³abym, ¿e taki rodzaj nieœmia³oœci jest dla mnie nadzwyczaj atrakcyjny.~
 @124  = ~Dziêkujê ci, m-moja droga. (ca³uje)~
@@ -134,7 +132,7 @@ bêdzie przy mnie bezpieczna. I d-dotrzymam s³owa.~
 Kocham dziewczynê, jak wiosna m³od¹
 Jej oczy siê mieni¹ jak kwiatki zielono.~
 @131  = ~Jej w³osy faluj¹ jak pszenice z³ote
-       Jej usta jak wino czerwone i s³odkie.~
+Jej usta jak wino czerwone i s³odkie.~
 @132  = ~Zielone oczy...~
 @133  = ~Kivan, c-coœ nie tak? Kivan?~
 @134  = ~Deheriana mia³a zielone oczy. Oio naa eleahe alasse'... Gdybym móg³ j¹ jeszcze zobaczyæ. Wci¹¿ widzê jej uœmiech, jej oczy o kolorze wiosny.~
@@ -168,7 +166,7 @@ Jej oczy siê mieni¹ jak kwiatki zielono.~
 @162  = ~Zwolni³em tylko, by n-nacieszyæ wzrok widokiem. Nie musisz od razu mnie za to tr¹caæ.~
 @163  = ~Nie, nie MUSZÊ, to zaledwie namiastka przyjemnoœci, skoro przez moj¹ przysiêgê nie mogê ciê zabiæ.~
 @164  = ~T-twoja tarcza jest wystarczaj¹co wielka, nie m-musisz kryæ siê dodatkowo za przysiêg¹.~
-@165  = ~Ha! Ha! Ale najwyraŸniej ty musisz. W ka¿dym razie ty co chwilê  chowasz siê za CZYMŒ.~
+@165  = ~Ha! Ha! Ale najwyraŸniej ty musisz. W ka¿dym razie ty co chwilê chowasz siê za CZYMŒ.~
 @166  = ~Na Œwiat³o i Drogê...~
 @167  = ~Khalidzie! NIE! To nie czas i miejsce!~
 @168  = ~Pos³uchaj swej bardziej zawziêtej po³owy, ma³y robaku. Jej m¹droœæ to jedyne co dzieli ciê od okropnej œmierci.~

@@ -1,6 +1,6 @@
 @0    = ~(trzymaj¹c ³eb martwej wiwerny w wyci¹gniêtej rêce)
-      Biada ci, wiwerno. Zakoñczy³ siê twój wdziêk.
-      Skoñczy³ siê wiwerni ¿ywot... rozpocz¹³ monet brzdêk.
+Biada ci, wiwerno. Zakoñczy³ siê twój wdziêk.
+Skoñczy³ siê wiwerni ¿ywot... rozpocz¹³ monet brzdêk.
 Czy¿ ona nie jest piêkna?~
 @1    = ~Czekaj, czekaj, Coranie, nawet nie wiemy, czy to samica.~
 @2    = ~Coran, przestañ! Nie lubiê, gdy kpi siê ze œwiêtoœci!~
@@ -55,7 +55,7 @@ Czy¿ ona nie jest piêkna?~
 @51   = ~To musia³by byæ doprawdy g³odny nizio³ek, <CHARNAME>. Raczej wydaje mi siê, ¿e otworzy³by w tym miejscu maj¹ tawernê "Elf i Ork", i przechwala³by siê nieustannie, ¿e sprzedaje najlepsze piwo na Torilu. I by³aby to prawda, oczywiœcie, gdy¿ mówimy tu o ostatnim browarze na œwiecie.~
 @52   = ~A co z ludŸmi i gnomami?~
 @53   = ~Wiesz, ¿e jesteœ pe³en uprzedzeñ?~
-@54   = ~Nizio³ek otworzy³by w tym miejscu maj¹ tawernê "Elf i Ork", i przechwala³by siê nieustannie ¿e sprzedaje najlepsze piwo na Torilu. I by³aby to prawda, oczywiœcie, gdy¿ mówimy tu o ostatnim browarze na œwiecie. Cz³owiek zaduma³by siê nad szcz¹tkami elfa, myœl¹c ze smutkiem, ¿e nigdy nie bêdzie mu dane umrzeæ w tak mistyczny sposób, ale g³oœno powiedzia³by, ¿e tego aroganckiego drania spotka³o to, na co zas³u¿y³. Przysiêgam na z³ote serce Hanali Celanil, ¿e nie mam pojêcia, jak zachowa³by siê gnom. Zapytaj gnoma...~
+@54   = ~Nizio³ek otworzy³by w tym miejscu maj¹ tawernê "Elf i Ork", i przechwala³by siê nieustannie, ¿e sprzedaje najlepsze piwo na Torilu. I by³aby to prawda, oczywiœcie, gdy¿ mówimy tu o ostatnim browarze na œwiecie. Cz³owiek zaduma³by siê nad szcz¹tkami elfa, myœl¹c ze smutkiem, ¿e nigdy nie bêdzie mu dane umrzeæ w tak mistyczny sposób, ale g³oœno powiedzia³by, ¿e tego aroganckiego drania spotka³o to, na co zas³u¿y³. Przysiêgam na z³ote serce Hanali Celanil, ¿e nie mam pojêcia, jak zachowa³by siê gnom. Zapytaj gnoma...~
 @55   = ~Taa, fajna historia!~
 @56   = ~Cz³owiek zaduma³by siê nad szcz¹tkami elfa, myœl¹c ze smutkiem, ¿e nigdy nie bêdzie mu dane umrzeæ w tak mistyczny sposób, ale g³oœno powiedzia³by, ¿e tego aroganckiego drania spotka³o to, na co zas³u¿y³. Przysiêgam na z³ote serce Hanali Celanil, ¿e nie mam pojêcia, jak zachowa³by siê gnom. Zapytaj gnoma...~
 @57   = ~A kto nie jest? Spokojnie, <CHARNAME>, dopuszczam mo¿liwoœæ ¿e, ork jest szlachetnym wyj¹tkiem wœród przedstawicieli swej rasy a elf mo¿e zabiæ drzewo z jakiœ mrocznych pobudek, potrafiê sobie nawet wyobraziæ hojnego krasnoluda, nizio³ka ¿¹dnego przygód, i cz³owieka, nie po¿¹daj¹cego cudzej w³asnoœci...~
@@ -77,7 +77,7 @@ Czy¿ ona nie jest piêkna?~
 @73   = ~(œmiejesz siê) Ach, Coranie, wiedzia³am, ¿e nie uda mi siê ciebie oszukaæ. Jestem takim samym w³óczêg¹ jak ty. Mo¿e to dlatego tak ciê lubiê...~
 @74   = ~Nie, nie mo¿emy pozwoliæ, by zrównowa¿eni przeciêtniacy dali siê zabiæ. Chyba ¿e zechc¹, abyœmy osiedli wœród nich na sta³e. ChodŸmy, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, wszystkie dziewki zamieni¹ siê w stare ¿ony, a wszelkie wino zwietrzeje!~
 @75   = ~Byæ mo¿e. Ale nie lubiê œmiaæ siê z ¿a³osnych i s³abych. Wolê œmiaæ siê z wolnych, silnych ludzi, i z nimi. ChodŸmy, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, wszystkie dziewki zamieni¹ siê w stare ¿ony, a wszelkie wino zwietrzeje!~
-@76   = ~Oczywiœcie, mój Panie, oczywiœcie... i to dobra rzecz. Œwiat nie by³by taki sam zarówno bez rolników, jak i poszukiwaczy przygód. ChodŸmy szukaæ przygody, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, wszystkie dziewki zamieni¹ siê w stare ¿ony, a wszelkie wino zwietrzeje!~ ~Oczywiœcie, moja Pani, oczywiœcie... i to dobra rzecz. Œwiat nie by³by taki sam zarówno bez rolników, jak i poszukiwaczy przygód. ChodŸmy szukaæ przygody, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, wszystkie dziewki zamieni¹ siê w stare ¿ony, a wszelkie wino zwietrzeje!~
+@76   = ~Oczywiœcie, mój panie, oczywiœcie... i to dobra rzecz. Œwiat nie by³by taki sam zarówno bez rolników, jak i poszukiwaczy przygód. ChodŸmy szukaæ przygody, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, wszystkie dziewki zamieni¹ siê w stare ¿ony, a wszelkie wino zwietrzeje!~ ~Oczywiœcie, moja pani, oczywiœcie... i to dobra rzecz. Œwiat nie by³by taki sam zarówno bez rolników, jak i poszukiwaczy przygód. ChodŸmy szukaæ przygody, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, wszystkie dziewki zamieni¹ siê w stare ¿ony, a wszelkie wino zwietrzeje!~
 @77   = ~Có¿, nigdy z tob¹ siê flirtowa³em! Na powa¿nie. Jeszcze nie. Mogê spróbowaæ, jeœli chcesz zobaczyæ ró¿nicê... och, przestañ siê sro¿yæ, tylko ¿artowa³em!~
 @78   = ~Ma piêkna pani w³aœnie sprawi³a, ¿e s³oñce jaœniej œwieci! Powinienem walczyæ jak lew, skarbie, nosz¹c w pamiêci widok twych piêknych warg, jak rycerz rozpamiêtywuje wzglêdy swej damy. ChodŸmy szukaæ przygody, nim ponurzy paladyni wyr¿n¹ wszystkie smoki, a wszelkie wino zwietrzeje!~
 @79   = ~Cieszê siê, ¿e mogê byæ w twojej dru¿ynie, zdajesz siê przyci¹gaæ przygody. Wiwerny to nic! Zaczynam mieæ nadziejê, ¿e pewnego dnia spotkamy smoka. U mnie w domu ka¿dy uwa¿a siê za potomka Tethira Pogromcy Smoków, wiêc mo¿e to we mnie p³ynie jego krew.~
@@ -189,7 +189,7 @@ I nie wiem dlaczego tak siê dzieje
 @161  = ~"Prawo ponad wszystkim".~
 @162  = ~Hmm... jakie prawo?~
 @163  = ~Prawo mego kraju.~
-@164  = ~Powiedz mi, Ajantisie, gdy przekraczasz granice miêdzy krajami, czy twoje spostrzeganie dobra i z³a zmienia siê? Co gdy jesteœ w mieœcie drowów? S³ysza³em, ¿e oni maj¹ tylko jedno prawo: "Nie daj siê z³apaæ!"~
+@164  = ~Powiedz mi, Ajantisie, gdy przekraczasz granice miêdzy krajami, czy twoje spostrzeganie dobra i z³a zmienia siê? Co gdy jesteœ w mieœcie drowów? S³ysza³em, ¿e oni maj¹ tylko jedno prawo: "Nie daj siê z³apaæ!".~
 @165  = ~Ludzie nie mog¹ byæ tak œlepi i nie dostrzegaæ, ¿e prawa Waterdeep s¹ sprawiedliwe i praworz¹dne i w ogóle najlepsze. S³u¿ê im i oczekujê, ¿e inni te¿ bêd¹ je respektowali. Je¿eli nie - biada im!~
 @166  = ~To doœæ ostre stanowisko, Ajantisie. Czy do momentu, w którym ca³y Faerun... hmm... nie przyjmie tych praw... z twoj¹ niew¹tpliw¹ pomoc¹... nie zechcesz rozwa¿yæ, ¿e prawa mog¹ siê ró¿niæ, i ¿e to, co dla ciebie jest z³e, niekoniecznie jest nieprawe?~
 @167  = ~Nie mam zamiaru staæ tu bezczynnie i wys³uchiwaæ tego, co jakiœ z³odziej ma do powiedzenia na temat prawa. Ty, który nie masz w sobie krzty honoru, jak œmiesz pouczaæ tych, którzy s¹ lepsi od ciebie?~
@@ -318,7 +318,7 @@ A ty - ty ust mi odmawiasz!~
 @283  = ~Pewnie od mê¿ów, co?~
 @284  = ~W wiêkszoœci.~
 @285  = ~Imoen! To moja PRYWATNA korespondencja!~
-@286  = ~Och, ale czyta siê j¹ jak powieœæ! Tylko pos³uchaj: "Jaœnie Panie, kradn¹c wiernoœæ mej ¿ony, post¹pi³eœ ca³kowicie niehonorowo..."~
+@286  = ~Och, ale czyta siê j¹ jak powieœæ! Tylko pos³uchaj: "Jaœnie panie, kradn¹c wiernoœæ mej ¿ony, post¹pi³eœ ca³kowicie niehonorowo..."~
 @287  = ~Hmm... to chyba od jakiegoœ paladyna. Mam siê z nim pojedynkowaæ jakoœ w tym miesi¹cu, chyba ¿e siê mylê?~
 @288  = ~Och, tak, bez w¹tpienia! Oto kolejny! (czytaj¹c na g³os) "Elfie, je¿eli jeszcze raz moja niewinna córka us³yszy z twych ust te okropne pochlebstwa..."~
 @289  = ~Pewnie chcia³ napisaæ: "je¿eli jeszcze raz moja okropna córka us³yszy z twych ust te niewinne pochlebstwa..." (wzrusza ramionami) Je¿eli go to uszczêœliwi, nie mam zamiaru wiêcej spotykaæ siê z t¹ dziewk¹. Proponowa³a mi bardzo nikczemne rzeczy...~
@@ -375,9 +375,9 @@ A ty - ty ust mi odmawiasz!~
 @340  = ~Ja... ja muszê patrzeæ na ich twarze, czasami, by ani jednej z nich nie zapomnieæ.~
 @341  = ~Twarze bandytów, którzy ciê pojmali?~
 @342  = ~Tak. Te sny pochodz¹ od Shevarasha, jestem tego pewien.~
-@343  = ~Kivanie, nie wiem có¿ mam rzec. Brzydzê siê Shevarashem i jego potwornie ponurymi i zdeterminowanymi œcie¿kami, ale-~
+@343  = ~Kivanie, nie wiem có¿ mam rzec. Brzydzê siê Shevarashem i jego potwornie ponurymi i zdeterminowanymi œcie¿kami, ale...~
 @344  = ~Wiêc nic nie mów.~
-@345  = ~-ALE nie brzydzê siê tob¹. Na Dziewiêæ Piekie³! Jesteœ równie uparty jak twój Sheverash! Jesteœ nieznoœny! Absolutnie szalony! Na Hanali Celanil, zawsze po rozmowie z tob¹ mam ochotê w³asnorêcznie zabiæ tego Tazoka!~
+@345  = ~...ALE nie brzydzê siê tob¹. Na Dziewiêæ Piekie³! Jesteœ równie uparty jak twój Sheverash! Jesteœ nieznoœny! Absolutnie szalony! Na Hanali Celanil, zawsze po rozmowie z tob¹ mam ochotê w³asnorêcznie zabiæ tego Tazoka!~
 @346  = ~Kivanie, wygl¹dasz na zmartwionego. Có¿, twa twarz wygl¹da raczej jakby wyrzeŸbion¹ j¹ z marmuru, ni¿ z granitu.~
 @347  = ~Mój wróg jest blisko, Coranie. Czujê to, i robiê siê niespokojny. Martwi mnie to, co przed nami.~
 @348  = ~Boisz siê przegraæ tê bitwê?~

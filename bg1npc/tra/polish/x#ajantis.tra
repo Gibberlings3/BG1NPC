@@ -1,7 +1,7 @@
 @0    = ~Twe nikczemne wystêpki przynosz¹ hañbê tej dru¿ynie!~
 @1    = ~Dziêkujê, Ajantis. Masz wspania³y talent do powtarzania siê w kó³ko, nie daj¹c do zrozumienia niczego sensownego.~
 @2    = ~Wiêc pozwól, ¿e wyra¿ê siê jaœniej. Jesteœ poszukiwan¹ morderczyni¹, wyznawczyni¹ mrocznej bogini, i z³oœliw¹, egocentryczn¹, manipulanck¹ besti¹! Jesteœ obraz¹ dla wszystkich zasad moralnych, jakim ho³duje ta dru¿yna!~
-@3    = ~Nudzisz mnie, jaluk. Konwersacja jest daleko poza mo¿liwoœciami twego przeklêtego gatunku. Sugerowa³abym-~
+@3    = ~Nudzisz mnie, jaluk. Konwersacja jest daleko poza mo¿liwoœciami twego przeklêtego gatunku. Sugerowa³abym...~
 @4    = ~Nie rozumiem, dlaczego musimy chroniæ... ~
 @5    = ~Sugerowa³abym, abyœ raczej zaj¹³ siê pos³ug¹, co jest bardziej odpowiednie dla... ~
 @6    = ~...takiej morderczej ¿mii, jak ty!~
@@ -15,8 +15,8 @@
 @14   = ~Ja... nie mam wyjœcia. Wygl¹da na to, ¿e muszê opuœciæ twoj¹ dru¿ynê. Ale wiedz, ¿e bacznie bêdê wypatrywa³a zdrady. Niech lepiej ten paladyn dotrzyma s³owa, <CHARNAME>.~
 @15   = ~Feh! Jal khaless lueth jal rivven phuul waela.~
 @16   = ~<CHARNAME>, mia³em nadziejê, ¿e mnie zrozumiesz.~
-@17   = ~Jak tylko tkniesz mnie palcem, jaluk, to-~
-@18   = ~Jeden dzieñ, drowko, jeœli nie zmienisz swego nikczemnego zachowania, ujrzysz sprawiedliwoœæ Torma na ostrzu mego miecza.~
+@17   = ~Jak tylko tkniesz mnie palcem, jaluk, to...~
+@18   = ~Jeden dzieñ, drowko, jeœli nie zmienisz swego nikczemnego zachowania, ujrzysz sprawiedliwoœæ Helma na ostrzu mego miecza.~
 @19   = ~Muszê ciê ostrzec, ma³a damo, d³u¿ej nie bêdê tolerowa³ takiego zachowania! Powiadam: skoñcz ze z³odziejstwem póki jesteœ m³oda, a unikniesz bolesnej resocjalizacji.~
 @20   = ~Hê, co? Ale ja z tego ¿yjê. Tak... ja umrê... umrê, jeœli nie bêdê krad³a, Ajantisie!~
 @21   = ~Umrzesz? O czym ty mówisz? Muszê przyznaæ, ¿e nigdy nie s³ysza³em o czymœ podobnym. Z pewnoœci¹ ¿artujesz.~
@@ -87,12 +87,12 @@
 @86   = ~Naprawdê tak uwa¿asz?~
 @87   = ~Och tak, s³ysza³em wiele opowieœci o legendarnych pogromcach smoków, zabójcach bogów i s³awnych wojownikach. W tobie dostrzegam kogoœ, kto mo¿e zdeklasowaæ ich wszystkich.~
 @88   = ~Czy mogê... eee... opiewaæ twe czyny na szlaku?~
-@89   = ~A co z tob¹, mój zacny Sir Garricku? ¯adna opowieœæ o Jego Lordowskiej Moœci Pra³atowi Ajantisowi nie mo¿e byæ kompletna bez Sir Garricka, znanego poszukiwacza przygód, barda bogów i najznakomitszego w³adcy czarów!~
+@89   = ~A co z tob¹, mój zacny sir Garricku? ¯adna opowieœæ o Jego Lordowskiej Moœci Pra³atowi Ajantisowi nie mo¿e byæ kompletna bez sir Garricka, znanego poszukiwacza przygód, barda bogów i najznakomitszego w³adcy czarów!~
 @90   = ~O rety! Skoro dajesz mi swe b³ogos³awieñstwo, ju¿ siê za to zabieram! Gdzie siê podzia³o moje gêsie pióro?...~
 @91   = ~Moja panno, czy mogê rzec, ¿e twój styl ubierania przypomina mi ogród Zakonu w rozkwicie? Oczywiœcie migda³y i kwiaty œliwy nie maj¹ równie jaskrawej barwy jak twe... eee, szaty.~
 @92   = ~Oczywiœcie, ¿e lubiê ró¿! To najfajniejszy kolor na œwiecie. Gdyby to ode mnie zale¿a³o, ca³y œwiat by³by ró¿owy.~
-@93   = ~Tylko to sobie wyobraŸ, Ajantis: ró¿owe niebo, ró¿owe s³oñce, ró¿owa zieleñ miejska...eee, ró¿owata, ró¿owe domy, ró¿owe dzieci bawi¹ce siê na ró¿owych ulicach, i rycerze w ró¿owych zbrojach na ró¿owych rumakach.~
-@94   = ~£a³, to jak dodatkowa porcja wanilii w kremówce!~
+@93   = ~Tylko to sobie wyobraŸ, Ajantis: ró¿owe niebo, ró¿owe s³oñce, ró¿owa zieleñ miejska... eee, ró¿owata, ró¿owe domy, ró¿owe dzieci bawi¹ce siê na ró¿owych ulicach, i rycerze w ró¿owych zbrojach na ró¿owych rumakach.~
+@94   = ~O, to jak dodatkowa porcja wanilii w kremówce!~
 @95   = ~Ahem, moja panno, nie wiem jak rumak, ale rycerz musia³by byæ doprawdy pewny siebie, ¿eby za³o¿yæ ró¿owy napierœnik.~
 @96   = ~Ech, wydawa³o mi siê, ¿e wszyscy rycerze s¹ œmiali i czyœci, eee, i w ogóle... i zdecydowanie pewni siebie.~
 @97   = ~Te cnoty przewa¿nie s¹ uto¿samiane z kolorem bia³ym, Imoen.~
@@ -204,7 +204,7 @@
 @203  = ~Oczywiœcie, ¿e nie, g³upcze! Ale...~
 @204  = ~Co by³o do wykazania. Nie mam wiêcej pytañ.~
 @205  = ~Jeœli mogê powiedzieæ, zacny Yeslicku, twój wiek...~
-@206  = ~Co z nim? Hmph! Ja siê nie uskar¿am na twój m³ody wiek, no nie?~
+@206  = ~Co z nim? Hmpf! Ja siê nie uskar¿am na twój m³ody wiek, no nie?~
 @207  = ~Nie, i dziêkujê za tw¹ wyrozumia³oœæ. Mam tylko nadziejê, ¿e uda mi siê do¿yæ wieku... równie czcigodnego i honorowego, jak twój.~
 @208  = ~Co... by³oby dziwne, gdybyœ do¿y³ wieku równie sêdziwego, jak mój. Jesteœ pierwszym cz³owiekiem, jakiego widzia³em, któremu spieszno do staroœci!~
 @209  = ~Tak... byæ mo¿e. D¹¿ê do tego, ¿e twój wiek czyni ciê prawdziwym weteranem, i muszê powiedzieæ, ¿e szanujê to.~
