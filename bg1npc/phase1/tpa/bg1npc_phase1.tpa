@@ -46,7 +46,7 @@
 
   /* BGEE: Add Ajantis' shield to item_use.2da */
   ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2~
+  	APPEND ~item_use.2da~ ~x#ajshld AJANTIS 9382 2 6131~
   	  UNLESS ~x#ajshld~
   	COPY_EXISTING ~item_use.2da~ ~override~
 	  PRETTY_PRINT_2DA
