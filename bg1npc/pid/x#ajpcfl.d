@@ -1529,7 +1529,7 @@ END
 //###################################################################
 
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -1744,7 +1744,7 @@ END
 
 //-----------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -1976,7 +1976,7 @@ END
 
 //-----------------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 OR(5)
@@ -2182,7 +2182,7 @@ END
 
 //-----------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 OR(5)
@@ -2404,7 +2404,7 @@ END
 
 //-----------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -2626,7 +2626,7 @@ END
 
 //-----------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -2866,7 +2866,7 @@ END
 
 //-----------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 OR(5)
@@ -3081,7 +3081,7 @@ END
 
 //-----------------------------------------------
 /* engaged */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) !Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 OR(5)
@@ -3318,7 +3318,7 @@ END
 
 
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -3404,7 +3404,7 @@ END
 
 //-----------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -3508,7 +3508,7 @@ END
 
 //-----------------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 OR(5)
@@ -3585,7 +3585,7 @@ Global("Arrested","GLOBAL",1)~ + @9 + suggestions_31
 END
 //-----------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 OR(5)
@@ -3681,7 +3681,7 @@ END
 
 //-----------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -3776,7 +3776,7 @@ END
 
 //-----------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 !Alignment(Player2,MASK_EVIL)
@@ -3889,7 +3889,7 @@ END
 
 //-----------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 !TimeOfDay(Night)
 OR(5)
@@ -3975,7 +3975,7 @@ END
 
 //-----------------------------------------------
 /* Bhaal cycle */
-IF ~IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
+IF ~%BGT_VAR% IsGabber(Player1) Global("X#AjantisRomanceMatch","GLOBAL",1)
 Global("X#AjantisRomanceActive","GLOBAL",2) Global("X#AjantisRomanceThinking","GLOBAL",1) !Detect([ENEMY])
 TimeOfDay(Night)
 OR(5)
