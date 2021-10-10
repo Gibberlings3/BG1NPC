@@ -40,15 +40,16 @@
 @39  = ~Przysiêgam, ¿e nigdy ciê nie zrozumiem, Minsc.~
 @40  = ~To w porz¹dku, Minsc sam siebie nie rozumie.~
 @41  = ~Przemiana Melicampa
+
 Przynieœliœmy czaszkê Thalantyrowi, tak jak sobie tego ¿yczy³, a jego próby przywrócenia ¿ycia Melicampowi zakoñczy³y siê sukcesem. Cia³o m³odzieñca przetrwa³o szok kolejnej przemiany, a on sam chyba wyci¹gn¹³ wnioski z ostatniej pomy³ki. Thalantyr zwróci³ uwagê, ¿e nieszczêœcie by³o blisko i ¿e magiê nale¿y zawsze wykorzystywaæ z wielk¹ ostro¿noœci¹, bez wzglêdu na to, czy wygl¹da na bezpieczn¹, czy nie.~
 @42  = ~Boo! Zobacz, jaka piêkna wie¿a!~
-@43  = ~(pisk)~ [GAM_48]
-@44  = ~Prawda? <CHARNAME>, Boo mówi, ¿e musimy uwa¿aæ, poniewa¿ b³êkitnoskórne kobiety czekaj¹ na nas z zatrutymi strza³ami i czar... czaruj¹cymi g³osami... co znaczy "czaruj¹cy", Boo?~
-@45  = ~(pisk)~ [GAM_48]
+@43  = ~(Boo piszczy)~ [GAM_48]
+@44  = ~Prawda? <CHARNAME>, Boo mówi, ¿e musimy uwa¿aæ, poniewa¿ b³êkitnoskórne kobiety czekaj¹ na nas z zatrutymi strza³ami i czar... czaruj¹cymi g³osami... Co znaczy "czaruj¹cy", Boo?~
+@45  = ~(Boo piszczy)~ [GAM_48]
 @46  = ~Och, jasne! Dziêkujê, Boo.~
 @47  = ~Ten chomik ma wiêksze wziêcie ni¿ magiczne lustro mamusi. Hmmm... Zastanawiam siê, jakby smakowa³ z grzybami? (Znacznie lepiej ni¿ lustro, to pewne.)~
 @48  = ~Minsc widzi st¹d zamek, w którym gnolle trzymaj¹ Dynaheir! Wrogowie na moœcie, z drogi! Minsc i Boo nadchodz¹!~
-@49  = ~(pisk)~ [GAM_48]
+@49  = ~(Boo piszczy)~ [GAM_48]
 @50  = ~Ty myœleæ, ¿e ty wielki! Chcieæ walczyæ? My zdobyæ g³owy i z³oto!~
 @51  = ~Boo ostrzega przed pu³apkami! Tylko spójrzcie, jak gwa³townie drapie siê po brzuchu! Zawsze tak robi, gdy pu³apki s¹ w pobli¿u! Albo kiedy ma naprawdê paskudny œwierzb, ale jestem pewny, ¿e tym razem nie oto chodzi.~
 @52  = ~Uwa¿ajcie, przyjaciele! Boo mówi, ¿e nic nie jest takie, na jakie wygl¹da!~
@@ -71,12 +72,12 @@ WiedŸma Minska jest przetrzymywana w fortecy gnolli na zachodzie! Bardzo prawdop
 @67  = ~Po kiego sie drze¿? Nie mo¿e¿ mówidŸ normalnie? Og³uchne przez dziebie.~
 @68  = ~Wypuœciæ te przeklête gnolle by czyni³y z³o? A¿ krew Boo siê gotuje! Minsc czuje, ¿e nadchodzi sprawiedliwe kopanie ty³ków! E... i wiele innych zapachów... Tak Boo, to by³o bardzo G£UPIE ze strony bandytów, ¿eby zamykaæ na tak d³ugo ca³y klan gnolli w ma³ej jaskini.~
 @69  = ~Minsc nie rozumie. Dlaczego ci ludzie nienawidz¹ Jaheiry? To taka mi³a pani! Mo¿e jest nieco w³adcza i dra¿liwa... hm... w³aœciwie przypomina ona Minskowi Berthê Nie-wychodz¹c¹-za-m¹¿ stamt¹d, sk¹d pochodzi...~
-@70  = ~Co Boo? Nie, nie s¹dzê, ¿ebym chcia³, aby ona znów wytarga³a mnie za uszy...~
+@70  = ~Co mówisz, Boo? Nie, nie s¹dzê, ¿ebym chcia³, aby ona znów wytarga³a mnie za uszy...~
 @71  = ~WyobraŸ sobie, co by nam zrobi³a, gdyby wiedzia³a, ¿e to MY spiliœmy Khalida w "Weso³ym ¯onglerze"...~
 @72  = ~Ahem!~
 @73  = ~A wiêc to ty! B¹dŸ pewien, ¿e jeszcze do tego wrócimy... póŸniej.~
 @74  = ~Czasami myœlê, ¿e robisz to c-celowo, Minsc.~
-@75  = ~Wielka Matka nie dba o to, czy j¹ rozumiecie, czy nie, robaki. Idzie swoim w³asnym torem. I ja tak powinnam.~
+@75  = ~Wielka Matka nie dba o to, czy j¹ rozumiecie, czy nie, robaki. Idzie swoim w³asnym torem. I ja, jako jej s³uga, te¿ tak powinienem.~
 @76  = ~Zniewalasz biedne, niewinne, ma³e wiwerny?! Minsc powinien skopaæ ci ty³ek za ten czyn!~
 @77  = ~Niez³e buty... Hmm, zastanawiam siê, czy moje pieszczoszki zostawi¹ je, gdy ju¿ skoñcz¹ zjadaæ twoje cia³o.~
 @78  = ~Zniewalasz biedne, niewinne, ma³e wiwerny?! Minsc powinien skopaæ ci ty³ek za ten czyn!~
@@ -134,7 +135,7 @@ WiedŸma Minska jest przetrzymywana w fortecy gnolli na zachodzie! Bardzo prawdop
 @130 = ~Muszê przyznaæ, ¿e zgadzam siê z Minskiem, <CHARNAME>!~
 @131 = ~Biedny, bezbronny ch³opiec zgubi³ siê w lesie! Musimy go znaleŸæ, <CHARNAME>!~
 @132 = ~Biedny, ma³y cz³owiek. Jest tak szalony jak Minsc, zanim Boo go znalaz³. Byæ mo¿e powinniœmy mu daæ chomika? To na pewno go uspokoi...~
-@133 = ~Co jest, Boo?... Tak, szynszyla te¿ siê sprawdzi. Bêdzie pasowaæ do jego oczu.~
+@133 = ~Co jest, Boo? Tak, szynszyla te¿ siê sprawdzi. Bêdzie pasowaæ do jego oczu.~
 @134 = ~Uwa¿aj, <CHARNAME>! Boo rzek³, ¿e tutejsza ziemia chowa wielkie niebezpieczeñstwo. I nie mia³ na myœli robaków!~
 @135 = ~Tak! To tutaj! Naprzód, pospieszmy siê! Minsc nie pozwoli Dynaheir cierpieæ w tym miejscu!~
 @136 = ~Naprzód! Uratujmy nasz¹ szlachetn¹ damê!~
@@ -158,8 +159,8 @@ WiedŸma Minska jest przetrzymywana w fortecy gnolli na zachodzie! Bardzo prawdop
 @154 = ~To miejsce œmierdzi z³em! Niech nasze praworz¹dne wiatry oczyszcz¹ je!... Eee... Myœlê, ¿e nie wysz³o to najlepiej, co nie, Boo?~
 @155 = ~Zakryj nos, Boo! Œmierdzi gorzej ni¿ Lo¿a...~
 @156 = ~(ignoruj Minska)~
-@157 = ~... po trzydniowej uczcie! Wiem, wiem...~
-@158 = ~... po trzydniowej uczcie! Czekaj... czy czasem ju¿ tu nie byliœmy? Ech?~
+@157 = ~...po trzydniowej uczcie! Wiem, wiem...~
+@158 = ~...po trzydniowej uczcie! Czekaj... czy czasem ju¿ tu nie byliœmy? Ech?~
 @159 = ~Czy Minsc znowu to powiedzia³?~
 @160 = ~Tak, Minsc. Powiedzia³eœ...~
 @161 = ~A wiêc jednak! Naprawdê!~

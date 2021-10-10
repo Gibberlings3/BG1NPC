@@ -3,7 +3,7 @@
 @2    = ~...jako dziecko, oczywiœcie, moja panno. (rumieni siê)~
 @3    = ~Moja panno, jeœli chcesz znaæ moje zdanie, wci¹¿ jesteœ œliczna jak motylek. I to mia³ byæ komplement.~
 @4    = ~Oczywiœcie, jest dzieckiem...~
-@5    = ~Z pewnoœci¹ tak zrobimy, mój przyjacielu. Wkrótce, te pó³-ogry nie bêd¹ ju¿ stanowi³y zagro¿enia.~
+@5    = ~Z pewnoœci¹ tak zrobimy, mój przyjacielu. Wkrótce, te pó³ogry nie bêd¹ ju¿ stanowi³y zagro¿enia.~
 @6    = ~Jeszcze nie, mój przyjacielu, ale pewien jestem, ¿e <CHARNAME> wkrótce nas tam zaprowadzi.~
 @7    = ~Rozejrzymy siê za twym mê¿em, moja pani. Mam nadziejê, ¿e to rozwieje twój niepokój.~
 @8    = ~"Zabija wszystkich, którzy siê na niego natkn¹"?! Có¿ to za czart! Musimy go powstrzymaæ!~
@@ -29,7 +29,7 @@
 @28   = ~Tak, bêdziemy walczyæ z tym ogrem, który ciê zniewoli³. Ale oczekujemy, ¿e nasz towarzysz zostanie po wszystkim przywrócony do ¿ycia!~
 @29   = ~Teraz widzisz, co wynika z niepotrzebnego k³amstwa, <CHARNAME>! Musimy walczyæ z kimœ, kto móg³by byæ naszym przyjacielem!~
 @30   = ~Okaza³eœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³eœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~ ~Okaza³aœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³aœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~ 
-@31   = ~Zaszczytem by³o walczyæ u twego boku, mój przyjacielu. ¯egnaj.~
+@31   = ~Zaszczytem by³o walczyæ u twego boku, moja przyjació³ko. ¯egnaj.~
 @32   = ~<CHARNAME>, ta drowka jest z³a, i oskar¿ono j¹ o morderstwo. Bronienie jej to sprzeciwienie siê prawu!~
 @33   = ~To by³ dobry wybór, aby nie sprzymierzaæ siê z t¹ z³¹ istot¹, <CHARNAME>!~
 @34   = ~TY skazujesz nas na œmieræ? Masz do tego prawo? Porozmawiajmy, nie musimy rozlewaæ krwi.~
@@ -71,7 +71,7 @@
 @70   = ~Nie! Muszê skoñczyæ swe dzie³o! Ellesime!~
 @71   = ~Wiêc niech tak bêdzie. Niech duchy lasów ciê nawiedzaj¹.~
 @72   = ~Ten cz³owiek mówi o ZABICIU archeologa i jego pomocników oraz KRADZIE¯Y jakiegoœ magicznego przedmiotu. IdŸ precz, ³ajdaku!~
-@73   = ~Hej, mówi³em do NIEGO, chyba ¿e to ty podejmujesz tutaj decyzje?~ ~Hej, mówi³am do NIEGO, chyba ¿e to ty podejmujesz tutaj decyzje?~
+@73   = ~Hej, mówi³em do NIEGO, chyba ¿e to ty podejmujesz tutaj decyzje?~ ~Hej, mówi³em do NIEJ, chyba ¿e to ty podejmujesz tutaj decyzje?~
 @74   = ~<CHARNAME> jest naszym dowódc¹, ale ja jestem paladynem w s³u¿bie Helma, i nie bêdê tolerowa³ takiej perfidii!~ ~<CHARNAME> jest nasz¹ dowódczyni¹, ale ja jestem paladynem w s³u¿bie Helma, i nie bêdê tolerowa³ takiej perfidii!~
 @75   = ~Ajantis ma absolutn¹ racjê. Nie zrobimy czegoœ takiego!~
 @76   = ~Eee... Ajantis? Chcia³bym wys³uchaæ tego, co ten cz³owiek ma do powiedzenia.~ ~Eee... Ajantis? Chcia³abym wys³uchaæ tego, co ten cz³owiek ma do powiedzenia.~
@@ -130,7 +130,7 @@
 @129  = ~Dobra robota, <CHARNAME>, to by³ ostatni z tych ogrów. Powinniœmy wróciæ do Beregostu i oznajmiæ Bjorninowi, ¿e niebezpieczeñstwo zosta³o za¿egnane.~
 @130  = ~I oto jesteœmy w s³ynnej bibliotece Candlekeep! Ca³a ta m¹droœæ i wiedza zgromadzona w tych korytarzach!~
 @131  = ~Ale nie przybyliœmy tutaj po wiedzê. Niestety! To obecnoœæ bezwstydnych z³oczyñców nas tutaj œci¹gnê³a. OdnajdŸmy ich i oczyœæmy te potê¿ne korytarze z ich wystêpnej obecnoœci!~
-@132  = ~<CHARNAME>, ty... ty jesteœ potomkiem BHAALA, Boga Mordu?!~
+@132  = ~<CHARNAME>, ty... ty jesteœ potomkiem Bhaala, Pana Mordu?!~
 @133  = ~Sam nie zdawa³em sobie z tego sprawy, Ajantis!~ ~Sama nie zdawa³em sobie z tego sprawy, Ajantis!~
 @134  = ~Rzeczywiœcie, na to wygl¹da.~
 @135  = ~Mówisz to takim tonem, jakby w ogóle ciê to nie obchodzi³o! Wiedzia³eœ o tym wczeœniej?~ ~Mówisz to takim tonem, jakby w ogóle ciê to nie obchodzi³o! Wiedzia³aœ o tym wczeœniej?~
@@ -225,7 +225,7 @@
 @224  = ~Niewa¿ne! Trzymaj z dala ode mnie ten przeklêty przedmiot. Nie ugnê wiêcej swej woli!~
 @225  = ~Ty... myœlisz, ¿e lepiej przys³u¿ê siê naszej misji w tym stanie? ¯¹dam, aby zdjêto mi ten pas tak szybko, jak to mo¿liwe!~
 @226  = ~Po moim trupie!~
-@227  = ~Nie interesuj¹ mnie twe sprawy, sir!~
+@227  = ~Nie interesuj¹ nas twe sprawy, sir!~
 @228  = ~Wybacz, wiêc. Szukam kogoœ.~
 @229  = ~Wiêc gotuj siê na œmieræ... w imiê swej chciwoœci!~
 @230  = ~Niech bogowie nagrodz¹ tw¹ arogancjê œmierci¹!~

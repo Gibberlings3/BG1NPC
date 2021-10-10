@@ -23,7 +23,7 @@
 @22   = ~Zatrzymaj dla siebie swój samozachwyt, ³ajdaku!~
 @23   = ~Wci¹¿ czuwasz, Helmito?~
 @24   = ~(z drobnym skrêpowaniem) Mówi³em ci, ¿e wygl¹dam niebezpieczeñstw. Robiê tak dla ka¿dego, nie tylko dla naszej dowódczyni.~
-@25   = ~Wiêc dlaczego, O Rycerzu œmia³y i czysty, ten p³omieñ w twym oku przygas³, gdy skierowa³eœ wzrok na mnie?~
+@25   = ~Wiêc dlaczego, o rycerzu œmia³y i czysty, ten p³omieñ w twym oku przygas³, gdy skierowa³eœ wzrok na mnie?~
 @26   = ~(z gniewem) Nie potrzebujê twych kpin, Coranie! Widzê wystarczaj¹co wiele "p³omieni" w twym lubie¿nym wzroku, by wystarczy³o za trzech! Jeœli nie bêdziesz ostro¿ny, <CHARNAME> zapali siê od samego twojego spojrzenia!~
 @27   = ~Nie strofuj mnie za otwarte wyznawanie mi³oœci do kogoœ, kogo ty sekretnie po¿¹dasz.~
 @28   = ~(Jego g³os pozostaje spokojny, choæ jego rêce dr¿¹ w gniewie.) Nie muszê siê przed tob¹ spowiadaæ, elfie. Jedyn¹ osob¹, której jestem winien wyznaæ swe po¿¹danie jest <CHARNAME>, ale ja... (staje w nag³ej grozie) ~
@@ -33,8 +33,8 @@
 @32   = ~Mi³oœæ, Ajantisie, nigdy nie powinna stanowiæ paliwa dla gniewu.~
 @33   = ~Witaj, o najzacniejsza z dam.
 <CHARNAME>, dwóch mê¿czyzn walczy o serce twe.
-Przyzwali mnie, Mistrza Pojedynków
-Herolda Serc, Sêdziego Mi³oœci
+Przyzwali mnie, Mistrza Pojedynków,
+Herolda Serc, Sêdziego Mi³oœci,
 By rozs¹dziæ miêdzy wami trojga.
 Pokorny s³uga do twej dyspozycji.~
 @34   = ~(k³ania siê teatralnie)~
@@ -45,20 +45,20 @@ I¿ warta ¿eœ jest ich rywalizacji,
 Gdy¿ piêkno twe równe jest twej m¹droœci.~
 @36   = ~Czy ¿yczysz sobie bym ustanowi³
 Pojedynek dla twych adoratorów
-By dowieœæ mogli ci swej mi³oœci i wiernoœci? ~
+By dowieœæ mogli ci swej mi³oœci i wiernoœci?~
 @37   = ~Czy mogê poznaæ zasady walki, o Mistrzu Pojedynków?~
 @38   = ~Eee, czy móg³byœ wyjaœniæ kim ty w ogóle jesteœ, na Dziewiêæ Piekie³; tylko jasno i przejrzyœcie?~
-@39   = ~(Po chwili namys³u decydujesz siê odwo³aæ Pojedynek. Twe serce nale¿y ju¿ do Ajantisa...)~
-@40   = ~(Po chwili namys³u decydujesz siê odwo³aæ Pojedynek. Twe serce nale¿y ju¿ do Corana...)~
-@41   = ~(Po chwili namys³u decydujesz siê odwo³aæ Pojedynek. Twe serce nale¿y ju¿ do Xana...)~
+@39   = ~(Po chwili namys³u decydujesz siê odwo³aæ pojedynek. Twe serce nale¿y ju¿ do Ajantisa...)~
+@40   = ~(Po chwili namys³u decydujesz siê odwo³aæ pojedynek. Twe serce nale¿y ju¿ do Corana...)~
+@41   = ~(Po chwili namys³u decydujesz siê odwo³aæ pojedynek. Twe serce nale¿y ju¿ do Xana...)~
 @42   = ~Czekaj! A co z Xanem z Evereski?~
 @43   = ~Chcia³bym ustawiæ pojedynek miêdzy Lordem Ajantisem Ilvastaarem z Waterdeep a zacnym elfem Coranem z Tethyru.~
 @44   = ~Xan z Evereski? Och, ten pan zrezygnowa³, mówi¹c, cytujê: "To beznadziejne."~
-@45   = ~Ale jeœli twe serce nale¿y do niego, ma Pani, zachêcam byœ og³osi³a to teraz, bêdziemy wtedy mogli odwo³aæ pojedynek.~
-@46   = ~Przygotowa³em pojedynek na spryt i si³ê dla twych adoratorów, ma Pani. ¯aden z nich nie dzieje siê naprawdê, ¿aden z nich nie mo¿e wyrz¹dziæ nikomu krzywdy; wszystkie s¹ tylko produktem mej wyobraŸni i wyobraŸni twych adoratorów. Staniesz siê czêœci¹ ich snu, aktywn¹ lub biern¹, wedle ¿¹dania. Gdy ju¿ siê ni¹ staniesz, nie odró¿nisz snu od jawy.~
+@45   = ~Ale jeœli twe serce nale¿y do niego, ma pani, zachêcam byœ og³osi³a to teraz, bêdziemy wtedy mogli odwo³aæ pojedynek.~
+@46   = ~Przygotowa³em pojedynek na spryt i si³ê dla twych adoratorów, ma pani. ¯aden z nich nie dzieje siê naprawdê, ¿aden z nich nie mo¿e wyrz¹dziæ nikomu krzywdy; wszystkie s¹ tylko produktem mej wyobraŸni i wyobraŸni twych adoratorów. Staniesz siê czêœci¹ ich snu, aktywn¹ lub biern¹, wedle ¿¹dania. Gdy ju¿ siê ni¹ staniesz, nie odró¿nisz snu od jawy.~
 @47   = ~Przygotowa³em cztery pojedynki, bo cztery s¹ strony œwiata, cztery naro¿niki œwiata, i tylko za cztery mi zap³acono.~
 @48   = ~Po ka¿dym z pojedynków, zapytam ciê o twój wybór. Jeœli twe serce siê nie zdecyduje, spróbujemy ponownie. Jeœli po czterech pojedynkach nie oddasz ¿adnemu z adoratorów swego serca, oboje zgodzili siê przerwaæ swe zaloty. ¯aden z nich nie spróbuje zaw³adn¹æ twymi myœlami, póty wszystkie cztery pojedynki nie zakoñcz¹ siê.~
-@49   = ~¯yczysz sobie teraz ustawiæ pojedynek, Panno <CHARNAME>?~
+@49   = ~¯yczysz sobie teraz ustawiæ pojedynek, panno <CHARNAME>?~
 @50   = ~Nie ma takiej potrzeby, Mistrzu. Wiem, gdzie le¿y me serce, i ¿e nale¿y do Ajantisa.~
 @51   = ~Nie ma takiej potrzeby, Mistrzu. Wiem, gdzie le¿y me serce, i ¿e nale¿y do Corana.~
 @52   = ~Chcia³abym, aby obaj mê¿czyŸni zaprzestali swych zalotów, gdy¿ nie mogê siê zdecydowaæ miêdzy Ajantisem a Coranem.~
@@ -67,10 +67,10 @@ By dowieœæ mogli ci swej mi³oœci i wiernoœci? ~
 @55   = ~Panna <CHARNAME> og³osi³a sw¹ decyzjê! Spoœród wszystkich mê¿czyzn, Xan z Everski jest najbli¿szy jej sercu. Lordzie Ajantisie Ilvastaar z Waterdeep, mój zacny elfie Coranie z Tethyru, zgodnie z nasz¹ umow¹, od tej pory powinniœcie zaprzestaæ adorowania waszej lubej.~
 @56   = ~Pani <CHARNAME> og³osi³a sw¹ decyzjê! Lordzie Ajantisie Ilvastaar z Waterdeep, mój zacny elfie Coranie z Tethyru, zgodnie z nasz¹ umow¹, od tej pory powinniœcie zaprzestaæ adorowania <CHARNAME>.~
 @57   = ~Panna <CHARNAME> og³osi³a sw¹ decyzjê! Lordzie Ajantisie Ilvastaar z Waterdeep, moje zacne elfy: Xanie z Evereski i Corananie z Tethyru, zgodnie z nasz¹ umow¹, od tej pory powinniœcie zaprzestaæ adorowania waszej lubej.~
-@58   = ~Có¿, Pani, to doœæ proste. ¯yjê z rozwi¹zywania mi³osnych trójk¹tów. Ajantis i Coran, twoi towarzysze, chc¹ byœ zdecydowa³a, którego z nich wolisz. Wiêc mogê ustawiæ pojedynek, dziêki któremu zdecydujesz, który z mê¿czyzn jest bli¿szy twemu sercu.~
+@58   = ~Có¿, pani, to doœæ proste. ¯yjê z rozwi¹zywania mi³osnych trójk¹tów. Ajantis i Coran, twoi towarzysze, chc¹ byœ zdecydowa³a, którego z nich wolisz. Wiêc mogê ustawiæ pojedynek, dziêki któremu zdecydujesz, który z mê¿czyzn jest bli¿szy twemu sercu.~
 @59   = ~Mo¿esz wiêc wyjawiæ na czym polega ta rywalizacja?~
-@60   = ~Po chwili zastanowienia decydujesz siê odwo³aæ Pojedynek. Twe serce nale¿y ju¿ do Ajantisa...~
-@61   = ~Po chwili zastanowienia decydujesz siê odwo³aæ Pojedynek. Twe serce nale¿y ju¿ do Corana...~
+@60   = ~Po chwili zastanowienia decydujesz siê odwo³aæ pojedynek. Twe serce nale¿y ju¿ do Ajantisa...~
+@61   = ~Po chwili zastanowienia decydujesz siê odwo³aæ pojedynek. Twe serce nale¿y ju¿ do Corana...~
 @62   = ~Chowam w zanadrzu cztery wyzwania: mê¿czyŸni bêd¹ walczyæ, wiêc bêdziesz mog³a oceniæ ich umiejêtnoœci i zwinnoœæ, bêd¹ musieli ciê zabawiæ, ofiarowaæ ci podarunek, oraz bêd¹ musieli uwolniæ ciê ze szponów smoka. Mo¿esz wybraæ dowolne wyzwanie, ale ka¿de tylko jeden raz! Które zechcesz wybraæ?~
 @63   = ~Chcia³abym zobaczyæ jak walcz¹.~
 @64   = ~Chcia³abym, aby mnie zabawili.~
@@ -80,16 +80,16 @@ By dowieœæ mogli ci swej mi³oœci i wiernoœci? ~
 @68   = ~Pojedynek jest zbyteczny, Mistrzu. Wiem do kogo nale¿y moje serce. Do Corana.~
 @69   = ~Wiêc niech rozgorzeje walka!~
 @70   = ~A teraz, Coran z Tethyru.~
-@71   = ~Ach, ma Pani, nie uwa¿a³aœ. To wyzwanie zosta³o ju¿ rzucone. Wybierz inne lub og³oœ sw¹ decyzjê.~
+@71   = ~Ach, ma pani, nie uwa¿a³aœ. To wyzwanie zosta³o ju¿ rzucone. Wybierz inne lub og³oœ sw¹ decyzjê.~
 @72   = ~Wiêc czas na zabawê!~
 @73   = ~Me serce nale¿y do Ajantisa.~
 @74   = ~Me serce nale¿y do Corana.~
 @75   = ~Me serce nale¿y do Xana.~
 @76   = ~Chcê abyœcie wiedzieli, ¿e po tym wszystkim zdecydowa³am, i¿ nie chcê wiêcej ¿adnych zalotów.~
 @77   = ~Wiêc czas na ma³y podarunek!~
-@78   = ~A teraz, Sir Ajantis z Waterdeep...~
-@79   = ~Ma Pani odwa¿ne serce! Có¿, ciekawe, mo¿e siê oka¿e, ¿e to Pani bêdzie musia³a ratowaæ swych adoratorów ze szponów smoka!~
-@80   = ~To wszystkie me Pojedynki, Pani. Co rzekniesz? Który z mê¿czyzn zdoby³ twe serce?~
+@78   = ~A teraz, sir Ajantis z Waterdeep...~
+@79   = ~Ma pani odwa¿ne serce! Có¿, ciekawe, mo¿e siê oka¿e, ¿e to pani bêdzie musia³a ratowaæ swych adoratorów ze szponów smoka!~
+@80   = ~To wszystkie me pojedynki, pani. Co rzekniesz? Który z mê¿czyzn zdoby³ twe serce?~
 @81   = ~Nic nie uraduje mnie bardziej, ni¿ utkanie opowieœci, która wywo³a uœmiech na twej twarzy.~
 @82   = ~A teraz, skarbie, wyobraŸ sobie, ¿e zawêdrowaliœmy do Tethyru, cudownie uchodz¹c gniewowi elfich przeœladowców, i wreszcie, wchodzimy do Lasu Tethyr. Zabieram ciê do zielonego miasta Suldanessellar i wdzieramy siê po cichu do Pa³acu Królewskiego, do Drzewa ¯ycia...~
 @83   = ~Có¿ mogê ci ofiarowaæ, skarbie?~
@@ -99,13 +99,13 @@ By dowieœæ mogli ci swej mi³oœci i wiernoœci? ~
 @87   = ~Nie... wszystkie te rzeczy to marne b³yskotki, w porównaniu z tob¹.~
 @88   = ~Ofiarujê ci zwierciad³o, skarbie, Oczy Kochanka. Gdy w nie spojrzysz, ujrzysz siebie tak¹, jak¹ ja ciebie widzê. A skoro pochodzi ode mnie mniemam, ¿e bêdzie bardzo hojnie komplementowa³o swój wdziêk i urodê.~
 @89   = ~Coranie, powinienem by³ zgadn¹æ, ¿e powrócisz tutaj by wyrz¹dzaæ dalsze szkody. I przywiod³eœ ze sob¹ obc¹ osobê w te œwiête korytarze. Zapewniam ciê, ¿e tym razem twe wtargniêcie nie ujdzie ci tak g³adko.~
-@90   = ~Mój generale, jeœli nawi¹zujesz do nieszczêsnego incydentu wyrycia inicja³ów Fayatel -~
+@90   = ~Mój generale, jeœli nawi¹zujesz do nieszczêsnego incydentu wyrycia inicja³ów Fayatel...~
 @91   = ~PANI Fayatel.~
-@92   = ~...Pani Fayatel na korze drzewa, zrobi³em to na jej wyraŸne ¿yczenie.~
-@93   = ~Nie wa¿ siê nigdy mówiæ o mojej córce w ten sposób! Jesteœ hañb¹, Coranie, i dopilnujê, abyœ ty i twa przyjació³ka zostali osadzeni w areszcie i przes³uchani -~
-@94   = ~Nie chcieliœmy niczego z³ego, co z radoœci¹ wyt³umaczê twym ludziom. Wyjaœniê, ¿e chcia³em tylko pokazaæ mej drogiej przyjació³ce moje inicja³y na Drzewie ¯ycia... i inicja³y Pani Fayatel równie¿. Oczywiœcie, póŸniej bêdê musia³ opowiedzieæ o tym, w jakich okolicznoœciach pozna³em Pani¹ Fayatel.~
+@92   = ~...pani Fayatel na korze drzewa, zrobi³em to na jej wyraŸne ¿yczenie.~
+@93   = ~Nie wa¿ siê nigdy mówiæ o mojej córce w ten sposób! Jesteœ hañb¹, Coranie, i dopilnujê, abyœ ty i twa przyjació³ka zostali osadzeni w areszcie i przes³uchani...~
+@94   = ~Nie chcieliœmy niczego z³ego, co z radoœci¹ wyt³umaczê twym ludziom. Wyjaœniê, ¿e chcia³em tylko pokazaæ mej drogiej przyjació³ce moje inicja³y na Drzewie ¯ycia... i inicja³y pani Fayatel równie¿. Oczywiœcie, póŸniej bêdê musia³ opowiedzieæ o tym, w jakich okolicznoœciach pozna³em pani¹ Fayatel.~
 @95   = ~(z uœmiechem) Obawiam siê, ¿e z³odziej ma ciê w garœci, mój szlachetny przyjacielu.~
-@96   = ~Jeœli ma osobista hañba ma chroniæ spokoju Królowej, jestem w stanie j¹ przyj¹æ... aresztuj¹c tego zbója. Potrafiê znieœæ plotki, które z pewnoœci¹ -~
+@96   = ~Jeœli ma osobista hañba ma chroniæ spokoju Królowej, jestem w stanie j¹ przyj¹æ... aresztuj¹c tego zbója. Potrafiê znieœæ plotki, które z pewnoœci¹...~
 @97   = ~Nie ma takiej potrzeby, Generale. Tych dwoje nie zak³óca mego spokoju.~
 @98   = ~Wasza Wysokoœæ, choæ nie godzien jestem sprzeczania siê z Waszym Majestatem, ten mê¿czyzna, Coran, dowiód³ w swej m³odoœci, ¿e nie wolno mu ufaæ. Sprofanowa³ Drzewo.~
 @99   = ~Jak powiedzia³eœ, Generale, by³ m³ody, g³upi i zakochany. Drzewo zape³ni³o ¿³obienia swymi sokami: z³otymi litery, a czerwonymi serce. Niezwyk³a dziewczyna ma teraz pami¹tkê swej pierwszej mi³oœci.~
@@ -116,35 +116,35 @@ By dowieœæ mogli ci swej mi³oœci i wiernoœci? ~
 @104  = ~A co jeœli nie? A co jeœli, nawet teraz, tka mistern¹ sieæ intryg? Co jeœli ten... drañ i jego... pani s¹ czêœci¹ tego wszystkiego?~
 @105  = ~A co jeœli nie? A co jeœli, nawet teraz, tka mistern¹ sieæ intryg? Co jeœli ten... drañ i jego N'Tel'Quess s¹ czêœci¹ tego wszystkiego?~
 @106  = ~Oni s¹ kochankami, Elhanie, nie zabójcami. A nawet jeœli Wygnañcy planuj¹ spisek przeciwko Suldanessellar, to mam przecie¿ ciebie, byœ strzeg³ spokoju Królowej, prawda?~
-@107  = ~Oddam za ciebie swe ¿ycie, ma Królowo. Ale czêsto chcia³bym, aby Pani nie utrudnia³a mi tego zadania.~
+@107  = ~Oddam za ciebie swe ¿ycie, ma Królowo. Ale czêsto chcia³bym, aby pani nie utrudnia³a mi tego zadania.~
 @108  = ~Znam tw¹ lojalnoœæ, i ceniê j¹ sobie, szlachetny wojowniku. Ale daleka jestem od tego, by pozbawiaæ mê¿czyznê godnoœci i odkupienia, a jeszcze dalsza od tego, by staæ siê wiêŸniem we w³asnym Mieœcie. IdŸ, Generale; nie chcê kontynuowaæ tej rozmowy przed tym mê¿czyzn¹ i kobiet¹, którzy przybyli w pokoju do mego pa³acu.~
 @109  = ~(k³ania siê sztywno, z uznaniem) Wasza Wysokoœæ.~
 @110  = ~ChodŸcie ze mn¹, Coranie i...?~
-@111  = ~<CHARNAME>, Wasza Wysokoœæ. <CHARNAME> z Candlekeep, przybrana córka Goriona Mêdrca. ~
+@111  = ~<CHARNAME>, Wasza Wysokoœæ. <CHARNAME> z Candlekeep, przybrana córka Goriona Mêdrca.~
 @112  = ~Rada jestem, ¿e ciê pozna³am, pomimo tych... osobliwych okolicznoœci.~ ~Coran Sullussaer, jeœli siê nie mylê?~
 @113  = ~Schlebia mi, ¿e Wasza Wysokoœæ pamiêta me imiê.~
 @114  = ~Och, trudno je zapomnieæ. (wskazuje mimochodem na korê Drzewa ¯ycia)~
 @115  = ~(uœmiecha siê zmieszany)~
 @116  = ~Czy bardzo mi³ujesz tê damê z Candlekeep, Coranie Sullussaer?~
 @117  = ~Tak, Wasza Wysokoœæ, niezmiernie.~
-@118  = ~Ceñ sw¹ mi³oœæ, nie ma nic bardziej kruchego i bardziej cennego. A co do ciebie, Pani z Candlekeep, powiadam, "b³ogos³awieñstwem jest to, ¿eœ kochana." Muszê was teraz zostawiæ - czas wolny to luksus, na który rz¹dz¹cy nie mog¹ sobie zbyt czêsto pozwoliæ. B¹dŸcie rozwa¿ni, gdy¿ nie mam w¹tpliwoœci, i¿ mój lojalny Elhan z rozkosz¹ trzyma³by was pod kluczem, póty nie bêdzie mia³ pewnoœci, ¿e nie stanowicie zagro¿enia. I, Coranie?~
+@118  = ~Ceñ sw¹ mi³oœæ, nie ma nic bardziej kruchego i bardziej cennego. A co do ciebie, pani z Candlekeep, powiadam, "b³ogos³awieñstwem jest to, ¿eœ kochana". Muszê was teraz zostawiæ - czas wolny to luksus, na który rz¹dz¹cy nie mog¹ sobie zbyt czêsto pozwoliæ. B¹dŸcie rozwa¿ni, gdy¿ nie mam w¹tpliwoœci, i¿ mój lojalny Elhan z rozkosz¹ trzyma³by was pod kluczem, póty nie bêdzie mia³ pewnoœci, ¿e nie stanowicie zagro¿enia. I, Coranie?~
 @119  = ~Nie zaatakujê wiêcej Drzewa, Wasza Dostojnoœæ. To by³o bardzo bezmyœlne z mojej strony.~
-@120  = ~(œmieje siê beztrosko) Gdyby wszyscy mieli tyle rozs¹dku co ty. Pomyœlnych wiatrów, Coranie, i tobie, moja damo. Pomyœlnych wiatrów i gwieŸdzistego nieba. ~
-@121  = ~Mam uwolniæ ciê ze szponów smoka, skarbie? ~
+@120  = ~(œmieje siê beztrosko) Gdyby wszyscy mieli tyle rozs¹dku co ty. Pomyœlnych wiatrów, Coranie, i tobie, moja damo. Pomyœlnych wiatrów i gwieŸdzistego nieba.~
+@121  = ~Mam uwolniæ ciê ze szponów smoka, skarbie?~
 @122  = ~Tak, to wyzwanie bliskie memu sercu! Wreszcie mam okazjê stawiæ czo³a legendzie Tethira Pogromcy Smoków! O, Mistrzu Pojedynków, niech to bêdzie staro¿ytny czerwony smok!~
 @123  = ~Coran, Pogromca Smoków... brzmi nieŸle!~
-@124  = ~Nêdzny œmiertelniku, zbyt lichy nawet na zak¹skê, czemu¿ to przyszed³eœ po pewn¹ œmieræ? ~
+@124  = ~Nêdzny œmiertelniku, zbyt lichy nawet na zak¹skê, czemu¿ to przyszed³eœ po pewn¹ œmieræ?~
 @125  = ~Przyby³em, by wybawiæ tê zacn¹ dziewicê, któr¹ trzymasz uwiêzion¹ wbrew jej woli.~
 @126  = ~Zacn¹... co?~
 @127  = ~Jeœli zhañbi³eœ moj¹ ukochan¹, przysiêgam, ¿e zginiesz straszliw¹ œmierci¹!~
-@128  = ~Och, ona.... Ona hañbi siebie wystarczaj¹co bez mej pomocy. (kapryœnie) Jak g³upi¹ trzeba byæ, by nie móc spamiêtaæ obowi¹zków s³u¿ki wobec swej Pani? Myœla³am by j¹ zjeœæ, ale nie wygl¹da zbyt apetycznie.~
+@128  = ~Och, ona.... Ona hañbi siebie wystarczaj¹co bez mej pomocy. (kapryœnie) Jak g³upi¹ trzeba byæ, by nie móc spamiêtaæ obowi¹zków s³u¿ki wobec swej pani? Myœla³am by j¹ zjeœæ, ale nie wygl¹da zbyt apetycznie.~
 @129  = ~(do samego siebie) A wiêc bycie smokiem wcale nie gwarantuje dobrego smaku...~
-@130  = ~Czekaj, czy powiedzia³aœ... "s³u¿ka swej Pani"?~
+@130  = ~Czekaj, czy powiedzia³aœ... "s³u¿ka swej pani"?~
 @131  = ~O, Smocza Damo, po có¿ tracimy czas rozmawiaj¹c o twej s³u¿ce? Przyby³em tu, by nacieszyæ wzrok twym wspania³ym i s³awetnym piêknem. Lecz teraz widzê, ¿e by³em w b³êdzie.~
 @132  = ~¯a³osny elfie, nie wiesz nic o wspania³oœci i s³awie.~
-@133  = ~le, ma Pani. Nie WIEDZIA£EM nic o wspania³oœci i s³awie. Ale teraz, kiedy ujrza³em ciebie... ¿adnymi s³owami nie jestem w stanie opisaæ wdziêku i potêgi twego karku. Twe ³uski lœni¹ jaœniej ni¿ diamenty - ~
+@133  = ~le, ma pani. Nie WIEDZIA£EM nic o wspania³oœci i s³awie. Ale teraz, kiedy ujrza³em ciebie... ¿adnymi s³owami nie jestem w stanie opisaæ wdziêku i potêgi twego karku. Twe ³uski lœni¹ jaœniej ni¿ diamenty...~
 @134  = ~Tak myœlisz?~
-@135  = ~(z zapa³em) Nie myœlê... Czujê to, w koœciach, w mym sercu- ~
+@135  = ~(z zapa³em) Nie myœlê... Czujê to, w koœciach, w mym sercu...~
 @136  = ~(cicho i zwraca siê do ciebie) Skarbie, widzê to tak, mamy dwa wyjœcia: uciekasz, kiedy ja próbujê zabawiæ smoczycê, albo koñczê tê farsê, i walczê z ni¹...~
 @137  = ~Znaczy siê - MY walczymy? Na to siê zgodzê.~	
 @138  = ~(szorstko) Czy mogê wiedzieæ, jak masz zamiar j¹ ZABAWIÆ?~
@@ -156,15 +156,15 @@ By dowieœæ mogli ci swej mi³oœci i wiernoœci? ~
 @144  = ~(nie trac¹c taktu) Ale nie bacz¹c na to, jak piêkna jesteœ, Smocza Damo, przyby³em tu po serce serca mego, najpiêkniejsz¹ wœród piêknych. Oddaj mi j¹ albo giñ!~
 @145  = ~(œmieje siê) Wasza dwójka mog³aby ju¿ stanowiæ jakiœ obiad!~
 @146  = ~<CHARNAME>, niech twa mi³oœæ doda mi si³, bym zdo³a³ pokonaæ tê okropn¹ poczwarê!~
-@147  = ~O... To by³o ca³kiem - ~
+@147  = ~O... To by³o ca³kiem...~
 @148  = ~Spektakularne! Gratulujê, mój bohaterze, tego wielkiego wyczynu.~
 @149  = ~Na Dziewiêæ Piekie³, na cholerne Dziewiêæ Piekie³! Czy wszystkie smoki s¹ tak s³abe?~
 @150  = ~Ja... Ja nie rozumiem.~
 @151  = ~Czym¿e jest staro¿ytny czerwony smok wobec zakochanego mê¿czyzny?~
 @152  = ~Robakiem.~
 @153  = ~Smoki to przera¿aj¹ce bestie, <CHARNAME>. Ale muszê przyznaæ, ¿e skoro ten pojedynek jest oparty na mej wyobraŸni... to zwykle doœæ podobnie sobie wyobra¿a³em tego typu walkê.~
-@154  = ~O, Coranie, Coranie. Macie takie powiedzenie: "Lle naa haran e' nausalle."~
-@155  = ~O, Coranie, Coranie. Jak mówi stare powiedzenie? "Lle naa haran e' nausalle."~
+@154  = ~O, Coranie, Coranie. Macie takie powiedzenie: "Lle naa haran e' nausalle".~
+@155  = ~O, Coranie, Coranie. Jak mówi stare powiedzenie? "Lle naa haran e' nausalle".~
 @156  = ~(œmiejesz siê)~
 @157  = ~Jestem królem mej wyobraŸni? To nie powiedzenie, skarbie, ale zniewaga. Ale teraz móg³bym zrobiæ dla ciebie wszystko...~
 @158  = ~Zaprzêgn¹æ chmury, zebraæ kosz gwiazd, pokonaæ olbrzymów i smoki... Wszystko dlatego, ¿e ciê kocham.~

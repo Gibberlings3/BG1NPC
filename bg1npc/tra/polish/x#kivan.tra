@@ -74,7 +74,7 @@ Królowej nocy...~
 @65   = ~Nie têskniê za miejscem, <CHARNAME>. Jednak¿e têskniê za tymi, których cienie s¹ tam wci¹¿ obecne. Za moj¹ Deherian¹, moimi braæmi, moim ojcem... Masz jednak swoje w³asne upiory, <CHARNAME>, nie potrzebujesz dodatkowo moich.~
 @66   = ~Khila amin – pod¹¿aj za mn¹, powinniœmy zrównaæ siê z reszt¹.~
 @67   = ~To ciê fascynuje? Naprawdê znasz swe serce, mój m³ody przyjacielu? Poczekaj, a¿ doœwiadczysz tych rzeczy na w³asnej skórze; mo¿e wtedy nauczysz siê, ¿e nale¿y siê ich obawiaæ.~ ~To ciê fascynuje? Naprawdê znasz swe serce, moja m³oda przyjació³ko? Poczekaj, a¿ doœwiadczysz tych rzeczy na w³asnej skórze; mo¿e wtedy nauczysz siê, ¿e nale¿y siê ich obawiaæ.~
-@68   = ~Ieriyn to Y'landrothiel w jêzyku elfów... Gwiazdy... W shilmistañskiej puszczy jest pewne  œwiête wzgórze – nazywamy je Daione Dun - Wzgórze Gwiazd. Wznosi siê wysoko poœrodku Lasu Cieni, tak wysoko ku niebu, ¿e z jego wierzcho³ka mo¿na niemal dotkn¹æ gwiazd.~
+@68   = ~Ieriyn to Y'landrothiel w jêzyku elfów... Gwiazdy... W shilmistañskiej puszczy jest pewne œwiête wzgórze – nazywamy je Daione Dun - Wzgórze Gwiazd. Wznosi siê wysoko poœrodku Lasu Cieni, tak wysoko ku niebu, ¿e z jego wierzcho³ka mo¿na niemal dotkn¹æ gwiazd.~
 @69   = ~Mój lud czasem gromadzi siê tam w gwieŸdzist¹ noc, gromadzony przez starszego, i œpiewamy do Shilmisty, celebruj¹c Daoine Teague Feer. Gdy pieœñ koñczy siê, król obsypuje nas gwieŸdzistym py³em i b³ogos³awi nas. Œwiat zdaje siê lœniæ a szept Shilmisty rozlega siê w ka¿dym sercu. To takie uczucie, jakby staæ pod wodospadem z tysiêcy gwiazd. To najwspanialsze wspomnienie, jakie zachowa³em, a jednak jest ono Ÿród³em mego niepokoju.~
 @70   = ~Nie têskniê za miejscem, <CHARNAME>. Jednak¿e têskniê za tymi, których cienie s¹ tam wci¹¿ obecne. Za moj¹ Deherian¹, moimi braæmi, moim ojcem... Masz jednak swoje w³asne upiory, <CHARNAME>, nie potrzebujesz dodatkowo moich. Khila amin - pod¹¿aj za mn¹, powinniœmy zrównaæ siê z reszt¹.~
 @71   = ~S³yszysz melodiê, któr¹ wiatr œpiewa tañcz¹cym liœciom?~
@@ -297,7 +297,7 @@ zostañ, mój Panie, zostañ, mój Panie...~
 @285  = ~Niczemu nie zaprzeczam, <CHARNAME>. Wiem, ¿e siê rozdzieliliœmy, ale mam nadziejê, ¿e wci¹¿ mnie s³yszy... i znów bêdziemy razem, jak tylko Shevarash pozwoli mi odejœæ.~
 @286  = ~Tak, tak, oczywiœcie. Mo¿emy porozmawiaæ o czymœ innym, ni¿ Deheriana? Albo przynajmniej o czymœ, co ma zwi¹zek z Deherian¹, ale jest weso³e? Mo¿esz mi powiedzieæ, jak j¹ pozna³eœ, Kivanie?~
 @287  = ~Wybacz. Widzê, ¿e têsknisz za ni¹ ka¿dego dnia, i fakt, ¿e nie mogê nic na to poradziæ sprawia, ¿e czujê siê... có¿, bezradna i sfrustrowana. Kivanie, chcia³abym móc coœ...~
-@288  = ~A niektórzy skar¿¹ siê, ¿e mówiê o Deherianie zbyt czêsto! Deheriana jest... by³a elfk¹ z Shilmisty... Ale nie mog³a do³¹czyæ do naszej dru¿yny, <CHARNAME>. Deheriana zosta³a zabita przez Tazoka i jego popleczników wiele lat temu, i to dlatego szukam zemsty na Tazoku, pó³-ogrze, i bandytach, którzy mu s³u¿¹.~
+@288  = ~A niektórzy skar¿¹ siê, ¿e mówiê o Deherianie zbyt czêsto! Deheriana jest... by³a elfk¹ z Shilmisty... Ale nie mog³a do³¹czyæ do naszej dru¿yny, <CHARNAME>. Deheriana zosta³a zabita przez Tazoka i jego popleczników wiele lat temu, i to dlatego szukam zemsty na Tazoku, pó³ogrze, i bandytach, którzy mu s³u¿¹.~
 @289  = ~Wiem, ¿e nie mia³ to byæ okrutny ¿art, <CHARNAME>. Twój g³os by³ ³agodny – objawia³ hojnoœæ twego serca... S³uchaj¹c go pomyœla³em sobie, ¿e to by³o coœ, co mog³a powiedzieæ Deheriana. Twa przyjaŸñ to najlepsza rzecz jaka mnie spotka³a, odk¹d rozsta³em siê z Deherian¹.~
 @290  = ~Jeœli mogê zapytaæ... jak dawno temu zabrano ci Deherianê?~
 @291  = ~(rumienisz siê) Zrobi³abym to dla KA¯DEGO przyjaciela...~
@@ -348,13 +348,13 @@ zostañ, mój Panie, zostañ, mój Panie...~
 @336  = ~Zechcesz... zechcesz wybaczyæ, <CHARNAME>? Potrzebujê trochê prywatnoœci aby zebraæ myœli.~
 @337  = ~(rumieni siê gwa³townie) Nie potrzebujesz znaæ tego konkretnego wyra¿enia, zaufaj mi...~
 @338  = ~To s¹...~
-@339  = ~Zapewniam ciê-~
+@339  = ~Zapewniam ciê...~
 @340  = ~Wy dwaj, zamkn¹æ siê! Natychmiast!~
 @341  = ~Monty, co ¿eœ znowu narobi³, ty futrzastostopy dziwaku?~
 @342  = ~Kivanie, masz racjê. Montaronie, nie ma tutaj miejsca na takie paskudztwa. Albo siê tego pozbêdziesz, albo ja pozbêdê siê ciebie.~
 @343  = ~Kivanie, jesteœ po prostu niemo¿liwy. Nie pozwolê ci ganiæ mojego dobrego przyjaciela, Montarona!~
-@344  = ~Ja-~
-@345  = ~<CHARNAME>-~
+@344  = ~Ja...~
+@345  = ~<CHARNAME>...~
 @346  = ~Spokojnie, Kiv. Nikomu nie dzieje siê krzywda. Nizio³ek ma... osobliwe gusta, ale nie jest taki z³y...~
 @347  = ~Nie smêæ mi za uszami, elfie. Jesteœ wprost niemo¿liwy. Nie pozwolê ci czepiaæ siê mego drogiego przyjaciela, Montarona!~
 @348  = ~Ufam, ¿e wiesz co robisz, i komu dajesz schronienie w naszych szeregach. To by³a moja ostatnia interwencja.~
@@ -476,7 +476,7 @@ W tym samotnym, majestatycznym bezliku.~
 @458  = ~Pragnieniem twych jest zapytaæ o cel mej podró¿y?~
 @459  = ~To prawda.~
 @460  = ~Celem mym jest wiedza. W tym nie ró¿niê siê od innych. Wielki Othlor uraczy³ mnie paroma s³owy proroka, i poszukujê dalszej wiedzy.~
-@461  = ~Proroctwo... pod¹¿asz za proroctwem, Dynaheir? Okazujesz zainteresowanie naszym m³odym dowódc¹ – myœlisz, ¿e-~ ~Proroctwo... pod¹¿asz za proroctwem, Dynaheir? Okazujesz zainteresowanie nasz¹ m³od¹ dowódczyni¹ – myœlisz, ¿e-~
+@461  = ~Proroctwo... pod¹¿asz za proroctwem, Dynaheir? Okazujesz zainteresowanie naszym m³odym dowódc¹ – myœlisz, ¿e...~ ~Proroctwo... pod¹¿asz za proroctwem, Dynaheir? Okazujesz zainteresowanie nasz¹ m³od¹ dowódczyni¹ – myœlisz, ¿e...~
 @462  = ~Nie wiem jeszcze. S³owo jest ciemne i niewyraŸne.~
 @463  = ~<CHARNAME> powinien wiedzieæ o twych przypuszczeniach.~ ~<CHARNAME> powinna wiedzieæ o twych przypuszczeniach.~
 @464  = ~A po có¿ takiego? Podejrzenia tylko zaœmiecaj¹ umys³ i p³ataj¹ figle percepcji. <CHARNAME> ma oczy. Nie mam pragnienia zwodziæ na manowce kogoœ niepewnym s³owem.~
@@ -532,7 +532,7 @@ W tym samotnym, majestatycznym bezliku.~
 @514  = ~B¹dŸ ostro¿na, dziecko. Tu jest doœæ œlisko.~
 @515  = ~Dziecko! Ja? Dziecko? Hmmmf! Nie mogê byæ wiele m³odsza ni¿ ty! Ile ty w ogóle masz lat?~
 @516  = ~Widzia³em dwieœcie dwadzieœcia cztery wiosny, Imoen.~
-@517  = ~Dwieœcie... £a³, ale ty JESTEŒ stary!~
+@517  = ~Dwieœcie... Coo, ale ty JESTEŒ stary!~
 @518  = ~To muzyka dla moich uszu.~
 @519  = ~Hê? No có¿. W ka¿dym razie ja ju¿ mam dwadzieœcia. Có¿, za nied³ugo dojdzie mi kolejny roczek. W Kythorn... to ju¿ niebawem. Przynajmniej Gorion uwa¿a³, ¿e mog³am urodziæ siê w Kythorn.~
 @520  = ~To przystoi piêknej damie urodziæ siê w Czasie Kwiatów.~
@@ -605,9 +605,9 @@ W tym samotnym, majestatycznym bezliku.~
 @587  = ~Musisz siê nauczyæ okazywaæ wdziêcznoœæ za to, ¿e z tob¹ jestem, Skie. Albo pewnego dnia mo¿esz mnie straciæ.~
 @588  = ~Wiem, proszê, uwierz mi! Jestem z tob¹ taka szczêœliwa!~
 @589  = ~(cicho) Nie powinienem siê wtr¹caæ.~
-@590  = ~Moja Pani Srebrna Tarczo, czy mogê z³o¿yæ ci praktyczn¹ radê?~
+@590  = ~Moja pani Srebrna Tarczo, czy mogê z³o¿yæ ci praktyczn¹ radê?~
 @591  = ~(chichocze) Chodzi o Eldotha, prawda? Wszyscy bardzo chêtnie daj¹ mi rady o Eldothcie. Có¿, wkrótce bêdê potrzebowa³a torby przechowywania aby je wszystkie pomieœciæ.~
-@592  = ~Nie, nie chodzi o Eldotha, ale o twój p³aszcz, moja pani. Jego krój-~
+@592  = ~Nie, nie chodzi o Eldotha, ale o twój p³aszcz, moja pani. Jego krój...~
 @593  = ~(rumieni siê) – jest taaaki niemodny. Masz bystre oko, elfie. Ale widzisz, nie mia³am czasu, kiedy <CHARNAME> i Eldoth wpadli jak b³yskawica przez drzwi aby mnie uratowaæ... Och, to by³o takie ekscytuj¹ce!~
 @594  = ~Chodzi³o mi o to, ¿e jego krój nie jest odpowiedni na szlak. Jest zbyt krótki aby chroniæ ciê przed deszczem, i zbyt cienki, aby chroniæ przed ch³odem. Bêd¹c w mieœcie, mo¿e kupisz sobie dobry p³aszcz z solidnej we³ny.~
 @595  = ~Och, widzia³am takie. Ale one s¹ takie... br¹zowe.~
@@ -645,10 +645,10 @@ W tym samotnym, majestatycznym bezliku.~
 @627  = ~A wiêc, elfi samiec zrobi³ siê grubiañski! Gdybyœmy byli w Menzoberranzan, pobi³abym ciê na œmieræ, za jedn¹ dziesi¹t¹ tych zniewag. Nie, pierwsze wyciê³abym twój jêzyk i zmusi³abym ciê, abyœ go zjad³, kawa³ek po kawa³ku, d³awi¹c siê w³asn¹ krwi¹ i cia³em.~
 @628  = ~(chichot) Bardzo chcia³abym to zobaczyæ.~
 @629  = ~Ale ty nawet nie mia³byœ czelnoœci, ¿eby podnieœæ na mnie wzrok, a co dopiero odezwaæ siê do mnie w taki sposób. Pe³za³byœ u moich stóp i b³aga³ o odrobinê zainteresowania!~
-@630  = ~Nie jesteœmy w Menzoberranzan. I nie pragnê-~
+@630  = ~Nie jesteœmy w Menzoberranzan. I nie pragnê...~
 @631  = ~Ha! Czy ty w ogóle wiesz czym jest pragnienie? Im d³u¿ej ciê obserwujê, tym bardziej jestem przekonana, ¿e nie jesteœ ani przyjacielem mê¿czyzn ani kochankiem kobiet. Jesteœ furi¹ i pustk¹, niczym wiêcej.~
 @632  = ~Myœl sobie co chcesz, nikczemna bestio. <CHARNAME> wie, ¿e kwestionowa³em jego decyzjê o przy³¹czeniu ciebie, i zakwestionujê j¹ jeszcze raz, gdy bêdê mia³ tylko ku temu okazjê.~ ~Myœl sobie co chcesz, nikczemna bestio. <CHARNAME> wie, ¿e kwestionowa³em jej decyzjê o przy³¹czeniu ciebie, i zakwestionujê j¹ jeszcze raz, gdy bêdê mia³ tylko ku temu okazjê.~
-@633  = ~Zapominasz siê, Kivanie. Czy¿byœ nie zna³ swego miejsca w szeregu, ¿e kwestionujesz decyzje swojego dowódcy? Dopilnujê, ¿eby <CHARNAME> dowiedzia³ siê o tym, a wtedy-~ ~Zapominasz siê, Kivanie. Czy¿byœ nie zna³ swego miejsca w szeregu, ¿e kwestionujesz decyzje swojej dowódczyni? Dopilnujê, ¿eby <CHARNAME> dowiedzia³a siê o tym, a wtedy-~
+@633  = ~Zapominasz siê, Kivanie. Czy¿byœ nie zna³ swego miejsca w szeregu, ¿e kwestionujesz decyzje swojego dowódcy? Dopilnujê, ¿eby <CHARNAME> dowiedzia³ siê o tym, a wtedy...~ ~Zapominasz siê, Kivanie. Czy¿byœ nie zna³ swego miejsca w szeregu, ¿e kwestionujesz decyzje swojej dowódczyni? Dopilnujê, ¿eby <CHARNAME> dowiedzia³a siê o tym, a wtedy...~
 @634  = ~A wtedy <CHARNAME> torturowa³by mnie a¿ do œmierci... gdybyœmy byli w Menzoberranzan. Ale nie jesteœmy w Podmroku, Viconio, a <CHARNAME> nie jest Matk¹ Prze³o¿on¹.~ ~A wtedy <CHARNAME> torturowa³aby mnie a¿ do œmierci... gdybyœmy byli w Menzoberranzan. Ale nie jesteœmy w Podmroku, Viconio, a <CHARNAME> nie jest Matk¹ Prze³o¿on¹.~
 @635  = ~Wiêc stul buziê! Jeœli chcesz zachowaæ swe ¿ycie, powstrzymasz siê od dalszego podchodzenia mnie. Nie darzê twego ludu mi³oœci¹, i Shevarash pob³ogos³awi³by mnie, gdybym uwolni³ œwiat od twojej obecnoœci.~
 @636  = ~Pewnego dnia odwiedzi³em kwatery P³omiennej Piêœci, Viconio.~
@@ -680,7 +680,7 @@ W tym samotnym, majestatycznym bezliku.~
 @662  = ~Powiadaj¹, ¿e nie jest dobrze piæ w ciszy. Co o tym s¹dzisz, Xan?~
 @663  = ~Zastanawia³em siê, czy to przystoi abym zosta³ pochowany z plam¹ po winie na swej tunice. To powa¿ny dylemat. Mo¿e jeszcze ³yczek?~
 @664  = ~Powiem ci szoœ, Xan, ta plama po winie na twej tunice... ona nie... bedzie sssamotna... w twej mogile! (œmiech)~
-@665  = ~Wygl¹da na to... sze ma ma³om psiació³ke! He-he. Ale nie dam im tej sssatysfakcji, i nie umre jutro. Och, nie! Jestem na to zza csfany! Bede szy³ jeszsze zze sto lat! Kivanie, jak to moszliwe, sze ten buk³ak srobi³ szie nagle taki lekki?~
+@665  = ~Wygl¹da na to... sze ma ma³om psiació³ke! He, he. Ale nie dam im tej sssatysfakcji, i nie umre jutro. Och, nie! Jestem na to zza csfany! Bede szy³ jeszsze zze sto lat! Kivanie, jak to moszliwe, sze ten buk³ak srobi³ szie nagle taki lekki?~
 @666  = ~To chypa... dobly plan, Xan. Po so umielaæ jutro, skoro jeszt jeszszcze tyle psiemnoszci...? No wiesz... ciewczynki... pieszni... wino...~
 @667  = ~Racja, mellonamin. Jak to sz³o? Szyj szszypko... umszyj m³oto... i szoœ dalej o pszystojnych sw³okach... Se mnie to bedzie ca³kiem pszystojny truposz... kiedy jusz umre w seciwym wieku, szie snaszy...~
 @668  = ~Kivanie, so powiesz na to... abyszmy darowali szopie te bezcelowe tu³aszki po laszach i pomkneli pszet siepie? Dwóch beztloskich menszczyzn, miecz f d³oni, pieœñ na ustach... mosze jaka dziefka w ³oszu...~

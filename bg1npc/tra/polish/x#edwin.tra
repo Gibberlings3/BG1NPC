@@ -7,8 +7,8 @@
 @6    = ~(To by³o zbyt proste.) Skoro za ka¿dym rogiem czai siê niebezpieczeñstwo, a œmieræ czyha na ciebie na ka¿dym kroku, dlaczego mia³byœ ufaæ jakiejœ ciep³ej, t³ustej substancji z bli¿ej nieokreœlonych sk³adników. Czy tylko dlatego, ¿e le¿y przed tob¹ na talerzu? Uciekaj, uciekaj, tchórzliwy zaj¹cu, gdy¿ wszêdzie czai siê cieñ! (I ma³o istotne, ¿e twój w³asny.)~
 @7    = ~Tiax, przynieœ mi jakieœ jedzenie i to szybko! Jeœli <CHARNAME> nalega, abym podró¿owa³ w twoich towarzystwie, to przynajmniej zrób coœ po¿ytecznego. (Chocia¿ nic, co by zrobi³ nie usprawiedliwia jego obecnoœci wœród nas, ani tego, ¿e wci¹¿ ¿yje.)~
 @8    = ~Tiax nie jest s³u¿¹cym! Raczej to Tiaxowi powinno siê us³ugiwaæ! Skoro ju¿ Tiax zosta³ zniewa¿ony, domaga siê, byœ to TY przygotowa³ JEGO œniadanie! Tiax lubi jajecznicê i tosty z d¿emem!!!~
-@9    = ~(Czemu¿ moi podw³adni zawsze musz¹ skomleæ i narzekaæ, zamiast pokornie wykonywaæ moje rozkazy!? Wygl¹da na to, ¿e aby coœ osi¹gn¹æ, bêdê musia³ u¿ywaæ jêzyka zrozumia³ego dla tego prostaka!) Tiax, jeœli przygotujesz mi œniadanie, u¿yjê Zwoju Panowania Nad Œwiatem, który mam odk¹d opuœci³em Thay i bêdziesz móg³ sobie zacz¹æ rz¹dziæ œwiatem, jak tylko skoñczê jeœæ.~
-@10   = ~Eeee... Zwój Panowania Nad Œwiatem?~
+@9    = ~(Czemu¿ moi podw³adni zawsze musz¹ skomleæ i narzekaæ, zamiast pokornie wykonywaæ moje rozkazy!? Wygl¹da na to, ¿e aby coœ osi¹gn¹æ, bêdê musia³ u¿ywaæ jêzyka zrozumia³ego dla tego prostaka!) Tiax, jeœli przygotujesz mi œniadanie, u¿yjê Zwoju Panowania nad Œwiatem, który mam odk¹d opuœci³em Thay i bêdziesz móg³ sobie zacz¹æ rz¹dziæ œwiatem, jak tylko skoñczê jeœæ.~
+@10   = ~Eeee... Zwój Panowania nad Œwiatem?~
 @11   = ~Tak, znalaz³em go u pewnego kobolda, którego zabi³em w drodze z Thay. To magiczny zwój. U¿yj go, a momentalnie obejmiesz w³adzê nad œwiatem. (Chcia³bym wreszcie, aby przyniós³ mi moje jedzenie!)~
 @12   = ~Ba! Tiax nie jest idiot¹! Gdyby taki zwój istnia³, Cyric osobiœcie wrêczy³by go Tiaxowi, by ten jeszcze szybciej móg³ rz¹dziæ œwiatem! Cyric nigdy nie pozwoli³by, aby taki wa¿ny zwoj wpad³ w rêce tak niem¹drego s³ugi jak ty!~
 @13   = ~Przyniesiesz mi moje œniadanie, czy nie!?~
@@ -103,7 +103,7 @@
 @102  = ~Och, tak, ale jak daleko sprawiedliwoœæ mo¿e siê posun¹æ? Rozwa¿my jednak tak¹ hipotetyczn¹ sytuacjê. (Jeœli to pojêcie w ogóle znajduje siê w jego s³owniku.)~
 @103  = ~Hipotetyczn¹ sytuacjê? Ból mojej ¿ony nie by³ hipotetyczny, Edwinie.~
 @104  = ~Tak, tak, ale do rzeczy. Czy sprawiedliwoœci¹ jest zabiæ stra¿ników, którzy stoj¹ bezczynnie przed namiotem Tazoka? Mo¿e zostali zatrudnieni w ubieg³y wieczór i nie mieli nic wspólnego z morderstwem twej ¿ony.~
-@105  = ~Nie zabijê osoby, która stoi bezczynnie, Edwinie. Ale zabijê ka¿dego, kto bêdzie próbowa³ chroniæ Tazoka. Nikt dobry nie pracowa³by na us³ugach tego pó³-ogra, nawet nie wiedz¹c o jego zbrodniach.~
+@105  = ~Nie zabijê osoby, która stoi bezczynnie, Edwinie. Ale zabijê ka¿dego, kto bêdzie próbowa³ chroniæ Tazoka. Nikt dobry nie pracowa³by na us³ugach tego pó³ogra, nawet nie wiedz¹c o jego zbrodniach.~
 @106  = ~Tu nie chodzi o pojêcie dobra i z³a, ale zbrodni i kary. Ktoœ taki jest winny jedynie niezwyk³ej g³upoty, ¿e wybra³ sobie takiego pracodawcê. Jego obowi¹zkiem jest ochrona Tazoka. Czy taka zbrodnia w dzisiejszych czasach jest karana œmierci¹ wed³ug kodeksu ³owców?~
 @107  = ~Mê¿czyzna, o którym mówisz zdecydowa³ siê do³¹czyæ do bandytów, Edwinie. Wybra³ rabowanie, morderstwa i tortury niewinnych jako Ÿród³o utrzymania.~
 @108  = ~(To proste, niemal zbyt proste...) A wiêc, nagle zosta³eœ mœcicielem WSZYSTKICH niewinnych, nie tylko Deheriany. Interesuj¹ce, kr¹g twych wrogów powiêksza siê szybciej ni¿ mój. Nie zastanawiasz siê, czy czasem twoja misja nie rozros³a siê do rozmiarów, do których nie chcesz siê przyznaæ?~

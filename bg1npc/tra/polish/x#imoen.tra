@@ -150,8 +150,8 @@
 @149  = ~Och, nie bój siê o mnie. Tak sobie ¿artowa³am.~
 @150  = ~Tiaaa. TY to masz jednak poczucie humoru!~
 @151  = ~Có¿... wygl¹da na to, ¿e ktoœ ciê ju¿ w coœ przemieni³... w DURNIA! Ale dziêki za "troskê". Phi.~
-@152  = ~Te "czary", czy jak im tam, te rzeczy na koñcu? Wygl¹daj¹ na wa¿ne. Nie bêdê siê w nich papraæ.~
-@153  = ~Ale te malutkie, stare rzeczy na pocz¹tku... Za³o¿ê siê, ¿e nawet ja mog³abym siê ich nauczyæ. Tak czy inaczej, spróbujê.~
+@152  = ~Te "czary", czy jak im tam, na koñcu ksiêgi? Wygl¹daj¹ na wa¿ne. Nie bêdê siê w nich papraæ.~
+@153  = ~Ale te malutkie, proœciutkie na pocz¹tku... Za³o¿ê siê, ¿e nawet ja mog³abym siê ich nauczyæ. Tak czy inaczej, spróbujê.~
 @154  = ~Có¿, w porz¹dku. Tylko b¹dŸ ostro¿na, dobrze?~
 @155  = ~Nie wydaje mi siê, ¿eby to by³ dobry pomys³, Imoen. Lepiej zostawiæ to komuœ, kto siê na tym zna.~
 @156  = ~Nie ma mowy, Imoen. Oddaj mi to. I nie bêdê siê powtarzaæ.~
@@ -163,7 +163,7 @@
 @162  = ~Dobrze, ty zgorzknia³y starcze! I tak nie chcia³am tej g³upiej rzeczy. Oto twoja stara, œmierdz¹ca ksi¹¿ka.~ ~Dobrze, ty zgorzknia³a starucho! I tak nie chcia³am tej g³upiej rzeczy. Oto twoja stara, œmierdz¹ca ksi¹¿ka.~
 @163  = ~(Jeszcze zobaczymy. Kiedyœ musisz spaæ, hi hi.)~
 @164  = ~Wezmê j¹, dziêkujê. Nastêpnym razem trzymaj siê z daleka.~
-@165  = ~Wiêc to jest Most Firewine!? £a³! Nie jest zwyczajnie ogromny!? Zastanawiam siê jak wygl¹da³, kiedy go u¿ywano.~
+@165  = ~Wiêc to jest most Firewine!? No nieŸle! Nie jest zwyczajnie ogromny!? Zastanawiam siê jak wygl¹da³, kiedy go u¿ywano.~
 @166  = ~Ba! Widzia³aœ jeden most, widzia³aœ wszystkie!~
 @167  = ~Tak, ale to tylko pokazuje jak ogromne rzeczy mog¹ przetrwaæ próbê czasu.~
 @168  = ~Tak, ale to tylko pokazuje, ¿e choæ ludzie i inne rasy mog¹ zrobiæ cokolwiek zechc¹, to ¿adna z tych rzeczy nie bêdzie trwa³a wiecznie. Kiedyœ wszystko zostanie zapomniane i zniszczone.~
@@ -187,7 +187,7 @@
 @186  = ~Nie, to pewnie skoñczy³oby siê drzemk¹. Wiêkszoœæ tych ksi¹¿ek historycznych, które próbuj¹ opisaæ historiê dok³adnie tak¹, jak¹ by³a, jest zbyt nudna.~
 @187  = ~Um... taaa...~
 @188  = ~Hejka, Quayle! ChodŸ na momencik!~
-@189  = ~(Spogl¹dasz na Imoen i widzisz, ¿e wziê³a ksiêgê magii zabójcy Tarnesha, czyta j¹.)~
+@189  = ~(Spogl¹dasz na Imoen i widzisz, ¿e wziê³a ksiêgê magii Tarnesha, czyta j¹.)~
 @190  = ~Robisz jakieœ postêpy, Imoen?~
 @191  = ~Mam nadziejê, ¿e jesteœ z tym ostro¿na, Imoen. Nie chcê, ¿eby tobie, albo komukolwiek innemu, sta³a siê krzywda.~
 @192  = ~Imoen, zostaw to! W jakie k³opoty teraz siê pakujesz?~
@@ -231,7 +231,7 @@ Uuups!~
 @228  = ~Rad jestem, ¿e mój przyk³ad móg³ byæ choæ trochê u¿yteczny. A teraz, gdzie jest Monty? Ach, có¿, domyœlam siê, ¿e obchodzi³aœ siê z ni¹ tak brutalnie, ¿e do tej pory wywo³a³aœ wszystkie na³o¿one nañ czary ochronne.~
 @229  = ~Ochronne?~
 @230  = ~Oczywiœcie. Ka¿dy rozwa¿ny mag zastawia w swojej ksiêdze magii pu³apki na intruzów... i wielu nierozwa¿nych magów równie¿. Te urocze, b³yszcz¹ce kolory. A reszta czasem zawiera per³y warte wysi³ku wygrzebania ich z gnoju.~
-@231  = ~(gulp) Eee... dziêki? Chyba...~
+@231  = ~(prze³yka œlinê) Eee... dziêki? Chyba...~
 @232  = ~Ostro¿nie z tym, szczeniaku! Takie myœli z pewnoœci¹ s¹ poza twoimi ubogimi mo¿liwoœciami percepcji, ale czy zastanowi³aœ siê choæ przez chwilê nad pu³apkami i czarami ochronnymi, które mog³y zostaæ na³o¿one na tak¹ ksiêgê?~
 @233  = ~(Nie, ¿eby coœ tam by³o. Sam sprawdzi³em i nic nie znalaz³em.)~
 @234  = ~Twoje szczêœcie, ¿e rozbroi³em liczne i œmiertelnie groŸne pu³apki z tej ksiêgi. By³y dobrze ukryte, ale nie tak dobrze, ¿eby zwieœæ maga z Thay.~
@@ -243,9 +243,9 @@ Uuups!~
 @240  = ~Bardzo jestem ciekawa, co zamierzasz z ni¹ zrobiæ.~
 @241  = ~Niestety, <CHARNAME> ma racjê. Nic siê nie liczy na d³u¿sz¹ metê, ktokolwiek by tego nie robi³. Wszystko kiedyœ zostaje zapomniane i zniszczone.~
 @242  = ~(zrzêdzi) To nic nadzwyczajnego. My, krasnoludowie, budowaliœmy wspanialsze mosty wieki wczeœniej ni¿ ten mia³ zostaæ zbudowany. Có¿, wcale bym siê nie zdziwi³, gdyby wielu krasnoludzkich kamieniarzy zosta³o zatrudnionych do tej roboty.~
-@243  = ~£a³. Wiêc twój klan kiedykolwiek coœ takiego zbudowa³?~
+@243  = ~Niemo¿liwe. Wiêc twój klan kiedykolwiek coœ takiego zbudowa³?~
 @244  = ~Oczywiœcie, ¿e tak, panienko! To, ¿e nasze twierdze s¹ pod ziemi¹ nie oznacza, ¿e nie potrzebujemy mostów! Có¿, kiedy nasz klan po raz pierwszy osiedli³ siê, odkryliœmy otwart¹ grotê, bez ma³a d³ug¹ na piêæ tysiêcy stóp! A w dó³ ci¹gnê³a siê na przynajmniej tysi¹c, w w¹skich odcinkach. Nie by³o mowy o przejœciu... nie da³o siê dostaæ do kamienia, który by³ zapewne z drugiej strony, ani przynieœæ go z powrotem. Wiêc nasz najlepszy kamieniarz zbudowa³ most, podziemna chwa³a, to by³ dopiero most.~
-@245  = ~Piêæ tysiêcy stóp?!? To jest... ³a³. Jak on to zrobi³?~
+@245  = ~Piêæ tysiêcy stóp?! To jest... œwietne. Jak on to zrobi³?~
 @246  = ~To by³o zaprawdê wspania³e osi¹gniêcie, sta³o siê krótk¹ sag¹ jako czêœæ historii naszego klanu... ale niech ta opowieœæ poczeka na nadejœcie nocy, przy ognisku, gdzie mogê opowiadaæ j¹ po kawa³ku raz na jakiœ czas.~
 @247  = ~Dlaczego? Jak d³uga jest?~
 @248  = ~Och, wcale nie jest d³uga. Jeœli pominê wszystkie szczegó³y techniczne, zajê³aby nieca³y tydzieñ...~
@@ -267,7 +267,7 @@ Uuups!~
 @264  = ~Jeszcze parê spraw. Potrzeba trochê czasu, ¿eby w³osy i paznokcie wróci³y do normy, bêdziesz musia³ porz¹dnie umyæ twarz, ¿eby pozbyæ siê tego ca³ego makija¿u.~
 @265  = ~Swoj¹ drog¹, nie myœl, ¿e ju¿ z tob¹ skoñczy³am. Mam jeszcze parê pomys³ów w zanadrzu.~
 @266  = ~(wzdycha) Corellonie, miej nade mn¹ litoœæ... Kolejna przegrana sprawa...~
-@267  = ~£a³, to jest ca³kiem nieŸle wykonane. Zastanawiam siê sk¹d on to ma?~
+@267  = ~To jest ca³kiem nieŸle wykonane. Zastanawiam siê sk¹d on to ma?~
 @268  = ~Na co patrzysz?~
 @269  = ~Ta statuetka nale¿y do mnie, panno Imoen. Proszê, czy by³abyœ tak uprzejma i odda³a mi j¹?~
 @270  = ~Hmm? Kiedy siê tu pojawi³eœ?~
@@ -281,7 +281,7 @@ Uuups!~
 @278  = ~(krzyczy) Hej, wszyscy, Ajantis tu i teraz zadeklarowa³ swoj¹ nieœmierteln¹ mi³oœæ do mnie!~
 @279  = ~(rumieni siê) Nic takiego nie zrobi³em!~
 @280  = ~Ale da³eœ mi ten prezent. Wiêc mówisz, ¿e mnie nie kochasz?~
-@281  = ~Ja nigdy-~
+@281  = ~Ja nigdy...~
 @282  = ~Jak mog³eœ!? Bawiæ siê w ten sposób kobiecym sercem! I ty chcesz byæ szlachetny! Dobrze, proszê, weŸ sobie t¹ g³upi¹ rzecz! Nie potrzebujê jej. (rzuca statuetk¹ w Ajantisa)~
 @283  = ~Przepraszam, panno Imoen, nie wiedzia³em, co czujesz.~
 @284  = ~(wstrzymuje siê przez chwilê i zaczyna turlaæ siê po ziemi, œmiej¹c siê) ¯a³uj, ¿e nie widzia³eœ swojej twarzy! By³a taaaaka powa¿na.~
@@ -325,7 +325,7 @@ Uuups!~
 @322  = ~Hejka, Coran! Mogê porozmawiaæ z tob¹ na osobnoœci przez chwilê? (mruga sugestywnie)~
 @323  = ~O co chodzi, Imoen?~
 @324  = ~Có¿. Jest coœ, co od jakiegoœ czasu nie daje mi spokoju, no wiesz, na twój temat. (zbli¿a siê do Corana i obejmuje go rêkoma)~
-@325  = ~(uœmiechaj¹c siê) W³aœnie dlatego kocham ludzkie dziewczyny... dorastaj¹ tak... nagle i s¹ wype³nione tak¹ s³odk¹ pasj¹-~
+@325  = ~(uœmiechaj¹c siê) W³aœnie dlatego kocham ludzkie dziewczyny... dorastaj¹ tak... nagle i s¹ wype³nione tak¹ s³odk¹ pasj¹...~
 @326  = ~(szepcz¹c mu do ucha) Taa! Powstrzymywa³am swoje uczucia przez jakiœ czas, no wiesz, <CHARNAME>, ale to nie dawa³o mi spokoju, wiêc musia³am ci powiedzieæ.~
 @327  = ~O! Auæ! Ty... uderzy³aœ mnie! Masz ca³kiem twarde kolana, dziewczynko. Nastêpnym razem poruszaj nimi ostro¿niej. Gdybyœ lepiej wycelowa³a zostawi³abyœ mnie bez potomstwa.~
 @328  = ~Wiêc masz szczêœcie, ¿e nie trafi³am, bo tak¹ mia³am nadziejê! To by³o za ignorowanie twojej córki! Gardzê takimi odra¿aj¹cymi typami jak ty. Naprawdê NIENAWIDZÊ tego co jej zrobi³eœ! Mam nadziejê, ¿e zdechniesz i zgnijesz w Dziewiêciu Piek³ach.~
@@ -351,7 +351,7 @@ Uuups!~
 @348  = ~Niestety, zosta³em zdemaskowany. Teraz chyba ju¿ nie mam innego wyjœcia, jak tylko wszystko wyjaœniæ.~
 @349  = ~Nom. Nic tutaj nie umknie kumpeli Imoen!~
 @350  = ~Imoen, zakocha³em siê w tobie.~
-@351  = ~Co-~
+@351  = ~Co...~
 @352  = ~Twoja uroda - ona lœni jak latarnia morska naprowadzaj¹ca moje serce! (Muszê zapamiêtaæ tê ckliw¹ improwizacjê.)~
 @353  = ~Cz-czy czasem ktoœ na ciebie nie czeka?~
 @354  = ~Niestety, Skie, biedna bogata dziewczyna... Teraz widzê, ¿e to by³o tylko m³odzieñcze zauroczenie w porównaniu do nieodpartej mi³oœci, któr¹ ¿ywiê do ciebie.~
@@ -364,7 +364,7 @@ Uuups!~
 @361  = ~Nie, nie, to nie bêdzie konieczne. Ty nie... emm... wziê³aœ ze sob¹ te¿ ¿adnego pradawnego zwoju, albo dwóch? Nie? Niefortunna sytuacja...~
 @362  = ~Hej, Faldorn, dlaczego twoi rodzice oddali ciê druidom? Có¿, teraz jesteœ pod³a, brudna i nadêta. Ale nie zawsze taka by³aœ, nie?~
 @363  = ~Ziemie mojego plemienia zosta³y dotkniête susz¹ i mrozem na parê lat. Modlitwa sta³a siê niewystarczaj¹ca, a strumienie wysch³y. Tempus, Auril i duchy przodków nie s³ucha³y próœb moich ludzi. Wiêc starsi plemienia zdecydowali oddaæ pierwsze niemowlê druidom.~
-@364  = ~£a³! Czy to powstrzyma³o suszê?~
+@364  = ~Œmiesznie! Czy to powstrzyma³o suszê?~
 @365  = ~Tak, powstrzyma³o. Silvanus by³ usatysfakcjonowany tym, ¿e Czarny Kruk sprowadzi³ naczynie dla ducha swojego oddanego s³ugi i las ponownie sta³ siê wilgotny i obfity.~
 @366  = ~Naczynie? Hej, dali mo¿e te¿ lasowi te du¿e kot³y, których u¿ywaj¹ druidzi? No wiesz, te du¿e miedziane? Bardzo b³yszcz¹ce?~
 @367  = ~Nie, ty g³upia dziewczyno! Dzieñ, w którym zosta³am oddana lasom by³ ostatnim, kiedy Wielki Druid, Kador Wypalacz, by³ widziany ¿ywy. Wst¹pi³ we mnie jego duch, bez w¹tpienia! Wszystkie znaki na to wskazuj¹. Muszê tylko odnaleŸæ jego sejmitar, Szmaragdowy Promieñ, ¿eby to udowodniæ!~
@@ -381,7 +381,7 @@ Uuups!~
 @378  = ~Nie chcia³abym byæ nieuprzejma, ale dlaczego tak bardzo nienawidzisz miast? Taa, wiem, ¿e jesteœ druidem, ale jak ludzie i inni musisz gdzieœ ¿yæ, no wiesz.~
 @379  = ~Nie chodzi o fakt, ¿e ludzie buduj¹ miasta, ale raczej o sposób w jaki to robi¹. Wiêkszoœæ ludzi konstruuje swoje wsie z ma³ym, jeœli w ogóle, szacunkiem dla natury.~
 @380  = ~Tia, tutaj masz racjê, ale co mo¿emy na to poradziæ?~
-@381  = ~Có¿, mo¿esz zacz¹æ od-~
+@381  = ~Có¿, mo¿esz zacz¹æ od...~
 @382  = ~(wykonuje odsy³aj¹cy gest rêk¹) PóŸniej, kiedy dojdziemy do tawerny. Jestem g³odna i chcê wzi¹æ ciep³¹ k¹piel.~
 @383  = ~Hejka, Khalid, myœla³am o tym, ¿eby ciê o coœ zapytaæ.~
 @384  = ~Wiêc p-pytaj. Ale twoje udawanie "Imoen Niewinnej" p-pozostawia wiele do ¿yczenia. N-nie wzbudza jeszcze zaufania.~
@@ -416,7 +416,7 @@ Uuups!~
 @413  = ~Czy pewnego poranka <CHARNAME> nie zgubi³<HESHE> swego buta?~
 @414  = ~Tia, ale to by³o miêdzy mn¹ a nim.~ ~Tia, ale to by³o miêdzy mn¹ a ni¹.~
 @415  = ~I innego dnia, kiedy unika³aœ Jaheiry, po tym jak zgin¹³ jej naszyjnik.~
-@416  = ~Có¿, em... widzisz... Jaheira powiedzia³a, ¿e jestem zbyt niedoœwiadczona i ja-~
+@416  = ~Có¿, em... widzisz... Jaheira powiedzia³a, ¿e jestem zbyt niedoœwiadczona i ja...~
 @417  = ~I kiedy Edwin wydziera³ siê na nas, po tym jak znikn¹³ jeden z jego zwojów.~
 @418  = ~Wiêc to jednak ten ma³y bachor.~
 @419  = ~A co powiesz o tym, kiedy zabra³aœ ukradkiem tê ró¿d¿kê z plecaka wiedŸmy i próbowa³aœ j¹ schowaæ?~
@@ -437,7 +437,7 @@ Uuups!~
 @434  = ~Tia, ale to nie dok³adnie to o co pyta³am. Chcia³am wiedzieæ, jak¹ osob¹ by³a.~
 @435  = ~Och, Minsc nie zrozumia³ pytania.~
 @436  = ~Dynaheir jest bardzo siln¹ kobiet¹. Jest te¿ bardzo m¹dra, czasami Boo myœli, ¿e ma pomys³y, na które on sam by nie wpad³. Dynaheir jest te¿ bardzo dobr¹ osob¹, w przeciwnym razie Minsc nie próbowa³by tak dobrze jej broniæ, mam racjê, Boo?~
-@437  = ~(Pisk)~ [GAM_48]
+@437  = ~(Boo piszczy)~ [GAM_48]
 @438  = ~Ale ty, moja ma³a, powinnaœ poczekaæ, a¿ sama j¹ poznasz. Wiem, ¿e ciê polubi.~
 @439  = ~Hej, Minsc, co dok³adnie Boo lubi jeœæ?~
 @440  = ~Boo je g³ównie orzechy, ziarna i jagody. Sprawiaj¹, ¿e ca³y czas jest silny, szybki i m¹dry, ale uwielbia te¿ jeœæ ser. Najbardziej lubi ser.~
@@ -484,7 +484,7 @@ Uuups!~
 @481  = ~Emm. Nie zaczynaj znowu. Dlaczego nie mo¿emy wnieœæ trochê ró¿norodnoœci? To znaczy, s³ysza³am, ¿e nawet karawany kupieckie maj¹ lepsze jedzenie ni¿ to.~
 @482  = ~Tia, ale oni te¿ zazwyczaj wiedz¹ kiedy i gdzie bêd¹ nastêpnego dnia. Wiêc, jeœli nie chcesz jeœæ spleœnia³ego chleba albo zgni³ych pomidorów to nie narzekaj. Poza tym, nie musimy tego jeœæ codziennie. Znaczy, wczoraj mieliœmy suszon¹ rybê.~
 @483  = ~TIAX! Za tob¹! To Cyric! Twoja chwila chwa³y nadesz³a!~
-@484  = ~Co!?! Gdzie!?! ~
+@484  = ~Co!?! Gdzie!?!~
 @485  = ~Ha ha! Spojrza³eœ!~
 @486  = ~Przeznaczenie Tiaxa nie bêdzie wyœmiewane przez tego szczeniaka! Czeka ciê dzieñ na kole tortur, kiedy Tiax bêdzie rz¹dzi³! Tiax i tak WIEDZIA£, ¿e od pocz¹tku k³ama³aœ. Kiedy Cyric nadejdzie, Tiax bêdzie wiedzia³, poniewa¿ Cyric naznaczy sw¹ drogê krwi¹ i zniszczeniem wszystkich wrogów Tiaxa, zanim ostatecznie umieœci koronê w³adzy na oczekuj¹cych skroniach Tiaxa! Bêdziecie dr¿eæ ze strachu i b³agaæ o...~
 @487  = ~Tiax!!! Patrz, nad tob¹!!! CYRIC PRZYBY£!!!~
@@ -565,7 +565,7 @@ Uuups!~
 @562  = ~Hmm, wiêc jeœli nos Quayle'a nie jest normalny, zastanawiam siê, co jeszcze z nim nie tak? Mog³abyœ po¿yczyæ mi tê ksi¹¿kê, Imoen?~
 @563  = ~Có¿, pewnie tak, ale muszê j¹ zwróciæ. Po¿yczy³am j¹ sobie, tak jakby... (gwi¿d¿e niewinnie)~
 @564  = ~Hmm, zastanawiam siê, co jeszcze w tobie mo¿e byæ poni¿ej normy, gnomie.~
-@565  = ~Ha ha. Nie martw siê, Quayle, zachowam to w sekrecie. (chichoce) Mo¿e.~
+@565  = ~Ha ha. Nie martw siê, Quayle, zachowam to w sekrecie. (chichocze) Mo¿e.~
 @566  = ~Nie przyjmuj siê tym teraz. Zawsze mogê rozci¹gn¹æ twój nochal, za odpowiedni¹ cenê.~
 @567  = ~(zakrywa swój nos) Nigdy nie poni¿y³bym siê do sztucznego rozci¹gania nosa, szczególnie przez krasnoluda.~
 @568  = ~Uwa¿aj... bo mogê rozci¹gn¹æ inne czêœci twojego cia³a. Bezp³atnie...~
@@ -587,7 +587,7 @@ Uuups!~
 @584  = ~Och, dobrze. Ruszajmy dalej.~
 @585  = ~Taa, obiecujê.~
 @586  = ~I inne zwoje równie¿. Na pewno byliby zmartwieni, gdyby siê zgubi³y.~
-@587  = ~Jak ty-?~
+@587  = ~Jak ty...?~
 @588  = ~Nigdy siê nie zmienisz.~
 @589  = ~(przewracasz oczami) Ruszajmy dalej, ma³a z³odziejko.~
 @590  = ~Bo masz bardzo denerwuj¹cy zwyczaj kradniêcia WSZYSTKIEGO, co widzisz.~
@@ -600,7 +600,7 @@ Uuups!~
 @597  = ~Mam nadziejê, ¿e nikt z nas jej nie spotka w najbli¿szym czasie. Tia, wiem, ¿e ty jesteœ strasznym zrzêd¹ i w ogóle, ale mam idealne lekarstwo na twój depresyjny nastrój.~
 @598  = ~(wzdycha)~
 @599  = ~Ty tak myœlisz. Tak czy inaczej, chcesz us³yszeæ o moim pomyœle?~
-@600  = ~Znam ju¿ takich jak ty. Jeœli odpowiem: "Nie", co jest moim najwiêkszym pragnieniem, zapytasz: "Dlaczego?" i dalej bêdziesz mnie napastowaæ a¿ do mojego koñca. Z mi³¹ chêci¹ spêdzi³bym ostatnie chwile w spokoju, wiêc wypluj to z siebie i pamiêtaj, ¿e zwiêz³oœæ jest-~
+@600  = ~Znam ju¿ takich jak ty. Jeœli odpowiem: "Nie", co jest moim najwiêkszym pragnieniem, zapytasz: "Dlaczego?" i dalej bêdziesz mnie napastowaæ a¿ do mojego koñca. Z mi³¹ chêci¹ spêdzi³bym ostatnie chwile w spokoju, wiêc wypluj to z siebie i pamiêtaj, ¿e zwiêz³oœæ jest...~
 @601  = ~Wspaniale! Teraz s³uchaj, bo wiem, ¿e bêdziesz zadowolony jak to podzia³a; bêdziesz móg³ powiedzieæ wszystkim, ¿e to Imoen ciê uleczy³a.~
 @602  = ~Oto lekarstwo: ubiorê ciê w jaskrawe kolory, szczególnie du¿o ró¿owego. Mo¿emy nawet przefarbowaæ twoje w³osy na ró¿owo, jeœli to pomo¿e, pomalowaæ paznokcie na ró¿owo, wszystko, ¿eby wyci¹gn¹æ ciê z tego podejœcia "¿ycie nie jest warte ¿ycia"!~
 @603  = ~(patrzy ze zw¹tpieniem na jasny i weso³y uœmiech Imoen) W¹tpiê, ¿eby to zadzia³a³o. Efektem bêdzie tylko strata twojego czasu, pieniêdzy i wysi³ek, które mog³abyœ lepiej spo¿ytkowaæ na nasz¹ ewentualn¹ œmieræ.~
@@ -657,7 +657,7 @@ Uuups!~
 @654  = ~(wzdycha) Przynajmniej kolejna przegrana sprawa do walki...~
 @655  = ~Tak, ja... zauwa¿y³em. (Rumieni siê a¿ po czubki uszu.) Vanimle sila tiri... Twoja piêkno b³yszczy jasno... niezale¿nie od ubioru.~
 @656  = ~(nadal wpatruj¹c siê w ciebie) Hmmm... tak... a co tam... <CHARNAME>... eee... Imoen.~
-@657  = ~Tak, w³aœnie, ³atwo poczuæ ten owiewaj¹cy ciê zapach pewnoœci siebie, <CHARNAME>. Ale, widzê-~
+@657  = ~Tak, w³aœnie, ³atwo poczuæ ten owiewaj¹cy ciê zapach pewnoœci siebie, <CHARNAME>. Ale, widzê...~
 @658  = ~Wiêc nie nosi³byœ ich. To dlaczego ja mam to robiæ? Przynajmniej umrzeæ chcia³bym z godnoœci¹, choæ to marne pocieszenie.~ ~Wiêc nie nosi³abyœ ich. To dlaczego ja mam to robiæ? Przynajmniej umrzeæ chcia³bym z godnoœci¹, choæ to marne pocieszenie.~
 @659  = ~Masz racjê. Imoen, oddaj mu jego rzeczy!~
 @660  = ~Z powodu twojego podejœcia. Oto dlaczego.~

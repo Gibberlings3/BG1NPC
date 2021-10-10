@@ -10,9 +10,7 @@
 @9    = ~Nie, chyba ¿e znajdziesz gnoma o ego wielkoœci Waterdeep.~
 @10   = ~Dziwny gnom
 
-Spotka³em tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej dru¿ynie. Byæ mo¿e warto bêdzie do niego powróciæ, gdy znajdê kogoœ, odpowiadaj¹cego jego opisowi.~ ~Dziwny gnom
-
-Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej dru¿ynie. Byæ mo¿e warto bêdzie do niego powróciæ, gdy znajdê kogoœ, odpowiadaj¹cego jego opisowi.~
+Spotkaliœmy tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej dru¿ynie. Byæ mo¿e warto bêdzie do niego powróciæ, gdy znajdê kogoœ, odpowiadaj¹cego jego opisowi.~
 @11   = ~Achhh. Byæ mo¿e porozmawiamy póŸniej. Nie powinno byæ trudne odnalezienie kogoœ ma³ego z wielkim ego – tacy lubi¹ siê wyró¿niaæ.~
 @12   = ~Có¿, to strata czasu. ChodŸmy.~
 @13   = ~Chyba nie wyrazi³em siê jasno. To wygl¹da tak: pomogê ci, a ty oddajesz mi sw¹ sakwê. Nie pomogê ci, równie¿ oddajesz mi sw¹ sakwê. Cokolwiek zrobiê, oddajesz mi sw¹ sakwê.~ ~Chyba nie wyrazi³am siê jasno. To wygl¹da tak: pomogê ci, a ty oddajesz mi sw¹ sakwê. Nie pomogê ci, równie¿ oddajesz mi sw¹ sakwê. Cokolwiek zrobiê, oddajesz mi sw¹ sakwê.~
@@ -29,9 +27,7 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @24   = ~Czy¿byœ insynuowa³<HESHE>, ¿e me ego jest znacznie wa¿niejsze ni¿ ma wiedza? Byæ mo¿e powinienem odebraæ to jako zniewagê.~
 @25   = ~Dziwny gnom
 
-Spotka³em tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej dru¿ynie. Byæ mo¿e warto bêdzie do niego powróciæ, gdy znajdê kogoœ, odpowiadaj¹cego jego opisowi.~ ~Dziwny gnom
-
-Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej dru¿ynie. Byæ mo¿e warto bêdzie do niego powróciæ, gdy znajdê kogoœ, odpowiadaj¹cego jego opisowi.~
+Spotkaliœmy tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej dru¿ynie. Byæ mo¿e warto bêdzie do niego powróciæ, gdy znajdê kogoœ, odpowiadaj¹cego jego opisowi.~ 
 @26   = ~Niewa¿ne. Mo¿e uda nam siê jeszcze znaleŸæ kogoœ pasuj¹cego do tego opisu.~
 @27   = ~Dziwak. Mo¿e natkniemy siê na kogoœ, pasuj¹cego do tego opisu.~
 @28   = ~Dziwak. Ma za ma³o z³ota, by byæ u¿ytecznym. Mo¿e póŸniej natkniemy siê na kogoœ, kto mo¿e mu pomóc.~
@@ -41,7 +37,7 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @32   = ~Wydaje mi siê, ¿e on mówi³ o kimœ innym, Quayle... ale niewa¿ne. Mo¿e natkniemy siê na kogoœ, kogo moglibyœmy mu przyprowadziæ.~
 @33   = ~Niewa¿ne. Mam wa¿niejsze rzeczy na g³owie.~
 @34   = ~Jeœli nie zapomnê.~
-@35   = ~Na Baervana! Niemo¿liwe! Albo do listy mych strapieñ dosz³o szaleñstwo, albo sam Baervan hojnie mi pob³ogos³awi³! Telliax? Czy to naprawdê ty!?~
+@35   = ~Na Baervana! Niemo¿liwe! Albo do listy mych strapieñ dosz³o szaleñstwo, albo sam Baervan hojnie mi pob³ogos³awi³! Telliax? Czy to naprawdê ty?!~
 @36   = ~Tiax domaga siê, byœ przesta³ bryzgaæ mu œlin¹ w twarz, niewolniku! Z drogi! Tiax nie toleruje przeszkód podczas swego przemarszu!~
 @37   = ~"Tiax"? O czym ty gadasz? ChodŸ ze mn¹! Jesteœ jedyn¹ szans¹ na to, bym pozby³ siê tych przeklêtych ³owców nagród siedz¹cych mi na karku!~
 @38   = ~Pan wybaczy? Kim pan jest, i dlaczego zwraca siê do Tiaxa tym imieniem?~
@@ -67,13 +63,13 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @58   = ~Taa, taa... czy mogê?~
 @59   = ~Có¿... w porz¹dku, starcze, powiedz co masz do powiedzenia. Jednak¿e streszczaj siê, nie mamy czasu!~
 @60   = ~Wygl¹da na to, ¿e na staroœæ pogorszy³ ci siê s³uch! OdejdŸ lub zdychaj. Trzeciego ostrze¿enia nie bêdzie!~
-@61   = ~Wygl¹da na to, ¿e mnie nie s³uchasz. Moi przyjaciele uwa¿aj¹, ¿e zabicie ciebie za twe zuchwalstwo mo¿e stanowiæ nielich¹ rozrywkê. Na twoim miejscu znikn¹³bym... ~
+@61   = ~Wygl¹da na to, ¿e mnie nie s³uchasz. Moi przyjaciele uwa¿aj¹, ¿e zabicie ciebie za twe zuchwalstwo mo¿e stanowiæ nielich¹ rozrywkê. Na twoim miejscu znikn¹³bym...~
 @62   = ~Mam tego doœæ. Zaraz ciê zabijê. Na twoim miejscu bra³bym nogi za pas.~
 @63   = ~Zaczepi³ nas dziœ jakiœ gnom o imieniu Belgin Wêdrowiec; da³em mu do zrozumienia, ¿e niechciani intruzi to g³upcy zagl¹daj¹cy œmierci w oczy. Jestem pewien, ¿e ponownie nie odwa¿y siê nas zaczepiæ.~ ~Zaczepi³ nas dziœ jakiœ gnom o imieniu Belgin Wêdrowiec; da³am mu do zrozumienia, ¿e niechciani intruzi to g³upcy zagl¹daj¹cy œmierci w oczy. Jestem pewna, ¿e ponownie nie odwa¿y siê nas zaczepiæ.~
 @64   = ~Ale... ach, niech bêdzie. Wyt³umaczê siê, ale potem b³agam o wasz¹ pomoc~
-@65   = ~Cyric!? Co na piek³a ci siê przytrafi³o, synu!?~
+@65   = ~Cyric?! Co na piek³a ci siê przytrafi³o, synu?!~
 @66   = ~Tiax ujrza³ œwiat³oœæ... eee, ciemnoœæ Czarnego S³oñca! Wszechpotê¿ny Cyric, w³adca wszystkiego, zapewni Tiaxowi w³adzê nad wszystkim! Armie Tiaxa spustosz¹ krainy a jego wrogowie bêd¹ kuliæ siê na widok jego sztandarów! Wszyscy chwa³a Tiaxowi, najwspanialszemu s³udze Cyrika i w³adcy wszystkiego!~
-@67   = ~Có¿ to za bzdury!? Telliaxie, wiem, ¿e by³eœ aroganckim g³upkiem, ale, na Baervana, zachowujesz siê jak szaleniec! Ba, czy to wa¿ne!? Szalony czy nie, póki ¿yjesz, mo¿esz mnie ocaliæ! ChodŸ! Nie mamy czasu do stracenia!~
+@67   = ~Có¿ to za bzdury?! Telliaxie, wiem, ¿e by³eœ aroganckim g³upkiem, ale, na Baervana, zachowujesz siê jak szaleniec! Ba, czy to wa¿ne?! Szalony czy nie, póki ¿yjesz, mo¿esz mnie ocaliæ! ChodŸ! Nie mamy czasu do stracenia!~
 @68   = ~Proszê, wyt³umacz siê. Jeœli potrzebujesz pomocy, poproœ o ni¹. Pomo¿emy ci, jeœli twa sprawa jest s³uszna.~
 @69   = ~Nigdzie nie pójdzie, póki nie uzyskamy kilku odpowiedzi. O czym ty mówisz? Mów, tylko szybko!~
 @70   = ~Odczep siê od nas, starcze, albo licz siê z konsekwencjami! Nie mamy czasu.~
@@ -81,11 +77,11 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @72   = ~Zaczepi³ nas dziœ jakiœ gnom o imieniu Belgin Wêdrowiec; da³em mu do zrozumienia, ¿e niechciani intruzi to g³upcy zagl¹daj¹cy œmierci w oczy. Wybieg³ be³kocz¹c coœ o udowodnieniu, ¿e ktoœ o imieniu "Telliax" nie umar³. Jestem pewien, ¿e ponownie nie odwa¿y siê nas zaczepiæ.~ ~Zaczepi³ nas dziœ jakiœ gnom o imieniu Belgin Wêdrowiec; da³am mu do zrozumienia, ¿e niechciani intruzi to g³upcy zagl¹daj¹cy œmierci w oczy. Wybieg³ be³kocz¹c coœ o udowodnieniu, ¿e ktoœ o imieniu "Telliax" nie umar³. Jestem pewna, ¿e ponownie nie odwa¿y siê nas zaczepiæ.~
 @73   = ~Nazywam siê Belgin, znany jako Belgin Wêdrowiec, kap³an Baervana W³óczykija. Gnom, którego znasz pod imieniem "Tiax" naprawdê nazywa siê Telliax. Jest synem majêtnego kupca z Athkatli, i to w³aœnie jego maj¹tek wprowadzi³ go w nieliche tarapaty.~
 @74   = ~Byæ mo¿e zauwa¿y³eœ zdolnoœci z³odziejskie m³odego Telliaxa? Có¿, z nudy zacz¹³ próbowaæ zrobiæ z nich po¿ytek w dokach Athkatli...~ ~Byæ mo¿e zauwa¿y³aœ zdolnoœci z³odziejskie m³odego Telliaxa? Có¿, z nudy zacz¹³ próbowaæ zrobiæ z nich po¿ytek w dokach Athkatli...~
-@75   = ~... co, tak siê sk³ada, nieco zdenerwowa³o Z³odziei Cienia, jedn¹ z najpotê¿niejszych organizacji w mieœcie! Za¿¹dali, aby do³¹czy³ do ich organizacji, albo zginie, wiêc jego ojciec zwróci³ siê do MNIE, abym nauczy³ go œcie¿ek mego boga i zabra³ go z miasta. Nie mia³em pojêcia na co siê piszê.~
+@75   = ~Co, tak siê sk³ada, nieco zdenerwowa³o Z³odziei Cienia, jedn¹ z najpotê¿niejszych organizacji w mieœcie! Za¿¹dali, aby do³¹czy³ do ich organizacji, albo zginie, wiêc jego ojciec zwróci³ siê do MNIE, abym nauczy³ go œcie¿ek mego boga i zabra³ go z miasta. Nie mia³em pojêcia na co siê piszê.~
 @76   = ~Ba! To jakieœ dziwaczne brednie! Tiax narodzi³ siê z samego Cyrika po to, by podporz¹dkowaæ œwiat jego woli i przynieœæ strach w serca jego nieprzyjació³! Tiax nie ma u¿ytku z kupców i ich bezu¿ytecznych b³yskotek, ani nie obawia siê ¿adnych nêdznych z³odziejaszków! OdejdŸ, starcze, aby twe imiê znajdzie siê na d³ugiej liœcie tych, którzy ponios¹ karê, gdy Tiax bêdzie rz¹dzi³!~
 @77   = ~Zmieni³ imiê i doda³ spor¹ porcjê ob³êdu, lecz osobowoœci nie zmieni³, niestety. Ten ma³y gówniarz by³ najbardziej nieznoœnym uczniem, jakiego do tej pory mia³em! By³ arogancki, rozpieszczony i zepsuty! Zakwaterowanie i posi³ki wiecznie nie dorasta³y do jego standardów. Zwraca³ siê do mnie "wieœniaku" i na okr¹g³o przypomina³ mi, ¿e nie dorastam mu do piêt z racji na me niskie pochodzenie.~
-@78   = ~Pod koniec czu³em pokusê aby samemu skrêciæ ten jego wychud³y kark, choæ dziêki Baervanowi nigdy do tego nie dosz³o. Gdy podró¿owaliœmy z karawan¹, zostaliœmy napadniêci przez bandytów. Ja uciek³em, Telliax nie, wiêc, rzecz jasna, za³o¿y³em, ¿e go zabili.~
-@79   = ~Tiax, powstrzymany przez byle bandytów!? BAH! Co za g³upota! Tiax uwa¿a, ¿e postrada³eœ zmys³y, star...~
+@78   = ~Pod koniec czu³em pokusê, aby samemu skrêciæ ten jego wychud³y kark, choæ dziêki Baervanowi nigdy do tego nie dosz³o. Gdy podró¿owaliœmy z karawan¹, zostaliœmy napadniêci przez bandytów. Ja uciek³em, Telliax nie, wiêc, rzecz jasna, za³o¿y³em, ¿e go zabili.~
+@79   = ~Tiax, powstrzymany przez byle bandytów?! Ha! Co za g³upota! Tiax uwa¿a, ¿e postrada³eœ zmys³y, star...~
 @80   = ~...~
 @81   = ~Tiax... z trudem pamiêta...~
 @82   = ~Bandyci? Cyric? Tiax... pamiêta czarny o³tarz...~
@@ -96,7 +92,7 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @87   = ~Mo¿emy ci pomóc, lecz daj nam trochê czasu. W tej chwili jesteœmy zajêci.~
 @88   = ~Twa opowieœæ brzmi fa³szywie. Czmychaj st¹d, g³upcze, nim ciê przegonimy.~
 @89   = ~Jesteœ poszukiwany, co? Hmmm... ile zap³aci³byœ nam za utrzymanie twego ma³ego sekretu w tajemnicy?~
-@90   = ~Och...  oczywiœcie, ¿e zap³acê. Oferujê 500 sztuk z³ota za twe milczenie, i kolejne 2000 za pomoc w oczyszczeniu mego imienia. Proszê, udajcie siê tylko do tawerny "Ostrze i Gwiazdy"! Baervan objawi³ mi, ¿e tam w³aœnie siê zatrzymali, planuj¹c przeszukaæ miasto w poszukiwaniu mnie! Poœpieszcie siê, b³agam was! Jeœli ich przekonacie, bêdê czeka³ na was w "He³mie i P³aszczu".~
+@90   = ~Och... oczywiœcie, ¿e zap³acê. Oferujê 500 sztuk z³ota za twe milczenie, i kolejne 2000 za pomoc w oczyszczeniu mego imienia. Proszê, udajcie siê tylko do tawerny "Ostrze i Gwiazdy"! Baervan objawi³ mi, ¿e tam w³aœnie siê zatrzymali, planuj¹c przeszukaæ miasto w poszukiwaniu mnie! Poœpieszcie siê, b³agam was! Jeœli ich przekonacie, bêdê czeka³ na was w "He³mie i P³aszczu".~
 @91   = ~Mo¿emy siê tym zaj¹æ. Zrobimy to.~
 @92   = ~Daj nam od razu 500 sztuk z³ota a zastanowimy siê.~
 @93   = ~Mo¿emy ci pomóc, ale potrzebujemy trochê czasu. W tej chwili jesteœmy trochê zajêci. Zap³ata z góry. Teraz.~
@@ -120,7 +116,9 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @111  = ~Podrêcznikowy przyk³ad zdrady. Znakomicie. (Pomimo wszystko tego ma³poluda da siê wytresowaæ. Byæ mo¿e wykorzystam go dla swoich w³asnych celów.)~
 @112  = ~Da³em dziœ do zrozumienia niejakiemu Belginowi Wêdrowcowi, ¿e ci, którzy strzêpi¹ jêzyki, to g³upcy zagl¹daj¹cy œmierci w oczy. Wybieg³ be³kocz¹c coœ o udowodnieniu, ¿e ktoœ, bêd¹cy jego uczniem i dawnym towarzyszem o imieniu "Telliax", nie umar³. Œcigaj¹ go ³owcy nagród; mo¿ne uda mi siê trochê na tym zarobiæ. Zatrzymali siê w "Ostrzu i Gwiazdach". Jestem pewien, ¿e sowicie mnie wynagrodz¹ za informacjê o miejscu pobytu Belgina. Je¿eli nie, to pewnie przemówi¹ nasze ostrza... Belgin stwierdzi³, ¿e ma w zanadrzu wiêcej z³ota. Mo¿e moglibyœmy rozegraæ to na dwa fronty.~ ~Da³am dziœ do zrozumienia niejakiemu Belginowi Wêdrowcowi, ¿e ci, którzy strzêpi¹ jêzyki, to g³upcy zagl¹daj¹cy œmierci w oczy. Wybieg³ be³kocz¹c coœ o udowodnieniu, ¿e ktoœ, bêd¹cy jego uczniem i dawnym towarzyszem o imieniu "Telliax", nie umar³. Œcigaj¹ go ³owcy nagród; mo¿ne uda mi siê trochê na tym zarobiæ. Zatrzymali siê w "Ostrzu i Gwiazdach". Jestem pewna, ¿e sowicie mnie wynagrodz¹ za informacjê o miejscu pobytu Belgina. Je¿eli nie, to pewnie przemówi¹ nasze ostrza... Belgin stwierdzi³, ¿e ma w zanadrzu wiêcej z³ota. Mo¿e moglibyœmy rozegraæ to na dwa fronty.~
 @113  = ~Baervan niech b³ogos³awi waszym duszom! Musicie tylko znaleŸæ tych ³owców nagród. Baervan objawi³ mi, b³ogos³awi¹c mnie darem poznania, ¿e zatrzymali siê w tawernie "Ostrze i Gwiazdy". Proszê, b³agam, nie róbcie im krzywdy! Po prostu poka¿cie im Tiaxa, aby raz na zawsze mnie zostawili! Wróæcie, a ja zap³acê wam 1000 sztuk z³ota za wasz zacny uczynek. Dziêkujê! Niech Baervan wam b³ogos³awi! Bêdê w "He³mie i P³aszczu", jeœli uda wam siê ich przekonaæ.~
-@114  = ~Zgodzi³em siê pomóc mê¿czyŸnie o imieniu Belgin Wêdrowiec udowodniæ, ¿e "Telliax", jego uczeñ i dawny towarzysz, nie umar³. Poluj¹ na niego ³owcy nagród, i wraz z Tiaxem muszê przekonaæ ich, ¿e on wci¹¿ ¿yje. Zatrzymali siê w "Ostrzu i Gwiazdach".~
+@114  = ~Dziwny gnom
+
+Zgodziliœmy siê pomóc mê¿czyŸnie o imieniu Belgin Wêdrowiec udowodniæ, ¿e "Telliax", jego uczeñ i dawny towarzysz, nie umar³. Poluj¹ na niego ³owcy nagród, i wraz z Tiaxem muszê przekonaæ ich, ¿e on wci¹¿ ¿yje. Zatrzymali siê w "Ostrzu i Gwiazdach".~
 @115  = ~Có¿, oczywiœcie, ¿e ci zap³acê. ¯ycie mi dro¿sze ni¿ z³oto, wiêc jeœli kierujesz siê tylko chêci¹ zysku, nie obawiaj siê. Zap³acê ci 1000 sztuk z³ota za twój uczynek, niestety nie mam wiêcej. Proszê, udajcie siê tylko do tawerny "Ostrze i Gwiazdy"! Baervan objawi³ mi, ¿e tam w³aœnie siê zatrzymali, planuj¹c przeszukaæ miasto w poszukiwaniu mnie! Poœpieszcie siê, b³agam was! Jeœli ich przekonacie, bêdê czeka³ na was w "He³mie i P³aszczu".~
 @116  = ~Dobrze, ale jeœli znajdziesz trochê czasu proszê, pomórz mi! Zap³acê ci 1000 sztuk z³ota za tw¹ pomoc. £owcy nagród zatrzymali siê w tawernie "Ostrze i Gwiazdy", wiêc proszê, odszukaj ich tak szybko, jak to tylko mo¿liwe! Gdy ju¿ ich przekonacie, aby dali mi spokój, przyjdŸcie do "He³mu i P³aszcza", gdzie was nagrodzê.~
 @117  = ~I co powiecie? Uda³o siê wam oczyœciæ me imiê?~
@@ -192,7 +190,7 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @183  = ~Rób jak uwa¿asz.~
 @184  = ~Skoro tak twierdzisz.~
 @185  = ~Tak? O co chodzi tym razem?~
-@186  = ~Jestem pewna niezakoñczona sprawa, o której musimy porozmawiaæ.~
+@186  = ~Jest pewna niezakoñczona sprawa, o której musimy porozmawiaæ.~
 @187  = ~Jesteœmy tu aby zaproponowaæ ci informacjê o miejscu pobytu twej ofiary, Belgina. Za sowitym wynagrodzeniem, ma siê rozumieæ.~
 @188  = ~Wybacz, ale przybyliœmy tu, aby ciê zabiæ. Sugerujê abyœ siê nie rusza³. Dziêki temu nie narobimy takiego ba³aganu, w przeciwnym razie Karczmarz móg³by siê skar¿yæ, ¿e zapaskudziliœmy jego czyst¹ pod³ogê twoj¹ krwi¹.~
 @189  = ~Witajcie, przyjaciele! Wygl¹dacie mi na awanturników albo najemników. Có¿ za spotkanie! Nazywam siê Karris, niedawno przyby³em tu z Amn. Kim jesteœ, jeœli pozwolisz, ¿e zapytam?~
@@ -206,7 +204,7 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @197  = ~Nie pozwolê. Nie zwyk³em wyjawiaæ swej to¿samoœci przed byle zbirem do wynajêcia.~ ~Nie pozwolê. Nie zwyk³am wyjawiaæ swej to¿samoœci przed byle zbirem do wynajêcia.~
 @198  = ~Jestem tu by zabraæ nagrodê za zabicie Belgina. Sam siê tym zaj¹³em. Zdaje siê, ¿e nieco ba³ siê wpaœæ w wasze rêce – zabicie go posz³o jak z p³atka.~ ~Jestem tu by zabraæ nagrodê za zabicie Belgina. Sama siê tym zajê³am. Zdaje siê, ¿e nieco ba³ siê wpaœæ w wasze rêce – zabicie go posz³o jak z p³atka.~
 @199  = ~Wybacz, Karris, ale mamy wa¿niejsze rzeczy na g³owie, ni¿ gawêdzenia z naszymi ofiarami. Czas na œmieræ.~
-@200  = ~Sprawê? Zatem dobrze. Mów, co ci le¿y na sercu.~
+@200  = ~Sprawa? Zatem dobrze. Mów, co ci le¿y na sercu.~
 @201  = ~Pamiêtaj, jego uszy i oczy... s¹ moje.~
 @202  = ~Zamknij siê, Xzar, zara dostaniesz swe ³upy. Niech <CHARNAME> robi swoje.~
 @203  = ~Jesteœmy tu w imieniu gnoma Belgina, którego nies³usznie œcigacie. Nie pope³ni³ ¿adnej zbrodni i mo¿emy to udowodniæ.~
@@ -246,8 +244,8 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @237  = ~Odmawiam. ¯egnaj, Karris. Mi³ego przeszukiwania miasta.~
 @238  = ~Spójrz, to g³upie. Tiax, eee... znaczy siê "Telliax" jest zdecydowanie ca³kowicie ¿yw. I bardzo, bardzo irytuj¹cy.~
 @239  = ~Przykro mi, ale potrzebujê lepszego dowodu ni¿ twe s³owo. Jeœli Telliax rzeczywiœcie wci¹¿ ¿yje, przyprowadŸ go do mnie. Jego ojciec bardzo szczegó³owo go opisa³. Do tego czasu nie mamy o czym rozmawiaæ.~
-@240  = ~Szalony!? Kto œmie KPIÆ z Tiaxa prosto w twarz!? Sam prosisz siê o wyrwanie koñczyn ze stawów! Cyric ¿¹da zap³aty za ka¿d¹ zniewagê skierowan¹ w stronê jego czempiona, i Tiax j¹ odbierze!~
-@241  = ~Niemo¿liwe! Na bogów, chcesz powiedzieæ, ¿e TO jest syn naszego pracodawcy, Telliax!? Co mu siê sta³o? Pasuje do opisu, choæ zdaje siê nieco... nieokrzesany, jak na syna bogatego kupca.~
+@240  = ~Szalony?! Kto œmie KPIÆ z Tiaxa prosto w twarz?! Sam prosisz siê o wyrwanie koñczyn ze stawów! Cyric ¿¹da zap³aty za ka¿d¹ zniewagê skierowan¹ w stronê jego czempiona, i Tiax j¹ odbierze!~
+@241  = ~Niemo¿liwe! Na bogów, chcesz powiedzieæ, ¿e TO jest syn naszego pracodawcy, Telliax?! Co mu siê sta³o? Pasuje do opisu, choæ zdaje siê nieco... nieokrzesany, jak na syna bogatego kupca.~
 @242  = ~Niestety, dozna³ jakiejœ traumy. Kiedy go spotkaliœmy, mamrota³ coœ o podboju œwiata w imieniu Cyrika.~
 @243  = ~Mówi³em, ¿e jest szalony. Nie wiem co mu siê przytrafi³o, ale oto masz swój dowód. Jak widaæ wci¹¿ ¿yje.~ ~Mówi³am, ¿e jest szalony. Nie wiem co mu siê przytrafi³o, ale oto masz swój dowód. Jak widaæ wci¹¿ ¿yje.~
 @244  = ~Nie, obawiam siê, ¿e nie tego gnoma szukasz. To jest Tiax, nie Telliax. Wracaj¹c do sedna, ile zap³acisz mi za zaprowadzenie ciê do Belgina?~
@@ -256,37 +254,25 @@ Spotka³am tajemniczego gnoma. Zdaje siê szukaæ innego gnoma, nieobecnego w mej d
 @247  = ~Mo¿e ta informacja ci pomo¿e: wiemy, gdzie obecnie przebywa Belgin.~
 @248  = ~To szlachetny uczynek. Jeœli jest tam, gdzie mówisz, doprowadzimy go przed oblicze sprawiedliwoœci, a jeœli nie, to z pewnoœci¹ spotkamy siê jeszcze by porozmawiaæ o zwrocie kosztów. ChodŸcie, przyjaciele, zwierzyna czeka!~
 @249  = ~Znajdziesz go tam. ¯egnaj.~
-@250  = ~Znów £owcy Nagród
+@250  = ~Dziwny gnom: ³owcy nagród
 
-Spotka³em ³owców nagród, którzy szukaj¹ Belgina, ale z³o¿yli nam lepsz¹ ofertê, wiêc wyjawi³em im miejsce jego pobytu. Wyszed³em na tym bardzo korzystnie! Mam nadziejê, ¿e powiesz¹ Belgina, nim ktokolwiek w Amn odkryje prawdê.~ ~Znów £owcy Nagród
+Spotkaliœmy ³owców nagród, którzy szukaj¹ Belgina, ale z³o¿yli nam lepsz¹ ofertê, wiêc wyjawiliœmy im miejsce jego pobytu. Wyszliœmy na tym bardzo korzystnie! Mamy nadziejê, ¿e powiesz¹ Belgina, nim ktokolwiek w Amn odkryje prawdê.~
+@251  = ~Dziwny gnom: ³owcy nagród
 
-Spotka³am ³owców nagród, którzy szukaj¹ Belgina, ale z³o¿yli nam lepsz¹ ofertê, wiêc wyjawi³am im miejsce jego pobytu. Wysz³am na tym bardzo korzystnie! Mam nadziejê, ¿e powiesz¹ Belgina, nim ktokolwiek w Amn odkryje prawdê.~
-@251  = ~Znów £owcy Nagród 
+Spotkaliœmy ³owców nagród, którzy szukaj¹ Belgina, i oszukaliœmy ich, sprzedaj¹c im informacjê o miejscu "pobytu" jego cia³a. Wyszliœmy na tym bardzo korzystnie! Mamy nadziejê, ¿e wyrusz¹ do Amn nim ponownie siê spotkamy, w przeciwnym razie ich zw³oki spoczn¹ obok cia³a Belgina.~
+@252  = ~Dziwny gnom: ³owcy nagród
 
-Spotka³em ³owców nagród, którzy szukaj¹ Belgina, i oszukaliœmy ich, sprzedaj¹c im informacjê o miejscu "pobytu" jego cia³a. Wyszed³em na tym bardzo korzystnie! Mam nadziejê, ¿e wyrusz¹ do Amn nim ponownie siê spotkamy, w przeciwnym razie ich zw³oki spoczn¹ obok cia³a Belgina.~ ~Znów £owcy Nagród 
+Spotkaliœmy ³owców nagród, którzy szukaj¹ Belgina, i powiedzieliœmy im, gdzie go znajd¹. Wyszliœmy na tym bardzo korzystnie! Belgin p³aci, ³owcy g³ów p³ac¹, pozostaje mieæ nadziejê, ¿e powiesz¹ Belgina, nim ktokolwiek w Amn odkryje prawdê.~
+@253  = ~Cyric?! Podbój œwiata?! Doprawdy, jakieœ zdarzenie musia³o go znacznie odmieniæ! Mo¿e innym razem uda siê rozwi¹zaæ tê zagadkê. Póki co nasze polowanie jest bezcelowe, gdy¿ ofiara zdaje siê byæ niewinna. Powinniœmy wróciæ do Amn i zg³osiæ to ojcu Telliaxa. W¹tpiê, aby by³ zadowolony. ¯egnajcie, przyjaciele. Mo¿ecie przekazaæ Belginowi, ¿e jest bezpieczny.~
+@254  = ~Dziwny gnom: Tiax i Karris
 
-Spotka³am ³owców nagród, którzy szukaj¹ Belgina, i oszukaliœmy ich, sprzedaj¹c im informacjê o miejscu "pobytu" jego cia³a. Wysz³am na tym bardzo korzystnie! Mam nadziejê, ¿e wyrusz¹ do Amn nim ponownie siê spotkamy, w przeciwnym razie ich zw³oki spoczn¹ obok cia³a Belgina.~
-@252  = ~Znów £owcy Nagród 
+Udowodniliœmy dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, wiêc Belgin powinien byæ bezpieczny. Belgin czeka na nas w gospodzie "He³m i P³aszcz". Najlepiej bêdzie, jeœli go poszukamy i upomnimy siê o nasz¹ nagrodê.~
+@255  = ~Dziwny gnom: Tiax i Karris
 
-Spotka³em ³owców nagród, którzy szukaj¹ Belgina, i powiedzia³em im, gdzie go znajd¹. Wyszed³em na tym bardzo korzystnie! Belgin p³aci, ³owcy g³ów p³ac¹, pozostaje mieæ nadziejê, ¿e powiesz¹ Belgina, nim ktokolwiek w Amn odkryje prawdê.~ ~Znów £owcy Nagród 
+Udowodniliœmy dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, a imiê Belgina zosta³o oczyszczone. Szkoda, ¿e jest tak miêkki, ale dostarczy nam jeszcze trochê zabawy. Mo¿e uda siê wyci¹gn¹æ od niego wiêksz¹ nagrodê. W koñcu nie musi siê dowiedzieæ, ¿e posz³o nam tak g³adko...~
+@256  = ~Dziwny gnom: Tiax i Karris
 
-Spotka³am ³owców nagród, którzy szukaj¹ Belgina, i powiedzia³am im, gdzie go znajd¹. Wysz³am na tym bardzo korzystnie! Belgin p³aci, ³owcy g³ów p³ac¹, pozostaje mieæ nadziejê, ¿e powiesz¹ Belgina, nim ktokolwiek w Amn odkryje prawdê.~
-@253  = ~Cyric!? Podbój œwiata!? Doprawdy, jakieœ zdarzenie musia³o go znacznie odmieniæ! Mo¿e innym razem uda siê rozwi¹zaæ tê zagadkê. Póki co nasze polowanie jest bezcelowe, gdy¿ ofiara zdaje siê byæ niewinna. Powinniœmy wróciæ do Amn i zg³osiæ to ojcu Telliaxa. W¹tpiê, aby by³ zadowolony. ¯egnajcie, przyjaciele. Mo¿ecie przekazaæ Belginowi, ¿e jest bezpieczny.~
-@254  = ~Tiax i Karris
-
-Udowodni³em dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, wiêc Belgin powinien byæ bezpieczny. Belgin czeka na nas w gospodzie. Najlepiej bêdzie, jeœli go poszukamy i upomnimy siê o nasz¹ nagrodê.~ ~Tiax i Karris
-
-Udowodni³am dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, wiêc Belgin powinien byæ bezpieczny. Belgin czeka na nas w gospodzie. Najlepiej bêdzie, jeœli go poszukamy i upomnimy siê o nasz¹ nagrodê.~
-@255  = ~Tiax i Karris
-
-Udowodni³em dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, a imiê Belgina zosta³o oczyszczone. Szkoda, ¿e jest tak miêkki, ale dostarczy nam jeszcze trochê zabawy. Mo¿e uda siê wyci¹gn¹æ od niego wiêksz¹ nagrodê. W koñcu nie musi siê dowiedzieæ, ¿e posz³o nam tak g³adko... ~ ~Tiax i Karris
-
-Udowodni³am dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, a imiê Belgina zosta³o oczyszczone. Szkoda, ¿e jest tak miêkki, ale dostarczy nam jeszcze trochê zabawy. Mo¿e uda siê wyci¹gn¹æ od niego wiêksz¹ nagrodê. W koñcu nie musi siê dowiedzieæ, ¿e posz³o nam tak g³adko... ~
-@256  = ~Tiax i Karris
-
-Udowodni³em dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, a imiê Belgina zosta³o oczyszczone. Szkoda, ¿e nie ¿yje. Mo¿e uda³oby mi siê wyci¹gn¹æ od niego wiêksz¹ nagrodê.~ ~Tiax i Karris
-
-Udowodni³am dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, a imiê Belgina zosta³o oczyszczone. Szkoda, ¿e nie ¿yje. Mo¿e uda³oby mi siê wyci¹gn¹æ od niego wiêksz¹ nagrodê.~
+Udowodniliœmy dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn, a imiê Belgina zosta³o oczyszczone. Szkoda, ¿e nie ¿yje. Mo¿e uda³oby siê nam wyci¹gn¹æ od niego wiêksz¹ nagrodê.~
 @257  = ~Chyba siê nie zrozumieliœmy. Chcemy Belgina ¿ywego. Jeœli masz dowód jego œmierci, daj go nam. Jeœli znasz miejsce jego pobytu, zdradŸ je nam. Jeœli marnujesz mój czas, odpowiesz przed mym mieczem.~
 @258  = ~Och, uwielbiam tak¹ tward¹ gadkê!~
 @259  = ~A wiêc dosz³o do tego, ¿e staliœmy siê zabójcami? Nie wiem w jaki sposób to ma s³u¿yæ równowadze.~
@@ -348,7 +334,7 @@ Udowodni³am dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn,
 @315  = ~A³. Tiax... Cyric! NIECH BÊDZIE WYCHWALONY CYRIC!~
 @316  = ~Nie bêdê go wychwala³. I co mi zrobisz?~
 @317  = ~Powinniœmy ciê skróciæ o g³owê. Nie trzeba by ciê karmiæ. Nie trzeba by ciê pilnowaæ.~
-@318  = ~Jestem za "ukróceniem". Nie trza by ciê ¿ywiæ  i trzymaæ na smyczy. Wiêc zamknij siê, bo zamieniê s³owa w czyn.~
+@318  = ~Jestem za "ukróceniem". Nie trza by ciê ¿ywiæ i trzymaæ na smyczy. Wiêc zamknij siê, bo zamieniê s³owa w czyn.~
 @319  = ~Rzek³em ci, abyœ siê zamkn¹³, gnomie.~
 @320  = ~<CHARNAME>, jeœli nie zakoñczysz jego irytuj¹cego potoku s³ów, wtedy ja to zrobiê... raz na zawsze.~
 @321  = ~Bogowie, czy on kiedykolwiek siê zamknie?~
@@ -365,17 +351,17 @@ Udowodni³am dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn,
 @332  = ~(wzdychasz )Cyric mo¿e i wszystko wie, ale ty chyba nie uwa¿a³eœ, Tiax. Ju¿ usunêliœmy Belgina z gry.~
 @333  = ~BA! Có¿ za tupet! Dla poprawienia swego nastroju Tiax powinien rozdeptaæ ciê jak mrówkê, lecz Tiax jest zbyt zajêty o wiele istotniejszymi kwestiami, by trwoniæ swój czas na ciebie! Musimy udaæ siê do "He³mu i P³aszcza" i zaszlachtowaæ tego poganina o imieniu Belgin! Cyric tak rozkaza³!~
 @334  = ~Po co zabijaæ Belgina? Co dopiero go uratowaliœmy, a teraz mówisz mi, ¿e "Cyric" chce jego œmierci?~
-@335  = ~Zabiæ Belgina!? Zwariowa³eœ? ...Och, no tak.~
+@335  = ~Zabiæ Belgina?! Zwariowa³eœ? Och, no tak...~
 @336  = ~Hej, zaczynam lubiæ tego Cyrika. Zabijmy ma³ego drania!~
 @337  = ~(wzdychasz) Tiax, nie uwa¿a³eœ. Taki by³ w³aœnie plan: zabraæ jego pieni¹dze, zdradziæ go ³owcom nagród, byæ mo¿e zabiæ ich i z³upiæ cia³a, powróciæ do Belgina, zabraæ nagrodê i zabiæ go. Prosta podwójna zdrada. Ruszajmy.~
 @338  = ~Poganin Belgin musi UMRZEÆ! Tak ka¿e Cyric, i Tiax spe³ni jego wolê, dziêki czemu dzieñ jego wniebowst¹pienia siê przybli¿y!~
-@339  = ~Chcesz abyœmy zabili Belgina!? Ale dlaczego "Cyric" chce jego œmierci po tym, jak go uratowaliœmy?~
+@339  = ~Chcesz abyœmy zabili Belgina?! Ale dlaczego "Cyric" chce jego œmierci po tym, jak go uratowaliœmy?~
 @340  = ~Wiêc zadaliœmy sobie ca³y ten trud aby go uratowaæ, a teraz chcesz, abyœmy go zabili? Chyba ¿artujesz.~
 @341  = ~Brzmi nieŸle. Do dzie³a.~
 @342  = ~TIAX nie ma czasu na pytania! Cyric tak rozkaza³, wiêc trzeba to zrobiæ, i to gibko! Naprzód, niewolnicy! Czeka nas krwawa ³aŸnia i Tiax dziêki niej zostanie wywy¿szony!~
 @343  = ~To strata czasu, <CHARNAME>. Ten królik nie jest wart zachodu. Czekaj¹ na nas wiêksze ofiary.~
 @344  = ~Cisza, jaluk. Mówi¹c twoim jêzykiem: "stado ma tylko jednego dowódcê". Jeœli masz jakieœ uwagi, zapytaj lepszych od siebie.~
-@345  = ~GRRRRRR. Ziemi przyda³oby siê u¿yŸnienie. Gleba u¿yŸniona drowi¹ krwi¹ œwietnie nadaje siê do uprawy roœlin.~
+@345  = ~Grrrrrr. Ziemi przyda³oby siê u¿yŸnienie. Gleba u¿yŸniona drowi¹ krwi¹ œwietnie nadaje siê do uprawy roœlin.~
 @346  = ~Tiax nie ma czasu na twe odmowy i niezdecydowanie! Tiax nie ma czasu dla myœl¹cych niewolników; musisz jedynie s³uchaæ i S£U¯YÆ! Naprzód, do "He³mu i P³aszcza", gdzie czeka przeznaczenie Tiaxa!~
 @347  = ~Zbyt czêsto mówisz o "niewolnikach", samcze... Mo¿e wola³byœ zostaæ eunuchem?~
 @348  = ~Rad jestem wiedz¹c, ¿e nie bêdê twym niewolnikiem! Byæ mo¿e wcale nie bêdê musia³ szukaæ sposobu na pozbycie siê ciebie!~
@@ -401,7 +387,7 @@ Udowodni³am dru¿ynie Karrisa, ¿e Tiax ¿yje i ma siê dobrze. Karris wraca do Amn,
 @368  = ~Nie ufa³am mu. Mo¿esz za nim pod¹¿yæ i zabiæ go ukradkiem, albo wynaj¹æ kogoœ, by to zrobi³.~
 @369  = ~Niech ten gnom idzie do piek³a, które przygotowa³ jego bóg.~
 @370  = ~Przykro mi, ¿e tak do tego podchodzisz, Tiax. Powodzenia.~
-@371  = ~Tiax odchodzi
+@371  = ~Dziwny gnom: Tiax odchodzi
 
 Szaleñstwo Tiaxa ostatecznie da³o o sobie znaæ, i zniesmaczony opuœci³ dru¿ynê. Z pewnoœci¹ bêdzie nam ³atwiej podró¿owaæ bez tego szaleñca, choæ pewnie bardziej nudno.~
 @372  = ~¯egnaj, szalony gnomie.~
@@ -413,7 +399,7 @@ Szaleñstwo Tiaxa ostatecznie da³o o sobie znaæ, i zniesmaczony opuœci³ dru¿ynê. 
 @378  = ~Postanowi³em, ¿e pora byæ umar³, gnomie.~ ~Postanowi³am, ¿e pora byæ umar³, gnomie.~
 @379  = ~Ty - niech ciê szlag! Niech twa dusza bêdzie przeklêta na ca³¹ wiecznoœæ! Odchodzê!~
 @380  = ~BA! Tiax ma doœæ! Z drogi, i strze¿cie siê dnia, w którym cieñ Tiaxa poch³onie ten œwiat, gdy¿ zaprawdê, gniew Tiaxa bêdzie straszny!~
-@381  = ~Tiax odchodzi 
+@381  = ~Dziwny gnom: Tiax odchodzi
 
 Tiax by³ bardzo niezadowolony, ¿e pozwoliliœmy odejœæ Belginowi, i zniesmaczony opuœci³ dru¿ynê. Z pewnoœci¹ bêdzie nam ³atwiej podró¿owaæ bez tego szaleñca, choæ pewnie bardziej nudno.~
 @382  = ~Belgin jest martwy, Tiax. Martwy. Ju¿.~

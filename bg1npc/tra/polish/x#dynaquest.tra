@@ -8,7 +8,7 @@
 @7    = ~WiedŸma? Có¿, mój podekscytowany przyjacielu, mo¿esz zachowaæ pergamin.~
 @8    = ~Gdybyœ mia³ pod rêk¹ jakiegoœ uczonego, byæ mo¿e móg³by na to zerkn¹æ. To mo¿e byæ wa¿ne, mo¿liwe, ¿e rzuci³oby œwiat³o na jak¹œ intrygê.~
 @9    = ~Dynaheir! Patrz! ZnaleŸliœmy pismo!~
-@10   = ~(pisk)~ [GAM_48]
+@10   = ~(Boo piszczy)~ [GAM_48]
 @11   = ~Minsku, gdzie odszuka³eœ ten wydarty z mojego dziennika pergamin?~
 @12   = ~U tego ciemnego elfa! Boo mówi, ¿e to wielki wojownik...~
 @13   = ~Ach, widzê, ¿e jesteœ uczon¹ Hathran. Byæ mo¿e bêdziesz w stanie mi pomóc.~
@@ -63,7 +63,7 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @54   = ~Starszy rozkaza³ znaleŸæ wiedŸmê. Ogar powiedzia³ - najszybciej znajdziemy j¹ po zapachu, a mieliœmy tylko jej ksiêgê. Wiêc Ogar rozkaza³ mi podrzeæ j¹ i rozdzieliæ miêdzy pozosta³ych... tak zrobi³em. Potem ja i moja grupa ujrzeliœmy œwiat³o. Zamiast polowaæ na wiedŸmê, przyszliœmy j¹ ostrzec.~
 @55   = ~Podejrzewa³am, ¿e tak bêdzie. Kap³an Mystry pob³ogos³awi³ mój dziennik, <CHARNAME>, i umieœci³ na nim zabezpieczenie, przez które ka¿de stworzenie z³ego charakteru odmieni na pewien czas swoj¹ naturê, jeœli spróbuje go otworzyæ bez mojego zezwolenia. Rozerwanie dziennika musia³o wzmocniæ zaklêcie, skoro dotknê³o ca³ej czwórki i nie ust¹pi³o a¿ do tego czasu.~
 @56   = ~Hmm... có¿, powiedzmy, ¿e dziêkujê, gnollu. Czy wiesz gdzie mo¿emy znaleŸæ dziennik Dynaheir? Czy ma go Starszy?~
-@57   = ~Có¿, czy dostaniemy dziennik Dynahe- ee... ksiêgê wiedŸmy z powrotem? Ona jej potrzebuje, rozumiesz.~
+@57   = ~Có¿, czy dostaniemy dziennik Dynahe... ee... ksiêgê wiedŸmy z powrotem? Ona jej potrzebuje, rozumiesz.~
 @58   = ~Oddaj ksiêgê Dynaheir, albo sam ci j¹ zabiorê.~ ~Oddaj ksiêgê Dynaheir, albo sama ci j¹ zabiorê.~
 @59   = ~Ksiêga wiedŸmy pokazuje nam, ¿e zabijanie jest z³e!~
 @60   = ~Hmm... có¿, powiedzmy, ¿e dziêkujê, gnollu. Czy wiesz gdzie mo¿emy znaleŸæ dziennik Dynaheir? Czy ma go Starszy?~
@@ -99,11 +99,11 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @90   = ~Jeœli nie zrobisz tego samodzielnie, nigdy nie pozbêdziesz siê wiedŸmy. Zdaje siê, ¿e zawsze trafiam na ludzi, którzy albo ulegli uszkodzeniu mózgu, albo urodzili siê bez niego.~
 @91   = ~A dlaczego niby mia³bym wykonywaæ TWOJE zadanie? Powierzyæ idiotom zabicie wiedŸmy...~
 @92   = ~Brzmi na tyle praworz¹dnie i g³upio, ¿e naprawdê mo¿e zadzia³aæ. (Oczywiœcie wiedŸma pomyœli, ¿e nie uda mi siê z³amaæ szyfru.) Proszê bardzo, zapytaj j¹.~
-@93   = ~Dynaheir, Edwin wyrazi³ obawê, ¿e informacje zawarte w twoim dzienniku mog¹ byæ niebezpieczne. Prosi o twoj¹ zgodê-~
+@93   = ~Dynaheir, Edwin wyrazi³ obawê, ¿e informacje zawarte w twoim dzienniku mog¹ byæ niebezpieczne. Prosi o twoj¹ zgodê...~
 @94   = ~Dynaheir, oddaj swój dziennik Edwinowi!~
 @95   = ~Ee... Dynaheir... ech, niewa¿ne.~
 @96   = ~Czy ty naprawdê s¹dzisz, ¿e nawet osoba tak prymitywna, jak Dynaheir, robi³aby tyle ha³asu o byle pamiêtniczek?~
-@97   = ~(syczy) Zgodê! Nie prosi³em o ¿adn¹-~
+@97   = ~(syczy) Zgodê! Nie prosi³em o ¿adn¹...~
 @98   = ~Znowu spiskujesz, Edwinie? (wzdycha) Jak rozka¿esz, <CHARNAME>. Przekonamy siê, czy jesteœ wystarczaj¹co inteligentny, by rozczytaæ szyfr. Oczekujê zwrotu dziennika jutro, <CHARNAME>.~ 
 @99   = ~Nie zrobiê tego. Radzê te¿, ¿ebyœ zwraca³<HESHE> siê do mnie z wiêkszym szacunkiem.~
 @100  = ~O co chodzi? Zapomnia³eœ jêzyka w gêbie, czy tylko zapomnia³eœ, do czego s³u¿¹ s³owa?~ ~O co chodzi? Zapomnia³aœ jêzyka w gêbie, czy tylko zapomnia³aœ, do czego s³u¿¹ s³owa?~
@@ -126,11 +126,11 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @117  = ~Rozmawiam z Drizztem Do'Urdenem, Edwinie! Drizztem Do'Urdenem! Nie z tob¹.~
 @118  = ~Daj mi chwilkê, Drizzcie. (odchodzisz na bok z Edwinem) O co chodzi, Edwinie?~
 @119  = ~Edwinie, nie mam tajemnic przed moimi towarzyszami. Powiedz, co masz do powiedzenia w obecnoœci wszystkich, albo ucisz siê.~
-@120  = ~Drizzt Do'Urden potrafi mówiæ? (Zapewne znalaz³ gdzieœ miksturê geniuszu. Nie wyobra¿am sobie, ¿eby w jakikolwiek inny sposób mia³ staæ siê zdolny do ³¹czenia s³ów w sensowne zdania. W DODATKU bez pomocy Cattie-Brie. Nadzwyczajne.) Có¿, wiêc rozmawiaj sobie z Drizztem.~
+@120  = ~Drizzt Do'Urden potrafi mówiæ? (Zapewne znalaz³ gdzieœ miksturê geniuszu. Nie wyobra¿am sobie, ¿eby w jakikolwiek inny sposób mia³ staæ siê zdolny do ³¹czenia s³ów w sensowne zdania. W DODATKU bez pomocy Catti-Brie. Nadzwyczajne.) Có¿, wiêc rozmawiaj sobie z Drizztem.~
 @121  = ~Twój czas dobieg³ koñca, Czerwony Czarodzieju. Dostanê mój dziennik z powrotem.~
 @122  = ~Proszê bardzo, wiedŸmo. Ehm... podda³em go badaniom. (Prêdzej mnie szlag trafi, ni¿ jej siê przyznam, ¿e nie mog³em go przeczytaæ. I tak to tylko stek bzdur.)~
 @123  = ~(g³oœno) Zauwa¿y³am, ¿e z mojego ekwipunku znikn¹³ dziennik. Chcia³am poinformowaæ, ¿e odnowi³am zabezpieczenie, które siê na nim znajdowa³o.~
-@124  = ~Niech czarodziej lepiej zap³aci co mi siê nale¿y przed czytaniem tego cholernego-~
+@124  = ~Niech czarodziej lepiej zap³aci co mi siê nale¿y przed czytaniem tego cholernego...~
 @125  = ~(chichocze) Wola³abym nie wymieniaæ imion, ale wszyscy wiecie, ¿e to by³ Edwin... Gdybym by³a Czerwonym Magiem, nie zagl¹da³abym tam!~
 @126  = ~Kobieta z tak¹ przezornoœci¹ nigdy nie znajdzie sobie kochanka...~
 @127  = ~Kochaniutka, po co marnujesz czas na ochronê jakiegoœ durnego notatnika? Co powiesz na czar zachowuj¹cy skórê nawil¿on¹ i jedwabiœcie miêkk¹?~
@@ -159,7 +159,7 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @150  = ~Nareszcie ktoœ, kto zabierze ode mnie tê wiedŸmê! Czy s¹ jakieœ szanse na to, ¿e weŸmiesz dodatkowo jej niedorozwiniêtego ochroniarza z chomikiem?~
 @151  = ~Tysi¹c sztuk z³ota - i jest twoja!~
 @152  = ~Mogê znaleŸæ innego maga, ale nigdy nie znajdê drugiej Dynaheir. Ona zostaje.~
-@153  = ~Z³ó¿ mi uroczyst¹ przysiêgê na to, ¿e Dynaheir powróci do mnie ca³a i zdrowa -~
+@153  = ~Z³ó¿ mi uroczyst¹ przysiêgê na to, ¿e Dynaheir powróci do mnie ca³a i zdrowa...~
 @154  = ~Przysiêgi bywaj¹ ³amane, <CHARNAME>. Ten cz³owiek nakaza³ gnollom mnie pojmaæ, i tylko przypadek sprawi³, ¿e uda³o mi siê unikn¹æ tortur i pohañbienia.~
 @155  = ~Och, <CHARNAME>, jesteœ zbyt wa¿ny dla potyczek bogów, byœ mia³ zgin¹æ... By³em œwiadkiem tego, jak raz za razem unika³eœ œmierci, i nie s¹dzê, by by³ to zwyk³y zbieg okolicznoœci. Nie zaryzykujê utraty boskiej przychylnoœci w przypadku gdybym ciê zabi³... nieszczêœliwym trafem. Jednak potrzebujê tej kobiety.~ ~Och, <CHARNAME>, jesteœ zbyt wa¿na dla potyczek bogów, byœ mia³a zgin¹æ... By³em œwiadkiem tego, jak raz za razem unika³aœ œmierci, i nie s¹dzê, by by³ to zwyk³y zbieg okolicznoœci. Nie zaryzykujê utraty boskiej przychylnoœci w przypadku gdybym ciê zabi³... nieszczêœliwym trafem. Jednak potrzebujê tej kobiety.~
 @156  = ~(Pstryka palcami)~
@@ -167,7 +167,7 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @158  = ~Oto twoje pieni¹dze.~
 @159  = ~Czy¿byœ by³ zakochany, g³upcze? W wiedŸmie? Zatem prawd¹ jest, ¿e bogowie kochaj¹ g³upców.~ ~Czy¿byœ by³a zakochana, g³upia kobieto? W wiedŸmie? Zatem prawd¹ jest, ¿e bogowie kochaj¹ g³upców.~
 @160  = ~Na groby moich przodków przysiêgam, ¿e zwrócê ci Wychlaran Dynaheir nietkniêt¹. Gnolle nie ruszy³y jej ze wzglêdu na moje rozkazy.~
-@161  = ~Nie powierzê mojej towarzyszki cz³owiekowi, który spiskowa³ z gnollami! Dynaheir ma racjê - twoje s³owa nic nie znacz¹! Jeœli istotnie jej chcesz- bêdziesz musia³ przebiæ siê przeze mnie! ~
+@161  = ~Nie powierzê mojej towarzyszki cz³owiekowi, który spiskowa³ z gnollami! Dynaheir ma racjê - twoje s³owa nic nie znacz¹! Jeœli istotnie jej chcesz... bêdziesz musia³ przebiæ siê przeze mnie! ~
 @162  = ~Czy¿byœ znowu nazwa³ j¹ Wychlaran? Nie tak zwracaj¹ siê do rashemickich wiedŸm ludzie, którzy darz¹ je szacunkiem! U¿y³byœ okreœlenia Hathran, gdybyœ rzeczywiœcie by³ rashemickim Vremyonni! Jesteœ oszustem, nie oddam ci Dynaheir!~
 @163  = ~Nie jestem pewna, czy mam czuæ ulgê, czy te¿ byæ zaniepokojon¹ twoim pomyœlnym wywiedzeniem w pole czarodzieja, <CHARNAME>.~
 @164  = ~Nie bój siê, Dynaheir! Minsc i Boo nie pozwol¹, ¿eby ich wiedŸma im przepad³a!~
@@ -219,7 +219,7 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @210  = ~Dynaheir, wyœlemy wiadomoœæ, gdy bêdziemy w stanie. Musimy szybko dostaæ siê do Sarevoka.~
 @211  = ~Zwyciê¿yliœmy. Skoñcz z tym defetyzmem. Ruszajmy zaznajomiæ Sarevoka z Kostuch¹.~
 @212  = ~Musimy tylko kontynuowaæ wêdrówkê do Podziemnego Miasta, by odszukaæ nasze przeznaczenie. Byæ mo¿e przedmioty poleg³ego vremona przys³u¿¹ siê nam z lepszym skutkiem.~
-@213  = ~W poœcigu za Sarevokiem
+@213  = ~Ostatnie chwile tandemu
 
 OdnaleŸliœmy Winskiego Perorate w pobli¿u wejœcia do Podziemnego Miasta. NajwyraŸniej by³ mentorem Sarevoka, ale zosta³ odsuniêty jako zdrajca za to, ¿e oœmieli³ siê go ratowaæ, zamiast zabiæ Wielkich Ksi¹¿¹t, jak mu przykazano. Dynaheir mog³a nie œledziæ tego Vremyonni, jednak by³ on zamieszany w obydwa nasze zadania. Wojna, rzeŸ i masowe œmierci, aby zostaæ bogiem. Muszê to powstrzymaæ, zanim Sarevok zbiegnie, by uknuæ intrygê od nowa.~
 @214  = ~Starczy tych sprzeczek. Mogê wykorzystaæ zdolnoœci obydwu z was. Zostawcie osobiste potyczki na inne czasy.~
@@ -228,11 +228,9 @@ OdnaleŸliœmy Winskiego Perorate w pobli¿u wejœcia do Podziemnego Miasta. Najwyra
 @217  = ~Dotrzymam ci towarzystwa, <CHARNAME>. Nie zawierzê twojego ¿ycia pozbawionemu sojuszników Czerwonemu Czarodziejowi.~
 @218  = ~Skoro nie chcesz zabijaæ wiedŸmy natychmiast, niech tak bêdzie. Zostanê z tob¹, ¿eby nie zatru³y ciê jej nikczemne k³amstwa. (Bêd¹ okazje, ¿eby j¹ usun¹æ. Tego g³upca ³atwo bêdzie zmanipulowaæ.)~ ~Skoro nie chcesz zabijaæ wiedŸmy natychmiast, niech tak bêdzie. Zostanê z tob¹, ¿eby nie zatru³y ciê jej nikczemne k³amstwa. (Bêd¹ okazje, ¿eby j¹ usun¹æ. Tê g³upi¹ babê ³atwo bêdzie zmanipulowaæ.)~
 @219  = ~Powinniœmy ju¿ ruszaæ w dalsz¹ drogê. Myœlê, ¿e obojgu wam potrzebny jest odpoczynek na odzyskanie zaklêæ tak szybko, jak to mo¿liwe.~
-@220  = ~Uratowanie Dynaheir z twierdzy gnolli.
+@220  = ~Uratowanie Dynaheir z twierdzy gnolli
 
-Uratowa³em czarodziejkê o imieniu Dynaheir, wbrew sprzeciwom Edwina. Oboje oka¿¹ siê cennymi nabytkami do mojej grupy, tego jestem pewien. Albo rozedr¹ nas na strzêpy, walcz¹c miêdzy sob¹. Nie mam pewnoœci które z nich jest potê¿niejsze, bêdziemy musieli przekonaæ siê naocznie.~ ~Uratowanie Dynaheir z twierdzy gnolli.
-
-Uratowa³am czarodziejkê o imieniu Dynaheir, wbrew sprzeciwom Edwina. Oboje oka¿¹ siê cennymi nabytkami do mojej grupy, tego jestem pewna. Albo rozedr¹ nas na strzêpy, walcz¹c miêdzy sob¹. Nie mam pewnoœci które z nich jest potê¿niejsze, bêdziemy musieli przekonaæ siê naocznie.~
+Uratowaliœmy czarodziejkê o imieniu Dynaheir, wbrew sprzeciwom Edwina. Oboje oka¿¹ siê cennymi nabytkami do mojej grupy, na pewno. Albo rozedr¹ nas na strzêpy, walcz¹c miêdzy sob¹. Nie mamy pewnoœci, które z nich jest potê¿niejsze, bêdziemy musieli przekonaæ siê naocznie.~ 
 @221  = ~¯eby by³a jasnoœæ, jestem przywódc¹ tej dru¿yny. Ró¿nice miêdzy wami pozostan¹ drugorzêdne wzglêdem naszych celów.~
 @222  = ~Dobrze. Ustalone.~
 @223  = ~Zaginiony dziennik Dynaheir

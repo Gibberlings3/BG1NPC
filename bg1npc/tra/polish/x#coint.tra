@@ -7,11 +7,11 @@
 @6    = ~Nie wygl¹da dobrze, choæ nie znoszê mówiæ takich rzeczy o damach. Prawdê mówi¹c, wygl¹da jakby zaraz mia³a wyzion¹æ ducha. Byæ mo¿e moglibyœmy eskortowaæ j¹ na brzeg oceanu, <CHARNAME>? Jest zbyt piêkna, by umrzeæ...~
 @7    = ~Musia³bym rozum postradaæ, by biegaæ z posy³kami dla krasnoluda! Czekaj... mówi³yœcie, ¿e nagroda bêdzie sowita? Mo¿emy porozmawiaæ o liczbach?~
 @8    = ~Jeœli bêdê zadowolona i spiszecie siê szybko, zarobicie na tym 200 sztuk z³ota.~
-@9    = ~M³ode panie, macie me s³owo, ¿e tego ³ajdaka spotkaj¹ nietêgie baty za to, ¿e œmia³ zak³óciæ wasz ³agodny sen. ~
+@9    = ~M³ode panie, macie me s³owo, ¿e tego ³ajdaka spotkaj¹ nietêgie baty za to, ¿e œmia³ zak³óciæ wasz ³agodny sen.~
 @10   = ~Uch... doprawdy szczêœciarz z ciebie, ¿e uda³o ci siê prze¿yæ tak d³ugo wœród rzeczy, które sprzedajesz. Spójrz na tê butelkê! Wypali³a w pó³ce dziurê na cal g³êbok¹! A to... eee, cokolwiek to jest... przysiêgam, ¿e mrugnê³o do mnie!~
 @11   = ~To? To s¹ oczy kobiety lisza... a przynajmniej gnom, który mi je sprzeda³, tak twierdzi³...~
 @12   = ~(œmieje siê) Szczêœliwy z ciebie cz³ek, Lusselyn... Patrz¹c na ciebie, któ¿ nie chcia³by spêdzaæ ca³ych dni na piciu i rozmowach z sympatycznymi towarzyszami... Mo¿e zostaniemy tu na chwilê, <CHARNAME>, i wydamy trochê monet ciesz¹c siê, ¿e wci¹¿ ¿yjemy, i zrewan¿ujemy siê dobremu gospodarzowi kupuj¹c kolejn¹ galaretkê? ~
-@13   = ~Dobryœœ ¿eœœœ, tiaa... ~
+@13   = ~Dobryœœ ¿eœœœ, tiaa...~
 @14   = ~Któ¿by s³ucha³ plotek, patrz¹c w piêknie niewinne oczy, ma pani?~
 @15   = ~To... to wa¿ne... Chcê by go uciszono! Proszê...~
 @16   = ~Mmm... wiêc szukamy historii Rzeki Jednoro¿ca? Z takim tytu³em mo¿e byæ pikantnie.~
@@ -33,7 +33,7 @@
 @32   = ~Có¿, rzuæ mi jakiœ przyk³ad...~
 @33   = ~Z rozkosz¹. Parê dni temu, pracowaliœmy nad zlikwidowaniem braków ¿elaza i przegonieniem bandytów z wnêtrza Torilu...~
 @34   = ~Chcesz mi powiedzieæ, ¿e byliœcie w Podmroku?~
-@35   = ~Eee... tak jakby. Tam zostaliœmy zaatakowani przez dzikie-~
+@35   = ~Eee... tak jakby. Tam zostaliœmy zaatakowani przez dzikie...~
 @36   = ~Drowy?! Wiedzia³em, ¿e to ich sprawka! Za ca³y z³em... absolutnie CA£YM... jakie mo¿na spotkaæ na powierzchni Torilu, stoi jeden lub dwa drowy!~
 @37   = ~Eee... tak, drowy by³y wszêdzie, czaj¹ce siê w mroku, strzelaj¹c z tych swoich zatrutych strza³ek... a ich kobiety tak ponêtne i z³e, ¿e zakochujesz siê w nich szybciej, ni¿ zd¹¿¹ ciê zabiæ, a zaufaj mi, s¹ w tym szybkie...~
 @38   = ~(szeptem) Chêtnie zademonstrujê na tobie, g³upi darthiir...~
@@ -70,8 +70,8 @@
 @69   = ~I lepiej, ¿eby to by³o d-dobre.~
 
 @70   = ~Eee... ma pani, wygl¹da na to, ¿e twe romantyczne idea³y zosta³y okropnie wypaczone przez przed³u¿aj¹cy siê pobyt wœród nêdznych zbójów, górników i hobgoblinów. ~
-@71   = ~Taa, ale rypanko to rypanko. Jak na mój gust ¿eœ trochê zbyt lichy, ale jeœli chcesz-~
-@72   = ~Chcia³bym móc, ma pani. Ale niestety, me serce nie nale¿y ju¿ do mnie. I obawiam siê, ¿e ta która je dzier¿y, wykrwawi³a by je-~
+@71   = ~Taa, ale rypanko to rypanko. Jak na mój gust ¿eœ trochê zbyt lichy, ale jeœli chcesz...~
+@72   = ~Chcia³bym móc, ma pani. Ale niestety, me serce nie nale¿y ju¿ do mnie. I obawiam siê, ¿e ta która je dzier¿y, wykrwawi³a by je...~
 @73   = ~Twa kobieta posieka³aby ciê jak kapustê kiszon¹, zdaje siê, ¿e to chcesz rzec... och, có¿. Mo¿e innym razem. (mruga)~
 @74   = ~Gdybym mia³ trochê czasu, pokaza³bym ci na czym polega ró¿nica, ma pani... jak ci na imiê?~
 @75   = ~Cooooran! Czy muszê zwijaæ twój jêzor za KA¯DYM razem, gdy widzisz spódniczkê?~
@@ -92,7 +92,7 @@
 @90   = ~(gwi¿d¿e cicho) Co za kobieta! Twój braciszek musi byæ nietuzinkowy, ¿e wyzwala w tobie tak g³êbokie uczucia!~
 @91   = ~Nienawidzê zabijania piêknych dam.~
 @92   = ~Czy ktoœ mówi³ o bogactwie? Nie ma nic s³odszego ni¿ uczciwie zgrabione ³upy z cia³ martwych drani!~
-@93   = ~Potê¿ni ponad wyobra¿enie! Có¿, ta wiwerna nie by³a godnym nas przeciwnikiem! Jeœli potrzebujesz zabiæ wiwernê, albo smoka, albo jak¹œ inn¹ nikczemn¹ bestiê, potrzebujesz us³ug Corana, zacny Kelddath Ormlyrze.~
+@93   = ~Potê¿ni ponad wyobra¿enie! Có¿, ta wiwerna nie by³a godnym nas przeciwnikiem! Jeœli potrzebujesz zabiæ wiwernê, albo smoka, albo jak¹œ inn¹ nikczemn¹ bestiê, potrzebujesz us³ug Corana, zacny Kelddathu Ormlyrze.~
 @94   = ~Eee, <CHARNAME>, mówi³em ci, gra warta by³a œwieczki: kilka celnych strza³, antidotum, i ta-da! Dwa tysi¹ce sztuk z³ota! Swoj¹ drog¹, oczekujê podwójnej stawki, jako ¿e to ja wskaza³em ci to zadanie.~
 @95   = ~Przyjemny goœæ, i taki lakoniczny.~
 @96   = ~Proszê, Kivan jest idealnym towarzyszem dla ciebie. Bêdziecie mogli wspólnie spêdziæ cudowne chwile milcz¹c ponuro.~
@@ -133,14 +133,14 @@
 @131  = ~Ach, musisz pokazaæ siê na Torilu, moja m³oda przyjació³ko. Powinnaœ wci¹¿ œniæ o niewinnych poca³unkach i spacerach przy blasku ksiê¿yca...~
 @132  = ~Pewnie taka by³aœ w moim wieku, bez dwóch zdañ.~
 @133  = ~Czy¿ to nie cudownie?~
-@134  = ~Nikt nie nazywa mojej kobiety suk¹-~
+@134  = ~Nikt nie nazywa mojej kobiety suk¹...~
 @135  = ~Odszed³, g³uptasie.~
 @136  = ~Och, Coranie, Coranie... nie zrobi³ ci krzywdy, mój skarbie?~
 @137  = ~Jejku, myœla³by kto, ¿e jesteœ na tyle m¹dry, by nie wdawaæ siê w bójki z wiêkszymi od ciebie...~
 @138  = ~Có¿... eee... Tchórz!~
 @139  = ~(dotyka szczêki) Nie najgorzej, ale bêdziesz musia³a ostro¿nie siê ze mn¹ obchodziæ przy ca³owaniu. Drañ rozerwa³ mi wargê. Zastanawiam siê, jak uda³o mu siê tak szybko wyprowadziæ cios?~
 @140  = ~Eee... by³... nachalny w swych s³odkich pieœniach i lubie¿nych spojrzeniach. OBMACYWA£ CIÊ wzrokiem! ~
-@141  = ~(zaczynasz siê œmiaæ) Nie on jeden, Coranie... Znam pewnego elfa z Tethyru-~
+@141  = ~(zaczynasz siê œmiaæ) Nie on jeden, Coranie... Znam pewnego elfa z Tethyru...~
 @142  = ~Och, naprawdê? To okropne!~
 @143  = ~(wzdychasz) ChodŸmy, Coranie.~
 @144  = ~(za¿enowany) Och... Pewnie masz racjê. Ale nie masz mi tego za z³e... gdy tak robiê, prawda?~
@@ -153,7 +153,7 @@
 @151  = ~Dawno tak siê nie ubawi³em!~
 @152  = ~Eee... <CHARNAME>, z³apiê was póŸniej... du¿o póŸniej...~
 @153  = ~(cicho) Pozwól mi siê tym zaj¹æ, <CHARNAME>...~
-@154  = ~Och, droga pani, dosz³y mych uszu plotki, ¿e Pani Brilla Srebrna Tarcza jest najpiêkniejsz¹ dam¹ w ca³ych Wrotach Baldura, wiêc przyby³em -~
+@154  = ~Och, droga pani, dosz³y mych uszu plotki, ¿e pani Brilla Srebrna Tarcza jest najpiêkniejsz¹ dam¹ w ca³ych Wrotach Baldura, wiêc przyby³em...~
 @155  = ~W ca³ym mieœcie? Och...~
 @156  = ~Plotki jednak k³ami¹, ma pani...~
 @157  = ~C-co?!~

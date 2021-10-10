@@ -6,7 +6,7 @@
 @5    = ~Giñcie, plugastwa!~
 @6    = ~Muszê ciê teraz zabiæ. To nic osobistego, rozumiesz?~
 @7    = ~Pani, przynoszê wa¿ne wieœci. Podczas moich podró¿y natknêliœmy na zgrabion¹ karawanê... i cia³o m³odego mê¿czyzny w kolorach Srebrnej Tarczy. Bandyci, którzy go zabili, mieli tê zapinkê.~
-@8    = ~Wiêc Eddard nie ¿yje? To okropna wiadomoœæ. Daj mi tê zapinkê - zachowam j¹ jako pami¹tkê po moim kochanym pasierbie... ~
+@8    = ~Wiêc Eddard nie ¿yje? To okropna wiadomoœæ. Daj mi tê zapinkê - zachowam j¹ jako pami¹tkê po moim kochanym pasierbie...~
 @9    = ~Nie... nie... Czemu nic mi powiedzia³eœ, <CHARNAME>? M-m-mój brat... o nie!~ ~Nie... nie... Czemu nic mi powiedzia³aœ, <CHARNAME>? M-m-mój brat... o nie!~
 @10   = ~Spokojnie, dziewczyno.~
 @11   = ~Co... Skie? Co ty wyrabiasz?~
@@ -21,7 +21,7 @@
 @20   = ~Ty... Ty DZIWKO!~
 @21   = ~Nie zbli¿aj siê do mojego Eldotha!~
 @22   = ~Spokojnie, spokojnie, moja najdro¿sza. Nie bêdzie ³atwo utrzymaæ twojego... um... odejœcia w tajemnicy, czy¿ nie? Nawet przed kimœ tak zajêtym sob¹, jak twój ojciec. Pozwól wiêc nam przywdziaæ skrzyd³a Mi³oœci i polecieæ tam, gdzie nas one ponios¹. (przytula Skie i mruga do Brilli sponad jej ramienia)~
-@23   = ~Hi-hi! Jeœli kiedyœ potrzebowa³bym kabareciarza, który urozmaici³by nudny wieczór, wiem ju¿ do kogo siê zg³osiæ. Trzymaj siê, cukiereczku! (Skie mamrocze coœ pod nosem i wyci¹ga Eldotha z pokoju)~
+@23   = ~Hi, hi! Jeœli kiedyœ potrzebowa³bym kabareciarza, który urozmaici³by nudny wieczór, wiem ju¿ do kogo siê zg³osiæ. Trzymaj siê, cukiereczku! (Skie mamrocze coœ pod nosem i wyci¹ga Eldotha z pokoju)~
 @24   = ~Nigdy nie zaszkodzi wiêcej najemników, ¿eby dobrze wykonaæ robotê. Macie jakieœ doœwiadczenie?~
 @25   = ~Walczyliœmy z grup¹ bandytów, która w³aœnie zabi³a wszystkich cz³onków karawany na pó³noc st¹d. Jakaœ szansa, ¿e ta spinka nale¿y do ciebie?~
 @26   = ~Nie czêsto chyba wychodzisz zza tej lady, mam racjê? Hej, czy to nie pochodzi z jednej z twoich karawan? ZnaleŸliœmy to przy stercie cia³ na pó³noc st¹d.~
@@ -31,11 +31,9 @@
 @30   = ~Wiesz, w³aœnie sobie przypomnia³em... widzieliœmy rozbit¹ karawanê na pó³nocy i pokonaliœmy bandytów. Czy to nale¿y do ciebie?~ ~Wiesz, w³aœnie sobie przypomnia³am... widzieliœmy rozbit¹ karawanê na pó³nocy i pokonaliœmy bandytów. Czy to nale¿y do ciebie?~
 @31   = ~Có¿, jest to znak syna Srebrnej Tarczy. Martwi, mówicie? To by³a jedna z moich karawan. Zdaje siê, ¿e mam teraz spore k³opoty. Skoro on nie ¿yje, to bêdê poszukiwanym krasnoludem. Có¿, skoro moja reputacja zosta³a w³aœnie zmieszana z b³otem, co powiecie na pomoc wam w rozprawieniu siê z tymi szumowinami? Mo¿e moglibyœcie te¿ powiedzieæ o mnie s³ówko Srebrnym Tarczom. Co wy na to?~
 @32   = ~Nie chcemy ciê, spadaj.~
-@33   = ~Zadanie Kagaina
+@33   = ~Syn Entara
 
-Syn Entara Srebrnej Tarczy zosta³ zamordowany. Nie zaufa³em Kagainowi, wiêc nasze œcie¿ki siê rozbieg³y, ale mogê zwróciæ tê zapinkê z powrotem Srebrnym Tarczom, kiedy bêdê we Wrotach Baldura...~ ~Zadanie Kagaina
-
-Syn Entara Srebrnej Tarczy zosta³ zamordowany. Nie zaufa³am Kagainowi, wiêc nasze œcie¿ki siê rozbieg³y, ale mogê zwróciæ tê zapinkê z powrotem Srebrnym Tarczom, kiedy bêdê we Wrotach Baldura...~
+Syn Entara Srebrnej Tarczy zosta³ zamordowany. Nie zaufaliœmy Kagainowi, wiêc nasze œcie¿ki siê rozbieg³y, ale mo¿emy zwróciæ tê zapinkê z powrotem Srebrnym Tarczom, kiedy bêdziemy we Wrotach Baldura...~
 @34   = ~Jasne, twoje umiejêtnoœci mog¹ nam siê przydaæ.~
 @35   = ~Syn Entara
 
@@ -48,25 +46,29 @@ Syn Entara Srebrnej Tarczy zosta³ zamordowany. Mo¿emy zwróciæ zapinkê jego rodzi
 @41   = ~Nie chcê, abyœ d³u¿ej z nami podró¿owa³, dzia³aj na w³asn¹ rêkê.~
 @42   = ~Jasne, twoje umiejêtnoœci mog¹ nam siê przydaæ. Do³¹cz do nas.~
 @43   = ~G³upi kretyni, wasza strata. No to odchodzê.~
-@44   = ~Zadanie Kagaina
+@44   = ~Syn Entara
 
 Syn Entara Srebrnej Tarczy zosta³ zamordowany. Nie podoba³o mi siê podejœcie Kagaina, wiêc nasze œcie¿ki siê rozbieg³y, ale mogê zwróciæ tê zapinkê Srebrnym Tarczom, kiedy bêdê we Wrotach Baldura...~
 @45   = ~A teraz o tych monetach, o których wczeœniej gada³em. Macie, weŸcie to, ale spodziewam siê po was podzia³u ³upów. Jestem teraz biedny.~
-@46   = ~Przynosimy wieœci dla Pana i Pani Srebrnej Tarczy. Zdaje siê, ¿e dowiedzieliœmy siê czegoœ o ich synu. Czy to jedna z waszych spinek?~
-@47   = ~Widzê, ¿e macie znan¹ w œwiecie pieczêæ. IdŸcie, proszê, od razu do Pani Srebrnej Tarczy. Znajdziecie j¹ na górze.~
+@46   = ~Przynosimy wieœci dla pana i pani Srebrnej Tarczy. Zdaje siê, ¿e dowiedzieliœmy siê czegoœ o ich synu. Czy to jedna z waszych spinek?~
+@47   = ~Widzê, ¿e macie znan¹ w œwiecie pieczêæ. IdŸcie, proszê, od razu do pani Srebrnej Tarczy. Znajdziecie j¹ na górze.~
 // BGEE #27194
 @48   = ~Syn Entara
+
 Po³¹czyliœmy si³y z Kagainem, krasnoludem który chce odnaleŸæ zaginionego szlachcica. Ten szlachcic to syn Entara Srebrnej Tarczy, wiêc Kagain desperacko pragnie go odnaleŸæ.~
 @49   = ~Syn Entara
-Zwróciliœmy przypinkê syn Entara Srebrnej Tarczy jego rodzinie.~
+
+Zwróciliœmy przypinkê syna Entara Srebrnej Tarczy jego rodzinie.~
 @50   = ~Có¿, faktycznie szlaki nie s¹ bezpieczne. Walczyliœmy z grup¹ bandytów, która w³aœnie zabi³a wszystkich cz³onków karawany na pó³noc st¹d.~
 @51   = ~Nie czêsto chyba wychodzisz zza tej lady, mam racjê? Wiesz, w³aœnie sobie przypomnia³em... widzieliœmy rozbit¹ karawanê na pó³nocy i pokonaliœmy bandytów.~ ~Nie czêsto chyba wychodzisz zza tej lady, mam racjê? Wiesz, w³aœnie sobie przypomnia³am... widzieliœmy rozbit¹ karawanê na pó³nocy i pokonaliœmy bandytów.~
-@52   = ~Martwi, mówicie? To by³a jedna z moich karawan. Zdaje siê, ¿e mam teraz spore k³opoty. Skoro Syn Entara Srebrnej Tarczy nie ¿yje, to bêdê poszukiwanym krasnoludem. Có¿, skoro moja reputacja zosta³a w³aœnie zmieszana z b³otem, co powiecie na pomoc wam w rozprawieniu siê z tymi szumowinami? Mo¿e moglibyœcie te¿ powiedzieæ o mnie s³ówko Srebrnym Tarczom. Co wy na to?~
-@53   = ~Zadanie Kagaina
-Syn Entara Srebrnej Tarczy zosta³ zamordowany. Nie zaufa³em Kagainowi, wiêc nasze œcie¿ki siê rozbieg³y.~
+@52   = ~Martwi, mówicie? To by³a jedna z moich karawan. Zdaje siê, ¿e mam teraz spore k³opoty. Skoro syn Entara Srebrnej Tarczy nie ¿yje, to bêdê poszukiwanym krasnoludem. Có¿, skoro moja reputacja zosta³a w³aœnie zmieszana z b³otem, co powiecie na pomoc wam w rozprawieniu siê z tymi szumowinami? Mo¿e moglibyœcie te¿ powiedzieæ o mnie s³ówko Srebrnym Tarczom. Co wy na to?~
+@53   = ~Syn Entara
+
+Syn Entara Srebrnej Tarczy zosta³ zamordowany. Nie zaufaliœmy Kagainowi, wiêc nasze œcie¿ki siê rozbieg³y.~
 @54   = ~Syn Entara
+
 Syn Entara Srebrnej Tarczy zosta³ zamordowany.~
 @55   = ~Walczyliœmy z grup¹ bandytów, która w³aœnie zabi³a wszystkich cz³onków karawany na pó³noc st¹d.~
 @56   = ~Ach, z drugiej strony, nie specjalnie.~
-@57   = ~Eddard! *poci¹ga nosem* Nie mogê uwierzyæ, ¿e nie ¿yje.~
+@57   = ~Eddard! (poci¹ga nosem) Nie mogê uwierzyæ, ¿e nie ¿yje.~
 @58   = ~Nie mogê uwierzyæ, ¿e nie ¿yje.~

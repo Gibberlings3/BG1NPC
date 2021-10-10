@@ -41,11 +41,11 @@
 @40   = ~Dziêkujê twemu szlachetnemu sercu i hojnemu duchowi!~
 @41   = ~Okaza³eœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³eœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~ ~Okaza³aœ wielk¹ odwagê i honor, <CHARNAME>! Nie podda³aœ siê pokusie k³amstwa, by przej¹æ wiadomoœæ zaadresowan¹ do naszych wrogów.~
 @42   = ~Czy teraz og³aszasz siê otwarcie wrogiem ¯elaznego Tronu? Có¿, nie wszystko mo¿na trzymaæ w ukryciu, jak przypuszczam, wiêc byæ mo¿e to najlepsze rozwi¹zanie.~
-@43   = ~Hmph. Propozycja od jednego z plugawych Druidów Cienia. Jestem zdumiona, ¿e nie zaatakowa³ nas od razu. <CHARNAME>... nie zaufam tym ich wywarom. Ta mikstura powinna byæ wyrzucona zamiast wypita.~
+@43   = ~Hmpf. Propozycja od jednego z plugawych Druidów Cienia. Jestem zdumiona, ¿e nie zaatakowa³ nas od razu. <CHARNAME>... nie zaufam tym ich wywarom. Ta mikstura powinna byæ wyrzucona zamiast wypita.~
 @44   = ~Twój towarzysz okaza³ przyjaŸñ. Nie wystawiaj mojej tolerancji na próbê.~ ~Twoja towarzyszka okaza³a przyjaŸñ. Nie wystawiaj mojej tolerancji na próbê.~
 @45   = ~¯egnaj.~
 @46   = ~Có¿ to za ulga wiedzieæ, ¿e te wszystkie biedne dusze bêd¹ mia³y okazjê do ucieczki! Ruszajmy dalej, musimy siê dowiedzieæ, co dzieje siê w tej kopalni.~
-@47   = ~£a³, <CHARNAME>, uwalniamy niewolników, zupe³nie jak bohaterowie pieœni!~
+@47   = ~Super, <CHARNAME>, uwalniamy niewolników, zupe³nie jak bohaterowie pieœni!~
 @48   = ~Jeszcze raz dziêki! I powodzenia!~
 @49   = ~(szepcze) Ja, eee... wydaje mi siê, ¿e to nie by³ dobry pomys³...~
 @50   = ~Nie podoba mi siê ten widok, <CHARNAME>. On jest jakiœ skryty i nie ufam temu podejrzanemu grymasowi jego twarzy. Nie by³by tak ostro¿ny, gdyby nie mia³ czegoœ do ukrycia przed wzrokiem Tempusa.~
@@ -74,9 +74,9 @@
 @73   = ~Och, proszê, pomó¿cie mu!~
 @74   = ~Rzeczywiœcie g³upio. Choæ œmieræ s³abej istoty powoduje, ¿e i zachêcaj¹co; to w³aœnie dobór naturalny sprawi³, ¿e mój lud jest tak wspania³y.~
 @75   = ~To bohaterski czyn, którego tych dwojga próbowa³o dokonaæ, jednak wszystko na nic, jeœli im nie pomo¿emy. Szanujê ich bezpoœrednioœæ; pozwól u¿yczyæ im naszej si³y.~
-@76   = ~Jestem zasmucona, gdy¿ podejrzewam ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³ mnie ocaliæ.~ ~Jestem zasmucona, gdy¿ podejrzewam ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³a mnie ocaliæ.~
+@76   = ~Jestem zasmucona, gdy¿ podejrzewam, ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³ mnie ocaliæ.~ ~Jestem zasmucona, gdy¿ podejrzewam, ¿e stanie siê to, czego siê obawiasz: paj¹ki nie trzymaj¹ wiêŸniów. Niemniej jednak, sama by³am w niewoli nie mniej okrutnych stworzeñ, a uda³o mi siê prze¿yæ do czasu, gdy <CHARNAME> przyby³a mnie ocaliæ.~
 @77  = ~Biedny, bezbronny ch³opiec zgubi³ siê w lesie! Musimy go znaleŸæ, <CHARNAME>!~
-@78   = ~Proszê. Co powiesz, Panie?~ ~Proszê. Co powiesz, Pani?~
+@78   = ~Proszê. Co powiesz, panie?~ ~Proszê. Co powiesz, pani?~
 @79   = ~Có¿, trochê mi siê nudzi...~
 @80   = ~Zatem to mój szczêœliwy dzionek. Jesteœcie znudzeni i g³upi.~
 @81   = ~Hmmm.~
@@ -155,7 +155,7 @@
 @154  = ~Eee... jak d³ugo masz zamiar zostaæ w tej jaskini?~
 @155  = ~Jakiœ czas. Moje... eee... chodzenie po jaskiniach wymaga czasu...~
 @156  = ~Tak... Jestem groto³azem.~
-@157  = ~O bogowie! To musi byæ ta NOWA Pani Srebrna Tarcza, na któr¹ Skie tak narzeka³a. Wiele ³adniejsza i tyle¿ g³upsza, a tak¿e jak s¹dzê, jeszcze wra¿liwsza i wymagaj¹ca jeszcze troskliwszej pielêgnacji... (wzdycha) Przypuszczam, ¿e jest ju¿ za póŸno na odwrót...~
+@157  = ~O bogowie! To musi byæ ta NOWA pani Srebrna Tarcza, na któr¹ Skie tak narzeka³a. Wiele ³adniejsza i tyle¿ g³upsza, a tak¿e jak s¹dzê, jeszcze wra¿liwsza i wymagaj¹ca jeszcze troskliwszej pielêgnacji... (wzdycha) Przypuszczam, ¿e jest ju¿ za póŸno na odwrót...~
 @158  = ~Pssst... <CHARNAME>, to nowa ¯ONA mojego ojca. Wynoœmy siê st¹d!~
 @159  = ~Pamiêtasz, co mówi³em? Ze szlachciankami trzeba byæ zuchwa³ym. Uœmiechnijcie siê, ³ajzy!~
 @160  = ~Jesteœ wolna, ma leœna piêknoœci. Nie mia³abyœ ochoty uczciæ tej radosnej okazji w przytulnej gospodzie? Albo w przytulnej grocie, któr¹ zwiesz domem... gdzie ona jest? Abelo?~
@@ -186,7 +186,7 @@
 @185  = ~Niewielki t³um zgromadzony wokó³ zamilk³ tak, ¿e by³oby s³ychaæ upadaj¹cy p³atek œniegu. G³os Echtelliona wcale nie ochryp³, i ca³y t³um s³ysza³ s³owa, które wypowiedzia³ Indze Wysokoskrzyd³ej:~
 @186  = ~"Seldarine, zmi³uj siê nade mn¹! Zawodzisz gorzej ni¿ moja siostra!"~
 @187  = ~C-co?~
-@188  = ~Nie rozpaczaj, bardzie. Z³a poezja ma moc zamienienia kamieñ w cia³o i wskrzeszenia z martwych... ~
+@188  = ~Nie rozpaczaj, bardzie. Z³a poezja ma moc zamienienia kamieñ w cia³o i wskrzeszenia z martwych...~
 @189  = ~A teraz, <CHARNAME>, chcia³eœ coœ powiedzieæ?~ ~A teraz, <CHARNAME>, chcia³aœ coœ powiedzieæ?~
 @190  = ~I lepiej, ¿eby to by³o d-dobre.~
 @191  = ~My <PRO_LADYLORD>?~
@@ -267,12 +267,12 @@ podró¿nik jest rad i ma spokój~
 @261  = ~Napawaj siê teraz, iblith, ale ju¿ nied³ugo zetnê ci ten uœmiech z twarzy!~
 @262  = ~Gdybym to ja sta³a na miejscu, które uznajesz za swoje, nie spieszy³abym siê z oskar¿aniem niewinnych.~
 @263  = ~To wielka zniewaga zostaæ nazwanym morderc¹; tym wiêksza z ust takiego nikczemnika.~
-@264   = ~Ty... ty potworze! Gdyby tylko by³ tu mój ojciec, ju¿ wisia³byœ na szubienicy!~
-@265   = ~Achhh, lecz niestety jest nieobecny. To straszna, straszna strata dla nas wszystkich. Lecz najgorsze jest to, ¿e w swojej szaleñczej rozpaczy jego piêkna m³oda córka postanowi³a zemœciæ siê na mê¿czyŸnie, który wed³ug niej zabi³ jej ojca... taka strata. (wzdycha) Jakby nie patrzeæ...~
-@266  = ~Jak œmiesz! Mój ojciec-~
-@267  = ~Twój ojciec nic nie zrobi, o Pani Srebrna Tarcza. Dopóki nie wyci¹gniesz go z grobu.~
+@264  = ~Ty... ty potworze! Gdyby tylko by³ tu mój ojciec, ju¿ wisia³byœ na szubienicy!~
+@265  = ~Achhh, lecz niestety jest nieobecny. To straszna, straszna strata dla nas wszystkich. Lecz najgorsze jest to, ¿e w swojej szaleñczej rozpaczy jego piêkna m³oda córka postanowi³a zemœciæ siê na mê¿czyŸnie, który wed³ug niej zabi³ jej ojca... taka strata. (wzdycha) Jakby nie patrzeæ...~
+@266  = ~Jak œmiesz! Mój ojciec...~
+@267  = ~Twój ojciec nic nie zrobi, o pani Srebrna Tarcza. Dopóki nie wyci¹gniesz go z grobu.~
 @268  = ~Co?!? O... o czym ty mówisz?~
-@269  = ~Obawiam  siê, ¿e twój ojciec, moje kondolencje, zosta³ za³atwiony jakiœ czas temu, przez nieznanego sprawcê, czy te¿ sprawców.~
+@269  = ~Obawiam siê, ¿e twój ojciec, moje kondolencje, zosta³ za³atwiony jakiœ czas temu, przez nieznanego sprawcê, czy te¿ sprawców.~
 @270  = ~Ojciec?.. Czekaj, ty... ty K£AMIESZ - stra¿nicy ojca to najlepsi spoœród stra¿ miejskich... oni nie pozwoliliby ¿adnym bandytom siê do niego nawet zbli¿yæ.~
 @271  = ~Ach... có¿, z powodu obecnego stanu zagro¿enia, zostali oni oddelegowani do pe³nienia obowi¹zków wiêkszej wagi.~
 @272  = ~Co?! WIÊKSZEJ wagi!?! Co jest wa¿niejsze dla miasta ni¿ ¿ycie Wielkiego Ksiêcia?~
@@ -322,7 +322,7 @@ podró¿nik jest rad i ma spokój~
 @316  = ~Kiedykolwiek jestem œwiadkiem szaleñstwa magów, którzy uprawiaj¹c swoj¹ sztukê w krajach nie maj¹cych oczekiwañ wzglêdem ich umiejêtnoœci, zastanawiam siê, czy bezczynnoœæ nieuchronnie musi prowadziæ wielkie umys³y do niepoczytalnoœci?~
 @317  = ~Um, taa... Wszyscy magowie tacy s¹? Gdybym ja by³a magiem to nie pracowa³abym z jakimœ szlamem ani œluzem... Brrr... To jest zbyt um... œliskie. Stworzy³abym piernikowe golemy, albo coœ, gdybym chcia³a byæ dziwna.~
 @318  = ~(Skoro ju¿ jestem tak zdesperowany w tej nieoœwieconej krainie, ¿e wdajê siê w polemikê z czarownicami, mog³em zauwa¿yæ, ¿e za pomoc¹ magii nie da siê ugotowaæ gulaszu. Magiczne przedmioty nie plami¹ d³oni, która je dotyka.)~
-@319  = ~(rzuca znacz¹ce spojrzenie w Twoj¹ stronê) (Oczywiœcie, chyba ¿e jest to bardzo niedoœwiadczona d³oñ...)~
+@319  = ~(rzuca znacz¹ce spojrzenie w twoj¹ stronê) (Oczywiœcie, chyba ¿e jest to bardzo niedoœwiadczona d³oñ...)~
 @320  = ~<CHARNAME>, dlaczego musimy siê zatrzymywaæ i zagadywaæ ka¿de œcierwo, które spotykamy po drodze?~
 @321  = ~Poznanie jest szko³¹ magii rzadko praktykowan¹ w Rashemenie. Niestety, warunkowani potrzeb¹, wiêksz¹ wagê przyk³adamy do czarów bitewnych. Jeœli zezwolisz tej kobiecie zag³êbiæ siê w twej przesz³oœci i przysz³oœci, bardzo chêtnie przypatrzê siê, w jaki sposób tego dokona.~
 @322  = ~¯a³osne lalunie w czerwonych sukienkach nie przestrasz¹ mnie!~
@@ -372,7 +372,7 @@ podró¿nik jest rad i ma spokój~
 @366  = ~Zostaæ pionkiem w rêku szalonego nekromanty, który chce naruszyæ delikatny cykl natury? Na mnie nie licz, <CHARNAME>, nie mam zamiaru chodziæ po brudnych kana³ach w poszukiwaniu zgni³ych cia³. Ka¿da czêœæ mego cia³a krzyczy w proteœcie.~
 @367  = ~Uch... kto by siê spodziewa³, ¿e poszukiwanie przygód bêdzie siê wi¹za³o... z czymœ TAKIM.~
 @368  = ~Najbardziej nieprzyjemne zadanie.~
-@369  = ~Wybacz mi, mroczna damo, czy¿byœ mia³a jakieœ moralne o-~
+@369  = ~Wybacz mi, mroczna damo, czy¿byœ mia³a jakieœ moralne o...~
 @370  = ~Moralne opory, chcia³eœ powiedzieæ? Na Dziewiêæ Piekie³, bynajmniej. Po prostu gardzê smrodem waszych kana³ów jeszcze bardziej ni¿ smrodem waszych naziemczych miast.~
 @371  = ~Twoje rzemios³o jest obraz¹ dla Natury, nekromanto! Z drugiej strony, smród ze œcieków jest tak paskudny, ¿e musz¹ tam gniæ jakieœ cia³a. Nie przejmujê siê tym, ¿e zatruwaj¹ zasoby wody miasta, ale zanieczyszczaj¹ samo Morze Mieczy.~
 @372  = ~Grr! Tym razem zabawmy siê w ¿uka gnojaka, <CHARNAME>!~
@@ -393,7 +393,7 @@ podró¿nik jest rad i ma spokój~
 @387  = ~Gdybym nazwa³a tego goœcia szlamem, to obrazi³abym wszystkie szlamy! <CHARNAME>, zgodzê siê na towarzystwo tego odszczepieñca Eldotha tylko jeœli bêdê mog³a æwiczyæ na nim swoje ciosy, gdy w okolicy bêdzie zbyt spokojnie.~
 @388  = ~Wymuszenie? Szanta¿? Nie brzmi to zbyt szlachetnie.~
 @389  = ~Hmm, mówi³eœ coœ, dziecko?~
-@390  = ~Dziecko?!? Ja-~
+@390  = ~Dziecko?! Ja...~
 @391  = ~Zapewniam ciê, ¿e te co mam zrobiæ bardzo mnie boli, ale musisz pomyœleæ o mojej ukochanej Skie! To jedyna droga, aby mog³a unikn¹æ tej tyranii. Wiêc, co odpowiesz?~
 @392  = ~Muszê to przemyœlec, jesli taka jest twa wola.~
 @393  = ~Ach, prawdziwa mi³oœæ! Byæ mo¿e moglibyœmy pomóc Fergusowi w tej sprawie?~
@@ -424,7 +424,7 @@ podró¿nik jest rad i ma spokój~
 @418  = ~Najstarsz¹ sztuczk¹ niekompetentnych jest maskowanie swej nieudolnoœci praworz¹dnym gniewem. Czêœciej spotykane wœród paladynów, ni¿ adeptów sztuki magicznej.~
 @419  = ~OdejdŸ!~
 @420  = ~Muszê siê zgodziæ, gdy¿ pochodzê ze wspania³ego Thay, któremu potrzeba jeszcze tylko kilku lat, by udowodniæ reszcie Faerunu, ¿e rzeczywiœcie stanowi on centrum wszechœwiata.~
-@421  = ~Có¿, oczywiœcie, ¿e Wybrze¿e Mieczy to centrum wszechœwiata. Przynajmniej w tej chwili - poniewa¿ ja tu jestem. Widzisz, skarbie, spotyka³am siê kiedyœ z takim absolutnie dziarskim filozofem, próbowa³ mnie uwieœæ nauk¹. W wiêkszoœci to by³y jakieœ g³upoty, jak oddawanie bogactwa na rzecz... czegoœ tam; ale nauczy³ mnie jednej przydatnej rzeczy; ¿e jedyna czêœæ œwiata, która istnieje naprawdê, to ta krêc¹ca siê dooko³a nas. Wiedzia³am to od zawsze, ale przyjemnie by³o zobaczyæ, ¿e historia wreszcie za mn¹ nad¹¿a... ~
+@421  = ~Có¿, oczywiœcie, ¿e Wybrze¿e Mieczy to centrum wszechœwiata. Przynajmniej w tej chwili - poniewa¿ ja tu jestem. Widzisz, skarbie, spotyka³am siê kiedyœ z takim absolutnie dziarskim filozofem, próbowa³ mnie uwieœæ nauk¹. W wiêkszoœci to by³y jakieœ g³upoty, jak oddawanie bogactwa na rzecz... czegoœ tam; ale nauczy³ mnie jednej przydatnej rzeczy; ¿e jedyna czêœæ œwiata, która istnieje naprawdê, to ta krêc¹ca siê dooko³a nas. Wiedzia³am to od zawsze, ale przyjemnie by³o zobaczyæ, ¿e historia wreszcie za mn¹ nad¹¿a...~
 @422  = ~Zaiste, sa tacy, którzy nigdy nie s³yszeli o Wybrze¿u Mieczy.~
 @423  = ~O rety... Jak to dobrze byæ poszukiwaczem przygód.~
 @424  = ~<CHARNAME>, propozycja tej kobiety brzmi doœæ... intryguj¹co. Na pewno nie przepuœcisz okazji uratowania damy w opa³ach? (Tak, to powinno pchn¹æ ich w dobr¹ stronê... Odwal¹ wiêkszoœæ roboty, a - wiedz¹c jakie wra¿enie robiê na kobietach - ja spijê œmietankê. Nareszcie, coœ wartego mojej uwagi!)~
@@ -483,7 +483,7 @@ podró¿nik jest rad i ma spokój~
 @477  = ~Hmm... dziwny wybór nagrody, tak samo dziwny, jak dobór s³ów. Oba mnie niepokoj¹, prawdê mówi¹c.~
 @478  = ~Dziwny wybór; przypuszczam, ¿e ten stary dureñ nie móg³by nic prze³kn¹æ bez czytania przy jedzeniu.~
 @479  = ~Tak, to mroczne dzieje, lecz historia czêsto tak¹ bywa.~
-@480  = ~<CHARNAME>, jaka jest cena za niewinne ¿ycie? Radzê, ¿ebyœmy  odmówili temu Gallorowi i poinformowali Charlestona.~
+@480  = ~<CHARNAME>, jaka jest cena za niewinne ¿ycie? Radzê, ¿ebyœmy odmówili temu Gallorowi i poinformowali Charlestona.~
 @481  = ~Dziewiêæset sztuk z³ota to godziwa zap³ata za tê robotê. Nie b¹dŸ miêczakiem, <CHARNAME>, zgódŸ siê!~
 @482  = ~I tak nie mo¿na powiedzieæ, ¿e ci kopacze ¿yj¹. No bo co to za ¿ycie, uganiaæ siê za odpadkami wyrzuconymi wieki temu przez gospodynie?~
 @483  = ~Aha. Weso³e B³azny. Sakiewki w d³oñ a miecze na ziemiê.~
@@ -527,7 +527,7 @@ podró¿nik jest rad i ma spokój~
 @521  = ~Pff...~
 @522  = ~Zdaje siê, ¿e wzmianka o œmierci wróci³a mu rozum, choæ bezzw³ocznie zacz¹³ domagaæ siê jej dla siebie, by odpokutowaæ za œmieræ sprowadzon¹ na innych... <CHARNAME>, ten cz³owiek jest ze œmierci¹ w niemal tak za¿y³ych stosunkach jak my.~
 @523  = ~ZaprowadŸcie mnie przed oblicze sprawiedliwoœci. Zas³u¿y³em sobie na los, jaki mnie czeka.~
-@524  = ~<CHARNAME>, znasz historiê o d¿inie w butelce? Po pierwszym tysi¹cleciu uwiêzienia, przysi¹g³ on s³u¿yæ swojemu wybawicielowi przez trzydzieœci trzy lata; nikt jednak go nie uwolni³. Po dziesiêciu tysi¹cach lat obieca³ spe³niæ trzy ¿yczenia w zamian za uwolnienie- jednak nadal nikt siê nie pojawi³. A po piêædziesiêciu tysi¹cach lat, przysi¹g³ zabiæ tego, kto pierwszy otworzy jego butelkê.~
+@524  = ~<CHARNAME>, znasz historiê o d¿inie w butelce? Po pierwszym tysi¹cleciu uwiêzienia, przysi¹g³ on s³u¿yæ swojemu wybawicielowi przez trzydzieœci trzy lata; nikt jednak go nie uwolni³. Po dziesiêciu tysi¹cach lat obieca³ spe³niæ trzy ¿yczenia w zamian za uwolnienie - jednak nadal nikt siê nie pojawi³. A po piêædziesiêciu tysi¹cach lat, przysi¹g³ zabiæ tego, kto pierwszy otworzy jego butelkê.~
 @525  = ~Myœlê, ¿e nie muszê ci mówiæ, dlaczego opowiadam ci to akurat teraz.~
 @526  = ~<CHARNAME>, mê¿czyzna mo¿e byæ torturowany i zabity, ale zachowa swój honor. Kobieta pojmana przez okrutnych barbarzyñców niechybnie zostanie tego honoru pozbawiona... Nalegam abyœmy pomogli odnaleŸæ towarzyszkê tego cz³owieka, nim bêdzie za póŸno.~
 @527  = ~<CHARNAME>, to brzmi dok³adnie jak jedna z tych historii, gdzie g³upi i niezdarni poszukiwacze przygód przyzywaj¹ bez brawury wielkie z³o. Przewa¿nie dru¿yna znanych bohaterów przypadkowo znajduje siê w pobli¿u i pokonuje przyzwane demony ratuj¹c ¿a³osnych niegodziwców. Skoro nie jestem urodzonym szczêœciarzem, nie mam jakiegoœ pal¹cego pragnienia by zaufaæ tej historii i pozwoliæ, by rozegra³a siê na moich oczach. Poza tym, w tym zapomnianym przez bogów miasteczku, to MY reprezentujemy tych "znanych" bohaterów. Nawet najbardziej optymistycznie nastawiony kretyn zauwa¿y³by, ¿e nie mamy szans w walce ze staro¿ytnym z³em. ChodŸmy st¹d.~
@@ -554,7 +554,7 @@ podró¿nik jest rad i ma spokój~
 @548  = ~Mi³o jest choæ raz zostaæ rozpoznanym po mojej donios³oœci!~
 @549  = ~Nie, nie trzeba...~
 @550  = ~Ach, widzê, ¿e przyprowadziliœcie ze sob¹ moj¹ star¹ przyjació³kê, Alorê. Mam nadziejê, ¿e trzymasz siê z dala od k³opotów.~
-@551  = ~(gulp) T-tak, mistrzu gildii.~
+@551  = ~(prze³yka œlinê) T-tak, mistrzu gildii.~
 @552  = ~Cieszê siê. Przecie¿ nie chcielibyœmy, aby ten drobny... "incydent" siê powtórzy³, prawda?~
 @553  = ~Eee, n-nie, mistrzu gildii.~
 @554  = ~Dobrze. A teraz, przejdŸmy do interesów.~
@@ -566,20 +566,20 @@ podró¿nik jest rad i ma spokój~
 @560  = ~Ach, nies³awny Arcydruid Cienia we w³asnej osobie. Tak samo niezrównowa¿ony i nierozs¹dny jak jego naœladowcy, s¹dz¹c po powitaniu. I jeœli sierp, którym próbujesz mnie poci¹æ jest têpy jak twoja g³owa, to wcale siê nie bojê. <CHARNAME> i ja powinniœmy oczyœciæ ten las z brudów Druidów Cienia, ¿eby PRAWDZIWI druidzi mogli przej¹æ pieczê nad tym lasem.~
 @561  = ~Jesteœ tak samo bieg³a we frazesach, jak twój mistrz Seniyad.~
 @562  = ~Minsc nie rozumie. Dlaczego ci ludzie nienawidz¹ Jaheiry? To taka mi³a pani! Mo¿e jest nieco w³adcza i dra¿liwa... hm... w³aœciwie przypomina ona Minskowi Berthê Nie-wychodz¹c¹-za-m¹¿ stamt¹d, sk¹d pochodzi...~
-@563  = ~(pisk)~ [GAM_48]
-@564  = ~Co Boo? Nie, nie s¹dzê, ¿ebym chcia³, aby ona znów wytarga³a mnie za uszy...~
+@563  = ~(Boo piszczy)~ [GAM_48]
+@564  = ~Co mówisz, Boo? Nie, nie s¹dzê, ¿ebym chcia³, aby ona znów wytarga³a mnie za uszy...~
 @565  = ~WyobraŸ sobie, co by nam zrobi³a, gdyby wiedzia³a, ¿e to MY spiliœmy Khalida w "Weso³ym ¯onglerze"...~
 @566  = ~Ahem!~
 @567  = ~A wiêc to ty! B¹dŸ pewien, ¿e jeszcze do tego wrócimy... póŸniej.~
 @568  = ~Czasami myœlê, ¿e robisz to c-celowo, Minsc.~
-@569  = ~Wielka Matka nie dba o to, czy j¹ rozumiecie, czy nie, robaki. Idzie swoim w³asnym torem. I ja tak powinnam.~
+@569  = ~Wielka Matka nie dba o to, czy j¹ rozumiecie, czy nie, robaki. Idzie swoim w³asnym torem. I ja, jako jej s³uga, te¿ tak powinienem.~
 @570  = ~Na Helma! Poplecznik naszego najwiêkszego wroga w s³u¿bie P³omiennej Piêœci? Musi istnieæ sposób, aby go zdemaskowaæ i obaliæ wyrok, jaki na nas na³o¿y³!~
 @571  = ~W tym mieœcie, rycerzu, albo jesteœ ze mn¹, albo czeka ciê szubienica.~
 @572  = ~Jestem zbyt m³oda, by umieraæ! <CHARNAME>, musimy coœ zrobiæ!~
 @573  = ~Widok takich œmieci dyndaj¹cych na wietrze zawsze poprawia mi nastrój.~
 @574  = ~A teraz wybaczcie, muszê udaæ siê na spotkanie nim wasz wyrok zostanie wykonany.~
 @575  = ~W³aœciwie, em, myœlê, ¿e ten zapach to mogê byæ ja. Ale cieszê siê, ¿e ci siê podoba!~
-@576  = ~Hmmm. Strêczyciel umarlaków. Albo b³azen. Obaj. ¯aden. Niewa¿ne, nie odgrywa ¿adnej istotnej roli w wielkim planie œmierci. ~
+@576  = ~Hmmm. Strêczyciel umarlaków. Albo b³azen. Obaj. ¯aden. Niewa¿ne, nie odgrywa ¿adnej istotnej roli w wielkim planie œmierci.~
 @577  = ~Nie mam czasu, by zajmowaæ siê filozofi¹.~
 @578  = ~Ach, tak, obowi¹zki wzywaj¹.~
 @579  = ~Ten kap³an oszala³. Mo¿e serdeczne uderzenie m³otem go otrzeŸwi.~
@@ -592,7 +592,7 @@ podró¿nik jest rad i ma spokój~
 @586  = ~Proszê, zacny <CHARNAME>, zmi³uj siê...~ ~Proszê, zacna <CHARNAME>, zmi³uj siê...~
 @587  = ~Och... biedna duszyczka. Masz, weŸ tê monetê i kup sobie coœ do jedzenia.~
 @588  = ~(wzdycha) Kolejna osoba, której siê nie powiod³o! No có¿. Teraz bêdziemy mogli zwin¹æ tê monetê z powrotem od sprzedawcy trunków, który j¹ wkrótce otrzyma.~
-@589  = ~Ale... ale... mi naprawdê bardzo... dokucza g³ód... ~
+@589  = ~Ale... ale... mi naprawdê bardzo... dokucza g³ód...~
 @590  = ~Naprawdê?!? W takim razie twoja ciê¿ko wy¿ebrana moneta jest bezpieczna. Z regu³y nie okradam handluj¹cych szczurzym miêsem.~
 @591  = ~Jesteœ œwiêta, o pani.~
 @592  = ~I jeszcze jedno, o pani... pssst... porzuæ tê brzydk¹ wyw³okê...~
@@ -607,8 +607,8 @@ podró¿nik jest rad i ma spokój~
 @601  = ~Wiêc ruszamy w drogê, <CHARNAME>. Jako ¿e to twoja pierwsza misja, obawiam siê, ¿e moje umiejêtnoœci uzdrowiciela bêd¹ czêsto sprawdzane. Mimo to, postaram siê zachowaæ was wszystkich w jednym kawa³ku i powrócimy do Berruna jako zwyciêzcy.~
 @602  = ~To by³ dobry wybór, aby nie sprzymierzaæ siê z t¹ z³¹ istot¹, <CHARNAME>!~
 @603  = ~Bardzo prawdopodobne, ¿e ona posiada okrutne i z³e serce, i przypuszczam, ¿e nikt nie bêdzie po niej p³aka³. Ale pomimo tego nie podejmowa³abym tej decyzji tak lekko, <CHARNAME>.~
-@604  = ~Z pewnoœci¹ tak zrobimy, mój przyjacielu. Wkrótce, te pó³-ogry nie bêd¹ ju¿ stanowi³y zagro¿enia.~
-@605  = ~Nie musisz wiêcej mówiæ, Bjornin. Te pó³-ogry ju¿ s¹ trupami.~
+@604  = ~Z pewnoœci¹ tak zrobimy, mój przyjacielu. Wkrótce, te pó³ogry nie bêd¹ ju¿ stanowi³y zagro¿enia.~
+@605  = ~Nie musisz wiêcej mówiæ, Bjorninie. Te pó³ogry ju¿ s¹ trupami.~
 @606  = ~Och, krwawe szczegó³y podboju tej niezwyciê¿onej fortecy... Doprawdy, a¿ wiruje mi w g³owie z podniecenia.~
 @607  = ~Phi, ona zawsze by³a rynsztokow¹ w³óczêg¹. (wzdycha) Gdyby tylko ojciec zechcia³ pos³uchaæ...~
 @608  = ~Masz tu monetê za swój wysi³ek, dobry z ciebie mê¿czyzna...~ ~Masz tu monetê za swój wysi³ek, dobra z ciebie kobieta...~
@@ -670,7 +670,7 @@ podró¿nik jest rad i ma spokój~
 @664  = ~Czy musimy spe³niaæ zachcianki chomika? RASHEMEÑSKIEGO chomika... (Ale myœlê, ¿e przygotujê sobie kulê ognia... tak na wszelki wypadek...)~
 @665  = ~Muszê przyznaæ, ¿e zgadzam siê z Minskiem, <CHARNAME>!~
 @666  = ~Na Helma, k³amstwa i oszustwa tych czartów œmierdz¹ z³em. Gotujmy siê na walkê!~
-@667  = ~Hê, ktoœ jest dzisiaj gderliwy. Musia³aœ wstaæ z ³ó¿ka lew¹ nog¹.~
+@667  = ~Hê, ktoœ jest dzisiaj gderliwy. Musia³eœ wstaæ z ³ó¿ka lew¹ nog¹.~
 @668  = ~Nierozwa¿nie jest traktowaæ z lekcewa¿eniem tych, którzy maj¹ wam pomóc. Jeszcze g³upszym jest ich straszyæ. A mo¿e nie ¿yczycie sobie, aby wasza kopalnia zosta³a oczyszczona z robactwa, które j¹ oblaz³o?~
 @669  = ~Hej, nie jestem dzieckiem jego ojca, zostawcie mnie w spokoju! Nawet nie znam jego ojca!~
 @670  = ~Spójrz, kolejny kundel przyby³, by ponieœæ œmieræ z naszych r¹k. Pod¹¿anie œcie¿k¹ twojego ojca staje siê znacznie prostsze przez tych wszystkich g³upców zasadzaj¹cych siê na nas.~
@@ -692,8 +692,8 @@ podró¿nik jest rad i ma spokój~
 @686  = ~W³aœnie sobie myœla³am, jak o¿ywcze jest od czasu do czasu kopn¹æ mê¿czyznê w krocze. A potem skrêciæ mu chudziutki kark... <CHARNAME>, przestañ siê gapiæ. Mo¿emy zarobiæ trochê z³ota i zabawiæ siê przy tym. ChodŸmy!~
 @687  = ~Taa, to, w co <CHARNAME> zosta³ podstêpem wci¹gniêty to naprawdê œmierdz¹ca sprawa!~ ~Taa, to, w co <CHARNAME> zosta³a podstêpem wci¹gniêta to naprawdê œmierdz¹ca sprawa!~
 @688  = ~Z nami bêdzie ci znacznie lepiej...~
-@689  = ~<CHARNAME>, on mo¿e siê do nas przy³¹czyæ, tak? (chichoce) Jest s³odki i jest prawdziwym bardem! Ktoœ musi pisaæ ballady o moim piêknie i odwadze, wiesz?~
-@690  = ~Ty... ty naprawdê myœlisz, ¿e jestem... em... s³odki?~
+@689  = ~<CHARNAME>, on mo¿e siê do nas przy³¹czyæ, tak? (chichocze) Jest s³odki i jest prawdziwym bardem! Ktoœ musi pisaæ ballady o moim piêknie i odwadze, wiesz?~
+@690  = ~Ty... ty naprawdê myœlisz, ¿e jestem... em... s³odki? Czyli mogê siê do was przy³¹czyæ?~
 @691  = ~Spójrz na sw¹ w¹ziutk¹ klatkê piersiow¹! Spójrz na te obwis³e ramiona! Spójrz na swoje chude nogi! Za³o¿ê siê, ¿e bêdziesz b³agaæ o odpoczynek po zaledwie pó³dniowym marszu!~
 @692  = ~<CHARNAME>, nie potrzebujemy barda w naszej dru¿ynie. A ju¿ szczególnie trudni¹cego siê tym fachem "mê¿czyzny"!~
 @693  = ~<CHARNAME>, nie potrzebujemy KOLEJNEGO barda w naszej dru¿ynie. A ju¿ szczególnie trudni¹cego siê tym fachem "mê¿czyzny"!~
@@ -739,7 +739,7 @@ podró¿nik jest rad i ma spokój~
 @733  = ~Sugerowa³bym ostro¿noœæ, rozmawiaj¹c ze s³u¿kami Suczej Królowej, <CHARNAME>.~
 @734  = ~Uwa¿aj, Umberlee jest kapryœn¹ i z³¹ bogini¹ - prawie tak jak Lloth. Nie spodziewam siê niczego innego po jej wyznawcach.~
 @735  = ~Biedny, ma³y cz³owiek. Jest tak szalony jak Minsc, zanim Boo go znalaz³. Byæ mo¿e powinniœmy mu daæ chomika? To na pewno go uspokoi...~
-@736  = ~Co jest, Boo?... Tak, szynszyla te¿ siê sprawdzi. Bêdzie pasowaæ do jego oczu.~
+@736  = ~Co jest, Boo? Tak, szynszyla te¿ siê sprawdzi. Bêdzie pasowaæ do jego oczu.~
 @737  = ~To niezbyt mi³e. Powinieneœ zmazaæ z twarzy tê surow¹ minê!~
 @738  = ~A mo¿e to ja powinienem ciê rozmazaæ!~
 @739  = ~Ej!~
@@ -780,7 +780,7 @@ podró¿nik jest rad i ma spokój~
 @774  = ~Jakie¿ to urocze. Dosz³o do tego, ¿e ratujemy kurczaki przed watah¹ wielkich, z³ych wilków. S³ysza³em, ¿e twoim poprzednim bohaterskim wyczynem by³o przyniesienie lekarstwa dla krowy maj¹cej problem z ¿o³¹dkiem. Byæ mo¿e bardziej nadajesz siê do ¿ycia na farmie, ni¿ do szukania przygód, <CHARNAME>. Tylko pomyœl o tych wszystkich potê¿nych warzywach jakie móg³byœ wyhodowaæ dzier¿¹c swe umagicznione wid³y! (Co za koszmar!)~ ~Jakie¿ to urocze. Dosz³o do tego, ¿e ratujemy kurczaki przed watah¹ wielkich, z³ych wilków. S³ysza³em, ¿e twoim poprzednim bohaterskim wyczynem by³o przyniesienie lekarstwa dla krowy maj¹cej problem z ¿o³¹dkiem. Byæ mo¿e bardziej nadajesz siê do ¿ycia na farmie, ni¿ do szukania przygód, <CHARNAME>. Tylko pomyœl o tych wszystkich potê¿nych warzywach jakie mog³abyœ wyhodowaæ dzier¿¹c swe umagicznione wid³y! (Co za koszmar!)~
 @775  = ~*gdak* Wilk! Nadbiega wilk!~
 @776  = ~*gdak*~
-@777  = ~£a³. Dama w opa³ach i odwa¿ny wojownik spiesz¹cy jej na ratunek. Chcia³abym, ¿eby mi siê to przytrafi³o.~
+@777  = ~No nieŸle. Dama w opa³ach i odwa¿ny wojownik spiesz¹cy jej na ratunek. Chcia³abym, ¿eby mi siê to przytrafi³o.~
 @778  = ~W³aœciwie, to nie. Nie zale¿y mi na odwa¿nym wojowniku, jeœli tylko jest przystojny, ale to ca³e niebezpieczeñstwo jest przereklamowane.~
 @779  = ~Minsc wybawi mi³¹ dziewczynê jak ty, nie bój siê! Ale teraz to cudown¹ Dynaheir powinniœmy ratowaæ! Naprzód, przyjaciele!~
 @780  = ~Nie wiem kto jest g³upszy - ten osobnik, który mówi do swojego chomika, czy ty, bo zaprosi³eœ go do dru¿yny. Chocia¿, ten Minsc jest doœæ silny, no i zna swoje miejsce w szeregu. Hmmm... ta Dynaheir ma chyba podobne do mnie podejœcie do mê¿czyzn.~ ~Nie wiem kto jest g³upszy - ten osobnik, który mówi do swojego chomika, czy ty, bo zaprosi³aœ go do dru¿yny. Chocia¿, ten Minsc jest doœæ silny, no i zna swoje miejsce w szeregu. Hmmm... ta Dynaheir ma chyba podobne do mnie podejœcie do mê¿czyzn.~
@@ -841,7 +841,7 @@ podró¿nik jest rad i ma spokój~
 @835  = ~Rany... nimfa? Czyta³am o nich w bibliotece mojego ojca. Pójdziemy zobaczyæ nimfê, Eldoth? Pójdziemy?~
 @836  = ~Jeœli chcesz przypatrzeæ siê piêknoœci, potrzebujesz raczej lusterka ni¿ nimfy, moja...~
 @837  = ~Phi! Dobrze wiem jak JA wygl¹dam. Chcê zobaczyæ jak wygl¹da nimfa. I to teraz!~
-@838  = ~(wzdycha) Je¿eli, pomimo wszystko, <CHARNAME> siê zgodzi... ~
+@838  = ~(wzdycha) Je¿eli, pomimo wszystko, <CHARNAME> siê zgodzi...~
 @839  = ~Przyprowadzicie j¹ tutaj?~
 @840  = ~<CHARNAME>! Og³uch³eœ? Ten mag ma zamiar zabiæ nimfê! Bêdziesz przygl¹da³ siê temu z za³o¿onymi rêkoma? Spróbuj przynajmniej odwieœæ tego nikczemnika od tak z³ego czynu – w przeciwnym razie bêdziesz mia³ jej krew na swoich rêkach.~ ~<CHARNAME>! Og³uch³aœ? Ten mag ma zamiar zabiæ nimfê! Bêdziesz przygl¹da³a siê temu z za³o¿onymi rêkoma? Spróbuj przynajmniej odwieœæ tego nikczemnika od tak z³ego czynu – w przeciwnym razie bêdziesz mia³a jej krew na swoich rêkach.~
 @841  = ~Byæ mo¿e kieruje tob¹ ignorancja a nie z³e zamiary, <CHARNAME>... ale bez wzglêdu na to, nie pozwolê na taki uk³ad. Silvanus ¿¹da, abyœ nie rusza³ tej nimfy, magu!~
@@ -921,7 +921,7 @@ podró¿nik jest rad i ma spokój~
 @915  = ~Sprzedane za 500 sztuk z³ota!~
 @916  = ~NARESZCIE! Przysiêgam, ¿e jeœli powiedzia³by jeszcze s³owo, zabi³abym go!~
 @917  = ~Dlaczego wszyscy siê na mnie denerwuj¹? Ja tylko próbujê byæ przyjacielski!~
-@918  = ~Kradzie¿ teleskopu.
+@918  = ~Kradzie¿ teleskopu
 
 Zgodziliœmy siê ukraœæ "teleskop" na zlecenie gnoma o imieniu Brevlik. Teleskop znajduje siê w Komnacie Cudów. Brevlik bêdzie na nas czeka³ w "Elfiej Pieœni".~
 @919  = ~Mimo wszystko sprawiedliwoœci sta³o siê zadoœæ. I za to dziêkujê wam w imieniu miasta.~

@@ -3,8 +3,8 @@
 @2    = ~Có¿, witam, czym mogê... Ej! Co tam masz?~
 @3    = ~To, proszê pana, jest nekromancko zachowana esencja...~
 @4    = ~To nekromancka kula szlamu! Zabijcie nekromantê, jeœli jeszcze tego nie zrobiliœcie, ale zabierzcie to paskudztwo z mego domu.~
-@5    = ~Ale my... ~
-@6    = ~Nie chcê tego s³uchaæ! Wynocha! Wynocha! WYNOCHA!!! ~
+@5    = ~Ale my...~
+@6    = ~Nie chcê tego s³uchaæ! Wynocha! Wynocha! WYNOCHA!!!~
 @7    = ~S¹dz¹c po gorliwym wyrazie twarzy twego przyjaciela zgadujê, ¿e przyszliœcie po pierœcieñ? Wróæcie za piêæ dni, moi przyjaciele, a bêdzie wasz!~
 @8    = ~Powróæcie za piêæ dni, moi przyjaciele.~
 @9    = ~Ach, to wy macie krew driady, ale brakuje wam z³ota?~
@@ -20,9 +20,9 @@
 @19   = ~Fee! To obrzydl... ech... to œwietnie zachowana rzecz. Driada, prawda?~
 @20   = ~Widzisz!?!? Widzisz, <CHARNAME>, mówi³em ci, mówi³em ci!.. ahem. A teraz, dobry panie, moja awanturnicza kariera jest najwa¿niejsza (oczywiœcie, ¿e tak), brakuje mi niestety doczesnych niezbêdników, by samemu odpowiednio dokonaæ umagicznienia. Mo¿esz mi powiedzieæ, czego jeszcze bêdê potrzebowa³, aby nas¹czyæ t¹ wspania³¹ esencj¹ pierœcieñ, pierœcieñ, pierœcieñ, pierœcieñ-pierœcieñ-cienicieññññ?~
 @21   = ~Có¿, mithrylowy pierœcieñ nada siê w sam raz, by przelaæ weñ magiê z twego... eee... eksponatu. Niestety, osobiœcie nie posiadam akurat czegoœ takiego na sk³adzie. Jeœli dostarczycie mi tak wspania³y przedmiot, wtedy... zobaczmy... zaklêcie, mój czas... za... dziewiêæset... powiedzmy tysi¹c sztuk z³ota móg³bym stworzyæ magiczny przedmiot chroni¹cy przed czarami – mo¿e nawet rzucaj¹cy jakieœ pomniejsze zaklêcie – w ci¹gu czterech... piêciu dni. Jesteœcie zainteresowani?~
-@22   = ~Oooch! Zróbmy tak! Musimy! Mo¿emy? Mo¿emy, <CHARNAME>? Pchloszêêêêê?!? ~
-@23   = ~Nie wiem. Jeœli znajdziemy taki... przedmiot, to wtedy pomyœlimy. ~
-@24   = ~O tak! Nawet jeœli bêdziemy musieli rozebraæ Wybrze¿e Mieczy do fundamentów tak, ¿e nie ostanie siê kamieñ na kamieniu, TAK ZROBIMY!!! ~
+@22   = ~Oooch! Zróbmy tak! Musimy! Mo¿emy? Mo¿emy, <CHARNAME>? Pchloszêêêêê?!?~
+@23   = ~Nie wiem. Jeœli znajdziemy taki... przedmiot, to wtedy pomyœlimy.~
+@24   = ~O tak! Nawet jeœli bêdziemy musieli rozebraæ Wybrze¿e Mieczy do fundamentów tak, ¿e nie ostanie siê kamieñ na kamieniu, TAK ZROBIMY!!!~
 @25   = ~Eee... jasne, Xzar. Ale... eee... to wygl¹da na doœæ powa¿n¹ robotê, wiêc lepiej ju¿ chodŸmy. Dobrze?~
 @26   = ~Zajefajnie!!!~
 @27   = ~Co?~
@@ -90,7 +90,7 @@
 @89   = ~Niech bêdzie. "Badaj go szybko"; tak bym ci poradzi³, DROGI <CHARNAME>!~ ~Niech bêdzie. "Badaj go szybko"; tak bym ci poradzi³, DROGA <CHARNAME>!~
 @90   = ~TEJ obietnicy nie zapomnê, <CHARNAME>.~
 @91   = ~Hmm? Och, tak. Jest martwy jak kamieñ. Je¿eli nie nape³ni siê do jutra, uznam ¿e to twoja wina, <CHARNAME>.~
-@92   = ~Moja?!? A kto za³atwi³ Montarona, ty czy ja? ~
+@92   = ~Moja?!? A kto za³atwi³ Montarona, ty czy ja?~
 @93   = ~Ja. Ale to TY powinieneœ spodziewaæ siê, ¿e zrobiê coœ równie g³upiego, i powstrzymaæ mnie. Doprawdy, <CHARNAME>, czasem twój brak pragmatyzmu mnie martwi. To powa¿na wada u dowódcy.~ ~Ja. Ale to TY powinnaœ spodziewaæ siê, ¿e zrobiê coœ równie g³upiego, i powstrzymaæ mnie. Doprawdy, <CHARNAME>, czasem twój brak pragmatyzmu mnie martwi. To powa¿na wada u dowódczyni.~
 @94   = ~G³upia driada.~
 @95   = ~Dlaczego nie powiedzia³a mi, ¿e jest taka s³aba? Nie musia³aby umieraæ.~
@@ -125,7 +125,7 @@
 @124  = ~Ale... dlaczego... mi pomog³eœ! Dlaczego?~ ~Ale... dlaczego... mi pomog³aœ! Dlaczego?~
 @125  = ~Przys³uga za przys³ugê, beztroska duszo. Zawdziêczasz mi ¿ycie, i teraz zrobiê z niego po¿ytek!~
 @126  = ~Nie... nie... moja krew... moja dusza... umieram...~
-@127  = ~Krew driady
+@127  = ~Driada z Chmurnych Szczytów
 
 Xzar, mój towarzysz, pobra³ krew driady z Chmurnych Szczytów. Chwilê potem ta g³upia krowa zaatakowa³a nas.~
 @128  = ~Aha! Drzewa umieraj¹, a kryszta³ lœni jak p³on¹ce czerwie... Dokona³em tego!~
@@ -166,13 +166,10 @@ Xzar, mój towarzysz, pobra³ krew driady z Chmurnych Szczytów. Chwilê potem ta g³
 @163  = ~Ale nie mo¿emy sobie na to pozwoliæ. Duch naszej siostry wci¹¿ jest zniewolony, nawet po œmierci.~
 @164  = ~Tak jest. Musimy poinformowaæ naszych œmiertelnych przyjació³ o tej okropnoœci.~
 @165  = ~Nie robi nikomu krzywdy? Có¿, nie; ale te¿ nam nie pomaga, tak?~
-@166  = ~Eeechh! Ci œmiertelnicy s¹ bardziej nikczemni ni¿ ci poprzedni!~
+@166  = ~Eeeech! Ci œmiertelnicy s¹ bardziej nikczemni ni¿ ci poprzedni!~
 @167  = ~Driada z Chmurnych Szczytów
 
-Próbowa³em pomóc driadzie z Chmurnych Szczytów. Przys³u¿enie siê takim naturalnym duchom zwykle obfituje w niekoñcz¹cej siê passie szczêœcia, jednak Xzar spapra³ dobre wra¿enie, jakie na niej wywar³em...~ ~Driada z Chmurnych Szczytów
-
-Próbowa³am pomóc driadzie z Chmurnych Szczytów. Przys³u¿enie siê takim naturalnym duchom zwykle obfituje w niekoñcz¹cej siê passie szczêœcia, jednak Xzar spapra³ dobre wra¿enie, jakie na niej wywar³am...~
-
+Próbowaliœmy pomóc driadzie z Chmurnych Szczytów. Przys³u¿enie siê takim naturalnym duchom zwykle obfituje w niekoñcz¹cej siê passie szczêœcia, jednak Xzar spapra³ dobre wra¿enie, jakie na niej wywarliœmy...~ 
 @168  = ~Och, na pl¹saj¹ce termity! Zniknê³a! (wzdycha) I tak kolejna próba przys³u¿enia siê œwiatu nauki spe³z³a na niczym przez dobre intencje!~
 @169  = ~Dziêkujê ci, choæ niechêtnie.~
 @170  = ~Nie bêdê sta³ bezczynnie, jeœli nie powstrzymasz tego z³ego cz³owieka, <CHARNAME>.~
@@ -181,7 +178,7 @@ Próbowa³am pomóc driadzie z Chmurnych Szczytów. Przys³u¿enie siê takim naturalny
 @173  = ~Co... co do nagrody... Kierujcie siê do skrytki lecz nie przebywajcie zbyt d³ugo w moim lesie. Nie jesteœcie tu mile widziani. Znajdziecie j¹ w wilczej jaskini, trzydzieœci metrów na po³udnie od mojego drzewa.~
 @174  = ~Driada z Chmurnych Szczytów 
 
-Zez³oœci³em driadê w pobli¿u Chmurnych Szczytów i zosta³em ostrze¿ony, bym nie marudzi³ zbyt d³ugo w JEJ lesie. Xzar ze swymi szalonymi pomys³ami niewiele mi pomóg³. Ach, có¿, to ma³o wa¿ne. Skierowa³a mnie do wilczej jaskini na po³udnie st¹d, gdzie ukryto skarb.~
+Zez³oœciliœmy driadê w pobli¿u Chmurnych Szczytów i zostaliœmy ostrze¿eni, by nie marudziæ zbyt d³ugo w JEJ lesie. Xzar ze swymi szalonymi pomys³ami niewiele pomóg³. Ach, có¿, to ma³o wa¿ne. Skierowa³a nas do wilczej jaskini na po³udnie st¹d, gdzie ukryto skarb.~
 @175  = ~Czeœæ, jestem Je¿yna.~
 @176  = ~Czeœæ, jestem Burza.~
 @177  = ~Czeœæ, jestem Zosia.~

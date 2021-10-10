@@ -80,7 +80,7 @@
 @79   = ~Zgadzam siê z Khalidem. Wola³bym nie podró¿owaæ bez mi³ego damskiego towarzystwa... ale w przeciwieñstwie do niego, nie mam nic przeciwko ró¿norodnoœci...~
 @80   = ~Mam teoriê dotycz¹c¹ przyczyn tego, dlaczego wola³eœ polowaæ na wiwerny bardziej, ni¿ na inne magiczne bestie, takie jak ankhegi czy œnie¿ne wilki.~
 @81   = ~To przecie¿ oczywiste: s¹ odpowiednim wyzwaniem dla moich zdolnoœci bojowych i myœliwskich, a ¿adne inne trofeum nie dorównuje ich cenie.~
-@82   = ~Twoja zrêcznoœæ w walce nie by³a przedmiotem naszej rozmowy, ale powiedzia³am Khalidowi, ¿e byæ mo¿e zbierasz te g³owy jako sk³adniki jakiejœ mikstury potencji, o której naopowiada³ ci jakiœ szalbierz. Khalid mówi³, ¿e byæ mo¿e jesteœ zauroczony ich d³ugimi-~
+@82   = ~Twoja zrêcznoœæ w walce nie by³a przedmiotem naszej rozmowy, ale powiedzia³am Khalidowi, ¿e byæ mo¿e zbierasz te g³owy jako sk³adniki jakiejœ mikstury potencji, o której naopowiada³ ci jakiœ szalbierz. Khalid mówi³, ¿e byæ mo¿e jesteœ zauroczony ich d³ugimi...~
 @83   = ~Niesamowite! Nigdy dot¹d nie przesz³o mi przez myœl, ¿e ktoœ potrzebowa³by mikstury, ¿eby wzmocniæ swoj¹ mêskoœæ. Ale po tym jak pozna³em ciebie i Khalida zrozumia³em, dlaczego niektórzy mog¹ jej bardzo potrzebowaæ!~
 @84   = ~Dynaheir, czy ty i Minsc potrzebujecie prywatnoœci?~
 @85   = ~Nie, Jaheiro. Plany, które omawiamy nie nale¿¹ do tajnych.~
@@ -88,7 +88,7 @@
 @87   = ~To bardzo uprzejme z twojej strony, Jaheiro. Tak bardzo s¹ ci drogie potrzeby innych.~
 @88   = ~Dok³adnie. Khalid i ja mo¿emy ci udzieliæ kilku rad, jak przygotowaæ swoje pos³anie na potrzeby medytacji, jak przygotowaæ zaklêæ i na temat innych zajêæ - aby mimo wszystko zachowaæ bezpieczny kontakt z reszt¹ dru¿yny. Mamy w tym du¿e doœwiadczenie.~
 @89   = ~Doceniam radê, ale i tak pozostaniemy przy naszych dotychczasowych zwyczajach. Chcia³abym jednak¿e poprosiæ ciebie o przys³ugê.~
-@90   = ~Tak? ~
+@90   = ~Tak?~
 @91   = ~Mog³abyœ odst¹piæ mi twój zapasowy koc? Mój jest pe³en okruszków. Podejrzewam, ¿e Minsc znowu zostawi³ na stra¿y mojej osoby Boo... niestety.~
 @92   = ~Poniewa¿ Minsc jest poza zasiêgiem s³uchu i nie przybiegnie ciê zabiæ, pozwól mi zapytaæ: dlaczego tak nienawidzisz Dynaheir, Edwinie? Zazdroœæ?~
 @93   = ~Insynuujesz, ¿e jestem zazdrosny o tego pó³mózgiego obroñcê, którego adoptowa³a?~
@@ -107,7 +107,7 @@
 @106  = ~Co?! Czy myœlisz, panie... eee... pani, ¿e móg³bym œwiadomie i dobrowolnie uczestniczyæ w takich niegodziwoœciach?~
 @107  = ~Czy chocia¿ podejrzewa³eœ, kim jest Silke, zanim zaci¹gn¹³eœ siê do niej na s³u¿bê?~
 @108  = ~Wydawa³a siê uprzejma, by³a bardzo utalentowana. I mia³a pokaŸn¹ sakiewkê...~
-@109  = ~-a ty zrobi³byœ wszystko, by zdobyæ nowe tematy do swoich pieœni...~
+@109  = ~...a ty zrobi³byœ wszystko, by zdobyæ nowe tematy do swoich pieœni...~
 @110  = ~Hej! Có¿, jeœli siê nad tym zastanowiæ... masz racjê.~
 @111  = ~<CHARNAME> i ty znacie siê od dziecka, prawda, Imoen?~
 @112  = ~Tia, i od zawsze byliœmy kumplami. Hm, czasami graliœmy sobie na nerwach, ale zawsze pomagaliœmy sobie w potrzebie, i zrobilibyœmy dla siebie wszystko... hmm, mam nadziejê, ¿e nie brzmia³o to jak flaki z olejem i nie zanudzi³am ciê na œmieræ?~ ~Tia, i od zawsze by³yœmy kumpelami. Hm, czasami gra³yœmy sobie na nerwach, ale zawsze pomaga³yœmy sobie w potrzebie, i zrobi³ybyœmy dla siebie wszystko... hmm, mam nadziejê, ¿e nie brzmia³o to jak flaki z olejem i nie zanudzi³am ciê na œmieræ?~
@@ -133,7 +133,7 @@
 @132  = ~Tak, to po¿yteczne rady, ale chodzi³o mi o coœ innego. Jesteœ ju¿ w odpowiednim wieku i czujê siê zobowi¹zana przestrzec ciê.~
 @133  = ~Przestrzec mnie przed czym?~
 @134  = ~Jest kilka zió³, które doros³a kobieta powinna siê nauczyæ odpowiednio warzyæ, kiedy zaczynaj¹ j¹ interesowaæ powabni m³odzieñcy. Najpierw bierzesz rutê...~
-@135  = ~Gotowanie mnie nudzi, Jaheiro. Nie potrzebujê-~
+@135  = ~Gotowanie mnie nudzi, Jaheiro. Nie potrzebujê...~
 @136  = ~Nie rozmawiamy o GOTOWANIU, Imoen!~
 @137  = ~O czym w takim razie rozmawiamy?~
 @138  = ~Ech, ta rozmowa mo¿e chyba jeszcze zaczekaæ.~
@@ -231,7 +231,7 @@
 @230  = ~ChodŸ tu, Viconio. Szybko!~
 @231  = ~Phi. Jaki nowy powód sobie znalaz³aœ, by wyszczekiwaæ w moim kierunku rozkazy, tu'rilthiir?~
 @232  = ~Nie oburzaj siê na mnie. Chcê ci tylko pokazaæ coœ, co ci siê przyda, drowko.~
-@233  = ~Chcia³am zaznajomiæ ciê nieco z otoczeniem, pokazaæ kilka u¿ytecznych rzeczy. Ta roœlina wystêpuje w tych stronach doœæ obficie. Ma wiele leczniczych w³aœciwoœci, miêdzy innymi-~
+@233  = ~Chcia³am zaznajomiæ ciê nieco z otoczeniem, pokazaæ kilka u¿ytecznych rzeczy. Ta roœlina wystêpuje w tych stronach doœæ obficie. Ma wiele leczniczych w³aœciwoœci, miêdzy innymi...~
 @234  = ~Ja... nigdy nie przyzwyczajê siê do ¿ycia na powierzchni. Nigdy nie bêdzie mi sprawia³o przyjemnoœci ¿ycie wœród tych zielonych...~
 @235  = ~Jak chcesz, drowko. Skoro nie chcesz moich rad, nie bêdê niepotrzebnie strzêpi³a jêzyka. Nie rozumiem tylko, do czego <CHARNAME> potrzebuje uzdrowiciela nie maj¹cego pojêcia o otoczeniu, w którym przebywa. Ciekawe, co powie, kiedy o tym us³yszy...~
 @236  = ~Phi! Ja...~

@@ -18,7 +18,7 @@
 @17   = ~Co siê sta³o, ma pani? Boli ciê coœ?~
 @18   = ~Ja... s³abo mi. Ten plecak zdaje siê byæ ciê¿szy i ciê¿szy. Chyba muszê na chwilê usi¹œæ.~
 @19   = ~Zdaje siê byæ zbyt ciê¿ki dla ciebie, ma pani. Proszê, pozwól mi wzi¹æ trochê twych rzeczy.~
-@20   = ~Doprawdy, towarzystwo tak szarmanckiego rycerza jest takie typ—eee... znaczy siê, rozkoszne. Co bym zrobi³a bez tak silnego mê¿czyzny, jak ty? Proszê, weŸ to, Ajantisie.~
+@20   = ~Doprawdy, towarzystwo tak szarmanckiego rycerza jest takie typ... eee... znaczy siê, rozkoszne. Co bym zrobi³a bez tak silnego mê¿czyzny, jak ty? Proszê, weŸ to, Ajantisie.~
 @21   = ~<CHARNAME> opowiedzia³<HESHE> mi w³aœnie znakomit¹ historiê.~
 @22   = ~Kolejna nadzwyczajna historia, Safano? Ufam, ¿e bêdzie bardziej wiarygodna ni¿ ta o wraku.~
 @23   = ~Sama os¹dŸ. Jest to opowieœæ o wojowniczej kap³ance, pewnej swych przekonañ, przemienionej w cnotliwy pos¹g.~
@@ -109,7 +109,7 @@ I bêdzie musia³ jeszcze raz zbilansowaæ koszt.~
 @99   = ~Ma s³odka ma³a niewinnoœci, ¿yjemy w zimnym, okrutnym œwiecie. Dziewczyna musi korzystaæ ze wszystkich swych zalet, a ty masz ich niema³o. Ju¿ dawno ktoœ powinien wzi¹æ ciê pod swe skrzyd³a i pomóc wypolerowaæ twe wdziêki.~
 @100  = ~Nie wiem o co chodzi z t¹ szko³¹ wdziêków, Safano, ale z pewnoœci¹ podobaj¹ mi siê wskazówki o otwieraniu zamków. Mo¿esz mi jeszcze pokazaæ jakieœ sztuczki?~
 @101  = ~Oczywiœcie, skarbie, ale wydaje mi siê, ¿e z perspektywy czasu otwieranie mêskich serc jest bardziej op³acalne.~
-@102  = ~Khalidzie, skarbie, czy ty-~
+@102  = ~Khalidzie, skarbie, czy ty...~
 @103  = ~Safano, sugerujê, byœ znalaz³a sobie jakiœ inny "skarb".~
 @104  = ~O co chodzi? Czy¿by dotyk zazdroœci?~
 @105  = ~Nonsens. Znam charakter Khalida i wiem, ¿e nie muszê siê martwiæ.~
@@ -127,15 +127,15 @@ I bêdzie musia³ jeszcze raz zbilansowaæ koszt.~
 @117  = ~Dlaczego? Chodzi o twoje j¹kanie?~
 @118  = ~Och. W-walisz prosto z mostu, co?~
 @119  = ~Nie warto traciæ czasu, który mo¿na spêdziæ na przyjemnoœciach, jak zawsze mówiê. Nie, skarbie, jeœli to dla tego jesteœ taki cichy, to niepotrzebnie.~
-@120  = ~Nie, n-nie o to chodzi. Rzadko znajdujê p-przyjemnoœæ w rozmowie, p-poniewa¿-~
+@120  = ~Nie, n-nie o to chodzi. Rzadko znajdujê p-przyjemnoœæ w rozmowie, p-poniewa¿...~
 @121  = ~Cieszê siê, ¿e to sobie wyjaœniliœmy. A teraz, doœæ o tobie, porozmawiajmy o mnie...~
 @122  = ~Wiêc, Khalidzie, nie zastanawiasz siê, co taka czaruj¹ca osoba, jak ja, robi tak daleko od domu?~
 @123  = ~P-przepraszam, Safano, zamyœli³em siê. Co m-mówi³aœ?~
 @124  = ~Czy w ogóle ciê nie interesujê? Czy te¿ jesteœ kompletnie œlepy na moj¹ obecnoœæ pod czujnym okiem swej nadzorczyni?~
 @125  = ~N-nie wiem o co ciê zapytaæ. A twoje zainteresowanie mn¹ jest t-trochê dziwne. Z pewnoœci¹ moje oddanie dla Jaheiry nie jest tajemnic¹.~
 @126  = ~Zastanawiam ciê, czy nie mog³eœ lepiej trafiæ ni¿ na Jaheirê Despotkê? Nie ma godziny, by nie wytyka³a ci czegoœ albo krzycza³a po kimœ.~
-@127  = ~Jaheira nie jest tak despot- (wzdycha) d-desperacko - w³adcza, jak siê wydaje. S¹ w naszej przesz³oœci rzeczy, o których nie wiesz, Safano.~
-@128  = ~Nie? Có¿, nie specjalnie interesuje mnie przesz³oœæ. Patrzê w przysz³oœæ i-~
+@127  = ~Jaheira nie jest tak despot... (wzdycha) d-desperacko w³adcza, jak siê wydaje. S¹ w naszej przesz³oœci rzeczy, o których nie wiesz, Safano.~
+@128  = ~Nie? Có¿, nie specjalnie interesuje mnie przesz³oœæ. Patrzê w przysz³oœæ i...~
 @129  = ~Niewa¿ne, skarbie, widzê, ¿e siê na nas gapi. Dokoñczymy rozmowê póŸniej.~
 @130  = ~Kivan, móg³byœ powtórzyæ imiê swej ¿ony?~
 @131  = ~(miêkko) Deheriana.~

@@ -1,16 +1,16 @@
-@0    = ~Hi-hi! (szepcze) Coran jest milusi, co?~
+@0    = ~Hi, hi! (szepcze) Coran jest milusi, co?~
 @1    = ~(rumienisz siê) Tak, to prawda.~
 @2    = ~Bardziej poci¹ga mnie jego zwinnoœæ, ni¿ ³adna buzia. (Tr¹casz Alorê ³okciem i mrugasz do niej znacz¹co.) Jeœli wiesz, co mam na myœli.~
 @3    = ~Aloro! Nie chcê rozmawiaæ na temat Corana! Wcale.~
 @4    = ~Wydaje mi siê... Wydaje mi siê, ¿e on mnie lubi.~
-@5    = ~Hi-hi! Ktoœ tu siê napali³ na Corana! £a³! <CHARNAME> lubi Corana!~
+@5    = ~Hi, hi! Ktoœ tu siê napali³ na Corana! NieŸle! <CHARNAME> lubi Corana!~
 @6    = ~Oj, prze pani, jasne, ¿e wiem! Ale, heh, jest tak zwinny, ¿e ¿adna kobieta nie bêdzie potrafi³a mu dotrzymaæ tempa.~
 @7    = ~Ach, ja zdo³am. Zobaczysz.~
 @8    = ~I co z tego? Nie chcê za niego od razu wychodziæ, czy coœ.~
 @9    = ~¯adna LUDZKA kobieta, chcia³aœ powiedzieæ. (uœmiechasz siê tajemniczo)~
 @10   = ~Masz racjê. (wzdychasz)~
 @11   = ~Có¿, poruszy³aœ sedno sprawy. Lepiej ¿ebym nie uleg³a jego tanim urokom.~
-@12   = ~Hi-hi! I jest bardzo kochliwy. (chichocze) Szkoda, ¿e co tydzieñ kocha inn¹ kobietê.~
+@12   = ~Hi, hi! I jest bardzo kochliwy. (chichocze) Szkoda, ¿e co tydzieñ kocha inn¹ kobietê.~
 @13   = ~Ach, przy mnie porzuci ten zwyczaj. Zobaczysz.~
 @14   = ~I co z tego? Nie chcê za niego od razu wychodziæ, czy coœ.~
 @15   = ~LUDZK¥ kobietê, chcia³aœ powiedzieæ. (uœmiechasz siê tajemniczo)~
@@ -82,7 +82,7 @@ Gdy zostanie uziemiona jak ciele.~
 @68   = ~Jest Xan. Jestem pewna, ¿e takie dwa przeciwieñstwa jak wy z ³atwoœci¹ siê dogadaj¹.~
 @69   = ~Zawsze jest Yeslick. Zdaje siê, ¿e œwietnie siê z nim dogadujesz. Ca³y czas go o coœ wypytujesz i s³uchasz jego opowieœci. I ma tak... uwodzicielskie imiê.~
 @70   = ~Co powiesz na Edwina? Zawsze przechwala siê na temat znajomoœci thayañskiej ars amandi. Niemal potrafiê to sobie wyobraziæ... Zderzenie kolorów! Zderzenie namiêtnoœci!~
-@71   = ~Wiem! Wiem! Co powiesz na-~
+@71   = ~Wiem! Wiem! Co powiesz na...~
 @72   = ~Hej, przestañ natychmiast!! Jesteœ naprawdê chora, wiesz!! Nie lubiê Boo a¿ tak!~
 @73   = ~Có¿, Boo to by³ tylko taki strza³. Ale co powiesz na Minska?~
 @74   = ~Jego te¿ nie lubiê!~
@@ -95,7 +95,7 @@ Gdy zostanie uziemiona jak ciele.~
 @81   = ~(wygl¹da na EKSTREMALNIE z³¹) MAM CI ZROBIÆ KRZYWDÊ!?~
 @82   = ~Przepraszam...~
 @83   = ~No, tak lepiej! Edwin, a fe!~
-@84   = ~Och, kochana, minuty ci¹gnê³y siê niemi³osiernie, gdy czeka³em, a¿ wszyscy pójd¹ spaæ. Jestem niemal chory z po¿¹dania -~
+@84   = ~Och, kochana, minuty ci¹gnê³y siê niemi³osiernie, gdy czeka³em, a¿ wszyscy pójd¹ spaæ. Jestem niemal chory z po¿¹dania...~
 @85   = ~O, Henali... Widzisz, Minsc...~
 @86   = ~(chichoczesz niekontrolowanie)~
 @87   = ~(bardzo powa¿nie) Coran, chyba nie zrobi³am ci krzywdy, prawda?~
@@ -125,7 +125,7 @@ Gdy zostanie uziemiona jak ciele.~
 @111  = ~Co to mia³o znaczyæ?~
 @112  = ~Widzia³am kobietê p³acz¹c¹ przez taki wór ³ajna jak ty, ot, co to znaczy!~
 @113  = ~Jednego dnia by³eœ s³odki i powabny, a nastêpnego... typowy mê¿czyzna!~
-@114  = ~Shar-Teel, pomiêdzy nami po prostu nie wysz³o, i-~
+@114  = ~Shar-Teel, pomiêdzy nami po prostu nie wysz³o, i...~
 @115  = ~Och, tak? Zaraz dopilnujê, by ju¿ ¿adna kobieta przez ciebie nie cierpia³a! (wyci¹ga miecz)~
 @116  = ~<CHARNAME>, zbrata³aœ siê z darthiir! (marszczy nos) Fuj.~
 @117  = ~Nie zauwa¿y³am ostatnio ¿adnego drowa w³ócz¹cego siê w pobli¿u, wiêc postanowi³am usidliæ elfa.~
@@ -227,7 +227,7 @@ Gdy zostanie uziemiona jak ciele.~
 @213  = ~I ja mogê ci jedynie wspó³czuæ.~
 @214  = ~Otuchy, paladynie. Byæ mo¿e to stanowi Ÿród³o kole¿eñstwa i mi³oœci o jakich marzysz. I aby mi je wpoiæ, ogranicz siê do dawania niemego przyk³adu.~
 @215  = ~(klepie Ajantisa po ramieniu) Ale otuchy, mój przyjacielu. S¹ w pobli¿u kobiety, które siê we mnie nie kochaj¹. Ta drowia dziewka spogl¹da tylko na ciebie, przysiêgam.~
-@216  = ~CO?! Wola³bym ju¿ wê¿a ni¿ to z³e, nikczemne stworzenie-~
+@216  = ~Co?! Wola³bym ju¿ wê¿a ni¿ to z³e, nikczemne stworzenie...~
 @217  = ~(kaszle) S¹ gusta i guœciki... rób, jak uwa¿asz.~
 @218  = ~Masz temperament wojownika, Coranie, ale brak ci jego zach³annoœci.~
 @219  = ~(wzdycha) Równoczeœnie mo¿na rozkoszowaæ siê tylko jedn¹ rzecz¹, aby w pe³ni móc doceniæ jej smak.~
@@ -249,9 +249,9 @@ Gdy zostanie uziemiona jak ciele.~
 @235  = ~Powinienem jeszcze dodaæ do listy objawów œlinotok i paplanie frazesów. To wyraŸne symptomy tej choroby roznoszonej przez kobiety. Zaleca siê, aby obiekt poddaæ dalszej obserwacji.~
 @236  = ~Pos³uchaj mnie, ma³poludzie, JA wymyœli³em doskona³y plan (i w swojej hojnoœci dzielê siê z samym zainteresowanym), jak ca³kowicie siê uodporniæ.~
 @237  = ~Kluczem do tego prostego, jednak misternego planu stanowi¹cego alternatywê dla serii szczepieñ przeciwko "mi³osnej chorobie", jest szukanie wad. (I myœlenie o nich nieprzerwanie, kiedy dotyka nas gor¹czka "mrowienia w do³ku".)~
-@238  = ~Na czym skoñczy³em? Ach. W rzeczy samej, ka¿da kobieta ma wady, jest to konsekwencja bycia kobiet¹. (Choæ nie spotka³em jeszcze kobiety, której nie wola³bym od mê¿czyzny.) Prawdê mówi¹c, jestem przekonany, ¿e ka¿da istota ma jakieœ swoje wady... z jednym znakomitym wyj¹tkiem, oczywiœcie-~
+@238  = ~Na czym skoñczy³em? Ach. W rzeczy samej, ka¿da kobieta ma wady, jest to konsekwencja bycia kobiet¹. (Choæ nie spotka³em jeszcze kobiety, której nie wola³bym od mê¿czyzny.) Prawdê mówi¹c, jestem przekonany, ¿e ka¿da istota ma jakieœ swoje wady... z jednym znakomitym wyj¹tkiem, oczywiœcie...~
 @239  = ~(uœmiecha siê sztucznie) Pomys³ stary jak œwiat, Edwinie, zapewniam ciê, i wszyscy którzy go próbowali, ulegli sile mi³oœci.~
-@240  = ~Nie doœæ, ¿e œmiesz mi przerywaæ, imbecylu, to jeszcze-~
+@240  = ~Nie doœæ, ¿e œmiesz mi przerywaæ, imbecylu, to jeszcze...~
 @241  = ~Przepowiadam ci, Edwinie Odesseironie z Thay, ¿e zakochasz siê w g³upio chichocz¹cej panience, która bêdzie ciê wielbiæ, i oboje poczniecie chichotaæ i ho³dowaæ g³upstwom. Tako rzeczê ja, Coran.~
 @242  = ~Ach tak, nie przeczê, ¿e mam s³aboœæ do mych wielbicielek. Ale ta przepowiednie nie mo¿e siê ziœciæ, gdy¿ ma logiczne niedoci¹gniêcia. Otó¿ kobieta, która oddaje mi czeœæ nie mo¿e byæ g³upia.~
 @243  = ~(Edwin rzuca szybkie spojrzenie w twoj¹ stronê.) (A mo¿e jednak?)~
@@ -261,8 +261,8 @@ Gdy zostanie uziemiona jak ciele.~
 @247  = ~Och, serio? Musia³o to ujœæ mojej uwadze, w koñcu od wczoraj wspomina³aœ o tym tylko trzykrotnie.~
 @248  = ~Byæ mo¿e wiêc powinnam ci uwarzyæ pewn¹ miksturê z kory drzew, aby odœwie¿yæ ci nieco pamiêæ. Smakuje okropnie, ale jestem pewna, ¿e taki m³ody elf jak ty zrobi wszystko, by wyleczyæ siê z tej okropnej przypad³oœci.~
 @249  = ~(pokornie) Nie martw siê, Jaheiro. Przypominam sobie, ¿e jesteœ opiekunk¹ dziecka Goriona.~
-@250  = ~Dobrze. Wiêc zapamiêtaj sobie dobrze moje s³owa. Khalid nie s¹dzi-~
-@251  = ~K-kochanie, ja... n-nie chodzi o to, ¿e ja t-tak n-nie s¹dzê, t-tylko-~
+@250  = ~Dobrze. Wiêc zapamiêtaj sobie dobrze moje s³owa. Khalid nie s¹dzi...~
+@251  = ~K-kochanie, ja... n-nie chodzi o to, ¿e ja t-tak n-nie s¹dzê, t-tylko...~
 @252  = ~(sro¿y siê) MY nie s¹dzimy, ¿ebyœ by³ odpowiedni¹ parti¹ dla niej.~
 @253  = ~Przyjmijcie wiêc wyrazy mego g³êbokiego wspó³czucia, gdy¿ musi byæ dla was bolesne patrzeæ na nasze zaloty.~
 @254  = ~C-coranie, Jaheira p-próbuje powiedzieæ, ¿e b-byæ mo¿e lepiej by b-by³o, gdybyœ zacz¹³ rozgl¹daæ siê z-za innymi k-kobietami. M-mo¿e za starszymi, b-bardziej doœwiadczonymi...~
@@ -296,7 +296,7 @@ Gdy zostanie uziemiona jak ciele.~
 @282  = ~My... my udowodnimy im, ¿e siê myl¹, i bêdziemy siê z tego œmiaæ po dwudziestu latach wspólnego podró¿owania.~
 @283  = ~Prawda, Coranie?~
 @284  = ~Byæ mo¿e. A mo¿e za dwadzieœcia lat bêdziesz mia³a problemy by przypomnieæ sobie, kim by³ Eldoth. Wiêc po co teraz traciæ czas na zamartwianie siê?~
-@285  = ~Kochanie-~
+@285  = ~Kochanie...~
 @286  = ~(pluje na ziemiê) Miêczaki...~
 @287  = ~Mówi³aœ coœ, Viconio?~
 @288  = ~Darthiir, <CHARNAME> próbowa³a wczoraj wyjaœniæ mi znaczenie s³owa wspó³czucie. Mówi³a, ¿e to podszyty sympati¹ ¿al nad osob¹ cierpi¹c¹ albo strapion¹. Fuj. Chyba w³aœnie doœwiadczam tego uczucia, patrz¹c na dwie ¿a³osne istoty niezdarnie próbuj¹ce doprowadziæ do kopulacji. Rasa, która, w wyniku drobnej pomy³ki natury, zdolna jest do prokreacji, powinna bardziej siê ni¹ delektowaæ.~

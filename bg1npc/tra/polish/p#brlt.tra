@@ -60,7 +60,7 @@
 @59   = ~Tak, bêdzie najlepiej, jeœli skoñczê tutaj. ProwadŸ nas, <CHARNAME>, prowadŸ nas do zwyciêstwa.~
 @60   = ~Nie przystoi wojownikowi, ¿eby sta³ siê s³aby, ani ¿eby opanowa³y go wspomnienia. Ale jeœli naprawdê tego chcesz, bêdê kontynuowaæ.~
 @61   = ~Tak d³ugo, jak sama pamiêtam, wielbi³am Pana Bitew. Archipelag Norheim by³ schronieniem dla œwi¹tyni Tempusa, ale tylko mê¿czyŸni byli dopuszczani do kap³añstwa. To by³ b³¹d: czêsto dobrzy m³odzi mê¿czyŸni przychodzili do œwi¹tyni bogobojni, ale niedojrzali. Mimo to, nie ¿ywiê do nich urazy.~
-@62   = ~Plotka o moim pragnieniu zostania kap³ank¹ szybko dotar³a do  Najwy¿szego Kap³ana i zosta³am wywieziona z wioski, jak bezdomny zamiatacz z w¹t³ym kijem w rêku. Odby³am d³ug¹ podró¿ na kontynent i zaoferowa³am swoje us³ugi lokalnej milicji. £aska Tempusa pozostawa³a ze mn¹, dopóki nie straci³am jego przychylnoœci przez do³¹czenie do grupy bandytów i ³upie¿ców. Ale z tym ju¿ koniec.~
+@62   = ~Plotka o moim pragnieniu zostania kap³ank¹ szybko dotar³a do Najwy¿szego Kap³ana i zosta³am wywieziona z wioski, jak bezdomny zamiatacz z w¹t³ym kijem w rêku. Odby³am d³ug¹ podró¿ na kontynent i zaoferowa³am swoje us³ugi lokalnej milicji. £aska Tempusa pozostawa³a ze mn¹, dopóki nie straci³am jego przychylnoœci przez do³¹czenie do grupy bandytów i ³upie¿ców. Ale z tym ju¿ koniec.~
 @63   = ~Na figi Auril, wys³ucha³eœ mojej opowieœci do koñca! Piwo na mój koszt, przyjacielu. By³oby szkoda, gdybym ciê przemêczy³a.~
 @64   = ~Tak, no có¿, chyba nie mia³em wyboru? Jedynym sposobem na to, ¿eby ciê uciszyæ, by³oby rozwalenie m³otem twojego ³ba!~
 @65   = ~W ogóle mnie nie zmêczy³aœ. To by³a interesuj¹ca historia, Branwen.~
@@ -100,7 +100,7 @@
 @99   = ~Jestem bardzo szczêœliwa, s³ysz¹c to z twoich ust, przyjacielu. Zanurzmy siê w nastêpn¹ walkê i dajmy nauczkê niewiernym i niehonorowym!~
 @100  = ~Nie bardzo lubiê tchórzy, <CHARNAME>, ale widzê, ¿e ty nim nie jesteœ.~
 @101  = ~Ale nadal, zrobi³byœ dobrze rozwa¿aj¹c moje s³owa: to ciê nie zaboli, jeœli od teraz bêdziesz bardziej oddany walce.~ 
-@102 = ~Przyznajê, walcz¹c obok ciebie, czujê siê prawie jak w domu. To dobrze, ¿e podró¿ujemy i dorastamy, od walki do walki. W Seawolf ¿ycie by³o chorowicie statyczne i niezdrowe, podobne do nory umieraj¹cego cz³owieka.~ 
+@102  = ~Przyznajê, walcz¹c obok ciebie, czujê siê prawie jak w domu. To dobrze, ¿e podró¿ujemy i dorastamy, od walki do walki. W Seawolf ¿ycie by³o chorowicie statyczne i niezdrowe, podobne do nory umieraj¹cego cz³owieka.~ 
 @103  = ~Powiedz mi wiêcej o swoim ¿yciu na wyspach, Branwen. Jakie by³o?~
 @104  = ~Seawolf? Sk¹d wziê³o swoj¹ nazwê?~
 @105  = ~Nadal wola³bym to "niezdrowe" ¿ycie od bycia œciganym i bezdomnym.~
@@ -129,7 +129,7 @@
 @128  = ~Prawda, archipelag Norheim nie jest pozbawiony potwornych gróŸb. Trolle s¹ doœæ popularne na wszystkich wyspach i choæ trolle tunelowe, Kraghanargh, s¹ tylko zwad¹, dla trolli morskich ¿ywiê urazê za ich sk³onnoœæ do topienia ³odzi. Jedna z takich ³odzi pochowa³a mojego dziadka...~
 @129  = ~Gnolle powracaj¹ na zachodnie wybrze¿e, a plemiê koboldów, Draka, z zasadzki atakuje podró¿nych na torfowiskach. Sahuagin od czasu do czasu atakuj¹ przybrze¿ne wioski, jest te¿ wiele opowiadañ o Bezsennej Œmierci, ale same osady s¹ dobrze chronione. Innymi s³owy, jeœli chcesz k³opotów na wyspach, bêdziesz musia³ ich szukaæ.~
 @130  = ~Morze jest naszym przyjacielem i karmi¹c¹ matk¹, a jednoczeœnie szorstk¹ i ekscytuj¹c¹ zagadk¹, wiele ³odzi zatonê³o ze œwistem jego zmiennej i nieprzewidzianej rêki. Ono kieruje wszystkim, nawet klimatem: rzadko jest mo¿liwe, ¿eby pójœæ spaæ w nocy, wiedz¹c cokolwiek na temat pogody nastêpnego poranka.~
-@131 = ~Moi przodkowie nie byli zwyk³ymi rybakami, <CHARNAME>. Pod¹¿ali drog¹ morza na ró¿ne sposoby, grabi¹c tak czêsto, jak handluj¹c, przyznajê, czasami staj¹c siê podobnymi do piratów z Nelanther. Ale nie pomyl siê: piraci s¹ o wiele bardziej brutalni i bezwzglêdni w robieniu interesów. Kiedy moi ludzie napadali, a ty zachowywa³eœ siê odwa¿nie i z honorem, mog³eœ byæ pewny, ¿e twoja rodzina bêdzie bezpieczna, z wystarczaj¹c¹ iloœci¹ zapasów, ¿eby przetrwaæ. Psy Nelanther, z drugiej strony, nie okazywa³y takiej dobroci i za to atakowaliœmy ka¿dego napotkanego pirata, nie maj¹c ¿¹dnej litoœci.~ 
+@131  = ~Moi przodkowie nie byli zwyk³ymi rybakami, <CHARNAME>. Pod¹¿ali drog¹ morza na ró¿ne sposoby, grabi¹c tak czêsto, jak handluj¹c, przyznajê, czasami staj¹c siê podobnymi do piratów z Nelanther. Ale nie pomyl siê: piraci s¹ o wiele bardziej brutalni i bezwzglêdni w robieniu interesów. Kiedy moi ludzie napadali, a ty zachowywa³eœ siê odwa¿nie i z honorem, mog³eœ byæ pewny, ¿e twoja rodzina bêdzie bezpieczna, z wystarczaj¹c¹ iloœci¹ zapasów, ¿eby przetrwaæ. Psy Nelanther, z drugiej strony, nie okazywa³y takiej dobroci i za to atakowaliœmy ka¿dego napotkanego pirata, nie maj¹c ¿¹dnej litoœci.~ 
 @132  = ~Dziêkujê ci, mój przyjacielu i uwa¿ny s³uchaczu. To by³a przyjemnoœæ, jakich ma³o.~
 @133  = ~le post¹pi³am, opowiadaj¹c ci historie i legendy zwi¹zane z Norheim ze sprytem kotki w czasie rui, albo zakochanej gówniary. To z pewnoœci¹ przywróci³o twoje bolesne wspomnienia. Twoja twarz staje siê coraz bardziej pochmurna; myœlisz o Candlekeep?~
 @134  = ~Tak. Próbujê zostawiæ to za sob¹, ale to trudne, Branwen. Tak trudne...~
@@ -159,10 +159,10 @@
 @158  = ~Bycie panienk¹ w opa³ach nie jest z³e, Branwen. Ka¿dy z nas móg³ skoñczyæ uwiêziony w kamieniu.~
 @159  = ~Mówi¹, ¿e si³a kobiety jest w jej s³aboœci. Wygl¹danie na s³ab¹ od czasu do czasu nigdy nie boli.~
 @160  = ~Dlaczego takie myœli przychodz¹ ci do g³owy?~
-@161 = ~Prawdê mówi¹c, nie móg³. Tempus da³ mi si³ê do walki i leczenia, mimo ¿e czasem czytam swobodnie w sercach ludzi, nie jestem zbyt subtelna. D³ugi jêzyk Tranziga ³atwo oddali³ moje obawy, i wiem, ¿e ty nie da³byœ siê mu zwieœæ.~ 
-@162 = ~Przychodz¹, poniewa¿ ka¿da pieœñ i ballada z mojego dzieciñstwa przynosi³a wieœci o niesamowitym ratunku i wspania³ym zwyciêstwie. Te opowiadania mówi³y o beznadziejnych, w¹t³ych pannach, które s¹ niczym innym, tylko utrapieniem i przeszkod¹ dla wojownika, ale które s¹ bezpieczne, kochane i chronione przez resztê ¿ycia. Nie twierdzê, ¿e s¹ bez zas³ug, ale przyznajê, dla mnie taka rola by³aby najgorszym wiêzieniem i wstydem.~ 
-@163 = ~M¹dre s³owa, <CHARNAME>, ale przewrotne. Wygl¹da, jakbyœ chcia³... jakbyœ chcia³ zobaczyæ inn¹ kobietê na moim miejscu, poniewa¿ nigdy nie mog³abym uciec siê do takich sztuczek. Nie powinnam nic wiêcej mówiæ.~  
-@164 = ~Mo¿e myœlisz, ¿e jestem jednym z tych sobowtórniaków, które, jak powiadaj¹, najecha³y na wie¿ê Durlaga na zachodzie? Chcê czy nie chcê, nie mogê zmieniæ swojego zachowania, <CHARNAME>.~ 
+@161  = ~Prawdê mówi¹c, nie móg³. Tempus da³ mi si³ê do walki i leczenia, mimo ¿e czasem czytam swobodnie w sercach ludzi, nie jestem zbyt subtelna. D³ugi jêzyk Tranziga ³atwo oddali³ moje obawy, i wiem, ¿e ty nie da³byœ siê mu zwieœæ.~ 
+@162  = ~Przychodz¹, poniewa¿ ka¿da pieœñ i ballada z mojego dzieciñstwa przynosi³a wieœci o niesamowitym ratunku i wspania³ym zwyciêstwie. Te opowiadania mówi³y o beznadziejnych, w¹t³ych pannach, które s¹ niczym innym, tylko utrapieniem i przeszkod¹ dla wojownika, ale które s¹ bezpieczne, kochane i chronione przez resztê ¿ycia. Nie twierdzê, ¿e s¹ bez zas³ug, ale przyznajê, dla mnie taka rola by³aby najgorszym wiêzieniem i wstydem.~ 
+@163  = ~M¹dre s³owa, <CHARNAME>, ale przewrotne. Wygl¹da, jakbyœ chcia³... jakbyœ chcia³ zobaczyæ inn¹ kobietê na moim miejscu, poniewa¿ nigdy nie mog³abym uciec siê do takich sztuczek. Nie powinnam nic wiêcej mówiæ.~
+@164  = ~Mo¿e myœlisz, ¿e jestem jednym z tych sobowtórniaków, które, jak powiadaj¹, najecha³y na wie¿ê Durlaga na zachodzie? Chcê czy nie chcê, nie mogê zmieniæ swojego zachowania, <CHARNAME>.~ 
 @165  = ~Masz racjê... <CHARNAME>, masz racjê. Daj mi moment, ¿eby siê pozbieraæ, a do³¹czê do ciebie w ka¿dej bójce i potyczce, oczyszczaj¹c siê z tych g³upich w¹tpliwoœci.~
 @166  = ~Dziêkujê za zachêtê, ale ta przeklêta chêæ i irytuj¹ce w¹tpliwoœci mnie nie zostawi¹.~
 @167  = ~W czasie naszych podró¿y zauwa¿am, ¿e zaczynam przypominaæ jak¹œ cherlaw¹ ksiê¿niczkê, urodzon¹ w wie¿y z koœci s³oniowej: uratowa³eœ mnie, zaprzyjaŸni³eœ siê ze mn¹, a teraz robiê siê delikatna i czêsto myœlê o sprawach sercowych i rodzinie, zamiast o m³ocie i he³mie. To ¿enuj¹ce.~
@@ -188,11 +188,11 @@
 @187  = ~Jesteœ niemo¿liwa, Branwen. To, o czym œniê, nie powinno ciê interesowaæ.~
 @188  = ~Tak, od œmierci Goriona by³em zmuszony walczyæ o w³asne ¿ycie. Przyzwyczai³em siê do koszmarów, Branwen, nie martw siê.~ 
 @189  = ~Nie mam ¿adnych cholernych koszmarów i nie szlocha³em. To musia³ byæ wiatr albo chory z mi³oœci kot, którego us³ysza³aœ.~
-@190  = ~Jeœli nie masz nic przeciwko, to nie chcia³bym o tym mówiæ, Branwen. Zabra³em ciê, byœ walczy³a w moich bitwach i nie jestem zainteresowany omawianiem z tob¹ mojego ¿ycia prywatnego.~  
+@190  = ~Jeœli nie masz nic przeciwko, to nie chcia³bym o tym mówiæ, Branwen. Zabra³em ciê, byœ walczy³a w moich bitwach i nie jestem zainteresowany omawianiem z tob¹ mojego ¿ycia prywatnego.~
 @191  = ~Jestem uzdrowicielk¹, <CHARNAME>, mo¿e mog³abym ci pomóc. Wygl¹dasz na zmartwionego; masz chore sny. Nawet teraz widzê ból w twoich oczach!~ 
 @192  = ~To straszne. Widzê, jak ta œmieræ wplata siê w twoje sny i mêczy ciê.~
 @193  = ~(uœmiech) Jasne. To by³ zakochany kot. Daj znaæ, jeœli spotkasz to biedne zwierzê. Mogê mieæ miksturkê albo ze dwie, które pomog¹ temu nieszczêsnemu zwierzowi spaæ lepiej.~ 
-@194 = ~I to jest dok³adnie to, co robiê: walczê w twoich bitwach. Strach uderza g³êbiej ni¿ miecz, tak mówi¹. Jestem uzdrowicielk¹, a dobry uzdrowiciel leczy dusze tak samo jak cia³a.~
+@194  = ~I to jest dok³adnie to, co robiê: walczê w twoich bitwach. Strach uderza g³êbiej ni¿ miecz, tak mówi¹. Jestem uzdrowicielk¹, a dobry uzdrowiciel leczy dusze tak samo jak cia³a.~
 @195  = ~Mo¿e wywar nasenny...~
 @196  = ~Nie, Branwen, ¿aden wywar nie pomo¿e. To s¹ wizje, nie sny.~
 @197  = ~Dziêkujê za propozycjê, ale nie, nie potrzebujê mikstur. Poradzê sobie.~ 
@@ -228,7 +228,7 @@
 @227  = ~To choroba, która przychodzi i odchodzi jak nieproszony goœæ. Samotnoœæ, <CHARNAME>, i smutek.~
 @228  = ~Obawiam siê, ¿e tak, <CHARNAME>.~
 @229  = ~(westchnienie) Nie mogê ciê za to winiæ. Niech Tempus pob³ogos³awi ciê zdrowiem i dobrym snem.~
-@230 = ~Nasza banda jest weso³¹ gromadk¹, nawet jeœli trochê dziwn¹. Nasza misja jest s³uszna i sprawiedliwa, a ja bêdê pierwsz¹, która zmia¿d¿y jêcz¹cego s³abeusza œmi¹cego zlekcewa¿yæ nasze starania. Ale czasem têskniê za moimi rodakami, moimi kamratami w walce i zwyczajn¹ przyjemnoœci¹ tworzenia prawdziwej kompanii.~
+@230  = ~Nasza banda jest weso³¹ gromadk¹, nawet jeœli trochê dziwn¹. Nasza misja jest s³uszna i sprawiedliwa, a ja bêdê pierwsz¹, która zmia¿d¿y jêcz¹cego s³abeusza œmi¹cego zlekcewa¿yæ nasze starania. Ale czasem têskniê za moimi rodakami, moimi kamratami w walce i zwyczajn¹ przyjemnoœci¹ tworzenia prawdziwej kompanii.~
 @231  = ~Chcesz powiedzieæ, ¿e ci siê to nie podoba?~
 @232  = ~Mia³em nadziejê, ¿e uzyska³em ju¿ twoj¹ przyjaŸñ.~ 
 @233  = ~Masz moje poparcie, moje zaufanie i moj¹ lojalnoœæ. A mo¿e chcesz wiêcej?~
@@ -244,14 +244,14 @@
 @243  = ~Nieistotne kogo wybierzesz na sojusznika. Liczy siê sama walka.~
 @244  = ~Wiêc powinnaœ nas zostawiæ. Nie ma tutaj dla ciebie nadziei.~
 @245  = ~Zgodzi³eœ siê przecie¿ mnie wys³uchaæ, co ciê nagle napad³o?~
-@246  = ~W ka¿dym razie, dobrze bêdzie opuœciæ ciê, gdy jesteœ w tak pod³ym nastroju. Hmph!~
+@246  = ~W ka¿dym razie, dobrze bêdzie opuœciæ ciê, gdy jesteœ w tak pod³ym nastroju. Hmpf!~
 @247  = ~Na... naprawdê? ¯artowa³eœ, czy naprawdê tak myœlisz?~
 @248  = ~Tak. Tak myœlê.~
 @249  = ~Nie wiem. Ale mo¿emy siê zbli¿yæ do siebie... z czasem.~
 @250  = ~Branwen, przeczyta³aœ zbyt wiele powieœci romantycznych. IdŸ spaæ.~
 @251  = ~To wystarczy. Zatrzymam twoje s³owa w sercu, <CHARNAME>. Teraz idŸ spaæ, zanim zaœniesz na moim ³onie.~
 @252  = ~RzeŸnik móg³by tak powiedzieæ, ale nie wojownik i bohater. Myœlê, ¿e Ÿle ciê oceni³am.~
-@253 = ~Powinnam iœæ szukaæ by³ych przyjació³ Tranziga? A mo¿e bezcelowo przemierzyæ Wybrze¿e Mieczy? Nie, <CHARNAME>, rêka Tempusa mnie tu sprowadzi³a i dopóki nie podejmiesz niehonorowego zadania albo mnie nie wyrzucisz, mój miecz i œpiew bitewny s¹ twoje.~ 
+@253  = ~Powinnam iœæ szukaæ by³ych przyjació³ Tranziga? A mo¿e bezcelowo przemierzyæ Wybrze¿e Mieczy? Nie, <CHARNAME>, rêka Tempusa mnie tu sprowadzi³a i dopóki nie podejmiesz niehonorowego zadania albo mnie nie wyrzucisz, mój miecz i œpiew bitewny s¹ twoje.~ 
 @254  = ~Nie spodziewa³am siê tego po tobie, ale przyznajê, to ogrzewa i cieszy moje serce.~
 @255  = ~Teraz œpij, <CHARNAME>. Muszê rozwa¿yæ twoje s³owa i pomodliæ siê do Tempusa, ¿eby je rozszyfrowaæ.~
 @256  = ~To rêka Tempusa nas po³¹czy³a.~
@@ -439,7 +439,7 @@
 @438  = ~Teraz mam dylemat: któr¹ gwiazdê powinienem nazwaæ twoim imieniem? Pewnie bêdê tak sta³ ca³¹ noc i rozmyœla³ nad tym zadaniem. Zastanawiam siê, dlaczego biedni i bogaci w tych stronach zastawiaj¹ rega³y niezliczonymi kopiami "Historii Pó³nocy"? Wola³bym zobaczyæ gdzieœ ksi¹¿kê "Wiedza o gwiazdach"...~
 @439  = ~Ja têskniê tylko za pos³aniem. Przyjdziesz do mnie? Nie wzi¹³eœ mnie w objêcia ju¿ od zbyt dawna, kochanie.~ 
 @440  = ~(œmieje siê) Mo¿e byæ tak d³uga lub krótka, jak tego chcesz, <CHARNAME>. Ale zapamiêtam, ¿e w razie czego jesteœ w stanie odpuœciæ sobie sen. A wiêc na co czekasz? Przy³¹czysz siê? Nie wzi¹³eœ mnie w objêcia ju¿ od zbyt dawna, kochanie.~ 
-@441  = ~Na Tempusa, stworzy³am potwora! Jeœli zamierzasz teraz pisaæ w³asn¹ ksi¹¿kê pe³n¹ wiedzy na temat gwiazd, to przypuszczam, ¿e mogê ci pomóc. Jeœli nie, mo¿esz przyjœæ do mojego pos³ania. Chcia³abym, ¿ebyœ zwróci³ uwagê na to, ¿e od dawna nie wzi¹³eœ mnie w objêcia, kochanie.~  
+@441  = ~Na Tempusa, stworzy³am potwora! Jeœli zamierzasz teraz pisaæ w³asn¹ ksi¹¿kê pe³n¹ wiedzy na temat gwiazd, to przypuszczam, ¿e mogê ci pomóc. Jeœli nie, mo¿esz przyjœæ do mojego pos³ania. Chcia³abym, ¿ebyœ zwróci³ uwagê na to, ¿e od dawna nie wzi¹³eœ mnie w objêcia, kochanie.~
 @442  = ~Ta ordynarna rzeŸ, której siê oddajemy, jest odra¿aj¹ca! Do walki potrzeba finezji i umiejêtnoœci, nie tylko stali i miêœni! Dlaczego muszê znosiæ widok zmasakrowanych cia³, jeœli czyste ciêcie od³¹cza g³owê od tu³owia?~
 @443  = ~Branwen, co siê z tob¹ sta³o? By³aœ pierwsza w ³amaniu ¿eber, rozdzieraniu ramion na czêœci i przywracaniu ¿ycia by³ym wrogom jako o¿ywieñcom, wszystko w imiê Tempusa!~ 
 @444  = ~Myœla³em, ¿e kieruje tob¹ ¿¹dza krwi.~ 
@@ -549,7 +549,7 @@
 @548  = ~W³aœciwie, bêdzie mi³o, jeœli to zrobisz, sposób nie ma znaczenia. W tym przypadku cel uœwiêca œrodki.~
 @549  = ~Tak, Branwen. Zachowamy honor, nie zni¿ymy siê do ich poziomu.~
 @550  = ~Po prostu znajdŸmy Marka, szybko. Nie chcê, ¿eby coœ ci siê sta³o.~
-@551  = ~O bogowie, umrzemy, tak? Tak bardzo siê bojê... Otruto mnie! UMRÊ! NIE!!!~  
+@551  = ~O bogowie, umrzemy, tak? Tak bardzo siê bojê... Otruto mnie! UMRÊ! NIE!!!~
 @552  = ~Jest w tym trochê prawdy, <CHARNAME>, choæ nape³nia mnie to z³ymi myœlami. Czy tak ³atwo zejdziemy ze œcie¿ki praworz¹dnoœci?~
 @553  = ~Dziêkujê, <CHARNAME>. Powstrzymam siê do tego czasu.~
 @554  = ~Twoje obawy podnosz¹ mnie na duchu i krzepi¹, <CHARNAME>. Ale jednoczeœnie krêpuj¹.~
@@ -591,7 +591,7 @@
 @590  = ~Czy to ciê interesuje? Nie jesteœ ju¿ ze mn¹ zwi¹zana, Branwen. Sama tak powiedzia³aœ.~
 @591  = ~Tak, jestem. Nadal idziesz ze mn¹?~
 @592  = ~Nie, ale czas wyboru ju¿ dawno min¹³.~
-@593  = ~Gotowy czy nie, czas iœæ.~  
+@593  = ~Gotowy czy nie, czas iœæ.~
 @594  = ~Do walki wiêc. Po zwyciêstwo!~
 @595  = ~Prawda. Oboje dokonaliœmy swoich wyborów, a ja ju¿ czujê konsekwencje w³asnych.~
 @596  = ~Pod¹¿ê za tob¹ wszêdzie i niez³omnie bêdê ci pomagaæ bez wahania. Dobrze o tym wiesz.~
@@ -708,10 +708,10 @@
 @706  = ~Powiedz mi Branwen, dlaczego wybra³aœ naszego dowódcê na swojego partnera?~
 @707  = ~<CHARNAME> jest odwa¿ny, silny duchem i mi³y dla oka.~
 @708  = ~I dowodzi nasz¹ grup¹.~
-@709  = ~Tak, to prawda. Ale ponad wszystko - ~
+@709  = ~Tak, to prawda. Ale ponad wszystko...~
 @710  = ~Dlaczego ja nie odczuwam potrzeby ³¹czenia siê z nim? ~
 @711  = ~Co? ~
-@712  = ~<CHARNAME> jest osobnikiem alfa w naszej grupie, ale nie widzê potrzeby spania z nim ani walki o niego z tob¹. Nie jesteœ silniejsza ni¿ ja.~  
+@712  = ~<CHARNAME> jest osobnikiem alfa w naszej grupie, ale nie widzê potrzeby spania z nim ani walki o niego z tob¹. Nie jesteœ silniejsza ni¿ ja.~
 @713  = ~S³uchaj, Faldorn, chcia³am powiedzieæ, ¿e ponad wszystko wziê³am go na swojego partnera, poniewa¿ moje serce go wybra³o i on równie¿ mnie kocha. Twoje po prostu... go nie wybra³o.~
 @714  = ~Serce?! Serce jest po to, ¿eby pompowaæ krew w naszych ¿y³ach, na ¿o³êdzie Silvanusa! Nie musimy mieszaæ go w sprawy uczuciowe!~
 @715  = ~Mo¿e jesteœ cz³owiekiem w wiêkszym stopniu, ni¿ to pokazujesz, Faldorn. ~
@@ -727,7 +727,7 @@
 @725  = ~Dlaczego to ciê zaskakuje?~
 @726  = ~Bo robi³aœ to na JEGO oczach! Chcesz, ¿eby zauwa¿y³, co nie? Nie? (chichocze) Wiesz, to nawet ca³kiem s³odkie. ~ 
 @727  = ~(rumieni siê) Tak, no... idŸmy dalej, dobra?~
-@728  = ~Nie pozwolê ci odejœæ dopóty, dopóki nie przyznasz, ¿e naprawdê go kochasz i ju¿ na zawsze chcesz z nim byæ, na zawsze!~  
+@728  = ~Nie pozwolê ci odejœæ dopóty, dopóki nie przyznasz, ¿e naprawdê go kochasz i ju¿ na zawsze chcesz z nim byæ, na zawsze!~
 @729  = ~Imoen...~
 @730  = ~Powiedz!~
 @731  = ~Imoen, dziecko, pozwól mi iœæ!~
@@ -776,4 +776,4 @@
 @774  = ~Ty sama... co? Kontynuuj.~
 @775  = ~To nic. Mogê jedynie darzyæ silnym uczuciem wielkiego i porz¹dnego ducha zmia¿d¿onego przez zwyk³e uderzenie w g³owê. Nie bierz sobie moich wczeœniejszych s³ów do serca, mój przyjacielu.~
 @776 = ~Nie b¹dŸ smutna, piêkna Branwen. Minsc jest szczêœliwy ze swoj¹ ran¹. Gdyby Minsc nie zosta³ ranny, byæ mo¿e nigdy nie zaprzyjaŸni³by siê z Boo, a Boo jest lepszym kompanem ni¿ dziewczyna, tak przynajmniej powiedzia³ Minskowi Boo.~
-@777  = ~(pisk)~ [GAM_48]
+@777  = ~(Boo piszczy)~ [GAM_48]

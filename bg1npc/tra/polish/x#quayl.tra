@@ -27,13 +27,13 @@
 @26   = ~Hej, z³odziejko! Oddawaj!~
 @27   = ~(œmieje siê) Proszê!~
 @28   = ~To nie s¹ obcinaczki do w³osów, to sprytna iluzja. Konkretniej to, em, pradawny artefakt Halruaan.~
-@29   = ~£a³! Serio?~
+@29   = ~Cooo? Serio?~
 @30   = ~Tak, oczywiœcie!~
 @31   = ~Czy to dlatego widzia³am ciê ostatniej nocy, jak u¿ywa³eœ ich do podcinania w³osów w nosie?~ 
 @32   = ~Wszystko jest czêœci¹ iluzji, moja droga.~
 @33   = ~Wiesz, bycie zamienionym w pos¹g nie wygl¹da mi na dobry krok w karierze, Branwen.~
-@34   = ~To nie by³ do koñca mój wybór i dziêkujê Tempusowi, ¿e <CHARNAME> znalaz³ i uwolni³ mnie.~ ~To nie by³ do koñca mój wybór - i dziêkujê Tempusowi, ¿e <CHARNAME> znalaz³a i uwolni³a mnie.~
-@35   = ~Ach tak, Tempus. Ten - och i ach - Pan Bitew.~
+@34   = ~To nie by³ do koñca mój wybór i dziêkujê Tempusowi, ¿e <CHARNAME> znalaz³ i uwolni³ mnie.~ ~To nie by³ do koñca mój wybór i dziêkujê Tempusowi, ¿e <CHARNAME> znalaz³a i uwolni³a mnie.~
+@35   = ~Ach tak, Tempus. Ten "och i ach" Pan Bitew.~
 @36   = ~Czy kpisz z mojej wiary, gnomie?~
 @37   = ~Ja? Och, nie. Tylko pokazujê, ¿e to by siê nie sta³o, gdybyœ mia³a lepsze bóstwo jako patrona. WeŸmy na przyk³ad mnie. No wiêc, nigdy nie zosta³em spetryfikowany, odk¹d s³u¿ê Baravarowi o P³aszczu z Cienia, nieprawda¿?~
 @38   = ~Twoja logika, obawiam siê, ma swoje wady.~
@@ -102,7 +102,7 @@
 @101  = ~Ach, tak, ca³kowicie. Do czego zmierzasz?~
 @102  = ~Natura zawsze bêdzie ze mn¹, tymczasem w¹tpiê, czy twoja gnomia rodzina przyjmie ciê z powrotem.~
 @103  = ~Ach tak? Móg³bym wróciæ, gdybym chcia³. Ja po prostu wolê podró¿owaæ i przelewaæ moj¹ wspania³¹ i wnikliw¹ wiedzê na hordy nieuków.~
-@104  = ~Jeœli to pozwala ci spaæ w nocy. ~
+@104  = ~Jeœli to pozwala ci spaæ w nocy.~
 @105  = ~Powiadaj¹, ¿e milczenie jest z³otem, Garrick. Wiêc mo¿e móg³byœ pozostawiæ dla siebie to mruczenie? Próbujê opracowaæ do perfekcji nowy i cudownie potê¿ny czar.~
 @106  = ~Mówisz, ¿e milczenie jest z³otem, œmieszne. Dla mnie to wygl¹da tak - twój g³os jest najdonoœniejszy i najczêœciej s³yszany w dru¿ynie.~
 @107  = ~My, inteligentni, mamy prawo u¿ywaæ naszych g³osów, ile chcemy.~ 
@@ -155,10 +155,10 @@
 @154  = ~No? I?~
 @155  = ~Có¿, mówi¹c wprost, to powinienem byæ ja. Ty mo¿esz sobie mieæ ¿elazne cia³o, Kagain, boli mnie to, ¿e twoje mo¿liwoœci umys³owe maj¹ pewne mankamenty.~
 @156  = ~No, Quayle, ta k³amliwa œwinia to kiepski obraz Krasnoluda.~
-@157  = ~Zwa¿aj na swoje s³o-~
+@157  = ~Zwa¿aj na swoje s³o...~
 @158  = ~To znaczy wiem, ¿e JESTEŒ krasnoludem, i dlatego masz pewne naturalne przeszkody w dziedzinie myœlenia.~
 @159  = ~Nie, TO niesprawiedliwe...~
-@160  = ~Nie przyjmê-~
+@160  = ~Nie przyjmê...~
 @161  = ~Wiêc, moja sugestia jest taka, wezmê to niesamowite brzemiê z³o¿onego zarz¹dzania ekonomicznego z twoich barków, w zamian za drobn¹ op³atê, zostawiaj¹c ci to, co potrafisz najlepiej. Zabijanie.~
 @162  = ~Jestem zdolny prowadziæ mój w³asny biznes, Quayle!~
 @163  = ~Przyznajê, nie zrobi³eœ do tej pory ¿adnego niezmiernie g³upiego interesu. Ale to tylko kwestia czasu! Krasnoludzki mózg po prostu nie mo¿e siê pogodziæ z zawi³oœciami nowoczesnego œwiata finansów!~
@@ -190,7 +190,7 @@
 @189  = ~W rzeczy samej. Nied³ugo powinien powitaæ œmieræ w Dziewiêciu Piek³ach, gdzie jego miejsce.~
 @190  = ~Œmieræ i Dziewiêæ Piekie³? Ale Œmieræ jest w Planie Letargu! Tak przynajmniej Mamusia zwyk³a mówiæ...~
 @191  = ~No có¿, jeœli wczeœniej z³apa³ ciê i zabi³ twoj¹, eee, kole¿ankê, to powrót nie wydaje siê najlepszym pomys³em, nieprawda¿?~
-@192  = ~Tak, gnomie, to w³aœnie sta³o siê-~
+@192  = ~Tak, gnomie, to w³aœnie sta³o siê...~
 @193  = ~To znaczy, nawet szczury ucz¹ siê unikaæ pu³apek. Pewnie nawet elfy ucz¹ siê na b³êdach. Czy gnomy s¹ jedyn¹ ras¹ pob³ogos³awion¹ zwyk³ym zdrowym rozs¹dkiem?~
 @194  = ~Naprawdê jesteœ pob³ogos³awiony, Quayle. Ja nie mam tego szczêœcia, wiêc pójdê w pu³apkê i uaktywniê j¹, jeœli mam nadziejê, ¿e z³apie siê w ni¹ równie¿ ten, który j¹ zastawi³. Albo jeœli bêdê mia³ pewnoœæ, ¿e uchroni to innego szczura bez zdrowego rozs¹dku przed wpadniêciem w ni¹.~
 @195  = ~Co? Ach, w porz¹dku, rozumiem. Dok³adnie tak jak myœla³em, ¿adnego zdrowego rozs¹dku...~
