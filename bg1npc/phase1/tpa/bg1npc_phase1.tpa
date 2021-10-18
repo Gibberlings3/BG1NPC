@@ -98,6 +98,7 @@
     WRITE_ASCII 0xDE ~EFF_P07~ #8   // resource
 
   COPY ~bg1npc/Phase1/ITM/X#POLY.SPL~ ~override~
+    SAY NAME1 @783 // spell name "Temporary Polymorph"
     WRITE_ASCII 0x10 ~CAS_M08~ #8    // casting sound
     WRITE_ASCII 0x3a ~SPWI415C~ #8   // spell icon
     WRITE_ASCII 0x76 ~SPWI415B~ #8   // ability #0 icon
