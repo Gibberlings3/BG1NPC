@@ -67,6 +67,12 @@ COPY_EXISTING ~%tutu_var%drizzt.cre~ ~override/x#drizzt.cre~
   SAY 0x19C @570
   LAUNCH_PATCH_MACRO ~bg1npc_cre_dest_res~
 
+/* Custom Drizzt soundset for his dialog */
+ACTION_IF (DIRECTORY_EXISTS ~bg1npc/phase2/wav/%LANGUAGE%~) THEN BEGIN
+  COPY ~bg1npc/phase2/wav/%LANGUAGE%/DR_NPCP1.wav~ ~override~
+  COPY ~bg1npc/phase2/wav/%LANGUAGE%/DR_NPCP2.wav~ ~override~
+END
+
 COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
   WRITE_EVALUATED_ASCII 0x2cc ~%tutu_var%WINSKI~ #8
   WRITE_ASCII 0x280 ~winski2~ #32
