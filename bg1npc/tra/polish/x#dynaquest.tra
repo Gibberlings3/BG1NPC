@@ -3,7 +3,7 @@
 @2    = ~Obawiam siê, ¿e nie znaleŸliœmy niczego podobnego.~
 @3    = ~Nie bêdziemy traciæ czasu na poszukiwania. Gnolle prawdopodobnie u¿y³y go do rozniecenia ognia.~
 @4    = ~Rozejrzymy siê w trakcie wêdrówki. Byæ mo¿e ktoœ inny go odnalaz³.~
-@5    = ~Dobrych ³owów, przyjacielu. Natrafi³em na osobliwy zwój przeszukuj¹c zw³oki jednego z gnolli, którzy mnie zaczepili. Wygl¹da na to, ¿e to strona wydarta z wiêkszego woluminu, w dodatku nie rozpoznajê jêzyka. Mo¿e to jakiœ szyfr? To z³y znak. Mo¿liwe, ¿e gnolle w tej okolicy s¹ na us³ugach kogoœ potê¿niejszego, a to jest ich sposób komunikacji?~ ~Dobrych ³owów, przyjació³ko. Natrafi³em na osobliwy zwój przeszukuj¹c zw³oki jednego z gnolli, którzy mnie zaczepili. Wygl¹da na to, ¿e to strona wydarta z wiêkszego woluminu, w dodatku nie rozpoznajê jêzyka. Mo¿e to jakiœ szyfr? To z³y znak. Mo¿liwe, ¿e gnolle w tej okolicy s¹ na us³ugach kogoœ potê¿niejszego, a to jest ich sposób komunikacji?~
+@5    = ~Dobrych ³owów, przyjacielu. Przeszukuj¹c zw³oki jednego z gnolli, którzy mnie zaczepili natrafi³em na osobliwy zwój. Wygl¹da na to, ¿e to strona wydarta z wiêkszego woluminu, w dodatku nie rozpoznajê jêzyka. Mo¿e to jakiœ szyfr? To z³y znak. Mo¿liwe, ¿e gnolle w tej okolicy s¹ na us³ugach kogoœ potê¿niejszego, a to jest ich sposób komunikacji?~ [DR_NPCP1] ~Dobrych ³owów, przyjació³ko. Przeszukuj¹c zw³oki jednego z gnolli, którzy mnie zaczepili natrafi³em na osobliwy zwój. Wygl¹da na to, ¿e to strona wydarta z wiêkszego woluminu, w dodatku nie rozpoznajê jêzyka. Mo¿e to jakiœ szyfr? To z³y znak. Mo¿liwe, ¿e gnolle w tej okolicy s¹ na us³ugach kogoœ potê¿niejszego, a to jest ich sposób komunikacji?~ [DR_NPCP1]
 @6    = ~Boo mówi, ¿e to wygl¹da na pismo Dynaheir! Moja wiedŸma zaraz siê w tym po³apie!~
 @7    = ~WiedŸma? Có¿, mój podekscytowany przyjacielu, mo¿esz zachowaæ pergamin.~
 @8    = ~Gdybyœ mia³ pod rêk¹ jakiegoœ uczonego, byæ mo¿e móg³by na to zerkn¹æ. To mo¿e byæ wa¿ne, mo¿liwe, ¿e rzuci³oby œwiat³o na jak¹œ intrygê.~
@@ -117,7 +117,7 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @108  = ~Edwinie, spokój. Mo¿esz mieæ Dynaheir na oku, ale nie wolno ci z ni¹ walczyæ.~
 @109  = ~Dynaheir, spokój. Mo¿esz mieæ Edwina na oku, ale nie wolno ci z nim walczyæ.~
 @110  = ~Mam dosyæ tej k³ótni. Byæ mo¿e wszyscy powinniœcie odejœæ. Przemyœlê to i porozmawiam z wami na osobnoœci, jeœli zdecydujê, ¿e macie opuœciæ grupê.~
-@111  = ~Cieszy mnie, ¿e widzê ciê ponownie, przyjacielu. Odzyska³em dziennik twojej towarzyszki.~ ~Cieszy mnie, ¿e widzê ciê ponownie, przyjació³ko. Odzyska³em dziennik twojej towarzyszki.~
+@111  = ~Cieszy mnie, ¿e widzê ciê ponownie, przyjacielu. Odzyska³em dziennik twojej towarzyszki.~ [DR_NPCP2] ~Cieszy mnie, ¿e widzê ciê ponownie, przyjació³ko. Odzyska³em dziennik twojej towarzyszki.~ [DR_NPCP2]
 @112  = ~By³ w posiadaniu grupy wystêpnych gnolli. Nie mam pojêcia, czy powie ci to cokolwiek wiêcej ni¿ mi, ale twierdzili, ¿e s¹ poddanymi kogoœ, o kim mówili "Starszy".~
 @113  = ~Oto dziennik.~
 @114  = ~Wielcem wam zobowi¹zana, Drizzcie Do'Urden. Zezwólcie mi ofiarowaæ wam ten zwój jako dowód mej wdziêcznoœci.~
@@ -127,7 +127,7 @@ Drizzt, £owca, znalaz³ stronê z dziennika Dynaheir. Uwa¿a, ¿e pozosta³a czêœæ mo
 @118  = ~Daj mi chwilkê, Drizzcie. (odchodzisz na bok z Edwinem) O co chodzi, Edwinie?~
 @119  = ~Edwinie, nie mam tajemnic przed moimi towarzyszami. Powiedz, co masz do powiedzenia w obecnoœci wszystkich, albo ucisz siê.~
 @120  = ~Drizzt Do'Urden potrafi mówiæ? (Zapewne znalaz³ gdzieœ miksturê geniuszu. Nie wyobra¿am sobie, ¿eby w jakikolwiek inny sposób mia³ staæ siê zdolny do ³¹czenia s³ów w sensowne zdania. W DODATKU bez pomocy Catti-Brie. Nadzwyczajne.) Có¿, wiêc rozmawiaj sobie z Drizztem.~
-@121  = ~Twój czas dobieg³ koñca, Czerwony Czarodzieju. Dostanê mój dziennik z powrotem.~
+@121  = ~Twój czas dobieg³ koñca, Czerwony Magu. Dostanê mój dziennik z powrotem.~
 @122  = ~Proszê bardzo, wiedŸmo. Ehm... podda³em go badaniom. (Prêdzej mnie szlag trafi, ni¿ jej siê przyznam, ¿e nie mog³em go przeczytaæ. I tak to tylko stek bzdur.)~
 @123  = ~(g³oœno) Zauwa¿y³am, ¿e z mojego ekwipunku znikn¹³ dziennik. Chcia³am poinformowaæ, ¿e odnowi³am zabezpieczenie, które siê na nim znajdowa³o.~
 @124  = ~Niech czarodziej lepiej zap³aci co mi siê nale¿y przed czytaniem tego cholernego...~
