@@ -69,8 +69,8 @@ COPY_EXISTING ~%tutu_var%drizzt.cre~ ~override/x#drizzt.cre~
 
 /* Custom Drizzt soundset for his dialog */
 ACTION_IF (DIRECTORY_EXISTS ~bg1npc/phase2/wav/%LANGUAGE%~) THEN BEGIN
-  COPY ~bg1npc/phase2/wav/%LANGUAGE%/DR_NPCP1.wav~ ~override~
-  COPY ~bg1npc/phase2/wav/%LANGUAGE%/DR_NPCP2.wav~ ~override~
+  COPY ~bg1npc/phase2/wav/%LANGUAGE%/DR_NPCP1.wav~ ~override~ IF_EXISTS
+  COPY ~bg1npc/phase2/wav/%LANGUAGE%/DR_NPCP2.wav~ ~override~ IF_EXISTS
 END
 
 COPY_EXISTING ~%tutu_var%winski2.cre~ ~override~
