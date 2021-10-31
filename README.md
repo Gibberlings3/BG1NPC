@@ -447,6 +447,7 @@ The current list for this release shows the dedication of a community for many y
 
 * Translators: Cuttooth (coordinator), Jinete, Miss misery, Chisette, Yennyfer, Krist Algar, Nero, Morgan, Christoff, Marlong, Parys, Craven, Dead, Thug Poet, Yarpen, Lord Pawel
 * Proof readers: Cuttooth (coordinator), Kol (coordinator), Lua Nova, Claudiad, Morgan, Li, Jinete, Zireael, Soul Reaver, Picollo, Zed Nocear, Arientar, Tinuviel, Euler, Grazin
+* Additional sounds: Anoim2666 (coordinator), Joshua Szpilarski (Drizzt dubbing)
 
 **Tools Used in Creation**
 * [jEdit](http://www.jedit.org) Programmer's Editor, a fantastic free world-wide project
