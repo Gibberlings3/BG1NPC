@@ -143,8 +143,8 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 
 /* new for v26 */
 @1132  = ~The BG1 NPC Project: Kivan's Proficiency~
-@1133  = ~Kivan uses spears~
-@1134  = ~Kivan uses halberds~
+@1133  = ~Kivan utilise des lances~
+@1134  = ~Kivan utilise des hallebardes~
 
 @5000  = ~BG:EE detecte~
 @5001  = ~Pour ce composant il faut avoir installe BGT ou Tutu.~
@@ -153,8 +153,8 @@ Veuillez utiliser le composant equivalent de Sword Coast Strategems pour BGT.~
 @5004  = ~Il faut utiliser Modmerge avant de pouvoir installer des mods sur ce jeu. Consultez le readme pour plus d'informations et un lien pour telecharger Modmerge.~
 
 /* new for v26 */
-@5005 = ~This mod is not compatible with this game.~
-@5006 = ~This mod needs to be installed before EET_End on your EET install.~
+@5005 = ~Ce mod n'est pas compatible avec ce jeu.~
+@5006 = ~Ce mod doit etre installe avant EET_End dans votre installation EET.~
 
 
 // WeiDU prompts
