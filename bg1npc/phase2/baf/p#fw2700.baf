@@ -5,6 +5,7 @@ THEN
 RESPONSE #100
 SetGlobal("X#ImGorBody","%LionsWay%",1)
 RealSetGlobalTimer("X#ImGorBodyTimer","GLOBAL",3600)
+Continue()
 END
 
 /* Found Gorion's Body too late */
@@ -18,6 +19,7 @@ SetGlobal("X#IMGBody","GLOBAL",2)
 SetGlobal("X#KeepBuryGorion","GLOBAL",2)
 SetGlobal("X#PCBuryGorion","GLOBAL",2)
 SetGlobal("X#GorionBuried","GLOBAL",2)
+Continue()
 END
 
 /* Keeper buries Gorion at CandleKeep */
@@ -35,6 +37,7 @@ SetGlobal("X#GorionBuried","GLOBAL",1)
 Wait(3)
 %DisplayStringNoNameHead%(Player1,@1)
 ActionOverride("gorion",DestroySelf())
+Continue()
 END
 
 /* PC Burys Gorion Alone */
@@ -51,4 +54,5 @@ SetGlobal("X#KeepBuryGorion","GLOBAL",2)
 SetGlobal("X#GorionBuried","GLOBAL",1)
 %DisplayStringNoNameHead%(Player1,@2)
 ActionOverride("gorion",DestroySelf())
+Continue()
 END

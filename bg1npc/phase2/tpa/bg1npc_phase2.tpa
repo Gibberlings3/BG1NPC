@@ -136,7 +136,7 @@ END
       EVALUATE_BUFFER
   EXTEND_BOTTOM ~%EBaldursGate_SorcerousSundries_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0704.BAF~
       EVALUATE_BUFFER
-  EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW2700.BAF~
+  EXTEND_TOP ~%LionsWay_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW2700.BAF~
       EVALUATE_BUFFER
       USING ~bg1npc/TRA/%LANGUAGE%/P#FW2700.tra~
   EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~ ~bg1npc/Phase2/baf/x#ar1803.baf~

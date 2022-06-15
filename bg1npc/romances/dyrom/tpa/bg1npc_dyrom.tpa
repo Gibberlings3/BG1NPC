@@ -343,7 +343,7 @@ COMPILE EVALUATE_BUFFER ~bg1npc/romances/DYROM/baf/X#DYLSTB.BAF~
 /* Area Script Extensions */
 EXTEND_BOTTOM ~%BaldursGate_Undercellars_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/P#RO0112.baf~
 EVALUATE_BUFFER
-EXTEND_BOTTOM ~%LionsWay_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DA2700.baf~
+EXTEND_TOP ~%LionsWay_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DA2700.baf~
 EVALUATE_BUFFER
 EXTEND_BOTTOM ~%Undercity_TempleofBhaal_BCS%.BCS~ ~bg1npc/romances/DYROM/baf/X#DA0125.baf~
 EVALUATE_BUFFER

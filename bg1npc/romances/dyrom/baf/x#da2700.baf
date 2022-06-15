@@ -8,4 +8,5 @@ RESPONSE #100
 SetGlobal("endofbg1","GLOBAL",3)
 StartMovie("%tutu_scripte%NDCRDIT")
 EndCredits()
+Continue()
 END

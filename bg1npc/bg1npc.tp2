@@ -14,7 +14,7 @@ AUTHOR ~The BG1 NPC Project Team: forums.gibberlings3.net/index.php?showforum=45
 /* MODDER */
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v27.1~
+VERSION ~v28~
 /* Launch the readme file immediately. */
 /* Isaya : display in native selected language if available, otherwise english */
 README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
@@ -98,7 +98,7 @@ LABEL bg1npc_project-ajantisromance_1h
 
 	COPY ~bg1npc/Core/X#component.xx~ ~override/X#AjantisRomance.G3~
   UNINSTALL ~bg1npc.tp2~ 200 /* makes sure PIDs go last */
-	APPEND ~gtimes.ids~ ~3600 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
+	APPEND ~gtimes.ids~ ~3600 AJROM_TIMER~ UNLESS ~[ %TAB%]AJROM_TIMER%MNL%*$~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1110 DESIGNATED 21 /* Speed: 45 minutes real time minimum between LoveTalks */
@@ -109,7 +109,7 @@ LABEL bg1npc_project-ajantisromance_45min
 
 	COPY ~bg1npc/Core/X#component.xx~ ~override/X#AjantisRomance.G3~
   UNINSTALL ~bg1npc.tp2~ 200 /* makes sure PIDs go last */
-	APPEND ~gtimes.ids~ ~2700 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
+	APPEND ~gtimes.ids~ ~2700 AJROM_TIMER~ UNLESS ~[ %TAB%]AJROM_TIMER%MNL%*$~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1111 DESIGNATED 22 /* Speed: 30 minutes real time minimum between LoveTalks */
@@ -120,7 +120,7 @@ LABEL bg1npc_project-ajantisromance_30min
 
 	COPY ~bg1npc/Core/X#component.xx~ ~override/X#AjantisRomance.G3~
   UNINSTALL ~bg1npc.tp2~ 200 /* makes sure PIDs go last */
-	APPEND ~gtimes.ids~ ~1800 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
+	APPEND ~gtimes.ids~ ~1800 AJROM_TIMER~ UNLESS ~[ %TAB%]AJROM_TIMER%MNL%*$~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1112 DESIGNATED 23 /* Speed: 15 minutes real time minimum between LoveTalks */
@@ -131,7 +131,7 @@ LABEL bg1npc_project-ajantisromance_15min
 
 	COPY ~bg1npc/Core/X#component.xx~ ~override/X#AjantisRomance.G3~
   UNINSTALL ~bg1npc.tp2~ 200 /* makes sure PIDs go last */
-	APPEND ~gtimes.ids~ ~900 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
+	APPEND ~gtimes.ids~ ~900 AJROM_TIMER~ UNLESS ~[ %TAB%]AJROM_TIMER%MNL%*$~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 BEGIN @1113 DESIGNATED 24 /* Speed: 90 minutes real time minimum between LoveTalks */
@@ -142,7 +142,7 @@ LABEL bg1npc_project-ajantisromance_1h30min
 
 	COPY ~bg1npc/Core/X#component.xx~ ~override/X#AjantisRomance.G3~
   UNINSTALL ~bg1npc.tp2~ 200 /* makes sure PIDs go last */
-	APPEND ~gtimes.ids~ ~5400 AJROM_TIMER~ UNLESS ~AJROM_TIMER~
+	APPEND ~gtimes.ids~ ~5400 AJROM_TIMER~ UNLESS ~[ %TAB%]AJROM_TIMER%MNL%*$~
 	INCLUDE ~bg1npc/romances/ajrom/tpa/bg1npc_ajrom.tpa~
 
 
