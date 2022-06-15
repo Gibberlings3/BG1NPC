@@ -19,9 +19,17 @@ ACTION_IF FILE_EXISTS_IN_GAME ~BDENTBOY.CRE~ THEN BEGIN
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kivantazok_ee.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
 END ELSE BEGIN
 /* Version for Tutu, BGT, BGEE 1.x - 2.4 */
-  EXTEND_TOP  ~%Undercity_TempleofBhaal_BCS%.bcs~ ~bg1npc/Phase2/baf/x#kivantazokdead.baf~ EVALUATE_BUFFER
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kivantazok_tutu.d~ USING ~bg1npc/tra/%LANGUAGE%/x#kivantazok.tra~
 END
+
+/* Kivan reacts in case Tazok gets killed in Bhaaltemple */
+EXTEND_TOP  ~%Undercity_TempleofBhaal_BCS%.bcs~ ~bg1npc/Phase2/baf/x#kivantazokdead.baf~ EVALUATE_BUFFER
+
+/* Crossmod to Transitions: if Tazok is killed in follow-up hunt in sewers */
+ACTION_IF ((MOD_IS_INSTALLED ~transitions/setup-transitions.tp2~ ~30~) OR (MOD_IS_INSTALLED ~transitions/setup-transitions.tp2~ ~32~)) THEN BEGIN
+  EXTEND_TOP  ~%ESewers%.bcs~ ~bg1npc/Phase2/baf/x#kivantazokdead.baf~ EVALUATE_BUFFER
+END
+
 
 /* Journal Entries for BGEE & EET */
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
@@ -43,7 +51,7 @@ COPY ~bg1npc/phase2/itm/P#BOW.itm~ ~override~
 
 /* BGEE: Add Kivan's bow to item_use.2da */
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-  APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2 9467~
+  APPEND ~item_use.2da~ ~P#BOW KIVAN 9382 2 9491~
     UNLESS ~P#BOW~
   COPY_EXISTING ~item_use.2da~ ~override~
   PRETTY_PRINT_2DA

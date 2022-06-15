@@ -1,25 +1,25 @@
 // x#kiint.tra: @113 - @118
-@1  = ~Ich brauche einen Moment, um ein Gebet an Shevarash zu sprechen. Es scheint, dass mein eingeschworener Feind schließlich in der Reichweite meines Pfeils ist.~
-@2  = ~Nun macht schon, sonst werden wir noch entdeckt.~
-@3  = ~Natürlich, Elf. Ich werde meine Stimme mit Eurer vereinen, für einen Erfolg unserer Schlacht gegen die Banditen.~
-@4  = ~Tut mir leid, Kivan, es wäre mir lieber, wir würden uns rasch weiter bewegen. Ihr könnt beten solange Ihr wollt, wenn wir fertig sind.~
-@5  = ~Mein Gott Shevarash, hier stehe ich, auf dem Boden, den die Bestie, die meine Geliebte erschlug, noch immer betritt. Es gibt kein größeres Bedürfnis in meinem Herzen, als die Erde mit seinem dunklen Blut zu tränken. Ich erbitte die Festigkeit meines Armes, auf dass sie der Festigkeit meiner Seele gleich kommt. Ich erbitte die Erfüllung meines Schwurs, ich erbitte den Treffer, der meinen Gegner niedersteckt. Ich erbitte von Euch, mir die Kraft zum Kämpfen zu geben, und die Stärke, jene zu schützen, die mit mir kämpfen.~
-@6  = ~Ich erkenne die Notwendigkeit. Ich werde still sein. Lasst meine Pfeile mein Gebet für mich sprechen.~
+@1  = ~Ich brauche einen Moment, um ein Gebet an Shevarash zu sprechen. Wie es aussieht, befindet sich mein Todfeind endlich in der Reichweite meiner Pfeile.~
+@2  = ~Beeilt Euch, sonst werden wir entdeckt.~
+@3  = ~Natürlich, Elf. Ich werde meine Stimme mit Eurer vereinen, auf dass unser Kampf gegen die Banditen erfolgreich sein möge.~
+@4  = ~Tut mir leid, Kivan, es wäre mir lieber, wir würden uns rasch weiterbewegen. Ihr könnt so lange beten, wie Ihr wollt, wenn wir hier fertig sind.~
+@5  = ~Mein Gott Shevarash, hier stehe ich, auf diesem Grund, auf dem auch die Bestie wandelt, die meine Geliebte erschlug. Kein größeres Bedürfnis erfüllt mein Herz, als diesen Grund mit ihrem finsteren Blut zu tränken. Ich bitte darum, dass die Entschlossenheit und die Stärke meines Armes der Entschlossenheit und der Stärke meiner Seele ebenbürtig sein mögen. Ich erbitte die Erfüllung meines gegebenen Versprechens. Ich bitte um den Streich, der meinen Feind zu Fall bringen wird. Ich bitte dich darum, mir die Kraft zu geben zu kämpfen und jene zu beschützen, die mit mir kämpfen.~
+@6  = ~Ich verstehe die Situation. Ich werde still sein. Lasst meine Pfeile mein Gebet für mich sprechen.~
 
 // x#kiint.tra: @119, @135, @136, @137
 @7  = ~Erinnert Ihr Euch an meine Deheriana, Bestie?~
-@8  = ~Na, ist das nicht endlich unser wandelnder Toter? Und dazu mit einer Gruppe von nicht weniger armselig aussehenden Typen wie er selbst.~
-@9  = ~Lasst meine Freunde da raus, das ist zwischen Euch und mir. Heute ist der Tag, an dem Ihr sterbt, Tazok!~
-@10  = ~Oh, Eure kreischende Stimme bringt mich zum Schlottern! Ihr habt meine Soldaten lange genug belästigt, Abschaum! Ich werde die Sache jetzt beenden und ich werde diesen Job fachgerecht erledigen.~
+@8  = ~Na, wenn das nicht endlich unser wandelnder Leichnam sein... und dazu noch mit Bande jämmerlicher Narren wie er selbst.~
+@9  = ~Lasst meine Freunde aus dem Spiel. Das hier betrifft nur Euch und mich. Heute werdet Ihr sterben, Tazok!~
+@10  = ~Oh, Euer kreischendes Stimmlein macht mich schlottern. Ihr meine Soldaten lange genug belästigt habt, Abschaum! Ich dieser Angelegenheit jetzt ein Ende setzen werden und ich es ordentlich tun!~
 
 // x#kiint.tra: @130, @120, @132
-@11  = ~Tötet sie! Ich werde bei den Minen erwartet und habe keine Zeit für solchen Mist!~
-@12  = ~NEIN! Bleibt und kämpft, oder ich werde Euch einen Feigling nennen... Aber was habe ich erwartet? Tazok ist ein Feigling, denn jeder der Unschuldige und Schutzlose foltert, ist ein Feigling. Diese Schlacht ist vorüber, aber der Krieg ist es nicht, Tazok! Ich werde Euch finden!~
-@13  = ~Der Kopf von dem Elf wird auf einen Pfahl vor meinem Zelt gespießt!~
+@11  = ~Tötet sie! Ich werde bei den Minen erwartet und habe für solchen Mist keine Zeit!~
+@12  = ~NEIN! Bleibt und kämpft, oder ich erkläre Euch zum Feigling... Aber was habe ich anderes erwartet? Tazok ist ein Feigling. Jeder, der die Wehrlosen und Unschuldigen foltert, ist ein Feigling. Diese Schlacht ist vorüber, aber der Krieg ist es nicht, Tazok! Ich werde Euch finden!~
+@13  = ~Der Kopf des Elfen wird auf einen Pfahl vor meinem Zelt gespießt!~
 
 // x#kiint.tra: @3,@4,@5
-@14  = ~Tazok! Jetzt könnt Ihr nicht mehr entkommen. Endlich wird mein Schwur erfüllt sein. Deheriana, Melamin, diese Stunde des Blutes gehört uns!~
-@15  = ~Hah! Meine Männer werden heute Abend mit einem Elfenkopf Ball spielen!~
+@14  = ~Tazok! Ihr könnt nicht mehr entkommen! Mein Schwur wird erfüllt sein. Deheriana, melamin, diese Stunde des Blutes gehört uns!~
+@15  = ~Ha! Meine Männer werden heute Nacht einen Elfenkopf zum Spielen haben!~
 @16  = ~Ich werfe Euch in den Abyss, wo Ihr hingehört!~
 
 // x#kiint.tra: @127
@@ -28,8 +28,8 @@
 // Journal entries
 // x#kiint.tra: @134, BGEE:#27470, @133
 @101  = ~Tazok hat Kivan erkannt
-Tazok hat Kivan erkannt und unser Plan, das Banditenlager zu infiltrieren ist gescheitert.~
+Tazok hat Kivan erkannt und unser Plan, das Banditenlager zu unterwandern, ist gescheitert.~
 @102  = ~Ein verborgener Stützpunkt?
-Tazok hat vor, eine Mine zu besuchen, wo er vielleicht dem tatsächlichen Anführer der Räuber Bericht erstattet.~
+Tazok hat vor, eine Mine zu besuchen, wo er möglicherweise dem eigentlichen Anführer der Räuber Bericht erstatten möchte.~
 @103  = ~Kivan und Tazok
-Nicht überraschend wurde mein Gefährte Kivan von Tazok erkannt, aber er hat noch nicht seine Chance bekommen, den Halboger aufzuspießen. Der Bandit war anscheinend zu beschäftigt, sich mit dem racheverrückten Elfen zu befassen. Tazok ist auf dem Weg zu einem Minengelände. Dieses Minengelände könnte das Hauptquartier desjenigen sein, der diese Banditen kontrolliert.~
+Wie nicht anders zu erwarten, wurde mein Gefährte Kivan von Tazok erkannt, doch seine Chance, den Halboger aufzuspießen, hat er nicht bekommen. Der Bandit war anscheinend zu beschäftigt, um sich mit dem rachelüsternen Elfen zu befassen. Tazok ist auf dem Weg zu einer Mine. Diese Mine könnte das Hauptquartier desjenigen sein, der diese Banditen kontrolliert.~
