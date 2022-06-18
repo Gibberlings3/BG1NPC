@@ -596,163 +596,163 @@ SAY @157
 + ~!Gender(Player1,MALE) !Global("X#SHCHdone","GLOBAL",1) !CheckStatGT(Player1,15,CHR) RandomNum(5,3)~ + @163 + SHCHFailure3
 + ~!Gender(Player1,MALE) !Global("X#SHCHdone","GLOBAL",1) !CheckStatGT(Player1,15,CHR) RandomNum(5,4)~ + @163 + SHCHFailure2
 + ~!Gender(Player1,MALE) !Global("X#SHCHdone","GLOBAL",1) !CheckStatGT(Player1,15,CHR) RandomNum(5,5)~ + @163 + SHCHFailure4
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1)~ + @164 + SHWaist1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2)~ + @164 + SHWaist2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @164 + SHWaist3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @164 + SHWaist4
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1)~ + @165 + SHWink1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2)~ + @165 + SHWink2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @165 + SHWink3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @165 + SHWink4
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,1)~ + @164 + SHWaist1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,2)~ + @164 + SHWaist2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,3)~ + @164 + SHWaist3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,4)~ + @164 + SHWaist4
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,1)~ + @165 + SHWink1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,2)~ + @165 + SHWink2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,3)~ + @165 + SHWink3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,4)~ + @165 + SHWink4
 + ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1)~ + @166 + SHKiss1
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @167 + SHMen1
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @167 + SHMen2
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @167 + SHMen3
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @167 + SHMen4
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @167 + SHMen5
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",6) GlobalLT("X#SharKind","GLOBAL",11) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,1)~ + @167 + SHMen6
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",6) GlobalLT("X#SharKind","GLOBAL",11) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,2)~ + @167 + SHMen7
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",6) GlobalLT("X#SharKind","GLOBAL",11) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,3)~ + @167 + SHMen8
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @167 + SHMen9
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @167 + SHMen10
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @167 + SHMen11
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @167 + SHMen12
-+ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @167 + SHMen13
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,1)~ + @168 + SharPrai1
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,2)~ + @168 + SharPrai2
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,3)~ + @168 + SharPrai3
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,4)~ + @168 + SharPrai4
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,5)~ + @168 + SharPrai5
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,6)~ + @168 + SharPrai6
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,7)~ + @168 + SharPrai7
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,8)~ + @168 + SharPrai8
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,9)~ + @168 + SharPrai9
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,10)~ + @168 + SharPrai10
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(11,11)~ + @168 + SharPrai11
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,1) Gender(Player1,FEMALE)~ + @169 + X#ShMen1
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,2) Gender(Player1,FEMALE)~ + @169 + X#ShMen2
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,3) Gender(Player1,FEMALE)~ + @169 + X#ShMen3
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,4) Gender(Player1,FEMALE)~ + @169 + X#ShMen4
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,5) Gender(Player1,FEMALE)~ + @169 + X#ShMen5
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,6) Gender(Player1,FEMALE)~ + @169 + X#ShMen6
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,7) Gender(Player1,FEMALE)~ + @169 + X#ShMen7
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,8) Gender(Player1,FEMALE)~ + @169 + X#ShMen8
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,9) Gender(Player1,FEMALE)~ + @169 + X#ShMen9
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,10) Gender(Player1,FEMALE)~ + @169 + X#ShMen10
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(5,1)~ + @167 + SHMen1
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(5,2)~ + @167 + SHMen2
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(5,3)~ + @167 + SHMen3
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(5,4)~ + @167 + SHMen4
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(5,5)~ + @167 + SHMen5
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",6) GlobalLT("X#SharKind","GLOBAL",11) RandomNum(3,1)~ + @167 + SHMen6
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",6) GlobalLT("X#SharKind","GLOBAL",11) RandomNum(3,2)~ + @167 + SHMen7
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",6) GlobalLT("X#SharKind","GLOBAL",11) RandomNum(3,3)~ + @167 + SHMen8
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) RandomNum(5,1)~ + @167 + SHMen9
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) RandomNum(5,2)~ + @167 + SHMen10
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) RandomNum(5,3)~ + @167 + SHMen11
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) RandomNum(5,4)~ + @167 + SHMen12
++ ~!Global("X#SharInterest","GLOBAL",3) Global("X#ShartSex","GLOBAL",1) GlobalGT("X#SharKind","GLOBAL",10) RandomNum(5,5)~ + @167 + SHMen13
++ ~RandomNum(11,1)~ + @168 + SharPrai1
++ ~RandomNum(11,2)~ + @168 + SharPrai2
++ ~RandomNum(11,3)~ + @168 + SharPrai3
++ ~RandomNum(11,4)~ + @168 + SharPrai4
++ ~RandomNum(11,5)~ + @168 + SharPrai5
++ ~RandomNum(11,6)~ + @168 + SharPrai6
++ ~RandomNum(11,7)~ + @168 + SharPrai7
++ ~RandomNum(11,8)~ + @168 + SharPrai8
++ ~RandomNum(11,9)~ + @168 + SharPrai9
++ ~RandomNum(11,10)~ + @168 + SharPrai10
++ ~RandomNum(11,11)~ + @168 + SharPrai11
++ ~RandomNum(10,1) Gender(Player1,FEMALE)~ + @169 + X#ShMen1
++ ~RandomNum(10,2) Gender(Player1,FEMALE)~ + @169 + X#ShMen2
++ ~RandomNum(10,3) Gender(Player1,FEMALE)~ + @169 + X#ShMen3
++ ~RandomNum(10,4) Gender(Player1,FEMALE)~ + @169 + X#ShMen4
++ ~RandomNum(10,5) Gender(Player1,FEMALE)~ + @169 + X#ShMen5
++ ~RandomNum(10,6) Gender(Player1,FEMALE)~ + @169 + X#ShMen6
++ ~RandomNum(10,7) Gender(Player1,FEMALE)~ + @169 + X#ShMen7
++ ~RandomNum(10,8) Gender(Player1,FEMALE)~ + @169 + X#ShMen8
++ ~RandomNum(10,9) Gender(Player1,FEMALE)~ + @169 + X#ShMen9
++ ~RandomNum(10,10) Gender(Player1,FEMALE)~ + @169 + X#ShMen10
 + ~Global("X#SharPIDMen","GLOBAL",0)~ + @170 + SharUnfa
 + ~Global("X#SharPIDMen","GLOBAL",1)~ + @170 + SharUnfa12
 + ~Global("X#SharPIDMen","GLOBAL",2)~ + @170 + SharUnfa13
 + ~Global("X#SharPIDMen","GLOBAL",3)~ + @170 + SharUnfa14
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @171 + SharInsi1
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @171 + SharInsi2
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @171 + SharInsi3
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @171 + SharInsi4
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @171 + SharInsi5
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @172 + SharLigh1
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @172 + SharLigh2
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @172 + SharLigh3
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @172 + SharLigh4
-+ ~!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @172 + SharLigh5
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) AreaType(CITY) !AreaType(OUTDOOR)~ + @173 + Wrestle1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) AreaType(CITY) !AreaType(OUTDOOR)~ + @173 + Wrestle2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatGT(Player1,16,STR) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze1Strong
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatLT(Player1,17,STR) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze1Weak
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatLT(Player1,17,STR) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatLT(Player1,17,STR) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpine2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpine3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpine4
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpineL1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpineL2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpineL3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile4
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @177 + STWonder1
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @178 + STWonder2
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @178 + STWonder3
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @178 + STWonder4
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(6,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace1
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(6,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @180 + STTouchFace2
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(6,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace3
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(6,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace4
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(6,5) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace5
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(6,6) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace6
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace7
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace8
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace9
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace10
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @181 + STHands1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @181 + STHands2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @181 + STHands3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms4
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle3
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove1
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove2
-+ ~GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove3
-+ ~GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove4
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,1)~ + @185 + STRoseX
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,2)~ + @185 + STRose1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,3)~ + @185 + STRose2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,4)~ + @185 + STRose3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,5)~ + @185 + STRose1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,6)~ + @185 + STRose2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,7)~ + @185 + STRose3
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,8)~ + @185 + STRose1
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,9)~ + @185 + STRose2
-+ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(10,10)~ + @185 + STRose3
++ ~RandomNum(5,1)~ + @171 + SharInsi1
++ ~RandomNum(5,2)~ + @171 + SharInsi2
++ ~RandomNum(5,3)~ + @171 + SharInsi3
++ ~RandomNum(5,4)~ + @171 + SharInsi4
++ ~RandomNum(5,5)~ + @171 + SharInsi5
++ ~RandomNum(5,1)~ + @172 + SharLigh1
++ ~RandomNum(5,2)~ + @172 + SharLigh2
++ ~RandomNum(5,3)~ + @172 + SharLigh3
++ ~RandomNum(5,4)~ + @172 + SharLigh4
++ ~RandomNum(5,5)~ + @172 + SharLigh5
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) AreaType(CITY) !AreaType(OUTDOOR)~ + @173 + Wrestle1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) AreaType(CITY) !AreaType(OUTDOOR)~ + @173 + Wrestle2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatGT(Player1,16,STR) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze1Strong
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatLT(Player1,17,STR) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze1Weak
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatLT(Player1,17,STR) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) CheckStatLT(Player1,17,STR) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @174 + STBottomSqueeze3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpine2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpine3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpine4
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpineL1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpineL2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @175 + STSpineL3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @176 + STSmile4
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @177 + STWonder1
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @178 + STWonder2
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @178 + STWonder3
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @178 + STWonder4
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(6,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace1
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(6,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @180 + STTouchFace2
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(6,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace3
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(6,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace4
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(6,5) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace5
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(6,6) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace6
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace7
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace8
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace9
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @179 + STTouchFace10
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(3,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @181 + STHands1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(3,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @181 + STHands2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",2) GlobalLT("X#SharInterestTalk","GLOBAL",21) RandomNum(3,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @181 + STHands3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @182 + STArms4
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) RandomNum(4,4) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @183 + STTickle3
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove1
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(2,1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove2
++ ~GlobalLT("X#SharKind","GLOBAL",7) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove3
++ ~GlobalGT("X#SharKind","GLOBAL",6) RandomNum(2,2) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @184 + STShove4
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,1)~ + @185 + STRoseX
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,2)~ + @185 + STRose1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,3)~ + @185 + STRose2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,4)~ + @185 + STRose3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,5)~ + @185 + STRose1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,6)~ + @185 + STRose2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,7)~ + @185 + STRose3
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,8)~ + @185 + STRose1
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,9)~ + @185 + STRose2
++ ~GlobalGT("X#SharInterestTalk","GLOBAL",20) AreaType(OUTDOOR) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(10,10)~ + @185 + STRose3
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) HasItem("%tutu_var%DAGG04",Player1) Global("X#ShDagr","LOCALS",0)~ + @186 + STDagger1
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) HasItem("%tutu_var%DAGG04",Player1) Global("X#ShDagr","LOCALS",1)~ + @186 + STDagger2
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) HasItem("%tutu_var%DAGG04",Player1) Global("X#ShDagr","LOCALS",2)~ + @186 + STDagger3
 + ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) HasItem("%tutu_var%DAGG04",Player1) Global("X#ShDagr","LOCALS",3)~ + @186 + STDagger4
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,1)~ + @187 + STFight1
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,2)~ + @187 + STFight2
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(3,3)~ + @187 + STFight3
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1)~ + @188 + StHug1
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2)~ + @188 + StHug2
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @188 + StHug3
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @188 + StHug4
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1)~ + @188 + StHugL1
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2)~ + @188 + StHugL2
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @188 + StHugL3
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @188 + StHugL4
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(3,1)~ + @187 + STFight1
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(3,2)~ + @187 + STFight2
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(3,3)~ + @187 + STFight3
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(4,1)~ + @188 + StHug1
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(4,2)~ + @188 + StHug2
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(4,3)~ + @188 + StHug3
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalLT("X#SharKind","GLOBAL",7) RandomNum(4,4)~ + @188 + StHug4
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,1)~ + @188 + StHugL1
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,2)~ + @188 + StHugL2
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,3)~ + @188 + StHugL3
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) GlobalGT("X#SharKind","GLOBAL",6) RandomNum(4,4)~ + @188 + StHugL4
 + ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
 PartyHasItem("%tutu_var%AMUL13") 
 PartyHasItem("%tutu_scriptbg%AMUL13") 
-!Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1)~ + @189 + SharAmulet1.1
+RandomNum(5,1)~ + @189 + SharAmulet1.1
 + ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
 PartyHasItem("%tutu_var%AMUL13") 
-PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2)~ + @189 + SharAmulet1.2
+PartyHasItem("%tutu_scriptbg%AMUL13")  RandomNum(5,2)~ + @189 + SharAmulet1.2
 + ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
 PartyHasItem("%tutu_var%AMUL13") 
-PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3)~ + @189 + SharAmulet1.3
+PartyHasItem("%tutu_scriptbg%AMUL13")  RandomNum(5,3)~ + @189 + SharAmulet1.3
 + ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
 PartyHasItem("%tutu_var%AMUL13") 
-PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4)~ + @189 + SharAmulet1.4
+PartyHasItem("%tutu_scriptbg%AMUL13")  RandomNum(5,4)~ + @189 + SharAmulet1.4
 + ~!Global("X#SharAmulet","GLOBAL",1) Global("X#SharRing","GLOBAL",3) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) OR(2) 
 PartyHasItem("%tutu_var%AMUL13") 
-PartyHasItem("%tutu_scriptbg%AMUL13")  !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5)~ + @189 + SharAmulet1.5
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1) !Class(Player1,BARD_ALL)~ + @190 + ShSong1
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2) !Class(Player1,BARD_ALL)~ + @190 + ShSong2
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3) !Class(Player1,BARD_ALL)~ + @190 + ShSong3
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4) !Class(Player1,BARD_ALL)~ + @190 + ShSong4
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5) !Class(Player1,BARD_ALL)~ + @190 + ShSong5
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,1) Class(Player1,BARD_ALL)~ + @190 + ShSongB1
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,2) Class(Player1,BARD_ALL)~ + @190 + ShSongB2
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,3) Class(Player1,BARD_ALL)~ + @190 + ShSongB3
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,4) Class(Player1,BARD_ALL)~ + @190 + ShSongB4
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(5,5) Class(Player1,BARD_ALL)~ + @190 + ShSongB5
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,1)~ + @191 + SharBlood1
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,2)~ + @191 + SharBlood2
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,3)~ + @191 + SharBlood3
-+ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) !Global("X#SharDisableFlirts","GLOBAL",1) RandomNum(4,4)~ + @191 + SharBlood4
+PartyHasItem("%tutu_scriptbg%AMUL13")  RandomNum(5,5)~ + @189 + SharAmulet1.5
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,1) !Class(Player1,BARD_ALL)~ + @190 + ShSong1
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,2) !Class(Player1,BARD_ALL)~ + @190 + ShSong2
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,3) !Class(Player1,BARD_ALL)~ + @190 + ShSong3
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,4) !Class(Player1,BARD_ALL)~ + @190 + ShSong4
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,5) !Class(Player1,BARD_ALL)~ + @190 + ShSong5
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,1) Class(Player1,BARD_ALL)~ + @190 + ShSongB1
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,2) Class(Player1,BARD_ALL)~ + @190 + ShSongB2
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,3) Class(Player1,BARD_ALL)~ + @190 + ShSongB3
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,4) Class(Player1,BARD_ALL)~ + @190 + ShSongB4
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(5,5) Class(Player1,BARD_ALL)~ + @190 + ShSongB5
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,1)~ + @191 + SharBlood1
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,2)~ + @191 + SharBlood2
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,3)~ + @191 + SharBlood3
++ ~OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2) RandomNum(4,4)~ + @191 + SharBlood4
 + ~!Global("X#SharDisableFlirts","GLOBAL",1) OR(2) Global("X#SharInterest","GLOBAL",1) Global("X#SharInterest","GLOBAL",2)~ + @192 DO ~SetGlobal("X#SharDisableFlirts","GLOBAL",1)~ EXIT
 + ~%VoiceStrange%~ + @193 + SharVoice
 END
@@ -3111,7 +3111,7 @@ SetPlayerSound(Myself,@822 ,64)
 SetPlayerSound(Myself,@840 ,74)~ EXIT
 END
 
-IF ~IsGabber(Player1) %BGT_VAR% OR(4) Global("P#BranMatch","GLOBAL",0) GlobalLT("P#BRLoveTalk","GLOBAL",9) Global("P#BranwenRomanceActive","GLOBAL",3) Global("X#DisableBranFlirts","GLOBAL",1)~ THEN BEGIN BRCH
+IF ~IsGabber(Player1) %BGT_VAR% OR(3) Global("P#BranMatch","GLOBAL",0) GlobalLT("P#BRLoveTalk","GLOBAL",9) Global("P#BranwenRomanceActive","GLOBAL",3)~ THEN BEGIN BRCH
 SAY @841
 ++ @842 EXIT
 
@@ -3462,7 +3462,7 @@ SAY @903
 IF ~~ THEN DO ~SetGlobal("P#BranRomCutByOther","GLOBAL",2) SetGlobal("P#BranwenRomanceActive","GLOBAL",1)~ EXIT
 END
 
-IF ~IsGabber(Player1) %BGT_VAR% Global("P#BranMatch","GLOBAL",1) GlobalLT("P#BRLoveTalk","GLOBAL",39) Global("P#BranwenRomanceActive","GLOBAL",2) !Global("X#DisableBranFlirts","GLOBAL",1)~ THEN BEGIN BranwenInitFlirtsLate
+IF ~IsGabber(Player1) %BGT_VAR% Global("P#BranMatch","GLOBAL",1) GlobalLT("P#BRLoveTalk","GLOBAL",39) Global("P#BranwenRomanceActive","GLOBAL",2)~ THEN BEGIN BranwenInitFlirtsLate
 SAY @904
 
 + ~RandomNum(8,1)~ + @905 + BrHold1
@@ -4223,7 +4223,7 @@ SAY @1091
 IF ~~ THEN EXIT
 END
 
-IF ~IsGabber(Player1) %BGT_VAR% Global("P#BranMatch","GLOBAL",1) GlobalGT("P#BRLoveTalk","GLOBAL",8) Global("P#BranwenRomanceActive","GLOBAL",1) !Global("X#DisableBranFlirts","GLOBAL",1)~ THEN BEGIN BranwenInitFlirtsEarly
+IF ~IsGabber(Player1) %BGT_VAR% Global("P#BranMatch","GLOBAL",1) GlobalGT("P#BRLoveTalk","GLOBAL",8) Global("P#BranwenRomanceActive","GLOBAL",1)~ THEN BEGIN BranwenInitFlirtsEarly
 SAY @1092
 + ~HPPercentLT(Player1,75)~ + @1093 + BrHand1
 + ~!HPPercentLT(Player1,75) RandomNum(7,1)~ + @1093 + BrHand2
@@ -4830,7 +4830,7 @@ END
 
 APPEND ~%DYNAHEIR_JOINED%~
 
-IF ~IsGabber(Player1) %BGT_VAR% OR(3) Global("X#DynaheirRomanceInactive","GLOBAL",1) GlobalLT("X#DYLoveTalk","GLOBAL",13) Global("X#DynaDisableFlirts","GLOBAL",1)~ THEN BEGIN DYCH
+IF ~IsGabber(Player1) %BGT_VAR% OR(2) Global("X#DynaheirRomanceInactive","GLOBAL",1) GlobalLT("X#DYLoveTalk","GLOBAL",13)~ THEN BEGIN DYCH
 SAY @1224
 + ~InParty("minsc") HPPercentLT("minsc",90)~ + @1225 + DYCHMinsc
 ++ @1226 EXIT
@@ -5264,109 +5264,111 @@ END
 
 IF ~IsGabber(Player1) %BGT_VAR% !Global("X#DynaheirRomanceInactive","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",12)~ THEN BEGIN DynaFlirt
 SAY @1337 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1235 + DynaMap
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1338 + DynaPack1
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1339 + DynaDress
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) AreaType(FOREST)~ + @1340 + DynaFood
-+ ~RandomNum(6,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.1
-+ ~RandomNum(6,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.2
-+ ~RandomNum(6,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.3
-+ ~RandomNum(6,4) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.4
-+ ~RandomNum(6,5) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.4
-+ ~RandomNum(6,6) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.4
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1235 + DynaMap
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1338 + DynaPack1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1339 + DynaDress
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) AreaType(FOREST)~ + @1340 + DynaFood
++ ~RandomNum(6,1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.1
++ ~RandomNum(6,2) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.2
++ ~RandomNum(6,3) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.3
++ ~RandomNum(6,4) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.4
++ ~RandomNum(6,5) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.4
++ ~RandomNum(6,6) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1341 + DynaThou1.4
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,1)~ + @1342 + DynaHand1
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,2)~ + @1342 + DynaHand2
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,3)~ + @1342 + DynaHand3
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,4)~ + @1342 + DynaHand4
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,1)~ + @1342 + DynaHand1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,2)~ + @1342 + DynaHand2
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,3)~ + @1342 + DynaHand3
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) GlobalLT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,4)~ + @1342 + DynaHand4
 
-+ ~RandomNum(3,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",16) GlobalLT("X#DYLoveTalk","GLOBAL",40) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1343 + DynaDrea1.1E
-+ ~RandomNum(3,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",16) GlobalLT("X#DYLoveTalk","GLOBAL",40) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1343 + DynaDrea1.2E
-+ ~RandomNum(3,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",16) GlobalLT("X#DYLoveTalk","GLOBAL",40) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1343 + DynaDrea1.3E
++ ~RandomNum(3,1) GlobalGT("X#DYLoveTalk","GLOBAL",16) GlobalLT("X#DYLoveTalk","GLOBAL",40) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1343 + DynaDrea1.1E
++ ~RandomNum(3,2) GlobalGT("X#DYLoveTalk","GLOBAL",16) GlobalLT("X#DYLoveTalk","GLOBAL",40) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1343 + DynaDrea1.2E
++ ~RandomNum(3,3) GlobalGT("X#DYLoveTalk","GLOBAL",16) GlobalLT("X#DYLoveTalk","GLOBAL",40) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1343 + DynaDrea1.3E
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) AreaType(FOREST)~ + @1344 + DynaThor1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) AreaType(FOREST)~ + @1344 + DynaThor1
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,1)~ + @1345 + DynaHair1
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,2)~ + @1345 + DynaHair2
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,3)~ + @1345 + DynaHair3
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,4)~ + @1345 + DynaHair4
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,1)~ + @1345 + DynaHair1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,2)~ + @1345 + DynaHair2
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,3)~ + @1345 + DynaHair3
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(4,4)~ + @1345 + DynaHair4
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(3,1)~ + @1346 + DynaWisp1
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(3,2)~ + @1346 + DynaWisp2
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(3,3)~ + @1346 + DynaWisp3
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(3,1)~ + @1346 + DynaWisp1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(3,2)~ + @1346 + DynaWisp2
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(3,3)~ + @1346 + DynaWisp3
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,1)~ + @1347 + DynaEyes1
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,2)~ + @1347 + DynaEyes2
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,3)~ + @1347 + DynaEyes3
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,4)~ + @1347 + DynaEyes4
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,5)~ + @1347 + DynaEyes5
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,1)~ + @1347 + DynaEyes1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,2)~ + @1347 + DynaEyes2
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,3)~ + @1347 + DynaEyes3
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,4)~ + @1347 + DynaEyes4
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(5,5)~ + @1347 + DynaEyes5
 
-+ ~RandomNum(3,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1348 + DynaDrea1.4L
-+ ~RandomNum(3,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1348 + DynaDrea1.5L
-+ ~RandomNum(3,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1348 + DynaDrea1.6L
++ ~RandomNum(3,1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1348 + DynaDrea1.4L
++ ~RandomNum(3,2) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1348 + DynaDrea1.5L
++ ~RandomNum(3,3) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1348 + DynaDrea1.6L
 
-+ ~OR(4) PartyHasItem("X#DYPORE") PartyHasItem("X#DYPORF") PartyHasItem("X#DYPORO") PartyHasItem("X#DYPORR") !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",35) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1349 + DynaPort1
++ ~OR(4) PartyHasItem("X#DYPORE") PartyHasItem("X#DYPORF") PartyHasItem("X#DYPORO") PartyHasItem("X#DYPORR") GlobalGT("X#DYLoveTalk","GLOBAL",35)~ + @1349 + DynaPort1
 
-+ ~Global("P#KnowBhaal","GLOBAL",1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1350 + DynaTorm1
++ ~Global("P#KnowBhaal","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",30)~ + @1350 + DynaTorm1
 
-+ ~ RandomNum(10,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.1
-+ ~ RandomNum(10,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.2
-+ ~ RandomNum(10,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.3
-+ ~ RandomNum(10,4) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.4
-+ ~ RandomNum(10,5) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.5
-+ ~ RandomNum(10,6) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.6
-+ ~ RandomNum(10,7) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.7
-+ ~ RandomNum(10,8) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.8
-+ ~ RandomNum(10,9) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.9
-+ ~ RandomNum(10,10) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.10
++ ~RandomNum(10,1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.1
++ ~RandomNum(10,2) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.2
++ ~RandomNum(10,3) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.3
++ ~RandomNum(10,4) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.4
++ ~RandomNum(10,5) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.5
++ ~RandomNum(10,6) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.6
++ ~RandomNum(10,7) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.7
++ ~RandomNum(10,8) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.8
++ ~RandomNum(10,9) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.9
++ ~RandomNum(10,10) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1351 + DynaKiss1.10
 
-+ ~AreaType(OUTDOOR) RandomNum(4,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.1
-+ ~AreaType(OUTDOOR) RandomNum(4,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.2
-+ ~AreaType(OUTDOOR) RandomNum(4,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.3
-+ ~AreaType(OUTDOOR) RandomNum(4,4) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.4
++ ~AreaType(OUTDOOR) RandomNum(4,1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.1
++ ~AreaType(OUTDOOR) RandomNum(4,2) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.2
++ ~AreaType(OUTDOOR) RandomNum(4,3) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.3
++ ~AreaType(OUTDOOR) RandomNum(4,4) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1352 + DynaWind1.4
 
-+ ~Race(Player1,ELF) RandomNum(3,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1353 + DynaWhin1.1E
-+ ~Race(Player1,ELF) RandomNum(3,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1353 + DynaWhin1.2
-+ ~Race(Player1,ELF) RandomNum(3,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1353 + DynaWhin1.3E
-+ ~!Race(Player1,ELF) RandomNum(3,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1354 + DynaWhin1.1
-+ ~!Race(Player1,ELF) RandomNum(3,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1354 + DynaWhin1.2
-+ ~!Race(Player1,ELF) RandomNum(3,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1354 + DynaWhin1.3
++ ~Race(Player1,ELF) RandomNum(3,1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1353 + DynaWhin1.1E
++ ~Race(Player1,ELF) RandomNum(3,2) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1353 + DynaWhin1.2
++ ~Race(Player1,ELF) RandomNum(3,3) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1353 + DynaWhin1.3E
++ ~!Race(Player1,ELF) RandomNum(3,1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1354 + DynaWhin1.1
++ ~!Race(Player1,ELF) RandomNum(3,2) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1354 + DynaWhin1.2
++ ~!Race(Player1,ELF) RandomNum(3,3) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1354 + DynaWhin1.3
 
-+ ~AreaType(FOREST) RandomNum(10,1) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1355 + DynaFlow1.1
-+ ~AreaType(FOREST) RandomNum(10,2) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1355 + DynaFlow1.2
-+ ~AreaType(FOREST) RandomNum(10,3) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1355 + DynaFlow1.7
-+ ~AreaType(FOREST) RandomNum(10,4) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1356 + DynaFlow1.4
-+ ~AreaType(FOREST) RandomNum(10,5) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1356 + DynaFlow1.3
-+ ~AreaType(FOREST) RandomNum(10,6) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1356 + DynaFlow1.8
-+ ~AreaType(FOREST) RandomNum(10,7) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1357 + DynaFlow1.5
-+ ~AreaType(FOREST) RandomNum(10,8) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1357 + DynaFlow1.10
-+ ~AreaType(FOREST) RandomNum(10,9) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1357 + DynaFlow1.9
-+ ~AreaType(FOREST) RandomNum(10,10) !Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1) Class(Player1,BARD_ALL)~ + @1358 + DynaFlow1.6
++ ~AreaType(FOREST) RandomNum(10,1) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1355 + DynaFlow1.1
++ ~AreaType(FOREST) RandomNum(10,2) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1355 + DynaFlow1.2
++ ~AreaType(FOREST) RandomNum(10,3) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1355 + DynaFlow1.7
++ ~AreaType(FOREST) RandomNum(10,4) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1356 + DynaFlow1.4
++ ~AreaType(FOREST) RandomNum(10,5) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1356 + DynaFlow1.3
++ ~AreaType(FOREST) RandomNum(10,6) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1356 + DynaFlow1.8
++ ~AreaType(FOREST) RandomNum(10,7) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1357 + DynaFlow1.5
++ ~AreaType(FOREST) RandomNum(10,8) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1357 + DynaFlow1.10
++ ~AreaType(FOREST) RandomNum(10,9) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1357 + DynaFlow1.9
++ ~AreaType(FOREST) RandomNum(10,10) GlobalGT("X#DYLoveTalk","GLOBAL",20) !Global("X#DynaheirRomanceInactive","GLOBAL",1) Class(Player1,BARD_ALL)~ + @1358 + DynaFlow1.6
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) AreaType(FOREST) OR(2) Class(Player1,DRUID_ALL) Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.1
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) AreaType(FOREST) OR(2) Class(Player1,DRUID_ALL) Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.2
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) AreaType(FOREST) OR(2) Class(Player1,DRUID_ALL) Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.1
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) AreaType(FOREST) OR(2) Class(Player1,DRUID_ALL) Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.2
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) AreaType(FOREST) !Class(Player1,DRUID_ALL) !Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.3
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) AreaType(FOREST) !Class(Player1,DRUID_ALL) !Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.4
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) AreaType(FOREST) !Class(Player1,DRUID_ALL) !Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.3
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) AreaType(FOREST) !Class(Player1,DRUID_ALL) !Class(Player1,RANGER_ALL)~ + @1359 + DynaVers1.4
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) OR(9) AreaCheck("%NWBaldursGate%") AreaCheck("%SWBaldursGate%") AreaCheck("%NBaldursGate%") AreaCheck("%WBaldursGate%") AreaCheck("%CentralBaldursGate%") AreaCheck("%EBaldursGate%") AreaCheck("%WyrmsCrossing%") AreaCheck("%BaldursGateDocks%") AreaCheck("%SEBaldursGate%")~ + @1360 + DynaVers1.5
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) OR(9) AreaCheck("%NWBaldursGate%") AreaCheck("%SWBaldursGate%") AreaCheck("%NBaldursGate%") AreaCheck("%WBaldursGate%") AreaCheck("%CentralBaldursGate%") AreaCheck("%EBaldursGate%") AreaCheck("%WyrmsCrossing%") AreaCheck("%BaldursGateDocks%") AreaCheck("%SEBaldursGate%")~ + @1360 + DynaVers1.6
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) OR(9) AreaCheck("%NWBaldursGate%") AreaCheck("%SWBaldursGate%") AreaCheck("%NBaldursGate%") AreaCheck("%WBaldursGate%") AreaCheck("%CentralBaldursGate%") AreaCheck("%EBaldursGate%") AreaCheck("%WyrmsCrossing%") AreaCheck("%BaldursGateDocks%") AreaCheck("%SEBaldursGate%")~ + @1360 + DynaVers1.5
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) OR(9) AreaCheck("%NWBaldursGate%") AreaCheck("%SWBaldursGate%") AreaCheck("%NBaldursGate%") AreaCheck("%WBaldursGate%") AreaCheck("%CentralBaldursGate%") AreaCheck("%EBaldursGate%") AreaCheck("%WyrmsCrossing%") AreaCheck("%BaldursGateDocks%") AreaCheck("%SEBaldursGate%")~ + @1360 + DynaVers1.6
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) OR(5) AreaCheck("%Nashkel%") AreaCheck("%Beregost%") AreaCheck("%FriendlyArmInn%") AreaCheck("%Candlekeep_Ch6%") AreaCheck("%Gullykin%")~ + @1361 + DynaVers1.7
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) OR(5) AreaCheck("%Nashkel%") AreaCheck("%Beregost%") AreaCheck("%FriendlyArmInn%") AreaCheck("%Candlekeep_Ch6%") AreaCheck("%Gullykin%")~ + @1361 + DynaVers1.8
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,1) OR(5) AreaCheck("%Nashkel%") AreaCheck("%Beregost%") AreaCheck("%FriendlyArmInn%") AreaCheck("%Candlekeep_Ch6%") AreaCheck("%Gullykin%")~ + @1361 + DynaVers1.7
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(2,2) OR(5) AreaCheck("%Nashkel%") AreaCheck("%Beregost%") AreaCheck("%FriendlyArmInn%") AreaCheck("%Candlekeep_Ch6%") AreaCheck("%Gullykin%")~ + @1361 + DynaVers1.8
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,1)~ + @1362 + DynaVers1.9
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,2)~ + @1362 + DynaVers1.10
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,3)~ + @1363 + DynaVers1.11
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,4)~ + @1363 + DynaVers1.13
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,5)~ + @1363 + DynaVers1.12
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,6)~ + @1363 + DynaVers1.13
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,7)~ + @1363 + DynaVers1.12
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,8)~ + @1363 + DynaVers1.14
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,1)~ + @1362 + DynaVers1.9
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,2)~ + @1362 + DynaVers1.10
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,3)~ + @1363 + DynaVers1.11
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,4)~ + @1363 + DynaVers1.13
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,5)~ + @1363 + DynaVers1.12
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,6)~ + @1363 + DynaVers1.13
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,7)~ + @1363 + DynaVers1.12
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1) RandomNum(8,8)~ + @1363 + DynaVers1.14
 
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1364 DO ~SetGlobal("X#DynaDisableFlirts","GLOBAL",1) SetGlobal("X#DynaheirRomanceInactive","GLOBAL",1)~ EXIT
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1365 DO ~SetGlobal("X#DynaDisableFlirts","GLOBAL",1)~ EXIT
-+ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1366 EXIT
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1364 DO ~SetGlobal("X#DynaheirRomanceInactive","GLOBAL",1)~ EXIT
+/*
++ ~!Global("X#DynaDisableFlirts","GLOBAL",1) GlobalGT("X#DYLoveTalk","GLOBAL",2)~ + @1365 DO ~SetGlobal("X#DynaDisableFlirts","GLOBAL",1)~ EXIT
+*/
++ ~GlobalGT("X#DYLoveTalk","GLOBAL",2) !Global("X#DynaheirRomanceInactive","GLOBAL",1)~ + @1366 EXIT
 
 + ~%VoiceStrange%~ + @1237 + DynaVoice
 END
@@ -9446,140 +9448,140 @@ APPEND ~%XAN_JOINED%~
 IF ~IsGabber(Player1) %BGT_VAR% !Global("X#XaRomanceInactive","GLOBAL",1) OR(2) Global("X#XaRomanceActive","GLOBAL",1) Global("X#XaRomanceActive","GLOBAL",2) GlobalGT("X#XALoveTalk","GLOBAL",7) GlobalLT("X#XALoveTalk","GLOBAL",28)~ THEN BEGIN XAFlirtEarly
 SAY @2511
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2512 + XAFEHow1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2512 + XAFEHow2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2512 + XAFEHow3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2512 + XAFEHow4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2512 + XAFEHow5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2512 + XAFEHow6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2512 + XAFEHow7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2512 + XAFEHow8
++ ~RandomNum(8,1)~ + @2512 + XAFEHow1
++ ~RandomNum(8,2)~ + @2512 + XAFEHow2
++ ~RandomNum(8,3)~ + @2512 + XAFEHow3
++ ~RandomNum(8,4)~ + @2512 + XAFEHow4
++ ~RandomNum(8,5)~ + @2512 + XAFEHow5
++ ~RandomNum(8,6)~ + @2512 + XAFEHow6
++ ~RandomNum(8,7)~ + @2512 + XAFEHow7
++ ~RandomNum(8,8)~ + @2512 + XAFEHow8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2513 + XAFESmile1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2513 + XAFESmile2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2513 + XAFESmile3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2513 + XAFESmile4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2513 + XAFESmile5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2513 + XAFESmile6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2513 + XAFESmile7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2513 + XAFESmile8
++ ~RandomNum(8,1)~ + @2513 + XAFESmile1
++ ~RandomNum(8,2)~ + @2513 + XAFESmile2
++ ~RandomNum(8,3)~ + @2513 + XAFESmile3
++ ~RandomNum(8,4)~ + @2513 + XAFESmile4
++ ~RandomNum(8,5)~ + @2513 + XAFESmile5
++ ~RandomNum(8,6)~ + @2513 + XAFESmile6
++ ~RandomNum(8,7)~ + @2513 + XAFESmile7
++ ~RandomNum(8,8)~ + @2513 + XAFESmile8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2514 + XAFEHand1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2514 + XAFEHand2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2514 + XAFEHand3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2514 + XAFEHand4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2514 + XAFEHand5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2514 + XAFEHand6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2514 + XAFEHand7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2514 + XAFEHand8
++ ~RandomNum(8,1)~ + @2514 + XAFEHand1
++ ~RandomNum(8,2)~ + @2514 + XAFEHand2
++ ~RandomNum(8,3)~ + @2514 + XAFEHand3
++ ~RandomNum(8,4)~ + @2514 + XAFEHand4
++ ~RandomNum(8,5)~ + @2514 + XAFEHand5
++ ~RandomNum(8,6)~ + @2514 + XAFEHand6
++ ~RandomNum(8,7)~ + @2514 + XAFEHand7
++ ~RandomNum(8,8)~ + @2514 + XAFEHand8
 
-+ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2515 + XAFECheerPaladin
-+ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2515 + XAFECheer1
-+ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2515 + XAFECheer2
-+ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2515 + XAFECheer3
++ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,4)~ + @2515 + XAFECheerPaladin
++ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,1)~ + @2515 + XAFECheer1
++ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,2)~ + @2515 + XAFECheer2
++ ~Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,3)~ + @2515 + XAFECheer3
 
-+ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2515 + XAFECheerMage
-+ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2515 + XAFECheer1
-+ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2515 + XAFECheer2
-+ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2515 + XAFECheer3
++ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,4)~ + @2515 + XAFECheerMage
++ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,1)~ + @2515 + XAFECheer1
++ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,2)~ + @2515 + XAFECheer2
++ ~!Class(Player1,PALADIN_ALL) Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) RandomNum(4,3)~ + @2515 + XAFECheer3
 
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2515 + XAFECheerBard
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2515 + XAFECheer1
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2515 + XAFECheer2
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2515 + XAFECheer3
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) RandomNum(4,4)~ + @2515 + XAFECheerBard
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) RandomNum(4,1)~ + @2515 + XAFECheer1
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) RandomNum(4,2)~ + @2515 + XAFECheer2
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) Class(Player1,BARD_ALL) RandomNum(4,3)~ + @2515 + XAFECheer3
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2516 + XAFESide1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2516 + XAFESide2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2516 + XAFESide3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2516 + XAFESide4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2516 + XAFESide5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2516 + XAFESide6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2516 + XAFESide7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2516 + XAFESide8
++ ~RandomNum(8,1)~ + @2516 + XAFESide1
++ ~RandomNum(8,2)~ + @2516 + XAFESide2
++ ~RandomNum(8,3)~ + @2516 + XAFESide3
++ ~RandomNum(8,4)~ + @2516 + XAFESide4
++ ~RandomNum(8,5)~ + @2516 + XAFESide5
++ ~RandomNum(8,6)~ + @2516 + XAFESide6
++ ~RandomNum(8,7)~ + @2516 + XAFESide7
++ ~RandomNum(8,8)~ + @2516 + XAFESide8
 
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,1)~ + @2517 + XAFEKiss1
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,2)~ + @2517 + XAFEKiss2
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,3)~ + @2517 + XAFEKiss3
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,4)~ + @2517 + XAFEKiss5
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,5)~ + @2517 + XAFEKiss6
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) RandomNum(5,1)~ + @2517 + XAFEKiss1
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) RandomNum(5,2)~ + @2517 + XAFEKiss2
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) RandomNum(5,3)~ + @2517 + XAFEKiss3
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) RandomNum(5,4)~ + @2517 + XAFEKiss5
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) !CheckStatGT(Player1,18,CHR) RandomNum(5,5)~ + @2517 + XAFEKiss6
 
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(6,1)~ + @2517 + XAFEKiss1
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(6,2)~ + @2517 + XAFEKiss2
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(6,3)~ + @2517 + XAFEKiss3
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(6,4)~ + @2517 + XAFEKiss4
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(6,5)~ + @2517 + XAFEKiss5
-+ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(6,6)~ + @2517 + XAFEKiss6
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) RandomNum(6,1)~ + @2517 + XAFEKiss1
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) RandomNum(6,2)~ + @2517 + XAFEKiss2
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) RandomNum(6,3)~ + @2517 + XAFEKiss3
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) RandomNum(6,4)~ + @2517 + XAFEKiss4
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) RandomNum(6,5)~ + @2517 + XAFEKiss5
++ ~!Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) CheckStatGT(Player1,18,CHR) RandomNum(6,6)~ + @2517 + XAFEKiss6
 
-+ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2517 + XAFEKiss1
-+ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2517 + XAFEKiss2
-+ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2517 + XAFEKiss3
-+ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2517 + XAFEKissCoran
++ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") RandomNum(4,1)~ + @2517 + XAFEKiss1
++ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") RandomNum(4,2)~ + @2517 + XAFEKiss2
++ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") RandomNum(4,3)~ + @2517 + XAFEKiss3
++ ~Global("P#CoranMatch","GLOBAL",1) !Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") RandomNum(4,4)~ + @2517 + XAFEKissCoran
 
-+ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2517 + XAFEKiss1
-+ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2517 + XAFEKiss2
-+ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2517 + XAFEKiss3
-+ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2517 + XAFEKissAjantis
++ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") RandomNum(4,1)~ + @2517 + XAFEKiss1
++ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") RandomNum(4,2)~ + @2517 + XAFEKiss2
++ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") RandomNum(4,3)~ + @2517 + XAFEKiss3
++ ~!Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("ajantis") RandomNum(4,4)~ + @2517 + XAFEKissAjantis
 
-+ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,1)~ + @2517 + XAFEKiss1
-+ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,2)~ + @2517 + XAFEKiss2
-+ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,3)~ + @2517 + XAFEKiss3
-+ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,4)~ + @2517 + XAFEKissCoran
-+ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(5,5)~ + @2517 + XAFEKissAjantis
++ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") RandomNum(5,1)~ + @2517 + XAFEKiss1
++ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") RandomNum(5,2)~ + @2517 + XAFEKiss2
++ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") RandomNum(5,3)~ + @2517 + XAFEKiss3
++ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") RandomNum(5,4)~ + @2517 + XAFEKissCoran
++ ~Global("P#CoranMatch","GLOBAL",1) Global("X#AjantisRomanceActive","GLOBAL",1) InParty("coran") InParty("ajantis") RandomNum(5,5)~ + @2517 + XAFEKissAjantis
 
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2518 + XAFEHug1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2518 + XAFEHug2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2518 + XAFEHug3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2518 + XAFEHug4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2518 + XAFEHug5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2518 + XAFEHug6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2518 + XAFEHug7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2518 + XAFEHug8
++ ~RandomNum(8,1)~ + @2518 + XAFEHug1
++ ~RandomNum(8,2)~ + @2518 + XAFEHug2
++ ~RandomNum(8,3)~ + @2518 + XAFEHug3
++ ~RandomNum(8,4)~ + @2518 + XAFEHug4
++ ~RandomNum(8,5)~ + @2518 + XAFEHug5
++ ~RandomNum(8,6)~ + @2518 + XAFEHug6
++ ~RandomNum(8,7)~ + @2518 + XAFEHug7
++ ~RandomNum(8,8)~ + @2518 + XAFEHug8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2519 + XAFEWaist1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2519 + XAFEWaist2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2519 + XAFEWaist3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2519 + XAFEWaist4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2519 + XAFEWaist5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2519 + XAFEWaist6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2519 + XAFEWaist7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2519 + XAFEWaist8
++ ~RandomNum(8,1)~ + @2519 + XAFEWaist1
++ ~RandomNum(8,2)~ + @2519 + XAFEWaist2
++ ~RandomNum(8,3)~ + @2519 + XAFEWaist3
++ ~RandomNum(8,4)~ + @2519 + XAFEWaist4
++ ~RandomNum(8,5)~ + @2519 + XAFEWaist5
++ ~RandomNum(8,6)~ + @2519 + XAFEWaist6
++ ~RandomNum(8,7)~ + @2519 + XAFEWaist7
++ ~RandomNum(8,8)~ + @2519 + XAFEWaist8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2520 + XAFECare1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2520 + XAFECare2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2520 + XAFECare3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2520 + XAFECare4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2520 + XAFECare5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2520 + XAFECare6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2520 + XAFECare7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2520 + XAFECare8
++ ~RandomNum(8,1)~ + @2520 + XAFECare1
++ ~RandomNum(8,2)~ + @2520 + XAFECare2
++ ~RandomNum(8,3)~ + @2520 + XAFECare3
++ ~RandomNum(8,4)~ + @2520 + XAFECare4
++ ~RandomNum(8,5)~ + @2520 + XAFECare5
++ ~RandomNum(8,6)~ + @2520 + XAFECare6
++ ~RandomNum(8,7)~ + @2520 + XAFECare7
++ ~RandomNum(8,8)~ + @2520 + XAFECare8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2521 + XAFEWho1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2521 + XAFEWho2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2521 + XAFEWho3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2521 + XAFEWho4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2521 + XAFEWho5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2521 + XAFEWho6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2521 + XAFEWho7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2521 + XAFEWho8
++ ~RandomNum(8,1)~ + @2521 + XAFEWho1
++ ~RandomNum(8,2)~ + @2521 + XAFEWho2
++ ~RandomNum(8,3)~ + @2521 + XAFEWho3
++ ~RandomNum(8,4)~ + @2521 + XAFEWho4
++ ~RandomNum(8,5)~ + @2521 + XAFEWho5
++ ~RandomNum(8,6)~ + @2521 + XAFEWho6
++ ~RandomNum(8,7)~ + @2521 + XAFEWho7
++ ~RandomNum(8,8)~ + @2521 + XAFEWho8
 
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2515 + XAFECheerEldoth
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2515 + XAFECheer1
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2515 + XAFECheer2
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2515 + XAFECheer3
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") RandomNum(4,4)~ + @2515 + XAFECheerEldoth
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") RandomNum(4,1)~ + @2515 + XAFECheer1
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") RandomNum(4,2)~ + @2515 + XAFECheer2
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("eldoth") RandomNum(4,3)~ + @2515 + XAFECheer3
 
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,4)~ + @2515 + XAFECheerAjantis
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,1)~ + @2515 + XAFECheer1
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,2)~ + @2515 + XAFECheer2
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(4,3)~ + @2515 + XAFECheer3
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") RandomNum(4,4)~ + @2515 + XAFECheerAjantis
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") RandomNum(4,1)~ + @2515 + XAFECheer1
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") RandomNum(4,2)~ + @2515 + XAFECheer2
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) InParty("ajantis") RandomNum(4,3)~ + @2515 + XAFECheer3
 
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) !InParty("eldoth") !InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(3,1)~ + @2515 + XAFECheer1
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) !InParty("eldoth") !InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(3,2)~ + @2515 + XAFECheer2
-+ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) !InParty("eldoth") !InParty("ajantis") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(3,3)~ + @2515 + XAFECheer3
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) !InParty("eldoth") !InParty("ajantis") RandomNum(3,1)~ + @2515 + XAFECheer1
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) !InParty("eldoth") !InParty("ajantis") RandomNum(3,2)~ + @2515 + XAFECheer2
++ ~!Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL) !Class(Player1,BARD_ALL) !InParty("eldoth") !InParty("ajantis") RandomNum(3,3)~ + @2515 + XAFECheer3
 
 + ~GlobalLT("X#XALoveTalk","GLOBAL",26)~ + @2522 + XAFEFriends
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0)~ + @2523 DO ~SetGlobal("X#DisableXaFlirts","GLOBAL",1)~ EXIT
+//+ ~Global("X#DisableXaFlirts","GLOBAL",0)~ + @2523 DO ~SetGlobal("X#DisableXaFlirts","GLOBAL",1)~ EXIT
 
 ++ @2524 EXIT
 
@@ -10078,123 +10080,123 @@ END
 IF ~IsGabber(Player1) %BGT_VAR% !Global("X#XaRomanceInactive","GLOBAL",1) OR(2) Global("X#XaRomanceActive","GLOBAL",1) Global("X#XaRomanceActive","GLOBAL",2) GlobalGT("X#XALoveTalk","GLOBAL",29)~ THEN BEGIN XAFlirtLate
 SAY @2662
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2663 + XAFLSmile1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2663 + XAFLSmile2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2663 + XAFLSmile3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2663 + XAFLSmile4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2663 + XAFLSmile5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2663 + XAFLSmile6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2663 + XAFLSmile7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2663 + XAFLSmile8
++ ~RandomNum(8,1)~ + @2663 + XAFLSmile1
++ ~RandomNum(8,2)~ + @2663 + XAFLSmile2
++ ~RandomNum(8,3)~ + @2663 + XAFLSmile3
++ ~RandomNum(8,4)~ + @2663 + XAFLSmile4
++ ~RandomNum(8,5)~ + @2663 + XAFLSmile5
++ ~RandomNum(8,6)~ + @2663 + XAFLSmile6
++ ~RandomNum(8,7)~ + @2663 + XAFLSmile7
++ ~RandomNum(8,8)~ + @2663 + XAFLSmile8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2517 + XAFLKiss1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2517 + XAFLKiss2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2517 + XAFLKiss3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2517 + XAFLKiss4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2517 + XAFLKiss5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2517 + XAFLKiss6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2517 + XAFLKiss7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2517 + XAFLKiss8
++ ~RandomNum(8,1)~ + @2517 + XAFLKiss1
++ ~RandomNum(8,2)~ + @2517 + XAFLKiss2
++ ~RandomNum(8,3)~ + @2517 + XAFLKiss3
++ ~RandomNum(8,4)~ + @2517 + XAFLKiss4
++ ~RandomNum(8,5)~ + @2517 + XAFLKiss5
++ ~RandomNum(8,6)~ + @2517 + XAFLKiss6
++ ~RandomNum(8,7)~ + @2517 + XAFLKiss7
++ ~RandomNum(8,8)~ + @2517 + XAFLKiss8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2664 + XAFEEmbrace1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2664 + XAFEEmbrace2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2664 + XAFEEmbrace3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2664 + XAFEEmbrace4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2664 + XAFEEmbrace5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2664 + XAFEEmbrace6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2664 + XAFEEmbrace7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2664 + XAFEEmbrace8
++ ~RandomNum(8,1)~ + @2664 + XAFEEmbrace1
++ ~RandomNum(8,2)~ + @2664 + XAFEEmbrace2
++ ~RandomNum(8,3)~ + @2664 + XAFEEmbrace3
++ ~RandomNum(8,4)~ + @2664 + XAFEEmbrace4
++ ~RandomNum(8,5)~ + @2664 + XAFEEmbrace5
++ ~RandomNum(8,6)~ + @2664 + XAFEEmbrace6
++ ~RandomNum(8,7)~ + @2664 + XAFEEmbrace7
++ ~RandomNum(8,8)~ + @2664 + XAFEEmbrace8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2665 + XAFETrob1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2665 + XAFETrob2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2665 + XAFETrob3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2665 + XAFETrob4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2665 + XAFETrob5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2665 + XAFETrob6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2665 + XAFETrob7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2665 + XAFETrob8
++ ~RandomNum(8,1)~ + @2665 + XAFETrob1
++ ~RandomNum(8,2)~ + @2665 + XAFETrob2
++ ~RandomNum(8,3)~ + @2665 + XAFETrob3
++ ~RandomNum(8,4)~ + @2665 + XAFETrob4
++ ~RandomNum(8,5)~ + @2665 + XAFETrob5
++ ~RandomNum(8,6)~ + @2665 + XAFETrob6
++ ~RandomNum(8,7)~ + @2665 + XAFETrob7
++ ~RandomNum(8,8)~ + @2665 + XAFETrob8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2666 + XAFEWond1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2666 + XAFEWond2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2666 + XAFEWond3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2666 + XAFEWond4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2666 + XAFEWond5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2666 + XAFEWond6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2666 + XAFEWond7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2666 + XAFEWond8
++ ~RandomNum(8,1)~ + @2666 + XAFEWond1
++ ~RandomNum(8,2)~ + @2666 + XAFEWond2
++ ~RandomNum(8,3)~ + @2666 + XAFEWond3
++ ~RandomNum(8,4)~ + @2666 + XAFEWond4
++ ~RandomNum(8,5)~ + @2666 + XAFEWond5
++ ~RandomNum(8,6)~ + @2666 + XAFEWond6
++ ~RandomNum(8,7)~ + @2666 + XAFEWond7
++ ~RandomNum(8,8)~ + @2666 + XAFEWond8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2667 + XAFEMeet1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2667 + XAFEMeet2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2667 + XAFEMeet3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2667 + XAFEMeet4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2667 + XAFEMeet5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2667 + XAFEMeet6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2667 + XAFEMeet7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2667 + XAFEMeet8
++ ~RandomNum(8,1)~ + @2667 + XAFEMeet1
++ ~RandomNum(8,2)~ + @2667 + XAFEMeet2
++ ~RandomNum(8,3)~ + @2667 + XAFEMeet3
++ ~RandomNum(8,4)~ + @2667 + XAFEMeet4
++ ~RandomNum(8,5)~ + @2667 + XAFEMeet5
++ ~RandomNum(8,6)~ + @2667 + XAFEMeet6
++ ~RandomNum(8,7)~ + @2667 + XAFEMeet7
++ ~RandomNum(8,8)~ + @2667 + XAFEMeet8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2668 + XAFESigh1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2668 + XAFESigh2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2668 + XAFESigh3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2668 + XAFESigh4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2668 + XAFESigh5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2668 + XAFESigh6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2668 + XAFESigh7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2668 + XAFESigh8
++ ~RandomNum(8,1)~ + @2668 + XAFESigh1
++ ~RandomNum(8,2)~ + @2668 + XAFESigh2
++ ~RandomNum(8,3)~ + @2668 + XAFESigh3
++ ~RandomNum(8,4)~ + @2668 + XAFESigh4
++ ~RandomNum(8,5)~ + @2668 + XAFESigh5
++ ~RandomNum(8,6)~ + @2668 + XAFESigh6
++ ~RandomNum(8,7)~ + @2668 + XAFESigh7
++ ~RandomNum(8,8)~ + @2668 + XAFESigh8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2669 + XAFEShou1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2669 + XAFEShou2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2669 + XAFEShou3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2669 + XAFEShou4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2669 + XAFEShou9
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2669 + XAFEShou10
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2669 + XAFEShou11
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2669 + XAFEShou12
++ ~RandomNum(8,1)~ + @2669 + XAFEShou1
++ ~RandomNum(8,2)~ + @2669 + XAFEShou2
++ ~RandomNum(8,3)~ + @2669 + XAFEShou3
++ ~RandomNum(8,4)~ + @2669 + XAFEShou4
++ ~RandomNum(8,5)~ + @2669 + XAFEShou9
++ ~RandomNum(8,6)~ + @2669 + XAFEShou10
++ ~RandomNum(8,7)~ + @2669 + XAFEShou11
++ ~RandomNum(8,8)~ + @2669 + XAFEShou12
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2670 + XAFEShou5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2670 + XAFEShou6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2670 + XAFEShou7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2670 + XAFEShou8
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2670 + XAFEShou13
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2670 + XAFEShou14
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2670 + XAFEShou15
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2670 + XAFEShou16
++ ~RandomNum(8,1)~ + @2670 + XAFEShou5
++ ~RandomNum(8,2)~ + @2670 + XAFEShou6
++ ~RandomNum(8,3)~ + @2670 + XAFEShou7
++ ~RandomNum(8,4)~ + @2670 + XAFEShou8
++ ~RandomNum(8,5)~ + @2670 + XAFEShou13
++ ~RandomNum(8,6)~ + @2670 + XAFEShou14
++ ~RandomNum(8,7)~ + @2670 + XAFEShou15
++ ~RandomNum(8,8)~ + @2670 + XAFEShou16
 
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,1)~ + @2671 + XAFEView1
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,2)~ + @2671 + XAFEView2
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,3)~ + @2671 + XAFEView3
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,4)~ + @2671 + XAFEView4
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,5)~ + @2671 + XAFEView5
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,6)~ + @2671 + XAFEView6
-+ ~OR(2) !InParty("coran") Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(7,7)~ + @2671 + XAFEView7
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,1)~ + @2671 + XAFEView1
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,2)~ + @2671 + XAFEView2
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,3)~ + @2671 + XAFEView3
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,4)~ + @2671 + XAFEView4
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,5)~ + @2671 + XAFEView5
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,6)~ + @2671 + XAFEView6
++ ~OR(2) !InParty("coran") Dead("coran") RandomNum(7,7)~ + @2671 + XAFEView7
 
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2671 + XAFEView1
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2671 + XAFEView2
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2671 + XAFEView3
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2671 + XAFEView4
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2671 + XAFEView5
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2671 + XAFEView6
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2671 + XAFEView7
-+ ~InParty("coran") !Dead("coran") Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2671 + XAFEView8
++ ~InParty("coran") !Dead("coran") RandomNum(8,1)~ + @2671 + XAFEView1
++ ~InParty("coran") !Dead("coran") RandomNum(8,2)~ + @2671 + XAFEView2
++ ~InParty("coran") !Dead("coran") RandomNum(8,3)~ + @2671 + XAFEView3
++ ~InParty("coran") !Dead("coran") RandomNum(8,4)~ + @2671 + XAFEView4
++ ~InParty("coran") !Dead("coran") RandomNum(8,5)~ + @2671 + XAFEView5
++ ~InParty("coran") !Dead("coran") RandomNum(8,6)~ + @2671 + XAFEView6
++ ~InParty("coran") !Dead("coran") RandomNum(8,7)~ + @2671 + XAFEView7
++ ~InParty("coran") !Dead("coran") RandomNum(8,8)~ + @2671 + XAFEView8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2672 + XAFEHair1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2672 + XAFEHair2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2672 + XAFEHair3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2672 + XAFEHair4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2672 + XAFEHair5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2672 + XAFEHair6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2672 + XAFEHair7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2672 + XAFEHair8
++ ~RandomNum(8,1)~ + @2672 + XAFEHair1
++ ~RandomNum(8,2)~ + @2672 + XAFEHair2
++ ~RandomNum(8,3)~ + @2672 + XAFEHair3
++ ~RandomNum(8,4)~ + @2672 + XAFEHair4
++ ~RandomNum(8,5)~ + @2672 + XAFEHair5
++ ~RandomNum(8,6)~ + @2672 + XAFEHair6
++ ~RandomNum(8,7)~ + @2672 + XAFEHair7
++ ~RandomNum(8,8)~ + @2672 + XAFEHair8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,1)~ + @2673 + XAFELove1
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,2)~ + @2673 + XAFELove2
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,3)~ + @2673 + XAFELove3
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,4)~ + @2673 + XAFELove4
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,5)~ + @2673 + XAFELove5
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,6)~ + @2673 + XAFELove6
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,7)~ + @2673 + XAFELove7
-+ ~Global("X#DisableXaFlirts","GLOBAL",0) RandomNum(8,8)~ + @2673 + XAFELove8
++ ~RandomNum(8,1)~ + @2673 + XAFELove1
++ ~RandomNum(8,2)~ + @2673 + XAFELove2
++ ~RandomNum(8,3)~ + @2673 + XAFELove3
++ ~RandomNum(8,4)~ + @2673 + XAFELove4
++ ~RandomNum(8,5)~ + @2673 + XAFELove5
++ ~RandomNum(8,6)~ + @2673 + XAFELove6
++ ~RandomNum(8,7)~ + @2673 + XAFELove7
++ ~RandomNum(8,8)~ + @2673 + XAFELove8
 
-+ ~Global("X#DisableXaFlirts","GLOBAL",0)~ + @2523 DO ~SetGlobal("X#DisableXaFlirts","GLOBAL",1)~ EXIT
+//+ ~Global("X#DisableXaFlirts","GLOBAL",0)~ + @2523 DO ~SetGlobal("X#DisableXaFlirts","GLOBAL",1)~ EXIT
 
 ++ @2524 EXIT
 
@@ -12340,7 +12342,8 @@ SAY @3173
 + ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,2) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly2
 + ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,3) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly3
 + ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1) RandomNum(4,4) GlobalLT("P#CoranLover","GLOBAL",1)~ + @3197 + CoHandEarly4
-+ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3198 DO ~SetGlobal("P#CoranDisableFlirts","GLOBAL",1)~ EXIT
++ ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)
+Global("P#CoranDisableFlirts","GLOBAL",0)~ + @3198 DO ~SetGlobal("P#CoranDisableFlirts","GLOBAL",1)~ EXIT
 + ~GlobalGT("P#CFriendTalk","GLOBAL",4) !Global("P#CoranRomanceInactive","GLOBAL",1)~ + @3199 EXIT
 
 + ~!GlobalGT("P#CFriendTalk","GLOBAL",4) Global("P#CoranLover","GLOBAL",0) Gender(Player1,FEMALE) RandomNum(4,1)~ + @3077 + X#COMaiden5
