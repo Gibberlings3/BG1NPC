@@ -3697,7 +3697,7 @@ DO ~SetGlobal("X#XAALRE1","LOCALS",1)~
 == ~%ALORA_BANTER%~ @1195
 = @1196
 == ~%XAN_BANTER%~ @1197
-== ~%XAN_BANTER%~ @1198
+== ~%ALORA_BANTER%~ @1198
 == ~%ALORA_BANTER%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1199
 == ~%ALORA_BANTER%~ IF ~InParty("jaheira") !InParty("%IMOEN_DV%")~ THEN @1200
 == ~%ALORA_BANTER%~ IF ~!InParty("jaheira") !InParty("%IMOEN_DV%")~ THEN @1201

@@ -1,7 +1,7 @@
 @0    = ~Salute, viaggiatori. Quell'elfo col mantello corrisponde alla descrizione che mi è stata data. Sei Kivan di Shilmista?~
 @1    = ~Palla di Neve, a cuccia! Sveltartiglio, ti DISPIACE!?
-Timore, lascia in pace quel <RACE>!
-Bimba, ferma qui, brava ragazza... Zanna, smettila di sbavargli sopra. 
+Timore, lascia in pace quel <PRO_RACE>!
+Bimba, ferma qui, brava ragazza... Zanna, smettila di sbavargli sopra - 
 <PRO_HESHE> non è la nostra preda.~
 @2    = ~Quindi, a quanto pare sai uccidere. Molto bene.~
 @3    = ~Ti unirai al mio gruppo, Imanel?~
