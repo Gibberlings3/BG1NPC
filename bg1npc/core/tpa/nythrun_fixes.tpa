@@ -355,7 +355,7 @@
 					ADD_MEMORIZED_SPELL ~spwi217~ #1 ~wizard~ // Agannazar's Scorcher
 					ADD_MEMORIZED_SPELL ~spwi303~ #2 ~wizard~ (2) // Flame Arrow
 					ADD_MEMORIZED_SPELL ~spwi304~ #2 ~wizard~ // Fireball
-					ADD_MEMORIZED_SPELL ~spwi401~ #2 ~wizard~ (2) // Confusion
+					ADD_MEMORIZED_SPELL ~spwi401~ #3 ~wizard~ (2) // Confusion
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%dushai.cre~) BEGIN // Dushai (in Ulgoth's Beard)
 					WRITE_LONG 0x14 2001 // XP Value (was 11)
