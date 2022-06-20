@@ -443,6 +443,40 @@ LABEL bg1npc_project-romancechallenge
 
 /* BG1NPC Tweaks*/
 
+
+/* NPCs Wait at Inn */
+BEGIN @1064  DESIGNATED 90 /* The BG1 NPC Project: NPCs can be sent to wait in an inn. */
+LABEL bg1npc_project-send_npcs_inn
+  GROUP @1065 /* The BG1 NPC Project: Tweaks */
+  REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgee eet~) @1095 /* Incompatible with BGT: please use the equivalent component in SwordCoastStrategems for BGT */
+  REQUIRE_COMPONENT ~bg1npc/bg1npc.tp2~ 0 @1004
+//  REQUIRE_FILE ~override/X#BG1NPCCore.G3~ @1004 /* BG1 NPC Required Changes component is not installed. */
+    COPY ~bg1npc/Core/X#component.xx~ ~override/X#WaitAtInn.G3~
+
+  /* makes sure PIDs go last */
+  UNINSTALL ~bg1npc.tp2~ 200
+
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN  /* BGEE */
+    INCLUDE ~bg1npc/phase3/wait/lib/bgee_wait_areas.tpa~
+	COMPILE EVALUATE_BUFFER ~bg1npc/phase3/wait/dlg/x#npcwait_ee.d~
+      USING ~bg1npc/tra/%LANGUAGE%/x#npcwait.tra~  
+  END ELSE BEGIN  /* Tutu */
+    /* dialog Tutu Only */
+    COMPILE ~bg1npc/Phase3/WAIT/dlg/X#NPCWAIT.D~
+      USING ~bg1npc/TRA/%LANGUAGE%/X#NPCWAIT.TRA~
+
+    /* scripts Tutu Only */
+    COPY_EXISTING ~_AR2301.bcs~ ~override~
+      DECOMPILE_AND_PATCH BEGIN
+      	REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",2)~ ~GlobalGT("Chapter","GLOBAL",2) GlobalLT("X#Kh_Jae","GLOBAL",1)~
+      END
+    BUT_ONLY_IF_IT_CHANGES
+
+    EXTEND_BOTTOM ~_JAHEIRA.bcs~   ~bg1npc/Phase3/wait/baf/_jaheira_bot.baf~
+    EXTEND_BOTTOM ~_KHALID.bcs~   ~bg1npc/Phase3/wait/baf/_khalid_bot.baf~
+  END
+
+
 /* Jason Compton's Accelerated Banter Script "bantergoose" */
 BEGIN @1088 DESIGNATED 100 /* Jason Compton's Accelerated Banter Script. */
 LABEL bg1npc_project-banteraccelerator
