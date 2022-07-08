@@ -309,9 +309,9 @@ END
 //END
 
 /* Edwin not joined */
-//I_C_T ~%tutu_var%EDWIN~ %BGTEDWINState8% X#AjantisEdwin
+//I_C_T ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState8% X#AjantisEdwin
 //== ~%AJANTIS_JOINED%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @56 
-//== ~%tutu_var%EDWIN~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1015 
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("ajantis") InMyArea("ajantis") !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN @1015 
 //END
 
 /* Ardrouine (looks for her son threatend by Worgs) */

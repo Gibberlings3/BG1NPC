@@ -64,7 +64,7 @@ END
 //END
 
 /* Edwin */
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState8% X#SharEdwinJoin
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState8% X#SharEdwinJoin
 //== ~%SHARTEEL_JOINED%~ IF ~InParty("sharteel") InMyArea("sharteel") !StateCheck("sharteel",CD_STATE_NOTVALID)~ THEN @16
 //END
 

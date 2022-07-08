@@ -201,13 +201,13 @@ I_C_T ~%tutu_var%BRATHL~ 2 X#GarBrath2
 == ~%tutu_var%BRATHL~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @1005 
 END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState0% X#GarEdJ1
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState0% X#GarEdJ1
 //== ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @70 END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState1% X#GarEdJ2
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState1% X#GarEdJ2
 //== ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @71 END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState2% X#GarEdJ3
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState2% X#GarEdJ3
 //== ~%GARRICK_JOINED%~ IF ~InParty("garrick") InMyArea("garrick") !StateCheck("garrick",CD_STATE_NOTVALID)~ THEN @71 END
 
 //I_C_T2 ~%tutu_var%ELDOTH~ 5 X#GarEldJ
