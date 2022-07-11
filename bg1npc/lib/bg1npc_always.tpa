@@ -90,3 +90,10 @@ END
 INCLUDE ~bg1npc/lib/extra_regexp_vars.tpa~   /* allows us to regexp match tabs and newlines */
 OUTER_SPRINT "whitespace" "[%tab% %lnl%%mnl%%wnl%]+" /* Defines regexp whitespaces */
 INCLUDE ~bg1npc/lib/bg1npc_project_macros.tpa~   /* adds macros callable by each component */
+
+/* prep function to be able to catch journal entries so they can be deleted (needed for BGT where the string numbers can vary from install to install). */
+
+INCLUDE ~bg1npc/lib/func_fetch_journal_entries.tph~
+
+/* read in extra 2 for different string numbers eetc/bg:ee */
+OUTER_SET eet_200000 = GAME_IS ~eet~ ? 200000 : 0

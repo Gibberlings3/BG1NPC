@@ -213,52 +213,52 @@ END
 //== ~%tutu_var%DYNAHE~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID) InParty("khalid") InMyArea("khalid") !StateCheck("khalid",CD_STATE_NOTVALID)~ THEN @87
 //END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState0% X#MinscEdwinDyna2
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState0% X#MinscEdwinDyna2
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @88
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @89
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @89
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @90
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @91
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @91
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @92
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @93
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @93
 //END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState1% X#MinscEdwinDyna2a
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState1% X#MinscEdwinDyna2a
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @88
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @89
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @89
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @90
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @91
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @91
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @92
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @93
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @93
 //END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState2% X#MinscEdwinDyna2b
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState2% X#MinscEdwinDyna2b
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @88
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @89
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @89
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @90
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @91
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @91
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @92
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @93
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @93
 //END
 
-I_C_T ~%tutu_var%EDWIN~ %BGTEDWINState7% X#MinscEdwinDyna3
+I_C_T ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState7% X#MinscEdwinDyna3
 == ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @94
-== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
+== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
 END
 
-I_C_T ~%tutu_var%EDWIN~ %BGTEDWINState6% X#MinscEdwinDyna4
+I_C_T ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState6% X#MinscEdwinDyna4
 == ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @94
-== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
+== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
 END
 
-I_C_T ~%tutu_var%EDWIN~ %BGTEDWINState5% X#MinscEdwinDyna5
+I_C_T ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState5% X#MinscEdwinDyna5
 == ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @94
-== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
+== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
 END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState8% X#MinscEdwinDyna6
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState8% X#MinscEdwinDyna6
 //== ~%MINSC_JOINED%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @96
 //DO ~SetGlobal("X#MinscProtestsEdwin","GLOBAL",1)~
-//== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @95
 //END
 
 INTERJECT ~%tutu_var%ELMIN5~ 9 X#MinscBoo

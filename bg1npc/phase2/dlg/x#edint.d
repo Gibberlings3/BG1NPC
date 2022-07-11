@@ -1,8 +1,8 @@
-EXTEND_BOTTOM ~%tutu_var%EDWIN~ %BGTEDWINState3%
+EXTEND_BOTTOM ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState3%
 IF ~~ THEN REPLY @0 + X#EdwinJoinsAlone
 END
 
-EXTEND_BOTTOM ~%tutu_var%EDWIN~ %BGTEDWINState4%
+EXTEND_BOTTOM ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState4%
 IF ~~ THEN REPLY @0 + X#EdwinJoinsAlone
 END
 
@@ -40,10 +40,10 @@ CHAIN ~%EDWIN_JOINED%~ EDWINFOOLSHAIR
 == ~%tutu_var%HAIRTO~ @9
 END ~%tutu_var%HAIRTO~ 5
 
-CHAIN ~%tutu_var%EDWIN~ X#EdwinJoinsAlone
+CHAIN ~%tutu_var%EDWIN%eet_var%~ X#EdwinJoinsAlone
 @10
 == ~%MINSC_BANTER%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @11
-== ~%tutu_var%EDWIN~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @12
+== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("minsc") InMyArea("minsc") !StateCheck("minsc",CD_STATE_NOTVALID)~ THEN @12
 END
 IF ~~ THEN DO ~SetGlobal("X#MinscProtestsEdwin","GLOBAL",1) ActionOverride("edwin",JoinParty())~ JOURNAL @13 EXIT
 

@@ -1,0 +1,64 @@
+/* argent77's function for fetching journal strrefs. With many thanks! */
+
+/* To be used later in the form:
+
+COPY_EXISTING ~husam.dlg~ ~override~
+  // get journal entry from first response associated with dialogue state 6
+  LPF READ_JOURNAL_STRREF
+  INT_VAR
+    state = 6
+//    stateResponse = 1 //As an example: This would be reply option #2 from top
+  RET
+    strref
+END
+
+    SET myUniqueVar = strref //adapt "myUniqueVar" as necessary
+
+  // just for debugging purposes: fetch journal text from strref and output it in console
+  GET_STRREF strref journalText
+  PATCH_PRINT ~Journal entry #%strref%: %journalText%~
+BUT_ONLY
+
+*/
+
+DEFINE_PATCH_FUNCTION READ_JOURNAL_STRREF
+INT_VAR
+  // either use these two parameters if response index should be determined from a state index
+  state         = "-1"  // state index
+  stateResponse = 0     // relative response index (e.g. 0 for first response associated with the state, 1 for second response, and so on...)
+
+  // or use this parameter instead to specify response index directly
+  response      = "-1"  // (absolute) response index
+
+RET
+  strref    // returned string reference, or -1 if not available
+BEGIN
+  SET strref = "-1"
+
+  // determine response index from dialogue state if specified
+  PATCH_IF (state >= 0) BEGIN
+    READ_LONG 0x08 numStates
+    PATCH_IF (state < numStates) BEGIN
+      READ_LONG 0x0c ofsStates
+      SET ofs = ofsStates + (state * 0x10)  // calculate offset to specified state
+      READ_LONG (ofs + 4) firstResponse
+      READ_LONG (ofs + 8) numStateResponses
+      PATCH_IF (stateResponse >= 0 && stateResponse < numStateResponses) BEGIN
+        SET response = firstResponse + stateResponse  // calculate absolute response index (processed below)
+      END
+    END
+  END
+
+  // deal with dialogue response index directly
+  PATCH_IF (response >= 0) BEGIN
+    READ_LONG 0x10 numResponses
+    PATCH_IF (response < numResponses) BEGIN
+      READ_LONG 0x14 ofsResponses
+      SET ofs = ofsResponses + (response * 0x20)
+      READ_LONG ofs flags
+      PATCH_IF (flags & BIT4) BEGIN   // response flags bit 4 indicates available journal entry
+        READ_LONG (ofs + 8) strref
+      END
+    END
+  END
+END

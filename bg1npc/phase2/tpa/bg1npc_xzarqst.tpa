@@ -319,16 +319,37 @@ EXTEND_BOTTOM ~%ValleyoftheTombs_Tomb_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW5001.BAF~
   EVALUATE_BUFFER
 
 /* Add journal entries for BGEE */
-ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
+<<<<<<<< .../inlined/journal_31313.tph
+>>>>>>>>
+OUTER_SET strref_journal_31313 = eet_200000 + 31313
+APPEND_OUTER - ~.../inlined/journal_31313.tph~ "/* journal entries */
+ADD_JOURNAL EXISTING TITLE (#%strref_journal_31313%) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~"
 
-/* dialogues */
+/* journal entry DRYAD.dlg state 3 /* ~Dryad of the Cloud Peaks
+While traveling the Cloud Peaks I met a dryad. She asked that I help protect her tree. How could I refuse such a request?~ */
+Needed for Xzar's dryad interference:
+*/
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
 END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
     OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(227005)~
 END ELSE BEGIN
-    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
+COPY_EXISTING ~%tutu_var%dryad.dlg~ ~override~
+	LPF ~READ_JOURNAL_STRREF~
+		INT_VAR
+		state         = 3  // state index
+//		stateResponse = 0     // relative response index (e.g. 0 for first response associated with the state, 1 for second response, and so on...)
+		RET
+		strref    // returned string reference, or -1 if not available
+	END
+	SET unsolved_strref_dryad_3 = strref
+  // just for debugging purposes: fetch journal text from strref and output it in console
+  GET_STRREF unsolved_strref_dryad_3 journalText
+  PATCH_PRINT ~Journal entry #%unsolved_strref_dryad_3%: %journalText%~
+BUT_ONLY
+    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(%unsolved_strref_dryad_3%)~
 END
+/* dialogues */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XZQU.D~
 
 /* scripts */

@@ -264,11 +264,11 @@ I_C_T ~%tutu_var%CHARLE~ 0 X#KAWTFTS
  == ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @79
 END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState0% X#KivanEdwin1
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState0% X#KivanEdwin1
 //== ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @80
 //END
 
-//I_C_T2 ~%tutu_var%EDWIN~ %BGTEDWINState1% X#KivanEdwin2
+//I_C_T2 ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState1% X#KivanEdwin2
 //== ~%KIVAN_JOINED%~ IF ~InParty("kivan") InMyArea("kivan") !StateCheck("kivan",CD_STATE_NOTVALID)~ THEN @80
 //END
 

@@ -55,19 +55,6 @@ COPY ~bg1npc/phase2/cre/x#beador.cre~ ~override~
   SAY SELECT_COMMON1 @344
   SAY SELECT_COMMON2 @345
 
-COPY ~bg1npc/phase2/cre/x#beado1.cre~ ~override~
-  SAY NAME1 @364
-  SAY NAME2 @364
-  LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY INITIAL_MEETING @341
-  SAY BATTLE_CRY1 @341
-  SAY ATTACK1 @341
-  SAY ATTACK2 @341
-  SAY DAMAGE @342
-  SAY DYING @343
-  SAY SELECT_COMMON1 @344
-  SAY SELECT_COMMON2 @345
-
 /* Maretha */
 COPY ~bg1npc/Phase2/cre/x#mareth.cre~ ~override~
   SAY NAME1 @365

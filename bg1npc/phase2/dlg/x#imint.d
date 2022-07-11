@@ -303,9 +303,9 @@ CHAIN ~%IMOEN_JOINED%~ IMDRAT4
 @92
 COPY_TRANS ~%tutu_var%DRATAN~ 4
 
-//I_C_T ~%tutu_var%EDWIN~ %BGTEDWINState8% X#EdwinImoenJoin
+//I_C_T ~%tutu_var%EDWIN%eet_var%~ %BGTEDWINState8% X#EdwinImoenJoin
 //== ~%IMOEN_JOINED%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @93
-//== ~%tutu_var%EDWIN~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @94
+//== ~%tutu_var%EDWIN%eet_var%~ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @94
 //END
 
 //I_C_T2 ~%tutu_var%ELDOTH~ 7 X#ImoenEldoth
