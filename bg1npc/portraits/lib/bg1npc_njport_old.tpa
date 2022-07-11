@@ -377,7 +377,6 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~X#BG1NPCPhase1.G3~) THEN BEGIN
     WRITE_ASCII 0x34 ~x#andars~ #8 // small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~x#beador.cre~ ~override~
-                ~x#beado1.cre~ ~override~
     WRITE_ASCII 0x34 ~x#beados~ #8 // small portrait
   BUT_ONLY_IF_IT_CHANGES
   COPY_EXISTING ~x#mareth.cre~ ~override~
