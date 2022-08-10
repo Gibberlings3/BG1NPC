@@ -145,7 +145,11 @@ COPY ~bg1npc/Phase2/cre/x#amelia.cre~ ~override~
   ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~rring~
   ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~BOOTS~
   ADD_CRE_ITEM ~B1-3~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
-WRITE_ASCII 0x250 ~X#AMELIX~ #8
+  WRITE_ASCII 0x250 ~X#AMELIX~ #8
+  // apply wild magic immunity incase another mod changes Firewine Bridge to a wild magic zone
+  PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
+    LAUNCH_PATCH_FUNCTION ADD_CRE_EFFECT INT_VAR opcode = 101 timing = 1 parameter2 = 280 resist_dispel = 2 END
+  END
 
 /* Natan */
 COPY ~bg1npc/Phase2/cre/x#natan.cre~ ~override~
