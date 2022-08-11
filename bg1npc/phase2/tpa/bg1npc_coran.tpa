@@ -67,7 +67,7 @@ COPY ~bg1npc/phase2/itm/X#COAMUL.itm~  ~override~
   SAY UNIDENTIFIED_DESC @223
   SAY IDENTIFIED_DESC @224
   WRITE_ASCII 0x3a ~X#COAMUL~ #8 // BAM
-    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
       WRITE_ASCII 0x44 ~GAMUL02~ #8
       WRITE_ASCII 0x58 ~CAMUL01~ #8
     END
@@ -77,7 +77,7 @@ COPY ~bg1npc/phase2/itm/X#SUCRIN.itm~  ~override~
   SAY NAME2 @226
   SAY UNIDENTIFIED_DESC @12
   SAY IDENTIFIED_DESC @227
-    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
       WRITE_ASCII 0x3a ~IRING17~ #8
       WRITE_ASCII 0x58 ~CRING11~ #8
     END
@@ -89,7 +89,7 @@ COPY ~bg1npc/phase2/itm/X#COWIRO.itm~ ~override~
   SAY UNIDENTIFIED_DESC @229
   SAY DESC @229
 WRITE_ASCII 0x76 ~X#COWIRO~ #8   // icon
-    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
       WRITE_ASCII 0x44 ~GSACK01~ #8
       WRITE_ASCII 0x58 ~CMISC1I~ #8
     END
@@ -101,7 +101,7 @@ COPY ~bg1npc/phase2/itm/X#COFRRO.itm~ ~override~
   SAY UNIDENTIFIED_DESC @231
   SAY DESC @232
 WRITE_ASCII 0x76 ~X#COFRRO~ #8   // icon
-    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
       WRITE_ASCII 0x44 ~GSACK01~ #8
       WRITE_ASCII 0x58 ~CMISC1I~ #8
     END
@@ -145,7 +145,11 @@ COPY ~bg1npc/Phase2/cre/x#amelia.cre~ ~override~
   ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~identified&unstealable&undroppable~ ~rring~
   ADD_CRE_ITEM ~X#SUCRIN~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~BOOTS~
   ADD_CRE_ITEM ~B1-3~ #0 #0 #0 ~identified&unstealable&undroppable~ ~weapon1~ EQUIP
-WRITE_ASCII 0x250 ~X#AMELIX~ #8
+  WRITE_ASCII 0x250 ~X#AMELIX~ #8
+  // apply wild magic immunity incase another mod changes Firewine Bridge to a wild magic zone
+  PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
+    LAUNCH_PATCH_FUNCTION ADD_CRE_EFFECT INT_VAR opcode = 101 timing = 1 parameter2 = 280 resist_dispel = 2 END
+  END
 
 /* Natan */
 COPY ~bg1npc/Phase2/cre/x#natan.cre~ ~override~
@@ -162,7 +166,7 @@ COPY ~bg1npc/Phase2/cre/x#natan.cre~ ~override~
     ADD_CRE_ITEM ~%tutu_var%POTN07~ #0 #0 #0 ~IDENTIFIED~ ~INV6~
     ADD_CRE_ITEM ~X#CODYE1~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE~ ~INV1~
     WRITE_ASCIIE 0x258 ~%tutu_var%thief4~ #8 // Race script
-    PATCH_IF GAME_IS ~bgee bgt~ BEGIN
+    PATCH_IF GAME_IS ~bgee bgt eet~ BEGIN
       WRITE_ASCII 0x268 ~WTARSGT~ #8
       WRITE_ASCII 0x250 ~INITDLG~ #8
     END
