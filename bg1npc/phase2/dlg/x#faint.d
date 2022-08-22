@@ -24,7 +24,7 @@ SAY @164
 + ~!GlobalLT("Chapter","GLOBAL",%tutu_chapter_3%)~ + @160 + FaPCMine.6
 ++ @161 + FaPCMine.7
 ++ @162 + FaPCMine.8
-+ ~!Class(Player1,DRUID_ALL)~ + @9 + FaPCMine.9
++ ~!Class(Player1,DRUID_ALL)~ + @163 + FaPCMine.9
 END
 
 IF ~~ THEN BEGIN FaPCMine.3
@@ -33,7 +33,7 @@ SAY @165
 + ~!GlobalLT("Chapter","GLOBAL",%tutu_chapter_3%)~ + @160 + FaPCMine.6
 ++ @161 + FaPCMine.7
 ++ @162 + FaPCMine.8
-+ ~!Class(Player1,DRUID_ALL)~ + @9 + FaPCMine.9
++ ~!Class(Player1,DRUID_ALL)~ + @163 + FaPCMine.9
 END
 
 IF ~~ THEN BEGIN FaPCMine.4
@@ -42,7 +42,7 @@ SAY @166
 + ~!GlobalLT("Chapter","GLOBAL",%tutu_chapter_3%)~ + @160 + FaPCMine.6
 ++ @161 + FaPCMine.7
 ++ @162 + FaPCMine.8
-+ ~!Class(Player1,DRUID_ALL)~ + @9 + FaPCMine.9
++ ~!Class(Player1,DRUID_ALL)~ + @163 + FaPCMine.9
 ++ @167 + FaPCMine.10
 END
 
@@ -404,7 +404,7 @@ END
 // == ~%FALDORN_JOINED%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @95
 // END
 
-/* Faldorn, Drizzt’s Encounter After Fighting The Gnolls  */
+/* Faldorn, DrizztÂ’s Encounter After Fighting The Gnolls  */
 // I_C_T ~%tutu_var%DRIZZT~ 5 X#FaldornDrizzt
 // == ~%FALDORN_JOINED%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @96
 // == ~%tutu_var%DRIZZT~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @97
