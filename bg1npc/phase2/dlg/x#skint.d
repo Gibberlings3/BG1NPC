@@ -337,7 +337,7 @@ DO ~SetGlobal("X#SkieJopha","GLOBAL",2)~
 == ~x#jopha~ @114
 == ~%SKIE_BANTER%~ @115
 == ~x#jopha~ @116
-DO ~ActionOverride("Jopha",EscapeArea()) SetGlobal("X#SkieJopha","GLOBAL",3)~
+DO ~ActionOverride("x#jopha",EscapeArea()) SetGlobal("X#SkieJopha","GLOBAL",3)~
 EXIT
 
 CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#SkieJopha","GLOBAL",4)~ THEN ~%SKIE_JOINED%~ JophaSkie2
