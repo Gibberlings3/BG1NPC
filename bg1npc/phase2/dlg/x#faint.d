@@ -404,7 +404,7 @@ END
 // == ~%FALDORN_JOINED%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @95
 // END
 
-/* Faldorn, Drizzt’s Encounter After Fighting The Gnolls  */
+/* Faldorn, DrizztÂ’s Encounter After Fighting The Gnolls  */
 // I_C_T ~%tutu_var%DRIZZT~ 5 X#FaldornDrizzt
 // == ~%FALDORN_JOINED%~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @96
 // == ~%tutu_var%DRIZZT~ IF ~InParty("faldorn") InMyArea("faldorn") !StateCheck("faldorn",CD_STATE_NOTVALID)~ THEN @97
