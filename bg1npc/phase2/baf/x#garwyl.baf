@@ -56,7 +56,7 @@ THEN
     IncrementGlobal("X#MDS","GLOBAL",1)
     SetGlobalTimer("X#MSP","LOCALS",25)
     SetGlobalTimer("X#MCA","LOCALS",6)
-    Spell(Myself,4522)
+    SpellRes("spcl522",Myself) // BLADE_DEFENSIVE_SPIN
 END
 
 IF
@@ -241,7 +241,7 @@ THEN
     IncrementGlobal("X#MOS","GLOBAL",1)
     SetGlobalTimer("X#MSP","LOCALS",25)
     SetGlobalTimer("X#MCA","LOCALS",6)
-    Spell(Myself,4521)
+    SpellRes("spcl521",Myself) // BLADE_OFFENSIVE_SPIN
     Attack(NearestEnemyOf())
 END
 

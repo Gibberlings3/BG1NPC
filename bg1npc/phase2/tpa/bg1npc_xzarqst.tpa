@@ -176,7 +176,7 @@ COPY ~bg1npc/Phase2/cre/x#black.cre~ ~override~
     SAY DYING @343
     SAY SELECT_COMMON1 @344
     SAY SELECT_COMMON2 @345
-END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
+  END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
     SAY INITIAL_MEETING @327
     SAY UNHAPPY_BREAKING @328
     SAY BATTLE_CRY1 @329
@@ -185,12 +185,15 @@ END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
     SAY SELECT_COMMON1 @327
     SAY SELECT_COMMON2 @332
   END
-WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-WRITE_ASCII SCRIPT_CLASS ~x#druid6~ #8 // class script
+  WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
+  WRITE_ASCII SCRIPT_CLASS ~x#druid6~ #8 // class script
   WRITE_ASCII SCRIPT_GENERAL ~x#drdsht~ #8 // general script
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCII 0x280 ~blackberry~ #32 //  death variable
+  ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
+  ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
 
 /* Storm */
 COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
@@ -205,7 +208,7 @@ COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
     SAY DYING @343
     SAY SELECT_COMMON1 @344
     SAY SELECT_COMMON2 @345
-END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
+  END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
     SAY INITIAL_MEETING @334
     SAY UNHAPPY_BREAKING @335
     SAY BATTLE_CRY1 @336
@@ -220,6 +223,9 @@ END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCII 0x280 ~storm~ #32 //  death variable
+  ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
+  ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
 
 /* Zosya */
 COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
@@ -240,6 +246,9 @@ COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCII 0x280 ~zosya~ #32 //  death variable
+  ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
+  ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
 
 /* Flaming Fist Officer */
 COPY_EXISTING ~%tutu_var%VAI.cre~ ~override/x#xzgu01.cre~
