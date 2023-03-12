@@ -131,8 +131,7 @@ I_C_T ~%tutu_var%BORIN~ 6 X#VicBorin
 == ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @36 END
 
 I_C_T ~%tutu_var%BRAGE~ 0 X#VicBrage
-== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @37
-DO ~SetGlobal("MetBrage","GLOBAL",1)~ END
+== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @37 END
 
 //I_C_T2 ~%tutu_var%BRAGE~ 2 X#VicBrage
 //== ~%VICONIA_JOINED%~ IF ~InParty("viconia") InMyArea("viconia") !StateCheck("viconia",CD_STATE_NOTVALID)~ THEN @38

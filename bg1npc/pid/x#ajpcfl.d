@@ -4875,10 +4875,10 @@ END
 
 IF ~~ THEN look
 SAY @99
-++ @100 + look_face_flirt
-++ @101 + look_arms_flirt
-++ @102 + look_hands_flirt
-++ @103 + look_appearance_flirt
+++ @100 + look_face
+++ @101 + look_arms
+++ @102 + look_hands
+++ @103 + look_appearance
 ++ @104 EXIT
 END
 
@@ -4922,7 +4922,7 @@ END
 
 /* smile */
 IF ~~ THEN smile_01
-SAY @235 /* heart? */
+SAY @235 
 IF ~~ THEN EXIT
 END
 

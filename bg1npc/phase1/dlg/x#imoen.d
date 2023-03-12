@@ -760,7 +760,8 @@ DO ~SetGlobal("X#IMXA1","GLOBAL",1)~
 == ~%IMOEN_BANTER%~ @604
 == ~%XAN_BANTER%~ @605 EXIT
 
-CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#IMAJ1","LOCALS",0) InParty("ajantis") CombatCounter(0) !See([ENEMY]) See("ajantis") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("ajantis",CD_STATE_NOTVALID)~ THEN ~%IMOEN_BANTER%~ IMAJ1
+CHAIN IF WEIGHT #-1 ~%BGT_VAR% Global("X#IMAJ1","LOCALS",0) InParty("ajantis") CombatCounter(0) !See([ENEMY]) See("ajantis") !StateCheck(Myself,CD_STATE_NOTVALID) !StateCheck("ajantis",CD_STATE_NOTVALID)
+!Global("X#AjantisRomanceActive","GLOBAL",2)~ THEN ~%IMOEN_BANTER%~ IMAJ1
 @267 
 DO ~SetGlobal("X#IMAJ1","LOCALS",1)~
 == ~%AJANTIS_BANTER%~ @268
