@@ -4,8 +4,8 @@
 COPY ~bg1npc/phase2/cre/x#belgin.cre~ ~override/x#belgin.cre~
   REMOVE_CRE_ITEMS
   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY NAME1 ~Belgin~
-  SAY NAME2 ~Belgin~
+  SAY NAME1 @784
+  SAY NAME2 @784
   SAY INITIAL_MEETING @557
   SAY BATTLE_CRY1 @558
   SAY BATTLE_CRY2 @558
@@ -28,8 +28,8 @@ COPY ~bg1npc/phase2/cre/x#belgin.cre~ ~override/x#belgin.cre~
 COPY ~bg1npc/phase2/cre/x#karris.cre~ ~override/x#karris.cre~
   REMOVE_CRE_ITEMS
   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY NAME1 ~Karris~
-  SAY NAME2 ~Karris~
+  SAY NAME1 @785
+  SAY NAME2 @785
   SAY INITIAL_MEETING @476
   SAY BATTLE_CRY1 @488
   SAY BATTLE_CRY2 @488
@@ -51,8 +51,8 @@ COPY ~bg1npc/phase2/cre/x#karris.cre~ ~override/x#karris.cre~
 COPY ~bg1npc/phase2/cre/x#tqbh1.cre~ ~override/x#tqbh1.cre~
   REMOVE_CRE_ITEMS
   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY NAME1 ~Alvo~
-  SAY NAME2 ~Alvo~
+  SAY NAME1 @786
+  SAY NAME2 @786
   SAY INITIAL_MEETING @474
   SAY BATTLE_CRY1 @354
   SAY BATTLE_CRY2 @354
@@ -73,8 +73,8 @@ COPY ~bg1npc/phase2/cre/x#tqbh1.cre~ ~override/x#tqbh1.cre~
 
 COPY ~bg1npc/phase2/cre/x#tqbh2.cre~ ~override/x#tqbh2.cre~
   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY NAME1 ~Leti~
-  SAY NAME2 ~Leti~
+  SAY NAME1 @787
+  SAY NAME2 @787
   SAY INITIAL_MEETING @25
   SAY BATTLE_CRY1 @25
   SAY BATTLE_CRY2 @25
@@ -96,8 +96,8 @@ COPY ~bg1npc/phase2/cre/x#tqbh2.cre~ ~override/x#tqbh2.cre~
 COPY ~bg1npc/phase2/cre/x#tqbh3.cre~ ~override/x#tqbh3.cre~
   REMOVE_CRE_ITEMS
   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY NAME1 ~Zed~
-  SAY NAME2 ~Zed~
+  SAY NAME1 @788
+  SAY NAME2 @788
   SAY INITIAL_MEETING @285
   SAY BATTLE_CRY1 @285
   SAY BATTLE_CRY2 @285
@@ -119,8 +119,8 @@ COPY ~bg1npc/phase2/cre/x#tqbh3.cre~ ~override/x#tqbh3.cre~
 COPY ~bg1npc/phase2/cre/x#tqbh4.cre~ ~override/x#tqbh4.cre~
   REMOVE_CRE_ITEMS
   LAUNCH_PATCH_MACRO ~source_cre_sound_cleanup~
-  SAY NAME1 ~Mati~
-  SAY NAME2 ~Mati~
+  SAY NAME1 @789
+  SAY NAME2 @789
   SAY INITIAL_MEETING @455
   SAY BATTLE_CRY1 @455
   SAY BATTLE_CRY2 @455
