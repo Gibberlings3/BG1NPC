@@ -193,7 +193,7 @@ COPY ~bg1npc/Phase2/cre/x#black.cre~ ~override~
   WRITE_ASCII 0x280 ~blackberry~ #32 //  death variable
   ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
   ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
-  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~NONE~ ~inv~
 
 /* Storm */
 COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
@@ -225,7 +225,7 @@ COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
   WRITE_ASCII 0x280 ~storm~ #32 //  death variable
   ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
   ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
-  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~NONE~ ~inv~
 
 /* Zosya */
 COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
@@ -248,7 +248,7 @@ COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
   WRITE_ASCII 0x280 ~zosya~ #32 //  death variable
   ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
   ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
-  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~NONE~ ~inv~
 
 /* Flaming Fist Officer */
 COPY_EXISTING ~%tutu_var%VAI.cre~ ~override/x#xzgu01.cre~
