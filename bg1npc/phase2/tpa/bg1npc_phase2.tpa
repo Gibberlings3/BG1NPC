@@ -124,8 +124,15 @@ END
 //  COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/x#kiint_new.d~
 
   /* Add Journal Entries to BGEE.sql for BGEE */
-  ADD_JOURNAL EXISTING TITLE (#31279) @72 @73 USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
-  ADD_JOURNAL EXISTING TITLE (#31317) @171 USING ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+    ADD_JOURNAL EXISTING TITLE (#31279) @72 @73 USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
+    ADD_JOURNAL EXISTING TITLE (#31317) @171 USING ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
+  END
+
+  ACTION_IF GAME_IS ~eet~ THEN BEGIN
+    ADD_JOURNAL EXISTING TITLE (#231279) @72 @73 USING ~bg1npc/tra/%LANGUAGE%/x#moint.tra~
+    ADD_JOURNAL EXISTING TITLE (#231317) @171 USING ~bg1npc/tra/%LANGUAGE%/x#miint.tra~
+  END
 
   /* Area Script additions */
   EXTEND_BOTTOM ~%NWBaldursGate_SilvershieldEstate_L2_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0102.BAF~
