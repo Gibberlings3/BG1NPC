@@ -205,4 +205,9 @@ EXTEND_TOP  ~%DYNAHEIR_BCS%.bcs~ ~bg1npc/Phase2/baf/x#dynaquest.baf~
 
 /* Add Journal Entries to database for BGEE */
 ADD_JOURNAL TITLE (@999) @30 @32 @34 @36 @223 @224 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
-ADD_JOURNAL EXISTING TITLE (#31317) @220 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ADD_JOURNAL EXISTING TITLE (#31317) @220 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+END
+ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  ADD_JOURNAL EXISTING TITLE (#231317) @220 USING ~bg1npc/tra/%LANGUAGE%/x#dynaquest.tra~
+END

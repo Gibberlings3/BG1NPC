@@ -149,7 +149,12 @@ END
 COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#JAQU2.D~ USING ~bg1npc/tra/%s/x#jaqu.tra~
 
 /* Add Journal entries for BGEE */
-ADD_JOURNAL EXISTING TITLE (#31291) @185 @186 @187 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ADD_JOURNAL EXISTING TITLE (#31291) @185 @186 @187 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+END
+ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  ADD_JOURNAL EXISTING TITLE (#231291) @185 @186 @187 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
+END
 ADD_JOURNAL TITLE (@999) @159 @161 @163 @169 USING ~bg1npc/tra/%LANGUAGE%/x#jaqu.tra~
 
 /* scripts */
