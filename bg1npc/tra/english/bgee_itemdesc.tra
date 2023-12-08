@@ -1,190 +1,190 @@
-@9   = ~A medium shield is carried in the same manner as a small shield.  Its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward.
+@9   = ~Um escudo médio é carregado da mesma maneira que um escudo pequeno. Seu peso impede que o personagem use a mão do escudo para qualquer outra coisa que não seja carregar o escudo médio. Os escudos médios são geralmente feitos de metal, variam de 3'-4' de diâmetro e podem ter qualquer formato, desde redondo a quadrado até asas de dragão abertas. Um escudo medieval típico se assemelha a um triângulo com uma ponta voltada para baixo.
 
-This particular shield bears the coat of arms of the noble Ilvastarr family of Waterdeep: a metallic green dragon with orange eyes on a golden field.
+Este escudo em particular traz o brasão da nobre família Ilvastarr de Águas Profundas: um dragão verde metálico com olhos laranja em um campo dourado.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped Abilties:
-- Armor Class: +1, an extra +2 vs. missile attacks
+Habilidades equipadas:
+- Classe de Armadura: +1, +2 extra vs. ataques de mísseis
 
-Weight: 7~
+Peso: 7~
 
-@76   = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end.  When man mastered metals, spearheads were made from iron and steel.  Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
+@76   = ~Uma das primeiras armas do homem, que remonta aos tempos mais primitivos, as primeiras lanças eram simplesmente postes de madeira ou paus afiados numa das pontas. Quando o homem dominou os metais, as pontas de lança eram feitas de ferro e aço. Tendo alcançado esse objetivo, os armadores começaram a experimentar diferentes tipos de pontas de lança, levando assim ao desenvolvimento de certos tipos de armas de haste.
 
-STATISTICS:
+ESTATISTICAS:
 
-Damage: 1D6
-Damage type: piercing
-Speed Factor: 6
-Proficiency Type: Spear
-Type: 2-handed
+Dano: 1D6
+Tipo de dano: piercing
+Fator de velocidade: 6
+Tipo de Proficiência: Lança
+Tipo: 2 mãos
 
-Weight: 5~
-@77   = ~This is a plain looking short spear with a leaf-shaped point. It was balanced for a slender elven hand. Mage Thalantyr enchanted the weapon for Kivan of Shilmista.
+Peso: 5~
+@77   = ~Esta é uma lança curta de aparência simples com uma ponta em forma de folha. Foi equilibrado para uma mão élfica delgada. O Mago Thalantyr encantou a arma para Kivan de Shilmista.
 
-STATISTICS:
+ESTATISTICAS:
 
-Combat Abilities:
-- 10% chance per hit of entangling the target for 2 rounds (Save vs. Breath negates)
+Habilidades de Combate:
+- 10% de chance por acerto de enredar o alvo por 2 rodadas (Resgate vs. Respiração negada)
 
-THAC0: +2 bonus
-Damage:  1D6 +2
-Damage type:  piercing
-Speed Factor: 4
-Proficiency Type: Spear
-Type:  2-handed
-Requires: 5 Strength
+THAC0: bônus de +2
+Dano: 1D6 +2
+Tipo de dano: piercing
+Fator de velocidade: 4
+Tipo de Proficiência: Lança
+Tipo: 2 mãos
+Requisitos: 5 Força
 
-Weight: 3~
-@79   = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+Peso: 3~
+@79   = ~O escudo corporal, também conhecido como pipa ou escudo de torre, é um enorme escudo de metal ou madeira que vai quase do queixo até a ponta do pé do usuário. Ele deve estar firmemente preso ao antebraço e a mão do escudo deve agarrá-lo firmemente em todos os momentos. Naturalmente, isso impede o uso da mão do escudo para qualquer coisa que não seja segurar o escudo corporal no lugar.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped abilities:
-- Armor Class: +1, an extra +1 vs. missile attacks
+Habilidades equipadas:
+- Classe de Armadura: +1, +1 extra vs. ataques de mísseis
 
-Requires:
- 15 Strength
+Requer:
+  15. Força
 
-Weight: 15~
-@80   = ~The large shield is carved from a rare white oak, which has all the strength but not the weight of the regular oak. The noble stamina of the wood seems to reflect on the shield bearer. It was created by the druids, and the bindings that secure this body shield on the hero's forearm will become magically undone, if it is used by the hand that does not strive to maintain the Balance.
-STATISTICS:
+Peso: 15~
+@80   = ~O grande escudo é esculpido em um raro carvalho branco, que tem toda a resistência, mas não o peso, do carvalho normal. A nobre resistência da madeira parece refletir no portador do escudo. Ele foi criado pelos druidas, e as amarras que prendem este escudo corporal ao antebraço do herói serão desfeitas magicamente, se for usado pela mão que não se esforça para manter o equilíbrio.
+ESTATISTICAS:
 
-Equipped abilities:
-- Armor Class: +1, an extra +1 vs. missile attacks
-- +1 Bonus to Constitution
+Habilidades equipadas:
+- Classe de Armadura: +1, +1 extra vs. ataques de mísseis
+- +1 Bônus para Constituição
 
-Weight: 5~
-@174  = ~This bardic chainmail has an illustrious past, being the armor of the noted half-elven bard Myr'Cutio. He wandered the Realms seeking adventure, and so restless was his nature that on his death his spirit, and those of his companions, continued to roam...
+Peso: 5~
+@174  = ~Esta cota de malha bárdica tem um passado ilustre, sendo a armadura do famoso bardo meio-elfo Myr'Cutio. Ele vagou pelos Reinos em busca de aventura, e sua natureza era tão inquieta que, após sua morte, seu espírito e o de seus companheiros continuaram vagando...
 
-Until they were put to rest by the party of <CHARNAME>, that is. Adventurers tend not to have respect for noteworthy figures of the past. Still, the armor is yours: lightweight, shiny and stylish. What more could an aspiring bard hope for?
+Isto é, até que eles foram postos de lado pelo grupo de <CHARNAME>. Os aventureiros tendem a não respeitar figuras notáveis ​​do passado. Mesmo assim, a armadura é sua: leve, brilhante e estilosa. O que mais um aspirante a bardo poderia esperar?
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped abilities:
-- Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
-- Does not interfere with arcane spellcasting
+Habilidades equipadas:
+- Classe de Armadura: 4 (2 vs. corte, 6 vs. esmagamento)
+-Não interfere no lançamento de feitiços arcanos
 
-Requires: 8 Strength
+Requisitos: 8 Força
 
-Weight: 20~
-@175  = ~This bardic chainmail has an illustrious past, being the armor of the noted half-elven bard Myr'Cutio. He wandered the Realms seeking adventure, and so restless was his nature that on his death his spirit, and those of his companions, continued to roam...
+Peso: 20~
+@175  = ~Esta cota de malha bárdica tem um passado ilustre, sendo a armadura do famoso bardo meio-elfo Myr'Cutio. Ele vagou pelos Reinos em busca de aventura, e sua natureza era tão inquieta que, após sua morte, seu espírito e o de seus companheiros continuaram vagando...
 
-Until they were put to rest by the party of <CHARNAME>, that is. Adventurers tend not to have respect for noteworthy figures of the past. Still, the armor is yours: lightweight, shiny and stylish. What more could an aspiring bard hope for?
+Isto é, até que eles foram postos de lado pelo grupo de <CHARNAME>. Os aventureiros tendem a não respeitar figuras notáveis ​​do passado. Mesmo assim, a armadura é sua: leve, brilhante e estilosa. O que mais um aspirante a bardo poderia esperar?
 
-This armor was further improved by Halbazzer Drin of the Sorcerous Sundries store in Baldur's Gate. Combination with a pair of golden pantaloons has afforded an increased measure of protection, while keeping the suit as fashionable as ever.
+Esta armadura foi melhorada por Halbazzer Drin da loja Sorcerous Sundries em Baldur's Gate. A combinação com uma calça dourada proporcionou maior proteção, ao mesmo tempo que manteve o traje mais moderno do que nunca.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped abilities:
-- Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
-- Does not interfere with arcane spellcasting
+Habilidades equipadas:
+- Classe de armadura: 3 (1 vs. corte, 5 vs. esmagamento)
+-Não interfere no lançamento de feitiços arcanos
 
-Requires: 7 Strength
+Requisitos: 7 Força
 
-Weight: 15~
-@224  = ~This is a rather tacky looking necklace decorated with a few large gemstones. A small inscription in elvish on the lock of the necklace says that the item was created by Nadyala the Green as her thesis to achieve a status of Wizard in Ulcaster School of Magic. The necklace radiates strong magical energy, but as any graduation project seemed to be not entirely finished. You have a strong suspicion that Nadyala might have worn it for her Candidate's exams.
+Peso: 15~
+@224  = ~Este é um colar de aparência bastante cafona, decorado com algumas pedras preciosas grandes. Uma pequena inscrição em élfico na fechadura do colar diz que o item foi criado por Nadyala, a Verde, como sua tese para alcançar o status de Mago na Escola de Magia de Ulcaster. O colar irradia forte energia mágica, mas como qualquer projeto de formatura parecia não estar totalmente finalizado. Você tem uma forte suspeita de que Nadyala possa tê-lo usado nos exames de Candidato.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped abilities:
-- Grants 1 extra spell per level for levels 1 through 3.
+Habilidades equipadas:
+- Concede 1 feitiço extra por nível para os níveis 1 a 3.
 
-Weight: 1~
-@227  = ~This small toe ring of red gold was worn by a succubus and is always warm to the touch.  The wearer of this ring constantly hears the sounds of the Abyssal Planes: a cacophony of the wails of tormented and curses of demon lords� Obviously, the person who wears the ring must be resilient to or find enjoyment in such things.
+Peso: 1~
+@227  = ~Este pequeno anel de ouro vermelho foi usado por uma súcubo e é sempre quente ao toque. O usuário deste anel ouve constantemente os sons dos Planos Abissais: uma cacofonia dos lamentos dos atormentados e das maldições dos lordes demônios… Obviamente, a pessoa que usa o anel deve ser resiliente ou encontrar prazer em tais coisas.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped Abilities:
-- Increases the wearer's charisma by 2 points
+Habilidades equipadas:
+- Aumenta o carisma do usuário em 2 pontos
 
-Charge Abilities:
-- Dire Charm once per day
+Habilidades de Carga:
+- Dire Charm uma vez por dia
 
-Weight: 0~
-@250  = ~This long bow has been given to Kivan by his wife Deheriana as a wedding gift.
+Peso: 0 ~
+@250 = ~Este longo arco foi dado a Kivan por sua esposa Deheriana como presente de casamento.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped Abilities:
-- Armor Class: +1
+Habilidades equipadas:
+- Classe de Armadura: +1
 
-THAC0: +1
-Speed Factor: 1
-Proficiency Type: Longbow
-Type: 2-handed
-Requires: 6 Strength
+TAC0: +1
+Fator de velocidade: 1
+Tipo de Proficiência: Arco Longo
+Tipo: 2 mãos
+Requer: 6 de Força
 
-Weight: 2~
-@315  = ~Enchanted with the blood of a murdered dryad, this ring protects the wearer against Charm Person spells and effects.  It also enables the wearer to cast Charm Person once per day.  However, the blood of the slain creature, stirred perhaps by her ensorcelled soul, writhes  in visible agony beneath surface of the metal, making it so repulsive that Good individuals cannot endure putting it on.
+Peso: 2~
+@315  = ~Encantado com o sangue de uma dríade assassinada, este anel protege o usuário contra feitiços e efeitos de Charm Person. Também permite ao usuário lançar Charm Person uma vez por dia. No entanto, o sangue da criatura morta, agitado talvez por sua alma enfeitiçada, se contorce em visível agonia sob a superfície do metal, tornando-o tão repulsivo que os bons indivíduos não conseguem suportar colocá-lo.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped Abilities:
-- Immunity to Charm Person
+Habilidades equipadas:
+- Imunidade a encantar pessoa
 
-Charge Abilities:
-- Cast Charm Person once per day
+Habilidades de Carga:
+- Lance Charm Person uma vez por dia
 
-Weight: 0~
-@361  = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since mankind first began using tools.  Anyone can find a good stout piece of wood and swing it; hence the club's widespread use.
+Peso: 0~
+@361  = ~A maioria dos tacos são robustos, de madeira dura, estreitos na empunhadura e mais largos na extremidade. Esta arma simples tem sido usada desde que a humanidade começou a usar ferramentas. Qualquer um pode encontrar um bom pedaço de madeira e balançá-lo; daí o uso generalizado do clube.
 
-STATISTICS:
+ESTATISTICAS:
 
-Damage: 1D6
-Damage type: crushing
-Speed Factor: 4
-Proficiency Type: Club
-Type: 1-handed
+Dano: 1D6
+Tipo de dano: esmagamento
+Fator de velocidade: 4
+Tipo de Proficiência: Clube
+Tipo: 1 mão
 
-Weight: 3~
-@362  = ~This enchanted club was taken from the corpse of a Shadow Druid and given to <CHARNAME> by Seniyad, the Archdruid of Cloakwood. While the origins of this deceptively simple, yet astonishingly deadly weapon are unknown, its name and connection with the element of lightning points heavily to the clergy of Talos. Despite the potentially evil forces used in its creation, scrying spells detect no malevolent energies contained within this weapon, thus it is safe to use for anyone who follows the calling of the druid.
+Peso: 3~
+@362  = ~Este porrete encantado foi retirado do cadáver de um Druida das Sombras e dado a <CHARNAME> por Seniyad, o Arquidruida de Cloakwood. Embora as origens desta arma aparentemente simples, mas surpreendentemente mortal, sejam desconhecidas, seu nome e conexão com o elemento relâmpago apontam fortemente para o clero de Talos. Apesar das forças potencialmente malignas usadas em sua criação, os feitiços de vidência não detectam energias malévolas contidas nesta arma, portanto, é seguro usá-la para qualquer um que siga o chamado do druida.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped Abilities:
-- Electrical resistance: 25 percent
+Habilidades equipadas:
+- Resistência elétrica: 25 por cento
 
-Charge Abilities:
-- Call Lightning once per day
+Habilidades de Carga:
+- Ligue para Lightning uma vez por dia
 
-THAC0: +2
-Damage: 1D6 + 2
-Damage type: crushing
-Speed Factor: 4
-Proficiency Type: Club
-Type: 1-handed
+TAC0: +2
+Dano: 1D6 + 2
+Tipo de dano: esmagamento
+Fator de velocidade: 4
+Tipo de Proficiência: Clube
+Tipo: 1 mão
 
-Weight: 3~
-@379  = ~The head of this spear bears ornate runes portraying the fiery forces of nature.  Legend has it that the spear was created by a powerful archdruid of Norland in the Moonshaes to succor the land and its wielder in times of winter and bitter cold.  It also proved a mighty weapon against the frost giants of the Jotunhammer Mountains.
+Peso: 3~
+@379  = ~TA ponta desta lança traz runas ornamentadas retratando as forças ígneas da natureza. Diz a lenda que a lança foi criada por um poderoso arquidruida de Norland nas Moonshaes para socorrer a terra e seu portador em épocas de inverno e frio intenso. Também provou ser uma arma poderosa contra os gigantes de gelo das montanhas Jotunhammer.
 
-STATISTICS:
+ESTATISTICAS:
 
-Equipped Abilities:
-- +20 percent fire resistance
+Habilidades equipadas:
+- +20 por cento de resistência ao fogo
 
-Combat Abilities:
-- 50 percent chance +1 point of fire damage
+Habilidades de Combate:
+- 50 por cento de chance +1 ponto de dano de fogo
 
-Charge Abilities:
-- Casts Fire Shield (Red) once per day
+Habilidades de Carga:
+- Lança Escudo de Fogo (Vermelho) uma vez por dia
 
-Damage: 1D6 + 1
-THAC0: +1 bonus
-Damage type: piercing
-Speed Factor: 5
-Proficiency Type: Spear
-Type: 2-handed
-Requires: 5 Strength
+Dano: 1D6 + 1
+THAC0: bônus +1
+Tipo de dano: piercing
+Fator de velocidade: 5
+Tipo de Proficiência: Lança
+Tipo: 2 mãos
+Requer: 5 de Força
 
-Weight: 4~
- @630  = ~Winski Perorate's Amulet
+Peso: 4~
+ @630  = ~Amuleto de Winski Perorate
 
-Winski Perorate's work with the nether regions of the underworld often placed him in close proximity to beings who would prefer Winski to be wearing his skin inside out. To make that possibility less likely, Winski commissioned a nabassu to build an amulet that would ward off evil creatures long enough to gain control of them. Unfortunately, Winski had a momentary lapse in memory due to great injury, and forgot to activate his amulet. This allowed his summoned Tanar'ri access to its summoner, with predictable results.
+O trabalho de Winski Perorate com as regiões inferiores do submundo muitas vezes o colocava próximo de seres que prefeririam que Winski usasse sua pele do avesso. Para tornar essa possibilidade menos provável, Winski contratou um nabassu para construir um amuleto que afastasse criaturas malignas por tempo suficiente para obter controle sobre elas. Infelizmente, Winski teve um lapso momentâneo de memória devido a um grande ferimento e esqueceu de ativar seu amuleto. Isso permitiu que seu Tanar'ri invocado tivesse acesso ao seu invocador, com resultados previsíveis.
 
-STATISTICS:
+ESTATISTICAS:
 
-Charge Abilities:
-- Protection from Evil 10' radius, once per day
+Habilidades de Carga:
+- Proteção contra o Mal num raio de 10', uma vez por dia
 
-Weight: 0~
+Peso: 0~
