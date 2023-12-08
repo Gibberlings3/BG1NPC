@@ -46,7 +46,7 @@ Você só pode usá-lo:
 @10   = ~Anel~
 @11   = ~Anel de Influência Humana do Senhor Foreshadow~
 @12   = ~Um anel é uma pequena faixa de metal precioso usada como joia. Alguns anéis raros possuem encantamentos que conferem diversas propriedades mágicas. Esses anéis são muito procurados, principalmente por quem gosta de aventuras.~
-@13   = ~ Anel de Influência Humana do Senhor Prenúncio 
+@13   = ~Anel de Influência Humana do Senhor Prenúncio 
 Lord Foreshadow deu este anel para <CHARNAME> aludindo que ele poderia ajudar <PRO_HIMHER> a conquistar corações no futuro. Obviamente há mais com o que se preocupar agora, mas é como dizem: não olhe para um cavalo de presente... e como outros também dizem: você nunca sabe quando poderá precisar de um... sem falar no velho provérbio que é algo como: vale tudo no amor e na guerra...
 
 CARACTERISTICAS:
@@ -112,7 +112,7 @@ Imoen certamente nunca será uma grande joalheira, mas o amuleto mantém-se bem 
 @60   = ~Espada Quebrada~
 @61   = ~Espada Mágica Quebrada~
 @62   = ~Esses pedaços de metal já foram uma espada longa.~
-@63   = ~Bentley Mirrorshadow diz que um ferreiro competente poderia reforjá-la em uma "espada de grande poder em cinco minutos". Considerando a ferrugem e a ferrugem, sem mencionar vários amassados ​​em lugares onde a espada ainda não quebrou, você tem motivos para duvidar.~
+@63   = ~Bentley Mirrorshadow diz que um ferreiro competente poderia reforjá-la em uma "espada de grande poder em cinco minutos". Considerando a ferrugem e a ferrugem, sem mencionar vários amassados ??em lugares onde a espada ainda não quebrou, você tem motivos para duvidar.~
 @64   = ~Escudo Amassado~
 @65   = ~Este escudo já viu muitas batalhas (e perdeu todas).~
 @66   = ~Bentley Mirrorshadow tem ótimas palavras para escudo; Esteve em muitos campos de batalha e, segundo todos os relatos, sobreviveu. Claro, o mesmo não pode ser dito de seu último dono, e este escudo foi remendado e reforçado tantas vezes que está cheio de amassados.~
@@ -122,7 +122,7 @@ Imoen certamente nunca será uma grande joalheira, mas o amuleto mantém-se bem 
 @70   = ~Frasco de Poção Vazio~
 @71   = ~Garrafa de poção vazia e quebrada~
 @72   = ~Um frasco de poção vazio com o pescoço quebrado.~
-@73   = ~ Embora seja verdade que, como Bentley Shadowmirror lembra, nenhum aventureiro sai sem um frasco de poção sobressalente, caso você encontre uma fonte mágica, o gargalo deste frasco está tão quebrado que não consegue conter o líquido por qualquer período de tempo. mais de cinco minutos.~
+@73   = ~Embora seja verdade que, como Bentley Shadowmirror lembra, nenhum aventureiro sai sem um frasco de poção sobressalente, caso você encontre uma fonte mágica, o gargalo deste frasco está tão quebrado que não consegue conter o líquido por qualquer período de tempo. mais de cinco minutos.~
 @74   = ~Lança Élfica~
 @75   = ~Lança Élfica do Emaranhado~
 @76   = ~Uma das armas mais antigas do homem, usada desde os tempos primitivos, as primeiras lanças eram varas de madeira com uma pedra afiada. Quando os homens começaram a fundir metal, as pontas eram feitas de ferro e aço. Mais tarde, começaram os experimentos com outras cabeças, levando ao desenvolvimento de outros tipos de armas.
@@ -184,57 +184,57 @@ Não é permitido:
 @81   = ~Jofa ~
 @82   = ~Dora~
 @83   = ~David Jansen~
-@84   = ~ Cuidado! Nada de valor! Critério! Prudência!!~ [JANJAN02]
-@85   = ~ Nunca fiquei tão satisfeito com um grupo desde que os Cormyrianos dispararam o preço dos nabos durante a Fome da Cebola.~ [JANJAN03]
-@86   = ~ Uau. Estar neste grupo por muito tempo é como ter eczema calishita, exceto pela desagradável sensação de queimação. E a erupção cutânea. Mas ainda assim...~ [JANJAN04]
-@87   = ~ Acho que não gosto muito da sua atitude. Você tem os modos de uma torneira nojenta... o que me lembra, você precisa de um banho.~ [JANJAN05]
+@84   = ~Cuidado! Nada de valor! Critério! Prudência!!~ [JANJAN02]
+@85   = ~Nunca fiquei tão satisfeito com um grupo desde que os Cormyrianos dispararam o preço dos nabos durante a Fome da Cebola.~ [JANJAN03]
+@86   = ~Uau. Estar neste grupo por muito tempo é como ter eczema calishita, exceto pela desagradável sensação de queimação. E a erupção cutânea. Mas ainda assim...~ [JANJAN04]
+@87   = ~Acho que não gosto muito da sua atitude. Você tem os modos de uma torneira nojenta... o que me lembra, você precisa de um banho.~ [JANJAN05]
 @88   = ~É isso aí. Hora de sair, lugares para visitar e tudo mais. Se continuar assim, acabará como Golodon, o Descontrolado. E eu não gostaria de ver algo assim.~ [JANJAN06]
-@89   = ~ Bem, esta é uma boa mudança. Eu não liderava um grupo desde... bem, desde que tio Scratchy pegou varíola e me deixou no comando. Só que ele não confiava no anão. Espero que tudo corra melhor desta vez...~ [JANJAN07]
-@90   = ~ Já passou da hora do chá de nabo. Um pouco de descanso será bom para seus olhos e para a dor nas pernas. ~ [JANJAN08]
-@91   = ~ Uau, uau. Você não acha que a grama cresceu pelo menos mais um centímetro? Incrível! ~ [JANJAN09]
-@92   = ~ Cuidado com os joelhos! ~ [JANJAN10]
-@93   = ~ Esta será a sua RUÍNA! Hahahaha!...~ [JANJAN11]
-@94   = ~ Isso não é chato! Eu vou te mostrar o que é isso.~ [JANJAN12]
-@95   = ~[JAN13]~ [JAN13]
-@96   = ~ ... Não se esqueça de me ressuscitar... ~ [JANJAN14]
-@97   = ~ Er... não quero te assustar, mas todo esse sangue jorrando é meu!~ [JANJAN15]
-@98   = ~ Lar doce lar... Espere, esta não é minha casa... ~ [JANJAN16]
-@99   = ~ Hmm... Aposto que o preço dos nabos vai disparar...~ [JANJAN17]
-@100  = ~ Ahhh, isso me lembra armazéns de nabos... se ao menos o tio Gerardo não estivesse na esquina sem saber de tantos nabos...~ [JANJAN18]
-@101  = ~ Eu gostaria muito mais da luz do dia se não fosse pelo fato de que um grifo pode te ver a 5 milhas...~ [JANJAN19]
-@102  = ~ Tenho esse probleminha desde que era bebê. Quando escurece, todos acendem uma luz vermelha. Isso é algo que pode aterrorizar uma criança...~ [JANJAN20]
-@103  = ~ Não grite! Eu ouço você perfeitamente.~ [JANJAN21]
-@104  = ~ *arroto!* Desculpe. O nabo me repete.~ [JANJAN23]
-@105  = ~ Vejo que você precisa dos meus talentos.~ [JANJAN24]
-@106  = ~ Você parece o Golodon! ~ [JANJAN25]
-@107  = ~ O quê? Tem alguma torneira por aqui?~ [JANJAN26]
-@108  = ~ Sim, sim, uma tática padrão.~ [JANJAN27]
-@109  = ~ Ah, eu posso fazer ISSO. ~ [JANJAN28]
-@110  = ~ Entendi.~ [JANJAN29]
-@111  = ~ Deve ser feito com habilidade e cuidado... e não rapidamente.~ [JANJAN30]
-@112  = ~ Imediatamente, venerável.~ [JANJAN31]
-@113  = ~ Farei isso por... em troca de um nabo.~ [JANJAN32]
-@114  = ~ Você sabe, isso me lembra de... muito tempo atrás...~ [JANJAN33]
-@115  = ~ não posso. Sou alérgico. Mas não tão alérgico quanto você pensa...~ [JANJAN34]
-@116  = ~ Fizemos uma ótima parceria! Como Drizzt e Wulfgar! Elminster e Volo! Ha! Deveríamos fazer parceria para competir no mercado de entrega de vegetais em domicílio!~ [JANJAN35]
+@89   = ~Bem, esta é uma boa mudança. Eu não liderava um grupo desde... bem, desde que tio Scratchy pegou varíola e me deixou no comando. Só que ele não confiava no anão. Espero que tudo corra melhor desta vez...~ [JANJAN07]
+@90   = ~Já passou da hora do chá de nabo. Um pouco de descanso será bom para seus olhos e para a dor nas pernas. ~ [JANJAN08]
+@91   = ~Uau, uau. Você não acha que a grama cresceu pelo menos mais um centímetro? Incrível! ~ [JANJAN09]
+@92   = ~Cuidado com os joelhos! ~ [JANJAN10]
+@93   = ~Esta será a sua RUÍNA! Hahahaha!...~ [JANJAN11]
+@94   = ~Isso não é chato! Eu vou te mostrar o que é isso.~ [JANJAN12]
+@95   = ~[JANJAN 13]~ [JANJAN13]
+@96   = ~... Não se esqueça de me ressuscitar... ~ [JANJAN14]
+@97   = ~Er... não quero te assustar, mas todo esse sangue jorrando é meu!~ [JANJAN15]
+@98   = ~Lar doce lar... Espere, esta não é minha casa... ~ [JANJAN16]
+@99   = ~Hmm... Aposto que o preço dos nabos vai disparar...~ [JANJAN17]
+@100  = ~Ahhh, isso me lembra armazéns de nabos... se ao menos o tio Gerardo não estivesse na esquina sem saber de tantos nabos...~ [JANJAN18]
+@101  = ~Eu gostaria muito mais da luz do dia se não fosse pelo fato de que um grifo pode te ver a 5 milhas...~ [JANJAN19]
+@102  = ~Tenho esse probleminha desde que era bebê. Quando escurece, todos acendem uma luz vermelha. Isso é algo que pode aterrorizar uma criança...~ [JANJAN20]
+@103  = ~Não grite! Eu ouço você perfeitamente.~ [JANJAN21]
+@104  = ~*arroto!* Desculpe. O nabo me repete.~ [JANJAN23]
+@105  = ~Vejo que você precisa dos meus talentos.~ [JANJAN24]
+@106  = ~Você parece o Golodon! ~ [JANJAN25]
+@107  = ~O quê? Tem alguma torneira por aqui?~ [JANJAN26]
+@108  = ~Sim, sim, uma tática padrão.~ [JANJAN27]
+@109  = ~Ah, eu posso fazer ISSO. ~ [JANJAN28]
+@110  = ~Entendi.~ [JANJAN29]
+@111  = ~Deve ser feito com habilidade e cuidado... e não rapidamente.~ [JANJAN30]
+@112  = ~Imediatamente, venerável.~ [JANJAN31]
+@113  = ~Farei isso por... em troca de um nabo.~ [JANJAN32]
+@114  = ~Você sabe, isso me lembra de... muito tempo atrás...~ [JANJAN33]
+@115  = ~não posso. Sou alérgico. Mas não tão alérgico quanto você pensa...~ [JANJAN34]
+@116  = ~Fizemos uma ótima parceria! Como Drizzt e Wulfgar! Elminster e Volo! Ha! Deveríamos fazer parceria para competir no mercado de entrega de vegetais em domicílio!~ [JANJAN35]
 @117  = ~Pegue isso, lixo não orgânico!~ [JANJAN36]
-@118  = ~ Polegar do Tio Palmada! ~ [JANJAN37]
-@119  = ~ Nem um arranhão? ~ [JANJAN38]
-@120  = ~ Eu carregaria o mundo se pudesse, mas você teria que embalá-lo em um pacote menor. Não tenho mais espaço.~ [JANJAN39]
-@121  = ~ Eu limpei os bolsos daquele cara. ~ [JANJAN40]
+@118  = ~Polegar do Tio Palmada! ~ [JANJAN37]
+@119  = ~Nem um arranhão? ~ [JANJAN38]
+@120  = ~Eu carregaria o mundo se pudesse, mas você teria que embalá-lo em um pacote menor. Não tenho mais espaço.~ [JANJAN39]
+@121  = ~Eu limpei os bolsos daquele cara. ~ [JANJAN40]
 @122  = ~NINGUÉM pode me ver agora!~ [JANJAN41]
-@123  = ~ Minha magia acabou. Sinto muito.~ [JANJAN42]
-@124  = ~ Eu preparei uma armadilha para os incautos pisarem. ~ [JANJAN43]
+@123  = ~Minha magia acabou. Sinto muito.~ [JANJAN42]
+@124  = ~Eu preparei uma armadilha para os incautos pisarem. ~ [JANJAN43]
 @125  = ~Cru, a senhora ogro~
-@126  = ~ Não é? O que você quer?~ [HUMAN01]
-@127  = ~ Nããão!!!~ [HUMAN09]
-@128  = ~ RAAAHHHHR! Morrer! Morra!~ [HUMAN05]
-@129  = ~ Eu destruirei o fraco! ~ [HUMAN06]
-@130  = ~[HUMANO 07]~ [HUMANO07]
-@131  = ~[HUMANO 08]~ [HUMANO08]
+@126  = ~Não é? O que você quer?~ [HUMAN01]
+@127  = ~Nããão!!!~ [HUMAN09]
+@128  = ~RAAAHHHHR! Morrer! Morra!~ [HUMAN05]
+@129  = ~Eu destruirei o fraco! ~ [HUMAN06]
+@130  = ~[HUMAN 07]~ [HUMAN07]
+@131  = ~[HUMAN 08]~ [HUMAN08]
 @132  = ~Eu olho para você!~ [HUMAN02]
-@133  = ~ Fale, humano! Fale rápido!.~ [HUMAN03]
-@134  = ~ Você e os meus não se dão bem.~ [HUMAN04]
+@133  = ~Fale, humano! Fale rápido!.~ [HUMAN03]
+@134  = ~Você e os meus não se dão bem.~ [HUMAN04]
 @135  = ~Chop, a senhora ogro~
 @136  = ~assistente de David~
 @137  = ~[FEMALE4B]~ [FEMALE4B]
@@ -284,24 +284,24 @@ Embora o título não pareça muito preciso, é o tipo de livro que historiadore
 
 Uma seção chama sua atenção: menciona que o fantasma de Myr'Cutio vagueia pelas ruínas da Escola de Magia Ulcaster em busca de aventura. Myr'Cutio? Você nunca ouviu esse nome antes, mas pode valer a pena investigar...~
 @172  = ~Cota de bardo~
-@173  = ~Esta cota de malla es ligera y estilizada.~
-@174  = ~Esta cota de malla alberga un pasado ilustre, ya que fue la armadura del notable bardo semielfo Myr'Cutio. Caminó por los Reinos buscando aventuras y, tan inquieta era su naturaleza que a su muerte, su espíritu y el de sus compañeros continuaron vagando...
+@173  = ~Esta cota de malla é leve e estilizada.~
+@174  = ~Esta cota de malla abriga uma ilustração passada, ya que foi a armadura do notável bardo semielfo Myr'Cutio. Caminhou pelos Reinos em busca de aventuras e, tão inquieto era sua naturalidade que sua morte, seu espírito e seus companheiros continuavam vagando...
 
-Hasta que fueron devueltos al descanso eterno por el grupo de <CHARNAME>, claro. A los aventureros no les interesan las figuras del pasado, pero aun así, la armadura es tuya: ligera, brillante y estilizada. ¿Qué más puede querer un bardo?
+Isto é, até que eles foram devolvidos ao descanso eterno pelo grupo de <CHARNAME>. Os aventureiros não se interessam pelas figuras do passado, mas também pelas suas armaduras: leves, brilhantes e estilizadas. O que mais um bardo poderia querer?
 
 CARACTERÍSTICAS:
 
-Clase de Armadura: 4
-Especial: Permite lanzar hechizos
+Classe de Armadura: 4
+Especial: Permite lançar feitiços
 Peso: 20
-Requiere: 8 fuerza
-Sólo puede ser usado por:
+Requer: 8 de força
+Só pode ser usado por:
  Bardo~
-@175  = ~Esta cota de malla alberga un pasado ilustre, ya que fue la armadura del notable bardo semielfo Myr'Cutio. Caminó por los Reinos buscando aventuras y, tan inquieta era su naturaleza que a su muerte, su espíritu y el de sus compañeros continuaron vagando...
+@175  = ~Esta cota de malha tem um passado ilustre, pois era a armadura do notável bardo meio-elfo Myr'Cutio. Ele caminhou pelos Reinos em busca de aventuras e, tão inquieto era seu caráter que após sua morte, seu espírito e o de seus companheiros continuaram vagando...
 
-Hasta que fueron devueltos al descanso eterno por el grupo de <CHARNAME>, claro. A los aventureros no les interesan las figuras del pasado, pero aun así, la armadura es tuya: ligera, brillante y estilizada. ¿Qué más puede querer un bardo?
+Isto é, até que eles foram devolvidos ao descanso eterno pelo grupo de <CHARNAME>. Os aventureiros não se interessam por figuras do passado, mas ainda assim, a armadura é sua: leve, brilhante e estilosa. O que mais um bardo poderia querer?
 
-Esta armadura fue mejorada por Halbazzer Drin de la tienda Artículos hechizados en Puerta de Baldur. Combinada los bombachos de oro otorga mayor protección, resultando tan estilizada como siempre.
+Esta armadura foi atualizada por Halbazzer Drin na loja de Spelt Items em Baldur's Gate. Combinado com os bloomers dourados, proporciona maior proteção, tornando-o mais estiloso do que nunca.
 
 CARACTERÍSTICAS:
 
@@ -312,7 +312,7 @@ Requer: 7 força
 Só pode ser usado por:
  Bardo~
 @176  = ~Archibaldo~
-@177  = ~  ¿Hmm?~ [GENMG03]
+@177  = ~Hmm?~ [GENMG03]
 @178  = ~[READR 05]~ [READR05]
 @179  = ~[READR 06]~ [READR06]
 @180  = ~Myr'Cutio~
@@ -362,7 +362,7 @@ CARACTERÍSTICAS:
 Peso: 5~
 @221  = ~Amuleto~
 @222  = ~Amuleto de aprendiz de Mago~
-@223  = ~Amuletos são geralmente objetos mágicos que costumam ser usados ​​ao redor do pescoço, pendurados em uma corrente. O tipo de corrente que acompanha o amuleto costuma aumentar o valor estético do item, mas não as propriedades mágicas. Você só pode usar um amuleto no pescoço.~
+@223  = ~Amuletos são geralmente objetos mágicos que costumam ser usados ??ao redor do pescoço, pendurados em uma corrente. O tipo de corrente que acompanha o amuleto costuma aumentar o valor estético do item, mas não as propriedades mágicas. Você só pode usar um amuleto no pescoço.~
 @224  = ~Este amuleto parece bastante vulgar, decorado com várias pedras grandes. Uma pequena inscrição em élfico no fecho diz que foi criado por Nadyala, a Verde, como uma tese para se formar como mágico na Escola de Magia de Ulcaster. O amuleto irradia energia mágica, mas como projeto de formatura parece inacabado. Você tem a impressão de que Nadyala pode tê-lo usado durante os exames.
 
   CARACTERÍSTICAS:
@@ -382,24 +382,24 @@ Permitido apenas alinhamentos malignos~
 @228  = ~Rosas murchas ~
 @229  = ~Este é um buquê de rosas murchas. Amélia, a Donzela, pediu para você trazê-los de volta à vida.~
 @230  = ~Rosas vermelhas~
-@231  = ~Este é um buquê de lindas rosas vermelhas. Sua cor é tão vermelha que lembra sangue humano. Provavelmente é hora de tirar férias dos seus inimigos. ~
+@231  = ~Este é um buquê de lindas rosas vermelhas. Sua cor é tão vermelha que lembra sangue humano. Provavelmente é hora de tirar férias dos seus inimigos.~
 @232  = ~Este é um buquê de lindas rosas vermelhas. Sua cor é tão vermelha que lembra sangue humano. Provavelmente é hora de tirar férias dos seus inimigos~
 @233  = ~Pó multicolorido~
-@234  = ~Esta é uma coleção de frascos cheios de pós multicoloridos. Devem ser usados ​​em decoração ou em brincadeiras infantis.~
+@234  = ~Esta é uma coleção de frascos cheios de pós multicoloridos. Devem ser usados ??em decoração ou em brincadeiras infantis.~
 @235  = ~Pó de Viajante~
-@236  = ~Esta é uma coleção de frascos cheios de pós multicoloridos. De acordo com Natan, um ladrão da Ponte Burnwine, os pós foram criados pelo último sobrevivente da escola de magia Ulcaster e podem ser usados ​​para inscrever glifos que abrem portais entre os planos. Infelizmente, a única pessoa que ainda sabe como traçar os glifos é a antiga serva de um bruxo - uma súcubo chamada Amelia. Sem o conhecimento deles, seria melhor não arriscar usá-los.~
+@236  = ~Esta é uma coleção de frascos cheios de pós multicoloridos. De acordo com Natan, um ladrão da Ponte Burnwine, os pós foram criados pelo último sobrevivente da escola de magia Ulcaster e podem ser usados ??para inscrever glifos que abrem portais entre os planos. Infelizmente, a única pessoa que ainda sabe como traçar os glifos é a antiga serva de um bruxo - uma súcubo chamada Amelia. Sem o conhecimento deles, seria melhor não arriscar usá-los.~
 @237  = ~Amélia~
 @238  = ~Natan~
 @239  = ~Rashel~
-@240  = ~Eu saúdo você, ó piedoso. ~ [GPRIF02] ~ Eu saúdo você, ó piedoso. ~ [GPRIF02]
+@240  = ~Eu saúdo você, ó piedoso.~ [GPRIF02]
 @241  = ~Demônio! Demônio!!~ [GPRIF08]
 @242  = ~Você é uma ofensa a tudo em que acredito!~ [GPRIF05]
 @243  = ~[GPRIF06]~ [GPRIF06]
 @244  = ~[GPRIF07]~ [GPRIF07]
-@245  = ~ Você é mais que bem-vindo à minha presença.~ [GPRIF01] ~ Você é mais que bem-vindo à minha presença.~ [GPRIF01]
-@246  = ~ Meu deus me protege e cuida de todos nós. ~ [GPRIF03]
-@247  = ~ Estou aqui para servir.~ [GPRIF04]
-@248  = ~[SHAR-TEEL 35] Pilha inútil de excremento masculino.~ [_SHART35]
+@245  = ~Você é mais que bem-vindo à minha presença.~ [GPRIF01]
+@246  = ~Meu deus me protege e cuida de todos nós.~ [GPRIF03]
+@247  = ~Estou aqui para servir.~ [GPRIF04]
+@248  = ~[SHAR-TEEL 35] Pilha inútil de excremento masculino.~ [%tutu_var%SHART35]
 @249  = ~Arco de Kivan~
 @250  = ~Sua esposa Deheriana deu este arco para Kivan como presente de casamento.
 
@@ -436,18 +436,18 @@ Kivan~
 @267  = ~[ELSOL107]~ [ELSOL107]
 @268  = ~[ELSOL105]~ [ELSOL105]
 @269  = ~[ELSOL106]~ [ELSOL106]
-@270  = ~ Os escuros nunca nos conquistarão.~ [ELSOL103]
-@271  = ~ Os Seldarine nos contemplam... hoje, a vitória será nossa.~ [ELSOL104]
+@270  = ~Os escuros nunca nos conquistarão.~ [ELSOL103]
+@271  = ~Os Seldarine nos contemplam... hoje, a vitória será nossa.~ [ELSOL104]
 @272  = ~Keth'sim Dwin'anea~
 @273  = ~Keth'sim~
 @274  = ~pergaminho rasgado~
 @275  = ~[Página do pergaminho rasgado]Página
 
-Este trozo de pergamino está rasgado por el borde, como si hubiese sido arrancado de un libro. La superficie está completamente cubierta de una intrincada escritura que parece cambiar de forma cada vez que la miráis.
+Este pedaço de pergaminho está rasgado nas bordas, como se tivesse sido arrancado de um livro. A superfície está completamente coberta por uma escrita complexa que parece mudar de forma cada vez que você olha para ela.
 
-No encontráis patrón, rima ni significado alguno a los símbolos, aunque no parecen ser mágicos.
+Você não encontra nenhum padrão, rima ou significado nos símbolos, embora eles não pareçam mágicos.
 
-Esto parece importante. Tal vez debáis conservarlo. ~
+Isto parece importante. Talvez você devesse mantê-lo.~
 @276  = ~Diario de Dynaheir~
 @277  = ~[Diario de Dynaheir]Texto em código Hathran
 
@@ -477,7 +477,7 @@ Você não encontra nenhum padrão, rima ou significado nos símbolos, embora el
 @298  = ~[VOLO 9]~ [%tutu_var%VOLOO09]
 @299  = ~[VOLO 4] É surpreendente o que você pode aprender em uma simples feira municipal.~ [%tutu_var%VOLOO04]
 @300  = ~[VOLO 5] Eu viajei por toda Faerûn e algo novo sempre acontece.~ [%tutu_var%VOLOO05]
-@301  = ~[VOLO 6] EVocê se diverte muito com o ponteiro, certo? E depois de apenas uma bebida também.~ [%tutu_var%VOLOO06] ~[VOLO 6] Você se diverte muito com o ponteiro, certo? E depois de apenas uma bebida também.~ [%tutu_var%VOLOO06]
+@301  = ~[VOLO 6] Você se diverte muito com o ponteiro, certo? E depois de apenas uma bebida também.~ [%tutu_var%VOLOO06]
 @302  = ~[VOLO 7] Tenho uma história para cada homem, mulher e criança de Faerûn. No entanto, as leis de direitos autorais me impedem de narrá-los.~ [%tutu_var%VOLOO07]
 @303  = ~Poeta do lago Rob~
 @304  = ~Rob~
@@ -487,10 +487,10 @@ Você não encontra nenhum padrão, rima ou significado nos símbolos, embora el
 @308  = ~Fluido Vermelho Pálido~
 @309  = ~Icor da Dríade dos Picos Nublados~
 @310  = ~Oi, oi, oi!
-                        Preciso dizer mais!
+                        Preciso dizer mais!~
 @311  = ~Este fluido pálido é o icor da dríade de Misty Peaks, que por confiar em você foi assassinada pelo necromante louco, Xzar.~
 @312  = ~Anel de Mitrhal~
-@313  = ~Um anel é uma pequena faixa de metal precioso usada como joia. À primeira vista parece um simples anel de prata, mas qualquer anão poderia encontrar nele uma dúzia de qualidades. É feito de mitral, ​​ou “prata verdadeira”. Este metal é fácil de trabalhar. Pode ser polido para brilhar como prata, nunca escurece e é mais forte que o aço. Embora ainda não esteja encantado, é apenas uma questão de tempo. Os feiticeiros gostam de artefatos de mitral porque são muito duráveis. Pode valer a pena mantê-lo.~
+@313  = ~Um anel é uma pequena faixa de metal precioso usada como joia. À primeira vista parece um simples anel de prata, mas qualquer anão poderia encontrar nele uma dúzia de qualidades. É feito de mitral, ??ou “prata verdadeira”. Este metal é fácil de trabalhar. Pode ser polido para brilhar como prata, nunca escurece e é mais forte que o aço. Embora ainda não esteja encantado, é apenas uma questão de tempo. Os feiticeiros gostam de artefatos de mitral porque são muito duráveis. Pode valer a pena mantê-lo.~
 @314  = ~Anel de Defesa Mental~
 @315  = ~Encantado com o sangue da dríade morta, este anel protege o usuário do feitiço Encantar Pessoa. Também permite que o usuário lance Charm Person 1/dia. No entanto, o sangue da criatura morta se contorce em agonia visível sob a superfície do metal, repulsivo para qualquer pessoa de bom coração.
 
@@ -506,31 +506,31 @@ Alinhamentos Neutros e Malignos~
 @317  = ~A natureza sabe muito sobre você.~ [DRYAD02]
 @318  = ~[DRYAD08]~ [DRYAD08]
 @319  = ~[DRYAD09]~ [DRYAD09]
-@320  = ~  As árvores falam da sua presença.~ [DRYAD01]
-@321  = ~ Você nunca mais irá manchar o chão em que pisa!~ [SUAVAT03]
-@322  = ~ Colha o que você plantou!~ [SUAVAT04]
+@320  = ~As árvores falam da sua presença.~ [DRYAD01]
+@321  = ~Você nunca mais irá manchar o chão em que pisa!~ [SUAVAT03]
+@322  = ~Colha o que você plantou!~ [SUAVAT04]
 @323  = ~[SUAVAT05]~ [SUAVAT05]
 @324  = ~[SUAVAT06]~ [SUAVAT06]
-@325  = ~ Tudo o que puder ser feito, será feito.~ [SUAVAT01]
+@325  = ~Tudo o que puder ser feito, será feito.~ [SUAVAT01]
 @326  = ~Amora~
-@327  = ~ Saudações. Eu posso sentir seu poder.~ [EPRIM01]
-@328  = ~ Piedade! Tenha piedade!~ [EPRIM08]
-@329  = ~ Você vai implorar pela morte quando eu terminar com você!~ [EPRIM05]
+@327  = ~Saudações. Eu posso sentir seu poder.~ [EPRIM01]
+@328  = ~Piedade! Tenha piedade!~ [EPRIM08]
+@329  = ~Você vai implorar pela morte quando eu terminar com você!~ [EPRIM05]
 @330  = ~[EPRIM06]~ [EPRIM06]
 @331  = ~[EPRIM07]~ [EPRIM07]
-@332  = ~ O que você deseja dos devotos?~ [EPRIM02]
+@332  = ~O que você deseja dos devotos?~ [EPRIM02]
 @333  = ~Tormenta~
-@334  = ~  Vamos dançar?~ [HVILLM02]
-@335  = ~ Nos encontraremos novamente!~ [HVILLM08]
-@336  = ~ Eu vou estripar você!!~ [HVILLM05]
+@334  = ~Vamos dançar?~ [HVILLM02]
+@335  = ~Nos encontraremos novamente!~ [HVILLM08]
+@336  = ~Eu vou estripar você!!~ [HVILLM05]
 @337  = ~[HVILLM06]~ [HVILLM06]
 @338  = ~[HVILLM07]~ [HVILLM07]
-@339  = ~ Tolo, prepare-se para ser aberto. ~ [HVILLM01] ~ Tolo, prepare-se para ser aberto.~ [HVILLM01]
+@339  = ~Tolo, prepare-se para ser aberto. ~ [HVILLM01] ~ Tolo, prepare-se para ser aberto.~ [HVILLM01]
 @340  = ~Zosya~
-@341  = ~ Não cause problemas à natureza ou ela fará o mesmo com você.~ [DRUID02]
+@341  = ~Não cause problemas à natureza ou ela fará o mesmo com você.~ [DRUID02]
 @342  = ~[DRUID05]~ [DRUID05]
 @343  = ~[DRUID06]~ [DRUID06]
-@344  = ~ Caberia a você tomar cuidado com seus passos enquanto permanece nesta floresta.~ [DRUID01]
+@344  = ~Caberia a você tomar cuidado com seus passos enquanto permanece nesta floresta.~ [DRUID01]
 @345  = ~A civilização parece distante, morador da cidade.~ [DRUID03]
 @346  = ~Oficial do Punho Flamejante~
 @347  = ~Bem Olá. Não sei o que você espera encontrar aqui, mas talvez tenha entrado na casa errada. Sou Galteran e aproveitei meu tempo livre para fazer limpeza. Não há muita procura pela minha profissão agora, com as caravanas paradas... tudo bem. É melhor continuar seu caminho, por favor.~
@@ -541,8 +541,8 @@ Alinhamentos Neutros e Malignos~
 @352  = ~[FLAMING FIST SOLDIER 6]~ [%tutu_var%FLAMN06]
 @353  = ~[FLAMING FIST SOLDIER 4] Ei, aqui! 50 abdominais!~ [%tutu_var%FLAMN04]
 @354  = ~[MALE THREAT 2] Você está ganhando. Espere e veja.~ [%tutu_var%GENMT02]
-@355  = ~ Escolta do Punho Flamejante~
-@356  = ~ Você não é bem-vindo aqui! ~ ~ Você não é bem-vindo aqui!~
+@355  = ~Escolta do Punho Flamejante~
+@356  = ~[FLAMING FIST MERCENARY ENFORCER HOSTILE] Você não é bem-vindo aqui!~
 @357  = ~Mago de Combate Punho Flamejante~
 @358  = ~[FLAMING FIST SOLDIER 4] ¡Oíd, aquí! ¡50 abdominales!~ [%tutu_var%FLAMN04]
 @359  = ~Clava~
@@ -559,7 +559,7 @@ Tipo de Talento: Armas Contundentes
 Tipo: Uma mão
 Não é permitido:
 Assistente ~
-@362 = ~Este porrete encantado foi tirado do corpo de um Druida das Sombras e dado a <CHARNAME> por Seniyad, o Arquidruida da Floresta Oculta. Embora as origens desta arma mortal, embora aparentemente simples, sejam desconhecidas, seu nome e conexão com o elemento relâmpago trazem à mente os clérigos de Talos. Embora forças potencialmente malignas estivessem envolvidas em sua criação, seus feitiços não detectam nenhuma energia malévola e, portanto, são seguros para qualquer druida que queira usá-los.
+@362  = ~Este porrete encantado foi tirado do corpo de um Druida das Sombras e dado a <CHARNAME> por Seniyad, o Arquidruida da Floresta Oculta. Embora as origens desta arma mortal, embora aparentemente simples, sejam desconhecidas, seu nome e conexão com o elemento relâmpago trazem à mente os clérigos de Talos. Embora forças potencialmente malignas estivessem envolvidas em sua criação, seus feitiços não detectam nenhuma energia malévola e, portanto, são seguros para qualquer druida que queira usá-los.
 
 CARACTERÍSTICAS:
 
@@ -588,7 +588,7 @@ druida~
 @374  = ~Druida~
 @375  = ~Druida da Floresta Encoberta~
 @376  = ~Este será um processo lento e doloroso.~ [HVILLM03]
-@377  = ~ Você vai sofrer... ah sim.~ [HVILLM04]
+@377  = ~Você vai sofrer... ah sim.~ [HVILLM04]
 @378  = ~Lança flamejante +1~
 @379  = ~A ponta desta lança mostra runas que simbolizam as forças da natureza. Diz a lenda que esta arma foi criada por um poderoso Arquidruida de Norland para ajudar a terra e seu dono nos invernos mais rigorosos. Também provou ser uma grande arma contra os gigantes do gelo.
 
@@ -641,7 +641,7 @@ Não é permitido:
 @412  = ~Você viverá enquanto eu permitir.~ [BODHIX01]
 @413  = ~Lassal~
 @414  = ~Seu sangue é muito tentador.~ [VAMPM01]
-@415  = ~Seu idiota, isso não termina aqui!~ [VAMPM09] ~Seu idiota, isso não termina aqui!~ [VAMPM09]
+@415  = ~Seu idiota, isso não termina aqui!~ [VAMPM09]
 @416  = ~Venha! O abraço espera por você!~ [VAMPM05]
 @417  = ~Mortal, sua existência termina aqui!~ [VAMPM06]
 @418  = ~[VAMPM07]~ [VAMPM07]
@@ -673,21 +673,21 @@ Não é permitido:
 @444  = ~[FEMALE THREAT 1] Pode ser pouco elegante, mas vou cortar suas gargantas, acho que sim!~  [%tutu_var%GENFT01]
 @445  = ~[FEMALE TOWNSFOLK 5]~ [%tutu_var%FTOWN05]
 @446  = ~[FEMALE TOWNSFOLK 6]~ [%tutu_var%FTOWN06]
-@447  = ~[FEMALE GREETING 1] ¿Sí?~ [%tutu_var%GENFG01]
+@447  = ~[FEMALE GREETING 1] Sim?~ [%tutu_var%GENFG01]
 @448  = ~Bhetel~
 @449  = ~[FEMALE THREAT 6] Sua vida não significa nada para mim.~ [%tutu_var%GENFT06]
 @450  = ~[ITHMEERA 3]~ [%tutu_var%ITHMR03]
 @451  = ~[ITHMEERA 4]~ [%tutu_var%ITHMR04]
 @452  = ~[FEMALE GREETING 6] Posso ajudar?~ [%tutu_var%GENFG06]
 @453  = ~Sveetla~
-@454  = ~[FEMALE GREETING 5] Sim, amigo?~ [%tutu_var%GENFG05] ~[FEMALE GREETING 5] ¿Sim amiga?~ [%tutu_var%GENFG05]
+@454  = ~[FEMALE GREETING 5] Sim, amigo(a)?~ [%tutu_var%GENFG05]
 @455  = ~[LOW CLASS WOMAN 2]~ [%tutu_var%WOMLC02]
 @456  = ~Dynaheir~
 @457  = ~[DYNAHEIR 17] Você ligou?~ [%tutu_var%DYNAH17]
 @458  = ~[DYNAHEIR 3] Exato! E eu estou sempre certo!~ [%tutu_var%DYNAH03]
 @459  = ~[DYNAHEIR 38]~ [%tutu_var%DYNAH38]
 @460  = ~[DYNAHEIR 39]~ [%tutu_var%DYNAH39]
-@461  = ~[DYNAHEIR 19] Seu desejo, meu senhor?~  [%tutu_var%DYNAH19] ~[DYNAHEIR 19] Seu desejo, minha senhora?~  [%tutu_var%DYNAH19]
+@461  = ~[DYNAHEIR 19] Seu desejo, meu senhor?~ [%tutu_var%DYNAH19]
 @462  = ~Setta~
 @463  = ~Sejam bem-vindos, gentil cliente. Para você só o melhorr~ [FEMER01]
 @464  = ~[FEMER05]~ [FEMER05]
@@ -707,7 +707,7 @@ E eu, o monge Dominique, transcrevi nesta carta as palavras da mencionada Lady D
 @470  = ~Retrato de <CHARNAME>~
 @471  = ~Esta é uma página do diário de Dynaheir com um desenho a tinta de <CHARNAME>. Embora não tenha muita qualidade artística, cada pincelada foi feita com cuidado e amor.~
 @472  = ~[MALE TOWNSFOLK 6]~ [%tutu_var%MTOWN06]
-@473  = ~[MALE TOWNSFOLK 5]~ [%tut_var%VILLM05]
+@473  = ~[MALE TOWNSFOLK 5]~ [%tutu_var%VILLM05]
 @474  = ~[MALE GREETING 1] Sim?~ [%tutu_var%GENMG01]
 @475  = ~Você se encontra em uma antiga caverna subterrânea, com esboços de deuses antigos e há muito esquecidos pintados em suas paredes. Azul e laranja; seu paladar se encolhe ao ver essas cores berrantes. Você está se movendo pelo corredor estreito, aprofundando-se no labirinto, e sabe que existe uma possibilidade real de não retornar. Você não quer.
 
@@ -1019,7 +1019,7 @@ Peso: 1~
 STATISTICS:
 
 abilidadeses de Combate:
- Retorna para a mão do usuário quando arremessado
+? Retorna para a mão do usuário quando arremessado
 
 TAC0: +2
 Dano: 2d4+2
@@ -1072,8 +1072,8 @@ Habilidades de carga:
    Área de Efeito: 1 criatura
 
 Peso: 6 ~
-@772 = ~Paralisador~
-@773 = ~Qualquer alvo atingido por este raio deve fazer um teste de resistência ou ficará paralisado por 5 rodadas.
+@772  = ~Paralisador~
+@773  = ~Qualquer alvo atingido por este raio deve fazer um teste de resistência ou ficará paralisado por 5 rodadas.
 
 STATISTICS:
 
