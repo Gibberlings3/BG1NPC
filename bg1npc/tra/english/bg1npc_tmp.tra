@@ -732,206 +732,206 @@ CARACTERISTICAS:
 
 Pode lançar Proteção contra o Mal no transportador uma vez por dia.
 
-Cannot be used by:
- Creatures of evil alignment~
-@479  = ~Ajantis' Engagement Ring~
-@480  = ~Engagement Ring
+Não pode ser usado por:
+  Criaturas de alinhamento maligno ~
+@479  = ~Anel de noivado de Ajantis~
+@480  = ~Anel de noivado
 
-This is the engagement ring that Ajantis gave to you. The ring is an Ilvastarr family treasure. It is ornamented in a rather plain way, with only a few elaborate decorations around a light-blue gem.~
+Este é o anel de noivado que Ajantis deu a você. O anel é um tesouro da família Ilvastarr. É ornamentado de forma bastante simples, com apenas algumas decorações elaboradas em torno de uma gema azul clara.
 @481  = ~Douglas~
-@482  = ~Good day to you.~ [GNMAL02]
-@483  = ~Justice shall be swift and final!~ [GNMAL03]
+@482  = ~Bom dia para você.~ [GNMAL02]
+@483  = ~A justiça será rápida e final!~ [GNMAL03]
 @484  = ~[KAYLXX04]~ [KAYLXX04]
 @485  = ~[MANCO04]~ [MANCO04]
-@486  = ~You are welcome here.~ [GNMAL01]
-@487  = ~Are you looking at me?  Are you looking at me!~ [AMNSO04]
-@488  = ~[MALE THREAT 3] I've a blade with your name on it.~ [%tutu_var%GENMT03]
-@489  = ~Mirror: Lover's Eyes~
-@490  = ~Mirror: Lover's Eyes
-This is a small if rather ornate mirror, given to <CHARNAME> by her companion, Coran, as a courting gift. The mirror took after the man who has created it, so it is prone to sweet talking, complimenting and bluntly flattering <CHARNAME>. Whatever it says, should be, perhaps, taken with a grain of salt: the mirror was known to praise <CHARNAME>'s unearthly beauty just as she was cleaning dirt and blood off of her face after a battle.
+@486  = ~Você é bem vindo aqui.~ [GNMAL01]
+@487  = ~Você está olhando para mim? Você está olhando para mim! ~ [AMNSO04]
+@488  = ~[MALE THREAT 3] Tenho uma lâmina com o seu nome.~ [%tutu_var%GENMT03]
+@489  = ~Espelho: Olhos do Amante~
+@490  = ~Espelho: Olhos do Amante
+Este é um espelho pequeno, mas bastante ornamentado, dado a <CHARNAME> por seu companheiro, Coran, como presente de cortejo. O espelho seguiu o homem que o criou, por isso é propenso a falar docemente, elogiar e lisonjear <CHARNAME> sem rodeios. O que quer que esteja escrito, talvez deva ser encarado com cautela: o espelho era conhecido por elogiar a beleza sobrenatural de <CHARNAME> enquanto ela limpava a sujeira e o sangue de seu rosto após uma batalha.
 
-SPECIAL:
-Is, by all signs, permanently infatuated with <CHARNAME>
-Will talk even if not spoken to
-When looking in this mirror, <CHARNAME> appears prettier than she is~
-@491  = ~Master O'Challenges~
-@492  = ~Master of Challenges~
-@493  = ~I've traveled the length and breadth of Faerun, and there's always something new.~ [VOLOO05]
-@494  = ~This is not my day at all!~ [VOLOO02]
-@495  = ~Perhaps some other time!  I'm not in the mood for fighting, today!  Or any day!~ [VOLOO03]
+ESPECIAL:
+Está, ao que tudo indica, permanentemente apaixonado por <CHARNAME>
+Falará mesmo que não seja falado
+Ao olhar neste espelho, <CHARNAME> parece mais bonita do que é~
+@491  = ~Mestre O'Challenges ~
+@492  = ~Mestre dos Desafios~
+@493  = ~Eu viajei por toda Faerun, e sempre há algo novo.~ [VOLOO05]
+@494  = ~Este não é meu dia!~ [VOLOO02]
+@495  = ~Talvez em outra hora! Não estou com vontade de brigar hoje! Ou qualquer dia!~ [VOLOO03]
 @496  = ~[VOLOO08]~ [VOLOO08]
 @497  = ~[VOLOO09]~ [VOLOO09]
-@498  = ~'Tis surprising what one can learn at a simple country fair.~ [VOLOO04]
-@499  = ~Awfully familiar with that pointer, aren't you?  And after only one drink, too.~ [VOLOO06]
-@500  = ~I've a story for every man, woman, and child in Faur'n.  However, copyright laws forbid me the telling.~ [VOLOO07]
+@498  = ~'É surpreendente o que se pode aprender em uma simples feira rural.~ [VOLOO04]
+@499  = ~Muito familiarizado com esse ponteiro, não é? E depois de apenas um drink também.~ [VOLOO06]
+@500  = ~Tenho uma história para cada homem, mulher e criança em Faur'n. No entanto, as leis de direitos autorais me proíbem de contar.~ [VOLOO07]
 @501  = ~Xvart~
 @502  = ~[XVART 03] Eeeeeeeeeeeeeeeeee!~ [%tutu_var%XVART03]
 @503  = ~[XVART 05]~ [%tutu_var%XVART05]
 @504  = ~[XVART 06]~ [%tutu_var%XVART06]
 @505  = ~[XVART 08]~ [%tutu_var%XVART08]
 @506  = ~[XVART 09]~ [%tutu_var%XVART09]
-@507  = ~[XVART 01] Humanoid scuz suckers.~ [%tutu_var%XVART01]
-@508  = ~[XVART 02] Die, snot heads.~ [%tutu_var%XVART02]
-@509  = ~Coran, The Peerless Archer~
-@510  = ~[CORAN 21] Great peril yields great beauty.~ [%tutu_var%CORAN21]
-@511  = ~[CORAN 2] This adventure has gotten out of hand.~ [%tutu_var%CORAN02]
+@507  = ~[XVART 01] Otários scuz humanóides.~ [%tutu_var%XVART01]
+@508  = ~[XVART 02] Morram, cabeças melequentas.~ [%tutu_var%XVART02]
+@509  = ~Coran, o Arco Inigualável~
+@510  = ~[CORAN 21] Grande perigo produz grande beleza.~ [%tutu_var%CORAN21]
+@511  = ~[CORAN 2] Esta aventura saiu do controle.~ [%tutu_var%CORAN02]
 @512  = ~[CORAN 3]~ [%tutu_var%CORAN03]
 @513  = ~[CORAN 38]~ [%tutu_var%CORAN38]
 @514  = ~[CORAN 39]~ [%tutu_var%CORAN39]
-@515  = ~[CORAN 11] It's only a flesh wound.~ [%tutu_var%CORAN11]
-@516  = ~[CORAN 17] Yes?~ [%tutu_var%CORAN17]
-@517  = ~[CORAN 18] What is your bidding?~ [%tutu_var%CORAN18]
-@518  = ~[CORAN 19] Life is adventure or nothing.~ [%tutu_var%CORAN19]
-@519  = ~Ajantis, The Knight~
-@520  = ~[AJANTIS 02] What cowardice is this!  Return to where you are needed.~ [%tutu_var%AJANT02]
-@521  = ~[AJANTIS 31] I can bear no more.  Raise your weapon and defend yourself.~ [%tutu_var%AJANT31]
-@522  = ~[AJANTIS 03] For the glory of Helm!~ [%tutu_var%AJANT03]
-@523  = ~[AJANTIS 07] Your evil ways end here.  Draw steel and we will settle this dispute once and for all.~ [%tutu_var%AJANT07]
-@524  = ~[AJANTIS 07] Your evil ways end here.  Draw steel and we will settle this dispute once and for all.~ [%tutu_var%AJANT03]
+@515  = ~[CORAN 11] É apenas um ferimento superficial.~ [%tutu_var%CORAN11]
+@516  = ~[CORAN 17] Sim?~ [%tutu_var%CORAN17]
+@517  = ~[CORAN 18] Qual é o seu lance?~ [%tutu_var%CORAN18]
+@518  = ~[CORAN 19] A vida é aventura ou nada.~ [%tutu_var%CORAN19]
+@519  = ~Ajantis, o Cavaleiro~
+@520  = ~[AJANTIS 02] Que covardia é essa! Volte para onde você é necessário.~ [%tutu_var%AJANT02]
+@521  = ~[AJANTIS 31] Não aguento mais. Levante sua arma e defenda-se.~ [%tutu_var%AJANT31]
+@522  = ~[AJANTIS 03] Para a glória de Helm!~ [%tutu_var%AJANT03]
+@523  = ~[AJANTIS 07] Seus maus caminhos terminam aqui. Desembaie o aço e resolveremos esta disputa de uma vez por todas.~ [%tutu_var%AJANT07]
+@524  = ~[AJANTIS 07] Seus maus caminhos terminam aqui. Desenhe aço e resolveremos esta disputa de uma vez por todas.~ [%tutu_var%AJANT03]
 @525  = ~[AJANTIS 38]~ [%tutu_var%AJANT38]
 @526  = ~[AJANTIS 39]~ [%tutu_var%AJANT39]
-@527  = ~[AJANTIS 11] I am in need of aid.~ [%tutu_var%AJANT11]
-@528  = ~[AJANTIS 17] My honor is my life.~ [%tutu_var%AJANT17]
-@529  = ~[AJANTIS 21] With Helm's blessing.~ [%tutu_var%AJANT21]
-@530  = ~[AJANTIS 19] By Helm!~ [%tutu_var%AJANT19]
-@531  = ~[AJANTIS 18] Helm, give me strength.~ [%tutu_var%AJANT18]
-@532  = ~[AJANTIS 20] As you will.~ [%tutu_var%AJANT20]
+@527  = ~[AJANTIS 11] Estou precisando de ajuda.~ [%tutu_var%AJANT11]
+@528  = ~[AJANTIS 17] Minha honra é minha vida.~ [%tutu_var%AJANT17]
+@529  = ~[AJANTIS 21] Com a bênção de Helm.~ [%tutu_var%AJANT21]
+@530  = ~[AJANTIS 19] Por Helm!~ [%tutu_var%AJANT19]
+@531  = ~[AJANTIS 18] Helm, me dê forças.~ [%tutu_var%AJANT18]
+@532  = ~[AJANTIS 20] Como você quiser.~ [%tutu_var%AJANT20]
 @533  = ~Elhan~
-@534  = ~You shall not find the elves a simple target!~ [ELHAN103]
-@535  = ~Die on the edge of elven steel!~ [ELHAN104]
+@534  = ~Você não verá que os elfos são um alvo simples!~ [ELHAN103]
+@535  = ~Morra no limite do aço élfico!!~ [ELHAN104]
 @536  = ~[ELHAN105]~ [ELHAN105]
 @537  = ~[ELHAN106]~ [ELHAN106]
-@538  = ~There is much to be done, yet.~ [ELHAN101]
-@539  = ~Queen Ellesime~
-@540  = ~I call upon the Seldarine to stop you!~ [ELLESI03]
-@541  = ~Your reign of terror stops here, I swear!~ [ELLESI04]
+@538  = ~Ainda há muito a ser feito.~ [ELHAN101]
+@539  = ~Rainha Ellesime~
+@540  = ~Eu invoco o Seldarine para detê-lo!~ [ELLESI03]
+@541  = ~Seu reinado de terror termina aqui, eu juro!~ [ELLESI04]
 @542  = ~[ELLESI05]~ [ELLESI05]
 @543  = ~[ELLESI06]~ [ELLESI06]
-@544  = ~I greet you in the name of Suldanessellar.~ [ELLESI01]
-@545  = ~Silver Dragon~
-@546  = ~Red Dragon~
+@544  = ~Saúdo você em nome de Suldanessellar.~ [ELLESI01]
+@545  = ~Dragão Prateado~
+@546  = ~Dragão Vermelho~
 @547  = ~Cautz'qu'ati'kan~
-@548  = ~Time to perish, manling!~ [FIRKRA03]
+@548  = ~É hora de morrer, humano~ [FIRKRA03]
 @549  = ~[FIRKRA04]~ [FIRKRA04]
 @550  = ~[FIRKRA04]~ [FIRKRA05]
 @551  = ~[FIRKRA06]~ [FIRKRA06]
-@552  = ~Oh, bother...~ [FIRKRA01]
-@553  = ~Cautz'qu'ati'kan's hubby~
+@552  = ~Ah, não importa...~ [FIRKRA01]
+@553  = ~Marido de Cautz'qu'ati'kan's~
 @554  = ~[FIRKRA05]~ [FIRKRA05]
 @555  = ~[MAREK 3]~ [%tutu_var%MAREK03]
 @556  = ~[MAREK 4]~ [%tutu_var%MAREK04]
-@557  = ~[GNOME 3] Who you are, know not I.~ [%tutu_var%GNOME03]
-@558  = ~[GNOME 1] I am happy not, no I'm not.~ [%tutu_var%GNOME01]
+@557  = ~[GNOME 3] Quem é você, eu não sei.~ [%tutu_var%GNOME03]
+@558  = ~[GNOME 1] Estou feliz, não, não, não estou..~ [%tutu_var%GNOME01]
 @559  = ~[GNOME 5]~ [%tutu_var%GNOME05]
 @560  = ~[GNOME 6]~ [%tutu_var%GNOME06]
-@561  = ~[GNOME 2] Happy I am, yes I am.~ [%tutu_var%GNOME02]
+@561  = ~[GNOME 2] Feliz estou, sim, estou.~ [%tutu_var%GNOME02]
 @562  = ~[RAIKEN 3]~ [%tutu_var%RAIKN03]
 @563  = ~[RAIKEN 4]~ [%tutu_var%RAIKN04]
 @564   = ~Drizzt~
-@565   = ~[DRIZZT DO'URDEN 1] All I wish is to continue my journey!  Friends await, while I must suffer this tiresome dance?!  Does the mere mention of Drizzt attract your ilk?!~ [%tutu_var%DRIZT01]
+@565   = ~[DRIZZT DO'URDEN 1] Tudo que desejo é continuar minha jornada! Amigos me aguardam, enquanto devo sofrer essa cansativa dança?! A simples menção de Drizzt atrai sua turma?!~ [%tutu_var%DRIZT01]
 @566   = ~[DRIZZT DO'URDEN 2]~ [%tutu_var%DRIZT02]
-@567   = ~[DRIZZT DO'URDEN 3] 'Tis your lives to waste!~ [%tutu_var%DRIZT03]
+@567   = ~[DRIZZT DO'URDEN 3] 'Suas vidas serão desperdiçadas!~ [%tutu_var%DRIZT03]
 @568   = ~[DRIZZT DO'URDEN 8]~ [%tutu_var%DRIZT08]
 @569   = ~[DRIZZT DO'URDEN 9]~ [%tutu_var%DRIZT09]
-@570   = ~[DRIZZT DO'URDEN 6] All this chatter is fine, but I've places I'd rather be.~ [%tutu_var%DRIZT06]
-@571   = ~[DRIZZT DO'URDEN 7] Don't poke Drizzt.  'Tis entirely unsociable.~ [%tutu_var%DRIZT07]
-@572   = ~[DRIZZT DO'URDEN 4] I am a gentle man at heart.  At least, when I'm not slaughtering the stupid.~ [%tutu_var%DRIZT04]
-@573   = ~[DRIZZT DO'URDEN 5] I've sparred with demons from the nine hells themselves!  I shall barely break a sweat here today!~ [%tutu_var%DRIZT05]
-@574  = ~[DRIZZT HOSTILE] I'll not spend another minute in the presence of such as you.~
-@575  = ~The Personal Diary of Sarevok
+@570   = ~[DRIZZT DO'URDEN 6] Toda essa conversa é boa, mas tenho lugares onde prefiro estar.~ [%tutu_var%DRIZT06]
+@571   = ~[DRIZZT DO'URDEN 7] Não cutuque Drizzt. 'É totalmente insociável.~ [%tutu_var%DRIZT07]
+@572   = ~[DRIZZT DO'URDEN 4] Eu sou um homem gentil de coração. Pelo menos, quando não estou massacrando os idiotas.~ [%tutu_var%DRIZT04]
+@573   = ~[DRIZZT DO'URDEN 5] Eu já lutei com demônios dos nove infernos! Mal vou suar aqui hoje!~ [%tutu_var%DRIZT05]
+@574  = ~[DRIZZT HOSTILE] Não vou passar nem mais um minuto na presença de pessoas como você.~
+@575  = ~O Diário Pessoal de Sarevok
 
-This diary looks to be important.  You should probably keep it on your person, as it could be a key piece of incriminating evidence regarding Sarevok's involvement in the iron crisis and bandit raids, as well as some rather interesting insight into his murderous heritage. Some of the more relevant entries are as follows:
+Este diário parece ser muito importante. Você provavelmente deveria mantê-lo seguro, pois poderia ser uma evidência incriminatória crucial relacionada ao envolvimento de Sarevok na Crise de Ferro e nos ataques de bandidos, bem como alguns insights bastante interessantes sobre sua herança. Algumas das notas mais relevantes são as seguintes:
 
 
-21st of Nightal, 1366:  Father seems to be plotting something major, but as usual, he is not revealing any details of the plan to me.  The conversations in his study lately have tended toward the Cloakwood and its natural defenses, and pumping water from caves.  I have been able to piece together nothing from this, nor do I know the men who have been visiting him.  This will change.
+Nightal 21, 1366: Papai parece estar tramando algo importante, mas como sempre, ele não me revela nenhum detalhe do plano. Ultimamente, as conversas em seu estúdio têm se voltado para a Floresta do Cabo e suas defesas naturais, e para o bombeamento de água das cavernas. Não consegui relatar nada disso, nem conheço os homens que o visitaram. Em breve isso mudará.
 
-11th of Ches, 1367:  Another violent dream.  I was a boy again, and a dog was barking at me, so I killed it with the dagger I found in my hand, the same bone dagger from the other dreams.  Mother started to chastise me, and I ripped out her throat.  Her blood was fresh, but I already had old blood on my hands, and my fingers had strangely turned into claws.  The dog's head came back to life; its eyes were solid black.  "Like father, like son," it said.  I felt quite calm during the dream, but when I awoke I found I had been crying.  Is this weakness?  I must expunge it.
+Ches 11, 1367: Tive outro sonho violento. Ele era uma criança novamente. Um cachorro estava latindo para mim, então o matei com a adaga que encontrei na mão, a mesma adaga de osso dos outros sonhos. Mamãe começou a me repreender até que eu rasguei sua garganta. Seu sangue era jovem, mas não era a primeira vez que fazia isso; meus dedos se transformaram estranhamente em garras. A cabeça do cachorro ressuscitou; Seus olhos eram de um preto intenso. “Tal pai, tal filho”, disse ele. Me senti muito calmo durante o sonho, mas quando acordei percebi que tinha chorado. Isso é fraqueza? Devo excluí-lo o mais rápido possível.
 
-14th of Mirtul, 1367:  The ceremony marking the completion of my Deathbringer training seemed rather anticlimactic to me, but my performance seems to have impressed Father.  He took me aside and informed me that tomorrow, he shall reveal to me what he has been plotting these past few months, and even grant me a major role in it, if his associates agree.  He assures me that it is a far-reaching plan, and I should not be disappointed with my responsibilities.  My interest is quite piqued.
-Cythandria was also quite pleased with my display this morning, so much so that it took her hours to fully express her appreciation.  When we first grew close, I remember how glad I was to find someone who was not repulsed by my affinity for death, but tonight I realized that her thirst is not like mine after all:  She has no real desire to get in close and perform the deed herself, she prefers to derive her thrill vicariously.  And whether she feels the genuine rush of bloodlust as I do, or if she merely thinks of it as a way to excite her arousal, I am not sure. . . but I fear it is the latter.
+Mirtul 14, 1367: A cerimônia que marcou o fim do meu aprendizado me decepcionou bastante, mas minha eficiência parece ter impressionado meu pai. Naquela manhã ele me chamou de lado e me disse que me revelaria tudo o que tinha feito nos últimos meses, e até me daria um papel de liderança, se seus sócios concordassem. Ele me garantiu que era um grande plano e que eu não deveria ficar desiludido com minhas responsabilidades. Meu interesse por ele foi grandemente alimentado.
+Cythandria também ficou muito satisfeita com minha demonstração esta manhã, tanto que levou horas para expressar plenamente seu agradecimento. No momento em que nos aproximamos, lembro-me de como devo ter ficado feliz ao conhecer alguém que sentia repulsa pela minha afinidade com a morte, mas esta noite percebi que a sede dele não é como a minha, afinal: não tem propósito. fechar e realizar ela mesma o ato, preferindo gostar de assistir enquanto outros cuidam dele. E se ela sente o desejo genuíno de matar como eu, ou se ela apenas pensa nisso como uma forma de alertar, não tenho certeza... Mas temo que seja a última opção.
 
-15th of Mirtul, 1367: Father has finally informed me of his secret, and frankly, it sounds rather pathetic, not worth any excitement at all.  All Father has is the location of a mine concealed deep in the Cloakwood, unknown to anyone else but the virtually extinct Orothiar dwarf clan, and according to them still rich in iron ore when it was accidentally flooded years ago.  Bah.  Iron?!  I had guessed something similar, but from all of Father's caution and secrecy, I was anticipating a treasure much more glamorous than a stupid iron mine.  Where is the glorious blood-rush that awaits me?  I did not spend years of combat training just to assist in Father's counting-house.  I feel the need for a challenge much more exciting than the rabble I have been wasting my skills on.  I feel the need to finally slay something worthy of the strength I have been sensing awakening within me.
+Mirtul 15, 1367: Papai finalmente me contou seu segredo e, francamente, parece bastante patético, não digno de nenhum entusiasmo. Tudo o que o Pai tem é a localização de uma mina escondida nas profundezas da Floresta Cloaked, desconhecida por todos, exceto pelo virtualmente extinto clã anão Orothiar, e de acordo com eles ainda rica em minério de ferro quando foi acidentalmente inundada anos atrás. Bah. Ferro?! Ele presumira algo semelhante, mas com toda a cautela do pai e todo o seu sigilo, ansiava por um tesouro muito mais sedutor do que uma estúpida mina de ferro. Onde está a vida gloriosa que me espera? Não passei meus anos de treinamento de combate simplesmente para ajudar na casa do meu pai. Sinto a necessidade de um desafio muito mais emocionante do que a ralé com a qual tenho desperdiçado minhas habilidades. Sinto necessidade de matar violentamente algo digno da força que venho sentindo despertando dentro de mim.
 
-8th of Flamerule, 1367:  Today, Father introduced me to his subordinates Davaeorn and Tranzig, who have made the journey to the hidden mine and confirmed that it could be put into use once again.
-This evening, I was approached on the street by a ragged beggarly man who would not give his name, but thrust a book into my hands and said he would be back.  The book is worthless, a common third-rate account of the Time of Troubles, and in horrible condition as well; nearly every single page is torn in some way.  Yet something about the man tells me he was more than a simple lunatic.
+Flamerule 8, 1367: Hoje, meu pai me apresentou a seus subordinados Davaeorn e Tranzig, que fizeram a viagem até a mina escondida e confirmaram que ela poderia ser reiniciada. 
+Esta tarde fui abordado na rua por um mendigo maltrapilho que não me disse seu nome, mas colocou um livro em minhas mãos e disse que voltaria. O livro é uma porcaria, uma história comum e de má qualidade do Tempo das Perturbações, e também em péssimo estado; quase todas as páginas estão rasgadas de alguma forma. Mas algo sobre o homem me diz que ele é mais do que apenas um lunático. 
 
-9th of Flamerule, 1367:  This night's dream was very strange: it was back in the temple, except that every single priestess had MY face, and held an identical bone dagger.  I looked toward the altar where I had always been before, but instead of ME tied to the stone slab, it was the tattered book from yesterday.  I had a dagger too, and when I stabbed the book, it bled.  The blood, and then the book itself, dissolved into a sort of magical energy which overflowed the gutters in the altar and then evaporated into the air.  I awoke to what felt like an icy grip trying to shatter my heart.  I immediately examined the book again.  It was damaged deliberately: no two rips line up, and the only pages that were NOT torn have to do with the killing of Bhaal and his efforts to ensure his legacy.  The more I think about what this might mean, the more I hesitate to write it down, even here.
+Flamerule 9, 1367: Tive um sonho muito estranho esta noite: eu estava de volta ao templo, mas cada sacerdotisa tinha MEU rosto e seguravam uma adaga de osso idêntica. Olhei para o altar onde sempre esteve antes, mas em vez de EU amarrado à laje, lá estava o livro esfarrapado de ontem. Eu também tinha uma adaga e, quando esfaqueei o livro, ele sangrou. O sangue, e depois o próprio livro, dissolveram-se em algum tipo de energia mágica que inundou as ranhuras do altar e depois desapareceu no ar. Acordei sentindo como se uma garra gelada estivesse tentando despedaçar meu coração. Imediatamente examinei o livro novamente. Foi deliberadamente danificado: nenhuma das duas lágrimas alinhadas, e as únicas páginas que não foram rasgadas dizem respeito ao assassinato de Bhaal e aos seus esforços para garantir o seu legado. Quanto mais penso sobre o que isso pode significar, mais hesito em colocar isso por escrito, mesmo aqui.
 
-14th of Eleint, 1367:  Cormyr has instituted a ban against the Iron Throne from operating within their borders.  While this is a great blow to the Iron Throne, it is the perfect opportunity for father to approach the Throne high council with his proposal.  If things go well, we could begin the operation within the year.
-In more personal matters, my curiosity about my ancestry grows unceasingly; I simply must know if the dreams speak the truth.  I will not believe the words of phantoms without proof, but the Priest of Bhaal I confronted today gave me nothing: he was old and died quickly in my grasp.  If the words are true, I shall surely groom stronger acolytes than this.
+Eleint 14, 1367: Cormyr proibiu a operação do Trono de Ferro dentro de suas fronteiras. Embora este seja um grande golpe para o Trono de Ferro, é a oportunidade perfeita para o Pai abordar o sumo conselho do Trono com sua proposta. Se tudo correr bem, poderemos iniciar a operação dentro de um ano.
+Em assuntos pessoais, minha curiosidade sobre minha ancestralidade cresce incessantemente; Eu simplesmente preciso saber se os sonhos dizem a verdade. Não acreditarei nas palavras de fantasmas sem provas, mas o Sacerdote de Bhaal com quem falei hoje não me deu nada: ele estava velho e caiu rapidamente. Se as palavras forem verdadeiras, certamente encontrarei acólitos mais fortes do que este.
 
-20th of Eleint, 1367:  The ragged man has finally reappeared, this time without his disguise.  He gives the name of Winski Perorate, and confirms my suspicions: I am indeed one of the fallen Bhaal's many offspring.  He claims to have been apprenticed to a Deathstalker, and therefore knows the signs.  He has spent the past few years on the move, tracking down as many of the children as he can, but it seems that I am the most promising of them all, and he apparently intends to train me as his sole pupil.  He has already informed me that I could not have chosen a more appropriate path than that of Deathbringer.  I think I shall enjoy this very much.
+Eleint 20, 1367: O homem esfarrapado finalmente reapareceu, desta vez sem disfarce. Ele atende pelo nome de Winski Perorata e confirma minhas suspeitas: sou de fato um dos muitos descendentes do caído Bhaal. Ele afirma ter sido aprendiz de um Death Prowler e, portanto, conhece os sinais. Ele passou os últimos anos vagando por aí, rastreando o maior número possível de crianças, mas pareço ser o mais promissor de todos, e aparentemente ele pretende me dar aulas particulares como seu aluno exclusivo. Você já me informou que eu não poderia ter escolhido um caminho mais correto do que o de Deathbringer. Acho que vou gostar muito disso.
 
-28th of Eleint, 1367:  Davaeorn reports that the mines at Cloakwood have been drained and are ready for use.  This revelation should help greatly in convincing the Throne high council.  Rieltar is setting up a base in Baldur's Gate, in the mansion of a destitute noble family, and everything is running smoothly.
+Eleint 28, 1367: Davaeorn relata que as minas na Floresta Cloaked foram drenadas e estão prontas para uso. Esta revelação deverá contribuir muito para convencer o Alto Conselho do Trono. Rieltar estabelece uma base em Baldur's Gate, na mansão de uma família nobre caída, e tudo corre bem.
 
-19th of Marpenoth, 1367:  The Iron Throne council has agreed to support father's plan.  He has been given all the resources he needs, as well as leadership of the project.  I have expressed interest to my 'father', and as promised, he is including me within the operations along the Sword Coast.  He is sending me, as his representative, to make contact with some of the mercenary groups operating to the east.  He mentioned mother in our conversation: how I wasn't to be disloyal to him as she had.  He made it clear that I would suffer her fate if I was.  His threats are weak and hollow, and I shall listen to them for only so long.
-I am tempted to take the opportunity to make a side visit to Candlekeep on the return trip.  There are some things about my heritage that even Winski does not know, and the exact text of the prophecies of Alaundo should prove most illuminating.
+119 de Marpenoth, 1367: O Conselho do Trono de Ferro concordou em apoiar o plano do Pai. Ele recebeu todos os recursos que precisava, bem como a liderança do projeto. Expressei interesse ao meu “pai” e, como prometido, ele me incluiu nas operações ao longo da Costa da Espada. Ele me envia, como seu representante, para me conectar com alguns dos grupos mercenários que operam no leste. Ele mencionou mamãe em nossa conversa: como ela não deveria ser desleal com ele como havia sido. Ele deixou claro que sofreria seu destino se fosse esse o caso. Suas ameaças são fracas e vazias, e não vou ouvi-las por muito tempo.
+Estou tentado a aproveitar esta oportunidade para visitar Candelero na viagem de volta. Há algumas coisas sobre minha herança que nem mesmo Winski sabe, e certos textos das profecias de Alaundo deveriam ser mais esclarecedores.
 
-30th of Marpenoth, 1367:  I met with the leaders of the Chill, and Black Talons.  I have little liking for Ardenor, commander of the Chill, but Taugosz seems to be a man of his word.  It is a good thing, as I'll have to work with these mercenaries for the full duration:  Rieltar is even supporting placing me in command of this entire wing of the operation.  But it would not do, of course, for the adopted son of an Iron Throne leader to be seen visiting the bandits, so I have chosen the half-ogre Tazok as my figurehead; his abilities and loyalty to me are very satisfactory.
+Marpenoth 30, 1367: Conheci os líderes de Shiver e Black Claws. Eu particularmente não gosto de Ardenor, Comandante de Chill, mas Taugosz parece ser um homem de palavra. É uma coisa boa, pois terei que trabalhar muito tempo com esses mercenários: Rieltar ainda defende que eu seja colocado no comando desta parte da operação. Mas não vou, claro, não é digno que o filho adotivo de um líder do Trono de Ferro seja visto visitando bandidos, por isso escolhi o meio-ogro Tazok como meu homem de confiança; Suas habilidades e lealdade para comigo são muito satisfatórias.
 
-3rd of Uktar, 1367:  A new dream this night.  Mother was talking to me, but as she did her face became bloated and discolored.  Her voice became weaker as she spoke to me, telling me to save her from Rieltar.  I could see the garrote cutting into her neck, but I did nothing.  It was only a dream.
+3 de Uktar, 1367: Um novo sonho esta noite. Mamãe estava conversando comigo, mas ao fazê-lo seu rosto ficou inchado e descolorido. Sua voz ficou mais fraca enquanto ela falava comigo, me dizendo para salvá-la de Rieltar. Pude ver como seu pescoço estava rígido, mas não fiz nada. Foi apenas um sonho.
 
-8th of Uktar, 1367:  Today I returned to our newly-completed headquarters in Baldur's Gate and reported to Rieltar.  The fool still insists on calling me his son, and for now I will let him.  He assumes that I am loyal to him because he raised me.  Well, loyal I am, but only as long as he is useful.  He has indeed placed me in full command of the mercenary operations, while he supervises the doppelganger intrigues and Davaeorn oversees the mining angle.  The demonstration of the mineral poison was most impressive.
+8 de Uktar, 1367: Hoje retornei ao nosso quartel-general recém-concluído em Baldur's Gate e relatei a Rieltar. O idiota ainda insiste em me chamar de filho, e por enquanto vou deixar. Ele presume que sou leal a ele porque ele me criou. Bem, sou leal, mas apenas enquanto ele for útil para mim. Ele me colocou no comando das operações mercenárias, enquanto ele supervisiona as intrigas do sósia e Davaeorn supervisiona a parte de mineração. A prova do veneno do mineral foi mais que impressionante.
 
-9th of Uktar, 1367:  Winksi has similarly occupied himself well during my absence, and today presented me with the location of a nearby sect of Cyricists, who have made a particular practice of researching everything they can about Bhaal, and especially his successor.  It only makes sense that Cyric would be very interested in the offspring of his fallen foe, rising to reclaim his portfolio.  Winski wants to capture one or more of their leaders and extract their knowledge from them, but I say we should shoot higher and interrogate them all.  But that requires more than just two people, so I shall begin carefully selecting followers.  Though I fully realize that my heritage should remain a general secret, especially from Rieltar, it is time that the Son of Murder had the acolytes he deserves.
+9 de Uktar, 1367: Winski, da mesma forma, passou bem seu tempo durante minha ausência, e hoje ele me apresentou a posição de uma seita próxima de seguidores de Cyric, que têm o hábito particular de pesquisar tudo o que podem sobre Cyric. especialmente seu sucessor. Só faz sentido que Cyric siga atentamente a descendência de seu inimigo caído, para se levantar e recuperar seu lugar. Winski quer capturar um ou mais de seus líderes para ver o que eles sabem, mas eu digo que deveríamos atirar mais alto e interrogar todos eles. Mas isso requer apenas mais de duas pessoas, então começarei a selecionar cuidadosamente alguns seguidores. Embora eu perceba plenamente que minha herança deve permanecer em segredo, especialmente de Rieltar. É hora do Filho do Deus do Assassinato ter os acólitos que merece.
 
-14th of Uktar, 1367:  Cythandria reacted to my revelation exactly as I thought she would:  She immediately saw herself as a queen or an idol of worship, the only fitting roles for the consort of the Lord of Murder.  Only after several minutes of imagining life seated at my right hand did she think to pay me any proper homage or obeisance.  If I had the luxury of choice, I would not have to put up with this kind of attitude, but I need to establish a power base of my own, so I shall tolerate it. . . for now.  There will be time for correction later.
+14 de Uktar, 1367: Cythandria reagiu à minha revelação exatamente como eu pensei que ela faria: ela imediatamente se viu como uma rainha ou um ídolo de culto, os únicos papéis apropriados para a consorte do Senhor do Assassinato. Só depois de vários minutos imaginando sua vida em minha mão direita é que ele percebeu que deveria me dar alguma homenagem ou algum presente. Se eu pudesse me dar ao luxo de escolher, não teria que tolerar esse tipo de atitude, mas preciso estabelecer minha própria base de poder, então vou tolerar isso... por enquanto. Haverá tempo para retificação mais tarde.
 
-Feast of the Moon, 1367:  The Cyricists are ours, and we have begun pumping them for information, with Zhalimar taking over whenever other matters call me away.  I have ordered that the younger members be kept alive, except to serve as useful examples to motivate the elder priests to be more forthcoming.  What Winski is most concerned about is that some mysterious "ward of Gorion" is mentioned in the prophecies, and is said to play a major role in the succession to Bhaal's portfolio, but there is no depiction of this rune or sigil anywhere, nor does he know what its significance might be.  It is a pity that Gorion is not a more uncommon name.
+Celebração da Lua, 1367: Os seguidores de Cyric são nossos e começamos a extrair informações deles, com Zhalimar garantindo que toda vez que alguém tiver informações importantes, ele mande me chamar. Ordenei que os membros mais jovens fossem mantidos vivos, para servir de exemplo e motivar os sacerdotes mais antigos a serem mais abertos e cooperativos. O que mais preocupa Winski é algum misterioso "protegido" de Gorion que é mencionado nas profecias e diz que desempenha um papel importante na sucessão de Bhaal, mas não há esboço de uma runa ou selo em lugar algum, nem ele mesmo. esteja ciente de sua importância. Pena que Gorion não seja um nome mais incomum.
 
-17th of Nightal, 1367:  Mulahey has established himself at the mines of Nashkel, and should already be converting the kobolds to follow him as their leader.  I expect they will begin contaminating the ore soon, though it will take some time before it becomes evident on the surface.  Only a few slaves have begun to mine out the ore at Cloakwood, though once the bandit raids begin I will be sending Davaeorn a steady supply of new slaves.  I wish I could lure Davaeorn into joining my little cult, knowing that he still secretly worships Bhaal, but he has some deep distrust of me, even after I dropped hints about my true parentage.
+Nightal 17, 1367: Mulahey se estabeleceu nas minas de Nashkel e deve converter os kobolds para segui-lo como seu líder. Espero que comecem a contaminar o mineral em breve, embora demore algum tempo até que se torne evidente na superfície. Apenas alguns escravos começaram a minerar o minério na Floresta Cloaked, embora assim que os ataques dos bandidos começarem eu enviarei a Davaeorn um suprimento de novos escravos. Eu gostaria de poder persuadir Davaeorn a se juntar ao meu pequeno culto, sabendo que ele ainda adora Bhaal secretamente, mas ele desconfia profundamente de mim, mesmo depois de descartar indícios de minha verdadeira ancestralidade.
 
-29th of Nightal, 1367:  Tamoko has displayed surprising skill in demoralizing some of the most resistant Cyricists.  The way she slew one of the junior members, and then later quietly re-animated his corpse to attack his sleeping former comrades, was a sheer treat to watch.  I was quite surprised that she had the audacity to rouse me directly out of my bed for the latter portion, however.  Not that I needed an excuse to leave Cythandria's company:  She complains far too much.
+Nightal 29, 1367: Tamoko demonstrou uma capacidade surpreendente de desmoralizar alguns dos seguidores mais resistentes de Cyric. A maneira como ele matou um dos membros inferiores e depois reanimou seu cadáver para atacar seus ex-companheiros foi uma pura delícia de assistir. Além disso, estou bastante surpreso por ter tido a audácia de sair da cama para a última parte. Não que ele precisasse de uma desculpa para sair da companhia de Cythandria: ele reclama demais.
 
-6th of Hammer, 1368:  The Flaming Fist have finally begun to take notice of our little mercenary operation, and have dispatched several small contingents to the Coast Way to try to fend off the bandit raids.  I shall order all the men to, in the event of capture, claim Zhentish allegiance, and I shall provide them with corroborative details to make the lie more convincing.  I am sure the Zhents at Darkhold won't be pleased to know that their name has been falsely used, but we cannot have the authorities catching our scent.  Meanwhile, we have successfully infiltrated Angelo into the Flaming Fist, and I am instructing him in military strategy:  Once this new talent of his gets recognized, he will be sure to get promoted, giving us a valuable spy right under Eltan's nose.
+Hammer 6, 1368: O Punho Flamejante finalmente começou a tomar conhecimento de nossa pequena operação mercenária, enviando vários pequenos contingentes para a estrada costeira para tentar se defender dos ataques dos bandidos. Ordenarei a todos os homens que reivindiquem lealdade ao Zhent se forem capturados e fornecerei detalhes corroboradores para tornar a mentira mais convincente. Tenho certeza de que os Zhent em Darkhold não acharão graça em saber que sua reputação foi mal utilizada, mas não podemos ter as autoridades rondando atrás de nós. Enquanto isso, infiltramos Angelo com sucesso no Punho Flamejante e estou instruindo-o em estratégia militar: assim que seu novo talento for reconhecido, ele certamente será promovido, dando-nos um espião valioso debaixo do nariz de Eltan.
 
-22nd of Hammer, 1368:  More revelations from the Cyricists: after intense examination, we finally got some names and numbers.  I wonder what is so important about Saradush?  It seems Bhaal spawned literally hundreds of offspring, all over Faerun, but only twenty of these shall be of any real importance, and from them, five shall almost make the heavens themselves tremble in fear.  This is very promising.  But it seems that the head priest of Cyric is as in the dark as to this 'ward of Gorion' as we are.  Blast!  I shall have to find an opportunity to enter Candlekeep after all.
+Hammer 22, 1368: Mais revelações dos seguidores de Cyric: Após intenso interrogatório, finalmente conseguimos alguns nomes e números. Eu me pergunto o que há de tão importante em Saradush. Parece que Bhaal gerou literalmente centenas de descendentes em Faerûn, mas apenas vinte deles terão alguma importância real, e desses, cinco farão os próprios céus tremerem de medo. Isso promete muito. Mas parece que o sacerdote chefe de Cyric também não sabe nada quando se trata desta “ala” de Gorion. Maldito seja! Afinal, terei que encontrar uma chance de entrar no Forte da Vela.
 
-14th of Alturiak, 1368:  In Candlekeep at last, and though Winski was too ill to leave Baldur's Gate, my research has gone well.  The monks here are quite helpful.  From what I have read, it is beyond all doubt that the blood of Bhaal flows through my veins.  Alaundo's prophecies are, of course, anything but explicit, but I think I understand them.  Bhaal's children bear the marks of chaos, have power with no direction, shall feel the blood of a god within them, and shall be driven to cause death and destruction, especially among each other.  "The deaths they bring shall awaken the father, and through them he will rise."  The wording is somewhat ambiguous, but obviously this means that death wrought by the children will cause them to ascend.  Fitting, and since the father was the Lord of Murder, proving one's worth must involve an act in accordance with his portfolio.  I begin to see what I must do.  Death on a god-like scale.
+Alturiak 14, 1368: Finalmente em Forte da Vela, e embora Winski estivesse doente demais para deixar Portão de Baldur, minha pesquisa correu bem. Os monges aqui são realmente úteis. Pelo que li até agora, não há dúvida de que o sangue de Bhaal corre em minhas veias. As profecias de Alaundo são, claro, tudo menos explícitas, mas creio que as compreendo. Os filhos de Bhaal carregam as marcas do caos, um poder liberado, sentirão o sangue de um deus dentro deles e serão forçados a causar morte e destruição, especialmente uns contra os outros. “As mortes que eles trazem despertarão o pai e, através delas, ele ressuscitará.” A redação é um tanto ambígua, mas obviamente significa que a morte dos filhos o fará ascender. Adaptação e, dado que o Pai era o Senhor do Assassinato, testar o valor de alguém deve envolver um ato de conformidade com o destino. Estou começando a entender o que devo fazer. Morte para subir até Deus.
 
-15th of Alturiak, 1368:  Winski was a fool.  "Gorion's ward" is not any sort of glyph at all, but rather a brat named <CHARNAME>, a few years younger than myself.  And Gorion himself, though even older now, is doubtless the very same man from the temple, all those long years ago.  How ironic that the face that has been etched upon my brain for most of my life has been, for all this time, living as a monk practically on my doorstep.  And while I have nothing to prove it, I believe that <CHARNAME> was that same squealing baby in the soiled diaper.  And THIS little pipsqueak is to have monumental importance in the fulfillment of MY destiny?  The very idea seems ludicrous.  I barely got more than a glimpse today, but <CHARNAME> seems nothing more than a blissfully ignorant whelp, with next to no training whatsoever.  Hardly a figure to shake the deities.  But Gorion troubles me.  He seems to have taken an interest in my readings; I must be careful to be more clandestine in my research.
+Alturiak 15, 1368: Winski era um tolo. O “protegido” de Gorion não é nenhum tipo de símbolo, mas é um pequeno diabrete chamado <CHARNAME>, alguns anos mais novo que eu. E Gorion, embora mais velho agora, é sem dúvida o mesmo homem do templo. É irônico que o rosto que ficou gravado em meu cérebro durante a maior parte da minha vida tenha vivido, todo esse tempo, como um monge, praticamente na minha porta. E embora eu não tenha nada que prove, acho que <CHARNAME> era aquele bebê chorando com a fralda suja. E ESSE pirralho terá uma importância monumental no cumprimento do MEU destino? A ideia simples parece ridícula. Quase não consegui vê-lo hoje, mas <CHARNAME> parece nada mais do que um cachorrinho felizmente ignorante e sem nenhum treinamento. Apenas uma figura para agitar as divindades. Mas Gorion me incomoda. Ele parece ter se interessado pelas minhas leituras; Devo ter mais cuidado em minha pesquisa.
 
-16th of Alturiak, 1368:  I take my leave of Candlekeep now, and not a moment too soon, for I am sure that Gorion has perceived my heritage.  I wish I could simply kill him, but I doubt I could safely murder him within this damnable library.  One thing I am certain of: <CHARNAME> is, in actuality, one of Bhaal's brood as well.  All the markings are there, and it would explain Gorion's curiosity of my studies, as well as <CHARNAME> being mentioned in the prophecy.  Though there is nothing I can do now, I will have to make certain to return and kill the little brat.  It would be foolish of me to let one of my siblings live, especially one being brought up by Harpers (and I am sure that is where Gorion's allegiances lay).  And I expect that Bhaal's power would be shared among his surviving children, so obviously I must make sure that I am the last man standing.  If I am to inherit the Throne of Bhaal, I want it all for myself.
+Alturiak 16, 1368: Despeço-me do Forte da Vela agora, e não é tão cedo, pois tenho certeza de que Gorion recebeu minha herança. Eu gostaria de poder matá-lo, mas duvido que consiga fazê-lo, com segurança, dentro desta maldita biblioteca. De uma coisa tenho certeza: <CHARNAME> também é um dos descendentes de Bhaal. Todas as marcações estão lá, e isso explicaria a curiosidade de Gorion sobre meus estudos, além de <CHARNAME> ser mencionado na profecia. Não há nada que eu possa fazer agora, terei que ter certeza de voltar e matar o pequeno diabinho. Seria estúpido da minha parte deixar um dos meus irmãos viver, especialmente um criado por Harpistas (e tenho certeza de que Gorion é um deles). Se espero que o poder de Bhaal seja compartilhado entre seus filhos sobreviventes, obviamente tenho que me certificar de que serei o último sobrevivente. Se quiser herdar o Trono de Bhaal, quero tudo para mim.
 
-19th of Alturiak, 1368:  The last of our little Cyric cult has died, but I think we wrung everything useful from them in time.  Winski largely shares my opinion about <CHARNAME> in that the child's death is almost certainly called for, but advises me to stop short of actual murder until he can determine exactly what sort of role 'Gorion's ward' is expected to play.  Very well, I can wait.  Winski's health seems to be failing him, so he has deputized Semaj to take over the business of sniffing out any possible Bhaalspawn in the area, and luring them to the Iron Throne on the pretense of business reasons.  Those I deem a possible threat I shall kill myself, the rest I will let Semaj deal with in some way.  I have discreetly commissioned a fine suit of armor and sword, worthy of the next Lord of Murder, and have postponed my fratricidal activities until I can dress the part.
+Alturiak 19, 1368: O último dos seguidores do culto Cyric morreu, mas acho que extraímos deles absolutamente tudo o que era utilizável a tempo. Winski compartilha amplamente da minha opinião sobre <CHARNAME> no sentido de que sua morte é certamente necessária, mas me aconselha a adiar o assassinato até que ele possa determinar exatamente até onde pode ir o papel de Gorion neste jogo. Ok, posso esperar. A saúde de Winski parece estar falhando, então ele delegou a Semaj o controle do assunto, farejando quaisquer possíveis ovos de Bhaal na área e enganando-os com a atração do Trono de Ferro sob o pretexto de razões comerciais. Aqueles que considero uma possível ameaça eu me matarei, o resto deixarei para a Semaj distribuir de alguma forma. Encomendei discretamente um magnífico conjunto de armadura e espada, adequado para o próximo Senhor do Assassinato, e adiei minhas atividades fratricidas até poder enfeitar a apresentação.
 
-17th of Ches, 1368:  Everything proceeds well.  The ore coming from Nashkel has started to deteriorate, and the mercenaries have been doing a fine job at seizing any iron caravans on route to Baldur's Gate.  Though some of my men have been captured, the Zhent story is holding up well, so no trouble has fallen on the Iron Throne.  But I will have to be wary for Zhentish agents in the coming months.
-I am actually a bit disappointed in Rieltar:  His skill in manipulating this whole iron plot notwithstanding, he sees it as nothing more than another way to make money, and increase his own status within the Iron Throne hierarchy.  Bah!  Who cares about the petty intrigues of one pathetic mercantile organization, when one can control the armies of entire nations?  Ah, well.  His blindness is my gain.
+Ches 17, 1368: Tudo continua normalmente. O minério vindo de Nashkel começou a se deteriorar e os mercenários têm feito um excelente trabalho ao apreender qualquer caravana de ferro a caminho de Baldur's Gate. Embora alguns dos meus homens tenham sido capturados, acredita-se que eles trabalhem para Zhent, então nenhum problema se abateu sobre o Trono de Ferro. Mas terei que ser cauteloso em nome dos agentes Zhentarim nos próximos meses.
+Estou um pouco decepcionado com Rieltar: em relação à sua capacidade de manipular essa trama de ferro, ele a vê como nada mais do que mais uma forma de ganhar dinheiro e aumentar seu status dentro da hierarquia do Trono de Ferro. Bah! Quem se importa com as pequenas intrigas de uma patética organização mercantil, quando se pode controlar tropas de nações inteiras? Oh, certo. Sua cegueira é meu ganho.
 
-25th of Tarsakh, 1368:  The armor is completed, and is wonderfully appropriate for the terrifying presence of a Deathbringer descended from the Lord of Murder.  I shall have to congratulate Winski for helping with the design, especially the additional enchantments awakened only by the presence of the Bhaal essence.  The sword shall not be finished for another day or two, but it seems appropriate that I should kill my first sibling with my own bare hands.  Goodbye, Colin de'Graage.  You are not one of the twenty; Alaundo never gave a damn about you, and neither do I.
+Tarsakh 25, 1368: A armadura está terminada e é admiravelmente adequada à presença aterrorizante de um Deathbringer descendente do Senhor do Assassinato. Terei que dar parabéns ao Winski por ajudar no design, principalmente com os encantamentos adicionais despertados apenas pela presença da essência Bhaal. A espada só estará pronta daqui a um ou dois dias, mas parece mais apropriado que eu mate meu primeiro irmão com minhas próprias mãos. Adeus, Colin de'Graage. Você não é um dos vinte; Alaundo nunca deu a mínima para você, e eu também não.
 
-28th of Tarsakh, 1368:  The Sword of Chaos is glorious.  The time is now ripe to deal with that old codger Gorion, and his little whelp.  I will have to inform my men that I'll be gone for the next few days.  Cythandria was furious when she learned I am taking Tamoko instead of her.  Perhaps this will motivate her to support me in areas other than just the bedroom.
+Tarsakh 28, 1368: A Espada do Caos é gloriosa. É hora de lidar com aquele velho bastardo do Gorion e seu pequeno canalha. Terei que informar aos meus homens que estarei ausente nos próximos dias. Cythandria ficou furiosa quando descobriu que eu levei Tamoko em vez dela. Talvez isso a motive a me apoiar em outras áreas além do quarto.
 
-2nd of Mirtul, 1368:  My long-delayed revenge on the withered old man is complete.  I actually killed him a bit too quickly; I wanted enough time to look into his dying eyes and remind him of where we had met before.  Ah well, it is of no real consequence.  What a pair of prize fools he and his little puppy were, fleeing Candlekeep under cover of night, neither one of them carrying any more than a few pitiful scraps of equipment.  Semaj's agents scared them right into our ambush.  Unfortunately, the whelp got away; took off running like a terrified jackrabbit after only a single spell.  I would have told Tamoko to follow him, but between my laughter and my lust for vengeance, it slipped my mind.  Still, with the old fool gone, the young fool shall not be far behind.  From what I have seen, I would expect anyone with <CHARNAME>'s level of skill and bravery to simply get lost in the wilderness, and die of exposure after a day or two.  A fitting end for the prize pupil of the man who thought I was less important than a squealing infant.  I return to Baldur's Gate, and the list of brothers and sisters who are actually worthy of death by my hand.  Just to be on the safe side, I have contacted Semaj's little network, and added <CHARNAME>'s name to those whose deaths will be rewarded.
+2 de Mirtul, 1368: Minha vingança há muito adiada contra o velho murcho está completa. Na verdade, eu o matei um pouco rápido demais; Eu queria tempo suficiente para olhar em seus olhos moribundos e lembrá-lo de onde nos conhecemos antes. Ah, bem, não tem nenhuma consequência real. Que dupla de idiotas ele e seu cachorrinho eram, fugindo do Forte da Vela na calada da noite, nenhum deles carregando mais do que alguns lamentáveis pedaços de equipamento. Os agentes do Semaj assustaram-nos e levaram-nos à nossa emboscada. Infelizmente, o filhote escapou; saiu correndo como um coelho aterrorizado depois de apenas um único feitiço. Eu teria dito a Tamoko para segui-lo, mas entre minha risada e meu desejo de vingança, isso me escapou. Ainda assim, com a partida do velho tolo, o jovem tolo não ficará muito atrás. Pelo que tenho visto, eu esperaria que qualquer pessoa com o nível de habilidade e coragem de <CHARNAME> simplesmente se perdesse na natureza e morresse exposto depois de um ou dois dias. Um final adequado para o aluno premiado do homem que me achava menos importante do que uma criança aos berros. Volto a Baldur's Gate e à lista de irmãos e irmãs que são realmente dignos de morte pelas minhas mãos. Só por segurança, entrei em contato com a pequena rede de Semaj e adicionei o nome de <CHARNAME> àqueles cujas mortes serão recompensadas.
 
-9th of Mirtul, 1368:  Well, well!  Not only has <CHARNAME> NOT gotten eaten by gibberlings as I expected, but has also survived the best attempts of two of Semaj's bounty hunters, fallen in with a group of adventurers, and safely met with the mayor of Nashkel!  It appears there may be a spine in there after all.  Still, it is obvious that this little war party seeks to disrupt our activities in the mines; happily, Tazok and Tranzig have been well prepared for this sort of thing, and know just what to do.
+Mirtul 9, 1368: Bom, bom! Não apenas <CHARNAME> NÃO foi comido pelos tagarelas como esperado, mas também sobreviveu às tentativas de dois dos melhores caçadores de recompensas de Semaj, reuniu um grupo de aventureiros e encontrou com segurança o prefeito de Nashkel! ! Além disso, parece que este pequeno grupo procura desestabilizar as nossas actividades nas minas; Felizmente, Tazok e Tranzig foram bem treinados para esta circunstância e sabem exatamente o que fazer.
 
-15th of Mirtul, 1368:  The loss of Nashkel was a shocking blow to us, but we can recover; at the emergency meeting, we agreed that the best solution would be to send some of our own men into Nashkel, if not into the mine itself, and corrupt as much ore as possible without getting caught.  I suggested that the most opportune time would be during transit: whether as ore-cart drivers or caravan guards, our men should easily be able to contaminate the iron, since everyone else would be watching the horizon, not the wagons, and in the event of an attack by our mercenaries, the Black Talons would already have a couple of their men planted among the enemy.  After some debate, even Davaeorn was made to see the wisdom of this.  The best part is that even if we only manage to poison SOME of the ore shipped out of Nashkel, rumors will start circulating that the town's iron is still just as tainted as before, they're just claiming that it's pure and shipping it out anyway.  Some might even say that the entire adventuring party was just a lie that Nashkel made up, so people would start buying their iron again.  I will mention this additional angle to Rieltar tomorrow.  Still, the news that <CHARNAME> is still alive, despite all odds, troubles me greatly.  I shall talk the matter over with Winski, and then strike.  Personally, if I can find the time.
+15 de Mirtul, 1368: A perda de Nashkel foi um golpe chocante para nós, mas podemos nos recuperar; Na reunião de emergência, concordámos que a melhor solução seria enviar alguns dos nossos homens para Nashkel, se não para a própria mina, e corromper o máximo de minério possível sem sermos apanhados. Sugeri que o momento mais oportuno seria durante o trânsito: seja como motoristas de carroças ou como guardas de caravanas, nossos homens poderiam facilmente contaminar o ferro, já que todos os outros estariam olhando para o horizonte, não os vagões, e no caso de um ataque dos nossos mercenários, os Garras Negras já teriam alguns dos seus homens plantados entre o inimigo. Depois de algum debate, até Davaeorn percebeu a sabedoria disso. A melhor parte é que mesmo que consigamos envenenar apenas ALGUMA PARTE do minério enviado para fora de Nashkel, começarão a circular rumores de que o ferro da cidade ainda está tão contaminado como antes, eles estão apenas alegando que é puro e despachando-o de qualquer maneira. . Alguns poderiam até dizer que todo o grupo de aventureiros era apenas uma mentira inventada por Nashkel, para que as pessoas começassem a comprar seu ferro novamente. Mencionarei esse ângulo adicional para Rieltar amanhã. Ainda assim, a notícia de que <CHARNAME> ainda está vivo, apesar de todas as probabilidades, me preocupa muito. Conversarei sobre o assunto com Winski e depois atacarei. Pessoalmente, se eu conseguir encontrar tempo.
 
-24th of Mirtul, 1368:  Hellfire and damnation!  I cannot believe the dispatches, but there is no denying them.  With Tazok's camp destroyed, I shall have to establish a roaming base of operations, and supervise it myself.  Rieltar and Davaeorn have agreed to this largely because, in my new armor, I cannot be recognized and traced back to the Iron Throne.  But blast it all, in addition to the loss of men, this will take up ALL of my time, and I shall even have to recall most of the death squads that I had ordered to seek out and ambush <CHARNAME> and company.  The situation looks dire, <CHARNAME> already knows far too much.  At least their next move is predictable; Davaeorn and a crew hand-picked by Rieltar have already left to personally guard the mines.  So let <CHARNAME>'s little band follow the trail of clues if they wish.  Just let them TRY to struggle through the Cloakwood, and may they all perish in the attempt.  Myself, I care little whether they find the mine or not; the men there belong to Davaeorn and Rieltar, not me.  I must use this time to recollect the scattered mercenaries into something useful once again.
+24 de Mirtul, 1368: Fogo do Inferno e condenação! Não posso acreditar nos despachos, mas não há como negá-los. Com o acampamento de Tazok destruído, terei que estabelecer uma base itinerante de operações e supervisioná-la eu mesmo. Rieltar e Davaeorn concordaram com isso em grande parte porque, em minha nova armadura, não posso ser reconhecido e rastreado até o Trono de Ferro. Mas, caramba, além da perda de homens, isso vai ocupar TODO o meu tempo, e terei até que chamar de volta a maioria dos esquadrões da morte que ordenei para procurar e emboscar <CHARNAME> e companhia. A situação parece que direi: <CHARNAME> já sabe demais. Pelo menos o próximo passo deles é previsível; Davaeorn e uma tripulação escolhida por Rieltar já partiram para proteger pessoalmente as minas. Então deixe o bando de <CHARNAME> seguir a trilha de pistas, se assim o desejarem. Apenas deixe-os TENTAR lutar através da Floresta do Manto, e que todos morram na tentativa. Quanto a mim, pouco me importa se eles encontrarão a mina ou não; os homens de lá pertencem a Davaeorn e Rieltar, não a mim. Devo usar esse tempo para reunir os mercenários dispersos em algo útil mais uma vez.
 
-9th of Kythorn, 1368:  Back in Baldur's Gate, briefly, for the emergency meeting I had been expecting.  The news from the Cloakwood has predictably driven Rieltar half-mad with worry.  I admit that things have not gone anything like the way we planned, but I think we can still turn this to our advantage.  For one thing, I strongly doubt that <CHARNAME> was able to carry more than a hundred tons of iron ore out of the Cloakwood, meaning that it's still there, waiting for our barges to come pick it up, just as arranged.  The trick will be manipulating the public opinion:  I must find some way to place the blame for the iron crisis squarely on <CHARNAME>'s shoulders, as I cannot make my break with the Iron Throne until the fruit is fully ripe.  At least <CHARNAME>'s next move is obvious:  Here to Baldur's Gate to accuse the Iron Throne.  Would that I could slay them in the streets, but we must not cause an uproar, and I am needed back at the camp in any case.  I have prepared Zhalimar and his hand-picked crew to stand guard in my stead, in wait for <CHARNAME>'s next--and last--blundering step against me.
+9 de Kythorn, 1368: De volta a Baldur's Gate, brevemente, para a reunião de emergência que eu esperava. As notícias de Cloakwood previsivelmente deixaram Rieltar meio louco de preocupação. Admito que as coisas não correram como planeámos, mas penso que ainda podemos tirar vantagem disto. Por um lado, duvido muito que <CHARNAME> tenha sido capaz de transportar mais de cem toneladas de minério de ferro para fora da Floresta do Cloak, o que significa que ele ainda está lá, esperando que nossas barcaças venham buscá-lo, conforme combinado. O truque será manipular a opinião pública: preciso encontrar uma maneira de colocar a culpa pela crise do ferro diretamente nos ombros de <CHARNAME>, já que não posso romper com o Trono de Ferro até que a fruta esteja totalmente madura. Pelo menos o próximo movimento de <CHARNAME> é óbvio: aqui em Baldur's Gate para acusar o Trono de Ferro. Gostaria que eu pudesse matá-los nas ruas, mas não devemos causar alvoroço e, de qualquer forma, preciso de mim de volta ao acampamento. Eu preparei Zhalimar e sua tripulação escolhida a dedo para ficarem de guarda em meu lugar, esperando pelo próximo – e último – passo desajeitado de <CHARNAME> contra mim. 
 
-12th of Kythorn, 1368:  <CHARNAME> has finally entered Baldur's Gate, and has gotten very friendly with Scar, but has not yet made any direct move against the Iron Throne.  From the tone of his letter, Rieltar is on the verge of panic, expecting assassins to emerge from his bedclothes at any moment.  He urges me to come to the city at once, mentioning something about wanting me to be present at an important meeting in a secure location.  Something tells me the coward is scraping for any excuse to stay out of <CHARNAME>'s reach.  Happily, Tazok is now fully recovered and back to fighting strength, so he can resume his former duties while I return to the city and get things under control.
+Kythorn 12, 1368: <CHARNAME> finalmente entrou em Baldur's Gate e conquistou a amizade de Scar, mas ainda não fez nenhum movimento direto contra o Trono de Ferro. Pelo tom de sua carta, Rieltar está à beira do pânico, esperando que os assassinos saiam de seus esconderijos a qualquer momento. Ele me incentiva a ir para a cidade imediatamente, mencionando algo sobre querer que eu esteja presente em uma reunião importante em um lugar seguro. Algo me diz que o covarde aproveita qualquer desculpa para ficar fora do alcance de <CHARNAME>. Felizmente, Tazok agora está totalmente recuperado e voltou a lutar arduamente, então ele pode retomar suas funções anteriores enquanto eu retorno à cidade e coloco as coisas sob controle.
 
-14th of Kythorn, 1368:  I have long known of Rieltar's more pacifist tendencies, but I would never have expected him to actually arrange a meeting with the Knights of the Shield to PREVENT a war that should be very profitable to him.  No one would accuse my mortal 'father' of being a charming man, but he can certainly be oily when he needs to, so I must intervene.  But secrecy and deception are crucial now:  If the Wheel of Fate is to spin freely under my hand, I must be very cunning.  I have therefore informed Rieltar that <CHARNAME>'s little mercenary band has been dispatched, and neatly replaced by a doppelganger crew as arranged.  Therefore, when they suddenly burst into the meeting, his panicky reactions will all but ensure a bloody outcome.  But too much is at stake with this to leave anything to chance:  The doppelgangers and I must be present as well, though heavily disguised.  I shall ask my acolytes to prepare something suitable.  Happily, the sect of Cyric has some old texts which will almost certainly satisfy the entry requirements into Candlekeep, and Winski and Semaj have already copied down anything of relevance.
+Kythorn 14, 1368: Há muito tempo conheço as tendências pacifistas de Rieltar, mas nunca teria esperado que ele organizasse um encontro com os Cavaleiros do Escudo para EVITAR uma guerra que deveria ser muito lucrativa para ele. Ninguém acusaria meu “pai” mortal de ser um homem encantador, mas ele certamente pode ser bastante escorregadio quando precisa, então devo intervir. Mas o sigilo e o engano são cruciais agora: se quisermos que a Roda do Destino gire livremente sob minha mão, devo ser muito astuto. Portanto, informei Rieltar que o pequeno bando de mercenários de <CHARNAME> foi despachado e cuidadosamente substituído por uma gangue de sósias. Portanto, quando eles irromperem repentinamente na reunião, suas reações de terror garantirão um resultado sangrento. Mas há demasiado perigo para deixar qualquer coisa ao acaso: os sósias e eu também devemos estar presentes, por mais perfeitamente disfarçados que sejam. Pedirei aos meus acólitos que preparem algo adequado. Felizmente, a seita Cyric tem alguns textos antigos que quase certamente satisfarão os requisitos de entrada no Forte da Vela, e Winski e Semaj já tomaram nota de algo relevante.
 
-19th of Kythorn, 1368:  Barely enough time to write, but I must not neglect my journals so.  The future dead must know of how the Lord of Murder again came to them.  Perhaps I shall hire a scribe, when time allows.  As it turns out, I did not even need to maneuver one of the Cyricist's books into <CHARNAME>'s hands, as Duke Eltan was more than willing to give my little scapegoat one of his own texts.  Just moments ago, I saw <CHARNAME> enter the walls of Candlekeep, and I expect our little drama to commence here any minute.  My self-styled father, Rieltar, is upstairs with two representatives of the Knights of the Shield.  As foreseen, he has been blocking all my attempts to escalate the border hostilities.  Terribly sorry, 'father,' but my true parentage calls and you are in my way.  On the off chance that the upcoming encounter does not immediately produce bloodshed, I shall be sure to instruct the dopplegangers in the exact manner Rieltar should die.  I think a garrote would be perfect for the task.
+19 de Kythorn, 1368: Mal tenho tempo para escrever, mas não devo negligenciar tanto meus diários. Os futuros mortos devem saber como o Senhor do Assassinato voltou a eles. Talvez eu deva contratar um escriba, quando o tempo permitir. Acontece que eu nem precisei colocar um dos livros do Ciricista nas mãos de <CHARNAME>, já que o Duque Eltan estava mais do que disposto a dar ao meu pequeno bode expiatório um de seus próprios textos. Há poucos momentos, vi <CHARNAME> entrar nas paredes do Forte da Vela e espero que nosso pequeno drama comece aqui a qualquer minuto. Meu autoproclamado pai, Rieltar, está lá em cima com dois representantes dos Cavaleiros do Escudo. Como previsto, ele tem bloqueado todas as minhas tentativas de escalar as hostilidades fronteiriças. Sinto muito, 'pai', mas minha verdadeira linhagem me chama e você está no meu caminho. Na eventualidade de o próximo encontro não produzir imediatamente derramamento de sangue, certificar-me-ei de instruir os dopplegangers sobre a maneira exata como Rieltar deve morrer. Acho que um garrote seria perfeito para a tarefa.
 
-21st of Kythorn, 1368:  On top of the world.  With Thaldorn, Rieltar and Brunos slain, <CHARNAME> in custody for their murders, and the entire assets of the Iron Throne at my disposal, the entire city is practically at my feet, and everything is working out as Alaundo said it would.  I have announced my intention to donate everything to the war effort, and now that Silvershield is out of the way, the rumors of elevating me to Grand Duke are beginning to catch on among the populace.  The only blight on the day is the news that the message I sent to Zhalimar did not reach him in time, robbing me of six of my best and brightest.  I have dealt with the messenger accordingly, and perhaps I can arrange it so that I perform <CHARNAME>'s execution personally, thus completing the circle of revenge.~
+21 de Kythorn, 1368: No topo do mundo. Com Thaldorn, Rieltar e Brunos mortos, <CHARNAME> sob custódia por seus assassinatos, e todos os bens do Trono de Ferro à minha disposição, a cidade inteira está praticamente aos meus pés, e tudo está funcionando como Alaundo disse que aconteceria. Anunciei minha intenção de doar tudo para o esforço de guerra, e agora que Silvershield está fora do caminho, os rumores de me elevar a Grão-Duque estão começando a se espalhar entre a população. O único problema do dia é a notícia de que a mensagem que enviei a Zhalimar não chegou a tempo, roubando-me seis dos meus melhores e mais brilhantes. Eu lidei com o mensageiro adequadamente, e talvez eu possa providenciar para que eu execute pessoalmente a execução de <CHARNAME>, completando assim o círculo de vingança.~
 
-@624  = ~Friendly Arm Inn~
-@629  = ~Rashemaar Amulet~
-@630  = ~Winski Perorate's Amulet
+@624  = ~Estalagem Braço Amigo~
+@629  = ~Amuleto de Rashemaar~
+@630  = ~Amuleto de Winski Perorate
 
-Winski Perorate's work with the nether regions of the underworld often placed him in close proximity to beings who would prefer Winski to be wearing his skin inside out. To make that possibility less likely, Winski commissioned a nabassu to build an amulet that would ward off evil creatures long enough to gain control of them. Unfortunately, Winski had a momentary lapse in memory due to great injury, and forgot to activate his amulet. This allowed his summoned Tanar'ri access to its summoner, with predictable results.
+O trabalho de Winski Perorate com as regiões inferiores do submundo muitas vezes o colocava próximo de seres que prefeririam que Winski usasse sua pele do avesso. Para tornar essa possibilidade menos provável, Winski contratou um nabassu para construir um amuleto que afastasse criaturas malignas por tempo suficiente para obter controle sobre elas. Infelizmente, Winski teve um lapso momentâneo de memória devido a um grande ferimento e esqueceu de ativar seu amuleto. Isso permitiu que seu Tanar'ri invocado tivesse acesso ao seu invocador, com resultados previsíveis.
 
 STATISTICS:
 
-Equipped Abilities: Protection from Evil 10' radius, once per day
+Habilidades Equipadas: Proteção contra o Mal num raio de 10', uma vez por dia
 
-Not Usable By:
-Wizard Slayer~
+Não utilizável por:
+Matador de Magos~
 
 @633  = ~Skodd~
 @634  = ~Mazuri~
@@ -939,8 +939,8 @@ Wizard Slayer~
 @636  = ~Siene~
 @637  = ~Minuwiel~
 @638  = ~Diala~
-@639  = ~White Doe~
-@640  = ~Mercenary~
+@639  = ~Doe Branco~
+@640  = ~Mercenario~
 @700 = ~[ORGEF 1]~ [X#OGREF1]
 @701 = ~[ORGEF 2]~ [X#OGREF2]
 @702 = ~[ORGEF 3]~ [X#OGREF3]
@@ -955,13 +955,13 @@ Wizard Slayer~
 @711 = ~[GHAST 06]~ [GHAST06]
 @712 = ~[VOIC1L]~ [%tutu_var%VOIC1L]
 @713 = ~[VOIC1M]~ [%tutu_var%VOIC1M]
-@714 = ~[NEREID 01] To be in the waters of home. Hmmm.~ [%tutu_var%NERED01]
-@715 = ~[NEREID 02] Leave me be, silly dirt-fish.~ [%tutu_var%NERED02]
-@716 = ~[NEREID 03] You men cannot hurt me.~ [%tutu_var%NERED03]
-@717 = ~[NEREID 04] I'd rather be swimming.~ [%tutu_var%NERED04]
+@714 = ~[NEREID 01] Para estar nas águas de casa. Hmmm.~ [%tutu_var%NERED01]
+@715 = ~[NEREID 02] Deixe-me em paz, peixe sujo e bobo.~ [%tutu_var%NERED02]
+@716 = ~[NEREID 03] Vocês não podem me machucar.~ [%tutu_var%NERED03]
+@717 = ~[NEREID 04] Prefiro nadar.~ [%tutu_var%NERED04]
 @718 = ~[NEREID 08]~ [%tutu_var%NERED08]
 @719 = ~[NEREID 09]~ [%tutu_var%NERED09]
-@720  = ~Sahuagin Chieftain~
+@720  = ~Chefe Sahuagin~
 @721  = ~Sahuagin~
 @722 = ~~ [SAHAU01]
 @723 = ~~ [SAHAU02]
@@ -970,14 +970,14 @@ Wizard Slayer~
 @726 = ~~ [SAHAU05]
 @727 = ~~ [SAHAU06]
 @728 = ~~ [SAHAU07]
-@729  = ~Smoke Mephit~
+@729  = ~Fumaça Mephit~
 @730 = ~~ [EARTH01]
 @731 = ~~ [EARTH02]
 @732 = ~~ [EARTH03]
 @733 = ~~ [EARTH06]
 @734 = ~~ [EARTH07]
-@735 = ~Help!~
-@736 = ~Mercy! Have mercy!~
+@735 = ~Ajuda!~
+@736 = ~Misericórdia! Tenha piedade!~
 @737 = ~[VAMPF 01]~ [VAMPF01]
 @738 = ~[VAMPF 02]~ [VAMPF02]
 @739 = ~[VAMPF 03]~ [VAMPF03]
@@ -1002,98 +1002,98 @@ Wizard Slayer~
 @758 = ~[WYVERN 08]~ [%tutu_var%WYVER08]
 @759 = ~[WYVERN 09]~ [%tutu_var%WYVER09]
 @760 = ~[WYVERN 10]~ [%tutu_var%WYVER10]
-@761 = ~Wondrous Gauntlets~
-@762 = ~These gem-studded leather gloves are enchanted so as to augment the skills of any Bard.
+@761 = ~WManoplas ondrosas ~
+@762 = ~Essas luvas de couro cravejadas de pedras preciosas são encantadas para aumentar as habilidades de qualquer Bardo.
 
 STATISTICS:
 
-Equipped abilities:
-- Armor Class: +1
-- THAC0: +1
-- Can memorize one 2nd-, 3rd-, and 4th-level wizard spell
+Abilidades Equipadas:
+- Classe de Armadura: +1
+- TAC0: +1
+- Pode memorizar uma magia de mago de 2º, 3º e 4º nível
 
-Weight: 1~
-@763 = ~Boomerang Dagger +2~
-@764 = ~Fullen Woolspinner, an ambitious halfling from a well-to-do family, left his home to spend several years adventuring. During his travels, he ended up staying with a family of dwarven weaponsmiths. Much impressed by their throwing axes, which always returned to the hands of their wielder, Fullen sought to make a dagger that could do the same. With the help of his dwarven friends, he succeeded, creating several of the famous Fullen Boomerang daggers.
-
-STATISTICS:
-
-Combat abilities:
- Returns to the wielder's hand when thrown
-
-THAC0: +2
-Damage: 2d4+2
-Damage type (melee): Piercing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 1~
-@765 = ~Harp of Discord~
-@766 = ~Harps are stringed instruments often used by bards. This small harp is ideal for the traveling warbler or tales and ballads.~
-@767 = ~Even the most talented bard cannot get this harp to play in tune. Each stroke of the harp's strings results in a harsh, off-key note. If the bard attempts to play a proper ballad upon the harp, its magical effects are released. All creatures, other than the bard and his/her party, must make a Saving Throw vs. Spell or be confused for thirty seconds.
+Peso: 1~
+@763 = ~Adaga Bumerangue +2~
+@764 = ~Fullen Woolspinner, um halfling ambicioso de uma família abastada, deixou sua casa para passar vários anos em aventuras. Durante suas viagens, ele acabou ficando com uma família de anões armeiros. Muito impressionado com seus machados de arremesso, que sempre voltavam para as mãos de seu portador, Fullen procurou fazer uma adaga que pudesse fazer o mesmo. Com a ajuda de seus amigos anões, ele conseguiu criar várias das famosas adagas Fullen Boomerang.
 
 STATISTICS:
 
-Charge abilities:
-- Confusion three times per day (Save vs. Spell negates)
-  Duration: 1 turn
-  Area of Effect: All within listening range save the bard and fellow party members
+abilidadeses de Combate:
+ Retorna para a mão do usuário quando arremessado
 
-Weight: 6~
-@768 = ~Azlaer's Harp~
-@769 = ~In the twisted court of Azlaer, a bizarre ritual was enacted every night of the full moon. Within Azlaer's massive palace lay a courtyard open to the sky above. This courtyard housed a large pool full of man-eating sharks. For amusement, Azlaer would invite well-known citizens from nearby towns to his estate for an evening of dining and entertainment.
+TAC0: +2
+Dano: 2d4+2
+Tipo de dano (corpo a corpo): Perfurante
+Tipo de dano (arremessado): Míssil
+Fator de velocidade: 1
+Tipo de Proficiência: Adaga
+Tipo: Uma mão
+Requer:
+  3 Força
 
-This entertainment consisted of Azlaer playing this harp, the effects of which removed any fear from his guests. Randomly, Azlaer would single out a guest and have him or her walk into the shark-filled pool. When in a particularly sadistic mood, Azlaer would first toss in blood, inciting the sharks into a frenzy that ended with the death of the helpless guest.
-
-Devotees of Helm finally lashed out against Azlaer and his cruel practices, destroying the estate, slaying Azlaer, and appropriating the harp for more beneficial uses.
-
-STATISTICS:
-
-Charge abilities:
-- Dispel Fear
-  Range: 25 ft.
-  Area of Effect: 30-ft. radius
-
-Weight: 6~
-@770 = ~Methlid's Harp~
-@771 = ~In a valley far from most civilized lands, there once was a tiny kingdom called Chilldion. One winter evening a trio of evil witches overtook the valley and imprisoned the royal family by casting spells of holding upon them. The witches planned to eat the family one by one. Later that evening, the witches were exhausted after a hard day of slaying innocents and desecrating the palace, so they called for the court bard to play them a song. Methild the bard was loyal to his king and the king's family and so he used the special powers of his magic harp.
-
-As he played, he focused his attention first on the king. As the song played on, the spell of holding upon the king dissipated, and the noble liege slowly crept away. One by one Methild freed his patrons, being careful to keep the witches' attention drawn his way. Finally, once all the family was free, the bard could play no longer and the witches saw his treachery. Poor Methild, unlike his lieges, did not escape and was served on the supper table in their place.
+Peso: 1 ~
+@765 = ~Harpa da Discórdia~
+@766 = ~Harpas são instrumentos de cordas frequentemente usados por bardos. Esta pequena harpa é ideal para a toutinegra itinerante ou para contos e baladas.~
+@767 = ~Mesmo o bardo mais talentoso não consegue fazer esta harpa tocar afinada. Cada toque das cordas da harpa resulta em uma nota áspera e desafinada. Se o bardo tentar tocar uma balada adequada na harpa, seus efeitos mágicos serão liberados. Todas as criaturas, exceto o bardo e seu grupo, devem fazer um Teste de Resistência contra Feitiço ou ficarão confusas por trinta segundos.
 
 STATISTICS:
 
-Charge abilities:
-- Dispel hold-like effects three times per day
-  Range: 25 ft.
-  Area of Effect: 1 creature
+Habilidades de carga:
+- Confusão três vezes por dia (Salvar vs. Feitiço nega)
+   Duração: 1 turno
+   Área de Efeito: Todos dentro do alcance de audição, exceto o bardo e outros membros do grupo
 
-Weight: 6~
-@772  = ~Paralytic Bolt~
-@773  = ~Any target hit by this bolt must making a Saving Throw or be paralyzed for 5 rounds.
+Peso: 6 ~
+@768 = ~Harpa de Azlaer~
+@769 = ~Na distorcida corte de Azlaer, um ritual bizarro era realizado todas as noites de lua cheia. Dentro do enorme palácio de Azlaer havia um pátio aberto para o céu. Este pátio abrigava uma grande piscina cheia de tubarões comedores de gente. Para se divertir, Azlaer convidava cidadãos conhecidos de cidades próximas para sua propriedade para uma noite de jantar e entretenimento.
+
+Este entretenimento consistia em Azlaer tocar esta harpa, cujos efeitos eliminavam qualquer medo dos seus convidados. Aleatoriamente, Azlaer selecionava um convidado e o fazia entrar na piscina cheia de tubarões. Quando estava com um humor particularmente sádico, Azlaer primeiro jogava sangue, incitando os tubarões a um frenesi que terminou com a morte do hóspede indefeso.
+
+Os devotos de Helm finalmente atacaram Azlaer e suas práticas cruéis, destruindo a propriedade, matando Azlaer e se apropriando da harpa para usos mais benéficos.
 
 STATISTICS:
 
-Combat abilities:
-- Hit target must save vs. Paralyzation or be stunned for 5 rounds
+Habilidades de carga:
+- Dissipar o Medo
+   Alcance: 25 pés.
+   Área de efeito: 30 pés. raio
 
-Damage: 1d10 (missile)
-Launcher: Crossbow
+Peso: 6 ~
+@770 = ~Harpa de Metlid~
+@771 = ~Em um vale longe da maioria das terras civilizadas, existia um pequeno reino chamado Chilldion. Numa noite de inverno, um trio de bruxas malvadas invadiu o vale e aprisionou a família real, lançando feitiços de domínio sobre eles. As bruxas planejaram comer a família uma por uma. Mais tarde naquela noite, as bruxas estavam exaustas depois de um dia difícil matando inocentes e profanando o palácio, então chamaram o bardo da corte para tocar uma música para elas. Methild, o bardo, era leal ao seu rei e à família do rei e por isso usou os poderes especiais de sua harpa mágica.
 
-Weight: 1~
-@774 = ~Shortbow of Gesen~
+Enquanto jogava, ele concentrou sua atenção primeiro no rei. À medida que a música continuava, o feitiço de controlar o rei se dissipou e o nobre soberano lentamente se afastou. Um por um, Methild libertou seus clientes, tomando cuidado para manter a atenção das bruxas voltada para ele. Finalmente, uma vez que toda a família estava livre, o bardo não pôde mais brincar e as bruxas perceberam sua traição. O pobre Methild, ao contrário de seus vassalos, não escapou e foi servido na mesa do jantar em seu lugar.
+
+STATISTICS:
+
+Habilidades de carga:
+- Dissipar efeitos de retenção três vezes por dia
+   Alcance: 25 pés.
+   Área de Efeito: 1 criatura
+
+Peso: 6 ~
+@772 = ~Paralisador~
+@773 = ~Qualquer alvo atingido por este raio deve fazer um teste de resistência ou ficará paralisado por 5 rodadas.
+
+STATISTICS:
+
+Habilidades de combate:
+- O alvo atingido deve salvar contra Paralisação ou ficar atordoado por 5 rodadas
+
+Dano: 1d10 (míssil)
+Lançador: Besta
+
+Peso: 1 ~
+@774 = ~Arco Curto de Gesen~
 @775 = ~[SIRINE 05]~ [%tutu_var%SIRIN05]
-@776 = ~Spell Sequencer Fired~
-@777 = ~Spell Sequencer - Stoneskin~
-@778 = ~Spell Sequencer - Fireshield (Red)~
-@779 = ~Spell Sequencer - Melf's Minute Meteors~
-@780 = ~Contingency - Minor Spell Turning~
-@781 = ~Minor Sequencer Activated~
-@782 = ~Dexterity Increase~
-@783 = ~Temporary Polymorph~
+@776 = ~Sequenciador de feitiços disparado~
+@777 = ~Sequenciador de Feitiço - Pele de Pedra~
+@778 = ~Sequenciador de Feitiço - Escudo de Fogo (Vermelho)~
+@779 = ~Sequenciador de Feitiços - Minutos Meteoros de Melf~
+@780 = ~Contingência - Mudança Menor de Feitiços~
+@781 = ~Sequenciador Menor Ativado~
+@782 = ~Aumento de Destreza~
+@783 = ~Polimorfo Temporário~
 @784 = ~Belgin~
 @785 = ~Karris~
 @786 = ~Alvo~
