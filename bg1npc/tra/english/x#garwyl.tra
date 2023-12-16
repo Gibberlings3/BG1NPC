@@ -1,33 +1,33 @@
-@0    = ~One can always find a tale somewhere, if one knows where to look...~
-@1    = ~Pray tell, who goes there? Be ye adventurers?~
-@2    = ~It is the party of <CHARNAME> and I, the brave Sir Garrick.~
-@3    = ~And Tiax, who rules over all!~
-@4    = ~Hey, Garrick, you forgot to mention me! I mean, I *am* undoubtedly the one this group should be presenting as a figurehead...~
-@5    = ~I see, Sir Garrick. I am Myr'Cutio. Or, at least I was, before I, well, died... Tell me, wherefore hast thou come here?~
-@6    = ~We come seeking tales of your wisdom and adventures, noble spirit.~
+@0    = ~Sempre podemos encontrar uma história em algum lugar, se soubermos onde procurar...~
+@1    = ~Por favor, diga, quem vai lá? Sejam aventureiros?~
+@2    = ~É a festa de <CHARNAME> e eu, o corajoso Sir Garrick.~
+@3    = ~E Tiax, que governa tudo!~
+@4    = ~Ei, Garrick, você esqueceu de me mencionar! Quero dizer, eu *sou* sem dúvida aquele que este grupo deveria apresentar como uma figura de proa...~
+@5    = ~Entendo, Sir Garrick. Eu sou Myr'Cutio. Ou pelo menos eu estava, antes de, bem, morrer... Diga-me, por que você veio aqui?~
+@6    = ~Viemos em busca de histórias de sua sabedoria e aventuras, nobre espírito.~
 @7    = ~Uhhhh...~
-@8    = ~Alas, I have not had many adventures these recent years. My companions bear not the undead condition as well as I, and, begging thy pardon, are now rather dull.~
-@9    = ~Now, that's not terribly fair, old chap!~
+@8    = ~Infelizmente, não tive muitas aventuras nos últimos anos. Meus companheiros não suportam a condição de mortos-vivos tão bem quanto eu e, me desculpe, agora estão bastante enfadonhos.~
+@9    = ~Agora, isso não é muito justo, meu velho!~
 @10   = ~Guhhhh...~
-@11   = ~What? Tiax wanted to join in! When he rules, *all* shall have the conversational skills of zombies!~
-@12   = ~Ok, on second thought I'll concede that point... It must be rather dull for you, Myr'Cutio.~
-@13   = ~Hey! You can, well, talk?!?~
-@14   = ~Yes, of course! Uh, I mean, duhhhh...~
-@15   = ~Mummy always used to tell me that drybones weren't the best conversationalists. Still, I always find plenty to talk with them about! Right, Monty?~
-@16   = ~Duhhhh...~
-@17   = ~Shut yer cakehole, damn fool wizard...~
-@18   = ~Uh, I see.~
-@19   = ~Truth be told, I, too, tire of this unlife. Mayhap for my final adventure I could be put to rest by this brave band of fellows I see before mine eyes.~
-@20   = ~All undead are abominations! By Helm, it is time for you to meet your maker!~
-@21   = ~Glorious battle for Tempus!~
-@22   = ~I'm not sure I...~
-@23   = ~Yes. Come, once more unto the breach, dear friends! And so ends here either the tale of Myr'Cutio, or <CHARNAME>... We shall see.~
-@24   = ~So much for literary greats.
+@11 = ~O quê? Tiax queria participar! Quando ele governar, *todos* terão as habilidades de conversação dos zumbis!~
+@12 = ~Ok, pensando bem, vou admitir esse ponto... Deve ser um tanto chato para você, Myr'Cutio.~
+@13 = ~Ei! Você pode, bem, conversar?!?~
+@14 = ~Sim, claro! Uh, quero dizer, duhhhh...~
+@15 = ~Mamãe sempre me dizia que ossos secos não eram os melhores conversadores. Mesmo assim, sempre encontro muito o que conversar com eles! Certo, Monty?~
+@16 = ~Duhhhh...~
+@17 = ~Cale a boca, maldito bruxo idiota...~
+@18 = ~Uh, entendo.~
+@19 = ~ Verdade seja dita, eu também estou cansado dessa não-vida. Talvez, em minha aventura final, eu pudesse ser apaziguado por esse bravo grupo de companheiros que vejo diante de meus olhos.~
+@20 = ~Todos os mortos-vivos são abominações! Por Helm, é hora de você conhecer seu criador!~
+@21 = ~Gloriosa batalha por Tempus!~
+@22 = ~Não tenho certeza se...~
+@23 = ~Sim. Venham mais uma vez à brecha, queridos amigos! E assim termina aqui a história de Myr'Cutio, ou <CHARNAME>... Veremos.~
+@24 = ~Já chega de grandes nomes da literatura.
 
-We encountered the spirit of the fabled Myr'Cutio and defeated him in battle, thus ending the epic story of his life (or undeath) and adding to our story. It seems you can learn useful things from books, after all.~
-@25   = ~I agree that the artistic greats should have immortality through their works... Though I think this shows that, uh, it's probably best to let their bodies decay after their natural time has expired. I don't think I should ever want to be a ghost, like that... Still, this armor *is* very stylish.~
-//needs to be exact same as @29 from x#garar.tra
-@26   = ~Traveling Librarians.
+Encontramos o espírito do lendário Myr'Cutio e o derrotamos em batalha, encerrando assim a história épica de sua vida (ou morte) e acrescentando algo à nossa história. Afinal, parece que você pode aprender coisas úteis com os livros.
+@25 = ~Eu concordo que os grandes artistas deveriam ter imortalidade através de suas obras... Embora eu ache que isso mostra que, uh, provavelmente é melhor deixar seus corpos se decomporem depois que seu tempo natural expirar. Eu não acho que eu deveria querer ser um fantasma desse jeito... Mesmo assim, essa armadura *é* muito estilosa.~
+/precisa ser exatamente igual a @29 from x#garar.tra
+@26   = ~Bibliotecários Viajantes.
 
-Today we met a doddering old librarian named Archibald at the Nashkel Carnival. He gave us a copy of The Ultimate Compendium Of Famous Little-Known Heroes by Saemon Schama, which has an interesting section detailing the now-undead bard Myr'Cutio, who is said to haunt the Ulcaster region roughly to the east of Beregost. Garrick is keen to take a look.~
-@999  = ~Traveling Librarians~
+Hoje conhecemos um velho bibliotecário trêmulo chamado Archibald no Carnaval de Nashkel. Ele nos deu uma cópia de The Ultimate Compendium Of Famous Little-Known Heroes, de Saemon Schama, que tem uma seção interessante detalhando o bardo agora morto-vivo Myr'Cutio, que supostamente assombra a região de Ulcaster, aproximadamente a leste de Beregost. Garrick está ansioso para dar uma olhada.~
+@999  = ~Bibliotecários Viajantes~
