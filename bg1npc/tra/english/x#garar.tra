@@ -1,34 +1,34 @@
-@0    = ~Get out of my way, rascal! Bog off!~
-@1    = ~Books, books, books. Out of the way, you young rascals! In my day the youth were much more respectful of their elders... And much better versed in great literature too. Oh yes. Bah.~
-@2    = ~Yeah? Well Yah, Boo to you, too, old man!~
-@3    = ~Um, sorry, sir.~
-@4    = ~It seems Faerun is full of crazy old men these days. Let's move along. Quickly.~
-@5    = ~Ha! Like I said, disrespectful. Perhaps you could've learnt something from my countless years of wisdom, not to mention my books. But I guess you were just too brash to take the hint.~
-@6    = ~Manners, eh! So perhaps modern living hasn't completely eroded the last vestiges of decency from you. Perhaps I can help you...~
-@7    = ~Help me? How?~
-@8    = ~I doubt an old man has much to offer me. Maybe I'll be off now.~
-@9    = ~Well, I'm a librarian. Or, well, I used to be, though now I'm selling off my collection to finance my long-overdue retirement.~
-@10   = ~Oh really? Doing anything nice?~
-@11   = ~*sit and listen*~
-@12   = ~Yadda yadda yadda... Get on with it.~
-@13   = ~I'm glad you asked me that actually, I'm thinking of going further south in Amn, perhaps to the Umar Hills or somewhere...~
-@14   = ~I don't believe all this talk of impending war. As far as I'm concerned, it's a nice quiet place, where nothing happens. Nothing unexpected, no adventurers or anything. Zilch. I'll have a nice, quiet life. And best of all, no more books!~
-@15   = ~Now you may disagree, but I have quite a good sense of judgement about these things. Anyway, that's beside the point. You're distracting me.~
-@16   = ~Yeah, sorry. You were saying?~
-@17   = ~Yes, I'm selling my collection, though actually I've made enough money to live on now. I have but a few books left. Perhaps you'd be interested in this one - The Ultimate Compendium Of Famous Little-Known Heroes, by an old friend of mine, one Saemon Schama.~
-@18   = ~Wow, could it really be The Ultimate Compendium Of Famous Little-Known Heroes, by Saemon Schama? Please, <CHARNAME>, this is a great book! I'd really love to have it!~
-@19   = ~Ah, you would be a scholar then, my boy?~
-@20   = ~A bard, sir... I've always wanted a copy of that, since I was knee-high to a gnome. It is one of the classics - the author is a genius!~
-@21   = ~Though he's not quite up to my level, he is a fairly intelligent character, <CHARNAME>. I mean, for a human, of course, anything he's written is probably worth at least a quick peek.~
-@22   = ~Well then, if it pleases you, I'll give it to you for free. It's rare to meet such well-mannered types as yourselves. Good business to you, now, if you'll excuse me, I have my retirement to be getting on with. And one last bit of advice: things read in books can often prove very useful. Oh yes.~
-@23   = ~Oh, a senile librarian gives an important tome to an eager young adventuring bard? Please, what is this? What did I do to deserve such idiots for companions?~
-@24   = ~You're a good man, sir. I won't forget this.~
-@25   = ~Hey, <CHARNAME>! There's a passage in this book about the long-dead half-elven bard Myr'Cutio, who is said to roam undead in the valleys around a place called Ulcaster looking for further tales of adventure. Hey, there's rough directions, it's sort of close, east of Beregost! Perhaps we could go check it out?~
-@26   = ~I see no harm in that. Who knows, if true we may learn something.~
-@27   = ~I thought that crazy old librarian was bad enough, Garrick, but if you don't shut up, then I'll shove that book where the sun don't shine, if you catch my drift...~
-@28   = ~Wow! Thanks, <CHARNAME>.~
-//needs to be exact same as @26 from x#garwyl.tra
-@29   = ~Traveling Librarians.
+@0    = ~Saia do meu caminho, malandro! Vá embora!~
+@1    = ~Livros, livros, livros. Fora do caminho, seus jovens malandros! Na minha época, os jovens respeitavam muito mais os mais velhos... E também eram muito mais versados na boa literatura. Oh sim. Bah.~
+@2    = ~Sim? Bem, sim, Boo para você também, velho!~
+@3    = ~Hum, desculpe, senhor.~
+@4    = ~Parece que Faerun está cheia de velhos malucos atualmente. Vamos em frente. Rapidamente.~
+@5    = ~Ah! Como eu disse, desrespeitoso. Talvez você pudesse ter aprendido algo com meus incontáveis anos de sabedoria, sem falar nos meus livros. Mas acho que você foi muito ousado para entender a dica.~
+@6    = ~Boas maneiras, eh! Então, talvez a vida moderna não tenha corroído completamente os últimos vestígios de decência de você. Talvez eu possa te ajudar...~
+@7    = ~Me ajuda? Como?~
+@8    = ~Duvido que um velho tenha muito a me oferecer. Talvez eu vá embora agora.~
+@9    = ~Bem, sou bibliotecário. Ou, bem, costumava ser, mas agora estou vendendo minha coleção para financiar minha aposentadoria há muito esperada.~
+@10   = ~Ah, é mesmo? Fazendo algo legal?~
+@11   = ~*senta e ouve*~
+@12   = ~Sim, blá, blá... Vá em frente.~
+@13   = ~Estou feliz que você tenha me perguntado isso, na verdade, estou pensando em ir mais ao sul em Amn, talvez para as Colinas Umar ou algum lugar...~
+@14   = ~Não acredito em toda essa conversa sobre guerra iminente. Para mim, é um lugar tranquilo e agradável, onde nada acontece. Nada inesperado, sem aventureiros nem nada. Zero. Terei uma vida agradável e tranquila. E o melhor de tudo, chega de livros!~
+@15   = ~Agora você pode discordar, mas tenho um bom senso de julgamento sobre essas coisas. De qualquer forma, isso não vem ao caso. Você está me distraindo.~
+@16   = ~Sim, desculpe. Você estava dizendo?~
+@17   = ~Sim, estou vendendo minha coleção, embora na verdade já ganhei dinheiro suficiente para viver agora. Só me restam alguns livros. Talvez você esteja interessado neste - O Compêndio Definitivo de Heróis Famosos e Pouco Conhecidos, de um velho amigo meu, um tal Saemon Schama.~
+@18 = ~Uau, será mesmo O Compêndio Definitivo de Heróis Famosos e Pouco Conhecidos, de Saemon Schama? Por favor, <CHARNAME>, este é um ótimo livro! Eu realmente adoraria tê-lo! ~
+@19 = ~Ah, você seria um estudioso então, meu garoto?~
+@20 = ~Um bardo, senhor... Sempre quis uma cópia disso, já que era um gnomo na altura dos joelhos. É um dos clássicos - o autor é um gênio!~
+@21 = ~Embora ele não esteja no meu nível, ele é um personagem bastante inteligente, <CHARNAME>. Quero dizer, para um humano, é claro, qualquer coisa que ele escreveu provavelmente vale pelo menos uma olhada rápida.~
+@22 = ~Bem, então, se te agradar, eu te darei de graça. É raro encontrar pessoas tão bem-educadas como vocês. Bom negócio para você, agora, se me der licença, tenho que cuidar da minha aposentadoria. E um último conselho: as coisas lidas nos livros muitas vezes podem ser muito úteis. Ah, sim.~
+@23 = ~Oh, um bibliotecário senil dá um tomo importante para um jovem bardo aventureiro? Por favor, o que é isso? O que eu fiz para merecer tais idiotas como companheiros?~
+@24 = ~Você é um bom homem, senhor. Não vou esquecer isso.~
+@25 = ~Ei, <CHARNAME>! Há uma passagem neste livro sobre o bardo meio-elfo Myr'Cutio, falecido há muito tempo, que dizem vagar pelos mortos-vivos nos vales ao redor de um lugar chamado Ulcaster em busca de mais histórias de aventura. Ei, há direções aproximadas, é perto, a leste de Beregost! Talvez pudéssemos dar uma olhada?~
+@26 = ~Não vejo mal nenhum nisso. Quem sabe, se for verdade, podemos aprender alguma coisa.~
+@27 = ~Eu pensei que aquele velho bibliotecário maluco já era ruim o suficiente, Garrick, mas se você não calar a boca, então vou enfiar aquele livro onde o sol não brilha, se você me entende...~
+@28 = ~Uau! Obrigado, <CHARNAME>.~
+// precisa ser exatamente igual a @26 de x#garwyl.tra
+@29 = ~Bibliotecários Viajantes.
 
-Today we met a doddering old librarian named Archibald at the Nashkel Carnival. He gave us a copy of The Ultimate Compendium Of Famous Little-Known Heroes by Saemon Schama, which has an interesting section detailing the now-undead bard Myr'Cutio, who is said to haunt the Ulcaster region roughly to the east of Beregost. Garrick is keen to take a look.~
-@30   = ~Fine, but I bet we'll regret if we don't go...~
+Hoje conhecemos um velho bibliotecário trêmulo chamado Archibald no Carnaval de Nashkel. Ele nos deu uma cópia de The Ultimate Compendium Of Famous Little-Known Heroes, de Saemon Schama, que tem uma seção interessante detalhando o bardo agora morto-vivo Myr'Cutio, que supostamente assombra a região de Ulcaster, aproximadamente a leste de Beregost. Garrick está ansioso para dar uma olhada.~
+@30 = ~Tudo bem, mas aposto que vamos nos arrepender se não formos...~
