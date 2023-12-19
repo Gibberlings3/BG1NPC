@@ -1,35 +1,35 @@
 // x#kiint.tra: @113 - @118
-@1  = ~I need a moment to say a prayer to Shevarash. It seems that my sworn enemy is at the arrow's reach at last.~
-@2  = ~Go quickly about it, lest we are discovered.~
-@3  = ~Of course, elf. I will join my voice to yours for the success of our battle against the brigands.~
-@4  = ~I am sorry, Kivan, I'd rather we move swiftly. You can pray all you want, after we are done.~
-@5  = ~My Lord Shevarash, here I stand, on the soil that the beast who slew my beloved still walks. There is no desire greater in my heart than to wet it with his dark blood. I ask for the firmness of my arm to match the firmness of my soul. I ask for fulfillment of my vow, I ask for the strike that will bring down my foe. I ask thee to give me strength to fight, and strength to protect those who fight with me.~
-@6  = ~I see your need. I shall be silent. Let my arrows sing my prayer for me.~
+@1  = ~Preciso de um momento para fazer uma oração a Shevarash. Parece que meu inimigo jurado está finalmente ao alcance da flecha.~
+@2  = ~Faça isso rapidamente, para que não sejamos descobertos.~
+@3  = ~Claro, elfo. Unirei minha voz à sua pelo sucesso de nossa batalha contra os bandidos.~
+@4  = ~Sinto muito, Kivan, prefiro que avancemos rapidamente. Você pode orar o quanto quiser, depois que terminarmos.~
+@5  = ~Meu Senhor Shevarash, aqui estou eu, no solo onde a besta que matou minha amada ainda caminha. Não há desejo maior em meu coração do que molhá-lo com seu sangue escuro. Peço que a firmeza do meu braço corresponda à firmeza da minha alma. Peço o cumprimento do meu voto, peço o golpe que derrubará o meu inimigo. Peço-te que me dês forças para lutar e forças para proteger aqueles que lutam comigo.~
+@6  = ~Entendo sua necessidade. Ficarei em silêncio. Deixe minhas flechas cantarem minha oração por mim.~
 
 // x#kiint.tra: @119, @135, @136, @137
-@7  = ~Do you remember my Deheriana, beast?~
-@8  = ~Now, isn't that our walking dead at last? And with a company of pathetic fools like himself, no less.~
-@9  = ~Leave my friends out of it, this is between you and me. Today is the day you die, Tazok!~
-@10 = ~Oh, your screeching voice makes me shiver! You have pestered my soldiers long enough, scum! I am going to put an end to it, and I am going to do the job properly.~
+@7  = ~Você se lembra da minha Deheriana, fera?~
+@8  = ~Agora, aquele não é finalmente o nosso morto-vivo? E com uma companhia de idiotas patéticos como ele, nada menos.~
+@9  = ~Deixe meus amigos fora disso, isso é entre você e eu. Hoje é o dia em que você morre, Tazok!~
+@10 = ~Oh, sua voz estridente me faz arrepiar! Você já importunou meus soldados por tempo suficiente, escória! Vou acabar com isso e vou fazer o trabalho direito.~
 
 // x#kiint.tra: @130, @120, @132
-@11  = ~Kill them! I am expected at the mines, and have no time for this shit!~
-@12  = ~NO! Stay and fight, or I pronounce you a coward... But what have I expected? Tazok is a coward, for any who would torture innocent and defenseless is a coward. This battle is over, but the war is not, Tazok! I will find you!~
-@13  = ~The elf's head is to go on the pole in front of my tent!~
+@11  = ~Mate eles! Sou esperado nas minas e não tenho tempo para essa merda!~
+@12  = ~NÃO! Fique e lute, ou eu te declaro um covarde... Mas o que eu esperava? Tazok é um covarde, pois qualquer um que tortura inocentes e indefesos é um covarde. Esta batalha acabou, mas a guerra não, Tazok! Eu vou te encontrar!~
+@13  = ~A cabeça do elfo vai para o poste na frente da minha barraca!~
 
 // x#kiint.tra: @3,@4,@5
-@14   = ~Tazok! You have nowhere to run now. My vow will be fulfilled at last. Deheriana, melamin, this hour of blood is ours!~
-@15   = ~Heh. My small folk will have an elf-head to play with tonight!~
-@16   = ~I will cast you into the Abyss where you belong!~
+@14   = ~Tazok! Você não tem para onde correr agora. Minha promessa será finalmente cumprida. Deheriana, melamina, essa hora de sangue é nossa!~
+@15   = ~Eh. Meu pequeno povo terá uma cabeça de elfo para brincar esta noite!~
+@16   = ~Eu vou te lançar no Abismo onde você pertence!~
 
 // x#kiint.tra: @127
-@20  = ~Deheriana... you have been avenged, mela en'coiamin. Shevarash! Thy will has been done!~
+@20  = ~Deheriana... você foi vingada, mela en'coiamin. Shevarash! Tua vontade foi feita!~
 
-// Journal entries
+// Entradas no diário
 // x#kiint.tra: @134, BGEE:#27470, @133
-@101  = ~Tazok Recognized Kivan
-Tazok has recognized Kivan and our plan to infiltrate the bandit camp has failed.~
-@102  = ~A Hidden Base?
-Tazok plans to visit the site of a mine, where he might be reporting to the real bandit leader.~
-@103  = ~Kivan and Tazok
-Unsurprisingly, my companion Kivan was recognized by Tazok, but he did not get his chance to skewer the half-ogre. The bandit was apparently too busy to deal with the revenge-crazy elf. Tazok is travelling to a mine site. This mine site could be the home base of whoever controls the bandits.~
+@101  = ~Tazok reconheceu Kivan
+Tazok reconheceu Kivan e nosso plano de nos infiltrar no acampamento dos bandidos falhou.~
+@102  = ~Uma base oculta?~
+Tazok planeja visitar o local de uma mina, onde poderá se reportar ao verdadeiro líder dos bandidos.~
+@103  = ~Kivan e Tazok
+Não é novidade que meu companheiro Kivan foi reconhecido por Tazok, mas não teve a chance de espetar o meio-ogro. O bandido aparentemente estava ocupado demais para lidar com o elfo louco por vingança. Tazok está viajando para uma mina. Esta mina pode ser a base de quem controla os bandidos.~
