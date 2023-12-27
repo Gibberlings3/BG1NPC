@@ -1,69 +1,69 @@
-@0    = ~Bem, com certeza há problemas nas estradas. Eu mesmo vi alguns.~
-@1    = ~Rapaz, você é a pessoa errada, no lugar errado, na hora errada!~
-@2    = ~Oi, isso é meu! Tire as mãos, seu mercenário!~
-@3    = ~Renda-se a nós ou morra agora.~
-@4    = ~Não há rendição por carniça como essa.~
-@5    = ~Morra agora, imundície!~
-@6    = ~Tenho que te matar agora. Nada pessoal, entendeu?~
-@7    = ~Senhora, trago notícias graves. Nas minhas viagens, encontrei uma caravana atacada... e o corpo de um jovem, vestido com as cores do Escudo Prateado. Os bandidos que o mataram tinham esse fecho.~
-@8    = ~Então Eddard está morto? Isso é uma notícia triste. Dê-me esse broche - vou guardá-lo em memória do meu querido enteado...~
-@9    = ~Não... não... Por que você não me contou, <CHARNAME>? M-meu irmão... ah, não!~
-// @10   = ~Calma, garota.~
-@11   = ~O que... Céu? O que você está fazendo?~
-@12   = ~Eu.. Estou apenas... saindo. Hehe...~
-@13   = ~Hmph, vestido como um rato de esgoto e com sua mochila nos ombros? Dificilmente, querido. Você está fugindo, não está?~
-@14   = ~Eu... sim. Estou indo embora. Er... você vai contar ao meu pai?~
-@15   = ~Hmmm... contar a ele? Por que, claro que não! Esta é realmente uma reviravolta encantadora...~
-@16   = ~O quê..?~
-@17   = ~Minha querida, você é apenas uma garotinha rica e mimada. Você choraminga quando quebra uma *unha*. Você realmente acha que será capaz de sobreviver no grande mundo mau? Um exemplo melhor de isca para goblins, eu nunca vi.~
-@18   = ~E quando você eventualmente cair na beira da estrada, assim como seu irmão, *eu* serei aquele que estará sentado no topo da fortuna Silvershield.~
-@19   = ~Agora vá embora... talvez você pudesse deixar seu amigo, hmm? *sorri para Eldoth* ~
-@20   = ~Você... Sua *vadia*!~
-@21   = ~Fique longe do meu Eldoth!~
-@22   = ~Agora, agora, meu querido. Não podemos esperar manter sua... hum... partida em segredo, não é? Mesmo vindo de alguém tão egocêntrico quanto seu pai? Subamos, então, nas asas do Amor e voemos para onde elas nos levarem. *Abraça Skie e pisca para Brilla por cima do ombro.*~
-@23   = ~Tee-hee! Se algum dia precisar de um humorista para alegrar uma noite monótona, agora sei onde me candidatar. Cuide-se bem, querido! *Skie rosna e arrasta Eldoth para fora da sala.*~
-@24   = ~Nunca há mercenários suficientes por perto para fazer o trabalho corretamente. Você tem alguma experiência?~
-@25   = ~Nós lutamos contra um grupo de bandidos que tinha acabado de matar todos em uma caravana no Norte. Alguma chance de esse pin ser de um dos seus?~
-@26   = ~Você não sai muito de trás do balcão, não é? Ei, isso é de uma de suas caravanas? Tirou um monte de corpos no norte.~
-@27   = ~Alguns. Vimos uma caravana morta no norte e lutamos contra os bandidos, mas já era tarde demais. Isso é de um dos seus?~
-@28   = ~Ei, estou feliz que vocês tenham algum juízo. Tenho um subordinado que pode cuidar dos negócios aqui enquanto eu estiver fora, então vamos em frente.~
-@29   = ~Bem, com certeza há problemas nas estradas. Lutamos contra um grupo de bandidos que acabara de matar todos em uma caravana no Norte. Alguma chance de esse pin ser de um dos seus?~
-@30   = ~Sabe, acabei de lembrar... vimos uma caravana morta no norte e lutamos contra os bandidos. Isso é de um dos seus?~
-@31   = ~Bem, este é o marcador do filho de Silvershield. Morto, você diz? Essa foi uma das minhas caravanas. Acho que estou com muitos problemas agora. Com ele morto, serei um anão procurado. Bem, já que minha reputação agora é lama, que tal eu ajudá-lo a se vingar daqueles sacos de escória? Talvez você possa falar comigo com os Escudos de Prata. O que você disse?~
-@32   = ~Não queremos você por perto, então pegue a estrada.~
-/* @33   = ~Missão de Kaagain
+@0    = ~Well, there sure is trouble on the roads. I have seen some myself.~
+@1    = ~Boy, are ya the wrong thin' in the wrong place at the wrong time!~
+@2    = ~Oi, that's mine! Hands off, ya sellsword!~
+@3    = ~Surrender to us or die now. ~
+@4    = ~There is no surrender for carrion like these.~
+@5    = ~Die now, filth!~
+@6    = ~Have ta kill ya now. Nothin' personal, ya understand?~
+@7    = ~Madam, I bring grave news. In my travels, I came across a raided caravan... and the body of a young man, dressed in Silvershield colors. The bandits who killed him had this clasp.~
+@8    = ~Then Eddard is dead? That is grievous news. Give me that pin - I shall keep it in memory of my dear, dear step-son... ~
+@9    = ~No... no... Why have not you told me, <CHARNAME>? M-m-y brother... o, no!~
+// @10   = ~Hush, girl.~
+@11   = ~Wha... Skie? What are you doing?~
+@12   = ~I.. I'm just er... popping out. Heh...~
+@13   = ~Hmph, dressed like a sewer rat, and with your pack on your shoulders? Hardly, dear - You're running away, aren't you? ~
+@14   = ~I... yes. I'm leaving. Er... will you tell my father?~
+@15   = ~Hmmm... tell him? Why, of course not! This is indeed a delightful turn of events...~
+@16   = ~Wha..?~
+@17   = ~My dear, you are but a pampered little rich girl. You whine when you break a *nail*. Do you really think you'll be able to survive in the big bad world? A finer example of goblin bait, I've never seen.~
+@18   = ~And when you do eventually fall by the road side, just like your brother, *I* will be the one sitting on top of the Silvershield fortune.~
+@19   = ~Now you run along - though... maybe you could leave your friend, hmm? *smiles at Eldoth* ~
+@20   = ~You... You *bitch*!~
+@21   = ~Stay away from my Eldoth!~
+@22   = ~Now, now, my dearest. We can hardly hope to keep your... um... departure a secret, can we? Even from someone as self-absorbed as your father? Let us, then, mount upon the wings of Love and fly where they will take us. *Hugs Skie and winks at Brilla over her shoulder.*~
+@23   = ~Tee-hee! If I ever need a humorist to brighten a dull evening, I know now where to apply. Take good care, sweetie! *Skie snarls and drags Eldoth from the room.*~ 
+@24   = ~Never is enough hirelings around t' do the job proper. D'ya have any experience?~
+@25   = ~We battled a bandit group that had just killed everyone in a caravan up North. Any chance this pin was from one of yours?~
+@26   = ~You don't get out from behind the counter much, do you? Hey, is this from one of your caravans? Took it off a bunch of bodies up north.~
+@27   = ~Some. We did see a slain caravan up north, and fought off the bandits, but we were too late. Is this from one of yours?~
+@28   = ~Hey, I'm glad you guys have some sense in your heads.  I have an underling who can take care of business here while I'm gone, so let's get a move on.~
+@29   = ~Well there sure is trouble on the roads. We battled a bandit group that had just killed everyone in a caravan up North. Any chance this pin was from one of yours?~
+@30   = ~Y'know, I just remembered... we saw a slain caravan up north, and fought off the bandits. Is this from one of yours?~
+@31   = ~Well, this is Silvershield's son's marker. Dead, y'say? That was one of my caravans. Guess I'm in a lot of trouble now. With him dead, I'll be a wanted dwarf. Well, since my reputation is now mud, how 'bout I help you gain revenge on those scum bags? P'rhaps you can put in a word for me with the Silvershields. Whadda ya say?~
+@32   = ~We don't want you around, so hit the road.~
+/* @33   = ~Kagain's Quest
 
-O filho de Entar Silvershield foi morto. Eu não confiava em Kagain, então nos separamos, mas posso levar o distintivo de volta para a família dele, quando chegarmos a Baldur's Gate.~ */
-@34   = ~Claro, poderíamos usar suas habilidades.~
-@35   = ~Filho de Entar
-O filho de Entar Silvershield foi morto. Podemos levar o distintivo de volta para a família dele, quando chegarmos a Baldur's Gate.~
-@36   = ~Agora sobre aquela contratação que prometi. Aqui, pegue um pouco de ouro, mas espero de você minha parte do saque. Eu sou pobre agora.~
-@37   = ~Idiotas estúpidos, sua perda.~
-@38   = ~Eu não quero apressar vocês, idiotas, mas tenho uma caravana para encontrar! Vá em frente!~
-@39   = ~'Twas dirigido de Beregost nordeste em direção a Baldur's Gate. Disse a eles para ficarem a leste da estrada principal.~
-@40   = ~Bem, olha o que encontrei; este é o corpo do filho de Silvershield. Acho que estou com muitos problemas agora. Com ele morto, serei um anão procurado. Pelo que descobri até agora, todos vocês estão atrás desses malditos bandidos. Bem, já que minha reputação agora é lama, que tal eu ajudá-lo a se vingar daqueles sacos de escória?~
-@41   = ~Não queremos mais você por perto, então pegue a estrada.~
-@42   = ~Claro, poderíamos usar suas habilidades. Junte-se a nós.~
-@43   = ~Idiotas estúpidos, sua perda. Eu vou embora agora.~
-/* @44   = ~Missão de Kaagain
+Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways, but I might take the pin back to his family, when we get to Baldur's Gate.~ */
+@34   = ~Sure, we could use your skills.~
+@35   = ~Entar's Son
+Entar Silvershield's son was killed. We might take the pin back to his family, when we get to Baldur's Gate.~
+@36   = ~Now 'bout that hiring thing I promised. Here, have some gold, but I expect my share of the booty from ya. I am poor now.~
+@37   = ~Stupid chumps, your loss.~
+@38   = ~I don' wanna rush you mutton-heads, but I have a caravan to find! Get a move on!~
+@39   = ~'Twas headed from Beregost northeast towards Baldur's Gate. Told 'em to stay east of the main road.~
+@40   = ~Well, look what I found; this is the body of Silvershield's son. Guess I'm in a lot of trouble now. With him dead, I'll be a wanted dwarf. From what I've gathered so far, all of you are after them damnable bandits. Well, since my reputation is now mud, how 'bout I help ye gain revenge on those scum bags?~
+@41   = ~We don't want you around any more, so hit the road.~
+@42   = ~Sure, we could use your skills. Join us.~
+@43   = ~Stupid chumps, your loss. I'll be leavin' now.~
+/* @44   = ~Kagain's Quest
 
-O filho de Entar Silvershield foi morto. Não gostei da atitude de Kagain, então nos separamos, mas posso levar o distintivo de volta para os Escudos de Prata quando chegarmos a Baldur's Gate.~ */
-@45   = ~Agora sobre aquela moeda que prometi. Tome, fique com ele, mas espero de você minha parte do saque. Eu sou pobre agora.~
-@46   = ~Trazemos novidades para Lord e Lady Silvershield. Acreditamos ter encontrado notícias do filho deles. Alguma chance deste broche ser seu?~
-@47   = ~Vejo que você tem o Sigilo da família. Por favor, vá diretamente ao encontro de Lady Silvershield. Você pode encontrá-la lá em cima.~
+Entar Silvershield's son was killed. I didn't like Kagain's attitude, so we parted ways, but I might take the pin back to the Silvershields when we get to Baldur's Gate.~ */
+@45   = ~Now 'bout that coin thing I promised. Here, have it, but I expect my share of the booty from ye. I am poor now.~
+@46   = ~We bring news for Lord and Lady Silvershield. We believe that we have found news of their son. Any chance this pin is one of yours?~
+@47   = ~I see that you have the household Sigil. Please go to meet Lady Silvershield directly. You can find her upstairs.~
 // BGEE #27194
-@48   = ~Filho de Entar
-Nós nos juntamos a Kagain, um anão que quer encontrar um nobre desaparecido. O nobre desaparecido é filho de Entar Silvershield, então ele está realmente desesperado para encontrar o garoto.~
-@49   = ~Filho de Entar
-Devolvemos o distintivo do filho de Entar Silvershield para sua família.~
-@50   = ~Bem, com certeza há problemas nas estradas. Lutamos contra um grupo de bandidos que acabara de matar todos em uma caravana no Norte.~
-@51   = ~Você não sai muito de trás do balcão, não é? Sabe, acabei de me lembrar... vimos uma caravana morta no norte e lutamos contra os bandidos.~
-@52   = ~Morto, certo? Essa foi uma das minhas caravanas. Acho que estou com muitos problemas agora. Com a morte do filho de Silvershield, serei um anão procurado. Bem, já que minha reputação agora é lama, que tal eu ajudá-lo a se vingar daqueles sacos de escória? Talvez você possa falar comigo com os Escudos de Prata. O que você disse?~
-/* @53   = ~Filho de Entar
-O filho de Entar Silvershield foi morto. Eu não confiei em Kanova, então nos separamos.~ */
-@54   = ~Filho de Entar
-O filho de Entar Silvershield foi morto.~
-@55   = ~Nós lutamos contra um grupo de bandidos que tinha acabado de matar todos em uma caravana no Norte.~
-@56   = ~Ah, pensando bem, na verdade não.~
-@57   = ~Edard! *funga* Não acredito que ele está morto.~
-@58   = ~Não acredito que ele está morto.~
+@48   = ~Entar's Son
+We've joined up with Kagain, a dwarf who wants to find a missing noble. The missing noble is the son of Entar Silvershield, and so he's really desperate to find the kid.~
+@49   = ~Entar's Son
+We returned the pin of Entar Silvershield's son to his family.~
+@50   = ~Well there sure is trouble on the roads. We battled a bandit group that had just killed everyone in a caravan up North.~
+@51   = ~You don't get out from behind the counter much, do you? Y'know, I just remembered... we saw a slain caravan up north, and fought off the bandits.~
+@52   = ~Dead, y'say? That was one of my caravans. Guess I'm in a lot of trouble now. With Silvershield's son's dead, I'll be a wanted dwarf. Well, since my reputation is now mud, how 'bout I help you gain revenge on those scum bags? P'rhaps you can put in a word for me with the Silvershields. Whadda ya say?~
+/* @53   = ~Entar's Son
+Entar Silvershield's son was killed. I did not trust Kagain, so we parted ways.~ */
+@54   = ~Entar's Son
+Entar Silvershield's son was killed.~
+@55   = ~We battled a bandit group that had just killed everyone in a caravan up North.~
+@56   = ~Ah, on second thought, not really.~
+@57   = ~Eddard! *sniffle* I can't believe he's dead.~
+@58   = ~I can't believe he's dead.~
