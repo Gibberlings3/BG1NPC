@@ -1,23 +1,23 @@
 // x#brint.tra @0, @1, @2, @3
-@0  = ~Você foi mais esperto que uma pedra!~
-@1  = ~Pare de latir, cachorro. Eu vim para puni-lo por sua traição, por seu jeito chorão! Tempus está comigo!~
-@2  = ~Eu esperava que você fosse esperta, sua grande garota, antes de me incomodar novamente. Mas vejo que não. Você acha que eu teria medo de você e desses rudes que te libertaram do meu feitiço?~
-@3  = ~Vaca estúpida. Se você não sair da minha frente nos próximos cinco segundos, eu vou explodir você para o reino vindouro!~
+@0  = ~Ya been smarter as a stone!~
+@1  = ~Stop yapping, dog. I have come to punish you for your treachery, for your sniveling ways! Tempus is with me!~
+@2  = ~I hoped you'd smarten up some, big wench, before botherin' me again. But I see that ya didn't. Ya think I'd be afraid of you and these boors that freed ya from my spell?~
+@3  = ~Stupid cow. If ya'll ain't outta my face in the next five seconds, I'll blast ya to kingdom come!~
 
 // x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
-@4  = ~Você é nojento, desgraçado... Mate-o, <CHARNAME>. Quem implora pela sua vida não tem honra. Ele irá trair você para Tazok se você deixá-lo ir.~
-@5  = ~Harpia!~
-@6  = ~Olha, ele se sujou! Vamos matá-lo, para que não haja chance desse fracote procriar. Isso a menos que sua masculinidade fique para sempre presa entre as próprias nádegas, como o rabo de um cachorro vira-lata, por causa do susto que lhe causamos hoje. *risos*~
-@7  = ~Vadia.~
-@8  = ~<CHARNAME>, não devemos deixar esse desgraçado escapar, ele certamente informará seus superiores. Seria aconselhável se pudéssemos... evitar isso, de alguma forma...~
-@9  = ~Não, não vou, não vou...~
+@4  = ~You are disgusting, wretch... Kill him, <CHARNAME>. One who begs for his life has no honor. He will betray you to Tazok if you let him go.~
+@5  = ~Harpy!~
+@6  = ~Look, he soiled himself! Let's kill him, so there is no chance that this weakling procreates. That's unless his manhood forever remains stuck between his own buttocks, like a mongrel dog's tail, from the fright we'd given him today. *laughs*~
+@7  = ~Bitch.~
+@8  = ~<CHARNAME>, we must not let this wretch get away, he will surely inform his superiors. It would be advisable if we could... prevent this, somehow...~
+@9  = ~No, I won't, I won't...~
 
 // x#brint.tra @4
-@10 = ~Não! <CHARNAME> deu licença para <PRO_HISHER>, mas você não tem a minha! Levantem suas armas!~
+@10 = ~No! <CHARNAME> gave you <PRO_HISHER> leave, but you don't have mine! Raise your weapons!~
 
 // x#jaint.tra @61, @62
-@11 = ~Não gosto de seguir esse caminho, mas, infelizmente, é a única opção verdadeiramente segura. Concordo com sua decisão, <CHARNAME>.~
-@12 = ~Vocês todos vão morrer!~
+@11 = ~I do not relish taking this path, but, unfortunately, it is the only truly safe option. I stand in agreement with your decision, <CHARNAME>.~
+@12 = ~Ya all gonna die!~
 
 // x#brint.tra @55
-@13 = ~O cachorro desonrado está morto! Tempus, sua vontade está feita! Venha, vamos brindar ao Tempus e à vitória, <CHARNAME>!~
+@13 = ~The dishonorable dog is dead! Tempus, your will is done! Come, let's drink to Tempus and to victory, <CHARNAME>!~
