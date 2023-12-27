@@ -1,83 +1,83 @@
-@0    = ~Continuo ouvindo muito sobre um aumento militar. Angelo, o novo comandante do Punho, tem enviado muitos membros do Punho para o sul, para Beregost. Temo que a guerra possa estar se formando.~
-@1    = ~Acumulação Militar
+@0    = ~I keep on hearing a lot about a military build up. Angelo, the new commander of the Fist, has been sending a lot of the Fist down south to Beregost. I fear war might be brewing.~
+@1    = ~Military Buildup
 
-Angelo, o novo comandante do Punho, tem enviado muitos membros do Punho para o sul, para Beregost. As pessoas temem que a guerra possa estar se formando.~
-@2    = ~Nas próximas eleições, acho que o rapaz Sarevok vai aceitar. Ele tem muito apoio da nobreza, e são eles que têm influência.~
-@3    = ~Assento Ducal
+Angelo, the new commander of the Fist, has been sending a lot of the Fist down south to Beregost. People fear war might be brewing.~
+@2    = ~In the coming election, I think that Sarevok lad is gonna take it. He has a lot of support from the nobility, and they're the ones with the clout.~
+@3    = ~Ducal Seat
 
-Sarevok é muito popular entre a nobreza, e isso pode lhe render o assento ducal em Baldur's Gate.~
-@4    = ~Você ouviu falar dos assassinatos em Candlekeep? Parece que os líderes do Trono de Ferro foram mortos. Os mesmos sujeitos que ajudaram o pessoal de Nashkel cometeram o crime. Eles eram agentes Amnish, pelo que ouvi. De qualquer forma, um dos filhos do morto é agora o líder. Sarevok é o nome dele, eu acho.~
-@5    = ~Sarevok e o Trono de Ferro
+Sarevok is very popular with the nobility, and that may win him the ducal seat in Baldur's Gate.~
+@4    = ~Did you hear about the assassinations at Candlekeep? Seems that the leaders of the Iron Throne went and got themselves killed. Those same fellows who helped the folks down in Nashkel did the deed. They were Amnish agents, I hear. Anyhow, one of the dead guy's sons is now the leader. Sarevok is his name, I think.~
+@5    = ~Sarevok and the Iron Throne 
 
-Sarevok assumiu o comando do Trono de Ferro. Ainda sou acusado dos assassinatos dos ex-líderes, embora se pense que fui um agente de Amn. Alguém pretende levar a região à guerra.~
-@6    = ~Todo mundo parece estar morrendo hoje em dia. Primeiro Entar Silvershield, depois Eltan fica doente e agora Scar está morto. Algo está acontecendo e não é nada bom.~
-@7    = ~Teia Emaranhada
+Sarevok has assumed command of the Iron Throne. I am still accused of the former leaders' murders, though it is thought I was an agent of Amn. Someone is intent upon pushing the region into war.~
+@6    = ~Everyone seems to be dropping dead these days. First Entar Silvershield, then Eltan gets sick, and now Scar's dead. Something's brewing, and it's nothin' good.~
+@7    = ~Tangled Web
 
-É possível que os eventos envolvendo Entar Silvershield, Eltan e Scar estejam ligados de alguma forma. Pelo menos esse é o boato sobre a cidade.~
-@8    = ~Ainda não consigo acreditar que Entar Silvershield foi morto. Pelo que está sendo dito, todas as evidências apontam para os Ladrões das Sombras e, portanto, para o próprio Amn. Tymora ajude a todos nós.~
-@9    = ~Escudo Prateado Assassinado
+It is possible that the events involving Entar Silvershield, Eltan and Scar are linked somehow. At least, that's the rumor about town.~
+@8    = ~I still can't believe that Entar Silvershield was killed. From what's being said, all the evidence points to the Shadow Thieves, and thus to Amn itself. Tymora help us all.~
+@9    = ~Silvershield Assassinated
 
-Acredita-se que os Ladrões das Sombras de Amn mataram Entar Silvershield. As pessoas temem que este seja o prelúdio de uma invasão.~
-@10   = ~É muito triste com Eltan. Espero que ele se recupere da doença; ele era o mais amado dos Grão-Duques.~
-@11   = ~Duque Eltan
+It is believed that Shadow Thieves from Amn killed Entar Silvershield. People fear this is the prelude to an invasion.~
+@10   = ~It's really sad about Eltan. I hope he recovers from his illness; he was the most beloved of the Grand Dukes.~
+@11   = ~Duke Eltan
 
-O Duque Eltan é o mais querido e respeitado dos Grão-Duques de Baldur's Gate. Sua morte deixaria um imenso buraco na liderança da região.~
-@12   = ~Há um grande preço pelas cabeças daqueles caras que mataram os líderes do Trono de Ferro. 5.000 ouro ou mais, eu acho.~
-@13   = ~Aviso de recompensa
+Duke Eltan is the most beloved and respected of the Grand Dukes of Baldur's Gate. His death would leave an immense hole in the leadership of the region.~
+@12   = ~There's a big price on the heads of those fellas who offed the Iron Throne's leaders. 5000 gold or more, I think.~
+@13   = ~Bounty Notice
 
-Há uma recompensa de 5.000 ouro pela minha cabeça pelos assassinatos dos quais sou acusado. Eu deveria ter cuidado com os caçadores de recompensas.~
-@14   = ~Com Entar Silvershield morto, eles terão que eleger um novo Grão-Duque. Parece que muitas pessoas pensam que será o novo líder do Trono de Ferro, Sarevok.~
-@15   = ~Sarevok Consolidando Poder
+There is a bounty of 5000 gold on my head for the murders I am accused of. I should be wary of bounty hunters.~
+@14   = ~With Entar Silvershield dead, they're going to have to elect a new Grand Duke. Seems like a lot of people think it'll be the new leader of the Iron Throne, Sarevok.~
+@15   = ~Sarevok Consolidating Power
 
-Com os líderes do Trono de Ferro fora do caminho, Sarevok estava livre para assumir a liderança. Agora ele está tentando preencher a lacuna deixada pela morte de Entar Silvershield em Baldur's Gate. Mortes coincidentes parecem seguir-se à sua ascensão ao poder.~
-@16   = ~Com o ferro sendo tão escasso, não vejo como o Flaming Fist continuará a ser uma força policial eficaz. Sem novas armas e sem novas armaduras, não é uma coisa boa.~
-@17   = ~Punho Flamejante Agitando
+With the leaders of the Iron Throne out of the way, Sarevok was free to assume the leadership. Now he is trying to fill the gap in Baldur's Gate left by Entar Silvershield's death. Coincidental deaths seem to follow his rise to power.~
+@16   = ~With iron being so scarce, I don't see how the Flaming Fist is gonna continue to be an effective police force. No new weapons and no new armor, not a good thing.~
+@17   = ~Flaming Fist Flailing
 
-O Punho Flamejante corre o risco de perder a capacidade de proteger a região. A condição de suas armas e armaduras é sofrida, assim como acontece com todos os outros.~
-@18   = ~Desde que o Trono de Ferro se mudou para aquela mansão no sudoeste, coisas estranhas têm acontecido. Não sei o que há naquele prédio, mas me dá arrepios.~
-@19   = ~Eventos Estranhos
+The Flaming Fist is in danger of losing its ability to protect the region. The condition of its weapons and armor is suffering, just as it is for everyone else.~
+@18   = ~Ever since the Iron Throne moved into that mansion in the southwest, strange things have been afoot. I don't know what it is about that building, but it gives me the creeps. ~
+@19   = ~Strange Events
 
-Há algo estranho na nova casa do Trono de Ferro no sudoeste de Baldur's Gate~
-@20   = ~Ouviu sobre os heróis de Nashkel? Algumas boas pessoas – mercenários, dizem – vieram e resolveram todos os problemas daquela cidade.~
-@21   = ~Fama em ascensão
+There is something strange about the new home of the Iron Throne in the southwest of Baldur's Gate~
+@20   = ~Hear about the heroes of Nashkel? Some good folk – mercenaries, it's said - came down and solved all that town's problems.~
+@21   = ~Fame Rising
 
-Histórias sobre minhas ações estão se espalhando, embora eu não tenha certeza se gosto do termo “mercenários”.~
-@22   = ~Ouvi dizer que algumas unidades do Punho Flamejante foram enviadas para Beregost. Parece que os grão-duques estão ficando paranóicos com Amn.~
-@23   = ~Tensões Amnish
+Tales of my actions are spreading, though I'm not sure I like the term "mercenaries."~
+@22   = ~I hear, some units of the Flaming Fist have been sent to Beregost. Seems like the Grand Dukes are getting real paranoid about Amn.~
+@23   = ~Amnish Tensions
 
-As tensões estão crescendo na região devido à suposta ameaça de Amn, embora as evidências que vi sejam um tanto confusas sobre o assunto.~
-@24   = ~Ouvi dizer que Amn está por trás de todos aqueles bandidos no sul. As pessoas por aqui têm falado sobre como Amn e os Zhents estão unidos. Isso me faz preocupar com que tipo de coisas eles poderiam estar planejando.~
-@25   = ~Amn e a Torre Negra
+Tensions are growing in the region due to the supposed threat from Amn, though the evidence I've seen is somewhat confused on the subject.~
+@24   = ~I hear that Amn's behind all those bandits in the south. People round here have been talking about how Amn and the Zhents are in league together. It makes me worry about what kinda things they could be scheming.~
+@25   = ~Amn and the Black Tower
 
-Correm rumores de que Amn e os Zhentarim estão unidos. No entanto, existem apenas evidências vagas para apoiar isso.~
-@26   = ~Ouvi dizer que há rumores de Shadow Thieves aqui em Baldur's Gate. Não sei se é verdade, mas se for, aposto que eles estão aqui para procurar uma invasão Amnish.~
-@27   = ~Envolvimento do Ladrão de Sombras
+Rumors are spreading that Amn and the Zhentarim are in league together. There is only sketchy evidence to support this, however.~
+@26   = ~I hear there's rumors of Shadow Thieves here in Baldur's Gate. I dunno if it's true, but if it is, I betcha they're here to scout out for an Amnish invasion.~
+@27   = ~Shadow Thief Involvement
 
-As pessoas temem que os Ladrões das Sombras estejam procurando uma invasão Amnish, mas esses rumores são mais numerosos do que qualquer evidência que os apoie.~
-@28   = ~Ouvi dizer que a Liga dos Mercadores está tendo muitos problemas. Parece que os três proprietários estão discutindo sobre como administrar o local. O Trono de Ferro tem aproveitado essa situação. Se as coisas continuarem como estão, o Trono em breve não terá concorrência. Meio estranho, considerando que eles só se mudaram para a cidade há alguns anos.~
-@29   = ~Novos negócios em crescimento
+People fear that the Shadow Thieves are scouting for an Amnish invasion, but these rumors are more numerous than any evidence supporting them.~
+@28   = ~I heard that the Merchant's League is having a lot of trouble. Seems that the three owners are squabbling about how to run the place. The Iron Throne's been taking advantage of that situation. If things continue as they are, the Throne soon won't have any competition. Kinda strange, considering they only moved into the city a couple of years back.~
+@29   = ~New Business Growing
 
-O Trono de Ferro é bastante poderoso em Baldur's Gate, embora eles tenham chegado lá recentemente. Algo pode estar atrapalhando a Liga dos Mercadores e reduzindo sua capacidade de competir.~
-@30   = ~Tem sido muito estranho nos últimos meses. O ferro está estragando, desmoronando quase como se estivesse enferrujando sem motivo específico. Pelo que ouvi, a maior parte deste “ferro ruim” vem das minas de Nashkel. Não posso confiar naqueles mineiros Amnish; provavelmente algum esquema que eles inventaram.~
-@31   = ~Problemas de Ferro
+The Iron Throne is quite powerful in Baldur's Gate, even though they only arrived there recently. Something may be disrupting the Merchant's League and reducing its ability to compete.~
+@30   = ~It's been really weird these past few months. Iron's been going bad, falling apart almost as if it were rustin' for no particular reason. From what I hear, most 'o this 'bad iron' comes from the mines at Nashkel. Can't trust those Amnish miners; probably some scheme they've come up with. ~
+@31   = ~Iron Troubles
 
-O ferro das minas de Nashkel é quase inútil quando fundido. As pessoas suspeitam que estão fazendo isso intencionalmente, como parte de alguma trama grandiosa para Amn.~
-@32   = ~Parece que o problema do ferro em Nashkel foi resolvido. Um grupo de mercenários foi às minas e esclareceu o que estava causando todos os problemas. Pessoas corajosas para lutar contra o que quer que estivesse lá embaixo.~
-@33   = ~The Seven Suns tem agido de forma muito estranha ultimamente. A empresa parece ter a intenção de perder dinheiro. Até mesmo um simples barman como eu pode ver a tolice de algumas de suas decisões. Duvido que o Trono de Ferro esteja chorando por causa disso. Eles estão fazendo muitas incursões por causa dos erros dos Suns.~
-@34   = ~O ferro é tão escasso hoje em dia que você pensaria que era tão valioso quanto o ouro. Não é uma coisa boa, não é nada bom.~
-@35   = ~Ferro Escasso
+Iron from the Nashkel mines is nearly useless, when smelted. People suspect that they are doing it intentionally, as part of some grandiose plot for Amn.~
+@32   = ~Seems like the iron problem down in Nashkel's solved. A group of mercenaries went into the mines and cleared up what's been causin' all the trouble. Brave folk to go fightin' whatever was down there.~
+@33   = ~The Seven Suns has been acting very strange as of late. The company seems to be intent on losing money. Even a simple bartender like myself can see the foolishness of some of their decisions. I doubt the Iron throne is crying about it, though. They're making a lot of inroads because of the Suns' mistakes.~
+@34   = ~Iron's so scarce these days, you'd think it was as valuable as gold. Not a good thing, not a good thing at all.~
+@35   = ~Scarce Iron
 
-O ferro continua a ser escasso, elevando cada vez mais os preços das ferramentas e armas.~
-@36   = ~Meu pai parecia pensar que os Ladrões das Sombras não estariam fazendo o trabalho sujo do Conselho dos Seis para eles, mas eu não sei.~
-@37   = ~Sarevok? Não, isso não pode ser... Sarevok é o vilão aqui... ele... ele é mau, ele é um assassino! Isso... isso está tudo errado!~
-@38   = ~Sarevok Consolidando Poder
+Iron continues to be scarce, driving prices of tools and weapons ever higher.~
+@36   = ~My Father seemed to think the Shadow Thieves wouldn't be doing the Council of Six's dirty work for them, but I don't know.~
+@37   = ~Sarevok? No, that can't be... Sarevok is the villan here... he... he's evil, he's a murderer! This... this is all wrong!~
+@38   = ~Sarevok Consolidating Power
 
-Com os líderes do Trono de Ferro fora do caminho, Sarevok estava livre para assumir a liderança. Agora ele está tentando preencher a lacuna deixada pela morte de Entar Silvershield em Baldur's Gate. Mortes coincidentes parecem seguir-se à sua ascensão ao poder.~
-@39   = ~Bem, ele certamente não tem o *meu* apoio.~
-@40   = ~Isso é verdade. O duque Eltan era um homem do povo, meu pai... bem, ele era um... político.~
-@41   = ~As coisas tendem a piorar neste berço de sofrimento.~
-@42   = ~Sim, bom senhor, você com certeza tem razão. O Portão não é mais como era na época de Balduran... Eu deveria ter me mudado para Águas Profundas.. Sim, senhor, eu deveria ter feito isso.~
-@43   = ~Eu não quis dizer Baldur's Gate, pobre alma. Eu quis dizer Toril.~
-@44   = ~Não... não... você deve nos ouvir, os Ladrões das Sombras são inocentes! Meu pai foi assassinado por Sarevok, que está conspirando para matar os Grão-Duques restantes! Você deve avisar as outras pessoas antes que seja tarde demais!~
-@45   = ~Seu pai? Sarevok? Uh uh, acho que você precisa deixar de lado o tempero, garoto...~
+With the leaders of the Iron Throne out of the way, Sarevok was free to assume the leadership. Now he is trying to fill the gap in Baldur's Gate left by Entar Silvershield's death. Coincidental deaths seem to follow his rise to power.~
+@39   = ~Well, he certainly doesn't have *my* support.~
+@40   = ~That's true. Duke Eltan was a man for the people, my father... well, he was a... politician.~
+@41   = ~Things have a way of working out for the worst in this cradle of suffering.~
+@42   = ~Aye, good sir, ye sure have a point. The Gate is not as it has been in Balduran's time... I should've moved to Waterdeep.. Yes, sir, I should've.~
+@43   = ~I did not mean Baldur's Gate, you poor soul. I meant Toril.~
+@44   = ~No... no... you must listen to us, the Shadow Thieves are innocent! My father was murdered by Sarevok, who is plotting to kill the remaining Grand Dukes! You must warn the other people before it is too late!~
+@45   = ~Your father? Sarevok? Uh uh, I think you need to lay off the spice, kid...~
 
