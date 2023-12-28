@@ -217,7 +217,7 @@ END
 
 APPEND ~%tutu_var%VOLTIN~
 
-IF WEIGHT #3 ~%BGT_VAR% Global("HelpVoltine","GLOBAL",0)~ THEN BEGIN X#VoltinAdd
+IF WEIGHT #1 ~%BGT_VAR% !Dead("Gervisse") Global("HelpVoltine","GLOBAL",0)~ THEN BEGIN X#VoltinAdd
   SAY @150
   ++ @151 EXIT
   ++ @152 + P5#VoltinAdd2
