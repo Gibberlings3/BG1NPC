@@ -22,25 +22,6 @@ README ~bg1npc/readme-bg1npc-%LANGUAGE%.html~ ~bg1npc/readme-bg1npc.html~
 /* ALWAYS = Before each and any component, do this. */
 ALWAYS
 	INCLUDE ~bg1npc/lib/bg1npc_always.tpa~
-
-<<<<<<<< .../fl#inline/newlines
-%LNL%
->>>>>>>>
-
-  OUTER_SPRINT tra_path ~bg1npc/tra~
-
-  ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup-osx setup-unix setup-win32 END
-  ACTION_DEFINE_ARRAY fl#reload BEGIN bg1npc END
-  LAF HANDLE_CHARSETS
-    INT_VAR
-      infer_charsets = 1
-    STR_VAR
-      tra_path = EVAL ~%MOD_FOLDER%/tra~
-      default_language = ~english~
-      noconvert_array = fl#noconvert
-      reload_array = fl#reload
-  END
-
 END /* ALWAYS */
 
 /* Language Settings */
