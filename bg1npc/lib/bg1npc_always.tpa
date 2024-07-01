@@ -38,7 +38,7 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 
 	// Only setup.tra is stated in LANGUAGE and needs to be reloaded after conversion
 	ACTION_DEFINE_ARRAY x#reload BEGIN setup END
-	ACTION_DEFINE_ARRAY x#noconvert BEGIN END
+	ACTION_DEFINE_ARRAY x#noconvert BEGIN setup-osx setup-unix setup-win32 END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
