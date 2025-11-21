@@ -1,0 +1,12 @@
+IF %BGT_VAR%
+Global("P#ImanelExists","%WyrmsCrossing%",0)
+THEN
+RESPONSE #100
+SetGlobal("P#ImanelExists","%WyrmsCrossing%",1)
+CreateCreature("P#IMANEL",[601.617],14)
+CreateCreature("P#WOLF01",[624.611],15)
+CreateCreature("P#WOLF02",[554.608],14)
+CreateCreature("P#WOLF03",[623.555],0)
+CreateCreature("P#WOLF04",[562.566],13)
+CreateCreature("P#WOLF05",[507.581],9)
+END
