@@ -261,6 +261,8 @@ EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW3100.BAF~
 COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#IHTIA.BAF~
 COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KETH.BAF~
 COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/X#KISE1.BAF~
+COMPILE ~bg1npc/phase2/baf/x#saha01.baf~
+COMPILE ~bg1npc/phase2/baf/x#saha02.baf~
 
 /* dialogues */
 COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#KISEQU.D~

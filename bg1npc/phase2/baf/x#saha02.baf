@@ -1,0 +1,9 @@
+// Override script for Sahuagin in Kivan's sea elf quest.
+// Same fix as x#saha01.baf -- see that file for details.
+
+IF
+  Global("X#KivanSea","GLOBAL",3)
+THEN
+  RESPONSE #100
+    NoAction()
+END
