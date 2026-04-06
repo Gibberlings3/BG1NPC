@@ -1,3 +1,17 @@
+// Override script for Sahuagin Chieftain in Kivan's sea elf quest.
+// Prevents combat during the cutscene/dialogue phase (X#KivanSea=3).
+//
+// The CRE has EA=ENEMY but is set NEUTRAL by the cutscene via ChangeEnemyAlly.
+// Without this script, any mod that assigns default AI scripts to creatures
+// (e.g., SCS genai) will cause the sahuagin to attack before the chieftain's
+// dialogue can fire, permanently breaking the quest.
+//
+// Once the dialogue completes and sets X#KivanSea=5, this block no longer
+// matches and normal combat AI takes over.
 
-
-
+IF
+  Global("X#KivanSea","GLOBAL",3)
+THEN
+  RESPONSE #100
+    NoAction()
+END
