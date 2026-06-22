@@ -963,10 +963,10 @@
 					WRITE_BYTE 0x74 5 // Axes (was 3)
 					WRITE_BYTE 0x236 1 // Level 3 (was 5)
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_scriptbg%skie~ #8 //  override script
 				END
-				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie6.cre~) BEGIN
+				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%skie6.cre~) AND !(GAME_IS ~bgee eet~) BEGIN
 					WRITE_ASCIIE 0x248 ~%tutu_scriptbg%skie~ #8 //  override script
 				END
 				PATCH_IF (~%crefile%~ STR_EQ ~%tutu_var%tellan.cre~) BEGIN // Tellan (in Ice Island L1)
