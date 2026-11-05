@@ -4,7 +4,7 @@
 @2 = ~Désolé, Viconia. On ne peut pas toujours voyager de nuit, mais je peux essayer de faire un effort supplémentaire.~ ~Désolée, Viconia. On ne peut pas toujours voyager de nuit, mais je peux essayer de faire un effort supplémentaire.~
 @3 = ~Tu sais, Viconia, si tu dois vivre en surface, tu vas devoir t'habituer au soleil.~
 @4 = ~Tu pourrais arrêter tes jérémiades ? Tu crois peut-être que les autres apprécient d'entendre ça ?~
-@5 = ~Je devrais l'espérer. Sinon je vais sûrement dépérir sous la brûlante oppression de votre... lumière du jour.~
+@5 = ~Je l'espère bien. Sinon je vais sûrement dépérir sous la brûlante oppression de votre... lumière du jour.~
 @6 = ~Pff, cette seule pensée me dégoûte. Je ne sais même pas si je me sentirai jamais chez moi sous ce brûlant incendie.~
 @7 = ~Ça devrait venir, avec le temps. C'est à toi de surmonter ça.~
 @8 = ~Non. Peut-être que tu ne t'y feras pas. Mais de toute façon tu vas devoir vivre avec.~
@@ -14,7 +14,7 @@
 
 
 //PC2
-@12 = ~Ta conception toute surfacine du compagnonnage m'est encore très étrangère, <CHARNAME>. Ton Imoen, par exemple. Je... tout à fait entre nous, je dois t'avouer que je ne pense vraiment pas que, si la décision dépendait de moi, je la prendrais à mes côtés, comme tu l'as fait.~
+@12 = ~Ta conception toute surfacine du compagnonnage m'est encore très étrangère, <CHARNAME>. Ton Imoen, par exemple. Loin des oreilles indiscrètes, je te le dis : si la décision m'appartenait, jamais je ne l'aurais emmenée avec nous.~
 @13 = ~Bien qu'elle ait son utilité, je ne suis pas d'avis qu'elle vaille vraiment tous les soucis qu'elle cause. Mais, une fois de plus, je reconnais que je suis drow, et que je pense différemment de toi. Quel est ton raisonnement, <CHARNAME> ? Pourquoi prends-tu cette fille avec toi ?~
 @14 = ~Imoen est bien plus qu'un membre du groupe. C'est une vieille amie.~
 @15 = ~Elle peut être odieuse, mais elle est suffisamment utile pour que ça l'emporte.~
@@ -24,16 +24,16 @@
 @19 = ~Oui. Qu'est-ce qui est si dur à croire là-dedans ?~
 @20 = ~Viconia, Imoen compte pour moi. C'est peut-être difficile à comprendre pour une drow, mais c'est comme ça.~
 @21 = ~Oui, c'est le cas. Et je ne veux pas que tu juges Imoen comme ça, ou que tu lui fasses le moindre mal.~
-@22 = ~Euh, et bien, pas vraiment.~
-@23 = ~Pour ma part, je te supplierais de changer d'avis. Je ne la vois fournir aucune contribution qui vaille la pression qu'elle exerce sur mes nerfs. Mais c'est toi qui as la charge de ce groupe, <CHARNAME>, et c'est à toi de juger de cette question.~
+@22 = ~Euh, eh bien, pas vraiment.~
+@23 = ~Pour ma part, je me permets d'être d'un autre avis. Je ne la vois fournir aucune contribution qui vaille la pression qu'elle exerce sur mes nerfs. Mais c'est toi qui as la charge de ce groupe, <CHARNAME>, et c'est à toi de juger de cette question.~
 @24 = ~Vraiment ? Alors tu emmènes cette fille avec toi à cause de ses talents ?~
 @25 = ~Oui. C'est un membre de valeur dans ce groupe.~
 @26 = ~Que puis-je dire de plus ? Elle fait bien son travail.~
-@27 = ~Hé bien, elle n'est pas là uniquement à cause de ses compétences, je suppose.~
+@27 = ~Eh bien, elle n'est pas là uniquement à cause de ses compétences, je suppose.~
 @28 = ~Ta soeur, dis-tu ? De l'attachement ? Il va falloir que tu comprennes quand je te dis que les manières des surfacins me semblent complètement stupides.~
 @29 = ~Dans ma maison, mes dalninilen, mes soeurs, comme vous dites, n'avaient certainement aucun attachement pour moi, ni moi pour elles. Nous étions au mieux des rivales, au pire des ennemies jurées.~
-@30 = ~C'était l'Outreterre. Les choses sont différentes ici.~
-@31 = ~Hé bien, Imoen et moi ne sommes pas comme ta fratrie. Nous sommes des amis proches, et loyaux l'un envers l'autre.~ ~Hé bien, Imoen et moi ne sommes pas comme ta fratrie. Nous sommes des amies proches, et loyales l'une envers l'autre.~
+@30 = ~C'était l'Ombre-Terre. Les choses sont différentes ici.~
+@31 = ~Eh bien, Imoen et moi ne sommes pas comme ta fratrie. Nous sommes des amis proches, et loyaux l'un envers l'autre.~ ~Eh bien, Imoen et moi ne sommes pas comme ta fratrie. Nous sommes des amies proches, et loyales l'une envers l'autre.~
 @32 = ~Ne te fais aucune idée à propos d'une telle compétition. Je ne veux pas que tu fasses de mal à Imoen.~
 @33 = ~Alors tu vois la stupidité de vos manières ? Vraiment, <CHARNAME>, je peux comprendre pourquoi tu pourrais avoir de... la tendresse... pour cette enfant, mais elle est surtout un handicap pour nous tous. Peut-être devrait-elle partir.~
 @34 = ~Peut-être as-tu raison. J'y réfléchirai.~
@@ -45,16 +45,16 @@
 
 
 //PC3
-@40 = ~Je crois que je ne t'ai jamais correctement remercié, <CHARNAME>, de m'avoir sauvée et prise avec toi. J'ai été très... étourdie à ce sujet.~ ~Je crois que je ne t'ai jamais correctement remerciée, <CHARNAME>, de m'avoir sauvée et prise avec toi. J'ai été très... étourdie à ce sujet.~
-@41 = ~Bel'la dos, ussta abbil. En route pour un fructueux compagnonnage. Puissent nos ennemis tomber devant notre puissance !~
+@40 = ~Je crois que je ne t'ai jamais correctement remercié, <CHARNAME>, de m'avoir sauvée et prise avec toi. Je n'ai pas été très... reconnaissante à ce sujet.~ ~Je crois que je ne t'ai jamais correctement remerciée, <CHARNAME>, de m'avoir sauvée et prise avec toi. Je n'ai pas été très... reconnaissante à ce sujet.~
+@41 = ~Bel'la dos, ussta abbil. À notre nouvelle alliance ! Puissent nos ennemis tomber sous nos coups !~
 @42 = ~Tu es la bienvenue, Viconia.~
 @43 = ~Tu es la bienvenue. Veille à y mettre du tien, ou tu pars.~
 @44 = ~Me remercier ? J'ai entendu parler de la façon dont les drows paient leurs dettes.~
 @45 = ~Et s'ils ne tombent pas, du moins trembleront-ils. Je t'apprécie déjà, drow.~
 @46 = ~Bienvenue ? Je suis la bienvenue. Cela sonne agréablement à mes oreilles, <CHARNAME>.~
 @47 = ~Ulu z'hin maglust dal qu'ellar lueth valsharess zhah ulu z'hin wund lil phalar. Bien que je marche à présent à l'écart de la Maison et de la Reine, mon association avec ce groupe peut encore me sauver de la tombe. <CHARNAME> ultrin !~
-@48 = ~ Mais, certainement. Je ne m'attends sûrement pas à ce que tu m'offres l'abri gratuitement. Sois tranquille, mes compétences te serviront bien.~
-@49 = ~*Elle s'arrête un moment, comme si la suggestion l'avait prise au dépouvu. Elle laisse échapper un soupir de dédain, mais le temps que ses yeux rencontrent ceux de <CHARNAME>, son expression est remplacée par une stupéfaction maligne.*~
+@48 = ~Mais bien sûr. Je ne m'attends sûrement pas à ce que tu m'offres l'abri gratuitement. Sois tranquille, mes compétences te serviront bien.~
+@49 = ~*Elle s'arrête un moment, comme si la suggestion l'avait prise au dépourvu. Elle laisse échapper un soupir de dédain, mais le temps que ses yeux rencontrent ceux de <CHARNAME>, son expression laisse place à un amusement malicieux.*~
 @50 = ~Bien sûr. J'avais oublié à quel point l'esprit des surfacins était fasciné par ceux de ma race. Très bien, <RACE>, tu auras réparation, si c'est ce que tu veux.~
 @51 = ~C'est cet état d'esprit qui m... nous maintiendra en vie.~
 
@@ -66,14 +66,14 @@
 @55 = ~Il s'est probablement enfui terrorisé, comme les autres. C'est ce que j'aurais fait aussi, si une drow m'avait injurié et m'avait dit qu'elle allait me couper la langue. Tu perds la main, ma chère, peut-être devrais-tu aller cuver.~
 @56 = ~Pour son propre bien, il devrait courir aussi vite que possible. Son insolence était intolérable, et je vais vraiment lui couper la langue, s'il la ramène dans les parages.~
 @57 = ~Je suis fatiguée de la compagnie de ces rivven, Safana. Tu as sans doute raison : je devrais aller me reposer.~
-@58 = ~N'oublie pas les butins chèrement acquis, cette fois.~
+@58 = ~N'oublie pas le butin chèrement acquis, cette fois.~
 @59 = ~Bien sûr que non. Nindolen rivven phuul ji waelen...~
 
 
 //Eldoth
 @60 = ~Mâle, va me chercher de quoi manger.~ [%tutu_var%VICON37]
-@61 = ~Baissez d'un ton, très chère. Quelques uns des membres les plus civilisés de ce groupe essaient de réfléchir. Ne les interrompez pas avec votre primitive quête de nourriture.~
-@62 = ~Si nous étions en Outreterre, tu paierais sûrement de ta vie ton arrogance. Dommage que ça ne puisse être le cas. Quoi qu'il en soit, tu ferais bien de surveiller ta langue, jaluk.~
+@61 = ~Baissez d'un ton, très chère. Quelques-uns des membres les plus civilisés de ce groupe essaient de réfléchir. Ne les interrompez pas avec votre primitive quête de nourriture.~
+@62 = ~Si nous étions en Ombre-Terre, tu paierais sûrement de ta vie ton arrogance. Dommage que ça ne puisse être le cas. Quoi qu'il en soit, tu ferais bien de surveiller ta langue, jaluk.~
 @63 = ~Oui, oui, peu importe, ma petite beauté sombre. Si vous vous intéressez vraiment à une vie en surface, allez consulter Skie sur le tricot ou la préparation de gâteaux, ou toutes ces autres choses qui font glousser les femmes.~
 @64 = ~Oui, oui, peu importe, ma petite beauté sombre. Si vous vous intéressez vraiment à une vie en surface, peut-être devriez-vous vous mettre à tricoter, ou apprendre à faire de la pâtisserie. Et, avant toute chose, ne jamais parler à un homme, à moins qu'il ne vous le demande en premier.~
 @65 = ~Peuh ! Prends garde, jaluk. Je n'accepterai pas l'asservissement que vous imposez à vos femelles... et je ne prends pas les insultes à la légère.~
@@ -81,9 +81,9 @@
 
 //Ajantis
 @66 = ~Ajantis, serais-je dans le vrai en supposant que tu n'as jamais vu une femme telle que moi ?~
-@67 = ~Je n'ai vu que trop de personnes dans votre genre auparavant. Je connais bien vos façons d'abuser vos victimes.~
+@67 = ~Je n'ai vu que trop de personnes dans votre genre auparavant. Je ne connais que trop les manières des êtres malfaisants.~
 @68 = ~Idiot insipide, je ne faisais pas référence à la place que j'occupe dans le spectre étroit de ta morale, mais plutôt à ma nature de drow.~
-@69 = ~Alors la réponse est non, bien que je connaisse malgré tout vos manières ouvertes et cachées. Vous êtes irrémédiablement maléfique, et ce sera cause de votre chute. Le savoir pèse lourdement sur mon coeur, mais c'est néanmoins la vérité.~
+@69 = ~Alors la réponse est non, bien que je connaisse malgré tout vos manières ouvertes et cachées. Vous êtes irrémédiablement maléfique, et ce sera un jour la cause de votre chute. Le savoir pèse lourdement sur mon coeur, mais c'est néanmoins la vérité.~
 @70 = ~Ta naïveté causera *ta* perte, waela rivvil.~
 
 
@@ -97,14 +97,14 @@
 
 //Branwen 2
 @76 = ~J'observais encore la ferveur aveugle avec laquelle tu montes à l'assaut. C'est un trait de caractère indubitablement étrange, que de montrer un zèle aussi enthousiaste en de telles circonstances.~
-@77 = ~Tous les guerriers courageux se révèlent au coeur de la bataille. Il n'y a rien de plus noble.~
+@77 = ~Tous les guerriers courageux se délectent de la fureur des combats. Il n'y a rien de plus noble.~
 @78 = ~Tu as complètement échoué à donner un quelconque sens à ton attitude, rivvil, bien que je n'aie guère espéré le contraire. Qu'y a-t-il de si noble à faire la guerre ? Je croyais que la plupart des rivven feignaient au moins d'adhérer à la morale qui prétend que le meurtre est déplaisant.~
 @79 = ~Sur le champ de bataille, les deux parties savent parfaitement que leurs vies sont dans la balance. Elles les y ont volontairement placées. C'est un genre de bravoure que Tempus apprécie, et moi de même.~
 @80 = ~Et qu'en est-il des... alternatives ? Qu'en est-il des autres moyens de résoudre les conflits, en dehors de la guerre ?~
 @81 = ~Nulle n'est aussi vertueuse que la valeur du champ de bataille.~
 @82 = ~Alors il semble que la mort ou le massacre ne te dérangent pas, prêtresse. Mais tu condamnerais sans doute encore les façons de faire de ma race, je me trompe ?~
 @83 = ~C'est la lâcheté qui prédomine dans les rapports de ta race, Viconia. Vos petits jeux, vos dagues sous le manteau... Quelle honte ! Le combat, ainsi que la victoire, sont les seules fins justes que l'on doive poursuivre !~
-@84 = ~Pff. A défaut, je possède un cerveau, et comme telle, je vais m'écarter autant que possible de ton dogme fanatique.~
+@84 = ~Pff. Moi, en revanche, je possède un cerveau, et à ce titre, je vais m'écarter autant que possible de ton dogme fanatique.~
 @85 = ~Dans une guerre des vertus, tu n'aurais aucune chance.~ [%tutu_var%BRANW37]
 @86 = ~Autant que toi, rivvil, dans un duel d'esprit.~
 @87 = ~Ne te moque pas de moi ! Ce n'est que pour la bonne réussite de ce groupe que je laisserai passer cette insulte !~
@@ -115,8 +115,8 @@
 @89 = ~Femelle !~
 @90 = ~Comment oses-tu m'interrompre !~
 @91 = ~Ne me parle pas et tu ne seras pas interrompue, drow.~
-@92 = ~Vas-tu constamment éviter de me parler ? As-tu peur ? Même les elfes noirs ne peuvent tuer avec de simples mots, rath'argne darthiir.~
-@93 = ~Oh, quelle passionnante habitude ! Quel mot d'esprit me décerneras-tu, la prochaine fois ? L'ordinaire "Ton devoir est de me servir, jaluk" ? Et tout un choeur d'insultes répétitives inextricablement mêlées de termes drows, où l'on chercherait en vain une attaque correcte en commun.~
+@92 = ~Pourquoi évites-tu constamment de me parler ? As-tu peur ? Même les elfes noirs ne peuvent tuer avec de simples mots, rath'argne darthiir.~
+@93 = ~Oh, quelle passionnante habitude ! Quel mot d'esprit me décerneras-tu, la prochaine fois ? L'ordinaire "Ton devoir est de me servir, jaluk" ? Et tout un choeur d'insultes répétitives inextricablement mêlées de termes drows, faute de trouver en commun une insulte assez blessante.~
 @94 = ~Tu ferais bien de tenir ta langue, Coran ! Je ne réagis pas pacifiquement aux insultes. Un seul mot de plus, et je...~
 @95 = ~Oh, alors maintenant tu ne veux plus que le petit elfe craintif parle ! Où est parti ton enthousiasme, je me le demande ?! Viconia, je préfère faire des choses agréables. Si je pouvais choisir entre me baigner dans les ravins ardents des Neuf Enfers ou m'associer avec toi, je serais déjà en train de me délecter d'un bon bain de lave bouillonnante !~
 
@@ -146,16 +146,16 @@
 @111 = ~Waela jaluk ! Je commence à être fatiguée de te réparer à chaque fois que tu fais une gaffe.~
 @112 = ~(Elle fait comme si elle n'appréciait pas la tâche...) Tel est ton rôle dans ce groupe, Viconia. J'assure le gros de la bataille avec ma magie, et tu sers en grande partie à apporter des soins après l'engagement.~
 @113 = ~Pfff ! Tu sous-estimes ma contribution à ce groupe, faern.~
-@114 =~ Tu remplis à peine ton rôle dans les limites de... ton domaine de compétence. (Bien que ma subtile insinuation lui passe probablement au-dessus de la tête.)~
+@114 =~Tu remplis à peine ton rôle dans les limites de... ton domaine de compétence. (Bien que ma subtile insinuation lui passe probablement au-dessus de la tête.)~
 @115 = ~Ne me confonds pas avec une quelconque courtisane, mage. Sous la surface les hommes suppliaient pour obtenir ma compagnie... ils auraient exposé leur vie pour tenter leur chance ! Vous autres, jaluken, vous êtes faibles. L'homme qui méritera ma soumission au sens où tu l'entends, je ne l'ai pas encore rencontré, et cela n'arrivera jamais.~
-@116 = ~(Bah ! La solution est toute trouvée !) Bien sûr, tu n'as jamais rencontré un Thayen.~
-@117 = ~Jusqu'à maintenant. Et je ne suis pas impressionnée. Va-t-en, mâle... et ne m'adresse plus la parole sans permission.~
+@116 = ~(Bah ! Elle a du caractère, celle-là !) Bien sûr, tu n'as jamais rencontré un Thayen.~
+@117 = ~Jusqu'à maintenant. Et je ne suis pas impressionnée. Va-t'en, mâle... et ne m'adresse plus la parole sans permission.~
 
 
 //Faldorn
-@118 = ~Pouah. Je ne comprendrai jamais cette maudite saleté qu'est votre monde. Ces étalages de collines, ces vibrations de vert... l'infinie béance du ciel, cet oeil unique et brûlant. S'il n'y avait pas le répit de l'obscurité, je ne pourrais pas du tout le supporter.~
+@118 = ~Pouah. Je ne comprendrai jamais cette maudite saleté qu'est votre monde. Ces collines à perte de vue, ces verts éclatants... l'infinie béance du ciel, cet oeil unique et brûlant. S'il n'y avait pas le répit de l'obscurité, je ne pourrais pas du tout le supporter.~
 @119 = ~J'ai peu de patience envers tes semblables, vile créature, qui souilleraient la nature de leurs critiques.~
-@120 = ~Es-tu prête à défendre tes éclats fanatiques, druide ? Dis-moi seulement pour quelles raisons je devrais partager ton immortel amour pour ce monde.~
+@120 = ~Es-tu prête à défendre tes éclats fanatiques, druide ? Dis-moi seulement pour quelles raisons je devrais partager ton amour éternel pour ce monde.~
 @121 = ~Je n'ai pas à te donner de raisons de L'aimer. Sache seulement que la Grande Mère est l'ultime pouvoir derrière toutes choses, et que l'ordre naturel pénètre toutes les civilisations et autres oeuvres de l'homme.~
 @122 = ~Tu es, comme toutes choses, sujette à la volonté de la nature. C'est tout ce que tu as besoin de savoir, drow.~
 @123 = ~Vith'os, jalil d'rivvil ! Je ne me soumettrai jamais à ce monde misérable qui est le vôtre...~
@@ -168,15 +168,15 @@
 @127 = ~Je ne sais si je mérite réellement vos commentaires, Viconia... mais que préfèreriez-vous me voir chanter ?~
 @128 = ~De ce dont me parle la Maîtresse de la Nuit. De quelque chose de plus conforme au monde que nous traversons. Ton blabla idéaliste ne vaut rien, et ne repose sur rien.~
 @129 = ~Je ne peux m'empêcher de me demander si vous connaissez quoi que ce soit en dehors de la douleur et du découragement. J'en suis vraiment désolé pour vous.~
-@130 = ~Garde tes sympathies pour toi, idiot, et tu peux t'ôter de l'esprit toutes les idées que tu t'es faites à mon sujet. Je ne supporterais pas d'être le sujet de ta prochaine ballade amoureuse.~
+@130 = ~Garde tes sympathies pour toi, idiot, et tu peux t'ôter de l'esprit toutes les idées que tu t'es faites à mon sujet. Je ne supporterai pas d'être le sujet de ta prochaine ballade amoureuse.~
 
 
 //Imoen
 @131 = ~Enfant ! Je ne vois pas pourquoi tu persistes à t'effaroucher à mon approche. Est-ce ma race qui te révulse au point que tu m'évites ainsi ?~
-@132 = ~Non ! Hum... enfin... plus ou moins. J'ai un peu lu sur les drows quand j'étais à Château-Suif. Plutôt... méchants, pour ce que je me rappelle. Tous les drows ne sont-ils pas de sortie pour conquérir le monde ou quelque chose du genre ? Pour tous nous réduire en esclavage ?~
+@132 = ~Non ! Hum... enfin... plus ou moins. J'ai un peu lu sur les drows quand j'étais à Château-Suif. Plutôt... méchants, pour ce que je me rappelle. Les drows veulent pas tous conquérir le monde, ou un truc du genre ? Pour tous nous réduire en esclavage ?~
 @133 = ~Il est vrai que par bien des côtés mon peuple mérite sa sinistre réputation. Mais garde à l'esprit que je suis une paria, et ne suis pas loyale à leurs fins.~
 @134 = ~Toi et moi sommes abbilen : des compagnons. C'est un mot que je pouvais rarement employer dans les cavernes de mon foyer. Peut-être me donneras-tu une chance de connaître le sens d'un tel mot ici, dans ce monde qui est le tien.~
-@135 = ~Ah, hum, tu me fais me sentir un vrai chameau. Je ne peux pas dire que tu ne donnes plus un chouia la frousse, mais je peux affirmer que je ferai de mon mieux pour te donner une chance.~
+@135 = ~Ah, hum, là, je me sens vraiment bête. Je peux pas dire que tu me fiches plus du tout la frousse, mais je peux affirmer que je ferai de mon mieux pour te donner une chance.~
 @136 = ~C'est tout ce que je te demanderais.~
 
 
@@ -187,7 +187,7 @@
 
 
 //Imoen 3
-@140 = ~Dois-je comprendre, Imoen, que toi et <CHARNAME> avez grandi dans un monastère ? C'est un genre d'enfance que je ne peux qu'à grand peine imaginer.~
+@140 = ~Dois-je comprendre, Imoen, que toi et <CHARNAME> avez grandi dans un monastère ? C'est un genre d'enfance que je ne peux qu'à grand-peine imaginer.~
 @141 = ~Ah... en fait, c'était pas si excitant que ça. De vieux moines coincés, des tas de bouquins poussiéreux. Mais je pense que le plus amusant venait probablement de tous les ennuis qu'on a traversés, ou de tourner autour du vieux Gros-Ventre.~
 @142 = ~...Gros... Ventre ?~
 @143 = ~Ouais ! L'vieux Gros-Ventre dirigeait l'auberge là-bas. L'était un peu comme un père pour moi. Comme Gorion l'était pour <CHARNAME>, tu vois.~
@@ -198,7 +198,7 @@
 
 //Jaheira
 @147 = ~Les habitants de la surface sont parfois tellement bêtes !~
-@148 = ~Comme peut l'être ta race, en sus d'être notoirement malveillante.~
+@148 = ~Comme peut l'être ta race, en sus d'être notoirement décriée.~
 @149 = ~Ce n'est pas toi que mes paroles visaient, druidesse, mais plutôt l'idiotie rampante des masses de ce monde.~
 @150 = ~Même dans ce cas, drow, je ne crois pas que tu puisses honnêtement avancer que ceux de la surface sont plus fous que ceux de ta race.~
 @151 = ~Tu... parles plutôt sagement, à ma grande surprise.~
@@ -218,7 +218,7 @@
 @159 = ~Je n-ne sais pas si je fais bien de vouloir les entendre. Mais p-parlez.~
 @160 = ~Je ne peux m'empêcher de me demander ce que ce serait de vivre une existence aussi embrouillée. Quand ta propre race est elle-même incertaine, rivvil ou darthiir, j'imagine que le doute et la confusion peuvent devenir plutôt dévorants.~
 @161 = ~J-j'entends comme une insulte, Viconia. Je suis tout à fait satisfait de mon ascendance, je vous s-saurais gré d'en prendre note.~
-@162 = ~Vraiment ? Alors tu es plus courageux que je ne l'avais pensé jusque là.~
+@162 = ~Vraiment ? Alors tu es plus courageux que je ne l'avais pensé jusque-là.~
 @163 = ~...Est-ce q-que ce sera tout, drow ?~
 @164 = ~En effet. Tu peux disposer.~
 @165 = ~...Ce sont v-vos préjugés que vous feriez bien de renvoyer. Ils ne vous seront d'aucune utilité ici.~
@@ -237,12 +237,12 @@
 //Kivan 2
 @173 = ~Faible darthiir, comment as-tu fait pour rester en vie ? Déhériana est morte...~
 @174 = ~N'ayez pas l'audace de prononcer son nom, pas vous... Je... Je vous l'interdis !~
-@175 = ~Si tu n'avançais pas si lentement comme un simple d'esprit, en murmurant à chaque pas Déhériana par ci, Déhériana par là, je n'aurais pas posé la question. Mais que peut-on attendre d'un simple darthiir, sinon la sottise ? Alors, pourquoi as-tu abandonné la femme que tu as servie jusqu'à la mort, et n'en as-tu pas été puni ?~
+@175 = ~Si tu n'avançais pas si lentement, comme un simple d'esprit, en murmurant à chaque pas Déhériana par-ci, Déhériana par-là, je n'aurais pas posé la question. Mais que peut-on attendre d'un simple darthiir, sinon la sottise ? Alors, pourquoi as-tu abandonné la femme que tu as servie jusqu'à la mort, et n'en as-tu pas été puni ?~
 @176 = ~Je n'étais pas au service de Déhériana, Viconia. Elle était ma femme devant les dieux et les hommes. Je l'aime.~
-@177 = ~Jal ssinssrigg zhah waella. Tout amour est stupide, darthiir.~
-@178 = ~Vous ne savez pas ce que c'est que l'amour, Elfe Noire. Le mot que vous avez employé ne désigne pas l'amour, mais le désir.~
-@179 = ~En Drow, il n'y a pas de mot pour l'amour.~
-@180 = ~Si. Votre race s'en est débarrassé il y a des milliers d'années, quand elle a arraché de son âme tout ce qu'elle avait de bon et de vrai, afin de plaire à la Reine Araignée.~
+@177 = ~Jal ssinssrigg zhah waela. Tout amour est stupide, darthiir.~
+@178 = ~Vous ne savez pas ce que c'est que l'amour, elfe noire. Le mot que vous avez employé ne désigne pas l'amour, mais le désir.~
+@179 = ~En drow, il n'y a pas de mot pour l'amour.~
+@180 = ~Si. Votre race s'en est débarrassée il y a des milliers d'années, quand elle a arraché de son âme tout ce qu'elle avait de bon et de vrai, afin de plaire à la Reine Araignée.~
 @181 = ~Ce qui n'existe pas ne devrait pas avoir de nom.~
 
 
@@ -259,42 +259,42 @@
 //Eldoth + Skie
 @189 = ~Dis-moi que les choses ne sont pas ce qu'elles paraissent, Skie. Dis-moi que les jalilen d'rivven, les femmes de la surface, ne sont pas aussi asservies que tu sembles l'être.~
 @190 = ~Je suis désolée, est-ce que j'ai fait quelque chose de mal ?~
-@191 = ~Ne fais pas l'idiote, jeune fille. La façon dont ce jaluk te pousse deci delà... C'est consternant !~
+@191 = ~Ne fais pas l'idiote, jeune fille. La façon dont ce jaluk te pousse de-ci de-là... C'est consternant !~
 @192 = ~Vous n'avez pas besoin d'être désolée pour moi, Viconia. Eldoth m'aime, et je l'aime. Je devine que si vous ne pouvez pas comprendre ça...~
 @193 = ~Oh, je t'en prie, fillette, ne prends pas mon irritation envers toi pour de l'inquiétude. Je suis insupportablement proche de la nausée, pour l'heure. Il me semble que ton amour n'est rien d'autre qu'un mot que les mâles rivvil ont inventé pour lier les femmes rivvil à leur servitude.~
 @194 = ~Non, ce n'est pas ça du tout ! C'est juste triste que vous ne puissiez pas comprendre la façon dont... ooh, j'ai la migraine !~
 @195 = ~Reste à l'écart d'elle, jeune fille. Sa bile empoisonnera ton esprit, si tu la laisses faire.~
 @196 = ~Dis-moi que les choses ne sont pas ce qu'elles paraissent, Skie. Dis-moi que les jalilen d'rivven, les femmes de la surface, ne sont pas aussi asservies que tu sembles l'être.~
-@197 = ~Ne fais pas l'idiote, jeune fille. La façon dont ce jaluk te poussait deci delà... C'est consternant !~
+@197 = ~Ne fais pas l'idiote, jeune fille. La façon dont ce jaluk te poussait de-ci de-là... C'est consternant !~
 @198 = ~Je ne peux pas croire que vous ayez pu dire ça ! *renifle* Avez-vous besoin d'être tout le temps aussi méchante ?~
 
 
 //Tiax
-@199 = ~A Menzoberranzan nous chassions tes semblables pour le sport, yingil. Les svirfneblins n'étaient pas nos ennemis les plus puissants, mais ils maniaient des pouvoirs de la terre qui faisaient d'eux un véritable défi pour le chasseur imprudent. Ton peuple a-t-il des pouvoirs similaires sur la pierre ?~
-@200 = ~Tiax a des pouvoirs sur la pierre, le ciel et l'eau, Elfe Noire ! Nul élément ne peut échapper à l'implacable domination de Tiax !~
+@199 = ~À Menzoberranzan nous chassions tes semblables pour le sport, yingil. Les svirfneblins n'étaient pas nos ennemis les plus puissants, mais ils maniaient des pouvoirs de la terre qui faisaient d'eux un véritable défi pour le chasseur imprudent. Ton peuple a-t-il des pouvoirs similaires sur la pierre ?~
+@200 = ~Tiax a des pouvoirs sur la pierre, le ciel et l'eau, elfe noire ! Nul élément ne peut échapper à l'implacable domination de Tiax !~
 @201 = ~Je ne demandais pas pour toi, wael, mais pour ton peuple !~
 @202 = ~Mon peuple ? Tiax n'a pas de pairs ! Tiax s'est élevé au-delà de son ascendance insignifiante et a atteint un stade bien supérieur à celui du plus grand des Gnomes des Roches ! Nulle autre race ne peut OSER prétendre avoir un lien de parenté avec Tiax, parce qu'il est sa propre race ! Que le monde entier tremble devant sa puissance !~
-@203 = ~(soupir) Je sens que je perds mon temps avec toi. Restons-en là..~
+@203 = ~(soupir) Je sens que je perds mon temps avec toi. Restons-en là.~
 
 
 //Xan
 @204 = ~Dis-moi donc, darthiir, ta sinistre conception de l'existence provient-elle de quelque infortune précise ou simplement de la morne corvée de devoir vivre en elfe de la surface ?~
 @205 = ~Hum, faut-il vraiment que vous me parliez, drow ? Votre seule présence ici suggère que notre chef a perdu l'esprit, et que nous sommes voués à l'échec. Dois-je en sus supporter votre bavardage ?~
-@206 = ~Voilà qui ne répond pas vraiment à ma question, bien que mes soupçons s'en trouvent en partie confirmées. Je peux comprendre qu'une vie si fragile, constamment exposée au soleil, puisse devenir assez déprimante.~
-@207 = ~Des sentiments très semblables à ceux que j'éprouverais avant de me pendre de consternation, si je devais passer ma vie à ramper dans des cavernes. Mais votre situation présente ne vous donne pas vraiment la liberté de harceler sans raisons vos compagnons de route. A moins que vous n'envisagiez votre propre ruine que comme chose désirable.~
+@206 = ~Voilà qui ne répond pas vraiment à ma question, bien que mes soupçons s'en trouvent en partie confirmés. Je peux comprendre qu'une vie si fragile, constamment exposée au soleil, puisse devenir assez déprimante.~
+@207 = ~Des sentiments très semblables à ceux que j'éprouverais avant de me pendre de consternation, si je devais passer ma vie à ramper dans des cavernes. Mais votre situation présente ne vous donne pas vraiment la liberté de harceler sans raisons vos compagnons de route. À moins que vous ne considériez votre propre ruine comme chose désirable.~
 @208 = ~Peuh ! Waela darthiir ! Tu n'as guère cherché à cacher ton mépris pour moi, et nous serions sûrement brouillés quoi que je puisse te dire.~
 @209 = ~En effet. Je peux comprendre que votre situation puisse devenir assez déprimante.~
 
 
 //Xzar
 @210 = ~J'ai quelque peu réfléchi, mage, au conseil que tu m'as donné. Aussi écervelé que tu puisses paraître, il m'est venu à l'esprit que tes paroles pouvaient avoir quelque valeur après tout.~
-@211 = ~Evidemment que oui ! Euh... que disaient-elles, au juste ?~
+@211 = ~Évidemment que oui ! Euh... que disaient-elles, au juste ?~
 @212 = ~Je vois. J'aurais dû m'attendre à une réponse de ce genre. Toute ta personne, tous tes actes sont empreints d'une certaine instabilité lunatique. L'instant présent n'y fera pas exception. Mais ce n'est pas ce que...~
-@213 = ~Dites-moi, joli onyx, avez-vous jamais pensé à devenir un échantillon exotique ? Je n'ai jamais rien vu qui ait la qualité de votre peau, si délicieusement parfumée du pur Mal qui l'imprègne. Pourquoi, même dans les histoires que Moman me raconte... non pas que je la voie très souvent ces derniers temps. Oh maudit soit mon oeil trop distrait !~
+@213 = ~Dites-moi, joli onyx, avez-vous jamais pensé à devenir un échantillon exotique ? Je n'ai jamais rien vu qui ait la qualité de votre peau, si délicieusement parfumée du pur Mal qui l'imprègne. Eh bien, même dans les histoires que Moman me raconte... non pas que je la voie très souvent ces derniers temps. Oh maudit soit mon oeil trop distrait !~
 @214 = ~Quoi ? Es-tu devenu fou, jaluk !~
-@215 = ~Non. Peut-être une oreille seulement. Ça ferait un échantillon éblouissant ; laqué, monté sur un bâton, ça doublerait de valeur en brosse pour le dos. Un bénéfice pour nous tous. Et, attention, dans ce cas je me presserais moins de ramasser le reste de votre personne jusqu'à ce que vous soyez... indisposée.~
+@215 = ~Non. Peut-être une oreille seulement. Ça ferait un échantillon éblouissant ; laqué, monté sur un bâton, ça pourrait aussi servir de gratte-dos. Un bénéfice pour nous tous. Et, attention, dans ce cas je me presserais moins de ramasser le reste de votre personne jusqu'à ce que vous soyez... indisposée.~
 @216 = ~Et dire que j'ai accordé de l'attention aux paroles de ce bavard dément ! L'utilité de celui-là se limite à son étrangeté, à ce qu'il semble...~
-@217 = ~Bah. Un tel manque d'ambition. Que vouliez-vous, au fait ? Quelque chose à propos d'un non sens ou...~
+@217 = ~Bah. Un tel manque d'ambition. Que vouliez-vous, au fait ? Quelque chose à propos d'une ânerie ou d'une autre ?~
 @218 = ~Tu es vraiment une créature du genre instable. Peu importe ce que je voulais de toi. Il semble que je faisais erreur.~
 
 
@@ -314,24 +314,24 @@
 @231 = ~<CHARNAME> ! Tu... es-tu en train de me trahir ? De me trahir pour ce darthiir belliqueux ?~
 @232 = ~Je ne choisis pas de camp. Vous allez tous les deux arrêter de vous quereller, et voilà tout.~
 @233 = ~Tu l'as poussé suffisamment loin, Viconia. Tu es un facteur de division dans ce groupe.~
-@234 = ~Peuh.~
+@234 = ~Ouf.~
 @235 = ~Pfff ! Ce darthiir est un imbécile, <CHARNAME>.~
-@236 = ~Ecoute, je refuse de prendre parti. Contentez-vous d'arrêter de vous battre, tous les deux.~
-@237 = ~Je suis fatigué de tes tendances violentes. Je ne peux les permettre plus longtemps.~ ~Je suis fatiguée de tes tendances violentes. Je ne peux les permettre plus longtemps.~
+@236 = ~Écoute, je refuse de prendre parti. Contentez-vous d'arrêter de vous battre, tous les deux.~
+@237 = ~Je suis fatigué de tes tendances violentes. Je ne peux plus les tolérer.~ ~Je suis fatiguée de tes tendances violentes. Je ne peux plus les tolérer.~
 @238 = ~Oloth plynn dos, darthiir. Lil alurl ! Pour Shar !~
 @239 = ~Alors c'est vrai... Tu m'as abandonnée. Jal khaless zhah waela. Comme c'est vrai, et comme j'ai été aveugle d'avoir pu croire autrement.~
 @240 = ~Maudit fut le jour de notre rencontre, ordure surfacine. Oloth plynn jal ! N'essaie pas de me suivre, ou je serai tentée de te frapper en retour.~
-@241 = ~Peuh ! Ce darthiir est fou ! Bien que je souhaiterais que tu reconsidères sa présence parmi nous, <CHARNAME>, je peux endurer ta décision.~
+@241 = ~Peuh ! Ce darthiir est fou ! Bien que je souhaite que tu reconsidères sa présence parmi nous, <CHARNAME>, je peux me plier à ta décision.~
 @242 = ~Vith'os, darthiir ! Tu ne mérites pas un meilleur sort !~
 @243 = ~Ce darthiir était fou, <CHARNAME> ! Son départ est un soulagement pour nous tous.~
-@244 = ~Il semblerait que la drow ait planté ses griffes sur vous, finalement. Il est malheureux, <CHARNAME>, de voir des personnes que je croyais autrefois si dignes de mon respect tomber si bas... Mais si c'est ainsi que les choses ont tourné... alors je n'ai pas d'autre choix que de partir. Je ne peux rester plus longtemps pendant que cette femme empoisonne votre esprit.~
+@244 = ~Il semblerait que la drow vous tienne dans ses griffes, finalement. Il est malheureux, <CHARNAME>, de voir des personnes que je croyais autrefois si dignes de mon respect tomber si bas... Mais si c'est ainsi que les choses ont tourné... alors je n'ai pas d'autre choix que de partir. Je ne peux rester plus longtemps pendant que cette femme empoisonne votre esprit.~
 @245 = ~Adieu, <CHARNAME>. Prenez garde à la drow...~
-@246 = ~<CHARNAME>, ce groupe a été entraîné vers sa ruine depuis quelques temps déjà. Tout ceci ne fait que me confirmer que je marche aux côtés de personnes malveillantes. La drow a empoisonné vos esprits, en plus de ses autres crimes.~
+@246 = ~<CHARNAME>, ce groupe a été entraîné vers sa ruine depuis quelque temps déjà. Tout ceci ne fait que me confirmer que je marche aux côtés de personnes malveillantes. La drow a empoisonné vos esprits, en plus de ses autres crimes.~
 @247 = ~Alors debout et faites-moi face, Viconia. Ma conscience n'exige pas moins que d'assister à votre mort.~
 @248 = ~Très bien, <CHARNAME>. Je ne dirai pas un mot à la drow à partir de maintenant.~
 @249 = ~Allez-vous vraiment tomber dans sa toile de duperies, <CHARNAME> ? Nous ne pouvons plus nous fier à celle-ci et la laisser dans notre dos... comploter et conspirer comme elle sait si bien faire.~
 @250 = ~Viconia... Kivan a raison. Nous ne pouvons plus te faire confiance.~
-@251 = ~Ecoutez, Kivan, vous l'avez suffisamment harcelée.~
+@251 = ~Écoutez, Kivan, vous l'avez suffisamment harcelée.~
 @252 = ~Je vous ai demandé à tous les deux de ne pas vous quereller, et je le pensais. Je détesterais voir ceci se résoudre par la force.~
 @253 = ~L'elfe noire vous a pris au piège, <CHARNAME>. Ne devenez pas sa victime.~ ~L'elfe noire vous a prise au piège, <CHARNAME>. Ne devenez pas sa victime.~
 @254 = ~J'en ai assez de vos sarcasmes, drow !~

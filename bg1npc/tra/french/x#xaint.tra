@@ -1,13 +1,13 @@
-@0     = ~Enfin je retrouve retrouve mon épée enchantée. Ne vous leurrez pas en pensant qu'elle me rend invulnérable, <CHARNAME>. A notre époque, une Lame de Lune crée plus de problèmes qu'elle n'en résout. *soupir*~
+@0     = ~Enfin je retrouve mon épée enchantée. Ne vous leurrez pas en pensant qu'elle me rend invulnérable, <CHARNAME>. À notre époque, une Lame de Lune crée plus de problèmes qu'elle n'en résout. *soupir*~
 @1     = ~Est-ce que nous attendons que les laquais de Mulahey se joignent à nous ? Quittons ces épouvantables cavernes...~
 @2     = ~Nous faisons donc nos derniers adieux aux cieux avant de mourir à l'intérieur de cette... chose. Eh bien, notre tombe aura au moins l'air *remarquable*.~
 @3     = ~Par la Seldarine, une autre forme de malédiction, qui est lancée sur ceux qui ne se méfient pas...~
-@4     = ~Bien que j'ai peu confiance en cet individu, j'écouterai tout de même ses paroles, <CHARNAME>. Les responsables du Trône du Fer sont trop bien placés à mon goût. Ce pourrait très bien être un piège, nous n'en savons rien.~
+@4     = ~Bien que j'aie peu confiance en cet individu, j'écouterai tout de même ses paroles, <CHARNAME>. Les responsables du Trône de Fer sont trop bien placés à mon goût. Ce pourrait très bien être un piège, nous n'en savons rien.~
 @5     = ~*soupir* Je m'y attendais...~
-@6     = ~Peut-être que toi et tes frères et soeurs sont aussi maudits, <CHARNAME>, mais cette femme est maudite, quoi qu'il en soit. J'ai bien peur que Sarevok ne tarde pas à se venger de sa trahison.~
+@6     = ~Peut-être que toi et ton frère êtes aussi maudits, <CHARNAME>, mais cette femme est maudite, quoi qu'il en soit. J'ai bien peur que Sarevok ne tarde pas à se venger de sa trahison.~
 @7     = ~Ne l'avais-je pas dit ? Nous sommes tous PERDUS.~
-@8     = ~Tu l'as dit, Xan, mais <CHARNAME> était obligé de convoquer un puissant représentant d'un ancien Mal, afin de confirmer tes paroles. Dommage que celui-ci semble avoir d'autres utilités. Tels que de prédire de mauvais présages, en plus de les augurer. Ah, tant pis. Avec un peu de chance, nous nous en tirerons, d'une façon ou d'une autre.~
-         ~Tu l'as dit, Xan, mais <CHARNAME> était obligée de convoquer un puissant représentant d'un ancien Mal, afin de confirmer tes paroles. Dommage que celui-ci semble avoir d'autres utilités. Tels que de prédire de mauvais présages, en plus de les augurer. Ah, tant pis. Avec un peu de chance, nous nous en tirerons, d'une façon ou d'une autre.~
+@8     = ~Tu l'as dit, Xan, mais <CHARNAME> était obligé de convoquer un puissant représentant d'un ancien Mal, afin de confirmer tes paroles. Dommage que celui-ci semble avoir d'autres utilités. Comme d'apporter le malheur, en plus de le prédire. Ah, tant pis. Avec un peu de chance, nous nous en tirerons, d'une façon ou d'une autre.~
+         ~Tu l'as dit, Xan, mais <CHARNAME> était obligée de convoquer un puissant représentant d'un ancien Mal, afin de confirmer tes paroles. Dommage que celui-ci semble avoir d'autres utilités. Comme d'apporter le malheur, en plus de le prédire. Ah, tant pis. Avec un peu de chance, nous nous en tirerons, d'une façon ou d'une autre.~
 @9     = ~Nous sommes, sans aucun doute, tous perdus, Coran. Acceptez-le.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 506, probablement inutile de traduire ici !
 @10    = ~Tous les ordres sont voués à l'échec tôt ou tard, mais quelque chose me dit que votre perte viendra encore plus vite que la nôtre, si <CHARNAME> prend une telle décision.~
@@ -23,21 +23,21 @@
          ~*soupir* C'est bien maigre consolation de pouvoir dire "ne t'avais-je pas prévenue ?", lorsque l'on est face à la mort.~
 @17    = ~C'est un miracle que cette créature souhaite nous parler... Je suis curieux de savoir ce qu'elle a à nous dire ; et d'ailleurs, cela retarderait un peu notre mort imminente.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 614, probablement inutile de traduire ici !
-@18    = ~A voir ce qui nous entourne, l'attaque d'une araignée mortelle n'est pas une surprise... Pourquoi nous sommes-nous aventurés dans cette horrible caverne ?~
+@18    = ~À voir ce qui nous entoure, l'attaque d'une araignée mortelle n'est pas une surprise... Pourquoi nous sommes-nous aventurés dans cette horrible caverne ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 82, probablement inutile de traduire ici !
 @19    = ~*soupir* Nous avons au moins une chance d'obtenir une pierre tombale, en plus de la tombe elle-même...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 512, probablement inutile de traduire ici !
 @20    = ~Grisant ! Enfin, le méchant, au lieu de nous dire "vous allez tous mourir", nous propose un choix : tuer ou être tué. Attends ! N'était-ce pas là ce que nous avons toujours vécu ?~
-@21    = ~Pourquoi chaque chose que nous faisons se révèle faire partir de cette même course avec la mort ?~
-@22    = ~La résurrection et devenir un mort-vivant ne sont que deux portes fermées, que ceux qui cherchaient l'immortalité découvrirent par accident et acclamèrent comme un échappatoire à la mort. On ne devrait jamais ouvrir ces portes.~
-@23    = ~J'aurais ri en entendant la façon dont il nous a décrit, si un mauvais pressentiment n'avait pas refroidi mon coeur... Je prédis que la prochaine étape sera pour lui de convoquer ces créatures mangeuses de chair qu'il aime tant.~
+@21    = ~Pourquoi chaque chose que nous faisons se révèle faire partie de cette même course avec la mort ?~
+@22    = ~La résurrection et devenir un mort-vivant ne sont que deux portes piégées, que ceux qui cherchaient l'immortalité découvrirent par accident et acclamèrent comme une échappatoire à la mort. On ne devrait jamais ouvrir ces portes.~
+@23    = ~J'aurais ri en entendant la façon dont il nous a décrits, si un mauvais pressentiment n'avait pas refroidi mon coeur... Je prédis que la prochaine étape sera pour lui de convoquer ces créatures mangeuses de chair qu'il aime tant.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 519, probablement inutile de traduire ici !
-@24    = ~Il y a une espèce de satisfaction à dire "je te l'avais dit !". Malheureusement, je ne vais pas en profiter longtemps : d'après ce que j'ai entendu, même les monstres de la surface ont de très mauvaises manières à table ; comment s'attendre à converser aimablement avec ceux des égoûts avant de se mettre à table ?~
+@24    = ~Il y a une espèce de satisfaction à dire "je te l'avais dit !". Malheureusement, je ne vais pas en profiter longtemps : d'après ce que j'ai entendu, même les monstres de la surface ont de très mauvaises manières à table ; comment s'attendre à converser aimablement avec ceux des égouts avant de se mettre à table ?~
 @25    = ~Ces dernières années, j'ai souvent essayé de découvrir quel était mon plus gros souci. Vous rendez les choses plus faciles pour moi - je m'inquiète maintenant que lorsque vous tomberez, mort et inanimé, vous briserez la fiole contenant l'antidote, annihilant ainsi nos efforts.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 522, probablement inutile de traduire ici !
 @26    = ~La seule mention du mot lui a rendu la raison : il a immédiatement exigé qu'on la lui donne, de la façon légale, pour la raison qu'il l'avait causée... Cet homme est enchevêtré dans la mort presque autant que nous, <CHARNAME>.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 524, probablement inutile de traduire ici !
-@27    = ~As-tu entendu parler de l'histoire du djinn libéré, <CHARNAME> ? Après mille ans dans sa lampe, le djinn jura de servir quiconque le libèrerait pendant trente-trois ans ; mais personne ne vint. Après dix mille ans, il jura d'exaucer les trois voeux que formulerait son sauveur. Et après cinquante mille ans, il jura de tuer celui qui déboucherait la bouteille.~
+@27    = ~As-tu entendu parler de l'histoire du djinn libéré, <CHARNAME> ? Après mille ans dans sa bouteille, le djinn jura de servir quiconque le libèrerait pendant trente-trois ans ; mais personne ne vint. Après dix mille ans, il jura d'exaucer les trois voeux que formulerait son sauveur. Et après cinquante mille ans, il jura de tuer celui qui déboucherait la bouteille.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 525, probablement inutile de traduire ici !
 @28    = ~Je te laisse deviner ce que son sauveur perplexe obtint comme récompense... et pourquoi cette situation m'a rappelé cette histoire.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 744, probablement inutile de traduire ici !
@@ -45,14 +45,14 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 745, probablement inutile de traduire ici !
 @30    = ~*Elle essuie ses larmes avec le coin de son tablier.* Pauvre âme.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 527, probablement inutile de traduire ici !
-@31    = ~<CHARNAME>, cela ressemble exactement à ces histoires où les aventuriers imprudents et incapables conjurent le Mal par pure bravade. Dans la plupart des cas, une compagnie de héros connus se trouve par hasard dans les parages, parvient à mater les démons déchaînés, et sauve les pitoyables scélérats. Puisque je n'ai absolument pas de chance, je n'ai aucune envie de m'en remettre à celle-ci, et de laisser une telle histoire se dérouler devant mes propres yeux. De toute façon, dans cette bourgade perdue, ce sont *nous* qui sommes les héros "connus". Même l'abruti le plus optimiste peut voir que nous ne sommes pas capables de combattre d'anciens démons, même les démons mineurs du coin. Partons.~
-@32    = ~*soupir* J'aimerais que tous ces idiots qui rêvent de la gloire que procure les aventures, soient présents ici. Voilà la récompense que l'on reçoit avec le sang et les blessures... et elle est bien piètre.~
+@31    = ~<CHARNAME>, cela ressemble exactement à ces histoires où les aventuriers imprudents et incapables conjurent le Mal par pure bravade. Dans la plupart des cas, une compagnie de héros connus se trouve par hasard dans les parages, parvient à mater les démons déchaînés, et sauve les pitoyables scélérats. Puisque je n'ai absolument pas de chance, je n'ai aucune envie de m'en remettre à celle-ci, et de laisser une telle histoire se dérouler devant mes propres yeux. De toute façon, dans cette bourgade perdue, c'est *nous* qui sommes les héros "connus". Même l'abruti le plus optimiste peut voir que nous ne sommes pas capables de combattre d'anciens démons, même les démons mineurs du coin. Partons.~
+@32    = ~*soupir* J'aimerais que tous ces idiots qui rêvent de la gloire que procurent les aventures, soient présents ici. Voilà la récompense que l'on reçoit avec le sang et les blessures... et elle est bien piètre.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 237, probablement inutile de traduire ici !
-@33    = ~Permettez-moi de me présenter, Maire. Je l'aurais fait plus tôt, mais hélas, des kobolds m'ont empêché de rendre visite à votre village. Je suis Xan des Grismanteaux d'Evereska, et j'ai été envoyé par mon peuple pour enquêter sur la pénurie du fer.~
+@33    = ~Permettez-moi de me présenter, Maire. Je l'aurais fait plus tôt, mais hélas, des kobolds m'ont empêché de rendre visite à votre village. Je suis Xan des Grismanteaux d'Evereska, et j'ai été envoyé par mon peuple pour enquêter sur la pénurie de fer.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 238, probablement inutile de traduire ici !
-@34    = ~L'aide d'Evereska est la bienvenue, Xan. Merci d'avoir prêté main forte à <CHARNAME>, et de lui avoir permis de réouvrir la mine.~
+@34    = ~L'aide d'Evereska est la bienvenue, Xan. Merci d'avoir prêté main-forte à <CHARNAME>, et de lui avoir permis de rouvrir la mine.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 237, probablement inutile de traduire ici !
-@35    = ~Permettez-moi de me présenter, Maire. Je l'aurais fait plus tôt, mais hélas, des kobolds m'ont empêché de rendre visite à votre village. Je suis Xan des Grismanteaux d'Evereska, et j'ai été envoyé par mon peuple pour enquêter sur la pénurie du fer.~
+@35    = ~Permettez-moi de me présenter, Maire. Je l'aurais fait plus tôt, mais hélas, des kobolds m'ont empêché de rendre visite à votre village. Je suis Xan des Grismanteaux d'Evereska, et j'ai été envoyé par mon peuple pour enquêter sur la pénurie de fer.~
 @36    = ~Cela... cela ne me donne pas confiance, bien au contraire... Ah, par Corellon, mais cette puanteur... et cet aspect...~
 @37    = ~Je crois que je vais me sentir mal.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 796, probablement inutile de traduire ici !
@@ -72,20 +72,20 @@
 @45    = ~<CHARNAME> dans le plus simple appareil, sur une peau d'ours... Même avec le regard qu'elle me jette maintenant, regard qui présage ma mort imminente, cela reste un tableau très tentant.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 9, probablement inutile de traduire ici !
 @46    = ~Ah, l'insouciance de la jeunesse, je suis tellement jaloux...~
-@47    = ~Voilà ce qu'on appelle un beau cadavre, j'imagine. <CHARNAME>, prends garde : voilà ce qui arrive lorsque l'on vit à tout vitesse et que l'on meurt jeune.~
+@47    = ~Voilà ce qu'on appelle un beau cadavre, j'imagine. <CHARNAME>, prends garde : voilà ce qui arrive lorsque l'on vit à toute vitesse et que l'on meurt jeune.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 248, probablement inutile de traduire ici !
-@48    = ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas poser la question... Ce solide champion a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'il saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
-         ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas poser la question... Cette solide championne a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'elle saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
+@48    = ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas posé la question... Ce solide champion a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'il saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
+         ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas posé la question... Cette solide championne a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'elle saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 380, probablement inutile de traduire ici !
-@49    = ~Vous portez-vous bien, ô Etre Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps que l'avant-veille, j'ai dû demander à <CHARNAME> s'il pouvait me rappeler comment épeler le mot.~
-         ~Vous portez-vous bien, ô Etre Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps que l'avant-veille, j'ai dû demander à <CHARNAME> si elle pouvait me rappeler comment épeler le mot.~
+@49    = ~Vous portez-vous bien, ô Etre Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps qu'hier soir, j'ai dû demander à <CHARNAME> s'il pouvait me rappeler comment épeler le mot.~
+         ~Vous portez-vous bien, ô Etre Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps qu'hier soir, j'ai dû demander à <CHARNAME> si elle pouvait me rappeler comment épeler le mot.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 383, probablement inutile de traduire ici !
 @50    = ~*soupir* Du plaisir ou de la surprise ? Peu importe lequel. Tous ceux qui rencontrent <CHARNAME> ces jours-ci éprouvent le besoin de le contempler... car c'est sans doute la dernière fois qu'on le verra vivant...~
          ~*soupir* Du plaisir ou de la surprise ? Peu importe lequel. Tous ceux qui rencontrent <CHARNAME> ces jours-ci éprouvent le besoin de la contempler... car c'est sans doute la dernière fois qu'on la verra vivante...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 531, probablement inutile de traduire ici !
 @51    = ~Curieux. Vous allez mettre fin à vos jours, parce que vous pensez que la vie est vaine et je pense que la vie est vaine parce qu'elle va se terminer...~
-@52    = ~*soupir* Encore un cas d'optimisme malavisé. Regarde cet homme de près, <CHARNAME>. Observe comment il pense jouer la carte de la prudence, comme il n'a qu'un seul ennemi suffisamment puissant pour faire de lui qu'une seule bouchée. Regarde bien.~
-@53    = ~Ah, mais j'ai des compétences et suffisamment de talent pour leur en envoyer dans les dents... ou leur trancher la gorge, si il le faut.~
+@52    = ~*soupir* Encore un cas d'optimisme malavisé. Regarde cet homme de près, <CHARNAME>. Observe comment il pense jouer la carte de la prudence, comme il n'a qu'un seul ennemi suffisamment puissant pour ne faire de lui qu'une seule bouchée. Regarde bien.~
+@53    = ~Ah, mais j'ai des compétences et suffisamment de talent pour leur en envoyer dans les dents... ou leur trancher la gorge, s'il le faut.~
 @54    = ~Si compétent que vous avez failli être exécuté ?~
 @55    = ~Encore un autre membre de mon peuple, qui gâche ses jours à chercher l'aventure sur ces routes sauvages, comme un humain peu clairvoyant. La mort est-elle donc si douce, Kivan ?~
 @56    = ~La mort est horrible, Quessir.~
@@ -100,9 +100,9 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 626, probablement inutile de traduire ici !
 @62    = ~Est-ce que nous chasserons ensemble ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 384, probablement inutile de traduire ici !
-@63    = ~Que c'est charmant. Nous avons le choix entre être découpés en lambeaux par cette... mégère, et supporter sa présence. Vraiment, la folie court tout le long de la Côte des Epées et infecte tous ses peuples. Et je suis presque certain que certains des suicidaires qui m'accompagnent sont prêts à se jeter sur cette opportunité...~
+@63    = ~Que c'est charmant. Nous avons le choix entre être découpés en lambeaux par cette... mégère, et supporter sa présence. Vraiment, la folie court tout le long de la Côte des Épées et infecte tous ses peuples. Et je suis presque certain que certains des suicidaires qui m'accompagnent sont prêts à se jeter sur cette opportunité...~
 @64    = ~Serait-ce trop espérer que les malédictions ne soient pas aussi virulentes ? Ou est-ce présage de ce qui va nous arriver ? Je ne chéris pas l'idée d'errer éternellement dans les lieux profanés de la gloire passée de mon peuple, en cherchant les autres...~
-@65    = ~Echapper de peu à l'emprisonnement et à une mort certaine devient répétitif. Peut-être vais-je rester ici, bien que je déteste ne pas pouvoir voir le soleil et les étoiles. Cet endroit n'est pas *si* terrible que cela, pour une prison. J'ai le mauvais pressentiment que la prochaine sera bien pire, et que nous n'en sortirons effectivement pas, puisque aucune personne saine d'esprit ne pourrait espérer d'être miraculeusement délivrée trois fois de suite.~
+@65    = ~Échapper de peu à l'emprisonnement et à une mort certaine devient répétitif. Peut-être vais-je rester ici, bien que je déteste ne pas pouvoir voir le soleil et les étoiles. Cet endroit n'est pas *si* terrible que cela, pour une prison. J'ai le mauvais pressentiment que la prochaine sera bien pire, et que nous n'en sortirons effectivement pas, puisque aucune personne saine d'esprit ne pourrait espérer être miraculeusement délivrée trois fois de suite.~
 @66    = ~Vous geignez comme un enfant, comme un sale marmot gâté pourri.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 766, probablement inutile de traduire ici !
 @67    = ~*soupir* Et vous m'aviez dit que c'était mon estomac elfique délicat. Oh, ne vous excusez pas pour vos quolibets. Nos morts effaceront bientôt toutes les petites différences qui nous séparent.~

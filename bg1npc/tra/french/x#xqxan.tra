@@ -1,27 +1,27 @@
 @0    = ~Je-je vous en prie, ayez pitié !~ [SLAVE02]
 @1    = ~Adressez-vous à Skodd. C'est lui notre chef.~ [SLAVE02]
-@2    = ~Soyez aimable, nous sommes que de pauvres marchands qui viennent à peine d'échapper à des bandits, et maintenant, nous tentons de traverser ces terres sous le joug d'un psychopathe qui élève des basilics.~ [SLAVE02]
+@2    = ~Soyez aimable, nous ne sommes que de pauvres marchands qui viennent à peine d'échapper à des bandits, et maintenant, nous tentons de traverser ces terres sous le joug d'un psychopathe qui élève des basilics.~ [SLAVE02]
 @3    = ~Tous nos biens se sont envolés...~
 @4    = ~Salut, aventuriers. Je vous en prie, laissez-nous tranquilles. Il ne nous reste plus que les habits que nous portons.~
 @5    = ~Et vous serez contents d'apprendre que j'ai débarrassé la région des basilics. La route est libre.~
-@6    = ~Les horribles bêtes et leur mauvais maître sont morts. Le Poing Enflammé et les groupes de mercenaires comme le nôtre nous occupons de la menace que présente ces bandits depuis un certain temps maintenant, et si je puis me permettre, je pense que vous trouverez les routes beaucoup moins dangereuses. Si besoin, je vous escorterai jusqu'à la Porte de Baldur moi-même.~
+@6    = ~Les horribles bêtes et leur mauvais maître sont morts. Le Poing Enflammé et les groupes de mercenaires comme le nôtre s'occupent de la menace que présentent ces bandits depuis un certain temps maintenant, et si je puis me permettre, je pense que vous trouverez les routes beaucoup moins dangereuses. Si besoin, je vous escorterai jusqu'à la Porte de Baldur moi-même.~
 @7    = ~Ah ! Alors je vais devoir me satisfaire de vos vêtements !~
 @8    = ~La prochaine fois, vous devriez engager plus de gardes fiables. Ou être moins économe avec les mercenaires.~
 @9    = ~Vraiment ? Et c'est à cause de cela que vous vous cachez dans les bois ?~
 @10   = ~Nous... nous nous sommes éparpillés après l'attaque.~
-@11   = ~Et nous avons commencé à nous retrouver que maintenant.~
+@11   = ~Et nous ne commençons qu'à présent à nous retrouver.~
 @12   = ~C'est la pure vérité, rien que la vérité.~
 @13   = ~C'est effectivement une très bonne nouvelle.~
 @14   = ~Si c'est le cas, nous pourrons voyager jusqu'à la Porte de Baldur sans votre escorte, étranger.~ ~Si c'est le cas, nous pourrons voyager jusqu'à la Porte de Baldur sans votre escorte, étrangère.~
 @15   = ~Nous allons défendre ce qu'il nous reste, n'en doutez pas un instant.~
 @16   = ~En fait, dans le futur, nous engagerons plus de gens. Pour le moment, nous devons défendre nos misérables vies.~
-@17   = ~Nous n'avons pas grand chose à offrir comme récompense à l'heure actuelle, mais si vous donnez votre nom, nous ferons en sorte que les Ducs de la Porte de Baldur soient mis au courant de l'énorme service que vous avez rendu aux voyageurs.~
+@17   = ~Nous n'avons pas grand-chose à offrir comme récompense à l'heure actuelle, mais si vous donnez votre nom, nous ferons en sorte que les Ducs de la Porte de Baldur soient mis au courant de l'énorme service que vous avez rendu aux voyageurs.~
 @18   = ~Mon nom est <CHARNAME> de Château-Suif.~
-@19   = ~C'est très gentil à vous de nous le proposer, mais je préfèrerai rester anonyme.~
+@19   = ~C'est très gentil à vous de nous le proposer, mais je préfère rester anonyme.~
 @20   = ~Je sers la bonté, pas la fortune. Si vous passez près d'un temple d'une bonne déité, faites un don de quelques pièces. Cela me suffira amplement comme récompense.~
 @21   = ~Merci beaucoup, et je vous souhaite bon voyage.~
 @22   = ~Pitié, j'implore votre pitié, bien que vous n'en ayez pas montré.~ [ELSOL101]
-@23   = ~Ils ne méritent pas de pitié ! Ils... ils ont menti lorsqu'ils ont dit que les bandits ne leur avait pas laissé de biens... *Nous* sommes les biens... *sanglot* des esclaves...~
+@23   = ~Ils ne méritent pas de pitié ! Ils... ils ont menti lorsqu'ils ont dit que les bandits ne leur avaient pas laissé de biens... *Nous* sommes les biens... *sanglot* des esclaves...~
 @24   = ~Silence ! Si nous devons être passées d'une main à une autre comme un vulgaire butin, nous devrions au moins garder notre dignité et ne pas nous abaisser en...~
 @25   = ~Regarde, Minuwiel ! *elle pointe Xan du doigt*~
 @26   = ~*Les yeux de la jeune femme s'écarquillent alors en se posant sur Xan.* Un porteur de Lame de Lune !~
@@ -32,7 +32,7 @@
 @31   = ~Bien que mes obligations soient d'abord envers toi, évidemment.~
 @32   = ~*soupir* Le défenseur du Peuple Elfique te demande de l'aider dans cette mission.~
 @33   = ~Si le défenseur du Peuple Elfique l'ordonne, je le ferai.~
-@34   = ~Mais <CHARNAME> ne ferait jamais de mal à ces jolies femmes ! Allez, Xan, cesse cette boutade Evereskienne, bien qu'elle soit très distrayante. Tu sais que je ne laisserais jamais une dame en péril !~
+@34   = ~Mais <CHARNAME> ne ferait jamais de mal à ces jolies femmes ! Allez, Xan, cesse cette comédie évereskienne, bien qu'elle soit très distrayante. Tu sais que je ne laisserais jamais une dame en péril !~
 @35   = ~<CHARNAME> ?~
 @36   = ~Il n'est pas nécessaire d'être aussi théâtral, Xan. Je ne ferai pas de mal à notre peuple. Vous êtes libres, mesdames.~
 @37   = ~Il n'est pas nécessaire d'être aussi théâtral, Xan. Je ne leur ferai pas de mal. Vous êtes libres, mesdames.~
@@ -51,7 +51,7 @@
 @49   = ~Nous allons vous accompagner.~
 @50   = ~Tu pourrais les accompagner, Xan. Attends-moi à l'Auberge du Brasamical après.~
 @51   = ~J'ai bien peur que cela soit impossible.~
-@52   = ~Je ne peux pas me passer de toi, Xan. Je suis certain que ces dames ont appris une précieuse leçon et seront bien capables de se défendre à partir de maintenant. Adieu, et essayez d'éviter les bandits.~
+@52   = ~Je ne peux pas me passer de toi, Xan. Nul doute que ces dames ont appris une précieuse leçon et seront bien capables de se défendre à partir de maintenant. Adieu, et essayez d'éviter les bandits.~
 @53   = ~Tu mettrais leur sécurité avant la mienne ? Très bien, emmène-les où tu voudras, ne pense même pas à mes blessures !~
 @54   = ~Comment... comment oses-tu ! Ce ne sont pas des putes, mais d'honnêtes jeunes filles elfiques...~
 @55   = ~J'ai peut-être été trop sec. Je suis désolé.~ ~J'ai peut-être été trop sèche. Je suis désolée.~
@@ -63,7 +63,7 @@
 @60   = ~Es-tu devenu fou, <CHARNAME> ? Je n'aurais jamais cru que tu puisses être un esclavagiste.~
         ~Es-tu devenu folle, <CHARNAME> ? Je n'aurais jamais cru que tu puisses être une esclavagiste.~
 @61   = ~Compromettre des femmes avec tes charmes, c'est une chose. Mais ça ?~
-@62   = ~Qu-que dites-vous ?! Que les d-dieux me pardonnent, mais c'est une bonne chose que Go-Gorion soit mort et qu'il ne puisse t'entendre !~
+@62   = ~Qu-qu'est-ce que tu dis ?! Que les d-dieux me pardonnent, mais c'est une bonne chose que Go-Gorion soit mort et qu'il ne puisse t'entendre !~
 @63   = ~C'est une blague de *très* mauvais goût, <CHARNAME>, mais j'espère *vraiment* que c'est une blague.~
 @64   = ~Très bien, fais comme tu voudras. Partez, femmes, avant que je ne change d'avis.~
 @65   = ~Je ne pense pas qu'il sera nécessaire de te passer sur le corps. Te transformer en cadavre devrait suffire.~
@@ -72,7 +72,7 @@
 @68   = ~Ah, ne te hérisse pas, mon cher porteur de Lame de Lune. Tu apprécieras sans aucun doute le paiement que j'ai prévu pour toi. Partez, femmes idiotes, avant que je ne change d'avis.~
 @69   = ~Cela me semble prometteur, mon cher... Très bien, elles sont libres.~
 @70   = ~C'est d'accord, alors. Ces femmes sont libres.~
-@71   = ~C'est une bonne affaire, puisque j'ai la garantie que tu sois à mon service, mais tu ne m'as pas demandé de préserver les vies de ses femmes, une fois libres... Elles vont probablement mourir sous les épées de quelques orques... ou alors elles périront dans leur couchage.~
+@71   = ~C'est une bonne affaire, puisque j'ai la garantie que tu seras à mon service, mais tu ne m'as pas demandé de préserver les vies de ces femmes, une fois libres... Elles vont probablement mourir sous les épées de quelques orques... ou alors elles périront dans leur couchage.~
 @72   = ~Non, j'ai changé d'avis. Il sera plus profitable de les vendre.~
 @73   = ~*soupir* Tu ne me laisses pas le choix. Et je pensais que tu étais un ami...~
         ~*soupir* Tu ne me laisses pas le choix. Et je pensais que tu étais une amie...~
@@ -80,7 +80,7 @@
 @75   = ~Tout sera comme tu le souhaites. *soupir* Ce sera cela, ou alors tu trouveras bientôt nos quatre corps calcinés dans les bois.~
 @76   = ~Venez, mes soeurs. Que la Seldarine nous guide, car hélas, sans quelque chance divine, nous allons sans doute périr.~
 @77   = ~<CHARNAME>, je t'attendrai à l'Auberge de Brasamical.~
-@78   = ~*soupir* J'ai bien peur que vous ne deviez vous débrouillez seules, mesdames. Adieu.~
+@78   = ~*soupir* J'ai bien peur que vous ne deviez vous débrouiller seules, mesdames. Adieu.~
 @79   = ~Venez, mes soeurs. Ne perdons pas de temps.~
 @80   = ~Merci, messire, et vous aussi, messire...~
         ~Merci, messire, et vous aussi, madame...~
@@ -98,7 +98,7 @@
         ~Pitié, madame. Je ne te trahirai plus.~
 @92   = ~Tu te déshonores, messire. La Seldarine me jugera.~
         ~Tu te déshonores, madame. La Seldarine me jugera.~
-@93   = ~*amèrement* Non, je cèderai pas. Je vais mourir invaincu... Encore un homme qui gâche sa vie dans une tentative désespérée de défense du Bien. Comme c'est drôle.~
+@93   = ~*amèrement* Non, je ne céderai pas. Je vais mourir invaincu... Encore un homme qui gâche sa vie dans une tentative désespérée de défense du Bien. Comme c'est drôle.~
 @94   = ~Cela n'a pas d'importance. Je vais mourir invaincu... Encore un homme qui gâche sa vie dans une tentative désespérée de défense du Bien. Comme c'est drôle.~
 @95   = ~*Une biche blanche s'approche de Xan, le regarde attentivement de ses yeux rouges et humides, puis effleure sa main avec son nez.*~ [X#BLANK]
 @96   = ~Un rare spectacle...~
@@ -106,7 +106,7 @@
 @98   = ~*d'un air morose* Je pensais que nous en avions déjà parlé.~ [SLAVE02]
 @99   = ~Je vois trois femmes elfiques les mains liées. J'exige une explication.~
 @100  = ~J'ai la même question que Xan : que font ces femmes parmi vous ? Pourquoi leurs visages sont-ils meurtris, et leurs vêtements en lambeaux ?~
-@101  = ~Je pense que nous n'en discuterons même pas, monstre ! Maintenant, répondez à la question de Xan, et réfléchissez bien à votre réponse !~
+@101  = ~Nous n'avons même pas commencé à en discuter, monstre ! Maintenant, répondez à la question de Xan, et réfléchissez bien à votre réponse !~
 @102  = ~Silence, Xan. Alors, on dirait que vous avez retrouvé le restant de votre... euh, groupe, cher... euh, marchand. J'imagine que je vais juste vous contourner avec précaution...~
 @103  = ~Xan, cet homme a raison. Nous avons *déjà* discuté de cela. Nous allons aller de l'avant et nous mêler de ce qui nous regarde.~
 @104  = ~Je vous en prie, messire ! Vous êtes notre dernier espoir...~ [ELSOL101] ~Je vous en prie, madame ! Vous êtes notre dernier espoir...~ [ELSOL101]
@@ -121,17 +121,17 @@
         ~Tu vois, Xan, tout s'arrange. Nous ne pouvons pas imposer nos valeurs morales à un homme de Calimshan. Il vit selon des règles différentes, et il ne les a pas brisées. Je suis même certaine qu'il a les papiers nécessaires ! Et même si ce n'était pas le cas, Xan... ce n'est pas à nous de lui infliger sa punition. Nous pouvons déposer plainte la prochaine fois que nous serons à la Porte de Baldur. Ils sont sans doute bien mieux équipés que nous pour s'occuper de ces... un... trois... cinq... six guerriers féroces et bien armés.~
 @113  = ~*regarder Xan* Ces femmes t'ont imploré, porteur de Lame de Lune. Je te donne les rênes de notre groupe.~
 @114  = ~Xan... je ne peux pas. Ils sont trop nombreux. Nous allons tous mourir ici.~
-@115  = ~Et qu'en est-il du Trône de Fer ? Si nous tombons ici, combien resteront esclaves... et les meurtriers de Gorion ne feront pas face à la justice.~
-@116  = ~Calme-toi, Xan. Humm... combien dois-je t'offrir pour ce lot, Skodd ?~
-@117  = ~Est-ce qu'il est juste de voler un marchand de ses biens si ces biens sont des gens ? Mon coeur dit oui, mais cela pourrait nous mettre au même niveau que les bandits que nous pourchassons...~
-@118  = ~Les tensions potentielles entre les humains de Calimshan et de la Porte de Baldur seraient sans doute reprochées aux elfes... et à travers moi, l'injustice et le chagrin s'abatteront sur mon Peuple...~
-@119  = ~*soupir* Ils sont clairement plus nombreux que nous, nous allons périr sous leurs coups, échouant dans notre mission de libérer ces femmes, et démontrant rien d'autre que notre stupidité. Je suis d'accord, <CHARNAME>. Nous allons prévenir les Ducs de ce qu'il se passe.~
+@115  = ~Et qu'en est-il du Trône de Fer ? Si nous tombons ici, bien d'autres resteront esclaves... et les meurtriers de Gorion ne feront pas face à la justice.~
+@116  = ~Calme-toi, Xan. Humm... combien dois-je vous offrir pour ce lot, Skodd ?~
+@117  = ~Est-ce qu'il est juste de dépouiller un marchand de ses biens si ces biens sont des gens ? Mon coeur dit oui, mais cela pourrait nous mettre au même niveau que les bandits que nous pourchassons...~
+@118  = ~Les tensions potentielles entre les humains de Calimshan et de la Porte de Baldur seraient sans doute reprochées aux elfes... et à travers moi, l'injustice et le chagrin s'abattront sur mon Peuple...~
+@119  = ~*soupir* Ils sont clairement plus nombreux que nous, nous allons périr sous leurs coups, échouant dans notre mission de libérer ces femmes, et ne démontrant rien d'autre que notre stupidité. Je suis d'accord, <CHARNAME>. Nous allons prévenir les Ducs de ce qu'il se passe.~
 @120  = ~*Xan se tourne vers les prisonnières elfes.* Vous avez entendu mon suzerain. Je vais obéir à ses ordres, et cette affaire sera prise en charge, comme il le souhaite. Hélas, je ne suis pas suffisamment puissant pour vous aider seul.~
         ~*Xan se tourne vers les prisonnières elfes.* Vous avez entendu ma suzeraine. Je vais obéir à ses ordres, et cette affaire sera prise en charge, comme elle le souhaite. Hélas, je ne suis pas suffisamment puissant pour vous aider seul.~
 @121  = ~Cela fait plaisir de voir que vous avez un peu de bon sens. Suivez-moi, vous autres !~
 @122  = ~Nous allons défendre nos biens, n'en doutez pas un seul instant.~
 @123  = ~Tu vas donc te tenir à mes côtés dans cette entreprise désespérée ? Tu es tout aussi fou que moi... Mais quel autre choix nous reste-t-il ?~ ~Tu vas donc te tenir à mes côtés dans cette entreprise désespérée ? Tu es tout aussi folle que moi... Mais quel autre choix nous reste-t-il ?~
-@124  = ~Ce n'est pas l'argent qui importe ici, mais ma réputation. Je suis tenu de mener cette cargaison à bon port, en temps et en heure. Mes affaires souffriront beaucoup si les acheteurs ne me considérent pas digne de confiance.~
+@124  = ~Ce n'est pas l'argent qui importe ici, mais ma réputation. Je suis tenu de mener cette cargaison à bon port, en temps et en heure. Mes affaires souffriront beaucoup si les acheteurs ne me considèrent pas digne de confiance.~
 @125  = ~*Skodd vous regarde d'un air pensif.*~
 @126  = ~<CHARNAME>, cet homme t'échangera ces trois femmes, et partira tout de suite à la poursuite d'autres âmes infortunées.~
 @127  = ~Si seulement vous aviez trois mâles elfes, avec vous, pour un échange... mais laissez tomber.~
@@ -141,9 +141,9 @@
         ~Xan... Nous ne pouvons pas imposer nos valeurs morales à un homme de Calimshan. Il vit selon des règles différentes, et il ne les a pas brisées. Je suis même certaine qu'il a les papiers nécessaires ! Et même si ce n'était pas le cas, Xan... ce n'est pas à nous de lui infliger sa punition. Nous pouvons déposer plainte la prochaine fois que nous serons à la Porte de Baldur. Ils sont sans doute bien mieux équipés que nous pour s'occuper de ces... un... trois... cinq... six guerriers féroces et bien armés et mages compétents.~
 @131  = ~Xan... nous devons partir. Ils sont trop nombreux. Nous allons tous périr ici.~
 @132  = ~Mais... je peux vous proposer quelque chose. Un échange... façon de parler.~
-@133  = ~Voyez-vous, les esclaves elfes femmes ne sont pas si rares que cela, alors que les mâles sont beaucoup plus onéreux et convoités. Et difficile à obtenir en bonne condition.~
+@133  = ~Voyez-vous, les esclaves elfes femmes ne sont pas si rares que cela, alors que les mâles sont beaucoup plus onéreux et convoités. Et difficiles à obtenir en bon état.~
 @134  = ~*soupir* Voulez-vous que je prenne la place de ces femmes ?~
-@135  = ~Je ne ferai pas d'échange à perte. Une tête pour chaque. Et venez de votre plein gré.~
+@135  = ~Je ne ferai pas d'échange à perte. Une tête pour une tête. Et venez de votre plein gré.~
 @136  = ~Proposez-nous en échange, <CHARNAME>. *Kivan jette un coup d'oeil rapide à Coran.* Coran ?~
 @137  = ~*Un sourire espiègle se dessine sur les lèvres de Coran, et il hausse un sourcil en regardant Kivan.* Bien sûr ! Ce sera une sacrée aventure de voyager à Calimport.~
 @138  = ~Parfait. Vraiment parfait. D'abord, j'étais prisonnier dans de lugubres cavernes, et maintenant je vais devenir un esclave...~
@@ -168,11 +168,11 @@
 @157  = ~Oui ! Je suis avec toi ! Attaque !~
 @158  = ~Débrouillez-vous seuls, nobles idiots !~
 @159  = ~Quel spectacle ! Je vais m'assoir et apprécier le massacre d'idiots. C'est toujours un agréable spectacle.~
-@160  = ~Qu-'est-ce que... oh, au diable avec tout cela. Chargeons !~
+@160  = ~Qu-qu'est-ce que... oh, au diable avec tout cela. Chargeons !~
 @161  = ~Vous avez essayé de me rouler, en m'offrant des biens gâtés ! Cela est bien peu honnête et doit être puni. J'espère pouvoir compenser les pertes avec le butin que je récupèrerai après vous avoir tués.~
 @162  = ~Ah, vous êtes encore en vie ! Tu seras content de savoir que Siene, Diala et Minuwiel ont accepté la protection d'une tribu d'elfes sauvages.~
         ~Ah, vous êtes encore en vie ! Tu seras contente de savoir que Siene, Diala et Minuwiel ont accepté la protection d'une tribu d'elfes sauvages.~
-@163  = ~*soupir* Et moi qui commençait à espérer que tu avais décidé de résoudre la pénurie de fer tout seul, <CHARNAME>. Mais hélas, il semble que je vais devoir continuer à marcher sur ce délicat chemin, en tentant de ne pas trébucher et mourir.~
-        ~*soupir* Et moi qui commençait à espérer que tu avais décidé de résoudre la pénurie de fer toute seule, <CHARNAME>. Mais hélas, il semble que je vais devoir continuer à marcher sur ce délicat chemin, en tentant de ne pas trébucher et mourir.~
+@163  = ~*soupir* Et moi qui commençais à espérer que tu avais décidé de résoudre la pénurie de fer tout seul, <CHARNAME>. Mais hélas, il semble que je vais devoir continuer à marcher sur ce délicat chemin, en tentant de ne pas trébucher et mourir.~
+        ~*soupir* Et moi qui commençais à espérer que tu avais décidé de résoudre la pénurie de fer toute seule, <CHARNAME>. Mais hélas, il semble que je vais devoir continuer à marcher sur ce délicat chemin, en tentant de ne pas trébucher et mourir.~
 @164  = ~Bien que parfois, cela semble presque... tolérable.~
 @165  = ~Nous ne savons pas comment exprimer notre gratitude... mais merci pour tout ce que vous avez fait.~

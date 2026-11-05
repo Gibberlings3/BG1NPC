@@ -20,7 +20,7 @@
 
 
 // Dink
-@12 = ~Il le fera sûrement, si les choses vont aussi mal qu'ils le laissent entendre. Nous ferions bien, <CHARNAME>, de trouver le gars aussi vite que possible. Ces gardes n'ont pas l'air du genre à blesser les ouvriers, même en cas de danger grave. Je doute qu'un homme ordinaire puisse défaire les créatures maléfiques que je sens, mais une dague vaut mieux que des mains nues.~
+@12 = ~Il le fera sûrement, si les choses vont aussi mal qu'ils le laissent entendre. Nous ferions bien, <CHARNAME>, de trouver le gars aussi vite que possible. Ces gardes n'ont pas l'air du genre à armer les ouvriers, même en cas de danger grave. Je doute qu'un homme ordinaire puisse défaire les créatures maléfiques que je sens, mais une dague vaut mieux que des mains nues.~
 
 // Joseph
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 742, probablement inutile de traduire ici !
@@ -30,7 +30,7 @@
 
 // Bardolan
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 534, probablement inutile de traduire ici !
-@15 = ~<CHARNAME>, je refuse de croire qu'aucun homme doté de son bon sens pourrait assassiner les siens.~
+@15 = ~<CHARNAME>, je refuse de croire qu'aucun homme doté de son bon sens puisse assassiner les siens.~
 
 // Berrun
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 241, probablement inutile de traduire ici !
@@ -59,7 +59,7 @@
 
 // Varci
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 902, probablement inutile de traduire ici !
-@24 = ~A votre place, je suivrais ce garçon, ne serait-ce que pour dire à celui qui en a la garde qu'il n'est pas convenable de le laisser mendier de l'aide dans les rues.~
+@24 = ~À votre place, je suivrais ce garçon, ne serait-ce que pour dire à celui qui en a la garde qu'il n'est pas convenable de le laisser mendier de l'aide dans les rues.~
 
 // Vail
 @25 = ~Je vous félicite de votre décision, <CHARNAME>.~
@@ -116,7 +116,7 @@
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 542, probabilité 97.4
 @42 = ~C'est vrai, vous aviez un accord, mais la vie de cette femme vaut davantage que des mots. Seul un homme au coeur bien sombre pourrait vous reprocher de briser cet accord. Mais peut-être Ramazith peut-il se laisser persuader de vous libérer de votre parole.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 543, probablement inutile de traduire ici !
-@43 = ~Tant de cérémonies dans les cités des hommes... Ecoutez votre coeur, elfe ; ne vous dit-il pas de me libérer ?~
+@43 = ~Tant de cérémonies dans les cités des hommes... Écoutez votre coeur, elfe ; ne vous dit-il pas de me libérer ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 544, probablement inutile de traduire ici !
 @44 = ~Si fait, mais il y a encore un espoir que <CHARNAME> reprenne ses esprits avant que le sang ne soit versé en votre nom.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 545, probablement inutile de traduire ici !
@@ -169,7 +169,7 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 815, probablement inutile de traduire ici !
 @64 = ~Il est bon de voir que vous avez pris ce rôdeur dans votre groupe. Il a besoin de compagnie pour rester sain d'esprit. Un coeur vrai, une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 816, probablement inutile de traduire ici !
-@65 = ~Je suis heureuse de voir qu'une femme avisée veille à présent sur ce rôdeur elfe. Un coeur vrai,une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ? Et si vous voulez discuter - c'est moi qui offre la bière ce soir.~
+@65 = ~Je suis heureuse de voir qu'une femme avisée veille à présent sur ce rôdeur elfe. Un coeur vrai, une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ? Et si vous voulez discuter - c'est moi qui offre la bière ce soir.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 817, probablement inutile de traduire ici !
 @66 = ~Maintenant, revenons à nos affaires... Avez-vous des questions, <CHARNAME> ?~
 
@@ -226,7 +226,7 @@
 
 // Teven
 @84 = ~Si cela se passe comme je le désire, vous ne l'ouvrirez plus du tout avant la fin du jour.~
-@85 = ~ Attendez une minute ! Baisse ton capuchon, ordure ! Hé, les gars, c'est le vieil ami de Tazok, celui qu'a buté Gren le Rouge ! On a qu'à apporter sa tête à Tazok et on sera riches !~
+@85 = ~Attendez une minute ! Baisse ton capuchon, ordure ! Hé, les gars, c'est le vieil ami de Tazok, celui qu'a buté Gren le Rouge ! On a qu'à apporter sa tête à Tazok et on sera riches !~
 @86 = ~Teven attaque
 
 J'ai rencontré une partie des bandits qui ravagent actuellement la côte. Leur chef, Teven, a reconnu mon compagnon Kivan... et je crains que cela n'ait terminé de façon violente, et que je ne doive trouver un autre moyen de localiser leur base.~
@@ -250,7 +250,7 @@ J'ai rencontré une partie des bandits qui ravagent actuellement la côte. Leur ch
 // Ender
 @92 = ~Merci, frère de race. Je... Je sais ce que c'est que d'être capturé par Tazok et ses hommes. Avez-vous besoin de soins ?~
 @93 = ~Le pire est passé, mon ami. Tazok m'a oublié depuis quelques jours... à moins qu'il n'ait préparé quelque chose de spécial pour mon exécution et voulu que je sois valide pour cette occasion ? Qui sait, mais dans cette tente j'étais à l'abri de ces brutes... La plupart du temps.~
-@94 = ~Vous avez eu de la chance Ender.~
+@94 = ~Vous avez eu de la chance, Ender.~
 @95 = ~Etes-vous... seriez-vous Kivan, par hasard ?~
 @96 = ~Vous me connaissez ?~
 @97 = ~Votre nom a été mentionné. Prenez garde, mon ami, un chien fou en a après vous. Je n'en sais pas plus, mais soyez prudent. Vanya sulie... Que les vents vous soient doux.~
@@ -292,10 +292,10 @@ J'ai rencontré une partie des bandits qui ravagent actuellement la côte. Leur ch
 @107 = ~Des kobolds ! Reculez, vieil homme, reculez derrière nous...~
 
 // Montaron a tué Ender
-@108 = ~Montaron a tué mon frère de race, sans raison ! <CHARNAME>, je voulais seulement redresser les torts... mais je vous ai conduits ici, vous et votre compagnon. Maintenant un innocent gît mort à mes pieds. A compter de maintenant, je chasserai seul.~
+@108 = ~Montaron a tué mon frère de race, sans raison ! <CHARNAME>, je voulais seulement redresser les torts... mais je vous ai conduits ici, vous et votre compagnon. Maintenant un innocent gît mort à mes pieds. À compter de maintenant, je chasserai seul.~
 @109 = ~Non, Kivan, ne partez pas ! Je suis consterné de ce que Montaron a fait, pour ma part, et ne le garderai pas dans mon groupe !~
        ~Non, Kivan, ne partez pas ! Je suis consternée de ce que Montaron a fait, pour ma part, et ne le garderai pas dans mon groupe !~
-@110 = ~Quelle importance, beaucoup d'histoires pour pas grand chose.~
+@110 = ~Quelle importance, beaucoup d'histoires pour pas grand-chose.~
 @111 = ~Je ne peux en toute sincérité vous souhaiter bonne route, <CHARNAME>...~
 
 // Mort de Prisme

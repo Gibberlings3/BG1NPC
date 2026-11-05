@@ -1,9 +1,9 @@
 //Interjection lorsque le groupe découvre la lettre de Roe (à rapporter à Mirianne à Bérégost)
-@0 = ~*lit la lettre* '... J'espère que cette lettre va te parvenir. Le petit-homme à qui je l'ai confiée m'a paru honnête. A toi pour la vie...' Bla bla bla...~
+@0 = ~*lit la lettre* '... J'espère que cette lettre va te parvenir. Le petit-homme à qui je l'ai confiée m'a paru honnête. À toi pour la vie...' Bla bla bla...~
 @1 = ~Alors, mon honnête petit-homme, pendant que ce marchand obèse se repose à Eauprofonde, tu es en train de te baigner dans ton sang au beau milieu de cette route... AH ! L'honnêteté n'a jamais sauvé la vie de qui que ce soit. L'épée, par contre...~
 
 //Shar-Teel porte le ceinturon hermaphrodite
-@2 = ~Hmm... Alors c'est comme ça qu'on pense quand on a du poil au torse... Pathétique ! Si tu ne me retires pas cette chose rapidement, je laisserai mon épée parler pour moi. Et tu as intérêt à m'effacer cet espèce de sourire niais de ton visage !~
+@2 = ~Hmm... Alors c'est comme ça qu'on pense quand on a du poil au torse... Pathétique ! Si tu ne me retires pas cette chose rapidement, je laisserai mon épée parler pour moi. Et tu as intérêt à m'effacer cette espèce de sourire niais de ton visage !~
 
 //rencontre avec Angelo (le pôpa de Shar-Teel)
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 946, probabilité 71.7
@@ -18,19 +18,19 @@
 @7 = ~Tu as donné tout notre butin à... ces... hommes ? Toi... espèce d'idiot !~ ~Tu as donné tout notre butin à... ces... hommes ? Toi... espèce d'idiote !~
 
 //rencontre avec une courtisane de Bérégost
-@8 = ~Tu veux parier, femme ? Voyons qui sera le plus puissant après que j'eus dégainé mon épée, et toi, tes courbes...~
+@8 = ~Tu veux parier, femme ? Voyons qui sera le plus puissant après que j'aurai dégainé mon épée, et toi, tes courbes...~
 @9 = ~Oooh... Je sais déjà ce qui sera le plus puissant, ma chère. Et crois-moi, je m'en moque complètement. J'aime les guerriers en armure de plates complète. Ça leur donne un air tellement... viril.~
 @10 = ~Oooh... Je sais déjà ce qui sera le plus puissant, ma chère. Je peux le voir dans ses yeux...~
 
 //réaction à l'arrivée de Xzar et Montaron dans le groupe
-@11 = ~Ah ! Un demi-homme et un magicien... A eux deux, ils valent à peine le quart d'un compagnon d'aventure digne de ce nom !~
+@11 = ~Ah ! Un demi-homme et un magicien... À eux deux, ils valent à peine le quart d'un compagnon d'aventure digne de ce nom !~
 @12 = ~Un spécimen très musclé... oui, oui, surtout comparé à vous, cher Monty.~
-@13 = ~Et bien, nous te paierons ton poids en or, ou une demi-pièce d'or. Si j'étais toi, j'accepterais la pièce d'or, avorton.~
+@13 = ~Eh bien, nous te paierons ton poids en or, ou une demi-pièce de cuivre. Si j'étais toi, j'accepterais la pièce de cuivre, avorton.~
 @14 = ~Voyager en paix ? Tu n'es pas qu'un demi-homme en taille, tu l'es aussi en intelligence ! En paix... Bah ! Quand cesseras-tu de recruter des mâles pathétiques, <CHARNAME> ?~
 
 //réaction à l'arrivée de Coran dans le groupe
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 622, probablement inutile de traduire ici !
-@15 = ~On dirait que tu sembles te délecter de la faiblesse de ton ennemi. Par le Diable et les Enfers, tu es pathétique, même pour un mâle ! <CHARNAME>, ce crétin ne nous sera d'aucune utilité. On peut tuer les wivernes sans avoir à partager la récompense avec lui.~
+@15 = ~On dirait que tu te délectes de la faiblesse de ton ennemi. Par le Diable et les Enfers, tu es pathétique, même pour un mâle ! <CHARNAME>, ce crétin ne nous sera d'aucune utilité. On peut tuer les wivernes sans avoir à partager la récompense avec lui.~
 
 //réaction à l'arrivée dans le groupe d'Edwin
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 656, probablement inutile de traduire ici !
@@ -38,7 +38,7 @@
 
 //réaction à l'arrivée dans le groupe de Garrick
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 698, probablement inutile de traduire ici !
-@17 = ~Toi, Garrick, UTILE ?! Même un barde ne devrait pas avoir le droit d'éxagérer autant ! Toi, qui nous a embauchés pour tuer trois paysans ?~
+@17 = ~Toi, Garrick, UTILE ?! Même un barde ne devrait pas avoir le droit d'exagérer autant ! Toi qui as dû embaucher de l'aide pour affronter trois paysans ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 691, probablement inutile de traduire ici !
 @18 = ~Regarde ton torse de crevette ! Regarde tes épaules tombantes ! Regarde tes jambes maigrichonnes ! Je parie que tu nous mendieras un peu de repos après une demi-journée de marche seulement !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 692, probablement inutile de traduire ici !
@@ -54,7 +54,7 @@
 
 //réaction à l'arrivée de Kivan dans le groupe
 @24 = ~Eh, la sauterelle, on n'a pas besoin d'un homme dans le groupe, et à plus forte raison si c'est un elfe qui a l'air de crever la faim, mais qui se croit noble jusqu'au bout des fesses !~
-@25 = ~<CHARNAME> ! Tu entends ce que je dis ? Arrête de le reluquer... Par tous les Démons des Abysses ! Tu es obsédée par les mâles elfes, ou quoi ? Ca doit être les oreilles pointues. Femme, il faut que nous ayons une petite discussion, toi et moi !~
+@25 = ~<CHARNAME> ! Tu entends ce que je dis ? Arrête de le reluquer... Par tous les Démons des Abysses ! Tu es obsédée par les mâles elfes, ou quoi ? Ça doit être les oreilles pointues. Femme, il faut que nous ayons une petite discussion, toi et moi !~
 @26 = ~Je chasse mieux seul, mais dans ce combat, je pourrais être un allié de poids. Cependant, si cela ne vous intéresse pas, je n'insisterai pas pour me joindre à vous.~
 
 //réaction à l'arrivée de Minsc dans le groupe
@@ -62,7 +62,7 @@
 @27 = ~Je ne sais qui des deux est le plus stupide : cet homme qui parle à son hamster, ou toi, qui le recrutes. Par contre, Minsc est fort et semble savoir quelle est sa place. Hmmm... cette Dynahéir et moi avons les mêmes goûts en matière d'homme.~
 
 //réaction à l'arrivée de Xan dans le groupe
-@28 = ~Non ! NON ! Pas cet espèce de lâche qui n'arrête pas de geindre ! Je te jure que j'ai entendu les murs trembler pendant notre bataille, tellement il était terrifié. Et cette voix ! Xan ressemble à un loup gémissant qui aurait attrapé la grippe !~
+@28 = ~Non ! NON ! Pas cette espèce de lâche qui n'arrête pas de geindre ! Je te jure que j'ai entendu les murs trembler pendant notre bataille, tellement il était terrifié. Et cette voix ! Xan ressemble à un loup gémissant qui aurait attrapé la grippe !~
 
 //réaction à l'arrivée de Yeslick dans le groupe
 @29 = ~Ce Yeslick, qu'est-ce qu'il a... Il te rappelle ton arrière-arrière-arrière-grand-père, c'est ça ? <CHARNAME>, puis-je te rappeler que nous sommes ici pour 'l'aventure', et pas pour surveiller un vieux nabot sénile ?~
@@ -76,18 +76,18 @@
 
 //réaction à l'arrivée de Tiax dans le groupe
 @32 = ~Qu'est-ce que c'est que ça ? Un homme version miniature ? Avec tout ce que cela suppose d'égocentrisme, d'arrogance, de condescendance, de grands principes, de vantardise et de vide, et sans aucune utilité.~
-@33 = ~<CHARNAME>, as-tu perdu la tête ? Non ? Et bien, toi, au moins, tu feras couleur locale dans *ce* groupe.~
+@33 = ~<CHARNAME>, as-tu perdu la tête ? Non ? Eh bien, toi, au moins, tu feras couleur locale dans *ce* groupe.~
 
 //réaction à l'arrivée d'Ajantis dans le groupe
-@34 = ~Mais quelles forces ? Il a l'air fort, comme ça, mais si tu lui enlèves son armure... il n'y a rien qui en vale la peine. C'est une nouille.~
+@34 = ~Mais quelles forces ? Il a l'air fort, comme ça, mais si tu lui enlèves son armure... il n'y a rien qui en vaille la peine. C'est une nouille.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 356, probablement inutile de traduire ici !
 @35 = ~Gente Dame, vos paroles cruelles me blessent.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 355, probablement inutile de traduire ici !
-@36 = ~A moins que tu ne commences une collection de figurines de chevaliers ou que tu n'aies besoin d'une ancre pour un bateau, <CHARNAME>, jamais je n'accepterai de 'joindre mes forces' à ce bâtard pompeux.~
+@36 = ~À moins que tu ne commences une collection de figurines de chevaliers ou que tu n'aies besoin d'une ancre pour un bateau, <CHARNAME>, jamais je n'accepterai de 'joindre mes forces' à ce bâtard pompeux.~
 
 //réaction à l'arrivée de Kagain dans le groupe
 @37 = ~Regarde-toi ! Fort, vigoureux, et avec le sens des affaires, en plus. Si seulement les nains étaient plus grands !~
-@38 = ~Ecoute-moi bien, jeune fille : si nous couchons tous les deux, c'est moi qui s'rait plus grand qu'toi. Le lit et le champ de bataille sont deux domaines ou la taille ne compte pas. Seule la compétence importe.~
+@38 = ~Écoute-moi bien, jeune fille : si nous couchons tous les deux, c'est moi qui s'rait plus grand qu'toi. Le lit et le champ de bataille sont deux domaines où la taille ne compte pas. Seule la compétence importe.~
 @39 = ~Continue comme ça, et je pourrais bien être tentée de vérifier par moi-même la véracité de tes propos.~
 
 //réaction à l'arrivée de Khalid et Jaheira dans le groupe
@@ -114,7 +114,7 @@
 
 //rencontre avec Daer'Ragh
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 528, probablement inutile de traduire ici !
-@48 = ~Ca m'a l'air tentant... <CHARNAME>, je veux voir toute la rage dont ce petit magicien est capable ! Ainsi que le tuer pour m'avoir menacée, bien entendu.~
+@48 = ~Ça m'a l'air tentant... <CHARNAME>, je veux voir toute la rage dont ce petit magicien est capable ! Ainsi que le tuer pour m'avoir menacée, bien entendu.~
 
 //rencontre avec Bardolan
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 533, probablement inutile de traduire ici !
@@ -129,13 +129,13 @@
 
 //rencontre avec Gallor
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 481, probablement inutile de traduire ici !
-@52 = ~Neuf-cents pièces d'or, ça me semble bien pour un tel travail. Ne sois pas une fiotte, <CHARNAME>, accepte son offre !~
+@52 = ~Neuf cents pièces d'or, ça me semble bien pour un tel travail. Ne sois pas une fiotte, <CHARNAME>, accepte son offre !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 482, probablement inutile de traduire ici !
 @53 = ~Ces terrassiers n'ont pas de vie, de toute façon. Qui irait s'extasier devant les détritus d'une ménagère depuis longtemps disparue ?~
 
 //rencontre avec le crieur public de Bérégost
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 879, probablement inutile de traduire ici !
-@54 = ~Ca, c'est une prime à mon goût ! C'est ce que j'appelle gagner intelligemment sa vie en s'amusant !~
+@54 = ~Ça, c'est une prime à mon goût ! C'est ce que j'appelle gagner intelligemment sa vie en s'amusant !~
 
 //rencontre avec Cythandria
 @55 = ~T'as bien raison, traînée !~
@@ -145,7 +145,7 @@
 
 //rencontre avec Marl
 @58 = ~Comme on dit, un cadavre par nuit te garde en forme !~
-@59 = ~Et si je n'ai pas envie de disparaître ? J'espère que tu as suffisamment de tripes pour nous attaquer, comme ça, je pourrais les répandre par terre !~
+@59 = ~Et si je n'ai pas envie de disparaître ? J'espère que tu as suffisamment de tripes pour nous attaquer, comme ça, je pourrai les répandre par terre !~
 
 //rencontre avec Karlat
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 750, probablement inutile de traduire ici !
@@ -164,12 +164,12 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 285, probablement inutile de traduire ici !
 @64 = ~Une loi ? Les lois sont pour les faibles. Tu n'as qu'à tuer ce porc. Qui irait pleurer la mort d'un homme, de toute façon ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 709, probablement inutile de traduire ici !
-@65 = ~Ta dernière phrase sonne très juste, ma soeur ! Ils ne sont pas seulement des brutes sans cervelle, mais aussi des vers de terre sans personnalité, d'immondes porcs, des grande-gueules, des déjections de singes constipés...~
+@65 = ~Ta dernière phrase sonne très juste, ma soeur ! Ils ne sont pas seulement des brutes sans cervelle, mais aussi des vers de terre sans personnalité, d'immondes porcs, des grandes gueules, des déjections de singes diarrhéiques...~
 @66 = ~Ah, c'est bien dommage. Tu parles bien !~
 
 //rencontre avec Tranzig
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 889, probablement inutile de traduire ici !
-@67 = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. A moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
+@67 = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. À moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 890, probablement inutile de traduire ici !
 @68 = ~Garce !~
 
@@ -185,7 +185,7 @@
 @72 = ~Ah ah ah ! J'aime quand on parle comme ça ! <CHARNAME>, si tu fuis ce combat, tu perdras le peu de respect que j'ai à ton égard. Regarde-moi saigner la pisse de celui-là... car oui, par les Enfers, je sais que vous avez de la pisse à la place du sang, au Poing Enflammé !~
 
 //rencontre avec Viconia
-@73 = ~J'ai grandi avec les histoires des puissantes matrones drows. Et maintenant, je tombe sur cette... *crache* cette péronelle geignarde ! On dirait bien qu'il va me falloir apprendre à vivre avec la déception.~
+@73 = ~J'ai grandi avec les histoires des puissantes matrones drows. Et maintenant, je tombe sur cette... *crache* cette péronnelle geignarde ! On dirait bien qu'il va me falloir apprendre à vivre avec la déception.~
 @74 = ~Peut-être que les Elfes Noirs exilent les plus faibles d'entre eux à la surface. *Voilà* qui expliquerait beaucoup de choses...~
 @75 = ~Rivvin, en Ombre-Terre, les drows faibles meurent, tandis que les forts vivent. Et je ne suis pas encore un cadavre.~
 
@@ -216,18 +216,18 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 110, probablement inutile de traduire ici !
 @89 = ~*crache* Moi, je n'ai pas envie de prouver que je suis un gentil HOMME ! Je suis une femme forte, et si tu ne la fermes pas et ne te défends pas, alors je te ferai ravaler tes manières à grands coups de bottes !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 111, probablement inutile de traduire ici !
-@90 = ~Je ne doute pas que vous soyez suffisamment grossière pour mettre vos menaces à éxécution, mais je vous assure que j'ai pris toutes les dispositions nécessaires pour me protéger de brutes telles que vous.~
+@90 = ~Je ne doute pas que vous soyez suffisamment grossière pour mettre vos menaces à exécution, mais je vous assure que j'ai pris toutes les dispositions nécessaires pour me protéger de brutes telles que vous.~
 
 //rencontre avec Denak
 @91 = ~Regardez ça ! Des hommes en robe sur un podium ! Houla-la ! Te-rri-fiant !~
-@92 = ~Et bien, Edwin, on dirait bien que tu n'es pas le seul homme à porter des jupes rouges en pleine nature ! Ooooh, ne partez pas, mes jolies ! Une fois que votre terrifiant camarade aura pris place sur le podium, vous pourrez commencer un concours de beauté ! *fait un bruit de bisou* Allez, Edwin, bouge ton corps de déesse, baaaby !~
+@92 = ~Eh bien, Edwin, on dirait bien que tu n'es pas le seul homme à porter des jupes rouges en pleine nature ! Ooooh, ne partez pas, mes jolies ! Une fois que votre terrifiant camarade aura pris place sur le podium, vous pourrez commencer un concours de beauté ! *fait un bruit de bisou* Allez, Edwin, bouge ton corps de déesse, baaaby !~
 
 //rencontre avec Mélicamp
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 431, probablement inutile de traduire ici !
 @93 = ~Nous sommes en train de sauver un poulet parlant du grand méchant loup ! Bah ! Cela aurait été bien plus amusant si ça avait été le Poing Enflammé qui t'avait accosté ainsi.~
 
 //rencontre avec un membre du Trône de Fer
-@94 = ~*à demi-voix* Ah, ton instinct a vu juste à notre propos, crétin du Trône. Nous n'avons aucune explication que tu pourrais considérer comme *bonne*. A propos de bonté, et si nous vidions cette truite puante, <CHARNAME> ?~
+@94 = ~*à demi-voix* Ah, ton instinct a vu juste à notre propos, crétin du Trône. Nous n'avons aucune explication que tu pourrais considérer comme *bonne*. À propos de bonté, et si nous vidions cette truite puante, <CHARNAME> ?~
 
 //rencontre avec Tazok
 @95 = ~Plus gros ils sont et plus ils sont durs à battre, mais j'ai toujours voulu un sac en peau d'ogre !~
@@ -241,7 +241,7 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 704, probablement inutile de traduire ici !
 @99 = ~La seule et l'unique ! Et tu te rendras bien vite compte que je suis devenue un peu plus qu'une simple morveuse. Tu as vendu Ysena au Poing, tout ça à cause d'un stupide désaccord concernant la récompense pour la capture d'un esclave en fuite. Cela fait longtemps que j'attends de te revoir, Loup-Gris. Sais-tu pourquoi ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 705, probablement inutile de traduire ici !
-@100 = ~*rictus* Eclaire moi, je t'en prie.~
+@100 = ~*rictus* Éclaire moi, je t'en prie.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 706, probablement inutile de traduire ici !
 @101 = ~Pour te chatouiller les tripes avec la pointe de mon épée !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 707, probablement inutile de traduire ici !
@@ -256,7 +256,7 @@
 @106 = ~Je vais m'assurer que tu seras mise sous la garde de quelqu'un de mieux que ton rustre d'oncle, Pétrine. Fais-moi confiance.~
 
 //rencontre avec Liia Jannath à propos du 'cas Pétrine' (là encore, c'est Charname qui parle, et non Shar-Teel)
-@107 = ~Oui, je vais traquer Sarevok, madame. Mais sachant que je pourrais perdre la vie, je me permets de vous demander de me faire la grace d'une faveur. Il me reste une tâche que je n'ai pas pu accomplir... une tâche quelque peu triviale. Une orpheline, Pétrine, et son chat ont besoin de quelqu'un de convenable pour prendre soin d'eux. Je... J'ai tué son oncle, un homme mauvais qui la maltraitait, mais à cause de cela, elle se retrouve seule en ce bas monde sans personne pour la protéger. J'ai une dette de sang envers elle.~
+@107 = ~Oui, je vais traquer Sarevok, madame. Mais sachant que je pourrais perdre la vie, je me permets de vous demander de me faire la grâce d'une faveur. Il me reste une tâche que je n'ai pas pu accomplir... une tâche quelque peu triviale. Une orpheline, Pétrine, et son chat ont besoin de quelqu'un de convenable pour prendre soin d'eux. Je... J'ai tué son oncle, un homme mauvais qui la maltraitait, mais à cause de cela, elle se retrouve seule en ce bas monde sans personne pour la protéger. J'ai une dette de sang envers elle.~
 @108 = ~Levez-vous, noble héros. Je vous fais le serment qu'aussi longtemps que je disposerai du commandement et de l'autorité sur cette ville, j'élèverai la petite Pétrine comme ma propre fille... et Ange, son chat, sera lui aussi le bienvenu en ce palais. Ne nous attardons plus, maintenant. Sarevok doit être puni pour ses crimes !~
 
 //rencontre avec Cattack
@@ -278,7 +278,7 @@ L'aventurier se réjouit.~
 
 //rencontre avec Charles
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 616, probablement inutile de traduire ici !
-@114 = ~Ecoute-moi, <CHARNAME>. *Shar-Teel désigne les cadavres.* Nous n'avons pas tout à fait fini ; il nous reste celui-là à tuer. Nous n'aurons même pas à aller bien loin pour l'enterrer correctement. Cette tombe a bien assez de place. *rit*~
+@114 = ~Écoute-moi, <CHARNAME>. *Shar-Teel désigne les cadavres.* Nous n'avons pas tout à fait fini ; il nous reste celui-là à tuer. Nous n'aurons même pas à aller bien loin pour l'enterrer correctement. Cette tombe a bien assez de place. *rit*~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 617, probablement inutile de traduire ici !
 @115 = ~Et Gallor pourra avoir son sarcophage, si ce sont ces stupides malédictions qui te font peur.~
 
@@ -321,7 +321,7 @@ L'aventurier se réjouit.~
 
 //non-listés dans le x#shint.d (@128 à @142) ; suppositions sur qui parle
 @128 = ~De toute façon, si tu le veux, il faudra me passer sur le corps !~
-@129 = ~Ouais, et bien, c'est parti !~
+@129 = ~Ouais, bon, faut que j'y aille !~
 //réponse de Montaron à @13 ?
 @130 = ~J'vais t'peser, espèce de grosse vache, mais j'sais pas si t'as autant d'or.~
 //réponse de Montaron à @14 ?
@@ -343,7 +343,7 @@ L'aventurier se réjouit.~
 //réponse de Jaheira à @42 ?
 @139 = ~C'est noté, et je n'apprécie pas du tout. Allons-y, maintenant.~
 @140 = ~Je suis au-delà de ton mépris, barbare.~
-@141 = ~Nous vous serions très reconnaissant pour tout ce que vous pourriez faire. Berrun Tuemort ou Oublek vous en diront plus.~
+@141 = ~Nous vous serions très reconnaissants pour tout ce que vous pourriez faire. Berrun Tuemort ou Oublek vous en diront plus.~
 @142 = ~Si tu veux nous débarrasser de lui, ce n'est pas moi qui t'en empêcherai.~
 
 //réponse de Laryssa au @5
@@ -353,7 +353,7 @@ L'aventurier se réjouit.~
 @1002 = ~Ouais ! Merci !~
 
 //réponse de Montaron au @13 ou @14
-@1003 = ~Bah, oublie-ça !~
+@1003 = ~Bah, oublie ça !~
 
 //réponse de Xan à @28
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 547, probablement inutile de traduire ici !
@@ -378,7 +378,7 @@ L'aventurier se réjouit.~
 @1010 = ~Vous l'aurez voulu !~
 
 //réponse de Marl à @59
-@1011 = ~Ca suffit !~
+@1011 = ~Ça suffit !~
 
 //réaction de Hannah à @66
 @1012 = ~Quel dommage que mes souhaits ne puissent pas se réaliser.~
@@ -411,7 +411,7 @@ L'aventurier se réjouit.~
 //non-listés dans le x#shint.d
 @144 = ~J'en ai assez.~
 @145 = ~AAaaaah !~
-@149 = ~Tu l'auras, mais ne viens pas te plaindre si c'est du tien dont il s'agit.~
+@149 = ~Tu l'auras, mais ne viens pas te plaindre si c'est du tien qu'il s'agit.~
 @151 = ~Vous m'avez rendu un grand service, et c'est avec plaisir que je vais vous récompenser.~
 @153 = ~Laissez-moi partir ! S'il vous plaît !~
 @155 = ~Chhhhhut !~

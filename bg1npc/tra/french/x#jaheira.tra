@@ -10,35 +10,35 @@
 @3 = ~Château-Suif était notre foyer, donc je suppose que c'est là qu'il devrait reposer, au final... en présumant que ces bâtards nous laissent y rentrer pour ce faire.~
 @4 = ~Un sentiment noble, mais les chacals ne vont peut-être pas le partager d'ici là.~
 @5 = ~Fais taire cette langue acide. Oui, je suis druide, mais aussi son amie. Et tous les lieux de Toril ne sont pas également sacrés, sans parler de l'endroit où un ami cher a été assassiné.~
-@6 = ~Oh, ils nous laisseront y retourner, tôt ou tard. J'aimerais que nous ayons un livre composé de parchemins taillés dans la peau des bandits qui vous ont attaqués, pour payer notre entrée. Celle de celui qui l'a tué sera conservée pour la couverture. Je suis désolée, <CHARNAME>, d'échanger des pensées aussi sinistres, mais Khalid et moi... nous aimions vraiment Gorion. Ce n'est pas facile de parler d'enterrement alors que ses assassins sont toujours impunis.~
+@6 = ~Oh, ils nous laisseront y retourner, tôt ou tard. J'aimerais que nous ayons un livre composé de parchemins taillés dans la peau des bandits qui vous ont attaqués, pour payer notre entrée. Celle de celui qui l'a tué sera conservée pour la couverture. Je suis désolée, <CHARNAME>, de partager des pensées aussi sinistres, mais Khalid et moi... nous aimions vraiment Gorion. Ce n'est pas facile de parler d'enterrement alors que ses assassins sont toujours impunis.~
 
 //Jaheira s'interroge sur les connaissances forestières de Charname et finit (souvent) par évoquer plutôt sa romantique rencontre avec le preux Khalid.
-@7 = ~Gorion t'a-t-il jamais montré la forêt et parlé de la Nature ? Sens-toi libre de me poser n'importe quelle question à leur sujet, quand tu le désires. En fait, quand notre groupe évolue en forêt, j'aimerais autant que tu me demandes conseil ou que tu me laisses guider.~
+@7 = ~Gorion t'a-t-il jamais montré la forêt et parlé de la Nature ? N'hésite pas à me poser n'importe quelle question à leur sujet, quand tu le désires. En fait, quand notre groupe évolue en forêt, j'aimerais autant que tu me demandes conseil ou que tu me laisses guider.~
 @8 = ~Est-ce vrai qu'on peut s'amuser à tuer des moustiques en tendant son muscle juste au moment où ils piquent ? J'ai entendu dire que cela contracte les pores, piégeant le moustique, et qu'en même temps, cela envoie une grande quantité de sang dans son corps, ce qui le fait exploser.~
 @9 = ~Quel est l'élément de la forêt le plus facile à trouver et le plus nutritif, si je devais manquer de provisions ?~
 @10 = ~Mmm... Du savoir forestier... Comment as-tu rencontré Khalid ?~
-@11 = ~C'est une des choses les plus ridicules que j'ai jamais entendues. Mais je parie que c'est devenu un mythe populaire dans plus d'un royaume, que ce soit vrai ou pas.~
+@11 = ~C'est une des choses les plus ridicules que j'aie jamais entendues. Mais je parie que c'est devenu un mythe populaire dans plus d'un royaume, que ce soit vrai ou pas.~
 @12 = ~Les larves, sans aucun doute. Et rôties, elles sont délicieuses : comme des noix avec un coeur crémeux.~
 @13 = ~En *quoi* est-ce relié au savoir forestier ?~
-@14 = ~Et bien, tu es une dame de la forêt, et Khalid un homme des bois... Hum... c'est un peu tiré par les cheveux, mais ça m'a paru une occasion idéale de poser la question, sans vouloir être indiscret.~
-      ~Et bien, tu es une dame de la forêt, et Khalid un homme des bois... Hum... c'est un peu tiré par les cheveux, mais ça m'a paru une occasion idéale de poser la question, sans vouloir être indiscrète.~
+@14 = ~Eh bien, tu es une dame de la forêt, et Khalid un homme des bois... Hum... c'est un peu tiré par les cheveux, mais ça m'a paru une occasion idéale de poser la question, sans vouloir être indiscret.~
+      ~Eh bien, tu es une dame de la forêt, et Khalid un homme des bois... Hum... c'est un peu tiré par les cheveux, mais ça m'a paru une occasion idéale de poser la question, sans vouloir être indiscrète.~
 @15 = ~Ce n'est pas lié au savoir forestier, Jaheira. Mais je suis curieux.~
       ~Ce n'est pas lié au savoir forestier, Jaheira. Mais je suis curieuse.~
 @16 = ~Si tu ne veux pas en parler, parlons de savoir forestier. Quel est l'élément sylvestre le plus facile à trouver et le plus nutritif, si je venais à manquer de provisions ?~
 @17 = ~Je vais satisfaire ta curiosité, <CHARNAME>. La première fois que j'ai vu Khalid, c'était à un bal. Nous étions tous les deux... nous devions tous les deux y assister pour raisons professionnelles, mais aucun de nous deux ne connaissait l'autre. J'avais terminé ce pourquoi j'étais venue et j'étais sur le point de partir, lorsque je l'ai vu, là, tout seul. Il avait l'air tellement peu à sa place et timide, que je me suis sentie désolée pour lui, et je suis allée lui parler. Je l'ai trouvé étonnamment charmant, et nous avons fait en sorte d'apprendre à nous connaître...~
 @18 = ~Hum, c'est marrant, Khalid m'a raconté la même histoire, sauf qu'il a dit que c'était *toi* qui étais toute seule.~
 @19 = ~Comme c'est romantique ! J'imagine que vous vous êtes bien amusés quand vous avez réalisé que vous étiez tous les deux engagés par la même organisation. Mais assez de bavardages. Parlons de savoir forestier. Quel est l'élément sylvestre le plus facile à trouver et le plus nutritif, si je devais manquer de provisions ?~
-@20 = ~Oh ? Comme c'est intéressant... oui.~
+@20 = ~Oh ? Voilà un... savoir intéressant.~
 
 //Jaheira s'interroge sur le contenu de la lettre que Gorion a laissée à Charname... et ce/tte dernier/e la soupçcone de lui avoir menti sur bien des choses.
-@21 = ~<CHARNAME>, l'expression de souci qui colonise ton visage alors que tu lis cette lettre m'inquiète de plus en plus. Y a-t-il quelque chose de si déstabilisant dans les mots de Gorion ? Puisque je l'ai bien connu, peut-être puis-je t'expliquer...~
+@21 = ~<CHARNAME>, l'expression de souci qui gagne ton visage alors que tu lis cette lettre m'inquiète de plus en plus. Y a-t-il quelque chose de si déstabilisant dans les mots de Gorion ? Puisque je l'ai bien connu, peut-être puis-je t'expliquer...~
 @22 = ~Je ne pense pas que tu le puisses, Jaheira. Tu vois, Gorion n'était pas mon vrai père. Je suis l'un des Enfants de... je suis... un rejeton de Bhaal.~
 @23 = ~Non, non... tout va bien. Pas besoin d'interférer, Jaheira. C'est juste un petit machin, rien qui ne vaille la peine d'être discuté, vraiment. Ahah.~
 @24 = ~Tu... tu savais, n'est-ce pas ? Tu le savais et n'as rien dit ! Espèce... de traîtresse !~
 @25 = ~Tu es l'un des Enfants, alors... ainsi c'est cela. J'ai compris que tu étais spécial, à la manière dont Gorion a choisi d'abandonner ses vagabondages pour se réfugier dans cette forteresse. J'aurais dû être capable de deviner plus tôt, à cause de ces cauchemars qui t'ont hanté.~
       ~Tu es l'une des Enfants, alors... ainsi c'est cela. J'ai compris que tu étais spéciale, à la manière dont Gorion a choisi d'abandonner ses vagabondages pour se réfugier dans cette forteresse. J'aurais dû être capable de deviner plus tôt, à cause de ces cauchemars qui t'ont hantée.~
 @26 = ~C'est inquiétant... et cela pourrait expliquer certains des actes peu honorables que tu as commis.~
-@27 = ~Je resterai avec toi, cependant. A présent que je sais ce qui t'écarte du droit chemin, il sera plus aisé de le surmonter. Je t'aiderai à combattre l'appel de ton sang... que tu le veuilles ou non.~
+@27 = ~Je resterai avec toi, cependant. À présent que je sais ce qui t'écarte du droit chemin, il sera plus aisé de le surmonter. Je t'aiderai à combattre l'appel de ton sang... que tu le veuilles ou non.~
 @28 = ~Merci, Jaheira. Je suis heureux de savoir que tu ne te retourneras pas contre moi, à présent. Cela signifie beaucoup pour moi.~
       ~Merci, Jaheira. Je suis heureuse de savoir que tu ne te retourneras pas contre moi, à présent. Cela signifie beaucoup pour moi.~
 @29 = ~Alors tu ne savais rien de ceci ? C'est curieux que Gorion ne t'en ait rien dit.~
@@ -46,36 +46,36 @@
 @31 = ~Cela change moins que tu ne pourrais le craindre, <CHARNAME>. Tu t'es révélé être une personne décente et attentive, en dépit de... cet héritage.~
       ~Cela change moins que tu ne pourrais le craindre, <CHARNAME>. Tu t'es révélée être une personne décente et attentive, en dépit de... cet héritage.~
 @32 = ~Je resterai à tes côtés et t'aiderai à accepter ce nouvel héritage. Si tu acceptes mon aide, bien sûr.~
-@33 = ~Ah ah, en effet, <CHARNAME>... comme tu voudras. Tu diriges ce groupe et j'obéirai à tes désirs, même si j'espère que tu changeras d'avis et me dira ce qui te chagrine.~
+@33 = ~Ah ah, en effet, <CHARNAME>... comme tu voudras. Tu diriges ce groupe et j'obéirai à tes désirs, même si j'espère que tu changeras d'avis et me diras ce qui te chagrine.~
 @34 = ~De quoi parles-tu, <CHARNAME> ? Je ne supporterai pas ceci, être traitée de ces noms insultants, ne sachant rien de ce dont tu m'accuses !~
 @35 = ~Hum... Peut-être que je me suis emporté... tu vois, Gorion écrit qu'il n'était pas mon vrai père. Je suis un enfant du dieu mort du meurtre, Bhaal... la révélation, vraiment elle... m'a secoué jusqu'aux tréfonds...~
       ~Hum... Peut-être que je me suis emportée... tu vois, Gorion écrit qu'il n'était pas mon vrai père. Je suis une enfant du dieu mort du meurtre, Bhaal... la révélation, vraiment elle... m'a secouée jusqu'aux tréfonds...~
-@36 = ~Que tu savais que j'étais un rejeton de Bhaal et que tu ne m'as rien dit, salope de Ménéstrel ! Toi et ton groupe de comploteurs, vous gardez toujours vos secrets minables, juste pour me poignarder dans le dos par la suite. C'est pour ça que je te traite de traîtresse !~
-@37 = ~Oui, je dois avouer que c'est étrange, car Gorion a toujours été honnête et peu secret dans nos échanges. Il était attaché à Khalid et moi-même, et nous a beaucoup appris... peut-être pensait-il que savoir ceci nous mettrait en danger et voulait-il l'éviter ? Qui peut savoir... Je pense qu'il avait l'intention de nous le dire quand il a demandé à Khalid et moi de nous rendre à Brasamical. Hélas...~
-@38 = ~Oui... Je suppose que cela fait sens. Je ne voulais pas remettre ta loyauté en question, Jaheira. Continuons notre quête.~
-@39 = ~Je ne sais pas, Jaheira... Je voudrais pouvoir le croire, mais je pense que la confiance nécessaire entre nous a été brisée. Cela vaudrait mieux pour nous de nous séparer, je le crains.~
+@36 = ~Que tu savais que j'étais un rejeton de Bhaal et que tu ne m'as rien dit, salope de Ménestrel ! Toi et ton groupe de comploteurs, vous gardez toujours vos secrets minables, juste pour me poignarder dans le dos par la suite. C'est pour ça que je te traite de traîtresse !~
+@37 = ~Oui, je dois avouer que c'est étrange, car Gorion a toujours été honnête et peu secret dans nos échanges. Il était attaché à Khalid et à moi-même, et nous a beaucoup appris... peut-être pensait-il que savoir ceci nous mettrait en danger et voulait-il l'éviter ? Qui peut savoir... Je pense qu'il avait l'intention de nous le dire quand il a demandé à Khalid et à moi de nous rendre à Brasamical. Hélas...~
+@38 = ~Oui... Je suppose que cela se tient. Je ne voulais pas remettre ta loyauté en question, Jaheira. Continuons notre quête.~
+@39 = ~Je ne sais pas, Jaheira... Je voudrais pouvoir le croire, mais je pense que la confiance nécessaire entre nous a été brisée. Il vaudrait mieux nous séparer, je le crains.~
 @40 = ~Je vois que tu as besoin de beaucoup d'aide, et ne t'en rends même pas compte. Cela ne m'empêchera pas de te protéger, et tu ferais mieux d'espérer que j'y parvienne.~
-@41 = ~Un... un rejeton de Bhaal ? Tu es l'un des Enfants ? Je... Je suppose que j'aurais dû le deviner. Mais crois-moi, je t'en supplie, je ne le savais pas jusqu'à aujourd'hui ! Gorion ne nous avait rien dit, et je peux seulement supposer qu'il était sur le point de le faire ! Tais cette colère, car elle est injustifiée !~
+@41 = ~Un... un rejeton de Bhaal ? Tu es l'un des Enfants ? Je... Je suppose que j'aurais dû le deviner. Mais crois-moi, je t'en supplie, je ne le savais pas jusqu'à aujourd'hui ! Gorion ne nous avait rien dit, et je peux seulement supposer qu'il était sur le point de le faire ! Apaise cette colère, car elle est injustifiée !~
 @42 = ~Peut-être... peut-être ai-je été un peu dur... mais je ne peux pas croire que Gorion ne t'aurait rien dit de mon héritage !~
       ~Peut-être... peut-être ai-je été un peu dure... mais je ne peux pas croire que Gorion ne t'aurait rien dit de mon héritage !~
 @43 = ~Des mots creux de la part d'une traîtresse au coeur de pierre ! Je suis tenté de te demander de tirer ton arme, chienne !~
       ~Des mots creux de la part d'une traîtresse au coeur de pierre ! Je suis tentée de te demander de tirer ton arme, chienne !~
 @44 = ~Tu voudrais... que nous nous séparions ? Mais nous sommes si proches de la résolution de notre quête et d'infliger la vengeance qu'il mérite au meurtrier de Gorion !~
-@45 = ~Certaines des choses que tu as commises par le passé ont été difficiles à accepter et à tolérer, l'idée de nous séparer a donc peut-être fait son chemin. Je ferai néanmoins en sorte que le meurtrier de Gorion soit livré à la justice. Il est sans doute préférable que Khalid et moi ne le recherchions pas en ta compagnie.~
-@46 = ~Certaines des choses que tu as faites par le passé ont été difficiles à accepter et à tolérer, l'idée de nous séparer a donc peut-être fait son chemin. Je veillerai cependant à ce que le meurtrier de Gorion soit livré à la justice. Il est sans doute préférable que je ne le recherche pas en ta compagnie.~
-@47 = ~Cela m'attriste de savoir que je n'ai pas réussi à gagner ta confiance, <CHARNAME>. Tu es une personne de valeur et j'aurais aimé pouvoir rester en ta compagnie... S'il te plait, je vais te le demander une toute dernière fois... réfléchis et laisse-moi rester dans le groupe. Je n'ai rien à me reprocher dans la manière dont je t'ai traité, mais je voudrais une dernière chance de gagner ta confiance.~
-      ~Cela m'attriste de savoir que je n'ai pas réussi à gagner ta confiance, <CHARNAME>. Tu es une personne de valeur et j'aurais aimé pouvoir rester en ta compagnie... S'il te plait, je vais te le demander une toute dernière fois... réfléchis et laisse-moi rester dans le groupe. Je n'ai rien à me reprocher dans la manière dont je t'ai traitée, mais je voudrais une dernière chance de gagner ta confiance.~
-@48 = ~Cela m'attriste de savoir que j'ai échoué à gagner ta confiance, <CHARNAME>. Tu es une personne de qualité et j'aurais voulu rester dans ton groupe... S'il te plait, je vais te le demander une toute dernière fois... réfléchis, et laisse-moi rester avec vous.~
+@45 = ~Certaines des choses que tu as commises par le passé ont été difficiles à accepter et à tolérer, l'idée de nous séparer a donc peut-être du bon. Je ferai néanmoins en sorte que le meurtrier de Gorion soit livré à la justice. Il est sans doute préférable que Khalid et moi ne le recherchions pas en ta compagnie.~
+@46 = ~Certaines des choses que tu as faites par le passé ont été difficiles à accepter et à tolérer, l'idée de nous séparer a donc peut-être du bon. Je veillerai cependant à ce que le meurtrier de Gorion soit livré à la justice. Il est sans doute préférable que je ne le recherche pas en ta compagnie.~
+@47 = ~Cela m'attriste de savoir que je n'ai pas réussi à gagner ta confiance, <CHARNAME>. Tu es une personne de valeur et j'aurais aimé pouvoir rester en ta compagnie... S'il te plaît, je vais te le demander une toute dernière fois... réfléchis et laisse-moi rester dans le groupe. Je n'ai rien à me reprocher dans la manière dont je t'ai traité, mais je voudrais une dernière chance de gagner ta confiance.~
+      ~Cela m'attriste de savoir que je n'ai pas réussi à gagner ta confiance, <CHARNAME>. Tu es une personne de valeur et j'aurais aimé pouvoir rester en ta compagnie... S'il te plaît, je vais te le demander une toute dernière fois... réfléchis et laisse-moi rester dans le groupe. Je n'ai rien à me reprocher dans la manière dont je t'ai traitée, mais je voudrais une dernière chance de gagner ta confiance.~
+@48 = ~Cela m'attriste de savoir que j'ai échoué à gagner ta confiance, <CHARNAME>. Tu es une personne de qualité et j'aurais voulu rester dans ton groupe... S'il te plaît, je vais te le demander une toute dernière fois... réfléchis, et laisse-moi rester avec vous.~
 @49 = ~Je n'ai rien à me reprocher dans la manière dont je t'ai traité, mais je te demande une dernière chance de gagner ta confiance.~
       ~Je n'ai rien à me reprocher dans la manière dont je t'ai traitée, mais je te demande une dernière chance de gagner ta confiance.~
 @50 = ~Très bien, Jaheira. Je vais te donner cette chance, tu m'as eu l'air sincère.~
 @51 = ~Je suis vraiment désolé, Jaheira, mais ceci marque la fin de notre association. Adieu.~
       ~Je suis vraiment désolée, Jaheira, mais ceci marque la fin de notre association. Adieu.~
-@52 = ~Je ne me battrai pas contre toi, malgré tes insultes. Je vais plutôt te laisser pourrir dans ta haine. A moins que tu ne te révèles un vecteur du pouvoir de ton père mort et que tu me poignardes dans le dos alors que je m'éloigne. Je suis trop dégoûtée pour m'en soucier.~
+@52 = ~Je ne me battrai pas contre toi, malgré tes insultes. Je vais plutôt te laisser pourrir dans ta haine. À moins que tu ne te révèles un vecteur du pouvoir de ton père mort et que tu me poignardes dans le dos alors que je m'éloigne. Je suis trop dégoûtée pour m'en soucier.~
 @53 = ~Khalid, viens avec moi. Laissons celui-ci sur la voie qu'il s'est choisie, pleine d'amertume et de colère. Nous observerons comment il se comporte en route... mais de loin.~
       ~Khalid, viens avec moi. Laissons celle-ci sur la voie qu'elle s'est choisie, pleine d'amertume et de colère. Nous observerons comment elle se comporte en route... mais de loin.~
 @54 = ~Merci, <CHARNAME>... tu ne peux pas savoir comme je suis soulagée ! Je ne te décevrai pas, je le promets... Mon serment à Gorion et ma loyauté envers toi seront indéfectibles, à jamais.~
-@55 = ~*soupire* Adieu dès lors, <CHARNAME>. J'espère que nous nous rencontrerons à nouveau et  que l'image que tu as de moi se sera améliorée d'ici là. Je te souhaite bien du succès dans ta quête de vengeance... que tout aille bien, <CHARNAME>.~
+@55 = ~*soupire* Adieu donc, <CHARNAME>. J'espère que nous nous rencontrerons à nouveau et que l'image que tu as de moi se sera améliorée d'ici là. Je te souhaite bien du succès dans ta quête de vengeance... que tout aille bien, <CHARNAME>.~
 @56 = ~Oui, je vous en prie, <CHARNAME>... nous nous soucions de vous et de votre bien-être, nos coeurs se b-briseraient de vous abandonner aujourd'hui. S'il vous plaît, ne f-faites pas ceci. Laissez-nous rester pour vous ai-aider et ho-honorer le serment que nous avons fait à Gorion.~
 @57 = ~Très bien, Khalid. Très bien, Jaheira. Je vous laisserai cette chance, vous avez l'air sincères.~
 @58 = ~Oui, m-merci, <CHARNAME>... nous f-ferons tous les deux de notre mieux pour vous aider. Cela nous aurait b-brisé le coeur si vous aviez pris une autre d-décision...~
@@ -90,21 +90,21 @@
 //Banter avec Ajantis
 @64 = ~T'en tirerais-tu, si tu étais tout seul, Ajantis ? J'ai entendu <CHARNAME> faire des plans pour la suite et tu pourrais ne pas en faire partie.~
 @65 = ~Vous devez avoir mal entendu, Dame Jaheira. <CHARNAME> et moi sommes liés par l'honneur !~
-@66 = ~Calme-toi, Ajantis. L'honneur est quelque fois plus compliqué que ça.~
+@66 = ~Calme-toi, Ajantis. L'honneur est quelquefois plus compliqué que ça.~
 @67 = ~Compliqué ? J'ai toujours pensé que ce mot était une excuse pratique pour ceux qui manquaient à leur parole. Soit on a de l'honneur, soit on n'en a pas.~
 @68 = ~Ne prends pas la décision de <CHARNAME> comme un rejet personnel, Ajantis. En tant que chef, <PRO_HESHE> doit veiller à équilibrer tout le groupe.~
 @69 = ~Ma dévotion à sa cause surpassera toute autre considération.~
 @70 = ~Oui, si cette dévotion est comprise et partagée de la même manière par <CHARNAME> et toi.~
 @71 = ~Et avez-vous des raisons de douter d'une telle compréhension ? Pas moi.~
 @72 = ~Quoi qu'il en soit, je te conseillerais de prendre les décisions de <CHARNAME> avec le sourire, même si elles ne vont pas dans le sens de ce que tu considères comme honorable.~
-@73 = ~Et ma dame elle-même prendra la chose avec le sourire si <CHARNAME> décidait qu'il serait mieux pour le groupe que Khalid et elle-même soient remplacés, je suppose ?~
+@73 = ~Et ma dame elle-même prendrait la chose avec le sourire si <CHARNAME> décidait qu'il serait mieux pour le groupe que Khalid et elle-même soient remplacés, je suppose ?~
 @74 = ~Mais <PRO_HESHE> ne ferait pas ça ! Khalid et moi... *soupire*~
 @75 = ~Bien sûr que non. Je ne vais pas m'inquiéter du fait que <CHARNAME> réorganise son groupe dans l'immédiat, ma dame, mais j'apprécie votre souci.~
 
 //Banters avec Coran
-@76 = ~A l'occasion, j'ai demandé à Khalid s'il pensait que tu aurais voulu rejoindre un groupe dans lequel il n'y aurait eu aucune femme.~
+@76 = ~Un jour, j'ai demandé à Khalid s'il pensait que tu aurais voulu rejoindre un groupe dans lequel il n'y aurait eu aucune femme.~
 @77 = ~Ce à quoi cet homme inestimable a répondu ?~
-@78 = ~Et bien, il a répondu que lui-même n'aurait certainement pas voulu se retrouver dans un groupe où il aurait manqué *une* femme en particulier. Subtil et diplomatique, comme toujours.~
+@78 = ~Eh bien, il a répondu que lui-même n'aurait certainement pas voulu se retrouver dans un groupe où il aurait manqué *une* femme en particulier. Subtil et diplomatique, comme toujours.~
 @79 = ~Je suis d'accord avec Khalid. Je préférerais ne pas partir à l'aventure sans une agréable compagnie féminine... Mais contrairement à lui, la variété me plaît bien...~
 
 @80 = ~J'ai une théorie sur les raisons pour lesquelles tu as choisi de chasser des wivernes pour leur prime, plutôt que d'autres créatures magiques, comme les ankhegs ou les loups des glaces.~
@@ -120,23 +120,23 @@
 @88 = ~En effet. Khalid et moi pouvons vous donner des conseils pour monter une aire de repos offrant l'intimité nécessaire à la méditation, à la préparation de sortilèges et autres choses du genre, tout en restant raisonnablement en contact avec tous les autres. Nous avons beaucoup d'expérience de terrain dans le domaine.~
 @89 = ~J'apprécie Tes conseils, mais en même temps, nous en resterons à nos vigies passées. Cependant, je voudrais Te demander une faveur.~
 @90 = ~Oui ?~
-@91 = ~Pourrais-je avoir cette paillasse supplémentaire que Tu transportes. La mienne est pleine de miettes. Je suspecte que Minsc a encore demandé à Bouh de me surveiller... hélas.~
+@91 = ~Pourrais-je avoir cette paillasse supplémentaire que Tu transportes ? La mienne est pleine de miettes. Je suspecte que Minsc a encore demandé à Bouh de me surveiller... hélas.~
 
 //Banters avec Edwin
 @92 = ~Puisque Minsc n'est pas à portée d'oreille pour venir te trucider rapidement, laisse-moi te demander : pourquoi hais-tu Dynahéir à ce point, Edwin ? Jalousie ?~
 @93 = ~Suggères-tu que je serais jaloux de ce protecteur demeuré qu'elle a adopté ?~
 @94 = ~Non, mais peut-être que tu es jaloux du fait que c'est une mage très compétente.~
-@95 = ~Toi et le reste des chimpanzés de ce groupe en viendront éventuellement à savoir que je suis et serai le meilleur mage que vous puissiez jamais espérer rencontrer. *Je* ne me laisserai jamais capturer par des gnolls ou quelqu'autre créature qui m'est si clairement inférieure.~
+@95 = ~Toi et le reste des chimpanzés de ce groupe en viendrez tôt ou tard à savoir que je suis et serai le meilleur mage que vous puissiez jamais espérer rencontrer. *Je* ne me laisserai jamais capturer par des gnolls ou quelque autre créature qui m'est si clairement inférieure.~
 
 @96 = ~Si tu es aussi bon que tu le dis, mage, pourrais-tu prendre Imoen sous ton aile dans le domaine des arcanes, si elle décidait de s'y mettre ? Je ne voudrais pas que tu lui enseignes quoi que ce soit d'autre, bien sûr.~
 @97 = ~Quoi ? Pourquoi voudrais-je avoir cette gamine sur les bras ?~
 @98 = ~Aha ! Tu ne maîtrises pas suffisamment ton art pour le partager avec d'autres ? Ou est-ce de la jalousie professionnelle, la peur d'être surpassé par l'un de tes propres apprentis ?~
 @99 = ~En parlant de jalousie, femme, de la variété *non* professionnelle, c'est un sentiment dont je doute que ton mari fasse jamais l'expérience.~
-@100 = ~Et bien, merci de me complimenter sur mon honneur inébranlable et ma loyauté, Edwin. Je ne m'attendais pas à ça de la part de quelqu'un d'aussi étranger à ces concepts que toi.~
+@100 = ~Eh bien, merci de me complimenter sur mon honneur inébranlable et ma loyauté, Edwin. Je ne m'attendais pas à ça de la part de quelqu'un d'aussi étranger à ces concepts que toi.~
 @101 = ~Bah ! Je voulais dire (pourquoi est-ce que je perds mon temps à discuter avec des créatures qui me sont si inférieures... non, sois patient, Edwin, supporte-les pour l'instant) qu'aucun autre homme ne voudrait de toi !~
-@102 = ~Je sais ce que tu voulais dire, mage. Le sens de ma pique en retour t'es visiblement passer au-dessus de la tête. Peut-être y-a-t'il une pénurie d'ironie, en plus de celle du fer, là d'où tu viens, non ?~
+@102 = ~Je sais ce que tu voulais dire, mage. Le sens de ma pique en retour t'est visiblement passé au-dessus de la tête. Peut-être y a-t-il une pénurie d'ironie, en plus de celle du fer, là d'où tu viens, non ?~
 @103 = ~La moitié de mon esprit serait encore plus que le tien et celui de ton geignard de mari réunis, druide. Sérieusement, je te suggère de prendre bien soin de lui, car il me semble clair qu'il sera ton seul rempart contre une vie solitaire et désoeuvrée.~
-@104 = ~Si c'était ton idée d'une déflagration étourdissante, mage, alors j'en baille. Des personnes bien meilleures que toi ont été bien plus cruelles et je les ai renvoyées, pleurnichantes, la queue entre les jambes. Mais si c'est effectivement une menace envers mon mari, mage, alors tu n'es pas loin, à présent, de perdre *tout* ton esprit... en petits morceaux sur le sol.~
+@104 = ~Si c'était ton idée d'une déflagration étourdissante, mage, alors j'en bâille. Des personnes bien meilleures que toi ont été bien plus cruelles et je les ai renvoyées, pleurnichant, la queue entre les jambes. Mais si c'est effectivement une menace envers mon mari, mage, alors tu n'es pas loin, à présent, de perdre *tout* ton esprit... en petits morceaux sur le sol.~
 
 //Banter avec Garrick
 @105 = ~Garrick, savais-tu que Silke avait l'intention d'assassiner ces marchands, à Bérégost ?~
@@ -148,7 +148,7 @@
 
 //Banters avec Imoen
 @111 = ~Tu as connu <CHARNAME> toute ta vie, Imoen ?~
-@112 = ~Ouaip, et nous avons toujours été potes. Bon, nous nous tapons parfois sur les nerfs, mais nous nous soutenons toujours quand les temps sont durs, et il n'y a rien qu'on ne refuserait de faire pour l'autre... Hum, j'espère que ça ne sonne pas trop sirupeux et que je n'ai pas tout piqué dans le magasin des clichés !~
+@112 = ~Ouaip, et nous avons toujours été potes. Bon, nous nous tapons parfois sur les nerfs, mais nous nous soutenons toujours quand les temps sont durs, et il n'y a rien qu'on ne ferait pour l'autre... Hum, j'espère que ça ne sonne pas trop sirupeux et que je n'ai pas tout piqué dans le magasin des clichés !~
 @113 = ~Peu importe tout ça !~
 @114 = ~Hein ? J'ai dit quelque chose qu'il ne fallait pas, Jaheira ?~
 @115 = ~Je suis désolée, Imoen, mais j'ai besoin de savoir. Je ne sais pas comment le demander délicatement, alors laisse-moi être franche. Tu es la seule personne à bien connaître <CHARNAME>, à part Gorion. As-tu jamais noté quelque chose de particulièrement différent dans sa façon d'être ?~
@@ -158,17 +158,17 @@
 @119 = ~Tu as raison, Imoen. Nous aurons le temps et de nombreuses opportunités pour faire la connaissance de <CHARNAME>. Si seulement Khalid et moi avions rendu visite à Gorion plus souvent... mais ce qui est fait, est fait. Nous ferons la connaissance de <CHARNAME> à partir de maintenant.~
 
 @120 = ~Que veux-tu faire quand tu seras grande, Imoen ?~
-@121 = ~Et bien, je pensais étudier la magie... Hé ! Comment ça se fait que tu ne demandes jamais ça à <CHARNAME> ? Je ne suis pas beaucoup plus jeune !~
+@121 = ~Eh bien, je pensais étudier la magie... Hé ! Comment ça se fait que tu ne demandes jamais ça à <CHARNAME> ? Je ne suis pas beaucoup plus jeune !~
 @122 = ~Je doute que <CHARNAME> ait beaucoup le choix de ce qu'<PRO_HESHE> voudra faire dans le futur. Non, ne me demande pas pourquoi... Mais tu as raison, <PRO_HESHE> ne me fait pas penser à un enfant, je ferai donc en sorte de ne pas penser à toi comme tel... pour autant, bien sûr, que ton comportement ait la maturité désirée.~
 @123 = ~Hah ! Regardez Madame Je-veux-être-le-chef-du-groupe-et-je-boude-si-je-dois-rester-derrière parler de maturité ! *glousse*~
 @124 = ~Et je parie que tu as des conseils tout prêts pour moi, à cette minute précise, sur comment agir en adulte, n'est-ce pas, *tantine* Jaheira ?~
 @125 = ~Déjà, ne pas demander des histoires de "trolls et de héros" à tout le monde serait un bon début.~
-@126 = ~Mais... mais ce sont les meilleures histoires ! Tu vois, c'est juste que tu n'en as pas entendu de bonnes. Laisse-moi te raconter celle que m'a racontée Gros Plein de Soupe, qui parle de trolls...~
+@126 = ~Mais... mais ce sont les meilleures histoires ! Tu vois, c'est juste que tu n'en as pas entendu de bonnes. Laisse-moi te raconter celle que m'a racontée Gros-Ventre, qui parle de trolls...~
 @127 = ~Ça suffit, mon enfant.~
-@128 = ~Pffff, tu n'es pas ma mère et ne le sera jamais, Jaheira ! Hé, j'ai une super idée ! Peut-être que si Khalid et toi aviez un enfant, tu aurais moins de, hum, frustrations maternelles.~
-@129 = ~Peut-être que mes exaspérations prennent source dans le fait de ne pas avoir d'enfant à moi, en effet. Hmm, c'est manifestement quelque chose qui mérite réflexion.~
+@128 = ~Pffff, tu n'es pas ma mère et ne le seras jamais, Jaheira ! Hé, j'ai une super idée ! Peut-être que si Khalid et toi aviez un enfant, tu aurais moins de, hum, frustrations maternelles.~
+@129 = ~Peut-être que mes exaspérations prennent leur source dans le fait de ne pas avoir d'enfant à moi, en effet. Hmm, c'est manifestement quelque chose qui mérite réflexion.~
 
-@130 = ~Imoen, est-ce que "Gros Plein de Soupe" t'a jamais parlé des choses qu'une fille qui devient une jeune femme devrait savoir ?~
+@130 = ~Imoen, est-ce que "Gros-Ventre" t'a jamais parlé des choses qu'une fille qui devient une jeune femme devrait savoir ?~
 @131 = ~Euh, il m'a souvent parlé du fait que je ne nettoyais pas assez bien, et dit que je ne trouverais jamais un bon mari si je continuais à escalader les barrières et hum... à emprunter des choses...~
 @132 = ~Oui, ce sont des instructions utiles, mais je parlais d'autres sortes de choses. Tu as l'âge, désormais, et je pense que c'est mon devoir de te prévenir.~
 @133 = ~Me prévenir de quoi ?~
@@ -182,26 +182,26 @@
 @139 = ~Tu nous guides dans cette excursion pour retrouver tes caravanes et puis tu décides simplement de laisser tomber, comme ça, nain ? Je doute que quelqu'un avec des objectifs aussi fantaisistes et une résolution aussi peu solide puisse être un atout pour ce groupe.~
 @140 = ~Tu oses parler à un employeur comme ça ?! C'est juste un bon sens des affaires. Mon principal atout est juste ici, dans ma tête, quand je te dis quoi faire et aussi ici, dans mon bras, quand je te garde au pas. Oh, et j'ai des atouts plus bas aussi, mais je doute que tu sois jamais invitée à être partenaire dans l'une de *ces* entreprises, har !~
 @141 = ~Ne m'incite pas à tester jusqu'à quel point exactement tu peux guérir tout seul, Ô Capitaine de l'Industrie !~
-@142 = ~Ouais, et je suis content de guérir si bien, parce que j'dormirais plutôt avec des sangsues plutôt que d'utiliser tes soins répugnants de bouseuse, druide. Pourquoi tu restes là, d'bout ? T'es virée !~
+@142 = ~Ouais, et je suis content de guérir si bien, parce que j'dormirais avec des sangsues plutôt que d'utiliser tes soins répugnants de bouseuse, druide. Pourquoi tu restes là, d'bout ? T'es virée !~
 
 //Avec Khalid
 @143 = ~Khalid, as-tu pensé à utiliser un gourdin ou un bâton jusqu'à ce que cesse cette crise du fer ?~
 @144 = ~Tu n'es pas en train d'essayer à nouveau de me faire changer de p-profession, quand même, Jaheira ch-chérie ?~
 @145 = ~Bien sûr que non. Je voudrais juste être certaine de ne pas te voir encerclé par l'ennemi avec juste une poignée à la main. Je pense que tu devrais garder une arme de bois en réserve...~
-@146 = ~Oui, c'est une b-bonne idée. Bien que, comme tu le sais, aucun de mes instruments ne m'a jamais f-failli jusqu'ici.~
+@146 = ~Oui, c'est une b-bonne idée. Bien que, comme tu le sais, aucun de mes instruments ne m'a jamais f-fait défaut jusqu'ici.~
 @147 = ~C'est parce que tu as de la chance de m'avoir pour les garder en bon état.~
 @148 = ~Et certains d'entre nous t-trouvons juste que les armes tranchantes, comme les mots, sont bien plus satisfaisantes pour résoudre les c-conflits que les armes contondantes. Bien que je doive l'avouer, tu uses des deux avec ai-aisance, chère épouse.~
 @149 = ~Hum, flatteur.~
 @150 = ~P-Peut-être puis-je transporter une épée de rechange ou deux ?~
 @151 = ~Et *celles-ci* pourraient également se briser lorsque nous serons à des lieues du forgeron le plus proche. Hum... Je savais que nous aurions dû prendre cette épée à deux mains pour toi... Même si son prix *était* scandaleux. Quelque chose qui peut traverser la pierre comme cette épée ne se brisera pas de sitôt.~
-@152 = ~Ç-Ça nous aurait coûté presque tout notre argent. Et nous étions à C-Calimport, l-loin de notre... employeur. S-Sans mentionner le fait que le marchant v-voulait nous faire payer la p-potion de force nécessaire pour l'arracher à ce dans quoi elle était c-coincée.~
+@152 = ~Ç-Ça nous aurait coûté presque tout notre argent. Et nous étions à C-Calimport, l-loin de notre... employeur. S-Sans mentionner le fait que le marchand v-voulait nous faire payer la p-potion de force nécessaire pour l'arracher à ce dans quoi elle était c-coincée.~
 @153 = ~Tu as raison. Les forgerons tiennent leur fer en une telle estime ! *renifle* Le bois est bon marché et fiable. N'importe quelle pièce peut être sculptée dans ses racines, arrachée à ses branches, brisée de son tronc, et pourtant, l'arbre continuera à vivre et fredonner avec toute la vitalité de la nature. *Rien* ne vaut un bon gourdin ou un épieu solide, la pointe durcie dans les flammes ! RIEN ! Ces forgerons ! *grogne*~
 @154 = ~Ahum, c-contrôle ton tempérament, ma chérie. Au moins jusqu'à ce s-soir.~
 
-@155 = ~Où voudras-tu aller quand tout ceci sera terminé, Khalid ? A la maison ? A Calimshan ?~
-@156 = ~Je sais que tu n'as jamais aimé Calimshan. Et moi non p-plus, d'ailleurs. Mon père ne s'est jamais s-soucié de moi comme de ses fils légitimes et ma m-mère est morte depuis longtemps. Nous pouvons aller visiter le Téthyr... pour quelques temps... si tu veux.~
+@155 = ~Où voudras-tu aller quand tout ceci sera terminé, Khalid ? À la maison ? À Calimshan ?~
+@156 = ~Je sais que tu n'as jamais aimé Calimshan. Et moi non p-plus, d'ailleurs. Mon père ne s'est jamais s-soucié de moi comme de ses fils légitimes et ma m-mère est morte depuis longtemps. Nous pouvons aller visiter le Téthyr... pour quelque temps... si tu veux.~
 @157 = ~Même si cela avait été, à défaut du mot exact, mon "foyer", je serais bien plus heureuse d'oublier complètement son existence.~
-@158 = ~Je... Je suis d-désolé, ma chérie. Je ne v-voulais pas te ramener de tristes souvenirs en mémoire. N-nous ne devons pas forcément aller quelque part en particulier. Nous pouvons continuer à accompagner <CHARNAME>... en mémoire de Gorion, bien sûr.~
+@158 = ~Je... Je suis d-désolé, ma chérie. Je ne v-voulais pas te ramener de tristes souvenirs en mémoire. N-nous ne devons pas forcément aller quelque part en particulier. Nous pouvons continuer à accompagner <CHARNAME>... et veiller sur ses pas. Pour Gorion, bien sûr.~
 @159 = ~Merci de ta compréhension. J'ai bien peur que ni ton enfance, ni la mienne, ne nous aient laissé de bons souvenirs.~
 @160 = ~Mais Khalid, mon amour, sache que pour moi, mon "foyer" est l'endroit où tu te trouves, peu importe où.~
 @161 = ~Je r-ressens la même chose, Jaheira.~
@@ -234,12 +234,12 @@
 @184 = ~Jaheira, ne laissez pas des pensées aussi graves jeter une ombre sur les jours ensoleillés de votre existence. Le temps du deuil peut survenir par surprise... et rien ne peut vous préparer à y faire face.~
 @185 = ~Si je peux demander... Comment était-elle ?~
 @186 = ~Peut-on décrire la lumière des étoiles ? Regardez le ciel pendant la nuit et vous la verrez esquissée dans le brouillard argenté entre les astres... Ou bien mes yeux sont-ils seuls à pouvoir la deviner ?~
-@187 = ~Et bien, la manière dont tu parles d'elle... Je suis certaine que tous tes sacrifices ne sont pas vains... Oh, peu importe...~
+@187 = ~Eh bien, la manière dont tu parles d'elle... Je suis certaine que tous tes sacrifices ne sont pas vains... Oh, peu importe...~
 @188 = ~Khalid... Khalid ! Oh, te voilà. Je... Je voulais juste t'embrasser, mon doux amour.~
 
 //Banters avec Minsc
 @189 = ~Tu sais, Minsc, Khalid et moi avons rencontré beaucoup de sortes de créatures sauvages et apprivoisées au cours de nos voyages, et pourtant nous n'avons jamais entendu parler d'un Hamster de l'Espace Géant Miniature.~
-@190 = ~Doutes-tu du caractère de Bouh ? Bouh peut parler pour lui-même. Voici, tu es une druidesse, et tu devrais comprendre ce qu'il dit.~
+@190 = ~Doutes-tu du caractère de Bouh ? Bouh peut parler pour lui-même. Tiens, tu es une druidesse, et tu devrais comprendre ce qu'il dit.~
 @191 = ~Minsc, il y a des limites à ce qu'un druide sait faire.~
 @192 = ~Quoi !?! Tu doutes de la parole de Minsc et Bouh ? Quelle sorte de druide es-tu donc ?~
 
@@ -253,7 +253,7 @@
 //Banter avec Montaron
 @199 = ~Montaron, je préfère que tu saches, avant que nous ne campions, que Khalid et moi *avons* le sommeil léger, donc fais attention à la direction dans laquelle tu pars si tu devais... oh... par hasard te lever au milieu de la nuit.~
 @200 = ~D'accord mais vaut mieux qu'tu mettes pas ton lit trop près du mien, qu'j'aie pas à subir ton odeur d'elfe. J'pourrais juste confondre là où tu dors avec une latrine quand j'me lèverai pour me soulager.~
-@201 = ~Et l'un de nous pourrait te confondre avec une bête sauvage et tu te retrouveras encore plus petit que tu n'es, petit-homme. Je ne peux pas dire que je regretterai une telle erreur.~
+@201 = ~Et l'un de nous pourrait te confondre avec une bête sauvage et tu te retrouverais encore plus petit que tu n'es, petit-homme. Je ne peux pas dire que je regretterai une telle erreur.~
 @202 = ~Bah ! Poulette des bois, tu dois encore apprendre qu'être grand c'est pas la meilleure manière de rester grand.~
 
 //Banter avec Shar-Teel
@@ -269,7 +269,7 @@
 @210 = ~Tiax contrôle toute conversation, car c'est encore un autre instrument que Tiax peut utiliser pour illuminer ses serviteurs quant à leur esclavage inévitable sous ses mains !~
 @211 = ~Qu'en est-il du temps qu'il fait ? Tu ne peux certainement pas transformer le temps en...~
 @212 = ~Quand Tiax régnera sur tous, des nuages de tonnerre et de pluie salueront son émergence en tant que champion de Cyric et les éclairs craqueront dans l'air pour que tous puissent voir la silhouette puissante de Tiax se détacher sur le décor et désespérer !~
-@213 = ~Très éloquent, même si ça n'a aucun sens. Comment était ton dernier repas ? Je doute vraiment que tu puisses trouver une connexion entre la conquête du monde et ÇA !~
+@213 = ~Très éloquent, même si ça n'a aucun sens. Comment était ton dernier repas ? Je doute vraiment que tu puisses trouver un lien entre la conquête du monde et ÇA !~
 @214 = ~Quand Tiax régnera sur tous, TOUS ses repas seront délicieux, et tous resteront tranquilles dans son estomac, car Cyric ne tolérera pas que son champion souffre d'indigestion ! Tiax dévorera seul d'immenses festins et mangera sur le dos de ses esclaves, les fouettant lorsqu'ils oseront bouger et renverser la boisson de Tiax ! Tiax organisera d'impressionnants banquets pour ses serviteurs les plus dévoués, nourrissant ceux qui l'ont servi avec obéissance et affamant ceux qui ont osé FAILLIR à Tiax ! CELA SERA FAIT !!!~
 @215 = ~Mais... euh... mon dernier repas n'était pas trop mal.~
 @216 = ~Une seule pensée cohérente arrachée à ce torrent de n'importe quoi. Malheureusement, ce n'est pas récompense suffisante pour que je persévère avec ces idioties.~
@@ -277,17 +277,17 @@
 //Banters avec Viconia
 @217 = ~Cet homme du Poing Enflammé a parlé de toi comme étant recherchée "pour un meurtre des plus vils", drow. Je suis toujours en train de me demander s'il voulait dire cela au passé ou dans un présent *beaucoup* plus récent.~
 @218 = ~Ta suspicion constante à mon sujet est prévisible et ennuyeuse, tu'rilthiir. Mais continue. Qu'essaies-tu de sous-entendre, au juste ?~
-@219 = ~Dis-moi, drow, as-tu tué qui que ce soit dans une situation qui ne soit pas de l'auto-défense, depuis que tu es à la surface ?~
+@219 = ~Dis-moi, drow, as-tu tué qui que ce soit dans une situation qui ne soit pas de la légitime défense, depuis que tu es à la surface ?~
 @220 = ~Je ne l'ai pas fait, mais je pense que je suis très proche de le faire maintenant, elg'caress.~
 @221 = ~Cependant, même toi tu peux voir la délicieuse ironie dans le fait que la mort de ce jaluk débile à la poursuite d'un trophée drow a fait de moi une meurtrière aux yeux de *votre* loi. Et dans ce meurtre, j'ai été aidée et soutenue par <CHARNAME> et...~
 @222 = ~Comment oses-tu ! Si je découvre jamais que <CHARNAME> a eu tort de t'accueillir, drow, rien ne m'empêchera d'avoir ta tête.~
 @223 = ~Vraiment ? Comme c'est amusant. *siffle* Essaie de me couper la tête, elg'caress, et je jure que la tienne sera la première à rouler dans la poussière.~
 
-@224 = ~Viconia, je suis... curieuse. Tu dis que tu as rejeté Lloth, mais pourquoi vénérer Shar, une déesse humaine, plutôt qu'une autre divinité drow... Comme Vhaeraun ou Vendargolth ?~
+@224 = ~Viconia, je suis... curieuse. Tu dis que tu as rejeté Lolth, mais pourquoi vénérer Shar, une déesse humaine, plutôt qu'une autre divinité drow... Comme Vhaeraun ou Vendargolth ?~
 @225 = ~*siffle* Vhaeraun ? Vendargolth ? Ton ignorance de notre politique et de notre culture est manifeste.~
 @226 = ~Comment ça ?~
 @227 = ~Je suis forcée d'admettre que j'adhère à certains de leurs idéaux, ils sont alliés à Shar, mais je ne m'inclinerai pas devant un mâle inférieur ! Leurs croyants prêchent qu'un mâle peut s'élever aussi haut qu'une femme ! Aucun vrai drow ne tolérerait une telle bêtise. Je suis Viconia de la Maison DeVir, pas un *mâle* renégat iblith !~
-@228 = ~Qu'en est-il d'Eliastrée, alors ?~
+@228 = ~Qu'en est-il d'Eilistraée, alors ?~
 @229 = ~Je crache sur son nom. Cette... cette déesse ridicule et impuissante !~
 
 @230 = ~Viens ici, Viconia. Vite, maintenant !~
@@ -295,17 +295,17 @@
 @232 = ~Ne m'agresse *pas*. Laisse-moi te montrer comment te rendre plus utile, drow.~
 @233 = ~J'ai simplement l'intention de t'enseigner quelques connaissances pratiques sur notre environnement. Ce n'est pas comme si tu disposais de cela en quantité abondante. Cette plante, ici, est plutôt commune dans nos régions. Elle a de nombreuses propriétés curatives, dont l'une des plus importantes est...~
 @234 = ~Je... ne m'habituerai jamais à ce monde en surface. Je ne flânerai jamais, heureuse, au milieu de toute cette verdure...~
-@235 = ~Ainsi soit-il, drow. Si tu ne veux pas de mes conseils, je n'ai pas à me soucier de te les donner. Je ne vois pas pourquoi <CHARNAME> voudrait garder auprès de lui une guérisseuse qui n'est pas consciente de son environnement, s'il venait à l'apprendre.~
+@235 = ~Ainsi soit-il, drow. Si tu ne veux pas de mes conseils, je n'ai pas à me soucier de te les donner. Je ne vois pas pourquoi <CHARNAME> voudrait garder une guérisseuse qui n'est pas consciente de son environnement, si la chose venait à se savoir.~
 @236 = ~Pfff ! Je...~
 @237 = ~J'ai changé d'avis. Parle-moi de ton art, druidesse, et j'écouterai.~
 @238 = ~Tu as de la chance de me trouver dans de bonnes dispositions. Comme je le disais... elle a de nombreuses propriétés curatives, dont l'une des plus importantes est de purger le corps de poisons variés...~
 
 //Banter avec Xan
 @239 = ~Est-ce que la forêt te remonte quelque peu le moral, Xan ? Peu importe à quel point je me sens mal, le simple fait d'être parmi les arbres m'aide à me sentir mieux. Pour une raison étrange, être entourée d'érables améliore particulièrement mon humeur.~
-@240 = ~La forêt ne me réjouit pas comme elle le fait pour vous, druidesse. Sa beauté est l'une des rares choses qui m'ébahit en ce monde, elle sera encore debout quand seront oubliés les récits des échecs de notre groupe. Les arbres me font me sentir insignifiant. Ils en cachent trop : trop de dangers, trop de secrets. Les bois m'enchantent jusqu'à ce que nous tombions sur une nouvelle créature, impatiente de nous déchirer la gorge. C'est alors, et avec le souvenir d'autres épisodes, que je réalise que je suis mal à l'aise dans ces bois.~
+@240 = ~La forêt ne me réjouit pas comme elle le fait pour vous, druidesse. Sa beauté est l'une des rares choses qui m'ébahit en ce monde, elle sera encore debout quand seront oubliés les récits des échecs de notre groupe. Les arbres me font me sentir insignifiant. Ils en cachent trop : trop de dangers, trop de secrets. Les bois m'enchantent jusqu'à ce que nous tombions sur une nouvelle créature, impatiente de nous déchirer la gorge. C'est alors, et avec le souvenir d'autres épisodes, que je me rends compte que je suis mal à l'aise dans ces bois.~
 @241 = ~Mais tu es un elfe ! C'est très peu naturel pour toi de ne pas aimer la forêt.~
 @242 = ~*soupire* Et je suis sûr que votre "parent humain" serait d'accord avec cela...~
-@243 = ~Sois très prudent, Xan ! Le fait que je suis écartelée entre deux mondes ne veut pas dire que j'en ai abandonné l'un des deux.~
+@243 = ~Sois très prudent, Xan ! Le fait que je sois écartelée entre deux mondes ne veut pas dire que j'en ai abandonné l'un des deux.~
 @244 = ~Mes excuses, mais j'essaie juste de démontrer quelque chose.~
 @245 = ~Est-ce que tous les petits-hommes aiment vivre dans un terrier, manger cinq bons repas par jour et fumer la pipe le soir ? Est-ce que tous les nains aiment trimer dans de profondes cavernes, creuser pour trouver de l'or en chantant "hei ho hei ho" seize heures par jour ?~
 @246 = ~Regardez les compagnons autour de nous. Montaron, le frimeur vénérant son couteau, ne trouverait aucun refuge auprès de son semblable du terrier. Oserais-je dire qu'il tuerait celui qui s'y trouve bien, ou le voudrait, à tout le moins ?~
@@ -319,9 +319,9 @@
 @254 = ~Xan, je crois qu'avec toi dans l'équipe, nous n'aurons pas besoin du moindre enchantement. Nous allons juste t'envoyer chez nos ennemis pour que tu leur *remontes* le moral, et la victoire sera nôtre !~
 
 //Banter avec Xzar
-@255 = ~Qu'est-ce qui ne va pas, mage ? Tu as l'air vraiment sérieux ce matin, et je dois dire, je crains ta santé mentale plus que ta folie.~
+@255 = ~Qu'est-ce qui ne va pas, mage ? Tu as l'air vraiment sérieux ce matin, et je dois dire, ta lucidité me fait plus peur que ta folie.~
 @256 = ~Je viens d'avoir une vision douloureusement claire de la plus horrible vérité, dans un rêve, la nuit dernière. Nous sommes tous de simples pions dans le jeu diabolique d'entités brutales !~
-@257 = ~*renifle* Et donc, quoi ne neuf sous le soleil de Féérune ?~
+@257 = ~*renifle* Et donc, quoi de neuf sous le soleil de Féérune ?~
 @258 = ~Vous ne comprenez pas, femme ! Je ne parle pas des Dieux. Nous, nos Dieux et même les sucettes à la menthe de nos Dieux, ne sommes pas réels ! Nous sommes tous des personnages dans LEURS imaginations viles, créés pour parler, nous comporter et agir pour LEUR plaisir.~
 @259 = ~Hum... et alors ? Peut-être qu'ils sont eux-mêmes juste des personnages dans un jeu plus vaste, et ainsi de suite ?~
 @260 = ~Ah, pas d'inquiétude, alors. Le maître de la mort les aura tous, dans ce cas, à la fin. Je dois dire, cela dit, que j'aurais aimé recevoir un rôle plus important de la part de quiconque-ce-n'était-pas-vraiment, et j'aurais aimé que le *vôtre* soit un rôle muet.~
@@ -329,17 +329,17 @@
 
 //Banter Avec Yeslick
 @262 = ~Aimes-tu la combinaison entre les arts de la guerre et ceux de la médecine, Yeslick ?~
-@263 = ~Aha ! Tu veux parler chiffons, c'est ça, m'dame Jaheira ? Ils fonctionnent à merveille ensemble... comme certains de mes congénères diraient, c'est comme de s'coucher dans une chambre sombre veinée d'or. C'est mieux de pas s'coucher seul, ils ajouteraient... et s'ils étaient un bon demi siècle plus jeunes, p't'être. Ouais.~
+@263 = ~Aha ! Tu veux parler boutique, c'est ça, m'dame Jaheira ? Ils fonctionnent à merveille ensemble... comme certains de mes congénères diraient, c'est comme de s'coucher dans une chambre sombre veinée d'or. C'est mieux de pas s'coucher seul, ils ajouteraient... et s'ils étaient un bon demi-siècle plus jeunes, p't'être. Ouais.~
 @264 = ~Ou comme diraient certains d'entre nous : comme une promenade au parc.~
 @265 = ~Hein ? Qui a besoin d'se coucher dans un... ?~
 @266 = ~Non, non, non... Un parc dans une ville, comme ça on profite à la fois de la ville et de la forêt. *soupire* Certaines plaisanteries ne devraient pas être expliquées. J'ai peur de n'être pas douée pour répéter les blagues des autres.~
 @267 = ~Oh... d'accord... euh, pour en r'venir à mes pensées... je peux craquer des crânes *et* me soigner ensuite. C'est une bonne chose, juste là ! Mais... Je pense que j's'rais utile à personne si j'étais juste un craqueur d'crânes ou un soigneur d'muscles. *soupire* J'suis l'meilleur ni dans l'un ni dans l'autre.~
-@268 = ~Il n'y a pas de honte à avoir, Yeslick. L'union de nos disciplines résulte dans une force plus grande que la somme des parties individuelles. Par exemple, je suis heureuse d'être, contrairement à la plupart des serviteurs de la nature, entraînée à porter une armure de plates. Que soient maudites les peaux de la nature quand tu es sur le point d'être embroché par une épée !~
+@268 = ~Il n'y a pas de honte à avoir, Yeslick. L'union de nos disciplines produit une force plus grande que la somme des parties individuelles. Par exemple, je suis heureuse d'être, contrairement à la plupart des serviteurs de la nature, entraînée à porter une armure de plates. Que soient maudites les peaux de la nature quand tu es sur le point d'être embroché par une épée !~
 @269 = ~Heh ! *Voilà* quelque chose que je prends pour acquis. Là où j'ai grandi, y'avait pas moyen d'bouger à cause de toutes ces mailles et ces plates partout... Personnellement, j'demanderais plutôt à Clangeddin quéqu'chose pour briser plus de trognes, mais bon, je suppose que j'ai plus de pierre et de fer dans l'sang que toi.~
 @270 = ~*soupire* Parfois je souhaiterais avoir accès à certains des sorts dont disposent les clercs... pour être encore plus utile à mon mari et à <CHARNAME>, bien sûr.~
 @271 = ~Allez, ne perds pas patience, jeune fille, à chacun les... euh... siens. J'ai vu des Druides de Bois-Manteau faire des choses incroyables que je ne pourrais jamais faire ! Invoquer des hordes de petites horreurs bourdonnantes et des nuages de petits salopards piquants et les envoyer sur quiconque devient méchant ! Euh, pas que j'voudrais faire ça. *tremble* Aaaack, les insectes.~
 @272 = ~Une capacité que j'aimerais apprendre est la manière de transformer la peau en quelque chose de semblable au métal. J'ai eu la chance de pouvoir rencontrer des druides vétérans dotés d'une telle affinité, et ils étaient redoutables au combat. Presque personne d'autre n'arrivait à leur hauteur lorsqu'il s'agissait de faire face à l'épée ou la magie. Notre utilisation des potions de soins diminuerait considérablement si nous pouvions bénéficier des mêmes protections. Pas que j'en utilise tant que ça, ceci dit...~
-@273 = ~J'peux imaginer Khalid trop heureux si tu te donnais l'apparence d'une statue qui marche... Mais j'ai entendu que certains druides ont trouvé un remède pour ça aussi, qui les transforme en beauté attirant *tous* les regards.~
+@273 = ~J'vois pas Khalid trop heureux si tu te donnais l'apparence d'une statue qui marche... Mais j'ai entendu que certains druides ont trouvé un remède pour ça aussi, qui les transforme en beauté attirant *tous* les regards.~
 @274 = ~Une t-tâche aisée pour ma femme, maître nain.~
 @275 = ~Oui, mais j'parie qu'elle serait pas mal avec une barbe.~
 @276 = ~Une *barbe* ?!?~
@@ -347,5 +347,5 @@
 
 //Encore quelques répliques si Ajantis est en romance (renvoie au dialogue qu'ils ont en début de fichier) ou si Khalid est mort.
 @278 = ~Vous devez avoir mal entendu, ma dame Jaheira. <CHARNAME> et moi sommes liés par un lien plus fort que tout autre !~
-@279 = ~Et ma dame elle-même prendra la chose avec le sourire si <CHARNAME> estimait qu'il serait mieux pour le groupe qu'elle soit remplacée, je suppose ?~
+@279 = ~Et ma dame elle-même prendrait la chose avec le sourire si <CHARNAME> estimait qu'il serait mieux pour le groupe qu'elle soit remplacée, je suppose ?~
 @280 = ~Mais <PRO_HESHE> ne ferait pas cela ! Je... *soupire*~

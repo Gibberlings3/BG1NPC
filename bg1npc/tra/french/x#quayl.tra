@@ -1,11 +1,11 @@
 // Rencontre //
 
-@0    = ~Bon, je parie que tu remercies Dame la chance de m'avoir rencontré. Franchement, j'ai certainement augmenté la capacité intellectuelle de ce groupe d'un facteur cent, sans parler de son allure.~
+@0    = ~Bon, je parie que tu remercies Dame Chance de m'avoir rencontré. Franchement, j'ai certainement augmenté la capacité intellectuelle de ce groupe d'un facteur cent, sans parler de son allure.~
 @1    = ~Je n'ai pas le temps d'écouter tes discours, gnome.~
 @2    = ~Bien sûr, Quayle. Je me réjouis de t'avoir avec nous. Je ne sais vraiment pas ce que je ferais sans toi !~
-@3    = ~Tu as vraiment une haute opinion de toi-même. Comment arrives-tu à porter ce chapeau avec un tête aussi grosse ?~
+@3    = ~Tu as vraiment une haute opinion de toi-même. Comment arrives-tu à porter ce chapeau avec une tête aussi grosse ?~
 @4    = ~Oh, j'ai compris ! Tu t'es levé du pied gauche ce matin !~
-@5    = ~Eh bien, c'est toujours agréable d'être apprécié... Je suis heureux que tu aies assez de bon sens pour réaliser à quel point je suis quelqu'un d'important.~
+@5    = ~Eh bien, c'est toujours agréable d'être apprécié... Je suis heureux que tu aies assez de bon sens pour comprendre à quel point je suis quelqu'un d'important.~
 @6    = ~J'ironisais, en fait. Ne t'en es-tu pas rendu compte ?~
 @7    = ~Euh, j'ai une lotion spéciale.~
 @8    = ~En fait, je n'attendais pas vraiment de réponse. En tout cas pas celle-là.~
@@ -16,14 +16,14 @@
 
 // Quayle - Ajantis - Xan (17) //
 
-@12   = ~Dis, l'homme en fer blanc, ce n'est sûrement pas très futé de te pavaner toute la journée dans cette grosse armure métallique. Tu devrais en porter une plus esthétique, comme la mienne !~
+@12   = ~Dis, l'homme en fer-blanc, ce n'est sûrement pas très futé de te pavaner toute la journée dans cette grosse armure métallique. Tu devrais en porter une plus esthétique, comme la mienne !~
 @13   = ~J'ai l'impression que la mienne me donne une meilleure protection contre les coups d'épée ou les impacts de flèches, ami gnome.~
 @14   = ~N'importe quoi ! Raisonnement typique d'un primate, tu n'as rien compris.~
 @15   = ~Et pourquoi donc, je t'en prie ?~
 @16   = ~Eh bien, mon armure révèle immédiatement que je suis un meneur, alors que ton amalgame de fer et d'acier montre que tu n'es qu'un soldat. Et tout le monde sait que les simples gardes comme toi se font rapidement tuer, alors que les chefs de groupe, mieux équipés, survivent le plus longtemps.~
-@17   = ~A ce rythme, nous allons tous périr prochainement Quayle, armure ou pas.~
+@17   = ~À ce rythme, nous allons tous périr prochainement, Quayle, armure ou pas.~
 @18   = ~Tu es une étrange personne, Quayle.~
-@19   = ~Nous verrons, homme en fer blanc. Ou plutôt, JE verrai.~
+@19   = ~Nous verrons, homme en fer-blanc. Ou plutôt, JE verrai.~
 
 
 // Quayle - Alora - Garrick (29) //
@@ -34,9 +34,9 @@
 @23   = ~Qu'as-tu perdu exactement ?~
 @24   = ~Je ne l'ai pas perdu, c'est juste qu'il est temporairement introuvable ! C'est un, euh, puissant outil de magicien. Ouais. Tu ne pourrais pas comprendre.~
 @25   = ~Est-ce que par hasard ce ne serait pas cette tondeuse de poils de nez très usagée ?~
-@26   = ~Hé, voleuse ! Donne-la moi ! ~
+@26   = ~Hé, voleuse ! Donne-la-moi ! ~
 @27   = ~*rit* C'est donc ça !~
-@28   = ~Ce n'est pas une tondeuse, c'est une illusion astucieuse. c'est en fait un, euh, un ancien artefact d'Halruaa.~
+@28   = ~Ce n'est pas une tondeuse, c'est une illusion astucieuse. C'est en fait un, euh, un ancien artefact d'Halruaa.~
 @29   = ~Waou ! Vraiment ?~
 @30   = ~Oui, bien sûr !~
 @31   = ~C'est pour ça que je t'ai vu l'utiliser pour raser tes poils de nez hier soir ?~
@@ -59,8 +59,8 @@
 @40   = ~Sais-tu ce qui me fascine le plus à ton sujet ?~
 @41   = ~Non... Quoi ?~
 @42   = ~Eh bien, c'est la manière dont tu révères si loyalement un dieu dont le but fondamental dans la vie est d'éclater des organes internes.~
-@43   = ~Ton empressement à fermer les yeux et faire l'aveugle en dépit du bon sens ou des conséquences personnelles est vraiment tout-à-fait remarquable, d'une manière admirable mais malheureusement suicidaire.~
-@44   = ~Je suis à peu près certaine d'avoir compris la plus grande partie de ce que tu viens de dire. Cependant, même en ignorant tes paroles, le ton de ta voix est suffisamment clair. Va-t-en japper ailleurs, petit chien. Cela ne m'intéresse pas de servir de tabouret à ton arrogance.~
+@43   = ~Ton empressement à fermer les yeux et faire l'aveugle en dépit du bon sens ou des conséquences personnelles est vraiment tout à fait remarquable, d'une manière admirable mais malheureusement suicidaire.~
+@44   = ~Je suis à peu près certaine d'avoir compris la plus grande partie de ce que tu viens de dire. Cependant, même en ignorant tes paroles, le ton de ta voix est suffisamment clair. Va-t'en japper ailleurs, petit chien. Cela ne m'intéresse pas de servir de tabouret à ton arrogance.~
 @45   = ~Ah, Branwen. Tu as vraiment des métaphores assez originales.~
 @46   = ~Meta-quoi ?~
 @47   = ~*soupir* Laisse tomber...~
@@ -88,7 +88,7 @@
 @61   = ~Dynahéir, il me vient à l'esprit que si je devais me choisir un garde du corps pour un voyage long et potentiellement dangereux, je le choisirais un peu plus futé que ce vieux Minsc.~
 @62   = ~Tu juges Minsc de manière peu équitable, Quayle.~
 @63   = ~Honnêtement, je ne pense pas. Je veux dire, il faut bien admettre qu'il est un peu excentrique.~
-@64   = ~Il a prouvé de nombreuses fois qu'il est un serviteur loyal et efficace, malgré Ses légères déficiences mentales.~
+@64   = ~Il a prouvé de nombreuses fois qu'il est un serviteur loyal et efficace, malgré ses légères déficiences mentales.~
 @65   = ~Je veux dire, il trimbale un hamster, cela en dit long sur lui, non ? On dirait un personnage sorti des romans que j'avais à lire quand j'étais à l'école. 'Des hamsters et des hommes.'~
 @66   = ~J'ai bien peur de devoir être d'accord avec Toi à ce sujet.~
 
@@ -110,7 +110,7 @@
 
 @76   = ~Je voulais te dire, grand monsieur, à quel point il est plaisant de rencontrer quelqu'un qui est (presque) mon égal, intellectuellement parlant. Ou du même calibre, tout du moins.~
 @77   = ~On peut dire que le sommet de ta colline est un peu plus proche de mon aigle qu'une vallée, mais cela n'a aucun effet sur le vol du rapace.~
-@78   = ~La métaphore est intéressante. Savais-tu que selon la dernière étude de Barnephas, un aigle ingère soixante-trois pour-cent de ses calories à partir de charognes, plutôt que de ses propres proies ?~
+@78   = ~La métaphore est intéressante. Savais-tu que selon la dernière étude de Barnephas, un aigle ingère soixante-trois pour cent de ses calories à partir de charognes, plutôt que de ses propres proies ?~
 @79   = ~Et en quoi exactement cela concerne-t-il l'aigle de ma métaphore ?~
 @80   = ~Toutes les métaphores se basent sur des faits, et donc pour quelqu'un au savoir aussi étendu que le mien, elles procurent involontairement beaucoup d'amusement.~
 @81   = ~Je me demande à quel point cela t'amuserait si je te montrais l'étendue de mon savoir... sur la transformation du porc en saucisses.~
@@ -150,7 +150,7 @@
 // Quayle - Garrick - Edwin (110) //
 
 @105  = ~On dit que le silence est d'or, Garrick. Alors peut-être pourrais-tu arrêter un peu de fredonner ? J'essaie de maîtriser un nouveau sort incroyablement puissant.~
-@106  = ~C'est amusant que vous dites que le silence est d'or, alors qu'il me semble que votre, euh, voix est à la fois la plus forte et celle qu'on entend le plus souvent dans le groupe.~
+@106  = ~C'est amusant que vous disiez que le silence est d'or, alors qu'il me semble que votre, euh, voix est à la fois la plus forte et celle qu'on entend le plus souvent dans le groupe.~
 @107  = ~Nous, les gens intelligents, avons le droit d'utiliser nos voix autant que nous le souhaitons.~
 @108  = ~Et qu'est-ce qui vous fait penser que je ne suis pas intelligent ?~
 @109  = ~Allez, mon garçon ! Tu es bien aimable, mais regarde la taille de ton nez ! Il est minuscule ! Tout le monde connaît le lien entre les capacités nasale et crânienne.~
@@ -167,7 +167,7 @@
 @116  = ~Ouaip. Pour sûr !~
 @117  = ~Qu'est-ce qui t'a pris de faire ça ?~
 @118  = ~Oh, tu vois, l'esprit d'aventure et tout ça. De plus, je dois m'assurer que <CHARNAME> évite les ennuis.~
-@119  = ~Tu sais, la témérité peut sembler alléchante quand on est jeune mais laisse-moi te dire une chose : ce n'est pas un bon trait de caractère si on a l'intention de survivre longtemps dans ce bas-monde.~
+@119  = ~Tu sais, la témérité peut sembler alléchante quand on est jeune mais laisse-moi te dire une chose : ce n'est pas un bon trait de caractère si on a l'intention de survivre longtemps dans ce bas monde.~
 @120  = ~Bon, tu es aussi un aventurier. Comment ça se fait ?~
 @121  = ~Comme je l'explique très souvent, mon devoir est de diffuser mes lumières aux créatures inférieures comme vous, même si cela implique souvent que je me mette en danger.~
 @122  = ~Oh oh.~
@@ -196,7 +196,7 @@
 @141  = ~Eh bien, pourquoi rejoindre une société secrète alors ? Il n'y a aucune raison de le faire, à moins que cette société n'ait un chouette salut spécial.~
 @142  = ~Je crois que tu n'as pas compris le but des Ménestrels.~
 @143  = ~Je crois que TU n'as pas compris le but d'une société secrète.~
-@144  = ~A vrai d-d-dire...~
+@144  = ~À vrai d-d-dire...~
 @145  = ~Je veux dire, aucun de vous deux ne sait jouer de la musique. Alors, 'les Ménestrels', cela ne rime à rien !~
 @146  = ~Cela servirait-il à quelque chose que je te l'explique ?~
 @147  = ~Je n'ai pas besoin d'explications. Toi et ton mari devriez juste vous asseoir et m'écouter. Notez une liste de conseils à faire passer à Elminster la prochaine fois que vous le verrez.~
@@ -215,10 +215,10 @@
 @156  = ~Ouais Quayle, ce salopard d'escroc est un triste exemple de nain.~
 @157  = ~Surveille ta langue...~
 @158  = ~Je veux dire, je comprends bien que tu es un nain, et que par conséquent tu as un handicap naturel au niveau intellectuel.~
-@159  = ~Non, CA, c'est injuste...~
+@159  = ~Non, ÇA, c'est injuste...~
 @160  = ~Je ne vais pas supporter...~
 @161  = ~Donc je te suggère ceci : je prendrai en charge la lourde tâche de la complexe gestion économique en échange d'honoraires minimes, et je te laisserai faire ce pour quoi tu es le meilleur : tuer des trucs.~
-@162  = ~Je suis tout-à-fait capable de faire tourner ma propre affaire, Quayle !~
+@162  = ~Je suis tout à fait capable de faire tourner ma propre affaire, Quayle !~
 @163  = ~Certes, tu n'as pas encore pris de décision particulièrement stupide dans tes affaires. Mais ce n'est qu'une question de temps ! Un cerveau de nain n'est tout simplement pas capable de s'en sortir face aux subtilités du monde de la finance moderne !~
 @164  = ~Si j'étais toi, je fermerais vite ma gueule.~
 @165  = ~Kagain, j'essaie de te rendre service ! Ton minuscule petit cerveau n'est-il même pas capable de comprendre les vérités les plus évidentes ?~
@@ -237,7 +237,7 @@
 @174  = ~Et puis je me souviens que tu ne serais pas capable *d'énoncer* le moindre sort sans qu'il échoue lamentablement.~
 @175  = ~Ce n'est pas très charitable de votre part, Q-Q-Quayle.~
 @176  = ~Eh bien tu sais que nous, les intellectuels, avons le devoir de dire la vérité aux créatures inférieures.~
-@177  = ~Vu de mes yeux, v-v-vous avez l'air bien plus bas que moi.~
+@177  = ~De là où je suis, v-v-vous avez l'air bien plus bas que moi.~
 @178  = ~Bien parlé, mon chéri.~
 @179  = ~Hé ! On dirait que vous, les primitifs, ne savez rien dire d'autre que ce genre de remarques.~
 
@@ -279,7 +279,7 @@
 @204  = ~Hé, Monty. C'est quoi son problème à ton ami un peu dérangé ?~
 @205  = ~Xzar ? C'est pas mon ami, le fait qu'on voyage ensemble n'est qu'une conséquence malheureuse de nos missions.~
 @206  = ~Donc ça ne te dérange pas que je sois obligé de lui montrer ma supériorité devant tout le monde ?~
-@207  = ~Non, Quayle, j'aime bien voir ce demeuré se faire remettre à se place.~
+@207  = ~Non, Quayle, j'aime bien voir ce demeuré se faire remettre à sa place.~
 @208  = ~Bien, les choses sont claires.~
 @209  = ~Ouais. Et un jour je le verrai être mis dans sa dernière demeure...~
 
@@ -293,7 +293,7 @@
 @214  = ~Eh bien non, je ne crois pas que tu l'aies déjà mentionné. Il s'agit d'un signe de capacité mentale supérieure, et bien sûr de virilité.~
 @215  = ~Hummm, tu as l'air si confiant en toi quand tu dis cela. J'aime les hommes confiants en eux.~
 @216  = ~Avec mon immense talent, comment pourrais-je ne pas avoir confiance en moi ?~
-@217  = ~Certainement. Dis-moi, pourrais-tu me chercher ma pince à cheveux ? Je crois que je l'ai faite tomber quelque part par là.~
+@217  = ~Certainement. Dis-moi, pourrais-tu me chercher ma pince à cheveux ? Je crois que je l'ai fait tomber quelque part par là.~
 @218  = ~Oui, bien sûr... Hé, attends une minute ! Je viens juste de te dire que je ne me ferais pas berner par tes ruses !~
 @219  = ~Comme je te l'ai dit il y a un petit moment, Quayle, je ne sais absolument pas de quoi tu parles.~
 
@@ -305,13 +305,13 @@
 @222  = ~Oh, je le sais bien.~
 @223  = ~Alors pourquoi est-ce que tu continues à m'importuner ?~
 @224  = ~J'essaie juste de te faire perdre tes illusions, ma chère. J'allais dire que, puisque je suis à l'évidence nettement supérieur aux autres membres du groupe et que je suis un mâle, si nous considérons que notre petit groupe d'aventuriers est un échantillon représentatif de la population, il en résulte qu'en fait les hommes sont supérieurs aux femmes. Oh oui.~
-@225  = ~Bah ! Et tu dis que c'est moi qui me fait des illusions...~
+@225  = ~Bah ! Et tu dis que c'est moi qui me fais des illusions...~
 @226  = ~Le moment venu tu verras que j'avais raison, comme toujours. Ah oui, tu verras !~
 
 
 // Quayle - Skie - Eldoth (229-236-239) //
 
-@227  = ~Tu sais Skie, je dois reconnaître quelque chose. Cette idée de faux-enlèvement était un coup de génie. Dis-moi, qui a eu cette idée ?~
+@227  = ~Tu sais Skie, je dois reconnaître quelque chose. Cette idée de faux enlèvement était un coup de génie. Dis-moi, qui a eu cette idée ?~
 @228  = ~Mais Eldoth et moi-même, monsieur !~
 @229  = ~Eh bien c'était surtout mon idée, mais oui.~
 @230  = ~Et personne d'autre ?~
@@ -322,11 +322,11 @@
 @235  = ~Oui, c'est cela. Mais je ne vois pas trop pourquoi vous posez la question, Quayle...~
 @236  = ~Je crois que je vois où il veut en venir.~
 @237  = ~Je trouve simplement fascinant que des membres de races inférieures aient pu concevoir un plan si sophistiqué. Oh, sans vouloir vous vexer, bien sûr.~
-@238  = ~ce n'est pas le cas... enfin, je suppose !~
+@238  = ~Dans ce cas, je ne le suis pas... enfin, je suppose !~
 @239  = ~Parle pour toi, Skie. Moi, je me sens offensé par les insultes continuelles de ce gnome.~
 @240  = ~Cependant, je pense que c'était peut-être un simple coup de chance.~
 @241  = ~Je ne crois pas que nous, les humains, soyons tous aussi stupides que vous le pensez, monsieur.~
-@242  = ~En général vous l'êtes. fais-moi confiance à ce sujet, Skie. Au passage, inutile de m'appeler "monsieur", bien que je vous sois supérieur, je prends place dans ce groupe comme votre humble égal.~
+@242  = ~Fais-moi confiance à ce sujet, Skie : en général, vous l'êtes. Au passage, inutile de m'appeler "monsieur", bien que je vous sois supérieur, je prends place dans ce groupe comme votre humble égal.~
 @243  = ~Oh, alors d'accord.~
 @244  = ~Évidemment, je devrais en être le chef. Mais pour le moment, cet oubli ne me dérange pas...~
 
@@ -345,10 +345,10 @@
 // Quayle - Tiax //
 
 @252  = ~Tiax, si ton cerveau est aussi petit que ton minuscule nez, alors pas la peine de se demander pourquoi ce groupe a besoin de moi. Tout le monde devient plus stupide à ton contact !~
-@253  = ~Tu oses faire affront au grandiose et majestueux nez de Tiax ? Allons, les narines elles seules feraient pleurer Baervan lui-même ! Et regarde cette courbe !~
-@254  = ~J'ose. Et j'ai presque envie de pleurer. comment les dieux des gnomes ont-ils pu maudire si effroyablement cet empoté ?~
+@253  = ~Tu oses faire affront au grandiose et majestueux nez de Tiax ? Allons, les narines à elles seules feraient pleurer Baervan lui-même ! Et regarde cette courbe !~
+@254  = ~J'ose. Et j'ai presque envie de pleurer. Comment les dieux des gnomes ont-ils pu maudire si effroyablement cet empoté ?~
 @255  = ~Le nez de Tiax est le plus grandiose au monde, d'une longueur sans précédent, d'une taille et d'une ampleur énormes ! Oh oui ! Oh oui ! Oh oui ! Et quand Tiax règnera, tu seras flagellé pour en avoir douté ! Oh oui !~
-@256  = ~*baille* Ouais, j'ai déjà entendu ça. Pourquoi ne prends-tu pas ton tout petit nez et ne vas-tu pas embêter quelqu'un d'autre ?~
+@256  = ~*bâille* Ouais, j'ai déjà entendu ça. Pourquoi ne prends-tu pas ton tout petit nez et ne vas-tu pas embêter quelqu'un d'autre ?~
 @257  = ~Accckk ! Tiax te DETESTE, il te DETESTE ! Tes jours sont comptés, petit malin !~
 
 
@@ -356,9 +356,9 @@
 
 @258  = ~Tiax, tu es un symbole des dangers de la consanguinité.~
 @259  = ~Ainsi le petit malin s'est remis à discuter ? Quand Tiax lui en a-t-il donné l'autorisation !?~
-@260  = ~Je n'ai pas besoin de la permission d'un troglodyte à l'esprit lent et avec tout juste assez de neurones pour éviter de s'extasier sur lui-même.~
+@260  = ~Je n'ai pas besoin de la permission d'un troglodyte à l'esprit lent et avec tout juste assez de neurones pour éviter de baver sur lui-même.~
 @261  = ~Je te dirai ce dont j'ai envie, car le fait de te piquer au vif avec mes brillants traits d'esprit met en lumière la puissance stupéfiante de mon propre cerveau face à ceux des idiots et des simples d'esprit.~
-@262  = ~Tiax est fatigué de t'entendre aboyer ! Le petit malin croit qu'il sait beaucoup de choses, mais il ne comprend toujours pas que TIAX EST DESTINE A REGNER ! C'est tout ce que le petit malin doit savoir et pourtant cela lui échappe, encore et toujours !~
+@262  = ~Tiax est fatigué de t'entendre aboyer ! Le petit malin croit qu'il sait beaucoup de choses, mais il ne comprend toujours pas que TIAX EST DESTINE À REGNER ! C'est tout ce que le petit malin doit savoir et pourtant cela lui échappe, encore et toujours !~
 @263  = ~Quand Tiax règnera, le petit malin criera au monde entier qu'il se repent et implorera le pardon de son nouveau maître !~
 @264  = ~Là, tout de suite, je préfèrerais t'implorer de te taire. Ta voix me tape sur les nerfs.~
 @265  = ~Tiax ne peut plus supporter cela ! Si le petit malin met de nouveau Tiax en colère, ce sera la DERNIERE FOIS !~
@@ -366,7 +366,7 @@
 
 // Quayle - Viconia //
 
-@266  = ~Hé Viconia, Je suis surpris que les elfes noirs aient acquis une telle emprise sur les Tréfonds Obscurs.~
+@266  = ~Hé Viconia, je suis surpris que les elfes noirs aient acquis une telle emprise sur les Tréfonds Obscurs.~
 @267  = ~Et pourquoi donc, rivvin ?~
 @268  = ~Eh bien je sais qu'il y a des gnomes Svirfneblins dans les Tréfonds Obscurs. Si tu es une elfe noire typique et moi un gnome (même s'il faut admettre que je suis un gnome extrêmement talentueux), je ne vois pas pourquoi nous les gnomes n'avons pas encore obtenu la domination totale des Tréfonds Obscurs. Allons, cela doit certainement être dans nos cordes.~
 @269  = ~Tu oses suggérer que tes pathétiques cousins sont plus puissants que les splendides drows, iblith ?~
@@ -387,7 +387,7 @@
 
 @277  = ~Hé, le barjot ! Quoi de neuf ?~
 @278  = ~L'espoir. On m'a dit qu'il renaît toujours. Billevesées, de toute façon.~
-@279  = ~Tu es tellement déséquilibré que cela me surprend que tu sois quand même capable de lancer des sorts. Regarde moi, de quel bois je suis fait. Remarque, vous les humains êtes si primitifs.~
+@279  = ~Tu es tellement déséquilibré que cela me surprend que tu sois quand même capable de lancer des sorts. Regarde-moi, de quel bois je suis fait. Remarque, vous les humains êtes si primitifs.~
 @280  = ~Bois ? Arbres ? Je ne vois rien de tout ça avec cette fichue forêt tout autour de nous. Et les humains, bien que primitifs, ont l'avantage de progresser rapidement.~
 @281  = ~Je n'ai pas la moindre idée de ce dont tu peux bien parler, et pourtant je suis un génie.~
 @282  = ~Leur durée de vie naturelle permet aux humains de former des zombis, des goules et des... euh... condiments beaucoup plus rapidement que les autres espèces.~

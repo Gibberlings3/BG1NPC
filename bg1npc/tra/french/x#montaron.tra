@@ -3,12 +3,12 @@
 @1 = ~Hm, ça sent bon. Que cuisines-tu, Montaron ?~
 @2 = ~Je dois t'avouer que tu me surprends. Cuisiner n'est pas un talent que j'aurais naturellement associé à une personne de ton caractère.~
 @3 = ~Bien, excellent travail. Continue !~
-@4 = ~C'est un ragoût de "la-dernière-bestiole-qu'on-a-chopé", comme d'hab'.~
+@4 = ~C'est un ragoût de "la-dernière-bestiole-qu'on-a-chopée", comme d'hab'.~
 @5 = ~Je dois t'avouer que tu me surprends. Cuisiner n'est pas un talent que j'aurais naturellement associé à une personne de ton caractère.~
 @6 = ~J'aime la bouffe et je ne fais confiance à personne quand il s'agit de ma panse. C'est tout.~
 @7 = ~Ah, tu crains que l'un d'entre nous ne verse un petit quelque chose dans ton assiette ?~
 @8 = ~Hmmm. J'imagine que tu réserves à ta petite personne le droit exclusif de la distribution de belladone ?~
-@9 = ~Bah ! Comme si tu pouvais y connaître quelque-chose.~
+@9 = ~Bah ! Comme si tu pouvais y connaître quelque chose.~
 @10 = ~"L'un d'entre nous" devrait s'choper la même chose, alors, vu qu'y a qu'une seule marmite et chacun s'sert tout seul. En plus, j'prends note de c'que vous récoltez, tous. Y'a rien d'inquiétant là-d'dans.~
 @11 = ~Ainsi, tu t'y connais en poisons ?~
 @12 = ~Comme y'a qu'une marmite et on s'partage tout, j'en boufferais aussi, et ma panse aime pas ça. En plus, si j'avais un truc du style en tête, tu l'saurais bien avant le dîner.~
@@ -23,7 +23,7 @@
 @18 = ~Mais ce mage maudit *est* "par ici", et donc je suis contraint de prendre cette direction.~
 @19 = ~Tu vas nous être super utile, c'est sûr.~
 @20 = ~Je ne te tiendrai pas rigueur de ces paroles, vu l'état dans lequel je suis et l'endroit où vous venez de me trouver. Mais il s'agit de mon foyer. Tu pourras profiter de mon savoir-faire, au pire.~
-@21 = ~Et ton mage a eu combien de temps - des mois ? - pour placer des gardes et des pièges dont tu n'as foutre pas idée ?~
+@21 = ~Et ton mage a eu combien de temps - des mois ? - pour placer des gardes et des pièges dont t'as foutrement pas idée ?~
 @22 = ~C'est vrai. Mais j'ai également quelques connaissances en sorts de soin, grâce au pouvoir de Clangeddin. J'ose penser que je pourrai nous retaper tous les deux, après l'un ou l'autre incident, tu ne crois pas ?~
 @23 = ~D'acc. Ramène-toi, alors. Au pire, tu pourras t'prendre les coups qui m'étaient destinés.~
 /* Ajantis */
@@ -32,20 +32,20 @@
 @26 = ~Tu t'attends à c'que j'prenne ce blabla au sérieux ?~
 @27 = ~Non. J'aspire à être un tel flambeau mais, sans vanité, je ne puis déjà prétendre avoir accédé à un tel niveau.~
 @28 = ~Je vois. Donc, quand tu s'ras plus grand tu veux d'venir une bougie. M'suis toujours demandé c'qui pouvait motiver des types comme toi.~
-@29 = ~Au coeur des ténèbres que le Mal répand sur ce pays, une bougie n'est pas chose à négliger. Souviens t'en, halfelin.~
+@29 = ~Au coeur des ténèbres que le Mal répand sur ce pays, une bougie n'est pas chose à négliger. Souviens-t'en, halfelin.~
 @30 = ~Si j'devais m'souvenir d'la moitié des foutaises qu'on m'a racontées, ma tête s'rait si bourrée qu'j'en oublierais comment boucler mon armure.~
 /* Alora */
 @31 = ~Héhé, petit oisillon. T'as pas un nid à aller visiter quand vient le soir ?~
-@32 = ~Bien sur que si. Et même plusieurs, en fait.~
+@32 = ~Bien sûr que si. Et même plusieurs, en fait.~
 @33 = ~Moitié oiseau de nuit, moitié coucou, pas vrai ?~
 @34 = ~Je me suis toujours considérée davantage comme un chaton que comme une bête à plumes.~
 @35 = ~Alors, souviens-toi juste de c'qu'on dit sur c'que la curiosité fait aux chats.~
-@36 = ~Hé bien, puisque *tu* abordes le sujet, ça fait longtemps que tu voyages avec <CHARNAME> ?~
-@37 = ~Hé bien... ça commence à faire une paie. A bien y r'garder, <PRO_HESHE> est plutôt pas mal dans son genre.~
+@36 = ~Eh bien, puisque *tu* abordes le sujet, ça fait longtemps que tu voyages avec <CHARNAME> ?~
+@37 = ~Eh bien... ça commence à faire une paie. À bien y r'garder, <PRO_HESHE> est plutôt pas mal dans son genre.~
 @38 = ~Oh ! Dis-m'en plus ! Avez-vous traversé beaucoup d'épreuves ? De... dangers ?~
 @39 = ~Ouais, c'est not' vie. Du moins, pour certains d'entre nous.~
 @40 = ~Tu veux dire que certains ont été trop pauvres pour continuer ?~
-@41 = ~Tiens, prends donc ma serviette pour te nettoyer le derrière des oreilles, ma chatte. Je veux dire que les autres sont morts.~
+@41 = ~Tiens, prends donc ma serviette pour te nettoyer le derrière des oreilles, minette. Je veux dire que les autres sont morts.~
 @42 = ~Oh. Je... Je suis désolée.~
 /* Branwen */
 @43 = ~Hé, la grande. T'as un moment ?~
@@ -77,18 +77,18 @@
 @67 = ~Es-Tu en train de suggérer que je bafoue l'honneur et détourne le devoir d'un aussi noble esprit guerrier ?~
 @68 = ~Ouais. L'honneur et l'devoir sont pratiques d'temps en temps, mais quand ils cessent d'être utiles, les détourner en fonction d'tes besoins et estimer qu'c'est un bien pour un mal, v'là c'que tu d'vrais faire.~
 @69 = ~Puis son d'voir c'est d'*te* protéger les miches, pas vrai ? Les morts sont pas très utiles pour ça, quoi qu'en dise Xzar.~
-@70 = ~En dépit de son immoralité, Ton conseil pratique mérite pourtant considération. Et je Te remercie pour cette observation sur Notre compagnon.~
+@70 = ~Une fois dépouillé de son immoralité, Ton conseil pratique mérite pourtant considération. Et je Te remercie pour cette observation sur notre compagnon.~
 /* Edwin 1 */
-@71 = ~Tra-la-la-la, li-la-li-lala..~
-@72 = ~Tu n'es clairement pas barde. En cela, ta pathétique imitation de cet air magnifique, en ma présence, semble indiquer une critique de ma personne. Prends garde ! Je n'aime pas les moqueries.~
+@71 = ~Tra-la-la-la, li-la-li-lala...~
+@72 = ~Tu n'es clairement pas barde. Dès lors, ta pathétique imitation de cet air magnifique, en ma présence, semble indiquer une critique de ma personne. Prends garde ! Je n'aime pas les moqueries.~
 @73 = ~On s'énerve pour un bout d'chansonnette, alors ? Surtout qu'c'est pas comme si t'étais critique musical à tes heures perdues.~
-@74 = ~Tes lâches dissimulations ne peuvent me tromper, voleur. Eloigne-toi si tu ne veux pas que ma magie te réduise à tes composants de base.~
+@74 = ~Tes lâches dissimulations ne peuvent me tromper, voleur. Éloigne-toi si tu ne veux pas que ma magie te réduise à tes composants de base.~
 @75 = ~C'est qu'on a une bien grande gueule quand y'a que des alliés à proximité. J'aimerais bien t'voir aussi ferme contre des ennemis, à l'occase.~
 @76 = ~Toute retenue dont j'ai pu faire preuve ne résulte que de la prise en compte de *ta* sécurité, ta tendance naturelle semblant être de te placer derrière nos ennemis. Mais un tel intérêt étant manifestement déplacé, tu seras bientôt témoin, quoique fort brièvement, de la libre colère d'un grand magicien.~
 @77 = ~Lorsque ce "grand magicien" sera dans les parages, fais-moi signe et je tâcherai de m'éclipser à temps.~
 /* Edwin 2 */
 @78 = ~J'te concède ça, Thayen : faut en avoir pour se balader dans ta robe de fonction.~
-@79 = ~Evidemment. Dédaigner tout déguisement est symbolique de notre mépris pour les inférieurs.~
+@79 = ~Évidemment. Dédaigner tout déguisement est symbolique de notre mépris pour les inférieurs.~
 @80 = ~Et je suis à fond pour ça. Tu fais une superbe cible.~
 @81 = ~Hein ? Si tu penses...~
 @82 = ~J'pense pas, je sais. Tes jolies robes rouges attirent les flèches comme la bouse de vache attire les insectes... ce qui détourne l'attention du reste de notre troupe et donc, comme je te le disais, je suis à fond pour.~
@@ -98,9 +98,9 @@
 @85 = ~Alors, <CHARNAME> s'est offert un p'tit rossignol. Un qui veut *rentrer* dans une cage dorée, en plus.~
 @86 = ~La finesse de votre perception ne dissimule pas le mépris de vos paroles. Allons, nous devrions tous être amis ici. Qu'est-ce qui vous afflige ?~
 @87 = ~T'es pas le premier gars que j'rencontre qui aime faire les poches avec sa langue.~
-@88 = ~Je doute que vous soyez né suffisamment innocent pour être trompé par un simple bavardage. Pas plus, mon ami, et je parle sincèrement, ne semblez- vous du genre à arborer le refus farfelu d'accepter une pièce, même légèrement douteuse, lorsqu'elle est offerte de bon coeur.~
+@88 = ~Je doute que vous soyez né suffisamment innocent pour être trompé par un simple bavardage. Pas plus, mon ami, et je parle sincèrement, ne semblez-vous du genre à arborer le refus farfelu d'accepter une pièce, même légèrement douteuse, lorsqu'elle est offerte de bon coeur.~
 @89 = ~Nan, je suis pas d'ce genre-là. Mais ces autres compagnons dont j'causais, avaient aussi de jolis plans... sauf qu'ils marchaient jamais aussi bien qu'dans leurs discours...~
-@90 = ~Et ces beaux-parleurs n'avaient *jamais* l'bon goût de s'attarder sur place lorsque les choses tournaient vraiment au vinaigre.~
+@90 = ~Et ces beaux-parleurs n'avaient *jamais* l'bon goût de réparer les dégâts sur place lorsque les choses tournaient vraiment au vinaigre.~
 @91 = ~En vérité, cela sonne à mes oreilles comme une décision sensée. Pour chacun, sa propre peau vaut plus que tout l'or de Féérune.~
 @92 = ~Je suppose que c'est c'qu'ils pensaient. Ils prenaient l'or et leurs peaux et ils planquaient le tout. Mais au final, ils avaient tort, parce qu'ils perdaient l'un et l'autre quand j'dénichais leur cachette.~
 @93 = ~Alors j'éviterai de répéter leur erreur et demeurerai stoïquement à vos côtés. Quoi qu'il en soit, la probabilité qu'une telle chose survienne est très faible. Il ne s'agit en fait pas de *cette* sorte de travail.~
@@ -116,7 +116,7 @@
 @101 = ~Tu as *vraiment* l'air plus heureux qu'une huître dans un restaurant de fruits de mer.~
 @102 = ~Et pourquoi pas ? J'ai repris la route, après tout. Cette quête en vaut la peine et, je l'avoue, il est si doux d'avoir enfin écrit le mot “fin” au bas de mon contrat avec Silke.~
 @103 = ~Mmm-mmm. Je me pose quelques questions là-dessus. Tu avais l'air d'un petit soldat plein de bonne volonté pour elle, et pourtant tu n'as pas levé le petit doigt quand elle en aurait eu besoin.~
-@104 = ~Elle était vile, cruelle, capricieuse, égocentrique à outrance et indescriptiblement maléfique. En même temps, elle excellait à créer des compensations qui obscurcissaient le jugement et le sens commun.~
+@104 = ~Elle était vile, cruelle, capricieuse, égocentrique à outrance et indescriptiblement maléfique. En même temps, elle excellait à offrir des tentations qui obscurcissaient le jugement et le sens commun.~
 @105 = ~Y a plus qu'à espérer que tu nous lâches pas au milieu d'un combat, occupé qu'tu seras à méditer sur les premières impressions qu'nous t'avons faites.~
 @106 = ~Comment ? Mais vous... <CHARNAME> et vous n'avez rien en commun avec elle. Non ?~
 /* Imoen, dans la forêt */
@@ -124,13 +124,13 @@
 @108 = ~Montaron... qu'es-tu en train de faire à ces pauvres petites choses ?~
 @109 = ~Hé ! Si tu veux un bon ragout d'écureuils pour le dîner, t'as intérêt à les saigner comme il faut pour bien épaissir le bouillon.~
 @110 = ~Mais ils sont encore vivants !~
-@111 = ~*Evidemment* qu'ils sont encore vivants. S'ils crèvent, ils arrêteront de saigner, pas vrai ?~
+@111 = ~*Évidemment* qu'ils sont encore vivants. S'ils crèvent, ils arrêteront de saigner, pas vrai ?~
 @112 = ~Beurk ! Je ne pourrai pas manger une bouchée de ça !~
 @113 = ~Alors, ça en fera plus pour nous autres, gueule d'ange.~
 /* Jaheira, dans la forêt */
 @114 = ~Hé ! Qu'est-ce que ? Oh... foutu rongeur !~
 @115 = ~Les blaireaux ne sont pas des rongeurs.~
-@116 = ~Ah ouais ? Ils crèchent et vivent dans des trous. Ils d'vraient être des rongeurs... *celui-là* devrait en tout cas.~
+@116 = ~Ah ouais ? Ils sont trapus et vivent dans des trous. Ils d'vraient être des rongeurs... *celui-là* devrait en tout cas.~
 @117 = ~Si la Nature autorisait des exceptions individuelles fondées sur tes critères...~
 @118 = ~... je s'rais moi-même un rat, un putois ou un truc de ce genre, je sais. J'pourrais tout aussi bien t'épouser, vu qu'tu passes ton temps à m'insulter sans raison.~
 @119 = ~Lorsqu'on rencontre un agent du Zhentarim, on n'a besoin que d'une lame. Se contenter d'insultes est une marque de grande retenue.~
@@ -166,7 +166,7 @@
 @145 = ~Moi non plus. J'espérais juste que *toi*, si, vu qu'je commence à m'sentir sec.~
 @146 = ~J'ai bien observé les environs et j'ai remarqué un ruisseau d'eau fraîche et claire près d'ici. Je peux vous y mener.~
 @147 = ~Peuh ! J'ai dit qu'j'étais "sec", pas qu'j'avais soif.~
-@148 = ~Alors je ne puis que recommander que vous vous consoliez avec la pensée d'ô combien délicieuse votre bière vous semblera lorsque nous regagnerons des contrées plus peuplées.~
+@148 = ~Alors je ne puis que recommander que vous vous consoliez avec la pensée de combien votre bière vous semblera délicieuse lorsque nous regagnerons des contrées plus peuplées.~
 @149 = ~Ouais. *Si* nous les regagnons un jour.~
 /* Minsc */
 @150 = ~Arrrgh ! Surveille tes pattes, grande asperge !~
@@ -174,7 +174,7 @@
 @152 = ~Ouais et ben dis à ton hamster de s'activer ou au prochain diner il finira dans la gamelle.~
 @153 = ~Ah, ah... quoi ? Bouh me demande de te dire de ne pas répéter de telles choses. Il ne pense pas que tu plaisantais.~
 @154 = ~Je plaisantais *pas*. Je me doute que le tort revient à tes pieds, mais le hamster aura sûrement meilleur goût.~
-@155 = ~Sans aucun doute. Minsc a piétiné le Mal si souvent, que ses pieds sont plutôts puants et pas du tout appétissants.~
+@155 = ~Sans aucun doute. Minsc a piétiné le Mal si souvent, que ses pieds sont plutôt puants et pas du tout appétissants.~
 @156 = ~Aaark ! Vous n'avez plus rien à craindre de moi. J'ai complètement perdu l'appétit.~
 /* Quayle */
 @157 = ~Alors comme ça tu prétends qu'ta grosse tête te rend intelligent...~
@@ -186,27 +186,27 @@
 @163 = ~Tiens. Reprends ta fronde.~
 @164 = ~Ma fronde ? Que veux-tu dire ? Elle n'a pas dispa - oh, je vois. Euh, je savais que tu l'avais prise.~
 @165 = ~Peut-être bien que tu veux aussi récupérer ces billes ?~
-@166 = ~Eh bien, je m'apprêtais à te laisser les porter encore quelques temps, mais j'imagine que je vais les reprendre.~
+@166 = ~Eh bien, je m'apprêtais à te laisser les porter encore quelque temps, mais j'imagine que je vais les reprendre.~
 @167 = ~Eh bien il me semble que toi et moi, à nous deux, on s'rait plutôt bien équipés pour faire face à toute éventualité.~
-@168 = ~Je vois. Et qu'est-ce que tes employeurs diraient de ce, euh, partenariat potentiel* ?~
+@168 = ~Je vois. Et qu'est-ce que tes employeurs diraient de ce, euh, partenariat potentiel ?~
 @169 = ~Employeur, c'est un mot qui a du corps. Mais il perd vachement de son poids quand on en est loin...~
 @170 = ~Hmmm. Il est clair pour quelqu'un d'aussi sage que moi que nous pourrions faire bien pire que de nous soucier chacun l'un de l'autre.~
 /* Safana */
-@171 = ~Ecoute, perverse. Ça m'gêne pas qu'tu t'planques dès qu'ça sent l'roussi. Comme ça, y'a moins d'risques que tu sois dans l'chemin.~
+@171 = ~Écoute, perverse. Ça m'gêne pas qu'tu t'planques dès qu'ça sent l'roussi. Comme ça, y'a moins d'risques que tu sois dans l'chemin.~
 @172 = ~Je ne considère pas que...~
 @173 = ~... et ça m'gêne pas qu'tu nous gueules des ordres. Ça donne l'impression à nos ennemis qu'tu vaux la peine d'être poursuivie.~
 @174 = ~Je n'ai pas l'habitude de...~
 @175 = ~... et j'm'en fiche aussi qu'tu t'serves en premier dans l'butin, en plus. Tu fais une mule tout à fait acceptable jusqu'à c'qu'on arrive dans un coin où on peut dépenser...~
 @176 = ~Tu oses...~
-@177 = ~... mais j'en ai TELLEMENT ma claque que tu blablates dans mes oreilles tout le temps, que je vais oublier tous ces bénéfices te concernant, et te la fermer une bonne fois pour toute, si tu m'adresses encore UN seul mot. T'as pigé ?!~
-@178 = ~<CHARNAME>, si tu dois détacher cette créature de sa laisse, peux-tu s'il-te-plait la museler* ? La laisser baver ainsi en liberté est tellement... peu hygiénique.~
+@177 = ~... mais j'en ai TELLEMENT ma claque que tu blablates dans mes oreilles tout le temps, que je vais oublier tous ces bénéfices te concernant, et te la fermer une bonne fois pour toutes, si tu m'adresses encore UN seul mot. T'as pigé ?!~
+@178 = ~<CHARNAME>, si tu dois détacher cette créature de sa laisse, peux-tu s'il te plaît la museler ? La laisser baver ainsi en liberté est tellement... peu hygiénique.~
 /* Shar-Teel */
 @179 = ~Hé, fais gaffe où tu marches !~
-@180 = ~Ecarte-toi de mon chemin, mâle. Je fais des grands pas.~
+@180 = ~Écarte-toi de mon chemin, mâle. Je fais de grands pas.~
 @181 = ~Ce blabla sur les "mâles" t'a collée dans nos pattes, déjà. J'aurais cru qu'ça t'apprendrait quequ'chose depuis l'temps.~
 @182 = ~J'ai seulement appris que mon évaluation originelle était trop laxiste. Toi, par exemple, je t'aurais autrefois ignoré, mais tu es encore plus insultant que les autres car tu exprimes doublement ton arrogance mâle pour compenser ta demi-portion.~
 @183 = ~J'dois rester au niveau de mes copains, non ?~
-@184 = ~Qu'est-ce que c'est sensé vouloir dire ?~
+@184 = ~Qu'est-ce que c'est censé vouloir dire ?~
 @185 = ~Tu l'as dit toi-même. J'suis une demi-portion, donc je dois frimer deux fois plus sinon je reçois quatre fois plus de coups. Et ensuite, je dois tuer celui qui m'a frappé, et c'est pas super malin comme programme.~
 @186 = ~Tu espères vraiment me faire croire que ton expression répugnante de supériorité agressive est un produit de ta *pensée* ?~
 @187 = ~Par les Neuf Enfers, femme ! Je suis un voleur par choix. Furtif est mon second prénom et cela signifie NE PAS être remarqué. Mais j'ai besoin d'une technique pour survivre pendant les heures de pause aussi, non ?~
@@ -216,7 +216,7 @@
 @190 = ~Je n'aurais jamais pensé que la compagnie de voleurs *vous* dérangerait.~
 @191 = ~S'ils ne savent rien faire d'autre, et que le boulot est aussi rude qu'il l'est en ce moment, alors si, ça me dérange.~
 @192 = ~Vous constaterez qu'Eldoth et moi-même sommes aussi préparés et efficaces que n'importe lequel de vos autres compagnons.~
-@193 = ~Si vous pensez qu'vous allez extirper ses s'crets au Trône de Fer en vous faisant des yeux doux, vous pourriez avoir raison. Mais j'parie que c'est pas trop leur genre. A moins qu'ils ne quittent la ville juste pour vous fuir.~
+@193 = ~Si vous pensez qu'vous allez extirper ses s'crets au Trône de Fer en vous faisant des yeux doux, vous pourriez avoir raison. Mais j'parie que c'est pas trop leur genre. À moins qu'ils ne quittent la ville juste pour vous fuir.~
 @194 = ~Vous ne savez rien de l'amour ! De deux coeurs, deux âmes qui en harmonie parfaite...~
 @195 = ~Ouais, ouais, ouais. C'la dit, je fermerais ma bourse avec un double-noeud et m'assierais dessus, si j'étais dans ta culotte.~
 /* Tiax */
@@ -224,16 +224,16 @@
 @197 = ~Il n'y aura pas de choix. Par sa volonté, Tiax ordonnera la servitude. Tous ne voudront qu'obéir.~
 @198 = ~Ça va d'venir embouteillé autour de toi, alors. T'as d'jà pensé à ce qu'tu feras quand "Tous" crèveront de faim et commenceront à puer ?~
 @199 = ~Ceux qui périssent sont faibles ! Ils seront emportés par Tous ceux qui viendront ensuite !~
-@200 = ~Oh, alors y'a plusieurs de vagues de "Tous", alors ? Ou bien juste quelques retardataires qui vivent trop loin et n'ont pas été très rapides ?~
-@201 = ~Tu te moques* ! Mais Tiax a vu le futur* ! Des PROMESSES ont été faites à Tiax* !!!~
-@202 = ~Je vérifierais le CV de celui qui t'a fait des promesses. Y m'semble qu'il a pas réfléchi à "tout".~
+@200 = ~Oh, alors y'a plusieurs vagues de "Tous", alors ? Ou bien juste quelques retardataires qui vivent trop loin et n'ont pas été très rapides ?~
+@201 = ~Tu te moques ! Mais Tiax a vu le futur ! Des PROMESSES ont été faites à Tiax !!!~
+@202 = ~Je vérifierais les références de celui qui t'a fait des promesses. Y m'semble qu'il a pas réfléchi à "tout".~
 /* Viconia */
 @203 = ~Oh-oh. Qu'est-ce qui ne va pas, maintenant ?~
 @204 = ~Pourquoi penses-tu que quelque chose se trame ?~
 @205 = ~On aurait dit qu't'allais parler. Tu parles jamais, sauf pour te plaindre que c'était bien mieux avant et bien pire maintenant.~
 @206 = ~Mes pensées et mon histoire ne te concernent en rien.~
 @207 = ~C'est sûr. C'est pour ça qu'j'aimerais autant que tu la fermes à c'sujet.~
-@208 = ~J'aimerais que tu sois coincé, seul, en Outreterre. Je t'écouterais survivre, là, en utilisant moins de mots que moi maintenant.~
+@208 = ~J'aimerais que tu sois coincé, seul, en Ombre-Terre. Je t'écouterais survivre, là, en utilisant moins de mots que moi maintenant.~
 @209 = ~Facile. "C'est quoi l'chemin pour sortir ?" s'rait tout ce dont j'aurais besoin.~
 @210 = ~Et on te mènerait à la sortie, plutôt que de te l'indiquer. Ce serait une tombe.~
 @211 = ~P't'être bien. Mais je ne serais pas le seul à la rejoindre, ceci dit.~
