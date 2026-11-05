@@ -1,5 +1,5 @@
 @0 = ~Mais je suis sûr que notre amie commune Alora, ici présente, vous a déjà dit ça... n'est-ce pas mam'zelle ?~
-@1 = ~Euh, bien sûr, bien sûr... C'est la première chose que j'ai dite... Euh, après avoir dit bonjour évidemment. je veux dire, il faut quand même rester poli et...~
+@1 = ~Euh, bien sûr, bien sûr... C'est la première chose que j'ai dite... Euh, après avoir dit bonjour évidemment. Je veux dire, il faut quand même rester poli et...~
 @2 = ~Vous bredouillez, mademoiselle.~
 @3 = ~V... Vraiment ? Oh, désolée, je ne voulais pas...~
 @4 = ~Ouste maintenant ! Et souvenez-vous bien de ce que j'ai dit.~
@@ -8,7 +8,7 @@
 @6 = ~Cependant le chef va tout de même vouloir TE voir, Alora.~
 @7 = ~*Gloups !*~
 @8 = ~Oh, non...~
-@9 = ~D'accord monsieur le doppleganger, qu'avez-vous fait du véritable Nadarin ? Non, finalement, inutile de répondre. Et ne le ramenez pas non plus !~
+@9 = ~D'accord, monsieur le doppelganger, qu'avez-vous fait du véritable Nadarin ? Non, finalement, inutile de répondre. Et ne le ramenez pas non plus !~
 @10 = ~Bah !~
 @11 = ~Oh non, ne me dites pas que vous faites encore affaire avec Roger l'embrouille ? Oooh, mais si ! Je sens encore l'odeur des égouts sur vous !~
 @12 = ~Bah, tu ne sens pas si bon que ça non plus, femme !~
@@ -24,7 +24,7 @@
 @19 = ~Bah, espèce de rustre !~
 @20 = ~Oh ne vous inquiétez pas, ça en valait vraiment la peine !~
 @21 = ~Ne vous inquiétez pas Mme Tangleberry, je sais ce que c'est. Nous le lui apporterons.~
-@22 = ~Merci Alora. Et s'il vous plait, appelez-moi Nadine.~
+@22 = ~Merci Alora. Et s'il vous plaît, appelez-moi Nadine.~
 @23 = ~Alora, je suis surprise de voir que tu voyages avec des gens comme ça.~
 @24 = ~Oh, ce ne sont pas de si mauvais bougres.~
 @25 = ~J'espère que tu ne te trompes pas.~
@@ -48,7 +48,7 @@
 @40 = ~... Bon...~
 @41 = ~... un vieux minou !~
 @42 = ~... Euh, merci. Enfin, je présume.~
-@43 = ~A plus, Euric !~
+@43 = ~À plus, Euric !~
 @44 = ~Fais attention à toi, Euric.~
 @45 = ~Pour sûr, mademoiselle Alora.~
 @46 = ~Euric ? C'est moi, Alora. Que fais-tu dans ce coin de la ville ?~
@@ -58,9 +58,9 @@
 @50 = ~Hé, ne m'en parle pas ! Tu sais que Nadine... ta mère... s'inquiète pour toi, n'est-ce pas ?~
 @51 = ~Alors dis-lui d'arrêter de me faire continuellement des remarques !~
 @52 = ~Ou alors la petite-femme avait-elle mis son nez dans mes affaires ? Je serais enclin à fermer les yeux là-dessus, en fonction du genre de marchandise dont vous parlez...~
-@53 = ~Et emmenez cette petite-femme pénible avec vous s'il vous plaît. Vous n'avez pas la moindre idée à quel point elle peut être peste !~
+@53 = ~Et emmenez cette petite-femme pénible avec vous s'il vous plaît. Vous n'imaginez pas à quel point elle peut être pénible !~
 @54 = ~*snif* Après tout ce que nous avons vécu ensemble...~
-@55 = ~Vraiment ? est-ce que ça signifie que ma "commande spéciale" est prête ?~
+@55 = ~Vraiment ? Est-ce que ça signifie que ma "commande spéciale" est prête ?~
 @56 = ~Euh... As-tu entendu parler de l'éclipse de soleil qu'ils ont prédite ? La plus longue qu'on ait jamais vue, à ce qu'on m'a dit.~
 @57 = ~Ah, tu t'inquiètes trop !~
 @58 = ~Bonne journée, Bell.~
@@ -69,11 +69,11 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 595, probablement inutile de traduire ici !
 @60 = ~Euh, je ne sais pas de quoi tu parles.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 596, probablement inutile de traduire ici !
-@61 = ~Eh, bien sûr que non. A plus, Bell.~
+@61 = ~Eh, bien sûr que non. À plus, Bell.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 597, probablement inutile de traduire ici !
-@62 = ~A un de ces jours, Lori.~
-@63 = ~Ne t'en fais pas pour lui, <CHARNAME>. Il est toujours aussi morose. Fais attention à Phandalyn cependant. Ca fait un bon moment qu'il ne va pas bien maintenant. La rumeur court que des aventuriers maléfiques ont tué sa femme, ou quelque chose comme ça.~
-@64 = ~Hé, ne soit pas timide ! <CHARNAME>, voici Bellamy. on peut dire que nous sommes membres de la même 'communauté', ici à la Porte de Baldur.~
+@62 = ~À un de ces jours, Lori.~
+@63 = ~Ne t'en fais pas pour lui, <CHARNAME>. Il est toujours aussi morose. Fais attention à Phandalyn cependant. Ça fait un bon moment qu'il ne va pas bien maintenant. La rumeur court que des aventuriers maléfiques ont tué sa femme, ou quelque chose comme ça.~
+@64 = ~Hé, ne sois pas timide ! <CHARNAME>, voici Bellamy. On peut dire que nous sommes membres de la même 'communauté', ici à la Porte de Baldur.~
 @65 = ~Alora ! Tu viens de gâcher mon numéro de 'mystérieux étranger' !~
 @66 = ~Hé, je voulais juste dire que nous sommes deux camarades petites-gens... *cligne de l'oeil*~
 @67 = ~Ce vieux Phandalyn crée à nouveau des problèmes ?~
@@ -81,7 +81,7 @@
 @69 = ~*Tousse*~
 @70 = ~Oh Alora, c'est toi ! Je ne t'avais pas remarquée.~
 @71 = ~C'est parce que je suis une *voleuse*, idiot !~
-@72 = ~Ceci dit, pas besoin de me chambrer parce que tu es en présence de tes amis, hein ?~
+@72 = ~Cela dit, pas besoin d'être aussi discrète avec tes amis, hein ?~
 @73 = ~Hé hé, je pense bien.~
 @74 = ~Enfin bon, je peux parler à tes compagnons ici ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 549, probablement inutile de traduire ici !
@@ -141,7 +141,7 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 680, probablement inutile de traduire ici !
 @113 = ~Très bien. Quand j'ai quitté la ville, sa dame et lui attendaient leur septième enfant. Je parie qu'elle sera aussi jolie que les autres.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 681, probablement inutile de traduire ici !
-@114 = ~Et dire que le couple venait juste d'avoir leur troisième la dernière fois que je les ai vus ! Il va vraiment falloir que je fasse le voyage un de ces jours, j'ai entendu dire que c'est un endroit assez joli pour une ville construite par les humains... Euh, avec toutes ces histoires de famille, on dirait que tes amis sont en train de s'impatienter. De quoi parlions-nous ? Ah oui, le voyage à la tour contre l'hospitalité des petites-gens...~
+@114 = ~Et dire que le couple venait juste d'avoir son troisième la dernière fois que je les ai vus ! Il va vraiment falloir que je fasse le voyage un de ces jours, j'ai entendu dire que c'est un endroit assez joli pour une ville construite par les humains... Euh, avec toutes ces histoires de famille, on dirait que tes amis sont en train de s'impatienter. De quoi parlions-nous ? Ah oui, le voyage à la tour contre l'hospitalité des petites-gens...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 737, probablement inutile de traduire ici !
 @115 = ~Ce n'est pas sympa. Tourne ta bouche à l'envers, ça te fera sourire !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 738, probablement inutile de traduire ici !
@@ -153,7 +153,7 @@
 @119 = ~Humm ?~
 @120 = ~Ah, tu ferais mieux d'y aller, tu sais.~
 @121 = ~COURS !~
-@1001 = ~Viens petite-fille, ne fais pas attendre le chef.~
+@1001 = ~Viens, petite, ne fais pas attendre le chef.~
 @1002 = ~Donc puis-je vous aider, ou alors est-ce que vous partez ?~
 @1003 = ~Eh. Tiens-toi loin de Phandalyn, d'accord ?~
 @1004 = ~Fuyez !~

@@ -20,16 +20,16 @@
 @9     = ~Le jour suivant, ce voyageur revint et vola tous les objets de valeur de la maison, souilla le sol avec le sang de la famille et des serviteurs de son hôte et brûla ses enfants...~
 @10    = ~L'hôte demanda au voyageur pourquoi il lui faisait tout cela... et le voyageur répondit : "je ne fais que prendre ce qui m'appartient".~
 @11    = ~Quelle infamie ! Cet homme devrait être puni !~
-@12    = ~c'est ce que font les Druides de l'Ombre, Ajantis - punir ceux qui, au lieu de se satisfaire des dons, préfèrent piller le donneur.~
+@12    = ~C'est ce que font les Druides de l'Ombre, Ajantis - punir ceux qui, au lieu de se satisfaire des dons, préfèrent piller le donneur.~
 
 // Faldorn - Ajantis
 
 @13    = ~J'aimerais en savoir plus au sujet des paladins, Ajantis.~
 @14    = ~Hum... heureux de vous rendre service, madame. Tenez, je pense que la devise que l'un des nobles frères de mon ordre porte sur son bouclier décrit parfaitement un paladin. Écoutez-la, Faldorn : “inébranlable, incorruptible, inarrêtable”.~
-@15    = ~A mon avis, "malpoli, mal lavé, mal rasé" serait plus approprié ; ceci dit, tu es le seul paladin que je connaisse.~
-@16    = ~A mon avis, "malpoli, mal lavé, mal rasé" serait plus approprié ; ceci dit, <CHARNAME> et toi êtes les seuls paladins que je connaisse.~
+@15    = ~À mon avis, "malpoli, mal lavé, mal rasé" serait plus approprié ; ceci dit, tu es le seul paladin que je connaisse.~
+@16    = ~À mon avis, "malpoli, mal lavé, mal rasé" serait plus approprié ; ceci dit, <CHARNAME> et toi êtes les seuls paladins que je connaisse.~
 @17    = ~Vous êtes trop sévère, Faldorn ! Il est vrai qu'un juron peut parfois s'échapper de mes lèvres en plein coeur du combat, mais ce n'est que pour extérioriser ma rage devant le Mal auquel nous faisons face.~
-@18    = ~Laisser la bête en toi s'exprimer ! GROARRR !~
+@18    = ~Laisse la bête en toi s'exprimer ! GROARRR !~
 @19    = ~C'est... quelque chose comme ça, oui.~
 @20    = ~Et... hum... madame, en ce qui concerne les autres commentaires, je tiens vraiment à m'excuser. Keldorn, mon mentor, fait l'apologie du travail sur le terrain, moyen sans égal d'acquérir de l'expérience, mais je trouve que cela a certains mauvais côtés... J'essaierai de me laver et de me raser plus souvent pour devenir un compagnon plus agréable.~
 @21    = ~Mais pourquoi donc ? Un homme qui revient à son état naturel est toujours plus séduisant.~
@@ -38,10 +38,10 @@
 
 @22    = ~Alora, vu combien tu es petite et faible, je n'arrive pas à imaginer comment tu as pu supporter la vie à la Porte de Baldur.~
 @23    = ~Oh mais j'aime vivre en ville ! Tu te lèves le matin, tu vas au marché, tu fauches une bourse ou deux et puis tu achètes une glace ! Ou pourquoi pas du gâteau à la crème ! Ou de la barbe à papa ! On ne trouve pas de barbe à papa en forêt, je t'assure !~
-@24    = ~Ce fut un triste jour que celui ou un homme décida que le goût pur des fruits de la nature devait faire place à celui de ses propres créations.~
+@24    = ~Ce fut un triste jour que celui où un homme décida que le goût pur des fruits de la nature devait faire place à celui de ses propres créations.~
 @25    = ~Euh, j'aime tout autant les noisettes et les baies. Les canneberges et les framboises, par exemple... Le monde est un endroit si agréable !~
 @26    = ~Le monde était agréable, Alora. Il est rongé par la corruption, à cause des perversions et des excès de la civilisation. Les tartes et les gâteaux, par exemple.~
-@27    = ~Ne sois pas si amère, Faldorn. Tartes et gâteaux ne sont pas maléfiques. Oh, je pense que j'ai compris ton problème ! Il te faut quelque chose de sucré, voilà ! Essaye ça ! J'ai des fraises au sucre-glace dans mon sac à dos.~
+@27    = ~Ne sois pas si amère, Faldorn. Tartes et gâteaux ne sont pas maléfiques. Oh, je pense que j'ai compris ton problème ! Il te faut quelque chose de sucré, voilà ! Essaye ça ! J'ai des fraises au sucre glace dans mon sac à dos.~
 @28    = ~Hummm... après tout, le sucre est un produit naturel. D'accord, j'en prends un peu...~
 @29    = ~*glousse* Voilà, c'est beaucoup mieux ! Des tartes maléfiques, hi hi hi.~
 
@@ -53,7 +53,7 @@
 @33    = ~Née - oui, mais tu n'as pas été élevée par la tribu, selon notre tradition. Tu n'es ni un valeureux guerrier mâle, ni une femme qui serait une bonne épouse pour un guerrier.~
 @34    = ~Et pourtant je fais partie des Corbeaux Noirs. Peut-être pourrais-je mener mon combat contre la civilisation en rejoignant mon peuple et en le convertissant à la cause de Silvanus et à celle des Druides de l'Ombre.~
 @35    = ~Quand les barbares attaquent les villes, ils n'implorent pas le Père Chêne comme toi. Ils invoquent Tempus et Aurile, ainsi que leurs ancêtres. Tu es une druidesse et tu sers Silvanus, ils ne te réintègreront pas.~
-@36    = ~Tout comme le Loup de Mer ne m'acceptera pas tant que je serai une guerrière et prêtresse de Tempus.~
+@36    = ~Tout comme le Loup de mer ne m'acceptera pas tant que je serai une guerrière et prêtresse de Tempus.~
 @37    = ~Je ne te crois pas ! GRRRR ! Tu mens !~
 
 // Faldorn - Branwen
@@ -62,7 +62,7 @@
 @39    = ~Nos ennemis étaient valeureux, et Tempus nous a donné la victoire ! Tu es peut-être un drôle d'oiseau et une brute, mais il est certain que le sang du Corbeau Noir est en toi ! Bois un bon verre d'hydromel, Faldorn !~
 @40    = ~*Faldorn saisit le verre en forme de corne des mains de Branwen et avale tout son contenu.* La nature a été vengée ! Gloire à Silvanus !~
 @41    = ~Tempus, Seigneur de toutes les batailles, donne de la force aux bras de nos guerriers et de l'ardeur à nos petits mages et apparentés. Qu'est-ce que Silvanus vient faire dans cette histoire ?~
-@42    = ~Ah ! les ennemis du Père Chêne sont partout. Nous en avons certainement tué un ou deux dans le tas !~
+@42    = ~Ah ! Les ennemis du Père Chêne sont partout. Nous en avons certainement tué un ou deux dans le tas !~
 @43    = ~Alors buvons en cet honneur ! Gloire aux vainqueurs ! Malheur aux vaincus !~
 
 // Faldorn - Branwen
@@ -109,7 +109,7 @@
 @74    = ~Mais ça ne sert à rien contre les moustiques, idiot d'elfe ! Seuls les citadins mangent des baies de guril lorsqu'ils sont trop timides pour répondre à l'appel de la nature... pour s'accoupler !~
 @75    = ~Hummm... Coran, je pense que le résultat n'a pas dû te déplaire...~
 @76    = ~Ah, cela ne se passa pas très bien non plus. Je me réveillai au petit matin, pour l'entendre se plaindre que j'avais déchiré sa chemise en soie de Kozakura.~
-@77    = ~La dernière fois que je l'ai vue, elle m'a dit que je lui devais toujours 600 pièces d'or pour ce maudit vêtement. A mon avis j'avais pourtant amélioré la coupe de cette chemise, mais avec ces dames civilisées...~
+@77    = ~La dernière fois que je l'ai vue, elle m'a dit que je lui devais toujours 600 pièces d'or pour ce maudit vêtement. À mon avis j'avais pourtant amélioré la coupe de cette chemise, mais avec ces dames civilisées...~
 @78    = ~Grrr ! Stupides mauviettes !~
 
 // Faldorn - Dynaheir
@@ -120,7 +120,7 @@
 @82    = ~Penses-Tu avoir été le réceptacle de son esprit ?~
 @83    = ~Oui Dynahéir, c'est ce que j'ai pensé. Est-ce possible ?~
 @84    = ~Tu ferais mieux d'arrêter de T'inquiéter de ces présages, et devrais plutôt mettre en application son enseignement. Tu deviendrais alors sa fille spirituelle.~
-@85    = ~Tes paroles sont emplies de sagesse, Dynahéir, cependant j'aimerais savoir si ce cimeterre magique - le Rayon Émeraude - m'appartient de droit.~
+@85    = ~Tes paroles sont emplies de sagesse, Dynahéir, cependant j'aimerais savoir si ce cimeterre magique - le Rayon d'Émeraude - m'appartient de droit.~
 @86    = ~Les armes magiques recherchent souvent elles-mêmes leur porteur. Si cette lame T'est bel et bien destinée, alors elle sera Tienne.~
 
 // Faldorn - Dynaheir
@@ -135,8 +135,8 @@
 
 // Faldorn - Dynaheir
 
-@94    = ~la Rashéménie est une terre où l'on respecte la nature sauvage.~
-@95    = ~Certainement, nous aimons et respectons notre terre. On dit qu'un rashémi est façonné à son image. Indomptable, rude et inébranlable.~
+@94    = ~La Rashéménie est une terre où l'on respecte la nature sauvage.~
+@95    = ~Certainement, nous aimons et respectons notre terre. On dit qu'un Rashémi est façonné à son image. Indomptable, rude et inébranlable.~
 @96    = ~Chaque terre marque et transforme les créatures qui la peuplent.~
 @97    = ~C'est possible Faldorn. Mais notre lieu de naissance n'est-il pas un endroit très spécial pour chacun d'entre nous ?~
 @98    = ~Je n'en sais rien, Dynahéir. Je suis originaire d'Uthgardt et je viens de la tribu du Corbeau Noir, mais j'ai été élevée par les Druides de l'Ombre.~
@@ -149,7 +149,7 @@
 @102   = ~Pourquoi appelles-tu cet oiseau inutile ? N'y a-t-il pas assez de fientes par ici ? (C'est peut-être pour cela qu'Elminster porte ce chapeau. Ça ne m'étonnerait pas de lui.)~
 @103   = ~Silence, espèce de lourdaud civilisé ! Si je gâche une bénédiction de mon Esprit Père à cause de tes bavardages stupides, la prochaine fois c'est ton coeur que je lui donnerai à manger !~
 @104   = ~Esprit Père ? Pourquoi dois-je supporter ces barbares ignares autour de moi ? Ces idiots incultes, lourdauds et aveugles sont partout ! Qu'est-ce que tu marmonnes encore, sorcière ? Une coccinelle sacrée, sans doute ?~
-@105   = ~Cette nuit tu rêveras d'un corbeau noir, arrogant homme du sud. Il donnera des coups de bec aux yeux dans le crâne d'un idiot en robe rouge. Alors celui-ci deviendra un idiot inculte, lourdaud et AVEUGLE.~
+@105   = ~Cette nuit tu rêveras d'un corbeau noir, arrogant homme du sud. Il arrachera à coups de bec les yeux du crâne d'un idiot en robe rouge. Alors celui-ci deviendra un idiot inculte, lourdaud et AVEUGLE.~
 
 // Faldorn - Edwin
 
@@ -172,23 +172,23 @@
 @119   = ~Je ne perturbe rien ; toute chose peut être un outil pour quelqu'un de talentueux. Les fleurs deviennent des composants de sorts, les arbres deviennent feu... J'ai même entendu parler d'un sortilège qui donne aux bovins domestiques habituels une autre utilité que de devenir des steaks.~
 @120   = ~Que... Qu'est-ce que tu insinues ? Quel autre sort cruel a-t-on inventé pour ces animaux sans défense ?~
 @121   = ~As-tu entendu parler d'un sortilège ingénieusement appelé Vache Mortelle ? Bien sûr que non, que pouvais-je bien attendre de quelqu'un comme toi ? En termes simples, et pour réduire au maximum les possibilités de malentendu, ce sort convoque une vache qui tombe du ciel sur la tête d'un ennemi. Assez efficace, tout tiré par les cheveux que cela puisse paraître.~
-@122   = ~C'est un scandale ! Faire tomber une vache innocente pour tuer un pitoyable humain ! Et dire que je pensais qu'élever des animaux pour les tuer et les priver de liberté de mouvement était déjà suffisamment criminel. Je vais faire circuler la nouvelle de cette affreuse pratique à mes frères et soeurs Nous pourchasserons et exécuterons quiconque osera infliger un tel supplice à de malheureux animaux. Excuse-moi Edwin, j'ai des messages à écrire.~
+@122   = ~C'est un scandale ! Faire tomber une vache innocente pour tuer un pitoyable humain ! Et dire que je pensais qu'élever des animaux pour les tuer et les priver de liberté de mouvement était déjà suffisamment criminel. Je vais faire circuler la nouvelle de cette affreuse pratique à mes frères et soeurs. Nous pourchasserons et exécuterons quiconque osera infliger un tel supplice à de malheureux animaux. Excuse-moi Edwin, j'ai des messages à écrire.~
 @123   = ~Bien sûr. (Tant mieux si cela peut l'écarter de mon chemin. Maintenant il faut que je m'occupe de ces larynx de grouilleux...)~
 
 // Faldorn - Eldoth
 
-@124   = ~On n'est pas dans une salle de bal, mauviette. Fais de plus grand pas !~
+@124   = ~On n'est pas dans une salle de bal, mauviette. Fais de plus grands pas !~
 @125   = ~Par le parchemin d'Oghma, ce crapaud parle ! Et de salles de bal, qui plus est !~
 @126   = ~Faldorn, quand avez-vous participé à un bal pour la dernière fois ?~
 @127   = ~Je n'ai jamais participé à une telle sottise, c'est bon pour des hommes dérangés, "civilisés" !~
 @128   = ~Et elle en est fière ! Comme c'est amusant ! D'où vient votre savoir considérable au sujet des pas de danse, Faldorn ? De l'observation de fermiers ivres qui se pavanent dans une fête de village ?~
 @129   = ~Fermiers... Je déteste les fermiers ! Je n'ai jamais...~
-@130   = ~Si je puis me permettre, je suppose que vous n'avez jamais vu personne danser ? Oui, c'est ce que je pensais. Faldorn, j'ai beaucoup dansé, J'ai même eu le plaisir de danser aux bals organisés par Lord Piergeiron d'Eauprofonde en personne.~
+@130   = ~Si je puis me permettre, je suppose que vous n'avez jamais vu personne danser ? Oui, c'est ce que je pensais. Faldorn, j'ai beaucoup dansé, j'ai même eu le plaisir de danser aux bals organisés par Lord Piergeiron d'Eauprofonde en personne.~
 @131   = ~Je vous assure que beaucoup de pas de danse que vous pourriez voir dans ces salles de bal sont plutôt amples et rapides... comme celui-ci par exemple... *Eldoth saisit Faldorn, entame un pas de danse et la fait virevolter.*~
 @132   = ~*Halète et se débat* Grrr ! Laisse-moi tranquille !~
-@133   = ~Stupide jeune femme ! A quoi peut bien servir une femme qui ne sait même pas danser ? Je parie que vous ne connaissez pas non plus la broderie. Peut-être pourrais-je vous apprendre à danser, Faldorn... peut-être... si vous vous lavez un peu.~
+@133   = ~Stupide jeune femme ! À quoi peut bien servir une femme qui ne sait même pas danser ? Je parie que vous ne connaissez pas non plus la broderie. Peut-être pourrais-je vous apprendre à danser, Faldorn... peut-être... si vous vous lavez un peu.~
 @134   = ~Grrrr !~
-@135   = ~Faldorn ! S'il vous plait, posez ce gourdin ! Je ne faisais que plaisanter.~
+@135   = ~Faldorn ! S'il vous plaît, posez ce gourdin ! Je ne faisais que plaisanter.~
 
 // Faldorn - Eldoth
 
@@ -211,9 +211,9 @@
 
 @147   = ~Garrick ! Je sais bien que tu es un barde sans cervelle, mais ce n'est pas une excuse pour salir la forêt ! Tu viens juste de faire tomber ceci !~
 @148   = ~*rougit fortement* Faldorn ! Rendez-moi ça ! C'est quelque chose de très personnel... je m'essaie à la peinture... un petit peu.~
-@149   = ~Cela ressemble à un morceau de parchemin vierge... mais attends ! Il y a là une tache... qu'est-ce que cela est supposé être ? Oh ! je sais ! La mort d'un moustique ? Que d'inspiration. Je savais que l'art moderne s'emparerait tôt ou tard de ce thème tragique. Et ce jour a fini par arriver !~
+@149   = ~Cela ressemble à un morceau de parchemin vierge... mais attends ! Il y a là une tache... qu'est-ce que cela est supposé être ? Oh ! Je sais ! La mort d'un moustique ? Que d'inspiration. Je savais que l'art moderne s'emparerait tôt ou tard de ce thème tragique. Et ce jour a fini par arriver !~
 @150   = ~Ahem... en fait, c'était le portrait d'une beauté inconnue. Je la vis en rêve marcher sur la plage sous une douce pluie, vêtue de soie couleur prune et tourbillonnante. La vision disparut, et il ne resta que l'empreinte de son petit doigt sur le sable. Alors je pleurai. C'est cette émotion que j'ai voulu communiquer dans cette peinture. Et pas une histoire de moustique.~
-@151   = ~Garrick, je n'aurais jamais pensé dire cela un jour mais... tiens-toi en à écrire des poèmes, d'accord ?~
+@151   = ~Garrick, je n'aurais jamais pensé dire cela un jour mais... tiens-t'en à écrire des poèmes, d'accord ?~
 
 // Faldorn - Imoen
 
@@ -222,7 +222,7 @@
 @154   = ~Un grand homme. Le Druide de l'Ombre qui était capable d'influencer les fermiers simplement par ses paroles. Ces fermiers maléfiques qui brûlent les forêts pour détruire le sol avec leurs charrues et changer les plantes et animaux sauvages en abominations.~
 @155   = ~Je n'aime pas beaucoup les fermiers. Ils cachent toujours leur argent dans les poches profondes de leurs vêtements et quand on finit par y accéder, on n'y trouve rien d'intéressant de toute façon. Je préfère les dames nobles - beaucoup de pièces, et leurs bourses sont facilement accessibles.~
 @156   = ~Mais revenons aux Druides de l'Ombre : que disait Kador aux fermiers ?~
-@157   = ~Il les faisait brûler leurs maisons et leurs récoltes pour libérer leurs troupeaux et revenir à la nature.~
+@157   = ~Il leur faisait brûler leurs maisons et leurs récoltes pour libérer leurs troupeaux et revenir à la nature.~
 @158   = ~Waouh ! Quel drôle de gars ! Il aurait dû laisser les troupeaux manger les récoltes au lieu de les brûler. Quel gaspillage !~
 @159   = ~Grrr !~
 @160   = ~Mais c'est un Druide de l'Ombre, ils sont... hummm... bons pour ce genre de choses. Faldorn, l'esprit de Kador, tous les combien te parle-t-il ?~
@@ -268,7 +268,7 @@ Moitié druide - et ne sait pas
 Où trouver l'autre moitié...~
 @186   = ~Faldorn, comme barde, tu es nulle.~
 @187   = ~Je suis une druidesse et c'est tout ce qui m'intéresse, contrairement à toi.~
-@188   = ~Je sers la cause de la nature et je veux gagner ma guerre. La conception des Druides de l'Ombre de l'Equilibre et de la Grande Mère est une distorsion de la vérité, Faldorn.~
+@188   = ~Je sers la cause de la nature et je veux gagner ma guerre. La conception des Druides de l'Ombre de l'Équilibre et de la Grande Mère est une distorsion de la vérité, Faldorn.~
 @189   = ~Tu ne peux pas obliger les peuples de Toril à revenir à une vie préhistorique ! Les gens de ton espèce ont des milliers d'années de retard. La civilisation ne peut plus être détruite, mais nous pouvons et devons...~
 @190   = ~Non ! On ne peut pas avoir une moitié de civilisation, tout comme on ne peut pas laisser une blessure infectée sans soins, en prétendant qu'elle n'est pas si grosse que ça ! Grrr !~
 
@@ -278,20 +278,20 @@ Où trouver l'autre moitié...~
 @192   = ~Tu blasphèmes ta propre foi, femme. Il n'y a rien de plus naturel que l'amour de l'or.~
 @193   = ~La *soif* d'or est maudite ! La nature est un temple, avec ses arbres florissants qui s'élèvent plus haut que n'importe quelle colonne construite de la main de l'homme, avec ses chants d'oiseaux et ses cris de bêtes célébrant Silvanus et la Grande Mère, où chaque esprit des enfants de la nature prend son essor.~
 @194   = ~Et pourtant, dans leur course à l'or et à la richesse, les créatures civilisées la détruisent !~
-@195   = ~Har ! Tu peux bien prier les branches et les feuilles, mais n'attend pas autant de stupidité de ma part. Mon coffre est mon autel, et ma bourse chante le plus doux des hymnes quand je la secoue.~
+@195   = ~Har ! Tu peux bien prier les branches et les feuilles, mais n'attends pas autant de stupidité de ma part. Mon coffre est mon autel, et ma bourse chante le plus doux des hymnes quand je la secoue.~
 @196   = ~C'est pourquoi les champions de l'équilibre ont à mener une guerre permanente contre les hérétiques qui ne révèrent pas la Grande Mère et la vendent pour quelques pièces d'or !~
-@197   = ~Non ! La terre est bien plus chère que ça. Elle coûte aussi bien de l'or que du sang pour la conquérir et la conserver. C'est pourquoi nous sommes du même bord ici. Ces gars du Trône de Fer en veulent à ta forêt, et moi à mes poches.~
+@197   = ~Non ! La terre est bien plus chère que ça. Elle coûte aussi bien de l'or que du sang pour la conquérir et la conserver. C'est pourquoi nous sommes du même bord ici. Ces gars du Trône de Fer t'ont coûté une forêt, et à moi, du bon argent.~
 @198   = ~Je... Silvanus me dira quand te combattre ! Pour l'instant, je te laisse vivre. Le Père Chêne veut que tu te battes pour la cause de <CHARNAME>.~
-@199   = ~Bah ! Tu n'es même pas une honnête voleuse toi-même. Tu tires sur ta laisse pour me trancher la gorge avant même que notre mission principale ne soit en vue. Je vais te dire. Si nous sommes encore debouts après coup, alors nous règlerons nos comptes, et on verra ce qu'il adviendra.~
+@199   = ~Bah ! Tu n'es même pas une honnête voleuse toi-même. Tu tires sur ta laisse pour me trancher la gorge avant même que notre mission principale ne soit en vue. Je vais te dire. Si nous sommes encore debout après coup, alors nous règlerons nos comptes, et on verra ce qu'il adviendra.~
 @200   = ~D'accord.~
 
 // Faldorn - Khalid
 
 @201   = ~Khalid, si je voulais connaître ton opinion sur quoi que ce soit, je parlerais à Jaheira. Arrête donc de me regarder comme si tu voulais me parler.~
 @202   = ~On c-c-confond souvent gentillesse et stupidité, ainsi qu'amour et m-m-manque d'initiative. Vous p-p-parlez bien trop durement pour q-q-quelqu'un de si jeune.~
-@203   = ~Je ne saisis pas. Les demi-elfes considèrent-ils la jeunesse comme une sorte de pêché ? Je n'entends de la part de Jaheira que sermons à propos de mon manque d'expérience, et maintenant tu t'y mets toi aussi ?~
+@203   = ~Je ne saisis pas. Les demi-elfes considèrent-ils la jeunesse comme une sorte de péché ? Je n'entends de la part de Jaheira que sermons à propos de mon manque d'expérience, et maintenant tu t'y mets toi aussi ?~
 @204   = ~Non, mais la manière dont vous p-p-parlez montre que vous vous intéressez seulement à l'avenir, et très p-p-peu au passé. Vous ne savez rien du chemin que Jaheira et m-m-moi avons parcouru, et vous vous permettez p-p-pourtant de juger.~
-@205   = ~A quoi bon vivre dans le passé ? Je vois clairement que le présent fait pitié.~
+@205   = ~À quoi bon vivre dans le passé ? Je vois clairement que le présent fait pitié.~
 @206   = ~Gamine, ceux qui gardent un oeil sur le passé sont borgnes, mais ceux qui gardent les deux yeux sur le futur sont aveugles. N'essayez pas de faire du mal avec vos mots. Une personne versée dans les lois de la nature devrait savoir que le mal que nous causons se retournera contre nous.~
 @207   = ~C'est vrai. Tu es peut-être un gringalet, mais tu possèdes un peu de bon sens. Peut-être devrais-tu me parler de ton passé un de ces jours.~
 @208   = ~Ce sont des souvenirs très p-p-personnels et douloureux, Faldorn. Je ne les partage avec p-p-personne, hormis mes b-b-bons amis.~
@@ -311,7 +311,7 @@ Où trouver l'autre moitié...~
 @216   = ~Un gland ? Merci, ma dame. Puis-je vous demander pourquoi ?~
 @217   = ~Cela ne te remonte-t-il pas le moral de tenir un grand chêne dans ta main ? Moi, ça me rend heureuse, assurément !~
 @218   = ~J'ai jeté des glands dans la tombe de Déhériana quand elle a entamé son voyage vers Arvanaith, pour marquer l'endroit où ses cendres ont été enfouies dans la terre.~
-@219   = ~Mon rêve est de revenir en ce lieu après que Tazok ait été tué, et de lui dire qu'elle a été vengée. C'est mon seul réconfort depuis que nous avons été séparés. Merci de me l'avoir rappelé, Faldorn.~
+@219   = ~Mon rêve est de revenir en ce lieu après que Tazok aura été tué, et de lui dire qu'elle a été vengée. C'est mon seul réconfort depuis que nous avons été séparés. Merci de me l'avoir rappelé, Faldorn.~
 @220   = ~Que de beaux jeunes arbres s'élèvent, et que leurs feuilles te murmurent son nom une fois que ta vengeance sera accomplie.~
 
 // Faldorn - Kivan
@@ -328,35 +328,35 @@ Où trouver l'autre moitié...~
 @227   = ~Pourquoi un homme des bois courrait-il après la gloire ?~
 @228   = ~Gloire ? Minsc ne cherche pas la gloire, c'est la gloire qui vient à Minsc ! La gloire pour Minsc est la gloire pour la nature et toutes les petites choses qui ont besoin de rôdeurs pour botter les fesses du mal en leur nom !~
 @229   = ~Minsc, la nature n'a pas besoin de gloire ! Et ses champions devraient en faire autant.~
-@230   = ~Et la gloire des sablons alors ? Tu sais, ces groseilles bien juteuses ? Mon redoutable compagnon s'en régale souvent quand c'est la saison. La nature en a besoin !~
-@231   = ~Mais c'est débile ! D'accord, d'accord. Les hamsters font partie de la nature. Ils peuvent bien batifoler dans la rosée du matin et manger une groseille ou deux, mais la gloire insignifiante d'une chanson de barde ou de la mémoire humaine n'est rien comparée à la Nature éternelle.~
+@230   = ~Et la gloire-du-matin, alors ? Tu sais, ces jolies fleurs bleues ? Mon redoutable compagnon s'en régale souvent quand c'est la saison. La nature en a besoin !~
+@231   = ~Mais c'est débile ! D'accord, d'accord. Les hamsters font partie de la nature. Ils peuvent bien batifoler dans la rosée du matin et manger une fleur ou deux, mais la gloire insignifiante d'une chanson de barde ou de la mémoire humaine n'est rien comparée à la Nature éternelle.~
 @232   = ~Comment ça, ce n'est rien ? La nature n'est-elle pas bonne ? Il y a des arbres pour donner de l'ombre à Minsc quand le Soleil brille. Il y a de l'eau quand Bouh a soif. Et quand Minsc a soif, il y a de la bière !~
 @233   = ~Mais qu'est-ce que la bière vient faire dans cette histoire ?~
-@234   = ~Elle est bonne, et saine. Tout comme la nature, et la nature ne s'insurgera pas des actes héroïques de ses champions ainsi que des chansons à leur sujet ! Minsc et Bouh ! En avant !~
+@234   = ~Elle est bonne, et saine. Tout comme la nature, et la nature ne s'insurgera pas contre les actes héroïques de ses champions ainsi que des chansons à leur sujet ! Minsc et Bouh ! En avant !~
 
 // Faldorn - Minsc
 
 @235   = ~Je crois bon de te prévenir que de laisser le hamster se nourrir avec du sang de xvart malade pourrait lui causer une sévère indigestion ainsi que d'autres problèmes de santé. Tu penseras à l'en empêcher, n'est-ce pas ?~
-@236   = ~Mais Bouh aime le sang et les yeux ! La druidesse a raison, ce n'est pas une alimentation classique pour un hamster normal, mais c'est très différent pour un hamster de l'espace géant miniature. Bouh sait ce qu'il aime manger.~
-@237   = ~Hem, bien sûr... mais tout hamster de l'espace géant miniature qu'il soit, il n'en reste pas moins un hamster. Tant que nous sommes dans les bois, peut-être devrais-tu lui donner des noisettes et des baies, il y en a en quantité par ici.~
+@236   = ~Mais Bouh aime le sang et les yeux ! La druidesse a raison, ce n'est pas une alimentation classique pour un hamster normal, mais c'est très différent pour un hamster géant de l'espace miniature. Bouh sait ce qu'il aime manger.~
+@237   = ~Hem, bien sûr... mais tout hamster géant de l'espace miniature qu'il soit, il n'en reste pas moins un hamster. Tant que nous sommes dans les bois, peut-être devrais-tu lui donner des noisettes et des baies, il y en a en quantité par ici.~
 @238   = ~Le puissant esprit guerrier de Bouh s'étiolerait si je le nourrissais de noisettes et de baies !~
 
 // Faldorn - Montaron
 
 @239   = ~Je déteste quand c'est ton tour de faire la cuisine, Montaron. Je pourrais jurer que tu prends plaisir à découper en profondeur cette chair, et que tu souris et ricanes quand tu imagines que même morts, les animaux et les légumes peuvent être sensibles à ton couteau.~
 @240   = ~Tu m'confonds avec Xzar. C'est lui qui joue avec les trucs déjà morts.~
-@241   = ~Tu es un peu différent de lui, petit-homme. Je te soupçonne d'être un ennemi de la nature et d'apprécier de tuer et faire souffrir les êtres vivants.~
+@241   = ~Tu n'es guère différent de lui, petit-homme. Je te soupçonne d'être un ennemi de la nature et d'apprécier de tuer et faire souffrir les êtres vivants.~
 @242   = ~Va aboyer sur quelqu'un d'autre si tu veux bouffer ce soir.~
 @243   = ~J'ai faim et mon estomac gargouille déjà. Mais ce soir je préfère encore changer de forme et faire un festin d'une proie fraichement tuée plutôt que de manger un morceau de viande morte touchée par tes doigts.~
 @244   = ~Comme il te plaira.~
 
 // Faldorn - Quayle
 
-@245   = ~La ferme ! la ferme ! Ferme ta bouche immédiatement !~
+@245   = ~La ferme ! La ferme ! Ferme ta bouche immédiatement !~
 @246   = ~Pourquoi cries-tu d'une manière si impolie, Faldorn ? Il ne faut pas infliger un tel stress à mon précieux cerveau !~
 @247   = ~Il me fallait attirer ton attention, gnome. Ta bouche reste ouverte pendant de si longues périodes que je commence à craindre qu'un oiseau puisse la confondre avec un trou dans un tronc d'arbre et n'y construise un nid. Et je me préoccupe énormément du bien-être des oiseaux.~
-@248   = ~Cela ne risque pas d'arriver, Faldorn. Il est évident que t'imprégner d'une prodigieuse source de sagesse telle que moi te serait très profitable. Je pourrais développer un modèle théorique qui prouverait que  tes suppositions sont complètement fausses.~
-@249   = ~Sans rire, grande femme, avec un cerveau aussi actif que le mien, les mots d'esprit me viennent tout naturellement.~
+@248   = ~Cela ne risque pas d'arriver, Faldorn. Il est évident que t'imprégner d'une prodigieuse source de sagesse telle que moi te serait très profitable. Je pourrais développer un modèle théorique qui prouverait que tes suppositions sont complètement fausses.~
+@249   = ~Sans vouloir faire de jeu de mots, grande femme, avec un cerveau aussi actif que le mien, les mots d'esprit me viennent tout naturellement.~
 @250   = ~Tu vois cette femelle corbeau, Quayle ? Je peux communiquer avec mon animal esprit, et elle vient juste de me dire que si j'arrachais ta langue, elle aurait juste assez de place...~
 @251   = ~C'est faux. Premièrement, il est théoriquement impossible de loger ce corbeau dans ma bouche. Deuxièmement... ~
 @252   = ~Tu veux tenter l'expérience ?~
@@ -376,8 +376,8 @@ Où trouver l'autre moitié...~
 
 @261   = ~Tu n'es qu'une pie dans un corps de gnome ! Comme si ça ne suffisait pas de nous importuner toute la journée avec ton papotage, tu as aussi marmonné toute la nuit !~
 @262   = ~On me réprimande, alors qu'on devrait faire mon éloge ! Vous avez tous bénéficié du travail titanesque de mon cerveau la nuit dernière.~
-@263   = ~Le seul bénéfice que j'en ai retiré est un mal de tête aussi grand que l'Epine dorsale du monde ! Si tu es tenaillé par l'insomnie, ne pourrais-tu pas compter les moutons comme tout le monde ?~
-@264   = ~J'y ai pensé, mais un génie de mon envergure ne peut se satisfaire de simples additions que n'importe quel enfant peut faire. Oh, non ! Si seulement vous vous étiez donnés la peine d'écouter au lieu de tirer vos couvertures sur vos têtes et de jurer, vous auriez assisté à la naissance de la théorie mathématique la plus avancée au sujet du comptage des moutons.~
+@263   = ~Le seul bénéfice que j'en ai retiré est un mal de tête aussi grand que l'Épine dorsale du monde ! Si tu es tenaillé par l'insomnie, ne pourrais-tu pas compter les moutons comme tout le monde ?~
+@264   = ~J'y ai pensé, mais un génie de mon envergure ne peut se satisfaire de simples additions que n'importe quel enfant peut faire. Oh, non ! Si seulement vous vous étiez donné la peine d'écouter au lieu de tirer vos couvertures sur vos têtes et de jurer, vous auriez assisté à la naissance de la théorie mathématique la plus avancée au sujet du comptage des moutons.~
 @265   = ~Donc j'ai mal à la tête à cause d'une chose aussi inutile qu'une théorie mathématique ?~
 @266   = ~Elle n'est pas vraiment inutile...~
 @267   = ~*rapidement* Dis Faldorn, que font les moutons quand ils n'arrivent pas à dormir ?~
@@ -398,12 +398,12 @@ Où trouver l'autre moitié...~
 // Faldorn - Safana
 
 @278   = ~Grrr ! Vu la manière dont tu me regardes, j'ai l'impression que tu cherches la bagarre !~
-@279   = ~Tu es si mesquine, Faldorn. tu ne m'as pas laissée prendre un seul de ces petits. Je n'en avais jamais vu comme ça avant...~
+@279   = ~Tu es si mesquine, Faldorn. Tu ne m'as pas laissée prendre un seul de ces petits. Je n'en avais jamais vu comme ça avant...~
 @280   = ~Oh que si. Sous forme de châle de plumes.~
 @281   = ~Oh, des châles de plumes - J'en ai vu un à Calimshan, on aurait dit qu'il était tissé de flocons de neige. C'était chouette !~
 @282   = ~C'est le cas de le dire... Il faut tuer et plumer une centaine de petits pour en fabriquer un.~
 @283   = ~C'est... c'est affreux. Une centaine ? En es-tu bien sûre, chérie ?~
-@284   = ~A peu près. Mais les chasseurs de petits ne sont qu'une des catégories de criminels qu'il faut stopper si on veut donner leur chance aux chouettes. Il y a des fermiers qui rasent la forêt et les laissent sans abri et affamées... Maudits fermiers !~
+@284   = ~À peu près. Mais les chasseurs de petits ne sont qu'une des catégories de criminels qu'il faut stopper si on veut donner leur chance aux chouettes. Il y a des fermiers qui rasent la forêt et les laissent sans abri et affamées... Maudits fermiers !~
 
 // Faldorn - Safana
 
@@ -411,7 +411,7 @@ Où trouver l'autre moitié...~
 @286   = ~Après toutes ces discussions au sujet des chouettes, j'ai eu envie de faire quelque chose pour t'aider dans ta lutte contre les gens qui tuent ces jolies petites bêtes duveteuses. J'ai donc décidé de te donner ma lime à ongles.~
 @287   = ~Une... lime à ongles ? Oh ! Tu crois que je pourrais trancher la gorge de ces méprisables chasseurs avec une lime à ongles sans trahir mon voeu druidique qui m'interdit d'utiliser des armes tranchantes ? Je préfèrerais un cimeterre.~
 @288   = ~Euh... Ce n'est pas à cela que je pensais, Faldorn. Mais... Tu vois, il est très très important qu'une personne soit présentable quand elle essaie de rallier des hommes à se battre pour sa cause.~
-@289   = ~Ce que tu auras immanquablement à faire. Bon, ton cas est désespéré et il est évident qu'au niveau de l'élégance tu ne m'arriveras jamais à l'orteil, mais il faut bien commencer quelque part. Je te suggère de commencer par la crasse sous tes ongles. Ou peut-être de laver ces... hum... ces fringues que tu portes...~
+@289   = ~Ce que tu auras immanquablement à faire. Bon, ton cas est désespéré et il est évident qu'au niveau de l'élégance tu ne m'arriveras jamais à la cheville, mais il faut bien commencer quelque part. Je te suggère de commencer par la crasse sous tes ongles. Ou peut-être de laver ces... hum... ces fringues que tu portes...~
 @290   = ~Oh, je m'en fiche ! S'il y en a moins d'un centimètre d'épaisseur ce n'est même pas de la crasse, et ce qu'il y a en plus tombe tout seul.~
 
 // Faldorn - Shar-teel
@@ -429,20 +429,20 @@ Où trouver l'autre moitié...~
 
 // Faldorn - Shar-teel
 
-@301   = ~Dis-moi en plus au sujet de ce rituel de défi aux hommes que tu as accompli quand tu as rejoint <CHARNAME>. C'est comme ça qu'on fait dans ta tribu ?~
-@302   = ~*grimace* C'est MA manière de faire, Faldorn, et celle de personne d'autre. Mon opinion est que tous les mâles sont des limaces qui ont bien besoin de prendre une leçon d'humilité.~
+@301   = ~Dis-m'en plus au sujet de ce rituel de défi aux hommes que tu as accompli quand tu as rejoint <CHARNAME>. C'est comme ça qu'on fait dans ta tribu ?~
+@302   = ~*sourit* C'est MA manière de faire, Faldorn, et celle de personne d'autre. Mon opinion est que tous les mâles sont des limaces qui ont bien besoin de prendre une leçon d'humilité.~
 @303   = ~La nature a un dessein aussi bien pour les hommes que pour les femmes. Tu ne peux pas détruire les uns ou les autres sans perturber le Grand Équilibre.~
 @304   = ~Bah, je me fiche complètement des grands desseins. Je fais ce que je veux, et que le Grand Équilibre aille au diable ! Si ça me plaît de tuer des hommes, je tuerai des hommes.~
 @305   = ~Et dire qu'on appelle Umberlie la Reine des Garces ! Moi, je dis que tu peux lui ravir ce titre quand tu veux.~
 
 // Faldorn - Shar-teel
 
-@306   = ~L'Equilibre doit être restauré à tout prix.~
+@306   = ~L'Équilibre doit être restauré à tout prix.~
 @307   = ~Tu as l'air de vouloir cet "équilibre" à tout prix, druidesse. Je ne comprends pas. Pourquoi gaspiller tes efforts pour un objectif si inutile ?~
 @308   = ~L'harmonie ultime, Shar-Teel. Un monde où les terres sauvages ne seraient pas la proie des civilisations, un monde où chaque bête mènerait une vie pleine et entière, un monde guidé par la main de la Grande Mère.~
 @309   = ~*étouffe un bâillement* Tu as cet esprit guerrier en toi, Faldorn, mais tu me plairais beaucoup plus si tu ne gobais pas tout ce galimatias au sujet des idéaux et de l'"équilibre". Ne peux-tu donc pas tuer tes ennemis et te satisfaire du sang versé ?~
 @310   = ~Ce *galimatias*, Shar-Teel, est la raison même pour laquelle je me bats ! Il passe avant tout le reste. Avant ces vertus dont les gens civilisés se vantent tant : miséricorde, pitié, honneur et autres. Avant la richesse et le savoir. Avant ma propre vie.~
-@311   = ~Tu places ton but au-dessus de la miséricorde et de la pitié ; cela me va très bien. Mais placer quoi que ce soit au dessus de toi-même est stupide. Peut-être un jour le comprendras-tu, et tu deviendras alors une véritable guerrière. En attendant, tu es esclave de tes propres "idéaux".~
+@311   = ~Tu places ton but au-dessus de la miséricorde et de la pitié ; cela me va très bien. Mais placer quoi que ce soit au-dessus de toi-même est stupide. Peut-être un jour le comprendras-tu, et tu deviendras alors une véritable guerrière. En attendant, tu es esclave de tes propres "idéaux".~
 
 // Faldorn - Skie - Eldoth
 
@@ -465,9 +465,9 @@ Où trouver l'autre moitié...~
 
 // Faldorn - Tiax
 
-@325   = ~*grommelle sombrement dans sa barbe* Regardez-moi ce gnome bouffi d'orgueil ! Voilà l'effet de la civilisation sur les gens. Tous les citadins seront dans sa situation tôt ou tard. A ne rêver de rien d'autre que de pouvoir sur leur semblables et à brailler stupidement.~
+@325   = ~*grommelle sombrement dans sa barbe* Regardez-moi ce gnome bouffi d'orgueil ! Voilà l'effet de la civilisation sur les gens. Tous les citadins seront dans sa situation tôt ou tard. À ne rêver de rien d'autre que de pouvoir sur leurs semblables et à brailler stupidement.~
 @326   = ~Qu'est-ce que tu racontes ? Le grand Tiax est un modèle pour le monde entier ! Tout le monde devrait faire son possible pour devenir comme Tiax ! Ceux qui ne sont pas du tout comme Tiax devraient courber leur tête en signe de dévotion sur le passage de Tiax ! Et pour ceux qui n'obéissent pas, la vengeance de Cyric sera rapide !~
-@327   = ~Je serai *très* heureuse si tous les ennemis de la nature devenaient comme Tiax, pour sûr. Père Chêne, si vous voulez nous accorder la victoire, rendez-les fous !~
+@327   = ~Je serais *très* heureuse si tous les ennemis de la nature devenaient comme Tiax, pour sûr. Père Chêne, si vous voulez nous accorder la victoire, rendez-les fous !~
 @328   = ~Fou ? FOU ? Tiax n'est pas fou ! Tiax a plus d'intelligence dans sa botte que la jeune femme au corbeau n'en a dans sa tête !~
 @329   = ~*sourit sombrement* Mais bien sûr.~
 
@@ -475,8 +475,8 @@ Où trouver l'autre moitié...~
 
 @330   = ~La grande forêt nous entoure.~
 @331   = ~Quand Tiax gouvernera, tout le bois de cette forêt ne sera juste qu'un pied de son trône !~ [%tutu_var%TIAXX12]
-@332   = ~Gnome, une fourmi pourrait grimper au sommet de l'Epine Dorsale du Monde avant que tu n'escalades un pied fait de ces arbres sentinelles. De plus, je n'hésiterai pas à mutiler quiconque essaierait de briser ne serait-ce qu'une de leurs branches.~
-@333   = ~L'Epine Dorsale du Monde n'est guère plus haute qu'une fourmilière pour le grand Tiax ! Quand Tiax gouvernera, il t'obligera à raser toutes ces stupides forêts pour te punir de ton insolence !~
+@332   = ~Gnome, une fourmi pourrait grimper au sommet de l'Épine Dorsale du Monde avant que tu n'escalades un pied fait de ces arbres sentinelles. De plus, je n'hésiterai pas à mutiler quiconque essaierait de briser ne serait-ce qu'une de leurs branches.~
+@333   = ~L'Épine Dorsale du Monde n'est guère plus haute qu'une fourmilière pour le grand Tiax ! Quand Tiax gouvernera, il t'obligera à raser toutes ces stupides forêts pour te punir de ton insolence !~
 @334   = ~*le regarde de travers* Vraiment ? ~
 @335   = ~Oui ! Le puissant Tiax te châtiera ! Chaque arbre ! Chaque daim ! Chaque brin d'herbe ! Tout cela sera détruit quand Tiax gouvernera ! C'est une bonne idée d'ailleurs, car ce sera plus facile pour Tiax de surveiller ses esclaves dans un monde aride.~
 @336   = ~Alors je dois m'assurer que tu ne gouverneras jamais, gnome.~
@@ -495,19 +495,19 @@ Où trouver l'autre moitié...~
 @343   = ~Regardez ces misérables taudis, faits d'arbres autrefois bien vivants et qui furent impitoyablement coupés, et de pierres arrachées au flanc d'une montagne. Que le Père Chêne me donne assez de force, j'effacerai cette verrue sur le visage de la nature et exterminerai ses habitants jusqu'au dernier !~
 @344   = ~Tu ne feras pas une chose pareille ! Tiax ne veut pas que ces gens soient exterminés. Comment pourraient-ils le vénérer quand tu les auras tous tués !? Tiax a besoin de vivants pour s'agenouiller devant lui et le glorifier !~
 @345   = ~Je n'ai rien à faire de tes délires d'adoration. Parce qu'ils ont violé la nature, tous ces gens doivent être renvoyés à la Grande Mère pour être purifiés. Les Druides de l'Ombre s'en chargeront un jour !~
-@346   = ~les villes ne m'intéressent pas non plus, mais tes fantasmes sont tout autant un affront à la nature que n'importe lequel de ces bâtiments que tu détestes tant. les enfants de la nature ne rêvent pas de massacre, et seuls des serviteurs pervertis de la nature comme tes "Druides de l'Ombre" peuvent croire à de telles inepties.~
+@346   = ~Les villes ne m'intéressent pas non plus, mais tes fantasmes sont tout autant un affront à la nature que n'importe lequel de ces bâtiments que tu détestes tant. Les enfants de la nature ne rêvent pas de massacre, et seuls des serviteurs pervertis de la nature comme tes "Druides de l'Ombre" peuvent croire à de telles inepties.~
 @347   = ~Je n'ai pas de temps à perdre avec des faibles qui croient que l'humanité peut vivre dans des villes sans maltraiter la nature. Nous sommes les seuls véritables défenseurs de la nature. Notre cause est juste et sacrée, et nous n'échouerons pas.~
 @348   = ~Bah ! Les Druides de l'Ombre ! Tout groupe qui essaiera d'exterminer les troupeaux d'esclaves de Tiax sans son consentement formel s'effondrera devant la puissance de Tiax !~
-@349   = ~Dis à tes Druides de l'Ombre de venir implorer l'aide de Tiax, et peut-être vous laissera-t-il en tuer quelques uns ; mais à moins qu'il ne s'ennuie terriblement, il est peu probable que Tiax vous laisse exterminer TOUS ses sujets.~
+@349   = ~Dis à tes Druides de l'Ombre de venir implorer l'aide de Tiax, et peut-être vous laissera-t-il en tuer quelques-uns ; mais à moins qu'il ne s'ennuie terriblement, il est peu probable que Tiax vous laisse exterminer TOUS ses sujets.~
 @350   = ~*soupir* La nature est en train d'être mise en pièces, et je suis là à passer mon temps à discuter avec des fous...~
 
 // Faldorn - Viconia
 
 @351   = ~Elfe noire, pourquoi regardes-tu ces fraises des bois de travers ?~
-@352   = ~Les fruits frais ne me servent pas à grand chose, si tu veux savoir. Mon estomac n'y est pas encore habitué, et ils constituent une source continuelle de désagréments. Je déteste leur odeur ainsi que cette extravagante couleur rouge vif.~
+@352   = ~Les fruits frais ne me servent pas à grand-chose, si tu veux savoir. Mon estomac n'y est pas encore habitué, et ils constituent une source continuelle de désagréments. Je déteste leur odeur ainsi que cette extravagante couleur rouge vif.~
 @353   = ~S'il faut que tu regardes les fruits de travers, regarde plutôt ces affreuses abominations que les humains ont produites en torturant des baies sauvages. Mais laisse tomber ces pauvres et innocentes...~
 @354   = ~La sélection des espèces est louable. Peut-être faudrait-il la mettre en pratique plus souvent.~
-@355   = ~A mon avis, le meurtre sélectif est bien meilleur, vu qu'il parvient au même but et en même temps réduit la pression imposée à la nature par les races soit-disant "pensantes".~
+@355   = ~À mon avis, le meurtre sélectif est bien meilleur, vu qu'il parvient au même but et en même temps réduit la pression imposée à la nature par les races soi-disant "pensantes".~
 @356   = ~On peut toujours faire confiance à une femelle quand il s'agit de réfléchir au-delà des piètres limites imposées par ce mauvais prétexte que vous, les habitants de la surface, appelez "moralité". Je n'aurais moi-même pas dit mieux. C'est cela, c'est cela. S'il ne doit rester qu'une seule race pensante pour diriger le monde...~
 @357   = ~Faux ! ARRRGGHHH !~
 @358   = ~Et cette race, ce sont les drows. Tu peux hurler tant que tu veux, wael, mais mes paroles n'en sont pas moins vraies. Les drows sont supérieurs à n'importe quelle autre race et sont donc appelés à régner sur Toril tôt ou tard.~
@@ -526,11 +526,11 @@ Où trouver l'autre moitié...~
 // Faldorn - Viconia
 
 @367   = ~Pourquoi tout le monde dépeint-il les mâles elfes noirs à l'air menaçant ? Je pense qu'ils doivent être un peu efféminés.~
-@368   = ~Efféminés ! Comment oses-tu ! Comparés aux femelles, les mâles ne sont rien, ce sont des... fumiers... *crache et marmonne entre ses dents en langue elfe noire*~
+@368   = ~Efféminés ! Comment oses-tu ! Comparés aux femelles, les mâles ne sont rien, ce sont des... ibilith, des ordures... *crache et marmonne entre ses dents en langue elfe noire*~
 @369   = ~Est-il vrai que les mâles elfes noirs sont de taille plus petite que les femelles ?~
 @370   = ~Oui bien sûr. Les femelles sont plus grandes et plus fortes.~
 @371   = ~Pour ce qui est de ma race, c'est le contraire. C'est pour cela qu'un mâle elfe noir me semble efféminé.~
-@372   = ~Ne me parle pas des coutumes de la surface ! Ici, les femelles sont lâches et soumises. ici, les mâles sont arrogants et insolents. C'est le monde à l'envers !~
+@372   = ~Ne me parle pas des coutumes de la surface ! Ici, les femelles sont lâches et soumises. Ici, les mâles sont arrogants et insolents. C'est le monde à l'envers !~
 
 
 // Faldorn - Xan
@@ -540,21 +540,21 @@ Où trouver l'autre moitié...~
 @375   = ~Le monde n'est condamné que si les citadins corrompus atteignent leurs sinistres objectifs. Les Druides de l'Ombre ne le permettront pas ! Au lieu de hurler à la Lune, Xan, tu devrais nous aider !~
 @376   = ~Moi, me rallier à la cause de barbares fanatiques qui croient avec arrogance être destinés à sauver le monde ? Excusez-moi Faldorn, mais franchement non, je n'ai aucune envie de prendre part à une telle folie. Grâce à votre lutte inutile, vous et vos sauvages de camarades périrez plus vite que les autres.~
 @377   = ~Si vous vivez assez longtemps pour comprendre un minimum l'histoire des nations, vous verrez que les Druides de l'Ombre ne sont pas les premiers à prétendre être les champions-qui-vont-tous-nous-sauver, ce ne seront pas les derniers, et ils ne réussiront pas.~
-@378   = ~Nous essayons de préserver l'Equilibre, et pour cela tout moyen est bon. Nous allons réussir, même si beaucoup d'entre nous devront y laisser la vie ! Mieux vaut mourir en essayant plutôt qu'en pleurnichant ! Grrr !~
+@378   = ~Nous essayons de préserver l'Équilibre, et pour cela tout moyen est bon. Nous allons réussir, même si beaucoup d'entre nous devront y laisser la vie ! Mieux vaut mourir en essayant plutôt qu'en pleurnichant ! Grrr !~
 @379   = ~Mon opinion est qu'il vaut mieux mourir tard que tôt. Et l'une des manières de s'en assurer est de se rallier à une cause moins désespérée, plutôt qu'à une autre sans espoir.~
 @380   = ~Franchement, même la folle épopée dans laquelle nous sommes actuellement engagés est moins susceptible de causer notre perte que le plus sensé des projets des Druides de l'Ombre.~
 
 // Faldorn - Xan
 
-@381   = ~Xan, puis-je voir à nouveau ta lame de Lune ? Cette pierre de Lune sur son pommeau me rappelle le lac dans mon bosquet. Elle est toute aussi ronde et bleue.~
+@381   = ~Xan, puis-je voir à nouveau ta Lame de Lune ? Cette pierre de Lune sur son pommeau me rappelle le lac dans mon bosquet. Elle est tout aussi ronde et bleue.~
 @382   = ~Pourquoi pas ? Tout le monde l'a déjà vue, alors pourquoi pas une druidesse qui trouve la pierre de Lune amusante.~
 @383   = ~Quelle arme merveilleuse !~
 @384   = ~*soupire*~
 @385   = ~N'en es-tu pas fier ? J'ai entendu dire que les épées de ce genre choisissent leurs propriétaires, et que c'est un grand honneur d'en posséder une.~
 @386   = ~C'est un grand honneur, oui - mais la responsabilité qui va avec est encore plus grande. Pendant que je la porte, la lame met mon âme à l'épreuve. Elle me demande si je suis prêt à défendre Evereska de tous ses adversaires. Et l'honneur ne rend pas invincible. Je suis tellement las d'être choisi pour des batailles sans espoir, Faldorn.~
 @387   = ~Beaucoup pensent que quand le grand druide Kador le Brûleur en a eu assez de sa mission, il est simplement retourné à la Grande Mère et a laissé à son héritier la tâche de retrouver son cimeterre magique. Peut-être que c'est ce que tu devrais faire, toi aussi.~
-@388   = ~Cela arrivera bien assez tôt, Faldorn. Je serai vaincu par l'un de ces monstres auquel nous faisons face, et la lame de Lune entrera en sommeil. Elle sera alors perdue par les elfes, hélas, à moins qu'un nouveau champion n'apparaisse pour la porter. Qui sait, c'est peut-être le mieux à faire.~
-@389   = ~C'est exactement ce qui se passera pour le cimeterre de Kador - le rayon d'émeraude. Je le trouverai, et je serai la nouvelle championne de l'équilibre !~
+@388   = ~Cela arrivera bien assez tôt, Faldorn. Je serai vaincu par l'un de ces monstres auquel nous faisons face, et la Lame de Lune entrera en sommeil. Elle sera alors perdue par les elfes, hélas, à moins qu'un nouveau champion n'apparaisse pour la porter. Qui sait, c'est peut-être le mieux à faire.~
+@389   = ~C'est exactement ce qui se passera pour le cimeterre de Kador - le Rayon d'Émeraude. Je le trouverai, et je serai la nouvelle championne de l'équilibre !~
 @390   = ~*soupire* Attention aux voeux que vous formez, Faldorn, car vos désirs pourraient devenir réalité.~
 
 // Faldorn - Xzar

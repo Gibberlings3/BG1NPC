@@ -7,11 +7,11 @@
 @5 = ~Ouep, c'était sympa.~
 @6 = ~*En gloussant* Vous avez fait ce que je voulais que vous fassiez. Vous ne m'êtes plus d'aucune utilité. Soyez-moi reconnaissant de vous laisser partir la vie sauve.~
      ~*En gloussant* Vous avez fait ce que je voulais que vous fassiez. Vous ne m'êtes plus d'aucune utilité. Soyez-moi reconnaissante de vous laisser partir la vie sauve.~
-@7 = ~Ce serait assez juste.~
+@7 = ~C'est de bonne guerre.~
 @8 = ~Adieu alors. Si vous grandissiez un peu, mellonamin, vous pourriez peut-être devenir une compagne acceptable à mes yeux. Bonne chasse.~
 @9 = ~Adieu alors. Bonne chasse.~
-@10 = ~*En riant* En parlant de récompense, il y avait d'ailleurs une prime sur votre tête. Je pense que cet argent est pour moi ! Vous êtes affaibli et ne représenterez pas un bien gros combat. Par tous les dieux, que j'aime les proies stupides !~
-      ~*En riant* En parlant de récompense, il y avait d'ailleurs une prime sur votre tête. Je pense que cet argent est pour moi ! Vous êtes affaiblie et ne représenterez pas un bien gros combat. Par tous les dieux, que j'aime les proies stupides ! ~
+@10 = ~*En riant* En parlant de récompense, il y avait d'ailleurs une prime sur votre tête. Je pense que cet argent est pour moi ! Vous êtes affaibli et ne m'opposerez pas grande résistance. Par tous les dieux, que j'aime les proies stupides !~
+      ~*En riant* En parlant de récompense, il y avait d'ailleurs une prime sur votre tête. Je pense que cet argent est pour moi ! Vous êtes affaiblie et ne m'opposerez pas grande résistance. Par tous les dieux, que j'aime les proies stupides ! ~
 @11 = ~Vous, <PRO_RACE>, vous semblez être à la tête de ce... groupe. Qu'en dites-vous ?~
 @12 = ~Lame d'Argent, vous nous avez fait perdre assez de temps avec votre bavardage. Kivan est mon ami. Je me battrai à ses côtés, quel que soit l'adversaire. Son ennemi est mon ennemi.~
 @13 = ~*Vous* pouvez vous joindre à *moi*, si vous le souhaitez.~
@@ -21,8 +21,8 @@
 @17 = ~Vous êtes du genre ambitieux, n'est-ce pas ? Prouvez-moi que vous méritez que je vous traite en chef. Tuez ce rôdeur, que je vous voie à l'oeuvre.~
       ~Vous êtes du genre ambitieuse, n'est-ce pas ? Prouvez-moi que vous méritez que je vous traite en chef. Tuez ce rôdeur, que je vous voie à l'oeuvre.~
 @18 = ~Et si on fichait la paix à ce rôdeur et que vous preniez sa place dans le rang ? Je vous apprécie bien plus... mais je ne veux pas que l'on dise de moi que j'ai dressé l'épée contre mes compagnons.~
-@19 = ~Cela va sans dire. A dire vrai, je suis surpris que ce geignard ait survécu aussi longtemps dans mon entourage.~
-      ~Cela va sans dire. A dire vrai, je suis surprise que ce geignard ait survécu aussi longtemps dans mon entourage.~
+@19 = ~Cela va sans dire. À dire vrai, je suis surpris que ce geignard ait survécu aussi longtemps dans mon entourage.~
+      ~Cela va sans dire. À dire vrai, je suis surprise que ce geignard ait survécu aussi longtemps dans mon entourage.~
 @20 = ~Ce n'est pas l'attitude que je souhaite voir chez mes esclaves... ou mes compagnons, bien sûr. Je devine qu'aujourd'hui est le jour de votre mort.~
 @21 = ~Parfait. Laissez-moi m'installer confortablement pendant que vous commencez le massacre.~
 @22 = ~Mes loups me tiennent lieu de compagnie. Cela dit, je suis impliquée dans toutes sortes de missions, et il m'arrive le plus souvent d'avoir besoin de quelqu'un qui marche sur deux pieds et parle le Commun. Bien sûr, je n'accepterai pas à mon service quelqu'un qui me soit tout à fait inconnu, c'est pourquoi je vous demanderai de passer un petit test. Tuez ce rôdeur, là, que je vous voie à l'oeuvre.~
@@ -48,7 +48,7 @@
 @38 = ~Du moins, j'espère que c'est ce que c'était. Ou êtes-vous vraiment l'une de ces pathétiques créatures qui prennent au sérieux les voeux des rôdeurs ?~
 @39 = ~Je plains ceux qui se parjurent, pas ceux qui ont tenu leur parole.~
 @40 = ~Aucun sens de l'humour, alors ?~
-@41 = ~Comme c'est décevant ! Hé bien, parlons affaires alors, vous voulez bien ? J'ai un coeur généreux, et j'ai besoin d'hommes. Les fichus crétins avec lesquels je voyageais se sont fait tuer quand vous avez saccagé notre camp. *Elle hausse les épaules* Qu'attendez-vous de simples Na'N'Tel'Quess ? Vous, vous êtes un Elfe, au moins.~
+@41 = ~Comme c'est décevant ! Eh bien, parlons affaires alors, vous voulez bien ? J'ai un coeur généreux, et j'ai besoin d'hommes. Les fichus crétins avec lesquels je voyageais se sont fait tuer quand vous avez saccagé notre camp. *Elle hausse les épaules* Qu'attendez-vous de simples Na'N'Tel'Quess ? Vous, vous êtes un Elfe, au moins.~
 @42 = ~Je suis disposée à vous laisser une chance - je vous prendrai sous mon aile protectrice et vous apprendrai la vie, Kivan.~
 @43 = ~Je ne m'allierai pas à votre cause.~
 @44 = ~Oh, vous ne comprenez pas que votre seconde option est une pierre tombale avec votre nom dessus ? Ça calme, hein ?~
@@ -62,9 +62,9 @@
 @52 = ~Oh non, pas encore les *mêmes* paroles ! Ne commettez pas l'erreur de me prendre à la légère, mellonamin.~
 @53 = ~Je redoute le jour où je traiterai d'ami quelqu'un comme vous, mais je ne vous sous-estime pas. Vous avez l'air d'une meurtrière accomplie, Imanel Lame d'Argent.~
 @54 = ~Alors vous choisissez de mourir.~
-@55 = ~*Soupir* Et j'étais même prête à vous rendre votre arc... après que nous en ayons trouvé un meilleur.~
+@55 = ~*Soupir* Et j'étais même prête à vous rendre votre arc... une fois que nous en aurions trouvé un meilleur.~
 @56 = ~Je ne peux pas me promener indéfiniment avec un arc ayant pour inscription un "mela en' coiamin Kivan". "Mon bien-aimé Kivan..." - et ce n'est pas le pire.~
-@57 = ~Je me demande pourquoi votre petite femme n'a pas utilisé un parchemin pour y inscrire tout ces absurdités et vous le donner ? Ah, je sais ! Elle était certaine que cet arc ne quitterait jamais vos mains...~
+@57 = ~Je me demande pourquoi votre petite femme n'a pas utilisé un parchemin pour y inscrire toutes ces absurdités et vous le donner ? Ah, je sais ! Elle était certaine que cet arc ne quitterait jamais vos mains...~
 @58 = ~Comme c'est émouvant.~
 @59 = ~Tuer quelqu'un de ma race n'est pas quelque chose que je souhaite faire, Imanel. Laissez-moi vous escorter jusqu'aux quartiers du Poing Enflammé ou auprès de toute autre autorité à laquelle vous souhaiteriez vous rendre. Peut-être vous reste-t-il encore une chance de vous racheter.~
 @60 = ~Kivan, vous êtes un imbécile, et vous serez bientôt un imbécile mort. Quelqu'un a-t-il un cerveau parmi vous ? Rejoignez-moi, et nous aurons tout plein d'or et d'amusement ensemble.~

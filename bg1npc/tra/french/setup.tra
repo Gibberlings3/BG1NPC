@@ -25,7 +25,7 @@
 @1024  = ~BG1 NPC Project : donner a Jaheira son portrait de BG2~
 @1025  = ~BG1 NPC Project : donner a Minsc son portrait de BG2~
 @1026  = ~BG1 NPC Project : donner a Viconia son portrait de BG2~
-@1027  = ~BG1 NPC Project : donner a Kivan son portait issu du mod "Kivan and Deheriana Companions"~
+@1027  = ~BG1 NPC Project : donner a Kivan son portrait issu du mod "Kivan and Deheriana Companions"~
 @1028  = ~Rythme de romance de Coran (standard : 1 heure)~
 @1029  = ~La romance de Coran n'est pas installee.~
 @1030  = ~Rythme de romance de Coran (45 minutes)~
@@ -78,13 +78,13 @@
 @1077  = ~Quayle apparait au Pont de la Porte de Baldur~
 @1078  = ~BG1 NPC Project : emplacement initial de Quayle~
 @1079  = ~Quayle apparaitra au Pont de la Porte de Baldur, comme dans le jeu original.~
-@1081  = ~Quayle apparait au Festival de Nashkel~
-@1082  = ~Veuillez commencer une nouvelle partie pour que Quayle apparaisse au Festival de Nashkel, pres du spectacle de Gazib le Magnifique.~
+@1081  = ~Quayle apparait à la foire de Nashkel~
+@1082  = ~Veuillez commencer une nouvelle partie pour que Quayle apparaisse à la foire de Nashkel, pres du spectacle de Gazib le Magnifique.~
 @1083  = ~Tiax apparait a la Porte de Baldur~
 @1084  = ~BG1 NPC Project : emplacement initial de Tiax~
 @1085  = ~Tiax apparaitra a la Porte de Baldur, comme dans le jeu original.~
 @1086  = ~Tiax apparait a Beregost~
-@1087  = ~Veuillez commencer une nouvelle partie pour que Tiax apparaisse a Beregost au premier etage de l'auberge de Feldpost.~
+@1087  = ~Veuillez commencer une nouvelle partie pour que Tiax apparaisse a Beregost au premier etage de l'auberge de Feldepost.~
 @1088  = ~Accelerateur de bavardages par Jason Compton~
 @1089  = ~Vous avez deja installe l'accelerateur de bavardages.~
 @1090  = ~BG1 NPC Project : verification de la presence de Walking Speeds de TutuFix~
@@ -141,7 +141,7 @@
 @1131  = ~BG1 NPC Project : donner a Coran son portrait de "Murder in Baldur's Gate"~
 
 /* new for v26 */
-@1132  = ~The BG1 NPC Project: Kivan's Proficiency~
+@1132  = ~BG1 NPC Project : competence de Kivan~
 @1133  = ~Kivan utilise des lances~
 @1134  = ~Kivan utilise des hallebardes~
 

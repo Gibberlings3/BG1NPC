@@ -14,14 +14,14 @@
 @8 = ~Pour dire la vérité, je ne sais jamais vraiment à quoi m'attendre, moi non plus.~
 @9 = ~La vie est ainsi faite. Mais assez de ces jappements. Attaquons notre prochaine aventure !~
 @10 = ~Oh, aux aguets, c'est certain, et à bout de nerfs, parfois aussi !~
-@11 = ~A vrai dire, je ne sais jamais vraiment à quoi m'attendre, moi non plus.~
+@11 = ~À vrai dire, je ne sais jamais vraiment à quoi m'attendre, moi non plus.~
 @12 = ~Oh, je, euh... Désolé.~
 @13 = ~Je sais ça, j'essayais juste de faire la conversation ! Oh, peu importe.~
 @14 = ~Je mentirais si je disais que je n'ai jamais peur... Mais ça fait partie du métier d'aventurier, non ? Affronter ses peurs ? Enfin, je, euh, j'imagine qu'on ferait mieux d'avancer.~
 @15 = ~Tu as raison. Allons affronter d'autres de nos peurs. En avant !~
 @16 = ~Tant que je sais que tu ne vas pas déguerpir au moindre signe de troubles... Viens, allons-y.~
 @17 = ~Eh bien, tu avais raison à propos d'une chose : avancer. Et la prochaine fois, ne m'ennuie pas avec ce genre de stupidités.~
-@18 = ~Se promener librement, découvrir l'inconnu... C'est dangereux, certes, mais je suis certain que toi, d'entre tous, sera d'accord pour dire que ça fait de bonnes histoires. Allons donc chercher quelque chose d'autre qui mérite d'être relaté.~
+@18 = ~Se promener librement, découvrir l'inconnu... C'est dangereux, certes, mais je suis certain que toi, d'entre tous, seras d'accord pour dire que ça fait de bonnes histoires. Allons donc chercher quelque chose d'autre qui mérite d'être relaté.~
       ~Se promener librement, découvrir l'inconnu... C'est dangereux, certes, mais je suis certaine que toi, d'entre tous, sera d'accord pour dire que ça fait de bonnes histoires. Allons donc chercher quelque chose d'autre qui mérite d'être relaté.~
 
 ///* Garrick - Chapitre 5 */
@@ -41,7 +41,7 @@
 @32 = ~Hum. La prochaine fois, je ne perdrai pas mon temps à répondre à tes divagations. Ferme-la.~
 @33 = ~Je pense que c'est quelque chose à quoi tu dois t'habituer. Parfois, j'ai des difficultés à y faire face, moi-même. Cependant, nous devons aller de l'avant.~
 @34 = ~Tu n'aimes pas regarder la mort dans les yeux ? Qu'en est-il des joies de la mêlée ? Tu ne peux pas nier qu'on s'y sent vivre, si ?~
-@35 = ~Je préférerais juste vivre un jour de plus, c'est tout. Je suis encore jeune, et je suis un amant, pas un guerrier... En plus, je ne pourrais pas vraiment écrire d'histoires si jétais mort, non ? Enfin, sauf si j'étais mort-vivant, euh... Brrrrr.~
+@35 = ~Je préférerais juste vivre un jour de plus, c'est tout. Je suis encore jeune, et je suis un amant, pas un guerrier... En plus, je ne pourrais pas vraiment écrire d'histoires si j'étais mort, non ? Enfin, sauf si j'étais mort-vivant, euh... Brrrrr.~
 @36 = ~Merci, <CHARNAME>, je suis ravi que vous compreniez. J'imagine que nous, euh, devrons juste survivre à ceci ensemble ! Eh bien, en avant pour de nouvelles aventures, et avec un peu de chance, pas les dernières !~
 //
 // Ajantis
@@ -72,15 +72,15 @@
 
 ///* Les Murs de la Porte de Baldur */
 @55 = ~Avez-vous déjà étudié les techniques avancées de siège ? Les murs de cette cité ont l'air d'avoir survécu à un nombre respectable de rencontres avec un trébuchet ou un bélier de siège. En dépit de cela, les lieux sont toujours superbes.~
-@56 = ~J'ai été étudiant à Château-Suif toute ma vie d'enfant, Ajantis. Je suis capable d'une appréciation subtile de la vieille architecture grise et des murs humides. D'où te vient cette fascination pour les murs et les tuiles ne me concerne en rien, et je n'ai pas spécialement envie d'en parler en ce moment.~
-      ~J'ai été étudiante à Château-Suif toute ma vie d'enfant, Ajantis. Je suis capable d'une appréciation subtile de la vieille architecture grise et des murs humides. D'où te vient cette fascination pour les murs et les tuiles ne me concerne en rien, et je n'ai pas spécialement envie d'en parler en ce moment.~
+@56 = ~J'ai été étudiant à Château-Suif toute ma vie d'enfant, Ajantis. Je suis capable d'une appréciation subtile de la vieille architecture grise et des murs humides. Savoir d'où te vient cette fascination pour les murs et les tuiles ne me concerne en rien, et je n'ai pas spécialement envie d'en parler en ce moment.~
+      ~J'ai été étudiante à Château-Suif toute ma vie d'enfant, Ajantis. Je suis capable d'une appréciation subtile de la vieille architecture grise et des murs humides. Savoir d'où te vient cette fascination pour les murs et les tuiles ne me concerne en rien, et je n'ai pas spécialement envie d'en parler en ce moment.~
 @57 = ~C'est un endroit d'une beauté épurée, je te le concède, mais la technologie du siège m'échappe. Je ne vois pas comment tu as tiré de telles conclusions.~
-@58 = ~Notre quête vise à débusquer la vermine de la Côté des Épées et tu pérores à propos de... de structures de murs ? Qu'est-ce qui vient après ? Les tapis ? Est-ce que tu es conscient de l'urgence de notre mission ?~
+@58 = ~Notre quête vise à débusquer la vermine de la Côte des Épées et tu pérores à propos de... de structures de murs ? Qu'est-ce qui vient après ? Les tapis ? Est-ce que tu es conscient de l'urgence de notre mission ?~
 @59 = ~Vous me surprenez, <CHARNAME>, dans le sens où vous montrez des signes de vous intéresser à des cultures plus larges que votre propre expérience, et pourtant, lorsque le moment se présente, vous rejetez tout en bloc. Avez-vous songé au fait que le rôle de chef comprend, en partie, la capacité à faire la différence entre les moments où il est approprié d'écouter et ceux où il vous faut diriger ?~
 @60 = ~Et où as-tu appris tout cela à propos du commandement, Ajantis ? Entre les murs sacrés de l'Ordre ? D'un ancien prélat ou d'une autre entité décatie qui n'a plus la moindre pertinence dans les affaires courantes ? Partir à l'aventure, ce n'est pas aussi joli que tu as pu le lire. Nous devons former une unité rapide, forte et efficace si nous voulons survivre. Et cela passe par l'élimination des petites politesses dans l'équipe... Bon, tu vois l'idée.~
-@61 = ~Tu... as peut-être raison, Ajantis. Peut-être devrais-je m'excuser pour mon attitude. Je n'ai pas quitté Château-Suif depuis longtemps et je m'ajuste encore à la perte de Gorion. Enfin, que disais-tu sur les techniques de siège ?~
+@61 = ~Tu... as peut-être raison, Ajantis. Peut-être devrais-je m'excuser pour mon attitude. Je n'ai pas quitté Château-Suif depuis longtemps et je m'habitue encore à la perte de Gorion. Enfin, que disais-tu sur les techniques de siège ?~
 @62 = ~Eh bien, il y a plusieurs choses qui trahissent l'histoire de ces murs. D'abord, il y a les textures dégradées de certaines des constructions, ici. Comme on peut estimer l'âge d'un arbre à partir des cercles dans son tronc, on peut deviner l'âge d'un bâtiment sur base de sa maçonnerie. Vous voyez, les ressources naturelles, comme le granit ou d'autres pierres solides, s'épuisent tôt ou tard, ce qui signifie que l'on se tourne finalement vers des carrières de sable pour trouver des matériaux de remplissage. Quand cela se produit, on voit d'éventuels changements dans la couleur de la maçonnerie extérieure.~
-@63 = ~Tout ça est très bien, mais tout ce que ça nous dit c'est que les constructions ont subi des dégradations. Cela ne nous dit pas que des engins de siège ont causé ces dégâts. Peux-tu proposer autre chose pour supporter tes déclarations ?~
+@63 = ~Tout ça est très bien, mais tout ce que ça nous dit c'est que les constructions ont subi des dégradations. Cela ne nous dit pas que des engins de siège ont causé ces dégâts. Peux-tu proposer autre chose pour étayer tes déclarations ?~
 @64 = ~Votre attitude ne correspond pas à ce que j'en suis venu à attendre d'un chef, <CHARNAME>. L'urgence des tâches que nous avons à accomplir ne nous échappe pas, mais j'aurais espéré une certaine intégration parmi vos compagnons. Peut-être la prochaine fois essaierai-je de vous parler d'histoire militaire.~
 @65 = ~Bien, euh... c'est une bonne remarque. Voyez-vous, c'est lié au placement de... Euh... Voulez-vous m'excuser une seconde, nous y reviendrons plus tard... *Ajantis commence à lustrer son heaume, tentant d'avoir l'air distrait*~
 
@@ -93,10 +93,10 @@
 @70 = ~Mmmm... Bouclier solide. Blason coloré. Très joli. On y va ?~
 @71 = ~Il y en a une, mais elle n'est pas très prestigieuse. Plutôt que d'être inspiré par une bataille héroïque ou une histoire d'amour tragique, c'est simplement un emblème basé sur une mosaïque qu'a réalisée mon arrière-grand-père. Il a refusé de prendre la voie des armes, préférant être artiste. Son legs a été le souhait que les membres de sa famille ne deviennent pas vaniteux et arrogants de leurs propres réussites.~
 @72 = ~Le dragon vert représente l'arrogance des hommes, la tendance à la jalousie qui peut exister en chacun de nous, si vous préférez. Le fond doré représente les richesses de l'esprit qui nous sont offertes à tous, l'opportunité d'en accomplir plus sans devenir vaniteux. C'est l'emblème qu'arborent tous les membres de ma famille, en l'honneur de l'homme et de sa vision.~
-@73 = ~Bien que ce ne soit pas aussi prestigieux que tu pourrais le souhaiter, c'est terriblement lucide par rapport aux écueils que quelqu'un comme toi va devoir affronter, Ajantis. Je sais que que non seulement tu seras un grand paladin, mais tu seras humble, aussi.~
+@73 = ~Bien que ce ne soit pas aussi prestigieux que tu pourrais le souhaiter, c'est terriblement lucide par rapport aux écueils que quelqu'un comme toi va devoir affronter, Ajantis. Je sais que non seulement tu seras un grand paladin, mais tu seras humble, aussi.~
 @74 = ~Idéologiquement, ça a du sens, mais en réalité, c'est pathétique. Comment peut-on atteindre ses buts avec une histoire de famille qui préfère les pinceaux aux armes, ou l'humilité à la gloire ? Où est le désir de dépasser ce que ta famille t'a imposé ?~
-@75 = ~Oui, la fierté familiale émane de nous tous, bien que peut-être pas aussi fortement de moi, car j'ai choisi de servir Heaum. Ma voie est celle de l'ordre et de l'humilité. Ce blason m'aide à m'en souvenir. Cependant, je pensais que vous aviez été élevé à Château-Suif ? Etant issu d'un lieu aussi prestigieux, vous faites certainement partie d'une longue lignée familiale de savants érudits ?~
-@76 = ~Non, je n'ai pas la chance de connaître les origines de ma famille. J'ai été élevé par Gorion de Château-Suif, mais je ne suis pas son enfant naturel. Mon passé est aussi nébuleux que mon futur. Cependant, il n'est pas nécessaire que nous restions assis ici à ressasser mon histoire tragique, d'autant plus qu'elle est si récente. Viens, mettons-nous en route.~
+@75 = ~Oui, la fierté familiale émane de nous tous, bien que peut-être pas aussi fortement de moi, car j'ai choisi de servir Heaum. Ma voie est celle de l'ordre et de l'humilité. Ce blason m'aide à m'en souvenir. Cependant, je pensais que vous aviez été élevé à Château-Suif ? Étant issu d'un lieu aussi prestigieux, vous faites certainement partie d'une longue lignée familiale de savants érudits ?~ ~Oui, la fierté familiale émane de nous tous, bien que peut-être pas aussi fortement de moi, car j'ai choisi de servir Heaum. Ma voie est celle de l'ordre et de l'humilité. Ce blason m'aide à m'en souvenir. Cependant, je pensais que vous aviez été élevée à Château-Suif ? Étant issue d'un lieu aussi prestigieux, vous faites certainement partie d'une longue lignée familiale de savants érudits ?~
+@76 = ~Non, je n'ai pas la chance de connaître les origines de ma famille. J'ai été élevé par Gorion de Château-Suif, mais je ne suis pas son enfant naturel. Mon passé est aussi nébuleux que mon futur. Cependant, il n'est pas nécessaire que nous restions assis ici à ressasser mon histoire tragique, d'autant plus qu'elle est si récente. Viens, mettons-nous en route.~ ~Non, je n'ai pas la chance de connaître les origines de ma famille. J'ai été élevée par Gorion de Château-Suif, mais je ne suis pas son enfant naturel. Mon passé est aussi nébuleux que mon futur. Cependant, il n'est pas nécessaire que nous restions assis ici à ressasser mon histoire tragique, d'autant plus qu'elle est si récente. Viens, mettons-nous en route.~
 @77 = ~Oui, vous avez raison. Mais nos parents ne font que nous mettre au monde. C'est à nous qu'il incombe de devenir hommes et femmes.~
 @78 = ~De plus, l'histoire du blason Ilvastarr n'est pas très prestigieuse. Plutôt que d'être inspirée par une bataille héroïque ou une histoire d'amour tragique, c'est simplement un emblème basé sur une mosaïque réalisée par mon arrière-grand-père. Il a refusé de prendre la voie des armes, préférant être artiste. Son legs a été le souhait que les membres de sa famille ne deviennent pas vaniteux et arrogants de leurs propres réussites.~
 @79 = ~Idéologiquement, ça a du sens, mais en réalité, c'est pathétique. Comment peut-on atteindre ses buts avec une histoire de famille qui préfère les pinceaux aux armes, ou l'humilité à la gloire ? Où est le désir de dépasser ce que ta famille t'a imposé ?~
@@ -129,37 +129,37 @@
 @99    = ~Silence, citadin ! Si tu ne veux pas entendre, alors REGARDE !~
 @100   = ~Je suis forte, mais j'avais besoin de soulager mon coeur de l'horreur qui l'avait envahi. *Regarde* !~
 @101   = ~Regarde ces amas de chair d'où suintent des fluides acides ! C'était le foie et l'estomac de la terre, avant qu'on ne les brise ! La Grande Mère a fait du minerai couleur de la chair qui saigne pour une bonne raison... Et ses bourreaux ne s'arrêtent jamais ! Ils broieront sans pitié son corps entier en un immonde gâchis. Ils brûleront ses verts enfants, uniquement pour produire de l'acier cruel et continuer à tuer !~
-@102   = ~D'une certaine manière, ce n'est que justice que celui qui achète une épée de fer meure souvent d'une épée de fer. Peut-être... peut-être est-ce une manifestation de l'Equilibre ?~
-@103   = ~Tu m'as convaincu ! A l'attaque !~
-         ~Tu m'as convaincue ! A l'attaque !~
+@102   = ~D'une certaine manière, ce n'est que justice que celui qui achète une épée de fer meure souvent d'une épée de fer. Peut-être... peut-être est-ce une manifestation de l'Équilibre ?~
+@103   = ~Tu m'as convaincu ! À l'attaque !~
+         ~Tu m'as convaincue ! À l'attaque !~
 @104   = ~Ouais, c'est une vision bien moche. Mais on a besoin de fer, tu sais.~
 @105   = ~Grrr ! Aujourd'hui nous nous battons pour Silvanus et la Grande Mère ! Ma meute, que la force soit avec nous !~
 @106   = ~Grrr ! Tu oses penser au butin alors que la Grande Mère est en train d'être souillée ! *Regarde* !~
 @107   = ~Ouvre tes yeux, citadin, et ouvre-les en grand avant que je ne tranche tes veines pour voir si c'est bien du sang qui y coule ou de la pisse de nain ! *Regarde* !~
 @108   = ~C'est parce que ces stupides moines ont essayé de te régenter et de pervertir ta rage animale naturelle par leurs enseignements mensongers ! Je te montrerai ce qu'est la vraie vie, mais nous n'avons pas le temps maintenant ! En route !~
-@109   = ~L'Equilibre ne peut être atteint uniquement par la destruction, espèce de balourd. Maintenant arrête de jouer sur les mots et attaque les mines !~
-         ~L'Equilibre ne peut être atteint uniquement par la destruction, espèce de balourde. Maintenant arrête de jouer sur les mots et attaque les mines !~
-@110   = ~Discuter avec toi est comme faire rouler un rocher au sommet d'une montagne : c'est inutile et le résultat de ces efforts peut aussi bien être mortel. Remettons-nous en route.~
+@109   = ~L'Équilibre ne peut être atteint uniquement par la destruction, espèce de balourd. Maintenant arrête de jouer sur les mots et attaque les mines !~
+         ~L'Équilibre ne peut être atteint uniquement par la destruction, espèce de balourde. Maintenant arrête de jouer sur les mots et attaque les mines !~
+@110   = ~Discuter avec toi, c'est comme faire rouler un rocher au sommet d'une montagne : c'est inutile et le résultat de ces efforts peut aussi bien être mortel. Remettons-nous en route.~
 @111   = ~Tu as raison, bien sûr.~
-@112   = ~*écarquille les yeux* Tu peux dire ce que tu veux...~
+@112   = ~*Lever les yeux au ciel.* Tu peux dire ce que tu veux...~
 @113   = ~Je n'ai aucune envie d'écouter les mensonges que tu débites, druidesse.~
-@114   = ~Tu es stupide à ce point-là, hein ? Ou alors les moines t'ont-ils transformé en ennemi de la nature ? Je pensais que ton instinct était intact... ~
-@115   = ~Et c'est le cas ! *secoue la tête* Maudites idées fausses ! Nous allons faire payer les ennemis de la Nature ! MAINTENANT !~
+@114   = ~Tu es stupide à ce point-là, hein ? Ou alors les moines t'ont-ils transformé en ennemi de la nature ? Je pensais que ton instinct était intact... ~ ~Tu es stupide à ce point-là, hein ? Ou alors les moines t'ont-ils transformée en ennemie de la nature ? Je pensais que ton instinct était intact... ~
+@115   = ~Et c'est le cas ! *Secouer la tête.* Maudites idées fausses ! Nous allons faire payer les ennemis de la Nature ! MAINTENANT !~
 @116   = ~Grrr ! Alors n'écoute pas ! Mais ne reste pas planté là comme un chêne, mais en plus maigre, plus moche et totalement inutile. Faisons ce que la Grande Mère nous demande, nous papoterons plus tard !~
 ///* Faldorn Friend Talk 2 */
 @117   = ~*d'un air approbateur* Il y a une bête en toi, <CHARNAME>, mais laquelle ?~
 @118   = ~Alors tu es aveugle, druidesse. Je suis <PRO_RACE>, je dirais même que ça paraît évident.~
 @119   = ~Pfiou, une bête ! Je ne suis pas une bête, Faldorn.~
-@120   = ~Une bête ? Je crois que je préférerais être une plante... Immobile toute la journée, à penser en silence, personne d'autre que le vent pour m'ennuyer... *soupire rêveusement* Une vie merveilleuse !~
+@120   = ~Une bête ? Je crois que je préférerais être une plante... Immobile toute la journée, à penser en silence, personne d'autre que le vent pour m'ennuyer... *Soupirer rêveusement.* Une vie merveilleuse !~
 @121   = ~Hum... maintenant que j'y pense, ça doit être un loup.~
 @122   = ~Groarr ! Groarr... C'était pour t'aider à deviner ! C'est un ours !~
 @123   = ~Des gens m'ont déjà comparé à un renard... lorsqu'ils pensaient que je ne les entendais pas...~
 @124   = ~Discerner l'aspect bestial en chacun de nous est certainement le signe d'une *véritable* druidesse. C'est malheureux que tu n'aies pas ce talent-là.~
-@125   = ~OUI ! Bien sûr ! <PRO_RACE> est une bête comme les autres ! BONNE REPONSE !~
+@125   = ~OUI ! Bien sûr ! <PRO_RACE> est une bête comme les autres ! BONNE RÉPONSE !~
 @126   = ~Quoi ! Tu penses que les bêtes sont des êtres inférieurs ? Idiot... Oh ! J'AI COMPRIS ! Tu es juste <PRO_RACE> ! <PRO_RACE> est une bête comme les autres, il est donc inutile de chercher une autre bête dont le comportement ressemblerait au tien.~
-@127   = ~Oui, oui, c'est vrai. *le visage de Faldorn s'assombrit.* A moins, bien sûr, que des ferrrrrmiers ne viennent avec leurs charrues et leurs troupeaux gloutons, ou que des bûcherons maléfiques ne te désignent comme victime.~
+@127   = ~Oui, oui, c'est vrai. *le visage de Faldorn s'assombrit.* À moins, bien sûr, que des ferrrrrmiers ne viennent avec leurs charrues et leurs troupeaux gloutons, ou que des bûcherons maléfiques ne te désignent comme victime.~
 @128   = ~Toute chose doit mourir un jour. Est-ce vraiment mieux de mourir de maladie ou transpercé par une flèche, plutôt que dans la bouche d'une vache ou dans un four ?~
-@129   = ~Dans ce cas je suis content d'être <PRO_RACE>, je peux me défendre tout seul !~
+@129   = ~Dans ce cas je suis content d'être <PRO_RACE>, je peux me défendre tout seul !~ ~Dans ce cas je suis contente d'être <PRO_RACE>, je peux me défendre toute seule !~
 @130   = ~Hummm... tout bien réfléchi, je préférerais être un loup.~
 @131   = ~Groarr ! Groarr... Un ours, alors ! Les ours sont grands...~
 @132   = ~Bon... s'il faut que ce soit une bête... Des gens m'ont déjà comparé à un renard... lorsqu'ils pensaient que je ne les entendais pas...~
@@ -173,14 +173,14 @@
 @139   = ~*l'examine attentivement* Oui, oui, ceux qui ont dit ça avaient de bons yeux, mais n'étaient pas très futés d'avoir bavardé si peu discrètement.~
 @140   = ~Grrr ! TOI ALORS ! *s'arrête un instant* Je sais. Tu es un moqueur ! Tu sais, ces oiseaux...~
 @141   = ~D'accord. Maintenant que nous avons résolu ce problème de la plus haute importance, pouvons-nous passer à quelque chose de plus banal comme notre quête actuelle, par exemple ?~
-@142   = ~*soupire et lève les yeux au ciel* Très bien. Pouvons-nous continuer, maintenant ?~
+@142   = ~*Soupirer et lever les yeux au ciel.* Très bien. Pouvons-nous continuer, maintenant ?~
 @143   = ~*sarcastiquement* Mais comme c'est... fascinant !~
 @144   = ~Faldorn, je ne suis NI une bête stupide, NI un oiseau !~
 @145   = ~Wooouh-houuu-houuuuuuuuuuu !!!~
 @146   = ~Tu ne sais pas ce que tu perds !~
 @147   = ~*hoche la tête* Oui... un moqueur.~
 ///* Faldorn Friend Talk 3 */
-@148   = ~J'ai eu plus de chance que toi au niveau de ma famille adoptive. Cela doit être terrible de découvrir combien de mensonges les moines *civilisés* t'ont enseigné.~
+@148   = ~J'ai eu plus de chance que toi au niveau de ma famille adoptive. Cela doit être terrible de découvrir combien de mensonges les moines *civilisés* t'ont enseignés.~
 @149   = ~Tu es aussi une orpheline, Faldorn ? ~
 @150   = ~Hum... Tu as grandi dans un bosquet de druides ou quelque chose comme ça, n'est-ce pas ?~
 @151   = ~Gorion était le *meilleur* père qu'un enfant puisse souhaiter. Et il ne m'a jamais menti... à moins que tu ne considères comme mensonge le fait de me cacher la vérité... ~
@@ -199,7 +199,7 @@
          ~Har ! Alors tu es une citadine typique, ta vision des choses est dénaturée. Regarde, tu as toujours porté les stigmates de l''enfant illégitime', 'sans nom', 'sans famille' ou 'enfant de putain'. Alors que moi, je courais librement, certaine d'être bien accueillie par la Grande Mère, qui que ce soit qui m'ait engendrée.~
 @163   = ~La terre de ma tribu était frappée par la sécheresse et le froid depuis plusieurs années. Les proies se raréfièrent et les ruisseaux s'asséchèrent. Tempus, Aurile et les esprits des ancêtres n'entendaient pas les prières de mon peuple. Les anciens de la tribu décidèrent alors de donner un nouveau-né en offrande aux druides.~
 @164   = ~Mais pourquoi *toi* ? Étais-tu la fille d'un chaman ou quelque chose comme ça ?~
-@165   = ~*secoue la tête* Les barbares... Cela améliora-t-il les choses au niveau de la pluie ?~
+@165   = ~*Secouer la tête.* Les barbares... Cela améliora-t-il les choses au niveau de la pluie ?~
 @166   = ~Je vois. Bien, il faut se mettre en route maintenant.~
 @167   = ~Peut-être. Ou alors étais-je la seule née cet hiver-là ? Ma mère est peut-être morte en couches, ou peut-être étais-je de trop lorsqu'un homme plus fort tua son mari, la prit pour femme mais ne voulait pas d'autre petit ? Je ne sais pas, et cela n'a pas d'importance.~
 @168   = ~Oui. Silvanus fut satisfait que les Corbeaux Noirs offrent un réceptacle pour l'esprit de Kador le Brûleur, le célèbre druide qui tomba face aux ennemis de la nature, et il fit tomber la pluie. L'esprit de Kador vit en moi maintenant... j'en suis certaine !~
@@ -219,22 +219,22 @@
 @175 = ~Un Mage Rouge de Thay porte ses robes avec fierté, et attend de la déférence de la part de ceux à qui il fait grâce de sa présence... C'est ce qu'il se passerait dans des pays civilisés, bien sûr.~
 @176 = ~Alors, qu'y a-t-il de si spécial chez les Mages Rouges, Edwin ? C'est chose douloureuse que de ne pas savoir combien je suis chanceux.~
        ~Alors, qu'y a-t-il de si spécial chez les Mages Rouges, Edwin ? C'est chose douloureuse que de ne pas savoir combien je suis chanceuse.~
-@177 = ~*ricane* Voilà qui explique pourquoi un Mage Rouge s'habille comme un picador désespéré, mais qu'en est-il de toi, Edwin ?~
-@178 = ~Dans nos contrées non civilisées, *nous *autres barbares aurions plutôt tendance à nous moquer qu'à nous incliner devant quelqu'un comme toi.~
+@177 = ~*Ricaner.* Voilà qui explique pourquoi un Mage Rouge s'habille comme un picador désespéré, mais qu'en est-il de toi, Edwin ?~
+@178 = ~Dans nos contrées non civilisées, *nous* autres barbares aurions plutôt tendance à nous moquer qu'à nous incliner devant quelqu'un comme toi.~
 @179 = ~Les Mages rouges de Thay détiennent les secrets les plus sombres de la magie la plus puissante ! Le plus faible de nos Zulkirs pourrait réduire en poussière votre pathétique Elminster en un claquement de doigt. (Il y a plus de pouvoir dans mon petit doigt que dans son petit cerveau desséché, j'en suis certain.)~
 @180 = ~Et le Zulkir, cela doit être une pâtisserie au miel et aux noisettes ?~
-@181 = ~Oh, va te faire voir, Edwin. Les Mages Rouges se croient très importants, mais en réalité, ils ne valent pas mieux que les autres mages. En fait, ils sont pires, car ils gaspillent trop de temps à fomenter leurs complots politiques, et en passent trop peu à faire des recherches en magie.~
+@181 = ~Oh, va te faire voir, Edwin. Les Mages Rouges se pensent si importants, mais en réalité, ils ne sont pas meilleurs que les autres mages. En fait, ils sont pires, car ils gaspillent trop de temps à fomenter leurs complots politiques, et en passent trop peu à faire des recherches en magie.~
 @182 = ~Tu m'as convaincu de la supériorité des Mages Rouges, Edwin. Si tu nous offres une démonstration pratique de tes aptitudes durant la prochaine bataille, je m'agenouillerai devant toi et vénérerai pour toujours ta bravoure. Je suis certain que tu as hâte de voir venir cet heureux événement, alors allons-y. *Maintenant* !~
        ~Tu m'as convaincue de la supériorité des Mages Rouges, Edwin. Si tu nous offres une démonstration pratique de tes aptitudes durant la prochaine bataille, je m'agenouillerai devant toi et vénérerai pour toujours ta bravoure. Je suis certaine que tu as hâte de voir venir cet heureux événement, alors allons-y. *Maintenant* !~
-@183 = ~A vrai dire, dans un pays qui préfère les oeufs durs à la meringue à la crème, ton approche basique de la magie serait plus appréciée que mon aptitude parfaitement affûtée. Par chance, il existe hors d'ici des sociétés plus éclairées.~
+@183 = ~À vrai dire, dans un pays qui préfère les oeufs durs à la meringue à la crème, ton approche basique de la magie serait plus appréciée que mon aptitude parfaitement affûtée. Par chance, il existe hors d'ici des sociétés plus éclairées.~
 @184 = ~Je veux que tu saches, simien, qu'un Mage rouge de Thay te gratifie de sa présence. J'ai été formé à diriger. La seule chose qui me retienne de tenter la conquête de ce pauvre territoire est qu'il est tout à fait barbare et dépourvu d'attraits pour un penseur sophistiqué de mon acabit.~
        ~Je veux que tu saches, simienne, qu'un Mage rouge de Thay te gratifie de sa présence. J'ai été formé à diriger. La seule chose qui me retienne de tenter la conquête de ce pauvre territoire est qu'il est tout à fait barbare et dépourvu d'attraits pour un penseur sophistiqué de mon acabit.~
 @185 = ~Ah, bon. Pour ma part diriger la Porte de Baldur ne me dérangerait pas, mais chacun ses goûts.~
 @186 = ~Oh, va te faire voir, Edwin. Les Mages Rouges se pensent si importants, mais en réalité, ils ne sont pas meilleurs que les autres mages. En fait, ils sont pires, car ils gaspillent trop de temps à fomenter leurs complots politiques, et en passent trop peu à faire des recherches en magie.~
-@187 = ~Je vois que ton esprit est aussi aiguisé et tranchant qu'une pomme de terre bouillie. (Cela tend à prouver qu'il n'est pas nécessaire d'être un druide pour répondre au nom de la vie sauvage.)~
+@187 = ~Je vois que ton esprit est aussi aiguisé et tranchant qu'une pomme de terre bouillie. (Cela tend à prouver qu'il n'est pas nécessaire d'être un druide pour que la faune vous réponde.)~
 @188 = ~Je *suis* un Mage Rouge, balourd !~
        ~Je *suis* un Mage Rouge, balourde !~
-@189 = ~Oh ! Qui l'eût cru ! *vous vous mettez à rire*~
+@189 = ~Oh ! Qui l'eût cru ! *Se mettre à rire.*~
 @190 = ~Sans blague ?!~
 @191 = ~Calme-toi, Edwin. Une démonstration pratique de tes compétences d'exception est de mise pour la prochaine bataille. Et nous ne l'aurons pas à moins de nous mettre en route. *Maintenant* !~
 @192 = ~Les Zulkirs, ô compagnon de voyage désespérément ignorant, sont les plus puissants mages au sein des Mages Rouges. Ils ont une autorité totale sur les mages de leurs écoles respectives de magie. (Je me demande si je dois expliciter *cela* ?)~
@@ -246,9 +246,9 @@
 @196 = ~Oui, oui, ce sont là des défis posés à l'esprit borné. Ceux qui sont acceptés dans les rangs des Mages rouges sont doués au-delà de ce que les barbares d'ici peuvent imaginer. Ils excellent ainsi à la fois en magie et en politique.~
 @197 = ~Les véritables mages ne devraient pas se retirer du monde, ils devraient le diriger. Garder les mages à l'écart du commandement laisserait le monde trébucher dans le noir comme un poulet sans tête.~
 ///* Edwin and Dynaheir */
-@198 = ~<CHARNAME>, quelle partie de "Je te commande de tuer la sorcière Rashémi" n'as-tu pas comprise ? Peut-être devrais-je utiliser des termes plus simples, plus courts ? Faudrait-il que je te l'écrive et que je te lise tout bas cinq fois par jour, afin que cela puisse s'implanter dans ton minuscule cerveau ?~
+@198 = ~<CHARNAME>, quelle partie de "Je te commande de tuer la sorcière Rashémi" n'as-tu pas comprise ? Peut-être devrais-je utiliser des termes plus simples, plus courts ? Faudrait-il que je te l'écrive et que je te le lise à voix haute cinq fois par jour, afin que cela puisse s'implanter dans ton minuscule cerveau ?~
 @199 = ~Pourquoi as-tu besoin de la tuer, au juste ? Est-ce une personne de quelque importance ?~
-@200 = ~Hum... Cette idée de lire à voix basse n'est pas si mauvaise. J'aime le son de ta voix presque autant que toi, Edwin.~
+@200 = ~Hum... Cette idée de lire à voix haute n'est pas si mauvaise. J'aime le son de ta voix presque autant que toi, Edwin.~
 @201 = ~Je t'ai promis de la tuer, et j'honorerai ma parole.~
 @202 = ~*soupir* <CHARNAME> fais ceci, <CHARNAME> fais cela... que quelqu'un donne une banane à ce singe !~
 @203 = ~Peut-être devrais-je te couper la gorge et voir si ton sang est aussi rouge que ta jupe.~
@@ -258,13 +258,13 @@
 @206 = ~C'est une sorcière Rashémi, et la détruire est la tâche qui m'a été assignée. C'est tout ce que tu as besoin de savoir. (Et tout ce qu'il peut comprendre, de toute façon. Qu'est-ce qu'un simien pourrait savoir des perspectives qui s'ouvriront à moi si je gagne la confiance de Nevron ?)~
        ~C'est une sorcière Rashémi, et la détruire est la tâche qui m'a été assignée. C'est tout ce que tu as besoin de savoir. (Et tout ce qu'elle peut comprendre, de toute façon. Qu'est-ce qu'une simienne pourrait savoir des perspectives qui s'ouvriront à moi si je gagne la confiance de Nevron ?)~
 @207 = ~C'est une sorcière Rashémi, et la détruire est la tâche qui m'a été assignée. Disons que son trépas sera la première marche de ma glorieuse ascension.~
-@208 = ~Ah, oui, en effet - le son de ma voix. Je dois te faire savoir que beaucoup d'autres avant toi l'ont trouvé séduisante, tout particulièrement au coucher du soleil. Pourtant, je me sens obligé de te rappeler que cette voix fabuleuse ne sera plus là pour que tu puisses en profiter, si la sorcière continue de vivre.~
+@208 = ~Ah, oui, en effet - le son de ma voix. Je dois te faire savoir que beaucoup d'autres avant toi l'ont trouvée séduisante, tout particulièrement au coucher du soleil. Pourtant, je me sens obligé de te rappeler que cette voix fabuleuse ne sera plus là pour que tu puisses en profiter, si la sorcière continue de vivre.~
 @209 = ~Est-ce une personne de quelque importance ?~
 @210 = ~Avez-vous, elle et toi... euh... été liés de quelque manière auparavant, pour que tu désires si ardemment sa mort, mon cher ?~
-@211 = ~*roule des yeux* (Pas *encore* une barbare convoitant ma parfaite personne...) Écoute, ô femme euh... intègre. Ma merveilleuse voix ne sera plus là pour que tu puisses t'extasier sur elle, si tu ne tues pas mon adversaire.~
+@211 = ~*lève les yeux au ciel* (Pas *encore* une barbare convoitant ma parfaite personne...) Écoute, ô femme euh... intègre. Ma merveilleuse voix ne sera plus là pour que tu puisses t'extasier sur elle, si tu ne tues pas mon adversaire.~
 @212 = ~As-tu vraiment besoin de la tuer ? Est-ce une personne de quelque importance ?~
-@213 = ~Avec ton allure sinistre et défraîchie ; tu as toi-même une présence assez... imposante. Si l'on ferme les yeux sur ton visage sale, ton accent épouvantable et tes atours de mendiant, bien sûr. A présent, en route, simien.~
-       ~Avec ton allure sinistre et défraîchie ; tu as toi-même une présence assez... imposante. Si l'on ferme les yeux sur ton visage sale, ton accent épouvantable et tes atours de mendiante, bien sûr. A présent, en route, simienne.~
+@213 = ~Avec ton allure sinistre et défraîchie, tu as toi-même une présence assez... imposante. Si l'on ferme les yeux sur ton visage sale, ton accent épouvantable et tes atours de mendiant, bien sûr. À présent, en route, simien.~
+       ~Avec ton allure sinistre et défraîchie, tu as toi-même une présence assez... imposante. Si l'on ferme les yeux sur ton visage sale, ton accent épouvantable et tes atours de mendiante, bien sûr. À présent, en route, simienne.~
 @214 = ~Tu as une présence charmante et imposante. Je devine que notre collaboration sera agréable à plus d'un titre.~
 @215 = ~(C'est amusant de voir comme ils imitent toujours leurs supérieurs.) Tue *Dynahéir* ! Pas un gobelin, pas un xvart, pas un kobold - *Dynahéir* ! D-Y-N-A... Tue-la, et ensuite nous pourrons parler fruits !~
 @216 = ~Que suggères-tu, insipide... (Un instant ! Ce pourrait justement être le stimulus auquel une simienne répondra !) Dynahéir était l'amour de ma vie, <CHARNAME>. Et elle m'a trahi... d'une manière affreuse. (Voilà assez de détails pour cette vache stupide, je pense.) Tue-la, et je te laisserai t'extasier sur moi en adoration. Je pourrais même t'embrasser. Plus tard. Beaucoup plus tard.~
@@ -276,15 +276,15 @@
 @222 = ~Je l'ai dit : d'une manière affreuse. Maintenant ce serait gentil de ramasser ta mâchoire qui traîne à terre et de t'occuper de ma tâche et de tes... (Comment appeler cela ? Un cache-cache champêtre ?) ah oui, de tes quêtes.~
 @223 = ~Bien sûr que non - mon goût parfait en matière de femmes m'empêcherait de m'impliquer auprès d'une sorcière aussi fanatique, primitive et ignorante.~
 @224 = ~Bien sûr que non - mon goût parfait en matière de femmes me retiendrait d'une telle erreur.~
-@225 = ~Ce pays est infesté de pitié, laquelle,de temps à autres, provoque des complications telles que la faiblesse d'esprit. Tu es un homme malade, <CHARNAME>, très malade, et c'est moi qui souffre de tes symptômes. Ton esprit peut-il saisir que je ne suis pas venu ici pour *sauver* la sorcière et voyager en sa répugnante compagnie, mais pour la tuer ?~
-       ~Ce pays est infesté de pitié, laquelle,de temps à autres, provoque des complications telles que la faiblesse d'esprit. Tu es une femme malade, <CHARNAME>, très malade, et c'est moi qui souffre de tes symptômes. Ton esprit peut-il saisir que je ne suis pas venu ici pour *sauver* la sorcière et voyager en sa répugnante compagnie, mais pour la tuer ?~
+@225 = ~Ce pays est infesté de pitié, laquelle, de temps à autre, provoque des complications telles que la faiblesse d'esprit. Tu es un homme malade, <CHARNAME>, très malade, et c'est moi qui souffre de tes symptômes. Ton esprit peut-il saisir que je ne suis pas venu ici pour *sauver* la sorcière et voyager en sa répugnante compagnie, mais pour la tuer ?~
+       ~Ce pays est infesté de pitié, laquelle, de temps à autre, provoque des complications telles que la faiblesse d'esprit. Tu es une femme malade, <CHARNAME>, très malade, et c'est moi qui souffre de tes symptômes. Ton esprit peut-il saisir que je ne suis pas venu ici pour *sauver* la sorcière et voyager en sa répugnante compagnie, mais pour la tuer ?~
 @226 = ~Edwin, Dynahéir m'importe peu, mais je veux garder Minsc.~
 @227 = ~Oh, la ferme. Elle a son utilité.~
-@228 = ~A vrai dire, tu as entaché ta mission, je peux donc rapporter ta traîtrise à ton Zulkir. A présent je te suggère de faire ce que je dis.~
-@229 = ~Parlons vrai, Edwin, Je n'ai pas vraiment envie de tuer Dynahéir.~
+@228 = ~À vrai dire, tu as bâclé ta mission, je peux donc rapporter ta traîtrise à ton Zulkir. À présent je te suggère de faire ce que je dis.~
+@229 = ~Parlons vrai, Edwin, je n'ai pas vraiment envie de tuer Dynahéir.~
 @230 = ~Bon, tuons-la, alors !~
 @231 = ~Je ne supporterai pas une indignité telle que le meurtre d'une soeur d'armes. Dynahéir est sous ma protection, Edwin, et tu ferais mieux de ne pas l'oublier.~
-@232 = ~Tu gardes la sorcière avec toi sur ce critère - un balourd fidèle ? ~
+@232 = ~Tu gardes la sorcière à cause de ce balourd qui vénère un rongeur ? ~
 @233 = ~(Exactement ce à quoi il faut s'attendre de la part d'un orphelin conçu dans une meule de foin.) Il n'est pas nécessaire que tu le perdes, <CHARNAME>... si je pouvais arranger un... accident...~
        ~(Exactement ce à quoi il faut s'attendre de la part d'une orpheline conçue dans une meule de foin.) Il n'est pas nécessaire que tu le perdes, <CHARNAME>... si je pouvais arranger un... accident...~
 @234 = ~Tu as raison, Edwin. Il est fort, mais stupide. Applique ton plan.~
@@ -303,8 +303,8 @@
 @245 = ~Ce n'est pas une blague. Je la trouve utile, et en outre, je crains pour ta sécurité.~
 @246 = ~Ouais, je suis un marrant. Tuons-la, alors.~
        ~Ouais, je suis une marrante. Tuons-la, alors.~
-@247 = ~Vraiment, Edwin, pour moi, il manque au meurtre ce subtil je ne sais quoi. ça ne me semble pas un réel exploit de se débarrasser de la sorcière, avant de savoir ce qu'elle cherche. En outre, elle semble bien gardée, et je crains pour ta sécurité.~
-@248 = ~Vraiment, Edwin, pour moi, il manque au meurtre ce subtil je ne sais quoi. ça ne me semble pas un réel exploit de se débarrasser de la sorcière, avant de savoir ce qu'elle cherche. En outre, elle semble douée dans son domaine, et je crains pour ta sécurité.~
+@247 = ~Vraiment, Edwin, pour moi, il manque au meurtre ce subtil je ne sais quoi. Ça ne me semble pas un réel exploit de se débarrasser de la sorcière, avant de savoir ce qu'elle cherche. En outre, elle semble bien gardée, et je crains pour ta sécurité.~
+@248 = ~Vraiment, Edwin, pour moi, il manque au meurtre ce subtil je ne sais quoi. Ça ne me semble pas un réel exploit de se débarrasser de la sorcière, avant de savoir ce qu'elle cherche. En outre, elle semble douée dans son domaine, et je crains pour ta sécurité.~
 @249 = ~Tu pourrais le faire sans m'empoisonner constamment sur le sujet, tu sais. Ce n'est pas comme si tu n'en avais pas l'occasion, vu que tu voyages à ses côtés.~
 @250 = ~C'est une simple question de courtoisie, étant donné que tu t'es convaincu et que tu as convaincu ces niais que tu étais le chef de ce groupe. Je ne perdrai plus mon temps à te consulter sur ce sujet. (Bien. Une bonne chose.)~
        ~C'est une simple question de courtoisie, étant donné que tu t'es convaincue et que tu as convaincu ces niais que tu étais le chef de ce groupe. Je ne perdrai plus mon temps à te consulter sur ce sujet. (Bien. Une bonne chose.)~
@@ -314,7 +314,7 @@
 @253 = ~Vraiment, Edwin, ça ne me semble pas un réel exploit que de se débarrasser de la sorcière, avant de savoir ce qu'elle cherche. En outre, elle semble douée dans son domaine, et je crains pour ta sécurité.~
 @254 = ~Mais elle ne se soucie même pas de ta présence ! Dynahéir ne t'a rien fait, en réalité ! Je veux dire, si tu l'attaquais, elle pourrait...~
 @255 = ~Je ne supporterai pas une indignité telle que le meurtre d'une soeur d'armes. Dynahéir est sous ma protection, Edwin, et tu ferais mieux de ne pas l'oublier.~
-@256 = ~Quel naturel absolument charmant (bien qu'idiot) que le tien , ma chère... Permets-moi d'apaiser tes craintes - je suis parfaitement capable de supprimer la sorcière. Cependant, afin de te démontrer que je ne suis pas sans respect envers les sens délicats d'une femme, je ne te consulterai plus sur des sujets aussi prosaïques. (Je vois que mes plans concernant la Wychlaran ne rencontreront pas d'opposition de sa part.)~
+@256 = ~Quel naturel absolument charmant (bien qu'idiot) que le tien, ma chère... Permets-moi d'apaiser tes craintes - je suis parfaitement capable de supprimer la sorcière. Cependant, afin de te démontrer que je ne suis pas sans respect envers les sens délicats d'une femme, je ne te consulterai plus sur des sujets aussi prosaïques. (Je vois que mes plans concernant la Wychlaran ne rencontreront pas d'opposition de sa part.)~
 @257 = ~C'était néanmoins un plaisir que de conférer avec toi. (Je vois que mes plans concernant la Wychlaran ne rencontreront pas d'opposition de sa part.)~
 @258 = ~Permets-moi d'apaiser tes craintes - je suis parfaitement capable de supprimer la sorcière. Cependant, ton inquiétude pour mon bien-être est surprenante et touchante, et en apprendre un peu plus sur les plans de la Wychlaran pourrait réellement s'avérer avantageux.~
 @259 = ~Très bien, mon cher, tu marques un point. Son cas sera réglé le moment venu.~
@@ -323,9 +323,9 @@
        ~Cette faiblesse d'esprit t'a davantage affectée que je ne l'ai d'abord cru. Peut-être as-tu un minuscule habitat illithid à l'intérieur de ce cerveau qui s'amenuise à toute vitesse. En fait, si je pouvais en venir à m'en soucier, je serais désolé pour toi. Pour l'heure, cela dit, j'espère seulement que ce n'est pas contagieux.~
 ///* Edwin Friend Talk 2 - Edwin discusses women */
 @261 = ~Ah, combien les femmes gracieuses et sophistiquées de ma patrie me manquent... On dirait que les femmes d'*ici* ne raffolent que de se prétendre des hommes virils. D'autres ont une conversation aussi fascinante que le grondement d'un rocher... Sans parler de celles qui croient qu'imiter les rites d'accouplement des canards sauvages les rend séduisantes. (On pourrait devenir fou avec tous ces cancans, ces battements d'ailes et ces trémoussements de queue.)~
-@262 = ~*grogne* Cette remarque n'a bien entendu rien à voir avec la querelle que tu as eue ici avec ton amie d'un soir.~
+@262 = ~*Grogner.* Cette remarque n'a bien entendu rien à voir avec la querelle que tu as eue ici avec ton amie d'un soir.~
 @263 = ~*avec chaleur* Pourquoi faut-il toujours que tu reprennes les autres ? N'as-tu jamais remarqué que les femmes d'ici ne s'intéressent pas à toi parce que tu as une apparence et un comportement ridicules ?~
-@264 = ~*hausse les épaules* Tu peux dire ce que tu veux, mais elles sont assez bonnes pour moi.~
+@264 = ~*Hausser les épaules.* Tu peux dire ce que tu veux, mais elles sont assez bonnes pour moi.~
 @265 = ~Ah oui ? Quel est le genre que tu préfères, alors ? Les oiseaux de paradis, les mères poules, les oies stupides...~
 @266 = ~Par pitié, laisse-moi me reposer un moment de tes lamentations !~
 @267 = ~Je t'assure que la valeur de mon observation est purement philosophique. Cela n'a rien à voir avec cette gueuse vulgaire et intéressée. Cela dit, toute théorie nécessite une application pratique - je suppose qu'elle peut tenir lieu d'exemple des comportements scandaleux en vigueur ici.~
@@ -352,7 +352,7 @@ Notre amour, lui, vivra, par qui la vie abonde.~
 @283 = ~J'aurais dû m'y attendre...~
 @284 = ~C'est bien de toi, ça ! Quand donc apprendras-tu que les femmes ne sont pas des objets inanimés ?~
 @285 = ~Il est même surprenant que tu apprécies un autre type de femme.~
-@286 = ~Évidemment, tu ne comprends pas combien ma personnalité est complexe. Tu m'as peut-être pris pour un homme superficiel - crois-moi, je te le garantis, je ne le suis pas. (être constamment incompris me rend amer.)~
+@286 = ~Évidemment, tu ne comprends pas combien ma personnalité est complexe. Tu m'as peut-être pris pour un homme superficiel - crois-moi, je te le garantis, je ne le suis pas. (Être constamment incompris me rend amer.)~
 @287 = ~Même les femmes qui ont été moins dotées par la nature peuvent retenir mon attention et bénéficier de mes talents inégalés, pourvu qu'elles défient mon intellect plutôt que de vider ma tête de son sang au premier regard.~
 @288 = ~Excuse-moi, il me faut un peu de temps pour reprendre mon souffle.~
 @289 = ~Je suis certain que toutes les femmes moins favorisées par la fortune te sont reconnaissantes de ton immense générosité.~
@@ -371,7 +371,7 @@ Notre amour, lui, vivra, par qui la vie abonde.~
 @296 = ~Fantastique. Je peux sentir d'ici l'odeur de son contenu. Débarrasse-toi de ça.~
 @297 = ~Bon, je peux en avoir une autre assez facilement...~
 @298 = ~Hum. Pas assez facilement pour couvrir cette puanteur. Jette ça !~
-@299 = ~Oh, et bien, je m'en sers pour récolter des... échantillons...~
+@299 = ~Oh, eh bien, je m'en sers pour récolter des... échantillons...~
 @300 = ~Des échantillons ? Que veux-tu dire par là ?~
 @301 = ~Tu veux parler de tout ce sang et de toutes ces substances visqueuses que tu collectes ? Répugnant ! Garde ça loin de moi !~
 @302 = ~Certainement. Je ne suis pas plus insensible que vous au fait que cet échantillon a été gâché sans espoir de récupération. J'*aurais* néanmoins attendu de vous une compassion plus bienveillante au vu de ma situation. Vous êtes vraiment grossier et insensible, vous savez.~
@@ -379,17 +379,17 @@ Notre amour, lui, vivra, par qui la vie abonde.~
 @303 = ~Bon, vous m'avez vu prélever le sang du coeur de nombreuses créatures, non ? J'utilise ces prélèvements dans mes expériences. Je ne comprends pas pourquoi, mais presque tout le monde semble avoir un certain petit dégoût pour mes efforts.~
 @304 = ~En fait, non. Ça me semble très intéressant.~
 @305 = ~Tu es un Nécromancien malade et dément, et je me demande *pourquoi* je vous permets, à toi et à ta révoltante collection, de rester à proximité de moi ! ~
-@306 = ~Euh... c'est peut-être que ton obsession de la mort et de la décomposition frappe un peu les gens par sa ... bizarrerie.~
+@306 = ~Euh... c'est peut-être que ton obsession de la mort et de la décomposition frappe un peu les gens par sa... bizarrerie.~
 @307 = ~*Vraiment* ? Je... Je ne rencontre pas beaucoup de filles qui apprécient mon genre de passe-temps.~
 @308 = ~Peut-être pourrais-tu me montrer une fois ou l'autre ? Ce que tu fais avec tes... échantillons ?~
 @309 = ~Ouais, en fait j'ai vraiment l'esprit ouvert. Seulement, ne fais pas de moi un de tes échantillons, d'accord ?~
 @310 = ~D'accord, je suis fatigué de celui-là. Tu me fiches les jetons, et l'odeur me rend malade. Débarrasse-toi de ça. En silence !~
        ~D'accord, je suis fatiguée de celui-là. Tu me fiches les jetons, et l'odeur me rend malade. Débarrasse-toi de ça. En silence !~
 @311 = ~Bien sûr ! Je ne peux refuser de tels plaisirs à quelqu'un d'aussi enthousiaste !~
-@312 = ~Oh, hé bien, c'est un peu décevant, <CHARNAME>. Mais juste un peu. Vous feriez vraiment un sujet *magnifique*...~
+@312 = ~Oh, eh bien, c'est un peu décevant, <CHARNAME>. Mais juste un peu. Vous feriez vraiment un sujet *magnifique*...~
 @313 = ~Seulement les gens *vivants*. Mais réfléchissez ; les morts doivent déjà dépasser le nombre de vivants de dix mille pour un. Alors qui sommes-nous - nous, les vivants - les vivants provisoires, je veux dire - pour avoir tant de préjugés contre la vraie démocratie ?~
 @314 = ~Bien, bien, bien. Alors débarrasse-toi de la puanteur et retourne dans le rang.~
-@315 = ~Voilà qui pourrait être pratique. Les morts n'ont pas beaucoup de visibilité. Ils n'ont pas grand chose à dire pour eux-mêmes, tu vois.~
+@315 = ~Voilà qui pourrait être pratique. Les morts n'ont pas beaucoup de visibilité. Ils n'ont pas grand-chose à dire pour eux-mêmes, tu vois.~
 @316 = ~Hmm. Là, tu as peut-être raison. Peut-être pourras-tu m'instruire un peu la prochaine fois que tu en auras l'occasion.~
 @317 = ~Ahhh, mais ils *peuvent* le faire ! Vous seriez ébahi - un jour prochain, je l'espère - de découvrir l'éloquence des défunts, <CHARNAME>.~
        ~Ahhh, mais ils *peuvent* le faire ! Vous seriez ébahie - un jour prochain, je l'espère - de découvrir l'éloquence des défunts, <CHARNAME>.~
@@ -408,12 +408,12 @@ Notre amour, lui, vivra, par qui la vie abonde.~
        ~Non. Désolée.~
 @329 = ~Je... Je crois que je vais être malade.~
 @330 = ~Absurde ! Sa bestiale férocité est une essence parfaite pour la première distillation d'un débutant. C'est maintenant ou jamais.~
-@331 = ~POULE MOUILLEE ! On ne peut en faire que de la salade. Ou peut-être même que vous pondez des oeufs ? Peu importe - je m'y attendais.~
-@332 = ~C'est correct ! Vous commencez bien. Maintenant tenez bien la fiole, pendant que j'extrais le sang...~
+@331 = ~POULE MOUILLÉE ! On ne peut en faire que de la salade. Ou peut-être même que vous pondez des oeufs ? Peu importe - je m'y attendais.~
+@332 = ~Exact ! Vous commencez bien. Maintenant tenez bien la fiole, pendant que j'extrais le sang...~
 @333 = ~Pourquoi as-tu coupé à cet endroit-là ? L'endroit où tu le fais a-t-il de l'importance ?~
 @334 = ~Cela fait beaucoup de sang...~
 @335 = ~Oh - je vais être malade !~
-@336 = ~C'est sans importance. Dans le cas du loup, la rate conviendrait encore mieux, mais vous ne parviendriez jamais à la trouver. Contentez-vous de rester à l'écart de ces grosses choses boursoufflées. Ce sont les poumons, et ils ne sont d'aucune utilité pour personne. A moins que vous n'en trouviez un dans un poisson, je veux dire... ahem.~
+@336 = ~C'est sans importance. Dans le cas du loup, la rate conviendrait encore mieux, mais vous ne parviendriez jamais à la trouver. Contentez-vous de rester à l'écart de ces grosses choses boursouflées. Ce sont les poumons, et ils ne sont d'aucune utilité pour personne. À moins que vous n'en trouviez un dans un poisson, je veux dire... ahem.~
 @337 = ~Vous voyez ? Le coeur est là. Joli, n'est-ce pas ? Maintenant tenez cette fiole, pendant que je la remplis.~
 @338 = ~Hé-hé ! La suppression du réflexe du haut-le-coeur fait intégralement partie du processus d'apprentissage, <CHARNAME>. Mais pas sur l'échantillon, idiot ! Là-bas !~
        ~Hé-hé ! La suppression du réflexe du haut-le-coeur fait intégralement partie du processus d'apprentissage, <CHARNAME>. Mais pas sur l'échantillon, idiote ! Là-bas !~
@@ -422,14 +422,14 @@ Notre amour, lui, vivra, par qui la vie abonde.~
        ~*Vous vous retenez de vomir votre dîner rebelle. Ce n'est pas pour rien que les chansons vous appellent l'Héroïne de la Côte des Épées !*~
 @341 = ~Oui, en effet. C'est en coupant le long de cette courbe que vous récoltez le plus de sang. Hmm. J'aurais vraiment pu prendre une bouteille plus grande. Peu importe. Vos manches sont lavables, j'espère ?~
 @342 = ~Voilà, c'est fini. C'est comme cela que l'on prélève le sang. Maintenant, son utilisation.~
-@343 = ~*sourit* J'attends cela avec impatience !~
-@344 = ~Hé bien, peut-être... Cela me rend *vraiment* un peu nauséeux.~
-       ~Hé bien, peut-être... Cela me rend *vraiment* un peu nauséeuse.~
+@343 = ~*Sourire.* J'attends cela avec impatience !~
+@344 = ~Eh bien, peut-être... Cela me rend *vraiment* un peu nauséeux.~
+       ~Eh bien, peut-être... Cela me rend *vraiment* un peu nauséeuse.~
 @345 = ~Oui, pas mal. J'aurais pu utiliser une plus grande bouteille, en fait. Ça n'a plus d'importance maintenant. Je vous ai vu laver vos vêtements, et je suppose que votre visage et vos mains sont eux aussi lavables...~
        ~Oui, pas mal. J'aurais pu utiliser une plus grande bouteille, en fait. Ça n'a plus d'importance maintenant. Je vous ai vue laver vos vêtements, et je suppose que votre visage et vos mains sont eux aussi lavables...~
 @346 = ~Quoi qu'il en soit... C'est comme cela que l'on prélève le sang. Ensuite, je vais vous montrer ce que l'on en fait.~
-@347 = ~Hé bien, peut-être... Cela me rend *vraiment* un peu nauséeux.~
-       ~Hé bien, peut-être... Cela me rend *vraiment* un peu nauséeuse.~
+@347 = ~Eh bien, peut-être... Cela me rend *vraiment* un peu nauséeux.~
+       ~Eh bien, peut-être... Cela me rend *vraiment* un peu nauséeuse.~
 @348 = ~*Il sourit d'un air dément à un point focal situé derrière votre oreille gauche.* Si j'osais tant espérer, je dirais que vous allez *vraiment* apprécier.~
 @349 = ~Maintenant ! Voyez-vous cette jolie petite fleur que j'ai conservée ? Vous, <CHARNAME>, vous allez verser le sang du coeur dessus, pendant que je récite l'incantation nécessaire :
 Oh, fleuris gaiement
@@ -441,7 +441,7 @@ De l'autre côté.~
 @352 = ~Bon, j'ai traduit - uniquement pour que vous en tiriez profit. Je ne pouvais pas m'attendre à ce que vous appréciiez la Nécromancie en cinq minutes, n'est-ce pas ? Quoi qu'il en soit...~
 @353 = ~*Maintenant*, <CHARNAME>, vous prenez la fleur !~
 @354 = ~Peuh ! Quelle déception. Je... AÏÏÏEEE !!!~
-@355 = ~D'une simplicité enfantine, mais... pas tout à fait, n'est-ce pas ?~
+@355 = ~D'une simplicité enfantine, mais... efficace, n'est-ce pas ?~
 @356 = ~Espèce de bâtard ! Cette 'fleur' est une ortie atrocement piquante !~
 @357 = ~Vraiment ? Je m'incline devant la supériorité de vos connaissances botaniques. Mais... Dites-moi, je vous prie, ce que le type de fleur a à voir ici ? ~
 @358 = ~Mince, cette plante a des épines empoisonnées. Ça va me démanger pendant une semaine, si je ne meurs pas d'abord d'un empoisonnement du sang à cause de ta folie.~
@@ -451,14 +451,14 @@ De l'autre côté.~
 @362 = ~Alors considérez le pouvoir de la magie involontaire, <CHARNAME>, car jamais je n'ai observé de cas plus évident du semblable appelant son semblable - ce qui, comme vous ne le savez certainement *pas*, est le fondement de toute thaumaturgie !~
 @363 = ~Vous savez, je ne sais comment, <CHARNAME>, vous dites ça comme si vous vous étiez attendu à un autre résultat.~
        ~Vous savez, je ne sais comment, <CHARNAME>, vous dites ça comme si vous vous étiez attendue à un autre résultat.~
-@364 = ~Vraiment, vous m'étonnez. Je vous ai vu couvert du crâne aux orteils d'une boue de fortune récoltée dans les hasards des combats. Est-ce l'intention intelligente derrière ces simples dépôts qui vous incommode ? Maintenant, si vous avez *à peu près* fini de vous éparpiller, pouvons-nous continuer la leçon ?~
-       ~Vraiment, vous m'étonnez. Je vous ai vu couverte du crâne aux orteils d'une boue de fortune récoltée dans les hasards des combats. Est-ce l'intention intelligente derrière ces simples dépôts qui vous incommode ? Maintenant, si vous avez *à peu près* fini de vous éparpiller, pouvons-nous continuer la leçon ? ~
+@364 = ~Vraiment, vous m'étonnez. Je vous ai vu couvert du crâne aux orteils d'une boue de fortune récoltée dans les hasards des combats. Est-ce l'intention intelligente derrière ces simples dépôts qui vous incommode ? Maintenant, si vous avez *tout à fait* fini de vous amuser, pouvons-nous continuer la leçon ?~
+       ~Vraiment, vous m'étonnez. Je vous ai vu couverte du crâne aux orteils d'une boue de fortune récoltée dans les hasards des combats. Est-ce l'intention intelligente derrière ces simples dépôts qui vous incommode ? Maintenant, si vous avez *tout à fait* fini de vous amuser, pouvons-nous continuer la leçon ? ~
 @365 = ~Euh... bien sûr... mais... pas maintenant. L'année prochaine... peut-être...~
-@366 = ~Peuh. *crache* Ouais, je suis prêt.~
+@366 = ~Peuh. *Cracher.* Ouais, je suis prêt.~
        ~Peuh. *crache* Ouais, je suis prête.~
-@367 = ~*Pâlit* Ah... Xzar, puis-je te demander *pourquoi* tu es en train de toucher à mon dernier repas qui git là par terre ?~
-@368 = ~Ce n'était pas ce que j'étais en train de faire ! Enfin,pas vraiment. Juste au cas où, vous savez... Au cas où vous auriez recraché quelque chose d'important. Mais vous ne semblez pas l'avoir fait, alors, si nous continuions ?~
-@369 = ~Bien sûr. Laissez cela reposer en paix.~
+@367 = ~*Beurk !* Ah... Xzar, puis-je te demander *pourquoi* tu es en train de toucher à mon dernier repas qui gît là par terre ?~
+@368 = ~Ce n'était pas ce que j'étais en train de faire ! Enfin, pas vraiment. Juste au cas où, vous savez... Au cas où vous auriez recraché quelque chose d'important. Mais vous ne semblez pas l'avoir fait, alors, si nous continuions ?~
+@369 = ~Bien sûr. Allez-y, lancez-vous.~
 @370 = ~Non ! Pas maintenant, ni jamais ! Partons.~
 //
 // Skie
@@ -473,7 +473,7 @@ De l'autre côté.~
 @377 = ~... que je dois dire "ce qu'il faut dire" lorsqu'il me présente à ses amis lourdingues lors de ses stupides fêtes ! Sans parler du fait qu'il veut me marier à tous les jeunes nobles d'ici jusqu'à Eauprofonde, il ne me laisse *jamais* aucune intimité, et, le pire de tout, il ne me laisse jamais sortir de la maison sans *six* gardes armés jusqu'aux dents pour me surveiller ! Oh... il me rend *folle* !~
 @378 = ~Hé ! Deux, c'est déjà pas d'la tarte, et trois c'est pas rien, alors six, c'est deux fois plus difficile. Mais ton père, il doit avoir un sacré paquet d'gardes à sa disposition pour te faire sortir sous surveillance et garder la maison en sécurité.~
 @379 = ~Pas tant que ça, en fait... à peine la moitié de la garde de la ville. Il me dit toujours "c'est pour ta sécurité, Skie"... mais je ne peux *jamais* me retrouver un peu seule avec tous ces yeux qui me surveillent. Voilà pourquoi j'utilise le passage secret pour sortir la nuit.~
-@380 = ~Pfeh ! Un pôssage s'cret ! Une porté dérobée, plutôt, ouais. Les 'pôssages s'crets', c'est pour les histoires qu'on raconte aux mioches !~
+@380 = ~Pfeh ! Un pôssage s'cret ! Une porte de service, plutôt, ouais. Les 'pôssages s'crets', c'est pour les histoires qu'on raconte aux mioches !~
 @381 = ~*sourit* Non, il y a vraiment un passage secret. Dans le coin, la politique, ça *peut* devenir très chaud, parfois. Il est situé sur le mur nord, juste sous le deuxième panneau... Hé, vous êtes sympa, Monty. Mais un peu curieux.~
 @382 = ~Mur nord... deuxième pann... Hein ? Curieux ? Bah, j'ai jamais craché sur l'échange d'informations que *je* n'connais pas, et particulièrement sur là où tu crèches.~
 @383 = ~C'est ce que je disais : vous êtes un petit curieux. Mais n'oubliez pas que *glousse* la curiosité est un bien vilain défaut !~
@@ -484,11 +484,11 @@ De l'autre côté.~
 @387 = ~Ce n'est qu'un carnet de notes en assez mauvais ét... hé... mais c'est quoi, ça ? "Le sang de cette petite nouvelle d'extraction noble serait tout à fait adéquat, au cas où il y aurait un contretemps. Il m'en faudrait une fiole, ou peut-être trois. Lorsqu'elle dormira, si la chance est de mon côté..."~
 @388 = ~Non, ça ne me dit rien. Désolé.~
 @389 = ~Hé ! Je *vous* ai vu le laisser tomber !~
-@390 = ~Cela ne se peut. Cela voudrait dire que je vous aurais pris l'équivalent d'une fiole de sang. A quoi cela servirait-il ? Même pour vous ? Ah ah ! J'ai compris ! De l'encre rouge !~
+@390 = ~Cela ne se peut. Cela voudrait dire que je vous aurais pris l'équivalent d'une fiole de sang. À quoi cela servirait-il ? Même pour vous ? Ah ah ! J'ai compris ! De l'encre rouge !~
 @391 = ~Euh... vous avez réussi à *perdre* de l'argent au cours de nos aventures ?~
 @392 = ~Euh... non. Je crois que... d'un point de vue financier... nous avons été récompensés à la mesure de nos efforts. Peut-être... que le rituel de Barzenak... ah, dans quoi cette petite nouille s'est fourrée ?~
 @393 = ~Ahem... je suis là, à côté de vous, Xzar. C'est quoi, le rituel de Barzenak ?~
-@394 = ~Oh, ça ? Une chose stupide. Barzenak était le mentor de mes jeunes années. Il avait une maison entièrement habitée par des zombies. Là où ça devient drôle, c'est que chacun de ces esclaves morts-vivants devait descendre d'au moins quarante-sept générations de nobles. *Il* trouvait ça drôle, mais... Je le dis ! Combien de générations de nobles vous précèdent, mademoiselle ?~
+@394 = ~Oh, ça ? Une chose stupide. Barzenak était le mentor de mes jeunes années. Il avait une maison entièrement habitée par des zombies. Là où ça devient drôle, c'est que chacun de ces esclaves morts-vivants devait descendre d'au moins quarante-sept générations de nobles. *Il* trouvait ça drôle, mais... Dites donc ! Combien de générations de nobles vous précèdent, mademoiselle ?~
 @395 = ~Attendez, laissez-moi réfléchir. Il y a av... Hé ! Vous ne pensez tout de même pas me transformer en zombie, quand même ?~
 @396 = ~Non... et pourtant, ça serait une bonne blague que je ferais à Barzy, si votre pedigree n'était pas suffisant. *soupir* Mais il se trouve qu'il est mort. Il ne pourrait pas l'apprécier à sa juste valeur.~
 @397 = ~J'espère que quelqu'un l'a transformé en zombie.~
@@ -515,7 +515,7 @@ De l'autre côté.~
 @414 = ~Dites-moi, Minsc... Est-ce que... euh... Est-ce que Bouh a jamais été amoureux ?~
 @415 = ~Bien sûr ! Bouh aime Minsc ! Et Minsc aime Bouh ! C'est un lien qui ne peut être rompu !~
 @416 = ~Alors imaginez que l'un d'entre vous soit assassiné de la manière la plus ignoble...~
-@417 = ~M-M-Minsc sans Bouh ? Non ! Nooon ! Minsc pleurerait et pleurerait et... oh... Minsc comprend... Pas étonnant que Kivan soit si triste... et qu'il détruise le mal avec une telle... hummm... oh, quel est le mot... Oui, c'est cela, Bouh... ferveur ! Hé bien, Minsc et Bouh aideront notre triste ami à pulvériser le demi-ogre puant ! Et après les rôdeurs et les hamsters du monde entier se réjouiront ensemble !~
+@417 = ~M-M-Minsc sans Bouh ? Non ! Nooon ! Minsc pleurerait et pleurerait et... oh... Minsc comprend... Pas étonnant que Kivan soit si triste... et qu'il détruise le mal avec une telle... hummm... oh, quel est le mot... Oui, c'est cela, Bouh... ferveur ! Eh bien, Minsc et Bouh aideront notre triste ami à pulvériser le demi-ogre puant ! Et après les rôdeurs et les hamsters du monde entier se réjouiront ensemble !~
 @418 = ~Ah, oui, ils le feront. Et on arrêtera peut-être de m'accuser de comploter au maintien de l'attitude mélancolique de Kivan, tout ça pour rester l'homme le plus séduisant du groupe... Merveilleux. Maintenant, poursuivons notre quête, afin que Kivan ait une chance de chatouiller Tazok de sa lance... Et peut-être le reste d'entre nous pourra-t-il aussi porter un coup ou deux à son tour.~
 @419 = ~Et chacun devr... ~
 @420 = ~Oh, regarde, Bouh, du trèfle ! Cherchons-en un qui porte chance !~
@@ -528,7 +528,7 @@ De l'autre côté.~
 @423 = ~Le jour où je daignerai suivre l'un de tes conseils, magicien, sera le jour où tu me supplieras de te délivrer de ce pitoyable semblant de vie qui t'anime !~
 @424 = ~Je suis surpris de voir qu'une femme peut manquer à ce point de grâce. (Sans doute que, lorsqu'ils l'ont fabriquée, les dieux ont inversé le 'a' et le 'r'. "Nous ferons de Shar-Teel un modèle de garce." Oui, cela est bien un flagrant manque de jugeotte divin. Ah, les dieux !)~
 ///* Shar-Teel avec Edwin, et un peu Minsc */
-@425 = ~Eh bien, sorcier, on dirait bien que tu as survécu plus longtemps que ce que j'aurais cru. La première fois que je t'ai vu, j'avais la certitude que tu finirais tes jours en tant que tâche rouge sur une épée.~
+@425 = ~Eh bien, sorcier, on dirait bien que tu as survécu plus longtemps que ce que j'aurais cru. La première fois que je t'ai vu, j'avais la certitude que tu finirais tes jours en tant que tache rouge sur une épée.~
 @426 = ~Dis-moi, Shar-Teel, comment en es-tu arrivée à avoir une si haute opinion de ma personne ?~
 @427 = ~C'est souvent comme ça que les magiciens finissent... du moins selon ma propre expérience.~
 @428 = ~Mettons de côté mon illustre personne pour un moment, veux-tu ? Que fais-tu de tous ces magiciens qui ont acquis tellement de pouvoir qu'ils sont devenus virtuellement invincibles, et qui pourraient, en une boule de feu, te transformer toi, et toute autre personne qui se mettrait en travers de leur chemin, en un petit tas de cendres d'un claquement de doigts ?~
@@ -540,11 +540,11 @@ De l'autre côté.~
 @434 = ~Minsc se sent frais et gaillard. Mais cela ne regarde pas les Sorciers Rouges maléfiques. En fait, Minsc aimerait retirer sa dernière phrase.~
 @435 = ~Et toi, Shar-Teel ?~
 @436 = ~Comment vas-tu, aujourd'hui, Shar-Teel ? (Je te donnerais bien une perle pour tes pensées, mais je doute fort que tu puisses être en mesure d'en fournir une seule.)~
-@437 = ~J'irais nettement mieux si je ne parlais pas à un couard comme toi en ce moment-même. Peut-être que si tu passais plus de temps à aiguiser nos lames au lieu de ce qui te sert de langue, nous pourrions passer la journée sans maux de tête ! Mais peu importe... Tu mourras bien assez tôt, Edwin, même si tu persistes à rester à l'arrière, tel le lâche que tu es. Pour parler franchement, je ne vois pas comment tu peux t'amuser durant nos aventures !~
-@438 = ~Oh, je m'amuse beaucoup, je puis te l'assurer. Mais regarde ce qui vient de se passer ! Cet échange que nous avons commence à ressembler à une vraie conversation... et nous ne voudrions pas que *cela* arrive, n'est-ce pas ? D'autres pourrait en arriver à l'invraisemblable conclusion que tu as les capacités nécessaires pour tenir une conversation avec moi, ce qui serait une grossière exagération de tes compétences verbales. (Ainsi qu'un affront à mon encontre, cela va sans dire). Tu peux disposer, maintenant, Shar-Teel. Tu peux passer en première ligne, si ça te chante.~
+@437 = ~J'irais nettement mieux si je ne parlais pas à un couard comme toi en ce moment même. Peut-être que si tu passais plus de temps à aiguiser nos lames au lieu de ce qui te sert de langue, nous pourrions passer la journée sans maux de tête ! Mais peu importe... Tu mourras bien assez tôt, Edwin, même si tu persistes à rester à l'arrière, tel le lâche que tu es. Pour parler franchement, je ne vois pas comment tu peux t'amuser durant nos aventures !~
+@438 = ~Oh, je m'amuse beaucoup, je puis te l'assurer. Mais regarde ce qui vient de se passer ! Cet échange que nous avons commence à ressembler à une vraie conversation... et nous ne voudrions pas que *cela* arrive, n'est-ce pas ? D'autres pourraient en arriver à l'invraisemblable conclusion que tu as les capacités nécessaires pour tenir une conversation avec moi, ce qui serait une grossière exagération de tes compétences verbales. (Ainsi qu'un affront à mon encontre, cela va sans dire). Tu peux disposer, maintenant, Shar-Teel. Tu peux passer en première ligne, si ça te chante.~
 ///* Shar-Teel avec Ajantis */
-@439 = ~Je ne comprend pas pourquoi tu t'embêtes à nettoyer ton armure, petit chevalier ! Chaque éclaboussure de sang est une marque de victoire !~
-@440 = ~A l'avenir, vous vous adresserez à moi en m'appelant 'Ajantis', ou vous vous tairez.~
+@439 = ~Je ne comprends pas pourquoi tu t'embêtes à nettoyer ton armure, petit chevalier ! Chaque éclaboussure de sang est une marque de victoire !~
+@440 = ~À l'avenir, vous vous adresserez à moi en m'appelant 'Ajantis', ou vous vous tairez.~
 @441 = ~Et pour vous répondre, c'est le devoir de tout chevalier de garder son équipement en bon état. C'est la moindre des choses que demande l'Ordre.~
 @442 = ~Comme c'est *noble* de ta part !~
 @443 = ~En effet, c'est noble. Et puis c'est mieux pour les odeurs, aussi.~
@@ -558,18 +558,18 @@ De l'autre côté.~
 @450 = ~Je ne voulais guère vous faire offense, ma dame.~
 ///* Shar-Teel avec Ajantis */
 @451 = ~Vous dites souvent mépriser au plus haut point la faiblesse. Et pourtant vous ne savez pas la percevoir au-delà de la faiblesse physique.~
-@452 = ~Epargne-moi tes sermons, petit chevalier.~
+@452 = ~Épargne-moi tes sermons, petit chevalier.~
 @453 = ~Je ne sermonne point, je ne fais que considérer les faits. Vous ne prenez en considération que la force du bras qui manie l'épée, et non la force d'âme qui permet la coopération entre personnes.~
 @454 = ~Et pourquoi voudrais-je coopérer avec des personnes ? Ces *personnes* ne sont guère plus que des fourmis qui attendent de se faire écraser !~
-@455 = ~Et pourtant, vous voyagez avec ces fourmis. Et si vous devez comparer les soldats de l'Ordre à des insectes, comparez-les plutôt à des abeilles. Vous vous apercevrez qu'ils savent manier leur dard, même s'ils doivent en mourir à vos pieds, comme vous vous en vantez si souvent.~
+@455 = ~Et pourtant, les fourmis perdurent. Et si vous devez comparer les soldats de l'Ordre à des insectes, comparez-les plutôt à des abeilles. Vous vous apercevrez qu'ils savent manier leur dard, même s'ils doivent en mourir à vos pieds, comme vous vous en vantez si souvent.~
 @456 = ~Une piqûre n'est rien pour qui sait prendre en charge ses blessures.~
 @457 = ~Vous avez raison, une seule piqûre d'abeille n'est pas un véritable problème. Mais lorsque de nombreuses abeilles vous assaillent, c'est une autre paire de manches.~
 @458 = ~Pas pour une guerrière qui doit prendre leur miel ou mourir de faim.~
 @459 = ~Si vous allez jusqu'au bout de votre logique, vous finirez un jour par prouver vos raisonnements en usurpant le pouvoir et en vous proclamant maîtresse de la Porte de Baldur !~
 @460 = ~Le 'miel' de la Porte de Baldur est un poison, Ajantis.~
 ///* Shar-Teel avec Ajantis */
-@461 = ~Vous vous moquez de moi, et pensez que mes discours ne sont guère plus que des paroles en l'air, mais un jour, je me ferai ma place en ce bas-monde... une place bien à moi, que quelqu'un d'autre ne prendra que le jour où je la quitterai. Que dites-vous de cela ?~
-@462 = ~En tous cas, j'espère que ce sera bien loin d'ici. L'Ordre a déjà bien assez de choses à faire.~
+@461 = ~Vous vous moquez de moi, et pensez que mes discours ne sont guère plus que des paroles en l'air, mais un jour, je me ferai ma place en ce bas monde... une place bien à moi, où nul ne mettra les pieds sans ma permission. Que dites-vous de cela ?~
+@462 = ~En tout cas, j'espère que ce sera bien loin d'ici. L'Ordre a déjà bien assez de choses à faire.~
 @463 = ~Ah, oui ! Ton précieux petit Ordre ! Ne te fais pas d'illusions, charlatan. Tes ambitions sont les mêmes que les miennes ! Toi aussi, tu prendrais le pouvoir, si tu le pouvais... mais tu n'y arriveras pas, tu es trop dans la lune.~
 @464 = ~Vous ne voyez guère plus loin que le bout de votre nez. Sachez que l'Ordre ne prend pas le pouvoir. Notre mission est plutôt de faire en sorte que ceux qui *font* les lois les fassent avec honneur et justice.~
 @465 = ~Alors tu es encore plus stupide que les mercenaires qui se battent pour l'or ! Eux, au moins, ils en retirent quelque chose d'utile pour vivre.~
@@ -582,7 +582,7 @@ De l'autre côté.~
 @471 = ~Une question suffisamment simple pour que tu puisses y répondre. Je recommence : "Détestes-tu les rats ?"~
 @472 = ~Non, je ne les déteste pas particulièrement, mais je ne m'intéresse pas non plus à eux. Maintenant, tu vas me demander ce que je ressens envers les marmottes, ou cette discussion va-t-elle nous mener à quelque chose de concret ?~
 @473 = ~Ooh, et il faut aussi poser des questions sur les hamsters !~
-@474 = ~Non, mon enfant. Le but de ma question te sera révélé en temps voulu. Maintenant, si tu devais tuer un rat, un chien ou un renne, que choisirais-tu de tuer ?~
+@474 = ~Non, mon enfant. Le but de ma question te sera révélé en temps voulu. Maintenant, si tu devais tuer un rat, un chien ou un cerf, que choisirais-tu de tuer ?~
 @475 = ~Tuer des animaux ? *renifle* Je vois que tu envisages de changer de carrière.~
 @476 = ~Pour répondre à ta question, je tuerais ce qui serait le plus près, ou ce qui menacerait le plus ma vie.~
 @477 = ~Mais tu n'attaquerais pas le rat en particulier ?~
@@ -590,7 +590,7 @@ De l'autre côté.~
 @479 = ~C'est bien ce que je pensais. Lors d'un combat, tu ne cibles pas particulièrement le plus faible de tes ennemis. En fait, tu t'attaquerais plutôt au plus fort ; selon tes propres mots, à "celui qui menace le plus ta vie".~
 @480 = ~Je me demande pourquoi tu n'appliques pas cette philosophie dans ta vie de tous les jours.~
 @481 = ~Ce qui veut dire ?~
-@482 = ~Ton dégoût pour les plus faibles transpire dans chacunes de tes phrases. Tu dois comprendre qu'il n'y a rien à gagner à s'attaquer aux plus faibles, y compris dans les conversations.~
+@482 = ~Ton dégoût pour les plus faibles transpire dans chacune de tes phrases. Tu dois comprendre qu'il n'y a rien à gagner à s'attaquer aux plus faibles, y compris dans les conversations.~
 ///* Shar-Teel avec Viconia */
 @483 = ~Tu proclames haut et fort ta 'liberté', femelle, et pourtant, tu es un bon petit soldat pour <CHARNAME>.~
 @484 = ~Aucun homme ne peut se vanter de me donner des ordres ! Celui qui ose le dire meurt... purement et simplement.~
@@ -606,7 +606,7 @@ De l'autre côté.~
 @491 = ~'Regard lubrique' ?! Si tous les elfes noirs sont aussi bêtes, alors pas besoin de s'étonner qu'ils vivent tous sous terre comme des vers !~
 @492 = ~Tout comme les illithids, les tyrannoeils et les démons, selon votre géographie douteuse. Penses-tu qu'ils courberont l'échine et mourront devant ton regard de femelle en chaleur ?~
 @493 = ~Mon regard donnait sur ton coeur. Je me demandais s'il saigne rouge ou noir.~
-@494 = ~*Tu* le sauras, du moins s'il coule un jour.~
+@494 = ~*Toi*, tu gâcherais l'occasion de le découvrir, si jamais elle se présentait.~
 @495 = ~Je dirais qu'il saigne noir, même si le sang reste du sang. Son odeur m'excite au plus haut point, quelle que soit sa couleur.~
 ///* Shar-Teel avec Viconia */
 @496 = ~Dis-moi, elfe noire, qu'est-ce que ça fait d'avoir un mâle qui te grimpe dessus et bave sur ta peau noire ?~
@@ -614,8 +614,8 @@ De l'autre côté.~
 @498 = ~Ah, mais c'est bien sûr. *Tu* n'as jamais été touchée par personne. Tu veux en savoir plus sur les actes intimes ? Ou alors est-ce la jalousie qui t'envahit ?~
 @499 = ~Pourquoi serais-je jalouse d'une traînée aussi quelconque que toi ?!~
 @500 = ~C'est toi qui es 'quelconque', elg'caress. Tes sens ne connaissent aucune autre ivresse que celle du meurtre, et même dans ce domaine-là, tu n'es pas une vraie artiste : quelques grognements, une giclée, et c'est fini.~
-@501 = ~Quel dommage que <CHARNAME> t'ai aidée à échapper à ce soldat du Poing. Nous aurions dû vous massacrer tous les deux.~
-@502 = ~Oui, tes sens sont corrompus par la haine, rivvil. Peut-être pourrais-je t'apprendre les plaisirs de la mort... dans quelques heures ou quelques jours ?~
+@501 = ~Quel dommage que <CHARNAME> t'ait aidée à échapper à ce soldat du Poing. Nous aurions dû vous massacrer tous les deux.~
+@502 = ~Oui, tes sens sont corrompus par la hâte, rivvil. Peut-être pourrais-je t'apprendre les extases d'une mort qui dure des heures et des jours ?~
 ///* Shar-Teel avec Skie */
 @503 = ~Shar-Teel, vous croyez vraiment que la force physique est la seule chose qui compte en ce monde ?~
 @504 = ~Non ! La force du coeur que l'on y met compte encore plus.~
@@ -623,7 +623,7 @@ De l'autre côté.~
 @506 = ~Ton exemple est un non-sens. Les habitants de ce monde savent très bien que la raison du plus fort est toujours la meilleure.~
 @507 = ~Alors vous allez conquérir le monde ? Avec un seul bras ? C'est une grande entreprise dans laquelle vous vous lancez.~
 @508 = ~Ton sang 'noble' ne semble servir à rien d'autre que de te faire formuler de stupides remarques sur un futur dont nous ne savons rien.~
-@509 = ~Mes remarques ne sont pas des coups dans le dos hasardeux, mais des constatations réfléchies basées sur des faits et des conjectures. Certains d'entre nous appellent cela 'l'intelligence'.~
+@509 = ~Mes remarques ne sont pas des coups portés à l'aveugle, mais des constatations réfléchies basées sur des faits et des conjectures. Certains d'entre nous appellent cela 'l'intelligence'.~
 @510 = ~Alors ne pointe pas cette 'intelligence' vers moi ! Utilise-la à deviner ce qu'il se passera demain. Lorsque ce jour arrivera, nous verrons qui commandera.~
 //
 // Jaheira
@@ -643,7 +643,7 @@ De l'autre côté.~
 @520 = ~Ju... Jus... c'est de la jusquiame ?~
 @521 = ~C'est difficile, en effet, mais je l'ai déjà fait. Un des prêtres d'Oghma me l'a enseigné.~
 @522 = ~Gah ! Oh, tu es tellement comique, <CHARNAME>. Mais laissons ça. Je pensais que tu allais cueillir les feuilles de cette plante. Est-ce que tu sais ce que c'est ?~
-@523 = ~*grogne* Je n'aurais pas dû en espérer plus, vu que tout ton savoir druidique émane des livres de Château-Suif. Il me semble que tu manques cruellement de compétences pratiques, mais heureusement tu peux toujours compter sur mes conseils pour remédier à cela. A présent, assieds-toi, et laisse-moi te donner quelques informations sur la jusquiame et ses propriétés...~
+@523 = ~*grogne* Je n'aurais pas dû en espérer plus, vu que tout ton savoir druidique émane des livres de Château-Suif. Il me semble que tu manques cruellement de compétences pratiques, mais heureusement tu peux toujours compter sur mes conseils pour remédier à cela. À présent, assieds-toi, et laisse-moi te donner quelques informations sur la jusquiame et ses propriétés...~
 @524 = ~Oui, tu as raison, c'est de la jusquiame hautement toxique. Mais le guérisseur expérimenté ne doit pas totalement la mépriser. Sais-tu pourquoi ?~
 @525 = ~Non, j'ai bien peur que non.~
 @526 = ~J'ai lu qu'un cataplasme à base de jusquiame constitue un anti-douleur très puissant.~
@@ -657,23 +657,23 @@ De l'autre côté.~
 @533 = ~Espionner tes secrets ? Ce genre de choses n'a pas de sens entre deux guérisseurs qui veulent travailler efficacement pour servir au mieux leur groupe. Mais sois mesquin si tu le désires, <CHARNAME>. Je serai tout aussi mesquine en ce qui concerne mes conseils.~
        ~Espionner tes secrets ? Ce genre de choses n'a pas de sens entre deux guérisseuses qui veulent travailler efficacement pour servir au mieux leur groupe. Mais sois mesquine si tu le désires, <CHARNAME>. Je serai tout aussi mesquine en ce qui concerne mes conseils.~
 @534 = ~Ah. Je pensais que tu étais sur le point de cueillir des feuilles de cette plante. Tu sais ce que c'est ?~
-@535 = ~<CHARNAME>, j'ai songé que puisque tu as eu si peu d'opportunités d'explorer la Nature de près, quand tu étais entre les murs de Château-Suif, il est probable qu'il te manque même le savoir rudimentaire qu'un druide vivant dans un bosquet acquiert aux stades les plus précoces de son éducation. Je te propose... un petit test, comme ça je pourrai juger du niveau de tes compétences. Serais-tu d'accord de participer ?~
+@535 = ~<CHARNAME>, j'ai songé que puisque tu as eu si peu d'opportunités d'explorer la Nature de près, quand tu étais entre les murs de Château-Suif, il est probable qu'il te manque même le savoir rudimentaire qu'un druide vivant dans un bosquet acquiert aux stades les plus précoces de son éducation. Je te propose... un petit test, comme ça je pourrai juger du niveau de tes compétences. Serais-tu d'accord pour participer ?~
 @536 = ~Un test ? Bien sûr, allons-y !~
 @537 = ~Non, merci, nous avons des choses plus importantes à faire que des tests débiles pour ton plaisir.~
 @538 = ~Est-ce que ça va faire mal ?~
-@539 = ~Très bien. Je pensais te demander de reconnaître des chants d'oiseaux, cela devrait être suffisamment parlant. Commençons avec quelque chose de facile. Ecoute le chant qui vient de ce buisson, là devant. Quel oiseau fait ces bruits ?~
+@539 = ~Très bien. Je pensais te demander de reconnaître des chants d'oiseaux, cela devrait être suffisamment parlant. Commençons avec quelque chose de facile. Écoute le chant qui vient de ce buisson, là devant. Quel oiseau fait ces bruits ?~
 @540 = ~Ce *cri-cri-sifflement-cri-sifflement* ? On dirait un simple étourneau, je pense.~
 @541 = ~Oh par les dieux, c'est sûrement l'autruche carnivore chultéenne, qui se cache dans les buissons et attend l'occasion de nous tendre une embuscade !~
 @542 = ~Hum. Très bien, je n'insisterai pas. Pas plus que je n'offrirai de nouveaux conseils pour contribuer à ta croissance en tant que druide, désormais.~
-@543 = ~Non, cela ne fera pas mal. Je pensais te demander de reconnaître des chants d'oiseaux, cela devrait être assez parlant. Très bien, commençons par quelque chose de facile. Ecoute le chant qui sort de ce buisson, là devant. Quel oiseau fait ces bruits ?~
-@544 = ~C'était trop facile, en effet. Essayons quelque chose d'autre. Beaucoup de druides savent aussi imiter les cris d'oiseaux, et c'est une compétence que je possède. A présent, écoute et essaie de deviner quel oiseau j'imite. *Jaheira émet un sifflement délicat mais très compliqué qui, à certains moments, se transforme pratiquement en pépiement*~
+@543 = ~Non, cela ne fera pas mal. Je pensais te demander de reconnaître des chants d'oiseaux, cela devrait être assez parlant. Très bien, commençons par quelque chose de facile. Écoute le chant qui sort de ce buisson, là devant. Quel oiseau fait ces bruits ?~
+@544 = ~C'était trop facile, en effet. Essayons quelque chose d'autre. Beaucoup de druides savent aussi imiter les cris d'oiseaux, et c'est une compétence que je possède. À présent, écoute et essaie de deviner quel oiseau j'imite. *Jaheira émet un sifflement délicat mais très compliqué qui, à certains moments, se transforme pratiquement en pépiement*~
 @545 = ~C'est une hirondelle. Une hirondelle rustique, pour être exact.~
        ~C'est une hirondelle. Une hirondelle rustique, pour être exacte.~
 @546 = ~Euh, une pie ?~
 @547 = ~Une demi-elfe qui produit des sifflements ridicules ?~
 @548 = ~Tu es délibérément insultant. Très bien, je vois que mes conseils ne sont pas les bienvenus.~
        ~Tu es délibérément insultante. Très bien, je vois que mes conseils ne sont pas les bienvenus.~
-@549 = ~Très bien ! A présent, qu'en est-il de celui-ci ? *Cette fois, Jaheira commence avec l'imitation tranquille d'un hululement qui se transforme en une sorte de plainte et puis en quelque chose qu'on pourrait presque décrire comme un yodel, terminant par un sifflement tremblant, rapide, comme vous n'en avez jamais entendu.*~
+@549 = ~Très bien ! À présent, qu'en est-il de celui-ci ? *Cette fois, Jaheira commence avec l'imitation tranquille d'un hululement qui se transforme en une sorte de plainte et puis en quelque chose qu'on pourrait presque décrire comme un yodel, terminant par un sifflement tremblant, rapide, comme vous n'en avez jamais entendu.*~
 @550 = ~Oui, pas évident celui-ci, mais j'ai l'impression que certaines parties de ce cri sonnaient comme le chant d'un plongeon catmarin.~
 @551 = ~Ça doit être un coucou, je pense. Oui, un coucou !~
 @552 = ~Une caille !~
@@ -681,8 +681,8 @@ De l'autre côté.~
 @554 = ~Grrrr ! Insupportable ! Tu es absolument, totalement insupportable ! J'en ai fini de t'apprendre des choses ! Plus jamais !~
 @555 = ~Je suis vraiment impressionnée, <CHARNAME>. Tu deviendras un druide sage et puissant, un jour, j'en suis encore plus convaincue, désormais ! Surtout si tu continues à écouter mes bons conseils.~
        ~Je suis vraiment impressionnée, <CHARNAME>. Tu deviendras une druidesse sage et puissante, un jour, j'en suis encore plus convaincue, désormais ! Surtout si tu continues à écouter mes bons conseils.~
-@556 = ~Eh bien, en fait il s'agissait de l'appel du plongeon catmarin, <CHARNAME>. Mais c'était difficile à reconnaître, je sais ça. Nous avons encore du chemin à accomplir, si tu veux devenir un druide compétent et puissant, mais c'est pour ça que je suis là, pour te guider.~
-       ~Eh bien, en fait il s'agissait de l'appel du plongeon catmarin, <CHARNAME>. Mais c'était difficile à reconnaître, je sais ça. Nous avons encore du chemin à accomplir, si tu veux devenir un druidesse compétente et puissante, mais c'est pour ça que je suis là, pour te guider.~
+@556 = ~Eh bien, en fait il s'agissait de l'appel du plongeon catmarin, <CHARNAME>. Mais c'était difficile à reconnaître, je sais ça. Nous avons encore du chemin à parcourir, si tu veux devenir un druide compétent et puissant, mais c'est pour ça que je suis là, pour te guider.~
+       ~Eh bien, en fait il s'agissait de l'appel du plongeon catmarin, <CHARNAME>. Mais c'était difficile à reconnaître, je sais ça. Nous avons encore du chemin à parcourir, si tu veux devenir un druidesse compétente et puissante, mais c'est pour ça que je suis là, pour te guider.~
 @557 = ~<CHARNAME>, je réfléchissais... Tu es devenu un valeureux défenseur de la nature et je peux encore t'enseigner beaucoup de choses pour que tu t'améliores davantage, mais il y a certaines choses que je ne peux pas te donner et que tu ne peux pas apprendre par toi-même. Et sans ces choses, tu ne seras jamais véritablement druide.~
        ~<CHARNAME>, je réfléchissais... Tu es devenue une valeureuse protectrice de la nature et je peux encore t'enseigner beaucoup de choses pour que tu t'améliores davantage, mais il y a certaines choses que je ne peux pas te donner et que tu ne peux pas apprendre par toi-même. Et sans ces choses, tu ne seras jamais véritablement druide.~
 @558 = ~Quelles sont ces choses ?~
@@ -693,15 +693,15 @@ De l'autre côté.~
 @561 = ~J'aimerais cela. Comment faire ?~
 @562 = ~Intégrer un cercle druidique ? Pffff. Je peux tout à fait m'en sortir tout seul, merci bien.~
        ~Intégrer un cercle druidique ? Pffff. Je peux tout à fait m'en sortir toute seule, merci bien.~
-@563 = ~Tu es druide seulement parce que tu le prétends, mais le reste de nos semblables ne te reconnaîtraient pas, pour une simple raison. Tu ne fais pas partie d'un cercle druidique, tu n'as pas de place dans notre hiérarchie ni même de rôle dans la protection du monde sauvage. Pour être véritablement reconnu en tant que druide, tu dois rejoindre un cercle druidique.~
-       ~Tu es druidesse seulement parce que tu le prétends, mais le reste de nos semblables ne te reconnaîtraient pas, pour une simple raison. Tu ne fais pas partie d'un cercle druidique, tu n'as pas de place dans notre hiérarchie ni même de rôle dans la protection du monde sauvage. Pour être véritablement reconnue en tant que druide, tu dois rejoindre un cercle druidique.~
+@563 = ~Tu es druide seulement parce que tu le prétends, mais le reste de nos semblables ne te reconnaîtrait pas, pour une simple raison. Tu ne fais pas partie d'un cercle druidique, tu n'as pas de place dans notre hiérarchie ni même de rôle dans la protection du monde sauvage. Pour être véritablement reconnu en tant que druide, tu dois rejoindre un cercle druidique.~
+       ~Tu es druidesse seulement parce que tu le prétends, mais le reste de nos semblables ne te reconnaîtrait pas, pour une simple raison. Tu ne fais pas partie d'un cercle druidique, tu n'as pas de place dans notre hiérarchie ni même de rôle dans la protection du monde sauvage. Pour être véritablement reconnue en tant que druide, tu dois rejoindre un cercle druidique.~
 @564 = ~Eh bien, pour l'heure, la quête visant à punir le meurtrier de Gorion doit rester notre priorité. Mais une fois que nous en aurons fini, je peux te ramener auprès des druides de Bois-Manteau ou, peut-être, au Bois de Lars, pour que tu puisses participer aux rites d'initiation. Tu es compétent, ces rites ne seront qu'une formalité pour toi.~
-       ~Eh bien, pour l'heure, la quête visant à punir le meurtrier de Gorion doit rester notre priorité. Mais une fois que nous en aurons fini, je peux te ramener auprès des druides de Bois-Manteau ou, peut-être, au Bois de Lars, pour que tu puisses participer aux rites d'initiation. Tu es compétent, ces rites ne seront qu'une formalité pour toi.~
+       ~Eh bien, pour l'heure, la quête visant à punir le meurtrier de Gorion doit rester notre priorité. Mais une fois que nous en aurons fini, je peux te ramener auprès des druides de Bois-Manteau ou, peut-être, au Bois de Lars, pour que tu puisses participer aux rites d'initiation. Tu es compétente, ces rites ne seront qu'une formalité pour toi.~
 @565 = ~Ça a l'air chouette ! Compte sur moi, je suis impatient de découvrir si les druides ont vraiment aussi peu d'inhibitions que le disent les livres !~
        ~Ça a l'air chouette ! Compte sur moi, je suis impatiente de découvrir si les druides ont vraiment aussi peu d'inhibitions que le disent les livres !~
-@566 = ~Et que se passera-t-il après que je les ai rejoins ?~
+@566 = ~Et que se passera-t-il après que je les ai rejoints ?~
 @567 = ~Tu fais l'impasse sur l'opportunité de bénéficier d'un savoir et d'une expérience récoltés tout au long de nombreux millénaires. C'est une erreur et j'espère que tu changeras d'avis avant qu'il ne soit trop tard.~
-@568 = ~*rigole* C'est un marché, alors. A présent, cela dit, retournons aux affaires en cours.~
+@568 = ~*rigole* C'est un marché, alors. À présent, cela dit, retournons aux affaires en cours.~
 @569 = ~Tu seras encouragé à étudier, à gagner une compréhension profonde de la philosophie druidique, pour t'aider à trouver ta place dans le Grand Cycle. Il y aura des druides puissants au Bosquet, capables de t'enseigner davantage de choses sur le monde sauvage que je ne le pourrais. Tu pourras apprendre de nouvelles méthodes pour travailler à la préservation et la protection de la nature. L'entraînement physique n'est pas en reste, non plus, tu pourras te mesurer à de nombreux compagnons druides pour te perfectionner. Ensuite, au travers de défis, tu pourras avancer dans la hiérarchie du cercle.~
        ~Tu seras encouragée à étudier, à gagner une compréhension profonde de la philosophie druidique, pour t'aider à trouver ta place dans le Grand Cycle. Il y aura des druides puissants au Bosquet, capables de t'enseigner davantage de choses sur le monde sauvage que je ne le pourrais. Tu pourras apprendre de nouvelles méthodes pour travailler à la préservation et la protection de la nature. L'entraînement physique n'est pas en reste, non plus, tu pourras te mesurer à de nombreux compagnons druides pour te perfectionner. Ensuite, au travers de défis, tu pourras avancer dans la hiérarchie du cercle.~
 @570 = ~Très bien, tu m'as convaincu. Une fois que nous en aurons fini ici, je veux que tu me ramènes à Bois-Manteau.~
@@ -710,7 +710,7 @@ De l'autre côté.~
 @572 = ~J'en suis ravie, <CHARNAME>. Pour l'heure, cependant, revenons-en à nos affaires.~
 @573 = ~Khalid et moi irons avec toi et resterons au bosquet pendant un certain temps. J'ai beau être une servante compétente de la Nature, j'ai encore beaucoup à apprendre. Et, peut-être, après pourrons-nous reprendre nos aventures tous ensemble, qui peut le dire.~
 @574 = ~Quand... quand notre tâche sera accomplie, j'aurai besoin d'un endroit pour m'asseoir et méditer tranquillement. Je dois faire mon deuil, si je veux pouvoir avancer dans la vie, et où pourrais-je mieux le faire sinon parmi les miens ? Mais assez de ces pensées mélancoliques, continuons notre route.~
-@575 = ~Hé ! On parle de moi ?~ 
+@575 = ~Hé ! Je proteste !~ 
 // Juste pour la petite histoire intraduisible...
 // La ligne @575 disait originellement : Hé ! C'est pas gentil !, prononcée par Quayle s'il est dans l'équipe et que <CHARNAME> répond la réplique @552 : Une caille !
 // Cause : Quail - la caille et Quayle - le gnome... En français, évidemment, Caille et Quayle, c'est moins fun... Donc j'ai mis "on parle de moi" en imaginant que ça pourrait clarifier pourquoi Quayle réagit à cette réplique (je n'ai pas pu mettre @552 : Un Quayle ! puisque la réplique est possible aussi en l'absence de Quayle dans l'équipe).
@@ -720,4 +720,4 @@ De l'autre côté.~
 /* Thethoril will give you Gorion's letter if you did not get it: */
 @576   = ~Connaissez-vous une personne nommée Koveras ?~
 @577   = ~Merci de votre aide.~
-@578   = ~Je les ai bel et bien tués, mais c'étaient les chefs du Trône de Fer, les responsables de la pénurie de fer et de tous les troubles qui régnaient sur la Côte des Epées ! Nous avons rendu service à tout le monde en les tuant.~
+@578   = ~Je les ai bel et bien tués, mais c'étaient les chefs du Trône de Fer, les responsables de la pénurie de fer et de tous les troubles qui régnaient sur la Côte des Épées ! Nous avons rendu service à tout le monde en les tuant.~
