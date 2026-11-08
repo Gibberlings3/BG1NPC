@@ -154,8 +154,14 @@ COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/baf/P#WOLFA.BAF~// Compile script
 /* area script extension */
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 /* BGEE needs different location for Imanel Silversword, as Simmeon from Dorn's quest spawns in Imanel's original BG1NPC location. */
-  EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#AR0900.BAF~
-    EVALUATE_BUFFER
+  /* With BGGO Alternative Wyrms Crossing: The city wall is in the way*/ 
+  ACTION_IF MOD_IS_INSTALLED "bggo.tp2" (ID_OF_LABEL "bggo.tp2" "baldurs_gate_graphical_overhaul_alternate" ) BEGIN 
+    EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#BG0900.BAF~
+      EVALUATE_BUFFER
+  END ELSE BEGIN
+    EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#AR0900.BAF~
+      EVALUATE_BUFFER
+  END
 END ELSE BEGIN
 /* For TuTu and BGT */
   EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW0900.BAF~
