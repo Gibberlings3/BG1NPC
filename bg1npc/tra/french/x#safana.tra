@@ -11,7 +11,7 @@
 @8 = ~Eh bien, quoi que ce puisse être, elle était à l'évidence effrayée. Je m'interroge un peu au sujet des gens qui m'accompagnent ces temps-ci. Es-tu sûr de ne pas avoir oublié de me raconter quelque chose, chéri ?~
      ~Eh bien, quoi que ce puisse être, elle était à l'évidence effrayée. Je m'interroge un peu au sujet des gens qui m'accompagnent ces temps-ci. Es-tu sûre de ne pas avoir oublié de me raconter quelque chose, chérie ?~
 @9 = ~Mais quelle... charmante réflexion, <CHARNAME>. Je pense que je m'en souviendrai.~
-@10 = ~Eh bien malheureusement elle est morte maintenant, nous ne le saurons probablement jamais. A moins que nous n'allions consulter un nécromancien.~
+@10 = ~Eh bien malheureusement elle est morte maintenant, nous ne le saurons probablement jamais. À moins que nous n'allions consulter un nécromancien.~
 @11 = ~Eh bien, quoi que ce puisse être, elle était suffisamment effrayée pour tenter de te tuer. Je m'interroge un peu au sujet des gens qui m'accompagnent ces temps-ci. Es-tu sûr de ne pas avoir oublié de me raconter quelque chose, chéri ?~
       ~Eh bien, quoi que ce puisse être, elle était suffisamment effrayée pour tenter de te tuer. Je m'interroge un peu au sujet des gens qui m'accompagnent ces temps-ci. Es-tu sûre de ne pas avoir oublié de me raconter quelque chose, chérie ?~
 
@@ -28,7 +28,7 @@
 @17 = ~Que se passe-t-il, ma dame ? Vous êtes-vous fait mal ?~
 @18 = ~Je... Je me sens un peu... faible, tout d'un coup. Ce sac a l'air de devenir de plus en plus lourd. Peut-être devrais-je m'asseoir un peu.~
 @19 = ~Il a bien l'air trop lourd pour vous, ma dame. Je vous en prie, permettez-moi d'en porter une partie.~
-@20 = ~En vérité, avoir un chevalier si galant dans le groupe est tellement prati... euh, je veux dire, agréable. Que ferais-je sans un jeune homme fort comme toi à proximité ? Voilà Ajantis, prends-le.~
+@20 = ~En vérité, avoir un chevalier si galant dans le groupe est tellement prati... euh, je veux dire, agréable. Que ferais-je sans un jeune homme fort comme toi à proximité ? Tiens, Ajantis, prends-le.~
 
 // Safana - Branwen
 
@@ -36,9 +36,9 @@
 @22 = ~Une autre de tes "intéressantes" histoires, Safana ? J'espère qu'elle sera un peu plus crédible que celle du naufrage.~
 @23 = ~Je te laisse juge. Il s'agit de l'histoire d'une guerrière-prêtresse avec de fermes convictions, endurcie en un parangon de vertu par des années d'épreuves.~
 @24 = ~J'aime entendre cela. Tempus nous enseigne beaucoup de telles histoires inspirantes pour nous guider dans nos vies quotidiennes.~
-@25 = ~Vraiment ? Eh bien ce récit parle d'une beauté sculpturale qui fait face à un dilemme entre honneur et amour - non, entre opportunisme et indifférence.~
+@25 = ~Vraiment ? Eh bien ce récit parle d'une beauté sculpturale qui fait face à un dilemme entre honneur et amour - non, entre entêtement et dureté de coeur.~
 @26 = ~Un dilemme qui finalement la laissa pétrifiée, incapable de faire autre chose qu'implorer son dieu.~
-@27 = ~J'espère seulement dans ce cas que l'honneur l'a emporté car l'amour peut être éphémère, alors que l'honneur est le fondement sur lequel une âme obtient son rachat.~
+@27 = ~J'espère seulement dans ce cas que l'honneur l'a emporté car l'amour peut être éphémère, alors que l'honneur est le roc auquel une âme peut s'agripper.~
 @28 = ~Je n'aurais pas dit mieux, Branwen.~
 
 // Safana - Coran - Quête des wivernes
@@ -81,7 +81,7 @@
 @52 = ~Un jour, à l'âge de douze ans, il décida qu'il allait "m'éduquer". Il m'attira dans le garde-manger en promettant de me montrer un tour de magie, et tenta d'abuser de moi sur la table.~
 @53 = ~Je réussis à m'échapper mais ce faisant, il déchira ma jupe favorite.~
 @54 = ~J'imagine que tu courus voir ton père qui, ne comprenant pas l'importance d'une éducation libérale, lui fit couper la tête. (Bon, elle était peut-être un peu jeune pour ça mais quand même... stupides ignorants.)~
-@55 = ~En fait, je me glissai dans sa chambre plus tard dans la soirée alors qu'il dormait and lui tranchai la gorge. J'aimais vraiment cette jupe.~
+@55 = ~En fait, je me glissai dans sa chambre plus tard dans la soirée alors qu'il dormait et lui tranchai la gorge. J'aimais vraiment cette jupe.~
 
 // Safana - Eldoth
 
@@ -89,7 +89,7 @@
 @57 = ~Vous éveillez mon... intérêt, charmante dame. Votre audience retient son souffle.~
 @58 = ~Il était une fois une jolie petite alouette qui vivait dans une prison dorée. Jeune et naïve, elle chantait à tous les passants ses rêves de liberté et d'aventure.~
 @59 = ~Et puis un jour, un vaurien tomba sur l'alouette. Il n'était pas intéressé par sa beauté ou par ses chants, mais uniquement par les barreaux d'or qui la maintenaient captive. Il séduisit la sotte alouette et lui murmura des paroles de miel, promettant de lui offrir tout ce que son coeur désirait.~
-@60 = ~Elle s'abandonna totalement à lui, ne réalisant pas qu'elle avait simplement échangé une prison dorée pour une prison de tromperie.~
+@60 = ~Elle s'abandonna totalement à lui, ne réalisant pas qu'elle avait simplement échangé une prison dorée contre une prison de tromperie.~
 @61 = ~Heureusement pour l'alouette, un faucon la découvrit et la prit en pitié. Il surveilla le vaurien nuit et jour pour déceler tout signe de duperie.~
 @62 = ~Quelle fable intéressante ! Mais si vous voulez mon opinion de conteur, je trouve votre morale plutôt sévère.~
 @63 = ~Je craignais que tu ne saisisses pas la subtilité de cette histoire, barde.~
@@ -103,13 +103,13 @@
 @68 = ~Oui, certainement, les arbres sont beaucoup plus beaux qu'un désert monotone ou la haute mer. Mais je suis incapable d'avoir une nuit de sommeil correcte en dormant sur des branches et des pommes de pin.~
 @69 = ~J'aimerais tellement mieux me trouver dans une taverne confortable, à partager un verre de vin et peut-être d'autres plaisirs avec un beau gosse.~
 @70 = ~Tu me dégoûtes. Ce sera un jour de joie quand les druides de l'Ombre auront enfin délivré cette terre des gens de ton espèce.~
-@71 = ~Viens donc me chercher ce jour-là, chérie - Tu me trouveras pelotonnée dans le lit de plumes le plus confortable de la ville.~
+@71 = ~Viens donc me chercher ce jour-là, chérie - tu me trouveras pelotonnée dans le lit de plumes le plus confortable de la ville.~
 
 //Safana - Garrick
 
 @72 = ~Garrick, on m'a déjà vanté ton talent lyrique, et j'ai décidé de te commander une chanson.~
-@73 = ~Commander ? Mais je n'imagine pas une seconde accepter le moindre argent de votre part - la simple vision de votre beauté est un paiement suffisant. En fait, Je travaille déjà sur un ode à votre grâce. Euh, aimeriez-vous l'entendre ?~
-@74 = ~Vraiment ? J'en serais ravie. Cependant je dois te dire que ce n'est pas la première chanson écrite en mon honneur. Quand j'étais à bord de l'Exzesus je fus immortalisée dans une chanson de marins des plus grivoises jamais écrite.~
+@73 = ~Commander ? Mais je n'imagine pas une seconde accepter le moindre argent de votre part - la simple vision de votre beauté est un paiement suffisant. En fait, je travaille déjà sur une ode à votre grâce. Euh, aimeriez-vous l'entendre ?~
+@74 = ~Vraiment ? J'en serais ravie. Cependant je dois te dire que ce n'est pas la première chanson écrite en mon honneur. Quand j'étais à bord de l'Exzesus je fus immortalisée dans l'une des chansons de marins les plus grivoises jamais écrites.~
 @75 = ~Eh bien vous placez la barre haut, mais je vais m'efforcer de faire de mon mieux :~
 @76 = ~Je contemple mon âme, mais n'y vois que néant.
 Je me suis enivré pour calmer mon tourment,
@@ -132,8 +132,7 @@ mais il n'en connaît pas encore le prix.~
 @82 = ~Alors Garrick, où en es-tu de cette chanson ?~
 @83 = ~Safana, j'ai bien peur d'être incapable d'exprimer ce que je ressens.~
 @84 = ~Comment ? Mais il y a plein de mots qui riment avec "désir." Plaisir, choisir, rosir ou... moisir ! On dirait que j'ai un certain talent pour écrire des vers, ne crois-tu pas, barde ?~
-@85 = ~Oui, je présume. Mais ce n'est pas cela mon problème. Vous voyez, j'ai du mal à composer quelque chose qui
-puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vous. J'ai perdu ma volonté d'y travailler.~
+@85 = ~Oui, je présume. Mais ce n'est pas cela mon problème. Vous voyez, j'ai du mal à composer quelque chose qui puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vous. J'ai perdu ma volonté d'y travailler.~
 @86 = ~Bien sûr, composer de simples chants guerriers n'est pas un problème, mais quand j'essaie d'ouvrir mon coeur, je m'échoue sur les rochers de votre beauté et me trouve absolument seul et torturé par quelque chose dont je ne sais même pas le nom. (Là, j'ai vraiment été éloquent).~
 @87 = ~Mon chou, peut-être devrions-nous plus nous concentrer sur la rime avec "désir" et nous verrons où cela te mènera.~
 @88 = ~Ah, oui ! Je veux dire, je pense que ce serait une meilleure approche du problème...~
@@ -144,11 +143,11 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 @90 = ~Safana, depuis notre dernière conversation, j'ai passé mon temps à essayer de trouver une manière d'exprimer mes sentiments et j'ai décidé que ce sera ou bien vous, ou bien l'oeuvre de ma vie. Je ne peux supporter cette division dans mon inspiration.~
 @91 = ~Puisque j'ai l'impression de n'être qu'un jouet pour vous, je vous demande d'arrêter de vous amuser de moi et de me laisser tranquille.~
 @92 = ~Tu ne m'amuses plus, Garrick. De toute façon je ne t'ai pas demandé de déverser sur moi tout le contenu de ta "bouteille vide".~
-@93 = ~Je ne demande pas mieux que de te laisser tranquille, mais tes massages de cou vont vraiment me manquer. A ce niveau-là, tu as peut-être raté ta vocation.~
+@93 = ~Je ne demande pas mieux que de te laisser tranquille, mais tes massages de cou vont vraiment me manquer. À ce niveau-là, tu as peut-être raté ta vocation.~
 
 // Safana - Imoen
 
-@94 = ~Ma chère Imoen, j'ai remarqué que tu avais quelques difficultés avec une de ces serrures dernièrement. Quand j'étais enfant, la maison de mon père était remplie de serrures tout-à-fait similaires et j'ai donc appris une astuce particulière pour les décider à s'ouvrir. Veux-tu que je te montre ?~
+@94 = ~Ma chère Imoen, j'ai remarqué que tu avais quelques difficultés avec une de ces serrures dernièrement. Quand j'étais enfant, la maison de mon père était remplie de serrures tout à fait similaires et j'ai donc appris une astuce particulière pour les décider à s'ouvrir. Veux-tu que je te montre ?~
 @95 = ~Oh, pour sûr, Safana. C'est terriblement gentil de ta part...~
 @96 = ~Voilà, maintenant tu as le coup de main. Tu es une fille si douée, tu me rappelles une autre jeune beauté que je connaissais...~
 
@@ -156,7 +155,7 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 
 @97 = ~Imoen mon enfant, tes cheveux sont dans un état tout bonnement épouvantable aujourd'hui. Viens, laisse-moi te coiffer.~
 @98 = ~Je ne comprends pas, Safana. Pourquoi toute cette sollicitude ? Pourquoi es-tu si gentille avec moi ?~
-@99 = ~Ma douce petite naïve, nous vivons dans un monde froid et cruel. Une fille doit utiliser tous les atouts que la nature lui a donné, et tu en possèdes plus que la plupart des gens. Il est grand temps que quelqu'un te prenne sous son aile et t'aide à parfaire tes attraits.~
+@99 = ~Ma douce petite naïve, nous vivons dans un monde froid et cruel. Une fille doit utiliser tous les atouts que la nature lui a donnés, et tu en possèdes plus que la plupart des gens. Il est grand temps que quelqu'un te prenne sous son aile et t'aide à parfaire tes attraits.~
 @100 = ~Je ne sais pas trop pour les leçons de charme, Safana, mais j'apprécie tes astuces au sujet du crochetage des serrures. Pourras-tu m'en apprendre d'autres un de ces jours ?~
 @101 = ~Certainement ma chérie, mais je pense qu'apprendre à déverrouiller le coeur des hommes te sera beaucoup plus utile à long terme.~
 
@@ -173,10 +172,10 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 // Safana - Kagain
 
 @109 = ~Kagain, tu as assurément bien manié ta hache pendant le dernier combat.~
-@110 = ~Ca me plairait bien de te montrer mes autres armes un jour, si tu vois ce que je veux dire.~
+@110 = ~Ça me plairait bien de te montrer mes autres armes un jour, si tu vois ce que je veux dire.~
 @111 = ~Est-ce que tout ton équipement est... de taille naine ?~
 @112 = ~Ce n'est pas la taille de la hache qui compte, jeune femme, c'est la manière dont on s'en sert.~
-@113 = ~Oh, la technique a certes son importante, mais je peux t'assurer que la taille entre en jeu, mon chou.~
+@113 = ~Oh, la technique a certes son importance, mais je peux t'assurer que la taille entre en jeu, mon chou.~
 @114 = ~As-tu remarqué, jeune femme, que les armes forgées par les nains sont toujours plus longues que celles des races de "grande taille" ?~
 
 // Safana - Khalid
@@ -224,14 +223,14 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 @143 = ~<CHARNAME>, je ne crois pas t'avoir raconté la fois où je me suis débarrassée seule d'une vingtaine de guerriers petites-gens qui tentaient de me capturer pour une prime ?~
 @144 = ~Y'a des ptites-gens qui croient être des guerriers, et y'a ceux qu'en sont vraiment. J'pense que tu comprendrais la différence si ça m'prenait l'envie de te montrer.~
 @145 = ~Va te raser les pieds, moucheron, je suis en train de raconter une histoire.~
-@146 = ~J'prendrai soin d'eux en les essuyant sur ton cadavre. Ca m'suffira.~
-@147 = ~<CHARNAME>, sois chou et dit au petit bonhomme de fermer sa gueule, avant que je ne rejoue la fin de mon récit.~
+@146 = ~J'prendrai soin d'eux en les essuyant sur ton cadavre. Ça m'suffira.~
+@147 = ~<CHARNAME>, sois chou et dis au petit bonhomme de fermer sa gueule, avant que je ne rejoue la fin de mon récit.~
 
 // Safana - Shar-teel
 
 @148 = ~Shar-Teel, je suis bien obligée de constater que tu n'aimes pas beaucoup les hommes.~
-@149 = ~A l'évidence <CHARNAME> t'a recrutée pour ta vivacité d'esprit.~
-@150 = ~Franchement oui, chérie, Je crois vraiment que c'est pour cela que je fais partie de ce groupe. C'est gentil de ta part de l'avoir remarqué.~
+@149 = ~À l'évidence <CHARNAME> t'a recrutée pour ta vivacité d'esprit.~
+@150 = ~Franchement oui, chérie, je crois vraiment que c'est pour cela que je fais partie de ce groupe. C'est gentil de ta part de l'avoir remarqué.~
 @151 = ~Mais revenons à nos moutons. Je me demande pourquoi tu les détestes à ce point. Ne t'a-t-on pas dit qu'on n'attrape pas les mouches avec du vinaigre ?~
 @152 = ~*Attraper* les mouches ne m'intéresse pas, je veux juste les tuer.~
 @153 = ~Mais quelle animosité, ma chère. Je pense simplement qu'il y a des moyens plus simples - et qui plus est, plus agréables - d'exploiter les faiblesses des hommes, que la voie que tu as choisie.~
@@ -257,7 +256,7 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 @167 = ~Elle apprit ainsi qu'elle était à la hauteur de n'importe qui, et de n'importe quel défi. Elle n'avait pas besoin d'un homme.~
 @168 = ~Mais c'est tellement plus agréable avec quelqu'un comme Eldoth avec moi. Je n'ai jamais à me soucier de rien.~
 @169 = ~Oh certainement, les hommes ont leur rôle... de préférence celui de me masser les épaules ou de m'apporter quelque chose à boire.~
-@170 = ~Mais la fille de mon histoire apprit à ne pas confondre le fait de vouloir un homme et en avoir besoin d'un. J'espère, ma chérie, que tu méditeras sur cette histoire.~
+@170 = ~Mais la fille de mon histoire apprit à ne pas confondre le fait de vouloir un homme et celui d'en avoir besoin. J'espère, ma chérie, que tu méditeras sur cette histoire.~
 
 // Safana - Tiax
 
@@ -265,9 +264,9 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 @172 = ~Entendre une telle histoire intéresserait beaucoup le guide suprême.~
 @173 = ~C'était quand j'étais à bord de l'Exzesus. Nous venions juste de mettre à sac un village de la côte amnienne et avions pris la mer pour l'île de Brynnlaw pour nous délester d'un excès de butin.~
 @174 = ~J'étais en train de passer la soirée à me faire bichonner dans un lupanar des plus mal famés, quand je surpris la conversation d'un jeune mage et de sa maîtresse toute habillée de cuir, qui faisait référence à une "amulette de la Dominatrix".~
-@175 = ~A ce qu'il semble, le porteur de cette amulette pourrait réduire le monde entier en esclavage.~
+@175 = ~À ce qu'il semble, le porteur de cette amulette pourrait réduire le monde entier en esclavage.~
 @176 = ~Réduire le monde entier en esclavage ? Tiax doit savoir où se trouve ce lupanar ! Il faut que Tiax possède cette amulette ! Rien n'empêchera Tiax d'accomplir son destin !~
-@177 = ~Oui mon petit chou, cela viendra en temps voulu. D'abord, j'ai besoin que tu me grattes entre mes omoplates - la démangeaison est tout bonnement insupportable...~
+@177 = ~Oui mon petit chou, cela viendra en temps voulu. D'abord, j'ai besoin que tu me grattes entre les omoplates - la démangeaison est tout bonnement insupportable...~
 
 // Safana - Tiax
 
@@ -287,7 +286,7 @@ puisse exprimer ne serait-ce que l'ombre de mes véritables sentiments envers vou
 @188 = ~Je ne connais pas grand-chose de la culture des elfes noirs, mais je crois en avoir appris un petit peu à ton sujet et je déteste voir une créature aussi fière que toi se cacher sous sa cagoule.~
 @189 = ~Il y a une part de vérité dans ce que tu dis. Sous la surface, j'exerçais une autorité bien plus considérable qu'ici et ça me rend malade d'en être réduite à une situation si lamentable.~
 @190 = ~Tu n'es qu'une humaine, et pourtant tes paroles sont... attrayantes. Je vais y songer.~
-@191 = ~A la bonne heure, chérie ! Maintenant allons voir si nous arrivons à trouver un pigeon pour nous payer un verre ou deux. A nous deux, nous devrions pouvoir vider la plupart des poches dans la prochaine taverne.~
+@191 = ~À la bonne heure, chérie ! Maintenant allons voir si nous arrivons à trouver un pigeon pour nous payer un verre ou deux. À nous deux, nous devrions pouvoir vider la plupart des poches dans la prochaine taverne.~
 
 // Safana - Xan
 

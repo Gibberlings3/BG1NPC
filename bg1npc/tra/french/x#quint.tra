@@ -31,11 +31,11 @@
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 675, probabilité 77.1
 @24    = ~Eh bien, vous avez absolument raison à ce sujet.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 359, probablement inutile de traduire ici !
-@25    = ~Tout-à-fait mon type de femme !~
-@26    = ~Vagabonder ?!? Je vous en prie ! Il est scientifiquement prouvé que, euh, dormir à la belle étoile peut être bénéfique au niveau des capacités mentales ! Et s'il vous prenait l'envie de le tester, eh bien j'en suis la preuve évidente, espèce de grosse tête de fer blanc !~
+@25    = ~Tout à fait mon type de femme !~
+@26    = ~Vagabonder ?!? Je vous en prie ! Il est scientifiquement prouvé que, euh, dormir à la belle étoile peut être bénéfique au niveau des capacités mentales ! Et s'il vous prenait l'envie de le tester, eh bien j'en suis la preuve évidente, espèce de grosse tête de fer-blanc !~
 @27    = ~Hé... que je ne t'y reprenne pas, minus.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 340, probablement inutile de traduire ici !
-@28    = ~Oh, je suis tout-à-fait d'accord avec vous ! Il y a tant de rustres qui réclament des réponses immédiates à leurs questions, alors que les vrais érudits comme moi savent qu'il faut de la patience, car il faut examiner individuellement tous les paramètres variables...~
+@28    = ~Oh, je suis tout à fait d'accord avec vous ! Il y a tant de rustres qui réclament des réponses immédiates à leurs questions, alors que les vrais érudits comme moi savent qu'il faut de la patience, car il faut examiner individuellement tous les paramètres variables...~
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 341, probabilité 76.7
 @29    = ~Bon, euh, c'est l'excuse que je donne, en tout cas.~
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 347, probabilité 86.3
@@ -50,7 +50,7 @@
 @37    = ~Quoi ? Oh, vous ne comprenez pas. Comme c'est merveilleux d'être à nouveau en bonne santé !~
 @38    = ~Je pense qu'elle devrait manger moins de fromage avant d'aller au lit le soir.~
 @39    = ~Je connais évidemment un truc ou deux sur ce genre de sorts, et il dit la vérité... Seule une magie puissante pourra le sauver. Je pourrais l'aider, bien sûr, mais je trouve que ces sorts particuliers, euh... me donnent mal au crâne.~
-@40    = ~Allez-vous m'aider, ou allons nous rester plantés là à écouter ce gnome ?~
+@40    = ~Allez-vous m'aider, ou allons-nous rester plantés là à écouter ce gnome ?~
 @41    = ~Vous avez ce dont j'ai besoin. Bien joué.~
 @1001  = ~Il faut y aller maintenant. Il vous attend.~
 @1002  = ~Ignorez mes paroles... à vos risques.~

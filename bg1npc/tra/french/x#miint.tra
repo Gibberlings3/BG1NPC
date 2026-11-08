@@ -9,7 +9,7 @@
 @7 = ~*soupire*~
 @8 = ~Tiax veut obtenir ce rongeur. La domination du monde serait tellement plus facile si Tiax avait des alliés intelligents, plutôt que ces débiles.~
 @9 = ~J'imagine que c'est utile d'avoir à la fois de l'intelligence et de la chance, tant que ça dure...~
-@10 = ~Etait-ce un hamster ?!~
+@10 = ~Était-ce un hamster ?!~
 @11 = ~Un hamster de l'espace miniature, sire !~
 @12 = ~Je vois. Je pense que tu as vraiment besoin de *chance*... de beaucoup de chance.~
 @13 = ~Je me demande si ces crétins parviendront même à quitter la pièce sans se faire tuer.~
@@ -17,12 +17,12 @@
 @15 = ~Je n'ai jamais dit ça, si... ?~
 @16 = ~Mais tu n'as jamais dit le contraire... tu aimes vraiment garder les choses dans le flou, n'est-ce pas ?~
 @17 = ~Mon impatiente apprentie, quelle serait la vie si tu avais un vieux magicien pour guider chacun de tes pas ?~
-@18 = ~A présent, file, jeune fille, l'aventure t'attend !~
+@18 = ~À présent, file, jeune fille, l'aventure t'attend !~
 @19 = ~C'est plutôt rassurant de savoir qu'Elminster lui-même approuve la voie que tu as choisie, <CHARNAME>. Mais plus important encore, son approbation est accompagnée d'une recommandation bien utile.~
 // 10074 dans BGEE, ajout d'un titre
 @20 = ~Une nouvelle rencontre avec Elminster
 
-Elminster s'est représenté, mais il était cette fois plus généreux en renseignements. Apparemment, il connaissait bien Gorion, qui selon lui était un homme bien pour s'être occupé de moi. Il a aussi parlé de mauvais sang, et d'une infection qui me consumera si je ne fais pas attention. La signification de tout cela n'est pas claire. Je vais tenir compte de sa mise en garde, même si je n'ai pas vraiment le temps de m'y attarder. Il m'a toutefois donné le nom de personnes qu'il jugeait fiables : la Balafre du Poing Enflammé et le Duc Eltan. Je suppose que je peux leur faire confiance si Elminster lui-même me les recommande.~
+Elminster s'est de nouveau présenté, mais il était cette fois plus généreux en renseignements. Apparemment, il connaissait bien Gorion, qui selon lui était un homme bien pour s'être occupé de moi. Il a aussi parlé de mauvais sang, et d'une infection qui me consumera si je ne fais pas attention. La signification de tout cela n'est pas claire. Je vais tenir compte de sa mise en garde, même si je n'ai pas vraiment le temps de m'y attarder. Il m'a toutefois donné le nom de personnes qu'il jugeait fiables : la Balafre du Poing Enflammé et le Duc Eltan. Je suppose que je peux leur faire confiance si Elminster lui-même me les recommande.~
 @21 = ~Ce n'est pas bien de voler !~
 @22 = ~Du moins, de nous voler ! *glousse*~
 @23 = ~Bon, où as-tu glané cette idée stupide ?~
@@ -32,7 +32,7 @@ Elminster s'est représenté, mais il était cette fois plus généreux en renseignem
 @27 = ~Et que dirais-tu de *travailler*, espèce de bon à rien ? Gardes ! Par ici !~
 @28 = ~Aah, Minsc sent que son sang commence à bouillir. Sa tête commence à tourner. Sa fureur commence à monter. Oh oui, une rage de berserker toute puissante embrase Minsc ! ET ALORS IL VA TE TRANCHER COMME UNE MAUVAISE HERBE, ESPECE DE PETIT COUPEUR DE BOURSES !!!~
 @29 = ~*gloups* Mask, aie pitié de moi ! Je... je... je vois la lumière ! Vraiment, je le jure ! Je ne volerai plus jamais de ma vie ! Voilà, reprenez votre argent ! Prenez *tout* mon argent !~
-@30 = ~A présent, laissez-moi partir, s'il vous plaît ! S'il vous plaaaaaaaaaaît !~
+@30 = ~À présent, laissez-moi partir, s'il vous plaît ! S'il vous plaaaaaaaaaaît !~
 @31 = ~Alors va, mais souviens-toi, Bouh le dira à Minsc si tu essaies à nouveau quelque chose de ce genre. Et Minsc se lancera à tes trousses !~
 @32 = ~Oui, sire ! Je le jure, sire ! ... Au revoir, sire !~
 @33 = ~Pourquoi l'as-tu laissé partir ? C'était un voleur, il aurait dû être puni !~
@@ -40,7 +40,7 @@ Elminster s'est représenté, mais il était cette fois plus généreux en renseignem
 @35 = ~Et alors ? C'était un criminel !~
 @36 = ~Oui, mais l'odeur de sa peur avait commencé à donner les larmes aux yeux à Bouh. Je dois avouer que même Minsc a senti son estomac se révulser...~
 @37 = ~L'odeur de... Oh, par Heaum ! C'est répugnant !~
-@38 = ~Et bien, la plupart des méchants sont répugnants. Celui-ci a aussi besoin d'un nouveau pantalon, maintenant.~
+@38 = ~Eh bien, la plupart des méchants sont répugnants. Celui-ci a aussi besoin d'un nouveau pantalon, maintenant.~
 @39 = ~Je le jure, Minsc, je ne te comprendrai jamais.~
 @40 = ~Ce n'est pas grave, Minsc ne se comprend pas non plus.~
 @41 = ~Mélicamp, poule de son état
@@ -86,7 +86,7 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 562, probablement inutile de traduire ici !
 @69 = ~Minsc ne comprend pas. Pourquoi tous ces gens détestent-ils autant Jaheira ? C'est une gentille dame ! Peut-être un peu trop autoritaire, et un peu irritable... hum... en fait, elle rappelle à Minsc Berthe la Vieille Fille, à la maison...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 564, probablement inutile de traduire ici !
-@70 = ~Quoi Bouh ? Non, je ne pense pas que je veux qu'elle me tire de nouveau les oreilles...~
+@70 = ~Quoi Bouh ? Non, je ne pense pas que je veuille qu'elle me tire de nouveau les oreilles...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 565, probablement inutile de traduire ici !
 @71 = ~Imagine ce qu'elle nous ferait si elle savait que *nous* avons réussi à saouler Khalid au Jongleur Jovial...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 566, probablement inutile de traduire ici !
@@ -110,9 +110,9 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 719, probablement inutile de traduire ici !
 @82 = ~Dynahéir ! Regarde, Bouh, nous l'avons trouvée ! Oh, quel jour glorieux !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 720, probablement inutile de traduire ici !
-@83 = ~A présent je crois que c'est bien Toi. Je n'aurais jamais pensé que viendrait le jour où je serais heureuse de revoir ce... rongeur.~
+@83 = ~À présent je crois que c'est bien Toi. Je n'aurais jamais pensé que viendrait le jour où je serais heureuse de revoir ce... rongeur.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 721, probablement inutile de traduire ici !
-@84 = ~Oui, ma sorcière, c'est moi ! Oh, <CHARNAME>, si tu pensais que Minsc et Bouh et toi faisaient une grande équipe de bottage de fesses, attends de voir Dynahéir nous rejoindre et libérer sa magie contre les cancrelats diaboliques qui nous barrent le chemin !~
+@84 = ~Oui, ma sorcière, c'est moi ! Oh, <CHARNAME>, si tu pensais que Minsc et Bouh et toi faisiez une grande équipe de bottage de fesses, attends de voir Dynahéir nous rejoindre et libérer sa magie contre les cancrelats diaboliques qui nous barrent le chemin !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 722, probablement inutile de traduire ici !
 @85 = ~C-Cancrelats ? Je saigne t-toujours à cause du dernier de ces c-cancrelats !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 723, probablement inutile de traduire ici !
@@ -122,20 +122,20 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 468, probablement inutile de traduire ici !
 @88 = ~Tu veux tuer la sorcière de Minsc ?!~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 469, probablement inutile de traduire ici !
-@89 = ~Ta sorcière ?! (De tous les groupes d'aventuriers de Féérune, j'ai réussi à demander à *ces* babouins en particulier.)~
+@89 = ~Ta sorcière ?! (De tous les groupes d'aventuriers de Féérune, il a fallu que je m'adresse à *ces* babouins en particulier.)~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 470, probablement inutile de traduire ici !
 @90 = ~Oui, MA sorcière ! Dégage, Mage Rouge visqueux, ou Bouh aura tes yeux !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 471, probablement inutile de traduire ici !
-@91 = ~Visqueux ?! J'ai pris un bain ce matin ! (Ce qui est plus que je peux en dire de ce gorille.)~
+@91 = ~Visqueux ?! J'ai pris un bain ce matin ! (Ce qui est plus que je ne peux en dire de ce gorille.)~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 472, probablement inutile de traduire ici !
-@92 = ~Oui, visqueux ! A présent, file, avant que je ne lâche mon hamster sur toi !~
+@92 = ~Oui, visqueux ! À présent, file, avant que je ne lâche mon hamster sur toi !~
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 473, probabilité 73.9
-@93 = ~Ce n'est pas à toi d'en décider, espèce de... de... singe boulimique ! (Oui, ça colle plus ou moins). Qu'en dis-tu, <CHARNAME> ?~
-@94 = ~Tu vois, mage, personne ici ne veut de gens de ton espèce dans les parages. Alors, va t'en, avant que Bouh ne puisse plus se retenir davantage et te montre la puissance de son esprit guerrier !~
+@93 = ~Ce n'est pas à toi d'en décider, espèce de... de... singe boulimique ! (Oui, ça colle plus ou moins.) Qu'en dis-tu, <CHARNAME> ?~
+@94 = ~Tu vois, mage, personne ici ne veut de gens de ton espèce dans les parages. Alors, va-t'en, avant que Bouh ne puisse plus se retenir davantage et te montre la puissance de son esprit guerrier !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 653, probablement inutile de traduire ici !
 @95 = ~Crétin.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 652, probablement inutile de traduire ici !
-@96 = ~Non, ce n'est pas possible ! Tous les vrais héros baissent la tête, honteux !~
+@96 = ~Non, ce n'est pas possible ! Que tous les vrais héros baissent la tête, honteux !~
 @97 = ~Attends une seconde, brave homme, Bouh me dit quelque chose... Qu'est-ce qu'il y a, Bouh ? Oh, je vois... N'es-tu pas celui qui a vendu Bouh à Minsc ?~
 @98 = ~En effet, j'ai fait un peu de vente d'animaux familiers, ces derniers temps. Puis-je le voir ?~
 @99 = ~Viens, Bouh, dis bonjour au gentil vieux magicien !~
@@ -176,7 +176,7 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 @122 = ~Oui, Bouh, je vais demander... <CHARNAME>, est-ce que tu as des pommes ? Bouh dit qu'il a vraiment envie de pommes et...~
 @123 = ~<CHARNAME> ?! C'est toi, alors ! MEURS ! MEURS ! MEURS !~
 @124 = ~Ceci prouve que le quotient intellectuel d'un individu est inversement proportionnel à sa taille. Regardez-moi, et regardez Minsc... CQFD.~
-@125 = ~Espèce de singe démesuré, tu vas nous faire tous tuer un de ces jours ! (Pas que je me soucie du reste d'entre eux, mais il pourrait ME faire tuer !)~
+@125 = ~Espèce de singe démesuré, tu vas nous faire tous tuer un de ces jours ! (Non pas que je me soucie du reste d'entre eux, mais il pourrait ME faire tuer !)~
 @126 = ~Pourquoi ces grimaces ? Une bataille glorieuse nous attend, et puis je trouverai des pommes pour Bouh. Il peut attendre, vous savez. VISE LES YEUX, BOUH, VISE LES YEUX ! RRRRARGH !~
 @127 = ~Il y a quelque chose d'étrange dans cet homme... Je n'ai jamais vu les moustaches de Bouh trembler à ce point.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 663, probablement inutile de traduire ici !
@@ -193,8 +193,8 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 @133 = ~Que dis-tu, Bouh ?... Oui, je pense qu'un chinchilla, ça marcherait aussi. Ça irait bien avec ses yeux.~
 @134 = ~Prudence, <CHARNAME> ! Bouh me dit que la terre elle-même recèle de grands dangers, et il ne parle pas de vers !~
 @135 = ~Oui ! C'est bien l'endroit ! En avant, dépêchons-nous ! Minsc ne laissera pas Dynahéir souffrir une seconde de plus dans ces lieux !~
-@136 = ~En avant pour secourir notre douce amie !~
-@137 = ~Hé, comment est-ce que <CHARNAME> sait que Dynahéir est douce ?~
+@136 = ~En avant pour secourir notre belle dame !~
+@137 = ~Hé, comment est-ce que <CHARNAME> sait que Dynahéir est belle ?~
 @138 = ~*fait un clin d'oeil* Je l'ai vue dans mes rêves, Minsc.~
 @139 = ~Je... Je pense que je l'ai vue dans mes rêves, rôdeur.~
 @140 = ~D'après tes histoires, bien sûr, mon loyal compagnon !~
@@ -203,7 +203,7 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 @143 = ~Vraiment ?!~
 @144 = ~Quoi, Bouh ?~
 @145 = ~Oh, je vois... bonne blague, <CHARNAME> !~
-@146 = ~Minsc aussi... Mais comment <CHARNAME> peut-il savoir que c'était Dynahéir et pas une autre sorcière ?~
+@146 = ~Minsc aussi... Mais comment <CHARNAME> peut savoir que c'était Dynahéir et pas une autre sorcière ?~
 @147 = ~OUI ! EN AVANT !~
 @148 = ~Pourquoi est-ce que Dynahéir embrasserait <CHARNAME> ? Minsc pense que si elle embrasse quelqu'un, ce sera Bouh... Les femmes font ce genre de choses...~
 @149 = ~Bon, Bouh, ne t'excite pas comme ça !~
@@ -226,11 +226,11 @@ La sorcière de Minsc est retenue en captivité dans la forteresse gnoll à l'ouest
 @166 = ~Alors tu subiras la colère de Minsc et Bouh ! Rrrarrrgh !!!~
 @167 = ~Je ne comprends pas, <CHARNAME>, mais Dynahéir doit être sauvée. Je vais surveiller le mage, et Bouh te surveillera toi.~
 @168 = ~Plutôt subtil, dans ton genre. (Farcissons-nous ces crétins pour l'instant, et les deux Rashémi tomberont en mon pouvoir).~
-@169 = ~Mage, personne ne veut de gens de ton espèce dans les parages. Alors va-t-en, avant que Bouh ne puisse plus se retenir davantage et te montre la puissance de son esprit guerrier !~
-@170 = ~Hum. Il me semble que je vais devoir trouver d'autres personnes... plus habituées à un travail confidentiel. Allez-vous en ! Je n'ai pas de temps pour ceci !~
+@169 = ~Mage, personne ne veut de gens de ton espèce dans les parages. Alors va-t'en, avant que Bouh ne puisse plus se retenir davantage et te montre la puissance de son esprit guerrier !~
+@170 = ~Hum. Il me semble que je vais devoir trouver d'autres personnes... plus habituées à un travail confidentiel. Allez-vous-en ! Je n'ai pas de temps pour ceci !~
 @171 = ~Edwin et Dynahéir
 
-J'ai rencontré un homme nommé Edwin près de Nashkel, et j'ai refusé sa proposition de tuer quelqu'un nommé Dynahéir. Je vais devoir ouvrir les yeux pour l'un et l'autre.~
+J'ai rencontré un homme nommé Edwin près de Nashkel, et j'ai refusé sa proposition de tuer quelqu'un nommé Dynahéir. Je vais devoir garder l'oeil ouvert, pour l'un comme pour l'autre.~
 @172 = ~Oh ! Bouh a parlé de ces trucs visqueux à Minsc ! Nous devons utiliser le feu contre eux, <CHARNAME>, ou bien ils nous submergeront.~
 @173 = ~Si seulement nous avions Dynahéir avec nous. Oh, les boules de feu qu'elle pourrait lancer ! Plus grandes que celles de Bouh après dix jours de régime aux fayots !~
 @174 = ~Bien sûr, c'est pratique d'avoir une sorcière puissante comme Dynahéir avec nous, hein, Bouh ?~

@@ -1,7 +1,7 @@
 // x#brint.tra @0, @1, @2, @3
 @0 = ~T'étais plus futée quand t'étais pétrifiée !~
 @1 = ~Arrête d'aboyer, espèce de roquet. Je suis venue te punir pour ta traîtrise et tes mensonges ! Tempus est avec moi !~
-@2 = ~Hé ma grosse, j'espérais que tu t'sois un peu déniaisée avant de revenir m'ennuyer. Mais j'vois que non. Tu crois que j'ai peur de toi et des autres pignoufs qui t'ont libérée de mon sortilège ?~
+@2 = ~Hé ma grosse, j'espérais que tu t'serais un peu dégourdie avant de revenir m'ennuyer. Mais j'vois que non. Tu crois que j'ai peur de toi et des autres pignoufs qui t'ont libérée de mon sortilège ?~
 @3 = ~Espèce de vache stupide. Si tu ne disparais pas d'ma vue dans les cinq secondes, je t'expédie dans l'autre monde !~
 
 // x#ict3.tra @887, @888 (ending), @889, @890, @891, @888 (beginning)
@@ -11,7 +11,7 @@
 @5  = ~Harpie !~
 // Shar-Teel - Tranzig
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 67
-@6  = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. A moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
+@6  = ~Regardez, il s'est fait dessus ! Tuons-le, comme ça, cette larve ne pourra jamais se reproduire. À moins que sa masculinité ne reste à tout jamais coincée dans son derrière, telle la queue d'un chien bâtard, après les sueurs froides que nous lui avons données aujourd'hui. *ricane*~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 68
 @7  = ~Garce !~
 // Jaheira - Tranzig

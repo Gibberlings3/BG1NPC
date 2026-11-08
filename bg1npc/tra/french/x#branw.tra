@@ -1,11 +1,11 @@
 @0     = ~Je te remercie encore de m'avoir sauvée de cet emprisonnement magique. Bien que je me sois retrouvée totalement impuissante et que ma fierté en ait pris un coup, Tempus m'a rappelé que tous les guerriers ont parfois besoin de l'aide de leurs frères d'armes.~
 @1     = ~Pas de problème, Branwen. Ce fut un plaisir.~
-@2     = ~Tu ne te serais jamais faite capturer si tu avais été plus forte. Tant que tu fais partie de mon groupe, j'attends de toi que tu fasses ta part de travail, alors ne retombe plus dans ce piège en ma présence, c'est compris ?~
+@2     = ~Tu ne te serais jamais fait capturer si tu avais été plus forte. Tant que tu fais partie de mon groupe, j'attends de toi que tu fasses ta part de travail, alors ne retombe plus dans ce piège en ma présence, c'est compris ?~
 @3     = ~Pas simplement un plaisir. Ce genre de parchemin ne se trouve pas dans la poche du premier gobelin ou grouilleux venu, et coûte d'ailleurs une belle somme. Tu t'es dévoué pour moi, et en retour je t'offrirai mon sang et ma sueur.~
          ~Pas simplement un plaisir. Ce genre de parchemin ne se trouve pas dans la poche du premier gobelin ou grouilleux venu, et coûte d'ailleurs une belle somme. Tu t'es dévouée pour moi, et en retour je t'offrirai mon sang et ma sueur.~
-@4     = ~*elle prend un air renfrogné* Je... *elle s'interrompt, et son visage prend alors un air résigné* Evidemment. Je me rachèterai aux yeux de Tempus et aux tiens, dans une pluie écarlate.~
+@4     = ~*elle prend un air renfrogné* Je... *elle s'interrompt, et son visage prend alors un air résigné* Évidemment. Je me rachèterai aux yeux de Tempus et aux tiens, dans une pluie écarlate.~
 @5     = ~<CHARNAME>, j'aimerais que tu m'accordes un petit moment, euh... s'il te plaît.~
-@6     = ~Oui Branwen ?~
+@6     = ~Oui, Branwen ?~
 @7     = ~Ce ton plaintif ne te ressemble pas. Je crois que ça ne me plaît pas. Et si tu te taisais, en attendant de retrouver ton état normal ?~
 @8     = ~*elle grogne* Comme tu voudras.~
 @9     = ~Dis-moi, as-tu déjà éprouvé... des doutes... au sujet de ta vocation ? Pas souvent, je présume. Ce serait stupide de ma part de te poser une telle question, toi qui es à l'évidence doté d'une grande confiance innée, comme tout guerrier qui se respecte !~
@@ -19,11 +19,11 @@
 @15    = ~*elle pousse un léger soupir* Je n'en attendais pas moins de toi ; tes certitudes sont aussi solides que la pierre dont j'étais faite il y a quelque temps. Je t'envie... un petit peu... chef de guerre...~
 @16    = ~Oh, très bien. Dans ce cas, je ne t'ennuierai plus avec des pensées si futiles.~
 @17    = ~Par Tempus, ton esprit est-il vraiment accablé à ce point par le doute ? Je ne m'attendais pas à cela de ta part. Pour une personne aussi forte que toi, je trouve bizarre que ta perception des choses soit si confuse. J'ai un peu honte de te le dire, <CHARNAME>, mais ton attitude me remonte le moral !~
-@18    = ~A partir de maintenant, je peux me considérer heureuse que mes propres doutes ne représentent que des pointes, et pas des épées. Si tu embrasses la foi comme je l'ai fait, peut-être ton âme prendra-t-elle une toute autre dimension.~
+@18    = ~À partir de maintenant, je peux me considérer heureuse que mes propres doutes ne représentent que des pointes, et pas des épées. Si tu embrasses la foi comme je l'ai fait, peut-être ton âme prendra-t-elle une toute autre dimension.~
 @19    = ~Cela me rassure quelque peu de l'entendre de ta bouche. Je t'avouerai que j'ai mes propres "pointes" de doute, car mon coeur est fort mais pas inflexible. Je ne regrette pas mon choix, mais quand je regarde le visage d'un ennemi agonisant ou quand j'entretiens mes armes et mon armure, j'ai souvent la sensation que tout cela semble un peu... inutile, sans but.~
 @20    = ~Je me demande parfois si cette sensation est normale ou si ce n'est qu'un simple manque de foi, le symptôme d'une honte dont je dois débarrasser mon coeur, de peur que cette maladie ne me gangrène.~
-@21    = ~C'est exactement ça, une maladie. Ces pointes de doute sont petites, mais vous rongent comme des éclats de verre, lisses, tranchants et impossibles à extraire. Elles finissent par vous tuer. Le seul espoir qui nous reste est de séparer le bon grain de l'ivraie à l'intérieur de nous-mêmes, et purifier nos coeurs et nos esprits.~
-@22    = ~Il est tout-à-fait salutaire d'éprouver ce sentiment. Ne t'inquiète pas, Branwen. Ce n'est pas parce que tu connais parfois des moments de doute que tu en es complètement gangrénée, ou que tu devrais forcément y céder.~
+@21    = ~C'est exactement ça, une maladie. Ces pointes de doute sont petites, mais vous rongent comme des éclats de verre, lisses, tranchants et impossibles à extraire. Elles finissent par vous tuer. Le seul espoir qui nous reste est de séparer le bon grain de l'ivraie à l'intérieur de nous-mêmes, et de purifier nos coeurs et nos esprits.~
+@22    = ~Il est tout à fait salutaire d'éprouver ce sentiment. Ne t'inquiète pas, Branwen. Ce n'est pas parce que tu connais parfois des moments de doute que tu en es complètement gangrénée, ou que tu devrais forcément y céder.~
 @23    = ~Ce n'est pas seulement normal, c'est salutaire. Une personne qui ne connaît pas le doute m'inquièterait énormément. Je veux dire, as-tu jeté un coup d'oeil à Tiax ces derniers temps ?!~
 @24    = ~Ce n'est pas seulement normal, c'est salutaire. Une personne qui ne connaît pas le doute m'inquièterait énormément. Je veux dire, as-tu jeté un coup d'oeil à Xzar ces derniers temps ?!~
 @25    = ~En vérité, c'est bien ce que je craignais. Ensemble, il nous faudrait soigner nos blessures et extraire ces satanés éclats tant qu'il est encore temps. Si Tempus le veut bien, nous vivrons peut-être tous deux suffisamment longtemps pour nous retrouver totalement purifiés, comme nous l'étions à la naissance.~
@@ -37,7 +37,7 @@
 @28    = ~Dites-moi, Ajantis, vos larges et puissantes épaules ne pourraient-elles pas bénéficier d'un contact plus doux que celui de l'épée bâtarde d'un ennemi ?~
 @29    = ~Que voulez-vous dire, ma dame ?~
 @30    = ~C'est peut-être le moment d'apaiser les tensions de votre corps meurtri ? Tempus m'a accordé le talent de soigner ainsi que de blesser... Un homme tel que vous pourrait bien en être surpris.~
-@31    = ~Toutes mes excuses, Branwen, mais j'ai renoncé à ce genre de plaisirs de bas-étage. Je trouve qu'ils m'empêchent de me concentrer efficacement sur mon devoir de serviteur de la vertu.~
+@31    = ~Toutes mes excuses, Branwen, mais j'ai renoncé à ce genre de plaisirs de bas étage. Je trouve qu'ils m'empêchent de me concentrer efficacement sur mon devoir de serviteur de la vertu.~
 @32    = ~Ajantis, de là où je viens, nous avons un proverbe...~
 @33    = ~Oui ?~
 @34    = ~"Bats-toi de toutes tes forces. Relaxe-toi encore plus."~
@@ -52,17 +52,17 @@
 @40    = ~Demandez, ma dame ! De mes lèvres ne sortira que la vérité.~
 @41    = ~Je vous en sais gré. Dites-moi, Ajantis... Que pensez-vous de moi ?~
 @42    = ~Je pense que vous êtes une brave et noble combattante. Vous manquez peut-être un peu de clémence et êtes un peu trop prompte à abandonner les paroles pour saisir vos armes, mais vous êtes cependant une valeureuse compagne de route, et je ne regrette absolument pas d'avoir à me battre à vos côtés. Mais pourquoi cette question ?~
-@43    = ~Je vous remercie, Ajantis. J'ai peur que... En fait, je n'ai pas toujours été aussi respectée. Dans... d'autres pays... tout le monde ne daigne pas forcément considérer avec respect une femme qui a vocation à servir le Marteleur d'ennemis. Ce respect que vous m'accordez est une occurrence rare, et pour cette raison vous avez toute ma gratitude.~
+@43    = ~Je vous remercie, Ajantis. J'ai peur que... En fait, je n'ai pas toujours été aussi respectée. Dans... d'autres pays... tout le monde ne daigne pas forcément considérer avec respect une femme qui a vocation à servir le Marteleur d'ennemis. Ce respect que vous m'accordez est une chose rare, et pour cette raison vous avez toute ma gratitude.~
 
 // discussion avec Alora (45-47-49-50-52-54)
 
 @44    = ~Aloraaaaa !~
 @45    = ~Hii ! *Alora essaie de prendre un air candide.*~
-@46    = ~Epargne-moi les faux-semblants, petite-femme. Qu'as-tu fait de ma pierre porte-bonheur ?!~
+@46    = ~Épargne-moi tes larmes de crocodile, petite-femme. Qu'as-tu fait de ma pierre porte-bonheur ?!~
 @47    = ~Oh, eh bien tu vois, elle m'a attiré l'oeil et... euh, une seconde. Pierre porte-bonheur ?~
-@48    = ~OUI ! MA PIERRE PORTE-BONHEUR. Donne-la moi *tout de suite*, et peut-être Tempus te pardonnera-t-il pour ton impertinence.~
+@48    = ~OUI ! MA PIERRE PORTE-BONHEUR. Donne-la-moi *tout de suite*, et peut-être Tempus te pardonnera-t-il pour ton impertinence.~
 @49    = ~Euh, je ne t'ai pas emprunté de caillou... D'accord, j'ai peut-être essayé une fois d'examiner de plus près tes drôles de petits marteaux, mais de toute façon mes mains ne les ont même pas effleurés...~
-@50    = ~Donc tu as perdu ta pierre porte-bonheur, hein ? Pourquoi spécialement cette pierre ? Il y a beaucoup de cailloux par ici... Il va te falloir un temps fou pour la trouver. Peut-être que je peux t'aider !~
+@50    = ~Donc tu as perdu ta pierre porte-bonheur, hein ? Pourquoi elle porte bonheur ? Il y a beaucoup de cailloux par ici... Il va te falloir un temps fou pour la trouver. Peut-être que je peux t'aider !~
 @51    = ~*rougit* Euh... laisse tomber.~
 @52    = ~Mais non, c'est mignon ! Moi, j'ai une patte de lapin porte-bonheur.~
 @53    = ~C'est étonnant que tu ne sois pas désolée pour le lapin.~
@@ -73,8 +73,8 @@
 
 @56    = ~Alora, arrête d'essayer de me dérober mes marteaux en plein milieu des combats.~
 @57    = ~Oooh... mais ils brillent tellement, et ils sont si bleus !~
-@58    = ~Gamine, ils n'ont d'intérêt que pour celle qui les porte et ceux que je juge dignes d'être réduits en purée !~
-@59    = ~Bouh, ce n'est pas rigolo.~
+@58    = ~Gamine, ils n'ont de substance que pour celle qui les manie et ceux que je juge dignes d'être réduits en purée !~
+@59    = ~Pfff, c'est pas rigolo.~
 @60    = ~*elle sourit d'un air narquois* C'est rigolo pour MOI !~
 
 // discussion avec Coran (62-64)
@@ -88,7 +88,7 @@
 // discussion avec Dynahéir (67-69-70-72)
 
 @66    = ~J'ai quelque chose à vous demander... une question un peu délicate je dois dire... Pouvons-nous nous éloigner de quelques pas du reste du groupe un petit moment, Dynahéir ?~
-@67    = ~Certainement. Que veux-Tu savoir, Branwen ? Tu as l'air si embarrassée, cela ne te ressemble pas.~
+@67    = ~Certainement. Que veux-Tu savoir, Branwen ? Tu as l'air si embarrassée, cela ne Te ressemble pas.~
 @68    = ~C'est au sujet de votre compagnon, Minsc. Pourquoi n'avez-vous pas cherché à ce que quelqu'un essaie de lui rétablir sa santé mentale ? Je suis certaine que vous n'aimez pas plus que moi son espèce de rat plein de puces.~
 @69    = ~J'y ai réfléchi mais franchement, Minsc a l'air heureux comme ça. Une telle maladie est souvent difficile à soigner à moins que la personne affectée ne le souhaite de tout son coeur, ce dont je doute dans ce cas précis.~
 @70    = ~Tu seras gentille avec lui j'espère, malgré ses divagations puériles ?~
@@ -107,7 +107,7 @@
 
 @78    = ~Petit mage, à propos de...~
 @79    = ~Petit mage, non ! Suis-je un simple apprenti boutonneux pour que tu t'adresses à moi comme cela ? Tu peux m'appeler Maître Edwin, ou plus simplement Edwin si ta langue malhabile est incapable de citer un titre correctement.~
-@80    = ~Très bien, dans ce cas... Edwin. A propos de ton penchant à convoquer toutes sortes de bêtes féroces et détestables pour nous aider pendant les combats... Je préfèrerais que tu cesses. Un guerrier se sent rabaissé de se battre aux côtés de simples gnolls ou hobgobelins.~
+@80    = ~Très bien, dans ce cas... Edwin. À propos de ton penchant à convoquer toutes sortes de bêtes féroces et détestables pour nous aider pendant les combats... Je préfèrerais que tu cesses. Un guerrier se sent rabaissé de se battre aux côtés de simples gnolls ou hobgobelins.~
 @81    = ~Si tu souhaites vraiment nous aider pendant les batailles, tu ferais bien mieux de prendre ton imposant bâton et fracasser un crâne ou deux.~
 @82    = ~(beurk, son manque de jugement rationnel au niveau des considérations tactiques n'est surpassé que par l'odeur âcre de son corps) Ne sois pas stupide, femme. Pourquoi devrais-je me salir les mains à de telles tâches subalternes alors que les griffes de ces êtres inférieurs peuvent très bien le faire ?~
 @83    = ~J'ose espérer que tu ne m'inclues pas dans cette catégorie, magicien.~
@@ -120,7 +120,7 @@
 @87    = ~Mais qu'est-ce que tu racontes là ?~
 @88    = ~Je te le demande juste parce qu'on t'entend très souvent te parler à toi-même, et j'ai entendu dire que certains hommes dans ton cas croient qu'ils sont plusieurs dans le même corps. Peut-être discutes-tu de philosophie avec toi-même ?~
 @89    = ~Idiote, je suis un Mage Rouge de Thay ! Tu te moques de moi à tes risques et périls !~
-@90    = ~Ta couleur préférée est-elle le rose lors des soirées humides et le rouge au matin ? Ou peut-être l'un d'entre vous est-il le gardien d'un zoo ? Ca expliquerait ces grommellements de singe qu'on entend constamment.~
+@90    = ~Ta couleur préférée est-elle le rose lors des soirées humides et le rouge au matin ? Ou peut-être l'un d'entre vous est-il le gardien d'un zoo ? Ça expliquerait ces grommellements de singe qu'on entend constamment.~
 @91    = ~Femme, je te mets en garde pour la dernière fois...~
 @92    = ~Dis-moi, quand tu te réveilles, es-tu un homme si tu te lèves du pied gauche mais une femme si tu te lèves du pied droit ? Mes yeux ne peuvent s'empêcher de discerner en toi une attitude typiquement féminine lorsque tu prends soin de la beauté de ton corps...~
 @93    = ~(Bizarre qu'une personne sans le moindre sens de l'hygiène ait remarqué cette attitude courante chez quelqu'un d'autre. Peut-être est-elle juste désespérément fainéante plutôt que désespérément étourdie.) Un mot de plus, et les prochains à sortir de mes lèvres seront ceux d'une boule de feu.~
@@ -137,12 +137,12 @@
 
 // discussion avec Eldoth (102-104-106)
 
-@101   = ~Petit barde stupide, lance-moi encore une regard de ce genre et tu prendras un marteau en travers de ta gorge.~
+@101   = ~Petit barde stupide, lance-moi encore un regard de ce genre et tu prendras un marteau en travers de ta gorge.~
 @102   = ~Ah oui, la violence... C'est toujours le premier recours des gens trop stupides pour trouver quelque chose de mieux à faire. Je ne pense même pas que vous soyez capable de faire quoi que ce soit d'autre, n'est-ce pas Branwen ?~
 @103   = ~*énervée et scandalisée* Ce... ce n'est pas vrai ! Tempus m'a accordé BEAUCOUP de talents dont je me sers tous les jours, comme... euh... euh...~
 @104   = ~Je vous en prie, continuez.~
 @105   = ~*plus doucement* Comme, euh...~
-@106   = ~*baille* J'attends.~
+@106   = ~*bâille* J'attends.~
 @107   = ~*tourne les talons, en jurant tout bas*~
 
 // discussion avec Faldorn (109)
@@ -178,7 +178,7 @@
 Coeur d'or et peau soyeuse
 Ses marteaux redressent les torts du monde
 Et pénètrent mon coeur de manière insidieuse..."~
-@127   = ~*rougit et le regarde de travers* Ne fais pas l'idiot Garrick ! Je te demande un hymne de combat et tu me roucoules une chanson d'amour ? De toute façon, je préfère les hommes à la musculature plus... imposante. Oh je suis désolée, je ne voulais pas te blesser, cher barde.~
+@127   = ~*rougit et le regarde de travers* Ne fais pas l'idiot, Garrick ! Je te demande un hymne de combat et tu me roucoules une chanson d'amour ? De toute façon, je préfère les hommes à la musculature plus... imposante. Oh je suis désolée, je ne voulais pas te blesser, cher barde.~
 @128   = ~Oh. Bon, j'ai aussi un hymne de combat. Mais il n'est pas vraiment aussi, euh, inspiré.~
 @129   = ~"Le sang coula rouge ce jour-là, oh oui
 Et couvrit la prairie comme des larmes
@@ -193,7 +193,7 @@ Dans un torrent de violence..."~
 
 @132   = ~Il est rare que je rencontre une personne au pied plus léger que moi, Imoen. Je dois admettre que le simple fait de te regarder te déplacer avec la grâce d'un chat en chasse est un plaisir.~
 @133   = ~Eh bien merci. Mais j'attrape bien peu de proies ces jours-ci vu que nous sommes toujours en voyage... C'est déprimant pour un petit chat, tu sais ?~
-@134   = ~Oh, ne t'inquiète pas. je suis certaine que le prochain ogre nous laissera quelques jolies babioles que tu pourras porter comme trophées ou vendre pour obtenir de meilleures armes, comme il te plaira.~
+@134   = ~Oh, ne t'inquiète pas. Je suis certaine que le prochain ogre nous laissera quelques jolies babioles que tu pourras porter comme trophées ou vendre pour obtenir de meilleures armes, comme il te plaira.~
 @135   = ~*murmure discrètement* Ce n'est pas de ce genre de proie que je parlais...~
 
 // discussion avec Jaheira (137-139-140) et Khalid (138)
@@ -207,7 +207,7 @@ Dans un torrent de violence..."~
 
 // discussion avec Jaheira (143-145)
 
-@142   = ~Jaheira ma chère, j'ai remarqué que tu limites quelque peu ta gamme d'armes en dépit de tes compétences martiales évidentes. Les cimeterres sont des armes de cavalerie, et les bâtons ainsi que les gourdins ne sont que de vulgaires bouts de bois pour les paysans. Pourquoi ne pas acheter une belle masse bien lourde dans la prochaine ville que nous traverserons ?~
+@142   = ~Jaheira, ma chère, j'ai remarqué que tu limites quelque peu ta gamme d'armes en dépit de tes compétences martiales évidentes. Les cimeterres sont des armes de cavalerie, et les bâtons ainsi que les gourdins ne sont que de vulgaires bouts de bois pour les paysans. Pourquoi ne pas acheter une belle masse bien lourde dans la prochaine ville que nous traverserons ?~
 @143   = ~Ne sois pas stupide, femme. Les serments que j'ai prêtés en tant que druide m'interdisent d'utiliser des armes comme les *masses*, manifestement fabriquées par l'homme et tributaires de la technologie.~
 @144   = ~J'ai remarqué que tes serments ne t'ont pas empêchée de porter une armure de plates...~
 @145   = ~C'est... euh... cela n'a rien à voir.~
@@ -218,7 +218,7 @@ Dans un torrent de violence..."~
 @147   = ~Il serait agréable de voir l'ardeur de ton âme inspirée par autre chose que l'éclat des pièces d'or.~
 @148   = ~Le courage et la bravoure s'arrêtent sur le fil de la lame de ma hache, prêtresse. Si tu crois que j'ai choisi cette vie pour le plaisir, alors c'est que ta bêtise est encore plus terrible que ton odeur. C'est dur pour les os, il y a tous ces combats, et puis passer son temps à abattre des imbéciles est plutôt un boulot de bûcheron.~
 @149   = ~Je...~
-@150   = ~Mais comme on dit, un idiot finit par se séparer de son argent, alors je continuerai dans cette voie tant que j'en retirerai un bénéfice !~
+@150   = ~Mais comme on dit, un sot et son argent sont vite séparés, alors je continuerai dans cette voie tant que j'en retirerai un bénéfice !~
 
 // discussion avec Kagain (152-156-158), Safana (155), Garrick (154)
 
@@ -249,7 +249,7 @@ Dans un torrent de violence..."~
 @169   = ~C'est gentil de vous intéresser à moi, mais je vous remercie de ne p-p-pas c-c-calomnier ma b-b-bien-aimée. Je sais que Jaheira peut p-p-parfois être un peu autoritaire, mais elle fait toujours ce qu'elle c-c-croit être le mieux pour le groupe, et le fait seulement p-p-parce qu'elle se soucie de nous.~
 @170   = ~Elle a pour sûr pris soin de moi et de <CHARNAME> durant nos voyages.~
 @171   = ~Cela vous surprendrait-il d'apprendre que lorsqu'on me p-p-pensait mortellement atteint, elle a p-p-passé plus d'un an de sa vie à uniquement subvenir à mes b-b-besoins ? C'est à son dévouement que je dois de ne pas être mort, infirme ou c-c-complètement cinglé. Bien que je m'attende à ce que vous ne soyez pas d'accord sur beaucoup de p-p-points, vous devriez cependant lui ac-ac-accorder un minimum de respect.~
-@172   = ~*s'interrompt un long moment* Tu... as raison... Khalid. Que Tempus me pardonne, mais j'ai laissé mon antipathie personnelle biaiser mon opinion au sujet d'une femme qui se bat aussi bravement que toi et moi, et pas seulement dans l'arène. A partir de maintenant, je vais essayer de mieux surveiller mes paroles.~
+@172   = ~*s'interrompt un long moment* Tu... as raison... Khalid. Que Tempus me pardonne, mais j'ai laissé mon antipathie personnelle biaiser mon opinion au sujet d'une femme qui se bat aussi bravement que toi et moi, et pas seulement dans l'arène. À partir de maintenant, je vais essayer de mieux surveiller mes paroles.~
 @173   = ~Dans ce cas il n'y aura pas de qu-qu-querelle entre nous.~
 
 // discussion avec Kivan (175-177-179-182)
@@ -263,7 +263,7 @@ Dans un torrent de violence..."~
 @180   = ~N'en dis pas plus, petit elfe ! J'ai bien compris tes raisons, pas besoin de me relater un souvenir visiblement si douloureux. Ta bien-aimée fut abattue dans la douleur... et en ce qui me concerne je jure que ses assassins connaitront une douleur égale en retour.~
 @181   = ~Tempus octroie toujours son pouvoir à ceux qui s'évertuent à venger les gens sans défense et quelle que soit la cible que tu estimeras juste de transpercer avec ta lance, mes marteaux s'abattront de même sur elle avec la fureur de tous les martyrs qui réclament justice.~
 @182   = ~Merci Branwen. Je ne cherche pas la compassion, mais merci. Votre conduite est rigide et austère, mais votre coeur est plus doux qu'il n'en a l'air.~
-@183   = ~Peut-être penses-tu que mon coeur est aussi dur que la pierre dont j'étais faite il y a quelque temps ? Tu t'exprimes aussi de manière bien peu avenante, Kivan. Reconnaissons qu'il ne faut pas se fier aux apparences, et aimons-nous les uns les autres.~
+@183   = ~Peut-être penses-tu que mon coeur est aussi dur que la pierre dont j'étais faite il y a quelque temps ? Tu t'exprimes aussi de manière bien peu avenante, Kivan. Reconnaissons qu'il ne faut pas se fier aux apparences, et soyons bons les uns envers les autres.~
 
 // discussion avec Kivan (185-187-189-191), Xan (192), Coran (193-194)
 
@@ -286,7 +286,7 @@ Dans un torrent de violence..."~
 @197   = ~Oh, j'en suis persuadée. Peut-être pourrais-tu parfois utiliser tes muscles pour m'impressionner d'une autre manière, hummm ?~
 @198   = ~Hé Branwen, moi aussi j'ai une grosse "musculature", au cas où ce lourdaud serait assez stupide pour ne pas avoir saisi ton allusion...~
 @199   = ~Une autre manière ? Oh oui, pour sûr ! Minsc est toujours prêt pour une petite bataille de pouces ! En Rashéménie, il fut champion régional pour une semaine entière, et cela SANS les conseils de Bouh !~
-@200   = ~*soupire* ce n'est pas ce que je... Oh Minsc, laisse tomber.~
+@200   = ~*soupire* Ce n'est pas ce que je... Oh Minsc, laisse tomber.~
 
 // discussion avec Montaron (202-204-206-208-210)
 
@@ -307,14 +307,14 @@ Dans un torrent de violence..."~
 @212   = ~Oh ? Mais évidemment ! Allons, sans ma compétence pour vous mener sur votre chemin tortueux, des primitifs comme vous se heurteraient certainement à un quelconque destin funeste beaucoup plus souvent.~
 @213   = ~Bizarrement, Quayle, j'ai le sentiment que votre présence ne fait que nous rapprocher du funeste destin qui nous attend déjà prochainement...~
 @214   = ~Non petite créature, en fait je suis heureuse pour une autre raison.~
-@215   = ~Eh bien mes talents possèdent de multiples facettes et sont suffisamment nombreux au point que JE ne me rappelle même pas de tous... Dis, précise ta pensée et rappelle-moi laquelle de mes nombreuses capacités tu trouves particulièrement appropriée en ce moment ?~
-@216   = ~Ta présence m'est profitable parce que nous n'avons rien en commun. A chaque instant que je passe en ta compagnie, je me dis : "Branwen, quels que puissent être tes échecs, au moins tu n'es pas comme LUI", et mon coeur se remplit de joie.~
+@215   = ~Eh bien mes talents possèdent de multiples facettes et sont suffisamment nombreux au point que JE ne me les rappelle même pas tous... Dis, précise ta pensée et rappelle-moi laquelle de mes nombreuses capacités tu trouves particulièrement appropriée en ce moment ?~
+@216   = ~Ta présence m'est profitable parce que nous n'avons rien en commun. À chaque instant que je passe en ta compagnie, je me dis : "Branwen, quels que puissent être tes échecs, au moins tu n'es pas comme LUI", et mon coeur se remplit de joie.~
 @217   = ~Oh. Peut-être cela te réconfortera-t-il de savoir que je pense *exactement* la même chose, ma chère.~
 
 // discussion avec Quayle (219-221)
 
 @218   = ~Né avec l'orgueil d'un géant et l'envergure d'un arbrisseau. La vie doit être dure pour toi.~
-@219   = ~Eh bien elle est beaucoup plus simple que celle des femmes qui n'ont jamais entendu parler de produits d'hygiène féminine. Tiens, si j'avais gagné un pièce de cuivre chaque fois que ton corps était enveloppé d'une fragrance digne de nos amis aquatiques, tout comme mon cuir chevelu enveloppe mon muscle mental très performant, alors je serais actuellement plus riche que n'importe quel noble de la Porte de Baldur.~
+@219   = ~Eh bien elle est beaucoup plus simple que celle des femmes qui n'ont jamais entendu parler de produits d'hygiène féminine. Tiens, si j'avais gagné une pièce de cuivre chaque fois que ton corps était enveloppé d'une fragrance digne de nos amis aquatiques, tout comme mon cuir chevelu enveloppe mon muscle mental très performant, alors je serais actuellement plus riche que n'importe quel noble de la Porte de Baldur.~
 @220   = ~... Quoi ?~
 @221   = ~Allez, essaie un peu d'utiliser du savon de temps en temps, hein ? Ou de l'eau, tout du moins.~
 
@@ -332,7 +332,7 @@ Dans un torrent de violence..."~
 @228   = ~Je n'avais pas *du tout* envisagé un match nul...~
 @229   = ~Gentes dames, si vous voulez que je serve de cobaye pour, euh... faire la revanche, vous êtes les bienvenues !~
 @230   = ~Bah. JE SAVAIS BIEN que j'aurais dû proposer un duel à la lutte. Qu'en dis-tu Safana ? Cent pièces d'or à la gagnante ?~
-@231   = ~Oh, non merci. Le seul genre de sport que j'apprécie est... enfin, je ne veux pas que d'autres femmes y participent.~
+@231   = ~Oh, non merci. La seule lutte que j'apprécie est... enfin, je ne veux pas que d'autres femmes y participent.~
 @232   = ~Eh bien vous savez que je suis là, et que je serais *plus* qu'heureux de m'adonner à ce genre de sport avec vous, Safana...~
 
 // discussion avec Safana (234-236)
@@ -351,7 +351,7 @@ Dans un torrent de violence..."~
 
 @238   = ~Oh, Shar-Teel ! En quel honneur as-tu frappé ce chien errant ?~
 @239   = ~N'est-ce pas évident ? C'était un MALE, avec sa virilité dégoûtante qui s'agitait de manière outrageuse juste sous mes yeux. Après mon bon coup de botte, il s'est certainement enfui pour aller molester une quelconque malheureuse chienne innocente.~
-@240   = ~Ah ah ah ! Shar-Teel, t'as pas envie de manier ma grosse et longue épée ?~
+@240   = ~J'parie qu't'es du genre à arracher les étiquettes des bouteilles, Shar-Teel...~
 @241   = ~Ah... Shar-Teel, ma chère... Ne t'y trompe pas, je partage ton enthousiasme pour la beauté du combat mais un sage guerrier sait choisir ses ennemis avec soin. Par Tempus, ce n'était qu'un chien errant ! Est-ce que tu abats aussi les oiseaux mâles dans le ciel et les cochons mâles dans leur porcherie ?~
 @242   = ~Quand l'envie me prend. Il est vrai que ces bestioles sont très inférieures à celles que nous combattons habituellement toi et moi mais à l'occasion, un peu de violence gratuite juste pour s'amuser peut grandement délasser l'esprit, dont tu sembles tant aimer prendre soin.~
 @243   = ~Je ne suis pas d'accord. Cela ne sert à rien de donner un coup à un ennemi qui ne peut pas se défendre, ou qui ne s'en rend même pas compte.~
@@ -364,16 +364,16 @@ Dans un torrent de violence..."~
 @247   = ~Rarement. Mais quand ces côtés désagréables montrent leur sale tête, je crois qu'on peut dire que je leur fais généreusement payer ces bassesses. Il y a une raison pour laquelle je préfère les armes contondantes aux armes tranchantes : ces imbéciles ont leur chance de fuir et de se repentir par la suite.~
 @248   = ~Bah, les hommes ne changent jamais vraiment. Pour eux, le seul destin qui vaille est qu'ils se fassent embrocher.~
 @249   = ~Oh, je ne suis vraiment pas d'accord... Je trouve qu'un homme peut être utilisé agréablement.~
-@250   = ~Quoique je préfère réserver les brochettes à des tranches de poulet bien cuisiné. C'est tellement plus goûteux.~
+@250   = ~Quoique je préfère réserver les brochettes à des tranches de poulet bien cuit. C'est tellement plus goûteux.~
 
 // discussion avec Shar-Teel (252-255-257-258), Ajantis(253), Minsc (254)
 
-@251   = ~J'admire ton courage et ta hardiesse, Shar-Teel, mais je ne comprends pas l'entêtement avec lequel tu suis la voie de Loki. Au combat, le courage est aussi important que l'honneur, et pourtant tu approuves l'un alors que tu rejettes l'autre. Pourquoi suivre une voie aussi emplie de haine ?~
+@251   = ~J'admire ton courage et ta hardiesse, Shar-Teel, mais je ne comprends pas l'entêtement avec lequel tu suis la voie de Loki. Au combat, l'honneur est aussi important que le courage, et pourtant tu approuves l'un alors que tu rejettes l'autre. Pourquoi suivre une voie aussi emplie de haine ?~
 @252   = ~Je n'ai pas le temps pour de telles idioties. Je suis une guerrière, et le devoir du guerrier est de tuer sans hésitation ou remords. Un fardeau inutile comme l'honneur est pour les paladins mâles sans cervelle ou autres crétins de ce genre, plus occupés à polir leur armure qu'à tuer leurs ennemis.~
 @253   = ~Immonde garce ! Je pourrais citer une douzaine de paladins plus compétents que vous au combat ! L'honneur est la voie de la vérité, la voie de Heaum. Y renoncer, c'est suivre la voie de la damnation.~
 @254   = ~Quelles pensées maléfiques ! Bouh me supplie presque de pouvoir griffer les yeux de cette femme mauvaise ! Si <CHARNAME> n'était pas là, Minsc et Bouh seraient obligés de défendre le Bien et la vertu en bottant fermement les fesses de cette femme !~
 @255   = ~Silence, mâle ! Ceci est une discussion entre personnes supérieures à toi, et aucune de nous deux ne t'a invité à parler. Si nous avons besoin de quelqu'un pour sauver un chaton coincé dans un arbre, alors nous ferons appel à toi et ton "honneur". En attendant, laisse celles d'entre nous qui ont des tripes continuer leur discussion tranquillement.~
-@256   = ~Un guerrier sans honneur n'est rien d'autre qu'une bête assassine. Si jamais tu réalises la sottise de ton point de vue, Tempus t'acceptera avec joie à son service ; mais pour l'instant tu es plus un boucher qu'un champion. Je vais prier pour que tu le comprennes avant qu'il ne soit trop tard...~
+@256   = ~Un guerrier sans honneur n'est rien d'autre qu'une bête assassine. Si jamais tu comprends la sottise de ton point de vue, Tempus t'acceptera avec joie à son service ; mais pour l'instant tu es plus un boucher qu'un champion. Je vais prier pour que tu le comprennes avant qu'il ne soit trop tard...~
 @257   = ~Ne perds pas ton temps. Je comprends la seule chose qu'il faut comprendre : les forts survivent, les faibles meurent.~
 @258   = ~Je ne tolèrerai aucune philosophie susceptible de ralentir ma lame à un moment critique. Quiconque se met en travers de mon chemin, homme, femme ou enfant, se fera trancher en morceaux sans pitié. Telle est la voie du véritable guerrier, libéré des contraintes d'idéaux stupides.~
 
@@ -382,14 +382,14 @@ Dans un torrent de violence..."~
 @259   = ~Skie, je ne voudrais pas te vexer mais pourrais-tu cesser d'être aussi... euh...~
 @260   = ~Aussi quoi ?~
 @261   = ~Aussi... insupportablement RAFFINEE ? Après tout nous sommes en mission pour le sang et la bravoure, et pas pour un simple pique-nique dans les bois.~
-@262   = ~Soyez gentille, Branwen ! Je pense que c'est, euh... bien que Skie soit si féminine...~
+@262   = ~Soyez gentille, Branwen ! Je trouve que c'est, euh... bien, que Skie soit si féminine...~
 @263   = ~Oh mais je le sais, et c'est ce qui rend les choses si amusantes, Branwen ! Le sang... la bravoure... toutes ces batailles excitantes, et tout le reste... cette aventure est tellement merveilleuse !~
 @264   = ~Beurk. Arrête, ta stupidité me rend malade.~
 
 // discussion avec Skie (266-268), Quayle (269)
 
 @265   = ~Pourquoi ta peau est-elle toujours si douce et pourquoi sent-elle les fleurs ?~
-@266   = ~Oh, c'est juste une lotion que je trouvais régulièrement chez un marchand des plus haut-de-gamme. Cependant, ma réserve est presque épuisée... Et mince, je n'ai pas assez d'argent pour en acheter quelques fioles supplémentaires ! Je suppose que c'est un des désavantages de la vie d'aventurier.~
+@266   = ~Oh, c'est juste une lotion que je trouvais régulièrement chez un marchand des plus haut de gamme. Cependant, ma réserve est presque épuisée... Et mince, je n'ai pas assez d'argent pour en acheter quelques fioles supplémentaires ! Je suppose que c'est un des désavantages de la vie d'aventurier.~
 @267   = ~Hum... lo... ssion ? De quelle étrange potion veux-tu parler ? Je n'ai encore jamais entendu parler de ce genre de chose.~
 @268   = ~Vraiment ? Eh bien je vois que j'ai *beaucoup* de choses à vous apprendre, Branwen.~
 @269   = ~Je te suggère d'y aller doucement, Skie, cette grande brute n'a pas encore réussi à utiliser le savon...~
@@ -411,7 +411,7 @@ Dans un torrent de violence..."~
 @279   = ~Crois-tu que Tiax est idiot !? Il comprend parfaitement à qui tu fais référence et pour tes insultes, il s'offrira ta tête blasphématoire sur un plateau quand il règnera ! Tu tentes le sort avec cette hérésie, espèce d'idiote, car seul CYRIC est promis à régner sur toute chose, avec Tiax à ses côtés !~
 @280   = ~Silence, cinglé ! Ta présence est une infamie, et nous conduira tous inévitablement au désastre. Plus tôt <CHARNAME> m'autorisera à t'éliminer du groupe, mieux ce sera.~
 @281   = ~Bah ! Tiax ne sera JAMAIS éliminé ; c'est lui qui éliminera ! Avec qui penses-tu que <CHARNAME> s'alliera : avec celui qui lui offrira le règne céleste sur toute chose, ou avec une amazone puante qui répugne à raser ses aisselles ?~
-@282   = ~A vrai dire, je crois même que *je* choisirais ce pitoyable ersatz de gnome plutôt que les aisselles de Branwen... Je veux dire que vraiment, un gnome de mon envergure ne devrait pas avoir à supporter une vision et une odeur si repoussantes.~
+@282   = ~À vrai dire, je crois même que *je* choisirais ce pitoyable ersatz de gnome plutôt que les aisselles de Branwen... Je veux dire que vraiment, un gnome de mon envergure ne devrait pas avoir à supporter une vision et une odeur si repoussantes.~
 @283   = ~Si <CHARNAME> n'était pas là, je t'étranglerais ! Par Tempus, mais c'est que j'ai bien envie de le faire ! Tiens-toi loin de moi, ou je te jure que nous en viendrons aux mains.~
 @284   = ~Hé, ta menace à peine déguisée m'est-elle destinée ou vise-t-elle cet imbécile ?~
 @285   = ~Elle est pour VOUS DEUX...~
@@ -419,7 +419,7 @@ Dans un torrent de violence..."~
 // discussion avec Viconia (287-289-291)
 
 @286   = ~Viconia, pourquoi une prêtresse faisant partie d'une race bien connue pour ses talents martiaux s'abaisse-t-elle à quémander de l'aide à des étrangers errants, tout comme une princesse de conte de fées emprisonnée dans sa tour ? Es-tu incapable de te défendre seule ? N'as-tu pas d'amour-propre ?~
-@287   = ~J'admire ton côté fanfaron presqu'autant que je déteste ton hypocrisie, prêtresse stupide. Dois-je te rappeler que sans l'aide de ces mêmes étrangers errants, tu ne serais qu'un morceau de pierre ?~
+@287   = ~J'admire ton côté fanfaron presque autant que je déteste ton hypocrisie, prêtresse stupide. Dois-je te rappeler que sans l'aide de ces mêmes étrangers errants, tu ne serais qu'un morceau de pierre ?~
 @288   = ~J'aimerais VRAIMENT que les gens arrêtent de parler de ce malheureux incident isolé !~
 @289   = ~Et j'aurais de même souhaité que tu restes à l'état de rocher pour que la vermine se perche sur toi et ponde ses oeufs dans tes crevasses, pour l'éternité. La vie est cruelle, n'est-ce pas ?~
 @290   = ~Je ne peux m'empêcher de remarquer que ton bras droit est un peu... faible, Viconia. Voudrais-tu que je te dispense un entrainement intensif en art du combat ?~
@@ -446,7 +446,7 @@ Dans un torrent de violence..."~
 
 @299   = ~Pourquoi t'acharnes-tu à être si morose, petit mage ? Relève ta large robe et danse joyeusement la gigue sur les cadavres de nos ennemis ! Tu n'as aucune raison d'être maussade.~
 @300   = ~Ainsi dit la fourmi à la cigale : "concentre-toi sur ta tâche, tu en seras plus heureuse et l'hiver venu, tu ne connaîtras pas la faim". Je vous laisse danser la gigue. Et merde pour votre petit spectacle.~
-@301   = ~Comment ? Tu m'insultes, petit mage ? .~
+@301   = ~Comment ? Tu m'insultes, petit mage ?~
 @302   = ~Hé, c'est juste une façon de parler.~
 @303   = ~Oh oui, euh... bien sûr, je, euh... c'était pour rire, évidemment.~
 

@@ -1,7 +1,7 @@
 // Remarque : le bouclier donne 2 étoiles (spécialiste) en Epée et Bouclier
 @9     = ~L'écu se porte comme la rondache. Son poids ne permet pas au combattant de porter autre chose. Les écus sont généralement fabriqués en métal, mesurent entre 90 cm et 1,20 m de diamètre et peuvent avoir n'importe quelle forme (carrée, ronde ou comme les ailes déployées d'un dragon). Un bouclier médiéval typique ressemble à un triangle dont un des angles pointerait vers le bas.
 
-Ce bouclier en particulier porte les armoiries de la noble famille Ilvastarr d'Eauprofonde : un dragon vert métallique aux yeux oranges sur un champ doré.
+Ce bouclier en particulier porte les armoiries de la noble famille Ilvastarr d'Eauprofonde : un dragon vert métallique aux yeux orange sur un champ doré.
 
 PARAMETRES :
 
@@ -57,7 +57,7 @@ Spécial :
   bonus de Constitution de +1
 
 Poids : 5~
-@174   = ~Cette cotte de mailles de barde a un illustre passé, puisqu'il s'agit de l'armure du remarqué barde demi-elfe Myr'Cutio. Il parcourut les Royaumes à la recherche d'aventure et sa nature était tant agitée qu'à sa mort, son esprit et celui de ses compagnons continuèrent à errer...
+@174   = ~Cette cotte de mailles de barde a un illustre passé, puisqu'il s'agit de l'armure du célèbre barde demi-elfe Myr'Cutio. Il parcourut les Royaumes à la recherche d'aventure et sa nature était si agitée qu'à sa mort, son esprit et celui de ses compagnons continuèrent à errer...
 
 Jusqu'à ce que le groupe de <CHARNAME> leur apporte le repos, plus précisément. Les aventuriers tendent à n'avoir aucun respect pour les personnages remarquables du passé. Quand même, l'armure vous appartient : légère, brillante et stylée. Qu'est-ce qu'un barde en herbe pourrait demander de plus ?
 
@@ -68,11 +68,11 @@ Spécial : permet de lancer des sorts
 Force nécessaire : 8
 
 Poids : 20~
-@175   = ~Cette cotte de mailles de barde a un illustre passé, puisqu'il s'agit de l'armure du remarqué barde demi-elfe Myr'Cutio. Il parcourut les Royaumes à la recherche d'aventure et sa nature était tant agitée qu'à sa mort, son esprit et celui de ses compagnons continuèrent à errer...
+@175   = ~Cette cotte de mailles de barde a un illustre passé, puisqu'il s'agit de l'armure du célèbre barde demi-elfe Myr'Cutio. Il parcourut les Royaumes à la recherche d'aventure et sa nature était si agitée qu'à sa mort, son esprit et celui de ses compagnons continuèrent à errer...
 
 Jusqu'à ce que le groupe de <CHARNAME> leur apporte le repos, plus précisément. Les aventuriers tendent à n'avoir aucun respect pour les personnages remarquables du passé. Quand même, l'armure vous appartient : légère, brillante et stylée. Qu'est-ce qu'un barde en herbe pourrait demander de plus ?
 
-Cette armure a été encore améliorée par Toubazar Drin du magasin Objets magiques à la Porte de Baldur. La combinaison avec une culotte dorée lui a apporté une dose de protection supplémentaire, tout en laissant la tenue aussi branchée que jamais.
+Cette armure a été encore améliorée par Toubazar Drin du Bazar Magique à la Porte de Baldur. La combinaison avec une culotte dorée lui a apporté une dose de protection supplémentaire, tout en laissant la tenue aussi branchée que jamais.
 
 PARAMETRES :
 
@@ -82,7 +82,7 @@ Force nécessaire : 7
 
 Poids : 15~
 
-@224   = ~C'est un collier d'apparence plutôt kitsh décoré avec quelques grosses gemmes. Une petite inscription en elfique sur la fermeture du collier indique que l'objet est l'oeuvre de Nadyala la Verte dans le cadre de sa thèse pour obtenir le rang d'Enchanteur à l'École de Magie d'Ulcaster. Le collier irradie une forte énergie magique mais, comme tout projet de fin d'étude, semble ne pas être entièrement achevé. Vous soupçonnez fortement que Nadyala a dû le porter lors de ses examens de fin d'étude.
+@224   = ~C'est un collier d'apparence plutôt kitsch décoré avec quelques grosses gemmes. Une petite inscription en elfique sur la fermeture du collier indique que l'objet est l'oeuvre de Nadyala la Verte dans le cadre de sa thèse pour obtenir le rang d'Enchanteur à l'École de Magie d'Ulcaster. Le collier irradie une forte énergie magique mais, comme tout projet de fin d'études, semble ne pas être entièrement achevé. Vous soupçonnez fortement que Nadyala a dû le porter lors de ses examens de fin d'études.
 
 PARAMETRES :
 

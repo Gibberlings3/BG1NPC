@@ -7,13 +7,13 @@
 // Je les ai donc traduites à l'aveugle...
 
 //Garrick est tout excité au Festival de Nashkel
-@0 = ~J'ai entendu dire beaucoup de choses grandioses à propos de ce festival... On prétend que c'est le meilleur de la Côte des Epées ! J'espère que nous aurons au moins un peu de temps pour nous détendre...~
+@0 = ~J'ai entendu dire beaucoup de choses grandioses à propos de ce festival... On prétend que c'est le meilleur de la Côte des Épées ! J'espère que nous aurons au moins un peu de temps pour nous détendre...~
 @1 = ~Garrick, tous les camelots prétendent que leur marchandise est la meilleure. C'est probablement juste médiocre.~
 @2 = ~Je suis certain que nous aurons l'opportunité de nous divertir ici.~
      ~Je suis certaine que nous aurons l'opportunité de nous divertir ici.~
 @3 = ~Bah ! Je suis au-dessus d'amusements aussi pitoyables que ce pathétique festival. Je ne suis pas un enfant.~
      ~Bah ! Je suis au-dessus d'amusements aussi pitoyables que ce pathétique festival. Je ne suis pas une enfant.~
-@4 = ~Oh, eh bien, euh... Je veux dire, nous pourrions au moins tester. Ah bon.~
+@4 = ~Oh, eh bien, euh... Je veux dire, nous pourrions au moins essayer. Tant pis.~
 @5 = ~Je peux prédire que nous allons nous entendre fabul... fab... ah, merveilleusement bien, <CHARNAME> !~
 
 //Ruines de Flammevin
@@ -32,7 +32,7 @@
 @15 = ~Je vois l'idée. Nous jetterons un oeil au fil de nos déplacements, alors.~
 @16 = ~Mes oreilles ne peuvent plus supporter ce châtiment ! Ferme-la ! Je décide d'où nous allons.~
 @17 = ~Je parlais plutôt des tavernes et des échoppes...~
-@18 = ~Et bien, il y a bon nombre de marchands d'armes en ville, mais pour les objets magiques, nous ferions mieux d'aller voir aux Objets Magiques, ce n'est pas loin d'ici. Le propriétaire est parfois un peu, euh, distant, cela dit...~
+@18 = ~Eh bien, il y a bon nombre de marchands d'armes en ville, mais pour les objets magiques, nous ferions mieux d'aller voir aux Objets Magiques, ce n'est pas loin d'ici. Le propriétaire est parfois un peu, euh, distant, cela dit...~
 @19 = ~Pour ce qui est des tavernes, je suggérerais le Chant de l'Elfe ou, ah, la Sirène Rougissante. Mais je ne suis pas certain que vous apprécierez les mêmes endroits que moi, et, en réalité, le choix est très vaste.~
 @20 = ~Merci, Garrick. Je garderai ça à l'esprit.~
 
@@ -52,7 +52,7 @@
 
 //La célèbre peau d'ours de <CHARNAME>
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 21, probablement inutile de traduire ici !
-@33 = ~Eh bien, ça n'a pas changé beaucoup, alors. A présent, elle attend juste que nous montions le camp, ensuite elle s'écarte du reste du groupe et... ah... euh... oubliez ce que j'ai dit.~
+@33 = ~Eh bien, ça n'a pas changé beaucoup, alors. À présent, elle attend juste que nous montions le camp, ensuite elle s'écarte du reste du groupe et... ah... euh... oubliez ce que j'ai dit.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 22, probablement inutile de traduire ici !
 @34 = ~Je t'ai entendu, Garrick ! Surveille ta langue quand tu parles du beau sexe, surtout de dame <CHARNAME> !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 23, probablement inutile de traduire ici !
@@ -95,7 +95,7 @@
 @47 = ~Ah, d'accord.~
 
 //Brevlik le gnome qui veut qu'on lui vole un télescope
-@48 = ~Oh, <CHARNAME>, on ne devrait pas ! Je me suis retrouvé acoquiné à ceux qui enfreignent la loi auparavant, et ce n'est pas la bonne voie !~
+@48 = ~Oh, <CHARNAME>, on ne devrait pas ! Je me suis retrouvé acoquiné avec ceux qui enfreignent la loi auparavant, et ce n'est pas la bonne voie !~
 @49 = ~C'est sûrement un petit peu polisson mais... mais pensez-y comme s'il s'agissait de trouver un meilleur foyer pour l'artefact... oui, oui, un très noble objectif.~
 
 //Cadderly clerc de Dénéir
@@ -104,10 +104,10 @@
 
 //L'homme aux wivernes
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 458, probabilité 80.0
-@52 = ~Je ne vois pas le bois de ces arbres souterrains...~
+@52 = ~Ces arbres souterrains me cachent la forêt...~
 
 //le Duc Eltan
-@53 = ~Voici le Duc Eltan, <CHARNAME>. Je n'ai entendu dire que des bonnes choses à son sujet : je pense que nous devrions lui dire la vérité.~
+@53 = ~Voici le Duc Eltan, <CHARNAME>. Je n'ai entendu dire que de bonnes choses à son sujet : je pense que nous devrions lui dire la vérité.~
 @54 = ~En effet, cela serait dans votre propre intérêt.~
 
 //Archéologues
@@ -133,7 +133,7 @@
 
 //Recrutement de Dynahéir
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 725, probablement inutile de traduire ici !
-@63 = ~Le vrai guerrier, combattant pour sauver sa dame... A présent que leur quête touche à son terme, <CHARNAME>, peut-être pourraient-ils se joindre à la nôtre ?~
+@63 = ~Le vrai guerrier, combattant pour sauver sa dame... À présent que leur quête touche à son terme, <CHARNAME>, peut-être pourraient-ils se joindre à la nôtre ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 726, probablement inutile de traduire ici !
 @64 = ~Je serais en effet honorée de Te servir, <CHARNAME>.~
 
@@ -151,22 +151,22 @@
 
 //Recrutement d'Edwin
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 466, probablement inutile de traduire ici !
-@70 = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayen... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
+@70 = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayien... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 466, probablement inutile de traduire ici !
-@71 = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayen... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
+@71 = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayien... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
 
 //Recrutement d'Eldoth
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 388, probabilité 82.2
-@72 = ~Extorsion ? Chantage ? Il ne me semble pas qu'il s'agit là d'objectifs très nobles.~
+@72 = ~Extorsion ? Chantage ? Il ne me semble pas qu'il s'agisse là d'objectifs très nobles.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 389, probablement inutile de traduire ici !
 @73 = ~Hum, tu as dit quelque chose, gamin ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 390, probablement inutile de traduire ici !
 @74 = ~Gamin ?!? Je...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 391, probablement inutile de traduire ici !
-@75 = ~Je vous assure qu'il me coûte de faire ceci, mais je dois penser à ma bien aimée, Skie ! C'est le seul moyen qu'elle a de pouvoir échapper à la tyrannie qu'est sa vie. Alors, qu'en dites-vous ?~
+@75 = ~Je vous assure qu'il me coûte de faire ceci, mais je dois penser à ma bien-aimée, Skie ! C'est le seul moyen qu'elle a de pouvoir échapper à la tyrannie qu'est sa vie. Alors, qu'en dites-vous ?~
 
 //Elminster
-@76 = ~Elminster de Valombre, célèbre sage et Elu de Mystra ? Est-ce possible ?~
+@76 = ~Elminster de Valombre, célèbre sage et Élu de Mystra ? Est-ce possible ?~
 @77 = ~Oui, lui et lui seul. Je peux deviner l'étincelle d'un conteur d'histoires dans ces jeunes yeux, mon garçon. Pourquoi ne me dis-tu pas ton nom, histoire que je puisse clamer, dans le futur, que je connais le biographe de <CHARNAME> ?~
 @78 = ~Je suis, euh... Oh, dieux, Elminster en personne !~
 @79 = ~Non, c'est moi, Elminster.~
@@ -209,7 +209,7 @@
 @92 = ~Oh, dieux.~
 
 //Ghorak demande à être soigné
-@93 = ~Où que nous nous tournions,l'aventure et les mystères nous attendent... Aux Trois Vieilles Chopes, <CHARNAME> ?~
+@93 = ~Où que nous nous tournions, l'aventure et les mystères nous attendent... Aux Trois Vieilles Chopes, <CHARNAME> ?~
 
 //Doppelgangers de Château-Suif
 @94 = ~Oh, <CHARNAME>, qu'est-ce qui est réel ? Plus rien n'a de sens !~
@@ -264,7 +264,7 @@
 
 //Kent suspecte que Rashad, le guérisseur, empoisonne en fait le duc Eltan
 @110 = ~C'est étrange. Les Caves Souterraines ont, euh, particulièrement mauvaise réputation...~
-@111 = ~Pas que je sois spécialiste, bien sûr.~
+@111 = ~Non pas que je sois spécialiste, bien sûr.~
 @112 = ~Bonne rencontre, mes amis. J'espère que nous pourrons aller au fond de ceci... Pour notre bien à tous.~
 
 //Kerrack veut aller à Maztica
@@ -349,7 +349,7 @@
 @140 = ~Je... euh...~
 
 //Oublek à Nashkel
-@141 = ~Quelle pitié que nous n'ayons pas pu résoudre ceci d'une meilleure manière. J'imagine que toutes les histoires ne finissent pas bien.~
+@141 = ~Quel dommage que nous n'ayons pas pu résoudre ceci d'une meilleure manière. J'imagine que toutes les histoires ne finissent pas bien.~
 
 //Pallonia lit l'avenir dans les étoiles
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 500, probablement inutile de traduire ici !
@@ -363,11 +363,11 @@
 
 //Le barde Poe sur le Pont de Flammevin
 @145 = ~Des récits épiques de vauriens ? Wouah ! Oh, <CHARNAME>, je vous en prie !~
-@146 = ~*gasp*~
+@146 = ~*retient son souffle*~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 165, probablement inutile de traduire ici !
 @147 = ~Magnifique ! Une telle histoire pourrait remplir une taverne ou une salle, n'importe où dans les Royaumes !~
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 166, probabilité 88.6
-@148 = ~Vos aimables paroles réchauffent le coeur du jeune barde que je suis... Ce qui est utile, compte-tenu du temps qu'il fait par ici. Je vous remercie humblement.~
+@148 = ~Vos aimables paroles réchauffent le coeur du jeune barde que je suis... Ce qui est utile, compte tenu du temps qu'il fait par ici. Je vous remercie humblement.~
 
 //Avec l'ermite Portalbendarwind
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 475, probabilité 56.7
@@ -402,7 +402,7 @@
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 860, probabilité 78.9
 @159 = ~Je suis certain que nous pourrions garder l'oeil ouvert, ma dame.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 861, probablement inutile de traduire ici !
-@160 = ~Et bien, merci !~
+@160 = ~Eh bien, merci !~
 
 //recrutement de Safana
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 423, probablement inutile de traduire ici !
@@ -423,7 +423,7 @@
 @167 = ~Vous pouvez le répéter ! Ça pue !~
 
 //Avec SHAELL
-@168 = ~Et bien, le meurtre des mains de Cyric est la version communément acceptée des événements. J'ai, euh, perdu le fil après ce morceau-là.~
+@168 = ~Eh bien, le meurtre des mains de Cyric est la version communément acceptée des événements. J'ai, euh, perdu le fil après ce morceau-là.~
 
 //Avec Shoal, la néréïde prisonnière de Droth
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 865, probablement inutile de traduire ici !
@@ -455,8 +455,8 @@
 @179 = ~Et bien c'était, euh, inhabituel.~
 
 //Avec Tenya, la petite prêtresse d'Umberlie
-@180 = ~Il semblerait que la situation soit plus complexe que nous n'ayons été amenés à le penser.~
-@181 = ~Allez vous-en !~
+@180 = ~Il semblerait que la situation soit plus complexe que nous n'avons été amenés à le penser.~
+@181 = ~Allez-vous-en !~
 
 //Teynga le brigand veut tout notre argent.
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 875, probablement inutile de traduire ici !
@@ -487,7 +487,7 @@
 //Avec Volo le barde
 @191 = ~N'êtes-vous pas Volo, messire, le célèbre barde ?~
 @192 = ~C'est le cas, en effet, jeune homme. Et si je ne suis barde, je suis au moins un colporteur d'histoires. Et qui, dites-moi, êtes-vous ? Je doute d'être suffisamment célèbre pour être connu de tous... et comprenez-moi bien, c'est quelque chose dont je suis reconnaissant. Donc, aurais-je raison de penser que vous aussi avez une âme de conteur ?~
-@193 = ~Mon nom est Garrick, messire, et je me considère, effectivement, comme un barde, en quelque sorte. Mais j'imagine que je, euh, suis encore en train d'apprendre... C'est un honneur de vous rencontrer ! S'il vous plait, régalez-nous d'une de vos célèbres histoires !~
+@193 = ~Mon nom est Garrick, messire, et je me considère, effectivement, comme un barde, en quelque sorte. Mais j'imagine que je, euh, suis encore en train d'apprendre... C'est un honneur de vous rencontrer ! S'il vous plaît, régalez-nous d'une de vos célèbres histoires !~
 
 //Toujours cette peau d'ours de Theodon
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 197, probablement inutile de traduire ici !
@@ -520,7 +520,7 @@
 @1002 = ~Bonne chance !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 584, probablement inutile de traduire ici !
 @1003 = ~MEURS !~
-@1004 = ~Par ici, s'il vous plait !~
+@1004 = ~Par ici, s'il vous plaît !~
 @1005 = ~Astucieux, non ?~
 @1006 = ~Avancez !~
 @1007 = ~Je veux juste m'en débarrasser... Je vous en prie !~

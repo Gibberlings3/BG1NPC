@@ -11,7 +11,7 @@
 @4 = ~Oh, veuillez m'excuser, Skie... Hé ! Hé, Larze ! Revenez ! J'ai une gamine avec moi qui pense pouvoir vous massacrer avec un bras derrière le dos !~
 @5 = ~Dites voir, Skie, que diriez-vous de vous taire et de retourner dans les rangs ?~
 @6 = ~*Ignorer Skie*~
-@7 = ~Et bien, si vous le dites... Mais je continue à penser qu'on aurait pu le battre.~
+@7 = ~Eh bien, si vous le dites... Mais je continue à penser qu'on aurait pu le battre.~
 @8 = ~Hé ! Vous... vous pensez faire quoi, là ?! J'ai dit que *vous* pouviez le battre, pas moi ! Vous essayez de me faire tuer, ou quoi ?~
 @9 = ~Oh... euh... pardon... Je vais, euh... me taire, alors...~
 
@@ -37,19 +37,19 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 266, probablement inutile de traduire ici !
 @18 = ~Comment osez-vous ! Mon père...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 267, probablement inutile de traduire ici !
-@19 = ~Votre père ne fera rien du tout, Demoiselle Ecudargent. A moins que vous ne trouviez un moyen de le réveiller d'entre les morts.~
+@19 = ~Votre père ne fera rien du tout, Demoiselle Écudargent. À moins que vous ne trouviez un moyen de le réveiller d'entre les morts.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 268, probablement inutile de traduire ici !
 @20 = ~Quoi ?!? Que... qu'est-ce que vous dites ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 269, probablement inutile de traduire ici !
 @21 = ~J'ai bien peur que votre père n'ait malheureusement été patiemment découpé en petits morceaux par une ou plusieurs personnes d'identités inconnues.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 270, probablement inutile de traduire ici !
-@22 = ~Père ?... Attendez, vous... vous *mentez* ! Les gardes du corps de père font partie des meilleurs de toute la garde de la ville... jamais ils ne le laisseraient de vulgaires petites frappes s'approcher de lui.~
+@22 = ~Père ?... Attendez, vous... vous *mentez* ! Les gardes du corps de père font partie des meilleurs de toute la garde de la ville... jamais ils ne laisseraient de vulgaires petites frappes s'approcher de lui.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 271, probablement inutile de traduire ici !
 @23 = ~Ah... Mais, en raison de l'état d'urgence actuel, on a dû les réassigner à des tâches plus importantes.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 272, probablement inutile de traduire ici !
 @24 = ~Quoi ?! Plus IMPORTANTES !?! Qu'est-ce qui peut être plus important pour la ville que la vie d'un Grand-Duc ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 273, probablement inutile de traduire ici !
-@25 = ~Les vies, ainsi que les propriétés de tous les citoyens doivent être sécurisées pour le maintien de l'ordre public. Oh, et nous devons aussi nous protéger de l'invasion venue d'Amn. A moins que vous n'en ayez pas entendu parler, au cours de votre grande expédition avec vos camarades hors-la-loi ?~
+@25 = ~Les vies, ainsi que les propriétés de tous les citoyens doivent être sécurisées pour le maintien de l'ordre public. Oh, et nous devons aussi nous protéger de l'invasion venue d'Amn. À moins que vous n'en ayez pas entendu parler, au cours de votre grande expédition avec vos camarades hors-la-loi ?~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 274, probablement inutile de traduire ici !
 @26 = ~VOUS avez inventé de toutes pièces cette menace amnienne ! Menteur !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 275, probablement inutile de traduire ici !
@@ -74,14 +74,14 @@
 @34 = ~*soupir* Dans ce cas, si contre tout bon sens, <CHARNAME> accepte...~
 
 //rencontre avec Bill (voir aussi @1001)
-@35 = ~Hé, attendez ! Savez-vous qui je suis ? Je suis Skie Ecudargent, fille d'Entar Ecudargent, et je vous ordonne de nous laisser passer !~
-@36 = ~Ecudargent, hein ? Si vous étiez vraiment sa fille, seriez-vous vraiment couverte de boue, habillée comme un sac à patates et traîneriez-vous avec des assassins dans leur genre ? J'en doute fort, mon enfant.~
+@35 = ~Hé, attendez ! Savez-vous qui je suis ? Je suis Skie Écudargent, fille d'Entar Écudargent, et je vous ordonne de nous laisser passer !~
+@36 = ~Écudargent, hein ? Si vous étiez vraiment sa fille, seriez-vous vraiment couverte de boue, habillée comme un sac à patates et traîneriez-vous avec des assassins dans leur genre ? J'en doute fort, mon enfant.~
 
 //rencontre avec Lothandre
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 764, probablement inutile de traduire ici !
 @37 = ~Du poi... du poison ? Oh... euh... je ne me sens pas très bien... Je pense que... Je pense que j'ai besoin de m'étendre un peu.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 765, probablement inutile de traduire ici !
-@38 = ~Si tu veux vivre, fillette, tu as intérêt à faire ce que je vous demande.~
+@38 = ~Si tu veux vivre, fillette, tu as intérêt à faire ce que je te demande.~
 
 //rencontre avec Neb
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 799, probablement inutile de traduire ici !
@@ -112,32 +112,32 @@
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 591, probablement inutile de traduire ici !
 @49 = ~Vous êtes une sainte, madame.~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 592, probablement inutile de traduire ici !
-@50 = ~Et, votre sainteté... pssst... laissez tomber cet espèce de rat qui vous accompagne...~
+@50 = ~Et, votre sainteté... pssst... laissez tomber cette espèce de rat qui vous accompagne...~
 
 //rencontre avec Bill
-@51 = ~Au nom de l'autorité de la propriété d'Entar Ecudargent, je vous ordonne de nous laisser entrer ! Les Grands-Ducs Belt et Liia courent un terrible danger, nous devons les en avertir !~
-@52 = ~Eh, gamine, tu as pris un coup sur la tête, ou quoi ? Entar Ecudargent est mort ! Ce nom ne signifie plus rien, alors vous feriez mieux de disparaître, toi et tes théories de conspiration !~
+@51 = ~Au nom de l'autorité de la propriété d'Entar Écudargent, je vous ordonne de nous laisser entrer ! Les Grands-Ducs Belt et Liia courent un terrible danger, nous devons les en avertir !~
+@52 = ~Eh, gamine, tu as pris un coup sur la tête, ou quoi ? Entar Écudargent est mort ! Ce nom ne signifie plus rien, alors vous feriez mieux de disparaître, toi et tes théories de conspiration !~
 
 //rencontre avec Bork
 @53 = ~Ah, je suis sûre qu'il exagère.~
 
 //rencontre avec Sorrell (Edoth parle en @55 & @57)
 @54 = ~La Balafre est mort ? Oh... je... hum... je... enfin, mon père ne tarissait pas d'éloges sur lui... Et Eltan aussi. Oh non ! Et... et pour mon père ? Allez, nous devons nous assurer qu'il va bien !~
-@55 = ~Ahhh...*si* ton père est en danger, nous ferions mieux de nous abstenir, plutôt que de foncer tête baissée dans une embuscade. Sans parler de ce qu'*il* nous fera s'il n'y avait pas d'embuscade.~
+@55 = ~Ahhh...*si* ton père est en danger, nous ferions mieux de nous abstenir, plutôt que de foncer tête baissée dans une embuscade. Sans parler de ce qu'*il* nous fera s'il n'y a pas d'embuscade.~
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 953, probabilité 51.7
 @56 = ~Mais...~
 @57 = ~Il n'y a pas de mais, ma chérie. Tu es sous le choc, tu dois faire confiance à quelqu'un qui sait garder la tête froide.~
 @58 = ~Oh... euh... c'est sans doute vrai...~
-@59 = ~Je suis désolé, ma petite... mais ton père est... euh... allez voir Eltan.~
+@59 = ~Je suis désolé, ma petite... mais ton père est... euh... va voir Eltan.~
 
 //rencontre avec Tamoko
 @60 = ~Si... si vous ne voulez pas tuer Sarevok, alors vous devez au moins tuer ces... ces assassins... Quelqu'un doit payer pour la mort de mon père... quelqu'un...~
 
 //rencontres avec Brilla Ecudargent, la belle-mère de Skie ; Eldoth parle en @61 & @77
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 157, probablement inutile de traduire ici !
-@61 = ~Par les dieux ! Ca doit être la *nouvelle* Dame Ecudargent dont Skie n'arrêtait pas de se plaindre. Plus jolie, tout aussi bête, et pourtant plus colérique, si je puis en juger, que celle pour qui je me suis donné tant de mal. *soupir* Il est sans doute trop tard pour changer à ce stade...~
+@61 = ~Par les dieux ! Ça doit être la *nouvelle* Dame Écudargent dont Skie n'arrêtait pas de se plaindre. Plus jolie, tout aussi bête, et pourtant plus colérique, si je puis en juger, que celle pour qui je me suis donné tant de mal. *soupir* Il est sans doute trop tard pour changer à ce stade...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 158, probablement inutile de traduire ici !
-@62 = ~Pssst... <CHARNAME>, c'est la nouvelle "épouse" de mon père. Allons nous-en !~
+@62 = ~Pssst... <CHARNAME>, c'est la nouvelle "épouse" de mon père. Allons-nous-en !~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 607, probablement inutile de traduire ici !
 @63 = ~Hmph, cette femme a toujours été une traînée. *soupir* Si seulement père avait écouté...~
 // BG1 NPC : texte identique dans le fichier x#ict3.tra au numéro 608, probablement inutile de traduire ici !
@@ -149,8 +149,8 @@
 @69 = ~SAL... oui. Je m'en vais. Euh... vous allez le dire à mon père ?~
 @70 = ~Hmmm... le lui dire ? Mais bien sûr que non ! Les évènements prennent une tournure très intéressante...~
 @71 = ~Quoi...?~
-@72 = ~Très chère, tu n'es qu'une petite fille gâtée-pourrie. Tu pleurniches dès lors que tu te casses un *ongle*. Tu penses vraiment survivre dans le grand méchant monde ? C'est sans doute l'un des paris les plus stupides auxquels j'ai jamais assistée.~
-@73 = ~Et lorsque tu mourras au cours de tes pérégrinations, *je* serai la seule assise sur la fortune des Ecudargent.~
+@72 = ~Très chère, tu n'es qu'une petite fille gâtée-pourrie. Tu pleurniches dès lors que tu te casses un *ongle*. Tu penses vraiment survivre dans le grand méchant monde ? C'est sans doute l'un des paris les plus stupides auxquels j'ai jamais assisté.~
+@73 = ~Et lorsque tu mourras au cours de tes pérégrinations, *je* serai la seule assise sur la fortune des Écudargent.~
 @74 = ~Pars, maintenant. Mais... tu pourrais peut-être laisser ton ami ici, hmm...? *sourit à Eldoth*~
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 250, probabilité 60.0
 // BG1 NPC : texte proche dans le fichier x#ict3.tra au numéro 855, probabilité 60.0
@@ -160,13 +160,13 @@
 @75 = ~Espèce de... espèce de garce !~
 @76 = ~Ne vous approchez pas de mon Eldoth !~
 @77 = ~Allons, allons, très chère. Nous n'espérons pas garder ton... ahem... départ secret, si ? Même pour quelqu'un d'aussi égocentrique que ton père ? Allons, laissons-nous nous envelopper par les ailes de l'Amour, et envolons-nous là où elles nous emmèneront. *Eldoth prend Skie dans ses bras et adresse un clin d'oeil à Brilla par-dessus son épaule.*~
-@78 = ~Hi hi ! Si un jour j'ai besoin d'un comique pour égayer une après-midi morne, je saurais à qui m'adresser, maintenant. Prends soin de toi, très chère ! *Skie fulmine et traîne Eldoth hors de la pièce.*~
+@78 = ~Hi hi ! Si un jour j'ai besoin d'un comique pour égayer une après-midi morne, je saurai à qui m'adresser, maintenant. Prends soin de toi, très chère ! *Skie fulmine et traîne Eldoth hors de la pièce.*~
 
 //rencontre avec Slythe & Krystin
 @79 = ~Vous... c'est vous qui avez tué mon père ? Vous allez payer pour ce que vous avez fait ! Je... je vais vous tuer...~
 @80 = ~*rigole* Oh, bébé, regarde ! La fifille à son papa est venue nous rendre visite !~
 @81 = ~Ohh, comme c'est charmant... Hmmm... On lui dit, Slythie ?~
-@82 = ~On lui dit comment papa a hurlé comme un goret lorsque je lui ai plongé ma lame dans le gosier ? Ou comment il a chialé comme une fillette lorsque je lui ai dit que je pourchasserais sa précieuse petite fille et que je la saignerais comme un porc ?~
+@82 = ~On lui dit comment papa a hurlé comme un goret lorsque je lui ai plongé ma lame dans le gosier ? Ou comment il a chialé comme une fillette lorsque tu lui as dit que tu pourchasserais sa précieuse petite fille et que je la saignerais comme un porc ?~
 @83 = ~Chéri...~
 @84 = ~Ou alors, on pourrait lui raconter le *piteux* bruit d'agonie que le courageux et terrifiant Grand-Duc a fait lorsque j'ai remonté ma lame jusqu'à sa gorge ! Ou comment... ~
 @85 = ~Slythe, chéri... assez parlé, contentons-nous de lui *montrer*, maintenant. Je meurs de faim... ~
@@ -187,27 +187,27 @@
 @98 = ~Hélas, il est porté disparu. Personne ne l'a plus revu depuis trois jours... Je crains le pire... Et c'est pour ça que je dois partir, maintenant, mon enfant...~
 @99 = ~Partir ?... Non... s'il te plaît, Dora, tu... tu ne peux pas partir... *sniff* Tu es la seule famille qu'il me reste... *sniff* Ne pars pas...~
 @100 = ~Je... je suis désolée, mon enfant... Je dois... J'ai peur que le mal qui a pris la vie de ton père vienne bientôt pour moi. Je dois partir... tant que je le peux encore... Je suis désolée, Skie...~
-@101 = ~Tiens, mon enfant, je veux que tu aies ce collier... C'est ta mère qui me l'a donné, il y a plusieurs années... Je... j'ai toujours rêvé qu'un jour, je le transmettrais à *ma* propre fille... Quelqu'un que j'aimerais plus... que...~
+@101 = ~Tiens, mon enfant, je veux que tu aies ce collier... C'est ma mère qui me l'a donné, il y a plusieurs années... Je... j'ai toujours rêvé qu'un jour, je le transmettrais à *ma* propre fille... Quelqu'un que j'aimerais plus... que...~
 @102 = ~Je... je... je ne sais pas quoi dire...~
-@103 = ~Alors ne dis rien. Je n'ai pas besoin d'entendre quoi que ce soit, mon enfant... Je... dois m'en aller, maintenant... Prend soin de toi, Skie... Que les dieux protègent ta route... Adieu... ~
+@103 = ~Alors ne dis rien. Je n'ai pas besoin d'entendre quoi que ce soit, mon enfant... Je... dois m'en aller, maintenant... Prends soin de toi, Skie... Que les dieux protègent ta route... Adieu... ~
 @104 = ~Dora ? Attends... où est père ? Angelo a dit que... qu'il était mort... c'est vrai ?~
 @105 = ~*soupir* J'ai bien peur que ce serpent ne t'ait pas menti, mon enfant. Ton père est mort.~
 @106 = ~Mais... mais comment ? Je veux dire... mort... Je ne... je ne comprends pas... comment c'est...~
 @107 = ~Ma pauvre enfant... Il a été... assassiné... les autorités pensent qu'il s'agit de l'oeuvre d'un assassin des Voleurs de l'Ombre.~
 @108 = ~Les... les Voleurs de l'Ombre ? Mais ça... ça n'a pas de sens... Je veux dire, pourquoi... *sniff*... pourquoi lui ?~
 @109 = ~Je ne connais pas la réponse, mon enfant, mais tu dois m'écouter... il... il y a quelque chose d'autre... C'est Walter qui a découvert le corps de ton père... il y a une dizaine de jours... Quelques jours plus tard, lorsque la nouvelle a été rendue publique, on a aussi annoncé qu'une cape et une dague avaient été trouvées sur ton père, impliquant les Voleurs de l'Ombre.~
-@110 = ~Tiens, mon enfant, je veux que tu aies ce collier... C'est ta mère qui me l'a donné, il y a plusieurs années... Je... j'ai toujours rêvé qu'un jour, je le transmettrai à *ma* propre fille... Quelqu'un que j'aimerais plus... que...~
-@111 = ~Alors c'était vrai... Nous... nous devrions partir. Je ne pense pas que j'aurais la force de revoir la maison, maintenant... pas alors que le meurtrier de père court toujours dans la nature. Est-ce... est-ce qu'on peut y aller ? J'ai... j'ai besoin d'un peu de temps pour réfléchir à tout ça.~
+@110 = ~Tiens, mon enfant, je veux que tu aies ce collier... C'est ma mère qui me l'a donné, il y a plusieurs années... Je... j'ai toujours rêvé qu'un jour, je le transmettrais à *ma* propre fille... Quelqu'un que j'aimerais plus... que...~
+@111 = ~Alors c'était vrai... Nous... nous devrions partir. Je ne pense pas que j'aie la force de revoir la maison, maintenant... pas alors que le meurtrier de père court toujours dans la nature. Est-ce... est-ce qu'on peut y aller ? J'ai... j'ai besoin d'un peu de temps pour réfléchir à tout ça.~
 
 //rencontre avec Jopha
-@112 = ~Ehhh... halte ! Qui va là... Et bien, 'moiselle Skie ! Z'êtes pas supposée être dans l'coin ! Vot'père l'a dit !~
+@112 = ~Ehhh... halte ! Qui va là... Eh bien, 'moiselle Skie ! Z'êtes pas supposée être dans l'coin ! Vot'père l'a dit !~
 @113 = ~Pourtant, il me semble clair que je *suis* dans le coin, et que je dois m'en aller. J'ai des affaires très urgentes dont je dois m'occuper.~
 @114 = ~M-mais... 'moiselle Skie... vot'père n'a jamais parlé 'd'affaires très urgentes', juste que vous deviez plus faire le mur.~
 @115 = ~Mon père vous a dit quoi faire dans l'éventualité où je 'ferais le mur' encore une fois ?~
 @116 = ~Ehhh... pas aussi clairement, non... j'suppose que je peux toujours aller l'dire à quelqu'un... ou à quelque chose.~
 
 //Eldoth et Skie discutent à propos de Jopha
-@117 = ~Je suis heureuse que nous n'ayons pas eu à le menacer. Jopha est l'un de nos plus anciens serviteurs.~
+@117 = ~Je suis heureuse que nous n'ayons pas eu à lui faire de mal. Jopha est l'un de nos plus anciens serviteurs.~
 @118 = ~Sans nul doute. Mais si nous devions rencontrer quelqu'un d'aussi... ahem... alerte, mais d'un peu plus résolu, nous éviterions ce genre de petites jérémiades si tu acceptais de dissimuler ton magnifique visage sous ta capuche en ville, ma chérie. J'ai choisi cette cape exprès pour toi ; cette couleur va si bien avec tes yeux.~
 @119 = ~Oooh ! Merci ! Elle est superbe, mais... elle n'est pas un peu chaude, pour cette saison ?~
 @120 = ~C'est... une vétille. Mais elle te réchauffera lorsque tu seras *dehors*, ce qui est de la plus haute importance.~

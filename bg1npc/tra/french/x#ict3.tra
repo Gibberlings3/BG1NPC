@@ -66,7 +66,7 @@
 @20   = ~J'vous demande pardon, sire, mais y'a rien d'maléfique chez cet' petite.~
 // Garrick - Ajantis - Theodon
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 33
-@21   = ~Eh bien, ça n'a pas changé beaucoup, alors. A présent, elle attend juste que nous montions le camp, ensuite elle s'écarte du reste du groupe et... ah... euh... oubliez ce que j'ai dit.~
+@21   = ~Eh bien, ça n'a pas changé beaucoup, alors. À présent, elle attend juste que nous montions le camp, ensuite elle s'écarte du reste du groupe et... ah... euh... oubliez ce que j'ai dit.~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 34
 @22   = ~Je t'ai entendu, Garrick ! Surveille ta langue quand tu parles du beau sexe, surtout de dame <CHARNAME> !~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 35
@@ -82,7 +82,7 @@
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 391
 @27   = ~Qui n'a pas vu celle-là arriver de loin ? Maintenant les garçons vont en plaisanter pendant des jours... ouais !~
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 392
-@28   = ~Ah, tu es là, toi-aussi ? Eh bien, tu étais celle des deux qui était calme, toi...~
+@28   = ~Ah, tu es là, toi aussi ? Eh bien, tu étais celle des deux qui était calme, toi...~
 // Jaheira et Khalid
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 57
 @29   = ~*ricane* Je ne peux pas me souvenir d'avoir jamais autant ri... petit <CHARNAME> sur sa peau d'ours... Je DOIS voir de quoi notre figure d'autorité omnipotente avait l'air, adorable bébé...~
@@ -99,7 +99,7 @@
 /* Oublek, quand on lui ramène Brage */
 // Ajantis - Oublek (@919)
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 11
-@34   = ~A présent, justice est faite et pourtant... elle laisse un mauvais goût dans la bouche.~
+@34   = ~À présent, justice est faite et pourtant... elle laisse un mauvais goût dans la bouche.~
 // Dynahéir - Oublek
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 60
 @35   = ~<CHARNAME>, la manière dont Tu as géré cette affaire ne me plaît guère. Ce pauvre homme était le jouet d'une malédiction, la douleur qu'il a ressentie après être revenu à la raison était bien réelle. Tu aurais dû le mener à quelqu'un de juste qui aurait fait montre de clémence.~
@@ -123,8 +123,8 @@
         ~Vous avez démontré un grand sens du courage et de l'honneur, <CHARNAME> ! La tentation de mentir pour recevoir un message adressé à nos ennemis ne vous a pas emportée.~
 // Dynahéir
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 68
-@42   = ~Alors Tu Te proclames ouvertement ennemi du Trône de Fer, maintenant ? Et bien, on dirait bien qu'on ne peut pas toujours se cacher la tête dans le sable. Je suppose que c'est sans doute mieux comme ça.~
-        ~Alors Tu Te proclames ouvertement ennemie du Trône de Fer, maintenant ? Et bien, on dirait bien qu'on ne peut pas toujours se cacher la tête dans le sable. Je suppose que c'est sans doute mieux comme ça.~
+@42   = ~Alors Tu Te proclames ouvertement ennemi du Trône de Fer, maintenant ? Eh bien, on dirait bien qu'on ne peut pas toujours se cacher la tête dans le sable. Je suppose que c'est sans doute mieux comme ça.~
+        ~Alors Tu Te proclames ouvertement ennemie du Trône de Fer, maintenant ? Eh bien, on dirait bien qu'on ne peut pas toujours se cacher la tête dans le sable. Je suppose que c'est sans doute mieux comme ça.~
 // Jaheira - Laskal
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 96
 @43   = ~Hum. Un cadeau de l'un de ces répugnants Druides de l'Ombre. Je suis étonnée qu'il ne nous ait pas attaqués à vue. Cependant, <CHARNAME>... Je ne ferais pas confiance à cette mixture détestable : cette potion devrait être jetée plutôt que consommée.~
@@ -154,7 +154,7 @@
 /* Sonnère, pêcheur, quand il propose d'obliger Tenya, la prêtresse d'Umberlie, à les laisser tranquille */
 // Branwen
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 7
-@52   = ~Loup de Mer vénère Umberlie, <CHARNAME>. Elle commande aux vagues et aux vents marins depuis son repaire englouti des Abysses. On la vénère par crainte, pas par amour. Les marins jettent de l'or et des gemmes dans l'océan lorsqu'ils sont pris dans les tempêtes, en espérant apaiser la Reine-Garce. Ses adeptes sont aussi violents que leur patronne. Ça va être une bonne bataille, <CHARNAME>, si jamais tu projettes de naviguer sur les mers... Je sais que tu peux te battre contre les hommes, mais pourrais-tu te battre contre de grandes vagues ?~
+@52   = ~Loup de mer vénère Umberlie, <CHARNAME>. Elle commande aux vagues et aux vents marins depuis son repaire englouti des Abysses. On la vénère par crainte, pas par amour. Les marins jettent de l'or et des gemmes dans l'océan lorsqu'ils sont pris dans les tempêtes, en espérant apaiser la Reine-Garce. Ses adeptes sont aussi violents que leur patronne. Ça va être une bonne bataille, <CHARNAME>. Mais si jamais tu projettes de naviguer sur les mers... Je sais que tu peux te battre contre les hommes, mais pourrais-tu te battre contre de grandes vagues ?~
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 67
 @53   = ~(Les pêcheurs me demandent de les aider à aller en mer... puis, les fermiers me supplieront de les aider à semer. Je deviens vraiment indispensable à l'agriculture de cette région.) Je t'en prie, <CHARNAME>, dis juste... NON !~
@@ -165,7 +165,7 @@
 @55   = ~C'est sûr. Alors, nous aiderez-vous ?~
 // Coran - Sonnère - Coran
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 49
-@56   = ~A vous trois, vous ne parvenez pas à gagner les faveurs d'une seule dame ? A moi tout seul je peux gagner trois dames dans le même laps de temps !~
+@56   = ~À vous trois, vous ne parvenez pas à gagner les faveurs d'une seule dame ? À moi tout seul je peux gagner trois dames dans le même laps de temps !~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 50
 @57   = ~Alors essaie donc, camarade. Sauf que c'est pas une dame, c'est une garce, comme sa Reine...~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 51
@@ -187,20 +187,20 @@
 /* Ardrouine, demande de l'aide pour son fils cerné par les worgs */
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 24
-@64   = ~Au contraire, il y a tout le temps. Je dirais, à peu près 15 ans avant que le garçon ne sois mature sans interférence de sa geignarde de mère à la tête vide. Si j'étais lui, moi aussi je préfèrerai la compagnie des worgs à la vôtre.~
+@64   = ~Au contraire, il y a tout le temps. Je dirais, à peu près 15 ans avant que le garçon ne soit mature sans interférence de sa geignarde de mère à la tête vide. Si j'étais lui, moi aussi j'aurais préféré la compagnie des worgs à la vôtre.~
 // Imoen
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 67
 @65   = ~Pauvre gamin. Je pense que nous devrions aller l'aider. Cela me rappelle quand nous étions enfants à Château-Suif et que tu te sauvais, de peur des chiens, quand ils aboyaient.~
 // Branwen
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 17
-@66   = ~Honnêtement, ne pouvez-vous pas vous débrouiller tout seuls ? Le morveux n'a t-il pas appris au moins à tenir une épée ? Cette démonstration de lâcheté abjecte face à de simples worgs est pathétique.~
+@66   = ~Honnêtement, ne pouvez-vous pas vous débrouiller tout seuls ? Le morveux n'a-t-il pas appris au moins à tenir une épée ? Cette démonstration de lâcheté abjecte face à de simples worgs est pathétique.~
 // Viconia - Ardrouine - Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 14
 @67   = ~<CHARNAME>, si nous faisons les courses de toutes les vieilles dames que nous trouverons sur notre chemin, alors même moi je vais mourir de vieillesse sans avoir rien accompli que des tâches mieux adaptées à des esclaves !~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 15
 @68   = ~N'as-tu pas de coeur, sorcière sombre ? C'est mon enfant qui est piégé là-bas !~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 16
-@69   = ~Oh, j'ai un coeur. Mais il ne bat que pour moi, et non pour ceux qui sont trop faibles pour prendre soin d'eux-mêmes. Viens, <CHARNAME>, je ne veux pas parler plus longtemps à cette misérable.~
+@69   = ~Oh, j'ai un coeur. Mais il ne bat que pour moi, et non pour ceux qui sont trop faibles pour prendre soin d'eux-mêmes. Venez, <CHARNAME>, je ne veux pas parler plus longtemps à cette misérable.~
 // Kivan
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 32
 @70   = ~Sur mon honneur de rôdeur, je jure que nous ferons de notre mieux pour faire fuir les worgs, bonne dame.~
@@ -210,14 +210,14 @@
 // Ajantis - Ardrouine
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 57
 @72   = ~N'ayez plus peur, bonne dame ! Il sera pour nous chose facile de tuer ces worgs qui menacent votre fils !~
-@73   = ~Oh, s'il vous plait, aidez-le !~
+@73   = ~Oh, s'il vous plaît, aidez-le !~
 /* Tiber, demande de retrouver son frère disparu et qui craint le chagrin de sa mère */
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 125
 @74  = ~Un parfait crétin. La mort du faible doit être encouragée ; c'est cette sélection naturelle qui a rendu mon peuple aussi supérieur.~
 // Branwen
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 18
-@75   = ~C'est un acte héroïque que ces deux-là tentent d'accomplir, cependant cela ne servira à rien si nous ne leur venons pas en aide. Je respecte leur franchise ; prêtons leur main forte.~
+@75   = ~C'est un acte héroïque que ces deux-là tentent d'accomplir, cependant cela ne servira à rien si nous ne leur venons pas en aide. Je respecte leur franchise ; prêtons-leur main-forte.~
 // Dynahéir
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 66
 @76   = ~J'ai bien peur que Tes craintes ne soient justifiées : les araignées ne font pas de prisonnier, généralement. Et pourtant, je fus moi-même captive de créatures non moins vicieuses, et ai survécu jusqu'à ce que <CHARNAME> vienne me secourir.~
@@ -248,10 +248,10 @@
 /* Arghain */
 // Branwen
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 30
-@86   = ~Abandonner tout notre fer ?! Je préférais encore renoncer à ma virginité !~
+@86   = ~Abandonner tout notre fer ?! Je préférerais encore renoncer à ma virginité !~
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 18
-@87   = ~Ah, regarde. Une ordure surfacine typique de plus, prête à jouer. C'est une épreuve que d'écouter leurs langues assommantes.~
+@87   = ~Ah, regardez. Une ordure surfacine typique de plus, prête à jouer. C'est une épreuve que d'écouter leurs langues assommantes.~
 /* Non utilisé */
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 31
 @88   = ~Votre fer et votre vie !~
@@ -314,7 +314,7 @@
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 89
 @110  = ~*crache* Moi, je n'ai pas envie de prouver que je suis un gentil HOMME ! Je suis une femme forte, et si tu ne la fermes pas et ne te défends pas, alors je te ferai ravaler tes manières à grands coups de bottes !~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 90
-@111  = ~Je ne doute pas que vous soyez suffisamment grossière pour mettre vos menaces à éxécution, mais je vous assure que j'ai pris toutes les dispositions nécessaires pour me protéger de brutes telles que vous.~
+@111  = ~Je ne doute pas que vous soyez suffisamment grossière pour mettre vos menaces à exécution, mais je vous assure que j'ai pris toutes les dispositions nécessaires pour me protéger de brutes telles que vous.~
 // Coran - Rieltar
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 2
 @112  = ~Un voleur n'impose pas ses règles à un autre voleur... qu'il soit ou non gentilhomme. Nous ferons ce qui nous plaira, et si ça ne vous plaît pas - hé bien, c'est le moment ou jamais de vous livrer à une nouvelle tentative de meurtre sur <CHARNAME>. Tous les assaillants qui vous ont précédé sont tombés devant lui.~
@@ -354,9 +354,9 @@
 @124  = ~Je vous jure, sire, ce n'est pas aussi mauvais que ça le euh... semble.~
 // Coran - Aello
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 10
-@125  = ~Hum... Vous avez vraiment de la chance, si vous êtes encore vivant au milieu des trucs que vous vendez. Regardez-moi cette bouteille ! elle a consumé l'étagère sur une profondeur d'un pouce tout autour d'elle ! Et ce... euh, quoi que ce soit... Je jure que ça m'a fait un clin d'oeil !~
+@125  = ~Hum... Vous avez vraiment de la chance, si vous êtes encore vivant au milieu des trucs que vous vendez. Regardez-moi cette bouteille ! Elle a consumé l'étagère sur une profondeur d'un pouce tout autour d'elle ! Et ce... euh, quoi que ce soit... Je jure que ça m'a fait un clin d'oeil !~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 11
-@126  = ~Ca ? Ce sont les yeux de quelque dame liche... ou, du moins, c'est ce que m'a dit le gnome qui m'les a vendus...~
+@126  = ~Ça ? Ce sont les yeux de quelque dame liche... ou, du moins, c'est ce que m'a dit le gnome qui m'les a vendus...~
 // Aello
 @127  = ~Alors, que puis-je pour vous ?~
 /* Areana (noble qui aux Trois vieilles chopes), qui recrute pour tuer Cyrdemac qui menace sa réputation */
@@ -370,14 +370,14 @@
 @130   = ~C'est... pas matière à plaisanter... J'ai besoin qu'on le fasse taire ! S'il vous plaît...~
 // Jaheira
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 44
-@131   = ~Je ne connais pas l'homme, mais chercher à s'enrichir des mésaventures d'autrui est clairement détestable. Cependant, les moyens que cette femme est prête à utiliser suggère qu'elle est vile, elle aussi. En vérité, ils me dégoûtent l'un et l'autre, et je propose que nous les laissions régler leurs différends sans interférer.~
+@131   = ~Je ne connais pas l'homme, mais chercher à s'enrichir des mésaventures d'autrui est clairement détestable. Cependant, les moyens que cette femme est prête à utiliser suggèrent qu'elle est vile, elle aussi. En vérité, ils me dégoûtent l'un et l'autre, et je propose que nous les laissions régler leurs différends sans interférer.~
 /* Non utilisé */
 @132   = ~S'il vous plaît... aidez-moi.~
 /* Cordyr, qui dit qu'il a tout perdu à cause de sirènes (celles de la grotte) */
 // Attend que le groupe lui parle, donc accord impossible selon le sexe du PJ
 // Viconia
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 47
-@133   = ~Une grâce qui ne provient que de la magie ; car je ne connais pas de créature dans toute la nature qui soit plus belle qu'un drow. Je n'ai pas de scrupules à vous débarrasser de ces créatures, bien que je ne vois pas pourquoi nous devrions faire cet effort. Cependant je suppose que, comme d'habitude, nos actions ne dépendent pas de ma seule décision...~
+@133   = ~Une grâce qui ne provient que de la magie ; car je ne connais pas de créature dans toute la nature qui soit plus belle qu'un drow. Je n'ai pas de scrupules à vous débarrasser de ces créatures, bien que je ne voie pas pourquoi nous devrions faire cet effort. Cependant je suppose que, comme d'habitude, nos actions ne dépendent pas de ma seule décision...~
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 18
 @134  = ~<CHARNAME>, cela me briserait sûrement le coeur de tuer ces créatures belles et innocentes... (Cela devrait suffire à l'en dissuader ; tous les héros de pacotille se laissent toujours berner par ce genre de plaintes sentimentales... et aider des concubines exotiques est une affaire profitable. Tout ce dont j'ai besoin maintenant, c'est d'un navire et de quelques filets robustes.)~
@@ -427,25 +427,25 @@
 @149  = ~Accompagné par une horde de simples bébés wivernes, bien sûr ? Avoue tes intentions, sinon j'obéirai à mon devoir en tant que servante de la nature et les déterminerai par moi-même.~
 // Coran - Peter - Coran - Coran - Coran - Peter
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 42
-@150  = ~Un camarade chasseur de wyvernes, je suppose ?~
+@150  = ~Un camarade chasseur de wivernes, je suppose ?~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 43
-@151  = ~Un chasseur, oui. Mais je ne suis pas intéressé par ces... wivernes. Je suis ici pour.. euh... les grottes.~
+@151  = ~Un chasseur, oui. Mais je ne suis pas intéressé par ces... wivernes. Je suis ici pour... euh... les grottes.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 44
 @152  = ~Vraiment ? J'aurais pourtant juré que ce léger parfum acide sur votre manteau est le même que celui laissé par leur poison...~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 45
-@153  = ~Alors vous n'allez pas tuer le couple ? Je ne suis pas surpris. *Personne* dans les environs n'achète de trophées de wyvernes... Je le sais de source sûre !~
+@153  = ~Alors vous n'allez pas tuer le couple ? Je ne suis pas surpris. *Personne* dans les environs n'achète de trophées de wivernes... Je le sais de source sûre !~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 46
 @154  = ~Euh... Combien de temps allez-vous rester dans cette grotte, cela dit ?~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 47
-@155  = ~Quelques temps. Ma... euh... spéléologie prend du temps...~
+@155  = ~Quelque temps. Ma... euh... spéléologie prend du temps...~
 /* Non utilisé */
 @156  = ~Oui... Je fais de la spéléologie.~
 /* Brilla Ecudargent, qui veut savoir qui s'introduit chez elle */
 // Eldoth - Skie
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 61
-@157  = ~Par les dieux ! Ca doit être la *nouvelle* Dame Ecudargent dont Skie n'arrêtait pas de se plaindre. Plus jolie, tout aussi bête, et pourtant plus colérique, si je puis en juger, que celle pour qui je me suis donné tant de mal. *soupir* Il est sans doute trop tard pour changer à ce stade...~
+@157  = ~Par les dieux ! Ça doit être la *nouvelle* Dame Écudargent dont Skie n'arrêtait pas de se plaindre. Plus jolie, tout aussi bête, et pourtant plus colérique, si je puis en juger, que celle pour qui je me suis donné tant de mal. *soupir* Il est sans doute trop tard pour changer à ce stade...~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 62
-@158  = ~Pssst... <CHARNAME>, c'est la nouvelle "épouse" de mon père. Allons nous-en !~
+@158  = ~Pssst... <CHARNAME>, c'est la nouvelle "épouse" de mon père. Allons-nous-en !~
 // Coran à un PJ mâle
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 52
 @159  = ~Tu te souviens de ce que je t'ai dit ? Avec les femmes nobles, c'est le culot qui marche. Souris, coquin !~
@@ -457,7 +457,7 @@
 @161  = ~*Abela jette à Coran un regard spéculatif, mais détourne ensuite les yeux en un sursaut, et soupire.*~
 // Faldorn - Abela
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 91
-@162  = ~Nous ferions mieux d'éviter la compagnie des hommes à l'esprit citadin pendant quelques temps... Nous n'avons pas tous la chance que tu as, de pouvoir partir immédiatement.~
+@162  = ~Nous ferions mieux d'éviter la compagnie des hommes à l'esprit citadin pendant quelque temps... Nous n'avons pas tous la chance que tu as, de pouvoir partir immédiatement.~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 92
 @163  = ~Ne désespère pas ma soeur, tu reviendras bientôt dans les bois sous la lumière des étoiles.~
 /* Non utilisé */
@@ -467,7 +467,7 @@
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 147
 @165  = ~Magnifique ! Une telle histoire pourrait remplir une taverne ou une salle, n'importe où dans les Royaumes !~
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 148
-@166  = ~Vos aimables paroles réchauffent le coeur du jeune barde que je suis... Ce qui est utile, compte-tenu du temps qu'il fait par ici. Je vous remercie humblement.~
+@166  = ~Vos aimables paroles réchauffent le coeur du jeune barde que je suis... Ce qui est utile, compte tenu du temps qu'il fait par ici. Je vous remercie humblement.~
 // Safana - Poe
 // BG1 NPC : texte proche dans le fichier x#saint.tra au numéro 0
 @167  = ~Ce poème n'était pas particulièrement bon. Je suis surprise que ma beauté ne l'ait pas plus amplement inspiré.~
@@ -483,7 +483,7 @@
 @171  = ~Je suis plus encline à apprécier les symphonies subtiles qui se jouent dans la sérénité des sous-bois, mais je dois admettre que j'ai trouvé le conte de ce jeune barde à mon goût. Je le jure, comparé à tous ces vains personnages qui polluent les tavernes de la Porte de Baldur, cet homme restaure vraiment la bonne réputation de son métier !~
 // Jaheira - Garrick - Jaheira
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 81
-@172  = ~J'espère que tu te souviendras de ce conte, Garrick. A notre prochain arrêt, tu t'assiéras pour l'écrire, car j'aimerais l'entendre à nouveau.~
+@172  = ~J'espère que tu te souviendras de ce conte, Garrick. À notre prochain arrêt, tu t'assiéras pour l'écrire, car j'aimerais l'entendre à nouveau.~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 82
 @173  = ~O-Oui, ma dame ! Je m'en souviens bien ! Laissez-moi voir si je peux puiser dans mon talent et l'améliorer un petit peu...~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 83
@@ -497,7 +497,7 @@
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 56
 @177  = ~J'apprécierais d'entendre cette histoire, Maître Elfe.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 57
-@178  = ~Il y a un petit village, Belgarden, au Cormyr, sur les terres qui aujourd'hui sont revendiquées par les humains, mais qui, autrefois, étaient elfiques. Une cruelle bataille fut livrée là il y a des milliers d'années, peu après les Guerres de la Couronne. Et au cours de celle-ci, l'elfe le plus juste et le plus puissant qui soit, le roi Echtellion, fut assassiné - de quelque noble manière, bien entendu.~
+@178  = ~Il y a un petit village, Belgarden, au Cormyr, sur les terres qui aujourd'hui sont revendiquées par les humains, mais qui, autrefois, étaient elfiques. Une cruelle bataille fut livrée là il y a des milliers d'années, peu avant les Guerres de la Couronne. Et au cours de celle-ci, l'elfe le plus juste et le plus puissant qui soit, le roi Echtellion, fut assassiné - de quelque noble manière, bien entendu.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 58
 @179  = ~Pour honorer sa mémoire, l'artiste Alaundalion sculpta une statue à placer sur sa tombe. On disait qu'il était amoureux de la soeur d'Echtellion, et c'est pourquoi, pour lui complaire, il fit ce qu'elle lui commandait en créant une statue très ressemblante, ce qui va contre la tradition elfique - car nous savons tous que les Elfes ont peu de talent pour reproduire fidèlement les traits, vu qu'ils cherchent toujours à capturer l'esprit.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 59
@@ -547,9 +547,9 @@
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 88
 @198  = ~<CHARNAME>, tu devrais montrer davantage ce côté insouciant de ta personnalité, tu sais. Cela aiderait certainement à réduire les... tensions.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 89
-@199  = ~Notre chance de survie est bien mince, et cela ne ferait qu'empirer les choses si notre chef décidait de laisser tomber ses armes et ses atours au beau milieu de la bataille... De plus, si <CHARNAME> a un charmant visage, je doute sérieusement que se révéler d'une telle manière aurait un effet aveuglant sur nos adversaires, comme le sort qu'une dryade jetterait sur ses ennemis...~
+@199  = ~Notre chance de survie est bien mince, et cela ne ferait qu'empirer les choses si notre chef décidait de laisser tomber ses armes et ses atours au beau milieu de la bataille... De plus, si <CHARNAME> a un charmant visage, je doute sérieusement que se révéler d'une telle manière ait un effet aveuglant sur nos adversaires, comme le sort qu'une dryade jetterait sur ses ennemis...~
 /* Theodon ? Non utilisé */
-@200  = ~Oh, comme il a ri !~
+@200  = ~Oh ? Comme c'est drôle.~
 /* Kirian - groupe des aquafondais */
 // Interpelle le PJ, donc accord possible selon le sexe du PJ
 // Shar-Teel - Kirian (@923)
@@ -566,16 +566,16 @@
 @204  = ~Aviez-vous besoin de provoquer cette femme ? Ces meurtres auraient pu être évités, <CHARNAME>, si nous avions pour chef un homme avisé.~
         ~Aviez-vous besoin de provoquer cette femme ? Ces meurtres auraient pu être évités, <CHARNAME>, si nous avions pour chef une femme avisée.~
 // Kirian
-@205  = ~Montrons leur de quoi on est capables !~
+@205  = ~Montrons-leur de quoi on est capables !~
 /* Davaëorn, qui se présente mais ne s'intéresse pas aux noms de ses visiteurs car ils vont mourir */
 // Yeslick - Davaëorn
 // BG1 NPC : texte identique dans le fichier x#yeint.tra au numéro 1
-@206  = ~Tu connais au moins le nom d'un d'entre nous, mage - Yeslick Orothiar, moi-même, et ça m'rend malade de savoir que tu vas partager la même tombe que les miens. Prépare-toi pour les Enfers, Davaëorn !~
+@206  = ~Tu connais au moins le nom d'un d'entre nous, mage - Yeslick Orothiar, moi-même, et ça m'rend malade de savoir que tu vas partager la même tombe que les miens. Prépare-toi pour les Enfers, Davaeorn !~
 // BG1 NPC : texte identique dans le fichier x#yeint.tra au numéro 2
 @207  = ~Voyons, voyons... le fou s'est évadé, n'est-ce pas ? Voyons voir de qui la tombe va se remplir !~
 // Dynahéir
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 63
-@208  = ~Ne prend pas ses paroles à la légère, <CHARNAME>. Je sens un homme de grand pouvoir ; nous avons affaire à un magicien puissant.~
+@208  = ~Ne prends pas ses paroles à la légère, <CHARNAME>. Je sens un homme de grand pouvoir ; nous avons affaire à un magicien puissant.~
 // Imoen, si Imoen n'est pas devenue mage
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 81
 @209  = ~Par la fortune de Tymora, mais vous êtes un sale type ! Quand je pense que je voulais devenir mage ! Brr...~
@@ -647,7 +647,7 @@ L'aventurier se réjouit.~
 /* Nivek (les docks) */
 // Coran (pas en romance) - Nivek (@926)
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 111
-@231  = ~Un basilic ? Nous avons un problème, chers compagnons d'aventure ! Peut-être devrais-tu ouvrir la marche, impavide <CHARNAME>. Ton coeur est déjà de pierre, après tout. C'est pourquoi, pour autant que je sache, le regard de la créature ne te blessera pas, comme tous les macchabées ambulants.~
+@231  = ~Un basilic ? Nous avons un problème, chers compagnons d'aventure ! Peut-être devrais-tu ouvrir la marche, impavide <CHARNAME>. Ton coeur est déjà de pierre, après tout. Qui sait, le regard de la créature ne te blessera peut-être pas, comme tous les macchabées ambulants.~
 // Faldorn - Nivek
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 55
 @232  = ~Nous devrions libérer cette bête et pas la massacrer ! Elle n'est pas venue dans cet endroit minable de son propre gré !~
@@ -663,12 +663,12 @@ L'aventurier se réjouit.~
 /* Berrun Tuemort, après avoir tué Mulahey */
 // Xan (identique à @244) - Berrun
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 33 (et 35)
-@237  = ~Permettez-moi de me présenter, Maire. Je l'aurais fait plus tôt, mais hélas, des kobolds m'ont empêché de rendre visite à votre village. Je suis Xan des Grismanteaux d'Evereska, et j'ai été envoyé par mon peuple pour enquêter sur la pénurie du fer.~
+@237  = ~Permettez-moi de me présenter, Maire. Je l'aurais fait plus tôt, mais hélas, des kobolds m'ont empêché de rendre visite à votre village. Je suis Xan des Grismanteaux d'Evereska, et j'ai été envoyé par mon peuple pour enquêter sur la pénurie de fer.~
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 34
-@238  = ~L'aide d'Evereska est la bienvenue, Xan. Merci d'avoir prêté main forte à <CHARNAME>, et de lui avoir permis de réouvrir la mine.~
+@238  = ~L'aide d'Evereska est la bienvenue, Xan. Merci d'avoir prêté main-forte à <CHARNAME>, et de lui avoir permis de rouvrir la mine.~
 // Jaheira  (identique à @245)
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 91 (et 93)
-@239  = ~Il n'est pas besoin de remerciements, Berrun. Vous aider était notre devoir, comme vous le savez bien. Malgré mes doutes tenaces, <CHARNAME> a fait du bon travail, bien meilleur que ce que j'attendais.~
+@239  = ~Il n'est pas besoin de remerciements, Berrun. Vous aider était notre devoir, comme vous le savez bien. Malgré mes doutes initiaux, <CHARNAME> a fait du bon travail, bien meilleur que ce que j'attendais.~
 // Berrun, après @245
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 92
 @240  = ~Ça c'est certain ! Malgré sa jeunesse, <CHARNAME> est un vrai héros pour Nashkel !~
@@ -696,8 +696,8 @@ L'aventurier se réjouit.~
 @247  = ~<CHARNAME>, ce Sarevok appartient à la descendance de Bhaal, et il est devenu fou. Nous devons l'arrêter à tout prix !~
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 48
-@248  = ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas poser la question... Ce solide champion a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'il saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
-        ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas poser la question... Cette solide championne a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'elle saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
+@248  = ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas posé la question... Ce solide champion a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'il saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
+        ~Madame, si vous connaissiez un peu mieux <CHARNAME>, vous n'auriez pas posé la question... Cette solide championne a fait son devoir de défier la mort. Ne doutez pas un seul instant qu'elle saisira cette occasion pour mettre fin à nos vies... Ah, je commence à avoir le sombre pressentiment que je vais prendre part à mon dernier combat funeste dans le but de me sacrifier, tout cela pour tuer un fou furieux.~
 // Imoen
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 14
 @249  = ~Quoi qu'tu décides, chuis avec toi, <CHARNAME> !~
@@ -709,7 +709,7 @@ L'aventurier se réjouit.~
 @251  = ~Oui, nous avons le temps de T'aider, mon bon fermier. N'es-Tu pas d'accord, <CHARNAME> ?~
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 68
-@252  = ~*Edwin soupire* Qu'est ce que je disais à propos des fermiers qui suivraient les pêcheurs ? Je retiens mon souffle, Ô glorieux chef... Serait-ce des tondeurs de mouton, assis dans l'attente de mendier notre assistance derrière ce tas de fumier ?~
+@252  = ~*Edwin soupire* Qu'est-ce que je disais à propos des fermiers qui suivraient les pêcheurs ? Je retiens mon souffle, Ô glorieux chef... Serait-ce des tondeurs de mouton, assis dans l'attente de mendier notre assistance derrière ce tas de fumier ?~
 /* Non utilisé */
 @253  = ~S'il vous plaît ?~
 /* Fermier Brun, quand il accepte l'argent qu'on lui donne */
@@ -753,19 +753,19 @@ L'aventurier se réjouit.~
 @266  = ~Comment osez-vous ! Mon père...~
 // Si Skie n'est pas au courant de la mort de son père : Angelo - Skie - Angelo - Skie - Angelo - Skie - Angelo - Skie
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 19
-@267  = ~Votre père ne fera rien du tout, Demoiselle Ecudargent. A moins que vous ne trouviez un moyen de le réveiller d'entre les morts.~
+@267  = ~Votre père ne fera rien du tout, Demoiselle Écudargent. À moins que vous ne trouviez un moyen de le réveiller d'entre les morts.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 20
 @268  = ~Quoi ?!? Que... qu'est-ce que vous dites ?~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 21
 @269  = ~J'ai bien peur que votre père n'ait malheureusement été patiemment découpé en petits morceaux par une ou plusieurs personnes d'identités inconnues.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 22
-@270  = ~Père ?... Attendez, vous... vous *mentez* ! Les gardes du corps de père font partie des meilleurs de toute la garde de la ville... jamais ils ne le laisseraient de vulgaires petites frappes s'approcher de lui.~
+@270  = ~Père ?... Attendez, vous... vous *mentez* ! Les gardes du corps de père font partie des meilleurs de toute la garde de la ville... jamais ils ne laisseraient de vulgaires petites frappes s'approcher de lui.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 23
 @271  = ~Ah... Mais, en raison de l'état d'urgence actuel, on a dû les réassigner à des tâches plus importantes.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 24
 @272  = ~Quoi ?! Plus IMPORTANTES !?! Qu'est-ce qui peut être plus important pour la ville que la vie d'un Grand-Duc ?~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 25
-@273  = ~Les vies, ainsi que les propriétés de tous les citoyens doivent être sécurisées pour le maintien de l'ordre public. Oh, et nous devons aussi nous protéger de l'invasion venue d'Amn. A moins que vous n'en ayez pas entendu parler, au cours de votre grande expédition avec vos camarades hors-la-loi ?~
+@273  = ~Les vies, ainsi que les propriétés de tous les citoyens doivent être sécurisées pour le maintien de l'ordre public. Oh, et nous devons aussi nous protéger de l'invasion venue d'Amn. À moins que vous n'en ayez pas entendu parler, au cours de votre grande expédition avec vos camarades hors-la-loi ?~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 26
 @274  = ~VOUS avez inventé de toutes pièces cette menace amnienne ! Menteur !~
 // Si Eldoth est là
@@ -818,7 +818,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 20
 @291  = ~C'est immonde... abominable ! Par le feu et les éclairs ! <CHARNAME>, je T'exhorte à... tuer ce gnome !~
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 21
-@292  = ~Me tuer ? Ah... D'autres on déjà essayé, oui, oui... Et devine où il sont, poupée ! Six pieds sous terre.~
+@292  = ~Me tuer ? Ah... D'autres ont déjà essayé, oui, oui... Et devine où ils sont, poupée ! Six pieds sous terre.~
 // Jaheira - Neb
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 32
 @293  = ~Oui, suivons-le, <CHARNAME>... mais ne le perds pas de vue. Dès que nous serons dehors, je n'hésiterai pas à le tuer et, j'en suis sûre, tu m'y aideras.~
@@ -836,7 +836,7 @@ L'aventurier se réjouit.~
 @297  = ~On n'enferme pas la femme qui est l'amour de sa vie contre sa volonté. Laissez-la partir, mage, ou vous regretterez de l'avoir jamais aimée.~
 // Jaheira
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 43
-@298  = ~Je suis venue ici en m'attendant à découvrir un vil mage prêt à disséquer cette belle créature pour en tirer des composants de sorts. A la place, nous trouvons cet homme pathétique, l'esprit embrumé par la passion et le désir. Et bien qu'il mérite d'être puni pour avoir gardé cette nymphe prisonnière contre sa volonté, j'imagine qu'on peut le comprendre... nous ferions bien de résoudre ceci sans bain de sang, <CHARNAME>.~
+@298  = ~Je suis venue ici en m'attendant à découvrir un vil mage prêt à disséquer cette belle créature pour en tirer des composants de sorts. À la place, nous trouvons cet homme pathétique, l'esprit embrumé par la passion et le désir. Et bien qu'il mérite d'être puni pour avoir gardé cette nymphe prisonnière contre sa volonté, j'imagine qu'on peut le comprendre... nous ferions bien de résoudre ceci sans bain de sang, <CHARNAME>.~
 /* Non utilisé */
 @299  = ~Encore un peu de temps...~
 /* Mineur, au moment où on revient avec la clé et qui demande si on a parlé à Rill pour l'évasion */
@@ -849,7 +849,7 @@ L'aventurier se réjouit.~
 /* Tenya, qui demande si ces gens armés qui viennent chez elle sont envoyés par les pêcheurs */
 // Jaheira
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 51
-@302  = ~Sans doute, mais ils ont oublié de nous informer que notre adversaire serait une jeune enfant. Soyez en sûre, nous allons retourner échanger quelques mots avec eux... et peut-être plus que de simples mots.~
+@302  = ~Sans doute, mais ils ont oublié de nous informer que notre adversaire serait une jeune enfant. Soyez-en sûre, nous allons retourner échanger quelques mots avec eux... et peut-être plus que de simples mots.~
 // Kivan
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 49
 @303  = ~C'est méprisable ! Ces pêcheurs nous ont envoyés assassiner une enfant ! <CHARNAME>, je ne me joindrai pas à ça !~
@@ -879,7 +879,7 @@ L'aventurier se réjouit.~
 @312  = ~Peut-être, madame, mais qui a jamais vu une cité drow et vécu assez longtemps pour le raconter ? Personne que je connaisse, pour sûr ! Et par-dessus le marché il fait chaud à l'intérieur, donc pas besoin de vous envelopper comme ça dans votre cape par crainte du froid.~
 // Dynahéir - Be'land
 // BG1 NPC : texte proche dans le fichier x#dyint.tra au numéro 28
-@313 = ~J'ai entendu dire que de nombreux objets exposés ici ne furent fabriqués que par des mains habiles et des esprits vifs, sans recourir à la magie. Arrivera-t-il un jour où la magie et la technologie seront en compétition pour satisfaire le besoins qu'ont les créatures pensantes de faire des choses inédites et merveilleuses ?~
+@313 = ~J'ai entendu dire que de nombreux objets exposés ici ne furent fabriqués que par des mains habiles et des esprits vifs, sans recourir à la magie. Arrivera-t-il un jour où la magie et la technologie seront en compétition pour satisfaire le besoin qu'ont les créatures pensantes de faire des choses inédites et merveilleuses ?~
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 29
 @314  = ~Bien dit, madame, bien dit.~
 // Be'land (texte non utilisé)
@@ -887,17 +887,17 @@ L'aventurier se réjouit.~
 /* Narcillius Harwilliger Néen, une fois qu'il a décrit son expérience (lâcher des limons) */
 // Dynahéir
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 30
-@316  = ~A chaque fois que je suis témoin des excentricités d'un magicien qui pratique l'Art dans des pays qui ne régissent pas leurs talents, je me demande si l'oisiveté mène inévitablement les grands esprits à la folie.~
+@316  = ~À chaque fois que je suis témoin des excentricités d'un magicien qui pratique l'Art dans des pays qui n'exigent rien de leurs talents, je me demande si l'oisiveté mène inévitablement les grands esprits à la folie.~
 // Imoen, si Imoen n'est pas mage
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 159
 @317  = ~Euh, ouais... Tous les mages sont-ils comme ça ? Si j'en étais une, je ne travaillerais pas avec des trucs gluants ou de la boue... Brrr... C'est trop, euh... gluant. Je créerais des golems de sucre ou quelque chose comme ça, si je tenais à être bizarre.~
 /* Arkushule */
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 26
-@318  = ~(Si j'étais devenu assez désespéré sur ces terres sombres pour m'abaisser à parler de magie avec des sorcières de buissons, j'aurais pu constater que lancer un sort n'a rien à voir avec la cuisson d'un râgout. Les composants magiques ne souillent pas la main qui les a touchés.)~
+@318  = ~(Si j'étais devenu assez désespéré sur ces terres sombres pour m'abaisser à parler de magie avec des sorcières de buissons, j'aurais pu constater que lancer un sort n'a rien à voir avec la cuisson d'un ragoût. Les composants magiques ne souillent pas la main qui les a touchés.)~
 // Edwin, si PJ mage, sorcier ou barde
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 27
-@319  = ~*jette un regard lourd de sens en direction de <CHARNAME>* (A moins, bien sûr, que ce soit une main très inexpérimentée...)~
+@319  = ~*jette un regard lourd de sens en direction de <CHARNAME>* (À moins, bien sûr, que ce soit une main très inexpérimentée...)~
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 23
 @320  = ~<CHARNAME>, pourquoi devons-nous nous arrêter pour parler à chaque tas d'ordures que nous croisons dans la rue ?~
@@ -912,12 +912,12 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 40
 @323  = ~Attention, <CHARNAME>. S'il s'agit bien des Mages Rouges de Thay, ce dont je n'ai aucune raison de douter, alors nous avons affaire à des gens aussi retors que puissants.~
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 41
-@324  = ~Cet accent... il me semble bien familier. Vous devez être cette sorcière Rashémi que nos amis ont aperçu dans la région. Je constate qu'Edwin n'a pas dûment rempli sa mission. Lasala, je pense que nous ne devrions pas lui dire que nous avons fait son travail à sa place. Plus loin il est, moins il pourra nous gêner.~
+@324  = ~Cet accent... il me semble bien familier. Vous devez être cette sorcière Rashémi que nos amis ont aperçue dans la région. Je constate qu'Edwin n'a pas dûment rempli sa mission. Lasala, je pense que nous ne devrions pas lui dire que nous avons fait son travail à sa place. Plus il sera loin, moins il pourra nous gêner.~
 /* Non utilisé */
 @325  = ~C'est pas contre vous, bien sûr, mais nous devons vous tuer à présent.~
 /* Brevlik, qui demande à voler le télescope de la Maison de Merveilles */
 // BG1 NPC : texte proche dans le fichier x#jaint.tra au numéro 106
-@326  = ~Ah oui. Nous avons accompli tout ce périple jusqu'à la Porte de Baldur de manière à voler un... un téle-quoi-déjà pour ce petit homme ridicule. Ou me tromperais-je, <CHARNAME> ?~
+@326  = ~Ah oui. Nous avons accompli tout ce périple jusqu'à la Porte de Baldur de manière à voler un... un télé-quoi-déjà pour ce petit homme ridicule. Ou me tromperais-je, <CHARNAME> ?~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 107, probablement inutile de traduire ici !
 @327 = ~"Télescope", madame... c'est un mot tellement compliqué... si vous voyez ce que je veux dire... je suis désolé, si je vous ai blessée...~
 // Dynahéir
@@ -937,7 +937,7 @@ L'aventurier se réjouit.~
 /* Revenant, quand on a la dague et qu'il réclame qu'on la lui donne */
 // Dynahéir
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 51
-@333  = ~Prend cette créature en miséricorde, <CHARNAME>. Tout ce qu'elle veut, c'est partir en paix. Donne-lui la dague.~
+@333  = ~Prends cette créature en pitié, <CHARNAME>. Tout ce qu'elle veut, c'est partir en paix. Donne-lui la dague.~
 // Xzar - Revenant - Xzar - Xzar - Revenant - Xzar
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 141
 @334  = ~Stupide créature. Vous êtes déjà un mort-vivant, et vous avez l'éternité devant vous. Pourquoi une telle impatience ?~
@@ -948,13 +948,13 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 144
 @337  = ~Fascinant...~
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 145
-@338  = ~Paaasss de discussion... RENDEZ-LA MOIIII ! Ou je vais me prendre de fascination pour votre gorge à mon tour.~
+@338  = ~Paaasss de discussion... RENDEZ-LA-MOIIII ! Ou je vais me prendre de fascination pour votre gorge à mon tour.~
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 146
 @339  = ~Oh ! Pourtant, si nous rendions la dague, elle disparaîtrait probablement, juste pour me contrarier... Un examen approfondi semble hors de question... Qu'en pensez-vous, <CHARNAME> ?~
 /* Galiléus, lecteur d'étoiles, qui réclame du temps pour analyser les données obtenues */
 // Quayle - Quayle - Galiléus
 // BG1 NPC : texte identique dans le fichier x#quint.tra au numéro 28
-@340  = ~Oh, je suis tout-à-fait d'accord avec vous ! Il y a tant de rustres qui réclament des réponses immédiates à leurs questions, alors que les vrais érudits comme moi savent qu'il faut de la patience, car il faut examiner individuellement tous les paramètres variables...~
+@340  = ~Oh, je suis tout à fait d'accord avec vous ! Il y a tant de rustres qui réclament des réponses immédiates à leurs questions, alors que les vrais érudits comme moi savent qu'il faut de la patience, car il faut examiner individuellement tous les paramètres variables...~
 // BG1 NPC : texte proche dans le fichier x#quint.tra au numéro 29
 @341  = ~Bon, euh, c'est l'excuse que je donne, en tout cas.~
 // BG1 NPC : texte proche dans le fichier x#quint.tra au numéro 30 (premier mot seulement, le reste a disparu au montage)
@@ -967,7 +967,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 55
 @345  = ~Alors Tes yeux ont un pouvoir exceptionnel.~
 // BG1 NPC : texte proche dans le fichier x#dyint.tra au numéro 56 (seules les 2 premières phrases dans ict3)
-@346  = ~On peut dire cela, madame. Et bien, cela a été un plaisir de parler à quelqu'un qui apprécie mon art.~
+@346  = ~On peut dire cela, madame. Eh bien, cela a été un plaisir de parler à quelqu'un qui apprécie mon art.~
 /* Galiléus ? Non utilisé */
 // BG1 NPC : texte proche dans le fichier x#quint.tra au numéro 30 (Sauf "Quite." au début, disparu dans ict3)
 // BG1 NPC : texte proche dans le fichier x#dyint.tra au numéro 56 (moins les 2 premières phrase dans ict3)
@@ -994,18 +994,18 @@ L'aventurier se réjouit.~
 @354  = ~Ce jeune écuyer me semble digne de confiance. En vérité, il me rappelle mon loyal Minsc. Il ferait un membre de valeur dans cette compagnie.~
 // Shar-Teel - Ajantis
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 36
-@355  = ~A moins que tu ne commences une collection de figurines de chevaliers ou que tu n'aies besoin d'une ancre pour un bateau, <CHARNAME>, jamais je n'accepterai de 'joindre mes forces' à ce bâtard pompeux.~
+@355  = ~À moins que tu ne commences une collection de figurines de chevaliers ou que tu n'aies besoin d'une ancre pour un bateau, <CHARNAME>, jamais je n'accepterai de 'joindre mes forces' à ce bâtard pompeux.~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 35
 @356  = ~Gente Dame, vos paroles cruelles me blessent.~
 /* */
-@357  = ~What say you, yea or nay ?~
+@357  = ~Qu'en dites-vous, oui ou non ?~
 /* Cuisinière de Bois-Manteau, qui vante ses charmes envers un homme */
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 16
 @358  = ~Souillon, les concubines vieillissantes de Thay couvrent les lampes d'abat-jour rose pour créer un effet de lumière plus favorable à leurs charmes défaillants. Je vois... ou plutôt, je suppose, que vous avez agi de même, en choisissant de vivre dans une mine. Il est probable que dans les ténèbres même vous pourriez passer pour une femme, pour un babouin local.~
 // Quayle
 // BG1 NPC : texte identique dans le fichier x#quint.tra au numéro 25
-@359  = ~Tout-à-fait mon type de femme !~
+@359  = ~Tout à fait mon type de femme !~
 /* Berrun, recrutant au désespoir de ne pas voir arriver les aventuriers attendus (Jaheira, Khalid, Xzar ou Montaron) */
 // Kivan
 // BG1 NPC : texte identique dans le fichier x#kint.tra au numéro 17
@@ -1024,7 +1024,7 @@ L'aventurier se réjouit.~
 @364  = ~Nous... nous n'allons quand même pas nous balader avec des cadavres, n'est-ce pas ? Cette seule pensée me rend malade !~
 // Edwin
 // BG1 NPC : texte proche dans le fichier x#edint.tra au numéro 25, probabilité 97.4
-@365  = ~Peu importe à quel point je suis flatté que l'on me confie cette tâche bénite, je sens que le bénéfice que nous pourrions, peut-être, obtenir en l'accomplissant ne vaut pas que je risque de tâcher ma robe d'immondices.~
+@365  = ~Peu importe à quel point je suis flatté que l'on me confie cette tâche bénie, je sens que le bénéfice que nous pourrions, peut-être, obtenir en l'accomplissant ne vaut pas que je risque de tacher ma robe d'immondices.~
 // Jaheira
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 45
 @366  = ~Devenir le pion d'un nécromant pervers qui a l'intention claire d'interférer avec le cycle délicat de la nature ? Pas moi, <CHARNAME>, je refuse d'arpenter des égouts répugnants à la recherche de cadavres pourris. Toutes les fibres de mon corps hurlent de protestation à une telle suggestion.~
@@ -1037,7 +1037,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 21
 @369  = ~J'vous d'mande pardon, dame sombre, si vous trouvez ça moralement répré...~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 22
-@370  = ~Moralement répréhensible, allais-tu dire ? Par les Neuf Enfers, non. Je méprise simplement davantage la puanteur de vos égoûts que celle de vos cités surfacines.~
+@370  = ~Moralement répréhensible, allais-tu dire ? Par les Neuf Enfers, non. Je méprise simplement davantage la puanteur de vos égouts que celle de vos cités surfacines.~
 // Faldorn - Faldorn
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 88
 @371  = ~Vos activités sont un affront à la nature, nécromancien ! D'un autre côté, la puanteur des égouts est telle qu'il doit forcément y avoir des corps en décomposition là-dedans. Je me fiche que cela empoisonne les réserves d'eau de la ville, mais je m'inquiète de ce que cela puisse polluer la Mer des Épées elle-même.~
@@ -1046,7 +1046,7 @@ L'aventurier se réjouit.~
 /* Bassilus, qui demande à Frère Thurm (un squelette) de raconter une histoire */
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 28
-@373  = ~Brillant. La prestation de Frère Thurm était justement ce que j'avais attendu avec impatience toute la journée... <CHARNAME>, je te presse d'exécuter le tout, avant que nous ayons la chance de profiter du son produit par les cordes vocales du mort vivant.~
+@373  = ~Brillant. La prestation de Frère Thurm était justement ce que j'avais attendu avec impatience toute la journée... <CHARNAME>, je te presse d'exécuter le tout, avant que nous n'ayons l'occasion de profiter du son produit par les cordes vocales du mort-vivant.~
 // Garrick
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 41
 @374  = ~Quelle sorcellerie est-ce là ? Il... Il leur parle ! Cet homme est fou !~
@@ -1067,8 +1067,8 @@ L'aventurier se réjouit.~
 @379  = ~Tout le plaisir est pour vous, j'en suis presque sûr.~
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 49
-@380  = ~Vous portez-vous bien, ô Être Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps que l'avant-veille, j'ai dû demander à <CHARNAME> s'il pouvait me rappeler comment épeler le mot.~
-        ~Vous portez-vous bien, ô Être Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps que l'avant-veille, j'ai dû demander à <CHARNAME> si elle pouvait me rappeler comment épeler le mot.~
+@380  = ~Vous portez-vous bien, ô Être Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps qu'hier soir, j'ai dû demander à <CHARNAME> s'il pouvait me rappeler comment épeler le mot.~
+        ~Vous portez-vous bien, ô Être Choisi ? Comme à l'habitude, nos vies ne tiennent qu'à un fil qui serait tiré de la cape que Shaundakul aurait jetée parce qu'elle commençait à se déliter. Nous n'avons pas ressenti d'espoir depuis si longtemps qu'hier soir, j'ai dû demander à <CHARNAME> si elle pouvait me rappeler comment épeler le mot.~
 /* Elminster (Porte de Baldur) */
 // Elminster interpelle le PJ, donc accord possible selon le sexe du PJ
 // Garrick
@@ -1084,7 +1084,7 @@ L'aventurier se réjouit.~
 /* Shar-Teel, si on a accepté le principe du défi et qu'elle en définit les règles */
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 63
-@384  = ~Que c'est charmant. Nous avons le choix entre être découpés en lambeaux par cette... mégère, et supporter sa présence. Vraiment, la folie court tout le long de la Côte des Epées et infecte tous ses peuples. Et je suis presque certain que certains des suicidaires qui m'accompagnent sont prêts à se jeter sur cette opportunité...~
+@384  = ~Que c'est charmant. Nous avons le choix entre être découpés en lambeaux par cette... mégère, et supporter sa présence. Vraiment, la folie court tout le long de la Côte des Épées et infecte tous ses peuples. Et je suis presque certain que certains des suicidaires qui m'accompagnent sont prêts à se jeter sur cette opportunité...~
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 49
 @385  = ~Si tu me le demandes, <CHARNAME>, nous ferions mieux d'éviter le combat et de lui donner ses vingt pièces d'or. Ce serait une faible somme pour avoir le privilège de ne pas avoir à traîner partout cette vache stupide et son épée rouillée.~
@@ -1097,13 +1097,13 @@ L'aventurier se réjouit.~
 @387  = ~Dire que c'est une larve serait faire insulte aux larves ! <CHARNAME>, le seul moyen pour que j'accepte cet Eldoth dans les parages serait de me laisser le battre jusqu'au sang lorsque je m'ennuierai !~
 // Garrick - Eldoth - Garrick - Eldoth
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 72
-@388  = ~Extorsion ? Chantage ? Il ne me semble pas qu'il s'agit là d'objectifs très nobles.~
+@388  = ~Extorsion ? Chantage ? Il ne me semble pas qu'il s'agisse là d'objectifs très nobles.~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 73
 @389  = ~Hum, tu as dit quelque chose, gamin ?~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 74
 @390  = ~Gamin ?!? Je...~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 75
-@391  = ~Je vous assure qu'il me coûte de faire ceci, mais je dois penser à ma bien aimée, Skie ! C'est le seul moyen qu'elle a de pouvoir échapper à la tyrannie qu'est sa vie. Alors, qu'en dites-vous ?~
+@391  = ~Je vous assure qu'il me coûte de faire ceci, mais je dois penser à ma bien-aimée, Skie ! C'est le seul moyen qu'elle a de pouvoir échapper à la tyrannie qu'est sa vie. Alors, qu'en dites-vous ?~
 /* Non utilisé */
 @392  = ~Réfléchissez-y un moment, si vous le désirez.~
 /* Fergus, quand il dit qu'il veut un anneau de peau d'ange pour sa dame */
@@ -1149,7 +1149,7 @@ L'aventurier se réjouit.~
 @406  = ~Meilum ? Je ne, ah, crois pas. Et vous, <CHARNAME> ?~
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 55
-@407  = ~Même si j'avais entendu ton nom, il m'aurait échappé, Epéiste de l'Oisillon... Il n'a pas une sonorité suffisante. Comparé à, disons, Edwin Odesseiron... (Voilà, une véritable splendeur !)~
+@407  = ~Même si j'avais entendu ton nom, il m'aurait échappé, épéiste en herbe... Il n'a pas une sonorité suffisante. Comparé à, disons, Edwin Odesseiron... (Voilà, une véritable splendeur !)~
 // Viconia - Meilum
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 86
 @408  = ~Un vrai bébé qui sort à peine de ses langes.~
@@ -1160,7 +1160,7 @@ L'aventurier se réjouit.~
 /* Mulahey, quand on lui dit qu'on n'est pas envoyé par Tazok, et qu'il appelle la garde */
 // Edwin
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 58
-@411  = ~Tu as des sous-fifres ? Et moi qui t'ai pris pour l'un d'entre eux...~
+@411  = ~Tu as des sous-fifres ? Et moi qui t'avais pris pour l'un d'entre eux...~
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 14
 @412  = ~Ah, par la Seldarine...~
@@ -1173,12 +1173,12 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 167
 @415  = ~Ouais ! C'est ça, allez-vous-en, charlatan !~
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 168
-@416  = ~Je peux dire des choses comme ça, les rattacher à des âneries à propos de l'alignement des étoiles et à d'autres choses encore, vous savez, et les rendre juste assez vagues pour couvrir à peu-près n'importe quelle situation.~
+@416  = ~Je peux dire des choses comme ça, les rattacher à des âneries à propos de l'alignement des étoiles et à d'autres choses encore, vous savez, et les rendre juste assez vagues pour couvrir à peu près n'importe quelle situation.~
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 169
 @417  = ~Attendez une minute... hum...~
 // Edwin - Pallonia
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 60
-@418  = ~La plus vieille ruse de l'incompétent est de couvrir son impuissance par le spectable d'un outrage vertueux. Plus commun chez les paladins, cependant, que parmi les étudiants des arcanes.~
+@418  = ~La plus vieille ruse de l'incompétent est de couvrir son impuissance par le spectacle d'un outrage vertueux. Plus commun chez les paladins, cependant, que parmi les étudiants des arcanes.~
 @419  = ~Fichez le camp !~
 /* Pallonia (dit que la Côte des Épées n'est pas le centre de l'univers) */
 // Aborde le PJ, donc accord possible au sexe du PJ
@@ -1187,9 +1187,9 @@ L'aventurier se réjouit.~
 @420  = ~Je dois en convenir car je viens de la glorieuse Thay, qui n'est qu'à quelques années de prouver au reste de Féérune que c'est vraiment le centre de l'univers.~
 // Safana
 // BG1 NPC : texte identique dans le fichier x#saint.tra au numéro 6
-@421  = ~Allons, bien sûr que la Côte des Epées est le centre de l'univers. Du moins en ce moment - parce que c'est là où je me trouve. Tu vois chérie, j'ai rencontré autrefois un philosophe vraiment sémillant, qui a tenté de me séduire en m'enseignant diverses choses. La plupart étaient stupides, comme abandonner les richesses matérielles pour... je ne sais quoi ; toutefois l'une d'entre elles m'a été utile. Il m'a appris que la seule partie du monde qui existe est celle qui tourne autour de nous. Je le savais depuis toujours, mais il est agréable de voir que les sages se rangent enfin à mon opinion...~
+@421  = ~Allons, bien sûr que la Côte des Épées est le centre de l'univers. Du moins en ce moment - parce que c'est là où je me trouve. Tu vois chérie, j'ai rencontré autrefois un philosophe vraiment sémillant, qui a tenté de me séduire en m'enseignant diverses choses. La plupart étaient stupides, comme abandonner les richesses matérielles pour... je ne sais quoi ; toutefois l'une d'entre elles m'a été utile. Il m'a appris que la seule partie du monde qui existe est celle qui tourne autour de nous. Je le savais depuis toujours, mais il est agréable de voir que les sages se rangent enfin à mon opinion...~
 /* Non utilisé */
-@422  = ~En effet, il y a bien ceux qui n'ont même pas entendu parler de la Côte des Epées.~
+@422  = ~En effet, il y a bien ceux qui n'ont même pas entendu parler de la Côte des Épées.~
 /* Safana, qui dit chercher des hommes héroïques et propose une part du trésor et aussi autre chose */
 // Garrick
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 161
@@ -1209,10 +1209,10 @@ L'aventurier se réjouit.~
 /* Voltine */
 // Faldorn
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 43
-@428  = ~Un citadin qui parle mal d'un serviteur de la nature ? A mort ! Attends, pourquoi es-tu ici dans cette ville, druidesse ? Serais-tu de ces druides pervertis qui nous enseignent que les villes... Oh, aucune importance pour l'instant. Il faut d'abord tuer ce mage !~
+@428  = ~Un citadin qui parle mal d'un serviteur de la nature ? À mort ! Attends, pourquoi es-tu ici dans cette ville, druidesse ? Serais-tu de ces druides pervertis qui nous enseignent que les villes... Oh, aucune importance pour l'instant. Il faut d'abord tuer ce mage !~
 // Jaheira - Voltine
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 8
-@429  = ~Au nom de mon groupe, je m'excuse pour cette intrusion. Je jure sur mon voeu de druide que l'intrusion dans la vie privée d'autrui n'est pas une habitude pour moi, ni pour mes compagnons. Peut-être, pour apaiser cette incompréhension, pourrions-nous nous charger de votre Gervisse ?~
+@429  = ~Au nom de mon groupe, je m'excuse pour cette intrusion. Je jure sur mon voeu de druide que l'intrusion dans la vie privée d'autrui n'est pas une habitude pour moi, ni pour mes compagnons. Peut-être, pour dissiper ce malentendu, pourrions-nous nous charger de votre Gervisse ?~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 9
 @430  = ~Hmm, un autre druide, ici, dans la ville. Comme c'est... étrange. Je suppose que vous pourriez essayer de lui parler, je ne vois pas comment les choses pourraient être pires. J'ai essayé de le faire partir, mais en retour, il colporte des rumeurs dégoûtantes à mon sujet. Si vous en débarrassez le quartier, je serai reconnaissante.~
 /* Melicamp, quand il appelle à l'aide */
@@ -1225,7 +1225,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 82
 @433  = ~Cot-cot-cot-tuez-le-loup ! Cot-cot-idiote !~
 /* Non utilisé */
-@434  = ~A L'AIIIIIIDE !~
+@434  = ~À L'AIIIIIIDE !~
 /* Thalantyr (après restauration Mélicamp) */
 // Garrick - Thalantyr - Garrick
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 183
@@ -1240,7 +1240,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 84
 @439  = ~Et c'est une bonne chose...~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 85
-@440  = ~Quoi ?! Comment oses-tu ?! cette noble bête en valait dix comme toi ! Peut-être puis-je rétablir l'équilibre en te faisant subir le même sort que le loup !~
+@440  = ~Quoi ?! Comment oses-tu ?! Cette noble bête en valait dix comme toi ! Peut-être puis-je rétablir l'équilibre en te faisant subir le même sort que le loup !~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 86
 @441  = ~Euh... bien sûr. Je... je m'excuse, druidesse.~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 87
@@ -1277,7 +1277,7 @@ L'aventurier se réjouit.~
 @452  = ~Le travail d'un héros ne prend jamais fin.~
 // Viconia - Achen (@941)
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 1
-@453  = ~Un autre idiot libéré. Oh, <CHARNAME>, tu as vraiment l'étoffe des héros.~
+@453  = ~Un autre idiot libéré. Oh, <CHARNAME>, vous avez vraiment l'étoffe des héros.~
 /* Soldat Amnien de Nashkel, évocant la magie noire pour expliquer le comportement de Brage */
 // Garrick
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 39
@@ -1296,7 +1296,7 @@ L'aventurier se réjouit.~
 /* Peter du Nord, qui dit s'intéresser aux arbres souterrains des grottes */
 // Garrick
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 52
-@458  = ~Je ne vois pas le bois de ces arbres souterrains...~
+@458  = ~Ces arbres souterrains me cachent la forêt...~
 // Viconia - Peter
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 45
 @459  = ~Des arbres souterrains ? Ah ! N'importe quel imbécile aurait pu trouver un meilleur mensonge que celui-là, iblith.~
@@ -1318,7 +1318,7 @@ L'aventurier se réjouit.~
 /* Edwin, requiert les services du groupe pour tuer Dynahéir */
 // Garrick (identique à @474)
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 70 (et 71)
-@466  = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayen... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
+@466  = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayien... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
 // Kivan
 // BG1 NPC : texte proche dans le fichier x#kiint.tra au numéro 80
 @467  = ~Vous voulez que nous tombions sur une femme comme une troupe de brigands et que nous la tuions ? Vous nous demandez là de commettre un acte maléfique, Edwin Odesseiron, et n'avez aucune preuve de la corruption de cette femme ou de ses offenses envers vous. <CHARNAME>, nous ferions bien de prévenir Dynahéir des complots de cet homme.~
@@ -1326,15 +1326,15 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 88
 @468  = ~Tu veux tuer la sorcière de Minsc ?!~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 89
-@469  = ~Ta sorcière ?! (De tous les groupes d'aventuriers de Féérune, j'ai réussi à demander à *ces* babouins en particulier.)~
+@469  = ~Ta sorcière ?! (De tous les groupes d'aventuriers de Féérune, il a fallu que je m'adresse à *ces* babouins en particulier.)~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 90
 @470  = ~Oui, MA sorcière ! Dégage, Mage Rouge visqueux, ou Bouh aura tes yeux !~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 91
-@471  = ~Visqueux ?! J'ai pris un bain ce matin ! (Ce qui est plus que je peux en dire de ce gorille.)~
+@471  = ~Visqueux ?! J'ai pris un bain ce matin ! (Ce qui est plus que je ne peux en dire de ce gorille.)~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 92
-@472  = ~Oui, visqueux ! A présent, file, avant que je ne lâche mon hamster sur toi !~
+@472  = ~Oui, visqueux ! À présent, file, avant que je ne lâche mon hamster sur toi !~
 // BG1 NPC : texte proche dans le fichier x#miint.tra au numéro 93
-@473  = ~Ce n'est pas à toi d'en décider, espèce de... de... singe boulimique ! (Oui, ça colle plus ou moins).~
+@473  = ~Ce n'est pas à toi d'en décider, espèce de... de... singe boulimique ! (Oui, ça colle plus ou moins.)~
 // Garrick (identique à @466)
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 70 (et 71)
 @474  = ~Ce grand et puissant magicien semble du type arrogant, en effet, et ces robes rouges indiquent qu'il s'agit d'un Thayien... Nous devrions être prudents lorsque nous traitons avec lui, <CHARNAME>.~
@@ -1357,7 +1357,7 @@ L'aventurier se réjouit.~
 @480  = ~<CHARNAME>, quel est le prix d'une vie innocente ? Je suggère que nous refusions l'offre de ce Gallor et en informions Charleston.~
 // Shar-Teel - Shar-Teel
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 52
-@481  = ~Neuf-cents pièces d'or, ça me semble bien pour un tel travail. Ne sois pas une fiotte, <CHARNAME>, accepte son offre !~
+@481  = ~Neuf cents pièces d'or, ça me semble bien pour un tel travail. Ne sois pas une fiotte, <CHARNAME>, accepte son offre !~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 53
 @482  = ~Ces terrassiers n'ont pas de vie, de toute façon. Qui irait s'extasier devant les détritus d'une ménagère depuis longtemps disparue ?~
 /* Gorpel Hind nous invite à boire à la taverne Le Heaume et la Cape */
@@ -1405,7 +1405,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 171
 @497  = ~Tu n'y crois pas vraiment, pas vrai, <CHARNAME> ?~
 // BG1 NPC : texte proche dans le fichier x#imint.tra au numéro 170 (et 168)
-@498  = ~Je peux dire des choses comme ça, les rattacher à des âneries à propos de l'alignement des étoiles et à d'autres choses encore, vous savez, et les rendre juste assez vagues pour couvrir à peu-près n'importe quelle situation.~
+@498  = ~Je peux dire des choses comme ça, les rattacher à des âneries à propos de l'alignement des étoiles et à d'autres choses encore, vous savez, et les rendre juste assez vagues pour couvrir à peu près n'importe quelle situation.~
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 169
 @499  = ~Attendez une minute... hum...~
 // Garrick
@@ -1427,7 +1427,7 @@ L'aventurier se réjouit.~
 /* Amarande, qui demande qui ose pénétrer là et prône l'agression active contre les gens */
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 10
-@506  = ~Tous les ordres voués à l'échec tôt ou tard, mais quelque chose me dit que votre perte viendra encore plus vite que la nôtre, si <CHARNAME> prend une telle décision.~
+@506  = ~Tous les ordres sont voués à l'échec tôt ou tard, mais quelque chose me dit que votre perte viendra encore plus vite que la nôtre, si <CHARNAME> prend une telle décision.~
 // Viconia - Amarande
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 6
 @507  = ~Oh, la ferme. J'ai rencontré des kobolds plus 'éclairés' que toi.~
@@ -1436,7 +1436,7 @@ L'aventurier se réjouit.~
 /* Mulahey, lorsqu'il est blessé et offre faussement de se rendre */
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 89
-@509  = ~La compassion est une faiblesse. Tue-le, <CHARNAME>.~
+@509  = ~La compassion est une faiblesse. Tuez-le, <CHARNAME>.~
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 15
 @510  = ~C'est un piège... crois-moi, ce démon nous leurre dans un piège retors...~
@@ -1464,7 +1464,7 @@ L'aventurier se réjouit.~
 @518  = ~Je ne crois PAS !~
 // Xan - Ogre
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 24
-@519  = ~Il y a une espèce de satisfaction à dire "je te l'avais dit !". Malheureusement, je ne vais pas en profiter longtemps : d'après ce que j'ai entendu, même les monstres de la surface ont de très mauvaises manières à table ; comment s'attendre à converser aimablement avec ceux des égoûts avant de se mettre à table ?~
+@519  = ~Il y a une espèce de satisfaction à dire "je te l'avais dit !". Malheureusement, je ne vais pas en profiter longtemps : d'après ce que j'ai entendu, même les monstres de la surface ont de très mauvaises manières à table ; comment s'attendre à converser aimablement avec ceux des égouts avant de se mettre à table ?~
 @520  = ~Tuez-les, mes bébés !~
 /* Brage, si on a répondu correctement à son énigme et qu'il est revenu à lui */
 // Viconia
@@ -1478,7 +1478,7 @@ L'aventurier se réjouit.~
 /* Minsc, demandant de l'aide pour délivrer Dynahéir et anticipant les chants des bardes à venir */
 // Xan - Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 27
-@524  = ~As-tu entendu parler de l'histoire du djinn libéré, <CHARNAME> ? Après mille ans dans sa lampe, le djinn jura de servir quiconque le libèrerait pendant trente-trois ans ; mais personne ne vint. Après dix mille ans, il jura d'exaucer les trois voeux que formulerait son sauveur. Et après cinquante mille ans, il jura de tuer celui qui déboucherait la bouteille.~
+@524  = ~As-tu entendu parler de l'histoire du djinn libéré, <CHARNAME> ? Après mille ans dans sa bouteille, le djinn jura de servir quiconque le libèrerait pendant trente-trois ans ; mais personne ne vint. Après dix mille ans, il jura d'exaucer les trois voeux que formulerait son sauveur. Et après cinquante mille ans, il jura de tuer celui qui déboucherait la bouteille.~
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 28
 @525  = ~Je te laisse deviner ce que son sauveur perplexe obtint comme récompense... et pourquoi cette situation m'a rappelé cette histoire.~
 // Kivan
@@ -1487,15 +1487,15 @@ L'aventurier se réjouit.~
 /* Daer'Ragh, mettant en garde de ne pas déranger à nouveau sa tombe */
 // Xan - Daer'Ragh (@950)
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 31
-@527  = ~<CHARNAME>, cela ressemble exactement à ces histoires où les aventuriers imprudents et incapables conjurent le Mal par pure bravade. Dans la plupart des cas, une compagnie de héros connus se trouve par hasard dans les parages, parvient à mater les démons déchaînés, et sauve les pitoyables scélérats. Puisque je n'ai absolument pas de chance, je n'ai aucune envie de m'en remettre à celle-ci, et de laisser une telle histoire se dérouler devant mes propres yeux. De toute façon, dans cette bourgade perdue, ce sont *nous* qui sommes les héros "connus". Même l'abruti le plus optimiste peut voir que nous ne sommes pas capables de combattre d'anciens démons, même les démons mineurs du coin. Partons.~
+@527  = ~<CHARNAME>, cela ressemble exactement à ces histoires où les aventuriers imprudents et incapables conjurent le Mal par pure bravade. Dans la plupart des cas, une compagnie de héros connus se trouve par hasard dans les parages, parvient à mater les démons déchaînés, et sauve les pitoyables scélérats. Puisque je n'ai absolument pas de chance, je n'ai aucune envie de m'en remettre à celle-ci, et de laisser une telle histoire se dérouler devant mes propres yeux. De toute façon, dans cette bourgade perdue, c'est *nous* qui sommes les héros "connus". Même l'abruti le plus optimiste peut voir que nous ne sommes pas capables de combattre d'anciens démons, même les démons mineurs du coin. Partons.~
 // Shar-Teel - Daer'Ragh
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 48
-@528  = ~Ca m'a l'air tentant... <CHARNAME>, je veux voir toute la rage dont ce petit magicien est capable ! Ainsi que le tuer pour m'avoir menacée, bien entendu.~
+@528  = ~Ça m'a l'air tentant... <CHARNAME>, je veux voir toute la rage dont ce petit magicien est capable ! Ainsi que le tuer pour m'avoir menacée, bien entendu.~
 @529  = ~Fichez le camp !~
 /* Chase */
 // Imoen
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 41
-@530  = ~Hé, vous savez quoi ? On vient juste de chasser <CHARNAME> de sa maison d'enfance, sans un sou, et des monstres ont tué son père. Si quelqu'un ici devait sauter de la falaise, ce serait plutôt <CHARNAME> ! Et est-ce que vous voyez qu'<PRO_HESHE> cherche à le faire ? Alors quel est votre problème ?~
+@530  = ~Hé, vous savez quoi ? On vient juste de chasser <CHARNAME>, là, de sa maison d'enfance, sans un sou, et des monstres ont tué son père. Si quelqu'un ici devait sauter de la falaise, ce serait plutôt <CHARNAME> ! Et est-ce que vous voyez qu'<PRO_HESHE> cherche à le faire ? Alors quel est votre problème ?~
 // Xan - Chase
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 51
 @531  = ~Curieux. Vous allez mettre fin à vos jours, parce que vous pensez que la vie est vaine et je pense que la vie est vaine parce qu'elle va se terminer...~
@@ -1506,7 +1506,7 @@ L'aventurier se réjouit.~
 @533  = ~Oh, qu'ils sont sensibles, ces mâles de Nashkel ! L'un est devenu marteau, et voilà qu'un autre chiale pour le premier ! J'espère bien que personne *ici* n'osera venir me dire que les hommes sont le sexe fort !~
 // Kivan - Bardolan
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 15
-@534  = ~<CHARNAME>, je refuse de croire qu'aucun homme doté de son bon sens pourrait assassiner les siens.~
+@534  = ~<CHARNAME>, je refuse de croire qu'aucun homme doté de son bon sens puisse assassiner les siens.~
 @535  = ~Ouais, on a assez de problèmes. Maudite soit la folie qui l'a emporté.~
 /* Gallor, si on a refusé sa proposition */
 // Imoen - Gallor (@931)
@@ -1524,20 +1524,20 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 34
 @540  = ~Le pont de Flammevin a été construit par les elfes, <CHARNAME>. C'était autrefois une cité commerçante, jusqu'à sa destruction il y a deux siècles. Deux puissants mages se sont affrontés en duel non loin de là, et ils avaient déchaîné une telle quantité d'énergie magique qu'ils avaient rasé les maisons et détourné pour toujours le cours du fleuve. J'aimerais beaucoup voir ce qu'il en demeure encore.~
 /* Non utilisé */
-@541  = ~La ballade en vaut la peine, par contre, je vous l'accorde.~
+@541  = ~La balade en vaut la peine, par contre, je vous l'accorde.~
 /* Abela, quand on insiste pour l'amener chez Ramazith */
 // Kivan - Abela - Kivan - Abela
 // BG1 NPC : texte proche dans le fichier x#kiint.tra au numéro 42
 @542  = ~C'est vrai, vous aviez un accord, mais la vie de cette femme vaut davantage que des mots. Seul un homme au coeur bien sombre pourrait vous reprocher de briser cet accord. Mais peut-être Ramazith peut-il se laisser persuader de vous libérer de votre parole.~
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 43
-@543  = ~Tant de cérémonies dans les cités des hommes... Ecoutez votre coeur, elfe ; ne vous dit-il pas de me libérer ?~
+@543  = ~Tant de cérémonies dans les cités des hommes... Écoutez votre coeur, elfe ; ne vous dit-il pas de me libérer ?~
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 44
 @544  = ~Si fait, mais il y a encore un espoir que <CHARNAME> reprenne ses esprits avant que le sang ne soit versé en votre nom.~
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 45
 @545  = ~Du sang... *elle frissonne* Le sang est affreux...~
 // Jaheira - Abela
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 42
-@546  = ~Je n'adhère pas à cette voie d'action. Tu livrerais une créature intelligente à l'esclavage, ou pire, pour quelques sous ? Je te suggère d'y repenser, avant que nous ne parlions à nouveau à Ramazith, car je ne resterai pas sans rien faire.~
+@546  = ~Je n'approuve pas cette façon d'agir. Tu livrerais une créature intelligente à l'esclavage, ou pire, pour quelques sous ? Je te suggère d'y repenser, avant que nous ne parlions à nouveau à Ramazith, car je ne resterai pas sans rien faire.~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 40
 @547  = ~*soupir*~
 /* Alatos, chef des voleurs de la Porte de Baldur, qui dit de se mettre à l'aise */
@@ -1565,7 +1565,7 @@ L'aventurier se réjouit.~
 @556  = ~Alors tu n'aurais même pas dû nous laisser rentrer ! Meurs, rivvil !~
 // Ajantis - Alatos
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 82
-@557  = ~A présent ils montrent leur vrai visage ! Je soutiens votre décision de ne pas coopérer avec ces personnes. Affrontons ces criminels, nous faisons une faveur à la ville en nettoyant ce repaire de voleurs !~
+@557  = ~À présent ils montrent leur vrai visage ! Je soutiens votre décision de ne pas coopérer avec ces personnes. Affrontons ces criminels, nous faisons une faveur à la ville en nettoyant ce repaire de voleurs !~
 // BG1 NPC : texte proche dans le fichier x#ajint.tra au numéro 1018 ("Draw steel!" à la fin retiré dans ict3)
 @558  = ~C'est vous qu'on va nettoyer !~
 // Alatos, réponse à Viconia (@556), pas de réplique de Viconia dans x#viint.tra
@@ -1583,7 +1583,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 43
 @563  = ~*squiiik*~ [GAM_48]
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 70
-@564  = ~Quoi Bouh ? Non, je ne pense pas que je veux qu'elle me tire de nouveau les oreilles...~
+@564  = ~Quoi Bouh ? Non, je ne pense pas que je veuille qu'elle me tire de nouveau les oreilles...~
 // Minsc - Khalid - Jaheira - Khalid
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 71
 @565  = ~Imagine ce qu'elle nous ferait si elle savait que *nous* avons réussi à saouler Khalid au Jongleur Jovial...~
@@ -1601,7 +1601,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 54
 @570  = ~Heaum soit avec nous ! Un sbire de notre pire ennemi, aux commandes du Poing Enflammé ? Il doit y avoir moyen de fragiliser sa position et de révoquer la sentence qu'il a prononcée contre nous !~
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 55
-@571  = ~Dans cette ville, chevalier, c'est ma manière ou le gibet.~
+@571  = ~Dans cette ville, chevalier, c'est ma loi ou le gibet.~
 // Alora - Angelo
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 88
 @572  = ~Je suis trop jeune pour mourir ! <CHARNAME>, il faut faire quelque chose !~
@@ -1626,20 +1626,20 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 28
 @579  = ~Ce prêtre est cinglé. Peut-être qu'un bon coup de marteau le ramènera à la raison.~
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 29
-@580  = ~C'est toi qui est folle, ma soeur, mais tu seras vite guérie...~
+@580  = ~C'est toi qui es folle, ma soeur, mais tu seras vite guérie...~
 // Jaheira - Bassilus
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 137
 @581  = ~Il semble logique qu'un mécréant aussi vil et pervers ne puisse provenir que de Château-Zhentil... le serviteur dément d'un dieu tout aussi dément ! Mais ne t'inquiète pas, tu ne sèmeras plus le chaos longtemps, sale Zhent !~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 138
 @582  = ~Tu verras la gloire de Cyric quand tu rejoindras la famille, ma soeur perdue...~
 /* Non utilisés */
-@583  = ~Ca va peut-être piquer un peu...~
+@583  = ~Ça va peut-être piquer un peu...~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 1003
 @584  = ~MEURS !~
 /* Mendiant */
 // Viconia - Mendiant
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 27
-@585  = ~Je ne crois pas, misérable. Du balai ! A moins que <CHARNAME> n'aie pitié de toi.~
+@585  = ~Je ne crois pas, misérable. Du balai ! À moins que <CHARNAME> n'ait pitié de toi.~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 28
 @586  = ~Je vous en prie, <PRO_SIRMAAM> <CHARNAME>, ayez pitié...~
 // Skie - Eldoth - Mendiant - Eldoth - Mendiant - Mendiant
@@ -1654,7 +1654,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 49
 @591  = ~Vous êtes une sainte, madame.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 50
-@592  = ~Et, votre sainteté... pssst... laissez tomber cet espèce de rat qui vous accompagne...~
+@592  = ~Et, votre sainteté... pssst... laissez tomber cette espèce de rat qui vous accompagne...~
 /* Non utilisé */
 @593  = ~Je me réjouis de toute miette qui tombe près de moi.~
 /* Bellamy (conseille d'aller de nuit au Chant de l'Elfe pour éviter le paladin Phandalyn) */
@@ -1664,9 +1664,9 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 60
 @595  = ~Euh, je ne sais pas de quoi tu parles.~
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 61
-@596  = ~Eh, bien sûr que non. A plus, Bell.~
+@596  = ~Eh, bien sûr que non. À plus, Bell.~
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 62
-@597  = ~A un de ces jours, Lori.~
+@597  = ~À un de ces jours, Lori.~
 // Viconia - Bellamy
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 31
 @598  = ~Merci du tuyau, minus. Je crois que j'apprécierais beaucoup de rendre visite à ce Phandalyn, <CHARNAME>. Pour lui enseigner la futilité de sa vie, par exemple ?~
@@ -1721,14 +1721,14 @@ L'aventurier se réjouit.~
 /* Centeol */
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 18
-@614  = ~A voir ce qui nous entourne, l'attaque d'une araignée mortelle n'est pas une surprise... Pourquoi nous sommes-nous aventurés dans cette horrible caverne ?~
+@614  = ~À voir ce qui nous entoure, l'attaque d'une araignée mortelle n'est pas une surprise... Pourquoi nous sommes-nous aventurés dans cette horrible caverne ?~
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 44
-@615  = ~Hmmm. La reine Araignée a-t-elle des serviteurs jusque ici ? 'Tention, <CHARNAME>, parce que si c'est le cas, ces araignées peuvent être vraiment mortelles.~
+@615  = ~Hmmm. La reine Araignée a-t-elle des serviteurs jusqu'ici ? 'Tention, <CHARNAME>, parce que si c'est le cas, ces araignées peuvent être vraiment mortelles.~
 /* Charleston Nib, une fois les terrassiers morts après leur crise de folie */
 // Shar-Teel - Shar-Teel
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 114
-@616  = ~Ecoute-moi, <CHARNAME>. *Shar-Teel désigne les cadavres.* Nous n'avons pas tout à fait fini ; il nous reste celui-là à tuer. Nous n'aurons même pas à aller bien loin pour l'enterrer correctement. Cette tombe a bien assez de place. *rit*~
+@616  = ~Écoute-moi, <CHARNAME>. *Shar-Teel désigne les cadavres.* Nous n'avons pas tout à fait fini ; il nous reste celui-là à tuer. Nous n'aurons même pas à aller bien loin pour l'enterrer correctement. Cette tombe a bien assez de place. *rit*~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 115
 @617  = ~Et Gallor pourra avoir son sarcophage, si ce sont ces stupides malédictions qui te font peur.~
 // Imoen - Charleston - Imoen - Charleston
@@ -1744,7 +1744,7 @@ L'aventurier se réjouit.~
 // Coran n'initie pas le dialogue, donc pas d'accord possible selon le sexe du PJ
 // Shar-Teel
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 15
-@622  = ~On dirait que tu sembles te délecter de la faiblesse de ton ennemi. Par le Diable et les Enfers, tu es pathétique, même pour un mâle ! <CHARNAME>, ce crétin ne nous sera d'aucune utilité. On peut tuer les wivernes sans avoir à partager la récompense avec lui.~
+@622  = ~On dirait que tu te délectes de la faiblesse de ton ennemi. Par le Diable et les Enfers, tu es pathétique, même pour un mâle ! <CHARNAME>, ce crétin ne nous sera d'aucune utilité. On peut tuer les wivernes sans avoir à partager la récompense avec lui.~
 // Xan - Coran - Coran
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 59
 @623  = ~Un vieux rouge ne nous carbonisera pas, mais nous périrons à cause du poison de toute façon. <CHARNAME>, prends pitié de nous, évitons ce fou furieux suicidaire... sauf que nous serions alors obligés de traverser ce puissant torrent. Avec les conditions météorologiques actuelles, cela nous vaudra certainement une grippe. Pourquoi, mais pourquoi avez-vous choisi ce pont ?~
@@ -1785,7 +1785,7 @@ L'aventurier se réjouit.~
 @634  = ~Devrais-je pleurer maintenant ? (Tant de souffrance, tant de gêne...)~
 // Faldorn - Drizzt - Faldorn - Drizzt
 // BG1 NPC : texte proche dans le fichier x#faint.tra au numéro 96
-@635  = ~Grrr ! Les cimeterres de cet elfe noir sont beaux et tranchants, mais c'est le cimeterre "Rayon d'Emeraude" que je veux. Voilà la véritable arme du druide. T'ai-je raconté qu'il avait été forgé à partir de la faucille de Kador le Brûleur ? Kador était un célèbre Druide de l'Ombre... si seulement j'étais en sa possession !~
+@635  = ~Grrr ! Les cimeterres de cet elfe noir sont beaux et tranchants, mais c'est le cimeterre "Rayon d'Émeraude" que je veux. Voilà la véritable arme du druide. T'ai-je raconté qu'il avait été forgé à partir de la faucille de Kador le Brûleur ? Kador était un célèbre Druide de l'Ombre... si seulement il était en ma possession !~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 97
 @636  = ~Druidesse, je me battrais à mains nues si c'était pour la bonne cause.~
 // BG1 NPC : texte identique dans le fichier x#faint.tra au numéro 98
@@ -1802,7 +1802,7 @@ L'aventurier se réjouit.~
 @641  = ~Vous dites vrai, même si vous êtes habillé comme un citadin.~
 // Viconia - Dryade
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 56
-@642  = ~Ne te laisse pas ensorceler par elle, <CHARNAME>. Va t'en, esprit ! Nous n'avons pas de temps à perdre avec toi !~
+@642  = ~Ne vous laissez pas ensorceler par elle, <CHARNAME>. Va-t'en, esprit ! Nous n'avons pas de temps à perdre avec toi !~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 57
 @643  = ~Oh, s'il vous plaît, je suis en péril et j'ai besoin de l'aide de braves aventuriers tels que vous !~
 // Faldorn - Dryade
@@ -1820,7 +1820,7 @@ L'aventurier se réjouit.~
 @648  = ~Druidesse, je vous en prie, aidez-moi !~
 // Jaheira - Dryade
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 117
-@649  = ~Dire que je suis déçue est encore trop peu. Si je n'avais fait de promesse à Gorion, je te donnerais une bonne fessée pour cette brutalité.~
+@649  = ~Dire que je suis déçue est encore trop peu. Si je n'avais pas promis à Gorion, je te donnerais une bonne fessée pour cette brutalité.~
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 118
 @650  = ~Je dois trouver de l'aide !~
 /* Non utilisé */
@@ -1829,7 +1829,7 @@ L'aventurier se réjouit.~
 /* Edwin, quand on accepte la quête et qu'il donne les instructions pour trouver Dynahéir */
 // Minsc - Edwin
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 96
-@652  = ~Non, ce n'est pas possible ! Tous les vrais héros baissent la tête, honteux !~
+@652  = ~Non, ce n'est pas possible ! Que tous les vrais héros baissent la tête, honteux !~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 95
 @653  = ~Crétin.~
 // Ajantis - Edwin
@@ -1873,14 +1873,14 @@ L'aventurier se réjouit.~
 @667  = ~Hum, on est bougon aujourd'hui. On doit s'être levé du mauvais pied ou quelque chose comme ça.~
 // Dynahéir
 // BG1 NPC : texte identique dans le fichier x#dyint.tra au numéro 46
-@668  = ~Manquer de respect à ceux qui ne cherchent qu'à T'aider, et plus encore, les menacer, est d'une rare bêtise. A moins que Tu ne souhaites pas que nous débarrassions Ta mine de la vermine qui l'infeste ?~
+@668  = ~Manquer de respect à ceux qui ne cherchent qu'à T'aider, et plus encore, les menacer, est d'une rare bêtise. À moins que Tu ne souhaites pas que nous débarrassions Ta mine de la vermine qui l'infeste ?~
 /* Entillis Fulsom (membre des Ménestrels à la Porte de Baldur), qui attaque, si mauvaise réputation */
 // Quayle
 // BG1 NPC : texte proche dans le fichier x#quint.tra au numéro 23 (différence his/<PRO_HISHER>)
 @669  = ~Hé, je ne suis pas l'enfant de son père, ne me mêlez pas à cette histoire ! Je n'ai même jamais rencontré son père !~
 // Viconia - Entillis
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 59
-@670  = ~Regarde, un autre rustre qui vient mourir par nos mains. Suivre la voie de ton père est d'autant plus facile avec tous ces imbéciles qui viennent se jeter sur nous.~
+@670  = ~Regardez, un autre rustre qui vient mourir par nos mains. Suivre la voie de votre père est d'autant plus facile avec tous ces imbéciles qui viennent se jeter sur nous.~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 60
 @671  = ~Une drow voyage avec vous ? Vous vous êtes fait des alliés en des endroits plus sombres que je n'imaginais...~
 /* Fermier Brun, quand on a accepté de l'aider et qu'il demande de chercher son fils */
@@ -1910,7 +1910,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 113
 @680  = ~Très bien. Quand j'ai quitté la ville, sa dame et lui attendaient leur septième enfant. Je parie qu'elle sera aussi jolie que les autres.~
 // BG1 NPC : texte identique dans le fichier x#alint.tra au numéro 114
-@681  = ~Et dire que le couple venait juste d'avoir leur troisième la dernière fois que je les ai vus ! Il va vraiment falloir que je fasse le voyage un de ces jours, j'ai entendu dire que c'est un endroit assez joli pour une ville construite par les humains... Euh, avec toutes ces histoires de famille, on dirait que tes amis sont en train de s'impatienter. De quoi parlions-nous ? Ah oui, le voyage à la tour contre l'hospitalité des petites-gens...~
+@681  = ~Et dire que le couple venait juste d'avoir son troisième la dernière fois que je les ai vus ! Il va vraiment falloir que je fasse le voyage un de ces jours, j'ai entendu dire que c'est un endroit assez joli pour une ville construite par les humains... Euh, avec toutes ces histoires de famille, on dirait que tes amis sont en train de s'impatienter. De quoi parlions-nous ? Ah oui, le voyage à la tour contre l'hospitalité des petites-gens...~
 // Montaron
 // BG1 NPC : texte identique dans le fichier x#moint.tra au numéro 69
 @682  = ~Nos affaires ne r'gardent que nous, et tu f'rais mieux de garder ton nez chez toi.~
@@ -1961,7 +1961,7 @@ L'aventurier se réjouit.~
 @697  = ~Alors, qu'est-ce que vous en dites ? Je peux venir ?~
 // Shar-Teel
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 17
-@698  = ~Toi, Garrick, UTILE ?! Même un barde ne devrait pas avoir le droit d'éxagérer autant ! Toi, qui nous a embauchés pour tuer trois paysans ?~
+@698  = ~Toi, Garrick, UTILE ?! Même un barde ne devrait pas avoir le droit d'exagérer autant ! Toi qui as dû embaucher de l'aide pour affronter trois paysans ?~
 /* Gazib */
 // Branwen
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 8
@@ -1981,7 +1981,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 99
 @704  = ~La seule et l'unique ! Et tu te rendras bien vite compte que je suis devenue un peu plus qu'une simple morveuse. Tu as vendu Ysena au Poing, tout ça à cause d'un stupide désaccord concernant la récompense pour la capture d'un esclave en fuite. Cela fait longtemps que j'attends de te revoir, Loup-Gris. Sais-tu pourquoi ?~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 100
-@705  = ~*rictus* Eclaire moi, je t'en prie.~
+@705  = ~*rictus* Éclaire moi, je t'en prie.~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 101
 @706  = ~Pour te chatouiller les tripes avec la pointe de mon épée !~
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 102
@@ -1992,7 +1992,7 @@ L'aventurier se réjouit.~
 /* Dame Hannah, qui voudrait que le monde soit débarrassé des hommes et se plaint de la séquestration de la nymphe par Ragevite */
 // Shar-Teel
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 65
-@709  = ~Ta dernière phrase sonne très juste, ma soeur ! Ils ne sont pas seulement des brutes sans cervelle, mais aussi des vers de terre sans personnalité, d'immondes porcs, des grande-gueules, des déjections de singes constipés...~
+@709  = ~Ta dernière phrase sonne très juste, ma soeur ! Ils ne sont pas seulement des brutes sans cervelle, mais aussi des vers de terre sans personnalité, d'immondes porcs, des grandes gueules, des déjections de singes diarrhéiques...~
 // Viconia - Hannah
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 71
 @710  = ~S'il peut lier la créature à lui, laisse-le garder l'esclave.~
@@ -2022,9 +2022,9 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 82
 @719  = ~Dynahéir ! Regarde, Bouh, nous l'avons trouvée ! Oh, quel jour glorieux !~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 83
-@720  = ~A présent je crois que c'est bien Toi. Je n'aurais jamais pensé que viendrait le jour où je serais heureuse de revoir ce... rongeur.~
+@720  = ~À présent je crois que c'est bien Toi. Je n'aurais jamais pensé que viendrait le jour où je serais heureuse de revoir ce... rongeur.~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 84
-@721  = ~Oui, ma sorcière, c'est moi ! Oh, <CHARNAME>, si tu pensais que Minsc et Bouh et toi faisaient une grande équipe de bottage de fesses, attends de voir Dynahéir nous rejoindre et libérer sa magie contre les cancrelats diaboliques qui nous barrent le chemin !~
+@721  = ~Oui, ma sorcière, c'est moi ! Oh, <CHARNAME>, si tu pensais que Minsc et Bouh et toi faisiez une grande équipe de bottage de fesses, attends de voir Dynahéir nous rejoindre et libérer sa magie contre les cancrelats diaboliques qui nous barrent le chemin !~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 85
 @722  = ~C-Cancrelats ? Je saigne t-toujours à cause du dernier de ces c-cancrelats !~
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 86
@@ -2033,7 +2033,7 @@ L'aventurier se réjouit.~
 @724  = ~Je n'ai pas de meilleur nom pour cette racaille, guerrier.~
 // Garrick
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 63
-@725  = ~Le vrai guerrier, combattant pour sauver sa dame... A présent que leur quête touche à son terme, <CHARNAME>, peut-être pourraient-ils se joindre à la nôtre ?~
+@725  = ~Le vrai guerrier, combattant pour sauver sa dame... À présent que leur quête touche à son terme, <CHARNAME>, peut-être pourraient-ils se joindre à la nôtre ?~
 /* Dynahéir. Non utilisé */
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 64
 @726  = ~Je serais en effet honorée de Te servir, <CHARNAME>.~
@@ -2060,7 +2060,7 @@ L'aventurier se réjouit.~
 @733  = ~Il serait bon d'être très prudent lorsqu'on traite avec les servantes de la Reine Garce, <CHARNAME>.~
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 73
-@734  = ~Fais attention, car Umberlie est une divinité capricieuse et mauvaise - assez semblable à Lloth. Je n'en attendrais pas moins de ses suivants.~
+@734  = ~Faites attention, car Umberlie est une divinité capricieuse et mauvaise - assez semblable à Lolth. Je n'en attendrais pas moins de ses suivants.~
 /* Jenkal, menaçant de tuer tout intrus qui pénètre chez lui */
 // Minsc
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 132
@@ -2115,9 +2115,9 @@ L'aventurier se réjouit.~
 @754  = ~Hé, une minute ! Comme si vous paraissiez bien différents !~
 // Viconia - Kirian
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 76
-@755  = ~Tu nous insultes, morveuse, pourtant tu ne survivrais pas une heure en Ombreterre !~
+@755  = ~Tu nous insultes, morveuse, pourtant tu ne survivrais pas une heure en Ombre-Terre !~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 77
-@756  = ~Ah ! Ecoutez, les gars ! La peau-noire croit pour de bon à l'existence de l'Ombreterre !~
+@756  = ~Ah ! Écoutez, les gars ! La peau-noire croit pour de bon à l'existence de l'Ombre-Terre !~
 /* Kissiq a rencontré une poule qui parle ! */
 // Imoen - Kissiq (@759)
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 116
@@ -2130,7 +2130,7 @@ L'aventurier se réjouit.~
 /* Lothandre */
 // Viconia - Lothandre
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 84
-@760  = ~Ne t'inquiète pas, <CHARNAME>. Shar me révèlera les secrets qui permettront de surmonter la malédiction.~
+@760  = ~Ne vous inquiétez pas, <CHARNAME>. Shar me révèlera les secrets qui permettront de surmonter la malédiction.~
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 85
 @761  = ~Je crains que non, drow. Le poison a été ensorcelé de manière à s'assurer qu'aucune magie ne fonctionnerait contre lui... Le Trône de Fer tient vraiment à vous voir morts.~
 // Kivan - Lothandre
@@ -2142,7 +2142,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 37
 @764  = ~Du poi... du poison ? Oh... euh... je ne me sens pas très bien... Je pense que... Je pense que j'ai besoin de m'étendre un peu.~
 // BG1 NPC : texte identique dans le fichier x#skint.tra au numéro 38
-@765  = ~Si tu veux vivre, fillette, tu as intérêt à faire ce que je vous demande.~
+@765  = ~Si tu veux vivre, fillette, tu as intérêt à faire ce que je te demande.~
 // Xan - Lothandre
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 67
 @766  = ~*soupir* Et vous m'aviez dit que c'était mon estomac elfique délicat. Oh, ne vous excusez pas pour vos quolibets. Nos morts effaceront bientôt toutes les petites différences qui nous séparent.~
@@ -2164,7 +2164,7 @@ L'aventurier se réjouit.~
 @773  = ~Attendez ! J'étais en train de plaisanter avec un *poulet* ? Oh dieux, oh...~
 // Edwin - Melicamp
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 56
-@774  = ~Que c'est mignon. Maintenant nous sommes en train de sauver un poulet des grands méchants loups. J'ai entendu que ton premier haut-fait était d'avoir apporté un antidote à une vache au ventre malade. Peut-être que l'agriculture te siérait mieux que l'aventure, <CHARNAME>. Pense juste à tous ces puissants légumes que tu pourrais cultiver, en brandissant ta fourche magique ! (J'en supporte tellement !)~
+@774  = ~Que c'est mignon. Maintenant nous sommes en train de sauver un poulet des grands méchants loups. J'ai entendu que ton premier haut fait était d'avoir apporté un antidote à une vache au ventre malade. Peut-être que l'agriculture te siérait mieux que l'aventure, <CHARNAME>. Pense juste à tous ces puissants légumes que tu pourrais cultiver, en brandissant ta fourche magique ! (J'en supporte tellement !)~
 // BG1 NPC : texte identique dans le fichier x#edint.tra au numéro 57
 @775  = ~*cot cot* Le loup ! Le loup arrive !~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 128
@@ -2183,7 +2183,7 @@ L'aventurier se réjouit.~
 @780  = ~Je ne sais qui des deux est le plus stupide : cet homme qui parle à son hamster, ou toi, qui le recrutes. Par contre, Minsc est fort et semble savoir quelle est sa place. Hmmm... cette Dynahéir et moi avons les mêmes goûts en matière d'homme.~
 // Ajantis - Minsc
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 20
-@781  = ~Aussi étrange ton attitude paraît-elle, mon ami, j'ai l'impression que tu es un combattant pour le bien de valeur. Allons-y, et libérons ta demoiselle de sa détresse !~
+@781  = ~Aussi étrange ton attitude paraît-elle, mon ami, j'ai l'impression que tu es un combattant de valeur au service du bien. Allons-y, et libérons ta demoiselle de sa détresse !~
 // BG1 NPC : texte proche dans le fichier x#ajint.tra au numéro 1002 (seul "Onward" reste dans ict3)
 @782  = ~En avant !~
 /* Mirianne, qui attend des nouvelles de son mari depuis des mois et demande qu'on ouvre l'oeil */
@@ -2208,11 +2208,11 @@ L'aventurier se réjouit.~
 @788  = ~Il y a trop d'elfes dans cette mine ! Tuez-le !~
 // Branwen - Mulahey
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 15
-@789  = ~Répugnante, engeance de porc couverte de vermines ! Tempus est au courant de ta traîtrise et va me conférer la force de te terrasser !~
+@789  = ~Répugnante, engeance de porc couverte de vermine ! Tempus est au courant de ta traîtrise et va me conférer la force de te terrasser !~
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 16
 @790  = ~Tuez-les, mais laissez-moi la bonne femme !~
 /* Non utilisé */
-@791  = ~A mort ! MAINTENANT !~
+@791  = ~À mort ! MAINTENANT !~
 /* Nalin, qui calme Brage et lui qu'il va expier ses crimes sans punition */
 // Ajantis - Nalin
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 12
@@ -2286,7 +2286,7 @@ L'aventurier se réjouit.~
 @815  = ~Il est bon de voir que vous avez pris ce rôdeur dans votre groupe. Il a besoin de compagnie pour rester sain d'esprit. Un coeur vrai, une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ?~
 // Vai, PJ femme
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 65
-@816  = ~Je suis heureuse de voir qu'une femme avisée veille à présent sur ce rôdeur elfe. Un coeur vrai,une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ? Et si vous voulez discuter - c'est moi qui offre la bière ce soir.~
+@816  = ~Je suis heureuse de voir qu'une femme avisée veille à présent sur ce rôdeur elfe. Un coeur vrai, une âme passionnée... et un chagrin sans bornes. Cela m'effraie de voir un homme se consumer aussi rapidement. Prenez soin de lui, voulez-vous ? Et si vous voulez discuter - c'est moi qui offre la bière ce soir.~
 // Vai
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 66
 @817  = ~Maintenant, revenons à nos affaires... Avez-vous des questions, <CHARNAME> ?~
@@ -2340,8 +2340,8 @@ L'aventurier se réjouit.~
 @832  = ~Capturer une nymphe ne devrait pas être au-dessus de nos capacités ; surtout s'il y a un objet magique à la clef.~
 // Jaheira
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 36
-@833  = ~Sois prudent, <CHARNAME>. Je nous suggérerais de libérer cette nymphe, mais pas pour l'échanger contre une récompense minable... La place de cette créature est parmi les siens, dans la nature. Les nymphes sont très proches de la nature, et entre les murs de cette cité, elles ne peuvent que périr très rapidement.~
-        ~Sois prudente, <CHARNAME>. Je nous suggérerais de libérer cette nymphe, mais pas pour l'échanger contre une récompense minable... La place de cette créature est parmi les siens, dans la nature. Les nymphes sont très proches de la nature, et entre les murs de cette cité, elles ne peuvent que périr très rapidement.~
+@833  = ~Sois prudent, <CHARNAME>. Je suggérerais que nous libérions cette nymphe, mais pas pour l'échanger contre une récompense minable... La place de cette créature est parmi les siens, dans la nature. Les nymphes sont très proches de la nature, et entre les murs de cette cité, elles ne peuvent que périr très rapidement.~
+        ~Sois prudente, <CHARNAME>. Je suggérerais que nous libérions cette nymphe, mais pas pour l'échanger contre une récompense minable... La place de cette créature est parmi les siens, dans la nature. Les nymphes sont très proches de la nature, et entre les murs de cette cité, elles ne peuvent que périr très rapidement.~
 // Kivan
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 75
 @834  = ~Ce mage n'aspire pas à libérer la nymphe captive, mais à l'emprisonner de nouveau ? <CHARNAME>, nous agirions bien en libérant la créature des bois et en la laissant fuir ces hommes.~
@@ -2386,7 +2386,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 80
 @848  = ~Des garnements chapardeurs ! Aider les esclaves ne fera que nous ralentir, chose dont je ne crois pas que nous ayons besoin.~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 81
-@849  = ~S'il vous plaît, <PRO_SIRMAAM>... C'est notre meilleure chance de de recouvrer notre liberté, nous avons vraiment besoin de vous !~
+@849  = ~S'il vous plaît, <PRO_SIRMAAM>... C'est notre meilleure chance de recouvrer notre liberté, nous avons vraiment besoin de vous !~
 // Minsc - Rill
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 64
 @850  = ~Ils gardent des esclaves ici ?! Comment peut-on être assez cruel pour priver les autres de soleil et d'air frais ? Cette vilenie fait monter la fureur de Minsc comme l'océan ! EN AVANT, MES AMIS, ET QUE LE MAL TREMBLE !~
@@ -2405,7 +2405,7 @@ L'aventurier se réjouit.~
 /* Rinnie (barde, travaille une ballade sur les licornes) */
 // Coran - Coran - Coran - Rinnie
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 16
-@856  = ~Mmh... Ainsi nous recherchons une histoire de la Chute des licornes ? Avec un titre pareil, ça doit être une lecture piquante.~
+@856  = ~Mmh... Ainsi nous recherchons une histoire de la Descente de la Licorne ? Avec un titre pareil, ça doit être une lecture piquante.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 17
 @857  = ~On m'a raconté une fois une jolie histoire sur la chasse aux licornes. Vous voyez, on prétend que si vous attachez une jeune vierge sur un chêne dans la forêt, une licorne va venir... Alors ce type intelligent a convaincu une vierge de chasser les licornes avec lui... Une bonne histoire, ça.~
 // BG1 NPC : texte identique dans le fichier x#coint.tra au numéro 18
@@ -2416,7 +2416,7 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 159
 @860  = ~Je suis certain que nous pourrions garder l'oeil ouvert, ma dame.~
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 160
-@861  = ~Et bien, merci !~
+@861  = ~Eh bien, merci !~
 /* La Balafre, qui cherche des étrangers pour enquêter en ville, par manque de confiance envers les habitants */
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 107
@@ -2440,7 +2440,7 @@ L'aventurier se réjouit.~
 @867  = ~Le petit Garrick ? Comme c'est mignon. Mais je dis que si on prend un chien de garde, il faut prendre celui qui mord ; un grand et fort. Ils peuvent aller chercher et faire le beau aussi bien qu'un chien d'appartement et même mieux parfois.~
 // Imoen
 // BG1 NPC : texte identique dans le fichier x#imint.tra au numéro 28
-@868  = ~Garrick n'est pas petit ! C'est une bonne chose que vous soyez une actrice et non une peintre ; ç'aurait été un problème d'être aveugle, hein. Parc'que si ne vous voyez pas par vous-même combien il est grand, vous êtes certainement aveugle !~
+@868  = ~Garrick n'est pas petit ! C'est une bonne chose que vous soyez une actrice et non une peintre ; ç'aurait été un problème d'être aveugle, hein. Parc'que si vous voyez pas par vous-même combien il est grand, vous êtes certainement aveugle !~
 /* Avec Tamoko, qui cherche à sauver Sarevok mais ne croit pas à son destin */
 // Garrick - Tamoko
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 177
@@ -2456,9 +2456,9 @@ L'aventurier se réjouit.~
 @872  = ~Crise du fer ou pas, ton hideux visage était probablement plus qu'assez pour briser ce miroir.~
 // Tiax - Tartusse
 // BG1 NPC : texte identique dans le fichier x#tiint.tra au numéro 3
-@873  = ~Les nobles devraient davantage se soucier de comment ils survivront quand Tiax régnera. Les gémissements nobles le fatiguent et Tiax s'effritera davantage que votre miroir, s'il doit jamais vous revoir ! A présent, éloignez-vous de votre futur maître, car il a des questions plus importantes à examiner !~
+@873  = ~Les nobles devraient davantage se soucier de comment ils survivront quand Tiax régnera. Les gémissements nobles le fatiguent et Tiax brisera bien plus que votre miroir, s'il doit jamais vous revoir ! À présent, éloignez-vous de votre futur maître, car il a des questions plus importantes à examiner !~
 // BG1 NPC : texte identique dans le fichier x#tiint.tra au numéro 4
-@874  = ~Ma parole ! Que c'est IMPOLI ! D'abord mon miroir s'effrite, et à présent, je suis verbalement agressé par des gueux puants dans la rue. Où va cette ville, je vous le demande !~
+@874  = ~Ma parole ! Que c'est IMPOLI ! D'abord mon miroir se brise, et à présent, je suis verbalement agressé par des gueux puants dans la rue. Où va cette ville, je vous le demande !~
 /* Teyngan (réclame la bourse) */
 // Garrick
 // BG1 NPC : texte proche dans le fichier x#gaint.tra au numéro 182
@@ -2476,7 +2476,7 @@ L'aventurier se réjouit.~
 /* Crieur public de Bérégost */
 // Shar-Teel - Crieur (@886)
 // BG1 NPC : texte identique dans le fichier x#shint.tra au numéro 54
-@879  = ~Ca, c'est une prime à mon goût ! C'est ce que j'appelle gagner intelligemment sa vie en s'amusant !~
+@879  = ~Ça, c'est une prime à mon goût ! C'est ce que j'appelle gagner intelligemment sa vie en s'amusant !~
 // Xzar - Crieur - Xzar - Crieur - Xzar - Crieur
 // BG1 NPC : texte identique dans le fichier x#xzint.tra au numéro 130
 @880  = ~De quels crimes contre nature peut-il s'agir, crieur ?~
@@ -2485,14 +2485,14 @@ L'aventurier se réjouit.~
 // BG1 NPC : texte identique dans le fichier x#xzint.tra au numéro 132
 @882  = ~<CHARNAME>, ce Bassilus - le vivant... - il a l'air un peu bizarre ; presque... dérangé.~
 // BG1 NPC : texte identique dans le fichier x#xzint.tra au numéro 133
-@883  = ~Oyez ! Oyez ! Voici l'homme qui va le remettre à sa place !~
+@883  = ~Oyez ! Oyez ! Voici l'homme qui va le redresser !~
 // BG1 NPC : texte identique dans le fichier x#xzint.tra au numéro 134
-@884  = ~Hé bien... verticalement, peut-être, mais oui. Il semble n'avoir aucun respect pour son oeuvre.~
+@884  = ~Eh bien... verticalement, peut-être, mais oui. Il semble n'avoir aucun respect pour son oeuvre.~
 // BG1 NPC : texte identique dans le fichier x#xzint.tra au numéro 135
-@885  = ~Hé, pour moi 5,000 pièces d'or feraient une motivation suffisante pour lui régler son compte, si j'étais aventurier ! Euh, désolé, au travail !~
+@885  = ~Hé, pour moi 5 000 pièces d'or feraient une motivation suffisante pour lui régler son compte, si j'étais aventurier ! Euh, désolé, au travail !~
 // Crieur (après Shar-Teel en @879)
 // BG1 NPC : texte identique dans le fichier x#xzint.tra au numéro 136
-@886  = ~Oyez ! Oyez ! Par ordre de Son Majestueux Eclat de Lathandre, Kelddath Ormlyr, gouverneur de Bérégost, et dans l'intérêt de ses habitants...~
+@886  = ~Oyez ! Oyez ! Par ordre de Son Majestueux Éclat de Lathandre, Kelddath Ormlyr, gouverneur de Bérégost, et dans l'intérêt de ses habitants...~
 /* Tranzig, quand il est gravement blessé et veut se rendre */
 // Branwen - Tranzig
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 5
@@ -2541,13 +2541,13 @@ L'aventurier se réjouit.~
 @901  = ~<CHARNAME>... je ne peux que Te conseiller de prêter attention à la détresse de cet enfant. Je ne puis le regarder sans le prendre en pitié.~
 // Kivan
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 24
-@902  = ~A votre place, je suivrais ce garçon, ne serait-ce que pour dire à celui qui en a la garde qu'il n'est pas convenable de le laisser mendier de l'aide dans les rues.~
+@902  = ~À votre place, je suivrais ce garçon, ne serait-ce que pour dire à celui qui en a la garde qu'il n'est pas convenable de le laisser mendier de l'aide dans les rues.~
 /* Viconia, quand elle rejoint le groupe et promet de ne pas décevoir */
 // Ajantis - Viconia
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 35
 @903  = ~De belles paroles, drow, mais sois certaine de ne pas les oublier. Je te surveillerai avec attention.~
 // BG1 NPC : texte identique dans le fichier x#ajint.tra au numéro 1009
-@904  = ~A ton aise, jaluk !~
+@904  = ~À ton aise, jaluk !~
 // Jaheira - Viconia
 // BG1 NPC : texte identique dans le fichier x#jaint.tra au numéro 14
 @905  = ~Oui, il n'est peut-être pas sage de la laisser errer, pour sa propre sécurité. Et nous verrons si l'aider était juste, après tout. Si elle nous donne tort... eh bien, dans ce cas j'ai vraiment pitié d'elle.~
