@@ -150,7 +150,7 @@ IF ~~ THEN DO ~ReputationInc(-1) ChangeAlignment("coran",CHAOTIC_NEUTRAL) SetGlo
 END
 
 IF ~~ THEN BEGIN CB_2.3
-SAY @21
+SAY @19
 IF ~~ THEN DO ~SetGlobal("P#Briel_Stay","GLOBAL",3) ReputationInc(-1) LeaveParty() SetLeavePartyDialogFile() ChangeAIScript("",DEFAULT) EscapeArea()~ EXIT
 END
 
