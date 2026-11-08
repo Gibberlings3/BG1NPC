@@ -111,8 +111,8 @@ J'ai rencontré un gnome énigmatique. Il semble être à la recherche d'un autre gn
 @102 = ~Trop de blabla pour trop peu d'pognon. Partons.~
 @103 = ~Exactement comme dans les manuels. Excellent. (Ce simien peut apprendre quelque chose, après tout. Peut-être puis-je le modeler à mon propre avantage).~
        ~Exactement comme dans les manuels. Excellent. (Cette guenon peut apprendre quelque chose, après tout. Peut-être puis-je la modeler à mon propre avantage).~
-@104 = ~Vraiment, quel retournement de situation appréciable ! Es-tu certain de ne pas avoir de sang elfe noir dans les veines ? Le sujet était sans valeur, mais le jeu très divertissant. Nous devrions entamer la partie contre les chasseurs de primes rapidement, avant que Belgin ne soit trop loin.~
-       ~Vraiment, quel retournement de situation appréciable ! Es-tu certaine de ne pas avoir de sang elfe noir dans les veines ? Le sujet était sans valeur, mais le jeu très divertissant. Nous devrions entamer la partie contre les chasseurs de primes rapidement, avant que Belgin ne soit trop loin.~
+@104 = ~Vraiment, quel retournement de situation appréciable ! Êtes-vous certain de ne pas avoir de sang elfe noir dans les veines ? Le sujet était sans valeur, mais le jeu très divertissant. Nous devrions entamer la partie contre les chasseurs de primes rapidement, avant que Belgin ne soit trop loin.~
+       ~Vraiment, quel retournement de situation appréciable ! Êtes-vous certaine de ne pas avoir de sang elfe noir dans les veines ? Le sujet était sans valeur, mais le jeu très divertissant. Nous devrions entamer la partie contre les chasseurs de primes rapidement, avant que Belgin ne soit trop loin.~
 @105 = ~Ceci est sans intérêt et agaçant. Si nous devons rencontrer ces chasseurs de primes, faisons-le vite.~
 @106 = ~J'ai aidé un homme appelé Belgin l'Errant à comprendre que les langues trop bien pendues conviennent aux crétins et aux hommes morts. Il s'est enfui en marmonnant qu'il prouverait que Telliax, son apprenti et autrefois compagnon, n'est pas mort. Il est poursuivi par des chasseurs de primes, ce qui devrait nous permettre de nous faire un peu d'argent supplémentaire. Ils se trouvent à la Lame et les Étoiles. Ils paieront certainement grassement toute information sur l'endroit où se terre Belgin. Et si ce n'est pas le cas, nous ferons un peu d'exercice...~
 @107 = ~Voici tout ce que j'ai. Je vais aller chercher le reste, et irai attendre de vos nouvelles au Heaume et la Cape.~
@@ -202,7 +202,7 @@ J'ai rencontré un gnome énigmatique. Il semble être à la recherche d'un autre gn
 @187 = ~Nous sommes venus vous offrir des informations sur l'endroit où se trouve votre proie, Belgin. En échange d'une petite compensation, bien sûr.~
 @188 = ~Je regrette mais nous sommes venus vous tuer. Je vous suggérerais de rester immobile. Ce sera beaucoup moins sale de cette manière, et le tavernier pourrait se plaindre si nous mettons du sang sur son beau plancher tout propre.~
 @189 = ~Salutations, mes amis ! Vous avez l'air d'aventuriers ou de mercenaires. Ravi de vous rencontrer ! Mon nom est Karris, je viens d'Amn. Qui êtes-vous, si je puis me permettre ?~
-@190 = ~Un autre surfacin imprudent qui aide les autres, je suppose. Toute cette bienveillance me rend malade. Ne lui dis rien, <CHARNAME>.~
+@190 = ~Un autre surfacin imprudent qui aide les autres, je suppose. Toute cette bienveillance me rend malade. Ne lui dites rien, <CHARNAME>.~
 @191 = ~Arrête de minauder, <CHARNAME>, et éventrons ce mâle inutile comme un poisson.~
 @192 = ~Celui-ci promet d'être divertissant. Laissez-moi ses oreilles.~
 @193 = ~Non ! On ne discute pas ! <CHARNAME>, vous m'avez promis les oreilles et les yeux, cette fois !~
@@ -344,7 +344,7 @@ J'ai prouvé au groupe de Karris que Tiax était en bonne santé. Il a remis le cap
 @317 = ~Nous devrions vous réduire d'environ un pied à partir de la tête. Moins à nourrir. Moins à surveiller.~
 @318 = ~J'aime ce "réduire". Moins à nourrir. Moins à surveiller. Tais-toi sinon nous te réduisons.~
 @319 = ~Je t'ai dit de la fermer, gnome.~
-@320 = ~<CHARNAME>, si tu ne fais pas cesser cette nuisance, alors je m'en chargerai... de manière permanente.~
+@320 = ~<CHARNAME>, si vous ne faites pas cesser cette nuisance, alors je m'en chargerai... de manière permanente.~
 @321 = ~Par les dieux, sera-t-il jamais silencieux ?~
 @322 = ~Tiax, est-ce que ça va ? Que se passe-t-il ?~
 @323 = ~Nous t'avons prévenu, Tiax. Cela a intérêt à te valoir la vie sauve.~
@@ -392,7 +392,7 @@ J'ai prouvé au groupe de Karris que Tiax était en bonne santé. Il a remis le cap
 @365 = ~Moins à nourrir. Moins à surveiller. Moins de blabla, à moins que je vous raccourcisse d'un pied en partant du haut.~
 @366 = ~Moins de personnes dans le groupe signifie plus de profit pour ceux qui restent.~
 @367 = ~Enfin. (J'étais sur le point de le tuer moi-même, mais je peux toujours espionner ses déplacements plus tard).~
-@368 = ~Je ne lui fais pas confiance. Tu pourrais vouloir le suivre et le tuer rapidement, ou engager quelqu'un pour le faire.~
+@368 = ~Je ne lui fais pas confiance. Vous pourriez vouloir le suivre et le tuer rapidement, ou engager quelqu'un pour le faire.~
 @369 = ~Laisse le gnome gagner les enfers que lui promet son dieu.~
 @370 = ~Je suis désolé que tu le prennes comme ça, Tiax. Bonne chance.~
 @371 = ~Tiax s'en va

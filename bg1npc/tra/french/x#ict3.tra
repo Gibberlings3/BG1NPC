@@ -200,7 +200,7 @@
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 15
 @68   = ~N'as-tu pas de coeur, sorcière sombre ? C'est mon enfant qui est piégé là-bas !~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 16
-@69   = ~Oh, j'ai un coeur. Mais il ne bat que pour moi, et non pour ceux qui sont trop faibles pour prendre soin d'eux-mêmes. Viens, <CHARNAME>, je ne veux pas parler plus longtemps à cette misérable.~
+@69   = ~Oh, j'ai un coeur. Mais il ne bat que pour moi, et non pour ceux qui sont trop faibles pour prendre soin d'eux-mêmes. Venez, <CHARNAME>, je ne veux pas parler plus longtemps à cette misérable.~
 // Kivan
 // BG1 NPC : texte identique dans le fichier x#kiint.tra au numéro 32
 @70   = ~Sur mon honneur de rôdeur, je jure que nous ferons de notre mieux pour faire fuir les worgs, bonne dame.~
@@ -251,7 +251,7 @@
 @86   = ~Abandonner tout notre fer ?! Je préférerais encore renoncer à ma virginité !~
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 18
-@87   = ~Ah, regarde. Une ordure surfacine typique de plus, prête à jouer. C'est une épreuve que d'écouter leurs langues assommantes.~
+@87   = ~Ah, regardez. Une ordure surfacine typique de plus, prête à jouer. C'est une épreuve que d'écouter leurs langues assommantes.~
 /* Non utilisé */
 // BG1 NPC : texte identique dans le fichier x#brint.tra au numéro 31
 @88   = ~Votre fer et votre vie !~
@@ -1277,7 +1277,7 @@ L'aventurier se réjouit.~
 @452  = ~Le travail d'un héros ne prend jamais fin.~
 // Viconia - Achen (@941)
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 1
-@453  = ~Un autre idiot libéré. Oh, <CHARNAME>, tu as vraiment l'étoffe des héros.~
+@453  = ~Un autre idiot libéré. Oh, <CHARNAME>, vous avez vraiment l'étoffe des héros.~
 /* Soldat Amnien de Nashkel, évocant la magie noire pour expliquer le comportement de Brage */
 // Garrick
 // BG1 NPC : texte identique dans le fichier x#gaint.tra au numéro 39
@@ -1436,7 +1436,7 @@ L'aventurier se réjouit.~
 /* Mulahey, lorsqu'il est blessé et offre faussement de se rendre */
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 89
-@509  = ~La compassion est une faiblesse. Tue-le, <CHARNAME>.~
+@509  = ~La compassion est une faiblesse. Tuez-le, <CHARNAME>.~
 // Xan
 // BG1 NPC : texte identique dans le fichier x#xaint.tra au numéro 15
 @510  = ~C'est un piège... crois-moi, ce démon nous leurre dans un piège retors...~
@@ -1802,7 +1802,7 @@ L'aventurier se réjouit.~
 @641  = ~Vous dites vrai, même si vous êtes habillé comme un citadin.~
 // Viconia - Dryade
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 56
-@642  = ~Ne te laisse pas ensorceler par elle, <CHARNAME>. Va-t'en, esprit ! Nous n'avons pas de temps à perdre avec toi !~
+@642  = ~Ne vous laissez pas ensorceler par elle, <CHARNAME>. Va-t'en, esprit ! Nous n'avons pas de temps à perdre avec toi !~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 57
 @643  = ~Oh, s'il vous plaît, je suis en péril et j'ai besoin de l'aide de braves aventuriers tels que vous !~
 // Faldorn - Dryade
@@ -1880,7 +1880,7 @@ L'aventurier se réjouit.~
 @669  = ~Hé, je ne suis pas l'enfant de son père, ne me mêlez pas à cette histoire ! Je n'ai même jamais rencontré son père !~
 // Viconia - Entillis
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 59
-@670  = ~Regarde, un autre rustre qui vient mourir par nos mains. Suivre la voie de ton père est d'autant plus facile avec tous ces imbéciles qui viennent se jeter sur nous.~
+@670  = ~Regardez, un autre rustre qui vient mourir par nos mains. Suivre la voie de votre père est d'autant plus facile avec tous ces imbéciles qui viennent se jeter sur nous.~
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 60
 @671  = ~Une drow voyage avec vous ? Vous vous êtes fait des alliés en des endroits plus sombres que je n'imaginais...~
 /* Fermier Brun, quand on a accepté de l'aider et qu'il demande de chercher son fils */
@@ -2060,7 +2060,7 @@ L'aventurier se réjouit.~
 @733  = ~Il serait bon d'être très prudent lorsqu'on traite avec les servantes de la Reine Garce, <CHARNAME>.~
 // Viconia
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 73
-@734  = ~Fais attention, car Umberlie est une divinité capricieuse et mauvaise - assez semblable à Lolth. Je n'en attendrais pas moins de ses suivants.~
+@734  = ~Faites attention, car Umberlie est une divinité capricieuse et mauvaise - assez semblable à Lolth. Je n'en attendrais pas moins de ses suivants.~
 /* Jenkal, menaçant de tuer tout intrus qui pénètre chez lui */
 // Minsc
 // BG1 NPC : texte identique dans le fichier x#miint.tra au numéro 132
@@ -2130,7 +2130,7 @@ L'aventurier se réjouit.~
 /* Lothandre */
 // Viconia - Lothandre
 // BG1 NPC : texte identique dans le fichier x#viint.tra au numéro 84
-@760  = ~Ne t'inquiète pas, <CHARNAME>. Shar me révèlera les secrets qui permettront de surmonter la malédiction.~
+@760  = ~Ne vous inquiétez pas, <CHARNAME>. Shar me révèlera les secrets qui permettront de surmonter la malédiction.~
 // BG1 NPC : texte proche dans le fichier x#viint.tra au numéro 85
 @761  = ~Je crains que non, drow. Le poison a été ensorcelé de manière à s'assurer qu'aucune magie ne fonctionnerait contre lui... Le Trône de Fer tient vraiment à vous voir morts.~
 // Kivan - Lothandre

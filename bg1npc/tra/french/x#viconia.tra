@@ -1,66 +1,66 @@
 //PC1
 @0 = ~La lumière ! Ça brûle !~
-@1 = ~Chez les drows, nous avons un proverbe... ssussun pholor dos : que la lumière soit sur toi. C'est considéré comme une terrible malédiction. <CHARNAME>, je t'ai dit plus tôt que j'irais où tu voudrais, aussi longtemps que tu me cacherais de ce maudit soleil. Je... Vraiment, je ne peux pas supporter ses rayons.~
+@1 = ~Chez les drows, nous avons un proverbe... ssussun pholor dos : que la lumière soit sur toi. C'est considéré comme une terrible malédiction. <CHARNAME>, je vous ai dit plus tôt que j'irais où vous voudriez, aussi longtemps que vous me cacheriez de ce maudit soleil. Je... Vraiment, je ne peux pas supporter ses rayons.~
 @2 = ~Désolé, Viconia. On ne peut pas toujours voyager de nuit, mais je peux essayer de faire un effort supplémentaire.~ ~Désolée, Viconia. On ne peut pas toujours voyager de nuit, mais je peux essayer de faire un effort supplémentaire.~
-@3 = ~Tu sais, Viconia, si tu dois vivre en surface, tu vas devoir t'habituer au soleil.~
-@4 = ~Tu pourrais arrêter tes jérémiades ? Tu crois peut-être que les autres apprécient d'entendre ça ?~
+@3 = ~Vous savez, Viconia, si vous devez vivre en surface, vous allez devoir vous habituer au soleil.~
+@4 = ~Vous pourriez arrêter vos jérémiades ? Vous croyez peut-être que les autres apprécient d'entendre ça ?~
 @5 = ~Je l'espère bien. Sinon je vais sûrement dépérir sous la brûlante oppression de votre... lumière du jour.~
 @6 = ~Pff, cette seule pensée me dégoûte. Je ne sais même pas si je me sentirai jamais chez moi sous ce brûlant incendie.~
-@7 = ~Ça devrait venir, avec le temps. C'est à toi de surmonter ça.~
-@8 = ~Non. Peut-être que tu ne t'y feras pas. Mais de toute façon tu vas devoir vivre avec.~
-@9 = ~Arrête là le mélodrame. Pourrais-tu souffrir un peu plus silencieusement, par égard pour ma santé mentale ?~
-@10 = ~Mes excuses. J'ai dépassé les bornes, à ce qu'il semble. J'ai encore beaucoup à apprendre sur ton monde...~
-@11 = ~Je crois qu'il pourrait y avoir de la sagesse dans tes paroles, <CHARNAME>. Bien que ça ne m'en brûle pas moins, peut-être parviendrai-je à le tolérer. Ça ne me sert en rien d'être aussi insupportablement faible, en tout cas.~
+@7 = ~Ça devrait venir, avec le temps. C'est à vous de surmonter ça.~
+@8 = ~Non. Peut-être que vous ne vous y ferez pas. Mais de toute façon vous allez devoir vivre avec.~
+@9 = ~Arrêtez là le mélodrame. Pourriez-vous souffrir un peu plus silencieusement, par égard pour ma santé mentale ?~
+@10 = ~Mes excuses. J'ai dépassé les bornes, à ce qu'il semble. J'ai encore beaucoup à apprendre sur votre monde...~
+@11 = ~Je crois qu'il pourrait y avoir de la sagesse dans vos paroles, <CHARNAME>. Bien que ça ne m'en brûle pas moins, peut-être parviendrai-je à le tolérer. Ça ne me sert en rien d'être aussi insupportablement faible, en tout cas.~
 
 
 //PC2
-@12 = ~Ta conception toute surfacine du compagnonnage m'est encore très étrangère, <CHARNAME>. Ton Imoen, par exemple. Loin des oreilles indiscrètes, je te le dis : si la décision m'appartenait, jamais je ne l'aurais emmenée avec nous.~
-@13 = ~Bien qu'elle ait son utilité, je ne suis pas d'avis qu'elle vaille vraiment tous les soucis qu'elle cause. Mais, une fois de plus, je reconnais que je suis drow, et que je pense différemment de toi. Quel est ton raisonnement, <CHARNAME> ? Pourquoi prends-tu cette fille avec toi ?~
+@12 = ~Votre conception toute surfacine du compagnonnage m'est encore très étrangère, <CHARNAME>. Votre Imoen, par exemple. Loin des oreilles indiscrètes, je vous le dis : si la décision m'appartenait, jamais je ne l'aurais emmenée avec nous.~
+@13 = ~Bien qu'elle ait son utilité, je ne suis pas d'avis qu'elle vaille vraiment tous les soucis qu'elle cause. Mais, une fois de plus, je reconnais que je suis drow, et que je pense différemment de vous. Quel est votre raisonnement, <CHARNAME> ? Pourquoi prenez-vous cette fille avec vous ?~
 @14 = ~Imoen est bien plus qu'un membre du groupe. C'est une vieille amie.~
 @15 = ~Elle peut être odieuse, mais elle est suffisamment utile pour que ça l'emporte.~
 @16 = ~Elle est comme une soeur pour moi, et il y a là un attachement qui va au-delà de savoir à quel point elle peut être utile ou ennuyeuse.~
 @17 = ~C'est une bonne question. Je ne sais pas pourquoi je l'emmène avec moi.~
-@18 = ~Une vieille amie. Pff, vraiment, <CHARNAME>, tu veux me faire croire que tu considères sa valeur envers toi en tant... en tant qu'amie, avant de considérer sa capacité à nous garder en vie ?~
+@18 = ~Une vieille amie. Pff, vraiment, <CHARNAME>, vous voulez me faire croire que vous considérez sa valeur envers vous en tant... en tant qu'amie, avant de considérer sa capacité à nous garder en vie ?~
 @19 = ~Oui. Qu'est-ce qui est si dur à croire là-dedans ?~
 @20 = ~Viconia, Imoen compte pour moi. C'est peut-être difficile à comprendre pour une drow, mais c'est comme ça.~
-@21 = ~Oui, c'est le cas. Et je ne veux pas que tu juges Imoen comme ça, ou que tu lui fasses le moindre mal.~
+@21 = ~Oui, c'est le cas. Et je ne veux pas que vous jugiez Imoen comme ça, ou que vous lui fassiez le moindre mal.~
 @22 = ~Euh, eh bien, pas vraiment.~
-@23 = ~Pour ma part, je me permets d'être d'un autre avis. Je ne la vois fournir aucune contribution qui vaille la pression qu'elle exerce sur mes nerfs. Mais c'est toi qui as la charge de ce groupe, <CHARNAME>, et c'est à toi de juger de cette question.~
-@24 = ~Vraiment ? Alors tu emmènes cette fille avec toi à cause de ses talents ?~
+@23 = ~Pour ma part, je me permets d'être d'un autre avis. Je ne la vois fournir aucune contribution qui vaille la pression qu'elle exerce sur mes nerfs. Mais c'est vous qui avez la charge de ce groupe, <CHARNAME>, et c'est à vous de juger de cette question.~
+@24 = ~Vraiment ? Alors vous emmenez cette fille avec vous à cause de ses talents ?~
 @25 = ~Oui. C'est un membre de valeur dans ce groupe.~
 @26 = ~Que puis-je dire de plus ? Elle fait bien son travail.~
 @27 = ~Eh bien, elle n'est pas là uniquement à cause de ses compétences, je suppose.~
-@28 = ~Ta soeur, dis-tu ? De l'attachement ? Il va falloir que tu comprennes quand je te dis que les manières des surfacins me semblent complètement stupides.~
+@28 = ~Votre soeur, dites-vous ? De l'attachement ? Il va falloir que vous compreniez quand je vous dis que les manières des surfacins me semblent complètement stupides.~
 @29 = ~Dans ma maison, mes dalninilen, mes soeurs, comme vous dites, n'avaient certainement aucun attachement pour moi, ni moi pour elles. Nous étions au mieux des rivales, au pire des ennemies jurées.~
 @30 = ~C'était l'Ombre-Terre. Les choses sont différentes ici.~
-@31 = ~Eh bien, Imoen et moi ne sommes pas comme ta fratrie. Nous sommes des amis proches, et loyaux l'un envers l'autre.~ ~Eh bien, Imoen et moi ne sommes pas comme ta fratrie. Nous sommes des amies proches, et loyales l'une envers l'autre.~
-@32 = ~Ne te fais aucune idée à propos d'une telle compétition. Je ne veux pas que tu fasses de mal à Imoen.~
-@33 = ~Alors tu vois la stupidité de vos manières ? Vraiment, <CHARNAME>, je peux comprendre pourquoi tu pourrais avoir de... la tendresse... pour cette enfant, mais elle est surtout un handicap pour nous tous. Peut-être devrait-elle partir.~
-@34 = ~Peut-être as-tu raison. J'y réfléchirai.~
-@35 = ~Non, Viconia. Imoen va rester, et je ne te laisserai pas lui faire de mal.~
+@31 = ~Eh bien, Imoen et moi ne sommes pas comme votre fratrie. Nous sommes des amis proches, et loyaux l'un envers l'autre.~ ~Eh bien, Imoen et moi ne sommes pas comme votre fratrie. Nous sommes des amies proches, et loyales l'une envers l'autre.~
+@32 = ~Ne vous faites aucune idée à propos d'une telle compétition. Je ne veux pas que vous fassiez de mal à Imoen.~
+@33 = ~Alors vous voyez la stupidité de vos manières ? Vraiment, <CHARNAME>, je peux comprendre pourquoi vous pourriez avoir de... la tendresse... pour cette enfant, mais elle est surtout un handicap pour nous tous. Peut-être devrait-elle partir.~
+@34 = ~Peut-être avez-vous raison. J'y réfléchirai.~
+@35 = ~Non, Viconia. Imoen va rester, et je ne vous laisserai pas lui faire de mal.~
 @36 = ~Hmm. Intéressant. Finalement, ce monde n'est peut-être pas si différent du mien que je ne l'avais d'abord pensé.~
-@37 = ~Qu'est-ce que c'est, alors ? Pourquoi continues-tu à l'accepter ?~
-@38 = ~...Calme-toi, <CHARNAME>. Je ne chercherai pas à faire du mal à cette fille, aussi longtemps qu'aucun de vous ne me fera de mal. Bon ! Allons-y. Tout de suite.~
+@37 = ~Qu'est-ce que c'est, alors ? Pourquoi continuez-vous à l'accepter ?~
+@38 = ~...Calmez-vous, <CHARNAME>. Je ne chercherai pas à faire du mal à cette fille, aussi longtemps qu'aucun de vous ne me fera de mal. Bon ! Allons-y. Tout de suite.~
 @39 = ~Les façons de penser des surfacins sont tellement bizarres. Je suis drow... Peut-être ne suis-je pas censée les comprendre.~
 
 
 //PC3
-@40 = ~Je crois que je ne t'ai jamais correctement remercié, <CHARNAME>, de m'avoir sauvée et prise avec toi. Je n'ai pas été très... reconnaissante à ce sujet.~ ~Je crois que je ne t'ai jamais correctement remerciée, <CHARNAME>, de m'avoir sauvée et prise avec toi. Je n'ai pas été très... reconnaissante à ce sujet.~
+@40 = ~Je crois que je ne vous ai jamais correctement remercié, <CHARNAME>, de m'avoir sauvée et prise avec vous. Je n'ai pas été très... reconnaissante à ce sujet.~ ~Je crois que je ne vous ai jamais correctement remerciée, <CHARNAME>, de m'avoir sauvée et prise avec vous. Je n'ai pas été très... reconnaissante à ce sujet.~
 @41 = ~Bel'la dos, ussta abbil. À notre nouvelle alliance ! Puissent nos ennemis tomber sous nos coups !~
-@42 = ~Tu es la bienvenue, Viconia.~
-@43 = ~Tu es la bienvenue. Veille à y mettre du tien, ou tu pars.~
+@42 = ~Vous êtes la bienvenue, Viconia.~
+@43 = ~Vous êtes la bienvenue. Veillez à y mettre du vôtre, ou vous partez.~
 @44 = ~Me remercier ? J'ai entendu parler de la façon dont les drows paient leurs dettes.~
-@45 = ~Et s'ils ne tombent pas, du moins trembleront-ils. Je t'apprécie déjà, drow.~
+@45 = ~Et s'ils ne tombent pas, du moins trembleront-ils. Je vous apprécie déjà, drow.~
 @46 = ~Bienvenue ? Je suis la bienvenue. Cela sonne agréablement à mes oreilles, <CHARNAME>.~
 @47 = ~Ulu z'hin maglust dal qu'ellar lueth valsharess zhah ulu z'hin wund lil phalar. Bien que je marche à présent à l'écart de la Maison et de la Reine, mon association avec ce groupe peut encore me sauver de la tombe. <CHARNAME> ultrin !~
-@48 = ~Mais bien sûr. Je ne m'attends sûrement pas à ce que tu m'offres l'abri gratuitement. Sois tranquille, mes compétences te serviront bien.~
+@48 = ~Mais bien sûr. Je ne m'attends sûrement pas à ce que vous m'offriez l'abri gratuitement. Soyez tranquille, mes compétences vous serviront bien.~
 @49 = ~*Elle s'arrête un moment, comme si la suggestion l'avait prise au dépourvu. Elle laisse échapper un soupir de dédain, mais le temps que ses yeux rencontrent ceux de <CHARNAME>, son expression laisse place à un amusement malicieux.*~
-@50 = ~Bien sûr. J'avais oublié à quel point l'esprit des surfacins était fasciné par ceux de ma race. Très bien, <RACE>, tu auras réparation, si c'est ce que tu veux.~
+@50 = ~Bien sûr. J'avais oublié à quel point l'esprit des surfacins était fasciné par ceux de ma race. Très bien, <RACE>, vous aurez réparation, si c'est ce que vous voulez.~
 @51 = ~C'est cet état d'esprit qui m... nous maintiendra en vie.~
 
 
 //Safana
-@52 = ~Jaluk ! Mâle ! J'ai soif. Retourne me chercher à boire !~
+@52 = ~Jaluk ! Mâle ! J'ai soif. Retournez me chercher à boire !~
 @53 = ~Viconia, ma chère, peut-être en as-tu pris un peu trop.~
 @54 = ~Pfff, absurde ! Je ne me suis jamais sentie aussi puissante depuis que j'ai quitté mon ancien foyer... Où donc est passé ce jaluk ?~
 @55 = ~Il s'est probablement enfui terrorisé, comme les autres. C'est ce que j'aurais fait aussi, si une drow m'avait injurié et m'avait dit qu'elle allait me couper la langue. Tu perds la main, ma chère, peut-être devrais-tu aller cuver.~
@@ -306,22 +306,22 @@
 @223 = ~C'est mon dernier avertissement, drow. La prochaine fois, je vous tuerai !~ [%tutu_var%KIVAN30]
 @224 = ~Peuh ! Si, pour une fois, tu mettais tes actes en accord avec tes vaines menaces, tu m'en verrais ravie.~
 @225 = ~Calmez-vous, tous les deux ! Je ne veux pas vous voir vous disputer ainsi.~
-@226 = ~Viconia, arrête de chercher Kivan. Il n'a rien demandé.~
+@226 = ~Viconia, arrêtez de chercher Kivan. Il n'a rien demandé.~
 @227 = ~Kivan, laissez Viconia tranquille. Elle ne mérite pas vos menaces.~
 @228 = ~Oh, réglez ça, ou taisez-vous ! Je ne supporte pas vos chamailleries.~
 @229 = ~(Ne rien dire.)~
-@230 = ~Si... Si c'est ce que tu veux, <CHARNAME>, ce sera fait. Je ne peux cependant m'empêcher de me demander combien de temps il me faudra encore endurer cet insupportable tourment !~
-@231 = ~<CHARNAME> ! Tu... es-tu en train de me trahir ? De me trahir pour ce darthiir belliqueux ?~
+@230 = ~Si... Si c'est ce que vous voulez, <CHARNAME>, ce sera fait. Je ne peux cependant m'empêcher de me demander combien de temps il me faudra encore endurer cet insupportable tourment !~
+@231 = ~<CHARNAME> ! Vous... êtes-vous en train de me trahir ? De me trahir pour ce darthiir belliqueux ?~
 @232 = ~Je ne choisis pas de camp. Vous allez tous les deux arrêter de vous quereller, et voilà tout.~
-@233 = ~Tu l'as poussé suffisamment loin, Viconia. Tu es un facteur de division dans ce groupe.~
+@233 = ~Vous l'avez poussé suffisamment loin, Viconia. Vous êtes un facteur de division dans ce groupe.~
 @234 = ~Ouf.~
 @235 = ~Pfff ! Ce darthiir est un imbécile, <CHARNAME>.~
 @236 = ~Écoute, je refuse de prendre parti. Contentez-vous d'arrêter de vous battre, tous les deux.~
-@237 = ~Je suis fatigué de tes tendances violentes. Je ne peux plus les tolérer.~ ~Je suis fatiguée de tes tendances violentes. Je ne peux plus les tolérer.~
+@237 = ~Je suis fatigué de vos tendances violentes. Je ne peux plus les tolérer.~ ~Je suis fatiguée de vos tendances violentes. Je ne peux plus les tolérer.~
 @238 = ~Oloth plynn dos, darthiir. Lil alurl ! Pour Shar !~
-@239 = ~Alors c'est vrai... Tu m'as abandonnée. Jal khaless zhah waela. Comme c'est vrai, et comme j'ai été aveugle d'avoir pu croire autrement.~
-@240 = ~Maudit fut le jour de notre rencontre, ordure surfacine. Oloth plynn jal ! N'essaie pas de me suivre, ou je serai tentée de te frapper en retour.~
-@241 = ~Peuh ! Ce darthiir est fou ! Bien que je souhaite que tu reconsidères sa présence parmi nous, <CHARNAME>, je peux me plier à ta décision.~
+@239 = ~Alors c'est vrai... Vous m'avez abandonnée. Jal khaless zhah waela. Comme c'est vrai, et comme j'ai été aveugle d'avoir pu croire autrement.~
+@240 = ~Maudit fut le jour de notre rencontre, ordure surfacine. Oloth plynn jal ! N'essayez pas de me suivre, ou je serai tentée de vous frapper en retour.~
+@241 = ~Peuh ! Ce darthiir est fou ! Bien que je souhaite que vous reconsidériez sa présence parmi nous, <CHARNAME>, je peux me plier à votre décision.~
 @242 = ~Vith'os, darthiir ! Tu ne mérites pas un meilleur sort !~
 @243 = ~Ce darthiir était fou, <CHARNAME> ! Son départ est un soulagement pour nous tous.~
 @244 = ~Il semblerait que la drow vous tienne dans ses griffes, finalement. Il est malheureux, <CHARNAME>, de voir des personnes que je croyais autrefois si dignes de mon respect tomber si bas... Mais si c'est ainsi que les choses ont tourné... alors je n'ai pas d'autre choix que de partir. Je ne peux rester plus longtemps pendant que cette femme empoisonne votre esprit.~
@@ -330,7 +330,7 @@
 @247 = ~Alors debout et faites-moi face, Viconia. Ma conscience n'exige pas moins que d'assister à votre mort.~
 @248 = ~Très bien, <CHARNAME>. Je ne dirai pas un mot à la drow à partir de maintenant.~
 @249 = ~Allez-vous vraiment tomber dans sa toile de duperies, <CHARNAME> ? Nous ne pouvons plus nous fier à celle-ci et la laisser dans notre dos... comploter et conspirer comme elle sait si bien faire.~
-@250 = ~Viconia... Kivan a raison. Nous ne pouvons plus te faire confiance.~
+@250 = ~Viconia... Kivan a raison. Nous ne pouvons plus vous faire confiance.~
 @251 = ~Écoutez, Kivan, vous l'avez suffisamment harcelée.~
 @252 = ~Je vous ai demandé à tous les deux de ne pas vous quereller, et je le pensais. Je détesterais voir ceci se résoudre par la force.~
 @253 = ~L'elfe noire vous a pris au piège, <CHARNAME>. Ne devenez pas sa victime.~ ~L'elfe noire vous a prise au piège, <CHARNAME>. Ne devenez pas sa victime.~
