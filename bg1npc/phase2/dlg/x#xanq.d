@@ -6,7 +6,7 @@ IF ~%BGT_VAR% Global("X#XanQuest1","GLOBAL",4)~ THEN BEGIN XANQU1.1
 SAY @0
 IF ~~ THEN REPLY @1 EXTERN ~X#CHOP~ CHOPXAN4
 IF ~Gender(Player1, FEMALE)~ THEN REPLY @2 EXTERN ~X#CHOP~ CHOPXAN4
-IF ~~ THEN REPLY @3 DO ~SetGlobal("X#XanQuest1","GLOBAL",5) ActionOverride("X#CHOP", Enemy()) ActionOverride("X#CRU11", Enemy())~ EXIT
+IF ~~ THEN REPLY @3 DO ~SetGlobal("X#XanQuest1","GLOBAL",5)~ EXTERN ~X#DAVI~ DAVI3
 IF ~~ THEN REPLY @4 EXTERN ~X#CHOP~ CHOPXAN4
 END
 
